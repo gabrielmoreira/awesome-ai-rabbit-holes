@@ -468,6 +468,220 @@ describe("AI insights", () => {
     expect(result.tags).toContain("coding-agent");
     expect(result.tags).toContain("mcp-server");
   });
+
+  it("prompt includes README excerpt when readme is provided", () => {
+    const item = makeItem({
+      metadata: {
+        github: {
+          stars: 100, forks: 1, license: "MIT", archived: false,
+          pushed_at: "2026-04-01", description: "A tool.", homepage: null, topics: ["ai"], last_checked_at: null,
+        },
+      },
+    });
+    const readme = "# Cool Tool\n\nThis tool turns prompts into pull requests.";
+    const prompt = buildInsightPrompt({ item, categories: ["coding-agents"], readme });
+    expect(prompt).toContain("README excerpt (markdown");
+    expect(prompt).toContain("turns prompts into pull requests");
+  });
+
+  it("prompt omits README excerpt section when readme is missing", () => {
+    const item = makeItem({
+      metadata: {
+        github: {
+          stars: 100, forks: 1, license: "MIT", archived: false,
+          pushed_at: "2026-04-01", description: "A tool.", homepage: null, topics: ["ai"], last_checked_at: null,
+        },
+      },
+    });
+    const prompt = buildInsightPrompt({ item, categories: ["coding-agents"] });
+    // The delimited body section is not present, even though instructions
+    // about README excerpts may still mention the phrase.
+    expect(prompt).not.toContain("README excerpt (markdown");
+    // Empty string should also be treated as missing.
+    const prompt2 = buildInsightPrompt({ item, categories: ["coding-agents"], readme: "" });
+    expect(prompt2).not.toContain("README excerpt (markdown");
+    // No "Not available" placeholder either — the section is just omitted.
+    expect(prompt).not.toContain("Not available");
+  });
+
+  it("README excerpt is truncated near the budget with a visible marker", async () => {
+    const { truncateReadmeForPrompt, README_EXCERPT_MAX_CHARS, README_TRUNCATION_MARKER } =
+      await import("../scripts/ai.js");
+    // Build a long README with section headings so the truncator can find a boundary.
+    const sections: string[] = ["# Title\n\nIntro paragraph.\n"];
+    for (let i = 0; i < 50; i++) {
+      sections.push(`\n## Section ${i}\n\n${"x".repeat(500)}\n`);
+    }
+    const long = sections.join("");
+    expect(long.length).toBeGreaterThan(README_EXCERPT_MAX_CHARS);
+    const truncated = truncateReadmeForPrompt(long);
+    expect(truncated.endsWith(README_TRUNCATION_MARKER)).toBe(true);
+    expect(truncated.length).toBeLessThanOrEqual(README_EXCERPT_MAX_CHARS + README_TRUNCATION_MARKER.length);
+    // Beginning is preserved.
+    expect(truncated.startsWith("# Title")).toBe(true);
+  });
+
+  it("short README is returned unchanged by truncator", async () => {
+    const { truncateReadmeForPrompt } = await import("../scripts/ai.js");
+    const short = "# Title\n\nA short readme.";
+    expect(truncateReadmeForPrompt(short)).toBe(short);
+  });
+
+  it("prompt encodes useful->funny->acidic tone ladder and reality guardrail", () => {
+    const item = makeItem();
+    const prompt = buildInsightPrompt({ item, categories: ["coding-agents"] });
+    // Tone ladder
+    expect(prompt).toMatch(/Useful first/i);
+    expect(prompt).toMatch(/Funny second/i);
+    expect(prompt).toMatch(/Acidic third/i);
+    // Reality guardrail: joke must be grounded
+    expect(prompt).toMatch(/foot in reality/i);
+    // Author guardrail
+    expect(prompt).toMatch(/No attacks on the project authors|do not mock authors|not at the people/i);
+    // No invented features
+    expect(prompt).toMatch(/invent/i);
+    // Anti-generic
+    expect(prompt).toMatch(/another AI tool/i);
+  });
+
+  it("prompt instructs that description seeds summary and README seeds substance", () => {
+    const item = makeItem();
+    const prompt = buildInsightPrompt({ item, categories: ["coding-agents"] });
+    expect(prompt).toMatch(/Repo description:/);
+    expect(prompt).toMatch(/seed for the factual one-line summary/i);
+    expect(prompt).toMatch(/README excerpt: the project's own pitch/i);
+  });
+});
+
+// ─── README enrichment ───────────────────────────────────────────────────────
+
+describe("enrichWithGitHub readme integration", () => {
+  let tmpRoot: string;
+  let originalCwd: string;
+  const originalFetch = globalThis.fetch;
+
+  beforeEach(() => {
+    tmpRoot = fs.mkdtempSync(path.join(os.tmpdir(), "aarh-readme-"));
+    originalCwd = process.cwd();
+  });
+
+  afterEach(() => {
+    globalThis.fetch = originalFetch;
+    process.chdir(originalCwd);
+    fs.rmSync(tmpRoot, { recursive: true, force: true });
+  });
+
+  function mockFetch(handler: (url: string) => { ok: boolean; status?: number; body: string }) {
+    const calls: string[] = [];
+    globalThis.fetch = (async (input: RequestInfo | URL) => {
+      const url = typeof input === "string" ? input : input.toString();
+      calls.push(url);
+      const result = handler(url);
+      return {
+        ok: result.ok,
+        status: result.status ?? (result.ok ? 200 : 404),
+        statusText: result.ok ? "OK" : "Not Found",
+        json: async () => JSON.parse(result.body),
+        text: async () => result.body,
+      } as Response;
+    }) as typeof fetch;
+    return calls;
+  }
+
+  it("fetches README and writes it to the .cache directory", async () => {
+    const { enrichWithGitHub, readmeCachePath, readReadmeFromCache } =
+      await import("../scripts/catalog.js");
+    const repoJson = JSON.stringify({
+      stargazers_count: 10, forks_count: 2, license: { spdx_id: "MIT" },
+      archived: false, pushed_at: "2026-04-01", description: "A neat tool.",
+      homepage: null, topics: ["ai"],
+    });
+    const readmeBody = "# Neat Tool\n\nIt does neat things for AI workflows.";
+    const calls = mockFetch((url) => {
+      if (url.endsWith("/readme")) return { ok: true, body: readmeBody };
+      return { ok: true, body: repoJson };
+    });
+
+    const item = makeItem();
+    const enriched = await enrichWithGitHub(item);
+
+    // Both endpoints called.
+    expect(calls.some((u) => u.endsWith("/repos/testowner/test-repo"))).toBe(true);
+    expect(calls.some((u) => u.endsWith("/repos/testowner/test-repo/readme"))).toBe(true);
+
+    // Cache file exists at the documented path.
+    const cachePath = readmeCachePath("testowner", "test-repo");
+    expect(cachePath).toContain(path.join(".cache", "readmes", "github", "testowner", "test-repo.md"));
+    expect(fs.existsSync(cachePath)).toBe(true);
+    expect(readReadmeFromCache("testowner", "test-repo")).toBe(readmeBody);
+
+    // Provenance recorded on the item; README body is NOT in the YAML.
+    expect(enriched.metadata.github.readme).not.toBeNull();
+    expect(enriched.metadata.github.readme?.bytes).toBe(Buffer.byteLength(readmeBody, "utf8"));
+    expect(typeof enriched.metadata.github.readme?.fetched_at).toBe("string");
+
+    // Clean up cache file written under repo root.
+    try { fs.unlinkSync(cachePath); } catch { /* best effort */ }
+  });
+
+  it("README 404 does not break enrichment; readme provenance stays null", async () => {
+    const { enrichWithGitHub } = await import("../scripts/catalog.js");
+    const repoJson = JSON.stringify({
+      stargazers_count: 5, forks_count: 0, license: null,
+      archived: false, pushed_at: "2026-04-01", description: "Thing.",
+      homepage: null, topics: [],
+    });
+    mockFetch((url) => {
+      if (url.endsWith("/readme")) return { ok: false, status: 404, body: "" };
+      return { ok: true, body: repoJson };
+    });
+
+    const item = makeItem();
+    const enriched = await enrichWithGitHub(item);
+
+    // Repo metadata still applied.
+    expect(enriched.metadata.github.stars).toBe(5);
+    expect(enriched.metadata.github.last_checked_at).not.toBeNull();
+    // README provenance not set on a fresh failure (no prior cache).
+    expect(enriched.metadata.github.readme ?? null).toBeNull();
+  });
+
+  it("README fetch failure preserves prior readme provenance and cache", async () => {
+    const { enrichWithGitHub, readmeCachePath } = await import("../scripts/catalog.js");
+    const cachePath = readmeCachePath("testowner", "test-repo");
+    fs.mkdirSync(path.dirname(cachePath), { recursive: true });
+    fs.writeFileSync(cachePath, "# Older cached README", "utf8");
+    try {
+      const repoJson = JSON.stringify({
+        stargazers_count: 7, forks_count: 0, license: null,
+        archived: false, pushed_at: "2026-04-01", description: "Thing.",
+        homepage: null, topics: [],
+      });
+      mockFetch((url) => {
+        if (url.endsWith("/readme")) return { ok: false, status: 500, body: "" };
+        return { ok: true, body: repoJson };
+      });
+
+      const item = makeItem({
+        metadata: {
+          github: {
+            stars: null, forks: null, license: null, archived: null,
+            pushed_at: null, description: null, homepage: null, topics: null,
+            last_checked_at: null,
+            readme: { fetched_at: "2026-04-01T00:00:00Z", bytes: 21 },
+          },
+        },
+      });
+      const enriched = await enrichWithGitHub(item);
+
+      // Prior provenance preserved.
+      expect(enriched.metadata.github.readme?.fetched_at).toBe("2026-04-01T00:00:00Z");
+      // Cache file untouched.
+      expect(fs.readFileSync(cachePath, "utf8")).toBe("# Older cached README");
+    } finally {
+      try { fs.unlinkSync(cachePath); } catch { /* best effort */ }
+    }
+  });
 });
 
 // ─── Phase 9: Placement ───────────────────────────────────────────────────────

@@ -79,6 +79,11 @@ export interface Provenance {
   discoveries: Discovery[];
 }
 
+export interface GitHubReadmeProvenance {
+  fetched_at: string | null;
+  bytes: number | null;
+}
+
 export interface GitHubMetadata {
   stars: number | null;
   forks: number | null;
@@ -89,6 +94,7 @@ export interface GitHubMetadata {
   homepage: string | null;
   topics: string[] | null;
   last_checked_at: string | null;
+  readme?: GitHubReadmeProvenance | null;
 }
 
 export interface ItemMetadata {

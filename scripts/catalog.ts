@@ -5,7 +5,7 @@ import * as fs from "node:fs";
 import * as path from "node:path";
 import { fileURLToPath } from "node:url";
 import { readYaml, readYamlIfExists, writeYaml, yamlExists } from "./yaml.js";
-import { parseGitHubUrl, fetchGitHubRepo } from "./github.js";
+import { parseGitHubUrl, fetchGitHubRepo, fetchGitHubReadme } from "./github.js";
 import {
   renderReadme,
   renderRabbitHolePage,
@@ -26,6 +26,7 @@ import type {
   Discovery,
   LifecycleStatus,
   Insights,
+  GitHubReadmeProvenance,
 } from "./types.js";
 
 const REPO_ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -499,6 +500,31 @@ export function discover(
 
 // ─── Enrich (GitHub metadata) ─────────────────────────────────────────────────
 
+// README bodies are stored as a local cache, not in the catalog YAML, because
+// they are large, volatile, and would create giant noisy diffs in PRs. Only
+// small provenance (fetched_at, bytes) is persisted on the item itself.
+const README_CACHE_DIR = path.join(REPO_ROOT, ".cache", "readmes", "github");
+
+export function readmeCachePath(owner: string, repo: string): string {
+  return path.join(README_CACHE_DIR, owner, `${repo}.md`);
+}
+
+export function readReadmeFromCache(owner: string, repo: string): string | null {
+  const p = readmeCachePath(owner, repo);
+  if (!fs.existsSync(p)) return null;
+  try {
+    return fs.readFileSync(p, "utf8");
+  } catch {
+    return null;
+  }
+}
+
+function writeReadmeToCache(owner: string, repo: string, body: string): void {
+  const p = readmeCachePath(owner, repo);
+  fs.mkdirSync(path.dirname(p), { recursive: true });
+  fs.writeFileSync(p, body, "utf8");
+}
+
 export async function enrichWithGitHub(
   item: CatalogItem,
   token?: string
@@ -509,6 +535,21 @@ export async function enrichWithGitHub(
   const data = await fetchGitHubRepo(owner, repo, token);
 
   if (!data) return item;
+
+  // README is best-effort. 404 / private / empty / rate-limited must not
+  // fail enrichment — the AI stage falls back to description + topics only.
+  // On failure, leave any existing cache file in place and keep prior
+  // readme provenance, so we don't lose a previous fetch.
+  const previousReadme = item.metadata.github.readme ?? null;
+  let readmeProvenance: GitHubReadmeProvenance | null = previousReadme;
+  const readmeBody = await fetchGitHubReadme(owner, repo, token);
+  if (readmeBody !== null) {
+    writeReadmeToCache(owner, repo, readmeBody);
+    readmeProvenance = {
+      fetched_at: new Date().toISOString(),
+      bytes: Buffer.byteLength(readmeBody, "utf8"),
+    };
+  }
 
   return {
     ...item,
@@ -523,6 +564,7 @@ export async function enrichWithGitHub(
         homepage: data.homepage,
         topics: data.topics,
         last_checked_at: new Date().toISOString(),
+        readme: readmeProvenance,
       },
     },
   };

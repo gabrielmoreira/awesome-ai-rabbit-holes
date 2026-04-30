@@ -67,6 +67,12 @@ export async function fetchGitHubRepo(
   }
 }
 
+// Hard cap on raw README body we will read into memory, to defend against
+// absurd payloads (e.g. binary checked in as README, or HTML disguised as
+// markdown). 1 MiB is well above any reasonable README and well below the
+// point where we would care about memory.
+export const README_MAX_BYTES = 1024 * 1024;
+
 export async function fetchGitHubReadme(
   owner: string,
   repo: string,
@@ -84,7 +90,12 @@ export async function fetchGitHubReadme(
       headers,
     });
     if (!response.ok) return null;
-    return await response.text();
+    const text = await response.text();
+    if (!text) return null;
+    if (text.length > README_MAX_BYTES) {
+      return text.slice(0, README_MAX_BYTES);
+    }
+    return text;
   } catch {
     return null;
   }
