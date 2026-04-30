@@ -10,9 +10,11 @@ import {
   renderReadme,
   renderRabbitHolePage,
   renderSiteCatalog,
+  renderSourceCreditsPage,
   writeReadme,
   writeRabbitHolePage,
   writeSiteCatalog,
+  writeSourceCreditsPage,
 } from "./render.js";
 import type {
   Source,
@@ -644,6 +646,10 @@ export function render(items: CatalogItem[], categories: Category[], config: Cat
     const page = renderRabbitHolePage(category, items, include_source_credits);
     writeRabbitHolePage(category.slug, page);
   }
+
+  // Write dedicated source-credits page (external source lists/pages,
+  // not submitter identities)
+  writeSourceCreditsPage(renderSourceCreditsPage(items));
 
   // Write site/catalog.json
   const siteCatalog = renderSiteCatalog(items);

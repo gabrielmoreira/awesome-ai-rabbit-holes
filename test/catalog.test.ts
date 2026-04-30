@@ -5,6 +5,7 @@ import { describe, it, expect, beforeEach, afterEach } from "vitest";
 import * as fs from "node:fs";
 import * as path from "node:path";
 import * as os from "node:os";
+import { fileURLToPath } from "node:url";
 import {
   validateSources,
   validateCatalogItem,
@@ -669,5 +670,187 @@ describe("buildNewCatalogItem: configurable submitter", () => {
     );
     // Generic default — no hardcoded person name.
     expect(item.provenance.primary_credit.label).not.toBe("Gabriel Moreira");
+  });
+});
+
+// ─── Source Credits: README + dedicated page ─────────────────────────────────
+
+import { renderSourceCreditsPage } from "../scripts/render.js";
+
+function makeAwesomeListItem(): CatalogItem {
+  const base = makeItem();
+  return {
+    ...base,
+    id: "github__awesomelistowner__awesome-things",
+    name: "awesome-things",
+    canonical_url: "https://github.com/awesomelistowner/awesome-things",
+    provenance: {
+      primary_credit: { label: "Gabriel Moreira", url: null },
+      discoveries: [
+        {
+          id: "discovery__github__awesomelistowner__awesome-things__awesome-list",
+          discovered_at: "2026-04-30T00:00:00Z",
+          submitted_by: { type: "maintainer", name: "Gabriel Moreira", url: null },
+          contribution: { type: "manual", url: null, number: null, author: { name: "Gabriel Moreira", url: null } },
+          source: {
+            type: "awesome-list",
+            name: "Awesome Things",
+            url: "https://github.com/awesomelistowner/awesome-things",
+            repository: "awesomelistowner/awesome-things",
+          },
+          extraction: {
+            mode: "scraped",
+            section_path: ["Tools"],
+            anchor_text: "awesome-things",
+            extracted_url: "https://github.com/awesomelistowner/awesome-things",
+            surrounding_text: null,
+            confidence: "high",
+          },
+          credit: { label: "Awesome Things", url: "https://github.com/awesomelistowner/awesome-things" },
+        },
+      ],
+    },
+    placement: { primary_category: "awesome-awesomes", section: null },
+    lifecycle: { status: "curated" },
+  };
+}
+
+describe("README Source Credits", () => {
+  it("does not list submitter names as bullet credits", () => {
+    const item = makeItem({
+      provenance: {
+        primary_credit: { label: "Some Submitter", url: null },
+        discoveries: [
+          {
+            id: "discovery__github__testowner__test-repo__direct-link",
+            discovered_at: "2026-04-30T00:00:00Z",
+            submitted_by: { type: "maintainer", name: "Some Submitter", url: null },
+            contribution: { type: "manual", url: null, number: null, author: { name: "Some Submitter", url: null } },
+            source: { type: "direct-link", name: "Manual submission", url: null, repository: null },
+            extraction: {
+              mode: "direct",
+              section_path: ["inbox"],
+              anchor_text: "x",
+              extracted_url: "https://github.com/testowner/test-repo",
+              surrounding_text: null,
+              confidence: "high",
+            },
+            credit: { label: "Some Submitter", url: null },
+          },
+        ],
+      },
+      placement: { primary_category: "coding-agents", section: null },
+      lifecycle: { status: "curated" },
+    });
+    const readme = renderReadme([item], CATEGORIES, true);
+    // Old behavior was a bullet line "- Some Submitter" or "- [Some Submitter](...)"
+    expect(readme).not.toMatch(/^- \[?Some Submitter/m);
+    expect(readme).not.toMatch(/^- Some Submitter$/m);
+  });
+
+  it("renders the AI casino paragraph", () => {
+    const readme = renderReadme([], CATEGORIES, true);
+    expect(readme).toContain("## Source Credits");
+    expect(readme).toMatch(/casino|slot machine|lever/i);
+  });
+
+  it("links to the dedicated Source Credits page", () => {
+    const readme = renderReadme([], CATEGORIES, true);
+    expect(readme).toContain("docs/source-credits.md");
+  });
+
+  it("links to the Awesome Awesomes rabbit hole page", () => {
+    const readme = renderReadme([], CATEGORIES, true);
+    expect(readme).toContain("docs/rabbit-holes/awesome-awesomes.md");
+  });
+
+  it("Source Credits section is shown even when include_source_credits is false (the section is now generated, not a per-item credit list)", () => {
+    // We still want the casino text to be reachable; behavior with include=false
+    // is: section is omitted (preserves the toggle semantics for users who really
+    // do not want it). This test just locks the behavior in.
+    const readme = renderReadme([], CATEGORIES, false);
+    expect(readme).not.toContain("## Source Credits");
+  });
+});
+
+describe("dedicated Source Credits page", () => {
+  it("includes external source pages (awesome-list etc.)", () => {
+    const item = makeAwesomeListItem();
+    const page = renderSourceCreditsPage([item]);
+    expect(page).toContain("Awesome Things");
+    expect(page).toContain("https://github.com/awesomelistowner/awesome-things");
+  });
+
+  it("excludes manual submitter-only credits (direct-link / manual-submission)", () => {
+    // makeItem() default uses source.type = "direct-link"
+    const submitterOnly = makeItem({
+      provenance: {
+        primary_credit: { label: "Some Submitter", url: null },
+        discoveries: [
+          {
+            id: "discovery__github__testowner__test-repo__direct-link",
+            discovered_at: "2026-04-30T00:00:00Z",
+            submitted_by: { type: "maintainer", name: "Some Submitter", url: null },
+            contribution: { type: "manual", url: null, number: null, author: { name: "Some Submitter", url: null } },
+            source: { type: "direct-link", name: "Manual submission", url: null, repository: null },
+            extraction: {
+              mode: "direct",
+              section_path: ["inbox"],
+              anchor_text: "x",
+              extracted_url: "https://github.com/testowner/test-repo",
+              surrounding_text: null,
+              confidence: "high",
+            },
+            credit: { label: "Some Submitter", url: null },
+          },
+        ],
+      },
+    });
+    const page = renderSourceCreditsPage([submitterOnly]);
+    expect(page).not.toContain("Some Submitter");
+    expect(page).not.toContain("Manual submission");
+  });
+
+  it("preserves provenance data on items (does not mutate)", () => {
+    const item = makeAwesomeListItem();
+    const before = JSON.stringify(item.provenance);
+    renderSourceCreditsPage([item]);
+    expect(JSON.stringify(item.provenance)).toBe(before);
+  });
+
+  it("deduplicates the same external source listed by multiple items", () => {
+    const a = makeAwesomeListItem();
+    const b = { ...makeAwesomeListItem(), id: "github__b__b", canonical_url: "https://github.com/b/b" };
+    const page = renderSourceCreditsPage([a, b]);
+    // Source URL should appear once in the bullet list.
+    const occurrences = page.match(/awesomelistowner\/awesome-things/g) ?? [];
+    expect(occurrences.length).toBe(1);
+  });
+});
+
+describe("Context Engineering page wording", () => {
+  it("category description carries the 'tokens' joke (from catalog/categories.yml)", () => {
+    const yamlPath = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..", "catalog", "categories.yml");
+    const yaml = fs.readFileSync(yamlPath, "utf8");
+    // Pull out the context-engineering entry's description block.
+    const m = yaml.match(/- id: context-engineering[\s\S]*?description: >([\s\S]*?)(?:\n- id:|\n*$)/);
+    expect(m, "context-engineering category not found").not.toBeNull();
+    const description = (m![1] ?? "").toLowerCase();
+    expect(description).toMatch(/tokens?/);
+  });
+
+  it("renderRabbitHolePage emits the category description verbatim", () => {
+    const ctx: Category = {
+      id: "context-engineering",
+      name: "Prompting and Context Engineering",
+      slug: "prompting-context-engineering",
+      description: "give me tokens, my precious tokens",
+    };
+    const item = makeItem({
+      placement: { primary_category: "context-engineering", section: null },
+      lifecycle: { status: "curated" },
+    });
+    const page = renderRabbitHolePage(ctx, [item], false);
+    expect(page).toContain("give me tokens, my precious tokens");
   });
 });

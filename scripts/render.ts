@@ -20,6 +20,21 @@ Do not try to read everything.
 
 Pick one rabbit hole, follow it until it becomes useful or emotionally dangerous, then stop.`;
 
+const SOURCE_CREDITS_INTRO = `Humanity seems to be speedrunning a very weird AI casino: every new tool is another shiny slot machine, every benchmark is a jackpot animation, and somehow we keep pulling the lever while insisting this is productivity research. This catalog exists because someone had to keep track of the machines before we started calling the blinking lights a methodology.
+
+For the full list of awesome lists, indexes, and source pages we shamelessly mined for rabbit holes, see the dedicated [Source Credits](docs/source-credits.md) page or browse the [Awesome Awesomes](docs/rabbit-holes/awesome-awesomes.md) rabbit hole.`;
+
+// Source `type`s that represent an *external page* we discovered links from,
+// as opposed to a manual submission. Only these belong on the public Source
+// Credits page; submitter identity stays in structured provenance data.
+const EXTERNAL_SOURCE_TYPES = new Set([
+  "awesome-list",
+  "article",
+  "docs-page",
+  "newsletter",
+  "paper",
+]);
+
 export function renderReadme(
   items: CatalogItem[],
   categories: Category[],
@@ -41,17 +56,7 @@ export function renderReadme(
   }
 
   if (includeSourceCredits) {
-    const credits = collectSourceCredits(items);
-    if (credits.length > 0) {
-      lines.push("", "## Source Credits", "");
-      for (const credit of credits) {
-        if (credit.url) {
-          lines.push(`- [${credit.label}](${credit.url})`);
-        } else {
-          lines.push(`- ${credit.label}`);
-        }
-      }
-    }
+    lines.push("", "## Source Credits", "", SOURCE_CREDITS_INTRO);
   }
 
   return lines.join("\n") + "\n";
@@ -147,15 +152,44 @@ function collectSourceCredits(
 
   for (const item of items) {
     for (const discovery of item.provenance.discoveries) {
-      const key = discovery.credit.label;
-      if (!seen.has(key)) {
-        seen.add(key);
-        credits.push(discovery.credit);
-      }
+      if (!EXTERNAL_SOURCE_TYPES.has(discovery.source.type)) continue;
+      const sourceUrl = discovery.source.url;
+      const sourceName = discovery.source.name;
+      // Dedupe on URL when present, otherwise on name.
+      const key = sourceUrl ?? `name:${sourceName}`;
+      if (seen.has(key)) continue;
+      seen.add(key);
+      credits.push({ label: sourceName, url: sourceUrl });
     }
   }
 
   return credits;
+}
+
+const SOURCE_CREDITS_PAGE_INTRO = `# Source Credits
+
+This catalog did not emerge from divine inspiration. Most of the rabbit holes here were discovered by mining other people's awesome lists, indexes, articles, docs, and newsletters. The pages below did the curation work first; this catalog just remixes their findings into yet another rabbit hole.
+
+If you maintain one of these and want to be removed, opened up with more detail, or merged with a sibling list, open an issue.`;
+
+export function renderSourceCreditsPage(items: CatalogItem[]): string {
+  const credits = collectSourceCredits(items);
+  const lines: string[] = [SOURCE_CREDITS_PAGE_INTRO, "", "## Sources", ""];
+
+  if (credits.length === 0) {
+    lines.push("_No external source pages have been mined yet._", "");
+  } else {
+    for (const credit of credits) {
+      if (credit.url) {
+        lines.push(`- [${credit.label}](${credit.url})`);
+      } else {
+        lines.push(`- ${credit.label}`);
+      }
+    }
+    lines.push("");
+  }
+
+  return lines.join("\n");
 }
 
 export function writeReadme(content: string): void {
@@ -166,6 +200,12 @@ export function writeRabbitHolePage(slug: string, content: string): void {
   const dir = path.join(REPO_ROOT, "docs", "rabbit-holes");
   fs.mkdirSync(dir, { recursive: true });
   fs.writeFileSync(path.join(dir, `${slug}.md`), content, "utf8");
+}
+
+export function writeSourceCreditsPage(content: string): void {
+  const dir = path.join(REPO_ROOT, "docs");
+  fs.mkdirSync(dir, { recursive: true });
+  fs.writeFileSync(path.join(dir, "source-credits.md"), content, "utf8");
 }
 
 export function writeSiteCatalog(data: object): void {

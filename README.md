@@ -15,4 +15,6 @@ Pick one rabbit hole, follow it until it becomes useful or emotionally dangerous
 
 ## Source Credits
 
-- [Gabriel Moreira](https://github.com/gabrielmoreira)
+Humanity seems to be speedrunning a very weird AI casino: every new tool is another shiny slot machine, every benchmark is a jackpot animation, and somehow we keep pulling the lever while insisting this is productivity research. This catalog exists because someone had to keep track of the machines before we started calling the blinking lights a methodology.
+
+For the full list of awesome lists, indexes, and source pages we shamelessly mined for rabbit holes, see the dedicated [Source Credits](docs/source-credits.md) page or browse the [Awesome Awesomes](docs/rabbit-holes/awesome-awesomes.md) rabbit hole.
