@@ -12,11 +12,6 @@ export interface GitHubRepoData {
   topics: string[];
 }
 
-export interface GitHubReadmeData {
-  content: string;
-  encoding: string;
-}
-
 export function parseGitHubUrl(url: string): { owner: string; repo: string } | null {
   const match = url.match(/^https?:\/\/github\.com\/([^/]+)\/([^/]+?)(?:\.git)?(?:\/.*)?$/);
   if (!match) return null;
@@ -90,11 +85,25 @@ export async function fetchGitHubReadme(
       headers,
     });
     if (!response.ok) return null;
-    const text = await response.text();
-    if (!text) return null;
-    if (text.length > README_MAX_BYTES) {
-      return text.slice(0, README_MAX_BYTES);
+    // Read as bytes so the cap actually counts bytes (not UTF-16 code
+    // units): a multi-byte UTF-8 README could otherwise smuggle past the
+    // limit. When truncating, walk back to the last UTF-8 lead byte so we
+    // never decode a partial codepoint (which would otherwise become
+    // U+FFFD and inflate the re-encoded length past the cap).
+    const buf = Buffer.from(await response.arrayBuffer());
+    if (buf.byteLength === 0) return null;
+    let capped = buf;
+    if (buf.byteLength > README_MAX_BYTES) {
+      let end = README_MAX_BYTES;
+      // 0b10xxxxxx is a continuation byte; back up until we land on a
+      // start byte (0xxxxxxx or 11xxxxxx) or hit the limit.
+      while (end > 0 && (buf[end] & 0b1100_0000) === 0b1000_0000) {
+        end--;
+      }
+      capped = buf.subarray(0, end);
     }
+    const text = new TextDecoder("utf-8").decode(capped);
+    if (!text) return null;
     return text;
   } catch {
     return null;

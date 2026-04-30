@@ -1,7 +1,13 @@
 // scripts/ai.ts
 // AI prompt and response boundary. Generates insights, tags, category candidates.
+//
+// Reading order: types and budget constants up front, then the public entry
+// points in dependency order — `buildInsightPrompt` (which calls
+// `truncateReadmeForPrompt`) before `parseAIInsightResponse`.
 
 import type { CatalogItem } from "./types.js";
+
+// ─── Types ────────────────────────────────────────────────────────────────────
 
 export interface AIInsightRequest {
   item: Pick<CatalogItem, "name" | "canonical_url" | "metadata" | "provenance">;
@@ -23,41 +29,15 @@ export interface AIInsightResponse {
   confidence: "high" | "medium" | "low";
 }
 
+// ─── Budget ───────────────────────────────────────────────────────────────────
+
 // Budget for the README excerpt sent to the model. ~6 KB ≈ ~1500 tokens, which
 // is enough for an intro + "What is this" + first feature section without
 // blowing up prompt size. The AI gets *substance*, not the whole repo.
 export const README_EXCERPT_MAX_CHARS = 6000;
 export const README_TRUNCATION_MARKER = "\n\n…[truncated]";
 
-/**
- * Truncate a README to a bounded excerpt suitable for inclusion in an LLM
- * prompt. Prefers cutting at a markdown section boundary (a `\n## ` heading)
- * near the budget so we don't slice mid-sentence. Always preserves the
- * beginning of the README (intro / "What is this" / "Why" / "Features"
- * usually live there).
- */
-export function truncateReadmeForPrompt(
-  readme: string,
-  maxChars: number = README_EXCERPT_MAX_CHARS
-): string {
-  if (readme.length <= maxChars) return readme;
-
-  const slice = readme.slice(0, maxChars);
-  // Look for the last `\n## ` (or `\n# `, `\n### `) heading inside the slice,
-  // but not so close to the start that we throw away most of the README.
-  const minKeep = Math.floor(maxChars * 0.5);
-  const headingMatch = slice.lastIndexOf("\n## ");
-  let cutAt = -1;
-  if (headingMatch >= minKeep) {
-    cutAt = headingMatch;
-  } else {
-    // Fall back to a paragraph break.
-    const paragraphMatch = slice.lastIndexOf("\n\n");
-    if (paragraphMatch >= minKeep) cutAt = paragraphMatch;
-  }
-  const body = cutAt > 0 ? slice.slice(0, cutAt) : slice;
-  return body.trimEnd() + README_TRUNCATION_MARKER;
-}
+// ─── Prompt ───────────────────────────────────────────────────────────────────
 
 export function buildInsightPrompt(request: AIInsightRequest): string {
   const { item, categories, readme } = request;
@@ -115,6 +95,37 @@ Rules:
 - tags: lowercase, hyphenated, max 5.
 - category_candidates: pick from the available categories list only.`;
 }
+
+/**
+ * Truncate a README to a bounded excerpt suitable for inclusion in an LLM
+ * prompt. Prefers cutting at a markdown `\n## ` section boundary near the
+ * budget so we don't slice mid-sentence; falls back to the last paragraph
+ * break (`\n\n`) when no usable heading is in range. Always preserves the
+ * beginning of the README (intro / "What is this" / "Why" / "Features"
+ * usually live there).
+ */
+export function truncateReadmeForPrompt(
+  readme: string,
+  maxChars: number = README_EXCERPT_MAX_CHARS
+): string {
+  if (readme.length <= maxChars) return readme;
+
+  const slice = readme.slice(0, maxChars);
+  // Don't cut so close to the start that we throw away most of the README.
+  const minKeep = Math.floor(maxChars * 0.5);
+  let cutAt = -1;
+  const headingMatch = slice.lastIndexOf("\n## ");
+  if (headingMatch >= minKeep) {
+    cutAt = headingMatch;
+  } else {
+    const paragraphMatch = slice.lastIndexOf("\n\n");
+    if (paragraphMatch >= minKeep) cutAt = paragraphMatch;
+  }
+  const body = cutAt > 0 ? slice.slice(0, cutAt) : slice;
+  return body.trimEnd() + README_TRUNCATION_MARKER;
+}
+
+// ─── Response parsing ─────────────────────────────────────────────────────────
 
 export function parseAIInsightResponse(raw: string): AIInsightResponse {
   let parsed: unknown;

@@ -577,12 +577,18 @@ describe("enrichWithGitHub readme integration", () => {
       const url = typeof input === "string" ? input : input.toString();
       calls.push(url);
       const result = handler(url);
+      const bodyBytes = Buffer.from(result.body, "utf8");
       return {
         ok: result.ok,
         status: result.status ?? (result.ok ? 200 : 404),
         statusText: result.ok ? "OK" : "Not Found",
         json: async () => JSON.parse(result.body),
         text: async () => result.body,
+        arrayBuffer: async () =>
+          bodyBytes.buffer.slice(
+            bodyBytes.byteOffset,
+            bodyBytes.byteOffset + bodyBytes.byteLength
+          ),
       } as Response;
     }) as typeof fetch;
     return calls;
@@ -681,6 +687,49 @@ describe("enrichWithGitHub readme integration", () => {
     } finally {
       try { fs.unlinkSync(cachePath); } catch { /* best effort */ }
     }
+  });
+
+  it("rejects path-traversal segments in owner/repo so the cache stays inside .cache/", async () => {
+    const { readmeCachePath } = await import("../scripts/catalog.js");
+    expect(() => readmeCachePath("..", "repo")).toThrow();
+    expect(() => readmeCachePath("owner", "..")).toThrow();
+    expect(() => readmeCachePath("owner/with/slash", "repo")).toThrow();
+    expect(() => readmeCachePath("owner", "..\\evil")).toThrow();
+    expect(() => readmeCachePath("", "repo")).toThrow();
+  });
+
+  it("cache hit: when metadata is fresh, the README endpoint is not re-hit", async () => {
+    const { shouldRefreshMetadata, enrichWithGitHub } = await import("../scripts/catalog.js");
+    const recent = new Date(Date.now() - 1000 * 60 * 60 * 24).toISOString(); // 1d ago
+    expect(shouldRefreshMetadata(recent, 7)).toBe(false);
+
+    const calls = mockFetch(() => ({ ok: true, body: "{}" }));
+    const item = makeItem({
+      metadata: {
+        github: {
+          stars: 1, forks: 0, license: null, archived: false,
+          pushed_at: null, description: null, homepage: null, topics: null,
+          last_checked_at: recent,
+          readme: { fetched_at: recent, bytes: 42 },
+        },
+      },
+    });
+    if (shouldRefreshMetadata(item.metadata.github.last_checked_at, 7)) {
+      await enrichWithGitHub(item);
+    }
+    expect(calls.length).toBe(0);
+  });
+
+  it("README cap is enforced in bytes, not UTF-16 code units", async () => {
+    const { fetchGitHubReadme, README_MAX_BYTES } = await import("../scripts/github.js");
+    // Multi-byte UTF-8 char (3 bytes in UTF-8, 1 code unit). A char-length
+    // check would let ~3× the budget through; a byte check must not.
+    const heavyChar = "✓";
+    const oversized = heavyChar.repeat(README_MAX_BYTES);
+    mockFetch(() => ({ ok: true, body: oversized }));
+    const got = await fetchGitHubReadme("owner", "repo");
+    expect(got).not.toBeNull();
+    expect(Buffer.byteLength(got!, "utf8")).toBeLessThanOrEqual(README_MAX_BYTES);
   });
 });
 

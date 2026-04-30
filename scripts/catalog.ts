@@ -505,7 +505,21 @@ export function discover(
 // small provenance (fetched_at, bytes) is persisted on the item itself.
 const README_CACHE_DIR = path.join(REPO_ROOT, ".cache", "readmes", "github");
 
+// GitHub repo and owner names are restricted to alphanumerics, `-`, `_`, and
+// `.` (no path separators, no `..`). We enforce that allowlist before joining
+// owner/repo into a filesystem path, so a crafted identity cannot escape the
+// `.cache` directory.
+const SAFE_PATH_SEGMENT = /^[A-Za-z0-9._-]+$/;
+
+function assertSafePathSegment(segment: string, label: string): void {
+  if (!segment || segment === "." || segment === ".." || !SAFE_PATH_SEGMENT.test(segment)) {
+    throw new Error(`Unsafe ${label} for cache path: ${JSON.stringify(segment)}`);
+  }
+}
+
 export function readmeCachePath(owner: string, repo: string): string {
+  assertSafePathSegment(owner, "owner");
+  assertSafePathSegment(repo, "repo");
   return path.join(README_CACHE_DIR, owner, `${repo}.md`);
 }
 
