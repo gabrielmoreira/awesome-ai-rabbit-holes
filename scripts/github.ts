@@ -13,9 +13,25 @@ export interface GitHubRepoData {
 }
 
 export function parseGitHubUrl(url: string): { owner: string; repo: string } | null {
-  const match = url.match(/^https?:\/\/github\.com\/([^/]+)\/([^/]+?)(?:\.git)?(?:\/.*)?$/);
-  if (!match) return null;
-  return { owner: match[1], repo: match[2] };
+  // Use the URL parser (not a regex) so query strings, fragments, trailing
+  // slashes, and `.git` suffixes do not bleed into the owner/repo segments.
+  let parsed: URL;
+  try {
+    parsed = new URL(url);
+  } catch {
+    return null;
+  }
+  if (parsed.protocol !== "http:" && parsed.protocol !== "https:") return null;
+  if (parsed.hostname !== "github.com") return null;
+
+  const segments = parsed.pathname.split("/").filter(Boolean);
+  if (segments.length < 2) return null;
+
+  const owner = segments[0];
+  let repo = segments[1];
+  if (repo.endsWith(".git")) repo = repo.slice(0, -".git".length);
+  if (!owner || !repo) return null;
+  return { owner, repo };
 }
 
 export async function fetchGitHubRepo(

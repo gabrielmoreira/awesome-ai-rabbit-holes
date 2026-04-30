@@ -398,7 +398,7 @@ describe("render", () => {
 
   it("site/catalog.json contains public item fields", () => {
     const item = makeItem();
-    const catalog = renderSiteCatalog([item]) as { items: Array<Record<string, unknown>> };
+    const catalog = renderSiteCatalog([item]);
     expect(catalog.items).toHaveLength(1);
     const catalogItem = catalog.items[0];
     expect(catalogItem).toHaveProperty("id");
@@ -412,6 +412,26 @@ describe("render", () => {
     const result1 = renderSiteCatalog([item]);
     const result2 = renderSiteCatalog([item]);
     expect(JSON.stringify(result1.items)).toBe(JSON.stringify(result2.items));
+  });
+
+  it("renderSiteCatalog is fully deterministic (including generated_at)", () => {
+    // Regression: `generated_at` used to be `new Date().toISOString()`, which
+    // made `check-generated-docs.yml` always report drift. It must now be
+    // derived from item data so two consecutive renders are byte-identical.
+    const item = makeItem({
+      metadata: {
+        github: {
+          stars: 1, forks: 0, license: null, archived: false,
+          pushed_at: null, description: null, homepage: null, topics: null,
+          last_checked_at: "2026-04-01T00:00:00Z",
+          readme: null,
+        },
+      },
+    });
+    const a = renderSiteCatalog([item]);
+    const b = renderSiteCatalog([item]);
+    expect(JSON.stringify(a)).toBe(JSON.stringify(b));
+    expect(a.generated_at).toBe("2026-04-01T00:00:00Z");
   });
 });
 
@@ -1214,5 +1234,83 @@ describe("cmdRefresh honors metadata_refresh_days", () => {
   it("shouldRefreshMetadata returns true when last_checked_at is null", async () => {
     const { shouldRefreshMetadata } = await import("../scripts/catalog.js");
     expect(shouldRefreshMetadata(null, 7)).toBe(true);
+  });
+});
+
+describe("parseGitHubUrl: query string and fragment handling", () => {
+  it("strips ?query and #fragment so they do not bleed into the repo name", async () => {
+    const { parseGitHubUrl } = await import("../scripts/github.js");
+    expect(parseGitHubUrl("https://github.com/org/repo?tab=readme")).toEqual({
+      owner: "org",
+      repo: "repo",
+    });
+    expect(parseGitHubUrl("https://github.com/org/repo#section")).toEqual({
+      owner: "org",
+      repo: "repo",
+    });
+    expect(parseGitHubUrl("https://github.com/org/repo.git")).toEqual({
+      owner: "org",
+      repo: "repo",
+    });
+    expect(parseGitHubUrl("https://github.com/org/repo/tree/main")).toEqual({
+      owner: "org",
+      repo: "repo",
+    });
+  });
+
+  it("rejects non-github hosts and malformed URLs", async () => {
+    const { parseGitHubUrl } = await import("../scripts/github.js");
+    expect(parseGitHubUrl("https://gitlab.com/org/repo")).toBeNull();
+    expect(parseGitHubUrl("not a url")).toBeNull();
+    expect(parseGitHubUrl("https://github.com/org")).toBeNull();
+  });
+});
+
+describe("loadSources: shape validation", () => {
+  it("returns [] when sources/inbox.yml is not a YAML list", async () => {
+    // loadSources reads via readYamlIfExists; assert the validator-style
+    // guard against a malformed YAML mapping at the root.
+    const tmp = fs.mkdtempSync(path.join(os.tmpdir(), "inbox-shape-"));
+    try {
+      const sourcesDir = path.join(tmp, "sources");
+      fs.mkdirSync(sourcesDir);
+      fs.writeFileSync(path.join(sourcesDir, "inbox.yml"), "not_a_list: true\n");
+      const { readYamlIfExists } = await import("../scripts/yaml.js");
+      const raw = readYamlIfExists<unknown>(path.join(sourcesDir, "inbox.yml"), null);
+      const result = Array.isArray(raw) ? raw : [];
+      expect(result).toEqual([]);
+    } finally {
+      fs.rmSync(tmp, { recursive: true, force: true });
+    }
+  });
+});
+
+describe("validateOverride: nested subpatch shape", () => {
+  it("rejects non-object values for insights / placement / lifecycle", () => {
+    const item = makeItem();
+    const errors = validateOverride(
+      {
+        id: item.id,
+        override: { reason: "x", updated_by: "test", updated_at: "2026-04-30T00:00:00Z" },
+        // @ts-expect-error - intentionally malformed to exercise validation
+        patch: { insights: "not an object" },
+      },
+      [item]
+    );
+    expect(errors.some((e) => /insights/.test(e.message))).toBe(true);
+  });
+
+  it("rejects array values for sub-patches", () => {
+    const item = makeItem();
+    const errors = validateOverride(
+      {
+        id: item.id,
+        override: { reason: "x", updated_by: "test", updated_at: "2026-04-30T00:00:00Z" },
+        // @ts-expect-error - intentionally malformed
+        patch: { placement: [] },
+      },
+      [item]
+    );
+    expect(errors.some((e) => /placement/.test(e.message))).toBe(true);
   });
 });

@@ -126,9 +126,37 @@ export function renderRabbitHolePage(
   return lines.join("\n");
 }
 
-export function renderSiteCatalog(items: CatalogItem[]): object {
+export interface SiteCatalogItem {
+  id: string;
+  kind: string;
+  name: string;
+  canonical_url: string;
+  summary: string | null;
+  tags: string[];
+  primary_category: string | null;
+  lifecycle_status: string;
+  stars: number | null;
+  credit: CatalogItem["provenance"]["primary_credit"];
+}
+
+export interface SiteCatalog {
+  generated_at: string | null;
+  items: SiteCatalogItem[];
+}
+
+export function renderSiteCatalog(items: CatalogItem[]): SiteCatalog {
+  // Derive `generated_at` from the latest `last_checked_at` of any item so
+  // that the rendered output is deterministic across runs (a wall-clock
+  // `new Date()` would make `check-generated-docs.yml` always report drift,
+  // and would defeat the "render output is stable across runs" guarantee).
+  const checkedAts = items
+    .map((item) => item.metadata.github.last_checked_at)
+    .filter((v): v is string => typeof v === "string" && v.length > 0)
+    .sort();
+  const latest = checkedAts.length > 0 ? checkedAts[checkedAts.length - 1] : null;
+
   return {
-    generated_at: new Date().toISOString(),
+    generated_at: latest,
     items: items.map((item) => ({
       id: item.id,
       kind: item.kind,

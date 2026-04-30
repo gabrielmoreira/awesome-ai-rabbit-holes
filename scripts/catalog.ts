@@ -61,9 +61,18 @@ export function loadConfig(): CatalogConfig {
 export function loadSources(): Source[] {
   const inboxPath = path.join(REPO_ROOT, "sources", "inbox.yml");
   if (!fs.existsSync(inboxPath)) return [];
-  const raw = readYamlIfExists<Source[] | null>(inboxPath, null);
+  const raw = readYamlIfExists<unknown>(inboxPath, null);
   if (!raw) return [];
-  return raw;
+  // Defend against a malformed YAML root (e.g. mapping instead of list):
+  // downstream code assumes an array, and we'd rather treat malformed input
+  // as "no sources" than crash with a confusing TypeError on `validateSources`.
+  if (!Array.isArray(raw)) {
+    console.error(
+      `Validation error: expected ${inboxPath} to contain a YAML list of sources.`
+    );
+    return [];
+  }
+  return raw as Source[];
 }
 
 export function loadCategories(): Category[] {
@@ -192,11 +201,26 @@ export function validateOverride(override: Override, items: CatalogItem[]): Vali
   // `metadata.github.stars` or `provenance.discoveries` via `patch.metadata`
   // / `patch.provenance`, etc.
   const allowed = new Set(["insights", "placement", "lifecycle"]);
-  for (const field of Object.keys(rawPatch as Record<string, unknown>)) {
+  const patchObj = rawPatch as Record<string, unknown>;
+  for (const field of Object.keys(patchObj)) {
     if (!allowed.has(field)) {
       errors.push({
         path: override.id ?? "unknown",
         message: `Override cannot patch field: ${field} (allowed: ${[...allowed].join(", ")})`,
+      });
+    }
+  }
+
+  // Each allowed sub-patch must itself be a plain object — otherwise
+  // `applyOverride` would spread a string/array/scalar into the item shape
+  // and fail in surprising ways at runtime.
+  for (const field of allowed) {
+    if (!(field in patchObj)) continue;
+    const sub = patchObj[field];
+    if (sub === null || sub === undefined || typeof sub !== "object" || Array.isArray(sub)) {
+      errors.push({
+        path: override.id ?? "unknown",
+        message: `Override patch.${field} must be a plain object`,
       });
     }
   }
