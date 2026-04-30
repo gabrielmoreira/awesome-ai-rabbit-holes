@@ -294,6 +294,31 @@ export function makeDiscoveryId(url: string, source: Source): string {
   return `discovery__${itemId}__${mode}`;
 }
 
+// Map a `Source.kind` to the human-readable `source.name` and `source.url`
+// kept in each `Discovery`. For external pages (awesome-list / article /
+// docs-page / newsletter / paper) we keep the page URL so the dedicated
+// Source Credits page can list it; for direct/manual submissions we keep
+// the previous "Manual submission" label with no URL.
+function deriveSourceInfo(source: Source): { name: string; url: string | null } {
+  const kind = source.kind ?? "direct-link";
+  if (kind === "direct-link" || kind === "manual-submission") {
+    return { name: "Manual submission", url: null };
+  }
+  // External page: prefer a github "owner/repo" label when the source URL is
+  // a github repository, otherwise fall back to the URL's hostname.
+  const github = parseGitHubUrl(source.url);
+  if (github) {
+    return { name: `${github.owner}/${github.repo}`, url: source.url };
+  }
+  let host = source.url;
+  try {
+    host = new URL(source.url).hostname.replace(/^www\./, "") || source.url;
+  } catch {
+    // leave host as-is on unparseable URLs
+  }
+  return { name: host, url: source.url };
+}
+
 export function buildDiscovery(
   url: string,
   source: Source,
@@ -301,6 +326,7 @@ export function buildDiscovery(
   submitterName: string,
   submitterUrl: string | null
 ): Discovery {
+  const sourceInfo = deriveSourceInfo(source);
   return {
     id: makeDiscoveryId(url, source),
     discovered_at: discoveredAt,
@@ -320,8 +346,8 @@ export function buildDiscovery(
     },
     source: {
       type: source.kind ?? "direct-link",
-      name: source.kind === "awesome-list" ? "Awesome list" : "Manual submission",
-      url: source.kind === "awesome-list" ? source.url : null,
+      name: sourceInfo.name,
+      url: sourceInfo.url,
       repository: null,
     },
     extraction: {
@@ -713,6 +739,24 @@ export function printReviewReport(report: ReviewReport): void {
 
 // ─── Commands ─────────────────────────────────────────────────────────────────
 
+// ─── Refresh helpers ──────────────────────────────────────────────────────────
+
+// Returns true when an item's GitHub metadata is older than `windowDays`
+// (or has never been fetched). Pulled out as a pure function so the refresh
+// window from `catalog/config.yml` is actually honored and easy to test.
+export function shouldRefreshMetadata(
+  lastCheckedAt: string | null,
+  windowDays: number,
+  now: Date = new Date()
+): boolean {
+  if (!lastCheckedAt) return true;
+  const last = Date.parse(lastCheckedAt);
+  if (Number.isNaN(last)) return true;
+  const ageMs = now.getTime() - last;
+  const windowMs = windowDays * 24 * 60 * 60 * 1000;
+  return ageMs >= windowMs;
+}
+
 export async function cmdRefresh(token?: string): Promise<void> {
   console.log("Refreshing catalog metadata...");
   const config = loadConfig();
@@ -724,8 +768,12 @@ export async function cmdRefresh(token?: string): Promise<void> {
   }
 
   const updatedIds: string[] = [];
+  const windowDays = config.github.metadata_refresh_days;
 
   for (const item of items) {
+    if (!shouldRefreshMetadata(item.metadata.github.last_checked_at, windowDays)) {
+      continue;
+    }
     const refreshed = await enrichWithGitHub(item, token);
     if (refreshed !== item) {
       saveCatalogItem(refreshed);
@@ -760,6 +808,23 @@ export async function cmdUpdate(token?: string): Promise<void> {
   if (sourceErrors.length > 0) {
     console.error("❌ Source validation errors:");
     for (const err of sourceErrors) {
+      console.error(`  [${err.path}] ${err.message}`);
+    }
+    process.exit(1);
+  }
+
+  // 2b. Validate overrides up-front (schema, allowlist, uniqueness) so a
+  //     malformed override file fails fast instead of throwing inside
+  //     applyOverrides() later, and so duplicate ids are not silently
+  //     dropped by the override Map.
+  const overrideErrors: ValidationError[] = [];
+  for (const o of overrides) {
+    overrideErrors.push(...validateOverride(o, existingItems));
+  }
+  overrideErrors.push(...validateOverridesUniqueness(overrides));
+  if (overrideErrors.length > 0) {
+    console.error("❌ Override validation errors:");
+    for (const err of overrideErrors) {
       console.error(`  [${err.path}] ${err.message}`);
     }
     process.exit(1);

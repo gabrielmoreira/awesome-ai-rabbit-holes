@@ -854,3 +854,102 @@ describe("Context Engineering page wording", () => {
     expect(page).toContain("give me tokens, my precious tokens");
   });
 });
+
+// ─── Review fixes: external source provenance + override validation in cmdUpdate ───
+
+import { buildDiscovery } from "../scripts/catalog.js";
+
+describe("buildDiscovery preserves external source provenance", () => {
+  it("awesome-list: keeps source.url and uses a non-generic name", () => {
+    const d = buildDiscovery(
+      "https://github.com/some/repo",
+      { url: "https://github.com/punkpeye/awesome-mcp-servers", kind: "awesome-list", note: null as any },
+      "2026-04-30T00:00:00Z",
+      "Maintainer",
+      null
+    );
+    expect(d.source.type).toBe("awesome-list");
+    expect(d.source.url).toBe("https://github.com/punkpeye/awesome-mcp-servers");
+    expect(d.source.name).not.toBe("Manual submission");
+    expect(d.source.name.length).toBeGreaterThan(0);
+  });
+
+  it.each(["article", "docs-page", "newsletter", "paper"] as const)(
+    "%s: keeps source.url and a non-generic name (so the dedicated credits page can render it)",
+    (kind) => {
+      const d = buildDiscovery(
+        "https://github.com/some/repo",
+        { url: "https://example.com/great-post", kind, note: null as any },
+        "2026-04-30T00:00:00Z",
+        "Maintainer",
+        null
+      );
+      expect(d.source.type).toBe(kind);
+      expect(d.source.url).toBe("https://example.com/great-post");
+      expect(d.source.name).not.toBe("Manual submission");
+      expect(d.source.name).not.toBe("");
+    }
+  );
+
+  it("direct-link: still renders as Manual submission with null url", () => {
+    const d = buildDiscovery(
+      "https://github.com/some/repo",
+      { url: "https://github.com/some/repo" },
+      "2026-04-30T00:00:00Z",
+      "Maintainer",
+      null
+    );
+    expect(d.source.type).toBe("direct-link");
+    expect(d.source.url).toBeNull();
+    expect(d.source.name).toBe("Manual submission");
+  });
+});
+
+describe("cmdUpdate validates overrides before applying", () => {
+  // We don't run cmdUpdate end-to-end here (it touches the real filesystem and
+  // GitHub); we verify the validation primitives are wired up to catch the
+  // exact malformed shapes cmdUpdate would otherwise pass to applyOverrides.
+  it("flags an override with a non-object patch (would otherwise throw at runtime)", () => {
+    const item = makeItem();
+    const errs = validateOverride(
+      // @ts-expect-error intentionally malformed
+      { id: item.id, override: { reason: "x", updated_by: "x", updated_at: "x" }, patch: null },
+      [item]
+    );
+    expect(errs.some((e) => /patch must be a plain object/i.test(e.message))).toBe(true);
+  });
+
+  it("flags duplicate override ids (would otherwise be silently dropped by Map)", () => {
+    const o: Override = {
+      id: "github__a__b",
+      override: { reason: "r", updated_by: "u", updated_at: "t" },
+      patch: { lifecycle: { status: "curated" } },
+    };
+    const errs = validateOverridesUniqueness([o, o]);
+    expect(errs.length).toBe(1);
+    expect(errs[0]?.message).toMatch(/duplicate/i);
+  });
+});
+
+describe("cmdRefresh honors metadata_refresh_days", () => {
+  // We test the helper directly so we don't have to mock GitHub.
+  it("shouldRefreshMetadata returns false when last_checked_at is within window", async () => {
+    const { shouldRefreshMetadata } = await import("../scripts/catalog.js");
+    const now = new Date("2026-04-30T12:00:00Z");
+    // 1 day ago, window = 7 days → still fresh
+    const recent = new Date("2026-04-29T12:00:00Z").toISOString();
+    expect(shouldRefreshMetadata(recent, 7, now)).toBe(false);
+  });
+
+  it("shouldRefreshMetadata returns true when last_checked_at is older than window", async () => {
+    const { shouldRefreshMetadata } = await import("../scripts/catalog.js");
+    const now = new Date("2026-04-30T12:00:00Z");
+    const old = new Date("2026-04-20T12:00:00Z").toISOString(); // 10 days ago
+    expect(shouldRefreshMetadata(old, 7, now)).toBe(true);
+  });
+
+  it("shouldRefreshMetadata returns true when last_checked_at is null", async () => {
+    const { shouldRefreshMetadata } = await import("../scripts/catalog.js");
+    expect(shouldRefreshMetadata(null, 7)).toBe(true);
+  });
+});
