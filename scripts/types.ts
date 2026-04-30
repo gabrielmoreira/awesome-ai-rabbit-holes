@@ -162,6 +162,12 @@ export interface CatalogConfig {
   render: {
     include_source_credits: boolean;
   };
+  credit: {
+    submitter: {
+      name: string;
+      url: string | null;
+    };
+  };
 }
 
 export interface ReviewReport {

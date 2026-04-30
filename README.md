@@ -15,4 +15,4 @@ Pick one rabbit hole, follow it until it becomes useful or emotionally dangerous
 
 ## Source Credits
 
-- Gabriel Moreira
+- [Gabriel Moreira](https://github.com/gabrielmoreira)

@@ -3,9 +3,10 @@
 
 import * as fs from "node:fs";
 import * as path from "node:path";
+import { fileURLToPath } from "node:url";
 import type { CatalogItem, Category } from "./types.js";
 
-const REPO_ROOT = path.resolve(import.meta.dirname, "..");
+const REPO_ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 
 const README_INTRO = `# Awesome AI Rabbit Holes
 
@@ -30,7 +31,8 @@ export function renderReadme(
     items.some(
       (item) =>
         item.placement.primary_category === cat.id &&
-        item.lifecycle.status !== "incubating"
+        item.lifecycle.status !== "incubating" &&
+        item.lifecycle.status !== "needs_review"
     )
   );
 

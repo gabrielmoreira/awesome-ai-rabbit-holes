@@ -3,6 +3,7 @@
 
 import * as fs from "node:fs";
 import * as path from "node:path";
+import { fileURLToPath } from "node:url";
 import { readYaml, readYamlIfExists, writeYaml, yamlExists } from "./yaml.js";
 import { parseGitHubUrl, fetchGitHubRepo } from "./github.js";
 import {
@@ -25,12 +26,15 @@ import type {
   Insights,
 } from "./types.js";
 
-const REPO_ROOT = path.resolve(import.meta.dirname, "..");
+const REPO_ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
+
+const DEFAULT_SUBMITTER = { name: "Maintainer", url: null as string | null };
 
 const DEFAULT_CONFIG: CatalogConfig = {
   promotion: { incubating_until_stars: 150 },
   github: { metadata_refresh_days: 7 },
   render: { include_source_credits: true },
+  credit: { submitter: DEFAULT_SUBMITTER },
 };
 
 // ─── Config ───────────────────────────────────────────────────────────────────
@@ -43,6 +47,9 @@ export function loadConfig(): CatalogConfig {
     promotion: { ...DEFAULT_CONFIG.promotion, ...raw.promotion },
     github: { ...DEFAULT_CONFIG.github, ...raw.github },
     render: { ...DEFAULT_CONFIG.render, ...raw.render },
+    credit: {
+      submitter: { ...DEFAULT_CONFIG.credit.submitter, ...raw.credit?.submitter },
+    },
   };
 }
 
@@ -70,7 +77,9 @@ export function loadCatalogItems(): CatalogItem[] {
 
 function loadItemsFromDir(dir: string): CatalogItem[] {
   const items: CatalogItem[] = [];
-  const entries = fs.readdirSync(dir, { withFileTypes: true });
+  const entries = fs
+    .readdirSync(dir, { withFileTypes: true })
+    .sort((a, b) => a.name.localeCompare(b.name));
   for (const entry of entries) {
     if (entry.isDirectory()) {
       items.push(...loadItemsFromDir(path.join(dir, entry.name)));
@@ -90,7 +99,9 @@ export function loadOverrides(): Override[] {
 
 function loadOverridesFromDir(dir: string): Override[] {
   const overrides: Override[] = [];
-  const entries = fs.readdirSync(dir, { withFileTypes: true });
+  const entries = fs
+    .readdirSync(dir, { withFileTypes: true })
+    .sort((a, b) => a.name.localeCompare(b.name));
   for (const entry of entries) {
     if (entry.isDirectory()) {
       overrides.push(...loadOverridesFromDir(path.join(dir, entry.name)));
@@ -158,15 +169,50 @@ export function validateOverride(override: Override, items: CatalogItem[]): Vali
     errors.push({ path: override.id, message: `Override targets unknown item id: ${override.id}` });
   }
 
-  // Check forbidden fields
-  const patch = override.patch as Record<string, unknown>;
-  const forbidden = ["id", "kind", "canonical_url", "identity"];
-  for (const field of forbidden) {
-    if (field in patch) {
-      errors.push({ path: override.id, message: `Override cannot change forbidden field: ${field}` });
+  // Patch must be a plain object (not null/array/scalar).
+  const rawPatch = override.patch as unknown;
+  if (
+    rawPatch === null ||
+    rawPatch === undefined ||
+    typeof rawPatch !== "object" ||
+    Array.isArray(rawPatch)
+  ) {
+    errors.push({
+      path: override.id ?? "unknown",
+      message: "Override patch must be a plain object",
+    });
+    return errors;
+  }
+
+  // Only an explicit allowlist of top-level keys may be patched. This stops
+  // overrides from silently mutating protected nested fields like
+  // `metadata.github.stars` or `provenance.discoveries` via `patch.metadata`
+  // / `patch.provenance`, etc.
+  const allowed = new Set(["insights", "placement", "lifecycle"]);
+  for (const field of Object.keys(rawPatch as Record<string, unknown>)) {
+    if (!allowed.has(field)) {
+      errors.push({
+        path: override.id ?? "unknown",
+        message: `Override cannot patch field: ${field} (allowed: ${[...allowed].join(", ")})`,
+      });
     }
   }
 
+  return errors;
+}
+
+export function validateOverridesUniqueness(overrides: Override[]): ValidationError[] {
+  const errors: ValidationError[] = [];
+  const seen = new Map<string, number>();
+  for (const o of overrides) {
+    if (!o.id) continue;
+    seen.set(o.id, (seen.get(o.id) ?? 0) + 1);
+  }
+  for (const [id, count] of seen) {
+    if (count > 1) {
+      errors.push({ path: id, message: `Duplicate override id: ${id} (found ${count} times)` });
+    }
+  }
   return errors;
 }
 
@@ -191,6 +237,7 @@ export async function cmdValidate(): Promise<void> {
   for (const override of overrides) {
     errors.push(...validateOverride(override, items));
   }
+  errors.push(...validateOverridesUniqueness(overrides));
 
   if (errors.length > 0) {
     console.error(`\n❌ Validation failed with ${errors.length} error(s):\n`);
@@ -220,23 +267,29 @@ export function makeItemId(url: string): string {
 export function makeItemPath(url: string): string {
   const github = parseGitHubUrl(url);
   if (github) {
+    // Lowercase owner/repo so the same repo always maps to the same path
+    // regardless of how the URL was capitalized in the source. Matches the
+    // lowercase id produced by makeItemId().
     return path.join(
       REPO_ROOT,
       "catalog",
       "items",
       "github",
-      github.owner,
-      `${github.repo}.yml`
+      github.owner.toLowerCase(),
+      `${github.repo.toLowerCase()}.yml`
     );
   }
   const id = makeItemId(url);
   return path.join(REPO_ROOT, "catalog", "items", `${id}.yml`);
 }
 
-export function makeDiscoveryId(url: string, source: Source, date: string): string {
+export function makeDiscoveryId(url: string, source: Source): string {
   const itemId = makeItemId(url);
-  const mode = source.kind ?? "manual";
-  return `discovery__${date}__${itemId}__${mode}`;
+  const mode = source.kind ?? "direct-link";
+  // Discovery id is intentionally stable across days so re-running `update`
+  // on a different date does not create a duplicate provenance entry for the
+  // same source. `discovered_at` carries the timestamp instead.
+  return `discovery__${itemId}__${mode}`;
 }
 
 export function buildDiscovery(
@@ -246,9 +299,8 @@ export function buildDiscovery(
   submitterName: string,
   submitterUrl: string | null
 ): Discovery {
-  const date = discoveredAt.split("T")[0];
   return {
-    id: makeDiscoveryId(url, source, date),
+    id: makeDiscoveryId(url, source),
     discovered_at: discoveredAt,
     submitted_by: {
       type: "maintainer",
@@ -285,12 +337,17 @@ export function buildDiscovery(
   };
 }
 
-export function buildNewCatalogItem(url: string, source: Source, discoveredAt: string): CatalogItem {
+export function buildNewCatalogItem(
+  url: string,
+  source: Source,
+  discoveredAt: string,
+  submitter: { name: string; url: string | null } = DEFAULT_SUBMITTER
+): CatalogItem {
   const github = parseGitHubUrl(url);
   const id = makeItemId(url);
   const name = github ? github.repo : url.split("/").pop() ?? url;
-  const submitterName = "Gabriel Moreira";
-  const submitterUrl = null;
+  const submitterName = submitter.name;
+  const submitterUrl = submitter.url;
 
   const discovery = buildDiscovery(url, source, discoveredAt, submitterName, submitterUrl);
 
@@ -354,7 +411,11 @@ export function resolveSource(source: Source): { url: string; normalized: string
 
 // ─── Discover ─────────────────────────────────────────────────────────────────
 
-export function discover(sources: Source[], existingItems: CatalogItem[]): {
+export function discover(
+  sources: Source[],
+  existingItems: CatalogItem[],
+  submitter: { name: string; url: string | null } = DEFAULT_SUBMITTER
+): {
   newItems: CatalogItem[];
   updatedItems: CatalogItem[];
 } {
@@ -375,17 +436,23 @@ export function discover(sources: Source[], existingItems: CatalogItem[]): {
 
     if (!existing) {
       // New item
-      const item = buildNewCatalogItem(normalized, source, discoveredAt);
+      const item = buildNewCatalogItem(normalized, source, discoveredAt, submitter);
       newItems.push(item);
       existingById.set(id, item);
     } else {
-      // Check if discovery already exists
-      const discoveryId = makeDiscoveryId(normalized, source, discoveredAt.split("T")[0]);
+      // Check if discovery already exists (by stable id, no date component).
+      const discoveryId = makeDiscoveryId(normalized, source);
       const alreadyDiscovered = existing.provenance.discoveries.some((d) => d.id === discoveryId);
 
       if (!alreadyDiscovered) {
         // Add new discovery to existing item
-        const newDiscovery = buildDiscovery(normalized, source, discoveredAt, "Gabriel Moreira", null);
+        const newDiscovery = buildDiscovery(
+          normalized,
+          source,
+          discoveredAt,
+          submitter.name,
+          submitter.url
+        );
         const updated: CatalogItem = {
           ...existing,
           provenance: {
@@ -693,7 +760,7 @@ export async function cmdUpdate(token?: string): Promise<void> {
   }
 
   // 3. Discover
-  const { newItems, updatedItems } = discover(sources, existingItems);
+  const { newItems, updatedItems } = discover(sources, existingItems, config.credit.submitter);
 
   // 4. Enrich (fetch GitHub metadata for new items)
   const enrichedNewItems: CatalogItem[] = [];

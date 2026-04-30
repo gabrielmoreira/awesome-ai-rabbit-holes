@@ -10,7 +10,10 @@ import {
   validateCatalogItem,
   validateCatalogItems,
   validateOverride,
+  validateOverridesUniqueness,
   makeItemId,
+  makeItemPath,
+  makeDiscoveryId,
   normalizeGitHubUrl,
   buildNewCatalogItem,
   discover,
@@ -33,6 +36,7 @@ const DEFAULT_CONFIG: CatalogConfig = {
   promotion: { incubating_until_stars: 150 },
   github: { metadata_refresh_days: 7 },
   render: { include_source_credits: true },
+  credit: { submitter: { name: "Test Maintainer", url: null } },
 };
 
 const CATEGORIES: Category[] = [
@@ -52,7 +56,7 @@ function makeItem(overrides: Partial<CatalogItem> = {}): CatalogItem {
       primary_credit: { label: "Test User", url: null },
       discoveries: [
         {
-          id: "discovery__2026-04-30__github__testowner__test-repo__direct-link",
+          id: "discovery__github__testowner__test-repo__direct-link",
           discovered_at: "2026-04-30T00:00:00Z",
           submitted_by: { type: "maintainer", name: "Test User", url: null },
           contribution: { type: "manual", url: null, number: null, author: { name: "Test User", url: null } },
@@ -493,5 +497,177 @@ describe("placement", () => {
     const result = applyPlacement(item, CATEGORIES);
     // No placement info, no tags - stays null
     expect(result.placement.primary_category).toBeNull();
+  });
+});
+
+// ─── PR review feedback regressions ───────────────────────────────────────────
+
+describe("makeItemPath", () => {
+  it("lowercases owner and repo so casing in the URL doesn't change the path", () => {
+    const a = makeItemPath("https://github.com/BloopAI/Vibe-Kanban");
+    const b = makeItemPath("https://github.com/bloopai/vibe-kanban");
+    expect(a).toBe(b);
+    expect(a.endsWith("/catalog/items/github/bloopai/vibe-kanban.yml")).toBe(true);
+  });
+});
+
+describe("makeDiscoveryId", () => {
+  it("is stable across days (no date in id)", () => {
+    const source: Source = { url: "https://github.com/foo/bar" };
+    const id = makeDiscoveryId("https://github.com/foo/bar", source);
+    expect(id).toBe("discovery__github__foo__bar__direct-link");
+    expect(id).not.toMatch(/\d{4}-\d{2}-\d{2}/);
+  });
+
+  it("defaults source kind to direct-link, not 'manual'", () => {
+    const source: Source = { url: "https://github.com/foo/bar" };
+    const id = makeDiscoveryId("https://github.com/foo/bar", source);
+    expect(id.endsWith("__direct-link")).toBe(true);
+  });
+
+  it("encodes the source kind when provided", () => {
+    const source: Source = { url: "https://github.com/foo/bar", kind: "awesome-list" };
+    const id = makeDiscoveryId("https://github.com/foo/bar", source);
+    expect(id.endsWith("__awesome-list")).toBe(true);
+  });
+});
+
+describe("discover idempotency across dates", () => {
+  it("re-running discover does not append a duplicate provenance entry", () => {
+    const sources: Source[] = [{ url: "https://github.com/foo/bar" }];
+    const { newItems } = discover(sources, []);
+    expect(newItems[0].provenance.discoveries).toHaveLength(1);
+
+    // Simulate "next day": pass the same source against the just-created item.
+    const { newItems: again, updatedItems } = discover(sources, newItems);
+    expect(again).toHaveLength(0);
+    expect(updatedItems).toHaveLength(0);
+  });
+});
+
+describe("validateOverride: schema + allowlist", () => {
+  it("rejects a missing/null patch instead of throwing", () => {
+    const item = makeItem();
+    const override = {
+      id: item.id,
+      override: { reason: "x", updated_by: "me", updated_at: "2026-04-30" },
+      // Note: patch deliberately null/missing.
+      patch: null as unknown,
+    } as unknown as Override;
+    expect(() => validateOverride(override, [item])).not.toThrow();
+    const errors = validateOverride(override, [item]);
+    expect(errors.some((e) => e.message.includes("plain object"))).toBe(true);
+  });
+
+  it("rejects patches that try to mutate protected nested fields", () => {
+    const item = makeItem();
+    const override = {
+      id: item.id,
+      override: { reason: "x", updated_by: "me", updated_at: "2026-04-30" },
+      patch: { metadata: { github: { stars: 9999 } } } as unknown,
+    } as unknown as Override;
+    const errors = validateOverride(override, [item]);
+    expect(errors.some((e) => e.message.includes("metadata"))).toBe(true);
+  });
+
+  it("rejects patches that try to mutate provenance", () => {
+    const item = makeItem();
+    const override = {
+      id: item.id,
+      override: { reason: "x", updated_by: "me", updated_at: "2026-04-30" },
+      patch: { provenance: { discoveries: [] } } as unknown,
+    } as unknown as Override;
+    const errors = validateOverride(override, [item]);
+    expect(errors.some((e) => e.message.includes("provenance"))).toBe(true);
+  });
+
+  it("still allows insights/placement/lifecycle patches", () => {
+    const item = makeItem();
+    const override: Override = {
+      id: item.id,
+      override: { reason: "x", updated_by: "me", updated_at: "2026-04-30" },
+      patch: {
+        insights: { mental_damage: "ok" },
+        placement: { primary_category: "coding-agents", section: null },
+        lifecycle: { status: "curated" },
+      },
+    };
+    const errors = validateOverride(override, [item]);
+    expect(errors).toHaveLength(0);
+  });
+});
+
+describe("validateOverridesUniqueness", () => {
+  it("flags duplicate override ids", () => {
+    const o = (id: string): Override => ({
+      id,
+      override: { reason: "x", updated_by: "me", updated_at: "2026-04-30" },
+      patch: { lifecycle: { status: "curated" } },
+    });
+    const errors = validateOverridesUniqueness([o("a"), o("a"), o("b")]);
+    expect(errors).toHaveLength(1);
+    expect(errors[0].message).toContain("Duplicate override id: a");
+  });
+
+  it("passes when all ids are unique", () => {
+    const o = (id: string): Override => ({
+      id,
+      override: { reason: "x", updated_by: "me", updated_at: "2026-04-30" },
+      patch: {},
+    });
+    expect(validateOverridesUniqueness([o("a"), o("b")])).toHaveLength(0);
+  });
+});
+
+describe("renderReadme: needs_review filter", () => {
+  it("does not link to a category whose only items are needs_review", () => {
+    const item = makeItem({
+      placement: { primary_category: "coding-agents", section: null },
+      lifecycle: { status: "needs_review", reason: "Repository is archived" },
+    });
+    const readme = renderReadme([item], CATEGORIES, false);
+    expect(readme).not.toContain("coding-agents.md");
+  });
+
+  it("still links to categories with at least one curated/landmark item", () => {
+    const items = [
+      makeItem({
+        id: "github__a__a",
+        placement: { primary_category: "coding-agents", section: null },
+        lifecycle: { status: "curated" },
+      }),
+      makeItem({
+        id: "github__b__b",
+        placement: { primary_category: "coding-agents", section: null },
+        lifecycle: { status: "needs_review" },
+      }),
+    ];
+    const readme = renderReadme(items, CATEGORIES, false);
+    expect(readme).toContain("coding-agents.md");
+  });
+});
+
+describe("buildNewCatalogItem: configurable submitter", () => {
+  it("uses the supplied submitter for primary_credit and discovery", () => {
+    const item = buildNewCatalogItem(
+      "https://github.com/foo/bar",
+      { url: "https://github.com/foo/bar" },
+      "2026-04-30T00:00:00Z",
+      { name: "Alice", url: "https://github.com/alice" }
+    );
+    expect(item.provenance.primary_credit.label).toBe("Alice");
+    expect(item.provenance.primary_credit.url).toBe("https://github.com/alice");
+    expect(item.provenance.discoveries[0].submitted_by.name).toBe("Alice");
+    expect(item.provenance.discoveries[0].credit.label).toBe("Alice");
+  });
+
+  it("falls back to a generic default when no submitter is supplied", () => {
+    const item = buildNewCatalogItem(
+      "https://github.com/foo/bar",
+      { url: "https://github.com/foo/bar" },
+      "2026-04-30T00:00:00Z"
+    );
+    // Generic default — no hardcoded person name.
+    expect(item.provenance.primary_credit.label).not.toBe("Gabriel Moreira");
   });
 });
