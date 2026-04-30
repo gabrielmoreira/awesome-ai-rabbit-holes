@@ -1,0 +1,73 @@
+# Daily refresh of GitHub metadata (mainly stars) for existing catalog items.
+#
+# Runs `npm run catalog -- refresh` to update metadata, then validates and tests.
+# If anything changed on disk, opens a PR titled "chore: refresh catalog metadata"
+# instead of pushing directly to main.
+name: refresh-metadata
+
+on:
+  schedule:
+    # 04:00 UTC every day
+    - cron: "0 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Refresh catalog metadata
+        run: npm run catalog -- refresh
+
+      - name: Validate catalog
+        run: npm run catalog -- validate
+
+      - name: Run tests
+        run: npm test
+
+      - name: Detect changes
+        id: changes
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Open pull request
+        if: steps.changes.outputs.changed == 'true'
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: chore/refresh-catalog-metadata
+          base: main
+          title: "chore: refresh catalog metadata"
+          commit-message: "chore: refresh catalog metadata"
+          body: |
+            Automated daily refresh of GitHub metadata (stars, license, topics, etc.)
+            for existing catalog items.
+
+            - Command: `npm run catalog -- refresh`
+            - Validation: `npm run catalog -- validate`
+            - Tests: `npm test`
+
+            This PR was opened by the `refresh-metadata` workflow.
+          delete-branch: true
