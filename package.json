@@ -1,0 +1,21 @@
+{
+  "name": "awesome-ai-rabbit-holes",
+  "version": "0.1.0",
+  "description": "A never-complete, already-outdated catalog of AI rabbit holes",
+  "type": "module",
+  "scripts": {
+    "catalog": "tsx scripts/catalog.ts",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0",
+    "vitest": "^3.1.0"
+  },
+  "dependencies": {
+    "js-yaml": "^4.1.0"
+  }
+}
