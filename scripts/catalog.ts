@@ -754,29 +754,27 @@ export async function cmdUpdate(token?: string): Promise<void> {
 
 // ─── CLI entry ─────────────────────────────────────────────────────────────────
 
-const [, , command, subcommand] = process.argv;
+const [, , command] = process.argv;
 
 const token = process.env["GITHUB_TOKEN"];
 
-if (command === "catalog") {
-  if (subcommand === "update") {
-    cmdUpdate(token).catch((e) => {
-      console.error(e);
-      process.exit(1);
-    });
-  } else if (subcommand === "refresh") {
-    cmdRefresh(token).catch((e) => {
-      console.error(e);
-      process.exit(1);
-    });
-  } else if (subcommand === "validate") {
-    cmdValidate().catch((e) => {
-      console.error(e);
-      process.exit(1);
-    });
-  } else {
-    console.error(`Unknown subcommand: ${subcommand}`);
-    console.error("Usage: pnpm catalog [update|refresh|validate]");
+if (command === "update") {
+  cmdUpdate(token).catch((e) => {
+    console.error(e);
     process.exit(1);
-  }
+  });
+} else if (command === "refresh") {
+  cmdRefresh(token).catch((e) => {
+    console.error(e);
+    process.exit(1);
+  });
+} else if (command === "validate") {
+  cmdValidate().catch((e) => {
+    console.error(e);
+    process.exit(1);
+  });
+} else if (command !== undefined) {
+  console.error(`Unknown command: ${command}`);
+  console.error("Usage: npm run catalog -- [update|refresh|validate]");
+  process.exit(1);
 }

@@ -7,6 +7,22 @@
 >
 > The pipeline does the rest.
 
+## Scope
+
+This catalog is **not** a generic AI directory. It focuses on practical AI
+tools, agents, workflows, and infrastructure that help **software developers
+become more productive**: coding agents, agent orchestration, MCP tooling,
+AI IDEs, local AI runtimes, evaluation harnesses, RAG for developer workflows,
+and similar.
+
+Lower priority / out of scope: generic ChatGPT prompt collections, ML theory,
+deep learning, computer vision, NLP research, diffusion models, RL, and
+broad AI resource lists with no clear developer-tooling angle.
+
+See `sources/scope.yml` for positive and negative examples. That file is
+**not** processed by the pipeline — it only exists to inform future
+classification.
+
 ## To add something
 
 Edit `sources/inbox.yml`:

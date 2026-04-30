@@ -1,2 +1,18 @@
-# awesome-ai-rabbit-holes
-A never-complete, already-outdated catalog of AI agents, tools, and rabbit holes for people who keep asking: "Am I behind?", "Is everyone else already using this?", "Should I rebuild my workflow again?", "Was this obvious to everyone but me?", and "Is this curiosity, productivity, anxiety, impostor syndrome, or just the slow road to burnout?"
+# Awesome AI Rabbit Holes
+
+A never-complete, already-outdated catalog of AI agents, tools, workflows, and rabbit holes for people who keep asking: "Am I behind?", "Is everyone else already using this?", "Should I rebuild my workflow again?", "Was this obvious to everyone but me?", and "Is this curiosity, productivity, anxiety, impostor syndrome, or just the slow road to burnout?"
+
+Come for the tools. Stay for the FOMO, impostor syndrome, anxiety, and occasional reminder that you probably do not need to rebuild your entire workflow again today.
+
+## How to use this repo
+
+Do not try to read everything.
+
+Pick one rabbit hole, follow it until it becomes useful or emotionally dangerous, then stop.
+
+## Rabbit Holes
+
+
+## Source Credits
+
+- Gabriel Moreira
