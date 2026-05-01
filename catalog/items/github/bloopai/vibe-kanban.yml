@@ -5,23 +5,9 @@ canonical_url: https://github.com/BloopAI/vibe-kanban
 identity:
   github_repo: BloopAI/vibe-kanban
 provenance:
-  primary_credit:
-    label: Gabriel Moreira
-    url: https://github.com/gabrielmoreira
   discoveries:
     - id: discovery__github__bloopai__vibe-kanban__direct-link
-      discovered_at: "2026-04-30T22:21:31.445Z"
-      submitted_by:
-        type: maintainer
-        name: Gabriel Moreira
-        url: https://github.com/gabrielmoreira
-      contribution:
-        type: manual
-        url: null
-        number: null
-        author:
-          name: Gabriel Moreira
-          url: https://github.com/gabrielmoreira
+      discovered_at: "2026-05-01T13:51:25.374Z"
       source:
         type: direct-link
         name: Manual submission
@@ -35,15 +21,13 @@ provenance:
         extracted_url: https://github.com/BloopAI/vibe-kanban
         surrounding_text: Kanban UI for coding agents.
         confidence: high
-      credit:
-        label: Gabriel Moreira
-        url: https://github.com/gabrielmoreira
 metadata:
   github:
-    stars: 25739
-    forks: 2629
+    stars: 25763
+    forks: 2632
     license: Apache-2.0
     archived: false
+    created_at: "2025-06-14T19:10:21Z"
     pushed_at: "2026-04-24T09:17:34Z"
     description: Get 10X more out of Claude Code, Codex or any coding agent
     homepage: https://www.vibekanban.com/
@@ -53,19 +37,31 @@ metadata:
       - kanban
       - management
       - task-manager
-    last_checked_at: "2026-04-30T23:48:47.259Z"
+    last_checked_at: "2026-05-01T13:51:25.905Z"
     readme:
-      fetched_at: "2026-04-30T23:48:47.259Z"
+      fetched_at: "2026-05-01T13:51:25.905Z"
       bytes: 7427
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A kanban-style UI that orchestrates coding agents by turning issues into workspaces with branches, terminals, app previews, and diff review.
+  why_it_matters: It packages the messy parts of “agent-driven dev” (planning, running, reviewing, and shipping) into a single workflow so teams can iterate faster without living in five separate tools.
+  mental_damage: It formalizes the new career arc where you do project management for robots, then leave inline comments so your robot can fix its robot mistakes on a fresh branch.
+  tags:
+    - agent-orchestration
+    - kanban
+    - code-review
+    - dev-workflow
+    - workspace-runner
+  confidence: high
+curation:
+  status: included
+  reason: Despite the sunsetting notice, it’s clearly developer-facing agent orchestration (planning + running agents in isolated workspaces + reviewing diffs) with strong traction and recent activity.
+  evidence:
+    - "README: “Vibe Kanban is sunsetting” but repo is not archived and was pushed 2026-04-24"
+    - "README claims: kanban issues, agent workspaces (branch/terminal/dev server), inline diff comments, app preview, PR/merge flow"
+    - "Stars: 25,763 and it appears under “Harnesses & orchestration > Session managers & parallel runners” in awesome-cli-coding-agents"
 placement:
-  primary_category: null
+  primary_category: agent-orchestration
   section: null
 lifecycle:
   status: promotion_candidate
-  reason: Stars (25739) exceeded threshold (150)
+  reason: Stars (25763) exceeded threshold (150)

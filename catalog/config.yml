@@ -4,13 +4,7 @@ promotion:
 github:
   metadata_refresh_days: 7
 
-render:
-  include_source_credits: true
 
-# Default credit attached to discoveries that are added directly via
-# `sources/inbox.yml`. Future iterations can derive this from PR metadata
-# instead of a static config value.
-credit:
-  submitter:
-    name: Gabriel Moreira
-    url: https://github.com/gabrielmoreira
+
+source_lists:
+  max_new_items_per_run: 25

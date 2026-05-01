@@ -1,7 +1,8 @@
-# Daily refresh of GitHub metadata (mainly stars) for existing catalog items.
+# Daily refresh of GitHub metadata and rendered catalog output for existing items.
 #
-# Runs `npm run catalog -- refresh` to update metadata, then validates and tests.
-# If anything changed on disk, opens a PR titled "chore: refresh catalog metadata"
+## Runs `npm run catalog -- refresh`, which also backfills missing insights via
+## GitHub Copilot CLI before re-rendering generated files.
+
 # instead of pushing directly to main.
 name: refresh-metadata
 
@@ -21,18 +22,39 @@ jobs:
     env:
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      COPILOT_GITHUB_TOKEN: ${{ secrets.COPILOT_GITHUB_TOKEN }}
+      COPILOT_MODEL: gpt-5.2
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Set up Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
-          node-version: "20"
+          node-version: "25"
           cache: "npm"
+
+      - name: Restore catalog cache
+        uses: actions/cache@v4
+        with:
+          path: .cache
+          key: ${{ runner.os }}-catalog-cache-v2-${{ hashFiles('sources/**/*.yml', 'scripts/**/*.ts', 'catalog/categories.yml', 'package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-catalog-cache-v2-
 
       - name: Install dependencies
         run: npm ci
+
+      - name: Install GitHub Copilot CLI
+        run: npm install -g @github/copilot
+
+      - name: Verify Copilot token is configured
+        run: |
+          if [ -z "${COPILOT_GITHUB_TOKEN}" ]; then
+            echo "::error::Missing COPILOT_GITHUB_TOKEN secret. Create a fine-grained PAT with the 'Copilot Requests' permission and store it as an Actions secret named COPILOT_GITHUB_TOKEN."
+            exit 1
+          fi
+
 
       - name: Refresh catalog metadata
         run: npm run catalog -- refresh
@@ -63,7 +85,8 @@ jobs:
           commit-message: "chore: refresh catalog metadata"
           body: |
             Automated daily refresh of GitHub metadata (stars, license, topics, etc.)
-            for existing catalog items.
+            for existing catalog items, plus any regenerated catalog output required
+            to keep committed artifacts in sync.
 
             - Command: `npm run catalog -- refresh`
             - Validation: `npm run catalog -- validate`

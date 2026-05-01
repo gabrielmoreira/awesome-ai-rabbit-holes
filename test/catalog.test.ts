@@ -18,10 +18,18 @@ import {
   normalizeGitHubUrl,
   buildNewCatalogItem,
   discover,
+  discoverCandidates,
+  selectSourceListDiscoveryCandidates,
   applyLifecycleRules,
   applyOverride,
   applyOverrides,
   applyPlacement,
+  needsAIInsights,
+  applyAIInsights,
+  enrichWithAIInsights,
+  normalizeSourceCoverageUrl,
+  validateScopeCoverage,
+  buildReviewReport,
 } from "../scripts/catalog.js";
 import { parseAIInsightResponse, buildInsightPrompt } from "../scripts/ai.js";
 import {
@@ -36,8 +44,7 @@ import type { CatalogItem, Source, Override, Category, CatalogConfig } from "../
 const DEFAULT_CONFIG: CatalogConfig = {
   promotion: { incubating_until_stars: 150 },
   github: { metadata_refresh_days: 7 },
-  render: { include_source_credits: true },
-  credit: { submitter: { name: "Test Maintainer", url: null } },
+  source_lists: { max_new_items_per_run: 25 },
 };
 
 const CATEGORIES: Category[] = [
@@ -54,13 +61,10 @@ function makeItem(overrides: Partial<CatalogItem> = {}): CatalogItem {
     canonical_url: "https://github.com/testowner/test-repo",
     identity: { github_repo: "testowner/test-repo" },
     provenance: {
-      primary_credit: { label: "Test User", url: null },
       discoveries: [
         {
           id: "discovery__github__testowner__test-repo__direct-link",
           discovered_at: "2026-04-30T00:00:00Z",
-          submitted_by: { type: "maintainer", name: "Test User", url: null },
-          contribution: { type: "manual", url: null, number: null, author: { name: "Test User", url: null } },
           source: { type: "direct-link", name: "Manual submission", url: null, repository: null },
           extraction: {
             mode: "direct",
@@ -70,7 +74,6 @@ function makeItem(overrides: Partial<CatalogItem> = {}): CatalogItem {
             surrounding_text: null,
             confidence: "high",
           },
-          credit: { label: "Test User", url: null },
         },
       ],
     },
@@ -80,6 +83,7 @@ function makeItem(overrides: Partial<CatalogItem> = {}): CatalogItem {
         forks: null,
         license: null,
         archived: null,
+        created_at: null,
         pushed_at: null,
         description: null,
         homepage: null,
@@ -93,6 +97,11 @@ function makeItem(overrides: Partial<CatalogItem> = {}): CatalogItem {
       mental_damage: null,
       tags: [],
       confidence: null,
+    },
+    curation: {
+      status: "included",
+      reason: "Fits the catalog.",
+      evidence: ["Repo metadata says it fits the catalog."],
     },
     placement: {
       primary_category: null,
@@ -121,6 +130,25 @@ describe("validate", () => {
       const errors = validateSources([{ url: "https://github.com/foo/bar" }]);
       expect(errors).toHaveLength(0);
     });
+
+    it("scope coverage requires every in-scope example to be present in sources", () => {
+      const errors = validateScopeCoverage(
+        [{ url: "https://github.com/bradAGI/awesome-cli-coding-agents" }],
+        [
+          { url: "https://github.com/bradAGI/awesome-cli-coding-agents" },
+          { url: "https://github.com/punkpeye/awesome-mcp-servers" },
+        ]
+      );
+
+      expect(errors).toHaveLength(1);
+      expect(errors[0].message).toContain("punkpeye/awesome-mcp-servers");
+    });
+
+    it("scope coverage normalizes GitHub URL casing", () => {
+      expect(normalizeSourceCoverageUrl("https://github.com/BloopAI/Vibe-Kanban/")).toBe(
+        "https://github.com/bloopai/vibe-kanban"
+      );
+    });
   });
 
   describe("catalog items", () => {
@@ -144,7 +172,6 @@ describe("validate", () => {
     it("catalog item without provenance fails", () => {
       const item = makeItem({
         provenance: {
-          primary_credit: { label: "Test", url: null },
           discoveries: [],
         },
       });
@@ -239,6 +266,143 @@ describe("discover", () => {
 
     expect(updatedItems).toHaveLength(1);
     expect(updatedItems[0].provenance.discoveries).toHaveLength(2);
+  });
+
+  it("creates items from parsed awesome-list entries", () => {
+    const { newItems } = discoverCandidates(
+      [
+        {
+          target_url: "https://github.com/example/playwright-mcp",
+          source: {
+            url: "https://github.com/punkpeye/awesome-mcp-servers",
+            kind: "awesome-list",
+            note: "MCP servers.",
+          },
+          extraction: {
+            mode: "parsed",
+            section_path: ["Browser Automation"],
+            anchor_text: "Playwright MCP",
+            extracted_url: "https://github.com/example/playwright-mcp",
+            surrounding_text: "- [Playwright MCP](https://github.com/example/playwright-mcp) - browser automation",
+            confidence: "high",
+          },
+        },
+      ],
+      []
+    );
+
+    expect(newItems).toHaveLength(1);
+    expect(newItems[0].canonical_url).toBe("https://github.com/example/playwright-mcp");
+    expect(newItems[0].provenance.discoveries[0].source.type).toBe("awesome-list");
+    expect(newItems[0].provenance.discoveries[0].source.repository).toBe("punkpeye/awesome-mcp-servers");
+    expect(newItems[0].provenance.discoveries[0].extraction.mode).toBe("parsed");
+  });
+
+  it("keeps multi-source discoveries on newly created items", () => {
+    const { newItems, updatedItems } = discoverCandidates(
+      [
+        {
+          target_url: "https://github.com/example/playwright-mcp",
+          source: {
+            url: "https://github.com/punkpeye/awesome-mcp-servers",
+            kind: "awesome-list",
+            note: "MCP servers.",
+          },
+          extraction: {
+            mode: "parsed",
+            section_path: ["Browser Automation"],
+            anchor_text: "Playwright MCP",
+            extracted_url: "https://github.com/example/playwright-mcp",
+            surrounding_text: "- [Playwright MCP](https://github.com/example/playwright-mcp) - browser automation",
+            confidence: "high",
+          },
+        },
+        {
+          target_url: "https://github.com/example/playwright-mcp",
+          source: {
+            url: "https://github.com/wong2/awesome-mcp-servers",
+            kind: "awesome-list",
+            note: "Another MCP directory.",
+          },
+          extraction: {
+            mode: "parsed",
+            section_path: ["Testing"],
+            anchor_text: "Playwright MCP",
+            extracted_url: "https://github.com/example/playwright-mcp",
+            surrounding_text: "- [Playwright MCP](https://github.com/example/playwright-mcp) - testing",
+            confidence: "high",
+          },
+        },
+      ],
+      []
+    );
+
+    expect(newItems).toHaveLength(1);
+    expect(updatedItems).toHaveLength(0);
+    expect(newItems[0].provenance.discoveries).toHaveLength(2);
+    expect(newItems[0].provenance.discoveries.map((discovery) => discovery.source.repository)).toEqual([
+      "punkpeye/awesome-mcp-servers",
+      "wong2/awesome-mcp-servers",
+    ]);
+  });
+
+  it("keeps source-list intake stable across reruns by selecting the same top-supported groups", () => {
+    const selected = selectSourceListDiscoveryCandidates(
+      [
+        {
+          target_url: "https://github.com/example/top-tool",
+          source: {
+            url: "https://github.com/list-a/awesome-tools",
+            kind: "awesome-list",
+          },
+          extraction: {
+            mode: "parsed",
+            section_path: ["Top"],
+            anchor_text: "top-tool",
+            extracted_url: "https://github.com/example/top-tool",
+            surrounding_text: null,
+            confidence: "high",
+          },
+        },
+        {
+          target_url: "https://github.com/example/top-tool",
+          source: {
+            url: "https://github.com/list-b/awesome-tools",
+            kind: "awesome-list",
+          },
+          extraction: {
+            mode: "parsed",
+            section_path: ["Top"],
+            anchor_text: "top-tool",
+            extracted_url: "https://github.com/example/top-tool",
+            surrounding_text: null,
+            confidence: "high",
+          },
+        },
+        {
+          target_url: "https://github.com/example/lower-rank",
+          source: {
+            url: "https://github.com/list-c/awesome-tools",
+            kind: "awesome-list",
+          },
+          extraction: {
+            mode: "parsed",
+            section_path: ["Other"],
+            anchor_text: "lower-rank",
+            extracted_url: "https://github.com/example/lower-rank",
+            surrounding_text: null,
+            confidence: "high",
+          },
+        },
+      ],
+      new Set<string>(),
+      1
+    );
+
+    expect(selected).toHaveLength(2);
+    expect(new Set(selected.map((candidate) => candidate.target_url))).toEqual(
+      new Set(["https://github.com/example/top-tool"])
+    );
   });
 });
 
@@ -358,42 +522,133 @@ describe("overrides", () => {
 
 describe("render", () => {
   it("README includes title and intro", () => {
-    const readme = renderReadme([], CATEGORIES, false);
+    const readme = renderReadme([], CATEGORIES);
     expect(readme).toContain("# Awesome AI Rabbit Holes");
     expect(readme).toContain("Come for the tools");
   });
 
-  it("README includes category links for categories with items", () => {
+  it("README includes category links and short hints", () => {
     const item = makeItem({
       placement: { primary_category: "coding-agents", section: null },
       lifecycle: { status: "curated" },
     });
-    const readme = renderReadme([item], CATEGORIES, false);
+    const readme = renderReadme([item], CATEGORIES);
     expect(readme).toContain("Coding Agents");
     expect(readme).toContain("coding-agents.md");
+    expect(readme).toContain(
+      "- [Coding Agents](docs/rabbit-holes/coding-agents.md) — Tools for coding with AI."
+    );
   });
 
-  it("rabbit-hole page includes item from category", () => {
+  it("README links every rabbit-hole page", () => {
+    const readme = renderReadme([], CATEGORIES);
+    expect(readme).toContain("coding-agents.md");
+    expect(readme).toContain("mcp.md");
+    expect(readme).toContain("awesome-awesomes.md");
+  });
+
+  it("rabbit-hole page renders curated items as compact bullets with inline details", () => {
     const item = makeItem({
       name: "test-tool",
       placement: { primary_category: "coding-agents", section: null },
       lifecycle: { status: "curated" },
-      insights: { summary: "A great tool", why_it_matters: "Matters a lot", mental_damage: "Oh no", tags: [], confidence: null },
+      metadata: {
+        github: {
+          stars: 1234,
+          forks: null,
+          license: null,
+          archived: null,
+          pushed_at: null,
+          description: null,
+          homepage: null,
+          topics: null,
+          last_checked_at: null,
+        },
+      },
+      insights: {
+        summary: "A great tool for teams",
+        why_it_matters: "Matters a lot for busy teams.",
+        mental_damage: "Now your backlog has a boss.",
+        tags: ["agents", "kanban"],
+        confidence: "high",
+      },
     });
-    const page = renderRabbitHolePage(CATEGORIES[0], [item], false);
-    expect(page).toContain("test-tool");
-    expect(page).toContain("A great tool");
+    const page = renderRabbitHolePage(CATEGORIES[0], [item]);
+    expect(page).toContain(
+      "- **[test-tool](https://github.com/testowner/test-repo)** `⭐ 1.2k` A great tool for teams. <details><summary>More about</summary>"
+    );
+    expect(page).toContain("Matters a lot for busy teams.");
+    expect(page).toContain("Now your backlog has a boss.");
+    expect(page).not.toContain("### [test-tool]");
   });
 
-  it("incubating items render separately", () => {
+  it("rabbit-hole page sorts tools by stars descending", () => {
+    const higherStar = makeItem({
+      name: "high-star",
+      placement: { primary_category: "coding-agents", section: null },
+      lifecycle: { status: "curated" },
+      metadata: {
+        github: {
+          ...makeItem().metadata.github,
+          stars: 5000,
+        },
+      },
+    });
+    const lowerStar = makeItem({
+      id: "github__testowner__other-repo",
+      name: "low-star",
+      canonical_url: "https://github.com/testowner/other-repo",
+      identity: { github_repo: "testowner/other-repo" },
+      placement: { primary_category: "coding-agents", section: null },
+      lifecycle: { status: "curated" },
+      metadata: {
+        github: {
+          ...makeItem().metadata.github,
+          stars: 12,
+        },
+      },
+    });
+
+    const page = renderRabbitHolePage(CATEGORIES[0], [lowerStar, higherStar]);
+    expect(page.indexOf("high-star")).toBeLessThan(page.indexOf("low-star"));
+  });
+
+  it("incubating items render separately as compact bullets", () => {
     const item = makeItem({
       name: "new-tool",
       placement: { primary_category: "coding-agents", section: null },
       lifecycle: { status: "incubating" },
+      metadata: {
+        github: {
+          stars: 1000,
+          forks: null,
+          license: null,
+          archived: null,
+          pushed_at: null,
+          description: null,
+          homepage: null,
+          topics: null,
+          last_checked_at: null,
+        },
+      },
+      insights: {
+        summary: "A great tool",
+        why_it_matters: "Useful for fast-moving teams.",
+        mental_damage: "Your queue now has opinions.",
+        tags: [],
+        confidence: "high",
+      },
     });
-    const page = renderRabbitHolePage(CATEGORIES[0], [item], false);
-    expect(page).toContain("Incubating");
-    expect(page).toContain("new-tool");
+    const page = renderRabbitHolePage(CATEGORIES[0], [item]);
+    expect(page).toContain("## Incubating");
+    expect(page).toContain("- **[new-tool](https://github.com/testowner/test-repo)** `⭐ 1k` A great tool.");
+  });
+
+  it("empty rabbit-hole pages render a short waiting message", () => {
+    const page = renderRabbitHolePage(CATEGORIES[1], []);
+    expect(page).toContain("## Nothing Here Yet");
+    expect(page).toContain("Even the hype forgot to stop here.");
+    expect(page).not.toContain("taxonomy starts as an empty box");
   });
 
   it("site/catalog.json contains public item fields", () => {
@@ -433,6 +688,69 @@ describe("render", () => {
     expect(JSON.stringify(a)).toBe(JSON.stringify(b));
     expect(a.generated_at).toBe("2026-04-01T00:00:00Z");
   });
+
+  it("site catalog sorts included items by stars descending", () => {
+    const higherStar = makeItem({
+      name: "high-star",
+      metadata: {
+        github: {
+          ...makeItem().metadata.github,
+          stars: 5000,
+          last_checked_at: "2026-04-02T00:00:00Z",
+        },
+      },
+    });
+    const lowerStar = makeItem({
+      id: "github__testowner__other-repo",
+      name: "low-star",
+      canonical_url: "https://github.com/testowner/other-repo",
+      identity: { github_repo: "testowner/other-repo" },
+      metadata: {
+        github: {
+          ...makeItem().metadata.github,
+          stars: 12,
+          last_checked_at: "2026-04-01T00:00:00Z",
+        },
+      },
+    });
+
+    const catalog = renderSiteCatalog([lowerStar, higherStar]);
+    expect(catalog.items.map((item) => item.name)).toEqual(["high-star", "low-star"]);
+  });
+});
+
+describe("review report", () => {
+  it("counts only external discovery sources", () => {
+    const manual = makeItem();
+    const external = makeItem({
+      id: "github__example__mcp-list",
+      provenance: {
+        discoveries: [
+          {
+            id: "discovery__github__example__mcp-list__awesome-list",
+            discovered_at: "2026-05-01T00:00:00Z",
+            source: {
+              type: "awesome-list",
+              name: "awesome-mcp-servers",
+              url: "https://github.com/punkpeye/awesome-mcp-servers",
+              repository: "punkpeye/awesome-mcp-servers",
+            },
+            extraction: {
+              mode: "direct",
+              section_path: ["inbox"],
+              anchor_text: "https://github.com/example/mcp-list",
+              extracted_url: "https://github.com/example/mcp-list",
+              surrounding_text: null,
+              confidence: "high",
+            },
+          } as any,
+        ],
+      } as any,
+    });
+
+    const report = buildReviewReport([manual, external], [], [manual, external]);
+    expect(report.new_discovery_sources).toEqual(["awesome-mcp-servers"]);
+  });
 });
 
 // ─── Phase 8: AI Insights ─────────────────────────────────────────────────────
@@ -459,12 +777,17 @@ describe("AI insights", () => {
       why_it_matters: "Helps organize agent tasks.",
       mental_damage: "Now you need a project manager for your project manager.",
       tags: ["kanban", "agents"],
+      should_include: true,
+      primary_category: "coding-agents",
+      decision_reason: "Fits developer tooling and belongs in coding agents.",
+      decision_evidence: ["Repo description says it is a kanban tool for coding agents."],
       category_candidates: ["coding-agents"],
       confidence: "high",
     });
     const result = parseAIInsightResponse(raw);
     expect(result.summary).toBe("A kanban tool for coding agents.");
     expect(result.tags).toContain("kanban");
+    expect((result as any).should_include).toBe(true);
     expect(result.confidence).toBe("high");
   });
 
@@ -481,6 +804,10 @@ describe("AI insights", () => {
       why_it_matters: "It matters.",
       mental_damage: "Oh no.",
       tags: ["Coding Agent", "MCP Server"],
+      should_include: true,
+      primary_category: "coding-agents",
+      decision_reason: "Fits coding workflows.",
+      decision_evidence: ["Repo description says it is a developer tool."],
       category_candidates: ["coding-agents"],
       confidence: "medium",
     });
@@ -571,6 +898,152 @@ describe("AI insights", () => {
     expect(prompt).toMatch(/seed for the factual one-line summary/i);
     expect(prompt).toMatch(/README excerpt: the project's own pitch/i);
   });
+});
+
+describe("AI insight application", () => {
+  it("needsAIInsights detects missing and complete AI-owned fields", () => {
+    expect(needsAIInsights(makeItem())).toBe(true);
+
+    const complete = makeItem({
+      insights: {
+        summary: "A tool.",
+        why_it_matters: "It matters.",
+        mental_damage: "You now need a workflow for your workflow.",
+        tags: ["coding-agent"],
+        confidence: "high",
+      },
+    });
+
+    expect(needsAIInsights(complete)).toBe(false);
+  });
+
+  it("applyAIInsights fills insights and uses the first valid category candidate", () => {
+    const item = makeItem();
+    const result = applyAIInsights(
+      item,
+      {
+        summary: "A CLI-first catalog.",
+        why_it_matters: "It turns messy discovery into something searchable.",
+        mental_damage: "Now your backlog has a backlog.",
+        tags: ["coding-agent", "catalog"],
+        should_include: true,
+        primary_category: "coding-agents",
+        decision_reason: "Fits developer tooling and belongs in coding agents.",
+        decision_evidence: ["Repo description says it is a CLI-first catalog."],
+        category_candidates: ["not-a-real-category", "coding-agents"],
+        confidence: "medium",
+      } as any,
+      CATEGORIES
+    );
+
+    expect(result.insights.summary).toBe("A CLI-first catalog.");
+    expect(result.insights.tags).toEqual(["coding-agent", "catalog"]);
+    expect(result.placement.primary_category).toBe("coding-agents");
+  });
+
+  it("applyAIInsights keeps an existing explicit placement", () => {
+    const item = makeItem({
+      placement: { primary_category: "mcp", section: null },
+    });
+
+    const result = applyAIInsights(
+      item,
+      {
+        summary: "A tool.",
+        why_it_matters: "It matters.",
+        mental_damage: "Oh no.",
+        tags: ["coding-agent"],
+        should_include: true,
+        primary_category: "coding-agents",
+        decision_reason: "Fits the catalog but an override already pinned it to mcp.",
+        decision_evidence: ["The repo is still a developer-facing tool."],
+        category_candidates: ["coding-agents"],
+        confidence: "high",
+      } as any,
+      CATEGORIES
+    );
+
+    expect(result.placement.primary_category).toBe("mcp");
+  });
+
+  it("enrichWithAIInsights skips Copilot when the item already has insights", async () => {
+    const item = makeItem({
+      insights: {
+        summary: "A tool.",
+        why_it_matters: "It matters.",
+        mental_damage: "Oh no.",
+        tags: ["coding-agent"],
+        confidence: "high",
+      },
+    });
+
+    let called = false;
+    const result = await enrichWithAIInsights(item, CATEGORIES, async () => {
+      called = true;
+      return JSON.stringify({});
+    });
+
+    expect(called).toBe(false);
+    expect(result).toBe(item);
+  });
+
+  it("enrichWithAIInsights uses Copilot output to populate summary and placement", async () => {
+    const item = makeItem();
+    const result = await enrichWithAIInsights(
+      item,
+      CATEGORIES,
+      async () =>
+        JSON.stringify({
+          summary: "A catalog for AI rabbit holes.",
+          why_it_matters: "It keeps fast-moving tooling discoverable.",
+          mental_damage: "Now every list becomes another tab you should read.",
+          tags: ["Coding Agent", "Catalog"],
+          should_include: true,
+          primary_category: "coding-agents",
+          decision_reason: "Fits developer tooling and belongs in coding agents.",
+          decision_evidence: ["Repo description says it keeps fast-moving tooling discoverable."],
+          category_candidates: ["coding-agents"],
+          confidence: "high",
+        })
+    );
+
+    expect(result.insights.summary).toBe("A catalog for AI rabbit holes.");
+    expect(result.insights.tags).toEqual(["coding-agent", "catalog"]);
+    expect(result.placement.primary_category).toBe("coding-agents");
+  });
+
+  it("retries once when the AI returns malformed JSON before succeeding", async () => {
+    const item = makeItem();
+    const responses = [
+      "{\"summary\":\"broken\"",
+      JSON.stringify({
+        summary: "A retryable catalog result.",
+        why_it_matters: "It recovers from occasional malformed model output.",
+        mental_damage: "Now even your parser has to keep the model honest.",
+        tags: ["coding-agent", "catalog"],
+        should_include: true,
+        primary_category: "coding-agents",
+        decision_reason: "Fits developer tooling and belongs in coding agents.",
+        decision_evidence: ["Retry succeeded with valid structured output."],
+        category_candidates: ["coding-agents"],
+        confidence: "high",
+      }),
+    ];
+    let calls = 0;
+
+    const result = await enrichWithAIInsights(item, CATEGORIES, async () => {
+      const response = responses[calls];
+      calls += 1;
+      if (!response) throw new Error("ran out of stubbed responses");
+      return response;
+    });
+
+    expect(calls).toBe(2);
+    expect(result.insights.summary).toBe("A retryable catalog result.");
+    expect(result.placement.primary_category).toBe("coding-agents");
+  });
+
+
 });
 
 // ─── README enrichment ───────────────────────────────────────────────────────
@@ -791,7 +1264,9 @@ describe("makeItemPath", () => {
     const a = makeItemPath("https://github.com/BloopAI/Vibe-Kanban");
     const b = makeItemPath("https://github.com/bloopai/vibe-kanban");
     expect(a).toBe(b);
-    expect(a.endsWith("/catalog/items/github/bloopai/vibe-kanban.yml")).toBe(true);
+    expect(path.normalize(a)).toContain(
+      path.normalize(path.join("catalog", "items", "github", "bloopai", "vibe-kanban.yml"))
+    );
   });
 });
 
@@ -809,10 +1284,10 @@ describe("makeDiscoveryId", () => {
     expect(id.endsWith("__direct-link")).toBe(true);
   });
 
-  it("encodes the source kind when provided", () => {
+  it("encodes the source kind and source identity when provided", () => {
     const source: Source = { url: "https://github.com/foo/bar", kind: "awesome-list" };
     const id = makeDiscoveryId("https://github.com/foo/bar", source);
-    expect(id.endsWith("__awesome-list")).toBe(true);
+    expect(id).toContain("__awesome-list__foo__bar");
   });
 });
 
@@ -903,14 +1378,14 @@ describe("validateOverridesUniqueness", () => {
   });
 });
 
-describe("renderReadme: needs_review filter", () => {
-  it("does not link to a category whose only items are needs_review", () => {
+describe("renderReadme: all category links stay visible", () => {
+  it("links a category page even when the current items there are needs_review", () => {
     const item = makeItem({
       placement: { primary_category: "coding-agents", section: null },
       lifecycle: { status: "needs_review", reason: "Repository is archived" },
     });
-    const readme = renderReadme([item], CATEGORIES, false);
-    expect(readme).not.toContain("coding-agents.md");
+    const readme = renderReadme([item], CATEGORIES);
+    expect(readme).toContain("coding-agents.md");
   });
 
   it("still links to categories with at least one curated/landmark item", () => {
@@ -926,190 +1401,12 @@ describe("renderReadme: needs_review filter", () => {
         lifecycle: { status: "needs_review" },
       }),
     ];
-    const readme = renderReadme(items, CATEGORIES, false);
+    const readme = renderReadme(items, CATEGORIES);
     expect(readme).toContain("coding-agents.md");
   });
 });
 
-describe("buildNewCatalogItem: configurable submitter", () => {
-  it("uses the supplied submitter for primary_credit and discovery", () => {
-    const item = buildNewCatalogItem(
-      "https://github.com/foo/bar",
-      { url: "https://github.com/foo/bar" },
-      "2026-04-30T00:00:00Z",
-      { name: "Alice", url: "https://github.com/alice" }
-    );
-    expect(item.provenance.primary_credit.label).toBe("Alice");
-    expect(item.provenance.primary_credit.url).toBe("https://github.com/alice");
-    expect(item.provenance.discoveries[0].submitted_by.name).toBe("Alice");
-    expect(item.provenance.discoveries[0].credit.label).toBe("Alice");
-  });
 
-  it("falls back to a generic default when no submitter is supplied", () => {
-    const item = buildNewCatalogItem(
-      "https://github.com/foo/bar",
-      { url: "https://github.com/foo/bar" },
-      "2026-04-30T00:00:00Z"
-    );
-    // Generic default — no hardcoded person name.
-    expect(item.provenance.primary_credit.label).not.toBe("Gabriel Moreira");
-  });
-});
-
-// ─── Source Credits: README + dedicated page ─────────────────────────────────
-
-import { renderSourceCreditsPage } from "../scripts/render.js";
-
-function makeAwesomeListItem(): CatalogItem {
-  const base = makeItem();
-  return {
-    ...base,
-    id: "github__awesomelistowner__awesome-things",
-    name: "awesome-things",
-    canonical_url: "https://github.com/awesomelistowner/awesome-things",
-    provenance: {
-      primary_credit: { label: "Gabriel Moreira", url: null },
-      discoveries: [
-        {
-          id: "discovery__github__awesomelistowner__awesome-things__awesome-list",
-          discovered_at: "2026-04-30T00:00:00Z",
-          submitted_by: { type: "maintainer", name: "Gabriel Moreira", url: null },
-          contribution: { type: "manual", url: null, number: null, author: { name: "Gabriel Moreira", url: null } },
-          source: {
-            type: "awesome-list",
-            name: "Awesome Things",
-            url: "https://github.com/awesomelistowner/awesome-things",
-            repository: "awesomelistowner/awesome-things",
-          },
-          extraction: {
-            mode: "scraped",
-            section_path: ["Tools"],
-            anchor_text: "awesome-things",
-            extracted_url: "https://github.com/awesomelistowner/awesome-things",
-            surrounding_text: null,
-            confidence: "high",
-          },
-          credit: { label: "Awesome Things", url: "https://github.com/awesomelistowner/awesome-things" },
-        },
-      ],
-    },
-    placement: { primary_category: "awesome-awesomes", section: null },
-    lifecycle: { status: "curated" },
-  };
-}
-
-describe("README Source Credits", () => {
-  it("does not list submitter names as bullet credits", () => {
-    const item = makeItem({
-      provenance: {
-        primary_credit: { label: "Some Submitter", url: null },
-        discoveries: [
-          {
-            id: "discovery__github__testowner__test-repo__direct-link",
-            discovered_at: "2026-04-30T00:00:00Z",
-            submitted_by: { type: "maintainer", name: "Some Submitter", url: null },
-            contribution: { type: "manual", url: null, number: null, author: { name: "Some Submitter", url: null } },
-            source: { type: "direct-link", name: "Manual submission", url: null, repository: null },
-            extraction: {
-              mode: "direct",
-              section_path: ["inbox"],
-              anchor_text: "x",
-              extracted_url: "https://github.com/testowner/test-repo",
-              surrounding_text: null,
-              confidence: "high",
-            },
-            credit: { label: "Some Submitter", url: null },
-          },
-        ],
-      },
-      placement: { primary_category: "coding-agents", section: null },
-      lifecycle: { status: "curated" },
-    });
-    const readme = renderReadme([item], CATEGORIES, true);
-    // Old behavior was a bullet line "- Some Submitter" or "- [Some Submitter](...)"
-    expect(readme).not.toMatch(/^- \[?Some Submitter/m);
-    expect(readme).not.toMatch(/^- Some Submitter$/m);
-  });
-
-  it("renders the AI casino paragraph", () => {
-    const readme = renderReadme([], CATEGORIES, true);
-    expect(readme).toContain("## Source Credits");
-    expect(readme).toMatch(/casino|slot machine|lever/i);
-  });
-
-  it("links to the dedicated Source Credits page", () => {
-    const readme = renderReadme([], CATEGORIES, true);
-    expect(readme).toContain("docs/source-credits.md");
-  });
-
-  it("links to the Awesome Awesomes rabbit hole page", () => {
-    const readme = renderReadme([], CATEGORIES, true);
-    expect(readme).toContain("docs/rabbit-holes/awesome-awesomes.md");
-  });
-
-  it("Source Credits section is shown even when include_source_credits is false (the section is now generated, not a per-item credit list)", () => {
-    // We still want the casino text to be reachable; behavior with include=false
-    // is: section is omitted (preserves the toggle semantics for users who really
-    // do not want it). This test just locks the behavior in.
-    const readme = renderReadme([], CATEGORIES, false);
-    expect(readme).not.toContain("## Source Credits");
-  });
-});
-
-describe("dedicated Source Credits page", () => {
-  it("includes external source pages (awesome-list etc.)", () => {
-    const item = makeAwesomeListItem();
-    const page = renderSourceCreditsPage([item]);
-    expect(page).toContain("Awesome Things");
-    expect(page).toContain("https://github.com/awesomelistowner/awesome-things");
-  });
-
-  it("excludes manual submitter-only credits (direct-link / manual-submission)", () => {
-    // makeItem() default uses source.type = "direct-link"
-    const submitterOnly = makeItem({
-      provenance: {
-        primary_credit: { label: "Some Submitter", url: null },
-        discoveries: [
-          {
-            id: "discovery__github__testowner__test-repo__direct-link",
-            discovered_at: "2026-04-30T00:00:00Z",
-            submitted_by: { type: "maintainer", name: "Some Submitter", url: null },
-            contribution: { type: "manual", url: null, number: null, author: { name: "Some Submitter", url: null } },
-            source: { type: "direct-link", name: "Manual submission", url: null, repository: null },
-            extraction: {
-              mode: "direct",
-              section_path: ["inbox"],
-              anchor_text: "x",
-              extracted_url: "https://github.com/testowner/test-repo",
-              surrounding_text: null,
-              confidence: "high",
-            },
-            credit: { label: "Some Submitter", url: null },
-          },
-        ],
-      },
-    });
-    const page = renderSourceCreditsPage([submitterOnly]);
-    expect(page).not.toContain("Some Submitter");
-    expect(page).not.toContain("Manual submission");
-  });
-
-  it("preserves provenance data on items (does not mutate)", () => {
-    const item = makeAwesomeListItem();
-    const before = JSON.stringify(item.provenance);
-    renderSourceCreditsPage([item]);
-    expect(JSON.stringify(item.provenance)).toBe(before);
-  });
-
-  it("deduplicates the same external source listed by multiple items", () => {
-    const a = makeAwesomeListItem();
-    const b = { ...makeAwesomeListItem(), id: "github__b__b", canonical_url: "https://github.com/b/b" };
-    const page = renderSourceCreditsPage([a, b]);
-    // Source URL should appear once in the bullet list.
-    const occurrences = page.match(/awesomelistowner\/awesome-things/g) ?? [];
-    expect(occurrences.length).toBe(1);
-  });
-});
 
 describe("Context Engineering page wording", () => {
   it("category description carries the 'tokens' joke (from catalog/categories.yml)", () => {
@@ -1133,7 +1430,7 @@ describe("Context Engineering page wording", () => {
       placement: { primary_category: "context-engineering", section: null },
       lifecycle: { status: "curated" },
     });
-    const page = renderRabbitHolePage(ctx, [item], false);
+    const page = renderRabbitHolePage(ctx, [item]);
     expect(page).toContain("give me tokens, my precious tokens");
   });
 });
@@ -1147,9 +1444,7 @@ describe("buildDiscovery preserves external source provenance", () => {
     const d = buildDiscovery(
       "https://github.com/some/repo",
       { url: "https://github.com/punkpeye/awesome-mcp-servers", kind: "awesome-list", note: null as any },
-      "2026-04-30T00:00:00Z",
-      "Maintainer",
-      null
+      "2026-04-30T00:00:00Z"
     );
     expect(d.source.type).toBe("awesome-list");
     expect(d.source.url).toBe("https://github.com/punkpeye/awesome-mcp-servers");
@@ -1163,9 +1458,7 @@ describe("buildDiscovery preserves external source provenance", () => {
       const d = buildDiscovery(
         "https://github.com/some/repo",
         { url: "https://example.com/great-post", kind, note: null as any },
-        "2026-04-30T00:00:00Z",
-        "Maintainer",
-        null
+        "2026-04-30T00:00:00Z"
       );
       expect(d.source.type).toBe(kind);
       expect(d.source.url).toBe("https://example.com/great-post");
@@ -1178,9 +1471,7 @@ describe("buildDiscovery preserves external source provenance", () => {
     const d = buildDiscovery(
       "https://github.com/some/repo",
       { url: "https://github.com/some/repo" },
-      "2026-04-30T00:00:00Z",
-      "Maintainer",
-      null
+      "2026-04-30T00:00:00Z"
     );
     expect(d.source.type).toBe("direct-link");
     expect(d.source.url).toBeNull();

@@ -27,27 +27,6 @@ export type LifecycleStatus =
   | "archived"
   | "needs_review";
 
-export interface ContributionCredit {
-  label: string;
-  url: string | null;
-}
-
-export interface ContributionInfo {
-  type: "pr" | "manual" | "automated";
-  url: string | null;
-  number: number | null;
-  author: {
-    name: string;
-    url: string | null;
-  };
-}
-
-export interface SubmittedBy {
-  type: "contributor" | "maintainer" | "automated";
-  name: string;
-  url: string | null;
-}
-
 export interface SourceInfo {
   type: SourceKind;
   name: string;
@@ -67,15 +46,17 @@ export interface ExtractionInfo {
 export interface Discovery {
   id: string;
   discovered_at: string;
-  submitted_by: SubmittedBy;
-  contribution: ContributionInfo;
   source: SourceInfo;
   extraction: ExtractionInfo;
-  credit: ContributionCredit;
+}
+
+export interface DiscoveryCandidate {
+  target_url: string;
+  source: Source;
+  extraction: ExtractionInfo;
 }
 
 export interface Provenance {
-  primary_credit: ContributionCredit;
   discoveries: Discovery[];
 }
 
@@ -89,6 +70,7 @@ export interface GitHubMetadata {
   forks: number | null;
   license: string | null;
   archived: boolean | null;
+  created_at?: string | null;
   pushed_at: string | null;
   description: string | null;
   homepage: string | null;
@@ -107,6 +89,12 @@ export interface Insights {
   mental_damage: string | null;
   tags: string[];
   confidence: "high" | "medium" | "low" | null;
+}
+
+export interface Curation {
+  status: "pending" | "included" | "excluded";
+  reason: string | null;
+  evidence: string[];
 }
 
 export interface Placement {
@@ -133,6 +121,7 @@ export interface CatalogItem {
   provenance: Provenance;
   metadata: ItemMetadata;
   insights: Insights;
+  curation: Curation;
   placement: Placement;
   lifecycle: Lifecycle;
 }
@@ -146,6 +135,7 @@ export interface Override {
   };
   patch: Partial<{
     insights: Partial<Insights>;
+    curation: Partial<Curation>;
     placement: Partial<Placement>;
     lifecycle: Partial<Lifecycle>;
   }>;
@@ -165,14 +155,8 @@ export interface CatalogConfig {
   github: {
     metadata_refresh_days: number;
   };
-  render: {
-    include_source_credits: boolean;
-  };
-  credit: {
-    submitter: {
-      name: string;
-      url: string | null;
-    };
+  source_lists: {
+    max_new_items_per_run: number;
   };
 }
 
@@ -181,5 +165,5 @@ export interface ReviewReport {
   updated_metadata: string[];
   promotion_candidates: string[];
   needs_review: string[];
-  new_source_credits: string[];
+  new_discovery_sources: string[];
 }

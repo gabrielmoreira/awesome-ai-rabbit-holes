@@ -1,0 +1,65 @@
+id: github__kaushikb11__awesome-llm-agents
+kind: github-repo
+name: awesome-llm-agents
+canonical_url: https://github.com/kaushikb11/awesome-llm-agents
+identity:
+  github_repo: kaushikb11/awesome-llm-agents
+provenance:
+  discoveries:
+    - id: discovery__github__kaushikb11__awesome-llm-agents__awesome-list__kaushikb11__awesome-llm-agents
+      discovered_at: "2026-05-01T13:51:25.374Z"
+      source:
+        type: awesome-list
+        name: kaushikb11/awesome-llm-agents
+        url: https://github.com/kaushikb11/awesome-llm-agents
+        repository: kaushikb11/awesome-llm-agents
+      extraction:
+        mode: direct
+        section_path:
+          - inbox
+        anchor_text: https://github.com/kaushikb11/awesome-llm-agents
+        extracted_url: https://github.com/kaushikb11/awesome-llm-agents
+        surrounding_text: LLM agents.
+        confidence: high
+metadata:
+  github:
+    stars: 1455
+    forks: 260
+    license: null
+    archived: false
+    created_at: "2023-04-04T10:22:43Z"
+    pushed_at: "2026-04-26T03:45:30Z"
+    description: A curated list of awesome LLM agents frameworks.
+    homepage: ""
+    topics:
+      - agents
+      - langchain
+      - llm
+    last_checked_at: "2026-05-01T13:51:35.140Z"
+    readme:
+      fetched_at: "2026-05-01T13:51:35.140Z"
+      bytes: 22536
+insights:
+  summary: A curated awesome-list of LLM agent frameworks and agent development tools.
+  why_it_matters: It gives developers a fast starting map of the major agent frameworks (e.g., orchestration, multi-agent systems, and agent dev kits) to compare before committing to an ecosystem.
+  mental_damage: Nothing says “confident architecture” like picking a “framework” from a list where half the industry ships a new one between coffee refills.
+  tags:
+    - awesome-list
+    - llm-agents
+    - agent-frameworks
+    - developer-tools
+    - curation
+  confidence: high
+curation:
+  status: included
+  reason: Include because it’s a developer-facing navigation aid focused specifically on LLM agent frameworks/tools, which fits the catalog’s “maps of the chaos” purpose best under awesome-awesomes.
+  evidence:
+    - "Repo description: \"A curated list of awesome LLM agents frameworks.\""
+    - "README: \"A curated list of awesome LLM frameworks and agent development tools\" with a dedicated Frameworks section listing major agent frameworks"
+    - "Direct awesome list source: yes; active maintenance signal (pushed at 2026-04-26)"
+placement:
+  primary_category: awesome-awesomes
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1455) exceeded threshold (150)

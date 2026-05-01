@@ -1,8 +1,8 @@
-# Scope examples — NOT processed by the pipeline.
+# Scope examples — used by the pipeline as an enforced checklist for the
+# positive examples in `in_scope`, and as human guidance for what belongs in
+# this catalog and what should usually stay out of scope.
 #
-# Only `sources/inbox.yml` is read by `pnpm catalog update`. This file exists
-# to seed future scraping/classification with examples of what belongs in scope
-# and what should usually stay out of scope.
+# `sources/inbox.yml` remains the actual discovery queue that `npm run catalog -- update` processes into catalog items.
 #
 # Guiding idea
 # ────────────

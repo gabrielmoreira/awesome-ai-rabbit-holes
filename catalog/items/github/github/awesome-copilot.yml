@@ -1,0 +1,70 @@
+id: github__github__awesome-copilot
+kind: github-repo
+name: awesome-copilot
+canonical_url: https://github.com/github/awesome-copilot
+identity:
+  github_repo: github/awesome-copilot
+provenance:
+  discoveries:
+    - id: discovery__github__github__awesome-copilot__awesome-list__github__awesome-copilot
+      discovered_at: "2026-05-01T13:51:25.374Z"
+      source:
+        type: awesome-list
+        name: github/awesome-copilot
+        url: https://github.com/github/awesome-copilot
+        repository: github/awesome-copilot
+      extraction:
+        mode: direct
+        section_path:
+          - inbox
+        anchor_text: https://github.com/github/awesome-copilot
+        extracted_url: https://github.com/github/awesome-copilot
+        surrounding_text: GitHub Copilot resources.
+        confidence: high
+metadata:
+  github:
+    stars: 31877
+    forks: 3858
+    license: MIT
+    archived: false
+    created_at: "2025-06-11T16:57:39Z"
+    pushed_at: "2026-05-01T11:04:03Z"
+    description: Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot.
+    homepage: https://awesome-copilot.github.com/
+    topics:
+      - agent-skills
+      - agents
+      - ai
+      - awesome
+      - custom-agents
+      - github-copilot
+      - hacktoberfest
+      - prompt-engineering
+    last_checked_at: "2026-05-01T13:51:30.758Z"
+    readme:
+      fetched_at: "2026-05-01T13:51:30.758Z"
+      bytes: 82597
+insights:
+  summary: A community-maintained awesome list of GitHub Copilot customizations including agents, instructions, skills, hooks, workflows, and plugins.
+  why_it_matters: It gives developers a searchable, curated starting point for extending Copilot with reusable agent setups, MCP-integrated agents, and workflow automation patterns instead of reinventing configs from scratch.
+  mental_damage: You will spend a calm, reasonable afternoon “just browsing agents” and wake up three days later with five plugins installed and a new belief system about hooks.
+  tags:
+    - awesome-list
+    - github-copilot
+    - agents
+    - mcp
+    - developer-workflows
+  confidence: high
+curation:
+  status: included
+  reason: Include as an awesome-list navigation hub that’s explicitly developer-tooling focused (Copilot agents/skills/hooks/workflows) and widely adopted, making it a high-signal map of the Copilot customization ecosystem.
+  evidence:
+    - "Repo description: \"instructions, agents, skills, and configurations\" for GitHub Copilot"
+    - "README: curated collection of \"custom agents, instructions, skills, hooks, workflows, and plugins\" plus a Tools section for \"MCP servers and developer tooling\""
+    - "Strong traction and freshness: 31,877 stars, not archived, pushed 2026-05-01"
+placement:
+  primary_category: awesome-awesomes
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (31877) exceeded threshold (150)
