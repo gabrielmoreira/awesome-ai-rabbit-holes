@@ -1,0 +1,74 @@
+id: github__flytohub__flyto-core
+kind: github-repo
+name: flyto-core
+canonical_url: https://github.com/flytohub/flyto-core
+identity:
+  github_repo: flytohub/flyto-core
+provenance:
+  discoveries:
+    - id: discovery__github__flytohub__flyto-core__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: flytohub/flyto-core
+        extracted_url: https://github.com/flytohub/flyto-core
+        surrounding_text: "- [flytohub/flyto-core](https://github.com/flytohub/flyto-core) [![flyto-core MCP server](https://glama.ai/mcp/servers/@flytohub/flyto-core/badges/score.svg)](https://glama.ai/mcp/servers/@flytohub/flyto-core) 🐍 🏠 - Deterministic execution engine for AI agents with 412 modules across 78 categories (browser, file, Docker, data, crypto, scheduling). Features execution trace, evidence snapshots, replay from any step, and supports both STDIO and Streamable HTTP transport."
+        confidence: high
+metadata:
+  github:
+    stars: 268
+    forks: 47
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-12-04T08:50:27Z"
+    pushed_at: "2026-04-30T15:31:07Z"
+    description: The open-source execution engine for AI agents. 412 modules, MCP-native, triggers, queue, versioning, metering.
+    homepage: https://flyto2.com
+    topics:
+      - ai-agents
+      - ai-tools
+      - atomic-modules
+      - automation
+      - browser-automation
+      - execution-engine
+      - llm
+      - low-code
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - open-source
+      - playwright
+      - python
+      - rpa
+      - security
+      - web-scraping
+      - workflow-automation
+      - workflow-engine
+    last_checked_at: "2026-05-02T12:11:30.181Z"
+    readme:
+      fetched_at: "2026-05-02T12:11:30.181Z"
+      bytes: 15118
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (268) exceeded threshold (150)

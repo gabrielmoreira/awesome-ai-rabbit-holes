@@ -1,0 +1,59 @@
+id: github__optuna__optuna
+kind: github-repo
+name: optuna
+canonical_url: https://github.com/optuna/optuna
+identity:
+  github_repo: optuna/optuna
+provenance:
+  discoveries:
+    - id: discovery__github__optuna__optuna__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/Awesome-LLMOps
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - AutoML
+        anchor_text: Optuna
+        extracted_url: https://github.com/optuna/optuna
+        surrounding_text: "| [Optuna](https://github.com/optuna/optuna)                                   | A hyperparameter optimization framework.                                                                                                                                        | ![GitHub Badge](https://img.shields.io/github/stars/optuna/optuna.svg?style=flat-square)                   |"
+        confidence: high
+metadata:
+  github:
+    stars: 14088
+    forks: 1322
+    license: MIT
+    archived: false
+    created_at: "2018-02-21T06:12:56Z"
+    pushed_at: "2026-05-01T08:29:33Z"
+    description: A hyperparameter optimization framework
+    homepage: https://optuna.org
+    topics:
+      - distributed
+      - hyperparameter-optimization
+      - machine-learning
+      - parallel
+      - python
+    last_checked_at: "2026-05-02T12:12:09.421Z"
+    readme:
+      fetched_at: "2026-05-02T12:12:09.421Z"
+      bytes: 12914
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (14088) exceeded threshold (150)

@@ -1,0 +1,54 @@
+id: github__automl__robo
+kind: github-repo
+name: robo
+canonical_url: https://github.com/automl/robo
+identity:
+  github_repo: automl/robo
+provenance:
+  discoveries:
+    - id: discovery__github__automl__robo__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/Awesome-LLMOps
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - AutoML
+        anchor_text: RoBO
+        extracted_url: https://github.com/automl/robo
+        surrounding_text: "| [RoBO](https://github.com/automl/RoBO)                                       | a Robust Bayesian Optimization framework.                                                                                                                                       | ![GitHub Badge](https://img.shields.io/github/stars/automl/RoBO.svg?style=flat-square)                     |"
+        confidence: high
+metadata:
+  github:
+    stars: 489
+    forks: 129
+    license: BSD-3-Clause
+    archived: false
+    created_at: "2015-03-27T09:02:20Z"
+    pushed_at: "2019-04-30T08:47:29Z"
+    description: "RoBO: a Robust Bayesian Optimization framework"
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-02T12:11:10.117Z"
+    readme:
+      fetched_at: "2026-05-02T12:11:10.117Z"
+      bytes: 1605
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (489) exceeded threshold (150)

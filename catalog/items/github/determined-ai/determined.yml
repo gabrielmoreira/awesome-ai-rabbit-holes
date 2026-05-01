@@ -1,0 +1,68 @@
+id: github__determined-ai__determined
+kind: github-repo
+name: determined
+canonical_url: https://github.com/determined-ai/determined
+identity:
+  github_repo: determined-ai/determined
+provenance:
+  discoveries:
+    - id: discovery__github__determined-ai__determined__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/Awesome-LLMOps
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - AutoML
+        anchor_text: Determined
+        extracted_url: https://github.com/determined-ai/determined
+        surrounding_text: "| [Determined](https://github.com/determined-ai/determined)                    | scalable deep learning training platform with integrated hyperparameter tuning support; includes Hyperband, PBT, and other search methods.                                      | ![GitHub Badge](https://img.shields.io/github/stars/determined-ai/determined.svg?style=flat-square)        |"
+        confidence: high
+metadata:
+  github:
+    stars: 3225
+    forks: 371
+    license: Apache-2.0
+    archived: false
+    created_at: "2020-04-07T16:12:29Z"
+    pushed_at: "2025-03-20T19:09:46Z"
+    description: Determined is an open-source machine learning platform that simplifies distributed training, hyperparameter tuning, experiment tracking, and resource management. Works with PyTorch and TensorFlow.
+    homepage: https://determined.ai
+    topics:
+      - data-science
+      - deep-learning
+      - distributed-training
+      - hyperparameter-optimization
+      - hyperparameter-search
+      - hyperparameter-tuning
+      - keras
+      - kubernetes
+      - machine-learning
+      - ml-infrastructure
+      - ml-platform
+      - mlops
+      - pytorch
+      - tensorflow
+    last_checked_at: "2026-05-02T12:11:21.963Z"
+    readme:
+      fetched_at: "2026-05-02T12:11:21.963Z"
+      bytes: 4749
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (3225) exceeded threshold (150)

@@ -1,0 +1,63 @@
+id: github__lancedb__lancedb
+kind: github-repo
+name: lancedb
+canonical_url: https://github.com/lancedb/lancedb
+identity:
+  github_repo: lancedb/lancedb
+provenance:
+  discoveries:
+    - id: discovery__github__lancedb__lancedb__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/Awesome-LLMOps
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Search
+          - Vector search
+        anchor_text: Lancedb
+        extracted_url: https://github.com/lancedb/lancedb
+        surrounding_text: "| [Lancedb](https://github.com/lancedb/lancedb)             | Developer-friendly, serverless vector database for AI applications. Easily add long-term memory to your LLM apps!                                                                                                                                                                             | ![GitHub Badge](https://img.shields.io/github/stars/lancedb/lancedb.svg?style=flat-square)            |"
+        confidence: high
+metadata:
+  github:
+    stars: 10163
+    forks: 867
+    license: Apache-2.0
+    archived: false
+    created_at: "2023-02-28T01:15:17Z"
+    pushed_at: "2026-04-30T19:52:05Z"
+    description: Developer-friendly OSS embedded retrieval library for multimodal AI. Search More; Manage Less.
+    homepage: https://lancedb.com/docs
+    topics:
+      - approximate-nearest-neighbor-search
+      - image-search
+      - nearest-neighbor-search
+      - recommender-system
+      - search-engine
+      - semantic-search
+      - similarity-search
+      - vector-database
+    last_checked_at: "2026-05-02T12:11:51.135Z"
+    readme:
+      fetched_at: "2026-05-02T12:11:51.135Z"
+      bytes: 5801
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (10163) exceeded threshold (150)

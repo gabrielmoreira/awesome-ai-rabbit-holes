@@ -1,0 +1,60 @@
+id: github__actor-framework__actor-framework
+kind: github-repo
+name: actor-framework
+canonical_url: https://github.com/actor-framework/actor-framework
+identity:
+  github_repo: actor-framework/actor-framework
+provenance:
+  discoveries:
+    - id: discovery__github__actor-framework__actor-framework__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: scraped
+        section_path:
+          - "[Langroid](https://github.com/langroid/langroid)"
+          - Description
+        anchor_text: Actor Framework
+        extracted_url: https://en.wikipedia.org/wiki/Actor_model
+        surrounding_text: "[Actor Framework](https://en.wikipedia.org/wiki/Actor_model)"
+        confidence: high
+metadata:
+  github:
+    stars: 3413
+    forks: 569
+    license: BSD-3-Clause
+    archived: false
+    created_at: "2011-03-04T14:59:50Z"
+    pushed_at: "2026-05-02T11:56:07Z"
+    description: An Open Source Implementation of the Actor Model in C++
+    homepage: http://actor-framework.org/
+    topics:
+      - actor-model
+      - actors
+      - async
+      - caf
+      - pattern-matching
+    last_checked_at: "2026-05-02T12:11:01.112Z"
+    readme:
+      fetched_at: "2026-05-02T12:11:01.112Z"
+      bytes: 6696
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (3413) exceeded threshold (150)

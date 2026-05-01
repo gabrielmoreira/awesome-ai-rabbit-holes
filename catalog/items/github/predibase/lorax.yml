@@ -1,0 +1,65 @@
+id: github__predibase__lorax
+kind: github-repo
+name: lorax
+canonical_url: https://github.com/predibase/lorax
+identity:
+  github_repo: predibase/lorax
+provenance:
+  discoveries:
+    - id: discovery__github__predibase__lorax__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: janhq/awesome-local-ai
+        url: https://github.com/janhq/awesome-local-ai
+        repository: janhq/awesome-local-ai
+      extraction:
+        mode: parsed
+        section_path:
+          - Inference Engine
+        anchor_text: LoRAX
+        extracted_url: https://github.com/predibase/lorax
+        surrounding_text: "| [LoRAX](https://github.com/predibase/lorax)                     | - Multi-LoRA inference server that scales to 1000s of fine-tuned LLMs                | Safetensor / AWQ / GPTQ | GPU             | ❌  | Python/Rust | Text-Gen      |"
+        confidence: high
+metadata:
+  github:
+    stars: 3771
+    forks: 312
+    license: Apache-2.0
+    archived: false
+    created_at: "2023-10-20T18:19:49Z"
+    pushed_at: "2025-05-21T17:40:25Z"
+    description: Multi-LoRA inference server that scales to 1000s of fine-tuned LLMs
+    homepage: https://loraexchange.ai
+    topics:
+      - fine-tuning
+      - gpt
+      - llama
+      - llm
+      - llm-inference
+      - llm-serving
+      - llmops
+      - lora
+      - model-serving
+      - pytorch
+      - transformers
+    last_checked_at: "2026-05-02T12:12:14.579Z"
+    readme:
+      fetched_at: "2026-05-02T12:12:14.579Z"
+      bytes: 9557
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (3771) exceeded threshold (150)

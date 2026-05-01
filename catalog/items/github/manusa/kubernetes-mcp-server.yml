@@ -1,0 +1,80 @@
+id: github__manusa__kubernetes-mcp-server
+kind: github-repo
+name: kubernetes-mcp-server
+canonical_url: https://github.com/manusa/kubernetes-mcp-server
+identity:
+  github_repo: manusa/kubernetes-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__manusa__kubernetes-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
+        anchor_text: manusa/Kubernetes MCP Server
+        extracted_url: https://github.com/manusa/kubernetes-mcp-server
+        surrounding_text: "- [manusa/Kubernetes MCP Server](https://github.com/manusa/kubernetes-mcp-server) 🏎️ 🏠 A - powerful Kubernetes MCP server with additional support for OpenShift. Besides providing CRUD operations for **any** Kubernetes resource, this server provides specialized tools to interact with your cluster."
+        confidence: high
+    - id: discovery__github__manusa__kubernetes-mcp-server__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/MobinX/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - null
+          - ☁️ Cloud Platforms
+        anchor_text: manusa/kubernetes-mcp-server
+        extracted_url: https://github.com/manusa/kubernetes-mcp-server
+        surrounding_text: "-   **[manusa/kubernetes-mcp-server](https://github.com/manusa/kubernetes-mcp-server)** [![GitHub stars](https://img.shields.io/github/stars/manusa/kubernetes-mcp-server?style=social)](https://github.com/manusa/kubernetes-mcp-server): Manages Kubernetes and OpenShift with specialized cluster interaction tools (Java implementation)."
+        confidence: high
+metadata:
+  github:
+    stars: 1517
+    forks: 329
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-02-11T02:57:36Z"
+    pushed_at: "2026-05-01T01:17:04Z"
+    description: Model Context Protocol (MCP) server for Kubernetes and OpenShift
+    homepage: ""
+    topics:
+      - containers
+      - context
+      - kubernetes
+      - kubernetes-mcp
+      - mcp
+      - model
+      - modelcontextprotocol
+      - openshift
+      - protocol
+    last_checked_at: "2026-05-02T12:10:54.590Z"
+    readme:
+      fetched_at: "2026-05-02T12:10:54.590Z"
+      bytes: 49075
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1517) exceeded threshold (150)

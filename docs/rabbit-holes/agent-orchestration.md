@@ -1,4 +1,8 @@
 # Agent Orchestration
 
-Frameworks, platforms, and patterns for coordinating multiple AI agents. Because one AI making decisions was not enough.
+User-facing platforms and operational tooling for coordinating multiple AI agents.
 
+
+## Nothing Here Yet
+
+_Even the hype forgot to stop here._

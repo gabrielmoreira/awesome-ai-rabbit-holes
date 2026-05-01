@@ -2,39 +2,59 @@
 
 > Do not edit `README.md`.
 > Do not edit `docs/rabbit-holes/*.md`.
-> Do not manually update stars.
-> Do not manually sort sections.
->
-> The pipeline does the rest.
+> Do not edit `catalog/catalog.json`.
+> Do not manually sort sections or hand-edit generated item YAML.
+
+The pipeline owns generated output. Humans own the inputs.
 
 ## Scope
 
-This catalog is **not** a generic AI directory. It focuses on practical AI
-tools, agents, workflows, and infrastructure that help **software developers
-become more productive**: coding agents, agent orchestration, MCP tooling,
-AI IDEs, local AI runtimes, evaluation harnesses, RAG for developer workflows,
-and similar.
+This catalog is not a generic AI directory. It focuses on practical AI tools,
+agents, workflows, and infrastructure that help software developers become more
+productive: coding agents, agent orchestration, MCP tooling, AI IDEs, local AI,
+evals, developer workflow automation, and adjacent developer-facing
+infrastructure.
 
-Lower priority / out of scope: generic ChatGPT prompt collections, ML theory,
-deep learning, computer vision, NLP research, diffusion models, RL, and
-broad AI resource lists with no clear developer-tooling angle.
+Lower priority / out of scope: generic prompt collections, general ML research,
+computer vision, diffusion, RL, and broad AI resource lists with no clear
+developer-tooling angle.
 
-See `sources/scope.yml` for positive and negative examples. That file is
-**not** processed by the pipeline — it only exists to inform future
-classification.
+## Prerequisites
 
-## To add something
+1. Install [mise](https://mise.jdx.dev/) and run `mise install`
+2. Run `mise run catalog:deps`
+3. Keep at least one working free-model provider credential available locally
+   (for example `OPENROUTER_API_KEY`)
 
-Edit `sources/inbox.yml`:
+Useful checks:
+
+```sh
+mise run pi:free:doctor
+mise run catalog:validate
+```
+
+## Human-owned files
+
+- `config/sources.yml` — discovery queue
+- `config/categories.yml` — taxonomy
+- `config/settings.yml` — budgets, concurrency, promotion / GitHub policy
+- `overrides/catalog/items/**/*.yml` — last-resort manual corrections
+
+## Generated files
+
+- `README.md`
+- `docs/rabbit-holes/*.md`
+- `catalog/catalog.json`
+- `catalog/items/**/*.yml`
+
+## Add new links
+
+Edit `config/sources.yml`:
 
 ```yaml
 - url: https://github.com/example/cool-agent-tool
   note: Optional short note.
-```
 
-Or for an awesome list:
-
-```yaml
 - url: https://github.com/example/awesome-ai-agents
   kind: awesome-list
   note: Useful list for discovering agent tools.
@@ -43,14 +63,22 @@ Or for an awesome list:
 Then run:
 
 ```sh
-pnpm catalog update
+mise run catalog:sync
 ```
 
-## To correct something
+## Correct a categorization or placement
 
-Add a file to `overrides/catalog/items/...yml` mirroring the catalog path.
+Prefer a targeted resync first:
 
-Example: `overrides/catalog/items/github/example/cool-agent-tool.yml`
+```sh
+mise run catalog:resync --id github__example__cool-agent-tool --categorize
+mise run catalog:resync --where processing.categorize.status=deferred --categorize
+```
+
+If the model still makes the wrong call, add an override under
+`overrides/catalog/items/...yml`.
+
+Example:
 
 ```yaml
 id: github__example__cool-agent-tool
@@ -58,7 +86,7 @@ id: github__example__cool-agent-tool
 override:
   reason: This belongs more clearly under agent orchestration.
   updated_by: Your Name
-  updated_at: 2026-04-30
+  updated_at: 2026-05-02
 
 patch:
   placement:
@@ -66,16 +94,23 @@ patch:
     section: null
 ```
 
-## What the pipeline owns
+## Command reference
 
-- `README.md`
-- `docs/rabbit-holes/*.md`
-- `site/catalog.json`
-- `catalog/items/**/*.yml` (generated and updated by pipeline)
+```sh
+mise run catalog:discover
+mise run catalog:stars
+mise run catalog:categorize
+mise run catalog:render
+mise run catalog:validate
+mise run catalog:sync
+mise run catalog:resync --id <item-id> --categorize
+mise run pi:free:doctor
+```
 
-## What humans own
+## Notes
 
-- `sources/inbox.yml`
-- `overrides/catalog/items/**/*.yml`
-- `catalog/categories.yml`
-- `catalog/config.yml`
+- `catalog:sync` is the main local and CI entrypoint.
+- `catalog:stars` refreshes GitHub-backed items independently of categorization readiness.
+- `catalog:categorize` uses one LLM call per item.
+- `catalog:render` is disk-only and idempotent.
+- `mise tasks` is the quickest way to discover the supported commands.

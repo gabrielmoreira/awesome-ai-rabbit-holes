@@ -1,0 +1,101 @@
+id: github__arize-ai__phoenix
+kind: github-repo
+name: phoenix
+canonical_url: https://github.com/arize-ai/phoenix
+identity:
+  github_repo: arize-ai/phoenix
+provenance:
+  discoveries:
+    - id: discovery__github__arize-ai__phoenix__awesome-list__vivy-yi__awesome-agent-orchestration
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: vivy-yi/awesome-agent-orchestration
+        url: https://github.com/vivy-yi/awesome-agent-orchestration
+        repository: vivy-yi/awesome-agent-orchestration
+      extraction:
+        mode: parsed
+        section_path:
+          - Tools & Infrastructure
+          - Observability & Tracing
+        anchor_text: Phoenix
+        extracted_url: https://github.com/arize-ai/phoenix
+        surrounding_text: "| [Phoenix](https://github.com/Arize-ai/phoenix) | Open-source LLM tracing |"
+        confidence: high
+    - id: discovery__github__arize-ai__phoenix__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: janhq/awesome-local-ai
+        url: https://github.com/janhq/awesome-local-ai
+        repository: janhq/awesome-local-ai
+      extraction:
+        mode: scraped
+        section_path:
+          - Developer tools
+        anchor_text: Phoenix
+        extracted_url: https://phoenix.arize.com
+        surrounding_text: "- [Phoenix](https://phoenix.arize.com/) - Open-source tool for ML observability that runs in your notebook environment, by Arize. Monitor and fine tune LLM, CV and tabular models."
+        confidence: high
+    - id: discovery__github__arize-ai__phoenix__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/Awesome-LLMOps
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - LLMOps
+        anchor_text: Arize-Phoenix
+        extracted_url: https://github.com/arize-ai/phoenix
+        surrounding_text: "| [Arize-Phoenix](https://github.com/Arize-ai/phoenix)               | ML observability for LLMs, vision, language, and tabular models.                                                                                                                                                                                                                                                                                                                                        | ![GitHub Badge](https://img.shields.io/github/stars/Arize-ai/phoenix.svg?style=flat-square)               |"
+        confidence: high
+metadata:
+  github:
+    stars: 9498
+    forks: 851
+    license: NOASSERTION
+    archived: false
+    created_at: "2022-11-09T23:44:35Z"
+    pushed_at: "2026-05-02T07:37:55Z"
+    description: AI Observability & Evaluation
+    homepage: https://arize.com/docs/phoenix
+    topics:
+      - agents
+      - ai-monitoring
+      - ai-observability
+      - aiengineering
+      - anthropic
+      - datasets
+      - evals
+      - langchain
+      - llamaindex
+      - llm-eval
+      - llm-evaluation
+      - llmops
+      - llms
+      - openai
+      - prompt-engineering
+      - smolagents
+    last_checked_at: "2026-05-02T12:10:44.203Z"
+    readme:
+      fetched_at: "2026-05-02T12:10:44.203Z"
+      bytes: 35461
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (9498) exceeded threshold (150)

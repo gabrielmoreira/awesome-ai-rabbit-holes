@@ -1,0 +1,59 @@
+id: github__jupyter__notebook
+kind: github-repo
+name: notebook
+canonical_url: https://github.com/jupyter/notebook
+identity:
+  github_repo: jupyter/notebook
+provenance:
+  discoveries:
+    - id: discovery__github__jupyter__notebook__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/Awesome-LLMOps
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Training
+          - IDEs and Workspaces
+        anchor_text: Jupyter Notebooks
+        extracted_url: https://github.com/jupyter/notebook
+        surrounding_text: "| [Jupyter Notebooks](https://github.com/jupyter/notebook) | The Jupyter notebook is a web-based notebook environment for interactive computing.                                                                                                                | ![GitHub Badge](https://img.shields.io/github/stars/jupyter/notebook.svg?style=flat-square)       |"
+        confidence: high
+metadata:
+  github:
+    stars: 13124
+    forks: 5654
+    license: BSD-3-Clause
+    archived: false
+    created_at: "2015-04-09T06:58:03Z"
+    pushed_at: "2026-04-30T11:45:14Z"
+    description: Jupyter Interactive Notebook
+    homepage: https://jupyter-notebook.readthedocs.io/
+    topics:
+      - closember
+      - jupyter
+      - jupyter-notebook
+      - notebook
+    last_checked_at: "2026-05-02T12:11:46.347Z"
+    readme:
+      fetched_at: "2026-05-02T12:11:46.347Z"
+      bytes: 5950
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (13124) exceeded threshold (150)

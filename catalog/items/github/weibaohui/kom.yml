@@ -1,0 +1,78 @@
+id: github__weibaohui__kom
+kind: github-repo
+name: kom
+canonical_url: https://github.com/weibaohui/kom
+identity:
+  github_repo: weibaohui/kom
+provenance:
+  discoveries:
+    - id: discovery__github__weibaohui__kom__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
+        anchor_text: weibaohui/kom
+        extracted_url: https://github.com/weibaohui/kom
+        surrounding_text: "- [weibaohui/kom](https://github.com/weibaohui/kom) 🏎️ ☁️/🏠 - Provides MCP multi-cluster Kubernetes management and operations. It can be integrated as an SDK into your own project and includes nearly 50 built-in tools covering common DevOps and development scenarios. Supports both standard and CRD resources."
+        confidence: high
+    - id: discovery__github__weibaohui__kom__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: weibaohui/kom
+        extracted_url: https://github.com/weibaohui/kom
+        surrounding_text: "- **[weibaohui/kom](https://github.com/weibaohui/kom)** Provides multi-cluster Kubernetes management and operations using MCP, It can be integrated as an SDK into your own project and includes nearly 50 built-in tools covering common DevOps and development scenarios. Supports both standard and CRD resources."
+        confidence: high
+metadata:
+  github:
+    stars: 148
+    forks: 34
+    license: MIT
+    archived: false
+    created_at: "2024-10-21T12:24:05Z"
+    pushed_at: "2026-02-06T14:25:33Z"
+    description: kom 是一个用于 Kubernetes 操作的工具，SDK级的kubectl、client-go的使用封装。并且支持作为管理k8s 的 MCP server。 它提供了一系列功能来管理 Kubernetes 资源，包括创建、更新、删除和获取资源，甚至使用SQL查询k8s资源。这个项目支持多种 Kubernetes 资源类型的操作，并能够处理自定义资源定义（CRD）。 通过使用 kom，你可以轻松地进行资源的增删改查和日志获取以及操作POD内文件等动作。
+    homepage: https://github.com/weibaohui/kom
+    topics:
+      - client-go
+      - cluster
+      - crd
+      - k8s
+      - kom
+      - kubectl
+      - mcp
+      - sdk
+      - sql
+    last_checked_at: "2026-05-02T12:10:58.218Z"
+    readme:
+      fetched_at: "2026-05-02T12:10:58.218Z"
+      bytes: 52820
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating

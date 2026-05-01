@@ -1,0 +1,54 @@
+id: github__docker__hub-mcp
+kind: github-repo
+name: hub-mcp
+canonical_url: https://github.com/docker/hub-mcp
+identity:
+  github_repo: docker/hub-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__docker__hub-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: docker/hub-mcp
+        extracted_url: https://github.com/docker/hub-mcp
+        surrounding_text: "- [docker/hub-mcp](https://github.com/docker/hub-mcp) 🎖️ 📇 ☁️ 🏠 - Official MCP server to interact with Docker Hub, providing access to repositories, hub search and Docker Hardened Images"
+        confidence: high
+metadata:
+  github:
+    stars: 141
+    forks: 95
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-06-12T16:12:12Z"
+    pushed_at: "2026-04-27T07:24:42Z"
+    description: Docker Hub MCP Server
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-02T12:11:22.910Z"
+    readme:
+      fetched_at: "2026-05-02T12:11:22.910Z"
+      bytes: 12712
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating

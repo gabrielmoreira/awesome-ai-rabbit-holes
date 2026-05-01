@@ -1,0 +1,33 @@
+name: pr-checks
+
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    env:
+      MISE_TASK_OUTPUT: prefix
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Set up mise tools
+        uses: jdx/mise-action@v4
+        with:
+          install: true
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Install project dependencies
+        run: mise run catalog:deps
+
+      - name: Run tests
+        run: mise run catalog:test
+
+      - name: Validate catalog
+        run: mise run catalog:validate

@@ -1,0 +1,72 @@
+id: github__getsentry__sentry-mcp
+kind: github-repo
+name: sentry-mcp
+canonical_url: https://github.com/getsentry/sentry-mcp
+identity:
+  github_repo: getsentry/sentry-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__getsentry__sentry-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📊 <a name="monitoring"></a>Monitoring
+        anchor_text: getsentry/sentry-mcp
+        extracted_url: https://github.com/getsentry/sentry-mcp
+        surrounding_text: "- [getsentry/sentry-mcp](https://github.com/getsentry/sentry-mcp) 🐍 ☁️ - Sentry.io integration for error tracking and performance monitoring"
+        confidence: high
+    - id: discovery__github__getsentry__sentry-mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Sentry
+        extracted_url: https://github.com/getsentry/sentry-mcp
+        surrounding_text: "- **[Sentry](https://github.com/getsentry/sentry-mcp)** - Official MCP server for [Sentry](https://sentry.io)."
+        confidence: high
+metadata:
+  github:
+    stars: 673
+    forks: 105
+    license: NOASSERTION
+    archived: false
+    created_at: "2025-03-29T22:23:13Z"
+    pushed_at: "2026-05-01T16:16:24Z"
+    description: An MCP server for interacting with Sentry via LLMs.
+    homepage: https://mcp.sentry.dev
+    topics:
+      - mcp-server
+      - tag-production
+    last_checked_at: "2026-05-02T12:10:51.047Z"
+    readme:
+      fetched_at: "2026-05-02T12:10:51.047Z"
+      bytes: 8809
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (673) exceeded threshold (150)

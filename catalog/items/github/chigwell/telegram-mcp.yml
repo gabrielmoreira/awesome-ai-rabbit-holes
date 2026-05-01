@@ -1,0 +1,68 @@
+id: github__chigwell__telegram-mcp
+kind: github-repo
+name: telegram-mcp
+canonical_url: https://github.com/chigwell/telegram-mcp
+identity:
+  github_repo: chigwell/telegram-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__chigwell__telegram-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💬 <a name="communication"></a>Communication
+        anchor_text: chigwell/telegram-mcp
+        extracted_url: https://github.com/chigwell/telegram-mcp
+        surrounding_text: "- [chigwell/telegram-mcp](https://github.com/chigwell/telegram-mcp) 🐍 🏠 - Telegram API integration for accessing user data, managing dialogs (chats, channels, groups), retrieving messages, sending messages and handling read status."
+        confidence: high
+metadata:
+  github:
+    stars: 1041
+    forks: 268
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-03-20T14:06:35Z"
+    pushed_at: "2026-04-29T21:46:37Z"
+    description: Telegram MCP server powered by Telethon to let MCP clients read chats, manage groups, and send/modify messages, media, contacts, and settings.
+    homepage: ""
+    topics:
+      - admin
+      - api
+      - chat-management
+      - contacts
+      - groups
+      - mcp
+      - media
+      - messaging
+      - search
+      - telegram
+      - telegram-api
+      - telegram-client
+      - telethon
+    last_checked_at: "2026-05-02T12:11:15.852Z"
+    readme:
+      fetched_at: "2026-05-02T12:11:15.852Z"
+      bytes: 12268
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1041) exceeded threshold (150)

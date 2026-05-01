@@ -1,0 +1,86 @@
+id: github__reworkd__agentgpt
+kind: github-repo
+name: agentgpt
+canonical_url: https://github.com/reworkd/agentgpt
+identity:
+  github_repo: reworkd/agentgpt
+provenance:
+  discoveries:
+    - id: discovery__github__reworkd__agentgpt__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - "[AgentGPT](https://agentgpt.reworkd.ai/)"
+          - Links
+        anchor_text: GitHub
+        extracted_url: https://github.com/reworkd/agentgpt
+        surrounding_text: "- [GitHub](https://github.com/reworkd/AgentGPT)"
+        confidence: high
+    - id: discovery__github__reworkd__agentgpt__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Tools
+          - Agents
+        anchor_text: AgentGPT
+        extracted_url: https://github.com/reworkd/agentgpt
+        surrounding_text: "- [AgentGPT](https://github.com/reworkd/AgentGPT): AI Agents with Langchain & OpenAI (Vercel / Nextjs) ![GitHub Repo stars](https://img.shields.io/github/stars/reworkd/AgentGPT?style=social)"
+        confidence: high
+metadata:
+  github:
+    stars: 36048
+    forks: 9365
+    license: GPL-3.0
+    archived: true
+    created_at: "2023-04-07T02:29:19Z"
+    pushed_at: "2025-04-29T01:19:32Z"
+    description: 🤖 Assemble, configure, and deploy autonomous AI Agents in your browser.
+    homepage: https://agentgpt.reworkd.ai
+    topics:
+      - agent
+      - agentgpt
+      - agents
+      - agi
+      - ai
+      - ai-agents
+      - autogpt
+      - baby-agi
+      - gpt
+      - langchain
+      - llm
+      - next
+      - openai
+      - t3
+      - t3-stack
+    last_checked_at: "2026-05-02T12:10:56.353Z"
+    readme:
+      fetched_at: "2026-05-02T12:10:56.353Z"
+      bytes: 12501
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: needs_review
+  reason: Repository is archived

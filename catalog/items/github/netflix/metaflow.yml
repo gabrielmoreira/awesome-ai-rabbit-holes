@@ -1,0 +1,75 @@
+id: github__netflix__metaflow
+kind: github-repo
+name: metaflow
+canonical_url: https://github.com/netflix/metaflow
+identity:
+  github_repo: netflix/metaflow
+provenance:
+  discoveries:
+    - id: discovery__github__netflix__metaflow__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/Awesome-LLMOps
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Large Scale Deployment
+          - Workflow
+        anchor_text: Metaflow
+        extracted_url: https://github.com/netflix/metaflow
+        surrounding_text: "| [Metaflow](https://github.com/Netflix/metaflow)              | Build and manage real-life data science projects with ease!                                                       | ![GitHub Badge](https://img.shields.io/github/stars/Netflix/metaflow.svg?style=flat-square)        |"
+        confidence: high
+metadata:
+  github:
+    stars: 10071
+    forks: 1263
+    license: Apache-2.0
+    archived: false
+    created_at: "2019-09-17T17:48:25Z"
+    pushed_at: "2026-05-02T10:26:58Z"
+    description: Build, Manage and Deploy AI/ML Systems
+    homepage: https://metaflow.org
+    topics:
+      - agents
+      - ai
+      - aws
+      - azure
+      - cost-optimization
+      - datascience
+      - distributed-training
+      - gcp
+      - generative-ai
+      - high-performance-computing
+      - kubernetes
+      - llm
+      - llmops
+      - machine-learning
+      - ml
+      - ml-infrastructure
+      - ml-platform
+      - mlops
+      - model-management
+      - python
+    last_checked_at: "2026-05-02T12:12:04.254Z"
+    readme:
+      fetched_at: "2026-05-02T12:12:04.254Z"
+      bytes: 5267
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (10071) exceeded threshold (150)

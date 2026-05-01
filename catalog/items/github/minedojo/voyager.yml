@@ -1,0 +1,75 @@
+id: github__minedojo__voyager
+kind: github-repo
+name: voyager
+canonical_url: https://github.com/minedojo/voyager
+identity:
+  github_repo: minedojo/voyager
+provenance:
+  discoveries:
+    - id: discovery__github__minedojo__voyager__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - "[Voyager](https://voyager.minedojo.org/)"
+          - Links
+        anchor_text: GitHub
+        extracted_url: https://github.com/minedojo/voyager
+        surrounding_text: "- [GitHub](https://github.com/MineDojo/Voyager)"
+        confidence: high
+    - id: discovery__github__minedojo__voyager__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Tools
+          - Agents
+        anchor_text: Voyager
+        extracted_url: https://github.com/minedojo/voyager
+        surrounding_text: "- [Voyager](https://github.com/MineDojo/Voyager): An Open-Ended Embodied Agent with Large Language Models ![GitHub Repo stars](https://img.shields.io/github/stars/MineDojo/Voyager?style=social)"
+        confidence: high
+metadata:
+  github:
+    stars: 6869
+    forks: 669
+    license: MIT
+    archived: false
+    created_at: "2023-05-25T18:20:15Z"
+    pushed_at: "2024-04-03T18:51:36Z"
+    description: An Open-Ended Embodied Agent with Large Language Models
+    homepage: https://voyager.minedojo.org/
+    topics:
+      - embodied-learning
+      - large-language-models
+      - minecraft
+      - open-ended-learning
+    last_checked_at: "2026-05-02T12:10:54.803Z"
+    readme:
+      fetched_at: "2026-05-02T12:10:54.802Z"
+      bytes: 6737
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (6869) exceeded threshold (150)

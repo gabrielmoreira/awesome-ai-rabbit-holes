@@ -1,0 +1,69 @@
+id: github__microsoft__lightgbm
+kind: github-repo
+name: lightgbm
+canonical_url: https://github.com/microsoft/lightgbm
+identity:
+  github_repo: microsoft/lightgbm
+provenance:
+  discoveries:
+    - id: discovery__github__microsoft__lightgbm__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/Awesome-LLMOps
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Training
+          - Frameworks for Training
+        anchor_text: LightGBM
+        extracted_url: https://github.com/microsoft/lightgbm
+        surrounding_text: "| [LightGBM](https://github.com/microsoft/LightGBM)                    | A fast, distributed, high performance gradient boosting (GBT, GBDT, GBRT, GBM or MART) framework based on decision tree algorithms, used for ranking, classification and many other machine learning tasks. | ![GitHub Badge](https://img.shields.io/github/stars/microsoft/LightGBM.svg?style=flat-square)                |"
+        confidence: high
+metadata:
+  github:
+    stars: 18309
+    forks: 4011
+    license: MIT
+    archived: false
+    created_at: "2016-08-05T05:45:50Z"
+    pushed_at: "2026-05-02T12:04:13Z"
+    description: A fast, distributed, high performance gradient boosting (GBT, GBDT, GBRT, GBM or MART) framework based on decision tree algorithms, used for ranking, classification and many other machine learning tasks.
+    homepage: https://lightgbm.readthedocs.io/en/latest/
+    topics:
+      - data-mining
+      - decision-trees
+      - distributed
+      - gbdt
+      - gbm
+      - gbrt
+      - gradient-boosting
+      - kaggle
+      - lightgbm
+      - machine-learning
+      - microsoft
+      - parallel
+      - python
+      - r
+    last_checked_at: "2026-05-02T12:11:59.072Z"
+    readme:
+      fetched_at: "2026-05-02T12:11:59.072Z"
+      bytes: 13016
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (18309) exceeded threshold (150)

@@ -1,0 +1,79 @@
+id: github__huggingface__text-generation-inference
+kind: github-repo
+name: text-generation-inference
+canonical_url: https://github.com/huggingface/text-generation-inference
+identity:
+  github_repo: huggingface/text-generation-inference
+provenance:
+  discoveries:
+    - id: discovery__github__huggingface__text-generation-inference__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: janhq/awesome-local-ai
+        url: https://github.com/janhq/awesome-local-ai
+        repository: janhq/awesome-local-ai
+      extraction:
+        mode: parsed
+        section_path:
+          - Inference Engine
+        anchor_text: text-generation-inference
+        extracted_url: https://github.com/huggingface/text-generation-inference
+        surrounding_text: "| [text-generation-inference](https://github.com/huggingface/text-generation-inference)| - Inference serving toolbox with optimized kernels for each LLM architecture                | Safetensors / AWQ / GPTQ | Both             | ❌  | Python/Rust | Text-Gen      |"
+        confidence: high
+    - id: discovery__github__huggingface__text-generation-inference__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/Awesome-LLMOps
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Serving
+          - Large Model Serving
+        anchor_text: text-generation-inference
+        extracted_url: https://github.com/huggingface/text-generation-inference
+        surrounding_text: "| [text-generation-inference](https://github.com/huggingface/text-generation-inference) | Large Language Model Text Generation Inference                                                                  | ![GitHub Badge](https://img.shields.io/github/stars/huggingface/text-generation-inference.svg?style=flat-square) |"
+        confidence: high
+metadata:
+  github:
+    stars: 10848
+    forks: 1265
+    license: Apache-2.0
+    archived: true
+    created_at: "2022-10-08T10:26:28Z"
+    pushed_at: "2026-03-21T11:34:22Z"
+    description: Large Language Model Text Generation Inference
+    homepage: http://hf.co/docs/text-generation-inference
+    topics:
+      - bloom
+      - deep-learning
+      - falcon
+      - gpt
+      - inference
+      - nlp
+      - pytorch
+      - starcoder
+      - transformer
+    last_checked_at: "2026-05-02T12:10:51.814Z"
+    readme:
+      fetched_at: "2026-05-02T12:10:51.814Z"
+      bytes: 14691
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: needs_review
+  reason: Repository is archived

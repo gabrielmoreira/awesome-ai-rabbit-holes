@@ -1,0 +1,98 @@
+id: github__berriai__litellm
+kind: github-repo
+name: litellm
+canonical_url: https://github.com/berriai/litellm
+identity:
+  github_repo: berriai/litellm
+provenance:
+  discoveries:
+    - id: discovery__github__berriai__litellm__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: janhq/awesome-local-ai
+        url: https://github.com/janhq/awesome-local-ai
+        repository: janhq/awesome-local-ai
+      extraction:
+        mode: parsed
+        section_path:
+          - Developer tools
+        anchor_text: LiteLLM
+        extracted_url: https://github.com/berriai/litellm
+        surrounding_text: "- [LiteLLM](https://github.com/BerriAI/litellm) - Call all LLM APIs using the OpenAI format."
+        confidence: high
+    - id: discovery__github__berriai__litellm__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/Awesome-LLMOps
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - LLMOps
+        anchor_text: LiteLLM 🚅
+        extracted_url: https://github.com/berriai/litellm
+        surrounding_text: "| [LiteLLM 🚅](https://github.com/BerriAI/litellm/)                  | A simple & light 100 line package to **standardize LLM API calls** across OpenAI, Azure, Cohere, Anthropic, Replicate API Endpoints                                                                                                                                                                                                                                                                     | ![GitHub Badge](https://img.shields.io/github/stars/BerriAI/litellm.svg?style=flat-square)                |"
+        confidence: high
+    - id: discovery__github__berriai__litellm__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - AI Frameworks and SDKs
+        anchor_text: LiteLLM
+        extracted_url: https://github.com/berriai/litellm
+        surrounding_text: "- **[LiteLLM](https://github.com/BerriAI/litellm)** – Unified API proxy for 100+ LLM providers with load balancing, spend tracking, and rate limiting."
+        confidence: high
+metadata:
+  github:
+    stars: 45463
+    forks: 7718
+    license: NOASSERTION
+    archived: false
+    created_at: "2023-07-27T00:09:52Z"
+    pushed_at: "2026-05-02T08:42:51Z"
+    description: Python SDK, Proxy Server (AI Gateway) to call 100+ LLM APIs in OpenAI (or native) format, with cost tracking, guardrails, loadbalancing and logging. [Bedrock, Azure, OpenAI, VertexAI, Cohere, Anthropic, Sagemaker, HuggingFace, VLLM, NVIDIA NIM]
+    homepage: https://docs.litellm.ai/docs/
+    topics:
+      - ai-gateway
+      - anthropic
+      - azure-openai
+      - bedrock
+      - gateway
+      - langchain
+      - litellm
+      - llm
+      - llm-gateway
+      - llmops
+      - mcp-gateway
+      - openai
+      - openai-proxy
+      - vertex-ai
+    last_checked_at: "2026-05-02T12:10:44.202Z"
+    readme:
+      fetched_at: "2026-05-02T12:10:44.202Z"
+      bytes: 28783
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (45463) exceeded threshold (150)

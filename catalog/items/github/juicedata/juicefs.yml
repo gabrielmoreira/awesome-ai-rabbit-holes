@@ -1,0 +1,67 @@
+id: github__juicedata__juicefs
+kind: github-repo
+name: juicefs
+canonical_url: https://github.com/juicedata/juicefs
+identity:
+  github_repo: juicedata/juicefs
+provenance:
+  discoveries:
+    - id: discovery__github__juicedata__juicefs__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/Awesome-LLMOps
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Data
+          - Data Storage
+        anchor_text: JuiceFS
+        extracted_url: https://github.com/juicedata/juicefs
+        surrounding_text: "| [JuiceFS](https://github.com/juicedata/juicefs) | A distributed POSIX file system built on top of Redis and S3. | ![GitHub Badge](https://img.shields.io/github/stars/juicedata/juicefs.svg?style=flat-square) |"
+        confidence: high
+metadata:
+  github:
+    stars: 13534
+    forks: 1200
+    license: Apache-2.0
+    archived: false
+    created_at: "2021-01-08T09:39:46Z"
+    pushed_at: "2026-04-30T02:52:39Z"
+    description: JuiceFS is a distributed POSIX file system built on top of Redis and S3.
+    homepage: https://juicefs.com
+    topics:
+      - bigdata
+      - cloud-native
+      - distributed-systems
+      - filesystem
+      - go
+      - golang
+      - hdfs
+      - object-storage
+      - posix
+      - redis
+      - s3
+      - storage
+    last_checked_at: "2026-05-02T12:11:46.083Z"
+    readme:
+      fetched_at: "2026-05-02T12:11:46.083Z"
+      bytes: 14614
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (13534) exceeded threshold (150)

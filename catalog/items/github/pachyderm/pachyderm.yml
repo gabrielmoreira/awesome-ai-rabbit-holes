@@ -1,0 +1,65 @@
+id: github__pachyderm__pachyderm
+kind: github-repo
+name: pachyderm
+canonical_url: https://github.com/pachyderm/pachyderm
+identity:
+  github_repo: pachyderm/pachyderm
+provenance:
+  discoveries:
+    - id: discovery__github__pachyderm__pachyderm__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/Awesome-LLMOps
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Data
+          - Data Management
+        anchor_text: Pachyderm
+        extracted_url: https://github.com/pachyderm/pachyderm
+        surrounding_text: "| [Pachyderm](https://github.com/pachyderm/pachyderm) | Pachyderm is a version control system for data.                                                                                                                 | ![GitHub Badge](https://img.shields.io/github/stars/pachyderm/pachyderm.svg?style=flat-square) |"
+        confidence: high
+metadata:
+  github:
+    stars: 6299
+    forks: 572
+    license: Apache-2.0
+    archived: false
+    created_at: "2014-09-04T07:50:02Z"
+    pushed_at: "2025-02-03T22:27:18Z"
+    description: Data-Centric Pipelines and Data Versioning
+    homepage: https://www.pachyderm.com/
+    topics:
+      - analytics
+      - big-data
+      - containers
+      - data-analysis
+      - data-science
+      - distributed-systems
+      - docker
+      - go
+      - kubernetes
+      - pachyderm
+    last_checked_at: "2026-05-02T12:12:10.412Z"
+    readme:
+      fetched_at: "2026-05-02T12:12:10.412Z"
+      bytes: 3664
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (6299) exceeded threshold (150)

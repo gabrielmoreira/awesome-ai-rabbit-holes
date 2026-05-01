@@ -1,0 +1,69 @@
+id: github__cvs-health__uqlm
+kind: github-repo
+name: uqlm
+canonical_url: https://github.com/cvs-health/uqlm
+identity:
+  github_repo: cvs-health/uqlm
+provenance:
+  discoveries:
+    - id: discovery__github__cvs-health__uqlm__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Tools
+          - Services
+        anchor_text: UQLM
+        extracted_url: https://github.com/cvs-health/uqlm
+        surrounding_text: "- [UQLM](https://github.com/cvs-health/uqlm): UQLM: Uncertainty Quantification for Language Models, is a Python library for LLM hallucination detection using state-of-the-art uncertainty quantification techniques ![GitHub Repo stars](https://img.shields.io/github/stars/cvs-health/uqlm?style=social)"
+        confidence: high
+metadata:
+  github:
+    stars: 1147
+    forks: 121
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-04-17T23:12:21Z"
+    pushed_at: "2026-05-01T18:01:17Z"
+    description: "UQLM: Uncertainty Quantification for Language Models, is a Python package for UQ-based LLM hallucination detection"
+    homepage: https://cvs-health.github.io/uqlm/latest/index.html
+    topics:
+      - ai-evaluation
+      - ai-safety
+      - confidence-estimation
+      - confidence-score
+      - hallucination
+      - hallucination-detection
+      - hallucination-evaluation
+      - hallucination-mitigation
+      - llm
+      - llm-evaluation
+      - llm-hallucination
+      - llm-safety
+      - uncertainty-estimation
+      - uncertainty-quantification
+    last_checked_at: "2026-05-02T12:11:19.576Z"
+    readme:
+      fetched_at: "2026-05-02T12:11:19.576Z"
+      bytes: 20790
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1147) exceeded threshold (150)

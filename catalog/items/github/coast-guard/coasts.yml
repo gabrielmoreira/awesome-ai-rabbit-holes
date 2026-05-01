@@ -1,0 +1,58 @@
+id: github__coast-guard__coasts
+kind: github-repo
+name: coasts
+canonical_url: https://github.com/coast-guard/coasts
+identity:
+  github_repo: coast-guard/coasts
+provenance:
+  discoveries:
+    - id: discovery__github__coast-guard__coasts__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradAGI/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Agent infrastructure
+        anchor_text: Coasts
+        extracted_url: https://github.com/coast-guard/coasts
+        surrounding_text: "- **[Coasts](https://github.com/coast-guard/coasts)** `⭐ 377` — Containerized host orchestration for git worktrees; isolates ports, networks, and services per environment using DinD/Sysbox/Podman. MIT."
+        confidence: high
+metadata:
+  github:
+    stars: 379
+    forks: 17
+    license: MIT
+    archived: false
+    created_at: "2026-02-28T13:59:30Z"
+    pushed_at: "2026-04-28T05:28:33Z"
+    description: Localhost service isolation and orchestration for git worktrees.
+    homepage: https://coasts.dev
+    topics:
+      - infrastructure
+      - localhost
+      - parallel-programming
+    last_checked_at: "2026-05-02T12:11:16.935Z"
+    readme:
+      fetched_at: "2026-05-02T12:11:16.935Z"
+      bytes: 9558
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (379) exceeded threshold (150)

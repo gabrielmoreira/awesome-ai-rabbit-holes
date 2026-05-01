@@ -1,0 +1,70 @@
+id: github__roocodeinc__roo-code
+kind: github-repo
+name: roo-code
+canonical_url: https://github.com/roocodeinc/roo-code
+identity:
+  github_repo: roocodeinc/roo-code
+provenance:
+  discoveries:
+    - id: discovery__github__roocodeinc__roo-code__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradAGI/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Terminal-native coding agents
+          - Open Source
+        anchor_text: Roo Code CLI
+        extracted_url: https://github.com/roocodeinc/roo-code
+        surrounding_text: "- **[Roo Code CLI](https://github.com/RooCodeInc/Roo-Code)** `⭐ 23.8k` — Multi-mode CLI agent (architect/code/debug/orchestrator modes); Claude-like terminal interface with skills and checkpoints."
+        confidence: high
+    - id: discovery__github__roocodeinc__roo-code__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: scraped
+        section_path:
+          - Code Editors and Assistants
+        anchor_text: Roo Code
+        extracted_url: https://roocode.com
+        surrounding_text: "- **[Roo Code](https://roocode.com/)** – Popular open-source VS Code extension (fork of Cline) with multi-model support and autonomous coding modes."
+        confidence: high
+metadata:
+  github:
+    stars: 23825
+    forks: 3189
+    license: Apache-2.0
+    archived: false
+    created_at: "2024-10-31T17:56:50Z"
+    pushed_at: "2026-05-01T20:44:30Z"
+    description: Roo Code gives you a whole dev team of AI agents in your code editor.
+    homepage: https://roocode.com
+    topics: []
+    last_checked_at: "2026-05-02T12:10:56.400Z"
+    readme:
+      fetched_at: "2026-05-02T12:10:56.400Z"
+      bytes: 9567
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (23825) exceeded threshold (150)

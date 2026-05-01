@@ -1,0 +1,83 @@
+id: github__langwatch__langwatch
+kind: github-repo
+name: langwatch
+canonical_url: https://github.com/langwatch/langwatch
+identity:
+  github_repo: langwatch/langwatch
+provenance:
+  discoveries:
+    - id: discovery__github__langwatch__langwatch__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/Awesome-LLMOps
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - LLMOps
+        anchor_text: LangWatch
+        extracted_url: https://github.com/langwatch/langwatch
+        surrounding_text: "| [LangWatch](https://github.com/langwatch/langwatch)                | LLM Ops platform with Analytics, Monitoring, Evaluations and an LLM Optimization Studio powered by DSPy | ![GitHub Badge](https://img.shields.io/github/stars/langwatch/langwatch.svg?style=flat-square) |"
+        confidence: high
+    - id: discovery__github__langwatch__langwatch__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Tools
+          - Services
+        anchor_text: LangWatch
+        extracted_url: https://github.com/langwatch/langwatch
+        surrounding_text: "- [LangWatch](https://github.com/langwatch/langwatch): An Open Source tool for observing, evaluating and optimising your llm apps and prompts, which supports LangChain out of the box! ![GitHub Repo stars](https://img.shields.io/github/stars/langwatch/langwatch?style=social)"
+        confidence: high
+metadata:
+  github:
+    stars: 3231
+    forks: 312
+    license: NOASSERTION
+    archived: false
+    created_at: "2023-09-09T11:33:18Z"
+    pushed_at: "2026-05-02T11:45:21Z"
+    description: The platform for LLM evaluations and AI agent testing
+    homepage: https://langwatch.ai
+    topics:
+      - ai
+      - analytics
+      - datasets
+      - dspy
+      - evaluation
+      - gpt
+      - llm
+      - llm-ops
+      - llmops
+      - low-code
+      - observability
+      - openai
+      - prompt-engineering
+    last_checked_at: "2026-05-02T12:10:54.445Z"
+    readme:
+      fetched_at: "2026-05-02T12:10:54.445Z"
+      bytes: 10483
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (3231) exceeded threshold (150)

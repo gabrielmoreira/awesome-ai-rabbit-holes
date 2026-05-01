@@ -1,0 +1,69 @@
+id: github__infracost__infracost
+kind: github-repo
+name: infracost
+canonical_url: https://github.com/infracost/infracost
+identity:
+  github_repo: infracost/infracost
+provenance:
+  discoveries:
+    - id: discovery__github__infracost__infracost__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: scraped
+        section_path:
+          - DevOps and Infrastructure
+        anchor_text: Infracost
+        extracted_url: https://www.infracost.io
+        surrounding_text: "- **[Infracost](https://www.infracost.io/)** – Cloud cost estimation in pull requests for Terraform/Pulumi."
+        confidence: high
+metadata:
+  github:
+    stars: 12277
+    forks: 667
+    license: Apache-2.0
+    archived: false
+    created_at: "2020-06-24T09:11:56Z"
+    pushed_at: "2026-05-01T12:34:35Z"
+    description: Cloud cost estimates for Terraform in pull requests💰📉 Shift FinOps Left!
+    homepage: https://infracost.io
+    topics:
+      - aws
+      - azure
+      - cloud
+      - cloud-cost-estimates
+      - cost-estimation
+      - cost-management
+      - cost-optimization
+      - devops
+      - finops
+      - gcp
+      - google
+      - infrastructure-as-code
+      - monthly-costs
+      - terraform
+      - terraform-cost-estimation
+    last_checked_at: "2026-05-02T12:11:40.835Z"
+    readme:
+      fetched_at: "2026-05-02T12:11:40.835Z"
+      bytes: 4236
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (12277) exceeded threshold (150)

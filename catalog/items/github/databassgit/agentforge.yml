@@ -1,0 +1,60 @@
+id: github__databassgit__agentforge
+kind: github-repo
+name: agentforge
+canonical_url: https://github.com/databassgit/agentforge
+identity:
+  github_repo: databassgit/agentforge
+provenance:
+  discoveries:
+    - id: discovery__github__databassgit__agentforge__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - "[AgentForge](https://github.com/DataBassGit/AgentForge)"
+          - Links
+        anchor_text: GitHub
+        extracted_url: https://github.com/databassgit/agentforge
+        surrounding_text: "- [GitHub](https://github.com/DataBassGit/AgentForge)"
+        confidence: high
+metadata:
+  github:
+    stars: 786
+    forks: 157
+    license: GPL-3.0
+    archived: false
+    created_at: "2023-04-08T17:16:39Z"
+    pushed_at: "2026-04-29T17:41:38Z"
+    description: Extensible AGI Framework
+    homepage: ""
+    topics:
+      - agent-based
+      - agi
+      - ai
+      - artificial-intelligence
+      - python
+    last_checked_at: "2026-05-02T12:11:20.470Z"
+    readme:
+      fetched_at: "2026-05-02T12:11:20.470Z"
+      bytes: 5759
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (786) exceeded threshold (150)

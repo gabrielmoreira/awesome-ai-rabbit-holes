@@ -1,0 +1,75 @@
+id: github__flyteorg__flyte
+kind: github-repo
+name: flyte
+canonical_url: https://github.com/flyteorg/flyte
+identity:
+  github_repo: flyteorg/flyte
+provenance:
+  discoveries:
+    - id: discovery__github__flyteorg__flyte__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/Awesome-LLMOps
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Large Scale Deployment
+          - Workflow
+        anchor_text: Flyte
+        extracted_url: https://github.com/flyteorg/flyte
+        surrounding_text: "| [Flyte](https://github.com/flyteorg/flyte)                   | Kubernetes-native workflow automation platform for complex, mission-critical data and ML processes at scale.      | ![GitHub Badge](https://img.shields.io/github/stars/flyteorg/flyte.svg?style=flat-square)          |"
+        confidence: high
+metadata:
+  github:
+    stars: 6976
+    forks: 812
+    license: Apache-2.0
+    archived: false
+    created_at: "2019-10-21T17:40:04Z"
+    pushed_at: "2026-05-02T05:04:26Z"
+    description: Dynamic, resilient AI orchestration. Coordinate data, models, and compute as you build AI workflows.
+    homepage: https://flyte.org
+    topics:
+      - agentic
+      - ai-agents
+      - ai-development-tools
+      - data-analysis
+      - data-science
+      - declarative
+      - fine-tuning
+      - flyte
+      - golang
+      - grpc
+      - hacktoberfest
+      - kubernetes
+      - llm
+      - machine-learning
+      - mlops
+      - orchestration-engine
+      - production
+      - python
+      - scale
+      - workflow
+    last_checked_at: "2026-05-02T12:11:30.121Z"
+    readme:
+      fetched_at: "2026-05-02T12:11:30.121Z"
+      bytes: 5427
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (6976) exceeded threshold (150)

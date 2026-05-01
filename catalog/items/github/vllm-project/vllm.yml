@@ -1,0 +1,90 @@
+id: github__vllm-project__vllm
+kind: github-repo
+name: vllm
+canonical_url: https://github.com/vllm-project/vllm
+identity:
+  github_repo: vllm-project/vllm
+provenance:
+  discoveries:
+    - id: discovery__github__vllm-project__vllm__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: janhq/awesome-local-ai
+        url: https://github.com/janhq/awesome-local-ai
+        repository: janhq/awesome-local-ai
+      extraction:
+        mode: parsed
+        section_path:
+          - Inference Engine
+        anchor_text: vLLM
+        extracted_url: https://github.com/vllm-project/vllm
+        surrounding_text: "| [vLLM](https://github.com/vllm-project/vllm)                    | - vLLM is a fast and easy-to-use library for LLM inference and serving.              | GGML/GGUF               | Both            | ❌  | Python      | Text-Gen      |"
+        confidence: high
+    - id: discovery__github__vllm-project__vllm__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/Awesome-LLMOps
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Serving
+          - Large Model Serving
+        anchor_text: vllm
+        extracted_url: https://github.com/vllm-project/vllm
+        surrounding_text: "| [vllm](https://github.com/vllm-project/vllm)                                          | A high-throughput and memory-efficient inference and serving engine for LLMs.                                   | ![GitHub stars](https://img.shields.io/github/stars/vllm-project/vllm.svg?style=flat-square)                     |"
+        confidence: high
+metadata:
+  github:
+    stars: 78839
+    forks: 16350
+    license: Apache-2.0
+    archived: false
+    created_at: "2023-02-09T11:23:20Z"
+    pushed_at: "2026-05-02T07:52:17Z"
+    description: A high-throughput and memory-efficient inference and serving engine for LLMs
+    homepage: https://vllm.ai
+    topics:
+      - amd
+      - blackwell
+      - cuda
+      - deepseek
+      - deepseek-v3
+      - gpt
+      - gpt-oss
+      - inference
+      - kimi
+      - llama
+      - llm
+      - llm-serving
+      - model-serving
+      - moe
+      - openai
+      - pytorch
+      - qwen
+      - qwen3
+      - tpu
+      - transformer
+    last_checked_at: "2026-05-02T12:10:58.167Z"
+    readme:
+      fetched_at: "2026-05-02T12:10:58.167Z"
+      bytes: 5696
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (78839) exceeded threshold (150)

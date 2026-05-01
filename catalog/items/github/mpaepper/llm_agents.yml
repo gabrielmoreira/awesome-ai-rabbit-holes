@@ -1,0 +1,74 @@
+id: github__mpaepper__llm_agents
+kind: github-repo
+name: llm_agents
+canonical_url: https://github.com/mpaepper/llm_agents
+identity:
+  github_repo: mpaepper/llm_agents
+provenance:
+  discoveries:
+    - id: discovery__github__mpaepper__llm_agents__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - "[LLM Agents](https://github.com/mpaepper/llm_agents)"
+          - Links
+        anchor_text: GitHub
+        extracted_url: https://github.com/mpaepper/llm_agents
+        surrounding_text: "- [GitHub](https://github.com/mpaepper/llm_agents)"
+        confidence: high
+    - id: discovery__github__mpaepper__llm_agents__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Other LLM Frameworks
+        anchor_text: LLM Agents
+        extracted_url: https://github.com/mpaepper/llm_agents
+        surrounding_text: "- [LLM Agents](https://github.com/mpaepper/llm_agents): Build agents which are controlled by LLMs ![GitHub Repo stars](https://img.shields.io/github/stars/mpaepper/llm_agents?style=social)"
+        confidence: high
+metadata:
+  github:
+    stars: 1040
+    forks: 84
+    license: MIT
+    archived: false
+    created_at: "2023-04-04T21:25:35Z"
+    pushed_at: "2025-06-23T14:01:18Z"
+    description: Build agents which are controlled by LLMs
+    homepage: https://www.paepper.com/blog/posts/intelligent-agents-guided-by-llms/
+    topics:
+      - deep-learning
+      - langchain
+      - llms
+      - machine-learning
+    last_checked_at: "2026-05-02T12:10:54.881Z"
+    readme:
+      fetched_at: "2026-05-02T12:10:54.881Z"
+      bytes: 2750
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1040) exceeded threshold (150)

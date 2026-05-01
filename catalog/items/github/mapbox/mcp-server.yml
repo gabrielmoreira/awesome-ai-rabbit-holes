@@ -1,0 +1,54 @@
+id: github__mapbox__mcp-server
+kind: github-repo
+name: mcp-server
+canonical_url: https://github.com/mapbox/mcp-server
+identity:
+  github_repo: mapbox/mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__mapbox__mcp-server__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Mapbox
+        extracted_url: https://github.com/mapbox/mcp-server
+        surrounding_text: "- **[Mapbox](https://github.com/mapbox/mcp-server)** - Unlock geospatial intelligence through Mapbox APIs like geocoding, POI search, directions, isochrones and more."
+        confidence: high
+metadata:
+  github:
+    stars: 337
+    forks: 38
+    license: MIT
+    archived: false
+    created_at: "2025-06-06T22:27:22Z"
+    pushed_at: "2026-04-14T18:40:49Z"
+    description: Mapbox Model Context Protocol (MCP) server
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-02T12:11:55.471Z"
+    readme:
+      fetched_at: "2026-05-02T12:11:55.471Z"
+      bytes: 25112
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (337) exceeded threshold (150)

@@ -1,0 +1,80 @@
+id: github__huggingface__peft
+kind: github-repo
+name: peft
+canonical_url: https://github.com/huggingface/peft
+identity:
+  github_repo: huggingface/peft
+provenance:
+  discoveries:
+    - id: discovery__github__huggingface__peft__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: janhq/awesome-local-ai
+        url: https://github.com/janhq/awesome-local-ai
+        repository: janhq/awesome-local-ai
+      extraction:
+        mode: parsed
+        section_path:
+          - Training
+        anchor_text: PEFT
+        extracted_url: https://github.com/huggingface/peft
+        surrounding_text: "- [PEFT](https://github.com/huggingface/peft) - Parameter efficient fine-tuning (LoRA, DoRA, model merger and more)"
+        confidence: high
+    - id: discovery__github__huggingface__peft__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/Awesome-LLMOps
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Training
+          - Foundation Model Fine Tuning
+        anchor_text: peft
+        extracted_url: https://github.com/huggingface/peft
+        surrounding_text: "| [peft](https://github.com/huggingface/peft)                                | State-of-the-art Parameter-Efficient Fine-Tuning.                                                                                                                                                | ![GitHub Badge](https://img.shields.io/github/stars/huggingface/peft.svg?style=flat-square)                |"
+        confidence: high
+metadata:
+  github:
+    stars: 21031
+    forks: 2269
+    license: Apache-2.0
+    archived: false
+    created_at: "2022-11-25T03:51:09Z"
+    pushed_at: "2026-05-01T05:22:35Z"
+    description: "🤗 PEFT: State-of-the-art Parameter-Efficient Fine-Tuning."
+    homepage: https://huggingface.co/docs/peft
+    topics:
+      - adapter
+      - diffusion
+      - fine-tuning
+      - llm
+      - lora
+      - parameter-efficient-learning
+      - peft
+      - python
+      - pytorch
+      - transformers
+    last_checked_at: "2026-05-02T12:10:52.262Z"
+    readme:
+      fetched_at: "2026-05-02T12:10:52.262Z"
+      bytes: 12217
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (21031) exceeded threshold (150)

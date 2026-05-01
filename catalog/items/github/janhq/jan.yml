@@ -1,0 +1,77 @@
+id: github__janhq__jan
+kind: github-repo
+name: jan
+canonical_url: https://github.com/janhq/jan
+identity:
+  github_repo: janhq/jan
+provenance:
+  discoveries:
+    - id: discovery__github__janhq__jan__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: janhq/awesome-local-ai
+        url: https://github.com/janhq/awesome-local-ai
+        repository: janhq/awesome-local-ai
+      extraction:
+        mode: parsed
+        section_path:
+          - README
+        anchor_text: Jan Desktop
+        extracted_url: https://github.com/janhq/jan
+        surrounding_text: If you tried [Jan Desktop](https://github.com/janhq/jan?tab=readme-ov-file#download) and liked it, please also check out the following **awesome collection of open source and/or local AI tools and solutions.**
+        confidence: high
+    - id: discovery__github__janhq__jan__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: scraped
+        section_path:
+          - Local LLM Tools
+        anchor_text: Jan
+        extracted_url: https://jan.ai
+        surrounding_text: "- **[Jan](https://jan.ai/)** – Open-source, offline-first desktop app for running LLMs locally with a ChatGPT-like interface."
+        confidence: high
+metadata:
+  github:
+    stars: 42323
+    forks: 2834
+    license: NOASSERTION
+    archived: false
+    created_at: "2023-08-17T02:17:10Z"
+    pushed_at: "2026-04-30T03:45:51Z"
+    description: Jan is an open source alternative to ChatGPT that runs 100% offline on your computer.
+    homepage: https://jan.ai/
+    topics:
+      - chatgpt
+      - gpt
+      - llamacpp
+      - llm
+      - localai
+      - open-source
+      - self-hosted
+      - tauri
+    last_checked_at: "2026-05-02T12:10:52.728Z"
+    readme:
+      fetched_at: "2026-05-02T12:10:52.728Z"
+      bytes: 5755
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (42323) exceeded threshold (150)

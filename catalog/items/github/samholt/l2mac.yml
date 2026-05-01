@@ -1,0 +1,80 @@
+id: github__samholt__l2mac
+kind: github-repo
+name: l2mac
+canonical_url: https://github.com/samholt/l2mac
+identity:
+  github_repo: samholt/l2mac
+provenance:
+  discoveries:
+    - id: discovery__github__samholt__l2mac__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - "[L2MAC](https://github.com/samholt/l2mac)"
+          - Links
+        anchor_text: GitHub
+        extracted_url: https://github.com/samholt/l2mac
+        surrounding_text: "- [GitHub](https://github.com/samholt/l2mac)"
+        confidence: high
+    - id: discovery__github__samholt__l2mac__awesome-list__vivy-yi__awesome-agent-orchestration
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: vivy-yi/awesome-agent-orchestration
+        url: https://github.com/vivy-yi/awesome-agent-orchestration
+        repository: vivy-yi/awesome-agent-orchestration
+      extraction:
+        mode: parsed
+        section_path:
+          - Core Frameworks
+          - Multi-Agent Orchestration Frameworks
+        anchor_text: L2MAC
+        extracted_url: https://github.com/samholt/l2mac
+        surrounding_text: "| [L2MAC](https://github.com/samholt/L2MAC) | LLM Automatic Computer Framework | ![Stars](https://img.shields.io/github/stars/samholt/L2MAC) |"
+        confidence: high
+metadata:
+  github:
+    stars: 153
+    forks: 44
+    license: MIT
+    archived: false
+    created_at: "2024-03-08T12:01:02Z"
+    pushed_at: "2024-12-27T00:50:24Z"
+    description: "🚀 The LLM Automatic Computer Framework: L2MAC"
+    homepage: https://samholt.github.io/L2MAC/
+    topics:
+      - agent
+      - book
+      - codebase
+      - coding
+      - generator
+      - gpt
+      - l2mac
+      - llm
+      - multi-agent
+    last_checked_at: "2026-05-02T12:10:56.550Z"
+    readme:
+      fetched_at: "2026-05-02T12:10:56.550Z"
+      bytes: 19094
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (153) exceeded threshold (150)

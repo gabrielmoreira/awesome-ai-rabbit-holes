@@ -1,0 +1,77 @@
+id: github__dbt-labs__dbt-mcp
+kind: github-repo
+name: dbt-mcp
+canonical_url: https://github.com/dbt-labs/dbt-mcp
+identity:
+  github_repo: dbt-labs/dbt-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__dbt-labs__dbt-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📊 <a name="data-platforms"></a>Data Platforms
+        anchor_text: dbt-labs/dbt-mcp
+        extracted_url: https://github.com/dbt-labs/dbt-mcp
+        surrounding_text: "- [dbt-labs/dbt-mcp](https://github.com/dbt-labs/dbt-mcp) 🎖️ 🐍 🏠 ☁️ - Official MCP server for [dbt (data build tool)](https://www.getdbt.com/product/what-is-dbt) providing integration with dbt Core/Cloud CLI, project metadata discovery, model information, and semantic layer querying capabilities."
+        confidence: high
+    - id: discovery__github__dbt-labs__dbt-mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: dbt
+        extracted_url: https://github.com/dbt-labs/dbt-mcp
+        surrounding_text: "- **[dbt](https://github.com/dbt-labs/dbt-mcp)** - Official MCP server for [dbt (data build tool)](https://www.getdbt.com/product/what-is-dbt) providing integration with dbt Core/Cloud CLI, project metadata discovery, model information, and semantic layer querying capabilities."
+        confidence: high
+metadata:
+  github:
+    stars: 551
+    forks: 114
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-03-12T20:13:12Z"
+    pushed_at: "2026-05-01T21:10:04Z"
+    description: A MCP (Model Context Protocol) server for interacting with dbt.
+    homepage: ""
+    topics:
+      - data-analytics
+      - data-engineering
+      - dbt
+      - llm
+      - mcp
+      - mcp-server
+      - model-context-protocol
+    last_checked_at: "2026-05-02T12:10:50.046Z"
+    readme:
+      fetched_at: "2026-05-02T12:10:50.046Z"
+      bytes: 7803
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (551) exceeded threshold (150)

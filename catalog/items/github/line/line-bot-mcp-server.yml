@@ -1,0 +1,74 @@
+id: github__line__line-bot-mcp-server
+kind: github-repo
+name: line-bot-mcp-server
+canonical_url: https://github.com/line/line-bot-mcp-server
+identity:
+  github_repo: line/line-bot-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__line__line-bot-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💬 <a name="communication"></a>Communication
+        anchor_text: line/line-bot-mcp-server
+        extracted_url: https://github.com/line/line-bot-mcp-server
+        surrounding_text: "- [line/line-bot-mcp-server](https://github.com/line/line-bot-mcp-server) 🎖 📇 ☁️ - MCP Server for Integrating LINE Official Account"
+        confidence: high
+    - id: discovery__github__line__line-bot-mcp-server__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: LINE Official Account
+        extracted_url: https://github.com/line/line-bot-mcp-server
+        surrounding_text: "- **[LINE Official Account](https://github.com/line/line-bot-mcp-server)** - Integrates the LINE Messaging API to connect an AI Agent to the LINE Official Account."
+        confidence: high
+metadata:
+  github:
+    stars: 576
+    forks: 104
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-04-04T09:15:05Z"
+    pushed_at: "2026-05-01T11:10:34Z"
+    description: MCP server that integrates the LINE Messaging API to connect an AI Agent to the LINE Official Account.
+    homepage: ""
+    topics:
+      - line
+      - linebot
+      - mcp
+      - mcp-server
+    last_checked_at: "2026-05-02T12:10:54.368Z"
+    readme:
+      fetched_at: "2026-05-02T12:10:54.368Z"
+      bytes: 8936
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (576) exceeded threshold (150)

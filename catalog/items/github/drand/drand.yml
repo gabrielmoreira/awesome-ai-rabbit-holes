@@ -1,0 +1,59 @@
+id: github__drand__drand
+kind: github-repo
+name: drand
+canonical_url: https://github.com/drand/drand
+identity:
+  github_repo: drand/drand
+provenance:
+  discoveries:
+    - id: discovery__github__drand__drand__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: scraped
+        section_path:
+          - Official Servers
+        anchor_text: drand network
+        extracted_url: https://drand.love
+        surrounding_text: "- **[Drand](https://github.com/randa-mu/drand-mcp-server)** - An MCP server for fetching verifiable random numbers from the [drand network](https://drand.love)."
+        confidence: high
+metadata:
+  github:
+    stars: 816
+    forks: 129
+    license: NOASSERTION
+    archived: false
+    created_at: "2017-08-18T00:49:16Z"
+    pushed_at: "2026-04-22T21:50:40Z"
+    description: 🎲 A Distributed Randomness Beacon Daemon - Go implementation
+    homepage: https://drand.love
+    topics:
+      - cryptography
+      - golang
+      - hacktoberfest
+      - randomness
+      - randomness-beacon
+    last_checked_at: "2026-05-02T12:11:23.646Z"
+    readme:
+      fetched_at: "2026-05-02T12:11:23.646Z"
+      bytes: 15545
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (816) exceeded threshold (150)

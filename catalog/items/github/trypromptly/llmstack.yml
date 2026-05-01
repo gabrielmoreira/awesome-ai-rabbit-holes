@@ -1,0 +1,97 @@
+id: github__trypromptly__llmstack
+kind: github-repo
+name: llmstack
+canonical_url: https://github.com/trypromptly/llmstack
+identity:
+  github_repo: trypromptly/llmstack
+provenance:
+  discoveries:
+    - id: discovery__github__trypromptly__llmstack__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: scraped
+        section_path:
+          - "[LLM Stack](https://llmstack.ai/)"
+          - Links
+        anchor_text: Web
+        extracted_url: https://llmstack.ai
+        surrounding_text: "- [Web](https://llmstack.ai/)"
+        confidence: high
+    - id: discovery__github__trypromptly__llmstack__awesome-list__vivy-yi__awesome-agent-orchestration
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: vivy-yi/awesome-agent-orchestration
+        url: https://github.com/vivy-yi/awesome-agent-orchestration
+        repository: vivy-yi/awesome-agent-orchestration
+      extraction:
+        mode: parsed
+        section_path:
+          - Core Frameworks
+          - Multi-Agent Orchestration Frameworks
+        anchor_text: LLMStack
+        extracted_url: https://github.com/trypromptly/llmstack
+        surrounding_text: "| [LLMStack](https://github.com/trypromptly/LLMStack) | No-code multi-agent framework for LLM agents and workflows | ![Stars](https://img.shields.io/github/stars/trypromptly/LLMStack) |"
+        confidence: high
+    - id: discovery__github__trypromptly__llmstack__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Other LLM Frameworks
+        anchor_text: LLMStack
+        extracted_url: https://github.com/trypromptly/llmstack
+        surrounding_text: "- [LLMStack](https://github.com/trypromptly/LLMStack): No code platform for building LLM-powered applications with custom data. ![GitHub Repo stars](https://img.shields.io/github/stars/trypromptly/LLMStack?style=social)"
+        confidence: high
+metadata:
+  github:
+    stars: 2293
+    forks: 344
+    license: NOASSERTION
+    archived: false
+    created_at: "2023-08-06T00:39:25Z"
+    pushed_at: "2024-12-11T19:59:51Z"
+    description: No-code multi-agent framework to build LLM Agents, workflows and applications with your data
+    homepage: https://llmstack.trypromptly.com
+    topics:
+      - agents
+      - ai
+      - ai-agents-framework
+      - generative-ai
+      - llm-agents
+      - llm-chain
+      - llm-framework
+      - llmops
+      - llms
+      - no-code-ai
+      - platform
+    last_checked_at: "2026-05-02T12:10:46.705Z"
+    readme:
+      fetched_at: "2026-05-02T12:10:46.705Z"
+      bytes: 7961
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (2293) exceeded threshold (150)

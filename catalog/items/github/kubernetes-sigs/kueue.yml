@@ -1,0 +1,58 @@
+id: github__kubernetes-sigs__kueue
+kind: github-repo
+name: kueue
+canonical_url: https://github.com/kubernetes-sigs/kueue
+identity:
+  github_repo: kubernetes-sigs/kueue
+provenance:
+  discoveries:
+    - id: discovery__github__kubernetes-sigs__kueue__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/Awesome-LLMOps
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Large Scale Deployment
+          - Scheduling
+        anchor_text: Kueue
+        extracted_url: https://github.com/kubernetes-sigs/kueue
+        surrounding_text: "| [Kueue](https://github.com/kubernetes-sigs/kueue)   | Kubernetes-native Job Queueing.                                                | ![GitHub Badge](https://img.shields.io/github/stars/kubernetes-sigs/kueue.svg?style=flat-square) |"
+        confidence: high
+metadata:
+  github:
+    stars: 2481
+    forks: 596
+    license: Apache-2.0
+    archived: false
+    created_at: "2022-02-16T05:52:19Z"
+    pushed_at: "2026-05-01T14:09:48Z"
+    description: Kubernetes-native Job Queueing
+    homepage: https://kueue.sigs.k8s.io
+    topics:
+      - k8s
+      - k8s-sig-scheduling
+      - kubernetes
+    last_checked_at: "2026-05-02T12:11:49.064Z"
+    readme:
+      fetched_at: "2026-05-02T12:11:49.064Z"
+      bytes: 10629
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (2481) exceeded threshold (150)

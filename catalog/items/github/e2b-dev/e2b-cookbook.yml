@@ -1,0 +1,88 @@
+id: github__e2b-dev__e2b-cookbook
+kind: github-repo
+name: e2b-cookbook
+canonical_url: https://github.com/e2b-dev/e2b-cookbook
+identity:
+  github_repo: e2b-dev/e2b-cookbook
+provenance:
+  discoveries:
+    - id: discovery__github__e2b-dev__e2b-cookbook__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: scraped
+        section_path:
+          - README
+        anchor_text: web version of this list
+        extracted_url: https://e2b.dev/ai-agents
+        surrounding_text: To filter the products by categories and use-cases, see the 🌟 [web version of this list](https://e2b.dev/ai-agents). 🌟
+        confidence: high
+    - id: discovery__github__e2b-dev__e2b-cookbook__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: scraped
+        section_path:
+          - Official Servers
+        anchor_text: E2B
+        extracted_url: https://e2b.dev
+        surrounding_text: "- **[E2B](https://github.com/e2b-dev/mcp-server)** - Run code in secure sandboxes hosted by [E2B](https://e2b.dev)"
+        confidence: high
+metadata:
+  github:
+    stars: 1338
+    forks: 239
+    license: null
+    archived: false
+    created_at: "2023-09-27T11:02:43Z"
+    pushed_at: "2026-04-22T09:13:04Z"
+    description: Examples of using E2B
+    homepage: https://e2b.dev/docs
+    topics:
+      - agent
+      - ai
+      - ai-agents
+      - code-interpreter
+      - cookbook
+      - devtools
+      - e2b
+      - example
+      - gpt
+      - gpt4
+      - guides
+      - javascript
+      - llm
+      - openai
+      - python
+      - python3
+      - sdk
+      - tutorial
+      - typescript
+    last_checked_at: "2026-05-02T12:10:50.312Z"
+    readme:
+      fetched_at: "2026-05-02T12:10:50.312Z"
+      bytes: 8128
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1338) exceeded threshold (150)

@@ -1,0 +1,80 @@
+id: github__carterlasalle__mac_messages_mcp
+kind: github-repo
+name: mac_messages_mcp
+canonical_url: https://github.com/carterlasalle/mac_messages_mcp
+identity:
+  github_repo: carterlasalle/mac_messages_mcp
+provenance:
+  discoveries:
+    - id: discovery__github__carterlasalle__mac_messages_mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💬 <a name="communication"></a>Communication
+        anchor_text: carterlasalle/mac_messages_mcp
+        extracted_url: https://github.com/carterlasalle/mac_messages_mcp
+        surrounding_text: "- [carterlasalle/mac_messages_mcp](https://github.com/carterlasalle/mac_messages_mcp) 🏠 🍎 🚀 - An MCP server that securely interfaces with your iMessage database via the Model Context Protocol (MCP), allowing LLMs to query and analyze iMessage conversations. It includes robust phone number validation, attachment processing, contact management, group chat handling, and full support for sending and receiving messages."
+        confidence: high
+    - id: discovery__github__carterlasalle__mac_messages_mcp__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/MobinX/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - null
+          - 💬 Communication
+        anchor_text: carterlasalle/mac_messages_mcp
+        extracted_url: https://github.com/carterlasalle/mac_messages_mcp
+        surrounding_text: "-   **[carterlasalle/mac_messages_mcp](https://github.com/carterlasalle/mac_messages_mcp)** [![GitHub stars](https://img.shields.io/github/stars/carterlasalle/mac_messages_mcp?style=social)](https://github.com/carterlasalle/mac_messages_mcp): Securely accesses, analyzes, sends, and receives iMessages on macOS."
+        confidence: high
+metadata:
+  github:
+    stars: 275
+    forks: 42
+    license: MIT
+    archived: false
+    created_at: "2025-03-13T04:24:07Z"
+    pushed_at: "2026-04-22T06:03:24Z"
+    description: An MCP server that securely interfaces with your iMessage database via the Model Context Protocol (MCP), allowing LLMs to query and analyze iMessage conversations. It includes robust phone number validation, attachment processing, contact management, group chat handling, and full support for sending and receiving messages.
+    homepage: https://pypi.org/project/mac-messages-mcp/
+    topics:
+      - applescript
+      - claude
+      - contacts
+      - cursor
+      - imessage
+      - mac
+      - macos
+      - mcp
+      - mcp-server
+    last_checked_at: "2026-05-02T12:10:48.990Z"
+    readme:
+      fetched_at: "2026-05-02T12:10:48.990Z"
+      bytes: 7296
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (275) exceeded threshold (150)

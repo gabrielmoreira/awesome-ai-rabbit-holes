@@ -1,0 +1,74 @@
+id: github__cpacker__memgpt
+kind: github-repo
+name: memgpt
+canonical_url: https://github.com/cpacker/memgpt
+identity:
+  github_repo: cpacker/memgpt
+provenance:
+  discoveries:
+    - id: discovery__github__cpacker__memgpt__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: scraped
+        section_path:
+          - "[MemGPT](https://github.com/cpacker/MemGPT)"
+          - Links
+        anchor_text: Documentation
+        extracted_url: https://memgpt.readthedocs.io
+        surrounding_text: "- [Documentation](https://memgpt.readthedocs.io/)"
+        confidence: high
+    - id: discovery__github__cpacker__memgpt__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Other LLM Frameworks
+        anchor_text: MemGPT
+        extracted_url: https://github.com/cpacker/memgpt
+        surrounding_text: "- [MemGPT](https://github.com/cpacker/MemGPT): Teaching LLMs memory management for unbounded context ![GitHub Repo stars](https://img.shields.io/github/stars/cpacker/MemGPT?style=social)"
+        confidence: high
+metadata:
+  github:
+    stars: 22408
+    forks: 2383
+    license: Apache-2.0
+    archived: false
+    created_at: "2023-10-11T07:38:37Z"
+    pushed_at: "2026-04-12T20:54:54Z"
+    description: "Letta is the platform for building stateful agents: AI with advanced memory that can learn and self-improve over time."
+    homepage: https://docs.letta.com/
+    topics:
+      - ai
+      - ai-agents
+      - llm
+      - llm-agent
+    last_checked_at: "2026-05-02T12:10:49.883Z"
+    readme:
+      fetched_at: "2026-05-02T12:10:49.883Z"
+      bytes: 4248
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (22408) exceeded threshold (150)

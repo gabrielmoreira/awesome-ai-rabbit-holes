@@ -1,0 +1,55 @@
+id: github__golang__tools
+kind: github-repo
+name: tools
+canonical_url: https://github.com/golang/tools
+identity:
+  github_repo: golang/tools
+provenance:
+  discoveries:
+    - id: discovery__github__golang__tools__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: Go's Language Server Protocol (gopls)
+        extracted_url: https://github.com/golang/tools
+        surrounding_text: "- [hloiseaufcms/mcp-gopls](https://github.com/hloiseaufcms/mcp-gopls) 🏎️ 🏠 - A MCP server for interacting with [Go's Language Server Protocol (gopls)](https://github.com/golang/tools/tree/master/gopls) and benefit from advanced Go code analysis features."
+        confidence: high
+metadata:
+  github:
+    stars: 7934
+    forks: 2377
+    license: BSD-3-Clause
+    archived: false
+    created_at: "2014-11-25T21:07:26Z"
+    pushed_at: "2026-05-01T22:50:53Z"
+    description: "[mirror] Go Tools"
+    homepage: https://golang.org/x/tools
+    topics: []
+    last_checked_at: "2026-05-02T12:11:33.943Z"
+    readme:
+      fetched_at: "2026-05-02T12:11:33.943Z"
+      bytes: 3422
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (7934) exceeded threshold (150)

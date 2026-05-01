@@ -1,0 +1,55 @@
+id: github__github__copilot-cli
+kind: github-repo
+name: copilot-cli
+canonical_url: https://github.com/github/copilot-cli
+identity:
+  github_repo: github/copilot-cli
+provenance:
+  discoveries:
+    - id: discovery__github__github__copilot-cli__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradAGI/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Terminal-native coding agents
+          - Closed Source
+        anchor_text: GitHub Copilot in the CLI
+        extracted_url: https://github.com/github/copilot-cli
+        surrounding_text: "- **[GitHub Copilot in the CLI](https://github.com/github/copilot-cli)** `⭐ 10.3k` `[GitHub]` — GitHub's agentic CLI for repo/PR/issue workflows, command suggestions, and headless automation."
+        confidence: high
+metadata:
+  github:
+    stars: 10333
+    forks: 1416
+    license: NOASSERTION
+    archived: false
+    created_at: "2023-01-06T09:22:30Z"
+    pushed_at: "2026-05-01T13:10:33Z"
+    description: "GitHub Copilot CLI brings the power of Copilot coding agent directly to your terminal. "
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-02T12:11:33.539Z"
+    readme:
+      fetched_at: "2026-05-02T12:11:33.539Z"
+      bytes: 7740
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (10333) exceeded threshold (150)

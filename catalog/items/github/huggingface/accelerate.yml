@@ -1,0 +1,55 @@
+id: github__huggingface__accelerate
+kind: github-repo
+name: accelerate
+canonical_url: https://github.com/huggingface/accelerate
+identity:
+  github_repo: huggingface/accelerate
+provenance:
+  discoveries:
+    - id: discovery__github__huggingface__accelerate__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/Awesome-LLMOps
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Training
+          - Frameworks for Training
+        anchor_text: Accelerate
+        extracted_url: https://github.com/huggingface/accelerate
+        surrounding_text: "| [Accelerate](https://github.com/huggingface/accelerate)              | 🚀 A simple way to train and use PyTorch models with multi-GPU, TPU, mixed-precision.                                                                                                                       | ![GitHub Badge](https://img.shields.io/github/stars/huggingface/accelerate.svg?style=flat-square)            |"
+        confidence: high
+metadata:
+  github:
+    stars: 9649
+    forks: 1341
+    license: Apache-2.0
+    archived: false
+    created_at: "2020-10-30T13:27:12Z"
+    pushed_at: "2026-04-29T13:52:37Z"
+    description: 🚀 A simple way to launch, train, and use PyTorch models on almost any device and distributed configuration, automatic mixed precision (including fp8), and easy-to-configure FSDP and DeepSpeed support
+    homepage: https://huggingface.co/docs/accelerate
+    topics: []
+    last_checked_at: "2026-05-02T12:11:38.816Z"
+    readme:
+      fetched_at: "2026-05-02T12:11:38.816Z"
+      bytes: 15187
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (9649) exceeded threshold (150)

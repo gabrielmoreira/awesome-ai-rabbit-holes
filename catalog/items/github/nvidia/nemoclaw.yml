@@ -1,0 +1,55 @@
+id: github__nvidia__nemoclaw
+kind: github-repo
+name: nemoclaw
+canonical_url: https://github.com/nvidia/nemoclaw
+identity:
+  github_repo: nvidia/nemoclaw
+provenance:
+  discoveries:
+    - id: discovery__github__nvidia__nemoclaw__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradAGI/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Agent infrastructure
+        anchor_text: NemoClaw
+        extracted_url: https://github.com/nvidia/nemoclaw
+        surrounding_text: "- **[NemoClaw](https://github.com/NVIDIA/NemoClaw)** `⭐ 20k` `[NVIDIA]` — CLI tool for securely provisioning and managing sandboxed OpenClaw agent environments; enforces network, filesystem, and process-level security policies via OpenShell runtime. Apache-2.0."
+        confidence: high
+metadata:
+  github:
+    stars: 20033
+    forks: 2555
+    license: Apache-2.0
+    archived: false
+    created_at: "2026-03-15T17:04:09Z"
+    pushed_at: "2026-05-02T10:38:06Z"
+    description: Run OpenClaw more securely inside NVIDIA OpenShell with managed inference
+    homepage: https://docs.nvidia.com/nemoclaw/latest/
+    topics: []
+    last_checked_at: "2026-05-02T12:12:05.986Z"
+    readme:
+      fetched_at: "2026-05-02T12:12:05.986Z"
+      bytes: 12918
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (20033) exceeded threshold (150)

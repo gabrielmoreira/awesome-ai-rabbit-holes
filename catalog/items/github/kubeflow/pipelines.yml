@@ -1,0 +1,62 @@
+id: github__kubeflow__pipelines
+kind: github-repo
+name: pipelines
+canonical_url: https://github.com/kubeflow/pipelines
+identity:
+  github_repo: kubeflow/pipelines
+provenance:
+  discoveries:
+    - id: discovery__github__kubeflow__pipelines__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/Awesome-LLMOps
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Large Scale Deployment
+          - Workflow
+        anchor_text: Kubeflow Pipelines
+        extracted_url: https://github.com/kubeflow/pipelines
+        surrounding_text: "| [Kubeflow Pipelines](https://github.com/kubeflow/pipelines)  | Machine Learning Pipelines for Kubeflow.                                                                          | ![GitHub Badge](https://img.shields.io/github/stars/kubeflow/pipelines.svg?style=flat-square)      |"
+        confidence: high
+metadata:
+  github:
+    stars: 4130
+    forks: 1986
+    license: Apache-2.0
+    archived: false
+    created_at: "2018-05-12T00:31:47Z"
+    pushed_at: "2026-05-01T19:55:52Z"
+    description: Machine Learning Pipelines for Kubeflow
+    homepage: https://www.kubeflow.org/docs/components/pipelines/
+    topics:
+      - data-science
+      - kubeflow
+      - kubeflow-pipelines
+      - kubernetes
+      - machine-learning
+      - mlops
+      - pipeline
+    last_checked_at: "2026-05-02T12:11:48.883Z"
+    readme:
+      fetched_at: "2026-05-02T12:11:48.883Z"
+      bytes: 6544
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (4130) exceeded threshold (150)

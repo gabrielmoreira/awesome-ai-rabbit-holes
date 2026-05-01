@@ -1,0 +1,55 @@
+id: github__huggingface__candle
+kind: github-repo
+name: candle
+canonical_url: https://github.com/huggingface/candle
+identity:
+  github_repo: huggingface/candle
+provenance:
+  discoveries:
+    - id: discovery__github__huggingface__candle__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/Awesome-LLMOps
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Training
+          - Frameworks for Training
+        anchor_text: Candle
+        extracted_url: https://github.com/huggingface/candle
+        surrounding_text: "| [Candle](https://github.com/huggingface/candle)                      | Minimalist ML framework for Rust .                                                                                                                                                                          | ![GitHub Badge](https://img.shields.io/github/stars/huggingface/candle.svg?style=flat-square`)               |"
+        confidence: high
+metadata:
+  github:
+    stars: 20149
+    forks: 1549
+    license: Apache-2.0
+    archived: false
+    created_at: "2023-06-19T16:06:31Z"
+    pushed_at: "2026-04-29T16:24:10Z"
+    description: Minimalist ML framework for Rust
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-02T12:11:38.751Z"
+    readme:
+      fetched_at: "2026-05-02T12:11:38.751Z"
+      bytes: 23226
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (20149) exceeded threshold (150)

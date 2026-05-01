@@ -1,0 +1,75 @@
+id: github__crewaiinc__crewai
+kind: github-repo
+name: crewai
+canonical_url: https://github.com/crewaiinc/crewai
+identity:
+  github_repo: crewaiinc/crewai
+provenance:
+  discoveries:
+    - id: discovery__github__crewaiinc__crewai__awesome-list__vivy-yi__awesome-agent-orchestration
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: vivy-yi/awesome-agent-orchestration
+        url: https://github.com/vivy-yi/awesome-agent-orchestration
+        repository: vivy-yi/awesome-agent-orchestration
+      extraction:
+        mode: parsed
+        section_path:
+          - Core Frameworks
+          - Multi-Agent Orchestration Frameworks
+        anchor_text: CrewAI
+        extracted_url: https://github.com/crewaiinc/crewai
+        surrounding_text: "| [CrewAI](https://github.com/crewAIInc/crewAI) | Role-based multi-agent framework for building AI teams | ![Stars](https://img.shields.io/github/stars/crewAIInc/crewAI) |"
+        confidence: high
+    - id: discovery__github__crewaiinc__crewai__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: scraped
+        section_path:
+          - Coding Agents
+        anchor_text: CrewAI
+        extracted_url: https://www.crewai.com
+        surrounding_text: "- **[CrewAI](https://www.crewai.com/)** – Multi-agent orchestration platform for building teams of AI agents for development and automation."
+        confidence: high
+metadata:
+  github:
+    stars: 50463
+    forks: 6954
+    license: MIT
+    archived: false
+    created_at: "2023-10-27T03:26:59Z"
+    pushed_at: "2026-05-01T21:28:09Z"
+    description: Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.
+    homepage: https://crewai.com
+    topics:
+      - agents
+      - ai
+      - ai-agents
+      - aiagentframework
+      - llms
+    last_checked_at: "2026-05-02T12:10:49.794Z"
+    readme:
+      fetched_at: "2026-05-02T12:10:49.794Z"
+      bytes: 34984
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (50463) exceeded threshold (150)

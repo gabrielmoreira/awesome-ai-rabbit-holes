@@ -1,0 +1,59 @@
+id: github__dynamodb-toolbox__dynamodb-toolbox
+kind: github-repo
+name: dynamodb-toolbox
+canonical_url: https://github.com/dynamodb-toolbox/dynamodb-toolbox
+identity:
+  github_repo: dynamodb-toolbox/dynamodb-toolbox
+provenance:
+  discoveries:
+    - id: discovery__github__dynamodb-toolbox__dynamodb-toolbox__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: scraped
+        section_path:
+          - Community Servers
+        anchor_text: DynamoDB-Toolbox
+        extracted_url: https://www.dynamodbtoolbox.com/docs/databases/actions/mcp-toolkit
+        surrounding_text: "- **[DynamoDB-Toolbox](https://www.dynamodbtoolbox.com/docs/databases/actions/mcp-toolkit)** - Leverages your Schemas and Access Patterns to interact with your [DynamoDB](https://aws.amazon.com/dynamodb) Database using natural language."
+        confidence: high
+metadata:
+  github:
+    stars: 1998
+    forks: 180
+    license: MIT
+    archived: false
+    created_at: "2019-11-24T23:16:45Z"
+    pushed_at: "2026-02-07T12:02:23Z"
+    description: Lightweight and type-safe query builder for DynamoDB and TypeScript
+    homepage: https://www.dynamodbtoolbox.com/
+    topics:
+      - aws
+      - dynamodb
+      - nosql
+      - serverless
+      - typescript
+    last_checked_at: "2026-05-02T12:11:24.134Z"
+    readme:
+      fetched_at: "2026-05-02T12:11:24.134Z"
+      bytes: 6793
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1998) exceeded threshold (150)

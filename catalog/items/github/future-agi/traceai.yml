@@ -1,0 +1,79 @@
+id: github__future-agi__traceai
+kind: github-repo
+name: traceai
+canonical_url: https://github.com/future-agi/traceai
+identity:
+  github_repo: future-agi/traceai
+provenance:
+  discoveries:
+    - id: discovery__github__future-agi__traceai__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/Awesome-LLMOps
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Security
+          - Observability
+        anchor_text: traceAI
+        extracted_url: https://github.com/future-agi/traceai
+        surrounding_text: "| [traceAI](https://github.com/future-agi/traceAI)                                | Open-source AI tracing framework built on OpenTelemetry for deep observability across agentic and LLM workflows.                                                                   | ![GitHub Badge](https://img.shields.io/github/stars/future-agi/traceAI?style=flat-square)                         |"
+        confidence: high
+    - id: discovery__github__future-agi__traceai__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Tools
+          - Platforms
+        anchor_text: traceAI
+        extracted_url: https://github.com/future-agi/traceai
+        surrounding_text: "- [traceAI](https://github.com/future-agi/traceAI): Open-source OpenTelemetry-native tracing framework for LLM applications, with native LangChain instrumentation and support for 20+ frameworks. [![GitHub Repo stars](https://img.shields.io/github/stars/future-agi/traceAI?style=social)](https://github.com/future-agi/traceAI)"
+        confidence: high
+metadata:
+  github:
+    stars: 173
+    forks: 30
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-04-15T04:57:02Z"
+    pushed_at: "2026-04-27T11:37:21Z"
+    description: Open Source AI Tracing Framework built on Opentelemetry for AI Applications and Frameworks
+    homepage: https://app.futureagi.com
+    topics:
+      - ai
+      - ai-agents
+      - langchain
+      - large-language-models
+      - observability
+      - openai
+      - opentelemetry
+      - tracing
+    last_checked_at: "2026-05-02T12:10:50.879Z"
+    readme:
+      fetched_at: "2026-05-02T12:10:50.879Z"
+      bytes: 35335
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (173) exceeded threshold (150)

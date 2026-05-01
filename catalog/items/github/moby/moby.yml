@@ -1,0 +1,59 @@
+id: github__moby__moby
+kind: github-repo
+name: moby
+canonical_url: https://github.com/moby/moby
+identity:
+  github_repo: moby/moby
+provenance:
+  discoveries:
+    - id: discovery__github__moby__moby__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/Awesome-LLMOps
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Training
+          - IDEs and Workspaces
+        anchor_text: Docker
+        extracted_url: https://github.com/moby/moby
+        surrounding_text: "| [Docker](https://github.com/moby/moby)                   | Moby is an open-source project created by Docker to enable and accelerate software containerization.                                                                                               | ![GitHub Badge](https://img.shields.io/github/stars/moby/moby.svg?style=flat-square)              |"
+        confidence: high
+metadata:
+  github:
+    stars: 71526
+    forks: 18924
+    license: Apache-2.0
+    archived: false
+    created_at: "2013-01-18T18:10:57Z"
+    pushed_at: "2026-05-01T15:41:00Z"
+    description: The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems
+    homepage: https://mobyproject.org/
+    topics:
+      - containers
+      - docker
+      - go
+      - golang
+    last_checked_at: "2026-05-02T12:12:01.253Z"
+    readme:
+      fetched_at: "2026-05-02T12:12:01.253Z"
+      bytes: 5620
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (71526) exceeded threshold (150)

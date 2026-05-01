@@ -1,0 +1,87 @@
+id: github__e2b-dev__e2b
+kind: github-repo
+name: e2b
+canonical_url: https://github.com/e2b-dev/e2b
+identity:
+  github_repo: e2b-dev/e2b
+provenance:
+  discoveries:
+    - id: discovery__github__e2b-dev__e2b__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Who's behind this?
+        anchor_text: e2b
+        extracted_url: https://github.com/e2b-dev/e2b
+        surrounding_text: This list is made by the team behind [e2b](https://github.com/e2b-dev/e2b). E2b is building AWS for AI agents. We help developers to deploy, test, and monitor AI agents. E2b is agnostic to your tech stack and aims to work with any tooling for building AI agents.
+        confidence: high
+    - id: discovery__github__e2b-dev__e2b__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Other LLM Frameworks
+        anchor_text: e2b
+        extracted_url: https://github.com/e2b-dev/e2b
+        surrounding_text: "- [e2b](https://github.com/e2b-dev/e2b): Open-source platform for building & deploying virtual developers’ agents"
+        confidence: high
+metadata:
+  github:
+    stars: 12017
+    forks: 887
+    license: Apache-2.0
+    archived: false
+    created_at: "2023-03-04T13:41:18Z"
+    pushed_at: "2026-05-02T07:21:55Z"
+    description: Open-source, secure environment with real-world tools for enterprise-grade agents.
+    homepage: https://e2b.dev/docs
+    topics:
+      - agent
+      - ai
+      - ai-agent
+      - ai-agents
+      - code-interpreter
+      - copilot
+      - development
+      - devtools
+      - gpt
+      - gpt-4
+      - javascript
+      - llm
+      - nextjs
+      - openai
+      - python
+      - react
+      - software
+      - typescript
+    last_checked_at: "2026-05-02T12:10:50.184Z"
+    readme:
+      fetched_at: "2026-05-02T12:10:50.184Z"
+      bytes: 3253
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (12017) exceeded threshold (150)

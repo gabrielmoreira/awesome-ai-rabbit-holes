@@ -1,0 +1,75 @@
+id: github__opennmt__ctranslate2
+kind: github-repo
+name: ctranslate2
+canonical_url: https://github.com/opennmt/ctranslate2
+identity:
+  github_repo: opennmt/ctranslate2
+provenance:
+  discoveries:
+    - id: discovery__github__opennmt__ctranslate2__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/Awesome-LLMOps
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Serving
+          - Large Model Serving
+        anchor_text: CTranslate2
+        extracted_url: https://github.com/opennmt/ctranslate2
+        surrounding_text: "| [CTranslate2](https://github.com/OpenNMT/CTranslate2)                                 | fast inference engine for Transformer models in C++                                                             | ![GitHub Badge](https://img.shields.io/github/stars/OpenNMT/CTranslate2.svg?style=flat-square)                   |"
+        confidence: high
+metadata:
+  github:
+    stars: 4460
+    forks: 478
+    license: MIT
+    archived: false
+    created_at: "2019-09-23T08:10:42Z"
+    pushed_at: "2026-02-04T06:01:18Z"
+    description: Fast inference engine for Transformer models
+    homepage: https://opennmt.net/CTranslate2
+    topics:
+      - avx
+      - avx2
+      - cpp
+      - cuda
+      - deep-learning
+      - deep-neural-networks
+      - gemm
+      - inference
+      - intrinsics
+      - machine-translation
+      - mkl
+      - neon
+      - neural-machine-translation
+      - onednn
+      - openmp
+      - opennmt
+      - parallel-computing
+      - quantization
+      - thrust
+      - transformer-models
+    last_checked_at: "2026-05-02T12:12:09.132Z"
+    readme:
+      fetched_at: "2026-05-02T12:12:09.132Z"
+      bytes: 9262
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (4460) exceeded threshold (150)

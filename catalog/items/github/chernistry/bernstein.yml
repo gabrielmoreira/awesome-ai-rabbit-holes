@@ -1,0 +1,91 @@
+id: github__chernistry__bernstein
+kind: github-repo
+name: bernstein
+canonical_url: https://github.com/chernistry/bernstein
+identity:
+  github_repo: chernistry/bernstein
+provenance:
+  discoveries:
+    - id: discovery__github__chernistry__bernstein__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradAGI/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Orchestrators & autonomous loops
+        anchor_text: Bernstein
+        extracted_url: https://github.com/chernistry/bernstein
+        surrounding_text: "- **[Bernstein](https://github.com/chernistry/bernstein)** `⭐ 249` — Deterministic Python orchestrator — spawns parallel AI coding agents (Claude Code, Codex CLI, Gemini CLI), verifies with tests, auto-commits."
+        confidence: high
+    - id: discovery__github__chernistry__bernstein__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🤖 <a name="coding-agents"></a>Coding Agents
+        anchor_text: chernistry/bernstein
+        extracted_url: https://github.com/chernistry/bernstein
+        surrounding_text: "- [chernistry/bernstein](https://github.com/chernistry/bernstein) [![chernistry/bernstein MCP server](https://glama.ai/mcp/servers/chernistry/bernstein/badges/score.svg)](https://glama.ai/mcp/servers/chernistry/bernstein) 🐍 🏠 ☁️ 🍎 🪟 🐧 - Deterministic multi-agent orchestrator for 18 CLI coding agents (Claude Code, Codex, Cursor, Aider, Gemini CLI, OpenAI Agents SDK, and more). MCP server mode (stdio + HTTP/SSE) exposes the orchestrator to any MCP client. Git worktree isolation per agent, HMAC-chained audit trail, cost-aware model routing via contextual bandit. ~11K monthly PyPI downloads, Apache 2.0."
+        confidence: high
+metadata:
+  github:
+    stars: 254
+    forks: 33
+    license: Apache-2.0
+    archived: false
+    created_at: "2026-03-22T14:52:26Z"
+    pushed_at: "2026-04-30T20:39:31Z"
+    description: Deterministic orchestrator for 30+ CLI AI coding agents. Git worktree isolation, HMAC audit trail, MCP server mode.
+    homepage: https://bernstein.run
+    topics:
+      - a2a
+      - agent-orchestration
+      - agentic-ai
+      - agentic-engineering
+      - agentic-workflow
+      - ai-agents
+      - ai-orchestration
+      - ai-orchestrator
+      - autonomous-agents
+      - claude-code
+      - coding-agents
+      - developer-tools
+      - llm-orchestration
+      - mcp-server
+      - model-context-protocol
+      - multi-agent
+      - multi-agent-systems
+      - open-plugins
+      - self-evolving
+      - vibe-coding
+    last_checked_at: "2026-05-02T12:10:49.409Z"
+    readme:
+      fetched_at: "2026-05-02T12:10:49.409Z"
+      bytes: 26817
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (254) exceeded threshold (150)

@@ -1,0 +1,69 @@
+id: github__kurtosis-tech__kurtosis
+kind: github-repo
+name: kurtosis
+canonical_url: https://github.com/kurtosis-tech/kurtosis
+identity:
+  github_repo: kurtosis-tech/kurtosis
+provenance:
+  discoveries:
+    - id: discovery__github__kurtosis-tech__kurtosis__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/Awesome-LLMOps
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Training
+          - IDEs and Workspaces
+        anchor_text: Kurtosis
+        extracted_url: https://github.com/kurtosis-tech/kurtosis
+        surrounding_text: "| [Kurtosis](https://github.com/kurtosis-tech/kurtosis)    | A build, packaging, and run system for ephemeral multi-container environments.                                                                                                                     | ![GitHub Badge](https://img.shields.io/github/stars/kurtosis-tech/kurtosis.svg?style=flat-square) |"
+        confidence: high
+metadata:
+  github:
+    stars: 539
+    forks: 95
+    license: Apache-2.0
+    archived: false
+    created_at: "2023-02-14T15:44:55Z"
+    pushed_at: "2026-04-28T19:55:58Z"
+    description: A platform for packaging and launching blockchain infra. Think docker compose for blockchain
+    homepage: https://docs.kurtosistech.com/
+    topics:
+      - backend
+      - cicd
+      - containerization
+      - deploy
+      - devops
+      - distributed-systems
+      - docker
+      - docker-compose
+      - environment
+      - go
+      - infrastructure
+      - kubernetes
+      - networks
+      - prototyping
+    last_checked_at: "2026-05-02T12:11:50.609Z"
+    readme:
+      fetched_at: "2026-05-02T12:11:50.609Z"
+      bytes: 24511
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (539) exceeded threshold (150)

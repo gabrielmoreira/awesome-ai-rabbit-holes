@@ -1,0 +1,62 @@
+id: github__chainlit__chainlit
+kind: github-repo
+name: chainlit
+canonical_url: https://github.com/chainlit/chainlit
+identity:
+  github_repo: chainlit/chainlit
+provenance:
+  discoveries:
+    - id: discovery__github__chainlit__chainlit__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Tools
+          - Services
+        anchor_text: Chainlit
+        extracted_url: https://github.com/chainlit/chainlit
+        surrounding_text: "- [Chainlit](https://github.com/Chainlit/chainlit): Build Python LLM apps in minutes ⚡️ ![GitHub Repo stars](https://img.shields.io/github/stars/Chainlit/chainlit?style=social)"
+        confidence: high
+metadata:
+  github:
+    stars: 12036
+    forks: 1702
+    license: Apache-2.0
+    archived: false
+    created_at: "2023-03-14T16:54:04Z"
+    pushed_at: "2026-04-24T13:00:53Z"
+    description: Build Conversational AI in minutes ⚡️
+    homepage: https://docs.chainlit.io
+    topics:
+      - chatgpt
+      - langchain
+      - llm
+      - openai
+      - openai-chatgpt
+      - python
+      - ui
+    last_checked_at: "2026-05-02T12:11:16.026Z"
+    readme:
+      fetched_at: "2026-05-02T12:11:16.026Z"
+      bytes: 4384
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (12036) exceeded threshold (150)

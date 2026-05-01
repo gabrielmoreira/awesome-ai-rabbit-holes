@@ -1,0 +1,54 @@
+id: github__ckanthony__chisel
+kind: github-repo
+name: chisel
+canonical_url: https://github.com/ckanthony/chisel
+identity:
+  github_repo: ckanthony/chisel
+provenance:
+  discoveries:
+    - id: discovery__github__ckanthony__chisel__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📂 <a name="file-systems"></a>File Systems
+        anchor_text: ckanthony/Chisel
+        extracted_url: https://github.com/ckanthony/chisel
+        surrounding_text: "- [ckanthony/Chisel](https://github.com/ckanthony/Chisel) [![chisel MCP server](https://glama.ai/mcp/servers/@ckanthony/chisel/badges/score.svg)](https://glama.ai/mcp/servers/@ckanthony/chisel) 🦀 🏠 🍎 🐧 ☁️ - Reduce context usage on file use. Send only unified diffs instead of full files (up to 20-100× fewer tokens), and read large files with targeted `grep`/`sed` instead of full reads (up to 500×). Kernel-enforced path confinement hard-locks the agent to a configured root: no accidental reads or writes outside scope. Standalone for your file access or embed in any MCP server (Rust, Node.js, Python via WASM)."
+        confidence: high
+metadata:
+  github:
+    stars: 10
+    forks: 1
+    license: null
+    archived: false
+    created_at: "2026-03-01T17:39:51Z"
+    pushed_at: "2026-03-07T18:31:54Z"
+    description: "🪛 Rust powered precision file tools for AI agents thats minimize context use: patch-based edits, kernel-enforced path confinement.  Dramatically fewer tokens than naive read/write.  MCP Server or embeddable, bring your own MCP (Rust, Python, Nodejs).  Come with Skills.md (npx skills add ckanthony/Chisel)"
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-02T12:11:16.474Z"
+    readme:
+      fetched_at: "2026-05-02T12:11:16.474Z"
+      bytes: 35102
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating

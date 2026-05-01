@@ -1,0 +1,54 @@
+id: github__github__codeql-cli-binaries
+kind: github-repo
+name: codeql-cli-binaries
+canonical_url: https://github.com/github/codeql-cli-binaries
+identity:
+  github_repo: github/codeql-cli-binaries
+provenance:
+  discoveries:
+    - id: discovery__github__github__codeql-cli-binaries__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: scraped
+        section_path:
+          - Code Review and Refactoring
+        anchor_text: CodeQL (GitHub)
+        extracted_url: https://codeql.github.com
+        surrounding_text: "- **[CodeQL (GitHub)](https://codeql.github.com/)** – Semantic code analysis for security and quality."
+        confidence: high
+metadata:
+  github:
+    stars: 973
+    forks: 165
+    license: NOASSERTION
+    archived: false
+    created_at: "2019-10-15T09:46:34Z"
+    pushed_at: "2026-05-01T12:07:16Z"
+    description: Binaries for the CodeQL CLI
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-02T12:11:33.477Z"
+    readme:
+      fetched_at: "2026-05-02T12:11:33.477Z"
+      bytes: 1481
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (973) exceeded threshold (150)

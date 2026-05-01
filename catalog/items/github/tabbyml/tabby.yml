@@ -1,0 +1,78 @@
+id: github__tabbyml__tabby
+kind: github-repo
+name: tabby
+canonical_url: https://github.com/tabbyml/tabby
+identity:
+  github_repo: tabbyml/tabby
+provenance:
+  discoveries:
+    - id: discovery__github__tabbyml__tabby__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/Awesome-LLMOps
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Code AI
+        anchor_text: tabby
+        extracted_url: https://github.com/tabbyml/tabby
+        surrounding_text: "| [tabby](https://github.com/TabbyML/tabby)           | Self-hosted AI coding assistant. An opensource / on-prem alternative to GitHub Copilot.                  | ![GitHub Badge](https://img.shields.io/github/stars/TabbyML/tabby.svg?style=flat-square)        |"
+        confidence: high
+    - id: discovery__github__tabbyml__tabby__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: scraped
+        section_path:
+          - Code Editors and Assistants
+        anchor_text: Tabby
+        extracted_url: https://tabby.tabbyml.com
+        surrounding_text: "- **[Tabby](https://tabby.tabbyml.com/)** – Self-hosted, open-source AI coding assistant you can run on your own infrastructure."
+        confidence: high
+metadata:
+  github:
+    stars: 33484
+    forks: 1744
+    license: NOASSERTION
+    archived: false
+    created_at: "2023-03-16T09:18:01Z"
+    pushed_at: "2026-03-02T20:08:28Z"
+    description: Self-hosted AI coding assistant
+    homepage: https://tabbyml.com
+    topics:
+      - ai
+      - codegen
+      - coding-assistant
+      - coding-language
+      - developer-experience
+      - developer-tools
+      - gen-ai
+      - ide
+      - llms
+    last_checked_at: "2026-05-02T12:10:57.395Z"
+    readme:
+      fetched_at: "2026-05-02T12:10:57.395Z"
+      bytes: 9981
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (33484) exceeded threshold (150)

@@ -1,0 +1,85 @@
+id: github__agenta-ai__agenta
+kind: github-repo
+name: agenta
+canonical_url: https://github.com/agenta-ai/agenta
+identity:
+  github_repo: agenta-ai/agenta
+provenance:
+  discoveries:
+    - id: discovery__github__agenta-ai__agenta__awesome-list__vivy-yi__awesome-agent-orchestration
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: vivy-yi/awesome-agent-orchestration
+        url: https://github.com/vivy-yi/awesome-agent-orchestration
+        repository: vivy-yi/awesome-agent-orchestration
+      extraction:
+        mode: parsed
+        section_path:
+          - Tools & Infrastructure
+          - Observability & Tracing
+        anchor_text: Agenta
+        extracted_url: https://github.com/agenta-ai/agenta
+        surrounding_text: "| [Agenta](https://github.com/agenta-ai/agenta) | LLMOps platform for prototyping |"
+        confidence: high
+    - id: discovery__github__agenta-ai__agenta__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/Awesome-LLMOps
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - LLMOps
+        anchor_text: agenta
+        extracted_url: https://github.com/agenta-ai/agenta
+        surrounding_text: "| [agenta](https://github.com/Agenta-AI/agenta)                      | The LLMOps platform to build robust LLM apps. Easily experiment and evaluate different prompts, models, and workflows to build robust apps.                                                                                                                                                                                                                                                             | ![GitHub Badge](https://img.shields.io/github/stars/Agenta-AI/agenta.svg?style=flat-square)               |"
+        confidence: high
+metadata:
+  github:
+    stars: 4085
+    forks: 516
+    license: NOASSERTION
+    archived: false
+    created_at: "2023-04-26T09:54:28Z"
+    pushed_at: "2026-05-02T06:52:21Z"
+    description: "The open-source LLMOps platform: prompt playground, prompt management, LLM evaluation, and LLM observability all in one place."
+    homepage: http://www.agenta.ai
+    topics:
+      - agents
+      - evaluation
+      - llm-as-a-judge
+      - llm-evaluation
+      - llm-framework
+      - llm-monitoring
+      - llm-observability
+      - llm-platform
+      - llm-playground
+      - llm-tools
+      - llmops
+      - observability
+      - prompt-engineering
+      - prompt-management
+      - rag-evaluation
+    last_checked_at: "2026-05-02T12:10:47.306Z"
+    readme:
+      fetched_at: "2026-05-02T12:10:47.306Z"
+      bytes: 34476
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (4085) exceeded threshold (150)

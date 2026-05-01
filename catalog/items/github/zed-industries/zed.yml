@@ -1,0 +1,73 @@
+id: github__zed-industries__zed
+kind: github-repo
+name: zed
+canonical_url: https://github.com/zed-industries/zed
+identity:
+  github_repo: zed-industries/zed
+provenance:
+  discoveries:
+    - id: discovery__github__zed-industries__zed__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Clients
+        anchor_text: Zed
+        extracted_url: https://github.com/zed-industries/zed
+        surrounding_text: "- **[Zed](https://github.com/zed-industries/zed)** multiplayer code editor from the creators of atom"
+        confidence: high
+    - id: discovery__github__zed-industries__zed__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: scraped
+        section_path:
+          - Code Editors and Assistants
+        anchor_text: Zed
+        extracted_url: https://zed.dev
+        surrounding_text: "- **[Zed](https://zed.dev/)** – High-performance multiplayer code editor built in Rust with integrated AI assistance."
+        confidence: high
+metadata:
+  github:
+    stars: 81239
+    forks: 8185
+    license: NOASSERTION
+    archived: false
+    created_at: "2021-02-20T03:01:06Z"
+    pushed_at: "2026-05-01T22:37:26Z"
+    description: Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.
+    homepage: https://zed.dev
+    topics:
+      - gpui
+      - rust-lang
+      - text-editor
+      - zed
+    last_checked_at: "2026-05-02T12:10:59.007Z"
+    readme:
+      fetched_at: "2026-05-02T12:10:59.007Z"
+      bytes: 2739
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (81239) exceeded threshold (150)

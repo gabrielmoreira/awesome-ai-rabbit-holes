@@ -1,0 +1,75 @@
+id: github__nvidia__tensorrt-llm
+kind: github-repo
+name: tensorrt-llm
+canonical_url: https://github.com/nvidia/tensorrt-llm
+identity:
+  github_repo: nvidia/tensorrt-llm
+provenance:
+  discoveries:
+    - id: discovery__github__nvidia__tensorrt-llm__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: janhq/awesome-local-ai
+        url: https://github.com/janhq/awesome-local-ai
+        repository: janhq/awesome-local-ai
+      extraction:
+        mode: parsed
+        section_path:
+          - Inference Engine
+        anchor_text: Tensorrt-llm
+        extracted_url: https://github.com/nvidia/tensorrt-llm
+        surrounding_text: "| [Tensorrt-llm](https://github.com/NVIDIA/TensorRT-LLM)          | - Inference efficiently on NVIDIA GPUs                                               | Python / C++ runtimes   | Both            | ❌  | Python/C++  | Text-Gen      |"
+        confidence: high
+    - id: discovery__github__nvidia__tensorrt-llm__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/Awesome-LLMOps
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Serving
+          - Large Model Serving
+        anchor_text: TensorRT-LLM
+        extracted_url: https://github.com/nvidia/tensorrt-llm
+        surrounding_text: "| [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM)                                | Inference engine for TensorRT on Nvidia GPUs                                                                    | ![GitHub Badge](https://img.shields.io/github/stars/NVIDIA/TensorRT-LLM.svg?style=flat-square)                   |"
+        confidence: high
+metadata:
+  github:
+    stars: 13537
+    forks: 2340
+    license: NOASSERTION
+    archived: false
+    created_at: "2023-08-16T17:14:27Z"
+    pushed_at: "2026-05-02T10:51:27Z"
+    description: TensorRT LLM provides users with an easy-to-use Python API to define Large Language Models (LLMs) and supports state-of-the-art optimizations to perform inference efficiently on NVIDIA GPUs. TensorRT LLM also contains components to create Python and C++ runtimes that orchestrate the inference execution in a performant way.
+    homepage: https://nvidia.github.io/TensorRT-LLM
+    topics:
+      - blackwell
+      - cuda
+      - llm-serving
+      - moe
+      - pytorch
+    last_checked_at: "2026-05-02T12:10:55.435Z"
+    readme:
+      fetched_at: "2026-05-02T12:10:55.435Z"
+      bytes: 26642
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (13537) exceeded threshold (150)

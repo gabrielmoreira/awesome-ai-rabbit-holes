@@ -1,0 +1,72 @@
+id: github__gpustack__gpustack
+kind: github-repo
+name: gpustack
+canonical_url: https://github.com/gpustack/gpustack
+identity:
+  github_repo: gpustack/gpustack
+provenance:
+  discoveries:
+    - id: discovery__github__gpustack__gpustack__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/Awesome-LLMOps
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - LLMOps
+        anchor_text: GPUStack
+        extracted_url: https://github.com/gpustack/gpustack
+        surrounding_text: "| [GPUStack](https://github.com/gpustack/gpustack)                   | An open-source GPU cluster manager for running and managing LLMs                                                                                                                                                                                                                                                                                                                                        | ![GitHub Badge](https://img.shields.io/github/stars/gpustack/gpustack.svg?style=flat-square)              |"
+        confidence: high
+metadata:
+  github:
+    stars: 4950
+    forks: 516
+    license: Apache-2.0
+    archived: false
+    created_at: "2024-05-11T03:41:58Z"
+    pushed_at: "2026-04-30T11:24:32Z"
+    description: A GPU cluster manager that configures and orchestrates inference engines like vLLM and SGLang for high-performance AI model deployment.
+    homepage: https://gpustack.ai
+    topics:
+      - ascend
+      - cuda
+      - deepseek
+      - distributed-inference
+      - genai
+      - high-performance-inference
+      - inference
+      - llama
+      - llm
+      - llm-inference
+      - llm-serving
+      - maas
+      - mindie
+      - openai
+      - qwen
+      - rocm
+      - sglang
+      - vllm
+    last_checked_at: "2026-05-02T12:11:35.187Z"
+    readme:
+      fetched_at: "2026-05-02T12:11:35.187Z"
+      bytes: 10430
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (4950) exceeded threshold (150)

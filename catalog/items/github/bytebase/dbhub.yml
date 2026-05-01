@@ -1,0 +1,90 @@
+id: github__bytebase__dbhub
+kind: github-repo
+name: dbhub
+canonical_url: https://github.com/bytebase/dbhub
+identity:
+  github_repo: bytebase/dbhub
+provenance:
+  discoveries:
+    - id: discovery__github__bytebase__dbhub__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: bytebase/dbhub
+        extracted_url: https://github.com/bytebase/dbhub
+        surrounding_text: "- **[bytebase/dbhub](https://github.com/bytebase/dbhub)** – 📇 Universal database MCP server supporting mainstream databases.\\"
+        confidence: high
+    - id: discovery__github__bytebase__dbhub__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/MobinX/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - null
+          - 🗄️ Databases
+        anchor_text: bytebase/dbhub
+        extracted_url: https://github.com/bytebase/dbhub
+        surrounding_text: "-   **[bytebase/dbhub](https://github.com/bytebase/dbhub)** [![GitHub stars](https://img.shields.io/github/stars/bytebase/dbhub?style=social)](https://github.com/bytebase/dbhub): Provides a universal database MCP server with support for mainstream databases."
+        confidence: high
+metadata:
+  github:
+    stars: 2675
+    forks: 226
+    license: MIT
+    archived: false
+    created_at: "2025-03-09T16:36:38Z"
+    pushed_at: "2026-04-21T10:55:33Z"
+    description: Zero-dependency, token-efficient database MCP server for Postgres, MySQL, SQL Server, MariaDB, SQLite.
+    homepage: https://dbhub.ai
+    topics:
+      - agents
+      - ai
+      - anthropic
+      - claude
+      - claude-ai
+      - codex
+      - cursor
+      - database
+      - dify
+      - llm
+      - mariadb
+      - mcp
+      - mcp-server
+      - mssql
+      - mysql
+      - postgres
+      - postgresql
+      - sql
+      - sqlite
+      - sqlserver
+    last_checked_at: "2026-05-02T12:10:48.775Z"
+    readme:
+      fetched_at: "2026-05-02T12:10:48.775Z"
+      bytes: 5539
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (2675) exceeded threshold (150)

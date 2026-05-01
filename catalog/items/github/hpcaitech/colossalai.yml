@@ -1,0 +1,83 @@
+id: github__hpcaitech__colossalai
+kind: github-repo
+name: colossalai
+canonical_url: https://github.com/hpcaitech/colossalai
+identity:
+  github_repo: hpcaitech/colossalai
+provenance:
+  discoveries:
+    - id: discovery__github__hpcaitech__colossalai__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/Awesome-LLMOps
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Training
+          - Frameworks for Training
+        anchor_text: ColossalAI
+        extracted_url: https://github.com/hpcaitech/colossalai
+        surrounding_text: "| [ColossalAI](https://github.com/hpcaitech/ColossalAI)                | An integrated large-scale model training system with efficient parallelization techniques.                                                                                                                  | ![GitHub Badge](https://img.shields.io/github/stars/hpcaitech/ColossalAI.svg?style=flat-square)              |"
+        confidence: high
+    - id: discovery__github__hpcaitech__colossalai__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Tools
+          - Agents
+        anchor_text: CollosalAI Chat
+        extracted_url: https://github.com/hpcaitech/colossalai
+        surrounding_text: "- [CollosalAI Chat](https://github.com/hpcaitech/ColossalAI/tree/main/applications/Chat): implement LLM with RLHF, powered by the Colossal-AI project ![GitHub Repo stars](https://img.shields.io/github/stars/hpcaitech/ColossalAI?style=social)"
+        confidence: high
+metadata:
+  github:
+    stars: 41373
+    forks: 4517
+    license: Apache-2.0
+    archived: false
+    created_at: "2021-10-28T16:19:44Z"
+    pushed_at: "2026-04-27T17:41:15Z"
+    description: Making large AI models cheaper, faster and more accessible
+    homepage: https://www.colossalai.org
+    topics:
+      - ai
+      - big-model
+      - data-parallelism
+      - deep-learning
+      - distributed-computing
+      - foundation-models
+      - heterogeneous-training
+      - hpc
+      - inference
+      - large-scale
+      - model-parallelism
+      - pipeline-parallelism
+    last_checked_at: "2026-05-02T12:10:51.738Z"
+    readme:
+      fetched_at: "2026-05-02T12:10:51.738Z"
+      bytes: 35355
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (41373) exceeded threshold (150)

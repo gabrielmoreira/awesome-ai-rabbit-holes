@@ -1,0 +1,73 @@
+id: github__quantconnect__mcp-server
+kind: github-repo
+name: mcp-server
+canonical_url: https://github.com/quantconnect/mcp-server
+identity:
+  github_repo: quantconnect/mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__quantconnect__mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: QuantConnect/mcp-server
+        extracted_url: https://github.com/quantconnect/mcp-server
+        surrounding_text: "- [QuantConnect/mcp-server](https://github.com/QuantConnect/mcp-server) 🐍 ☁️ – A Dockerized Python MCP server that bridges your local AI (e.g., Claude Desktop, etc) with the QuantConnect API—empowering you to create projects, backtest strategies, manage collaborators, and deploy live-trading workflows directly via natural-language prompts."
+        confidence: high
+    - id: discovery__github__quantconnect__mcp-server__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: QuantConnect
+        extracted_url: https://github.com/quantconnect/mcp-server
+        surrounding_text: "- **[QuantConnect](https://github.com/QuantConnect/mcp-server)** – Dockerized Python MCP server that lets LLMs like Claude or OpenAI o3 Pro autonomously create projects, backtest strategies, and deploy live-trading workflows via the QuantConnect API."
+        confidence: high
+metadata:
+  github:
+    stars: 71
+    forks: 27
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-06-24T14:26:13Z"
+    pushed_at: "2025-12-19T10:01:31Z"
+    description: Official Python MCP server for local interactions with the QuantConnect API
+    homepage: https://www.quantconnect.com/mcp
+    topics:
+      - algorithmic-trading
+      - finance
+      - mcp
+      - quantitative-finance
+    last_checked_at: "2026-05-02T12:10:56.177Z"
+    readme:
+      fetched_at: "2026-05-02T12:10:56.177Z"
+      bytes: 42143
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating

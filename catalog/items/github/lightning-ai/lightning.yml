@@ -1,0 +1,62 @@
+id: github__lightning-ai__lightning
+kind: github-repo
+name: lightning
+canonical_url: https://github.com/lightning-ai/lightning
+identity:
+  github_repo: lightning-ai/lightning
+provenance:
+  discoveries:
+    - id: discovery__github__lightning-ai__lightning__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/Awesome-LLMOps
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Training
+          - Frameworks for Training
+        anchor_text: PyTorch Lightning
+        extracted_url: https://github.com/lightning-ai/lightning
+        surrounding_text: "| [PyTorch Lightning](https://github.com/lightning-AI/lightning)       | Deep learning framework to train, deploy, and ship AI products Lightning fast.                                                                                                                              | ![GitHub Badge](https://img.shields.io/github/stars/lightning-AI/lightning.svg?style=flat-square)            |"
+        confidence: high
+metadata:
+  github:
+    stars: 31103
+    forks: 3714
+    license: Apache-2.0
+    archived: false
+    created_at: "2019-03-31T00:45:57Z"
+    pushed_at: "2026-05-01T18:07:50Z"
+    description: Pretrain, finetune ANY AI model of ANY size on 1 or 10,000+ GPUs with zero code changes.
+    homepage: https://lightning.ai/pytorch-lightning/?utm_source=ptl_readme&utm_medium=referral&utm_campaign=ptl_readme
+    topics:
+      - ai
+      - artificial-intelligence
+      - data-science
+      - deep-learning
+      - machine-learning
+      - python
+      - pytorch
+    last_checked_at: "2026-05-02T12:11:52.802Z"
+    readme:
+      fetched_at: "2026-05-02T12:11:52.802Z"
+      bytes: 28557
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (31103) exceeded threshold (150)

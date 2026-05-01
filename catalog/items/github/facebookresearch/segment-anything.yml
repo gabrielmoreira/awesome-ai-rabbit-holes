@@ -1,0 +1,55 @@
+id: github__facebookresearch__segment-anything
+kind: github-repo
+name: segment-anything
+canonical_url: https://github.com/facebookresearch/segment-anything
+identity:
+  github_repo: facebookresearch/segment-anything
+provenance:
+  discoveries:
+    - id: discovery__github__facebookresearch__segment-anything__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/Awesome-LLMOps
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Model
+          - CV Foundation Model
+        anchor_text: segment-anything (SAM)
+        extracted_url: https://github.com/facebookresearch/segment-anything
+        surrounding_text: "| [segment-anything (SAM)](https://github.com/facebookresearch/segment-anything) | produces high quality object masks from input prompts such as points or boxes, and it can be used to generate masks for all objects in an image. | ![GitHub Badge](https://img.shields.io/github/stars/facebookresearch/segment-anything.svg?style=flat-square) |"
+        confidence: high
+metadata:
+  github:
+    stars: 54079
+    forks: 6331
+    license: Apache-2.0
+    archived: false
+    created_at: "2023-03-23T17:03:03Z"
+    pushed_at: "2024-09-18T17:46:55Z"
+    description: The repository provides code for running inference with the SegmentAnything Model (SAM), links for downloading the trained model checkpoints, and example notebooks that show how to use the model.
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-02T12:11:27.767Z"
+    readme:
+      fetched_at: "2026-05-02T12:11:27.767Z"
+      bytes: 9621
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (54079) exceeded threshold (150)

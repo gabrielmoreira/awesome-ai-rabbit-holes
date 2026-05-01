@@ -1,0 +1,82 @@
+id: github__dmayboroda__minima
+kind: github-repo
+name: minima
+canonical_url: https://github.com/dmayboroda/minima
+identity:
+  github_repo: dmayboroda/minima
+provenance:
+  discoveries:
+    - id: discovery__github__dmayboroda__minima__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: Minima
+        extracted_url: https://github.com/dmayboroda/minima
+        surrounding_text: "- **[Minima](https://github.com/dmayboroda/minima)** - Local RAG (on-premises) with MCP server."
+        confidence: high
+    - id: discovery__github__dmayboroda__minima__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Open Source Projects
+          - Knowledge Management
+        anchor_text: Minima
+        extracted_url: https://github.com/dmayboroda/minima
+        surrounding_text: "- [Minima](https://github.com/dmayboroda/minima): Chat with local documents, connect local environment to ChatGPT or Claude ![GitHub Repo stars](https://img.shields.io/github/stars/dmayboroda/minima?style=social)"
+        confidence: high
+metadata:
+  github:
+    stars: 1045
+    forks: 103
+    license: MPL-2.0
+    archived: false
+    created_at: "2024-11-02T22:44:56Z"
+    pushed_at: "2026-01-22T09:22:09Z"
+    description: On-premises conversational RAG with configurable containers
+    homepage: ""
+    topics:
+      - ai
+      - claude
+      - custom-gpts
+      - docker
+      - docker-compose
+      - huggingface
+      - langchain
+      - mcp
+      - model-context-protocol
+      - ollama
+      - qdrant
+      - sentence-transformers
+    last_checked_at: "2026-05-02T12:10:50.250Z"
+    readme:
+      fetched_at: "2026-05-02T12:10:50.250Z"
+      bytes: 9319
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1045) exceeded threshold (150)

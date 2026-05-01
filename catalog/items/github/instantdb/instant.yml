@@ -1,0 +1,54 @@
+id: github__instantdb__instant
+kind: github-repo
+name: instant
+canonical_url: https://github.com/instantdb/instant
+identity:
+  github_repo: instantdb/instant
+provenance:
+  discoveries:
+    - id: discovery__github__instantdb__instant__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: InstantDB
+        extracted_url: https://github.com/instantdb/instant
+        surrounding_text: "- **[InstantDB](https://github.com/instantdb/instant/tree/main/client/packages/mcp)** - Create, manage, and update applications on InstantDB, the modern Firebase."
+        confidence: high
+metadata:
+  github:
+    stars: 10219
+    forks: 350
+    license: Apache-2.0
+    archived: false
+    created_at: "2024-08-19T21:53:42Z"
+    pushed_at: "2026-05-01T21:26:04Z"
+    description: Instant is the best backend for AI-coded apps.  You get auth, permissions, storage, presence, and streams — everything you need to ship apps your users will love.
+    homepage: https://instantdb.com
+    topics: []
+    last_checked_at: "2026-05-02T12:11:41.337Z"
+    readme:
+      fetched_at: "2026-05-02T12:11:41.337Z"
+      bytes: 5899
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (10219) exceeded threshold (150)

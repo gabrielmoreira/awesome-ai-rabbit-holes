@@ -1,0 +1,55 @@
+id: github__openai__codex
+kind: github-repo
+name: codex
+canonical_url: https://github.com/openai/codex
+identity:
+  github_repo: openai/codex
+provenance:
+  discoveries:
+    - id: discovery__github__openai__codex__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradAGI/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Terminal-native coding agents
+          - Open Source
+        anchor_text: Codex CLI
+        extracted_url: https://github.com/openai/codex
+        surrounding_text: "- **[Codex CLI](https://github.com/openai/codex)** `⭐ 79.2k` `[OpenAI]` — OpenAI's local coding agent for reading/editing/running code, with an interactive TUI and tool execution. Apache-2.0."
+        confidence: high
+metadata:
+  github:
+    stars: 79497
+    forks: 11411
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-04-13T05:37:54Z"
+    pushed_at: "2026-05-02T11:10:22Z"
+    description: Lightweight coding agent that runs in your terminal
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-02T12:12:08.107Z"
+    readme:
+      fetched_at: "2026-05-02T12:12:08.107Z"
+      bytes: 2627
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (79497) exceeded threshold (150)

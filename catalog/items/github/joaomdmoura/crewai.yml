@@ -1,0 +1,90 @@
+id: github__joaomdmoura__crewai
+kind: github-repo
+name: crewai
+canonical_url: https://github.com/joaomdmoura/crewai
+identity:
+  github_repo: joaomdmoura/crewai
+provenance:
+  discoveries:
+    - id: discovery__github__joaomdmoura__crewai__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - "[CrewAI](https://github.com/joaomdmoura/crewai)"
+        anchor_text: Image
+        extracted_url: https://github.com/joaomdmoura/crewai
+        surrounding_text: "![Image](https://github.com/joaomdmoura/crewAI/raw/main/docs/crewai_logo.png)"
+        confidence: high
+    - id: discovery__github__joaomdmoura__crewai__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Tools
+          - Agents
+        anchor_text: CrewAI
+        extracted_url: https://github.com/joaomdmoura/crewai
+        surrounding_text: "- [CrewAI](https://github.com/joaomdmoura/crewai): Cutting-edge framework for orchestrating role-playing, autonomous AI agents. ![GitHub Repo stars](https://img.shields.io/github/stars/joaomdmoura/crewai?style=social)"
+        confidence: high
+    - id: discovery__github__joaomdmoura__crewai__awesome-list__kaushikb11__awesome-llm-agents
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: kaushikb11/awesome-llm-agents
+        url: https://github.com/kaushikb11/awesome-llm-agents
+        repository: kaushikb11/awesome-llm-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Frameworks
+        anchor_text: CrewAI
+        extracted_url: https://github.com/joaomdmoura/crewai
+        surrounding_text: "- [CrewAI](https://github.com/joaomdmoura/crewAI) - Framework for orchestrating"
+        confidence: high
+metadata:
+  github:
+    stars: 50463
+    forks: 6954
+    license: MIT
+    archived: false
+    created_at: "2023-10-27T03:26:59Z"
+    pushed_at: "2026-05-01T21:28:09Z"
+    description: Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.
+    homepage: https://crewai.com
+    topics:
+      - agents
+      - ai
+      - ai-agents
+      - aiagentframework
+      - llms
+    last_checked_at: "2026-05-02T12:10:45.805Z"
+    readme:
+      fetched_at: "2026-05-02T12:10:45.805Z"
+      bytes: 34984
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (50463) exceeded threshold (150)

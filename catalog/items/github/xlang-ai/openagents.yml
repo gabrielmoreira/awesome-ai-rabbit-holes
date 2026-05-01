@@ -1,0 +1,81 @@
+id: github__xlang-ai__openagents
+kind: github-repo
+name: openagents
+canonical_url: https://github.com/xlang-ai/openagents
+identity:
+  github_repo: xlang-ai/openagents
+provenance:
+  discoveries:
+    - id: discovery__github__xlang-ai__openagents__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - "[OpenAgents](https://github.com/xlang-ai/OpenAgents)"
+        anchor_text: image
+        extracted_url: https://github.com/xlang-ai/openagents
+        surrounding_text: "![image](https://github.com/xlang-ai/OpenAgents/raw/main/pics/openagents_overview.png)"
+        confidence: high
+    - id: discovery__github__xlang-ai__openagents__awesome-list__kaushikb11__awesome-llm-agents
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: kaushikb11/awesome-llm-agents
+        url: https://github.com/kaushikb11/awesome-llm-agents
+        repository: kaushikb11/awesome-llm-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Frameworks
+        anchor_text: OpenAgents
+        extracted_url: https://github.com/xlang-ai/openagents
+        surrounding_text: "- [OpenAgents](https://github.com/xlang-ai/OpenAgents) - Open platform for language"
+        confidence: high
+metadata:
+  github:
+    stars: 4785
+    forks: 527
+    license: Apache-2.0
+    archived: false
+    created_at: "2023-08-08T09:15:28Z"
+    pushed_at: "2024-11-18T09:39:29Z"
+    description: "[COLM 2024] OpenAgents: An Open Platform for Language Agents in the Wild"
+    homepage: https://arxiv.org/abs/2310.10634
+    topics:
+      - agent
+      - assistant-chat-bots
+      - code-generation
+      - executable-langauge-grounding
+      - gpt
+      - hacktoberfest
+      - language-model
+      - language-model-agent
+      - llm
+      - semantic-parsing
+      - tool-learning
+      - ui
+    last_checked_at: "2026-05-02T12:10:58.545Z"
+    readme:
+      fetched_at: "2026-05-02T12:10:58.545Z"
+      bytes: 22742
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (4785) exceeded threshold (150)

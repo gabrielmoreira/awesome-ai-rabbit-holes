@@ -1,0 +1,58 @@
+id: github__michaelfeil__infinity
+kind: github-repo
+name: infinity
+canonical_url: https://github.com/michaelfeil/infinity
+identity:
+  github_repo: michaelfeil/infinity
+provenance:
+  discoveries:
+    - id: discovery__github__michaelfeil__infinity__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/Awesome-LLMOps
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Serving
+          - Large Model Serving
+        anchor_text: Infinity
+        extracted_url: https://github.com/michaelfeil/infinity
+        surrounding_text: "| [Infinity](https://github.com/michaelfeil/infinity)                                   | Rest API server for serving text-embeddings                                                                     | ![GitHub Badge](https://img.shields.io/github/stars/michaelfeil/infinity.svg?style=flat-square)                  |"
+        confidence: high
+metadata:
+  github:
+    stars: 2782
+    forks: 186
+    license: MIT
+    archived: false
+    created_at: "2023-10-11T17:53:38Z"
+    pushed_at: "2026-03-24T03:59:47Z"
+    description: Infinity is a high-throughput, low-latency serving engine for text-embeddings, reranking models, clip, clap and colpali
+    homepage: https://michaelfeil.github.io/infinity/
+    topics:
+      - bert-embeddings
+      - llm
+      - text-embeddings
+    last_checked_at: "2026-05-02T12:11:58.370Z"
+    readme:
+      fetched_at: "2026-05-02T12:11:58.370Z"
+      bytes: 27885
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (2782) exceeded threshold (150)

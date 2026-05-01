@@ -1,0 +1,75 @@
+id: github__dolthub__dolt
+kind: github-repo
+name: dolt
+canonical_url: https://github.com/dolthub/dolt
+identity:
+  github_repo: dolthub/dolt
+provenance:
+  discoveries:
+    - id: discovery__github__dolthub__dolt__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/Awesome-LLMOps
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Data
+          - Data Management
+        anchor_text: Dolt
+        extracted_url: https://github.com/dolthub/dolt
+        surrounding_text: "| [Dolt](https://github.com/dolthub/dolt)             | Git for Data.                                                                                                                                                   | ![GitHub Badge](https://img.shields.io/github/stars/dolthub/dolt.svg?style=flat-square)        |"
+        confidence: high
+metadata:
+  github:
+    stars: 22482
+    forks: 752
+    license: Apache-2.0
+    archived: false
+    created_at: "2019-07-24T17:46:25Z"
+    pushed_at: "2026-05-02T00:12:12Z"
+    description: Dolt – Git for Data
+    homepage: https://www.dolthub.com
+    topics:
+      - agent-memory
+      - agent-memory-server
+      - ai-agents
+      - ai-database
+      - data-version-control
+      - data-versioning
+      - database
+      - database-version-control
+      - database-versioning
+      - decentralized-database
+      - git
+      - git-database
+      - git-for-data
+      - git-for-databases
+      - git-sql
+      - immutable-database
+      - mariadb
+      - mysql
+      - sql
+      - version-controlled-database
+    last_checked_at: "2026-05-02T12:11:23.177Z"
+    readme:
+      fetched_at: "2026-05-02T12:11:23.177Z"
+      bytes: 39963
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (22482) exceeded threshold (150)

@@ -1,0 +1,60 @@
+id: github__chaindead__telegram-mcp
+kind: github-repo
+name: telegram-mcp
+canonical_url: https://github.com/chaindead/telegram-mcp
+identity:
+  github_repo: chaindead/telegram-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__chaindead__telegram-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💬 <a name="communication"></a>Communication
+        anchor_text: chaindead/telegram-mcp
+        extracted_url: https://github.com/chaindead/telegram-mcp
+        surrounding_text: "- [chaindead/telegram-mcp](https://github.com/chaindead/telegram-mcp) 🏎️ 🏠 - Telegram API integration for accessing user data, managing dialogs (chats, channels, groups), retrieving messages, and handling read status"
+        confidence: high
+metadata:
+  github:
+    stars: 326
+    forks: 42
+    license: MIT
+    archived: false
+    created_at: "2025-04-01T14:43:04Z"
+    pushed_at: "2026-02-27T21:31:40Z"
+    description: Telegram MCP for managing dialogs, messages, drafts, read statuses, and more.
+    homepage: ""
+    topics:
+      - mcp
+      - mcp-server
+      - mtproto
+      - telegram
+      - telegram-api
+    last_checked_at: "2026-05-02T12:11:15.576Z"
+    readme:
+      fetched_at: "2026-05-02T12:11:15.576Z"
+      bytes: 9065
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (326) exceeded threshold (150)

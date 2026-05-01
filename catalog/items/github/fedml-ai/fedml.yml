@@ -1,0 +1,65 @@
+id: github__fedml-ai__fedml
+kind: github-repo
+name: fedml
+canonical_url: https://github.com/fedml-ai/fedml
+identity:
+  github_repo: fedml-ai/fedml
+provenance:
+  discoveries:
+    - id: discovery__github__fedml-ai__fedml__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/Awesome-LLMOps
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Federated ML
+        anchor_text: FedML
+        extracted_url: https://github.com/fedml-ai/fedml
+        surrounding_text: "| [FedML](https://github.com/FedML-AI/FedML)                      | The federated learning and analytics library enabling secure and collaborative machine learning on decentralized data anywhere at any scale. Supporting large-scale cross-silo federated learning, cross-device federated learning on smartphones/IoTs, and research simulation. | ![GitHub Badge](https://img.shields.io/github/stars/FedML-AI/FedML.svg?style=flat-square)       |"
+        confidence: high
+metadata:
+  github:
+    stars: 4043
+    forks: 766
+    license: Apache-2.0
+    archived: false
+    created_at: "2020-07-21T22:41:25Z"
+    pushed_at: "2025-10-28T12:44:12Z"
+    description: FEDML - The unified and scalable ML library for large-scale distributed training, model serving, and federated learning. FEDML Launch, a cross-cloud scheduler, further enables running any AI jobs on any GPU cloud or on-premise cluster. Built on this library, TensorOpera AI (https://TensorOpera.ai) is your generative AI platform at scale.
+    homepage: https://TensorOpera.ai
+    topics:
+      - ai-agent
+      - deep-learning
+      - distributed-training
+      - edge-ai
+      - federated-learning
+      - inference-engine
+      - machine-learning
+      - mlops
+      - model-deployment
+      - model-serving
+      - on-device-training
+    last_checked_at: "2026-05-02T12:11:28.666Z"
+    readme:
+      fetched_at: "2026-05-02T12:11:28.666Z"
+      bytes: 3814
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (4043) exceeded threshold (150)

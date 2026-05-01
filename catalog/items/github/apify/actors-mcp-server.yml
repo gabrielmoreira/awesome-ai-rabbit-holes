@@ -1,0 +1,58 @@
+id: github__apify__actors-mcp-server
+kind: github-repo
+name: actors-mcp-server
+canonical_url: https://github.com/apify/actors-mcp-server
+identity:
+  github_repo: apify/actors-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__apify__actors-mcp-server__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Apify
+        extracted_url: https://github.com/apify/actors-mcp-server
+        surrounding_text: "- **[Apify](https://github.com/apify/actors-mcp-server)** - [Actors MCP Server](https://apify.com/apify/actors-mcp-server): Use 3,000+ pre-built cloud tools to extract data from websites, e-commerce, social media, search engines, maps, and more"
+        confidence: high
+metadata:
+  github:
+    stars: 1178
+    forks: 159
+    license: MIT
+    archived: false
+    created_at: "2025-01-02T15:43:09Z"
+    pushed_at: "2026-05-01T22:04:20Z"
+    description: The Apify MCP server enables your AI agents to extract data from social media, search engines, maps, e-commerce sites, or any other website using thousands of ready-made scrapers, crawlers, and automation tools available on the Apify Store.
+    homepage: https://mcp.apify.com
+    topics:
+      - agents
+      - ai
+      - mcp
+      - mcp-server
+    last_checked_at: "2026-05-02T12:11:07.474Z"
+    readme:
+      fetched_at: "2026-05-02T12:11:07.474Z"
+      bytes: 30729
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1178) exceeded threshold (150)

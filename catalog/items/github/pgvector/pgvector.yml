@@ -1,0 +1,57 @@
+id: github__pgvector__pgvector
+kind: github-repo
+name: pgvector
+canonical_url: https://github.com/pgvector/pgvector
+identity:
+  github_repo: pgvector/pgvector
+provenance:
+  discoveries:
+    - id: discovery__github__pgvector__pgvector__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/Awesome-LLMOps
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Search
+          - Vector search
+        anchor_text: pgvector
+        extracted_url: https://github.com/pgvector/pgvector
+        surrounding_text: "| [pgvector](https://github.com/pgvector/pgvector)          | Open-source vector similarity search for Postgres.                                                                                                                                                                                                                                            | ![GitHub Badge](https://img.shields.io/github/stars/pgvector/pgvector.svg?style=flat-square)          |"
+        confidence: high
+metadata:
+  github:
+    stars: 21072
+    forks: 1160
+    license: NOASSERTION
+    archived: false
+    created_at: "2021-04-20T21:13:52Z"
+    pushed_at: "2026-04-27T10:28:52Z"
+    description: Open-source vector similarity search for Postgres
+    homepage: ""
+    topics:
+      - approximate-nearest-neighbor-search
+      - nearest-neighbor-search
+    last_checked_at: "2026-05-02T12:12:12.190Z"
+    readme:
+      fetched_at: "2026-05-02T12:12:12.189Z"
+      bytes: 41995
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (21072) exceeded threshold (150)

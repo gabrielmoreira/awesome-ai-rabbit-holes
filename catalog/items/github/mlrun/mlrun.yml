@@ -1,0 +1,65 @@
+id: github__mlrun__mlrun
+kind: github-repo
+name: mlrun
+canonical_url: https://github.com/mlrun/mlrun
+identity:
+  github_repo: mlrun/mlrun
+provenance:
+  discoveries:
+    - id: discovery__github__mlrun__mlrun__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/Awesome-LLMOps
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Training
+          - Experiment Tracking
+        anchor_text: MLRun
+        extracted_url: https://github.com/mlrun/mlrun
+        surrounding_text: "| [MLRun](https://github.com/mlrun/mlrun)                | Machine Learning automation and tracking.                                                                                                                                                                                                                                                                                                                                                                                                                                 | ![GitHub Badge](https://img.shields.io/github/stars/mlrun/mlrun.svg?style=flat-square)             |"
+        confidence: high
+metadata:
+  github:
+    stars: 1666
+    forks: 303
+    license: Apache-2.0
+    archived: false
+    created_at: "2019-09-01T16:59:19Z"
+    pushed_at: "2026-05-02T08:59:12Z"
+    description: MLRun is an open source MLOps platform for quickly building and managing continuous ML applications across their lifecycle. MLRun integrates into your development and CI/CD environment and automates the delivery of production data, ML pipelines, and online applications.
+    homepage: https://mlrun.org
+    topics:
+      - data-engineering
+      - data-science
+      - experiment-tracking
+      - kubernetes
+      - machine-learning
+      - mlops
+      - mlops-workflow
+      - model-serving
+      - python
+      - workflow
+    last_checked_at: "2026-05-02T12:12:00.899Z"
+    readme:
+      fetched_at: "2026-05-02T12:12:00.899Z"
+      bytes: 13516
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1666) exceeded threshold (150)

@@ -1,0 +1,74 @@
+id: github__inkeep__agents
+kind: github-repo
+name: agents
+canonical_url: https://github.com/inkeep/agents
+identity:
+  github_repo: inkeep/agents
+provenance:
+  discoveries:
+    - id: discovery__github__inkeep__agents__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: scraped
+        section_path:
+          - Official Servers
+        anchor_text: Inkeep
+        extracted_url: https://inkeep.com
+        surrounding_text: "- **[Inkeep](https://github.com/inkeep/mcp-server-python)** - RAG Search over your content powered by [Inkeep](https://inkeep.com)"
+        confidence: high
+metadata:
+  github:
+    stars: 1118
+    forks: 132
+    license: NOASSERTION
+    archived: false
+    created_at: "2025-09-05T12:23:24Z"
+    pushed_at: "2026-05-01T22:24:16Z"
+    description: Create AI Agents in a No-Code Visual Builder or TypeScript SDK with full 2-way sync. For shipping AI assistants and multi-agent AI workflows.
+    homepage: https://docs.inkeep.com
+    topics:
+      - agent
+      - agent-builder
+      - agent-framework
+      - agents-sdk
+      - ai
+      - ai-agent
+      - ai-agents
+      - aiagentframework
+      - developer-sdk
+      - inkeep
+      - llms
+      - low-code
+      - mcp
+      - mcp-server
+      - mulit-agent
+      - no-code
+      - self-hosted
+      - typescript
+      - workflow
+      - workflows
+    last_checked_at: "2026-05-02T12:11:41.104Z"
+    readme:
+      fetched_at: "2026-05-02T12:11:41.104Z"
+      bytes: 4607
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1118) exceeded threshold (150)

@@ -1,0 +1,75 @@
+id: github__netdata__netdata
+kind: github-repo
+name: netdata
+canonical_url: https://github.com/netdata/netdata
+identity:
+  github_repo: netdata/netdata
+provenance:
+  discoveries:
+    - id: discovery__github__netdata__netdata__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📊 <a name="monitoring"></a>Monitoring
+        anchor_text: netdata/netdata#Netdata
+        extracted_url: https://github.com/netdata/netdata
+        surrounding_text: "- [netdata/netdata#Netdata](https://github.com/netdata/netdata/blob/master/src/web/mcp/README.md) 🎖️ 🏠 ☁️ 📟 🍎 🪟 🐧 - Discovery, exploration, reporting and root cause analysis using all observability data, including metrics, logs, systems, containers, processes, and network connections"
+        confidence: high
+metadata:
+  github:
+    stars: 78672
+    forks: 6427
+    license: GPL-3.0
+    archived: false
+    created_at: "2013-06-17T18:39:10Z"
+    pushed_at: "2026-05-02T11:24:05Z"
+    description: The fastest path to AI-powered full stack observability, even for lean teams.
+    homepage: https://www.netdata.cloud
+    topics:
+      - ai
+      - alerting
+      - cncf
+      - data-visualization
+      - database
+      - devops
+      - docker
+      - grafana
+      - influxdb
+      - kubernetes
+      - linux
+      - machine-learning
+      - mcp
+      - mongodb
+      - monitoring
+      - mysql
+      - netdata
+      - observability
+      - postgresql
+      - prometheus
+    last_checked_at: "2026-05-02T12:12:04.237Z"
+    readme:
+      fetched_at: "2026-05-02T12:12:04.237Z"
+      bytes: 26316
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (78672) exceeded threshold (150)

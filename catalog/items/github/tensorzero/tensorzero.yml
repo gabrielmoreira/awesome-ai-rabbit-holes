@@ -1,0 +1,89 @@
+id: github__tensorzero__tensorzero
+kind: github-repo
+name: tensorzero
+canonical_url: https://github.com/tensorzero/tensorzero
+identity:
+  github_repo: tensorzero/tensorzero
+provenance:
+  discoveries:
+    - id: discovery__github__tensorzero__tensorzero__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/Awesome-LLMOps
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: scraped
+        section_path:
+          - LLMOps
+        anchor_text: TensorZero
+        extracted_url: https://www.tensorzero.com
+        surrounding_text: "| [TensorZero](https://www.tensorzero.com/)                          | TensorZero is an open-source framework for building production-grade LLM applications. It unifies an LLM gateway, observability, optimization, evaluations, and experimentation.                                                                                                                                                                                                                        | ![GitHub Badge](https://img.shields.io/github/stars/tensorzero/tensorzero.svg?style=flat-square)          |"
+        confidence: high
+    - id: discovery__github__tensorzero__tensorzero__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Other LLM Frameworks
+        anchor_text: TensorZero
+        extracted_url: https://github.com/tensorzero/tensorzero
+        surrounding_text: "- [TensorZero](https://github.com/tensorzero/tensorzero): An open-source framework for building production-grade LLM applications. It unifies an LLM gateway, observability, optimization, evaluations, and experimentation. ![GitHub Repo stars](https://img.shields.io/github/stars/tensorzero/tensorzero?style=social)"
+        confidence: high
+metadata:
+  github:
+    stars: 11294
+    forks: 821
+    license: Apache-2.0
+    archived: false
+    created_at: "2024-07-16T21:00:53Z"
+    pushed_at: "2026-05-02T08:10:59Z"
+    description: TensorZero is an open-source LLMOps platform that unifies an LLM gateway, observability, evaluation, optimization, and experimentation.
+    homepage: https://tensorzero.com
+    topics:
+      - ai
+      - ai-engineering
+      - anthropic
+      - artificial-intelligence
+      - deep-learning
+      - genai
+      - generative-ai
+      - gpt
+      - large-language-models
+      - llama
+      - llm
+      - llmops
+      - llms
+      - machine-learning
+      - ml
+      - ml-engineering
+      - mlops
+      - openai
+      - python
+      - rust
+    last_checked_at: "2026-05-02T12:10:57.599Z"
+    readme:
+      fetched_at: "2026-05-02T12:10:57.599Z"
+      bytes: 18042
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (11294) exceeded threshold (150)

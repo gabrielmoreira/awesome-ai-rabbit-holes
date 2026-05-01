@@ -1,0 +1,74 @@
+id: github__openlit__openlit
+kind: github-repo
+name: openlit
+canonical_url: https://github.com/openlit/openlit
+identity:
+  github_repo: openlit/openlit
+provenance:
+  discoveries:
+    - id: discovery__github__openlit__openlit__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/Awesome-LLMOps
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - LLMOps
+        anchor_text: OpenLIT
+        extracted_url: https://github.com/openlit/openlit
+        surrounding_text: "| [OpenLIT](https://github.com/openlit/openlit)                      | OpenLIT is an OpenTelemetry-native GenAI and LLM Application Observability tool and provides OpenTelmetry Auto-instrumentation for monitoring LLMs, VectorDBs and Frameworks. It provides valuable insights into token & cost usage, user interaction, and performance related metrics.                                                                                                                 | ![GitHub Badge](https://img.shields.io/github/stars/dokulabs/doku.svg?style=flat-square)                  |"
+        confidence: high
+metadata:
+  github:
+    stars: 2412
+    forks: 271
+    license: Apache-2.0
+    archived: false
+    created_at: "2024-01-23T17:40:59Z"
+    pushed_at: "2026-05-01T21:42:00Z"
+    description: "Open source platform for AI Engineering: OpenTelemetry-native LLM Observability, GPU Monitoring, Guardrails, Evaluations, Prompt Management, Vault, Playground. 🚀💻 Integrates with 50+ LLM Providers, VectorDBs, Agent Frameworks and GPUs."
+    homepage: https://docs.openlit.io
+    topics:
+      - ai-observability
+      - amd-gpu
+      - clickhouse
+      - distributed-tracing
+      - genai
+      - gpu-monitoring
+      - grafana
+      - langchain
+      - llmops
+      - llms
+      - metrics
+      - monitoring-tool
+      - nvidia-smi
+      - observability
+      - open-source
+      - openai
+      - opentelemetry
+      - otlp
+      - python
+      - tracing
+    last_checked_at: "2026-05-02T12:12:08.998Z"
+    readme:
+      fetched_at: "2026-05-02T12:12:08.998Z"
+      bytes: 29193
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (2412) exceeded threshold (150)

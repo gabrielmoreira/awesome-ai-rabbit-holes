@@ -1,0 +1,63 @@
+id: github__kedro-org__kedro
+kind: github-repo
+name: kedro
+canonical_url: https://github.com/kedro-org/kedro
+identity:
+  github_repo: kedro-org/kedro
+provenance:
+  discoveries:
+    - id: discovery__github__kedro-org__kedro__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/Awesome-LLMOps
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Training
+          - Frameworks for Training
+        anchor_text: Kedro
+        extracted_url: https://github.com/kedro-org/kedro
+        surrounding_text: "| [Kedro](https://github.com/kedro-org/kedro)                          | Kedro is an open-source Python framework for creating reproducible, maintainable and modular data science code.                                                                                             | ![GitHub Badge](https://img.shields.io/github/stars/kedro-org/kedro.svg?style=flat-square)                   |"
+        confidence: high
+metadata:
+  github:
+    stars: 10860
+    forks: 1030
+    license: Apache-2.0
+    archived: false
+    created_at: "2019-04-18T10:29:56Z"
+    pushed_at: "2026-05-01T22:40:37Z"
+    description: Kedro is a toolbox for production-ready data science. It uses software engineering best practices to help you create data engineering and data science pipelines that are reproducible, maintainable, and modular.
+    homepage: https://kedro.org
+    topics:
+      - experiment-tracking
+      - hacktoberfest
+      - kedro
+      - machine-learning
+      - machine-learning-engineering
+      - mlops
+      - pipeline
+      - python
+    last_checked_at: "2026-05-02T12:11:47.117Z"
+    readme:
+      fetched_at: "2026-05-02T12:11:47.117Z"
+      bytes: 10819
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (10860) exceeded threshold (150)

@@ -1,0 +1,99 @@
+id: github__aider-ai__aider
+kind: github-repo
+name: aider
+canonical_url: https://github.com/aider-ai/aider
+identity:
+  github_repo: aider-ai/aider
+provenance:
+  discoveries:
+    - id: discovery__github__aider-ai__aider__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradAGI/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Terminal-native coding agents
+          - Open Source
+        anchor_text: Aider
+        extracted_url: https://github.com/aider-ai/aider
+        surrounding_text: "- **[Aider](https://github.com/Aider-AI/aider)** `⭐ 44.2k` — Pair-programming agent for editing files via diffs/patches, with strong git and multi-file workflows."
+        confidence: high
+    - id: discovery__github__aider-ai__aider__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: scraped
+        section_path:
+          - "[Aider](https://github.com/paul-gauthier/aider)"
+          - Links
+        anchor_text: Website
+        extracted_url: https://aider.chat
+        surrounding_text: "- [Website](https://aider.chat/)"
+        confidence: high
+    - id: discovery__github__aider-ai__aider__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: scraped
+        section_path:
+          - Code Editors and Assistants
+        anchor_text: Aider
+        extracted_url: https://aider.chat
+        surrounding_text: "- **[Aider](https://aider.chat)** – Terminal-based AI pair programming tool for editing code in local git repos."
+        confidence: high
+metadata:
+  github:
+    stars: 44232
+    forks: 4339
+    license: Apache-2.0
+    archived: false
+    created_at: "2023-05-09T18:57:49Z"
+    pushed_at: "2026-04-25T16:44:33Z"
+    description: aider is AI pair programming in your terminal
+    homepage: https://aider.chat/
+    topics:
+      - anthropic
+      - chatgpt
+      - claude-3
+      - cli
+      - command-line
+      - gemini
+      - gpt-3
+      - gpt-35-turbo
+      - gpt-4
+      - gpt-4o
+      - llama
+      - openai
+      - sonnet
+    last_checked_at: "2026-05-02T12:10:44.010Z"
+    readme:
+      fetched_at: "2026-05-02T12:10:44.010Z"
+      bytes: 12406
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (44232) exceeded threshold (150)

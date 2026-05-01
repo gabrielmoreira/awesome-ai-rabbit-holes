@@ -1,0 +1,55 @@
+id: github__hashicorp__terraform-mcp-server
+kind: github-repo
+name: terraform-mcp-server
+canonical_url: https://github.com/hashicorp/terraform-mcp-server
+identity:
+  github_repo: hashicorp/terraform-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__hashicorp__terraform-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
+        anchor_text: hashicorp/terraform-mcp-server
+        extracted_url: https://github.com/hashicorp/terraform-mcp-server
+        surrounding_text: "- [hashicorp/terraform-mcp-server](https://github.com/hashicorp/terraform-mcp-server) - 🎖️🏎️☁️ - The official Terraform MCP Server seamlessly integrates with the Terraform ecosystem, enabling provider discovery, module analysis, and direct Registry API integration for advanced Infrastructure as Code workflows."
+        confidence: high
+metadata:
+  github:
+    stars: 1352
+    forks: 153
+    license: MPL-2.0
+    archived: false
+    created_at: "2025-04-19T19:49:09Z"
+    pushed_at: "2026-05-01T17:52:19Z"
+    description: The Terraform MCP Server provides seamless integration with Terraform ecosystem, enabling advanced automation and interaction capabilities for Infrastructure as Code (IaC) development.
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-02T12:11:37.189Z"
+    readme:
+      fetched_at: "2026-05-02T12:11:37.189Z"
+      bytes: 20569
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1352) exceeded threshold (150)

@@ -1,0 +1,86 @@
+id: github__openbmb__xagent
+kind: github-repo
+name: xagent
+canonical_url: https://github.com/openbmb/xagent
+identity:
+  github_repo: openbmb/xagent
+provenance:
+  discoveries:
+    - id: discovery__github__openbmb__xagent__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - "[XAgent](https://github.com/OpenBMB/XAgent)"
+          - Links
+        anchor_text: GitHub Repository
+        extracted_url: https://github.com/openbmb/xagent
+        surrounding_text: "- [GitHub Repository](https://github.com/OpenBMB/XAgent)"
+        confidence: high
+    - id: discovery__github__openbmb__xagent__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Open Source Projects
+          - Other / Chatbots
+        anchor_text: XAgent
+        extracted_url: https://github.com/openbmb/xagent
+        surrounding_text: "- [XAgent](https://github.com/OpenBMB/XAgent): An Autonomous LLM Agent for Complex Task Solving ![GitHub Repo stars](https://img.shields.io/github/stars/OpenBMB/XAgent?style=social)"
+        confidence: high
+    - id: discovery__github__openbmb__xagent__awesome-list__kaushikb11__awesome-llm-agents
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: kaushikb11/awesome-llm-agents
+        url: https://github.com/kaushikb11/awesome-llm-agents
+        repository: kaushikb11/awesome-llm-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Frameworks
+        anchor_text: XAgent
+        extracted_url: https://github.com/openbmb/xagent
+        surrounding_text: "- [XAgent](https://github.com/OpenBMB/XAgent) - Autonomous LLM-based agent framework"
+        confidence: high
+metadata:
+  github:
+    stars: 8527
+    forks: 903
+    license: Apache-2.0
+    archived: false
+    created_at: "2023-10-16T03:44:57Z"
+    pushed_at: "2024-08-12T06:41:38Z"
+    description: An Autonomous LLM Agent for Complex Task Solving
+    homepage: https://blog.x-agent.net/blog/xagent/
+    topics: []
+    last_checked_at: "2026-05-02T12:10:46.134Z"
+    readme:
+      fetched_at: "2026-05-02T12:10:46.134Z"
+      bytes: 12127
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (8527) exceeded threshold (150)

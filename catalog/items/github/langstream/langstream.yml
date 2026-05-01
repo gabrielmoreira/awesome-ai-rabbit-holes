@@ -1,0 +1,66 @@
+id: github__langstream__langstream
+kind: github-repo
+name: langstream
+canonical_url: https://github.com/langstream/langstream
+identity:
+  github_repo: langstream/langstream
+provenance:
+  discoveries:
+    - id: discovery__github__langstream__langstream__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Other LLM Frameworks
+        anchor_text: LangStream
+        extracted_url: https://github.com/langstream/langstream
+        surrounding_text: "- [LangStream](https://github.com/LangStream/langstream): Framework for building and running event-driven LLM applications using no-code and Python (including LangChain-based) agents. ![GitHub Repo stars](https://img.shields.io/github/stars/LangStream/langstream?style=social)"
+        confidence: high
+metadata:
+  github:
+    stars: 433
+    forks: 35
+    license: Apache-2.0
+    archived: false
+    created_at: "2023-06-28T14:56:51Z"
+    pushed_at: "2024-07-03T19:47:17Z"
+    description: LangStream. Event-Driven Developer Platform for Building and Running LLM AI Apps. Powered by Kubernetes and Kafka.
+    homepage: https://langstream.ai
+    topics:
+      - genai
+      - gpt-4
+      - huggingface
+      - kafka
+      - kafka-connect
+      - kubernetes
+      - langchain
+      - llamaindex
+      - llm
+      - openai
+      - python
+      - vectordb
+    last_checked_at: "2026-05-02T12:11:51.460Z"
+    readme:
+      fetched_at: "2026-05-02T12:11:51.460Z"
+      bytes: 5917
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (433) exceeded threshold (150)

@@ -1,0 +1,81 @@
+id: github__mobile-next__mobile-mcp
+kind: github-repo
+name: mobile-mcp
+canonical_url: https://github.com/mobile-next/mobile-mcp
+identity:
+  github_repo: mobile-next/mobile-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__mobile-next__mobile-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: mobile-next/mobile-mcp
+        extracted_url: https://github.com/mobile-next/mobile-mcp
+        surrounding_text: "- [mobile-next/mobile-mcp](https://github.com/mobile-next/mobile-mcp) 📇 🏠 🐧 🍎 - MCP Server for Android/iOS application and device automation, development and app scraping. Simulator/Emulator/Physical devices like iPhone, Google Pixel, Samsung supported."
+        confidence: high
+    - id: discovery__github__mobile-next__mobile-mcp__awesome-list__vivy-yi__awesome-agent-orchestration
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: vivy-yi/awesome-agent-orchestration
+        url: https://github.com/vivy-yi/awesome-agent-orchestration
+        repository: vivy-yi/awesome-agent-orchestration
+      extraction:
+        mode: parsed
+        section_path:
+          - Agent Communication Protocols
+          - Model Context Protocol (MCP)
+          - Browser & Automation
+        anchor_text: mobile-mcp
+        extracted_url: https://github.com/mobile-next/mobile-mcp
+        surrounding_text: "| [mobile-mcp](https://github.com/mobile-next/mobile-mcp) | iOS/Android automation | ![Stars](https://img.shields.io/github/stars/mobile-next/mobile-mcp) |"
+        confidence: high
+metadata:
+  github:
+    stars: 4775
+    forks: 414
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-03-28T16:21:06Z"
+    pushed_at: "2026-05-01T16:06:21Z"
+    description: Model Context Protocol Server for Mobile Automation and Scraping (iOS, Android, Emulators, Simulators and Real Devices)
+    homepage: https://mobilenexthq.com
+    topics:
+      - agent
+      - android
+      - emulator
+      - ios
+      - mcp
+      - mobile
+      - physical
+      - real
+      - simulator
+    last_checked_at: "2026-05-02T12:10:54.884Z"
+    readme:
+      fetched_at: "2026-05-02T12:10:54.884Z"
+      bytes: 16980
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (4775) exceeded threshold (150)

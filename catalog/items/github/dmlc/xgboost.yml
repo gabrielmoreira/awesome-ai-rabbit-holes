@@ -1,0 +1,61 @@
+id: github__dmlc__xgboost
+kind: github-repo
+name: xgboost
+canonical_url: https://github.com/dmlc/xgboost
+identity:
+  github_repo: dmlc/xgboost
+provenance:
+  discoveries:
+    - id: discovery__github__dmlc__xgboost__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/Awesome-LLMOps
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Training
+          - Frameworks for Training
+        anchor_text: XGBoost
+        extracted_url: https://github.com/dmlc/xgboost
+        surrounding_text: "| [XGBoost](https://github.com/dmlc/xgboost)                           | Scalable, Portable and Distributed Gradient Boosting (GBDT, GBRT or GBM) Library.                                                                                                                           | ![GitHub Badge](https://img.shields.io/github/stars/dmlc/xgboost.svg?style=flat-square)                      |"
+        confidence: high
+metadata:
+  github:
+    stars: 28333
+    forks: 8870
+    license: Apache-2.0
+    archived: false
+    created_at: "2014-02-06T17:28:03Z"
+    pushed_at: "2026-04-30T11:27:53Z"
+    description: Scalable, Portable and Distributed Gradient Boosting (GBDT, GBRT or GBM) Library,  for Python, R, Java, Scala, C++ and more. Runs on single machine, Hadoop, Spark, Dask, Flink and DataFlow
+    homepage: https://xgboost.readthedocs.io/
+    topics:
+      - distributed-systems
+      - gbdt
+      - gbm
+      - gbrt
+      - machine-learning
+      - xgboost
+    last_checked_at: "2026-05-02T12:11:22.988Z"
+    readme:
+      fetched_at: "2026-05-02T12:11:22.988Z"
+      bytes: 4577
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (28333) exceeded threshold (150)

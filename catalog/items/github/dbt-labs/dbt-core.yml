@@ -1,0 +1,77 @@
+id: github__dbt-labs__dbt-core
+kind: github-repo
+name: dbt-core
+canonical_url: https://github.com/dbt-labs/dbt-core
+identity:
+  github_repo: dbt-labs/dbt-core
+provenance:
+  discoveries:
+    - id: discovery__github__dbt-labs__dbt-core__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: scraped
+        section_path:
+          - Server Implementations
+          - 📊 <a name="data-platforms"></a>Data Platforms
+        anchor_text: dbt (data build tool)
+        extracted_url: https://www.getdbt.com/product/what-is-dbt
+        surrounding_text: "- [dbt-labs/dbt-mcp](https://github.com/dbt-labs/dbt-mcp) 🎖️ 🐍 🏠 ☁️ - Official MCP server for [dbt (data build tool)](https://www.getdbt.com/product/what-is-dbt) providing integration with dbt Core/Cloud CLI, project metadata discovery, model information, and semantic layer querying capabilities."
+        confidence: high
+    - id: discovery__github__dbt-labs__dbt-core__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: scraped
+        section_path:
+          - Official Servers
+        anchor_text: dbt (data build tool)
+        extracted_url: https://www.getdbt.com/product/what-is-dbt
+        surrounding_text: "- **[dbt](https://github.com/dbt-labs/dbt-mcp)** - Official MCP server for [dbt (data build tool)](https://www.getdbt.com/product/what-is-dbt) providing integration with dbt Core/Cloud CLI, project metadata discovery, model information, and semantic layer querying capabilities."
+        confidence: high
+metadata:
+  github:
+    stars: 12718
+    forks: 2374
+    license: NOASSERTION
+    archived: false
+    created_at: "2016-03-10T02:38:00Z"
+    pushed_at: "2026-05-02T09:33:28Z"
+    description: dbt enables data analysts and engineers to transform their data using the same practices that software engineers use to build applications.
+    homepage: https://getdbt.com
+    topics:
+      - analytics
+      - business-intelligence
+      - data-modeling
+      - dbt-viewpoint
+      - elt
+      - pypa
+      - slack
+    last_checked_at: "2026-05-02T12:10:50.041Z"
+    readme:
+      fetched_at: "2026-05-02T12:10:50.041Z"
+      bytes: 2717
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (12718) exceeded threshold (150)

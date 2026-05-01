@@ -1,0 +1,59 @@
+id: github__kaito-project__kaito
+kind: github-repo
+name: kaito
+canonical_url: https://github.com/kaito-project/kaito
+identity:
+  github_repo: kaito-project/kaito
+provenance:
+  discoveries:
+    - id: discovery__github__kaito-project__kaito__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/Awesome-LLMOps
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Serving
+          - Frameworks/Servers for Serving
+        anchor_text: Kaito
+        extracted_url: https://github.com/kaito-project/kaito
+        surrounding_text: "| [Kaito](https://github.com/kaito-project/kaito)                            | A Kubernetes operator that simplifies serving and tuning large AI models (e.g. Falcon or phi-3) using container images and GPU auto-provisioning. Includes an OpenAI-compatible server for inference and preset configurations for popular runtimes such as vLLM and transformers.                                                                 | ![GitHub Badge](https://img.shields.io/github/stars/kaito-project/kaito.svg?style=flat-square)            |"
+        confidence: high
+metadata:
+  github:
+    stars: 925
+    forks: 169
+    license: NOASSERTION
+    archived: false
+    created_at: "2023-09-09T01:53:38Z"
+    pushed_at: "2026-05-02T04:03:57Z"
+    description: Kubernetes AI Toolchain Operator
+    homepage: https://kaito-project.github.io/kaito/docs/
+    topics:
+      - ai
+      - gpu
+      - kubernetes
+      - operator
+    last_checked_at: "2026-05-02T12:11:46.793Z"
+    readme:
+      fetched_at: "2026-05-02T12:11:46.793Z"
+      bytes: 9355
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (925) exceeded threshold (150)

@@ -1,0 +1,71 @@
+id: github__promtengineer__localgpt
+kind: github-repo
+name: localgpt
+canonical_url: https://github.com/promtengineer/localgpt
+identity:
+  github_repo: promtengineer/localgpt
+provenance:
+  discoveries:
+    - id: discovery__github__promtengineer__localgpt__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - "[Local GPT](https://github.com/PromtEngineer/localGPT)"
+          - Links
+        anchor_text: GitHub
+        extracted_url: https://github.com/promtengineer/localgpt
+        surrounding_text: "- [GitHub](https://github.com/PromtEngineer/localGPT)"
+        confidence: high
+    - id: discovery__github__promtengineer__localgpt__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Tools
+          - Agents
+        anchor_text: Local GPT
+        extracted_url: https://github.com/promtengineer/localgpt
+        surrounding_text: "- [Local GPT](https://github.com/PromtEngineer/localGPT): Inspired on Private GPT with the GPT4ALL model replaced with the Vicuna-7B model and using the InstructorEmbeddings instead of LlamaEmbeddings ![GitHub Repo stars](https://img.shields.io/github/stars/PromtEngineer/localGPT?style=social)"
+        confidence: high
+metadata:
+  github:
+    stars: 22203
+    forks: 2484
+    license: MIT
+    archived: false
+    created_at: "2023-05-24T05:32:40Z"
+    pushed_at: "2026-03-10T21:32:07Z"
+    description: "Chat with your documents on your local device using GPT models. No data leaves your device and 100% private. "
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-02T12:10:55.990Z"
+    readme:
+      fetched_at: "2026-05-02T12:10:55.990Z"
+      bytes: 25105
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (22203) exceeded threshold (150)

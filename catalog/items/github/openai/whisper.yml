@@ -1,0 +1,55 @@
+id: github__openai__whisper
+kind: github-repo
+name: whisper
+canonical_url: https://github.com/openai/whisper
+identity:
+  github_repo: openai/whisper
+provenance:
+  discoveries:
+    - id: discovery__github__openai__whisper__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/Awesome-LLMOps
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Model
+          - Audio Foundation Model
+        anchor_text: whisper
+        extracted_url: https://github.com/openai/whisper
+        surrounding_text: "| [whisper](https://github.com/openai/whisper) | Robust Speech Recognition via Large-Scale Weak Supervision                                                                                                                                                    | ![GitHub Badge](https://img.shields.io/github/stars/openai/whisper.svg?style=flat-square) |"
+        confidence: high
+metadata:
+  github:
+    stars: 98748
+    forks: 12131
+    license: MIT
+    archived: false
+    created_at: "2022-09-16T20:02:54Z"
+    pushed_at: "2026-04-15T16:32:15Z"
+    description: Robust Speech Recognition via Large-Scale Weak Supervision
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-02T12:12:08.204Z"
+    readme:
+      fetched_at: "2026-05-02T12:12:08.204Z"
+      bytes: 8246
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (98748) exceeded threshold (150)

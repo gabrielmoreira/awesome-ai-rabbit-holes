@@ -1,0 +1,72 @@
+id: github__pulumi__pulumi
+kind: github-repo
+name: pulumi
+canonical_url: https://github.com/pulumi/pulumi
+identity:
+  github_repo: pulumi/pulumi
+provenance:
+  discoveries:
+    - id: discovery__github__pulumi__pulumi__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: scraped
+        section_path:
+          - DevOps and Infrastructure
+        anchor_text: Pulumi AI
+        extracted_url: https://www.pulumi.com/ai
+        surrounding_text: "- **[Pulumi AI](https://www.pulumi.com/ai/)** – Infrastructure as code with AI assistance for cloud resource management."
+        confidence: high
+metadata:
+  github:
+    stars: 25129
+    forks: 1362
+    license: Apache-2.0
+    archived: false
+    created_at: "2016-10-31T21:02:47Z"
+    pushed_at: "2026-05-02T07:17:25Z"
+    description: Pulumi - Infrastructure as Code in any programming language 🚀
+    homepage: https://www.pulumi.com
+    topics:
+      - aws
+      - azure
+      - cloud
+      - cloud-computing
+      - containers
+      - csharp
+      - dotnet
+      - fsharp
+      - gcp
+      - go
+      - golang
+      - iac
+      - infrastructure-as-code
+      - javascript
+      - kubernetes
+      - python
+      - serverless
+      - typescript
+    last_checked_at: "2026-05-02T12:12:15.545Z"
+    readme:
+      fetched_at: "2026-05-02T12:12:15.545Z"
+      bytes: 10351
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (25129) exceeded threshold (150)

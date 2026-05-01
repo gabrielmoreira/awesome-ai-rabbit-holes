@@ -1,0 +1,58 @@
+id: github__optuna__optuna-dashboard
+kind: github-repo
+name: optuna-dashboard
+canonical_url: https://github.com/optuna/optuna-dashboard
+identity:
+  github_repo: optuna/optuna-dashboard
+provenance:
+  discoveries:
+    - id: discovery__github__optuna__optuna-dashboard__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: scraped
+        section_path:
+          - Server Implementations
+          - 🧮 <a name="data-science-tools"></a>Data Science Tools
+        anchor_text: Optuna
+        extracted_url: https://optuna.org
+        surrounding_text: "- [optuna/optuna-mcp](https://github.com/optuna/optuna-mcp) 🎖️ 🐍 🏠 🐧 🍎 - Official MCP server enabling seamless orchestration of hyperparameter search and other optimization tasks with [Optuna](https://optuna.org/)."
+        confidence: high
+metadata:
+  github:
+    stars: 771
+    forks: 117
+    license: NOASSERTION
+    archived: false
+    created_at: "2020-10-24T09:19:45Z"
+    pushed_at: "2026-04-23T01:44:51Z"
+    description: Real-time Web Dashboard for Optuna.
+    homepage: https://optuna-dashboard.readthedocs.io/en/latest/
+    topics:
+      - dashboard
+      - hyperparameter-optimization
+      - optuna
+    last_checked_at: "2026-05-02T12:12:09.603Z"
+    readme:
+      fetched_at: "2026-05-02T12:12:09.603Z"
+      bytes: 4981
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (771) exceeded threshold (150)

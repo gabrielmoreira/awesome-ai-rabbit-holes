@@ -1,0 +1,85 @@
+id: github__bentoml__bentoml
+kind: github-repo
+name: bentoml
+canonical_url: https://github.com/bentoml/bentoml
+identity:
+  github_repo: bentoml/bentoml
+provenance:
+  discoveries:
+    - id: discovery__github__bentoml__bentoml__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: janhq/awesome-local-ai
+        url: https://github.com/janhq/awesome-local-ai
+        repository: janhq/awesome-local-ai
+      extraction:
+        mode: parsed
+        section_path:
+          - Platforms / full solutions
+        anchor_text: BentoML
+        extracted_url: https://github.com/bentoml/bentoml
+        surrounding_text: "- [BentoML](https://github.com/bentoml/BentoML) - BentoML is a framework for building reliable, scalable, and cost-efficient AI applications."
+        confidence: high
+    - id: discovery__github__bentoml__bentoml__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/Awesome-LLMOps
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Serving
+          - Frameworks/Servers for Serving
+        anchor_text: BentoML
+        extracted_url: https://github.com/bentoml/bentoml
+        surrounding_text: "| [BentoML](https://github.com/bentoml/BentoML)                              | The Unified Model Serving Framework                                                                                                                                                                                                                                                                                                                | ![GitHub Badge](https://img.shields.io/github/stars/bentoml/BentoML.svg?style=flat-square)                |"
+        confidence: high
+metadata:
+  github:
+    stars: 8620
+    forks: 959
+    license: Apache-2.0
+    archived: false
+    created_at: "2019-04-02T01:39:27Z"
+    pushed_at: "2026-04-30T10:50:33Z"
+    description: The easiest way to serve AI apps and models - Build Model Inference APIs, Job queues, LLM apps, Multi-model pipelines, and more!
+    homepage: https://bentoml.com
+    topics:
+      - ai-inference
+      - deep-learning
+      - generative-ai
+      - inference-platform
+      - llm
+      - llm-inference
+      - llm-serving
+      - llmops
+      - machine-learning
+      - ml-engineering
+      - mlops
+      - model-inference-service
+      - model-serving
+      - multimodal
+      - python
+    last_checked_at: "2026-05-02T12:10:48.216Z"
+    readme:
+      fetched_at: "2026-05-02T12:10:48.216Z"
+      bytes: 9909
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (8620) exceeded threshold (150)

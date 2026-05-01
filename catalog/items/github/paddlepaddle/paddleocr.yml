@@ -1,0 +1,67 @@
+id: github__paddlepaddle__paddleocr
+kind: github-repo
+name: paddleocr
+canonical_url: https://github.com/paddlepaddle/paddleocr
+identity:
+  github_repo: paddlepaddle/paddleocr
+provenance:
+  discoveries:
+    - id: discovery__github__paddlepaddle__paddleocr__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: scraped
+        section_path:
+          - Official Servers
+        anchor_text: PaddleOCR
+        extracted_url: https://paddlepaddle.github.io/PaddleOCR/latest/en/version3.x/deployment/mcp_server.html
+        surrounding_text: "- **[PaddleOCR](https://paddlepaddle.github.io/PaddleOCR/latest/en/version3.x/deployment/mcp_server.html)** - An MCP server that brings enterprise-grade OCR and document parsing capabilities to AI applications."
+        confidence: high
+metadata:
+  github:
+    stars: 76952
+    forks: 10352
+    license: Apache-2.0
+    archived: false
+    created_at: "2020-05-08T10:38:16Z"
+    pushed_at: "2026-04-28T03:51:17Z"
+    description: Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages.
+    homepage: https://www.paddleocr.com
+    topics:
+      - ai4science
+      - chineseocr
+      - document-parsing
+      - document-translation
+      - kie
+      - ocr
+      - paddleocr-vl
+      - pdf-extractor-rag
+      - pdf-parser
+      - pdf2markdown
+      - pp-ocr
+      - pp-structure
+      - rag
+    last_checked_at: "2026-05-02T12:12:10.617Z"
+    readme:
+      fetched_at: "2026-05-02T12:12:10.617Z"
+      bytes: 23379
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (76952) exceeded threshold (150)

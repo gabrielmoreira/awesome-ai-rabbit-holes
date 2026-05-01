@@ -1,0 +1,74 @@
+id: github__gitkraken__gk-cli
+kind: github-repo
+name: gk-cli
+canonical_url: https://github.com/gitkraken/gk-cli
+identity:
+  github_repo: gitkraken/gk-cli
+provenance:
+  discoveries:
+    - id: discovery__github__gitkraken__gk-cli__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: gitkraken/gk-cli
+        extracted_url: https://github.com/gitkraken/gk-cli
+        surrounding_text: "- [gitkraken/gk-cli](https://github.com/gitkraken/gk-cli) 🎖️ 🏎️ 🏠 ☁️ 🍎 🪟 🐧 - A CLI for interacting with GitKraken APIs. Includes an MCP server via `gk mcp` that not only wraps GitKraken APIs, but also Jira, GitHub, GitLab, and more. Works with local tools and remote services."
+        confidence: high
+    - id: discovery__github__gitkraken__gk-cli__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: GitKraken
+        extracted_url: https://github.com/gitkraken/gk-cli
+        surrounding_text: "- **[GitKraken](https://github.com/gitkraken/gk-cli)** - A CLI for interacting with GitKraken APIs. Includes an MCP server via `gk mcp` that not only wraps GitKraken APIs, but also Jira, GitHub, GitLab, and more."
+        confidence: high
+metadata:
+  github:
+    stars: 401
+    forks: 315
+    license: NOASSERTION
+    archived: false
+    created_at: "2023-02-23T16:23:01Z"
+    pushed_at: "2026-04-29T19:56:18Z"
+    description: GitKraken CLI Releases and Documentation
+    homepage: https://www.gitkraken.com
+    topics:
+      - cli
+      - git
+      - gitkraken
+      - terminal
+    last_checked_at: "2026-05-02T12:10:51.180Z"
+    readme:
+      fetched_at: "2026-05-02T12:10:51.180Z"
+      bytes: 5709
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (401) exceeded threshold (150)

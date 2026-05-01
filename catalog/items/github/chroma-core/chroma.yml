@@ -1,0 +1,76 @@
+id: github__chroma-core__chroma
+kind: github-repo
+name: chroma
+canonical_url: https://github.com/chroma-core/chroma
+identity:
+  github_repo: chroma-core/chroma
+provenance:
+  discoveries:
+    - id: discovery__github__chroma-core__chroma__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: scraped
+        section_path:
+          - Official Servers
+        anchor_text: Chroma Package Search
+        extracted_url: https://trychroma.com/package-search
+        surrounding_text: "- **[Chroma Package Search](https://trychroma.com/package-search)** - Add to coding agents like Claude or Cursor to give them the ability to understand and better use thousands of dependencies."
+        confidence: high
+    - id: discovery__github__chroma-core__chroma__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/Awesome-LLMOps
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Search
+          - Vector search
+        anchor_text: Chroma
+        extracted_url: https://github.com/chroma-core/chroma
+        surrounding_text: "| [Chroma](https://github.com/chroma-core/chroma)           | the open source embedding database                                                                                                                                                                                                                                                            | ![GitHub Badge](https://img.shields.io/github/stars/chroma-core/chroma.svg?style=flat-square)         |"
+        confidence: high
+metadata:
+  github:
+    stars: 27747
+    forks: 2230
+    license: Apache-2.0
+    archived: false
+    created_at: "2022-10-05T17:58:44Z"
+    pushed_at: "2026-05-01T23:18:00Z"
+    description: Search infrastructure for AI
+    homepage: https://www.trychroma.com/
+    topics:
+      - agents
+      - ai
+      - ai-agents
+      - database
+      - rust
+      - rust-lang
+    last_checked_at: "2026-05-02T12:10:49.306Z"
+    readme:
+      fetched_at: "2026-05-02T12:10:49.306Z"
+      bytes: 3273
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (27747) exceeded threshold (150)

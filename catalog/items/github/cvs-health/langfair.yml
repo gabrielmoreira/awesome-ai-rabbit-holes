@@ -1,0 +1,72 @@
+id: github__cvs-health__langfair
+kind: github-repo
+name: langfair
+canonical_url: https://github.com/cvs-health/langfair
+identity:
+  github_repo: cvs-health/langfair
+provenance:
+  discoveries:
+    - id: discovery__github__cvs-health__langfair__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Tools
+          - Services
+        anchor_text: LangFair
+        extracted_url: https://github.com/cvs-health/langfair
+        surrounding_text: "- [LangFair](https://github.com/cvs-health/langfair): LangFair is a Python library for conducting use-case-specific LLM bias and fairness assessments ![GitHub Repo stars](https://img.shields.io/github/stars/cvs-health/langfair?style=social)"
+        confidence: high
+metadata:
+  github:
+    stars: 257
+    forks: 44
+    license: NOASSERTION
+    archived: false
+    created_at: "2024-09-20T19:11:29Z"
+    pushed_at: "2026-01-09T14:20:45Z"
+    description: LangFair is a Python library for conducting use-case level LLM bias and fairness assessments
+    homepage: https://cvs-health.github.io/langfair/
+    topics:
+      - ai
+      - ai-safety
+      - artificial-intelligence
+      - bias
+      - bias-detection
+      - ethical-ai
+      - fairness
+      - fairness-ai
+      - fairness-ml
+      - fairness-testing
+      - large-language-models
+      - llm
+      - llm-evaluation
+      - llm-evaluation-framework
+      - llm-evaluation-metrics
+      - python
+      - responsible-ai
+    last_checked_at: "2026-05-02T12:11:19.487Z"
+    readme:
+      fetched_at: "2026-05-02T12:11:19.487Z"
+      bytes: 16578
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (257) exceeded threshold (150)

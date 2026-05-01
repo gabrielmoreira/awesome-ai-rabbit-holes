@@ -1,0 +1,78 @@
+id: github__homanp__superagent
+kind: github-repo
+name: superagent
+canonical_url: https://github.com/homanp/superagent
+identity:
+  github_repo: homanp/superagent
+provenance:
+  discoveries:
+    - id: discovery__github__homanp__superagent__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - "[Superagent](https://www.superagent.sh/)</details>"
+          - Links
+        anchor_text: GitHub
+        extracted_url: https://github.com/homanp/superagent
+        surrounding_text: "- [GitHub](https://github.com/homanp/superagent)"
+        confidence: high
+    - id: discovery__github__homanp__superagent__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Tools
+          - Agents
+        anchor_text: SuperAgent
+        extracted_url: https://github.com/homanp/superagent
+        surrounding_text: "- [SuperAgent](https://github.com/homanp/superagent): Deploy LLM Agents to production ![GitHub Repo stars](https://img.shields.io/github/stars/homanp/superagent?style=social)"
+        confidence: high
+metadata:
+  github:
+    stars: 6574
+    forks: 962
+    license: MIT
+    archived: false
+    created_at: "2023-05-10T18:50:39Z"
+    pushed_at: "2026-04-11T08:34:31Z"
+    description: Superagent protects your AI applications against prompt injections, data leaks, and harmful outputs. Embed safety directly into your app and prove compliance to your customers.
+    homepage: https://superagent.sh
+    topics:
+      - ai
+      - anthropic
+      - guardrails
+      - llm
+      - openai
+      - prompt-injection
+      - security
+    last_checked_at: "2026-05-02T12:10:52.397Z"
+    readme:
+      fetched_at: "2026-05-02T12:10:52.397Z"
+      bytes: 4976
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (6574) exceeded threshold (150)

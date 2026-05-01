@@ -1,0 +1,58 @@
+id: github__googlecloudplatform__cloud-run-mcp
+kind: github-repo
+name: cloud-run-mcp
+canonical_url: https://github.com/googlecloudplatform/cloud-run-mcp
+identity:
+  github_repo: googlecloudplatform/cloud-run-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__googlecloudplatform__cloud-run-mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Google Cloud Run
+        extracted_url: https://github.com/googlecloudplatform/cloud-run-mcp
+        surrounding_text: "- **[Google Cloud Run](https://github.com/GoogleCloudPlatform/cloud-run-mcp)** - Official MCP Server to deploy to [Google Cloud Run](https://cloud.google.com/run)."
+        confidence: high
+metadata:
+  github:
+    stars: 602
+    forks: 107
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-05-06T23:22:44Z"
+    pushed_at: "2026-04-30T04:39:29Z"
+    description: MCP server to deploy apps to Cloud Run
+    homepage: ""
+    topics:
+      - google-cloud
+      - google-cloud-run
+      - mcp
+      - mcp-server
+    last_checked_at: "2026-05-02T12:11:34.758Z"
+    readme:
+      fetched_at: "2026-05-02T12:11:34.758Z"
+      bytes: 13299
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (602) exceeded threshold (150)

@@ -1,0 +1,55 @@
+id: github__openai__swarm
+kind: github-repo
+name: swarm
+canonical_url: https://github.com/openai/swarm
+identity:
+  github_repo: openai/swarm
+provenance:
+  discoveries:
+    - id: discovery__github__openai__swarm__awesome-list__vivy-yi__awesome-agent-orchestration
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: vivy-yi/awesome-agent-orchestration
+        url: https://github.com/vivy-yi/awesome-agent-orchestration
+        repository: vivy-yi/awesome-agent-orchestration
+      extraction:
+        mode: parsed
+        section_path:
+          - Core Frameworks
+          - Multi-Agent Orchestration Frameworks
+        anchor_text: OpenAI Swarm
+        extracted_url: https://github.com/openai/swarm
+        surrounding_text: "| [OpenAI Swarm](https://github.com/openai/swarm) | Educational lightweight multi-agent orchestration framework | ![Stars](https://img.shields.io/github/stars/openai/swarm) |"
+        confidence: high
+metadata:
+  github:
+    stars: 21419
+    forks: 2274
+    license: MIT
+    archived: false
+    created_at: "2024-02-22T20:53:54Z"
+    pushed_at: "2026-04-15T17:10:28Z"
+    description: Educational framework exploring ergonomic, lightweight multi-agent orchestration. Managed by OpenAI Solution team.
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-02T12:12:08.361Z"
+    readme:
+      fetched_at: "2026-05-02T12:12:08.361Z"
+      bytes: 16860
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (21419) exceeded threshold (150)

@@ -1,0 +1,94 @@
+id: github__qdrant__mcp-server-qdrant
+kind: github-repo
+name: mcp-server-qdrant
+canonical_url: https://github.com/qdrant/mcp-server-qdrant
+identity:
+  github_repo: qdrant/mcp-server-qdrant
+provenance:
+  discoveries:
+    - id: discovery__github__qdrant__mcp-server-qdrant__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🗄️ <a name="databases"></a>Databases
+        anchor_text: qdrant/mcp-server-qdrant
+        extracted_url: https://github.com/qdrant/mcp-server-qdrant
+        surrounding_text: "- [qdrant/mcp-server-qdrant](https://github.com/qdrant/mcp-server-qdrant) 🐍 🏠 - A Qdrant MCP server"
+        confidence: high
+    - id: discovery__github__qdrant__mcp-server-qdrant__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Qdrant
+        extracted_url: https://github.com/qdrant/mcp-server-qdrant
+        surrounding_text: "- **[Qdrant](https://github.com/qdrant/mcp-server-qdrant/)** - Implement semantic memory layer on top of the Qdrant vector search engine"
+        confidence: high
+    - id: discovery__github__qdrant__mcp-server-qdrant__awesome-list__vivy-yi__awesome-agent-orchestration
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: vivy-yi/awesome-agent-orchestration
+        url: https://github.com/vivy-yi/awesome-agent-orchestration
+        repository: vivy-yi/awesome-agent-orchestration
+      extraction:
+        mode: parsed
+        section_path:
+          - Agent Communication Protocols
+          - Model Context Protocol (MCP)
+          - Database & Vector Stores
+        anchor_text: mcp-server-qdrant
+        extracted_url: https://github.com/qdrant/mcp-server-qdrant
+        surrounding_text: "| [mcp-server-qdrant](https://github.com/qdrant/mcp-server-qdrant) | Official Qdrant vector database server | ![Stars](https://img.shields.io/github/stars/qdrant/mcp-server-qdrant) |"
+        confidence: high
+metadata:
+  github:
+    stars: 1379
+    forks: 267
+    license: Apache-2.0
+    archived: false
+    created_at: "2024-12-02T12:07:39Z"
+    pushed_at: "2026-04-27T12:25:02Z"
+    description: An official Qdrant Model Context Protocol (MCP) server implementation
+    homepage: https://qdrant.tech
+    topics:
+      - claude
+      - cursor
+      - llm
+      - mcp
+      - mcp-server
+      - semantic-search
+      - windsurf
+    last_checked_at: "2026-05-02T12:10:46.314Z"
+    readme:
+      fetched_at: "2026-05-02T12:10:46.314Z"
+      bytes: 22469
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1379) exceeded threshold (150)

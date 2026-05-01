@@ -1,0 +1,55 @@
+id: github__hardbyte__qabot
+kind: github-repo
+name: qabot
+canonical_url: https://github.com/hardbyte/qabot
+identity:
+  github_repo: hardbyte/qabot
+provenance:
+  discoveries:
+    - id: discovery__github__hardbyte__qabot__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Open Source Projects
+          - Other / Chatbots
+        anchor_text: QABot
+        extracted_url: https://github.com/hardbyte/qabot
+        surrounding_text: "- [QABot](https://github.com/hardbyte/qabot): Query local or remote files or databases with natural language queries powered by langchain and openai ![GitHub Repo stars](https://img.shields.io/github/stars/hardbyte/qabot?style=social)"
+        confidence: high
+metadata:
+  github:
+    stars: 246
+    forks: 20
+    license: Apache-2.0
+    archived: false
+    created_at: "2023-03-03T21:18:39Z"
+    pushed_at: "2025-03-05T21:10:51Z"
+    description: CLI based natural language queries on local or remote data
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-02T12:11:36.794Z"
+    readme:
+      fetched_at: "2026-05-02T12:11:36.794Z"
+      bytes: 7729
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (246) exceeded threshold (150)

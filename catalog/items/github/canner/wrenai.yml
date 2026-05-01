@@ -1,0 +1,74 @@
+id: github__canner__wrenai
+kind: github-repo
+name: wrenai
+canonical_url: https://github.com/canner/wrenai
+identity:
+  github_repo: canner/wrenai
+provenance:
+  discoveries:
+    - id: discovery__github__canner__wrenai__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - "[Wren](https://www.getwren.ai/)"
+          - Links
+        anchor_text: GitHub
+        extracted_url: https://github.com/canner/wrenai
+        surrounding_text: "- [GitHub](https://github.com/Canner/WrenAI)"
+        confidence: high
+metadata:
+  github:
+    stars: 15051
+    forks: 1693
+    license: AGPL-3.0
+    archived: false
+    created_at: "2024-03-13T06:18:20Z"
+    pushed_at: "2026-04-30T06:03:13Z"
+    description: Open-source text-to-SQL and text-to-chart GenBI agent with a semantic layer. Ask your database questions in natural language — get accurate SQL, charts, and BI insights. Supports 12+ data sources (PostgreSQL, BigQuery, Snowflake, etc.) and any LLM (OpenAI, Claude, Gemini, Ollama).
+    homepage: https://getwren.ai/oss
+    topics:
+      - agent
+      - anthropic
+      - bedrock
+      - bigquery
+      - business-intelligence
+      - charts
+      - duckdb
+      - genbi
+      - llm
+      - openai
+      - postgresql
+      - rag
+      - spreadsheets
+      - sql
+      - sqlai
+      - text-to-chart
+      - text-to-sql
+      - text2sql
+      - vertex
+    last_checked_at: "2026-05-02T12:11:14.858Z"
+    readme:
+      fetched_at: "2026-05-02T12:11:14.858Z"
+      bytes: 9463
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (15051) exceeded threshold (150)

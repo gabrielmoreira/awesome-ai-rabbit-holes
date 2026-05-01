@@ -1,0 +1,54 @@
+id: github__hips__spearmint
+kind: github-repo
+name: spearmint
+canonical_url: https://github.com/hips/spearmint
+identity:
+  github_repo: hips/spearmint
+provenance:
+  discoveries:
+    - id: discovery__github__hips__spearmint__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/Awesome-LLMOps
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - AutoML
+        anchor_text: Spearmint
+        extracted_url: https://github.com/hips/spearmint
+        surrounding_text: "| [Spearmint](https://github.com/HIPS/Spearmint)                               | a software package to perform Bayesian optimization.                                                                                                                            | ![GitHub Badge](https://img.shields.io/github/stars/HIPS/Spearmint.svg?style=flat-square)                  |"
+        confidence: high
+metadata:
+  github:
+    stars: 1568
+    forks: 328
+    license: NOASSERTION
+    archived: false
+    created_at: "2014-08-05T18:13:16Z"
+    pushed_at: "2019-12-27T21:30:17Z"
+    description: Spearmint Bayesian optimization codebase
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-02T12:11:38.022Z"
+    readme:
+      fetched_at: "2026-05-02T12:11:38.022Z"
+      bytes: 3381
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1568) exceeded threshold (150)

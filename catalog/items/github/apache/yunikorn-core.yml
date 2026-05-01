@@ -1,0 +1,60 @@
+id: github__apache__yunikorn-core
+kind: github-repo
+name: yunikorn-core
+canonical_url: https://github.com/apache/yunikorn-core
+identity:
+  github_repo: apache/yunikorn-core
+provenance:
+  discoveries:
+    - id: discovery__github__apache__yunikorn-core__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/Awesome-LLMOps
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Large Scale Deployment
+          - Scheduling
+        anchor_text: Yunikorn
+        extracted_url: https://github.com/apache/yunikorn-core
+        surrounding_text: "| [Yunikorn](https://github.com/apache/yunikorn-core) | Light-weight, universal resource scheduler for container orchestrator systems. | ![GitHub Badge](https://img.shields.io/github/stars/apache/yunikorn-core.svg?style=flat-square)  |"
+        confidence: high
+metadata:
+  github:
+    stars: 1007
+    forks: 263
+    license: Apache-2.0
+    archived: false
+    created_at: "2019-06-13T15:18:08Z"
+    pushed_at: "2026-04-30T05:21:06Z"
+    description: Apache YuniKorn Core
+    homepage: https://yunikorn.apache.org/
+    topics:
+      - apache-yarn
+      - go
+      - kubernetes
+      - universal-resource-scheduler
+      - yunikorn
+    last_checked_at: "2026-05-02T12:11:07.029Z"
+    readme:
+      fetched_at: "2026-05-02T12:11:07.029Z"
+      bytes: 3998
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1007) exceeded threshold (150)

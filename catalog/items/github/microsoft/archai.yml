@@ -1,0 +1,66 @@
+id: github__microsoft__archai
+kind: github-repo
+name: archai
+canonical_url: https://github.com/microsoft/archai
+identity:
+  github_repo: microsoft/archai
+provenance:
+  discoveries:
+    - id: discovery__github__microsoft__archai__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/Awesome-LLMOps
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - AutoML
+        anchor_text: Archai
+        extracted_url: https://github.com/microsoft/archai
+        surrounding_text: "| [Archai](https://github.com/microsoft/archai)                                | a platform for Neural Network Search (NAS) that allows you to generate efficient deep networks for your applications.                                                           | ![GitHub Badge](https://img.shields.io/github/stars/microsoft/archai.svg?style=flat-square)                |"
+        confidence: high
+metadata:
+  github:
+    stars: 486
+    forks: 93
+    license: MIT
+    archived: false
+    created_at: "2020-03-05T00:54:29Z"
+    pushed_at: "2025-11-24T03:14:04Z"
+    description: Accelerate your Neural Architecture Search (NAS) through fast, reproducible and modular research.
+    homepage: https://microsoft.github.io/archai
+    topics:
+      - automated-machine-learning
+      - automl
+      - darts
+      - deep-learning
+      - hyperparameter-optimization
+      - machine-learning
+      - model-compression
+      - nas
+      - neural-architecture-search
+      - petridish
+      - python
+      - pytorch
+    last_checked_at: "2026-05-02T12:11:58.691Z"
+    readme:
+      fetched_at: "2026-05-02T12:11:58.691Z"
+      bytes: 6887
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (486) exceeded threshold (150)

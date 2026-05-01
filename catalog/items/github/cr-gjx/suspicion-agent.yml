@@ -1,0 +1,54 @@
+id: github__cr-gjx__suspicion-agent
+kind: github-repo
+name: suspicion-agent
+canonical_url: https://github.com/cr-gjx/suspicion-agent
+identity:
+  github_repo: cr-gjx/suspicion-agent
+provenance:
+  discoveries:
+    - id: discovery__github__cr-gjx__suspicion-agent__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - "[Suspicion Agent](https://github.com/CR-Gjx/Suspicion-Agent)"
+        anchor_text: image
+        extracted_url: https://github.com/cr-gjx/suspicion-agent
+        surrounding_text: "![image](https://github.com/CR-Gjx/Suspicion-Agent/raw/main/figures/counterfactual.png)"
+        confidence: high
+metadata:
+  github:
+    stars: 161
+    forks: 20
+    license: null
+    archived: false
+    created_at: "2023-09-30T11:51:17Z"
+    pushed_at: "2023-11-08T08:02:01Z"
+    description: "The implementation of \"Suspicion-Agent: Playing Imperfect Information Games with Theory of Mind Aware GPT-4\""
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-02T12:11:18.871Z"
+    readme:
+      fetched_at: "2026-05-02T12:11:18.871Z"
+      bytes: 1683
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (161) exceeded threshold (150)

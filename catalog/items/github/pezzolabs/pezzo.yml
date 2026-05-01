@@ -1,0 +1,90 @@
+id: github__pezzolabs__pezzo
+kind: github-repo
+name: pezzo
+canonical_url: https://github.com/pezzolabs/pezzo
+identity:
+  github_repo: pezzolabs/pezzo
+provenance:
+  discoveries:
+    - id: discovery__github__pezzolabs__pezzo__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - "[Pezzo](https://www.pezzo.ai/)"
+          - Links
+        anchor_text: GitHub
+        extracted_url: https://github.com/pezzolabs/pezzo
+        surrounding_text: "- [GitHub](https://github.com/pezzolabs/pezzo)"
+        confidence: high
+    - id: discovery__github__pezzolabs__pezzo__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/Awesome-LLMOps
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - LLMOps
+        anchor_text: Pezzo 🕹️
+        extracted_url: https://github.com/pezzolabs/pezzo
+        surrounding_text: "| [Pezzo 🕹️](https://github.com/pezzolabs/pezzo)                     | Pezzo is the open-source LLMOps platform built for developers and teams. In just two lines of code, you can seamlessly troubleshoot your AI operations, collaborate and manage your prompts in one place, and instantly deploy changes to any environment.                                                                                                                                              | ![GitHub Badge](https://img.shields.io/github/stars/pezzolabs/pezzo.svg?style=flat-square)                |"
+        confidence: high
+metadata:
+  github:
+    stars: 3231
+    forks: 270
+    license: Apache-2.0
+    archived: false
+    created_at: "2023-04-22T20:54:10Z"
+    pushed_at: "2026-03-31T02:03:01Z"
+    description: 🕹️ Open-source, developer-first LLMOps platform designed to streamline prompt design, version management, instant delivery, collaboration, troubleshooting, observability and more.
+    homepage: https://pezzo.ai
+    topics:
+      - ai
+      - devtools
+      - gpt-3
+      - gpt-4
+      - hacktoberfest
+      - javascript
+      - langchain
+      - llm
+      - llmops
+      - monitoring
+      - nestjs
+      - nodejs
+      - observability
+      - openai
+      - platform
+      - prompt
+      - prompt-engineering
+      - prompt-management
+      - python
+      - typescript
+    last_checked_at: "2026-05-02T12:10:55.712Z"
+    readme:
+      fetched_at: "2026-05-02T12:10:55.712Z"
+      bytes: 6079
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (3231) exceeded threshold (150)

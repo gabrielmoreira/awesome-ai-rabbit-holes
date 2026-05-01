@@ -1,0 +1,27 @@
+name: pi
+
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  smoke-test:
+    runs-on: ubuntu-latest
+    env:
+      MISE_TASK_OUTPUT: prefix
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Set up mise tools
+        uses: jdx/mise-action@v4
+        with:
+          install: true
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Run Pi smoke test
+        run: mise run pi -- --help

@@ -1,0 +1,69 @@
+id: github__paradedb__paradedb
+kind: github-repo
+name: paradedb
+canonical_url: https://github.com/paradedb/paradedb
+identity:
+  github_repo: paradedb/paradedb
+provenance:
+  discoveries:
+    - id: discovery__github__paradedb__paradedb__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/Awesome-LLMOps
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Search
+          - Vector search
+        anchor_text: ParadeDB
+        extracted_url: https://github.com/paradedb/paradedb
+        surrounding_text: "| [ParadeDB](https://github.com/paradedb/paradedb)          | The transactional alternative to Elasticsearch, built on Postgres.                                                                                                                                                                                                                                            | ![GitHub Badge](https://img.shields.io/github/stars/paradedb/paradedb.svg?style=flat-square)          |"
+        confidence: high
+metadata:
+  github:
+    stars: 8718
+    forks: 376
+    license: AGPL-3.0
+    archived: false
+    created_at: "2023-06-30T20:21:47Z"
+    pushed_at: "2026-05-02T06:57:24Z"
+    description: Simple, Elastic-quality search for Postgres
+    homepage: https://paradedb.com
+    topics:
+      - aggregations
+      - analytics
+      - bm25
+      - database
+      - elasticsearch
+      - full-text-search
+      - htap
+      - hybrid-search
+      - olap
+      - postgresql
+      - real-time-analytics
+      - similarity-search
+      - sparse-vector
+      - sql
+    last_checked_at: "2026-05-02T12:12:10.980Z"
+    readme:
+      fetched_at: "2026-05-02T12:12:10.980Z"
+      bytes: 5055
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (8718) exceeded threshold (150)

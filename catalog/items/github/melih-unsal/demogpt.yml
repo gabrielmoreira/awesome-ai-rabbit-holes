@@ -1,0 +1,90 @@
+id: github__melih-unsal__demogpt
+kind: github-repo
+name: demogpt
+canonical_url: https://github.com/melih-unsal/demogpt
+identity:
+  github_repo: melih-unsal/demogpt
+provenance:
+  discoveries:
+    - id: discovery__github__melih-unsal__demogpt__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - "[DemoGPT](https://github.com/melih-unsal/DemoGPT)"
+        anchor_text: Image
+        extracted_url: https://github.com/melih-unsal/demogpt
+        surrounding_text: "![Image](https://github.com/melih-unsal/DemoGPT/raw/main/assets/banner_small.png)"
+        confidence: high
+    - id: discovery__github__melih-unsal__demogpt__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Tools
+          - Agents
+        anchor_text: DemoGPT
+        extracted_url: https://github.com/melih-unsal/demogpt
+        surrounding_text: "- [DemoGPT](https://github.com/melih-unsal/DemoGPT): DemoGPT enables you to create quick demos by just using prompt. It applies ToT approach on Langchain documentation tree. ![GitHub Repo stars](https://img.shields.io/github/stars/melih-unsal/DemoGPT?style=social)"
+        confidence: high
+metadata:
+  github:
+    stars: 1897
+    forks: 224
+    license: MIT
+    archived: false
+    created_at: "2023-06-07T09:56:20Z"
+    pushed_at: "2026-04-01T12:30:12Z"
+    description: 🤖 Everything you need to create an LLM Agent—tools, prompts, frameworks, and models—all in one place.
+    homepage: ""
+    topics:
+      - agent
+      - agents
+      - ai
+      - artificial-intelligence
+      - autogpt
+      - autonomous-agents
+      - chatgpt
+      - chatgpt-api
+      - deepseek
+      - demo
+      - gpt-4
+      - langchain
+      - langchain-app
+      - langchain-python
+      - llms
+      - o1
+      - openai
+      - python
+      - streamlit
+      - streamlit-application
+    last_checked_at: "2026-05-02T12:10:54.611Z"
+    readme:
+      fetched_at: "2026-05-02T12:10:54.610Z"
+      bytes: 26787
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1897) exceeded threshold (150)

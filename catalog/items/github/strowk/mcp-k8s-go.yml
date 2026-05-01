@@ -1,0 +1,89 @@
+id: github__strowk__mcp-k8s-go
+kind: github-repo
+name: mcp-k8s-go
+canonical_url: https://github.com/strowk/mcp-k8s-go
+identity:
+  github_repo: strowk/mcp-k8s-go
+provenance:
+  discoveries:
+    - id: discovery__github__strowk__mcp-k8s-go__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
+        anchor_text: strowk/mcp-k8s-go
+        extracted_url: https://github.com/strowk/mcp-k8s-go
+        surrounding_text: "- [strowk/mcp-k8s-go](https://github.com/strowk/mcp-k8s-go) 🏎️ ☁️/🏠 - Kubernetes cluster operations through MCP"
+        confidence: high
+    - id: discovery__github__strowk__mcp-k8s-go__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: mcp-k8s-go
+        extracted_url: https://github.com/strowk/mcp-k8s-go
+        surrounding_text: "- **[mcp-k8s-go](https://github.com/strowk/mcp-k8s-go)** - Golang-based Kubernetes MCP Server. Built to be extensible."
+        confidence: high
+    - id: discovery__github__strowk__mcp-k8s-go__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/MobinX/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - null
+          - ☁️ Cloud Platforms
+        anchor_text: strowk/mcp-k8s-go
+        extracted_url: https://github.com/strowk/mcp-k8s-go
+        surrounding_text: "-   **[strowk/mcp-k8s-go](https://github.com/strowk/mcp-k8s-go)** [![GitHub stars](https://img.shields.io/github/stars/strowk/mcp-k8s-go?style=social)](https://github.com/strowk/mcp-k8s-go): Manages Kubernetes clusters through MCP interactions (Go implementation)."
+        confidence: high
+metadata:
+  github:
+    stars: 379
+    forks: 56
+    license: MIT
+    archived: false
+    created_at: "2024-12-01T07:00:54Z"
+    pushed_at: "2025-12-22T20:12:06Z"
+    description: MCP server connecting to Kubernetes
+    homepage: https://www.npmjs.com/package/@strowk/mcp-k8s
+    topics:
+      - kubernetes
+      - mcp
+      - server
+    last_checked_at: "2026-05-02T12:10:46.587Z"
+    readme:
+      fetched_at: "2026-05-02T12:10:46.587Z"
+      bytes: 7918
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (379) exceeded threshold (150)

@@ -1,0 +1,74 @@
+id: github__microsoft__pai
+kind: github-repo
+name: pai
+canonical_url: https://github.com/microsoft/pai
+identity:
+  github_repo: microsoft/pai
+provenance:
+  discoveries:
+    - id: discovery__github__microsoft__pai__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/Awesome-LLMOps
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Large Scale Deployment
+          - ML Platforms
+        anchor_text: PAI
+        extracted_url: https://github.com/microsoft/pai
+        surrounding_text: "| [PAI](https://github.com/microsoft/pai)                 | Resource scheduling and cluster management for AI.                                                                                                                                                                                                                                                                                                                                                                                                                        | ![GitHub Badge](https://img.shields.io/github/stars/microsoft/pai.svg?style=flat-square)           |"
+        confidence: high
+metadata:
+  github:
+    stars: 2685
+    forks: 549
+    license: MIT
+    archived: true
+    created_at: "2017-09-25T11:24:51Z"
+    pushed_at: "2024-06-06T07:56:07Z"
+    description: Resource scheduling and cluster management for AI
+    homepage: https://openpai.readthedocs.io
+    topics:
+      - ai
+      - artificial-intelligence
+      - chainer
+      - cloud
+      - cluster-management
+      - cluster-manager
+      - gpu
+      - gpu-cluster
+      - gpu-computing
+      - gpu-scheduler
+      - jupyter
+      - kubernetes
+      - machine-learning
+      - model-training
+      - on-premise
+      - pytorch
+      - resource-management
+      - scheduling
+      - tensorflow
+    last_checked_at: "2026-05-02T12:11:59.347Z"
+    readme:
+      fetched_at: "2026-05-02T12:11:59.347Z"
+      bytes: 20249
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: needs_review
+  reason: Repository is archived

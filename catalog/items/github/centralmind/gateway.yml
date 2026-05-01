@@ -1,0 +1,88 @@
+id: github__centralmind__gateway
+kind: github-repo
+name: gateway
+canonical_url: https://github.com/centralmind/gateway
+identity:
+  github_repo: centralmind/gateway
+provenance:
+  discoveries:
+    - id: discovery__github__centralmind__gateway__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🗄️ <a name="databases"></a>Databases
+        anchor_text: centralmind/gateway
+        extracted_url: https://github.com/centralmind/gateway
+        surrounding_text: "- [centralmind/gateway](https://github.com/centralmind/gateway) 🏎️ 🏠 🍎 🪟 - MCP and MCP SSE Server that automatically generate API based on database schema and data. Supports PostgreSQL, Clickhouse, MySQL, Snowflake, BigQuery, Supabase"
+        confidence: high
+    - id: discovery__github__centralmind__gateway__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Frameworks
+        anchor_text: centralmind/gateway
+        extracted_url: https://github.com/centralmind/gateway
+        surrounding_text: "- **[centralmind/gateway](https://github.com/centralmind/gateway)** - CLI that generates MCP tools based on your Database schema and data using AI and host as REST, MCP or MCP-SSE server"
+        confidence: high
+metadata:
+  github:
+    stars: 527
+    forks: 65
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-02-10T19:34:14Z"
+    pushed_at: "2025-07-18T16:15:36Z"
+    description: Universal MCP-Server for your Databases optimized for LLMs and AI-Agents.
+    homepage: https://centralmind.ai
+    topics:
+      - amazon-bedrock
+      - anthropic-claude
+      - api
+      - automatic-api
+      - clickhouse
+      - duckdb
+      - elasticsearch
+      - golang
+      - google-vertex-ai
+      - llm
+      - mcp
+      - mysql-database
+      - openai
+      - oracle-database
+      - postgresql
+      - rest-api
+      - snowflake
+      - supabase
+    last_checked_at: "2026-05-02T12:10:49.120Z"
+    readme:
+      fetched_at: "2026-05-02T12:10:49.120Z"
+      bytes: 12283
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (527) exceeded threshold (150)

@@ -1,0 +1,73 @@
+id: github__milvus-io__milvus
+kind: github-repo
+name: milvus
+canonical_url: https://github.com/milvus-io/milvus
+identity:
+  github_repo: milvus-io/milvus
+provenance:
+  discoveries:
+    - id: discovery__github__milvus-io__milvus__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/Awesome-LLMOps
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Search
+          - Vector search
+        anchor_text: Milvus
+        extracted_url: https://github.com/milvus-io/milvus
+        surrounding_text: "| [Milvus](https://github.com/milvus-io/milvus)             | Vector database for scalable similarity search and AI applications.                                                                                                                                                                                                                           | ![GitHub Badge](https://img.shields.io/github/stars/milvus-io/milvus.svg?style=flat-square)           |"
+        confidence: high
+metadata:
+  github:
+    stars: 44083
+    forks: 3985
+    license: Apache-2.0
+    archived: false
+    created_at: "2019-09-16T06:43:43Z"
+    pushed_at: "2026-05-02T03:10:08Z"
+    description: Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search
+    homepage: https://milvus.io
+    topics:
+      - anns
+      - cloud-native
+      - diskann
+      - distributed
+      - embedding-database
+      - embedding-similarity
+      - embedding-store
+      - faiss
+      - golang
+      - hnsw
+      - image-search
+      - llm
+      - nearest-neighbor-search
+      - rag
+      - vector-database
+      - vector-search
+      - vector-similarity
+      - vector-store
+    last_checked_at: "2026-05-02T12:12:00.032Z"
+    readme:
+      fetched_at: "2026-05-02T12:12:00.032Z"
+      bytes: 70771
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (44083) exceeded threshold (150)

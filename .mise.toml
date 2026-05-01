@@ -1,0 +1,108 @@
+[tools]
+node = "25.9.0"
+"npm:@mariozechner/pi-coding-agent" = "0.71.1"
+gh = "latest"
+
+[env]
+PI_CODING_AGENT_DIR = "{{config_root}}/.cache/pi/agent"
+_.file = { path = ".env", redact = true }
+
+[tasks."catalog:deps"]
+description = "Install project dependencies"
+run = "npm ci"
+
+[tasks."catalog:test"]
+description = "Run automated tests"
+run = "npm test"
+
+[tasks."catalog:discover"]
+description = "Discover new catalog candidates from explicit sources"
+run = "npm run catalog -- discover"
+
+[tasks."catalog:stars"]
+description = "Refresh GitHub star/order/incubation signals"
+run = "npm run catalog -- stars"
+
+[tasks."catalog:categorize"]
+description = "Run LLM categorization for ready catalog items"
+run = "npm run catalog -- categorize"
+
+[tasks."catalog:render"]
+description = "Render README, rabbit-hole pages, and catalog JSON from disk"
+run = "npm run catalog -- render"
+
+[tasks."catalog:validate"]
+description = "Validate the generated catalog"
+run = "npm run catalog -- validate"
+
+[tasks."catalog:sync"]
+description = "Run discover, stars, categorize, render, then validate"
+run = "npm run catalog -- sync"
+
+[tasks."catalog:resync"]
+description = "Targeted recategorization / refresh for a selected subset"
+usage = '''
+flag "--id <id>" help="Exact catalog item id"
+flag "--url <url>" help="Exact canonical URL"
+flag "--match <match>" help="Regex or substring against id/name/url"
+flag "--status <status>" help="Curation status or processing status"
+flag "--where <where>" help="Path=value selector, e.g. processing.categorize.status=deferred"
+flag "--discover" help="Re-run discover for matched URLs/sources"
+flag "--stars" help="Refresh GitHub metadata for matched items"
+flag "--categorize" help="Re-run categorization for matched items"
+'''
+run = '''
+npm run catalog -- resync{% if usage.id %} --id {{ usage.id | json_encode }}{% endif %}{% if usage.url %} --url {{ usage.url | json_encode }}{% endif %}{% if usage.match %} --match {{ usage.match | json_encode }}{% endif %}{% if usage.status %} --status {{ usage.status | json_encode }}{% endif %}{% if usage.where %} --where {{ usage.where | json_encode }}{% endif %}{% if usage.discover %} --discover{% endif %}{% if usage.stars %} --stars{% endif %}{% if usage.categorize %} --categorize{% endif %}
+'''
+
+[tasks.pi]
+description = "Run Pi coding agent with repo-local state"
+raw = true
+run = ["pi --no-tools --no-skills --no-extensions"]
+
+[tasks."pi:free"]
+description = "Run Pi through the pinned pi-free extensions and free fallback order"
+raw = true
+usage = '''
+flag "-p --print <prompt>" help="Non-interactive prompt to forward to pi"
+flag "--stdin" help="Read a non-interactive prompt from stdin"
+flag "--model <model>" help="Optional explicit model override"
+'''
+run = '''
+{% if usage.print %}printf %s {{ usage.print | json_encode }} | {% endif %}pi --no-tools --no-skills --no-extensions -e npm:pi-free@2.0.2 -e .pi/extensions/pi-free-fallback.ts{% if usage.model %} --model {{ usage.model }}{% endif %}{% if usage.stdin or usage.print %} --no-session{% endif %}
+'''
+
+[tasks."pi:free:all-models"]
+description = "Generate catalog/pi-free/all-models.json from pi --list-models"
+usage = '''
+flag "--timeout-ms <timeoutMs>" help="Timeout for the discovery command in milliseconds"
+'''
+run = '''
+node scripts/pi-free-all-models.ts{% if usage.timeout_ms %} --timeout-ms {{ usage.timeout_ms }}{% endif %}
+'''
+
+[tasks."pi:free:intelligence"]
+description = "Generate catalog/pi-free/intelligence.json from the Artificial Analysis leaderboard"
+usage = '''
+flag "--source-url <sourceUrl>" help="Optional leaderboard URL override"
+'''
+run = '''
+node scripts/pi-free-intelligence.ts{% if usage.source_url %} --source-url {{ usage.source_url | json_encode }}{% endif %}
+'''
+
+[tasks."pi:free:rank-models"]
+description = "Probe every model from all-models.json and build ranked-models.json using catalog/pi-free/intelligence.json"
+usage = '''
+flag "--limit <limit>" help="Optional cap on the number of candidate models to probe"
+flag "--prompt <prompt>" help="Prompt to send to each model (default: Reply with exactly HI.)"
+flag "--timeout-ms <timeoutMs>" help="Per-model timeout in milliseconds"
+flag "--concurrency <concurrency>" help="How many model probes to run in parallel (default: 4)"
+'''
+run = '''
+node scripts/pi-free-rank-models.ts{% if usage.limit %} --limit {{ usage.limit }}{% endif %}{% if usage.prompt %} --prompt {{ usage.prompt | json_encode }}{% endif %}{% if usage.timeout_ms %} --timeout-ms {{ usage.timeout_ms }}{% endif %}{% if usage.concurrency %} --concurrency {{ usage.concurrency }}{% endif %}
+'''
+
+
+[tasks."pi:free:doctor"]
+description = "Summarize provider/model health from ranked pi-free artifacts"
+run = "node scripts/pi-free-doctor.ts"

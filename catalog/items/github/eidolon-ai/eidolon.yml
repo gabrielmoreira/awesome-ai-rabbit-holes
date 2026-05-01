@@ -1,0 +1,63 @@
+id: github__eidolon-ai__eidolon
+kind: github-repo
+name: eidolon
+canonical_url: https://github.com/eidolon-ai/eidolon
+identity:
+  github_repo: eidolon-ai/eidolon
+provenance:
+  discoveries:
+    - id: discovery__github__eidolon-ai__eidolon__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: scraped
+        section_path:
+          - "[Eidolon](https://eidolonai.com/)"
+          - Links
+        anchor_text: Web
+        extracted_url: https://eidolonai.com
+        surrounding_text: "- [Web](https://eidolonai.com/)"
+        confidence: high
+metadata:
+  github:
+    stars: 491
+    forks: 52
+    license: Apache-2.0
+    archived: false
+    created_at: "2023-11-10T20:42:00Z"
+    pushed_at: "2026-04-21T22:27:51Z"
+    description: The first AI Agent Server, Eidolon is a pluggable Agent SDK and enterprise ready, deployment server for Agentic applications
+    homepage: https://www.eidolonai.com/
+    topics:
+      - agents
+      - generative-ai
+      - langchain
+      - llama
+      - llm
+      - openai
+      - python
+      - services
+    last_checked_at: "2026-05-02T12:11:25.028Z"
+    readme:
+      fetched_at: "2026-05-02T12:11:25.028Z"
+      bytes: 8742
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (491) exceeded threshold (150)

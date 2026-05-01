@@ -1,0 +1,71 @@
+id: github__0xpayne__gpt-migrate
+kind: github-repo
+name: gpt-migrate
+canonical_url: https://github.com/0xpayne/gpt-migrate
+identity:
+  github_repo: 0xpayne/gpt-migrate
+provenance:
+  discoveries:
+    - id: discovery__github__0xpayne__gpt-migrate__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - "[GPT Migrate](https://github.com/0xpayne/gpt-migrate)"
+          - Description
+        anchor_text: benchmarks
+        extracted_url: https://github.com/0xpayne/gpt-migrate
+        surrounding_text: "- GPT Migrate team is working on adding [benchmarks](https://github.com/0xpayne/gpt-migrate#-benchmarks) for the agent"
+        confidence: high
+    - id: discovery__github__0xpayne__gpt-migrate__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Open Source Projects
+          - Other / Chatbots
+        anchor_text: GPT Migrate
+        extracted_url: https://github.com/0xpayne/gpt-migrate
+        surrounding_text: "- [GPT Migrate](https://github.com/0xpayne/gpt-migrate): Easily migrate your codebase from one framework or language to another."
+        confidence: high
+metadata:
+  github:
+    stars: 6985
+    forks: 506
+    license: MIT
+    archived: false
+    created_at: "2023-06-24T22:17:12Z"
+    pushed_at: "2024-09-17T23:13:51Z"
+    description: Easily migrate your codebase from one framework or language to another.
+    homepage: https://gpt-migrate.com
+    topics: []
+    last_checked_at: "2026-05-02T12:10:47.084Z"
+    readme:
+      fetched_at: "2026-05-02T12:10:47.084Z"
+      bytes: 10078
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (6985) exceeded threshold (150)

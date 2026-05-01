@@ -1,0 +1,55 @@
+id: github__jetbrains__junie
+kind: github-repo
+name: junie
+canonical_url: https://github.com/jetbrains/junie
+identity:
+  github_repo: jetbrains/junie
+provenance:
+  discoveries:
+    - id: discovery__github__jetbrains__junie__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradAGI/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: scraped
+        section_path:
+          - Terminal-native coding agents
+          - Closed Source
+        anchor_text: Junie CLI
+        extracted_url: https://junie.jetbrains.com
+        surrounding_text: "- **[Junie CLI](https://junie.jetbrains.com)** `[JetBrains]` — JetBrains' LLM-agnostic CLI coding agent (EAP); supports GPT-5, Claude, Gemini, Grok with plan mode and CI/CD headless usage."
+        confidence: high
+metadata:
+  github:
+    stars: 216
+    forks: 9
+    license: NOASSERTION
+    archived: false
+    created_at: "2025-04-07T16:40:43Z"
+    pushed_at: "2026-04-30T15:17:10Z"
+    description: An AI coding agent by JetBrains that ships code from your terminal, IDE, or CI/CD pipeline - powered by any LLM you choose
+    homepage: https://junie.jetbrains.com
+    topics: []
+    last_checked_at: "2026-05-02T12:11:44.516Z"
+    readme:
+      fetched_at: "2026-05-02T12:11:44.516Z"
+      bytes: 2922
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (216) exceeded threshold (150)

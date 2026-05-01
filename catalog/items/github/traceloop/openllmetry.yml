@@ -1,0 +1,89 @@
+id: github__traceloop__openllmetry
+kind: github-repo
+name: openllmetry
+canonical_url: https://github.com/traceloop/openllmetry
+identity:
+  github_repo: traceloop/openllmetry
+provenance:
+  discoveries:
+    - id: discovery__github__traceloop__openllmetry__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/Awesome-LLMOps
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Security
+          - Observability
+        anchor_text: Traceloop OpenLLMetry
+        extracted_url: https://github.com/traceloop/openllmetry
+        surrounding_text: "| [Traceloop OpenLLMetry](https://github.com/traceloop/openllmetry)                              | OpenTelemetry-based observability and monitoring for LLM and agents workflows.                                                           | ![GitHub Badge](https://img.shields.io/github/stars/traceloop/openllmetry.svg?style=flat-square)"
+        confidence: high
+    - id: discovery__github__traceloop__openllmetry__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Tools
+          - Platforms
+        anchor_text: Openllmetry
+        extracted_url: https://github.com/traceloop/openllmetry
+        surrounding_text: "- [Openllmetry](https://github.com/traceloop/openllmetry): Open-source observability for your LLM application, based on OpenTelemetry ![GitHub Repo stars](https://img.shields.io/github/stars/traceloop/openllmetry?style=social)"
+        confidence: high
+metadata:
+  github:
+    stars: 7060
+    forks: 947
+    license: Apache-2.0
+    archived: false
+    created_at: "2023-09-02T14:42:59Z"
+    pushed_at: "2026-04-30T07:47:03Z"
+    description: Open-source observability for your GenAI or LLM application, based on OpenTelemetry
+    homepage: https://www.traceloop.com/openllmetry
+    topics:
+      - artifical-intelligence
+      - datascience
+      - generative-ai
+      - good-first-issue
+      - good-first-issues
+      - help-wanted
+      - llm
+      - llmops
+      - metrics
+      - ml
+      - model-monitoring
+      - monitoring
+      - observability
+      - open-source
+      - open-telemetry
+      - opentelemetry
+      - opentelemetry-python
+      - python
+    last_checked_at: "2026-05-02T12:10:57.728Z"
+    readme:
+      fetched_at: "2026-05-02T12:10:57.728Z"
+      bytes: 10770
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (7060) exceeded threshold (150)

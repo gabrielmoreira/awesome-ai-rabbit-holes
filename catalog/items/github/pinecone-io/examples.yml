@@ -1,0 +1,61 @@
+id: github__pinecone-io__examples
+kind: github-repo
+name: examples
+canonical_url: https://github.com/pinecone-io/examples
+identity:
+  github_repo: pinecone-io/examples
+provenance:
+  discoveries:
+    - id: discovery__github__pinecone-io__examples__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Learn
+          - Notebooks
+        anchor_text: LangChain Handbook
+        extracted_url: https://github.com/pinecone-io/examples
+        surrounding_text: "- [LangChain Handbook](https://github.com/pinecone-io/examples/tree/master/generation/langchain/handbook): Pinecone / James Briggs' LangChain handbook"
+        confidence: high
+metadata:
+  github:
+    stars: 3010
+    forks: 1074
+    license: MIT
+    archived: false
+    created_at: "2021-03-09T19:42:10Z"
+    pushed_at: "2026-04-16T02:24:08Z"
+    description: Jupyter Notebooks to help you get hands-on with Pinecone vector databases
+    homepage: ""
+    topics:
+      - ai
+      - jupyter-notebook
+      - llm
+      - python
+      - semantic-search
+      - vector-database
+    last_checked_at: "2026-05-02T12:12:13.118Z"
+    readme:
+      fetched_at: "2026-05-02T12:12:13.118Z"
+      bytes: 1648
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (3010) exceeded threshold (150)

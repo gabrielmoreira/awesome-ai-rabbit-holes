@@ -1,0 +1,81 @@
+id: github__calcom__cal.com
+kind: github-repo
+name: cal.com
+canonical_url: https://github.com/calcom/cal.com
+identity:
+  github_repo: calcom/cal.com
+provenance:
+  discoveries:
+    - id: discovery__github__calcom__cal.com__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - "[Cal.ai](https://cal.ai)"
+          - Description
+        anchor_text: GitHub
+        extracted_url: https://github.com/calcom/cal.com
+        surrounding_text: "- [GitHub](https://github.com/calcom/cal.com/tree/main/apps/ai)"
+        confidence: high
+    - id: discovery__github__calcom__cal.com__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-02T12:10:42.427Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: scraped
+        section_path:
+          - Community Servers
+        anchor_text: Calcom
+        extracted_url: https://cal.com
+        surrounding_text: "- **[Danielpeter-99/calcom-mcp](https://github.com/Danielpeter-99/calcom-mcp)** - MCP server for [Calcom](https://cal.com/) (Also known as [Cal.com](https://cal.com/)). Manage event types, create bookings, and access Cal.com scheduling data through LLMs."
+        confidence: high
+metadata:
+  github:
+    stars: 42295
+    forks: 13102
+    license: MIT
+    archived: false
+    created_at: "2021-03-22T13:47:42Z"
+    pushed_at: "2026-05-01T02:52:36Z"
+    description: Scheduling infrastructure for absolutely everyone.
+    homepage: https://cal.diy
+    topics:
+      - next-auth
+      - nextjs
+      - open-source
+      - postgresql
+      - prisma
+      - t3-stack
+      - tailwindcss
+      - trpc
+      - turborepo
+      - typescript
+      - zod
+    last_checked_at: "2026-05-02T12:10:49.167Z"
+    readme:
+      fetched_at: "2026-05-02T12:10:49.167Z"
+      bytes: 36519
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (42295) exceeded threshold (150)
