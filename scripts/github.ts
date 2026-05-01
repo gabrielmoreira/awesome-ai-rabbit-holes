@@ -6,10 +6,12 @@ export interface GitHubRepoData {
   forks: number;
   license: string | null;
   archived: boolean;
+  created_at: string;
   pushed_at: string;
   description: string | null;
   homepage: string | null;
   topics: string[];
+
 }
 
 export function parseGitHubUrl(url: string): { owner: string; repo: string } | null {
@@ -57,6 +59,7 @@ export async function fetchGitHubRepo(
       forks_count: number;
       license: { spdx_id: string } | null;
       archived: boolean;
+      created_at: string;
       pushed_at: string;
       description: string | null;
       homepage: string | null;
@@ -68,6 +71,7 @@ export async function fetchGitHubRepo(
       forks: data.forks_count,
       license: data.license?.spdx_id ?? null,
       archived: data.archived,
+      created_at: data.created_at,
       pushed_at: data.pushed_at,
       description: data.description,
       homepage: data.homepage,

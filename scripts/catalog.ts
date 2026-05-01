@@ -4,18 +4,24 @@
 import * as fs from "node:fs";
 import * as path from "node:path";
 import { fileURLToPath } from "node:url";
-import { readYaml, readYamlIfExists, writeYaml, yamlExists } from "./yaml.js";
-import { parseGitHubUrl, fetchGitHubRepo, fetchGitHubReadme } from "./github.js";
+import { readYaml, readYamlIfExists, writeYaml, yamlExists } from "./yaml.ts";
+import { parseGitHubUrl, fetchGitHubRepo, fetchGitHubReadme } from "./github.ts";
+import { buildInsightPrompt, parseAIInsightResponse } from "./ai.ts";
+import { resolveCatalogAIModel, runCatalogAIPrompt } from "./ai-runner.ts";
+import {
+  loadSourceContextLinesForItem,
+  loadSourceListDiscoveryCandidates,
+  materializeSourceListMetadata,
+  shouldSkipDiscoveredUrl,
+} from "./source-lists.ts";
 import {
   renderReadme,
   renderRabbitHolePage,
   renderSiteCatalog,
-  renderSourceCreditsPage,
   writeReadme,
   writeRabbitHolePage,
   writeSiteCatalog,
-  writeSourceCreditsPage,
-} from "./render.js";
+} from "./render.ts";
 import type {
   Source,
   CatalogItem,
@@ -24,20 +30,18 @@ import type {
   CatalogConfig,
   ReviewReport,
   Discovery,
+  DiscoveryCandidate,
   LifecycleStatus,
   Insights,
   GitHubReadmeProvenance,
-} from "./types.js";
+} from "./types.ts";
 
 const REPO_ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-
-const DEFAULT_SUBMITTER = { name: "Maintainer", url: null as string | null };
 
 const DEFAULT_CONFIG: CatalogConfig = {
   promotion: { incubating_until_stars: 150 },
   github: { metadata_refresh_days: 7 },
-  render: { include_source_credits: true },
-  credit: { submitter: DEFAULT_SUBMITTER },
+  source_lists: { max_new_items_per_run: 25 },
 };
 
 // ─── Config ───────────────────────────────────────────────────────────────────
@@ -49,10 +53,7 @@ export function loadConfig(): CatalogConfig {
   return {
     promotion: { ...DEFAULT_CONFIG.promotion, ...raw.promotion },
     github: { ...DEFAULT_CONFIG.github, ...raw.github },
-    render: { ...DEFAULT_CONFIG.render, ...raw.render },
-    credit: {
-      submitter: { ...DEFAULT_CONFIG.credit.submitter, ...raw.credit?.submitter },
-    },
+    source_lists: { ...DEFAULT_CONFIG.source_lists, ...raw.source_lists },
   };
 }
 
@@ -75,6 +76,37 @@ export function loadSources(): Source[] {
   return raw as Source[];
 }
 
+interface ScopeExamplesFile {
+  in_scope?: Source[];
+  out_of_scope?: Source[];
+}
+
+export function loadScopeExamples(): ScopeExamplesFile {
+  const scopePath = path.join(REPO_ROOT, "sources", "scope.yml");
+  if (!fs.existsSync(scopePath)) return { in_scope: [], out_of_scope: [] };
+  const raw = readYamlIfExists<Partial<ScopeExamplesFile>>(scopePath, {});
+  return {
+    in_scope: Array.isArray(raw.in_scope) ? raw.in_scope : [],
+    out_of_scope: Array.isArray(raw.out_of_scope) ? raw.out_of_scope : [],
+  };
+}
+
+export function normalizeSourceCoverageUrl(url: string): string {
+  const github = parseGitHubUrl(url);
+  if (github) {
+    return `https://github.com/${github.owner.toLowerCase()}/${github.repo.toLowerCase()}`;
+  }
+
+  try {
+    const parsed = new URL(url);
+    parsed.hash = "";
+    parsed.search = "";
+    return parsed.toString().replace(/\/$/, "");
+  } catch {
+    return url.trim().replace(/\/+$/, "");
+  }
+}
+
 export function loadCategories(): Category[] {
   const catPath = path.join(REPO_ROOT, "catalog", "categories.yml");
   if (!fs.existsSync(catPath)) return [];
@@ -87,6 +119,96 @@ export function loadCatalogItems(): CatalogItem[] {
   return loadItemsFromDir(itemsDir);
 }
 
+function normalizeLoadedCatalogItem(raw: any): CatalogItem {
+  const github = raw?.metadata?.github ?? {};
+  const discoveries = Array.isArray(raw?.provenance?.discoveries) ? raw.provenance.discoveries : [];
+
+  return {
+    id: raw.id,
+    kind: raw.kind,
+    name: raw.name,
+    canonical_url: raw.canonical_url,
+    identity: raw.identity ?? {},
+    provenance: {
+      discoveries: Array.from(
+        new Map<string, Discovery>(
+          discoveries.map((discovery: any) => {
+            const normalizedSource: Source = {
+              url: discovery?.source?.url ?? raw.canonical_url,
+              kind: discovery?.source?.type ?? "direct-link",
+              note: discovery?.extraction?.surrounding_text ?? undefined,
+            };
+            const extraction = {
+              mode: discovery?.extraction?.mode ?? "direct",
+              section_path: Array.isArray(discovery?.extraction?.section_path)
+                ? discovery.extraction.section_path
+                : ["inbox"],
+              anchor_text: discovery?.extraction?.anchor_text ?? raw.canonical_url,
+              extracted_url: discovery?.extraction?.extracted_url ?? raw.canonical_url,
+              surrounding_text: discovery?.extraction?.surrounding_text ?? null,
+              confidence: discovery?.extraction?.confidence ?? "high",
+            } as Discovery["extraction"];
+
+            const normalizedDiscovery: Discovery = {
+              id: makeDiscoveryId(extraction.extracted_url, normalizedSource),
+              discovered_at: discovery.discovered_at,
+              source: {
+                type: normalizedSource.kind ?? "direct-link",
+                name: discovery?.source?.name ?? "Manual submission",
+                url: discovery?.source?.url ?? null,
+                repository: discovery?.source?.repository ?? null,
+              },
+              extraction,
+            };
+
+            return [normalizedDiscovery.id, normalizedDiscovery] as const;
+          })
+        ).values()
+      ),
+    },
+    metadata: {
+      github: {
+        stars: github.stars ?? null,
+        forks: github.forks ?? null,
+        license: github.license ?? null,
+        archived: github.archived ?? null,
+        created_at: github.created_at ?? null,
+        pushed_at: github.pushed_at ?? null,
+        description: github.description ?? null,
+        homepage: github.homepage ?? null,
+        topics: Array.isArray(github.topics) ? github.topics : null,
+        last_checked_at: github.last_checked_at ?? null,
+        readme: github.readme ?? null,
+      },
+    },
+    insights: {
+      summary: raw?.insights?.summary ?? null,
+      why_it_matters: raw?.insights?.why_it_matters ?? null,
+      mental_damage: raw?.insights?.mental_damage ?? null,
+      tags: Array.isArray(raw?.insights?.tags) ? raw.insights.tags : [],
+      confidence: raw?.insights?.confidence ?? null,
+    },
+    curation: {
+      status: raw?.curation?.status ?? "pending",
+      reason: raw?.curation?.reason ?? null,
+      evidence: Array.isArray(raw?.curation?.evidence)
+        ? raw.curation.evidence.map((value: unknown) => String(value).trim()).filter((value: string) => value.length > 0)
+        : [],
+    },
+    placement: {
+      primary_category: raw?.placement?.primary_category ?? null,
+      secondary_categories: Array.isArray(raw?.placement?.secondary_categories)
+        ? raw.placement.secondary_categories
+        : undefined,
+      section: raw?.placement?.section ?? null,
+    },
+    lifecycle: {
+      status: raw?.lifecycle?.status ?? "incubating",
+      reason: raw?.lifecycle?.reason ?? null,
+    },
+  };
+}
+
 function loadItemsFromDir(dir: string): CatalogItem[] {
   const items: CatalogItem[] = [];
   const entries = fs
@@ -96,8 +218,8 @@ function loadItemsFromDir(dir: string): CatalogItem[] {
     if (entry.isDirectory()) {
       items.push(...loadItemsFromDir(path.join(dir, entry.name)));
     } else if (entry.name.endsWith(".yml") && entry.name !== ".gitkeep") {
-      const item = readYaml<CatalogItem>(path.join(dir, entry.name));
-      items.push(item);
+      const item = readYaml<any>(path.join(dir, entry.name));
+      items.push(normalizeLoadedCatalogItem(item));
     }
   }
   return items;
@@ -142,6 +264,32 @@ export function validateSources(sources: Source[]): ValidationError[] {
   return errors;
 }
 
+export function validateScopeCoverage(
+  sources: Source[],
+  requiredSources: Source[]
+): ValidationError[] {
+  const errors: ValidationError[] = [];
+  const coveredUrls = new Set(
+    sources
+      .filter((source) => typeof source.url === "string" && source.url.trim().length > 0)
+      .map((source) => normalizeSourceCoverageUrl(source.url))
+  );
+
+  for (const requiredSource of requiredSources) {
+    if (!requiredSource.url) continue;
+    const normalized = normalizeSourceCoverageUrl(requiredSource.url);
+    if (!coveredUrls.has(normalized)) {
+      errors.push({
+        path: "sources/inbox.yml",
+        message: `Missing required in-scope source from sources/scope.yml: ${requiredSource.url}`,
+      });
+    }
+  }
+
+  return errors;
+}
+
+
 export function validateCatalogItem(item: CatalogItem): ValidationError[] {
   const errors: ValidationError[] = [];
 
@@ -153,6 +301,9 @@ export function validateCatalogItem(item: CatalogItem): ValidationError[] {
   }
   if (!item.provenance || !item.provenance.discoveries || item.provenance.discoveries.length === 0) {
     errors.push({ path: item.id, message: "Item missing required field: provenance.discoveries" });
+  }
+  if (!item.curation || !item.curation.status) {
+    errors.push({ path: item.id, message: "Item missing required field: curation.status" });
   }
 
   return errors;
@@ -200,7 +351,7 @@ export function validateOverride(override: Override, items: CatalogItem[]): Vali
   // overrides from silently mutating protected nested fields like
   // `metadata.github.stars` or `provenance.discoveries` via `patch.metadata`
   // / `patch.provenance`, etc.
-  const allowed = new Set(["insights", "placement", "lifecycle"]);
+  const allowed = new Set(["insights", "curation", "placement", "lifecycle"]);
   const patchObj = rawPatch as Record<string, unknown>;
   for (const field of Object.keys(patchObj)) {
     if (!allowed.has(field)) {
@@ -247,6 +398,7 @@ export async function cmdValidate(): Promise<void> {
   console.log("Validating catalog...");
 
   const sources = loadSources();
+  const scopeExamples = loadScopeExamples();
   const items = loadCatalogItems();
   const overrides = loadOverrides();
 
@@ -255,6 +407,7 @@ export async function cmdValidate(): Promise<void> {
   // Validate sources
   const sourceErrors = validateSources(sources);
   errors.push(...sourceErrors);
+  errors.push(...validateScopeCoverage(sources, scopeExamples.in_scope ?? []));
 
   // Validate items
   const itemErrors = validateCatalogItems(items);
@@ -312,28 +465,43 @@ export function makeItemPath(url: string): string {
 
 export function makeDiscoveryId(url: string, source: Source): string {
   const itemId = makeItemId(url);
-  const mode = source.kind ?? "direct-link";
+  const kind = source.kind ?? "direct-link";
   // Discovery id is intentionally stable across days so re-running `update`
   // on a different date does not create a duplicate provenance entry for the
   // same source. `discovered_at` carries the timestamp instead.
-  return `discovery__${itemId}__${mode}`;
+  if (kind === "direct-link" || kind === "manual-submission") {
+    return `discovery__${itemId}__${kind}`;
+  }
+
+  const sourceGithub = parseGitHubUrl(source.url);
+  if (sourceGithub) {
+    return `discovery__${itemId}__${kind}__${sourceGithub.owner.toLowerCase()}__${sourceGithub.repo.toLowerCase()}`;
+  }
+
+  const sourceKey = source.url
+    .replace(/^https?:\/\//, "")
+    .replace(/[^a-z0-9]+/gi, "__")
+    .toLowerCase();
+  return `discovery__${itemId}__${kind}__${sourceKey}`;
 }
 
 // Map a `Source.kind` to the human-readable `source.name` and `source.url`
-// kept in each `Discovery`. For external pages (awesome-list / article /
-// docs-page / newsletter / paper) we keep the page URL so the dedicated
-// Source Credits page can list it; for direct/manual submissions we keep
-// the previous "Manual submission" label with no URL.
-function deriveSourceInfo(source: Source): { name: string; url: string | null } {
+// kept in each `Discovery`. External pages (awesome-list / article /
+// docs-page / newsletter / paper) keep the page URL in structured
+// provenance data; direct/manual submissions stay as "Manual submission"
+// with no URL.
+function deriveSourceInfo(source: Source): { name: string; url: string | null; repository: string | null } {
   const kind = source.kind ?? "direct-link";
   if (kind === "direct-link" || kind === "manual-submission") {
-    return { name: "Manual submission", url: null };
+    return { name: "Manual submission", url: null, repository: null };
   }
-  // External page: prefer a github "owner/repo" label when the source URL is
-  // a github repository, otherwise fall back to the URL's hostname.
   const github = parseGitHubUrl(source.url);
   if (github) {
-    return { name: `${github.owner}/${github.repo}`, url: source.url };
+    return {
+      name: `${github.owner}/${github.repo}`,
+      url: normalizeGitHubUrl(source.url),
+      repository: `${github.owner}/${github.repo}`,
+    };
   }
   let host = source.url;
   try {
@@ -341,52 +509,33 @@ function deriveSourceInfo(source: Source): { name: string; url: string | null } 
   } catch {
     // leave host as-is on unparseable URLs
   }
-  return { name: host, url: source.url };
+  return { name: host, url: source.url, repository: null };
 }
 
 export function buildDiscovery(
   url: string,
   source: Source,
   discoveredAt: string,
-  submitterName: string,
-  submitterUrl: string | null
+  extraction: Discovery["extraction"] = {
+    mode: "direct",
+    section_path: ["inbox"],
+    anchor_text: url,
+    extracted_url: url,
+    surrounding_text: source.note ?? null,
+    confidence: "high",
+  }
 ): Discovery {
   const sourceInfo = deriveSourceInfo(source);
   return {
     id: makeDiscoveryId(url, source),
     discovered_at: discoveredAt,
-    submitted_by: {
-      type: "maintainer",
-      name: submitterName,
-      url: submitterUrl,
-    },
-    contribution: {
-      type: "manual",
-      url: null,
-      number: null,
-      author: {
-        name: submitterName,
-        url: submitterUrl,
-      },
-    },
     source: {
       type: source.kind ?? "direct-link",
       name: sourceInfo.name,
       url: sourceInfo.url,
-      repository: null,
+      repository: sourceInfo.repository,
     },
-    extraction: {
-      mode: "direct",
-      section_path: ["inbox"],
-      anchor_text: url,
-      extracted_url: url,
-      surrounding_text: source.note ?? null,
-      confidence: "high",
-    },
-    credit: {
-      label: submitterName,
-      url: submitterUrl,
-    },
+    extraction,
   };
 }
 
@@ -394,15 +543,13 @@ export function buildNewCatalogItem(
   url: string,
   source: Source,
   discoveredAt: string,
-  submitter: { name: string; url: string | null } = DEFAULT_SUBMITTER
+  extraction?: Discovery["extraction"]
 ): CatalogItem {
   const github = parseGitHubUrl(url);
   const id = makeItemId(url);
   const name = github ? github.repo : url.split("/").pop() ?? url;
-  const submitterName = submitter.name;
-  const submitterUrl = submitter.url;
 
-  const discovery = buildDiscovery(url, source, discoveredAt, submitterName, submitterUrl);
+  const discovery = buildDiscovery(url, source, discoveredAt, extraction);
 
   return {
     id,
@@ -411,10 +558,6 @@ export function buildNewCatalogItem(
     canonical_url: url,
     identity: github ? { github_repo: `${github.owner}/${github.repo}` } : {},
     provenance: {
-      primary_credit: {
-        label: submitterName,
-        url: submitterUrl,
-      },
       discoveries: [discovery],
     },
     metadata: {
@@ -423,6 +566,7 @@ export function buildNewCatalogItem(
         forks: null,
         license: null,
         archived: null,
+        created_at: null,
         pushed_at: null,
         description: null,
         homepage: null,
@@ -437,6 +581,11 @@ export function buildNewCatalogItem(
       tags: [],
       confidence: null,
     },
+    curation: {
+      status: "pending",
+      reason: null,
+      evidence: [],
+    },
     placement: {
       primary_category: null,
       section: null,
@@ -449,6 +598,20 @@ export function buildNewCatalogItem(
 
 // ─── Resolve ──────────────────────────────────────────────────────────────────
 
+function normalizeDiscoveryTarget(url: string): string {
+  const normalizedGitHub = normalizeGitHubUrl(url);
+  if (normalizedGitHub !== url) return normalizedGitHub;
+  try {
+    const parsed = new URL(url);
+    parsed.hash = "";
+    parsed.search = "";
+    return parsed.toString().replace(/\/$/, "");
+  } catch {
+    return url.trim().replace(/\/+$/, "");
+  }
+}
+// ─── Resolve ──────────────────────────────────────────────────────────────────
+
 export function normalizeGitHubUrl(url: string): string {
   const match = url.match(/^https?:\/\/github\.com\/([^/]+)\/([^/]+?)(?:\.git)?(?:\/.*)?$/);
   if (match) {
@@ -457,69 +620,170 @@ export function normalizeGitHubUrl(url: string): string {
   return url;
 }
 
-export function resolveSource(source: Source): { url: string; normalized: string } {
-  const normalized = normalizeGitHubUrl(source.url);
-  return { url: source.url, normalized };
-}
-
 // ─── Discover ─────────────────────────────────────────────────────────────────
 
-export function discover(
+function buildSourceListSources(sources: Source[], existingItems: CatalogItem[]): Source[] {
+  const catalogSourceLists = existingItems
+    .filter(
+      (item) =>
+        item.kind === "github-repo" &&
+        item.curation.status === "included" &&
+        item.placement.primary_category === "awesome-awesomes"
+    )
+    .map((item) => ({
+      url: item.canonical_url,
+      kind: "awesome-list" as const,
+      note: item.insights.summary ?? item.metadata.github.description ?? item.curation.reason ?? undefined,
+    }));
+
+  return [...sources, ...catalogSourceLists];
+}
+
+function buildDirectDiscoveryCandidates(sources: Source[]): DiscoveryCandidate[] {
+  return sources
+    .filter((source) => !shouldSkipDiscoveredUrl(source.url))
+    .map((source) => {
+      const targetUrl = normalizeDiscoveryTarget(source.url);
+      return {
+        target_url: targetUrl,
+        source,
+        extraction: {
+          mode: "direct",
+          section_path: ["inbox"],
+          anchor_text: targetUrl,
+          extracted_url: targetUrl,
+          surrounding_text: source.note ?? null,
+          confidence: "high",
+        },
+      };
+    });
+}
+
+export function selectSourceListDiscoveryCandidates(
+  candidates: DiscoveryCandidate[],
+  blockedItemIds: Set<string>,
+  maxNewItemsPerRun: number
+): DiscoveryCandidate[] {
+  if (maxNewItemsPerRun <= 0) return [];
+
+  const grouped = new Map<string, DiscoveryCandidate[]>();
+
+  for (const candidate of candidates) {
+    const targetUrl = normalizeDiscoveryTarget(candidate.target_url);
+    const normalizedCandidate: DiscoveryCandidate = {
+      target_url: targetUrl,
+      source: candidate.source,
+      extraction: {
+        ...candidate.extraction,
+        extracted_url: normalizeDiscoveryTarget(candidate.extraction.extracted_url),
+      },
+    };
+    const group = grouped.get(targetUrl);
+    if (group) {
+      group.push(normalizedCandidate);
+      continue;
+    }
+    grouped.set(targetUrl, [normalizedCandidate]);
+  }
+
+  return [...grouped.entries()]
+    .map(([targetUrl, group]) => ({
+      targetUrl,
+      itemId: makeItemId(targetUrl),
+      support: new Set(group.map((candidate) => normalizeDiscoveryTarget(candidate.source.url))).size,
+      candidates: group,
+    }))
+    .filter((group) => !blockedItemIds.has(group.itemId))
+    .sort((a, b) => b.support - a.support || a.targetUrl.localeCompare(b.targetUrl))
+    .slice(0, maxNewItemsPerRun)
+    .flatMap((group) => group.candidates);
+}
+
+function buildDiscoveryCandidates(
   sources: Source[],
   existingItems: CatalogItem[],
-  submitter: { name: string; url: string | null } = DEFAULT_SUBMITTER
+  config: CatalogConfig
+): DiscoveryCandidate[] {
+  const directCandidates = buildDirectDiscoveryCandidates(sources);
+  const blockedItemIds = new Set(directCandidates.map((candidate) => makeItemId(candidate.target_url)));
+
+  const sourceListCandidates = loadSourceListDiscoveryCandidates(
+    buildSourceListSources(sources, existingItems)
+  );
+  const selectedSourceListCandidates = selectSourceListDiscoveryCandidates(
+    sourceListCandidates,
+    blockedItemIds,
+    config.source_lists.max_new_items_per_run
+  );
+
+  return [...directCandidates, ...selectedSourceListCandidates];
+}
+
+export function discoverCandidates(
+  candidates: DiscoveryCandidate[],
+  existingItems: CatalogItem[]
 ): {
   newItems: CatalogItem[];
   updatedItems: CatalogItem[];
 } {
   const newItems: CatalogItem[] = [];
-  const updatedItems: CatalogItem[] = [];
+  const newItemIndexes = new Map<string, number>();
+  const updatedById = new Map<string, CatalogItem>();
   const existingById = new Map(existingItems.map((item) => [item.id, item]));
   const discoveredAt = new Date().toISOString();
 
-  for (const source of sources) {
-    if (source.kind === "awesome-list") {
-      // TODO: Phase 7 - extract links from awesome list
-      // For now, catalog the awesome list itself
-    }
+  for (const candidate of candidates) {
+    if (shouldSkipDiscoveredUrl(candidate.target_url)) continue;
 
-    const { normalized } = resolveSource(source);
+    const normalized = normalizeDiscoveryTarget(candidate.target_url);
+    const extraction = {
+      ...candidate.extraction,
+      extracted_url: normalizeDiscoveryTarget(candidate.extraction.extracted_url),
+    };
     const id = makeItemId(normalized);
-    const existing = existingById.get(id);
+    const existing = updatedById.get(id) ?? existingById.get(id);
 
     if (!existing) {
-      // New item
-      const item = buildNewCatalogItem(normalized, source, discoveredAt, submitter);
+      const item = buildNewCatalogItem(normalized, candidate.source, discoveredAt, extraction);
+      newItemIndexes.set(id, newItems.length);
       newItems.push(item);
       existingById.set(id, item);
-    } else {
-      // Check if discovery already exists (by stable id, no date component).
-      const discoveryId = makeDiscoveryId(normalized, source);
-      const alreadyDiscovered = existing.provenance.discoveries.some((d) => d.id === discoveryId);
-
-      if (!alreadyDiscovered) {
-        // Add new discovery to existing item
-        const newDiscovery = buildDiscovery(
-          normalized,
-          source,
-          discoveredAt,
-          submitter.name,
-          submitter.url
-        );
-        const updated: CatalogItem = {
-          ...existing,
-          provenance: {
-            ...existing.provenance,
-            discoveries: [...existing.provenance.discoveries, newDiscovery],
-          },
-        };
-        updatedItems.push(updated);
-        existingById.set(id, updated);
-      }
+      continue;
     }
+
+    const newDiscovery = buildDiscovery(normalized, candidate.source, discoveredAt, extraction);
+    const alreadyDiscovered = existing.provenance.discoveries.some((discovery) => discovery.id === newDiscovery.id);
+    if (alreadyDiscovered) continue;
+
+    const updated: CatalogItem = {
+      ...existing,
+      provenance: {
+        ...existing.provenance,
+        discoveries: [...existing.provenance.discoveries, newDiscovery],
+      },
+    };
+    const newItemIndex = newItemIndexes.get(id);
+    if (newItemIndex !== undefined) {
+      newItems[newItemIndex] = updated;
+      existingById.set(id, updated);
+      continue;
+    }
+
+    updatedById.set(id, updated);
+    existingById.set(id, updated);
   }
 
-  return { newItems, updatedItems };
+  return { newItems, updatedItems: [...updatedById.values()] };
+}
+
+export function discover(
+  sources: Source[],
+  existingItems: CatalogItem[]
+): {
+  newItems: CatalogItem[];
+  updatedItems: CatalogItem[];
+} {
+  return discoverCandidates(buildDirectDiscoveryCandidates(sources), existingItems);
 }
 
 // ─── Enrich (GitHub metadata) ─────────────────────────────────────────────────
@@ -589,6 +853,8 @@ export async function enrichWithGitHub(
     };
   }
 
+  const shouldReevaluateCuration = item.metadata.github.created_at == null && data.created_at != null;
+
   return {
     ...item,
     metadata: {
@@ -597,6 +863,7 @@ export async function enrichWithGitHub(
         forks: data.forks,
         license: data.license,
         archived: data.archived,
+        created_at: data.created_at,
         pushed_at: data.pushed_at,
         description: data.description,
         homepage: data.homepage,
@@ -605,14 +872,194 @@ export async function enrichWithGitHub(
         readme: readmeProvenance,
       },
     },
+    curation: shouldReevaluateCuration
+      ? { status: "pending", reason: null, evidence: [] }
+      : item.curation,
   };
+}
+
+function hasInsightText(value: string | null): boolean {
+  return typeof value === "string" && value.trim().length > 0;
+}
+
+function isDirectAwesomeListSource(item: CatalogItem): boolean {
+  return item.provenance.discoveries.some(
+    (discovery) => discovery.source.type === "awesome-list" && discovery.extraction.mode === "direct"
+  );
+}
+
+function buildDirectAwesomeListEvidence(item: CatalogItem): string[] {
+  const evidence = ["Item was submitted directly as an awesome-list source."];
+  if (hasInsightText(item.metadata.github.description)) {
+    evidence.push(`Repo description: ${item.metadata.github.description}`);
+  }
+  const discoveryNote = item.provenance.discoveries
+    .map((discovery) => discovery.extraction.surrounding_text)
+    .find((note) => hasInsightText(note));
+  if (discoveryNote) {
+    evidence.push(`Discovery note: ${discoveryNote}`);
+  }
+  return evidence.slice(0, 3);
+}
+
+export function markExcludedItemsPending(
+  items: CatalogItem[]
+): { items: CatalogItem[]; resetIds: string[] } {
+  const resetIds: string[] = [];
+  const updatedItems = items.map((item) => {
+    if (item.curation.status !== "excluded") return item;
+    resetIds.push(item.id);
+    return {
+      ...item,
+      curation: { status: "pending" as const, reason: null, evidence: [] },
+    };
+  });
+
+  return { items: updatedItems, resetIds };
+}
+
+export function needsAIInsights(item: CatalogItem): boolean {
+  return (
+    !hasInsightText(item.insights.summary) ||
+    !hasInsightText(item.insights.why_it_matters) ||
+    !hasInsightText(item.insights.mental_damage) ||
+    item.insights.tags.length === 0 ||
+    item.insights.confidence === null ||
+    item.curation.status === "pending" ||
+    !hasInsightText(item.curation.reason)
+  );
+}
+
+export function applyAIInsights(
+  item: CatalogItem,
+  response: ReturnType<typeof parseAIInsightResponse>,
+  categories: Category[]
+): CatalogItem {
+  const validCategoryIds = new Set(categories.map((category) => category.id));
+  const aiPrimaryCategory =
+    (response.primary_category && validCategoryIds.has(response.primary_category)
+      ? response.primary_category
+      : null) ??
+    response.category_candidates.find((candidate) => validCategoryIds.has(candidate)) ??
+    null;
+
+  let shouldInclude = response.should_include;
+  let primaryCategory = shouldInclude
+    ? item.placement.primary_category ?? aiPrimaryCategory
+    : null;
+  let decisionReason = response.decision_reason;
+  let decisionEvidence = response.decision_evidence;
+
+  if (!shouldInclude && isDirectAwesomeListSource(item) && validCategoryIds.has("awesome-awesomes")) {
+    shouldInclude = true;
+    primaryCategory = item.placement.primary_category ?? "awesome-awesomes";
+    decisionReason =
+      "Included because this is a curated awesome list with developer-relevant entries; even when broader than our core slice, it remains a useful map and readers can decide what to follow.";
+    decisionEvidence = buildDirectAwesomeListEvidence(item);
+  }
+
+  if (shouldInclude && !item.placement.primary_category && !primaryCategory) {
+    throw new Error(`AI marked ${item.id} as included but did not provide a valid category`);
+  }
+
+  return {
+    ...item,
+    insights: {
+      summary: response.summary,
+      why_it_matters: response.why_it_matters,
+      mental_damage: response.mental_damage,
+      tags: response.tags,
+      confidence: response.confidence,
+    },
+    curation: {
+      status: shouldInclude ? "included" : "excluded",
+      reason: decisionReason,
+      evidence: decisionEvidence,
+    },
+    placement: {
+      ...item.placement,
+      primary_category: shouldInclude ? primaryCategory : null,
+    },
+  };
+}
+
+export async function enrichWithAIInsights(
+  item: CatalogItem,
+  categories: Category[],
+  runPrompt: (prompt: string) => Promise<string> = runCatalogAIPrompt
+): Promise<CatalogItem> {
+  if (!needsAIInsights(item)) return item;
+
+  const readme =
+    item.kind === "github-repo" && item.identity.github_repo
+      ? (() => {
+          const [owner, repo] = item.identity.github_repo.split("/");
+          return readReadmeFromCache(owner, repo);
+        })()
+      : null;
+
+  const prompt = buildInsightPrompt({
+    item,
+    categories: categories.map(
+      (category) => `${category.id} | ${category.name} | ${category.description}`
+    ),
+    source_contexts: loadSourceContextLinesForItem(item),
+    readme,
+  });
+
+  let lastError: unknown = null;
+  for (let attempt = 1; attempt <= 2; attempt += 1) {
+    try {
+      const raw = await runPrompt(prompt);
+      return applyAIInsights(item, parseAIInsightResponse(raw), categories);
+    } catch (error) {
+      lastError = error;
+      if (attempt === 2) break;
+    }
+  }
+
+  const message = lastError instanceof Error ? lastError.message : String(lastError);
+  throw new Error(`Catalog AI insight generation failed for ${item.id}: ${message}`);
+}
+
+async function materializeCatalogState(
+  categories: Category[],
+  overrides: Override[],
+  config: CatalogConfig
+): Promise<{ finalItems: CatalogItem[]; aiUpdatedIds: string[] }> {
+  let items = loadCatalogItems();
+  const aiUpdatedIds: string[] = [];
+
+  for (const item of items) {
+    const withInsights = await enrichWithAIInsights(item, categories);
+    if (withInsights !== item) {
+      saveCatalogItem(withInsights);
+      aiUpdatedIds.push(withInsights.id);
+    }
+  }
+
+  items = loadCatalogItems();
+
+  let finalItems = applyOverrides(items, overrides);
+  finalItems = finalItems.map((item) => applyPlacement(item, categories));
+
+  for (const item of finalItems) {
+    saveCatalogItem(item);
+  }
+
+  render(finalItems, categories);
+
+  return { finalItems, aiUpdatedIds };
 }
 
 // ─── Lifecycle ────────────────────────────────────────────────────────────────
 
+
 export function applyLifecycleRules(item: CatalogItem, config: CatalogConfig): CatalogItem {
   const { stars, archived } = item.metadata.github;
   const currentStatus = item.lifecycle.status;
+
+  if (item.curation.status === "excluded") return item;
 
   // Manual statuses always win (if set by override, they won't be touched here)
   if (currentStatus === "curated" || currentStatus === "landmark") {
@@ -655,6 +1102,8 @@ export function applyPlacement(
   item: CatalogItem,
   categories: Category[]
 ): CatalogItem {
+  if (item.curation.status !== "included") return item;
+
   // If already has placement, keep it
   if (item.placement.primary_category) return item;
 
@@ -695,6 +1144,16 @@ export function applyOverride(item: CatalogItem, override: Override): CatalogIte
         ...updated.insights,
         ...patch.insights,
       } as Insights,
+    };
+  }
+
+  if (patch.curation) {
+    updated = {
+      ...updated,
+      curation: {
+        ...updated.curation,
+        ...patch.curation,
+      },
     };
   }
 
@@ -740,22 +1199,16 @@ export function saveCatalogItem(item: CatalogItem): void {
 
 // ─── Render ───────────────────────────────────────────────────────────────────
 
-export function render(items: CatalogItem[], categories: Category[], config: CatalogConfig): void {
-  const { include_source_credits } = config.render;
-
+export function render(items: CatalogItem[], categories: Category[]): void {
   // Write README.md
-  const readme = renderReadme(items, categories, include_source_credits);
+  const readme = renderReadme(items, categories);
   writeReadme(readme);
 
   // Write rabbit-hole pages
   for (const category of categories) {
-    const page = renderRabbitHolePage(category, items, include_source_credits);
+    const page = renderRabbitHolePage(category, items);
     writeRabbitHolePage(category.slug, page);
   }
-
-  // Write dedicated source-credits page (external source lists/pages,
-  // not submitter identities)
-  writeSourceCreditsPage(renderSourceCreditsPage(items));
 
   // Write site/catalog.json
   const siteCatalog = renderSiteCatalog(items);
@@ -770,17 +1223,26 @@ export function buildReviewReport(
   allItems: CatalogItem[]
 ): ReviewReport {
   const promotionCandidates = allItems
-    .filter((item) => item.lifecycle.status === "promotion_candidate")
+    .filter((item) => item.curation.status === "included" && item.lifecycle.status === "promotion_candidate")
     .map((item) => item.id);
 
   const needsReview = allItems
-    .filter((item) => item.lifecycle.status === "needs_review")
+    .filter((item) => item.curation.status === "included" && item.lifecycle.status === "needs_review")
     .map((item) => item.id);
 
-  const newSourceCredits: string[] = [];
+  const externalSourceTypes = new Set([
+    "awesome-list",
+    "article",
+    "docs-page",
+    "newsletter",
+    "paper",
+  ]);
+  const newDiscoverySources: string[] = [];
   for (const item of newItems) {
     for (const discovery of item.provenance.discoveries) {
-      newSourceCredits.push(discovery.credit.label);
+      if (!externalSourceTypes.has(discovery.source.type)) continue;
+      const label = discovery.source.name ?? discovery.source.url ?? discovery.source.type;
+      newDiscoverySources.push(label);
     }
   }
 
@@ -789,7 +1251,7 @@ export function buildReviewReport(
     updated_metadata: updatedMetadataIds,
     promotion_candidates: promotionCandidates,
     needs_review: needsReview,
-    new_source_credits: [...new Set(newSourceCredits)],
+    new_discovery_sources: [...new Set(newDiscoverySources)],
   };
 }
 
@@ -800,7 +1262,7 @@ export function printReviewReport(report: ReviewReport): void {
   console.log(`Updated metadata:    ${report.updated_metadata.length}`);
   console.log(`Promotion candidates: ${report.promotion_candidates.length}`);
   console.log(`Needs review:        ${report.needs_review.length}`);
-  console.log(`New source credits:  ${report.new_source_credits.length}`);
+  console.log(`New discovery sources: ${report.new_discovery_sources.length}`);
 
   if (report.promotion_candidates.length > 0) {
     console.log("\n⭐ Promotion candidates:");
@@ -817,6 +1279,15 @@ export function printReviewReport(report: ReviewReport): void {
   }
 }
 
+function logStage(step: number, total: number, label: string, detail?: string): void {
+  const suffix = detail ? ` — ${detail}` : "";
+  console.log(`\n[${step}/${total}] ${label}${suffix}`);
+}
+
+function logCatalogAIModel(): void {
+  console.log(`AI model: GitHub Copilot (${resolveCatalogAIModel()})`);
+}
+
 // ─── Commands ─────────────────────────────────────────────────────────────────
 
 // ─── Refresh helpers ──────────────────────────────────────────────────────────
@@ -827,8 +1298,10 @@ export function printReviewReport(report: ReviewReport): void {
 export function shouldRefreshMetadata(
   lastCheckedAt: string | null,
   windowDays: number,
-  now: Date = new Date()
+  now: Date = new Date(),
+  missingCreatedAt: boolean = false
 ): boolean {
+  if (missingCreatedAt) return true;
   if (!lastCheckedAt) return true;
   const last = Date.parse(lastCheckedAt);
   if (Number.isNaN(last)) return true;
@@ -839,7 +1312,10 @@ export function shouldRefreshMetadata(
 
 export async function cmdRefresh(token?: string): Promise<void> {
   console.log("Refreshing catalog metadata...");
+  logCatalogAIModel();
   const config = loadConfig();
+  const categories = loadCategories();
+  const overrides = loadOverrides();
   const items = loadCatalogItems();
 
   if (items.length === 0) {
@@ -847,11 +1323,23 @@ export async function cmdRefresh(token?: string): Promise<void> {
     return;
   }
 
+  logStage(1, 4, "Load current catalog", `${items.length} item(s)`);
+  const sources = loadSources();
+  logStage(2, 4, "Refresh source-list cache");
+  await materializeSourceListMetadata(buildSourceListSources(sources, items), token);
+
   const updatedIds: string[] = [];
   const windowDays = config.github.metadata_refresh_days;
+  logStage(3, 4, "Refresh GitHub metadata", `${items.length} item(s) under evaluation`);
+
 
   for (const item of items) {
-    if (!shouldRefreshMetadata(item.metadata.github.last_checked_at, windowDays)) {
+    if (!shouldRefreshMetadata(
+      item.metadata.github.last_checked_at,
+      windowDays,
+      new Date(),
+      item.metadata.github.created_at == null
+    )) {
       continue;
     }
     const refreshed = await enrichWithGitHub(item, token);
@@ -861,33 +1349,86 @@ export async function cmdRefresh(token?: string): Promise<void> {
     }
   }
 
-  // Apply lifecycle rules after refresh
   const refreshedItems = loadCatalogItems();
   for (const item of refreshedItems) {
     const withLifecycle = applyLifecycleRules(item, config);
-    if (withLifecycle.lifecycle.status !== item.lifecycle.status) {
+    if (
+      withLifecycle.lifecycle.status !== item.lifecycle.status ||
+      withLifecycle.lifecycle.reason !== item.lifecycle.reason
+    ) {
       saveCatalogItem(withLifecycle);
     }
+  }
+
+  logStage(4, 4, "Materialize AI, placement, and generated output");
+  const { aiUpdatedIds } = await materializeCatalogState(categories, overrides, config);
+  if (aiUpdatedIds.length > 0) {
+    console.log(`🤖 Filled AI insights for ${aiUpdatedIds.length} item(s)`);
   }
 
   console.log(`✅ Refreshed metadata for ${updatedIds.length} item(s)`);
 }
 
+export async function cmdRerunExcluded(token?: string): Promise<void> {
+  console.log("Re-running AI curation for excluded items...");
+  logCatalogAIModel();
+  const config = loadConfig();
+  const categories = loadCategories();
+  const overrides = loadOverrides();
+  const currentItems = loadCatalogItems();
+  logStage(1, 4, "Load current catalog", `${currentItems.length} item(s)`);
+  const sources = loadSources();
+  logStage(2, 4, "Refresh source-list cache");
+  await materializeSourceListMetadata(buildSourceListSources(sources, currentItems), token);
+
+  const { items, resetIds } = markExcludedItemsPending(currentItems);
+
+  if (resetIds.length === 0) {
+    console.log("No excluded items to re-run.");
+    return;
+  }
+
+  logStage(3, 4, "Reset excluded items to pending", `${resetIds.length} item(s)`);
+  for (const item of items) {
+    saveCatalogItem(item);
+  }
+
+  logStage(4, 4, "Re-run AI, placement, and validation");
+  const { aiUpdatedIds } = await materializeCatalogState(categories, overrides, config);
+  const finalItems = loadCatalogItems();
+  const itemErrors = validateCatalogItems(finalItems);
+  if (itemErrors.length > 0) {
+    console.error("\n❌ Catalog validation errors after rerun-excluded:");
+    for (const err of itemErrors) {
+      console.error(`  [${err.path}] ${err.message}`);
+    }
+    process.exit(1);
+  }
+
+  console.log(`🤖 Re-ran AI curation for ${resetIds.length} excluded item(s)`);
+  console.log(`✅ Updated AI insights for ${aiUpdatedIds.length} item(s)`);
+  console.log(`✅ Catalog remains valid with ${finalItems.length} items.`);
+}
+
 export async function cmdUpdate(token?: string): Promise<void> {
   console.log("Running catalog update pipeline...");
+  logCatalogAIModel();
   const config = loadConfig();
 
   // 1. Load
   const sources = loadSources();
+  const scopeExamples = loadScopeExamples();
   const categories = loadCategories();
-  let existingItems = loadCatalogItems();
+  const existingItems = loadCatalogItems();
   const overrides = loadOverrides();
+  logStage(1, 6, "Load inputs", `${sources.length} source(s), ${existingItems.length} existing item(s)`);
 
   // 2. Validate sources
   const sourceErrors = validateSources(sources);
-  if (sourceErrors.length > 0) {
+  const scopeCoverageErrors = validateScopeCoverage(sources, scopeExamples.in_scope ?? []);
+  if (sourceErrors.length > 0 || scopeCoverageErrors.length > 0) {
     console.error("❌ Source validation errors:");
-    for (const err of sourceErrors) {
+    for (const err of [...sourceErrors, ...scopeCoverageErrors]) {
       console.error(`  [${err.path}] ${err.message}`);
     }
     process.exit(1);
@@ -910,10 +1451,17 @@ export async function cmdUpdate(token?: string): Promise<void> {
     process.exit(1);
   }
 
+  logStage(2, 6, "Refresh source-list cache");
+  await materializeSourceListMetadata(buildSourceListSources(sources, existingItems), token);
+
   // 3. Discover
-  const { newItems, updatedItems } = discover(sources, existingItems, config.credit.submitter);
+  logStage(3, 6, "Discover catalog candidates");
+  const discoveryCandidates = buildDiscoveryCandidates(sources, existingItems, config);
+  const { newItems, updatedItems } = discoverCandidates(discoveryCandidates, existingItems);
+  console.log(`Selected ${discoveryCandidates.length} discovery candidate(s): ${newItems.length} new, ${updatedItems.length} provenance update(s).`);
 
   // 4. Enrich (fetch GitHub metadata for new items)
+  logStage(4, 6, "Enrich new GitHub items", `${newItems.length} item(s)`);
   const enrichedNewItems: CatalogItem[] = [];
   for (const item of newItems) {
     const enriched = await enrichWithGitHub(item, token);
@@ -932,24 +1480,19 @@ export async function cmdUpdate(token?: string): Promise<void> {
     saveCatalogItem(item);
   }
 
-  // 7. Load all items fresh (includes newly saved)
-  existingItems = loadCatalogItems();
+  // 7. Materialize AI insights, overrides, placement, and rendered output
+  logStage(5, 6, "Materialize AI, placement, and generated output");
+  const { finalItems, aiUpdatedIds } = await materializeCatalogState(
+    categories,
+    overrides,
+    config
+  );
 
-  // 8. Apply overrides
-  let finalItems = applyOverrides(existingItems, overrides);
-
-  // 9. Apply placement
-  finalItems = finalItems.map((item) => applyPlacement(item, categories));
-
-  // 10. Save final items with overrides/placement applied
-  for (const item of finalItems) {
-    saveCatalogItem(item);
+  if (aiUpdatedIds.length > 0) {
+    console.log(`🤖 Filled AI insights for ${aiUpdatedIds.length} item(s)`);
   }
 
-  // 11. Render
-  render(finalItems, categories, config);
-
-  // 12. Review report
+  // 8. Review report
   const report = buildReviewReport(
     allNewItems,
     allUpdatedItems.map((i) => i.id),
@@ -957,7 +1500,8 @@ export async function cmdUpdate(token?: string): Promise<void> {
   );
   printReviewReport(report);
 
-  // 13. Validate
+  // 9. Validate
+  logStage(6, 6, "Validate final catalog", `${finalItems.length} item(s)`);
   const itemErrors = validateCatalogItems(finalItems);
   if (itemErrors.length > 0) {
     console.error("\n❌ Catalog validation errors after update:");
@@ -974,7 +1518,7 @@ export async function cmdUpdate(token?: string): Promise<void> {
 
 const [, , command] = process.argv;
 
-const token = process.env["GITHUB_TOKEN"];
+const token = process.env["GITHUB_TOKEN"] ?? process.env["GH_TOKEN"];
 
 if (command === "update") {
   cmdUpdate(token).catch((e) => {
@@ -986,6 +1530,11 @@ if (command === "update") {
     console.error(e);
     process.exit(1);
   });
+} else if (command === "rerun-excluded") {
+  cmdRerunExcluded(token).catch((e) => {
+    console.error(e);
+    process.exit(1);
+  });
 } else if (command === "validate") {
   cmdValidate().catch((e) => {
     console.error(e);
@@ -993,6 +1542,6 @@ if (command === "update") {
   });
 } else if (command !== undefined) {
   console.error(`Unknown command: ${command}`);
-  console.error("Usage: npm run catalog -- [update|refresh|validate]");
+  console.error("Usage: npm run catalog -- [update|refresh|rerun-excluded|validate]");
   process.exit(1);
 }
