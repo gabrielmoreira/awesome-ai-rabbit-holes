@@ -1,10 +1,10 @@
 // scripts/render.ts
 // Renders README, rabbit-hole pages, and site/catalog.json.
 
-import * as fs from "node:fs";
 import * as path from "node:path";
 import { fileURLToPath } from "node:url";
-import type { CatalogItem, Category } from "./types.js";
+import { writeTextFileIfChanged } from "./files.ts";
+import type { CatalogItem, Category } from "./types.ts";
 
 const REPO_ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 
@@ -20,43 +20,97 @@ Do not try to read everything.
 
 Pick one rabbit hole, follow it until it becomes useful or emotionally dangerous, then stop.`;
 
-const SOURCE_CREDITS_INTRO = `Humanity seems to be speedrunning a very weird AI casino: every new tool is another shiny slot machine, every benchmark is a jackpot animation, and somehow we keep pulling the lever while insisting this is productivity research. This catalog exists because someone had to keep track of the machines before we started calling the blinking lights a methodology.
+function ensureSentence(text: string | null): string | null {
+  if (typeof text !== "string") return null;
+  const trimmed = text.trim();
+  if (trimmed.length === 0) return null;
+  return /[.!?]$/.test(trimmed) ? trimmed : `${trimmed}.`;
+}
 
-For the full list of awesome lists, indexes, and source pages we shamelessly mined for rabbit holes, see the dedicated [Source Credits](docs/source-credits.md) page or browse the [Awesome Awesomes](docs/rabbit-holes/awesome-awesomes.md) rabbit hole.`;
+function firstSentence(text: string): string {
+  const trimmed = text.trim();
+  const match = trimmed.match(/^.*?[.!?](?=\s|$)/);
+  return (match ? match[0] : trimmed).trim();
+}
 
-// Source `type`s that represent an *external page* we discovered links from,
-// as opposed to a manual submission. Only these belong on the public Source
-// Credits page; submitter identity stays in structured provenance data.
-const EXTERNAL_SOURCE_TYPES = new Set([
-  "awesome-list",
-  "article",
-  "docs-page",
-  "newsletter",
-  "paper",
-]);
+function compareCatalogItemsByStars(a: CatalogItem, b: CatalogItem): number {
+  const starsA = a.metadata.github.stars ?? -1;
+  const starsB = b.metadata.github.stars ?? -1;
+  if (starsA !== starsB) return starsB - starsA;
+  const byName = a.name.localeCompare(b.name);
+  if (byName !== 0) return byName;
+  return a.canonical_url.localeCompare(b.canonical_url);
+}
 
-export function renderReadme(
-  items: CatalogItem[],
-  categories: Category[],
-  includeSourceCredits: boolean
-): string {
-  const lines: string[] = [README_INTRO, "", "## Rabbit Holes", ""];
+function formatStars(stars: number | null): string {
+  if (stars === null || !Number.isFinite(stars)) return "?";
+  if (stars >= 1_000_000) {
+    return `${(stars / 1_000_000).toFixed(1).replace(/\.0$/, "")}M`;
+  }
+  if (stars >= 1_000) {
+    return `${(stars / 1_000).toFixed(1).replace(/\.0$/, "")}k`;
+  }
+  return String(stars);
+}
 
-  const categoriesWithItems = categories.filter((cat) =>
-    items.some(
-      (item) =>
-        item.placement.primary_category === cat.id &&
-        item.lifecycle.status !== "incubating" &&
-        item.lifecycle.status !== "needs_review"
-    )
-  );
+function renderToolBullet(item: CatalogItem): string {
+  const summary = ensureSentence(item.insights.summary) ?? "No summary yet.";
+  return `- **[${item.name}](${item.canonical_url})** \`⭐ ${formatStars(item.metadata.github.stars)}\` ${summary}`;
+}
 
-  for (const cat of categoriesWithItems) {
-    lines.push(`- [${cat.name}](docs/rabbit-holes/${cat.slug}.md)`);
+function renderToolDetails(item: CatalogItem): string[] {
+  const whyItMatters = ensureSentence(item.insights.why_it_matters);
+  const punchline = ensureSentence(item.insights.mental_damage);
+  const tagLine = item.insights.tags.length > 0
+    ? item.insights.tags.map((tag) => `\`${tag}\``).join(" ")
+    : null;
+
+  if (!whyItMatters && !punchline && !tagLine) return [];
+
+  const lines = ["<details><summary>More about</summary>", ""];
+
+  if (whyItMatters) {
+    lines.push(`  ${whyItMatters}`, "");
   }
 
-  if (includeSourceCredits) {
-    lines.push("", "## Source Credits", "", SOURCE_CREDITS_INTRO);
+  if (punchline) {
+    lines.push(`  _${punchline}_`, "");
+  }
+
+  if (tagLine) {
+    lines.push(`  ${tagLine}`, "");
+  }
+
+  if (lines[lines.length - 1] === "") lines.pop();
+  lines.push("  </details>");
+  return lines;
+}
+
+function renderToolList(items: CatalogItem[]): string[] {
+  const lines: string[] = [];
+
+  for (const item of [...items].sort(compareCatalogItemsByStars)) {
+    const details = renderToolDetails(item);
+    if (details.length === 0) {
+      lines.push(renderToolBullet(item), "");
+      continue;
+    }
+
+    lines.push(`${renderToolBullet(item)} ${details[0]}`);
+    lines.push(...details.slice(1));
+    lines.push("");
+  }
+
+  return lines;
+}
+
+export function renderReadme(_items: CatalogItem[], categories: Category[]): string {
+  const lines: string[] = [README_INTRO, "", "## Rabbit Holes", ""];
+
+  for (const cat of categories) {
+    lines.push(
+      `- [${cat.name}](docs/rabbit-holes/${cat.slug}.md) — ${firstSentence(cat.description)}`
+    );
   }
 
   return lines.join("\n") + "\n";
@@ -64,19 +118,18 @@ export function renderReadme(
 
 export function renderRabbitHolePage(
   category: Category,
-  items: CatalogItem[],
-  includeSourceCredits: boolean
+  items: CatalogItem[]
 ): string {
   const categoryItems = items.filter(
-    (item) => item.placement.primary_category === category.id
+    (item) => item.curation.status === "included" && item.placement.primary_category === category.id
   );
 
-  const activeItems = categoryItems.filter(
+  const activeItems = [...categoryItems.filter(
     (item) => item.lifecycle.status !== "incubating" && item.lifecycle.status !== "needs_review"
-  );
-  const incubatingItems = categoryItems.filter(
+  )].sort(compareCatalogItemsByStars);
+  const incubatingItems = [...categoryItems.filter(
     (item) => item.lifecycle.status === "incubating"
-  );
+  )].sort(compareCatalogItemsByStars);
 
   const lines: string[] = [
     `# ${category.name}`,
@@ -86,44 +139,29 @@ export function renderRabbitHolePage(
   ];
 
   if (activeItems.length > 0) {
-    lines.push("## Tools & Resources", "");
-    for (const item of activeItems) {
-      lines.push(`### [${item.name}](${item.canonical_url})`, "");
-      if (item.insights.summary) {
-        lines.push(item.insights.summary, "");
-      }
-      if (item.insights.why_it_matters) {
-        lines.push(`**Why it matters:** ${item.insights.why_it_matters}`, "");
-      }
-      if (item.insights.mental_damage) {
-        lines.push(`> ${item.insights.mental_damage}`, "");
-      }
-      if (item.insights.tags.length > 0) {
-        lines.push(item.insights.tags.map((t) => `\`${t}\``).join(" "), "");
-      }
-      if (includeSourceCredits) {
-        const credit = item.provenance.primary_credit;
-        if (credit.url) {
-          lines.push(`*via [${credit.label}](${credit.url})*`, "");
-        } else {
-          lines.push(`*via ${credit.label}*`, "");
-        }
-      }
-    }
+    lines.push("## Tools & Resources", "", ...renderToolList(activeItems));
   }
 
   if (incubatingItems.length > 0) {
-    lines.push("## Incubating", "", "_These are new or low-traffic entries being watched._", "");
-    for (const item of incubatingItems) {
-      lines.push(`- [${item.name}](${item.canonical_url})`);
-      if (item.insights.summary) {
-        lines.push(`  ${item.insights.summary}`);
-      }
-    }
-    lines.push("");
+    lines.push(
+      "## Incubating",
+      "",
+      "_These are new or low-traffic entries being watched._",
+      "",
+      ...renderToolList(incubatingItems)
+    );
   }
 
-  return lines.join("\n");
+  if (activeItems.length === 0 && incubatingItems.length === 0) {
+    lines.push(
+      "## Nothing Here Yet",
+      "",
+      "_Even the hype forgot to stop here._",
+      ""
+    );
+  }
+
+  return lines.join("\n").trimEnd();
 }
 
 export interface SiteCatalogItem {
@@ -136,7 +174,6 @@ export interface SiteCatalogItem {
   primary_category: string | null;
   lifecycle_status: string;
   stars: number | null;
-  credit: CatalogItem["provenance"]["primary_credit"];
 }
 
 export interface SiteCatalog {
@@ -155,9 +192,13 @@ export function renderSiteCatalog(items: CatalogItem[]): SiteCatalog {
     .sort();
   const latest = checkedAts.length > 0 ? checkedAts[checkedAts.length - 1] : null;
 
+  const sortedItems = [...items]
+    .filter((item) => item.curation.status === "included")
+    .sort(compareCatalogItemsByStars);
+
   return {
     generated_at: latest,
-    items: items.map((item) => ({
+    items: sortedItems.map((item) => ({
       id: item.id,
       kind: item.kind,
       name: item.name,
@@ -167,77 +208,21 @@ export function renderSiteCatalog(items: CatalogItem[]): SiteCatalog {
       primary_category: item.placement.primary_category,
       lifecycle_status: item.lifecycle.status,
       stars: item.metadata.github.stars,
-      credit: item.provenance.primary_credit,
     })),
   };
 }
 
-function collectSourceCredits(
-  items: CatalogItem[]
-): Array<{ label: string; url: string | null }> {
-  const seen = new Set<string>();
-  const credits: Array<{ label: string; url: string | null }> = [];
-
-  for (const item of items) {
-    for (const discovery of item.provenance.discoveries) {
-      if (!EXTERNAL_SOURCE_TYPES.has(discovery.source.type)) continue;
-      const sourceUrl = discovery.source.url;
-      const sourceName = discovery.source.name;
-      // Dedupe on URL when present, otherwise on name.
-      const key = sourceUrl ?? `name:${sourceName}`;
-      if (seen.has(key)) continue;
-      seen.add(key);
-      credits.push({ label: sourceName, url: sourceUrl });
-    }
-  }
-
-  return credits;
-}
-
-const SOURCE_CREDITS_PAGE_INTRO = `# Source Credits
-
-This catalog did not emerge from divine inspiration. Most of the rabbit holes here were discovered by mining other people's awesome lists, indexes, articles, docs, and newsletters. The pages below did the curation work first; this catalog just remixes their findings into yet another rabbit hole.
-
-If you maintain one of these and want to be removed, opened up with more detail, or merged with a sibling list, open an issue.`;
-
-export function renderSourceCreditsPage(items: CatalogItem[]): string {
-  const credits = collectSourceCredits(items);
-  const lines: string[] = [SOURCE_CREDITS_PAGE_INTRO, "", "## Sources", ""];
-
-  if (credits.length === 0) {
-    lines.push("_No external source pages have been mined yet._", "");
-  } else {
-    for (const credit of credits) {
-      if (credit.url) {
-        lines.push(`- [${credit.label}](${credit.url})`);
-      } else {
-        lines.push(`- ${credit.label}`);
-      }
-    }
-    lines.push("");
-  }
-
-  return lines.join("\n");
-}
-
 export function writeReadme(content: string): void {
-  fs.writeFileSync(path.join(REPO_ROOT, "README.md"), content, "utf8");
+  writeTextFileIfChanged(path.join(REPO_ROOT, "README.md"), content);
 }
 
 export function writeRabbitHolePage(slug: string, content: string): void {
-  const dir = path.join(REPO_ROOT, "docs", "rabbit-holes");
-  fs.mkdirSync(dir, { recursive: true });
-  fs.writeFileSync(path.join(dir, `${slug}.md`), content, "utf8");
-}
-
-export function writeSourceCreditsPage(content: string): void {
-  const dir = path.join(REPO_ROOT, "docs");
-  fs.mkdirSync(dir, { recursive: true });
-  fs.writeFileSync(path.join(dir, "source-credits.md"), content, "utf8");
+  writeTextFileIfChanged(path.join(REPO_ROOT, "docs", "rabbit-holes", `${slug}.md`), content);
 }
 
 export function writeSiteCatalog(data: object): void {
-  const dir = path.join(REPO_ROOT, "site");
-  fs.mkdirSync(dir, { recursive: true });
-  fs.writeFileSync(path.join(dir, "catalog.json"), JSON.stringify(data, null, 2) + "\n", "utf8");
+  writeTextFileIfChanged(
+    path.join(REPO_ROOT, "site", "catalog.json"),
+    JSON.stringify(data, null, 2) + "\n"
+  );
 }
