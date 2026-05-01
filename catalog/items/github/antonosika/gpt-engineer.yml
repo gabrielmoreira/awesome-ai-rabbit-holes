@@ -1,0 +1,119 @@
+id: github__antonosika__gpt-engineer
+kind: github-repo
+name: gpt-engineer
+canonical_url: https://github.com/antonosika/gpt-engineer
+identity:
+  github_repo: antonosika/gpt-engineer
+provenance:
+  discoveries:
+    - id: discovery__github__antonosika__gpt-engineer__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-01T13:51:25.374Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - "[GPT Engineer](https://gptengineer.app/)"
+          - Links
+        anchor_text: GitHub
+        extracted_url: https://github.com/antonosika/gpt-engineer
+        surrounding_text: "- [GitHub](https://github.com/AntonOsika/gpt-engineer)"
+        confidence: high
+    - id: discovery__github__antonosika__gpt-engineer__awesome-list__vivy-yi__awesome-agent-orchestration
+      discovered_at: "2026-05-01T13:51:25.374Z"
+      source:
+        type: awesome-list
+        name: vivy-yi/awesome-agent-orchestration
+        url: https://github.com/vivy-yi/awesome-agent-orchestration
+        repository: vivy-yi/awesome-agent-orchestration
+      extraction:
+        mode: parsed
+        section_path:
+          - Core Frameworks
+          - Lightweight & Specialized Agents
+        anchor_text: GPT-Engineer
+        extracted_url: https://github.com/antonosika/gpt-engineer
+        surrounding_text: "| [GPT-Engineer](https://github.com/AntonOsika/gpt-engineer) | Agent for generating full projects from specs | ![Stars](https://img.shields.io/github/stars/AntonOsika/gpt-engineer) |"
+        confidence: high
+    - id: discovery__github__antonosika__gpt-engineer__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-05-01T13:51:25.374Z"
+      source:
+        type: awesome-list
+        name: janhq/awesome-local-ai
+        url: https://github.com/janhq/awesome-local-ai
+        repository: janhq/awesome-local-ai
+      extraction:
+        mode: parsed
+        section_path:
+          - Agents
+        anchor_text: GPT Engineer
+        extracted_url: https://github.com/antonosika/gpt-engineer
+        surrounding_text: "- [GPT Engineer](https://github.com/AntonOsika/gpt-engineer) - Specify what you want it to build, the AI asks for clarification, and then builds it."
+        confidence: high
+    - id: discovery__github__antonosika__gpt-engineer__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-01T13:51:25.374Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Coding Agents
+        anchor_text: GPT Engineer
+        extracted_url: https://github.com/antonosika/gpt-engineer
+        surrounding_text: "- **[GPT Engineer](https://github.com/AntonOsika/gpt-engineer)** – AI agent for building full applications from natural language."
+        confidence: high
+metadata:
+  github:
+    stars: 55231
+    forks: 7322
+    license: MIT
+    archived: true
+    created_at: "2023-04-29T12:52:15Z"
+    pushed_at: "2025-05-14T10:15:10Z"
+    description: "CLI platform to experiment with codegen. Precursor to: https://lovable.dev"
+    homepage: ""
+    topics:
+      - ai
+      - autonomous-agent
+      - code-generation
+      - codebase-generation
+      - codegen
+      - coding-assistant
+      - gpt-4
+      - gpt-engineer
+      - openai
+      - python
+    last_checked_at: "2026-05-01T13:51:37.609Z"
+    readme:
+      fetched_at: "2026-05-01T13:51:37.609Z"
+      bytes: 7857
+insights:
+  summary: A CLI tool for experimenting with AI-driven code generation that can create new projects from a prompt file and iteratively improve existing code.
+  why_it_matters: It gives developers a reproducible “prompt → codebase” workflow (plus an -i improve loop) to prototype quickly and benchmark agent variants without building an agent harness from scratch.
+  mental_damage: Nothing says “calm engineering process” like committing to a repo that invites you to “sit back and watch” while it executes code it just invented.
+  tags:
+    - coding-agent
+    - code-generation
+    - cli
+    - benchmarking
+    - prompt-workflow
+  confidence: high
+curation:
+  status: excluded
+  reason: Despite strong historical relevance and clear developer-tooling fit, the repo is explicitly archived, so it’s better treated as legacy context rather than a maintained recommendation in a curated catalog.
+  evidence:
+    - "Archived: yes"
+    - README positions it as the 'OG code generation experimentation platform' and points readers to alternatives like a managed service and 'aider' for a well maintained CLI
+    - High ecosystem traction and directory presence (55k+ stars; listed under 'Coding Agents' and multiple agent lists)
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: needs_review
+  reason: Repository is archived

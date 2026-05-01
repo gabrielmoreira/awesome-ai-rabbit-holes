@@ -1,0 +1,128 @@
+id: github__geekan__metagpt
+kind: github-repo
+name: metagpt
+canonical_url: https://github.com/geekan/metagpt
+identity:
+  github_repo: geekan/metagpt
+provenance:
+  discoveries:
+    - id: discovery__github__geekan__metagpt__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-01T13:51:25.374Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - "[MetaGPT](https://github.com/geekan/MetaGPT)"
+        anchor_text: image
+        extracted_url: https://github.com/geekan/metagpt
+        surrounding_text: "![image](https://github.com/geekan/MetaGPT/raw/main/docs/resources/MetaGPT-new-log.png)"
+        confidence: high
+    - id: discovery__github__geekan__metagpt__awesome-list__vivy-yi__awesome-agent-orchestration
+      discovered_at: "2026-05-01T13:51:25.374Z"
+      source:
+        type: awesome-list
+        name: vivy-yi/awesome-agent-orchestration
+        url: https://github.com/vivy-yi/awesome-agent-orchestration
+        repository: vivy-yi/awesome-agent-orchestration
+      extraction:
+        mode: parsed
+        section_path:
+          - Core Frameworks
+          - Multi-Agent Orchestration Frameworks
+        anchor_text: MetaGPT
+        extracted_url: https://github.com/geekan/metagpt
+        surrounding_text: "| [MetaGPT](https://github.com/geekan/MetaGPT) | Multi-agent framework for software development with role assignment | ![Stars](https://img.shields.io/github/stars/geekan/MetaGPT) |"
+        confidence: high
+    - id: discovery__github__geekan__metagpt__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-05-01T13:51:25.374Z"
+      source:
+        type: awesome-list
+        name: janhq/awesome-local-ai
+        url: https://github.com/janhq/awesome-local-ai
+        repository: janhq/awesome-local-ai
+      extraction:
+        mode: parsed
+        section_path:
+          - Agents
+        anchor_text: MetaGPT
+        extracted_url: https://github.com/geekan/metagpt
+        surrounding_text: "- [MetaGPT](https://github.com/geekan/MetaGPT) - The Multi-Agent Framework: Given one line requirement, return PRD, design, tasks, repo."
+        confidence: high
+    - id: discovery__github__geekan__metagpt__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-01T13:51:25.374Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Other LLM Frameworks
+        anchor_text: MetaGPT
+        extracted_url: https://github.com/geekan/metagpt
+        surrounding_text: "- [MetaGPT](https://github.com/geekan/MetaGPT): The Multi-Agent Meta Programming Framework: Given one line Requirement, return PRD, Design, Tasks, Repo and CI ![GitHub Repo stars](https://img.shields.io/github/stars/geekan/MetaGPT?style=social)"
+        confidence: high
+    - id: discovery__github__geekan__metagpt__awesome-list__kaushikb11__awesome-llm-agents
+      discovered_at: "2026-05-01T13:51:25.374Z"
+      source:
+        type: awesome-list
+        name: kaushikb11/awesome-llm-agents
+        url: https://github.com/kaushikb11/awesome-llm-agents
+        repository: kaushikb11/awesome-llm-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Frameworks
+        anchor_text: MetaGPT
+        extracted_url: https://github.com/geekan/metagpt
+        surrounding_text: "- Command execution- [MetaGPT](https://github.com/geekan/MetaGPT) - Multi-agent framework for software"
+        confidence: high
+metadata:
+  github:
+    stars: 67596
+    forks: 8586
+    license: MIT
+    archived: false
+    created_at: "2023-06-30T09:04:55Z"
+    pushed_at: "2026-01-21T10:12:33Z"
+    description: "🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming"
+    homepage: https://atoms.dev/
+    topics:
+      - agent
+      - gpt
+      - llm
+      - metagpt
+      - multi-agent
+    last_checked_at: "2026-05-01T13:51:36.157Z"
+    readme:
+      fetched_at: "2026-05-01T13:51:36.157Z"
+      bytes: 8215
+insights:
+  summary: MetaGPT is an open-source multi-agent framework that assigns software-team roles (PM, architect, engineers) to LLMs to generate software artifacts and code from a natural-language requirement.
+  why_it_matters: It offers a “one prompt → structured plan/docs/APIs/repo” workflow that can help developers prototype or scaffold projects by orchestrating multiple specialized agent roles instead of a single chat session.
+  mental_damage: It normalizes the idea that your “team” now includes a product manager bot that can block your PR because the SOP says so.
+  tags:
+    - multi-agent
+    - agent-orchestration
+    - coding-agent
+    - python
+    - llm-framework
+  confidence: high
+curation:
+  status: included
+  reason: Include because it’s a widely used, actively maintained multi-agent orchestration framework aimed at developer workflows (turning requirements into coordinated software outputs), best fitting Agent Orchestration over a single coding assistant.
+  evidence:
+    - "README: takes a one-line requirement and outputs user stories/requirements/data structures/APIs/docs via orchestrated roles (PM/architect/engineers) and SOPs"
+    - "CLI usage: `metagpt \"Create a 2048 game\"` generates a repo in `./workspace` and it can be used as a Python library"
+    - "Strong traction and credibility signals: 67k+ stars, MIT license, not archived, recent activity (pushed 2026-01-21) and listed across multiple agent-framework awesome lists"
+placement:
+  primary_category: agent-orchestration
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (67596) exceeded threshold (150)

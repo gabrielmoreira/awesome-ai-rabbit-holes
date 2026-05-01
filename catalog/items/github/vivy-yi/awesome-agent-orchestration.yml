@@ -1,0 +1,77 @@
+id: github__vivy-yi__awesome-agent-orchestration
+kind: github-repo
+name: awesome-agent-orchestration
+canonical_url: https://github.com/vivy-yi/awesome-agent-orchestration
+identity:
+  github_repo: vivy-yi/awesome-agent-orchestration
+provenance:
+  discoveries:
+    - id: discovery__github__vivy-yi__awesome-agent-orchestration__awesome-list__vivy-yi__awesome-agent-orchestration
+      discovered_at: "2026-05-01T13:51:25.374Z"
+      source:
+        type: awesome-list
+        name: vivy-yi/awesome-agent-orchestration
+        url: https://github.com/vivy-yi/awesome-agent-orchestration
+        repository: vivy-yi/awesome-agent-orchestration
+      extraction:
+        mode: direct
+        section_path:
+          - inbox
+        anchor_text: https://github.com/vivy-yi/awesome-agent-orchestration
+        extracted_url: https://github.com/vivy-yi/awesome-agent-orchestration
+        surrounding_text: Agent orchestration.
+        confidence: high
+metadata:
+  github:
+    stars: 5
+    forks: 0
+    license: NOASSERTION
+    archived: false
+    created_at: "2026-03-05T11:29:50Z"
+    pushed_at: "2026-03-05T14:04:38Z"
+    description: "⭐ Curated list of AI Agent frameworks: AutoGen, CrewAI, MetaGPT, LangGraph, Swarms. Multi-Agent Systems, Swarm Intelligence, A2A Protocol, MCP Protocol. LLM Agents, Agentic AI, Agent Workflows."
+    homepage: null
+    topics:
+      - a2a-protocol
+      - agent-orchestration
+      - ai-agent
+      - autogen
+      - awesome-list
+      - crewai
+      - deep-learning
+      - langgraph
+      - llm-agents
+      - machine-learning
+      - mcp
+      - metagpt
+      - multi-agent
+      - swarm-intelligence
+      - swarms
+    last_checked_at: "2026-05-01T13:51:30.080Z"
+    readme:
+      fetched_at: "2026-05-01T13:51:30.080Z"
+      bytes: 32727
+insights:
+  summary: A curated awesome list of AI agent orchestration frameworks, multi-agent systems concepts, and related protocols like A2A and MCP.
+  why_it_matters: If you’re evaluating multi-agent frameworks or interoperability protocols, this acts as a map of the current ecosystem so you can compare options before committing to a stack.
+  mental_damage: It’s a helpful index, but it also turns “pick a framework” into “choose a taxonomy, a protocol, and a philosophy of swarms” before you’ve even written your first agent.
+  tags:
+    - awesome-list
+    - agent-orchestration
+    - multi-agent
+    - mcp
+    - a2a-protocol
+  confidence: medium
+curation:
+  status: included
+  reason: Include because it’s explicitly a navigation-focused awesome list for developer-relevant agent orchestration frameworks and protocols, which fits best as an ecosystem map under awesome-awesomes.
+  evidence:
+    - "Repo description: \"Curated list of AI Agent frameworks\" including AutoGen, CrewAI, MetaGPT, LangGraph, Swarms plus A2A/MCP"
+    - README positions it as a comprehensive curated list with sections for frameworks, protocols, patterns, and tools & infrastructure
+    - "Direct awesome list source: yes; not archived"
+placement:
+  primary_category: awesome-awesomes
+  section: null
+lifecycle:
+  status: incubating
+  reason: null

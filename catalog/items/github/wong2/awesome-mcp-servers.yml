@@ -1,0 +1,62 @@
+id: github__wong2__awesome-mcp-servers
+kind: github-repo
+name: awesome-mcp-servers
+canonical_url: https://github.com/wong2/awesome-mcp-servers
+identity:
+  github_repo: wong2/awesome-mcp-servers
+provenance:
+  discoveries:
+    - id: discovery__github__wong2__awesome-mcp-servers__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-01T13:51:25.374Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: direct
+        section_path:
+          - inbox
+        anchor_text: https://github.com/wong2/awesome-mcp-servers
+        extracted_url: https://github.com/wong2/awesome-mcp-servers
+        surrounding_text: MCP servers.
+        confidence: high
+metadata:
+  github:
+    stars: 4028
+    forks: 1221
+    license: MIT
+    archived: false
+    created_at: "2024-11-28T12:27:45Z"
+    pushed_at: "2026-04-30T14:42:37Z"
+    description: A curated list of Model Context Protocol (MCP) servers
+    homepage: https://mcpservers.org
+    topics: []
+    last_checked_at: "2026-05-01T13:51:28.964Z"
+    readme:
+      fetched_at: "2026-05-01T13:51:28.964Z"
+      bytes: 99980
+insights:
+  summary: A curated awesome list of Model Context Protocol (MCP) servers.
+  why_it_matters: If you’re building or using agent tooling, this is a high-signal map of MCP integrations (official and reference servers) you can plug into developer workflows.
+  mental_damage: It’s a comforting directory until you realize “just add one more MCP server” is how your agent stack becomes a dependency graph with feelings.
+  tags:
+    - mcp
+    - awesome-list
+    - tooling
+    - agents
+    - integrations
+  confidence: high
+curation:
+  status: included
+  reason: Include because it’s a widely-used, actively maintained navigation hub specifically for MCP servers, which are directly in-scope developer tooling for agent integrations.
+  evidence:
+    - "Repo description: “A curated list of Model Context Protocol (MCP) servers”"
+    - README highlights reference servers (Filesystem, Git, Memory, etc.) and many official MCP integrations
+    - "Strong traction and recency: 4028 stars, not archived, pushed 2026-04-30"
+placement:
+  primary_category: awesome-awesomes
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (4028) exceeded threshold (150)

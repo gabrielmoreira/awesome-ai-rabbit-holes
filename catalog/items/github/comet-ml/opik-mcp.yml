@@ -1,0 +1,98 @@
+id: github__comet-ml__opik-mcp
+kind: github-repo
+name: opik-mcp
+canonical_url: https://github.com/comet-ml/opik-mcp
+identity:
+  github_repo: comet-ml/opik-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__comet-ml__opik-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-01T13:51:25.374Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: Comet-ML/Opik-MCP
+        extracted_url: https://github.com/comet-ml/opik-mcp
+        surrounding_text: "- [Comet-ML/Opik-MCP](https://github.com/comet-ml/opik-mcp) 🎖️ 📇 ☁️ 🏠 - Use natural language to explore LLM observability, traces, and monitoring data captured by Opik."
+        confidence: high
+    - id: discovery__github__comet-ml__opik-mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-01T13:51:25.374Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Comet Opik
+        extracted_url: https://github.com/comet-ml/opik-mcp
+        surrounding_text: "- **[Comet Opik](https://github.com/comet-ml/opik-mcp)** - Query and analyze your [Opik](https://github.com/comet-ml/opik) logs, traces, prompts and all other telemtry data from your LLMs in natural language."
+        confidence: high
+    - id: discovery__github__comet-ml__opik-mcp__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-05-01T13:51:25.374Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/MobinX/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - null
+          - 💻 Developer Tools
+        anchor_text: Comet-ML/Opik-MCP
+        extracted_url: https://github.com/comet-ml/opik-mcp
+        surrounding_text: "-   **[Comet-ML/Opik-MCP](https://github.com/comet-ml/opik-mcp)** [![GitHub stars](https://img.shields.io/github/stars/comet-ml/opik-mcp?style=social)](https://github.com/comet-ml/opik-mcp): Enables querying of LLM observability data captured by Opik."
+        confidence: high
+metadata:
+  github:
+    stars: 203
+    forks: 30
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-03-11T16:31:03Z"
+    pushed_at: "2026-03-17T17:58:08Z"
+    description: "Model Context Protocol (MCP) implementation for Opik enabling seamless IDE integration and unified access to prompts, projects, traces, and metrics. "
+    homepage: https://www.comet.com/opik/
+    topics:
+      - generative-ai
+      - mcp-server
+      - modelcontextprotocol
+      - typescript
+    last_checked_at: "2026-05-01T13:51:51.079Z"
+    readme:
+      fetched_at: "2026-05-01T13:51:51.079Z"
+      bytes: 6447
+insights:
+  summary: An MCP server that connects MCP-compatible IDE/agent clients to Opik for accessing prompts, projects, traces, and metrics.
+  why_it_matters: It lets developers pull observability artifacts (traces/metrics) and prompt/project context into an IDE or agent workflow through a single MCP interface instead of bespoke integrations.
+  mental_damage: Now your code review can be interrupted by an agent asking for “just one more trace” as if that won’t turn into a full observability migration by lunch.
+  tags:
+    - mcp
+    - mcp-server
+    - opik
+    - ide-integration
+    - observability
+  confidence: high
+curation:
+  status: included
+  reason: Include because it’s a developer-facing MCP server with clear IDE/agent integration value, giving standardized access to Opik prompts and observability data inside MCP clients.
+  evidence:
+    - "Repo description: \"Model Context Protocol (MCP) implementation for Opik enabling seamless IDE integration\""
+    - "README: \"MCP server for Opik\" with local stdio and remote streamable-http transports plus prompt/project/trace/metrics operations"
+    - Seen in multiple MCP curated lists (awesome-mcp-list, awesome-mcp-servers) and is active (pushed 2026-03-17), not archived
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (203) exceeded threshold (150)

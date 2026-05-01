@@ -1,0 +1,62 @@
+id: github__janhq__awesome-local-ai
+kind: github-repo
+name: awesome-local-ai
+canonical_url: https://github.com/janhq/awesome-local-ai
+identity:
+  github_repo: janhq/awesome-local-ai
+provenance:
+  discoveries:
+    - id: discovery__github__janhq__awesome-local-ai__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-05-01T13:51:25.374Z"
+      source:
+        type: awesome-list
+        name: janhq/awesome-local-ai
+        url: https://github.com/janhq/awesome-local-ai
+        repository: janhq/awesome-local-ai
+      extraction:
+        mode: direct
+        section_path:
+          - inbox
+        anchor_text: https://github.com/janhq/awesome-local-ai
+        extracted_url: https://github.com/janhq/awesome-local-ai
+        surrounding_text: Local AI runtimes.
+        confidence: high
+metadata:
+  github:
+    stars: 1939
+    forks: 199
+    license: null
+    archived: false
+    created_at: "2023-09-06T03:27:33Z"
+    pushed_at: "2024-11-13T01:06:16Z"
+    description: An awesome repository of local AI tools
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-01T13:51:31.841Z"
+    readme:
+      fetched_at: "2026-05-01T13:51:31.841Z"
+      bytes: 17640
+insights:
+  summary: A curated awesome list of open-source tools and solutions for running AI locally.
+  why_it_matters: It’s a practical map for developers choosing local LLM runtimes, servers, and related tooling when they want offline/private workflows or to avoid cloud costs.
+  mental_damage: It turns “just run a model locally” into a spreadsheet lifestyle where you benchmark three engines, adopt none, and still feel behind.
+  tags:
+    - local-ai
+    - awesome-list
+    - llm-inference
+    - self-hosted
+    - developer-tools
+  confidence: high
+curation:
+  status: included
+  reason: Include because it’s a high-signal navigation index specifically focused on local AI tooling that developers actually install and compare.
+  evidence:
+    - "Repo description: \"An awesome repository of local AI tools\""
+    - README frames it as an "awesome collection of open source and/or local AI tools and solutions" and lists inference engines like llama.cpp and ollama
+    - Not archived, with meaningful traction (1939 stars) and recent activity (pushed 2024-11-13)
+placement:
+  primary_category: awesome-awesomes
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1939) exceeded threshold (150)
