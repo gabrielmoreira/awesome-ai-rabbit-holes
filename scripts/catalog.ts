@@ -8,10 +8,14 @@ import { readYaml, readYamlIfExists, writeYaml, yamlExists } from "./yaml.ts";
 import { parseGitHubUrl, fetchGitHubRepo, fetchGitHubReadme } from "./github.ts";
 import { buildInsightPrompt, parseAIInsightResponse } from "./ai.ts";
 import { resolveCatalogAIModel, runCatalogAIPrompt } from "./ai-runner.ts";
+import { buildProgressHeartbeat, shouldEmitProgressHeartbeat } from "./progress.ts";
+
 import {
   loadSourceContextLinesForItem,
   loadSourceListDiscoveryCandidates,
   materializeSourceListMetadata,
+  readWebsiteLinkResolution,
+  resolveCanonicalCatalogUrl,
   shouldSkipDiscoveredUrl,
 } from "./source-lists.ts";
 import {
@@ -41,8 +45,8 @@ const REPO_ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..
 const DEFAULT_CONFIG: CatalogConfig = {
   promotion: { incubating_until_stars: 150 },
   github: { metadata_refresh_days: 7 },
-  source_lists: { max_new_items_per_run: 25 },
 };
+const ITEM_HEARTBEAT_EVERY = 50;
 
 // ─── Config ───────────────────────────────────────────────────────────────────
 
@@ -53,7 +57,6 @@ export function loadConfig(): CatalogConfig {
   return {
     promotion: { ...DEFAULT_CONFIG.promotion, ...raw.promotion },
     github: { ...DEFAULT_CONFIG.github, ...raw.github },
-    source_lists: { ...DEFAULT_CONFIG.source_lists, ...raw.source_lists },
   };
 }
 
@@ -626,7 +629,6 @@ function buildSourceListSources(sources: Source[], existingItems: CatalogItem[])
   const catalogSourceLists = existingItems
     .filter(
       (item) =>
-        item.kind === "github-repo" &&
         item.curation.status === "included" &&
         item.placement.primary_category === "awesome-awesomes"
     )
@@ -639,7 +641,34 @@ function buildSourceListSources(sources: Source[], existingItems: CatalogItem[])
   return [...sources, ...catalogSourceLists];
 }
 
-function buildDirectDiscoveryCandidates(sources: Source[]): DiscoveryCandidate[] {
+async function buildDirectDiscoveryCandidates(
+  sources: Source[],
+  token?: string
+ ): Promise<DiscoveryCandidate[]> {
+  const candidates: DiscoveryCandidate[] = [];
+
+  for (const source of sources) {
+    if (shouldSkipDiscoveredUrl(source.url)) continue;
+    const extractedUrl = normalizeDiscoveryTarget(source.url);
+    const targetUrl = await resolveCanonicalCatalogUrl(extractedUrl, token);
+    candidates.push({
+      target_url: targetUrl,
+      source,
+      extraction: {
+        mode: parseGitHubUrl(extractedUrl) || extractedUrl === targetUrl ? "direct" : "scraped",
+        section_path: ["inbox"],
+        anchor_text: extractedUrl,
+        extracted_url: extractedUrl,
+        surrounding_text: source.note ?? null,
+        confidence: "high",
+      },
+    });
+  }
+
+  return candidates;
+}
+
+function buildDirectDiscoveryCandidatesSync(sources: Source[]): DiscoveryCandidate[] {
   return sources
     .filter((source) => !shouldSkipDiscoveredUrl(source.url))
     .map((source) => {
@@ -659,13 +688,20 @@ function buildDirectDiscoveryCandidates(sources: Source[]): DiscoveryCandidate[]
     });
 }
 
+export function resolveSourceListNewItemLimit(env: NodeJS.ProcessEnv = process.env): number | null {
+  const raw = env["CATALOG_MAX_SOURCE_LIST_NEW_ITEMS"]?.trim();
+  if (!raw) return null;
+  const parsed = Number.parseInt(raw, 10);
+  if (!Number.isFinite(parsed) || parsed <= 0) return null;
+  return parsed;
+}
+
 export function selectSourceListDiscoveryCandidates(
   candidates: DiscoveryCandidate[],
   blockedItemIds: Set<string>,
-  maxNewItemsPerRun: number
-): DiscoveryCandidate[] {
-  if (maxNewItemsPerRun <= 0) return [];
-
+  existingItems: CatalogItem[] = [],
+  maxItems: number | null = null
+ ): DiscoveryCandidate[] {
   const grouped = new Map<string, DiscoveryCandidate[]>();
 
   for (const candidate of candidates) {
@@ -686,25 +722,37 @@ export function selectSourceListDiscoveryCandidates(
     grouped.set(targetUrl, [normalizedCandidate]);
   }
 
-  return [...grouped.entries()]
+  const existingById = new Map(existingItems.map((item) => [item.id, item]));
+
+  const rankedGroups = [...grouped.entries()]
     .map(([targetUrl, group]) => ({
       targetUrl,
       itemId: makeItemId(targetUrl),
       support: new Set(group.map((candidate) => normalizeDiscoveryTarget(candidate.source.url))).size,
       candidates: group,
     }))
-    .filter((group) => !blockedItemIds.has(group.itemId))
-    .sort((a, b) => b.support - a.support || a.targetUrl.localeCompare(b.targetUrl))
-    .slice(0, maxNewItemsPerRun)
-    .flatMap((group) => group.candidates);
+    .filter((group) => {
+      if (blockedItemIds.has(group.itemId)) return false;
+      const existing = existingById.get(group.itemId);
+      if (!existing) return true;
+      const existingDiscoveryIds = new Set(existing.provenance.discoveries.map((discovery) => discovery.id));
+      return group.candidates.some(
+        (candidate) => !existingDiscoveryIds.has(makeDiscoveryId(group.targetUrl, candidate.source))
+      );
+    })
+    .sort((a, b) => b.support - a.support || a.targetUrl.localeCompare(b.targetUrl));
+
+  const limitedGroups = maxItems == null ? rankedGroups : rankedGroups.slice(0, maxItems);
+
+  return limitedGroups.flatMap((group) => group.candidates);
 }
 
-function buildDiscoveryCandidates(
+async function buildDiscoveryCandidates(
   sources: Source[],
   existingItems: CatalogItem[],
-  config: CatalogConfig
-): DiscoveryCandidate[] {
-  const directCandidates = buildDirectDiscoveryCandidates(sources);
+  token?: string
+ ): Promise<DiscoveryCandidate[]> {
+  const directCandidates = await buildDirectDiscoveryCandidates(sources, token);
   const blockedItemIds = new Set(directCandidates.map((candidate) => makeItemId(candidate.target_url)));
 
   const sourceListCandidates = loadSourceListDiscoveryCandidates(
@@ -713,7 +761,8 @@ function buildDiscoveryCandidates(
   const selectedSourceListCandidates = selectSourceListDiscoveryCandidates(
     sourceListCandidates,
     blockedItemIds,
-    config.source_lists.max_new_items_per_run
+    existingItems,
+    resolveSourceListNewItemLimit()
   );
 
   return [...directCandidates, ...selectedSourceListCandidates];
@@ -783,7 +832,7 @@ export function discover(
   newItems: CatalogItem[];
   updatedItems: CatalogItem[];
 } {
-  return discoverCandidates(buildDirectDiscoveryCandidates(sources), existingItems);
+  return discoverCandidates(buildDirectDiscoveryCandidatesSync(sources), existingItems);
 }
 
 // ─── Enrich (GitHub metadata) ─────────────────────────────────────────────────
@@ -880,6 +929,28 @@ export async function enrichWithGitHub(
 
 function hasInsightText(value: string | null): boolean {
   return typeof value === "string" && value.trim().length > 0;
+}
+
+export interface ProcessingError {
+  stage: "github_enrichment" | "ai_insights";
+  item_id: string;
+  message: string;
+}
+
+export function summarizeProcessingErrors(errors: ProcessingError[]): {
+  total: number;
+  byStage: Record<ProcessingError["stage"], number>;
+} {
+  return {
+    total: errors.length,
+    byStage: errors.reduce(
+      (counts, error) => ({
+        ...counts,
+        [error.stage]: counts[error.stage] + 1,
+      }),
+      { github_enrichment: 0, ai_insights: 0 } as Record<ProcessingError["stage"], number>
+    ),
+  };
 }
 
 function isDirectAwesomeListSource(item: CatalogItem): boolean {
@@ -997,6 +1068,10 @@ export async function enrichWithAIInsights(
           return readReadmeFromCache(owner, repo);
         })()
       : null;
+  const websiteContext =
+    item.kind === "website"
+      ? readWebsiteLinkResolution(item.canonical_url)
+      : null;
 
   const prompt = buildInsightPrompt({
     item,
@@ -1005,6 +1080,13 @@ export async function enrichWithAIInsights(
     ),
     source_contexts: loadSourceContextLinesForItem(item),
     readme,
+    website_context: websiteContext
+      ? {
+          title: websiteContext.title,
+          description: websiteContext.description,
+          excerpt: websiteContext.excerpt,
+        }
+      : undefined,
   });
 
   let lastError: unknown = null;
@@ -1022,34 +1104,65 @@ export async function enrichWithAIInsights(
   throw new Error(`Catalog AI insight generation failed for ${item.id}: ${message}`);
 }
 
-async function materializeCatalogState(
+export async function materializeCatalogState(
+  items: CatalogItem[],
   categories: Category[],
   overrides: Override[],
-  config: CatalogConfig
-): Promise<{ finalItems: CatalogItem[]; aiUpdatedIds: string[] }> {
-  let items = loadCatalogItems();
+  deps: {
+    enrichItem?: (item: CatalogItem, categories: Category[]) => Promise<CatalogItem>;
+    saveItem?: (item: CatalogItem) => void;
+    renderCatalog?: (items: CatalogItem[], categories: Category[]) => void;
+  } = {}
+): Promise<{
+  finalItems: CatalogItem[];
+  aiUpdatedIds: string[];
+  processingErrors: ProcessingError[];
+}> {
+  const enrichItem = deps.enrichItem ?? enrichWithAIInsights;
+  const saveItem = deps.saveItem ?? saveCatalogItem;
+  const renderCatalog = deps.renderCatalog ?? render;
   const aiUpdatedIds: string[] = [];
+  const processingErrors: ProcessingError[] = [];
+  const itemsWithInsights: CatalogItem[] = [];
+  const startedAtMs = Date.now();
+  let processedItems = 0;
 
   for (const item of items) {
-    const withInsights = await enrichWithAIInsights(item, categories);
-    if (withInsights !== item) {
-      saveCatalogItem(withInsights);
-      aiUpdatedIds.push(withInsights.id);
+    try {
+      const withInsights = await enrichItem(item, categories);
+      itemsWithInsights.push(withInsights);
+      if (withInsights !== item) {
+        aiUpdatedIds.push(withInsights.id);
+      }
+    } catch (error) {
+      const message = error instanceof Error ? error.message : String(error);
+      processingErrors.push({ stage: "ai_insights", item_id: item.id, message });
+      itemsWithInsights.push(item);
+    }
+
+    processedItems += 1;
+    if (shouldEmitProgressHeartbeat(processedItems, items.length, ITEM_HEARTBEAT_EVERY)) {
+      console.log(
+        buildProgressHeartbeat({
+          label: "AI insights",
+          completed: processedItems,
+          total: items.length,
+          startedAtMs,
+        })
+      );
     }
   }
 
-  items = loadCatalogItems();
-
-  let finalItems = applyOverrides(items, overrides);
+  let finalItems = applyOverrides(itemsWithInsights, overrides);
   finalItems = finalItems.map((item) => applyPlacement(item, categories));
 
   for (const item of finalItems) {
-    saveCatalogItem(item);
+    saveItem(item);
   }
 
-  render(finalItems, categories);
+  renderCatalog(finalItems, categories);
 
-  return { finalItems, aiUpdatedIds };
+  return { finalItems, aiUpdatedIds, processingErrors };
 }
 
 // ─── Lifecycle ────────────────────────────────────────────────────────────────
@@ -1288,6 +1401,32 @@ function logCatalogAIModel(): void {
   console.log(`AI model: GitHub Copilot (${resolveCatalogAIModel()})`);
 }
 
+function printProcessingErrorSummary(errors: ProcessingError[], contextLabel: string): void {
+  if (errors.length === 0) return;
+
+  const summary = summarizeProcessingErrors(errors);
+  console.warn(`\n⚠️ ${contextLabel} completed with ${summary.total} non-fatal processing error(s):`);
+  for (const [stage, count] of Object.entries(summary.byStage)) {
+    if (count > 0) console.warn(`  - ${stage}: ${count}`);
+  }
+  console.warn("  Remaining targets were left for a later round.");
+  console.warn("  Details:");
+  for (const error of errors) {
+    console.warn(`  - [${error.stage}] ${error.item_id}: ${error.message}`);
+  }
+}
+
+export function shouldFailOnProcessingErrors(env: NodeJS.ProcessEnv = process.env): boolean {
+  const value = env["CATALOG_FAIL_ON_PROCESSING_ERRORS"]?.trim().toLowerCase();
+  if (!value) return true;
+  return value !== "0" && value !== "false" && value !== "no";
+}
+
+function maybeFailOnProcessingErrors(errors: ProcessingError[], contextLabel: string): void {
+  if (errors.length === 0 || !shouldFailOnProcessingErrors()) return;
+  throw new Error(`${contextLabel} finished with ${errors.length} processing error(s).`);
+}
+
 // ─── Commands ─────────────────────────────────────────────────────────────────
 
 // ─── Refresh helpers ──────────────────────────────────────────────────────────
@@ -1329,44 +1468,61 @@ export async function cmdRefresh(token?: string): Promise<void> {
   await materializeSourceListMetadata(buildSourceListSources(sources, items), token);
 
   const updatedIds: string[] = [];
+  const processingErrors: ProcessingError[] = [];
   const windowDays = config.github.metadata_refresh_days;
   logStage(3, 4, "Refresh GitHub metadata", `${items.length} item(s) under evaluation`);
 
-
+  const refreshedItems: CatalogItem[] = [];
+  const startedAtMs = Date.now();
+  let processedItems = 0;
   for (const item of items) {
-    if (!shouldRefreshMetadata(
+    let refreshed = item;
+    if (shouldRefreshMetadata(
       item.metadata.github.last_checked_at,
       windowDays,
       new Date(),
       item.metadata.github.created_at == null
     )) {
-      continue;
+      try {
+        refreshed = await enrichWithGitHub(item, token);
+      } catch (error) {
+        const message = error instanceof Error ? error.message : String(error);
+        processingErrors.push({ stage: "github_enrichment", item_id: item.id, message });
+      }
     }
-    const refreshed = await enrichWithGitHub(item, token);
+
     if (refreshed !== item) {
-      saveCatalogItem(refreshed);
       updatedIds.push(refreshed.id);
     }
-  }
 
-  const refreshedItems = loadCatalogItems();
-  for (const item of refreshedItems) {
-    const withLifecycle = applyLifecycleRules(item, config);
-    if (
-      withLifecycle.lifecycle.status !== item.lifecycle.status ||
-      withLifecycle.lifecycle.reason !== item.lifecycle.reason
-    ) {
-      saveCatalogItem(withLifecycle);
+    refreshedItems.push(applyLifecycleRules(refreshed, config));
+    processedItems += 1;
+    if (shouldEmitProgressHeartbeat(processedItems, items.length, ITEM_HEARTBEAT_EVERY)) {
+      console.log(
+        buildProgressHeartbeat({
+          label: "Refresh metadata",
+          completed: processedItems,
+          total: items.length,
+          startedAtMs,
+        })
+      );
     }
   }
 
   logStage(4, 4, "Materialize AI, placement, and generated output");
-  const { aiUpdatedIds } = await materializeCatalogState(categories, overrides, config);
+  const { aiUpdatedIds, processingErrors: aiErrors } = await materializeCatalogState(
+    refreshedItems,
+    categories,
+    overrides
+  );
+  processingErrors.push(...aiErrors);
   if (aiUpdatedIds.length > 0) {
     console.log(`🤖 Filled AI insights for ${aiUpdatedIds.length} item(s)`);
   }
 
   console.log(`✅ Refreshed metadata for ${updatedIds.length} item(s)`);
+  printProcessingErrorSummary(processingErrors, "Refresh");
+  maybeFailOnProcessingErrors(processingErrors, "Refresh");
 }
 
 export async function cmdRerunExcluded(token?: string): Promise<void> {
@@ -1389,13 +1545,13 @@ export async function cmdRerunExcluded(token?: string): Promise<void> {
   }
 
   logStage(3, 4, "Reset excluded items to pending", `${resetIds.length} item(s)`);
-  for (const item of items) {
-    saveCatalogItem(item);
-  }
 
   logStage(4, 4, "Re-run AI, placement, and validation");
-  const { aiUpdatedIds } = await materializeCatalogState(categories, overrides, config);
-  const finalItems = loadCatalogItems();
+  const { aiUpdatedIds, finalItems, processingErrors } = await materializeCatalogState(
+    items,
+    categories,
+    overrides
+  );
   const itemErrors = validateCatalogItems(finalItems);
   if (itemErrors.length > 0) {
     console.error("\n❌ Catalog validation errors after rerun-excluded:");
@@ -1408,6 +1564,8 @@ export async function cmdRerunExcluded(token?: string): Promise<void> {
   console.log(`🤖 Re-ran AI curation for ${resetIds.length} excluded item(s)`);
   console.log(`✅ Updated AI insights for ${aiUpdatedIds.length} item(s)`);
   console.log(`✅ Catalog remains valid with ${finalItems.length} items.`);
+  printProcessingErrorSummary(processingErrors, "rerun-excluded");
+  maybeFailOnProcessingErrors(processingErrors, "rerun-excluded");
 }
 
 export async function cmdUpdate(token?: string): Promise<void> {
@@ -1455,38 +1613,59 @@ export async function cmdUpdate(token?: string): Promise<void> {
   await materializeSourceListMetadata(buildSourceListSources(sources, existingItems), token);
 
   // 3. Discover
-  logStage(3, 6, "Discover catalog candidates");
-  const discoveryCandidates = buildDiscoveryCandidates(sources, existingItems, config);
+  const discoveryCandidates = await buildDiscoveryCandidates(sources, existingItems, token);
   const { newItems, updatedItems } = discoverCandidates(discoveryCandidates, existingItems);
   console.log(`Selected ${discoveryCandidates.length} discovery candidate(s): ${newItems.length} new, ${updatedItems.length} provenance update(s).`);
 
   // 4. Enrich (fetch GitHub metadata for new items)
   logStage(4, 6, "Enrich new GitHub items", `${newItems.length} item(s)`);
   const enrichedNewItems: CatalogItem[] = [];
+  const processingErrors: ProcessingError[] = [];
+  const startedAtMs = Date.now();
+  let processedItems = 0;
   for (const item of newItems) {
-    const enriched = await enrichWithGitHub(item, token);
-    enrichedNewItems.push(enriched);
+    try {
+      const enriched = await enrichWithGitHub(item, token);
+      enrichedNewItems.push(enriched);
+    } catch (error) {
+      const message = error instanceof Error ? error.message : String(error);
+      processingErrors.push({ stage: "github_enrichment", item_id: item.id, message });
+      enrichedNewItems.push(item);
+    }
+
+    processedItems += 1;
+    if (shouldEmitProgressHeartbeat(processedItems, newItems.length, ITEM_HEARTBEAT_EVERY)) {
+      console.log(
+        buildProgressHeartbeat({
+          label: "GitHub enrichment",
+          completed: processedItems,
+          total: newItems.length,
+          startedAtMs,
+        })
+      );
+    }
   }
 
   // 5. Apply lifecycle
   const allNewItems = enrichedNewItems.map((item) => applyLifecycleRules(item, config));
   const allUpdatedItems = updatedItems.map((item) => applyLifecycleRules(item, config));
-
-  // 6. Save new/updated items
-  for (const item of allNewItems) {
-    saveCatalogItem(item);
-  }
+  const workingItemsById = new Map(existingItems.map((item) => [item.id, item]));
   for (const item of allUpdatedItems) {
-    saveCatalogItem(item);
+    workingItemsById.set(item.id, item);
   }
+  for (const item of allNewItems) {
+    workingItemsById.set(item.id, item);
+  }
+  const workingItems = [...workingItemsById.values()];
 
-  // 7. Materialize AI insights, overrides, placement, and rendered output
+  // 6. Materialize AI insights, overrides, placement, and rendered output
   logStage(5, 6, "Materialize AI, placement, and generated output");
-  const { finalItems, aiUpdatedIds } = await materializeCatalogState(
+  const { finalItems, aiUpdatedIds, processingErrors: aiErrors } = await materializeCatalogState(
+    workingItems,
     categories,
-    overrides,
-    config
+    overrides
   );
+  processingErrors.push(...aiErrors);
 
   if (aiUpdatedIds.length > 0) {
     console.log(`🤖 Filled AI insights for ${aiUpdatedIds.length} item(s)`);
@@ -1510,6 +1689,9 @@ export async function cmdUpdate(token?: string): Promise<void> {
     }
     process.exit(1);
   }
+
+  printProcessingErrorSummary(processingErrors, "Update");
+  maybeFailOnProcessingErrors(processingErrors, "Update");
 
   console.log(`\n✅ Update complete. ${finalItems.length} items in catalog.`);
 }

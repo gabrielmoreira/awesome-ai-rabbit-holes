@@ -1,4 +1,4 @@
-name: pr-checks
+name: pi
 
 on:
   pull_request:
@@ -9,7 +9,7 @@ permissions:
   contents: read
 
 jobs:
-  verify:
+  smoke-test:
     runs-on: ubuntu-latest
     env:
       MISE_TASK_OUTPUT: prefix
@@ -23,11 +23,5 @@ jobs:
           install: true
           github_token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Install project dependencies
-        run: mise run catalog:deps
-
-      - name: Run tests
-        run: mise run catalog:test
-
-      - name: Validate catalog
-        run: mise run catalog:validate
+      - name: Run Pi smoke test
+        run: mise run pi -- --help

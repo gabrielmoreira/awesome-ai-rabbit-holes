@@ -155,9 +155,6 @@ export interface CatalogConfig {
   github: {
     metadata_refresh_days: number;
   };
-  source_lists: {
-    max_new_items_per_run: number;
-  };
 }
 
 export interface ReviewReport {

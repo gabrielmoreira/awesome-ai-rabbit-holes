@@ -20,6 +20,7 @@ import {
   discover,
   discoverCandidates,
   selectSourceListDiscoveryCandidates,
+  resolveSourceListNewItemLimit,
   applyLifecycleRules,
   applyOverride,
   applyOverrides,
@@ -27,6 +28,9 @@ import {
   needsAIInsights,
   applyAIInsights,
   enrichWithAIInsights,
+  materializeCatalogState,
+  summarizeProcessingErrors,
+  shouldFailOnProcessingErrors,
   normalizeSourceCoverageUrl,
   validateScopeCoverage,
   buildReviewReport,
@@ -44,7 +48,6 @@ import type { CatalogItem, Source, Override, Category, CatalogConfig } from "../
 const DEFAULT_CONFIG: CatalogConfig = {
   promotion: { incubating_until_stars: 150 },
   github: { metadata_refresh_days: 7 },
-  source_lists: { max_new_items_per_run: 25 },
 };
 
 const CATEGORIES: Category[] = [
@@ -346,7 +349,7 @@ describe("discover", () => {
     ]);
   });
 
-  it("keeps source-list intake stable across reruns by selecting the same top-supported groups", () => {
+  it("keeps source-list intake stable across reruns while considering every supported group", () => {
     const selected = selectSourceListDiscoveryCandidates(
       [
         {
@@ -396,13 +399,178 @@ describe("discover", () => {
         },
       ],
       new Set<string>(),
+      []
+    );
+
+    expect(selected).toHaveLength(3);
+    expect(selected.map((candidate) => candidate.target_url)).toEqual([
+      "https://github.com/example/top-tool",
+      "https://github.com/example/top-tool",
+      "https://github.com/example/lower-rank",
+    ]);
+  });
+
+  it("caps source-list intake by ranked item groups when configured", () => {
+    const selected = selectSourceListDiscoveryCandidates(
+      [
+        {
+          target_url: "https://github.com/example/top-tool",
+          source: {
+            url: "https://github.com/list-a/awesome-tools",
+            kind: "awesome-list",
+          },
+          extraction: {
+            mode: "parsed",
+            section_path: ["Top"],
+            anchor_text: "top-tool",
+            extracted_url: "https://github.com/example/top-tool",
+            surrounding_text: null,
+            confidence: "high",
+          },
+        },
+        {
+          target_url: "https://github.com/example/top-tool",
+          source: {
+            url: "https://github.com/list-b/awesome-tools",
+            kind: "awesome-list",
+          },
+          extraction: {
+            mode: "parsed",
+            section_path: ["Top"],
+            anchor_text: "top-tool",
+            extracted_url: "https://github.com/example/top-tool",
+            surrounding_text: null,
+            confidence: "high",
+          },
+        },
+        {
+          target_url: "https://github.com/example/lower-rank",
+          source: {
+            url: "https://github.com/list-c/awesome-tools",
+            kind: "awesome-list",
+          },
+          extraction: {
+            mode: "parsed",
+            section_path: ["Other"],
+            anchor_text: "lower-rank",
+            extracted_url: "https://github.com/example/lower-rank",
+            surrounding_text: null,
+            confidence: "high",
+          },
+        },
+      ],
+      new Set<string>(),
+      [],
       1
     );
 
     expect(selected).toHaveLength(2);
-    expect(new Set(selected.map((candidate) => candidate.target_url))).toEqual(
-      new Set(["https://github.com/example/top-tool"])
+    expect(selected.map((candidate) => candidate.target_url)).toEqual([
+      "https://github.com/example/top-tool",
+      "https://github.com/example/top-tool",
+    ]);
+  });
+
+  it("skips fully discovered top groups before slicing the next batch", () => {
+    const existing = makeItem({
+      id: makeItemId("https://github.com/example/top-tool"),
+      name: "top-tool",
+      canonical_url: "https://github.com/example/top-tool",
+      identity: { github_repo: "example/top-tool" },
+      provenance: {
+        discoveries: [
+          {
+            id: makeDiscoveryId("https://github.com/example/top-tool", {
+              url: "https://github.com/list-a/awesome-tools",
+              kind: "awesome-list",
+            }),
+            discovered_at: "2026-05-01T00:00:00Z",
+            source: {
+              type: "awesome-list",
+              name: "list-a/awesome-tools",
+              url: "https://github.com/list-a/awesome-tools",
+              repository: null,
+            },
+            extraction: {
+              mode: "parsed",
+              section_path: ["Top"],
+              anchor_text: "top-tool",
+              extracted_url: "https://github.com/example/top-tool",
+              surrounding_text: null,
+              confidence: "high",
+            },
+          },
+          {
+            id: makeDiscoveryId("https://github.com/example/top-tool", {
+              url: "https://github.com/list-b/awesome-tools",
+              kind: "awesome-list",
+            }),
+            discovered_at: "2026-05-01T00:00:00Z",
+            source: {
+              type: "awesome-list",
+              name: "list-b/awesome-tools",
+              url: "https://github.com/list-b/awesome-tools",
+              repository: null,
+            },
+            extraction: {
+              mode: "parsed",
+              section_path: ["Top"],
+              anchor_text: "top-tool",
+              extracted_url: "https://github.com/example/top-tool",
+              surrounding_text: null,
+              confidence: "high",
+            },
+          },
+        ],
+      },
+    });
+
+    const selected = selectSourceListDiscoveryCandidates(
+      [
+        {
+          target_url: "https://github.com/example/top-tool",
+          source: { url: "https://github.com/list-a/awesome-tools", kind: "awesome-list" },
+          extraction: {
+            mode: "parsed",
+            section_path: ["Top"],
+            anchor_text: "top-tool",
+            extracted_url: "https://github.com/example/top-tool",
+            surrounding_text: null,
+            confidence: "high",
+          },
+        },
+        {
+          target_url: "https://github.com/example/top-tool",
+          source: { url: "https://github.com/list-b/awesome-tools", kind: "awesome-list" },
+          extraction: {
+            mode: "parsed",
+            section_path: ["Top"],
+            anchor_text: "top-tool",
+            extracted_url: "https://github.com/example/top-tool",
+            surrounding_text: null,
+            confidence: "high",
+          },
+        },
+        {
+          target_url: "https://github.com/example/lower-rank",
+          source: { url: "https://github.com/list-c/awesome-tools", kind: "awesome-list" },
+          extraction: {
+            mode: "parsed",
+            section_path: ["Other"],
+            anchor_text: "lower-rank",
+            extracted_url: "https://github.com/example/lower-rank",
+            surrounding_text: null,
+            confidence: "high",
+          },
+        },
+      ],
+      new Set<string>(),
+      [existing],
+      1
     );
+
+    expect(selected).toHaveLength(1);
+    expect(selected[0].target_url).toBe("https://github.com/example/lower-rank");
   });
 });
 
@@ -831,6 +999,43 @@ describe("AI insights", () => {
     expect(prompt).toContain("turns prompts into pull requests");
   });
 
+  it("prompt includes scraped website context when a non-GitHub tool page was resolved", () => {
+    const item = makeItem({
+      kind: "website",
+      id: "website__cursor",
+      name: "Cursor",
+      canonical_url: "https://www.cursor.sh",
+      identity: {},
+      metadata: {
+        github: {
+          stars: null,
+          forks: null,
+          license: null,
+          archived: null,
+          created_at: null,
+          pushed_at: null,
+          description: null,
+          homepage: null,
+          topics: null,
+          last_checked_at: null,
+          readme: null,
+        },
+      },
+    });
+    const prompt = buildInsightPrompt({
+      item,
+      categories: ["coding-agents"],
+      website_context: {
+        title: "Cursor",
+        description: "AI-first code editor.",
+        excerpt: "Cursor is an AI-first code editor built for developers.",
+      },
+    });
+    expect(prompt).toContain("Scraped site context");
+    expect(prompt).toContain("AI-first code editor.");
+    expect(prompt).toContain("built for developers");
+  });
+
   it("prompt omits README excerpt section when readme is missing", () => {
     const item = makeItem({
       metadata: {
@@ -966,6 +1171,94 @@ describe("AI insight application", () => {
     expect(result.placement.primary_category).toBe("mcp");
   });
 
+  it("continues materialization when one item's AI enrichment fails and reports the error", async () => {
+    const first = makeItem({
+      id: "github__example__first",
+      name: "first",
+      canonical_url: "https://github.com/example/first",
+      identity: { github_repo: "example/first" },
+    });
+    const second = makeItem({
+      id: "github__example__second",
+      name: "second",
+      canonical_url: "https://github.com/example/second",
+      identity: { github_repo: "example/second" },
+    });
+
+    const saved: CatalogItem[] = [];
+    let rendered = false;
+
+    const result = await materializeCatalogState([first, second], CATEGORIES, [], {
+      enrichItem: async (item) => {
+        if (item.id === second.id) throw new Error("boom");
+        return {
+          ...item,
+          insights: {
+            ...item.insights,
+            summary: "A real summary.",
+            why_it_matters: "It matters.",
+            mental_damage: "Now the pipeline has opinions.",
+            tags: ["coding-agent"],
+            confidence: "high",
+          },
+        };
+      },
+      saveItem: (item) => {
+        saved.push(item);
+      },
+      renderCatalog: () => {
+        rendered = true;
+      },
+    });
+
+    expect(saved).toHaveLength(2);
+    expect(rendered).toBe(true);
+    expect(result.aiUpdatedIds).toEqual([first.id]);
+    expect(result.processingErrors).toEqual([
+      { stage: "ai_insights", item_id: second.id, message: "boom" },
+    ]);
+    expect(result.finalItems.find((item) => item.id === second.id)?.insights.summary).toBeNull();
+  });
+
+  it("summarizes processing errors by stage", () => {
+    expect(
+      summarizeProcessingErrors([
+        { stage: "github_enrichment", item_id: "a", message: "x" },
+        { stage: "ai_insights", item_id: "b", message: "y" },
+        { stage: "ai_insights", item_id: "c", message: "z" },
+      ])
+    ).toEqual({
+      total: 3,
+      byStage: { github_enrichment: 1, ai_insights: 2 },
+    });
+  });
+
+
+  it("fails on processing errors by default unless explicitly disabled", () => {
+    expect(shouldFailOnProcessingErrors({} as NodeJS.ProcessEnv)).toBe(true);
+    expect(
+      shouldFailOnProcessingErrors({ CATALOG_FAIL_ON_PROCESSING_ERRORS: "true" } as NodeJS.ProcessEnv)
+    ).toBe(true);
+    expect(
+      shouldFailOnProcessingErrors({ CATALOG_FAIL_ON_PROCESSING_ERRORS: "1" } as NodeJS.ProcessEnv)
+    ).toBe(true);
+    expect(
+      shouldFailOnProcessingErrors({ CATALOG_FAIL_ON_PROCESSING_ERRORS: "no" } as NodeJS.ProcessEnv)
+    ).toBe(false);
+  });
+
+  it("parses the optional source-list intake env limit", () => {
+    expect(resolveSourceListNewItemLimit({} as NodeJS.ProcessEnv)).toBeNull();
+    expect(
+      resolveSourceListNewItemLimit({ CATALOG_MAX_SOURCE_LIST_NEW_ITEMS: "25" } as NodeJS.ProcessEnv)
+    ).toBe(25);
+    expect(
+      resolveSourceListNewItemLimit({ CATALOG_MAX_SOURCE_LIST_NEW_ITEMS: "0" } as NodeJS.ProcessEnv)
+    ).toBeNull();
+    expect(
+      resolveSourceListNewItemLimit({ CATALOG_MAX_SOURCE_LIST_NEW_ITEMS: "garbage" } as NodeJS.ProcessEnv)
+    ).toBeNull();
+  });
   it("enrichWithAIInsights skips Copilot when the item already has insights", async () => {
     const item = makeItem({
       insights: {

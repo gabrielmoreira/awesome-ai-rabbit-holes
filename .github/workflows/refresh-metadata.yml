@@ -1,52 +1,52 @@
-# Daily refresh of GitHub metadata and rendered catalog output for existing items.
-#
-## Runs `npm run catalog -- refresh`, which also backfills missing insights via
-## GitHub Copilot CLI before re-rendering generated files.
-
-# instead of pushing directly to main.
-name: refresh-metadata
+name: sync-catalog
 
 on:
   schedule:
-    # 04:00 UTC every day
-    - cron: "0 4 * * *"
+    - cron: "0 4 */3 * *"
   workflow_dispatch:
 
 permissions:
   contents: write
-  pull-requests: write
+
+concurrency:
+  group: sync-catalog-${{ github.ref_name }}
+  cancel-in-progress: false
 
 jobs:
-  refresh:
+  sync:
     runs-on: ubuntu-latest
     env:
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       COPILOT_GITHUB_TOKEN: ${{ secrets.COPILOT_GITHUB_TOKEN }}
-      COPILOT_MODEL: gpt-5.2
+      COPILOT_MODEL: gpt-4o
+      CATALOG_FAIL_ON_PROCESSING_ERRORS: "1"
+      MISE_TASK_OUTPUT: prefix
+      CATALOG_MAX_SOURCE_LIST_NEW_ITEMS: "250"
     steps:
       - name: Checkout
         uses: actions/checkout@v5
-
-      - name: Set up Node.js
-        uses: actions/setup-node@v5
         with:
-          node-version: "25"
-          cache: "npm"
+          fetch-depth: 0
+
+      - name: Set up mise tools
+        uses: jdx/mise-action@v4
+        with:
+          install: true
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+
 
       - name: Restore catalog cache
         uses: actions/cache@v4
         with:
           path: .cache
-          key: ${{ runner.os }}-catalog-cache-v2-${{ hashFiles('sources/**/*.yml', 'scripts/**/*.ts', 'catalog/categories.yml', 'package-lock.json') }}
+          key: ${{ runner.os }}-catalog-cache-v3-${{ hashFiles('sources/**/*.yml', 'scripts/**/*.ts', 'catalog/categories.yml', 'package-lock.json', '.mise.toml') }}-${{ github.run_id }}
           restore-keys: |
-            ${{ runner.os }}-catalog-cache-v2-
+            ${{ runner.os }}-catalog-cache-v3-${{ hashFiles('sources/**/*.yml', 'scripts/**/*.ts', 'catalog/categories.yml', 'package-lock.json', '.mise.toml') }}-
+            ${{ runner.os }}-catalog-cache-v3-
 
-      - name: Install dependencies
-        run: npm ci
-
-      - name: Install GitHub Copilot CLI
-        run: npm install -g @github/copilot
+      - name: Install project dependencies
+        run: mise run catalog:deps
 
       - name: Verify Copilot token is configured
         run: |
@@ -55,42 +55,64 @@ jobs:
             exit 1
           fi
 
-
-      - name: Refresh catalog metadata
-        run: npm run catalog -- refresh
+      - name: Sync catalog metadata and generated output
+        run: mise run catalog:sync
 
       - name: Validate catalog
-        run: npm run catalog -- validate
+        run: mise run catalog:validate
 
       - name: Run tests
-        run: npm test
+        run: mise run catalog:test
 
-      - name: Detect changes
+      - name: Detect generated changes
         id: changes
         run: |
-          if [ -n "$(git status --porcelain)" ]; then
+          if [ -n "$(git status --porcelain -- README.md docs/rabbit-holes site/catalog.json catalog/items)" ]; then
             echo "changed=true" >> "$GITHUB_OUTPUT"
           else
             echo "changed=false" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Open pull request
+      - name: Configure git author
         if: steps.changes.outputs.changed == 'true'
-        uses: peter-evans/create-pull-request@v7
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          branch: chore/refresh-catalog-metadata
-          base: main
-          title: "chore: refresh catalog metadata"
-          commit-message: "chore: refresh catalog metadata"
-          body: |
-            Automated daily refresh of GitHub metadata (stars, license, topics, etc.)
-            for existing catalog items, plus any regenerated catalog output required
-            to keep committed artifacts in sync.
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-            - Command: `npm run catalog -- refresh`
-            - Validation: `npm run catalog -- validate`
-            - Tests: `npm test`
+      - name: Commit and push generated updates
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          max_attempts=2
+          attempt=1
 
-            This PR was opened by the `refresh-metadata` workflow.
-          delete-branch: true
+          while [ "${attempt}" -le "${max_attempts}" ]; do
+            git add -A README.md docs/rabbit-holes site/catalog.json catalog/items
+            if git diff --cached --quiet; then
+              echo "Catalog already up to date after rebasing."
+              exit 0
+            fi
+
+            git commit -m "chore: sync catalog"
+
+            if git push origin HEAD:${GITHUB_REF_NAME}; then
+              exit 0
+            fi
+
+            if [ "${attempt}" -eq "${max_attempts}" ]; then
+              echo "::error::Failed to push generated updates after ${max_attempts} attempts."
+              exit 1
+            fi
+
+            git reset --mixed HEAD~1
+            git fetch origin "${GITHUB_REF_NAME}"
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
+            mise run catalog:sync
+            mise run catalog:validate
+            mise run catalog:test
+
+            attempt=$((attempt + 1))
+          done
+
+      - name: Report no-op run
+        if: steps.changes.outputs.changed != 'true'
+        run: echo "Catalog already up to date."

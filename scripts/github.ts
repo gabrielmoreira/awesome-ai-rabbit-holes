@@ -88,11 +88,16 @@ export async function fetchGitHubRepo(
 // point where we would care about memory.
 export const README_MAX_BYTES = 1024 * 1024;
 
-export async function fetchGitHubReadme(
+export interface GitHubReadmeResult {
+  body: string | null;
+  status: number | null;
+}
+
+export async function fetchGitHubReadmeResult(
   owner: string,
   repo: string,
   token?: string
-): Promise<string | null> {
+ ): Promise<GitHubReadmeResult> {
   const headers: Record<string, string> = {
     Accept: "application/vnd.github.v3.raw",
   };
@@ -104,28 +109,29 @@ export async function fetchGitHubReadme(
     const response = await fetch(`https://api.github.com/repos/${owner}/${repo}/readme`, {
       headers,
     });
-    if (!response.ok) return null;
-    // Read as bytes so the cap actually counts bytes (not UTF-16 code
-    // units): a multi-byte UTF-8 README could otherwise smuggle past the
-    // limit. When truncating, walk back to the last UTF-8 lead byte so we
-    // never decode a partial codepoint (which would otherwise become
-    // U+FFFD and inflate the re-encoded length past the cap).
+    if (!response.ok) return { body: null, status: response.status };
     const buf = Buffer.from(await response.arrayBuffer());
-    if (buf.byteLength === 0) return null;
+    if (buf.byteLength === 0) return { body: null, status: response.status };
     let capped = buf;
     if (buf.byteLength > README_MAX_BYTES) {
       let end = README_MAX_BYTES;
-      // 0b10xxxxxx is a continuation byte; back up until we land on a
-      // start byte (0xxxxxxx or 11xxxxxx) or hit the limit.
       while (end > 0 && (buf[end] & 0b1100_0000) === 0b1000_0000) {
         end--;
       }
       capped = buf.subarray(0, end);
     }
     const text = new TextDecoder("utf-8").decode(capped);
-    if (!text) return null;
-    return text;
+    if (!text) return { body: null, status: response.status };
+    return { body: text, status: response.status };
   } catch {
-    return null;
+    return { body: null, status: null };
   }
+}
+
+export async function fetchGitHubReadme(
+  owner: string,
+  repo: string,
+  token?: string
+ ): Promise<string | null> {
+  return (await fetchGitHubReadmeResult(owner, repo, token)).body;
 }
