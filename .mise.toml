@@ -1,2 +1,38 @@
 [tools]
 node = "25.9.0"
+"npm:@github/copilot" = "1.0.40"
+"npm:@mariozechner/pi-coding-agent" = "0.71.1"
+
+[tasks."catalog:deps"]
+description = "Install project dependencies"
+run = "npm ci"
+
+[tasks."catalog:test"]
+description = "Run automated tests"
+run = "npm test"
+
+[tasks."catalog:validate"]
+description = "Validate the generated catalog"
+run = "npm run catalog -- validate"
+
+[tasks."catalog:update"]
+description = "Regenerate catalog items and rendered output"
+run = "npm run catalog -- update"
+
+[tasks."catalog:refresh"]
+description = "Refresh GitHub metadata and regenerate output"
+run = "npm run catalog -- refresh"
+
+[tasks."catalog:sync"]
+description = "Refresh metadata, then regenerate catalog items and output"
+run = ["npm run catalog -- refresh", "npm run catalog -- update"]
+
+[tasks."catalog:rerun-excluded"]
+description = "Re-run AI curation for excluded items"
+run = "npm run catalog -- rerun-excluded"
+
+[tasks.pi]
+description = "Run Pi coding agent with repo-local state"
+env = { PI_CODING_AGENT_DIR = "{{config_root}}/.cache/pi/agent" }
+raw = true
+run = ["pi --no-builtin-tools --no-skills --no-extensions"]

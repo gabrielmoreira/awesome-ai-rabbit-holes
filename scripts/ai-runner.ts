@@ -12,7 +12,7 @@ export function resolveCatalogAIModel(
   const copilotModel = env["COPILOT_MODEL"];
   if (copilotModel && copilotModel.trim().length > 0) return copilotModel.trim();
 
-  return "gpt-5.2";
+  return "gpt-4o";
 }
 
 export async function runCatalogAIPrompt(

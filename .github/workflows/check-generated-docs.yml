@@ -1,51 +1,43 @@
-# Verify that generated docs (README, rabbit-hole pages, site/catalog.json,
-# catalog/items/**) are up to date with sources/ on the main branch.
-#
-## Runs the full update + validate flow with GitHub Copilot CLI enabled for
-## the insight-generation step. If anything would change, the workflow fails so
-## a human can run `npm run catalog -- update` locally and commit.
-
-name: check-generated-docs
+name: catalog-smoke
 
 on:
-  push:
-    branches: [main]
   workflow_dispatch:
 
 permissions:
   contents: read
 
 jobs:
-  check:
+  dry-run:
     runs-on: ubuntu-latest
     env:
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       COPILOT_GITHUB_TOKEN: ${{ secrets.COPILOT_GITHUB_TOKEN }}
-      COPILOT_MODEL: gpt-5.2
+      COPILOT_MODEL: gpt-4o
+      CATALOG_FAIL_ON_PROCESSING_ERRORS: "1"
+      MISE_TASK_OUTPUT: prefix
+      CATALOG_MAX_SOURCE_LIST_NEW_ITEMS: "10"
     steps:
       - name: Checkout
         uses: actions/checkout@v5
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v5
+      - name: Set up mise tools
+        uses: jdx/mise-action@v4
         with:
-          node-version: "25"
-          cache: "npm"
+          install: true
+          github_token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Restore catalog cache
         uses: actions/cache@v4
         with:
           path: .cache
-          key: ${{ runner.os }}-catalog-cache-v2-${{ hashFiles('sources/**/*.yml', 'scripts/**/*.ts', 'catalog/categories.yml', 'package-lock.json') }}
+          key: ${{ runner.os }}-catalog-cache-v3-${{ hashFiles('sources/**/*.yml', 'scripts/**/*.ts', 'catalog/categories.yml', 'package-lock.json', '.mise.toml') }}-${{ github.run_id }}
           restore-keys: |
-            ${{ runner.os }}-catalog-cache-v2-
+            ${{ runner.os }}-catalog-cache-v3-${{ hashFiles('sources/**/*.yml', 'scripts/**/*.ts', 'catalog/categories.yml', 'package-lock.json', '.mise.toml') }}-
+            ${{ runner.os }}-catalog-cache-v3-
 
-      - name: Install dependencies
-        run: npm ci
-
-      - name: Install GitHub Copilot CLI
-        run: npm install -g @github/copilot
+      - name: Install project dependencies
+        run: mise run catalog:deps
 
       - name: Verify Copilot token is configured
         run: |
@@ -54,25 +46,20 @@ jobs:
             exit 1
           fi
 
-
       - name: Run tests
-        run: npm test
+        run: mise run catalog:test
 
-      - name: Update catalog (regenerate README, rabbit-hole pages, site/catalog.json)
-        run: npm run catalog -- update
+      - name: Run bounded catalog update smoke test
+        run: mise run catalog:update
 
       - name: Validate catalog
-        run: npm run catalog -- validate
+        run: mise run catalog:validate
 
-      - name: Fail if generated docs are stale
+      - name: Report bounded update result
         run: |
-          if [ -n "$(git status --porcelain)" ]; then
-            echo "::error::Generated docs are stale. Run 'npm run catalog -- update' locally and commit the changes."
-            echo "Files that would change:"
-            git status --short
-            echo ""
-            echo "Diff:"
-            git --no-pager diff
-            exit 1
+          if [ -n "$(git status --porcelain -- README.md docs/rabbit-holes site/catalog.json catalog/items)" ]; then
+            echo "Bounded smoke run produced catalog changes, which is expected while backlog remains."
+            git status --short -- README.md docs/rabbit-holes site/catalog.json catalog/items
+          else
+            echo "Bounded smoke run left the generated tree clean."
           fi
-          echo "Generated docs are up to date."

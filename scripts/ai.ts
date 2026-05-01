@@ -19,11 +19,21 @@ export interface AIInsightRequest {
    */
   source_contexts?: string[];
   /**
+   * Optional scraped website context for non-GitHub tool pages. Lets the model
+   * reason about a site-backed tool even when there is no GitHub README.
+   */
+  website_context?: {
+    title?: string | null;
+    description?: string | null;
+    excerpt?: string | null;
+  };
+  /**
    * Optional README body. When provided, it is truncated to a bounded excerpt
    * before being included in the prompt. Treat as "may be missing" — the
    * prompt must still work using only repo metadata + source-list context.
    */
   readme?: string | null;
+
 }
 
 export interface AIInsightResponse {
@@ -58,13 +68,18 @@ function isDirectAwesomeListSource(
 // ─── Prompt ───────────────────────────────────────────────────────────────────
 
 export function buildInsightPrompt(request: AIInsightRequest): string {
-  const { item, categories, source_contexts = [], readme } = request;
+  const { item, categories, source_contexts = [], readme, website_context } = request;
   const github = item.metadata.github;
   const directAwesomeList = isDirectAwesomeListSource(item);
 
   const readmeSection =
     readme && readme.trim().length > 0
       ? `\nREADME excerpt (markdown, may be truncated):\n---\n${truncateReadmeForPrompt(readme)}\n---\n`
+      : "";
+
+  const websiteContextSection =
+    website_context && (website_context.title || website_context.description || website_context.excerpt)
+      ? `\nScraped site context:\n- Title: ${website_context.title ?? "(none)"}\n- Description: ${website_context.description ?? "(none)"}\n${website_context.excerpt ? `Primary page excerpt:\n---\n${website_context.excerpt}\n---\n` : ""}`
       : "";
 
   const sourceContextSection =
@@ -81,10 +96,10 @@ Your job is two-fold:
 2. Make the same include/exclude decision a careful human maintainer would make when reviewing whether this belongs in our lists.
 
 You receive grounded inputs:
-- Repo description: a one-line GitHub description. Use this as the seed for the factual one-line summary.
+- Repo description: a one-line GitHub description. Use this as the seed for the factual one-line summary when it exists.
 - README excerpt: the project's own pitch in its own words. Use this for substance — what the tool actually does, who it is for, what workflow it changes, what pain it claims to solve.
+- Scraped site context: title, description, and a short excerpt from the linked tool page when the source URL is not a GitHub repo.
 - Source-list context: who already curates or includes it, and in what section.
-
 Catalog scope:
 - practical AI tools, agents, workflows, and infrastructure for software developers
 - coding agents, agent orchestration, MCP tooling, AI IDEs, local AI, evals, developer workflow automation, and adjacent developer-facing infrastructure
@@ -95,7 +110,7 @@ Use these credibility / fit signals as heuristics, not hard gates:
 - created_at: how new or established the repo is
 - pushed_at: whether it still looks active
 - archived: immediate negative signal
-- description + README: what it actually claims to do
+- description + scraped site context + README: what it actually claims to do
 - source-list context: who already curates or includes it, and in what section
 
 Inputs:
@@ -111,7 +126,7 @@ Created at: ${github.created_at ?? "Unknown"}
 Pushed at: ${github.pushed_at ?? "Unknown"}
 Homepage: ${github.homepage ?? "(none)"}
 Direct awesome list source: ${directAwesomeList ? "yes" : "no"}
-${sourceContextSection}${readmeSection}
+${sourceContextSection}${websiteContextSection}${readmeSection}
 Available categories (id | name | description):
 ${categorySection}
 

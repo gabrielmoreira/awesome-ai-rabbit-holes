@@ -25,14 +25,17 @@ quietly drift away from its own scope.
 
 ## Prerequisites
 
-`npm run catalog -- update`, `npm run catalog -- refresh`, and `npm run catalog -- rerun-excluded` run directly with Node.js type stripping and GitHub Copilot CLI.
+`mise install` provisions the pinned local toolchain from `.mise.toml` (Node.js 25.x, GitHub Copilot CLI, and Pi coding agent CLI).
 
-1. Install Node.js 25.2+ (the repo ships a local `.mise.toml`, so `mise install` is the easiest path if you use mise)
-2. Install `@github/copilot`, authenticate it, and keep a token with `Copilot Requests` permission available via `COPILOT_GITHUB_TOKEN`, `GH_TOKEN`, or `GITHUB_TOKEN`
+1. Install [mise](https://mise.jdx.dev/) and run `mise install`
+2. Authenticate GitHub Copilot CLI, and keep a token with `Copilot Requests` permission available via `COPILOT_GITHUB_TOKEN`, `GH_TOKEN`, or `GITHUB_TOKEN`
 3. Keep the Copilot token available to GitHub Actions as the repository secret `COPILOT_GITHUB_TOKEN`
 
-- The catalog defaults to GitHub Copilot model `gpt-5.2`.
+- The catalog defaults to GitHub Copilot model `gpt-4o`.
 - You can override the model with `CATALOG_AI_MODEL` or `COPILOT_MODEL` if your Copilot account exposes a different supported model.
+- The shared Pi entrypoint is `mise run pi -- ...`. It uses `PI_CODING_AGENT_DIR=.cache/pi/agent`, disables Pi's built-in tools, and starts with both extension discovery and skill discovery turned off (`--no-extensions --no-skills`).
+- GitHub Actions also exposes a manual `pi` workflow that smoke-tests the same command path with `mise run pi -- --help`.
+- GitHub workflows bound source-list intake with `CATALOG_MAX_SOURCE_LIST_NEW_ITEMS` so CI proves the real Copilot path without trying to curate thousands of new candidates in one run. Leave it unset locally to run the full uncapped discovery pass.
 
 ## To add something
 
@@ -54,15 +57,17 @@ Or for an awesome list:
 Then run:
 
 ```sh
-npm run catalog -- update
+mise run catalog:update
 ```
 
-Awesome-list discovery is staged. Each `update` run imports up to `catalog/config.yml` → `source_lists.max_new_items_per_run` new list-derived repos, ordered by how many source lists mention them, while still backfilling source-list provenance for repos already in the catalog.
+The underlying Node entrypoint is still `npm run catalog -- update` if you need it directly, but CI now calls the same `mise` task namespace.
+
+Awesome-list discovery is no longer staged. Each `update` run considers every list-derived link, dedupes them by canonical URL, and backfills source-list provenance for repos or sites already in the catalog.
 
 To re-run AI curation only for items currently marked `curation.status: excluded`, use:
 
 ```sh
-npm run catalog -- rerun-excluded
+mise run catalog:rerun-excluded
 ```
 
 This keeps the existing catalog, resets excluded items back to `pending`, and asks the configured Copilot model to reconsider them using the current prompt rules.
