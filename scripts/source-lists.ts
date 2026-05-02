@@ -2,6 +2,7 @@ import * as fs from "node:fs";
 import * as path from "node:path";
 import { createHash } from "node:crypto";
 import { fileURLToPath } from "node:url";
+import { mapWithConcurrency } from "./async.ts";
 import { fetchGitHubReadmeResult, fetchGitHubRepo, parseGitHubUrl } from "./github.ts";
 import { buildProgressHeartbeat, shouldEmitProgressHeartbeat } from "./progress.ts";
 import type { CatalogItem, DiscoveryCandidate, Source } from "./types.ts";
@@ -10,6 +11,7 @@ const REPO_ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..
 const SOURCE_LIST_CACHE_DIR = path.join(REPO_ROOT, ".cache", "source-lists");
 const WEBSITE_LINK_CACHE_DIR = path.join(REPO_ROOT, ".cache", "linked-sites");
 const WEBSITE_LINK_CACHE_TTL_MS = 24 * 60 * 60 * 1000;
+const DEFAULT_SOURCE_LIST_REFRESH_CONCURRENCY = 2;
 const WEBSITE_LINK_RESOLUTION_CONCURRENCY = 8;
 const WEBSITE_TEXT_EXCERPT_MAX_CHARS = 1200;
 const HTML_FETCH_TIMEOUT_MS = 10_000;
@@ -28,7 +30,7 @@ const GENERIC_GITHUB_REPO_TOKENS = new Set([
 export const OWN_REPO_URL = "https://github.com/gabrielmoreira/awesome-ai-rabbit-holes";
 export const SOURCE_LIST_CACHE_TTL_MS = 30 * 60 * 1000;
 
-export interface WebsiteLinkResolution {
+export type WebsiteLinkResolution = {
   fetched_at: string | null;
   final_url: string;
   canonical_url: string;
@@ -36,9 +38,9 @@ export interface WebsiteLinkResolution {
   title: string | null;
   description: string | null;
   excerpt: string | null;
-}
+};
 
-export interface SourceListEntry {
+export type SourceListEntry = {
   extracted_url: string;
   normalized_url: string;
   canonical_url: string;
@@ -49,15 +51,15 @@ export interface SourceListEntry {
   page_description: string | null;
   page_excerpt: string | null;
   github_repo_url: string | null;
-}
+};
 
-export interface SourceListMetadata {
+export type SourceListMetadata = {
   source_url: string;
   source_name: string;
   fetched_at: string | null;
   purpose: string | null;
   entries: SourceListEntry[];
-}
+};
 
 function normalizeSourceListEntry(raw: any): SourceListEntry {
   const normalizedUrl = normalizeUrl(raw?.normalized_url ?? raw?.extracted_url ?? "");
@@ -445,26 +447,6 @@ export async function resolveWebsiteLink(url: string, token?: string): Promise<W
   }
 }
 
-async function mapWithConcurrency<T, R>(
-  items: T[],
-  limit: number,
-  worker: (item: T) => Promise<R>
-): Promise<R[]> {
-  if (items.length === 0) return [];
-  const safeLimit = Math.max(1, Math.min(limit, items.length));
-  const results = new Array<R>(items.length);
-  let nextIndex = 0;
-
-  await Promise.all(Array.from({ length: safeLimit }, async () => {
-    while (nextIndex < items.length) {
-      const current = nextIndex;
-      nextIndex += 1;
-      results[current] = await worker(items[current]);
-    }
-  }));
-
-  return results;
-}
 
 export function extractSourceListEntries(readme: string, sourceUrl: string): SourceListEntry[] {
   const lines = readme.split(/\r?\n/);
@@ -608,7 +590,7 @@ export function finalizeSourceListMetadata(
   cached: SourceListMetadata | null,
   refreshed: SourceListMetadata,
   options: { preserveCachedEntries: boolean }
- ): SourceListMetadata {
+): SourceListMetadata {
   if (options.preserveCachedEntries && cached && cached.entries.length > 0) {
     return { ...cached, fetched_at: refreshed.fetched_at ?? cached.fetched_at };
   }
@@ -692,40 +674,55 @@ export function shouldRefreshSourceListMetadata(
   return now.getTime() - fetchedAt >= SOURCE_LIST_CACHE_TTL_MS;
 }
 
+export function resolveSourceListRefreshConcurrency(
+  env: NodeJS.ProcessEnv = process.env
+): number {
+  const raw = env["CATALOG_SOURCE_LIST_CONCURRENCY"]?.trim();
+  if (!raw) return DEFAULT_SOURCE_LIST_REFRESH_CONCURRENCY;
+  const parsed = Number.parseInt(raw, 10);
+  if (!Number.isFinite(parsed) || parsed <= 0) return DEFAULT_SOURCE_LIST_REFRESH_CONCURRENCY;
+  return parsed;
+}
 export async function materializeSourceListMetadata(
   sources: Source[],
   token?: string
 ): Promise<void> {
   const awesomeSources = uniqueAwesomeListSources(sources);
-
-  for (const source of awesomeSources) {
+  const staleSources = awesomeSources.filter((source) => {
     const cached = readSourceListMetadata(source.url);
-    if (!shouldRefreshSourceListMetadata(cached)) continue;
+    return shouldRefreshSourceListMetadata(cached);
+  });
 
-    const github = parseGitHubUrl(source.url);
-    if (!github) continue;
+  await mapWithConcurrency(
+    staleSources,
+    resolveSourceListRefreshConcurrency(),
+    async (source) => {
+      const cached = readSourceListMetadata(source.url);
+      const github = parseGitHubUrl(source.url);
+      if (!github) return;
 
-    const [repoData, readmeResult] = await Promise.all([
-      fetchGitHubRepo(github.owner, github.repo, token),
-      fetchGitHubReadmeResult(github.owner, github.repo, token),
-    ]);
+      const [repoData, readmeResult] = await Promise.all([
+        fetchGitHubRepo(github.owner, github.repo, token),
+        fetchGitHubReadmeResult(github.owner, github.repo, token),
+      ]);
 
-    const metadata = finalizeSourceListMetadata(
-      cached,
-      await buildSourceListMetadata(
-        {
-          sourceUrl: source.url,
-          sourceName: sourceNameFromUrl(source.url),
-          fetchedAt: new Date().toISOString(),
-          repoDescription: repoData?.description ?? null,
-          readme: readmeResult.body ?? "",
-        },
-        (url) => resolveWebsiteLink(url, token)
-      ),
-      { preserveCachedEntries: shouldPreserveSourceListCacheOnReadmeFailure(readmeResult.status) }
-    );
-    writeSourceListMetadata(metadata);
-  }
+      const metadata = finalizeSourceListMetadata(
+        cached,
+        await buildSourceListMetadata(
+          {
+            sourceUrl: source.url,
+            sourceName: sourceNameFromUrl(source.url),
+            fetchedAt: new Date().toISOString(),
+            repoDescription: repoData?.description ?? null,
+            readme: readmeResult.body ?? "",
+          },
+          (url) => resolveWebsiteLink(url, token)
+        ),
+        { preserveCachedEntries: shouldPreserveSourceListCacheOnReadmeFailure(readmeResult.status) }
+      );
+      writeSourceListMetadata(metadata);
+    }
+  );
 }
 
 export function loadSourceListDiscoveryCandidates(sources: Source[]): DiscoveryCandidate[] {

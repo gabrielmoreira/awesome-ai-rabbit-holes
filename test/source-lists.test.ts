@@ -8,6 +8,7 @@ import {
   extractSourceListEntries,
   finalizeSourceListMetadata,
   shouldRefreshSourceListMetadata,
+  resolveSourceListRefreshConcurrency,
   sourceListMetadataPath,
 } from "../scripts/source-lists.js";
 
@@ -192,6 +193,16 @@ Curated MCP servers.
       shouldRefreshSourceListMetadata(metadata, new Date("2026-05-01T00:30:00Z"))
     ).toBe(true);
     expect(shouldRefreshSourceListMetadata(null, new Date("2026-05-01T00:00:00Z"))).toBe(true);
+  });
+
+  it("parses optional source-list refresh concurrency overrides", () => {
+    expect(resolveSourceListRefreshConcurrency({} as NodeJS.ProcessEnv)).toBe(2);
+    expect(
+      resolveSourceListRefreshConcurrency({ CATALOG_SOURCE_LIST_CONCURRENCY: "3" } as NodeJS.ProcessEnv)
+    ).toBe(3);
+    expect(
+      resolveSourceListRefreshConcurrency({ CATALOG_SOURCE_LIST_CONCURRENCY: "garbage" } as NodeJS.ProcessEnv)
+    ).toBe(2);
   });
 
   it("uses deterministic cache paths for GitHub source lists", () => {

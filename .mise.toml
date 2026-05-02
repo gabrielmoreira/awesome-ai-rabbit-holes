@@ -1,7 +1,10 @@
 [tools]
 node = "25.9.0"
-"npm:@github/copilot" = "1.0.40"
 "npm:@mariozechner/pi-coding-agent" = "0.71.1"
+gh = "latest"
+
+[env]
+PI_CODING_AGENT_DIR = "{{config_root}}/.cache/pi/agent"
 
 [tasks."catalog:deps"]
 description = "Install project dependencies"
@@ -33,6 +36,20 @@ run = "npm run catalog -- rerun-excluded"
 
 [tasks.pi]
 description = "Run Pi coding agent with repo-local state"
-env = { PI_CODING_AGENT_DIR = "{{config_root}}/.cache/pi/agent" }
 raw = true
-run = ["pi --no-builtin-tools --no-skills --no-extensions"]
+run = ["pi --no-tools --no-skills --no-extensions"]
+
+[tasks."pi:free"]
+description = "Run Pi through the pinned pi-free extensions and free fallback order"
+raw = true
+usage = '''
+flag "-p --print <prompt>" help="Non-interactive prompt to forward to pi"
+flag "--stdin" help="Read a non-interactive prompt from stdin"
+flag "--model <model>" help="Optional explicit model override"
+'''
+run = '''
+{% if usage.print %}printf %s {{ usage.print | json_encode }} | {% endif %}pi --no-tools --no-skills --no-extensions -e npm:pi-free@2.0.2 -e .pi/extensions/pi-free-fallback.ts{% if usage.model %} --model {{ usage.model }}{% endif %}{% if usage.stdin or usage.print %} --no-session{% endif %}
+'''
+
+[tasks."pi:free".env]
+_.file = { path = ".env.pi-free", redact = true }

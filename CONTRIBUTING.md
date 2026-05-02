@@ -25,17 +25,21 @@ quietly drift away from its own scope.
 
 ## Prerequisites
 
-`mise install` provisions the pinned local toolchain from `.mise.toml` (Node.js 25.x, GitHub Copilot CLI, and Pi coding agent CLI).
+`mise install` provisions the pinned local toolchain from `.mise.toml` (Node.js 25.x, Pi coding agent CLI, and GitHub CLI).
 
 1. Install [mise](https://mise.jdx.dev/) and run `mise install`
-2. Authenticate GitHub Copilot CLI, and keep a token with `Copilot Requests` permission available via `COPILOT_GITHUB_TOKEN`, `GH_TOKEN`, or `GITHUB_TOKEN`
-3. Keep the Copilot token available to GitHub Actions as the repository secret `COPILOT_GITHUB_TOKEN`
+2. Copy `.env.pi-free.example` to `.env.pi-free` for local runs, then fill in the provider credentials you actually want to use
+3. Mirror the same env names into the GitHub Actions environment `pi-free` so workflow runs have the same provider access
 
-- The catalog defaults to GitHub Copilot model `gpt-4o`.
-- You can override the model with `CATALOG_AI_MODEL` or `COPILOT_MODEL` if your Copilot account exposes a different supported model.
-- The shared Pi entrypoint is `mise run pi -- ...`. It uses `PI_CODING_AGENT_DIR=.cache/pi/agent`, disables Pi's built-in tools, and starts with both extension discovery and skill discovery turned off (`--no-extensions --no-skills`).
-- GitHub Actions also exposes a manual `pi` workflow that smoke-tests the same command path with `mise run pi -- --help`.
-- GitHub workflows bound source-list intake with `CATALOG_MAX_SOURCE_LIST_NEW_ITEMS` so CI proves the real Copilot path without trying to curate thousands of new candidates in one run. Leave it unset locally to run the full uncapped discovery pass.
+- Run catalog operations through the `mise run catalog:*` task namespace. The npm scripts remain package-level development entrypoints, but the documented operational path is `mise` because it owns repo-local tools and external command environment.
+- The TypeScript catalog runner uses `pi:free` as its only LLM execution path. It builds prompts in Node, then shells to `mise run pi:free -- --stdin` and writes the prompt over stdin so model provider selection, free-only guardrails, credentials, fallback behavior, and long-prompt handling stay inside the shared mise task.
+- If you need to pin one specific model instead of the automatic fallback chain, set `CATALOG_AI_MODEL` to an explicit Pi model id (for example `openrouter/openai/gpt-oss-120b:free`).
+- The shared locked-down Pi entrypoint is `mise run pi -- ...`. This repo sets `PI_CODING_AGENT_DIR=.cache/pi/agent` at the top-level `mise` environment, so both `pi` and `pi:free` reuse the same local Pi state directory.
+- The local `pi-free` entrypoint is `mise run pi:free -- ...`. `mise` loads `.env.pi-free` directly and then runs `pi` directly with only the pinned `npm:pi-free@2.0.2` extension plus the repo-local `pi-free-fallback` extension enabled.
+- Copy `.env.pi-free.example` to `.env.pi-free` for local credentials. Use the canonical `CLOUDFLARE_*` variable names there so the upstream `pi-free` provider can read them directly without extra task templating.
+- The runtime fallback logic lives in the repo-local `pi-free-fallback` extension. `pi:free` walks a curated free-only fallback chain in descending intelligence order from your ranking table. When the same model family is available on multiple free providers, it tries that family on each provider before dropping to the next-lower family. The current provider tie-break order is OpenRouter, Cloudflare, NVIDIA, Ollama Cloud, then Mistral.
+- The manual catalog smoke workflow caps source-list intake with `CATALOG_MAX_SOURCE_LIST_NEW_ITEMS` so CI can prove the real `pi:free` path without trying to curate thousands of new candidates. The scheduled/manual full sync workflow leaves this unset so production behavior remains uncapped.
+- External I/O runs with bounded parallelism. You can tune it with `CATALOG_SOURCE_LIST_CONCURRENCY` (default `2`), `CATALOG_DIRECT_DISCOVERY_CONCURRENCY` (default `8`), `CATALOG_GITHUB_CONCURRENCY` (default `8`), and `CATALOG_AI_CONCURRENCY` (default `2`).
 
 ## To add something
 
@@ -60,8 +64,7 @@ Then run:
 mise run catalog:update
 ```
 
-The underlying Node entrypoint is still `npm run catalog -- update` if you need it directly, but CI now calls the same `mise` task namespace.
-
+Catalog update and refresh are intentionally documented as mise tasks because they may cross the npm boundary into GitHub and Pi tooling. The underlying package scripts stay available for focused Node development, but the maintained catalog operation path is through `mise run catalog:*`.
 Awesome-list discovery is no longer staged. Each `update` run considers every list-derived link, dedupes them by canonical URL, and backfills source-list provenance for repos or sites already in the catalog.
 
 To re-run AI curation only for items currently marked `curation.status: excluded`, use:
@@ -70,7 +73,8 @@ To re-run AI curation only for items currently marked `curation.status: excluded
 mise run catalog:rerun-excluded
 ```
 
-This keeps the existing catalog, resets excluded items back to `pending`, and asks the configured Copilot model to reconsider them using the current prompt rules.
+
+This keeps the existing catalog, resets excluded items back to `pending`, and asks the configured `pi:free` path to reconsider them using the current prompt rules.
 
 ## To correct something
 

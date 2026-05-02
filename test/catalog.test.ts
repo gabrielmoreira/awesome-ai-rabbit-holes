@@ -21,6 +21,9 @@ import {
   discoverCandidates,
   selectSourceListDiscoveryCandidates,
   resolveSourceListNewItemLimit,
+  resolveDirectDiscoveryConcurrency,
+  resolveGitHubEnrichmentConcurrency,
+  resolveAIInsightConcurrency,
   applyLifecycleRules,
   applyOverride,
   applyOverrides,
@@ -1036,6 +1039,30 @@ describe("AI insights", () => {
     expect(prompt).toContain("built for developers");
   });
 
+  it("prompt distinguishes user tools, orchestration, SDKs, MCP, and spec-driven categories", () => {
+    const item = makeItem();
+    const prompt = buildInsightPrompt({
+      item,
+      categories: [
+        "coding-agents | Coding Agents | Tools that directly write or review code.",
+        "ai-ides-editors | AI IDEs and Editors | AI-native development environments.",
+        "agent-orchestration | Agent Orchestration | Frameworks and SDKs for coordinating agents.",
+        "spec-driven-development | Spec-Driven Development | Specifications that drive implementation.",
+        "mcp | MCP Servers and Tooling | Model Context Protocol infrastructure.",
+      ],
+    });
+
+    expect(prompt).toContain("- coding-agents: user-facing coding assistants");
+    expect(prompt).toContain("- ai-ides-editors: IDEs and editors");
+    expect(prompt).toContain("- agent-orchestration: frameworks, SDKs");
+    expect(prompt).toContain("- spec-driven-development: tools and methods");
+    expect(prompt).toContain("- mcp: Model Context Protocol servers");
+    expect(prompt).toContain("coding-agents | Coding Agents");
+    expect(prompt).toContain("agent-orchestration | Agent Orchestration");
+    expect(prompt).toContain("spec-driven-development | Spec-Driven Development");
+  });
+
+
   it("prompt omits README excerpt section when readme is missing", () => {
     const item = makeItem({
       metadata: {
@@ -1220,6 +1247,61 @@ describe("AI insight application", () => {
     expect(result.finalItems.find((item) => item.id === second.id)?.insights.summary).toBeNull();
   });
 
+  it("materializes AI insights with bounded concurrency while preserving input order", async () => {
+    const items = [
+      makeItem({ id: "github__example__first", name: "first", canonical_url: "https://github.com/example/first", identity: { github_repo: "example/first" } }),
+      makeItem({ id: "github__example__second", name: "second", canonical_url: "https://github.com/example/second", identity: { github_repo: "example/second" } }),
+      makeItem({ id: "github__example__third", name: "third", canonical_url: "https://github.com/example/third", identity: { github_repo: "example/third" } }),
+    ];
+
+    const started: string[] = [];
+    const resolvers = new Map<string, () => void>();
+    const previous = process.env.CATALOG_AI_CONCURRENCY;
+    process.env.CATALOG_AI_CONCURRENCY = "2";
+
+    try {
+      const work = materializeCatalogState(items, CATEGORIES, [], {
+        enrichItem: async (item) => {
+          started.push(item.id);
+          await new Promise<void>((resolve) => {
+            resolvers.set(item.id, resolve);
+          });
+          return {
+            ...item,
+            insights: {
+              ...item.insights,
+              summary: `summary for ${item.name}`,
+            },
+          };
+        },
+        saveItem: () => {},
+        renderCatalog: () => {},
+      });
+
+      await Promise.resolve();
+      expect(started).toEqual([items[0].id, items[1].id]);
+
+      resolvers.get(items[0].id)?.();
+      for (let attempt = 0; attempt < 10 && started.length < 3; attempt += 1) {
+        await Promise.resolve();
+      }
+      expect(started).toEqual([items[0].id, items[1].id, items[2].id]);
+
+      resolvers.get(items[1].id)?.();
+      resolvers.get(items[2].id)?.();
+
+      const result = await work;
+      expect(result.aiUpdatedIds).toEqual(items.map((item) => item.id));
+      expect(result.finalItems.map((item) => item.id)).toEqual(items.map((item) => item.id));
+    } finally {
+      if (previous === undefined) {
+        delete process.env.CATALOG_AI_CONCURRENCY;
+      } else {
+        process.env.CATALOG_AI_CONCURRENCY = previous;
+      }
+    }
+  });
+
   it("summarizes processing errors by stage", () => {
     expect(
       summarizeProcessingErrors([
@@ -1259,7 +1341,21 @@ describe("AI insight application", () => {
       resolveSourceListNewItemLimit({ CATALOG_MAX_SOURCE_LIST_NEW_ITEMS: "garbage" } as NodeJS.ProcessEnv)
     ).toBeNull();
   });
-  it("enrichWithAIInsights skips Copilot when the item already has insights", async () => {
+
+  it("parses optional concurrency env overrides", () => {
+    expect(resolveDirectDiscoveryConcurrency({} as NodeJS.ProcessEnv)).toBe(8);
+    expect(
+      resolveDirectDiscoveryConcurrency({ CATALOG_DIRECT_DISCOVERY_CONCURRENCY: "4" } as NodeJS.ProcessEnv)
+    ).toBe(4);
+    expect(resolveGitHubEnrichmentConcurrency({} as NodeJS.ProcessEnv)).toBe(8);
+    expect(
+      resolveGitHubEnrichmentConcurrency({ CATALOG_GITHUB_CONCURRENCY: "16" } as NodeJS.ProcessEnv)
+    ).toBe(16);
+    expect(resolveAIInsightConcurrency({} as NodeJS.ProcessEnv)).toBe(2);
+    expect(resolveAIInsightConcurrency({ CATALOG_AI_CONCURRENCY: "3" } as NodeJS.ProcessEnv)).toBe(3);
+    expect(resolveAIInsightConcurrency({ CATALOG_AI_CONCURRENCY: "garbage" } as NodeJS.ProcessEnv)).toBe(2);
+  });
+  it("enrichWithAIInsights skips AI execution when the item already has insights", async () => {
     const item = makeItem({
       insights: {
         summary: "A tool.",
@@ -1280,7 +1376,7 @@ describe("AI insight application", () => {
     expect(result).toBe(item);
   });
 
-  it("enrichWithAIInsights uses Copilot output to populate summary and placement", async () => {
+  it("enrichWithAIInsights uses AI output to populate summary and placement", async () => {
     const item = makeItem();
     const result = await enrichWithAIInsights(
       item,
@@ -1415,6 +1511,51 @@ describe("enrichWithGitHub readme integration", () => {
     // Clean up cache file written under repo root.
     try { fs.unlinkSync(cachePath); } catch { /* best effort */ }
   });
+
+  it("retries public README fetches without auth after a 403", async () => {
+    const { fetchGitHubReadmeResult } = await import("../scripts/github.js");
+    const calls: Array<{ url: string; auth: string | null }> = [];
+    globalThis.fetch = (async (input: RequestInfo | URL, init?: RequestInit) => {
+      const url = typeof input === "string" ? input : input.toString();
+      const headers = new Headers(init?.headers);
+      calls.push({ url, auth: headers.get("Authorization") });
+
+      if (calls.length === 1) {
+        return {
+          ok: false,
+          status: 403,
+          statusText: "Forbidden",
+          arrayBuffer: async () => new ArrayBuffer(0),
+        } as Response;
+      }
+
+      const body = "# Awesome CLI Coding Agents\n";
+      const bytes = Buffer.from(body, "utf8");
+      return {
+        ok: true,
+        status: 200,
+        statusText: "OK",
+        arrayBuffer: async () =>
+          bytes.buffer.slice(bytes.byteOffset, bytes.byteOffset + bytes.byteLength),
+      } as Response;
+    }) as typeof fetch;
+
+    const result = await fetchGitHubReadmeResult("testowner", "test-repo", "token-123");
+
+    expect(calls).toEqual([
+      {
+        url: "https://api.github.com/repos/testowner/test-repo/readme",
+        auth: "token token-123",
+      },
+      {
+        url: "https://api.github.com/repos/testowner/test-repo/readme",
+        auth: null,
+      },
+    ]);
+    expect(result.status).toBe(200);
+    expect(result.body).toBe("# Awesome CLI Coding Agents\n");
+  });
+
 
   it("README 404 does not break enrichment; readme provenance stays null", async () => {
     const { enrichWithGitHub } = await import("../scripts/catalog.js");

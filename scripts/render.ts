@@ -164,7 +164,7 @@ export function renderRabbitHolePage(
   return lines.join("\n").trimEnd();
 }
 
-export interface SiteCatalogItem {
+export type SiteCatalogItem = {
   id: string;
   kind: string;
   name: string;
@@ -174,12 +174,12 @@ export interface SiteCatalogItem {
   primary_category: string | null;
   lifecycle_status: string;
   stars: number | null;
-}
+};
 
-export interface SiteCatalog {
+export type SiteCatalog = {
   generated_at: string | null;
   items: SiteCatalogItem[];
-}
+};
 
 export function renderSiteCatalog(items: CatalogItem[]): SiteCatalog {
   // Derive `generated_at` from the latest `last_checked_at` of any item so

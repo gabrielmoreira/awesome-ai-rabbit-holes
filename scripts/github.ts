@@ -1,7 +1,7 @@
 // scripts/github.ts
 // GitHub API boundary. Fetches repo metadata and README when needed.
 
-export interface GitHubRepoData {
+export type GitHubRepoData = {
   stars: number;
   forks: number;
   license: string | null;
@@ -11,8 +11,7 @@ export interface GitHubRepoData {
   description: string | null;
   homepage: string | null;
   topics: string[];
-
-}
+};
 
 export function parseGitHubUrl(url: string): { owner: string; repo: string } | null {
   // Use the URL parser (not a regex) so query strings, fragments, trailing
@@ -88,16 +87,17 @@ export async function fetchGitHubRepo(
 // point where we would care about memory.
 export const README_MAX_BYTES = 1024 * 1024;
 
-export interface GitHubReadmeResult {
+export type GitHubReadmeResult = {
   body: string | null;
   status: number | null;
-}
+};
 
 export async function fetchGitHubReadmeResult(
   owner: string,
   repo: string,
   token?: string
- ): Promise<GitHubReadmeResult> {
+): Promise<GitHubReadmeResult> {
+  const readmeUrl = `https://api.github.com/repos/${owner}/${repo}/readme`;
   const headers: Record<string, string> = {
     Accept: "application/vnd.github.v3.raw",
   };
@@ -106,9 +106,12 @@ export async function fetchGitHubReadmeResult(
   }
 
   try {
-    const response = await fetch(`https://api.github.com/repos/${owner}/${repo}/readme`, {
-      headers,
-    });
+    let response = await fetch(readmeUrl, { headers });
+    if (!response.ok && token && response.status === 403) {
+      response = await fetch(readmeUrl, {
+        headers: { Accept: "application/vnd.github.v3.raw" },
+      });
+    }
     if (!response.ok) return { body: null, status: response.status };
     const buf = Buffer.from(await response.arrayBuffer());
     if (buf.byteLength === 0) return { body: null, status: response.status };
@@ -132,6 +135,6 @@ export async function fetchGitHubReadme(
   owner: string,
   repo: string,
   token?: string
- ): Promise<string | null> {
+): Promise<string | null> {
   return (await fetchGitHubReadmeResult(owner, repo, token)).body;
 }

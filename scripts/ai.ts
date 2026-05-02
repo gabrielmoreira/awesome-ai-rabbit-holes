@@ -6,7 +6,7 @@ import type { CatalogItem } from "./types.ts";
 
 // ─── Types ────────────────────────────────────────────────────────────────────
 
-export interface AIInsightRequest {
+export type AIInsightRequest = {
   item: Pick<CatalogItem, "name" | "canonical_url" | "metadata" | "provenance">;
   /**
    * Formatted category lines, e.g. `coding-agents | Coding Agents | Tools for
@@ -33,10 +33,9 @@ export interface AIInsightRequest {
    * prompt must still work using only repo metadata + source-list context.
    */
   readme?: string | null;
+};
 
-}
-
-export interface AIInsightResponse {
+export type AIInsightResponse = {
   summary: string;
   why_it_matters: string;
   mental_damage: string;
@@ -47,7 +46,7 @@ export interface AIInsightResponse {
   decision_evidence: string[];
   category_candidates: string[];
   confidence: "high" | "medium" | "low";
-}
+};
 
 // ─── Budget ───────────────────────────────────────────────────────────────────
 
@@ -112,6 +111,18 @@ Use these credibility / fit signals as heuristics, not hard gates:
 - archived: immediate negative signal
 - description + scraped site context + README: what it actually claims to do
 - source-list context: who already curates or includes it, and in what section
+
+Category selection guidance:
+- coding-agents: user-facing coding assistants or autonomous coding agents that directly write, edit, review, or plan code.
+- ai-ides-editors: IDEs and editors whose primary product surface is an AI-native development environment.
+- agent-orchestration: frameworks, SDKs, platforms, and infrastructure for coordinating agents, roles, workflows, or multi-agent systems.
+- spec-driven-development: tools and methods where specifications are the primary artifact that drives generation, validation, or implementation behavior.
+- mcp: Model Context Protocol servers, clients, registries, and tooling; do not collapse MCP infrastructure into generic coding agents.
+- context-engineering: prompting, retrieval, memory, context packing, and RAG-style techniques for controlling what models see.
+- evals: benchmarks, harnesses, and evaluation infrastructure for measuring model or agent behavior.
+- local-ai: local model runtimes, local serving, and on-device/private AI execution.
+- awesome-awesomes: curated lists, maps, directories, and indexes rather than individual tools.
+- newsletters-and-feeds: publications and feeds whose main value is ongoing discovery or news.
 
 Inputs:
 

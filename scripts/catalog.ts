@@ -4,8 +4,9 @@
 import * as fs from "node:fs";
 import * as path from "node:path";
 import { fileURLToPath } from "node:url";
+import { mapWithConcurrency } from "./async.ts";
 import { readYaml, readYamlIfExists, writeYaml, yamlExists } from "./yaml.ts";
-import { parseGitHubUrl, fetchGitHubRepo, fetchGitHubReadme } from "./github.ts";
+import { parseGitHubUrl, fetchGitHubRepo, fetchGitHubReadmeResult } from "./github.ts";
 import { buildInsightPrompt, parseAIInsightResponse } from "./ai.ts";
 import { resolveCatalogAIModel, runCatalogAIPrompt } from "./ai-runner.ts";
 import { buildProgressHeartbeat, shouldEmitProgressHeartbeat } from "./progress.ts";
@@ -47,7 +48,9 @@ const DEFAULT_CONFIG: CatalogConfig = {
   github: { metadata_refresh_days: 7 },
 };
 const ITEM_HEARTBEAT_EVERY = 50;
-
+const DEFAULT_DIRECT_DISCOVERY_CONCURRENCY = 8;
+const DEFAULT_GITHUB_ENRICHMENT_CONCURRENCY = 8;
+const DEFAULT_AI_INSIGHT_CONCURRENCY = 2;
 // ─── Config ───────────────────────────────────────────────────────────────────
 
 export function loadConfig(): CatalogConfig {
@@ -79,10 +82,10 @@ export function loadSources(): Source[] {
   return raw as Source[];
 }
 
-interface ScopeExamplesFile {
+type ScopeExamplesFile = {
   in_scope?: Source[];
   out_of_scope?: Source[];
-}
+};
 
 export function loadScopeExamples(): ScopeExamplesFile {
   const scopePath = path.join(REPO_ROOT, "sources", "scope.yml");
@@ -252,10 +255,10 @@ function loadOverridesFromDir(dir: string): Override[] {
 
 // ─── Validate ─────────────────────────────────────────────────────────────────
 
-export interface ValidationError {
+export type ValidationError = {
   path: string;
   message: string;
-}
+};
 
 export function validateSources(sources: Source[]): ValidationError[] {
   const errors: ValidationError[] = [];
@@ -644,28 +647,28 @@ function buildSourceListSources(sources: Source[], existingItems: CatalogItem[])
 async function buildDirectDiscoveryCandidates(
   sources: Source[],
   token?: string
- ): Promise<DiscoveryCandidate[]> {
-  const candidates: DiscoveryCandidate[] = [];
-
-  for (const source of sources) {
-    if (shouldSkipDiscoveredUrl(source.url)) continue;
-    const extractedUrl = normalizeDiscoveryTarget(source.url);
-    const targetUrl = await resolveCanonicalCatalogUrl(extractedUrl, token);
-    candidates.push({
-      target_url: targetUrl,
-      source,
-      extraction: {
-        mode: parseGitHubUrl(extractedUrl) || extractedUrl === targetUrl ? "direct" : "scraped",
-        section_path: ["inbox"],
-        anchor_text: extractedUrl,
-        extracted_url: extractedUrl,
-        surrounding_text: source.note ?? null,
-        confidence: "high",
-      },
-    });
-  }
-
-  return candidates;
+): Promise<DiscoveryCandidate[]> {
+  const discoverableSources = sources.filter((source) => !shouldSkipDiscoveredUrl(source.url));
+  return mapWithConcurrency(
+    discoverableSources,
+    resolveDirectDiscoveryConcurrency(),
+    async (source) => {
+      const extractedUrl = normalizeDiscoveryTarget(source.url);
+      const targetUrl = await resolveCanonicalCatalogUrl(extractedUrl, token);
+      return {
+        target_url: targetUrl,
+        source,
+        extraction: {
+          mode: parseGitHubUrl(extractedUrl) || extractedUrl === targetUrl ? "direct" : "scraped",
+          section_path: ["inbox"],
+          anchor_text: extractedUrl,
+          extracted_url: extractedUrl,
+          surrounding_text: source.note ?? null,
+          confidence: "high",
+        },
+      };
+    }
+  );
 }
 
 function buildDirectDiscoveryCandidatesSync(sources: Source[]): DiscoveryCandidate[] {
@@ -688,6 +691,48 @@ function buildDirectDiscoveryCandidatesSync(sources: Source[]): DiscoveryCandida
     });
 }
 
+function resolvePositiveConcurrencyLimit(
+  envName: string,
+  fallback: number,
+  env: NodeJS.ProcessEnv = process.env
+): number {
+  const raw = env[envName]?.trim();
+  if (!raw) return fallback;
+  const parsed = Number.parseInt(raw, 10);
+  if (!Number.isFinite(parsed) || parsed <= 0) return fallback;
+  return parsed;
+}
+
+export function resolveDirectDiscoveryConcurrency(
+  env: NodeJS.ProcessEnv = process.env
+): number {
+  return resolvePositiveConcurrencyLimit(
+    "CATALOG_DIRECT_DISCOVERY_CONCURRENCY",
+    DEFAULT_DIRECT_DISCOVERY_CONCURRENCY,
+    env
+  );
+}
+
+export function resolveGitHubEnrichmentConcurrency(
+  env: NodeJS.ProcessEnv = process.env
+): number {
+  return resolvePositiveConcurrencyLimit(
+    "CATALOG_GITHUB_CONCURRENCY",
+    DEFAULT_GITHUB_ENRICHMENT_CONCURRENCY,
+    env
+  );
+}
+
+export function resolveAIInsightConcurrency(
+  env: NodeJS.ProcessEnv = process.env
+): number {
+  return resolvePositiveConcurrencyLimit(
+    "CATALOG_AI_CONCURRENCY",
+    DEFAULT_AI_INSIGHT_CONCURRENCY,
+    env
+  );
+}
+
 export function resolveSourceListNewItemLimit(env: NodeJS.ProcessEnv = process.env): number | null {
   const raw = env["CATALOG_MAX_SOURCE_LIST_NEW_ITEMS"]?.trim();
   if (!raw) return null;
@@ -695,13 +740,18 @@ export function resolveSourceListNewItemLimit(env: NodeJS.ProcessEnv = process.e
   if (!Number.isFinite(parsed) || parsed <= 0) return null;
   return parsed;
 }
+type SourceListDiscoveryGroup = {
+  targetUrl: string;
+  itemId: string;
+  support: number;
+  candidates: DiscoveryCandidate[];
+};
 
-export function selectSourceListDiscoveryCandidates(
+function rankEligibleSourceListDiscoveryGroups(
   candidates: DiscoveryCandidate[],
   blockedItemIds: Set<string>,
-  existingItems: CatalogItem[] = [],
-  maxItems: number | null = null
- ): DiscoveryCandidate[] {
+  existingItems: CatalogItem[] = []
+): SourceListDiscoveryGroup[] {
   const grouped = new Map<string, DiscoveryCandidate[]>();
 
   for (const candidate of candidates) {
@@ -724,7 +774,7 @@ export function selectSourceListDiscoveryCandidates(
 
   const existingById = new Map(existingItems.map((item) => [item.id, item]));
 
-  const rankedGroups = [...grouped.entries()]
+  return [...grouped.entries()]
     .map(([targetUrl, group]) => ({
       targetUrl,
       itemId: makeItemId(targetUrl),
@@ -741,7 +791,19 @@ export function selectSourceListDiscoveryCandidates(
       );
     })
     .sort((a, b) => b.support - a.support || a.targetUrl.localeCompare(b.targetUrl));
+}
 
+export function selectSourceListDiscoveryCandidates(
+  candidates: DiscoveryCandidate[],
+  blockedItemIds: Set<string>,
+  existingItems: CatalogItem[] = [],
+  maxItems: number | null = null
+): DiscoveryCandidate[] {
+  const rankedGroups = rankEligibleSourceListDiscoveryGroups(
+    candidates,
+    blockedItemIds,
+    existingItems
+  );
   const limitedGroups = maxItems == null ? rankedGroups : rankedGroups.slice(0, maxItems);
 
   return limitedGroups.flatMap((group) => group.candidates);
@@ -751,19 +813,29 @@ async function buildDiscoveryCandidates(
   sources: Source[],
   existingItems: CatalogItem[],
   token?: string
- ): Promise<DiscoveryCandidate[]> {
+): Promise<DiscoveryCandidate[]> {
   const directCandidates = await buildDirectDiscoveryCandidates(sources, token);
   const blockedItemIds = new Set(directCandidates.map((candidate) => makeItemId(candidate.target_url)));
 
   const sourceListCandidates = loadSourceListDiscoveryCandidates(
     buildSourceListSources(sources, existingItems)
   );
-  const selectedSourceListCandidates = selectSourceListDiscoveryCandidates(
+  const sourceListLimit = resolveSourceListNewItemLimit();
+  const rankedSourceListGroups = rankEligibleSourceListDiscoveryGroups(
     sourceListCandidates,
     blockedItemIds,
-    existingItems,
-    resolveSourceListNewItemLimit()
+    existingItems
   );
+  const selectedSourceListGroups =
+    sourceListLimit == null ? rankedSourceListGroups : rankedSourceListGroups.slice(0, sourceListLimit);
+
+  if (sourceListLimit != null) {
+    console.log(
+      `Source-list discovery cap: selected ${selectedSourceListGroups.length}/${rankedSourceListGroups.length} eligible item group(s) with limit ${sourceListLimit}; already-discovered groups are skipped before capping.`
+    );
+  }
+
+  const selectedSourceListCandidates = selectedSourceListGroups.flatMap((group) => group.candidates);
 
   return [...directCandidates, ...selectedSourceListCandidates];
 }
@@ -883,7 +955,10 @@ export async function enrichWithGitHub(
   if (item.kind !== "github-repo" || !item.identity.github_repo) return item;
 
   const [owner, repo] = item.identity.github_repo.split("/");
-  const data = await fetchGitHubRepo(owner, repo, token);
+  const [data, readmeResult] = await Promise.all([
+    fetchGitHubRepo(owner, repo, token),
+    fetchGitHubReadmeResult(owner, repo, token),
+  ]);
 
   if (!data) return item;
 
@@ -893,12 +968,11 @@ export async function enrichWithGitHub(
   // readme provenance, so we don't lose a previous fetch.
   const previousReadme = item.metadata.github.readme ?? null;
   let readmeProvenance: GitHubReadmeProvenance | null = previousReadme;
-  const readmeBody = await fetchGitHubReadme(owner, repo, token);
-  if (readmeBody !== null) {
-    writeReadmeToCache(owner, repo, readmeBody);
+  if (readmeResult.body !== null) {
+    writeReadmeToCache(owner, repo, readmeResult.body);
     readmeProvenance = {
       fetched_at: new Date().toISOString(),
-      bytes: Buffer.byteLength(readmeBody, "utf8"),
+      bytes: Buffer.byteLength(readmeResult.body, "utf8"),
     };
   }
 
@@ -931,11 +1005,11 @@ function hasInsightText(value: string | null): boolean {
   return typeof value === "string" && value.trim().length > 0;
 }
 
-export interface ProcessingError {
+export type ProcessingError = {
   stage: "github_enrichment" | "ai_insights";
   item_id: string;
   message: string;
-}
+};
 
 export function summarizeProcessingErrors(errors: ProcessingError[]): {
   total: number;
@@ -1104,54 +1178,71 @@ export async function enrichWithAIInsights(
   throw new Error(`Catalog AI insight generation failed for ${item.id}: ${message}`);
 }
 
+export type MaterializeCatalogStateDeps = {
+  enrichItem?: (item: CatalogItem, categories: Category[]) => Promise<CatalogItem>;
+  saveItem?: (item: CatalogItem) => void;
+  renderCatalog?: (items: CatalogItem[], categories: Category[]) => void;
+};
+
+export type MaterializeCatalogStateResult = {
+  finalItems: CatalogItem[];
+  aiUpdatedIds: string[];
+  processingErrors: ProcessingError[];
+};
+
 export async function materializeCatalogState(
   items: CatalogItem[],
   categories: Category[],
   overrides: Override[],
-  deps: {
-    enrichItem?: (item: CatalogItem, categories: Category[]) => Promise<CatalogItem>;
-    saveItem?: (item: CatalogItem) => void;
-    renderCatalog?: (items: CatalogItem[], categories: Category[]) => void;
-  } = {}
-): Promise<{
-  finalItems: CatalogItem[];
-  aiUpdatedIds: string[];
-  processingErrors: ProcessingError[];
-}> {
+  deps: MaterializeCatalogStateDeps = {}
+): Promise<MaterializeCatalogStateResult> {
   const enrichItem = deps.enrichItem ?? enrichWithAIInsights;
   const saveItem = deps.saveItem ?? saveCatalogItem;
   const renderCatalog = deps.renderCatalog ?? render;
-  const aiUpdatedIds: string[] = [];
-  const processingErrors: ProcessingError[] = [];
-  const itemsWithInsights: CatalogItem[] = [];
   const startedAtMs = Date.now();
   let processedItems = 0;
 
-  for (const item of items) {
-    try {
-      const withInsights = await enrichItem(item, categories);
-      itemsWithInsights.push(withInsights);
-      if (withInsights !== item) {
-        aiUpdatedIds.push(withInsights.id);
+  const outcomes = await mapWithConcurrency(
+    items,
+    resolveAIInsightConcurrency(),
+    async (item) => {
+      try {
+        const withInsights = await enrichItem(item, categories);
+        return {
+          item: withInsights,
+          aiUpdatedId: withInsights !== item ? withInsights.id : null,
+          processingError: null as ProcessingError | null,
+        };
+      } catch (error) {
+        const message = error instanceof Error ? error.message : String(error);
+        return {
+          item,
+          aiUpdatedId: null,
+          processingError: { stage: "ai_insights", item_id: item.id, message } as ProcessingError,
+        };
+      } finally {
+        processedItems += 1;
+        if (shouldEmitProgressHeartbeat(processedItems, items.length, ITEM_HEARTBEAT_EVERY)) {
+          console.log(
+            buildProgressHeartbeat({
+              label: "AI insights",
+              completed: processedItems,
+              total: items.length,
+              startedAtMs,
+            })
+          );
+        }
       }
-    } catch (error) {
-      const message = error instanceof Error ? error.message : String(error);
-      processingErrors.push({ stage: "ai_insights", item_id: item.id, message });
-      itemsWithInsights.push(item);
     }
+  );
 
-    processedItems += 1;
-    if (shouldEmitProgressHeartbeat(processedItems, items.length, ITEM_HEARTBEAT_EVERY)) {
-      console.log(
-        buildProgressHeartbeat({
-          label: "AI insights",
-          completed: processedItems,
-          total: items.length,
-          startedAtMs,
-        })
-      );
-    }
-  }
+  const aiUpdatedIds = outcomes.flatMap((outcome) =>
+    outcome.aiUpdatedId ? [outcome.aiUpdatedId] : []
+  );
+  const processingErrors = outcomes.flatMap((outcome) =>
+    outcome.processingError ? [outcome.processingError] : []
+  );
+  const itemsWithInsights = outcomes.map((outcome) => outcome.item);
 
   let finalItems = applyOverrides(itemsWithInsights, overrides);
   finalItems = finalItems.map((item) => applyPlacement(item, categories));
@@ -1398,7 +1489,12 @@ function logStage(step: number, total: number, label: string, detail?: string): 
 }
 
 function logCatalogAIModel(): void {
-  console.log(`AI model: GitHub Copilot (${resolveCatalogAIModel()})`);
+  const configuredModel = resolveCatalogAIModel();
+  console.log(
+    configuredModel
+      ? `AI runner: pi:free (${configuredModel})`
+      : "AI runner: pi:free (automatic fallback chain)"
+  );
 }
 
 function printProcessingErrorSummary(errors: ProcessingError[], contextLabel: string): void {
@@ -1472,42 +1568,56 @@ export async function cmdRefresh(token?: string): Promise<void> {
   const windowDays = config.github.metadata_refresh_days;
   logStage(3, 4, "Refresh GitHub metadata", `${items.length} item(s) under evaluation`);
 
-  const refreshedItems: CatalogItem[] = [];
   const startedAtMs = Date.now();
   let processedItems = 0;
-  for (const item of items) {
-    let refreshed = item;
-    if (shouldRefreshMetadata(
-      item.metadata.github.last_checked_at,
-      windowDays,
-      new Date(),
-      item.metadata.github.created_at == null
-    )) {
+  const now = new Date();
+  const refreshOutcomes = await mapWithConcurrency(
+    items,
+    resolveGitHubEnrichmentConcurrency(),
+    async (item) => {
       try {
-        refreshed = await enrichWithGitHub(item, token);
+        const refreshed = shouldRefreshMetadata(
+          item.metadata.github.last_checked_at,
+          windowDays,
+          now,
+          item.metadata.github.created_at == null
+        )
+          ? await enrichWithGitHub(item, token)
+          : item;
+
+        return {
+          item: applyLifecycleRules(refreshed, config),
+          updatedId: refreshed !== item ? refreshed.id : null,
+          processingError: null as ProcessingError | null,
+        };
       } catch (error) {
         const message = error instanceof Error ? error.message : String(error);
-        processingErrors.push({ stage: "github_enrichment", item_id: item.id, message });
+        return {
+          item: applyLifecycleRules(item, config),
+          updatedId: null,
+          processingError: { stage: "github_enrichment", item_id: item.id, message } as ProcessingError,
+        };
+      } finally {
+        processedItems += 1;
+        if (shouldEmitProgressHeartbeat(processedItems, items.length, ITEM_HEARTBEAT_EVERY)) {
+          console.log(
+            buildProgressHeartbeat({
+              label: "Refresh metadata",
+              completed: processedItems,
+              total: items.length,
+              startedAtMs,
+            })
+          );
+        }
       }
     }
+  );
 
-    if (refreshed !== item) {
-      updatedIds.push(refreshed.id);
-    }
-
-    refreshedItems.push(applyLifecycleRules(refreshed, config));
-    processedItems += 1;
-    if (shouldEmitProgressHeartbeat(processedItems, items.length, ITEM_HEARTBEAT_EVERY)) {
-      console.log(
-        buildProgressHeartbeat({
-          label: "Refresh metadata",
-          completed: processedItems,
-          total: items.length,
-          startedAtMs,
-        })
-      );
-    }
-  }
+  const refreshedItems = refreshOutcomes.map((outcome) => outcome.item);
+  updatedIds.push(...refreshOutcomes.flatMap((outcome) => (outcome.updatedId ? [outcome.updatedId] : [])));
+  processingErrors.push(
+    ...refreshOutcomes.flatMap((outcome) => (outcome.processingError ? [outcome.processingError] : []))
+  );
 
   logStage(4, 4, "Materialize AI, placement, and generated output");
   const { aiUpdatedIds, processingErrors: aiErrors } = await materializeCatalogState(
@@ -1619,32 +1729,43 @@ export async function cmdUpdate(token?: string): Promise<void> {
 
   // 4. Enrich (fetch GitHub metadata for new items)
   logStage(4, 6, "Enrich new GitHub items", `${newItems.length} item(s)`);
-  const enrichedNewItems: CatalogItem[] = [];
   const processingErrors: ProcessingError[] = [];
   const startedAtMs = Date.now();
   let processedItems = 0;
-  for (const item of newItems) {
-    try {
-      const enriched = await enrichWithGitHub(item, token);
-      enrichedNewItems.push(enriched);
-    } catch (error) {
-      const message = error instanceof Error ? error.message : String(error);
-      processingErrors.push({ stage: "github_enrichment", item_id: item.id, message });
-      enrichedNewItems.push(item);
+  const enrichmentOutcomes = await mapWithConcurrency(
+    newItems,
+    resolveGitHubEnrichmentConcurrency(),
+    async (item) => {
+      try {
+        return {
+          item: await enrichWithGitHub(item, token),
+          processingError: null as ProcessingError | null,
+        };
+      } catch (error) {
+        const message = error instanceof Error ? error.message : String(error);
+        return {
+          item,
+          processingError: { stage: "github_enrichment", item_id: item.id, message } as ProcessingError,
+        };
+      } finally {
+        processedItems += 1;
+        if (shouldEmitProgressHeartbeat(processedItems, newItems.length, ITEM_HEARTBEAT_EVERY)) {
+          console.log(
+            buildProgressHeartbeat({
+              label: "GitHub enrichment",
+              completed: processedItems,
+              total: newItems.length,
+              startedAtMs,
+            })
+          );
+        }
+      }
     }
-
-    processedItems += 1;
-    if (shouldEmitProgressHeartbeat(processedItems, newItems.length, ITEM_HEARTBEAT_EVERY)) {
-      console.log(
-        buildProgressHeartbeat({
-          label: "GitHub enrichment",
-          completed: processedItems,
-          total: newItems.length,
-          startedAtMs,
-        })
-      );
-    }
-  }
+  );
+  const enrichedNewItems = enrichmentOutcomes.map((outcome) => outcome.item);
+  processingErrors.push(
+    ...enrichmentOutcomes.flatMap((outcome) => (outcome.processingError ? [outcome.processingError] : []))
+  );
 
   // 5. Apply lifecycle
   const allNewItems = enrichedNewItems.map((item) => applyLifecycleRules(item, config));
