@@ -5,7 +5,6 @@ import {
   enrichWithAIInsights,
   isCategorizeRetryDue,
   materializeCatalogState,
-  shouldEmitCategorizeHeartbeat,
 } from "../scripts/catalog/categorize.js";
 
 import type { CatalogItem, Category } from "../scripts/catalog/types.js"
@@ -151,6 +150,142 @@ describe("categorize command contract", () => {
     expect(result.finalItems[0]?.processing?.categorize?.cause?.type).toBe("missing_metadata");
   });
 
+  it("skips github items whose star metadata is stale even if a previous stars run marked them done", async () => {
+    const item = makeGitHubItem({
+      metadata: {
+        github: {
+          stars: 42,
+          forks: 1,
+          license: "MIT",
+          archived: false,
+          created_at: "2026-04-01T00:00:00Z",
+          pushed_at: "2026-05-01T00:00:00Z",
+          description: "A coding agent for developers.",
+          homepage: "",
+          topics: ["agent"],
+          last_checked_at: "2026-03-01T00:00:00Z",
+        },
+      },
+      processing: {
+        discover: { status: "done", updated_at: "2026-05-01T00:00:00Z" },
+        stars: { status: "done", updated_at: "2026-03-01T00:00:00Z" },
+        categorize: { status: "pending", updated_at: null },
+      },
+    });
+    let calls = 0;
+
+    const result = await materializeCatalogState([item], CATEGORIES, [], {
+      enrichItem: async (candidate) => {
+        calls += 1;
+        return candidate;
+      },
+      saveItem: () => {},
+      renderCatalog: () => {},
+      metadataRefreshDays: 7,
+      now: new Date("2026-05-02T00:00:00Z"),
+    });
+
+    expect(calls).toBe(0);
+    expect(result.finalItems[0]?.processing?.categorize?.status).toBe("skipped");
+    expect(result.finalItems[0]?.processing?.categorize?.cause?.type).toBe("missing_metadata");
+  });
+
+  it("force rebuild still categorizes stale github items when metadata is complete", async () => {
+    const item = makeGitHubItem({
+      metadata: {
+        github: {
+          stars: 42,
+          forks: 1,
+          license: "MIT",
+          archived: false,
+          created_at: "2026-04-01T00:00:00Z",
+          pushed_at: "2026-05-01T00:00:00Z",
+          description: "A coding agent for developers.",
+          homepage: "",
+          topics: ["agent"],
+          last_checked_at: "2026-03-01T00:00:00Z",
+        },
+      },
+      processing: {
+        discover: { status: "done", updated_at: "2026-05-01T00:00:00Z" },
+        stars: { status: "done", updated_at: "2026-03-01T00:00:00Z" },
+        categorize: { status: "pending", updated_at: null },
+      },
+    });
+    let calls = 0;
+
+    const result = await materializeCatalogState([item], CATEGORIES, [], {
+      enrichItem: async (candidate) => {
+        calls += 1;
+        return candidate;
+      },
+      saveItem: () => {},
+      renderCatalog: () => {},
+      metadataRefreshDays: 7,
+      now: new Date("2026-05-02T00:00:00Z"),
+      forceRebuild: true,
+    });
+
+    expect(calls).toBe(1);
+    expect(result.finalItems[0]?.processing?.categorize?.status).not.toBe("skipped");
+  });
+
+  it("skips github items whose star metadata is still incomplete even with a fresh timestamp", async () => {
+    const item = makeGitHubItem({
+      metadata: {
+        github: {
+          stars: 42,
+          forks: 1,
+          license: "MIT",
+          archived: false,
+          created_at: null,
+          pushed_at: "2026-05-01T00:00:00Z",
+          description: "A coding agent for developers.",
+          homepage: "",
+          topics: ["agent"],
+          last_checked_at: "2026-05-02T00:00:00Z",
+        },
+      },
+      processing: {
+        discover: { status: "done", updated_at: "2026-05-01T00:00:00Z" },
+        stars: { status: "done", updated_at: "2026-05-02T00:00:00Z" },
+        categorize: { status: "pending", updated_at: null },
+      },
+    });
+    let calls = 0;
+
+    const result = await materializeCatalogState([item], CATEGORIES, [], {
+      enrichItem: async (candidate) => {
+        calls += 1;
+        return candidate;
+      },
+      saveItem: () => {},
+      renderCatalog: () => {},
+      metadataRefreshDays: 7,
+      now: new Date("2026-05-02T00:00:00Z"),
+    });
+
+    expect(calls).toBe(0);
+    expect(result.finalItems[0]?.processing?.categorize?.status).toBe("skipped");
+    expect(result.finalItems[0]?.processing?.categorize?.cause?.type).toBe("missing_metadata");
+  });
+
+
+  it("treats pre-start budget exhaustion as deferred backlog instead of a provider failure", async () => {
+    const item = makeGitHubItem();
+
+    const result = await materializeCatalogState([item], CATEGORIES, [], {
+      enrichItem: async () => {
+        throw new Error("LLM categorization budget exhausted before starting item");
+      },
+      saveItem: () => {},
+      renderCatalog: () => {},
+    });
+
+    expect(result.attemptedAiTargetCount).toBe(0);
+    expect(result.skippedAiTargetIds).toEqual([item.id]);
+    expect(result.finalItems[0]?.processing?.categorize?.cause?.type).toBe("budget_exhausted");
+  });
   it("stores prompt and category versions on successful categorization", async () => {
     const item = makeGitHubItem();
 
@@ -430,7 +565,7 @@ describe("categorize command contract", () => {
     expect(result.retryBlockedTargetCount).toBe(0);
   });
 
-  it("uses time-based categorize heartbeats before hitting the item interval", () => {
+  it("respects categorize retry windows and force override", () => {
     expect(isCategorizeRetryDue(makeGitHubItem())).toBe(true);
     expect(isCategorizeRetryDue(
       makeGitHubItem({
@@ -452,8 +587,6 @@ describe("categorize command contract", () => {
       Date.parse("2026-05-03T00:00:00Z"),
       true,
     )).toBe(true);
-    expect(shouldEmitCategorizeHeartbeat({ completed: 3, total: 100, lastHeartbeatAtMs: 0, nowMs: 31_000 })).toBe(true);
-    expect(shouldEmitCategorizeHeartbeat({ completed: 3, total: 100, lastHeartbeatAtMs: 0, nowMs: 10_000 })).toBe(false);
   });
 
 });

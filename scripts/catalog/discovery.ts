@@ -1,4 +1,5 @@
 import {
+  makeDiscoveryId as buildDiscoveryId,
   makeItemId,
   normalizeGitHubUrl,
   normalizeLoadedItem,
@@ -13,19 +14,7 @@ function normalizeDiscoveryTarget(url: string): string {
   return normalizeSourceCoverageUrl(url);
 }
 
-export function makeDiscoveryId(url: string, source: Source): string {
-  const itemId = makeItemId(url);
-  const kind = source.kind ?? "direct-link";
-  if (kind === "direct-link" || kind === "manual-submission") return `discovery__${itemId}__${kind}`;
-
-  const sourceGithub = parseGitHubUrl(source.url);
-  if (sourceGithub) {
-    return `discovery__${itemId}__${kind}__${sourceGithub.owner.toLowerCase()}__${sourceGithub.repo.toLowerCase()}`;
-  }
-
-  const sourceKey = source.url.replace(/^https?:\/\//, "").replace(/[^a-z0-9]+/gi, "__").toLowerCase();
-  return `discovery__${itemId}__${kind}__${sourceKey}`;
-}
+export { makeDiscoveryId } from "./core.ts";
 
 function deriveSourceInfo(source: Source): { name: string; url: string | null; repository: string | null } {
   const kind = source.kind ?? "direct-link";
@@ -65,7 +54,7 @@ export function buildDiscovery(
 ): Discovery {
   const sourceInfo = deriveSourceInfo(source);
   return {
-    id: makeDiscoveryId(url, source),
+    id: buildDiscoveryId(url, source),
     discovered_at: discoveredAt,
     source: {
       type: source.kind ?? "direct-link",
@@ -153,7 +142,7 @@ function rankDiscoveryGroups(
       const existing = existingById.get(group.itemId);
       if (!existing) return true;
       const existingDiscoveryIds = new Set(existing.provenance.discoveries.map((discovery) => discovery.id));
-      return group.candidates.some((candidate) => !existingDiscoveryIds.has(makeDiscoveryId(group.targetUrl, candidate.source)));
+      return group.candidates.some((candidate) => !existingDiscoveryIds.has(buildDiscoveryId(group.targetUrl, candidate.source)));
     })
     .sort((a, b) => b.support - a.support || a.targetUrl.localeCompare(b.targetUrl));
 }

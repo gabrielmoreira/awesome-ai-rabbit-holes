@@ -77,28 +77,6 @@ export function updateProcessing<T extends { processing?: any }>(
   item.processing[command] = next;
 }
 
-export function markDone<T extends { processing?: any }>(item: T, command: string): void {
-  updateProcessing(item, command, { status: "done" });
-}
-
-export function markFailed<T extends { processing?: any }>(item: T, command: string, cause?: any): void {
-  updateProcessing(item, command, { status: "failed", cause });
-}
-
-export function markSkipped<T extends { processing?: any }>(item: T, command: string): void {
-  updateProcessing(item, command, { status: "skipped" });
-}
-
-export function markDeferred<T extends { processing?: any }>(item: T, command: string, nextRetry?: string): void {
-  updateProcessing(item, command, { status: "deferred", next_retry_at: nextRetry ?? null });
-}
-
-export function isFresh(lastCheckedAt: string | null, ttlMinutes: number): boolean {
-  if (!lastCheckedAt) return false;
-  const then = Date.parse(lastCheckedAt);
-  const now = Date.now();
-  return (now - then) < (ttlMinutes * 60_000);
-}
 
 export function nextRetry(baseIso: string, minutes: number): string {
   const d = new Date(baseIso);
@@ -106,9 +84,6 @@ export function nextRetry(baseIso: string, minutes: number): string {
   return d.toISOString();
 }
 
-export function makeHeartbeat(cmd: string, done: number, failed: number, skipped: number, ts: string): string {
-  return `[${ts}] ${cmd}: done:${done} failed:${failed} skipped:${skipped}`;
-}
 
 export function buildClaimedWorkHeartbeat(input: {
   command: string;

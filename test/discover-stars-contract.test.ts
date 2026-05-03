@@ -5,6 +5,7 @@ import {
 import { selectDiscoverSources } from "../scripts/catalog/discover.js";
 import {
   refreshItemStars,
+  runStars,
   selectStarRefreshTargets,
 } from "../scripts/catalog/stars.js";
 import type { CatalogItem, Source } from "../scripts/catalog/types.js"
@@ -146,6 +147,78 @@ describe("selectStarRefreshTargets", () => {
     );
 
     expect(selected.map((item) => item.id)).toEqual([staleGithub.id, incompleteFreshGithub.id]);
+  });
+});
+
+describe("runStars", () => {
+  it("does not rewrite unclaimed items when the stars budget is already exhausted", async () => {
+    const staleGithub = makeGitHubItem();
+    const anotherStaleGithub = makeGitHubItem({
+      id: "github__example__another",
+      canonical_url: "https://github.com/example/another",
+      identity: { github_repo: "example/another" },
+    });
+    const savedIds: string[] = [];
+    const logLines: string[] = [];
+
+    await runStars(undefined, {}, {
+      loadItems: () => [staleGithub, anotherStaleGithub],
+      saveItem: (item) => { savedIds.push(item.id); },
+      loadSettings: () => ({
+        promotion: { incubating_until_stars: 150 },
+        github: { metadata_refresh_days: 7 },
+        budgets: { discover_minutes: 10, stars_minutes: 0, categorize_minutes: 60 },
+        concurrency: { github: 1, site: 2, llm: 2, model_probe: 1 },
+      }),
+      loadConfig: () => ({
+        promotion: { incubating_until_stars: 150 },
+        github: { metadata_refresh_days: 7 },
+      }),
+      refreshItem: async (item) => item,
+      log: (line) => { logLines.push(line); },
+    });
+
+    expect(savedIds).toEqual([]);
+    expect(logLines).toContain("Star refresh budget exhausted before claiming any item(s); leaving 2 item(s) pending.");
+  });
+
+  it("continues saving other items when one star refresh throws", async () => {
+    const failing = makeGitHubItem();
+    const succeeding = makeGitHubItem({
+      id: "github__example__success",
+      canonical_url: "https://github.com/example/success",
+      identity: { github_repo: "example/success" },
+    });
+    const saved = new Map<string, CatalogItem>();
+
+    await runStars(undefined, {}, {
+      loadItems: () => [failing, succeeding],
+      saveItem: (item) => { saved.set(item.id, item); },
+      loadSettings: () => ({
+        promotion: { incubating_until_stars: 150 },
+        github: { metadata_refresh_days: 7 },
+        budgets: { discover_minutes: 10, stars_minutes: 10, categorize_minutes: 60 },
+        concurrency: { github: 1, site: 2, llm: 2, model_probe: 1 },
+      }),
+      loadConfig: () => ({
+        promotion: { incubating_until_stars: 150 },
+        github: { metadata_refresh_days: 7 },
+      }),
+      refreshItem: async (item) => {
+        if (item.id === failing.id) throw new Error("network down");
+        return {
+          ...item,
+          processing: {
+            ...item.processing,
+            stars: { status: "done", updated_at: "2026-05-02T00:00:00Z", cause: null },
+          },
+        };
+      },
+    });
+
+    expect(saved.get(failing.id)?.processing?.stars?.status).toBe("failed");
+    expect(saved.get(failing.id)?.processing?.stars?.cause?.type).toBe("github_refresh_failed");
+    expect(saved.get(succeeding.id)?.processing?.stars?.status).toBe("done");
   });
 });
 

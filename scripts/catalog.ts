@@ -46,7 +46,6 @@ export type { ValidationError } from "./catalog/validate.ts";
 export { resolveDirectDiscoveryConcurrency, runDiscover } from "./catalog/discover.ts";
 export {
   shouldRefreshMetadata,
-  resolveGitHubEnrichmentConcurrency,
   selectStarRefreshTargets,
   refreshItemStars,
   enrichWithGitHub,

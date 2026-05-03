@@ -1,14 +1,11 @@
 import { loadCatalogItems, loadConfig, saveCatalogItem } from "./data.ts"
 import { applyLifecycleRules, normalizeLoadedItem } from "./core.ts"
-import { nextRetry, runClaimedWork, updateProcessing } from "./processing.ts"
+import { runClaimedWork, updateProcessing } from "./processing.ts"
 import { readReadmeFromCache, readmeCachePath, writeReadmeToCache } from "./readme-cache.ts"
 import { loadSettings } from "./settings.ts"
-import type { CatalogItem, GitHubReadmeProvenance } from "./types.ts"
+import type { AppSettings, CatalogConfig, CatalogItem, GitHubReadmeProvenance } from "./types.ts"
 import { fetchGitHubReadmeResult, fetchGitHubRepo, parseGitHubUrl } from "../support/github.ts"
 
-export function resolveGitHubEnrichmentConcurrency(env: NodeJS.ProcessEnv = process.env): number {
-  return loadSettings({}, env).concurrency.github;
-}
 
 export function shouldRefreshMetadata(lastCheckedAt: string | null, windowDays: number, now: Date = new Date()): boolean {
   if (!lastCheckedAt) return true;
@@ -120,24 +117,37 @@ export async function refreshItemStars(
   return withLifecycle;
 }
 
+export interface RunStarsDeps {
+  loadSettings?: () => AppSettings;
+  loadConfig?: () => CatalogConfig;
+  loadItems?: () => CatalogItem[];
+  saveItem?: (item: CatalogItem) => void;
+  refreshItem?: (item: CatalogItem, token: string | undefined, threshold: number) => Promise<CatalogItem>;
+  log?: (line: string) => void;
+}
+
 export async function runStars(
   token?: string,
   options: { itemIds?: Set<string>; force?: boolean } = {},
+  deps: RunStarsDeps = {},
 ): Promise<void> {
-  const settings = loadSettings();
-  const config = loadConfig();
-  const allItems = loadCatalogItems();
+  const settings = deps.loadSettings?.() ?? loadSettings();
+  const config = deps.loadConfig?.() ?? loadConfig();
+  const allItems = deps.loadItems?.() ?? loadCatalogItems();
+  const saveItem = deps.saveItem ?? saveCatalogItem;
+  const refreshItem = deps.refreshItem ?? ((item: CatalogItem, currentToken: string | undefined, threshold: number) => refreshItemStars(item, currentToken, threshold));
+  const log = deps.log ?? ((line: string) => console.log(line));
   const eligibleItems = options.itemIds ? allItems.filter((item) => options.itemIds?.has(item.id)) : allItems;
   const now = new Date();
   const targets = selectStarRefreshTargets(eligibleItems, config.github.metadata_refresh_days, now, options);
 
   if (targets.length === 0) {
-    console.log("No GitHub-backed items need star refresh.");
+    log("No GitHub-backed items need star refresh.");
     return;
   }
 
-  console.log(`Refreshing GitHub star/order signals for ${targets.length}/${eligibleItems.length} item(s)...`);
-  const concurrency = Math.max(1, Math.min(resolveGitHubEnrichmentConcurrency(), targets.length));
+  log(`Refreshing GitHub star/order signals for ${targets.length}/${eligibleItems.length} item(s)...`);
+  const concurrency = Math.max(1, Math.min(settings.concurrency.github, targets.length));
   const deadlineMs = Date.now() + settings.budgets.stars_minutes * 60_000;
   const summary = await runClaimedWork({
     command: "stars",
@@ -147,36 +157,41 @@ export async function runStars(
     heartbeatEvery: 50,
     getCheckpoint: (item) => item.id,
     onHeartbeat: (heartbeat) => {
-      console.log(heartbeat);
+      log(heartbeat);
     },
     worker: async (item) => {
-      const next = await refreshItemStars(item, token, config.promotion.incubating_until_stars);
-      const status = next.processing?.stars?.status ?? "done";
-      return {
-        status: status === "pending" ? "done" : status,
-        value: next,
-      };
+      try {
+        const next = await refreshItem(item, token, config.promotion.incubating_until_stars);
+        const status = next.processing?.stars?.status ?? "done";
+        return {
+          status: status === "pending" ? "done" : status,
+          value: next,
+        };
+      } catch (error) {
+        const failed = { ...item };
+        const message = error instanceof Error ? error.message : String(error);
+        updateProcessing(failed, "stars", {
+          status: "failed",
+          cause: { type: "github_refresh_failed", message },
+        });
+        return { status: "failed", value: failed };
+      }
     },
   });
 
   if (summary.remaining > 0) {
-    const retryAt = nextRetry(new Date().toISOString(), 60);
-    for (const item of targets.slice(summary.claimed)) {
-      updateProcessing(item, "stars", {
-        status: "deferred",
-        cause: { type: "budget_exhausted", message: "Star refresh budget expired before this item was claimed" },
-        next_retry_at: retryAt,
-      });
-      saveCatalogItem(item);
+    if (summary.claimed === 0) {
+      log(`Star refresh budget exhausted before claiming any item(s); leaving ${summary.remaining} item(s) pending.`);
+    } else {
+      log(`Star refresh budget exhausted after claiming ${summary.claimed}/${targets.length} item(s); leaving ${summary.remaining} item(s) pending.`);
     }
-    console.log(`Star refresh budget exhausted after claiming ${summary.claimed}/${targets.length} item(s).`);
   }
 
   for (const item of summary.outputs.filter((value): value is CatalogItem => value !== null)) {
-    saveCatalogItem(item);
+    saveItem(item);
   }
 
-  console.log(`✅ Star refresh complete: ${summary.completed + summary.skipped} done, ${summary.failed + summary.deferred} deferred/failed.`);
+  log(`✅ Star refresh complete: ${summary.completed + summary.skipped} done, ${summary.failed + summary.deferred} deferred/failed.`);
 }
 
 export { readReadmeFromCache, readmeCachePath };

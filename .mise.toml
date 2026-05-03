@@ -16,6 +16,10 @@ run = "npm ci"
 description = "Run automated tests"
 run = "npm test"
 
+[tasks."catalog:typecheck"]
+description = "Run TypeScript typecheck"
+run = "npm exec tsc -- --noEmit"
+
 [tasks."catalog:discover"]
 description = "Discover new catalog candidates from explicit sources"
 run = "npm run catalog -- discover"

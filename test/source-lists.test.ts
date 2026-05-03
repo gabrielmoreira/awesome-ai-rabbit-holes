@@ -41,7 +41,6 @@ Curated MCP servers.
         surrounding_text: "- [Playwright MCP](https://github.com/example/playwright-mcp) - browser automation",
         page_title: null,
         page_description: null,
-        page_excerpt: null,
         github_repo_url: null,
       },
       {
@@ -53,7 +52,6 @@ Curated MCP servers.
         surrounding_text: "- [DB Tool](https://github.com/example/db-tool)",
         page_title: null,
         page_description: null,
-        page_excerpt: null,
         github_repo_url: null,
       },
     ]);
@@ -80,7 +78,6 @@ Browser automation with GPT.
         surrounding_text: "## [Taxy AI](https://github.com/TaxyAI/browser-extension)",
         page_title: null,
         page_description: null,
-        page_excerpt: null,
         github_repo_url: null,
       },
     ]);
@@ -147,7 +144,6 @@ Browser automation with GPT.
         surrounding_text: "- [Continue](https://continue.dev/) - Open-source AI coding assistant",
         page_title: "Continue",
         page_description: "Open-source AI tool for code completion and chat.",
-        page_excerpt: "Continue brings open-source AI coding assistance to editors.",
         github_repo_url: "https://github.com/continuedev/continue",
       },
     ]);
@@ -183,7 +179,6 @@ Browser automation with GPT.
         surrounding_text: "- [Cursor](https://www.cursor.sh/) - AI code editor",
         page_title: "Cursor",
         page_description: "AI-first code editor.",
-        page_excerpt: "Cursor is an AI-first code editor.",
         github_repo_url: null,
       },
     ]);
@@ -310,7 +305,6 @@ Browser automation with GPT.
           surrounding_text: null,
           page_title: null,
           page_description: null,
-          page_excerpt: null,
           github_repo_url: null,
         },
       ],
@@ -387,7 +381,6 @@ describe("source list context lines", () => {
             surrounding_text: null,
             page_title: "Continue",
             page_description: "Open-source AI tool for code completion and chat.",
-            page_excerpt: null,
             github_repo_url: "https://github.com/continuedev/continue",
           },
         ],
@@ -407,7 +400,6 @@ describe("source list context lines", () => {
             surrounding_text: null,
             page_title: null,
             page_description: null,
-            page_excerpt: null,
             github_repo_url: null,
           },
         ],

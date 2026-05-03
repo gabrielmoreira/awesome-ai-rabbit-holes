@@ -59,7 +59,25 @@ export function normalizeSourceCoverageUrl(url: string): string {
   }
 }
 
-function normalizeDiscoveryId(url: string, source: Source): string {
+export function isLowSignalCatalogUrl(url: string): boolean {
+  try {
+    const parsed = new URL(url);
+    const host = parsed.hostname.toLowerCase();
+    const pathname = parsed.pathname.toLowerCase();
+    if (host === "camo.githubusercontent.com") return true;
+    if (host === "arxiv.org" && pathname.startsWith("/abs/")) return true;
+    if (host === "docs.google.com" && pathname.includes("/forms/")) return true;
+    if (host === "img.shields.io" || host === "assets-global.website-files.com") return true;
+    if (/\.(?:png|jpe?g|gif|webp|svg|avif|ico|pdf)(?:$|[?#])/i.test(parsed.pathname)) return true;
+    if (pathname.includes("/_next/image")) return true;
+  } catch {
+    return false;
+  }
+  return false;
+}
+
+
+export function makeDiscoveryId(url: string, source: Source): string {
   const itemId = makeItemId(url);
   const kind = source.kind ?? "direct-link";
   if (kind === "direct-link" || kind === "manual-submission") return `discovery__${itemId}__${kind}`;
@@ -89,7 +107,7 @@ function normalizeLoadedDiscovery(raw: any, fallbackUrl: string): Discovery {
   } as Discovery["extraction"];
 
   return {
-    id: raw?.id ?? normalizeDiscoveryId(extraction.extracted_url, normalizedSource),
+    id: raw?.id ?? makeDiscoveryId(extraction.extracted_url, normalizedSource),
     discovered_at: raw?.discovered_at ?? null,
     source: {
       type: normalizedSource.kind ?? "direct-link",

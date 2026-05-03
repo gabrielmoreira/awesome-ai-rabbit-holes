@@ -8,6 +8,7 @@ import {
   WEBSITE_LINK_CACHE_DIR,
 } from "../support/paths.ts";
 import { buildProgressHeartbeat, shouldEmitProgressHeartbeat } from "../support/progress.ts";
+import { isLowSignalCatalogUrl } from "./core.ts";
 import type { CatalogItem, DiscoveryCandidate, Source } from "./types.ts";
 
 const WEBSITE_LINK_CACHE_TTL_MS = 24 * 60 * 60 * 1000;
@@ -52,7 +53,6 @@ export interface SourceListEntry {
   surrounding_text: string | null;
   page_title: string | null;
   page_description: string | null;
-  page_excerpt: string | null;
   github_repo_url: string | null;
   canonicalization_cause?: { type: string; message: string } | null;
 }
@@ -78,7 +78,6 @@ function normalizeSourceListEntry(raw: any): SourceListEntry {
     surrounding_text: raw?.surrounding_text ?? null,
     page_title: raw?.page_title ?? null,
     page_description: raw?.page_description ?? null,
-    page_excerpt: raw?.page_excerpt ?? null,
     github_repo_url: raw?.github_repo_url ? normalizeUrl(raw.github_repo_url) : null,
     ...(canonicalizationCause?.type && canonicalizationCause?.message
       ? { canonicalization_cause: { type: String(canonicalizationCause.type), message: String(canonicalizationCause.message) } }
@@ -182,23 +181,6 @@ function headingText(raw: string): string {
   return raw.trim().replace(/\s+#*$/, "");
 }
 
-function isLowSignalSourceListUrl(url: string): boolean {
-  const normalized = normalizeUrl(url);
-  try {
-    const parsed = new URL(normalized);
-    const host = parsed.hostname.toLowerCase();
-    const pathname = parsed.pathname.toLowerCase();
-    if (host === "camo.githubusercontent.com") return true;
-    if (host === "arxiv.org" && pathname.startsWith("/abs/")) return true;
-    if (host === "docs.google.com" && pathname.includes("/forms/")) return true;
-    if (host === "img.shields.io" || host === "assets-global.website-files.com") return true;
-    if (/\.(?:png|jpe?g|gif|webp|svg|avif|ico|pdf)(?:$|[?#])/i.test(parsed.pathname)) return true;
-    if (pathname.includes("/_next/image")) return true;
-  } catch {
-    return false;
-  }
-  return false;
-}
 
 function isSecondaryLinkSection(sectionPath: string[]): boolean {
   const last = sectionPath[sectionPath.length - 1]?.trim().toLowerCase();
@@ -558,7 +540,7 @@ export function extractSourceListEntries(readme: string, sourceUrl: string): Sou
     const extractedUrl = normalizeUrl(input.url);
     if (extractedUrl === normalizeUrl(sourceUrl)) return;
     if (shouldSkipDiscoveredUrl(extractedUrl)) return;
-    if (isLowSignalSourceListUrl(extractedUrl)) return;
+    if (isLowSignalCatalogUrl(extractedUrl)) return;
     if (seen.has(extractedUrl)) return;
     seen.add(extractedUrl);
     entries.push({
@@ -570,7 +552,6 @@ export function extractSourceListEntries(readme: string, sourceUrl: string): Sou
       surrounding_text: input.surroundingText.trim() || null,
       page_title: null,
       page_description: null,
-      page_excerpt: null,
       github_repo_url: null,
     });
   };
@@ -672,7 +653,6 @@ export async function buildSourceListMetadata(
             canonical_url: normalizeUrl(resolution.github_repo_url ?? resolution.canonical_url ?? entry.normalized_url),
             page_title: resolution.title ?? null,
             page_description: resolution.description ?? null,
-            page_excerpt: resolution.excerpt ?? null,
             github_repo_url: resolution.github_repo_url ? normalizeUrl(resolution.github_repo_url) : null,
             ...(resolution.canonicalization_cause ? { canonicalization_cause: resolution.canonicalization_cause } : {}),
           } satisfies SourceListEntry));

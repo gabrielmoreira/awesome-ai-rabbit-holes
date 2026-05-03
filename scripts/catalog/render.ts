@@ -3,6 +3,7 @@
 
 import * as path from "node:path";
 import { loadCatalogItems, loadCategories } from "./data.ts"
+import { isLowSignalCatalogUrl } from "./core.ts"
 import type { CatalogItem, Category } from "./types.ts"
 import { writeTextFileIfChanged } from "../support/files.ts"
 import { REPO_ROOT } from "../support/paths.ts"
@@ -38,22 +39,6 @@ function isGitHubBacked(item: CatalogItem): boolean {
   return Boolean(item.identity.github_repo) || Boolean(parseGitHubUrl(item.canonical_url));
 }
 
-function isLowSignalCatalogUrl(url: string): boolean {
-  try {
-    const parsed = new URL(url);
-    const host = parsed.hostname.toLowerCase();
-    const pathname = parsed.pathname.toLowerCase();
-    if (host === "camo.githubusercontent.com") return true;
-    if (host === "arxiv.org" && pathname.startsWith("/abs/")) return true;
-    if (host === "docs.google.com" && pathname.includes("/forms/")) return true;
-    if (host === "img.shields.io" || host === "assets-global.website-files.com") return true;
-    if (/\.(?:png|jpe?g|gif|webp|svg|avif|ico|pdf)(?:$|[?#])/i.test(parsed.pathname)) return true;
-    if (pathname.includes("/_next/image")) return true;
-  } catch {
-    return false;
-  }
-  return false;
-}
 
 function shouldRenderCatalogItem(item: CatalogItem): boolean {
   return item.curation.status === "included" && !isLowSignalCatalogUrl(item.canonical_url);

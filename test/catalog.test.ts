@@ -22,7 +22,6 @@ import {
   selectSourceListDiscoveryCandidates,
   resolveSourceListNewItemLimit,
   resolveDirectDiscoveryConcurrency,
-  resolveGitHubEnrichmentConcurrency,
   resolveAIInsightConcurrency,
   resolveAIInsightBudgetMs,
   applyLifecycleRules,
@@ -1595,8 +1594,6 @@ describe("AI insight application", () => {
   it("parses optional concurrency env overrides", () => {
     expect(resolveDirectDiscoveryConcurrency({} as NodeJS.ProcessEnv)).toBe(2);
     expect(resolveDirectDiscoveryConcurrency({ CATALOG_SITE_CONCURRENCY: "4" } as NodeJS.ProcessEnv)).toBe(4);
-    expect(resolveGitHubEnrichmentConcurrency({} as NodeJS.ProcessEnv)).toBe(4);
-    expect(resolveGitHubEnrichmentConcurrency({ CATALOG_GITHUB_CONCURRENCY: "8" } as NodeJS.ProcessEnv)).toBe(8);
     expect(resolveAIInsightConcurrency({} as NodeJS.ProcessEnv)).toBe(2);
     expect(resolveAIInsightConcurrency({ CATALOG_LLM_CONCURRENCY: "2" } as NodeJS.ProcessEnv)).toBe(2);
     expect(() => resolveAIInsightConcurrency({ CATALOG_LLM_CONCURRENCY: "garbage" } as NodeJS.ProcessEnv)).toThrow();
