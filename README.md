@@ -12,7 +12,8 @@ Pick one rabbit hole, follow it until it becomes useful or emotionally dangerous
 
 ## Rabbit Holes
 
-- [Coding Agents](docs/rabbit-holes/coding-agents.md) — AI coding assistants, autonomous programming agents, and tools that write code so you can spend more time reviewing code you did not ask for.
+- [Coding Agents](docs/rabbit-holes/coding-agents.md) — AI coding assistants, autonomous programming agents, and tools that help a developer work directly on source code.
+- [AI App Builders](docs/rabbit-holes/ai-app-builders.md) — Browser-first AI products that generate, assemble, or deploy whole apps, sites, and internal tools from prompts, often with low-code or no-code surfaces.
 - [AI IDEs and Editors](docs/rabbit-holes/ai-ides-editors.md) — Editors and IDEs built around AI assistance.
 - [Agent Orchestration](docs/rabbit-holes/agent-orchestration.md) — User-facing platforms and operational tooling for coordinating multiple AI agents.
 - [AI Frameworks and SDKs](docs/rabbit-holes/ai-frameworks.md) — Frameworks, SDKs, and code-first building blocks for embedding AI behavior into software.
