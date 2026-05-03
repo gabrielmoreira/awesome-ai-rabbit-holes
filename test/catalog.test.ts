@@ -1289,7 +1289,7 @@ describe("AI insight application", () => {
       },
     });
 
-    expect(saved).toHaveLength(2);
+    expect(saved.map((item) => item.id)).toEqual([first.id]);
     expect(rendered).toBe(true);
     expect(result.aiUpdatedIds).toEqual([first.id]);
     expect(result.processingErrors).toEqual([

@@ -206,6 +206,47 @@ describe("categorize command contract", () => {
     expect(result.placement.primary_category).toBe("app-builders");
   });
 
+  it("persists only items whose final state changed", async () => {
+    const unchanged = makeGitHubItem({
+      id: "github__example__unchanged",
+      insights: {
+        summary: "Already done.",
+        why_it_matters: "Already explained.",
+        mental_damage: "Already joked.",
+        tags: ["coding-agent"],
+        confidence: "high",
+      },
+      curation: { status: "included", reason: "Already classified.", evidence: ["Existing evidence."] },
+      placement: { primary_category: "coding-agents", section: null },
+    });
+    const changed = makeGitHubItem({ id: "github__example__changed", canonical_url: "https://github.com/example/changed", identity: { github_repo: "example/changed" } });
+    const saved: string[] = [];
+
+    await materializeCatalogState([unchanged, changed], CATEGORIES, [], {
+      enrichItem: async (candidate) => {
+        if (candidate.id === unchanged.id) return candidate;
+        return {
+          ...candidate,
+          insights: {
+            summary: "Fresh summary.",
+            why_it_matters: "Fresh reason.",
+            mental_damage: "Fresh joke.",
+            tags: ["coding-agent"],
+            confidence: "high",
+          },
+          curation: { status: "included", reason: "Fresh fit.", evidence: ["Fresh evidence."] },
+          placement: { primary_category: "coding-agents", section: null },
+        };
+      },
+      saveItem: (item) => {
+        saved.push(item.id);
+      },
+      renderCatalog: () => {},
+    });
+
+    expect(saved).toEqual([changed.id]);
+  });
+
   it("relabels hosted app builders away from coding-agents when app-builders exists", () => {
     const websiteItem: CatalogItem = {
       ...makeGitHubItem({

@@ -436,7 +436,9 @@ export async function materializeCatalogState(
   finalItems = finalItems.map((item) => applyPlacement(item, categories));
   finalItems = finalItems.map((item) => applyLifecycleRules(item, loadConfig()));
 
-  for (const item of finalItems) saveItem(item);
+  const originalSerializedById = new Map(items.map((item) => [item.id, JSON.stringify(item)] as const));
+  const changedItems = finalItems.filter((item) => originalSerializedById.get(item.id) !== JSON.stringify(item));
+  for (const item of changedItems) saveItem(item);
   renderCatalog(finalItems, categories);
 
   return {
