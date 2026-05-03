@@ -79,7 +79,7 @@ usage = '''
 flag "--timeout-ms <timeoutMs>" help="Timeout for the discovery command in milliseconds"
 '''
 run = '''
-node scripts/pi-free-all-models.ts{% if usage.timeout_ms %} --timeout-ms {{ usage.timeout_ms }}{% endif %}
+node scripts/pi-cli.ts all-models{% if usage.timeout_ms %} --timeout-ms {{ usage.timeout_ms }}{% endif %}
 '''
 
 [tasks."pi:free:intelligence"]
@@ -88,7 +88,7 @@ usage = '''
 flag "--source-url <sourceUrl>" help="Optional leaderboard URL override"
 '''
 run = '''
-node scripts/pi-free-intelligence.ts{% if usage.source_url %} --source-url {{ usage.source_url | json_encode }}{% endif %}
+node scripts/pi-cli.ts intelligence{% if usage.source_url %} --source-url {{ usage.source_url | json_encode }}{% endif %}
 '''
 
 [tasks."pi:free:rank-models"]
@@ -100,10 +100,10 @@ flag "--timeout-ms <timeoutMs>" help="Per-model timeout in milliseconds"
 flag "--concurrency <concurrency>" help="How many model probes to run in parallel (default: 4)"
 '''
 run = '''
-node scripts/pi-free-rank-models.ts{% if usage.limit %} --limit {{ usage.limit }}{% endif %}{% if usage.prompt %} --prompt {{ usage.prompt | json_encode }}{% endif %}{% if usage.timeout_ms %} --timeout-ms {{ usage.timeout_ms }}{% endif %}{% if usage.concurrency %} --concurrency {{ usage.concurrency }}{% endif %}
+node scripts/pi-cli.ts rank-models{% if usage.limit %} --limit {{ usage.limit }}{% endif %}{% if usage.prompt %} --prompt {{ usage.prompt | json_encode }}{% endif %}{% if usage.timeout_ms %} --timeout-ms {{ usage.timeout_ms }}{% endif %}{% if usage.concurrency %} --concurrency {{ usage.concurrency }}{% endif %}
 '''
 
 
 [tasks."pi:free:doctor"]
 description = "Summarize provider/model health from ranked pi-free artifacts"
-run = "node scripts/pi-free-doctor.ts"
+run = "node scripts/pi-cli.ts doctor"

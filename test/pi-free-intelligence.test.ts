@@ -2,7 +2,7 @@ import { describe, expect, it } from "vitest";
 import {
   buildPiFreeIntelligenceFile,
   extractPiFreeIntelligenceRecordsFromMarkdown,
-} from "../scripts/pi-free-intelligence.js";
+} from "../scripts/pi/intelligence.js";
 
 describe("pi-free intelligence extraction", () => {
   it("extracts simplified intelligence records from the leaderboard markdown", () => {

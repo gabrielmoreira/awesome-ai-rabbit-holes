@@ -1,6 +1,5 @@
-import { pathToFileURL } from "node:url";
 import { spawn, type ChildProcess } from "node:child_process";
-import { mapWithConcurrency } from "./support/async.ts"
+import { mapWithConcurrency } from "../support/async.ts";
 import {
   comparePiFreeRankedResults,
   loadPiFreeAllModelsFile,
@@ -12,7 +11,7 @@ import {
   type PiFreeAllModel,
   type PiFreeRankedModelResult,
   writePiFreeRankedModelsFile,
-} from "./pi/models.ts";
+} from "./models.ts";
 
 const DEFAULT_PROMPT = "Reply with exactly HI.";
 const DEFAULT_TIMEOUT_MS = 60_000;
@@ -176,7 +175,7 @@ async function probeModel(
   model: PiFreeAllModel,
   intelligenceFile: ReturnType<typeof loadPiFreeIntelligenceFile>,
   prompt: string,
-  timeoutMs: number
+  timeoutMs: number,
 ): Promise<PiFreeRankedModelResult> {
   const startedAt = Date.now();
   const intelligence = matchPiFreeIntelligenceRecord(model.spec, intelligenceFile);
@@ -195,7 +194,7 @@ async function probeModel(
         "--no-session",
       ],
       null,
-      timeoutMs
+      timeoutMs,
     );
     const excerpt = output.trim().replace(/\s+/g, " ").slice(0, 120) || null;
     return {
@@ -239,9 +238,8 @@ function refreshRankedResultIntelligence(
   };
 }
 
-
-async function main(): Promise<void> {
-  const args = parseArgs(process.argv.slice(2));
+export async function runPiFreeRankModels(argv: string[] = process.argv.slice(2)): Promise<void> {
+  const args = parseArgs(argv);
   const allModelsFile = loadPiFreeAllModelsFile();
   if (!allModelsFile || allModelsFile.models.length === 0) {
     throw new Error("all-models.json is missing or empty. Run `mise run pi:free:all-models` first.");
@@ -300,14 +298,4 @@ async function main(): Promise<void> {
   const successCount = results.filter((result) => result.ok).length;
   const failureCount = results.length - successCount;
   console.log(`Ranked models written with ${successCount} success(es) and ${failureCount} failure(s).`);
-}
-
-const isDirectCliEntry = process.argv[1] ? pathToFileURL(process.argv[1]).href === import.meta.url : false;
-
-if (isDirectCliEntry) {
-  void main().catch((error) => {
-    const message = error instanceof Error ? error.message : String(error);
-    console.error(message);
-    process.exit(1);
-  });
 }

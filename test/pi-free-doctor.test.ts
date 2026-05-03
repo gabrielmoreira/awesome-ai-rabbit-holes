@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { buildPiFreeDoctorReport } from "../scripts/pi-free-doctor.js";
+import { buildPiFreeDoctorReport } from "../scripts/pi/doctor.js";
 
 describe("buildPiFreeDoctorReport", () => {
   it("summarizes configured providers, working models, and the first usable model", () => {

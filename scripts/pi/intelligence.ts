@@ -1,11 +1,10 @@
-import { pathToFileURL } from "node:url";
 import {
   PI_FREE_INTELLIGENCE_SOURCE_URL,
   buildPiFreeIntelligenceAliases,
   type PiFreeIntelligenceFile,
   type PiFreeIntelligenceRecord,
   writePiFreeIntelligenceFile,
-} from "./pi/models.ts";
+} from "./models.ts";
 
 function stripImageMarkdown(value: string): string {
   return value.replace(/!\[[^\]]*\]\([^)]*\)/g, "").trim();
@@ -26,7 +25,7 @@ export function extractPiFreeIntelligenceRecordsFromMarkdown(markdown: string): 
     if (!line.includes("[Model](https://artificialanalysis.ai/models/")) continue;
 
     const match = line.match(
-      /^\|+\s*(.*?)\s*\|\s*[^|]*\|\s*(.*?)\s*\|\s*([^|]+)\s*\|.*\[Model]\(https:\/\/artificialanalysis\.ai\/models\/([^)]+)\)/
+      /^\|+\s*(.*?)\s*\|\s*[^|]*\|\s*(.*?)\s*\|\s*([^|]+)\s*\|.*\[Model]\(https:\/\/artificialanalysis\.ai\/models\/([^)]+)\)/,
     );
     if (!match) continue;
 
@@ -53,13 +52,13 @@ export function extractPiFreeIntelligenceRecordsFromMarkdown(markdown: string): 
     (a, b) =>
       (b.artificial_analysis_intelligence_index ?? Number.NEGATIVE_INFINITY) -
         (a.artificial_analysis_intelligence_index ?? Number.NEGATIVE_INFINITY) ||
-      a.id.localeCompare(b.id)
+      a.id.localeCompare(b.id),
   );
 }
 
 export function buildPiFreeIntelligenceFile(
   records: PiFreeIntelligenceRecord[],
-  options: { generatedAt?: string; sourceUrl?: string } = {}
+  options: { generatedAt?: string; sourceUrl?: string } = {},
 ): PiFreeIntelligenceFile {
   return {
     generated_at: options.generatedAt ?? new Date().toISOString(),
@@ -105,8 +104,8 @@ function parseArgs(argv: string[]): { sourceUrl: string } {
   return { sourceUrl };
 }
 
-async function main(): Promise<void> {
-  const args = parseArgs(process.argv.slice(2));
+export async function runPiFreeIntelligence(argv: string[] = process.argv.slice(2)): Promise<void> {
+  const args = parseArgs(argv);
   console.log(`Fetching intelligence data from ${args.sourceUrl}...`);
   const markdown = await fetchLeaderboardMarkdown(args.sourceUrl);
   const records = extractPiFreeIntelligenceRecordsFromMarkdown(markdown);
@@ -117,14 +116,4 @@ async function main(): Promise<void> {
   const file = buildPiFreeIntelligenceFile(records, { sourceUrl: args.sourceUrl });
   writePiFreeIntelligenceFile(file);
   console.log(`Wrote ${records.length} intelligence record(s).`);
-}
-
-const isDirectCliEntry = process.argv[1] ? pathToFileURL(process.argv[1]).href === import.meta.url : false;
-
-if (isDirectCliEntry) {
-  void main().catch((error) => {
-    const message = error instanceof Error ? error.message : String(error);
-    console.error(message);
-    process.exit(1);
-  });
 }

@@ -1,6 +1,5 @@
-import { pathToFileURL } from "node:url";
 import { spawn, type ChildProcess } from "node:child_process";
-import { buildPiFreeAllModelsFile, parsePiListModelsOutput, writePiFreeAllModelsFile } from "./pi/models.ts"
+import { buildPiFreeAllModelsFile, parsePiListModelsOutput, writePiFreeAllModelsFile } from "./models.ts";
 
 const DEFAULT_TIMEOUT_MS = 60_000;
 
@@ -45,7 +44,7 @@ async function runPiListModels(timeoutMs: number): Promise<string> {
         windowsHide: true,
         stdio: ["ignore", "pipe", "pipe"],
         shell: false,
-      }
+      },
     );
 
     let stdout = "";
@@ -83,22 +82,12 @@ async function runPiListModels(timeoutMs: number): Promise<string> {
   });
 }
 
-async function main(): Promise<void> {
-  const args = parseArgs(process.argv.slice(2));
+export async function runPiFreeAllModels(argv: string[] = process.argv.slice(2)): Promise<void> {
+  const args = parseArgs(argv);
   console.log("Discovering pi-free candidate models...");
   const output = await runPiListModels(args.timeoutMs);
   const models = parsePiListModelsOutput(output);
   const file = buildPiFreeAllModelsFile(models);
   writePiFreeAllModelsFile(file);
   console.log(`Wrote ${file.model_count} model(s) to all-models.json.`);
-}
-
-const isDirectCliEntry = process.argv[1] ? pathToFileURL(process.argv[1]).href === import.meta.url : false;
-
-if (isDirectCliEntry) {
-  void main().catch((error) => {
-    const message = error instanceof Error ? error.message : String(error);
-    console.error(message);
-    process.exit(1);
-  });
 }

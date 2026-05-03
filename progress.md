@@ -113,3 +113,9 @@
   - make Pi ownership symmetrical with the catalog CLI pattern
   - replace names like `pi-free-*` with action-oriented names that describe what each file actually does
 
+
+- Completed in the current follow-up:
+  - added `scripts/pi-cli.ts` as the single root Pi maintenance entrypoint
+  - moved the concrete Pi maintenance commands under `scripts/pi/`
+  - updated `.mise.toml` so `pi:free:*` tasks dispatch through `scripts/pi-cli.ts`
+  - `scripts/` root is now limited to direct entrypoints plus domain folders: `catalog.ts`, `pi-cli.ts`, `catalog/`, `pi/`, `support/`

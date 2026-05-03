@@ -1,6 +1,5 @@
 import * as fs from "node:fs";
-import { fileURLToPath } from "node:url";
-import { PI_FREE_ALL_MODELS_PATH, PI_FREE_RANKED_MODELS_PATH } from "./support/paths.ts"
+import { PI_FREE_ALL_MODELS_PATH, PI_FREE_RANKED_MODELS_PATH } from "../support/paths.ts";
 
 type ProviderName = "openrouter" | "nvidia" | "cloudflare" | "mistral" | "ollama";
 
@@ -130,11 +129,4 @@ export async function runPiFreeDoctor(env: NodeJS.ProcessEnv = process.env): Pro
   if (!report.first_usable_model) {
     throw new Error("No usable ranked model found. Run pi:free ranking again or configure a working provider.");
   }
-}
-
-if (process.argv[1] && process.argv[1] === fileURLToPath(import.meta.url)) {
-  runPiFreeDoctor().catch((error) => {
-    console.error(error);
-    process.exit(1);
-  });
 }
