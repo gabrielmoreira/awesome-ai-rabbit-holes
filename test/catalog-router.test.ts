@@ -6,6 +6,7 @@ describe("catalog router command surface", () => {
     const commands = createCatalogCommandMap();
     expect(Object.keys(commands).sort()).toEqual([
       "categorize",
+      "clean",
       "discover",
       "render",
       "resync",

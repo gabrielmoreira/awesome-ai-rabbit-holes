@@ -56,6 +56,22 @@ run = '''
 npm run catalog -- resync{% if usage.id %} --id {{ usage.id | json_encode }}{% endif %}{% if usage.url %} --url {{ usage.url | json_encode }}{% endif %}{% if usage.match %} --match {{ usage.match | json_encode }}{% endif %}{% if usage.status %} --status {{ usage.status | json_encode }}{% endif %}{% if usage.where %} --where {{ usage.where | json_encode }}{% endif %}{% if usage.discover %} --discover{% endif %}{% if usage.stars %} --stars{% endif %}{% if usage.categorize %} --categorize{% endif %}
 '''
 
+[tasks."catalog:clean"]
+description = "Remove generated catalog output, pi-free artifacts, and cache"
+run = "npm run catalog -- clean"
+
+[tasks."catalog:clean:cache"]
+description = "Remove local catalog caches only"
+run = "npm run catalog -- clean --cache"
+
+[tasks."catalog:clean:data"]
+description = "Remove generated catalog data and pi-free artifacts"
+run = "npm run catalog -- clean --data"
+
+[tasks."catalog:clean:docs"]
+description = "Remove generated README and rabbit-hole pages"
+run = "npm run catalog -- clean --docs"
+
 [tasks.pi]
 description = "Run Pi coding agent with repo-local state"
 raw = true

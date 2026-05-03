@@ -49,6 +49,7 @@ mise run catalog:validate
 - `docs/rabbit-holes/*.md`
 - `catalog/catalog.json`
 - `catalog/items/**/*.yml`
+- `catalog/pi-free/*.json`
 
 ## Add new links
 
@@ -107,6 +108,10 @@ mise run catalog:render
 mise run catalog:validate
 mise run catalog:sync
 mise run catalog:resync --id <item-id> --categorize
+mise run catalog:clean
+mise run catalog:clean:cache
+mise run catalog:clean:data
+mise run catalog:clean:docs
 mise run pi:free:doctor
 ```
 

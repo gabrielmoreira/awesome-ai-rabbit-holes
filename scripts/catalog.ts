@@ -2,6 +2,7 @@ import { fileURLToPath } from "node:url";
 import { runCategorize } from "./catalog/categorize.ts";
 import { runDiscover } from "./catalog/discover.ts";
 import { runRender } from "./catalog/render.ts";
+import { runClean } from "./catalog/clean.ts";
 import { runResync } from "./catalog/resync.ts";
 import { runStars } from "./catalog/stars.ts";
 import { runValidate } from "./catalog/validate.ts";
@@ -73,6 +74,7 @@ export {
   writeSiteCatalog,
 } from "./catalog/render.ts";
 export { runResync, selectResyncItems } from "./catalog/resync.ts";
+export { listCleanTargets, resolveCleanSelection, runClean } from "./catalog/clean.ts";
 
 export type SyncCommandDeps = {
   discover: () => Promise<void>;
@@ -103,6 +105,7 @@ export async function runSync(
 
 export function createCatalogCommandMap(token?: string, argv: string[] = []) {
   return {
+    clean: () => runClean(argv),
     discover: () => runDiscover(token),
     stars: () => runStars(token),
     categorize: () => runCategorize(token),
@@ -128,7 +131,7 @@ const isDirectCliEntry = process.argv[1] ? process.argv[1] === fileURLToPath(imp
 
 if (isDirectCliEntry) {
   if (!hasCatalogCommand(commands, command)) {
-    console.error("Usage: npm run catalog -- [discover|stars|categorize|render|validate|sync|resync]");
+    console.error("Usage: npm run catalog -- [clean|discover|stars|categorize|render|validate|sync|resync]");
     process.exit(1);
   }
 
