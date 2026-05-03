@@ -3,8 +3,11 @@ import {
   applyAIInsights,
   CATALOG_CATEGORIZE_PROMPT_VERSION,
   enrichWithAIInsights,
+  isCategorizeRetryDue,
   materializeCatalogState,
+  shouldEmitCategorizeHeartbeat,
 } from "../scripts/catalog/categorize.js";
+
 import type { CatalogItem, Category } from "../scripts/catalog/types.js"
 
 const CATEGORIES: Category[] = [
@@ -74,6 +77,21 @@ function makeGitHubItem(overrides: Partial<CatalogItem> = {}): CatalogItem {
     ...overrides,
   };
 }
+function makeCategorized(candidate: CatalogItem): CatalogItem {
+  return {
+    ...candidate,
+    insights: {
+      summary: `summary for ${candidate.name}`,
+      why_it_matters: `why ${candidate.name} matters`,
+      mental_damage: `joke for ${candidate.name}`,
+      tags: ["coding-agent"],
+      confidence: "high",
+    },
+    curation: { status: "included", reason: `fit ${candidate.name}`, evidence: [`evidence for ${candidate.name}`] },
+    placement: { primary_category: "coding-agents", section: null },
+  };
+}
+
 
 describe("categorize command contract", () => {
   it("records invalid llm json after a single prompt call", async () => {
@@ -320,6 +338,122 @@ describe("categorize command contract", () => {
     expect(result.curation.status).toBe("included");
     expect(result.curation.evidence.some((entry) => /App Builders|app-building|prompt-to-app/i.test(entry))).toBe(true);
     expect(result.curation.reason).toContain("app-builders");
+  });
+
+  it("orders categorize work by oldest processing timestamp and skips retry-blocked items", async () => {
+    const pending = makeGitHubItem({
+      id: "github__example__pending",
+      name: "pending",
+      canonical_url: "https://github.com/example/pending",
+      identity: { github_repo: "example/pending" },
+      processing: {
+        discover: { status: "done", updated_at: "2026-05-01T00:00:00Z" },
+        stars: { status: "done", updated_at: "2026-05-01T00:00:00Z" },
+        categorize: { status: "pending", updated_at: null, next_retry_at: null },
+      },
+    });
+    const oldest = makeGitHubItem({
+      id: "github__example__oldest",
+      name: "oldest",
+      canonical_url: "https://github.com/example/oldest",
+      identity: { github_repo: "example/oldest" },
+      processing: {
+        discover: { status: "done", updated_at: "2026-05-01T00:00:00Z" },
+        stars: { status: "done", updated_at: "2026-05-01T00:00:00Z" },
+        categorize: { status: "deferred", updated_at: "2000-01-01T00:00:00Z", next_retry_at: "2000-01-01T01:00:00Z" },
+      },
+    });
+    const recent = makeGitHubItem({
+      id: "github__example__recent",
+      name: "recent",
+      canonical_url: "https://github.com/example/recent",
+      identity: { github_repo: "example/recent" },
+      processing: {
+        discover: { status: "done", updated_at: "2026-05-01T00:00:00Z" },
+        stars: { status: "done", updated_at: "2026-05-01T00:00:00Z" },
+        categorize: { status: "failed", updated_at: "2099-01-01T00:00:00Z", next_retry_at: null },
+      },
+    });
+    const retryBlocked = makeGitHubItem({
+      id: "github__example__retry-blocked",
+      name: "retry-blocked",
+      canonical_url: "https://github.com/example/retry-blocked",
+      identity: { github_repo: "example/retry-blocked" },
+      processing: {
+        discover: { status: "done", updated_at: "2026-05-01T00:00:00Z" },
+        stars: { status: "done", updated_at: "2026-05-01T00:00:00Z" },
+        categorize: { status: "deferred", updated_at: "2001-01-01T00:00:00Z", next_retry_at: "2999-01-01T00:00:00Z" },
+      },
+    });
+    const seen: string[] = [];
+
+    const result = await materializeCatalogState([recent, retryBlocked, oldest, pending], CATEGORIES, [], {
+      enrichItem: async (candidate) => {
+        seen.push(candidate.id);
+        return makeCategorized(candidate);
+      },
+      saveItem: () => {},
+      renderCatalog: () => {},
+    });
+
+    expect(seen).toEqual([oldest.id, recent.id, pending.id]);
+
+    expect(result.retryBlockedTargetCount).toBe(1);
+    expect(result.finalItems.find((item) => item.id === retryBlocked.id)?.processing?.categorize?.next_retry_at).toBe("2999-01-01T00:00:00Z");
+  });
+
+  it("force rebuild ignores the retry window", async () => {
+    const retryBlocked = makeGitHubItem({
+      id: "github__example__retry-blocked",
+      name: "retry-blocked",
+      canonical_url: "https://github.com/example/retry-blocked",
+      identity: { github_repo: "example/retry-blocked" },
+      processing: {
+        discover: { status: "done", updated_at: "2026-05-01T00:00:00Z" },
+        stars: { status: "done", updated_at: "2026-05-01T00:00:00Z" },
+        categorize: { status: "deferred", updated_at: "2001-01-01T00:00:00Z", next_retry_at: "2999-01-01T00:00:00Z" },
+      },
+    });
+    const seen: string[] = [];
+
+    const result = await materializeCatalogState([retryBlocked], CATEGORIES, [], {
+      enrichItem: async (candidate) => {
+        seen.push(candidate.id);
+        return makeCategorized(candidate);
+      },
+      saveItem: () => {},
+      renderCatalog: () => {},
+      forceRebuild: true,
+    });
+
+    expect(seen).toEqual([retryBlocked.id]);
+    expect(result.retryBlockedTargetCount).toBe(0);
+  });
+
+  it("uses time-based categorize heartbeats before hitting the item interval", () => {
+    expect(isCategorizeRetryDue(makeGitHubItem())).toBe(true);
+    expect(isCategorizeRetryDue(
+      makeGitHubItem({
+        processing: {
+          discover: { status: "done", updated_at: "2026-05-01T00:00:00Z" },
+          stars: { status: "done", updated_at: "2026-05-01T00:00:00Z" },
+          categorize: { status: "deferred", updated_at: "2026-05-01T00:00:00Z", next_retry_at: "2999-01-01T00:00:00Z" },
+        },
+      }),
+    )).toBe(false);
+    expect(isCategorizeRetryDue(
+      makeGitHubItem({
+        processing: {
+          discover: { status: "done", updated_at: "2026-05-01T00:00:00Z" },
+          stars: { status: "done", updated_at: "2026-05-01T00:00:00Z" },
+          categorize: { status: "deferred", updated_at: "2026-05-01T00:00:00Z", next_retry_at: "2999-01-01T00:00:00Z" },
+        },
+      }),
+      Date.parse("2026-05-03T00:00:00Z"),
+      true,
+    )).toBe(true);
+    expect(shouldEmitCategorizeHeartbeat({ completed: 3, total: 100, lastHeartbeatAtMs: 0, nowMs: 31_000 })).toBe(true);
+    expect(shouldEmitCategorizeHeartbeat({ completed: 3, total: 100, lastHeartbeatAtMs: 0, nowMs: 10_000 })).toBe(false);
   });
 
 });

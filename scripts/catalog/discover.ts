@@ -5,7 +5,7 @@ import { discoverCandidates,
 orderDiscoverableSources,
 resolveSourceListNewItemLimit,
 selectSourceListDiscoveryCandidates, } from "./discovery.ts"
-import { makeItemId } from "./core.ts"
+import { makeItemId, normalizeSourceCoverageUrl } from "./core.ts";
 
 import { loadCatalogItems, loadSources, saveCatalogItem } from "./data.ts"
 import { loadSettings } from "./settings.ts"
@@ -92,12 +92,19 @@ async function buildDiscoveryCandidates(
   return [...directCandidates, ...selectedCandidates];
 }
 
+
+export function selectDiscoverSources(sources: Source[], sourceUrls?: Set<string>): Source[] {
+  if (!sourceUrls) return sources;
+  const normalizedSourceUrls = new Set([...sourceUrls].map((url) => normalizeSourceCoverageUrl(url)));
+  return sources.filter((source) => normalizedSourceUrls.has(normalizeSourceCoverageUrl(source.url)));
+}
+
 export async function runDiscover(
   token?: string,
   options: { sourceUrls?: Set<string> } = {},
 ): Promise<void> {
   const allSources = loadSources();
-  const sources = options.sourceUrls ? allSources.filter((source) => options.sourceUrls?.has(source.url)) : allSources;
+  const sources = selectDiscoverSources(allSources, options.sourceUrls);
   const existingItems = loadCatalogItems();
   const budgetMs = resolveDiscoverBudgetMs();
   const deadlineMs = budgetMs == null ? null : Date.now() + budgetMs;

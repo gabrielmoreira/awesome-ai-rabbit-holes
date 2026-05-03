@@ -2,6 +2,7 @@ import { describe, expect, it } from "vitest";
 import {
   orderDiscoverableSources,
 } from "../scripts/catalog/discovery.js";
+import { selectDiscoverSources } from "../scripts/catalog/discover.js";
 import {
   refreshItemStars,
   selectStarRefreshTargets,
@@ -72,6 +73,18 @@ describe("orderDiscoverableSources", () => {
       "https://example.com/direct",
       "https://example.com/docs",
     ]);
+  });
+});
+
+describe("selectDiscoverSources", () => {
+  it("matches normalized GitHub source urls from provenance-driven resync inputs", () => {
+    const sources: Source[] = [
+      { url: "https://github.com/bradAGI/awesome-cli-coding-agents", kind: "awesome-list" },
+      { url: "https://example.com/inbox", kind: "direct-link" },
+    ];
+
+    const selected = selectDiscoverSources(sources, new Set(["https://github.com/bradagi/awesome-cli-coding-agents"]));
+    expect(selected.map((source) => source.url)).toEqual(["https://github.com/bradAGI/awesome-cli-coding-agents"]);
   });
 });
 

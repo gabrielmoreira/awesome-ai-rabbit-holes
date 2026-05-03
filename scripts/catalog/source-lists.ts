@@ -12,7 +12,9 @@ import type { CatalogItem, DiscoveryCandidate, Source } from "./types.ts";
 
 const WEBSITE_LINK_CACHE_TTL_MS = 24 * 60 * 60 * 1000;
 const WEBSITE_LINK_RESOLUTION_CONCURRENCY = 8;
-const WEBSITE_TEXT_EXCERPT_MAX_CHARS = 1200;
+const WEBSITE_TEXT_EXCERPT_MAX_CHARS = 24_000;
+const WEBSITE_TEXT_EXCERPT_MAX_LINES = 400;
+
 const WEBSITE_RESPONSE_MAX_BYTES = 1_000_000;
 const HTML_FETCH_TIMEOUT_MS = 10_000;
 const LINKED_SITE_HEARTBEAT_EVERY = 50;
@@ -168,9 +170,41 @@ function websiteLinkResolutionPath(url: string): string {
   return path.join(WEBSITE_LINK_CACHE_DIR, `${cacheFileNameForUrl(normalized)}.json`);
 }
 
+function extractMarkdownLink(value: string): { text: string; url: string } | null {
+  const match = value.match(/\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/);
+  if (!match) return null;
+  return { text: match[1].trim(), url: match[2].trim() };
+}
+
 function headingText(raw: string): string {
+  const linked = extractMarkdownLink(raw);
+  if (linked) return linked.text;
   return raw.trim().replace(/\s+#*$/, "");
 }
+
+function isLowSignalSourceListUrl(url: string): boolean {
+  const normalized = normalizeUrl(url);
+  try {
+    const parsed = new URL(normalized);
+    const host = parsed.hostname.toLowerCase();
+    const pathname = parsed.pathname.toLowerCase();
+    if (host === "camo.githubusercontent.com") return true;
+    if (host === "arxiv.org" && pathname.startsWith("/abs/")) return true;
+    if (host === "docs.google.com" && pathname.includes("/forms/")) return true;
+    if (host === "img.shields.io" || host === "assets-global.website-files.com") return true;
+    if (/\.(?:png|jpe?g|gif|webp|svg|avif|ico|pdf)(?:$|[?#])/i.test(parsed.pathname)) return true;
+    if (pathname.includes("/_next/image")) return true;
+  } catch {
+    return false;
+  }
+  return false;
+}
+
+function isSecondaryLinkSection(sectionPath: string[]): boolean {
+  const last = sectionPath[sectionPath.length - 1]?.trim().toLowerCase();
+  return last === "links";
+}
+
 
 function decodeHtmlEntities(value: string): string {
   return value
@@ -233,7 +267,7 @@ function extractTitle(html: string): string | null {
   return normalizeText(match?.[1] ?? null);
 }
 
-function stripHtmlToTextExcerpt(html: string): string | null {
+export function stripHtmlToTextExcerpt(html: string): string | null {
   const bodyMatch = html.match(/<body\b[^>]*>([\s\S]*?)<\/body>/i);
   const source = bodyMatch?.[1] ?? html;
   const withoutHidden = source
@@ -242,11 +276,17 @@ function stripHtmlToTextExcerpt(html: string): string | null {
     .replace(/<noscript\b[^>]*>[\s\S]*?<\/noscript>/gi, " ")
     .replace(/<svg\b[^>]*>[\s\S]*?<\/svg>/gi, " ")
     .replace(/<img\b[^>]*>/gi, " ")
+    .replace(/<\/(?:p|div|section|article|li|ul|ol|h[1-6]|blockquote|pre|tr)>/gi, "\n")
+    .replace(/<br\s*\/?\s*>/gi, "\n")
     .replace(/<[^>]+>/g, " ");
-  const text = normalizeText(withoutHidden);
-  if (!text) return null;
-  return truncateText(text, WEBSITE_TEXT_EXCERPT_MAX_CHARS);
+  const lines = withoutHidden
+    .split(/\r?\n/)
+    .map((line) => normalizeText(line))
+    .filter((line): line is string => Boolean(line));
+  if (lines.length === 0) return null;
+  return truncateText(lines.slice(0, WEBSITE_TEXT_EXCERPT_MAX_LINES).join("\n"), WEBSITE_TEXT_EXCERPT_MAX_CHARS);
 }
+
 
 function tokenizeIdentity(value: string | null | undefined): string[] {
   if (!value) return [];
@@ -514,55 +554,70 @@ export function extractSourceListEntries(readme: string, sourceUrl: string): Sou
   const seen = new Set<string>();
   const entries: SourceListEntry[] = [];
 
+  const addEntry = (input: { url: string; anchorText: string; sectionPath: string[]; surroundingText: string }): void => {
+    const extractedUrl = normalizeUrl(input.url);
+    if (extractedUrl === normalizeUrl(sourceUrl)) return;
+    if (shouldSkipDiscoveredUrl(extractedUrl)) return;
+    if (isLowSignalSourceListUrl(extractedUrl)) return;
+    if (seen.has(extractedUrl)) return;
+    seen.add(extractedUrl);
+    entries.push({
+      extracted_url: extractedUrl,
+      normalized_url: extractedUrl,
+      canonical_url: extractedUrl,
+      anchor_text: input.anchorText || extractedUrl,
+      section_path: input.sectionPath,
+      surrounding_text: input.surroundingText.trim() || null,
+      page_title: null,
+      page_description: null,
+      page_excerpt: null,
+      github_repo_url: null,
+    });
+  };
+
   for (const line of lines) {
     const headingMatch = line.match(/^(#{1,6})\s+(.*\S)\s*$/);
     if (headingMatch) {
       const depth = headingMatch[1].length;
-      const text = headingText(headingMatch[2]);
+      const rawHeading = headingMatch[2];
+      const text = headingText(rawHeading);
       if (depth === 1) {
         sectionPath.length = 0;
       } else {
         sectionPath.length = Math.max(0, depth - 2);
         sectionPath[depth - 2] = text;
       }
+
+      const linkedHeading = depth > 1 ? extractMarkdownLink(rawHeading) : null;
+      if (linkedHeading) {
+        addEntry({
+          url: linkedHeading.url,
+          anchorText: linkedHeading.text,
+          sectionPath: [...sectionPath],
+          surroundingText: line,
+        });
+      }
       continue;
     }
+
+    if (isSecondaryLinkSection(sectionPath)) continue;
 
     const linkRegex = /\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g;
     let match: RegExpExecArray | null;
     while ((match = linkRegex.exec(line)) !== null) {
-      const anchorText = match[1].trim();
-      if (anchorText.startsWith("!")) continue;
-
-      try {
-        const parsed = new URL(match[2]);
-        if (parsed.hostname === "img.shields.io") continue;
-      } catch {
-        // ignore parse failures here; normalizeUrl will keep the raw string
-      }
-
-      const extractedUrl = normalizeUrl(match[2]);
-      if (extractedUrl === normalizeUrl(sourceUrl)) continue;
-      if (shouldSkipDiscoveredUrl(extractedUrl)) continue;
-      if (seen.has(extractedUrl)) continue;
-      seen.add(extractedUrl);
-      entries.push({
-        extracted_url: extractedUrl,
-        normalized_url: extractedUrl,
-        canonical_url: extractedUrl,
-        anchor_text: anchorText || extractedUrl,
-        section_path: [...sectionPath],
-        surrounding_text: line.trim() || null,
-        page_title: null,
-        page_description: null,
-        page_excerpt: null,
-        github_repo_url: null,
+      if (match.index > 0 && line[match.index - 1] === "!") continue;
+      addEntry({
+        url: match[2],
+        anchorText: match[1].trim(),
+        sectionPath: [...sectionPath],
+        surroundingText: line,
       });
     }
   }
 
   return entries;
 }
+
 
 export function deriveSourceListPurpose(repoDescription: string | null, readme: string): string | null {
   if (repoDescription && repoDescription.trim().length > 0) {

@@ -54,6 +54,8 @@ export type AIInsightResponse = {
 // is enough for an intro + "What is this" + first feature section without
 // blowing up prompt size. The AI gets *substance*, not the whole repo.
 export const README_EXCERPT_MAX_CHARS = 6000;
+export const README_EXCERPT_MAX_LINES = 400;
+
 export const README_TRUNCATION_MARKER = "\n\n…[truncated]";
 
 function isDirectAwesomeListSource(
@@ -188,9 +190,13 @@ export function truncateReadmeForPrompt(
   readme: string,
   maxChars: number = README_EXCERPT_MAX_CHARS
 ): string {
-  if (readme.length <= maxChars) return readme;
+  const lines = readme.split(/\r?\n/);
+  const lineLimited = lines.length > README_EXCERPT_MAX_LINES
+    ? lines.slice(0, README_EXCERPT_MAX_LINES).join("\n").trimEnd() + README_TRUNCATION_MARKER
+    : readme;
+  if (lineLimited.length <= maxChars) return lineLimited;
 
-  const slice = readme.slice(0, maxChars);
+  const slice = lineLimited.slice(0, maxChars);
   // Don't cut so close to the start that we throw away most of the README.
   const minKeep = Math.floor(maxChars * 0.5);
   let cutAt = -1;
@@ -203,6 +209,7 @@ export function truncateReadmeForPrompt(
   }
   const body = cutAt > 0 ? slice.slice(0, cutAt) : slice;
   return body.trimEnd() + README_TRUNCATION_MARKER;
+
 }
 
 // ─── Response parsing ─────────────────────────────────────────────────────────

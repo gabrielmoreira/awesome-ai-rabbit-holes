@@ -831,6 +831,133 @@ describe("render", () => {
     expect(page.indexOf("high-star")).toBeLessThan(page.indexOf("low-star"));
   });
 
+  it("orders GitHub-backed items before website-only items and omits unknown star badges", () => {
+    const githubWithoutStars = makeItem({
+      id: "github__example__no-stars",
+      name: "github-no-stars",
+      canonical_url: "https://github.com/example/no-stars",
+      identity: { github_repo: "example/no-stars" },
+      placement: { primary_category: "coding-agents", section: null },
+      lifecycle: { status: "curated" },
+      metadata: { github: { ...makeItem().metadata.github, stars: null } },
+      insights: { ...makeItem().insights, summary: "GitHub item without stars yet." },
+    });
+    const websiteOnly = makeItem({
+      id: "example__com__tool",
+      kind: "website",
+      name: "website-only",
+      canonical_url: "https://example.com/tool",
+      identity: {},
+      placement: { primary_category: "coding-agents", section: null },
+      lifecycle: { status: "curated" },
+      metadata: { github: { ...makeItem().metadata.github, stars: null } },
+      insights: { ...makeItem().insights, summary: "Website-only item." },
+    });
+    const githubWithStars = makeItem({
+      id: "github__example__with-stars",
+      name: "github-with-stars",
+      canonical_url: "https://github.com/example/with-stars",
+      identity: { github_repo: "example/with-stars" },
+      placement: { primary_category: "coding-agents", section: null },
+      lifecycle: { status: "curated" },
+      metadata: { github: { ...makeItem().metadata.github, stars: 42 } },
+      insights: { ...makeItem().insights, summary: "GitHub item with stars." },
+    });
+
+    const page = renderRabbitHolePage(CATEGORIES[0], [websiteOnly, githubWithoutStars, githubWithStars]);
+
+    expect(page.indexOf("github-with-stars")).toBeLessThan(page.indexOf("github-no-stars"));
+    expect(page.indexOf("github-no-stars")).toBeLessThan(page.indexOf("website-only"));
+    expect(page).toContain("**[github-with-stars](https://github.com/example/with-stars)** `⭐ 42` GitHub item with stars.");
+    expect(page).toContain("**[github-no-stars](https://github.com/example/no-stars)** GitHub item without stars yet.");
+    expect(page).toContain("**[website-only](https://example.com/tool)** Website-only item.");
+    expect(page).not.toContain("⭐ ?");
+  });
+
+  it("keeps low-signal non-tool URLs out of rendered catalog output", () => {
+    const badUrls = [
+      "https://docs.google.com/forms/d/e/example/viewform",
+      "https://camo.githubusercontent.com/hash/68747470733a2f2f6578616d706c652e636f6d2f617263682e706e67",
+      "https://arxiv.org/abs/2303.17580",
+    ];
+    const items = badUrls.map((url, index) => makeItem({
+      id: `bad-${index}`,
+      kind: "website",
+      name: index === 0 ? "viewform" : index === 1 ? "image" : "2303.17580",
+      canonical_url: url,
+      identity: {},
+      placement: { primary_category: "coding-agents", section: null },
+      lifecycle: { status: "curated" },
+      insights: { ...makeItem().insights, summary: "Not an actual catalog tool." },
+    }));
+
+    const page = renderRabbitHolePage(CATEGORIES[0], items);
+    const catalog = renderSiteCatalog(items);
+
+    expect(page).not.toContain("viewform");
+    expect(page).not.toContain("2303.17580");
+    expect(page).not.toContain("camo.githubusercontent.com");
+    expect(catalog.items).toHaveLength(0);
+  });
+
+  it("uses source-list context instead of generic page slugs for display names", () => {
+    const item = makeItem({
+      id: "docs__proficientai__com__intro",
+      kind: "website",
+      name: "intro",
+      canonical_url: "https://docs.proficientai.com/intro",
+      identity: {},
+      placement: { primary_category: "coding-agents", section: null },
+      lifecycle: { status: "curated" },
+      insights: { ...makeItem().insights, summary: "Documentation page for a real tool." },
+      provenance: {
+        discoveries: [{
+          ...makeItem().provenance.discoveries[0],
+          extraction: {
+            ...makeItem().provenance.discoveries[0].extraction,
+            section_path: ["[Proficient AI](https://proficientai.com)", "Links"],
+            anchor_text: "Documentation",
+          },
+        }],
+      },
+    });
+
+    const page = renderRabbitHolePage(CATEGORIES[0], [item]);
+
+    expect(page).toContain("**[Proficient AI](https://docs.proficientai.com/intro)** Documentation page for a real tool.");
+    expect(page).not.toContain("**[intro]");
+  });
+
+  it("does not use generic source-list section labels as display names", () => {
+    const item = makeItem({
+      id: "docs__example__com__overview",
+      kind: "website",
+      name: "overview",
+      canonical_url: "https://docs.example.com/overview",
+      identity: {},
+      placement: { primary_category: "coding-agents", section: null },
+      lifecycle: { status: "curated" },
+      insights: { ...makeItem().insights, summary: "Documentation page for a real tool." },
+      provenance: {
+        discoveries: [{
+          ...makeItem().provenance.discoveries[0],
+          extraction: {
+            ...makeItem().provenance.discoveries[0].extraction,
+            section_path: ["Frameworks", "Docs"],
+            anchor_text: "Documentation",
+          },
+        }],
+      },
+    });
+
+    const page = renderRabbitHolePage(CATEGORIES[0], [item]);
+
+    expect(page).not.toContain("**[Frameworks]");
+    expect(page).not.toContain("**[Docs]");
+  });
+
+
+
   it("incubating items render separately as compact bullets", () => {
     const item = makeItem({
       name: "new-tool",
@@ -1142,6 +1269,18 @@ describe("AI insights", () => {
     // Beginning is preserved.
     expect(truncated.startsWith("# Title")).toBe(true);
   });
+
+  it("README prompt context keeps at most the first 400 lines", async () => {
+    const { truncateReadmeForPrompt, README_TRUNCATION_MARKER } = await import("../scripts/catalog/categorize-prompt.js");
+    const longReadme = Array.from({ length: 450 }, (_, index) => `line ${index + 1}`).join("\n");
+
+    const truncated = truncateReadmeForPrompt(longReadme);
+
+    expect(truncated).toContain("line 400");
+    expect(truncated).not.toContain("line 401");
+    expect(truncated.endsWith(README_TRUNCATION_MARKER)).toBe(true);
+  });
+
 
   it("short README is returned unchanged by truncator", async () => {
     const { truncateReadmeForPrompt } = await import("../scripts/catalog/categorize-prompt.js");

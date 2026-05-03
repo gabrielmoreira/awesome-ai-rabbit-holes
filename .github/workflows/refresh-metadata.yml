@@ -71,7 +71,7 @@ jobs:
         env:
           INPUT_CATEGORIZE_BUDGET_MINUTES: ${{ github.event.inputs.categorize_budget_minutes }}
         run: |
-          ai_minutes="${INPUT_CATEGORIZE_BUDGET_MINUTES:-10}"
+          ai_minutes="${INPUT_CATEGORIZE_BUDGET_MINUTES:-60}"
           case "$ai_minutes" in
             ''|*[!0-9]*)
               echo "::error::workflow_dispatch input categorize_budget_minutes must be a positive integer."

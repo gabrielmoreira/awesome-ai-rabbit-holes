@@ -5,7 +5,8 @@ gh = "latest"
 
 [env]
 PI_CODING_AGENT_DIR = "{{config_root}}/.cache/pi/agent"
-_.file = { path = ".env", redact = true }
+_.file = { path = [".env", ".env.pi-free"], redact = true }
+
 
 [tasks."catalog:deps"]
 description = "Install project dependencies"

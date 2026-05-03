@@ -112,12 +112,6 @@ const PI_FREE_INTELLIGENCE_ALIAS_OVERRIDES: Record<string, string[]> = {
   "glm-5": ["z-ai/glm5", "z-ai/glm-5"],
   "gpt-oss-120b": ["openai/gpt-oss-120b"],
   hy3: ["tencent/hy3-preview"],
-  "kimi-k2-6": [
-    "moonshotai/kimi-k2",
-    "moonshotai/kimi-k2-thinking",
-    "moonshotai/kimi-k2-instruct",
-    "moonshotai/kimi-k2-instruct-0905",
-  ],
   "kimi-k2-5-non-reasoning": ["moonshotai/kimi-k2.5"],
   "minimax-m2-7": ["minimaxai/minimax-m2.7", "minimax/minimax-m2.7"],
   "mistral-medium-3-1": ["mistralai/mistral-medium-3.1", "mistralai/mistral-medium-3.5-128b"],

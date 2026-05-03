@@ -6,6 +6,8 @@ import { loadCatalogItems, loadCategories } from "./data.ts"
 import type { CatalogItem, Category } from "./types.ts"
 import { writeTextFileIfChanged } from "../support/files.ts"
 import { REPO_ROOT } from "../support/paths.ts"
+import { parseGitHubUrl } from "../support/github.ts"
+
 
 const README_INTRO = `# Awesome AI Rabbit Holes
 
@@ -32,17 +34,76 @@ function firstSentence(text: string): string {
   return (match ? match[0] : trimmed).trim();
 }
 
+function isGitHubBacked(item: CatalogItem): boolean {
+  return Boolean(item.identity.github_repo) || Boolean(parseGitHubUrl(item.canonical_url));
+}
+
+function isLowSignalCatalogUrl(url: string): boolean {
+  try {
+    const parsed = new URL(url);
+    const host = parsed.hostname.toLowerCase();
+    const pathname = parsed.pathname.toLowerCase();
+    if (host === "camo.githubusercontent.com") return true;
+    if (host === "arxiv.org" && pathname.startsWith("/abs/")) return true;
+    if (host === "docs.google.com" && pathname.includes("/forms/")) return true;
+    if (host === "img.shields.io" || host === "assets-global.website-files.com") return true;
+    if (/\.(?:png|jpe?g|gif|webp|svg|avif|ico|pdf)(?:$|[?#])/i.test(parsed.pathname)) return true;
+    if (pathname.includes("/_next/image")) return true;
+  } catch {
+    return false;
+  }
+  return false;
+}
+
+function shouldRenderCatalogItem(item: CatalogItem): boolean {
+  return item.curation.status === "included" && !isLowSignalCatalogUrl(item.canonical_url);
+}
+
+function isKnownStarCount(item: CatalogItem): boolean {
+  return isGitHubBacked(item) && item.metadata.github.stars !== null && Number.isFinite(item.metadata.github.stars);
+}
+
+function displayNameFromMarkdownLink(value: string): string | null {
+  const match = value.match(/\[([^\]]+)\]\(https?:\/\/[^)\s]+\)/);
+  return match?.[1]?.trim() || null;
+}
+
+function isLowSignalDisplayName(name: string): boolean {
+  const normalized = name.trim().toLowerCase();
+  return normalized.length === 0 ||
+    /^(?:intro|introduction|overview|docs|documentation|readme|getting-started|welcome|viewform|image)$/.test(normalized) ||
+    /^[a-f0-9]{24,}$/i.test(normalized) ||
+    /^\d{4}\.\d{4,5}$/.test(normalized);
+}
+
+function displayNameForItem(item: CatalogItem): string {
+  if (!isLowSignalDisplayName(item.name)) return item.name;
+  for (const discovery of item.provenance.discoveries) {
+    for (const segment of discovery.extraction.section_path) {
+      const linkedName = displayNameFromMarkdownLink(segment);
+      if (linkedName && !isLowSignalDisplayName(linkedName)) return linkedName;
+    }
+
+    const anchor = discovery.extraction.anchor_text;
+    if (!isLowSignalDisplayName(anchor)) return anchor;
+  }
+  return item.name;
+}
+
 function compareCatalogItemsByStars(a: CatalogItem, b: CatalogItem): number {
+  const githubDelta = Number(isGitHubBacked(b)) - Number(isGitHubBacked(a));
+  if (githubDelta !== 0) return githubDelta;
+  const knownStarDelta = Number(isKnownStarCount(b)) - Number(isKnownStarCount(a));
+  if (knownStarDelta !== 0) return knownStarDelta;
   const starsA = a.metadata.github.stars ?? -1;
   const starsB = b.metadata.github.stars ?? -1;
   if (starsA !== starsB) return starsB - starsA;
-  const byName = a.name.localeCompare(b.name);
+  const byName = displayNameForItem(a).localeCompare(displayNameForItem(b));
   if (byName !== 0) return byName;
   return a.canonical_url.localeCompare(b.canonical_url);
 }
 
-function formatStars(stars: number | null): string {
-  if (stars === null || !Number.isFinite(stars)) return "?";
+function formatStars(stars: number): string {
   if (stars >= 1_000_000) {
     return `${(stars / 1_000_000).toFixed(1).replace(/\.0$/, "")}M`;
   }
@@ -54,8 +115,10 @@ function formatStars(stars: number | null): string {
 
 function renderToolBullet(item: CatalogItem): string {
   const summary = ensureSentence(item.insights.summary) ?? "No summary yet.";
-  return `- **[${item.name}](${item.canonical_url})** \`⭐ ${formatStars(item.metadata.github.stars)}\` ${summary}`;
+  const starBadge = isKnownStarCount(item) ? ` \`⭐ ${formatStars(item.metadata.github.stars!)}\`` : "";
+  return `- **[${displayNameForItem(item)}](${item.canonical_url})**${starBadge} ${summary}`;
 }
+
 
 function renderToolDetails(item: CatalogItem): string[] {
   const whyItMatters = ensureSentence(item.insights.why_it_matters);
@@ -120,8 +183,10 @@ export function renderRabbitHolePage(
   items: CatalogItem[]
 ): string {
   const categoryItems = items.filter(
-    (item) => item.curation.status === "included" && item.placement.primary_category === category.id
+    (item) => shouldRenderCatalogItem(item) && item.placement.primary_category === category.id
   );
+
+
 
   const activeItems = [...categoryItems.filter(
     (item) => item.lifecycle.status !== "incubating" && item.lifecycle.status !== "needs_review"
@@ -192,16 +257,18 @@ export function renderSiteCatalog(items: CatalogItem[]): SiteCatalog {
   const latest = checkedAts.length > 0 ? checkedAts[checkedAts.length - 1] : null;
 
   const sortedItems = [...items]
-    .filter((item) => item.curation.status === "included")
+    .filter(shouldRenderCatalogItem)
     .sort(compareCatalogItemsByStars);
+
 
   return {
     generated_at: latest,
     items: sortedItems.map((item) => ({
       id: item.id,
       kind: item.kind,
-      name: item.name,
+      name: displayNameForItem(item),
       canonical_url: item.canonical_url,
+
       summary: item.insights.summary,
       tags: item.insights.tags,
       primary_category: item.placement.primary_category,

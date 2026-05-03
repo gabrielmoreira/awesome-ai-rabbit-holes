@@ -98,3 +98,18 @@
 
 ### Review automation
 - Invoked TypeScript reviewer jobs for the changed code, but both review jobs stalled without returning findings and were canceled explicitly rather than being silently ignored.
+
+## 2026-05-03 — Deferred follow-up requested by user
+
+- Later refactor after the current catalog PR is stable:
+  - add a single root Pi shim entrypoint, with `scripts/pi-cli.ts` as the current preferred name
+  - move the concrete Pi command files out of `scripts/` root and into `scripts/pi/`
+  - rename the Pi files by action instead of prefix-heavy names so the file purpose is obvious at a glance
+- Current preferred target shape:
+  - root: `scripts/pi-cli.ts`
+  - internal commands: `scripts/pi/doctor.ts`, `scripts/pi/all-models.ts`, `scripts/pi/intelligence.ts`, `scripts/pi/rank-models.ts`
+- Rationale for later cutover:
+  - keep `scripts/` root limited to direct `mise` entrypoints
+  - make Pi ownership symmetrical with the catalog CLI pattern
+  - replace names like `pi-free-*` with action-oriented names that describe what each file actually does
+

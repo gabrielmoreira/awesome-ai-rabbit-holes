@@ -1,37 +1,15 @@
 {
-  "generated_at": "2026-05-02T12:40:35.466Z",
+  "generated_at": "2026-05-03T14:12:36.699Z",
   "source_command": "pi --no-tools --no-skills --no-extensions -e npm:pi-free@2.0.2 --list-models",
-  "model_count": 49,
+  "model_count": 95,
   "models": [
     {
-      "spec": "nvidia/deepseek-ai/deepseek-r1",
+      "spec": "nvidia/abacusai/dracarys-llama-3.1-70b-instruct",
       "provider": "nvidia",
-      "model_id": "deepseek-ai/deepseek-r1",
+      "model_id": "abacusai/dracarys-llama-3.1-70b-instruct",
       "context_window": "128K",
       "max_output": "4.1K",
-      "supports_thinking": true,
-      "supports_images": false,
-      "free_tier_hint": false,
-      "included_reason": "direct_provider"
-    },
-    {
-      "spec": "nvidia/deepseek-ai/deepseek-r1-0528",
-      "provider": "nvidia",
-      "model_id": "deepseek-ai/deepseek-r1-0528",
-      "context_window": "128K",
-      "max_output": "4.1K",
-      "supports_thinking": true,
-      "supports_images": false,
-      "free_tier_hint": false,
-      "included_reason": "direct_provider"
-    },
-    {
-      "spec": "nvidia/deepseek-ai/deepseek-v3.1",
-      "provider": "nvidia",
-      "model_id": "deepseek-ai/deepseek-v3.1",
-      "context_window": "128K",
-      "max_output": "8.2K",
-      "supports_thinking": true,
+      "supports_thinking": false,
       "supports_images": false,
       "free_tier_hint": false,
       "included_reason": "direct_provider"
@@ -103,6 +81,17 @@
       "included_reason": "direct_provider"
     },
     {
+      "spec": "nvidia/meta/llama-3.2-90b-vision-instruct",
+      "provider": "nvidia",
+      "model_id": "meta/llama-3.2-90b-vision-instruct",
+      "context_window": "128K",
+      "max_output": "4.1K",
+      "supports_thinking": false,
+      "supports_images": true,
+      "free_tier_hint": false,
+      "included_reason": "direct_provider"
+    },
+    {
       "spec": "nvidia/meta/llama-3.3-70b-instruct",
       "provider": "nvidia",
       "model_id": "meta/llama-3.3-70b-instruct",
@@ -114,35 +103,13 @@
       "included_reason": "direct_provider"
     },
     {
-      "spec": "nvidia/meta/llama3-70b-instruct",
+      "spec": "nvidia/microsoft/phi-4-multimodal-instruct",
       "provider": "nvidia",
-      "model_id": "meta/llama3-70b-instruct",
-      "context_window": "128K",
-      "max_output": "4.1K",
-      "supports_thinking": false,
-      "supports_images": false,
-      "free_tier_hint": false,
-      "included_reason": "direct_provider"
-    },
-    {
-      "spec": "nvidia/microsoft/phi-3.5-vision-instruct",
-      "provider": "nvidia",
-      "model_id": "microsoft/phi-3.5-vision-instruct",
+      "model_id": "microsoft/phi-4-multimodal-instruct",
       "context_window": "128K",
       "max_output": "4.1K",
       "supports_thinking": false,
       "supports_images": true,
-      "free_tier_hint": false,
-      "included_reason": "direct_provider"
-    },
-    {
-      "spec": "nvidia/minimaxai/minimax-m2.1",
-      "provider": "nvidia",
-      "model_id": "minimaxai/minimax-m2.1",
-      "context_window": "204.8K",
-      "max_output": "131.1K",
-      "supports_thinking": true,
-      "supports_images": false,
       "free_tier_hint": false,
       "included_reason": "direct_provider"
     },
@@ -180,6 +147,17 @@
       "included_reason": "direct_provider"
     },
     {
+      "spec": "nvidia/mistralai/magistral-small-2506",
+      "provider": "nvidia",
+      "model_id": "mistralai/magistral-small-2506",
+      "context_window": "128K",
+      "max_output": "4.1K",
+      "supports_thinking": false,
+      "supports_images": false,
+      "free_tier_hint": false,
+      "included_reason": "direct_provider"
+    },
+    {
       "spec": "nvidia/mistralai/mistral-large-3-675b-instruct-2512",
       "provider": "nvidia",
       "model_id": "mistralai/mistral-large-3-675b-instruct-2512",
@@ -191,6 +169,17 @@
       "included_reason": "direct_provider"
     },
     {
+      "spec": "nvidia/mistralai/mistral-medium-3-instruct",
+      "provider": "nvidia",
+      "model_id": "mistralai/mistral-medium-3-instruct",
+      "context_window": "128K",
+      "max_output": "4.1K",
+      "supports_thinking": false,
+      "supports_images": false,
+      "free_tier_hint": false,
+      "included_reason": "direct_provider"
+    },
+    {
       "spec": "nvidia/mistralai/mistral-medium-3.5-128b",
       "provider": "nvidia",
       "model_id": "mistralai/mistral-medium-3.5-128b",
@@ -198,6 +187,39 @@
       "max_output": "262.1K",
       "supports_thinking": true,
       "supports_images": true,
+      "free_tier_hint": false,
+      "included_reason": "direct_provider"
+    },
+    {
+      "spec": "nvidia/mistralai/mistral-nemotron",
+      "provider": "nvidia",
+      "model_id": "mistralai/mistral-nemotron",
+      "context_window": "128K",
+      "max_output": "4.1K",
+      "supports_thinking": false,
+      "supports_images": false,
+      "free_tier_hint": false,
+      "included_reason": "direct_provider"
+    },
+    {
+      "spec": "nvidia/mistralai/mistral-small-4-119b-2603",
+      "provider": "nvidia",
+      "model_id": "mistralai/mistral-small-4-119b-2603",
+      "context_window": "128K",
+      "max_output": "4.1K",
+      "supports_thinking": false,
+      "supports_images": false,
+      "free_tier_hint": false,
+      "included_reason": "direct_provider"
+    },
+    {
+      "spec": "nvidia/mistralai/mixtral-8x22b-instruct-v0.1",
+      "provider": "nvidia",
+      "model_id": "mistralai/mixtral-8x22b-instruct-v0.1",
+      "context_window": "128K",
+      "max_output": "4.1K",
+      "supports_thinking": false,
+      "supports_images": false,
       "free_tier_hint": false,
       "included_reason": "direct_provider"
     },
@@ -235,13 +257,13 @@
       "included_reason": "direct_provider"
     },
     {
-      "spec": "nvidia/moonshotai/kimi-k2.5",
+      "spec": "nvidia/moonshotai/kimi-k2.6",
       "provider": "nvidia",
-      "model_id": "moonshotai/kimi-k2.5",
-      "context_window": "262.1K",
-      "max_output": "262.1K",
-      "supports_thinking": true,
-      "supports_images": true,
+      "model_id": "moonshotai/kimi-k2.6",
+      "context_window": "128K",
+      "max_output": "4.1K",
+      "supports_thinking": false,
+      "supports_images": false,
       "free_tier_hint": false,
       "included_reason": "direct_provider"
     },
@@ -261,17 +283,6 @@
       "provider": "nvidia",
       "model_id": "openai/gpt-oss-120b",
       "context_window": "128K",
-      "max_output": "8.2K",
-      "supports_thinking": true,
-      "supports_images": false,
-      "free_tier_hint": false,
-      "included_reason": "direct_provider"
-    },
-    {
-      "spec": "nvidia/qwen/qwen3-235b-a22b",
-      "provider": "nvidia",
-      "model_id": "qwen/qwen3-235b-a22b",
-      "context_window": "131.1K",
       "max_output": "8.2K",
       "supports_thinking": true,
       "supports_images": false,
@@ -312,6 +323,17 @@
       "included_reason": "direct_provider"
     },
     {
+      "spec": "nvidia/qwen/qwen3.5-122b-a10b",
+      "provider": "nvidia",
+      "model_id": "qwen/qwen3.5-122b-a10b",
+      "context_window": "128K",
+      "max_output": "4.1K",
+      "supports_thinking": false,
+      "supports_images": false,
+      "free_tier_hint": false,
+      "included_reason": "direct_provider"
+    },
+    {
       "spec": "nvidia/qwen/qwen3.5-397b-a17b",
       "provider": "nvidia",
       "model_id": "qwen/qwen3.5-397b-a17b",
@@ -323,12 +345,34 @@
       "included_reason": "direct_provider"
     },
     {
+      "spec": "nvidia/sarvamai/sarvam-m",
+      "provider": "nvidia",
+      "model_id": "sarvamai/sarvam-m",
+      "context_window": "128K",
+      "max_output": "4.1K",
+      "supports_thinking": false,
+      "supports_images": false,
+      "free_tier_hint": false,
+      "included_reason": "direct_provider"
+    },
+    {
       "spec": "nvidia/stepfun-ai/step-3.5-flash",
       "provider": "nvidia",
       "model_id": "stepfun-ai/step-3.5-flash",
       "context_window": "256K",
       "max_output": "16.4K",
       "supports_thinking": true,
+      "supports_images": false,
+      "free_tier_hint": false,
+      "included_reason": "direct_provider"
+    },
+    {
+      "spec": "nvidia/stockmark/stockmark-2-100b-instruct",
+      "provider": "nvidia",
+      "model_id": "stockmark/stockmark-2-100b-instruct",
+      "context_window": "128K",
+      "max_output": "4.1K",
+      "supports_thinking": false,
       "supports_images": false,
       "free_tier_hint": false,
       "included_reason": "direct_provider"
@@ -541,6 +585,468 @@
       "supports_images": false,
       "free_tier_hint": true,
       "included_reason": "openrouter_free"
+    },
+    {
+      "spec": "mistral/codestral-latest",
+      "provider": "mistral",
+      "model_id": "codestral-latest",
+      "context_window": "256K",
+      "max_output": "4.1K",
+      "supports_thinking": false,
+      "supports_images": false,
+      "free_tier_hint": false,
+      "included_reason": "direct_provider"
+    },
+    {
+      "spec": "mistral/devstral-2512",
+      "provider": "mistral",
+      "model_id": "devstral-2512",
+      "context_window": "262.1K",
+      "max_output": "262.1K",
+      "supports_thinking": false,
+      "supports_images": false,
+      "free_tier_hint": false,
+      "included_reason": "direct_provider"
+    },
+    {
+      "spec": "mistral/devstral-medium-2507",
+      "provider": "mistral",
+      "model_id": "devstral-medium-2507",
+      "context_window": "128K",
+      "max_output": "128K",
+      "supports_thinking": false,
+      "supports_images": false,
+      "free_tier_hint": false,
+      "included_reason": "direct_provider"
+    },
+    {
+      "spec": "mistral/devstral-medium-latest",
+      "provider": "mistral",
+      "model_id": "devstral-medium-latest",
+      "context_window": "262.1K",
+      "max_output": "262.1K",
+      "supports_thinking": false,
+      "supports_images": false,
+      "free_tier_hint": false,
+      "included_reason": "direct_provider"
+    },
+    {
+      "spec": "mistral/devstral-small-2505",
+      "provider": "mistral",
+      "model_id": "devstral-small-2505",
+      "context_window": "128K",
+      "max_output": "128K",
+      "supports_thinking": false,
+      "supports_images": false,
+      "free_tier_hint": false,
+      "included_reason": "direct_provider"
+    },
+    {
+      "spec": "mistral/devstral-small-2507",
+      "provider": "mistral",
+      "model_id": "devstral-small-2507",
+      "context_window": "128K",
+      "max_output": "128K",
+      "supports_thinking": false,
+      "supports_images": false,
+      "free_tier_hint": false,
+      "included_reason": "direct_provider"
+    },
+    {
+      "spec": "mistral/labs-devstral-small-2512",
+      "provider": "mistral",
+      "model_id": "labs-devstral-small-2512",
+      "context_window": "256K",
+      "max_output": "256K",
+      "supports_thinking": false,
+      "supports_images": true,
+      "free_tier_hint": false,
+      "included_reason": "direct_provider"
+    },
+    {
+      "spec": "mistral/magistral-medium-latest",
+      "provider": "mistral",
+      "model_id": "magistral-medium-latest",
+      "context_window": "128K",
+      "max_output": "16.4K",
+      "supports_thinking": true,
+      "supports_images": false,
+      "free_tier_hint": false,
+      "included_reason": "direct_provider"
+    },
+    {
+      "spec": "mistral/magistral-small",
+      "provider": "mistral",
+      "model_id": "magistral-small",
+      "context_window": "128K",
+      "max_output": "128K",
+      "supports_thinking": true,
+      "supports_images": false,
+      "free_tier_hint": false,
+      "included_reason": "direct_provider"
+    },
+    {
+      "spec": "mistral/ministral-3b-latest",
+      "provider": "mistral",
+      "model_id": "ministral-3b-latest",
+      "context_window": "128K",
+      "max_output": "128K",
+      "supports_thinking": false,
+      "supports_images": false,
+      "free_tier_hint": false,
+      "included_reason": "direct_provider"
+    },
+    {
+      "spec": "mistral/ministral-8b-latest",
+      "provider": "mistral",
+      "model_id": "ministral-8b-latest",
+      "context_window": "128K",
+      "max_output": "128K",
+      "supports_thinking": false,
+      "supports_images": false,
+      "free_tier_hint": false,
+      "included_reason": "direct_provider"
+    },
+    {
+      "spec": "mistral/mistral-large-2411",
+      "provider": "mistral",
+      "model_id": "mistral-large-2411",
+      "context_window": "131.1K",
+      "max_output": "16.4K",
+      "supports_thinking": false,
+      "supports_images": false,
+      "free_tier_hint": false,
+      "included_reason": "direct_provider"
+    },
+    {
+      "spec": "mistral/mistral-large-2512",
+      "provider": "mistral",
+      "model_id": "mistral-large-2512",
+      "context_window": "262.1K",
+      "max_output": "262.1K",
+      "supports_thinking": false,
+      "supports_images": true,
+      "free_tier_hint": false,
+      "included_reason": "direct_provider"
+    },
+    {
+      "spec": "mistral/mistral-large-latest",
+      "provider": "mistral",
+      "model_id": "mistral-large-latest",
+      "context_window": "262.1K",
+      "max_output": "262.1K",
+      "supports_thinking": false,
+      "supports_images": true,
+      "free_tier_hint": false,
+      "included_reason": "direct_provider"
+    },
+    {
+      "spec": "mistral/mistral-medium-2505",
+      "provider": "mistral",
+      "model_id": "mistral-medium-2505",
+      "context_window": "131.1K",
+      "max_output": "131.1K",
+      "supports_thinking": false,
+      "supports_images": true,
+      "free_tier_hint": false,
+      "included_reason": "direct_provider"
+    },
+    {
+      "spec": "mistral/mistral-medium-2508",
+      "provider": "mistral",
+      "model_id": "mistral-medium-2508",
+      "context_window": "262.1K",
+      "max_output": "262.1K",
+      "supports_thinking": false,
+      "supports_images": true,
+      "free_tier_hint": false,
+      "included_reason": "direct_provider"
+    },
+    {
+      "spec": "mistral/mistral-medium-latest",
+      "provider": "mistral",
+      "model_id": "mistral-medium-latest",
+      "context_window": "128K",
+      "max_output": "16.4K",
+      "supports_thinking": false,
+      "supports_images": true,
+      "free_tier_hint": false,
+      "included_reason": "direct_provider"
+    },
+    {
+      "spec": "mistral/mistral-nemo",
+      "provider": "mistral",
+      "model_id": "mistral-nemo",
+      "context_window": "128K",
+      "max_output": "128K",
+      "supports_thinking": false,
+      "supports_images": false,
+      "free_tier_hint": false,
+      "included_reason": "direct_provider"
+    },
+    {
+      "spec": "mistral/mistral-small-2506",
+      "provider": "mistral",
+      "model_id": "mistral-small-2506",
+      "context_window": "128K",
+      "max_output": "16.4K",
+      "supports_thinking": false,
+      "supports_images": true,
+      "free_tier_hint": false,
+      "included_reason": "direct_provider"
+    },
+    {
+      "spec": "mistral/mistral-small-2603",
+      "provider": "mistral",
+      "model_id": "mistral-small-2603",
+      "context_window": "256K",
+      "max_output": "256K",
+      "supports_thinking": true,
+      "supports_images": true,
+      "free_tier_hint": false,
+      "included_reason": "direct_provider"
+    },
+    {
+      "spec": "mistral/mistral-small-latest",
+      "provider": "mistral",
+      "model_id": "mistral-small-latest",
+      "context_window": "256K",
+      "max_output": "256K",
+      "supports_thinking": true,
+      "supports_images": true,
+      "free_tier_hint": false,
+      "included_reason": "direct_provider"
+    },
+    {
+      "spec": "mistral/open-mistral-7b",
+      "provider": "mistral",
+      "model_id": "open-mistral-7b",
+      "context_window": "8K",
+      "max_output": "8K",
+      "supports_thinking": false,
+      "supports_images": false,
+      "free_tier_hint": false,
+      "included_reason": "direct_provider"
+    },
+    {
+      "spec": "mistral/open-mixtral-8x22b",
+      "provider": "mistral",
+      "model_id": "open-mixtral-8x22b",
+      "context_window": "64K",
+      "max_output": "64K",
+      "supports_thinking": false,
+      "supports_images": false,
+      "free_tier_hint": false,
+      "included_reason": "direct_provider"
+    },
+    {
+      "spec": "mistral/open-mixtral-8x7b",
+      "provider": "mistral",
+      "model_id": "open-mixtral-8x7b",
+      "context_window": "32K",
+      "max_output": "32K",
+      "supports_thinking": false,
+      "supports_images": false,
+      "free_tier_hint": false,
+      "included_reason": "direct_provider"
+    },
+    {
+      "spec": "mistral/pixtral-12b",
+      "provider": "mistral",
+      "model_id": "pixtral-12b",
+      "context_window": "128K",
+      "max_output": "128K",
+      "supports_thinking": false,
+      "supports_images": true,
+      "free_tier_hint": false,
+      "included_reason": "direct_provider"
+    },
+    {
+      "spec": "mistral/pixtral-large-latest",
+      "provider": "mistral",
+      "model_id": "pixtral-large-latest",
+      "context_window": "128K",
+      "max_output": "128K",
+      "supports_thinking": false,
+      "supports_images": true,
+      "free_tier_hint": false,
+      "included_reason": "direct_provider"
+    },
+    {
+      "spec": "cloudflare/@cf/google/gemma-3-12b-it",
+      "provider": "cloudflare",
+      "model_id": "@cf/google/gemma-3-12b-it",
+      "context_window": "80K",
+      "max_output": "8.2K",
+      "supports_thinking": false,
+      "supports_images": true,
+      "free_tier_hint": false,
+      "included_reason": "direct_provider"
+    },
+    {
+      "spec": "cloudflare/@cf/google/gemma-4-26b-a4b-it",
+      "provider": "cloudflare",
+      "model_id": "@cf/google/gemma-4-26b-a4b-it",
+      "context_window": "256K",
+      "max_output": "8.2K",
+      "supports_thinking": true,
+      "supports_images": true,
+      "free_tier_hint": false,
+      "included_reason": "direct_provider"
+    },
+    {
+      "spec": "cloudflare/@cf/meta/llama-3.1-405b-instruct",
+      "provider": "cloudflare",
+      "model_id": "@cf/meta/llama-3.1-405b-instruct",
+      "context_window": "131.1K",
+      "max_output": "8.2K",
+      "supports_thinking": false,
+      "supports_images": false,
+      "free_tier_hint": false,
+      "included_reason": "direct_provider"
+    },
+    {
+      "spec": "cloudflare/@cf/meta/llama-3.1-70b-instruct",
+      "provider": "cloudflare",
+      "model_id": "@cf/meta/llama-3.1-70b-instruct",
+      "context_window": "131.1K",
+      "max_output": "8.2K",
+      "supports_thinking": false,
+      "supports_images": false,
+      "free_tier_hint": false,
+      "included_reason": "direct_provider"
+    },
+    {
+      "spec": "cloudflare/@cf/meta/llama-3.2-11b-vision-instruct",
+      "provider": "cloudflare",
+      "model_id": "@cf/meta/llama-3.2-11b-vision-instruct",
+      "context_window": "128K",
+      "max_output": "8.2K",
+      "supports_thinking": false,
+      "supports_images": true,
+      "free_tier_hint": false,
+      "included_reason": "direct_provider"
+    },
+    {
+      "spec": "cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+      "provider": "cloudflare",
+      "model_id": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+      "context_window": "131.1K",
+      "max_output": "8.2K",
+      "supports_thinking": false,
+      "supports_images": false,
+      "free_tier_hint": false,
+      "included_reason": "direct_provider"
+    },
+    {
+      "spec": "cloudflare/@cf/meta/llama-4-scout-17b-16e-instruct",
+      "provider": "cloudflare",
+      "model_id": "@cf/meta/llama-4-scout-17b-16e-instruct",
+      "context_window": "131.1K",
+      "max_output": "8.2K",
+      "supports_thinking": false,
+      "supports_images": true,
+      "free_tier_hint": false,
+      "included_reason": "direct_provider"
+    },
+    {
+      "spec": "cloudflare/@cf/moonshotai/kimi-k2.5",
+      "provider": "cloudflare",
+      "model_id": "@cf/moonshotai/kimi-k2.5",
+      "context_window": "256K",
+      "max_output": "8.2K",
+      "supports_thinking": true,
+      "supports_images": true,
+      "free_tier_hint": false,
+      "included_reason": "direct_provider"
+    },
+    {
+      "spec": "cloudflare/@cf/moonshotai/kimi-k2.6",
+      "provider": "cloudflare",
+      "model_id": "@cf/moonshotai/kimi-k2.6",
+      "context_window": "256K",
+      "max_output": "8.2K",
+      "supports_thinking": true,
+      "supports_images": true,
+      "free_tier_hint": false,
+      "included_reason": "direct_provider"
+    },
+    {
+      "spec": "cloudflare/@cf/nvidia/nemotron-3-120b-a12b",
+      "provider": "cloudflare",
+      "model_id": "@cf/nvidia/nemotron-3-120b-a12b",
+      "context_window": "256K",
+      "max_output": "8.2K",
+      "supports_thinking": true,
+      "supports_images": false,
+      "free_tier_hint": false,
+      "included_reason": "direct_provider"
+    },
+    {
+      "spec": "cloudflare/@cf/openai/gpt-oss-120b",
+      "provider": "cloudflare",
+      "model_id": "@cf/openai/gpt-oss-120b",
+      "context_window": "128K",
+      "max_output": "8.2K",
+      "supports_thinking": true,
+      "supports_images": false,
+      "free_tier_hint": false,
+      "included_reason": "direct_provider"
+    },
+    {
+      "spec": "cloudflare/@cf/openai/gpt-oss-20b",
+      "provider": "cloudflare",
+      "model_id": "@cf/openai/gpt-oss-20b",
+      "context_window": "128K",
+      "max_output": "8.2K",
+      "supports_thinking": true,
+      "supports_images": false,
+      "free_tier_hint": false,
+      "included_reason": "direct_provider"
+    },
+    {
+      "spec": "cloudflare/@cf/qwen/qwen2.5-coder-32b-instruct",
+      "provider": "cloudflare",
+      "model_id": "@cf/qwen/qwen2.5-coder-32b-instruct",
+      "context_window": "32.8K",
+      "max_output": "8.2K",
+      "supports_thinking": false,
+      "supports_images": false,
+      "free_tier_hint": false,
+      "included_reason": "direct_provider"
+    },
+    {
+      "spec": "cloudflare/@cf/qwen/qwen3-30b-a3b-fp8",
+      "provider": "cloudflare",
+      "model_id": "@cf/qwen/qwen3-30b-a3b-fp8",
+      "context_window": "32.8K",
+      "max_output": "8.2K",
+      "supports_thinking": true,
+      "supports_images": false,
+      "free_tier_hint": false,
+      "included_reason": "direct_provider"
+    },
+    {
+      "spec": "cloudflare/@cf/qwen/qwq-32b",
+      "provider": "cloudflare",
+      "model_id": "@cf/qwen/qwq-32b",
+      "context_window": "32.8K",
+      "max_output": "8.2K",
+      "supports_thinking": true,
+      "supports_images": false,
+      "free_tier_hint": false,
+      "included_reason": "direct_provider"
+    },
+    {
+      "spec": "cloudflare/@cf/zai-org/glm-4.7-flash",
+      "provider": "cloudflare",
+      "model_id": "@cf/zai-org/glm-4.7-flash",
+      "context_window": "131.1K",
+      "max_output": "8.2K",
+      "supports_thinking": false,
+      "supports_images": false,
+      "free_tier_hint": false,
+      "included_reason": "direct_provider"
     }
   ]
 }

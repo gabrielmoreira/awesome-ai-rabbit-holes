@@ -217,6 +217,14 @@ describe("pi-free fallback extension", () => {
     );
   });
 
+  it("does not reuse Kimi K2.6 intelligence for older Kimi K2 model ids", () => {
+    expect(matchPiFreeIntelligenceRecord("nvidia/moonshotai/kimi-k2-instruct", INTELLIGENCE_FIXTURE)).toBeNull();
+    expect(matchPiFreeIntelligenceRecord("nvidia/moonshotai/kimi-k2-instruct-0905", INTELLIGENCE_FIXTURE)).toBeNull();
+    expect(matchPiFreeIntelligenceRecord("nvidia/moonshotai/kimi-k2-thinking", INTELLIGENCE_FIXTURE)).toBeNull();
+    expect(matchPiFreeIntelligenceRecord("nvidia/moonshotai/kimi-k2.6", INTELLIGENCE_FIXTURE)?.id).toBe("kimi-k2-6");
+  });
+
+
   it("orders all-model candidates by current auth first and known intelligence second", () => {
     const models: PiFreeAllModel[] = [
       {

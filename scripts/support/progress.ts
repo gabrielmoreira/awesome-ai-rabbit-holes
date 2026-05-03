@@ -28,12 +28,15 @@ export function buildProgressHeartbeat(input: {
   total: number;
   startedAtMs: number;
   nowMs?: number;
+  etaLabel?: string;
 }): string {
   const nowMs = input.nowMs ?? Date.now();
   const elapsedMs = Math.max(1, nowMs - input.startedAtMs);
   const rate = input.completed / (elapsedMs / 1000);
   const remaining = Math.max(0, input.total - input.completed);
   const etaMs = rate > 0 ? (remaining / rate) * 1000 : 0;
+  const etaLabel = input.etaLabel ?? "eta";
 
-  return `  · ${input.label}: ${input.completed}/${input.total} | avg ${rate.toFixed(1)} items/s | eta ${formatDurationMs(etaMs)}`;
+  return `  · ${input.label}: ${input.completed}/${input.total} | avg ${rate.toFixed(1)} items/s | ${etaLabel} ${formatDurationMs(etaMs)}`;
 }
+

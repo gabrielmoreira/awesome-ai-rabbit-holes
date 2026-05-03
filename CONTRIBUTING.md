@@ -24,7 +24,10 @@ developer-tooling angle.
 1. Install [mise](https://mise.jdx.dev/) and run `mise install`
 2. Run `mise run catalog:deps`
 3. Keep at least one working free-model provider credential available locally
-   (for example `OPENROUTER_API_KEY`)
+   in `.env` or `.env.pi-free` (for example `OPENROUTER_API_KEY`,
+   `NVIDIA_API_KEY`, `MISTRAL_API_KEY`, `CLOUDFLARE_API_TOKEN` plus
+   `CLOUDFLARE_ACCOUNT_ID`, or `OLLAMA_API_KEY`)
+
 
 Useful checks:
 

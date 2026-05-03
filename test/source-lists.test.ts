@@ -7,7 +7,9 @@ chooseRelevantGitHubRepoCandidate,
 extractSourceListEntries,
 finalizeSourceListMetadata,
 shouldRefreshSourceListMetadata,
-sourceListMetadataPath, } from "../scripts/catalog/source-lists.js"
+sourceListMetadataPath,
+stripHtmlToTextExcerpt, } from "../scripts/catalog/source-lists.js"
+
 
 describe("source list extraction", () => {
   it("extracts entries with section paths, deduplicates repeated links, and skips this repo", () => {
@@ -56,6 +58,49 @@ Curated MCP servers.
       },
     ]);
   });
+
+  it("treats linked headings as primary catalog entries and ignores their secondary links", () => {
+    const readme = `# Awesome AI Agents
+
+## [Taxy AI](https://github.com/TaxyAI/browser-extension)
+Browser automation with GPT.
+
+### Links
+- [Waitlist](https://docs.google.com/forms/d/e/example/viewform)
+![Image](https://camo.githubusercontent.com/hash/68747470733a2f2f6578616d706c652e636f6d2f696d6167652e706e67)
+`;
+
+    expect(extractSourceListEntries(readme, "https://github.com/e2b-dev/awesome-ai-agents")).toEqual([
+      {
+        extracted_url: "https://github.com/taxyai/browser-extension",
+        normalized_url: "https://github.com/taxyai/browser-extension",
+        canonical_url: "https://github.com/taxyai/browser-extension",
+        anchor_text: "Taxy AI",
+        section_path: ["Taxy AI"],
+        surrounding_text: "## [Taxy AI](https://github.com/TaxyAI/browser-extension)",
+        page_title: null,
+        page_description: null,
+        page_excerpt: null,
+        github_repo_url: null,
+      },
+    ]);
+  });
+
+  it("skips low-signal source-list URLs that are not catalog tools", () => {
+    const readme = `# Directory
+
+- [Waitlist](https://docs.google.com/forms/d/e/example/viewform)
+- [Paper](https://arxiv.org/abs/2303.17580)
+- [Screenshot](https://assets.example.com/logo.png)
+- ![Architecture](https://camo.githubusercontent.com/hash/68747470733a2f2f6578616d706c652e636f6d2f617263682e706e67)
+- [Actual Tool](https://github.com/example/tool)
+`;
+
+    expect(extractSourceListEntries(readme, "https://github.com/example/list").map((entry) => entry.canonical_url)).toEqual([
+      "https://github.com/example/tool",
+    ]);
+  });
+
 
   it("builds deterministic source-list metadata and keeps the list purpose", async () => {
     const metadata = await buildSourceListMetadata({
@@ -228,6 +273,20 @@ Curated MCP servers.
     ).toBe(true);
     expect(shouldRefreshSourceListMetadata(null, new Date("2026-05-01T00:00:00Z"))).toBe(true);
   });
+
+  it("strips website HTML into at most the first 400 text lines for prompt context", () => {
+    const html = `<html><head><title>Ignored</title><script>hidden()</script></head><body>${Array.from(
+      { length: 450 },
+      (_, index) => `<p>visible line ${index + 1}</p>`,
+    ).join("\n")}</body></html>`;
+
+    const excerpt = stripHtmlToTextExcerpt(html);
+
+    expect(excerpt).toContain("visible line 400");
+    expect(excerpt).not.toContain("visible line 401");
+    expect(excerpt).not.toContain("hidden()");
+  });
+
 
   it("uses deterministic cache paths for GitHub source lists", () => {
     expect(sourceListMetadataPath("https://github.com/punkpeye/awesome-mcp-servers")).toMatch(

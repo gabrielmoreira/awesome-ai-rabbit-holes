@@ -166,4 +166,403 @@ describe("runResync", () => {
     expect(sawProvenanceSource).toBe(true);
   });
 
+  it("keeps follow-up stars and categorize targets after discover canonicalizes urls", async () => {
+    const selectedIdBeforeDiscover = "example__com__tool__";
+    const selectedIdAfterDiscover = "example__com__tool";
+    let loadCount = 0;
+    const starRuns: string[][] = [];
+    const categorizeRuns: string[][] = [];
+
+    await runResync([
+      "--id",
+      selectedIdBeforeDiscover,
+      "--discover",
+      "--stars",
+      "--categorize",
+    ], undefined, {
+      loadItems: () => {
+        loadCount += 1;
+        if (loadCount === 1) {
+          return [makeItem({
+            id: selectedIdBeforeDiscover,
+            kind: "website",
+            name: "Example Tool",
+            canonical_url: "https://Example.com/tool/",
+            identity: {},
+            provenance: {
+              discoveries: [{
+                id: "discovery__example__com__tool__awesome-list__example__awesome-tools",
+                discovered_at: "2026-05-01T00:00:00Z",
+                source: {
+                  type: "awesome-list",
+                  name: "example/awesome-tools",
+                  url: "https://github.com/example/awesome-tools",
+                  repository: "example/awesome-tools",
+                },
+                extraction: {
+                  mode: "parsed",
+                  section_path: ["App Builders"],
+                  anchor_text: "Example Tool",
+                  extracted_url: "https://Example.com/tool/",
+                  surrounding_text: "Prompt-to-app builder.",
+                  confidence: "high",
+                },
+              }],
+            },
+          })];
+        }
+
+        return [
+          makeItem({
+            id: selectedIdBeforeDiscover,
+            kind: "website",
+            name: "Example Tool",
+            canonical_url: "https://Example.com/tool/",
+            identity: {},
+            provenance: {
+              discoveries: [{
+                id: "discovery__example__com__tool__awesome-list__example__awesome-tools",
+                discovered_at: "2026-05-01T00:00:00Z",
+                source: {
+                  type: "awesome-list",
+                  name: "example/awesome-tools",
+                  url: "https://github.com/example/awesome-tools",
+                  repository: "example/awesome-tools",
+                },
+                extraction: {
+                  mode: "parsed",
+                  section_path: ["App Builders"],
+                  anchor_text: "Example Tool",
+                  extracted_url: "https://Example.com/tool/",
+                  surrounding_text: "Prompt-to-app builder.",
+                  confidence: "high",
+                },
+              }],
+            },
+          }),
+          makeItem({
+            id: "example__com__tool__ref__campaign",
+            kind: "website",
+            name: "Example Tool",
+            canonical_url: "https://example.com/tool/?ref=campaign",
+            identity: {},
+            provenance: {
+              discoveries: [{
+                id: "discovery__example__com__tool__ref__campaign__awesome-list__example__awesome-tools",
+                discovered_at: "2026-05-01T00:00:00Z",
+                source: {
+                  type: "awesome-list",
+                  name: "example/awesome-tools",
+                  url: "https://github.com/example/awesome-tools",
+                  repository: "example/awesome-tools",
+                },
+                extraction: {
+                  mode: "parsed",
+                  section_path: ["App Builders"],
+                  anchor_text: "Example Tool",
+                  extracted_url: "https://example.com/tool/?ref=campaign",
+                  surrounding_text: "Prompt-to-app builder.",
+                  confidence: "high",
+                },
+              }],
+            },
+          }),
+          makeItem({
+            id: selectedIdAfterDiscover,
+            kind: "website",
+            name: "Example Tool",
+            canonical_url: "https://example.com/tool",
+            identity: {},
+            provenance: {
+              discoveries: [{
+                id: "discovery__example__com__tool__awesome-list__example__awesome-tools",
+                discovered_at: "2026-05-01T00:00:00Z",
+                source: {
+                  type: "awesome-list",
+                  name: "example/awesome-tools",
+                  url: "https://github.com/example/awesome-tools",
+                  repository: "example/awesome-tools",
+                },
+                extraction: {
+                  mode: "parsed",
+                  section_path: ["App Builders"],
+                  anchor_text: "Example Tool",
+                  extracted_url: "https://example.com/tool",
+                  surrounding_text: "Prompt-to-app builder.",
+                  confidence: "high",
+                },
+              }, {
+                id: "discovery__example__com__tool__legacy__example__awesome-tools",
+                discovered_at: "2026-04-30T00:00:00Z",
+                source: {
+                  type: "awesome-list",
+                  name: "example/awesome-tools",
+                  url: "https://github.com/example/awesome-tools",
+                  repository: "example/awesome-tools",
+                },
+                extraction: {
+                  mode: "parsed",
+                  section_path: ["App Builders"],
+                  anchor_text: "Example Tool",
+                  extracted_url: "https://Example.com/tool/",
+                  surrounding_text: "Prompt-to-app builder.",
+                  confidence: "high",
+                },
+              }],
+
+            },
+          }),
+        ];
+
+
+      },
+      runDiscover: async () => {},
+      runStars: async (_token, options) => {
+        starRuns.push([...(options?.itemIds ?? new Set<string>())]);
+      },
+      runCategorize: async (_token, options) => {
+        categorizeRuns.push([...(options?.itemIds ?? new Set<string>())]);
+      },
+      runRender: () => {},
+      runValidate: () => {},
+    });
+
+    expect(starRuns).toEqual([[selectedIdAfterDiscover]]);
+    expect(categorizeRuns).toEqual([[selectedIdAfterDiscover]]);
+  });
+
+  it("keeps the original normalized id when discover only adds stale siblings", async () => {
+    const selectedId = "example__com__tool";
+    let loadCount = 0;
+    const starRuns: string[][] = [];
+    const categorizeRuns: string[][] = [];
+
+    await runResync([
+      "--id",
+      selectedId,
+      "--discover",
+      "--stars",
+      "--categorize",
+    ], undefined, {
+      loadItems: () => {
+        loadCount += 1;
+        if (loadCount === 1) {
+          return [makeItem({
+            id: selectedId,
+            kind: "website",
+            name: "Example Tool",
+            canonical_url: "https://example.com/tool",
+            identity: {},
+            provenance: {
+              discoveries: [{
+                id: "discovery__example__com__tool__awesome-list__example__awesome-tools",
+                discovered_at: "2026-05-01T00:00:00Z",
+                source: {
+                  type: "awesome-list",
+                  name: "example/awesome-tools",
+                  url: "https://github.com/example/awesome-tools",
+                  repository: "example/awesome-tools",
+                },
+                extraction: {
+                  mode: "parsed",
+                  section_path: ["App Builders"],
+                  anchor_text: "Example Tool",
+                  extracted_url: "https://example.com/tool",
+                  surrounding_text: "Prompt-to-app builder.",
+                  confidence: "high",
+                },
+              }],
+            },
+          })];
+        }
+
+        return [
+          makeItem({
+            id: selectedId,
+            kind: "website",
+            name: "Example Tool",
+            canonical_url: "https://example.com/tool",
+            identity: {},
+            provenance: {
+              discoveries: [{
+                id: "discovery__example__com__tool__awesome-list__example__awesome-tools",
+                discovered_at: "2026-05-01T00:00:00Z",
+                source: {
+                  type: "awesome-list",
+                  name: "example/awesome-tools",
+                  url: "https://github.com/example/awesome-tools",
+                  repository: "example/awesome-tools",
+                },
+                extraction: {
+                  mode: "parsed",
+                  section_path: ["App Builders"],
+                  anchor_text: "Example Tool",
+                  extracted_url: "https://example.com/tool",
+                  surrounding_text: "Prompt-to-app builder.",
+                  confidence: "high",
+                },
+              }],
+            },
+          }),
+          makeItem({
+            id: "example__com__tool__ref__campaign",
+            kind: "website",
+            name: "Example Tool",
+            canonical_url: "https://example.com/tool/?ref=campaign",
+            identity: {},
+            provenance: {
+              discoveries: [{
+                id: "discovery__example__com__tool__ref__campaign__awesome-list__example__awesome-tools",
+                discovered_at: "2026-05-01T00:00:00Z",
+                source: {
+                  type: "awesome-list",
+                  name: "example/awesome-tools",
+                  url: "https://github.com/example/awesome-tools",
+                  repository: "example/awesome-tools",
+                },
+                extraction: {
+                  mode: "parsed",
+                  section_path: ["App Builders"],
+                  anchor_text: "Example Tool",
+                  extracted_url: "https://example.com/tool/?ref=campaign",
+                  surrounding_text: "Prompt-to-app builder.",
+                  confidence: "high",
+                },
+              }],
+            },
+          }),
+        ];
+      },
+      runDiscover: async () => {},
+      runStars: async (_token, options) => {
+        starRuns.push([...(options?.itemIds ?? new Set<string>())]);
+      },
+      runCategorize: async (_token, options) => {
+        categorizeRuns.push([...(options?.itemIds ?? new Set<string>())]);
+      },
+      runRender: () => {},
+      runValidate: () => {},
+    });
+
+    expect(starRuns).toEqual([[selectedId]]);
+    expect(categorizeRuns).toEqual([[selectedId]]);
+  });
+
+  it("keeps the original id when no normalized successor exists", async () => {
+    const selectedId = "example__com__tool__";
+    let loadCount = 0;
+    const starRuns: string[][] = [];
+    const categorizeRuns: string[][] = [];
+
+    await runResync([
+      "--id",
+      selectedId,
+      "--discover",
+      "--stars",
+      "--categorize",
+    ], undefined, {
+      loadItems: () => {
+        loadCount += 1;
+        if (loadCount === 1) {
+          return [makeItem({
+            id: selectedId,
+            kind: "website",
+            name: "Example Tool",
+            canonical_url: "https://Example.com/tool/",
+            identity: {},
+            provenance: {
+              discoveries: [{
+                id: "discovery__example__com__tool__awesome-list__example__awesome-tools",
+                discovered_at: "2026-05-01T00:00:00Z",
+                source: {
+                  type: "awesome-list",
+                  name: "example/awesome-tools",
+                  url: "https://github.com/example/awesome-tools",
+                  repository: "example/awesome-tools",
+                },
+                extraction: {
+                  mode: "parsed",
+                  section_path: ["App Builders"],
+                  anchor_text: "Example Tool",
+                  extracted_url: "https://Example.com/tool/",
+                  surrounding_text: "Prompt-to-app builder.",
+                  confidence: "high",
+                },
+              }],
+            },
+          })];
+        }
+
+        return [
+          makeItem({
+            id: selectedId,
+            kind: "website",
+            name: "Example Tool",
+            canonical_url: "https://Example.com/tool/",
+            identity: {},
+            provenance: {
+              discoveries: [{
+                id: "discovery__example__com__tool__awesome-list__example__awesome-tools",
+                discovered_at: "2026-05-01T00:00:00Z",
+                source: {
+                  type: "awesome-list",
+                  name: "example/awesome-tools",
+                  url: "https://github.com/example/awesome-tools",
+                  repository: "example/awesome-tools",
+                },
+                extraction: {
+                  mode: "parsed",
+                  section_path: ["App Builders"],
+                  anchor_text: "Example Tool",
+                  extracted_url: "https://Example.com/tool/",
+                  surrounding_text: "Prompt-to-app builder.",
+                  confidence: "high",
+                },
+              }],
+            },
+          }),
+          makeItem({
+            id: "example__com__tool__ref__campaign",
+            kind: "website",
+            name: "Example Tool",
+            canonical_url: "https://example.com/tool/?ref=campaign",
+            identity: {},
+            provenance: {
+              discoveries: [{
+                id: "discovery__example__com__tool__ref__campaign__awesome-list__example__awesome-tools",
+                discovered_at: "2026-05-01T00:00:00Z",
+                source: {
+                  type: "awesome-list",
+                  name: "example/awesome-tools",
+                  url: "https://github.com/example/awesome-tools",
+                  repository: "example/awesome-tools",
+                },
+                extraction: {
+                  mode: "parsed",
+                  section_path: ["App Builders"],
+                  anchor_text: "Example Tool",
+                  extracted_url: "https://example.com/tool/?ref=campaign",
+                  surrounding_text: "Prompt-to-app builder.",
+                  confidence: "high",
+                },
+              }],
+            },
+          }),
+        ];
+      },
+      runDiscover: async () => {},
+      runStars: async (_token, options) => {
+        starRuns.push([...(options?.itemIds ?? new Set<string>())]);
+      },
+      runCategorize: async (_token, options) => {
+        categorizeRuns.push([...(options?.itemIds ?? new Set<string>())]);
+      },
+      runRender: () => {},
+      runValidate: () => {},
+    });
+
+    expect(starRuns).toEqual([[selectedId]]);
+    expect(categorizeRuns).toEqual([[selectedId]]);
+  });
+
 });

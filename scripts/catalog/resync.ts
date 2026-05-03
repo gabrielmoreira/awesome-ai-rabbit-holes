@@ -1,3 +1,4 @@
+import { normalizeSourceCoverageUrl } from "./core.ts";
 import { runCategorize } from "./categorize.ts";
 import { loadCatalogItems } from "./data.ts"
 import { runDiscover } from "./discover.ts";
@@ -145,23 +146,55 @@ function discoverSourceUrlsForItems(_selection: ResyncSelection, items: CatalogI
 }
 
 
-function followUpItemIdsAfterDiscover(originalItems: CatalogItem[], refreshedItems: CatalogItem[]): Set<string> {
-  const originalIds = new Set(originalItems.map((item) => item.id));
-  const originalCanonicalUrls = new Set(originalItems.map((item) => item.canonical_url));
-  const originalExtractedUrls = new Set(
-    originalItems.flatMap((item) => item.provenance.discoveries.map((discovery) => discovery.extraction.extracted_url)),
-  );
-  return new Set(
-    refreshedItems
-      .filter(
-        (item) =>
-          originalIds.has(item.id)
-          || originalCanonicalUrls.has(item.canonical_url)
-          || item.provenance.discoveries.some((discovery) => originalExtractedUrls.has(discovery.extraction.extracted_url)),
-      )
-      .map((item) => item.id),
-  );
+function isNormalizedFollowUpItem(item: CatalogItem): boolean {
+  return item.canonical_url === normalizeSourceCoverageUrl(item.canonical_url);
 }
+
+
+function followUpItemIdsAfterDiscover(originalItems: CatalogItem[], refreshedItems: CatalogItem[]): Set<string> {
+  const followUpIds = new Set<string>();
+
+  for (const originalItem of originalItems) {
+    const originalCanonicalUrl = normalizeSourceCoverageUrl(originalItem.canonical_url);
+    const originalExtractedUrls = new Set(
+      originalItem.provenance.discoveries.map((discovery) => normalizeSourceCoverageUrl(discovery.extraction.extracted_url)),
+    );
+    const matchingItems = refreshedItems.filter(
+      (item) =>
+        item.id === originalItem.id
+        || normalizeSourceCoverageUrl(item.canonical_url) === originalCanonicalUrl
+        || item.provenance.discoveries.some((discovery) => originalExtractedUrls.has(normalizeSourceCoverageUrl(discovery.extraction.extracted_url))),
+    );
+    const normalizedReplacementItems = matchingItems.filter(
+      (item) => item.id !== originalItem.id && isNormalizedFollowUpItem(item),
+    );
+    const originalNormalizedItems = matchingItems.filter(
+      (item) => item.id === originalItem.id && isNormalizedFollowUpItem(item),
+    );
+    const originalItemsStillPresent = matchingItems.filter((item) => item.id === originalItem.id);
+    const replacementItems = matchingItems.filter((item) => item.id !== originalItem.id);
+    const preferredItems = normalizedReplacementItems.length > 0
+      ? normalizedReplacementItems
+      : originalNormalizedItems.length > 0
+        ? originalNormalizedItems
+        : originalItemsStillPresent.length > 0
+          ? originalItemsStillPresent
+          : replacementItems.length > 0
+            ? replacementItems
+            : matchingItems;
+
+
+
+
+    for (const item of preferredItems) {
+      followUpIds.add(item.id);
+    }
+  }
+
+  return followUpIds;
+}
+
+
 
 export async function runResync(
   argv: string[],

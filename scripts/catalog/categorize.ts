@@ -6,8 +6,8 @@ applyOverrides,
 applyPlacement,
 type ProcessingError, } from "./core.ts"
 import { runCatalogLlmPrompt, resolveCatalogLlmTimeoutMs } from "./llm-gateway.ts"
-import { nextRetry, updateProcessing } from "./processing.ts"
-import { buildProgressHeartbeat, shouldEmitProgressHeartbeat } from "../support/progress.ts"
+import { nextRetry, readProcessing, updateProcessing } from "./processing.ts"
+import { buildProgressHeartbeat, formatDurationMs, shouldEmitProgressHeartbeat } from "../support/progress.ts"
 import { loadSettings } from "./settings.ts"
 import { loadSourceContextLinesForItem, readWebsiteLinkResolution } from "./source-lists.ts"
 import { readReadmeFromCache } from "./readme-cache.ts"
@@ -16,8 +16,10 @@ import { validateOverride, validateOverridesUniqueness } from "./validate.ts";
 import type { CatalogItem, Category, Override } from "./types.ts"
 
 const ITEM_HEARTBEAT_EVERY = 25;
+const HEARTBEAT_INTERVAL_MS = 30_000;
 const MIN_AI_INSIGHT_START_BUDGET_MS = 5_000;
 export const CATALOG_CATEGORIZE_PROMPT_VERSION = "catalog-categorize-v2";
+
 
 function hasInsightText(value: string | null | undefined): value is string {
   return typeof value === "string" && value.trim().length > 0;
@@ -150,6 +152,46 @@ export function resolveAIInsightBudgetMs(env: NodeJS.ProcessEnv = process.env): 
   return settings.budgets.categorize_minutes > 0 ? settings.budgets.categorize_minutes * 60_000 : null;
 }
 
+function parseIsoMs(value: string | null | undefined): number | null {
+  if (!value) return null;
+  const parsed = Date.parse(value);
+  return Number.isFinite(parsed) ? parsed : null;
+}
+
+export function isCategorizeRetryDue(
+  item: Pick<CatalogItem, "processing">,
+  nowMs: number = Date.now(),
+  force: boolean = false,
+): boolean {
+  if (force) return true;
+  const retryAtMs = parseIsoMs(readProcessing(item, "categorize").next_retry_at ?? null);
+  return retryAtMs == null || retryAtMs <= nowMs;
+}
+
+function compareCategorizeTargets(
+  left: { item: CatalogItem; index: number },
+  right: { item: CatalogItem; index: number },
+): number {
+  const leftUpdatedAtMs = parseIsoMs(readProcessing(left.item, "categorize").updated_at) ?? Number.POSITIVE_INFINITY;
+  const rightUpdatedAtMs = parseIsoMs(readProcessing(right.item, "categorize").updated_at) ?? Number.POSITIVE_INFINITY;
+
+  if (leftUpdatedAtMs !== rightUpdatedAtMs) return leftUpdatedAtMs - rightUpdatedAtMs;
+  return left.index - right.index;
+}
+
+
+export function shouldEmitCategorizeHeartbeat(input: {
+  completed: number;
+  total: number;
+  lastHeartbeatAtMs: number;
+  nowMs?: number;
+}): boolean {
+  const nowMs = input.nowMs ?? Date.now();
+  if (shouldEmitProgressHeartbeat(input.completed, input.total, ITEM_HEARTBEAT_EVERY)) return true;
+  return input.completed > 0 && input.total > 0 && (nowMs - input.lastHeartbeatAtMs) >= HEARTBEAT_INTERVAL_MS;
+}
+
+
 export function applyAIInsights(
   item: CatalogItem,
   response: ReturnType<typeof parseAIInsightResponse>,
@@ -273,6 +315,7 @@ export type MaterializeCatalogStateResult = {
   attemptedAiTargetCount: number;
   skippedAiTargetIds: string[];
   budgetExhausted: boolean;
+  retryBlockedTargetCount: number;
 };
 
 export async function materializeCatalogState(
@@ -286,13 +329,19 @@ export async function materializeCatalogState(
   const blockedItemIds = deps.blockedItemIds ?? new Set<string>();
   const targetSelector = deps.selectTarget ?? ((item: CatalogItem) => needsAIInsights(item));
   const rulesVersion = categoryRulesVersion(categories);
-  const aiTargets = items
+  const retryNowMs = Date.now();
+  const candidateTargets = items
     .map((item, index) => ({ item, index }))
-    .filter(({ item }) => !blockedItemIds.has(item.id) && targetSelector(item) && isClassificationReady(item));
+    .filter(({ item }) => !blockedItemIds.has(item.id) && targetSelector(item));
+  const retryReadyTargets = candidateTargets.filter(({ item }) => isCategorizeRetryDue(item, retryNowMs, deps.forceRebuild === true));
+  const retryBlockedTargetCount = candidateTargets.length - retryReadyTargets.length;
+  const aiTargets = retryReadyTargets
+    .filter(({ item }) => isClassificationReady(item))
+    .sort(compareCategorizeTargets);
 
-  const skippedForReadiness = items
-    .filter((item) => !blockedItemIds.has(item.id) && targetSelector(item) && !isClassificationReady(item))
-    .map((item) => {
+  const skippedForReadiness = retryReadyTargets
+    .filter(({ item }) => !isClassificationReady(item))
+    .map(({ item }) => {
       const next = { ...item };
       updateProcessing(next, "categorize", {
         status: "skipped",
@@ -318,6 +367,8 @@ export async function materializeCatalogState(
   let attemptedAiTargetCount = 0;
   let claimedTargetCount = 0;
   let budgetExhausted = false;
+  let lastHeartbeatAtMs = startedAtMs;
+
 
   const enrichTarget = deps.enrichItem
     ? deps.enrichItem
@@ -393,17 +444,29 @@ export async function materializeCatalogState(
           processingErrors.push({ stage: "ai_insights", item_id: target.item.id, message });
           attemptedAiTargetCount += 1;
         } finally {
-          if (shouldEmitProgressHeartbeat(attemptedAiTargetCount, aiTargets.length, ITEM_HEARTBEAT_EVERY)) {
-            console.log(
-              buildProgressHeartbeat({
-                label: "categorize",
-                completed: attemptedAiTargetCount,
-                total: aiTargets.length,
-                startedAtMs,
-              }),
-            );
+          const nowMs = Date.now();
+          if (shouldEmitCategorizeHeartbeat({
+            completed: attemptedAiTargetCount,
+            total: aiTargets.length,
+            lastHeartbeatAtMs,
+            nowMs,
+          })) {
+            const heartbeat = buildProgressHeartbeat({
+              label: "categorize",
+              completed: attemptedAiTargetCount,
+              total: aiTargets.length,
+              startedAtMs,
+              nowMs,
+              etaLabel: deadlineMs == null ? "eta" : "ready backlog eta",
+            });
+
+
+            const budgetSuffix = deadlineMs == null ? "" : ` | budget left ${formatDurationMs(Math.max(0, deadlineMs - nowMs))}`;
+            console.log(`${heartbeat}${budgetSuffix}`);
+            lastHeartbeatAtMs = nowMs;
           }
         }
+
       }
     }),
   );
@@ -448,7 +511,9 @@ export async function materializeCatalogState(
     attemptedAiTargetCount,
     skippedAiTargetIds,
     budgetExhausted,
+    retryBlockedTargetCount,
   };
+
 }
 
 export async function runCategorize(
@@ -467,6 +532,14 @@ export async function runCategorize(
     return;
   }
 
+  const budgetMs = resolveAIInsightBudgetMs();
+  const maxConcurrency = resolveAIInsightConcurrency();
+  console.log(
+    `Scanning ${selectedCount} selected item(s) for categorize scheduling | configured max concurrency ${maxConcurrency} | time budget ${budgetMs == null ? "none" : formatDurationMs(budgetMs)} | oldest-first | retry-aware.`,
+  );
+
+
+
   const result = await materializeCatalogState(items, categories, overrides, {
     blockedItemIds: new Set(
       selectedIds ? items.filter((item) => !selectedIds.has(item.id)).map((item) => item.id) : [],
@@ -477,7 +550,11 @@ export async function runCategorize(
     forceRebuild: options.force === true,
   });
 
+  const retryBlockedSuffix = result.retryBlockedTargetCount > 0
+    ? `, ${result.retryBlockedTargetCount} waiting for retry window`
+    : "";
   console.log(
-    `✅ Categorization complete: ${result.attemptedAiTargetCount} attempted, ${result.aiUpdatedIds.length} updated, ${result.skippedAiTargetIds.length} deferred/skipped.`,
+    `✅ Categorization complete: ${result.attemptedAiTargetCount} attempted, ${result.aiUpdatedIds.length} updated, ${result.skippedAiTargetIds.length} deferred/skipped${retryBlockedSuffix}.`,
   );
 }
+
