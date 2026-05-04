@@ -1,6 +1,6 @@
 import * as fs from "node:fs";
 import * as path from "node:path";
-import { makeItemPath, normalizeLoadedItem } from "./core.ts";
+import { makeItemPath, normalizeLoadedItem, normalizeSourceKind } from "./core.ts";
 import { CATALOG_ITEMS_DIR,
 CONFIG_CATEGORIES_PATH,
 CONFIG_SETTINGS_PATH,
@@ -18,6 +18,19 @@ export function loadConfig(): CatalogConfig {
   };
 }
 
+function normalizeLoadedSource(raw: any, index: number): Source {
+  const kind = normalizeSourceKind(raw?.kind);
+  if (!kind) {
+    throw new Error(`Validation error: ${CONFIG_SOURCES_PATH} has invalid kind at sources[${index}]: ${String(raw?.kind)}`);
+  }
+
+  return {
+    url: typeof raw?.url === "string" ? raw.url : "",
+    kind,
+    note: typeof raw?.note === "string" ? raw.note : undefined,
+  };
+}
+
 export function loadSources(): Source[] {
   if (!fs.existsSync(CONFIG_SOURCES_PATH)) return [];
   const raw = readYamlIfExists<unknown>(CONFIG_SOURCES_PATH, null);
@@ -25,7 +38,7 @@ export function loadSources(): Source[] {
   if (!Array.isArray(raw)) {
     throw new Error(`Validation error: expected ${CONFIG_SOURCES_PATH} to contain a YAML list of sources.`);
   }
-  return raw as Source[];
+  return raw.map((source, index) => normalizeLoadedSource(source, index));
 }
 
 export function loadCategories(): Category[] {

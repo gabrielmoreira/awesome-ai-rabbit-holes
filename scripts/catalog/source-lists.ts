@@ -8,7 +8,7 @@ import {
   WEBSITE_LINK_CACHE_DIR,
 } from "../support/paths.ts";
 import { buildProgressHeartbeat, shouldEmitProgressHeartbeat } from "../support/progress.ts";
-import { isLowSignalCatalogUrl } from "./core.ts";
+import { isCuratedListSource, isLowSignalCatalogUrl } from "./core.ts";
 import type { CatalogItem, DiscoveryCandidate, Source } from "./types.ts";
 
 const WEBSITE_LINK_CACHE_TTL_MS = 24 * 60 * 60 * 1000;
@@ -709,10 +709,10 @@ export function readSourceListMetadata(sourceUrl: string): SourceListMetadata | 
   }
 }
 
-function uniqueAwesomeListSources(sources: Source[]): Source[] {
+function uniqueCuratedListSources(sources: Source[]): Source[] {
   return [...new Map(
     sources
-      .filter((source) => source.kind === "awesome-list" && !shouldSkipDiscoveredUrl(source.url))
+      .filter((source) => isCuratedListSource(source) && !shouldSkipDiscoveredUrl(source.url))
       .map((source) => [normalizeUrl(source.url), source])
   ).values()];
 }
@@ -775,9 +775,9 @@ export async function materializeSourceListMetadata(
   sources: Source[],
   token?: string
 ): Promise<void> {
-  const awesomeSources = uniqueAwesomeListSources(sources);
+  const curatedSources = uniqueCuratedListSources(sources);
 
-  for (const source of awesomeSources) {
+  for (const source of curatedSources) {
     const cached = readSourceListMetadata(source.url);
     if (!shouldRefreshSourceListMetadata(cached)) continue;
 
@@ -810,7 +810,7 @@ export async function materializeSourceListMetadata(
 export function loadSourceListDiscoveryCandidates(sources: Source[]): DiscoveryCandidate[] {
   const candidates: DiscoveryCandidate[] = [];
 
-  for (const source of uniqueAwesomeListSources(sources)) {
+  for (const source of uniqueCuratedListSources(sources)) {
     const metadata = readSourceListMetadata(source.url);
     if (!metadata) continue;
     candidates.push(...buildSourceListDiscoveryCandidates(source, metadata));

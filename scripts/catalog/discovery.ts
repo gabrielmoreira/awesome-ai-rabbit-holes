@@ -1,9 +1,11 @@
 import {
+  isCuratedListSource,
   makeDiscoveryId as buildDiscoveryId,
   makeItemId,
   normalizeGitHubUrl,
   normalizeLoadedItem,
   normalizeSourceCoverageUrl,
+  toDiscoverySourceType,
 } from "./core.ts";
 import { updateProcessing } from "./processing.ts";
 import { shouldSkipDiscoveredUrl } from "./source-lists.ts";
@@ -17,7 +19,7 @@ function normalizeDiscoveryTarget(url: string): string {
 export { makeDiscoveryId } from "./core.ts";
 
 function deriveSourceInfo(source: Source): { name: string; url: string | null; repository: string | null } {
-  const kind = source.kind ?? "direct-link";
+  const kind = toDiscoverySourceType(source.kind);
   if (kind === "direct-link" || kind === "manual-submission") {
     return { name: "Manual submission", url: null, repository: null };
   }
@@ -57,7 +59,7 @@ export function buildDiscovery(
     id: buildDiscoveryId(url, source),
     discovered_at: discoveredAt,
     source: {
-      type: source.kind ?? "direct-link",
+      type: toDiscoverySourceType(source.kind),
       name: sourceInfo.name,
       url: sourceInfo.url,
       repository: sourceInfo.repository,
@@ -150,8 +152,8 @@ function rankDiscoveryGroups(
 export function orderDiscoverableSources(sources: Source[]): Source[] {
   const discoverableSources = sources.filter((source) => !shouldSkipDiscoveredUrl(source.url));
   return [
-    ...discoverableSources.filter((source) => source.kind === "awesome-list"),
-    ...discoverableSources.filter((source) => source.kind !== "awesome-list"),
+    ...discoverableSources.filter((source) => isCuratedListSource(source)),
+    ...discoverableSources.filter((source) => !isCuratedListSource(source)),
   ];
 }
 

@@ -1,7 +1,16 @@
 // scripts/catalog/types.ts
 // Shared TypeScript types for the catalog pipeline.
 
-export type SourceKind =
+export type CanonicalSourceKind =
+  | "direct-item"
+  | "curated-list"
+  | "article"
+  | "docs-page"
+  | "newsletter"
+  | "paper"
+  | "manual-submission";
+
+export type DiscoverySourceType =
   | "direct-link"
   | "awesome-list"
   | "article"
@@ -9,6 +18,8 @@ export type SourceKind =
   | "newsletter"
   | "paper"
   | "manual-submission";
+
+export type SourceKind = CanonicalSourceKind | DiscoverySourceType;
 
 export type Source = {
   url: string;
@@ -28,7 +39,7 @@ export type LifecycleStatus =
   | "needs_review";
 
 export type SourceInfo = {
-  type: SourceKind;
+  type: DiscoverySourceType;
   name: string;
   url: string | null;
   repository: string | null;

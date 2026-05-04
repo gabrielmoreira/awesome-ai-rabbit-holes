@@ -1,3 +1,4 @@
+import { normalizeSourceKind } from "./core.ts"
 import { loadCatalogItems, loadCategories, loadOverrides, loadSources } from "./data.ts"
 import type { CatalogItem, Override, Source } from "./types.ts"
 
@@ -14,6 +15,9 @@ export function validateSources(sources: Source[]): ValidationError[] {
   for (const [index, source] of sources.entries()) {
     if (!source.url) {
       errors.push({ path: `sources[${index}]`, message: "Source is missing required field: url" });
+    }
+    if (normalizeSourceKind(source.kind) == null) {
+      errors.push({ path: `sources[${index}]`, message: `Source has invalid kind: ${String(source.kind)}` });
     }
   }
   return errors;

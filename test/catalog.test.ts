@@ -2235,6 +2235,26 @@ describe("loadSources: shape validation", () => {
   });
 });
 
+describe("source kind normalization", () => {
+  it("normalizes current source config to direct-item and curated-list", () => {
+    const sources = loadSources();
+
+    expect(sources.some((source) => source.url === "https://github.com/BloopAI/vibe-kanban" && source.kind === "direct-item")).toBe(true);
+    expect(sources.some((source) => source.kind === "curated-list")).toBe(true);
+    expect(sources.some((source) => source.kind === "direct-link" || source.kind === "awesome-list")).toBe(false);
+  });
+
+  it("validateSources rejects unknown source kinds", () => {
+    const errors = validateSources([{ url: "https://example.com/tool", kind: "made-up" as any }]);
+    expect(errors).toEqual([
+      {
+        path: "sources[0]",
+        message: "Source has invalid kind: made-up",
+      },
+    ]);
+  });
+});
+
 describe("validateOverride: nested subpatch shape", () => {
   it("rejects non-object values for insights / placement / lifecycle", () => {
     const item = makeItem();

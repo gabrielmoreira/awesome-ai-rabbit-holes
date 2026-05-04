@@ -187,7 +187,7 @@ Browser automation with GPT.
   it("keeps website canonical and carries canonicalization ambiguity forward when no confident repo can be selected", async () => {
     const source = {
       url: "https://github.com/ai-for-developers/awesome-ai-coding-tools",
-      kind: "awesome-list" as const,
+      kind: "curated-list" as const,
       note: "AI coding tools.",
     };
     const metadata = await buildSourceListMetadata(
@@ -224,7 +224,7 @@ Browser automation with GPT.
   it("turns source-list metadata into discovery candidates for downstream catalog items", async () => {
     const source = {
       url: "https://github.com/punkpeye/awesome-mcp-servers",
-      kind: "awesome-list" as const,
+      kind: "curated-list" as const,
       note: "MCP servers.",
     };
     const metadata = await buildSourceListMetadata({

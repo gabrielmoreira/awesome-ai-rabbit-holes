@@ -4,9 +4,11 @@
 import * as path from "node:path";
 import { parseGitHubUrl } from "../support/github.ts"
 import { CATALOG_ITEMS_DIR } from "../support/paths.ts"
-import type { CatalogConfig,
+import type { CanonicalSourceKind,
+CatalogConfig,
 CatalogItem,
 Discovery,
+DiscoverySourceType,
 Insights,
 Override,
 ProcessingCommandState,
@@ -76,10 +78,39 @@ export function isLowSignalCatalogUrl(url: string): boolean {
   return false;
 }
 
+export function normalizeSourceKind(kind: string | null | undefined): CanonicalSourceKind | null {
+  switch (kind ?? "direct-item") {
+    case "direct-item":
+    case "direct-link":
+      return "direct-item";
+    case "curated-list":
+    case "awesome-list":
+      return "curated-list";
+    case "article":
+    case "docs-page":
+    case "newsletter":
+    case "paper":
+    case "manual-submission":
+      return kind as CanonicalSourceKind;
+    default:
+      return null;
+  }
+}
+
+export function toDiscoverySourceType(kind: string | null | undefined): DiscoverySourceType {
+  const normalized = normalizeSourceKind(kind);
+  if (normalized === "direct-item") return "direct-link";
+  if (normalized === "curated-list") return "awesome-list";
+  return normalized ?? "direct-link";
+}
+
+export function isCuratedListSource(source: Pick<Source, "kind">): boolean {
+  return normalizeSourceKind(source.kind) === "curated-list";
+}
 
 export function makeDiscoveryId(url: string, source: Source): string {
   const itemId = makeItemId(url);
-  const kind = source.kind ?? "direct-link";
+  const kind = toDiscoverySourceType(source.kind);
   if (kind === "direct-link" || kind === "manual-submission") return `discovery__${itemId}__${kind}`;
 
   const sourceGithub = parseGitHubUrl(source.url);
@@ -94,7 +125,7 @@ export function makeDiscoveryId(url: string, source: Source): string {
 function normalizeLoadedDiscovery(raw: any, fallbackUrl: string): Discovery {
   const normalizedSource: Source = {
     url: raw?.source?.url ?? fallbackUrl,
-    kind: raw?.source?.type ?? "direct-link",
+    kind: normalizeSourceKind(raw?.source?.type) ?? "direct-item",
     note: raw?.extraction?.surrounding_text ?? undefined,
   };
   const extraction = {
@@ -110,7 +141,7 @@ function normalizeLoadedDiscovery(raw: any, fallbackUrl: string): Discovery {
     id: raw?.id ?? makeDiscoveryId(extraction.extracted_url, normalizedSource),
     discovered_at: raw?.discovered_at ?? null,
     source: {
-      type: normalizedSource.kind ?? "direct-link",
+      type: toDiscoverySourceType(normalizedSource.kind),
       name: raw?.source?.name ?? "Manual submission",
       url: raw?.source?.url ?? null,
       repository: raw?.source?.repository ?? null,

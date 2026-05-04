@@ -62,10 +62,10 @@ function makeGitHubItem(overrides: Partial<CatalogItem> = {}): CatalogItem {
 }
 
 describe("orderDiscoverableSources", () => {
-  it("prioritizes explicit awesome lists before unrelated direct links", () => {
+  it("prioritizes curated lists before unrelated direct sources", () => {
     const sources: Source[] = [
-      { url: "https://example.com/direct", kind: "direct-link" },
-      { url: "https://github.com/example/awesome-list", kind: "awesome-list" },
+      { url: "https://example.com/direct", kind: "direct-item" },
+      { url: "https://github.com/example/awesome-list", kind: "curated-list" },
       { url: "https://example.com/docs", kind: "docs-page" },
     ];
 
@@ -80,8 +80,8 @@ describe("orderDiscoverableSources", () => {
 describe("selectDiscoverSources", () => {
   it("matches normalized GitHub source urls from provenance-driven resync inputs", () => {
     const sources: Source[] = [
-      { url: "https://github.com/bradAGI/awesome-cli-coding-agents", kind: "awesome-list" },
-      { url: "https://example.com/inbox", kind: "direct-link" },
+      { url: "https://github.com/bradAGI/awesome-cli-coding-agents", kind: "curated-list" },
+      { url: "https://example.com/inbox", kind: "direct-item" },
     ];
 
     const selected = selectDiscoverSources(sources, new Set(["https://github.com/bradagi/awesome-cli-coding-agents"]));
