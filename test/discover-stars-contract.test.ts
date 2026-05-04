@@ -1,14 +1,17 @@
+import * as fs from "node:fs";
+import * as os from "node:os";
+import * as path from "node:path";
 import { describe, expect, it } from "vitest";
 import {
   orderDiscoverableSources,
 } from "../scripts/catalog/discovery.js";
-import { selectDiscoverSources } from "../scripts/catalog/discover.js";
+import { loadDiscoveryCandidates, saveDiscoveryCandidates, selectDiscoverSources } from "../scripts/catalog/discover.js";
 import {
   refreshItemStars,
   runStars,
   selectStarRefreshTargets,
 } from "../scripts/catalog/stars.js";
-import type { CatalogItem, Source } from "../scripts/catalog/types.js"
+import type { CatalogItem, DiscoveryCandidate, Source } from "../scripts/catalog/types.js";
 
 function makeGitHubItem(overrides: Partial<CatalogItem> = {}): CatalogItem {
   return {
@@ -86,6 +89,75 @@ describe("selectDiscoverSources", () => {
 
     const selected = selectDiscoverSources(sources, new Set(["https://github.com/bradagi/awesome-cli-coding-agents"]));
     expect(selected.map((source) => source.url)).toEqual(["https://github.com/bradAGI/awesome-cli-coding-agents"]);
+  });
+});
+
+describe("discovery candidate cache", () => {
+  it("round-trips candidates without touching durable catalog items", () => {
+    const root = fs.mkdtempSync(path.join(os.tmpdir(), "aarh-discover-candidates-"));
+    const cachePath = path.join(root, ".cache", "discover", "candidates.json");
+    const candidates: DiscoveryCandidate[] = [
+      {
+        target_url: "https://github.com/example/tool",
+        source: { url: "https://github.com/example/list", kind: "curated-list", note: "CLI tools" },
+        extraction: {
+          mode: "parsed",
+          section_path: ["CLI"],
+          anchor_text: "Tool",
+          extracted_url: "https://github.com/example/tool",
+          surrounding_text: "- [Tool](https://github.com/example/tool)",
+          confidence: "high",
+        },
+      },
+    ];
+
+    try {
+      saveDiscoveryCandidates(candidates, cachePath);
+      expect(loadDiscoveryCandidates(cachePath)).toEqual(candidates);
+      expect(fs.existsSync(path.join(root, "catalog", "items"))).toBe(false);
+    } finally {
+      fs.rmSync(root, { recursive: true, force: true });
+    }
+  });
+
+  it("normalizes legacy cached source kinds on load", () => {
+    const root = fs.mkdtempSync(path.join(os.tmpdir(), "aarh-discover-candidates-legacy-"));
+    const cachePath = path.join(root, ".cache", "discover", "candidates.json");
+
+    try {
+      fs.mkdirSync(path.dirname(cachePath), { recursive: true });
+      fs.writeFileSync(cachePath, JSON.stringify([
+        {
+          target_url: "https://github.com/example/tool/",
+          source: { url: "https://github.com/example/awesome", kind: "awesome-list" },
+          extraction: {
+            mode: "parsed",
+            section_path: ["CLI"],
+            anchor_text: "Tool",
+            extracted_url: "https://github.com/example/tool/",
+            surrounding_text: null,
+            confidence: "high",
+          },
+        },
+      ], null, 2));
+
+      expect(loadDiscoveryCandidates(cachePath)).toEqual([
+        {
+          target_url: "https://github.com/example/tool",
+          source: { url: "https://github.com/example/awesome", kind: "curated-list" },
+          extraction: {
+            mode: "parsed",
+            section_path: ["CLI"],
+            anchor_text: "Tool",
+            extracted_url: "https://github.com/example/tool",
+            surrounding_text: null,
+            confidence: "high",
+          },
+        },
+      ]);
+    } finally {
+      fs.rmSync(root, { recursive: true, force: true });
+    }
   });
 });
 

@@ -19,3 +19,4 @@ export const CACHE_DIR = path.join(REPO_ROOT, ".cache");
 export const README_CACHE_DIR = path.join(CACHE_DIR, "readmes", "github");
 export const SOURCE_LIST_CACHE_DIR = path.join(CACHE_DIR, "source-lists");
 export const WEBSITE_LINK_CACHE_DIR = path.join(CACHE_DIR, "linked-sites");
+export const DISCOVERY_CANDIDATES_PATH = path.join(CACHE_DIR, "discover", "candidates.json");

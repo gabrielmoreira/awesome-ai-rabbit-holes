@@ -1,19 +1,22 @@
-import { mapWithConcurrency } from "../support/async.ts"
-import { parseGitHubUrl } from "../support/github.ts"
-import { buildProgressHeartbeat, shouldEmitProgressHeartbeat } from "../support/progress.ts"
+import * as fs from "node:fs";
+import { writeTextFileIfChanged } from "../support/files.ts";
+import { mapWithConcurrency } from "../support/async.ts";
+import { parseGitHubUrl } from "../support/github.ts";
+import { DISCOVERY_CANDIDATES_PATH } from "../support/paths.ts";
+import { buildProgressHeartbeat, shouldEmitProgressHeartbeat } from "../support/progress.ts";
 import { discoverCandidates,
 orderDiscoverableSources,
 resolveSourceListNewItemLimit,
-selectSourceListDiscoveryCandidates, } from "./discovery.ts"
-import { makeItemId, normalizeSourceCoverageUrl } from "./core.ts";
+selectSourceListDiscoveryCandidates, } from "./discovery.ts";
+import { makeItemId, normalizeSourceCoverageUrl, normalizeSourceKind } from "./core.ts";
 
-import { loadCatalogItems, loadSources, saveCatalogItem } from "./data.ts"
-import { loadSettings } from "./settings.ts"
+import { loadCatalogItems, loadSources, saveCatalogItem } from "./data.ts";
+import { loadSettings } from "./settings.ts";
 import { loadSourceListDiscoveryCandidates,
 materializeSourceListMetadata,
 resolveCanonicalCatalogUrl,
-shouldSkipDiscoveredUrl, } from "./source-lists.ts"
-import type { CatalogItem, DiscoveryCandidate, Source } from "./types.ts"
+shouldSkipDiscoveredUrl, } from "./source-lists.ts";
+import type { CatalogItem, DiscoveryCandidate, Source } from "./types.ts";
 
 export function resolveDirectDiscoveryConcurrency(env: NodeJS.ProcessEnv = process.env): number {
   return loadSettings({}, env).concurrency.site;
@@ -27,6 +30,68 @@ function resolveDiscoverBudgetMs(env: NodeJS.ProcessEnv = process.env): number |
   }
   const settings = loadSettings({}, env);
   return settings.budgets.discover_minutes > 0 ? settings.budgets.discover_minutes * 60_000 : null;
+}
+
+function normalizeDiscoveryCandidate(raw: unknown): DiscoveryCandidate | null {
+  if (!raw || typeof raw !== "object") return null;
+
+  const targetUrl = typeof (raw as { target_url?: unknown }).target_url === "string"
+    ? normalizeSourceCoverageUrl((raw as { target_url: string }).target_url)
+    : null;
+  if (!targetUrl) return null;
+
+  const source = (raw as { source?: { url?: unknown; kind?: unknown; note?: unknown } }).source;
+  const extraction = (raw as { extraction?: { mode?: unknown; section_path?: unknown; anchor_text?: unknown; extracted_url?: unknown; surrounding_text?: unknown; confidence?: unknown } }).extraction;
+  const canonicalizationCause = (raw as { canonicalization_cause?: { type?: unknown; message?: unknown } }).canonicalization_cause;
+  const sectionPath = Array.isArray(extraction?.section_path)
+    ? extraction.section_path.filter((value): value is string => typeof value === "string")
+    : [];
+  const kind = normalizeSourceKind(typeof source?.kind === "string" ? source.kind : null);
+
+  return {
+    target_url: targetUrl,
+    source: {
+      url: typeof source?.url === "string" ? source.url : targetUrl,
+      ...(kind ? { kind } : {}),
+      ...(typeof source?.note === "string" ? { note: source.note } : {}),
+    },
+    extraction: {
+      mode: extraction?.mode === "parsed" || extraction?.mode === "scraped" ? extraction.mode : "direct",
+      section_path: sectionPath.length > 0 ? sectionPath : ["inbox"],
+      anchor_text: typeof extraction?.anchor_text === "string" ? extraction.anchor_text : targetUrl,
+      extracted_url: typeof extraction?.extracted_url === "string" ? normalizeSourceCoverageUrl(extraction.extracted_url) : targetUrl,
+      surrounding_text: typeof extraction?.surrounding_text === "string" ? extraction.surrounding_text : null,
+      confidence: extraction?.confidence === "low" || extraction?.confidence === "medium" ? extraction.confidence : "high",
+    },
+    ...(typeof canonicalizationCause?.type === "string" && typeof canonicalizationCause?.message === "string"
+      ? { canonicalization_cause: { type: canonicalizationCause.type, message: canonicalizationCause.message } }
+      : {}),
+  };
+}
+
+export function serializeDiscoveryCandidates(candidates: DiscoveryCandidate[]): string {
+  return `${JSON.stringify(candidates, null, 2)}\n`;
+}
+
+export function loadDiscoveryCandidates(cachePath: string = DISCOVERY_CANDIDATES_PATH): DiscoveryCandidate[] {
+  if (!fs.existsSync(cachePath)) return [];
+
+  try {
+    const raw = JSON.parse(fs.readFileSync(cachePath, "utf8"));
+    if (!Array.isArray(raw)) return [];
+    return raw
+      .map((candidate) => normalizeDiscoveryCandidate(candidate))
+      .filter((candidate): candidate is DiscoveryCandidate => candidate !== null);
+  } catch {
+    return [];
+  }
+}
+
+export function saveDiscoveryCandidates(
+  candidates: DiscoveryCandidate[],
+  cachePath: string = DISCOVERY_CANDIDATES_PATH,
+): void {
+  writeTextFileIfChanged(cachePath, serializeDiscoveryCandidates(candidates));
 }
 
 async function buildDirectDiscoveryCandidates(
@@ -65,7 +130,7 @@ async function buildDirectDiscoveryCandidates(
   return results.filter((candidate): candidate is DiscoveryCandidate => candidate !== null);
 }
 
-async function buildDiscoveryCandidates(
+export async function collectDiscoveryCandidates(
   sources: Source[],
   existingItems: CatalogItem[],
   token?: string,
@@ -111,13 +176,15 @@ export async function runDiscover(
   console.log(`Discovering catalog candidates from ${sources.length} source(s)...`);
 
   await materializeSourceListMetadata(sources, token);
-  const candidates = await buildDiscoveryCandidates(sources, existingItems, token, deadlineMs);
-  const { newItems, updatedItems } = discoverCandidates(candidates, existingItems);
+  const candidates = await collectDiscoveryCandidates(sources, existingItems, token, deadlineMs);
+  saveDiscoveryCandidates(candidates);
+  const persistedCandidates = loadDiscoveryCandidates();
+  const { newItems, updatedItems } = discoverCandidates(persistedCandidates, existingItems);
 
   for (const item of [...newItems, ...updatedItems]) saveCatalogItem(item);
 
   console.log(
-    `✅ Discovery complete: ${candidates.length} candidate(s), ${newItems.length} new item(s), ${updatedItems.length} provenance update(s).`,
+    `✅ Discovery complete: ${persistedCandidates.length} candidate(s), ${newItems.length} new item(s), ${updatedItems.length} provenance update(s).`,
   );
 }
 
