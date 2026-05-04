@@ -12,8 +12,12 @@ jobs:
     env:
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      COPILOT_GITHUB_TOKEN: ${{ secrets.COPILOT_GITHUB_TOKEN }}
-      COPILOT_MODEL: gpt-4o
+      OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
+      OLLAMA_API_KEY: ${{ secrets.OLLAMA_API_KEY }}
+      MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
       CATALOG_FAIL_ON_PROCESSING_ERRORS: "1"
       MISE_TASK_OUTPUT: prefix
       CATALOG_MAX_SOURCE_LIST_NEW_ITEMS: "10"
@@ -31,35 +35,31 @@ jobs:
         uses: actions/cache@v4
         with:
           path: .cache
-          key: ${{ runner.os }}-catalog-cache-v3-${{ hashFiles('sources/**/*.yml', 'scripts/**/*.ts', 'catalog/categories.yml', 'package-lock.json', '.mise.toml') }}-${{ github.run_id }}
+          key: ${{ runner.os }}-catalog-cache-v3-${{ hashFiles('config/**/*.yml', 'scripts/**/*.ts', 'package-lock.json', '.mise.toml') }}-${{ github.run_id }}
           restore-keys: |
-            ${{ runner.os }}-catalog-cache-v3-${{ hashFiles('sources/**/*.yml', 'scripts/**/*.ts', 'catalog/categories.yml', 'package-lock.json', '.mise.toml') }}-
+            ${{ runner.os }}-catalog-cache-v3-${{ hashFiles('config/**/*.yml', 'scripts/**/*.ts', 'package-lock.json', '.mise.toml') }}-
             ${{ runner.os }}-catalog-cache-v3-
 
       - name: Install project dependencies
         run: mise run catalog:deps
 
-      - name: Verify Copilot token is configured
-        run: |
-          if [ -z "${COPILOT_GITHUB_TOKEN}" ]; then
-            echo "::error::Missing COPILOT_GITHUB_TOKEN secret. Create a fine-grained PAT with the 'Copilot Requests' permission and store it as an Actions secret named COPILOT_GITHUB_TOKEN."
-            exit 1
-          fi
+      - name: Probe top pi-free fallback models
+        run: mise run pi:free:doctor --limit 3
 
       - name: Run tests
         run: mise run catalog:test
 
-      - name: Run bounded catalog update smoke test
-        run: mise run catalog:update
+      - name: Run bounded catalog sync smoke test
+        run: mise run catalog:sync
 
       - name: Validate catalog
         run: mise run catalog:validate
 
       - name: Report bounded update result
         run: |
-          if [ -n "$(git status --porcelain -- README.md docs/rabbit-holes site/catalog.json catalog/items)" ]; then
+          if [ -n "$(git status --porcelain -- README.md docs/rabbit-holes catalog/catalog.json catalog/items)" ]; then
             echo "Bounded smoke run produced catalog changes, which is expected while backlog remains."
-            git status --short -- README.md docs/rabbit-holes site/catalog.json catalog/items
+            git status --short -- README.md docs/rabbit-holes catalog/catalog.json catalog/items
           else
             echo "Bounded smoke run left the generated tree clean."
           fi

@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { buildProgressHeartbeat, shouldEmitProgressHeartbeat } from "../scripts/progress.js";
+import { buildProgressHeartbeat, shouldEmitProgressHeartbeat } from "../scripts/support/progress.js";
 
 describe("progress heartbeats", () => {
   it("formats indented heartbeat logs with throughput and eta", () => {

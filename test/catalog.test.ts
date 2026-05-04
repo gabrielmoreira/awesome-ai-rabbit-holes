@@ -18,9 +18,12 @@ import {
   normalizeGitHubUrl,
   buildNewCatalogItem,
   discover,
-  discoverCandidates,
+  reconcileDiscoveryCandidates,
   selectSourceListDiscoveryCandidates,
   resolveSourceListNewItemLimit,
+  resolveDirectDiscoveryConcurrency,
+  resolveAIInsightConcurrency,
+  resolveAIInsightBudgetMs,
   applyLifecycleRules,
   applyOverride,
   applyOverrides,
@@ -32,16 +35,18 @@ import {
   summarizeProcessingErrors,
   shouldFailOnProcessingErrors,
   normalizeSourceCoverageUrl,
-  validateScopeCoverage,
   buildReviewReport,
+  loadConfig,
+  loadSources,
+  loadCategories,
 } from "../scripts/catalog.js";
-import { parseAIInsightResponse, buildInsightPrompt } from "../scripts/ai.js";
+import { parseAIInsightResponse, buildInsightPrompt } from "../scripts/catalog/categorize-prompt.js"
 import {
   renderReadme,
   renderRabbitHolePage,
   renderSiteCatalog,
-} from "../scripts/render.js";
-import type { CatalogItem, Source, Override, Category, CatalogConfig } from "../scripts/types.js";
+} from "../scripts/catalog/render.js";
+import type { CatalogItem, Source, Override, Category, CatalogConfig } from "../scripts/catalog/types.js"
 
 // ─── Fixtures ────────────────────────────────────────────────────────────────
 
@@ -51,9 +56,34 @@ const DEFAULT_CONFIG: CatalogConfig = {
 };
 
 const CATEGORIES: Category[] = [
-  { id: "coding-agents", name: "Coding Agents", slug: "coding-agents", description: "Tools for coding with AI." },
-  { id: "mcp", name: "MCP Servers", slug: "mcp", description: "MCP tooling." },
-  { id: "awesome-awesomes", name: "Awesome Awesomes", slug: "awesome-awesomes", description: "Meta-lists." },
+  {
+    id: "coding-agents",
+    name: "Coding Agents",
+    slug: "coding-agents",
+    description: "Tools for coding with AI.",
+    prompt_instruction: "User-facing coding assistants that directly write or review code.",
+  },
+  {
+    id: "ai-frameworks",
+    name: "AI Frameworks and SDKs",
+    slug: "ai-frameworks",
+    description: "Code-first AI building blocks.",
+    prompt_instruction: "Frameworks, SDKs, and libraries that developers import or build on in code.",
+  },
+  {
+    id: "mcp",
+    name: "MCP Servers",
+    slug: "mcp",
+    description: "MCP tooling.",
+    prompt_instruction: "Model Context Protocol tooling.",
+  },
+  {
+    id: "awesome-awesomes",
+    name: "Awesome Awesomes",
+    slug: "awesome-awesomes",
+    description: "Meta-lists.",
+    prompt_instruction: "Curated directories and indexes rather than individual tools.",
+  },
 ];
 
 function makeItem(overrides: Partial<CatalogItem> = {}): CatalogItem {
@@ -134,20 +164,7 @@ describe("validate", () => {
       expect(errors).toHaveLength(0);
     });
 
-    it("scope coverage requires every in-scope example to be present in sources", () => {
-      const errors = validateScopeCoverage(
-        [{ url: "https://github.com/bradAGI/awesome-cli-coding-agents" }],
-        [
-          { url: "https://github.com/bradAGI/awesome-cli-coding-agents" },
-          { url: "https://github.com/punkpeye/awesome-mcp-servers" },
-        ]
-      );
-
-      expect(errors).toHaveLength(1);
-      expect(errors[0].message).toContain("punkpeye/awesome-mcp-servers");
-    });
-
-    it("scope coverage normalizes GitHub URL casing", () => {
+    it("normalizes GitHub source URLs conservatively", () => {
       expect(normalizeSourceCoverageUrl("https://github.com/BloopAI/Vibe-Kanban/")).toBe(
         "https://github.com/bloopai/vibe-kanban"
       );
@@ -228,15 +245,15 @@ describe("discover", () => {
     const sources: Source[] = [{ url: "https://github.com/BloopAI/vibe-kanban", note: "Kanban UI" }];
     const { newItems } = discover(sources, []);
     expect(newItems).toHaveLength(1);
-    expect(newItems[0].canonical_url).toBe("https://github.com/BloopAI/vibe-kanban");
+    expect(newItems[0].canonical_url).toBe("https://github.com/bloopai/vibe-kanban");
   });
 
   it("normalizes GitHub URL", () => {
     expect(normalizeGitHubUrl("https://github.com/BloopAI/vibe-kanban/")).toBe(
-      "https://github.com/BloopAI/vibe-kanban"
+      "https://github.com/bloopai/vibe-kanban"
     );
     expect(normalizeGitHubUrl("https://github.com/BloopAI/vibe-kanban.git")).toBe(
-      "https://github.com/BloopAI/vibe-kanban"
+      "https://github.com/bloopai/vibe-kanban"
     );
   });
 
@@ -272,7 +289,7 @@ describe("discover", () => {
   });
 
   it("creates items from parsed awesome-list entries", () => {
-    const { newItems } = discoverCandidates(
+    const { newItems } = reconcileDiscoveryCandidates(
       [
         {
           target_url: "https://github.com/example/playwright-mcp",
@@ -301,8 +318,80 @@ describe("discover", () => {
     expect(newItems[0].provenance.discoveries[0].extraction.mode).toBe("parsed");
   });
 
+  it("records canonicalization ambiguity on discover while keeping the website canonical", () => {
+    const { newItems } = reconcileDiscoveryCandidates(
+      [
+        {
+          target_url: "https://mystery-tool.dev",
+          source: {
+            url: "https://github.com/ai-for-developers/awesome-ai-coding-tools",
+            kind: "awesome-list",
+            note: "AI coding tools.",
+          },
+          extraction: {
+            mode: "parsed",
+            section_path: ["Editors"],
+            anchor_text: "Mystery Tool",
+            extracted_url: "https://mystery-tool.dev",
+            surrounding_text: "- [Mystery Tool](https://mystery-tool.dev/) - AI editor",
+            confidence: "high",
+          },
+          canonicalization_cause: {
+            type: "ambiguous_canonicalization",
+            message: "Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.",
+          },
+        },
+      ],
+      []
+    );
+
+    expect(newItems).toHaveLength(1);
+    expect(newItems[0].canonical_url).toBe("https://mystery-tool.dev");
+    expect(newItems[0].processing?.discover?.cause?.type).toBe("ambiguous_canonicalization");
+  });
+
+  it("reconciles canonical hints into existing durable items without resetting curation", () => {
+    const existing = makeItem({
+      id: "github__continuedev__continue",
+      name: "continue",
+      canonical_url: "https://github.com/continuedev/continue",
+      identity: { github_repo: "continuedev/continue" },
+      curation: { status: "included", reason: "kept", evidence: ["manual decision"] },
+    });
+
+    const { newItems, updatedItems } = reconcileDiscoveryCandidates(
+      [
+        {
+          target_url: "https://continue.dev",
+          canonical_url_hint: "https://github.com/continuedev/continue",
+          matched_category_ids: ["ai-ides-editors"],
+          source: {
+            url: "https://github.com/ai-for-developers/awesome-ai-coding-tools",
+            kind: "awesome-list",
+            note: "AI IDEs and editors.",
+          },
+          extraction: {
+            mode: "scraped",
+            section_path: ["Code Editors"],
+            anchor_text: "Continue",
+            extracted_url: "https://continue.dev",
+            surrounding_text: "- [Continue](https://continue.dev/) - Open-source AI coding assistant",
+            confidence: "high",
+          },
+        },
+      ],
+      [existing]
+    );
+
+    expect(newItems).toHaveLength(0);
+    expect(updatedItems).toHaveLength(1);
+    expect(updatedItems[0]?.canonical_url).toBe("https://github.com/continuedev/continue");
+    expect(updatedItems[0]?.curation.status).toBe("included");
+    expect(updatedItems[0]?.provenance.discoveries.at(-1)?.extraction.extracted_url).toBe("https://continue.dev");
+  });
+
   it("keeps multi-source discoveries on newly created items", () => {
-    const { newItems, updatedItems } = discoverCandidates(
+    const { newItems, updatedItems } = reconcileDiscoveryCandidates(
       [
         {
           target_url: "https://github.com/example/playwright-mcp",
@@ -471,6 +560,92 @@ describe("discover", () => {
     ]);
   });
 
+  it("prefers GitHub-backed source-list groups before website groups when support ties", () => {
+    const selected = selectSourceListDiscoveryCandidates(
+      [
+        {
+          target_url: "https://example.com/website-tool",
+          source: {
+            url: "https://github.com/list-a/awesome-tools",
+            kind: "awesome-list",
+          },
+          extraction: {
+            mode: "parsed",
+            section_path: ["Top"],
+            anchor_text: "website-tool",
+            extracted_url: "https://example.com/website-tool",
+            surrounding_text: null,
+            confidence: "high",
+          },
+        },
+        {
+          target_url: "https://github.com/example/github-tool",
+          source: {
+            url: "https://github.com/list-b/awesome-tools",
+            kind: "awesome-list",
+          },
+          extraction: {
+            mode: "parsed",
+            section_path: ["Top"],
+            anchor_text: "github-tool",
+            extracted_url: "https://github.com/example/github-tool",
+            surrounding_text: null,
+            confidence: "high",
+          },
+        },
+      ],
+      new Set<string>(),
+      [],
+      1
+    );
+
+    expect(selected).toHaveLength(1);
+    expect(selected[0]?.target_url).toBe("https://github.com/example/github-tool");
+  });
+
+
+  it("prefers GitHub-backed source lists when website targets tie on support", () => {
+    const selected = selectSourceListDiscoveryCandidates(
+      [
+        {
+          target_url: "https://alpha.example/tool",
+          source: {
+            url: "https://github.com/list-a/awesome-tools",
+            kind: "awesome-list",
+          },
+          extraction: {
+            mode: "parsed",
+            section_path: ["Top"],
+            anchor_text: "alpha-tool",
+            extracted_url: "https://alpha.example/tool",
+            surrounding_text: null,
+            confidence: "high",
+          },
+        },
+        {
+          target_url: "https://aardvark.example/tool",
+          source: {
+            url: "https://curated.example/list",
+            kind: "awesome-list",
+          },
+          extraction: {
+            mode: "parsed",
+            section_path: ["Top"],
+            anchor_text: "aardvark-tool",
+            extracted_url: "https://aardvark.example/tool",
+            surrounding_text: null,
+            confidence: "high",
+          },
+        },
+      ],
+      new Set<string>(),
+      [],
+      1
+    );
+
+    expect(selected).toHaveLength(1);
+    expect(selected[0]?.source.url).toBe("https://github.com/list-a/awesome-tools");
+  });
   it("skips fully discovered top groups before slicing the next batch", () => {
     const existing = makeItem({
       id: makeItemId("https://github.com/example/top-tool"),
@@ -781,6 +956,133 @@ describe("render", () => {
     expect(page.indexOf("high-star")).toBeLessThan(page.indexOf("low-star"));
   });
 
+  it("orders GitHub-backed items before website-only items and omits unknown star badges", () => {
+    const githubWithoutStars = makeItem({
+      id: "github__example__no-stars",
+      name: "github-no-stars",
+      canonical_url: "https://github.com/example/no-stars",
+      identity: { github_repo: "example/no-stars" },
+      placement: { primary_category: "coding-agents", section: null },
+      lifecycle: { status: "curated" },
+      metadata: { github: { ...makeItem().metadata.github, stars: null } },
+      insights: { ...makeItem().insights, summary: "GitHub item without stars yet." },
+    });
+    const websiteOnly = makeItem({
+      id: "example__com__tool",
+      kind: "website",
+      name: "website-only",
+      canonical_url: "https://example.com/tool",
+      identity: {},
+      placement: { primary_category: "coding-agents", section: null },
+      lifecycle: { status: "curated" },
+      metadata: { github: { ...makeItem().metadata.github, stars: null } },
+      insights: { ...makeItem().insights, summary: "Website-only item." },
+    });
+    const githubWithStars = makeItem({
+      id: "github__example__with-stars",
+      name: "github-with-stars",
+      canonical_url: "https://github.com/example/with-stars",
+      identity: { github_repo: "example/with-stars" },
+      placement: { primary_category: "coding-agents", section: null },
+      lifecycle: { status: "curated" },
+      metadata: { github: { ...makeItem().metadata.github, stars: 42 } },
+      insights: { ...makeItem().insights, summary: "GitHub item with stars." },
+    });
+
+    const page = renderRabbitHolePage(CATEGORIES[0], [websiteOnly, githubWithoutStars, githubWithStars]);
+
+    expect(page.indexOf("github-with-stars")).toBeLessThan(page.indexOf("github-no-stars"));
+    expect(page.indexOf("github-no-stars")).toBeLessThan(page.indexOf("website-only"));
+    expect(page).toContain("**[github-with-stars](https://github.com/example/with-stars)** `⭐ 42` GitHub item with stars.");
+    expect(page).toContain("**[github-no-stars](https://github.com/example/no-stars)** GitHub item without stars yet.");
+    expect(page).toContain("**[website-only](https://example.com/tool)** Website-only item.");
+    expect(page).not.toContain("⭐ ?");
+  });
+
+  it("keeps low-signal non-tool URLs out of rendered catalog output", () => {
+    const badUrls = [
+      "https://docs.google.com/forms/d/e/example/viewform",
+      "https://camo.githubusercontent.com/hash/68747470733a2f2f6578616d706c652e636f6d2f617263682e706e67",
+      "https://arxiv.org/abs/2303.17580",
+    ];
+    const items = badUrls.map((url, index) => makeItem({
+      id: `bad-${index}`,
+      kind: "website",
+      name: index === 0 ? "viewform" : index === 1 ? "image" : "2303.17580",
+      canonical_url: url,
+      identity: {},
+      placement: { primary_category: "coding-agents", section: null },
+      lifecycle: { status: "curated" },
+      insights: { ...makeItem().insights, summary: "Not an actual catalog tool." },
+    }));
+
+    const page = renderRabbitHolePage(CATEGORIES[0], items);
+    const catalog = renderSiteCatalog(items);
+
+    expect(page).not.toContain("viewform");
+    expect(page).not.toContain("2303.17580");
+    expect(page).not.toContain("camo.githubusercontent.com");
+    expect(catalog.items).toHaveLength(0);
+  });
+
+  it("uses source-list context instead of generic page slugs for display names", () => {
+    const item = makeItem({
+      id: "docs__proficientai__com__intro",
+      kind: "website",
+      name: "intro",
+      canonical_url: "https://docs.proficientai.com/intro",
+      identity: {},
+      placement: { primary_category: "coding-agents", section: null },
+      lifecycle: { status: "curated" },
+      insights: { ...makeItem().insights, summary: "Documentation page for a real tool." },
+      provenance: {
+        discoveries: [{
+          ...makeItem().provenance.discoveries[0],
+          extraction: {
+            ...makeItem().provenance.discoveries[0].extraction,
+            section_path: ["[Proficient AI](https://proficientai.com)", "Links"],
+            anchor_text: "Documentation",
+          },
+        }],
+      },
+    });
+
+    const page = renderRabbitHolePage(CATEGORIES[0], [item]);
+
+    expect(page).toContain("**[Proficient AI](https://docs.proficientai.com/intro)** Documentation page for a real tool.");
+    expect(page).not.toContain("**[intro]");
+  });
+
+  it("does not use generic source-list section labels as display names", () => {
+    const item = makeItem({
+      id: "docs__example__com__overview",
+      kind: "website",
+      name: "overview",
+      canonical_url: "https://docs.example.com/overview",
+      identity: {},
+      placement: { primary_category: "coding-agents", section: null },
+      lifecycle: { status: "curated" },
+      insights: { ...makeItem().insights, summary: "Documentation page for a real tool." },
+      provenance: {
+        discoveries: [{
+          ...makeItem().provenance.discoveries[0],
+          extraction: {
+            ...makeItem().provenance.discoveries[0].extraction,
+            section_path: ["Frameworks", "Docs"],
+            anchor_text: "Documentation",
+          },
+        }],
+      },
+    });
+
+    const page = renderRabbitHolePage(CATEGORIES[0], [item]);
+
+    expect(page).not.toContain("**[Frameworks]");
+    expect(page).not.toContain("**[Docs]");
+  });
+
+
+
   it("incubating items render separately as compact bullets", () => {
     const item = makeItem({
       name: "new-tool",
@@ -819,7 +1121,7 @@ describe("render", () => {
     expect(page).not.toContain("taxonomy starts as an empty box");
   });
 
-  it("site/catalog.json contains public item fields", () => {
+  it("catalog/catalog.json contains public item fields", () => {
     const item = makeItem();
     const catalog = renderSiteCatalog([item]);
     expect(catalog.items).toHaveLength(1);
@@ -1036,6 +1338,26 @@ describe("AI insights", () => {
     expect(prompt).toContain("built for developers");
   });
 
+  it("prompt uses YAML-driven category instructions instead of hardcoded category prose", () => {
+    const item = makeItem();
+    const prompt = buildInsightPrompt({
+      item,
+      categories: [
+        "coding-agents | Coding Agents | Tools that directly write or review code. | User-facing coding assistants that directly write or review code.",
+        "ai-frameworks | AI Frameworks and SDKs | Code-first AI building blocks. | Frameworks, SDKs, and libraries that developers import or build on in code.",
+        "mcp | MCP Servers and Tooling | Model Context Protocol infrastructure. | Model Context Protocol tooling.",
+      ],
+    });
+
+    expect(prompt).toContain("Use the available category list below as the source of truth.");
+    expect(prompt).toContain("prompt-specific fit instruction");
+    expect(prompt).toContain("coding-agents | Coding Agents | Tools that directly write or review code. | User-facing coding assistants that directly write or review code.");
+    expect(prompt).toContain("ai-frameworks | AI Frameworks and SDKs | Code-first AI building blocks. | Frameworks, SDKs, and libraries that developers import or build on in code.");
+    expect(prompt).toContain("mcp | MCP Servers and Tooling | Model Context Protocol infrastructure. | Model Context Protocol tooling.");
+    expect(prompt).not.toContain("- coding-agents: user-facing coding assistants");
+  });
+
+
   it("prompt omits README excerpt section when readme is missing", () => {
     const item = makeItem({
       metadata: {
@@ -1058,7 +1380,7 @@ describe("AI insights", () => {
 
   it("README excerpt is truncated near the budget with a visible marker", async () => {
     const { truncateReadmeForPrompt, README_EXCERPT_MAX_CHARS, README_TRUNCATION_MARKER } =
-      await import("../scripts/ai.js");
+      await import("../scripts/catalog/categorize-prompt.js");
     // Build a long README with section headings so the truncator can find a boundary.
     const sections: string[] = ["# Title\n\nIntro paragraph.\n"];
     for (let i = 0; i < 50; i++) {
@@ -1073,8 +1395,20 @@ describe("AI insights", () => {
     expect(truncated.startsWith("# Title")).toBe(true);
   });
 
+  it("README prompt context keeps at most the first 400 lines", async () => {
+    const { truncateReadmeForPrompt, README_TRUNCATION_MARKER } = await import("../scripts/catalog/categorize-prompt.js");
+    const longReadme = Array.from({ length: 450 }, (_, index) => `line ${index + 1}`).join("\n");
+
+    const truncated = truncateReadmeForPrompt(longReadme);
+
+    expect(truncated).toContain("line 400");
+    expect(truncated).not.toContain("line 401");
+    expect(truncated.endsWith(README_TRUNCATION_MARKER)).toBe(true);
+  });
+
+
   it("short README is returned unchanged by truncator", async () => {
-    const { truncateReadmeForPrompt } = await import("../scripts/ai.js");
+    const { truncateReadmeForPrompt } = await import("../scripts/catalog/categorize-prompt.js");
     const short = "# Title\n\nA short readme.";
     expect(truncateReadmeForPrompt(short)).toBe(short);
   });
@@ -1177,12 +1511,20 @@ describe("AI insight application", () => {
       name: "first",
       canonical_url: "https://github.com/example/first",
       identity: { github_repo: "example/first" },
+      metadata: {
+        github: { stars: 10, forks: 1, license: "MIT", archived: false, created_at: "2026-04-01T00:00:00Z", pushed_at: "2026-05-01T00:00:00Z", description: "first", homepage: null, topics: ["agent"], last_checked_at: "2026-05-01T00:00:00Z" },
+      },
+      processing: { discover: { status: "done", updated_at: "2026-05-01T00:00:00Z" }, stars: { status: "done", updated_at: "2026-05-01T00:00:00Z" }, categorize: { status: "pending", updated_at: null } },
     });
     const second = makeItem({
       id: "github__example__second",
       name: "second",
       canonical_url: "https://github.com/example/second",
       identity: { github_repo: "example/second" },
+      metadata: {
+        github: { stars: 11, forks: 1, license: "MIT", archived: false, created_at: "2026-04-01T00:00:00Z", pushed_at: "2026-05-01T00:00:00Z", description: "second", homepage: null, topics: ["agent"], last_checked_at: "2026-05-01T00:00:00Z" },
+      },
+      processing: { discover: { status: "done", updated_at: "2026-05-01T00:00:00Z" }, stars: { status: "done", updated_at: "2026-05-01T00:00:00Z" }, categorize: { status: "pending", updated_at: null } },
     });
 
     const saved: CatalogItem[] = [];
@@ -1211,13 +1553,121 @@ describe("AI insight application", () => {
       },
     });
 
-    expect(saved).toHaveLength(2);
+    expect(saved.map((item) => item.id)).toEqual([first.id]);
     expect(rendered).toBe(true);
     expect(result.aiUpdatedIds).toEqual([first.id]);
     expect(result.processingErrors).toEqual([
       { stage: "ai_insights", item_id: second.id, message: "boom" },
     ]);
     expect(result.finalItems.find((item) => item.id === second.id)?.insights.summary).toBeNull();
+  });
+
+  it("skips AI materialization for items blocked by an incomplete earlier phase", async () => {
+    const first = makeItem({
+      id: "github__example__first",
+      name: "first",
+      canonical_url: "https://github.com/example/first",
+      identity: { github_repo: "example/first" },
+      metadata: {
+        github: { stars: 10, forks: 1, license: "MIT", archived: false, created_at: "2026-04-01T00:00:00Z", pushed_at: "2026-05-01T00:00:00Z", description: "first", homepage: null, topics: ["agent"], last_checked_at: "2026-05-01T00:00:00Z" },
+      },
+      processing: { discover: { status: "done", updated_at: "2026-05-01T00:00:00Z" }, stars: { status: "done", updated_at: "2026-05-01T00:00:00Z" }, categorize: { status: "pending", updated_at: null } },
+    });
+    const second = makeItem({
+      id: "github__example__second",
+      name: "second",
+      canonical_url: "https://github.com/example/second",
+      identity: { github_repo: "example/second" },
+      metadata: {
+        github: { stars: 11, forks: 1, license: "MIT", archived: false, created_at: "2026-04-01T00:00:00Z", pushed_at: "2026-05-01T00:00:00Z", description: "second", homepage: null, topics: ["agent"], last_checked_at: "2026-05-01T00:00:00Z" },
+      },
+      processing: { discover: { status: "done", updated_at: "2026-05-01T00:00:00Z" }, stars: { status: "done", updated_at: "2026-05-01T00:00:00Z" }, categorize: { status: "pending", updated_at: null } },
+    });
+
+    const seen: string[] = [];
+    const result = await materializeCatalogState([first, second], CATEGORIES, [], {
+      blockedItemIds: new Set([second.id]),
+      enrichItem: async (item) => {
+        seen.push(item.id);
+        return {
+          ...item,
+          insights: {
+            ...item.insights,
+            summary: `summary for ${item.name}`,
+            why_it_matters: `why ${item.name}`,
+            mental_damage: `pain ${item.name}`,
+            tags: ["coding-agent"],
+            confidence: "high",
+          },
+          curation: {
+            status: "included",
+            reason: "Fits the catalog.",
+            evidence: ["Grounded test fixture."],
+          },
+        };
+      },
+      saveItem: () => {},
+      renderCatalog: () => {},
+    });
+
+    expect(seen).toEqual([first.id]);
+    expect(result.aiUpdatedIds).toEqual([first.id]);
+    expect(result.finalItems.find((item) => item.id === second.id)?.insights.summary).toBeNull();
+  });
+
+  it("materializes AI insights with bounded concurrency while preserving input order", async () => {
+    const items = [
+      makeItem({ id: "github__example__first", name: "first", canonical_url: "https://github.com/example/first", identity: { github_repo: "example/first" }, metadata: { github: { stars: 10, forks: 1, license: "MIT", archived: false, created_at: "2026-04-01T00:00:00Z", pushed_at: "2026-05-01T00:00:00Z", description: "first", homepage: null, topics: ["agent"], last_checked_at: "2026-05-01T00:00:00Z" } }, processing: { discover: { status: "done", updated_at: "2026-05-01T00:00:00Z" }, stars: { status: "done", updated_at: "2026-05-01T00:00:00Z" }, categorize: { status: "pending", updated_at: null } } }),
+      makeItem({ id: "github__example__second", name: "second", canonical_url: "https://github.com/example/second", identity: { github_repo: "example/second" }, metadata: { github: { stars: 11, forks: 1, license: "MIT", archived: false, created_at: "2026-04-01T00:00:00Z", pushed_at: "2026-05-01T00:00:00Z", description: "second", homepage: null, topics: ["agent"], last_checked_at: "2026-05-01T00:00:00Z" } }, processing: { discover: { status: "done", updated_at: "2026-05-01T00:00:00Z" }, stars: { status: "done", updated_at: "2026-05-01T00:00:00Z" }, categorize: { status: "pending", updated_at: null } } }),
+      makeItem({ id: "github__example__third", name: "third", canonical_url: "https://github.com/example/third", identity: { github_repo: "example/third" }, metadata: { github: { stars: 12, forks: 1, license: "MIT", archived: false, created_at: "2026-04-01T00:00:00Z", pushed_at: "2026-05-01T00:00:00Z", description: "third", homepage: null, topics: ["agent"], last_checked_at: "2026-05-01T00:00:00Z" } }, processing: { discover: { status: "done", updated_at: "2026-05-01T00:00:00Z" }, stars: { status: "done", updated_at: "2026-05-01T00:00:00Z" }, categorize: { status: "pending", updated_at: null } } }),
+    ];
+
+    const started: string[] = [];
+    const resolvers = new Map<string, () => void>();
+    const previous = process.env.CATALOG_LLM_CONCURRENCY;
+    process.env.CATALOG_LLM_CONCURRENCY = "2";
+
+    try {
+      const work = materializeCatalogState(items, CATEGORIES, [], {
+        enrichItem: async (item) => {
+          started.push(item.id);
+          await new Promise<void>((resolve) => {
+            resolvers.set(item.id, resolve);
+          });
+          return {
+            ...item,
+            insights: {
+              ...item.insights,
+              summary: `summary for ${item.name}`,
+            },
+          };
+        },
+        saveItem: () => {},
+        renderCatalog: () => {},
+      });
+
+      await Promise.resolve();
+      expect(started).toEqual([items[0].id, items[1].id]);
+
+      resolvers.get(items[0].id)?.();
+      for (let attempt = 0; attempt < 10 && started.length < 3; attempt += 1) {
+        await Promise.resolve();
+      }
+      expect(started).toEqual([items[0].id, items[1].id, items[2].id]);
+
+      resolvers.get(items[1].id)?.();
+      resolvers.get(items[2].id)?.();
+
+      const result = await work;
+      expect(result.aiUpdatedIds).toEqual(items.map((item) => item.id));
+      expect(result.finalItems.map((item) => item.id)).toEqual(items.map((item) => item.id));
+    } finally {
+      if (previous === undefined) {
+        delete process.env.CATALOG_LLM_CONCURRENCY;
+      } else {
+        process.env.CATALOG_LLM_CONCURRENCY = previous;
+      }
+      }
   });
 
   it("summarizes processing errors by stage", () => {
@@ -1234,8 +1684,8 @@ describe("AI insight application", () => {
   });
 
 
-  it("fails on processing errors by default unless explicitly disabled", () => {
-    expect(shouldFailOnProcessingErrors({} as NodeJS.ProcessEnv)).toBe(true);
+  it("fails on processing errors only when explicitly enabled", () => {
+    expect(shouldFailOnProcessingErrors({} as NodeJS.ProcessEnv)).toBe(false);
     expect(
       shouldFailOnProcessingErrors({ CATALOG_FAIL_ON_PROCESSING_ERRORS: "true" } as NodeJS.ProcessEnv)
     ).toBe(true);
@@ -1259,7 +1709,22 @@ describe("AI insight application", () => {
       resolveSourceListNewItemLimit({ CATALOG_MAX_SOURCE_LIST_NEW_ITEMS: "garbage" } as NodeJS.ProcessEnv)
     ).toBeNull();
   });
-  it("enrichWithAIInsights skips Copilot when the item already has insights", async () => {
+
+  it("parses an optional categorization time budget from env", () => {
+    expect(resolveAIInsightBudgetMs({} as NodeJS.ProcessEnv)).toBe(60 * 60_000);
+    expect(resolveAIInsightBudgetMs({ CATALOG_CATEGORIZE_BUDGET_MS: "60000" } as NodeJS.ProcessEnv)).toBe(60000);
+    expect(resolveAIInsightBudgetMs({ CATALOG_CATEGORIZE_BUDGET_MINUTES: "1.5" } as NodeJS.ProcessEnv)).toBe(90000);
+    expect(resolveAIInsightBudgetMs({ CATALOG_CATEGORIZE_BUDGET_MS: "garbage" } as NodeJS.ProcessEnv)).toBe(60 * 60_000);
+  });
+
+  it("parses optional concurrency env overrides", () => {
+    expect(resolveDirectDiscoveryConcurrency({} as NodeJS.ProcessEnv)).toBe(2);
+    expect(resolveDirectDiscoveryConcurrency({ CATALOG_SITE_CONCURRENCY: "4" } as NodeJS.ProcessEnv)).toBe(4);
+    expect(resolveAIInsightConcurrency({} as NodeJS.ProcessEnv)).toBe(2);
+    expect(resolveAIInsightConcurrency({ CATALOG_LLM_CONCURRENCY: "2" } as NodeJS.ProcessEnv)).toBe(2);
+    expect(() => resolveAIInsightConcurrency({ CATALOG_LLM_CONCURRENCY: "garbage" } as NodeJS.ProcessEnv)).toThrow();
+  });
+  it("enrichWithAIInsights skips AI execution when the item already has insights", async () => {
     const item = makeItem({
       insights: {
         summary: "A tool.",
@@ -1280,7 +1745,7 @@ describe("AI insight application", () => {
     expect(result).toBe(item);
   });
 
-  it("enrichWithAIInsights uses Copilot output to populate summary and placement", async () => {
+  it("enrichWithAIInsights uses AI output to populate summary and placement", async () => {
     const item = makeItem();
     const result = await enrichWithAIInsights(
       item,
@@ -1305,35 +1770,18 @@ describe("AI insight application", () => {
     expect(result.placement.primary_category).toBe("coding-agents");
   });
 
-  it("retries once when the AI returns malformed JSON before succeeding", async () => {
+  it("fails after one malformed LLM response instead of retrying", async () => {
     const item = makeItem();
-    const responses = [
-      "{\"summary\":\"broken\"",
-      JSON.stringify({
-        summary: "A retryable catalog result.",
-        why_it_matters: "It recovers from occasional malformed model output.",
-        mental_damage: "Now even your parser has to keep the model honest.",
-        tags: ["coding-agent", "catalog"],
-        should_include: true,
-        primary_category: "coding-agents",
-        decision_reason: "Fits developer tooling and belongs in coding agents.",
-        decision_evidence: ["Retry succeeded with valid structured output."],
-        category_candidates: ["coding-agents"],
-        confidence: "high",
-      }),
-    ];
     let calls = 0;
 
-    const result = await enrichWithAIInsights(item, CATEGORIES, async () => {
-      const response = responses[calls];
-      calls += 1;
-      if (!response) throw new Error("ran out of stubbed responses");
-      return response;
-    });
+    await expect(
+      enrichWithAIInsights(item, CATEGORIES, async () => {
+        calls += 1;
+        return "{\"summary\":\"broken\"";
+      })
+    ).rejects.toThrow(/Catalog LLM categorization failed/i);
 
-    expect(calls).toBe(2);
-    expect(result.insights.summary).toBe("A retryable catalog result.");
-    expect(result.placement.primary_category).toBe("coding-agents");
+    expect(calls).toBe(1);
   });
 
 
@@ -1415,6 +1863,51 @@ describe("enrichWithGitHub readme integration", () => {
     // Clean up cache file written under repo root.
     try { fs.unlinkSync(cachePath); } catch { /* best effort */ }
   });
+
+  it("retries public README fetches without auth after a 403", async () => {
+    const { fetchGitHubReadmeResult } = await import("../scripts/support/github.js");
+    const calls: Array<{ url: string; auth: string | null }> = [];
+    globalThis.fetch = (async (input: RequestInfo | URL, init?: RequestInit) => {
+      const url = typeof input === "string" ? input : input.toString();
+      const headers = new Headers(init?.headers);
+      calls.push({ url, auth: headers.get("Authorization") });
+
+      if (calls.length === 1) {
+        return {
+          ok: false,
+          status: 403,
+          statusText: "Forbidden",
+          arrayBuffer: async () => new ArrayBuffer(0),
+        } as Response;
+      }
+
+      const body = "# Awesome CLI Coding Agents\n";
+      const bytes = Buffer.from(body, "utf8");
+      return {
+        ok: true,
+        status: 200,
+        statusText: "OK",
+        arrayBuffer: async () =>
+          bytes.buffer.slice(bytes.byteOffset, bytes.byteOffset + bytes.byteLength),
+      } as Response;
+    }) as typeof fetch;
+
+    const result = await fetchGitHubReadmeResult("testowner", "test-repo", "token-123");
+
+    expect(calls).toEqual([
+      {
+        url: "https://api.github.com/repos/testowner/test-repo/readme",
+        auth: "token token-123",
+      },
+      {
+        url: "https://api.github.com/repos/testowner/test-repo/readme",
+        auth: null,
+      },
+    ]);
+    expect(result.status).toBe(200);
+    expect(result.body).toBe("# Awesome CLI Coding Agents\n");
+  });
+
 
   it("README 404 does not break enrichment; readme provenance stays null", async () => {
     const { enrichWithGitHub } = await import("../scripts/catalog.js");
@@ -1507,7 +2000,7 @@ describe("enrichWithGitHub readme integration", () => {
   });
 
   it("README cap is enforced in bytes, not UTF-16 code units", async () => {
-    const { fetchGitHubReadme, README_MAX_BYTES } = await import("../scripts/github.js");
+    const { fetchGitHubReadme, README_MAX_BYTES } = await import("../scripts/support/github.js");
     // Multi-byte UTF-8 char (3 bytes in UTF-8, 1 code unit). A char-length
     // check would let ~3× the budget through; a byte check must not.
     const heavyChar = "✓";
@@ -1702,8 +2195,8 @@ describe("renderReadme: all category links stay visible", () => {
 
 
 describe("Context Engineering page wording", () => {
-  it("category description carries the 'tokens' joke (from catalog/categories.yml)", () => {
-    const yamlPath = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..", "catalog", "categories.yml");
+  it("category description carries the 'tokens' joke (from config/categories.yml)", () => {
+    const yamlPath = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..", "config", "categories.yml");
     const yaml = fs.readFileSync(yamlPath, "utf8");
     // Pull out the context-engineering entry's description block.
     const m = yaml.match(/- id: context-engineering[\s\S]*?description: >([\s\S]*?)(?:\n- id:|\n*$)/);
@@ -1728,7 +2221,7 @@ describe("Context Engineering page wording", () => {
   });
 });
 
-// ─── Review fixes: external source provenance + override validation in cmdUpdate ───
+// ─── Review fixes: external source provenance + override validation ───
 
 import { buildDiscovery } from "../scripts/catalog.js";
 
@@ -1772,10 +2265,9 @@ describe("buildDiscovery preserves external source provenance", () => {
   });
 });
 
-describe("cmdUpdate validates overrides before applying", () => {
-  // We don't run cmdUpdate end-to-end here (it touches the real filesystem and
-  // GitHub); we verify the validation primitives are wired up to catch the
-  // exact malformed shapes cmdUpdate would otherwise pass to applyOverrides.
+describe("override validation stays strict before applying patches", () => {
+  // We exercise the validation primitives directly so malformed override shapes
+  // fail before any command attempts to apply them.
   it("flags an override with a non-object patch (would otherwise throw at runtime)", () => {
     const item = makeItem();
     const errs = validateOverride(
@@ -1798,7 +2290,7 @@ describe("cmdUpdate validates overrides before applying", () => {
   });
 });
 
-describe("cmdRefresh honors metadata_refresh_days", () => {
+describe("star refresh honors metadata_refresh_days", () => {
   // We test the helper directly so we don't have to mock GitHub.
   it("shouldRefreshMetadata returns false when last_checked_at is within window", async () => {
     const { shouldRefreshMetadata } = await import("../scripts/catalog.js");
@@ -1823,7 +2315,7 @@ describe("cmdRefresh honors metadata_refresh_days", () => {
 
 describe("parseGitHubUrl: query string and fragment handling", () => {
   it("strips ?query and #fragment so they do not bleed into the repo name", async () => {
-    const { parseGitHubUrl } = await import("../scripts/github.js");
+    const { parseGitHubUrl } = await import("../scripts/support/github.js");
     expect(parseGitHubUrl("https://github.com/org/repo?tab=readme")).toEqual({
       owner: "org",
       repo: "repo",
@@ -1843,7 +2335,7 @@ describe("parseGitHubUrl: query string and fragment handling", () => {
   });
 
   it("rejects non-github hosts and malformed URLs", async () => {
-    const { parseGitHubUrl } = await import("../scripts/github.js");
+    const { parseGitHubUrl } = await import("../scripts/support/github.js");
     expect(parseGitHubUrl("https://gitlab.com/org/repo")).toBeNull();
     expect(parseGitHubUrl("not a url")).toBeNull();
     expect(parseGitHubUrl("https://github.com/org")).toBeNull();
@@ -1851,21 +2343,41 @@ describe("parseGitHubUrl: query string and fragment handling", () => {
 });
 
 describe("loadSources: shape validation", () => {
-  it("returns [] when sources/inbox.yml is not a YAML list", async () => {
+  it("returns [] when config/sources.yml is not a YAML list", async () => {
     // loadSources reads via readYamlIfExists; assert the validator-style
     // guard against a malformed YAML mapping at the root.
-    const tmp = fs.mkdtempSync(path.join(os.tmpdir(), "inbox-shape-"));
+    const tmp = fs.mkdtempSync(path.join(os.tmpdir(), "sources-shape-"));
     try {
-      const sourcesDir = path.join(tmp, "sources");
-      fs.mkdirSync(sourcesDir);
-      fs.writeFileSync(path.join(sourcesDir, "inbox.yml"), "not_a_list: true\n");
-      const { readYamlIfExists } = await import("../scripts/yaml.js");
-      const raw = readYamlIfExists<unknown>(path.join(sourcesDir, "inbox.yml"), null);
+      const sourcesPath = path.join(tmp, "config", "sources.yml");
+      fs.mkdirSync(path.dirname(sourcesPath), { recursive: true });
+      fs.writeFileSync(sourcesPath, "not_a_list: true\n");
+      const { readYamlIfExists } = await import("../scripts/support/yaml.js");
+      const raw = readYamlIfExists<unknown>(sourcesPath, null);
       const result = Array.isArray(raw) ? raw : [];
       expect(result).toEqual([]);
     } finally {
       fs.rmSync(tmp, { recursive: true, force: true });
     }
+  });
+});
+
+describe("source kind normalization", () => {
+  it("normalizes current source config to direct-item and curated-list", () => {
+    const sources = loadSources();
+
+    expect(sources.some((source) => source.url === "https://github.com/BloopAI/vibe-kanban" && source.kind === "direct-item")).toBe(true);
+    expect(sources.some((source) => source.kind === "curated-list")).toBe(true);
+    expect(sources.some((source) => source.kind === "direct-link" || source.kind === "awesome-list")).toBe(false);
+  });
+
+  it("validateSources rejects unknown source kinds", () => {
+    const errors = validateSources([{ url: "https://example.com/tool", kind: "made-up" as any }]);
+    expect(errors).toEqual([
+      {
+        path: "sources[0]",
+        message: "Source has invalid kind: made-up",
+      },
+    ]);
   });
 });
 
@@ -1896,5 +2408,18 @@ describe("validateOverride: nested subpatch shape", () => {
       [item]
     );
     expect(errors.some((e) => /placement/.test(e.message))).toBe(true);
+  });
+});
+// ─── Runtime config flattening tests ─────────────────────────────────────────
+describe("runtime config flattening", () => {
+  it("reads flat config roots from the simplified paths", () => {
+    const cfg = loadConfig();
+    const sources = loadSources();
+    const cats = loadCategories();
+
+    expect(cfg).toHaveProperty("promotion");
+    expect(cfg).toHaveProperty("github");
+    expect(Array.isArray(sources)).toBe(true);
+    expect(Array.isArray(cats)).toBe(true);
   });
 });

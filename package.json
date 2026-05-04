@@ -8,8 +8,8 @@
   },
   "scripts": {
     "catalog": "node scripts/catalog.ts",
-    "test": "vitest run",
-    "test:watch": "vitest"
+    "test": "vitest run --dir test",
+    "test:watch": "vitest --dir test"
   },
   "devDependencies": {
     "@types/js-yaml": "^4.0.9",

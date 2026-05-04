@@ -1,0 +1,65 @@
+# Sources queue — add URLs here to be cataloged by the pipeline.
+# Do not edit README.md, docs/rabbit-holes/*.md, or catalog/catalog.json directly.
+# Run: mise run catalog:sync
+
+
+- url: https://github.com/BloopAI/vibe-kanban
+  note: Kanban UI for coding agents.
+
+# End-to-end test source for the initial pipeline run. It is both a catalog item
+# and a source-list input now, so keep it marked as a curated-list.
+- url: https://github.com/bradAGI/awesome-cli-coding-agents
+  kind: curated-list
+  note: Awesome list of CLI coding agents.
+
+- url: https://github.com/e2b-dev/awesome-ai-agents
+  kind: curated-list
+  note: AI agents broadly, with a developer-tooling lean.
+
+- url: https://github.com/punkpeye/awesome-mcp-servers
+  kind: curated-list
+  note: MCP servers.
+
+- url: https://github.com/wong2/awesome-mcp-servers
+  kind: curated-list
+  note: MCP servers.
+
+- url: https://github.com/MobinX/awesome-mcp-list
+  kind: curated-list
+  note: MCP list.
+
+- url: https://github.com/vivy-yi/awesome-agent-orchestration
+  kind: curated-list
+  note: Agent orchestration.
+
+- url: https://github.com/github/awesome-copilot
+  kind: curated-list
+  note: GitHub Copilot resources.
+
+- url: https://github.com/PatrickJS/awesome-cursorrules
+  kind: curated-list
+  note: Cursor rules — AI IDE configuration.
+
+- url: https://github.com/janhq/awesome-local-ai
+  kind: curated-list
+  note: Local AI runtimes.
+
+- url: https://github.com/tensorchord/Awesome-LLMOps
+  kind: curated-list
+  note: LLMOps — DevOps for LLMs and agents.
+
+- url: https://github.com/Shubhamsaboo/awesome-llm-apps
+  kind: curated-list
+  note: LLM applications, often agentic.
+
+- url: https://github.com/kyrolabs/awesome-langchain
+  kind: curated-list
+  note: LangChain ecosystem — agent / RAG tooling.
+
+- url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+  kind: curated-list
+  note: AI coding tools.
+
+- url: https://github.com/kaushikb11/awesome-llm-agents
+  kind: curated-list
+  note: LLM agents.

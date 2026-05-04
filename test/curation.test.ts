@@ -6,9 +6,9 @@ import {
   needsAIInsights,
   validateOverride,
 } from "../scripts/catalog.js";
-import { buildInsightPrompt, parseAIInsightResponse } from "../scripts/ai.js";
-import { renderRabbitHolePage, renderSiteCatalog } from "../scripts/render.js";
-import type { CatalogItem, Category, Override } from "../scripts/types.js";
+import { buildInsightPrompt, parseAIInsightResponse } from "../scripts/catalog/categorize-prompt.js"
+import { renderRabbitHolePage, renderSiteCatalog } from "../scripts/catalog/render.js";
+import type { CatalogItem, Category, Override } from "../scripts/catalog/types.js"
 
 const CATEGORIES: Category[] = [
   { id: "coding-agents", name: "Coding Agents", slug: "coding-agents", description: "Tools for coding with AI." },
@@ -335,7 +335,7 @@ describe("public rendering", () => {
     expect(page).not.toContain("excluded-tool");
   });
 
-  it("keeps excluded items out of site/catalog.json", () => {
+  it("keeps excluded items out of catalog/catalog.json", () => {
     const catalog = renderSiteCatalog([
       makeItem({ id: "github__included__tool", canonical_url: "https://github.com/included/tool" }),
       makeItem({

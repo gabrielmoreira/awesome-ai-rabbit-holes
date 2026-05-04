@@ -1,0 +1,16 @@
+promotion:
+  incubating_until_stars: 150
+
+github:
+  metadata_refresh_days: 7
+
+budgets:
+  discover_minutes: 10
+  stars_minutes: 10
+  categorize_minutes: 60
+
+concurrency:
+  github: 4
+  site: 2
+  llm: 2
+  model_probe: 1

@@ -1,15 +1,38 @@
 import { describe, expect, it } from "vitest";
-import type { CatalogItem } from "../scripts/types.js";
-import {
-  buildSourceContextLines,
-  buildSourceListDiscoveryCandidates,
-  buildSourceListMetadata,
-  chooseRelevantGitHubRepoCandidate,
-  extractSourceListEntries,
-  finalizeSourceListMetadata,
-  shouldRefreshSourceListMetadata,
-  sourceListMetadataPath,
-} from "../scripts/source-lists.js";
+import type { CatalogItem, Category } from "../scripts/catalog/types.js";
+import { buildSourceContextLines,
+buildSourceListDiscoveryCandidates,
+buildSourceListMetadata,
+chooseRelevantGitHubRepoCandidate,
+extractSourceListEntries,
+finalizeSourceListMetadata,
+shouldRefreshSourceListMetadata,
+sourceListMetadataPath,
+stripHtmlToTextExcerpt, } from "../scripts/catalog/source-lists.js";
+
+const SOURCE_LIST_CATEGORIES: Category[] = [
+  {
+    id: "mcp",
+    name: "MCP Servers and Tooling",
+    slug: "mcp",
+    description: "Model Context Protocol servers, clients, and tooling.",
+    prompt_instruction: "Model Context Protocol servers, clients, registries, and tooling.",
+  },
+  {
+    id: "coding-agents",
+    name: "Coding Agents",
+    slug: "coding-agents",
+    description: "AI coding assistants and autonomous programming agents.",
+    prompt_instruction: "User-facing coding assistants and autonomous coding agents that directly write or review code.",
+  },
+  {
+    id: "ai-ides-editors",
+    name: "AI IDEs and Editors",
+    slug: "ai-ides-editors",
+    description: "Editors and IDEs built around AI assistance.",
+    prompt_instruction: "IDEs and editors whose primary product surface is an AI-native development environment.",
+  },
+];
 
 describe("source list extraction", () => {
   it("extracts entries with section paths, deduplicates repeated links, and skips this repo", () => {
@@ -41,7 +64,6 @@ Curated MCP servers.
         surrounding_text: "- [Playwright MCP](https://github.com/example/playwright-mcp) - browser automation",
         page_title: null,
         page_description: null,
-        page_excerpt: null,
         github_repo_url: null,
       },
       {
@@ -53,11 +75,52 @@ Curated MCP servers.
         surrounding_text: "- [DB Tool](https://github.com/example/db-tool)",
         page_title: null,
         page_description: null,
-        page_excerpt: null,
         github_repo_url: null,
       },
     ]);
   });
+
+  it("treats linked headings as primary catalog entries and ignores their secondary links", () => {
+    const readme = `# Awesome AI Agents
+
+## [Taxy AI](https://github.com/TaxyAI/browser-extension)
+Browser automation with GPT.
+
+### Links
+- [Waitlist](https://docs.google.com/forms/d/e/example/viewform)
+![Image](https://camo.githubusercontent.com/hash/68747470733a2f2f6578616d706c652e636f6d2f696d6167652e706e67)
+`;
+
+    expect(extractSourceListEntries(readme, "https://github.com/e2b-dev/awesome-ai-agents")).toEqual([
+      {
+        extracted_url: "https://github.com/taxyai/browser-extension",
+        normalized_url: "https://github.com/taxyai/browser-extension",
+        canonical_url: "https://github.com/taxyai/browser-extension",
+        anchor_text: "Taxy AI",
+        section_path: ["Taxy AI"],
+        surrounding_text: "## [Taxy AI](https://github.com/TaxyAI/browser-extension)",
+        page_title: null,
+        page_description: null,
+        github_repo_url: null,
+      },
+    ]);
+  });
+
+  it("skips low-signal source-list URLs that are not catalog tools", () => {
+    const readme = `# Directory
+
+- [Waitlist](https://docs.google.com/forms/d/e/example/viewform)
+- [Paper](https://arxiv.org/abs/2303.17580)
+- [Screenshot](https://assets.example.com/logo.png)
+- ![Architecture](https://camo.githubusercontent.com/hash/68747470733a2f2f6578616d706c652e636f6d2f617263682e706e67)
+- [Actual Tool](https://github.com/example/tool)
+`;
+
+    expect(extractSourceListEntries(readme, "https://github.com/example/list").map((entry) => entry.canonical_url)).toEqual([
+      "https://github.com/example/tool",
+    ]);
+  });
+
 
   it("builds deterministic source-list metadata and keeps the list purpose", async () => {
     const metadata = await buildSourceListMetadata({
@@ -104,7 +167,6 @@ Curated MCP servers.
         surrounding_text: "- [Continue](https://continue.dev/) - Open-source AI coding assistant",
         page_title: "Continue",
         page_description: "Open-source AI tool for code completion and chat.",
-        page_excerpt: "Continue brings open-source AI coding assistance to editors.",
         github_repo_url: "https://github.com/continuedev/continue",
       },
     ]);
@@ -140,16 +202,116 @@ Curated MCP servers.
         surrounding_text: "- [Cursor](https://www.cursor.sh/) - AI code editor",
         page_title: "Cursor",
         page_description: "AI-first code editor.",
-        page_excerpt: "Cursor is an AI-first code editor.",
         github_repo_url: null,
       },
     ]);
   });
 
+  it("keeps website canonical and carries canonicalization ambiguity forward when no confident repo can be selected", async () => {
+    const source = {
+      url: "https://github.com/ai-for-developers/awesome-ai-coding-tools",
+      kind: "curated-list" as const,
+      note: "AI coding tools.",
+    };
+    const metadata = await buildSourceListMetadata(
+      {
+        sourceUrl: source.url,
+        sourceName: "awesome-ai-coding-tools",
+        fetchedAt: "2026-05-01T00:00:00Z",
+        repoDescription: "A curated list of AI coding tools.",
+        readme: "# Awesome AI Coding Tools\n\n## Editors\n- [Mystery Tool](https://mystery-tool.dev/) - AI editor",
+      },
+      async (url) => ({
+        fetched_at: "2026-05-01T00:00:00Z",
+        final_url: url,
+        canonical_url: url,
+        github_repo_url: null,
+        canonicalization_cause: {
+          type: "ambiguous_canonicalization",
+          message: "Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.",
+        },
+        title: "Mystery Tool",
+        description: "AI editor.",
+        excerpt: "Mystery Tool helps with coding.",
+      })
+    );
+
+    expect(metadata.entries[0]?.canonicalization_cause).toEqual({
+      type: "ambiguous_canonicalization",
+      message: "Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.",
+    });
+    expect(buildSourceListDiscoveryCandidates(source, metadata, SOURCE_LIST_CATEGORIES)[0]?.canonicalization_cause?.type).toBe("ambiguous_canonicalization");
+    expect(buildSourceListDiscoveryCandidates(source, metadata, SOURCE_LIST_CATEGORIES)[0]?.target_url).toBe("https://mystery-tool.dev");
+    expect(buildSourceListDiscoveryCandidates(source, metadata, SOURCE_LIST_CATEGORIES)[0]?.matched_category_ids).toContain("coding-agents");
+  });
+
+  it("keeps extracted website urls in candidates while carrying canonical hints", async () => {
+    const source = {
+      url: "https://github.com/ai-for-developers/awesome-ai-coding-tools",
+      kind: "curated-list" as const,
+      note: "AI IDEs and editors.",
+    };
+    const metadata = await buildSourceListMetadata(
+      {
+        sourceUrl: source.url,
+        sourceName: "awesome-ai-coding-tools",
+        fetchedAt: "2026-05-01T00:00:00Z",
+        repoDescription: "A curated list of AI coding tools.",
+        readme: "# Awesome AI Coding Tools\n\n## Code Editors\n- [Continue](https://continue.dev/) - Open-source AI coding assistant",
+      },
+      async (url) => ({
+        fetched_at: "2026-05-01T00:00:00Z",
+        final_url: url,
+        canonical_url: url,
+        github_repo_url: "https://github.com/continuedev/continue",
+        title: "Continue",
+        description: "Open-source AI tool for code completion and chat.",
+        excerpt: "Continue brings open-source AI coding assistance to editors.",
+      })
+    );
+
+    const candidates = buildSourceListDiscoveryCandidates(source, metadata, SOURCE_LIST_CATEGORIES);
+
+    expect(candidates).toHaveLength(1);
+    expect(candidates[0]).toMatchObject({
+      target_url: "https://continue.dev",
+      canonical_url_hint: "https://github.com/continuedev/continue",
+    });
+    expect(candidates[0]?.matched_category_ids).toContain("ai-ides-editors");
+  });
+
+  it("filters curated-list entries without category evidence", () => {
+    const source = {
+      url: "https://github.com/example/list",
+      kind: "curated-list" as const,
+      note: "Generic resources.",
+    };
+    const metadata = {
+      source_url: source.url,
+      source_name: "example-list",
+      fetched_at: "2026-05-01T00:00:00Z",
+      purpose: "Generic links and references.",
+      entries: [
+        {
+          extracted_url: "https://github.com/example/tool",
+          normalized_url: "https://github.com/example/tool",
+          canonical_url: "https://github.com/example/tool",
+          anchor_text: "Tool",
+          section_path: ["Resources"],
+          surrounding_text: "- [Tool](https://github.com/example/tool)",
+          page_title: null,
+          page_description: null,
+          github_repo_url: null,
+        },
+      ],
+    };
+
+    expect(buildSourceListDiscoveryCandidates(source, metadata, SOURCE_LIST_CATEGORIES)).toEqual([]);
+  });
   it("turns source-list metadata into discovery candidates for downstream catalog items", async () => {
     const source = {
       url: "https://github.com/punkpeye/awesome-mcp-servers",
-      kind: "awesome-list" as const,
+      kind: "curated-list" as const,
       note: "MCP servers.",
     };
     const metadata = await buildSourceListMetadata({
@@ -160,7 +322,7 @@ Curated MCP servers.
       readme: "# Awesome MCP Servers\n\n## Browser Automation\n- [Playwright MCP](https://github.com/example/playwright-mcp) - browser automation",
     });
 
-    expect(buildSourceListDiscoveryCandidates(source, metadata)).toEqual([
+    expect(buildSourceListDiscoveryCandidates(source, metadata, SOURCE_LIST_CATEGORIES)).toEqual([
       {
         target_url: "https://github.com/example/playwright-mcp",
         source,
@@ -172,6 +334,7 @@ Curated MCP servers.
           surrounding_text: "- [Playwright MCP](https://github.com/example/playwright-mcp) - browser automation",
           confidence: "high",
         },
+        matched_category_ids: ["mcp"],
       },
     ]);
   });
@@ -193,6 +356,20 @@ Curated MCP servers.
     ).toBe(true);
     expect(shouldRefreshSourceListMetadata(null, new Date("2026-05-01T00:00:00Z"))).toBe(true);
   });
+
+  it("strips website HTML into at most the first 400 text lines for prompt context", () => {
+    const html = `<html><head><title>Ignored</title><script>hidden()</script></head><body>${Array.from(
+      { length: 450 },
+      (_, index) => `<p>visible line ${index + 1}</p>`,
+    ).join("\n")}</body></html>`;
+
+    const excerpt = stripHtmlToTextExcerpt(html);
+
+    expect(excerpt).toContain("visible line 400");
+    expect(excerpt).not.toContain("visible line 401");
+    expect(excerpt).not.toContain("hidden()");
+  });
+
 
   it("uses deterministic cache paths for GitHub source lists", () => {
     expect(sourceListMetadataPath("https://github.com/punkpeye/awesome-mcp-servers")).toMatch(
@@ -216,7 +393,6 @@ Curated MCP servers.
           surrounding_text: null,
           page_title: null,
           page_description: null,
-          page_excerpt: null,
           github_repo_url: null,
         },
       ],
@@ -235,8 +411,12 @@ Curated MCP servers.
     ).toEqual(refreshed);
     expect(
       finalizeSourceListMetadata(null, refreshed, { preserveCachedEntries: true })
-    ).toEqual(refreshed);
-  });
+    ).toBeNull();
+    expect(
+      finalizeSourceListMetadata(null, { ...cached, fetched_at: refreshed.fetched_at }, { preserveCachedEntries: true })
+    ).toEqual({ ...cached, fetched_at: refreshed.fetched_at });
+});
+
 });
 
 describe("GitHub canonical choice heuristics", () => {
@@ -293,7 +473,6 @@ describe("source list context lines", () => {
             surrounding_text: null,
             page_title: "Continue",
             page_description: "Open-source AI tool for code completion and chat.",
-            page_excerpt: null,
             github_repo_url: "https://github.com/continuedev/continue",
           },
         ],
@@ -313,7 +492,6 @@ describe("source list context lines", () => {
             surrounding_text: null,
             page_title: null,
             page_description: null,
-            page_excerpt: null,
             github_repo_url: null,
           },
         ],
