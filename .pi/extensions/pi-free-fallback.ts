@@ -4,11 +4,19 @@ import {
   PI_FREE_MODEL_CYCLE,
   parsePiFreeModelSpec,
   resolvePiFreeOrderedModels,
+  resolvePiFreeStartupCandidates,
   resolvePiFreeStartupModel,
   type PiFreeEnvValues,
 } from "../../scripts/pi/models.ts";
 
-export { PI_FREE_DEFAULT_MODEL, PI_FREE_MODEL_CYCLE, parsePiFreeModelSpec, resolvePiFreeOrderedModels, resolvePiFreeStartupModel };
+export {
+  PI_FREE_DEFAULT_MODEL,
+  PI_FREE_MODEL_CYCLE,
+  parsePiFreeModelSpec,
+  resolvePiFreeOrderedModels,
+  resolvePiFreeStartupCandidates,
+  resolvePiFreeStartupModel,
+};
 export type { PiFreeEnvValues };
 
 const PI_FREE_RETRYABLE_ERROR_PATTERN =
@@ -77,15 +85,15 @@ export function buildPiFreeRetryInstruction(
 }
 
 export default function piFreeFallbackExtension(pi: ExtensionAPI) {
-  const orderedModels = resolvePiFreeOrderedModels();
+  const fallbackModels = resolvePiFreeStartupCandidates();
 
   pi.on("session_start", async (_event, ctx) => {
     if (!shouldAutoSelectPiFreeStartupModel()) return;
 
     const currentModelKey = ctx.model ? `${ctx.model.provider}/${ctx.model.id}` : null;
-    if (currentModelKey && orderedModels.includes(currentModelKey)) return;
+    if (currentModelKey && fallbackModels[0] === currentModelKey) return;
 
-    const startupModelKey = pickPiFreeFallbackCandidate(orderedModels, null, (candidateKey) => {
+    const startupModelKey = pickPiFreeFallbackCandidate(fallbackModels, null, (candidateKey) => {
       const parsedCandidate = parsePiFreeModelSpec(candidateKey);
       if (!parsedCandidate) return false;
       return Boolean(ctx.modelRegistry.find(parsedCandidate.provider, parsedCandidate.id));
@@ -101,7 +109,7 @@ export default function piFreeFallbackExtension(pi: ExtensionAPI) {
     await pi.setModel(startupModel);
   });
 
-  if (orderedModels.length < 2) return;
+  if (fallbackModels.length < 2) return;
 
   let lastRetriedTurnIndex: number | null = null;
 
@@ -115,7 +123,7 @@ export default function piFreeFallbackExtension(pi: ExtensionAPI) {
     let attemptedFromModelKey = currentModelKey;
 
     while (true) {
-      const nextModelKey = pickPiFreeFallbackCandidate(orderedModels, attemptedFromModelKey, (candidateKey) => {
+      const nextModelKey = pickPiFreeFallbackCandidate(fallbackModels, attemptedFromModelKey, (candidateKey) => {
         const parsedCandidate = parsePiFreeModelSpec(candidateKey);
         if (!parsedCandidate) return false;
         return Boolean(ctx.modelRegistry.find(parsedCandidate.provider, parsedCandidate.id));

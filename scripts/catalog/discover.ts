@@ -10,7 +10,7 @@ import {
   resolveSourceListNewItemLimit,
   selectSourceListDiscoveryCandidates,
 } from "./discovery.ts";
-import { makeItemId, normalizeSourceCoverageUrl, normalizeSourceKind } from "./core.ts";
+import { isCuratedListSource, makeItemId, normalizeSourceCoverageUrl, normalizeSourceKind } from "./core.ts";
 
 import { loadCatalogItems, loadSources, saveCatalogItem } from "./data.ts";
 import { loadSettings } from "./settings.ts";
@@ -104,6 +104,18 @@ export function saveDiscoveryCandidates(
   writeTextFileIfChanged(cachePath, serializeDiscoveryCandidates(candidates));
 }
 
+export function rankDirectDiscoveryCandidates(candidates: DiscoveryCandidate[]): DiscoveryCandidate[] {
+  return candidates
+    .map((candidate, index) => ({ candidate, index }))
+    .sort(
+      (left, right) =>
+        Number(isCuratedListSource(right.candidate.source)) - Number(isCuratedListSource(left.candidate.source)) ||
+        Number(Boolean(parseGitHubUrl(right.candidate.target_url))) - Number(Boolean(parseGitHubUrl(left.candidate.target_url))) ||
+        left.index - right.index
+    )
+    .map(({ candidate }) => candidate);
+}
+
 async function buildDirectDiscoveryCandidates(
   sources: Source[],
   token?: string,
@@ -137,7 +149,7 @@ async function buildDirectDiscoveryCandidates(
     return candidate;
   });
 
-  return results.filter((candidate): candidate is DiscoveryCandidate => candidate !== null);
+  return rankDirectDiscoveryCandidates(results.filter((candidate): candidate is DiscoveryCandidate => candidate !== null));
 }
 
 export async function collectDiscoveryCandidates(

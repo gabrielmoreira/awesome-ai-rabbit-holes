@@ -519,6 +519,20 @@ export function resolvePiFreeOrderedModels(envValues: PiFreeEnvValues = process.
   });
 }
 
+
+export function resolvePiFreeStartupCandidates(envValues: PiFreeEnvValues = process.env): string[] {
+  const orderedModels = resolvePiFreeOrderedModels(envValues);
+  const ranked = loadPiFreeRankedModelsFile();
+  const rankedResultsBySpec = new Map(
+    (ranked && Array.isArray(ranked.results) ? ranked.results : []).map((result) => [result.spec, result.ok] as const)
+  );
+  if (rankedResultsBySpec.size === 0) return orderedModels;
+
+  const successful = orderedModels.filter((spec) => rankedResultsBySpec.get(spec) === true);
+  const unprobed = orderedModels.filter((spec) => !rankedResultsBySpec.has(spec));
+  const failed = orderedModels.filter((spec) => rankedResultsBySpec.get(spec) === false);
+  return [...successful, ...unprobed, ...failed];
+}
 export function resolvePiFreeStartupModel(envValues: PiFreeEnvValues = process.env): string | null {
-  return resolvePiFreeOrderedModels(envValues)[0] ?? null;
+  return resolvePiFreeStartupCandidates(envValues)[0] ?? null;
 }

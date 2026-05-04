@@ -8,6 +8,7 @@ import {
   parsePiFreeModelSpec,
   pickPiFreeFallbackCandidate,
   resolvePiFreeOrderedModels,
+  resolvePiFreeStartupCandidates,
   resolvePiFreeStartupModel,
   shouldAutoSelectPiFreeStartupModel,
 } from "../.pi/extensions/pi-free-fallback.js";
@@ -26,13 +27,17 @@ type PiFreeRankedModelResult, } from "../scripts/pi/models.js"
 let previousRankedModelsFile: string | null = null;
 let previousAllModelsFile: string | null = null;
 
+function readUtf8IfPresent(filePath: string): string | null {
+  try {
+    return fs.existsSync(filePath) ? fs.readFileSync(filePath, "utf8") : null;
+  } catch {
+    return null;
+  }
+}
+
 beforeEach(() => {
-  previousRankedModelsFile = fs.existsSync(PI_FREE_RANKED_MODELS_PATH)
-    ? fs.readFileSync(PI_FREE_RANKED_MODELS_PATH, "utf8")
-    : null;
-  previousAllModelsFile = fs.existsSync(PI_FREE_ALL_MODELS_PATH)
-    ? fs.readFileSync(PI_FREE_ALL_MODELS_PATH, "utf8")
-    : null;
+  previousRankedModelsFile = readUtf8IfPresent(PI_FREE_RANKED_MODELS_PATH);
+  previousAllModelsFile = readUtf8IfPresent(PI_FREE_ALL_MODELS_PATH);
 });
 
 afterEach(() => {
@@ -149,6 +154,66 @@ describe("pi-free fallback extension", () => {
       "openrouter/google/gemma-4-31b-it:free",
       "openrouter/openai/gpt-oss-120b:free",
     ]);
+  });
+
+  it("starts from the first usable ranked model without rewriting the fallback order", () => {
+    fs.mkdirSync(PI_FREE_CATALOG_DIR, { recursive: true });
+    fs.writeFileSync(
+      PI_FREE_RANKED_MODELS_PATH,
+      JSON.stringify(
+        {
+          generated_at: "2026-05-02T12:00:00.000Z",
+          prompt: "Reply with exactly HI.",
+          timeout_ms: 60000,
+          providers_considered: ["openrouter"],
+          ordered_models: [
+            "openrouter/example/failing:free",
+            "openrouter/example/working:free",
+          ],
+          results: [
+            {
+              spec: "openrouter/example/failing:free",
+              provider: "openrouter",
+              model_id: "example/failing:free",
+              ok: false,
+              elapsed_ms: 1000,
+              error_type: "provider_error",
+              error_message: "500 upstream",
+              output_excerpt: null,
+              intelligence_record_id: null,
+              artificial_analysis_intelligence_index: null,
+            },
+            {
+              spec: "openrouter/example/working:free",
+              provider: "openrouter",
+              model_id: "example/working:free",
+              ok: true,
+              elapsed_ms: 900,
+              error_type: null,
+              error_message: null,
+              output_excerpt: "HI",
+              intelligence_record_id: null,
+              artificial_analysis_intelligence_index: null,
+            },
+          ],
+        },
+        null,
+        2
+      ) + "\n",
+      "utf8"
+    );
+
+    expect(resolvePiFreeOrderedModels({ OPENROUTER_API_KEY: "or-key" })).toEqual([
+      "openrouter/example/failing:free",
+      "openrouter/example/working:free",
+    ]);
+    expect(resolvePiFreeStartupCandidates({ OPENROUTER_API_KEY: "or-key" })).toEqual([
+      "openrouter/example/working:free",
+      "openrouter/example/failing:free",
+    ]);
+    expect(resolvePiFreeStartupModel({ OPENROUTER_API_KEY: "or-key" })).toBe(
+      "openrouter/example/working:free"
+    );
   });
 
   it("parses provider-scoped model ids", () => {

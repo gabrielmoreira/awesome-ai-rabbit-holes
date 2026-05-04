@@ -3,9 +3,14 @@ import * as os from "node:os";
 import * as path from "node:path";
 import { describe, expect, it } from "vitest";
 import {
+  rankDirectDiscoveryCandidates,
+  loadDiscoveryCandidates,
+  saveDiscoveryCandidates,
+  selectDiscoverSources,
+} from "../scripts/catalog/discover.js";
+import {
   orderDiscoverableSources,
 } from "../scripts/catalog/discovery.js";
-import { loadDiscoveryCandidates, saveDiscoveryCandidates, selectDiscoverSources } from "../scripts/catalog/discover.js";
 import {
   refreshItemStars,
   runStars,
@@ -76,6 +81,58 @@ describe("orderDiscoverableSources", () => {
       "https://github.com/example/awesome-list",
       "https://example.com/direct",
       "https://example.com/docs",
+    ]);
+  });
+
+  it("prioritizes GitHub links within curated and direct source buckets", () => {
+    const sources: Source[] = [
+      { url: "https://example.com/curated", kind: "curated-list" },
+      { url: "https://example.com/direct", kind: "direct-item" },
+      { url: "https://github.com/example/awesome-curated", kind: "curated-list" },
+      { url: "https://github.com/example/direct-tool", kind: "direct-item" },
+    ];
+
+    expect(orderDiscoverableSources(sources).map((source) => source.url)).toEqual([
+      "https://github.com/example/awesome-curated",
+      "https://example.com/curated",
+      "https://github.com/example/direct-tool",
+      "https://example.com/direct",
+    ]);
+  });
+});
+
+describe("rankDirectDiscoveryCandidates", () => {
+  it("prioritizes direct sources whose canonical target resolves to GitHub", () => {
+    const ranked = rankDirectDiscoveryCandidates([
+      {
+        target_url: "https://example.com/website-tool",
+        source: { url: "https://example.com/website-tool", kind: "direct-item" },
+        extraction: {
+          mode: "direct",
+          section_path: ["inbox"],
+          anchor_text: "https://example.com/website-tool",
+          extracted_url: "https://example.com/website-tool",
+          surrounding_text: null,
+          confidence: "high",
+        },
+      },
+      {
+        target_url: "https://github.com/example/resolved-tool",
+        source: { url: "https://vendor.example/resolved-tool", kind: "direct-item" },
+        extraction: {
+          mode: "scraped",
+          section_path: ["inbox"],
+          anchor_text: "https://vendor.example/resolved-tool",
+          extracted_url: "https://vendor.example/resolved-tool",
+          surrounding_text: null,
+          confidence: "high",
+        },
+      },
+    ]);
+
+    expect(ranked.map((candidate) => candidate.target_url)).toEqual([
+      "https://github.com/example/resolved-tool",
+      "https://example.com/website-tool",
     ]);
   });
 });

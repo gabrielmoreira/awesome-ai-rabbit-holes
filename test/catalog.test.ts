@@ -560,6 +560,92 @@ describe("discover", () => {
     ]);
   });
 
+  it("prefers GitHub-backed source-list groups before website groups when support ties", () => {
+    const selected = selectSourceListDiscoveryCandidates(
+      [
+        {
+          target_url: "https://example.com/website-tool",
+          source: {
+            url: "https://github.com/list-a/awesome-tools",
+            kind: "awesome-list",
+          },
+          extraction: {
+            mode: "parsed",
+            section_path: ["Top"],
+            anchor_text: "website-tool",
+            extracted_url: "https://example.com/website-tool",
+            surrounding_text: null,
+            confidence: "high",
+          },
+        },
+        {
+          target_url: "https://github.com/example/github-tool",
+          source: {
+            url: "https://github.com/list-b/awesome-tools",
+            kind: "awesome-list",
+          },
+          extraction: {
+            mode: "parsed",
+            section_path: ["Top"],
+            anchor_text: "github-tool",
+            extracted_url: "https://github.com/example/github-tool",
+            surrounding_text: null,
+            confidence: "high",
+          },
+        },
+      ],
+      new Set<string>(),
+      [],
+      1
+    );
+
+    expect(selected).toHaveLength(1);
+    expect(selected[0]?.target_url).toBe("https://github.com/example/github-tool");
+  });
+
+
+  it("prefers GitHub-backed source lists when website targets tie on support", () => {
+    const selected = selectSourceListDiscoveryCandidates(
+      [
+        {
+          target_url: "https://alpha.example/tool",
+          source: {
+            url: "https://github.com/list-a/awesome-tools",
+            kind: "awesome-list",
+          },
+          extraction: {
+            mode: "parsed",
+            section_path: ["Top"],
+            anchor_text: "alpha-tool",
+            extracted_url: "https://alpha.example/tool",
+            surrounding_text: null,
+            confidence: "high",
+          },
+        },
+        {
+          target_url: "https://aardvark.example/tool",
+          source: {
+            url: "https://curated.example/list",
+            kind: "awesome-list",
+          },
+          extraction: {
+            mode: "parsed",
+            section_path: ["Top"],
+            anchor_text: "aardvark-tool",
+            extracted_url: "https://aardvark.example/tool",
+            surrounding_text: null,
+            confidence: "high",
+          },
+        },
+      ],
+      new Set<string>(),
+      [],
+      1
+    );
+
+    expect(selected).toHaveLength(1);
+    expect(selected[0]?.source.url).toBe("https://github.com/list-a/awesome-tools");
+  });
   it("skips fully discovered top groups before slicing the next batch", () => {
     const existing = makeItem({
       id: makeItemId("https://github.com/example/top-tool"),

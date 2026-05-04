@@ -108,12 +108,17 @@ type DiscoveryGroup = {
   targetUrl: string;
   itemId: string;
   support: number;
+  githubBackedSource: boolean;
   candidates: DiscoveryCandidate[];
 };
 
 function resolveCandidateCatalogUrl(candidate: DiscoveryCandidate): string {
   return normalizeDiscoveryTarget(candidate.canonical_url_hint ?? candidate.target_url);
 }
+function hasGitHubPriorityUrl(url: string): boolean {
+  return Boolean(parseGitHubUrl(url));
+}
+
 function rankDiscoveryGroups(
   candidates: DiscoveryCandidate[],
   blockedItemIds: Set<string>,
@@ -142,6 +147,7 @@ function rankDiscoveryGroups(
       targetUrl,
       itemId: makeItemId(targetUrl),
       support: new Set(group.map((candidate) => normalizeDiscoveryTarget(candidate.source.url))).size,
+      githubBackedSource: group.some((candidate) => hasGitHubPriorityUrl(candidate.source.url)),
       candidates: group,
     }))
     .filter((group) => {
@@ -151,15 +157,26 @@ function rankDiscoveryGroups(
       const existingDiscoveryIds = new Set(existing.provenance.discoveries.map((discovery) => discovery.id));
       return group.candidates.some((candidate) => !existingDiscoveryIds.has(buildDiscoveryId(group.targetUrl, candidate.source)));
     })
-    .sort((a, b) => b.support - a.support || a.targetUrl.localeCompare(b.targetUrl));
+    .sort(
+      (a, b) =>
+        b.support - a.support ||
+        Number(hasGitHubPriorityUrl(b.targetUrl)) - Number(hasGitHubPriorityUrl(a.targetUrl)) ||
+        Number(b.githubBackedSource) - Number(a.githubBackedSource) ||
+        a.targetUrl.localeCompare(b.targetUrl)
+    );
 }
 
 export function orderDiscoverableSources(sources: Source[]): Source[] {
-  const discoverableSources = sources.filter((source) => !shouldSkipDiscoveredUrl(source.url));
-  return [
-    ...discoverableSources.filter((source) => isCuratedListSource(source)),
-    ...discoverableSources.filter((source) => !isCuratedListSource(source)),
-  ];
+  return sources
+    .filter((source) => !shouldSkipDiscoveredUrl(source.url))
+    .map((source, index) => ({ source, index }))
+    .sort(
+      (left, right) =>
+        Number(isCuratedListSource(right.source)) - Number(isCuratedListSource(left.source)) ||
+        Number(hasGitHubPriorityUrl(right.source.url)) - Number(hasGitHubPriorityUrl(left.source.url)) ||
+        left.index - right.index
+    )
+    .map(({ source }) => source);
 }
 
 export function resolveSourceListNewItemLimit(env: NodeJS.ProcessEnv = process.env): number | null {
@@ -181,8 +198,7 @@ export function selectSourceListDiscoveryCandidates(
 }
 
 function buildDirectDiscoveryCandidatesSync(sources: Source[]): DiscoveryCandidate[] {
-  return sources
-    .filter((source) => !shouldSkipDiscoveredUrl(source.url))
+  return orderDiscoverableSources(sources)
     .map((source) => {
       const extractedUrl = normalizeDiscoveryTarget(source.url);
       return {
