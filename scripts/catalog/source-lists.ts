@@ -788,9 +788,14 @@ export function finalizeSourceListMetadata(
   cached: SourceListMetadata | null,
   refreshed: SourceListMetadata,
   options: { preserveCachedEntries: boolean }
- ): SourceListMetadata {
-  if (options.preserveCachedEntries && cached && cached.entries.length > 0) {
-    return { ...cached, fetched_at: refreshed.fetched_at ?? cached.fetched_at };
+ ): SourceListMetadata | null {
+  if (options.preserveCachedEntries) {
+    if (cached && cached.entries.length > 0) {
+      return { ...cached, fetched_at: refreshed.fetched_at ?? cached.fetched_at };
+    }
+    if (!cached && refreshed.entries.length === 0) {
+      return null;
+    }
   }
   return refreshed;
 }
@@ -909,6 +914,7 @@ export async function materializeSourceListMetadata(
       ),
       { preserveCachedEntries: shouldPreserveSourceListCacheOnReadmeFailure(readmeResult.status) }
     );
+    if (!metadata) continue;
     writeSourceListMetadata(metadata);
   }
 }

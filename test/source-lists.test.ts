@@ -411,8 +411,12 @@ Browser automation with GPT.
     ).toEqual(refreshed);
     expect(
       finalizeSourceListMetadata(null, refreshed, { preserveCachedEntries: true })
-    ).toEqual(refreshed);
-  });
+    ).toBeNull();
+    expect(
+      finalizeSourceListMetadata(null, { ...cached, fetched_at: refreshed.fetched_at }, { preserveCachedEntries: true })
+    ).toEqual({ ...cached, fetched_at: refreshed.fetched_at });
+});
+
 });
 
 describe("GitHub canonical choice heuristics", () => {
