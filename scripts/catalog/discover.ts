@@ -4,10 +4,12 @@ import { mapWithConcurrency } from "../support/async.ts";
 import { parseGitHubUrl } from "../support/github.ts";
 import { DISCOVERY_CANDIDATES_PATH } from "../support/paths.ts";
 import { buildProgressHeartbeat, shouldEmitProgressHeartbeat } from "../support/progress.ts";
-import { discoverCandidates,
-orderDiscoverableSources,
-resolveSourceListNewItemLimit,
-selectSourceListDiscoveryCandidates, } from "./discovery.ts";
+import {
+  orderDiscoverableSources,
+  reconcileDiscoveryCandidates,
+  resolveSourceListNewItemLimit,
+  selectSourceListDiscoveryCandidates,
+} from "./discovery.ts";
 import { makeItemId, normalizeSourceCoverageUrl, normalizeSourceKind } from "./core.ts";
 
 import { loadCatalogItems, loadSources, saveCatalogItem } from "./data.ts";
@@ -187,7 +189,7 @@ export async function runDiscover(
   const candidates = await collectDiscoveryCandidates(sources, existingItems, token, deadlineMs);
   saveDiscoveryCandidates(candidates);
   const persistedCandidates = loadDiscoveryCandidates();
-  const { newItems, updatedItems } = discoverCandidates(persistedCandidates, existingItems);
+  const { newItems, updatedItems } = reconcileDiscoveryCandidates(persistedCandidates, existingItems);
 
   for (const item of [...newItems, ...updatedItems]) saveCatalogItem(item);
 

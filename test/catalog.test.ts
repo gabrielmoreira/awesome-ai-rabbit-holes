@@ -18,7 +18,7 @@ import {
   normalizeGitHubUrl,
   buildNewCatalogItem,
   discover,
-  discoverCandidates,
+  reconcileDiscoveryCandidates,
   selectSourceListDiscoveryCandidates,
   resolveSourceListNewItemLimit,
   resolveDirectDiscoveryConcurrency,
@@ -289,7 +289,7 @@ describe("discover", () => {
   });
 
   it("creates items from parsed awesome-list entries", () => {
-    const { newItems } = discoverCandidates(
+    const { newItems } = reconcileDiscoveryCandidates(
       [
         {
           target_url: "https://github.com/example/playwright-mcp",
@@ -319,7 +319,7 @@ describe("discover", () => {
   });
 
   it("records canonicalization ambiguity on discover while keeping the website canonical", () => {
-    const { newItems } = discoverCandidates(
+    const { newItems } = reconcileDiscoveryCandidates(
       [
         {
           target_url: "https://mystery-tool.dev",
@@ -350,8 +350,48 @@ describe("discover", () => {
     expect(newItems[0].processing?.discover?.cause?.type).toBe("ambiguous_canonicalization");
   });
 
+  it("reconciles canonical hints into existing durable items without resetting curation", () => {
+    const existing = makeItem({
+      id: "github__continuedev__continue",
+      name: "continue",
+      canonical_url: "https://github.com/continuedev/continue",
+      identity: { github_repo: "continuedev/continue" },
+      curation: { status: "included", reason: "kept", evidence: ["manual decision"] },
+    });
+
+    const { newItems, updatedItems } = reconcileDiscoveryCandidates(
+      [
+        {
+          target_url: "https://continue.dev",
+          canonical_url_hint: "https://github.com/continuedev/continue",
+          matched_category_ids: ["ai-ides-editors"],
+          source: {
+            url: "https://github.com/ai-for-developers/awesome-ai-coding-tools",
+            kind: "awesome-list",
+            note: "AI IDEs and editors.",
+          },
+          extraction: {
+            mode: "scraped",
+            section_path: ["Code Editors"],
+            anchor_text: "Continue",
+            extracted_url: "https://continue.dev",
+            surrounding_text: "- [Continue](https://continue.dev/) - Open-source AI coding assistant",
+            confidence: "high",
+          },
+        },
+      ],
+      [existing]
+    );
+
+    expect(newItems).toHaveLength(0);
+    expect(updatedItems).toHaveLength(1);
+    expect(updatedItems[0]?.canonical_url).toBe("https://github.com/continuedev/continue");
+    expect(updatedItems[0]?.curation.status).toBe("included");
+    expect(updatedItems[0]?.provenance.discoveries.at(-1)?.extraction.extracted_url).toBe("https://continue.dev");
+  });
+
   it("keeps multi-source discoveries on newly created items", () => {
-    const { newItems, updatedItems } = discoverCandidates(
+    const { newItems, updatedItems } = reconcileDiscoveryCandidates(
       [
         {
           target_url: "https://github.com/example/playwright-mcp",

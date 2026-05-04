@@ -201,10 +201,10 @@ function buildDirectDiscoveryCandidatesSync(sources: Source[]): DiscoveryCandida
 }
 
 export function discover(sources: Source[], existingItems: CatalogItem[]): { newItems: CatalogItem[]; updatedItems: CatalogItem[] } {
-  return discoverCandidates(buildDirectDiscoveryCandidatesSync(sources), existingItems);
+  return reconcileDiscoveryCandidates(buildDirectDiscoveryCandidatesSync(sources), existingItems);
 }
 
-export function discoverCandidates(
+export function reconcileDiscoveryCandidates(
   candidates: DiscoveryCandidate[],
   existingItems: CatalogItem[],
 ): { newItems: CatalogItem[]; updatedItems: CatalogItem[] } {
@@ -258,4 +258,11 @@ export function discoverCandidates(
   }
 
   return { newItems, updatedItems: [...updatedById.values()] };
+}
+
+export function discoverCandidates(
+  candidates: DiscoveryCandidate[],
+  existingItems: CatalogItem[],
+): { newItems: CatalogItem[]; updatedItems: CatalogItem[] } {
+  return reconcileDiscoveryCandidates(candidates, existingItems);
 }

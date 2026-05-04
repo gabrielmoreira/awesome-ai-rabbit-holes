@@ -29,6 +29,7 @@ export {
   buildNewCatalogItem,
   discover,
   discoverCandidates,
+  reconcileDiscoveryCandidates,
   orderDiscoverableSources,
   resolveSourceListNewItemLimit,
   selectSourceListDiscoveryCandidates,
