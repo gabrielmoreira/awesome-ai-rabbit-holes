@@ -43,6 +43,12 @@ function normalizeDiscoveryCandidate(raw: unknown): DiscoveryCandidate | null {
   const source = (raw as { source?: { url?: unknown; kind?: unknown; note?: unknown } }).source;
   const extraction = (raw as { extraction?: { mode?: unknown; section_path?: unknown; anchor_text?: unknown; extracted_url?: unknown; surrounding_text?: unknown; confidence?: unknown } }).extraction;
   const canonicalizationCause = (raw as { canonicalization_cause?: { type?: unknown; message?: unknown } }).canonicalization_cause;
+  const canonicalUrlHint = typeof (raw as { canonical_url_hint?: unknown }).canonical_url_hint === "string"
+    ? normalizeSourceCoverageUrl((raw as { canonical_url_hint: string }).canonical_url_hint)
+    : null;
+  const matchedCategoryIds = Array.isArray((raw as { matched_category_ids?: unknown }).matched_category_ids)
+    ? (raw as { matched_category_ids: unknown[] }).matched_category_ids.filter((value): value is string => typeof value === "string")
+    : [];
   const sectionPath = Array.isArray(extraction?.section_path)
     ? extraction.section_path.filter((value): value is string => typeof value === "string")
     : [];
@@ -63,6 +69,8 @@ function normalizeDiscoveryCandidate(raw: unknown): DiscoveryCandidate | null {
       surrounding_text: typeof extraction?.surrounding_text === "string" ? extraction.surrounding_text : null,
       confidence: extraction?.confidence === "low" || extraction?.confidence === "medium" ? extraction.confidence : "high",
     },
+    ...(canonicalUrlHint && canonicalUrlHint !== targetUrl ? { canonical_url_hint: canonicalUrlHint } : {}),
+    ...(matchedCategoryIds.length > 0 ? { matched_category_ids: [...new Set(matchedCategoryIds)].sort() } : {}),
     ...(typeof canonicalizationCause?.type === "string" && typeof canonicalizationCause?.message === "string"
       ? { canonicalization_cause: { type: canonicalizationCause.type, message: canonicalizationCause.message } }
       : {}),

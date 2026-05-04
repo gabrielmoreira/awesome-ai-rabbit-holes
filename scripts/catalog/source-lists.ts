@@ -8,8 +8,9 @@ import {
   WEBSITE_LINK_CACHE_DIR,
 } from "../support/paths.ts";
 import { buildProgressHeartbeat, shouldEmitProgressHeartbeat } from "../support/progress.ts";
+import { loadCategories } from "./data.ts";
 import { isCuratedListSource, isLowSignalCatalogUrl } from "./core.ts";
-import type { CatalogItem, DiscoveryCandidate, Source } from "./types.ts";
+import type { CatalogItem, Category, DiscoveryCandidate, Source } from "./types.ts";
 
 const WEBSITE_LINK_CACHE_TTL_MS = 24 * 60 * 60 * 1000;
 const WEBSITE_LINK_RESOLUTION_CONCURRENCY = 8;
@@ -32,6 +33,52 @@ const GENERIC_GITHUB_REPO_TOKENS = new Set([
 
 export const OWN_REPO_URL = "https://github.com/gabrielmoreira/awesome-ai-rabbit-holes";
 export const SOURCE_LIST_CACHE_TTL_MS = 30 * 60 * 1000;
+const CATEGORY_MATCH_STOP_WORDS = new Set([
+  "ai",
+  "agent",
+  "agents",
+  "tool",
+  "tools",
+  "developer",
+  "developers",
+  "user",
+  "users",
+  "platform",
+  "platforms",
+  "product",
+  "products",
+  "service",
+  "services",
+  "workflow",
+  "workflows",
+  "code",
+  "direct",
+  "source",
+  "surface",
+  "surfaces",
+  "primary",
+  "and",
+  "or",
+  "for",
+  "with",
+  "from",
+  "into",
+  "than",
+  "that",
+  "this",
+  "these",
+  "those",
+  "around",
+  "built",
+  "whose",
+  "generic",
+  "reference",
+  "references",
+  "resource",
+  "resources",
+  "link",
+  "links",
+]);
 
 export interface WebsiteLinkResolution {
   fetched_at: string | null;
@@ -185,6 +232,61 @@ function headingText(raw: string): string {
 function isSecondaryLinkSection(sectionPath: string[]): boolean {
   const last = sectionPath[sectionPath.length - 1]?.trim().toLowerCase();
   return last === "links";
+}
+
+function normalizeCategoryMatchToken(value: string): string | null {
+  const normalized = value.toLowerCase().replace(/[^a-z0-9]+/g, "");
+  if (!normalized) return null;
+
+  const singular = normalized.endsWith("ies") && normalized.length > 4
+    ? `${normalized.slice(0, -3)}y`
+    : normalized.endsWith("s") && !normalized.endsWith("ss") && normalized.length > 4
+      ? normalized.slice(0, -1)
+      : normalized;
+
+  if (CATEGORY_MATCH_STOP_WORDS.has(singular)) return null;
+  if (singular.length < 3 && !/\d/.test(singular)) return null;
+  return singular;
+}
+
+function tokenizeCategoryMatchValues(values: Array<string | null | undefined>): Set<string> {
+  const tokens = new Set<string>();
+  for (const value of values) {
+    if (!value) continue;
+    for (const token of value.split(/[^a-z0-9]+/i)) {
+      const normalized = normalizeCategoryMatchToken(token);
+      if (normalized) tokens.add(normalized);
+    }
+  }
+  return tokens;
+}
+
+function buildCategorySignalTokens(category: Category): Set<string> {
+  return tokenizeCategoryMatchValues([
+    category.id,
+    category.slug,
+    category.name,
+  ]);
+}
+
+function matchSourceListEntryCategoryIds(source: Source, metadata: SourceListMetadata, entry: SourceListEntry, categories: Category[]): string[] {
+  if (categories.length === 0) return [];
+
+  const evidenceTokens = tokenizeCategoryMatchValues([
+    source.note,
+    metadata.purpose,
+    entry.anchor_text,
+    entry.surrounding_text,
+    entry.page_title,
+    entry.page_description,
+    ...entry.section_path,
+  ]);
+  if (evidenceTokens.size === 0) return [];
+
+  return categories
+    .filter((category) => [...buildCategorySignalTokens(category)].some((token) => evidenceTokens.has(token)))
+    .map((category) => category.id)
+    .sort();
 }
 
 
@@ -742,12 +844,14 @@ export async function resolveCanonicalCatalogUrl(url: string, token?: string): P
 
 export function buildSourceListDiscoveryCandidates(
   source: Source,
-  metadata: SourceListMetadata
+  metadata: SourceListMetadata,
+  categories: Category[]
 ): DiscoveryCandidate[] {
   return metadata.entries
-    .filter((entry) => !shouldSkipDiscoveredUrl(entry.canonical_url))
-    .map((entry) => ({
-      target_url: entry.canonical_url,
+    .map((entry) => ({ entry, matchedCategoryIds: matchSourceListEntryCategoryIds(source, metadata, entry, categories) }))
+    .filter(({ entry, matchedCategoryIds }) => !shouldSkipDiscoveredUrl(entry.normalized_url) && (categories.length === 0 || matchedCategoryIds.length > 0))
+    .map(({ entry, matchedCategoryIds }) => ({
+      target_url: entry.normalized_url,
       source,
       extraction: {
         mode: entry.github_repo_url ? "scraped" : "parsed",
@@ -757,6 +861,8 @@ export function buildSourceListDiscoveryCandidates(
         surrounding_text: entry.surrounding_text,
         confidence: "high",
       },
+      ...(entry.canonical_url !== entry.normalized_url ? { canonical_url_hint: entry.canonical_url } : {}),
+      ...(matchedCategoryIds.length > 0 ? { matched_category_ids: matchedCategoryIds } : {}),
       ...(entry.canonicalization_cause ? { canonicalization_cause: entry.canonicalization_cause } : {}),
     }));
 }
@@ -808,12 +914,13 @@ export async function materializeSourceListMetadata(
 }
 
 export function loadSourceListDiscoveryCandidates(sources: Source[]): DiscoveryCandidate[] {
+  const categories = loadCategories();
   const candidates: DiscoveryCandidate[] = [];
 
   for (const source of uniqueCuratedListSources(sources)) {
     const metadata = readSourceListMetadata(source.url);
     if (!metadata) continue;
-    candidates.push(...buildSourceListDiscoveryCandidates(source, metadata));
+    candidates.push(...buildSourceListDiscoveryCandidates(source, metadata, categories));
   }
 
   return candidates;

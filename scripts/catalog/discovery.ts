@@ -111,6 +111,9 @@ type DiscoveryGroup = {
   candidates: DiscoveryCandidate[];
 };
 
+function resolveCandidateCatalogUrl(candidate: DiscoveryCandidate): string {
+  return normalizeDiscoveryTarget(candidate.canonical_url_hint ?? candidate.target_url);
+}
 function rankDiscoveryGroups(
   candidates: DiscoveryCandidate[],
   blockedItemIds: Set<string>,
@@ -118,14 +121,16 @@ function rankDiscoveryGroups(
 ): DiscoveryGroup[] {
   const grouped = new Map<string, DiscoveryCandidate[]>();
   for (const candidate of candidates) {
-    const targetUrl = normalizeDiscoveryTarget(candidate.target_url);
+    const targetUrl = resolveCandidateCatalogUrl(candidate);
     const normalizedCandidate: DiscoveryCandidate = {
-      target_url: targetUrl,
+      target_url: normalizeDiscoveryTarget(candidate.target_url),
       source: candidate.source,
       extraction: {
         ...candidate.extraction,
         extracted_url: normalizeDiscoveryTarget(candidate.extraction.extracted_url),
       },
+      ...(candidate.canonical_url_hint ? { canonical_url_hint: normalizeDiscoveryTarget(candidate.canonical_url_hint) } : {}),
+      ...(candidate.matched_category_ids?.length ? { matched_category_ids: [...candidate.matched_category_ids].sort() } : {}),
       ...(candidate.canonicalization_cause ? { canonicalization_cause: candidate.canonicalization_cause } : {}),
     };
     grouped.set(targetUrl, [...(grouped.get(targetUrl) ?? []), normalizedCandidate]);
@@ -212,7 +217,7 @@ export function discoverCandidates(
   for (const candidate of candidates) {
     if (shouldSkipDiscoveredUrl(candidate.target_url)) continue;
 
-    const normalized = normalizeDiscoveryTarget(candidate.target_url);
+    const normalized = resolveCandidateCatalogUrl(candidate);
     const extraction = {
       ...candidate.extraction,
       extracted_url: normalizeDiscoveryTarget(candidate.extraction.extracted_url),

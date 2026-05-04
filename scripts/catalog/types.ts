@@ -65,6 +65,8 @@ export type DiscoveryCandidate = {
   target_url: string;
   source: Source;
   extraction: ExtractionInfo;
+  canonical_url_hint?: string | null;
+  matched_category_ids?: string[];
   canonicalization_cause?: { type: string; message: string } | null;
 };
 
