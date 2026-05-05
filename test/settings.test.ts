@@ -2,11 +2,11 @@ import { describe, expect, it } from "vitest";
 import { loadSettings, loadSettingsFromRaw, DEFAULT_SETTINGS, type AppSettings } from "../scripts/catalog/settings.js";
 import { readYaml } from "../scripts/support/yaml.js";
 
-const okMinimal = {
-  promotion: { incubating_until_stars: 150 },
-  github: { metadata_refresh_days: 7 },
-  budgets: { discover_minutes: 10, stars_minutes: 10, categorize_minutes: 60 },
-  concurrency: { github: 4, site: 2, llm: 4 },
+const okMinimal: AppSettings = {
+  promotion: { ...DEFAULT_SETTINGS.promotion },
+  github: { ...DEFAULT_SETTINGS.github },
+  budgets: { ...DEFAULT_SETTINGS.budgets },
+  concurrency: { ...DEFAULT_SETTINGS.concurrency },
 };
 
 describe("settings schema and safe defaults", () => {
@@ -22,9 +22,9 @@ describe("settings schema and safe defaults", () => {
 
   it("uses defaults when nothing passed", () => {
     const s = loadSettings();
-    expect(s.budgets.categorize_minutes).toBe(60);
-    expect(s.concurrency.github).toBe(4);
-    expect(s.concurrency.llm).toBe(4);
+    expect(s.budgets.categorize_minutes).toBe(DEFAULT_SETTINGS.budgets.categorize_minutes);
+    expect(s.concurrency.github).toBe(DEFAULT_SETTINGS.concurrency.github);
+    expect(s.concurrency.llm).toBe(DEFAULT_SETTINGS.concurrency.llm);
     expect("model_probe" in s.concurrency).toBe(false);
   });
 
@@ -36,8 +36,8 @@ describe("settings schema and safe defaults", () => {
 
   it("ignores removed legacy env aliases", () => {
     const s = loadSettings({ CONCURRENCY_GITHUB: "8", CATALOG_AI_CONCURRENCY: "7" } as any);
-    expect(s.concurrency.github).toBe(4);
-    expect(s.concurrency.llm).toBe(4);
+    expect(s.concurrency.github).toBe(DEFAULT_SETTINGS.concurrency.github);
+    expect(s.concurrency.llm).toBe(DEFAULT_SETTINGS.concurrency.llm);
   });
 
   it("ignores removed model probe env overrides", () => {

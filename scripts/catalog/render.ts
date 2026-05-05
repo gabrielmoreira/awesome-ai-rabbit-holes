@@ -4,6 +4,7 @@
 import * as path from "node:path";
 import { loadCatalogItems, loadCategories } from "./data.ts";
 import { isLowSignalCatalogUrl } from "./core.ts";
+import { resolveCatalogDisplayName } from "./display-names.ts";
 import {
   renderCatalogCategoryPageTemplate,
   renderCatalogReadmeTemplate,
@@ -48,12 +49,14 @@ function parseIsoMs(value: string | null): number | null {
 function resolveRepoActivityBucket(
   pushedAt: string | null,
   checkedAt: string | null,
+  snapshotMs: number | null,
 ): RepoActivityBucket | null {
   const pushedAtMs = parseIsoMs(pushedAt);
   const checkedAtMs = parseIsoMs(checkedAt);
-  if (pushedAtMs === null || checkedAtMs === null) return null;
+  if (pushedAtMs === null || checkedAtMs === null || snapshotMs === null) return null;
 
-  const ageDays = Math.max(0, checkedAtMs - pushedAtMs) / DAY_MS;
+  const effectiveSnapshotMs = Math.max(snapshotMs, checkedAtMs);
+  const ageDays = Math.max(0, effectiveSnapshotMs - pushedAtMs) / DAY_MS;
   if (ageDays <= 30) return "updated_30d";
   if (ageDays <= 90) return "updated_90d";
   if (ageDays <= 180) return "updated_180d";
@@ -76,8 +79,17 @@ function formatRepoActivityLabel(bucket: RepoActivityBucket): string {
   }
 }
 
-function resolveItemActivityBucket(item: CatalogItem): RepoActivityBucket | null {
-  return resolveRepoActivityBucket(item.metadata.github.pushed_at, item.metadata.github.last_checked_at);
+
+function resolveCatalogSnapshotTimestamp(items: CatalogItem[]): string | null {
+  const checkedAts = items
+    .map((item) => item.metadata.github.last_checked_at)
+    .filter((value): value is string => typeof value === "string" && value.length > 0)
+    .sort();
+  return checkedAts.length > 0 ? checkedAts[checkedAts.length - 1] : null;
+}
+
+function resolveItemActivityBucket(item: CatalogItem, snapshotMs: number | null): RepoActivityBucket | null {
+  return resolveRepoActivityBucket(item.metadata.github.pushed_at, item.metadata.github.last_checked_at, snapshotMs);
 }
 
 
@@ -89,31 +101,9 @@ function isKnownStarCount(item: CatalogItem): boolean {
   return isGitHubBacked(item) && item.metadata.github.stars !== null && Number.isFinite(item.metadata.github.stars);
 }
 
-function displayNameFromMarkdownLink(value: string): string | null {
-  const match = value.match(/\[([^\]]+)\]\(https?:\/\/[^)\s]+\)/);
-  return match?.[1]?.trim() || null;
-}
-
-function isLowSignalDisplayName(name: string): boolean {
-  const normalized = name.trim().toLowerCase();
-  return normalized.length === 0 ||
-    /^(?:intro|introduction|overview|docs|documentation|readme|getting-started|welcome|viewform|image)$/.test(normalized) ||
-    /^[a-f0-9]{24,}$/i.test(normalized) ||
-    /^\d{4}\.\d{4,5}$/.test(normalized);
-}
 
 function displayNameForItem(item: CatalogItem): string {
-  if (!isLowSignalDisplayName(item.name)) return item.name;
-  for (const discovery of item.provenance.discoveries) {
-    for (const segment of discovery.extraction.section_path) {
-      const linkedName = displayNameFromMarkdownLink(segment);
-      if (linkedName && !isLowSignalDisplayName(linkedName)) return linkedName;
-    }
-
-    const anchor = discovery.extraction.anchor_text;
-    if (!isLowSignalDisplayName(anchor)) return anchor;
-  }
-  return item.name;
+  return resolveCatalogDisplayName(item);
 }
 
 function compareCatalogItemsByStars(a: CatalogItem, b: CatalogItem): number {
@@ -139,8 +129,11 @@ function formatStars(stars: number): string {
   return String(stars);
 }
 
-function buildToolBulletViewModel(item: CatalogItem): CatalogCategoryItemTemplateViewModel {
-  const activityBucket = resolveItemActivityBucket(item);
+function buildToolBulletViewModel(
+  item: CatalogItem,
+  snapshotMs: number | null,
+): CatalogCategoryItemTemplateViewModel {
+  const activityBucket = resolveItemActivityBucket(item, snapshotMs);
   const whyItMatters = ensureSentence(item.insights.why_it_matters);
   const mentalDamage = ensureSentence(item.insights.mental_damage);
 
@@ -162,8 +155,8 @@ function buildToolBulletViewModel(item: CatalogItem): CatalogCategoryItemTemplat
   };
 }
 
-function buildToolListViewModel(items: CatalogItem[]): CatalogCategoryItemTemplateViewModel[] {
-  return [...items].sort(compareCatalogItemsByStars).map(buildToolBulletViewModel);
+function buildToolListViewModel(items: CatalogItem[], snapshotMs: number | null): CatalogCategoryItemTemplateViewModel[] {
+  return [...items].sort(compareCatalogItemsByStars).map((item) => buildToolBulletViewModel(item, snapshotMs));
 }
 
 export function renderReadme(_items: CatalogItem[], categories: Category[]): string {
@@ -182,6 +175,7 @@ export function renderRabbitHolePage(
   category: Category,
   items: CatalogItem[]
 ): string {
+  const snapshotMs = parseIsoMs(resolveCatalogSnapshotTimestamp(items));
   const categoryItems = items.filter(
     (item) => shouldRenderCatalogItem(item) && item.placement.primary_category === category.id
   );
@@ -197,9 +191,9 @@ export function renderRabbitHolePage(
     categoryName: category.name,
     categoryDescription: category.description,
     hasActiveItems: activeItems.length > 0,
-    activeItems: buildToolListViewModel(activeItems),
+    activeItems: buildToolListViewModel(activeItems, snapshotMs),
     hasIncubatingItems: incubatingItems.length > 0,
-    incubatingItems: buildToolListViewModel(incubatingItems),
+    incubatingItems: buildToolListViewModel(incubatingItems, snapshotMs),
     isEmpty: activeItems.length === 0 && incubatingItems.length === 0,
   };
 
@@ -230,11 +224,8 @@ export function renderSiteCatalog(items: CatalogItem[]): SiteCatalog {
   // that the rendered output is deterministic across runs (a wall-clock
   // `new Date()` would make `check-generated-docs.yml` always report drift,
   // and would defeat the "render output is stable across runs" guarantee).
-  const checkedAts = items
-    .map((item) => item.metadata.github.last_checked_at)
-    .filter((v): v is string => typeof v === "string" && v.length > 0)
-    .sort();
-  const latest = checkedAts.length > 0 ? checkedAts[checkedAts.length - 1] : null;
+  const latest = resolveCatalogSnapshotTimestamp(items);
+  const snapshotMs = parseIsoMs(latest);
 
   const sortedItems = [...items]
     .filter(shouldRenderCatalogItem)
@@ -253,7 +244,7 @@ export function renderSiteCatalog(items: CatalogItem[]): SiteCatalog {
       lifecycle_status: item.lifecycle.status,
       stars: item.metadata.github.stars,
       pushed_at: item.metadata.github.pushed_at,
-      activity_bucket: resolveItemActivityBucket(item),
+      activity_bucket: resolveItemActivityBucket(item, snapshotMs),
     })),
   };
 }
