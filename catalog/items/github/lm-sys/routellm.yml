@@ -1,6 +1,6 @@
 id: github__lm-sys__routellm
 kind: github-repo
-name: routellm
+name: RouteLLM
 canonical_url: https://github.com/lm-sys/routellm
 identity:
   github_repo: lm-sys/routellm
@@ -41,10 +41,10 @@ insights:
   why_it_matters: Developers can drop it in as an OpenAI client replacement to automatically route simpler queries to cheaper models, potentially cutting LLM API costs by up to 85% without significant quality loss.
   mental_damage: We have successfully abstracted the decision of which model to use into yet another layer of abstraction that requires its own calibration, threshold tuning, and evaluation framework.
   tags:
-    - llm-routing
     - cost-optimization
-    - openai-compatible
     - inference
+    - llm-routing
+    - openai-compatible
   confidence: high
 curation:
   status: included
@@ -60,6 +60,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (4849) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:34:22.050Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.704Z"
@@ -70,11 +78,3 @@ processing:
     updated_at: "2026-05-05T21:03:22.640Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:34:22.050Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

@@ -1,6 +1,6 @@
 id: github__microsoft__taskweaver
 kind: github-repo
-name: taskweaver
+name: TaskWeaver
 canonical_url: https://github.com/microsoft/taskweaver
 identity:
   github_repo: microsoft/taskweaver
@@ -50,9 +50,9 @@ insights:
   tags:
     - agent-framework
     - data-analysis
-    - python
     - microsoft
     - plugins
+    - python
   confidence: high
 curation:
   status: excluded
@@ -68,6 +68,14 @@ lifecycle:
   status: needs_review
   reason: Repository is archived
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:37:38.746Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.707Z"
@@ -78,11 +86,3 @@ processing:
     updated_at: "2026-05-05T21:03:39.675Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:37:38.746Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

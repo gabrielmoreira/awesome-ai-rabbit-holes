@@ -1,6 +1,6 @@
 id: github__lucasavila00__lmscript
 kind: github-repo
-name: lmscript
+name: LmScript
 canonical_url: https://github.com/lucasavila00/lmscript
 identity:
   github_repo: lucasavila00/lmscript
@@ -47,11 +47,11 @@ insights:
   why_it_matters: It gives developers a structured way to define and execute constrained LM programs against self-hosted models without relying on heavy Python stacks.
   mental_damage: Another pristine TypeScript wrapper enters the arena, offering you yet another 'clean' way to orchestrate local models while your vLLM config file slowly achieves sentience.
   tags:
-    - typescript
-    - local-ai
-    - llm
     - inference
+    - llm
+    - local-ai
     - sglang
+    - typescript
   confidence: medium
 curation:
   status: included
@@ -67,6 +67,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:34:53.684Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.704Z"
@@ -77,11 +85,3 @@ processing:
     updated_at: "2026-05-05T21:03:25.115Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:34:53.684Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

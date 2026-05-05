@@ -1,6 +1,6 @@
 id: university__clay__com__lessons__enriching__with__claygent
 kind: website
-name: enriching-with-claygent
+name: Claygent
 canonical_url: https://university.clay.com/lessons/enriching-with-claygent
 identity: {}
 provenance:
@@ -38,11 +38,11 @@ insights:
   why_it_matters: It lets developers and operators automate the 'last mile' of data enrichment by scripting AI-driven web research instead of maintaining fragile scrapers or manual research workflows.
   mental_damage: We have successfully abstracted away manual research by adding a prompt-driven web scraper to a GTM tool, yet the average developer is still waiting for an AI agent to explain why we need GTM data in the first place.
   tags:
-    - ai-enrichment
-    - web-scraping
-    - gtm
-    - clay
     - agents
+    - ai-enrichment
+    - clay
+    - gtm
+    - web-scraping
   confidence: high
 curation:
   status: excluded
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:48:55.186Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.731Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:48:55.186Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

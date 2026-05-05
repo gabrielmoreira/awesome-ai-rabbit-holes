@@ -1,6 +1,6 @@
 id: gitbook__com__ai
 kind: website
-name: ai
+name: GitBook AI
 canonical_url: https://gitbook.com/ai
 identity: {}
 provenance:
@@ -38,8 +38,8 @@ insights:
   why_it_matters: It serves as a navigational index for developers looking to organize or reference AI coding resources within the GitBook ecosystem.
   mental_damage: We have now reached the point where an AI tool directory is itself just a sub-section of a general documentation platform, because apparently the only way to ship software now is to hyperlink your way out of the complexity.
   tags:
-    - documentation
     - directory
+    - documentation
     - meta-list
   confidence: high
 curation:
@@ -56,6 +56,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:44:41.012Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.727Z"
@@ -65,11 +73,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:44:41.012Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

@@ -1,6 +1,6 @@
 id: hex__tech__capability__ai
 kind: website
-name: ai
+name: Hex Magic
 canonical_url: https://hex.tech/capability/ai
 identity: {}
 provenance:
@@ -38,8 +38,8 @@ insights:
   why_it_matters: It offers a CLI and MCP server integration allowing developers to incorporate Hex analytics workflows directly into their existing coding environments like Claude and Cursor.
   mental_damage: Now your data team can finally stop writing SQL and start writing prompts, while you get to debug why the 'agentic notebook' decided to pivot the entire business logic.
   tags:
-    - data-analytics
     - ai-agents
+    - data-analytics
     - mcp
     - notebooks
   confidence: high
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:45:18.430Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.728Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:45:18.430Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

@@ -1,6 +1,6 @@
 id: github__orgexyz__llfn
 kind: github-repo
-name: llfn
+name: LLFn
 canonical_url: https://github.com/orgexyz/llfn
 identity:
   github_repo: orgexyz/llfn
@@ -41,11 +41,11 @@ insights:
   why_it_matters: It reduces boilerplate for developers building LLM applications by treating prompts as composable, typed Python functions with Pydantic output support.
   mental_damage: Just when you thought LangChain was the final layer of abstraction, we now have a framework to abstract the abstraction into a function decorator.
   tags:
-    - llm-framework
-    - langchain
-    - python
-    - functions
     - abstraction
+    - functions
+    - langchain
+    - llm-framework
+    - python
   confidence: medium
 curation:
   status: included
@@ -61,6 +61,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:43:12.514Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.712Z"
@@ -71,11 +79,3 @@ processing:
     updated_at: "2026-05-05T21:04:08.626Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:43:12.514Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

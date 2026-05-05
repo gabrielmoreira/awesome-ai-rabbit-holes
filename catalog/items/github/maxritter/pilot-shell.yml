@@ -53,20 +53,24 @@ metadata:
       fetched_at: "2026-05-05T21:03:32.868Z"
       bytes: 53566
 insights:
-  summary: A terminal-based CLI framework that extends Claude Code with spec-driven planning, enforced TDD workflows, quality gates, and persistent context management.
-  why_it_matters: It attempts to solve the common problem of Claude Code producing inconsistent, untested code by wrapping the assistant in structured workflows and quality enforcement hooks.
-  mental_damage: We have finally reached the point where we need a meta-framework to prevent our AI assistant from skipping tests, which is exactly the kind of architectural overhead that makes you question whether you are coding or configuring a bureaucratic robot.
+  summary: A CLI that layers spec-driven planning, enforced TDD, persistent memory, and quality gates on top of Claude Code to structure how features are planned, implemented, and verified.
+  why_it_matters: It gives developers a structured workflow—specs, tests, and quality hooks—on top of Claude Code instead of relying on ad-hoc prompts and hoping for the best.
+  mental_damage: Because nothing says 'trust the autonomous agent' like wrapping it in an elaborate bureaucracy of specs, gates, and reassuring slash commands.
   tags:
     - claude-code
-    - spec-driven
     - cli
-    - tdd
     - context-engineering
+    - quality-gates
+    - spec-driven
+    - tdd
   confidence: high
 curation:
   status: included
-  reason: The project is a CLI-based coding agent assistant that directly plans, writes, and verifies code inside a developer's repo via Claude Code, fitting the coding-agents terminal criteria.
+  reason: The primary product is a CLI that runs as a structured coding agent on top of Claude Code, planning, writing, testing, and reviewing code directly in a repo workflow.
   evidence:
+    - "Repo description: 'How real engineers run Claude Code: spec-driven planning, enforced TDD, persistent memory, and quality enforcement on all levels.'"
+    - "README: '/spec plans, implements, and verifies features end-to-end with TDD; /fix bugfix workflow with TDD; quality hooks enforce linting, formatting, type checking, and tests.'"
+    - "Source list: included in awesome-spec-driven-development under 'Development Frameworks' for spec-driven development tooling."
     - Repo description states it provides 'spec-driven planning, enforced TDD, persistent memory, and quality enforcement' for Claude Code.
     - README confirms it is a terminal CLI ('pilot' or 'ccp') that runs '/spec', '/fix', and '/prd' workflows directly on existing projects.
     - Active development indicated by created_at 2025-10-18 and pushed_at 2026-05-04 with 1678 stars.
@@ -87,7 +91,7 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.705Z"
+    updated_at: "2026-05-05T20:48:55.442Z"
     cause: null
     next_retry_at: null
   stars:

@@ -1,6 +1,6 @@
 id: github__pathwaycom__llm-app
 kind: github-repo
-name: llm-app
+name: LLMApp
 canonical_url: https://github.com/pathwaycom/llm-app
 identity:
   github_repo: pathwaycom/llm-app
@@ -56,11 +56,11 @@ insights:
   why_it_matters: It provides developers with production-ready, Docker-friendly scaffolding to deploy scalable RAG systems without managing separate infrastructure for live data indexing.
   mental_damage: Another opportunity to spend three days configuring a pipeline to answer questions against a PDF that hasn't been updated since 2019.
   tags:
-    - rag
-    - llmops
     - enterprise-search
-    - vector-store
+    - llmops
     - pathway
+    - rag
+    - vector-store
   confidence: high
 curation:
   status: included
@@ -76,6 +76,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (59842) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:43:58.458Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.712Z"
@@ -86,11 +94,3 @@ processing:
     updated_at: "2026-05-05T21:04:13.163Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:43:58.458Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

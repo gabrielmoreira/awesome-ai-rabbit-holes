@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__agentic-mcp-tools__memora__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-05T20:48:55.437Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -43,20 +43,21 @@ metadata:
       - rag
       - semantic-search
       - semantic-search-algorithm
-    last_checked_at: "2026-05-05T21:00:51.050Z"
+    last_checked_at: "2026-05-05T21:00:51.376Z"
     readme:
-      fetched_at: "2026-05-05T21:00:51.050Z"
+      fetched_at: "2026-05-05T21:00:51.376Z"
       bytes: 19669
 insights:
   summary: A lightweight MCP server that provides persistent memory, semantic search, and knowledge graph capabilities for AI agents.
   why_it_matters: It allows developers to add cross-session memory and contextual recall to their AI workflows via the Model Context Protocol.
   mental_damage: We have finally solved the existential dread of a bot forgetting what it was doing five minutes ago, provided you are willing to self-host a graph database to do it.
   tags:
+    - agents
+    - knowledge-graph
     - mcp
     - memory
-    - knowledge-graph
-    - semantic-search
     - persistent-storage
+    - semantic-search
   confidence: high
 curation:
   status: included
@@ -65,6 +66,9 @@ curation:
     - "Repo description states: 'Give your AI agents persistent memory.'"
     - README identifies it as a 'lightweight MCP server for semantic memory storage'.
     - Topics include 'mcp-server' and 'knowledge-graph'.
+    - "Repo description states: 'Give your AI agents persistent memory' and topics include mcp-server and knowledge-graph."
+    - README confirms it is 'A lightweight MCP server for semantic memory storage, knowledge graphs, conversational recall, and cross-session context.'
+    - Listed in awesome-mcp-servers under 'Server Implementations > Knowledge & Memory'.
 placement:
   primary_category: mcp
   section: null
@@ -74,7 +78,7 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-05-05T21:06:10.592Z"
+    updated_at: "2026-05-05T21:06:12.993Z"
     cause: null
     next_retry_at: null
     attempts: 1
@@ -82,11 +86,11 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.676Z"
+    updated_at: "2026-05-05T20:48:55.440Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:00:51.050Z"
+    updated_at: "2026-05-05T21:00:51.376Z"
     cause: null
     next_retry_at: null

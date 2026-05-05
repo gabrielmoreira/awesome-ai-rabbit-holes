@@ -1,6 +1,6 @@
 id: github__logicalclocks__hopsworks
 kind: github-repo
-name: hopsworks
+name: Hopsworks
 canonical_url: https://github.com/logicalclocks/hopsworks
 identity:
   github_repo: logicalclocks/hopsworks
@@ -60,8 +60,8 @@ insights:
   mental_damage: Because nothing says 'agile developer experience' like spinning up a specialized lakehouse platform just to admit that your most valuable ML asset is a curated table of features.
   tags:
     - feature-store
-    - mlops
     - ml-platform
+    - mlops
     - python
   confidence: high
 curation:
@@ -78,6 +78,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (1294) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:34:32.015Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.704Z"
@@ -88,11 +96,3 @@ processing:
     updated_at: "2026-05-05T21:03:23.401Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:34:32.015Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

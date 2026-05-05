@@ -1,6 +1,6 @@
 id: www__nullify__ai
 kind: website
-name: www.nullify.ai
+name: Nullify.ai
 canonical_url: https://www.nullify.ai
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It automates the entire AppSec lifecycle—from discovery to validated exploit proof to pull request—freeing developers from triaging false positives and writing boilerplate security fixes.
   mental_damage: We’ve successfully automated the security engineer right out of a job, leaving developers to argue with an AI in Slack when their SLA is at risk of being breached.
   tags:
-    - security
-    - automation
-    - appsec
     - agentic
+    - appsec
+    - automation
+    - security
     - vulnerability
   confidence: high
 curation:
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:52:21.436Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.733Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:52:21.436Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

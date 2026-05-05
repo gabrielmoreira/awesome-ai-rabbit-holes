@@ -1,6 +1,6 @@
 id: github__rlancemartin__auto-evaluator
 kind: github-repo
-name: auto-evaluator
+name: Auto-evaluator
 canonical_url: https://github.com/rlancemartin/auto-evaluator
 identity:
   github_repo: rlancemartin/auto-evaluator
@@ -54,17 +54,19 @@ lifecycle:
 processing:
   categorize:
     status: skipped
-    updated_at: "2026-05-05T21:04:23.169Z"
+    updated_at: "2026-05-05T23:08:18.952Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.713Z"
+    updated_at: "2026-05-05T20:48:55.443Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
-    cause: null
+    status: deferred
+    updated_at: "2026-05-05T21:04:18.058Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for pineappleexpress808/auto-evaluator

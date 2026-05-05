@@ -1,6 +1,6 @@
 id: google__github__io__a2a
 kind: website
-name: A2A
+name: A2A Protocol
 canonical_url: https://google.github.io/A2A
 identity: {}
 provenance:
@@ -39,9 +39,9 @@ insights:
   why_it_matters: It provides a standardized schema for agent-to-agent communication, aiming to solve the interoperability problem as multi-agent systems become more complex.
   mental_damage: We have successfully reached the point where our autonomous agents require their own protocol layer just to argue with one another over JSON.
   tags:
-    - protocol
     - agent-communication
     - google
+    - protocol
     - specification
   confidence: medium
 curation:
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:45:05.346Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.728Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:45:05.346Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

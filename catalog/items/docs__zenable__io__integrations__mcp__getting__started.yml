@@ -1,6 +1,6 @@
 id: docs__zenable__io__integrations__mcp__getting__started
 kind: website
-name: getting-started
+name: Zenable
 canonical_url: https://docs.zenable.io/integrations/mcp/getting-started
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It allows teams to enforce consistent coding standards, security requirements, and compliance policies directly within their AI agent workflows rather than relying solely on post-hoc PR reviews.
   mental_damage: You can now outsource your managerial anxiety to an MCP server that yells at your AI agent for not following the very rules you wrote but never actually enforced.
   tags:
-    - mcp
     - governance
-    - policy-as-code
     - ide-integration
+    - mcp
+    - policy-as-code
   confidence: high
 curation:
   status: included
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:44:13.329Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.727Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:44:13.329Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

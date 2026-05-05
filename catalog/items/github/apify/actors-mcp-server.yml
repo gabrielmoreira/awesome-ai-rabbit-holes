@@ -1,13 +1,28 @@
 id: github__apify__actors-mcp-server
 kind: github-repo
-name: actors-mcp-server
+name: Actors MCP Server
 canonical_url: https://github.com/apify/actors-mcp-server
 identity:
   github_repo: apify/actors-mcp-server
 provenance:
   discoveries:
+    - id: discovery__mcp__apify__com__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T22:47:06.910Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Actors MCP Server
+        extracted_url: https://apify.com/apify/actors-mcp-server
+        surrounding_text: "- **[Apify](https://github.com/apify/actors-mcp-server)** - [Actors MCP Server](https://apify.com/apify/actors-mcp-server): Use 3,000+ pre-built cloud tools to extract data from websites, e-commerce, social media, search engines, maps, and more"
+        confidence: high
     - id: discovery__github__apify__actors-mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T20:48:55.437Z"
+      discovered_at: "2026-05-05T22:33:31.148Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -36,27 +51,27 @@ metadata:
       - ai
       - mcp
       - mcp-server
-    last_checked_at: "2026-05-05T21:01:07.038Z"
+    last_checked_at: "2026-05-05T23:07:42.085Z"
     readme:
-      fetched_at: "2026-05-05T21:01:07.038Z"
+      fetched_at: "2026-05-05T23:07:42.085Z"
       bytes: 30729
 insights:
-  summary: An MCP server that exposes thousands of Apify Actors as tools so AI agents can scrape and extract data from websites, search engines, maps, and social media platforms.
-  why_it_matters: Developers can equip their MCP-compatible AI assistants with instant access to a massive library of production-grade web scrapers without writing custom extraction code.
-  mental_damage: We have finally reached the point where your AI agent needs its own agent economy, complete with OAuth and x402 payments, just to scrape a Google Maps listing.
+  summary: An MCP server that exposes thousands of Apify Actors as tools, allowing AI agents in clients like Claude and VS Code to scrape and extract data from the web.
+  why_it_matters: It turns a massive library of web scrapers into callable tools for your AI assistant, removing the need to build custom extraction logic for common sites.
+  mental_damage: Your AI assistant can now independently scrape Instagram and Google Maps, which is either a massive productivity unlock or the fastest path to getting your account banned before lunch.
   tags:
     - mcp
-    - scraping
     - apify
+    - web-scraping
     - data-extraction
   confidence: high
 curation:
   status: included
-  reason: This is a dedicated MCP server that integrates Apify's scraping ecosystem directly into MCP-compatible clients, fitting cleanly into the MCP infrastructure category.
+  reason: The project is a dedicated MCP server implementation that connects AI clients to the Apify scraping ecosystem via the Model Context Protocol.
   evidence:
-    - Repo description explicitly defines it as 'The Apify MCP server' for connecting AI agents to scrapers via MCP.
-    - README confirms compatibility with Claude, Cursor, VS Code, and any MCP-adherent client via a hosted server or stdio.
-    - Listed in awesome-mcp-servers under 'Official Servers', reinforcing its role as core MCP infrastructure.
+    - Repo description explicitly states 'The Apify MCP server enables your AI agents to extract data...'
+    - README confirms compatibility with MCP clients like Claude Code, Cursor, and VS Code via mcp.apify.com.
+    - Topics include 'mcp' and 'mcp-server', and the tool is listed on Smithery.ai as an MCP server.
 placement:
   primary_category: mcp
   section: null
@@ -64,21 +79,21 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (1188) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T23:08:26.406Z"
+    cause: null
+    attempts: 2
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.440Z"
+    updated_at: "2026-05-05T22:47:06.911Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:07.038Z"
+    updated_at: "2026-05-05T23:07:42.085Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:08:39.970Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

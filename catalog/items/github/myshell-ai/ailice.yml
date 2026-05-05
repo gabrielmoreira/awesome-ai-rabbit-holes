@@ -1,6 +1,6 @@
 id: github__myshell-ai__ailice
 kind: github-repo
-name: ailice
+name: AIlice
 canonical_url: https://github.com/myshell-ai/ailice
 identity:
   github_repo: myshell-ai/ailice
@@ -46,10 +46,10 @@ insights:
   mental_damage: Yet another autonomous agent framework arrives to ensure that while the AI plans its self-evolution, you are still manually debugging why it chose to `rm -rf` the wrong directory.
   tags:
     - autonomous-agent
-    - local-ai
     - llm
-    - multi-agent
+    - local-ai
     - mcp
+    - multi-agent
   confidence: high
 curation:
   status: included
@@ -65,6 +65,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (1406) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:39:42.786Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.709Z"
@@ -75,11 +83,3 @@ processing:
     updated_at: "2026-05-05T21:03:50.400Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:39:42.786Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

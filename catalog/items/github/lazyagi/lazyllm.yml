@@ -1,6 +1,6 @@
 id: github__lazyagi__lazyllm
 kind: github-repo
-name: lazyllm
+name: LazyLLM
 canonical_url: https://github.com/lazyagi/lazyllm
 identity:
   github_repo: lazyagi/lazyllm
@@ -56,11 +56,11 @@ insights:
   why_it_matters: It standardizes the messy lifecycle of multi-agent apps—from prototype to POC to production deployment—so developers can focus on data and algorithms instead of wiring together gateways and inference frameworks.
   mental_damage: Now you can assemble a complex multi-agent architecture with the same intellectual effort required to snap together Lego bricks, ensuring your 'low-code' solution eventually requires a high-paid engineer to debug the data flow.
   tags:
-    - multi-agent
-    - low-code
+    - deployment
     - framework
     - llm
-    - deployment
+    - low-code
+    - multi-agent
   confidence: high
 curation:
   status: included
@@ -76,6 +76,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (3820) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:33:26.405Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.703Z"
@@ -86,11 +94,3 @@ processing:
     updated_at: "2026-05-05T21:03:17.698Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:33:26.405Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

@@ -1,6 +1,6 @@
 id: rootly__com
 kind: website
-name: rootly.com
+name: Rootly
 canonical_url: https://rootly.com
 identity: {}
 provenance:
@@ -54,11 +54,11 @@ insights:
   why_it_matters: It aims to reduce resolution times and on-call fatigue by automating the tedious parts of incident response, from triage to retrospectives, allowing developers to focus on fixing the actual issue.
   mental_damage: Now your AI can wake up, diagnose the outage, and suggest the rollback while you are still staring at the ceiling wondering if the pager notification was just a bad dream.
   tags:
-    - incident-management
     - ai-sre
+    - devops
+    - incident-management
     - mcp
     - reliability
-    - devops
   confidence: high
 curation:
   status: included
@@ -74,6 +74,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:47:46.462Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.674Z"
@@ -83,11 +91,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:47:46.462Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

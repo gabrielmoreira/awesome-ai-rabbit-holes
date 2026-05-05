@@ -1,6 +1,6 @@
 id: www__meticulous__ai
 kind: website
-name: www.meticulous.ai
+name: Meticulous
 canonical_url: https://www.meticulous.ai
 identity: {}
 provenance:
@@ -38,11 +38,11 @@ insights:
   why_it_matters: It promises exhaustive regression coverage without the maintenance burden of manually written tests, fitting naturally into CI workflows for React, Vue, Angular, and SvelteKit applications.
   mental_damage: We have successfully automated the creation of the tests we were too burnt out to write, meaning we can now ship AI-generated code at machine speed with a safety net we never have to look at.
   tags:
-    - testing
-    - frontend
-    - visual-regression
-    - qa
     - ci-cd
+    - frontend
+    - qa
+    - testing
+    - visual-regression
   confidence: high
 curation:
   status: included
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:51:59.678Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.733Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:51:59.678Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

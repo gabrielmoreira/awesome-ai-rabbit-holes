@@ -1,6 +1,6 @@
 id: github__genia-dev__genia
 kind: github-repo
-name: genia
+name: GeniA
 canonical_url: https://github.com/genia-dev/genia
 identity:
   github_repo: genia-dev/genia
@@ -55,9 +55,9 @@ insights:
   mental_damage: Finally, an AI teammate that can apply for production permissions and run your EKS upgrades, leaving you free to watch the incident unfold in Slack with a sense of detached, AI-assisted dread.
   tags:
     - devops
-    - slack-bot
-    - platform-engineering
     - operational-tasks
+    - platform-engineering
+    - slack-bot
   confidence: medium
 curation:
   status: included
@@ -73,6 +73,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (405) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:20:54.416Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.688Z"
@@ -83,11 +91,3 @@ processing:
     updated_at: "2026-05-05T21:02:18.748Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:20:54.416Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

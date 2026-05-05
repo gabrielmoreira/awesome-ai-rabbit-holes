@@ -1,6 +1,6 @@
 id: www__kiwi__com
 kind: website
-name: www.kiwi.com
+name: Kiwi.com
 canonical_url: https://www.kiwi.com
 identity: {}
 provenance:
@@ -38,9 +38,9 @@ insights:
   why_it_matters: It doesn't—unless your definition of 'developer workflow' involves desperately searching for a cheap flight after your PR gets rejected.
   mental_damage: We have officially reached the point where a travel agency appears in a curated list of MCP servers, suggesting the 'AI ecosystem' will soon try to book your vacation while it debugs your code.
   tags:
-    - travel
-    - off-topic
     - not-a-dev-tool
+    - off-topic
+    - travel
   confidence: high
 curation:
   status: excluded
@@ -56,6 +56,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:51:37.944Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.732Z"
@@ -65,11 +73,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:51:37.944Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

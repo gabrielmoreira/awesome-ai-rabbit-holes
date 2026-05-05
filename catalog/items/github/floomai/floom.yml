@@ -1,6 +1,6 @@
 id: github__floomai__floom
 kind: github-repo
-name: floom
+name: Floom
 canonical_url: https://github.com/floomai/floom
 identity:
   github_repo: floomai/floom
@@ -47,10 +47,10 @@ insights:
   mental_damage: "Just what the modern stack needed: a Kubernetes for your prompts, promising to orchestrate your hallucinations with enterprise-grade YAML while you wonder if the pipeline is the product or the problem."
   tags:
     - genai
-    - orchestration
-    - sdk
-    - pipelines
     - multi-model
+    - orchestration
+    - pipelines
+    - sdk
   confidence: medium
 curation:
   status: included
@@ -66,6 +66,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:19:47.928Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.687Z"
@@ -76,11 +84,3 @@ processing:
     updated_at: "2026-05-05T21:02:12.384Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:19:47.928Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

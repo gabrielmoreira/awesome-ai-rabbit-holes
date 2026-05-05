@@ -1,6 +1,6 @@
 id: slab__com
 kind: website
-name: slab.com
+name: Slab
 canonical_url: https://slab.com
 identity: {}
 provenance:
@@ -39,9 +39,9 @@ insights:
   mental_damage: "Just what the world needed: another collaborative wiki promising to solve knowledge silos, this time with 'modern editing capabilities' and a GitHub integration badge to tempt the engineering lead."
   tags:
     - documentation
-    - wiki
     - knowledge-base
     - team-collaboration
+    - wiki
   confidence: high
 curation:
   status: excluded
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:48:14.077Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.730Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:48:14.077Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

@@ -1,6 +1,6 @@
 id: python__langchain__com__en__latest__modules__indexes__document__loaders__examples__snowflake__html
 kind: website
-name: snowflake.html
+name: CSV-AI 🧠
 canonical_url: https://python.langchain.com/en/latest/modules/indexes/document_loaders/examples/snowflake.html
 identity: {}
 provenance:
@@ -39,10 +39,10 @@ insights:
   why_it_matters: It provides the boilerplate setup for developers needing to bridge enterprise data warehouses with LangChain-based AI workflows.
   mental_damage: Another reminder that your sophisticated AI stack still fundamentally relies on reading a table from a database and calling it a 'loader'.
   tags:
-    - langchain
     - data-loader
-    - snowflake
     - documentation
+    - langchain
+    - snowflake
   confidence: high
 curation:
   status: excluded
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:47:17.715Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.729Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:47:17.715Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

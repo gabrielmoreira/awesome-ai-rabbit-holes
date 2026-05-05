@@ -1,6 +1,6 @@
 id: github__openbiolink__thoughtsource
 kind: github-repo
-name: thoughtsource
+name: ThoughtSource⚡
 canonical_url: https://github.com/openbiolink/thoughtsource
 identity:
   github_repo: openbiolink/thoughtsource
@@ -47,11 +47,11 @@ insights:
   why_it_matters: It provides developers and researchers with a centralized, standardized resource to train, evaluate, and analyze the reasoning capabilities of LLMs across various general question-answering datasets.
   mental_damage: We now have a centralized hub to study how models reason, which is perfect for those who enjoy reading machine-generated thoughts that are about as linear as a plate of spaghetti.
   tags:
-    - llm
     - chain-of-thought
-    - reasoning
     - dataset
+    - llm
     - nlp
+    - reasoning
   confidence: high
 curation:
   status: excluded
@@ -67,6 +67,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (1014) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:42:27.510Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.711Z"
@@ -77,11 +85,3 @@ processing:
     updated_at: "2026-05-05T21:04:03.901Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:42:27.510Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

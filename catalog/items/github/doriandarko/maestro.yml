@@ -1,6 +1,6 @@
 id: github__doriandarko__maestro
 kind: github-repo
-name: maestro
+name: Maestro
 canonical_url: https://github.com/doriandarko/maestro
 identity:
   github_repo: doriandarko/maestro
@@ -42,10 +42,10 @@ insights:
   mental_damage: We have reached the point where we need a framework to manage the agents that we hired to manage the agents we can no longer be bothered to prompt.
   tags:
     - agent-orchestration
-    - python
     - litellm
     - local-ai
     - multi-agent
+    - python
   confidence: high
 curation:
   status: included
@@ -61,6 +61,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (4336) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:16:58.583Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.685Z"
@@ -71,11 +79,3 @@ processing:
     updated_at: "2026-05-05T21:01:56.170Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:16:58.583Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

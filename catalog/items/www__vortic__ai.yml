@@ -1,6 +1,6 @@
 id: www__vortic__ai
 kind: website
-name: www.vortic.ai
+name: Vortic
 canonical_url: https://www.vortic.ai
 identity: {}
 provenance:
@@ -38,9 +38,9 @@ insights:
   why_it_matters: It represents the growing ecosystem of tools attempting to offload multi-step development tasks to autonomous systems rather than simple code completion.
   mental_damage: We are now curating lists of autonomous agents that might one day recursively improve themselves, just in case we need to know which one to blame when the build pipeline achieves sentience.
   tags:
+    - agent-platform
     - ai-agents
     - autonomous
-    - agent-platform
   confidence: low
 curation:
   status: excluded
@@ -56,6 +56,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:54:06.457Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.734Z"
@@ -65,11 +73,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:54:06.457Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

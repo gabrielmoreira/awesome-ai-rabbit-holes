@@ -49,26 +49,28 @@ metadata:
     homepage: ""
     topics:
       - ggml
-    last_checked_at: "2026-05-05T21:02:20.594Z"
+    last_checked_at: "2026-05-05T21:02:20.611Z"
     readme:
-      fetched_at: "2026-05-05T21:02:20.594Z"
+      fetched_at: "2026-05-05T21:02:20.611Z"
       bytes: 30190
 insights:
-  summary: A C/C++ implementation for running LLM inference locally, centered on the GGUF model format and offering both CLI and OpenAI-compatible server modes.
-  why_it_matters: It allows developers to run quantized models on commodity hardware and integrate local inference into their applications via a lightweight, high-performance runtime.
-  mental_damage: The standard way to run a 70B model on a laptop is now a C++ compiler, a 40GB download, and the quiet realization that your GPU is still weeping.
+  summary: A C/C++ implementation for running LLM inference locally, supporting GGUF models and exposing an OpenAI-compatible API server.
+  why_it_matters: It serves as a foundational, high-performance engine for developers needing to run quantized models on commodity hardware or integrate local inference into their tooling.
+  mental_damage: The standard upon which we judge all other local inference engines, largely because it forces you to recompile C++ just to see if a model will load, reminding you that you are still one Makefile error away from the stone age.
   tags:
-    - local-ai
-    - inference
-    - llm
     - cpp
     - gguf
+    - inference
+    - llm
+    - local-ai
   confidence: high
 curation:
   status: included
-  reason: This is the foundational local inference runtime for GGUF models, fitting squarely into developer tooling for local AI deployment and testing.
+  reason: It is the definitive local runtime for LLM inference in C/C++, central to the local-AI developer ecosystem.
   evidence:
     - Repo description explicitly states 'LLM inference in C/C++'.
+    - README highlights running models locally and launching an 'OpenAI-compatible API server'.
+    - Included in 'awesome-local-ai' under the 'Inference Engine' section.
     - README demonstrates local execution via `llama-cli` and `llama-server` with OpenAI-compatible APIs.
     - High traction with 108k stars and active maintenance (pushed 2026-05-05).
 placement:
@@ -88,11 +90,11 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.666Z"
+    updated_at: "2026-05-05T20:48:55.439Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:20.594Z"
+    updated_at: "2026-05-05T21:02:20.611Z"
     cause: null
     next_retry_at: null

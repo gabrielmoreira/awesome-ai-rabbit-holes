@@ -1,6 +1,6 @@
 id: github__fission-ai__openspec
 kind: github-repo
-name: openspec
+name: OpenSpec
 canonical_url: https://github.com/fission-ai/openspec
 identity:
   github_repo: fission-ai/openspec
@@ -51,10 +51,10 @@ insights:
   why_it_matters: It introduces a structured spec layer that forces alignment on requirements and implementation steps before AI assistants generate code, reducing unpredictable outputs in existing codebases.
   mental_damage: We have successfully abstracted the waterfall method into markdown files so your LLM can ignore the requirements with perfect documentation.
   tags:
-    - spec-driven
-    - context-engineering
     - ai-workflow
     - cli
+    - context-engineering
+    - spec-driven
   confidence: high
 curation:
   status: included
@@ -70,6 +70,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (45378) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:19:40.933Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.687Z"
@@ -80,11 +88,3 @@ processing:
     updated_at: "2026-05-05T21:02:11.771Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:19:40.933Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

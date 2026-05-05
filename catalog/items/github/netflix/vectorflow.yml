@@ -1,6 +1,6 @@
 id: github__netflix__vectorflow
 kind: github-repo
-name: vectorflow
+name: VectorFlow
 canonical_url: https://github.com/netflix/vectorflow
 identity:
   github_repo: netflix/vectorflow
@@ -42,11 +42,11 @@ insights:
   why_it_matters: It allows developers to train models on sparse datasets quickly without the overhead of distributed training frameworks when working on a single machine.
   mental_damage: Nothing says modern AI infrastructure quite like downloading a D compiler in 2024 to run a sparse logistic regression library Netflix launched when Trump was still in his first term.
   tags:
-    - neural-network
-    - sparse-data
-    - netflix
     - d-lang
     - machine-learning
+    - netflix
+    - neural-network
+    - sparse-data
   confidence: high
 curation:
   status: excluded
@@ -62,6 +62,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (1298) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:40:22.267Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.709Z"
@@ -72,11 +80,3 @@ processing:
     updated_at: "2026-05-05T21:03:53.145Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:40:22.267Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

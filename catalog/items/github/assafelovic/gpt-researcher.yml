@@ -1,6 +1,6 @@
 id: github__assafelovic__gpt-researcher
 kind: github-repo
-name: gpt-researcher
+name: GPT Researcher
 canonical_url: https://github.com/assafelovic/gpt-researcher
 identity:
   github_repo: assafelovic/gpt-researcher
@@ -68,11 +68,11 @@ insights:
   why_it_matters: It allows developers to automate the time-consuming process of gathering technical context, API documentation, and domain-specific information across multiple sources before writing code.
   mental_damage: Finally, an agent that spends three hours reading the internet so you can spend four hours debugging the hallucinated code it inspired you to write.
   tags:
-    - research-agent
     - langchain
-    - rag
     - mcp
     - python
+    - rag
+    - research-agent
   confidence: high
 curation:
   status: included
@@ -88,6 +88,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (26872) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:09:16.628Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.663Z"
@@ -98,11 +106,3 @@ processing:
     updated_at: "2026-05-05T21:01:10.834Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:09:16.628Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

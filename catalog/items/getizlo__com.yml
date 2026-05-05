@@ -1,6 +1,6 @@
 id: getizlo__com
 kind: website
-name: getizlo.com
+name: Izlo
 canonical_url: https://getizlo.com
 identity: {}
 provenance:
@@ -38,8 +38,8 @@ insights:
   why_it_matters: It centralizes prompt engineering workflows into a single workspace with versioning and testing, allowing teams to stop hardcoding prompts in source code and spreadsheets.
   mental_damage: Now your team can spend three hours remixing a prompt in a dedicated sandbox while the original requirement doc remains a mystery.
   tags:
-    - prompt-management
     - llmops
+    - prompt-management
     - team-collaboration
     - testing
   confidence: high
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:44:40.342Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.727Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:44:40.342Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

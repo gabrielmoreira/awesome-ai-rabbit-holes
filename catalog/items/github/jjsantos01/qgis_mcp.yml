@@ -1,6 +1,6 @@
 id: github__jjsantos01__qgis_mcp
 kind: github-repo
-name: qgis_mcp
+name: QGIS MCP
 canonical_url: https://github.com/jjsantos01/qgis_mcp
 identity:
   github_repo: jjsantos01/qgis_mcp
@@ -72,11 +72,11 @@ insights:
   why_it_matters: It turns QGIS into a programmable environment where geospatial workflows can be prototyped and executed through natural language prompts rather than manual GUI interaction.
   mental_damage: Finally, you can ask an LLM to execute arbitrary Python code in your GIS software, because the 'select by expression' dialog simply wasn't enough of a footgun.
   tags:
-    - mcp
-    - qgis
-    - gis
     - geospatial
+    - gis
+    - mcp
     - plugin
+    - qgis
   confidence: high
 curation:
   status: included
@@ -92,6 +92,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (935) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:28:39.815Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.660Z"
@@ -102,11 +110,3 @@ processing:
     updated_at: "2026-05-05T21:02:56.330Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:28:39.815Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

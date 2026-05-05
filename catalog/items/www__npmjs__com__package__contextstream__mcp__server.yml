@@ -1,6 +1,6 @@
 id: www__npmjs__com__package__contextstream__mcp__server
 kind: website
-name: mcp-server
+name: contextstream/mcp-server
 canonical_url: https://www.npmjs.com/package/@contextstream/mcp-server
 identity: {}
 provenance:
@@ -39,9 +39,9 @@ insights:
   why_it_matters: It enables developers to integrate context-streaming capabilities into MCP-compatible AI workflows via a standard Node.js package.
   mental_damage: We have successfully abstracted the abstraction, meaning you can now install a package to help your assistant talk to a protocol that helps it talk to your code.
   tags:
+    - context-streaming
     - mcp
     - npm
-    - context-streaming
   confidence: medium
 curation:
   status: included
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:52:14.830Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.733Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:52:14.830Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

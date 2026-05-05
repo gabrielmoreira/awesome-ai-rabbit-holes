@@ -24,17 +24,19 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
+    stars: 0
+    forks: 2
     license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
+    archived: false
+    created_at: "2026-02-16T19:55:50Z"
+    pushed_at: "2026-02-19T15:44:23Z"
+    description: MCP server for Pylon AI — 10 pay-per-request APIs as AI agent tools. Powered by x402 on Base.
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics: []
+    last_checked_at: "2026-05-05T23:08:12.994Z"
+    readme:
+      fetched_at: "2026-05-05T23:08:12.994Z"
+      bytes: 3328
 insights:
   summary: null
   why_it_matters: null
@@ -58,13 +60,17 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-05T23:08:12.994Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T21:04:23.169Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-05-05T23:08:33.635Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-05-06T00:08:33.635Z"
+    attempts: 0
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

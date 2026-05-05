@@ -1,6 +1,6 @@
 id: prompt__16x__engineer
 kind: website
-name: prompt.16x.engineer
+name: 16x Prompt
 canonical_url: https://prompt.16x.engineer
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It reduces the friction of manually feeding existing codebases into chat-based LLMs by handling context selection, formatting, and model comparison in a local workspace.
   mental_damage: We have successfully abstracted the job into managing the meta-work of prompting the tools that manage the prompts for the code we aren't writing.
   tags:
-    - prompt-management
     - context-engineering
     - desktop-app
     - llm-client
+    - prompt-management
   confidence: high
 curation:
   status: included
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:47:12.230Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.729Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:47:12.230Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

@@ -1,6 +1,6 @@
 id: hasura__io
 kind: website
-name: hasura.io
+name: Hasura
 canonical_url: https://hasura.io
 identity: {}
 provenance:
@@ -38,9 +38,9 @@ insights:
   why_it_matters: It allows developers to build AI features on top of reliable, context-rich data layers rather than wiring raw database queries into LLM prompts.
   mental_damage: "Just what we needed: another layer of abstraction between the neural network and the SQL database, ensuring the 'context' is perfect right up until the moment the GraphQL schema changes."
   tags:
+    - ai-infrastructure
     - data-access
     - graphql
-    - ai-infrastructure
     - promptql
   confidence: high
 curation:
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:45:17.586Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.728Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:45:17.586Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

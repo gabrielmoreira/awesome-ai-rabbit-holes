@@ -1,6 +1,6 @@
 id: github__cvs-health__langfair
 kind: github-repo
-name: langfair
+name: LangFair
 canonical_url: https://github.com/cvs-health/langfair
 identity:
   github_repo: cvs-health/langfair
@@ -59,9 +59,9 @@ insights:
   why_it_matters: It allows developers to audit specific LLM implementations for fairness risks using their actual production prompts rather than relying on generic, static benchmarks.
   mental_damage: You can now scientifically prove that your recommendation engine is biased before the compliance team starts asking why the internal tool only promotes people named Steve.
   tags:
-    - llm-evaluation
     - bias-detection
     - fairness
+    - llm-evaluation
     - python
     - responsible-ai
   confidence: high
@@ -79,6 +79,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (257) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:14:58.863Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.683Z"
@@ -89,11 +97,3 @@ processing:
     updated_at: "2026-05-05T21:01:44.525Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:14:58.863Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

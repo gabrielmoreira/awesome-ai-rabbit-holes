@@ -1,6 +1,6 @@
 id: www__code__intelligence__com
 kind: website
-name: www.code-intelligence.com
+name: Code Intelligence CI Fuzz
 canonical_url: https://www.code-intelligence.com
 identity: {}
 provenance:
@@ -38,11 +38,11 @@ insights:
   why_it_matters: It integrates into the development pipeline to achieve high code coverage and compliance with industry standards like ISO 21434, allowing developers to fix critical security flaws early without writing extensive unit tests manually.
   mental_damage: Just when you thought your test suite was complete, an AI agent starts throwing random garbage at your memory-unsafe code to find the heap overflows you were praying didn't exist.
   tags:
+    - ai-agent
+    - devops
     - fuzzing
     - security
     - testing
-    - ai-agent
-    - devops
   confidence: high
 curation:
   status: included
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:50:10.788Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.732Z"
@@ -69,11 +77,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:50:10.788Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

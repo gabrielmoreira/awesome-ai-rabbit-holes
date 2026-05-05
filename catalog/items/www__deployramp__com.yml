@@ -1,6 +1,6 @@
 id: www__deployramp__com
 kind: website
-name: www.deployramp.com
+name: DeployRamp
 canonical_url: https://www.deployramp.com
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It automates the risky parts of shipping code by detecting dangerous changes in PRs and managing the flag lifecycle, reducing the need for manual deployment oversight.
   mental_damage: We've successfully automated the fear of deploying code so thoroughly that 'manual flag cleanup' is now considered a tragic career setback.
   tags:
-    - feature-flags
-    - devops
-    - ci-cd
     - automation
+    - ci-cd
+    - devops
+    - feature-flags
   confidence: high
 curation:
   status: included
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:50:28.001Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.732Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:50:28.001Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

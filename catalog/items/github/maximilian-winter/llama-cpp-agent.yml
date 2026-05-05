@@ -1,6 +1,6 @@
 id: github__maximilian-winter__llama-cpp-agent
 kind: github-repo
-name: llama-cpp-agent
+name: LLama Cpp Agent
 canonical_url: https://github.com/maximilian-winter/llama-cpp-agent
 identity:
   github_repo: maximilian-winter/llama-cpp-agent
@@ -49,10 +49,10 @@ insights:
   why_it_matters: It allows developers to add reliable agentic workflows, tool use, and structured outputs to local models that were never specifically fine-tuned for those tasks.
   mental_damage: Another day, another framework sunsetting itself in the README to point you toward the author's newer, shinier framework, because stability is apparently a legacy feature.
   tags:
-    - llama-cpp
-    - local-ai
     - agent-framework
     - function-calling
+    - llama-cpp
+    - local-ai
   confidence: medium
 curation:
   status: included
@@ -68,6 +68,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (630) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:36:21.022Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.705Z"
@@ -78,11 +86,3 @@ processing:
     updated_at: "2026-05-05T21:03:32.338Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:36:21.022Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

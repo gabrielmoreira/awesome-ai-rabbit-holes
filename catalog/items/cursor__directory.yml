@@ -1,6 +1,6 @@
 id: cursor__directory
 kind: website
-name: cursor.directory
+name: CursorDirectory
 canonical_url: https://cursor.directory
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It provides reusable context engineering patterns that help developers standardize and improve how Cursor understands their codebase.
   mental_damage: Because writing code is no longer enough; now you must also maintain a curated collection of markdown files just to keep your AI assistant from hallucinating your architecture.
   tags:
-    - cursor
-    - rules
-    - prompt-engineering
     - context
+    - cursor
+    - prompt-engineering
+    - rules
   confidence: high
 curation:
   status: included
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:43:29.017Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.727Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:43:29.017Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

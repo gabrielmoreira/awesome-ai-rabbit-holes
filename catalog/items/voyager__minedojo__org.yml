@@ -1,6 +1,6 @@
 id: voyager__minedojo__org
 kind: website
-name: voyager.minedojo.org
+name: Voyager
 canonical_url: https://voyager.minedojo.org
 identity: {}
 provenance:
@@ -39,10 +39,10 @@ insights:
   mental_damage: Your CI pipeline still needs a human to approve a PR, while a research bot in a block game has already mastered lifelong learning and self-improvement without asking for a single code review.
   tags:
     - agents
-    - llm
-    - research
-    - minecraft
     - lifelong-learning
+    - llm
+    - minecraft
+    - research
   confidence: high
 curation:
   status: excluded
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:49:08.424Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.731Z"
@@ -69,11 +77,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:49:08.424Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

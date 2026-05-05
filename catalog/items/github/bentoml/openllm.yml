@@ -1,6 +1,6 @@
 id: github__bentoml__openllm
 kind: github-repo
-name: openllm
+name: OpenLLM
 canonical_url: https://github.com/bentoml/openllm
 identity:
   github_repo: bentoml/openllm
@@ -75,11 +75,11 @@ insights:
   why_it_matters: It lets developers swap proprietary APIs for self-hosted models with minimal code changes by mimicking the OpenAI interface.
   mental_damage: Yet another 'run your own LLM' stack that confidently promises cloud-grade reliability until you realize you need four 80GB GPUs and a prayer to get Llama 4 running.
   tags:
+    - bentoml
     - llm-inference
     - local-ai
-    - self-hosting
     - openai-compatible
-    - bentoml
+    - self-hosting
   confidence: high
 curation:
   status: included
@@ -95,6 +95,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (12311) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:10:33.610Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.663Z"
@@ -105,11 +113,3 @@ processing:
     updated_at: "2026-05-05T21:01:19.310Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:10:33.610Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

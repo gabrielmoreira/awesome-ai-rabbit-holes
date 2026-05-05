@@ -1,6 +1,6 @@
 id: docs__atla__ai__com
 kind: website
-name: docs.atla-ai.com
+name: Atla API
 canonical_url: https://docs.atla-ai.com
 identity: {}
 provenance:
@@ -38,8 +38,8 @@ insights:
   why_it_matters: Provides a reference point for developers integrating Atla AI's capabilities via the Model Context Protocol.
   mental_damage: Another 'official' MCP server entry that sends you to a documentation site just generic enough to make you wonder if the protocol is now mostly a directory of vibes.
   tags:
-    - mcp
     - documentation
+    - mcp
     - server
   confidence: low
 curation:
@@ -56,6 +56,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:43:53.131Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.727Z"
@@ -65,11 +73,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:43:53.131Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

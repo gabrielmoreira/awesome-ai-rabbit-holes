@@ -1,6 +1,6 @@
 id: jsonfix__lake__vercel__app
 kind: website
-name: jsonfix-lake.vercel.app
+name: JSONFix
 canonical_url: https://jsonfix-lake.vercel.app
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It provides a quick, browser-based way to un-break malformed JSON without requiring IDE extensions or new dependencies.
   mental_damage: We have successfully solved the JSON formatting crisis of 2024 by adding yet another Vercel deployment to the stack that already includes jq, Python, and five different IDE plugins.
   tags:
-    - json
-    - formatter
-    - utility
     - ai-fix
+    - formatter
+    - json
+    - utility
   confidence: high
 curation:
   status: excluded
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:45:42.962Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.728Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:45:42.962Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

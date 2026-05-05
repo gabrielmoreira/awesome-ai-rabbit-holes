@@ -1,6 +1,6 @@
 id: github__kevinelliott__agentmanager
 kind: github-repo
-name: agentmanager
+name: AgentManager
 canonical_url: https://github.com/kevinelliott/agentmanager
 identity:
   github_repo: kevinelliott/agentmanager
@@ -55,11 +55,11 @@ insights:
   why_it_matters: It centralizes the chaotic ecosystem of command-line AI agents into a single interface for installation, version management, and updates.
   mental_damage: Because nothing says 'cutting edge AI developer' like needing a dedicated package manager just to keep track of your other package managers that write code for you.
   tags:
-    - cli
-    - tui
     - agent-management
-    - tooling
+    - cli
     - go
+    - tooling
+    - tui
   confidence: medium
 curation:
   status: included
@@ -75,6 +75,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:30:34.050Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.701Z"
@@ -85,11 +93,3 @@ processing:
     updated_at: "2026-05-05T21:03:04.510Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:30:34.050Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

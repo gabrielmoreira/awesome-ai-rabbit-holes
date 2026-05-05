@@ -1,6 +1,6 @@
 id: lutra__ai
 kind: website
-name: lutra.ai
+name: Lutra AI
 canonical_url: https://lutra.ai
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It offers developers a way to automate business processes across tools like GitHub, CRMs, and spreadsheets using an agent that executes code rather than just generating text.
   mental_damage: Just when you thought you were safe from 'AI assistants' that promise to automate your job, here comes a tool that writes code to automate the 'work' of refreshing spreadsheets and enriching CRM data.
   tags:
-    - automation
     - agent
-    - mcp
+    - automation
     - enterprise
+    - mcp
     - workflow
   confidence: high
 curation:
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:46:04.641Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.728Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:46:04.641Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

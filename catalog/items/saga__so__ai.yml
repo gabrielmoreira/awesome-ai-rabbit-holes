@@ -1,6 +1,6 @@
 id: saga__so__ai
 kind: website
-name: ai
+name: Saga
 canonical_url: https://saga.so/ai
 identity: {}
 provenance:
@@ -38,9 +38,9 @@ insights:
   why_it_matters: It offers developers a way to generate boilerplate code and documentation without leaving their notes, though its primary focus is general content creation rather than deep code editing.
   mental_damage: Yet another notification-filled workspace promising that if you just paid $8 a month, you too could stop copy-pasting code snippets from a chatbot.
   tags:
-    - workspace
     - content-generation
     - notes
+    - workspace
   confidence: high
 curation:
   status: excluded
@@ -56,6 +56,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:47:52.676Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.730Z"
@@ -65,11 +73,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:47:52.676Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

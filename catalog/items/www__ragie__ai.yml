@@ -1,6 +1,6 @@
 id: www__ragie__ai
 kind: website
-name: www.ragie.ai
+name: Ragie
 canonical_url: https://www.ragie.ai
 identity: {}
 provenance:
@@ -39,11 +39,11 @@ insights:
   why_it_matters: It allows developers to outsource the entire RAG pipeline—ingestion, chunking, and hybrid search—so they can focus on application logic rather than vector database infrastructure.
   mental_damage: Yet another magical 'context engine' promising to solve hallucination, conveniently ignoring that piping your proprietary docs into a third-party SaaS is just a new way to scatter your proprietary data across the internet.
   tags:
-    - rag
-    - mcp
-    - retrieval
-    - backend
     - api
+    - backend
+    - mcp
+    - rag
+    - retrieval
   confidence: high
 curation:
   status: included
@@ -59,6 +59,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:52:55.763Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.733Z"
@@ -68,11 +76,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:52:55.763Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

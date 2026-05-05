@@ -1,6 +1,6 @@
 id: testdriver__ai
 kind: website
-name: testdriver.ai
+name: Test Driver
 canonical_url: https://testdriver.ai
 identity: {}
 provenance:
@@ -38,11 +38,11 @@ insights:
   why_it_matters: It allows developers to generate and maintain durable test suites via MCP without relying on brittle selectors, integrating directly into CI/CD pipelines with video logs and JUnit reports.
   mental_damage: Just when you thought you were safe from maintaining a brittle Selenium grid, the AI now needs 'computer vision' to click the login button, and you're back to debugging why the robot saw a ghost element.
   tags:
-    - e2e-testing
+    - ci-cd
     - computer-vision
+    - e2e-testing
     - mcp
     - qa-automation
-    - ci-cd
   confidence: high
 curation:
   status: included
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:48:40.370Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.731Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:48:40.370Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

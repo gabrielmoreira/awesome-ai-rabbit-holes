@@ -1,6 +1,6 @@
 id: www__fiddler__ai__llmops
 kind: website
-name: llmops
+name: Fiddler AI
 canonical_url: https://www.fiddler.ai/llmops
 identity: {}
 provenance:
@@ -38,11 +38,11 @@ insights:
   why_it_matters: It gives developers and AI teams the dashboards and low-latency guardrails needed to detect hallucinations, prompt injections, and PII leaks in live AI systems.
   mental_damage: Because if you aren't obsessively measuring hallucination rates and plotting 3D UMAP clusters of your agent's failures, are you even doing enterprise LLMOps?
   tags:
+    - agentic
+    - enterprise
+    - guardrails
     - llmops
     - observability
-    - guardrails
-    - enterprise
-    - agentic
   confidence: high
 curation:
   status: included
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:50:46.130Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.732Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:50:46.130Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

@@ -1,6 +1,6 @@
 id: github__kitao__pyxel
 kind: github-repo
-name: pyxel
+name: Pyxel
 canonical_url: https://github.com/kitao/pyxel
 identity:
   github_repo: kitao/pyxel
@@ -58,10 +58,10 @@ insights:
   why_it_matters: It provides a lightweight, approachable framework for developers to prototype game logic and graphics without modern engine overhead.
   mental_damage: Another pristine toolkit for 'discovering joy in simplicity' while your actual codebase remains a sprawling, uncommented existential crisis.
   tags:
-    - python
     - game-engine
-    - retro
     - pixel-art
+    - python
+    - retro
   confidence: high
 curation:
   status: excluded
@@ -77,6 +77,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (17439) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:30:59.066Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.701Z"
@@ -87,11 +95,3 @@ processing:
     updated_at: "2026-05-05T21:03:06.623Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:30:59.066Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

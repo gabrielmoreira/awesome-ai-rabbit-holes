@@ -1,6 +1,6 @@
 id: github__op7418__codepilot
 kind: github-repo
-name: codepilot
+name: CodePilot
 canonical_url: https://github.com/op7418/codepilot
 identity:
   github_repo: op7418/codepilot
@@ -50,10 +50,10 @@ insights:
   mental_damage: Another desktop wrapper promising to unify the entire AI ecosystem, giving you one more place to wonder why your assistant remembers your birthday but not the variable you renamed three prompts ago.
   tags:
     - desktop-app
-    - multi-model
-    - mcp
-    - skills
     - electron
+    - mcp
+    - multi-model
+    - skills
   confidence: high
 curation:
   status: included
@@ -69,6 +69,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (5624) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:42:11.942Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.711Z"
@@ -79,11 +87,3 @@ processing:
     updated_at: "2026-05-05T21:04:02.393Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:42:11.942Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

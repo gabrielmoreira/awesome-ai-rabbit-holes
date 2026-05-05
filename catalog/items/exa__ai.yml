@@ -1,6 +1,6 @@
 id: exa__ai
 kind: website
-name: exa.ai
+name: Exa
 canonical_url: https://exa.ai
 identity: {}
 provenance:
@@ -38,11 +38,11 @@ insights:
   why_it_matters: It offers developers a specialized search backend with features like structured outputs and highlights to reduce token costs and improve retrieval accuracy for AI workflows.
   mental_damage: Another essential brick in the wall of 'agentic' infrastructure, ensuring your LLM can now hallucinate about Boeing's founding year with sub-180ms confidence.
   tags:
-    - search-api
-    - ai-infrastructure
-    - retrieval
-    - mcp
     - agents
+    - ai-infrastructure
+    - mcp
+    - retrieval
+    - search-api
   confidence: high
 curation:
   status: included
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:44:24.735Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.727Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:44:24.735Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

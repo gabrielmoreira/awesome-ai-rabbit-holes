@@ -1,6 +1,6 @@
 id: github__jina-ai__vectordb
 kind: github-repo
-name: vectordb
+name: VectorDB
 canonical_url: https://github.com/jina-ai/vectordb
 identity:
   github_repo: jina-ai/vectordb
@@ -48,10 +48,10 @@ insights:
   why_it_matters: It gives Python developers a familiar, no-overhead interface for embedding-based retrieval without the operational burden of heavier vector stores.
   mental_damage: Yet another 'just enough' vector database, because apparently the 47 existing ones still haven't hit the perfect balance of Pythonic minimalism and existential dread.
   tags:
-    - vector-database
-    - python
-    - vector-search
     - embeddings
+    - python
+    - vector-database
+    - vector-search
   confidence: high
 curation:
   status: included
@@ -67,6 +67,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (650) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:28:30.169Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.700Z"
@@ -77,11 +85,3 @@ processing:
     updated_at: "2026-05-05T21:02:56.038Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:28:30.169Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

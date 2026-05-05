@@ -24,17 +24,29 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 89
+    forks: 9
+    license: NOASSERTION
+    archived: false
+    created_at: "2025-09-15T08:16:40Z"
+    pushed_at: "2026-04-24T14:09:42Z"
+    description: Natural Context Provider (NCP). Your MCPs, supercharged. Find any tool instantly, load on demand, run on schedule, ready for any   client. Smart loading saves tokens and energy.
+    homepage: ""
+    topics:
+      - ai-agents
+      - claude
+      - claude-desktop
+      - gemini
+      - mcp
+      - mcp-client
+      - mcp-server
+      - openai
+      - orchestrator
+      - vector-search
+    last_checked_at: "2026-05-05T23:08:08.334Z"
+    readme:
+      fetched_at: "2026-05-05T23:08:08.334Z"
+      bytes: 27261
 insights:
   summary: null
   why_it_matters: null
@@ -58,13 +70,17 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-05T23:08:08.334Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T21:04:23.169Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-05-05T23:08:33.635Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-05-06T00:08:33.635Z"
+    attempts: 0
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

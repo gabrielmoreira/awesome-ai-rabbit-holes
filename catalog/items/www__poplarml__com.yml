@@ -1,6 +1,6 @@
 id: www__poplarml__com
 kind: website
-name: www.poplarml.com
+name: PoplarML
 canonical_url: https://www.poplarml.com
 identity: {}
 provenance:
@@ -38,8 +38,8 @@ insights:
   why_it_matters: It serves as a curated entry point for developers looking to experiment with or deploy AI models in private, local environments rather than relying on hosted APIs.
   mental_damage: Yet another directory promising to tame the local AI chaos, just in case you needed one more tab open to remind you how many inference engines you haven't tried yet.
   tags:
-    - local-ai
     - directory
+    - local-ai
     - resources
   confidence: medium
 curation:
@@ -56,6 +56,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:52:37.134Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.733Z"
@@ -65,11 +73,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:52:37.134Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

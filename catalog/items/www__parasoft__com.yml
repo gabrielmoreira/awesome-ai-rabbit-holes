@@ -1,6 +1,6 @@
 id: www__parasoft__com
 kind: website
-name: www.parasoft.com
+name: Parasoft
 canonical_url: https://www.parasoft.com
 identity: {}
 provenance:
@@ -38,11 +38,11 @@ insights:
   why_it_matters: It integrates agentic AI to generate tests, fix UI tests, and prioritize code violations directly within existing CI/CD pipelines and IDE workflows.
   mental_damage: Just when you thought the 'AI fixed the bug' notification was the finish line, now you get to debug the AI that is managing the tests that are testing the AI-generated code.
   tags:
-    - testing
-    - qa
-    - enterprise
-    - static-analysis
     - ci-cd
+    - enterprise
+    - qa
+    - static-analysis
+    - testing
   confidence: high
 curation:
   status: excluded
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:52:29.309Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.733Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:52:29.309Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

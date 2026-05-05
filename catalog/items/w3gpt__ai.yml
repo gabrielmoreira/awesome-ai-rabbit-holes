@@ -1,6 +1,6 @@
 id: w3gpt__ai
 kind: website
-name: w3gpt.ai
+name: Web3 GPT
 canonical_url: https://w3gpt.ai
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It allows developers to skip writing Solidity boilerplate by generating and deploying contracts directly from a chat interface.
   mental_damage: Because what the world definitely needed was another 'GPT' wrapper that turns natural language into immutable, expensive mistakes on a public ledger.
   tags:
-    - web3
-    - smart-contracts
     - chat-interface
     - onchain
+    - smart-contracts
+    - web3
   confidence: medium
 curation:
   status: included
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:49:08.867Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.731Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:49:08.867Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

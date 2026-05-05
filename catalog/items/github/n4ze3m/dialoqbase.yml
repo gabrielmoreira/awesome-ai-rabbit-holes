@@ -1,6 +1,6 @@
 id: github__n4ze3m__dialoqbase
 kind: github-repo
-name: dialoqbase
+name: Dialoqbase
 canonical_url: https://github.com/n4ze3m/dialoqbase
 identity:
   github_repo: n4ze3m/dialoqbase
@@ -62,8 +62,8 @@ insights:
   mental_damage: Because what the modern developer truly needed was yet another self-hosted UI to manage vector stores, sitting right next to the other six we already deployed and forgot about.
   tags:
     - chatbot
-    - rag
     - langchain
+    - rag
     - self-hosted
     - vector-search
   confidence: high
@@ -81,6 +81,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (1788) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:39:49.288Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.709Z"
@@ -91,11 +99,3 @@ processing:
     updated_at: "2026-05-05T21:03:50.814Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:39:49.288Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

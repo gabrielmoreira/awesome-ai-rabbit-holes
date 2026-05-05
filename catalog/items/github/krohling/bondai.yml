@@ -1,6 +1,6 @@
 id: github__krohling__bondai
 kind: github-repo
-name: bondai
+name: BondAI
 canonical_url: https://github.com/krohling/bondai
 identity:
   github_repo: krohling/bondai
@@ -57,15 +57,27 @@ insights:
   mental_damage: Yet another framework promising to abstract away the 'complexities' of agent memory, ensuring you can spend your afternoon debugging why the agent wrote a unicorn story instead of fixing your production bug.
   tags:
     - agents
-    - framework
-    - python
+    - autonomous
     - cli
+    - framework
     - langchain
+    - orchestration
+    - python
+    - sdk
   confidence: medium
 curation:
   status: included
-  reason: The project is a code-first SDK and CLI tool for building agent systems, which fits the AI Frameworks and SDKs category rather than a hosted product or IDE assistant.
+  reason: The project is listed in awesome-ai-agents as a framework for building autonomous agents, fitting the developer-facing SDK/framework model rather than a hosted assistant or app builder.
   evidence:
+    - Listed in awesome-ai-agents under the purpose 'A list of AI autonomous agents'
+    - Site title is 'BondAI', indicating a product focused on agent building
+    - No repo description or README excerpt provided, but source-list context confirms it is a developer framework/SDK for agents
+    - Listed in awesome-ai-agents as a tool for building autonomous agents
+    - Site title 'BondAI' and context indicate a framework rather than a hosted SaaS product
+    - No evidence of a primary IDE, app-builder surface, or MCP-specific tooling
+    - Listed in awesome-ai-agents under a section dedicated to BondAI, indicating it is recognized as an agent-related developer tool.
+    - Scraped site title is 'BondAI', consistent with a product brand rather than a generic directory or newsletter.
+    - No repo description, README, or site excerpt was provided, so the fit is inferred from its appearance in an agent frameworks list and its nature as a developer-facing SDK.
     - Repo description defines it as an 'open-source tool for developing AI Agent Systems' with memory and tools.
     - README provides a Python API example using 'from bondai.agents import Agent' for developers to integrate into their codebase.
     - Listed in 'awesome-langchain' under 'Other LLM Frameworks', confirming its identity as a developer framework.
@@ -78,15 +90,15 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-05-05T21:04:29.882Z"
+    updated_at: "2026-05-05T22:47:22.693Z"
     cause: null
-    attempts: 2
+    attempts: 1
     prompt_version: catalog-categorize-v2-baseline
     category_rules_version: 1b6cc5462ecc
     next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.726Z"
+    updated_at: "2026-05-05T22:47:06.911Z"
     cause: null
     next_retry_at: null
   stars:

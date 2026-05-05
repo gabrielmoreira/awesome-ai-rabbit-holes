@@ -1,6 +1,6 @@
 id: github__deepchecks__deepchecks
 kind: github-repo
-name: deepchecks
+name: Deepchecks
 canonical_url: https://github.com/deepchecks/deepchecks
 identity:
   github_repo: deepchecks/deepchecks
@@ -56,9 +56,9 @@ insights:
   why_it_matters: It lets ML engineers codify data integrity, model performance, and drift checks directly into CI pipelines and production monitoring instead of relying on ad-hoc analysis.
   mental_damage: Now you can add 'continuous validation' to your resume while quietly praying your carefully tuned checks don't flag your entire dataset as statistical garbage the night before a launch.
   tags:
+    - data-drift
     - mlops
     - model-validation
-    - data-drift
     - python
     - testing
   confidence: high
@@ -76,6 +76,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (4011) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:16:00.848Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.684Z"
@@ -86,11 +94,3 @@ processing:
     updated_at: "2026-05-05T21:01:50.931Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:16:00.848Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

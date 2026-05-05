@@ -1,13 +1,13 @@
 id: github__fminference__flexgen
 kind: github-repo
-name: flexgen
+name: FlexGen
 canonical_url: https://github.com/fminference/flexgen
 identity:
   github_repo: fminference/flexgen
 provenance:
   discoveries:
     - id: discovery__github__fminference__flexgen__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T20:48:55.437Z"
+      discovered_at: "2026-05-05T22:33:31.148Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -40,27 +40,20 @@ metadata:
       - machine-learning
       - offloading
       - opt
-    last_checked_at: "2026-05-05T21:02:13.664Z"
+    last_checked_at: "2026-05-05T23:07:50.925Z"
     readme:
-      fetched_at: "2026-05-05T21:02:13.664Z"
+      fetched_at: "2026-05-05T23:07:50.925Z"
       bytes: 12666
 insights:
-  summary: FlexLLMGen is a high-throughput inference engine for running large language models on a single commodity GPU using offloading and compression techniques.
-  why_it_matters: It allows developers to run batch-oriented LLM workloads like data wrangling and benchmarking on affordable hardware rather than expensive multi-GPU clusters.
-  mental_damage: Yet another chance to discover that your 'commodity GPU' is still weeping silently in a corner while you wait eight hours for a batch job to finish.
-  tags:
-    - llm-inference
-    - local-ai
-    - batch-processing
-    - gpu-optimization
-  confidence: high
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
 curation:
-  status: excluded
-  reason: The project is archived and functions as a low-level machine learning inference engine rather than a developer-facing AI tool or workflow aid.
-  evidence:
-    - Repo is marked as archived, indicating it is no longer actively maintained.
-    - Focus is on LLM serving and offloading (listed in Awesome-LLMOps under 'Large Model Serving'), not developer tooling.
-    - No clear connection to coding agents, IDEs, app builders, or developer workflow infrastructure.
+  status: pending
+  reason: null
+  evidence: []
 placement:
   primary_category: null
   section: null
@@ -68,21 +61,23 @@ lifecycle:
   status: needs_review
   reason: Repository is archived
 processing:
+  categorize:
+    status: deferred
+    updated_at: "2026-05-05T23:08:33.635Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-05-06T00:08:33.635Z"
+    attempts: 0
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.441Z"
+    updated_at: "2026-05-05T22:33:31.150Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:13.664Z"
+    updated_at: "2026-05-05T23:07:50.926Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:19:58.126Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

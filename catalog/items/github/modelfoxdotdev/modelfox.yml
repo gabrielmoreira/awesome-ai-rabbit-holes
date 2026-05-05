@@ -1,6 +1,6 @@
 id: github__modelfoxdotdev__modelfox
 kind: github-repo
-name: modelfox
+name: ModelFox
 canonical_url: https://github.com/modelfoxdotdev/modelfox
 identity:
   github_repo: modelfoxdotdev/modelfox
@@ -61,9 +61,9 @@ insights:
   why_it_matters: It offers developers a batteries-included, language-agnostic path to ship and monitor ML models without requiring deep data science expertise or heavy cloud infrastructure.
   mental_damage: Yet another reminder that while we're all debating GPT-5 agents, the actual model quietly deciding whether your chest pain is real is still a gradient boosted tree you trained from a CSV in 2021.
   tags:
-    - mlops
     - automl
     - cli
+    - mlops
     - monitoring
     - multi-language
   confidence: high
@@ -81,6 +81,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (1468) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:38:49.072Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.708Z"
@@ -91,11 +99,3 @@ processing:
     updated_at: "2026-05-05T21:03:45.450Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:38:49.072Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

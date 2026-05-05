@@ -1,6 +1,6 @@
 id: cursorlist__com
 kind: website
-name: cursorlist.com
+name: CursorList
 canonical_url: https://cursorlist.com
 identity: {}
 provenance:
@@ -39,9 +39,9 @@ insights:
   mental_damage: We have successfully abstracted the task of writing code into the task of curating the perfect YAML-adjacent text file to convince the robot how to write code.
   tags:
     - cursor
+    - directory
     - prompts
     - rules
-    - directory
   confidence: high
 curation:
   status: included
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:43:36.605Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.727Z"
@@ -68,11 +76,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:43:36.605Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

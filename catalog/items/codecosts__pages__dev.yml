@@ -1,6 +1,6 @@
 id: codecosts__pages__dev
 kind: website
-name: codecosts.pages.dev
+name: CodeCosts
 canonical_url: https://codecosts.pages.dev
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It helps developers and engineering leaders navigate the chaotic pricing landscape of AI coding tools to find the best fit for their budget and IDE.
   mental_damage: Because nothing says 'focus on shipping' like spending three hours comparing rate limits on eight different $20/month subscriptions before writing a single line of code.
   tags:
-    - pricing
-    - comparison
     - ai-tools
+    - comparison
     - directory
+    - pricing
   confidence: high
 curation:
   status: included
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:43:02.759Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.726Z"
@@ -68,11 +76,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:43:02.759Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

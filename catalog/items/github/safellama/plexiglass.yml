@@ -1,6 +1,6 @@
 id: github__safellama__plexiglass
 kind: github-repo
-name: plexiglass
+name: Plexiglass
 canonical_url: https://github.com/safellama/plexiglass
 identity:
   github_repo: safellama/plexiglass
@@ -24,47 +24,66 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 154
+    forks: 17
+    license: Apache-2.0
+    archived: false
+    created_at: "2020-11-12T04:02:50Z"
+    pushed_at: "2026-02-04T22:18:58Z"
+    description: A toolkit for detecting and protecting against vulnerabilities in Large Language Models (LLMs).
+    homepage: ""
+    topics:
+      - adversarial-attacks
+      - adversarial-machine-learning
+      - cybersecurity
+      - deep-learning
+      - deep-neural-networks
+      - machine-learning
+      - security
+    last_checked_at: "2026-05-05T21:03:07.986Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:07.986Z"
+      bytes: 2730
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A CLI toolkit for testing LLMs against adversarial attacks like prompt injection and jailbreaking, while benchmarking models for security, bias, and toxicity.
+  why_it_matters: It gives developers a command-line workflow to scan and benchmark their LLM deployments for vulnerabilities before shipping them to production.
+  mental_damage: Finally, a tool to scientifically prove that your carefully aligned model will still tell users how to build a meth lab if they just ask nicely enough.
+  tags:
+    - adversarial-attacks
+    - benchmarking
+    - cli
+    - evals
+    - llm-security
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The project is a developer-facing CLI and framework for benchmarking and evaluating LLM security, safety, and toxicity, which fits the Evaluations and Benchmarks category.
+  evidence:
+    - Repo description explicitly states it is a 'toolkit for detecting and protecting against vulnerabilities in Large Language Models (LLMs)'
+    - README defines 'llm-scan' mode as running benchmarks to 'identify and assess various vulnerabilities' and 'llm-chat' for measuring metrics like toxicity.
+    - Listed under 'Awesome-LLMOps' in the 'Security > Frameworks for LLM security' section.
 placement:
-  primary_category: null
+  primary_category: evals
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (154) exceeded threshold (150)
 processing:
   categorize:
-    status: skipped
-    updated_at: "2026-05-05T21:04:23.169Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-05-05T21:31:17.920Z"
+    cause: null
     next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.702Z"
+    updated_at: "2026-05-05T20:48:55.442Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-05T21:03:07.986Z"
     cause: null
+    next_retry_at: null

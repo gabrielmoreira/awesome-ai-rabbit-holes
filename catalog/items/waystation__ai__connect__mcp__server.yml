@@ -1,6 +1,6 @@
 id: waystation__ai__connect__mcp__server
 kind: website
-name: mcp-server
+name: WayStation
 canonical_url: https://waystation.ai/connect/mcp-server
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It allows developers to quickly bridge MCP-compatible hosts like Claude or ChatGPT with external tools without writing custom server code.
   mental_damage: We have successfully abstracted the abstraction, meaning you can now pay a SaaS to manage the protocol that was supposed to simplify integrations in the first place.
   tags:
-    - mcp
     - integration
-    - no-code
+    - mcp
     - middleware
+    - no-code
   confidence: medium
 curation:
   status: included
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:49:10.411Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.731Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:49:10.411Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

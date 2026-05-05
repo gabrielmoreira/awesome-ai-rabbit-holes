@@ -1,6 +1,6 @@
 id: bitrise__io
 kind: website
-name: bitrise.io
+name: Bitrise
 canonical_url: https://bitrise.io
 identity: {}
 provenance:
@@ -39,11 +39,11 @@ insights:
   why_it_matters: It provides a specialized, managed pipeline for mobile teams to ship faster with features like remote build caching, automated code signing, and AI-assisted debugging.
   mental_damage: We have successfully automated the entire mobile release pipeline so thoroughly that 'Bitrise AI' can now theoretically fix the build failures caused by the very complexity of the CI system we just bought.
   tags:
+    - ai-fixes
+    - bitrise
+    - build-automation
     - ci-cd
     - mobile-devops
-    - ai-fixes
-    - build-automation
-    - bitrise
   confidence: high
 curation:
   status: excluded
@@ -59,6 +59,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:42:34.148Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.726Z"
@@ -68,11 +76,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:42:34.148Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

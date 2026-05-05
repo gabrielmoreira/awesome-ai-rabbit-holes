@@ -1,6 +1,6 @@
 id: github__commandcodeai__command-code
 kind: github-repo
-name: command-code
+name: Command Code
 canonical_url: https://github.com/commandcodeai/command-code
 identity:
   github_repo: commandcodeai/command-code
@@ -57,9 +57,9 @@ insights:
   tags:
     - cli
     - coding-agent
+    - npm
     - taste
     - terminal
-    - npm
   confidence: high
 curation:
   status: included
@@ -75,6 +75,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (3153) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:14:04.486Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.683Z"
@@ -85,11 +93,3 @@ processing:
     updated_at: "2026-05-05T21:01:39.405Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:14:04.486Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

@@ -1,6 +1,6 @@
 id: github__kurtosis-tech__kurtosis
 kind: github-repo
-name: kurtosis
+name: Kurtosis
 canonical_url: https://github.com/kurtosis-tech/kurtosis
 identity:
   github_repo: kurtosis-tech/kurtosis
@@ -56,11 +56,11 @@ insights:
   why_it_matters: It lets developers reuse complex stack definitions across local dev, CI, and cluster testing with one-liner launches instead of glue scripts and YAML sprawl.
   mental_damage: Now you can orchestrate multi-service ephemeral environments with Starlark packages and Claude Code skills, because plain Docker Compose clearly wasn’t enough abstraction for a Tuesday.
   tags:
-    - devops
-    - infrastructure
     - claude-code
-    - orchestration
+    - devops
     - docker
+    - infrastructure
+    - orchestration
   confidence: high
 curation:
   status: included
@@ -76,6 +76,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (539) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:32:37.845Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.703Z"
@@ -86,11 +94,3 @@ processing:
     updated_at: "2026-05-05T21:03:13.655Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:32:37.845Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

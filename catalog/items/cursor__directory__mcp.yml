@@ -1,6 +1,6 @@
 id: cursor__directory__mcp
 kind: website
-name: mcp
+name: Cursor MCP Directory
 canonical_url: https://cursor.directory/mcp
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It acts as a discovery hub for developers looking to extend Cursor's capabilities by connecting it to external tools via the MCP standard.
   mental_damage: Another meta-layer of indirection where you now have to shop for the specific protocol adapter that lets your AI editor talk to the tools you already have.
   tags:
-    - mcp
     - cursor
     - directory
     - integrations
+    - mcp
   confidence: high
 curation:
   status: included
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:43:28.216Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.727Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:43:28.216Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

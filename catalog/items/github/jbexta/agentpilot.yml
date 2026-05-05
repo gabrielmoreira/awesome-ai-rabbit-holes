@@ -1,6 +1,6 @@
 id: github__jbexta__agentpilot
 kind: github-repo
-name: agentpilot
+name: AgentPilot
 canonical_url: https://github.com/jbexta/agentpilot
 identity:
   github_repo: jbexta/agentpilot
@@ -60,9 +60,9 @@ insights:
   mental_damage: Yet another canvas promising to wrangle your agents into a coherent workflow, just waiting for you to believe this diagram won’t become tomorrow’s legacy spaghetti.
   tags:
     - agent-orchestration
-    - workflow-automation
     - desktop-gui
     - multi-agent
+    - workflow-automation
   confidence: high
 curation:
   status: included
@@ -78,6 +78,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (553) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:28:00.837Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.699Z"
@@ -88,11 +96,3 @@ processing:
     updated_at: "2026-05-05T21:02:53.181Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:28:00.837Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

@@ -24,17 +24,25 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 3011
+    forks: 1074
+    license: MIT
+    archived: false
+    created_at: "2021-03-09T19:42:10Z"
+    pushed_at: "2026-05-05T16:59:31Z"
+    description: Jupyter Notebooks to help you get hands-on with Pinecone vector databases
+    homepage: ""
+    topics:
+      - ai
+      - jupyter-notebook
+      - llm
+      - python
+      - semantic-search
+      - vector-database
+    last_checked_at: "2026-05-05T23:08:05.831Z"
+    readme:
+      fetched_at: "2026-05-05T23:08:05.831Z"
+      bytes: 1648
 insights:
   summary: null
   why_it_matters: null
@@ -49,8 +57,8 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (3011) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -58,15 +66,17 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-05-05T21:04:18.376Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for pinecone-io/examples
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T21:04:23.169Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-05-05T23:08:05.831Z"
+    cause: null
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-05-05T23:08:33.635Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-05-06T00:08:33.635Z"
+    attempts: 0
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,6 +1,6 @@
 id: github__flowy11__imagician
 kind: github-repo
-name: imagician
+name: Imagician
 canonical_url: https://github.com/flowy11/imagician
 identity:
   github_repo: flowy11/imagician
@@ -41,10 +41,10 @@ insights:
   why_it_matters: It lets AI coding agents directly manipulate images in a project workflow without developers switching to external graphics tools or writing one-off scripts.
   mental_damage: You now have an AI agent that can rotate your JPEGs, but it still cannot reliably center a div.
   tags:
-    - mcp
-    - image-editing
     - claude-code
     - cursor
+    - image-editing
+    - mcp
   confidence: high
 curation:
   status: included
@@ -60,6 +60,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:19:48.117Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.687Z"
@@ -70,11 +78,3 @@ processing:
     updated_at: "2026-05-05T21:02:12.695Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:19:48.117Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

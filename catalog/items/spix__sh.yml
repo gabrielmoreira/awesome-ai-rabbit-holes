@@ -1,6 +1,6 @@
 id: spix__sh
 kind: website
-name: spix.sh
+name: Free tier available
 canonical_url: https://spix.sh
 identity: {}
 provenance:
@@ -39,8 +39,8 @@ insights:
   why_it_matters: It provides developers with a standardized MCP server to integrate communication capabilities into their AI agent toolchains.
   mental_damage: Another essential tile in the ever-expanding mosaic of MCP servers, ensuring your agent can theoretically talk to everything except the human who actually understands the requirements.
   tags:
-    - mcp
     - communication
+    - mcp
     - server
   confidence: medium
 curation:
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:48:20.239Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.730Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:48:20.239Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

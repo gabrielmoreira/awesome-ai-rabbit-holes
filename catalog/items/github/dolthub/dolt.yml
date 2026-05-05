@@ -1,6 +1,6 @@
 id: github__dolthub__dolt
 kind: github-repo
-name: dolt
+name: Dolt
 canonical_url: https://github.com/dolthub/dolt
 identity:
   github_repo: dolthub/dolt
@@ -62,11 +62,11 @@ insights:
   why_it_matters: It provides a version-controlled storage layer suitable for agent memory and multi-agent workflows where tracking state changes and provenance is critical.
   mental_damage: We have successfully version-controlled the last remaining thing that wasn't meant to be merged, rebased, or conflicted like a poorly managed feature branch.
   tags:
-    - database
-    - version-control
     - agent-memory
-    - sql
+    - database
     - git-for-data
+    - sql
+    - version-control
   confidence: high
 curation:
   status: included
@@ -82,6 +82,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (22535) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:16:51.755Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.685Z"
@@ -92,11 +100,3 @@ processing:
     updated_at: "2026-05-05T21:01:55.654Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:16:51.755Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

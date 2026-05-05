@@ -1,6 +1,6 @@
 id: github__agentbench__agentbench
 kind: github-repo
-name: agentbench
+name: AgentBench
 canonical_url: https://github.com/agentbench/agentbench
 identity:
   github_repo: agentbench/agentbench
@@ -42,9 +42,9 @@ insights:
   why_it_matters: It lets developers measure how much their specific agent configuration, prompts, and tooling choices actually matter compared to just swapping models.
   mental_damage: Finally, a scientific way to prove that your colleague's 'optimized' agent config is just 30 points of prompt snake oil.
   tags:
+    - agent
     - benchmark
     - eval
-    - agent
     - tooling
   confidence: high
 curation:
@@ -61,6 +61,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:06:07.589Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.676Z"
@@ -71,11 +79,3 @@ processing:
     updated_at: "2026-05-05T21:00:50.840Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:06:07.589Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

@@ -1,6 +1,6 @@
 id: github__federatedai__fate
 kind: github-repo
-name: fate
+name: FATE
 canonical_url: https://github.com/federatedai/fate
 identity:
   github_repo: federatedai/fate
@@ -47,10 +47,10 @@ insights:
   mental_damage: Watch as 'privacy-preserving' becomes the new 'blockchain-enabled' buzzword tacked onto every ML pipeline, despite requiring a PhD just to configure the MPC protocols.
   tags:
     - federated-learning
-    - privacy
-    - machine-learning
     - framework
     - llmops
+    - machine-learning
+    - privacy
   confidence: high
 curation:
   status: excluded
@@ -66,6 +66,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (6069) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:19:13.880Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.687Z"
@@ -76,11 +84,3 @@ processing:
     updated_at: "2026-05-05T21:02:09.326Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:19:13.880Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

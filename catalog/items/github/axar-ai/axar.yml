@@ -1,6 +1,6 @@
 id: github__axar-ai__axar
 kind: github-repo
-name: axar
+name: Axar
 canonical_url: https://github.com/axar-ai/axar
 identity:
   github_repo: axar-ai/axar
@@ -53,10 +53,10 @@ insights:
   why_it_matters: It offers developers a minimal, code-first way to build reliable agent workflows without the overhead and abstraction layers common in larger frameworks.
   mental_damage: Yet another TypeScript framework promising to be the 'simple' one, because clearly the 157 other agent frameworks were just too complex for us to handle.
   tags:
-    - typescript
     - agent-framework
     - llm
     - nodejs
+    - typescript
   confidence: high
 curation:
   status: included
@@ -72,6 +72,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (158) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:09:52.052Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.680Z"
@@ -82,11 +90,3 @@ processing:
     updated_at: "2026-05-05T21:01:14.759Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:09:52.052Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

@@ -1,13 +1,13 @@
 id: github__explodinggradients__ragas
 kind: github-repo
-name: ragas
+name: RAGAS
 canonical_url: https://github.com/explodinggradients/ragas
 identity:
   github_repo: explodinggradients/ragas
 provenance:
   discoveries:
     - id: discovery__github__explodinggradients__ragas__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-05T20:48:55.437Z"
+      discovered_at: "2026-05-05T22:33:31.148Z"
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "| [RAGAS](https://github.com/explodinggradients/ragas) | Evaluation framework for RAG systems |"
         confidence: high
     - id: discovery__github__explodinggradients__ragas__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T20:48:55.437Z"
+      discovered_at: "2026-05-05T22:33:31.148Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -39,8 +39,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 13773
-    forks: 1393
+    stars: 13774
+    forks: 1394
     license: Apache-2.0
     archived: false
     created_at: "2023-05-08T17:48:04Z"
@@ -51,50 +51,44 @@ metadata:
       - evaluation
       - llm
       - llmops
-    last_checked_at: "2026-05-05T21:02:06.885Z"
+    last_checked_at: "2026-05-05T23:07:49.869Z"
     readme:
-      fetched_at: "2026-05-05T21:02:06.885Z"
+      fetched_at: "2026-05-05T23:07:49.869Z"
       bytes: 6996
 insights:
-  summary: Ragas is a Python toolkit for evaluating and optimizing LLM applications through objective metrics, automated test data generation, and production-data feedback loops.
-  why_it_matters: It provides developers with the metrics and test harnesses needed to move LLM application development from vibes-based guessing to measurable, data-driven iteration.
-  mental_damage: You can now scientifically prove that your RAG pipeline is only 68% accurate, which is exactly the kind of precise metric you need before ignoring it and shipping anyway.
-  tags:
-    - llm-evals
-    - rag
-    - testing
-    - metrics
-    - python
-  confidence: high
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
 curation:
-  status: included
-  reason: The project is a dedicated evaluation framework and toolkit for measuring LLM application quality, which is a precise match for the Evaluations and Benchmarks category.
-  evidence:
-    - "Repo description: 'Supercharge Your LLM Application Evaluations'"
-    - "README excerpt: 'Objective metrics, intelligent test generation, and data-driven insights for LLM apps'"
-    - Listed in awesome-agent-orchestration under 'Evaluation & Benchmarking'
+  status: pending
+  reason: null
+  evidence: []
 placement:
-  primary_category: evals
+  primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
-  reason: Stars (13773) exceeded threshold (150)
+  reason: Stars (13774) exceeded threshold (150)
 processing:
+  categorize:
+    status: deferred
+    updated_at: "2026-05-05T23:08:33.635Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-05-06T00:08:33.635Z"
+    attempts: 0
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.439Z"
+    updated_at: "2026-05-05T22:33:31.149Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:06.885Z"
+    updated_at: "2026-05-05T23:07:49.869Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:18:49.963Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

@@ -1,6 +1,6 @@
 id: github__j0hanz__filesystem-mcp
 kind: github-repo
-name: filesystem-context-mcp-server
+name: j0hanz/filesystem-context-mcp-server
 canonical_url: https://github.com/j0hanz/filesystem-mcp
 identity:
   github_repo: j0hanz/filesystem-mcp
@@ -8,6 +8,22 @@ provenance:
   discoveries:
     - id: discovery__github__j0hanz__filesystem-context-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
       discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📂 <a name="file-systems"></a>File Systems
+        anchor_text: j0hanz/filesystem-context-mcp-server
+        extracted_url: https://github.com/j0hanz/filesystem-context-mcp-server
+        surrounding_text: "- [j0hanz/filesystem-context-mcp-server](https://github.com/j0hanz/filesystem-context-mcp-server) 📇 🏠 - Read-only MCP server for secure filesystem exploration, searching, and analysis with symlink protection."
+        confidence: high
+    - id: discovery__github__j0hanz__filesystem-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T22:33:31.148Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -51,25 +67,29 @@ metadata:
       - searching
       - typescript
       - write
-    last_checked_at: "2026-05-05T21:02:48.813Z"
+    last_checked_at: "2026-05-05T21:02:49.457Z"
     readme:
-      fetched_at: "2026-05-05T21:02:48.813Z"
+      fetched_at: "2026-05-05T21:02:49.457Z"
       bytes: 45289
 insights:
-  summary: A local filesystem MCP server that provides 18 tools for reading, writing, searching, diffing, and patching files with sandboxing and access controls.
-  why_it_matters: It gives AI assistants and coding agents controlled, structured access to the local filesystem across multiple hosts including VS Code, Cursor, and LM Studio.
-  mental_damage: We have now successfully abstracted file I/O into a protocol server so our LLMs can safely overwrite our source code with the same confidence they bring to hallucinating imports.
+  summary: A local filesystem MCP server that provides AI assistants and agents with controlled, structured access to read, write, search, diff, and patch files within explicitly allowed directories.
+  why_it_matters: It gives coding agents and AI IDEs a secure, standardized way to interact with the local filesystem without opening the door to unbounded path traversal or uncontrolled file manipulation.
+  mental_damage: Another MCP server enters the arena, promising that this time your agent will only destroy the files you explicitly allowed it to destroy.
   tags:
-    - mcp
     - filesystem
-    - typescript
     - local-ai
+    - mcp
+    - security
     - tools
-  confidence: medium
+    - typescript
+  confidence: high
 curation:
   status: included
-  reason: The project is a dedicated Model Context Protocol server providing filesystem tooling, which cleanly fits the MCP Servers and Tooling category.
+  reason: The project is itself an MCP server implementation, making it a textbook fit for the MCP Servers and Tooling category.
   evidence:
+    - Repo description explicitly calls it 'A local filesystem MCP server'
+    - README states it is 'A secure, production-ready Model Context Protocol server' with 18 filesystem tools
+    - Listed under 'Server Implementations > File Systems' in the awesome-mcp-servers directory
     - Repo description explicitly states 'A local filesystem MCP server'
     - README states 'A secure, production-ready Model Context Protocol server that gives AI assistants controlled access to the local filesystem'
     - Provides 18 filesystem tools with structured output schemas and dual transport (stdio and HTTP)
@@ -82,7 +102,7 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-05-05T21:27:04.298Z"
+    updated_at: "2026-05-05T21:27:05.914Z"
     cause: null
     next_retry_at: null
     attempts: 1
@@ -90,11 +110,11 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.699Z"
+    updated_at: "2026-05-05T22:33:31.151Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:48.813Z"
+    updated_at: "2026-05-05T21:02:49.457Z"
     cause: null
     next_retry_at: null

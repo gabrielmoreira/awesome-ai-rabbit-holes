@@ -1,6 +1,6 @@
 id: jayex__io
 kind: website
-name: jayex.io
+name: Jenkins X
 canonical_url: https://jayex.io
 identity: {}
 provenance:
@@ -39,9 +39,9 @@ insights:
   mental_damage: Just when you thought your YAML-wrangling days were over, the solution is apparently a specialized CI/CD platform that requires you to learn an entirely new GitOps abstraction layer to avoid learning the underlying container orchestration.
   tags:
     - ci-cd
+    - devops
     - gitops
     - kubernetes
-    - devops
   confidence: high
 curation:
   status: excluded
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:45:39.541Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.728Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:45:39.541Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

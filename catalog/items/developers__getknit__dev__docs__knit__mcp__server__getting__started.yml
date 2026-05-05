@@ -1,6 +1,6 @@
 id: developers__getknit__dev__docs__knit__mcp__server__getting__started
 kind: website
-name: knit-mcp-server-getting-started
+name: Knit MCP
 canonical_url: https://developers.getknit.dev/docs/knit-mcp-server-getting-started
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It allows developers to instantly package dozens of SaaS API integrations (HRIS, CRM, ATS) into a single MCP endpoint for LangGraph, LangChain, or OpenAI assistants without writing custom connector code.
   mental_damage: We have successfully abstracted the job of writing API integrations into the job of clicking through a wizard to generate a URL that acts as an integration.
   tags:
+    - agent-tooling
+    - integrations
     - mcp
     - saas
-    - integrations
-    - agent-tooling
   confidence: high
 curation:
   status: included
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:43:42.374Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.727Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:43:42.374Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

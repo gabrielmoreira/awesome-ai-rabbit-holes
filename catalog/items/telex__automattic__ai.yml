@@ -1,6 +1,6 @@
 id: telex__automattic__ai
 kind: website
-name: telex.automattic.ai
+name: CodeWP
 canonical_url: https://telex.automattic.ai
 identity: {}
 provenance:
@@ -38,9 +38,9 @@ insights:
   why_it_matters: It lets developers and non-developers rapidly scaffold complete WordPress sites and plugins through prompt-driven generation rather than manual setup.
   mental_damage: Another reminder that even the CMS faithful are now pretending they can ship a whole WordPress project without ever looking at a theme file.
   tags:
-    - wordpress
     - app-builder
     - prompt-to-app
+    - wordpress
   confidence: medium
 curation:
   status: included
@@ -56,6 +56,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:48:36.869Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.731Z"
@@ -65,11 +73,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:48:36.869Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

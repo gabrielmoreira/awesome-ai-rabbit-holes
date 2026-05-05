@@ -1,6 +1,6 @@
 id: katalon__com
 kind: website
-name: katalon.com
+name: Katalon Studio
 canonical_url: https://katalon.com
 identity: {}
 provenance:
@@ -38,11 +38,11 @@ insights:
   why_it_matters: It offers developers and QA teams an agentic workflow to automate the full testing lifecycle—from requirement analysis to production monitoring—without requiring deep automation scripting.
   mental_damage: Yet another 'agentic' platform promising to automate the boring testing work, ensuring you can spend 100% of your time arguing with the AI about why the test it just wrote doesn't actually cover the edge case you whispered about three days ago.
   tags:
-    - qa
-    - testing
     - agents
     - automation
     - ci-cd
+    - qa
+    - testing
   confidence: high
 curation:
   status: included
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:45:48.356Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.728Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:45:48.356Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

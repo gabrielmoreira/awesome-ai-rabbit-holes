@@ -1,6 +1,6 @@
 id: github__botpress__botpress
 kind: github-repo
-name: botpress
+name: Botpress
 canonical_url: https://github.com/botpress/botpress
 identity:
   github_repo: botpress/botpress
@@ -53,11 +53,11 @@ insights:
   why_it_matters: It provides developers with a structured way to build conversational AI using code-first tools like the Botpress SDK and CLI, alongside a marketplace for public integrations.
   mental_damage: "Just what the world needed: another 'ultimate platform' to ensure your weekend project is now a conversational interface with a 14k-star reputation to maintain."
   tags:
+    - agent
+    - botpress
     - chatbot
     - llm
     - sdk
-    - botpress
-    - agent
   confidence: high
 curation:
   status: included
@@ -73,6 +73,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (14671) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:11:24.579Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.681Z"
@@ -83,11 +91,3 @@ processing:
     updated_at: "2026-05-05T21:01:24.298Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:11:24.579Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

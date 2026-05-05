@@ -1,6 +1,6 @@
 id: huggingface__co__tiiuae__falcon__40b__instruct
 kind: website
-name: falcon-40b-instruct
+name: Falcon 40B
 canonical_url: https://huggingface.co/tiiuae/falcon-40b-instruct
 identity: {}
 provenance:
@@ -39,11 +39,11 @@ insights:
   why_it_matters: Developers can use this Apache 2.0-licensed model as a high-performing, open-weight foundation for self-hosted inference, fine-tuning, or as an alternative to closed-source LLMs in their pipelines.
   mental_damage: Another open-weight titan enters the arena, kindly reminding you that your local GPU budget is now measured in 'how many kidneys do I actually need'.
   tags:
-    - llm
-    - text-generation
-    - open-source
     - huggingface
     - inference
+    - llm
+    - open-source
+    - text-generation
   confidence: high
 curation:
   status: excluded
@@ -59,6 +59,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:45:32.932Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.728Z"
@@ -70,11 +78,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:45:32.932Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

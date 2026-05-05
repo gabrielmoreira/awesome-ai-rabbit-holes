@@ -1,6 +1,6 @@
 id: github__onnx__onnx-mlir
 kind: github-repo
-name: onnx-mlir
+name: ONNX-MLIR
 canonical_url: https://github.com/onnx/onnx-mlir
 identity:
   github_repo: onnx/onnx-mlir
@@ -42,10 +42,10 @@ insights:
   why_it_matters: It allows developers to deploy optimized neural network models as standalone C, Java, or LLVM bytecode libraries with minimal runtime overhead.
   mental_damage: Proof that we've successfully abstracted the abstraction of the abstraction, and you now need a compiler engineer just to run your neural network.
   tags:
-    - mlir
-    - onnx
     - compiler
     - inference
+    - mlir
+    - onnx
     - optimization
   confidence: high
 curation:
@@ -62,6 +62,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (1012) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:42:05.427Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.711Z"
@@ -72,11 +80,3 @@ processing:
     updated_at: "2026-05-05T21:04:01.793Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:42:05.427Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

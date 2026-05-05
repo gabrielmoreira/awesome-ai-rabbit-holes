@@ -1,6 +1,6 @@
 id: www__pinecone__io
 kind: website
-name: www.pinecone.io
+name: Pinecone
 canonical_url: https://www.pinecone.io
 identity: {}
 provenance:
@@ -54,11 +54,11 @@ insights:
   why_it_matters: It provides the backend infrastructure for developers to give LLM-powered agents and chatbots long-term memory and the ability to search massive datasets without managing their own indexing infrastructure.
   mental_damage: Yet another reminder that your elaborate microservice architecture is currently just a wrapper around a vector similarity search that returns the three sentences the marketing team wrote in 2022.
   tags:
-    - vector-database
-    - rag
     - agents
     - infrastructure
+    - rag
     - search
+    - vector-database
   confidence: high
 curation:
   status: included
@@ -74,6 +74,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:52:36.527Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.675Z"
@@ -83,11 +91,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:52:36.527Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

@@ -1,6 +1,6 @@
 id: github__gradienthq__parallax
 kind: github-repo
-name: parallax
+name: Parallax
 canonical_url: https://github.com/gradienthq/parallax
 identity:
   github_repo: gradienthq/parallax
@@ -58,10 +58,10 @@ insights:
   why_it_matters: It allows developers to run large models like DeepSeek and Qwen by sharding them across personal hardware, bypassing centralized API costs and constraints.
   mental_damage: Finally, a way to turn your team's collection of mismatched MacBooks and spare GPUs into a distributed cluster that will inevitably spend more time debugging P2P connections than generating tokens.
   tags:
-    - local-ai
-    - inference
     - distributed-systems
+    - inference
     - llm-serving
+    - local-ai
     - self-hosted
   confidence: high
 curation:
@@ -78,6 +78,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (1272) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:22:42.696Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.689Z"
@@ -88,11 +96,3 @@ processing:
     updated_at: "2026-05-05T21:02:26.643Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:22:42.696Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

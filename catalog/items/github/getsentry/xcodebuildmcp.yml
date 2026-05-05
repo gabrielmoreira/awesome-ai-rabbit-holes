@@ -1,6 +1,6 @@
 id: github__getsentry__xcodebuildmcp
 kind: github-repo
-name: xcodebuildmcp
+name: XcodeBuildMCP
 canonical_url: https://github.com/getsentry/xcodebuildmcp
 identity:
   github_repo: getsentry/xcodebuildmcp
@@ -44,20 +44,23 @@ metadata:
       fetched_at: "2026-05-05T21:02:20.271Z"
       bytes: 5413
 insights:
-  summary: A Model Context Protocol server and CLI that exposes Xcode build, simulator, and device tools for AI agents working on iOS and macOS projects.
-  why_it_matters: It lets coding agents directly build, test, and debug Apple platform projects by giving them structured access to xcodebuild without leaving the agent workflow.
-  mental_damage: We have successfully taught AI agents to suffer through Xcode build errors so you don't have to, though they will still ask you to fix the provisioning profile.
+  summary: A Model Context Protocol server and CLI that gives AI coding agents tools to build, run, and manage iOS and macOS projects via xcodebuild.
+  why_it_matters: It lets AI agents meaningfully interact with Apple's build toolchain, bridging the gap between generic coding assistants and platform-specific mobile development workflows.
+  mental_damage: Finally, your AI agent can autonomously argue with code signing and provisioning profiles at 3 AM so you do not have to.
   tags:
-    - mcp
+    - cli
     - ios
     - macos
+    - mcp
     - xcode
-    - cli
   confidence: high
 curation:
   status: included
-  reason: This is specifically an MCP server implementation that exposes Xcode tooling to MCP-compatible clients, making it MCP infrastructure rather than a coding agent itself.
+  reason: The primary artifact is an MCP server and CLI for Xcode, fitting directly into the MCP infrastructure category rather than being a general coding agent itself.
   evidence:
+    - Repo description explicitly states it is 'A Model Context Protocol (MCP) server and CLI'.
+    - README confirms it is an MCP server with a CLI mode, designed to provide tools for agent use in iOS/macOS projects.
+    - Listed in awesome-mcp-servers under 'Community Servers', reinforcing its identity as MCP infrastructure.
     - Repo description explicitly states 'A Model Context Protocol (MCP) server and CLI'
     - README confirms it provides tools for agent use via MCP with setup docs for MCP clients like Cursor and Claude Code
     - Topics include mcp, mcp-server, and model-context-protocol-servers, reinforcing the MCP infrastructure identity
@@ -78,7 +81,7 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.682Z"
+    updated_at: "2026-05-05T20:48:55.440Z"
     cause: null
     next_retry_at: null
   stars:

@@ -1,6 +1,6 @@
 id: github__infiniflow__infinity
 kind: github-repo
-name: infinity
+name: Infinity
 canonical_url: https://github.com/infiniflow/infinity
 identity:
   github_repo: infiniflow/infinity
@@ -61,11 +61,11 @@ insights:
   why_it_matters: It gives developers a single, high-performance system to handle all the messy retrieval modes needed for RAG pipelines without gluing together separate vector and text stores.
   mental_damage: Yet another vector database promising to be the 'LLM memory layer,' because apparently the 47th time is the charm for solving retrieval without accidentally querying your entire production dataset.
   tags:
-    - vector-database
-    - rag
     - hybrid-search
     - llm-infrastructure
     - python-sdk
+    - rag
+    - vector-database
   confidence: high
 curation:
   status: included
@@ -81,6 +81,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (4499) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:25:55.162Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.698Z"
@@ -91,11 +99,3 @@ processing:
     updated_at: "2026-05-05T21:02:43.152Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:25:55.162Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

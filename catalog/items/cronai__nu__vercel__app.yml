@@ -1,6 +1,6 @@
 id: cronai__nu__vercel__app
 kind: website
-name: cronai-nu.vercel.app
+name: CronAI
 canonical_url: https://cronai-nu.vercel.app
 identity: {}
 provenance:
@@ -39,9 +39,9 @@ insights:
   mental_damage: We have successfully reached the point where generating a line of cron text requires a hosted AI application, as if memorizing five fields was the true bottleneck in our infrastructure lives.
   tags:
     - cron
-    - scheduling
-    - natural-language
     - developer-tool
+    - natural-language
+    - scheduling
   confidence: high
 curation:
   status: excluded
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:43:21.561Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.727Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:43:21.561Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

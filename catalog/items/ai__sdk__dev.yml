@@ -1,6 +1,6 @@
 id: ai__sdk__dev
 kind: website
-name: ai-sdk.dev
+name: Vercel AI SDK
 canonical_url: https://ai-sdk.dev
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It gives developers a single, streaming-friendly interface to swap between AI providers and build agentic workflows without writing custom fallback and parsing logic.
   mental_damage: Another week, another 'universal' layer promising to abstract away the chaos of LLM providers, right before those providers deliberately break the abstractions you just built.
   tags:
-    - typescript
-    - sdk
     - agents
     - multi-model
+    - sdk
+    - typescript
     - vercel
   confidence: high
 curation:
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:41:34.563Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.726Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:41:34.563Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

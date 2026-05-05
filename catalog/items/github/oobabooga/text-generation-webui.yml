@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__oobabooga__text-generation-webui__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-05T20:48:55.437Z"
+      discovered_at: "2026-05-05T22:33:31.148Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -24,7 +24,7 @@ provenance:
 metadata:
   github:
     stars: 46941
-    forks: 5973
+    forks: 5972
     license: AGPL-3.0
     archived: false
     created_at: "2022-12-21T04:17:37Z"
@@ -32,30 +32,22 @@ metadata:
     description: Open-source desktop app for local LLMs. Text, vision, tool-calling, OpenAI/Anthropic-compatible API.
     homepage: https://localbench.substack.com
     topics: []
-    last_checked_at: "2026-05-05T21:04:02.234Z"
+    last_checked_at: "2026-05-05T23:08:03.387Z"
     readme:
-      fetched_at: "2026-05-05T21:04:02.234Z"
+      fetched_at: "2026-05-05T23:08:03.387Z"
       bytes: 30820
 insights:
-  summary: A desktop application for running large language models locally, featuring chat, vision, tool-calling, and OpenAI/Anthropic-compatible API endpoints.
-  why_it_matters: It provides developers with a private, offline playground and a local API drop-in replacement for testing and integrating LLMs without cloud dependencies.
-  mental_damage: Now you can host the hallucination engine on your own GPU, giving you the distinct pleasure of debugging your own local model while your fan sounds like a jet engine taking off.
-  tags:
-    - local-ai
-    - llm
-    - desktop-app
-    - openai-api
-    - tool-calling
-  confidence: high
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
 curation:
-  status: included
-  reason: This is a desktop interface and serving stack for local LLMs, fitting the local-ai category as a developer-facing tool for private inference and API testing.
-  evidence:
-    - Repo description explicitly calls it an 'Open-source desktop app for local LLMs' with API compatibility.
-    - README details local execution with multiple backends (llama.cpp, Transformers) and zero telemetry.
-    - Included in 'awesome-local-ai' under the 'Inference UI' section.
+  status: pending
+  reason: null
+  evidence: []
 placement:
-  primary_category: local-ai
+  primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
@@ -63,19 +55,21 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.442Z"
+    updated_at: "2026-05-05T22:33:31.151Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:02.234Z"
+    updated_at: "2026-05-05T23:08:03.387Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-05T21:42:08.090Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
+    status: deferred
+    updated_at: "2026-05-05T23:08:33.635Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-05-06T00:08:33.635Z"
+    attempts: 0
     prompt_version: catalog-categorize-v2-baseline
     category_rules_version: 1b6cc5462ecc

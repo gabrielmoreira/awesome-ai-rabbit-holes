@@ -21,6 +21,21 @@ provenance:
         extracted_url: https://github.com/integromat/make-mcp-server
         surrounding_text: "- **[Make](https://github.com/integromat/make-mcp-server)** - Turn your [Make](https://www.make.com/) scenarios into callable tools for AI assistants."
         confidence: high
+    - id: discovery__www__make__com__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T22:47:06.910Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Make
+        extracted_url: https://www.make.com
+        surrounding_text: "- **[Make](https://github.com/integromat/make-mcp-server)** - Turn your [Make](https://www.make.com/) scenarios into callable tools for AI assistants."
+        confidence: high
 metadata:
   github:
     stars: 156
@@ -41,10 +56,13 @@ insights:
   why_it_matters: It allows developers to bridge the gap between conversational AI agents and complex, existing workflow automations without rewriting logic.
   mental_damage: You can now invoke a visual automation scenario from a chat window, ensuring your 'agentic' workflow is technically correct but spiritually impossible to debug.
   tags:
-    - mcp
     - automation
     - integration
+    - integrations
     - make
+    - mcp
+    - no-code
+    - workflows
   confidence: high
 curation:
   status: included
@@ -60,16 +78,6 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (156) exceeded threshold (150)
 processing:
-  discover:
-    status: done
-    updated_at: "2026-05-05T19:41:00.698Z"
-    cause: null
-    next_retry_at: null
-  stars:
-    status: done
-    updated_at: "2026-05-05T21:02:44.874Z"
-    cause: null
-    next_retry_at: null
   categorize:
     status: done
     updated_at: "2026-05-05T21:26:11.157Z"
@@ -78,3 +86,13 @@ processing:
     attempts: 1
     prompt_version: catalog-categorize-v2-baseline
     category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T22:47:06.911Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:44.874Z"
+    cause: null
+    next_retry_at: null

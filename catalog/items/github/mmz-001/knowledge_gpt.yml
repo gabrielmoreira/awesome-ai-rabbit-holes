@@ -1,6 +1,6 @@
 id: github__mmz-001__knowledge_gpt
 kind: github-repo
-name: knowledge_gpt
+name: Knowledge GPT
 canonical_url: https://github.com/mmz-001/knowledge_gpt
 identity:
   github_repo: mmz-001/knowledge_gpt
@@ -42,10 +42,10 @@ insights:
   why_it_matters: It provides a reference implementation for developers looking to build document-grounded Q&A pipelines with retrieval and citation features.
   mental_damage: Another heroic attempt to solve the 'trust the LLM' problem by pointing at the source text, as if highlighting the hallucination makes it less magical.
   tags:
+    - document-qa
     - langchain
     - rag
     - streamlit
-    - document-qa
   confidence: high
 curation:
   status: excluded
@@ -61,6 +61,14 @@ lifecycle:
   status: needs_review
   reason: Repository is archived
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:38:35.373Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.707Z"
@@ -71,11 +79,3 @@ processing:
     updated_at: "2026-05-05T21:03:44.238Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:38:35.373Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

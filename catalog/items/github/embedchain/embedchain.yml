@@ -1,13 +1,13 @@
 id: github__embedchain__embedchain
 kind: github-repo
-name: embedchain
+name: Embedchain
 canonical_url: https://github.com/embedchain/embedchain
 identity:
   github_repo: embedchain/embedchain
 provenance:
   discoveries:
     - id: discovery__github__embedchain__embedchain__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T20:48:55.437Z"
+      discovered_at: "2026-05-05T22:33:31.148Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -22,7 +22,7 @@ provenance:
         surrounding_text: "| [Embedchain](https://github.com/embedchain/embedchain)             | Framework to create ChatGPT like bots over your dataset.                                                                                                                                                                                                                                                                                                                                                | ![GitHub Badge](https://img.shields.io/github/stars/embedchain/embedchain.svg?style=flat-square)          |"
         confidence: high
     - id: discovery__github__embedchain__embedchain__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-05T20:48:55.437Z"
+      discovered_at: "2026-05-05T22:33:31.148Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -38,7 +38,7 @@ provenance:
         surrounding_text: "- [Embedchain](https://github.com/embedchain/embedchain): Framework to easily create LLM powered bots over any dataset. ![GitHub Repo stars](https://img.shields.io/github/stars/embedchain/embedchain?style=social)"
         confidence: high
     - id: discovery__github__embedchain__embedchain__awesome-list__kaushikb11__awesome-llm-agents
-      discovered_at: "2026-05-05T20:48:55.437Z"
+      discovered_at: "2026-05-05T22:33:31.148Z"
       source:
         type: awesome-list
         name: kaushikb11/awesome-llm-agents
@@ -54,8 +54,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 54828
-    forks: 6206
+    stars: 54832
+    forks: 6208
     license: Apache-2.0
     archived: false
     created_at: "2023-06-20T08:58:36Z"
@@ -77,50 +77,44 @@ metadata:
       - python
       - rag
       - state-management
-    last_checked_at: "2026-05-05T21:02:02.079Z"
+    last_checked_at: "2026-05-05T23:07:49.205Z"
     readme:
-      fetched_at: "2026-05-05T21:02:02.079Z"
+      fetched_at: "2026-05-05T23:07:49.205Z"
       bytes: 10571
 insights:
-  summary: Mem0 (formerly Embedchain) is a memory layer framework and managed service that gives AI agents and assistants persistent, multi-level memory with semantic, keyword, and entity-based retrieval.
-  why_it_matters: It provides developers with a ready-to-integrate SDK and API for adding stateful, personalized memory to LLM apps without building custom RAG pipelines from scratch.
-  mental_damage: "Just what every developer needs: another abstraction layer to debate while their agent confidently hallucinates yesterday's facts with upgraded recall."
-  tags:
-    - memory
-    - rag
-    - llm
-    - agents
-    - sdk
-  confidence: high
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
 curation:
-  status: included
-  reason: It is a developer-facing SDK and managed service for embedding memory and RAG behavior into AI applications, which maps cleanly to the AI Frameworks and SDKs category.
-  evidence:
-    - "Repo description states: 'Universal memory layer for AI Agents' with Python SDK and managed service at mem0.ai."
-    - README highlights multi-level memory, cross-platform SDKs, and benchmarks for LoCoMo and LongMemEval.
-    - Included in awesome-llm-agents (Frameworks) and Awesome-LLMOps, showing ecosystem fit for developer tooling.
+  status: pending
+  reason: null
+  evidence: []
 placement:
-  primary_category: ai-frameworks
+  primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
-  reason: Stars (54828) exceeded threshold (150)
+  reason: Stars (54832) exceeded threshold (150)
 processing:
+  categorize:
+    status: deferred
+    updated_at: "2026-05-05T23:08:33.635Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-05-06T00:08:33.635Z"
+    attempts: 0
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.438Z"
+    updated_at: "2026-05-05T22:33:31.148Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:02.079Z"
+    updated_at: "2026-05-05T23:07:49.205Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:17:56.261Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

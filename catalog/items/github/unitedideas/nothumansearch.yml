@@ -1,6 +1,6 @@
 id: github__unitedideas__nothumansearch
 kind: github-repo
-name: mcp
+name: Not Human Search
 canonical_url: https://github.com/unitedideas/nothumansearch
 identity:
   github_repo: unitedideas/nothumansearch
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- **[Not Human Search](https://github.com/unitedideas/nothumansearch)** `⭐ 0` — Search engine for AI agents that ranks sites by agentic readiness (llms.txt, OpenAPI, MCP, ai-plugin); 8,000+ indexed sites exposed via MCP server, REST API, and full-text search. Lets agents discover and verify external services before wiring them into a repo. MIT."
         confidence: high
     - id: discovery__nothumansearch__ai__mcp__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-05T22:47:06.910Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -55,6 +55,7 @@ insights:
   why_it_matters: It provides a centralized navigation point for developers looking to discover and integrate MCP-compatible tools into their AI-assisted workflows.
   mental_damage: Just when you thought you had a handle on the 47 MCP servers you already installed, here comes a directory to remind you of the 400 more you're missing.
   tags:
+    - context
     - directory
     - discovery
     - mcp
@@ -67,6 +68,9 @@ curation:
     - URL resolves to nothumansearch.ai/mcp, indicating a searchable index rather than a tool repo.
     - Listed in awesome-ai-coding-tools under the section 'MCP Servers and Directories'.
     - No repository description, stars, or code indicators provided; fits the profile of a curated web directory.
+    - Listed in awesome-ai-coding-tools under the section 'MCP Servers and Directories'
+    - URL is https://nothumansearch.ai/mcp, indicating a web-based directory surface
+    - No repository description, README, or code indicators provided that suggest it is a server or toolkit
 placement:
   primary_category: awesome-awesomes
   section: null
@@ -76,15 +80,15 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-05-05T19:46:45.036Z"
+    updated_at: "2026-05-05T20:49:35.244Z"
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
+    category_rules_version: 1b6cc5462ecc
     next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.729Z"
+    updated_at: "2026-05-05T22:47:06.911Z"
     cause: null
     next_retry_at: null
   stars:

@@ -1,6 +1,6 @@
 id: github__eugeneyan__open-llms
 kind: github-repo
-name: open-llms
+name: Open LLMs
 canonical_url: https://github.com/eugeneyan/open-llms
 identity:
   github_repo: eugeneyan/open-llms
@@ -45,10 +45,10 @@ insights:
   why_it_matters: It provides a quick reference for developers needing to choose an open-weight model without accidentally violating a restrictive license.
   mental_damage: Yet another list to consult while agonizing over whether a 7B model with an Apache 2.0 license is truly 'safe' for the startup's proprietary vibe coding agent.
   tags:
+    - commercial
+    - licensing
     - llm
     - models
-    - licensing
-    - commercial
     - reference
   confidence: high
 curation:
@@ -65,6 +65,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (12750) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:18:32.913Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.686Z"
@@ -75,11 +83,3 @@ processing:
     updated_at: "2026-05-05T21:02:05.421Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:18:32.913Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

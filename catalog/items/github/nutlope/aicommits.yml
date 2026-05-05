@@ -1,6 +1,6 @@
 id: github__nutlope__aicommits
 kind: github-repo
-name: aicommits
+name: AICommits
 canonical_url: https://github.com/nutlope/aicommits
 identity:
   github_repo: nutlope/aicommits
@@ -41,10 +41,10 @@ insights:
   why_it_matters: It automates the tedious chore of writing conventional, gitmoji, or plain commit messages directly from the terminal, integrating with existing git workflows and hooks.
   mental_damage: We have successfully automated the last bastion of human accountability in version control, ensuring our git history is now as thoughtfully composed as a hallucination.
   tags:
+    - automation
     - cli
     - git
     - llm
-    - automation
     - nodejs
   confidence: high
 curation:
@@ -61,6 +61,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (8967) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:41:09.186Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.710Z"
@@ -71,11 +79,3 @@ processing:
     updated_at: "2026-05-05T21:03:57.170Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:41:09.186Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

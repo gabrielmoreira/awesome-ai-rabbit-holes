@@ -1,6 +1,6 @@
 id: github__janhq__jan
 kind: github-repo
-name: jan
+name: Jan
 canonical_url: https://github.com/janhq/jan
 identity:
   github_repo: janhq/jan
@@ -22,7 +22,7 @@ provenance:
         surrounding_text: If you tried [Jan Desktop](https://github.com/janhq/jan?tab=readme-ov-file#download) and liked it, please also check out the following **awesome collection of open source and/or local AI tools and solutions.**
         confidence: high
     - id: discovery__jan__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-05T22:47:06.910Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -64,10 +64,12 @@ insights:
   why_it_matters: It provides a privacy-first local runtime with an MCP integration and an API endpoint, enabling developers to test agentic workflows and models without sending data to external SaaS providers.
   mental_damage: Yet another opportunity to spend an afternoon downloading a 70B parameter model only to realize your laptop fans sound like a jet engine and you still prefer the cloud for actual work.
   tags:
-    - local-ai
+    - desktop
     - llm
-    - offline
+    - local-ai
     - mcp
+    - offline
+    - privacy
     - tauri
   confidence: high
 curation:
@@ -77,6 +79,9 @@ curation:
     - Repo description explicitly states it is an 'open source alternative to ChatGPT that runs 100% offline'.
     - README highlights 'Local AI Models' and 'Privacy First' as core features, alongside an OpenAI-compatible local API.
     - Included in the 'awesome-local-ai' list, confirming its alignment with the local AI ecosystem.
+    - Source URL is https://jan.ai, indicating a desktop/local tool.
+    - Listed in awesome-ai-coding-tools under the 'Local LLM Tools' section.
+    - No GitHub repo description or README was provided, but the site context and source list confirm the local execution focus.
 placement:
   primary_category: local-ai
   section: null
@@ -94,7 +99,7 @@ processing:
     next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.728Z"
+    updated_at: "2026-05-05T22:47:06.911Z"
     cause: null
     next_retry_at: null
   stars:

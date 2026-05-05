@@ -1,6 +1,6 @@
 id: github__abi__screenshot-to-code
 kind: github-repo
-name: screenshot-to-code
+name: Screenshot-to-Code
 canonical_url: https://github.com/abi/screenshot-to-code
 identity:
   github_repo: abi/screenshot-to-code
@@ -41,10 +41,10 @@ insights:
   why_it_matters: It lets developers rapidly scaffold or prototype frontend UIs from visual references, cutting down on manual markup and styling from scratch.
   mental_damage: Because nothing says 'accelerated development' like feeding a JPEG of a 2014 Bootstrap site into Gemini 3 and praying Tailwind v4 doesn't hallucinate a div inside a span.
   tags:
-    - ui-generation
     - frontend
     - prototyping
     - screenshot-to-code
+    - ui-generation
   confidence: high
 curation:
   status: included
@@ -60,6 +60,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (72444) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:05:32.773Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.676Z"
@@ -70,11 +78,3 @@ processing:
     updated_at: "2026-05-05T21:00:47.249Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:05:32.773Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__oceanbase__mcp-oceanbase__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T20:48:55.437Z"
+      discovered_at: "2026-05-05T22:33:31.148Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -32,29 +32,22 @@ metadata:
     description: MCP Server for OceanBase database and its tools
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-05T21:03:58.433Z"
+    last_checked_at: "2026-05-05T23:08:03.057Z"
     readme:
-      fetched_at: "2026-05-05T21:03:58.433Z"
+      fetched_at: "2026-05-05T23:08:03.057Z"
       bytes: 5218
 insights:
-  summary: A collection of Model Context Protocol (MCP) servers for the OceanBase ecosystem, enabling AI assistants to interact directly with OceanBase databases, cloud platforms, and diagnostic tools.
-  why_it_matters: It allows developers to query, manage, and troubleshoot OceanBase clusters and data directly through AI assistants like Claude using standardized MCP tooling.
-  mental_damage: You can now ask an AI to debug your distributed database while wondering if the AI is also quietly managing the Kubernetes cluster you forgot you deployed.
-  tags:
-    - mcp
-    - oceanbase
-    - database
-    - ai-integration
-  confidence: high
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
 curation:
-  status: included
-  reason: This is a set of MCP servers for a specific database ecosystem, which clearly fits the MCP category for servers and tooling.
-  evidence:
-    - Repo description states it is an 'MCP Server for OceanBase database and its tools'
-    - README lists multiple specific MCP servers including OceanBase, OCP, OBCloud, and OBDIAG integrations
-    - Listed under 'Official Servers' in the awesome-mcp-servers directory
+  status: pending
+  reason: null
+  evidence: []
 placement:
-  primary_category: mcp
+  primary_category: null
   section: null
 lifecycle:
   status: incubating
@@ -62,19 +55,21 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.442Z"
+    updated_at: "2026-05-05T22:33:31.151Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:58.433Z"
+    updated_at: "2026-05-05T23:08:03.057Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-05T21:41:24.657Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
+    status: deferred
+    updated_at: "2026-05-05T23:08:33.635Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-05-06T00:08:33.635Z"
+    attempts: 0
     prompt_version: catalog-categorize-v2-baseline
     category_rules_version: 1b6cc5462ecc

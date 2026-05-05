@@ -1,6 +1,6 @@
 id: docs__google__com__forms__d__e__1faipqlscndos3bq8abtqqqhvlc__qgjmg16jmwofeolter6i921vfmvq__viewform
 kind: website
-name: viewform
+name: form
 canonical_url: https://docs.google.com/forms/d/e/1FAIpQLScndOs3bQ8aBtqqqhvlC_qgJmg16jmwOfEoLter6I921vfmvQ/viewform
 identity: {}
 provenance:
@@ -38,8 +38,8 @@ insights:
   why_it_matters: It serves as the intake mechanism for a popular directory that developers browse to discover new AI agent tools.
   mental_damage: We are now evaluating the submission form for a list, rather than the tool itself, confirming that the AI agent ecosystem is mostly a recursive hierarchy of lists about lists.
   tags:
-    - meta
     - directory
+    - meta
     - submission-form
   confidence: high
 curation:
@@ -55,6 +55,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:44:01.207Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.727Z"
@@ -64,11 +72,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:44:01.207Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

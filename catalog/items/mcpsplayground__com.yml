@@ -1,6 +1,6 @@
 id: mcpsplayground__com
 kind: website
-name: mcpsplayground.com
+name: mcps-playground
 canonical_url: https://mcpsplayground.com
 identity: {}
 provenance:
@@ -38,9 +38,9 @@ insights:
   why_it_matters: It provides developers with a hosted interface to manually configure, connect, and validate MCP integrations without needing to set up a local client environment.
   mental_damage: Another pristine sandbox where you can carefully wire together integrations that will inevitably be broken by the next undocumented protocol update.
   tags:
+    - browser
     - mcp
     - playground
-    - browser
     - tooling
   confidence: high
 curation:
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:46:28.066Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.729Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:46:28.066Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

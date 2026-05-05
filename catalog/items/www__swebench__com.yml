@@ -1,6 +1,6 @@
 id: www__swebench__com
 kind: website
-name: www.swebench.com
+name: varies
 canonical_url: https://www.swebench.com
 identity: {}
 provenance:
@@ -40,8 +40,8 @@ insights:
   mental_damage: Finally, a place to scientifically prove that your AI intern is worse at fixing bugs than the one your coworker is bragging about on Slack.
   tags:
     - benchmarks
-    - evals
     - coding-agents
+    - evals
     - leaderboard
   confidence: high
 curation:
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:53:29.641Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.734Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:53:29.641Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

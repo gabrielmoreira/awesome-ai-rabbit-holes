@@ -1,13 +1,13 @@
 id: github__jasonrobertdestiny__vibedoc
 kind: github-repo
-name: vibedoc
+name: VibeDoc
 canonical_url: https://github.com/jasonrobertdestiny/vibedoc
 identity:
   github_repo: jasonrobertdestiny/vibedoc
 provenance:
   discoveries:
     - id: discovery__github__jasonrobertdestiny__vibedoc__awesome-list__engineering4ai__awesome-spec-driven-development
-      discovered_at: "2026-05-05T20:48:55.437Z"
+      discovered_at: "2026-05-05T22:33:31.148Z"
       source:
         type: awesome-list
         name: Engineering4AI/awesome-spec-driven-development
@@ -36,49 +36,44 @@ metadata:
       - architect
       - productmanager
       - vibecoding
-    last_checked_at: "2026-05-05T21:02:52.195Z"
+    last_checked_at: "2026-05-05T23:07:55.575Z"
     readme:
-      fetched_at: "2026-05-05T21:02:52.195Z"
+      fetched_at: "2026-05-05T23:07:55.575Z"
       bytes: 11888
 insights:
-  summary: An AI tool that transforms product ideas into detailed development plans, architecture diagrams, and ready-to-use coding prompts for tools like Claude, Cursor, and Copilot.
-  why_it_matters: It automates the spec and planning phase by generating actionable technical documentation and tailored prompts, bridging the gap between product concepts and AI-assisted coding workflows.
-  mental_damage: We have successfully automated the part of software development where you stare at a blank page wondering where to start, just so you can spend the saved time debugging the AI-generated prompts instead.
-  tags:
-    - spec-driven
-    - planning
-    - prompt-generation
-    - architecture
-  confidence: high
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
 curation:
-  status: included
-  reason: The tool's center of gravity is a spec-first loop that generates technical documentation, architecture, and coding prompts to drive development, aligning perfectly with spec-driven development tooling.
-  evidence:
-    - Repo description states it 'Transform ideas into complete development plans with AI coding prompts'.
-    - README details features for generating technical solutions, development plans, and AI coding prompts for multiple assistants.
-    - Already listed in awesome-spec-driven-development under 'Workflow Management'.
+  status: pending
+  reason: null
+  evidence: []
 placement:
-  primary_category: spec-driven-development
+  primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
   reason: Stars (377) exceeded threshold (150)
 processing:
+  categorize:
+    status: deferred
+    updated_at: "2026-05-05T23:08:33.635Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-05-06T00:08:33.635Z"
+    attempts: 0
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.442Z"
+    updated_at: "2026-05-05T22:33:31.151Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:52.195Z"
+    updated_at: "2026-05-05T23:07:55.575Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:27:49.907Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

@@ -1,6 +1,6 @@
 id: huggingface__co__spaces__javafxpert__gpt__math__techniques
 kind: website
-name: gpt-math-techniques
+name: Chat Math Techniques
 canonical_url: https://huggingface.co/spaces/JavaFXpert/gpt-math-techniques
 identity: {}
 provenance:
@@ -39,10 +39,10 @@ insights:
   why_it_matters: It represents an attempt to visualize or apply specific mathematical prompting strategies for LLMs, though the execution is currently broken.
   mental_damage: We have reached a point where we build interactive demos to explain the math of the model, but can't quite get the demo itself to compile.
   tags:
+    - experimental
+    - huggingface
     - math
     - prompting
-    - huggingface
-    - experimental
   confidence: high
 curation:
   status: excluded
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:45:25.140Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.728Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:45:25.140Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

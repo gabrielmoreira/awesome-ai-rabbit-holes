@@ -1,6 +1,6 @@
 id: gitfluence__com
 kind: website
-name: gitfluence.com
+name: GitFluence
 canonical_url: https://gitfluence.com
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It reduces workflow friction for developers who know what they want to do in Git but cannot recall the specific syntax or flags.
   mental_damage: We have reached the point where the developer tooling stack requires an AI wrapper to translate human intent into a three-word command that hasn't changed in a decade.
   tags:
-    - git
     - cli
-    - workflow
+    - git
     - utility
+    - workflow
   confidence: high
 curation:
   status: excluded
@@ -56,6 +56,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:44:44.310Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.727Z"
@@ -65,11 +73,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:44:44.310Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

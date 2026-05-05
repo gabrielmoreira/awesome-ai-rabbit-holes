@@ -39,24 +39,29 @@ metadata:
       - opensource
       - opensource-management
       - recognition
-    last_checked_at: "2026-05-05T21:01:00.806Z"
+    last_checked_at: "2026-05-05T21:01:00.893Z"
     readme:
-      fetched_at: "2026-05-05T21:01:00.806Z"
+      fetched_at: "2026-05-05T21:01:00.893Z"
       bytes: 52166
 insights:
-  summary: A specification and bot system for recognizing all types of open-source contributors, not just code committers, by automating emoji-based attribution tables in project READMEs.
-  why_it_matters: It automates community management by acknowledging documentation, design, and bug reporting contributions alongside code, helping maintainers enforce inclusive recognition without manual tracking.
-  mental_damage: We now have a bot to ensure the bot that recognizes the humans who helped build the bot is properly thanked with the correct emoji.
+  summary: A specification and bot system for recognizing all types of contributors (not just code) in open-source project documentation.
+  why_it_matters: It provides a standardized way for maintainers to automate acknowledgment of diverse contributions like documentation, design, and issue triage directly in the README.
+  mental_damage: We have successfully automated the social anxiety of remembering to thank people, ensuring our open-source ego management is as well-maintained as our dependency trees.
   tags:
-    - open-source
-    - community
     - automation
+    - bot
+    - community
+    - contributors
     - github-bot
+    - open-source
   confidence: high
 curation:
   status: excluded
-  reason: While mature and well-maintained, this is a general open-source community management tool with no AI-specific functionality or developer-facing AI workflow integration.
+  reason: This is a general open-source community management tool for acknowledging contributors, lacking a specific AI developer-tooling angle required for the catalog.
   evidence:
+    - Repo description focuses on recognizing contributors, not AI tooling.
+    - README describes a specification and bot for open-source acknowledgment with no mention of AI.
+    - Found in awesome-copilot lists only as a badge/example of contributor recognition, not as a copilot extension.
     - Repo description and README focus entirely on recognizing non-code contributors using a bot and specification, with no mention of AI.
     - Topics and content are centered on open-source management and acknowledgements, not AI tooling, agents, or infrastructure.
     - Does not fit any available category, as it is neither an AI tool nor an extension of one.
@@ -77,11 +82,11 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.678Z"
+    updated_at: "2026-05-05T20:48:55.440Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:00.806Z"
+    updated_at: "2026-05-05T21:01:00.893Z"
     cause: null
     next_retry_at: null

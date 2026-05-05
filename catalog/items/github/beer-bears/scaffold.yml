@@ -1,6 +1,6 @@
 id: github__beer-bears__scaffold
 kind: github-repo
-name: scaffold
+name: Scaffold
 canonical_url: https://github.com/beer-bears/scaffold
 identity:
   github_repo: beer-bears/scaffold
@@ -48,11 +48,11 @@ insights:
   why_it_matters: It attempts to solve AI context blindness by capturing structural code relationships in a graph database, enabling more accurate code construction and maintenance workflows.
   mental_damage: "Just what every developer needs: another layer of infrastructure to deploy so their AI agent can finally understand why that ten-year-old module is the way it is."
   tags:
-    - rag
-    - mcp
-    - knowledge-graph
-    - context-engineering
     - codebase-analysis
+    - context-engineering
+    - knowledge-graph
+    - mcp
+    - rag
   confidence: medium
 curation:
   status: included
@@ -68,6 +68,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:10:28.372Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.681Z"
@@ -78,11 +86,3 @@ processing:
     updated_at: "2026-05-05T21:01:18.523Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:10:28.372Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

@@ -1,6 +1,6 @@
 id: kombai__com
 kind: website
-name: kombai.com
+name: Kombai
 canonical_url: https://kombai.com
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It generates production-grade frontend code that respects specific stack conventions and existing component libraries, streamlining the Figma-to-code workflow.
   mental_damage: Just when you thought your frontend stack was safe from agents, here comes one that actually understands your MUI theme and refuses to touch the backend.
   tags:
-    - frontend
     - coding-agent
-    - ui-generation
+    - frontend
     - refactoring
+    - ui-generation
   confidence: high
 curation:
   status: included
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:45:50.334Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.728Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:45:50.334Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

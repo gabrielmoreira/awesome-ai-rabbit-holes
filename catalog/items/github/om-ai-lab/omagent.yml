@@ -1,6 +1,6 @@
 id: github__om-ai-lab__omagent
 kind: github-repo
-name: omagent
+name: OmAgent
 canonical_url: https://github.com/om-ai-lab/omagent
 identity:
   github_repo: om-ai-lab/omagent
@@ -61,10 +61,10 @@ insights:
   why_it_matters: It provides developers with reusable components and a simplified interface to prototype and deploy multimodal agents, including native support for VLMs and local model deployment via Ollama.
   mental_damage: Another framework promising to hide the complex engineering of agent orchestration, ensuring you can spend your afternoon defining YAML configs instead of debugging the middleware it replaced.
   tags:
-    - multimodal
     - agent-framework
-    - python
     - local-ai
+    - multimodal
+    - python
     - workflow-orchestration
   confidence: high
 curation:
@@ -81,6 +81,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (2642) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:41:56.793Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.711Z"
@@ -91,11 +99,3 @@ processing:
     updated_at: "2026-05-05T21:04:00.968Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:41:56.793Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

@@ -1,6 +1,6 @@
 id: github__agenta-ai__agenta
 kind: github-repo
-name: agenta
+name: Agenta
 canonical_url: https://github.com/agenta-ai/agenta
 identity:
   github_repo: agenta-ai/agenta
@@ -72,11 +72,11 @@ insights:
   why_it_matters: It integrates the fragmented lifecycle of prompt iteration, automated evaluation, and production observability into a single environment for teams shipping LLM-powered features.
   mental_damage: Another platform promising to solve the 'prompt drift' anxiety that somehow requires adding yet another dashboard to the stack you're already struggling to monitor.
   tags:
-    - llmops
-    - prompt-management
     - evals
+    - llmops
     - observability
     - open-source
+    - prompt-management
   confidence: high
 curation:
   status: included
@@ -92,6 +92,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (4096) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:06:07.529Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.662Z"
@@ -102,11 +110,3 @@ processing:
     updated_at: "2026-05-05T21:00:50.578Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:06:07.529Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

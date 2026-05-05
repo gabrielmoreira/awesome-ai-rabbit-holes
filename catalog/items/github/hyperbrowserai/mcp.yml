@@ -21,6 +21,21 @@ provenance:
         extracted_url: https://github.com/hyperbrowserai/mcp
         surrounding_text: "- **[Hyperbrowser](https://github.com/hyperbrowserai/mcp)** - [Hyperbrowser](https://www.hyperbrowser.ai/) is the next-generation platform empowering AI agents and enabling effortless, scalable browser automation."
         confidence: high
+    - id: discovery__www__hyperbrowser__ai__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T22:47:06.910Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Hyperbrowser
+        extracted_url: https://www.hyperbrowser.ai
+        surrounding_text: "- **[Hyperbrowser](https://github.com/hyperbrowserai/mcp)** - [Hyperbrowser](https://www.hyperbrowser.ai/) is the next-generation platform empowering AI agents and enabling effortless, scalable browser automation."
+        confidence: high
 metadata:
   github:
     stars: 761
@@ -41,10 +56,13 @@ insights:
   why_it_matters: It lets coding agents reach outside the repo to scrape pages, run browser agents, and extract structured data without developers building custom web automation glue code.
   mental_damage: We have officially reached the point where your coding assistant needs its own headless browser and an MCP server just to Google something for you.
   tags:
-    - mcp
-    - browser-automation
-    - web-scraping
+    - agent-infra
     - agent-tools
+    - browser-automation
+    - cloud-browser
+    - mcp
+    - web-automation
+    - web-scraping
   confidence: high
 curation:
   status: included
@@ -53,6 +71,8 @@ curation:
     - Repo description explicitly states 'A MCP server implementation for hyperbrowser'.
     - README documents integration with Cursor, Windsurf, Claude Desktop, and Smithery as an MCP server.
     - Listed under 'Official Servers' in the awesome-mcp-servers directory.
+    - "Scraped site title and description: 'Hyperbrowser - Web Infra for AI Agents' and 'Cloud browsers for AI agents & Apps'."
+    - Listed in awesome-mcp-servers under 'Official Servers' for providing browser access to agents.
 placement:
   primary_category: mcp
   section: null
@@ -60,16 +80,6 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (761) exceeded threshold (150)
 processing:
-  discover:
-    status: done
-    updated_at: "2026-05-05T19:41:00.697Z"
-    cause: null
-    next_retry_at: null
-  stars:
-    status: done
-    updated_at: "2026-05-05T21:02:39.820Z"
-    cause: null
-    next_retry_at: null
   categorize:
     status: done
     updated_at: "2026-05-05T21:25:10.611Z"
@@ -78,3 +88,13 @@ processing:
     attempts: 1
     prompt_version: catalog-categorize-v2-baseline
     category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T22:47:06.911Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:39.820Z"
+    cause: null
+    next_retry_at: null

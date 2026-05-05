@@ -1,13 +1,13 @@
 id: github__blib-la__hyv
 kind: github-repo
-name: hyv
+name: Hyv
 canonical_url: https://github.com/blib-la/hyv
 identity:
   github_repo: blib-la/hyv
 provenance:
   discoveries:
     - id: discovery__github__failfa-st__hyv__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-05T20:48:55.437Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -43,9 +43,9 @@ metadata:
       - llama
       - llm
       - vicuna
-    last_checked_at: "2026-05-05T21:01:22.727Z"
+    last_checked_at: "2026-05-05T21:02:08.047Z"
     readme:
-      fetched_at: "2026-05-05T21:01:22.727Z"
+      fetched_at: "2026-05-05T21:02:08.047Z"
       bytes: 3923
 insights:
   summary: A JavaScript/TypeScript library and set of adapters for chaining multiple AI and API agents to manage complex tasks across different models like GPT and Stable Diffusion.
@@ -53,9 +53,12 @@ insights:
   mental_damage: Just when you thought wrapping one API in a Promise was the peak of modern engineering, we now have an entire framework dedicated to making autonomous agents argue with each other until a PNG is generated.
   tags:
     - agent-chaining
+    - agents
+    - langchain
+    - llm-integration
+    - orchestration
     - sdk
     - typescript
-    - llm-integration
   confidence: medium
 curation:
   status: included
@@ -64,6 +67,9 @@ curation:
     - Repo description states it is for 'Chaining AI & API agents' to streamline development.
     - README explicitly provides npm install instructions and TypeScript code examples for importing Agent classes.
     - Published packages include @hyv/core, @hyv/openai, and @hyv/stable-diffusion on npm.
+    - Repo description states it is for 'Chaining AI & API agents to streamline software development' via a library.
+    - README demonstrates usage via npm packages (@hyv/core) and TypeScript imports, not a hosted UI or IDE.
+    - Listed in awesome-langchain under 'Other LLM Frameworks', confirming its identity as a developer framework.
 placement:
   primary_category: ai-frameworks
   section: null
@@ -73,7 +79,7 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-05-05T21:11:07.491Z"
+    updated_at: "2026-05-05T21:18:57.916Z"
     cause: null
     next_retry_at: null
     attempts: 1
@@ -81,11 +87,11 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.687Z"
+    updated_at: "2026-05-05T20:48:55.441Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:22.727Z"
+    updated_at: "2026-05-05T21:02:08.047Z"
     cause: null
     next_retry_at: null

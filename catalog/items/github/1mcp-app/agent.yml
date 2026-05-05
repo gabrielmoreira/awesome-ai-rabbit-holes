@@ -63,10 +63,16 @@ insights:
   why_it_matters: It reduces MCP configuration sprawl by giving agents a single aggregated runtime with instructions, inspect, and run commands instead of dumping every tool schema into context at once.
   mental_damage: We have successfully invented infrastructure to manage the infrastructure that manages the agents that manage the code we are too overwhelmed to read.
   tags:
-    - mcp
+    - agent-orchestration
     - agent-tooling
-    - context-management
+    - business-process
     - cli
+    - context-management
+    - enterprise
+    - mcp
+    - no-code
+    - saas
+    - workflow-automation
   confidence: high
 curation:
   status: included
@@ -84,15 +90,15 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-05-05T21:04:30.405Z"
+    updated_at: "2026-05-05T22:47:17.276Z"
     cause: null
-    attempts: 2
+    attempts: 1
     prompt_version: catalog-categorize-v2-baseline
     category_rules_version: 1b6cc5462ecc
     next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.725Z"
+    updated_at: "2026-05-05T22:47:06.910Z"
     cause: null
     next_retry_at: null
   stars:

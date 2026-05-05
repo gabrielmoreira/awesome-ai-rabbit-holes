@@ -1,6 +1,6 @@
 id: github__lancedb__lancedb
 kind: github-repo
-name: lancedb
+name: Lancedb
 canonical_url: https://github.com/lancedb/lancedb
 identity:
   github_repo: lancedb/lancedb
@@ -50,11 +50,11 @@ insights:
   why_it_matters: It provides developers with a lightweight, serverless foundation for multimodal retrieval-augmented generation (RAG) and AI workloads that integrates natively with Python, Node.js, and Rust ecosystems.
   mental_damage: Yet another opportunity to spend a weekend refactoring your perfectly fine SQL database into a vector lakehouse, just so your chatbot can hallucinate with spatial awareness.
   tags:
-    - vector-database
     - embedded
     - multimodal
     - retrieval
     - sdk
+    - vector-database
   confidence: high
 curation:
   status: included
@@ -70,6 +70,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (10191) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:32:57.487Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.703Z"
@@ -80,11 +88,3 @@ processing:
     updated_at: "2026-05-05T21:03:15.339Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:32:57.487Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

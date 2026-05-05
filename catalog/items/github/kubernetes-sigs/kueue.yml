@@ -1,6 +1,6 @@
 id: github__kubernetes-sigs__kueue
 kind: github-repo
-name: kueue
+name: Kueue
 canonical_url: https://github.com/kubernetes-sigs/kueue
 identity:
   github_repo: kubernetes-sigs/kueue
@@ -45,11 +45,11 @@ insights:
   why_it_matters: It provides the scheduling backbone needed to scale AI model training and batch inference workloads efficiently within Kubernetes environments.
   mental_damage: "Just what every ML engineer wanted: another layer of YAML to debug so their pods can fight each other for GPU time in a scientifically fair manner."
   tags:
-    - kubernetes
-    - job-queueing
-    - scheduling
-    - llmops
     - batch-jobs
+    - job-queueing
+    - kubernetes
+    - llmops
+    - scheduling
   confidence: high
 curation:
   status: included
@@ -65,6 +65,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (2487) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:31:30.384Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.702Z"
@@ -75,11 +83,3 @@ processing:
     updated_at: "2026-05-05T21:03:09.063Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:31:30.384Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

@@ -1,6 +1,6 @@
 id: makedraft__com
 kind: website
-name: makedraft.com
+name: Makedraft
 canonical_url: https://makedraft.com
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It allows developers to quickly scaffold frontend templates and static HTML structures without manually writing boilerplate markup.
   mental_damage: Yet another vertical SaaS promising to automate the one part of web development—writing HTML—that we ironically still manage to overcomplicate.
   tags:
-    - html
-    - templates
-    - prompt-to-site
     - frontend
+    - html
+    - prompt-to-site
+    - templates
   confidence: medium
 curation:
   status: included
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:46:10.591Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.728Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:46:10.591Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

@@ -1,6 +1,6 @@
 id: github__ethicalml__awesome-production-machine-learning
 kind: github-repo
-name: awesome-production-machine-learning
+name: Awesome Production Machine Learning
 canonical_url: https://github.com/ethicalml/awesome-production-machine-learning
 identity:
   github_repo: ethicalml/awesome-production-machine-learning
@@ -60,11 +60,11 @@ insights:
   why_it_matters: It serves as a central map for developers navigating the fragmented MLOps ecosystem to find tools for model serving, feature stores, and evaluation.
   mental_damage: Because nothing says 'I have everything under control' like needing a 20,000-star list just to figure out which library to use for a feature store.
   tags:
-    - mlops
     - awesome-list
-    - machine-learning
-    - production
     - directory
+    - machine-learning
+    - mlops
+    - production
   confidence: high
 curation:
   status: included
@@ -80,6 +80,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (20493) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:18:30.828Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.686Z"
@@ -90,11 +98,3 @@ processing:
     updated_at: "2026-05-05T21:02:04.930Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:18:30.828Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

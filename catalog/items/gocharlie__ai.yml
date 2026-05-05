@@ -1,6 +1,6 @@
 id: gocharlie__ai
 kind: website
-name: gocharlie.ai
+name: GoCharlie
 canonical_url: https://gocharlie.ai
 identity: {}
 provenance:
@@ -39,8 +39,8 @@ insights:
   mental_damage: Yet another 'autonomous agent' platform that solves everything except the existential dread of maintaining the prompt stack required to keep it running.
   tags:
     - agents
-    - marketing
     - automation
+    - marketing
   confidence: high
 curation:
   status: excluded
@@ -55,6 +55,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:45:04.043Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.728Z"
@@ -64,11 +72,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:45:04.043Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

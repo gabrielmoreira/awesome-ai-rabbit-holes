@@ -1,6 +1,6 @@
 id: github__pycaret__pycaret
 kind: github-repo
-name: pycaret
+name: Pycaret
 canonical_url: https://github.com/pycaret/pycaret
 identity:
   github_repo: pycaret/pycaret
@@ -23,17 +23,34 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 9770
+    forks: 1856
+    license: NOASSERTION
+    archived: false
+    created_at: "2019-11-23T18:40:48Z"
+    pushed_at: "2026-04-29T11:56:57Z"
+    description: "Open-source, low-code AutoML platform for Python. PyCaret 4.0: sklearn-native engine + React control plane."
+    homepage: https://pycaret.org
+    topics:
+      - anomaly-detection
+      - automl
+      - classification
+      - clustering
+      - data-science
+      - fastapi
+      - machine-learning
+      - ml
+      - mlops
+      - open-source
+      - pycaret
+      - python
+      - react
+      - regression
+      - scikit-learn
+    last_checked_at: "2026-05-05T23:08:12.660Z"
+    readme:
+      fetched_at: "2026-05-05T23:08:12.660Z"
+      bytes: 9480
 insights:
   summary: null
   why_it_matters: null
@@ -48,22 +65,26 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (9770) exceeded threshold (150)
 processing:
+  categorize:
+    status: deferred
+    updated_at: "2026-05-05T23:08:33.635Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-05-06T00:08:33.635Z"
+    attempts: 0
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.714Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-05T23:08:12.660Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T21:04:23.169Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null

@@ -1,6 +1,6 @@
 id: agi__eval__cn__mvp__home
 kind: website
-name: home
+name: AGI-Eval
 canonical_url: https://agi-eval.cn/mvp/home
 identity: {}
 provenance:
@@ -38,9 +38,9 @@ insights:
   why_it_matters: It provides developers and researchers with standardized metrics to understand where current models stand on complex reasoning and coding tasks.
   mental_damage: Another benchmark to obsess over while your actual production code remains untested and your CI pipeline sits broken.
   tags:
-    - evals
-    - benchmark
     - agi
+    - benchmark
+    - evals
     - llm-evaluation
   confidence: medium
 curation:
@@ -56,6 +56,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:41:28.089Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.726Z"
@@ -65,11 +73,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:41:28.089Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

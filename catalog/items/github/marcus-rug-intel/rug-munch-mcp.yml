@@ -22,6 +22,22 @@ provenance:
         extracted_url: https://github.com/cryptorugmunch/rug-munch-mcp
         surrounding_text: "- [CryptoRugMunch/rug-munch-mcp](https://github.com/CryptoRugMunch/rug-munch-mcp) [![rug-munch-intelligence MCP server](https://glama.ai/mcp/servers/@CryptoRugMunch/rug-munch-intelligence/badges/score.svg)](https://glama.ai/mcp/servers/@CryptoRugMunch/rug-munch-intelligence) 🐍 ☁️ - 19 crypto token risk intelligence tools for AI agents. Rug pull detection, honeypot scoring, deployer tracking, holder deep-dive, KOL shill detection, social OSINT, and LLM forensic analysis. Free tier (1 call/day) + API keys + x402 USDC micropayments. Remote SSE transport available."
         confidence: high
+    - id: discovery__github__marcus-rug-intel__rug-munch-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T22:33:31.148Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: CryptoRugMunch/rug-munch-mcp
+        extracted_url: https://github.com/cryptorugmunch/rug-munch-mcp
+        surrounding_text: "- [CryptoRugMunch/rug-munch-mcp](https://github.com/CryptoRugMunch/rug-munch-mcp) [![rug-munch-intelligence MCP server](https://glama.ai/mcp/servers/@CryptoRugMunch/rug-munch-intelligence/badges/score.svg)](https://glama.ai/mcp/servers/@CryptoRugMunch/rug-munch-intelligence) 🐍 ☁️ - 19 crypto token risk intelligence tools for AI agents. Rug pull detection, honeypot scoring, deployer tracking, holder deep-dive, KOL shill detection, social OSINT, and LLM forensic analysis. Free tier (1 call/day) + API keys + x402 USDC micropayments. Remote SSE transport available."
+        confidence: high
 metadata:
   github:
     stars: 0
@@ -51,20 +67,24 @@ metadata:
       fetched_at: "2026-05-05T21:03:29.285Z"
       bytes: 7851
 insights:
-  summary: An MCP server providing 19 tools for crypto token risk analysis, rug pull detection, and AI forensics, compatible with Claude Desktop, Cursor, and Windsurf.
-  why_it_matters: Developers building crypto or DeFi integrations can offload token risk assessment and honeypot detection into their AI-assisted workflows via a standardized MCP interface.
-  mental_damage: Your AI agent can now independently decide that the token you just pasted into the chat is a scam, making the rug pull detection fully autonomous while your terminal calmly suggests you avoid it.
+  summary: An MCP server providing 19 tools for crypto token risk analysis, rug pull detection, and AI forensics, designed for integration with Claude Desktop, Cursor, and Windsurf.
+  why_it_matters: Developers building crypto or DeFi applications can integrate token risk analysis and on-chain forensics directly into their AI-assisted workflows without building custom scrapers or analysis pipelines.
+  mental_damage: We have officially reached the point where the AI needs a dedicated server to tell it which tokens are scams, but the AI still can't figure out why your CI pipeline is failing.
   tags:
-    - mcp
     - crypto
     - defi
+    - mcp
     - rug-pull
     - tooling
+    - x402
   confidence: high
 curation:
   status: included
-  reason: The primary artifact is an MCP server exposing crypto risk analysis tools for integration with MCP-compatible developer environments.
+  reason: The project is a standalone MCP server specifically built to extend AI developer tools with crypto forensic capabilities, fitting cleanly into the MCP infrastructure category.
   evidence:
+    - Repo description explicitly states 'MCP server for Marcus Rug Intel — 19 tools for crypto token risk analysis'.
+    - README confirms it is an MCP server with integrations for Claude Desktop, Cursor, Windsurf, and OpenClaw.
+    - Listed in awesome-mcp-servers under Server Implementations > Finance & Fintech.
     - "Repo description explicitly states: 'MCP server for Marcus Rug Intel — 19 tools for crypto token risk analysis, rug pull detection, and AI forensics.'"
     - README shows direct configuration for Claude Desktop, Cursor, Windsurf, and VS Code via mcpServers.
     - Listed in the Official MCP Registry and multiple MCP server directories (Smithery, Glama).
@@ -85,7 +105,7 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.683Z"
+    updated_at: "2026-05-05T22:33:31.151Z"
     cause: null
     next_retry_at: null
   stars:

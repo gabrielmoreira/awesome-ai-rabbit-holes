@@ -1,6 +1,6 @@
 id: scorable__ai
 kind: website
-name: scorable.ai
+name: Root Signals
 canonical_url: https://scorable.ai
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It allows developers to replace manual prompt testing and unreliable self-evaluation with calibrated, automated scoring that can block hallucinations and integrate into CI pipelines.
   mental_damage: Just when you thought 'vibe coding' was a sustainable methodology, you now need a panel of automated AI judges to tell you that your AI's vibes are legally actionable.
   tags:
-    - llm-evals
-    - monitoring
     - ai-quality
     - guardrails
+    - llm-evals
+    - monitoring
   confidence: high
 curation:
   status: included
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:47:55.424Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.730Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:47:55.424Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

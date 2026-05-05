@@ -1,6 +1,6 @@
 id: github__gpustack__llama-box
 kind: github-repo
-name: llama-box
+name: LLaMA Box
 canonical_url: https://github.com/gpustack/llama-box
 identity:
   github_repo: gpustack/llama-box
@@ -46,10 +46,10 @@ insights:
   why_it_matters: It lets developers run a wide range of local models behind a familiar OpenAI API, making it easier to test, prototype, and integrate local AI without relying on hosted services.
   mental_damage: Yet another local inference wrapper that teaches us the true cost of AI autonomy is maintaining an RPC server for a project that politely tells you to use the upstream repo instead.
   tags:
-    - local-ai
-    - inference
-    - openai-compatible
     - cpp
+    - inference
+    - local-ai
+    - openai-compatible
   confidence: high
 curation:
   status: excluded
@@ -65,6 +65,14 @@ lifecycle:
   status: needs_review
   reason: Repository is archived
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:22:41.939Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.689Z"
@@ -75,11 +83,3 @@ processing:
     updated_at: "2026-05-05T21:02:26.767Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:22:41.939Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

@@ -1,6 +1,6 @@
 id: grouplens__org__datasets__movielens__1m
 kind: website
-name: 1m
+name: MovieLens-1M
 canonical_url: https://grouplens.org/datasets/movielens/1m
 identity: {}
 provenance:
@@ -39,8 +39,8 @@ insights:
   why_it_matters: It serves as a foundational benchmark for evaluating recommendation algorithms and agent behaviors in research contexts.
   mental_damage: We have reached a point where a static CSV from 2003 is listed alongside autonomous agents as if it might somehow write your unit tests.
   tags:
-    - dataset
     - benchmark
+    - dataset
     - recommendation-systems
   confidence: high
 curation:
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:45:13.289Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.728Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:45:13.289Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

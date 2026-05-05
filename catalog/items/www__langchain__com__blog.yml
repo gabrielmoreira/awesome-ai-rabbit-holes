@@ -1,6 +1,6 @@
 id: www__langchain__com__blog
 kind: website
-name: blog
+name: Langchain Blog
 canonical_url: https://www.langchain.com/blog
 identity: {}
 provenance:
@@ -38,9 +38,9 @@ insights:
   why_it_matters: It serves as a primary educational resource for developers looking to implement agent architectures, observability, and deployment patterns within the LangChain ecosystem.
   mental_damage: Reading about 'production-ready deep agents' on a blog while your current task is debugging a prompt that fails 50% of the time because the temperature wasn't set to zero.
   tags:
-    - langchain
-    - blog
     - agents
+    - blog
+    - langchain
     - tutorials
   confidence: high
 curation:
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:51:42.592Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.732Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:51:42.592Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

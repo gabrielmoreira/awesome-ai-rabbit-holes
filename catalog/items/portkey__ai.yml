@@ -1,6 +1,6 @@
 id: portkey__ai
 kind: website
-name: portkey.ai
+name: Portkey
 canonical_url: https://portkey.ai
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It provides developers with a unified API gateway to switch between AI models, manage fallbacks, and monitor costs and performance in production.
   mental_damage: Yet another layer of indirection ensuring that when the AI inevitably hallucinates, you'll have beautifully graphed evidence of exactly how much latency and money you burned in the process.
   tags:
-    - llmops
-    - gateway
-    - observability
     - ai-infrastructure
+    - gateway
+    - llmops
+    - observability
   confidence: medium
 curation:
   status: included
@@ -56,6 +56,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:47:03.026Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.729Z"
@@ -65,11 +73,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:47:03.026Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

@@ -1,6 +1,6 @@
 id: github__hips__spearmint
 kind: github-repo
-name: spearmint
+name: Spearmint
 canonical_url: https://github.com/hips/spearmint
 identity:
   github_repo: hips/spearmint
@@ -41,10 +41,10 @@ insights:
   why_it_matters: It provides a structured way to automate hyperparameter tuning for machine learning algorithms, reducing the manual trial-and-error typically required in model training.
   mental_damage: Yet another reminder that while we automate the tuning of learning algorithms, we still manually tweak our own learning rates on new frameworks like this one.
   tags:
-    - bayesian-optimization
     - automl
-    - python
+    - bayesian-optimization
     - hyperparameter-tuning
+    - python
   confidence: high
 curation:
   status: excluded
@@ -60,6 +60,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (1568) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:24:02.631Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.696Z"
@@ -70,11 +78,3 @@ processing:
     updated_at: "2026-05-05T21:02:34.308Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:24:02.631Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

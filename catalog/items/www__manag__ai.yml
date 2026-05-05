@@ -1,6 +1,6 @@
 id: www__manag__ai
 kind: website
-name: www.manag.ai
+name: Manag.ai
 canonical_url: https://www.manag.ai
 identity: {}
 provenance:
@@ -38,8 +38,8 @@ insights:
   why_it_matters: It provides developers with infrastructure for managing the operational lifecycle of large language models in production environments.
   mental_damage: Yet another entry in the rapidly expanding LLMOps ecosystem, ensuring you'll spend more time configuring the management layer than actually building the product.
   tags:
-    - llmops
     - infrastructure
+    - llmops
     - management
   confidence: low
 curation:
@@ -56,6 +56,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:51:52.607Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.733Z"
@@ -65,11 +73,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:51:52.607Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

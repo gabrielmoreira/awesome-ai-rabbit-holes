@@ -1,6 +1,6 @@
 id: github__guinmoon__llmfarm
 kind: github-repo
-name: llmfarm
+name: LLMFarm
 canonical_url: https://github.com/guinmoon/llmfarm
 identity:
   github_repo: guinmoon/llmfarm
@@ -51,10 +51,10 @@ insights:
   why_it_matters: It allows developers to benchmark and run local LLMs directly on Apple hardware, providing a mobile-native interface for testing model performance and experimenting with on-device inference.
   mental_damage: Now you can waste your battery life optimizing quantized models on your iPhone instead of just complaining about context windows on your laptop.
   tags:
-    - local-ai
-    - ios
-    - macos
     - ggml
+    - ios
+    - local-ai
+    - macos
     - offline
   confidence: high
 curation:
@@ -71,6 +71,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (2023) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:23:12.527Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.690Z"
@@ -81,11 +89,3 @@ processing:
     updated_at: "2026-05-05T21:02:29.069Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:23:12.527Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

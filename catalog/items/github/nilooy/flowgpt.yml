@@ -1,6 +1,6 @@
 id: github__nilooy__flowgpt
 kind: github-repo
-name: flowgpt
+name: FlowGPT
 canonical_url: https://github.com/nilooy/flowgpt
 identity:
   github_repo: nilooy/flowgpt
@@ -48,11 +48,11 @@ insights:
   why_it_matters: It lets developers quickly scaffold diagrams and flowcharts from natural language without leaving a local browser environment.
   mental_damage: Another brilliant solution to the existential threat of having to draw a box, type some text, and connect it to another box.
   tags:
-    - flowchart
     - diagram
+    - flowchart
     - langchain
-    - mermaid
     - local-tool
+    - mermaid
   confidence: high
 curation:
   status: excluded
@@ -68,6 +68,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (305) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:40:43.632Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.710Z"
@@ -78,11 +86,3 @@ processing:
     updated_at: "2026-05-05T21:03:55.100Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:40:43.632Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

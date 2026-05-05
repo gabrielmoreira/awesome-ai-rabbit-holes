@@ -1,13 +1,13 @@
 id: github__awslabs__autogluon
 kind: github-repo
-name: autogluon
+name: AutoGluon
 canonical_url: https://github.com/awslabs/autogluon
 identity:
   github_repo: awslabs/autogluon
 provenance:
   discoveries:
     - id: discovery__github__awslabs__autogluon__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T20:48:55.437Z"
+      discovered_at: "2026-05-05T22:33:31.148Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -52,28 +52,20 @@ metadata:
       - tabular-data
       - time-series
       - transfer-learning
-    last_checked_at: "2026-05-05T21:01:14.610Z"
+    last_checked_at: "2026-05-05T23:07:43.174Z"
     readme:
-      fetched_at: "2026-05-05T21:01:14.610Z"
+      fetched_at: "2026-05-05T23:07:43.174Z"
       bytes: 11385
 insights:
-  summary: AutoGluon is an AWS-developed open-source AutoML framework that trains and deploys high-accuracy models for tabular, text, image, and time series data with minimal code.
-  why_it_matters: It allows developers to integrate strong predictive performance into applications quickly without deep expertise in hyperparameter tuning or model selection.
-  mental_damage: Another entry in the 'three lines of code' hall of fame, promising that complex statistical modeling is now just a pip install away from your production outage.
-  tags:
-    - automl
-    - machine-learning
-    - aws
-    - framework
-    - predictive-models
-  confidence: high
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
 curation:
-  status: excluded
-  reason: Excluded because AutoGluon is a traditional machine learning library for training predictive models, not a developer-facing AI tool for coding, agent orchestration, or AI infrastructure.
-  evidence:
-    - Repo description and README define it as an AutoML tool for image, text, and tabular data, not a coding assistant.
-    - GitHub topics (automl, machine-learning, deep-learning) confirm it is a data science framework, not a developer tooling product.
-    - Source lists categorize it under AutoML in Awesome-LLMOps, which does not align with the catalog's focus on coding workflows.
+  status: pending
+  reason: null
+  evidence: []
 placement:
   primary_category: null
   section: null
@@ -81,21 +73,23 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (10284) exceeded threshold (150)
 processing:
+  categorize:
+    status: deferred
+    updated_at: "2026-05-05T23:08:33.635Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-05-06T00:08:33.635Z"
+    attempts: 0
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.440Z"
+    updated_at: "2026-05-05T22:33:31.150Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:14.610Z"
+    updated_at: "2026-05-05T23:07:43.174Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:09:50.483Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

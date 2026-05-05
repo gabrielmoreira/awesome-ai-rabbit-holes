@@ -1,6 +1,6 @@
 id: github__clickhouse__clickhouse
 kind: github-repo
-name: clickhouse
+name: ClickHouse
 canonical_url: https://github.com/clickhouse/clickhouse
 identity:
   github_repo: clickhouse/clickhouse
@@ -58,11 +58,11 @@ insights:
   why_it_matters: Developers building AI-driven applications often need a backend capable of handling massive analytical workloads and vector search with low latency.
   mental_damage: Yet another high-performance database to evaluate while you ignore the fact that your current analytic bottleneck is a 400-line CSV file.
   tags:
-    - database
     - analytics
+    - database
     - olap
-    - sql
     - real-time
+    - sql
   confidence: high
 curation:
   status: excluded
@@ -78,6 +78,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (47214) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:13:24.552Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.682Z"
@@ -88,11 +96,3 @@ processing:
     updated_at: "2026-05-05T21:01:35.535Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:13:24.552Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

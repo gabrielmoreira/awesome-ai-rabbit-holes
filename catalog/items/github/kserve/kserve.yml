@@ -1,6 +1,6 @@
 id: github__kserve__kserve
 kind: github-repo
-name: kserve
+name: Kserve
 canonical_url: https://github.com/kserve/kserve
 identity:
   github_repo: kserve/kserve
@@ -62,11 +62,11 @@ insights:
   why_it_matters: It provides developers with a standardized, OpenAI-compatible API and autoscaling infrastructure to move models from experimentation to production on Kubernetes without building custom serving logic.
   mental_damage: You now have the perfect platform to host your LLM, provided you first ascend the 10,000-step Kubernetes configuration staircase and decipher the Istio/Knative service mesh tarot cards.
   tags:
-    - kubernetes
-    - model-serving
     - inference
-    - mlops
+    - kubernetes
     - llm
+    - mlops
+    - model-serving
   confidence: high
 curation:
   status: included
@@ -82,6 +82,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (5420) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:31:22.702Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.702Z"
@@ -92,11 +100,3 @@ processing:
     updated_at: "2026-05-05T21:03:08.331Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:31:22.702Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

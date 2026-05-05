@@ -1,6 +1,6 @@
 id: www__kadoa__com
 kind: website
-name: www.kadoa.com
+name: Kadoa
 canonical_url: https://www.kadoa.com
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It allows developers and analysts to skip writing and fixing brittle web scrapers by letting internal agents generate the pipeline code automatically.
   mental_damage: You can now outsource your scraping nightmares to a specialized agent, giving you more free time to wonder when an agent will replace the analyst reading the data, too.
   tags:
-    - web-scraping
     - agents
-    - finance
     - data-pipelines
+    - finance
+    - web-scraping
   confidence: high
 curation:
   status: excluded
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:51:36.765Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.732Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:51:36.765Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

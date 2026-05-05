@@ -1,6 +1,6 @@
 id: about__gitlab__com__solutions__artificial__intelligence
 kind: website
-name: artificial-intelligence
+name: GitLab AI
 canonical_url: https://about.gitlab.com/solutions/artificial-intelligence
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It outlines how a major DevOps platform embeds AI into planning, coding, and security workflows within an existing enterprise infrastructure.
   mental_damage: "Just what every overengineered pipeline needed: another layer of 'AI solutions' sitting between the developer and the YAML file."
   tags:
+    - ai-integration
     - devops
     - enterprise
     - gitlab
-    - ai-integration
   confidence: high
 curation:
   status: excluded
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:41:15.656Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.725Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:41:15.656Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

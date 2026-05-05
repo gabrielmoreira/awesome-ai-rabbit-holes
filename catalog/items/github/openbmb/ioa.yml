@@ -1,6 +1,6 @@
 id: github__openbmb__ioa
 kind: github-repo
-name: ioa
+name: IoA
 canonical_url: https://github.com/openbmb/ioa
 identity:
   github_repo: openbmb/ioa
@@ -47,10 +47,10 @@ insights:
   mental_damage: Finally, your agents can experience the same fragmented, asynchronous communication overhead and team-forming bureaucracy that makes human internet collaboration so endlessly entertaining.
   tags:
     - agent
-    - orchestration
     - framework
-    - llm
     - genai
+    - llm
+    - orchestration
   confidence: high
 curation:
   status: included
@@ -66,6 +66,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (822) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:42:32.102Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.711Z"
@@ -76,11 +84,3 @@ processing:
     updated_at: "2026-05-05T21:04:04.430Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:42:32.102Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

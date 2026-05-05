@@ -1,6 +1,6 @@
 id: docs__julep__ai__open__responses
 kind: website
-name: open-responses
+name: Open Responses
 canonical_url: https://docs.julep.ai/open-responses
 identity: {}
 provenance:
@@ -39,9 +39,9 @@ insights:
   why_it_matters: It provides developers with tooling to standardize and manage how LLM responses are served within their stacks.
   mental_damage: Yet another layer of infrastructure to argue about while we all pretend that serving a 400-token completion is the hard part of the job.
   tags:
-    - llm-serving
-    - infrastructure
     - framework
+    - infrastructure
+    - llm-serving
   confidence: low
 curation:
   status: excluded
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:44:05.726Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.727Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:44:05.726Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

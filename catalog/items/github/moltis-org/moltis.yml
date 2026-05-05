@@ -1,6 +1,6 @@
 id: github__moltis-org__moltis
 kind: github-repo
-name: moltis
+name: Moltis
 canonical_url: https://github.com/moltis-org/moltis
 identity:
   github_repo: moltis-org/moltis
@@ -54,11 +54,11 @@ insights:
   why_it_matters: It offers developers a secure, auditable, and local-first alternative to cloud agents, bundling MCP tooling, persistent memory, and cross-platform messaging into one deployable artifact.
   mental_damage: Finally, a way to run a paranoid, sandboxed AI agent on your own hardware that integrates with Discord, Telegram, and WhatsApp, because apparently your Raspberry Pi needed more agency than your CI pipeline.
   tags:
-    - rust
-    - self-hosted
-    - mcp
     - agent-server
     - local-ai
+    - mcp
+    - rust
+    - self-hosted
   confidence: high
 curation:
   status: included
@@ -74,6 +74,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (2651) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:39:00.089Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.708Z"
@@ -84,11 +92,3 @@ processing:
     updated_at: "2026-05-05T21:03:46.379Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:39:00.089Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

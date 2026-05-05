@@ -1,12 +1,12 @@
 id: www__superagent__sh
 kind: website
-name: www.superagent.sh
+name: Superagent
 canonical_url: https://www.superagent.sh
 identity: {}
 provenance:
   discoveries:
     - id: discovery__www__superagent__sh__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T20:48:55.437Z"
+      discovered_at: "2026-05-05T22:33:31.148Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -34,43 +34,38 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Y Combinator-backed security platform that deploys specialized attack agents to red team production AI systems, uncovering data leaks and harmful outputs before users encounter them.
-  why_it_matters: Developers building agentic workflows can integrate automated red teaming to catch compliance violations and unauthorized actions that standard system prompts fail to prevent.
-  mental_damage: We now need autonomous agents to attack our autonomous agents, because apparently the only thing more terrifying than one rogue AI is an entire simulated army of them finding your edge cases first.
-  tags:
-    - red-teaming
-    - security
-    - agent-evals
-    - production-testing
-  confidence: high
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
 curation:
-  status: included
-  reason: The product is an operational platform for measuring and testing agent behavior in production, which aligns with the Evaluations and Benchmarks category rather than a coding assistant or framework.
-  evidence:
-    - "Site title and description explicitly state: 'Red Team Testing for AI Agents' and 'We attack your production system to surface data leaks'."
-    - The workflow offers 'findings, evidence, and remediation guidance' based on black-box testing, which is an evaluation/measurement surface.
-    - Listed under 'awesome-ai-agents' with the purpose of red teaming and attacking production systems.
+  status: pending
+  reason: null
+  evidence: []
 placement:
-  primary_category: evals
+  primary_category: null
   section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: deferred
+    updated_at: "2026-05-05T22:33:51.095Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-05-05T23:33:51.093Z"
+    attempts: 0
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.445Z"
+    updated_at: "2026-05-05T22:33:31.153Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T20:49:53.097Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
-    next_retry_at: null

@@ -23,17 +23,19 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
+    stars: 3
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2025-09-12T04:57:12Z"
+    pushed_at: "2026-04-04T17:02:18Z"
+    description: The MCP server for KRS Poland public API.
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics: []
+    last_checked_at: "2026-05-05T23:08:06.483Z"
+    readme:
+      fetched_at: "2026-05-05T23:08:06.483Z"
+      bytes: 1592
 insights:
   summary: null
   why_it_matters: null
@@ -57,15 +59,17 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-05-05T21:04:19.795Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for pkolawa/krs-poland-mcp-server
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T21:04:23.169Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-05-05T23:08:06.483Z"
+    cause: null
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-05-05T23:08:33.635Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-05-06T00:08:33.635Z"
+    attempts: 0
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

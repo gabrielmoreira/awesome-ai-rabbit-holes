@@ -22,6 +22,22 @@ provenance:
         extracted_url: https://github.com/steveyegge/gastown
         surrounding_text: "- **[gastown](https://github.com/steveyegge/gastown)** `⭐ 14.9k` — Multi-agent orchestration with persistent work tracking."
         confidence: high
+    - id: discovery__github__steveyegge__gastown__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Orchestrators & autonomous loops
+        anchor_text: gastown
+        extracted_url: https://github.com/steveyegge/gastown
+        surrounding_text: "- **[gastown](https://github.com/steveyegge/gastown)** `⭐ 14.9k` — Multi-agent orchestration with persistent work tracking."
+        confidence: high
 metadata:
   github:
     stars: 14962
@@ -42,10 +58,10 @@ insights:
   why_it_matters: It lets developers run scaled multi-agent workflows without losing context across restarts by persisting state in git hooks and a structured ledger.
   mental_damage: You now have the infrastructure to manage thirty concurrent AI agents, which mainly guarantees thirty concurrent AI agents will enthusiastically ruin your repository in perfect harmony.
   tags:
-    - multi-agent
-    - orchestration
     - claude-code
     - git
+    - multi-agent
+    - orchestration
     - workflow
   confidence: high
 curation:
@@ -62,16 +78,6 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (14962) exceeded threshold (150)
 processing:
-  discover:
-    status: done
-    updated_at: "2026-05-05T19:41:00.688Z"
-    cause: null
-    next_retry_at: null
-  stars:
-    status: done
-    updated_at: "2026-05-05T21:02:17.313Z"
-    cause: null
-    next_retry_at: null
   categorize:
     status: done
     updated_at: "2026-05-05T21:20:37.779Z"
@@ -80,3 +86,13 @@ processing:
     attempts: 1
     prompt_version: catalog-categorize-v2-baseline
     category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.443Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:17.313Z"
+    cause: null
+    next_retry_at: null

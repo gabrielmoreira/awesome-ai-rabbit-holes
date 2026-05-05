@@ -1,6 +1,6 @@
 id: github__confident-ai__deepeval
 kind: github-repo
-name: deepeval
+name: DeepEval
 canonical_url: https://github.com/confident-ai/deepeval
 identity:
   github_repo: confident-ai/deepeval
@@ -49,9 +49,9 @@ insights:
   tags:
     - evals
     - llm-evaluation
-    - testing
-    - python
     - metrics
+    - python
+    - testing
   confidence: high
 curation:
   status: included
@@ -67,6 +67,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (15156) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:14:14.023Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.683Z"
@@ -77,11 +85,3 @@ processing:
     updated_at: "2026-05-05T21:01:40.229Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:14:14.023Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

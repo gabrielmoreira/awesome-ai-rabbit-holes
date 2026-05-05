@@ -1,6 +1,6 @@
 id: github__lm-sys__llm-decontaminator
 kind: github-repo
-name: llm-decontaminator
+name: LLM Decontaminator
 canonical_url: https://github.com/lm-sys/llm-decontaminator
 identity:
   github_repo: lm-sys/llm-decontaminator
@@ -41,11 +41,11 @@ insights:
   why_it_matters: It gives model trainers and evaluators a concrete way to measure and clean training data so benchmark scores reflect actual capability instead of memorization.
   mental_damage: We have arrived at a point where we need specialized tooling to figure out whether our models are simply reciting rephrased homework instead of learning anything useful.
   tags:
-    - llm
-    - training-data
     - benchmarks
     - evaluation
+    - llm
     - research
+    - training-data
   confidence: high
 curation:
   status: excluded
@@ -61,6 +61,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (321) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:34:21.316Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.704Z"
@@ -71,11 +79,3 @@ processing:
     updated_at: "2026-05-05T21:03:22.386Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:34:21.316Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

@@ -1,6 +1,6 @@
 id: www__airplane__dev__autopilot
 kind: website
-name: autopilot
+name: Airplane Autopilot
 canonical_url: https://www.airplane.dev/autopilot
 identity: {}
 provenance:
@@ -39,9 +39,9 @@ insights:
   mental_damage: Another autonomous agent enters the ring, promising to write the code so you can spend your afternoon debugging why the agent thought 'User' referred to the logged-in admin.
   tags:
     - agents
-    - internal-tools
-    - automation
     - airplane
+    - automation
+    - internal-tools
   confidence: medium
 curation:
   status: included
@@ -56,6 +56,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:49:29.190Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.731Z"
@@ -65,11 +73,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:49:29.190Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

@@ -1,6 +1,6 @@
 id: github__langchain-ai__auto-evaluator
 kind: github-repo
-name: auto-evaluator
+name: Auto Evaluator
 canonical_url: https://github.com/langchain-ai/auto-evaluator
 identity:
   github_repo: langchain-ai/auto-evaluator
@@ -44,8 +44,8 @@ insights:
   tags:
     - evals
     - langchain
-    - rag
     - qa
+    - rag
   confidence: high
 curation:
   status: excluded
@@ -61,6 +61,14 @@ lifecycle:
   status: needs_review
   reason: Repository is archived
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:33:02.485Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.703Z"
@@ -71,11 +79,3 @@ processing:
     updated_at: "2026-05-05T21:03:15.681Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:33:02.485Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

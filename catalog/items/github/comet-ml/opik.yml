@@ -1,6 +1,6 @@
 id: github__comet-ml__opik
 kind: github-repo
-name: opik
+name: Opik
 canonical_url: https://github.com/comet-ml/opik
 identity:
   github_repo: comet-ml/opik
@@ -85,11 +85,11 @@ insights:
   why_it_matters: It gives developers a structured way to measure and debug AI application behavior across the full lifecycle from prototype to production.
   mental_damage: Because nothing says shipping confidence like adding a dedicated observability stack just to confirm your agent is confidently hallucinating in spectacular new ways.
   tags:
-    - llm-observability
-    - evaluation
     - agent-monitoring
-    - tracing
+    - evaluation
+    - llm-observability
     - llmops
+    - tracing
   confidence: high
 curation:
   status: included
@@ -105,6 +105,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (19214) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:14:02.625Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.659Z"
@@ -115,11 +123,3 @@ processing:
     updated_at: "2026-05-05T21:01:39.184Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:14:02.625Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

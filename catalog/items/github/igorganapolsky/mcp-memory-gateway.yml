@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__igorganapolsky__mcp-memory-gateway__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T20:48:55.437Z"
+      discovered_at: "2026-05-05T22:33:31.148Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -29,7 +29,7 @@ metadata:
     license: MIT
     archived: false
     created_at: "2026-03-03T18:13:26Z"
-    pushed_at: "2026-05-05T21:01:48Z"
+    pushed_at: "2026-05-05T22:59:43Z"
     description: "Agent governance for ThumbGate: 👍/👎 become Pre-Action Checks that block repeat mistakes before code, money, or customer systems change."
     homepage: https://thumbgate-production.up.railway.app
     topics:
@@ -53,30 +53,22 @@ metadata:
       - save-llm-tokens
       - thompson-sampling
       - thumbgate
-    last_checked_at: "2026-05-05T21:02:41.279Z"
+    last_checked_at: "2026-05-05T23:07:53.992Z"
     readme:
-      fetched_at: "2026-05-05T21:02:41.279Z"
+      fetched_at: "2026-05-05T23:07:53.992Z"
       bytes: 25649
 insights:
-  summary: An MCP-compatible governance tool that converts user feedback (thumbs-up/down) into pre-action checks that block repeated AI agent mistakes across sessions to reduce token waste.
-  why_it_matters: It targets the hidden cost of AI coding by preventing agents from repeating expensive errors across Claude Code, Cursor, Codex, Gemini, and other MCP-compatible environments.
-  mental_damage: We have finally reached the point where we need a gatekeeper to stop our autonomous agents from confidently force-pushing to main on repeat, because apparently the agents have better retention policies than we do.
-  tags:
-    - mcp
-    - agent-governance
-    - cost-optimization
-    - guardrails
-    - memory
-  confidence: high
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
 curation:
-  status: included
-  reason: The project is fundamentally an MCP server (mcp-memory-gateway) that provides governance and memory infrastructure for agents via the Model Context Protocol.
-  evidence:
-    - Repo description explicitly defines it as 'Agent governance for ThumbGate' and lists 'mcp-server' as a primary topic.
-    - Listed under 'awesome-mcp-servers' in the 'Knowledge & Memory' section of a major MCP directory.
-    - README confirms it works with 'any MCP-compatible agent' and installs via `npx thumbgate init` to wire into agent workflows.
+  status: pending
+  reason: null
+  evidence: []
 placement:
-  primary_category: mcp
+  primary_category: null
   section: null
 lifecycle:
   status: incubating
@@ -84,19 +76,21 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.441Z"
+    updated_at: "2026-05-05T22:33:31.151Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:41.279Z"
+    updated_at: "2026-05-05T23:07:53.992Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-05T21:25:30.048Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
+    status: deferred
+    updated_at: "2026-05-05T23:08:33.635Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-05-06T00:08:33.635Z"
+    attempts: 0
     prompt_version: catalog-categorize-v2-baseline
     category_rules_version: 1b6cc5462ecc

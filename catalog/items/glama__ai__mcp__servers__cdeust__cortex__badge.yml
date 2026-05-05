@@ -1,6 +1,6 @@
 id: glama__ai__mcp__servers__cdeust__cortex__badge
 kind: website
-name: badge
+name: "![badge"
 canonical_url: https://glama.ai/mcp/servers/cdeust/Cortex/badge
 identity: {}
 provenance:
@@ -39,9 +39,9 @@ insights:
   why_it_matters: It allows MCP-compatible assistants to interface with Cortex, extending their memory capabilities with another backend option.
   mental_damage: We now have a protocol for the tools that help the AI remember which protocol we are currently using to talk to the tools.
   tags:
+    - context
     - mcp
     - memory
-    - context
     - server
   confidence: medium
 curation:
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:44:58.640Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.728Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:44:58.640Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

@@ -1,6 +1,6 @@
 id: github__bytedance__trae-agent
 kind: github-repo
-name: trae-agent
+name: Trae Agent
 canonical_url: https://github.com/bytedance/trae-agent
 identity:
   github_repo: bytedance/trae-agent
@@ -45,11 +45,11 @@ insights:
   why_it_matters: It offers researchers and developers a transparent, extensible CLI agent platform with multi-provider LLM support and detailed trajectory logging for studying or building agent workflows.
   mental_damage: ByteDance open-sourced their internal agent so you can now debug a 200-step autonomous loop that's technically transparent, which only makes the inevitable hallucinated stack traces feel more personal.
   tags:
+    - bytedance
     - cli
     - llm-agent
-    - software-engineering
-    - bytedance
     - research
+    - software-engineering
   confidence: high
 curation:
   status: included
@@ -65,6 +65,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (11467) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:12:02.852Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.682Z"
@@ -75,11 +83,3 @@ processing:
     updated_at: "2026-05-05T21:01:27.761Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:12:02.852Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

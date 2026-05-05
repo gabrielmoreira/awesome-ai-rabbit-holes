@@ -1,6 +1,6 @@
 id: github__git-ai-project__git-ai
 kind: github-repo
-name: git-ai
+name: Git AI
 canonical_url: https://github.com/git-ai-project/git-ai
 identity:
   github_repo: git-ai-project/git-ai
@@ -40,24 +40,28 @@ metadata:
       fetched_at: "2026-05-05T21:02:21.605Z"
       bytes: 14324
 insights:
-  summary: A Git extension that automatically tracks and attributes AI-generated code to the specific model, agent, and session that produced it.
-  why_it_matters: It restores provenance and accountability to repositories where AI agents now write the majority of the codebase, making `git blame` useful again.
-  mental_damage: You can now prove exactly which hallucinating model committed that regex that somehow passed code review, just in time for the audit.
+  summary: A Git extension that automatically tracks and attributes AI-generated code lines to the specific agent, model, and session used to create them.
+  why_it_matters: It restores provenance and accountability to repositories polluted by agent-generated code, allowing developers to audit *why* a line was written, not just *who* committed it.
+  mental_damage: Finally, you can run git blame not to find the human who ruined the build, but to discover which specific hallucination-prone model you need to yell at in the logs.
   tags:
-    - git
     - ai-attribution
+    - blame
     - cli
+    - code-tracking
     - devops
+    - git
   confidence: high
 curation:
   status: included
-  reason: It is a developer-facing CLI tool that integrates into the Git workflow to track, attribute, and manage AI-generated code contributions within a repository.
+  reason: It is a developer-facing extension that integrates with existing coding agents and Git workflows to add a memory and attribution layer, rather than being a primary coding assistant itself.
   evidence:
     - Repo description states it is 'A Git extension for tracking the AI-generated code in your repos'.
+    - README demonstrates augmented git workflows like 'git-ai blame' to show model and session IDs for code lines.
+    - Supports augmenting major agents (Claude, Cursor, Copilot, etc.) rather than acting as a standalone IDE agent.
     - README demonstrates `git-ai blame` showing specific agents like 'claude [session_id]' per line of code.
     - Supports integration with major coding agents including Claude Code, Cursor, Copilot, and Windsurf (README table).
 placement:
-  primary_category: coding-agents
+  primary_category: null
   section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
@@ -73,7 +77,7 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.676Z"
+    updated_at: "2026-05-05T20:48:55.440Z"
     cause: null
     next_retry_at: null
   stars:

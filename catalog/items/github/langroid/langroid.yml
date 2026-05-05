@@ -1,6 +1,6 @@
 id: github__langroid__langroid
 kind: github-repo
-name: langroid
+name: Langroid
 canonical_url: https://github.com/langroid/langroid
 identity:
   github_repo: langroid/langroid
@@ -90,10 +90,10 @@ insights:
   why_it_matters: It provides a lightweight, extensible alternative to heavier LLM frameworks for developers building production multi-agent systems with support for local models and MCP servers.
   mental_damage: Yet another framework claiming to solve the agent orchestration problem, ensuring you can spend a week evaluating it only to realize your original Python script was fine.
   tags:
-    - multi-agent
     - llm-framework
-    - python
     - mcp
+    - multi-agent
+    - python
     - rag
   confidence: high
 curation:
@@ -110,6 +110,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (4001) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:33:13.244Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.660Z"
@@ -120,11 +128,3 @@ processing:
     updated_at: "2026-05-05T21:03:16.765Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:33:13.244Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

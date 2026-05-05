@@ -1,6 +1,6 @@
 id: github__pgalko__bambooai
 kind: github-repo
-name: bambooai
+name: BambooAI
 canonical_url: https://github.com/pgalko/bambooai
 identity:
   github_repo: pgalko/bambooai
@@ -58,11 +58,11 @@ insights:
   why_it_matters: It allows developers and analysts to interact with data via conversation, automating the generation of analysis code and visualizations without manual scripting.
   mental_damage: Because what the world truly needed was another abstraction layer where an LLM hallucinates pandas code so you can debug dataframes you never wrote.
   tags:
-    - llm
-    - data-analysis
-    - python
-    - code-generation
     - agent
+    - code-generation
+    - data-analysis
+    - llm
+    - python
   confidence: high
 curation:
   status: included
@@ -78,6 +78,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (776) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:44:23.315Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.713Z"
@@ -88,11 +96,3 @@ processing:
     updated_at: "2026-05-05T21:04:15.537Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:44:23.315Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

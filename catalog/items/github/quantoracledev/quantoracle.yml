@@ -24,17 +24,39 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 4
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-04-04T03:54:58Z"
+    pushed_at: "2026-05-04T17:58:35Z"
+    description: 63 deterministic quant computation tools for autonomous financial agents. Options, derivatives, risk, portfolio, statistics, crypto/DeFi, macro/FX, TVM. 1,000 free calls/day — no signup.
+    homepage: https://quantoracle.dev
+    topics:
+      - agent-tools
+      - ai-agent
+      - backtesting
+      - black-scholes
+      - crypto
+      - defi
+      - derivatives
+      - deterministic
+      - fastapi
+      - finance
+      - financial-agent
+      - financial-calculator
+      - mcp
+      - mcp-server
+      - monte-carlo
+      - options-pricing
+      - portfolio-optimization
+      - quantitative-finance
+      - risk-management
+      - x402
+    last_checked_at: "2026-05-05T23:08:15.544Z"
+    readme:
+      fetched_at: "2026-05-05T23:08:15.544Z"
+      bytes: 30228
 insights:
   summary: null
   why_it_matters: null
@@ -58,13 +80,17 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-05T23:08:15.544Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T21:04:23.169Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-05-05T23:08:33.635Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-05-06T00:08:33.635Z"
+    attempts: 0
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

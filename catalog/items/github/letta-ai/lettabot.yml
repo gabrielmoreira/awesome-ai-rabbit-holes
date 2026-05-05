@@ -1,6 +1,6 @@
 id: github__letta-ai__lettabot
 kind: github-repo
-name: lettabot
+name: LettaBot
 canonical_url: https://github.com/letta-ai/lettabot
 identity:
   github_repo: letta-ai/lettabot
@@ -43,9 +43,9 @@ insights:
   mental_damage: We have reached the point where the setup instructions politely suggest you ask a different AI agent to configure this one for you.
   tags:
     - agents
+    - cli
     - messaging
     - persistent-memory
-    - cli
     - self-hosting
   confidence: high
 curation:
@@ -62,6 +62,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (325) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:33:43.173Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.704Z"
@@ -72,11 +80,3 @@ processing:
     updated_at: "2026-05-05T21:03:19.069Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:33:43.173Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

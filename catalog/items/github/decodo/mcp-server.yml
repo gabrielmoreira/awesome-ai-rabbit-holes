@@ -1,6 +1,6 @@
 id: github__decodo__mcp-server
 kind: github-repo
-name: decodo-mcp-server
+name: Decodo
 canonical_url: https://github.com/decodo/mcp-server
 identity:
   github_repo: decodo/mcp-server
@@ -43,25 +43,30 @@ metadata:
       - residential-proxies
       - scraping-infrastructure
       - smithery
-    last_checked_at: "2026-05-05T21:01:50.606Z"
+    last_checked_at: "2026-05-05T21:01:50.620Z"
     readme:
-      fetched_at: "2026-05-05T21:01:50.606Z"
+      fetched_at: "2026-05-05T21:01:50.620Z"
       bytes: 15317
 insights:
-  summary: An MCP server that connects LLMs and AI clients like Claude Desktop and Cursor to Decodo's web scraping, search, and data extraction APIs.
-  why_it_matters: It allows coding agents to bypass regional restrictions and anti-bot measures to reliably fetch web data directly from the IDE without manual proxy configuration.
-  mental_damage: We have officially reached the point where our AI assistants need their own VPN and identity concealment layer just to read the documentation.
+  summary: An official MCP server that exposes Decodo's web scraping, search, ecommerce, social media, and AI proxy services as tools for MCP-compatible clients like Claude Desktop and Cursor.
+  why_it_matters: It lets developers wire production-grade scraping and data-collection capabilities directly into their AI coding workflows without building custom API integrations.
+  mental_damage: We have finally reached the point where your AI agent needs its own VPN, proxy rotation, and scraping stack just to fetch a Google search result.
   tags:
-    - mcp
-    - web-scraping
-    - proxy
-    - cursor
+    - claude
     - context-engineering
+    - cursor
+    - mcp
+    - proxy
+    - scraping
+    - web-scraping
   confidence: high
 curation:
   status: included
-  reason: The project is a dedicated Model Context Protocol server providing proxy and scraping tools to MCP-compatible clients, fitting squarely into the MCP infrastructure category.
+  reason: The project is an official MCP server implementation that exposes proxy and scraping services as MCP tools, which fits squarely into the MCP Servers and Tooling category.
   evidence:
+    - "Repo description explicitly states: 'The Decodo MCP server which enables MCP clients to interface with services.'"
+    - README details MCP server setup for Claude Desktop and Cursor with toolset configuration (web, search, ecommerce, social_media, ai).
+    - Listed in awesome-mcp-servers under 'Official Servers' section.
     - Repo description explicitly states it is 'The Decodo MCP server which enables MCP clients to interface with services.'
     - README details integration with Claude Desktop and Cursor via standard MCP configuration schemas.
     - Features include specific MCP toolsets for web scraping, search, and e-commerce data retrieval.
@@ -82,11 +87,11 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.684Z"
+    updated_at: "2026-05-05T20:48:55.441Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:50.606Z"
+    updated_at: "2026-05-05T21:01:50.620Z"
     cause: null
     next_retry_at: null

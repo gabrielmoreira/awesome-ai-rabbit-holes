@@ -1,6 +1,6 @@
 id: github__apify__apify-mcp-server
 kind: github-repo
-name: mcp
+name: Career Site Jobs
 canonical_url: https://github.com/apify/apify-mcp-server
 identity:
   github_repo: apify/apify-mcp-server
@@ -51,25 +51,42 @@ metadata:
       - ai
       - mcp
       - mcp-server
-    last_checked_at: "2026-05-05T21:01:07.010Z"
+    last_checked_at: "2026-05-05T21:01:07.038Z"
     readme:
-      fetched_at: "2026-05-05T21:01:07.010Z"
+      fetched_at: "2026-05-05T21:01:07.038Z"
       bytes: 30729
 insights:
   summary: An MCP server that exposes thousands of Apify Actors as tools so AI agents can scrape and extract data from websites, search engines, maps, and social media platforms.
-  why_it_matters: Developers can connect AI assistants in Claude, Cursor, or VS Code directly to a vast library of web scrapers without writing custom extraction code.
-  mental_damage: We have successfully abstracted away the tedious work of writing a scraper, only to replace it with the equally tedious work of persuading an agent to use one correctly.
+  why_it_matters: Developers can equip their MCP-compatible AI assistants with instant access to a massive library of production-grade web scrapers without writing custom extraction code.
+  mental_damage: We have finally reached the point where your AI agent needs its own agent economy, complete with OAuth and x402 payments, just to scrape a Google Maps listing.
   tags:
-    - mcp
-    - scraping
+    - agent-tools
     - agents
+    - api
     - apify
+    - ats
     - data-extraction
+    - jobs
+    - mcp
+    - scraper
+    - scraping
   confidence: high
 curation:
   status: included
-  reason: The project is an MCP server that makes Apify's scraping actors available as tools to MCP-compatible clients, fitting cleanly into MCP infrastructure.
+  reason: This is a dedicated MCP server exposing a job-listing API for AI integration, which clearly fits the MCP Servers and Tooling category.
   evidence:
+    - Title and description identify it as a 'Career Site Job Listing API MCP server' on Apify.
+    - The configuration snippet shows a standard MCP server setup targeting mcp.apify.com with the specific Actor preconfigured.
+    - It is listed in the awesome-mcp-servers directory under the 'Community Servers' section.
+    - Title is 'Career Site Job Listing API MCP server' and description confirms it interacts via Model Context Protocol.
+    - Includes MCP configuration JSON snippet for 'mcpServers' using 'npx mcp-remote'.
+    - Listed in the 'awesome-mcp-servers' directory under 'Community Servers'.
+    - Listed in the awesome-mcp-servers directory under 'Community Servers'.
+    - Provides a specific MCP configuration JSON snippet to connect the Actor via mcp.apify.com.
+    - Title explicitly states 'Career Site Job Listing API MCP server'.
+    - Repo description explicitly defines it as 'The Apify MCP server' for connecting AI agents to scrapers via MCP.
+    - README confirms compatibility with Claude, Cursor, VS Code, and any MCP-adherent client via a hosted server or stdio.
+    - Listed in awesome-mcp-servers under 'Official Servers', reinforcing its role as core MCP infrastructure.
     - Repo description explicitly states it is 'The Apify MCP server' enabling AI agents to use Apify Store scrapers via MCP.
     - README lists compatibility with Claude, Cursor, VS Code, and other MCP clients, and promotes the hosted mcp.apify.com endpoint.
     - Topics include mcp and mcp-server, and the project is actively maintained (pushed 2026-05-05).
@@ -82,19 +99,19 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-05-05T21:04:30.460Z"
+    updated_at: "2026-05-05T22:47:22.414Z"
     cause: null
-    attempts: 2
+    attempts: 1
     prompt_version: catalog-categorize-v2-baseline
     category_rules_version: 1b6cc5462ecc
     next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.726Z"
+    updated_at: "2026-05-05T22:47:06.911Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:07.010Z"
+    updated_at: "2026-05-05T21:01:07.038Z"
     cause: null
     next_retry_at: null

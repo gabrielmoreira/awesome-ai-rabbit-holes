@@ -1,6 +1,6 @@
 id: code__visualstudio__com__mcp
 kind: website
-name: mcp
+name: VS Code MCP Directory
 canonical_url: https://code.visualstudio.com/mcp
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It provides the canonical setup for connecting local MCP servers directly into the VS Code editor, bridging external tools with the IDE workflow.
   mental_damage: Finally, a protocol to solve the problem of having too many protocols, ensuring your IDE can talk to your tools just as soon as you finish configuring the transport layer.
   tags:
-    - mcp
-    - vscode
-    - protocol
     - integration
+    - mcp
+    - protocol
+    - vscode
   confidence: high
 curation:
   status: excluded
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:42:55.769Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.726Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:42:55.769Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

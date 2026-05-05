@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__payclaw__mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T20:48:55.437Z"
+      discovered_at: "2026-05-05T22:33:31.148Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,29 +33,22 @@ metadata:
     description: Badge identity + virtual Visa cards for AI agents. MCP-native.
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:04:14.298Z"
+    last_checked_at: "2026-05-05T23:08:04.871Z"
     readme:
-      fetched_at: "2026-05-05T21:04:14.298Z"
+      fetched_at: "2026-05-05T23:08:04.871Z"
       bytes: 11537
 insights:
-  summary: An MCP server that provides AI agents with identity badges and single-use virtual Visa cards to enable verified, authorized shopping at supporting merchants.
-  why_it_matters: Developers building agentic commerce workflows can integrate identity declaration and human-approved payment capabilities directly into their MCP-compatible clients (Claude Desktop, Cursor) without handling raw payment credentials.
-  mental_damage: We spent decades trying to stop bots from buying things, and now we are building infra so our agents can flash a badge and burn a one-time Visa without us ever seeing a checkout page.
-  tags:
-    - mcp
-    - payments
-    - agents
-    - identity
-  confidence: high
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
 curation:
-  status: included
-  reason: The project is an MCP server implementation for agent identity and payments, fitting cleanly into the MCP Servers and Tooling category.
-  evidence:
-    - Repo description explicitly states 'MCP-native' and it is listed in awesome-mcp-servers under Finance & Fintech.
-    - README details an MCP server installable via npx or Claude Desktop/Cursor config to provide Badge and Spend tools.
-    - Active development (pushed 2026-05-04) and MIT licensed, despite being very new with 1 star.
+  status: pending
+  reason: null
+  evidence: []
 placement:
-  primary_category: mcp
+  primary_category: null
   section: null
 lifecycle:
   status: incubating
@@ -63,19 +56,21 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.443Z"
+    updated_at: "2026-05-05T22:33:31.152Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:14.298Z"
+    updated_at: "2026-05-05T23:08:04.871Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-05T21:44:09.881Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
+    status: deferred
+    updated_at: "2026-05-05T23:08:33.635Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-05-06T00:08:33.635Z"
+    attempts: 0
     prompt_version: catalog-categorize-v2-baseline
     category_rules_version: 1b6cc5462ecc

@@ -1,6 +1,6 @@
 id: github__run-llama__llama-hub
 kind: github-repo
-name: llama-hub
+name: LlamaHub
 canonical_url: https://github.com/run-llama/llama-hub
 identity:
   github_repo: run-llama/llama-hub
@@ -24,47 +24,59 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 3473
+    forks: 719
+    license: MIT
+    archived: true
+    created_at: "2023-02-01T05:25:29Z"
+    pushed_at: "2024-03-01T15:17:16Z"
+    description: A library of data loaders for LLMs made by the community -- to be used with LlamaIndex and/or LangChain
+    homepage: https://llamahub.ai/
+    topics: []
+    last_checked_at: "2026-05-05T21:02:02.313Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:02.313Z"
+      bytes: 15460
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A community-maintained library of data loaders, tools, and packs for connecting LLMs to external knowledge sources, originally designed for use with LlamaIndex and LangChain.
+  why_it_matters: It simplifies ingesting data from diverse sources like Google Docs, SQL, and Slack into LLM workflows for retrieval and agent tooling.
+  mental_damage: The repo is archived and the entire ecosystem migrated elsewhere, yet the link still lives on in awesome lists like a digital ghost town tourists keep visiting.
+  tags:
+    - archived
+    - data-loaders
+    - integrations
+    - langchain
+    - llama-index
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: The repository is explicitly archived and its functionality has been fully deprecated and moved into the core llama-index repository.
+  evidence:
+    - Repo archived flag is true and the README includes a CAUTION notice stating it is deprecated.
+    - "README states: 'With the launch of LlamaIndex v0.10, we are deprecating this llama_hub repo - all integrations... are now in the core llama-index Python repository.'"
+    - Pushed at date is 2024-03-01, indicating no active development since the deprecation.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: Repository is archived
 processing:
   categorize:
-    status: skipped
-    updated_at: "2026-05-05T21:04:23.169Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-05-05T21:17:57.219Z"
+    cause: null
     next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.686Z"
+    updated_at: "2026-05-05T20:48:55.441Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-05T21:02:02.313Z"
     cause: null
+    next_retry_at: null

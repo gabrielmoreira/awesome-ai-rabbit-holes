@@ -1,6 +1,6 @@
 id: github__modelscope__evalscope
 kind: github-repo
-name: evalscope
+name: EvalScope (`🔥`)
 canonical_url: https://github.com/modelscope/evalscope
 identity:
   github_repo: modelscope/evalscope
@@ -46,11 +46,11 @@ insights:
   why_it_matters: It gives developers a structured way to measure model quality and inference performance across multiple backends instead of stitching together ad-hoc eval scripts.
   mental_damage: Because the only thing more exhausting than tuning prompts is building an entire benchmarking pipeline just to prove your model is statistically 3% less confused than the last one.
   tags:
-    - eval
     - benchmark
+    - eval
     - llm
-    - performance
     - modelscope
+    - performance
   confidence: high
 curation:
   status: included
@@ -66,6 +66,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (2753) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:38:53.349Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.708Z"
@@ -76,11 +84,3 @@ processing:
     updated_at: "2026-05-05T21:03:45.622Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:38:53.349Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

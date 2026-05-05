@@ -1,6 +1,6 @@
 id: github__connerlambden__helium-mcp
 kind: github-repo
-name: helium-mcp
+name: Helium MCP
 canonical_url: https://github.com/connerlambden/helium-mcp
 identity:
   github_repo: connerlambden/helium-mcp
@@ -77,11 +77,11 @@ insights:
   why_it_matters: It allows developers to plug real-time financial data and media bias analysis directly into their AI workflows within editors like Cursor, Windsurf, and Claude Desktop.
   mental_damage: Finally, an MCP server that ensures your AI agent can weigh bull cases for Bitcoin while simultaneously surfacing the exact memes required to cope with the resulting portfolio volatility.
   tags:
-    - mcp
-    - market-data
-    - finance
-    - news-bias
     - cursor
+    - finance
+    - market-data
+    - mcp
+    - news-bias
   confidence: medium
 curation:
   status: included
@@ -97,6 +97,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:14:19.607Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.664Z"
@@ -107,11 +115,3 @@ processing:
     updated_at: "2026-05-05T21:01:40.870Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:14:19.607Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

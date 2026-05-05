@@ -1,6 +1,6 @@
 id: github__agent-infra__sandbox
 kind: github-repo
-name: sandbox
+name: SandBox
 canonical_url: https://github.com/agent-infra/sandbox
 identity:
   github_repo: agent-infra/sandbox
@@ -48,10 +48,10 @@ insights:
   why_it_matters: Provides developers building AI agents with a pre-configured, unified execution environment that eliminates the friction of wiring together separate browser, shell, and filesystem sandboxes.
   mental_damage: We have successfully containerized the entire developer workflow so that agents can now experience the joy of a corrupted apt cache and a crashed VSCode Server all in one place.
   tags:
-    - sandbox
     - agent-infrastructure
-    - mcp
     - docker
+    - mcp
+    - sandbox
     - sdk
   confidence: high
 curation:
@@ -68,6 +68,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (4529) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:06:05.117Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.676Z"
@@ -78,11 +86,3 @@ processing:
     updated_at: "2026-05-05T21:00:50.482Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:06:05.117Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

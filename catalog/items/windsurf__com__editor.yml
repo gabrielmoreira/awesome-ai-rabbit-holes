@@ -1,6 +1,6 @@
 id: windsurf__com__editor
 kind: website
-name: editor
+name: Windsurf
 canonical_url: https://windsurf.com/editor
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It attempts to merge local coding assistance with cloud-based autonomous agents in a single interface, aiming to reduce context switching and keep developers in a continuous 'flow state'.
   mental_damage: Just when you thought you had mastered the 'Cursor vs Copilot' workflow anxiety, we now have IDEs shipping with built-in Kanban boards to manage your robot subordinates so you can focus on 'the fun parts' like prompt engineering.
   tags:
-    - ide
+    - ai-workflow
     - coding-agent
     - editor
-    - ai-workflow
+    - ide
   confidence: high
 curation:
   status: included
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:49:17.447Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.731Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:49:17.447Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

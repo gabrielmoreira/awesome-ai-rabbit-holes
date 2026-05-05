@@ -21,6 +21,21 @@ provenance:
         extracted_url: https://github.com/pgyer/pgyer-mcp-server
         surrounding_text: "- **[PGYER](https://github.com/PGYER/pgyer-mcp-server)** - MCP Server for [PGYER](https://www.pgyer.com/) platform, supports uploading, querying apps, etc."
         confidence: high
+    - id: discovery__www__pgyer__com__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T22:47:06.910Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: PGYER
+        extracted_url: https://www.pgyer.com
+        surrounding_text: "- **[PGYER](https://github.com/PGYER/pgyer-mcp-server)** - MCP Server for [PGYER](https://www.pgyer.com/) platform, supports uploading, querying apps, etc."
+        confidence: high
 metadata:
   github:
     stars: 1
@@ -44,11 +59,14 @@ insights:
   why_it_matters: It integrates mobile app distribution workflows into modern AI-assisted development environments, enabling automated CI/CD handoffs without leaving the coding context.
   mental_damage: "We have finally achieved the future: an AI agent that can upload your beta build to a Chinese app testing platform, ensuring your automation stack is as over-engineered as your tolerance for YAML."
   tags:
-    - mcp
-    - pgyer
     - app-distribution
+    - app-testing
+    - beta-distribution
     - ci-cd
+    - mcp
+    - mobile-dev
     - node
+    - pgyer
   confidence: high
 curation:
   status: included
@@ -64,16 +82,6 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  discover:
-    status: done
-    updated_at: "2026-05-05T19:41:00.713Z"
-    cause: null
-    next_retry_at: null
-  stars:
-    status: done
-    updated_at: "2026-05-05T21:04:15.818Z"
-    cause: null
-    next_retry_at: null
   categorize:
     status: done
     updated_at: "2026-05-05T21:44:28.334Z"
@@ -82,3 +90,13 @@ processing:
     attempts: 1
     prompt_version: catalog-categorize-v2-baseline
     category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T22:47:06.911Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:15.818Z"
+    cause: null
+    next_retry_at: null

@@ -1,6 +1,6 @@
 id: github__opennmt__ctranslate2
 kind: github-repo
-name: ctranslate2
+name: CTranslate2
 canonical_url: https://github.com/opennmt/ctranslate2
 identity:
   github_repo: opennmt/ctranslate2
@@ -62,11 +62,11 @@ insights:
   why_it_matters: It lets developers serve and run LLMs, translation, and Whisper models with significantly lower latency and memory usage than standard frameworks, using INT8/INT4 quantization and architecture-specific optimizations.
   mental_damage: You will spend three days debating AVX-512 versus ARM64 NEON intrinsics, only to realize your model still outputs 'As an AI language model' with terrifying efficiency.
   tags:
-    - inference
-    - transformers
-    - quantization
     - cpp
+    - inference
     - local-ai
+    - quantization
+    - transformers
   confidence: high
 curation:
   status: included
@@ -82,6 +82,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (4470) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:42:54.206Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.711Z"
@@ -92,11 +100,3 @@ processing:
     updated_at: "2026-05-05T21:04:06.855Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:42:54.206Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

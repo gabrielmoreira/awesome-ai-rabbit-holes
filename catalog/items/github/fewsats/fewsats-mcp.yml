@@ -21,6 +21,21 @@ provenance:
         extracted_url: https://github.com/fewsats/fewsats-mcp
         surrounding_text: "- **[Fewsats](https://github.com/Fewsats/fewsats-mcp)** - Enable AI Agents to purchase anything in a secure way using [Fewsats](https://fewsats.com)"
         confidence: high
+    - id: discovery__www__fewsats__com__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T22:47:06.910Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Fewsats
+        extracted_url: https://fewsats.com
+        surrounding_text: "- **[Fewsats](https://github.com/Fewsats/fewsats-mcp)** - Enable AI Agents to purchase anything in a secure way using [Fewsats](https://fewsats.com)"
+        confidence: high
 metadata:
   github:
     stars: 22
@@ -41,10 +56,12 @@ insights:
   why_it_matters: It enables developers building AI agents to add native payment capabilities without building custom payment integrations, letting agents securely transact on behalf of users.
   mental_damage: Your AI agent can now autonomously drain your Fewsats wallet at 3 AM, because the natural next step after autonomous code generation was autonomous impulse buying.
   tags:
+    - agent-tooling
+    - directory
+    - fewsats
     - mcp
     - payments
-    - agent-tooling
-    - fewsats
+    - registry
   confidence: high
 curation:
   status: included
@@ -53,6 +70,9 @@ curation:
     - Repo description states 'Fewsats MCP server', clearly identifying the artifact type.
     - README details MCP tools (balance, payment_methods, pay_offer, payment_info) for AI agents to use Fewsats.
     - Listed in awesome-mcp-servers under 'Official Servers', confirming MCP ecosystem relevance.
+    - URL resolves to www.fewsats.com, a hosted website rather than a GitHub repository.
+    - "Referenced in awesome-mcp-servers as the submission target: https://mcpservers.org/submit."
+    - Primary function is serving as a registry/listing site for MCP servers.
 placement:
   primary_category: mcp
   section: null
@@ -60,16 +80,6 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  discover:
-    status: done
-    updated_at: "2026-05-05T19:41:00.687Z"
-    cause: null
-    next_retry_at: null
-  stars:
-    status: done
-    updated_at: "2026-05-05T21:02:10.880Z"
-    cause: null
-    next_retry_at: null
   categorize:
     status: done
     updated_at: "2026-05-05T21:19:28.728Z"
@@ -78,3 +88,13 @@ processing:
     attempts: 1
     prompt_version: catalog-categorize-v2-baseline
     category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T22:47:06.911Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:10.880Z"
+    cause: null
+    next_retry_at: null

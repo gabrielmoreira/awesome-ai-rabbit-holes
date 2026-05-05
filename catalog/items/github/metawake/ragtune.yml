@@ -1,6 +1,6 @@
 id: github__metawake__ragtune
 kind: github-repo
-name: ragtune
+name: RagTune
 canonical_url: https://github.com/metawake/ragtune
 identity:
   github_repo: metawake/ragtune
@@ -58,11 +58,11 @@ insights:
   why_it_matters: It gives developers concrete metrics like Recall@K and NeedleCoverage@K to catch retrieval regressions before they silently break production AI features.
   mental_damage: Yet another reminder that your fancy LLM is only as smart as the five chunks of text your vector database decided to forget.
   tags:
-    - rag
-    - evals
     - cli
-    - vector-search
     - debugging
+    - evals
+    - rag
+    - vector-search
   confidence: high
 curation:
   status: included
@@ -78,6 +78,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:37:11.235Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.706Z"
@@ -88,11 +96,3 @@ processing:
     updated_at: "2026-05-05T21:03:36.753Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:37:11.235Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

@@ -1,6 +1,6 @@
 id: vulert__com
 kind: website
-name: vulert.com
+name: Vulert
 canonical_url: https://vulert.com
 identity: {}
 provenance:
@@ -38,11 +38,11 @@ insights:
   why_it_matters: It integrates into CI/CD pipelines and dashboards to automate dependency security and compliance checks so developers can stop manually grepping through lockfiles for CVEs.
   mental_damage: Another zero-install, zero-trust SaaS to manage the supply-chain anxiety that prompts and autocomplete accidentally introduced in the first place.
   tags:
-    - security
-    - sca
-    - compliance
     - ci-cd
+    - compliance
     - dependencies
+    - sca
+    - security
   confidence: high
 curation:
   status: excluded
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:49:09.635Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.731Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:49:09.635Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

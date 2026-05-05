@@ -1,6 +1,6 @@
 id: www__prompteams__com
 kind: website
-name: www.prompteams.com
+name: Prompteams
 canonical_url: https://www.prompteams.com
 identity: {}
 provenance:
@@ -38,11 +38,11 @@ insights:
   why_it_matters: It provides a structured environment to version prompts, build CI/CD pipelines for LLM testing, and decouple prompt updates from application code via real-time APIs.
   mental_damage: Because nothing says 'cutting-edge AI innovation' quite like building a dedicated CI/CD pipeline to manage the recursive art of asking a robot to please behave this time.
   tags:
-    - prompt-management
+    - ci-cd
     - llmops
+    - prompt-management
     - testing
     - versioning
-    - ci-cd
   confidence: high
 curation:
   status: included
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:52:42.789Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.733Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:52:42.789Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

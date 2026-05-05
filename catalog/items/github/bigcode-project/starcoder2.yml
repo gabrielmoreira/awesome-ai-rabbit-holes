@@ -1,6 +1,6 @@
 id: github__bigcode-project__starcoder2
 kind: github-repo
-name: starcoder2
+name: StarCoder 2
 canonical_url: https://github.com/bigcode-project/starcoder2
 identity:
   github_repo: bigcode-project/starcoder2
@@ -42,9 +42,9 @@ insights:
   mental_damage: Yet another opportunity to spend a weekend quantizing a 15B model down to 4-bit just to discover your laptop fan sounds like a jet engine during autocomplete.
   tags:
     - code-models
+    - huggingface
     - local-ai
     - open-source
-    - huggingface
   confidence: high
 curation:
   status: included
@@ -60,6 +60,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (2061) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:10:43.377Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.681Z"
@@ -70,11 +78,3 @@ processing:
     updated_at: "2026-05-05T21:01:20.383Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:10:43.377Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

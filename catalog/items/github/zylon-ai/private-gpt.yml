@@ -1,6 +1,6 @@
 id: github__zylon-ai__private-gpt
 kind: github-repo
-name: privategpt
+name: Private GPT
 canonical_url: https://github.com/zylon-ai/private-gpt
 identity:
   github_repo: zylon-ai/private-gpt
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [Private GPT](https://github.com/imartinez/privateGPT): Interact privately with your documents using the power of GPT, 100% privately, no data leaks ![GitHub Repo stars](https://img.shields.io/github/stars/imartinez/privateGPT?style=social)"
         confidence: high
     - id: discovery__www__privategpt__io__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-05T20:48:55.437Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -39,56 +39,61 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 57211
+    forks: 7598
+    license: Apache-2.0
+    archived: false
+    created_at: "2023-05-02T09:15:31Z"
+    pushed_at: "2026-02-26T09:56:49Z"
+    description: Interact with your documents using the power of GPT, 100% privately, no data leaks
+    homepage: https://privategpt.dev
+    topics: []
+    last_checked_at: "2026-05-05T21:02:42.282Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:42.282Z"
+      bytes: 8589
 insights:
-  summary: A private, enterprise-facing AI tool that connects company data sources like Notion, JIRA, and GitHub to provide a secure, natural language question-answering interface.
-  why_it_matters: It allows developers and organizations to deploy a ChatGPT-like interface over internal knowledge bases without exposing proprietary data to external LLM training sets.
-  mental_damage: Yet another reason to stop reading documentation, as 'just ask the PrivateGPT' becomes the official onboarding strategy for codebases no one wants to maintain.
+  summary: PrivateGPT is a production-ready, self-hosted API for building private RAG and context-aware AI applications using local LLMs, with document ingestion and both high-level and low-level API primitives.
+  why_it_matters: It provides developers with a local, OpenAI-compatible API to build AI features that require document interaction without sending sensitive data to external clouds.
+  mental_damage: Yet another '100% private' tool that still requires you to debug a stack of ingestion scripts, chunking logic, and local model weights to answer 'what does this PDF say?' without hitting an API.
   tags:
     - enterprise
     - knowledge-management
     - llm
+    - local-ai
     - privacy
     - rag
+    - self-hosted
   confidence: high
 curation:
-  status: excluded
-  reason: This is a knowledge management and RAG product for enterprise users, not a developer tool for writing, editing, or deploying code.
+  status: included
+  reason: The project is a developer-facing stack for running AI models locally to interact with documents, fitting the local-ai category by providing the runtime and API for private execution rather than being a generic coding assistant.
   evidence:
-    - Site description focuses on connecting data sources (Notion, JIRA, Slack) for natural language Q&A.
-    - Positioned as a 'Private ChatGPT' for company knowledge management and security, not coding.
-    - Listed in awesome-ai-agents under a 'Private GPT' section for data connectivity, not coding agents.
+    - "Repo description states: 'Interact with your documents using the power of GPT, 100% privately, no data leaks'."
+    - README describes a 'production-ready AI project' providing an API for RAG pipelines and document ingestion using local LLMs.
+    - High star count (57,211) and active maintenance (pushed 2026-02-26) confirm strong ecosystem traction.
 placement:
-  primary_category: null
+  primary_category: local-ai
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (57211) exceeded threshold (150)
 processing:
   categorize:
     status: done
-    updated_at: "2026-05-05T19:52:38.124Z"
+    updated_at: "2026-05-05T21:44:47.032Z"
     cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
     next_retry_at: null
+    attempts: 2
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.733Z"
+    updated_at: "2026-05-05T20:48:55.445Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-05T21:02:42.282Z"
     cause: null
+    next_retry_at: null

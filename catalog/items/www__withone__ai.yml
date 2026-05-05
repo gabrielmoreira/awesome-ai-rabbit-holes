@@ -1,6 +1,6 @@
 id: www__withone__ai
 kind: website
-name: www.withone.ai
+name: Pica
 canonical_url: https://www.withone.ai
 identity: {}
 provenance:
@@ -39,11 +39,11 @@ insights:
   why_it_matters: Developers can skip writing and maintaining custom OAuth flows, rate limiting, and API wiring by routing agent actions through a single authenticated runtime.
   mental_damage: We have successfully abstracted integrating APIs into prompting a CLI to prompt an agent to use an API, which is exactly the kind of recursive workflow layering that guarantees someone will debug a token refresh at 2am.
   tags:
-    - mcp
     - agent-infrastructure
+    - auth
     - cli
     - integrations
-    - auth
+    - mcp
   confidence: high
 curation:
   status: included
@@ -59,6 +59,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:54:07.056Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.734Z"
@@ -70,11 +78,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:54:07.056Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

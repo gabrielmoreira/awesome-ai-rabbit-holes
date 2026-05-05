@@ -1,6 +1,6 @@
 id: www__truefoundry__com__llmops
 kind: website
-name: llmops
+name: TrueFoundry
 canonical_url: https://www.truefoundry.com/llmops
 identity: {}
 provenance:
@@ -39,11 +39,11 @@ insights:
   why_it_matters: It gives developers a unified control plane to serve models, manage prompts, and run agents across frameworks like LangChain and CrewAI without stitching together fragmented inference and observability tooling.
   mental_damage: Yet another glossy LLMOps dashboard promising to tame your AI stack, right as you were starting to enjoy the existential dread of manually orchestrating vLLM, SGLang, and a half-dozen agent frameworks.
   tags:
-    - llmops
-    - model-serving
     - agent-orchestration
     - enterprise
     - governance
+    - llmops
+    - model-serving
   confidence: medium
 curation:
   status: included
@@ -59,6 +59,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:53:53.121Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.734Z"
@@ -70,11 +78,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:53:53.121Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

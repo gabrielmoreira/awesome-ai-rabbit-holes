@@ -1,6 +1,6 @@
 id: wizard__openzeppelin__com
 kind: website
-name: wizard.openzeppelin.com
+name: OpenZeppelin Wizard templates
 canonical_url: https://wizard.openzeppelin.com
 identity: {}
 provenance:
@@ -39,10 +39,10 @@ insights:
   why_it_matters: It allows blockchain developers to visually configure and export standard-compliant contract code without manually stitching together boilerplate or auditing for missing security patterns.
   mental_damage: Now you can delegate your Solidity architecture to a web form, leaving you free to worry about whether the AI added a backdoor while you weren't looking at the generated code.
   tags:
-    - smart-contracts
-    - code-generator
-    - web-tool
     - blockchain
+    - code-generator
+    - smart-contracts
+    - web-tool
   confidence: high
 curation:
   status: excluded
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:49:19.965Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.731Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:49:19.965Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

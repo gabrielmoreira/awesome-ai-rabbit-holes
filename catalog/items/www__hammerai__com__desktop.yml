@@ -1,6 +1,6 @@
 id: www__hammerai__com__desktop
 kind: website
-name: desktop
+name: HammerAI
 canonical_url: https://www.hammerai.com/desktop
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It provides developers with a zero-config, private desktop environment to run and interact with local LLMs without sending data to external servers.
   mental_damage: Yet another local chat UI enters the ring, proving that while we can run models in isolation, we still can't agree on a single way to talk to them.
   tags:
-    - local-ai
-    - desktop
-    - offline
     - chat
+    - desktop
+    - local-ai
+    - offline
     - ollama
   confidence: high
 curation:
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:51:14.615Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.732Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:51:14.615Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

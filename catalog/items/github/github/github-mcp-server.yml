@@ -1,6 +1,6 @@
 id: github__github__github-mcp-server
 kind: github-repo
-name: github-mcp-server
+name: GitHub
 canonical_url: https://github.com/github/github-mcp-server
 identity:
   github_repo: github/github-mcp-server
@@ -44,10 +44,10 @@ insights:
   why_it_matters: It gives coding agents and AI assistants a standardized, officially maintained interface to interact with repos, PRs, CI/CD, and code analysis through natural language.
   mental_damage: Another layer of middleware so your AI can argue with your CI pipeline and close your issues while you wonder what exactly is running on your machine.
   tags:
-    - mcp
-    - github
-    - tooling
     - agent-infrastructure
+    - github
+    - mcp
+    - tooling
   confidence: high
 curation:
   status: included
@@ -63,6 +63,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (29523) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:21:33.636Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.689Z"
@@ -73,11 +81,3 @@ processing:
     updated_at: "2026-05-05T21:02:22.126Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:21:33.636Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

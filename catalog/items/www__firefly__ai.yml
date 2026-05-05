@@ -1,6 +1,6 @@
 id: www__firefly__ai
 kind: website
-name: www.firefly.ai
+name: Firefly
 canonical_url: https://www.firefly.ai
 identity: {}
 provenance:
@@ -39,11 +39,11 @@ insights:
   why_it_matters: It replaces manual runbooks and Terraform drudgery by using AI agents to automatically convert ungoverned resources into IaC and instantly rebuild environments during outages.
   mental_damage: You can now technically achieve 'Infrastructure as Code' without ever writing code, which means you've successfully automated yourself out of the one part of the job that felt like actual engineering.
   tags:
-    - infrastructure-as-code
-    - devops
-    - cloud
     - agents
+    - cloud
+    - devops
     - disaster-recovery
+    - infrastructure-as-code
   confidence: high
 curation:
   status: excluded
@@ -59,6 +59,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:50:50.728Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.732Z"
@@ -68,11 +76,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:50:50.728Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

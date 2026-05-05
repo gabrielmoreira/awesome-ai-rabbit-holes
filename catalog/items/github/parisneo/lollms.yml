@@ -1,6 +1,6 @@
 id: github__parisneo__lollms
 kind: github-repo
-name: lollms
+name: LoLLMS
 canonical_url: https://github.com/parisneo/lollms
 identity:
   github_repo: parisneo/lollms
@@ -44,11 +44,11 @@ insights:
   why_it_matters: It allows developers to stand up a private, feature-rich AI chat platform with RAG capabilities that interfaces with any AI service, keeping data and model selection under their own control.
   mental_damage: Finally, a solution to the existential dread of having too many model backends, consolidating them into one more web UI you now have to maintain, secure, and explain to your team.
   tags:
-    - local-ai
-    - llm
     - chat-interface
-    - self-hosted
+    - llm
+    - local-ai
     - rag
+    - self-hosted
   confidence: medium
 curation:
   status: included
@@ -64,6 +64,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:43:52.464Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.712Z"
@@ -74,11 +82,3 @@ processing:
     updated_at: "2026-05-05T21:04:12.195Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:43:52.464Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

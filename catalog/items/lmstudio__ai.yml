@@ -1,6 +1,6 @@
 id: lmstudio__ai
 kind: website
-name: lmstudio.ai
+name: LM Studio
 canonical_url: https://lmstudio.ai
 identity: {}
 provenance:
@@ -68,11 +68,11 @@ insights:
   why_it_matters: It allows developers to experiment with and integrate local LLMs like Llama and Gemma into their workflows without sending data to external servers, including support for headless server and CI deployments.
   mental_damage: Finally, a tool that lets you hoard open-weight models on your laptop with the same fervor as a sysadmin backing up the internet to a hard drive in 2005.
   tags:
-    - local-ai
-    - llm
-    - inference
-    - offline
     - desktop
+    - inference
+    - llm
+    - local-ai
+    - offline
   confidence: high
 curation:
   status: included
@@ -88,6 +88,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:46:02.025Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.662Z"
@@ -97,11 +105,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:46:02.025Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

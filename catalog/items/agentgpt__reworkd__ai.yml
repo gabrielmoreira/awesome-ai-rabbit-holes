@@ -1,6 +1,6 @@
 id: agentgpt__reworkd__ai
 kind: website
-name: agentgpt.reworkd.ai
+name: AgentGPT
 canonical_url: https://agentgpt.reworkd.ai
 identity: {}
 provenance:
@@ -53,9 +53,9 @@ insights:
   why_it_matters: It offers developers a zero-install, browser-first environment to prototype and observe autonomous agent behavior without setting up local infrastructure.
   mental_damage: Yet another reminder that we are rapidly turning software engineering into the art of naming a bot and praying it doesn't book a flight to Hawaii on the company credit card.
   tags:
+    - agent-deployment
     - autonomous-agents
     - browser-based
-    - agent-deployment
     - no-code
   confidence: high
 curation:
@@ -72,6 +72,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:41:22.948Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.673Z"
@@ -81,11 +89,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:41:22.948Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

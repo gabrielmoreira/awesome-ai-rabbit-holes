@@ -1,6 +1,6 @@
 id: www__langchain__com
 kind: website
-name: www.langchain.com
+name: LangChain
 canonical_url: https://www.langchain.com
 identity: {}
 provenance:
@@ -54,9 +54,9 @@ insights:
   mental_damage: You can now trace exactly which part of your three-layer agentic workflow hallucinated the database schema, provided you survive the dependency graph of the framework itself.
   tags:
     - agents
+    - evaluation
     - frameworks
     - observability
-    - evaluation
   confidence: high
 curation:
   status: included
@@ -72,6 +72,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:51:42.792Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.675Z"
@@ -81,11 +89,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:51:42.792Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

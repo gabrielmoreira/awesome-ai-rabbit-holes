@@ -1,6 +1,6 @@
 id: github__nvidia__megatron-lm
 kind: github-repo
-name: megatron-lm
+name: Megatron-LM
 canonical_url: https://github.com/nvidia/megatron-lm
 identity:
   github_repo: nvidia/megatron-lm
@@ -44,11 +44,11 @@ insights:
   why_it_matters: It provides the foundational building blocks and scripts needed for ML engineers and framework developers to build custom training pipelines for massive LLMs.
   mental_damage: The perfect tool to ensure you spend three weeks debugging tensor parallelism configurations just to discover you don't actually have enough GPUs to care.
   tags:
+    - distributed
+    - llm
+    - nvidia
     - training
     - transformers
-    - nvidia
-    - llm
-    - distributed
   confidence: high
 curation:
   status: excluded
@@ -64,6 +64,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (16226) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:41:10.522Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.710Z"
@@ -74,11 +82,3 @@ processing:
     updated_at: "2026-05-05T21:03:57.191Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:41:10.522Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

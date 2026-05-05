@@ -1,13 +1,13 @@
 id: github__allegroai__clearml
 kind: github-repo
-name: clearml
+name: ClearML
 canonical_url: https://github.com/allegroai/clearml
 identity:
   github_repo: allegroai/clearml
 provenance:
   discoveries:
     - id: discovery__github__allegroai__clearml__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T20:48:55.437Z"
+      discovered_at: "2026-05-05T22:33:31.148Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -49,28 +49,28 @@ metadata:
       - trainsai
       - version
       - version-control
-    last_checked_at: "2026-05-05T21:01:01.049Z"
+    last_checked_at: "2026-05-05T23:07:41.507Z"
     readme:
-      fetched_at: "2026-05-05T21:01:01.049Z"
+      fetched_at: "2026-05-05T23:07:41.507Z"
       bytes: 15112
 insights:
-  summary: ClearML is an open-source suite for experiment tracking, data management, pipeline orchestration, and model serving across ML, DL, and GenAI workflows.
-  why_it_matters: It gives developers a unified, self-hostable control plane to manage the lifecycle of AI experiments and deployments from local notebooks to Kubernetes clusters.
-  mental_damage: Yet another integrated MLOps platform promising to solve the 'three months of YAML then give up' phase of AI infrastructure.
+  summary: ClearML is an open-source MLOps/LLMOps suite providing experiment tracking, data management, pipeline orchestration, scheduling, and model serving capabilities for machine learning workflows.
+  why_it_matters: It gives developers a unified, self-hostable platform to track experiments, version datasets, orchestrate training jobs, and deploy models without stitching together fragmented ML infrastructure.
+  mental_damage: Yet another 'Auto-Magical' all-in-one platform promising to solve your entire ML lifecycle, right up until you realize you now have a second full-time job maintaining the ClearML server.
   tags:
     - mlops
     - llmops
     - experiment-tracking
     - orchestration
-    - self-hosted
+    - model-serving
   confidence: high
 curation:
   status: included
-  reason: It is a code-first SDK and infrastructure suite for building and operating AI workflows, fitting the frameworks category rather than a coding assistant or app builder.
+  reason: ClearML is a code-first SDK and infrastructure framework for machine learning operations, fitting the ai-frameworks category because developers import and build with it in code rather than operating it solely as a user-facing agent control plane.
   evidence:
-    - Repo description explicitly lists Experiment Manager, MLOps/LLMOps, Data-Management, and Pipeline/Orchestration as core modules.
-    - Listed under 'Training > Experiment Tracking' in Awesome-LLMOps, aligning with infrastructure and SDK tooling.
-    - Active development with 6,657 stars and recent pushes, confirming it is a living developer tool rather than abandoned infrastructure.
+    - Repo description defines it as a suite for Experiment Management, Data Management, Pipeline, Orchestration, Scheduling & Serving in one MLOps/LLMOps solution.
+    - README details five main modules (Experiment Manager, MLOps/LLMOps, Data-Management, Model-Serving, Reports) intended to be instrumented via the ClearML-server and SDKs.
+    - Topics and modules focus on ML/DL infrastructure (k8s, orchestration, experiment-manager) rather than AI coding assistants or agent workforce coordination.
 placement:
   primary_category: ai-frameworks
   section: null
@@ -78,21 +78,21 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (6657) exceeded threshold (150)
 processing:
-  discover:
-    status: done
-    updated_at: "2026-05-05T20:48:55.440Z"
-    cause: null
-    next_retry_at: null
-  stars:
-    status: done
-    updated_at: "2026-05-05T21:01:01.049Z"
-    cause: null
-    next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:07:47.240Z"
+    updated_at: "2026-05-05T23:08:33.634Z"
     cause: null
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v2-baseline
     category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T22:33:31.149Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T23:07:41.507Z"
+    cause: null
+    next_retry_at: null

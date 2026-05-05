@@ -1,6 +1,6 @@
 id: github__evilsocket__nerve
 kind: github-repo
-name: nerve
+name: Nerve
 canonical_url: https://github.com/evilsocket/nerve
 identity:
   github_repo: evilsocket/nerve
@@ -51,10 +51,10 @@ insights:
   mental_damage: Just when you thought YAML couldn't eclipse code in any more paradigms, your agent orchestration layer now demands you declare your autonomy in a config file.
   tags:
     - agent-sdk
+    - cli
+    - llm-orchestration
     - mcp
     - yaml
-    - llm-orchestration
-    - cli
   confidence: high
 curation:
   status: included
@@ -70,6 +70,14 @@ lifecycle:
   status: needs_review
   reason: Repository is archived
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:18:39.193Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.686Z"
@@ -80,11 +88,3 @@ processing:
     updated_at: "2026-05-05T21:02:05.990Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:18:39.193Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

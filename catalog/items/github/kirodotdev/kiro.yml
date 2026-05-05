@@ -1,6 +1,6 @@
 id: github__kirodotdev__kiro
 kind: github-repo
-name: kiro
+name: Kiro
 canonical_url: https://github.com/kirodotdev/kiro
 identity:
   github_repo: kirodotdev/kiro
@@ -22,7 +22,7 @@ provenance:
         surrounding_text: "- [Kiro](https://github.com/kirodotdev/Kiro) ![](https://img.shields.io/github/stars/kirodotdev/Kiro.svg) - Agentic IDE for spec-driven development from prototype to production with natural language coding."
         confidence: high
     - id: discovery__kiro__dev__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-05T22:47:06.910Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -37,7 +37,7 @@ provenance:
         surrounding_text: "- **[Kiro](https://kiro.dev/)** – Spec-driven AI development environment by AWS."
         confidence: high
     - id: discovery__kiro__dev__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-05T22:47:06.910Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -75,11 +75,14 @@ insights:
   why_it_matters: It integrates spec-driven planning directly into the development environment and automates repetitive tasks through file-change hooks and MCP server support.
   mental_damage: Another day, another IDE promising to take you from prototype to production, provided you fully buy into yet another Amazon-backed spec dialect.
   tags:
-    - ai-ide
-    - spec-driven
     - agentic
+    - agentic-dev
+    - ai-ide
+    - autonomous
     - cli
+    - ide
     - mcp
+    - spec-driven
   confidence: high
 curation:
   status: included
@@ -88,9 +91,12 @@ curation:
     - Repo description states it is 'an agentic IDE that works alongside you from prototype to production'
     - README describes both a desktop IDE for macOS/Windows/Linux and a standalone CLI as the primary interfaces
     - Source list includes it under 'IDE & Editor Integrations' in an awesome-spec-driven-development list
+    - Product description states it is 'an agentic AI with an IDE and CLI that helps you go from prototype to production'.
+    - Features include managing intent, completing long-running tasks across large codebases, and validating code correctness with an agent.
+    - Included in the awesome-ai-coding-tools list under the 'Code Editors and Assistants' section.
 placement:
-  primary_category: ai-ides-editors
-  section: null
+  primary_category: mcp
+  section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
   reason: Stars (3609) exceeded threshold (150)
@@ -105,7 +111,7 @@ processing:
     next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.701Z"
+    updated_at: "2026-05-05T22:47:06.910Z"
     cause: null
     next_retry_at: null
   stars:

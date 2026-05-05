@@ -1,6 +1,6 @@
 id: github__lobehub__lobehub
 kind: github-repo
-name: lobe-chat
+name: Lobe Chat
 canonical_url: https://github.com/lobehub/lobehub
 identity:
   github_repo: lobehub/lobehub
@@ -60,25 +60,30 @@ metadata:
       - knowledge-base
       - mcp
       - openai
-    last_checked_at: "2026-05-05T21:03:23.059Z"
+    last_checked_at: "2026-05-05T21:03:23.222Z"
     readme:
-      fetched_at: "2026-05-05T21:03:23.059Z"
+      fetched_at: "2026-05-05T21:03:23.222Z"
       bytes: 60153
 insights:
-  summary: An open-source platform for creating, deploying, and collaborating with customizable AI agents, featuring multi-agent workflows, MCP integration, and local model support.
-  why_it_matters: It provides developers with a self-hostable, extensible environment to build and manage specialized agent teams and knowledge bases beyond standard chat interfaces.
-  mental_damage: Finally, a way to orchestrate an entire workforce of agents that will patiently wait for you to write the prompts they need to do the work you are now too distracted to do.
+  summary: An open-source, self-hostable AI chat platform with multi-model support, multi-agent collaboration, and a built-in MCP marketplace for extending agent capabilities.
+  why_it_matters: Developers can self-host a unified interface for orchestrating multiple AI agents and models, complete with a plugin ecosystem and local LLM support.
+  mental_damage: Yet another slick chat UI promising that surrounding your GPT with enough 'agent teammates' will finally eliminate the need to understand your own codebase.
   tags:
     - agents
-    - multi-agent
-    - mcp
-    - self-hosted
     - chat
+    - chat-ui
+    - local-llm
+    - mcp
+    - multi-agent
+    - self-hosted
   confidence: high
 curation:
   status: included
-  reason: LobeHub is a user-facing platform and workbench for coordinating multiple agents and tasks, complete with an agent marketplace and MCP tooling, fitting the orchestration category.
+  reason: The project is a user-facing platform for coordinating multiple AI agents, complete with multi-agent collaboration features and an MCP marketplace, fitting the agent orchestration category.
   evidence:
+    - Repo description explicitly states 'enabling multi-agent collaboration' and 'agent teammates that grow with you'.
+    - README features 'MCP Plugin One-Click Installation' and an 'MCP Marketplace' alongside agent market capabilities.
+    - High traction with 76,066 stars and active development (pushed 2026-05-05).
     - Repo description explicitly states it is for 'multi-agent collaboration' and 'agent team design'.
     - README highlights 'Agent Market (GPTs)', 'MCP Marketplace', and 'agents as the unit of work'.
     - High traction with 76k stars and active development (pushed 2026-05-05).
@@ -99,11 +104,11 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.669Z"
+    updated_at: "2026-05-05T20:48:55.439Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:23.059Z"
+    updated_at: "2026-05-05T21:03:23.222Z"
     cause: null
     next_retry_at: null

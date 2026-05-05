@@ -1,6 +1,6 @@
 id: www__askyourdatabase__com
 kind: website
-name: www.askyourdatabase.com
+name: AskYourDatabase
 canonical_url: https://www.askyourdatabase.com
 identity: {}
 provenance:
@@ -38,11 +38,11 @@ insights:
   why_it_matters: It lets engineering teams offload ad-hoc internal data requests to non-technical staff by embedding a conversational interface directly over production databases.
   mental_damage: We have successfully automated away the need to learn SQL, meaning the new job description is just 'person who nervously approves AI-generated SELECT statements on a production replica.'
   tags:
-    - sql
     - bi
     - chatbot
     - data-visualization
     - desktop-app
+    - sql
   confidence: high
 curation:
   status: excluded
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:49:40.898Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.731Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:49:40.898Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

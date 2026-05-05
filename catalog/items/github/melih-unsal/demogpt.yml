@@ -1,6 +1,6 @@
 id: github__melih-unsal__demogpt
 kind: github-repo
-name: demogpt
+name: DemoGPT
 canonical_url: https://github.com/melih-unsal/demogpt
 identity:
   github_repo: melih-unsal/demogpt
@@ -77,10 +77,10 @@ insights:
   why_it_matters: It bundles the fragmented LangChain ecosystem—tools, prompts, and memory—into a single toolkit so developers can spin up functional agents without stitching together a dozen dependencies.
   mental_damage: Another heroic attempt to abstract the abstraction layer, proving that in 2024 the fastest way to build an agent is to install a framework that helps you install other frameworks.
   tags:
-    - llm-agents
     - langchain
-    - rag
+    - llm-agents
     - python
+    - rag
     - streamlit
   confidence: high
 curation:
@@ -97,6 +97,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (1895) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:36:42.550Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.669Z"
@@ -107,11 +115,3 @@ processing:
     updated_at: "2026-05-05T21:03:34.651Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:36:42.550Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

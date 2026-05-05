@@ -1,6 +1,6 @@
 id: www__mux__com
 kind: website
-name: www.mux.com
+name: Mux
 canonical_url: https://www.mux.com
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It allows developers to offload complex video infrastructure and integrate AI-driven video analysis directly into their applications via a straightforward API.
   mental_damage: You can now ask an API if a video is a cartoon, further eroding the boundary between useful automation and paying a premium to have a robot ask questions you could answer in a split second.
   tags:
-    - video-api
     - ai-workflows
-    - saas
     - infrastructure
+    - saas
+    - video-api
   confidence: high
 curation:
   status: excluded
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:52:13.846Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.733Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:52:13.846Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

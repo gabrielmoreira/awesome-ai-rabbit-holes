@@ -1,6 +1,6 @@
 id: github__launsion-boop__echocoding
 kind: github-repo
-name: echocoding
+name: EchoCoding
 canonical_url: https://github.com/launsion-boop/echocoding
 identity:
   github_repo: launsion-boop/echocoding
@@ -44,11 +44,11 @@ insights:
   why_it_matters: It gives developers audio-based spatial awareness of their agent's state and enables hands-free voice interaction during coding sessions.
   mental_damage: Your AI agent now has a sonic personality and expects spoken answers, turning quiet debugging into a fully voice-acted theatre production.
   tags:
-    - audio
-    - voice
-    - mcp
-    - cli
     - agent-extension
+    - audio
+    - cli
+    - mcp
+    - voice
   confidence: high
 curation:
   status: included
@@ -64,6 +64,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:33:25.215Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.703Z"
@@ -74,11 +82,3 @@ processing:
     updated_at: "2026-05-05T21:03:17.731Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:33:25.215Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

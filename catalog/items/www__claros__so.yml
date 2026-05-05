@@ -1,6 +1,6 @@
 id: www__claros__so
 kind: website
-name: www.claros.so
+name: Claros AI Shopper
 canonical_url: https://www.claros.so
 identity: {}
 provenance:
@@ -38,9 +38,9 @@ insights:
   why_it_matters: It represents the application of agentic workflows to vertical consumer use cases, though it targets shoppers rather than software developers.
   mental_damage: We have successfully reached the point where the 'AI agent' directory is so broad it includes tools for buying a new toaster.
   tags:
-    - shopping
-    - consumer-ai
     - agent
+    - consumer-ai
+    - shopping
   confidence: high
 curation:
   status: excluded
@@ -56,6 +56,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:50:04.092Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.732Z"
@@ -65,11 +73,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:50:04.092Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

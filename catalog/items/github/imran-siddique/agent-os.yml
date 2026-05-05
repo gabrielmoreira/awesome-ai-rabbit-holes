@@ -1,6 +1,6 @@
 id: github__imran-siddique__agent-os
 kind: github-repo
-name: agent-os
+name: Agent OS
 canonical_url: https://github.com/imran-siddique/agent-os
 identity:
   github_repo: imran-siddique/agent-os
@@ -62,9 +62,9 @@ insights:
   mental_damage: You can now add 'kernel architecture governance' to the list of things you need to worry about before your agent writes a 'Hello World' script.
   tags:
     - agent-governance
-    - security
     - policy-engine
     - python
+    - security
   confidence: high
 curation:
   status: excluded
@@ -80,6 +80,14 @@ lifecycle:
   status: needs_review
   reason: Repository is archived
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:25:45.092Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.698Z"
@@ -90,11 +98,3 @@ processing:
     updated_at: "2026-05-05T21:02:42.418Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:25:45.092Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

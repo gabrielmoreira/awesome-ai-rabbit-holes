@@ -1,6 +1,6 @@
 id: github__dean__hal
 kind: github-repo
-name: hal
+name: HAL
 canonical_url: https://github.com/dean/hal
 identity:
   github_repo: dean/hal
@@ -51,6 +51,13 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: skipped
+    updated_at: "2026-05-05T23:08:18.952Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.684Z"
@@ -58,15 +65,8 @@ processing:
     next_retry_at: null
   stars:
     status: failed
-    updated_at: "2026-05-05T21:01:49.732Z"
+    updated_at: "2026-05-05T23:07:47.633Z"
     cause:
       type: github_repo_missing
       message: "GitHub repository not found: dean/hal"
-    next_retry_at: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T21:04:23.169Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null

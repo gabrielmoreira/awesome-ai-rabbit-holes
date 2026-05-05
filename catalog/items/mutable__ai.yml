@@ -1,6 +1,6 @@
 id: mutable__ai
 kind: website
-name: mutable.ai
+name: Mutable AI
 canonical_url: https://mutable.ai
 identity: {}
 provenance:
@@ -38,9 +38,9 @@ insights:
   why_it_matters: It integrates AI directly into the development workflow to automate complex refactoring tasks and accelerate code comprehension.
   mental_damage: "Just what your git history needed: an autonomous agent convinced it can refactor that legacy module better than the person who wrote it three years ago."
   tags:
+    - code-generation
     - coding-assistant
     - refactoring
-    - code-generation
   confidence: medium
 curation:
   status: included
@@ -55,6 +55,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:46:39.572Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.729Z"
@@ -64,11 +72,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:46:39.572Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

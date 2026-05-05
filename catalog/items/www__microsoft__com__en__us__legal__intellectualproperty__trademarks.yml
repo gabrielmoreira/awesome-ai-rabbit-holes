@@ -1,6 +1,6 @@
 id: www__microsoft__com__en__us__legal__intellectualproperty__trademarks
 kind: website
-name: trademarks
+name: Microsoft's Trademark & Brand Guidelines
 canonical_url: https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: Developers building on Azure, Teams, or Copilot need to understand these rules to avoid legal issues when naming apps, writing documentation, or marketing integrations.
   mental_damage: The same ecosystem that encourages you to 'build on Azure' also maintains a 5,000-word document explaining exactly how you're not allowed to say you built on Azure.
   tags:
+    - branding
+    - guidelines
     - legal
     - microsoft
-    - guidelines
-    - branding
   confidence: high
 curation:
   status: excluded
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:51:59.425Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.733Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:51:59.425Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

@@ -1,6 +1,6 @@
 id: octoeverywhere__com__mcp
 kind: website
-name: mcp
+name: OctoEverywhere For 3D Printing
 canonical_url: https://octoeverywhere.com/mcp
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It lets developers building AI workflows or chat interfaces integrate live 3D printer telemetry and controls without writing custom hardware integrations.
   mental_damage: "We have finally achieved the singularity: your LLM can now panic-pause a 12-hour benchy print while you are just trying to debug a YAML file."
   tags:
-    - mcp
     - 3d-printing
-    - iot
     - hardware
+    - iot
+    - mcp
   confidence: high
 curation:
   status: included
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:46:46.739Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.729Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:46:46.739Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

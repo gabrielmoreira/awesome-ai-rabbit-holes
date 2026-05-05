@@ -45,20 +45,25 @@ metadata:
       fetched_at: "2026-05-05T21:02:18.868Z"
       bytes: 9040
 insights:
-  summary: An open-source framework for building full-stack AI-powered applications in JavaScript, Go, and Python, providing unified APIs for model integration, tool calling, and RAG workflows.
-  why_it_matters: It gives developers a Firebase-backed, code-first SDK to integrate multiple AI models and agentic flows into web and mobile apps without writing boilerplate glue code for every provider.
-  mental_damage: Now you can orchestrate a multi-model agentic meltdown in three different languages, ensuring your stack is future-proof right up until the next Google deprecation cycle.
+  summary: An open-source framework for building AI-powered applications in JavaScript/TypeScript, Go, and Python, providing unified APIs for model integration, tool calling, and RAG workflows.
+  why_it_matters: It provides a production-ready, multi-language SDK to integrate various AI models and agentic workflows into full-stack apps without writing provider-specific boilerplate.
+  mental_damage: Another heroic abstraction layer promising to unify the AI ecosystem, just in time for the ecosystem to fragment into five new incompatible standards next week.
   tags:
-    - framework
-    - sdk
     - agents
-    - rag
+    - ai-framework
     - firebase
+    - framework
+    - multi-model
+    - rag
+    - sdk
   confidence: high
 curation:
   status: included
-  reason: Genkit is a code-first SDK and framework that developers import to build AI features, which clearly fits the ai-frameworks category rather than an orchestration platform or app builder.
+  reason: Genkit is a developer-facing SDK and framework for embedding AI capabilities into applications via code, fitting the ai-frameworks definition rather than an agent orchestration platform or coding agent.
   evidence:
+    - Repo description explicitly calls it an 'Open-source framework for building AI-powered apps' with SDKs for JS, Go, and Python.
+    - "README emphasizes code-first features: 'streamlined APIs for multimodal content, structured outputs, tool calling, and agentic workflows.'"
+    - Active development indicated by high star count (5873) and recent push date (2026-05-05).
     - Repo description explicitly defines it as an 'open-source framework for building AI-powered apps' with SDKs for JS, Go, and Python.
     - README details code-first features like structured output, tool calling, and RAG via importable libraries rather than a hosted control plane.
     - Active development with recent push date (2026-05-05) and production usage by Google's Firebase.
@@ -79,7 +84,7 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.687Z"
+    updated_at: "2026-05-05T20:48:55.441Z"
     cause: null
     next_retry_at: null
   stars:

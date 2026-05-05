@@ -1,6 +1,6 @@
 id: github__cordum-io__cordum
 kind: github-repo
-name: cordum
+name: Cordum
 canonical_url: https://github.com/cordum-io/cordum
 identity:
   github_repo: cordum-io/cordum
@@ -62,10 +62,10 @@ insights:
   mental_damage: Your agents are finally autonomous enough to delete production, so now you need a sprawling control plane just to pretend you're still in charge.
   tags:
     - agent-governance
-    - control-plane
-    - safety
-    - mcp
     - audit
+    - control-plane
+    - mcp
+    - safety
   confidence: high
 curation:
   status: included
@@ -81,6 +81,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (471) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:14:27.141Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.683Z"
@@ -91,11 +99,3 @@ processing:
     updated_at: "2026-05-05T21:01:41.567Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:14:27.141Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

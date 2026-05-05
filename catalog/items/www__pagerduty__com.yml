@@ -1,6 +1,6 @@
 id: www__pagerduty__com
 kind: website
-name: www.pagerduty.com
+name: PagerDuty
 canonical_url: https://www.pagerduty.com
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It integrates with developer workflows via Slack, IDEs, and MCP to offload incident response to AI agents, allowing engineering teams to focus on building rather than firefighting.
   mental_damage: We’ve finally automated the 'wake up at 3 AM' part of engineering, but now we get to lie there awake wondering if the SRE Agent is currently deploying a fix or an obituary.
   tags:
-    - incident-management
     - ai-agents
-    - devops
     - automation
+    - devops
+    - incident-management
     - mcp
   confidence: high
 curation:
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:52:30.844Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.733Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:52:30.844Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

@@ -21,6 +21,21 @@ provenance:
         extracted_url: https://github.com/dash0hq/mcp-dash0
         surrounding_text: "- **[Dash0](https://github.com/dash0hq/mcp-dash0)** - Navigate your OpenTelemetry resources, investigate incidents and query metrics, logs and traces on [Dash0](https://www.dash0.com/)."
         confidence: high
+    - id: discovery__www__dash0__com__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T22:47:06.910Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Dash0
+        extracted_url: https://www.dash0.com
+        surrounding_text: "- **[Dash0](https://github.com/dash0hq/mcp-dash0)** - Navigate your OpenTelemetry resources, investigate incidents and query metrics, logs and traces on [Dash0](https://www.dash0.com/)."
+        confidence: high
 metadata:
   github:
     stars: 3
@@ -41,10 +56,14 @@ insights:
   why_it_matters: It connects observability data directly into the coding loop, letting AI agents investigate incidents and debug issues without switching context to the Dash0 dashboard.
   mental_damage: We have successfully closed the loop where the AI writes the bug, the AI deploys the bug, and now the AI uses this server to stare at the telemetry of the bug it just wrote.
   tags:
-    - mcp
-    - observability
-    - otel
+    - ai-sre
     - debugging
+    - mcp
+    - monitoring
+    - observability
+    - opentelemetry
+    - otel
+    - telemetry
   confidence: high
 curation:
   status: included
@@ -60,16 +79,6 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  discover:
-    status: done
-    updated_at: "2026-05-05T19:41:00.684Z"
-    cause: null
-    next_retry_at: null
-  stars:
-    status: done
-    updated_at: "2026-05-05T21:01:46.996Z"
-    cause: null
-    next_retry_at: null
   categorize:
     status: done
     updated_at: "2026-05-05T21:15:25.824Z"
@@ -78,3 +87,13 @@ processing:
     attempts: 1
     prompt_version: catalog-categorize-v2-baseline
     category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T22:47:06.911Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:46.996Z"
+    cause: null
+    next_retry_at: null

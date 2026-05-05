@@ -1,6 +1,6 @@
 id: www__microsoft__com__en__us__research__publication__phi__4__technical__report
 kind: website
-name: phi-4-technical-report
+name: Phi-4 (Microsoft)
 canonical_url: https://www.microsoft.com/en-us/research/publication/phi-4-technical-report
 identity: {}
 provenance:
@@ -39,10 +39,10 @@ insights:
   mental_damage: Yet another research paper promising that this time, the 14B model is definitely the one that will make your sprawling microservice architecture obsolete.
   tags:
     - llm
-    - research-paper
     - microsoft
-    - reasoning
     - phi
+    - reasoning
+    - research-paper
   confidence: high
 curation:
   status: excluded
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:51:59.589Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.733Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:51:59.589Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

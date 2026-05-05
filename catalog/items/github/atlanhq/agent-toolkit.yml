@@ -6,6 +6,21 @@ identity:
   github_repo: atlanhq/agent-toolkit
 provenance:
   discoveries:
+    - id: discovery__atlan__com__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Atlan
+        extracted_url: https://atlan.com
+        surrounding_text: "- **[Atlan](https://github.com/atlanhq/agent-toolkit/tree/main/modelcontextprotocol)** - Official MCP Server from [Atlan](https://atlan.com) which enables you to bring the power of metadata to your AI tools"
+        confidence: high
     - id: discovery__github__atlanhq__agent-toolkit__awesome-list__wong2__awesome-mcp-servers
       discovered_at: "2026-05-05T19:41:00.656Z"
       source:
@@ -47,15 +62,22 @@ insights:
   why_it_matters: It turns Atlan's data catalog into a conversational surface so developers can trace lineage and manage governance without leaving their AI-assisted workflow.
   mental_damage: We have finally reached the point where the data catalog needs its own plugin for the plugin that writes your code.
   tags:
-    - mcp
+    - agents
     - claude-code
+    - context-engineering
     - data-catalog
+    - data-governance
+    - enterprise
+    - mcp
     - plugin
   confidence: high
 curation:
   status: included
-  reason: The primary artifact is an MCP server and Claude Code plugin for Atlan, which fits cleanly as MCP tooling rather than a standalone coding agent or generic directory.
+  reason: The product is listed in awesome-mcp-servers and explicitly provides an MCP server to feed certified enterprise context to downstream AI agents.
   evidence:
+    - Listed in awesome-mcp-servers under 'Official Servers' as providing the missing context layer for enterprise AI.
+    - Scraped site context confirms 'Certified context flows to every AI agent... through the Atlan MCP server.'
+    - Describes itself as 'The Context Layer for AI' focusing on data graphs, governance, and business logic for agents.
     - Repo description and README define it as an MCP server and official Claude Code plugin for Atlan services.
     - Listed in awesome-mcp-servers under 'Official Servers', reinforcing the MCP infrastructure fit.
     - Actively maintained (pushed 2026-04-28) with MIT license and no archive flag.
@@ -66,9 +88,17 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T22:33:50.106Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.679Z"
+    updated_at: "2026-05-05T22:47:06.911Z"
     cause: null
     next_retry_at: null
   stars:
@@ -76,11 +106,3 @@ processing:
     updated_at: "2026-05-05T21:01:11.248Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:09:21.637Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

@@ -1,13 +1,29 @@
 id: github__boltmcp__boltmcp
 kind: github-repo
-name: open-mcp
+name: wegotdocs/open-mcp
 canonical_url: https://github.com/boltmcp/boltmcp
 identity:
   github_repo: boltmcp/boltmcp
 provenance:
   discoveries:
     - id: discovery__github__wegotdocs__open-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🔗 <a name="aggregators"></a>Aggregators
+        anchor_text: wegotdocs/open-mcp
+        extracted_url: https://github.com/wegotdocs/open-mcp
+        surrounding_text: "- [wegotdocs/open-mcp](https://github.com/wegotdocs/open-mcp) 📇 🏠 🍎 🪟 🐧 - Turn a web API into an MCP server in 10 seconds and add it to the open source registry: https://open-mcp.org"
+        confidence: high
+    - id: discovery__github__boltmcp__boltmcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T22:33:31.148Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -47,11 +63,11 @@ insights:
   why_it_matters: It allows development teams to standardize and operate MCP infrastructure on-premises, turning API integrations into declarative, secure tool servers for their AI agents.
   mental_damage: We have successfully abstracted the abstraction, meaning you can now deploy a Kubernetes cluster just to argue with a server about whether it has the right token context.
   tags:
+    - enterprise
+    - kubernetes
     - mcp
     - orchestration
     - self-hosted
-    - enterprise
-    - kubernetes
   confidence: high
 curation:
   status: included
@@ -77,7 +93,7 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.724Z"
+    updated_at: "2026-05-05T22:33:31.150Z"
     cause: null
     next_retry_at: null
   stars:

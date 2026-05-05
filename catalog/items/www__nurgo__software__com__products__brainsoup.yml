@@ -1,6 +1,6 @@
 id: www__nurgo__software__com__products__brainsoup
 kind: website
-name: brainsoup
+name: BrainSoup
 canonical_url: https://www.nurgo-software.com/products/brainsoup
 identity: {}
 provenance:
@@ -39,10 +39,10 @@ insights:
   mental_damage: Another day, another 'AI team' that runs exclusively on the operating system that still thinks 1995 was peak UI design.
   tags:
     - agents
-    - local-ai
-    - windows
-    - orchestration
     - automation
+    - local-ai
+    - orchestration
+    - windows
   confidence: medium
 curation:
   status: included
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:52:21.948Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.733Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:52:21.948Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

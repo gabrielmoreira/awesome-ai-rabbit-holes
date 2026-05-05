@@ -1,6 +1,6 @@
 id: github__anaisbetts__mcp-installer
 kind: github-repo
-name: mcp-installer
+name: MCP Installer
 canonical_url: https://github.com/anaisbetts/mcp-installer
 identity:
   github_repo: anaisbetts/mcp-installer
@@ -41,9 +41,9 @@ insights:
   why_it_matters: It streamlines the setup of the MCP ecosystem by letting developers delegate the installation and configuration of new servers to the AI assistant itself.
   mental_damage: We have finally built an AI agent whose primary job is to automate the tedious JSON editing required to set up other AI agents.
   tags:
-    - mcp
-    - installer
     - claude-desktop
+    - installer
+    - mcp
     - tooling
   confidence: high
 curation:
@@ -60,6 +60,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (1518) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:08:04.056Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.678Z"
@@ -70,11 +78,3 @@ processing:
     updated_at: "2026-05-05T21:01:02.972Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:08:04.056Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

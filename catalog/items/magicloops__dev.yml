@@ -1,6 +1,6 @@
 id: magicloops__dev
 kind: website
-name: magicloops.dev
+name: Magic Loops
 canonical_url: https://magicloops.dev
 identity: {}
 provenance:
@@ -53,10 +53,10 @@ insights:
   why_it_matters: It allows developers and non-developers to rapidly prototype and ship functional AI apps and automations via a hosted browser interface rather than setting up a local stack.
   mental_damage: Another platform promising to 'build apps without coding' while explicitly boasting that it combines LLMs with code, ensuring the only thing actually automated is the developer's existential crisis.
   tags:
-    - no-code
     - app-builder
     - automation
     - llm
+    - no-code
   confidence: high
 curation:
   status: included
@@ -72,6 +72,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:46:08.139Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.674Z"
@@ -81,11 +89,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:46:08.139Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

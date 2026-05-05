@@ -1,6 +1,6 @@
 id: github__bharathvaj-ganesan__whois-mcp
 kind: github-repo
-name: whois-mcp
+name: Whois MCP
 canonical_url: https://github.com/bharathvaj-ganesan/whois-mcp
 identity:
   github_repo: bharathvaj-ganesan/whois-mcp
@@ -46,11 +46,11 @@ insights:
   why_it_matters: It allows developers to check domain availability and registration details directly through their AI assistant without switching to a browser or external lookup tools.
   mental_damage: We have successfully reached the point where we need a specialized protocol server so our AI can check if a domain is taken, sparing us the unimaginable burden of typing 'whois' in a terminal.
   tags:
-    - mcp
-    - whois
-    - cursor
     - claude
+    - cursor
+    - mcp
     - networking
+    - whois
   confidence: high
 curation:
   status: included
@@ -66,6 +66,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:10:41.393Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.681Z"
@@ -76,11 +84,3 @@ processing:
     updated_at: "2026-05-05T21:01:20.112Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:10:41.393Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

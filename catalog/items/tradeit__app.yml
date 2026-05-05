@@ -1,6 +1,6 @@
 id: tradeit__app
 kind: website
-name: tradeit.app
+name: Trade Agent
 canonical_url: https://tradeit.app
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It gives developers a way to wire real brokerage execution into AI agents and chat-based workflows without handling funds or building broker integrations from scratch.
   mental_damage: Because nothing says responsible AI progress like giving your chatbot the ability to YOLO your Robinhood account into a meme-coin put spread at 3 AM.
   tags:
-    - mcp
-    - fintech
-    - embedded-trading
     - agent-tooling
+    - embedded-trading
+    - fintech
+    - mcp
     - sdk
   confidence: high
 curation:
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:48:48.137Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.731Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:48:48.137Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

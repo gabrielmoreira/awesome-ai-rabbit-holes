@@ -1,6 +1,6 @@
 id: github__mrexodia__ida-pro-mcp
 kind: github-repo
-name: ida-pro-mcp
+name: IDA Pro MCP
 canonical_url: https://github.com/mrexodia/ida-pro-mcp
 identity:
   github_repo: mrexodia/ida-pro-mcp
@@ -50,11 +50,11 @@ insights:
   why_it_matters: It turns IDA Pro into an AI-collaborative environment, enabling developers and security researchers to automate tedious reverse engineering tasks like renaming variables, analyzing decompilation, and documenting findings.
   mental_damage: You can now vibe reverse a crackme while your LLM hallucinates the architecture, proving that no corner of engineering is safe from being branded as 'vibe-driven'.
   tags:
-    - mcp
-    - reverse-engineering
-    - ida-pro
     - binary-analysis
+    - ida-pro
+    - mcp
     - plugin
+    - reverse-engineering
   confidence: high
 curation:
   status: included
@@ -70,6 +70,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (8222) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:39:15.252Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.708Z"
@@ -80,11 +88,3 @@ processing:
     updated_at: "2026-05-05T21:03:47.872Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:39:15.252Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

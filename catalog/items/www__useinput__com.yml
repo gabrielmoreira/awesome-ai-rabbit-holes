@@ -1,6 +1,6 @@
 id: www__useinput__com
 kind: website
-name: www.useinput.com
+name: Input
 canonical_url: https://www.useinput.com
 identity: {}
 provenance:
@@ -38,9 +38,9 @@ insights:
   why_it_matters: It doesn't—unless your workflow involves accidentally wiring casino platforms into your autonomous agent pipeline.
   mental_damage: We have officially reached the phase of the AI boom where awesome-ai-agents includes slot machines if you click the link aggressively enough.
   tags:
-    - scam
     - misclassified
     - not-a-tool
+    - scam
   confidence: high
 curation:
   status: excluded
@@ -56,6 +56,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:53:59.805Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.734Z"
@@ -65,11 +73,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:53:59.805Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

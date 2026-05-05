@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mozilla-ocho__llamafile__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-05T20:48:55.437Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -41,20 +41,21 @@ metadata:
       - open-source-ai
       - single-file-executable
       - speech-to-text
-    last_checked_at: "2026-05-05T21:03:47.573Z"
+    last_checked_at: "2026-05-05T21:03:47.815Z"
     readme:
-      fetched_at: "2026-05-05T21:03:47.573Z"
+      fetched_at: "2026-05-05T21:03:47.815Z"
       bytes: 5534
 insights:
   summary: llamafile packages LLMs and speech-to-text models into a single executable file that runs locally on most operating systems and CPU architectures without installation.
   why_it_matters: It collapses the complexity of local AI setup into a portable binary, letting developers run and distribute open models directly from the command line.
   mental_damage: You now have no excuse not to run a local model, yet somehow still find yourself pasting secrets into a chat window with 400ms latency hosted three time zones away.
   tags:
-    - local-ai
-    - llm
-    - single-binary
-    - offline
     - inference
+    - llm
+    - local-ai
+    - offline
+    - single-binary
+    - single-file
   confidence: high
 curation:
   status: included
@@ -63,6 +64,8 @@ curation:
     - "Repo description states: 'Distribute and run LLMs with a single file.'"
     - README explains it combines llama.cpp with Cosmopolitan Libc to create a single-file executable for local inference on most OSes and CPUs.
     - Topics include local-ai, local-inference, and local-llm, and the tool bundles whisper.cpp for local speech-to-text.
+    - README explains it combines llama.cpp with Cosmopolitan Libc to create a single-file executable for local LLM inference across most OSes.
+    - Listed under 'Local LLM Tools' in the awesome-ai-coding-tools directory.
 placement:
   primary_category: local-ai
   section: null
@@ -72,7 +75,7 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-05-05T21:39:14.332Z"
+    updated_at: "2026-05-05T21:39:14.989Z"
     cause: null
     next_retry_at: null
     attempts: 1
@@ -80,11 +83,11 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.708Z"
+    updated_at: "2026-05-05T20:48:55.442Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:47.573Z"
+    updated_at: "2026-05-05T21:03:47.815Z"
     cause: null
     next_retry_at: null

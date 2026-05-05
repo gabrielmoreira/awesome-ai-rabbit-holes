@@ -1,6 +1,6 @@
 id: github__chakkaradeep__pycodeagi
 kind: github-repo
-name: pycodeagi
+name: PyCodeAGI
 canonical_url: https://github.com/chakkaradeep/pycodeagi
 identity:
   github_repo: chakkaradeep/pycodeagi
@@ -42,10 +42,10 @@ insights:
   why_it_matters: It demonstrates a prompt-to-app workflow for Python, serving as a reference implementation for developers exploring autonomous code generation using the LangChain framework.
   mental_damage: "Just what the world needed: another 'AGI' script from 2023 that hallucinates a Flask app and then gracefully retires to the GitHub graveyard a few weeks later."
   tags:
-    - langchain
-    - code-generation
-    - python
     - autonomous-agents
+    - code-generation
+    - langchain
+    - python
   confidence: high
 curation:
   status: excluded
@@ -61,6 +61,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (183) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:12:46.801Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.682Z"
@@ -71,11 +79,3 @@ processing:
     updated_at: "2026-05-05T21:01:32.008Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:12:46.801Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

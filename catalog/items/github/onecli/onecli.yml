@@ -1,6 +1,6 @@
 id: github__onecli__onecli
 kind: github-repo
-name: onecli
+name: OneCLI
 canonical_url: https://github.com/onecli/onecli
 identity:
   github_repo: onecli/onecli
@@ -54,11 +54,11 @@ insights:
   why_it_matters: It centralizes secret management for AI workflows, letting developers avoid hardcoding API keys across multiple agents and providing a single place to rotate credentials and audit usage.
   mental_damage: Finally, a dedicated vault to manage the rapidly multiplying API keys required to keep your twelve concurrent coding agents from accidentally exfiltrating your entire cloud infrastructure.
   tags:
-    - security
-    - secrets
-    - mcp
-    - infrastructure
     - agents
+    - infrastructure
+    - mcp
+    - secrets
+    - security
   confidence: high
 curation:
   status: included
@@ -74,6 +74,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (2091) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:42:03.427Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.711Z"
@@ -84,11 +92,3 @@ processing:
     updated_at: "2026-05-05T21:04:01.669Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:42:03.427Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

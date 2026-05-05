@@ -1,6 +1,6 @@
 id: www__parea__ai
 kind: website
-name: www.parea.ai
+name: Parea AI
 canonical_url: https://www.parea.ai
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It provides the evaluation infrastructure and SDKs needed to test prompt changes, track regressions, and collect human feedback on production AI systems.
   mental_damage: Another platform promising to solve the 'which prompt regression broke production' mystery, ensuring you can now generate graphs about your AI's failure modes instead of just crying about them.
   tags:
-    - llmops
     - evals
-    - observability
     - experiment-tracking
+    - llmops
+    - observability
   confidence: high
 curation:
   status: included
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:52:28.786Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.733Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:52:28.786Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

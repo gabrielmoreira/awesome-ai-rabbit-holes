@@ -1,11 +1,27 @@
 id: github__ruvnet__ruflo
 kind: github-repo
-name: ruflo
+name: Ruflo
 canonical_url: https://github.com/ruvnet/ruflo
 identity:
   github_repo: ruvnet/ruflo
 provenance:
   discoveries:
+    - id: discovery__github__ruvnet__claude-flow__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Orchestrators & autonomous loops
+        anchor_text: claude-flow
+        extracted_url: https://github.com/ruvnet/claude-flow
+        surrounding_text: "- **[claude-flow](https://github.com/ruvnet/claude-flow)** `⭐ 39.9k` — Deploy multi-agent swarms with coordinated workflows."
+        confidence: high
     - id: discovery__github__ruvnet__ruflo__awesome-list__bradagi__awesome-cli-coding-agents
       discovered_at: "2026-05-05T19:41:00.656Z"
       source:
@@ -68,19 +84,19 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: skipped
+    updated_at: "2026-05-05T23:08:18.952Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.670Z"
+    updated_at: "2026-05-05T20:48:55.443Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T21:04:23.169Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null

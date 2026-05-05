@@ -1,6 +1,6 @@
 id: 10web__io
 kind: website
-name: 10web.io
+name: 10Web
 canonical_url: https://10web.io
 identity: {}
 provenance:
@@ -38,11 +38,11 @@ insights:
   why_it_matters: It allows developers and agencies to rapidly prototype and deploy AI-generated WordPress sites with integrated hosting, SEO, and white-label APIs without managing infrastructure.
   mental_damage: You can now vibe-code an entire WordPress frontend while an AI Agent promises production-readiness, conveniently hiding the fact that you still have 60,000 plugins to debug.
   tags:
-    - wordpress
     - ai-website-builder
-    - white-label
     - hosting
     - vibe-coding
+    - white-label
+    - wordpress
   confidence: high
 curation:
   status: included
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:41:16.484Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.725Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:41:16.484Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

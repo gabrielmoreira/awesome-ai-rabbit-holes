@@ -1,6 +1,6 @@
 id: github__amaar-mc__wit
 kind: github-repo
-name: wit
+name: Wit
 canonical_url: https://github.com/amaar-mc/wit
 identity:
   github_repo: amaar-mc/wit
@@ -53,8 +53,8 @@ insights:
   tags:
     - agent-coordination
     - cli
-    - multi-agent
     - conflict-prevention
+    - multi-agent
   confidence: high
 curation:
   status: included
@@ -70,6 +70,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:07:54.135Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.678Z"
@@ -80,11 +88,3 @@ processing:
     updated_at: "2026-05-05T21:01:02.204Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:07:54.135Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

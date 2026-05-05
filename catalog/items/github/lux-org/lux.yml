@@ -1,6 +1,6 @@
 id: github__lux-org__lux
 kind: github-repo
-name: lux
+name: LUX
 canonical_url: https://github.com/lux-org/lux
 identity:
   github_repo: lux-org/lux
@@ -49,11 +49,11 @@ insights:
   why_it_matters: It streamlines the exploratory data analysis workflow for developers and data scientists by removing the need to manually write matplotlib or seaborn code for initial data discovery.
   mental_damage: Another magical layer that promises to automate the 'boring' parts of our job, right up until the point where you actually need to control the axis labels and realize you've forgotten how to write a basic plot.
   tags:
-    - python
-    - pandas
-    - visualization
     - data-science
     - jupyter
+    - pandas
+    - python
+    - visualization
   confidence: high
 curation:
   status: excluded
@@ -69,6 +69,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (5383) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:35:00.794Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.705Z"
@@ -79,11 +87,3 @@ processing:
     updated_at: "2026-05-05T21:03:26.247Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:35:00.794Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

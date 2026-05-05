@@ -1,6 +1,6 @@
 id: jfrog__com__xray
 kind: website
-name: xray
+name: JFrog Xray
 canonical_url: https://jfrog.com/xray
 identity: {}
 provenance:
@@ -38,11 +38,11 @@ insights:
   why_it_matters: It integrates with developer workflows to catch supply chain risks early, and now extends its governance to AI models, agent skills, and MCP servers consumed by modern development stacks.
   mental_damage: You finally automate your security scanning, only to realize your 'autonomous' coding agent is importing vulnerabilities faster than Xray can curate them.
   tags:
+    - devsecops
+    - jfrog
     - sca
     - security
-    - devsecops
     - supply-chain
-    - jfrog
   confidence: high
 curation:
   status: excluded
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:45:41.009Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.728Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:45:41.009Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

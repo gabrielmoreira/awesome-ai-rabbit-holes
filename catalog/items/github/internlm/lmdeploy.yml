@@ -1,6 +1,6 @@
 id: github__internlm__lmdeploy
 kind: github-repo
-name: lmdeploy
+name: LmDeploy
 canonical_url: https://github.com/internlm/lmdeploy
 identity:
   github_repo: internlm/lmdeploy
@@ -52,11 +52,11 @@ insights:
   why_it_matters: It gives developers a high-performance, local-first path to serve and scale LLMs with quantization, multi-GPU support, and OpenAI-compatible APIs without relying on hosted inference.
   mental_damage: Yet another inference stack reminding you that your homegrown Flask wrapper around a quantized model was never going to be the thing that scaled.
   tags:
+    - cuda
     - llm-inference
     - local-ai
     - model-serving
     - quantization
-    - cuda
   confidence: high
 curation:
   status: included
@@ -72,6 +72,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (7841) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:26:22.419Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.698Z"
@@ -82,11 +90,3 @@ processing:
     updated_at: "2026-05-05T21:02:45.676Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:26:22.419Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

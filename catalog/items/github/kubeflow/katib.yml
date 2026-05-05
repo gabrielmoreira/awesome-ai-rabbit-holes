@@ -1,6 +1,6 @@
 id: github__kubeflow__katib
 kind: github-repo
-name: katib
+name: Katib
 canonical_url: https://github.com/kubeflow/katib
 identity:
   github_repo: kubeflow/katib
@@ -56,10 +56,10 @@ insights:
   mental_damage: Because nothing says 'focus on shipping features' like spinning up a Kubernetes cluster just to ask an algorithm to guess your learning rate for you.
   tags:
     - automl
-    - kubernetes
     - hyperparameter-tuning
-    - mlops
     - kubeflow
+    - kubernetes
+    - mlops
   confidence: high
 curation:
   status: excluded
@@ -75,6 +75,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (1683) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:31:25.312Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.702Z"
@@ -85,11 +93,3 @@ processing:
     updated_at: "2026-05-05T21:03:08.722Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:31:25.312Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

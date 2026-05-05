@@ -1,6 +1,6 @@
 id: ipfind__com
 kind: website
-name: ipfind.com
+name: IP Find
 canonical_url: https://ipfind.com
 identity: {}
 provenance:
@@ -39,10 +39,10 @@ insights:
   why_it_matters: It offers developers a simple, predictable HTTP endpoint to enrich IP data for general application logic without hosting their own GeoIP database.
   mental_damage: Another essential utility API that will inevitably be replaced by a junior developer's weekend MCP server project, rendering this subscription obsolete.
   tags:
-    - geoip
     - api
-    - utility
+    - geoip
     - location
+    - utility
   confidence: high
 curation:
   status: excluded
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:45:38.303Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.728Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:45:38.303Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

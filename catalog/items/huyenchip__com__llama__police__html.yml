@@ -1,6 +1,6 @@
 id: huyenchip__com__llama__police__html
 kind: website
-name: llama-police.html
+name: llama-police
 canonical_url: https://huyenchip.com/llama-police.html
 identity: {}
 provenance:
@@ -39,9 +39,9 @@ insights:
   mental_damage: Because the only thing more soothing than a 900-item list of AI tools is knowing that list is updated every twelve hours while your own stack remains unchanged.
   tags:
     - directory
-    - open-source
     - llm
     - local-ai
+    - open-source
   confidence: high
 curation:
   status: included
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:45:37.208Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.728Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:45:37.208Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

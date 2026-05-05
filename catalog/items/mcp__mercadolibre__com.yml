@@ -1,6 +1,6 @@
 id: mcp__mercadolibre__com
 kind: website
-name: mcp.mercadolibre.com
+name: Mercado Libre
 canonical_url: https://mcp.mercadolibre.com
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It lets AI coding assistants and agents query live MercadoLibre marketplace data and automate commerce workflows without bespoke API glue code.
   mental_damage: Another official MCP server drops, inching us closer to an ecosystem where your agent has ten tabs open, a dozen tokens burning, and still can't decide whether to buy a USB cable.
   tags:
+    - agent-integration
+    - ecommerce
     - mcp
     - mercadolibre
-    - ecommerce
-    - agent-integration
   confidence: high
 curation:
   status: included
@@ -56,6 +56,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:46:19.654Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.728Z"
@@ -65,11 +73,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:46:19.654Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

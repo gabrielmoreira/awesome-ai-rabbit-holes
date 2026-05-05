@@ -1,6 +1,6 @@
 id: e2b__dev__docs__llm__platforms__openai
 kind: website
-name: openai
+name: OpenAI's Assistants
 canonical_url: https://e2b.dev/docs/llm-platforms/openai
 identity: {}
 provenance:
@@ -39,11 +39,11 @@ insights:
   why_it_matters: Developers building AI agents can use this reference to run OpenAI models securely inside ephemeral cloud sandboxes for code execution and tool use.
   mental_damage: Yet another integration doc that turns a simple API call into a multi-layered architectural decision about where your model's code actually runs.
   tags:
-    - openai
-    - llm
-    - sandbox
-    - e2b
     - docs
+    - e2b
+    - llm
+    - openai
+    - sandbox
   confidence: high
 curation:
   status: excluded
@@ -59,6 +59,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:44:17.091Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.727Z"
@@ -68,11 +76,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:44:17.091Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

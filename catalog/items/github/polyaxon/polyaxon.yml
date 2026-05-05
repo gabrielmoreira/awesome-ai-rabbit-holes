@@ -1,6 +1,6 @@
 id: github__polyaxon__polyaxon
 kind: github-repo
-name: polyaxon
+name: Polyaxon
 canonical_url: https://github.com/polyaxon/polyaxon
 identity:
   github_repo: polyaxon/polyaxon
@@ -24,17 +24,39 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 3705
+    forks: 324
+    license: Apache-2.0
+    archived: false
+    created_at: "2016-12-26T12:48:47Z"
+    pushed_at: "2026-04-26T12:23:28Z"
+    description: MLOps Tools For Managing & Orchestrating The Machine Learning LifeCycle
+    homepage: https://polyaxon.com
+    topics:
+      - artificial-intelligence
+      - caffe
+      - data-science
+      - deep-learning
+      - hyperparameter-optimization
+      - jupyter
+      - jupyterlab
+      - k8s
+      - keras
+      - kubernetes
+      - machine-learning
+      - ml
+      - mlops
+      - mxnet
+      - notebook
+      - pipelines
+      - pytorch
+      - reinforcement-learning
+      - tensorflow
+      - workflow
+    last_checked_at: "2026-05-05T23:08:07.783Z"
+    readme:
+      fetched_at: "2026-05-05T23:08:07.783Z"
+      bytes: 7931
 insights:
   summary: null
   why_it_matters: null
@@ -49,22 +71,26 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (3705) exceeded threshold (150)
 processing:
+  categorize:
+    status: deferred
+    updated_at: "2026-05-05T23:08:33.635Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-05-06T00:08:33.635Z"
+    attempts: 0
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.713Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-05T23:08:07.783Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T21:04:23.169Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null

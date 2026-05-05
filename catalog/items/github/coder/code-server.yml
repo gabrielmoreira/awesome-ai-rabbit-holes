@@ -1,6 +1,6 @@
 id: github__coder__code-server
 kind: github-repo
-name: code-server
+name: code server
 canonical_url: https://github.com/coder/code-server
 identity:
   github_repo: coder/code-server
@@ -49,10 +49,10 @@ insights:
   why_it_matters: It enables remote development and consistent coding environments accessible from any device with a browser, which is foundational for running modern AI coding agents in the cloud.
   mental_damage: We have successfully orchestrated a stack of abstractions so deep that we now run a fully indexed IDE inside a browser tab, just to ask an AI to write the code we no longer have time to understand.
   tags:
-    - vscode
-    - remote-development
     - browser-ide
     - cloud
+    - remote-development
+    - vscode
   confidence: high
 curation:
   status: included
@@ -68,6 +68,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (77407) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:13:47.690Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.683Z"
@@ -78,11 +86,3 @@ processing:
     updated_at: "2026-05-05T21:01:37.992Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:13:47.690Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

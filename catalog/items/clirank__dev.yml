@@ -1,6 +1,6 @@
 id: clirank__dev
 kind: website
-name: clirank.dev
+name: CLIRank
 canonical_url: https://clirank.dev
 identity: {}
 provenance:
@@ -54,9 +54,9 @@ insights:
   why_it_matters: It serves as a navigation aid for developers looking to extend AI coding assistants with specific external tools and data sources via the MCP standard.
   mental_damage: Yet another layer of meta-discovery is required just to figure out which middleware we need to make our agents actually understand our middleware.
   tags:
-    - mcp
     - directory
     - discovery
+    - mcp
   confidence: high
 curation:
   status: included
@@ -72,6 +72,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:42:50.659Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.674Z"
@@ -81,11 +89,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:42:50.659Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

@@ -59,11 +59,14 @@ insights:
     - fintech
     - market-data
     - mcp
+    - server
   confidence: medium
 curation:
   status: included
-  reason: The project is explicitly listed as an MCP server implementation for finance and fintech, fitting the MCP Servers and Tooling category.
+  reason: The project is explicitly listed as an MCP server implementation in the 'Finance & Fintech' section of the awesome-mcp-servers directory, fitting the MCP infrastructure category.
   evidence:
+    - Listed in awesome-mcp-servers under 'Server Implementations > Finance & Fintech'.
+    - URL resolves to copilot.money, indicating a dedicated tool/service page.
     - Listed in awesome-mcp-servers under 'Server Implementations > Finance & Fintech'
     - URL resolves to copilot.money, indicating a financial data focus
 placement:
@@ -75,20 +78,20 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-05-05T19:43:17.864Z"
+    updated_at: "2026-05-05T20:49:20.407Z"
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
+    category_rules_version: 1b6cc5462ecc
     next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.727Z"
+    updated_at: "2026-05-05T22:47:06.911Z"
     cause: null
     next_retry_at: null
   stars:
     status: failed
-    updated_at: "2026-05-05T21:02:08.957Z"
+    updated_at: "2026-05-05T23:07:50.071Z"
     cause:
       type: github_repo_missing
       message: "GitHub repository not found: features/copilot"

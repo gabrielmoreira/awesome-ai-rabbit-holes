@@ -1,6 +1,6 @@
 id: github__transformeroptimus__superagi
 kind: github-repo
-name: superagi
+name: SuperAGI
 canonical_url: https://github.com/transformeroptimus/superagi
 identity:
   github_repo: transformeroptimus/superagi
@@ -38,7 +38,7 @@ provenance:
         surrounding_text: "- [SuperAGI](https://github.com/TransformerOptimus/SuperAGI) - Open-source autonomous AI"
         confidence: high
     - id: discovery__superagi__com__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-05T22:47:06.910Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -53,7 +53,7 @@ provenance:
         surrounding_text: "## [SuperAGI](https://superagi.com/)"
         confidence: high
     - id: discovery__superagi__com__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-05T22:47:06.910Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -85,7 +85,9 @@ insights:
   why_it_matters: It represents the application of autonomous agent patterns to specific business functions like sales, though it targets sales teams rather than developers building software.
   mental_damage: We have successfully reached the point where we are hiring autonomous agents to do the hiring so we don't have to talk to humans anymore.
   tags:
+    - autonomous-agent
     - autonomous-agents
+    - business-automation
     - saas
     - sales-agent
   confidence: high
@@ -96,6 +98,9 @@ curation:
     - Scraped site description states it is 'an AI sales agent that works 24×7 to find & engage with prospects'
     - Source lists categorize it under sales/agent verticals rather than developer tooling or IDE extensions
     - No GitHub repo, code-level SDK, or developer workflow integration is described in the provided context
+    - Scraped site description explicitly defines it as 'an AI sales agent that works 24×7 to find & engage with prospects'.
+    - Appears in source lists under sales/business contexts, not developer tooling or coding categories.
+    - No GitHub repository, code artifacts, or developer-facing APIs are present in the provided inputs.
 placement:
   primary_category: null
   section: null
@@ -105,15 +110,15 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-05-05T19:48:26.017Z"
+    updated_at: "2026-05-05T20:49:40.423Z"
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
+    category_rules_version: 1b6cc5462ecc
     next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.674Z"
+    updated_at: "2026-05-05T22:47:06.910Z"
     cause: null
     next_retry_at: null
   stars:

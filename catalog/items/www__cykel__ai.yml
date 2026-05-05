@@ -1,6 +1,6 @@
 id: www__cykel__ai
 kind: website
-name: www.cykel.ai
+name: Cykel
 canonical_url: https://www.cykel.ai
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It represents a shift toward integrating autonomous agents directly into enterprise workflows like CRM and ATS, though it targets business operations rather than codebases.
   mental_damage: We've successfully automated the anxiety of hiring, selling, and researching, so developers can now focus entirely on the anxiety of configuring the agents that do it.
   tags:
-    - digital-workers
-    - saas
     - agents
     - business-automation
+    - digital-workers
+    - saas
   confidence: high
 curation:
   status: excluded
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:50:22.545Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.732Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:50:22.545Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

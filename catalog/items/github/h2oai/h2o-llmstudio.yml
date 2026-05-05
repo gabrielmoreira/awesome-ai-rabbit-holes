@@ -1,6 +1,6 @@
 id: github__h2oai__h2o-llmstudio
 kind: github-repo
-name: h2o-llmstudio
+name: H2O-LLMStudio
 canonical_url: https://github.com/h2oai/h2o-llmstudio
 identity:
   github_repo: h2oai/h2o-llmstudio
@@ -55,9 +55,9 @@ insights:
   mental_damage: Yet another reminder that while we automate fine-tuning with pretty GUIs, we still have no idea why the model forgot how to add two numbers after the third epoch.
   tags:
     - fine-tuning
-    - llm
     - gui
     - h2o
+    - llm
     - local-ai
   confidence: high
 curation:
@@ -74,6 +74,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (4919) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:23:18.921Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.690Z"
@@ -84,11 +92,3 @@ processing:
     updated_at: "2026-05-05T21:02:29.784Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:23:18.921Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

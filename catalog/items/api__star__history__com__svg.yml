@@ -1,6 +1,6 @@
 id: api__star__history__com__svg
 kind: website
-name: svg
+name: "![Star History Chart"
 canonical_url: https://api.star-history.com/svg
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: Developers can embed live, auto-updating star-history badges directly into GitHub READMEs without relying on external image proxies.
   mental_damage: We have reached the point where maintaining a badge endpoint for a chart of GitHub stars is considered a core component of the modern AI app stack.
   tags:
-    - star-history
-    - svg
     - badges
     - readme
+    - star-history
+    - svg
   confidence: high
 curation:
   status: excluded
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T20:49:08.709Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.726Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T20:49:08.709Z"
-    cause: null
-    next_retry_at: null
-    attempts: 2
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

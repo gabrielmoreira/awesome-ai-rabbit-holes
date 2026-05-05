@@ -1,6 +1,6 @@
 id: github__hypersigilhq__hypersigil
 kind: github-repo
-name: hypersigil
+name: Hypersigil
 canonical_url: https://github.com/hypersigilhq/hypersigil
 identity:
   github_repo: hypersigilhq/hypersigil
@@ -47,9 +47,9 @@ insights:
   why_it_matters: Developers can decouple prompt lifecycle management from application code, enabling non-technical teammates to iterate on prompts while maintaining governance and cross-provider failover.
   mental_damage: Because nothing says 'agile AI orchestration' like introducing a dedicated prompt deployment platform to solve the complexity introduced by your multi-provider LLM abstraction layer.
   tags:
-    - prompt-management
     - llm-gateway
     - multi-provider
+    - prompt-management
     - prompt-tuning
   confidence: medium
 curation:
@@ -66,6 +66,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:25:13.092Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.697Z"
@@ -76,11 +84,3 @@ processing:
     updated_at: "2026-05-05T21:02:39.992Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:25:13.092Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

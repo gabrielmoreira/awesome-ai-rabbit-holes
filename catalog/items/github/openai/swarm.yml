@@ -1,6 +1,6 @@
 id: github__openai__swarm
 kind: github-repo
-name: swarm
+name: Swarm
 canonical_url: https://github.com/openai/swarm
 identity:
   github_repo: openai/swarm
@@ -57,10 +57,10 @@ insights:
   why_it_matters: It provides a minimal code-first substrate for developers to learn and prototype how to coordinate multiple LLM agents before adopting production SDKs.
   mental_damage: You can now orchestrate a swarm of agents to handle tasks that a single prompt failed to solve, proving that adding complexity is always the first refuge of the overwhelmed developer.
   tags:
-    - multi-agent
-    - orchestration
-    - openai
     - framework
+    - multi-agent
+    - openai
+    - orchestration
     - python
   confidence: high
 curation:
@@ -77,6 +77,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (21427) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:42:23.916Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.669Z"
@@ -87,11 +95,3 @@ processing:
     updated_at: "2026-05-05T21:04:03.736Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:42:23.916Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

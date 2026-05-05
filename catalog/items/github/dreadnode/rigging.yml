@@ -1,6 +1,6 @@
 id: github__dreadnode__rigging
 kind: github-repo
-name: rigging
+name: Rigging
 canonical_url: https://github.com/dreadnode/rigging
 identity:
   github_repo: dreadnode/rigging
@@ -45,11 +45,11 @@ insights:
   why_it_matters: It lets developers treat LLM interactions like standard Python functions with type hints and validation, streamlining the integration of models into serious codebases.
   mental_damage: Another Tuesday, another framework promising to wrangle the chaos of LLM outputs into a Pydantic model before the next context window inevitably shatters your faith in structured data.
   tags:
+    - agents
+    - litellm
     - llm-framework
     - pydantic
-    - litellm
     - python
-    - agents
   confidence: high
 curation:
   status: included
@@ -65,6 +65,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (409) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:17:10.145Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.685Z"
@@ -75,11 +83,3 @@ processing:
     updated_at: "2026-05-05T21:01:57.264Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:17:10.145Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

@@ -1,6 +1,6 @@
 id: docs__liquidmetal__ai__tutorials__claude__code__mcp__setup
 kind: website
-name: claude-code-mcp-setup
+name: liquidmetal-ai/raindrop-mcp
 canonical_url: https://docs.liquidmetal.ai/tutorials/claude-code-mcp-setup
 identity: {}
 provenance:
@@ -39,10 +39,10 @@ insights:
   why_it_matters: It provides the procedural glue needed to extend Claude Code's capabilities by connecting it to external MCP-compatible tools and data sources.
   mental_damage: Another essential piece of documentation proving that getting your AI stack to talk to itself now requires more ritual than the actual coding.
   tags:
-    - mcp
     - claude-code
-    - tutorial
+    - mcp
     - setup
+    - tutorial
   confidence: high
 curation:
   status: excluded
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:44:07.079Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.727Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:44:07.079Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

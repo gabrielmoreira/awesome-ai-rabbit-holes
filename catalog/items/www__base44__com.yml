@@ -1,6 +1,6 @@
 id: www__base44__com
 kind: website
-name: www.base44.com
+name: base44
 canonical_url: https://www.base44.com
 identity: {}
 provenance:
@@ -39,9 +39,9 @@ insights:
   mental_damage: Yet another chance to realize that while the AI can ship the MVP in minutes, you'll still be the one explaining to stakeholders why the tech debt is insurmountable six weeks later.
   tags:
     - app-builder
+    - deployment
     - prompt-to-app
     - prototyping
-    - deployment
   confidence: high
 curation:
   status: included
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:49:49.116Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.731Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:49:49.116Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

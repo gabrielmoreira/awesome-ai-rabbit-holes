@@ -1,6 +1,6 @@
 id: github__freedomintelligence__awesome-ai4med
 kind: github-repo
-name: awesome-ai4med
+name: Awesome-AI4Med
 canonical_url: https://github.com/freedomintelligence/awesome-ai4med
 identity:
   github_repo: freedomintelligence/awesome-ai4med
@@ -49,11 +49,11 @@ insights:
   why_it_matters: It provides a clean, navigable map of the medical AI ecosystem, helping developers quickly locate relevant models and benchmarks without wading through disjointed research papers.
   mental_damage: Yet another awesome list proving that in the age of AI, the highest-value contribution is sometimes just alphabetizing the chaos so the rest of us can feel productive while browsing.
   tags:
-    - medical-ai
-    - llm
-    - datasets
-    - benchmarks
     - awesome-list
+    - benchmarks
+    - datasets
+    - llm
+    - medical-ai
   confidence: high
 curation:
   status: included
@@ -69,6 +69,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (2766) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:20:13.225Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.688Z"
@@ -79,11 +87,3 @@ processing:
     updated_at: "2026-05-05T21:02:14.611Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:20:13.225Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

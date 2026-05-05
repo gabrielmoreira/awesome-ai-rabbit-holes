@@ -1,6 +1,6 @@
 id: github__gustavz__datachad
 kind: github-repo
-name: datachad
+name: DataChad
 canonical_url: https://github.com/gustavz/datachad
 identity:
   github_repo: gustavz/datachad
@@ -53,11 +53,11 @@ insights:
   why_it_matters: It gives developers a ready-made interface for building RAG pipelines over arbitrary data sources without wiring together loaders, embeddings, and vector stores by hand.
   mental_damage: Yet another lovingly hand-crafted RAG demo that proves the hardest part of LLM development is not the model, but deciding which vector database deserves your trust this week.
   tags:
-    - rag
-    - langchain
-    - streamlit
     - knowledge-base
+    - langchain
     - llm
+    - rag
+    - streamlit
   confidence: high
 curation:
   status: excluded
@@ -73,6 +73,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (322) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:23:17.196Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.690Z"
@@ -83,11 +91,3 @@ processing:
     updated_at: "2026-05-05T21:02:29.397Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:23:17.196Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

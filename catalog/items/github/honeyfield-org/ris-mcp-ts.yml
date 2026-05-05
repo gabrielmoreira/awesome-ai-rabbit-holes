@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__philrox__ris-mcp-ts__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-05T20:48:55.437Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -41,20 +41,22 @@ metadata:
       - model-context-protocol
       - ris
       - typescript
-    last_checked_at: "2026-05-05T21:02:35.650Z"
+    last_checked_at: "2026-05-05T21:04:16.299Z"
     readme:
-      fetched_at: "2026-05-05T21:02:35.650Z"
+      fetched_at: "2026-05-05T21:04:16.299Z"
       bytes: 17566
 insights:
   summary: An MCP server that gives AI assistants access to Austria's official legal database (RIS) to search and retrieve federal laws, state laws, and court decisions.
   why_it_matters: Developers building legal-tech AI workflows can integrate native access to Austrian government legal data without needing to handle API keys or raw government endpoints.
   mental_damage: We have successfully reached the point where an AI can hallucinate Austrian tenancy law with the full, verbatim backing of the federal government.
   tags:
-    - mcp
-    - legal
-    - typescript
     - austria
     - government-data
+    - legal
+    - legal-tech
+    - local-server
+    - mcp
+    - typescript
   confidence: high
 curation:
   status: included
@@ -63,6 +65,9 @@ curation:
     - Repo description explicitly states 'MCP Server for the Austrian Legal Information System'.
     - README confirms it is an MCP server with stdio transport for Claude, Cursor, Windsurf, and VS Code.
     - Topics include 'mcp' and 'model-context-protocol', aligning with the MCP Servers and Tooling category.
+    - Repo description explicitly states 'MCP Server for the Austrian Legal Information System (RIS)'.
+    - README details 12 specialized tools exposing the RIS API to MCP-compatible clients like Claude and Cursor.
+    - Listed under 'Server Implementations > Legal' in the awesome-mcp-servers directory.
 placement:
   primary_category: mcp
   section: null
@@ -72,7 +77,7 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-05-05T21:24:17.979Z"
+    updated_at: "2026-05-05T21:44:29.131Z"
     cause: null
     next_retry_at: null
     attempts: 1
@@ -80,11 +85,11 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.713Z"
+    updated_at: "2026-05-05T20:48:55.443Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:35.650Z"
+    updated_at: "2026-05-05T21:04:16.299Z"
     cause: null
     next_retry_at: null

@@ -1,6 +1,6 @@
 id: github__abraxas-365__langchain-rust
 kind: github-repo
-name: langchain-rust
+name: Langchain-rust
 canonical_url: https://github.com/abraxas-365/langchain-rust
 identity:
   github_repo: abraxas-365/langchain-rust
@@ -46,11 +46,11 @@ insights:
   why_it_matters: It brings the composable LangChain mental model and ecosystem patterns to Rust developers building production LLM features without leaving their preferred language.
   mental_damage: Now you can orchestrate a twelve-link chain of LLM calls, vector searches, and tools while fighting the borrow checker instead of just fighting Python dependency hell.
   tags:
-    - rust
+    - agents
+    - framework
     - langchain
     - llm
-    - framework
-    - agents
+    - rust
   confidence: high
 curation:
   status: included
@@ -66,6 +66,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (1299) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:05:33.602Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.676Z"
@@ -76,11 +84,3 @@ processing:
     updated_at: "2026-05-05T21:00:47.433Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:05:33.602Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

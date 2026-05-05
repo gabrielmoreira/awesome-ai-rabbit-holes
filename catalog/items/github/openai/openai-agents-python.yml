@@ -1,6 +1,6 @@
 id: github__openai__openai-agents-python
 kind: github-repo
-name: openai-agents-python
+name: OpenAI Agents Python
 canonical_url: https://github.com/openai/openai-agents-python
 identity:
   github_repo: openai/openai-agents-python
@@ -48,11 +48,11 @@ insights:
   why_it_matters: It gives developers a structured, provider-agnostic way to compose agents, manage sessions, and observe complex LLM workflows without wiring everything from scratch.
   mental_damage: Another framework enters the arena to solve multi-agent chaos, politely promising that this time orchestration won't require its own orchestration team.
   tags:
-    - python
-    - multi-agent
-    - sdk
-    - openai
     - framework
+    - multi-agent
+    - openai
+    - python
+    - sdk
   confidence: high
 curation:
   status: included
@@ -68,6 +68,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (25911) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:42:23.827Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.711Z"
@@ -78,11 +86,3 @@ processing:
     updated_at: "2026-05-05T21:04:03.574Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:42:23.827Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

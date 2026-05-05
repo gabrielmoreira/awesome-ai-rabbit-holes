@@ -1,6 +1,6 @@
 id: github__bentoml__bentoml
 kind: github-repo
-name: bentoml
+name: BentoML
 canonical_url: https://github.com/bentoml/bentoml
 identity:
   github_repo: bentoml/bentoml
@@ -72,11 +72,11 @@ insights:
   why_it_matters: It lets developers wrap any open-source or custom model into a scalable REST API without building the serving infrastructure from scratch.
   mental_damage: Yet another framework promising that this time, your model-serving stack won't collapse under the weight of its own YAML once you try to ship a second model.
   tags:
-    - model-serving
     - inference
-    - mlops
-    - python
     - llm
+    - mlops
+    - model-serving
+    - python
   confidence: high
 curation:
   status: included
@@ -92,6 +92,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (8627) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:10:32.391Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.663Z"
@@ -102,11 +110,3 @@ processing:
     updated_at: "2026-05-05T21:01:19.047Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:10:32.391Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

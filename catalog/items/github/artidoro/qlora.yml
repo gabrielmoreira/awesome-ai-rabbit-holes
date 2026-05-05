@@ -1,6 +1,6 @@
 id: github__artidoro__qlora
 kind: github-repo
-name: qlora
+name: QLoRA
 canonical_url: https://github.com/artidoro/qlora
 identity:
   github_repo: artidoro/qlora
@@ -43,10 +43,10 @@ insights:
   mental_damage: Because you can now fine-tune a 65B model on a single consumer-grade card, you no longer have the excuse of 'insufficient infrastructure' to avoid training the chatbot that will inevitably hallucinate your documentation.
   tags:
     - fine-tuning
-    - quantization
     - llm
-    - training
     - local-ai
+    - quantization
+    - training
   confidence: high
 curation:
   status: included
@@ -62,6 +62,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (10897) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:09:10.956Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.679Z"
@@ -72,11 +80,3 @@ processing:
     updated_at: "2026-05-05T21:01:10.288Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:09:10.956Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

@@ -38,17 +38,25 @@ metadata:
       fetched_at: "2026-05-05T21:01:33.437Z"
       bytes: 86063
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A collection of payment adapters and integration guides connecting e-commerce platforms and AI agent frameworks to AlgoVoi's multi-chain stablecoin payment infrastructure, including an MCP server for AI coding tools.
+  why_it_matters: It provides the glue code and protocol middleware needed to monetize AI agents and LLM pipelines via crypto payments across seven blockchains.
+  mental_damage: "Just what every developer needed: a payment gateway for their LangChain agent to finally settle that 0.004 USDC invoice on the Hedera mainnet."
+  tags:
+    - payments
+    - mcp-server
+    - ai-agents
+    - blockchain
+    - integration
+  confidence: medium
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The repository bundles an explicit MCP server (`@algovoi/mcp-server`) that exposes AlgoVoi tools inside Claude Desktop, Cursor, and Windsurf, making it a direct fit for the MCP category.
+  evidence:
+    - README explicitly lists 'MCP server (`@algovoi/mcp-server` / `algovoi-mcp`) — exposes 13 AlgoVoi tools natively inside Claude Desktop, Claude Code, Cursor, and Windsurf'.
+    - Listed in the `awesome-mcp-servers` collection under 'Server Implementations > Finance & Fintech'.
+    - Includes adapters for AI agent frameworks (LangChain, LlamaIndex, CrewAI, etc.) gated by payment protocols.
 placement:
-  primary_category: null
+  primary_category: mcp
   section: null
 lifecycle:
   status: incubating
@@ -65,12 +73,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-05T21:12:55.314Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for github__chopmob-cloud__algovoi-platform-adapters: 你好，我无法给到相关内容。"
+    status: done
+    updated_at: "2026-05-05T22:29:44.113Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v2-baseline
     category_rules_version: 1b6cc5462ecc

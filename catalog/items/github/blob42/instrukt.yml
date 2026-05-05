@@ -1,6 +1,6 @@
 id: github__blob42__instrukt
 kind: github-repo
-name: instrukt
+name: Instrukt
 canonical_url: https://github.com/blob42/instrukt
 identity:
   github_repo: blob42/instrukt
@@ -68,11 +68,11 @@ insights:
   why_it_matters: It gives developers a keyboard-driven, local-first control plane for prototyping and testing custom LLM agents without leaving the terminal.
   mental_damage: Finally, a way to orchestrate a chaotic swarm of agents inside a terminal that is itself trapped inside a Docker container you forgot to prune.
   tags:
-    - terminal
     - agents
     - langchain
-    - tui
     - local-ai
+    - terminal
+    - tui
   confidence: high
 curation:
   status: included
@@ -88,6 +88,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (326) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:11:08.337Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.664Z"
@@ -98,11 +106,3 @@ processing:
     updated_at: "2026-05-05T21:01:22.719Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:11:08.337Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

@@ -39,19 +39,22 @@ metadata:
       fetched_at: "2026-05-05T21:03:34.978Z"
       bytes: 6527
 insights:
-  summary: An MCP server that exposes Membrane integration actions as tools for AI agents via HTTP and SSE transports.
-  why_it_matters: Developers building AI agents can connect to Membrane's integrations through a standardized MCP interface instead of writing custom wrappers.
-  mental_damage: Yet another MCP server enters the ecosystem, because apparently the future of software engineering is just wiring together integration catalogs via a protocol with a three-letter acronym.
+  summary: An MCP server that exposes Membrane integration actions as tools for AI agents and supports both static and dynamic tool modes, SSE and Streamable HTTP transports, and experimental chat session management.
+  why_it_matters: Developers building AI agents can connect this server to give their agents access to Membrane’s integration ecosystem without writing custom tool wrappers.
+  mental_damage: Another Tuesday, another MCP server that lets your agent politely ask Gmail to send an email it will inevitably hallucinate the recipient of.
   tags:
+    - agent-tools
+    - integrations
     - mcp
     - membrane
-    - integrations
-    - agent-tools
   confidence: high
 curation:
   status: included
-  reason: This is a Model Context Protocol server that exposes Membrane's integration actions as tools, which fits cleanly into the MCP category.
+  reason: This is a purpose-built MCP server that exposes third-party integration actions as tools for AI agents, which aligns precisely with the MCP Servers and Tooling category.
   evidence:
+    - "Repo description states: 'MCP Server for Membrane' with topics mcp and mcp-server."
+    - README explicitly describes it as 'a Model Context Protocol (MCP) server' that provides integration actions as tools.
+    - Listed under 'official servers' in the awesome-mcp-servers directory.
     - Repo description states 'MCP Server for Membrane' with mcp and mcp-server topics.
     - README confirms it is a Model Context Protocol server providing integration actions as tools with HTTP and SSE transports.
     - Includes configuration examples for Cursor and Claude Desktop as MCP clients.
@@ -72,7 +75,7 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.698Z"
+    updated_at: "2026-05-05T20:48:55.442Z"
     cause: null
     next_retry_at: null
   stars:

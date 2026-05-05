@@ -21,6 +21,21 @@ provenance:
         extracted_url: https://github.com/ilert/mcp-ilert
         surrounding_text: "- **[ilert](https://github.com/iLert/mcp-ilert)** - Interact with [ilert](https://ilert.com) through natural language."
         confidence: high
+    - id: discovery__www__ilert__com__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T22:47:06.910Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: ilert
+        extracted_url: https://ilert.com
+        surrounding_text: "- **[ilert](https://github.com/iLert/mcp-ilert)** - Interact with [ilert](https://ilert.com) through natural language."
+        confidence: high
 metadata:
   github:
     stars: 14
@@ -41,10 +56,14 @@ insights:
   why_it_matters: It connects incident management workflows directly into AI coding assistants like Cursor and Claude, letting developers query and resolve alerts without leaving their editor.
   mental_damage: "The dream of 'vibe coding' is now complete: you can debug your broken production deploy via an AI agent that is also configured via a JSON blob in the same IDE."
   tags:
-    - mcp
-    - incident-management
+    - ai-agent
+    - automation
+    - devops
     - ilert
+    - incident-management
+    - mcp
     - remote-server
+    - sre
   confidence: high
 curation:
   status: included
@@ -53,6 +72,9 @@ curation:
     - Repo description explicitly states 'MCP server for ilert'.
     - README confirms it is the 'official Model Context Protocol (MCP) server for ilert' using Streamable HTTP transport.
     - Listed in the 'awesome-mcp-servers' directory under 'Official Servers'.
+    - Scraped site describes 'ilert AI SRE' as an intelligent agent that investigates, explains, and resolves incidents autonomously.
+    - Platform features multiple specialized agents including a Voice Agent, On-Call Scheduler, and postmortem generators working across the lifecycle.
+    - Listed in awesome-mcp-servers under 'Official Servers' for an AI-first alerting and on-call management platform.
 placement:
   primary_category: mcp
   section: null
@@ -60,16 +82,6 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  discover:
-    status: done
-    updated_at: "2026-05-05T19:41:00.697Z"
-    cause: null
-    next_retry_at: null
-  stars:
-    status: done
-    updated_at: "2026-05-05T21:02:41.647Z"
-    cause: null
-    next_retry_at: null
   categorize:
     status: done
     updated_at: "2026-05-05T21:25:36.405Z"
@@ -78,3 +90,13 @@ processing:
     attempts: 1
     prompt_version: catalog-categorize-v2-baseline
     category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T22:47:06.911Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:41.647Z"
+    cause: null
+    next_retry_at: null

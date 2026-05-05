@@ -1,6 +1,6 @@
 id: github__awa-ai__awadb
 kind: github-repo
-name: awadb
+name: Awadb
 canonical_url: https://github.com/awa-ai/awadb
 identity:
   github_repo: awa-ai/awadb
@@ -48,11 +48,11 @@ insights:
   why_it_matters: It lets developers quickly prototype LLM-powered semantic search features without defining schemas or managing vector indexing details manually.
   mental_damage: Yet another purpose-built vector database enters the arena, ensuring you can spend your afternoon benchmarking cosine similarity scores instead of shipping your actual product.
   tags:
-    - vectordb
     - embeddings
-    - python
-    - local-ai
     - llmops
+    - local-ai
+    - python
+    - vectordb
   confidence: medium
 curation:
   status: included
@@ -68,6 +68,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (175) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:09:46.541Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.680Z"
@@ -78,11 +86,3 @@ processing:
     updated_at: "2026-05-05T21:01:14.086Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:09:46.541Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

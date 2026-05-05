@@ -1,6 +1,6 @@
 id: github__metauto-ai__gptswarm
 kind: github-repo
-name: gptswarm
+name: GPTSwarm
 canonical_url: https://github.com/metauto-ai/gptswarm
 identity:
   github_repo: metauto-ai/gptswarm
@@ -50,9 +50,9 @@ insights:
   why_it_matters: It provides developers with code-first building blocks to construct and optimize multi-agent systems using graph structures and reinforcement learning techniques.
   mental_damage: Just when you thought your code was complex enough, now you can architect a society of minds that optimizes its own topology while you wonder if the swarm is quietly refactoring you out of the loop.
   tags:
-    - multi-agent
     - framework
     - graph
+    - multi-agent
     - python
     - self-improvement
   confidence: high
@@ -70,6 +70,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (989) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:37:10.812Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.706Z"
@@ -80,11 +88,3 @@ processing:
     updated_at: "2026-05-05T21:03:36.815Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:37:10.812Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

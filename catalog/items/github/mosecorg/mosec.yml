@@ -1,6 +1,6 @@
 id: github__mosecorg__mosec
 kind: github-repo
-name: mosec
+name: Mosec
 canonical_url: https://github.com/mosecorg/mosec
 identity:
   github_repo: mosecorg/mosec
@@ -60,11 +60,11 @@ insights:
   why_it_matters: It lets developers wrap trained models—including LLMs and diffusion models—into efficient, Prometheus-monitored APIs without rebuilding their inference logic or switching ML frameworks.
   mental_damage: Yet another reminder that serving a model at scale remains harder than training it, now with the added peace of mind that Rust is quietly judging your Python runtime.
   tags:
-    - model-serving
-    - mlops
-    - rust
-    - python
     - llm-serving
+    - mlops
+    - model-serving
+    - python
+    - rust
   confidence: high
 curation:
   status: included
@@ -80,6 +80,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (900) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:39:07.466Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.708Z"
@@ -90,11 +98,3 @@ processing:
     updated_at: "2026-05-05T21:03:47.059Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:39:07.466Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

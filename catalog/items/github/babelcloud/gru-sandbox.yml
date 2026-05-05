@@ -1,13 +1,13 @@
 id: github__babelcloud__gru-sandbox
 kind: github-repo
-name: gru-sandbox
+name: Gru Sandbox
 canonical_url: https://github.com/babelcloud/gru-sandbox
 identity:
   github_repo: babelcloud/gru-sandbox
 provenance:
   discoveries:
     - id: discovery__github__babelcloud__gru-sandbox__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T20:48:55.437Z"
+      discovered_at: "2026-05-05T22:33:31.148Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -39,50 +39,44 @@ metadata:
       - linux
       - mcp
       - sandbox
-    last_checked_at: "2026-05-05T21:01:16.729Z"
+    last_checked_at: "2026-05-05T23:07:43.680Z"
     readme:
-      fetched_at: "2026-05-05T21:01:16.729Z"
+      fetched_at: "2026-05-05T23:07:43.680Z"
       bytes: 6716
 insights:
-  summary: A CLI and MCP server that provides AI agents with environments to operate Android, browser, and desktop interfaces, enabling automation of mobile and desktop tasks via tools like Claude Code and Cursor.
-  why_it_matters: Developers can plug device and UI control into their existing coding agents, allowing them to automate app testing, cross-app workflows, and UI interactions without building custom automation infrastructure.
-  mental_damage: Your coding agent can now tap through your Android apps and desktop browsers for you, removing the only remaining barrier between AI autonomy and accidentally buying something on eBay while it debugs your checkout flow.
-  tags:
-    - mcp
-    - agent-sandbox
-    - android-automation
-    - desktop-automation
-    - device-control
-  confidence: high
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
 curation:
-  status: included
-  reason: This is an MCP server and CLI that gives agents the ability to control Android, browser, and desktop environments, which fits cleanly under MCP infrastructure rather than being a primary coding agent itself.
-  evidence:
-    - "Repo description explicitly states: 'Cli and MCP for gbox. Enable AI agents to operate Android/Browser/Desktop like human.'"
-    - "README shows MCP export commands for Claude Code and Cursor: 'gbox mcp export --merge-to claude-code'."
-    - Listed in awesome-mcp-servers under Community Servers, reinforcing its role as MCP infrastructure.
+  status: pending
+  reason: null
+  evidence: []
 placement:
-  primary_category: mcp
+  primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
   reason: Stars (174) exceeded threshold (150)
 processing:
+  categorize:
+    status: deferred
+    updated_at: "2026-05-05T23:08:33.635Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-05-06T00:08:33.635Z"
+    attempts: 0
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.440Z"
+    updated_at: "2026-05-05T22:33:31.150Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:16.729Z"
+    updated_at: "2026-05-05T23:07:43.680Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:10:07.922Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

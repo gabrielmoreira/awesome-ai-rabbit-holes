@@ -1,6 +1,6 @@
 id: prts__wiki__w__e9__a6__96__e9__a1__b5
 kind: website
-name: "%E9%A6%96%E9%A1%B5"
+name: PRTS Wiki
 canonical_url: https://prts.wiki/w/%E9%A6%96%E9%A1%B5
 identity: {}
 provenance:
@@ -39,9 +39,9 @@ insights:
   why_it_matters: It provides a structured data source that could theoretically be queried by game-related tooling, though it has no direct developer workflow integration.
   mental_damage: We have officially reached the point where a game wiki is being listed alongside MCP infrastructure as if 'adding PRTS' is a serious developer workflow decision.
   tags:
+    - arbitrary-listing
     - gaming
     - wiki
-    - arbitrary-listing
   confidence: high
 curation:
   status: excluded
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:47:17.197Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.729Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:47:17.197Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

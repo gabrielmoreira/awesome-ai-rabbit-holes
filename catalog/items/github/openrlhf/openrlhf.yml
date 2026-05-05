@@ -1,6 +1,6 @@
 id: github__openrlhf__openrlhf
 kind: github-repo
-name: openrlhf
+name: OpenRLHF
 canonical_url: https://github.com/openrlhf/openrlhf
 identity:
   github_repo: openrlhf/openrlhf
@@ -45,21 +45,24 @@ metadata:
       fetched_at: "2026-05-05T21:04:07.279Z"
       bytes: 41802
 insights:
-  summary: OpenRLHF is a high-performance, Ray and vLLM-based open-source framework for reinforcement learning from human feedback (RLHF) and agentic RL, supporting algorithms like PPO and REINFORCE++.
-  why_it_matters: It provides developers with a production-ready, scalable infrastructure to fine-tune and align LLMs and VLMs using custom reward functions, moving beyond simple prompting into complex model training.
-  mental_damage: Yet another high-performance framework emerges, proving that the fastest way to align a model is to add Ray, vLLM, and three more acronyms to your stack until the GPU smoke clears.
+  summary: OpenRLHF is a high-performance, Ray and vLLM-based framework for reinforcement learning from human feedback (RLHF) and agentic RL, supporting algorithms like PPO, REINFORCE++, and VLM training.
+  why_it_matters: It provides developers with a production-ready, distributed infrastructure to fine-tune and align LLMs and VLMs using custom reward functions and multi-turn agent interactions.
+  mental_damage: Yet another sophisticated framework promising to align your model's soul, provided you can first align your understanding of Ray, vLLM, and distributed systems without losing your own sanity.
   tags:
-    - rlhf
-    - reinforcement-learning
-    - ray
-    - vllm
     - agentic
+    - fine-tuning
+    - ray
+    - reinforcement-learning
+    - rlhf
+    - vllm
   confidence: high
 curation:
   status: included
-  reason: It is a code-first framework and SDK for implementing RLHF and agentic RL pipelines, fitting the AI Frameworks category rather than a user-facing agent or orchestration platform.
+  reason: The project is a code-first SDK and distributed infrastructure framework for implementing RLHF and agent training, fitting the AI Frameworks category rather than a developer-facing coding assistant.
   evidence:
     - Repo description identifies it as a 'Scalable and High-performance Agentic RL Framework based on Ray'.
+    - README describes it as a framework combining 'Ray + vLLM distributed architecture' for building RL pipelines.
+    - Found in awesome-LLM-resources under a fine-tuning section, confirming its place in the ML infrastructure ecosystem.
     - README describes it as a 'production-ready open-source RLHF framework' combining Ray + vLLM for developers.
     - Recent activity (pushed 2026-05-05) and high stars (9446) confirm it is an active, credible infrastructure library.
 placement:
@@ -79,7 +82,7 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.711Z"
+    updated_at: "2026-05-05T20:48:55.443Z"
     cause: null
     next_retry_at: null
   stars:

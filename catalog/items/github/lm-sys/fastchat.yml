@@ -1,6 +1,6 @@
 id: github__lm-sys__fastchat
 kind: github-repo
-name: fastchat
+name: FastChat
 canonical_url: https://github.com/lm-sys/fastchat
 identity:
   github_repo: lm-sys/fastchat
@@ -57,11 +57,11 @@ insights:
   why_it_matters: Developers can use it to serve local LLMs with OpenAI-compatible APIs, fine-tune their own chatbots, and evaluate model performance using MT-Bench and Arena-style battles.
   mental_damage: Because what every busy developer clearly needs is to self-host a distributed multi-model serving system just to argue with themselves about which 7B model writes the better Python function.
   tags:
-    - local-ai
-    - llm-serving
     - eval
-    - training
+    - llm-serving
+    - local-ai
     - openai-compatible
+    - training
   confidence: high
 curation:
   status: included
@@ -77,6 +77,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (39464) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:34:22.626Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.669Z"
@@ -87,11 +95,3 @@ processing:
     updated_at: "2026-05-05T21:03:22.300Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:34:22.626Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

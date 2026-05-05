@@ -1,6 +1,6 @@
 id: github__predibase__lorax
 kind: github-repo
-name: lorax
+name: LoRAX
 canonical_url: https://github.com/predibase/lorax
 identity:
   github_repo: predibase/lorax
@@ -23,17 +23,30 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 3774
+    forks: 312
+    license: Apache-2.0
+    archived: false
+    created_at: "2023-10-20T18:19:49Z"
+    pushed_at: "2025-05-21T17:40:25Z"
+    description: Multi-LoRA inference server that scales to 1000s of fine-tuned LLMs
+    homepage: https://loraexchange.ai
+    topics:
+      - fine-tuning
+      - gpt
+      - llama
+      - llm
+      - llm-inference
+      - llm-serving
+      - llmops
+      - lora
+      - model-serving
+      - pytorch
+      - transformers
+    last_checked_at: "2026-05-05T23:08:09.234Z"
+    readme:
+      fetched_at: "2026-05-05T23:08:09.234Z"
+      bytes: 9557
 insights:
   summary: null
   why_it_matters: null
@@ -48,22 +61,26 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (3774) exceeded threshold (150)
 processing:
+  categorize:
+    status: deferred
+    updated_at: "2026-05-05T23:08:33.635Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-05-06T00:08:33.635Z"
+    attempts: 0
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.713Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-05T23:08:09.234Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T21:04:23.169Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null

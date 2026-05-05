@@ -1,6 +1,6 @@
 id: gitlab__com__logotype__fixparser
 kind: website
-name: fixparser
+name: logotype/fixparser
 canonical_url: https://gitlab.com/logotype/fixparser
 identity: {}
 provenance:
@@ -39,8 +39,8 @@ insights:
   why_it_matters: It allows AI agents and coding assistants to understand and manipulate financial message formats, bridging the gap between LLMs and legacy trading infrastructure.
   mental_damage: Yet another reminder that while we're building AGI, the most critical plumbing in finance still requires a specialized parser to convince a model that a string of cryptic ASCII actually represents a multi-million dollar order.
   tags:
-    - mcp
     - fintech
+    - mcp
     - parser
     - protocol
   confidence: medium
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:44:52.964Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.728Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:44:52.964Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

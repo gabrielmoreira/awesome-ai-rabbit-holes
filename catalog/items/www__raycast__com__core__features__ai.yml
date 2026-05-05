@@ -1,6 +1,6 @@
 id: www__raycast__com__core__features__ai
 kind: website
-name: ai
+name: Raycast AI
 canonical_url: https://www.raycast.com/core-features/ai
 identity: {}
 provenance:
@@ -38,11 +38,11 @@ insights:
   why_it_matters: It eliminates context switching by letting developers explain code, summarize docs, and trigger Jira or Linear actions from their OS without leaving the keyboard.
   mental_damage: Because nothing says 'deep work' like explaining your TypeScript types to a floating chatbot while your desk autonomously rises to standing height.
   tags:
+    - hotkey
+    - llm-integration
     - macos
     - productivity
-    - llm-integration
     - workflow-automation
-    - hotkey
   confidence: high
 curation:
   status: included
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:52:55.455Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.733Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:52:55.455Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

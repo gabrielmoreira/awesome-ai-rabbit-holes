@@ -6,24 +6,8 @@ identity:
   github_repo: googleapis/genai-toolbox
 provenance:
   discoveries:
-    - id: discovery__github__googleapis__genai-toolbox__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T20:48:55.437Z"
-      source:
-        type: awesome-list
-        name: punkpeye/awesome-mcp-servers
-        url: https://github.com/punkpeye/awesome-mcp-servers
-        repository: punkpeye/awesome-mcp-servers
-      extraction:
-        mode: parsed
-        section_path:
-          - Server Implementations
-          - 🗄️ <a name="databases"></a>Databases
-        anchor_text: googleapis/genai-toolbox
-        extracted_url: https://github.com/googleapis/genai-toolbox
-        surrounding_text: "- [googleapis/genai-toolbox](https://github.com/googleapis/genai-toolbox) 🏎️ ☁️ - Open source MCP server specializing in easy, fast, and secure tools for Databases."
-        confidence: high
     - id: discovery__github__googleapis__genai-toolbox__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T20:48:55.437Z"
+      discovered_at: "2026-05-05T22:33:31.148Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -39,12 +23,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 14963
+    stars: 14965
     forks: 1506
     license: Apache-2.0
     archived: false
     created_at: "2024-06-07T20:52:54Z"
-    pushed_at: "2026-05-05T12:32:16Z"
+    pushed_at: "2026-05-05T22:01:39Z"
     description: MCP Toolbox for Databases is an open source MCP server for databases.
     homepage: https://mcp-toolbox.dev/documentation/introduction/
     topics:
@@ -68,50 +52,44 @@ metadata:
       - server
       - spanner
       - tidb
-    last_checked_at: "2026-05-05T21:02:25.132Z"
+    last_checked_at: "2026-05-05T23:07:52.543Z"
     readme:
-      fetched_at: "2026-05-05T21:02:25.132Z"
+      fetched_at: "2026-05-05T23:07:52.543Z"
       bytes: 31848
 insights:
-  summary: An open source MCP server from Google that provides prebuilt and custom tooling to connect AI agents, IDEs, and applications directly to enterprise databases like PostgreSQL, MySQL, and BigQuery.
-  why_it_matters: It eliminates the boilerplate of wiring database connections, authentication, and query execution for AI agents, allowing developers to give their tools live data access in minutes rather than days.
-  mental_damage: We have successfully abstracted the job of writing SQL queries into the job of debugging why our MCP server won't authenticate with the production Cloud SQL instance.
-  tags:
-    - mcp
-    - database
-    - google
-    - agent-tooling
-    - enterprise
-  confidence: high
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
 curation:
-  status: included
-  reason: The project is explicitly an MCP server implementation for databases, fitting perfectly into the MCP infrastructure category.
-  evidence:
-    - "Repo description states: 'MCP Toolbox for Databases is an open source MCP server for databases.'"
-    - "README confirms: 'MCP Toolbox for Databases is an open source Model Context Protocol (MCP) server that connects your AI agents, IDEs, and applications directly to your enterprise databases.'"
-    - Listed in awesome-mcp-servers under 'Server Implementations > Databases' and 'Official Servers'.
+  status: pending
+  reason: null
+  evidence: []
 placement:
-  primary_category: mcp
+  primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
-  reason: Stars (14963) exceeded threshold (150)
+  reason: Stars (14965) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.439Z"
+    updated_at: "2026-05-05T22:33:31.150Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:25.132Z"
+    updated_at: "2026-05-05T23:07:52.543Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-05T21:22:18.566Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
+    status: deferred
+    updated_at: "2026-05-05T23:08:33.635Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-05-06T00:08:33.635Z"
+    attempts: 0
     prompt_version: catalog-categorize-v2-baseline
     category_rules_version: 1b6cc5462ecc

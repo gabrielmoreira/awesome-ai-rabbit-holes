@@ -1,6 +1,6 @@
 id: github__openbmb__chatdev
 kind: github-repo
-name: chatdev
+name: ChatDev
 canonical_url: https://github.com/openbmb/chatdev
 identity:
   github_repo: openbmb/chatdev
@@ -41,10 +41,10 @@ insights:
   why_it_matters: It provides a structured framework for developers to experiment with and deploy multi-agent collaboration patterns—such as virtual software companies with CEO/CTO/Programmer roles—without necessarily writing the underlying orchestration code themselves.
   mental_damage: We have successfully evolved from 'vibe coding' to 'vibe managing' a virtual C-suite of LLMs that argue about your PR before the human reviewer even opens it.
   tags:
+    - llm
     - multi-agent
     - orchestration
     - zero-code
-    - llm
   confidence: high
 curation:
   status: included
@@ -60,6 +60,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (32992) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:42:32.671Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.711Z"
@@ -70,11 +78,3 @@ processing:
     updated_at: "2026-05-05T21:04:04.236Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:42:32.671Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

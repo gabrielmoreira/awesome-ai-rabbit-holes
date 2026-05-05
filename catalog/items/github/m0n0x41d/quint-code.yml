@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__m0n0x41d__quint-code__awesome-list__engineering4ai__awesome-spec-driven-development
-      discovered_at: "2026-05-05T20:48:55.437Z"
+      discovered_at: "2026-05-05T22:33:31.148Z"
       source:
         type: awesome-list
         name: Engineering4AI/awesome-spec-driven-development
@@ -52,30 +52,22 @@ metadata:
       - reasoning
       - structured-reasoning
       - systems-thinking
-    last_checked_at: "2026-05-05T21:03:26.809Z"
+    last_checked_at: "2026-05-05T23:08:00.459Z"
     readme:
-      fetched_at: "2026-05-05T21:03:26.809Z"
+      fetched_at: "2026-05-05T23:08:00.459Z"
       bytes: 19379
 insights:
-  summary: A CLI and MCP server that enforces structured engineering decisions, spec governance, and evidence decay for AI coding agents like Claude Code and Codex.
-  why_it_matters: It forces AI-assisted workflows to frame problems, compare options under parity, and track decision staleness before agents blindly ship code.
-  mental_damage: You now have a governance layer for your governance layer, because apparently the only thing more comforting than an AI agent is a tool that tells you when the AI agent's assumptions have rotted.
-  tags:
-    - spec-driven
-    - mcp
-    - governance
-    - cli
-    - agents
-  confidence: high
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
 curation:
-  status: included
-  reason: It directly matches the spec-driven development workflow of spec-first planning, governed decisions, and evidence-backed engineering, and is already curated in the awesome-spec-driven-development list.
-  evidence:
-    - Repo description explicitly calls it an 'Engineering decisions engine' with 'evidence decay and parity enforcement' for Claude Code, Cursor, and others.
-    - README states it is 'the engineering governor that sits between your intentions and your agents' execution' with a 'Specify → Think → Run → Govern' loop.
-    - Listed in awesome-spec-driven-development under 'Specification Tools' as a tool for writing specifications first to guide development.
+  status: pending
+  reason: null
+  evidence: []
 placement:
-  primary_category: spec-driven-development
+  primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
@@ -83,19 +75,21 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.442Z"
+    updated_at: "2026-05-05T22:33:31.151Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:26.809Z"
+    updated_at: "2026-05-05T23:08:00.459Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-05T21:35:07.440Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
+    status: deferred
+    updated_at: "2026-05-05T23:08:33.635Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-05-06T00:08:33.635Z"
+    attempts: 0
     prompt_version: catalog-categorize-v2-baseline
     category_rules_version: 1b6cc5462ecc

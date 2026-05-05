@@ -1,6 +1,6 @@
 id: github__rahulthedevil__jira-context-mcp
 kind: github-repo
-name: jira-context-mcp
+name: Jira Context MCP
 canonical_url: https://github.com/rahulthedevil/jira-context-mcp
 identity:
   github_repo: rahulthedevil/jira-context-mcp
@@ -51,19 +51,21 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: skipped
+    updated_at: "2026-05-05T23:08:18.952Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.714Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
-    cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T21:04:23.169Z"
+    status: deferred
+    updated_at: "2026-05-05T23:08:18.011Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for rahulthedevil/jira-context-mcp

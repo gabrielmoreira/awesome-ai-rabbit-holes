@@ -1,6 +1,6 @@
 id: github__codeflash-ai__codeflash
 kind: github-repo
-name: codeflash
+name: Codeflash
 canonical_url: https://github.com/codeflash-ai/codeflash
 identity:
   github_repo: codeflash-ai/codeflash
@@ -41,11 +41,11 @@ insights:
   why_it_matters: It automates the tedious cycle of profiling and rewriting performance-critical Python code, letting engineering teams ship expert-level optimizations without manual bottleneck hunting.
   mental_damage: We’ve reached the point where an AI reads your code, judges it slow, silently rewrites it better, and opens the PR—leaving you to wonder if you’re the bottleneck or just the reviewer.
   tags:
-    - python
-    - optimization
     - github-actions
-    - performance
     - llm
+    - optimization
+    - performance
+    - python
   confidence: high
 curation:
   status: included
@@ -61,6 +61,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (244) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:13:41.756Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.683Z"
@@ -71,11 +79,3 @@ processing:
     updated_at: "2026-05-05T21:01:37.153Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:13:41.756Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

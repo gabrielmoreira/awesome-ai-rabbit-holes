@@ -1,6 +1,6 @@
 id: github__prefecthq__prefect
 kind: github-repo
-name: prefect
+name: Prefect
 canonical_url: https://github.com/prefecthq/prefect
 identity:
   github_repo: prefecthq/prefect
@@ -24,17 +24,33 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 22311
+    forks: 2294
+    license: Apache-2.0
+    archived: false
+    created_at: "2018-06-29T21:59:26Z"
+    pushed_at: "2026-05-05T22:24:04Z"
+    description: Prefect is a workflow orchestration framework for building resilient data pipelines in Python.
+    homepage: https://prefect.io
+    topics:
+      - automation
+      - data
+      - data-engineering
+      - data-ops
+      - data-science
+      - infrastructure
+      - ml-ops
+      - observability
+      - orchestration
+      - pipeline
+      - prefect
+      - python
+      - workflow
+      - workflow-engine
+    last_checked_at: "2026-05-05T23:08:09.475Z"
+    readme:
+      fetched_at: "2026-05-05T23:08:09.475Z"
+      bytes: 8579
 insights:
   summary: null
   why_it_matters: null
@@ -49,22 +65,26 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (22311) exceeded threshold (150)
 processing:
+  categorize:
+    status: deferred
+    updated_at: "2026-05-05T23:08:33.635Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-05-06T00:08:33.635Z"
+    attempts: 0
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.713Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-05T23:08:09.475Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T21:04:23.169Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null

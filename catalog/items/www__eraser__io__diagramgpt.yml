@@ -1,6 +1,6 @@
 id: www__eraser__io__diagramgpt
 kind: website
-name: diagramgpt
+name: DiagramGPT (Eraser)
 canonical_url: https://www.eraser.io/diagramgpt
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It allows developers to rapidly scaffold documentation and architecture diagrams without manually wrestling with diagram-as-code syntax or drag-and-drop editors.
   mental_damage: We have successfully automated the one part of engineering meetings where you could plausibly claim to be working while drawing boxes and arrows.
   tags:
-    - diagrams
-    - documentation
     - ai-generator
     - architecture
+    - diagrams
+    - documentation
   confidence: high
 curation:
   status: excluded
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:50:39.881Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.732Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:50:39.881Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

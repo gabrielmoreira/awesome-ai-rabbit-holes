@@ -1,6 +1,6 @@
 id: github__openautocoder__agentless
 kind: github-repo
-name: agentless
+name: Agentless
 canonical_url: https://github.com/openautocoder/agentless
 identity:
   github_repo: openautocoder/agentless
@@ -46,11 +46,11 @@ insights:
   why_it_matters: It offers a minimal-overhead alternative to complex coding agents for automating bug fixes, achieving strong SWE-bench results with an average cost of $0.34 per issue.
   mental_damage: We have reached the point where the cutting edge of 'AI software engineering' is a system that is explicitly proud of doing less than the agents it replaces.
   tags:
-    - swe-bench
     - automated-patching
     - llm
-    - terminal
     - repair
+    - swe-bench
+    - terminal
   confidence: high
 curation:
   status: included
@@ -66,6 +66,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (2042) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:42:26.228Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.711Z"
@@ -76,11 +84,3 @@ processing:
     updated_at: "2026-05-05T21:04:03.838Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:42:26.228Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

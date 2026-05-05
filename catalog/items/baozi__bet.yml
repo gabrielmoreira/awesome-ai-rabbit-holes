@@ -1,6 +1,6 @@
 id: baozi__bet
 kind: website
-name: baozi.bet
+name: Baozi.bet
 canonical_url: https://baozi.bet
 identity: {}
 provenance:
@@ -39,9 +39,9 @@ insights:
   why_it_matters: While listed in an MCP servers directory, this is a consumer-facing betting platform rather than a developer tool.
   mental_damage: We have officially reached the point where a Solana betting app is categorized alongside IDE extensions in our quest to index every possible implementation of a protocol.
   tags:
-    - solana
-    - prediction-markets
     - betting
+    - prediction-markets
+    - solana
   confidence: high
 curation:
   status: excluded
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:42:25.734Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.726Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:42:25.734Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__devilcoder01__weather-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T20:48:55.437Z"
+      discovered_at: "2026-05-05T22:33:31.148Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -36,29 +36,22 @@ metadata:
       - mcp-server
       - weather-api
       - weather-mcp-server
-    last_checked_at: "2026-05-05T21:01:52.916Z"
+    last_checked_at: "2026-05-05T23:07:48.111Z"
     readme:
-      fetched_at: "2026-05-05T21:01:52.916Z"
+      fetched_at: "2026-05-05T23:07:48.111Z"
       bytes: 1844
 insights:
-  summary: A minimal Model Context Protocol server built with FastAPI that exposes weather data tools, including current conditions, forecasts, and air quality, to AI assistants via the MCP framework.
-  why_it_matters: It gives coding agents and AI assistants a standardized way to pull live weather, forecast, and location data into developer workflows without custom API glue code.
-  mental_damage: We have officially reached the point where the temperature outside is accessible to your AI assistant, yet neither of them can explain why your build is failing.
-  tags:
-    - mcp
-    - weather-api
-    - fastapi
-    - ai-tools
-  confidence: high
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
 curation:
-  status: included
-  reason: The project is a clear implementation of a Model Context Protocol server, fitting directly into the MCP infrastructure category.
-  evidence:
-    - "Repo description explicitly states: 'A simple minimal weather mcp server :)'"
-    - README confirms it is 'A Model Context Protocol (MCP) server for weather data, built with FastAPI and the MCP framework.'
-    - Listed in the awesome-mcp-servers directory under 'Server Implementations > Location Services'.
+  status: pending
+  reason: null
+  evidence: []
 placement:
-  primary_category: mcp
+  primary_category: null
   section: null
 lifecycle:
   status: incubating
@@ -66,19 +59,21 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.441Z"
+    updated_at: "2026-05-05T22:33:31.150Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:52.916Z"
+    updated_at: "2026-05-05T23:07:48.111Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-05T21:16:18.287Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
+    status: deferred
+    updated_at: "2026-05-05T23:08:33.635Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-05-06T00:08:33.635Z"
+    attempts: 0
     prompt_version: catalog-categorize-v2-baseline
     category_rules_version: 1b6cc5462ecc

@@ -1,6 +1,6 @@
 id: github__infuseai__piperider
 kind: github-repo
-name: piperider
+name: Piperider
 canonical_url: https://github.com/infuseai/piperider
 identity:
   github_repo: infuseai/piperider
@@ -61,10 +61,10 @@ insights:
   why_it_matters: It automates data-impact reviews by comparing profiling statistics between branches and posting summaries to PRs, reducing the risk of silently breaking analytics pipelines.
   mental_damage: Just when you thought code review was complicated enough, now your data warehouse needs a PR diff too, and the tool that does it is already asking you to migrate to its successor.
   tags:
-    - dbt
-    - data-quality
     - ci
     - data-observability
+    - data-quality
+    - dbt
   confidence: high
 curation:
   status: excluded
@@ -80,6 +80,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (494) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:25:58.463Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.698Z"
@@ -90,11 +98,3 @@ processing:
     updated_at: "2026-05-05T21:02:43.537Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:25:58.463Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

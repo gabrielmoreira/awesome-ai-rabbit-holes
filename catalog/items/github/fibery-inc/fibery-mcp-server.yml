@@ -6,6 +6,21 @@ identity:
   github_repo: fibery-inc/fibery-mcp-server
 provenance:
   discoveries:
+    - id: discovery__fibery__io__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Fibery
+        extracted_url: https://fibery.io
+        surrounding_text: "- **[Fibery](https://github.com/Fibery-inc/fibery-mcp-server)** - Perform queries and entity operations in your [Fibery](https://fibery.io) workspace."
+        confidence: high
     - id: discovery__github__fibery-inc__fibery-mcp-server__awesome-list__wong2__awesome-mcp-servers
       discovered_at: "2026-05-05T19:41:00.656Z"
       source:
@@ -41,10 +56,12 @@ insights:
   why_it_matters: Developers can manage Fibery workspaces through natural language conversations instead of manual UI navigation or custom API scripts.
   mental_damage: We have successfully abstracted a productivity tool into a prompt, so you can now context-switch between your IDE and a chat window to update a database field.
   tags:
-    - mcp
     - fibery
     - integration
     - llm-tools
+    - mcp
+    - product-management
+    - workspace
   confidence: high
 curation:
   status: included
@@ -60,16 +77,6 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  discover:
-    status: done
-    updated_at: "2026-05-05T19:41:00.687Z"
-    cause: null
-    next_retry_at: null
-  stars:
-    status: done
-    updated_at: "2026-05-05T21:02:11.052Z"
-    cause: null
-    next_retry_at: null
   categorize:
     status: done
     updated_at: "2026-05-05T21:19:34.160Z"
@@ -78,3 +85,13 @@ processing:
     attempts: 1
     prompt_version: catalog-categorize-v2-baseline
     category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T22:47:06.911Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:11.052Z"
+    cause: null
+    next_retry_at: null

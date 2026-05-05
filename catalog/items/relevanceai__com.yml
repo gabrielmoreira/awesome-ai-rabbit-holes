@@ -1,6 +1,6 @@
 id: relevanceai__com
 kind: website
-name: relevanceai.com
+name: Relevance AI
 canonical_url: https://relevanceai.com
 identity: {}
 provenance:
@@ -39,10 +39,10 @@ insights:
   mental_damage: "Just what the world needed: another 'autopilot' platform to ensure your CRM data is now being hallucinated at by a team of autonomous agents instead of just one overwhelmed intern."
   tags:
     - agents
-    - gtm
     - b2b
-    - workflow-automation
+    - gtm
     - mcp
+    - workflow-automation
   confidence: high
 curation:
   status: excluded
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:47:31.433Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.730Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:47:31.433Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

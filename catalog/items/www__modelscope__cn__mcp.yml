@@ -1,6 +1,6 @@
 id: www__modelscope__cn__mcp
 kind: website
-name: mcp
+name: modelscope/mcp
 canonical_url: https://www.modelscope.cn/mcp
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It serves as a centralized registry for developers looking to discover and integrate MCP-compatible tools into their AI workflows.
   mental_damage: "Just what we needed: another walled-garden registry competing to be the definitive index for a protocol that is currently fracturing the ecosystem into a dozen incompatible silos."
   tags:
-    - mcp
-    - registry
     - directory
+    - mcp
     - modelscope
+    - registry
   confidence: medium
 curation:
   status: included
@@ -56,6 +56,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:52:06.012Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.733Z"
@@ -65,11 +73,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:52:06.012Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

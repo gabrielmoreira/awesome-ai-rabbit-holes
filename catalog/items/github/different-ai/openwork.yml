@@ -1,6 +1,6 @@
 id: github__different-ai__openwork
 kind: github-repo
-name: openwork
+name: OpenWork
 canonical_url: https://github.com/different-ai/openwork
 identity:
   github_repo: different-ai/openwork
@@ -42,10 +42,10 @@ insights:
   why_it_matters: It provides a local-first, extensible UI and permissioning layer on top of OpenCode, making it easier to share and manage coding agent sessions across a team.
   mental_damage: We've successfully abstracted the CLI so many times that your agent now needs its own desktop app, orchestrator, skill manager, and an enterprise sales team.
   tags:
-    - opencode
-    - desktop-app
     - agent-orchestration
+    - desktop-app
     - local-first
+    - opencode
     - skills
   confidence: high
 curation:
@@ -62,6 +62,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (14733) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:16:22.669Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.684Z"
@@ -72,11 +80,3 @@ processing:
     updated_at: "2026-05-05T21:01:53.103Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:16:22.669Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

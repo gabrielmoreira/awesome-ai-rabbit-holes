@@ -37,6 +37,21 @@ provenance:
         extracted_url: https://github.com/yepcode/mcp-server-js
         surrounding_text: "- **[YepCode](https://github.com/yepcode/mcp-server-js)** - Execute any LLM-generated code in the [YepCode](https://yepcode.io) secure and scalable sandbox environment and create your own MCP tools using JavaScript or Python, with full support for NPM and PyPI packages"
         confidence: high
+    - id: discovery__yepcode__io__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T22:47:06.910Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: YepCode
+        extracted_url: https://yepcode.io
+        surrounding_text: "- **[YepCode](https://github.com/yepcode/mcp-server-js)** - Execute any LLM-generated code in the [YepCode](https://yepcode.io) secure and scalable sandbox environment and create your own MCP tools using JavaScript or Python, with full support for NPM and PyPI packages"
+        confidence: high
 metadata:
   github:
     stars: null
@@ -51,35 +66,44 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A developer-first platform that runs JavaScript and Python integrations, including AI-generated scripts, in secure, isolated cloud sandboxes with built-in secrets, dependency management, and audit trails.
+  why_it_matters: It lets developers build and run complex API and database integrations with full code control and enterprise governance, bypassing the limits of traditional no-code tools like Zapier.
+  mental_damage: Finally, a secure sandbox to run the AI-generated spaghetti your agent wrote, because nothing says 'enterprise governance' like shipping unvetted LLM scripts with just a `pip install` and a prayer.
+  tags:
+    - automation
+    - integrations
+    - mcp
+    - sandbox
+    - serverless
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product provides SDKs, REST APIs, and an MCP server that allow developers to programmatically execute code and build integrations, fitting the code-first SDK/framework mold rather than a primary coding agent or browser app builder.
+  evidence:
+    - Provides Node.js and Python SDKs (@yepcode/run, yepcode-run) and a REST API for executing code in sandboxes.
+    - Includes a built-in MCP server allowing any YepCode process to be exposed as an MCP tool for agent workflows.
+    - Described as a 'developer-first platform' and the 'Zapier for developers' focused on code-based integrations.
 placement:
-  primary_category: null
+  primary_category: ai-frameworks
   section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:54:31.547Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.673Z"
+    updated_at: "2026-05-05T22:47:06.911Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T21:04:23.170Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null

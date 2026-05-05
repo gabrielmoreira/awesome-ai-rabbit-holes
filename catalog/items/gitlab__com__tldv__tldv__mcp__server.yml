@@ -1,6 +1,6 @@
 id: gitlab__com__tldv__tldv__mcp__server
 kind: website
-name: tldv-mcp-server
+name: Tldv
 canonical_url: https://gitlab.com/tldv/tldv-mcp-server
 identity: {}
 provenance:
@@ -38,8 +38,8 @@ insights:
   why_it_matters: MCP servers are increasingly central to extending AI assistants with external context, but this one offers no clues about what it actually does.
   mental_damage: We have reached the point where even the glue code for our AI tools is shipping without documentation, confidently inviting you to integrate with a mystery box.
   tags:
-    - mcp
     - gitlab
+    - mcp
     - unknown
   confidence: low
 curation:
@@ -56,6 +56,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:44:53.212Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.728Z"
@@ -65,11 +73,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:44:53.212Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

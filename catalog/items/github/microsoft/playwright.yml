@@ -1,6 +1,6 @@
 id: github__microsoft__playwright
 kind: github-repo
-name: playwright
+name: Playwright
 canonical_url: https://github.com/microsoft/playwright
 identity:
   github_repo: microsoft/playwright
@@ -56,10 +56,10 @@ insights:
   why_it_matters: It provides the standardized browser automation layer that allows coding agents like Claude Code and Copilot to reliably interact with web UIs for testing and verification.
   mental_damage: We have successfully reached the point where the industry's most robust testing framework has to explicitly market itself as 'a tool for AI agents' just to stay relevant in the README.
   tags:
-    - testing
+    - ai-agents
     - automation
     - browser
-    - ai-agents
+    - testing
   confidence: high
 curation:
   status: included
@@ -75,6 +75,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (88024) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:37:38.248Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.707Z"
@@ -85,11 +93,3 @@ processing:
     updated_at: "2026-05-05T21:03:39.359Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:37:38.248Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

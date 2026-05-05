@@ -1,6 +1,6 @@
 id: github__easyfl-ai__easyfl
 kind: github-repo
-name: easyfl
+name: EasyFL
 canonical_url: https://github.com/easyfl-ai/easyfl
 identity:
   github_repo: easyfl-ai/easyfl
@@ -42,9 +42,9 @@ insights:
   mental_damage: Another 'low-code' platform promising to abstract away the complexity of distributed systems, ensuring you can now debug multi-node PyTorch errors with only three lines of code.
   tags:
     - federated-learning
-    - pytorch
     - low-code
     - ml-research
+    - pytorch
   confidence: high
 curation:
   status: excluded
@@ -60,6 +60,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:17:28.188Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.685Z"
@@ -70,11 +78,3 @@ processing:
     updated_at: "2026-05-05T21:01:59.106Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:17:28.188Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

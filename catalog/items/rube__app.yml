@@ -1,6 +1,6 @@
 id: rube__app
 kind: website
-name: rube.app
+name: Rube
 canonical_url: https://rube.app
 identity: {}
 provenance:
@@ -38,9 +38,9 @@ insights:
   why_it_matters: It allows developers to extend the reach of their AI agents beyond the codebase into daily productivity tools without writing custom integration glue.
   mental_damage: Just when you thought you were safe from notification fatigue, your AI agent now has the keys to block your calendar and summarize your inbox while you wonder who is actually managing whom.
   tags:
+    - integrations
     - mcp
     - workflow-automation
-    - integrations
   confidence: high
 curation:
   status: included
@@ -56,6 +56,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:47:47.931Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.730Z"
@@ -65,11 +73,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:47:47.931Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

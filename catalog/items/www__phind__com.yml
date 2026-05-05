@@ -1,6 +1,6 @@
 id: www__phind__com
 kind: website
-name: www.phind.com
+name: Phind
 canonical_url: https://www.phind.com
 identity: {}
 provenance:
@@ -53,10 +53,10 @@ insights:
   why_it_matters: It provides context-aware, technical answers and code snippets directly in a search interface, aiming to replace general-purpose search for programming workflows.
   mental_damage: Another specialized layer promising to shield you from the horror of reading documentation, as long as you're comfortable debugging answers authored by a stochastic parrot.
   tags:
-    - search
-    - qa
     - coding-assistant
     - developer-tools
+    - qa
+    - search
   confidence: high
 curation:
   status: included
@@ -72,6 +72,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:52:34.964Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.675Z"
@@ -81,11 +89,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:52:34.964Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

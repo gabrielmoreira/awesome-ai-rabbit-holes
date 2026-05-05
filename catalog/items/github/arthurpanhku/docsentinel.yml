@@ -1,6 +1,6 @@
 id: github__arthurpanhku__docsentinel
 kind: github-repo
-name: arthor-agent
+name: arthurpanhku/Arthor-Agent
 canonical_url: https://github.com/arthurpanhku/docsentinel
 identity:
   github_repo: arthurpanhku/docsentinel
@@ -45,25 +45,28 @@ metadata:
       - rag
       - security
       - security-assessment
-    last_checked_at: "2026-05-05T21:01:10.108Z"
+    last_checked_at: "2026-05-05T21:01:10.257Z"
     readme:
-      fetched_at: "2026-05-05T21:01:10.108Z"
+      fetched_at: "2026-05-05T21:01:10.257Z"
       bytes: 19595
 insights:
-  summary: DocSentinel is an MCP-compatible AI agent platform that automates security assessments across the SSDLC by parsing documents and generating compliance reports using LangGraph workflows.
-  why_it_matters: It shifts security left by automating threat modeling, SAST triage, and compliance checks directly within CI/CD pipelines and developer tooling via MCP.
-  mental_damage: "Just what we needed: another way to discover that the spreadsheet we wrote three years ago technically violates GDPR while we are still trying to figure out why the linter is yelling at us."
+  summary: An AI-powered Secure Software Development Lifecycle (SSDLC) platform that uses LangGraph agents to automate security assessments across all six phases of development, from requirements to operations.
+  why_it_matters: It shifts security left by automating the tedious review of documents, threat modeling, and SAST/DAST triage directly into CI/CD pipelines and developer workflows.
+  mental_damage: Finally, an AI agent to automate the security paperwork so you can get back to shipping the vulnerabilities faster.
   tags:
+    - compliance
+    - langgraph
     - mcp
     - security
     - ssdlc
-    - compliance
-    - langgraph
   confidence: high
 curation:
   status: included
-  reason: The project's primary artifact is an MCP server designed to integrate security agent workflows into developer environments like Claude Desktop and CI/CD pipelines.
+  reason: It is a user-facing platform using LangGraph to coordinate multiple specialized AI agents across the software lifecycle, fitting the orchestration category rather than a simple coding assistant.
   evidence:
+    - README describes 'stateful, graph-based agent workflows' orchestrated by LangGraph with dedicated personas for each SSDLC phase.
+    - Built as a headless API + MCP service intended to integrate into CI/CD pipelines and existing security workflows.
+    - Listed in awesome-mcp-servers under 'Knowledge & Memory' implementations, confirming its role as agent infrastructure.
     - Repo description explicitly states 'MCP server for AI agent for cybersecurity'.
     - README highlights 'Headless API + MCP service' and integrations with 'Claude Desktop, Cursor, OpenClaw'.
     - Badges and documentation confirm 'MCP Ready' status and agent integration focus.
@@ -84,11 +87,11 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.679Z"
+    updated_at: "2026-05-05T20:48:55.440Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:10.108Z"
+    updated_at: "2026-05-05T21:01:10.257Z"
     cause: null
     next_retry_at: null

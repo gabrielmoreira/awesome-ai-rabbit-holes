@@ -1,6 +1,6 @@
 id: github__automl__hpbandster
 kind: github-repo
-name: hpbandster
+name: HpBandSter
 canonical_url: https://github.com/automl/hpbandster
 identity:
   github_repo: automl/hpbandster
@@ -65,6 +65,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (630) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:09:37.289Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.680Z"
@@ -75,11 +83,3 @@ processing:
     updated_at: "2026-05-05T21:01:12.978Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:09:37.289Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

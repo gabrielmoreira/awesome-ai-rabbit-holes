@@ -1,6 +1,6 @@
 id: github__alibaba-damo-academy__medevalkit
 kind: github-repo
-name: medevalkit
+name: MedEvalKit
 canonical_url: https://github.com/alibaba-damo-academy/medevalkit
 identity:
   github_repo: alibaba-damo-academy/medevalkit
@@ -45,10 +45,10 @@ insights:
   why_it_matters: It gives developers building medical AI a single harness to plug in new models, run standardized medical benchmarks, and compare results without stitching together disjointed eval scripts.
   mental_damage: Because nothing says practical developer tooling like needing flash-attn, open_clip_torch, and an entire cloned LLaVA-NeXT repo just to find out your medical model still can’t read an X-ray.
   tags:
-    - evaluation
-    - medical-ai
-    - llm
     - benchmark
+    - evaluation
+    - llm
+    - medical-ai
     - multimodal
   confidence: high
 curation:
@@ -65,6 +65,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (228) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:07:31.569Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.678Z"
@@ -75,11 +83,3 @@ processing:
     updated_at: "2026-05-05T21:00:59.223Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:07:31.569Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

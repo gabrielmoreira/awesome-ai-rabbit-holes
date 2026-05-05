@@ -1,6 +1,6 @@
 id: github__jetxu-llm__llama-github
 kind: github-repo
-name: llama-github
+name: Llama-github
 canonical_url: https://github.com/jetxu-llm/llama-github
 identity:
   github_repo: jetxu-llm/llama-github
@@ -54,11 +54,11 @@ insights:
   why_it_matters: It allows developers and AI agents to ground their responses in real-world GitHub code examples rather than relying solely on parametric model knowledge.
   mental_damage: Another layer of abstraction promising that if we just index enough other people's code, our AI will eventually figure out how to write ours.
   tags:
-    - rag
     - github
+    - langchain
     - llm
     - python
-    - langchain
+    - rag
   confidence: high
 curation:
   status: included
@@ -74,6 +74,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (324) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:28:14.458Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.700Z"
@@ -84,11 +92,3 @@ processing:
     updated_at: "2026-05-05T21:02:54.678Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:28:14.458Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

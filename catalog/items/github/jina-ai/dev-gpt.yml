@@ -1,6 +1,6 @@
 id: github__jina-ai__dev-gpt
 kind: github-repo
-name: dev-gpt
+name: DevGPT
 canonical_url: https://github.com/jina-ai/dev-gpt
 identity:
   github_repo: jina-ai/dev-gpt
@@ -41,10 +41,10 @@ insights:
   why_it_matters: It lets developers scaffold and deploy complete microservices locally or to the cloud with minimal manual coding, fitting rapid prototyping and side-project workflows.
   mental_damage: Because nothing builds confidence in your architecture like letting a 2023-era GPT-4 iterate blindly for fifteen minutes and then Dockerizing whatever it settles on.
   tags:
-    - microservices
     - cli
     - code-generation
     - gpt-4
+    - microservices
     - scaffolding
   confidence: medium
 curation:
@@ -61,6 +61,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (1865) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:28:24.318Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.700Z"
@@ -71,11 +79,3 @@ processing:
     updated_at: "2026-05-05T21:02:55.358Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:28:24.318Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

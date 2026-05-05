@@ -1,6 +1,6 @@
 id: www__veracode__com
 kind: website
-name: www.veracode.com
+name: Veracode
 canonical_url: https://www.veracode.com
 identity: {}
 provenance:
@@ -38,11 +38,11 @@ insights:
   why_it_matters: It integrates security scanning and AI-driven fixes directly into the developer workflow, aiming to reduce the burden of manual remediation for both human and AI-generated code.
   mental_damage: Now that your AI agent is writing the code and another AI is fixing the security holes, you can spend your entire day in compliance meetings debating the false-positive rate of the tools replacing you.
   tags:
-    - appsec
-    - security
     - ai-remediation
-    - sast
+    - appsec
     - devsecops
+    - sast
+    - security
   confidence: high
 curation:
   status: excluded
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:54:01.418Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.734Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:54:01.418Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

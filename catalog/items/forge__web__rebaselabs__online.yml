@@ -1,6 +1,6 @@
 id: forge__web__rebaselabs__online
 kind: website
-name: forge-web.rebaselabs.online
+name: Forge
 canonical_url: https://forge-web.rebaselabs.online
 identity: {}
 provenance:
@@ -39,8 +39,8 @@ insights:
   mental_damage: Another browser tab promising to turn your vague prompt into a deployable app, ensuring you can now distract yourself with 'vibe coding' instead of fixing that one critical bug in the repo.
   tags:
     - app-builder
-    - prompt-to-app
     - browser-first
+    - prompt-to-app
     - prototyping
   confidence: medium
 curation:
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:44:34.476Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.727Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:44:34.476Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

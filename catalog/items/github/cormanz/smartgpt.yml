@@ -1,6 +1,6 @@
 id: github__cormanz__smartgpt
 kind: github-repo
-name: smartgpt
+name: SmartGPT
 canonical_url: https://github.com/cormanz/smartgpt
 identity:
   github_repo: cormanz/smartgpt
@@ -48,10 +48,10 @@ insights:
   mental_damage: "Just what the ecosystem needed: another experimental agent loop written by a high schooler that promises to solve complex tasks while explicitly warning you that stability is merely a fever dream."
   tags:
     - agents
-    - rust
     - autonomous
-    - plugins
     - framework
+    - plugins
+    - rust
   confidence: high
 curation:
   status: included
@@ -67,6 +67,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (1736) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:14:32.349Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.683Z"
@@ -77,11 +85,3 @@ processing:
     updated_at: "2026-05-05T21:01:41.869Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:14:32.349Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

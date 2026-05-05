@@ -1,6 +1,6 @@
 id: github__feast-dev__feast
 kind: github-repo
-name: feast
+name: Feast
 canonical_url: https://github.com/feast-dev/feast
 identity:
   github_repo: feast-dev/feast
@@ -52,9 +52,9 @@ insights:
   why_it_matters: It standardizes feature access across training and serving environments, letting ML platform teams decouple models from underlying data infrastructure while preventing data leakage during training.
   mental_damage: Yet another critical piece of ML infrastructure to maintain, proving that in modern AI, we spend more time plumbing data than actually teaching models anything.
   tags:
+    - data-engineering
     - feature-store
     - mlops
-    - data-engineering
     - python
   confidence: high
 curation:
@@ -71,6 +71,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (7004) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:19:09.462Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.687Z"
@@ -81,11 +89,3 @@ processing:
     updated_at: "2026-05-05T21:02:08.740Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:19:09.462Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

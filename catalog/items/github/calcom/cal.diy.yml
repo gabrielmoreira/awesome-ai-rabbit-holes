@@ -1,11 +1,27 @@
 id: github__calcom__cal.diy
 kind: github-repo
-name: cal.diy
+name: GitHub
 canonical_url: https://github.com/calcom/cal.diy
 identity:
   github_repo: calcom/cal.diy
 provenance:
   discoveries:
+    - id: discovery__github__calcom__cal.com__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Cal.ai
+          - Description
+        anchor_text: GitHub
+        extracted_url: https://github.com/calcom/cal.com
+        surrounding_text: "- [GitHub](https://github.com/calcom/cal.com/tree/main/apps/ai)"
+        confidence: high
     - id: discovery__github__calcom__cal.diy__awesome-list__e2b-dev__awesome-ai-agents
       discovered_at: "2026-05-05T19:41:00.656Z"
       source:
@@ -44,25 +60,29 @@ metadata:
       - turborepo
       - typescript
       - zod
-    last_checked_at: "2026-05-05T21:01:28.666Z"
+    last_checked_at: "2026-05-05T21:01:28.856Z"
     readme:
-      fetched_at: "2026-05-05T21:01:28.666Z"
+      fetched_at: "2026-05-05T21:01:28.856Z"
       bytes: 36519
 insights:
-  summary: A community-maintained, MIT-licensed fork of Cal.com that removes enterprise features for individuals who want to self-host their own scheduling infrastructure.
-  why_it_matters: It allows developers to deploy and customize a full scheduling stack using a modern TypeScript/Next.js architecture without commercial licensing constraints.
-  mental_damage: Yet another 'infrastructure for everyone' project that effectively requires you to be a DevOps wizard to actually operate it on your own hardware.
+  summary: Cal.com is an open-source scheduling infrastructure platform for self-hosting appointment booking and calendar management.
+  why_it_matters: It provides developers with a self-hostable, MIT-licensed foundation to build custom scheduling flows instead of relying on closed SaaS booking widgets.
+  mental_damage: We have successfully open-sourced the calendar, meaning developers can now spend three weeks configuring PostgreSQL just to avoid sending a Calendly link.
   tags:
+    - nextjs
+    - open-source
+    - opensource
     - scheduling
     - self-hosted
-    - nextjs
-    - opensource
     - typescript
   confidence: high
 curation:
   status: excluded
-  reason: While technically built by developers, it is a scheduling application product, not a developer tool, AI agent, or coding infrastructure.
+  reason: While listed in an AI agents directory (referencing 'Cal.ai'), the core repository is a conventional scheduling web application with no inherent AI, agent, or developer-tooling functionality.
   evidence:
+    - Repo description defines it as 'Scheduling infrastructure', with topics (Next.js, Prisma, TypeScript) indicating a standard web app stack.
+    - README describes a booking platform fork with no mention of AI, LLMs, agents, or developer extensions.
+    - Source-list context cites 'Cal.ai' in the section description, but the linked GitHub repo is the non-AI scheduling core.
     - Repo description defines it as 'Scheduling infrastructure for absolutely everyone', focusing on the end-user scheduling use case.
     - README explicitly states it is a fork of Cal.com with enterprise features removed, targeting personal self-hosting rather than AI development workflows.
     - No inputs mention AI capabilities, coding agents, or developer-tooling extensions; it is a standard web application stack.
@@ -73,16 +93,6 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (42356) exceeded threshold (150)
 processing:
-  discover:
-    status: done
-    updated_at: "2026-05-05T19:41:00.682Z"
-    cause: null
-    next_retry_at: null
-  stars:
-    status: done
-    updated_at: "2026-05-05T21:01:28.666Z"
-    cause: null
-    next_retry_at: null
   categorize:
     status: done
     updated_at: "2026-05-05T21:12:14.712Z"
@@ -91,3 +101,13 @@ processing:
     attempts: 1
     prompt_version: catalog-categorize-v2-baseline
     category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.440Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:28.857Z"
+    cause: null
+    next_retry_at: null

@@ -1,6 +1,6 @@
 id: github__fuzzylabs__awesome-open-mlops
 kind: github-repo
-name: awesome-open-mlops
+name: Awesome Open MLOps
 canonical_url: https://github.com/fuzzylabs/awesome-open-mlops
 identity:
   github_repo: fuzzylabs/awesome-open-mlops
@@ -47,10 +47,10 @@ insights:
   why_it_matters: It provides developers with a filter for production-grade open source MLOps infrastructure, saving time otherwise spent vetting SaaS-lite tools that lack standalone functionality.
   mental_damage: Yet another stellar map of the MLOps galaxy that will sit open in a tab until you eventually close it and just guess which labeling tool to use anyway.
   tags:
-    - mlops
     - awesome-list
-    - open-source
     - infrastructure
+    - mlops
+    - open-source
   confidence: high
 curation:
   status: included
@@ -66,6 +66,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (481) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:20:28.499Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.688Z"
@@ -76,11 +84,3 @@ processing:
     updated_at: "2026-05-05T21:02:16.658Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:20:28.499Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

@@ -6,6 +6,21 @@ identity:
   github_repo: cycodehq/cycode-cli
 provenance:
   discoveries:
+    - id: discovery__cycode__com__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Cycode
+        extracted_url: https://cycode.com
+        surrounding_text: "- **[Cycode](https://github.com/cycodehq/cycode-cli#mcp-command-experiment)** - Boost security in your dev lifecycle via SAST, SCA, Secrets & IaC scanning with [Cycode](https://cycode.com/)."
+        confidence: high
     - id: discovery__github__cycodehq__cycode-cli__awesome-list__wong2__awesome-mcp-servers
       discovered_at: "2026-05-05T19:41:00.656Z"
       source:
@@ -48,11 +63,13 @@ insights:
   why_it_matters: It integrates security scanning directly into developer workflows via CLI, pre-commit hooks, and MCP compatibility for AI-assisted audits.
   mental_damage: Now your AI agent can find the secrets you accidentally committed while you were busy asking it to refactor your authentication logic.
   tags:
-    - security
+    - ai-agents
     - cli
+    - devsecops
     - mcp
     - sast
-    - devsecops
+    - sdlc
+    - security
   confidence: high
 curation:
   status: included
@@ -68,16 +85,6 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  discover:
-    status: done
-    updated_at: "2026-05-05T19:41:00.683Z"
-    cause: null
-    next_retry_at: null
-  stars:
-    status: done
-    updated_at: "2026-05-05T21:01:44.928Z"
-    cause: null
-    next_retry_at: null
   categorize:
     status: done
     updated_at: "2026-05-05T21:15:04.833Z"
@@ -86,3 +93,13 @@ processing:
     attempts: 1
     prompt_version: catalog-categorize-v2-baseline
     category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T22:47:06.911Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:44.928Z"
+    cause: null
+    next_retry_at: null

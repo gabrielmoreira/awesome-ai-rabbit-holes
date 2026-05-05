@@ -1,6 +1,6 @@
 id: github__optimalscale__lmflow
 kind: github-repo
-name: lmflow
+name: LMFlow
 canonical_url: https://github.com/optimalscale/lmflow
 identity:
   github_repo: optimalscale/lmflow
@@ -49,11 +49,11 @@ insights:
   why_it_matters: It gives developers a streamlined, code-first path to customize and serve LLMs without wrestling with fragmented training scripts.
   mental_damage: Because the only thing more relaxing than debugging a shaky training loop is maintaining your own local fork of the entire AI ecosystem.
   tags:
-    - llm
     - finetuning
     - inference
-    - pytorch
+    - llm
     - local-ai
+    - pytorch
   confidence: high
 curation:
   status: included
@@ -69,6 +69,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (8486) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:43:04.430Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.711Z"
@@ -79,11 +87,3 @@ processing:
     updated_at: "2026-05-05T21:04:07.848Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:43:04.430Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

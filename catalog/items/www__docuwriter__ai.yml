@@ -1,6 +1,6 @@
 id: www__docuwriter__ai
 kind: website
-name: www.docuwriter.ai
+name: DocuWriter.ai
 canonical_url: https://www.docuwriter.ai
 identity: {}
 provenance:
@@ -38,9 +38,9 @@ insights:
   why_it_matters: It automates the creation and upkeep of technical documentation directly from the codebase, aiming to solve documentation rot and reduce onboarding friction without requiring a dedicated writing team.
   mental_damage: We have successfully outsourced the chore of writing documentation to an AI, but we still have to review the AI's suggestions, meaning we have merely traded writing docs for managing a documentation PR queue.
   tags:
-    - documentation
     - ai-agent
     - codebase-analysis
+    - documentation
     - mcp
   confidence: high
 curation:
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:50:32.441Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.732Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:50:32.441Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

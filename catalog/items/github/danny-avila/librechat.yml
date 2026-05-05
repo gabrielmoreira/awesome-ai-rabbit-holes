@@ -1,6 +1,6 @@
 id: github__danny-avila__librechat
 kind: github-repo
-name: librechat
+name: LibreChat
 canonical_url: https://github.com/danny-avila/librechat
 identity:
   github_repo: danny-avila/librechat
@@ -61,11 +61,11 @@ insights:
   why_it_matters: It gives developers a single, private, and extensible frontend to orchestrate models and local agents without surrendering their API keys or data to a dozen disjointed SaaS dashboards.
   mental_damage: You now have 36,000 stars worth of motivation to host yet another 'universal' chat interface that supports every model except the one that actually solves your problem.
   tags:
-    - self-hosted
-    - mcp
-    - chat-ui
     - agents
+    - chat-ui
+    - mcp
     - multi-model
+    - self-hosted
   confidence: high
 curation:
   status: included
@@ -81,6 +81,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (36591) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:15:21.645Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.684Z"
@@ -91,11 +99,3 @@ processing:
     updated_at: "2026-05-05T21:01:46.404Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:15:21.645Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

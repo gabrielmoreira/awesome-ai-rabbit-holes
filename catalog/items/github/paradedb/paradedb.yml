@@ -1,6 +1,6 @@
 id: github__paradedb__paradedb
 kind: github-repo
-name: paradedb
+name: ParadeDB
 canonical_url: https://github.com/paradedb/paradedb
 identity:
   github_repo: paradedb/paradedb
@@ -56,11 +56,11 @@ insights:
   why_it_matters: It allows developers to consolidate search, analytics, and vector workloads into Postgres, reducing the need to synchronize and maintain separate search infrastructure like Elasticsearch.
   mental_damage: Yet another opportunity to bet the house on a single database, this time by convincing yourself that Postgres can finally solve search, OLAP, and AI embeddings without the operational baggage you probably just finished unpacking.
   tags:
+    - analytics
+    - database-extension
     - postgres
     - search
     - vector-database
-    - analytics
-    - database-extension
   confidence: high
 curation:
   status: included
@@ -76,6 +76,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (8732) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:43:52.065Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.712Z"
@@ -86,11 +94,3 @@ processing:
     updated_at: "2026-05-05T21:04:12.175Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:43:52.065Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

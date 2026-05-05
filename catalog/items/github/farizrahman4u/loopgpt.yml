@@ -1,6 +1,6 @@
 id: github__farizrahman4u__loopgpt
 kind: github-repo
-name: loopgpt
+name: Loop GPT
 canonical_url: https://github.com/farizrahman4u/loopgpt
 identity:
   github_repo: farizrahman4u/loopgpt
@@ -46,10 +46,10 @@ insights:
   mental_damage: "Just what the ecosystem needed in 2023: another recursive loop of GPT-3.5 trying to execute shell commands until it inevitably hallucinates its way into an infinite token-consuming void."
   tags:
     - agents
-    - framework
-    - python
     - autonomous
+    - framework
     - gpt
+    - python
   confidence: high
 curation:
   status: included
@@ -65,6 +65,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (1452) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:19:03.538Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.687Z"
@@ -75,11 +83,3 @@ processing:
     updated_at: "2026-05-05T21:02:08.277Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:19:03.538Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

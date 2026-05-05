@@ -1,6 +1,6 @@
 id: getwren__ai
 kind: website
-name: getwren.ai
+name: Wren
 canonical_url: https://getwren.ai
 identity: {}
 provenance:
@@ -38,11 +38,11 @@ insights:
   why_it_matters: It allows developers and data teams to embed conversational analytics into products and internal tools, drastically reducing the amount of manual SQL required for ad-hoc reporting.
   mental_damage: Finally, a way to automate yourself out of the 'can you pull this number' Slack messages, only to be replaced by the 'why is the AI's SQL wrong' Slack messages.
   tags:
+    - analytics
     - business-intelligence
     - natural-language
-    - sql
-    - analytics
     - semantic-layer
+    - sql
   confidence: high
 curation:
   status: excluded
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:44:42.324Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.727Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:44:42.324Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

@@ -1,6 +1,6 @@
 id: openclawmp__stepfun__com
 kind: website
-name: openclawmp.stepfun.com
+name: 水产市场
 canonical_url: https://openclawmp.stepfun.com
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It provides a centralized registry for developers to find reusable agent extensions and integration patterns rather than building common capabilities from scratch.
   mental_damage: We have finally achieved the App Store model for AI agents, meaning your bot's capabilities are now just one `npm install`-style command away from requiring dependency management and version conflicts.
   tags:
-    - agent-marketplace
-    - skills
-    - plugins
     - agent-ecosystem
+    - agent-marketplace
+    - plugins
+    - skills
   confidence: high
 curation:
   status: excluded
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:46:52.944Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.729Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:46:52.944Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

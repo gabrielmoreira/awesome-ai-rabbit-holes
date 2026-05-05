@@ -1,6 +1,6 @@
 id: github__shotgun-sh__shotgun
 kind: github-repo
-name: shotgun
+name: Shotgun
 canonical_url: https://github.com/shotgun-sh/shotgun
 identity:
   github_repo: shotgun-sh/shotgun
@@ -51,6 +51,13 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: skipped
+    updated_at: "2026-05-05T23:08:18.952Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.717Z"
@@ -60,10 +67,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T21:04:23.169Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null

@@ -1,6 +1,6 @@
 id: github__agentrpc__agentrpc
 kind: github-repo
-name: agentrpc
+name: AgentRPC
 canonical_url: https://github.com/agentrpc/agentrpc
 identity:
   github_repo: agentrpc/agentrpc
@@ -22,7 +22,7 @@ provenance:
         surrounding_text: "- **[AgentRPC](https://github.com/agentrpc/agentrpc)** - Connect to any function, any language, across network boundaries using [AgentRPC](https://www.agentrpc.com/)."
         confidence: high
     - id: discovery__www__agentrpc__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-05T22:47:06.910Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -56,10 +56,13 @@ insights:
   why_it_matters: It lets developers connect agent runtimes to existing services in private VPCs, Kubernetes, or multi-cloud setups without opening ports or rewriting integrations.
   mental_damage: Finally, a hosted platform to solve the burning problem of your AI agent not being able to call a Python function sitting in a different Kubernetes cluster.
   tags:
-    - mcp
-    - rpc
     - agent-tooling
+    - directory
+    - mcp
     - multi-language
+    - registry
+    - rpc
+    - tooling
   confidence: high
 curation:
   status: included
@@ -68,6 +71,8 @@ curation:
     - "Repo description: 'A universal RPC layer for AI agents. Connect to any function, any language, any framework, in minutes.'"
     - README states it provides 'a hosted MCP server for connecting to compatible agents' and includes explicit Claude Desktop and Cursor MCP integration configs.
     - Listed in awesome-mcp-servers under Official Servers, aligning with its MCP infrastructure focus.
+    - Listed in the 'awesome-mcp-servers' directory as a submission target (https://mcpservers.org/submit).
+    - The URL (agentrpc.com) and context indicate a focus on MCP server infrastructure rather than a coding agent or app builder.
 placement:
   primary_category: mcp
   section: null
@@ -85,7 +90,7 @@ processing:
     next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.731Z"
+    updated_at: "2026-05-05T22:47:06.911Z"
     cause: null
     next_retry_at: null
   stars:

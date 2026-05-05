@@ -38,19 +38,22 @@ metadata:
       fetched_at: "2026-05-05T21:01:25.008Z"
       bytes: 33173
 insights:
-  summary: An MCP server that extracts brand identity from websites, Figma, and PDFs to compile portable .brand/ runtimes for use across AI coding and design tools.
-  why_it_matters: It lets developers stop pasting 400 tokens of brand boilerplate into every prompt by loading a structured brand context directly into Claude Code, Cursor, and other MCP clients.
-  mental_damage: "We have finally solved the most pressing crisis of 2025: generative output that reads like a competent generalist wrote it."
+  summary: An MCP server that extracts brand identity from websites, Figma, and PDFs, then compiles it into a portable .brand/ directory for consumption by AI coding and design tools.
+  why_it_matters: It allows developers to stop pasting 400 tokens of brand guidelines into every prompt by packaging governance, tokens, and voice rules into a single runtime file that Claude Code, Cursor, and ChatGPT can load natively.
+  mental_damage: We have successfully reached the point where we need a dedicated server to remind the AI that your logo is blue and your brand voice isn't 'competent generalist'.
   tags:
-    - mcp
     - brand-governance
     - context-engineering
     - design-tokens
-  confidence: medium
+    - mcp
+  confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server that packages brand context for consumption by AI developer tools, fitting the MCP infrastructure category cleanly.
+  reason: The project is explicitly an MCP server designed to provide brand context to developer tools, fitting cleanly into the MCP infrastructure category.
   evidence:
+    - Repo description identifies it as an 'MCP server for progressive brand governance'.
+    - README details a tool that compiles a .brand/ directory and brand-runtime.json for clients like Claude Code, Cursor, and ChatGPT.
+    - Listed in awesome-mcp-servers under the 'Marketing' section, confirming its identity as an MCP implementation.
     - Repo description states it is an 'MCP server for progressive brand governance'.
     - README instructs adding it to .mcp.json for Claude Code, Cursor, and Windsurf.
     - It compiles a portable brand-runtime.json artifact designed to be loaded by MCP clients.
@@ -71,7 +74,7 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.681Z"
+    updated_at: "2026-05-05T20:48:55.440Z"
     cause: null
     next_retry_at: null
   stars:

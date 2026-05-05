@@ -1,6 +1,6 @@
 id: asktosell__com
 kind: website
-name: asktosell.com
+name: AskToSell
 canonical_url: https://asktosell.com
 identity: {}
 provenance:
@@ -38,8 +38,8 @@ insights:
   why_it_matters: It represents the growing trend of verticalized AI agents, though it targets sales workflows rather than developer environments.
   mental_damage: We have officially run out of developer problems to solve and have moved on to automating the people who buy the things we build.
   tags:
-    - sales-agent
     - autonomous-agent
+    - sales-agent
   confidence: high
 curation:
   status: excluded
@@ -55,6 +55,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:42:04.155Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.726Z"
@@ -64,11 +72,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:42:04.155Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

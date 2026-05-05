@@ -1,6 +1,6 @@
 id: github__aavetis__azure-openai-logger
 kind: github-repo
-name: azure-openai-logger
+name: Azure OpenAI Logger
 canonical_url: https://github.com/aavetis/azure-openai-logger
 identity:
   github_repo: aavetis/azure-openai-logger
@@ -43,9 +43,9 @@ insights:
   mental_damage: Because nothing says 'cloud-native observability' like deploying an entire API Management instance and a Bicep template just to find out why your GPT wrapper is silently burning tokens.
   tags:
     - azure
-    - observability
-    - logging
     - llmops
+    - logging
+    - observability
     - openai
   confidence: high
 curation:
@@ -62,6 +62,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:05:26.852Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.676Z"
@@ -72,11 +80,3 @@ processing:
     updated_at: "2026-05-05T21:00:46.658Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:05:26.852Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

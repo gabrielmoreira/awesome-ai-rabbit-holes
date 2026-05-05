@@ -1,6 +1,6 @@
 id: skillsmp__com
 kind: website
-name: skillsmp.com
+name: Skillsmp
 canonical_url: https://skillsmp.com
 identity: {}
 provenance:
@@ -38,11 +38,11 @@ insights:
   why_it_matters: It provides a centralized registry and API to find, filter, and install modular AI capabilities, saving developers from digging through scattered GitHub repositories to extend their coding assistants.
   mental_damage: Just when you thought your AI assistant was smart enough, you now have 1.2 million additional 'skills' to browse, evaluate, and inevitably second-guess your choices over.
   tags:
-    - skills
-    - marketplace
     - claude-code
     - codex
     - directory
+    - marketplace
+    - skills
   confidence: high
 curation:
   status: included
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T20:27:13.194Z"
+    cause: null
+    attempts: 3
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 753a9feca783
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.730Z"
@@ -69,11 +77,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T20:27:13.194Z"
-    cause: null
-    attempts: 3
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 753a9feca783
-    next_retry_at: null

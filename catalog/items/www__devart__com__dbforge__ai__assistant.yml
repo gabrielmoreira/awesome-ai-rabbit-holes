@@ -1,6 +1,6 @@
 id: www__devart__com__dbforge__ai__assistant
 kind: website
-name: ai-assistant
+name: dbForge AI Assistant
 canonical_url: https://www.devart.com/dbforge/ai-assistant
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It allows database developers and administrators to generate context-aware SQL queries and optimize performance directly within their existing dbForge IDE workflow without switching tools.
   mental_damage: Yet another opportunity to watch a $9.95/month chatbot wrap your schema metadata in a polite conversation while you wonder if you still need to know what a JOIN actually does.
   tags:
-    - sql
-    - database
     - ai-assistant
+    - database
     - ide-extension
+    - sql
   confidence: high
 curation:
   status: included
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:50:29.732Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.732Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:50:29.732Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

@@ -1,6 +1,6 @@
 id: github__continuedev__continue
 kind: github-repo
-name: continue
+name: Continue
 canonical_url: https://github.com/continuedev/continue
 identity:
   github_repo: continuedev/continue
@@ -110,11 +110,11 @@ insights:
   why_it_matters: It lets teams codify review standards as version-controlled AI checks that run automatically in CI, bridging the gap between linters and human code review.
   mental_damage: You can now version-control your anxiety by encoding subjective code review opinions into YAML files that an AI will enforce on every single pull request.
   tags:
-    - ci
-    - code-review
-    - cli
-    - github-checks
     - ai-agents
+    - ci
+    - cli
+    - code-review
+    - github-checks
   confidence: high
 curation:
   status: included
@@ -130,6 +130,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (32986) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:14:22.415Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.658Z"
@@ -140,11 +148,3 @@ processing:
     updated_at: "2026-05-05T21:01:41.216Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:14:22.415Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

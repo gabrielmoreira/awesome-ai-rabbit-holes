@@ -22,51 +22,79 @@ provenance:
         extracted_url: https://github.com/betterhyq/mermaid_grammer_inspector_mcp
         surrounding_text: "- [betterhyq/mermaid-grammer-inspector-mcp](https://github.com/betterhyq/mermaid_grammer_inspector_mcp) 📇 🏠 🍎 🪟 🐧 - A Model Context Protocol (MCP) server for validating Mermaid diagram syntax and providing comprehensive grammar checking capabilities"
         confidence: high
+    - id: discovery__github__pixsway__mermaid-grammer-inspector-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T22:33:31.148Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📐 <a name="architecture-and-design"></a>Architecture & Design
+        anchor_text: betterhyq/mermaid-grammer-inspector-mcp
+        extracted_url: https://github.com/betterhyq/mermaid_grammer_inspector_mcp
+        surrounding_text: "- [betterhyq/mermaid-grammer-inspector-mcp](https://github.com/betterhyq/mermaid_grammer_inspector_mcp) 📇 🏠 🍎 🪟 🐧 - A Model Context Protocol (MCP) server for validating Mermaid diagram syntax and providing comprehensive grammar checking capabilities"
+        confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 3
+    forks: 0
+    license: MIT
+    archived: true
+    created_at: "2025-12-09T13:19:02Z"
+    pushed_at: "2025-12-12T14:18:47Z"
+    description: A Model Context Protocol (MCP) server for validating Mermaid diagram syntax and providing comprehensive grammar checking capabilities
+    homepage: ""
+    topics:
+      - agent
+      - ai
+      - mcp
+    last_checked_at: "2026-05-05T21:01:19.841Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:19.841Z"
+      bytes: 2665
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that validates Mermaid diagram syntax and provides grammar checking capabilities for AI agents and developer tools.
+  why_it_matters: It allows coding agents and IDEs to catch invalid diagram syntax before rendering, reducing friction when generating architecture diagrams from prompts.
+  mental_damage: We now have dedicated infrastructure to validate the diagrams that AI generates to document the code that AI also wrote and probably broke.
+  tags:
+    - diagram-validation
+    - grammar-checking
+    - mcp
+    - mermaid
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: The repository is archived despite being created only days ago, indicating it was abandoned almost immediately.
+  evidence:
+    - "Archived: yes (immediate negative signal for a project created 2025-12-09)"
+    - Only 3 stars with minimal ecosystem traction
+    - Listed in awesome-mcp-servers under Architecture & Design, but archival status outweighs directory inclusion
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: Repository is archived
 processing:
   categorize:
-    status: skipped
-    updated_at: "2026-05-05T21:04:23.169Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-05-05T21:10:37.272Z"
+    cause: null
     next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.681Z"
+    updated_at: "2026-05-05T22:33:31.152Z"
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-05-05T21:04:19.376Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for pixsway/mermaid-grammer-inspector-mcp
+    status: done
+    updated_at: "2026-05-05T21:01:19.841Z"
+    cause: null
+    next_retry_at: null

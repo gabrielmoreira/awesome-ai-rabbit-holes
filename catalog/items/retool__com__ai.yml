@@ -1,6 +1,6 @@
 id: retool__com__ai
 kind: website
-name: ai
+name: Retool AI
 canonical_url: https://retool.com/ai
 identity: {}
 provenance:
@@ -38,9 +38,9 @@ insights:
   why_it_matters: It allows developers to scaffold full-stack internal tools on top of existing databases and APIs with enterprise-grade security controls applied by default.
   mental_damage: Another platform promises to turn your 'trusted building blocks' into apps, right up until the AI hallucinates a permission schema that turns your internal tool into a public read API for the entire company.
   tags:
+    - enterprise
     - internal-tools
     - prompt-to-app
-    - enterprise
     - workflow-automation
   confidence: high
 curation:
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:47:39.552Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.730Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:47:39.552Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

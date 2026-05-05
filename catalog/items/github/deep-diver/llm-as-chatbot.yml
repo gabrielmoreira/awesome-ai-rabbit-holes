@@ -1,6 +1,6 @@
 id: github__deep-diver__llm-as-chatbot
 kind: github-repo
-name: alpaca-lora-serve
+name: Alpaca-LoRA-Serve
 canonical_url: https://github.com/deep-diver/llm-as-chatbot
 identity:
   github_repo: deep-diver/llm-as-chatbot
@@ -48,25 +48,29 @@ metadata:
     description: LLM as a Chatbot Service
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-05T21:01:50.794Z"
+    last_checked_at: "2026-05-05T21:01:50.905Z"
     readme:
-      fetched_at: "2026-05-05T21:01:50.794Z"
+      fetched_at: "2026-05-05T21:01:50.905Z"
       bytes: 17103
 insights:
-  summary: A Gradio and Discord-based chat interface for serving a variety of open-source, instruction-following LLMs locally or in the cloud with model-agnostic context management.
-  why_it_matters: It provides a ready-to-run UI and bot infrastructure for developers wanting to deploy and test local open-source models without building the interface layer themselves.
-  mental_damage: Another valiant attempt to wrap the ever-growing zoo of finicky LLMs in a Gradio UI so you can chat with a 7B model that thinks it is a toaster.
+  summary: A Gradio and Discord-based serving stack for running open-source, instruction-following LLMs as chatbots with model-agnostic conversation management.
+  why_it_matters: It lets developers quickly stand up and test a variety of local or cloud-hosted open-source chat models through a ready-made UI or Discord bot without building serving infrastructure from scratch.
+  mental_damage: Yet another reminder that in 2023, standing up a 'chatbot service' still meant cloning a repo, hunting GPU quotas, and praying your Hugging Face cache didn't silently implode.
   tags:
-    - local-ai
     - chatbot
+    - discord-bot
     - gradio
     - llm-serving
+    - local-ai
     - open-source
   confidence: high
 curation:
   status: included
-  reason: The project is a developer-facing tool for running and serving open-source LLMs locally via a Gradio UI or Discord bot, fitting the local-ai category.
+  reason: The project is a developer tooling stack for serving and interacting with local/open-source LLMs via Gradio or Discord, which fits local-AI developer infrastructure rather than coding agents or app builders.
   evidence:
+    - "Repo description: 'LLM as a Chatbot Service' with README framing it as a way to serve open-source instruction-following LLMs."
+    - Supports local execution with --local-files-only and integration with JarvisLabs GPU VMs and dstack cloud deployments.
+    - Included in Awesome-LLMOps under 'Serving > Large Model Serving', reinforcing its serving/infrastructure focus.
     - Repo description states 'LLM as a Chatbot Service' and README describes serving open-source instruction-following LLMs.
     - Includes Gradio UI and Discord bot integration for local or cloud-deployed model inference.
     - Listed under 'Inference UI' in the awesome-local-ai directory.
@@ -87,11 +91,11 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.684Z"
+    updated_at: "2026-05-05T20:48:55.441Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:50.794Z"
+    updated_at: "2026-05-05T21:01:50.905Z"
     cause: null
     next_retry_at: null

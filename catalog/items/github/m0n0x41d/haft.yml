@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__m0n0x41d__quint-code__awesome-list__engineering4ai__awesome-spec-driven-development
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-05T20:48:55.437Z"
       source:
         type: awesome-list
         name: Engineering4AI/awesome-spec-driven-development
@@ -52,9 +52,9 @@ metadata:
       - reasoning
       - structured-reasoning
       - systems-thinking
-    last_checked_at: "2026-05-05T21:03:26.613Z"
+    last_checked_at: "2026-05-05T21:03:26.809Z"
     readme:
-      fetched_at: "2026-05-05T21:03:26.613Z"
+      fetched_at: "2026-05-05T21:03:26.809Z"
       bytes: 19379
 insights:
   summary: Haft is a CLI and MCP plugin that adds structured engineering decision-making, spec governance, and evidence decay tracking to AI coding agents like Claude Code and Codex.
@@ -62,10 +62,10 @@ insights:
   mental_damage: Finally, a tool to govern the agents that are already ignoring your half-written Jira tickets with unprecedented confidence.
   tags:
     - agents
-    - governance
-    - spec-driven
-    - mcp
     - cli
+    - governance
+    - mcp
+    - spec-driven
   confidence: high
 curation:
   status: included
@@ -74,8 +74,11 @@ curation:
     - Repo description states it is an 'Engineering decisions engine' for Claude Code, Cursor, Gemini CLI, and Codex.
     - README describes an MCP plugin and CLI Harness that sit between developer intentions and agent execution inside the repo.
     - Active project with 1311 stars, created 2025-12-10 and pushed 2026-05-04, not archived.
+    - Repo description explicitly calls it an 'Engineering decisions engine' with 'evidence decay and parity enforcement' for Claude Code, Cursor, and others.
+    - README states it is 'the engineering governor that sits between your intentions and your agents' execution' with a 'Specify → Think → Run → Govern' loop.
+    - Listed in awesome-spec-driven-development under 'Specification Tools' as a tool for writing specifications first to guide development.
 placement:
-  primary_category: coding-agents
+  primary_category: mcp
   section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
@@ -83,7 +86,7 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-05-05T21:35:06.948Z"
+    updated_at: "2026-05-05T21:35:07.440Z"
     cause: null
     next_retry_at: null
     attempts: 1
@@ -91,11 +94,11 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.705Z"
+    updated_at: "2026-05-05T20:48:55.442Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:26.613Z"
+    updated_at: "2026-05-05T21:03:26.809Z"
     cause: null
     next_retry_at: null

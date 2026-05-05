@@ -1,6 +1,6 @@
 id: predibase__com
 kind: website
-name: predibase.com
+name: Predibase
 canonical_url: https://predibase.com
 identity: {}
 provenance:
@@ -38,8 +38,8 @@ insights:
   why_it_matters: It provides developers with a managed path to adapt open-source LLMs to specific tasks without managing the underlying GPU infrastructure.
   mental_damage: Yet another promise that you can skip the MLOps pain, provided you outsource your model lifecycle to a platform that hopes you never leave.
   tags:
-    - llm-serving
     - fine-tuning
+    - llm-serving
     - mlops
     - serverless
   confidence: medium
@@ -56,6 +56,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:47:06.664Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.729Z"
@@ -65,11 +73,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:47:06.664Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

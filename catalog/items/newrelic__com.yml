@@ -1,6 +1,6 @@
 id: newrelic__com
 kind: website
-name: newrelic.com
+name: New Relic
 canonical_url: https://newrelic.com
 identity: {}
 provenance:
@@ -38,11 +38,11 @@ insights:
   why_it_matters: It provides specialized tooling to monitor AI agents and LLM interactions in real-time, allowing developers to trace hallucinations and manage token costs within their production stacks.
   mental_damage: Now your observability platform has its own SRE agent, meaning you are one abstraction layer away from an AI waking you up at 3 AM to approve its own automated remediation.
   tags:
-    - observability
-    - monitoring
-    - ai-ops
     - agents
+    - ai-ops
     - devops
+    - monitoring
+    - observability
   confidence: high
 curation:
   status: excluded
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:46:41.731Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.729Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:46:41.731Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

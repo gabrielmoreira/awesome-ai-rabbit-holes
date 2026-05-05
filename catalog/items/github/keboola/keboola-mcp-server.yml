@@ -6,24 +6,8 @@ identity:
   github_repo: keboola/keboola-mcp-server
 provenance:
   discoveries:
-    - id: discovery__github__keboola__keboola-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T20:48:55.437Z"
-      source:
-        type: awesome-list
-        name: punkpeye/awesome-mcp-servers
-        url: https://github.com/punkpeye/awesome-mcp-servers
-        repository: punkpeye/awesome-mcp-servers
-      extraction:
-        mode: parsed
-        section_path:
-          - Server Implementations
-          - 📊 <a name="data-platforms"></a>Data Platforms
-        anchor_text: keboola/keboola-mcp-server
-        extracted_url: https://github.com/keboola/keboola-mcp-server
-        surrounding_text: "- [keboola/keboola-mcp-server](https://github.com/keboola/keboola-mcp-server) 🐍 - interact with Keboola Connection Data Platform. This server provides tools for listing and accessing data from Keboola Storage API."
-        confidence: high
     - id: discovery__github__keboola__keboola-mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T20:48:55.437Z"
+      discovered_at: "2026-05-05T22:33:31.148Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -54,29 +38,22 @@ metadata:
       - mcp
       - mcp-server
       - model-context-protocol
-    last_checked_at: "2026-05-05T21:03:03.544Z"
+    last_checked_at: "2026-05-05T23:07:58.405Z"
     readme:
-      fetched_at: "2026-05-05T21:03:03.544Z"
+      fetched_at: "2026-05-05T23:07:58.405Z"
       bytes: 21487
 insights:
-  summary: An open-source MCP server that exposes Keboola data platform features—such as storage, SQL transformations, jobs, and flows—as callable tools for AI agents and MCP clients like Cursor, Claude, and VS Code.
-  why_it_matters: It lets developers query tables, trigger jobs, and manage data pipelines conversationally inside their existing AI coding tools instead of switching to the Keboola UI.
-  mental_damage: We have successfully abstracted the data platform so far away that your AI agent now needs its own data platform integration to ask another AI to run your SQL.
-  tags:
-    - mcp
-    - data-platform
-    - keboola
-    - ai-integration
-  confidence: high
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
 curation:
-  status: included
-  reason: The project is a dedicated MCP server implementation that integrates a data platform with MCP clients, fitting cleanly into the MCP Servers and Tooling category.
-  evidence:
-    - "Repo description states: 'Model Context Protocol (MCP) Server for the Keboola Platform'"
-    - README excerpt confirms it 'turns Keboola features into callable tools for Claude, Cursor, CrewAI, LangChain, Amazon Q, and more'
-    - Listed in awesome-mcp-servers under 'Server Implementations > Data Platforms'
+  status: pending
+  reason: null
+  evidence: []
 placement:
-  primary_category: mcp
+  primary_category: null
   section: null
 lifecycle:
   status: incubating
@@ -84,19 +61,21 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.439Z"
+    updated_at: "2026-05-05T22:33:31.151Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:03.544Z"
+    updated_at: "2026-05-05T23:07:58.405Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-05T21:30:14.917Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
+    status: deferred
+    updated_at: "2026-05-05T23:08:33.635Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-05-06T00:08:33.635Z"
+    attempts: 0
     prompt_version: catalog-categorize-v2-baseline
     category_rules_version: 1b6cc5462ecc

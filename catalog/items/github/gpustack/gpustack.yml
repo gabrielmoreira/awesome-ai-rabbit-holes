@@ -1,6 +1,6 @@
 id: github__gpustack__gpustack
 kind: github-repo
-name: gpustack
+name: GPUStack
 canonical_url: https://github.com/gpustack/gpustack
 identity:
   github_repo: gpustack/gpustack
@@ -59,11 +59,11 @@ insights:
   why_it_matters: It gives developers a unified control plane to turn heterogeneous GPU hardware into a scalable Model-as-a-Service platform with standard APIs and enterprise ops features.
   mental_damage: Yet another layer of infrastructure to maintain so you can finally figure out why your tokens are still arriving at the speed of a tired carrier pigeon.
   tags:
-    - llm-serving
     - gpu-cluster
     - inference
-    - vllm
+    - llm-serving
     - model-deployment
+    - vllm
   confidence: high
 curation:
   status: included
@@ -79,6 +79,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (4957) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:22:41.702Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.689Z"
@@ -89,11 +97,3 @@ processing:
     updated_at: "2026-05-05T21:02:26.550Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:22:41.702Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

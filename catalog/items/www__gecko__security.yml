@@ -1,6 +1,6 @@
 id: www__gecko__security
 kind: website
-name: www.gecko.security
+name: Gecko Security
 canonical_url: https://www.gecko.security
 identity: {}
 provenance:
@@ -38,11 +38,11 @@ insights:
   why_it_matters: It integrates directly into developer workflows via PR/MR bots and one-click autofixes, aiming to reduce false positives and security triage time.
   mental_damage: Another day, another AI promising to understand your codebase better than the person who wrote it, while you still have to explain to the CISO why the 'AI-native' engine marked a test fixture as a critical vulnerability.
   tags:
-    - security
-    - sast
     - ci-cd
-    - vulnerability-scanning
     - devsecops
+    - sast
+    - security
+    - vulnerability-scanning
   confidence: high
 curation:
   status: included
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:50:55.189Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.732Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:50:55.189Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

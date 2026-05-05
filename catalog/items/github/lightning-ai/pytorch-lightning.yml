@@ -1,6 +1,6 @@
 id: github__lightning-ai__pytorch-lightning
 kind: github-repo
-name: lightning
+name: PyTorch Lightning
 canonical_url: https://github.com/lightning-ai/pytorch-lightning
 identity:
   github_repo: lightning-ai/pytorch-lightning
@@ -40,20 +40,22 @@ metadata:
       - machine-learning
       - python
       - pytorch
-    last_checked_at: "2026-05-05T21:03:20.135Z"
+    last_checked_at: "2026-05-05T21:03:20.168Z"
     readme:
-      fetched_at: "2026-05-05T21:03:20.135Z"
+      fetched_at: "2026-05-05T21:03:20.168Z"
       bytes: 28557
 insights:
   summary: A deep learning framework that organizes PyTorch code to automate training infrastructure, enabling pretraining and finetuning of AI models across CPUs to multi-node GPUs without changing core model logic.
   why_it_matters: It abstracts away the repetitive engineering boilerplate of distributed training, allowing developers to focus on model architecture while scaling from a laptop to 10,000+ GPUs.
   mental_damage: Just when you thought you were a PyTorch purist, you realize you've traded raw tensor control for a framework that compares itself to NextJS, because apparently even backpropagation needs a React-like lifecycle now.
   tags:
-    - pytorch
     - deep-learning
+    - distributed-computing
     - distributed-training
     - framework
     - mlops
+    - pytorch
+    - training
   confidence: high
 curation:
   status: included
@@ -79,11 +81,11 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.704Z"
+    updated_at: "2026-05-05T20:48:55.442Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:20.135Z"
+    updated_at: "2026-05-05T21:03:20.168Z"
     cause: null
     next_retry_at: null

@@ -1,6 +1,6 @@
 id: nodecodestudio__com
 kind: website
-name: nodecodestudio.com
+name: NodeCodeStudio
 canonical_url: https://nodecodestudio.com
 identity: {}
 provenance:
@@ -39,8 +39,8 @@ insights:
   mental_damage: Yet another layer of abstraction promising to automate the web, ensuring you can now debug declarative workflows instead of the Puppeteer scripts you originally wanted to avoid.
   tags:
     - browser-automation
-    - workflows
     - chrome
+    - workflows
   confidence: medium
 curation:
   status: excluded
@@ -56,6 +56,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:46:41.897Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.729Z"
@@ -65,11 +73,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:46:41.897Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

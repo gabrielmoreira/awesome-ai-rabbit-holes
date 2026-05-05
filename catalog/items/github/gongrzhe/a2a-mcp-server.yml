@@ -1,6 +1,6 @@
 id: github__gongrzhe__a2a-mcp-server
 kind: github-repo
-name: a2a-mcp-server
+name: A2A-MCP-Server
 canonical_url: https://github.com/gongrzhe/a2a-mcp-server
 identity:
   github_repo: gongrzhe/a2a-mcp-server
@@ -42,10 +42,10 @@ insights:
   why_it_matters: It demonstrates a concrete interoperability layer between two emerging agent protocols, enabling developers to experiment with multi-agent workflows before the standards fully settle.
   mental_damage: We are now building bridges between protocols that were invented last Tuesday, ensuring our agents can argue with each other in multiple dialects.
   tags:
-    - mcp
     - a2a
-    - protocol-bridge
     - agent-communication
+    - mcp
+    - protocol-bridge
   confidence: high
 curation:
   status: excluded
@@ -61,6 +61,14 @@ lifecycle:
   status: needs_review
   reason: Repository is archived
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:21:59.447Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.689Z"
@@ -71,11 +79,3 @@ processing:
     updated_at: "2026-05-05T21:02:23.850Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:21:59.447Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

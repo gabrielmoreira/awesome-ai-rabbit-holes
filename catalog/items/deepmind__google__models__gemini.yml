@@ -1,6 +1,6 @@
 id: deepmind__google__models__gemini
 kind: website
-name: gemini
+name: Gemini (Google)
 canonical_url: https://deepmind.google/models/gemini
 identity: {}
 provenance:
@@ -38,11 +38,11 @@ insights:
   why_it_matters: Developers can leverage its long context windows, agentic coding capabilities, and strong benchmark performance directly inside tools like Cursor, GitHub Copilot, and Cline to handle complex, long-horizon code tasks.
   mental_damage: Just when you had your prompt incantations tuned for the previous version, the model lineup shifts again, turning your stable workflow into a benchmark leaderboard chase.
   tags:
+    - api
+    - coding
+    - google
     - llm
     - multimodal
-    - api
-    - google
-    - coding
   confidence: high
 curation:
   status: excluded
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:43:36.875Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.727Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:43:36.875Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

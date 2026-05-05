@@ -1,6 +1,6 @@
 id: github__huggingface__nanotron
 kind: github-repo
-name: nanotron
+name: Nanotron
 canonical_url: https://github.com/huggingface/nanotron
 identity:
   github_repo: huggingface/nanotron
@@ -41,10 +41,10 @@ insights:
   why_it_matters: It provides developers with a lightweight, scalable framework to train custom LLMs on their own infrastructure without the overhead of heavier training stacks.
   mental_damage: Just when you thought you could escape the GPU hunger games by using hosted APIs, here is another reason to max out your credit card on H100 clusters in the name of 'minimalistic' pretraining.
   tags:
-    - llm-training
     - huggingface
-    - transformers
+    - llm-training
     - parallelism
+    - transformers
   confidence: high
 curation:
   status: included
@@ -60,6 +60,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (2676) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:24:36.565Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.697Z"
@@ -70,11 +78,3 @@ processing:
     updated_at: "2026-05-05T21:02:37.366Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:24:36.565Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

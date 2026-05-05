@@ -1,6 +1,6 @@
 id: agpt__co
 kind: website
-name: agpt.co
+name: AutoGPT
 canonical_url: https://agpt.co
 identity: {}
 provenance:
@@ -39,8 +39,8 @@ insights:
   mental_damage: Yet another no-code agent builder promising that this time, the robots will definitely manage themselves while you watch the dashboard.
   tags:
     - agents
-    - no-code
     - browser
+    - no-code
   confidence: medium
 curation:
   status: included
@@ -56,6 +56,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:41:28.920Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.726Z"
@@ -65,11 +73,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:41:28.920Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

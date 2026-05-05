@@ -1,6 +1,6 @@
 id: www__sweeppea__com
 kind: website
-name: www.sweeppea.com
+name: Sweeppea
 canonical_url: https://www.sweeppea.com
 identity: {}
 provenance:
@@ -39,10 +39,10 @@ insights:
   why_it_matters: It offers developers API documentation and an MCP server to programmatically manage legally compliant sweepstakes and integrate promotional campaigns into their applications.
   mental_damage: We have successfully reached the point where even legally compliant giveaway platforms need an MCP server and AI agents to justify their existence in a developer directory.
   tags:
-    - mcp
-    - marketing
     - api
     - integrations
+    - marketing
+    - mcp
   confidence: high
 curation:
   status: excluded
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:53:32.390Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.734Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:53:32.390Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

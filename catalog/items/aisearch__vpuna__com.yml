@@ -1,6 +1,6 @@
 id: aisearch__vpuna__com
 kind: website
-name: aisearch.vpuna.com
+name: Vpuna AI Search Service
 canonical_url: https://aisearch.vpuna.com
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It offers an API-accessible search backend for developers looking to integrate advanced retrieval and LLM-powered search into their own applications.
   mental_damage: Because what the modern developer stack truly needed was yet another proprietary API layer to wrap around the fundamental concept of looking things up.
   tags:
-    - search
     - api
-    - vector-db
     - llm
+    - search
+    - vector-db
   confidence: medium
 curation:
   status: excluded
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:41:41.917Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.726Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:41:41.917Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

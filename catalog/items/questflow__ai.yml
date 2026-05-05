@@ -1,6 +1,6 @@
 id: questflow__ai
 kind: website
-name: questflow.ai
+name: Questflow
 canonical_url: https://questflow.ai
 identity: {}
 provenance:
@@ -39,9 +39,9 @@ insights:
   mental_damage: You can now deploy an autonomous AI swarm to discover alpha on Pump.fun, because apparently your trading strategy needed more autonomous agents and less sleep.
   tags:
     - agents
-    - trading
     - on-chain
     - swarms
+    - trading
   confidence: high
 curation:
   status: excluded
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:47:22.730Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.729Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:47:22.730Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

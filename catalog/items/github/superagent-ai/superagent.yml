@@ -1,6 +1,6 @@
 id: github__superagent-ai__superagent
 kind: github-repo
-name: superagent
+name: SuperAgent
 canonical_url: https://github.com/superagent-ai/superagent
 identity:
   github_repo: superagent-ai/superagent
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [SuperAgent](https://github.com/homanp/superagent): Deploy LLM Agents to production ![GitHub Repo stars](https://img.shields.io/github/stars/homanp/superagent?style=social)"
         confidence: high
     - id: discovery__www__superagent__sh__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-05T20:48:55.437Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -39,55 +39,77 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 6576
+    forks: 962
+    license: MIT
+    archived: false
+    created_at: "2023-05-10T18:50:39Z"
+    pushed_at: "2026-04-11T08:34:31Z"
+    description: Superagent protects your AI applications against prompt injections, data leaks, and harmful outputs. Embed safety directly into your app and prove compliance to your customers.
+    homepage: https://superagent.sh
+    topics:
+      - ai
+      - anthropic
+      - guardrails
+      - llm
+      - openai
+      - prompt-injection
+      - security
+    last_checked_at: "2026-05-05T21:02:35.818Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:35.818Z"
+      bytes: 4976
 insights:
-  summary: A red teaming service that deploys specialized attack agents against AI systems in production to surface data leaks, harmful outputs, and unauthorized actions.
-  why_it_matters: Developers building AI agents can use this to find security and compliance gaps before they result in real-world failures or customer data exposure.
-  mental_damage: We have finally reached the point where we need autonomous agents to attack our autonomous agents because we no longer have the bandwidth to break our own stuff.
+  summary: An open-source SDK and security toolkit for AI applications that detects prompt injections, redacts sensitive data, and scans repositories for threats.
+  why_it_matters: It gives developers a programmatic way to harden agent workflows against common attacks and data leaks without building custom guardrails from scratch.
+  mental_damage: We have officially entered the era where we need a dedicated security layer just to keep our AI agents from impulsively emailing the user's Social Security number to a prompt injection.
   tags:
+    - agent-evals
+    - agent-safety
     - agents
     - ai-safety
+    - guardrails
+    - production-testing
+    - prompt-injection
     - red-teaming
+    - sdk
     - security
   confidence: high
 curation:
   status: included
-  reason: The product is an evaluation and security platform that measures agent behavior and surfaces failures, which fits the evals category better than a coding or orchestration tool.
+  reason: The primary artifact is a developer-importable SDK and library for embedding AI safety and guardrail logic into applications, which fits cleanly under AI Frameworks and SDKs.
   evidence:
+    - Repo description explicitly defines it as an SDK to 'Embed safety directly into your app' with Guard, Redact, and Scan features.
+    - README provides TypeScript and Python SDK code examples for client.guard() and client.redact() usage.
+    - Includes an MCP Server integration and open-weight models, positioning it as a code-first building block for developers.
     - The site describes 'Red teaming for AI agents' that attacks production systems to surface data leaks and harmful outputs.
     - It provides findings, evidence, remediation guidance, and a shareable Safety Page with test results.
     - Listed in awesome-ai-agents under a red teaming and safety context.
+    - "Site title and description explicitly state: 'Red Team Testing for AI Agents' and 'We attack your production system to surface data leaks'."
+    - The workflow offers 'findings, evidence, and remediation guidance' based on black-box testing, which is an evaluation/measurement surface.
+    - Listed under 'awesome-ai-agents' with the purpose of red teaming and attacking production systems.
 placement:
   primary_category: evals
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (6576) exceeded threshold (150)
 processing:
   categorize:
     status: done
-    updated_at: "2026-05-05T19:53:26.853Z"
+    updated_at: "2026-05-05T21:24:14.640Z"
     cause: null
+    next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.734Z"
+    updated_at: "2026-05-05T20:48:55.445Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-05T21:02:35.818Z"
     cause: null
+    next_retry_at: null

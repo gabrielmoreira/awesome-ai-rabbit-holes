@@ -1,6 +1,6 @@
 id: github__marianomolina__project_alice
 kind: github-repo
-name: project_alice
+name: Project Alice
 canonical_url: https://github.com/marianomolina/project_alice
 identity:
   github_repo: marianomolina/project_alice
@@ -63,6 +63,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (258) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:35:40.241Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.705Z"
@@ -73,11 +81,3 @@ processing:
     updated_at: "2026-05-05T21:03:29.391Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:35:40.241Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

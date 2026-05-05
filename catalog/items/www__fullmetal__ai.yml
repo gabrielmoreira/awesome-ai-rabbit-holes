@@ -1,6 +1,6 @@
 id: www__fullmetal__ai
 kind: website
-name: www.fullmetal.ai
+name: FuLLMetalAi
 canonical_url: https://www.fullmetal.ai
 identity: {}
 provenance:
@@ -38,9 +38,9 @@ insights:
   why_it_matters: It provides developers with a desktop interface to run and interact with local models without relying on hosted APIs.
   mental_damage: Yet another desktop wrapper promising to keep your data local, just in case the cloud decides to hallucinate your API keys too.
   tags:
-    - local-ai
-    - inference-ui
     - desktop
+    - inference-ui
+    - local-ai
   confidence: medium
 curation:
   status: included
@@ -55,6 +55,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:50:48.202Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.732Z"
@@ -64,11 +72,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:50:48.202Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

@@ -1,6 +1,6 @@
 id: sourcegraph__com__docs
 kind: website
-name: docs
+name: Cody by Sourcegraph
 canonical_url: https://sourcegraph.com/docs
 identity: {}
 provenance:
@@ -54,9 +54,9 @@ insights:
   mental_damage: Just when you thought the context window arms race was over, here comes another assistant promising to vacuum up your entire monorepo to suggest the one import you already knew you needed.
   tags:
     - ai-coding-assistant
-    - ide-extension
     - code-completion
     - context-aware
+    - ide-extension
     - sourcegraph
   confidence: high
 curation:
@@ -73,6 +73,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:48:13.927Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.674Z"
@@ -82,11 +90,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:48:13.927Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

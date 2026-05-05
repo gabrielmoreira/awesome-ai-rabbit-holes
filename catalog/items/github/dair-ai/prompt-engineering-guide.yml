@@ -1,6 +1,6 @@
 id: github__dair-ai__prompt-engineering-guide
 kind: github-repo
-name: prompt-engineering-guide
+name: Prompt Engineering Guide
 canonical_url: https://github.com/dair-ai/prompt-engineering-guide
 identity:
   github_repo: dair-ai/prompt-engineering-guide
@@ -68,11 +68,11 @@ insights:
   why_it_matters: It provides developers with the foundational knowledge and reference patterns needed to design effective prompts and reliably interface with LLMs for coding, RAG, and agent workflows.
   mental_damage: You now have 74,000 stars worth of prompting techniques to choose from, ensuring you can over-engineer a simple instruction for an entire afternoon.
   tags:
-    - prompt-engineering
-    - llm-guides
-    - rag
     - ai-agents
     - learning-resource
+    - llm-guides
+    - prompt-engineering
+    - rag
   confidence: high
 curation:
   status: included
@@ -88,6 +88,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (74218) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:15:10.906Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.664Z"
@@ -98,11 +106,3 @@ processing:
     updated_at: "2026-05-05T21:01:45.572Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:15:10.906Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

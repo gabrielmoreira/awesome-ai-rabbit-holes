@@ -1,6 +1,6 @@
 id: www__opslevel__com
 kind: website
-name: www.opslevel.com
+name: OpsLevel
 canonical_url: https://www.opslevel.com
 identity: {}
 provenance:
@@ -39,10 +39,10 @@ insights:
   why_it_matters: It centralizes service ownership, health standards, and documentation discovery so platform teams can automate governance without manually chasing down microservice owners.
   mental_damage: Yet another 'single pane of glass' promising to solve organizational chaos, while your team still can't agree on who owns the authentication service.
   tags:
+    - ai-maintenance
     - internal-developer-portal
     - platform-engineering
     - service-catalog
-    - ai-maintenance
   confidence: high
 curation:
   status: excluded
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:52:22.886Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.733Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:52:22.886Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

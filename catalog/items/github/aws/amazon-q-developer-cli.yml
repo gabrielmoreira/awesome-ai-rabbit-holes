@@ -1,6 +1,6 @@
 id: github__aws__amazon-q-developer-cli
 kind: github-repo
-name: amazon-q-developer-cli
+name: Amazon Q Developer CLI
 canonical_url: https://github.com/aws/amazon-q-developer-cli
 identity:
   github_repo: aws/amazon-q-developer-cli
@@ -56,11 +56,11 @@ insights:
   why_it_matters: It allows developers to interact with an AI coding agent directly from the command line to plan, write, and debug code without leaving the terminal.
   mental_damage: AWS built a shiny new CLI, open-sourced it with great fanfare, and then told everyone to migrate to a closed-source successor before the paint even dried.
   tags:
-    - cli
-    - terminal
-    - rust
-    - aws
     - agent
+    - aws
+    - cli
+    - rust
+    - terminal
   confidence: high
 curation:
   status: excluded
@@ -76,6 +76,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (1945) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:09:48.808Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.680Z"
@@ -86,11 +94,3 @@ processing:
     updated_at: "2026-05-05T21:01:14.396Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:09:48.808Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

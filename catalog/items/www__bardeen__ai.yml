@@ -1,6 +1,6 @@
 id: www__bardeen__ai
 kind: website
-name: www.bardeen.ai
+name: Bardeen
 canonical_url: https://www.bardeen.ai
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It provides developers building GTM tools or internal sales ops workflows with pre-built agents for data extraction and CRM synchronization.
   mental_damage: Yet another 'agentic' platform promising to save you 15 hours a week, ensuring you now spend those 15 hours configuring the automation instead of doing the manual work.
   tags:
-    - automation
-    - scraping
-    - gtm
     - agents
+    - automation
+    - gtm
+    - scraping
     - workflow
   confidence: high
 curation:
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:49:47.416Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.731Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:49:47.416Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

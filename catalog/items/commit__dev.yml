@@ -1,6 +1,6 @@
 id: commit__dev
 kind: website
-name: commit.dev
+name: Commit
 canonical_url: https://commit.dev
 identity: {}
 provenance:
@@ -39,8 +39,8 @@ insights:
   mental_damage: Another shortcut that lets you ship a deployed app so fast you’ll spend the rest of the afternoon pretending you definitely still need a local dev environment.
   tags:
     - app-builder
-    - prompt-to-app
     - browser-first
+    - prompt-to-app
     - prototyping
   confidence: medium
 curation:
@@ -56,6 +56,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:43:14.122Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.727Z"
@@ -65,11 +73,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:43:14.122Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

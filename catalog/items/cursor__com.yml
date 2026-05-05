@@ -1,6 +1,6 @@
 id: cursor__com
 kind: website
-name: cursor.com
+name: Cursor
 canonical_url: https://cursor.com
 identity: {}
 provenance:
@@ -84,10 +84,10 @@ insights:
   mental_damage: We have successfully automated the 'vibe check' portion of programming, leaving developers to anxiously debate whether they are still the pilot or just the flight attendant for an agentic autocomplete system.
   tags:
     - ai-ide
-    - coding-agent
     - autocomplete
-    - multi-agent
+    - coding-agent
     - developer-productivity
+    - multi-agent
   confidence: high
 curation:
   status: included
@@ -103,6 +103,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:43:29.684Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.658Z"
@@ -112,11 +120,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:43:29.684Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

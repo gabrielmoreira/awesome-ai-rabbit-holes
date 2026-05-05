@@ -1,6 +1,6 @@
 id: github__coding-solo__godot-mcp
 kind: github-repo
-name: godot-mcp
+name: Godot MCP
 canonical_url: https://github.com/coding-solo/godot-mcp
 identity:
   github_repo: coding-solo/godot-mcp
@@ -75,10 +75,10 @@ insights:
   why_it_matters: It gives AI coding assistants a direct feedback loop into a running Godot project, turning vague game-generation prompts into testable, debuggable execution.
   mental_damage: Finally, your AI can now autonomously break your game engine and read its own crash logs without your help.
   tags:
+    - debugging
+    - game-dev
     - godot
     - mcp
-    - game-dev
-    - debugging
   confidence: high
 curation:
   status: included
@@ -94,6 +94,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (3422) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:13:55.187Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.659Z"
@@ -104,11 +112,3 @@ processing:
     updated_at: "2026-05-05T21:01:38.598Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:13:55.187Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

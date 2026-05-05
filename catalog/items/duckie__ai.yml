@@ -1,6 +1,6 @@
 id: duckie__ai
 kind: website
-name: duckie.ai
+name: Duckie AI
 canonical_url: https://duckie.ai
 identity: {}
 provenance:
@@ -38,8 +38,8 @@ insights:
   why_it_matters: It allows product and support teams to automate sophisticated, investigative ticket resolution workflows without requiring engineering resources to build or maintain the agents.
   mental_damage: Another reminder that while we are still debugging why our AI coworkers can't center a div, the business has already deployed agents that autonomously refund customers and reset passwords.
   tags:
-    - customer-support
     - autonomous-agents
+    - customer-support
     - saas
     - workflow-automation
   confidence: high
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:44:17.147Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.727Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:44:17.147Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

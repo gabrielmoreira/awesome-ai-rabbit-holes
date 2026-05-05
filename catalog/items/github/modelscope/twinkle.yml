@@ -1,6 +1,6 @@
 id: github__modelscope__twinkle
 kind: github-repo
-name: twinkle
+name: Twinkle
 canonical_url: https://github.com/modelscope/twinkle
 identity:
   github_repo: modelscope/twinkle
@@ -41,11 +41,11 @@ insights:
   why_it_matters: It abstracts away infrastructure friction for developers building custom training pipelines, enabling serverless Training-as-a-Service (TaaS) workflows without deep DevOps overhead.
   mental_damage: "Just what the ecosystem needed: another highly modular, superset-API training workbench ensuring you can now argue about torchrun versus Ray cluster configurations in three different client languages."
   tags:
-    - training
     - fine-tuning
     - model-serving
-    - ray
     - pytorch
+    - ray
+    - training
   confidence: high
 curation:
   status: excluded
@@ -61,6 +61,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (219) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:38:55.728Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.708Z"
@@ -71,11 +79,3 @@ processing:
     updated_at: "2026-05-05T21:03:46.027Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:38:55.728Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

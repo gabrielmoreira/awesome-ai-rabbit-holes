@@ -1,6 +1,6 @@
 id: awesomeagents__substack__com
 kind: website
-name: awesomeagents.substack.com
+name: Subscribe to the newsletter
 canonical_url: https://awesomeagents.substack.com
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: Developers building agentic workflows can use this to track framework releases and discover new projects without manually monitoring the ecosystem.
   mental_damage: Just when you thought you had a handle on the agent stack, here comes a weekly reminder that three new orchestration frameworks dropped while you were reading this sentence.
   tags:
-    - newsletter
     - agents
-    - langchain
     - digest
+    - langchain
+    - newsletter
   confidence: high
 curation:
   status: included
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:42:19.723Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.726Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:42:19.723Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

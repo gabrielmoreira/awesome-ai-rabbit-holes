@@ -1,6 +1,6 @@
 id: embold__io
 kind: website
-name: embold.io
+name: Embold
 canonical_url: https://embold.io
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It automates the detection of hard-to-see design flaws and technical debt directly within existing developer workflows like GitHub PRs, Jira, and VS Code.
   mental_damage: Just when you thought AI would write the code for you, here is a tool to remind you that the code you shipped last week is structurally bankrupt.
   tags:
-    - static-analysis
-    - code-quality
     - ci-cd
+    - code-quality
     - enterprise
+    - static-analysis
   confidence: high
 curation:
   status: excluded
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:44:21.459Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.727Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:44:21.459Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

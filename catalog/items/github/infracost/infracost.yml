@@ -1,6 +1,6 @@
 id: github__infracost__infracost
 kind: github-repo
-name: infracost
+name: Infracost
 canonical_url: https://github.com/infracost/infracost
 identity:
   github_repo: infracost/infracost
@@ -56,11 +56,11 @@ insights:
   why_it_matters: It allows engineers to see the financial impact of infrastructure changes before they merge, integrating cost awareness directly into the standard code review workflow.
   mental_damage: We have successfully shifted the existential dread of unexpected cloud bills leftward, ensuring you now watch your budget die in a pull request comment instead of a monthly invoice.
   tags:
-    - terraform
-    - finops
+    - ci-cd
     - cloud-cost
     - devops
-    - ci-cd
+    - finops
+    - terraform
   confidence: high
 curation:
   status: included
@@ -76,6 +76,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (12283) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:25:57.695Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.698Z"
@@ -86,11 +94,3 @@ processing:
     updated_at: "2026-05-05T21:02:43.509Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:25:57.695Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

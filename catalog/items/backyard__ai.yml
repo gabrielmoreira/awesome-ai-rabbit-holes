@@ -1,6 +1,6 @@
 id: backyard__ai
 kind: website
-name: backyard.ai
+name: faradav
 canonical_url: https://backyard.ai
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: While it offers advanced local model parameter controls and custom prompt grammars, it is strictly targeted at narrative roleplay rather than developer workflows.
   mental_damage: We have reached a point where 'no filters' character chat apps are being curated alongside agent orchestration frameworks, just in case you wanted your local LLM to roleplay as an Elf guard instead of fixing a null pointer exception.
   tags:
+    - characters
+    - chat
     - local-ai
     - roleplay
-    - chat
-    - characters
   confidence: high
 curation:
   status: excluded
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:42:25.884Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.726Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:42:25.884Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

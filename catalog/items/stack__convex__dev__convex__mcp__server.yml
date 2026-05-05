@@ -1,6 +1,6 @@
 id: stack__convex__dev__convex__mcp__server
 kind: website
-name: convex-mcp-server
+name: Convex
 canonical_url: https://stack.convex.dev/convex-mcp-server
 identity: {}
 provenance:
@@ -69,11 +69,11 @@ insights:
   why_it_matters: It lets agents directly interact with your backend state and functions, turning your live Convex deployment into a tool-calling surface for coding assistants.
   mental_damage: You can now watch an agent confidently write a one-off query to count word frequencies, be amazed by the automation, and then spend twenty minutes explaining to your team why production data is now also a debugging playground.
   tags:
-    - mcp
-    - convex
-    - backend
     - agent-tools
+    - backend
+    - convex
     - cursor
+    - mcp
   confidence: high
 curation:
   status: included
@@ -89,6 +89,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:48:20.554Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.662Z"
@@ -98,11 +106,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:48:20.554Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

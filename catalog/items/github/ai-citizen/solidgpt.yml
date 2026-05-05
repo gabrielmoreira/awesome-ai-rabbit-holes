@@ -1,6 +1,6 @@
 id: github__ai-citizen__solidgpt
 kind: github-repo
-name: solidgpt
+name: SolidGPT
 canonical_url: https://github.com/ai-citizen/solidgpt
 identity:
   github_repo: ai-citizen/solidgpt
@@ -50,11 +50,11 @@ insights:
   why_it_matters: It allows developers to query their project's source code and documentation directly within their editor to quickly locate methods or understand context without manual hunting.
   mental_damage: Yet another reason to perfect the art of asking an AI where the spaghetti is hidden instead of reading the code yourself.
   tags:
-    - vscode
-    - semantic-search
     - chatbot
-    - notion
     - codebase
+    - notion
+    - semantic-search
+    - vscode
   confidence: high
 curation:
   status: included
@@ -70,6 +70,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (1792) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:06:45.630Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.677Z"
@@ -80,11 +88,3 @@ processing:
     updated_at: "2026-05-05T21:00:54.738Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:06:45.630Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

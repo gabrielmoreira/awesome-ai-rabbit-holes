@@ -1,6 +1,6 @@
 id: github__autocoderoversg__auto-code-rover
 kind: github-repo
-name: auto-code-rover
+name: AutoCodeRover
 canonical_url: https://github.com/autocoderoversg/auto-code-rover
 identity:
   github_repo: autocoderoversg/auto-code-rover
@@ -43,10 +43,10 @@ insights:
   mental_damage: Our new autonomous colleague confidently fixes 30% of bugs while we scramble to review the remaining 70% that it left in a semantically valid but logically disastrous state.
   tags:
     - autonomous-agents
-    - program-repair
-    - swe-bench
     - cli
     - github-issues
+    - program-repair
+    - swe-bench
   confidence: high
 curation:
   status: included
@@ -62,6 +62,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (3071) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:09:29.487Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.680Z"
@@ -72,11 +80,3 @@ processing:
     updated_at: "2026-05-05T21:01:12.266Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:09:29.487Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

@@ -1,6 +1,6 @@
 id: github__johannesjo__parallel-code
 kind: github-repo
-name: parallel-code
+name: Parallel Code
 canonical_url: https://github.com/johannesjo/parallel-code
 identity:
   github_repo: johannesjo/parallel-code
@@ -53,10 +53,10 @@ insights:
   mental_damage: You now have ten agents, ten branches, and a renewed sense that your job is less 'writing code' and more 'managing a small, very confident workforce of context-window tenants.'
   tags:
     - agent-orchestration
-    - git-worktree
     - cli-tools
-    - parallel-agents
     - electron
+    - git-worktree
+    - parallel-agents
   confidence: high
 curation:
   status: included
@@ -72,6 +72,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (609) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:28:49.965Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.700Z"
@@ -82,11 +90,3 @@ processing:
     updated_at: "2026-05-05T21:02:57.507Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:28:49.965Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

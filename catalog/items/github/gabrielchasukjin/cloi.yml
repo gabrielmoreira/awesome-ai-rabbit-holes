@@ -37,20 +37,23 @@ metadata:
       fetched_at: "2026-05-05T21:02:16.993Z"
       bytes: 6801
 insights:
-  summary: A local, terminal-based AI debugging agent that uses RAG to find relevant code and can apply fixes directly to your codebase using local Ollama models or Claude.
-  why_it_matters: It offers a privacy-first, zero-setup workflow for developers who want AI-assisted debugging directly in the terminal without sending code to external servers.
-  mental_damage: Yet another reason to wonder if your terminal is quietly becoming sentient while you're still struggling to configure your PATH.
+  summary: A terminal-based debugging agent that runs locally on your machine, using Ollama or Claude models to analyze errors and suggest fixes with RAG-powered context retrieval.
+  why_it_matters: It lets developers debug directly in the terminal with local or API models, keeping code private while automating error analysis and fix suggestions.
+  mental_damage: Another brave terminal agent promising to fix your bugs, provided you are comfortable with an experimental beta patching your codebase and a 500 MB CodeBERT model running quietly in the background.
   tags:
-    - terminal
+    - cli
     - debugging
     - local-ai
-    - cli
     - rag
+    - terminal
   confidence: high
 curation:
   status: included
-  reason: The product is a CLI-based coding agent that directly debugs, plans, and applies fixes to a developer's local codebase, fitting the coding-agents category.
+  reason: The tool is a developer-facing coding agent that directly debugs code inside the terminal, edits files with reviewable diffs, and fits cleanly as a CLI coding assistant.
   evidence:
+    - "Repo description states: 'Local debugging agent that runs in your terminal.'"
+    - README says Cloi 'analyze[s] errors and apply fixes directly to your codebase' with reviewable diffs.
+    - "Active development: created 2025-05-01, last pushed 2025-06-06, and not archived."
     - "Repo description explicitly states: 'Local debugging agent that runs in your terminal'."
     - README claims it 'analyzes errors and applies fixes directly to your codebase' with a review step.
     - Operates locally with Ollama or optionally via Claude API, using RAG for code context retrieval.
@@ -71,7 +74,7 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.682Z"
+    updated_at: "2026-05-05T20:48:55.440Z"
     cause: null
     next_retry_at: null
   stars:

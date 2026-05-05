@@ -1,6 +1,6 @@
 id: github__fraserxu__book-gpt
 kind: github-repo
-name: book-gpt
+name: Book GPT
 canonical_url: https://github.com/fraserxu/book-gpt
 identity:
   github_repo: fraserxu/book-gpt
@@ -42,9 +42,9 @@ insights:
   why_it_matters: It demonstrates a practical, end-to-end RAG pattern for processing long-form text using JavaScript, serving as a reference implementation for similar document-query tools.
   mental_damage: Another entry in the 'upload a giant text blob and pray the context window holds' genre, proving that even in 2023, we preferred wrapping a PDF in a chat interface to actually reading it.
   tags:
-    - rag
-    - langchain
     - document-qa
+    - langchain
+    - rag
     - web-app
   confidence: high
 curation:
@@ -61,6 +61,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (437) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:20:07.199Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.688Z"
@@ -71,11 +79,3 @@ processing:
     updated_at: "2026-05-05T21:02:14.354Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:20:07.199Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

@@ -1,6 +1,6 @@
 id: github__aigc-audio__audiogpt
 kind: github-repo
-name: audiogpt
+name: AudioGPT
 canonical_url: https://github.com/aigc-audio/audiogpt
 identity:
   github_repo: aigc-audio/audiogpt
@@ -51,8 +51,8 @@ insights:
     - audio
     - langchain
     - multimodal
-    - speech-generation
     - music
+    - speech-generation
   confidence: high
 curation:
   status: included
@@ -68,6 +68,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (10186) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:06:54.433Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.677Z"
@@ -78,11 +86,3 @@ processing:
     updated_at: "2026-05-05T21:00:55.509Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:06:54.433Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

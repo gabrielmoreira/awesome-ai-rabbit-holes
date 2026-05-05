@@ -1,6 +1,6 @@
 id: www__blobr__io
 kind: website
-name: www.blobr.io
+name: Blobr
 canonical_url: https://www.blobr.io
 identity: {}
 provenance:
@@ -38,9 +38,9 @@ insights:
   why_it_matters: It automates routine paid-media optimizations so agencies and advertisers can standardize account management without writing custom scripts or manually tweaking campaigns.
   mental_damage: We’ve finally reached the point where AI agents are fighting over who gets to optimize your negative keyword list while you wonder if ‘AI teammate’ is cheaper than the junior you just laid off.
   tags:
+    - ai-agents
     - google-ads
     - marketing-automation
-    - ai-agents
   confidence: high
 curation:
   status: excluded
@@ -56,6 +56,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T20:49:10.798Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.731Z"
@@ -65,11 +73,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T20:49:10.798Z"
-    cause: null
-    next_retry_at: null
-    attempts: 2
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

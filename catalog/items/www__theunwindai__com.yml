@@ -1,6 +1,6 @@
 id: www__theunwindai__com
 kind: website
-name: www.theunwindai.com
+name: Unwind AI
 canonical_url: https://www.theunwindai.com
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It aggregates high-leverage AI development trends and tutorials into a single feed, helping developers keep up with the rapidly evolving agent and LLM ecosystem without chasing individual repos.
   mental_damage: Yet another expertly curated daily reminder that while you are fixing a CSS bug, the rest of the ecosystem is apparently building autonomous, 24/7, self-teaching agent workforces.
   tags:
-    - newsletter
     - ai-agents
-    - llm
     - content-hub
+    - llm
+    - newsletter
     - tutorials
   confidence: high
 curation:
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:53:48.030Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.734Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:53:48.030Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

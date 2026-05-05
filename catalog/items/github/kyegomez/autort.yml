@@ -1,6 +1,6 @@
 id: github__kyegomez__autort
 kind: github-repo
-name: autort
+name: AutoRT
 canonical_url: https://github.com/kyegomez/autort
 identity:
   github_repo: kyegomez/autort
@@ -56,11 +56,11 @@ insights:
   why_it_matters: It provides a code-first framework for developers building embodied AI systems who need to orchestrate robotic agents based on visual scene understanding.
   mental_damage: You can now orchestrate a swarm of robots to fetch a bottle from the table, provided you've successfully navigated the dependency hell of installing a library named after a swarm.
   tags:
-    - robotics
-    - multi-agent
-    - swarm
     - llm
+    - multi-agent
+    - robotics
     - sdk
+    - swarm
   confidence: high
 curation:
   status: included
@@ -76,6 +76,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:32:44.383Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.703Z"
@@ -86,11 +94,3 @@ processing:
     updated_at: "2026-05-05T21:03:14.234Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:32:44.383Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

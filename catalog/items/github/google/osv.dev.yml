@@ -1,6 +1,6 @@
 id: github__google__osv.dev
 kind: github-repo
-name: osv.dev
+name: OSV (Open Source Vulnerabilities) database
 canonical_url: https://github.com/google/osv.dev
 identity:
   github_repo: google/osv.dev
@@ -47,11 +47,11 @@ insights:
   why_it_matters: It provides the structured vulnerability data that AI coding agents and security scanners need to automatically detect and patch insecure dependencies in your codebase.
   mental_damage: We now have an autonomous pipeline to find bugs in the code that AI agents wrote, ensuring the circle of life remains perfectly automated.
   tags:
+    - api
+    - database
+    - scanner
     - security
     - vulnerability
-    - database
-    - api
-    - scanner
   confidence: high
 curation:
   status: included
@@ -67,6 +67,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (2650) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:22:08.421Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.689Z"
@@ -77,11 +85,3 @@ processing:
     updated_at: "2026-05-05T21:02:24.347Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:22:08.421Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

@@ -1,13 +1,13 @@
 id: github__acunniffe__git-ai
 kind: github-repo
-name: git-ai
+name: Git AI
 canonical_url: https://github.com/acunniffe/git-ai
 identity:
   github_repo: acunniffe/git-ai
 provenance:
   discoveries:
     - id: discovery__github__acunniffe__git-ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T20:48:55.437Z"
+      discovered_at: "2026-05-05T22:33:31.148Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -28,57 +28,57 @@ metadata:
     license: Apache-2.0
     archived: false
     created_at: "2025-07-02T16:09:26Z"
-    pushed_at: "2026-05-05T20:50:05Z"
+    pushed_at: "2026-05-05T23:02:53Z"
     description: A Git extension for tracking the AI-generated code in your repos
     homepage: https://usegitai.com
     topics:
       - ai
       - ai-blame
       - coding-agents
-    last_checked_at: "2026-05-05T21:00:49.300Z"
+    last_checked_at: "2026-05-05T23:07:40.254Z"
     readme:
-      fetched_at: "2026-05-05T21:00:49.300Z"
+      fetched_at: "2026-05-05T23:07:40.254Z"
       bytes: 14324
 insights:
-  summary: A Git extension that automatically tracks and attributes AI-generated code lines to the specific agent, model, and session used to create them.
-  why_it_matters: It restores provenance and accountability to repositories polluted by agent-generated code, allowing developers to audit *why* a line was written, not just *who* committed it.
-  mental_damage: Finally, you can run git blame not to find the human who ruined the build, but to discover which specific hallucination-prone model you need to yell at in the logs.
+  summary: A Git extension that automatically tracks and attributes AI-generated code to the specific model, agent, and session that wrote it.
+  why_it_matters: It restores provenance to repositories increasingly filled with agent-generated code, letting developers trace implementation details back to the original AI session and prompt.
+  mental_damage: We have successfully reached the point where we need a dedicated audit trail just to remember which chatbot we delegated our codebase to.
   tags:
     - git
-    - ai-attribution
+    - attribution
+    - ai-blame
     - cli
-    - code-tracking
-    - blame
+    - version-control
   confidence: high
 curation:
   status: included
-  reason: It is a developer-facing extension that integrates with existing coding agents and Git workflows to add a memory and attribution layer, rather than being a primary coding assistant itself.
+  reason: This is a developer-facing CLI extension that integrates directly into the git workflow to manage and inspect AI-generated code within a repository, fitting the terminal agent tooling profile.
   evidence:
     - Repo description states it is 'A Git extension for tracking the AI-generated code in your repos'.
-    - README demonstrates augmented git workflows like 'git-ai blame' to show model and session IDs for code lines.
-    - Supports augmenting major agents (Claude, Cursor, Copilot, etc.) rather than acting as a standalone IDE agent.
+    - README demonstrates a `git-ai blame` workflow that shows model and session ids for specific code lines.
+    - Supports major terminal and IDE agents including Claude Code, Cursor, and GitHub Copilot.
 placement:
-  primary_category: ai-dev-extensions
-  section: null
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
   reason: Stars (1772) exceeded threshold (150)
 processing:
-  discover:
-    status: done
-    updated_at: "2026-05-05T20:48:55.440Z"
-    cause: null
-    next_retry_at: null
-  stars:
-    status: done
-    updated_at: "2026-05-05T21:00:49.300Z"
-    cause: null
-    next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:05:48.120Z"
+    updated_at: "2026-05-05T23:08:25.900Z"
     cause: null
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v2-baseline
     category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T22:33:31.149Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T23:07:40.254Z"
+    cause: null
+    next_retry_at: null

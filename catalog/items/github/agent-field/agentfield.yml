@@ -1,6 +1,6 @@
 id: github__agent-field__agentfield
 kind: github-repo
-name: agentfield
+name: AgentField
 canonical_url: https://github.com/agent-field/agentfield
 identity:
   github_repo: agent-field/agentfield
@@ -62,10 +62,10 @@ insights:
   mental_damage: We have successfully reinvented the microservice stack for the third time this week, only this time the services occasionally hallucinate and need a cryptographic identity to do so.
   tags:
     - agents
-    - control-plane
-    - sdk
     - audit
+    - control-plane
     - python
+    - sdk
   confidence: high
 curation:
   status: included
@@ -81,6 +81,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (1629) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:06:00.951Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.676Z"
@@ -91,11 +99,3 @@ processing:
     updated_at: "2026-05-05T21:00:50.297Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:06:00.951Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

@@ -1,6 +1,6 @@
 id: github__apache__echarts
 kind: github-repo
-name: echarts
+name: ECharts
 canonical_url: https://github.com/apache/echarts
 identity:
   github_repo: apache/echarts
@@ -66,10 +66,10 @@ insights:
   why_it_matters: It remains a standard, high-traction choice for developers needing rich, customizable data visualizations without adopting an AI-specific workflow.
   mental_damage: Developers now find themselves evaluating whether their static chart library needs an MCP server, because apparently even pie charts need agentic capabilities in 2024.
   tags:
-    - data-visualization
-    - charting
-    - javascript
     - browser
+    - charting
+    - data-visualization
+    - javascript
   confidence: high
 curation:
   status: excluded
@@ -85,6 +85,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (66280) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:08:30.200Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.663Z"
@@ -95,11 +103,3 @@ processing:
     updated_at: "2026-05-05T21:01:05.736Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:08:30.200Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

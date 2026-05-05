@@ -1,6 +1,6 @@
 id: www__alibabacloud__com__en__product__hologres
 kind: website
-name: hologres
+name: Hologres
 canonical_url: https://www.alibabacloud.com/en/product/hologres
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It provides developers building AI/ML pipelines with a unified SQL interface for real-time feature storage, vector search, and low-latency analytics at petabyte scale.
   mental_damage: "Just what the modern stack needed: another proprietary, Postgres-flavored data lakehouse to prematurely migrate to before the next managed warehouse trend arrives."
   tags:
-    - data-warehouse
-    - real-time
     - alibaba-cloud
+    - data-warehouse
     - postgresql
+    - real-time
     - vector-search
   confidence: high
 curation:
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:49:32.160Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.731Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:49:32.160Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

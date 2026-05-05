@@ -1,6 +1,6 @@
 id: github__einstack__glide
 kind: github-repo
-name: glide
+name: Glide
 canonical_url: https://github.com/einstack/glide
 identity:
   github_repo: einstack/glide
@@ -53,11 +53,11 @@ insights:
   why_it_matters: It abstracts away provider-specific APIs and transient errors so developers can swap LLM backends without touching application code while gaining production-grade resilience.
   mental_damage: Yet another layer of infrastructure promising to make your AI stack resilient, just in case the six other abstractions between you and the model weights fail simultaneously.
   tags:
-    - llm-gateway
-    - genai
-    - llmops
-    - go
     - cloud-native
+    - genai
+    - go
+    - llm-gateway
+    - llmops
   confidence: medium
 curation:
   status: included
@@ -73,6 +73,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (159) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:17:43.836Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.686Z"
@@ -83,11 +91,3 @@ processing:
     updated_at: "2026-05-05T21:02:00.550Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:17:43.836Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

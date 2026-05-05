@@ -1,6 +1,6 @@
 id: docs__anthropic__com__en__docs__agents__and__tools__claude__code__overview
 kind: website
-name: overview
+name: Claude Code
 canonical_url: https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview
 identity: {}
 provenance:
@@ -38,9 +38,9 @@ insights:
   why_it_matters: It provides the canonical reference for a first-party agent that lets developers delegate coding tasks, debugging, and testing to Claude directly from the CLI.
   mental_damage: Now you can feel productive while watching a model silently refactor your repo in a terminal window you barely understand.
   tags:
-    - coding-agent
-    - cli
     - anthropic
+    - cli
+    - coding-agent
     - documentation
   confidence: high
 curation:
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:43:53.784Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.727Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:43:53.784Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

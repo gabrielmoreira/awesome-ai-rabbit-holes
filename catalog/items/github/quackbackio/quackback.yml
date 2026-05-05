@@ -24,17 +24,28 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 69
+    forks: 16
+    license: AGPL-3.0
+    archived: false
+    created_at: "2025-12-02T00:39:02Z"
+    pushed_at: "2026-05-05T21:30:13Z"
+    description: Open source alternative to Canny, UserVoice, Productboard
+    homepage: https://quackback.io
+    topics:
+      - changelog
+      - customer-feedback
+      - feature-requests
+      - feedback
+      - feedback-collection
+      - product-management
+      - roadmaps
+      - self-hosted
+      - user-feedback
+    last_checked_at: "2026-05-05T23:08:15.122Z"
+    readme:
+      fetched_at: "2026-05-05T23:08:15.122Z"
+      bytes: 6148
 insights:
   summary: null
   why_it_matters: null
@@ -58,13 +69,17 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-05T23:08:15.122Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T21:04:23.169Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-05-05T23:08:33.635Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-05-06T00:08:33.635Z"
+    attempts: 0
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

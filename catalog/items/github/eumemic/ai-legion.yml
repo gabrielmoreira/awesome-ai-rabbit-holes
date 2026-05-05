@@ -1,6 +1,6 @@
 id: github__eumemic__ai-legion
 kind: github-repo
-name: ai-legion
+name: AI Legion
 canonical_url: https://github.com/eumemic/ai-legion
 identity:
   github_repo: eumemic/ai-legion
@@ -57,10 +57,10 @@ insights:
   mental_damage: It offers the unique thrill of watching autonomous agents eat through your GPT-4 token budget while struggling to remember how to format a simple multiline parameter.
   tags:
     - agents
-    - multi-agent
-    - framework
-    - nodejs
     - autonomous
+    - framework
+    - multi-agent
+    - nodejs
   confidence: high
 curation:
   status: included
@@ -76,6 +76,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (1427) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:18:33.116Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.665Z"
@@ -86,11 +94,3 @@ processing:
     updated_at: "2026-05-05T21:02:05.255Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:18:33.116Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

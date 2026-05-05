@@ -1,6 +1,6 @@
 id: github__michaelfeil__infinity
 kind: github-repo
-name: infinity
+name: Infinity
 canonical_url: https://github.com/michaelfeil/infinity
 identity:
   github_repo: michaelfeil/infinity
@@ -47,9 +47,9 @@ insights:
   tags:
     - embeddings
     - inference
-    - serving
     - multimodal
     - rest-api
+    - serving
   confidence: high
 curation:
   status: included
@@ -65,6 +65,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (2787) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:37:18.002Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.706Z"
@@ -75,11 +83,3 @@ processing:
     updated_at: "2026-05-05T21:03:37.433Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:37:18.002Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

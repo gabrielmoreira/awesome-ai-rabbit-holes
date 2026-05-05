@@ -1,6 +1,6 @@
 id: github__ag2ai__fastagency
 kind: github-repo
-name: fastagency
+name: FastAgency
 canonical_url: https://github.com/ag2ai/fastagency
 identity:
   github_repo: ag2ai/fastagency
@@ -45,11 +45,11 @@ insights:
   why_it_matters: It allows developers to bridge the gap between AG2 Jupyter notebook prototypes and distributed, production-ready applications with minimal code changes.
   mental_damage: We have officially reached the point where we need a framework to manage the framework that manages the agents that manage the code.
   tags:
-    - multi-agent
     - ag2
     - autogen
-    - production
+    - multi-agent
     - orchestration
+    - production
   confidence: high
 curation:
   status: included
@@ -65,6 +65,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (537) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:05:58.098Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.676Z"
@@ -75,11 +83,3 @@ processing:
     updated_at: "2026-05-05T21:00:50.008Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:05:58.098Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

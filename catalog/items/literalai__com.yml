@@ -1,6 +1,6 @@
 id: literalai__com
 kind: website
-name: literalai.com
+name: Literal AI
 canonical_url: https://literalai.com
 identity: {}
 provenance:
@@ -38,9 +38,9 @@ insights:
   why_it_matters: It provides developers with the observability and evaluation infrastructure needed to monitor, debug, and improve production LLM workflows.
   mental_damage: Yet another dashboard promising to tame the chaos of your prompts, right alongside the five other LLMOps tools you bookmarked and never deployed.
   tags:
+    - evaluation
     - llmops
     - observability
-    - evaluation
     - platform
   confidence: medium
 curation:
@@ -56,6 +56,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:45:56.815Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.728Z"
@@ -65,11 +73,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:45:56.815Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

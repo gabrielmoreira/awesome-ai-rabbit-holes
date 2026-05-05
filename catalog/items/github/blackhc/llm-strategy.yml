@@ -1,6 +1,6 @@
 id: github__blackhc__llm-strategy
 kind: github-repo
-name: llm-strategy
+name: LLM Strategy
 canonical_url: https://github.com/blackhc/llm-strategy
 identity:
   github_repo: blackhc/llm-strategy
@@ -49,11 +49,11 @@ insights:
   why_it_matters: It lets developers define strongly-typed interfaces and delegate the implementation to LLMs, reducing boilerplate for tasks that are easier to describe than to code.
   mental_damage: You now have a framework that lets you pay an API to implement your interfaces, perfectly automating the transition from 'I have a type signature' to 'I have a credit card bill'.
   tags:
-    - python
-    - llm
     - framework
-    - typing
     - langchain
+    - llm
+    - python
+    - typing
   confidence: high
 curation:
   status: included
@@ -69,6 +69,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (399) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:10:59.607Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.681Z"
@@ -79,11 +87,3 @@ processing:
     updated_at: "2026-05-05T21:01:22.072Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:10:59.607Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

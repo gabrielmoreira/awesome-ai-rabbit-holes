@@ -1,6 +1,6 @@
 id: aidevboard__com__mcp
 kind: website
-name: mcp
+name: AI Dev Jobs MCP
 canonical_url: https://aidevboard.com/mcp
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It serves as a navigation aid for developers looking to discover and integrate MCP-compatible tools into their AI-assisted workflows.
   mental_damage: Another layer of abstraction has arrived to help you browse the abstraction layers you haven't finished configuring yet.
   tags:
-    - mcp
     - directory
-    - tooling
     - index
+    - mcp
+    - tooling
   confidence: high
 curation:
   status: included
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:41:35.081Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.726Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:41:35.081Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__snaggle-ai__openapi-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-05T20:48:55.437Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [snaggle-ai/openapi-mcp-server](https://github.com/snaggle-ai/openapi-mcp-server) 🏎️ 🏠 - Connect any HTTP/REST API server using an Open API spec (v3)"
         confidence: high
     - id: discovery__github__snaggle-ai__openapi-mcp-server__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-05T20:48:55.437Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -36,6 +36,22 @@ provenance:
         anchor_text: snaggle-ai/openapi-mcp-server
         extracted_url: https://github.com/snaggle-ai/openapi-mcp-server
         surrounding_text: "-   **[snaggle-ai/openapi-mcp-server](https://github.com/snaggle-ai/openapi-mcp-server)** [![GitHub stars](https://img.shields.io/github/stars/snaggle-ai/openapi-mcp-server?style=social)](https://github.com/snaggle-ai/openapi-mcp-server): Connects to HTTP/REST APIs using an OpenAPI specification."
+        confidence: high
+    - id: discovery__github__janwilmake__openapi-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T22:33:31.148Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: snaggle-ai/openapi-mcp-server
+        extracted_url: https://github.com/snaggle-ai/openapi-mcp-server
+        surrounding_text: "- [snaggle-ai/openapi-mcp-server](https://github.com/snaggle-ai/openapi-mcp-server) 🏎️ 🏠 - Connect any HTTP/REST API server using an Open API spec (v3)"
         confidence: high
 metadata:
   github:
@@ -57,10 +73,10 @@ insights:
   why_it_matters: It allows coding agents in tools like Claude and Cursor to reliably navigate complex API specs without the developer manually feeding endpoints into context.
   mental_damage: We've successfully built infrastructure to help AI understand the very APIs we were too burnt out to read ourselves.
   tags:
-    - mcp
-    - openapi
     - api-integration
     - context-engineering
+    - mcp
+    - openapi
   confidence: high
 curation:
   status: included
@@ -86,7 +102,7 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.671Z"
+    updated_at: "2026-05-05T22:33:31.151Z"
     cause: null
     next_retry_at: null
   stars:

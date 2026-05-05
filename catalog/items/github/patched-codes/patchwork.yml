@@ -1,6 +1,6 @@
 id: github__patched-codes__patchwork
 kind: github-repo
-name: patchwork
+name: Patchwork
 canonical_url: https://github.com/patched-codes/patchwork
 identity:
   github_repo: patched-codes/patchwork
@@ -49,11 +49,11 @@ insights:
   why_it_matters: It lets developers offload repetitive repo maintenance and code review chores to local or CI-run agents that work directly with their existing codebase and preferred models.
   mental_damage: Another brave CLI agent ready to refactor your repo at 2 a.m. while you stare at the terminal wondering if you shipped the fix or just the hallucination.
   tags:
-    - cli
     - automation
+    - cli
     - code-review
-    - self-hosted
     - llm
+    - self-hosted
   confidence: high
 curation:
   status: included
@@ -69,6 +69,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (1555) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:43:58.224Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.712Z"
@@ -79,11 +87,3 @@ processing:
     updated_at: "2026-05-05T21:04:12.841Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:43:58.224Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

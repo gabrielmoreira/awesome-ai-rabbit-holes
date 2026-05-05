@@ -1,6 +1,6 @@
 id: findadomain__dev__mcp
 kind: website
-name: mcp
+name: Find-A-Domain
 canonical_url: https://findadomain.dev/mcp
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It allows AI agents and assistants to perform live domain verification and research as part of broader automated workflows.
   mental_damage: We have finally achieved the technological singularity where your AI agent can argue with a registrar API about whether .xyz is taken, saving you the crushing burden of opening a browser tab.
   tags:
-    - mcp
-    - domain
-    - tooling
     - api
+    - domain
+    - mcp
+    - tooling
   confidence: high
 curation:
   status: included
@@ -56,6 +56,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:44:28.439Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.727Z"
@@ -65,11 +73,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:44:28.439Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

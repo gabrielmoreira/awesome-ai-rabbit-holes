@@ -1,6 +1,6 @@
 id: github__aaronjmars__aeon
 kind: github-repo
-name: aeon
+name: Aeon
 canonical_url: https://github.com/aaronjmars/aeon
 identity:
   github_repo: aaronjmars/aeon
@@ -47,9 +47,9 @@ insights:
   tags:
     - agents
     - autonomous
+    - cli
     - github-actions
     - scheduling
-    - cli
   confidence: high
 curation:
   status: included
@@ -65,6 +65,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (271) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:05:17.382Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.676Z"
@@ -75,11 +83,3 @@ processing:
     updated_at: "2026-05-05T21:00:45.781Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:05:17.382Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

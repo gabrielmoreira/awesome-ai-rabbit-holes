@@ -1,6 +1,6 @@
 id: github__kaito-project__kaito
 kind: github-repo
-name: kaito
+name: Kaito
 canonical_url: https://github.com/kaito-project/kaito
 identity:
   github_repo: kaito-project/kaito
@@ -46,9 +46,9 @@ insights:
   why_it_matters: It simplifies running self-hosted LLMs on Kubernetes by handling the complex orchestration of GPU nodes, model memory estimation, and inference engine configuration automatically.
   mental_damage: Just when you thought your YAML files were safe, now your cluster can auto-provision expensive GPUs just to host a chatbot that summarizes your Jira tickets.
   tags:
+    - gpu
     - kubernetes
     - llm-serving
-    - gpu
     - operator
     - rag
   confidence: high
@@ -66,6 +66,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (926) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:29:59.750Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.701Z"
@@ -76,11 +84,3 @@ processing:
     updated_at: "2026-05-05T21:03:02.228Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:29:59.750Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

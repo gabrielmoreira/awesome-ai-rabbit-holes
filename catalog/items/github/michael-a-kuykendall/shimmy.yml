@@ -1,6 +1,6 @@
 id: github__michael-a-kuykendall__shimmy
 kind: github-repo
-name: shimmy
+name: Shimmy
 canonical_url: https://github.com/michael-a-kuykendall/shimmy
 identity:
   github_repo: michael-a-kuykendall/shimmy
@@ -76,11 +76,11 @@ insights:
   why_it_matters: It allows developers to point existing OpenAI SDK integrations, IDE extensions, and coding agents at a local, free, and private backend without changing application code.
   mental_damage: Yet another 'drop-in' replacement promising freedom from API bills, ensuring you can now spend your afternoon debugging CUDA drivers instead of rate limits.
   tags:
-    - local-ai
-    - inference-server
-    - rust
-    - openai-compatible
     - gguf
+    - inference-server
+    - local-ai
+    - openai-compatible
+    - rust
   confidence: high
 curation:
   status: included
@@ -96,6 +96,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (4781) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:37:15.581Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.669Z"
@@ -106,11 +114,3 @@ processing:
     updated_at: "2026-05-05T21:03:37.118Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:37:15.581Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

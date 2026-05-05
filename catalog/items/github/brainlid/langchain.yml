@@ -1,6 +1,6 @@
 id: github__brainlid__langchain
 kind: github-repo
-name: langchain
+name: Langchain
 canonical_url: https://github.com/brainlid/langchain
 identity:
   github_repo: brainlid/langchain
@@ -50,9 +50,9 @@ insights:
   mental_damage: Because what the world definitely needed in 2024 was another LangChain port, ensuring that the '灵丹妙药' (magic medicine) of Python can now introduce the same vector-db-induced complexity to your fault-tolerant Elixir supervisors.
   tags:
     - elixir
+    - framework
     - langchain
     - llm-sdk
-    - framework
   confidence: high
 curation:
   status: included
@@ -68,6 +68,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (1159) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:11:31.656Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.681Z"
@@ -78,11 +86,3 @@ processing:
     updated_at: "2026-05-05T21:01:24.613Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:11:31.656Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

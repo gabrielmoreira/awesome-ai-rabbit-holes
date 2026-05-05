@@ -1,6 +1,6 @@
 id: element__fm
 kind: website
-name: element.fm
+name: ELEMENT.FM
 canonical_url: https://element.fm
 identity: {}
 provenance:
@@ -38,9 +38,9 @@ insights:
   why_it_matters: Developers building podcasting tools or integrations can leverage its API and open-source self-hosting options to power their own audio workflows.
   mental_damage: Yet another platform promising AI-generated content, ensuring that the only thing truly unlimited about podcasting is the number of dashboards we need to check.
   tags:
-    - podcast
-    - hosting
     - ai-generated
+    - hosting
+    - podcast
     - self-hosted
   confidence: high
 curation:
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:44:22.271Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.727Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:44:22.271Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

@@ -1,6 +1,6 @@
 id: github__acedatacloud__nanobananamcp
 kind: github-repo
-name: mcpnanobanana
+name: AceDataCloud/MCPNanoBanana
 canonical_url: https://github.com/acedatacloud/nanobananamcp
 identity:
   github_repo: acedatacloud/nanobananamcp
@@ -8,6 +8,22 @@ provenance:
   discoveries:
     - id: discovery__github__acedatacloud__mcpnanobanana__awesome-list__punkpeye__awesome-mcp-servers
       discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🎨 <a name="art-and-culture"></a>Art & Culture
+        anchor_text: AceDataCloud/MCPNanoBanana
+        extracted_url: https://github.com/acedatacloud/mcpnanobanana
+        surrounding_text: "- [AceDataCloud/MCPNanoBanana](https://github.com/AceDataCloud/MCPNanoBanana) [![AceDataCloud/MCPNanoBanana MCP server](https://glama.ai/mcp/servers/AceDataCloud/MCPNanoBanana/badges/score.svg)](https://glama.ai/mcp/servers/AceDataCloud/MCPNanoBanana) 🐍 ☁️ - NanoBanana AI image generation and editing with virtual try-on and product placement in realistic scenes."
+        confidence: high
+    - id: discovery__github__acedatacloud__nanobananamcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T22:33:31.148Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -39,24 +55,28 @@ metadata:
       - image-generation
       - mcp-server
       - model-context-protocol
-    last_checked_at: "2026-05-05T21:00:47.949Z"
+    last_checked_at: "2026-05-05T21:00:48.101Z"
     readme:
-      fetched_at: "2026-05-05T21:00:47.949Z"
+      fetched_at: "2026-05-05T21:00:48.101Z"
       bytes: 13936
 insights:
-  summary: An MCP server that exposes Google's Nano Banana AI image generation and editing capabilities via the AceDataCloud API to MCP-compatible clients like Claude, VS Code, and Cursor.
-  why_it_matters: Developers can integrate high-quality image generation, editing, virtual try-on, and product placement directly into their AI-assisted IDE workflows without leaving the editor.
-  mental_damage: We have successfully abstracted image generation so deeply into our coding tools that we can now procrastinate on both our frontend and backend tasks simultaneously within the same MCP config.
+  summary: An MCP server that exposes Google's Nano Banana image generation and editing capabilities via the AceDataCloud API to MCP-compatible developer tools like Claude and VS Code.
+  why_it_matters: It lets developers generate, edit, and composite images directly from their IDE or AI assistant without switching contexts to external design tools or manual API calls.
+  mental_damage: We have successfully integrated generative AI image editing into the coding workflow, ensuring that procrastination can now be done entirely in VS Code.
   tags:
-    - mcp
-    - image-generation
     - ai-image
+    - ai-integration
     - developer-tools
+    - image-generation
+    - mcp
   confidence: high
 curation:
   status: included
-  reason: The project is an MCP server providing image generation tools, which fits squarely into the MCP Servers and Tooling category.
+  reason: The project is a standalone MCP server implementation designed to integrate image generation capabilities into developer environments, fitting the MCP infrastructure category.
   evidence:
+    - "Repo description explicitly states: 'MCP server for Nano Banana AI image generation and editing via Ace Data Cloud.'"
+    - README confirms it is a Model Context Protocol server with integration instructions for Claude, VS Code, Cursor, Windsurf, and other MCP-compatible clients.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Art & Culture', confirming its role as MCP infrastructure.
     - "Repo description explicitly states: 'MCP server for Nano Banana AI image generation and editing'."
     - README confirms it is a Model Context Protocol server with tools like nanobanana_generate_image and nanobanana_edit_image.
     - Topics include mcp-server and model-context-protocol, aligning with the MCP category.
@@ -77,11 +97,11 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.676Z"
+    updated_at: "2026-05-05T22:33:31.149Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:00:47.949Z"
+    updated_at: "2026-05-05T21:00:48.101Z"
     cause: null
     next_retry_at: null

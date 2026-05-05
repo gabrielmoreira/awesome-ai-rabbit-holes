@@ -1,6 +1,6 @@
 id: github__mshumer__gpt-prompt-engineer
 kind: github-repo
-name: gpt-prompt-engineer
+name: GPT Prompt Engineer
 canonical_url: https://github.com/mshumer/gpt-prompt-engineer
 identity:
   github_repo: mshumer/gpt-prompt-engineer
@@ -41,10 +41,10 @@ insights:
   why_it_matters: It automates the tedious trial-and-error cycle of prompt engineering by scientifically benchmarking candidates against your specific test cases.
   mental_damage: We've successfully built a distributed system to solve the problem of writing a text box input, effectively turning prompt engineering into a spectator sport with an ELO leaderboard.
   tags:
-    - prompt-engineering
     - evals
-    - notebooks
     - llm-optimization
+    - notebooks
+    - prompt-engineering
   confidence: high
 curation:
   status: included
@@ -60,6 +60,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (9655) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:39:23.772Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.708Z"
@@ -70,11 +78,3 @@ processing:
     updated_at: "2026-05-05T21:03:48.484Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:39:23.772Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

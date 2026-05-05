@@ -1,6 +1,6 @@
 id: www__revenuecat__com
 kind: website
-name: www.revenuecat.com
+name: RevenueCat
 canonical_url: https://www.revenuecat.com
 identity: {}
 provenance:
@@ -38,11 +38,11 @@ insights:
   why_it_matters: It allows mobile and web developers to offload the maintenance of platform-specific purchase logic and receipt validation so they can focus on building product features.
   mental_damage: After solving the hardest backend problem in app development with a single API, you are now legally obligated to spend the reclaimed engineering hours building another AI wrapper.
   tags:
-    - iap
-    - subscriptions
-    - mobile
     - backend
+    - iap
+    - mobile
     - sdk
+    - subscriptions
   confidence: high
 curation:
   status: excluded
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:53:12.492Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.734Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:53:12.492Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

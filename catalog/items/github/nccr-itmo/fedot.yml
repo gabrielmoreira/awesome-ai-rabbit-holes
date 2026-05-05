@@ -1,13 +1,13 @@
 id: github__nccr-itmo__fedot
 kind: github-repo
-name: fedot
+name: FEDOT
 canonical_url: https://github.com/nccr-itmo/fedot
 identity:
   github_repo: nccr-itmo/fedot
 provenance:
   discoveries:
     - id: discovery__github__nccr-itmo__fedot__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T20:48:55.437Z"
+      discovered_at: "2026-05-05T22:33:31.148Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -43,28 +43,20 @@ metadata:
       - multimodality
       - parameter-tuning
       - structural-learning
-    last_checked_at: "2026-05-05T21:03:51.967Z"
+    last_checked_at: "2026-05-05T23:08:02.723Z"
     readme:
-      fetched_at: "2026-05-05T21:03:51.967Z"
+      fetched_at: "2026-05-05T23:08:02.723Z"
       bytes: 17507
 insights:
-  summary: FEDOT is an open-source Python AutoML framework that uses evolutionary algorithms to automatically design and optimize machine learning pipelines for classification, regression, clustering, and time series tasks.
-  why_it_matters: It allows developers to automate the construction of complex ML workflows with support for custom models, hyperparameter tuning, and multimodal data without hand-crafting pipeline architectures.
-  mental_damage: Just when you thought your job was safe from AI taking it, it turns out an evolutionary algorithm written in Python is now better at designing your ML pipelines than you are.
-  tags:
-    - automl
-    - machine-learning
-    - evolutionary-algorithms
-    - python
-    - pipelines
-  confidence: high
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
 curation:
-  status: excluded
-  reason: This is a general automated machine learning framework for data scientists, not a developer-facing AI tool, agent, or infrastructure component for writing or managing software code.
-  evidence:
-    - Repo description and README position it as an 'Automated modeling and machine learning framework' for classification, regression, and forecasting, not code generation or developer tooling.
-    - GitHub topics include 'automated-machine-learning' and 'machine-learning' with no developer-tooling, IDE, or agent-related tags.
-    - Listed in Awesome-LLMOps under the 'AutoML' section, which is a data science vertical rather than a software engineering workflow tool.
+  status: pending
+  reason: null
+  evidence: []
 placement:
   primary_category: null
   section: null
@@ -72,21 +64,23 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (704) exceeded threshold (150)
 processing:
+  categorize:
+    status: deferred
+    updated_at: "2026-05-05T23:08:33.635Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-05-06T00:08:33.635Z"
+    attempts: 0
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.442Z"
+    updated_at: "2026-05-05T22:33:31.151Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:51.967Z"
+    updated_at: "2026-05-05T23:08:02.723Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:40:02.463Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

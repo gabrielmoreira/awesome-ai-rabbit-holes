@@ -1,6 +1,6 @@
 id: www__coursera__org__learn__prompt__engineering
 kind: website
-name: prompt-engineering
+name: "Coursera: Chatgpt 应用提示工程"
 canonical_url: https://www.coursera.org/learn/prompt-engineering
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It provides a structured learning path for developers looking to improve their interaction patterns with LLMs, albeit in a traditional lecture format.
   mental_damage: Another reminder that we are now paying for university-level credit to learn how to talk to a chatbot that might hallucinate the syntax anyway.
   tags:
-    - education
-    - prompt-engineering
     - course
+    - education
     - llm
+    - prompt-engineering
   confidence: high
 curation:
   status: excluded
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:50:20.505Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.732Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:50:20.505Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

@@ -1,6 +1,6 @@
 id: github__cloudwego__eino
 kind: github-repo
-name: eino
+name: Eino
 canonical_url: https://github.com/cloudwego/eino
 identity:
   github_repo: cloudwego/eino
@@ -48,11 +48,11 @@ insights:
   why_it_matters: It gives Go developers a LangChain-style ecosystem with first-class streaming, tool use, and multi-agent patterns without leaving their preferred language.
   mental_damage: Another week, another framework promising to tame the Agent ReAct loop, this time in Go, because apparently we needed a CloudWeGo-flavored reminder that our orchestration choices are now as abundant as our context windows are small.
   tags:
-    - go
-    - llm-framework
     - agents
-    - orchestration
+    - go
     - langchain
+    - llm-framework
+    - orchestration
   confidence: high
 curation:
   status: included
@@ -68,6 +68,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (11033) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:13:31.917Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.682Z"
@@ -78,11 +86,3 @@ processing:
     updated_at: "2026-05-05T21:01:36.339Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:13:31.917Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

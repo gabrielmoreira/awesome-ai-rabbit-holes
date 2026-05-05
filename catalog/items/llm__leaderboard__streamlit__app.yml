@@ -1,6 +1,6 @@
 id: llm__leaderboard__streamlit__app
 kind: website
-name: llm-leaderboard.streamlit.app
+name: LLM-Leaderboard-streamlit
 canonical_url: https://llm-leaderboard.streamlit.app
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It offers developers a quick, visual reference to benchmark model capabilities when selecting an LLM for their specific application.
   mental_damage: Yet another arena where we obsess over 0.5% benchmark gains while our own production logs remain 90% hallucination errors.
   tags:
-    - llm
     - benchmark
-    - leaderboard
     - eval
+    - leaderboard
+    - llm
   confidence: medium
 curation:
   status: included
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:45:57.417Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.728Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:45:57.417Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

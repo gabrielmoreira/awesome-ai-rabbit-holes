@@ -1,6 +1,6 @@
 id: github__marella__ctransformers
 kind: github-repo
-name: ctransformers
+name: CTransformers
 canonical_url: https://github.com/marella/ctransformers
 identity:
   github_repo: marella/ctransformers
@@ -45,11 +45,11 @@ insights:
   why_it_matters: It allows developers to run quantized LLMs locally within Python applications, integrating directly with LangChain and Hugging Face Transformers workflows.
   mental_damage: Yet another binding layer ensuring that your cutting-edge AI project remains tightly coupled to the specific C++ backend flavor of the month.
   tags:
-    - local-ai
-    - python
     - bindings
     - ggml
     - inference
+    - local-ai
+    - python
   confidence: high
 curation:
   status: included
@@ -65,6 +65,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (1886) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:35:39.664Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.705Z"
@@ -75,11 +83,3 @@ processing:
     updated_at: "2026-05-05T21:03:29.243Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:35:39.664Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

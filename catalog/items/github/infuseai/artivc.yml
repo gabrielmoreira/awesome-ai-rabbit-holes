@@ -1,6 +1,6 @@
 id: github__infuseai__artivc
 kind: github-repo
-name: artivc
+name: ArtiVC
 canonical_url: https://github.com/infuseai/artivc
 identity:
   github_repo: infuseai/artivc
@@ -46,10 +46,10 @@ insights:
   why_it_matters: It lets developers version control massive datasets on their existing AWS, GCP, or Azure storage without needing to run a separate server.
   mental_damage: Because apparently the only thing better than managing a messy Git history is managing a messy data history on S3.
   tags:
-    - data-versioning
     - cli
-    - storage
+    - data-versioning
     - mlops
+    - storage
   confidence: high
 curation:
   status: excluded
@@ -65,6 +65,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (311) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:25:56.803Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.698Z"
@@ -75,11 +83,3 @@ processing:
     updated_at: "2026-05-05T21:02:43.490Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:25:56.803Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

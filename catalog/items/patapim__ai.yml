@@ -1,6 +1,6 @@
 id: patapim__ai
 kind: website
-name: patapim.ai
+name: PATAPIM
 canonical_url: https://patapim.ai
 identity: {}
 provenance:
@@ -39,11 +39,11 @@ insights:
   why_it_matters: It provides a unified local control plane for running multiple coding agents in parallel, preserving context and state across sessions without requiring additional API subscriptions.
   mental_damage: We have officially reached the point where the selling point is 'run ten AI agents at once so you can anxiously watch them all fail in different tabs simultaneously.'
   tags:
-    - terminal
-    - multi-agent
-    - session-management
     - claude-code
     - local-first
+    - multi-agent
+    - session-management
+    - terminal
   confidence: high
 curation:
   status: included
@@ -59,6 +59,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:46:57.568Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.729Z"
@@ -68,11 +76,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:46:57.568Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

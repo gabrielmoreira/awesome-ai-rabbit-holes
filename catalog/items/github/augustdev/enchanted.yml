@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__augustdev__enchanted__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T20:48:55.437Z"
+      discovered_at: "2026-05-05T22:33:31.148Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -23,7 +23,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 5920
+    stars: 5921
     forks: 414
     license: Apache-2.0
     archived: false
@@ -41,50 +41,44 @@ metadata:
       - ollama
       - ollama-app
       - swift
-    last_checked_at: "2026-05-05T21:01:12.116Z"
+    last_checked_at: "2026-05-05T23:07:42.528Z"
     readme:
-      fetched_at: "2026-05-05T21:01:12.116Z"
+      fetched_at: "2026-05-05T23:07:42.528Z"
       bytes: 5016
 insights:
-  summary: Enchanted is an open-source iOS, macOS, and visionOS app that provides a ChatGPT-like interface for interacting with privately hosted Ollama language models.
-  why_it_matters: It allows developers to test, prompt, and iterate on local LLMs across the Apple ecosystem while keeping data and inference entirely offline.
-  mental_damage: Because nothing says 'secure private inference' like tunneling your local Ollama server through ngrok just to chat on your iPhone.
-  tags:
-    - local-ai
-    - ollama
-    - ios
-    - macos
-    - swift
-  confidence: high
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
 curation:
-  status: included
-  reason: This is a desktop and mobile interface for running local AI models, fitting squarely into the local-AI category as a consumer of self-hosted infrastructure.
-  evidence:
-    - Repo description explicitly states it is an iOS/macOS app for chatting with private self-hosted models via Ollama.
-    - README details support for Llama 2, Mistral, and Vision Pro, with all conversation history stored on-device.
-    - Project is active (pushed 2025-03-19) with 5920 stars and is licensed under Apache-2.0.
+  status: pending
+  reason: null
+  evidence: []
 placement:
-  primary_category: local-ai
+  primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
-  reason: Stars (5920) exceeded threshold (150)
+  reason: Stars (5921) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.440Z"
+    updated_at: "2026-05-05T22:33:31.150Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:12.116Z"
+    updated_at: "2026-05-05T23:07:42.528Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-05T21:09:28.710Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
+    status: deferred
+    updated_at: "2026-05-05T23:08:33.635Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-05-06T00:08:33.635Z"
+    attempts: 0
     prompt_version: catalog-categorize-v2-baseline
     category_rules_version: 1b6cc5462ecc

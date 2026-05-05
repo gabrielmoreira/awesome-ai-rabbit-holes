@@ -1,6 +1,6 @@
 id: github__kedro-org__kedro-viz
 kind: github-repo
-name: kedro-viz
+name: Kedro-Viz
 canonical_url: https://github.com/kedro-org/kedro-viz
 identity:
   github_repo: kedro-org/kedro-viz
@@ -49,10 +49,10 @@ insights:
   why_it_matters: It lets developers inspect, search, and debug complex ML pipelines with autoreload and rich metadata instead of reading raw YAML or Python boilerplate.
   mental_damage: Yet another reminder that your most impressive AI system is still just a DAG wearing a Plotly chart, and someone will eventually ask you to visualise the visualiser.
   tags:
-    - kedro
-    - pipeline-visualisation
     - experiment-tracking
+    - kedro
     - mlops
+    - pipeline-visualisation
     - react
   confidence: high
 curation:
@@ -69,6 +69,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (748) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:30:17.492Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.701Z"
@@ -79,11 +87,3 @@ processing:
     updated_at: "2026-05-05T21:03:03.360Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:30:17.492Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

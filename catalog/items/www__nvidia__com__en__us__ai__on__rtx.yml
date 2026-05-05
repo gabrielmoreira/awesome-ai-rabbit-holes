@@ -1,6 +1,6 @@
 id: www__nvidia__com__en__us__ai__on__rtx
 kind: website
-name: ai-on-rtx
+name: NVIDIA ChatRTX
 canonical_url: https://www.nvidia.com/en-us/ai-on-rtx
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It outlines the hardware requirements and NVIDIA software stack (like AI Workbench and NIM) needed to run local models and agentic workflows on personal machines.
   mental_damage: Proof that we have successfully commoditized the definition of 'AI PC' down to a GPU sticker and a regional pricing page.
   tags:
-    - local-ai
-    - nvidia
     - hardware
     - inference
+    - local-ai
+    - nvidia
   confidence: high
 curation:
   status: excluded
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:52:22.038Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.733Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:52:22.038Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

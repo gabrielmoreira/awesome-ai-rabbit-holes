@@ -1,6 +1,6 @@
 id: github__admica__filescopemcp
 kind: github-repo
-name: filescopemcp
+name: FileScopeMCP
 canonical_url: https://github.com/admica/filescopemcp
 identity:
   github_repo: admica/filescopemcp
@@ -57,10 +57,10 @@ insights:
   why_it_matters: It attempts to solve the 'lost in the codebase' problem for agents by automatically generating and maintaining a structural map so the LLM knows which files actually matter before suggesting changes.
   mental_damage: We have officially reached the point where we need a dedicated background daemon, an LLM broker, and a dashboard just to remind our AI that main.ts is slightly more important than your grandma's cookie recipe.
   tags:
-    - mcp
-    - context-engineering
     - codebase-analysis
+    - context-engineering
     - developer-tools
+    - mcp
   confidence: high
 curation:
   status: included
@@ -76,6 +76,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (290) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:05:54.527Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.662Z"
@@ -86,11 +94,3 @@ processing:
     updated_at: "2026-05-05T21:00:49.621Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:05:54.527Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

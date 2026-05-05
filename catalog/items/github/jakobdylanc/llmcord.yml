@@ -46,30 +46,30 @@ metadata:
       - openai
       - openrouter
       - vllm
-    last_checked_at: "2026-05-05T21:02:49.808Z"
+    last_checked_at: "2026-05-05T21:02:49.954Z"
     readme:
-      fetched_at: "2026-05-05T21:02:49.808Z"
+      fetched_at: "2026-05-05T21:02:49.954Z"
       bytes: 7116
 insights:
-  summary: A lightweight Python bot that turns Discord into a collaborative frontend for any OpenAI-compatible LLM, supporting reply-based conversations, model switching, and vision/file attachments.
-  why_it_matters: It lets teams self-host a shared LLM interface inside Discord, unifying remote and local models (Ollama, OpenRouter, Gemini, and more) without building custom chat infrastructure.
-  mental_damage: Because nothing says 'focused engineering flow' like wiring a 300-line bot into a notification machine so your whole server can collaboratively hallucinate together in reply chains.
+  summary: A lightweight Python bot that turns Discord into a collaborative frontend for any OpenAI-compatible LLM, supporting reply-based threading and model switching.
+  why_it_matters: It lets teams self-host a shared AI chat interface using local or remote models without standing up a dedicated web app or SaaS.
+  mental_damage: Finally, a way to make architectural decisions with your LLM while arguing with your teammates in a Discord thread at 2 AM.
   tags:
+    - chatbot
     - discord
     - llm
-    - chatbot
     - local-ai
     - openai-compatible
   confidence: high
 curation:
-  status: excluded
-  reason: Although well-built and actively maintained, this is a consumer-facing Discord chatbot rather than a developer tool, agent, framework, or infrastructure component for building or maintaining software.
+  status: included
+  reason: This is a developer-tooling project for running LLMs as a Discord bot with strong local-AI support, fitting the local-ai category rather than coding agents or app builders.
   evidence:
-    - Repo description and README pitch the tool as a collaborative LLM frontend for Discord users, not a coding or developer workflow tool.
-    - "No developer-facing workflow is changed: it does not edit repos, review code, scaffold apps, or extend an IDE/agent."
-    - Categories like coding-agents, agent-orchestration, or app-builders require direct developer-tooling value, which this chatbot does not provide.
+    - "Repo description: 'Make Discord your LLM frontend - Supports any OpenAI compatible API (Ollama, xAI, Gemini, OpenRouter and more)'"
+    - README states it works with local models via Ollama, LM Studio, vLLM, and any OpenAI-compatible API server.
+    - Seen in awesome-local-ai under User Tools, aligning with local execution and developer utility.
 placement:
-  primary_category: null
+  primary_category: local-ai
   section: null
 lifecycle:
   status: promotion_candidate
@@ -85,11 +85,11 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.699Z"
+    updated_at: "2026-05-05T20:48:55.442Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:49.808Z"
+    updated_at: "2026-05-05T21:02:49.954Z"
     cause: null
     next_retry_at: null

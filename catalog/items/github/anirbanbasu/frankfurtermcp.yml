@@ -1,6 +1,6 @@
 id: github__anirbanbasu__frankfurtermcp
 kind: github-repo
-name: frankfurtermcp
+name: FrankfurterMCP
 canonical_url: https://github.com/anirbanbasu/frankfurtermcp
 identity:
   github_repo: anirbanbasu/frankfurtermcp
@@ -51,10 +51,10 @@ insights:
   why_it_matters: It allows AI agents to retrieve live and historical currency data directly via MCP without requiring manual API integration or rate-limiting workarounds.
   mental_damage: Another day, another MCP server, because apparently wrapping a simple REST API in a protocol is now the pinnacle of developer infrastructure.
   tags:
-    - mcp
     - currency
-    - finance
     - fastmcp
+    - finance
+    - mcp
   confidence: high
 curation:
   status: included
@@ -70,6 +70,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:08:15.455Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.678Z"
@@ -80,11 +88,3 @@ processing:
     updated_at: "2026-05-05T21:01:03.936Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:08:15.455Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

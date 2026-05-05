@@ -1,6 +1,6 @@
 id: github__mindspore-ai__mindspore
 kind: github-repo
-name: mindspore
+name: MindSpore
 canonical_url: https://github.com/mindspore-ai/mindspore
 identity:
   github_repo: mindspore-ai/mindspore
@@ -43,9 +43,9 @@ insights:
   mental_damage: Yet another deep learning framework enters the arena, politely asking if you'd like to port your entire stack to a new ecosystem that may or may not outlive the quarter.
   tags:
     - deep-learning
-    - training-framework
-    - inference
     - distributed-training
+    - inference
+    - training-framework
   confidence: high
 curation:
   status: excluded
@@ -61,6 +61,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (4690) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:38:04.063Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.707Z"
@@ -71,11 +79,3 @@ processing:
     updated_at: "2026-05-05T21:03:41.669Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:38:04.063Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

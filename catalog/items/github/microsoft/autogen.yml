@@ -1,6 +1,6 @@
 id: github__microsoft__autogen
 kind: github-repo
-name: autogen
+name: AutoGen
 canonical_url: https://github.com/microsoft/autogen
 identity:
   github_repo: microsoft/autogen
@@ -127,11 +127,11 @@ insights:
   why_it_matters: It provides the building blocks for developers to orchestrate specialized AI agents that communicate, use tools via MCP, and solve complex tasks through code-first workflows.
   mental_damage: Microsoft has kindly provided the classic 'abandon ship' migration guide to their new framework, ensuring you can rewrite your agent orchestration just in time for the next architectural paradigm shift.
   tags:
-    - multi-agent
     - framework
-    - python
-    - orchestration
     - mcp
+    - multi-agent
+    - orchestration
+    - python
   confidence: high
 curation:
   status: included
@@ -147,6 +147,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (57728) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:37:24.067Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.658Z"
@@ -157,11 +165,3 @@ processing:
     updated_at: "2026-05-05T21:03:37.965Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:37:24.067Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

@@ -1,6 +1,6 @@
 id: github__ailabstw__harmonia
 kind: github-repo
-name: harmonia
+name: Harmonia
 canonical_url: https://github.com/ailabstw/harmonia
 identity:
   github_repo: ailabstw/harmonia
@@ -42,8 +42,8 @@ insights:
   mental_damage: Just when you thought GitOps had successfully colonized every corner of infrastructure, it now wants to manage your decentralized neural network weights too.
   tags:
     - federated-learning
-    - ml-ops
     - gitops
+    - ml-ops
     - sdk
   confidence: high
 curation:
@@ -60,6 +60,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:06:55.725Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.677Z"
@@ -70,11 +78,3 @@ processing:
     updated_at: "2026-05-05T21:00:55.570Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:06:55.725Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

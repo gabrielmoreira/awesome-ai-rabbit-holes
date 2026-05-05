@@ -1,6 +1,6 @@
 id: github__internlm__internevo
 kind: github-repo
-name: internevo
+name: InternEvo
 canonical_url: https://github.com/internlm/internevo
 identity:
   github_repo: internlm/internevo
@@ -59,11 +59,11 @@ insights:
   why_it_matters: It provides a streamlined, high-efficiency path for developers to pre-train or fine-tune large language models across thousands of GPUs without grappling with extensive dependency trees.
   mental_damage: "Just what the ecosystem needed: another high-performance torch-based training loop to make you question why your 'lightweight' setup requires a cluster of 1024 GPUs to prove its efficiency."
   tags:
-    - llm-training
-    - pytorch
-    - fine-tuning
-    - open-source
     - distributed-training
+    - fine-tuning
+    - llm-training
+    - open-source
+    - pytorch
   confidence: high
 curation:
   status: excluded
@@ -79,6 +79,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (419) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:26:18.529Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.698Z"
@@ -89,11 +97,3 @@ processing:
     updated_at: "2026-05-05T21:02:45.576Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:26:18.529Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

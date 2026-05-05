@@ -52,6 +52,36 @@ provenance:
         extracted_url: https://github.com/graphlit/graphlit-mcp-server
         surrounding_text: "-   **[graphlit/graphlit-mcp-server](https://github.com/graphlit/graphlit-mcp-server)** [![GitHub stars](https://img.shields.io/github/stars/graphlit/graphlit-mcp-server?style=social)](https://github.com/graphlit/graphlit-mcp-server): Ingests data from various sources into a Graphlit project for searching and retrieval."
         confidence: high
+    - id: discovery__www__graphlit__com__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T22:47:06.910Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Graphlit
+        anchor_text: Graphlit
+        extracted_url: https://www.graphlit.com
+        surrounding_text: "## [Graphlit](https://www.graphlit.com/)"
+        confidence: high
+    - id: discovery__www__graphlit__com__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T22:47:06.910Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Graphlit
+        extracted_url: https://www.graphlit.com
+        surrounding_text: "- **[Graphlit](https://github.com/graphlit/graphlit-mcp-server)** - Ingest anything from Slack to Gmail to podcast feeds, in addition to web crawling, into a searchable [Graphlit](https://www.graphlit.com) project."
+        confidence: high
 metadata:
   github:
     stars: 375
@@ -83,11 +113,15 @@ insights:
   why_it_matters: It allows developers to pipe context from Jira, GitHub, Slack, and documents directly into their AI coding workflow without building custom ingestion pipelines.
   mental_damage: We have successfully abstracted the labor of reading Jira tickets and Slack threads into a server that feeds them to an LLM, ensuring we can now ignore our colleagues with algorithmic efficiency.
   tags:
+    - agents
+    - api
+    - context
+    - context-layer
+    - ingestion
+    - integrations
+    - knowledge-management
     - mcp
     - rag
-    - knowledge-management
-    - ingestion
-    - context
   confidence: high
 curation:
   status: included
@@ -96,6 +130,9 @@ curation:
     - "Repo description states: 'Model Context Protocol (MCP) Server for Graphlit Platform'."
     - README confirms integration between 'MCP clients and the Graphlit service' with tools for ingestion and search.
     - Listed in 'awesome-mcp-servers' under 'Server Implementations > Knowledge & Memory'.
+    - Scraped site describes it as a 'Context Layer for AI agents' with 'real-time sync across Slack, GitHub, Jira... semantic search built-in'.
+    - Listed in awesome-mcp-servers under 'Official Servers', indicating it serves as a tool/data provider for agent contexts.
+    - Listed in awesome-ai-agents with the specific pitch of giving agents 'context that actually works'.
 placement:
   primary_category: mcp
   section: null
@@ -103,16 +140,6 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (375) exceeded threshold (150)
 processing:
-  discover:
-    status: done
-    updated_at: "2026-05-05T19:41:00.660Z"
-    cause: null
-    next_retry_at: null
-  stars:
-    status: done
-    updated_at: "2026-05-05T21:02:27.151Z"
-    cause: null
-    next_retry_at: null
   categorize:
     status: done
     updated_at: "2026-05-05T21:22:47.735Z"
@@ -121,3 +148,13 @@ processing:
     attempts: 1
     prompt_version: catalog-categorize-v2-baseline
     category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T22:47:06.910Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:27.151Z"
+    cause: null
+    next_retry_at: null

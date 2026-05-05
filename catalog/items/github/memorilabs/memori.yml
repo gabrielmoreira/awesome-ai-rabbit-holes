@@ -1,6 +1,6 @@
 id: github__memorilabs__memori
 kind: github-repo
-name: memori
+name: Memori
 canonical_url: https://github.com/memorilabs/memori
 identity:
   github_repo: memorilabs/memori
@@ -61,11 +61,11 @@ insights:
   why_it_matters: It allows developers to add stateful, long-term memory to AI agents with minimal integration overhead, significantly reducing context window bloat compared to full-history prompting.
   mental_damage: "Just what we needed: another layer of infrastructure to manage so our agents can remember they already apologized for the last hallucination."
   tags:
-    - memory
     - agent-infrastructure
+    - llm-agnostic
+    - memory
     - sdk
     - state-management
-    - llm-agnostic
   confidence: high
 curation:
   status: included
@@ -81,6 +81,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (14069) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:36:49.435Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.706Z"
@@ -91,11 +99,3 @@ processing:
     updated_at: "2026-05-05T21:03:35.233Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:36:49.435Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

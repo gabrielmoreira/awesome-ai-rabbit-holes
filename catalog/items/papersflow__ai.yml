@@ -1,6 +1,6 @@
 id: papersflow__ai
 kind: website
-name: papersflow.ai
+name: PapersFlow
 canonical_url: https://papersflow.ai
 identity: {}
 provenance:
@@ -39,10 +39,10 @@ insights:
   why_it_matters: It offers an MCP server integration that allows developers building research-adjacent tools to query a massive academic corpus programmatically rather than scraping Google Scholar.
   mental_damage: Another all-in-one 'workspace' arrives to save us from the terrifying possibility that a PhD student might have to use Zotero and Overleaf in two different browser tabs.
   tags:
-    - research
-    - mcp
-    - literature-review
     - academic
+    - literature-review
+    - mcp
+    - research
   confidence: high
 curation:
   status: excluded
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:46:59.006Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.729Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:46:59.006Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

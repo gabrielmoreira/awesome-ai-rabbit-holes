@@ -1,6 +1,6 @@
 id: cursor__com__cli
 kind: website
-name: cli
+name: Cursor CLI
 canonical_url: https://cursor.com/cli
 identity: {}
 provenance:
@@ -39,11 +39,11 @@ insights:
   why_it_matters: It brings Cursor's agentic capabilities into headless environments, CI/CD pipelines, and custom scripts, allowing developers to integrate AI coding workflows outside of the IDE.
   mental_damage: You can now have an existential crisis about your coding abilities while staring at a scenic painted landscape wallpaper in your terminal instead of just your editor.
   tags:
+    - automation
     - cli
     - coding-agent
-    - terminal
-    - automation
     - cursor
+    - terminal
   confidence: high
 curation:
   status: included
@@ -59,6 +59,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:43:28.333Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.727Z"
@@ -68,11 +76,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:43:28.333Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

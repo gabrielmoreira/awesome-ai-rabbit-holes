@@ -1,6 +1,6 @@
 id: github__microsoft__typechat
 kind: github-repo
-name: typechat
+name: TypeChat
 canonical_url: https://github.com/microsoft/typechat
 identity:
   github_repo: microsoft/typechat
@@ -46,10 +46,10 @@ insights:
   mental_damage: We have successfully abstracted away the pain of prompt engineering by replacing it with the exact same type hierarchies that made enterprise Java so delightful.
   tags:
     - llm
-    - typescript
-    - schema
     - natural-language
+    - schema
     - sdk
+    - typescript
   confidence: high
 curation:
   status: included
@@ -65,6 +65,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (8650) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:37:41.195Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.707Z"
@@ -75,11 +83,3 @@ processing:
     updated_at: "2026-05-05T21:03:39.742Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:37:41.195Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

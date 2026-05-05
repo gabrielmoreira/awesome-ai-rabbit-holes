@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__all-contributors__all-contributors__awesome-list__github__awesome-copilot
-      discovered_at: "2026-05-05T20:48:55.437Z"
+      discovered_at: "2026-05-05T22:33:31.148Z"
       source:
         type: awesome-list
         name: github/awesome-copilot
@@ -39,27 +39,28 @@ metadata:
       - opensource
       - opensource-management
       - recognition
-    last_checked_at: "2026-05-05T21:01:00.893Z"
+    last_checked_at: "2026-05-05T23:07:41.480Z"
     readme:
-      fetched_at: "2026-05-05T21:01:00.893Z"
+      fetched_at: "2026-05-05T23:07:41.480Z"
       bytes: 52166
 insights:
-  summary: A specification and bot system for recognizing all types of contributors (not just code) in open-source project documentation.
-  why_it_matters: It provides a standardized way for maintainers to automate acknowledgment of diverse contributions like documentation, design, and issue triage directly in the README.
-  mental_damage: We have successfully automated the social anxiety of remembering to thank people, ensuring our open-source ego management is as well-maintained as our dependency trees.
+  summary: A specification and bot system for recognizing all types of open-source contributors, not just those who commit code, via automated README badge generation.
+  why_it_matters: It provides a standardized workflow and automation layer for maintaining contributor recognition tables in open-source project documentation.
+  mental_damage: We have successfully automated the social anxiety of forgetting to thank the person who fixed the CI config, ensuring our open-source guilt is now managed by a bot.
   tags:
     - open-source
     - contributors
     - automation
+    - documentation
     - bot
   confidence: high
 curation:
   status: excluded
-  reason: This is a general open-source community management tool for acknowledging contributors, lacking a specific AI developer-tooling angle required for the catalog.
+  reason: This is a general open-source community management tool for recognizing contributors, with no AI-specific functionality or developer-AI-tooling angle.
   evidence:
-    - Repo description focuses on recognizing contributors, not AI tooling.
-    - README describes a specification and bot for open-source acknowledgment with no mention of AI.
-    - Found in awesome-copilot lists only as a badge/example of contributor recognition, not as a copilot extension.
+    - "Repo description focuses on recognizing contributors, not AI tooling: 'Recognize all contributors, not just the ones who push code'"
+    - README describes a specification and bot for open-source recognition, with no mention of AI, coding agents, or LLMs
+    - Topics include acknowledgements and open-source-management, with no AI-related tags
 placement:
   primary_category: null
   section: null
@@ -69,17 +70,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.440Z"
+    updated_at: "2026-05-05T22:33:31.149Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:00.893Z"
+    updated_at: "2026-05-05T23:07:41.480Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:07:43.573Z"
+    updated_at: "2026-05-05T23:08:32.413Z"
     cause: null
     next_retry_at: null
     attempts: 1

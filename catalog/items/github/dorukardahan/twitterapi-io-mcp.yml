@@ -1,6 +1,6 @@
 id: github__dorukardahan__twitterapi-io-mcp
 kind: github-repo
-name: twitterapi-docs-mcp
+name: dorukardahan/twitterapi-docs-mcp
 canonical_url: https://github.com/dorukardahan/twitterapi-io-mcp
 identity:
   github_repo: dorukardahan/twitterapi-io-mcp
@@ -8,6 +8,22 @@ provenance:
   discoveries:
     - id: discovery__github__dorukardahan__twitterapi-docs-mcp__awesome-list__punkpeye__awesome-mcp-servers
       discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: dorukardahan/twitterapi-docs-mcp
+        extracted_url: https://github.com/dorukardahan/twitterapi-docs-mcp
+        surrounding_text: "- [dorukardahan/twitterapi-docs-mcp](https://github.com/dorukardahan/twitterapi-docs-mcp) 📇 🏠 - Offline access to TwitterAPI.io documentation for AI assistants. 52 API endpoints, guides, pricing info, and authentication docs."
+        confidence: high
+    - id: discovery__github__dorukardahan__twitterapi-io-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T22:33:31.148Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -45,25 +61,28 @@ metadata:
       - twitterapi-io
       - twitterapiio
       - x-api
-    last_checked_at: "2026-05-05T21:01:56.275Z"
+    last_checked_at: "2026-05-05T21:01:56.518Z"
     readme:
-      fetched_at: "2026-05-05T21:01:56.275Z"
+      fetched_at: "2026-05-05T21:01:56.518Z"
       bytes: 12096
 insights:
-  summary: An MCP server that bundles the full TwitterAPI.io documentation, including endpoints, guides, and blog posts, for offline use by AI assistants like Claude and Cursor.
-  why_it_matters: Developers can point their coding agents at a local, structured snapshot of the Twitter API v2 surface, eliminating the need to hunt for docs or manage API keys just to get accurate integration help.
-  mental_damage: We have now successfully abstracted the act of reading documentation into a protocol server, so your AI can hallucinate about the Twitter API without even being online.
+  summary: An MCP server that bundles offline TwitterAPI.io documentation—including endpoints, guides, and blog posts—so AI assistants like Claude and Cursor can reference API details without making live calls.
+  why_it_matters: Developers using AI assistants to integrate TwitterAPI.io can get accurate, structured endpoint and parameter details locally without needing an API key or risking outdated live documentation.
+  mental_damage: We have now reached the point where our AI assistants need their own offline documentation snapshots so they stop hallucinating the Twitter API v1 endpoints that died years ago.
   tags:
-    - mcp
-    - twitter-api
-    - offline-docs
     - context-engineering
+    - mcp
     - node
+    - offline-docs
+    - twitter-api
   confidence: high
 curation:
   status: included
-  reason: The project is a self-contained Model Context Protocol server designed to provide offline documentation context to AI developer tools, fitting squarely into the MCP category.
+  reason: This is a dedicated MCP server providing structured offline documentation access, which clearly fits the MCP Servers and Tooling category.
   evidence:
+    - "Repo description explicitly states 'TwitterAPI.io MCP server: offline docs for Claude and other AI assistants.'"
+    - README confirms it is an MCP server with tools like search_twitterapi_docs and get_twitterapi_endpoint for multiple AI hosts.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools', reinforcing its role as MCP infrastructure.
     - "Repo description explicitly states 'TwitterAPI.io MCP server: offline docs... for Claude and other AI assistants.'"
     - README details implementation as an MCP server with tools like search_twitterapi_docs and get_twitterapi_endpoint.
     - Active development indicated by created_at 2025-12-05 and pushed_at 2026-05-03 with recent v1.2.0 changes.
@@ -84,11 +103,11 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.685Z"
+    updated_at: "2026-05-05T22:33:31.150Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:56.275Z"
+    updated_at: "2026-05-05T21:01:56.518Z"
     cause: null
     next_retry_at: null

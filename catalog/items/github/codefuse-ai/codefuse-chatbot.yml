@@ -1,6 +1,6 @@
 id: github__codefuse-ai__codefuse-chatbot
 kind: github-repo
-name: codefuse-chatbot
+name: CodeFuse-ChatBot
 canonical_url: https://github.com/codefuse-ai/codefuse-chatbot
 identity:
   github_repo: codefuse-ai/codefuse-chatbot
@@ -52,11 +52,11 @@ insights:
   why_it_matters: It provides a private, offline-capable multi-agent system that can analyze whole code repositories and automate tasks across the DevOps pipeline, from design to deployment.
   mental_damage: Yet another ambitious 'entire lifecycle' chatbot that asks you to dockerize a 34B model locally just to find out why your CI pipeline failed yesterday.
   tags:
-    - multi-agent
     - devops
-    - rag
     - llm
+    - multi-agent
     - private-deployment
+    - rag
   confidence: high
 curation:
   status: included
@@ -72,6 +72,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (1288) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:13:42.317Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.683Z"
@@ -82,11 +90,3 @@ processing:
     updated_at: "2026-05-05T21:01:37.354Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:13:42.317Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

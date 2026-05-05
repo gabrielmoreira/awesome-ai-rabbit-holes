@@ -1,6 +1,6 @@
 id: github__momobits__relay
 kind: github-repo
-name: relay
+name: Relay
 canonical_url: https://github.com/momobits/relay
 identity:
   github_repo: momobits/relay
@@ -41,11 +41,11 @@ insights:
   why_it_matters: It attempts to solve AI amnesia and context fragmentation by giving developers a shared, structured state file that works across Claude Code, OpenAI Codex CLI, and Google Gemini CLI.
   mental_damage: Finally, a system to manage the meta-work of managing the AI that manages your codebase, ensuring your token budget now requires its own project manager.
   tags:
-    - memory-layer
     - cli
+    - memory-layer
     - multi-agent
-    - workflow
     - skills
+    - workflow
   confidence: medium
 curation:
   status: included
@@ -61,6 +61,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:39:00.399Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.708Z"
@@ -71,11 +79,3 @@ processing:
     updated_at: "2026-05-05T21:03:46.509Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:39:00.399Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

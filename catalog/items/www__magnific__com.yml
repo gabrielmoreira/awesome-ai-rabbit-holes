@@ -1,6 +1,6 @@
 id: www__magnific__com
 kind: website
-name: www.magnific.com
+name: Freepik
 canonical_url: https://www.magnific.com
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It provides a unified API and workflow canvas for developers needing to integrate diverse generative media models into applications or marketing pipelines without stitching together multiple vendor SDKs.
   mental_damage: Yet another reminder that while we have perfectly good diffusion models, we are still waiting for an AI that can reliably center a div without six rounds of persuasion.
   tags:
-    - generative-media
     - api
     - browser-first
     - creative-assets
+    - generative-media
   confidence: high
 curation:
   status: excluded
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:51:52.829Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.733Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:51:52.829Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

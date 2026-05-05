@@ -1,6 +1,6 @@
 id: github__dcspark__shinkai-local-ai-agents
 kind: github-repo
-name: shinkai-apps
+name: Shinkai
 canonical_url: https://github.com/dcspark/shinkai-local-ai-agents
 identity:
   github_repo: dcspark/shinkai-local-ai-agents
@@ -38,25 +38,28 @@ metadata:
       - local-ai
       - local-ai-agents
       - mcp-agents
-    last_checked_at: "2026-05-05T21:01:49.352Z"
+    last_checked_at: "2026-05-05T21:01:49.386Z"
     readme:
-      fetched_at: "2026-05-05T21:01:49.352Z"
+      fetched_at: "2026-05-05T21:01:49.386Z"
       bytes: 11423
 insights:
-  summary: Shinkai is a desktop application that lets developers and non-coders build and run local or remote AI agents with a visual interface, supporting MCP integration and crypto payments.
-  why_it_matters: It offers a no-code path to orchestrate multi-agent workflows locally while maintaining protocol compatibility with existing AI coding tools like Claude and Cursor.
-  mental_damage: Another desktop app promising to democratize agent creation so you can finally automate your crypto portfolio while wondering why your actual Jira tickets are still open.
+  summary: Shinkai is a desktop application that provides a no-code visual interface for creating and orchestrating local or remote AI agents with built-in support for MCP and crypto payments.
+  why_it_matters: It allows developers to spin up local, privacy-focused multi-agent workflows that integrate with existing tooling like Claude and Cursor without writing orchestration boilerplate.
+  mental_damage: Because what your development environment was truly missing was a drag-and-drop UI to orchestrate crypto-native autonomous agents that can execute trades while you debug CSS.
   tags:
+    - agents
+    - crypto
     - local-ai
     - mcp
-    - agents
     - no-code
-    - crypto
   confidence: high
 curation:
   status: included
-  reason: This is a user-facing platform for coordinating multiple AI agents with a visual interface and MCP support, fitting the definition of agent orchestration rather than a coding assistant or local model runner alone.
+  reason: The project is a user-facing desktop platform (control plane) specifically designed for orchestrating multiple AI agents, handling workflows, and integrating with MCP, fitting the agent-orchestration category definition.
   evidence:
+    - Repo description states it is a 'two click install App' to 'create Local AI agents' with a 'simple UI'.
+    - README highlights 'Multi-Agent Orchestration' and a 'No-Code Agent Builder' with a 'visual interface'.
+    - Source list context shows it is listed under 'Clients' in awesome-mcp-servers, confirming its role as an operational tool rather than just a library.
     - Repo description states it creates 'Local AI agents in 5 minutes or less using a simple UI' with MCP support.
     - README describes 'Multi-Agent Orchestration' and a 'No-Code Agent Builder' for deploying collaborative agent teams.
     - Active development with a recent push date (2026-05-02) and 429 stars.
@@ -77,11 +80,11 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.684Z"
+    updated_at: "2026-05-05T20:48:55.441Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:49.352Z"
+    updated_at: "2026-05-05T21:01:49.387Z"
     cause: null
     next_retry_at: null

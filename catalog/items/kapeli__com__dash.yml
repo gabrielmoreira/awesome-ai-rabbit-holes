@@ -1,6 +1,6 @@
 id: kapeli__com__dash
 kind: website
-name: dash
+name: Dash
 canonical_url: https://kapeli.com/dash
 identity: {}
 provenance:
@@ -39,9 +39,9 @@ insights:
   why_it_matters: It gives AI agents like Claude direct access to up-to-date, offline framework documentation via MCP, reducing hallucinations and manual lookups during coding sessions.
   mental_damage: We have finally reached the point where our offline documentation browsers need to be agent-ready, just in case the AI decides it wants to read the React docs without bothering a search engine.
   tags:
+    - developer-tools
     - documentation
     - mcp
-    - developer-tools
     - offline
   confidence: high
 curation:
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:45:45.936Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.728Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:45:45.936Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

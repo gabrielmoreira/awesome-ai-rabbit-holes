@@ -1,6 +1,6 @@
 id: github__pythagora-io__gpt-pilot
 kind: github-repo
-name: gpt-pilot
+name: GPT Pilot
 canonical_url: https://github.com/pythagora-io/gpt-pilot
 identity:
   github_repo: pythagora-io/gpt-pilot
@@ -38,17 +38,25 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 33772
+    forks: 3498
+    license: NOASSERTION
+    archived: false
+    created_at: "2023-08-16T11:56:07Z"
+    pushed_at: "2026-04-17T02:38:37Z"
+    description: The first real AI developer
+    homepage: ""
+    topics:
+      - ai
+      - codegen
+      - coding-assistant
+      - developer-tools
+      - gpt-4
+      - research-project
+    last_checked_at: "2026-05-05T23:08:13.157Z"
+    readme:
+      fetched_at: "2026-05-05T23:08:13.157Z"
+      bytes: 10418
 insights:
   summary: null
   why_it_matters: null
@@ -63,22 +71,26 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (33772) exceeded threshold (150)
 processing:
+  categorize:
+    status: deferred
+    updated_at: "2026-05-05T23:08:33.635Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-05-06T00:08:33.635Z"
+    attempts: 0
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.670Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-05T23:08:13.157Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T21:04:23.169Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null

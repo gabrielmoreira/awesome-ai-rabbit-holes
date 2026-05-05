@@ -1,6 +1,6 @@
 id: github__henripal__labnotebook
 kind: github-repo
-name: labnotebook
+name: LabNotebook
 canonical_url: https://github.com/henripal/labnotebook
 identity:
   github_repo: henripal/labnotebook
@@ -54,8 +54,8 @@ insights:
   tags:
     - experiment-tracking
     - ml-ops
-    - pytorch
     - postgres
+    - pytorch
   confidence: high
 curation:
   status: excluded
@@ -71,6 +71,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (528) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:23:48.783Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.691Z"
@@ -81,11 +89,3 @@ processing:
     updated_at: "2026-05-05T21:02:32.768Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:23:48.783Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

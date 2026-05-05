@@ -1,6 +1,6 @@
 id: www__jetbrains__com__junieai
 kind: website
-name: junieai
+name: JunieAI (JetBrains)
 canonical_url: https://www.jetbrains.com/junieai
 identity: {}
 provenance:
@@ -38,9 +38,9 @@ insights:
   why_it_matters: It brings agentic, multi-step coding assistance natively into the JetBrains ecosystem, allowing developers to delegate complex tasks without leaving their established IDE environment.
   mental_damage: Yet another opportunity to discover that your IDE now has an 'agent' that can refactor your code, provided you enjoy the thrill of wondering if the blue icon is thinking or just buffering.
   tags:
-    - jetbrains
-    - ide
     - coding-agent
+    - ide
+    - jetbrains
     - refactoring
   confidence: high
 curation:
@@ -56,6 +56,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:51:33.833Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.732Z"
@@ -65,11 +73,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:51:33.833Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

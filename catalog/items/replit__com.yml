@@ -1,6 +1,6 @@
 id: replit__com
 kind: website
-name: replit.com
+name: Replit
 canonical_url: https://replit.com
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It allows developers and product teams to prototype and ship functional full-stack applications with integrated databases and hosting without managing underlying infrastructure.
   mental_damage: You can now watch a bot scaffold an entire CRUD app in the time it takes to explain to your manager why the sprint estimate is still 'just two weeks.'
   tags:
-    - app-builder
-    - prototyping
-    - full-stack
     - ai-agent
+    - app-builder
+    - full-stack
+    - prototyping
   confidence: high
 curation:
   status: included
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:47:35.375Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.730Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:47:35.375Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

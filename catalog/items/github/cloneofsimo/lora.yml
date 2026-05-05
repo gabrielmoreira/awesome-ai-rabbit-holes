@@ -1,6 +1,6 @@
 id: github__cloneofsimo__lora
 kind: github-repo
-name: lora
+name: Lora
 canonical_url: https://github.com/cloneofsimo/lora
 identity:
   github_repo: cloneofsimo/lora
@@ -47,10 +47,10 @@ insights:
   why_it_matters: It allows developers working with diffusion models to iterate on fine-tuning up to twice as fast as Dreambooth while producing shareable 1-6MB model weights.
   mental_damage: Yet another reminder that while we are busy figuring out how to prompt an LLM to write a CRUD app, the image generation crowd has already solved rapid, lightweight model specialization and moved on to merging checkpoints for fun.
   tags:
+    - diffusion-models
+    - fine-tuning
     - lora
     - stable-diffusion
-    - fine-tuning
-    - diffusion-models
   confidence: high
 curation:
   status: excluded
@@ -66,6 +66,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (7536) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:13:28.708Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.682Z"
@@ -76,11 +84,3 @@ processing:
     updated_at: "2026-05-05T21:01:36.264Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:13:28.708Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

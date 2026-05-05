@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__decodo__decodo-mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T20:48:55.437Z"
+      discovered_at: "2026-05-05T22:33:31.148Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -43,30 +43,22 @@ metadata:
       - residential-proxies
       - scraping-infrastructure
       - smithery
-    last_checked_at: "2026-05-05T21:01:50.620Z"
+    last_checked_at: "2026-05-05T23:07:48.545Z"
     readme:
-      fetched_at: "2026-05-05T21:01:50.620Z"
+      fetched_at: "2026-05-05T23:07:48.545Z"
       bytes: 15317
 insights:
-  summary: An official MCP server that exposes Decodo's web scraping, search, ecommerce, social media, and AI proxy services as tools for MCP-compatible clients like Claude Desktop and Cursor.
-  why_it_matters: It lets developers wire production-grade scraping and data-collection capabilities directly into their AI coding workflows without building custom API integrations.
-  mental_damage: We have finally reached the point where your AI agent needs its own VPN, proxy rotation, and scraping stack just to fetch a Google search result.
-  tags:
-    - mcp
-    - scraping
-    - proxy
-    - cursor
-    - claude
-  confidence: high
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
 curation:
-  status: included
-  reason: The project is an official MCP server implementation that exposes proxy and scraping services as MCP tools, which fits squarely into the MCP Servers and Tooling category.
-  evidence:
-    - "Repo description explicitly states: 'The Decodo MCP server which enables MCP clients to interface with services.'"
-    - README details MCP server setup for Claude Desktop and Cursor with toolset configuration (web, search, ecommerce, social_media, ai).
-    - Listed in awesome-mcp-servers under 'Official Servers' section.
+  status: pending
+  reason: null
+  evidence: []
 placement:
-  primary_category: mcp
+  primary_category: null
   section: null
 lifecycle:
   status: incubating
@@ -74,19 +66,21 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.441Z"
+    updated_at: "2026-05-05T22:33:31.150Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:50.620Z"
+    updated_at: "2026-05-05T23:07:48.545Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-05T21:15:55.101Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
+    status: deferred
+    updated_at: "2026-05-05T23:08:33.635Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-05-06T00:08:33.635Z"
+    attempts: 0
     prompt_version: catalog-categorize-v2-baseline
     category_rules_version: 1b6cc5462ecc

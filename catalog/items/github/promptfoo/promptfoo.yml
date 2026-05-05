@@ -1,6 +1,6 @@
 id: github__promptfoo__promptfoo
 kind: github-repo
-name: promptfoo
+name: Promptfoo
 canonical_url: https://github.com/promptfoo/promptfoo
 identity:
   github_repo: promptfoo/promptfoo
@@ -37,7 +37,7 @@ provenance:
         surrounding_text: "- **[Promptfoo](https://github.com/promptfoo/promptfoo)** – Open-source tool for testing, evaluating, and red-teaming LLM prompts and applications."
         confidence: high
     - id: discovery__github__typpo__promptfoo__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-05T20:48:55.437Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -53,17 +53,37 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 20876
+    forks: 1810
+    license: MIT
+    archived: false
+    created_at: "2023-04-28T15:48:49Z"
+    pushed_at: "2026-05-05T23:02:55Z"
+    description: Test your prompts, agents, and RAGs. Red teaming/pentesting/vulnerability scanning for AI. Compare performance of GPT, Claude, Gemini, Llama, and more. Simple declarative configs with command line and CI/CD integration.  Used by OpenAI and Anthropic.
+    homepage: https://promptfoo.dev
+    topics:
+      - ci
+      - ci-cd
+      - cicd
+      - evaluation
+      - evaluation-framework
+      - llm
+      - llm-eval
+      - llm-evaluation
+      - llm-evaluation-framework
+      - llmops
+      - pentesting
+      - prompt-engineering
+      - prompt-testing
+      - prompts
+      - rag
+      - red-teaming
+      - testing
+      - vulnerability-scanners
+    last_checked_at: "2026-05-05T23:08:10.486Z"
+    readme:
+      fetched_at: "2026-05-05T23:08:10.486Z"
+      bytes: 4716
 insights:
   summary: null
   why_it_matters: null
@@ -78,22 +98,26 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (20876) exceeded threshold (150)
 processing:
   categorize:
-    status: skipped
-    updated_at: "2026-05-05T21:04:23.169Z"
+    status: deferred
+    updated_at: "2026-05-05T23:08:33.635Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-05-06T00:08:33.635Z"
+    attempts: 0
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.722Z"
+    updated_at: "2026-05-05T20:48:55.444Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-05T23:08:10.486Z"
     cause: null
+    next_retry_at: null

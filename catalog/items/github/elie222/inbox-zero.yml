@@ -1,6 +1,6 @@
 id: github__elie222__inbox-zero
 kind: github-repo
-name: inbox-zero
+name: Inbox Zero
 canonical_url: https://github.com/elie222/inbox-zero
 identity:
   github_repo: elie222/inbox-zero
@@ -89,9 +89,9 @@ insights:
   why_it_matters: Developers building AI agents can study its implementation as a practical example of an MCP server for communication tools like Gmail and Slack.
   mental_damage: We have successfully automated the inbox so thoroughly that we can now achieve zero unread emails while ignoring them just as efficiently as before.
   tags:
+    - ai-assistant
     - email
     - mcp
-    - ai-assistant
     - nextjs
     - open-source
   confidence: medium
@@ -109,6 +109,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (10626) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:17:49.720Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.659Z"
@@ -119,11 +127,3 @@ processing:
     updated_at: "2026-05-05T21:02:01.170Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:17:49.720Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

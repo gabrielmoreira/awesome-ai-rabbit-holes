@@ -1,6 +1,6 @@
 id: github__docailab__xrag
 kind: github-repo
-name: xrag
+name: XRAG
 canonical_url: https://github.com/docailab/xrag
 identity:
   github_repo: docailab/xrag
@@ -45,10 +45,10 @@ insights:
   why_it_matters: It gives developers a modular way to benchmark retrievers, embeddings, and LLMs across traditional and LLM-based metrics so they can stop guessing which RAG config actually works.
   mental_damage: Because nothing says shipping velocity like spending three weeks tuning a retrieval pipeline only to realize you needed a benchmark suite to tell you what your gut already feared.
   tags:
-    - rag
-    - evaluation
     - benchmark
+    - evaluation
     - llm
+    - rag
   confidence: high
 curation:
   status: included
@@ -64,6 +64,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:16:39.835Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.685Z"
@@ -74,11 +82,3 @@ processing:
     updated_at: "2026-05-05T21:01:54.719Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:16:39.835Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

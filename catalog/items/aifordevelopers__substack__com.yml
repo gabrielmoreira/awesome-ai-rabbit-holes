@@ -1,6 +1,6 @@
 id: aifordevelopers__substack__com
 kind: website
-name: aifordevelopers.substack.com
+name: newsletter
 canonical_url: https://aifordevelopers.substack.com
 identity: {}
 provenance:
@@ -38,9 +38,9 @@ insights:
   why_it_matters: It aggregates and explains practical usage of emerging AI developer tools, helping engineers cut through the noise to find workflows that actually work.
   mental_damage: Yet another subscription promising to unlock the remaining 80% of tools you already own but will probably never configure correctly.
   tags:
-    - newsletter
     - ai-tools
     - developer-resources
+    - newsletter
     - substack
   confidence: high
 curation:
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T20:49:09.324Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.726Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T20:49:09.324Z"
-    cause: null
-    next_retry_at: null
-    attempts: 2
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

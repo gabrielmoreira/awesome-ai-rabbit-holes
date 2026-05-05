@@ -1,6 +1,6 @@
 id: github__plastic-labs__tutor-gpt
 kind: github-repo
-name: tutor-gpt
+name: TutorGPT
 canonical_url: https://github.com/plastic-labs/tutor-gpt
 identity:
   github_repo: plastic-labs/tutor-gpt
@@ -24,17 +24,29 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 903
+    forks: 94
+    license: GPL-3.0
+    archived: false
+    created_at: "2023-01-21T13:30:13Z"
+    pushed_at: "2026-02-20T07:07:01Z"
+    description: AI tutor powered by Theory-of-Mind reasoning
+    homepage: https://discord.gg/plasticlabs
+    topics:
+      - ai
+      - education
+      - hacktoberfest
+      - literacy
+      - machine-learning
+      - o1
+      - prompt-engineering
+      - reasoning
+      - theory-of-mind
+      - tutoring
+    last_checked_at: "2026-05-05T23:08:06.918Z"
+    readme:
+      fetched_at: "2026-05-05T23:08:06.918Z"
+      bytes: 8466
 insights:
   summary: null
   why_it_matters: null
@@ -49,24 +61,26 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (903) exceeded threshold (150)
 processing:
+  categorize:
+    status: deferred
+    updated_at: "2026-05-05T23:08:33.635Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-05-06T00:08:33.635Z"
+    attempts: 0
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.713Z"
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-05-05T21:04:20.598Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for plastic-labs/tutor-gpt
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T21:04:23.169Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-05-05T23:08:06.918Z"
+    cause: null
     next_retry_at: null

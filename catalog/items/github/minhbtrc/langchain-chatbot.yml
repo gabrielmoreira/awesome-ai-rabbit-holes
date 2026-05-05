@@ -1,6 +1,6 @@
 id: github__minhbtrc__langchain-chatbot
 kind: github-repo
-name: chatbot-with-langchain
+name: PersonalityChatbot
 canonical_url: https://github.com/minhbtrc/langchain-chatbot
 identity:
   github_repo: minhbtrc/langchain-chatbot
@@ -54,19 +54,22 @@ metadata:
       bytes: 17431
 insights:
   summary: A containerized chatbot implementation built with LangChain, FastAPI, and Next.js that supports OpenAI or Vertex AI, MongoDB memory, LangSmith tracing, and configurable bot personalities.
-  why_it_matters: Provides developers with a ready-to-run reference architecture for building production-grade chatbots with PII protection, prompt versioning, and full observability.
-  mental_damage: Yet another full-stack LangChain boilerplate proving that in 2025, shipping a chatbot still requires a microservices diagram that looks like a subway map.
+  why_it_matters: It provides a full-stack reference architecture for developers building production chatbots with PII protection, prompt versioning, and conversational memory already wired together.
+  mental_damage: Because what the world definitely needed in 2024 was the 6,000th example of how to wrap an LLM in a FastAPI endpoint and call it a microservice.
   tags:
-    - langchain
     - chatbot
     - fastapi
-    - nextjs
+    - langchain
     - langsmith
+    - nextjs
   confidence: high
 curation:
   status: excluded
-  reason: This is a sample application and boilerplate repo for building a chatbot, not a developer-facing tool, agent, or framework that enhances a developer's own workflow.
+  reason: This is a sample application and reference implementation for building a chatbot, not a reusable developer tool, framework, or infrastructure component for the catalog.
   evidence:
+    - Repo description explicitly states this is 'an implementation of a chatbot using LLM chat model API and Langchain', not a tool or framework.
+    - README describes a self-contained chatbot application with UI, backend, and database, rather than a developer-facing product or SDK.
+    - Included in awesome-langchain under 'Open Source Projects > Other / Chatbots', which curates demos and sample apps rather than standalone developer tooling.
     - Repo description states it is 'an implementation of a chatbot using LLM chat model API and Langchain.'
     - README describes a full application stack (Next.js, FastAPI, MongoDB) rather than a reusable developer tool or extension.
     - No source-list context indicates it is curated as a developer tool or framework.
@@ -87,7 +90,7 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.681Z"
+    updated_at: "2026-05-05T20:48:55.440Z"
     cause: null
     next_retry_at: null
   stars:

@@ -1,6 +1,6 @@
 id: huggingface__co__spaces__lmarena__ai__arena__leaderboard
 kind: website
-name: arena-leaderboard
+name: Chatbot Arena Leaderboard
 canonical_url: https://huggingface.co/spaces/lmarena-ai/arena-leaderboard
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: Developers evaluating which LLM to integrate can quickly glance at a live, community-driven ranking without navigating the main Chatbot Arena site.
   mental_damage: Another beautiful dashboard ensuring you can quantify exactly how far behind the state-of-the-art your chosen model is, right before you deploy it to production anyway.
   tags:
-    - llm
-    - leaderboard
     - evals
     - huggingface
+    - leaderboard
+    - llm
   confidence: high
 curation:
   status: excluded
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:45:26.064Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.728Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:45:26.064Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

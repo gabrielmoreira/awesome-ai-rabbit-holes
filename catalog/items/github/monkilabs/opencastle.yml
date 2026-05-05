@@ -1,6 +1,6 @@
 id: github__monkilabs__opencastle
 kind: github-repo
-name: opencastle
+name: OpenCastle
 canonical_url: https://github.com/monkilabs/opencastle
 identity:
   github_repo: monkilabs/opencastle
@@ -62,11 +62,11 @@ insights:
   why_it_matters: It lets developers decompose tasks across specialist agents and run them interactively in the IDE or as batch jobs via the Convoy Engine, with cost-aware model routing and built-in quality gates.
   mental_damage: You now have a panel of AI agents that can review, dispute, and vote on each other’s output, turning your solo repo into a corporate committee that never goes home.
   tags:
+    - cli
+    - copilot
     - multi-agent
     - orchestration
-    - cli
     - skills
-    - copilot
   confidence: high
 curation:
   status: included
@@ -82,6 +82,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:39:01.064Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.708Z"
@@ -92,11 +100,3 @@ processing:
     updated_at: "2026-05-05T21:03:46.697Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:39:01.064Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

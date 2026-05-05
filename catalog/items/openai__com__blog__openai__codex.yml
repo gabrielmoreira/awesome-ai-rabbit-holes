@@ -1,6 +1,6 @@
 id: openai__com__blog__openai__codex
 kind: website
-name: openai-codex
+name: OpenAI Codex CLI
 canonical_url: https://openai.com/blog/openai-codex
 identity: {}
 provenance:
@@ -39,8 +39,8 @@ insights:
   mental_damage: We have moved from 'writing code' to 'prompting a model that was famously deprecated in favor of GPT-4, only to return as the engine behind the ghost in the machine.'
   tags:
     - code-generation
-    - llm
     - foundation-model
+    - llm
     - openai
   confidence: medium
 curation:
@@ -56,6 +56,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:46:47.416Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.729Z"
@@ -65,11 +73,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:46:47.416Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

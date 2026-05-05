@@ -1,6 +1,6 @@
 id: github__deepset-ai__haystack
 kind: github-repo
-name: haystack
+name: Haystack
 canonical_url: https://github.com/deepset-ai/haystack
 identity:
   github_repo: deepset-ai/haystack
@@ -137,11 +137,11 @@ insights:
   why_it_matters: It provides developers with a production-ready, composable architecture to move beyond simple prompt chaining into complex, context-engineered systems with memory and routing.
   mental_damage: Just when you thought 'import openai' was sufficient, you now have a full orchestration framework to ensure your RAG pipeline has the exact same architectural complexity as the microservices you Swore You'd Never Write Again.
   tags:
-    - rag
     - agent-orchestration
+    - context-engineering
     - llm-framework
     - python
-    - context-engineering
+    - rag
   confidence: high
 curation:
   status: included
@@ -157,6 +157,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (25091) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:16:01.631Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.657Z"
@@ -167,11 +175,3 @@ processing:
     updated_at: "2026-05-05T21:01:51.171Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:16:01.631Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

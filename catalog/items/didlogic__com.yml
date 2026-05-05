@@ -1,6 +1,6 @@
 id: didlogic__com
 kind: website
-name: didlogic.com
+name: DIDLogic
 canonical_url: https://didlogic.com
 identity: {}
 provenance:
@@ -39,10 +39,10 @@ insights:
   why_it_matters: It allows developers to plug real-world phone calling capabilities into AI agents and workflows via the Model Context Protocol, bridging software automation with telecommunications.
   mental_damage: We have finally reached the singularity where your autonomous coding agent can now disappoint clients via phone call instead of just via email.
   tags:
-    - mcp
-    - voip
-    - telephony
     - communication
+    - mcp
+    - telephony
+    - voip
   confidence: medium
 curation:
   status: included
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:43:46.771Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.727Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:43:46.771Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

@@ -1,6 +1,6 @@
 id: github__jupyterlab__jupyter-ai
 kind: github-repo
-name: jupyter-ai
+name: Jupyter AI
 canonical_url: https://github.com/jupyterlab/jupyter-ai
 identity:
   github_repo: jupyterlab/jupyter-ai
@@ -46,11 +46,11 @@ insights:
   why_it_matters: It brings agentic coding workflows directly into the data science and notebook environment, bridging the gap between interactive computing and autonomous AI assistance.
   mental_damage: Now your notebook can hallucinate both your data analysis and the cleanup code, giving you twice the opportunities to wonder if the bug is in your tensor or the agent's permissions.
   tags:
-    - jupyterlab
-    - agents
-    - notebooks
-    - mcp
     - acp
+    - agents
+    - jupyterlab
+    - mcp
+    - notebooks
   confidence: high
 curation:
   status: included
@@ -66,6 +66,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (4206) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:29:39.092Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.701Z"
@@ -76,11 +84,3 @@ processing:
     updated_at: "2026-05-05T21:03:00.973Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:29:39.092Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

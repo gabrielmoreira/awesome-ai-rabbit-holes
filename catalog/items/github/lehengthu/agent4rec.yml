@@ -1,6 +1,6 @@
 id: github__lehengthu__agent4rec
 kind: github-repo
-name: agent4rec
+name: Agent4Rec
 canonical_url: https://github.com/lehengthu/agent4rec
 identity:
   github_repo: lehengthu/agent4rec
@@ -43,10 +43,10 @@ insights:
   why_it_matters: It provides developers building recommendation engines a controlled environment to test how generative agents interact with personalized suggestions before deploying to real users.
   mental_damage: Because spending sixteen dollars to simulate a thousand bots arguing over Nicolas Cage movies is exactly the kind of rigorous engineering milestone the SIGIR committee ordered.
   tags:
-    - recommender-system
-    - simulation
     - llm-agents
+    - recommender-system
     - research
+    - simulation
   confidence: high
 curation:
   status: excluded
@@ -62,6 +62,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (481) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:33:34.120Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.704Z"
@@ -72,11 +80,3 @@ processing:
     updated_at: "2026-05-05T21:03:18.329Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:33:34.120Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

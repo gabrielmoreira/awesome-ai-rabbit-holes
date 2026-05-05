@@ -44,20 +44,26 @@ metadata:
       fetched_at: "2026-05-05T21:02:20.922Z"
       bytes: 36005
 insights:
-  summary: A high-performance, dependency-free C/C++ port of OpenAI's Whisper speech recognition model designed for offline, on-device inference across platforms.
-  why_it_matters: It allows developers to integrate state-of-the-art speech-to-text transcription directly into applications running on everything from Apple Silicon and NVIDIA GPUs to Raspberry Pis and WebAssembly.
-  mental_damage: Because obviously the next logical step in the evolution of software engineering is optimizing C intrinsics so your toaster can transcribe your meetings locally at 3 AM.
+  summary: A plain C/C++ port of OpenAI's Whisper speech recognition model, optimized for high-performance inference across CPUs, GPUs, and mobile devices with zero runtime memory allocations.
+  why_it_matters: It gives developers a lightweight, dependency-free way to embed offline speech-to-text capabilities directly into cross-platform applications, from servers to iOS and Raspberry Pi.
+  mental_damage: In an ecosystem obsessed with chaining twelve hosted LLMs to summarize a sentence, watching a model run entirely offline on a toaster remains both a relief and a quiet indictment of modern cloud complexity.
   tags:
-    - speech-to-text
-    - local-ai
-    - inference
+    - c++
     - cpp
+    - inference
+    - local-ai
+    - local-inference
     - offline
+    - speech-to-text
+    - whisper
   confidence: high
 curation:
   status: included
-  reason: This is a core local inference engine for running AI models on developer-controlled hardware, fitting squarely into the local AI tooling category.
+  reason: The project is a developer-facing toolkit for running AI models locally on diverse hardware, fitting squarely into the Local AI category.
   evidence:
+    - Repo description explicitly states 'Port of OpenAI's Whisper model in C/C++'.
+    - README emphasizes 'Plain C/C++ implementation without dependencies' and support for iOS, Android, and WebAssembly.
+    - Listed in Awesome-LLMOps under 'Serving > Large Model Serving', confirming its utility as a local model runtime.
     - Repo description explicitly defines it as a 'Port of OpenAI's Whisper model in C/C++'.
     - README highlights 'Plain C/C++ implementation without dependencies' and support for Apple Silicon, Vulkan, and WebAssembly for offline use.
     - High traction with 49,403 stars and active maintenance (pushed May 2026).
@@ -78,7 +84,7 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.689Z"
+    updated_at: "2026-05-05T20:48:55.441Z"
     cause: null
     next_retry_at: null
   stars:

@@ -1,6 +1,6 @@
 id: github__liaokongvfx__langchain-chinese-getting-started-guide
 kind: github-repo
-name: langchain-chinese-getting-started-guide
+name: LangChain Chinese Getting Started Guide
 canonical_url: https://github.com/liaokongvfx/langchain-chinese-getting-started-guide
 identity:
   github_repo: liaokongvfx/langchain-chinese-getting-started-guide
@@ -47,11 +47,11 @@ insights:
   why_it_matters: It provides a structured learning path for developers building LLM-powered applications using LangChain in Chinese.
   mental_damage: Yet another reminder that while you're debugging a segfault, there's an entire ecosystem of tutorials for frameworks that will be deprecated before you finish reading them.
   tags:
-    - langchain
-    - tutorial
     - chinese
-    - llm
+    - langchain
     - learning
+    - llm
+    - tutorial
   confidence: high
 curation:
   status: excluded
@@ -67,6 +67,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (8957) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:33:51.525Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.704Z"
@@ -77,11 +85,3 @@ processing:
     updated_at: "2026-05-05T21:03:19.702Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:33:51.525Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

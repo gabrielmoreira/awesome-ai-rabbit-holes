@@ -1,6 +1,6 @@
 id: www__theneo__io
 kind: website
-name: www.theneo.io
+name: Theneo.io
 canonical_url: https://www.theneo.io
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It automates the tedious cycle of writing and updating API docs, letting developers generate interactive references and changelogs from existing specs in seconds.
   mental_damage: Another brilliant tool to solve the ancient problem of developers refusing to write documentation, this time by convincing an AI to do it instead.
   tags:
-    - api-docs
-    - documentation
     - ai-native
+    - api-docs
     - developer-portal
+    - documentation
   confidence: medium
 curation:
   status: included
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:53:45.713Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.734Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:53:45.713Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

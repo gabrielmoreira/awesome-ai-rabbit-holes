@@ -1,6 +1,6 @@
 id: github__huggingface__candle
 kind: github-repo
-name: candle
+name: Candle
 canonical_url: https://github.com/huggingface/candle
 identity:
   github_repo: huggingface/candle
@@ -42,10 +42,10 @@ insights:
   why_it_matters: It allows developers to run and fine-tune LLMs and other models locally in a Rust-native environment, avoiding Python dependency overhead.
   mental_damage: Finally, you can rewrite your PyTorch inference stack in Rust to gain 10ms of performance while spending three weeks fighting the borrow checker.
   tags:
-    - rust
-    - ml-framework
     - local-inference
+    - ml-framework
     - performance
+    - rust
   confidence: high
 curation:
   status: included
@@ -61,6 +61,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (20176) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:24:31.949Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.697Z"
@@ -71,11 +79,3 @@ processing:
     updated_at: "2026-05-05T21:02:36.999Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:24:31.949Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

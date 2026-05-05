@@ -1,6 +1,6 @@
 id: github__onelevenvy__flock
 kind: github-repo
-name: flock
+name: Flock
 canonical_url: https://github.com/onelevenvy/flock
 identity:
   github_repo: onelevenvy/flock
@@ -63,9 +63,9 @@ insights:
   mental_damage: Just when you thought the LangChain stack couldn't get another layer of abstraction, we now have a low-code GUI to manage the cognitive overhead of the agents managing the cognitive overhead.
   tags:
     - langchain
-    - multi-agent
     - low-code
     - mcp
+    - multi-agent
     - rag
   confidence: high
 curation:
@@ -82,6 +82,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (1089) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:42:05.663Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.711Z"
@@ -92,11 +100,3 @@ processing:
     updated_at: "2026-05-05T21:04:01.722Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:42:05.663Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

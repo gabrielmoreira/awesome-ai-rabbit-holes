@@ -1,6 +1,6 @@
 id: github__alvinunreal__tmuxai
 kind: github-repo
-name: tmuxai
+name: TmuxAI
 canonical_url: https://github.com/alvinunreal/tmuxai
 identity:
   github_repo: alvinunreal/tmuxai
@@ -46,10 +46,10 @@ insights:
   why_it_matters: It offers a non-intrusive AI pair programming experience that understands multi-pane terminal context and can execute commands in a dedicated pane, preserving existing shell workflows.
   mental_damage: Because the natural next step after teaching the AI to watch your terminal is presumably giving it your sudo password so it can really feel at home.
   tags:
-    - terminal
-    - tmux
     - cli
     - pair-programming
+    - terminal
+    - tmux
   confidence: high
 curation:
   status: included
@@ -65,6 +65,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (1793) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:07:54.219Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.678Z"
@@ -75,11 +83,3 @@ processing:
     updated_at: "2026-05-05T21:01:02.065Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:07:54.219Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

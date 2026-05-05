@@ -1,6 +1,6 @@
 id: avanz__ai
 kind: website
-name: avanz.ai
+name: Avanzai
 canonical_url: https://avanz.ai
 identity: {}
 provenance:
@@ -38,9 +38,9 @@ insights:
   why_it_matters: It represents the growing ecosystem of autonomous agents that developers are evaluating to automate complex workflows.
   mental_damage: Another entry in the 'autonomous agents' directory that forces you to wonder if this agent will actually ship code or just hallucinate a roadmap before asking for a API budget increase.
   tags:
+    - agent-platform
     - ai-agents
     - autonomous
-    - agent-platform
   confidence: low
 curation:
   status: excluded
@@ -55,6 +55,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:42:11.995Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.726Z"
@@ -64,11 +72,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:42:11.995Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

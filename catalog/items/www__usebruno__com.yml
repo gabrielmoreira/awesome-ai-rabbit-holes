@@ -1,6 +1,6 @@
 id: www__usebruno__com
 kind: website
-name: www.usebruno.com
+name: Bruno API Client
 canonical_url: https://www.usebruno.com
 identity: {}
 provenance:
@@ -40,9 +40,9 @@ insights:
   mental_damage: Another classic developer standoff where we joyfully abandon a bloated cloud platform for a lean local tool, only to eventually beg for an AI agent to autopilot the very API tests we fought to keep in Git.
   tags:
     - api-testing
+    - developer-tools
     - git-native
     - local-first
-    - developer-tools
   confidence: high
 curation:
   status: excluded
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:54:00.068Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.734Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:54:00.068Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

@@ -1,6 +1,6 @@
 id: github__pj4533__yourgoal
 kind: github-repo
-name: yourgoal
+name: Yourgoal
 canonical_url: https://github.com/pj4533/yourgoal
 identity:
   github_repo: pj4533/yourgoal
@@ -23,17 +23,19 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 53
+    forks: 10
+    license: MIT
+    archived: false
+    created_at: "2023-03-29T12:31:40Z"
+    pushed_at: "2023-04-17T12:33:58Z"
+    description: Swift implementation of BabyAGI
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T23:08:06.232Z"
+    readme:
+      fetched_at: "2026-05-05T23:08:06.232Z"
+      bytes: 1224
 insights:
   summary: null
   why_it_matters: null
@@ -51,21 +53,23 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: deferred
+    updated_at: "2026-05-05T23:08:33.635Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-05-06T00:08:33.635Z"
+    attempts: 0
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.713Z"
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-05-05T21:04:19.674Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for pj4533/yourgoal
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T21:04:23.169Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-05-05T23:08:06.232Z"
+    cause: null
     next_retry_at: null

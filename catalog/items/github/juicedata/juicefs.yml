@@ -1,6 +1,6 @@
 id: github__juicedata__juicefs
 kind: github-repo
-name: juicefs
+name: JuiceFS
 canonical_url: https://github.com/juicedata/juicefs
 identity:
   github_repo: juicedata/juicefs
@@ -54,11 +54,11 @@ insights:
   why_it_matters: It provides a high-performance, shared storage layer that allows AI/ML workloads and big data pipelines to treat cloud object storage as if it were local, low-latency disk.
   mental_damage: Yet another reminder that in the modern stack, your 'local' filesystem is actually a distributed database wrapping an object store wrapping a hard drive in a different timezone.
   tags:
-    - storage
-    - filesystem
     - cloud-native
     - distributed-systems
+    - filesystem
     - mlops
+    - storage
   confidence: high
 curation:
   status: excluded
@@ -74,6 +74,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (13545) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:29:34.932Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.700Z"
@@ -84,11 +92,3 @@ processing:
     updated_at: "2026-05-05T21:03:00.622Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:29:34.932Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

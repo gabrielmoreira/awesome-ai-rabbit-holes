@@ -1,6 +1,6 @@
 id: whatthediff__ai
 kind: website
-name: whatthediff.ai
+name: What The Diff
 canonical_url: https://whatthediff.ai
 identity: {}
 provenance:
@@ -38,11 +38,11 @@ insights:
   why_it_matters: It automates the tedious work of documenting PR changes and helps keep non-technical stakeholders informed via summarized notifications and changelogs.
   mental_damage: We have successfully automated the one part of code review where developers traditionally felt the most guilt for not writing enough words.
   tags:
-    - code-review
-    - pull-requests
     - ai-assistant
-    - refactoring
+    - code-review
     - github
+    - pull-requests
+    - refactoring
   confidence: high
 curation:
   status: included
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:49:15.839Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.731Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:49:15.839Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

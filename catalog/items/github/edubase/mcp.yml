@@ -21,6 +21,21 @@ provenance:
         extracted_url: https://github.com/edubase/mcp
         surrounding_text: "- **[EduBase](https://github.com/EduBase/MCP)** - Interact with [EduBase](https://www.edubase.net), a comprehensive e-learning platform with advanced quizzing, exam management, and content organization capabilities"
         confidence: high
+    - id: discovery__www__edubase__net__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T22:47:06.910Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: EduBase
+        extracted_url: https://www.edubase.net
+        surrounding_text: "- **[EduBase](https://github.com/EduBase/MCP)** - Interact with [EduBase](https://www.edubase.net), a comprehensive e-learning platform with advanced quizzing, exam management, and content organization capabilities"
+        confidence: high
 metadata:
   github:
     stars: 26
@@ -41,10 +56,13 @@ insights:
   why_it_matters: It enables developers building on EduBase to automate educational workflows and content management through natural language interactions with MCP-compatible clients.
   mental_damage: "Finally, the Model Context Protocol conquers its final frontier: helping LLMs autonomously generate math quizzes so you don't have to."
   tags:
-    - mcp-server
+    - api
     - edubase
     - education
     - llm-integration
+    - lms
+    - mcp
+    - mcp-server
   confidence: high
 curation:
   status: included
@@ -60,16 +78,6 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  discover:
-    status: done
-    updated_at: "2026-05-05T19:41:00.686Z"
-    cause: null
-    next_retry_at: null
-  stars:
-    status: done
-    updated_at: "2026-05-05T21:02:00.218Z"
-    cause: null
-    next_retry_at: null
   categorize:
     status: done
     updated_at: "2026-05-05T21:17:37.727Z"
@@ -78,3 +86,13 @@ processing:
     attempts: 1
     prompt_version: catalog-categorize-v2-baseline
     category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T22:47:06.911Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:00.218Z"
+    cause: null
+    next_retry_at: null

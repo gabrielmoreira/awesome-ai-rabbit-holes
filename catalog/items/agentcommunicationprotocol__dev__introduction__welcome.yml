@@ -1,6 +1,6 @@
 id: agentcommunicationprotocol__dev__introduction__welcome
 kind: website
-name: welcome
+name: ACP
 canonical_url: https://agentcommunicationprotocol.dev/introduction/welcome
 identity: {}
 provenance:
@@ -40,9 +40,9 @@ insights:
   mental_damage: Just when you mastered the MCP stack, the ecosystem decided to accelerate into ACP and A2A, ensuring your integration code remains a perpetual work in progress.
   tags:
     - agents
-    - protocol
     - interoperability
     - linux-foundation
+    - protocol
   confidence: high
 curation:
   status: included
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:41:23.221Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.725Z"
@@ -69,11 +77,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:41:23.221Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

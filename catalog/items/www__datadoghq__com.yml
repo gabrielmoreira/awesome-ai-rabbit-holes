@@ -1,6 +1,6 @@
 id: www__datadoghq__com
 kind: website
-name: www.datadoghq.com
+name: Datadog
 canonical_url: https://www.datadoghq.com
 identity: {}
 provenance:
@@ -38,9 +38,9 @@ insights:
   why_it_matters: It offers developers AI-integrated tools for monitoring model performance, detecting anomalies, and managing cloud infrastructure within their existing DevOps workflows.
   mental_damage: Now you can add 'configuring LLM observability dashboards' to the backlog right between 'fixing the CI pipeline' and 'wondering why we adopted Kubernetes'.
   tags:
-    - monitoring
-    - devops
     - ai-ops
+    - devops
+    - monitoring
     - observability
   confidence: high
 curation:
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:50:27.847Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.732Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:50:27.847Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

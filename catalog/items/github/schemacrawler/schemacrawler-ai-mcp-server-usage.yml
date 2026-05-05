@@ -1,13 +1,13 @@
 id: github__schemacrawler__schemacrawler-ai-mcp-server-usage
 kind: github-repo
-name: schemacrawler-mcp-server-usage
+name: schemacrawler/SchemaCrawler-MCP-Server-Usage
 canonical_url: https://github.com/schemacrawler/schemacrawler-ai-mcp-server-usage
 identity:
   github_repo: schemacrawler/schemacrawler-ai-mcp-server-usage
 provenance:
   discoveries:
     - id: discovery__github__schemacrawler__schemacrawler-mcp-server-usage__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-05T20:48:55.437Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [schemacrawler/SchemaCrawler-MCP-Server-Usage](https://github.com/schemacrawler/SchemaCrawler-MCP-Server-Usage) 🎖️ ☕ – Connect to any relational database, and be able to get valid SQL, and ask questions like what does a certain column prefix mean."
         confidence: high
     - id: discovery__github__schemacrawler__schemacrawler-mcp-server-usage__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-05T20:48:55.437Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -36,6 +36,22 @@ provenance:
         anchor_text: SchemaCrawler
         extracted_url: https://github.com/schemacrawler/schemacrawler-mcp-server-usage
         surrounding_text: "- **[SchemaCrawler](https://github.com/schemacrawler/SchemaCrawler-MCP-Server-Usage)** - Connect to any relational database, and be able to get valid SQL, and ask questions like what does a certain column prefix mean."
+        confidence: high
+    - id: discovery__github__schemacrawler__schemacrawler-ai-mcp-server-usage__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T22:33:31.148Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🗄️ <a name="databases"></a>Databases
+        anchor_text: schemacrawler/SchemaCrawler-MCP-Server-Usage
+        extracted_url: https://github.com/schemacrawler/schemacrawler-mcp-server-usage
+        surrounding_text: "- [schemacrawler/SchemaCrawler-MCP-Server-Usage](https://github.com/schemacrawler/SchemaCrawler-MCP-Server-Usage) 🎖️ ☕ – Connect to any relational database, and be able to get valid SQL, and ask questions like what does a certain column prefix mean."
         confidence: high
 metadata:
   github:
@@ -69,14 +85,14 @@ lifecycle:
 processing:
   categorize:
     status: skipped
-    updated_at: "2026-05-05T21:04:23.169Z"
+    updated_at: "2026-05-05T23:08:18.952Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.670Z"
+    updated_at: "2026-05-05T22:33:31.152Z"
     cause: null
     next_retry_at: null
   stars:

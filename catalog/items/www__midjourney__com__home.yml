@@ -1,6 +1,6 @@
 id: www__midjourney__com__home
 kind: website
-name: home
+name: midjourney
 canonical_url: https://www.midjourney.com/home
 identity: {}
 provenance:
@@ -39,9 +39,9 @@ insights:
   why_it_matters: It provides a browser-first surface for generating visual assets, though it targets designers and creatives rather than developers building software.
   mental_damage: Another reminder that while we automate the creation of art, we are still manually debugging CSS grid layouts written three years ago.
   tags:
-    - image-generation
-    - generative-ai
     - creative-tools
+    - generative-ai
+    - image-generation
     - saas
   confidence: high
 curation:
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:52:04.402Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.733Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:52:04.402Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

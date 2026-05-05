@@ -1,6 +1,6 @@
 id: github__langchain-ai__langgraph
 kind: github-repo
-name: langgraph
+name: LangGraph
 canonical_url: https://github.com/langchain-ai/langgraph
 identity:
   github_repo: langchain-ai/langgraph
@@ -62,9 +62,9 @@ insights:
   tags:
     - agents
     - framework
+    - orchestration
     - python
     - typescript
-    - orchestration
   confidence: high
 curation:
   status: included
@@ -80,6 +80,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (31248) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:33:05.739Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.703Z"
@@ -90,11 +98,3 @@ processing:
     updated_at: "2026-05-05T21:03:16.221Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:33:05.739Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

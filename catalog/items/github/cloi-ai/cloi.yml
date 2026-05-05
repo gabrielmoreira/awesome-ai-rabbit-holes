@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__cloi-ai__cloi__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T20:48:55.437Z"
+      discovered_at: "2026-05-05T22:33:31.148Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -32,50 +32,44 @@ metadata:
     description: Local debugging agent that runs in your terminal
     homepage: http://www.cloi-ai.com
     topics: []
-    last_checked_at: "2026-05-05T21:01:35.965Z"
+    last_checked_at: "2026-05-05T23:07:45.817Z"
     readme:
-      fetched_at: "2026-05-05T21:01:35.965Z"
+      fetched_at: "2026-05-05T23:07:45.817Z"
       bytes: 6801
 insights:
-  summary: A terminal-based debugging agent that runs locally on your machine, using Ollama or Claude models to analyze errors and suggest fixes with RAG-powered context retrieval.
-  why_it_matters: It lets developers debug directly in the terminal with local or API models, keeping code private while automating error analysis and fix suggestions.
-  mental_damage: Another brave terminal agent promising to fix your bugs, provided you are comfortable with an experimental beta patching your codebase and a 500 MB CodeBERT model running quietly in the background.
-  tags:
-    - terminal
-    - debugging
-    - local-ai
-    - rag
-    - cli
-  confidence: high
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
 curation:
-  status: included
-  reason: The tool is a developer-facing coding agent that directly debugs code inside the terminal, edits files with reviewable diffs, and fits cleanly as a CLI coding assistant.
-  evidence:
-    - "Repo description states: 'Local debugging agent that runs in your terminal.'"
-    - README says Cloi 'analyze[s] errors and apply fixes directly to your codebase' with reviewable diffs.
-    - "Active development: created 2025-05-01, last pushed 2025-06-06, and not archived."
+  status: pending
+  reason: null
+  evidence: []
 placement:
-  primary_category: coding-agents
-  section: Terminal & CLI Agents
+  primary_category: null
+  section: null
 lifecycle:
   status: promotion_candidate
   reason: Stars (395) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.440Z"
+    updated_at: "2026-05-05T22:33:31.150Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:35.965Z"
+    updated_at: "2026-05-05T23:07:45.817Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-05T21:13:26.193Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
+    status: deferred
+    updated_at: "2026-05-05T23:08:33.635Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-05-06T00:08:33.635Z"
+    attempts: 0
     prompt_version: catalog-categorize-v2-baseline
     category_rules_version: 1b6cc5462ecc

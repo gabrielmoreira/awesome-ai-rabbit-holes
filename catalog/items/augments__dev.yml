@@ -1,6 +1,6 @@
 id: augments__dev
 kind: website
-name: augments.dev
+name: Augments
 canonical_url: https://augments.dev
 identity: {}
 provenance:
@@ -38,11 +38,11 @@ insights:
   why_it_matters: It allows AI coding assistants to answer framework and library questions with up-to-date, version-specific documentation rather than hallucinated or outdated training data.
   mental_damage: We have officially reached the point where our AI assistants need their own package managers to stop them from confidently inventing APIs that haven't existed since 2022.
   tags:
+    - claude-code
+    - context
+    - docs
     - mcp
     - npm
-    - claude-code
-    - docs
-    - context
   confidence: high
 curation:
   status: included
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:42:06.051Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.726Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:42:06.051Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

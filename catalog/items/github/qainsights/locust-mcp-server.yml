@@ -24,17 +24,24 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 11
+    forks: 7
+    license: MIT
+    archived: false
+    created_at: "2025-03-29T20:17:39Z"
+    pushed_at: "2025-04-06T23:41:42Z"
+    description: A Model Context Protocol (MCP) server implementation for running Locust load tests. This server enables seamless integration of Locust load testing capabilities with AI-powered development environments.
+    homepage: https://qainsights.com
+    topics:
+      - locust
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - performance-testing
+    last_checked_at: "2026-05-05T23:08:14.072Z"
+    readme:
+      fetched_at: "2026-05-05T23:08:14.072Z"
+      bytes: 3387
 insights:
   summary: null
   why_it_matters: null
@@ -58,13 +65,17 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-05T23:08:14.072Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T21:04:23.169Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-05-05T23:08:33.635Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-05-06T00:08:33.635Z"
+    attempts: 0
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,6 +1,6 @@
 id: github__portkey-ai__gateway
 kind: github-repo
-name: gateway
+name: Gateway
 canonical_url: https://github.com/portkey-ai/gateway
 identity:
   github_repo: portkey-ai/gateway
@@ -23,17 +23,34 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 11602
+    forks: 1037
+    license: MIT
+    archived: false
+    created_at: "2023-08-23T11:52:47Z"
+    pushed_at: "2026-03-25T09:33:55Z"
+    description: A blazing fast AI Gateway with integrated guardrails. Route to 1,600+ LLMs, 50+ AI Guardrails with 1 fast & friendly API.
+    homepage: https://portkey.ai/features/ai-gateway
+    topics:
+      - ai-gateway
+      - gateway
+      - generative-ai
+      - hacktoberfest
+      - langchain
+      - llm
+      - llm-gateway
+      - llmops
+      - llms
+      - mcp
+      - mcp-client
+      - mcp-gateway
+      - mcp-servers
+      - model-router
+      - openai
+    last_checked_at: "2026-05-05T23:08:08.429Z"
+    readme:
+      fetched_at: "2026-05-05T23:08:08.429Z"
+      bytes: 21564
 insights:
   summary: null
   why_it_matters: null
@@ -48,22 +65,26 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (11602) exceeded threshold (150)
 processing:
+  categorize:
+    status: deferred
+    updated_at: "2026-05-05T23:08:33.635Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-05-06T00:08:33.635Z"
+    attempts: 0
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.713Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-05T23:08:08.429Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T21:04:23.169Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null

@@ -1,6 +1,6 @@
 id: github__askbudi__roundtable
 kind: github-repo
-name: roundtable
+name: Roundtable
 canonical_url: https://github.com/askbudi/roundtable
 identity:
   github_repo: askbudi/roundtable
@@ -63,11 +63,11 @@ insights:
   why_it_matters: It enables a multi-model workflow directly inside the IDE, allowing developers to leverage the specific strengths of different AI models (e.g., Gemini's context window, Claude's reasoning) without manual context switching or copy-pasting.
   mental_damage: We have successfully built infrastructure to manage the cognitive load of managing the infrastructure that manages the AI assistants that are managing our code.
   tags:
+    - ide-integration
+    - local-server
     - mcp
     - multi-agent
-    - ide-integration
     - python
-    - local-server
   confidence: high
 curation:
   status: included
@@ -83,6 +83,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:09:17.132Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.663Z"
@@ -93,11 +101,3 @@ processing:
     updated_at: "2026-05-05T21:01:10.673Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:09:17.132Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

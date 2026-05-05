@@ -1,6 +1,6 @@
 id: www__trypromptly__com
 kind: website
-name: www.trypromptly.com
+name: Promptly
 canonical_url: https://www.trypromptly.com
 identity: {}
 provenance:
@@ -38,11 +38,11 @@ insights:
   why_it_matters: It offers developers a hosted way to prototype and embed RAG-powered chatbots and internal tools with APIs and data connectors, without building the pipeline from scratch.
   mental_damage: Yet another declarative UI that promises to turn your proprietary docs into a chatbot in minutes, ensuring you still get paged when the embeddings drift.
   tags:
-    - no-code
-    - chatbot-builder
-    - rag
-    - enterprise-ai
     - app-builder
+    - chatbot-builder
+    - enterprise-ai
+    - no-code
+    - rag
   confidence: high
 curation:
   status: included
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:53:53.542Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.734Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:53:53.542Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

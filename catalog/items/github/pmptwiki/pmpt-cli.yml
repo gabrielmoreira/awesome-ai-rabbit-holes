@@ -24,17 +24,27 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 5
+    forks: 3
+    license: MIT
+    archived: false
+    created_at: "2026-02-17T16:38:21Z"
+    pushed_at: "2026-03-08T10:35:06Z"
+    description: Record and share your AI-driven product development journey
+    homepage: https://pmptwiki.com
+    topics:
+      - ai
+      - cli
+      - developer-tools
+      - mcp
+      - prompt-engineering
+      - side-project
+      - version-control
+      - vibe-coding
+    last_checked_at: "2026-05-05T23:08:07.273Z"
+    readme:
+      fetched_at: "2026-05-05T23:08:07.273Z"
+      bytes: 10672
 insights:
   summary: null
   why_it_matters: null
@@ -58,13 +68,17 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-05T23:08:07.273Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T21:04:23.169Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-05-05T23:08:33.635Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-05-06T00:08:33.635Z"
+    attempts: 0
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

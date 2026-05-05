@@ -1,6 +1,6 @@
 id: www__reddit__com__r__mcp
 kind: website
-name: mcp
+name: r/mcp Reddit
 canonical_url: https://www.reddit.com/r/mcp
 identity: {}
 provenance:
@@ -38,8 +38,8 @@ insights:
   why_it_matters: It serves as a discovery hub for developers looking to understand or integrate with the growing MCP ecosystem.
   mental_damage: Yet another circular dependency where the best way to understand the next layer of AI tooling abstraction is a forum filled with screenshots of YAML errors.
   tags:
-    - mcp
     - community
+    - mcp
     - reddit
   confidence: high
 curation:
@@ -56,6 +56,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:53:02.281Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.734Z"
@@ -65,11 +73,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:53:02.281Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

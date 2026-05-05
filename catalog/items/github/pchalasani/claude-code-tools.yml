@@ -1,6 +1,6 @@
 id: github__pchalasani__claude-code-tools
 kind: github-repo
-name: claude-code-tools
+name: Claude Code Tools
 canonical_url: https://github.com/pchalasani/claude-code-tools
 identity:
   github_repo: pchalasani/claude-code-tools
@@ -51,8 +51,8 @@ insights:
   why_it_matters: It extends the capabilities of CLI coding agents with session management, voice control, Google Workspace integrations, and safety hooks to streamline the terminal-based AI development workflow.
   mental_damage: We have now reached the point where we need a dedicated toolkit to organize the plugins, hooks, and skills we use to manage the agent that writes our code.
   tags:
-    - cli
     - claude-code
+    - cli
     - plugins
     - skills
     - tmux
@@ -71,6 +71,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (1763) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:44:11.985Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.712Z"
@@ -81,11 +89,3 @@ processing:
     updated_at: "2026-05-05T21:04:14.342Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:44:11.985Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

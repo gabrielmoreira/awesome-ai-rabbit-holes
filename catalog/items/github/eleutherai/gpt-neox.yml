@@ -1,6 +1,6 @@
 id: github__eleutherai__gpt-neox
 kind: github-repo
-name: gpt-neox
+name: GPT-NeoX
 canonical_url: https://github.com/eleutherai/gpt-neox
 identity:
   github_repo: eleutherai/gpt-neox
@@ -46,9 +46,9 @@ insights:
   why_it_matters: It provides the distributed training infrastructure necessary for researchers and engineers to train billion-parameter models across diverse supercomputing clusters and cloud environments.
   mental_damage: Offers the perfect opportunity to spend three weeks configuring Slurm just to discover you still don't have enough GPUs to train anything modern.
   tags:
-    - llm-training
     - distributed-systems
     - gpus
+    - llm-training
     - transformers
   confidence: high
 curation:
@@ -65,6 +65,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (7425) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:17:44.333Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.686Z"
@@ -75,11 +83,3 @@ processing:
     updated_at: "2026-05-05T21:02:00.875Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:17:44.333Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

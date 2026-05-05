@@ -1,6 +1,6 @@
 id: github__lance-format__lance
 kind: github-repo
-name: lance
+name: Lance
 canonical_url: https://github.com/lance-format/lance
 identity:
   github_repo: lance-format/lance
@@ -54,20 +54,23 @@ metadata:
       fetched_at: "2026-05-05T21:03:15.272Z"
       bytes: 8428
 insights:
-  summary: Lance is an open lakehouse format for multimodal AI that provides a file format, table format, and catalog spec with vector search, full-text search, and data versioning compatible with Pandas, DuckDB, Polars, and PyTorch.
-  why_it_matters: It gives developers a single high-performance format for storing and querying embeddings, images, and tabular data with 100x faster random access than Parquet and native hybrid search capabilities.
-  mental_damage: Yet another opportunity to rebuild your entire data infrastructure on a new format because this one—unlike the last three—actually supports your vector search and multimodal blobs without a separate database you'll have to explain to your platform team.
+  summary: Lance is an open lakehouse format for multimodal AI that provides high-performance vector search, full-text search, and random access on object storage, compatible with Pandas, DuckDB, Polars, and PyTorch.
+  why_it_matters: It gives developers a unified format to store embeddings, images, and tabular data with fast hybrid search and versioning, cutting out the glue code between data lakes and AI training pipelines.
+  mental_damage: Yet another lakehouse format enters the ring to save you from Parquet’s random access performance, assuming you were not already drowning in Iceberg, Delta, and Hudi compatibility matrices.
   tags:
-    - vector-search
+    - data-format
     - lakehouse
     - multimodal
-    - data-format
     - rust
+    - vector-search
   confidence: high
 curation:
   status: included
-  reason: This is a developer-facing SDK and format library for building AI data infrastructure in code, fitting cleanly as a framework rather than an agent, editor, or app builder.
+  reason: Lance is a developer-facing library and data format SDK for building AI data infrastructure, fitting cleanly as a code-first building block rather than a hosted app builder or coding agent.
   evidence:
+    - Repo description explicitly defines it as an 'Open Lakehouse Format for Multimodal AI' with compatibility for Pandas, DuckDB, Polars, and PyTorch.
+    - README positions it as a format, table spec, and catalog for developers building search engines, feature stores, and ML training pipelines.
+    - Listed under 'Data > Data Storage' in Awesome-LLMOps, aligning with its infrastructure and SDK nature.
     - Repo description explicitly defines it as an open lakehouse format with 100x faster random access, vector index, and data versioning.
     - README positions it as a format with Rust core, Python/Java bindings, and integrations with Pandas, DuckDB, Polars, Spark, and Ray for AI workflows.
     - "Active development signal: created 2022-07-07, last pushed 2026-05-05, 6382 stars, Apache-2.0 licensed, not archived."
@@ -88,7 +91,7 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.686Z"
+    updated_at: "2026-05-05T20:48:55.441Z"
     cause: null
     next_retry_at: null
   stars:

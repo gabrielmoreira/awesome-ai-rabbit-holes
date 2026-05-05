@@ -1,6 +1,6 @@
 id: github__opencx-labs__openchat
 kind: github-repo
-name: openchat
+name: OpenChat
 canonical_url: https://github.com/opencx-labs/openchat
 identity:
   github_repo: opencx-labs/openchat
@@ -38,19 +38,24 @@ metadata:
       fetched_at: "2026-05-05T21:04:05.319Z"
       bytes: 11047
 insights:
-  summary: OpenChat is an archived chatbot console for creating and managing multiple customized GPT-based chatbots with support for ingesting codebases, PDFs, and websites as data sources.
-  why_it_matters: It offered developers a way to spin up specialized chatbots using their own codebase or documentation as context, and embed them into internal tools or websites.
-  mental_damage: Another valiant attempt to centralize our LLM workflows that now sits frozen in time, proving even chatbot consoles have a half-life shorter than a GPT-4 context window.
+  summary: OpenChat is an archived, self-hosted chatbot console for creating customized GPT-powered chatbots with support for ingesting codebases, PDFs, and websites as data sources.
+  why_it_matters: It offered developers a local hub to build and embed RAG-based chatbots using their own code and documentation as context before the ecosystem standardized on newer stacks.
+  mental_damage: Just when you finished wrapping your head around LangChain, you discover the 'central hub' you deployed six months ago is now a digital ghost town in a GitHub archive.
   tags:
     - chatbot
-    - llm
     - gpt
+    - langchain
+    - llm
+    - local-ai
     - rag
   confidence: high
 curation:
   status: excluded
-  reason: The repository is archived and represents a general-purpose chatbot consumer console rather than a developer-facing coding tool or infrastructure.
+  reason: The repository is archived and the project appears to be abandoned, making it unsuitable for a curated catalog of active developer tooling.
   evidence:
+    - "Repo status is explicitly 'archived: yes'."
+    - Last push was in February 2024, with no signs of active maintenance since.
+    - Appears in awesome-langchain as a chatbot project, but the core product is a user-facing chatbot console rather than a deep developer workflow integration.
     - Repo is marked as archived, indicating it is no longer actively maintained.
     - README describes it as an 'everyday user chatbot console' focused on managing custom GPT chatbots, not a developer IDE or coding agent.
     - Primary features center on consumer RAG use cases (PDFs, websites) and website widgets rather than repo-editing workflows.
@@ -71,7 +76,7 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.711Z"
+    updated_at: "2026-05-05T20:48:55.443Z"
     cause: null
     next_retry_at: null
   stars:

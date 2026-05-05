@@ -1,6 +1,6 @@
 id: github__mervinpraison__praisonai
 kind: github-repo
-name: praisonai
+name: PraisonAI
 canonical_url: https://github.com/mervinpraison/praisonai
 identity:
   github_repo: mervinpraison/praisonai
@@ -107,10 +107,10 @@ insights:
   mental_damage: Another day, another framework promising a 24/7 AI workforce that will definitely not require you to debug its autonomous decisions at 2 AM.
   tags:
     - agents
-    - multi-agent
-    - framework
-    - sdk
     - automation
+    - framework
+    - multi-agent
+    - sdk
   confidence: high
 curation:
   status: included
@@ -126,6 +126,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (7056) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:37:03.746Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.658Z"
@@ -136,11 +144,3 @@ processing:
     updated_at: "2026-05-05T21:03:36.086Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:37:03.746Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

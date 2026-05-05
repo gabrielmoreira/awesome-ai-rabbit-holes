@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__openfort-xyz__mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T20:48:55.437Z"
+      discovered_at: "2026-05-05T22:33:31.148Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -32,27 +32,20 @@ metadata:
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:04:05.867Z"
+    last_checked_at: "2026-05-05T23:08:03.928Z"
     readme:
-      fetched_at: "2026-05-05T21:04:05.867Z"
+      fetched_at: "2026-05-05T23:08:03.928Z"
       bytes: 7532
 insights:
-  summary: An archived MCP server that lets AI assistants like Cursor, Windsurf, and VS Code Copilot create and manage projects on Openfort's wallet and authentication infrastructure.
-  why_it_matters: It allows developers to scaffold apps and manage Openfort resources directly through chat in their IDE instead of context-switching to dashboards.
-  mental_damage: Another niche MCP server joins the pile, proving that the future of development is explaining your wallet infrastructure to a chatbot that forgets it has tools.
-  tags:
-    - mcp
-    - openfort
-    - infrastructure
-    - ide-integration
-  confidence: high
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
 curation:
-  status: excluded
-  reason: The repository is archived and has negligible traction (4 stars), making it dead-on-arrival infrastructure for a specific proprietary platform.
-  evidence:
-    - Repo is marked as archived, indicating it is no longer maintained.
-    - Created in July 2025 with only 4 stars, showing negligible ecosystem traction.
-    - Appears in awesome-mcp-servers but the repo itself is a dead integration for a single vendor's platform.
+  status: pending
+  reason: null
+  evidence: []
 placement:
   primary_category: null
   section: null
@@ -62,19 +55,21 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.443Z"
+    updated_at: "2026-05-05T22:33:31.151Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:05.867Z"
+    updated_at: "2026-05-05T23:08:03.928Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-05T21:42:44.296Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
+    status: deferred
+    updated_at: "2026-05-05T23:08:33.635Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-05-06T00:08:33.635Z"
+    attempts: 0
     prompt_version: catalog-categorize-v2-baseline
     category_rules_version: 1b6cc5462ecc

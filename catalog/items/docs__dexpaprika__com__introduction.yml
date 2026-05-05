@@ -1,6 +1,6 @@
 id: docs__dexpaprika__com__introduction
 kind: website
-name: introduction
+name: DexPaprika API
 canonical_url: https://docs.dexpaprika.com/introduction
 identity: {}
 provenance:
@@ -54,11 +54,11 @@ insights:
   why_it_matters: It offers developers (and their AI agents) structured, near real-time blockchain data without requiring API keys, with official MCP server support for IDE integrations.
   mental_damage: Another essential API that will inevitably be fed into a vibe-coded trading bot by an agent that confidently explains why a 200ms latency spike means the market is collapsing.
   tags:
-    - crypto
     - api
-    - mcp
     - blockchain
+    - crypto
     - data
+    - mcp
   confidence: high
 curation:
   status: included
@@ -74,6 +74,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:44:02.440Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.674Z"
@@ -83,11 +91,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:44:02.440Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

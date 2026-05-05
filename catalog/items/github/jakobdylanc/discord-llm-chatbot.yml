@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jakobdylanc__discord-llm-chatbot__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-05T20:48:55.437Z"
+      discovered_at: "2026-05-05T22:33:31.148Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -46,30 +46,22 @@ metadata:
       - openai
       - openrouter
       - vllm
-    last_checked_at: "2026-05-05T21:02:49.954Z"
+    last_checked_at: "2026-05-05T23:07:55.125Z"
     readme:
-      fetched_at: "2026-05-05T21:02:49.954Z"
+      fetched_at: "2026-05-05T23:07:55.125Z"
       bytes: 7116
 insights:
-  summary: A lightweight Python bot that turns Discord into a collaborative frontend for any OpenAI-compatible LLM, supporting reply-based threading and model switching.
-  why_it_matters: It lets teams self-host a shared AI chat interface using local or remote models without standing up a dedicated web app or SaaS.
-  mental_damage: Finally, a way to make architectural decisions with your LLM while arguing with your teammates in a Discord thread at 2 AM.
-  tags:
-    - discord
-    - llm
-    - local-ai
-    - chatbot
-    - openai-compatible
-  confidence: high
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
 curation:
-  status: included
-  reason: This is a developer-tooling project for running LLMs as a Discord bot with strong local-AI support, fitting the local-ai category rather than coding agents or app builders.
-  evidence:
-    - "Repo description: 'Make Discord your LLM frontend - Supports any OpenAI compatible API (Ollama, xAI, Gemini, OpenRouter and more)'"
-    - README states it works with local models via Ollama, LM Studio, vLLM, and any OpenAI-compatible API server.
-    - Seen in awesome-local-ai under User Tools, aligning with local execution and developer utility.
+  status: pending
+  reason: null
+  evidence: []
 placement:
-  primary_category: local-ai
+  primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
@@ -77,19 +69,21 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.442Z"
+    updated_at: "2026-05-05T22:33:31.151Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:49.954Z"
+    updated_at: "2026-05-05T23:07:55.125Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-05T21:27:19.632Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
+    status: deferred
+    updated_at: "2026-05-05T23:08:33.635Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-05-06T00:08:33.635Z"
+    attempts: 0
     prompt_version: catalog-categorize-v2-baseline
     category_rules_version: 1b6cc5462ecc

@@ -1,6 +1,6 @@
 id: github__kingjulio8238__memary
 kind: github-repo
-name: memary
+name: Memary
 canonical_url: https://github.com/kingjulio8238/memary
 identity:
   github_repo: kingjulio8238/memary
@@ -47,11 +47,11 @@ insights:
   why_it_matters: It provides developers building autonomous agents with a pluggable memory system that integrates with existing LLMs and graph databases like FalkorDB and Neo4j.
   mental_damage: We have successfully decomposed the 'stateful agent' problem into installing a graph database, managing five different API keys, and praying the memory graph doesn't become a hallucination feedback loop.
   tags:
-    - memory
     - agents
     - knowledge-graph
-    - rag
     - local-ai
+    - memory
+    - rag
   confidence: high
 curation:
   status: included
@@ -67,6 +67,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (2605) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:30:53.080Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.701Z"
@@ -77,11 +85,3 @@ processing:
     updated_at: "2026-05-05T21:03:06.290Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:30:53.080Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

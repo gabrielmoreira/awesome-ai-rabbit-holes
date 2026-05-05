@@ -1,6 +1,6 @@
 id: codex__infinity__com
 kind: website
-name: codex-infinity.com
+name: Codex Infinity
 canonical_url: https://codex-infinity.com
 identity: {}
 provenance:
@@ -38,9 +38,9 @@ insights:
   why_it_matters: It aims to let developers delegate extended, autonomous coding workflows to an agent that can reason through tasks and manage cloud resources.
   mental_damage: Another day, another 'infinite' agent promising to autonomously reshape your repo while you pray your cloud bill doesn't achieve singularity first.
   tags:
-    - coding-agent
     - autonomous
     - cloud
+    - coding-agent
   confidence: medium
 curation:
   status: included
@@ -55,6 +55,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:43:06.883Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.726Z"
@@ -64,11 +72,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:43:06.883Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

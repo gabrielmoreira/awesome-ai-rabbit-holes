@@ -1,6 +1,6 @@
 id: github__mdbabumiamssm__llms-universal-life-science-and-clinical-skills-
 kind: github-repo
-name: llms-universal-life-science-and-clinical-skills-
+name: LLMs-Universal-Life-Science-and-Clinical-Skills-
 canonical_url: https://github.com/mdbabumiamssm/llms-universal-life-science-and-clinical-skills-
 identity:
   github_repo: mdbabumiamssm/llms-universal-life-science-and-clinical-skills-
@@ -41,11 +41,11 @@ insights:
   why_it_matters: It provides a structured library of SKILL.md definitions and operational guides that developers can reuse to bootstrap biomedical agent workflows or extend their own coding agents with domain-specific context.
   mental_damage: You now have a 26-star repo promising a full Biomedical OS with 150+ tools, which is either the future of precision oncology or the most elaborate prompt folder ever committed to main.
   tags:
-    - skills
-    - biomedical
     - agents
-    - mcp
+    - biomedical
     - life-sciences
+    - mcp
+    - skills
   confidence: medium
 curation:
   status: included
@@ -61,6 +61,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:36:34.665Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.706Z"
@@ -71,11 +79,3 @@ processing:
     updated_at: "2026-05-05T21:03:34.234Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:36:34.665Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

@@ -1,6 +1,6 @@
 id: www__braingrid__ai
 kind: website
-name: www.braingrid.ai
+name: BrainGrid
 canonical_url: https://www.braingrid.ai
 identity: {}
 provenance:
@@ -39,9 +39,9 @@ insights:
   why_it_matters: It attempts to solve the 'planning gap' by generating architecture and acceptance criteria that coding agents can consume, aiming to reduce regressions and prototype staleness.
   mental_damage: We’ve now reached the point where we need an AI tool to organize the prompts for the AI tool that writes the code, adding a middle manager to a workflow that was supposed to eliminate middle managers.
   tags:
+    - mcp
     - planning
     - specs
-    - mcp
     - workflow
   confidence: high
 curation:
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:49:55.116Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.731Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:49:55.116Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

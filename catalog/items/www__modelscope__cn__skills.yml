@@ -1,6 +1,6 @@
 id: www__modelscope__cn__skills
 kind: website
-name: skills
+name: Modelscope Skills
 canonical_url: https://www.modelscope.cn/skills
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It provides a centralized hub for developers to discover and reuse modular skills that extend the behavior of AI models and developer tools.
   mental_damage: Because nothing says 'streamlined workflow' like browsing a registry of modular capabilities while wondering if you should have just written the function yourself.
   tags:
-    - skills
-    - registry
-    - modelscope
     - ai-capabilities
+    - modelscope
+    - registry
+    - skills
   confidence: medium
 curation:
   status: included
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T20:27:18.573Z"
+    cause: null
+    attempts: 3
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 753a9feca783
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.733Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T20:27:18.573Z"
-    cause: null
-    attempts: 3
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 753a9feca783
-    next_retry_at: null

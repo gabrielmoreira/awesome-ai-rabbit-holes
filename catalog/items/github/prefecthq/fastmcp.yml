@@ -1,6 +1,6 @@
 id: github__prefecthq__fastmcp
 kind: github-repo
-name: fastmcp
+name: FastMCP
 canonical_url: https://github.com/prefecthq/fastmcp
 identity:
   github_repo: prefecthq/fastmcp
@@ -23,47 +23,67 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 25009
+    forks: 1989
+    license: Apache-2.0
+    archived: false
+    created_at: "2024-11-30T01:47:40Z"
+    pushed_at: "2026-05-04T21:37:15Z"
+    description: 🚀 The fast, Pythonic way to build MCP servers and clients.
+    homepage: https://gofastmcp.com
+    topics:
+      - agents
+      - fastmcp
+      - llms
+      - mcp
+      - mcp-clients
+      - mcp-servers
+      - mcp-tools
+      - model-context-protocol
+      - python
+    last_checked_at: "2026-05-05T21:02:57.072Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:57.072Z"
+      bytes: 6658
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A Python framework for building Model Context Protocol (MCP) servers and clients with automatic schema generation and protocol management.
+  why_it_matters: It standardizes how developers expose tools and data to LLMs, handling transport, validation, and lifecycle so you can focus on Python function logic.
+  mental_damage: The standard framework for building MCP servers that powers 70% of them, proving once again that the fastest way to standardize a protocol is to let the Python community build a wrapper everyone actually enjoys using.
+  tags:
+    - framework
+    - llm-tools
+    - mcp
+    - python
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: FastMCP is a core MCP infrastructure tool (server/client framework) explicitly designed for building Model Context Protocol integrations, fitting the mcp category perfectly.
+  evidence:
+    - "Repo description: 'The fast, Pythonic way to build MCP servers and clients.'"
+    - README states it is 'the standard framework for working with MCP' and powers 70% of MCP servers.
+    - Topics include mcp, mcp-servers, mcp-clients, and mcp-tools.
 placement:
-  primary_category: null
+  primary_category: mcp
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (25009) exceeded threshold (150)
 processing:
   categorize:
-    status: skipped
-    updated_at: "2026-05-05T21:04:23.169Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-05-05T21:28:42.472Z"
+    cause: null
     next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.700Z"
+    updated_at: "2026-05-05T20:48:55.442Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-05T21:02:57.072Z"
     cause: null
+    next_retry_at: null

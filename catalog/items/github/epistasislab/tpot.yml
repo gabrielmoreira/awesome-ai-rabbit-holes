@@ -1,6 +1,6 @@
 id: github__epistasislab__tpot
 kind: github-repo
-name: tpot
+name: TPOT
 canonical_url: https://github.com/epistasislab/tpot
 identity:
   github_repo: epistasislab/tpot
@@ -62,10 +62,10 @@ insights:
   mental_damage: Yet another tool promising to automate the data scientist out of a job, provided you’re willing to wait for a genetic algorithm to evolve a pipeline while your GPU warms the room.
   tags:
     - automl
-    - machine-learning
-    - python
     - genetic-programming
+    - machine-learning
     - pipelines
+    - python
   confidence: high
 curation:
   status: excluded
@@ -81,6 +81,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (10048) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:18:09.506Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.686Z"
@@ -91,11 +99,3 @@ processing:
     updated_at: "2026-05-05T21:02:03.140Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:18:09.506Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

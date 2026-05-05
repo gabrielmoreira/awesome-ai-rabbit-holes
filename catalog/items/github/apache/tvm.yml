@@ -1,6 +1,6 @@
 id: github__apache__tvm
 kind: github-repo
-name: tvm
+name: TVM
 canonical_url: https://github.com/apache/tvm
 identity:
   github_repo: apache/tvm
@@ -55,10 +55,10 @@ insights:
   why_it_matters: It provides a Python-first infrastructure for building vertical compilers, such as those needed to optimize Large Language Models (LLMs) for specific hardware deployments.
   mental_damage: Just when you thought your dockerized microservice was portable, you now have to worry about whether your tensor operations are optimized for Vulkan, Metal, and ROCm simultaneously.
   tags:
-    - ml-compiler
     - inference
-    - optimization
     - llm-infrastructure
+    - ml-compiler
+    - optimization
   confidence: high
 curation:
   status: excluded
@@ -74,6 +74,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (13328) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:08:33.580Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.679Z"
@@ -84,11 +92,3 @@ processing:
     updated_at: "2026-05-05T21:01:06.042Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:08:33.580Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

@@ -1,6 +1,6 @@
 id: www__pullrequest__com
 kind: website
-name: www.pullrequest.com
+name: PullRequest
 canonical_url: https://www.pullrequest.com
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It integrates directly into existing SCM workflows to provide remediation guidance and security audits without requiring developers to leave their current tools.
   mental_damage: Yet another service promising to automate the boring parts of code review, while still requiring a human to validate that the AI didn't hallucinate the vulnerability in the first place.
   tags:
-    - code-review
-    - security
     - ai-review
+    - code-review
     - pull-request
+    - security
   confidence: high
 curation:
   status: included
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:52:44.697Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.733Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:52:44.697Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

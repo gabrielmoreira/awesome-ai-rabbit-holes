@@ -1,6 +1,6 @@
 id: www__truefoundry__com
 kind: website
-name: www.truefoundry.com
+name: TrueFoundry
 canonical_url: https://www.truefoundry.com
 identity: {}
 provenance:
@@ -38,11 +38,11 @@ insights:
   why_it_matters: It provides developers with a unified control plane to deploy any model or agent framework, manage prompt lifecycles, and enforce governance and cost controls without sinking time into custom MLOps plumbing.
   mental_damage: Just when you thought your job description was safe as 'Software Engineer,' the platform promises to turn your GPU fleet into a self-optimizing engine that makes you wonder if 'Infrastructure Whisperer' is next on the business card.
   tags:
-    - llmops
-    - ai-gateway
     - agents
-    - mcp
+    - ai-gateway
     - enterprise
+    - llmops
+    - mcp
   confidence: high
 curation:
   status: included
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:53:59.986Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.734Z"
@@ -69,11 +77,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:53:59.986Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

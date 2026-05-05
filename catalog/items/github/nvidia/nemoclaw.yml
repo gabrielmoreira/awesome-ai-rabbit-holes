@@ -1,6 +1,6 @@
 id: github__nvidia__nemoclaw
 kind: github-repo
-name: nemoclaw
+name: NemoClaw
 canonical_url: https://github.com/nvidia/nemoclaw
 identity:
   github_repo: nvidia/nemoclaw
@@ -43,10 +43,10 @@ insights:
   mental_damage: NVIDIA has kindly provided a 2.4 GB sandbox so your autonomous agent can ignore your repo with enterprise-grade security while consuming 16 GB of RAM.
   tags:
     - agents
-    - security
-    - nvidia
     - infrastructure
+    - nvidia
     - openshell
+    - security
   confidence: high
 curation:
   status: included
@@ -62,6 +62,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (20117) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:41:14.456Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.710Z"
@@ -72,11 +80,3 @@ processing:
     updated_at: "2026-05-05T21:03:57.259Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:41:14.456Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

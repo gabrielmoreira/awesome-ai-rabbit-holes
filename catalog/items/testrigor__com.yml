@@ -1,6 +1,6 @@
 id: testrigor__com
 kind: website
-name: testrigor.com
+name: TestRigor
 canonical_url: https://testrigor.com
 identity: {}
 provenance:
@@ -38,11 +38,11 @@ insights:
   why_it_matters: It allows developers and QA teams to reduce test maintenance overhead by replacing fragile XPath-based scripts with natural language specs that are less likely to break on UI changes.
   mental_damage: Your QA team no longer needs to pretend they enjoy debugging Selenium timeouts, but now they have to explain to the AI why 'click the thingy' didn't result in a passing build.
   tags:
-    - testing
-    - qa
+    - end-to-end
     - generative-ai
     - no-code
-    - end-to-end
+    - qa
+    - testing
   confidence: high
 curation:
   status: included
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:48:39.606Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.731Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:48:39.606Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

@@ -1,6 +1,6 @@
 id: github__lianjiatech__belle
 kind: github-repo
-name: belle
+name: BELLE
 canonical_url: https://github.com/lianjiatech/belle
 identity:
   github_repo: lianjiatech/belle
@@ -52,9 +52,9 @@ insights:
   why_it_matters: It gives developers a ready-to-use stack for fine-tuning and deploying Chinese-centric LLMs with training scripts, RLHF code, and local inference support.
   mental_damage: Another weekend lost deciding whether your chatbot's Mandarin fluency is worth the 7GB download and the inevitable 4-bit quantization regret.
   tags:
-    - llm
     - chinese-nlp
     - fine-tuning
+    - llm
     - local-ai
     - open-source
   confidence: high
@@ -72,6 +72,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (8282) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:33:51.116Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.704Z"
@@ -82,11 +90,3 @@ processing:
     updated_at: "2026-05-05T21:03:19.516Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:33:51.116Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

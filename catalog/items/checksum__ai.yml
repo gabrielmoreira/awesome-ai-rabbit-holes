@@ -1,6 +1,6 @@
 id: checksum__ai
 kind: website
-name: checksum.ai
+name: Checksum AI
 canonical_url: https://checksum.ai
 identity: {}
 provenance:
@@ -38,11 +38,11 @@ insights:
   why_it_matters: It targets the pain point where AI-generated code outpaces a team's ability to manually write and maintain the test coverage required to validate it.
   mental_damage: Just when you thought you could let a coding agent write the code, you now need a testing agent to clean up after the coding agent, creating a beautiful daisy chain of autonomous debugging debt.
   tags:
-    - testing
-    - qa
-    - ci-cd
     - agents
+    - ci-cd
     - playwright
+    - qa
+    - testing
   confidence: high
 curation:
   status: included
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:42:48.117Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.726Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:42:48.117Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

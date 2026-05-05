@@ -1,6 +1,6 @@
 id: github__kuberwastaken__claurst
 kind: github-repo
-name: claurst
+name: Claurst
 canonical_url: https://github.com/kuberwastaken/claurst
 identity:
   github_repo: kuberwastaken/claurst
@@ -42,11 +42,11 @@ insights:
   why_it_matters: It provides a fast, local, and privacy-focused alternative to cloud-first coding assistants with the flexibility to swap between nearly any major LLM provider.
   mental_damage: We have successfully reached the point where the cutting-edge developer experience is a crab in a terminal yelling at you in caveman mode while it rewrites your codebase in Rust.
   tags:
-    - terminal
-    - rust
-    - multi-provider
-    - tui
     - cli-agent
+    - multi-provider
+    - rust
+    - terminal
+    - tui
   confidence: high
 curation:
   status: included
@@ -62,6 +62,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (9495) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:31:34.782Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.702Z"
@@ -72,11 +80,3 @@ processing:
     updated_at: "2026-05-05T21:03:09.039Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:31:34.782Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

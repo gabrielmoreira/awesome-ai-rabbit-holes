@@ -1,6 +1,6 @@
 id: github__gmpetrov__databerry
 kind: github-repo
-name: databerry
+name: Databerry
 canonical_url: https://github.com/gmpetrov/databerry
 identity:
   github_repo: gmpetrov/databerry
@@ -21,6 +21,21 @@ provenance:
         anchor_text: Chaindesk
         extracted_url: https://github.com/gmpetrov/databerry
         surrounding_text: "- [Chaindesk](https://github.com/gmpetrov/databerry): The no-code platform for semantic search and documents retrieval ![GitHub Repo stars](https://img.shields.io/github/stars/gmpetrov/databerry?style=social)"
+        confidence: high
+    - id: discovery__www__chaindesk__ai__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T22:47:06.910Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Databerry
+        anchor_text: Databerry
+        extracted_url: https://www.databerry.ai
+        surrounding_text: "## [Databerry](https://www.databerry.ai/)"
         confidence: high
 metadata:
   github:
@@ -53,12 +68,15 @@ insights:
   why_it_matters: It allows developers to spin up context-aware chatbots and agents without writing backend plumbing, connecting data sources directly to LLM workflows.
   mental_damage: You will now spend four hours configuring a no-code agent to answer questions about your documentation, only to realize you still need to write the code to integrate the agent itself.
   tags:
-    - no-code
-    - llm-agents
     - chatbot
+    - customer-support
+    - gpt-4
     - langchain
+    - llm-agents
+    - no-code
+    - saas
     - semantic-search
-  confidence: medium
+  confidence: high
 curation:
   status: included
   reason: While marketed as a no-code platform, it is an open-source project using LangChain and Qdrant that provides the building blocks for developers to construct custom LLM agent workflows.
@@ -73,16 +91,6 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (2938) exceeded threshold (150)
 processing:
-  discover:
-    status: done
-    updated_at: "2026-05-05T19:41:00.689Z"
-    cause: null
-    next_retry_at: null
-  stars:
-    status: done
-    updated_at: "2026-05-05T21:02:23.156Z"
-    cause: null
-    next_retry_at: null
   categorize:
     status: done
     updated_at: "2026-05-05T21:21:50.414Z"
@@ -91,3 +99,13 @@ processing:
     attempts: 1
     prompt_version: catalog-categorize-v2-baseline
     category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T22:47:06.911Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:23.156Z"
+    cause: null
+    next_retry_at: null

@@ -1,6 +1,6 @@
 id: www__puzzlet__ai
 kind: website
-name: www.puzzlet.ai
+name: Puzzlet AI
 canonical_url: https://www.puzzlet.ai
 identity: {}
 provenance:
@@ -38,9 +38,9 @@ insights:
   why_it_matters: It provides a visual environment for developers to design and operate LLM workflows without writing boilerplate orchestration code from scratch.
   mental_damage: "Just what the ecosystem needed: another abstract layer to manage the agents that are already managing your hallucinations."
   tags:
+    - browser-first
     - llmops
     - workflow-orchestration
-    - browser-first
   confidence: low
 curation:
   status: excluded
@@ -55,6 +55,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:52:50.214Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.733Z"
@@ -64,11 +72,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:52:50.214Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

@@ -1,6 +1,6 @@
 id: docs__langchain__com
 kind: website
-name: docs.langchain.com
+name: Concepts
 canonical_url: https://docs.langchain.com
 identity: {}
 provenance:
@@ -38,9 +38,9 @@ insights:
   why_it_matters: It serves as the central reference for developers implementing agent engineering workflows, tracing, and evaluation using the industry-standard LangChain stack.
   mental_damage: Memorizing yet another framework's documentation hierarchy just to figure out if you should be using Agents, Deep Agents, Graphs, or just raw Python today.
   tags:
-    - langchain
-    - documentation
     - agents
+    - documentation
+    - langchain
     - observability
   confidence: high
 curation:
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:44:11.671Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.727Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:44:11.671Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

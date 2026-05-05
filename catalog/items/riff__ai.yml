@@ -1,6 +1,6 @@
 id: riff__ai
 kind: website
-name: riff.ai
+name: Databutton
 canonical_url: https://riff.ai
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It allows developers to extend ERP automation with custom TypeScript tools and APIs, bridging the gap between pre-built agent suites and specific business logic.
   mental_damage: We’ve successfully automated the procurement department, meaning the only thing left for the human developer to debug is why the AI teammate is ignoring the supplier's second email.
   tags:
-    - erp
     - agents
-    - enterprise
     - automation
+    - enterprise
+    - erp
     - typescript
   confidence: high
 curation:
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:47:39.462Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.730Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:47:39.462Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

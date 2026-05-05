@@ -1,6 +1,6 @@
 id: github__opendatalab__doclayout-yolo
 kind: github-repo
-name: doclayout-yolo
+name: DocLayout-YOLO
 canonical_url: https://github.com/opendatalab/doclayout-yolo
 identity:
   github_repo: opendatalab/doclayout-yolo
@@ -43,9 +43,9 @@ insights:
   tags:
     - computer-vision
     - document-analysis
-    - yolo
-    - pytorch
     - layout-detection
+    - pytorch
+    - yolo
   confidence: high
 curation:
   status: excluded
@@ -61,6 +61,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (2138) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:42:40.096Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.711Z"
@@ -71,11 +79,3 @@ processing:
     updated_at: "2026-05-05T21:04:05.390Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:42:40.096Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

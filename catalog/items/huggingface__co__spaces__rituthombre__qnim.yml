@@ -1,6 +1,6 @@
 id: huggingface__co__spaces__rituthombre__qnim
 kind: website
-name: QNim
+name: QNimGPT
 canonical_url: https://huggingface.co/spaces/rituthombre/QNim
 identity: {}
 provenance:
@@ -40,8 +40,8 @@ insights:
   mental_damage: Nothing says 'cutting-edge AI agent' quite like a container that has been timing out for thirty minutes while the logs fetch eternally.
   tags:
     - agents
-    - langchain
     - huggingface
+    - langchain
   confidence: high
 curation:
   status: excluded
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:45:30.531Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.728Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:45:30.531Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

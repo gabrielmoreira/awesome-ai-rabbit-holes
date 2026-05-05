@@ -1,13 +1,13 @@
 id: github__aylar-ghezelbash__awesome-ai-agents
 kind: github-repo
-name: awesome-ai-agents
+name: Awesome AI Agents
 canonical_url: https://github.com/aylar-ghezelbash/awesome-ai-agents
 identity:
   github_repo: aylar-ghezelbash/awesome-ai-agents
 provenance:
   discoveries:
     - id: discovery__github__aylar-ghezelbash__awesome-ai-agents__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T20:48:55.437Z"
+      discovered_at: "2026-05-05T22:33:31.148Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -42,9 +42,9 @@ metadata:
       - awesome-list
       - ml
       - mlops
-    last_checked_at: "2026-05-05T21:01:15.689Z"
+    last_checked_at: "2026-05-05T23:07:43.442Z"
     readme:
-      fetched_at: "2026-05-05T21:01:15.689Z"
+      fetched_at: "2026-05-05T23:07:43.442Z"
       bytes: 4720
 insights:
   summary: null
@@ -63,23 +63,23 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: deferred
+    updated_at: "2026-05-05T23:08:33.635Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-05-06T00:08:33.635Z"
+    attempts: 0
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.440Z"
+    updated_at: "2026-05-05T22:33:31.150Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:15.689Z"
+    updated_at: "2026-05-05T23:07:43.442Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: deferred
-    updated_at: "2026-05-05T21:09:58.201Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__aylar-ghezelbash__awesome-ai-agents: Invalid AI response format: Error: No JSON found in AI response"
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
