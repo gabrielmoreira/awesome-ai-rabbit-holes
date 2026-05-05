@@ -1,0 +1,80 @@
+id: github__fastalertnow__mcp-server
+kind: github-repo
+name: mcp-server
+canonical_url: https://github.com/fastalertnow/mcp-server
+identity:
+  github_repo: fastalertnow/mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__fastalertnow__mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💬 <a name="communication"></a>Communication
+        anchor_text: FastAlertNow/mcp-server
+        extracted_url: https://github.com/fastalertnow/mcp-server
+        surrounding_text: "- [FastAlertNow/mcp-server](https://github.com/FastAlertNow/mcp-server) 🎖️ 📇 ☁️ - Official Model Context Protocol (MCP) server for FastAlert. This server allows AI agents (like Claude, ChatGPT, and Cursor) to list of your channels and send notifications directly through the FastAlert API."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 1
+    license: null
+    archived: false
+    created_at: "2026-02-10T07:45:25Z"
+    pushed_at: "2026-02-16T09:59:50Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:08.242Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:08.242Z"
+      bytes: 5127
+insights:
+  summary: An official Model Context Protocol server for FastAlert that allows AI agents to list channels and send notifications through the FastAlert API.
+  why_it_matters: Developers using Claude, Cursor, or ChatGPT can wire alerting and status notifications directly into their AI workflows without leaving the assistant.
+  mental_damage: We have reached the point where the AI needs its own dedicated server just to tap you on the shoulder about a service alert.
+  tags:
+    - mcp
+    - notifications
+    - fastalert
+  confidence: high
+curation:
+  status: included
+  reason: The project is itself an MCP server implementation for a specific SaaS product, which cleanly fits the MCP servers and tooling category.
+  evidence:
+    - "README states: 'Official Model Context Protocol (MCP) server for FastAlert' with tools for list_channels and send_message."
+    - Includes setup instructions for Cursor, ChatGPT, and Claude MCP integrations.
+    - Listed under 'Server Implementations > Communication' in the awesome-mcp-servers directory.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.687Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:08.242Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:19:03.297Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

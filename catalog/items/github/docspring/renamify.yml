@@ -1,0 +1,81 @@
+id: github__docspring__renamify
+kind: github-repo
+name: renamify
+canonical_url: https://github.com/docspring/renamify
+identity:
+  github_repo: docspring/renamify
+provenance:
+  discoveries:
+    - id: discovery__github__docspring__renamify__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: scraped
+        section_path:
+          - Community Servers
+        anchor_text: Renamify
+        extracted_url: https://docspring.github.io/renamify/mcp/overview
+        surrounding_text: "- **[Renamify](https://docspring.github.io/renamify/mcp/overview/)** - Smart, case-aware search & replace for codebases. Provides atomic renaming of symbols, files, and directories with full undo/redo. The MCP server lets AI assistants plan, preview, and apply rename operations safely, handling all naming conventions (snake_case, camelCase, PascalCase, etc.) automatically."
+        confidence: high
+metadata:
+  github:
+    stars: 8
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2025-08-11T05:44:16Z"
+    pushed_at: "2025-10-10T23:52:56Z"
+    description: Smart search & replace for code and files with case-aware transformations and built-in undo/redo.
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:01:54.885Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:54.885Z"
+      bytes: 8577
+insights:
+  summary: A Rust-based CLI and MCP server for smart case-aware search and replace across code and filenames, with VS Code and Cursor extensions.
+  why_it_matters: It gives AI assistants and developers a safe, undoable way to rename symbols and files across an entire codebase without relying on fragile regex or git stash gymnastics.
+  mental_damage: We have finally built a dedicated tool to help AI agents confidently rename things that humans already renamed three times before the agent arrived.
+  tags:
+    - cli
+    - mcp
+    - refactoring
+    - vscode-extension
+    - rust
+  confidence: medium
+curation:
+  status: included
+  reason: Renamify is a CLI and IDE-integrated tool that directly edits and renames code inside a repo, with an MCP server that lets coding agents perform those edits safely.
+  evidence:
+    - "Repo description: 'Smart search & replace for code and files with case-aware transformations and built-in undo/redo.'"
+    - "README: 'MCP server - AI integrations for Claude, Cursor, and other MCP-compatible tools' and 'VS Code + Cursor extension - Instant renaming without leaving your editor.'"
+    - "Active development: created 2025-08-11, pushed 2025-10-10, not archived."
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.685Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:54.885Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:16:41.335Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

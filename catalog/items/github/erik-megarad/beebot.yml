@@ -1,0 +1,82 @@
+id: github__erik-megarad__beebot
+kind: github-repo
+name: beebot
+canonical_url: https://github.com/erik-megarad/beebot
+identity:
+  github_repo: erik-megarad/beebot
+provenance:
+  discoveries:
+    - id: discovery__github__erik-megarad__beebot__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - BeeBot
+        anchor_text: BeeBot
+        extracted_url: https://github.com/autopackai/beebot
+        surrounding_text: "## [BeeBot](https://github.com/AutoPackAI/beebot)"
+        confidence: high
+metadata:
+  github:
+    stars: 452
+    forks: 83
+    license: MIT
+    archived: false
+    created_at: "2023-07-11T22:37:03Z"
+    pushed_at: "2023-10-22T23:25:16Z"
+    description: An Autonomous AI Agent that works
+    homepage: ""
+    topics:
+      - artificial-intelligence
+      - autonomous-agents
+    last_checked_at: "2026-05-05T21:02:03.781Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:03.781Z"
+      bytes: 5710
+insights:
+  summary: BeeBot is an autonomous AI agent written in Python that uses tool selection via AutoPack to perform general tasks, featuring a REST API, CLI, and planned web UI.
+  why_it_matters: It provides a structured, self-hosted framework for developers to experiment with autonomous task execution and tool-augmented LLM workflows outside of hosted SaaS environments.
+  mental_damage: The author paused development because current LLMs lack the 'structured thinking' required for generalized autonomy, which is a polite way of saying the bee refused to leave the hive without a human holding its hand.
+  tags:
+    - autonomous-agents
+    - llm
+    - agent-framework
+    - python
+  confidence: high
+curation:
+  status: excluded
+  reason: Excluded because the author explicitly states the project is on hold and notes that 'it is not coding', failing the catalog's requirement for practical developer-tooling or coding-agent relevance.
+  evidence:
+    - "README Status section: 'Development of BeeBot is currently on hold' and 'Hint: It's not coding'."
+    - Repo last pushed in October 2023, indicating stalled momentum.
+    - Description and features focus on generalized autonomous tasks rather than developer-specific coding workflows.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (452) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.686Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:03.781Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:18:20.068Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

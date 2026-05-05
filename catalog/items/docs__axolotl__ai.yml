@@ -1,0 +1,79 @@
+id: docs__axolotl__ai
+kind: website
+name: docs.axolotl.ai
+canonical_url: http://docs.axolotl.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__docs__axolotl__ai__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 微调 Fine-Tuning
+        anchor_text: Axolotl
+        extracted_url: https://axolotl-ai-cloud.github.io/axolotl
+        surrounding_text: "38. [Axolotl](https://axolotl-ai-cloud.github.io/axolotl/): Axolotl is designed to work with YAML config files that contain everything you need to preprocess a dataset, train or fine-tune a model, run model inference or evaluation, and much more."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Axolotl is an open-source CLI and configuration framework for fine-tuning, post-training, and evaluating large language models across multiple GPUs and hardware setups.
+  why_it_matters: It gives developers a single YAML-driven pipeline to fine-tune everything from LLaMA to multimodal models with built-in support for LoRA, RLHF, and distributed training optimizations.
+  mental_damage: You can now perfectly fine-tune a 70B model to write like your favorite obscure blogger, provided you first solve the actual puzzle of configuring NCCL, Docker, and your GPU's will to live.
+  tags:
+    - fine-tuning
+    - llm-training
+    - cli
+    - multimodal
+    - distributed-training
+  confidence: high
+curation:
+  status: included
+  reason: Axolotl is a code-first framework and CLI tool for building fine-tuning pipelines, fitting squarely into AI Frameworks and SDKs rather than a hosted app builder or coding agent.
+  evidence:
+    - README describes Axolotl as a 'free and open-source tool designed to streamline post-training and fine-tuning' using YAML configs and a CLI (axolotl train).
+    - Supported workflows include LoRA, QLoRA, GRPO, and multi-GPU training via FSDP/DeepSpeed, targeting developers building training pipelines in code.
+    - Listed under '微调 Fine-Tuning' in awesome-LLM-resources, confirming its niche as a developer tool for model post-training.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.444Z"
+    cause:
+      type: ambiguous_canonicalization
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T20:49:22.961Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+    next_retry_at: null

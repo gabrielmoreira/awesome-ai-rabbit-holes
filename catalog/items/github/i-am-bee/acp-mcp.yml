@@ -1,0 +1,82 @@
+id: github__i-am-bee__acp-mcp
+kind: github-repo
+name: acp-mcp
+canonical_url: https://github.com/i-am-bee/acp-mcp
+identity:
+  github_repo: i-am-bee/acp-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__i-am-bee__acp-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💬 <a name="communication"></a>Communication
+        anchor_text: i-am-bee/acp-mcp
+        extracted_url: https://github.com/i-am-bee/acp-mcp
+        surrounding_text: "- [i-am-bee/acp-mcp](https://github.com/i-am-bee/acp-mcp) 🐍 💬 - An MCP server acting as an adapter into the [ACP](https://agentcommunicationprotocol.dev) ecosystem. Seamlessly exposes ACP agents to MCP clients, bridging the communication gap between the two protocols."
+        confidence: high
+metadata:
+  github:
+    stars: 35
+    forks: 6
+    license: Apache-2.0
+    archived: true
+    created_at: "2025-04-28T07:13:14Z"
+    pushed_at: "2025-05-09T05:21:00Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:40.467Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:40.467Z"
+      bytes: 4825
+insights:
+  summary: A lightweight adapter server that bridges Agent Communication Protocol (ACP) agents into the Model Context Protocol (MCP) ecosystem, allowing MCP applications like Claude Desktop to discover and invoke ACP agents as tools and resources.
+  why_it_matters: It enables developers working in the MCP ecosystem to reuse existing ACP agents without rewriting them, bridging two emerging agent communication standards.
+  mental_damage: Just when you thought keeping up with one new AI protocol was manageable, you now need an adapter to translate between the two protocols that were supposed to simplify everything.
+  tags:
+    - mcp
+    - acp
+    - interoperability
+    - bridge
+    - protocol
+  confidence: high
+curation:
+  status: excluded
+  reason: The repository is archived, indicating the project is no longer maintained or has been sunset, which outweighs its technical fit as MCP infrastructure.
+  evidence:
+    - Repository is marked as archived on GitHub.
+    - Created as recently as 2025-04-28 but last pushed on 2025-05-09, suggesting rapid abandonment.
+    - README describes a bridge specifically between ACP agents and MCP applications like Claude Desktop.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: needs_review
+  reason: Repository is archived
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.697Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:40.467Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:25:20.244Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

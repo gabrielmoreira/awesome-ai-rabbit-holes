@@ -1,0 +1,86 @@
+id: github__lharries__whatsapp-mcp
+kind: github-repo
+name: whatsapp-mcp
+canonical_url: https://github.com/lharries/whatsapp-mcp
+identity:
+  github_repo: lharries/whatsapp-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__lharries__whatsapp-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💬 <a name="communication"></a>Communication
+        anchor_text: lharries/whatsapp-mcp
+        extracted_url: https://github.com/lharries/whatsapp-mcp
+        surrounding_text: "- [lharries/whatsapp-mcp](https://github.com/lharries/whatsapp-mcp) 🐍 🏎️ - An MCP server for searching your personal WhatsApp messages, contacts and sending messages to individuals or groups"
+        confidence: high
+metadata:
+  github:
+    stars: 5578
+    forks: 1020
+    license: MIT
+    archived: false
+    created_at: "2025-03-29T12:49:33Z"
+    pushed_at: "2025-07-13T17:22:00Z"
+    description: WhatsApp MCP server
+    homepage: https://x.com/LukeHarries_/status/1905986562388635913
+    topics:
+      - ai
+      - mcp
+      - whatsapp
+      - whatsapp-api
+    last_checked_at: "2026-05-05T21:03:19.482Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:19.482Z"
+      bytes: 9025
+insights:
+  summary: An MCP server that bridges personal WhatsApp accounts with AI assistants like Claude, enabling message search, contact lookup, and media-aware messaging via the WhatsApp web multidevice API.
+  why_it_matters: Developers can wire their personal WhatsApp graph directly into local AI workflows, letting agents search history, send messages, and handle media without leaving the IDE or CLI.
+  mental_damage: We’ve finally solved the hard problem of letting a coding agent send WhatsApp voice notes, which is absolutely the missing piece in every production incident response plan.
+  tags:
+    - mcp
+    - whatsapp
+    - messaging
+    - bridge
+    - local-ai
+  confidence: high
+curation:
+  status: included
+  reason: This is a standalone MCP server implementation, directly matching the MCP Servers and Tooling category by exposing WhatsApp as a tool provider for AI assistants.
+  evidence:
+    - "Repo description: 'WhatsApp MCP server' and README confirms it implements the Model Context Protocol."
+    - Listed in awesome-mcp-servers under Server Implementations > Communication, confirming ecosystem fit.
+    - Actively maintained (pushed 2025-07-13) with ~5.5k stars and MIT license, not archived.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (5578) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.704Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:19.482Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:33:49.111Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,81 @@
+id: github__opendatalab__doclayout-yolo
+kind: github-repo
+name: doclayout-yolo
+canonical_url: https://github.com/opendatalab/doclayout-yolo
+identity:
+  github_repo: opendatalab/doclayout-yolo
+provenance:
+  discoveries:
+    - id: discovery__github__opendatalab__doclayout-yolo__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 数据 Data
+        anchor_text: DocLayout-YOLO
+        extracted_url: https://github.com/opendatalab/doclayout-yolo
+        surrounding_text: "18. [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO): Enhancing Document Layout Analysis through Diverse Synthetic Data and Global-to-Local Adaptive Perception."
+        confidence: high
+metadata:
+  github:
+    stars: 2138
+    forks: 157
+    license: AGPL-3.0
+    archived: false
+    created_at: "2024-10-14T02:37:01Z"
+    pushed_at: "2025-04-14T07:18:01Z"
+    description: "DocLayout-YOLO: Enhancing Document Layout Analysis through Diverse Synthetic Data and Global-to-Local Adaptive Perception"
+    homepage: https://huggingface.co/spaces/opendatalab/DocLayout-YOLO
+    topics: []
+    last_checked_at: "2026-05-05T21:04:05.390Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:05.390Z"
+      bytes: 10678
+insights:
+  summary: DocLayout-YOLO is a YOLOv10-based computer vision model and Python library for detecting and analyzing the layout of diverse document types using a large synthetic training dataset.
+  why_it_matters: It provides developers with a ready-to-use, fine-tunable model and SDK for extracting structured layout data from documents, which is a critical preprocessing step for RAG pipelines and PDF parsing tools.
+  mental_damage: "Just what we needed: another highly specialized YOLO variant that looks incredible on a benchmark radar chart but will likely require three days of hyperparameter tweaking before it recognizes a simple table in a scanned PDF."
+  tags:
+    - computer-vision
+    - document-analysis
+    - yolo
+    - pytorch
+    - layout-detection
+  confidence: high
+curation:
+  status: excluded
+  reason: Excluded because this is a specialized computer vision/ML research model for document layout analysis, not a developer-facing AI tool, agent, or infrastructure component.
+  evidence:
+    - Repo description explicitly identifies this as a YOLO-based layout detection model and PyTorch implementation of a research paper.
+    - README focuses on CV/ML workflows (imgsz, conf thresholds, dataset synthesis) rather than developer tooling, IDEs, or coding agents.
+    - Listed in awesome-LLM-resources under a 'Data' section, indicating it is a data/ML resource rather than a developer productivity tool.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (2138) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.711Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:05.390Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:42:40.096Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

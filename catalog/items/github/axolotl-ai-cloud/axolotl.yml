@@ -1,0 +1,100 @@
+id: github__axolotl-ai-cloud__axolotl
+kind: github-repo
+name: axolotl
+canonical_url: https://github.com/axolotl-ai-cloud/axolotl
+identity:
+  github_repo: axolotl-ai-cloud/axolotl
+provenance:
+  discoveries:
+    - id: discovery__docs__axolotl__ai__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 微调 Fine-Tuning
+        anchor_text: Axolotl
+        extracted_url: https://axolotl-ai-cloud.github.io/axolotl
+        surrounding_text: "38. [Axolotl](https://axolotl-ai-cloud.github.io/axolotl/): Axolotl is designed to work with YAML config files that contain everything you need to preprocess a dataset, train or fine-tune a model, run model inference or evaluation, and much more."
+        confidence: high
+    - id: discovery__github__openaccess-ai-collective__axolotl__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Training
+          - Frameworks for Training
+        anchor_text: axolotl
+        extracted_url: https://github.com/openaccess-ai-collective/axolotl
+        surrounding_text: "| [axolotl](https://github.com/OpenAccess-AI-Collective/axolotl)       | A tool designed to streamline the fine-tuning of various AI models, offering support for multiple configurations and architectures.                                                                         | ![GitHub Badge](https://img.shields.io/github/stars/OpenAccess-AI-Collective/axolotl.svg?style=flat-square)  |"
+        confidence: high
+metadata:
+  github:
+    stars: 11846
+    forks: 1335
+    license: Apache-2.0
+    archived: false
+    created_at: "2023-04-14T04:25:47Z"
+    pushed_at: "2026-05-05T15:38:44Z"
+    description: Go ahead and axolotl questions
+    homepage: https://docs.axolotl.ai
+    topics:
+      - fine-tuning
+      - llm
+    last_checked_at: "2026-05-05T21:01:15.248Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:15.248Z"
+      bytes: 16931
+insights:
+  summary: Axolotl is an open-source framework for fine-tuning large language models across a wide range of architectures and optimization strategies.
+  why_it_matters: It provides a unified, config-driven interface for developers to adapt LLMs to custom datasets, supporting advanced techniques like LoRA, MoE expert quantization, and distributed training.
+  mental_damage: You now have 11,000 stars worth of framework to learn just to justify spending three days tweaking hyperparameters so your model can reliably output JSON instead of apologies.
+  tags:
+    - fine-tuning
+    - llm
+    - training
+    - ml-ops
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a general ML training framework focused on model fine-tuning rather than a developer tool that assists with coding, infrastructure, or app building workflows.
+  evidence:
+    - Repo description and README define it specifically as 'A Free and Open Source LLM Fine-tuning Framework'.
+    - Topics and latest updates focus on model support (Mistral, Qwen, Gemma) and training techniques (LoRA, DPO, FSDP2), not developer tooling.
+    - No evidence in the inputs linking it to coding agents, IDEs, app builders, or developer-facing AI infrastructure.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (11846) exceeded threshold (150)
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:04:30.222Z"
+    cause: null
+    attempts: 2
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+    next_retry_at: null
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.725Z"
+    cause:
+      type: ambiguous_canonicalization
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:15.249Z"
+    cause: null
+    next_retry_at: null

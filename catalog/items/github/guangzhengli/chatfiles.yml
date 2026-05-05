@@ -1,0 +1,87 @@
+id: github__guangzhengli__chatfiles
+kind: github-repo
+name: chatfiles
+canonical_url: https://github.com/guangzhengli/chatfiles
+identity:
+  github_repo: guangzhengli/chatfiles
+provenance:
+  discoveries:
+    - id: discovery__github__guangzhengli__chatfiles__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Open Source Projects
+          - Knowledge Management
+        anchor_text: ChatFiles
+        extracted_url: https://github.com/guangzhengli/chatfiles
+        surrounding_text: "- [ChatFiles](https://github.com/guangzhengli/ChatFiles): Upload your document and then chat with it. Powered by GPT / Embedding / TS / NextJS. ![GitHub Repo stars](https://img.shields.io/github/stars/guangzhengli/ChatFiles?style=social)"
+        confidence: high
+metadata:
+  github:
+    stars: 3348
+    forks: 471
+    license: MIT
+    archived: false
+    created_at: "2023-03-28T11:20:09Z"
+    pushed_at: "2024-12-17T10:26:50Z"
+    description: Document Chatbot — multiple files. Powered by GPT / Embedding.
+    homepage: ""
+    topics:
+      - chatbot
+      - chatfile
+      - chatgpt
+      - chatgpt-api
+      - chatpdf
+    last_checked_at: "2026-05-05T21:02:28.789Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:28.789Z"
+      bytes: 3183
+insights:
+  summary: A Next.js-based chatbot application that enables users to upload files and have conversations with them using LangChainJS and Supabase vector database storage.
+  why_it_matters: Provides a reference implementation for developers looking to build document-querying applications using the LangChainJS stack with vector embeddings.
+  mental_damage: Yet another 'Chat with your PDF' starter kit proving that in 2024, the killer app for AGI is still summarizing expense reports.
+  tags:
+    - chatbot
+    - langchain
+    - vector-db
+    - nextjs
+    - rag
+  confidence: high
+curation:
+  status: excluded
+  reason: While the implementation is clean, this is a consumer-facing document chatbot application, not a developer tool, agent, or infrastructure component for building software.
+  evidence:
+    - "Repo description and README describe an end-user product: 'Upload your file and have a conversation with it.'"
+    - Listed in awesome-langchain under 'Knowledge Management', not developer tooling or coding workflows.
+    - Architecture is a standard Next.js/Supabase app, not a CLI, IDE extension, or coding agent.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (3348) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.690Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:28.789Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:23:10.473Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

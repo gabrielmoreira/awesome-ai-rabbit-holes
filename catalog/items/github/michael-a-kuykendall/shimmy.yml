@@ -1,0 +1,116 @@
+id: github__michael-a-kuykendall__shimmy
+kind: github-repo
+name: shimmy
+canonical_url: https://github.com/michael-a-kuykendall/shimmy
+identity:
+  github_repo: michael-a-kuykendall/shimmy
+provenance:
+  discoveries:
+    - id: discovery__github__michael-a-kuykendall__shimmy__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Serving
+          - Large Model Serving
+        anchor_text: Shimmy
+        extracted_url: https://github.com/michael-a-kuykendall/shimmy
+        surrounding_text: "| [Shimmy](https://github.com/Michael-A-Kuykendall/shimmy)                               | Python-free Rust inference server with OpenAI API compatibility and hot model swapping                        | ![GitHub Badge](https://img.shields.io/github/stars/Michael-A-Kuykendall/shimmy.svg?style=flat-square)        |"
+        confidence: high
+    - id: discovery__github__michael-a-kuykendall__shimmy__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 推理 Inference
+        anchor_text: Shimmy
+        extracted_url: https://github.com/michael-a-kuykendall/shimmy
+        surrounding_text: "50. [Shimmy](https://github.com/Michael-A-Kuykendall/shimmy): Python-free Rust inference server — OpenAI-API compatible. GGUF + SafeTensors, hot model swap, auto-discovery, single binary."
+        confidence: high
+metadata:
+  github:
+    stars: 4781
+    forks: 428
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-08-28T22:55:46Z"
+    pushed_at: "2026-03-26T03:00:53Z"
+    description: ⚡ Python-free Rust inference server — OpenAI-API compatible. GGUF + SafeTensors, hot model swap, auto-discovery, single binary. FREE now, FREE forever.
+    homepage: ""
+    topics:
+      - api-server
+      - command-line-tool
+      - developer-tools
+      - gguf
+      - huggingface
+      - huggingface-models
+      - huggingface-transformers
+      - inference-server
+      - llama
+      - llamacpp
+      - llm-inference
+      - local-ai
+      - lora
+      - machine-learning
+      - ollama-api
+      - openai-compatible
+      - rust
+      - rust-crate
+      - transformers
+    last_checked_at: "2026-05-05T21:03:37.118Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:37.118Z"
+      bytes: 20481
+insights:
+  summary: A single-binary, Rust-based inference server that provides an OpenAI-compatible API for running local GGUF and SafeTensors models with features like hot-swapping and auto-discovery.
+  why_it_matters: It allows developers to point existing OpenAI SDK integrations, IDE extensions, and coding agents at a local, free, and private backend without changing application code.
+  mental_damage: Yet another 'drop-in' replacement promising freedom from API bills, ensuring you can now spend your afternoon debugging CUDA drivers instead of rate limits.
+  tags:
+    - local-ai
+    - inference-server
+    - rust
+    - openai-compatible
+    - gguf
+  confidence: high
+curation:
+  status: included
+  reason: The project is a local model serving stack designed to run AI models on a developer's own hardware with an OpenAI-compatible interface.
+  evidence:
+    - Repo description specifies 'Python-free Rust inference server — OpenAI-API compatible' with GGUF support.
+    - README emphasizes 'Local Inference Without Dependencies' and compatibility with VSCode, Cursor, and Continue.dev via local endpoints.
+    - Listed in Awesome-LLMOps under 'Serving > Large Model Serving' and awesome-LLM-resources under 'Inference'.
+placement:
+  primary_category: local-ai
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (4781) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.669Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:37.118Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:37:15.581Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

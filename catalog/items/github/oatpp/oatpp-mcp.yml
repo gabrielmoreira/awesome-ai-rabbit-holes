@@ -1,0 +1,84 @@
+id: github__oatpp__oatpp-mcp
+kind: github-repo
+name: oatpp-mcp
+canonical_url: https://github.com/oatpp/oatpp-mcp
+identity:
+  github_repo: oatpp/oatpp-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__oatpp__oatpp-mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Frameworks
+        anchor_text: oatpp-mcp
+        extracted_url: https://github.com/oatpp/oatpp-mcp
+        surrounding_text: "- **[oatpp-mcp](https://github.com/oatpp/oatpp-mcp)** - Anthropic's Model Context Protocol implementation for Oat++"
+        confidence: high
+metadata:
+  github:
+    stars: 49
+    forks: 6
+    license: Apache-2.0
+    archived: false
+    created_at: "2024-12-09T01:27:21Z"
+    pushed_at: "2024-12-13T03:57:00Z"
+    description: Anthropic’s Model Context Protocol implementation for Oat++
+    homepage: https://oatpp.io/
+    topics:
+      - anthropic
+      - model-context-protocol
+      - oatpp
+    last_checked_at: "2026-05-05T21:03:58.212Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:58.212Z"
+      bytes: 2228
+insights:
+  summary: An implementation of the Model Context Protocol for the Oat++ C++ web framework that auto-generates MCP tools from API controllers.
+  why_it_matters: It allows C++ developers to expose their existing Oat++ REST APIs as MCP servers so LLMs can interact with backend services using generated tools over STDIO or HTTP SSE.
+  mental_damage: Now you can wrap your decade-old C++ REST service in a protocol your LLM barely understands, just to debug a stack trace you could have read in five seconds.
+  tags:
+    - mcp
+    - cpp
+    - oatpp
+    - backend
+    - llm-integration
+  confidence: high
+curation:
+  status: included
+  reason: This is a code-first MCP server SDK for the Oat++ framework, clearly fitting the MCP category rather than a hosted product or application builder.
+  evidence:
+    - Repo description states it is 'Anthropic’s Model Context Protocol implementation for Oat++'.
+    - README demonstrates auto-generating MCP tools from ApiController and serving via STDIO or HTTP SSE.
+    - Listed under 'Frameworks' in the awesome-mcp-servers directory.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.710Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:58.212Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:41:23.014Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

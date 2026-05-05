@@ -1,0 +1,82 @@
+id: github__lnbits__lnbits-mcp-server
+kind: github-repo
+name: lnbits-mcp-server
+canonical_url: https://github.com/lnbits/lnbits-mcp-server
+identity:
+  github_repo: lnbits/lnbits-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__lnbits__lnbits-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: lnbits/LNbits-MCP-Server
+        extracted_url: https://github.com/lnbits/lnbits-mcp-server
+        surrounding_text: "- [lnbits/LNbits-MCP-Server](https://github.com/lnbits/LNbits-MCP-Server) - Am MCP server for LNbits Lightning Network wallet integration."
+        confidence: high
+metadata:
+  github:
+    stars: 4
+    forks: 3
+    license: null
+    archived: false
+    created_at: "2025-07-10T10:42:24Z"
+    pushed_at: "2026-03-24T16:38:01Z"
+    description: An MCP server for LNbits
+    homepage: https://rumble.com/v6vxr70-lnbits-mcp-server-lnbits-in-your-ai.html
+    topics: []
+    last_checked_at: "2026-05-05T21:03:22.730Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:22.730Z"
+      bytes: 9897
+insights:
+  summary: An MCP server that connects AI assistants to LNbits Lightning wallet instances to manage balances, payments, and extensions via natural language.
+  why_it_matters: Developers building Bitcoin/Lightning integrations can now hand off wallet operations to their AI client instead of manually hitting REST endpoints or writing wrapper scripts.
+  mental_damage: Your AI assistant now has its own Lightning wallet, which is either the ultimate developer productivity hack or the fastest way to accidentally zap your testnet sats through a misinterpreted prompt.
+  tags:
+    - mcp
+    - lightning
+    - bitcoin
+    - fintech
+    - tooling
+  confidence: high
+curation:
+  status: included
+  reason: It is a purpose-built MCP server for the LNbits Lightning wallet, directly fitting the MCP Servers and Tooling category.
+  evidence:
+    - Repo description states it is 'An MCP server for LNbits'.
+    - README describes connecting 'any MCP-compatible AI client to your LNbits instance' for wallet operations.
+    - Listed under 'Server Implementations > Finance & Fintech' in the awesome-mcp-servers directory.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.704Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:22.730Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:34:26.019Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

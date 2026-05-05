@@ -1,0 +1,92 @@
+id: glama__ai__mcp__servers
+kind: website
+name: servers
+canonical_url: https://glama.ai/mcp/servers
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__glama__ai__mcp__servers__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - README
+        anchor_text: Awesome MCP Servers
+        extracted_url: https://glama.ai/mcp/servers
+        surrounding_text: "> [Awesome MCP Servers](https://glama.ai/mcp/servers) web directory."
+        confidence: high
+    - id: discovery__glama__ai__mcp__servers__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 模型上下文协议 MCP
+        anchor_text: glama.ai
+        extracted_url: https://glama.ai/mcp/servers
+        surrounding_text: 7. [glama.ai](https://glama.ai/mcp/servers)
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A comprehensive, daily-updated registry of over 22,000 Model Context Protocol (MCP) servers, clients, tools, and integrations.
+  why_it_matters: It serves as a central discovery hub for developers looking to extend AI assistants with specific capabilities like database access, browser automation, or API integrations via MCP.
+  mental_damage: We now have a registry of 22,836 ways to give an AI agent the keys to our databases, our browsers, and our crypto wallets, because manually checking documentation is apparently too much friction.
+  tags:
+    - mcp
+    - registry
+    - directory
+    - tooling
+    - integrations
+  confidence: high
+curation:
+  status: included
+  reason: This is a meta-directory and registry of MCP servers rather than a server or tool itself, fitting the awesome-awesomes category as a navigation aid for developers.
+  evidence:
+    - Scraped site title is 'Open-Source MCP Servers – 22,836 in the Glama Registry'.
+    - Description calls it 'the most comprehensive registry of Model Context Protocol (MCP) servers, clients, tools, and integrations'.
+    - Listed in 'awesome-mcp-servers' and 'awesome-LLM-resources' source lists as a directory/registry.
+placement:
+  primary_category: awesome-awesomes
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.674Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:45:04.156Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

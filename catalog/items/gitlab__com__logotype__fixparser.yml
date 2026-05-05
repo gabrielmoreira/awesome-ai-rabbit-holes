@@ -1,0 +1,76 @@
+id: gitlab__com__logotype__fixparser
+kind: website
+name: fixparser
+canonical_url: https://gitlab.com/logotype/fixparser
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__gitlab__com__logotype__fixparser__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: logotype/fixparser
+        extracted_url: https://gitlab.com/logotype/fixparser
+        surrounding_text: "- [logotype/fixparser](https://gitlab.com/logotype/fixparser) 🎖 📇 ☁️ 🏠 📟  - FIX Protocol (send orders, market data, etc.) written in TypeScript."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A Model Context Protocol (MCP) server implementation for parsing and interacting with the FIX (Financial Information eXchange) protocol.
+  why_it_matters: It allows AI agents and coding assistants to understand and manipulate financial message formats, bridging the gap between LLMs and legacy trading infrastructure.
+  mental_damage: Yet another reminder that while we're building AGI, the most critical plumbing in finance still requires a specialized parser to convince a model that a string of cryptic ASCII actually represents a multi-million dollar order.
+  tags:
+    - mcp
+    - fintech
+    - parser
+    - protocol
+  confidence: medium
+curation:
+  status: included
+  reason: The project is explicitly listed as a server implementation in the awesome-mcp-servers list under Finance & Fintech, fitting the MCP Servers and Tooling category.
+  evidence:
+    - Listed in 'awesome-mcp-servers' under section 'Server Implementations > Finance & Fintech'.
+    - URL points to a specific implementation repo (gitlab.com/logotype/fixparser).
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.728Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:44:52.964Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

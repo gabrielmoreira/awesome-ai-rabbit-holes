@@ -1,0 +1,81 @@
+id: github__k-dense-ai__claude-skills-mcp
+kind: github-repo
+name: claude-skills-mcp
+canonical_url: https://github.com/k-dense-ai/claude-skills-mcp
+identity:
+  github_repo: k-dense-ai/claude-skills-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__k-dense-ai__claude-skills-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🔗 <a name="aggregators"></a>Aggregators
+        anchor_text: K-Dense-AI/claude-skills-mcp
+        extracted_url: https://github.com/k-dense-ai/claude-skills-mcp
+        surrounding_text: "- [K-Dense-AI/claude-skills-mcp](https://github.com/K-Dense-AI/claude-skills-mcp) 🐍 ☁️ 🏠 🍎 🪟 🐧 - Intelligent search capabilities to let every model and client use [Claude Agent Skills](https://www.anthropic.com/news/skills) like native."
+        confidence: high
+metadata:
+  github:
+    stars: 381
+    forks: 63
+    license: MIT
+    archived: false
+    created_at: "2025-10-21T03:53:28Z"
+    pushed_at: "2026-04-08T23:22:43Z"
+    description: MCP server for searching and retrieving Claude Agent Skills using vector search
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:03:01.446Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:01.446Z"
+      bytes: 9309
+insights:
+  summary: An MCP server that provides semantic search and progressive retrieval for Claude Agent Skills, allowing any MCP-compatible AI assistant to discover and use curated skill packs.
+  why_it_matters: It bridges the gap between Anthropic's Agent Skills framework and the wider AI ecosystem, letting developers use specialized skills in tools like Cursor, Codex, and Gemini without waiting for native support.
+  mental_damage: We built an entire bridge to deliver skills to our assistants, only for the assistants to learn how to walk across the river themselves a few months later.
+  tags:
+    - mcp
+    - skills
+    - vector-search
+    - cursor
+    - agent-skills
+  confidence: high
+curation:
+  status: excluded
+  reason: The project is explicitly unmaintained and obsolete because major AI platforms have natively adopted the skills system it was built to bridge.
+  evidence:
+    - "README states: 'This MCP server is no longer hosted or maintained. Agent Skills have been natively adopted by all major AI platforms... There is no longer a need for an MCP bridge.'"
+    - The project describes itself as a bridge to 'bring Anthropic's Agent Skills framework to the entire AI ecosystem,' a use case the author confirms is now obsolete.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (381) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.701Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:01.446Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:29:51.423Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

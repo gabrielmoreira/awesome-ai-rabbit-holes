@@ -1,0 +1,92 @@
+id: github__mixpeek__amux
+kind: github-repo
+name: amux
+canonical_url: https://github.com/mixpeek/amux
+identity:
+  github_repo: mixpeek/amux
+provenance:
+  discoveries:
+    - id: discovery__github__mixpeek__amux__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Session managers & parallel runners
+        anchor_text: amux
+        extracted_url: https://github.com/mixpeek/amux
+        surrounding_text: "- **[amux](https://github.com/mixpeek/amux)** `⭐ 157` — Agent multiplexer for running dozens of parallel Claude Code sessions with web dashboard, self-healing watchdog, kanban board, agent-to-agent REST API, and mobile PWA. Single Python file, Python 3 + tmux. MIT."
+        confidence: high
+metadata:
+  github:
+    stars: 158
+    forks: 15
+    license: NOASSERTION
+    archived: false
+    created_at: "2026-02-18T14:30:56Z"
+    pushed_at: "2026-05-05T10:13:09Z"
+    description: Open-source Claude Code agent multiplexer — run dozens of parallel AI coding agents unattended via tmux
+    homepage: https://amux.io
+    topics:
+      - agent-orchestration
+      - ai-agents
+      - automation
+      - claude
+      - claude-code
+      - developer-tools
+      - llm
+      - parallel-processing
+      - python
+      - tmux
+    last_checked_at: "2026-05-05T21:03:43.474Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:43.474Z"
+      bytes: 14227
+insights:
+  summary: An open-source control plane for running dozens of parallel Claude Code sessions via tmux, featuring a web dashboard, kanban board, and agent-to-agent orchestration.
+  why_it_matters: It lets developers manage and monitor unattended, parallel AI coding agents from a browser or phone, solving context crashes and coordination overhead.
+  mental_damage: Because the only thing better than one AI rewriting your codebase at 3am is thirty of them doing it in parallel while you watch the kanban board on your phone.
+  tags:
+    - agent-orchestration
+    - claude-code
+    - tmux
+    - parallel-agents
+    - self-healing
+  confidence: high
+curation:
+  status: included
+  reason: This is a user-facing control plane for coordinating multiple AI agents with dashboards and orchestration features, fitting agent-orchestration rather than a primary coding agent.
+  evidence:
+    - Repo description explicitly calls it an 'Open-source Claude Code agent multiplexer'
+    - Listed in awesome-cli-coding-agents under 'Harnesses & orchestration > Session managers & parallel runners'
+    - README details 'Agent infrastructure' including self-healing, parallel sessions, and REST API orchestration
+placement:
+  primary_category: agent-orchestration
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (158) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.707Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:43.474Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:38:23.881Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

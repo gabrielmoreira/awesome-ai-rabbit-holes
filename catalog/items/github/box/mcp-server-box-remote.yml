@@ -1,0 +1,81 @@
+id: github__box__mcp-server-box-remote
+kind: github-repo
+name: mcp-server-box-remote
+canonical_url: https://github.com/box/mcp-server-box-remote
+identity:
+  github_repo: box/mcp-server-box-remote
+provenance:
+  discoveries:
+    - id: discovery__github__box__mcp-server-box-remote__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📂 <a name="file-systems"></a>File Systems
+        anchor_text: box/mcp-server-box-remote
+        extracted_url: https://github.com/box/mcp-server-box-remote
+        surrounding_text: "- [box/mcp-server-box-remote](https://github.com/box/mcp-server-box-remote/) 🎖️ ☁️ - The Box MCP server allows third party AI agents to securely and seamlessly access Box content and use tools such as search, asking questions from files and folders, and data extraction."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 6
+    license: MIT
+    archived: false
+    created_at: "2025-09-18T21:51:47Z"
+    pushed_at: "2025-09-20T03:58:32Z"
+    description: Securely connect AI agents to your enterprise content in Box
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:01:24.357Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:24.357Z"
+      bytes: 4212
+insights:
+  summary: A remote MCP server hosted at mcp.box.com that lets AI agents securely connect to enterprise content and Box AI capabilities via OAuth without moving data out of Box.
+  why_it_matters: Developers building AI agents can integrate enterprise Box content and AI features using a standardized MCP endpoint with OAuth protection and no data migration.
+  mental_damage: Now your AI agents can panic about file permissions and metadata extraction in enterprise environments, just like a real junior developer.
+  tags:
+    - mcp
+    - box
+    - enterprise
+    - oauth
+  confidence: high
+curation:
+  status: included
+  reason: This is a hosted MCP server and supported endpoint for agent platforms, clearly fitting the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description states: 'Securely connect AI agents to your enterprise content in Box'"
+    - README confirms a remote MCP server at https://mcp.box.com with OAuth and Box API integration
+    - Listed in awesome-mcp-servers under Server Implementations > File Systems
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.681Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:24.357Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:11:26.566Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

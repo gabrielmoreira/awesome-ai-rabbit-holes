@@ -1,0 +1,102 @@
+id: github__lingcoder__crab-code
+kind: github-repo
+name: crab-code
+canonical_url: https://github.com/lingcoder/crab-code
+identity:
+  github_repo: lingcoder/crab-code
+provenance:
+  discoveries:
+    - id: discovery__github__lingcoder__crab-code__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Terminal-native coding agents
+          - Open Source
+        anchor_text: Crab Code
+        extracted_url: https://github.com/lingcoder/crab-code
+        surrounding_text: "- **[Crab Code](https://github.com/lingcoder/crab-code)** `⭐ 55` — Rust-native agentic coding CLI aligned with Claude Code's toolset and permission model; works with any LLM provider (Anthropic/OpenAI/DeepSeek/Bedrock/Vertex). 27 crates, 4,700+ tests, layered config system. Apache-2.0."
+        confidence: high
+metadata:
+  github:
+    stars: 57
+    forks: 8
+    license: Apache-2.0
+    archived: false
+    created_at: "2026-04-02T02:13:05Z"
+    pushed_at: "2026-05-04T23:27:32Z"
+    description: 🦀 Open-source alternative to Claude Code, built from scratch in Rust. Agentic coding CLI — thinks, plans, and executes with any LLM. Compatible with Claude Code workflows.
+    homepage: https://github.com/lingcoder/crab-code
+    topics:
+      - agent
+      - agentic-coding
+      - ai
+      - ai-agent
+      - ai-coding
+      - anthropic
+      - claude-code
+      - claude-code-alternative
+      - cli
+      - code-generation
+      - coding-assistant
+      - deepseek
+      - developer-tools
+      - llm
+      - mcp
+      - ollama
+      - open-source
+      - openai
+      - rust
+      - rust-lang
+    last_checked_at: "2026-05-05T21:03:20.943Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:20.943Z"
+      bytes: 5931
+insights:
+  summary: A Rust-native, open-source CLI coding agent that replicates Claude Code's workflow while supporting multiple LLM providers including OpenAI, DeepSeek, and Bedrock.
+  why_it_matters: It gives developers a self-hosted, provider-agnostic alternative to Claude Code with extensible configuration, MCP support, and multi-model flexibility.
+  mental_damage: Yet another CLI agent enters the ring, this time written in Rust so you can feel morally superior while wondering which of these tools will actually survive the month.
+  tags:
+    - cli
+    - rust
+    - coding-agent
+    - llm
+    - mcp
+  confidence: medium
+curation:
+  status: included
+  reason: This is a terminal-native coding agent that directly plans, writes, and executes code across repos with any LLM, fitting the coding-agents category cleanly.
+  evidence:
+    - Repo description explicitly calls it an 'Agentic coding CLI' and 'Open-source alternative to Claude Code'
+    - README states it is a 'Rust-native agentic coding CLI' with tools, permissions, and repo-level workflows
+    - Included in awesome-cli-coding-agents under 'Terminal-native coding agents > Open Source'
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.704Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:20.943Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:34:02.596Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

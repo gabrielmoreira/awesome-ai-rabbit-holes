@@ -4,14 +4,33 @@ import {
   buildNewCatalogItem,
   markExcludedItemsPending,
   needsAIInsights,
-  validateOverride,
 } from "../scripts/catalog.js";
-import { buildInsightPrompt, parseAIInsightResponse } from "../scripts/ai.js";
-import { renderRabbitHolePage, renderSiteCatalog } from "../scripts/render.js";
-import type { CatalogItem, Category, Override } from "../scripts/types.js";
+import { buildInsightPrompt, formatCategoryPromptEntries, parseAIInsightResponse } from "../scripts/catalog/categorize-prompt.js"
+import { renderRabbitHolePage, renderSiteCatalog } from "../scripts/catalog/render.js";
+import type { CatalogItem, Category } from "../scripts/catalog/types.js"
 
 const CATEGORIES: Category[] = [
-  { id: "coding-agents", name: "Coding Agents", slug: "coding-agents", description: "Tools for coding with AI." },
+  {
+    id: "coding-agents",
+    name: "Coding Agents",
+    slug: "coding-agents",
+    description: "Tools for coding with AI.",
+    sections: ["Terminal & CLI Agents", "IDE-Native Assistants"],
+  },
+  {
+    id: "ai-dev-extensions",
+    name: "AI Developer Extensions",
+    slug: "ai-dev-extensions",
+    description: "Add-ons, memory layers, and workflow boosters for AI developer tools.",
+    sections: ["Memory & Context Add-ons", "IDE / UI / Workflow Add-ons"],
+  },
+  {
+    id: "skills",
+    name: "AI Developer Skills",
+    slug: "skills",
+    description: "Reusable skill packs, command packs, and skill directories for AI developer tools.",
+    sections: ["Skill Packs & Libraries", "Skill Registries & Directories"],
+  },
   { id: "mcp", name: "MCP Servers", slug: "mcp", description: "MCP tooling." },
   {
     id: "awesome-awesomes",
@@ -88,7 +107,7 @@ describe("AI curation prompt", () => {
       source_contexts: [
         "awesome-mcp-servers | purpose: curated MCP servers | section: Browser Automation",
       ],
-    } as any);
+    } as any, { profile: "definition-first" });
 
     expect(prompt).toContain("Created at: 2024-01-01T00:00:00Z");
     expect(prompt).toContain("Coding Agents");
@@ -96,6 +115,8 @@ describe("AI curation prompt", () => {
     expect(prompt).toContain("should_include");
     expect(prompt).toContain("decision_reason");
     expect(prompt).toContain("decision_evidence");
+    expect(prompt).toContain('"section"');
+    expect(prompt).toMatch(/Primary product identity beats integration identity/i);
   });
 
   it("tells the model not to overreact to shutdown banners and to keep source lists discoverable", () => {
@@ -126,14 +147,26 @@ describe("AI curation prompt", () => {
         } as any,
       }),
       categories: ["awesome-awesomes | Awesome Awesomes | Curated maps and directories."],
-    } as any);
+    } as any, { profile: "definition-first" });
 
     expect(prompt).toContain("Direct awesome list source: yes");
     expect(prompt).toMatch(/shutdown\/sunsetting banner alone is not enough/i);
     expect(prompt).toMatch(/prefer include under awesome-awesomes/i);
   });
 
-  it("parses inclusion decisions with evidence", () => {
+  it("formats section hints for the skills taxonomy and can omit them for baseline comparisons", () => {
+    const withSections = formatCategoryPromptEntries(CATEGORIES);
+    const withoutSections = formatCategoryPromptEntries(CATEGORIES, { includeSections: false });
+    const skillsWithSections = withSections.find((entry) => entry.startsWith("skills |"));
+    const skillsWithoutSections = withoutSections.find((entry) => entry.startsWith("skills |"));
+
+    expect(skillsWithSections).toBeDefined();
+    expect(skillsWithoutSections).toBeDefined();
+    expect(skillsWithSections).toContain("sections: Skill Packs & Libraries; Skill Registries & Directories");
+    expect(skillsWithoutSections).not.toContain("sections:");
+  });
+
+  it("parses inclusion decisions with evidence and optional sections", () => {
     const result = parseAIInsightResponse(JSON.stringify({
       summary: "A coding agent.",
       why_it_matters: "It helps developers.",
@@ -141,6 +174,7 @@ describe("AI curation prompt", () => {
       tags: ["coding-agent"],
       should_include: true,
       primary_category: "coding-agents",
+      section: "Terminal & CLI Agents",
       decision_reason: "Fits developer tooling and belongs in coding agents.",
       decision_evidence: [
         "Repo description says it is a developer-facing AI tool.",
@@ -152,6 +186,7 @@ describe("AI curation prompt", () => {
 
     expect((result as any).should_include).toBe(true);
     expect((result as any).primary_category).toBe("coding-agents");
+    expect((result as any).section).toBe("Terminal & CLI Agents");
     expect((result as any).decision_reason).toContain("coding agents");
     expect((result as any).decision_evidence).toHaveLength(2);
   });
@@ -174,11 +209,92 @@ describe("persistent AI curation", () => {
     expect(needsAIInsights(makeItem())).toBe(false);
   });
 
-  it("stores include decisions, evidence, and chosen categories", () => {
+  it("stores include decisions, evidence, chosen categories, and valid sections", () => {
     const result = applyAIInsights(
       makeItem({ curation: { status: "pending", reason: null, evidence: [] } as any } as any),
       {
         summary: "A CLI coding agent.",
+        why_it_matters: "It helps developers ship faster.",
+        mental_damage: "Another workflow to evaluate.",
+        tags: ["coding-agent"],
+        should_include: true,
+        primary_category: "coding-agents",
+        section: "Terminal & CLI Agents",
+        decision_reason: "Fits developer tooling and belongs in coding agents.",
+        decision_evidence: ["Repo description says it is a developer-facing AI tool."],
+        category_candidates: ["coding-agents"],
+        confidence: "high",
+      } as any,
+      CATEGORIES,
+      { forceCategory: true },
+    );
+
+    expect((result as any).curation.status).toBe("included");
+    expect((result as any).curation.reason).toContain("coding agents");
+    expect((result as any).curation.evidence).toEqual([
+      "Repo description says it is a developer-facing AI tool.",
+    ]);
+    expect(result.placement.primary_category).toBe("coding-agents");
+    expect(result.placement.section).toBe("Terminal & CLI Agents");
+  });
+
+  it("stores skills category decisions with valid skills sections", () => {
+    const result = applyAIInsights(
+      makeItem({ curation: { status: "pending", reason: null, evidence: [] } as any } as any),
+      {
+        summary: "A reusable AI developer skill pack.",
+        why_it_matters: "It helps developers install a packaged workflow quickly.",
+        mental_damage: "Now the prompt has a plugin ecosystem.",
+        tags: ["skills"],
+        should_include: true,
+        primary_category: "skills",
+        section: "Skill Packs & Libraries",
+        decision_reason: "The primary artifact is a reusable skill pack rather than a broader extension product.",
+        decision_evidence: ["The source describes a reusable skills pack for AI developer tools."],
+        category_candidates: ["skills"],
+        confidence: "high",
+      } as any,
+      CATEGORIES,
+      { forceCategory: true },
+    );
+
+    expect(result.placement.primary_category).toBe("skills");
+    expect(result.placement.section).toBe("Skill Packs & Libraries");
+    expect(result.curation.status).toBe("included");
+  });
+
+  it("drops invalid section labels instead of persisting made-up buckets", () => {
+    const result = applyAIInsights(
+      makeItem({ curation: { status: "pending", reason: null, evidence: [] } as any } as any),
+      {
+        summary: "A coding agent.",
+        why_it_matters: "It helps developers ship faster.",
+        mental_damage: "Another workflow to evaluate.",
+        tags: ["coding-agent"],
+        should_include: true,
+        primary_category: "coding-agents",
+        section: "Made Up Section",
+        decision_reason: "Fits developer tooling and belongs in coding agents.",
+        decision_evidence: ["Repo description says it is a developer-facing AI tool."],
+        category_candidates: ["coding-agents"],
+        confidence: "high",
+      } as any,
+      CATEGORIES,
+      { forceCategory: true },
+    );
+
+    expect(result.placement.primary_category).toBe("coding-agents");
+    expect(result.placement.section).toBeNull();
+  });
+
+  it("keeps an existing section when the response omits section entirely", () => {
+    const result = applyAIInsights(
+      makeItem({
+        curation: { status: "pending", reason: null, evidence: [] } as any,
+        placement: { primary_category: "coding-agents", section: "IDE-Native Assistants" },
+      } as any),
+      {
+        summary: "A coding agent.",
         why_it_matters: "It helps developers ship faster.",
         mental_damage: "Another workflow to evaluate.",
         tags: ["coding-agent"],
@@ -190,14 +306,38 @@ describe("persistent AI curation", () => {
         confidence: "high",
       } as any,
       CATEGORIES,
+      { forceCategory: true },
     );
 
-    expect((result as any).curation.status).toBe("included");
-    expect((result as any).curation.reason).toContain("coding agents");
-    expect((result as any).curation.evidence).toEqual([
-      "Repo description says it is a developer-facing AI tool.",
-    ]);
     expect(result.placement.primary_category).toBe("coding-agents");
+    expect(result.placement.section).toBe("IDE-Native Assistants");
+  });
+
+  it("clears an existing section when the response explicitly sets section to null", () => {
+    const result = applyAIInsights(
+      makeItem({
+        curation: { status: "pending", reason: null, evidence: [] } as any,
+        placement: { primary_category: "coding-agents", section: "IDE-Native Assistants" },
+      } as any),
+      {
+        summary: "A coding agent.",
+        why_it_matters: "It helps developers ship faster.",
+        mental_damage: "Another workflow to evaluate.",
+        tags: ["coding-agent"],
+        should_include: true,
+        primary_category: "coding-agents",
+        section: null,
+        decision_reason: "Fits developer tooling and belongs in coding agents.",
+        decision_evidence: ["Repo description says it is a developer-facing AI tool."],
+        category_candidates: ["coding-agents"],
+        confidence: "high",
+      } as any,
+      CATEGORIES,
+      { forceCategory: true },
+    );
+
+    expect(result.placement.primary_category).toBe("coding-agents");
+    expect(result.placement.section).toBeNull();
   });
 
   it("stores exclude decisions, evidence, and clears category placement", () => {
@@ -284,22 +424,6 @@ describe("persistent AI curation", () => {
     expect(result.placement.primary_category).toBe("awesome-awesomes");
   });
 
-  it("lets overrides patch the curation decision", () => {
-    const item = makeItem({ curation: { status: "pending", reason: null, evidence: [] } as any } as any);
-    const override: Override = {
-      id: item.id,
-      override: { reason: "Manual decision", updated_by: "me", updated_at: "2026-05-01" },
-      patch: {
-        curation: {
-          status: "excluded",
-          reason: "Manually rejected.",
-          evidence: ["Maintainer override."],
-        } as any,
-      } as any,
-    };
-
-    expect(validateOverride(override, [item])).toHaveLength(0);
-  });
 
   it("resets only excluded items when rerunning excluded curation", () => {
     const included = makeItem({ id: "github__included__tool" });
@@ -335,7 +459,7 @@ describe("public rendering", () => {
     expect(page).not.toContain("excluded-tool");
   });
 
-  it("keeps excluded items out of site/catalog.json", () => {
+  it("keeps excluded items out of catalog/catalog.json", () => {
     const catalog = renderSiteCatalog([
       makeItem({ id: "github__included__tool", canonical_url: "https://github.com/included/tool" }),
       makeItem({

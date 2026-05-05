@@ -1,0 +1,76 @@
+id: aitv__gg
+kind: website
+name: aitv.gg
+canonical_url: https://aitv.gg
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__aitv__gg__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - evo.ninja
+        anchor_text: evo.ninja
+        extracted_url: https://evo.ninja
+        surrounding_text: "## [evo.ninja](https://evo.ninja/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: AITV is a platform for creating and monetizing AI-powered livestream personas that can interact with audiences across platforms like Twitch, YouTube, and TikTok.
+  why_it_matters: It provides a framework for developers and creators to deploy autonomous AI agents as brand ambassadors or interactive characters within the livestreaming ecosystem.
+  mental_damage: We have finally reached the point where we are writing code to help a simulated persona farm aura points while we debug the agent's 'real-time loyalty' loop at 3 AM.
+  tags:
+    - ai-agents
+    - livestreaming
+    - creator-economy
+    - crypto
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a consumer-facing content creation and crypto platform, not a developer tool, coding agent, or infrastructure component for building software.
+  evidence:
+    - Scraped site context describes it as a 'streamer factory' for creators and brands, focusing on livestreaming, avatars, and tokenomics.
+    - Source list context (awesome-ai-agents) lists it under 'evo.ninja' with a description centered on creator economy monetization, not developer workflows.
+    - The product pitch focuses on 'AI Girlfriends', 'Co-Hosts', and 'Brand Ambassadors' rather than code generation, IDE integration, or dev infrastructure.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.726Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:41:45.797Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

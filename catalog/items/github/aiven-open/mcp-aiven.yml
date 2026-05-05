@@ -1,0 +1,96 @@
+id: github__aiven-open__mcp-aiven
+kind: github-repo
+name: mcp-aiven
+canonical_url: https://github.com/aiven-open/mcp-aiven
+identity:
+  github_repo: aiven-open/mcp-aiven
+provenance:
+  discoveries:
+    - id: discovery__github__aiven-open__mcp-aiven__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🗄️ <a name="databases"></a>Databases
+        anchor_text: Aiven-Open/mcp-aiven
+        extracted_url: https://github.com/aiven-open/mcp-aiven
+        surrounding_text: "- [Aiven-Open/mcp-aiven](https://github.com/Aiven-Open/mcp-aiven) - 🐍 ☁️ 🎖️ -  Navigate your [Aiven projects](https://go.aiven.io/mcp-server) and interact with the PostgreSQL®, Apache Kafka®, ClickHouse® and OpenSearch® services"
+        confidence: high
+    - id: discovery__github__aiven-open__mcp-aiven__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Aiven
+        extracted_url: https://github.com/aiven-open/mcp-aiven
+        surrounding_text: "- **[Aiven](https://github.com/Aiven-Open/mcp-aiven)** - Navigate your [Aiven projects](https://go.aiven.io/mcp-server) and interact with the PostgreSQL®, Apache Kafka®, ClickHouse® and OpenSearch® services"
+        confidence: high
+metadata:
+  github:
+    stars: 18
+    forks: 16
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-03-13T07:34:49Z"
+    pushed_at: "2026-05-05T13:06:39Z"
+    description: Model Context Protocol server for Aiven
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:00:56.122Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:56.122Z"
+      bytes: 7667
+insights:
+  summary: An official Model Context Protocol server that lets AI assistants manage Aiven cloud services like PostgreSQL and Kafka directly from the development environment.
+  why_it_matters: It allows developers to provision, modify, and inspect cloud infrastructure through natural language prompts in tools like Claude, Cursor, and VS Code Copilot.
+  mental_damage: We have finally automated the part of the job where you accidentally drop a production database by typing the wrong command, and replaced it with an AI agent that will do it with confident enthusiasm.
+  tags:
+    - mcp
+    - aiven
+    - cloud-infrastructure
+    - devops
+  confidence: high
+curation:
+  status: included
+  reason: This is a first-party MCP server implementation for a major cloud provider, fitting squarely into the MCP infrastructure category.
+  evidence:
+    - "Repo description explicitly states: 'Model Context Protocol server for Aiven'."
+    - README confirms it manages Aiven services directly from AI assistants like Claude and Cursor.
+    - Listed in awesome-mcp-servers under 'Official Servers' and 'Databases' sections.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.662Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:56.122Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:07:02.729Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

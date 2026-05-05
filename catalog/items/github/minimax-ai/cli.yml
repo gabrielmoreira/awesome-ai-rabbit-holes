@@ -1,0 +1,81 @@
+id: github__minimax-ai__cli
+kind: github-repo
+name: cli
+canonical_url: https://github.com/minimax-ai/cli
+identity:
+  github_repo: minimax-ai/cli
+provenance:
+  discoveries:
+    - id: discovery__github__minimax-ai__cli__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 技能 Skills
+        anchor_text: mmx-cli
+        extracted_url: https://github.com/minimax-ai/cli
+        surrounding_text: 17. [mmx-cli](https://github.com/MiniMax-AI/cli)
+        confidence: high
+metadata:
+  github:
+    stars: 1657
+    forks: 111
+    license: null
+    archived: false
+    created_at: "2026-03-25T15:34:45Z"
+    pushed_at: "2026-04-26T01:40:16Z"
+    description: Generate text, images, video, speech, and music by MiniMax.
+    homepage: https://platform.minimax.io/subscribe/token-plan
+    topics:
+      - ai
+    last_checked_at: "2026-05-05T21:03:42.331Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:42.331Z"
+      bytes: 5386
+insights:
+  summary: The official CLI for the MiniMax AI Platform, enabling generation of text, images, video, speech, and music from the terminal or AI agents.
+  why_it_matters: It provides a scriptable interface for developers to integrate multimodal content generation directly into agent workflows, CI pipelines, or local automation.
+  mental_damage: Now your CI pipeline can fail not just because of bad code, but because the robot couldn't synthesize a jazzy cover of your README.
+  tags:
+    - cli
+    - multimodal
+    - minimax
+    - ai-agents
+  confidence: high
+curation:
+  status: included
+  reason: It is a developer-facing CLI tool designed specifically for use by AI agents and terminal users to generate multimodal content via the MiniMax platform.
+  evidence:
+    - "Repo description states: 'Generate text, images, video, speech, and music by MiniMax.'"
+    - "README highlights: 'Built for AI agents. Generate text, images, video, speech, and music — from any agent or terminal.'"
+    - "Includes install command for agents: 'npx skills add MiniMax-AI/cli' for OpenClaw, Cursor, and Claude Code."
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1657) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.707Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:42.331Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:38:10.957Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,75 @@
+id: saga__so__ai
+kind: website
+name: ai
+canonical_url: https://saga.so/ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__saga__so__ai__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Saga
+        anchor_text: Saga
+        extracted_url: https://saga.so/ai
+        surrounding_text: "## [Saga](https://saga.so/ai)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Saga AI is a workspace assistant embedded in a notes and task app that drafts content, rewrites text, translates languages, and generates small code snippets for users.
+  why_it_matters: It offers developers a way to generate boilerplate code and documentation without leaving their notes, though its primary focus is general content creation rather than deep code editing.
+  mental_damage: Yet another notification-filled workspace promising that if you just paid $8 a month, you too could stop copy-pasting code snippets from a chatbot.
+  tags:
+    - workspace
+    - content-generation
+    - notes
+  confidence: high
+curation:
+  status: excluded
+  reason: The product is a general-purpose productivity and content creation assistant for notes and tasks, not a developer-facing tool for coding, agents, or infrastructure.
+  evidence:
+    - Scraped site context describes it as 'AI assistant for drafting content, brainstorming ideas, fixing grammar, and translating', with code generation being a minor bullet point.
+    - Primary use cases listed are marketing, sales, HR, meeting notes, and studying, with no focus on repo workflows, IDEs, or agent orchestration.
+    - Listed in awesome-ai-agents but functions as a workspace productivity tool, not an autonomous coding agent.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.730Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:47:52.676Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

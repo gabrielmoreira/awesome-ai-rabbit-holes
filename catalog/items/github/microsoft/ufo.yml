@@ -1,0 +1,87 @@
+id: github__microsoft__ufo
+kind: github-repo
+name: ufo
+canonical_url: https://github.com/microsoft/ufo
+identity:
+  github_repo: microsoft/ufo
+provenance:
+  discoveries:
+    - id: discovery__github__microsoft__ufo__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - UFO
+        anchor_text: UFO
+        extracted_url: https://github.com/microsoft/ufo
+        surrounding_text: "## [UFO](https://github.com/microsoft/UFO)"
+        confidence: high
+metadata:
+  github:
+    stars: 8536
+    forks: 1016
+    license: MIT
+    archived: false
+    created_at: "2024-01-08T05:07:52Z"
+    pushed_at: "2026-04-29T04:39:38Z"
+    description: "UFO³: Weaving the Digital Agent Galaxy"
+    homepage: https://microsoft.github.io/UFO/
+    topics:
+      - agent
+      - automation
+      - copilot
+      - gui
+      - llm
+      - windows
+    last_checked_at: "2026-05-05T21:03:39.766Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:39.766Z"
+      bytes: 25432
+insights:
+  summary: UFO³ is a Microsoft framework for orchestrating multi-device AI agents that decompose complex workflows into asynchronous DAG-based task graphs, with a stable Windows desktop automation agent (UFO²) serving as one of the device targets.
+  why_it_matters: It provides developers with a structured way to build and run cross-platform automation workflows that coordinate GUI and API actions across multiple devices using LLM-driven agents.
+  mental_damage: Just when you thought your automation stack was complicated enough, Microsoft has gifted you a constellation of agents that require their own galaxy-scale DAG to click a button on Windows.
+  tags:
+    - agent-orchestration
+    - multi-device
+    - windows-automation
+    - dag
+    - microsoft
+  confidence: high
+curation:
+  status: included
+  reason: This is a user-facing platform for coordinating multiple AI agents across devices with DAG-based task orchestration, fitting the agent-orchestration category rather than a coding agent that edits source code.
+  evidence:
+    - "README describes 'Constellation: Task decomposition into executable DAGs' and 'Unified AIP protocol for secure agent communication' for cross-device workflows."
+    - UFO² is explicitly a 'Desktop AgentOS' for Windows automation, and UFO³ orchestrates these as device agents in a multi-device galaxy.
+    - Listed in awesome-ai-agents source list under a dedicated UFO section, confirming its recognition in the agent ecosystem.
+placement:
+  primary_category: agent-orchestration
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (8536) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.707Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:39.766Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:37:43.625Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

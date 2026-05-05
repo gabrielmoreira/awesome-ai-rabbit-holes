@@ -1,0 +1,90 @@
+id: github__markmhendrickson__neotoma
+kind: github-repo
+name: neotoma
+canonical_url: https://github.com/markmhendrickson/neotoma
+identity:
+  github_repo: markmhendrickson/neotoma
+provenance:
+  discoveries:
+    - id: discovery__github__markmhendrickson__neotoma__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: markmhendrickson/neotoma
+        extracted_url: https://github.com/markmhendrickson/neotoma
+        surrounding_text: "- [markmhendrickson/neotoma](https://github.com/markmhendrickson/neotoma) [![Neotoma MCP server](https://glama.ai/mcp/servers/markmhendrickson/neotoma/badges/score.svg)](https://glama.ai/mcp/servers/markmhendrickson/neotoma) 📇 🏠 🍎 🪟 🐧 - Deterministic state layer for AI agents. Stores versioned entities (contacts, tasks, transactions, decisions) with immutable observations, full provenance, and schema-first extraction. Local-first SQLite, cross-client memory across Claude, Cursor, ChatGPT, and OpenClaw. [Website](https://neotoma.io)"
+        confidence: high
+metadata:
+  github:
+    stars: 21
+    forks: 3
+    license: MIT
+    archived: false
+    created_at: "2025-06-19T14:17:02Z"
+    pushed_at: "2026-05-05T06:01:57Z"
+    description: Your agents forget. Neotoma makes them remember.
+    homepage: https://neotoma.io/
+    topics:
+      - agent-infrastructure
+      - agent-memory
+      - ai-agents
+      - deterministic-state
+      - entity-resolution
+      - event-sourcing
+      - mcp
+      - privacy-first
+      - provenance
+    last_checked_at: "2026-05-05T21:03:30.391Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:30.391Z"
+      bytes: 20585
+insights:
+  summary: Neotoma is a local-first, deterministic state layer and MCP server that stores versioned, replayable entity records for AI agents to maintain consistent memory across tools like Claude, Cursor, and ChatGPT.
+  why_it_matters: It solves the 'human sync layer' problem by giving agents a shared, auditable memory graph with full provenance, eliminating conflicting facts and lost context across sessions.
+  mental_damage: We have successfully reached the point where we need a dedicated event-sourced database just to keep our AI assistants from forgetting who we are between tabs.
+  tags:
+    - agent-memory
+    - mcp
+    - state-management
+    - local-first
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server and toolkit providing a state layer for agents, fitting squarely into the MCP infrastructure category.
+  evidence:
+    - "Repo description: 'Your agents forget. Neotoma makes them remember.'"
+    - Architecture diagram shows MCP Protocol connecting to Claude, ChatGPT, Cursor, etc.
+    - Listed in awesome-mcp-servers under 'Knowledge & Memory' section.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.705Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:30.391Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:35:51.925Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,101 @@
+id: github__edobusy__agenthold
+kind: github-repo
+name: agenthold
+canonical_url: https://github.com/edobusy/agenthold
+identity:
+  github_repo: edobusy/agenthold
+provenance:
+  discoveries:
+    - id: discovery__github__edobusy__agenthold__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: edobusy/agenthold
+        extracted_url: https://github.com/edobusy/agenthold
+        surrounding_text: "- [edobusy/agenthold](https://github.com/edobusy/agenthold) [![agenthold MCP server](https://glama.ai/mcp/servers/edobusy/agenthold/badges/score.svg)](https://glama.ai/mcp/servers/edobusy/agenthold) 🐍 🏠 🍎 🪟 🐧 - Shared versioned state store with optimistic concurrency control for coordinating concurrent AI agents. SQLite-backed claim/release locks and append-only audit log."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-03-14T07:45:14Z"
+    pushed_at: "2026-04-15T08:47:41Z"
+    description: Shared versioned state for multi-agent AI workflows. An MCP server.
+    homepage: ""
+    topics:
+      - ai
+      - ai-agents
+      - claude-code
+      - claude-desktop
+      - claude-mcp
+      - crewai
+      - developer-tools
+      - langchain
+      - langgraph
+      - llm
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - multi-agent
+      - openai-mcp
+      - optimistic-concurrency
+      - pydantic
+      - python
+      - sqlite
+      - state-management
+    last_checked_at: "2026-05-05T21:02:00.049Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:00.049Z"
+      bytes: 16548
+insights:
+  summary: An MCP server that provides shared, versioned state with optimistic concurrency control for multi-agent AI workflows.
+  why_it_matters: It prevents silent data corruption in distributed agent systems by rejecting conflicting writes, acting as a 'git for working memory' across frameworks like LangChain, CrewAI, and Claude Desktop.
+  mental_damage: We have successfully implemented distributed version control for ephemeral hallucinations, ensuring your agents can now overwrite each other's bad ideas with transactional integrity.
+  tags:
+    - mcp
+    - state-management
+    - multi-agent
+    - concurrency
+  confidence: medium
+curation:
+  status: included
+  reason: The project is explicitly an MCP server providing shared infrastructure for agent state, fitting cleanly into the MCP category.
+  evidence:
+    - "Repo description states: 'Shared versioned state for multi-agent AI workflows. An MCP server.'"
+    - README confirms it connects via MCP and works with any framework that speaks the protocol.
+    - Listed in awesome-mcp-servers under Server Implementations > Knowledge & Memory.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.686Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:00.049Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:17:36.600Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

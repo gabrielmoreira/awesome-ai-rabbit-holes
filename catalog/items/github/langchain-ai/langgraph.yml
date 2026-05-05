@@ -1,0 +1,100 @@
+id: github__langchain-ai__langgraph
+kind: github-repo
+name: langgraph
+canonical_url: https://github.com/langchain-ai/langgraph
+identity:
+  github_repo: langchain-ai/langgraph
+provenance:
+  discoveries:
+    - id: discovery__github__langchain-ai__langgraph__awesome-list__vivy-yi__awesome-agent-orchestration
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: vivy-yi/awesome-agent-orchestration
+        url: https://github.com/vivy-yi/awesome-agent-orchestration
+        repository: vivy-yi/awesome-agent-orchestration
+      extraction:
+        mode: parsed
+        section_path:
+          - Core Frameworks
+          - Graph-Based Workflow Frameworks
+        anchor_text: LangGraph
+        extracted_url: https://github.com/langchain-ai/langgraph
+        surrounding_text: "| [LangGraph](https://github.com/langchain-ai/langgraph) | Build stateful multi-agent applications with LangChain | ![Stars](https://img.shields.io/github/stars/langchain-ai/langgraph) |"
+        confidence: high
+metadata:
+  github:
+    stars: 31248
+    forks: 5325
+    license: MIT
+    archived: false
+    created_at: "2023-08-09T18:33:12Z"
+    pushed_at: "2026-05-05T19:35:35Z"
+    description: Build resilient language agents as graphs. Available in TypeScript!
+    homepage: https://docs.langchain.com/oss/python/langgraph/
+    topics:
+      - agents
+      - ai
+      - ai-agents
+      - chatgpt
+      - deepagents
+      - enterprise
+      - framework
+      - gemini
+      - generative-ai
+      - langchain
+      - langgraph
+      - llm
+      - multiagent
+      - open-source
+      - openai
+      - pydantic
+      - python
+      - rag
+    last_checked_at: "2026-05-05T21:03:16.221Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:16.221Z"
+      bytes: 6395
+insights:
+  summary: A low-level, open-source framework for building and orchestrating stateful, long-running AI agents as graphs in Python and TypeScript.
+  why_it_matters: It provides developers with durable execution, memory management, and human-in-the-loop controls needed to move AI agents from prototypes to production systems.
+  mental_damage: You can now visualize your agent's existential crisis as a detailed graph, just in case the deterministic state machine didn't already feel like enough architecture for a simple chatbot.
+  tags:
+    - agents
+    - framework
+    - python
+    - typescript
+    - orchestration
+  confidence: high
+curation:
+  status: included
+  reason: This is a code-first library/framework that developers import to build agentic behavior, fitting the ai-frameworks definition rather than an end-user orchestration platform.
+  evidence:
+    - "Repo description explicitly calls it a framework: 'Build resilient language agents as graphs.'"
+    - README describes it as a 'Low-level orchestration framework' with 'pip install -U langgraph' as the primary entry point.
+    - Source list context confirms it as a 'Core Framework' (Graph-Based Workflow) rather than a hosted control plane.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (31248) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.703Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:16.221Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:33:05.739Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

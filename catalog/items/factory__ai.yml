@@ -1,0 +1,91 @@
+id: factory__ai
+kind: website
+name: factory.ai
+canonical_url: https://factory.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__factory__ai__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Factory
+        anchor_text: Factory
+        extracted_url: https://www.factory.ai
+        surrounding_text: "## [Factory](https://www.factory.ai/)"
+        confidence: high
+    - id: discovery__factory__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Coding Agents
+        anchor_text: Factory
+        extracted_url: https://factory.ai
+        surrounding_text: "- **[Factory](https://factory.ai/)** – AI platform automating repetitive coding tasks at scale."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Factory.ai provides AI coding agents called Droids that automate coding, testing, and deployment tasks across IDEs, CLI, web, Slack, and project management tools.
+  why_it_matters: It allows developers to delegate complete coding tasks like refactors and migrations directly within their existing workflows without switching tools or models.
+  mental_damage: You can now get paged by an incident at 3 AM, delegate the fix to a Droid in Slack, and wonder if you still need to wake up or if the Droid is just going to judge your previous architecture choices.
+  tags:
+    - coding-agents
+    - ci-cd
+    - enterprise
+    - automation
+  confidence: high
+curation:
+  status: included
+  reason: Factory.ai is an AI coding agent platform that operates directly within a developer's repo, IDE, CLI, and PR workflow, fitting the coding-agents definition precisely.
+  evidence:
+    - "Scraped site states: 'Delegate complete tasks like refactors, incident response, and migrations to Droids without changing your tools.'"
+    - Product integrates into 'IDE, Web, CLI, Slack, Linear' and 'creates PRs while maintaining full traceability from ticket to code.'
+    - Listed in awesome-ai-coding-tools under the 'Coding Agents' section.
+placement:
+  primary_category: coding-agents
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.439Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T20:49:28.586Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+    next_retry_at: null

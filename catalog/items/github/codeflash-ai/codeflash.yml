@@ -1,0 +1,81 @@
+id: github__codeflash-ai__codeflash
+kind: github-repo
+name: codeflash
+canonical_url: https://github.com/codeflash-ai/codeflash
+identity:
+  github_repo: codeflash-ai/codeflash
+provenance:
+  discoveries:
+    - id: discovery__github__codeflash-ai__codeflash__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: scraped
+        section_path:
+          - Testing and QA
+        anchor_text: Codeflash
+        extracted_url: https://www.codeflash.ai
+        surrounding_text: "- **[Codeflash](https://www.codeflash.ai/)** – AI-powered Python performance optimization and benchmarking."
+        confidence: high
+metadata:
+  github:
+    stars: 244
+    forks: 26
+    license: NOASSERTION
+    archived: false
+    created_at: "2025-02-13T04:58:01Z"
+    pushed_at: "2026-05-04T17:26:58Z"
+    description: Coding super-intelligence to find the most optimized Python code. Use it to optimize existing codebases or new Pull requests as a GitHub Action or a VS Code Extension.
+    homepage: https://www.codeflash.ai
+    topics: []
+    last_checked_at: "2026-05-05T21:01:37.153Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:37.153Z"
+      bytes: 4560
+insights:
+  summary: An AI-powered Python optimizer that uses LLMs to generate, test, and benchmark code improvements, then opens merge-ready pull requests via CLI, GitHub Actions, or VS Code.
+  why_it_matters: It automates the tedious cycle of profiling and rewriting performance-critical Python code, letting engineering teams ship expert-level optimizations without manual bottleneck hunting.
+  mental_damage: We’ve reached the point where an AI reads your code, judges it slow, silently rewrites it better, and opens the PR—leaving you to wonder if you’re the bottleneck or just the reviewer.
+  tags:
+    - python
+    - optimization
+    - github-actions
+    - performance
+    - llm
+  confidence: high
+curation:
+  status: included
+  reason: It is a coding agent that directly plans, tests, benchmarks, and edits an existing Python codebase by opening PRs and running via CLI or IDE extensions.
+  evidence:
+    - "Repo description: 'Coding super-intelligence to find the most optimized Python code... as a GitHub Action or a VS Code Extension.'"
+    - "README: 'uses advanced LLMs to generate multiple optimization ideas... tests them to be correct and benchmarks them for performance. It then creates merge-ready pull requests.'"
+    - Supported workflows include CLI (codeflash --all), GitHub Actions for future code, and VS Code integration.
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (244) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.683Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:37.153Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:13:41.756Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,75 @@
+id: rube__app
+kind: website
+name: rube.app
+canonical_url: https://rube.app
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__rube__app__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Rube
+        extracted_url: https://rube.composio.dev
+        surrounding_text: "- **[Rube](https://rube.composio.dev)** - Rube is a Model Context Protocol (MCP) server that connects your AI tools to 500+ apps like Gmail, Slack, GitHub, and Notion. Simply install it in your AI client, authenticate once with your apps, and start asking your AI to perform real actions like \"Send an email\" or \"Create a task.\""
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Rube is an MCP server by Composio that connects AI assistants to external apps like Gmail, Slack, and VSCode to automate cross-platform workflows via prompts.
+  why_it_matters: It allows developers to extend the reach of their AI agents beyond the codebase into daily productivity tools without writing custom integration glue.
+  mental_damage: Just when you thought you were safe from notification fatigue, your AI agent now has the keys to block your calendar and summarize your inbox while you wonder who is actually managing whom.
+  tags:
+    - mcp
+    - workflow-automation
+    - integrations
+  confidence: high
+curation:
+  status: included
+  reason: The product is explicitly listed as an MCP server in the awesome-mcp-servers list and the site context emphasizes MCP compatibility and app connectivity.
+  evidence:
+    - Source list context places it under 'Official Servers' in awesome-mcp-servers.
+    - Scraped site context lists 'MCP' as a supported integration surface alongside VSCode and Claude.
+    - "Description frames it as a connectivity layer: 'Let your AI do the work, across every app.'"
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.730Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:47:47.931Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

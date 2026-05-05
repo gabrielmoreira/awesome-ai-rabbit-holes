@@ -1,0 +1,96 @@
+id: github__ndjordjevic__pinrag
+kind: github-repo
+name: pinrag
+canonical_url: https://github.com/ndjordjevic/pinrag
+identity:
+  github_repo: ndjordjevic/pinrag
+provenance:
+  discoveries:
+    - id: discovery__github__ndjordjevic__pinrag__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: ndjordjevic/pinrag
+        extracted_url: https://github.com/ndjordjevic/pinrag
+        surrounding_text: "- [ndjordjevic/pinrag](https://github.com/ndjordjevic/pinrag) [![ndjordjevic/pinrag MCP server](https://glama.ai/mcp/servers/ndjordjevic/pinrag/badges/score.svg)](https://glama.ai/mcp/servers/ndjordjevic/pinrag) 🐍 🏠 - RAG for PDFs, YouTube, GitHub repos, Discord exports; index documents and query with citations."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-01-26T08:53:11Z"
+    pushed_at: "2026-04-10T14:24:01Z"
+    description: A powerful RAG (Retrieval-Augmented Generation) system built with LangChain, designed as an MCP server for Cursor, VS Code, and other AI assistants
+    homepage: ""
+    topics:
+      - chromadb
+      - cursor
+      - discord
+      - github-repos
+      - langchain
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - pdf
+      - pypi
+      - python
+      - rag
+      - vscode
+      - youtube
+    last_checked_at: "2026-05-05T21:03:51.868Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:51.868Z"
+      bytes: 34088
+insights:
+  summary: A local RAG server built with LangChain that exposes document indexing and citation-aware querying as an MCP server for Cursor, VS Code, and other AI assistants.
+  why_it_matters: Developers can index scattered learning materials—PDFs, GitHub repos, YouTube videos, and Discord threads—into a single searchable index and query them directly from their AI editor with source citations.
+  mental_damage: We have finally solved the problem of never reading the materials we hoard, by building a RAG stack so we can ignore them more efficiently with better citations.
+  tags:
+    - rag
+    - mcp
+    - langchain
+    - context
+    - knowledge
+  confidence: medium
+curation:
+  status: included
+  reason: The project is an MCP server that provides knowledge and memory tooling to AI editors, which fits the MCP category better than AI Developer Extensions since the product itself is MCP infrastructure.
+  evidence:
+    - Repo description explicitly states it is 'built as an MCP server for Cursor, VS Code, and other AI assistants'.
+    - README details MCP tools (add_document_tool, query_tool), MCP resources, and MCP prompts for editor integration.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Knowledge & Memory'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.709Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:51.868Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:40:02.609Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,101 @@
+id: github__bortlesboat__bitcoin-mcp
+kind: github-repo
+name: bitcoin-mcp
+canonical_url: https://github.com/bortlesboat/bitcoin-mcp
+identity:
+  github_repo: bortlesboat/bitcoin-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__bortlesboat__bitcoin-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: Bortlesboat/bitcoin-mcp
+        extracted_url: https://github.com/bortlesboat/bitcoin-mcp
+        surrounding_text: "- [Bortlesboat/bitcoin-mcp](https://github.com/Bortlesboat/bitcoin-mcp) [![bitcoin-mcp MCP server](https://glama.ai/mcp/servers/@Bortlesboat/bitcoin-mcp/badges/score.svg)](https://glama.ai/mcp/servers/@Bortlesboat/bitcoin-mcp) 🐍 🏠 🍎 🪟 🐧 - Self-hosted Bitcoin Core MCP server — 43 tools, 6 prompts, and 7 resources. Fee intelligence with USD conversion and send-now-or-wait advice, mempool analysis, mining pool rankings, market sentiment, block/transaction inspection, and BTC price. Your local node or hosted via Satoshi API (zero install)."
+        confidence: high
+metadata:
+  github:
+    stars: 2
+    forks: 4
+    license: MIT
+    archived: false
+    created_at: "2026-03-04T17:38:05Z"
+    pushed_at: "2026-04-28T11:27:28Z"
+    description: "The most comprehensive Bitcoin MCP server. 49 tools for AI agents: fees, mempool, blocks, transactions, mining, price, supply. Zero config - works instantly. Claude, Cursor, VS Code, Windsurf."
+    homepage: https://bitcoinsapi.com
+    topics:
+      - ai-agents
+      - anthropic
+      - bitcoin
+      - bitcoin-api
+      - bitcoin-core
+      - bitcoin-mcp
+      - bitcoin-node
+      - blockchain
+      - claude
+      - claude-desktop
+      - cryptocurrency
+      - cursor
+      - fee-estimation
+      - llm
+      - mcp
+      - mcp-server
+      - mempool
+      - model-context-protocol
+      - python
+      - self-hosted
+    last_checked_at: "2026-05-05T21:01:24.032Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:24.032Z"
+      bytes: 12428
+insights:
+  summary: A Model Context Protocol server offering 49 tools for Bitcoin data, including fees, mempool analysis, blocks, and transactions, designed for integration with AI agents in editors like Claude, Cursor, and VS Code.
+  why_it_matters: It allows developers to ground AI coding agents in real-time Bitcoin network data without building custom API integrations or managing node connections.
+  mental_damage: "We have successfully abstracted away the last remaining barrier to asking an LLM for financial advice: the need to actually understand how the mempool works."
+  tags:
+    - mcp
+    - bitcoin
+    - blockchain
+    - developer-tools
+  confidence: high
+curation:
+  status: included
+  reason: The project is a dedicated MCP server implementation that provides Bitcoin network tooling for AI agents, fitting squarely into the MCP infrastructure category.
+  evidence:
+    - Repo description explicitly identifies it as 'The most comprehensive Bitcoin MCP server' with 49 tools.
+    - README details integration instructions for Claude, Cursor, VS Code, and Zed via standard MCP config files.
+    - Listed in the awesome-mcp-servers directory under the Finance & Fintech section.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.681Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:24.032Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:11:23.989Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

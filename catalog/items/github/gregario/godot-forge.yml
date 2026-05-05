@@ -1,0 +1,82 @@
+id: github__gregario__godot-forge
+kind: github-repo
+name: godot-forge
+canonical_url: https://github.com/gregario/godot-forge
+identity:
+  github_repo: gregario/godot-forge
+provenance:
+  discoveries:
+    - id: discovery__github__gregario__godot-forge__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🎮 <a name="gaming"></a>Gaming
+        anchor_text: gregario/godot-forge
+        extracted_url: https://github.com/gregario/godot-forge
+        surrounding_text: "- [gregario/godot-forge](https://github.com/gregario/godot-forge) [![godot-forge MCP server](https://glama.ai/mcp/servers/gregario/godot-forge/badges/score.svg)](https://glama.ai/mcp/servers/gregario/godot-forge) 📇 🏠 🍎 🪟 🐧 - Godot 4 development companion with test running (GUT/GdUnit4), API docs with 3→4 migration mapping, script analysis, scene parsing, screenshots, and LSP diagnostics."
+        confidence: high
+metadata:
+  github:
+    stars: 4
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2026-03-13T15:09:09Z"
+    pushed_at: "2026-04-26T12:49:02Z"
+    description: The MCP server for Godot 4 — test runner, API docs, script analysis, and more.
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:27.609Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:27.609Z"
+      bytes: 8931
+insights:
+  summary: An MCP server that provides Godot 4–specific tools—including test running, API docs search, and GDScript analysis—to fix AI assistant hallucinations about deprecated Godot 3 APIs.
+  why_it_matters: It gives coding agents accurate Godot 4 context and structured diagnostics so they stop suggesting `yield` and `KinematicBody` like it's still 2021.
+  mental_damage: Another layer of middleware so your AI can pretend it knows a game engine, because apparently the model needs a plugin just to stop recommending GDScript from a decade ago.
+  tags:
+    - mcp
+    - godot
+    - gdscript
+    - ide-extension
+    - game-dev
+  confidence: high
+curation:
+  status: included
+  reason: This is a well-scoped MCP server that extends AI developer tools with Godot 4–specific capabilities, fitting cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description states it is 'The MCP server for Godot 4' with test runner, API docs, and script analysis.
+    - README explicitly lists 8 MCP tools and provides setup snippets for Claude Code, Cursor, VS Code, Windsurf, Zed, and others.
+    - Included in awesome-mcp-servers under 'Server Implementations > Gaming', confirming its role in the MCP ecosystem.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.690Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:27.609Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:22:54.230Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

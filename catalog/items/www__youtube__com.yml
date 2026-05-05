@@ -1,0 +1,108 @@
+id: www__youtube__com
+kind: website
+name: www.youtube.com
+canonical_url: https://www.youtube.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__youtube__com__awesome-list__vivy-yi__awesome-agent-orchestration
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: vivy-yi/awesome-agent-orchestration
+        url: https://github.com/vivy-yi/awesome-agent-orchestration
+        repository: vivy-yi/awesome-agent-orchestration
+      extraction:
+        mode: parsed
+        section_path:
+          - Learning Resources
+          - Tutorials & Guides
+        anchor_text: Building Autonomous Agents with LangChain
+        extracted_url: https://www.youtube.com/watch
+        surrounding_text: "- [Building Autonomous Agents with LangChain](https://www.youtube.com/watch?v=example) - Video tutorial"
+        confidence: high
+    - id: discovery__www__youtube__com__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Learn
+          - Videos Playlists
+        anchor_text: LangChain Series by Sam Witteveen
+        extracted_url: https://www.youtube.com/watch
+        surrounding_text: "- [LangChain Series by Sam Witteveen](https://www.youtube.com/watch?v=J_0qvRt4LNk&list=PL8motc6AQftk1Bs42EW45kwYbyJ4jOdiZ)"
+        confidence: high
+    - id: discovery__www__youtube__com__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 推荐 Suggestion
+          - Podcast
+        anchor_text: "Luo Fuli: OpenClaw, Agent Frameworks — The AI Paradigm Has Already Changed Dramatically!"
+        extracted_url: https://www.youtube.com/watch
+        surrounding_text: "- [Luo Fuli: OpenClaw, Agent Frameworks — The AI Paradigm Has Already Changed Dramatically!](https://www.youtube.com/watch?v=V9eI-t3TApE)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: YouTube is a general-purpose video hosting and streaming platform.
+  why_it_matters: It hosts tutorials, conference talks, and course content that developers use to learn new tools and frameworks.
+  mental_damage: The primary hazard is the 'just one more video' loop that transforms a 20-minute bug fix into a three-hour descent into algorithmically recommended irrelevance.
+  tags:
+    - video
+    - learning
+    - content-platform
+  confidence: high
+curation:
+  status: excluded
+  reason: YouTube is a generic consumer content platform, not a developer-specific AI tool, agent, or infrastructure component.
+  evidence:
+    - Scraped site description describes a general video/music sharing platform, not a developer tool.
+    - Appears in source lists only under generic 'Videos' or 'Podcast' sections as a content host, not a tool.
+    - Lacks any code, IDE, agent, or AI-infrastructure angle required for the catalog scope.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.662Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:54:15.076Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

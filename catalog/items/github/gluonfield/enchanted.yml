@@ -1,0 +1,90 @@
+id: github__gluonfield__enchanted
+kind: github-repo
+name: enchanted
+canonical_url: https://github.com/gluonfield/enchanted
+identity:
+  github_repo: gluonfield/enchanted
+provenance:
+  discoveries:
+    - id: discovery__github__augustdev__enchanted__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 推理 Inference
+        anchor_text: enchanted
+        extracted_url: https://github.com/augustdev/enchanted
+        surrounding_text: "21. [enchanted](https://github.com/AugustDev/enchanted): Enchanted is iOS and macOS app for chatting with private self hosted language models such as Llama2, Mistral or Vicuna using Ollama."
+        confidence: high
+metadata:
+  github:
+    stars: 5920
+    forks: 414
+    license: Apache-2.0
+    archived: false
+    created_at: "2023-12-13T18:55:26Z"
+    pushed_at: "2025-03-19T20:19:21Z"
+    description: Enchanted is iOS and macOS app for chatting with private self hosted language models such as Llama2, Mistral or Vicuna using Ollama.
+    homepage: ""
+    topics:
+      - ios
+      - large-language-model
+      - llama
+      - llama2
+      - llm
+      - mistral
+      - ollama
+      - ollama-app
+      - swift
+    last_checked_at: "2026-05-05T21:02:22.949Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:22.949Z"
+      bytes: 5016
+insights:
+  summary: Enchanted is an open-source iOS, macOS, and visionOS app that provides a ChatGPT-like interface for interacting with private, self-hosted language models via Ollama.
+  why_it_matters: It gives developers a native, privacy-focused way to interact with local LLMs across the Apple ecosystem without sending data to third-party cloud APIs.
+  mental_damage: Because nothing says 'secure private AI' quite like tunneling your local Ollama server through ngrok just to show a chatbot on your Apple Watch.
+  tags:
+    - ios
+    - macos
+    - ollama
+    - local-ai
+    - swift
+  confidence: high
+curation:
+  status: included
+  reason: The project is a native desktop and mobile interface specifically designed for running and interacting with local, self-hosted AI models.
+  evidence:
+    - Repo description explicitly states it is an iOS/macOS app for chatting with private self-hosted models using Ollama.
+    - README confirms it is an Ollama-compatible app for working with privately hosted models like Llama 2 and Mistral.
+    - Active repository with recent pushes (2025-03-19) and significant traction (5920 stars).
+placement:
+  primary_category: local-ai
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (5920) exceeded threshold (150)
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:21:48.544Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.680Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:22.949Z"
+    cause: null
+    next_retry_at: null

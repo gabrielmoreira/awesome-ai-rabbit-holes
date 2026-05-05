@@ -1,0 +1,74 @@
+id: x__com__jyangballin__status__1775114448513958134
+kind: website
+name: "1775114448513958134"
+canonical_url: https://x.com/jyangballin/status/1775114448513958134
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__x__com__jyangballin__status__1775114448513958134__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - SWE Agent
+          - Description
+        anchor_text: "\"Our key insight is that LMs require carefully designed agent-computer interfaces (similar to how humans like  good UI design). E.g. When the LM messes up indentation, our editor prevents it and gives feedback.\""
+        extracted_url: https://x.com/jyangballin/status/1775114448513958134
+        surrounding_text: "- [\"Our key insight is that LMs require carefully designed agent-computer interfaces (similar to how humans like  good UI design). E.g. When the LM messes up indentation, our editor prevents it and gives feedback.\"](https://x.com/jyangballin/status/1775114448513958134)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A tweet on X that is inaccessible due to privacy extensions or platform errors, with no recoverable description of a tool or project.
+  why_it_matters: It doesn't, as the content is completely unavailable to evaluate.
+  mental_damage: We have reached a point in the AI ecosystem where a broken link to a social media post is being reviewed as a potential autonomous agent.
+  tags:
+    - unknown
+  confidence: high
+curation:
+  status: excluded
+  reason: The URL leads to an inaccessible X.com page with no description, README, or functional context, making it impossible to verify it is a developer tool rather than a screenshot or discussion.
+  evidence:
+    - "Scraped site context returns an error: 'Something went wrong... Some privacy related extensions may cause issues on x.com.'"
+    - No repo description, stars, license, or creation date are available for this entry.
+    - Source list context only indicates it was listed in awesome-ai-agents, but the link itself is dead/broken.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.734Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:54:18.964Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

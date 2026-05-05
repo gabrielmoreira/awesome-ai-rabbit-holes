@@ -1,0 +1,82 @@
+id: github__gpu-bridge__mcp-server
+kind: github-repo
+name: mcp-server
+canonical_url: https://github.com/gpu-bridge/mcp-server
+identity:
+  github_repo: gpu-bridge/mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__gpu-bridge__mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🔗 <a name="aggregators"></a>Aggregators
+        anchor_text: gpu-bridge/mcp-server
+        extracted_url: https://github.com/gpu-bridge/mcp-server
+        surrounding_text: "- [gpu-bridge/mcp-server](https://github.com/gpu-bridge/mcp-server) [![gpu-bridge-mcp-server MCP server](https://glama.ai/mcp/servers/gpu-bridge/mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/gpu-bridge/mcp-server) 📇 ☁️ 🍎 🪟 🐧 - Unified GPU inference API with 30 AI services (LLM, image gen, video, TTS, whisper, embeddings, reranking, OCR) as MCP tools. Pay-per-use via x402 USDC or API key credits."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2026-03-13T23:32:29Z"
+    pushed_at: "2026-03-17T11:16:23Z"
+    description: GPU-Bridge MCP Server — 30 AI services as Model Context Protocol tools. LLMs, image gen, video, audio, embeddings, reranking, PDF parsing & more. x402 native for autonomous agents.
+    homepage: https://gpubridge.io
+    topics: []
+    last_checked_at: "2026-05-05T21:02:26.402Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:26.402Z"
+      bytes: 6489
+insights:
+  summary: An MCP server that exposes 30 GPU-powered AI services—including LLMs, image generation, audio, video, and embeddings—via the Model Context Protocol, with optional x402-native autonomous payments on Base L2.
+  why_it_matters: Developers can give MCP-compatible assistants like Claude direct access to a broad catalog of GPU inference services without managing multiple API keys or custom integrations.
+  mental_damage: We have successfully reached the point where your AI agent now needs a cryptocurrency wallet so it can autonomously buy itself more GPU time like a teenager with a prepaid card.
+  tags:
+    - mcp
+    - gpu
+    - inference
+    - x402
+    - developer-tools
+  confidence: medium
+curation:
+  status: included
+  reason: The project is an MCP server that exposes GPU inference services as Model Context Protocol tools, which clearly fits the MCP infrastructure category.
+  evidence:
+    - Repo description explicitly states 'GPU-Bridge MCP Server — 30 AI services as Model Context Protocol tools'
+    - README confirms 'This MCP server exposes all 30 GPU-Bridge services as Model Context Protocol tools'
+    - Listed in awesome-mcp-servers under 'Server Implementations > Aggregators'
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.689Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:26.402Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:22:40.327Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

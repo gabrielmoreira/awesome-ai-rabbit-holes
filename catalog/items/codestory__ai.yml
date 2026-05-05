@@ -1,0 +1,74 @@
+id: codestory__ai
+kind: website
+name: codestory.ai
+canonical_url: https://codestory.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__codestory__ai__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Aide by Codestory
+        anchor_text: Aide by Codestory
+        extracted_url: https://codestory.ai
+        surrounding_text: "## [Aide by Codestory](https://codestory.ai/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Codestory is the company behind Aide, an AI coding agent designed to assist developers with code-related tasks.
+  why_it_matters: It offers a dedicated autonomous agent for developers looking to offload coding, review, or debugging tasks to a specialized AI tool.
+  mental_damage: We have reached the point where we are curating the curators of the agents that help us review the code the other agents wrote.
+  tags:
+    - coding-agent
+    - autonomous
+    - developer-tool
+  confidence: medium
+curation:
+  status: included
+  reason: The product (Aide) is listed in the awesome-ai-agents directory specifically as a coding agent, fitting the profile of a developer-facing assistant that works on source code.
+  evidence:
+    - Seen in awesome-ai-agents list under the section 'Aide by Codestory'
+    - The source list categorizes it as an 'AI autonomous agent'
+placement:
+  primary_category: coding-agents
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.726Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:43:07.030Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

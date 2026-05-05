@@ -1,0 +1,80 @@
+id: github__croffasia__mcp-project-manager
+kind: github-repo
+name: mcp-project-manager
+canonical_url: https://github.com/croffasia/mcp-project-manager
+identity:
+  github_repo: croffasia/mcp-project-manager
+provenance:
+  discoveries:
+    - id: discovery__github__croffasia__mcp-project-manager__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: Project Manager
+        extracted_url: https://github.com/croffasia/mcp-project-manager
+        surrounding_text: "- **[Project Manager](https://github.com/croffasia/mcp-project-manager)** - Hierarchical task management (ideas → epics → tasks) with CLI dashboard"
+        confidence: high
+metadata:
+  github:
+    stars: 7
+    forks: 3
+    license: MIT
+    archived: false
+    created_at: "2025-07-14T13:41:33Z"
+    pushed_at: "2025-07-15T21:25:41Z"
+    description: 🚀 Hierarchical task management server via Model Context   Protocol (MCP). Create ideas → epics → tasks with   AI-powered decomposition and smart workflow automation   for any MCP-compatible AI assistant.
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:01:42.931Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:42.931Z"
+      bytes: 10088
+insights:
+  summary: An MCP server that provides hierarchical task management (ideas → epics → tasks) with AI-powered decomposition and dependency tracking for MCP-compatible assistants.
+  why_it_matters: It lets developers delegate project scaffolding and task breakdown to their AI assistant, turning natural language prompts into structured work items inside their existing workflow.
+  mental_damage: We have successfully invented a way for an AI to generate a todo list for another AI to ignore while we nervously refresh the CLI dashboard.
+  tags:
+    - mcp
+    - task-management
+    - project-management
+    - agent-tooling
+  confidence: medium
+curation:
+  status: included
+  reason: The primary artifact is an MCP server that extends AI assistants with task management capabilities, which fits cleanly under MCP Servers and Tooling.
+  evidence:
+    - Repo description explicitly states 'Hierarchical task management server via Model Context Protocol (MCP)'
+    - README confirms it is an MCP server compatible with Claude Code, Cursor, VS Code + Copilot, and Continue.dev
+    - Listed in awesome-mcp-servers under Community Servers, reinforcing its role as MCP infrastructure
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.683Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:42.932Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:14:43.206Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

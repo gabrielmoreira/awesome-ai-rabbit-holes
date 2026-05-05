@@ -1,0 +1,120 @@
+id: github__openclaw__openclaw
+kind: github-repo
+name: zh-CN
+canonical_url: https://github.com/openclaw/openclaw
+identity:
+  github_repo: openclaw/openclaw
+provenance:
+  discoveries:
+    - id: discovery__docs__openclaw__ai__zh__cn__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 技能 Skills
+        anchor_text: OpenClaw
+        extracted_url: https://docs.openclaw.ai/zh-CN
+        surrounding_text: 2. [OpenClaw](https://docs.openclaw.ai/zh-CN)
+        confidence: high
+    - id: discovery__github__openclaw__openclaw__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Terminal-native coding agents
+          - OpenClaw ecosystem
+        anchor_text: OpenClaw
+        extracted_url: https://github.com/openclaw/openclaw
+        surrounding_text: Projects built on, forked from, or inspired by [OpenClaw](https://github.com/openclaw/openclaw) — the open-source personal AI assistant. Sorted by GitHub stars.
+        confidence: high
+    - id: discovery__github__openclaw__openclaw__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🤖 <a name="coding-agents"></a>Coding Agents
+        anchor_text: OpenClaw
+        extracted_url: https://github.com/openclaw/openclaw
+        surrounding_text: "- [freema/openclaw-mcp](https://github.com/freema/openclaw-mcp) [![openclaw-mcp MCP server](https://glama.ai/mcp/servers/@freema/openclaw-mcp/badges/score.svg)](https://glama.ai/mcp/servers/@freema/openclaw-mcp) 📇 ☁️ 🏠 - MCP server for [OpenClaw](https://github.com/openclaw/openclaw) AI assistant integration. Enables Claude to delegate tasks to OpenClaw agents with sync/async tools, OAuth 2.1 auth, and SSE transport for Claude.ai."
+        confidence: high
+metadata:
+  github:
+    stars: 368619
+    forks: 75949
+    license: MIT
+    archived: false
+    created_at: "2025-11-24T10:16:47Z"
+    pushed_at: "2026-05-05T20:57:03Z"
+    description: "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 "
+    homepage: https://openclaw.ai
+    topics:
+      - ai
+      - assistant
+      - crustacean
+      - molty
+      - openclaw
+      - own-your-data
+      - personal
+    last_checked_at: "2026-05-05T21:04:04.960Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:04.960Z"
+      bytes: 86230
+insights:
+  summary: OpenClaw is a cross-platform, self-hosted personal AI assistant that connects to messaging channels and provides a CLI onboarding flow for setup.
+  why_it_matters: It gives developers a way to run a local, always-on assistant across terminals and chat apps without handing their data to a hosted SaaS.
+  mental_damage: Because what every engineering workflow clearly needed was a loyal lobster running on WSL2, ready to exfoliate your Slack DMs at 3 a.m.
+  tags:
+    - personal-assistant
+    - local-ai
+    - cli
+    - self-hosted
+    - messaging
+  confidence: high
+curation:
+  status: included
+  reason: It is explicitly listed as a terminal-native coding agent in curated lists and provides a CLI-first onboarding and control flow for a personal AI assistant.
+  evidence:
+    - Repo description calls it a personal AI assistant with terminal onboarding via `openclaw onboard`.
+    - Listed under Terminal-native coding agents > OpenClaw ecosystem in awesome-cli-coding-agents.
+    - Cross-platform CLI setup recommended via WSL2 on Windows, Linux, and macOS.
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (368619) exceeded threshold (150)
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:04:36.031Z"
+    cause: null
+    attempts: 2
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+    next_retry_at: null
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.727Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:04.960Z"
+    cause: null
+    next_retry_at: null

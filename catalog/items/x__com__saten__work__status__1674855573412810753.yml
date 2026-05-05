@@ -1,0 +1,76 @@
+id: x__com__saten__work__status__1674855573412810753
+kind: website
+name: "1674855573412810753"
+canonical_url: https://x.com/saten_work/status/1674855573412810753
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__x__com__saten__work__status__1674855573412810753__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - BabyCommandAGI
+          - Description
+        anchor_text: here
+        extracted_url: https://twitter.com/saten_work/status/1674855573412810753
+        surrounding_text: "- Automatic Programming, Successfully created an app automatically just by providing feedback. The procedure can be found [here](https://twitter.com/saten_work/status/1674855573412810753)."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A Twitter/X post referencing a project called BabyCommandAGI, listed in an awesome-ai-agents directory.
+  why_it_matters: It represents an entry point into the ecosystem of autonomous agent experiments, though the actual tool content is inaccessible.
+  mental_damage: We are now curating social media statuses as infrastructure, in case the singularity happened between a scroll and a refresh.
+  tags:
+    - agents
+    - autonomous
+    - links
+  confidence: high
+curation:
+  status: excluded
+  reason: The URL points to a Twitter status that is inaccessible due to privacy extensions or site errors, providing no project tooling, README, or usable context to verify developer utility.
+  evidence:
+    - URL is a Twitter/X status (x.com/saten_work/status/...) that returned a privacy/error page instead of content.
+    - No repository description, README, homepage, or code context was provided.
+    - Only signal is directory placement in awesome-ai-agents under 'BabyCommandAGI', which is not sufficient without a usable project surface.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.734Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:54:24.486Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

@@ -1,0 +1,90 @@
+id: github__attalla1__photopea-mcp-server
+kind: github-repo
+name: photopea-mcp-server
+canonical_url: https://github.com/attalla1/photopea-mcp-server
+identity:
+  github_repo: attalla1/photopea-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__attalla1__photopea-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🎨 <a name="art-and-culture"></a>Art & Culture
+        anchor_text: attalla1/photopea-mcp-server
+        extracted_url: https://github.com/attalla1/photopea-mcp-server
+        surrounding_text: "- [attalla1/photopea-mcp-server](https://github.com/attalla1/photopea-mcp-server) [![attalla1/photopea-mcp-server MCP server](https://glama.ai/mcp/servers/attalla1/photopea-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/attalla1/photopea-mcp-server) 📇 🏠 🍎 🪟 🐧 - AI-powered image editing through Photopea with 34 tools for documents, layers, text, shapes, filters, effects, and export. `npx photopea-mcp-server`"
+        confidence: high
+metadata:
+  github:
+    stars: 9
+    forks: 3
+    license: MIT
+    archived: false
+    created_at: "2026-04-04T14:02:39Z"
+    pushed_at: "2026-04-05T10:24:10Z"
+    description: MCP server for AI-driven image editing with Photopea
+    homepage: null
+    topics:
+      - ai
+      - claude
+      - cursor
+      - image-editing
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - photopea
+      - typescript
+    last_checked_at: "2026-05-05T21:01:11.565Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:11.565Z"
+      bytes: 10240
+insights:
+  summary: An MCP server that connects AI agents to Photopea, enabling image editing and design tasks via natural language prompts inside developer environments like Claude Code and Cursor.
+  why_it_matters: Developers can now delegate repetitive image editing and asset generation tasks directly to their coding agent without leaving the terminal or learning design tools.
+  mental_damage: We have finally reached the point where your coding agent opens a browser tab to Photoshop itself into existence, just to round out the corners on your README hero image.
+  tags:
+    - mcp
+    - image-editing
+    - photopea
+    - agent-tooling
+  confidence: high
+curation:
+  status: included
+  reason: This is a standalone MCP server that integrates Photopea with multiple AI coding environments, fitting cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description states: 'MCP server for AI-driven image editing with Photopea'."
+    - README demonstrates integration with Claude Code, Cursor, VS Code Copilot, and Windsurf via MCP.
+    - Listed in the awesome-mcp-servers directory under Server Implementations > Art & Culture.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.679Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:11.565Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:09:23.851Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

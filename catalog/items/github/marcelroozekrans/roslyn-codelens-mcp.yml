@@ -1,0 +1,87 @@
+id: github__marcelroozekrans__roslyn-codelens-mcp
+kind: github-repo
+name: roslyn-codelens-mcp
+canonical_url: https://github.com/marcelroozekrans/roslyn-codelens-mcp
+identity:
+  github_repo: marcelroozekrans/roslyn-codelens-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__marcelroozekrans__roslyn-codelens-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: MarcelRoozekrans/roslyn-codelens-mcp
+        extracted_url: https://github.com/marcelroozekrans/roslyn-codelens-mcp
+        surrounding_text: "- [MarcelRoozekrans/roslyn-codelens-mcp](https://github.com/MarcelRoozekrans/roslyn-codelens-mcp) [![roslyn-codelens-mcp MCP server](https://glama.ai/mcp/servers/MarcelRoozekrans/roslyn-codelens-mcp/badges/score.svg)](https://glama.ai/mcp/servers/MarcelRoozekrans/roslyn-codelens-mcp) #️⃣ 🏠 🍎 🪟 🐧 - Roslyn-based MCP server with 22 semantic code intelligence tools for .NET. Type hierarchies, call graphs, DI registrations, diagnostics, code fixes, complexity metrics, and more. Sub-millisecond lookups via pre-built indexes."
+        confidence: high
+metadata:
+  github:
+    stars: 8
+    forks: 5
+    license: MIT
+    archived: false
+    created_at: "2026-03-06T09:23:01Z"
+    pushed_at: "2026-05-05T19:43:50Z"
+    description: Roslyn-based MCP server providing semantic code intelligence for .NET codebases — type hierarchies, call sites, DI registrations, and reflection usage for Claude Code
+    homepage: null
+    topics:
+      - claude-code
+      - code-analysis
+      - dotnet
+      - mcp
+      - roslyn
+    last_checked_at: "2026-05-05T21:03:28.936Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:28.936Z"
+      bytes: 12292
+insights:
+  summary: A Roslyn-based MCP server that exposes deep .NET semantic code intelligence—such as type hierarchies, call graphs, and DI registrations—to AI agents like Claude Code.
+  why_it_matters: It allows AI coding assistants to navigate complex .NET codebases with compiler-grade accuracy rather than relying on brittle text search or vague context windows.
+  mental_damage: We’ve successfully built a tool that lets an AI deeply understand your spaghetti .NET dependency graph, removing your last excuse for not refactoring it.
+  tags:
+    - mcp
+    - dotnet
+    - roslyn
+    - code-analysis
+    - claude-code
+  confidence: high
+curation:
+  status: included
+  reason: The project is itself a Model Context Protocol server providing tooling to AI agents, which fits cleanly into the MCP category.
+  evidence:
+    - Repo description explicitly states 'Roslyn-based MCP server providing semantic code intelligence'.
+    - README title and features list confirm it is an MCP server with tools like find_callers and get_diagnostics.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.705Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:28.936Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:35:33.062Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

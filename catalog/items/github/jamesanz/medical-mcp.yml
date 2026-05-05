@@ -1,0 +1,89 @@
+id: github__jamesanz__medical-mcp
+kind: github-repo
+name: medical-mcp
+canonical_url: https://github.com/jamesanz/medical-mcp
+identity:
+  github_repo: jamesanz/medical-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__jamesanz__medical-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - <a name="bio"></a>Biology, Medicine and Bioinformatics
+        anchor_text: JamesANZ/medical-mcp
+        extracted_url: https://github.com/jamesanz/medical-mcp
+        surrounding_text: "- [JamesANZ/medical-mcp](https://github.com/JamesANZ/medical-mcp) 📇 🏠 - An MCP server that provides access to medical information, drug databases, and healthcare resources. Enables AI assistants to query medical data, drug interactions, and clinical guidelines."
+        confidence: high
+metadata:
+  github:
+    stars: 88
+    forks: 25
+    license: MIT
+    archived: false
+    created_at: "2025-07-14T08:33:25Z"
+    pushed_at: "2026-02-18T10:10:38Z"
+    description: An MCP server that provides comprehensive medical information by querying multiple authoritative medical APIs including FDA, WHO, PubMed, Google Scholar, and RxNorm
+    homepage: https://glama.ai/mcp/servers/@JamesANZ/medical-mcp
+    topics:
+      - fda
+      - google-scholar
+      - llms
+      - mcp-server
+      - pubmed
+      - rxnorm
+      - who
+    last_checked_at: "2026-05-05T21:02:50.455Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:50.455Z"
+      bytes: 9453
+insights:
+  summary: An MCP server that provides AI coding environments like Cursor and Claude Desktop with access to medical data from the FDA, WHO, PubMed, RxNorm, and Google Scholar.
+  why_it_matters: Developers building healthcare or medical AI applications can ground their assistants in authoritative, real-time clinical data without managing multiple API keys or external cloud calls.
+  mental_damage: We have reached the point where our coding agents need PubMed access to argue with us about whether a cough requires antibiotics.
+  tags:
+    - mcp
+    - medical
+    - healthcare
+    - cursor
+    - context
+  confidence: high
+curation:
+  status: included
+  reason: The project is a standalone MCP server that exposes medical data sources to AI developer tools, fitting cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description explicitly states: 'An MCP server that provides comprehensive medical information by querying multiple authoritative medical APIs'."
+    - README confirms it is 'An MCP (Model Context Protocol) server' designed for Cursor and Claude Desktop.
+    - Listed in the awesome-mcp-servers directory under 'Biology, Medicine and Bioinformatics'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.699Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:50.455Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:27:26.765Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

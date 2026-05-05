@@ -1,0 +1,82 @@
+id: github__archie0125__osop-agent-rules
+kind: github-repo
+name: osop-agent-rules
+canonical_url: https://github.com/archie0125/osop-agent-rules
+identity:
+  github_repo: archie0125/osop-agent-rules
+provenance:
+  discoveries:
+    - id: discovery__github__archie0125__osop-agent-rules__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Agent infrastructure
+        anchor_text: OSOP
+        extracted_url: https://github.com/archie0125/osop-agent-rules
+        surrounding_text: "- **[OSOP](https://github.com/Archie0125/osop-agent-rules)** `⭐ 1` — Universal workflow logging protocol for CLI coding agents; produces `.osop` workflow definitions and `.osoplog.yaml` execution records. Supports Claude Code, Codex, Cursor, Windsurf, Aider, Cline, Roo Code, Devin, and OpenClaw. Includes a [visual editor](https://osop-editor.vercel.app) and [spec](https://github.com/Archie0125/osop-spec)."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 0
+    license: null
+    archived: false
+    created_at: "2026-04-01T11:46:09Z"
+    pushed_at: "2026-04-14T12:27:02Z"
+    description: Drop-in OSOP session logging for every AI coding agent — Cursor, Codex, Windsurf, Aider, Cline, Roo Code, Devin, Continue.dev, Copilot
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:01:08.476Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:08.476Z"
+      bytes: 6096
+insights:
+  summary: A collection of drop-in rule files and scripts that configure 18 AI coding agents to produce structured OSOP session logs after completing tasks.
+  why_it_matters: It enables developers to standardize execution logging and visualization across nearly every major AI coding assistant without writing custom telemetry glue code.
+  mental_damage: We have finally reached the point where we are installing rules so our agents can file paperwork about the work they barely did.
+  tags:
+    - logging
+    - rules
+    - multi-agent
+    - osop
+    - skills
+  confidence: high
+curation:
+  status: included
+  reason: The primary artifact is a reusable rules and skill pack distribution for multiple AI coding agents, which fits the dedicated skills category.
+  evidence:
+    - Repo description explicitly calls it 'Drop-in OSOP session logging' for every major AI coding agent.
+    - README shows rule files for Cursor, Codex, Windsurf, Cline, Roo Code, Devin, and 11 other platforms.
+    - Listed in awesome-cli-coding-agents under 'Harnesses & orchestration > Agent infrastructure'.
+placement:
+  primary_category: skills
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.679Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:08.476Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:08:52.556Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

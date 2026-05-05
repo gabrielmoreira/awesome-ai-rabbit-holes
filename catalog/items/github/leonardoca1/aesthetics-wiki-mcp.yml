@@ -1,0 +1,89 @@
+id: github__leonardoca1__aesthetics-wiki-mcp
+kind: github-repo
+name: aesthetics-wiki-mcp
+canonical_url: https://github.com/leonardoca1/aesthetics-wiki-mcp
+identity:
+  github_repo: leonardoca1/aesthetics-wiki-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__leonardoca1__aesthetics-wiki-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🎨 <a name="art-and-culture"></a>Art & Culture
+        anchor_text: leonardoca1/aesthetics-wiki-mcp
+        extracted_url: https://github.com/leonardoca1/aesthetics-wiki-mcp
+        surrounding_text: "- [leonardoca1/aesthetics-wiki-mcp](https://github.com/leonardoca1/aesthetics-wiki-mcp) [![leonardoca1/aesthetics-wiki-mcp MCP server](https://glama.ai/mcp/servers/leonardoca1/aesthetics-wiki-mcp/badges/score.svg)](https://glama.ai/mcp/servers/leonardoca1/aesthetics-wiki-mcp) 🐍 🏠 🍎 🪟 🐧 - Search, read, and discover thousands of visual aesthetics (cottagecore, dark academia, y2k, goblincore, and many more) from the [Aesthetics Wiki](https://aesthetics.fandom.com). Great for moodboards, brand direction, and creative inspiration. `uvx aesthetics-wiki-mcp`"
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-04-20T22:33:40Z"
+    pushed_at: "2026-04-21T09:37:48Z"
+    description: MCP server for the Aesthetics Wiki (aesthetics.fandom.com) — search, read, and discover aesthetics from your LLM.
+    homepage: null
+    topics:
+      - aesthetics
+      - claude
+      - fandom
+      - llm-tools
+      - mcp
+      - mediawiki
+      - model-context-protocol
+      - python
+    last_checked_at: "2026-05-05T21:03:18.678Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:18.678Z"
+      bytes: 5004
+insights:
+  summary: An MCP server that lets LLMs search, read, and fetch images from the Aesthetics Wiki via the MediaWiki API.
+  why_it_matters: It turns a niche creative wiki into a structured tool call so design-oriented developers and AI agents can ground moodboards, branding, and worldbuilding in real aesthetic vocabulary instead of hallucinated vibes.
+  mental_damage: "We have finally solved the hardest problem in modern software engineering: piping cottagecore definitions directly into our LLM context windows with zero additional setup."
+  tags:
+    - mcp
+    - mediawiki
+    - design-tooling
+    - python
+  confidence: medium
+curation:
+  status: included
+  reason: The project is an MCP server that exposes Aesthetics Wiki content as tools for LLMs, which fits cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description: 'MCP server for the Aesthetics Wiki... search, read, and discover aesthetics from your LLM.'"
+    - README positions it as an MCP server runnable via uvx with Claude Desktop and other MCP clients.
+    - Listed in awesome-mcp-servers under Server Implementations > Art & Culture.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.704Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:18.678Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:33:38.248Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

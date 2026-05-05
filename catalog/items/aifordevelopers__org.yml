@@ -1,0 +1,76 @@
+id: aifordevelopers__org
+kind: website
+name: aifordevelopers.org
+canonical_url: https://aifordevelopers.org
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__aifordevelopers__org__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - README
+        anchor_text: AI For Developers
+        extracted_url: https://aifordevelopers.org
+        surrounding_text: "**Reach thousands of developers building with AI by sponsoring this list, our [newsletter](https://aifordevelopers.substack.com/) and [AI For Developers](https://aifordevelopers.org/). Contact us at [aifordevelopers.org/advertise](https://aifordevelopers.org/advertise)**"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A directory and discovery site listing AI coding tools, agents, app builders, models, and developer resources organized by category.
+  why_it_matters: It provides a categorized starting point for developers trying to navigate and compare the rapidly expanding ecosystem of AI dev tools.
+  mental_damage: Yet another beautifully designed map of the rabbit hole, ensuring you spend your afternoon browsing tools instead of configuring the one you already have.
+  tags:
+    - directory
+    - ai-tools
+    - discovery
+    - awesome-list
+  confidence: high
+curation:
+  status: included
+  reason: This is a curated index and discovery site for AI developer tools, which fits the awesome-awesomes category as a navigation aid rather than a standalone tool.
+  evidence:
+    - The site title and description explicitly call it a 'curated list' and 'List of AI devtools' with category filters.
+    - The page structure features directories of Coding Agents, App Builders, IDE Assistants, and Models rather than a single product experience.
+    - It is listed in the awesome-ai-coding-tools directory as a curated list of AI coding tools.
+placement:
+  primary_category: awesome-awesomes
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.726Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:41:41.039Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

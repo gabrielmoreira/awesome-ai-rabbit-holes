@@ -1,0 +1,82 @@
+id: github__cipherfoxie__sovereign-mcp
+kind: github-repo
+name: sovereign-mcp
+canonical_url: https://github.com/cipherfoxie/sovereign-mcp
+identity:
+  github_repo: cipherfoxie/sovereign-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__cipherfoxie__sovereign-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: cipherfoxie/sovereign-mcp
+        extracted_url: https://github.com/cipherfoxie/sovereign-mcp
+        surrounding_text: "- [cipherfoxie/sovereign-mcp](https://github.com/cipherfoxie/sovereign-mcp) [![cipherfoxie/sovereign-mcp MCP server](https://glama.ai/mcp/servers/cipherfoxie/sovereign-mcp/badges/score.svg)](https://glama.ai/mcp/servers/cipherfoxie/sovereign-mcp) 🐍 ☁️ 🐧 - MCP for the [Sovereign AI Blog](https://sovgrid.org), a hands-on engineering log of self-hosted AI on NVIDIA DGX Spark (GB10/SM121A). 44+ articles covering SGLang, Mistral, Voxtral, OpenClaw. Three tools: full-text search, article retrieval, and SGLang config validator for GB10 hardware. Free, no auth, no client-side tracking. `https://mcp.sovgrid.org/self-hosted-ai?ref=awesome-mcp`"
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-04-30T11:02:31Z"
+    pushed_at: "2026-05-05T19:59:08Z"
+    description: "MCP server for the Sovereign AI Blog: Search, retrieve, and diagnose tools for self-hosted AI on NVIDIA DGX Spark."
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:01:34.214Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:34.214Z"
+      bytes: 5609
+insights:
+  summary: An MCP server that exposes the Sovereign AI Blog—a hands-on engineering log for self-hosted AI on NVIDIA DGX Spark—to AI agents via search, retrieval, and SGLang diagnostics tools.
+  why_it_matters: It gives coding agents structured, up-to-date access to niche hardware setups and fixes that training data rarely covers, reducing hallucinated solutions for developers running AI on NVIDIA GB10 and SM121A stacks.
+  mental_damage: We have finally reached the point where we need an MCP server just to pipe our niche blog posts into an agent so it can stop confidently inventing broken SGLang patches for hardware that barely exists.
+  tags:
+    - mcp
+    - self-hosted-ai
+    - nvidia-dgx
+    - knowledge-base
+    - fastmcp
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server providing tooling for the Model Context Protocol ecosystem, which fits cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description states: 'MCP server for the Sovereign AI Blog: Search, retrieve, and diagnose tools for self-hosted AI on NVIDIA DGX Spark.'"
+    - README confirms it is a FastMCP-based server with Streamable HTTP transport at /self-hosted-ai, exposing tools like search_blog and diagnose_sglang.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Knowledge & Memory', reinforcing its role as MCP infrastructure.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.682Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:34.214Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:13:11.023Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

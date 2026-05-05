@@ -1,0 +1,77 @@
+id: www__hiveintelligence__xyz__crypto__mcp
+kind: website
+name: crypto-mcp
+canonical_url: https://www.hiveintelligence.xyz/crypto-mcp
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__hiveintelligence__xyz__crypto__mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: remote server
+        extracted_url: https://hiveintelligence.xyz/crypto-mcp
+        surrounding_text: "- **[Hive Intelligence](https://github.com/hive-intel/hive-crypto-mcp)** 📇 ☁️ 🏠 - Hive Intelligence: Ultimate cryptocurrency MCP for AI assistants with unified access to crypto, DeFi, and Web3 analytics. Hive's remote mcp server guide [remote server](https://hiveintelligence.xyz/crypto-mcp)."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Hive Intelligence provides a managed MCP server that federates crypto and blockchain data from nine providers into a single endpoint for AI agents and developer tools.
+  why_it_matters: Developers building crypto-aware agents can skip stitching together multiple provider APIs by connecting Claude, Cursor, or ChatGPT to one normalized MCP endpoint.
+  mental_damage: Because nothing says 'focus on shipping features' like debugging why your trading bot insists on calling a token-security tool that costs one credit to tell you the rug is already pulled.
+  tags:
+    - mcp
+    - crypto
+    - blockchain
+    - data
+    - agents
+  confidence: high
+curation:
+  status: included
+  reason: The product is a managed MCP server endpoint purpose-built to expose crypto data tools to MCP-compatible clients, which fits cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - Source-list context shows it listed under awesome-mcp-servers in the Official Servers section.
+    - Scraped site describes it as 'the managed crypto MCP server for AI agents' with hundreds of tools exposed over streamable HTTP.
+    - Supports MCP clients including Claude Desktop, Cursor, Windsurf, VS Code, and ChatGPT Desktop with standard MCP transport.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.732Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:51:19.082Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

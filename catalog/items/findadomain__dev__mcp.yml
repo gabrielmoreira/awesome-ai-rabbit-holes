@@ -1,0 +1,75 @@
+id: findadomain__dev__mcp
+kind: website
+name: mcp
+canonical_url: https://findadomain.dev/mcp
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__findadomain__dev__mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Find-A-Domain
+        extracted_url: https://findadomain.dev/mcp
+        surrounding_text: "- **[Find-A-Domain](https://findadomain.dev/mcp)** - Domain availability checking and WHOIS lookup tools."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: An HTTP-based Model Context Protocol server that provides real-time domain availability checks, WHOIS lookups, and TLD listing for AI applications.
+  why_it_matters: It allows AI agents and assistants to perform live domain verification and research as part of broader automated workflows.
+  mental_damage: We have finally achieved the technological singularity where your AI agent can argue with a registrar API about whether .xyz is taken, saving you the crushing burden of opening a browser tab.
+  tags:
+    - mcp
+    - domain
+    - tooling
+    - api
+  confidence: high
+curation:
+  status: included
+  reason: The product is specifically an MCP server implementation designed to integrate domain tools into AI applications, fitting perfectly into the MCP Servers and Tooling category.
+  evidence:
+    - Scraped site context identifies it as 'Comprehensive Model Context Protocol (MCP) tools' with an endpoint at https://api.findadomain.dev/mcp.
+    - Source list context confirms it is listed in awesome-mcp-servers under 'Official Servers' for domain availability checking.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.727Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:44:28.439Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

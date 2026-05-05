@@ -1,0 +1,101 @@
+id: github__casibase__casibase
+kind: github-repo
+name: casibase
+canonical_url: https://github.com/casibase/casibase
+identity:
+  github_repo: casibase/casibase
+provenance:
+  discoveries:
+    - id: discovery__github__casibase__casibase__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Other LLM Frameworks
+        anchor_text: Casibase
+        extracted_url: https://github.com/casibase/casibase
+        surrounding_text: "- [Casibase](https://github.com/casibase/casibase): Open-source AI LangChain-like RAG (Retrieval-Augmented Generation) knowledge database with web UI and Enterprise SSO⚡️, supports OpenAI, Azure, LLaMA, Google Gemini, HuggingFace, Claude, Grok, etc ![GitHub Repo stars](https://img.shields.io/github/stars/casibase/casibase?style=social)"
+        confidence: high
+metadata:
+  github:
+    stars: 4538
+    forks: 537
+    license: Apache-2.0
+    archived: false
+    created_at: "2020-05-29T02:45:58Z"
+    pushed_at: "2026-05-05T17:06:08Z"
+    description: "⚡️next-generation personal AI assistant powered by LLM, RAG and agent loops, supporting computer-use, browser-use and coding agent, demo: https://demo.openagentai.org"
+    homepage: https://www.openagentai.org/
+    topics:
+      - a2a
+      - agent
+      - agentic
+      - agentic-ai
+      - agi
+      - chatbot
+      - chatgpt
+      - gpt
+      - harness
+      - knowledge-base
+      - langchain
+      - llama
+      - llm
+      - mcp
+      - model-context-protocol
+      - multi-agent
+      - openagent
+      - openai
+      - openclaw
+      - rag
+    last_checked_at: "2026-05-05T21:01:30.832Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:30.832Z"
+      bytes: 7718
+insights:
+  summary: OpenAgent is a self-hostable, open-source personal AI assistant platform that integrates LLMs, RAG knowledge bases, and autonomous agent loops to perform tasks like web browsing, code execution, and computer use via MCP-compatible tools.
+  why_it_matters: It provides developers with a self-contained, deployable control plane to orchestrate multi-agent workflows, connect custom model providers, and manage agent tooling outside of closed SaaS ecosystems.
+  mental_damage: "Just what the modern developer needs: another self-hosted 'next-generation' platform to maintain so their agents can autonomously manage the complexity of the tools meant to reduce their complexity."
+  tags:
+    - agents
+    - self-hosted
+    - rag
+    - mcp
+    - go
+  confidence: high
+curation:
+  status: included
+  reason: The project is primarily a user-facing platform and control plane for running and managing autonomous agents, RAG, and tool integrations, rather than a repo-editing coding assistant.
+  evidence:
+    - Repo description identifies it as a 'personal AI assistant... supporting computer-use, browser-use and coding agent' with an admin dashboard.
+    - README describes a 'self-hostable platform' with usage analytics, activity monitoring, and tool management rather than an IDE plugin.
+    - It is listed in awesome-langchain under 'Other LLM Frameworks', indicating its role as a foundational platform rather than a specific coding extension.
+placement:
+  primary_category: agent-orchestration
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (4538) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.440Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:30.832Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:12:32.752Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

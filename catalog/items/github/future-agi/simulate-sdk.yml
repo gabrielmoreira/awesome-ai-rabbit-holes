@@ -1,0 +1,88 @@
+id: github__future-agi__simulate-sdk
+kind: github-repo
+name: simulate-sdk
+canonical_url: https://github.com/future-agi/simulate-sdk
+identity:
+  github_repo: future-agi/simulate-sdk
+provenance:
+  discoveries:
+    - id: discovery__github__future-agi__simulate-sdk__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Large Scale Deployment
+          - Workflow
+        anchor_text: simulate-sdk
+        extracted_url: https://github.com/future-agi/simulate-sdk
+        surrounding_text: "| [simulate-sdk](https://github.com/future-agi/simulate-sdk) | Enterprise-grade Voice AI simulation SDK for scenario-driven stress testing of multimodal and agentic systems. | ![GitHub Badge](https://img.shields.io/github/stars/future-agi/simulate-sdk?style=flat-square) |"
+        confidence: high
+metadata:
+  github:
+    stars: 56
+    forks: 5
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-10-06T09:59:23Z"
+    pushed_at: "2026-04-24T01:21:41Z"
+    description: Enterprise Grade, Voice AI simulation SDK for testing your AI Agents
+    homepage: https://app.futureagi.com
+    topics:
+      - agentic-ai
+      - ai-agents
+      - evaluation
+      - simulate
+      - testing-tools
+      - voice-ai
+    last_checked_at: "2026-05-05T21:02:16.304Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:16.304Z"
+      bytes: 12912
+insights:
+  summary: A Python SDK for simulating and testing voice and text AI agents against persona-driven scenarios, with integrated evaluation and audio recording capabilities.
+  why_it_matters: It lets developers run automated, multi-turn simulations of their agents before deployment, bridging the gap between unit tests and unpredictable real-world user interactions.
+  mental_damage: You can now unit-test the vibes and tone of a simulated customer named Alice, ensuring your agent sounds adequately empathetic before it inevitably hallucinates a refund policy.
+  tags:
+    - testing
+    - evals
+    - voice-ai
+    - simulation
+    - sdk
+  confidence: high
+curation:
+  status: included
+  reason: The SDK is specifically designed to simulate agent conversations and feed results directly into evaluation metrics, fitting the definition of operational tooling for measuring agent behavior.
+  evidence:
+    - Repo description explicitly states it is an 'SDK for testing your AI Agents' with a focus on simulation.
+    - README emphasizes running agents against scenarios to capture transcripts/audio for scoring with '50+ built-in metrics'.
+    - Listed in Awesome-LLMOps under 'Large Scale Deployment > Workflow', confirming its place in the agent ops ecosystem.
+placement:
+  primary_category: evals
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.688Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:16.304Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:20:25.125Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

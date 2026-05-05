@@ -1,0 +1,76 @@
+id: godmode__space
+kind: website
+name: godmode.space
+canonical_url: https://godmode.space
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__godmode__space__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Godmode
+        anchor_text: Godmode
+        extracted_url: https://godmode.space
+        surrounding_text: "## [Godmode](https://godmode.space/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Godmode is a web-based interface for interacting with autonomous AI agents to pursue open-ended goals and iterative tasks.
+  why_it_matters: It provides developers with a browser-based sandbox to experiment with agent autonomy and iterative task execution without local setup.
+  mental_damage: Another shrine to the belief that if we just give the model enough tabs, it will eventually refactor the legacy codebase while we watch in awe.
+  tags:
+    - agents
+    - autonomous
+    - web-interface
+    - browser
+  confidence: high
+curation:
+  status: excluded
+  reason: The product is a general-purpose autonomous agent interface for end-users rather than a developer-tooling product focused on code, infrastructure, or app-building workflows.
+  evidence:
+    - Listed in awesome-ai-agents under a general autonomous agent section rather than a developer-tools section.
+    - Described as a browser-based agent space with no stated focus on code editing, IDE integration, or developer workflow automation.
+    - No repo description, README, or site context indicating it targets software development tasks specifically.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.728Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:45:04.899Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

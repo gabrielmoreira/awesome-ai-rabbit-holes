@@ -1,0 +1,77 @@
+id: capacity__so
+kind: website
+name: capacity.so
+canonical_url: https://capacity.so
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__capacity__so__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - App Builders
+        anchor_text: Capacity
+        extracted_url: https://capacity.so
+        surrounding_text: "- **[Capacity](https://capacity.so/)** – Agentic platform using Claude Code to turn ideas into full-stack web apps."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Capacity.so is a browser-based platform that generates full-stack React, TypeScript, and React Native applications from natural language descriptions, complete with an Express backend and SQLite database.
+  why_it_matters: It allows developers and non-coders to rapidly prototype and deploy production-ready web and mobile apps to Vercel or AWS without manually writing boilerplate code.
+  mental_damage: Another 'co-founder' that turns a vague idea into a production app so fast that you no longer have the excuse of a slow build process to hide the fact that your product vision is still undefined.
+  tags:
+    - app-builder
+    - full-stack
+    - react
+    - no-code
+    - prototype
+  confidence: high
+curation:
+  status: included
+  reason: The product is a browser-first SaaS that generates and deploys entire applications from prompts, fitting the App Builders category rather than a coding agent that collaborates inside a repo.
+  evidence:
+    - Scraped site excerpt describes it as a browser platform to 'Build anything... Full-stack... Just describe what you want in plain English.'
+    - Source list awesome-ai-coding-tools lists it under 'App Builders' with the description 'Generate production-ready React applications... No coding required.'
+    - Site claims apps include 'Real Backend... Express server and SQLite database' and supports one-click deploy to Vercel or AWS.
+placement:
+  primary_category: app-builders
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.726Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:42:42.778Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

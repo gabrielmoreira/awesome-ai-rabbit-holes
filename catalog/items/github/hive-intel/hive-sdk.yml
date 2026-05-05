@@ -1,0 +1,117 @@
+id: github__hive-intel__hive-sdk
+kind: github-repo
+name: hive-crypto-mcp
+canonical_url: https://github.com/hive-intel/hive-sdk
+identity:
+  github_repo: hive-intel/hive-sdk
+provenance:
+  discoveries:
+    - id: discovery__github__hive-intel__hive-crypto-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: hive-intel/hive-crypto-mcp
+        extracted_url: https://github.com/hive-intel/hive-crypto-mcp
+        surrounding_text: "- [hive-intel/hive-crypto-mcp](https://github.com/hive-intel/hive-crypto-mcp) 📇 ☁️ 🏠 - Hive Intelligence: Ultimate cryptocurrency MCP for AI assistants with unified access to crypto, DeFi, and Web3 analytics"
+        confidence: high
+    - id: discovery__github__hive-intel__hive-crypto-mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Hive Intelligence
+        extracted_url: https://github.com/hive-intel/hive-crypto-mcp
+        surrounding_text: "- **[Hive Intelligence](https://github.com/hive-intel/hive-crypto-mcp)** 📇 ☁️ 🏠 - Hive Intelligence: Ultimate cryptocurrency MCP for AI assistants with unified access to crypto, DeFi, and Web3 analytics. Hive's remote mcp server guide [remote server](https://hiveintelligence.xyz/crypto-mcp)."
+        confidence: high
+metadata:
+  github:
+    stars: 17
+    forks: 4
+    license: MIT
+    archived: false
+    created_at: "2025-08-24T07:33:09Z"
+    pushed_at: "2026-04-28T05:15:43Z"
+    description: Institutional-grade crypto market infrastructure for AI agents — 376+ tools, 10 categories, 9 providers (CoinGecko, DefiLlama, Moralis, GoldRush, Codex, GoPlus, Helius, Tenderly, CCXT). MCP server + CLI for Claude, Cursor, ChatGPT.
+    homepage: https://hiveintelligence.xyz/crypto-mcp
+    topics:
+      - ai-agents
+      - anthropic
+      - blockchain
+      - chatgpt
+      - claude
+      - claude-desktop
+      - crypto
+      - cryptocurrency
+      - cursor
+      - defi
+      - dex
+      - hive-intelligence
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - nft
+      - on-chain
+      - prediction-markets
+      - wallet
+      - web3
+    last_checked_at: "2026-05-05T21:02:34.631Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:34.631Z"
+      bytes: 18842
+insights:
+  summary: An MCP server and CLI that normalizes live crypto market data, DeFi metrics, wallet analytics, and on-chain signals from nine providers into a single tool surface for AI agents.
+  why_it_matters: Developers wiring AI agents into crypto workflows can stop stitching CoinGecko, DefiLlama, Moralis, and half a dozen other APIs by pointing their MCP client at one managed server.
+  mental_damage: We have officially reached the point where the killer app for Model Context Protocol is helping Claude decide whether your Solana wallet is rugged in real time.
+  tags:
+    - mcp
+    - crypto
+    - defi
+    - agent-tooling
+    - cli
+  confidence: high
+curation:
+  status: included
+  reason: The product itself is an MCP server and CLI designed to be plugged into Claude, Cursor, VS Code, and other MCP-compatible clients, which is a clean fit for the MCP category.
+  evidence:
+    - Repo description explicitly calls it an 'MCP server + CLI for Claude, Cursor, ChatGPT.'
+    - README shows MCP stdio and Streamable HTTP setup for Claude Desktop, Cursor, VS Code, Windsurf, Gemini CLI, and Claude Code.
+    - Project is active (pushed 2026-04-28) with 17 stars and an MIT license, and is not archived.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:24:05.722Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.666Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:34.631Z"
+    cause: null
+    next_retry_at: null

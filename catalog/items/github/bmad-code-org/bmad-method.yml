@@ -1,0 +1,80 @@
+id: github__bmad-code-org__bmad-method
+kind: github-repo
+name: bmad-method
+canonical_url: https://github.com/bmad-code-org/bmad-method
+identity:
+  github_repo: bmad-code-org/bmad-method
+provenance:
+  discoveries:
+    - id: discovery__github__bmad-code-org__bmad-method__awesome-list__engineering4ai__awesome-spec-driven-development
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: Engineering4AI/awesome-spec-driven-development
+        url: https://github.com/engineering4ai/awesome-spec-driven-development
+        repository: Engineering4AI/awesome-spec-driven-development
+      extraction:
+        mode: parsed
+        section_path:
+          - Development Frameworks
+        anchor_text: BMAD-METHOD
+        extracted_url: https://github.com/bmad-code-org/bmad-method
+        surrounding_text: "- [BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD) ![](https://img.shields.io/github/stars/bmad-code-org/BMAD-METHOD.svg) - Breakthrough Method for AI-driven Agile Development, providing a modular framework for agile AI workflows."
+        confidence: high
+metadata:
+  github:
+    stars: 46413
+    forks: 5463
+    license: NOASSERTION
+    archived: false
+    created_at: "2025-04-13T14:54:25Z"
+    pushed_at: "2026-05-04T16:17:10Z"
+    description: Breakthrough Method for Agile Ai Driven Development
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:01:23.679Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:23.679Z"
+      bytes: 6574
+insights:
+  summary: A framework of specialized AI agents and structured workflows that guide developers through agile development processes, from brainstorming and architecture to implementation and deployment.
+  why_it_matters: It treats AI as a collaborative partner in a structured development lifecycle rather than a solo code generator, integrating directly into popular AI IDEs like Cursor and Claude Code.
+  mental_damage: Just when you thought you were safe from agile ceremonies, the agents are now facilitating the sprint planning sessions for you.
+  tags:
+    - ai-agents
+    - agile
+    - workflow
+    - spec-driven
+  confidence: high
+curation:
+  status: included
+  reason: The project is a set of specialized agents and workflows designed to collaborate with developers on code and project structure inside IDEs, fitting the coding agent definition.
+  evidence:
+    - Repo description defines it as a 'Breakthrough Method for Agile Ai Driven Development'.
+    - README describes 'Specialized Agents' (PM, Architect, Developer) that integrate with 'AI IDE (Claude Code, Cursor, etc.)'.
+    - Listed in 'awesome-spec-driven-development' under 'Development Frameworks'.
+placement:
+  primary_category: coding-agents
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (46413) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.681Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:23.679Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:11:18.245Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

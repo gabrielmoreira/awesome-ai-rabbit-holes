@@ -1,0 +1,85 @@
+id: github__aaronjmars__web3-research-mcp
+kind: github-repo
+name: web3-research-mcp
+canonical_url: https://github.com/aaronjmars/web3-research-mcp
+identity:
+  github_repo: aaronjmars/web3-research-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__aaronjmars__web3-research-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: aaronjmars/web3-research-mcp
+        extracted_url: https://github.com/aaronjmars/web3-research-mcp
+        surrounding_text: "- [aaronjmars/web3-research-mcp](https://github.com/aaronjmars/web3-research-mcp) 📇 ☁️ - Deep Research for crypto - free & fully local"
+        confidence: high
+metadata:
+  github:
+    stars: 150
+    forks: 50
+    license: MIT
+    archived: false
+    created_at: "2025-04-11T15:33:16Z"
+    pushed_at: "2026-04-30T13:12:39Z"
+    description: Deep Research for crypto - free & fully local
+    homepage: ""
+    topics:
+      - mcp
+      - mcp-crypto
+      - mcp-server
+    last_checked_at: "2026-05-05T21:00:45.821Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:45.821Z"
+      bytes: 6088
+insights:
+  summary: An MCP server that performs deep research on cryptocurrency tokens by aggregating live data from CoinGecko, DeFiLlama, and web searches into structured reports for AI assistants.
+  why_it_matters: It allows developers building crypto tools to delegate multi-source token research and data aggregation directly to their local AI agent workflows without writing custom scrapers.
+  mental_damage: We have successfully built a local, autonomous researcher to tell us which memecoin is currently winning, ensuring we never have to form our own opinions about financial instruments again.
+  tags:
+    - mcp
+    - crypto
+    - web3
+    - research
+    - local-first
+  confidence: high
+curation:
+  status: included
+  reason: The project is a standalone MCP server designed to provide crypto research tools to AI hosts like Claude and Cursor, fitting the MCP infrastructure category perfectly.
+  evidence:
+    - "Repo description explicitly states: 'Deep Research for crypto - free & fully local' and topics include 'mcp' and 'mcp-server'."
+    - README confirms it is an installable server for Claude Desktop and Cursor with tools like coingecko-data and defillama-data.
+    - Listed in 'awesome-mcp-servers' under the 'Finance & Fintech' section.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.676Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:45.821Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:05:17.246Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

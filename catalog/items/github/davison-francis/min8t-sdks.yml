@@ -1,0 +1,99 @@
+id: github__davison-francis__min8t-sdks
+kind: github-repo
+name: min8t-sdks
+canonical_url: https://github.com/davison-francis/min8t-sdks
+identity:
+  github_repo: davison-francis/min8t-sdks
+provenance:
+  discoveries:
+    - id: discovery__github__davison-francis__min8t-sdks__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🎯 <a name="marketing"></a>Marketing
+        anchor_text: Davison-Francis/min8t-sdks
+        extracted_url: https://github.com/davison-francis/min8t-sdks
+        surrounding_text: "- [Davison-Francis/min8t-sdks](https://github.com/Davison-Francis/min8t-sdks/tree/main/deliveriq-mcp) [![Davison-Francis/min8t-sdks MCP server](https://glama.ai/mcp/servers/Davison-Francis/min8t-sdks/badges/score.svg)](https://glama.ai/mcp/servers/Davison-Francis/min8t-sdks) 📇 ☁️ - `@deliveriq/mcp` — email-deliverability tools for AI agents. 12 tools: single + batch verification, email finder, DNSBL across 50 zones, SPF/DKIM/DMARC/MTA-STS/BIMI infrastructure analysis, spam-trap scoring on 13 weighted signals, composite domain trust report, account credits. 5-stage / 21-check pipeline under the hood. Free tier, no card. Install: `npx -y @deliveriq/mcp`."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-05-01T12:47:32Z"
+    pushed_at: "2026-05-02T22:09:06Z"
+    description: By MiN8T — email infrastructure, design, and deliverability platform. Open-source SDKs + MCP server for DeliverIQ + the MiN8T editor.
+    homepage: https://min8t.com
+    topics:
+      - agentic-ai
+      - ai-agents
+      - anthropic
+      - claude
+      - dkim
+      - dmarc
+      - dnsbl
+      - email-deliverability
+      - email-finder
+      - email-verification
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - nodejs
+      - spam-detection
+      - spf
+      - typescript
+    last_checked_at: "2026-05-05T21:01:48.466Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:48.466Z"
+      bytes: 3697
+insights:
+  summary: Open-source SDKs and an MCP server for the MiN8T email platform, providing email verification, deliverability checks, and an embeddable editor via Node.js, npm packages, and MCP clients like Claude.
+  why_it_matters: It lets developers integrate email verification, DMARC analysis, and inbox-placement checks directly into AI coding workflows and web apps without leaving their editor or framework.
+  mental_damage: We have officially reached the point where even your email deliverability stack needs an MCP server and a Claude integration to feel complete.
+  tags:
+    - mcp
+    - email
+    - sdk
+    - deliverability
+    - typescript
+  confidence: high
+curation:
+  status: included
+  reason: The primary artifact is an MCP server and SDKs that expose email deliverability tools via the Model Context Protocol, which fits cleanly into the MCP infrastructure category.
+  evidence:
+    - Repo description explicitly states 'Open-source SDKs + MCP server for DeliverIQ + the MiN8T editor'
+    - README highlights the @deliveriq/mcp package as an MCP server with 12 tools for Claude, Cursor, and any MCP client
+    - Listed in awesome-mcp-servers under Server Implementations > Marketing, confirming its MCP server identity
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.684Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:48.466Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:15:40.558Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

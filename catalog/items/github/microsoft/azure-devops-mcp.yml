@@ -1,0 +1,80 @@
+id: github__microsoft__azure-devops-mcp
+kind: github-repo
+name: azure-devops-mcp
+canonical_url: https://github.com/microsoft/azure-devops-mcp
+identity:
+  github_repo: microsoft/azure-devops-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__microsoft__azure-devops-mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Azure DevOps
+        extracted_url: https://github.com/microsoft/azure-devops-mcp
+        surrounding_text: "- **[Azure DevOps](https://github.com/microsoft/azure-devops-mcp)** - The MCP server for Azure DevOps, bringing the power of Azure DevOps directly to your agents."
+        confidence: high
+metadata:
+  github:
+    stars: 1650
+    forks: 541
+    license: MIT
+    archived: false
+    created_at: "2025-05-15T13:12:42Z"
+    pushed_at: "2026-05-05T16:49:26Z"
+    description: The MCP server for Azure DevOps, bringing the power of Azure DevOps directly to your agents.
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:03:38.106Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:38.105Z"
+      bytes: 10256
+insights:
+  summary: A Model Context Protocol server from Microsoft that exposes Azure DevOps resources and actions to AI agents and editors.
+  why_it_matters: It allows developers to query work items, builds, repos, and wikis from their editor or agent using natural language instead of clicking through Azure DevOps web UI.
+  mental_damage: We have successfully abstracted away the UI so your agent can now complain about your Jira work items in natural language instead of you having to read them yourself.
+  tags:
+    - mcp
+    - azure-devops
+    - microsoft
+    - agent-tooling
+  confidence: high
+curation:
+  status: included
+  reason: The repository is explicitly an MCP server implementation, making it a direct fit for the MCP Servers and Tooling category.
+  evidence:
+    - Repo description states it is 'The MCP server for Azure DevOps'.
+    - README confirms it provides an MCP server to bring Azure DevOps context to agents.
+    - Listed under 'Official Servers' in the awesome-mcp-servers directory.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1650) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.706Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:38.106Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:37:23.991Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

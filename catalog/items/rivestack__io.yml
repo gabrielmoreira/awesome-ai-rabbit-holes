@@ -1,0 +1,78 @@
+id: rivestack__io
+kind: website
+name: rivestack.io
+canonical_url: https://rivestack.io
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__rivestack__io__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Search
+          - Vector search
+        anchor_text: Rivestack
+        extracted_url: https://rivestack.io
+        surrounding_text: "| [Rivestack](https://rivestack.io)                         | Managed PostgreSQL with pgvector for AI workloads. Built-in SQL editor lets you query your database with natural language (auto-converted to vector embeddings). Free tier includes 2GB storage.                                                                                                                                                                   |                                                                                                       |"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Managed PostgreSQL hosting optimized for AI workloads with built-in pgvector, NVMe storage, and fixed monthly pricing for vector search and RAG applications.
+  why_it_matters: Developers running pgvector can migrate from Supabase, Neon, or Pinecone to get dedicated NVMe performance, sub-4ms latency, and predictable billing without the ops burden of self-hosting.
+  mental_damage: We have successfully reached the point where the most innovative thing you can do with AI infrastructure is pay someone to give you a properly tuned Postgres instance and call it a product.
+  tags:
+    - pgvector
+    - postgresql
+    - vector-search
+    - managed-hosting
+    - rag
+  confidence: medium
+curation:
+  status: included
+  reason: Rivestack is a developer-facing infrastructure product providing managed PostgreSQL with pgvector as a building block for AI applications, which fits as a code-first infrastructure component rather than a broader platform play.
+  evidence:
+    - Listed in Awesome-LLMOps under Search > Vector search as a dedicated pgvector hosting solution
+    - Provides Terraform provider and standard PostgreSQL drivers for Go, Python, Node.js, Java, Rust, and .NET integration
+    - Claims 2,000+ QPS at <4ms p50 latency on $35/month dedicated NVMe nodes with managed pgvector
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.730Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:47:41.874Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

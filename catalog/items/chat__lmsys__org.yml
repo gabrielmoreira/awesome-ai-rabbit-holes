@@ -1,0 +1,76 @@
+id: chat__lmsys__org
+kind: website
+name: chat.lmsys.org
+canonical_url: https://chat.lmsys.org
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__chat__lmsys__org__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: janhq/awesome-local-ai
+        url: https://github.com/janhq/awesome-local-ai
+        repository: janhq/awesome-local-ai
+      extraction:
+        mode: parsed
+        section_path:
+          - LLM Leaderboard
+        anchor_text: lmsys.org
+        extracted_url: https://chat.lmsys.org
+        surrounding_text: "- [lmsys.org](https://chat.lmsys.org/) - Benchmarking LLMs in the Wild with Elo Ratings."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A web-based chat interface for comparing and testing responses from different large language models side-by-side.
+  why_it_matters: Developers can quickly benchmark and compare model outputs to choose the right LLM for their specific application needs without writing integration code.
+  mental_damage: Finally, a scientific way to waste an afternoon confirming that your favorite model is still the one that hallucinates in the most charming way.
+  tags:
+    - llm-comparison
+    - chat-interface
+    - benchmarking
+    - model-testing
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a consumer-facing chat interface and leaderboard for general LLM comparison, lacking a developer-tooling angle or local-AI runtime focus.
+  evidence:
+    - No repo description, README, or code signals provided—only a URL to a web chat interface.
+    - Source-list context places it in an 'LLM Leaderboard' section, indicating it is a benchmark/chat tool rather than a developer utility.
+    - "Does not match any category: it is not a coding agent, app builder, local runtime, or developer extension."
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.726Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:42:44.538Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

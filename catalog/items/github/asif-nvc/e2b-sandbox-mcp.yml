@@ -1,0 +1,82 @@
+id: github__asif-nvc__e2b-sandbox-mcp
+kind: github-repo
+name: e2b-sandbox-mcp
+canonical_url: https://github.com/asif-nvc/e2b-sandbox-mcp
+identity:
+  github_repo: asif-nvc/e2b-sandbox-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__asif-nvc__e2b-sandbox-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 👨‍💻 <a name="code-execution"></a>Code Execution
+        anchor_text: asif-nvc/e2b-sandbox-mcp
+        extracted_url: https://github.com/asif-nvc/e2b-sandbox-mcp
+        surrounding_text: "- [asif-nvc/e2b-sandbox-mcp](https://github.com/asif-nvc/e2b-sandbox-mcp) [![asif-nvc/e2b-sandbox-mcp MCP server](https://glama.ai/mcp/servers/asif-nvc/e2b-sandbox-mcp/badges/score.svg)](https://glama.ai/mcp/servers/asif-nvc/e2b-sandbox-mcp) 📇 ☁️ 🍎 🪟 🐧 - Connect Claude Code with E2B cloud sandboxes — 29 tools for creating isolated Linux VMs, cloning repos, running commands, managing files, and performing git operations without touching the local machine."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-04-22T07:54:08Z"
+    pushed_at: "2026-04-24T07:29:38Z"
+    description: MCP server connecting Claude Code with E2B cloud sandboxes for working on any GitHub repo
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:01:10.605Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:10.605Z"
+      bytes: 8677
+insights:
+  summary: An MCP server that connects Claude Code to E2B cloud sandboxes, allowing the AI agent to clone repos, run commands, and make changes in isolated Linux VMs instead of locally.
+  why_it_matters: It lets developers offload messy build and test workflows to disposable cloud environments, keeping local machines clean and context windows from exploding with terminal noise.
+  mental_damage: We have officially reached the point where we need an isolated virtual machine just to survive the token bill of asking an AI to run npm install.
+  tags:
+    - mcp
+    - claude-code
+    - e2b
+    - sandbox
+    - cloud-dev
+  confidence: medium
+curation:
+  status: included
+  reason: The project is a standalone MCP server that extends Claude Code with E2B sandbox capabilities, fitting cleanly into the MCP infrastructure category.
+  evidence:
+    - "Repo description explicitly states: 'MCP server connecting Claude Code with E2B cloud sandboxes'"
+    - README confirms it provides 29 MCP tools for sandbox creation, repo cloning, and command execution
+    - Listed in awesome-mcp-servers under 'Server Implementations > Code Execution'
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.679Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:10.605Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:09:13.615Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

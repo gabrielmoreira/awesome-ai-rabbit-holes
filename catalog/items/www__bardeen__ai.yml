@@ -1,0 +1,77 @@
+id: www__bardeen__ai
+kind: website
+name: www.bardeen.ai
+canonical_url: https://www.bardeen.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__bardeen__ai__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Bardeen
+        anchor_text: Bardeen
+        extracted_url: https://www.bardeen.ai
+        surrounding_text: "## [Bardeen](https://www.bardeen.ai/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Bardeen is a workflow automation platform focused on GTM teams, offering AI-powered web scraping, lead enrichment, and automated outreach sequences.
+  why_it_matters: It provides developers building GTM tools or internal sales ops workflows with pre-built agents for data extraction and CRM synchronization.
+  mental_damage: Yet another 'agentic' platform promising to save you 15 hours a week, ensuring you now spend those 15 hours configuring the automation instead of doing the manual work.
+  tags:
+    - automation
+    - scraping
+    - gtm
+    - agents
+    - workflow
+  confidence: high
+curation:
+  status: excluded
+  reason: The product is positioned for Sales, Customer Success, and RevOps teams (GTM) rather than as a tool for software developers to build, code, or manage technical infrastructure.
+  evidence:
+    - Primary page excerpt describes the tool as 'an automation and workflow platform designed to help GTM teams eliminate manual tasks'.
+    - Beneficiaries listed are 'Sales (SDRs, AEs), Customer Success (CSMs), Revenue Operations' rather than software engineers.
+    - Source-list context places it in 'awesome-ai-agents' specifically for 'agentic web scraper' lead generation use cases.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.731Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:49:47.416Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

@@ -1,0 +1,146 @@
+id: github__mervinpraison__praisonai
+kind: github-repo
+name: praisonai
+canonical_url: https://github.com/mervinpraison/praisonai
+identity:
+  github_repo: mervinpraison/praisonai
+provenance:
+  discoveries:
+    - id: discovery__github__mervinpraison__praisonai__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - LLMOps
+        anchor_text: PraisonAI
+        extracted_url: https://github.com/mervinpraison/praisonai
+        surrounding_text: "| [PraisonAI](https://github.com/MervinPraison/PraisonAI)            | Production-ready Multi-AI Agents framework with self-reflection. Fastest agent instantiation (3.77μs), 100+ LLM support via LiteLLM, MCP integration, agentic workflows (route/parallel/loop/repeat), built-in memory, Python & JS SDKs.                                                                                                                                                               | ![GitHub Badge](https://img.shields.io/github/stars/MervinPraison/PraisonAI.svg?style=flat-square)        |"
+        confidence: high
+    - id: discovery__github__mervinpraison__praisonai__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Coding Agents
+        anchor_text: PraisonAI
+        extracted_url: https://github.com/mervinpraison/praisonai
+        surrounding_text: "- **[PraisonAI](https://github.com/MervinPraison/PraisonAI)** – Multi-agent framework with 100+ LLM support and MCP integration."
+        confidence: high
+    - id: discovery__github__mervinpraison__praisonai__awesome-list__kaushikb11__awesome-llm-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: kaushikb11/awesome-llm-agents
+        url: https://github.com/kaushikb11/awesome-llm-agents
+        repository: kaushikb11/awesome-llm-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Frameworks
+        anchor_text: PraisonAI
+        extracted_url: https://github.com/mervinpraison/praisonai
+        surrounding_text: "- [PraisonAI](https://github.com/MervinPraison/PraisonAI) - Production-ready Multi-AI"
+        confidence: high
+    - id: discovery__github__mervinpraison__praisonai__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 智能体 Agents
+        anchor_text: PraisonAI
+        extracted_url: https://github.com/mervinpraison/praisonai
+        surrounding_text: "19. [PraisonAI](https://github.com/MervinPraison/PraisonAI/): PraisonAI application combines AutoGen and CrewAI or similar frameworks into a low-code solution for building and managing multi-agent LLM systems, focusing on simplicity, customisation, and efficient human-agent collaboration."
+        confidence: high
+metadata:
+  github:
+    stars: 7056
+    forks: 1081
+    license: MIT
+    archived: false
+    created_at: "2024-03-19T16:45:25Z"
+    pushed_at: "2026-05-05T19:07:02Z"
+    description: PraisonAI 🦞 — Hire a 24/7 AI Workforce. Stop writing boilerplate and start shipping autonomous self-improving agents that research, plan, code, and execute tasks. Deployed in 5 lines of code with built-in memory, RAG, and support for 100+ LLMs.
+    homepage: https://docs.praison.ai
+    topics:
+      - agents
+      - ai
+      - ai-agent-framework
+      - ai-agent-sdk
+      - ai-agents
+      - ai-agents-framework
+      - ai-agents-sdk
+      - ai-framwork
+      - aiagent
+      - aiagentframework
+      - aiagents
+      - aiagentsframework
+      - claw
+      - framework
+      - multi-agent
+      - multi-agent-system
+      - multi-agent-systems
+      - multi-agents
+      - multi-ai-agents
+      - openclaw
+    last_checked_at: "2026-05-05T21:03:36.086Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:36.086Z"
+      bytes: 45486
+insights:
+  summary: A Python and JavaScript framework and SDK for building multi-agent systems that research, plan, code, and execute tasks with built-in memory and RAG support.
+  why_it_matters: It lets developers assemble autonomous agent teams that handle research, coding, and workflow automation across 100+ LLMs with minimal boilerplate.
+  mental_damage: Another day, another framework promising a 24/7 AI workforce that will definitely not require you to debug its autonomous decisions at 2 AM.
+  tags:
+    - agents
+    - multi-agent
+    - framework
+    - sdk
+    - automation
+  confidence: high
+curation:
+  status: included
+  reason: This is a code-first SDK and framework for building multi-agent systems, which fits squarely into AI Frameworks and SDKs rather than a developer-facing coding agent or control-plane orchestration platform.
+  evidence:
+    - Repo description and README position it as a framework/SDK deployable in 5 lines of code with `pip install praisonaiagents`.
+    - Provides both Python and JavaScript SDKs and multiple installable ecosystem components (CLI, UI, Flow builder) rather than a hosted IDE or app builder surface.
+    - Listed in awesome-llm-agents under Frameworks and awesome-ai-coding-tools under Coding Agents, confirming ecosystem relevance for agent development.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (7056) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.658Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:36.086Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:37:03.746Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

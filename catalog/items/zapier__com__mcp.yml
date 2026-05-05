@@ -1,0 +1,77 @@
+id: zapier__com__mcp
+kind: website
+name: mcp
+canonical_url: https://zapier.com/mcp
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__zapier__com__mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Zapier
+        extracted_url: https://zapier.com/mcp
+        surrounding_text: "- **[Zapier](https://zapier.com/mcp)** - Connect your AI Agents to 8,000 apps instantly."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Zapier MCP is a hosted MCP server that exposes 30,000+ Zapier actions across 9,000+ apps to AI clients like Claude, ChatGPT, and Cursor.
+  why_it_matters: It lets developers connect any MCP-compatible AI client to a massive library of pre-authenticated app actions without writing integration code or managing OAuth flows.
+  mental_damage: We have successfully abstracted the abstraction, so your AI can now trigger a Zap that triggers a webhook that triggers your CI, and nobody knows where the actual logic lives anymore.
+  tags:
+    - mcp
+    - integrations
+    - automation
+    - zapier
+    - tooling
+  confidence: high
+curation:
+  status: included
+  reason: The product is itself an MCP server (infrastructure) that exposes Zapier's integration layer to MCP-compatible AI clients, fitting the MCP category explicitly.
+  evidence:
+    - "Marketing title and description state: 'Zapier MCP connects Claude, ChatGPT, and other tools to 30,000+ actions across 9,000+ apps.'"
+    - Listed under 'Official Servers' in the awesome-mcp-servers directory.
+    - Technical documentation explicitly references 'configuring servers, enabling MCP clients, and orchestrating workflows' via the MCP standard.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.734Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:54:34.296Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

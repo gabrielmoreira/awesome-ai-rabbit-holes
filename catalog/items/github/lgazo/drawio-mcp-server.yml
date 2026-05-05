@@ -1,0 +1,82 @@
+id: github__lgazo__drawio-mcp-server
+kind: github-repo
+name: drawio-mcp-server
+canonical_url: https://github.com/lgazo/drawio-mcp-server
+identity:
+  github_repo: lgazo/drawio-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__lgazo__drawio-mcp-server__awesome-list__vivy-yi__awesome-agent-orchestration
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: vivy-yi/awesome-agent-orchestration
+        url: https://github.com/vivy-yi/awesome-agent-orchestration
+        repository: vivy-yi/awesome-agent-orchestration
+      extraction:
+        mode: parsed
+        section_path:
+          - Agent Communication Protocols
+          - Model Context Protocol (MCP)
+          - Specialized Servers
+        anchor_text: drawio-mcp-server
+        extracted_url: https://github.com/lgazo/drawio-mcp-server
+        surrounding_text: "| [drawio-mcp-server](https://github.com/lgazo/drawio-mcp-server) | Diagram creation | ![Stars](https://img.shields.io/github/stars/lgazo/drawio-mcp-server) |"
+        confidence: high
+metadata:
+  github:
+    stars: 1194
+    forks: 108
+    license: MIT
+    archived: false
+    created_at: "2025-04-21T16:33:55Z"
+    pushed_at: "2026-05-01T19:27:33Z"
+    description: Draw.io Model Context Protocol (MCP) Server
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:03:19.250Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:19.250Z"
+      bytes: 9760
+insights:
+  summary: An MCP server that lets AI agents and MCP clients create, inspect, and modify Draw.io diagrams programmatically via browser-based or built-in editors.
+  why_it_matters: It allows developers and AI assistants to automate architectural diagrams, flowcharts, and visual documentation directly from their coding environment without manual dragging and dropping.
+  mental_damage: You are now one prompt away from letting an agent reorganize your entire AWS architecture diagram while you wonder if 'vibe diagramming' is a real job description.
+  tags:
+    - mcp
+    - diagrams
+    - draw-io
+    - agent-tools
+  confidence: high
+curation:
+  status: included
+  reason: The project is a specialized MCP server that exposes Draw.io diagramming capabilities to AI agents and MCP clients, fitting cleanly into MCP infrastructure.
+  evidence:
+    - Repo description explicitly states 'Draw.io Model Context Protocol (MCP) Server'.
+    - README confirms it provides MCP tools for programmatic diagram creation, inspection, and modification.
+    - Listed in awesome-agent-orchestration under 'Agent Communication Protocols > Model Context Protocol (MCP) > Specialized Servers'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1194) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.704Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:19.250Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:33:46.505Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

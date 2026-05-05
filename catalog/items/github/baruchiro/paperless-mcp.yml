@@ -1,0 +1,85 @@
+id: github__baruchiro__paperless-mcp
+kind: github-repo
+name: paperless-mcp
+canonical_url: https://github.com/baruchiro/paperless-mcp
+identity:
+  github_repo: baruchiro/paperless-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__baruchiro__paperless-mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: Paperless-MCP
+        extracted_url: https://github.com/baruchiro/paperless-mcp
+        surrounding_text: "- **[Paperless-MCP](https://github.com/baruchiro/paperless-mcp)** - An MCP server for interacting with a Paperless-NGX API server. This server provides tools for managing documents, tags, correspondents, and document types in your Paperless-NGX instance."
+        confidence: high
+metadata:
+  github:
+    stars: 100
+    forks: 22
+    license: ISC
+    archived: false
+    created_at: "2025-05-12T05:22:52Z"
+    pushed_at: "2026-05-04T11:27:46Z"
+    description: An MCP (Model Context Protocol) server for interacting with a Paperless-NGX API server. This server provides tools for managing documents, tags, correspondents, and document types in your Paperless-NGX instance.
+    homepage: ""
+    topics:
+      - ai
+      - document-management
+      - mcp
+      - mcp-server
+      - paperless-ngx
+    last_checked_at: "2026-05-05T21:01:17.525Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:17.525Z"
+      bytes: 14124
+insights:
+  summary: An MCP server that exposes Paperless-NGX document management capabilities—such as searching, uploading, and bulk editing documents—as tools for AI assistants.
+  why_it_matters: It lets developers query, organize, and manipulate their document archive directly through an AI agent instead of switching to the Paperless web UI or API clients.
+  mental_damage: You now have the infrastructure to ask a large language model to tag your tax returns, which is definitely the highest-leverage use of context windows we could have built.
+  tags:
+    - mcp
+    - document-management
+    - paperless-ngx
+    - integrations
+  confidence: high
+curation:
+  status: included
+  reason: The project is a standalone MCP server designed to integrate Paperless-NGX with MCP-compatible AI assistants, which fits squarely into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states it is 'An MCP (Model Context Protocol) server for interacting with a Paperless-NGX API server.'
+    - README details MCP tool definitions for document operations like search_documents, post_document, and bulk_edit_documents.
+    - Listed in the 'awesome-mcp-servers' directory under 'Community Servers', confirming its role as MCP infrastructure.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.680Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:17.525Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:10:16.790Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

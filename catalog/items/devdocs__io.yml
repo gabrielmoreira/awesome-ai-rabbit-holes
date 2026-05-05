@@ -1,0 +1,77 @@
+id: devdocs__io
+kind: website
+name: devdocs.io
+canonical_url: https://devdocs.io
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__devdocs__io__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: DevDocs.io
+        extracted_url: https://devdocs.io
+        surrounding_text: "- [madhan-g-p/DevDocs-MCP](https://github.com/madhan-g-p/DevDocs-MCP) 📇 🏠 🍎 🐧 - DevDocs-MCP is a MCP server that provides version-pinned, deterministic documentation sourced from [DevDocs.io](https://devdocs.io) in offline mode"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: DevDocs is a fast, offline-capable web application that aggregates and searches documentation for over 100 programming languages and frameworks in one interface.
+  why_it_matters: It provides developers with a single, searchable hub for API references, reducing context switching between browser tabs and local files.
+  mental_damage: Finally, a tool to help us navigate the documentation of the very frameworks we are trying to replace with AI code generators that haven't read the docs yet.
+  tags:
+    - documentation
+    - offline
+    - developer-tools
+    - reference
+  confidence: high
+curation:
+  status: excluded
+  reason: DevDocs is a documentation browser and does not contain AI-specific features, workflows, or infrastructure relevant to this catalog's scope.
+  evidence:
+    - Scraped site context describes it as a 'Fast, offline, and free documentation browser' with no mention of AI.
+    - Source-list context places it in 'awesome-mcp-servers' as a reference target, but the tool itself is not an MCP server or AI product.
+    - No inputs provide evidence of AI agent capabilities, model integration, or generative workflows.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.727Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:43:41.422Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

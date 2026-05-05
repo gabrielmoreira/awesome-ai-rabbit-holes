@@ -1,0 +1,75 @@
+id: var__gg
+kind: website
+name: var.gg
+canonical_url: https://var.gg
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__var__gg__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: Guide ↗
+        extracted_url: https://var.gg
+        surrounding_text: "- [var-gg/mcp](https://github.com/var-gg/mcp) 📇 ☁️ - Enforces team naming consistency for AI-generated code via Cursor MCP integration. [Guide ↗](https://var.gg)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A web-based tool that generates naming ideas for variables, data models, and documentation to accelerate development workflows.
+  why_it_matters: It offers a quick, browser-based way for developers to overcome naming blocks and speed up the implementation of code and docs.
+  mental_damage: Just when you thought the AI singularity was about curing diseases, it turns out the first real productivity gain is automating the part where we stare at the screen whispering 'context' versus 'ctx'.
+  tags:
+    - naming
+    - productivity
+    - mcp
+  confidence: medium
+curation:
+  status: included
+  reason: The tool is listed in the awesome-mcp-servers directory under 'Developer Tools' and its landing page describes AI-accelerated naming, indicating it fits as MCP tooling.
+  evidence:
+    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
+    - Landing page excerpt describes 'AI that accelerates shipping' via variable and model naming generation.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.731Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:49:00.819Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

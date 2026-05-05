@@ -1,0 +1,115 @@
+id: github__bentoml__openllm
+kind: github-repo
+name: openllm
+canonical_url: https://github.com/bentoml/openllm
+identity:
+  github_repo: bentoml/openllm
+provenance:
+  discoveries:
+    - id: discovery__github__bentoml__openllm__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Large Scale Deployment
+          - ML Platforms
+        anchor_text: OpenLLM
+        extracted_url: https://github.com/bentoml/openllm
+        surrounding_text: "| [OpenLLM](https://github.com/bentoml/OpenLLM)           | An open platform for operating large language models (LLMs) in production. Fine-tune, serve, deploy, and monitor any LLMs with ease.                                                                                                                                                                                                                                                                                                                                      | ![GitHub Badge](https://img.shields.io/github/stars/bentoml/OpenLLM.svg?style=flat-square)         |"
+        confidence: high
+    - id: discovery__github__bentoml__openllm__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Other LLM Frameworks
+        anchor_text: OpenLLM
+        extracted_url: https://github.com/bentoml/openllm
+        surrounding_text: "- [OpenLLM](https://github.com/bentoml/OpenLLM): An open platform for operating large language models (LLMs) in production. Fine-tune, serve, deploy, and monitor any LLMs with ease using OpenLLM. ![GitHub Repo stars](https://img.shields.io/github/stars/bentoml/OpenLLM?style=social)"
+        confidence: high
+metadata:
+  github:
+    stars: 12311
+    forks: 808
+    license: Apache-2.0
+    archived: false
+    created_at: "2023-04-19T00:27:52Z"
+    pushed_at: "2026-04-27T16:58:08Z"
+    description: Run any open-source LLMs, such as DeepSeek and Llama, as OpenAI compatible API endpoint in the cloud.
+    homepage: https://bentoml.com
+    topics:
+      - bentoml
+      - fine-tuning
+      - llama
+      - llama2
+      - llama3-1
+      - llama3-2
+      - llama3-2-vision
+      - llm
+      - llm-inference
+      - llm-ops
+      - llm-serving
+      - llmops
+      - mistral
+      - mlops
+      - model-inference
+      - open-source-llm
+      - openllm
+      - vicuna
+    last_checked_at: "2026-05-05T21:01:19.310Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:19.310Z"
+      bytes: 10682
+insights:
+  summary: OpenLLM is a self-hosting toolkit that runs open-source LLMs as OpenAI-compatible API endpoints for local or cloud deployment.
+  why_it_matters: It lets developers swap proprietary APIs for self-hosted models with minimal code changes by mimicking the OpenAI interface.
+  mental_damage: Yet another 'run your own LLM' stack that confidently promises cloud-grade reliability until you realize you need four 80GB GPUs and a prayer to get Llama 4 running.
+  tags:
+    - llm-inference
+    - local-ai
+    - self-hosting
+    - openai-compatible
+    - bentoml
+  confidence: high
+curation:
+  status: included
+  reason: It is a developer-facing runtime and model-serving stack explicitly designed to run LLMs locally or in the cloud, which aligns precisely with the Local AI category.
+  evidence:
+    - Repo description states it runs open-source LLMs as OpenAI-compatible API endpoints in the cloud.
+    - README emphasizes self-hosting, Docker/Kubernetes deployment, and local servers at localhost:3000.
+    - Topics include llm-inference, llm-serving, and llms-ops, and it is listed under 'Large Scale Deployment > ML Platforms' in Awesome-LLMOps.
+placement:
+  primary_category: local-ai
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (12311) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.663Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:19.310Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:10:33.610Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

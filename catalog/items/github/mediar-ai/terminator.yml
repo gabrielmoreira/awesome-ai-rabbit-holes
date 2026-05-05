@@ -1,0 +1,93 @@
+id: github__mediar-ai__terminator
+kind: github-repo
+name: terminator
+canonical_url: https://github.com/mediar-ai/terminator
+identity:
+  github_repo: mediar-ai/terminator
+provenance:
+  discoveries:
+    - id: discovery__github__mediar-ai__terminator__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🤖 <a name="coding-agents"></a>Coding Agents
+        anchor_text: louis030195/terminator-mcp-agent
+        extracted_url: https://github.com/mediar-ai/terminator
+        surrounding_text: "- [louis030195/terminator-mcp-agent](https://github.com/mediar-ai/terminator/tree/main/terminator-mcp-agent) 🦀 📇 🏠 🍎 🪟 🐧 - Desktop GUI automation using accessibility APIs. Control Windows, macOS, and Linux applications without vision models or screenshots. Supports workflow recording, structured data extraction, and browser DOM inspection."
+        confidence: high
+metadata:
+  github:
+    stars: 1431
+    forks: 200
+    license: MIT
+    archived: false
+    created_at: "2025-04-11T02:48:04Z"
+    pushed_at: "2026-04-21T23:43:01Z"
+    description: "playwright for windows computer use "
+    homepage: https://t8r.tech/
+    topics:
+      - agent
+      - agents
+      - ai
+      - llm
+      - ml
+      - native
+      - py
+      - rust
+      - ts
+      - vercel
+      - vercel-ai-sdk
+    last_checked_at: "2026-05-05T21:03:34.396Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:34.396Z"
+      bytes: 9134
+insights:
+  summary: A native Windows desktop automation toolkit that exposes computer-use capabilities via a Model Context Protocol server, allowing AI assistants to control applications without taking over the user's cursor.
+  why_it_matters: It gives coding agents like Claude and Cursor the ability to automate cross-application desktop workflows—such as checking Vercel logs or spinning up cloud instances—using deterministic code with AI-assisted recovery.
+  mental_damage: We have successfully built a 'Playwright for Windows' so that your AI can click through GCP console dialogs while you pray it doesn't accidentally delete the production project.
+  tags:
+    - mcp
+    - desktop-automation
+    - windows
+    - computer-use
+    - rust
+  confidence: high
+curation:
+  status: included
+  reason: The project's primary artifact is a native desktop automation toolkit packaged and distributed specifically as an MCP server for AI clients like Cursor and VS Code.
+  evidence:
+    - Repo description explicitly labels it as 'playwright for windows computer use' and it is listed under 'MCP Servers' in awesome-mcp-servers.
+    - README highlights one-click 'Install MCP' badges for Cursor and VS Code and provides the standard 'claude mcp add' installation command.
+    - The tool exposes desktop control (DOM, Accessibility tree, pixels) via the terminator-mcp-agent package rather than acting as a standalone coding agent.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1431) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.706Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:34.396Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:36:40.854Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

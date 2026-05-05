@@ -1,0 +1,92 @@
+id: kusho__ai
+kind: website
+name: kusho.ai
+canonical_url: https://kusho.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__kusho__ai__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Kusho
+        anchor_text: Kusho
+        extracted_url: https://kusho.ai
+        surrounding_text: "## [Kusho](https://kusho.ai/)"
+        confidence: high
+    - id: discovery__kusho__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Testing and QA
+        anchor_text: KushoAI
+        extracted_url: https://kusho.ai
+        surrounding_text: "- **[KushoAI](https://kusho.ai/)** – AI-driven API testing."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: AI-native infrastructure that lives in CI/CD pipelines to autonomously generate, run, and self-heal API and end-to-end tests while scanning for security gaps.
+  why_it_matters: It shifts API testing and security validation into the pipeline with self-maintaining tests, reducing the manual upkeep typically required to keep QA coverage in sync with a changing codebase.
+  mental_damage: Another layer of autonomous agents now sits between your code and production, confidently deciding what is safe to ship while you wonder if anyone is still actually reading the tests.
+  tags:
+    - testing
+    - ci-cd
+    - security
+    - self-healing
+    - qa
+  confidence: high
+curation:
+  status: included
+  reason: It acts as an autonomous coding and testing agent that integrates directly into CI/CD workflows to generate, run, and maintain tests against a developer's codebase, which fits the coding-agents scope.
+  evidence:
+    - Scraped site describes autonomous agents that live in CI/CD to handle testing, healing, and monitoring continuously.
+    - Platform generates test suites from OpenAPI specs and Postman collections, then self-heals tests when contracts drift.
+    - Included in awesome-ai-coding-tools under Testing and QA and in awesome-ai-agents as an autonomous agent.
+placement:
+  primary_category: coding-agents
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.674Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:45:50.858Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

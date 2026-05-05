@@ -1,0 +1,75 @@
+id: www__useinput__com
+kind: website
+name: www.useinput.com
+canonical_url: https://www.useinput.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__useinput__com__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Input
+        anchor_text: Input
+        extracted_url: https://useinput.com
+        surrounding_text: "## [Input](https://useinput.com/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A website masquerading as a developer tool and appearing in AI agent lists, but actually hosting a Chinese gambling platform (SunCity Group) and an unrelated architecture college homepage.
+  why_it_matters: It doesn't—unless your workflow involves accidentally wiring casino platforms into your autonomous agent pipeline.
+  mental_damage: We have officially reached the phase of the AI boom where awesome-ai-agents includes slot machines if you click the link aggressively enough.
+  tags:
+    - scam
+    - misclassified
+    - not-a-tool
+  confidence: high
+curation:
+  status: excluded
+  reason: The linked site is a gambling platform and an unrelated architecture college site, containing no developer tooling, AI agents, or relevant software; it is a misclassified or malicious entry in the source list.
+  evidence:
+    - Scraped site title and description advertise '太阳成集团tyc(122ccvip)官网-SunCity Group' online gambling games.
+    - Page excerpt is an architecture college homepage with faculty news, course schedules, and building research, not AI software.
+    - No repo description, README, stars, or license exists; the source-list context points to a gambling site disguised under an AI agents section.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.734Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:53:59.805Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

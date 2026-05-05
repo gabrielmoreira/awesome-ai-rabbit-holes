@@ -1,0 +1,80 @@
+id: github__bucketco__bucket-javascript-sdk
+kind: github-repo
+name: bucket-javascript-sdk
+canonical_url: https://github.com/bucketco/bucket-javascript-sdk
+identity:
+  github_repo: bucketco/bucket-javascript-sdk
+provenance:
+  discoveries:
+    - id: discovery__github__bucketco__bucket-javascript-sdk__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Bucket
+        extracted_url: https://github.com/bucketco/bucket-javascript-sdk
+        surrounding_text: "- **[Bucket](https://github.com/bucketco/bucket-javascript-sdk/tree/main/packages/cli#model-context-protocol)** - Flag features, manage company data, and control feature access using [Bucket](https://bucket.co)"
+        confidence: high
+metadata:
+  github:
+    stars: 23
+    forks: 11
+    license: MIT
+    archived: false
+    created_at: "2022-03-08T16:34:20Z"
+    pushed_at: "2026-04-25T00:07:30Z"
+    description: JS/TS SDKs for Reflag
+    homepage: https://reflag.com
+    topics: []
+    last_checked_at: "2026-05-05T21:01:27.000Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:27.000Z"
+      bytes: 2075
+insights:
+  summary: A collection of JavaScript and TypeScript SDKs for Reflag, providing client and server-side feature flagging for frameworks like React, Vue, React Native, and Node.js.
+  why_it_matters: It gives developers typed, framework-specific tooling to integrate feature flags into TypeScript applications, including CLI support for type generation and OpenFeature compatibility.
+  mental_damage: Yet another JavaScript SDK monorepo to manage, ensuring your feature flags are as modern and type-safe as the rest of your dependency tree.
+  tags:
+    - feature-flags
+    - typescript
+    - sdk
+    - reflag
+    - javascript
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a standard feature-flagging SDK for a specific SaaS product (Reflag) and lacks an AI-specific developer-tooling angle required for the catalog.
+  evidence:
+    - Repo description and README describe standard JS/TS SDKs for feature flags, with no AI or agent-related functionality mentioned.
+    - Source-list context shows it was seen in awesome-mcp-servers, but the repo itself contains no MCP server or AI infrastructure code.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.440Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:27.000Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:11:50.790Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

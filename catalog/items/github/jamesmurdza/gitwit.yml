@@ -1,0 +1,80 @@
+id: github__jamesmurdza__gitwit
+kind: github-repo
+name: gitwit
+canonical_url: https://github.com/jamesmurdza/gitwit
+identity:
+  github_repo: jamesmurdza/gitwit
+provenance:
+  discoveries:
+    - id: discovery__github__jamesmurdza__gitwit__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: scraped
+        section_path:
+          - GitWit
+        anchor_text: GitWit
+        extracted_url: https://www.gitwit.dev
+        surrounding_text: "## [GitWit](https://www.gitwit.dev/)"
+        confidence: high
+metadata:
+  github:
+    stars: 59
+    forks: 23
+    license: MIT
+    archived: false
+    created_at: "2024-06-02T02:31:22Z"
+    pushed_at: "2026-04-02T19:20:39Z"
+    description: An open source, AI-native coding platform which allows you to build apps in minutes
+    homepage: https://gitwit.dev
+    topics: []
+    last_checked_at: "2026-05-05T21:02:51.157Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:51.157Z"
+      bytes: 14841
+insights:
+  summary: An open-source, cloud-based code editing environment with integrated AI code generation, live preview, and chat capabilities, deployable via a Next.js and Express monorepo.
+  why_it_matters: It provides developers with a self-hostable, AI-native IDE environment that supports multiple AI providers including Anthropic, OpenAI, and AWS Bedrock for rapid app prototyping.
+  mental_damage: Yet another AI IDE promising to scaffold your ideas in minutes, because what the world definitely needed was more boilerplate generated inside a proprietary sandbox you have to host yourself.
+  tags:
+    - ai-ide
+    - self-hosted
+    - code-generation
+    - nextjs
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly described as a cloud-based code editing environment and IDE, fitting the AI IDEs and Editors category rather than a coding agent or app builder.
+  evidence:
+    - Repo description states it is an 'open source, AI-native coding platform' and README clarifies it is a 'cloud-based code editing environment'.
+    - Architecture is a Turborepo monorepo with a Next.js frontend and Express backend, designed to be run as a development environment.
+    - Active development indicated by a pushed_at date of 2026-04-02, showing the project is currently maintained.
+placement:
+  primary_category: ai-ides-editors
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.442Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:51.158Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:27:34.433Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

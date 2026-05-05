@@ -1,0 +1,76 @@
+id: cal__com
+kind: website
+name: cal.com
+canonical_url: https://cal.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__cal__com__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: Calcom
+        extracted_url: https://cal.com
+        surrounding_text: "- **[Danielpeter-99/calcom-mcp](https://github.com/Danielpeter-99/calcom-mcp)** - MCP server for [Calcom](https://cal.com/) (Also known as [Cal.com](https://cal.com/)). Manage event types, create bookings, and access Cal.com scheduling data through LLMs."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Cal.com is an open-source scheduling infrastructure and calendar platform for booking appointments and managing availability.
+  why_it_matters: It provides developers with a self-hostable scheduling stack and API to embed booking workflows directly into their applications.
+  mental_damage: Another essential piece of internet infrastructure that will inevitably require an AI agent wrapper just to help you configure its availability logic.
+  tags:
+    - scheduling
+    - calendar
+    - open-source
+    - infrastructure
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a scheduling and calendar infrastructure product with no AI-native developer tooling angle, despite appearing in a generic MCP server list.
+  evidence:
+    - Repo description and site context describe a scheduling/calendar platform, not an AI tool.
+    - Appears in awesome-mcp-servers only as a community server entry, not as a primary AI developer tool.
+    - No description, README, or context indicates coding agents, app building, or AI workflow automation.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.726Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:42:40.879Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

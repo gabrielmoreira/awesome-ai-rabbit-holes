@@ -1,0 +1,94 @@
+id: github__lionkiii__google-searchconsole-mcp
+kind: github-repo
+name: google-searchconsole-mcp
+canonical_url: https://github.com/lionkiii/google-searchconsole-mcp
+identity:
+  github_repo: lionkiii/google-searchconsole-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__lionkiii__google-searchconsole-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 👤 <a name="customer-data-platforms"></a>Customer Data Platforms
+        anchor_text: lionkiii/google-searchconsole-mcp
+        extracted_url: https://github.com/lionkiii/google-searchconsole-mcp
+        surrounding_text: "- [lionkiii/google-searchconsole-mcp](https://github.com/lionkiii/google-searchconsole-mcp) [![google-searchconsole-mcp MCP server](https://glama.ai/mcp/servers/lionkiii/google-searchconsole-mcp/badges/score.svg)](https://glama.ai/mcp/servers/lionkiii/google-searchconsole-mcp) 📇 🏠 - Google Search Console MCP server with 13 SEO tools — search analytics, URL inspection, sitemap management, keyword opportunities, brand analysis, and performance comparison."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2026-03-03T05:47:25Z"
+    pushed_at: "2026-04-03T05:46:16Z"
+    description: MCP server for Google Search Console — query search analytics, inspect URLs, find keyword opportunities, track SEO performance. Works with Claude Desktop, Cursor, Windsurf.
+    homepage: null
+    topics:
+      - ai
+      - claude
+      - claude-desktop
+      - cursor
+      - google-search-console
+      - keyword-research
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - search-analytics
+      - seo
+      - webmaster-tools
+    last_checked_at: "2026-05-05T21:03:21.231Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:21.231Z"
+      bytes: 8102
+insights:
+  summary: An MCP server that connects Google Search Console to AI assistants like Claude Desktop and Cursor, enabling natural language queries for SEO analytics, URL inspections, and keyword research.
+  why_it_matters: It allows developers to diagnose indexing issues and analyze search performance directly inside their AI coding workflows without switching to the Google Search Console UI.
+  mental_damage: Your AI assistant can now tell you exactly why nobody is clicking on your carefully crafted blog posts, saving you the effort of checking the bad news yourself.
+  tags:
+    - mcp
+    - seo
+    - search-console
+    - cursor
+    - claude
+  confidence: high
+curation:
+  status: included
+  reason: The project is a dedicated MCP server implementation for Google Search Console, fitting squarely into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states 'MCP server for Google Search Console'.
+    - README confirms it is a Model Context Protocol server connecting SEO data to Claude, Cursor, and Windsurf.
+    - Listed in the awesome-mcp-servers directory under Server Implementations.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.704Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:21.231Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:34:08.732Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

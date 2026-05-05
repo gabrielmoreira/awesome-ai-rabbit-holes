@@ -1,0 +1,83 @@
+id: github__git-ai-project__git-ai
+kind: github-repo
+name: git-ai
+canonical_url: https://github.com/git-ai-project/git-ai
+identity:
+  github_repo: git-ai-project/git-ai
+provenance:
+  discoveries:
+    - id: discovery__github__acunniffe__git-ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Developer Productivity Tools
+        anchor_text: Git AI
+        extracted_url: https://github.com/acunniffe/git-ai
+        surrounding_text: "- **[Git AI](https://github.com/acunniffe/git-ai)** – Git extension that tracks AI-generated code and the prompts behind each line."
+        confidence: high
+metadata:
+  github:
+    stars: 1772
+    forks: 159
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-07-02T16:09:26Z"
+    pushed_at: "2026-05-05T20:50:05Z"
+    description: A Git extension for tracking the AI-generated code in your repos
+    homepage: https://usegitai.com
+    topics:
+      - ai
+      - ai-blame
+      - coding-agents
+    last_checked_at: "2026-05-05T21:02:21.605Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:21.605Z"
+      bytes: 14324
+insights:
+  summary: A Git extension that automatically tracks and attributes AI-generated code to the specific model, agent, and session that produced it.
+  why_it_matters: It restores provenance and accountability to repositories where AI agents now write the majority of the codebase, making `git blame` useful again.
+  mental_damage: You can now prove exactly which hallucinating model committed that regex that somehow passed code review, just in time for the audit.
+  tags:
+    - git
+    - ai-attribution
+    - cli
+    - devops
+  confidence: high
+curation:
+  status: included
+  reason: It is a developer-facing CLI tool that integrates into the Git workflow to track, attribute, and manage AI-generated code contributions within a repository.
+  evidence:
+    - Repo description states it is 'A Git extension for tracking the AI-generated code in your repos'.
+    - README demonstrates `git-ai blame` showing specific agents like 'claude [session_id]' per line of code.
+    - Supports integration with major coding agents including Claude Code, Cursor, Copilot, and Windsurf (README table).
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1772) exceeded threshold (150)
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:21:25.545Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.676Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:21.605Z"
+    cause: null
+    next_retry_at: null

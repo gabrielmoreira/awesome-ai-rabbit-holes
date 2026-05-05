@@ -1,0 +1,106 @@
+id: github__manusa__kubernetes-mcp-server
+kind: github-repo
+name: kubernetes-mcp-server
+canonical_url: https://github.com/manusa/kubernetes-mcp-server
+identity:
+  github_repo: manusa/kubernetes-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__manusa__kubernetes-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
+        anchor_text: manusa/Kubernetes MCP Server
+        extracted_url: https://github.com/manusa/kubernetes-mcp-server
+        surrounding_text: "- [manusa/Kubernetes MCP Server](https://github.com/manusa/kubernetes-mcp-server) 🏎️ 🏠 A - powerful Kubernetes MCP server with additional support for OpenShift. Besides providing CRUD operations for **any** Kubernetes resource, this server provides specialized tools to interact with your cluster."
+        confidence: high
+    - id: discovery__github__manusa__kubernetes-mcp-server__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - ☁️ Cloud Platforms
+        anchor_text: manusa/kubernetes-mcp-server
+        extracted_url: https://github.com/manusa/kubernetes-mcp-server
+        surrounding_text: "-   **[manusa/kubernetes-mcp-server](https://github.com/manusa/kubernetes-mcp-server)** [![GitHub stars](https://img.shields.io/github/stars/manusa/kubernetes-mcp-server?style=social)](https://github.com/manusa/kubernetes-mcp-server): Manages Kubernetes and OpenShift with specialized cluster interaction tools (Java implementation)."
+        confidence: high
+metadata:
+  github:
+    stars: 1526
+    forks: 329
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-02-11T02:57:36Z"
+    pushed_at: "2026-05-05T14:16:56Z"
+    description: Model Context Protocol (MCP) server for Kubernetes and OpenShift
+    homepage: ""
+    topics:
+      - containers
+      - context
+      - kubernetes
+      - kubernetes-mcp
+      - mcp
+      - model
+      - modelcontextprotocol
+      - openshift
+      - protocol
+    last_checked_at: "2026-05-05T21:03:28.554Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:28.554Z"
+      bytes: 49102
+insights:
+  summary: A Go-based Model Context Protocol server that enables AI assistants to directly interact with Kubernetes and OpenShift clusters via the Kubernetes API.
+  why_it_matters: It allows coding agents and MCP-compatible clients to manage cluster resources, pods, Helm charts, and Tekton pipelines without wrapping kubectl or requiring external CLI tools.
+  mental_damage: You can now ask your LLM to delete a production pod and it will do so with native, low-latency API calls instead of struggling through a shell wrapper like a drunk sysadmin.
+  tags:
+    - kubernetes
+    - mcp
+    - openshift
+    - devops
+    - cloud-native
+  confidence: high
+curation:
+  status: included
+  reason: The project is a native MCP server implementation for Kubernetes, fitting squarely into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states 'Model Context Protocol (MCP) server for Kubernetes and OpenShift'.
+    - README confirms it is a 'Kubernetes Model Context Protocol (MCP) server implementation' interacting directly with the API server.
+    - Included in multiple MCP-specific awesome lists (awesome-mcp-list, awesome-mcp-servers) under Cloud Platforms.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1526) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.439Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:28.554Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:35:26.866Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

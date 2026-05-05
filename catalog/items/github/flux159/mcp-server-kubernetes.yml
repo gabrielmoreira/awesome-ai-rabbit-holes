@@ -1,0 +1,115 @@
+id: github__flux159__mcp-server-kubernetes
+kind: github-repo
+name: mcp-server-kubernetes
+canonical_url: https://github.com/flux159/mcp-server-kubernetes
+identity:
+  github_repo: flux159/mcp-server-kubernetes
+provenance:
+  discoveries:
+    - id: discovery__github__flux159__mcp-server-kubernetes__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
+        anchor_text: flux159/mcp-server-kubernetes
+        extracted_url: https://github.com/flux159/mcp-server-kubernetes
+        surrounding_text: "- [flux159/mcp-server-kubernetes](https://github.com/Flux159/mcp-server-kubernetes) 📇 ☁️/🏠 - Typescript implementation of Kubernetes cluster operations for pods, deployments, services."
+        confidence: high
+    - id: discovery__github__flux159__mcp-server-kubernetes__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: Kubernetes
+        extracted_url: https://github.com/flux159/mcp-server-kubernetes
+        surrounding_text: "- **[Kubernetes](https://github.com/Flux159/mcp-server-kubernetes)** - Connect to Kubernetes cluster and manage pods, deployments, services."
+        confidence: high
+    - id: discovery__github__flux159__mcp-server-kubernetes__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - ☁️ Cloud Platforms
+        anchor_text: "@flux159/mcp-server-kubernetes"
+        extracted_url: https://github.com/flux159/mcp-server-kubernetes
+        surrounding_text: "-   **[@flux159/mcp-server-kubernetes](https://github.com/Flux159/mcp-server-kubernetes)** [![GitHub stars](https://img.shields.io/github/stars/Flux159/mcp-server-kubernetes?style=social)](https://github.com/Flux159/mcp-server-kubernetes): Controls Kubernetes pods, deployments, and services (TypeScript implementation)."
+        confidence: high
+metadata:
+  github:
+    stars: 1387
+    forks: 242
+    license: MIT
+    archived: false
+    created_at: "2024-12-08T00:01:28Z"
+    pushed_at: "2026-05-03T03:51:36Z"
+    description: MCP Server for kubernetes management commands
+    homepage: https://www.npmjs.com/package/mcp-server-kubernetes
+    topics:
+      - infrastructure
+      - kubernetes
+      - mcp
+      - server
+    last_checked_at: "2026-05-05T21:02:12.987Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:12.987Z"
+      bytes: 16422
+insights:
+  summary: An MCP server that connects to Kubernetes clusters and exposes cluster management capabilities to AI assistants via kubectl and Helm integration.
+  why_it_matters: It allows developers to manage Kubernetes resources, inspect pods, and run Helm operations through natural language conversations in tools like Claude Code, Cursor, and VS Code.
+  mental_damage: Your AI assistant can now evict your pods for you, which at least removes the middleman in your infrastructure outages.
+  tags:
+    - kubernetes
+    - mcp
+    - devops
+    - infrastructure
+  confidence: high
+curation:
+  status: included
+  reason: The project is a Model Context Protocol server that integrates Kubernetes cluster management into MCP-compatible AI assistants, fitting cleanly into the MCP infrastructure category.
+  evidence:
+    - "Repo description explicitly states: 'MCP Server for kubernetes management commands'"
+    - README demonstrates integration with Claude Code, VS Code, Cursor, and Gemini CLI as an MCP server
+    - Listed in awesome-mcp-list and awesome-mcp-servers directories under Cloud Platforms sections
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1387) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.660Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:12.987Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:19:52.655Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

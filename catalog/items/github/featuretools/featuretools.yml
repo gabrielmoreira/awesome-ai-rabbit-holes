@@ -1,0 +1,90 @@
+id: github__featuretools__featuretools
+kind: github-repo
+name: featuretools
+canonical_url: https://github.com/featuretools/featuretools
+identity:
+  github_repo: featuretools/featuretools
+provenance:
+  discoveries:
+    - id: discovery__github__featuretools__featuretools__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Data
+          - Feature Engineering
+        anchor_text: FeatureTools
+        extracted_url: https://github.com/featuretools/featuretools
+        surrounding_text: "| [FeatureTools](https://github.com/Featuretools/featuretools) | An open source python framework for automated feature engineering                       | ![GitHub Badge](https://img.shields.io/github/stars/Featuretools/featuretools.svg?style=flat-square) |"
+        confidence: high
+metadata:
+  github:
+    stars: 7634
+    forks: 906
+    license: BSD-3-Clause
+    archived: false
+    created_at: "2017-09-08T22:15:17Z"
+    pushed_at: "2026-02-03T18:19:45Z"
+    description: An open source python library for automated feature engineering
+    homepage: https://www.featuretools.com
+    topics:
+      - automated-feature-engineering
+      - automated-machine-learning
+      - automl
+      - data-science
+      - feature-engineering
+      - machine-learning
+      - python
+      - scikit-learn
+    last_checked_at: "2026-05-05T21:02:09.314Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:09.313Z"
+      bytes: 11163
+insights:
+  summary: Featuretools is an open source Python library that automates feature engineering for machine learning by applying Deep Feature Synthesis to multi-table datasets.
+  why_it_matters: It lets developers shift from manual feature crafting to automated generation, accelerating the data preparation phase of ML pipelines.
+  mental_damage: You can now automate the feature engineering so thoroughly that you’ll have plenty of extra time to argue with your team about why the automated features are still underperforming.
+  tags:
+    - feature-engineering
+    - automl
+    - python
+    - machine-learning
+    - data-science
+  confidence: high
+curation:
+  status: excluded
+  reason: While highly polished, this is a traditional data science and ML library for feature engineering, not a developer-facing AI tool, agent, or infrastructure component.
+  evidence:
+    - Repo description and README define it as a Python library for automated feature engineering and ML, not AI-assisted development.
+    - Topics and source-list context (Awesome-LLMOps | Data > Feature Engineering) place it firmly in data science, not developer tooling.
+    - No mention of coding agents, IDE integration, app building, or developer workflow automation in the provided inputs.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (7634) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.441Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:09.314Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:19:10.457Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,92 @@
+id: semgrep__dev
+kind: website
+name: semgrep.dev
+canonical_url: https://semgrep.dev
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__semgrep__dev__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Semgrep
+        extracted_url: https://semgrep.dev
+        surrounding_text: "- **[Semgrep](https://github.com/semgrep/mcp)** - Enable AI agents to secure code with [Semgrep](https://semgrep.dev/)."
+        confidence: high
+    - id: discovery__semgrep__dev__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Code Review and Refactoring
+        anchor_text: Semgrep
+        extracted_url: https://semgrep.dev
+        surrounding_text: "- **[Semgrep](https://semgrep.dev/)** – Static analysis for finding bugs and security issues."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: An application security platform that scans source code using a combination of static analysis and AI reasoning to detect vulnerabilities, supply chain risks, and hardcoded secrets.
+  why_it_matters: It integrates security scans and AI-assisted remediation directly into developer workflows like PRs, IDEs, and CLIs, aiming to reduce false positives and fix issues at the source.
+  mental_damage: Just when you thought 'vibe coding' was safe, the security team deployed an AI that remembers every false positive you've ever dismissed to make sure you never ship a feature again.
+  tags:
+    - security
+    - sast
+    - ai-assisted
+    - code-scanning
+    - devsecops
+  confidence: high
+curation:
+  status: included
+  reason: Semgrep acts as an AI-assisted coding agent that reviews code, detects vulnerabilities, and provides remediation guidance directly within the developer's IDE, CLI, and PR workflows.
+  evidence:
+    - Scraped site context describes 'Multimodal AI detection' and 'Remediation' generating fixes directly in PRs and IDEs.
+    - Product integrates into 'PR checks in GitHub, GitLab' and 'IDEs (VS Code, JetBrains)' as a security agent.
+    - Listed in awesome-ai-coding-tools under the 'Code Review and Refactoring' section.
+placement:
+  primary_category: coding-agents
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.674Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:48:02.126Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

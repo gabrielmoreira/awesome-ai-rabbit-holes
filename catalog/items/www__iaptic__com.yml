@@ -1,0 +1,77 @@
+id: www__iaptic__com
+kind: website
+name: www.iaptic.com
+canonical_url: https://www.iaptic.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__iaptic__com__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 👤 <a name="customer-data-platforms"></a>Customer Data Platforms
+        anchor_text: iaptic
+        extracted_url: https://www.iaptic.com
+        surrounding_text: "- [iaptic/mcp-server-iaptic](https://github.com/iaptic/mcp-server-iaptic) 🎖️ 📇 ☁️ - Connect with [iaptic](https://www.iaptic.com) to ask about your Customer Purchases, Transaction data and App Revenue statistics."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Iaptic is a cross-platform subscription management and receipt validation service for mobile and web apps, featuring an AI-powered assistant for analyzing revenue and customer behavior.
+  why_it_matters: It handles the complex server-side logic of in-app purchases and subscription lifecycles across platforms so developers can focus on app features rather than billing infrastructure.
+  mental_damage: We have successfully automated the part of the job where you stare at charts wondering why your churn is high, replacing it with an AI that tells you why your churn is high.
+  tags:
+    - monetization
+    - subscriptions
+    - receipt-validation
+    - cross-platform
+  confidence: high
+curation:
+  status: excluded
+  reason: Iaptic is a general subscription and revenue management SaaS for app businesses, not a developer-facing AI tool, agent, or workflow automation product for writing or managing code.
+  evidence:
+    - The primary page excerpt describes 'Enterprise-Grade Security' and 'Subscription Management' for app revenue, not code generation or developer workflow.
+    - The 'AI-powered insights' feature is described as analyzing customer behavior and revenue trends, not assisting with programming tasks.
+    - Listed in awesome-mcp-servers under 'Customer Data Platforms', indicating it is a data/business tool rather than a coding agent or IDE extension.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.732Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:51:26.055Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

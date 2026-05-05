@@ -1,0 +1,86 @@
+id: github__dynamodb-toolbox__dynamodb-toolbox
+kind: github-repo
+name: dynamodb-toolbox
+canonical_url: https://github.com/dynamodb-toolbox/dynamodb-toolbox
+identity:
+  github_repo: dynamodb-toolbox/dynamodb-toolbox
+provenance:
+  discoveries:
+    - id: discovery__github__dynamodb-toolbox__dynamodb-toolbox__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: scraped
+        section_path:
+          - Community Servers
+        anchor_text: DynamoDB-Toolbox
+        extracted_url: https://www.dynamodbtoolbox.com/docs/databases/actions/mcp-toolkit
+        surrounding_text: "- **[DynamoDB-Toolbox](https://www.dynamodbtoolbox.com/docs/databases/actions/mcp-toolkit)** - Leverages your Schemas and Access Patterns to interact with your [DynamoDB](https://aws.amazon.com/dynamodb) Database using natural language."
+        confidence: high
+metadata:
+  github:
+    stars: 1997
+    forks: 180
+    license: MIT
+    archived: false
+    created_at: "2019-11-24T23:16:45Z"
+    pushed_at: "2026-02-07T12:02:23Z"
+    description: Lightweight and type-safe query builder for DynamoDB and TypeScript
+    homepage: https://www.dynamodbtoolbox.com/
+    topics:
+      - aws
+      - dynamodb
+      - nosql
+      - serverless
+      - typescript
+    last_checked_at: "2026-05-05T21:01:58.302Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:58.302Z"
+      bytes: 6793
+insights:
+  summary: A lightweight, type-safe query builder and schema abstraction layer for DynamoDB and TypeScript.
+  why_it_matters: It handles complex DynamoDB request formatting and data validation so developers can write clearer, type-safe database code with less boilerplate.
+  mental_damage: Yet another perfectly fine developer tool that somehow ended up in an MCP servers list, proving that if you leave an awesome list open long enough, everything becomes agent infrastructure.
+  tags:
+    - dynamodb
+    - typescript
+    - query-builder
+    - aws
+    - orm
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a traditional database query library and schema tool for AWS DynamoDB, with no AI, agent, or LLM-facing functionality that fits the catalog's developer-tooling scope.
+  evidence:
+    - Repo description states it is a 'Lightweight and type-safe query builder for DynamoDB and TypeScript' with no mention of AI.
+    - README describes schema validation, simpler queries, and type-safety, but does not mention AI, LLMs, agents, or prompt-driven workflows.
+    - Appears in awesome-mcp-servers lists, but the project itself is not an MCP server and has no MCP functionality in its description or README.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1997) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.685Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:58.302Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:17:21.618Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

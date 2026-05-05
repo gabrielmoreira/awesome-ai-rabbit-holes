@@ -1,0 +1,77 @@
+id: www__opdstar__com
+kind: website
+name: www.opdstar.com
+canonical_url: https://www.opdstar.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__opdstar__com__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - <a name="bio"></a>Biology, Medicine and Bioinformatics
+        anchor_text: OPDSTAR
+        extracted_url: https://opdstar.com
+        surrounding_text: "- [tatsuju/opdstar-nhi-mcp](https://github.com/tatsuju/opdstar-nhi-mcp) [![opdstar-nhi-mcp MCP server](https://glama.ai/mcp/servers/tatsuju/opdstar-nhi-mcp/badges/score.svg)](https://glama.ai/mcp/servers/tatsuju/opdstar-nhi-mcp) 📇 ☁️ - Taiwan's first public MCP server for National Health Insurance (NHI) data — 234 rejection codes, 1,497 ICD-10→procedure mappings across 20 specialties, audit indicators (008/014/027/P043), and semantic wiki search over 8,232 chunks of official NHI documentation. Powered by [OPDSTAR](https://opdstar.com). Install: `npx @opdstar/nhi-mcp`."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A Taiwan-focused AI assistant that translates Chinese patient complaints into English medical records, looks up ICD-10 codes, and warns physicians about national health insurance rejection risks.
+  why_it_matters: It is a domain-specific MCP server implementation that demonstrates how to build structured medical workflows on top of the protocol for non-software-engineering verticals.
+  mental_damage: We have successfully abstracted the Taiwanese healthcare billing system into a prompt, proving once again that no human workflow is safe from being turned into a context window.
+  tags:
+    - mcp
+    - healthcare
+    - taiwan
+    - niche
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a medical billing and record-keeping tool for physicians, not a developer-facing tool, agent, or infrastructure component.
+  evidence:
+    - The scraped site description focuses entirely on translating medical complaints and checking insurance codes for doctors.
+    - Source-list context places it under 'Biology, Medicine and Bioinformatics' in awesome-mcp-servers, not developer tooling.
+    - There is no indication it assists with coding, app building, or developer workflow automation.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.733Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:52:21.500Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

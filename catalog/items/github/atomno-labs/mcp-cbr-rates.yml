@@ -1,0 +1,90 @@
+id: github__atomno-labs__mcp-cbr-rates
+kind: github-repo
+name: mcp-cbr-rates
+canonical_url: https://github.com/atomno-labs/mcp-cbr-rates
+identity:
+  github_repo: atomno-labs/mcp-cbr-rates
+provenance:
+  discoveries:
+    - id: discovery__github__atomno-labs__mcp-cbr-rates__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: atomno-labs/mcp-cbr-rates
+        extracted_url: https://github.com/atomno-labs/mcp-cbr-rates
+        surrounding_text: "- [atomno-labs/mcp-cbr-rates](https://github.com/atomno-labs/mcp-cbr-rates) [![atomno-labs/mcp-cbr-rates MCP server](https://glama.ai/mcp/servers/atomno-labs/mcp-cbr-rates/badges/score.svg)](https://glama.ai/mcp/servers/atomno-labs/mcp-cbr-rates) 🐍 ☁️ - Central Bank of Russia (ЦБ РФ) data — currency exchange rates (daily and historical), key interest rate, inflation, and aggregated macro statistics. Five typed tools backed by an in-memory TTL cache. No API key required."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-04-25T08:10:17Z"
+    pushed_at: "2026-04-26T20:09:13Z"
+    description: MCP server for Central Bank of Russia rates, key rate, inflation and macro stats
+    homepage: null
+    topics:
+      - cbr
+      - central-bank-of-russia
+      - exchange-rates
+      - fintech
+      - httpx
+      - mcp
+      - model-context-protocol
+      - python
+    last_checked_at: "2026-05-05T21:01:11.209Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:11.209Z"
+      bytes: 6409
+insights:
+  summary: A Model Context Protocol server that exposes public Central Bank of Russia data—including currency rates, key rate, inflation, and macro stats—to AI agents.
+  why_it_matters: Developers building AI financial workflows can give their agents real-time Russian macroeconomic data without managing API keys or custom scraping logic.
+  mental_damage: We have finally reached the point where an AI agent needs its own dedicated MCP server just to remember what the ruble is doing today.
+  tags:
+    - mcp
+    - fintech
+    - russia
+    - macro
+    - python
+  confidence: high
+curation:
+  status: included
+  reason: This is a purpose-built MCP server designed to integrate CBR financial data into AI agent workflows, fitting cleanly into the MCP infrastructure category.
+  evidence:
+    - Repo description explicitly states 'MCP server for Central Bank of Russia rates'
+    - README confirms it is a 'Model Context Protocol (MCP) server' with tools for rates, inflation, and macro data
+    - Listed under 'Server Implementations > Finance & Fintech' in the awesome-mcp-servers directory
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.679Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:11.209Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:09:21.805Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

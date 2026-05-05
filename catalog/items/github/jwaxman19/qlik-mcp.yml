@@ -1,0 +1,82 @@
+id: github__jwaxman19__qlik-mcp
+kind: github-repo
+name: qlik-mcp
+canonical_url: https://github.com/jwaxman19/qlik-mcp
+identity:
+  github_repo: jwaxman19/qlik-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__jwaxman19__qlik-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📊 <a name="data-platforms"></a>Data Platforms
+        anchor_text: jwaxman19/qlik-mcp
+        extracted_url: https://github.com/jwaxman19/qlik-mcp
+        surrounding_text: "- [jwaxman19/qlik-mcp](https://github.com/jwaxman19/qlik-mcp) 📇 ☁️ - MCP Server for Qlik Cloud API that enables querying applications, sheets, and extracting data from visualizations with comprehensive authentication and rate limiting support."
+        confidence: high
+metadata:
+  github:
+    stars: 10
+    forks: 10
+    license: MIT
+    archived: false
+    created_at: "2025-04-04T00:53:01Z"
+    pushed_at: "2025-07-27T16:09:10Z"
+    description: An MCP server to run qlik
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:03:01.378Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:01.378Z"
+      bytes: 5480
+insights:
+  summary: An MCP server that connects Claude and other MCP-compatible clients to the Qlik Cloud API to list applications, navigate sheets and charts, and extract visualization data.
+  why_it_matters: It lets developers and analysts query Qlik Cloud apps and pull chart data directly from their AI assistant instead of manually clicking through dashboards.
+  mental_damage: "We have finally achieved the future: an AI agent that can read your Qlik Sense charts so you don't have to go near the Qlik Sense UI."
+  tags:
+    - mcp
+    - qlik
+    - data-extraction
+    - claude
+    - analytics
+  confidence: high
+curation:
+  status: included
+  reason: The project is a dedicated MCP server for the Qlik Cloud API, making it a clear fit for the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states it is 'An MCP server to run qlik'.
+    - README details MCP tools (qlik_get_apps, qlik_get_chart_data) and setup instructions for Claude Desktop and Cursor.
+    - Listed under 'Data Platforms' in the awesome-mcp-servers directory.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.701Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:01.378Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:29:45.550Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,76 @@
+id: www__codebuddy__cn
+kind: website
+name: www.codebuddy.cn
+canonical_url: https://www.codebuddy.cn
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__codebuddy__cn__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 代码 Coding
+        anchor_text: CodeBuddy
+        extracted_url: https://copilot.tencent.com
+        surrounding_text: 20. [CodeBuddy](https://copilot.tencent.com/)
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Tencent Cloud CodeBuddy is an AI coding assistant for the Chinese market that uses the Hunyuan code model to provide code completion, technical dialogue, and code diagnosis within the developer workflow.
+  why_it_matters: It integrates directly into the IDE to handle code generation, optimization, and debugging, aiming to reduce the manual overhead of routine coding tasks for developers using Tencent's ecosystem.
+  mental_damage: Another proprietary 'intelligent companion' enters the arena, ensuring developers can now debate context windows in Mandarin while wondering if their cloud bill scales with every autocomplete token.
+  tags:
+    - ai-coding
+    - tencent
+    - code-completion
+    - ide-assistant
+  confidence: medium
+curation:
+  status: included
+  reason: The product is a developer-facing coding assistant that directly writes, diagnoses, and optimizes code inside the development environment, fitting the coding-agents definition.
+  evidence:
+    - Described as '辅助编码工具' (auxiliary coding tool) providing code completion and diagnosis.
+    - Based on the Hunyuan code model to help generate code and solve technical problems.
+    - Listed under '代码 Coding' in the awesome-LLM-resources directory as a coding tool.
+placement:
+  primary_category: coding-agents
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.732Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:50:17.827Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

@@ -1,0 +1,82 @@
+id: github__paoloanzn__free-code
+kind: github-repo
+name: free-code
+canonical_url: https://github.com/paoloanzn/free-code
+identity:
+  github_repo: paoloanzn/free-code
+provenance:
+  discoveries:
+    - id: discovery__github__paoloanzn__free-code__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Terminal-native coding agents
+          - Open Source
+        anchor_text: Free Code
+        extracted_url: https://github.com/paoloanzn/free-code
+        surrounding_text: "- **[Free Code](https://github.com/paoloanzn/free-code)** `⭐ 8.2k` — Fork of Claude Code with all telemetry removed, guardrails stripped, and all experimental features enabled (KAIROS, dream mode, companion system)."
+        confidence: high
+metadata:
+  github:
+    stars: 8256
+    forks: 1943
+    license: null
+    archived: true
+    created_at: "2026-03-31T11:11:49Z"
+    pushed_at: "2026-04-01T16:24:23Z"
+    description: The free build of Claude Code. All telemetry removed, security-prompt guardrails stripped, all experimental features enabled.
+    homepage: https://x.com/paoloanzn/status/2039022418698907949?s=20
+    topics: []
+    last_checked_at: "2026-05-05T21:04:11.858Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:11.858Z"
+      bytes: 12090
+insights:
+  summary: A community fork of Anthropic's Claude Code CLI that removes all telemetry, strips out security-prompt guardrails, and unlocks 54 experimental feature flags.
+  why_it_matters: Developers who want to run the Claude Code agent locally with multiple model providers and without upstream analytics or restrictions can build and use this drop-in alternative.
+  mental_damage: We have reached the point where the most popular 'new' coding agent is literally defined by the guardrails it deleted from a leaked build.
+  tags:
+    - cli
+    - claude-code
+    - fork
+    - terminal
+    - privacy
+  confidence: high
+curation:
+  status: excluded
+  reason: The repository is archived, indicating it is no longer maintained or recommended for use, which overrides the strong fit with the coding-agents category.
+  evidence:
+    - Repo is marked as archived on GitHub.
+    - Created at 2026-03-31 and pushed at 2026-04-01, suggesting a very short lifespan.
+    - README confirms it is a fork based on a 'source map exposure' rather than official distribution.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: needs_review
+  reason: Repository is archived
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.712Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:11.858Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:43:46.785Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

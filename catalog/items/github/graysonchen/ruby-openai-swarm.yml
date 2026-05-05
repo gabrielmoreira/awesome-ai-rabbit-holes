@@ -1,0 +1,81 @@
+id: github__graysonchen__ruby-openai-swarm
+kind: github-repo
+name: ruby-openai-swarm
+canonical_url: https://github.com/graysonchen/ruby-openai-swarm
+identity:
+  github_repo: graysonchen/ruby-openai-swarm
+provenance:
+  discoveries:
+    - id: discovery__github__graysonchen__ruby-openai-swarm__awesome-list__vivy-yi__awesome-agent-orchestration
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: vivy-yi/awesome-agent-orchestration
+        url: https://github.com/vivy-yi/awesome-agent-orchestration
+        repository: vivy-yi/awesome-agent-orchestration
+      extraction:
+        mode: parsed
+        section_path:
+          - Core Frameworks
+          - Swift, Ruby & Elixir Frameworks
+        anchor_text: ruby-openai-swarm
+        extracted_url: https://github.com/graysonchen/ruby-openai-swarm
+        surrounding_text: "| [ruby-openai-swarm](https://github.com/graysonchen/ruby-openai-swarm) | Ruby-based framework for multi-agent orchestration | ![Stars](https://img.shields.io/github/stars/graysonchen/ruby-openai-swarm) |"
+        confidence: high
+metadata:
+  github:
+    stars: 13
+    forks: 2
+    license: null
+    archived: false
+    created_at: "2024-10-24T15:56:57Z"
+    pushed_at: "2025-03-31T06:29:42Z"
+    description: A Ruby-based framework adapted from OpenAI’s Swarm, exploring ergonomic, lightweight multi-agent orchestration.
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:02:27.099Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:27.099Z"
+      bytes: 6390
+insights:
+  summary: A Ruby gem that ports OpenAI's lightweight Swarm framework to Ruby, providing a code-first SDK for building multi-agent systems with handoff patterns and function calling.
+  why_it_matters: Ruby developers can now experiment with educational multi-agent orchestration patterns and handoff workflows without leaving their native ecosystem.
+  mental_damage: We have successfully ported an educational framework for coordinating agents to a language whose greatest contribution to AI orchestration might be the clever naming of gems.
+  tags:
+    - ruby
+    - multi-agent
+    - orchestration
+    - sdk
+  confidence: high
+curation:
+  status: included
+  reason: This is a code-first SDK/framework that developers import into their own Ruby applications to build multi-agent behaviors, which fits the ai-frameworks category rather than an agent orchestration control plane.
+  evidence:
+    - Repo description explicitly states it is 'A Ruby-based framework adapted from OpenAI’s Swarm' for multi-agent orchestration.
+    - README demonstrates usage via Ruby gem installation ('gem install ruby-openai-swarm') and code imports ('require "ruby-openai-swarm"').
+    - Listed in awesome-agent-orchestration under 'Core Frameworks > Swift, Ruby & Elixir Frameworks' as a developer-building-block.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.689Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:27.099Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:22:47.929Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

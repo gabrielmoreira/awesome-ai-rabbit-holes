@@ -1,0 +1,80 @@
+id: github__btafoya__mailsandbox
+kind: github-repo
+name: mailsandbox
+canonical_url: https://github.com/btafoya/mailsandbox
+identity:
+  github_repo: btafoya/mailsandbox
+provenance:
+  discoveries:
+    - id: discovery__github__btafoya__mailsandbox__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: MailSandbox
+        extracted_url: https://github.com/btafoya/mailsandbox
+        surrounding_text: "- **[MailSandbox](https://github.com/btafoya/mailsandbox)** - MailSandbox (a fork of Mailpit) is a fast, zero-dependency email testing tool & API with a web UI, SMTP server, Postmark API emulation, and MCP server for AI-assisted debugging."
+        confidence: high
+metadata:
+  github:
+    stars: 8
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2025-09-09T18:35:04Z"
+    pushed_at: "2025-09-15T04:06:11Z"
+    description: MailSandbox is a fast, zero-dependency email testing tool & API with a web UI, SMTP server, Postmark API emulation, and MCP server for AI-assisted debugging.
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:01:26.319Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:26.319Z"
+      bytes: 5777
+insights:
+  summary: A fork of Mailpit adding Postmark API emulation and an MCP server that lets AI assistants list, search, and analyze emails for debugging workflows.
+  why_it_matters: It lets developers stub transactional email and then point an AI coding agent directly at the inbox to verify sending behavior without leaving the workflow.
+  mental_damage: "We have finally achieved the destiny of modern tooling: an SMTP server that needs an MCP server so your AI can read the emails your AI just sent on your behalf."
+  tags:
+    - mcp
+    - email-testing
+    - debugging
+    - developer-tools
+  confidence: high
+curation:
+  status: included
+  reason: The project's primary differentiator is the integrated MCP server that exposes email testing capabilities to AI assistants, making it a clear fit for MCP infrastructure.
+  evidence:
+    - Repo description explicitly calls it a 'MCP server for AI-assisted debugging'
+    - README documents MCP tools (list_messages, get_message, search_messages, analyze_message) and enable flags (--mcp-server)
+    - Listed in awesome-mcp-servers under Official Servers
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.681Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:26.319Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:11:47.354Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

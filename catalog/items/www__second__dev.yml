@@ -1,0 +1,74 @@
+id: www__second__dev
+kind: website
+name: www.second.dev
+canonical_url: https://www.second.dev
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__second__dev__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Second
+        anchor_text: Second
+        extracted_url: https://www.second.dev
+        surrounding_text: "## [Second](https://www.second.dev/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Second is an AI coding agent designed to plan, implement, and test code changes directly within a developer's repository and workflow.
+  why_it_matters: It aims to automate the implementation of full-stack tickets and pull requests, allowing developers to delegate routine feature work and bug fixes to an autonomous agent.
+  mental_damage: You can now pay a bot to suffer through the pain of reading your own spaghetti codebase and opening a PR that you still have to review anyway.
+  tags:
+    - coding-agent
+    - pr-automation
+    - autonomous
+  confidence: medium
+curation:
+  status: included
+  reason: The tool is listed in awesome-ai-agents as an autonomous agent that directly plans, writes, and tests code within a repo and PR workflow, fitting the coding-agents definition precisely.
+  evidence:
+    - Listed in the awesome-ai-agents directory under the 'Second' section for autonomous agents.
+    - Positioned as a coding agent (second.dev) that operates on source code rather than a browser-based app builder.
+placement:
+  primary_category: coding-agents
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.734Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:53:17.864Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

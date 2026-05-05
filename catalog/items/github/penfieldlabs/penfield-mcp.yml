@@ -1,0 +1,87 @@
+id: github__penfieldlabs__penfield-mcp
+kind: github-repo
+name: penfield-mcp
+canonical_url: https://github.com/penfieldlabs/penfield-mcp
+identity:
+  github_repo: penfieldlabs/penfield-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__penfieldlabs__penfield-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: penfieldlabs/penfield-mcp
+        extracted_url: https://github.com/penfieldlabs/penfield-mcp
+        surrounding_text: "- [penfieldlabs/penfield-mcp](https://github.com/penfieldlabs/penfield-mcp) [![penfield-mcp MCP server](https://glama.ai/mcp/servers/penfieldlabs/penfield-mcp/badges/score.svg)](https://glama.ai/mcp/servers/penfieldlabs/penfield-mcp) 🐍 ☁️ - - 🐍 ☁️ - Penfield: persistent memory with hybrid search (BM25 + vector + graph), 24 relationship types for knowledge graphs, context checkpoints for cognitive handoff, artifact storage, and personality system. Works across Claude, Cursor, Windsurf, and any MCP client."
+        confidence: high
+metadata:
+  github:
+    stars: 3
+    forks: 0
+    license: AGPL-3.0
+    archived: false
+    created_at: "2026-02-02T21:47:20Z"
+    pushed_at: "2026-04-04T13:16:53Z"
+    description: 🧠 Persistent memory for AI Agents. Free trial → https://portal.penfield.app/sign-up
+    homepage: https://penfield.app
+    topics:
+      - ai-agent
+      - ai-memory
+      - mcp
+      - mcp-server
+      - penfield
+      - persistent-memory
+    last_checked_at: "2026-05-05T21:04:14.825Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:14.825Z"
+      bytes: 5038
+insights:
+  summary: An MCP server that provides persistent memory, knowledge graphs, and context management tools for AI agents across Claude, Cursor, Windsurf, and other MCP-compatible developer tools.
+  why_it_matters: Developers can preserve architectural decisions, investigation threads, and session context across coding tools so agents don't start cold after every restart.
+  mental_damage: We’ve solved the context window problem by building an external context window, which will eventually need its own context window.
+  tags:
+    - mcp
+    - memory
+    - knowledge-graph
+    - context-management
+  confidence: high
+curation:
+  status: included
+  reason: The project is an MCP server providing persistent memory and context tooling, which clearly fits the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description: 'Persistent memory for AI Agents' delivered as an MCP server (mcp.penfield.app)."
+    - README lists 17 MCP tools (store, recall, connect, awaken, etc.) for Claude, Cursor, Windsurf, Cline, Gemini CLI, and others.
+    - Listed in awesome-mcp-servers under Server Implementations > Knowledge & Memory.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.712Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:14.825Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:44:16.223Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

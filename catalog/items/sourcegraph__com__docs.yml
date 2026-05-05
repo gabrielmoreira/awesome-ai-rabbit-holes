@@ -1,0 +1,92 @@
+id: sourcegraph__com__docs
+kind: website
+name: docs
+canonical_url: https://sourcegraph.com/docs
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__sourcegraph__com__docs__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Cody by Sourcegraph
+        anchor_text: Cody by Sourcegraph
+        extracted_url: https://docs.sourcegraph.com/cody
+        surrounding_text: "## [Cody by Sourcegraph](https://docs.sourcegraph.com/cody)"
+        confidence: high
+    - id: discovery__sourcegraph__com__docs__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Code Editors and Assistants
+        anchor_text: Cody (Sourcegraph)
+        extracted_url: https://about.sourcegraph.com/cody
+        surrounding_text: "- **[Cody (Sourcegraph)](https://about.sourcegraph.com/cody)** – AI assistant for code understanding, navigation, and generation across entire codebases."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Documentation site for Cody, an AI coding assistant by Sourcegraph that provides chat, code completion, and context-aware code editing across VS Code, JetBrains, Visual Studio, CLI, and the web.
+  why_it_matters: It integrates directly into the developer's IDE and CLI workflow to provide context-aware code generation, editing, and debugging using advanced search across local and remote codebases.
+  mental_damage: Just when you thought the context window arms race was over, here comes another assistant promising to vacuum up your entire monorepo to suggest the one import you already knew you needed.
+  tags:
+    - ai-coding-assistant
+    - ide-extension
+    - code-completion
+    - context-aware
+    - sourcegraph
+  confidence: high
+curation:
+  status: included
+  reason: Cody is a well-established, developer-facing coding assistant that directly edits, reviews, and generates code within IDEs and CLI workflows, fitting the coding-agents category clearly.
+  evidence:
+    - Primary page excerpt describes Cody as 'an AI coding assistant that helps you understand, write, and fix code faster' inside IDEs and CLI.
+    - Listed in awesome-ai-coding-tools under 'Code Editors and Assistants' and in awesome-ai-agents under 'Cody by Sourcegraph'.
+    - Features include developer chat, code completions, code edits, and debugging capabilities directly in the workflow.
+placement:
+  primary_category: coding-agents
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.674Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:48:13.927Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

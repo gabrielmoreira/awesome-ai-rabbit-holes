@@ -1,0 +1,93 @@
+id: github__genia-dev__genia
+kind: github-repo
+name: genia
+canonical_url: https://github.com/genia-dev/genia
+identity:
+  github_repo: genia-dev/genia
+provenance:
+  discoveries:
+    - id: discovery__github__genia-dev__genia__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - GeniA
+        anchor_text: GeniA
+        extracted_url: https://github.com/genia-dev/genia
+        surrounding_text: "## [GeniA](https://github.com/genia-dev/GeniA)"
+        confidence: high
+metadata:
+  github:
+    stars: 405
+    forks: 87
+    license: Apache-2.0
+    archived: false
+    created_at: "2023-07-24T21:23:30Z"
+    pushed_at: "2023-11-22T15:25:21Z"
+    description: Your Engineering Gen AI Team member 🧬🤖💻
+    homepage: https://genia-dev.github.io/GeniA/
+    topics:
+      - agent
+      - ai
+      - aws
+      - azure
+      - chatgpt
+      - gcp
+      - gpt
+      - gpt-3
+      - gpt-4
+      - kubernetes
+      - llm
+      - openai
+      - python
+    last_checked_at: "2026-05-05T21:02:18.748Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:18.748Z"
+      bytes: 6184
+insights:
+  summary: An open-source AI team member designed to execute operational tasks like deployments, cost reporting, and incident troubleshooting directly within a team's Slack channel.
+  why_it_matters: It shifts AI assistance from just writing code to handling platform engineering responsibilities like k8s deployments, FinOps, and SRE tasks within existing communication workflows.
+  mental_damage: Finally, an AI teammate that can apply for production permissions and run your EKS upgrades, leaving you free to watch the incident unfold in Slack with a sense of detached, AI-assisted dread.
+  tags:
+    - devops
+    - slack-bot
+    - platform-engineering
+    - operational-tasks
+  confidence: medium
+curation:
+  status: included
+  reason: While it interacts via Slack, its core capability is executing agentic operational code (deployments, k8s commands, cloud scripts) on behalf of the developer, fitting the coding agent definition of executing technical tasks.
+  evidence:
+    - Repo description calls it an 'Engineering Gen AI Team member' executing tasks in production environments.
+    - README lists capabilities including 'Deploy your k8s-based service', 'Investigate deployment failure', and 'upgrade EKS cluster'.
+    - Architecture allows it to 'execute tasks on your behalf' using OpenAI function-calling capabilities.
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (405) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.688Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:18.748Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:20:54.416Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

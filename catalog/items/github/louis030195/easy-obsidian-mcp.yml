@@ -1,0 +1,85 @@
+id: github__louis030195__easy-obsidian-mcp
+kind: github-repo
+name: easy-obsidian-mcp
+canonical_url: https://github.com/louis030195/easy-obsidian-mcp
+identity:
+  github_repo: louis030195/easy-obsidian-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__louis030195__easy-obsidian-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: louis030195/easy-obsidian-mcp
+        extracted_url: https://github.com/louis030195/easy-obsidian-mcp
+        surrounding_text: "- [louis030195/easy-obsidian-mcp](https://github.com/louis030195/easy-obsidian-mcp) 📇 🏠 🍎 🪟 🐧 - Interact with Obsidian vaults for knowledge management. Create, read, update, and search notes. Works with local Obsidian vaults using filesystem access."
+        confidence: high
+metadata:
+  github:
+    stars: 15
+    forks: 3
+    license: null
+    archived: false
+    created_at: "2025-04-05T23:46:32Z"
+    pushed_at: "2025-10-20T23:30:18Z"
+    description: wire your brain to AGI through the best obsidian MCP
+    homepage: https://obsidian-mcp.com
+    topics:
+      - ai
+      - obsidian
+      - personal-knowledge-management
+      - pkm
+    last_checked_at: "2026-05-05T21:03:24.794Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:24.794Z"
+      bytes: 2685
+insights:
+  summary: An MCP server that connects AI assistants like Claude and Cursor to an Obsidian vault, enabling them to search, read, and analyze notes via the Obsidian Local REST API.
+  why_it_matters: It allows developers to query their personal knowledge management (PKM) system directly from their coding assistant, bridging the gap between documentation, notes, and active development workflows.
+  mental_damage: "We have successfully achieved the ultimate status symbol of the 2020s: needing a dedicated protocol server just to ask an AI what we wrote in our own notes yesterday."
+  tags:
+    - mcp
+    - obsidian
+    - pkm
+    - integration
+  confidence: high
+curation:
+  status: included
+  reason: The project is a distinct Model Context Protocol server designed to give AI tools access to Obsidian, which fits perfectly into the MCP infrastructure category.
+  evidence:
+    - Repo description explicitly states 'wire your brain to AGI through the best obsidian MCP'.
+    - README details configuration for Claude Desktop, Claude Code, and Cursor using the `mcpServers` JSON structure.
+    - Listed in the 'awesome-mcp-servers' directory under 'Knowledge & Memory' server implementations.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.704Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:24.794Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:34:47.745Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

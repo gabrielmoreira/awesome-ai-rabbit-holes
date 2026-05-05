@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__chronulusai__chronulus-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-01T13:51:25.374Z"
+      discovered_at: "2026-05-05T19:41:00.656Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [ChronulusAI/chronulus-mcp](https://github.com/ChronulusAI/chronulus-mcp) 🐍 ☁️ - Predict anything with Chronulus AI forecasting and prediction agents."
         confidence: high
     - id: discovery__github__chronulusai__chronulus-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-01T13:51:25.374Z"
+      discovered_at: "2026-05-05T19:41:00.656Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -38,16 +38,15 @@ provenance:
         surrounding_text: "- **[Chronulus AI](https://github.com/ChronulusAI/chronulus-mcp)** - Predict anything with Chronulus AI forecasting and prediction agents."
         confidence: high
     - id: discovery__github__chronulusai__chronulus-mcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-01T13:51:25.374Z"
+      discovered_at: "2026-05-05T19:41:00.656Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
-        url: https://github.com/MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
         repository: MobinX/awesome-mcp-list
       extraction:
         mode: parsed
         section_path:
-          - null
           - 🧮 Data Science Tools
         anchor_text: ChronulusAI/chronulus-mcp
         extracted_url: https://github.com/chronulusai/chronulus-mcp
@@ -64,31 +63,50 @@ metadata:
     description: MCP Server for Chronulus AI Forecasting and Prediction Agents
     homepage: https://www.chronulus.com
     topics: []
-    last_checked_at: "2026-05-01T13:51:47.441Z"
+    last_checked_at: "2026-05-05T21:01:33.865Z"
     readme:
-      fetched_at: "2026-05-01T13:51:47.441Z"
+      fetched_at: "2026-05-05T21:01:33.865Z"
       bytes: 5291
 insights:
-  summary: An MCP server that connects Claude (and other MCP clients) to Chronulus AI forecasting and prediction agents via the Chronulus API.
-  why_it_matters: It lets developers pull time-series forecasting/prediction workflows into their chat/agent tooling (Claude Desktop) without building a bespoke integration, using a single API key and standard MCP config.
-  mental_damage: You finally get “forecasting in chat,” and immediately spend 30 minutes debugging whether the problem is your data, the model, or the fact that your MCP server is now part of your personality.
+  summary: An MCP server that connects Chronulus AI forecasting and prediction agents to Claude Desktop for time-series and predictive analysis workflows.
+  why_it_matters: Developers building data-driven or decision-support features can now invoke specialized forecasting agents directly from their IDE without wiring up separate API clients.
+  mental_damage: We have successfully extended our ecosystem so that your chat client can now hallucinate about the future with the confidence of a parameterized model.
   tags:
     - mcp
     - forecasting
+    - prediction
     - data-science
-    - claude-desktop
-    - agent-tools
-  confidence: medium
+    - claude
+  confidence: high
 curation:
   status: included
-  reason: Include because it’s a clearly-scoped MCP server that adds developer-usable tooling (forecasting/prediction agents) to MCP-compatible AI clients, fitting the catalog’s MCP/tooling focus.
+  reason: The project is explicitly an MCP server implementation for a third-party forecasting API, fitting cleanly into MCP infrastructure tooling.
   evidence:
-    - "Repo description: “MCP Server for Chronulus AI Forecasting and Prediction Agents.”"
-    - "README: “Chat with Chronulus AI Forecasting & Prediction Agents in Claude” and provides Claude Desktop MCP configuration with CHRONULUS_API_KEY."
-    - Seen in multiple MCP-focused awesome lists under “Data Science Tools” / “Official Servers.”
+    - "Repo description states: 'MCP Server for Chronulus AI Forecasting and Prediction Agents'"
+    - README demonstrates Claude Desktop MCP configuration and usage with Chronulus agents
+    - Listed in awesome-mcp-servers under 'Data Science Tools' and 'Server Implementations'
 placement:
   primary_category: mcp
   section: null
 lifecycle:
   status: incubating
   reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.659Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:33.865Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:13:06.365Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

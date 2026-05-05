@@ -1,0 +1,76 @@
+id: x__com__badphilosopher
+kind: website
+name: badphilosopher
+canonical_url: https://x.com/badphilosopher
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__x__com__badphilosopher__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Julius
+          - Description
+        anchor_text: Matt Brockman
+        extracted_url: https://twitter.com/badphilosopher
+        surrounding_text: "- Team Twitter profiles: [Matt Brockman](https://twitter.com/badphilosopher), [rahul](https://twitter.com/0interestrates)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A Twitter/X account linked in an awesome list of autonomous AI agents, with no repository, tooling, or accessible content available for review.
+  why_it_matters: It doesn't, unless you consider doom-scrolling agent curators on social media a valid developer workflow.
+  mental_damage: We have officially reached the point where a handle on a social media site qualifies as an 'autonomous agent' in our curated directories.
+  tags:
+    - agent-curator
+    - social-media
+    - meta-list
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a social media account with no accessible content, no tooling, and no developer-facing product, failing every criteria for the catalog.
+  evidence:
+    - URL points to x.com/badphilosopher with a privacy error/excerpt indicating no usable content.
+    - No repository description, homepage, or README provided to explain a tool or workflow.
+    - Source list context only indicates it was listed in awesome-ai-agents as a name, not a functional tool.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.734Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:54:13.096Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

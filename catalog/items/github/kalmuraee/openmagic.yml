@@ -1,0 +1,98 @@
+id: github__kalmuraee__openmagic
+kind: github-repo
+name: openmagic
+canonical_url: https://github.com/kalmuraee/openmagic
+identity:
+  github_repo: kalmuraee/openmagic
+provenance:
+  discoveries:
+    - id: discovery__github__kalmuraee__openmagic__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Coding Agents
+        anchor_text: OpenMagic
+        extracted_url: https://github.com/kalmuraee/openmagic
+        surrounding_text: "- **[OpenMagic](https://github.com/Kalmuraee/OpenMagic)** – AI-powered coding toolbar for any web app. Injects a floating toolbar via reverse proxy, captures element context, previews diffs, and applies approved changes in real time."
+        confidence: high
+metadata:
+  github:
+    stars: 4
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-03-26T09:46:53Z"
+    pushed_at: "2026-05-02T02:04:16Z"
+    description: AI-powered coding toolbar for any web application. Select elements, capture context, and let AI modify your codebase in real-time. Works with any framework.
+    homepage: https://kalmuraee.github.io/OpenMagic/
+    topics:
+      - ai
+      - anthropic
+      - code-modification
+      - developer-tools
+      - gemini
+      - llm
+      - nextjs
+      - npm-package
+      - open-source
+      - openai
+      - react
+      - reverse-proxy
+      - toolbar
+      - typescript
+      - vibe-coding
+      - vue
+      - web-development
+    last_checked_at: "2026-05-05T21:03:02.435Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:02.435Z"
+      bytes: 12626
+insights:
+  summary: OpenMagic is a local reverse-proxy tool that injects a floating AI toolbar into any running web app, allowing developers to select elements, capture context, and apply AI-generated code patches with HMR refresh.
+  why_it_matters: It enables visual, in-context editing of live web applications without requiring IDE plugins or framework-specific integrations, bridging the gap between browser inspection and codebase modification.
+  mental_damage: We have finally achieved the perfect symbiosis of 'vibe coding' and reverse proxies, ensuring your local dev server now needs a firewall just to protect it from your own good ideas.
+  tags:
+    - reverse-proxy
+    - vibe-coding
+    - in-context-editing
+    - llm-toolbar
+    - local-ai
+  confidence: medium
+curation:
+  status: included
+  reason: The tool operates as a local CLI-driven agent that directly modifies source code in a repo via a browser toolbar interface, fitting the coding-agents definition of editing code inside a developer's workflow.
+  evidence:
+    - Repo description states it is an 'AI-powered coding toolbar' that lets AI 'modify your codebase in real-time'.
+    - README confirms it runs via 'npx openmagic@latest' as a reverse proxy to handle 'File Read/Write' and 'LLM API Proxy'.
+    - Listed in awesome-ai-coding-tools under the 'Coding Agents' section.
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.701Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:02.435Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:30:01.838Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

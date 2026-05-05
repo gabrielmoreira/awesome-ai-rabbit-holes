@@ -1,0 +1,85 @@
+id: github__eleutherai__gpt-neox
+kind: github-repo
+name: gpt-neox
+canonical_url: https://github.com/eleutherai/gpt-neox
+identity:
+  github_repo: eleutherai/gpt-neox
+provenance:
+  discoveries:
+    - id: discovery__github__eleutherai__gpt-neox__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Model
+          - Large Language Model
+        anchor_text: GPT-NeoX
+        extracted_url: https://github.com/eleutherai/gpt-neox
+        surrounding_text: "| [GPT-NeoX](https://github.com/EleutherAI/gpt-neox)                      | An implementation of model parallel autoregressive transformers on GPUs, based on the DeepSpeed library.                                                                                   | ![GitHub Badge](https://img.shields.io/github/stars/EleutherAI/gpt-neox.svg?style=flat-square)            |"
+        confidence: high
+metadata:
+  github:
+    stars: 7425
+    forks: 1111
+    license: Apache-2.0
+    archived: false
+    created_at: "2020-12-22T14:37:54Z"
+    pushed_at: "2026-04-13T22:43:59Z"
+    description: An implementation of model parallel autoregressive transformers on GPUs, based on the Megatron and DeepSpeed libraries
+    homepage: https://www.eleuther.ai/
+    topics:
+      - deepspeed-library
+      - gpt-3
+      - language-model
+      - transformers
+    last_checked_at: "2026-05-05T21:02:00.875Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:00.875Z"
+      bytes: 58208
+insights:
+  summary: An implementation of model parallel autoregressive transformers on GPUs, built on Megatron and DeepSpeed, designed for training large-scale language models from scratch.
+  why_it_matters: It provides the distributed training infrastructure necessary for researchers and engineers to train billion-parameter models across diverse supercomputing clusters and cloud environments.
+  mental_damage: Offers the perfect opportunity to spend three weeks configuring Slurm just to discover you still don't have enough GPUs to train anything modern.
+  tags:
+    - llm-training
+    - distributed-systems
+    - gpus
+    - transformers
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a foundational ML training library for researchers training models from scratch, not a practical AI tool, agent, or developer infrastructure product for software engineers building applications.
+  evidence:
+    - Repo description explicitly states it is for 'training large-scale language models on GPUs'.
+    - "README advises: 'If you are not looking to train models with billions of parameters from scratch, this is likely the wrong library to use.'"
+    - Listed in Awesome-LLMOps under 'Model > Large Language Model', indicating a research/MLOps fit rather than a developer-tooling fit.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (7425) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.686Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:00.875Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:17:44.333Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

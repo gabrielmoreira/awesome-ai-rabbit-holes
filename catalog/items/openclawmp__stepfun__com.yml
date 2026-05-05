@@ -1,0 +1,76 @@
+id: openclawmp__stepfun__com
+kind: website
+name: openclawmp.stepfun.com
+canonical_url: https://openclawmp.stepfun.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__openclawmp__stepfun__com__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 技能 Skills
+        anchor_text: 水产市场
+        extracted_url: https://openclawmp.cc
+        surrounding_text: 6. [水产市场](https://openclawmp.cc/)
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A Chinese-language marketplace and community hub for discovering, sharing, and installing skills, plugins, triggers, and communicators designed to extend AI agents.
+  why_it_matters: It provides a centralized registry for developers to find reusable agent extensions and integration patterns rather than building common capabilities from scratch.
+  mental_damage: We have finally achieved the App Store model for AI agents, meaning your bot's capabilities are now just one `npm install`-style command away from requiring dependency management and version conflicts.
+  tags:
+    - agent-marketplace
+    - skills
+    - plugins
+    - agent-ecosystem
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a consumer-facing agent marketplace and community hub for 'Agent evolution' rather than a developer tool, framework, or extension that fits into a software development workflow.
+  evidence:
+    - Describes itself as a '新时代的 App Store' (New Era App Store) for agents to learn from each other.
+    - Content is primarily a directory of 'Skills', 'Plugins', 'Triggers', and 'Communicators' for end-user agents.
+    - Appears in 'awesome-LLM-resources' under a 'Skills' section, indicating it is a resource/directory rather than a dev tool.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.729Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:46:52.944Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

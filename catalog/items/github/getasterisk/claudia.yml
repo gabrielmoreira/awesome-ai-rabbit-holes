@@ -1,0 +1,96 @@
+id: github__getasterisk__claudia
+kind: github-repo
+name: claudia
+canonical_url: https://github.com/getasterisk/claudia
+identity:
+  github_repo: getasterisk/claudia
+provenance:
+  discoveries:
+    - id: discovery__github__getasterisk__claudia__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 代码 Coding
+        anchor_text: Claudia
+        extracted_url: https://github.com/getasterisk/claudia
+        surrounding_text: 17. [Claudia](https://github.com/getAsterisk/claudia)
+        confidence: high
+metadata:
+  github:
+    stars: 21734
+    forks: 1682
+    license: AGPL-3.0
+    archived: false
+    created_at: "2025-06-19T13:53:26Z"
+    pushed_at: "2025-10-16T12:05:56Z"
+    description: A powerful GUI app and Toolkit for Claude Code - Create custom agents, manage interactive Claude Code sessions, run secure background agents, and more.
+    homepage: https://opcode.sh
+    topics:
+      - anthropic
+      - anthropic-claude
+      - claude
+      - claude-4
+      - claude-4-opus
+      - claude-4-sonnet
+      - claude-ai
+      - claude-code
+      - claude-code-sdk
+      - cursor
+      - ide
+      - llm
+      - llm-code
+      - rust
+      - tauri
+    last_checked_at: "2026-05-05T21:02:19.848Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:19.848Z"
+      bytes: 12944
+insights:
+  summary: A Tauri-based desktop GUI for Claude Code that adds project/session management, custom agent creation, MCP server configuration, usage analytics, and session checkpoints.
+  why_it_matters: It gives developers a visual control center for Claude Code sessions, agents, and context files without living entirely in the terminal.
+  mental_damage: We’ve successfully built a desktop wrapper so we can agonize over our token spend and agent runs in 4K instead of just reading the CLI output.
+  tags:
+    - claude-code
+    - gui
+    - tauri
+    - agents
+    - mcp
+  confidence: high
+curation:
+  status: included
+  reason: This is a desktop extension that augments Claude Code with UI, session management, agent tooling, and analytics rather than being the coding assistant itself.
+  evidence:
+    - "Repo description: 'A powerful GUI app and Toolkit for Claude Code - Create custom agents, manage interactive Claude Code sessions, run secure background agents, and more.'"
+    - "README overview: 'opcode is a powerful desktop application that transforms how you interact with Claude Code… bridging the gap between the command-line tool and a visual experience.'"
+    - Features include session management, CC Agents UI, MCP server management, usage analytics dashboard, and CLAUDE.md editor.
+placement:
+  primary_category: ai-dev-extensions
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (21734) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.441Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:19.848Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:21:06.574Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

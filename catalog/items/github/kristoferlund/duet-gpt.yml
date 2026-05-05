@@ -1,0 +1,90 @@
+id: github__kristoferlund__duet-gpt
+kind: github-repo
+name: duet-gpt
+canonical_url: https://github.com/kristoferlund/duet-gpt
+identity:
+  github_repo: kristoferlund/duet-gpt
+provenance:
+  discoveries:
+    - id: discovery__github__kristoferlund__duet-gpt__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Tools
+          - Agents
+        anchor_text: DuetGPT
+        extracted_url: https://github.com/kristoferlund/duet-gpt
+        surrounding_text: "- [DuetGPT](https://github.com/kristoferlund/duet-gpt): A conversational semi-autonomous developer assistant, AI pair programming without the copypasta. ![GitHub Repo stars](https://img.shields.io/github/stars/kristoferlund/duet-gpt?style=social)"
+        confidence: high
+metadata:
+  github:
+    stars: 166
+    forks: 13
+    license: MIT
+    archived: false
+    created_at: "2023-05-25T08:27:01Z"
+    pushed_at: "2023-06-19T13:12:11Z"
+    description: A conversational semi-autonomous developer assistant. AI pair programming without the copypasta.
+    homepage: ""
+    topics:
+      - agent
+      - ai
+      - assistant
+      - cli
+      - gpt
+      - gpt-4
+      - llm
+      - openai
+    last_checked_at: "2026-05-05T21:03:08.070Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:08.070Z"
+      bytes: 8048
+insights:
+  summary: A CLI-based semi-autonomous agent that converses with developers to plan file system and coding tasks, then executes generated commands after user approval.
+  why_it_matters: It offers a middle ground between passive code completion and fully autonomous agents by keeping the developer in the loop to approve shell and code modifications.
+  mental_damage: Yet another 2023 CLI agent that bravely trusts a GPT-4 function call to touch your file system, provided you enjoy the adrenaline rush of verifying bash commands in a terminal.
+  tags:
+    - cli
+    - agent
+    - gpt-4
+    - terminal
+    - bash
+  confidence: medium
+curation:
+  status: included
+  reason: The tool is a developer-facing CLI agent that plans, writes, and executes code and file system tasks inside a conversational loop, fitting the coding-agents category.
+  evidence:
+    - "Repo description: 'A conversational semi-autonomous developer assistant. AI pair programming without the copypasta.'"
+    - "README: 'DuetGPT is an experimental AI powered CLI tool and semi-autonomous agent that helps developers with coding tasks and file system tasks... automatically executes the commands issued by the AI.'"
+    - Listed in awesome-langchain under Tools > Agents, confirming its agent-oriented design.
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (166) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.702Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:08.070Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:31:18.122Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,90 @@
+id: github__fernsugi__x402-api-server
+kind: github-repo
+name: x402-api-server
+canonical_url: https://github.com/fernsugi/x402-api-server
+identity:
+  github_repo: fernsugi/x402-api-server
+provenance:
+  discoveries:
+    - id: discovery__github__fernsugi__x402-api-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: fernsugi/x402-api-server
+        extracted_url: https://github.com/fernsugi/x402-api-server
+        surrounding_text: "- [fernsugi/x402-api-server](https://github.com/fernsugi/x402-api-server/tree/main/mcp-server) [![x402-api MCP server](https://glama.ai/mcp/servers/fernsugi/x402-api/badges/score.svg)](https://glama.ai/mcp/servers/fernsugi/x402-api) 📇 ☁️ - Pay-per-call DeFi data API for AI agents via x402 micropayments (USDC on Base). 8 endpoints: price feeds, gas tracker, DEX quotes, whale tracker, yield scanner, funding rates, token scanner, wallet profiler. No API keys needed."
+        confidence: high
+metadata:
+  github:
+    stars: 2
+    forks: 0
+    license: null
+    archived: false
+    created_at: "2026-02-21T17:50:42Z"
+    pushed_at: "2026-03-25T02:59:28Z"
+    description: x402 protocol API server — pay-per-call DeFi data endpoints using USDC micropayments on Base
+    homepage: null
+    topics:
+      - ai-agent
+      - crypto
+      - defi
+      - elizaos-plugins
+      - mcp
+      - micropayments
+      - usdc
+      - x402
+    last_checked_at: "2026-05-05T21:02:10.043Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:10.043Z"
+      bytes: 13322
+insights:
+  summary: An HTTP API server implementing the x402 protocol that serves DeFi and crypto data endpoints requiring USDC micropayments on Base for each request.
+  why_it_matters: It provides a working reference for developers building pay-per-call data APIs where AI agents can autonomously handle micropayments without API keys or subscriptions.
+  mental_damage: Your agent now has a wallet, a credit score, and the ability to blow 0.008 USDC on a funding rate lookup without asking you first.
+  tags:
+    - mcp
+    - defi
+    - x402
+    - base
+    - agents
+  confidence: medium
+curation:
+  status: included
+  reason: The project is an MCP server providing DeFi data endpoints with x402 micropayment support, fitting cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - Topics include mcp and is listed under Server Implementations > Finance & Fintech in awesome-mcp-servers.
+    - README shows npm package @x402-api/mcp-server and describes MCP server with ElizaOS plugin integration.
+    - Implements x402 protocol for pay-per-call DeFi data endpoints using USDC on Base.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.687Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:10.043Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:19:22.647Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

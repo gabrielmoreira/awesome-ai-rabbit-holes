@@ -1,0 +1,84 @@
+id: github__debugg-ai__debugg-ai-mcp
+kind: github-repo
+name: debugg-ai-mcp
+canonical_url: https://github.com/debugg-ai/debugg-ai-mcp
+identity:
+  github_repo: debugg-ai/debugg-ai-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__debugg-ai__debugg-ai-mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Debugg AI
+        extracted_url: https://github.com/debugg-ai/debugg-ai-mcp
+        surrounding_text: "- **[Debugg AI](https://github.com/debugg-ai/debugg-ai-mcp)** - Enable your code gen agents to create & run 0-config end-to-end tests against new code changes in remote browsers via the [Debugg AI](https://debugg.ai) testing platform."
+        confidence: high
+metadata:
+  github:
+    stars: 65
+    forks: 11
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-05-28T19:10:24Z"
+    pushed_at: "2026-05-04T22:09:48Z"
+    description: Zero-Config, Fully AI-Managed End-to-End Testing for all code gen platforms.
+    homepage: https://debugg.ai
+    topics:
+      - automation
+      - browser
+      - end-to-end-testing
+      - web
+    last_checked_at: "2026-05-05T21:01:50.095Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:50.095Z"
+      bytes: 13000
+insights:
+  summary: An MCP server that runs AI-powered browser agents to perform end-to-end testing and page probing against local or hosted URLs, returning pass/fail results with screenshots and network logs.
+  why_it_matters: It allows developers to describe browser tests in natural language via MCP-compatible clients, automating E2E validation and capturing HAR traces and console logs without writing traditional test scripts.
+  mental_damage: We have successfully abstracted away the tedious work of writing fragile Playwright scripts by replacing it with the equally tedious work of prompting an agent and praying the 25-step budget doesn't evaporate on a cookie banner.
+  tags:
+    - mcp
+    - e2e-testing
+    - browser-agent
+    - automation
+  confidence: high
+curation:
+  status: included
+  reason: The primary artifact is a Model Context Protocol server that exposes browser testing tools (check_app_in_browser, probe_page) for integration into MCP clients, fitting the MCP infrastructure category.
+  evidence:
+    - Repo description explicitly states 'Zero-Config, Fully AI-Managed End-to-End Testing'
+    - README confirms it is an 'AI-powered browser testing via the Model Context Protocol' exposing 12 tools like check_app_in_browser
+    - Listed in awesome-mcp-servers under 'Official Servers', confirming its identity as an MCP server
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.684Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:50.095Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:15:50.677Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

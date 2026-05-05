@@ -1,0 +1,76 @@
+id: www__pythagora__ai
+kind: website
+name: www.pythagora.ai
+canonical_url: https://www.pythagora.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__pythagora__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Coding Agents
+        anchor_text: Pythagora
+        extracted_url: https://pythagora.ai
+        surrounding_text: "- **[Pythagora](https://pythagora.ai/)** – AI agent that builds apps through conversational interaction."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Pythagora is an AI development platform that integrates into VS Code and Cursor as a multi-agent system to plan, write, review, test, debug, and deploy full-stack web applications.
+  why_it_matters: It gives developers a team of specialized AI agents that manage the full lifecycle of a full-stack app directly within their existing IDE workflow.
+  mental_damage: We have reached the point where we are no longer writing code, but managing a 14-person AI consultancy firm from inside a text editor.
+  tags:
+    - coding-agent
+    - vscode
+    - full-stack
+    - multi-agent
+  confidence: high
+curation:
+  status: included
+  reason: Fits the app-builders category as a hosted prompt-to-app product rather than a direct coding agent or AI IDE.
+  evidence:
+    - "FAQ states: 'Pythagora is your AI teammate inside VS Code or Cursor. It’s powered by 14 specialized agents that handle everything from planning and writing code to reviewing, testing, debugging, and deploying.'"
+    - Listed under 'Coding Agents' in the awesome-ai-coding-tools directory.
+    - Description claims to build full-stack applications with 'real debugging tools and production features' for launching apps.
+placement:
+  primary_category: app-builders
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.733Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:52:53.676Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

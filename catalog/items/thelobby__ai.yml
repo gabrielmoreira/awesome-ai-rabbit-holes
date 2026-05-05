@@ -1,0 +1,75 @@
+id: thelobby__ai
+kind: website
+name: thelobby.ai
+canonical_url: https://thelobby.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__thelobby__ai__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Floode
+        anchor_text: Floode
+        extracted_url: https://floodehq.com
+        surrounding_text: "## [Floode](https://floodehq.com/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Lobby AI is an end-to-end workflow automation tool that learns user routines and focuses initially on managing email communications.
+  why_it_matters: It aims to offload routine operational workflows by learning individual working patterns, potentially reducing context-switching for developers managing high-volume communications.
+  mental_damage: We have successfully reached the phase of AI tooling where the bot doesn't just write the code, it also politely handles the inbox while you pretend to be busy debugging the AI's last pull request.
+  tags:
+    - workflow-automation
+    - email
+    - agents
+  confidence: high
+curation:
+  status: excluded
+  reason: The product focuses on general end-to-end workflow automation and email management rather than providing developer-facing coding assistance, IDE integration, or app-building capabilities.
+  evidence:
+    - Scraped site context describes the tool as handling 'routine workflow end-to-end, starting with your emails.'
+    - Listed in awesome-ai-agents under 'Floode' as a general workflow handler, not a coding-specific agent.
+    - No evidence of repo editing, IDE integration, or prompt-to-app generation in the provided inputs.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.731Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:48:41.939Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

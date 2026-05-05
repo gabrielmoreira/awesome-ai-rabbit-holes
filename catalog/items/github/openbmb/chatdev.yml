@@ -1,0 +1,80 @@
+id: github__openbmb__chatdev
+kind: github-repo
+name: chatdev
+canonical_url: https://github.com/openbmb/chatdev
+identity:
+  github_repo: openbmb/chatdev
+provenance:
+  discoveries:
+    - id: discovery__github__openbmb__chatdev__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - ChatDev
+        anchor_text: ChatDev
+        extracted_url: https://github.com/openbmb/chatdev
+        surrounding_text: "## [ChatDev](https://github.com/OpenBMB/ChatDev)"
+        confidence: high
+metadata:
+  github:
+    stars: 32992
+    forks: 4086
+    license: Apache-2.0
+    archived: false
+    created_at: "2023-08-28T02:18:13Z"
+    pushed_at: "2026-04-30T01:52:02Z"
+    description: "ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration"
+    homepage: https://arxiv.org/abs/2307.07924
+    topics: []
+    last_checked_at: "2026-05-05T21:04:04.236Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:04.236Z"
+      bytes: 23621
+insights:
+  summary: ChatDev 2.0 (DevAll) is a zero-code multi-agent orchestration platform that allows users to build and execute customized multi-agent systems for tasks like software development, data visualization, and research through simple configuration.
+  why_it_matters: It provides a structured framework for developers to experiment with and deploy multi-agent collaboration patterns—such as virtual software companies with CEO/CTO/Programmer roles—without necessarily writing the underlying orchestration code themselves.
+  mental_damage: We have successfully evolved from 'vibe coding' to 'vibe managing' a virtual C-suite of LLMs that argue about your PR before the human reviewer even opens it.
+  tags:
+    - multi-agent
+    - orchestration
+    - zero-code
+    - llm
+  confidence: high
+curation:
+  status: included
+  reason: The project has evolved into a user-facing platform for orchestrating multiple agents and tasks, which fits the operational control plane definition of agent-orchestration rather than a repo-editing coding agent.
+  evidence:
+    - README states ChatDev 2.0 is a 'Zero-Code Multi-Agent Platform' for building and executing customized multi-agent systems through configuration.
+    - The platform supports orchestrating complex scenarios like data visualization and deep research, moving beyond just the v1.0 'Virtual Software Company' code generation.
+    - Listed in the awesome-ai-agents list under 'ChatDev', confirming ecosystem relevance in agent collaboration.
+placement:
+  primary_category: agent-orchestration
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (32992) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.711Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:04.236Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:42:32.671Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

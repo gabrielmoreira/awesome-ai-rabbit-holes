@@ -1,0 +1,82 @@
+id: github__mangaba-ai__mangaba_ai
+kind: github-repo
+name: mangaba_ai
+canonical_url: https://github.com/mangaba-ai/mangaba_ai
+identity:
+  github_repo: mangaba-ai/mangaba_ai
+provenance:
+  discoveries:
+    - id: discovery__github__mangaba-ai__mangaba_ai__awesome-list__vivy-yi__awesome-agent-orchestration
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: vivy-yi/awesome-agent-orchestration
+        url: https://github.com/vivy-yi/awesome-agent-orchestration
+        repository: vivy-yi/awesome-agent-orchestration
+      extraction:
+        mode: parsed
+        section_path:
+          - Agent Communication Protocols
+          - Agent-to-Agent (A2A)
+        anchor_text: mangaba_ai
+        extracted_url: https://github.com/mangaba-ai/mangaba_ai
+        surrounding_text: "| [mangaba_ai](https://github.com/Mangaba-ai/mangaba_ai) | Minimalist AI agents with A2A and MCP | ![Stars](https://img.shields.io/github/stars/Mangaba-ai/mangaba_ai) |"
+        confidence: high
+metadata:
+  github:
+    stars: 195
+    forks: 42
+    license: MIT
+    archived: false
+    created_at: "2025-04-08T10:26:04Z"
+    pushed_at: "2026-05-05T14:15:46Z"
+    description: Repositório minimalista para criação de agentes de IA inteligentes e versáteis com protocolos A2A (Agent-to-Agent) e MCP (Model Context Protocol).
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:03:28.379Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:28.379Z"
+      bytes: 14200
+insights:
+  summary: A Python framework for building multi-agent AI systems with ReAct reasoning, RAG pipelines, persistent memory, and support for A2A and MCP protocols.
+  why_it_matters: It offers a lightweight, batteries-included alternative to heavier stacks like CrewAI and LangChain, enabling developers to orchestrate multi-provider agent crews with built-in observability and guardrails.
+  mental_damage: "Just what the ecosystem needed: another 'complete' agent framework promising to be the last one you'll ever need, provided you enjoy rewriting your stack every time a new mango-themed library drops."
+  tags:
+    - multi-agent
+    - python
+    - framework
+    - a2a
+    - mcp
+  confidence: high
+curation:
+  status: included
+  reason: This is a code-first SDK/framework that developers import to build agentic behavior, which fits ai-frameworks rather than a control-plane orchestration platform.
+  evidence:
+    - Repo description explicitly positions it as a minimalist repository for creating AI agents with A2A and MCP protocols.
+    - README demonstrates a library-style Python API (Agent, Task, Crew imports) intended to be embedded in developer code.
+    - Listed in awesome-agent-orchestration under 'Agent Communication Protocols', confirming its relevance to the agent ecosystem.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (195) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.705Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:28.379Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:35:27.116Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

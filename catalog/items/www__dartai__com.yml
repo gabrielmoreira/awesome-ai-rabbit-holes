@@ -1,0 +1,76 @@
+id: www__dartai__com
+kind: website
+name: www.dartai.com
+canonical_url: https://www.dartai.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__dartai__com__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Dart
+        extracted_url: https://itsdart.com
+        surrounding_text: "- **[Dart](https://github.com/its-dart/dart-mcp-server)** - Interact with task, doc, and project data in [Dart](https://itsdart.com), an AI-native project management tool"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Dart is an AI-native project management platform that integrates with GitHub and LLMs to automate task creation, subtask generation, sprint planning, and progress reporting for engineering and product teams.
+  why_it_matters: It offers engineering teams a way to reduce PM overhead by automatically generating tickets from PRDs, syncing with GitHub, and producing standup reports via integrated AI models like ChatGPT and Claude.
+  mental_damage: Because what modern engineering culture clearly lacked was another Kanban board that hallucinates your sprint plan and writes your standup for you.
+  tags:
+    - project-management
+    - ai-native
+    - github-integration
+    - engineering-workflow
+  confidence: medium
+curation:
+  status: included
+  reason: It fits coding-agents because it acts as an AI assistant that collaborates directly on the engineering workflow by generating tickets from PRDs, syncing with GitHub, and automating sprint tasks within the developer's ecosystem.
+  evidence:
+    - Site states it 'helps engineering teams make more PRs quicker' and integrates with GitHub to 'seamlessly update tickets as work is accomplished'.
+    - Features include 'Draft PRDs quicker with AI, then automatically create and assign tasks' and 'Present daily standup updates with Dart AI's automatic report generator'.
+    - Listed in awesome-mcp-servers under 'Official Servers', indicating it functions as an MCP-compatible tool for developer workflows.
+placement:
+  primary_category: coding-agents
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.732Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:50:25.510Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

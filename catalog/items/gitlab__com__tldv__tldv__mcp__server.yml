@@ -1,0 +1,75 @@
+id: gitlab__com__tldv__tldv__mcp__server
+kind: website
+name: tldv-mcp-server
+canonical_url: https://gitlab.com/tldv/tldv-mcp-server
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__gitlab__com__tldv__tldv__mcp__server__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Tldv
+        extracted_url: https://gitlab.com/tldv/tldv-mcp-server
+        surrounding_text: "- **[Tldv](https://gitlab.com/tldv/tldv-mcp-server)** - Connect your AI agents to Google-Meet, Zoom & Microsoft Teams through [tl;dv](https://tldv.io)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: An MCP server project hosted on GitLab with no public description, README, or homepage to explain its purpose.
+  why_it_matters: MCP servers are increasingly central to extending AI assistants with external context, but this one offers no clues about what it actually does.
+  mental_damage: We have reached the point where even the glue code for our AI tools is shipping without documentation, confidently inviting you to integrate with a mystery box.
+  tags:
+    - mcp
+    - gitlab
+    - unknown
+  confidence: low
+curation:
+  status: excluded
+  reason: Excluded because the repository contains no description, README, homepage, or visible code, making it impossible to verify that it is a functional MCP server rather than an empty stub.
+  evidence:
+    - Repo description is empty and no README excerpt or homepage is provided.
+    - Source-list context only shows it is listed in awesome-mcp-servers without explaining its functionality.
+    - GitLab project page shows 17 commits and a creation date of April 09, 2025, but no further content.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.728Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:44:53.212Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

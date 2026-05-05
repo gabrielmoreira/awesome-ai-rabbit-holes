@@ -1,0 +1,116 @@
+id: github__mintplex-labs__anything-llm
+kind: github-repo
+name: anything-llm
+canonical_url: https://github.com/mintplex-labs/anything-llm
+identity:
+  github_repo: mintplex-labs/anything-llm
+provenance:
+  discoveries:
+    - id: discovery__github__mintplex-labs__anything-llm__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Open Source Projects
+          - Knowledge Management
+        anchor_text: Anything LLM
+        extracted_url: https://github.com/mintplex-labs/anything-llm
+        surrounding_text: "- [Anything LLM](https://github.com/Mintplex-Labs/anything-llm): A full-stack application that turns any documents into an intelligent chatbot with a sleek UI and easier way to manage your workspaces. ![GitHub Repo stars](https://img.shields.io/github/stars/Mintplex-Labs/anything-llm?style=social)"
+        confidence: high
+    - id: discovery__github__mintplex-labs__anything-llm__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 知识库 RAG
+        anchor_text: AnythingLLM
+        extracted_url: https://github.com/mintplex-labs/anything-llm
+        surrounding_text: "1. [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm): The all-in-one AI app for any LLM with full RAG and AI Agent capabilites."
+        confidence: high
+metadata:
+  github:
+    stars: 59551
+    forks: 6436
+    license: MIT
+    archived: false
+    created_at: "2023-06-04T02:29:14Z"
+    pushed_at: "2026-05-04T18:18:49Z"
+    description: The all-in-one AI productivity accelerator. On device and privacy first with no annoying setup or configuration.
+    homepage: https://anythingllm.com
+    topics:
+      - ai-agents
+      - custom-ai-agents
+      - deepseek
+      - kimi
+      - llama3
+      - llm
+      - lmstudio
+      - local-llm
+      - localai
+      - mcp
+      - mcp-servers
+      - moonshot
+      - multimodal
+      - no-code
+      - ollama
+      - qwen3
+      - rag
+      - vector-database
+      - web-scraping
+    last_checked_at: "2026-05-05T21:03:42.622Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:42.622Z"
+      bytes: 24506
+insights:
+  summary: An all-in-one desktop and self-hosted application for chatting with documents, running local LLMs, and automating workflows using built-in AI agents and RAG pipelines.
+  why_it_matters: It gives developers a privacy-first, locally runnable workspace to prototype RAG systems and agentic workflows without wiring together disparate libraries and vector databases.
+  mental_damage: Yet another 'all-in-one' AI wrapper that promises to solve the local LLM setup struggle, proving that in 2024, the hottest infrastructure play is a desktop app bundling everyone else's models.
+  tags:
+    - local-llm
+    - rag
+    - agents
+    - desktop-app
+    - privacy
+  confidence: high
+curation:
+  status: included
+  reason: The project is a local-first desktop and self-hosted interface for running LLMs, RAG, and agents on your own hardware, fitting the local-ai category better than a coding-agent or app-builder label.
+  evidence:
+    - Repo description explicitly states 'On device and privacy first with no annoying setup or configuration.'
+    - "README highlights: 'Chat with your docs... runs locally by default with zero setup friction' and supports local models like Ollama/LocalAI."
+    - Topics include local-llm, ollama, localai, and rag, with 59k+ stars showing strong ecosystem traction.
+placement:
+  primary_category: local-ai
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (59551) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.669Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:42.622Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:38:17.676Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,76 @@
+id: glama__ai__mcp__clients
+kind: website
+name: clients
+canonical_url: https://glama.ai/mcp/clients
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__glama__ai__mcp__clients__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Clients
+        anchor_text: glama.ai/mcp/clients
+        extracted_url: https://glama.ai/mcp/clients
+        surrounding_text: Checkout [awesome-mcp-clients](https://github.com/punkpeye/awesome-mcp-clients/) and [glama.ai/mcp/clients](https://glama.ai/mcp/clients).
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A directory page listing client applications and tools that support the Model Context Protocol (MCP).
+  why_it_matters: Developers adopting MCP need a reliable index of compatible hosts (like Claude Desktop, Cursor, and others) to plug their servers into.
+  mental_damage: We now have a protocol for the protocols, ensuring you can spend your afternoon debating which 'client' supports which 'server' instead of writing code.
+  tags:
+    - mcp
+    - directory
+    - tooling
+    - clients
+  confidence: high
+curation:
+  status: included
+  reason: This is a directory/category index page for MCP clients, serving as a navigation aid for developers rather than a standalone tool itself.
+  evidence:
+    - URL is located at glama.ai/mcp/clients, indicating a listing page rather than a tool repo.
+    - Seen in the 'Clients' section of the awesome-mcp-servers ecosystem, functioning as a curated list.
+    - No repo description, stars, or code indicators provided, confirming it is a reference page, not a software artifact.
+placement:
+  primary_category: awesome-awesomes
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.728Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:44:57.619Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

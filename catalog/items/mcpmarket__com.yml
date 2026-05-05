@@ -1,0 +1,76 @@
+id: mcpmarket__com
+kind: website
+name: mcpmarket.com
+canonical_url: https://mcpmarket.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__mcpmarket__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - MCP Servers and Directories
+        anchor_text: MCP Market
+        extracted_url: https://mcpmarket.com
+        surrounding_text: "- **[MCP Market](https://mcpmarket.com/)** – Marketplace for MCP tools and services."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A directory and marketplace for discovering and browsing Model Context Protocol (MCP) servers and tools.
+  why_it_matters: It provides a centralized index for developers to find and evaluate MCP integrations to extend their AI coding assistants.
+  mental_damage: Just when you thought managing dependencies was hard, we've invented a protocol for your assistant's tools that now requires its own App Store.
+  tags:
+    - mcp
+    - directory
+    - marketplace
+    - tooling
+  confidence: high
+curation:
+  status: included
+  reason: This is a directory/marketplace for MCP tools, fitting the 'awesome-awesomes' category as a navigation aid for developers rather than a standalone tool itself.
+  evidence:
+    - URL is mcpmarket.com, indicating a marketplace/directory for MCP.
+    - Listed in awesome-ai-coding-tools under the section 'MCP Servers and Directories'.
+    - No code repository or standalone tool was provided; the input describes a listing site.
+placement:
+  primary_category: awesome-awesomes
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.729Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:46:27.756Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

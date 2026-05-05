@@ -1,0 +1,76 @@
+id: www__sentius__ai
+kind: website
+name: www.sentius.ai
+canonical_url: https://www.sentius.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__sentius__ai__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Sentius
+        anchor_text: Sentius
+        extracted_url: https://www.sentius.ai
+        surrounding_text: "## [Sentius](https://www.sentius.ai/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Sentius is an enterprise platform for building and managing autonomous AI agents that automate cross-application workflows, compliance checks, and data processing using visual 'maps' as blueprints.
+  why_it_matters: It offers a structured way to deploy agents that handle repetitive enterprise operations like ERP updates and invoice generation without requiring custom code for every integration.
+  mental_damage: Just when you thought 'vibe coding' was the peak, we now have 'UI maps' to ensure the agents automating your job don't burn through your token budget while guessing their way through SAP.
+  tags:
+    - agent-orchestration
+    - enterprise
+    - automation
+    - workflows
+  confidence: medium
+curation:
+  status: included
+  reason: It is an end-user platform for coordinating and operating autonomous agents across enterprise systems, fitting the definition of agent orchestration rather than a coding assistant.
+  evidence:
+    - Scraped site context describes 'maps as blueprints' for agents to run reliably with audit trails.
+    - Use cases focus on automating enterprise workflows like QuickBooks invoicing and SAP compliance checks.
+    - Listed in awesome-ai-agents under a section dedicated to autonomous agent platforms.
+placement:
+  primary_category: agent-orchestration
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.734Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:53:23.022Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

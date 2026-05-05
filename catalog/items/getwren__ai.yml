@@ -1,0 +1,77 @@
+id: getwren__ai
+kind: website
+name: getwren.ai
+canonical_url: https://getwren.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__getwren__ai__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Wren
+        anchor_text: Wren
+        extracted_url: https://www.getwren.ai
+        surrounding_text: "## [Wren](https://www.getwren.ai/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Wren AI is a generative business intelligence platform that converts natural language questions into SQL queries, charts, and dashboards, backed by a semantic layer supporting various databases.
+  why_it_matters: It allows developers and data teams to embed conversational analytics into products and internal tools, drastically reducing the amount of manual SQL required for ad-hoc reporting.
+  mental_damage: Finally, a way to automate yourself out of the 'can you pull this number' Slack messages, only to be replaced by the 'why is the AI's SQL wrong' Slack messages.
+  tags:
+    - business-intelligence
+    - natural-language
+    - sql
+    - analytics
+    - semantic-layer
+  confidence: high
+curation:
+  status: excluded
+  reason: Despite being open source and listed in agent directories, the product is a business intelligence tool for end-users, not a developer tool for writing code, orchestrating agents, or building applications.
+  evidence:
+    - Scraped site context describes it as 'Generative BI' that turns 'plain-language questions into governed SQL, charts, and insights'.
+    - The site targets 'Data Teams', 'Executives', and 'Non-tech' users rather than software engineers building software.
+    - Listed in awesome-ai-agents under a 'Wren' section, but the tool functions as an autonomous analyst, not a coding assistant.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.727Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:44:42.324Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

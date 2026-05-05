@@ -1,0 +1,77 @@
+id: www__flutterflow__io
+kind: website
+name: www.flutterflow.io
+canonical_url: https://www.flutterflow.io
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__flutterflow__io__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - App Builders
+        anchor_text: FlutterFlow
+        extracted_url: https://flutterflow.io
+        surrounding_text: "- **[FlutterFlow](https://flutterflow.io/)** – Visual app builder for Flutter with AI assistance."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A browser-first visual development platform that builds cross-platform Flutter apps using a drag-and-drop UI, visual logic flows, and one-click deployment to app stores.
+  why_it_matters: It allows developers to rapidly prototype and ship production-ready mobile and web apps with Firebase and API integrations, while retaining the option to export the generated Flutter code.
+  mental_damage: You can now watch a product manager build the MVP in two hours that you were planning to estimate for three sprints, leaving you to debug the exported widget tree.
+  tags:
+    - flutter
+    - app-builder
+    - low-code
+    - visual-development
+    - mobile
+  confidence: high
+curation:
+  status: included
+  reason: It is a browser-first SaaS platform that generates and deploys entire applications from a visual interface, aligning perfectly with the app-builders category.
+  evidence:
+    - Listed under 'App Builders' in the awesome-ai-coding-tools directory.
+    - Primary surface is a web builder described as 'Build Better. Launch Faster.' with visual UI and logic editors.
+    - Features include deploying to App Store, Play Store, and Web with a click and exporting the generated code.
+placement:
+  primary_category: app-builders
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.732Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:50:50.236Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

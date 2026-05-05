@@ -1,0 +1,75 @@
+id: www__revenuecat__com__docs__tools__mcp
+kind: website
+name: mcp
+canonical_url: https://www.revenuecat.com/docs/tools/mcp
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__revenuecat__com__docs__tools__mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: RevenueCat
+        extracted_url: https://www.revenuecat.com/docs/tools/mcp/overview
+        surrounding_text: "- **[RevenueCat](https://www.revenuecat.com/docs/tools/mcp/overview)** - Manage your In-app-purchases in [RevenueCat](https://www.revenuecat.com) without leaving your AI coding environment."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: An official MCP server from RevenueCat that exposes subscription, offering, and customer data to AI models and coding agents.
+  why_it_matters: It allows developers to query live RevenueCat data directly from their AI assistant instead of switching contexts to dashboards or writing API wrapper scripts.
+  mental_damage: We have successfully abstracted away the effort of opening a dashboard by adding a protocol server, a host client, and a context window budget that vanishes instantly.
+  tags:
+    - mcp
+    - revenuecat
+    - subscriptions
+    - integration
+  confidence: high
+curation:
+  status: included
+  reason: This is an official Model Context Protocol server provided by RevenueCat to integrate app subscription data into MCP-compatible clients.
+  evidence:
+    - URL is under revenuecat.com/docs/tools/mcp, indicating an official MCP server implementation.
+    - Listed in the awesome-mcp-servers directory under the 'Official Servers' section.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.734Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:53:09.570Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

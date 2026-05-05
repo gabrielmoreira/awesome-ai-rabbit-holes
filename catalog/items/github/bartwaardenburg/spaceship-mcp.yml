@@ -1,0 +1,91 @@
+id: github__bartwaardenburg__spaceship-mcp
+kind: github-repo
+name: spaceship-mcp
+canonical_url: https://github.com/bartwaardenburg/spaceship-mcp
+identity:
+  github_repo: bartwaardenburg/spaceship-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__bartwaardenburg__spaceship-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
+        anchor_text: Spaceship MCP
+        extracted_url: https://github.com/bartwaardenburg/spaceship-mcp
+        surrounding_text: "- [Spaceship MCP](https://github.com/bartwaardenburg/spaceship-mcp) 📇 ☁️ - Manage domains, DNS records, contacts, marketplace listings, and more via the Spaceship API"
+        confidence: high
+metadata:
+  github:
+    stars: 7
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2026-02-11T10:13:31Z"
+    pushed_at: "2026-03-06T07:43:46Z"
+    description: MCP server for the Spaceship API — manage domains, DNS, contacts & marketplace listings via AI
+    homepage: https://www.npmjs.com/package/spaceship-mcp
+    topics:
+      - ai
+      - claude
+      - dns
+      - domain-management
+      - domains
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - spaceship
+      - typescript
+    last_checked_at: "2026-05-05T21:01:17.401Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:17.401Z"
+      bytes: 24713
+insights:
+  summary: An unofficial MCP server that lets AI clients manage Spaceship domains, DNS records, contacts, and marketplace listings via natural language.
+  why_it_matters: It lets developers configure DNS and domains through their AI coding assistant instead of context-switching to a web dashboard during development.
+  mental_damage: We have successfully abstracted domain management into a chat window, because the true bottleneck in modern development was having to look at the Spaceship UI.
+  tags:
+    - mcp
+    - dns
+    - domain-management
+    - typescript
+  confidence: high
+curation:
+  status: included
+  reason: This is a purpose-built MCP server for a specific API, fitting cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states 'MCP server for the Spaceship API'.
+    - README confirms it is a Model Context Protocol server for managing domains/DNS via AI clients.
+    - Listed in awesome-mcp-servers under Server Implementations > Cloud Platforms.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.680Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:17.401Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:10:15.788Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

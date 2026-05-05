@@ -1,0 +1,80 @@
+id: github__cr-gjx__suspicion-agent
+kind: github-repo
+name: suspicion-agent
+canonical_url: https://github.com/cr-gjx/suspicion-agent
+identity:
+  github_repo: cr-gjx/suspicion-agent
+provenance:
+  discoveries:
+    - id: discovery__github__cr-gjx__suspicion-agent__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Suspicion Agent
+        anchor_text: Suspicion Agent
+        extracted_url: https://github.com/cr-gjx/suspicion-agent
+        surrounding_text: "## [Suspicion Agent](https://github.com/CR-Gjx/Suspicion-Agent)"
+        confidence: high
+metadata:
+  github:
+    stars: 161
+    forks: 20
+    license: null
+    archived: false
+    created_at: "2023-09-30T11:51:17Z"
+    pushed_at: "2023-11-08T08:02:01Z"
+    description: "The implementation of \"Suspicion-Agent: Playing Imperfect Information Games with Theory of Mind Aware GPT-4\""
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:01:42.373Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:42.373Z"
+      bytes: 1683
+insights:
+  summary: An implementation of a research paper that uses GPT-4 with Theory of Mind capabilities to play imperfect information games like Werewolf.
+  why_it_matters: Provides a concrete reference for developers exploring how to inject mental state modeling into LLM-based agents for complex, non-deterministic environments.
+  mental_damage: Finally, an agent capable of the specific kind of paranoid suspicion required to navigate both a game of Werewolf and a modern JavaScript dependency audit.
+  tags:
+    - llm-agents
+    - research
+    - game-theory
+    - gpt-4
+  confidence: high
+curation:
+  status: excluded
+  reason: This is an academic research implementation focused on game theory and social deduction simulations, lacking a developer-tooling angle for coding workflows.
+  evidence:
+    - Repo description explicitly states this is the 'implementation of Suspicion-Agent' for playing imperfect information games.
+    - README centers on a research paper (arXiv:2309.17277) and game evaluation scripts rather than developer productivity.
+    - Listed in awesome-ai-agents under a research/game-playing context, not as a coding assistant.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (161) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.683Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:42.373Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:14:41.394Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

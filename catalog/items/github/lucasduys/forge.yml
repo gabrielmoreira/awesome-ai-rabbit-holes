@@ -1,0 +1,100 @@
+id: github__lucasduys__forge
+kind: github-repo
+name: forge
+canonical_url: https://github.com/lucasduys/forge
+identity:
+  github_repo: lucasduys/forge
+provenance:
+  discoveries:
+    - id: discovery__github__lucasduys__forge__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Orchestrators & autonomous loops
+        anchor_text: Forge
+        extracted_url: https://github.com/lucasduys/forge
+        surrounding_text: "- **[Forge](https://github.com/LucasDuys/forge)** `⭐ 25` — Autonomous spec-driven development loop for Claude Code; three-command pipeline (brainstorm specs, plan task DAGs, execute autonomously) with context survival, backpropagation that traces bugs to spec gaps, and Claude-on-Claude code review. MIT."
+        confidence: high
+metadata:
+  github:
+    stars: 25
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2026-03-21T15:11:27Z"
+    pushed_at: "2026-05-02T15:14:18Z"
+    description: Turn a one-line idea into a branch with tested, reviewed, committed code. The brainstorm-to-commit pipeline for Claude Code.
+    homepage: https://lucasduys.github.io/forge/
+    topics:
+      - agentic-ai
+      - ai-agent
+      - ai-coding-agent
+      - ai-tools
+      - anthropic
+      - automation
+      - autonomous-coding
+      - claude
+      - claude-code
+      - claude-code-plugin
+      - cli
+      - code-generation
+      - coding-assistant
+      - developer-tools
+      - llm
+      - mcp
+      - model-context-protocol
+      - workflow-automation
+    last_checked_at: "2026-05-05T21:03:25.313Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:25.313Z"
+      bytes: 15355
+insights:
+  summary: A native Claude Code plugin that runs a five-phase autonomous loop to turn a one-line idea into tested, reviewed, and committed code inside a repository.
+  why_it_matters: It offloads the state-management and context-tracking burden from the developer to a disk-persisted pipeline that handles spec generation, TDD execution in git worktrees, and verification.
+  mental_damage: You can finally stop acting as the human context-window babysitter and just show up in the morning to review diffs like a proper 2019-era manager.
+  tags:
+    - claude-code
+    - plugin
+    - autonomous
+    - tdd
+    - workflow-automation
+  confidence: high
+curation:
+  status: included
+  reason: It is a CLI-based coding agent plugin for Claude Code that directly plans, writes, tests, reviews, and commits code inside a developer's repo workflow.
+  evidence:
+    - Repo description states it is 'The brainstorm-to-commit pipeline for Claude Code'.
+    - README describes a five-phase autonomous loop that executes tasks in parallel git worktrees with TDD and commits atomically.
+    - Listed in awesome-cli-coding-agents under 'Harnesses & orchestration > Orchestrators & autonomous loops'.
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.705Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:25.313Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:34:51.697Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

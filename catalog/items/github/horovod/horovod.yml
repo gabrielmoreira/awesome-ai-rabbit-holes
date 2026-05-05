@@ -1,0 +1,95 @@
+id: github__horovod__horovod
+kind: github-repo
+name: horovod
+canonical_url: https://github.com/horovod/horovod
+identity:
+  github_repo: horovod/horovod
+provenance:
+  discoveries:
+    - id: discovery__github__horovod__horovod__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Training
+          - Frameworks for Training
+        anchor_text: Horovod
+        extracted_url: https://github.com/horovod/horovod
+        surrounding_text: "| [Horovod](https://github.com/horovod/horovod)                        | Distributed training framework for TensorFlow, Keras, PyTorch, and Apache MXNet.                                                                                                                            | ![GitHub Badge](https://img.shields.io/github/stars/horovod/horovod.svg?style=flat-square)                   |"
+        confidence: high
+metadata:
+  github:
+    stars: 14690
+    forks: 2246
+    license: NOASSERTION
+    archived: false
+    created_at: "2017-08-09T19:39:59Z"
+    pushed_at: "2025-12-01T23:39:32Z"
+    description: Distributed training framework for TensorFlow, Keras, PyTorch, and Apache MXNet.
+    homepage: http://horovod.ai
+    topics:
+      - baidu
+      - deep-learning
+      - deeplearning
+      - keras
+      - machine-learning
+      - machinelearning
+      - mpi
+      - mxnet
+      - pytorch
+      - ray
+      - spark
+      - tensorflow
+      - uber
+    last_checked_at: "2026-05-05T21:02:36.013Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:36.013Z"
+      bytes: 16441
+insights:
+  summary: Horovod is a distributed deep learning training framework for TensorFlow, Keras, PyTorch, and Apache MXNet that scales single-GPU scripts to run across many GPUs or hosts.
+  why_it_matters: It allows ML engineers to take existing training scripts and scale them to multi-GPU and multi-node environments with minimal code changes.
+  mental_damage: Another reminder that while we have agents writing code, the real bottleneck remains getting that code to actually run fast across more than one GPU without summoning the MPI demons.
+  tags:
+    - distributed-training
+    - deep-learning
+    - pytorch
+    - tensorflow
+    - mpi
+  confidence: high
+curation:
+  status: excluded
+  reason: Horovod is a deep learning infrastructure library for model training, not a developer-facing AI tool, agent, or workflow product for software development.
+  evidence:
+    - Repo description explicitly defines it as a 'Distributed training framework for TensorFlow, Keras, PyTorch, and Apache MXNet.'
+    - README focuses on scaling deep learning model training across GPUs and hosts, not on AI-assisted coding or developer workflows.
+    - Source list context places it in 'Training > Frameworks for Training' under Awesome-LLMOps, which is about ML operations rather than developer tooling.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (14690) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.696Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:36.013Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:24:19.557Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

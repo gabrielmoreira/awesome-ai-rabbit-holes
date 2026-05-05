@@ -1,0 +1,80 @@
+id: github__kuafuai__devopsgpt
+kind: github-repo
+name: devopsgpt
+canonical_url: https://github.com/kuafuai/devopsgpt
+identity:
+  github_repo: kuafuai/devopsgpt
+provenance:
+  discoveries:
+    - id: discovery__github__kuafuai__devopsgpt__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - DevOpsGPT
+        anchor_text: DevOpsGPT
+        extracted_url: https://github.com/kuafuai/devopsgpt
+        surrounding_text: "## [DevOpsGPT](https://github.com/kuafuai/DevOpsGPT)"
+        confidence: high
+metadata:
+  github:
+    stars: 5957
+    forks: 726
+    license: NOASSERTION
+    archived: false
+    created_at: "2023-07-12T08:12:04Z"
+    pushed_at: "2024-08-14T09:11:08Z"
+    description: Multi agent system for AI-driven software development. Combine LLM with DevOps tools to convert natural language requirements into working software. Supports any development language and extends the existing code.
+    homepage: https://www.kuafuai.net
+    topics: []
+    last_checked_at: "2026-05-05T21:03:08.407Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:08.407Z"
+      bytes: 9360
+insights:
+  summary: DevOpsGPT is a multi-agent system that combines LLMs with DevOps tools to convert natural language requirements into working software and automate development workflows.
+  why_it_matters: It aims to shorten development cycles by automating the path from vague requirements to deployed code, including interface generation and CI integration.
+  mental_damage: Another brave attempt to automate away the 'tedious requirement document writing' phase, presumably by replacing it with an even longer chat log of prompt engineering.
+  tags:
+    - devops
+    - multi-agent
+    - code-generation
+    - automation
+  confidence: high
+curation:
+  status: included
+  reason: It is a multi-agent coding system designed to plan, write, and deploy code from requirements, fitting the coding-agents category as a repo/CLI workflow assistant.
+  evidence:
+    - Repo description states it converts natural language requirements into working software using a multi-agent system.
+    - README workflow describes generating pseudocode, refining code, and handling CI/CD deployment within the project lifecycle.
+    - Appears in the 'awesome-ai-agents' list under the 'DevOpsGPT' section, supporting its identity as an agent tool.
+placement:
+  primary_category: coding-agents
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (5957) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.702Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:08.407Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:31:24.484Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,82 @@
+id: github__apiarya__wemo-mcp-server
+kind: github-repo
+name: wemo-mcp-server
+canonical_url: https://github.com/apiarya/wemo-mcp-server
+identity:
+  github_repo: apiarya/wemo-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__apiarya__wemo-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🏠 <a name="home-automation"></a>Home Automation
+        anchor_text: apiarya/wemo-mcp-server
+        extracted_url: https://github.com/apiarya/wemo-mcp-server
+        surrounding_text: "- [apiarya/wemo-mcp-server](https://github.com/apiarya/wemo-mcp-server) - [![wemo-mcp-server MCP server](https://glama.ai/mcp/servers/@apiarya/wemo-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/@apiarya/wemo-mcp-server) 🐍 🏠 🍎 🪟 🐧 - Control WeMo smart home devices via AI assistants using natural language. Built on pywemo for 100% local control — no cloud dependency. Supports dimmer brightness, device rename, HomeKit codes, and multi-phase discovery."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-02-22T00:07:46Z"
+    pushed_at: "2026-05-04T20:37:36Z"
+    description: Control Wemo smart home devices through AI assistants using natural language.
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:01:06.583Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:06.583Z"
+      bytes: 21881
+insights:
+  summary: An MCP server that lets AI assistants control WeMo smart home devices via natural language by exposing device discovery, status, and control tools.
+  why_it_matters: Developers building or extending MCP-connected assistants can plug in local smart-home control without writing custom device integration code.
+  mental_damage: "We have finally achieved the future: an AI that can argue with your lights, provided you first configure a Python package and a YAML file."
+  tags:
+    - mcp
+    - smart-home
+    - wemo
+    - local-ai
+    - iot
+  confidence: high
+curation:
+  status: included
+  reason: The project is a Model Context Protocol server for controlling WeMo devices, which fits cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description: 'Control Wemo smart home devices through AI assistants using natural language.'"
+    - README states it is an MCP server with tools, resources, prompts, and elicitations for WeMo devices.
+    - Listed in awesome-mcp-servers under 'Home Automation' server implementations.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.679Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:06.583Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:08:39.251Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,77 @@
+id: www__revenuecat__com
+kind: website
+name: www.revenuecat.com
+canonical_url: https://www.revenuecat.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__revenuecat__com__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: RevenueCat
+        extracted_url: https://www.revenuecat.com
+        surrounding_text: "- **[RevenueCat](https://www.revenuecat.com/docs/tools/mcp/overview)** - Manage your In-app-purchases in [RevenueCat](https://www.revenuecat.com) without leaving your AI coding environment."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: RevenueCat is a subscription and in-app purchase backend platform that provides cross-platform purchase handling, receipt validation, and customer data management via SDKs and APIs.
+  why_it_matters: It allows mobile and web developers to offload the maintenance of platform-specific purchase logic and receipt validation so they can focus on building product features.
+  mental_damage: After solving the hardest backend problem in app development with a single API, you are now legally obligated to spend the reclaimed engineering hours building another AI wrapper.
+  tags:
+    - iap
+    - subscriptions
+    - mobile
+    - backend
+    - sdk
+  confidence: high
+curation:
+  status: excluded
+  reason: RevenueCat is a standard mobile-business infrastructure tool for payments and subscriptions, not an AI-specific tool, agent, or workflow relevant to this catalog's AI rabbit hole scope.
+  evidence:
+    - Primary page excerpt focuses entirely on in-app purchases, subscription management, and revenue growth, with no AI developer tooling angle.
+    - Link in source list ('awesome-mcp-servers') references a generic 'Official Servers' category but provides no evidence of an MCP server implementation or AI workflow integration in the scraped content.
+    - Description and site context position it as a backend-as-a-service for payments, not a coding agent, app builder, or AI framework.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.734Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:53:12.492Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

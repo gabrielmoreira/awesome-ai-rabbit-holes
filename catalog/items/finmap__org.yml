@@ -1,0 +1,77 @@
+id: finmap__org
+kind: website
+name: finmap.org
+canonical_url: https://finmap.org
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__finmap__org__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: finmap.org
+        extracted_url: https://finmap.org
+        surrounding_text: "- [finmap-org/mcp-server](https://github.com/finmap-org/mcp-server) - [finmap.org](https://finmap.org/) MCP server provides comprehensive historical data from the US, UK, Russian and Turkish stock exchanges. Access sectors, tickers, company profiles, market cap, volume, value, and trade counts, as well as treemap and histogram visualizations."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A browser-based visualization tool for global stock market data and personal news feeds, presenting market capitalization and trades via treemaps and histograms.
+  why_it_matters: If you are building a financial MCP server or fintech agent, this serves as a reference UI for visualizing the market data your backend retrieves.
+  mental_damage: We have officially reached the point where a stock market treemap is considered essential infrastructure for the AI agent ecosystem.
+  tags:
+    - mcp
+    - fintech
+    - visualization
+    - market-data
+  confidence: high
+curation:
+  status: excluded
+  reason: While listed in awesome-mcp-servers, the site itself is a consumer-facing financial visualization tool, not a developer tool, MCP server implementation, or agent infrastructure.
+  evidence:
+    - Scraped site context describes it as a 'Global stock market visualisation tool and your personal news feed reader' with treemaps and histograms.
+    - The awesome-mcp-servers listing describes it as a visualization tool, but the URL points to a consumer web app rather than an installable server or dev tool.
+    - No repository, code, or developer-facing SDK/API surface was provided; it lacks the developer-tooling angle required for the catalog.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.727Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:44:33.744Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

@@ -1,0 +1,101 @@
+id: github__m0n0x41d__haft
+kind: github-repo
+name: quint-code
+canonical_url: https://github.com/m0n0x41d/haft
+identity:
+  github_repo: m0n0x41d/haft
+provenance:
+  discoveries:
+    - id: discovery__github__m0n0x41d__quint-code__awesome-list__engineering4ai__awesome-spec-driven-development
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: Engineering4AI/awesome-spec-driven-development
+        url: https://github.com/engineering4ai/awesome-spec-driven-development
+        repository: Engineering4AI/awesome-spec-driven-development
+      extraction:
+        mode: parsed
+        section_path:
+          - Specification Tools
+        anchor_text: quint-code
+        extracted_url: https://github.com/m0n0x41d/quint-code
+        surrounding_text: "- [quint-code](https://github.com/m0n0x41d/quint-code) ![](https://img.shields.io/github/stars/m0n0x41d/quint-code.svg) - Structured reasoning framework for AI coding tools implementing hypothesis-driven spec development with automated design rationale records."
+        confidence: high
+metadata:
+  github:
+    stars: 1311
+    forks: 104
+    license: NOASSERTION
+    archived: false
+    created_at: "2025-12-10T19:16:51Z"
+    pushed_at: "2026-05-04T08:20:34Z"
+    description: Engineering decisions  engine that know when they're stale. Frame, compare, decide — with evidence decay and parity enforcement. For Claude Code, Cursor, Gemini CLI, Codex and more.
+    homepage: https://quint.codes
+    topics:
+      - ai-agents
+      - ai-coding
+      - ai-skills
+      - air
+      - anthropic
+      - claude
+      - claude-code
+      - cli
+      - codex
+      - codex-cli
+      - context-memory
+      - cursor
+      - cursor-ai
+      - developer-tools
+      - first-principles
+      - gemini-cli
+      - prompt-engineering
+      - reasoning
+      - structured-reasoning
+      - systems-thinking
+    last_checked_at: "2026-05-05T21:03:26.613Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:26.613Z"
+      bytes: 19379
+insights:
+  summary: Haft is a CLI and MCP plugin that adds structured engineering decision-making, spec governance, and evidence decay tracking to AI coding agents like Claude Code and Codex.
+  why_it_matters: It forces agents to frame problems, compare options under parity, and record falsifiable decisions before writing code, aiming to prevent velocity from outrunning engineering discipline.
+  mental_damage: Finally, a tool to govern the agents that are already ignoring your half-written Jira tickets with unprecedented confidence.
+  tags:
+    - agents
+    - governance
+    - spec-driven
+    - mcp
+    - cli
+  confidence: high
+curation:
+  status: included
+  reason: Haft integrates directly into the coding agent workflow as a CLI harness and MCP plugin that governs Claude Code and Codex execution, which fits the coding-agents category for repo-level agent collaboration.
+  evidence:
+    - Repo description states it is an 'Engineering decisions engine' for Claude Code, Cursor, Gemini CLI, and Codex.
+    - README describes an MCP plugin and CLI Harness that sit between developer intentions and agent execution inside the repo.
+    - Active project with 1311 stars, created 2025-12-10 and pushed 2026-05-04, not archived.
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1311) exceeded threshold (150)
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:35:06.948Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.705Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:26.613Z"
+    cause: null
+    next_retry_at: null

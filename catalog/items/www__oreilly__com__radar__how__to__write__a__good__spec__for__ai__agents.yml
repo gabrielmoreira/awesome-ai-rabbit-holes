@@ -1,0 +1,76 @@
+id: www__oreilly__com__radar__how__to__write__a__good__spec__for__ai__agents
+kind: website
+name: how-to-write-a-good-spec-for-ai-agents
+canonical_url: https://www.oreilly.com/radar/how-to-write-a-good-spec-for-ai-agents
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__oreilly__com__radar__how__to__write__a__good__spec__for__ai__agents__awesome-list__engineering4ai__awesome-spec-driven-development
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: Engineering4AI/awesome-spec-driven-development
+        url: https://github.com/engineering4ai/awesome-spec-driven-development
+        repository: Engineering4AI/awesome-spec-driven-development
+      extraction:
+        mode: parsed
+        section_path:
+          - Introductions
+        anchor_text: How to write a good spec for AI agents
+        extracted_url: https://www.oreilly.com/radar/how-to-write-a-good-spec-for-ai-agents
+        surrounding_text: "- [How to write a good spec for AI agents](https://www.oreilly.com/radar/how-to-write-a-good-spec-for-ai-agents/) - Explores why specifications are becoming the most important skill in the age of AI agents."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A written guide by Addy Osmani on how to write effective specifications for AI coding agents, covering structure, task breakdown, and context management.
+  why_it_matters: It provides a structured framework for developers to move from vague prompts to spec-driven workflows that keep agents like Claude Code and Gemini CLI focused and productive.
+  mental_damage: We now need a formal specification document just to explain to the AI what we want, turning every feature request into a miniature bureaucracy before the first line of code is even generated.
+  tags:
+    - spec-driven
+    - prompt-engineering
+    - ai-guide
+    - workflow
+  confidence: high
+curation:
+  status: included
+  reason: This is a practical guide about spec-first development workflows for AI agents, which fits the spec-driven-development category focused on specifications driving planning and generation.
+  evidence:
+    - Found in the 'awesome-spec-driven-development' list under the 'Introductions' section.
+    - The text explicitly promotes a 'spec-driven development' workflow where 'specs become the shared source of truth' and drive implementation, testing, and task breakdowns.
+    - It covers tools like Claude Code's Plan Mode and GitHub's Spec Kit, which are core spec-driven development workflows.
+placement:
+  primary_category: spec-driven-development
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.733Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:52:30.941Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

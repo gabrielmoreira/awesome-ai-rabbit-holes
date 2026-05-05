@@ -1,0 +1,98 @@
+id: github__metawake__ragtune
+kind: github-repo
+name: ragtune
+canonical_url: https://github.com/metawake/ragtune
+identity:
+  github_repo: metawake/ragtune
+provenance:
+  discoveries:
+    - id: discovery__github__metawake__ragtune__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Security
+          - Observability
+        anchor_text: RagTune
+        extracted_url: https://github.com/metawake/ragtune
+        surrounding_text: "| [RagTune](https://github.com/metawake/ragtune) | CLI tool for debugging and benchmarking RAG retrieval. EXPLAIN ANALYZE for your retrieval layer. | ![GitHub Badge](https://img.shields.io/github/stars/metawake/ragtune.svg?style=flat-square) |"
+        confidence: high
+metadata:
+  github:
+    stars: 11
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2025-12-23T12:12:17Z"
+    pushed_at: "2026-03-25T12:32:04Z"
+    description: EXPLAIN ANALYZE for RAG retrieval — inspect, debug, benchmark, and tune your retrieval layer
+    homepage: ""
+    topics:
+      - benchmarking
+      - chroma
+      - cli
+      - developer-tools
+      - embeddings
+      - evaluation
+      - llm
+      - metrics
+      - pgvector
+      - pinecone
+      - qdrant
+      - rag
+      - recall
+      - retrieval-augmented-generation
+      - vector-search
+      - weaviate
+    last_checked_at: "2026-05-05T21:03:36.753Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:36.752Z"
+      bytes: 12745
+insights:
+  summary: A CLI tool for debugging, benchmarking, and monitoring the retrieval layer of RAG pipelines with support for multiple vector stores and CI/CD integration.
+  why_it_matters: It gives developers concrete metrics like Recall@K and NeedleCoverage@K to catch retrieval regressions before they silently break production AI features.
+  mental_damage: Yet another reminder that your fancy LLM is only as smart as the five chunks of text your vector database decided to forget.
+  tags:
+    - rag
+    - evals
+    - cli
+    - vector-search
+    - debugging
+  confidence: high
+curation:
+  status: included
+  reason: This is a developer-facing eval and observability tool for RAG retrieval, fitting squarely into the evaluations and benchmarks category.
+  evidence:
+    - Repo description explicitly states 'inspect, debug, benchmark, and tune your retrieval layer'.
+    - README demonstrates batch evaluation, CI/CD quality gates, and metrics like Recall@5 and NeedleCoverage@K.
+    - Listed in Awesome-LLMOps under the 'Security > Observability' section.
+placement:
+  primary_category: evals
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.706Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:36.753Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:37:11.235Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

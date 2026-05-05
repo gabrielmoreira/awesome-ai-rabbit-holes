@@ -1,0 +1,79 @@
+id: www__truefoundry__com
+kind: website
+name: www.truefoundry.com
+canonical_url: https://www.truefoundry.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__truefoundry__com__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - LLMOps
+        anchor_text: TrueFoundry
+        extracted_url: https://www.truefoundry.com
+        surrounding_text: "| [TrueFoundry](https://www.truefoundry.com/)                        | Deploy LLMOps tools like Vector DBs, Embedding server etc on your own Kubernetes (EKS,AKS,GKE,On-prem) Infra including deploying, Fine-tuning, tracking Prompts and serving Open Source LLM Models with full Data Security and Optimal GPU Management. Train and Launch your LLM Application at Production scale with best Software Engineering practices.                                              |                                                                                                           |"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: TrueFoundry is an enterprise-grade AI infrastructure platform providing an AI Gateway (including MCP and Agent Gateways), model serving, fine-tuning, and observability for deploying and governing agentic AI applications across various environments.
+  why_it_matters: It provides developers with a unified control plane to deploy any model or agent framework, manage prompt lifecycles, and enforce governance and cost controls without sinking time into custom MLOps plumbing.
+  mental_damage: Just when you thought your job description was safe as 'Software Engineer,' the platform promises to turn your GPU fleet into a self-optimizing engine that makes you wonder if 'Infrastructure Whisperer' is next on the business card.
+  tags:
+    - llmops
+    - ai-gateway
+    - agents
+    - mcp
+    - enterprise
+  confidence: high
+curation:
+  status: included
+  reason: TrueFoundry is an operational control plane and platform for deploying, governing, and observing agentic AI and LLM workflows, which fits the end-user platform definition for agent orchestration rather than a code-first SDK or a primary coding assistant.
+  evidence:
+    - Source list 'Awesome-LLMOps' identifies it as an AI Gateway combining LLM, MCP, and Agent Gateways.
+    - Scraped site describes a 'unified control plane' for deploying, scaling, and tracing agentic AI workloads and infrastructure observability.
+    - Product features include AI Gateway, MCP Registry, Prompt Lifecycle Management, and deployment for Langgraph/CrewAI agents.
+placement:
+  primary_category: agent-orchestration
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.734Z"
+    cause:
+      type: ambiguous_canonicalization
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:53:59.986Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

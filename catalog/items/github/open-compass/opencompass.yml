@@ -1,0 +1,88 @@
+id: github__open-compass__opencompass
+kind: github-repo
+name: opencompass
+canonical_url: https://github.com/open-compass/opencompass
+identity:
+  github_repo: open-compass/opencompass
+provenance:
+  discoveries:
+    - id: discovery__github__open-compass__opencompass__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 评估 Evaluation
+        anchor_text: opencompass (`🔥`)
+        extracted_url: https://github.com/open-compass/opencompass
+        surrounding_text: "2. [opencompass (`🔥`)](https://github.com/open-compass/opencompass): OpenCompass is an LLM evaluation platform, supporting a wide range of models (Llama3, Mistral, InternLM2,GPT-4,LLaMa2, Qwen,GLM, Claude, etc) over 100+ datasets."
+        confidence: high
+metadata:
+  github:
+    stars: 6962
+    forks: 774
+    license: Apache-2.0
+    archived: false
+    created_at: "2023-06-15T12:42:58Z"
+    pushed_at: "2026-04-20T12:05:42Z"
+    description: OpenCompass is an LLM evaluation platform, supporting a wide range of models (Llama3, Mistral, InternLM2,GPT-4,LLaMa2, Qwen,GLM, Claude, etc) over 100+ datasets.
+    homepage: https://opencompass.org.cn/
+    topics:
+      - benchmark
+      - chatgpt
+      - evaluation
+      - large-language-model
+      - llama2
+      - llama3
+      - llm
+      - openai
+    last_checked_at: "2026-05-05T21:04:02.539Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:02.539Z"
+      bytes: 24963
+insights:
+  summary: OpenCompass is an LLM evaluation platform that benchmarks a wide range of models against over 100 datasets using a Python-based evaluation harness.
+  why_it_matters: It provides developers and researchers with the infrastructure to objectively measure and compare model performance across standardized tasks.
+  mental_damage: Just when you thought the model was smart enough to ship, you now have an entire platform dedicated to proving exactly how mediocre it remains on obscure reasoning benchmarks.
+  tags:
+    - llm
+    - benchmark
+    - evaluation
+    - testing
+  confidence: high
+curation:
+  status: included
+  reason: The project is a dedicated evaluation framework and benchmark platform for LLMs, which fits the Evaluations and Benchmarks category perfectly.
+  evidence:
+    - Repo description explicitly states it is an 'LLM evaluation platform' supporting 100+ datasets.
+    - README details support for various evaluation benchmarks like MuSR, BABILong, and MATHVerifyEvaluator.
+    - Listed in the 'awesome-LLM-resources' directory under the '评估 Evaluation' section.
+placement:
+  primary_category: evals
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (6962) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.711Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:02.540Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:42:14.257Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

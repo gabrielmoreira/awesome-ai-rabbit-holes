@@ -1,0 +1,82 @@
+id: github__maxim-saplin__mcp_safe_local_python_executor
+kind: github-repo
+name: mcp_safe_local_python_executor
+canonical_url: https://github.com/maxim-saplin/mcp_safe_local_python_executor
+identity:
+  github_repo: maxim-saplin/mcp_safe_local_python_executor
+provenance:
+  discoveries:
+    - id: discovery__github__maxim-saplin__mcp_safe_local_python_executor__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🤖 <a name="coding-agents"></a>Coding Agents
+        anchor_text: maxim-saplin/mcp_safe_local_python_executor
+        extracted_url: https://github.com/maxim-saplin/mcp_safe_local_python_executor
+        surrounding_text: "- [maxim-saplin/mcp_safe_local_python_executor](https://github.com/maxim-saplin/mcp_safe_local_python_executor) - Safe Python interpreter based on HF Smolagents `LocalPythonExecutor`"
+        confidence: high
+metadata:
+  github:
+    stars: 44
+    forks: 11
+    license: MIT
+    archived: false
+    created_at: "2025-03-27T12:36:20Z"
+    pushed_at: "2025-07-17T10:42:27Z"
+    description: Stdio MCP Server wrapping custom Python runtime (LocalPythonExecutor) from Hugging Faces' `smolagents` framework. The runtime combines the ease of setup (compared to docker, VM, cloud runtimes) while providing safeguards and limiting operations/imports that are allowed inside the runtime.
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:03:32.202Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:32.202Z"
+      bytes: 4871
+insights:
+  summary: A stdio MCP server that wraps Hugging Face's LocalPythonExecutor to provide a safer, Docker-free local Python runtime for executing LLM-generated code via MCP-compatible clients like Claude Desktop.
+  why_it_matters: Developers can give LLM clients a local code execution capability with restricted imports and no file I/O, avoiding the heavy setup of containers or the risks of raw eval().
+  mental_damage: Another day, another layer of wrapping around a wrapper so we can safely execute hallucinated Python without accidentally formatting our hard drive.
+  tags:
+    - mcp
+    - code-execution
+    - local-runtime
+    - safety
+    - smolagents
+  confidence: high
+curation:
+  status: included
+  reason: The project is an MCP server that exposes a sandboxed Python executor as a tool for MCP-compatible clients, fitting cleanly into MCP infrastructure.
+  evidence:
+    - Repo description explicitly states it is a 'Stdio MCP Server wrapping custom Python runtime'
+    - README says it exposes the Python executor 'via MCP (Model Context Protocol) as a tool for LLM apps like Claude Desktop, Cursor or any other MCP compatible client'
+    - Listed in awesome-mcp-servers under Server Implementations
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.705Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:32.202Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:36:15.693Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

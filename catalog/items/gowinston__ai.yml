@@ -1,0 +1,76 @@
+id: gowinston__ai
+kind: website
+name: gowinston.ai
+canonical_url: https://gowinston.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__gowinston__ai__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Winston AI
+        extracted_url: https://gowinston.ai
+        surrounding_text: "- **[Winston AI](https://github.com/gowinston-ai/winston-ai-mcp-server)** - AI detector MCP server with industry leading accuracy rates in detecting use of AI in text and images. The [Winston AI](https://gowinston.ai) MCP server also offers a robust plagiarism checker to help maintain integrity."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Winston AI is a SaaS platform and API for detecting AI-generated text, images, and plagiarism, primarily targeting education, SEO, and publishing workflows.
+  why_it_matters: It offers an API and integrations for developers building integrity checks into content platforms, though it targets end-users more than codebases.
+  mental_damage: We have entered an era where developers must now engineer systems to detect the output of the very models they are racing to integrate.
+  tags:
+    - ai-detection
+    - content-integrity
+    - api
+    - seo
+  confidence: high
+curation:
+  status: excluded
+  reason: While it offers an API, the core product is a consumer-facing content detection and plagiarism service for educators and SEO writers, not a tool that assists developers in writing code, orchestrating agents, or building software.
+  evidence:
+    - Scraped site context describes solutions 'For Education', 'For SEO', and 'For Writers', not software development.
+    - Product features focus on essay grading, plagiarism checking, and 'human scores' for text, lacking a developer workflow angle.
+    - Listed in awesome-mcp-servers only as a detection tool, but the primary surface is a browser-first SaaS dashboard, not a developer tool.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.728Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:45:10.699Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

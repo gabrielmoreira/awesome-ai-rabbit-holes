@@ -1,0 +1,101 @@
+id: github__amol21p__mcp-interactive-terminal
+kind: github-repo
+name: mcp-interactive-terminal
+canonical_url: https://github.com/amol21p/mcp-interactive-terminal
+identity:
+  github_repo: amol21p/mcp-interactive-terminal
+provenance:
+  discoveries:
+    - id: discovery__github__amol21p__mcp-interactive-terminal__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - 🖥️ Command Line
+        anchor_text: amol21p/mcp-interactive-terminal
+        extracted_url: https://github.com/amol21p/mcp-interactive-terminal
+        surrounding_text: "-   **[amol21p/mcp-interactive-terminal](https://github.com/amol21p/mcp-interactive-terminal)** [![GitHub stars](https://img.shields.io/github/stars/amol21p/mcp-interactive-terminal?style=social)](https://github.com/amol21p/mcp-interactive-terminal): Real interactive terminal sessions for REPLs, SSH, database clients, and any interactive CLI — with clean text output, smart completion detection, and multi-layer security."
+        confidence: high
+metadata:
+  github:
+    stars: 13
+    forks: 5
+    license: MIT
+    archived: false
+    created_at: "2026-02-15T00:03:32Z"
+    pushed_at: "2026-02-16T16:30:41Z"
+    description: MCP server that gives AI agents (Claude Code, Cursor, Windsurf) real interactive terminal sessions — REPLs, SSH, databases, Docker, and any interactive CLI with clean output and smart completion detection
+    homepage: null
+    topics:
+      - ai-agent
+      - ai-tools
+      - anthropic
+      - claude-code
+      - cli
+      - cursor
+      - developer-tools
+      - interactive-terminal
+      - llm
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - node-pty
+      - pty
+      - repl
+      - shell
+      - ssh
+      - terminal
+      - windsurf
+      - xterm
+    last_checked_at: "2026-05-05T21:01:02.597Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:02.597Z"
+      bytes: 13926
+insights:
+  summary: An MCP server that provides AI coding agents with real interactive terminal sessions using PTY emulation to support REPLs, SSH, databases, and other interactive CLI tools.
+  why_it_matters: It bridges a critical gap where AI agents fail to handle interactive commands, allowing them to run stateful sessions like Rails consoles, database clients, and SSH connections directly within the development workflow.
+  mental_damage: We have finally engineered a way for an AI to get stuck in an interactive Python REPL, just like the rest of us.
+  tags:
+    - mcp
+    - terminal
+    - pty
+    - cli
+    - agent-infrastructure
+  confidence: high
+curation:
+  status: included
+  reason: The project is fundamentally an MCP server designed to extend the capabilities of MCP-compatible AI agents, fitting squarely into the MCP infrastructure category.
+  evidence:
+    - "Repo description explicitly states: 'MCP server that gives AI agents... real interactive terminal sessions'."
+    - README confirms it communicates over stdio using the Model Context Protocol and provides setup for Claude Code, Cursor, and Windsurf.
+    - Listed in the awesome-mcp-list under the 'Command Line' section, reinforcing its identity as MCP tooling.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.678Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:02.597Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:08:01.096Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

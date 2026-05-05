@@ -1,0 +1,89 @@
+id: github__corebasehq__coremcp
+kind: github-repo
+name: coremcp
+canonical_url: https://github.com/corebasehq/coremcp
+identity:
+  github_repo: corebasehq/coremcp
+provenance:
+  discoveries:
+    - id: discovery__github__corebasehq__coremcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🗄️ <a name="databases"></a>Databases
+        anchor_text: corebasehq/coremcp
+        extracted_url: https://github.com/corebasehq/coremcp
+        surrounding_text: "- [corebasehq/coremcp](https://github.com/corebasehq/coremcp) [![coremcp](https://glama.ai/mcp/servers/CoreBaseHQ/coremcp/badges/score.svg)](https://glama.ai/mcp/servers/CoreBaseHQ/coremcp) 🏎️ ☁️ 🏠 - A secure, tunnel-native database bridge for AI agents. Connects localhost & on-premise databases (MSSQL, etc.) to LLMs with AST-based query safety and PII masking."
+        confidence: high
+metadata:
+  github:
+    stars: 3
+    forks: 1
+    license: Apache-2.0
+    archived: false
+    created_at: "2026-02-11T18:06:13Z"
+    pushed_at: "2026-05-03T10:31:50Z"
+    description: "CoreMCP: Connect Legacy Databases to AI Agents via Model Context Protocol. Open-source bridge for LLM data analysis."
+    homepage: https://corebasehq.com
+    topics:
+      - database-bridge
+      - golang
+      - legacy-systems
+      - llm-ops
+      - mcp
+      - mcp-server
+      - mssql
+    last_checked_at: "2026-05-05T21:01:41.710Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:41.710Z"
+      bytes: 16422
+insights:
+  summary: An open-source MCP server written in Go that connects AI assistants to legacy databases like MSSQL, providing schema discovery and read-only query tools with built-in security controls.
+  why_it_matters: It allows developers to expose legacy database contexts to LLMs for analysis without writing custom connectors or risking destructive queries on production data.
+  mental_damage: Finally, a secure bridge to let your AI agent stare directly into the abyss of your 1998 Turkish ERP database, character encoding and all.
+  tags:
+    - mcp
+    - database
+    - golang
+    - legacy-systems
+    - llm-ops
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server implementation designed to bridge AI agents and databases, fitting the MCP infrastructure category.
+  evidence:
+    - Repo description identifies it as a 'bridge' for LLM data analysis via Model Context Protocol.
+    - README confirms it is a 'Model Context Protocol (MCP) server for database operations' with MSSQL support.
+    - Listed in the awesome-mcp-servers directory under 'Server Implementations > Databases'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.683Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:41.710Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:14:31.501Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

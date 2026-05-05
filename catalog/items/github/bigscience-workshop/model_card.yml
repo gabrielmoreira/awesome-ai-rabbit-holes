@@ -1,0 +1,81 @@
+id: github__bigscience-workshop__model_card
+kind: github-repo
+name: model_card
+canonical_url: https://github.com/bigscience-workshop/model_card
+identity:
+  github_repo: bigscience-workshop/model_card
+provenance:
+  discoveries:
+    - id: discovery__github__bigscience-workshop__model_card__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Model
+          - Large Language Model
+        anchor_text: Bloom
+        extracted_url: https://github.com/bigscience-workshop/model_card
+        surrounding_text: "| [Bloom](https://github.com/bigscience-workshop/model_card)              | BigScience Large Open-science Open-access Multilingual Language Model                                                                                                                      | ![GitHub Badge](https://img.shields.io/github/stars/bigscience-workshop/model_card.svg?style=flat-square) |"
+        confidence: high
+metadata:
+  github:
+    stars: 26
+    forks: 5
+    license: Apache-2.0
+    archived: false
+    created_at: "2022-05-05T18:19:05Z"
+    pushed_at: "2022-07-11T18:57:23Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:01:20.487Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:20.487Z"
+      bytes: 20550
+insights:
+  summary: This repository hosts the deprecated model card and documentation for the BLOOM (BigScience Large Open-science Open-access Multilingual) 176-billion-parameter language model.
+  why_it_matters: Developers evaluating or fine-tuning open-source multilingual models can reference this document for technical specs, training data details, and known limitations.
+  mental_damage: We have reached a point where the documentation for a dead model is still more organized than most living startup codebases.
+  tags:
+    - llm
+    - model-card
+    - documentation
+    - bloom
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a static model card and research artifact for the BLOOM LLM, not a developer tool, agent, framework, or infrastructure component.
+  evidence:
+    - README explicitly states 'DEPRECATED. This is now live at https://huggingface.co/bigscience/bloom'.
+    - Content is a model specification document, not a tool for coding, building apps, or orchestration.
+    - Repo has seen no activity since July 2022 and is a research artifact rather than developer tooling.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.681Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:20.487Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:10:45.596Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

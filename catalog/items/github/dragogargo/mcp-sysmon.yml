@@ -1,0 +1,81 @@
+id: github__dragogargo__mcp-sysmon
+kind: github-repo
+name: mcp-sysmon
+canonical_url: https://github.com/dragogargo/mcp-sysmon
+identity:
+  github_repo: dragogargo/mcp-sysmon
+provenance:
+  discoveries:
+    - id: discovery__github__dragogargo__mcp-sysmon__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📊 <a name="monitoring"></a>Monitoring
+        anchor_text: dragogargo/mcp-sysmon
+        extracted_url: https://github.com/dragogargo/mcp-sysmon
+        surrounding_text: "- [dragogargo/mcp-sysmon](https://github.com/dragogargo/mcp-sysmon) [![dragogargo/mcp-sysmon MCP server](https://glama.ai/mcp/servers/dragogargo/mcp-sysmon/badges/score.svg)](https://glama.ai/mcp/servers/dragogargo/mcp-sysmon) 🐍 🏠 🍎 🐧 - Local system monitoring — CPU, memory, swap, disk, network, and process management. Find resource-hungry processes, diagnose performance issues, and kill processes via AI."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-04-28T00:38:10Z"
+    pushed_at: "2026-04-28T01:24:45Z"
+    description: MCP server for system monitoring — CPU, memory, disk, network, and process management via Claude
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:01:56.872Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:56.872Z"
+      bytes: 1813
+insights:
+  summary: An MCP server that exposes system monitoring tools—CPU, memory, disk, network, and process management—to Claude Desktop and Claude Code.
+  why_it_matters: It lets developers ask natural-language questions about system performance and process health directly inside their AI-assisted workflows instead of switching to terminal monitors.
+  mental_damage: We have finally achieved the future where an AI reads htop for you, while you still have to debug why your laptop is melting.
+  tags:
+    - mcp
+    - system-monitoring
+    - claude
+    - dev-tools
+  confidence: medium
+curation:
+  status: included
+  reason: This is a Model Context Protocol server that adds system-monitoring tools to Claude, fitting cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description states: 'MCP server for system monitoring — CPU, memory, disk, network, and process management via Claude'."
+    - README lists tools like get_system_overview and kill_process, and shows usage with Claude Desktop and Claude Code.
+    - Listed in awesome-mcp-servers under Server Implementations > Monitoring.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.685Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:56.872Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:17:04.339Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

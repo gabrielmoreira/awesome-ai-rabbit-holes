@@ -1,0 +1,84 @@
+id: github__markmap__markmap
+kind: github-repo
+name: markmap
+canonical_url: https://github.com/markmap/markmap
+identity:
+  github_repo: markmap/markmap
+provenance:
+  discoveries:
+    - id: discovery__github__markmap__markmap__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: markmap
+        extracted_url: https://github.com/markmap/markmap
+        surrounding_text: "- [jinzcdev/markmap-mcp-server](https://github.com/jinzcdev/markmap-mcp-server) 📇 🏠 - An MCP server built on [markmap](https://github.com/markmap/markmap) that converts **Markdown** to interactive **mind maps**. Supports multi-format exports (PNG/JPG/SVG), live browser preview, one-click Markdown copy, and dynamic visualization features."
+        confidence: high
+metadata:
+  github:
+    stars: 12744
+    forks: 963
+    license: MIT
+    archived: false
+    created_at: "2020-01-13T10:23:34Z"
+    pushed_at: "2025-06-12T02:21:16Z"
+    description: Build mindmaps with plain text
+    homepage: https://markmap.js.org/
+    topics:
+      - markmap
+      - mindmap
+    last_checked_at: "2026-05-05T21:03:30.276Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:30.276Z"
+      bytes: 1473
+insights:
+  summary: A tool that visualizes Markdown documents as interactive mindmaps, available as a web app, VSCode extension, and Vim/Emacs plugins.
+  why_it_matters: Developers can instantly convert structured documentation, READMEs, or meeting notes into visual hierarchies to better understand complex project structures.
+  mental_damage: You have now successfully automated the creation of mindmaps, freeing up exactly zero brain cells because you'll still spend forty minutes theming the nodes instead of writing code.
+  tags:
+    - markdown
+    - visualization
+    - mindmap
+    - vscode-extension
+    - documentation
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a documentation visualization utility and does not function as an AI tool, agent, or developer infrastructure.
+  evidence:
+    - Repo description states 'Build mindmaps with plain text', with no mention of AI, agents, or generative features.
+    - README focuses on visualizing Markdown into mindmaps across editors, lacking any AI-assisted coding or workflow automation.
+    - Although listed in awesome-mcp-servers, the core markmap project is a visualization library, not an MCP server or AI tool itself.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (12744) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.705Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:30.276Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:35:52.072Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

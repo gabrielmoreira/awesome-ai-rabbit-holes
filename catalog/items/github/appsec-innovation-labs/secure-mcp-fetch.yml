@@ -1,0 +1,80 @@
+id: github__appsec-innovation-labs__secure-mcp-fetch
+kind: github-repo
+name: secure-mcp-fetch
+canonical_url: https://github.com/appsec-innovation-labs/secure-mcp-fetch
+identity:
+  github_repo: appsec-innovation-labs/secure-mcp-fetch
+provenance:
+  discoveries:
+    - id: discovery__github__appsec-innovation-labs__secure-mcp-fetch__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: Secure Fetch
+        extracted_url: https://github.com/appsec-innovation-labs/secure-mcp-fetch
+        surrounding_text: "- **[Secure Fetch](https://github.com/appsec-innovation-labs/secure-mcp-fetch)** - Secure fetch to prevent access to local resources"
+        confidence: high
+metadata:
+  github:
+    stars: 3
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2025-04-25T21:02:34Z"
+    pushed_at: "2025-04-25T21:24:41Z"
+    description: Simple secured fetch
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:01:07.232Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:07.232Z"
+      bytes: 1349
+insights:
+  summary: A simple MCP server built with FastMCP that provides secure URL fetching with IP validation, private network blocking, and domain allowlists.
+  why_it_matters: It gives MCP-connected agents a safe way to fetch external content without risking requests to internal networks or untrusted domains.
+  mental_damage: We have reached the point where the agent needs its own firewall just to fetch a URL without joining a botnet.
+  tags:
+    - mcp
+    - security
+    - fetch
+    - fastmcp
+  confidence: medium
+curation:
+  status: included
+  reason: This is an MCP server implementation focused on secure URL fetching, which clearly fits the MCP Servers and Tooling category.
+  evidence:
+    - Repo description states 'Simple secured fetch' and README confirms it 'implements a secure URL fetching tool using FastMCP'
+    - Listed in awesome-mcp-servers under 'Community Servers' section
+    - Provides MCP-specific security features like private IP checking and domain allowlists
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.679Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:07.232Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:08:43.888Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

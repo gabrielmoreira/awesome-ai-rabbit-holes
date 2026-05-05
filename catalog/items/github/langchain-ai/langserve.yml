@@ -1,0 +1,86 @@
+id: github__langchain-ai__langserve
+kind: github-repo
+name: langserve
+canonical_url: https://github.com/langchain-ai/langserve
+identity:
+  github_repo: langchain-ai/langserve
+provenance:
+  discoveries:
+    - id: discovery__github__langchain-ai__langserve__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - LangChain Framework
+        anchor_text: LangServe
+        extracted_url: https://github.com/langchain-ai/langserve
+        surrounding_text: "- [LangServe](https://github.com/langchain-ai/langserve): LangServe helps developers deploy LangChain runnables and chains as a REST API. ![GitHub Repo stars](https://img.shields.io/github/stars/langchain-ai/langserve?style=social)"
+        confidence: high
+metadata:
+  github:
+    stars: 2324
+    forks: 271
+    license: NOASSERTION
+    archived: true
+    created_at: "2023-09-29T18:04:58Z"
+    pushed_at: "2026-05-05T19:49:07Z"
+    description: LangServe 🦜️🏓
+    homepage: ""
+    topics:
+      - deployment
+      - fastapi
+      - langchain
+      - langchain-python
+      - llm
+      - llms
+    last_checked_at: "2026-05-05T21:03:16.098Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:16.098Z"
+      bytes: 39485
+insights:
+  summary: LangServe is a Python library that deploys LangChain runnables and chains as a REST API using FastAPI and Pydantic, with an accompanying client SDK.
+  why_it_matters: It allows developers to quickly wrap and serve LangChain logic as production-ready APIs with automatic schema validation, streaming endpoints, and built-in tracing.
+  mental_damage: A core deployment tool deprecated less than a year after launch, reminding us that in modern AI infrastructure, your integration layer may be discontinued before your first endpoint stabilizes.
+  tags:
+    - langchain
+    - deployment
+    - fastapi
+    - llm-serving
+  confidence: high
+curation:
+  status: excluded
+  reason: The repository is explicitly deprecated and archived, with the maintainers directing all new users to LangGraph Platform instead.
+  evidence:
+    - "Repository shows archived: yes"
+    - README includes a deprecation warning stating it was deprecated on Nov 18, 2024, with a migration path to LangGraph Platform
+    - Project purpose is superseded by a newer LangChain ecosystem replacement
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: needs_review
+  reason: Repository is archived
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.703Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:16.098Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:33:05.569Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

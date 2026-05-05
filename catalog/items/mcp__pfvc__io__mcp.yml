@@ -1,0 +1,74 @@
+id: mcp__pfvc__io__mcp
+kind: website
+name: mcp
+canonical_url: https://mcp.pfvc.io/mcp
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__mcp__pfvc__io__mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: https://mcp.pfvc.io/mcp/
+        extracted_url: https://mcp.pfvc.io/mcp
+        surrounding_text: "- **[AllInOneMCP](https://github.com/particlefuture/MCPDiscovery) - MCP of MCPs. A central hub for MCP servers. Helps you discover available MCP servers and learn how to install and use them. REMOTE! Use the url [https://mcp.pfvc.io/mcp/](https://mcp.pfvc.io/mcp/) to add the server. **Remember the final backslash\\*\\*."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A directory website for discovering and submitting Model Context Protocol (MCP) servers.
+  why_it_matters: It aggregates community-contributed MCP servers in one place, making it easier for developers to find integrations for their AI tools.
+  mental_damage: Finally, a dedicated website to solve the critical problem of having too many websites listing the same MCP servers.
+  tags:
+    - mcp
+    - directory
+    - servers
+  confidence: medium
+curation:
+  status: included
+  reason: It is a directory and submission portal for MCP servers, fitting the 'awesome-awesomes' category as a navigation aid for developers.
+  evidence:
+    - URL is https://mcp.pfvc.io/mcp, indicating a web-based directory/listing site.
+    - Referenced in awesome-mcp-servers as a submission target for community servers.
+placement:
+  primary_category: awesome-awesomes
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.729Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:46:22.402Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

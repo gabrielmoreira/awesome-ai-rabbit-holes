@@ -1,0 +1,83 @@
+id: github__openstack-kr__python-openstackmcp-server
+kind: github-repo
+name: python-openstackmcp-server
+canonical_url: https://github.com/openstack-kr/python-openstackmcp-server
+identity:
+  github_repo: openstack-kr/python-openstackmcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__openstack-kr__python-openstackmcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
+        anchor_text: openstack-kr/python-openstackmcp-server
+        extracted_url: https://github.com/openstack-kr/python-openstackmcp-server
+        surrounding_text: "- [openstack-kr/python-openstackmcp-server](https://github.com/openstack-kr/python-openstackmcp-server) 🐍 ☁️ - OpenStack MCP server for cloud infrastructure management based on openstacksdk."
+        confidence: high
+metadata:
+  github:
+    stars: 19
+    forks: 7
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-06-23T01:21:52Z"
+    pushed_at: "2026-04-03T15:34:43Z"
+    description: openstack mcp server
+    homepage: ""
+    topics:
+      - mcp-server
+      - openstack
+    last_checked_at: "2026-05-05T21:04:07.365Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:07.365Z"
+      bytes: 4119
+insights:
+  summary: An MCP server that lets AI assistants manage OpenStack resources like compute, networking, and storage via the Model Context Protocol.
+  why_it_matters: Developers running infrastructure on OpenStack can now delegate cloud resource management to their local AI assistants instead of writing raw SDK calls.
+  mental_damage: We have successfully abstracted cloud infrastructure management into a protocol that requires an AI to translate your intent into API calls you could have written yourself in the time it took to configure the MCP server.
+  tags:
+    - mcp
+    - openstack
+    - cloud
+    - infrastructure
+  confidence: high
+curation:
+  status: included
+  reason: This is a straightforward MCP server implementation for OpenStack, fitting cleanly into the MCP tooling category.
+  evidence:
+    - Repo description explicitly states 'openstack mcp server'
+    - README confirms it implements the Model Context Protocol to interact with OpenStack services
+    - Listed in awesome-mcp-servers under Cloud Platforms section
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.711Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:07.365Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:42:58.453Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

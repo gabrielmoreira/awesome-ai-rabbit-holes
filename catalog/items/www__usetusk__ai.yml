@@ -1,0 +1,77 @@
+id: www__usetusk__ai
+kind: website
+name: www.usetusk.ai
+canonical_url: https://www.usetusk.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__usetusk__ai__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Tusk
+        anchor_text: Tusk
+        extracted_url: https://usetusk.ai
+        surrounding_text: "## [Tusk](https://usetusk.ai/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Tusk is a developer tool that uses production traffic and business context to automatically generate, self-heal, and enforce unit, API, and integration tests within CI/CD workflows and pull requests.
+  why_it_matters: It shifts testing left by autonomously building coverage and catching regressions directly in the PR workflow, allowing teams to ship faster without manually writing thousands of test cases.
+  mental_damage: We have now successfully automated the writing of tests that verify the code written by the agents that we summoned because we were too busy automating testing to write the code ourselves.
+  tags:
+    - testing
+    - ci-cd
+    - code-review
+    - automation
+    - coverage
+  confidence: high
+curation:
+  status: included
+  reason: Tusk acts as an autonomous agent that directly interacts with source code by generating, iterating on, and maintaining tests and reviews within the repo and PR workflow.
+  evidence:
+    - Scraped site describes it as an 'AI verification layer for coding agents' that 'self-iterates on its tests' and adds them directly to PRs.
+    - Listed in awesome-ai-agents under the specific use case of API, unit, and integration testing for regression prevention.
+    - CLI installation and 'tusk drift setup' commands indicate a direct integration into the developer's local and CI environment.
+placement:
+  primary_category: coding-agents
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.734Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:54:00.678Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

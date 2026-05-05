@@ -1,0 +1,80 @@
+id: github__gentoro-gt__mcp-nodejs-server
+kind: github-repo
+name: mcp-nodejs-server
+canonical_url: https://github.com/gentoro-gt/mcp-nodejs-server
+identity:
+  github_repo: gentoro-gt/mcp-nodejs-server
+provenance:
+  discoveries:
+    - id: discovery__github__gentoro-gt__mcp-nodejs-server__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: Gentoro
+        extracted_url: https://github.com/gentoro-gt/mcp-nodejs-server
+        surrounding_text: "- **[Gentoro](https://github.com/gentoro-GT/mcp-nodejs-server)** - Gentoro generates MCP Servers based on OpenAPI specifications."
+        confidence: high
+metadata:
+  github:
+    stars: 6
+    forks: 10
+    license: Apache-2.0
+    archived: false
+    created_at: "2024-12-10T18:19:56Z"
+    pushed_at: "2025-03-19T13:17:11Z"
+    description: Integration layer between MCP Clients and Gentoro MCP Server implementation
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:19.029Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:19.029Z"
+      bytes: 2065
+insights:
+  summary: A Node.js MCP server that acts as an integration layer between MCP clients and Gentoro's bridge services, allowing AI agents like Claude to access tools defined in Gentoro.
+  why_it_matters: It lets developers expose Gentoro-managed tools and data sources to MCP-compatible clients without building custom integrations from scratch.
+  mental_damage: Yet another MCP server in a sea of 6-star repos, proving that the protocol's real killer feature is turning every SaaS wrapper into a discoverable standard.
+  tags:
+    - mcp
+    - nodejs
+    - integration
+    - gentoro
+  confidence: medium
+curation:
+  status: included
+  reason: This is a purpose-built MCP server implementation for Gentoro services, fitting cleanly under MCP Servers and Tooling.
+  evidence:
+    - Repo description states it is an 'Integration layer between MCP Clients and Gentoro MCP Server implementation'.
+    - README confirms it is an MCP Server for Gentoro services to enable Claude to interact with Gentoro bridges.
+    - Listed in awesome-mcp-servers under Community Servers, aligning with the MCP category scope.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.688Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:19.029Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:20:56.459Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

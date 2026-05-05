@@ -1,0 +1,75 @@
+id: www__jetbrains__com__qodana
+kind: website
+name: qodana
+canonical_url: https://www.jetbrains.com/qodana
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__jetbrains__com__qodana__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Code Review and Refactoring
+        anchor_text: JetBrains Qodana
+        extracted_url: https://www.jetbrains.com/qodana
+        surrounding_text: "- **[JetBrains Qodana](https://www.jetbrains.com/qodana/)** – AI-powered static analysis for code quality."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Qodana is a static code analysis engine by JetBrains that integrates IDE inspections into CI pipelines to enforce code quality.
+  why_it_matters: It allows teams to automate the enforcement of JetBrains' coding standards and inspections directly within their continuous integration workflow.
+  mental_damage: Just when you thought the AI agent was going to write all the code, JetBrains reminds you that you still need a non-AI agent to tell you that the code is messy.
+  tags:
+    - static-analysis
+    - ci-cd
+    - jetbrains
+    - code-quality
+  confidence: high
+curation:
+  status: excluded
+  reason: The tool is traditional static analysis and linting; it lacks the generative AI or agentic workflow required for this specific catalog.
+  evidence:
+    - Listed in awesome-ai-coding-tools under 'Code Review and Refactoring', but the description focuses on 'inspections' and 'static analysis'.
+    - Scraped site context describes it as a 'static code analysis engine' bringing IDE inspections to CI, with no mention of generative AI features.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.732Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:51:34.241Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

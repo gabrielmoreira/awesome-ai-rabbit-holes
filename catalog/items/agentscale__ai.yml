@@ -1,0 +1,75 @@
+id: agentscale__ai
+kind: website
+name: agentscale.ai
+canonical_url: http://agentscale.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__agentscale__ai__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - AgentScale
+        anchor_text: AgentScale
+        extracted_url: https://agentscale.ai
+        surrounding_text: "## [AgentScale](https://agentscale.ai/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: AgentScale AI is a business automation service that combines robotic process automation, large language models, and AI agents.
+  why_it_matters: It offers a blueprint for integrating LLMs with traditional RPA workflows to automate business processes.
+  mental_damage: Another 'cutting-edge' consultancy promising to automate your backlog with agents, provided you have the budget and the patience to explain your legacy RPA setup to a GPT wrapper.
+  tags:
+    - rpa
+    - business-automation
+    - llm-integration
+  confidence: high
+curation:
+  status: excluded
+  reason: The project is a business-facing consultancy service for RPA and automation, not a developer tool, agent framework, or coding assistant.
+  evidence:
+    - Site description focuses on 'empowering businesses with automation solutions' via RPA and agents.
+    - No repository, code, IDE plugin, or developer-facing interface is present.
+    - Listed in awesome-ai-agents as a service provider rather than a tool or framework.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.725Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:41:28.352Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

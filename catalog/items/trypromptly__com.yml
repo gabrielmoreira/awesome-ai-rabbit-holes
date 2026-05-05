@@ -1,0 +1,76 @@
+id: trypromptly__com
+kind: website
+name: trypromptly.com
+canonical_url: https://trypromptly.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__trypromptly__com__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: janhq/awesome-local-ai
+        url: https://github.com/janhq/awesome-local-ai
+        repository: janhq/awesome-local-ai
+      extraction:
+        mode: parsed
+        section_path:
+          - Developer tools
+        anchor_text: trypromptly
+        extracted_url: https://trypromptly.com
+        surrounding_text: "- [trypromptly](https://trypromptly.com/) - Create AI Apps & Chatbots in Minutes."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: TryPromptly is a web-based platform for building and deploying AI-powered applications and chatbots using prompts without requiring local setup.
+  why_it_matters: It allows developers to prototype and ship AI-driven internal tools or chat interfaces directly from a browser, skipping the boilerplate of model integration.
+  mental_damage: Another glorious entry in the 'why write code when you can write prompts to generate the code you used to write' ecosystem that ensures your deployment pipeline is now just a text box.
+  tags:
+    - prompt-to-app
+    - browser-builder
+    - no-code
+    - chatbot
+  confidence: medium
+curation:
+  status: included
+  reason: The product is a browser-first SaaS that turns prompts into deployable apps and chatbots, which aligns with the app-builders category definition.
+  evidence:
+    - URL is trypromptly.com, indicating a hosted web product rather than a local repo or IDE plugin.
+    - Listed under 'Developer tools' in the awesome-local-ai context as a complementary tool to local runtimes.
+    - Product name and domain suggest a prompt-centric builder experience typical of app-builders.
+placement:
+  primary_category: app-builders
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.731Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:48:48.519Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

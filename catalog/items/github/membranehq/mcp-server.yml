@@ -1,0 +1,82 @@
+id: github__membranehq__mcp-server
+kind: github-repo
+name: mcp-server
+canonical_url: https://github.com/membranehq/mcp-server
+identity:
+  github_repo: membranehq/mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__integration-app__mcp-server__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Integration App
+        extracted_url: https://github.com/integration-app/mcp-server
+        surrounding_text: "- **[Integration App](https://github.com/integration-app/mcp-server)** - Interact with any other SaaS applications on behalf of your customers."
+        confidence: high
+metadata:
+  github:
+    stars: 36
+    forks: 11
+    license: ISC
+    archived: false
+    created_at: "2025-01-14T21:52:32Z"
+    pushed_at: "2026-03-04T19:32:07Z"
+    description: MCP Server for Membrane
+    homepage: ""
+    topics:
+      - mcp
+      - mcp-server
+    last_checked_at: "2026-05-05T21:03:34.978Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:34.978Z"
+      bytes: 6527
+insights:
+  summary: An MCP server that exposes Membrane integration actions as tools for AI agents via HTTP and SSE transports.
+  why_it_matters: Developers building AI agents can connect to Membrane's integrations through a standardized MCP interface instead of writing custom wrappers.
+  mental_damage: Yet another MCP server enters the ecosystem, because apparently the future of software engineering is just wiring together integration catalogs via a protocol with a three-letter acronym.
+  tags:
+    - mcp
+    - membrane
+    - integrations
+    - agent-tools
+  confidence: high
+curation:
+  status: included
+  reason: This is a Model Context Protocol server that exposes Membrane's integration actions as tools, which fits cleanly into the MCP category.
+  evidence:
+    - Repo description states 'MCP Server for Membrane' with mcp and mcp-server topics.
+    - README confirms it is a Model Context Protocol server providing integration actions as tools with HTTP and SSE transports.
+    - Includes configuration examples for Cursor and Claude Desktop as MCP clients.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:36:46.999Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.698Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:34.978Z"
+    cause: null
+    next_retry_at: null

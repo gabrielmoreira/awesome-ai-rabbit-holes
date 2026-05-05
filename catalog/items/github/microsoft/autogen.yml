@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__microsoft__autogen__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-01T13:51:25.374Z"
+      discovered_at: "2026-05-05T19:41:00.656Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -16,13 +16,13 @@ provenance:
       extraction:
         mode: parsed
         section_path:
-          - "[AutoGen](https://github.com/microsoft/autogen)"
-        anchor_text: Image
+          - AutoGen
+        anchor_text: AutoGen
         extracted_url: https://github.com/microsoft/autogen
-        surrounding_text: "![Image](https://github.com/microsoft/autogen/raw/main/website/static/img/autogen_agentchat.png)"
+        surrounding_text: "## [AutoGen](https://github.com/microsoft/autogen)"
         confidence: high
     - id: discovery__github__microsoft__autogen__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-01T13:51:25.374Z"
+      discovered_at: "2026-05-05T19:41:00.656Z"
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -38,7 +38,7 @@ provenance:
         surrounding_text: "| [AutoGen](https://github.com/microsoft/autogen) | Microsoft's framework for building multi-agent conversational systems | ![Stars](https://img.shields.io/github/stars/microsoft/autogen) |"
         confidence: high
     - id: discovery__github__microsoft__autogen__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-01T13:51:25.374Z"
+      discovered_at: "2026-05-05T19:41:00.656Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -53,7 +53,7 @@ provenance:
         surrounding_text: "- [Autogen](https://github.com/microsoft/autogen): Enable Next-Gen Large Language Model Applications."
         confidence: high
     - id: discovery__github__microsoft__autogen__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-01T13:51:25.374Z"
+      discovered_at: "2026-05-05T19:41:00.656Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -68,7 +68,7 @@ provenance:
         surrounding_text: "- **[AutoGen](https://github.com/microsoft/autogen)** – Microsoft's multi-agent framework for building AI agent teams that collaborate on coding tasks."
         confidence: high
     - id: discovery__github__microsoft__autogen__awesome-list__kaushikb11__awesome-llm-agents
-      discovered_at: "2026-05-01T13:51:25.374Z"
+      discovered_at: "2026-05-05T19:41:00.656Z"
       source:
         type: awesome-list
         name: kaushikb11/awesome-llm-agents
@@ -82,10 +82,25 @@ provenance:
         extracted_url: https://github.com/microsoft/autogen
         surrounding_text: "- [Microsoft AutoGen](https://github.com/microsoft/autogen) - Framework for building"
         confidence: high
+    - id: discovery__github__microsoft__autogen__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 智能体 Agents
+        anchor_text: AutoGen
+        extracted_url: https://github.com/microsoft/autogen
+        surrounding_text: "1. [AutoGen](https://github.com/microsoft/autogen): AutoGen is a framework that enables the development of LLM applications using multiple agents that can converse with each other to solve tasks. [AutoGen AIStudio](https://autogen-studio.com/)"
+        confidence: high
 metadata:
   github:
-    stars: 57634
-    forks: 8688
+    stars: 57728
+    forks: 8712
     license: CC-BY-4.0
     archived: false
     created_at: "2023-08-18T11:43:45Z"
@@ -103,31 +118,50 @@ metadata:
       - framework
       - llm-agent
       - llm-framework
-    last_checked_at: "2026-05-01T13:51:36.904Z"
+    last_checked_at: "2026-05-05T21:03:37.965Z"
     readme:
-      fetched_at: "2026-05-01T13:51:36.904Z"
+      fetched_at: "2026-05-05T21:03:37.965Z"
       bytes: 20790
 insights:
-  summary: A Microsoft-built Python framework for building multi-agent AI applications and orchestrations.
-  why_it_matters: It gives developers a structured way to compose multiple LLM-backed agents (and tools like MCP servers) into reproducible workflows instead of one-off prompt scripts.
-  mental_damage: Nothing calms the soul like betting your architecture on a “maintenance mode” framework while simultaneously being told the real framework is the other framework.
+  summary: AutoGen is a Python framework for building multi-agent AI applications that can operate autonomously or collaborate with humans, currently in maintenance mode as Microsoft shifts focus to the new Agent Framework.
+  why_it_matters: It provides the building blocks for developers to orchestrate specialized AI agents that communicate, use tools via MCP, and solve complex tasks through code-first workflows.
+  mental_damage: Microsoft has kindly provided the classic 'abandon ship' migration guide to their new framework, ensuring you can rewrite your agent orchestration just in time for the next architectural paradigm shift.
   tags:
-    - agent-orchestration
     - multi-agent
-    - llm-framework
+    - framework
     - python
+    - orchestration
     - mcp
   confidence: high
 curation:
   status: included
-  reason: Include because it is a widely-used, developer-facing multi-agent orchestration framework (despite maintenance mode) with clear agent + tool integration workflows that fit the catalog’s scope.
+  reason: It is a code-first SDK/framework for embedding multi-agent AI behavior into software, which aligns with the ai-frameworks instruction to prefer that category over orchestration platforms for importable libraries.
   evidence:
-    - "Repo description: “A programming framework for agentic AI.”"
-    - "README: “framework for creating multi-agent AI applications” and shows MCP server integration and multi-agent orchestration examples."
-    - "Strong traction and ecosystem placement: 57k+ stars and listed under agent/framework sections in multiple awesome lists."
+    - Repo description explicitly defines it as 'A programming framework for agentic AI'.
+    - README examples show Python code importing libraries (autogen_agentchat) to build agents programmatically.
+    - Strong ecosystem presence in 'awesome-llm-agents' and 'awesome-agent-orchestration' lists under Frameworks sections.
 placement:
-  primary_category: agent-orchestration
+  primary_category: ai-frameworks
   section: null
 lifecycle:
   status: promotion_candidate
-  reason: Stars (57634) exceeded threshold (150)
+  reason: Stars (57728) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.658Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:37.965Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:37:24.067Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

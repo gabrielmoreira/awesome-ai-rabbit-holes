@@ -1,0 +1,77 @@
+id: vibedoctor__io
+kind: website
+name: vibedoctor.io
+canonical_url: https://vibedoctor.io
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__vibedoctor__io__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Code Review and Refactoring
+        anchor_text: VibeDoctor
+        extracted_url: https://vibedoctor.io
+        surrounding_text: "- **[VibeDoctor](https://vibedoctor.io/)** – AI code health scanner for vibe-coded apps. Detects hallucinated imports, phantom packages, and security issues that traditional scanners miss with MCP Support."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A security and code quality scanner that runs checks across 15 areas and 129+ rules against AI-generated codebases, offering fix prompts and MCP integration for IDEs.
+  why_it_matters: It provides a pragmatic workflow to catch vulnerabilities, secrets, and code smells in AI-generated output before production, integrating directly with GitHub, CI, and AI coding tools.
+  mental_damage: Your AI wrote the code, your AI reviewed the code, and now a third AI-driven scanner checks the result, leaving you to wonder if anyone is actually writing software anymore.
+  tags:
+    - security
+    - code-quality
+    - ai-generated-code
+    - mcp
+    - scanner
+  confidence: high
+curation:
+  status: included
+  reason: It fits best in Evaluations and Benchmarks because its core value is measuring, scanning, and reporting on code quality and security across AI-generated codebases, rather than acting as a primary coding agent or app builder.
+  evidence:
+    - Scanned site pitches '129+ checks' and '15 areas' across security, performance, and code quality for AI-generated code.
+    - Includes CI integration, GitHub PR reviews, and MCP server support to feed scan results back into coding assistants.
+    - Already listed in awesome-ai-coding-tools under 'Code Review and Refactoring', aligning with its audit-and-fix workflow.
+placement:
+  primary_category: evals
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.731Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:49:04.415Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

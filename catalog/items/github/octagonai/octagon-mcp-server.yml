@@ -1,0 +1,116 @@
+id: github__octagonai__octagon-mcp-server
+kind: github-repo
+name: octagon-mcp-server
+canonical_url: https://github.com/octagonai/octagon-mcp-server
+identity:
+  github_repo: octagonai/octagon-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__octagonai__octagon-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: OctagonAI/octagon-mcp-server
+        extracted_url: https://github.com/octagonai/octagon-mcp-server
+        surrounding_text: "- [OctagonAI/octagon-mcp-server](https://github.com/OctagonAI/octagon-mcp-server) 🐍 ☁️ - Octagon AI Agents to integrate private and public market data"
+        confidence: high
+    - id: discovery__github__octagonai__octagon-mcp-server__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Octagon
+        extracted_url: https://github.com/octagonai/octagon-mcp-server
+        surrounding_text: "- **[Octagon](https://github.com/OctagonAI/octagon-mcp-server)** - Deliver real-time investment research with extensive private and public market data."
+        confidence: high
+metadata:
+  github:
+    stars: 120
+    forks: 19
+    license: MIT
+    archived: false
+    created_at: "2025-03-12T22:40:51Z"
+    pushed_at: "2026-05-01T19:35:02Z"
+    description: A free MCP server to analyze and extract insights from public filings, earnings transcripts, financial metrics, stock market data, private market transactions, and deep web-based research within Claude Desktop and other popular MCP clients.
+    homepage: https://octagonai.co
+    topics:
+      - ai-agents
+      - company-profile
+      - debt
+      - earnings-calls
+      - equities
+      - financial-analysis
+      - fundamental-analysis
+      - funding
+      - fundraising
+      - funds
+      - indices
+      - investors
+      - market-intelligence
+      - mcp-server
+      - prediction-markets
+      - prediction-markets-bot
+      - private-market
+      - sec-filings
+      - sector-analysis
+      - stock-data
+    last_checked_at: "2026-05-05T21:03:58.523Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:58.523Z"
+      bytes: 9316
+insights:
+  summary: An MCP server that connects Claude Desktop and other MCP clients to the Octagon Market Intelligence API for AI-powered financial research, including SEC filings, earnings calls, stock data, and private market transactions.
+  why_it_matters: It lets developers and analysts wire structured financial data and deep research capabilities directly into local AI workflows without building their own market-data integrations.
+  mental_damage: Another MCP server enters the registry, ensuring your AI assistant can now explain quarterly earnings while you silently wonder when it will offer to refinance your credit card debt.
+  tags:
+    - mcp
+    - finance
+    - market-data
+    - claude-desktop
+  confidence: high
+curation:
+  status: included
+  reason: The project is itself an MCP server providing market intelligence tooling, which clearly fits the MCP Servers and Tooling category.
+  evidence:
+    - Repo description states it is 'A free MCP server to analyze and extract insights from public filings, earnings transcripts, financial metrics... within Claude Desktop and other popular MCP clients.'
+    - README confirms it 'provides specialized AI-powered financial research and analysis by integrating with the Octagon Market Intelligence API' as an MCP server.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Finance & Fintech' and 'Official Servers'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.669Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:58.523Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:41:28.359Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

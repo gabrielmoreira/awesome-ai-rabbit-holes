@@ -1,0 +1,76 @@
+id: sagahq__canny__io
+kind: website
+name: sagahq.canny.io
+canonical_url: https://sagahq.canny.io
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__sagahq__canny__io__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Saga
+          - Description
+        anchor_text: Roadmap
+        extracted_url: https://sagahq.canny.io
+        surrounding_text: "- [Roadmap](https://sagahq.canny.io/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: This is a Canny-powered public feedback and roadmap board for the Saga note-taking and workspace app.
+  why_it_matters: It provides visibility into Saga's upcoming features, including AI search and code block improvements, for developers using the platform.
+  mental_damage: We have now reached the point where the feedback board for an AI workspace has its own entry in an AI agent directory, completing the recursion.
+  tags:
+    - feedback-board
+    - roadmap
+    - saga
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a customer feedback portal for a note-taking app, not a developer tool, agent, or infrastructure component.
+  evidence:
+    - The page title is 'Saga Feedback' and the description states it is for giving feedback to the Saga team via Canny.
+    - The visible content consists entirely of feature requests like 'Offline mode', 'iOS mobile app', and 'Sortable tables'.
+    - It was listed in awesome-ai-agents only as a link to a feedback board, not as an agent itself.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.730Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:47:55.823Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

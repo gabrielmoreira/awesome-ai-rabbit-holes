@@ -1,0 +1,102 @@
+id: github__hannesrudolph__sqlite-explorer-fastmcp-mcp-server
+kind: github-repo
+name: sqlite-explorer-fastmcp-mcp-server
+canonical_url: https://github.com/hannesrudolph/sqlite-explorer-fastmcp-mcp-server
+identity:
+  github_repo: hannesrudolph/sqlite-explorer-fastmcp-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__hannesrudolph__sqlite-explorer-fastmcp-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🗄️ <a name="databases"></a>Databases
+        anchor_text: hannesrudolph/sqlite-explorer-fastmcp-mcp-server
+        extracted_url: https://github.com/hannesrudolph/sqlite-explorer-fastmcp-mcp-server
+        surrounding_text: "- [hannesrudolph/sqlite-explorer-fastmcp-mcp-server](https://github.com/hannesrudolph/sqlite-explorer-fastmcp-mcp-server) 🐍 🏠 - An MCP server that provides safe, read-only access to SQLite databases through Model Context Protocol (MCP). This server is built with the FastMCP framework, which enables LLMs to explore and query SQLite databases with built-in safety features and query validation."
+        confidence: high
+    - id: discovery__github__hannesrudolph__sqlite-explorer-fastmcp-mcp-server__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - 🗄️ Databases
+        anchor_text: hannesrudolph/sqlite-explorer-fastmcp-mcp-server
+        extracted_url: https://github.com/hannesrudolph/sqlite-explorer-fastmcp-mcp-server
+        surrounding_text: "-   **[hannesrudolph/sqlite-explorer-fastmcp-mcp-server](https://github.com/hannesrudolph/sqlite-explorer-fastmcp-mcp-server)** [![GitHub stars](https://img.shields.io/github/stars/hannesrudolph/sqlite-explorer-fastmcp-mcp-server?style=social)](https://github.com/hannesrudolph/sqlite-explorer-fastmcp-mcp-server): Provides safe, read-only access to SQLite databases with query validation."
+        confidence: high
+metadata:
+  github:
+    stars: 105
+    forks: 27
+    license: null
+    archived: false
+    created_at: "2024-12-15T00:08:25Z"
+    pushed_at: "2025-07-18T07:01:19Z"
+    description: An MCP server that provides safe, read-only access to SQLite databases through Model Context Protocol (MCP). This server is built with the FastMCP framework, which enables LLMs to explore and query SQLite databases with built-in safety features and query validation.
+    homepage: ""
+    topics:
+      - database-tools
+      - llm-integration
+      - llm-tools
+      - mcp
+      - python
+      - sqlite
+    last_checked_at: "2026-05-05T21:02:30.451Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:30.451Z"
+      bytes: 4081
+insights:
+  summary: A Model Context Protocol server built with FastMCP that provides LLMs with safe, read-only access to query and inspect SQLite databases via validated tools.
+  why_it_matters: It allows coding agents and AI assistants to inspect local database schemas and run SELECT queries without risking data mutation or SQL injection.
+  mental_damage: We have successfully abstracted the database so far away that the AI now needs a dedicated safety-wrapped server just to perform a SELECT * on a local file.
+  tags:
+    - mcp
+    - sqlite
+    - database-tools
+    - llm-integration
+  confidence: high
+curation:
+  status: included
+  reason: The project is a dedicated MCP server implementation for SQLite, fitting squarely into the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description explicitly states: 'An MCP server that provides safe, read-only access to SQLite databases through Model Context Protocol (MCP)'."
+    - "README details specific MCP tools exposed: read_query, list_tables, and describe_table using the FastMCP framework."
+    - Listed in awesome-mcp-servers under 'Server Implementations > Databases'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.666Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:30.451Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:23:28.041Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

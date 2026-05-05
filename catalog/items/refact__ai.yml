@@ -1,0 +1,78 @@
+id: refact__ai
+kind: website
+name: refact.ai
+canonical_url: https://refact.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__refact__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Code Completion
+        anchor_text: Refact.ai
+        extracted_url: https://refact.ai
+        surrounding_text: "- **[Refact.ai](https://refact.ai/)** – Open-source AI code completion and refactoring with self-hosting support."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: An open-source, autonomous AI coding agent that integrates with IDEs to automate coding, debugging, and testing tasks with full codebase context and on-premise deployment options.
+  why_it_matters: It offers developers a self-hosted alternative to Cursor and Copilot that can autonomously plan and execute coding tasks directly within their existing IDE workflow.
+  mental_damage: Another existential milestone where the 'vibe coding' approach promises a digital twin that handles 95% of the work while you perfect the art of prompt ping-pong.
+  tags:
+    - ide
+    - autonomous-agent
+    - self-hosted
+    - code-completion
+  confidence: high
+curation:
+  status: included
+  reason: Refact.ai is a developer-facing coding agent that directly plans, writes, edits, and debugs code inside a repo and IDE workflow, fitting the coding-agents category perfectly.
+  evidence:
+    - Listed in awesome-ai-coding-tools under 'Code Completion' as an open-source alternative to Cursor and Copilot.
+    - Product description explicitly states it is 'Your Open-Source, Autonomous AI Agent' that works 'like another developer in your IDE'.
+    - Integrates with VS Code, JetBrains, Neovim, and other IDEs to handle autonomous coding, debugging, and testing tasks.
+placement:
+  primary_category: coding-agents
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.730Z"
+    cause:
+      type: ambiguous_canonicalization
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:47:28.335Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

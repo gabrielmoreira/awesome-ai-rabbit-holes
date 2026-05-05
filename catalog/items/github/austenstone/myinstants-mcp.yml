@@ -1,0 +1,102 @@
+id: github__austenstone__myinstants-mcp
+kind: github-repo
+name: myinstants-mcp
+canonical_url: https://github.com/austenstone/myinstants-mcp
+identity:
+  github_repo: austenstone/myinstants-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__austenstone__myinstants-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🎨 <a name="art-and-culture"></a>Art & Culture
+        anchor_text: austenstone/myinstants-mcp
+        extracted_url: https://github.com/austenstone/myinstants-mcp
+        surrounding_text: "- [austenstone/myinstants-mcp](https://github.com/austenstone/myinstants-mcp) 📇 ☁️ 🏠 🍎 🪟 🐧 - A soundboard MCP server with millions of meme sounds from myinstants.com. Search, play, and browse categories — let your AI agent play vine boom when code compiles. `npx myinstants-mcp`"
+        confidence: high
+    - id: discovery__github__austenstone__myinstants-mcp__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - 🎨 Art & Culture
+        anchor_text: austenstone/myinstants-mcp
+        extracted_url: https://github.com/austenstone/myinstants-mcp
+        surrounding_text: "-   **[austenstone/myinstants-mcp](https://github.com/austenstone/myinstants-mcp)** [![GitHub stars](https://img.shields.io/github/stars/austenstone/myinstants-mcp?style=social)](https://github.com/austenstone/myinstants-mcp): A soundboard MCP server with millions of meme sounds from myinstants.com. Search, play, and browse categories. `npx myinstants-mcp`"
+        confidence: high
+metadata:
+  github:
+    stars: 10
+    forks: 3
+    license: null
+    archived: false
+    created_at: "2026-02-18T03:03:51Z"
+    pushed_at: "2026-03-17T03:55:03Z"
+    description: MCP server that lets your ai agent press sound buttons. it's not that deep.
+    homepage: https://myinstants.com
+    topics:
+      - ai
+      - ai-agents
+      - mcp
+      - mcp-server
+      - memes
+      - soundboard
+    last_checked_at: "2026-05-05T21:01:12.042Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:12.042Z"
+      bytes: 10762
+insights:
+  summary: An MCP server that connects AI agents to MyInstants.com, allowing them to search for and play internet soundboard sounds.
+  why_it_matters: It demonstrates how MCP extensibility reaches beyond productivity into entertainment, letting developers integrate meme sound effects directly into their agent workflows.
+  mental_damage: We have successfully reached the point where your $20/month coding agent now requires a soundboard integration to maximize its 'rizz' during code reviews.
+  tags:
+    - mcp
+    - soundboard
+    - memes
+    - vscode
+  confidence: high
+curation:
+  status: included
+  reason: The project is a distinct MCP server implementation designed to extend AI agents with audio playback capabilities.
+  evidence:
+    - "Repo description states: 'MCP server that lets your ai agent press sound buttons.'"
+    - README confirms it is an 'MCP server that connects AI agents to myinstants.com'.
+    - Listed in 'awesome-mcp-servers' under 'Server Implementations > Art & Culture'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.663Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:12.042Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:09:29.319Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

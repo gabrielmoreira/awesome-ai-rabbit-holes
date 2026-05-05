@@ -1,0 +1,76 @@
+id: huggingface__co__datasets__mvp__lab__llava__onevision__1__5__instruct__data
+kind: website
+name: LLaVA-OneVision-1.5-Instruct-Data
+canonical_url: https://huggingface.co/datasets/mvp-lab/LLaVA-OneVision-1.5-Instruct-Data
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__huggingface__co__datasets__mvp__lab__llava__onevision__1__5__instruct__data__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 论文 Paper
+        anchor_text: 22M Instruct Data
+        extracted_url: https://huggingface.co/datasets/mvp-lab/LLaVA-OneVision-1.5-Instruct-Data
+        surrounding_text: "57. [LLaVA-OneVision-1.5: Fully Open Framework for Democratized Multimodal Training](https://arxiv.org/abs/2509.23661) [85M-Midtraining Data](https://huggingface.co/datasets/mvp-lab/LLaVA-OneVision-1.5-Mid-Training-85M) [22M Instruct Data](https://huggingface.co/datasets/mvp-lab/LLaVA-OneVision-1.5-Instruct-Data)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A dataset hosted on Hugging Face containing instruction-tuning data for the LLaVA-OneVision-1.5 vision-language model.
+  why_it_matters: It provides the training data necessary for developers and researchers fine-tuning multimodal models to understand and generate code alongside visual inputs.
+  mental_damage: Yet another dataset reminding us that while we can't get models to reliably format a JSON object, we are absolutely determined to teach them to describe images while writing Python.
+  tags:
+    - dataset
+    - multimodal
+    - llava
+    - vision-language
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a raw training dataset for a vision-language model, not a practical tool, agent, or infrastructure product for software developers.
+  evidence:
+    - URL points to a Hugging Face dataset (mvp-lab/LLaVA-OneVision-1.5-Instruct-Data), not a developer tool or app.
+    - Seen in source lists under a 'Paper' section, indicating it is research data rather than a functional product.
+    - No description, README, or code surface indicating a usable developer workflow or tooling integration.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.728Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:45:19.334Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

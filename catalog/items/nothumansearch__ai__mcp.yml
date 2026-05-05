@@ -1,0 +1,76 @@
+id: nothumansearch__ai__mcp
+kind: website
+name: mcp
+canonical_url: https://nothumansearch.ai/mcp
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__nothumansearch__ai__mcp__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - MCP Servers and Directories
+        anchor_text: Not Human Search
+        extracted_url: https://nothumansearch.ai/mcp
+        surrounding_text: "- **[Not Human Search](https://nothumansearch.ai/mcp)** – Agent-first search engine for discovering AI tools, MCP servers, and APIs."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A curated directory and discovery surface for Model Context Protocol (MCP) servers and related tooling.
+  why_it_matters: It helps developers discover and evaluate MCP servers to extend the context and capabilities of their AI coding assistants.
+  mental_damage: Another layer of directory-induced procrastination in a stack already suffering from too many plugins and not enough shipping.
+  tags:
+    - mcp
+    - directory
+    - tooling
+    - context
+  confidence: medium
+curation:
+  status: included
+  reason: The project is a curated directory and discovery surface for MCP servers, making it a navigation aid for developers rather than a standalone tool itself.
+  evidence:
+    - Listed in awesome-ai-coding-tools under the section 'MCP Servers and Directories'
+    - URL is https://nothumansearch.ai/mcp, indicating a web-based directory surface
+    - No repository description, README, or code indicators provided that suggest it is a server or toolkit
+placement:
+  primary_category: awesome-awesomes
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.445Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T20:49:35.244Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+    next_retry_at: null

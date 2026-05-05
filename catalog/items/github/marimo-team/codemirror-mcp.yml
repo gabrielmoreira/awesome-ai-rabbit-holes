@@ -1,0 +1,83 @@
+id: github__marimo-team__codemirror-mcp
+kind: github-repo
+name: codemirror-mcp
+canonical_url: https://github.com/marimo-team/codemirror-mcp
+identity:
+  github_repo: marimo-team/codemirror-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__marimo-team__codemirror-mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Clients
+        anchor_text: codemirror-mcp
+        extracted_url: https://github.com/marimo-team/codemirror-mcp
+        surrounding_text: "- **[codemirror-mcp](https://github.com/marimo-team/codemirror-mcp)** CodeMirror extension that implements the Model Context Protocol (MCP) for resource mentions and prompt commands."
+        confidence: high
+metadata:
+  github:
+    stars: 79
+    forks: 4
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-01-09T03:24:07Z"
+    pushed_at: "2026-04-06T14:21:57Z"
+    description: CodeMirror extension to hook up a Model Context Provider (MCP)
+    homepage: https://marimo-team.github.io/codemirror-mcp/
+    topics:
+      - codemirror
+      - codemirror-extension
+      - mcp
+    last_checked_at: "2026-05-05T21:03:29.572Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:29.572Z"
+      bytes: 2546
+insights:
+  summary: A CodeMirror extension that implements the Model Context Protocol to provide autocomplete, visual decorations, and click handling for resource mentions and prompt commands inside the editor.
+  why_it_matters: It lets developers wire MCP-powered context and prompt shortcuts directly into any CodeMirror-based editor, bridging local AI workflows with the text editing experience.
+  mental_damage: "We have finally achieved the Platonic ideal of AI tooling: a plugin for an editor, so that the editor can talk to a protocol, so that the protocol can talk to a model, so that the model can ignore your cursor position."
+  tags:
+    - codemirror
+    - mcp
+    - editor-extension
+    - context-protocol
+  confidence: high
+curation:
+  status: included
+  reason: The project is a client-side MCP integration specifically built as a CodeMirror extension, fitting cleanly into MCP tooling rather than a coding agent or generic framework.
+  evidence:
+    - Repo description explicitly states it is a 'CodeMirror extension to hook up a Model Context Provider (MCP)'
+    - README confirms it implements MCP for resource mentions (@resource) and prompt commands (/prompt) inside CodeMirror
+    - Listed in awesome-mcp-servers under 'Clients', aligning with the MCP infrastructure scope
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.705Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:29.572Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:35:40.977Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

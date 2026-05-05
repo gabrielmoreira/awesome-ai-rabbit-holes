@@ -1,0 +1,81 @@
+id: github__landing-ai__vision-agent
+kind: github-repo
+name: vision-agent
+canonical_url: https://github.com/landing-ai/vision-agent
+identity:
+  github_repo: landing-ai/vision-agent
+provenance:
+  discoveries:
+    - id: discovery__github__landing-ai__vision-agent__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Other LLM Frameworks
+        anchor_text: Vision agent
+        extracted_url: https://github.com/landing-ai/vision-agent
+        surrounding_text: "- [Vision agent](https://github.com/landing-ai/vision-agent): Vision Agent is a library that helps you utilize agent frameworks to generate code to solve your vision task. ![GitHub Repo stars](https://img.shields.io/github/stars/landing-ai/vision-agent?style=social)"
+        confidence: high
+metadata:
+  github:
+    stars: 5275
+    forks: 600
+    license: Apache-2.0
+    archived: false
+    created_at: "2024-02-13T02:06:20Z"
+    pushed_at: "2026-01-29T06:23:55Z"
+    description: This tool has been deprecated. Use Agentic Document Extraction instead.
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:03:15.471Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:15.471Z"
+      bytes: 10891
+insights:
+  summary: VisionAgent is a Python library and local webapp from LandingAI that generates runnable vision-processing code from image or video prompts using external LLMs.
+  why_it_matters: It lets developers prototype visual AI features by turning a prompt and an image into working code and tests, without hand-crafting model-selection and inference logic.
+  mental_damage: You now have a coder agent that writes vision code, but you still need three different API keys and a dream to figure out who owns the resulting liability.
+  tags:
+    - vision
+    - code-generation
+    - langchain
+    - python
+    - local-webapp
+  confidence: high
+curation:
+  status: included
+  reason: The project is a developer-facing coding agent that plans, generates, tests, and iterates on vision-related code inside a local workflow, matching the coding-agents instruction.
+  evidence:
+    - README states it 'generates code and a test case based on the plan' and iterates until tests pass.
+    - Usage is via a Python library (VisionAgentCoderV2) and a local webapp in examples/chat.
+    - Repo description notes deprecation in favor of 'Agentic Document Extraction', but the repo remains unarchived and was pushed in 2026.
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (5275) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.703Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:15.471Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:32:59.409Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

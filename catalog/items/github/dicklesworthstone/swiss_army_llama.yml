@@ -1,0 +1,88 @@
+id: github__dicklesworthstone__swiss_army_llama
+kind: github-repo
+name: llama_embeddings_fastapi_service
+canonical_url: https://github.com/dicklesworthstone/swiss_army_llama
+identity:
+  github_repo: dicklesworthstone/swiss_army_llama
+provenance:
+  discoveries:
+    - id: discovery__github__dicklesworthstone__llama_embeddings_fastapi_service__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Tools
+          - Services
+        anchor_text: Llama2 Embedding Server
+        extracted_url: https://github.com/dicklesworthstone/llama_embeddings_fastapi_service
+        surrounding_text: "- [Llama2 Embedding Server](https://github.com/Dicklesworthstone/llama_embeddings_fastapi_service): Llama2 Embeddings FastAPI Service using LangChain ![GitHub Repo stars](https://img.shields.io/github/stars/Dicklesworthstone/llama_embeddings_fastapi_service?style=social)"
+        confidence: high
+metadata:
+  github:
+    stars: 1051
+    forks: 64
+    license: null
+    archived: false
+    created_at: "2023-08-08T01:23:30Z"
+    pushed_at: "2025-02-27T11:19:55Z"
+    description: A FastAPI service for semantic text search using precomputed embeddings and advanced similarity measures, with built-in support for various file types through textract.
+    homepage: ""
+    topics:
+      - embedding-similarity
+      - embedding-vectors
+      - embeddings
+      - llama2
+      - llamacpp
+      - semantic-search
+    last_checked_at: "2026-05-05T21:01:52.758Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:52.758Z"
+      bytes: 42843
+insights:
+  summary: A FastAPI service that exposes REST endpoints for local LLM text embeddings, completions, semantic search, and document/audio processing using llama_cpp and Whisper.
+  why_it_matters: It gives developers a ready-to-integrate local API for embedding pipelines and semantic search without relying on external hosted model services.
+  mental_damage: Another proud step toward the future where every developer runs a bespoke museum of local model-serving microservices just to avoid a $20 API bill.
+  tags:
+    - fastapi
+    - local-llm
+    - embeddings
+    - semantic-search
+    - llama-cpp
+  confidence: high
+curation:
+  status: included
+  reason: This is a local model-serving stack and developer tooling for running embeddings and LLM inference on your own hardware via a FastAPI interface.
+  evidence:
+    - Repo description explicitly calls it a FastAPI service for semantic search using local embeddings and llama_cpp.
+    - README details local execution via llama_cpp, Whisper transcription, and FAISS vector search with no hosted SaaS component.
+    - Actively maintained with a recent push date of 2025-02-27 and over 1,000 stars.
+placement:
+  primary_category: local-ai
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1051) exceeded threshold (150)
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:16:20.180Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.684Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:52.758Z"
+    cause: null
+    next_retry_at: null

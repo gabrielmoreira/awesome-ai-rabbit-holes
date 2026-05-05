@@ -1,0 +1,89 @@
+id: github__miurla__babyagi-ui
+kind: github-repo
+name: babyagi-ui
+canonical_url: https://github.com/miurla/babyagi-ui
+identity:
+  github_repo: miurla/babyagi-ui
+provenance:
+  discoveries:
+    - id: discovery__github__miurla__babyagi-ui__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Tools
+          - Agents
+        anchor_text: BabyAGI UI
+        extracted_url: https://github.com/miurla/babyagi-ui
+        surrounding_text: "- [BabyAGI UI](https://github.com/miurla/babyagi-ui): Make it easier to run and develop with babyagi in a web app, like a ChatGPT ![GitHub Repo stars](https://img.shields.io/github/stars/miurla/babyagi-ui?style=social)"
+        confidence: high
+metadata:
+  github:
+    stars: 1329
+    forks: 274
+    license: MIT
+    archived: true
+    created_at: "2023-04-20T05:26:13Z"
+    pushed_at: "2024-10-24T00:27:33Z"
+    description: BabyAGI UI is designed to make it easier to run and develop with babyagi in a web app, like a ChatGPT.
+    homepage: https://babyagi-ui.vercel.app
+    topics:
+      - agent
+      - babyagi
+      - langchain-js
+      - nextjs
+      - openai-api
+      - pinecone
+      - radix-ui
+      - tailwindcss
+    last_checked_at: "2026-05-05T21:03:43.312Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:43.312Z"
+      bytes: 3740
+insights:
+  summary: A web UI for running and developing with the BabyAGI autonomous agent, built with Next.js, LangChain.js, and Pinecone.
+  why_it_matters: It provided an early, accessible interface for developers to experiment with autonomous agent loops and task management without wrestling with raw scripts.
+  mental_damage: We built a web interface to watch an AI create tasks for itself, effectively turning a todo list into a serverless burnout simulator.
+  tags:
+    - agent
+    - langchain
+    - nextjs
+    - autonomous
+  confidence: high
+curation:
+  status: excluded
+  reason: The repository is archived and the maintainer explicitly states that the project's role has ended, signaling it is no longer a living tool for developers.
+  evidence:
+    - "Archived: yes (explicit GitHub archived status)"
+    - "README contains a CAUTION banner stating: 'Its role of allowing users to easily try out BabyAGI... has ended.'"
+    - Last push was 2024-10-24, but the project is effectively sunsetted by the author.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: needs_review
+  reason: Repository is archived
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.707Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:43.312Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:38:23.356Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

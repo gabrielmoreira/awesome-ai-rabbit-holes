@@ -1,0 +1,80 @@
+id: github__automl__robo
+kind: github-repo
+name: robo
+canonical_url: https://github.com/automl/robo
+identity:
+  github_repo: automl/robo
+provenance:
+  discoveries:
+    - id: discovery__github__automl__robo__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - AutoML
+        anchor_text: RoBO
+        extracted_url: https://github.com/automl/robo
+        surrounding_text: "| [RoBO](https://github.com/automl/RoBO)                                       | a Robust Bayesian Optimization framework.                                                                                                                                       | ![GitHub Badge](https://img.shields.io/github/stars/automl/RoBO.svg?style=flat-square)                     |"
+        confidence: high
+metadata:
+  github:
+    stars: 489
+    forks: 129
+    license: BSD-3-Clause
+    archived: false
+    created_at: "2015-03-27T09:02:20Z"
+    pushed_at: "2019-04-30T08:47:29Z"
+    description: "RoBO: a Robust Bayesian Optimization framework"
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:01:13.206Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:13.206Z"
+      bytes: 1605
+insights:
+  summary: RoBO is a Python framework for robust Bayesian optimization that provides modular interfaces for tuning hyperparameters and optimizing black-box functions.
+  why_it_matters: It gives developers a structured way to automate hyperparameter tuning and expensive function optimization without hand-rolling their own BO loops.
+  mental_damage: Yet another reminder that while we build tools to auto-tune models, we still manually tune the learning rates of our own productivity.
+  tags:
+    - bayesian-optimization
+    - automl
+    - python
+    - hyperparameter-tuning
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a traditional machine learning research framework for hyperparameter optimization, not a developer-facing AI tool, agent, or workflow product.
+  evidence:
+    - Repo description and README define it as a Robust Bayesian Optimization framework for AutoML, not a developer tooling product.
+    - Last push was in 2019, indicating the project is no longer actively maintained.
+    - Listed in Awesome-LLMOps under AutoML, which reflects research infrastructure rather than the catalog's focus on AI developer workflows.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (489) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.680Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:13.206Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:09:40.308Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

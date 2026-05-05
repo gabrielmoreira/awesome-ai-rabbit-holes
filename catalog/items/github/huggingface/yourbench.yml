@@ -1,0 +1,81 @@
+id: github__huggingface__yourbench
+kind: github-repo
+name: yourbench
+canonical_url: https://github.com/huggingface/yourbench
+identity:
+  github_repo: huggingface/yourbench
+provenance:
+  discoveries:
+    - id: discovery__github__huggingface__yourbench__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 评估 Evaluation
+        anchor_text: YourBench
+        extracted_url: https://github.com/huggingface/yourbench
+        surrounding_text: "17. [YourBench](https://github.com/huggingface/yourbench): A Dynamic Benchmark Generation Framework."
+        confidence: high
+metadata:
+  github:
+    stars: 444
+    forks: 41
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-01-27T16:21:32Z"
+    pushed_at: "2026-04-02T14:50:05Z"
+    description: 🤗 Benchmark Large Language Models Reliably On Your Data
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:02:38.081Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:38.081Z"
+      bytes: 6164
+insights:
+  summary: A Hugging Face framework that transforms source documents like PDFs and Word files into structured LLM evaluation datasets with configurable QA schemas.
+  why_it_matters: It lets developers benchmark models against their own private documentation and domain data instead of relying on generic public benchmarks.
+  mental_damage: Now you can scientifically prove that your RAG pipeline fails on your own docs just as much as it does on the MMLU.
+  tags:
+    - llm-eval
+    - benchmarking
+    - huggingface
+    - datasets
+    - cli
+  confidence: high
+curation:
+  status: included
+  reason: This is a developer tool for measuring and benchmarking LLM behavior on custom data, which cleanly fits the Evaluations and Benchmarks category.
+  evidence:
+    - "Repo description states: 'Benchmark Large Language Models Reliably On Your Data'"
+    - "README pitches: 'Generate high-quality QA pairs and evaluation datasets from any source documents'"
+    - Listed in awesome-LLM-resources under the '评估 Evaluation' section
+placement:
+  primary_category: evals
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (444) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.697Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:38.081Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:24:44.928Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

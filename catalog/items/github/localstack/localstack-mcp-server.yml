@@ -1,0 +1,82 @@
+id: github__localstack__localstack-mcp-server
+kind: github-repo
+name: localstack-mcp-server
+canonical_url: https://github.com/localstack/localstack-mcp-server
+identity:
+  github_repo: localstack/localstack-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__localstack__localstack-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
+        anchor_text: localstack/localstack-mcp-server
+        extracted_url: https://github.com/localstack/localstack-mcp-server
+        surrounding_text: "- [localstack/localstack-mcp-server](https://github.com/localstack/localstack-mcp-server) 🎖️ 📇 🏠 - A MCP server for LocalStack to manage local AWS environments, including lifecycle operations, infra deployments, log analysis, fault injection, and state management."
+        confidence: high
+metadata:
+  github:
+    stars: 23
+    forks: 11
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-07-10T14:51:15Z"
+    pushed_at: "2026-05-01T18:22:44Z"
+    description: MCP Server for LocalStack
+    homepage: https://www.npmjs.com/package/@localstack/localstack-mcp-server
+    topics: []
+    last_checked_at: "2026-05-05T21:03:23.129Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:23.129Z"
+      bytes: 20016
+insights:
+  summary: An MCP server that lets AI assistants directly manage LocalStack containers, deploy infrastructure with CDK/Terraform/SAM, analyze logs, and inject chaos faults for local cloud development.
+  why_it_matters: It bridges the gap between your AI coding agent and your local AWS emulator, allowing the agent to autonomously spin up resources, run deployments, and debug infrastructure without you wiring custom scripts.
+  mental_damage: We have successfully abstracted the abstraction, meaning your AI can now debug the fake cloud you're running on your laptop so you don't have to learn how to read a LocalStack log file.
+  tags:
+    - mcp
+    - localstack
+    - aws
+    - infrastructure
+    - devops
+  confidence: high
+curation:
+  status: included
+  reason: This is a dedicated MCP server implementation designed to integrate LocalStack with MCP-compatible AI tools, fitting squarely into the MCP infrastructure category.
+  evidence:
+    - "Repo description explicitly states: 'MCP Server for LocalStack'."
+    - README confirms it is a Model Context Protocol server providing tools to manage LocalStack containers and deployment workflows.
+    - Listed in awesome-mcp-servers under 'Cloud Platforms', aligning with the MCP tooling scope.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.704Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:23.129Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:34:28.573Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

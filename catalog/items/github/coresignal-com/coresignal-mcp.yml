@@ -1,0 +1,80 @@
+id: github__coresignal-com__coresignal-mcp
+kind: github-repo
+name: coresignal-mcp
+canonical_url: https://github.com/coresignal-com/coresignal-mcp
+identity:
+  github_repo: coresignal-com/coresignal-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__coresignal-com__coresignal-mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Coresignal
+        extracted_url: https://github.com/coresignal-com/coresignal-mcp
+        surrounding_text: "- **[Coresignal](https://github.com/Coresignal-com/coresignal-mcp/)** - Access comprehensive B2B data on companies, employees, and job postings for your LLMs and AI workflows."
+        confidence: high
+metadata:
+  github:
+    stars: 3
+    forks: 3
+    license: null
+    archived: false
+    created_at: "2025-05-22T13:22:21Z"
+    pushed_at: "2025-10-08T08:54:44Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:01:41.803Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:41.803Z"
+      bytes: 1852
+insights:
+  summary: A remote Model Context Protocol server that gives AI assistants access to Coresignal's B2B datasets covering companies, employees, and job postings.
+  why_it_matters: Developers building AI workflows can let their assistants query live business data instead of hallucinating company facts from stale training sets.
+  mental_damage: Now your coding agent can pivot from debugging your CI pipeline to pitching you five Austin-based IT companies, because why shouldn't context retrieval include the entire B2B data economy?
+  tags:
+    - mcp
+    - data-api
+    - remote-server
+    - b2b-data
+  confidence: medium
+curation:
+  status: included
+  reason: The project is a remote MCP server providing structured data tools, which fits the MCP Servers and Tooling category.
+  evidence:
+    - "README states: 'The Coresignal MCP Server enables seamless integration of Coresignal's data with AI-powered applications.'"
+    - Server is accessed via remote URL https://mcp.coresignal.com/mcp, not as a local codebase extension.
+    - Listed in awesome-mcp-servers under 'Official Servers' section.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.683Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:41.803Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:14:31.653Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

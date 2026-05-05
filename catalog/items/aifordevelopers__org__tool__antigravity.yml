@@ -1,0 +1,77 @@
+id: aifordevelopers__org__tool__antigravity
+kind: website
+name: antigravity
+canonical_url: https://aifordevelopers.org/tool/antigravity
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__aifordevelopers__org__tool__antigravity__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Code Editors and Assistants
+        anchor_text: Review
+        extracted_url: https://aifordevelopers.org/tool/antigravity
+        surrounding_text: "- **[Google Antigravity](https://antigravity.google/)** - *[Review](https://aifordevelopers.org/tool/antigravity)* – Google's agent-first IDE with multi-agent orchestration, browser automation, and Gemini 3 Pro integration. Free during preview."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Antigravity is an AI-native IDE built on a modified Visual Studio Code fork that uses autonomous agents to plan, write, execute, and test code across a multi-agent 'Mission Control' interface.
+  why_it_matters: It shifts the developer workflow from line-by-line assistance to parallel, agent-driven task execution with integrated visual testing and multi-model support.
+  mental_damage: Just when you thought you had a handle on 'vibe coding' with a chatbot sidebar, now you need to manage a five-agent scrum team that opens its own browser to judge your UI.
+  tags:
+    - ide
+    - coding-agents
+    - google
+    - vscode-fork
+    - multi-agent
+  confidence: medium
+curation:
+  status: included
+  reason: The primary product surface is a standalone, AI-native editor/IDE (a modified VS Code fork) that hosts the agents, making it a fit for ai-ides-editors rather than a pure coding agent.
+  evidence:
+    - Built on a modified fork of Visual Studio Code and described as an 'AI-powered integrated development environment'.
+    - Features a two-view architecture (Editor View and Manager View) where the IDE itself is the primary surface for the agents.
+    - Listed under 'Code Editors and Assistants' in the awesome-ai-coding-tools directory.
+placement:
+  primary_category: ai-ides-editors
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.726Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:41:41.434Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

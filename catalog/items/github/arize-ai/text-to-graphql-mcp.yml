@@ -1,0 +1,81 @@
+id: github__arize-ai__text-to-graphql-mcp
+kind: github-repo
+name: text-to-graphql-mcp
+canonical_url: https://github.com/arize-ai/text-to-graphql-mcp
+identity:
+  github_repo: arize-ai/text-to-graphql-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__arize-ai__text-to-graphql-mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: Text-To-GraphQL
+        extracted_url: https://github.com/arize-ai/text-to-graphql-mcp
+        surrounding_text: "- **[Text-To-GraphQL](https://github.com/Arize-ai/text-to-graphql-mcp)** - MCP server for text-to-graphql, integrates with Claude Desktop and Cursor."
+        confidence: high
+metadata:
+  github:
+    stars: 23
+    forks: 12
+    license: NOASSERTION
+    archived: false
+    created_at: "2025-06-04T15:09:33Z"
+    pushed_at: "2026-02-11T20:04:37Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:01:09.405Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:09.405Z"
+      bytes: 17004
+insights:
+  summary: An MCP server that converts natural language queries into valid GraphQL using a LangGraph agent, integrating with AI assistants like Claude Desktop and Cursor.
+  why_it_matters: It allows developers to query GraphQL APIs conversationally through their AI assistant, removing the need to manually construct complex queries against a schema.
+  mental_damage: We have successfully abstracted the act of learning a query language into the act of debugging an LLM's interpretation of a schema it barely understands.
+  tags:
+    - mcp
+    - graphql
+    - langgraph
+    - cursor
+    - claude
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server providing tooling for the Model Context Protocol ecosystem, fitting the dedicated MCP category.
+  evidence:
+    - README title and overview define it as a 'Text-to-GraphQL MCP Server' using the Model Context Protocol.
+    - Features list explicitly mentions 'Full compatibility with Claude Desktop, Cursor, and other MCP clients'.
+    - Listed in the 'awesome-mcp-servers' directory under the 'Community Servers' section.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.679Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:09.405Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:09:02.986Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,80 @@
+id: github__ivan-saorin__mcp-expr-lang
+kind: github-repo
+name: mcp-expr-lang
+canonical_url: https://github.com/ivan-saorin/mcp-expr-lang
+identity:
+  github_repo: ivan-saorin/mcp-expr-lang
+provenance:
+  discoveries:
+    - id: discovery__github__ivan-saorin__mcp-expr-lang__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: MCP Expr Lang
+        extracted_url: https://github.com/ivan-saorin/mcp-expr-lang
+        surrounding_text: "- **[MCP Expr Lang](https://github.com/ivan-saorin/mcp-expr-lang)** - MCP Expr-Lang provides a seamless integration between Claude AI and the powerful expr-lang expression evaluation engine."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2025-05-01T14:56:00Z"
+    pushed_at: "2025-05-01T23:02:10Z"
+    description: MCP Server around https://expr-lang.org
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:47.980Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:47.980Z"
+      bytes: 5008
+insights:
+  summary: An MCP server that exposes the expr-lang expression evaluation engine to Claude Desktop for in-chat data manipulation and calculation.
+  why_it_matters: It lets developers evaluate complex expressions, filter arrays, and transform data structures directly within Claude conversations without leaving the chat interface.
+  mental_damage: We have officially reached the point where we need a protocol server to do math in a chat window that is already connected to a supercomputer.
+  tags:
+    - mcp
+    - claude
+    - expression-evaluation
+    - integration
+  confidence: high
+curation:
+  status: included
+  reason: The project is a purpose-built MCP server that integrates expr-lang with Claude Desktop, fitting cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description states: 'MCP Server around https://expr-lang.org'"
+    - "README confirms: 'MCP Expr-Lang provides a seamless integration between Claude AI and the powerful expr-lang expression evaluation engine.'"
+    - Listed in awesome-mcp-servers under 'Community Servers'
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.699Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:47.980Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:26:56.263Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

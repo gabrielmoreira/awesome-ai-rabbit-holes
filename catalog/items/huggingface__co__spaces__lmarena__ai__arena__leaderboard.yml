@@ -1,0 +1,76 @@
+id: huggingface__co__spaces__lmarena__ai__arena__leaderboard
+kind: website
+name: arena-leaderboard
+canonical_url: https://huggingface.co/spaces/lmarena-ai/arena-leaderboard
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__huggingface__co__spaces__lmarena__ai__arena__leaderboard__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: janhq/awesome-local-ai
+        url: https://github.com/janhq/awesome-local-ai
+        repository: janhq/awesome-local-ai
+      extraction:
+        mode: parsed
+        section_path:
+          - LLM Leaderboard
+        anchor_text: Chatbot Arena Leaderboard
+        extracted_url: https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard
+        surrounding_text: "- [Chatbot Arena Leaderboard](https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard) - a benchmark platform for large language models (LLMs) that features anonymous, randomized battles in a crowdsourced manner."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A Hugging Face Space that displays the LMArena leaderboard in a full-screen view to show the latest rankings of language models.
+  why_it_matters: Developers evaluating which LLM to integrate can quickly glance at a live, community-driven ranking without navigating the main Chatbot Arena site.
+  mental_damage: Another beautiful dashboard ensuring you can quantify exactly how far behind the state-of-the-art your chosen model is, right before you deploy it to production anyway.
+  tags:
+    - llm
+    - leaderboard
+    - evals
+    - huggingface
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a read-only dashboard for viewing model rankings, not a developer tool, agent, framework, or workflow automation product.
+  evidence:
+    - The linked page is a Hugging Face Space that simply 'displays the LMArena leaderboard in a full‑screen view'.
+    - The source-list context places it under 'LLM Leaderboard' as a viewing interface for model rankings.
+    - It provides no interactive tooling, coding assistance, or developer workflow integration.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.728Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:45:26.064Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

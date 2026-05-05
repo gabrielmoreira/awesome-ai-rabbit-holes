@@ -1,0 +1,96 @@
+id: github__delimit-ai__delimit-mcp-server
+kind: github-repo
+name: delimit
+canonical_url: https://github.com/delimit-ai/delimit-mcp-server
+identity:
+  github_repo: delimit-ai/delimit-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__delimit-ai__delimit__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: delimit-ai/delimit
+        extracted_url: https://github.com/delimit-ai/delimit
+        surrounding_text: "- [delimit-ai/delimit](https://github.com/delimit-ai/delimit) [![delimit-ai/delimit MCP server](https://glama.ai/mcp/servers/delimit-ai/delimit/badges/score.svg)](https://glama.ai/mcp/servers/delimit-ai/delimit) 🐍 🏠 🍎 🪟 🐧 - API governance server that detects breaking changes in OpenAPI specs. Diffs two spec versions, applies configurable policy rules (strict/default/relaxed), and returns structured pass/fail verdicts. 23 change types, 10 breaking. Supports OpenAPI 3.0, 3.1, and Swagger 2.0."
+        confidence: high
+metadata:
+  github:
+    stars: 14
+    forks: 6
+    license: MIT
+    archived: false
+    created_at: "2026-03-09T03:53:35Z"
+    pushed_at: "2026-05-03T19:29:56Z"
+    description: Govern AI coding across Claude Code, Codex, Cursor, and Gemini CLI. Breaking-change detection, deploy gates, and multi-model consensus — delivered as MCP server, CLI, and GitHub Action.
+    homepage: https://delimit.ai
+    topics:
+      - ai-governance
+      - api-governance
+      - breaking-changes
+      - claude-code
+      - codex
+      - cross-model
+      - cursor
+      - deliberation
+      - devtools
+      - gemini-cli
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - openapi
+    last_checked_at: "2026-05-05T21:01:51.609Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:51.609Z"
+      bytes: 19803
+insights:
+  summary: An MCP server, CLI, and GitHub Action that wraps AI coding assistants to enforce governance gates, detect breaking changes, and sign replayable attestations for every code change.
+  why_it_matters: It lets teams gate AI-generated code with automated checks, audit trails, and cross-model consensus before merging, directly inside existing CI and CLI workflows.
+  mental_damage: We have finally built the bureaucracy that convinces us the machine-written pull request is not, in fact, the one that breaks production.
+  tags:
+    - mcp
+    - governance
+    - ci
+    - attestation
+    - breaking-changes
+  confidence: high
+curation:
+  status: included
+  reason: The core product is an MCP server with matching CLI and GitHub Action that governs and signs AI coding outputs across multiple assistants, which fits MCP infrastructure rather than being a coding agent itself.
+  evidence:
+    - "Repo description explicitly states: 'delivered as MCP server, CLI, and GitHub Action' with MCP in topics and Glama MCP badge in README."
+    - README demonstrates wrapping other assistants (Claude Code, Cursor, Codex, Gemini CLI) rather than acting as the assistant, and emits signed attestations via `delimit wrap`.
+    - "Recent activity: created 2026-03-09, pushed 2026-05-03, not archived, and npm package with 1640+ passing tests."
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:16:07.229Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.684Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:51.609Z"
+    cause: null
+    next_retry_at: null

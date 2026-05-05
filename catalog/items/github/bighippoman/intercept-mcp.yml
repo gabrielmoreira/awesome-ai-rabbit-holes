@@ -1,0 +1,81 @@
+id: github__bighippoman__intercept-mcp
+kind: github-repo
+name: intercept-mcp
+canonical_url: https://github.com/bighippoman/intercept-mcp
+identity:
+  github_repo: bighippoman/intercept-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__bighippoman__intercept-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📂 <a name="browser-automation"></a>Browser Automation
+        anchor_text: bighippoman/intercept-mcp
+        extracted_url: https://github.com/bighippoman/intercept-mcp
+        surrounding_text: "- [bighippoman/intercept-mcp](https://github.com/bighippoman/intercept-mcp) [![bighippoman/intercept-mcp MCP server](https://glama.ai/mcp/servers/bighippoman/intercept-mcp/badges/score.svg)](https://glama.ai/mcp/servers/bighippoman/intercept-mcp) 📇 🏠 - Multi-tier fallback chain for fetching web content as clean markdown. Handles tweets, YouTube, arXiv, PDFs, and regular pages with 9 fallback strategies."
+        confidence: high
+metadata:
+  github:
+    stars: 5
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2026-03-04T01:19:16Z"
+    pushed_at: "2026-05-04T11:15:56Z"
+    description: MCP server with multi-tier fallback chain for fetching web content as clean markdown
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:01:20.538Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:20.538Z"
+      bytes: 9774
+insights:
+  summary: An MCP server that fetches web content as clean markdown using a multi-tier fallback chain, handling sites like Twitter, YouTube, arXiv, and GitHub without requiring API keys.
+  why_it_matters: It gives coding agents and MCP-compatible IDEs a reliable way to read the web by falling back through 14+ strategies when standard fetches fail.
+  mental_damage: We have officially reached the point where our agents need their own multi-tier resilience pipelines just to read a static HTML page without hitting a 403.
+  tags:
+    - mcp
+    - web-scraping
+    - markdown
+    - context-fetching
+  confidence: medium
+curation:
+  status: included
+  reason: The project is itself an MCP server providing web-fetching tooling for AI agents and IDEs, which fits squarely into the MCP category.
+  evidence:
+    - "Repo description explicitly states: 'MCP server with multi-tier fallback chain for fetching web content as clean markdown'."
+    - README demonstrates integration with Claude Code, Cursor, Windsurf, Cline, and other MCP clients.
+    - Listed under 'Server Implementations > Browser Automation' in the awesome-mcp-servers directory.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.681Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:20.538Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:10:45.065Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

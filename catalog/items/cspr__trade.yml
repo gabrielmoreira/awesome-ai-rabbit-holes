@@ -1,0 +1,76 @@
+id: cspr__trade
+kind: website
+name: cspr.trade
+canonical_url: https://cspr.trade
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__cspr__trade__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: CSPR.trade
+        extracted_url: https://cspr.trade
+        surrounding_text: "- [make-software/cspr-trade-mcp](https://github.com/make-software/cspr-trade-mcp) [![make-software/cspr-trade-mcp MCP server](https://glama.ai/mcp/servers/make-software/cspr-trade-mcp/badges/score.svg)](https://glama.ai/mcp/servers/make-software/cspr-trade-mcp) 📇 ☁️ 🏠 🍎 🪟 🐧 - Non-custodial DEX trading on the Casper Network via [CSPR.trade](https://cspr.trade). 14 tools for market data, swaps, liquidity, and account queries. Transactions built remotely, signed locally — private keys never leave the machine. Public endpoint: `https://mcp.cspr.trade/mcp`"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: CSPR.trade is a Model Context Protocol (MCP) server implementation for interacting with Casper blockchain financial data and trading operations.
+  why_it_matters: It allows developers building AI agents to give their models direct, structured access to blockchain finance tools via the MCP standard.
+  mental_damage: We have successfully abstracted blockchain trading into yet another server protocol, ensuring your AI agent can now lose money on decentralized finance with unprecedented interoperability.
+  tags:
+    - mcp
+    - blockchain
+    - fintech
+    - server
+  confidence: medium
+curation:
+  status: included
+  reason: The project is explicitly listed as an MCP Server Implementation in the awesome-mcp-servers directory, fitting the MCP Servers and Tooling category.
+  evidence:
+    - Listed under 'Server Implementations > Finance & Fintech' in the awesome-mcp-servers source list.
+    - The URL https://cspr.trade and context indicate a specific server implementation for the Casper blockchain ecosystem.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.727Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:43:23.555Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

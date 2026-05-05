@@ -1,0 +1,95 @@
+id: github__lightgbm-org__lightgbm
+kind: github-repo
+name: lightgbm
+canonical_url: https://github.com/lightgbm-org/lightgbm
+identity:
+  github_repo: lightgbm-org/lightgbm
+provenance:
+  discoveries:
+    - id: discovery__github__microsoft__lightgbm__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Training
+          - Frameworks for Training
+        anchor_text: LightGBM
+        extracted_url: https://github.com/microsoft/lightgbm
+        surrounding_text: "| [LightGBM](https://github.com/microsoft/LightGBM)                    | A fast, distributed, high performance gradient boosting (GBT, GBDT, GBRT, GBM or MART) framework based on decision tree algorithms, used for ranking, classification and many other machine learning tasks. | ![GitHub Badge](https://img.shields.io/github/stars/microsoft/LightGBM.svg?style=flat-square)                |"
+        confidence: high
+metadata:
+  github:
+    stars: 18318
+    forks: 4012
+    license: MIT
+    archived: false
+    created_at: "2016-08-05T05:45:50Z"
+    pushed_at: "2026-05-04T04:02:22Z"
+    description: A fast, distributed, high performance gradient boosting (GBT, GBDT, GBRT, GBM or MART) framework based on decision tree algorithms, used for ranking, classification and many other machine learning tasks.
+    homepage: https://lightgbm.readthedocs.io/en/latest/
+    topics:
+      - data-mining
+      - decision-trees
+      - distributed
+      - gbdt
+      - gbm
+      - gbrt
+      - gradient-boosting
+      - kaggle
+      - lightgbm
+      - machine-learning
+      - microsoft
+      - parallel
+      - python
+      - r
+    last_checked_at: "2026-05-05T21:03:19.801Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:19.801Z"
+      bytes: 13016
+insights:
+  summary: LightGBM is a fast, distributed gradient boosting framework based on decision tree algorithms for ranking, classification, and other machine learning tasks.
+  why_it_matters: It provides developers with a high-performance, low-memory library for building and training gradient boosted models across Python, R, and distributed environments.
+  mental_damage: A staple of the Kaggle era that reminds developers that while they are prompt engineering, others are still hand-tuning learning_rate on 10-year-old boosting algorithms.
+  tags:
+    - gradient-boosting
+    - machine-learning
+    - python
+    - distributed
+  confidence: high
+curation:
+  status: excluded
+  reason: LightGBM is a traditional machine learning library for model training, not a developer-facing AI tool, agent, or infrastructure component as defined by the catalog's scope.
+  evidence:
+    - Repo description defines it as a gradient boosting framework for ML tasks, not a developer tooling product.
+    - Topics and README focus on data-mining, decision trees, and model accuracy rather than coding agents or AI workflows.
+    - No source-list context indicates it appears in developer-tooling or AI awesome lists.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (18318) exceeded threshold (150)
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:33:54.035Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.707Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:19.801Z"
+    cause: null
+    next_retry_at: null

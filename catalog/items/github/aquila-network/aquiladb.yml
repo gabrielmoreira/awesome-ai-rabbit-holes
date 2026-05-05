@@ -1,0 +1,100 @@
+id: github__aquila-network__aquiladb
+kind: github-repo
+name: aquiladb
+canonical_url: https://github.com/aquila-network/aquiladb
+identity:
+  github_repo: aquila-network/aquiladb
+provenance:
+  discoveries:
+    - id: discovery__github__aquila-network__aquiladb__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Search
+          - Vector search
+        anchor_text: AquilaDB
+        extracted_url: https://github.com/aquila-network/aquiladb
+        surrounding_text: "| [AquilaDB](https://github.com/Aquila-Network/AquilaDB)    | An easy to use Neural Search Engine. Index latent vectors along with JSON metadata and do efficient k-NN search.                                                                                                                                                                              | ![GitHub Badge](https://img.shields.io/github/stars/Aquila-Network/AquilaDB.svg?style=flat-square)    |"
+        confidence: high
+metadata:
+  github:
+    stars: 380
+    forks: 26
+    license: null
+    archived: false
+    created_at: "2019-04-19T13:01:51Z"
+    pushed_at: "2024-05-06T18:26:02Z"
+    description: An easy to use Neural Search Engine. Index latent vectors along with JSON metadata and do efficient k-NN search.
+    homepage: https://aquila.network
+    topics:
+      - approximate-nearest-neighbor-search
+      - aquila
+      - embedding
+      - faiss
+      - feature-vectors
+      - image-search
+      - information-retrieval
+      - information-retrieval-engine
+      - knn-search
+      - nearest-neighbor-search
+      - neural-information-retrieval
+      - neural-search
+      - retrieval
+      - search-engine
+      - similarity-search
+      - similarity-searches
+      - vector-database
+      - video-search
+    last_checked_at: "2026-05-05T21:01:07.771Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:07.771Z"
+      bytes: 8504
+insights:
+  summary: AquilaDB is a neural search engine that stores latent vectors alongside JSON metadata to perform efficient k-NN and similarity search for machine learning applications.
+  why_it_matters: It provides ML engineers and data scientists with a simple, language-agnostic database solution for building neural information retrieval features like semantic search without heavy infrastructure dependencies.
+  mental_damage: "Just what the modern stack needed: another vector database competing for the 'store these 768 floats and call it semantic' trophy."
+  tags:
+    - vector-database
+    - neural-search
+    - knn
+    - similarity-search
+    - ml-infrastructure
+  confidence: high
+curation:
+  status: included
+  reason: It is a developer-facing SDK/database for embedding AI behavior (vector search) into applications, fitting the code-first building block definition of the ai-frameworks category, and is listed in Awesome-LLMOps.
+  evidence:
+    - Repo description defines it as a 'Neural Search Engine' to index vectors and perform k-NN search.
+    - README targets ML engineers building NN retrieval apps with client SDKs for Python and Node JS.
+    - Listed in Awesome-LLMOps under 'Search > Vector search' as a developer infrastructure tool.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (380) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.440Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:07.771Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:08:46.093Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

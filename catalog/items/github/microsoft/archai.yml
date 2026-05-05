@@ -1,0 +1,93 @@
+id: github__microsoft__archai
+kind: github-repo
+name: archai
+canonical_url: https://github.com/microsoft/archai
+identity:
+  github_repo: microsoft/archai
+provenance:
+  discoveries:
+    - id: discovery__github__microsoft__archai__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - AutoML
+        anchor_text: Archai
+        extracted_url: https://github.com/microsoft/archai
+        surrounding_text: "| [Archai](https://github.com/microsoft/archai)                                | a platform for Neural Network Search (NAS) that allows you to generate efficient deep networks for your applications.                                                           | ![GitHub Badge](https://img.shields.io/github/stars/microsoft/archai.svg?style=flat-square)                |"
+        confidence: high
+metadata:
+  github:
+    stars: 486
+    forks: 93
+    license: MIT
+    archived: false
+    created_at: "2020-03-05T00:54:29Z"
+    pushed_at: "2025-11-24T03:14:04Z"
+    description: Accelerate your Neural Architecture Search (NAS) through fast, reproducible and modular research.
+    homepage: https://microsoft.github.io/archai
+    topics:
+      - automated-machine-learning
+      - automl
+      - darts
+      - deep-learning
+      - hyperparameter-optimization
+      - machine-learning
+      - model-compression
+      - nas
+      - neural-architecture-search
+      - petridish
+      - python
+      - pytorch
+    last_checked_at: "2026-05-05T21:03:37.886Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:37.886Z"
+      bytes: 6887
+insights:
+  summary: Archai is a Microsoft framework for Neural Architecture Search (NAS) that helps researchers and developers automatically discover efficient deep learning model architectures through modular, reproducible search algorithms and objectives.
+  why_it_matters: It lets developers move beyond hand-tuning model architectures by defining search spaces and objectives in code to automatically find Pareto-optimal configurations for parameters, latency, and memory.
+  mental_damage: Because what your CI pipeline really needed was an autonomous agent burning GPU cycles to rediscover that a slightly smaller Transformer would have been fine.
+  tags:
+    - neural-architecture-search
+    - automl
+    - pytorch
+    - deep-learning
+    - model-optimization
+  confidence: high
+curation:
+  status: included
+  reason: This is a code-first SDK and framework for embedding NAS behavior into Python workflows, fitting cleanly into AI Frameworks and SDKs rather than developer-facing coding assistants or app builders.
+  evidence:
+    - Repo description states it accelerates Neural Architecture Search through fast, reproducible, and modular research.
+    - README demonstrates a code-first workflow using Python imports, search spaces, objectives, and algorithms (e.g., EvolutionParetoSearch).
+    - Listed under AutoML in Awesome-LLMOps, reinforcing its role as a framework rather than a developer assistant or builder product.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (486) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.706Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:37.886Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:37:22.757Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__geekan__metagpt__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-01T13:51:25.374Z"
+      discovered_at: "2026-05-05T20:48:55.437Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -16,13 +16,13 @@ provenance:
       extraction:
         mode: parsed
         section_path:
-          - "[MetaGPT](https://github.com/geekan/MetaGPT)"
-        anchor_text: image
+          - MetaGPT
+        anchor_text: MetaGPT
         extracted_url: https://github.com/geekan/metagpt
-        surrounding_text: "![image](https://github.com/geekan/MetaGPT/raw/main/docs/resources/MetaGPT-new-log.png)"
+        surrounding_text: "## [MetaGPT](https://github.com/geekan/MetaGPT)"
         confidence: high
     - id: discovery__github__geekan__metagpt__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-01T13:51:25.374Z"
+      discovered_at: "2026-05-05T20:48:55.437Z"
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -38,7 +38,7 @@ provenance:
         surrounding_text: "| [MetaGPT](https://github.com/geekan/MetaGPT) | Multi-agent framework for software development with role assignment | ![Stars](https://img.shields.io/github/stars/geekan/MetaGPT) |"
         confidence: high
     - id: discovery__github__geekan__metagpt__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-01T13:51:25.374Z"
+      discovered_at: "2026-05-05T20:48:55.437Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -53,7 +53,7 @@ provenance:
         surrounding_text: "- [MetaGPT](https://github.com/geekan/MetaGPT) - The Multi-Agent Framework: Given one line requirement, return PRD, design, tasks, repo."
         confidence: high
     - id: discovery__github__geekan__metagpt__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-01T13:51:25.374Z"
+      discovered_at: "2026-05-05T20:48:55.437Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -68,7 +68,7 @@ provenance:
         surrounding_text: "- [MetaGPT](https://github.com/geekan/MetaGPT): The Multi-Agent Meta Programming Framework: Given one line Requirement, return PRD, Design, Tasks, Repo and CI ![GitHub Repo stars](https://img.shields.io/github/stars/geekan/MetaGPT?style=social)"
         confidence: high
     - id: discovery__github__geekan__metagpt__awesome-list__kaushikb11__awesome-llm-agents
-      discovered_at: "2026-05-01T13:51:25.374Z"
+      discovered_at: "2026-05-05T20:48:55.437Z"
       source:
         type: awesome-list
         name: kaushikb11/awesome-llm-agents
@@ -84,8 +84,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 67596
-    forks: 8586
+    stars: 67703
+    forks: 8610
     license: MIT
     archived: false
     created_at: "2023-06-30T09:04:55Z"
@@ -98,31 +98,50 @@ metadata:
       - llm
       - metagpt
       - multi-agent
-    last_checked_at: "2026-05-01T13:51:36.157Z"
+    last_checked_at: "2026-05-05T21:02:18.101Z"
     readme:
-      fetched_at: "2026-05-01T13:51:36.157Z"
+      fetched_at: "2026-05-05T21:02:18.101Z"
       bytes: 8215
 insights:
-  summary: MetaGPT is an open-source multi-agent framework that assigns software-team roles (PM, architect, engineers) to LLMs to generate software artifacts and code from a natural-language requirement.
-  why_it_matters: It offers a “one prompt → structured plan/docs/APIs/repo” workflow that can help developers prototype or scaffold projects by orchestrating multiple specialized agent roles instead of a single chat session.
-  mental_damage: It normalizes the idea that your “team” now includes a product manager bot that can block your PR because the SOP says so.
+  summary: MetaGPT is a multi-agent framework that assigns LLM-based roles—such as product manager, architect, and engineer—to collaboratively interpret a one-line requirement and output structured software artifacts and code.
+  why_it_matters: It provides developers with a code-first SDK to orchestrate specialized AI roles that automate significant portions of the software design and generation lifecycle.
+  mental_damage: Finally, an entire simulated software company to argue with internally, so you can feel busy while your one-line prompt slowly scaffolds a 2048 game.
   tags:
     - multi-agent
-    - agent-orchestration
-    - coding-agent
-    - python
     - llm-framework
+    - sdk
+    - code-generation
+    - ai-team
   confidence: high
 curation:
   status: included
-  reason: Include because it’s a widely used, actively maintained multi-agent orchestration framework aimed at developer workflows (turning requirements into coordinated software outputs), best fitting Agent Orchestration over a single coding assistant.
+  reason: The primary artifact is a developer-importable SDK and framework for building multi-agent systems, rather than a hosted app builder or a direct IDE coding assistant.
   evidence:
-    - "README: takes a one-line requirement and outputs user stories/requirements/data structures/APIs/docs via orchestrated roles (PM/architect/engineers) and SOPs"
-    - "CLI usage: `metagpt \"Create a 2048 game\"` generates a repo in `./workspace` and it can be used as a Python library"
-    - "Strong traction and credibility signals: 67k+ stars, MIT license, not archived, recent activity (pushed 2026-01-21) and listed across multiple agent-framework awesome lists"
+    - Repo description defines it as 'The Multi-Agent Framework' and instructs developers to use it via pip install and Python imports like 'from metagpt.software_company import generate_repo'.
+    - Featured in source lists under 'Frameworks' (awesome-llm-agents) and 'Core Frameworks > Multi-Agent Orchestration Frameworks' (awesome-agent-orchestration).
+    - Actively maintained with 67,703 stars and a recent push date of 2026-01-21.
 placement:
-  primary_category: agent-orchestration
+  primary_category: ai-frameworks
   section: null
 lifecycle:
   status: promotion_candidate
-  reason: Stars (67596) exceeded threshold (150)
+  reason: Stars (67703) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.438Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:18.101Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:20:44.319Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

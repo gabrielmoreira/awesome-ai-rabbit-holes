@@ -1,0 +1,77 @@
+id: wopee__io
+kind: website
+name: wopee.io
+canonical_url: https://wopee.io
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__wopee__io__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Testing and QA
+        anchor_text: Wopee.io
+        extracted_url: https://wopee.io
+        surrounding_text: "- **[Wopee.io](https://wopee.io)** – Autonomous visual regression testing with Playwright/Cypress integration."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Wopee.io is a SaaS platform that uses AI agents to explore web applications, automatically generate Playwright-based tests, and self-heal test scripts when the UI changes.
+  why_it_matters: It targets the high-maintenance burden of end-to-end testing by automating test creation and adaptation directly from a live URL, integrating with CI/CD pipelines and frameworks like Cypress and Robot Framework.
+  mental_damage: We’ve successfully automated ourselves out of writing tests, leaving us with the new full-time job of reviewing whether the AI successfully tested the thing we forgot to specify.
+  tags:
+    - testing
+    - qa
+    - ai-agents
+    - playwright
+    - e2e
+  confidence: high
+curation:
+  status: included
+  reason: This is an AI agent that specifically plans, generates, and validates code (tests) within the developer's workflow and CI/CD pipeline, fitting the coding-agents definition.
+  evidence:
+    - Source list context places it under 'Testing and QA' in awesome-ai-coding-tools.
+    - "Scraped site states: 'AI agents explore your app, generate Playwright tests, and self-heal when your UI changes.'"
+    - Supports CI/CD integrations (GitHub Actions, Jenkins) and outputs standard test code for frameworks like Playwright and Cypress.
+placement:
+  primary_category: coding-agents
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.731Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:49:22.564Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

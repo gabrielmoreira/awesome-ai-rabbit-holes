@@ -1,0 +1,88 @@
+id: github__fasuizu-br__speech-ai-examples
+kind: github-repo
+name: speech-ai-examples
+canonical_url: https://github.com/fasuizu-br/speech-ai-examples
+identity:
+  github_repo: fasuizu-br/speech-ai-examples
+provenance:
+  discoveries:
+    - id: discovery__github__fasuizu-br__speech-ai-examples__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - 🎨 Art & Culture
+        anchor_text: fasuizu-br/speech-ai-examples
+        extracted_url: https://github.com/fasuizu-br/speech-ai-examples
+        surrounding_text: "-   **[fasuizu-br/speech-ai-examples](https://github.com/fasuizu-br/speech-ai-examples)** [![GitHub stars](https://img.shields.io/github/stars/fasuizu-br/speech-ai-examples?style=social)](https://github.com/fasuizu-br/speech-ai-examples): Speech AI MCP server with pronunciation assessment (phoneme-level scoring, 17MB model, <300ms), text-to-speech, and speech-to-text. 8 tools for language learning, accessibility, and voice applications."
+        confidence: high
+metadata:
+  github:
+    stars: 2
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-02-20T14:26:31Z"
+    pushed_at: "2026-03-10T02:51:04Z"
+    description: Production-ready examples for Brainiall Speech AI APIs — Pronunciation Assessment, STT, TTS. Python, JavaScript, curl, and MCP configs.
+    homepage: https://brainiall.com
+    topics:
+      - ai-agents
+      - api-examples
+      - language-learning
+      - mcp
+      - pronunciation
+      - speech-ai
+      - speech-to-text
+      - text-to-speech
+    last_checked_at: "2026-05-05T21:02:08.647Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:08.647Z"
+      bytes: 7401
+insights:
+  summary: A collection of production-ready code examples for Brainiall's Speech AI APIs, covering pronunciation assessment, STT, TTS, and MCP server configurations in Python, JavaScript, and curl.
+  why_it_matters: It gives developers copy-paste starting points to integrate speech AI and MCP tooling into apps without reading dense API reference docs.
+  mental_damage: Another MCP example repo with two stars proves that publishing boilerplate is now an obligatory stage in the AI API adoption lifecycle.
+  tags:
+    - speech-ai
+    - mcp
+    - api-examples
+    - pronunciation
+  confidence: high
+curation:
+  status: excluded
+  reason: The repo is a vendor-specific API example collection rather than a reusable developer tool, agent, framework, or MCP server itself, and it lacks meaningful ecosystem traction.
+  evidence:
+    - Repo description explicitly states it is 'Production-ready examples for Brainiall Speech AI APIs', not a tool or server.
+    - Only 2 stars and created in 2026-02, showing no meaningful adoption despite recent pushes.
+    - Listed in awesome-mcp-list under Art & Culture, not in a developer-tooling or infrastructure section.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.687Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:08.647Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:19:07.344Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

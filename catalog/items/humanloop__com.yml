@@ -1,0 +1,74 @@
+id: humanloop__com
+kind: website
+name: humanloop.com
+canonical_url: https://humanloop.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__humanloop__com__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - LLMOps
+        anchor_text: Humanloop
+        extracted_url: https://humanloop.com
+        surrounding_text: "| [Humanloop](https://humanloop.com)                                 | The LLM evals platform for enterprises, providing tools to develop, evaluate, and observe AI systems. |                                                                                                |"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Humanloop was a development platform for building and evaluating LLM applications, which has been sunset after the team joined Anthropic.
+  why_it_matters: It helped define industry standards for managing and evaluating AI applications before shutting down its platform.
+  mental_damage: The company that taught us how to evaluate AI models has now been successfully evaluated and acquired by one, proving the only safe way to deploy AI is to become part of it.
+  tags:
+    - llmops
+    - evals
+    - sunset
+  confidence: high
+curation:
+  status: excluded
+  reason: The platform is being sunset and the team has joined Anthropic, meaning the product is no longer an active tool for developers to adopt.
+  evidence:
+    - Primary page excerpt confirms 'We are thrilled to announce that the Humanloop team is joining Anthropic!'
+    - The announcement states 'As we sunset the Humanloop platform, we will continue to work closely with our customers to make their transition as smooth as possible.'
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.728Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:45:31.120Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

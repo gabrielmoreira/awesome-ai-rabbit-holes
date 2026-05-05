@@ -1,0 +1,81 @@
+id: github__mnlt__wellread
+kind: github-repo
+name: wellread
+canonical_url: https://github.com/mnlt/wellread
+identity:
+  github_repo: mnlt/wellread
+provenance:
+  discoveries:
+    - id: discovery__github__mnlt__wellread__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: mnlt/wellread
+        extracted_url: https://github.com/mnlt/wellread
+        surrounding_text: "- [mnlt/wellread](https://github.com/mnlt/wellread) [![wellread MCP server](https://glama.ai/mcp/servers/mnlt/wellread/badges/score.svg)](https://glama.ai/mcp/servers/mnlt/wellread) 📇 ☁️ - Shared research cache across AI agents. Hit → instant answer from verified sources. Miss → your research saves the next dev's tokens. `npx wellread`, free."
+        confidence: high
+metadata:
+  github:
+    stars: 8
+    forks: 0
+    license: AGPL-3.0
+    archived: false
+    created_at: "2026-03-16T09:04:18Z"
+    pushed_at: "2026-04-19T15:36:43Z"
+    description: Collective research memory for AI agents
+    homepage: https://www.wellread.md
+    topics: []
+    last_checked_at: "2026-05-05T21:03:44.477Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:44.477Z"
+      bytes: 5265
+insights:
+  summary: An MCP server that acts as a shared semantic cache for agent research, storing verified technical answers to reduce redundant web searches and token usage across sessions.
+  why_it_matters: It drastically cuts token costs and latency for AI agents by serving previously verified research instead of forcing a fresh web search for every repeated technical query.
+  mental_damage: We have successfully built a distributed system to solve the problem of our AI assistants having the same memory holes we do.
+  tags:
+    - mcp
+    - memory
+    - agent-optimization
+    - research
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server providing a shared research memory layer for AI agents, fitting directly into the MCP infrastructure category.
+  evidence:
+    - "Repo description states: 'Collective research memory for AI agents'."
+    - "README confirms it is an MCP server: 'npx wellread' and 'Works with any MCP client'."
+    - Listed in 'awesome-mcp-servers' under 'Knowledge & Memory' section.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.708Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:44.477Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:38:35.915Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

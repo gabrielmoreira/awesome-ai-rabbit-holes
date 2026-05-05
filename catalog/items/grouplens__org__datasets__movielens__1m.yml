@@ -1,0 +1,76 @@
+id: grouplens__org__datasets__movielens__1m
+kind: website
+name: 1m
+canonical_url: https://grouplens.org/datasets/movielens/1m
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__grouplens__org__datasets__movielens__1m__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Agent4Rec
+          - Description
+        anchor_text: MovieLens-1M
+        extracted_url: https://grouplens.org/datasets/movielens/1m
+        surrounding_text: "- These agents are initialized from the [MovieLens-1M](https://grouplens.org/datasets/movielens/1m/) dataset, embodying varied social traits and preferences."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: MovieLens 1M is a stable benchmark dataset containing 1 million movie ratings from 6,000 users on 4,000 movies, released in 2003.
+  why_it_matters: It serves as a foundational benchmark for evaluating recommendation algorithms and agent behaviors in research contexts.
+  mental_damage: We have reached a point where a static CSV from 2003 is listed alongside autonomous agents as if it might somehow write your unit tests.
+  tags:
+    - dataset
+    - benchmark
+    - recommendation-systems
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a static research dataset for recommendation systems, not an AI tool, agent, workflow, or developer-facing infrastructure.
+  evidence:
+    - The source is a static dataset (1 million ratings, released 2003) with no tooling or executable components.
+    - Appears in awesome-ai-agents only as a benchmark reference under 'Agent4Rec', not as a functional tool.
+    - No repo description, stars, or code indicators suggest this is a developer tool or agent.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.728Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:45:13.289Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

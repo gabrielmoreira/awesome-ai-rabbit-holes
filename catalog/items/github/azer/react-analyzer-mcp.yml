@@ -1,0 +1,81 @@
+id: github__azer__react-analyzer-mcp
+kind: github-repo
+name: react-analyzer-mcp
+canonical_url: https://github.com/azer/react-analyzer-mcp
+identity:
+  github_repo: azer/react-analyzer-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__azer__react-analyzer-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: azer/react-analyzer-mcp
+        extracted_url: https://github.com/azer/react-analyzer-mcp
+        surrounding_text: "- [azer/react-analyzer-mcp](https://github.com/azer/react-analyzer-mcp) 📇 🏠 - Analyze React code locally, generate docs / llm.txt for whole project at once"
+        confidence: high
+metadata:
+  github:
+    stars: 57
+    forks: 5
+    license: null
+    archived: false
+    created_at: "2025-04-09T20:19:09Z"
+    pushed_at: "2025-04-09T20:50:12Z"
+    description: MCP server for analyzing & generating docs for React code locally
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:01:15.955Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:15.955Z"
+      bytes: 1822
+insights:
+  summary: An MCP server that analyzes React component files to extract props and structure, enabling AI assistants like Claude to document and inspect local React projects.
+  why_it_matters: It lets AI coding assistants understand and document your specific React component architecture without leaving the chat interface.
+  mental_damage: Yet another tool to ensure your AI can perfectly describe the component props you wrote but forgot to document because you were too busy setting up the MCP server.
+  tags:
+    - mcp
+    - react
+    - documentation
+    - local-tools
+  confidence: medium
+curation:
+  status: included
+  reason: The project is a Model Context Protocol server designed to give AI assistants local analysis capabilities for React codebases.
+  evidence:
+    - Repo description explicitly states 'MCP server for analyzing & generating docs for React code locally'.
+    - README confirms it provides tools like 'analyze-react' and 'analyze-project' for Claude via MCP.
+    - Listed in the 'awesome-mcp-servers' directory under Developer Tools.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.680Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:15.955Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:10:02.744Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

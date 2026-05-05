@@ -1,0 +1,80 @@
+id: github__esignaturescom__mcp-server-esignatures
+kind: github-repo
+name: mcp-server-esignatures
+canonical_url: https://github.com/esignaturescom/mcp-server-esignatures
+identity:
+  github_repo: esignaturescom/mcp-server-esignatures
+provenance:
+  discoveries:
+    - id: discovery__github__esignaturescom__mcp-server-esignatures__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: eSignatures
+        extracted_url: https://github.com/esignaturescom/mcp-server-esignatures
+        surrounding_text: "- **[eSignatures](https://github.com/esignaturescom/mcp-server-esignatures)** - Contract and template management for drafting, reviewing, and sending binding contracts."
+        confidence: high
+metadata:
+  github:
+    stars: 36
+    forks: 12
+    license: MIT
+    archived: false
+    created_at: "2025-01-25T10:31:46Z"
+    pushed_at: "2026-03-31T23:53:10Z"
+    description: MCP server for eSignatures (https://esignatures.com)
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:04.170Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:04.170Z"
+      bytes: 4218
+insights:
+  summary: An MCP server that exposes eSignatures.com contract and template management tools to AI models and agents.
+  why_it_matters: Developers can hook contract drafting, sending, and template management directly into their AI-assisted IDE or agent workflows instead of switching to a web dashboard.
+  mental_damage: Your coding agent can now negotiate, draft, and withdraw NDAs while you are still trying to remember if you committed your .env file.
+  tags:
+    - mcp
+    - contracts
+    - automation
+    - agent-tooling
+  confidence: high
+curation:
+  status: included
+  reason: This is a first-party MCP server that integrates eSignatures functionality into MCP-compatible clients, fitting cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states 'MCP server for eSignatures'
+    - README documents MCP tools for contract and template management (create_contract, send_contract, update_template, etc.)
+    - Listed under 'Official Servers' in the awesome-mcp-servers directory
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.686Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:04.170Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:18:21.243Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

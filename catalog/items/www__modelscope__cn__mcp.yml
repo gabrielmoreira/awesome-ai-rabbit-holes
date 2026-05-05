@@ -1,0 +1,75 @@
+id: www__modelscope__cn__mcp
+kind: website
+name: mcp
+canonical_url: https://www.modelscope.cn/mcp
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__modelscope__cn__mcp__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 模型上下文协议 MCP
+        anchor_text: modelscope/mcp
+        extracted_url: https://modelscope.cn/mcp
+        surrounding_text: 15. [modelscope/mcp](https://modelscope.cn/mcp)
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: ModelScope's MCP Plaza is a directory and aggregation hub for Model Context Protocol resources and servers.
+  why_it_matters: It serves as a centralized registry for developers looking to discover and integrate MCP-compatible tools into their AI workflows.
+  mental_damage: "Just what we needed: another walled-garden registry competing to be the definitive index for a protocol that is currently fracturing the ecosystem into a dozen incompatible silos."
+  tags:
+    - mcp
+    - registry
+    - directory
+    - modelscope
+  confidence: medium
+curation:
+  status: included
+  reason: This is a directory/aggregation hub for MCP resources rather than a standalone tool or server itself, fitting the awesome-awesomes category.
+  evidence:
+    - "Scraped title and description identify it as 'MCP 广场' (MCP Plaza) aggregating resources: '聚合优质MCP资源，拓展智能边界！'"
+    - Listed in awesome-LLM-resources under the section '模型上下文协议 MCP' as a linked resource page.
+placement:
+  primary_category: awesome-awesomes
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.733Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:52:06.012Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

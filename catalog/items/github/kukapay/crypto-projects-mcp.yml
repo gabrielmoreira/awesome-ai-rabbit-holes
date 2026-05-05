@@ -1,0 +1,81 @@
+id: github__kukapay__crypto-projects-mcp
+kind: github-repo
+name: crypto-projects-mcp
+canonical_url: https://github.com/kukapay/crypto-projects-mcp
+identity:
+  github_repo: kukapay/crypto-projects-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__kukapay__crypto-projects-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: kukapay/crypto-projects-mcp
+        extracted_url: https://github.com/kukapay/crypto-projects-mcp
+        surrounding_text: "- [kukapay/crypto-projects-mcp](https://github.com/kukapay/crypto-projects-mcp) 🐍 ☁️ - Providing cryptocurrency project data from Mobula.io to AI agents."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 9
+    license: MIT
+    archived: false
+    created_at: "2025-05-05T17:31:17Z"
+    pushed_at: "2025-05-11T12:57:52Z"
+    description: An MCP server that provides cryptocurrency project data to AI agents
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:03:10.462Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:10.462Z"
+      bytes: 9539
+insights:
+  summary: A Model Context Protocol server that fetches and formats cryptocurrency project data from Mobula.io for consumption by AI agents.
+  why_it_matters: It gives coding agents and LLM apps structured, real-time access to crypto market data, tokenomics, and project links without requiring custom API glue code.
+  mental_damage: We have officially reached the point where the AI needs its own dedicated protocol server just to tell you the current price of Avalanche without hallucinating it.
+  tags:
+    - mcp
+    - crypto
+    - data
+    - ai-agents
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server providing tooling for the Model Context Protocol ecosystem, which fits squarely into the MCP category.
+  evidence:
+    - Repo description states it is 'An MCP server that provides cryptocurrency project data to AI agents'.
+    - README confirms it is an MCP server using `mcp dev` and `mcp install` commands for integration.
+    - Listed in the 'awesome-mcp-servers' directory under 'Finance & Fintech'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.702Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:10.462Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:31:54.454Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

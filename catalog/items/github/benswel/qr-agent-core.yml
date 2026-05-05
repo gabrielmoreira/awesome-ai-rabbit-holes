@@ -1,0 +1,81 @@
+id: github__benswel__qr-agent-core
+kind: github-repo
+name: qr-agent-core
+canonical_url: https://github.com/benswel/qr-agent-core
+identity:
+  github_repo: benswel/qr-agent-core
+provenance:
+  discoveries:
+    - id: discovery__github__benswel__qr-agent-core__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: benswel/qr-agent-core
+        extracted_url: https://github.com/benswel/qr-agent-core
+        surrounding_text: "- [benswel/qr-agent-core](https://github.com/benswel/qr-agent-core) [![benswel/qr-agent-core MCP server](https://glama.ai/mcp/servers/benswel/qr-agent-core/badges/score.svg)](https://glama.ai/mcp/servers/benswel/qr-agent-core) 📇 ☁️ - Dynamic QR code service for AI agents. Create, update, track, and retarget QR codes without regenerating images. 37 tools covering 11 QR types, one-command install via `npx qr-for-agent`."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2026-02-23T15:09:23Z"
+    pushed_at: "2026-03-27T15:51:27Z"
+    description: QR-as-a-Service API for AI agents — 34 MCP tools, 11 QR types, dynamic links, scan analytics, webhooks, custom domains. REST API + MCP server.
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:01:18.842Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:18.842Z"
+      bytes: 11902
+insights:
+  summary: A self-hostable QR-as-a-Service API and MCP server that lets AI agents generate, style, and track dynamic QR codes with scan analytics and webhooks.
+  why_it_matters: It packages 37 MCP tools into a single server so agents can programmatically manage QR codes, redirections, and scan analytics without leaving their workflow.
+  mental_damage: "We have finally achieved the singularity: an AI agent can now autonomously A/B test a QR code pointing to a vegan brunch special without human intervention."
+  tags:
+    - mcp
+    - qr-codes
+    - api
+    - self-hosted
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server implementation with 37 tools, fitting cleanly into the MCP infrastructure category.
+  evidence:
+    - "Repo description states: 'QR-as-a-Service API for AI agents — 34 MCP tools... REST API + MCP server.'"
+    - "README confirms: 'MCP server — qr-for-agent with 37 tools for Claude Desktop, Cursor, etc.'"
+    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.681Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:18.842Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:10:31.865Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,99 @@
+id: github__kagan-sh__kagan
+kind: github-repo
+name: kagan
+canonical_url: https://github.com/kagan-sh/kagan
+identity:
+  github_repo: kagan-sh/kagan
+provenance:
+  discoveries:
+    - id: discovery__github__kagan-sh__kagan__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🤖 <a name="coding-agents"></a>Coding Agents
+        anchor_text: kagan-sh/kagan
+        extracted_url: https://github.com/kagan-sh/kagan
+        surrounding_text: "- [kagan-sh/kagan](https://github.com/kagan-sh/kagan) [![kagan-sh/kagan MCP server](https://glama.ai/mcp/servers/kagan-sh/kagan/badges/score.svg)](https://glama.ai/mcp/servers/kagan-sh/kagan) 🐍 🏠 🍎 🪟 🐧 - AI-powered Kanban TUI and MCP server for autonomous development workflows. Orchestrates 14 coding agents across task tracking, isolated git worktrees, review, and merge."
+        confidence: high
+metadata:
+  github:
+    stars: 71
+    forks: 5
+    license: MIT
+    archived: false
+    created_at: "2026-01-25T22:09:11Z"
+    pushed_at: "2026-05-05T20:37:03Z"
+    description: The Orchestration Layer for AI Coding Agents
+    homepage: http://kagan.sh/
+    topics:
+      - ai
+      - ai-agents
+      - antrophic
+      - claude
+      - claude-code
+      - cli
+      - codex
+      - gemini
+      - kagan
+      - kanban
+      - mcp
+      - openai
+      - opencode
+      - python
+      - textual
+      - tui
+      - uv
+    last_checked_at: "2026-05-05T21:03:02.114Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:02.114Z"
+      bytes: 5020
+insights:
+  summary: A terminal-based Kanban board and orchestration layer that manages AI coding agents in isolated git worktrees and enforces a human review gate before merging code.
+  why_it_matters: It adds a structured workflow and safety rails for teams running autonomous coding agents, ensuring no AI-generated patch reaches main without explicit human approval.
+  mental_damage: We have successfully built a bureaucracy around the hallucination machine so that it can spawn branches in isolation while we wait to approve its work in a TUI.
+  tags:
+    - kanban
+    - tui
+    - git-worktree
+    - human-review
+    - mcp
+  confidence: high
+curation:
+  status: included
+  reason: Kagan is a user-facing control plane for coordinating and gating multiple AI coding agents rather than a primary coding assistant itself, which aligns with the agent-orchestration category.
+  evidence:
+    - Repo description explicitly calls it 'The Orchestration Layer for AI Coding Agents'.
+    - README states it is a 'Kanban TUI for AI coding agents with a structural human review gate' and supports Claude Code, Codex, and others.
+    - Includes an MCP server so external agents can drive the board, reinforcing its role as orchestration infrastructure.
+placement:
+  primary_category: agent-orchestration
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.701Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:02.114Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:29:59.198Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,89 @@
+id: github__conarti__mattermost-mcp
+kind: github-repo
+name: mattermost-mcp
+canonical_url: https://github.com/conarti/mattermost-mcp
+identity:
+  github_repo: conarti/mattermost-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__conarti__mattermost-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💬 <a name="communication"></a>Communication
+        anchor_text: conarti/mattermost-mcp
+        extracted_url: https://github.com/conarti/mattermost-mcp
+        surrounding_text: "- [conarti/mattermost-mcp](https://github.com/conarti/mattermost-mcp) 📇 ☁️ - MCP server for Mattermost API. List channels, read/post messages, manage threads and reactions, monitor topics. Supports flexible configuration via CLI args, environment variables, or config files."
+        confidence: high
+metadata:
+  github:
+    stars: 2
+    forks: 2
+    license: null
+    archived: false
+    created_at: "2025-12-19T12:18:38Z"
+    pushed_at: "2025-12-20T09:29:32Z"
+    description: Mattermost MCP server to enable Claude to interact with Mattermost Workspaces
+    homepage: null
+    topics:
+      - chat
+      - claude
+      - mattermost
+      - mcp
+      - mcp-server
+      - messaging
+      - model-context-protocol
+      - team-communication
+    last_checked_at: "2026-05-05T21:01:40.168Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:40.168Z"
+      bytes: 7204
+insights:
+  summary: A Model Context Protocol server that exposes the Mattermost API to MCP clients like Claude, enabling message posting, channel history retrieval, and user lookups from AI assistants.
+  why_it_matters: Developers can wire Claude and other MCP clients directly into their team chat workflows, letting assistants read threads, post updates, and react to messages without leaving the workspace.
+  mental_damage: Your AI assistant can now argue with coworkers in Mattermost on your behalf, which is either the ultimate productivity hack or a fast track to HR involvement.
+  tags:
+    - mcp
+    - mattermost
+    - chat
+    - integration
+  confidence: high
+curation:
+  status: included
+  reason: The primary artifact is a dedicated MCP server implementation for Mattermost, which cleanly fits the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description states: 'Mattermost MCP server to enable Claude to interact with Mattermost Workspaces.'"
+    - README specifies MCP Server for the Mattermost API with Claude and other MCP client integration instructions.
+    - Listed in awesome-mcp-servers under Server Implementations > Communication.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.683Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:40.168Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:14:14.127Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

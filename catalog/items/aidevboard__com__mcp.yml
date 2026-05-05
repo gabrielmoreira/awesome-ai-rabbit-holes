@@ -1,0 +1,76 @@
+id: aidevboard__com__mcp
+kind: website
+name: mcp
+canonical_url: https://aidevboard.com/mcp
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__aidevboard__com__mcp__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - MCP Servers and Directories
+        anchor_text: AI Dev Jobs MCP
+        extracted_url: https://aidevboard.com/mcp
+        surrounding_text: "- **[AI Dev Jobs MCP](https://aidevboard.com/mcp)** – Search 5,400+ AI developer jobs with salary data via MCP. REST API also available."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A directory site indexing Model Context Protocol (MCP) servers, clients, and related tooling.
+  why_it_matters: It serves as a navigation aid for developers looking to discover and integrate MCP-compatible tools into their AI-assisted workflows.
+  mental_damage: Another layer of abstraction has arrived to help you browse the abstraction layers you haven't finished configuring yet.
+  tags:
+    - mcp
+    - directory
+    - tooling
+    - index
+  confidence: high
+curation:
+  status: included
+  reason: The site functions as a curated index and directory for MCP tools, serving as a navigation aid rather than a standalone developer tool itself.
+  evidence:
+    - URL is a directory-style site (aidevboard.com/mcp) focused on listing MCP resources.
+    - Explicitly listed in awesome-ai-coding-tools under the section 'MCP Servers and Directories'.
+    - Lacks a repo description, README, or code signals indicating it is a tool rather than a list.
+placement:
+  primary_category: awesome-awesomes
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.726Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:41:35.081Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

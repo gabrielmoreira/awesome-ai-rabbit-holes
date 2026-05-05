@@ -1,0 +1,97 @@
+id: github__doriandarko__claude-engineer
+kind: github-repo
+name: claude-engineer
+canonical_url: https://github.com/doriandarko/claude-engineer
+identity:
+  github_repo: doriandarko/claude-engineer
+provenance:
+  discoveries:
+    - id: discovery__github__doriandarko__claude-engineer__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Terminal-native coding agents
+          - Open Source
+        anchor_text: Claude Engineer
+        extracted_url: https://github.com/doriandarko/claude-engineer
+        surrounding_text: "- **[Claude Engineer](https://github.com/Doriandarko/claude-engineer)** `⭐ 11.2k` — Community-driven CLI for agentic Claude workflows with file management and iterative development."
+        confidence: high
+    - id: discovery__github__doriandarko__claude-engineer__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Other LLM Frameworks
+        anchor_text: Claude Engineer
+        extracted_url: https://github.com/doriandarko/claude-engineer
+        surrounding_text: "- [Claude Engineer](https://github.com/Doriandarko/claude-engineer): Claude Engineer is an interactive command-line interface (CLI) that leverages the power of Anthropic's Claude-3.5-Sonnet model to assist with software development tasks. ![GitHub Repo stars](https://img.shields.io/github/stars/Doriandarko/claude-engineer?style=social)"
+        confidence: high
+metadata:
+  github:
+    stars: 11167
+    forks: 1143
+    license: null
+    archived: false
+    created_at: "2024-06-24T16:52:12Z"
+    pushed_at: "2024-12-12T22:08:15Z"
+    description: Claude Engineer is an interactive command-line interface (CLI) that leverages the power of Anthropic's Claude-3.5-Sonnet model to assist with software development tasks.This framework enables Claude to generate and manage its own tools, continuously expanding its capabilities through conversation. Available both as a CLI and a modern web interface
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:01:56.059Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:56.059Z"
+      bytes: 9827
+insights:
+  summary: Claude Engineer is a CLI and web-based interface for Anthropic's Claude 3.5 Sonnet that allows the model to autonomously create, manage, and expand its own toolset during conversations.
+  why_it_matters: It enables developers to interact with a coding agent that can identify its own capability gaps and write new tools on the fly to solve complex tasks.
+  mental_damage: Why settle for an agent that just edits files when you can have one that patches its own brain mid-conversation and calls it 'self-improvement'.
+  tags:
+    - cli
+    - coding-agent
+    - tool-generation
+    - self-improving
+    - web-interface
+  confidence: high
+curation:
+  status: included
+  reason: The project is a terminal-native and web-based coding agent that plans, executes, and autonomously expands its toolset to assist with software development tasks.
+  evidence:
+    - Repo description explicitly defines it as an interactive CLI leveraging Claude-3.5-Sonnet to assist with software development tasks.
+    - README details 'autonomous tool generation capabilities' and a 'self-improving tool creation system' within the CLI and web interfaces.
+    - Included in the awesome-cli-coding-agents list under the 'Terminal-native coding agents > Open Source' section.
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (11167) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.665Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:56.059Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:16:58.136Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

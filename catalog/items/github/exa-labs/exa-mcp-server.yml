@@ -1,0 +1,103 @@
+id: github__exa-labs__exa-mcp-server
+kind: github-repo
+name: exa-mcp-server
+canonical_url: https://github.com/exa-labs/exa-mcp-server
+identity:
+  github_repo: exa-labs/exa-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__exa-labs__exa-mcp-server__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Exa
+        extracted_url: https://github.com/exa-labs/exa-mcp-server
+        surrounding_text: "- **[Exa](https://github.com/exa-labs/exa-mcp-server)** - Search Engine made for AIs by [Exa](https://exa.ai)"
+        confidence: high
+    - id: discovery__github__exa-labs__exa-mcp-server__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - 🔎 Search
+        anchor_text: exa-labs/exa-mcp-server
+        extracted_url: https://github.com/exa-labs/exa-mcp-server
+        surrounding_text: "-   **[exa-labs/exa-mcp-server](https://github.com/exa-labs/exa-mcp-server)** [![GitHub stars](https://img.shields.io/github/stars/exa-labs/exa-mcp-server?style=social)](https://github.com/exa-labs/exa-mcp-server): Provides access to the Exa AI Search API."
+        confidence: high
+metadata:
+  github:
+    stars: 4389
+    forks: 329
+    license: MIT
+    archived: false
+    created_at: "2024-11-27T23:38:35Z"
+    pushed_at: "2026-05-05T17:54:41Z"
+    description: Exa MCP for web search and web crawling!
+    homepage: https://exa.ai/docs/reference/exa-mcp
+    topics:
+      - code-search
+      - codesearch
+      - crawling
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - web-search
+      - websearch
+    last_checked_at: "2026-05-05T21:02:06.365Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:06.365Z"
+      bytes: 28056
+insights:
+  summary: An MCP server that connects AI assistants to Exa's web search, code search, and company research capabilities with support for most major AI coding clients.
+  why_it_matters: Developers can give their AI assistants real-time web and code search superpowers without wiring up custom API integrations for every new tool.
+  mental_damage: We now maintain a configuration file just to let our coding agent ask the internet what we could have googled between arguing with the MCP JSON schema.
+  tags:
+    - mcp
+    - web-search
+    - code-search
+    - context-engineering
+  confidence: high
+curation:
+  status: included
+  reason: This is an MCP server implementation that provides web and code search capabilities to AI assistants, cleanly fitting the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states 'Exa MCP for web search and web crawling!'
+    - README shows installation instructions for the MCP server across 15+ AI coding clients (Cursor, VS Code, Claude, Windsurf, etc.)
+    - Listed in awesome-mcp-list under Search section and awesome-mcp-servers as an Official Server
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (4389) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.665Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:06.365Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:18:44.190Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

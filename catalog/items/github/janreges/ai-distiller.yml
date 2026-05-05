@@ -1,0 +1,82 @@
+id: github__janreges__ai-distiller
+kind: github-repo
+name: ai-distiller
+canonical_url: https://github.com/janreges/ai-distiller
+identity:
+  github_repo: janreges/ai-distiller
+provenance:
+  discoveries:
+    - id: discovery__github__janreges__ai-distiller__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: janreges/ai-distiller-mcp
+        extracted_url: https://github.com/janreges/ai-distiller
+        surrounding_text: "- [janreges/ai-distiller-mcp](https://github.com/janreges/ai-distiller) 🏎️ 🏠 - Extracts essential code structure from large codebases into AI-digestible format, helping AI agents write code that correctly uses existing APIs on the first attempt."
+        confidence: high
+metadata:
+  github:
+    stars: 153
+    forks: 16
+    license: MIT
+    archived: false
+    created_at: "2025-06-13T17:02:27Z"
+    pushed_at: "2026-03-16T23:46:24Z"
+    description: AI Distiller is ultra‑fast, open‑source tool for intelligently extracting only the essential public APIs, types, and structure from large codebases. Compresses 90–98% of code into AI‑friendly context, integrates via CLI or MCP, supports 12+ languages, and AI prompt workflows for cleaner, cost‑effective AI development.
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:02:51.536Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:51.536Z"
+      bytes: 51740
+insights:
+  summary: AI Distiller is an open-source CLI and MCP server that extracts public APIs, types, and structure from large codebases, compressing code by 90–98% to fit into AI context windows.
+  why_it_matters: It enables AI coding agents to understand entire project architectures without hitting context limits, reducing hallucinations and iterative debugging cycles.
+  mental_damage: We have finally engineered a tool to solve the context window problem by throwing away the implementations, leaving the AI to confidently invent them with even greater efficiency.
+  tags:
+    - context-engineering
+    - mcp
+    - cli
+    - code-analysis
+    - compression
+  confidence: high
+curation:
+  status: included
+  reason: This fits squarely into context-engineering as a distillation and compression tool designed to shape what the AI sees, and it also provides an MCP server for integration.
+  evidence:
+    - Repo description explicitly states it 'Compresses 90–98% of code into AI‑friendly context' and integrates via MCP.
+    - README claims the tool solves the problem of limited context windows by extracting only essential interfaces and types.
+    - Listed in awesome-mcp-servers under 'Developer Tools', confirming its role in the MCP/context ecosystem.
+placement:
+  primary_category: context-engineering
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (153) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.699Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:51.536Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:27:41.791Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

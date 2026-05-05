@@ -1,0 +1,91 @@
+id: github__arcadia-finance__mcp-server
+kind: github-repo
+name: mcp-server
+canonical_url: https://github.com/arcadia-finance/mcp-server
+identity:
+  github_repo: arcadia-finance/mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__arcadia-finance__mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: arcadia-finance/mcp-server
+        extracted_url: https://github.com/arcadia-finance/mcp-server
+        surrounding_text: "- [arcadia-finance/mcp-server](https://github.com/arcadia-finance/mcp-server) [![arcadia-finance/mcp-server MCP server](https://glama.ai/mcp/servers/arcadia-finance/arcadia-finance-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/arcadia-finance/arcadia-finance-mcp-server) 🎖️ 📇 ☁️ 🏠 - Manage Uniswap and Aerodrome liquidity positions with leverage, automated rebalancing, and yield optimization on Base, Unichain, and Optimism."
+        confidence: high
+metadata:
+  github:
+    stars: 4
+    forks: 1
+    license: AGPL-3.0
+    archived: false
+    created_at: "2026-03-03T16:10:16Z"
+    pushed_at: "2026-05-04T14:52:54Z"
+    description: MCP server for Arcadia Finance. Manage concentrated liquidity positions with built-in leverage, automated rebalancing, and yield optimization on Base, Optimism, and Unichain.
+    homepage: https://www.npmjs.com/package/@arcadia-finance/mcp-server
+    topics:
+      - arcadia
+      - base
+      - defi
+      - lending
+      - liquidity
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - optimism
+      - unichain
+    last_checked_at: "2026-05-05T21:01:08.034Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:08.034Z"
+      bytes: 17599
+insights:
+  summary: An MCP server that lets AI agents like Claude and Cursor read protocol data and build unsigned transactions for managing Arcadia Finance's concentrated liquidity, borrowing, and yield positions on Base, Optimism, and Unichain.
+  why_it_matters: Developers building DeFi automation or agentic workflows can plug this server into their MCP-compatible IDE or agent to interact with on-chain Arcadia positions without writing raw contract interaction code.
+  mental_damage: We have officially reached the point where your AI agent needs its own MCP server just to rebalance your simulated Uniswap liquidity while you stare at a context window wondering what you actually shipped today.
+  tags:
+    - mcp
+    - defi
+    - web3
+    - agent-tooling
+  confidence: high
+curation:
+  status: included
+  reason: This is a purpose-built MCP server for DeFi protocol interaction, which cleanly fits the MCP Servers and Tooling category.
+  evidence:
+    - Repo description and README define it as an MCP server for Arcadia Finance to let AI agents interact with on-chain liquidity.
+    - Listed in awesome-mcp-servers under Finance & Fintech, confirming its role as MCP infrastructure.
+    - Install badges show direct integration paths for VS Code and Cursor as an MCP server.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.679Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:08.034Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:08:51.003Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

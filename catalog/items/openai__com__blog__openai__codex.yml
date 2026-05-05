@@ -1,0 +1,75 @@
+id: openai__com__blog__openai__codex
+kind: website
+name: openai-codex
+canonical_url: https://openai.com/blog/openai-codex
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__openai__com__blog__openai__codex__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Coding Agents
+        anchor_text: OpenAI Codex CLI
+        extracted_url: https://openai.com/blog/openai-codex
+        surrounding_text: "- **[OpenAI Codex CLI](https://openai.com/blog/openai-codex/)** – OpenAI's CLI coding agent with cloud sandboxed execution."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: OpenAI Codex is a general-purpose AI model designed to understand and generate code across a wide variety of programming languages.
+  why_it_matters: It serves as the foundational model powering many of the coding assistants and AI tools developers use daily to accelerate software development workflows.
+  mental_damage: We have moved from 'writing code' to 'prompting a model that was famously deprecated in favor of GPT-4, only to return as the engine behind the ghost in the machine.'
+  tags:
+    - code-generation
+    - llm
+    - foundation-model
+    - openai
+  confidence: medium
+curation:
+  status: included
+  reason: It is the canonical example of an AI coding assistant model, fitting the 'Coding Agents' category as the technology that drives direct code generation and editing.
+  evidence:
+    - Listed in awesome-ai-coding-tools under the 'Coding Agents' section.
+    - The linked OpenAI blog post positions it as a model that translates natural language to code.
+placement:
+  primary_category: coding-agents
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.729Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:46:47.416Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

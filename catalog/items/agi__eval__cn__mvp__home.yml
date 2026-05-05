@@ -1,0 +1,75 @@
+id: agi__eval__cn__mvp__home
+kind: website
+name: home
+canonical_url: https://agi-eval.cn/mvp/home
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__agi__eval__cn__mvp__home__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 评估 Evaluation
+        anchor_text: AGI-Eval
+        extracted_url: https://agi-eval.cn/mvp/home
+        surrounding_text: 10. [AGI-Eval](https://agi-eval.cn/mvp/home)
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: AGI-Eval is an evaluation benchmark and platform for assessing the capabilities of AI models on tasks related to artificial general intelligence.
+  why_it_matters: It provides developers and researchers with standardized metrics to understand where current models stand on complex reasoning and coding tasks.
+  mental_damage: Another benchmark to obsess over while your actual production code remains untested and your CI pipeline sits broken.
+  tags:
+    - evals
+    - benchmark
+    - agi
+    - llm-evaluation
+  confidence: medium
+curation:
+  status: included
+  reason: The project is explicitly listed under 'Evaluation' in the awesome-LLM-resources list and targets the measurement of model behavior.
+  evidence:
+    - Linked in awesome-LLM-resources under the section '评估 Evaluation' (Evaluation).
+    - Name and site title are 'AGI-Eval', indicating an evaluation-focused platform.
+placement:
+  primary_category: evals
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.726Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:41:28.089Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

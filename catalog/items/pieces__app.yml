@@ -1,0 +1,76 @@
+id: pieces__app
+kind: website
+name: pieces.app
+canonical_url: https://pieces.app
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__pieces__app__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Code Search and Navigation
+        anchor_text: Pieces.app
+        extracted_url: https://pieces.app
+        surrounding_text: "- **[Pieces.app](https://pieces.app/)** – AI-powered code snippet management, search, and sharing."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Pieces is a local-first AI companion that captures and indexes context across browsers, IDEs, and collaboration tools to provide persistent memory for developers and LLM integrations.
+  why_it_matters: It builds an OS-level long-term memory layer that lets developers and their AI tools recall code snippets, docs, and context across different apps without manual organization.
+  mental_damage: We have finally achieved the nightmare scenario where your operating system remembers everything you did in the browser, IDE, and Slack, but you still cannot remember why you wrote that function six months ago.
+  tags:
+    - memory
+    - local-ai
+    - context
+    - productivity
+  confidence: medium
+curation:
+  status: included
+  reason: Pieces is primarily an extension layer that augments other developer tools and LLMs with persistent memory and context capture across the OS and IDE plugins, fitting the developer extensions category.
+  evidence:
+    - Described as an 'AI companion that captures live context from browsers to IDEs' and integrates with tools like GitHub Copilot, Claude, and Cursor.
+    - Featured in awesome-ai-coding-tools under 'Code Search and Navigation' as a memory and snippet management tool.
+    - Scraped site emphasizes plugins and MCP to 'Connect personal context with language models' rather than acting as a primary coding agent.
+placement:
+  primary_category: ai-dev-extensions
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.729Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:47:01.906Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

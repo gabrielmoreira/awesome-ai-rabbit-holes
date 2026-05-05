@@ -1,0 +1,76 @@
+id: replit__com__yoheinakajima__babycatagi
+kind: website
+name: BabyCatAGI
+canonical_url: https://replit.com/@YoheiNakajima/BabyCatAGI
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__replit__com__yoheinakajima__babycatagi__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - BabyCatAGI
+        anchor_text: BabyCatAGI
+        extracted_url: https://replit.com/@YoheiNakajima/BabyCatAGI
+        surrounding_text: "## [BabyCatAGI](https://replit.com/@YoheiNakajima/BabyCatAGI)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A lightweight, 300-line iteration of the BabyAGI autonomous agent designed to run on Replit, performing objective-based tasks using search and text completion tools.
+  why_it_matters: It offers developers a minimal, readable codebase to understand and experiment with autonomous agent loops, task dependencies, and tool usage without heavy framework overhead.
+  mental_damage: Yet another 300-line spin on the BabyAGI lineage that proves if you fork it enough times, the recursion eventually becomes the product.
+  tags:
+    - autonomous-agents
+    - babyagi
+    - replit
+    - experimental
+  confidence: medium
+curation:
+  status: excluded
+  reason: This is a demo/mod hosted on Replit with no standalone source code repo, insufficient metadata, and falls into the bucket of AI research tinkering rather than a practical developer tool or infrastructure.
+  evidence:
+    - Hosted only as a Replit fork with no GitHub repo, description, or star history provided.
+    - Presented as a 'mod' and educational iteration of BabyAGI rather than a production developer tool or framework.
+    - Appears in awesome-ai-agents as an experimental agent variant, not a tool for developer workflows.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.730Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:47:32.157Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

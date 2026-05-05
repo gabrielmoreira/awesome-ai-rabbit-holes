@@ -1,0 +1,97 @@
+id: github__btrcm00__chatbot-with-langchain
+kind: github-repo
+name: chatbot-with-langchain
+canonical_url: https://github.com/btrcm00/chatbot-with-langchain
+identity:
+  github_repo: btrcm00/chatbot-with-langchain
+provenance:
+  discoveries:
+    - id: discovery__github__btrcm00__chatbot-with-langchain__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Open Source Projects
+          - Other / Chatbots
+        anchor_text: PersonalityChatbot
+        extracted_url: https://github.com/btrcm00/chatbot-with-langchain
+        surrounding_text: "- [PersonalityChatbot](https://github.com/btrcm00/chatbot-with-langchain): Langchain chatbot for chat with personality using Langchain🦜 | LangSmith | MongoDB. ![GitHub Repo stars](https://img.shields.io/github/stars/btrcm00/chatbot-with-langchain?style=social)"
+        confidence: high
+metadata:
+  github:
+    stars: 63
+    forks: 11
+    license: MIT
+    archived: false
+    created_at: "2023-10-02T09:31:33Z"
+    pushed_at: "2025-03-26T08:09:25Z"
+    description: This code is an implementation of a chatbot using LLM chat model API and Langchain.
+    homepage: ""
+    topics:
+      - chatbot
+      - gpt-4
+      - gradio
+      - langchain
+      - langserve
+      - langsmith
+      - lcel
+      - llm
+      - mongodb
+      - openai
+      - personality-chatbot
+      - presidio
+      - runnable
+      - streaming
+      - streaming-response
+    last_checked_at: "2026-05-05T21:01:26.706Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:26.706Z"
+      bytes: 17431
+insights:
+  summary: A containerized chatbot implementation built with LangChain, FastAPI, and Next.js that supports OpenAI or Vertex AI, MongoDB memory, LangSmith tracing, and configurable bot personalities.
+  why_it_matters: It provides a full-stack reference architecture for developers building production chatbots with PII protection, prompt versioning, and conversational memory already wired together.
+  mental_damage: Because what the world definitely needed in 2024 was the 6,000th example of how to wrap an LLM in a FastAPI endpoint and call it a microservice.
+  tags:
+    - langchain
+    - chatbot
+    - fastapi
+    - nextjs
+    - langsmith
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a sample application and reference implementation for building a chatbot, not a reusable developer tool, framework, or infrastructure component for the catalog.
+  evidence:
+    - Repo description explicitly states this is 'an implementation of a chatbot using LLM chat model API and Langchain', not a tool or framework.
+    - README describes a self-contained chatbot application with UI, backend, and database, rather than a developer-facing product or SDK.
+    - Included in awesome-langchain under 'Open Source Projects > Other / Chatbots', which curates demos and sample apps rather than standalone developer tooling.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.440Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:26.706Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:11:48.221Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

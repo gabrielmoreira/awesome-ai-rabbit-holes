@@ -1,0 +1,90 @@
+id: github__batrachianai__toad
+kind: github-repo
+name: toad
+canonical_url: https://github.com/batrachianai/toad
+identity:
+  github_repo: batrachianai/toad
+provenance:
+  discoveries:
+    - id: discovery__github__batrachianai__toad__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Session managers & parallel runners
+        anchor_text: Toad
+        extracted_url: https://github.com/batrachianai/toad
+        surrounding_text: "- **[Toad](https://github.com/batrachianai/toad)** `⭐ 3k` — Agent orchestrator for running and managing parallel CLI coding sessions."
+        confidence: high
+metadata:
+  github:
+    stars: 3018
+    forks: 145
+    license: AGPL-3.0
+    archived: false
+    created_at: "2025-07-17T17:17:22Z"
+    pushed_at: "2026-04-19T04:33:11Z"
+    description: A unified interface for AI in your terminal.
+    homepage: https://www.batrachian.ai/
+    topics:
+      - agents-ui
+      - ai
+      - claude
+      - claude-code
+      - codex-cli
+      - commercial-license
+      - copilot
+      - textual
+      - tui
+    last_checked_at: "2026-05-05T21:01:17.979Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:17.979Z"
+      bytes: 9913
+insights:
+  summary: A terminal user interface that provides a unified shell and session manager for running and interacting with multiple AI coding agents such as Claude, Gemini, and Codex.
+  why_it_matters: It lets developers interleave a fully functional shell with agent prompts and manage concurrent sessions across different providers without leaving the terminal.
+  mental_damage: You now have a terminal UI to manage the half-dozen AI agents you installed to manage the code you could have just written yourself.
+  tags:
+    - terminal
+    - tui
+    - cli
+    - agent-orchestration
+  confidence: high
+curation:
+  status: included
+  reason: It is a terminal-based interface for interacting with and managing multiple coding agents, fitting the CLI coding agent surface defined in the source list and catalog scope.
+  evidence:
+    - Repo description states it is a 'unified interface for AI in your terminal'.
+    - README describes it as an interface to coding agents like Claude and Codex with a built-in shell and concurrent session management.
+    - Listed in awesome-cli-coding-agents under 'Session managers & parallel runners'.
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (3018) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.680Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:17.979Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:10:22.782Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

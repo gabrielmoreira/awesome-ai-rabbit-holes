@@ -1,0 +1,80 @@
+id: www__truefoundry__com__llmops
+kind: website
+name: llmops
+canonical_url: https://www.truefoundry.com/llmops
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__truefoundry__com__llmops__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Large Scale Deployment
+          - ML Platforms
+        anchor_text: TrueFoundry
+        extracted_url: https://truefoundry.com/llmops
+        surrounding_text: "| [TrueFoundry](https://truefoundry.com/llmops)           | A PaaS to deploy, Fine-tune and serve LLM Models on a company’s own Infrastructure with Data Security and Optimal GPU and Cost Management. Launch your LLM Application at Production scale with best DevSecOps practices.                                                                                                                                                                                                                                                 |                                                                                                    |"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: TrueFoundry is an enterprise LLMOps platform for deploying, fine-tuning, and governing LLMs on self-managed or on-prem infrastructure with features for model serving, prompt management, and agent lifecycle support.
+  why_it_matters: It gives developers a unified control plane to serve models, manage prompts, and run agents across frameworks like LangChain and CrewAI without stitching together fragmented inference and observability tooling.
+  mental_damage: Yet another glossy LLMOps dashboard promising to tame your AI stack, right as you were starting to enjoy the existential dread of manually orchestrating vLLM, SGLang, and a half-dozen agent frameworks.
+  tags:
+    - llmops
+    - model-serving
+    - agent-orchestration
+    - enterprise
+    - governance
+  confidence: medium
+curation:
+  status: included
+  reason: TrueFoundry is an end-user platform and control plane for coordinating model serving, agent lifecycles, and MCP servers, which fits agent-orchestration better than coding-agents or app-builders.
+  evidence:
+    - Site excerpt explicitly lists 'LLMOps for AI Agent Lifecycle Management' including support for LangChain, AutoGen, and CrewAI.
+    - Included in Awesome-LLMOps under 'Large Scale Deployment > ML Platforms' as an enterprise LLMOps platform.
+    - Platform surfaces include agent gateway, MCP gateway, prompt management, and unified observability across agents and models.
+placement:
+  primary_category: agent-orchestration
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.734Z"
+    cause:
+      type: ambiguous_canonicalization
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:53:53.121Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

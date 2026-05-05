@@ -1,0 +1,76 @@
+id: www__pulsemcp__com__servers
+kind: website
+name: servers
+canonical_url: https://www.pulsemcp.com/servers
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__pulsemcp__com__servers__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - MCP Servers and Directories
+        anchor_text: PulseMCP
+        extracted_url: https://www.pulsemcp.com/servers
+        surrounding_text: "- **[PulseMCP](https://www.pulsemcp.com/servers)** – Large, frequently updated directory of MCP servers."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A directory and registry of Model Context Protocol (MCP) servers for discovering tools that AI agents can use.
+  why_it_matters: It serves as a central navigation point for developers looking to extend AI assistants with external tools and data sources via the MCP standard.
+  mental_damage: Because nothing says 'streamlined workflow' like needing a dedicated directory just to manage the directories of servers that teach your AI how to read a file.
+  tags:
+    - mcp
+    - directory
+    - registry
+    - tooling
+  confidence: high
+curation:
+  status: included
+  reason: The project is a directory/meta-list (pulsemcp.com/servers) for MCP servers, fitting the 'Awesome Awesomes' category for curated indexes rather than being a tool itself.
+  evidence:
+    - URL is https://www.pulsemcp.com/servers, indicating a web directory for MCP servers.
+    - Listed in awesome-ai-coding-tools under the section 'MCP Servers and Directories'.
+    - Lacks a repo description, stars, or code indicators, consistent with a listing site rather than a dev tool.
+placement:
+  primary_category: awesome-awesomes
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.733Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:52:45.100Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

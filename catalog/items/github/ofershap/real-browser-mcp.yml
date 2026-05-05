@@ -1,0 +1,91 @@
+id: github__ofershap__real-browser-mcp
+kind: github-repo
+name: real-browser-mcp
+canonical_url: https://github.com/ofershap/real-browser-mcp
+identity:
+  github_repo: ofershap/real-browser-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__ofershap__real-browser-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📂 <a name="browser-automation"></a>Browser Automation
+        anchor_text: ofershap/real-browser-mcp
+        extracted_url: https://github.com/ofershap/real-browser-mcp
+        surrounding_text: "- [ofershap/real-browser-mcp](https://github.com/ofershap/real-browser-mcp) [![real-browser-mcp MCP server](https://glama.ai/mcp/servers/ofershap/real-browser-mcp/badges/score.svg)](https://glama.ai/mcp/servers/ofershap/real-browser-mcp) 📇 🏠 - MCP server + Chrome extension that gives AI agents control of the user's real browser with existing sessions, logins, and cookies. No headless browser, no re-authentication."
+        confidence: high
+metadata:
+  github:
+    stars: 19
+    forks: 3
+    license: MIT
+    archived: false
+    created_at: "2026-03-02T18:34:23Z"
+    pushed_at: "2026-05-04T16:53:33Z"
+    description: MCP server + Chrome extension that gives AI agents control of your real browser with existing sessions and logins
+    homepage: null
+    topics:
+      - ai
+      - browser-automation
+      - chrome-extension
+      - claude
+      - cursor
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - typescript
+    last_checked_at: "2026-05-05T21:04:00.138Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:00.138Z"
+      bytes: 11258
+insights:
+  summary: An MCP server paired with a Chrome extension that lets AI agents see and control a developer's existing browser, including active sessions and logins.
+  why_it_matters: It allows coding agents to verify UI changes directly in an authenticated browser rather than requiring developers to manually alt-tab and click through test flows.
+  mental_damage: We have finally bridged the gap between an AI writing your code and the AI staring at the same Chrome tab you forgot to close three days ago.
+  tags:
+    - mcp
+    - browser-automation
+    - chrome-extension
+    - cursor
+    - agent-tools
+  confidence: high
+curation:
+  status: included
+  reason: The project is an MCP server that extends agent capabilities via browser control, fitting cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description explicitly states: 'MCP server + Chrome extension that gives AI agents control of your real browser'"
+    - Listed in awesome-mcp-servers under 'Browser Automation' section
+    - README details MCP server installation for Cursor, Claude Desktop, and Windsurf with Chrome extension integration
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.710Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:00.138Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:41:49.231Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,76 @@
+id: potpie__ai
+kind: website
+name: potpie.ai
+canonical_url: https://potpie.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__potpie__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Coding Agents
+        anchor_text: Potpie
+        extracted_url: https://potpie.ai
+        surrounding_text: "- **[Potpie](https://potpie.ai)** – AI coding agent for streamlined development workflows."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Potpie.ai is a browser-first AI platform that generates complete applications, sites, and internal tools from natural language prompts.
+  why_it_matters: It allows developers to rapidly scaffold and deploy functional applications directly from a browser, reducing the time between an idea and a deployed prototype.
+  mental_damage: Yet another reminder that the hardest part of modern development is no longer writing the code, but deciding which black-box SaaS you trust to hallucinate your entire stack for you.
+  tags:
+    - app-builder
+    - prompt-to-app
+    - saas
+    - prototyping
+  confidence: medium
+curation:
+  status: included
+  reason: The product is a hosted, browser-first platform focused on turning prompts into full applications, which aligns with the app-builders category rather than a repo-native coding agent.
+  evidence:
+    - URL is https://potpie.ai, indicating a hosted SaaS product rather than a repo-based CLI or IDE tool.
+    - Listed in awesome-ai-coding-tools under 'Coding Agents', but the browser-first prompt-to-app workflow fits app-builders better.
+    - No repo description or README provided, but the URL and directory context suggest a full application generation surface.
+placement:
+  primary_category: app-builders
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.729Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:47:04.038Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

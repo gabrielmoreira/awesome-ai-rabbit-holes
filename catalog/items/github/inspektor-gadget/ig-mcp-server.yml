@@ -1,0 +1,87 @@
+id: github__inspektor-gadget__ig-mcp-server
+kind: github-repo
+name: ig-mcp-server
+canonical_url: https://github.com/inspektor-gadget/ig-mcp-server
+identity:
+  github_repo: inspektor-gadget/ig-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__inspektor-gadget__ig-mcp-server__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Inspektor Gadget MCP server
+        extracted_url: https://github.com/inspektor-gadget/ig-mcp-server
+        surrounding_text: "- **[Inspektor Gadget MCP server](https://github.com/inspektor-gadget/ig-mcp-server)** - Debug your Container and Kubernetes workloads with an AI interface powered by eBPF."
+        confidence: high
+metadata:
+  github:
+    stars: 24
+    forks: 2
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-04-09T16:52:17Z"
+    pushed_at: "2026-05-05T04:27:31Z"
+    description: "Debug your Container and Kubernetes workloads with an AI interface "
+    homepage: https://inspektor-gadget.io
+    topics:
+      - ai
+      - container
+      - ebpf
+      - kubernetes
+      - linux
+      - mcp-server
+    last_checked_at: "2026-05-05T21:02:44.416Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:44.416Z"
+      bytes: 11830
+insights:
+  summary: An MCP server that exposes Inspektor Gadget's eBPF-powered container and Kubernetes observability tools as AI-callable functions for automated root cause analysis.
+  why_it_matters: It lets developers delegate low-level Kubernetes debugging to LLMs by turning dense kernel telemetry into structured data that an AI agent can reason over directly from a chat interface.
+  mental_damage: Now your AI can confidently explain exactly why your cluster is on fire while you sit back and wonder when you became the human approval step for an eBPF agent.
+  tags:
+    - mcp
+    - kubernetes
+    - debugging
+    - ebpf
+    - observability
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server that bridges Inspektor Gadget's observability tools with LLMs, which fits squarely into the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description states: 'Debug your Container and Kubernetes workloads with an AI interface' and topics include 'mcp-server'."
+    - "README confirms: 'The Inspektor Gadget MCP Server bridges Inspektor Gadget's low-level kernel observability with LLMs through the Model Context Protocol (MCP)'."
+    - Listed in awesome-mcp-servers under 'Official Servers', reinforcing its role as MCP infrastructure.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.698Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:44.416Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:26:08.866Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

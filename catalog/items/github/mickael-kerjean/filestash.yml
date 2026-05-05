@@ -1,0 +1,101 @@
+id: github__mickael-kerjean__filestash
+kind: github-repo
+name: filestash
+canonical_url: https://github.com/mickael-kerjean/filestash
+identity:
+  github_repo: mickael-kerjean/filestash
+provenance:
+  discoveries:
+    - id: discovery__github__mickael-kerjean__filestash__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📂 <a name="file-systems"></a>File Systems
+        anchor_text: mickaelkerjean/filestash
+        extracted_url: https://github.com/mickael-kerjean/filestash
+        surrounding_text: "- [mickaelkerjean/filestash](https://github.com/mickael-kerjean/filestash/tree/master/server/plugin/plg_handler_mcp) 🏎️ ☁️ - Remote Storage Access: SFTP, S3, FTP, SMB, NFS, WebDAV, GIT, FTPS, gcloud, azure blob, sharepoint, etc."
+        confidence: high
+metadata:
+  github:
+    stars: 14134
+    forks: 977
+    license: AGPL-3.0
+    archived: false
+    created_at: "2017-06-13T05:34:14Z"
+    pushed_at: "2026-05-01T07:36:32Z"
+    description: ":file_folder: File Management Platform / Universal Data Access Layer (without FUSE)"
+    homepage: https://www.filestash.app/
+    topics:
+      - archiving
+      - azure
+      - dms
+      - dropbox
+      - edrms
+      - ftp
+      - ged
+      - git
+      - ipfs
+      - mft
+      - nfs
+      - s3
+      - sae
+      - seda
+      - sftp
+      - sharepoint
+      - smb
+      - vfs
+      - webdav
+    last_checked_at: "2026-05-05T21:03:37.551Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:37.551Z"
+      bytes: 12342
+insights:
+  summary: A web-based file management platform and universal data access layer that supports over 20 storage protocols including FTP, SFTP, S3, and WebDAV, with an extensible plugin architecture.
+  why_it_matters: Developers can expose diverse storage backends via APIs, gateways (including MCP), and a workflow engine to automate file operations across heterogeneous infrastructure.
+  mental_damage: "Just what the modern developer needs: another plugin-driven platform that turns a simple file manager into a universal data abstraction layer with its own workflow engine and RBAC."
+  tags:
+    - file-management
+    - storage
+    - mcp
+    - gateway
+    - plugins
+  confidence: high
+curation:
+  status: included
+  reason: While primarily a file manager, it explicitly implements an MCP gateway and is widely curated in MCP server directories, making it a relevant MCP tooling entry.
+  evidence:
+    - "README states it exposes data over protocols including MCP: 'APIs and Gateways let you also expose your data over protocols like ... MCP'"
+    - Listed in awesome-mcp-servers under 'Server Implementations > File Systems'
+    - Homepage and docs highlight an MCP gateway guide at /docs/guide/mcp-gateway.html
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (14134) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.706Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:37.551Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:37:17.918Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,80 @@
+id: github__ennucore__clippinator
+kind: github-repo
+name: clippinator
+canonical_url: https://github.com/ennucore/clippinator
+identity:
+  github_repo: ennucore/clippinator
+provenance:
+  discoveries:
+    - id: discovery__github__ennucore__clippinator__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Clippy
+        anchor_text: Clippy
+        extracted_url: https://github.com/ennucore/clippy
+        surrounding_text: "## [Clippy](https://github.com/ennucore/clippy/)"
+        confidence: high
+metadata:
+  github:
+    stars: 408
+    forks: 49
+    license: null
+    archived: false
+    created_at: "2023-04-17T10:25:15Z"
+    pushed_at: "2024-05-05T12:31:29Z"
+    description: AI programming assistant
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:02.374Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:02.374Z"
+      bytes: 5842
+insights:
+  summary: A multi-agent CLI tool that uses GPT-4 to autonomously plan, write, debug, and test software projects by delegating tasks to specialized sub-agents like Architect, Writer, and QA.
+  why_it_matters: It lets developers offload entire project lifecycles to a hierarchy of AI agents that can read architecture, run terminals, and even use Selenium for browser testing.
+  mental_damage: It promises to work faster than a human while openly admitting it makes frequent mistakes, which is the exact job description of the average junior developer we were trying to replace.
+  tags:
+    - cli
+    - multi-agent
+    - gpt-4
+    - autonomous
+  confidence: high
+curation:
+  status: included
+  reason: The tool is a CLI-based coding agent designed to operate directly on project files, delegate tasks, and manage development workflows via a terminal interface.
+  evidence:
+    - Repo description identifies it as an 'AI programming assistant'.
+    - README states the tool 'develops code for or with the user' and can 'plan, write, debug, and test some projects autonomously' via a CLI run command.
+    - Active development history (created 2023-04, pushed 2024-05) with 408 stars.
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (408) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.686Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:02.374Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:18:02.580Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

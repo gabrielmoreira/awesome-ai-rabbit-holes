@@ -1,0 +1,84 @@
+id: github__automation-ai-labs__mcp-link
+kind: github-repo
+name: mcp-link
+canonical_url: https://github.com/automation-ai-labs/mcp-link
+identity:
+  github_repo: automation-ai-labs/mcp-link
+provenance:
+  discoveries:
+    - id: discovery__github__automation-ai-labs__mcp-link__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: automation-ai-labs/mcp-link
+        extracted_url: https://github.com/automation-ai-labs/mcp-link
+        surrounding_text: "- [automation-ai-labs/mcp-link](https://github.com/automation-ai-labs/mcp-link) 🏎️ 🏠 - Seamlessly Integrate Any API with AI Agents (with OpenAPI Schema)"
+        confidence: high
+metadata:
+  github:
+    stars: 605
+    forks: 70
+    license: MIT
+    archived: false
+    created_at: "2025-03-29T06:30:31Z"
+    pushed_at: "2025-04-03T15:48:57Z"
+    description: Convert Any OpenAPI V3 API to MCP Server
+    homepage: https://mcp-link.vercel.app
+    topics:
+      - agents
+      - mcp
+      - mcp-server
+    last_checked_at: "2026-05-05T21:01:12.749Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:12.749Z"
+      bytes: 4224
+insights:
+  summary: A tool that automatically converts OpenAPI V3 specifications into MCP-compatible servers, allowing existing REST APIs to be consumed by AI agents.
+  why_it_matters: It eliminates the manual drudgery of writing custom MCP wrappers by letting developers instantly bridge any documented API into the AI agent ecosystem.
+  mental_damage: We have successfully automated the automation layer, meaning you can now expose a thirty-year-old CRUD API to an LLM without ever understanding either the API or the protocol.
+  tags:
+    - mcp
+    - openapi
+    - api-integration
+    - tooling
+  confidence: high
+curation:
+  status: included
+  reason: The project is a dedicated MCP toolkit that solves the specific problem of converting OpenAPI specs into MCP servers, fitting the 'MCP Servers and Tooling' category cleanly.
+  evidence:
+    - "Repo description explicitly states: 'Convert Any OpenAPI V3 API to MCP Server'."
+    - "README claims 'Automatic Conversion: Generate complete MCP Servers based on OpenAPI Schema'."
+    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (605) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.680Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:12.749Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:09:34.472Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

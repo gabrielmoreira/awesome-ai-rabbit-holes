@@ -1,0 +1,89 @@
+id: github__blushyes__coro-code
+kind: github-repo
+name: coro-code
+canonical_url: https://github.com/blushyes/coro-code
+identity:
+  github_repo: blushyes/coro-code
+provenance:
+  discoveries:
+    - id: discovery__github__blushyes__coro-code__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Terminal-native coding agents
+          - Open Source
+        anchor_text: Coro Code
+        extracted_url: https://github.com/blushyes/coro-code
+        surrounding_text: "- **[Coro Code](https://github.com/Blushyes/coro-code)** `⭐ 358` — Open-source CLI coding agent, a free alternative to Claude Code; generate, debug, and manage code seamlessly."
+        confidence: high
+metadata:
+  github:
+    stars: 358
+    forks: 22
+    license: null
+    archived: false
+    created_at: "2025-08-13T17:19:09Z"
+    pushed_at: "2025-10-30T09:34:18Z"
+    description: Open-source CLI coding agent, a free alternative to Claude Code. Generate, debug, and manage code seamlessly.
+    homepage: https://sofast.fun
+    topics:
+      - agent
+      - claude-code
+      - cli
+      - cli-agent
+      - code-agent
+      - gemini-cli
+      - llm
+    last_checked_at: "2026-05-05T21:01:23.449Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:23.449Z"
+      bytes: 11877
+insights:
+  summary: Coro Code is an open-source, Rust-based CLI coding agent that provides a terminal UI for generating, debugging, and managing code across multiple LLM providers.
+  why_it_matters: It offers developers a high-performance, terminal-native alternative to Claude Code with support for custom models and APIs.
+  mental_damage: Yet another CLI agent promising to 'seamlessly manage' your codebase while you wonder if rewriting it in Rust was the final boss of productivity.
+  tags:
+    - cli
+    - rust
+    - coding-agent
+    - terminal
+    - llm
+  confidence: high
+curation:
+  status: included
+  reason: The project is a terminal-native coding agent that directly plans, edits, and debugs code via the CLI, fitting the coding-agents category and its terminal section.
+  evidence:
+    - Repo description explicitly calls it an 'Open-source CLI coding agent' and 'free alternative to Claude Code'.
+    - README highlights it as a 'high-performance AI coding agent written in Rust with a rich terminal UI' for file operations and bash execution.
+    - Listed in awesome-cli-coding-agents under the 'Terminal-native coding agents > Open Source' section.
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (358) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.681Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:23.449Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:11:16.265Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

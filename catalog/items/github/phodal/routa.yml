@@ -1,0 +1,82 @@
+id: github__phodal__routa
+kind: github-repo
+name: routa
+canonical_url: https://github.com/phodal/routa
+identity:
+  github_repo: phodal/routa
+provenance:
+  discoveries:
+    - id: discovery__github__phodal__routa__awesome-list__vivy-yi__awesome-agent-orchestration
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: vivy-yi/awesome-agent-orchestration
+        url: https://github.com/vivy-yi/awesome-agent-orchestration
+        repository: vivy-yi/awesome-agent-orchestration
+      extraction:
+        mode: parsed
+        section_path:
+          - Agent Communication Protocols
+          - Agent-to-Agent (A2A)
+        anchor_text: Routa
+        extracted_url: https://github.com/phodal/routa
+        surrounding_text: "| [Routa](https://github.com/phodal/routa) | Multi-agent coordination platform via MCP/A2A | ![Stars](https://img.shields.io/github/stars/phodal/routa) |"
+        confidence: high
+metadata:
+  github:
+    stars: 843
+    forks: 153
+    license: MIT
+    archived: false
+    created_at: "2026-02-16T01:38:48Z"
+    pushed_at: "2026-05-05T16:48:22Z"
+    description: Workspace-first multi-agent coordination platform for AI development, with shared Specs, Kanban orchestration, and MCP/ACP/   A2A support across web and desktop.
+    homepage: https://phodal.github.io/routa/
+    topics: []
+    last_checked_at: "2026-05-05T21:04:16.566Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:16.566Z"
+      bytes: 12938
+insights:
+  summary: A workspace-first multi-agent coordination platform for software delivery that uses a Kanban board to manage goals, tasks, sessions, and review states across web and desktop environments with support for MCP, ACP, and A2A protocols.
+  why_it_matters: It moves multi-agent software delivery out of buried chat threads and into a visible, governed workspace with stacked review gates and traceability.
+  mental_damage: "Just what your delivery process needed: another layer of agent bureaucracy with Kanban boards, trace logs, and fitness gates to debate whether your AI agents are sufficiently aligned today."
+  tags:
+    - multi-agent
+    - orchestration
+    - kanban
+    - mcp
+    - a2a
+  confidence: high
+curation:
+  status: included
+  reason: Routa is an end-user coordination platform with a Kanban workspace and review gates for managing multiple agents, not a code-first SDK or a repo-editing coding assistant.
+  evidence:
+    - Repo description explicitly calls it a 'workspace-first multi-agent coordination platform for AI development' with Kanban orchestration.
+    - README states it is a 'workspace-first multi-agent coordination platform for software delivery' with visible boards, sessions, traces, and review states.
+    - Already listed in awesome-agent-orchestration under 'Agent Communication Protocols > Agent-to-Agent (A2A)', reinforcing its orchestration focus.
+placement:
+  primary_category: agent-orchestration
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (843) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.713Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:16.566Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:44:34.796Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

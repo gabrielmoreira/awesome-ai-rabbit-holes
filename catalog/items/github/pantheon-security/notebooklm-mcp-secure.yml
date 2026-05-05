@@ -1,0 +1,94 @@
+id: github__pantheon-security__notebooklm-mcp-secure
+kind: github-repo
+name: notebooklm-mcp-secure
+canonical_url: https://github.com/pantheon-security/notebooklm-mcp-secure
+identity:
+  github_repo: pantheon-security/notebooklm-mcp-secure
+provenance:
+  discoveries:
+    - id: discovery__github__pantheon-security__notebooklm-mcp-secure__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: Pantheon-Security/notebooklm-mcp-secure
+        extracted_url: https://github.com/pantheon-security/notebooklm-mcp-secure
+        surrounding_text: "- [Pantheon-Security/notebooklm-mcp-secure](https://github.com/Pantheon-Security/notebooklm-mcp-secure) 📇 🏠 🍎 🪟 🐧 - Security-hardened NotebookLM MCP with post-quantum encryption (ML-KEM-768), GDPR/SOC2/CSSF compliance, and 14 security layers. Query Google's Gemini-grounded research from Claude and AI agents."
+        confidence: high
+metadata:
+  github:
+    stars: 59
+    forks: 15
+    license: MIT
+    archived: false
+    created_at: "2025-11-28T06:33:44Z"
+    pushed_at: "2026-04-25T20:59:12Z"
+    description: Secure NotebookLM MCP Server - Query Google NotebookLM from Claude/AI agents with 17 security hardening layers
+    homepage: null
+    topics:
+      - ai
+      - automation
+      - browser-automation
+      - claude
+      - google
+      - llm
+      - mcp
+      - model-context-protocol
+      - notebooklm
+      - open-source
+      - research
+      - typescript
+    last_checked_at: "2026-05-05T21:04:11.688Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:11.688Z"
+      bytes: 51562
+insights:
+  summary: A security-hardened MCP server that lets AI agents like Claude query and manage Google NotebookLM notebooks with browser-based auth and enterprise compliance features.
+  why_it_matters: Developers can integrate grounded, zero-hallucination NotebookLM research directly into agent workflows without managing API keys or sacrificing enterprise security requirements.
+  mental_damage: We now have post-quantum encrypted bridges to query a product that Google might rename, deprecate, or absorb into Bard by next Tuesday.
+  tags:
+    - mcp
+    - notebooklm
+    - security
+    - typescript
+    - agent-tooling
+  confidence: high
+curation:
+  status: included
+  reason: This is an MCP server implementation with strong security hardening, fitting cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states 'Secure NotebookLM MCP Server' with MCP topics and model-context-protocol tagging.
+    - README positions it as 'The World's Most Advanced NotebookLM MCP Server' with full MCP protocol compliance.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Knowledge & Memory' section.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.712Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:11.688Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:43:46.324Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,82 @@
+id: github__kukapay__funding-rates-mcp
+kind: github-repo
+name: funding-rates-mcp
+canonical_url: https://github.com/kukapay/funding-rates-mcp
+identity:
+  github_repo: kukapay/funding-rates-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__kukapay__funding-rates-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: kukapay/funding-rates-mcp
+        extracted_url: https://github.com/kukapay/funding-rates-mcp
+        surrounding_text: "- [kukapay/funding-rates-mcp](https://github.com/kukapay/funding-rates-mcp) 🐍 ☁️ - Providing real-time funding rate data across major crypto exchanges."
+        confidence: high
+metadata:
+  github:
+    stars: 7
+    forks: 9
+    license: MIT
+    archived: false
+    created_at: "2025-04-21T08:32:37Z"
+    pushed_at: "2025-04-21T08:32:58Z"
+    description: An MCP server that provides real-time funding rate data across major crypto exchanges.
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:03:11.526Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:11.526Z"
+      bytes: 4706
+insights:
+  summary: An MCP server that fetches and compares real-time crypto funding rates across Binance, OKX, Bybit, Bitget, Gate, and CoinEx for integration with AI assistants like Claude Desktop.
+  why_it_matters: It gives trading-agent workflows a structured data source to spot arbitrage opportunities without scraping exchange APIs by hand.
+  mental_damage: We have officially reached the point where an AI agent needs a dedicated protocol server just to whisper funding rates into its context window while it pretends to understand decentralized finance.
+  tags:
+    - mcp
+    - crypto
+    - finance
+    - claude
+    - data
+  confidence: medium
+curation:
+  status: included
+  reason: The project is itself an MCP server providing crypto funding rate data, which fits squarely into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description states it is 'An MCP server that provides real-time funding rate data across major crypto exchanges.'
+    - README confirms it 'Runs as an MCP server for interactive queries' and integrates with Claude Desktop.
+    - Listed in awesome-mcp-servers under 'Finance & Fintech' server implementations.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.703Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:11.526Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:32:09.741Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

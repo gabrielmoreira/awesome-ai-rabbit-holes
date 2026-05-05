@@ -1,0 +1,81 @@
+id: github__aliafsahnoudeh__wildfire-mcp-server
+kind: github-repo
+name: wildfire-mcp-server
+canonical_url: https://github.com/aliafsahnoudeh/wildfire-mcp-server
+identity:
+  github_repo: aliafsahnoudeh/wildfire-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__aliafsahnoudeh__wildfire-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🌳 <a name="environment-and-nature"></a>Environment & Nature
+        anchor_text: aliafsahnoudeh/wildfire-mcp-server
+        extracted_url: https://github.com/aliafsahnoudeh/wildfire-mcp-server
+        surrounding_text: "- [aliafsahnoudeh/wildfire-mcp-server](https://github.com/aliafsahnoudeh/wildfire-mcp-server) 🐍 ☁️ 🍎 🪟 🐧 - MCP server for detecting, monitoring, and analyzing potential wildfires globally using multiple data sources including NASA FIRMS, OpenWeatherMap, and Google Earth Engine."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 1
+    license: NOASSERTION
+    archived: false
+    created_at: "2025-12-07T18:47:50Z"
+    pushed_at: "2025-12-27T11:43:15Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:00:58.916Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:58.916Z"
+      bytes: 5603
+insights:
+  summary: A Model Context Protocol (MCP) server that integrates NASA FIRMS, OpenWeatherMap, and Google Earth Engine data to detect, monitor, and analyze potential wildfires globally.
+  why_it_matters: It allows developers building AI assistants to equip them with real-time environmental monitoring tools without manually integrating multiple geospatial APIs.
+  mental_damage: We have finally reached the point where our AI agents can autonomously detect burning forests, but they still can't figure out why your CI pipeline failed.
+  tags:
+    - mcp
+    - environment
+    - geospatial
+    - server
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server implementation designed to provide tooling for AI assistants via the Model Context Protocol.
+  evidence:
+    - "README states: 'A Model Context Protocol (MCP) server for detecting, monitoring, and analyzing potential wildfires'."
+    - Includes standard MCP tool definitions like `get_potential_wildfires` and `get_weather_forecast`.
+    - Listed in the awesome-mcp-servers directory under 'Server Implementations > Environment & Nature'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.678Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:58.916Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:07:30.670Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

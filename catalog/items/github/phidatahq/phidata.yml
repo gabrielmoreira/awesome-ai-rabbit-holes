@@ -1,0 +1,86 @@
+id: github__phidatahq__phidata
+kind: github-repo
+name: phidata
+canonical_url: https://github.com/phidatahq/phidata
+identity:
+  github_repo: phidatahq/phidata
+provenance:
+  discoveries:
+    - id: discovery__github__phidatahq__phidata__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Other LLM Frameworks
+        anchor_text: Phidata
+        extracted_url: https://github.com/phidatahq/phidata
+        surrounding_text: "- [Phidata](https://github.com/phidatahq/phidata): Build AI Assistants with memory, knowledge and tools. ![GitHub Repo stars](https://img.shields.io/github/stars/phidatahq/phidata?style=social)"
+        confidence: high
+metadata:
+  github:
+    stars: 39922
+    forks: 5334
+    license: Apache-2.0
+    archived: false
+    created_at: "2022-05-04T15:23:02Z"
+    pushed_at: "2026-05-05T20:38:08Z"
+    description: Run agents as production software.
+    homepage: https://docs.agno.com
+    topics:
+      - agents
+      - ai
+      - ai-agents
+      - developer-tools
+      - python
+    last_checked_at: "2026-05-05T21:04:16.214Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:16.214Z"
+      bytes: 7667
+insights:
+  summary: A Python framework and runtime for building, serving, and managing AI agents as production services with sessions, tracing, and a control plane UI.
+  why_it_matters: It gives developers a structured way to wrap agents built with LangGraph, DSPy, Claude, or its own SDK into a production-ready FastAPI backend with sessions, tracing, and human approval flows.
+  mental_damage: "Just what the ecosystem needed: another runtime to debate at 2 a.m. while your 'production agent' mostly confirms it can list files before politely declining to write them."
+  tags:
+    - agents
+    - python
+    - fastapi
+    - observability
+    - production
+  confidence: high
+curation:
+  status: included
+  reason: This is a code-first SDK and runtime that developers import to build and serve agents, which fits AI Frameworks rather than a control-plane product or coding assistant.
+  evidence:
+    - "Repo description: 'Run agents as production software.'"
+    - "README: 'Agno is the runtime for agentic software. Use it to run agents as a production service.' with SDK, Runtime, and Control Plane layers."
+    - Developers build agents in Python using frameworks like LangGraph and DSPy and serve them via FastAPI.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (39922) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.443Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:16.214Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:44:28.832Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

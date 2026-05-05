@@ -1,0 +1,90 @@
+id: github__amaar-mc__wit
+kind: github-repo
+name: wit
+canonical_url: https://github.com/amaar-mc/wit
+identity:
+  github_repo: amaar-mc/wit
+provenance:
+  discoveries:
+    - id: discovery__github__amaar-mc__wit__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Agent infrastructure
+        anchor_text: Wit
+        extracted_url: https://github.com/amaar-mc/wit
+        surrounding_text: "- **[Wit](https://github.com/amaar-mc/wit)** `⭐ 40` — Coordination protocol that prevents merge conflicts between parallel AI agents. Locks specific functions (not files) via Tree-sitter AST parsing; agents declare intents, acquire symbol-level locks, and get conflict warnings before writing code. JSON-RPC daemon. MIT."
+        confidence: high
+metadata:
+  github:
+    stars: 41
+    forks: 3
+    license: MIT
+    archived: false
+    created_at: "2026-03-26T07:58:44Z"
+    pushed_at: "2026-03-27T01:46:02Z"
+    description: Agent coordination protocol — declare intents, lock symbols, detect conflicts before code is written
+    homepage: ""
+    topics:
+      - agents
+      - ai
+      - bun
+      - claude-code
+      - coordination
+      - developer-tools
+      - merge-conflicts
+      - tree-sitter
+      - typescript
+    last_checked_at: "2026-05-05T21:01:02.204Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:02.204Z"
+      bytes: 11476
+insights:
+  summary: A lightweight daemon and CLI that lets multiple AI coding agents coordinate their work by declaring intents, locking symbols, and detecting conflicts before code is written.
+  why_it_matters: It prevents merge conflicts and wasted effort when running several AI agents simultaneously on the same repository by adding a pre-conflict coordination layer.
+  mental_damage: We’ve finally built infrastructure to stop AI agents from fighting over the same function, as if the primary bottleneck to shipping was too many helpers and not enough plumbing.
+  tags:
+    - agent-coordination
+    - cli
+    - multi-agent
+    - conflict-prevention
+  confidence: high
+curation:
+  status: included
+  reason: Wit is a user-facing coordination daemon and CLI designed to manage multiple coding agents working in the same repo, which fits agent orchestration rather than being a primary coding assistant itself.
+  evidence:
+    - Repo description explicitly states 'Agent coordination protocol — declare intents, lock symbols, detect conflicts before code is written'.
+    - README positions Wit as a layer that 'sits between your agents and git' and is already listed in awesome-cli-coding-agents under 'Agent infrastructure'.
+    - Active project with recent creation and push dates (March 2026), MIT licensed, and not archived.
+placement:
+  primary_category: agent-orchestration
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.678Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:02.204Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:07:54.135Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,99 @@
+id: github__haiku-trading__haiku-mcp-server
+kind: github-repo
+name: haiku-mcp-server
+canonical_url: https://github.com/haiku-trading/haiku-mcp-server
+identity:
+  github_repo: haiku-trading/haiku-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__haiku-trading__haiku-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: Haiku-Trading/haiku-mcp-server
+        extracted_url: https://github.com/haiku-trading/haiku-mcp-server
+        surrounding_text: "- [Haiku-Trading/haiku-mcp-server](https://github.com/Haiku-Trading/haiku-mcp-server) [![Haiku-Trading/haiku-mcp-server MCP server](https://glama.ai/mcp/servers/Haiku-Trading/haiku-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/Haiku-Trading/haiku-mcp-server) 📇 ☁️ - DeFi execution MCP server — swap, provide liquidity, lend, bridge, and run yield strategies across 22 chains. 7 tools for token discovery, portfolio analysis, quoting, and execution. `npx haiku-mcp-server`"
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-02-05T11:55:21Z"
+    pushed_at: "2026-05-02T05:58:01Z"
+    description: MCP server for DeFi execution — lets AI agents swap, provide liquidity, lend, bridge, and run yield strategies across 22 chains
+    homepage: https://docs.haiku.trade
+    topics:
+      - ai-agent
+      - arbitrum
+      - base
+      - blockchain
+      - bridge
+      - cross-chain
+      - crypto
+      - defi
+      - ethereum
+      - lending
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - solana
+      - swap
+      - web3
+      - yield
+    last_checked_at: "2026-05-05T21:02:29.898Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:29.898Z"
+      bytes: 15812
+insights:
+  summary: An MCP server that lets AI agents execute DeFi actions like swaps, bridging, and yield strategies across 22 blockchain networks via the Haiku API.
+  why_it_matters: It gives coding agents and LLM workflows a standardized interface to interact with on-chain finance without manually wiring RPC calls or transaction signing logic.
+  mental_damage: Finally, your AI agent can lose your portfolio across 22 chains in milliseconds instead of the hours it would take you to do it manually.
+  tags:
+    - mcp
+    - defi
+    - web3
+    - blockchain
+    - agent-tooling
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server implementation for DeFi execution, which fits cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description states it is an 'MCP server for DeFi execution' and the README confirms it implements MCP tools like haiku_get_quote and haiku_discover_yields.
+    - Listed under 'Server Implementations > Finance & Fintech' in the awesome-mcp-servers directory.
+    - Includes configuration instructions for Claude Desktop, confirming its role as a tool provider for AI assistants.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.690Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:29.898Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:23:22.444Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

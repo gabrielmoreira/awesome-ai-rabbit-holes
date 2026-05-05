@@ -1,0 +1,101 @@
+id: github__agent-field__agentfield
+kind: github-repo
+name: agentfield
+canonical_url: https://github.com/agent-field/agentfield
+identity:
+  github_repo: agent-field/agentfield
+provenance:
+  discoveries:
+    - id: discovery__github__agent-field__agentfield__awesome-list__kaushikb11__awesome-llm-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: kaushikb11/awesome-llm-agents
+        url: https://github.com/kaushikb11/awesome-llm-agents
+        repository: kaushikb11/awesome-llm-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Frameworks
+        anchor_text: AgentField
+        extracted_url: https://github.com/agent-field/agentfield
+        surrounding_text: "- [AgentField](https://github.com/Agent-Field/agentfield) - Open-source infrastructure"
+        confidence: high
+metadata:
+  github:
+    stars: 1629
+    forks: 264
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-11-05T02:04:44Z"
+    pushed_at: "2026-05-05T19:18:38Z"
+    description: Build, run and scale AI agents like API and microservices - observable,auditable and identity-aware from day one.
+    homepage: http://www.agentfield.ai
+    topics:
+      - agent
+      - agent-auth
+      - agent-authentication
+      - agent-indentity
+      - agent-scaling
+      - agentic-ai
+      - ai
+      - ai-backend
+      - aiagent
+      - anthropic
+      - cloud-native
+      - genai
+      - go
+      - kubernetes
+      - llm
+      - multiagent
+      - multiagent-systems
+      - python
+      - rag
+      - typescript
+    last_checked_at: "2026-05-05T21:00:50.297Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:50.297Z"
+      bytes: 24300
+insights:
+  summary: AgentField is an open-source control plane and SDK for building, deploying, and scaling AI agents as callable API endpoints with built-in identity, memory, and audit trails.
+  why_it_matters: It gives developers a code-first way to turn Python, Go, or TypeScript agent logic into production infrastructure with routing, human-in-the-loop pauses, and cryptographic audit trails.
+  mental_damage: We have successfully reinvented the microservice stack for the third time this week, only this time the services occasionally hallucinate and need a cryptographic identity to do so.
+  tags:
+    - agents
+    - control-plane
+    - sdk
+    - audit
+    - python
+  confidence: high
+curation:
+  status: included
+  reason: This is a code-first SDK and framework that developers import to build agent infrastructure, which fits AI Frameworks and SDKs rather than a hosted control plane or app builder.
+  evidence:
+    - Repo description states it is for building, running, and scaling AI agents like APIs with observability and identity.
+    - README shows developers write agent logic in Python/Go/TypeScript using an importable SDK (from agentfield import Agent).
+    - Featured in awesome-llm-agents under 'Frameworks', aligning with the code-first building block use case.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1629) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.676Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:50.297Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:06:00.951Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

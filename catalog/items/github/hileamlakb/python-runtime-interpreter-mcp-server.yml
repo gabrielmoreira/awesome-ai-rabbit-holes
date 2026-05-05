@@ -1,0 +1,91 @@
+id: github__hileamlakb__python-runtime-interpreter-mcp-server
+kind: github-repo
+name: prims
+canonical_url: https://github.com/hileamlakb/python-runtime-interpreter-mcp-server
+identity:
+  github_repo: hileamlakb/python-runtime-interpreter-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__hileamlakb__prims__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 👨‍💻 <a name="code-execution"></a>Code Execution
+        anchor_text: hileamlakB/PRIMS
+        extracted_url: https://github.com/hileamlakb/prims
+        surrounding_text: "- [hileamlakB/PRIMS](https://github.com/hileamlakB/PRIMS) 🐍 🏠 – A Python Runtime Interpreter MCP Server that executes user-submitted code in an isolated environment."
+        confidence: high
+metadata:
+  github:
+    stars: 27
+    forks: 17
+    license: MIT
+    archived: false
+    created_at: "2025-06-26T00:14:24Z"
+    pushed_at: "2025-10-15T20:03:09Z"
+    description: PRIMS is a lightweight, open-source Model Context Protocol (MCP) server that lets LLM agents safely execute arbitrary Python code in a secure, throw-away sandbox.
+    homepage: ""
+    topics:
+      - agents
+      - docker
+      - fastmcp
+      - llm
+      - mcp
+      - mcp-server
+      - open-source
+      - python
+      - sandbox
+    last_checked_at: "2026-05-05T21:02:34.238Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:34.238Z"
+      bytes: 3910
+insights:
+  summary: PRIMS is a lightweight, open-source MCP server that lets LLM agents execute arbitrary Python code in isolated, throw-away sandboxes with optional dependency installation and file mounting.
+  why_it_matters: It gives coding agents a safe, reproducible runtime for running Python snippets without polluting the host environment or requiring complex setup.
+  mental_damage: Finally, we can let an agent nuke a fresh virtual environment thousands of times a day, because the only thing missing from modern development was more ephemeral state.
+  tags:
+    - mcp
+    - sandbox
+    - python
+    - agents
+    - docker
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server providing a sandboxed Python execution environment for LLM agents, which fits cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description states it is a 'lightweight, open-source Model Context Protocol (MCP) server' for safe Python execution.
+    - README confirms it exposes MCP tools like run_code and is designed for LLM agents to execute code in isolated sandboxes.
+    - Topics include mcp, mcp-server, agents, python, and docker, aligning with MCP infrastructure.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:24:01.866Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.696Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:34.238Z"
+    cause: null
+    next_retry_at: null

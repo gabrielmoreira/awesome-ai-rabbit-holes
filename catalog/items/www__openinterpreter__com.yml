@@ -1,0 +1,76 @@
+id: www__openinterpreter__com
+kind: website
+name: www.openinterpreter.com
+canonical_url: https://www.openinterpreter.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__openinterpreter__com__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Open Interpreter
+        anchor_text: Open Interpreter
+        extracted_url: https://openinterpreter.com
+        surrounding_text: "## [Open Interpreter](https://openinterpreter.com/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Interpreter is a desktop agent that works alongside users to edit documents, fill PDF forms, and automate local file-based tasks.
+  why_it_matters: It offers developers a local, desktop-based agent interface for automating document and form workflows without needing to build custom scripting pipelines.
+  mental_damage: Yet another agent promising to handle your paperwork, ensuring you can spend even more time debugging why it thought 'Invoice_Total' meant the customer's first name.
+  tags:
+    - desktop-agent
+    - document-automation
+    - local-ai
+    - pdf-forms
+  confidence: high
+curation:
+  status: excluded
+  reason: The tool is positioned as a general-purpose desktop agent for document and form editing rather than a developer-facing tool for writing, reviewing, or debugging source code.
+  evidence:
+    - Scraped description states it 'lets you work alongside agents that can edit your documents, fill PDF forms, and more.'
+    - Source list context places it under awesome-ai-agents with a focus on document and PDF workflows rather than code editing.
+    - No evidence in the provided inputs that it integrates with repos, IDEs, CLIs, or PR workflows as a coding assistant.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.445Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T20:49:52.466Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+    next_retry_at: null

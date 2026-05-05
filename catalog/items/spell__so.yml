@@ -1,0 +1,74 @@
+id: spell__so
+kind: website
+name: spell.so
+canonical_url: https://spell.so
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__spell__so__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Spell
+        anchor_text: Spell
+        extracted_url: https://spell.so
+        surrounding_text: "## [Spell](https://spell.so/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: This URL has been hijacked and now hosts a gambling platform, with no trace of the original AI tooling product remaining.
+  why_it_matters: It doesn't; developers looking for AI agents will only find slot machines and casino games here.
+  mental_damage: We have reached a point in the AI ecosystem where clicking a link for a 'coding agent' is just as likely to redirect you to a sportsbook.
+  tags:
+    - hijacked-domain
+    - parked-content
+  confidence: high
+curation:
+  status: excluded
+  reason: The domain has been repurposed for gambling content and no longer hosts any AI developer tooling, making it completely irrelevant to the catalog.
+  evidence:
+    - Scraped site title is 'MEGAWIN288 Harapan Bangsa Kemenangan Setiap Hari' with descriptions of casino games, slots, and sportsbooks.
+    - The page excerpt contains no mention of AI, coding, or developer tools, only gambling terminology like 'RTP' and 'Income'.
+    - Source-list context links to the same spam/gambling page rather than a legitimate AI product.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.730Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:48:19.863Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

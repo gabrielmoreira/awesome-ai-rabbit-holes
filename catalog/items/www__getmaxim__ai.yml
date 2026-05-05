@@ -1,0 +1,77 @@
+id: www__getmaxim__ai
+kind: website
+name: www.getmaxim.ai
+canonical_url: https://www.getmaxim.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__getmaxim__ai__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Security
+          - Observability
+        anchor_text: Maxim AI
+        extracted_url: https://getmaxim.ai
+        surrounding_text: "| [Maxim AI](https://getmaxim.ai) | Platform for AI Agent Simulation, Evaluation & Observability |"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Maxim AI is an end-to-end evaluation and observability platform for AI agents, providing infrastructure for prompt experimentation, agent simulation, and production monitoring.
+  why_it_matters: It allows engineering and product teams to systematically test, evaluate, and monitor AI agent quality across frameworks like LangChain and CrewAI without building custom scripts.
+  mental_damage: Because nothing says 'accelerating development' like spending three days configuring the dashboard that measures how fast you're building the thing.
+  tags:
+    - evals
+    - observability
+    - agents
+    - llm-gateway
+  confidence: high
+curation:
+  status: included
+  reason: The platform is squarely focused on the evaluation, observability, and testing loop of AI agents rather than acting as a coding assistant or app builder.
+  evidence:
+    - Site describes itself as 'The GenAI evaluation and observability platform' with products for experimentation, simulation, and observability.
+    - Includes specific features like prompt versioning, agent simulation, traces, and CI/CD integration for quality monitoring.
+    - Listed in Awesome-LLMOps under the 'Security > Observability' section, aligning with the catalog's scope for developer infrastructure.
+placement:
+  primary_category: evals
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.732Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:50:59.527Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

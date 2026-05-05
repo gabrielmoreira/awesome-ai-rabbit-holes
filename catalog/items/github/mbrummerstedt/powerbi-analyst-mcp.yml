@@ -1,0 +1,81 @@
+id: github__mbrummerstedt__powerbi-analyst-mcp
+kind: github-repo
+name: powerbi-analyst-mcp
+canonical_url: https://github.com/mbrummerstedt/powerbi-analyst-mcp
+identity:
+  github_repo: mbrummerstedt/powerbi-analyst-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__mbrummerstedt__powerbi-analyst-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📊 <a name="data-platforms"></a>Data Platforms
+        anchor_text: mbrummerstedt/powerbi-analyst-mcp
+        extracted_url: https://github.com/mbrummerstedt/powerbi-analyst-mcp
+        surrounding_text: "- [mbrummerstedt/powerbi-analyst-mcp](https://github.com/mbrummerstedt/powerbi-analyst-mcp) [![mbrummerstedt/powerbi-analyst-mcp MCP server](https://glama.ai/mcp/servers/mbrummerstedt/powerbi-analyst-mcp/badges/score.svg)](https://glama.ai/mcp/servers/mbrummerstedt/powerbi-analyst-mcp) 🐍 ☁️ - Connect LLMs to Power BI semantic models. Browse workspaces, tables, and measures, run DAX queries, and automatically page large results via local CSV."
+        confidence: high
+metadata:
+  github:
+    stars: 7
+    forks: 3
+    license: MIT
+    archived: false
+    created_at: "2026-03-04T21:14:58Z"
+    pushed_at: "2026-04-15T14:37:46Z"
+    description: This repo is a local mcp server made for connecting Power BI to your llm for analysis purposes
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:03:33.014Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:33.014Z"
+      bytes: 16663
+insights:
+  summary: A local MCP server that connects LLMs like Claude to Power BI semantic models, allowing AI agents to run DAX queries and analyze data directly.
+  why_it_matters: It allows developers and analysts to delegate complex, multi-step data exploration to an agent that can query large datasets and synthesize findings without manual DAX translation.
+  mental_damage: Finally, a way to let an LLM hallucinate insights about your margin decline after crashing its context window with 73,000 rows of CSV data.
+  tags:
+    - mcp
+    - power-bi
+    - data-analysis
+    - local-first
+  confidence: medium
+curation:
+  status: included
+  reason: The project is a distinct MCP server implementation designed to give AI clients query access to Power BI data.
+  evidence:
+    - Repo description states it is 'a local mcp server made for connecting Power BI to your llm'.
+    - README confirms it is a Python package (powerbi-analyst-mcp) acting as an MCP server with tools like execute_dax.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Data Platforms'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.706Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:33.014Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:36:24.125Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

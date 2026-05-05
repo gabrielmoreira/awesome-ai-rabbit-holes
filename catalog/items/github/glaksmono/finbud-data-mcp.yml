@@ -1,0 +1,86 @@
+id: github__glaksmono__finbud-data-mcp
+kind: github-repo
+name: finbud-data-mcp
+canonical_url: https://github.com/glaksmono/finbud-data-mcp
+identity:
+  github_repo: glaksmono/finbud-data-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__glaksmono__finbud-data-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: glaksmono/finbud-data-mcp
+        extracted_url: https://github.com/glaksmono/finbud-data-mcp
+        surrounding_text: "- [glaksmono/finbud-data-mcp](https://github.com/glaksmono/finbud-data-mcp/tree/main/packages/mcp-server) 📇 ☁️ 🏠 - Access comprehensive, real-time financial data (stocks, options, crypto, forex) via developer-friendly, AI-native APIs offering unbeatable value."
+        confidence: high
+metadata:
+  github:
+    stars: 4
+    forks: 4
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-04-25T06:44:24Z"
+    pushed_at: "2025-06-21T02:17:46Z"
+    description: AI & Developer centric financial data API
+    homepage: https://data.finbud.ai/docs
+    topics:
+      - financial-data
+      - financial-markets
+      - mcp
+      - mcp-server
+    last_checked_at: "2026-05-05T21:02:22.824Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:22.824Z"
+      bytes: 11987
+insights:
+  summary: An MCP server and TypeScript SDK that provides programmatic access to financial market data, including analyst estimates and other financial metrics via the Finbud Data API.
+  why_it_matters: It gives coding agents and MCP-compatible clients structured, real-time financial data without requiring developers to cobble together multiple fragmented market APIs.
+  mental_damage: Another MCP server enters the ring, because clearly what your agentic workflow needed was one more dependency before it could confidently hallucinate earnings estimates.
+  tags:
+    - mcp
+    - financial-data
+    - typescript
+    - sdk
+    - api
+  confidence: medium
+curation:
+  status: included
+  reason: The project is explicitly an MCP server implementation for financial data, which fits cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description states: 'AI & Developer centric financial data API' with topics including 'mcp' and 'mcp-server'."
+    - Listed in awesome-mcp-servers under 'Server Implementations > Finance & Fintech'.
+    - Repository is active (pushed 2025-06-21) and not archived, with a generated TypeScript SDK for the Finbud Data API.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.689Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:22.824Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:21:43.720Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

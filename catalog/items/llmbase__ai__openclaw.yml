@@ -1,0 +1,74 @@
+id: llmbase__ai__openclaw
+kind: website
+name: openclaw
+canonical_url: https://llmbase.ai/openclaw
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__llmbase__ai__openclaw__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 技能 Skills
+        anchor_text: llmbase
+        extracted_url: https://llmbase.ai/openclaw
+        surrounding_text: 9. [llmbase](https://llmbase.ai/openclaw/)
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Openclaw is a minimal, developer-focused AI tool listed under skills in an LLM resources directory, with no public repo or description available to verify its functionality.
+  why_it_matters: It appears in a curated skill-building section aimed at helping developers expand their LLM capabilities, though its exact utility cannot be confirmed.
+  mental_damage: Yet another cryptic AI tool with a cool name that forces you to burn thirty minutes reverse-engineering what it actually does before you can decide if you need it.
+  tags:
+    - llm-resources
+    - skills
+  confidence: low
+curation:
+  status: excluded
+  reason: The project lacks a public repository, description, README, or any verifiable detail beyond its name and a single listing in a generic LLM resources list, making it impossible to confirm it is a specific developer tool rather than just a link or concept.
+  evidence:
+    - No repo description, README excerpt, or scraped site context provided beyond the name and URL.
+    - No stars, license, or activity dates available to gauge traction or maintenance.
+    - Only evidence is a single entry in awesome-LLM-resources under a 'Skills' section, which alone does not confirm it is a concrete developer tool.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.728Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:45:57.940Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

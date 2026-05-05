@@ -1,0 +1,77 @@
+id: www__ultravox__ai
+kind: website
+name: www.ultravox.ai
+canonical_url: https://www.ultravox.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__ultravox__ai__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Fixie
+        anchor_text: Fixie
+        extracted_url: https://www.fixie.ai
+        surrounding_text: "## [Fixie](https://www.fixie.ai/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Ultravox is a real-time voice AI infrastructure platform that provides speech-native models and APIs for building low-latency, conversational voice agents.
+  why_it_matters: It offers developers a purpose-built stack to integrate human-like voice interactions into applications without the latency and context loss of traditional speech-to-text-to-LLM pipelines.
+  mental_damage: Yet another 'agentic' API promising to solve latency, summoning the inevitable future where we debug WebSocket streams instead of stack traces.
+  tags:
+    - voice-ai
+    - infrastructure
+    - real-time
+    - api
+    - sdk
+  confidence: high
+curation:
+  status: included
+  reason: The product is a developer-facing SDK and API stack for embedding voice AI behavior into software, which aligns with the ai-frameworks category.
+  evidence:
+    - Scraped site describes it as a 'real-time voice AI infrastructure layer' with 'Developer-friendly REST APIs' and 'Powerful SDKs'.
+    - Site context explicitly mentions 'Build with AI agents that can speak, listen, and interact in real time'.
+    - Listed in awesome-ai-agents under the 'Fixie' section for voice agent infrastructure.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.734Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:53:54.690Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

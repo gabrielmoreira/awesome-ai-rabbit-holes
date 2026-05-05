@@ -1,0 +1,82 @@
+id: github__openbmb__bmtools
+kind: github-repo
+name: bmtools
+canonical_url: https://github.com/openbmb/bmtools
+identity:
+  github_repo: openbmb/bmtools
+provenance:
+  discoveries:
+    - id: discovery__github__openbmb__bmtools__awesome-list__vivy-yi__awesome-agent-orchestration
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: vivy-yi/awesome-agent-orchestration
+        url: https://github.com/vivy-yi/awesome-agent-orchestration
+        repository: vivy-yi/awesome-agent-orchestration
+      extraction:
+        mode: parsed
+        section_path:
+          - Core Frameworks
+          - Lightweight & Specialized Agents
+        anchor_text: BMTools
+        extracted_url: https://github.com/openbmb/bmtools
+        surrounding_text: "| [BMTools](https://github.com/OpenBMB/BMTools) | Tool/API registry for agents | ![Stars](https://img.shields.io/github/stars/OpenBMB/BMTools) |"
+        confidence: high
+metadata:
+  github:
+    stars: 2776
+    forks: 248
+    license: Apache-2.0
+    archived: false
+    created_at: "2023-03-31T08:00:43Z"
+    pushed_at: "2023-12-05T05:25:27Z"
+    description: Tool Learning for Big Models, Open-Source Solutions of ChatGPT-Plugins
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:04:04.284Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:04.284Z"
+      bytes: 8936
+insights:
+  summary: An open-source Python framework for extending language models with tools, allowing developers to build custom plugins and utilize external ChatGPT-Plugins.
+  why_it_matters: It provides a code-first platform for developers to experiment with tool-augmented LLMs and build custom agent capabilities outside of closed hosted ecosystems.
+  mental_damage: Another valiant attempt to reinvent the LangChain wheel, proving that in 2023, the fastest way to build an agent was to wrap it in a framework that mimics the API of a product that was itself about to be deprecated.
+  tags:
+    - tool-use
+    - agent-framework
+    - llm
+    - python
+    - plugins
+  confidence: medium
+curation:
+  status: included
+  reason: This is a code-first SDK/framework for building tool-using agents, which fits the AI Frameworks category rather than an orchestration control plane or a coding agent.
+  evidence:
+    - Repo description identifies it as 'Tool Learning for Big Models' and an 'Open-Source Solution' (SDK).
+    - README demonstrates a Python import workflow (load_single_tools, MTQuestionAnswerer) for developers to build with, not a hosted UI.
+    - "Active development stopped in late 2023 (pushed_at: 2023-12-05), but it is not archived."
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (2776) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.711Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:04.284Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:42:30.025Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

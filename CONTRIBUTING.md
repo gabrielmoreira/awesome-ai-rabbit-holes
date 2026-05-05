@@ -1,90 +1,147 @@
 # Contributing
 
-> Do not edit `README.md`.
-> Do not edit `docs/rabbit-holes/*.md`.
-> Do not manually update stars.
-> Do not manually sort sections.
->
-> The pipeline does the rest.
+The pipeline owns generated output. Humans own the inputs.
 
-## Scope
+## First rules
 
-This catalog is **not** a generic AI directory. It focuses on practical AI
-tools, agents, workflows, and infrastructure that help **software developers
-become more productive**: coding agents, agent orchestration, MCP tooling,
-AI IDEs, local AI runtimes, evaluation harnesses, RAG for developer workflows,
-and similar.
+- Do not hand-edit `README.md`.
+- Do not hand-edit `docs/rabbit-holes/*.md`.
+- Do not hand-edit `catalog/catalog.json`.
+- Do not hand-edit `catalog/items/**/*.yml`.
+- Do not manually sort rendered sections or generated item files.
+- Use `.local/` for scratch notes, plans, and temporary reports. It is ignored on purpose.
 
-Lower priority / out of scope: generic ChatGPT prompt collections, ML theory,
-deep learning, computer vision, NLP research, diffusion models, RL, and
-broad AI resource lists with no clear developer-tooling angle.
+If the catalog output is wrong, fix the source input or add an override. Do not patch the generated files directly.
 
-See `sources/scope.yml` for positive and negative examples. The positive
-`in_scope` examples are enforced by catalog validation so the repo does not
-quietly drift away from its own scope.
+## What belongs where
 
-## Prerequisites
+### Human-owned inputs
 
-`mise install` provisions the pinned local toolchain from `.mise.toml` (Node.js 25.x, GitHub Copilot CLI, and Pi coding agent CLI).
+- `config/sources.yml` — discovery queue
+- `config/categories.yml` — taxonomy and category descriptions
+- `config/settings.yml` — budgets, concurrency, and catalog policy defaults
+- `overrides/catalog/items/**/*.yml` — last-resort manual corrections
+- `.env.pi-free.example` — example provider configuration only
+
+### Generated outputs
+
+- `README.md`
+- `docs/rabbit-holes/*.md`
+- `catalog/catalog.json`
+- `catalog/items/**/*.yml`
+
+### Local-only state
+
+- `.cache/` — website, README, and source-list caches
+- `.local/` — personal notes, plans, reports, scratch docs
+- `.env`, `.env.pi-free` — local credentials and overrides
+
+## Catalog scope
+
+This repo is not a generic AI directory. It catalogs practical AI tools and rabbit holes that matter to software developers: coding agents, app builders, agent orchestration, MCP tooling, AI IDEs, local AI, evals, and adjacent developer workflow infrastructure.
+
+Lower priority or out of scope:
+
+- generic prompt collections
+- broad AI news feeds with no developer-tooling angle
+- general ML research with no clear developer workflow relevance
+- diffusion / computer vision / RL links that do not map back to developer tooling
+- random secondary URLs such as forms, badges, docs mirrors, image assets, or waitlists
+
+## Setup
 
 1. Install [mise](https://mise.jdx.dev/) and run `mise install`
-2. Authenticate GitHub Copilot CLI, and keep a token with `Copilot Requests` permission available via `COPILOT_GITHUB_TOKEN`, `GH_TOKEN`, or `GITHUB_TOKEN`
-3. Keep the Copilot token available to GitHub Actions as the repository secret `COPILOT_GITHUB_TOKEN`
+2. Run `mise run catalog:deps`
+3. Configure at least one working provider in `.env` or `.env.pi-free`
+4. Verify the Pi fallback stack before doing LLM-backed catalog work
 
-- The catalog defaults to GitHub Copilot model `gpt-4o`.
-- You can override the model with `CATALOG_AI_MODEL` or `COPILOT_MODEL` if your Copilot account exposes a different supported model.
-- The shared Pi entrypoint is `mise run pi -- ...`. It uses `PI_CODING_AGENT_DIR=.cache/pi/agent`, disables Pi's built-in tools, and starts with both extension discovery and skill discovery turned off (`--no-extensions --no-skills`).
-- GitHub Actions also exposes a manual `pi` workflow that smoke-tests the same command path with `mise run pi -- --help`.
-- GitHub workflows bound source-list intake with `CATALOG_MAX_SOURCE_LIST_NEW_ITEMS` so CI proves the real Copilot path without trying to curate thousands of new candidates in one run. Leave it unset locally to run the full uncapped discovery pass.
+Useful checks:
 
-## To add something
+```sh
+mise run llm:doctor --limit 3
+mise run catalog:validate
+```
 
-Edit `sources/inbox.yml`:
+Provider credentials come from `.env` and `.env.pi-free`. `.env.pi-free` is optional but useful when you want Pi-specific overrides without polluting your main shell environment.
+
+## Source input rules
+
+`config/sources.yml` is the durable intake file.
+
+Use these source kinds:
+
+- `direct-item` — a single tool, repo, site, paper, or article
+- `curated-list` — a list meant to be expanded into item candidates
+- omit `kind` only when you want the default `direct-item`
+
+Examples:
 
 ```yaml
 - url: https://github.com/example/cool-agent-tool
-  note: Optional short note.
-```
+  kind: direct-item
+  note: CLI coding agent for large repo refactors.
 
-Or for an awesome list:
-
-```yaml
 - url: https://github.com/example/awesome-ai-agents
-  kind: awesome-list
-  note: Useful list for discovering agent tools.
+  kind: curated-list
+  note: Useful developer-facing list with strong agent coverage.
 ```
 
-Then run:
+Guidance:
+
+- Prefer the main product or repo URL, not a deep docs page.
+- If a real GitHub repo exists, the pipeline prefers the GitHub repo as canonical.
+- Website-only entries should be explicit maintainer inputs or clearly primary entries from a relevant curated list.
+- Low-signal secondary links should not become catalog tools.
+
+## Normal workflow
+
+For most changes, this is enough:
 
 ```sh
-mise run catalog:update
+mise run catalog:sync
 ```
 
-The underlying Node entrypoint is still `npm run catalog -- update` if you need it directly, but CI now calls the same `mise` task namespace.
+`catalog:sync` runs the real pipeline in order:
 
-Awesome-list discovery is no longer staged. Each `update` run considers every list-derived link, dedupes them by canonical URL, and backfills source-list provenance for repos or sites already in the catalog.
+1. `catalog:discover`
+2. `catalog:stars`
+3. `catalog:categorize`
+4. `catalog:render`
+5. `catalog:validate`
 
-To re-run AI curation only for items currently marked `curation.status: excluded`, use:
+Local and CI should use the same command surface.
+
+## Fixing one item or a small subset
+
+Prefer targeted maintenance before reaching for overrides.
 
 ```sh
-mise run catalog:rerun-excluded
+mise run catalog:resync --id github__example__cool-agent-tool --categorize
+mise run catalog:resync --where processing.categorize.status=deferred --categorize
+mise run catalog:resync --match "lovable|bolt|v0" --categorize
+mise run catalog:resync --url https://github.com/example/cool-agent-tool --stars
 ```
 
-This keeps the existing catalog, resets excluded items back to `pending`, and asks the configured Copilot model to reconsider them using the current prompt rules.
+Notes:
 
-## To correct something
+- `--discover` re-runs source discovery for the matched subset
+- `--stars` refreshes GitHub metadata for the matched items
+- `--categorize` forces a fresh categorization attempt for the matched items
+- if you pass no action flags, `catalog:resync` defaults to categorization
 
-Add a file to `overrides/catalog/items/...yml` mirroring the catalog path.
+## Overrides
 
-Example: `overrides/catalog/items/github/example/cool-agent-tool.yml`
+Only add an override when the deterministic pipeline plus a targeted resync still lands on the wrong result.
+
+Example:
 
 ```yaml
 id: github__example__cool-agent-tool
 
 override:
-  reason: This belongs more clearly under agent orchestration.
+  reason: This belongs under agent orchestration, not coding agents.
   updated_by: Your Name
-  updated_at: 2026-04-30
+  updated_at: 2026-05-04
 
 patch:
   placement:
@@ -92,16 +149,55 @@ patch:
     section: null
 ```
 
-## What the pipeline owns
+Keep overrides narrow. Patch the smallest truthful surface.
 
-- `README.md`
-- `docs/rabbit-holes/*.md`
-- `site/catalog.json`
-- `catalog/items/**/*.yml` (generated and updated by pipeline)
+## Pi fallback notes
 
-## What humans own
+`mise run llm` runs the repo's shared non-interactive `@mariozechner/pi-ai` model loop against the static fallback order.
 
-- `sources/inbox.yml`
-- `overrides/catalog/items/**/*.yml`
-- `catalog/categories.yml`
-- `catalog/config.yml`
+Important behavior:
+
+- automatic fallback only happens for retryable upstream/provider failures
+- recent failures cool down in memory for about 10 minutes inside the current process
+- `llm:doctor` is read-only diagnostics; it does not update the shared cooldown window
+- if you explicitly pass `--model`, automatic fallback is disabled
+
+## Cleaning generated state
+
+Use the catalog clean tasks instead of ad hoc deletions:
+
+```sh
+mise run catalog:clean
+mise run catalog:clean:cache
+mise run catalog:clean:data
+mise run catalog:clean:docs
+```
+
+Scope summary:
+
+- `catalog:clean` — generated docs, generated catalog data, and catalog caches
+- `catalog:clean:cache` — `.cache/` only
+- `catalog:clean:data` — `catalog/catalog.json` and `catalog/items/**/*.yml`
+- `catalog:clean:docs` — `README.md` and `docs/rabbit-holes/*.md`
+
+## Command reference
+
+```sh
+mise run catalog:deps
+mise run catalog:test
+mise run catalog:typecheck
+mise run catalog:discover
+mise run catalog:stars
+mise run catalog:categorize
+mise run catalog:render
+mise run catalog:validate
+mise run catalog:sync
+mise run catalog:resync --id <item-id> --categorize
+mise run catalog:clean
+mise run catalog:clean:cache
+mise run catalog:clean:data
+mise run catalog:clean:docs
+mise run llm:doctor --limit 3
+```
+
+`mise tasks` is the quickest way to inspect the supported task surface.

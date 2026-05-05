@@ -1,0 +1,75 @@
+id: www__anything__com
+kind: website
+name: www.anything.com
+canonical_url: https://www.anything.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__anything__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - App Builders
+        anchor_text: Create.xyz
+        extracted_url: https://create.xyz
+        surrounding_text: "- **[Create.xyz](https://create.xyz/)** – AI-powered app creation from natural language."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A browser-first AI app builder that generates and deploys complete sites, tools, and products from natural language descriptions.
+  why_it_matters: It allows developers to prototype and ship functional applications without manually scaffolding frontend or deployment infrastructure.
+  mental_damage: Another step toward the existential dread of realizing your primary job is now translating vague product ideas into prompts while the machine handles the 'implementation details' you used to enjoy.
+  tags:
+    - app-builder
+    - prompt-to-app
+    - prototyping
+    - deployment
+  confidence: high
+curation:
+  status: included
+  reason: It is a hosted, browser-first product focused on turning prompts into full deployed apps, which aligns strictly with the app-builders category instruction.
+  evidence:
+    - "Scraped site title and description: 'Anything - AI app builder' that turns ideas into apps via description."
+    - Source-list context places it under 'App Builders' in awesome-ai-coding-tools.
+placement:
+  primary_category: app-builders
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.731Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:49:35.394Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

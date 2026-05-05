@@ -1,0 +1,91 @@
+id: github__augmnt__augments-mcp-server
+kind: github-repo
+name: augments-mcp-server
+canonical_url: https://github.com/augmnt/augments-mcp-server
+identity:
+  github_repo: augmnt/augments-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__augmnt__augments-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: augmnt/augments-mcp-server
+        extracted_url: https://github.com/augmnt/augments-mcp-server
+        surrounding_text: "- [augmnt/augments-mcp-server](https://github.com/augmnt/augments-mcp-server) 📇 ☁️ 🏠 - Transform Claude Code with intelligent, real-time access to 90+ framework documentation sources. Get accurate, up-to-date code generation that follows current best practices for React, Next.js, Laravel, FastAPI, Tailwind CSS, and more."
+        confidence: high
+metadata:
+  github:
+    stars: 121
+    forks: 18
+    license: MIT
+    archived: false
+    created_at: "2025-07-20T21:37:55Z"
+    pushed_at: "2026-03-13T00:35:42Z"
+    description: Comprehensive MCP server providing real-time framework documentation access for Claude Code with intelligent caching, multi-source integration, and context-aware assistance.
+    homepage: https://augments.dev
+    topics:
+      - ai-tools
+      - async
+      - caching
+      - claude-code
+      - developer-tools
+      - framework
+      - mcp
+      - model-context-protocol
+      - python
+    last_checked_at: "2026-05-05T21:01:12.066Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:12.066Z"
+      bytes: 10423
+insights:
+  summary: An MCP server that provides Claude Code and Cursor with real-time framework documentation, type signatures, code examples, and dependency analysis for any npm package.
+  why_it_matters: It eliminates context-switching by letting developers query API behavior, diagnose errors, and generate migration guides directly inside their AI-assisted coding environment using live documentation.
+  mental_damage: We have successfully engineered a system where the AI needs an MCP server to remember what useEffect does so you don't have to, which is either a productivity breakthrough or the herald of our collective cognitive obsolescence.
+  tags:
+    - mcp
+    - claude-code
+    - documentation
+    - npm
+    - context-engineering
+  confidence: high
+curation:
+  status: included
+  reason: The project is a standalone Model Context Protocol server designed to provide documentation context to AI coding tools, fitting cleanly into the MCP infrastructure category.
+  evidence:
+    - Repo description explicitly defines it as a 'Comprehensive MCP server' for Claude Code.
+    - README details 8 specific MCP tools including get_api_context, diagnose_error, and scan_project_deps.
+    - Listed in the awesome-mcp-servers directory under 'Server Implementations > Developer Tools'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.679Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:12.066Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:09:27.309Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

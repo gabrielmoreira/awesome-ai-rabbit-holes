@@ -1,0 +1,105 @@
+id: github__huggingface__text-generation-inference
+kind: github-repo
+name: text-generation-inference
+canonical_url: https://github.com/huggingface/text-generation-inference
+identity:
+  github_repo: huggingface/text-generation-inference
+provenance:
+  discoveries:
+    - id: discovery__github__huggingface__text-generation-inference__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: janhq/awesome-local-ai
+        url: https://github.com/janhq/awesome-local-ai
+        repository: janhq/awesome-local-ai
+      extraction:
+        mode: parsed
+        section_path:
+          - Inference Engine
+        anchor_text: text-generation-inference
+        extracted_url: https://github.com/huggingface/text-generation-inference
+        surrounding_text: "| [text-generation-inference](https://github.com/huggingface/text-generation-inference)| - Inference serving toolbox with optimized kernels for each LLM architecture                | Safetensors / AWQ / GPTQ | Both             | ❌  | Python/Rust | Text-Gen      |"
+        confidence: high
+    - id: discovery__github__huggingface__text-generation-inference__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Serving
+          - Large Model Serving
+        anchor_text: text-generation-inference
+        extracted_url: https://github.com/huggingface/text-generation-inference
+        surrounding_text: "| [text-generation-inference](https://github.com/huggingface/text-generation-inference) | Large Language Model Text Generation Inference                                                                  | ![GitHub Badge](https://img.shields.io/github/stars/huggingface/text-generation-inference.svg?style=flat-square) |"
+        confidence: high
+metadata:
+  github:
+    stars: 10849
+    forks: 1266
+    license: Apache-2.0
+    archived: true
+    created_at: "2022-10-08T10:26:28Z"
+    pushed_at: "2026-03-21T11:34:22Z"
+    description: Large Language Model Text Generation Inference
+    homepage: http://hf.co/docs/text-generation-inference
+    topics:
+      - bloom
+      - deep-learning
+      - falcon
+      - gpt
+      - inference
+      - nlp
+      - pytorch
+      - starcoder
+      - transformer
+    last_checked_at: "2026-05-05T21:02:37.750Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:37.750Z"
+      bytes: 14691
+insights:
+  summary: A Rust, Python, and gRPC server toolkit for deploying and serving large language models with production features like continuous batching, tensor parallelism, and OpenAI-compatible APIs.
+  why_it_matters: It provides the infrastructure backbone for developers needing to self-host and scale open-source LLMs with optimized inference performance.
+  mental_damage: The 'maintenance mode' banner basically translates to 'we built the future, now please go figure out vLLM or SGLang while we paint a sunset over the repo'.
+  tags:
+    - inference
+    - llm-serving
+    - local-ai
+    - huggingface
+  confidence: high
+curation:
+  status: excluded
+  reason: The repo is explicitly in maintenance mode and archived, effectively deprecated in favor of downstream engines like vLLM and SGLang.
+  evidence:
+    - "Repo description: 'Large Language Model Text Generation Inference'"
+    - "README excerpt: 'text-generation-inference is now in maintenance mode... we contribute to and recommend using going forward: vllm, SGLang...'"
+    - "Archived: yes"
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: needs_review
+  reason: Repository is archived
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.666Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:37.750Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:24:39.864Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

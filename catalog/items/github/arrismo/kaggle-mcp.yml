@@ -1,0 +1,84 @@
+id: github__arrismo__kaggle-mcp
+kind: github-repo
+name: kaggle-mcp
+canonical_url: https://github.com/arrismo/kaggle-mcp
+identity:
+  github_repo: arrismo/kaggle-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__arrismo__kaggle-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧮 <a name="data-science-tools"></a>Data Science Tools
+        anchor_text: arrismo/kaggle-mcp
+        extracted_url: https://github.com/arrismo/kaggle-mcp
+        surrounding_text: "- [arrismo/kaggle-mcp](https://github.com/arrismo/kaggle-mcp) 🐍 ☁️ - Connects to Kaggle, ability to download and analyze datasets."
+        confidence: high
+metadata:
+  github:
+    stars: 35
+    forks: 7
+    license: MIT
+    archived: false
+    created_at: "2025-04-11T03:01:18Z"
+    pushed_at: "2026-03-30T11:58:26Z"
+    description: MCP server for Kaggle
+    homepage: ""
+    topics:
+      - kaggle
+      - mcp-server
+    last_checked_at: "2026-05-05T21:01:09.985Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:09.985Z"
+      bytes: 5781
+insights:
+  summary: An MCP server that allows AI agents to search for, download, and generate EDA prompts for Kaggle datasets via the Kaggle API.
+  why_it_matters: It connects data science platforms directly into agentic workflows, allowing models to autonomously source training data and bootstrap analysis notebooks.
+  mental_damage: We have successfully abstracted the process of downloading a zip file into a protocol handshake so your agent can hallucinate statistics about data it found on its own.
+  tags:
+    - mcp
+    - kaggle
+    - data-science
+    - fastmcp
+    - agent-tools
+  confidence: high
+curation:
+  status: included
+  reason: The project is a standalone MCP server implementation designed to integrate Kaggle into AI agent workflows, fitting the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description explicitly states: 'MCP server for Kaggle'."
+    - README details implementation using `fastmcp` library to expose tools like `search_kaggle_datasets` and `download_kaggle_dataset`.
+    - Listed in 'awesome-mcp-servers' under 'Data Science Tools' section.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.679Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:09.985Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:09:06.914Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

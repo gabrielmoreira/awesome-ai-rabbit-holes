@@ -1,0 +1,81 @@
+id: github__nicholasbester__clickup-cli
+kind: github-repo
+name: clickup-cli
+canonical_url: https://github.com/nicholasbester/clickup-cli
+identity:
+  github_repo: nicholasbester/clickup-cli
+provenance:
+  discoveries:
+    - id: discovery__github__nicholasbester__clickup-cli__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: nicholasbester/clickup-cli
+        extracted_url: https://github.com/nicholasbester/clickup-cli
+        surrounding_text: "- [nicholasbester/clickup-cli](https://github.com/nicholasbester/clickup-cli) [![clickup-cli MCP server](https://glama.ai/mcp/servers/nicholasbester/clickup-cli/badges/score.svg)](https://glama.ai/mcp/servers/nicholasbester/clickup-cli) 🦀 🏠 ☁️ 🍎 🪟 🐧 - ClickUp API integration with 143 MCP tools covering all ~130 endpoints. Token-efficient compact responses (~98% smaller than raw JSON), flattening nested objects for minimal context usage. Also works as a standalone CLI."
+        confidence: high
+metadata:
+  github:
+    stars: 10
+    forks: 2
+    license: Apache-2.0
+    archived: false
+    created_at: "2026-03-31T14:56:05Z"
+    pushed_at: "2026-05-04T03:26:41Z"
+    description: CLI for the ClickUp API, optimized for AI agents
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:03:54.334Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:54.334Z"
+      bytes: 16211
+insights:
+  summary: A CLI for the ClickUp API that provides token-efficient output optimized for AI agents and human users, covering all ~130 endpoints across 28 resource groups.
+  why_it_matters: It reduces massive ClickUp API JSON responses (12,000+ tokens for 5 tasks) to compact table output (~150 tokens), preventing AI agents from exhausting their context windows.
+  mental_damage: We have finally optimized the tooling around a project management API so heavily that our agents can now contextually dread their task lists more efficiently.
+  tags:
+    - cli
+    - clickup
+    - context-optimization
+    - token-efficiency
+  confidence: high
+curation:
+  status: included
+  reason: The tool's primary value is context compression and token efficiency for AI agents interacting with external APIs, which aligns with Prompting and Context Engineering.
+  evidence:
+    - Repo description explicitly states it is 'optimized for AI agents' and README shows a 98% token reduction (12,000 to 150 tokens).
+    - The CLI flattens nested objects and renders compact tables specifically to prevent agents from exhausting context windows.
+    - Listed in awesome-mcp-servers directory, reinforcing its role as tooling infrastructure for agent context management.
+placement:
+  primary_category: context-engineering
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.709Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:54.334Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:40:32.437Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

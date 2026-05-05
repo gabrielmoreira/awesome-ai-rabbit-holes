@@ -1,0 +1,80 @@
+id: github__pair-code__llm-comparator
+kind: github-repo
+name: llm-comparator
+canonical_url: https://github.com/pair-code/llm-comparator
+identity:
+  github_repo: pair-code/llm-comparator
+provenance:
+  discoveries:
+    - id: discovery__github__pair-code__llm-comparator__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 评估 Evaluation
+        anchor_text: llm-comparator
+        extracted_url: https://github.com/pair-code/llm-comparator
+        surrounding_text: "3. [llm-comparator](https://github.com/PAIR-code/llm-comparator): LLM Comparator is an interactive data visualization tool for evaluating and analyzing LLM responses side-by-side, developed."
+        confidence: high
+metadata:
+  github:
+    stars: 525
+    forks: 52
+    license: Apache-2.0
+    archived: true
+    created_at: "2024-05-07T17:27:27Z"
+    pushed_at: "2025-02-11T21:24:51Z"
+    description: LLM Comparator is an interactive data visualization tool for evaluating and analyzing LLM responses side-by-side, developed by the PAIR team.
+    homepage: https://pair-code.github.io/llm-comparator/
+    topics: []
+    last_checked_at: "2026-05-05T21:04:11.101Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:11.101Z"
+      bytes: 10865
+insights:
+  summary: An interactive visualization tool and Python library from Google's PAIR team for analyzing and comparing LLM evaluation results side-by-side.
+  why_it_matters: It helps developers and researchers qualitatively analyze model behavior differences at the example and slice level using structured evaluation data.
+  mental_damage: Because nothing says 'trust the model' like building a bespoke visualizer to figure out why Model A stopped sounding like a polite customer service agent and started using bulleted lists.
+  tags:
+    - evals
+    - llm-comparison
+    - visualization
+    - python
+  confidence: high
+curation:
+  status: excluded
+  reason: The repository is archived, and while it is an evaluation tool, it functions more as an ML research utility for model analysis rather than a developer-focused engineering tool for improving code or workflows.
+  evidence:
+    - Repo is marked as archived, indicating it is no longer actively maintained.
+    - Source list context places it in '评估 Evaluation' under awesome-LLM-resources, targeting general ML resources rather than developer tooling.
+    - The workflow focuses on qualitative model response analysis (e.g., 'Gemma 1.1 uses bulleted lists') rather than coding agents, IDEs, or app building.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: needs_review
+  reason: Repository is archived
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.712Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:11.101Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:43:38.339Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

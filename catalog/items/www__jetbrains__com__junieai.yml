@@ -1,0 +1,75 @@
+id: www__jetbrains__com__junieai
+kind: website
+name: junieai
+canonical_url: https://www.jetbrains.com/junieai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__jetbrains__com__junieai__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Coding Agents
+        anchor_text: JunieAI (JetBrains)
+        extracted_url: https://www.jetbrains.com/junieai
+        surrounding_text: "- **[JunieAI (JetBrains)](https://www.jetbrains.com/junieai/)** – AI coding agent that plans, writes, tests, and refactors within JetBrains IDEs."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Junie is an AI coding agent developed by JetBrains that integrates directly into IntelliJ IDEA and PyCharm to plan, write, and refactor code within the IDE workflow.
+  why_it_matters: It brings agentic, multi-step coding assistance natively into the JetBrains ecosystem, allowing developers to delegate complex tasks without leaving their established IDE environment.
+  mental_damage: Yet another opportunity to discover that your IDE now has an 'agent' that can refactor your code, provided you enjoy the thrill of wondering if the blue icon is thinking or just buffering.
+  tags:
+    - jetbrains
+    - ide
+    - coding-agent
+    - refactoring
+  confidence: high
+curation:
+  status: included
+  reason: This is a developer-facing coding agent built by JetBrains that works directly inside the IDE on source code, fitting the coding-agents category perfectly.
+  evidence:
+    - Listed in awesome-ai-coding-tools under the 'Coding Agents' section.
+    - JetBrains product page indicates integration with IntelliJ IDEA and PyCharm for code writing and planning.
+placement:
+  primary_category: coding-agents
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.732Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:51:33.833Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

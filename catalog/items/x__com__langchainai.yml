@@ -1,0 +1,75 @@
+id: x__com__langchainai
+kind: website
+name: LangChainAI
+canonical_url: https://x.com/LangChainAI
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__x__com__langchainai__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - LangChain Framework
+        anchor_text: Twitter account
+        extracted_url: https://twitter.com/LangChainAI
+        surrounding_text: "- [Twitter account](https://twitter.com/LangChainAI): follow to get fresh updates"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: The official X/Twitter account for the LangChain team and ecosystem.
+  why_it_matters: It serves as a primary feed for updates, releases, and ecosystem news regarding the LangChain framework.
+  mental_damage: " yet another social media account to follow to feel like you're keeping up with the serialization of AI infrastructure."
+  tags:
+    - langchain
+    - news
+    - social-media
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a social media account (X/Twitter), not a developer tool, framework, or product, and thus falls outside the catalog's scope of practical AI tooling.
+  evidence:
+    - URL points to x.com/LangChainAI, which is a social media profile.
+    - Scraped site context confirms the target is x.com, returning a Twitter error page.
+    - Source-list context mentions 'awesome-langchain', but the submission itself is the Twitter account, not the framework or the list.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.734Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:54:21.057Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

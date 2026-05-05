@@ -1,0 +1,95 @@
+id: github__kestra-io__kestra
+kind: github-repo
+name: kestra
+canonical_url: https://github.com/kestra-io/kestra
+identity:
+  github_repo: kestra-io/kestra
+provenance:
+  discoveries:
+    - id: discovery__github__kestra-io__kestra__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: scraped
+        section_path:
+          - Server Implementations
+          - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
+        anchor_text: Kestra
+        extracted_url: https://kestra.io
+        surrounding_text: "- [kestra-io/mcp-server-python](https://github.com/kestra-io/mcp-server-python) 🐍 ☁️ - Implementation of MCP server for [Kestra](https://kestra.io) workflow orchestration platform."
+        confidence: high
+metadata:
+  github:
+    stars: 26789
+    forks: 2564
+    license: Apache-2.0
+    archived: false
+    created_at: "2019-08-24T13:56:15Z"
+    pushed_at: "2026-05-05T18:59:59Z"
+    description: Event Driven Orchestration & Scheduling Platform for Mission Critical Applications
+    homepage: https://kestra.io
+    topics:
+      - automation
+      - data-orchestration
+      - devops
+      - hacktoberfest
+      - high-availability
+      - infrastructure-as-code
+      - java
+      - low-code
+      - lowcode
+      - orchestration
+      - pipeline
+      - pipeline-as-code
+      - workflow
+    last_checked_at: "2026-05-05T21:03:04.221Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:04.221Z"
+      bytes: 13386
+insights:
+  summary: Kestra is an open-source, event-driven orchestration platform that uses declarative YAML to define and manage scheduled and real-time workflows for data, microservices, and infrastructure.
+  why_it_matters: It allows developers to manage complex workflow orchestration with Infrastructure as Code practices, offering a UI for visualization while maintaining Git version control and supporting scripts in any language.
+  mental_damage: Yet another 'declarative' orchestration platform promising to tame chaos, just in case you missed the memo that YAML was supposed to be the cure for complex infrastructure anxiety.
+  tags:
+    - orchestration
+    - workflow
+    - infrastructure-as-code
+    - event-driven
+    - yaml
+  confidence: high
+curation:
+  status: excluded
+  reason: Kestra is a general-purpose workflow and data orchestration platform without a meaningful AI-specific developer tooling angle for this catalog's scope.
+  evidence:
+    - Repo description and README focus on event-driven orchestration and scheduling for mission-critical applications, with no mention of AI agents, models, or LLM integration in the core pitch.
+    - Source-list context shows it listed under 'awesome-mcp-servers' for cloud platforms, but the project itself is a traditional orchestration tool, not an AI developer tool, coding agent, or MCP-native infrastructure.
+    - Topics and features center on DevOps, data pipelines, and infrastructure-as-code rather than AI app building, coding assistance, or prompt engineering.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (26789) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.701Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:04.221Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:30:26.297Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

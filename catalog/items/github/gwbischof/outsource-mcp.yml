@@ -1,0 +1,81 @@
+id: github__gwbischof__outsource-mcp
+kind: github-repo
+name: outsource-mcp
+canonical_url: https://github.com/gwbischof/outsource-mcp
+identity:
+  github_repo: gwbischof/outsource-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__gwbischof__outsource-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 👨‍💻 <a name="code-execution"></a>Code Execution
+        anchor_text: gwbischof/outsource-mcp
+        extracted_url: https://github.com/gwbischof/outsource-mcp
+        surrounding_text: "- [gwbischof/outsource-mcp](https://github.com/gwbischof/outsource-mcp) 🐍 ☁️ - Give your AI assistant its own AI assistants. For example: \"Could you ask openai to generate an image of a dog?\""
+        confidence: high
+metadata:
+  github:
+    stars: 28
+    forks: 5
+    license: MIT
+    archived: false
+    created_at: "2025-05-27T18:56:07Z"
+    pushed_at: "2025-05-28T21:36:23Z"
+    description: Give your AI assistant its own AI assistants.
+    homepage: https://gwbischof.notion.site/Give-Your-AI-Assistant-Its-Own-AI-Assistants-Introducing-Outsource-mcp-202cb0b01a9b803499bff8d44cecea4e
+    topics: []
+    last_checked_at: "2026-05-05T21:02:29.429Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:29.429Z"
+      bytes: 9702
+insights:
+  summary: An MCP server that lets AI assistants outsource text and image generation tasks to 20+ model providers through a unified interface.
+  why_it_matters: It allows MCP-compatible hosts like Claude Desktop or Cline to route specific generation tasks to specialized providers without the host needing direct integration for each one.
+  mental_damage: Finally, your AI assistant can experience the same context-switching fatigue and API key management nightmare that you do, just to generate a haiku from a different model.
+  tags:
+    - mcp
+    - multi-provider
+    - model-routing
+    - agent-tools
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server implementation designed to extend AI assistant capabilities via the Model Context Protocol.
+  evidence:
+    - "Repo description: 'Give your AI assistant its own AI assistants' via MCP."
+    - "README: 'An MCP (Model Context Protocol) server that enables AI applications to outsource tasks to various model providers.'"
+    - Listed in awesome-mcp-servers under 'Server Implementations > Code Execution'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.690Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:29.429Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:23:16.471Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

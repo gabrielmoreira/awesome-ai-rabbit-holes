@@ -1,0 +1,82 @@
+id: github__kukapay__crypto-liquidations-mcp
+kind: github-repo
+name: crypto-liquidations-mcp
+canonical_url: https://github.com/kukapay/crypto-liquidations-mcp
+identity:
+  github_repo: kukapay/crypto-liquidations-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__kukapay__crypto-liquidations-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: kukapay/crypto-liquidations-mcp
+        extracted_url: https://github.com/kukapay/crypto-liquidations-mcp
+        surrounding_text: "- [kukapay/crypto-liquidations-mcp](https://github.com/kukapay/crypto-liquidations-mcp) 🐍 ☁️ - Streams real-time cryptocurrency liquidation events from Binance."
+        confidence: high
+metadata:
+  github:
+    stars: 7
+    forks: 6
+    license: MIT
+    archived: false
+    created_at: "2025-05-02T07:38:40Z"
+    pushed_at: "2025-05-06T08:53:13Z"
+    description: An MCP server that streams real-time cryptocurrency liquidation events from Binance.
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:03:10.018Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:10.018Z"
+      bytes: 3977
+insights:
+  summary: An MCP server that streams real-time cryptocurrency liquidation events from Binance via WebSocket for use by AI agents.
+  why_it_matters: It gives AI agents a live data feed of forced liquidations, enabling them to analyze high-volatility market movements without custom exchange integrations.
+  mental_damage: Your AI agent can now panic about leveraged positions in real time, adding financial market anxiety to its existing existential one.
+  tags:
+    - mcp
+    - crypto
+    - binance
+    - real-time
+    - finance
+  confidence: high
+curation:
+  status: included
+  reason: The project is a standalone MCP server providing a specific data tool for AI agents, which fits squarely under MCP infrastructure.
+  evidence:
+    - Repo description states it is 'An MCP server that streams real-time cryptocurrency liquidation events from Binance.'
+    - README confirms it connects to Binance WebSocket and exposes tools and prompts for MCP clients like Claude Desktop.
+    - Listed in awesome-mcp-servers under 'Finance & Fintech' server implementations.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.702Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:10.018Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:31:48.129Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

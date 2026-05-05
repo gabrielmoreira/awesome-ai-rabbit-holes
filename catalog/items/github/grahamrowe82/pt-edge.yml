@@ -1,0 +1,86 @@
+id: github__grahamrowe82__pt-edge
+kind: github-repo
+name: pt-edge
+canonical_url: https://github.com/grahamrowe82/pt-edge
+identity:
+  github_repo: grahamrowe82/pt-edge
+provenance:
+  discoveries:
+    - id: discovery__github__grahamrowe82__pt-edge__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: grahamrowe82/pt-edge
+        extracted_url: https://github.com/grahamrowe82/pt-edge
+        surrounding_text: "- [grahamrowe82/pt-edge](https://github.com/grahamrowe82/pt-edge) [![pt-edge MCP server](https://glama.ai/mcp/servers/grahamrowe82/pt-edge/badges/score.svg)](https://glama.ai/mcp/servers/grahamrowe82/pt-edge) 🐍 ☁️ 🍎 🪟 🐧 - AI project intelligence MCP server. Tracks 300+ open-source AI projects across GitHub, PyPI, npm, HuggingFace, Docker Hub, and Hacker News. 47 MCP tools for discovery, comparison, trend analysis, and semantic search across AI repos, HuggingFace models/datasets, and public APIs."
+        confidence: high
+metadata:
+  github:
+    stars: 4
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2026-03-07T06:29:16Z"
+    pushed_at: "2026-04-18T07:42:00Z"
+    description: Precomputed reasoning cache for AI infrastructure decisions — 220K+ pages tracking the open-source AI ecosystem
+    homepage: null
+    topics:
+      - ai
+      - developer-tools
+      - mcp
+      - mcp-server
+      - open-source
+    last_checked_at: "2026-05-05T21:02:26.957Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:26.957Z"
+      bytes: 3932
+insights:
+  summary: A precomputed reasoning cache that tracks and scores over 220,000 open-source AI projects daily, publishing the results as a machine-readable directory site with an MCP interface for AI agents.
+  why_it_matters: It provides a structured, pre-digested intelligence layer that allows coding agents and developers to make informed infrastructure decisions without crawling GitHub or parsing raw READMEs themselves.
+  mental_damage: We have successfully reached the point where we are building infrastructure specifically designed to tell other AI agents which AI infrastructure they should trust.
+  tags:
+    - mcp
+    - directory
+    - ai-infrastructure
+    - reasoning-cache
+  confidence: medium
+curation:
+  status: included
+  reason: The project positions itself as an MCP tool and provides a REST API/MCP server for programmatic access to its AI ecosystem directory, fitting the MCP infrastructure criteria.
+  evidence:
+    - GitHub topics explicitly include 'mcp' and 'mcp-server'.
+    - Stack description mentions 'MCP tools and REST API for programmatic access'.
+    - Listed in 'awesome-mcp-servers' under 'Developer Tools' section.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.689Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:26.957Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:22:46.676Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

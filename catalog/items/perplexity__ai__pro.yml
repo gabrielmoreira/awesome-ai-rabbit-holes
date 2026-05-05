@@ -1,0 +1,75 @@
+id: perplexity__ai__pro
+kind: website
+name: pro
+canonical_url: https://perplexity.ai/pro
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__perplexity__ai__pro__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Developer Productivity Tools
+        anchor_text: Perplexity Pro
+        extracted_url: https://perplexity.ai/pro
+        surrounding_text: "- **[Perplexity Pro](https://perplexity.ai/pro)** – AI search engine with real-time web access for coding solutions."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Perplexity Pro is a subscription-tier hosted AI search and assistant product designed for general web research and answering questions.
+  why_it_matters: It provides developers with fast, cited answers and code explanations, reducing the friction of looking up documentation or debugging obscure errors.
+  mental_damage: Another monthly subscription promising to replace Stack Overflow, ensuring you now pay a premium to argue with an AI about why its accepted answer is deprecated.
+  tags:
+    - ai-search
+    - research
+    - assistant
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a general-purpose consumer AI search and research assistant with no developer-tooling, coding-agent, or app-building workflow integration.
+  evidence:
+    - The URL resolves to perplexity.ai/pro, a hosted SaaS product for general AI search, not a developer tool.
+    - No GitHub repo, README, or code-level description exists in the inputs to suggest developer-facing integration.
+    - Listed in awesome-ai-coding-tools under 'Developer Productivity Tools', but that directory inclusion does not override the lack of a coding-specific workflow.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.729Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:46:58.365Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

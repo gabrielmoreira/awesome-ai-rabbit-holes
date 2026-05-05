@@ -1,0 +1,84 @@
+id: github__huybery__awesome-code-llm
+kind: github-repo
+name: awesome-code-llm
+canonical_url: https://github.com/huybery/awesome-code-llm
+identity:
+  github_repo: huybery/awesome-code-llm
+provenance:
+  discoveries:
+    - id: discovery__github__huybery__awesome-code-llm__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Awesome Lists
+        anchor_text: Awesome-Code-LLM
+        extracted_url: https://github.com/huybery/awesome-code-llm
+        surrounding_text: "| [Awesome-Code-LLM](https://github.com/huybery/Awesome-Code-LLM)                                         | 👨‍💻 An awesome and curated list of best code-LLM for research.                                                                     | ![GitHub Badge](https://img.shields.io/github/stars/huybery/Awesome-Code-LLM.svg?style=flat-square)                      |"
+        confidence: high
+metadata:
+  github:
+    stars: 1285
+    forks: 70
+    license: MIT
+    archived: false
+    created_at: "2023-07-05T06:42:09Z"
+    pushed_at: "2024-12-10T08:10:54Z"
+    description: 👨‍💻 An awesome and curated list of best code-LLM for research.
+    homepage: ""
+    topics:
+      - awesome
+      - code-generation
+      - large-language-models
+    last_checked_at: "2026-05-05T21:02:38.629Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:38.629Z"
+      bytes: 42539
+insights:
+  summary: A curated, actively updated awesome list tracking state-of-the-art code LLMs, evaluation benchmarks, and research papers for developers and researchers.
+  why_it_matters: It provides developers with a centralized map of which models actually top the HumanEval charts, helping skip the marketing noise when choosing a local or API-based coding model.
+  mental_damage: Yet another helpful list proving that while your job is safe, your weekend is not, because you are now legally obligated to benchmark every 1.5B model that drops on a Tuesday.
+  tags:
+    - awesome-list
+    - code-llm
+    - benchmarks
+    - research
+    - models
+  confidence: high
+curation:
+  status: included
+  reason: This is a curated index of code-LLM research and models rather than a standalone developer tool, making it a textbook fit for the Awesome Awesomes category.
+  evidence:
+    - Repo description explicitly calls it 'an awesome and curated list of best code-LLM for research.'
+    - README organizes content into leaderboards, evaluation toolkits, and research papers, not usable tooling.
+    - Listed in Awesome-LLMOps under the 'Awesome Lists' section, reinforcing its role as a meta-list.
+placement:
+  primary_category: awesome-awesomes
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1285) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.697Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:38.629Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:24:53.588Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

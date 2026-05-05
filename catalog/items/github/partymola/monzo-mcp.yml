@@ -1,0 +1,90 @@
+id: github__partymola__monzo-mcp
+kind: github-repo
+name: monzo-mcp
+canonical_url: https://github.com/partymola/monzo-mcp
+identity:
+  github_repo: partymola/monzo-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__partymola__monzo-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: partymola/monzo-mcp
+        extracted_url: https://github.com/partymola/monzo-mcp
+        surrounding_text: "- [partymola/monzo-mcp](https://github.com/partymola/monzo-mcp) [![partymola/monzo-mcp MCP server](https://glama.ai/mcp/servers/partymola/monzo-mcp/badges/score.svg)](https://glama.ai/mcp/servers/partymola/monzo-mcp) 🐍 ☁️ 🏠 - Read-only MCP server for the Monzo banking API (UK). OAuth with auto-refresh, local SQLite transaction cache, full-text search, and spending analysis with category breakdowns."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 2
+    license: GPL-3.0
+    archived: false
+    created_at: "2026-04-05T00:04:51Z"
+    pushed_at: "2026-04-26T22:07:35Z"
+    description: MCP server for the Monzo banking API with OAuth, local transaction cache, and spending analysis
+    homepage: https://modelcontextprotocol.io
+    topics:
+      - claude
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - monzo
+      - monzo-api
+      - oauth
+      - personal-finance
+    last_checked_at: "2026-05-05T21:04:12.597Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:12.597Z"
+      bytes: 4394
+insights:
+  summary: An MCP server that connects Claude Code and other MCP clients to the Monzo banking API with OAuth, automatic token refresh, and a local SQLite transaction cache.
+  why_it_matters: Developers can query accounts, balances, and perform spending analysis directly from their coding agent without leaving the IDE or manually handling Monzo's short-lived bearer tokens.
+  mental_damage: We have successfully reached the point where asking a coding agent to analyze your latte spending is considered a legitimate MCP use case.
+  tags:
+    - mcp
+    - monzo
+    - oauth
+    - finance
+    - claude-code
+  confidence: high
+curation:
+  status: included
+  reason: The project is itself an MCP server implementation for a specific API, which fits squarely into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states 'MCP server for the Monzo banking API'.
+    - README details MCP tools (monzo_list_accounts, monzo_sync, monzo_spending) for Claude Code and MCP clients.
+    - Listed in awesome-mcp-servers under 'Finance & Fintech' section.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.712Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:12.597Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:43:54.604Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

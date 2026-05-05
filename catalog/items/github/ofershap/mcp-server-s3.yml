@@ -1,0 +1,94 @@
+id: github__ofershap__mcp-server-s3
+kind: github-repo
+name: mcp-server-s3
+canonical_url: https://github.com/ofershap/mcp-server-s3
+identity:
+  github_repo: ofershap/mcp-server-s3
+provenance:
+  discoveries:
+    - id: discovery__github__ofershap__mcp-server-s3__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
+        anchor_text: ofershap/mcp-server-s3
+        extracted_url: https://github.com/ofershap/mcp-server-s3
+        surrounding_text: "- [ofershap/mcp-server-s3](https://github.com/ofershap/mcp-server-s3) [![mcp-server-s3 MCP server](https://glama.ai/mcp/servers/ofershap/mcp-server-s3/badges/score.svg)](https://glama.ai/mcp/servers/ofershap/mcp-server-s3) 📇 ☁️ - AWS S3 operations — list buckets, browse objects, upload/download files, and generate presigned URLs."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-02-19T23:29:08Z"
+    pushed_at: "2026-03-10T09:22:25Z"
+    description: MCP server for AWS S3 — list buckets, browse objects, upload/download, presigned URLs
+    homepage: null
+    topics:
+      - ai
+      - aws
+      - claude
+      - cloud
+      - cursor
+      - llm
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - s3
+      - storage
+      - typescript
+    last_checked_at: "2026-05-05T21:03:59.848Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:59.848Z"
+      bytes: 4701
+insights:
+  summary: An MCP server implementation that enables AI assistants to manage AWS S3 buckets and objects through natural language commands.
+  why_it_matters: Developers can list buckets, upload/download files, and generate presigned URLs via Claude, Cursor, or VS Code Copilot without memorizing AWS CLI syntax.
+  mental_damage: We now have a dedicated Model Context Protocol server so your AI can manage S3 buckets while you manage the existential dread of explaining to your security team why your LLM needs IAM permissions.
+  tags:
+    - mcp
+    - aws
+    - s3
+    - typescript
+    - developer-tools
+  confidence: high
+curation:
+  status: included
+  reason: The project is a standalone MCP server for AWS S3, which clearly fits the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description explicitly states: 'MCP server for AWS S3 — list buckets, browse objects, upload/download, presigned URLs'"
+    - README confirms it 'Works with Claude Desktop, Cursor, VS Code Copilot, and any MCP client' and provides MCP server configuration examples
+    - Listed in awesome-mcp-servers under 'Server Implementations > Cloud Platforms'
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.710Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:59.848Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:41:44.064Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

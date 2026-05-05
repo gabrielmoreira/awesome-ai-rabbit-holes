@@ -1,0 +1,84 @@
+id: github__eleutherai__lm-evaluation-harness
+kind: github-repo
+name: lm-evaluation-harness
+canonical_url: https://github.com/eleutherai/lm-evaluation-harness
+identity:
+  github_repo: eleutherai/lm-evaluation-harness
+provenance:
+  discoveries:
+    - id: discovery__github__eleutherai__lm-evaluation-harness__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 评估 Evaluation
+        anchor_text: lm-evaluation-harness
+        extracted_url: https://github.com/eleutherai/lm-evaluation-harness
+        surrounding_text: "1. [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness): A framework for few-shot evaluation of language models."
+        confidence: high
+metadata:
+  github:
+    stars: 12432
+    forks: 3248
+    license: MIT
+    archived: false
+    created_at: "2020-08-28T00:09:15Z"
+    pushed_at: "2026-05-05T17:44:52Z"
+    description: A framework for few-shot evaluation of language models.
+    homepage: https://www.eleuther.ai
+    topics:
+      - evaluation-framework
+      - language-model
+      - transformer
+    last_checked_at: "2026-05-05T21:02:01.019Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:01.019Z"
+      bytes: 52761
+insights:
+  summary: A unified framework for few-shot evaluation of language models that supports over 60 standard academic benchmarks and multiple model backends including HuggingFace, vLLM, and commercial APIs.
+  why_it_matters: It provides the industry-standard evaluation backend for the Open LLM Leaderboard and is used internally by organizations like NVIDIA and Cohere to measure model quality reproducibly.
+  mental_damage: We have built an entire subculture around running a 405B model through a harness just to discover that it still can't count the letter 'r' in strawberry.
+  tags:
+    - evaluation
+    - llm
+    - benchmark
+    - harness
+    - testing
+  confidence: high
+curation:
+  status: included
+  reason: This is a benchmark and evaluation harness used to measure model behavior, which aligns precisely with the Evaluations and Benchmarks category.
+  evidence:
+    - Repo description states it is 'A framework for few-shot evaluation of language models.'
+    - README confirms it is the backend for Hugging Face's Open LLM Leaderboard and supports over 60 benchmarks.
+    - Listed under '评估 Evaluation' in the awesome-LLM-resources directory.
+placement:
+  primary_category: evals
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (12432) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.686Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:01.019Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:17:44.071Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

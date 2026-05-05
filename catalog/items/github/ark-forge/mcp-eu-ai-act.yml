@@ -1,0 +1,96 @@
+id: github__ark-forge__mcp-eu-ai-act
+kind: github-repo
+name: mcp-eu-ai-act
+canonical_url: https://github.com/ark-forge/mcp-eu-ai-act
+identity:
+  github_repo: ark-forge/mcp-eu-ai-act
+provenance:
+  discoveries:
+    - id: discovery__github__ark-forge__mcp-eu-ai-act__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - ⚖️ <a name="legal"></a>Legal
+        anchor_text: ark-forge/mcp-eu-ai-act
+        extracted_url: https://github.com/ark-forge/mcp-eu-ai-act
+        surrounding_text: "- [ark-forge/mcp-eu-ai-act](https://github.com/ark-forge/mcp-eu-ai-act) [![mcp-eu-ai-act MCP server](https://glama.ai/mcp/servers/@ark-forge/mcp-eu-ai-act/badges/score.svg)](https://glama.ai/mcp/servers/@ark-forge/mcp-eu-ai-act) 📇 ☁️ - EU AI Act compliance scanner that detects regulatory violations in AI codebases with risk classification and remediation guidance."
+        confidence: high
+metadata:
+  github:
+    stars: 4
+    forks: 2
+    license: MIT
+    archived: false
+    created_at: "2026-02-16T20:28:23Z"
+    pushed_at: "2026-05-04T01:25:37Z"
+    description: MCP EU AI Act Compliance Scanner - Open source tool to detect EU AI Act violations in codebases
+    homepage: https://arkforge.fr/mcp-eu-ai-act.html
+    topics:
+      - ai-governance
+      - ai-regulation
+      - ai-safety
+      - claude
+      - compliance
+      - compliance-scanner
+      - eu-ai-act
+      - gdpr
+      - llm
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - python
+      - regulation
+    last_checked_at: "2026-05-05T21:01:09.633Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:09.633Z"
+      bytes: 17027
+insights:
+  summary: An MCP server and CLI tool that scans codebases to detect EU AI Act and GDPR compliance violations, mapping findings to specific legal articles.
+  why_it_matters: It automates the tedious legal review of AI frameworks in code, generating risk reports and auditor-ready documentation packages ahead of the August 2026 enforcement deadline.
+  mental_damage: We now have CI/CD pipelines that fail because your random Forest import didn't come with a 40-page technical documentation markdown file.
+  tags:
+    - mcp
+    - compliance
+    - legal
+    - cli
+    - eu-ai-act
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly built as a Model Context Protocol server for Claude, Cursor, and other tools, fitting the MCP infrastructure category perfectly.
+  evidence:
+    - Repo description identifies it as an 'MCP EU AI Act Compliance Scanner' and it is listed under 'Server Implementations' in awesome-mcp-servers.
+    - README provides explicit integration instructions for Claude Code, Claude Desktop, and Cursor using the MCP protocol.
+    - The tool is installable via 'pip install eu-ai-act-scanner' and runs as a command 'eu-ai-act-mcp', serving as a backend tool.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.679Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:09.633Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:09:02.532Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

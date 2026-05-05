@@ -1,0 +1,76 @@
+id: datature__com
+kind: website
+name: datature.com
+canonical_url: https://datature.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__datature__com__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: janhq/awesome-local-ai
+        url: https://github.com/janhq/awesome-local-ai
+        repository: janhq/awesome-local-ai
+      extraction:
+        mode: parsed
+        section_path:
+          - Developer tools
+        anchor_text: Datature
+        extracted_url: https://datature.io
+        surrounding_text: "- [Datature](https://datature.io) - The All-in-One Platform to Build and Deploy Vision AI."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Datature is an end-to-end SaaS platform for data labeling, model training, and deployment specifically for building Vision AI models.
+  why_it_matters: It provides developers with no-code workflows to annotate datasets, train computer vision models, and deploy them to edge or cloud environments without managing ML infrastructure.
+  mental_damage: "Just what we needed: another drag-and-drop 'no-code' platform to ensure we never have to look at a tensor or a training loop ever again."
+  tags:
+    - computer-vision
+    - model-training
+    - no-code
+    - enterprise
+  confidence: high
+curation:
+  status: excluded
+  reason: The platform is an enterprise computer vision SaaS for ML model building and data labeling, which falls outside the catalog's scope of coding agents, developer workflow automation, and IDE tooling.
+  evidence:
+    - Scraped site context describes an 'end-to-end platform for data labeling, model training, and deployment' for Vision AI.
+    - The product targets 'enterprises and developers' to build Vision AI models, but focuses on ML ops rather than software development workflows.
+    - Appears in awesome-local-ai under 'Developer tools', but the service is a hosted SaaS for computer vision, not a local AI tool or coding assistant.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.727Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:43:35.850Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

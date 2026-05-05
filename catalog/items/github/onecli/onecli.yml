@@ -1,0 +1,94 @@
+id: github__onecli__onecli
+kind: github-repo
+name: onecli
+canonical_url: https://github.com/onecli/onecli
+identity:
+  github_repo: onecli/onecli
+provenance:
+  discoveries:
+    - id: discovery__github__onecli__onecli__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Agent infrastructure
+        anchor_text: OneCLI
+        extracted_url: https://github.com/onecli/onecli
+        surrounding_text: "- **[OneCLI](https://github.com/onecli/onecli)** `⭐ 2.1k` — Open-source credential vault for AI agents; Rust HTTP gateway injects API keys transparently so agents never handle raw secrets. Per-agent scoped tokens, AES-256-GCM encryption at rest. Apache-2.0."
+        confidence: high
+metadata:
+  github:
+    stars: 2091
+    forks: 104
+    license: Apache-2.0
+    archived: false
+    created_at: "2026-03-08T10:38:52Z"
+    pushed_at: "2026-05-05T17:03:17Z"
+    description: Open-source credential vault, give your AI agents access to services without exposing keys.
+    homepage: https://onecli.sh
+    topics:
+      - ai-agents
+      - cli
+      - mcp
+      - nanoclaw
+      - nodejs
+      - openclaw
+      - postgres
+      - rust
+      - secret-management
+      - security
+      - security-tools
+      - vault
+    last_checked_at: "2026-05-05T21:04:01.669Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:01.669Z"
+      bytes: 6209
+insights:
+  summary: An open-source gateway that stores API credentials securely and transparently injects them into outbound HTTP requests made by AI agents.
+  why_it_matters: It centralizes secret management for AI workflows, letting developers avoid hardcoding API keys across multiple agents and providing a single place to rotate credentials and audit usage.
+  mental_damage: Finally, a dedicated vault to manage the rapidly multiplying API keys required to keep your twelve concurrent coding agents from accidentally exfiltrating your entire cloud infrastructure.
+  tags:
+    - security
+    - secrets
+    - mcp
+    - infrastructure
+    - agents
+  confidence: high
+curation:
+  status: included
+  reason: It is a developer-facing infrastructure tool that augments and secures AI agents by handling credential injection, rather than being a primary coding assistant itself.
+  evidence:
+    - Repo description explicitly states it is a 'credential vault' to 'give your AI agents access to services'.
+    - README describes a gateway that intercepts HTTP requests from agents to swap fake keys for real, encrypted credentials.
+    - Listed in awesome-cli-coding-agents under 'Agent infrastructure', confirming its role as a supporting tool rather than the agent itself.
+placement:
+  primary_category: ai-dev-extensions
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (2091) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.711Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:01.669Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:42:03.427Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

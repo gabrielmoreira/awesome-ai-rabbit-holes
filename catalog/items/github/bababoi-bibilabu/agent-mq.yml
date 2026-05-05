@@ -1,0 +1,89 @@
+id: github__bababoi-bibilabu__agent-mq
+kind: github-repo
+name: agent-mq
+canonical_url: https://github.com/bababoi-bibilabu/agent-mq
+identity:
+  github_repo: bababoi-bibilabu/agent-mq
+provenance:
+  discoveries:
+    - id: discovery__github__bababoi-bibilabu__agent-mq__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💬 <a name="communication"></a>Communication
+        anchor_text: bababoi-bibilabu/agent-mq
+        extracted_url: https://github.com/bababoi-bibilabu/agent-mq
+        surrounding_text: "- [bababoi-bibilabu/agent-mq](https://github.com/bababoi-bibilabu/agent-mq) [![agent-mq MCP server](https://glama.ai/mcp/servers/bababoi-bibilabu/agent-mq/badges/score.svg)](https://glama.ai/mcp/servers/bababoi-bibilabu/agent-mq) 📇 ☁️ 🏠 - Message queue for AI coding assistants. Let AI agents (Claude Code, Cursor, Codex) send messages to each other across sessions and machines. UUID-based auth, self-hostable."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-03-13T17:10:17Z"
+    pushed_at: "2026-03-17T03:11:49Z"
+    description: Message queue for AI coding assistants. Let your AI agents talk to each other.
+    homepage: https://agent-mq.com
+    topics:
+      - agent-communication
+      - ai-agents
+      - claude-code
+      - codex
+      - cursor
+      - mcp
+      - message-queue
+      - multi-agent
+    last_checked_at: "2026-05-05T21:01:16.541Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:16.541Z"
+      bytes: 1680
+insights:
+  summary: A self-hosted message queue and MCP server that enables AI coding assistants like Claude Code and Cursor to exchange messages and coordinate tasks as separate agents.
+  why_it_matters: It provides the plumbing for developers to build multi-agent workflows where specialized AI assistants can hand off tasks and share state via a common queue.
+  mental_damage: We have finally invented middleware for hallucinations to argue with each other asynchronously, ensuring your build pipeline now has a dedicated queue for conflicting suggestions.
+  tags:
+    - mcp
+    - multi-agent
+    - agent-communication
+    - message-queue
+  confidence: medium
+curation:
+  status: included
+  reason: The project is explicitly an MCP server for agent communication, fitting the MCP Servers and Tooling category as infrastructure rather than a primary coding assistant.
+  evidence:
+    - "Repo description states: 'Message queue for AI coding assistants. Let your AI agents talk to each other.'"
+    - Installation instructions show adding it as an MCP server to Claude and Cursor configs (mcp.json).
+    - Listed in awesome-mcp-servers under 'Communication' as a server implementation.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.680Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:16.541Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:10:05.496Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

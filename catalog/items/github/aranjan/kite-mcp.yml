@@ -1,0 +1,88 @@
+id: github__aranjan__kite-mcp
+kind: github-repo
+name: kite-mcp
+canonical_url: https://github.com/aranjan/kite-mcp
+identity:
+  github_repo: aranjan/kite-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__aranjan__kite-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: aranjan/kite-mcp
+        extracted_url: https://github.com/aranjan/kite-mcp
+        surrounding_text: "- [aranjan/kite-mcp](https://github.com/aranjan/kite-mcp) [![aranjan/kite-mcp MCP server](https://glama.ai/mcp/servers/aranjan/kite-mcp/badges/score.svg)](https://glama.ai/mcp/servers/aranjan/kite-mcp) 🐍 🏠 - Trade Indian stocks on Zerodha Kite via natural conversation. 14 tools for holdings, orders, quotes, GTT triggers, and more with automated TOTP login."
+        confidence: high
+metadata:
+  github:
+    stars: 3
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-03-24T17:36:13Z"
+    pushed_at: "2026-03-27T22:30:32Z"
+    description: MCP server for Zerodha Kite -- trade Indian stocks via any MCP-compatible AI assistant
+    homepage: null
+    topics:
+      - kite
+      - mcp
+      - python
+      - stocks
+      - trading
+      - zerodha
+    last_checked_at: "2026-05-05T21:01:07.703Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:07.703Z"
+      bytes: 7925
+insights:
+  summary: An MCP server that connects AI assistants to Zerodha Kite, enabling natural language trading of Indian stocks through 14 tools for portfolio management, order execution, and market data.
+  why_it_matters: Developers trading Indian equities can now integrate conversational AI workflows into their MCP-compatible tools instead of writing custom Python wrappers for the Kite API.
+  mental_damage: We have successfully reached the point where your AI assistant now needs two-factor authentication and a stop-loss on its own HAL position, just in case the model decides to YOLO your portfolio.
+  tags:
+    - mcp
+    - trading
+    - zerodha
+    - finance
+    - python
+  confidence: high
+curation:
+  status: included
+  reason: This is a purpose-built MCP server for financial trading, making it a clean fit for the MCP Servers and Tooling category rather than a coding agent or app builder.
+  evidence:
+    - "Repo description explicitly states: 'MCP server for Zerodha Kite -- trade Indian stocks via any MCP-compatible AI assistant'"
+    - Listed in awesome-mcp-servers under 'Server Implementations > Finance & Fintech'
+    - README details 14 MCP tools and compatibility with Claude Desktop, Cursor, Windsurf, and other MCP clients
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.679Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:07.703Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:08:48.927Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,81 @@
+id: github__langchain-ai__chat-langchain
+kind: github-repo
+name: chat-langchain
+canonical_url: https://github.com/langchain-ai/chat-langchain
+identity:
+  github_repo: langchain-ai/chat-langchain
+provenance:
+  discoveries:
+    - id: discovery__github__hwchase17__chat-langchain__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Open Source Projects
+          - Other / Chatbots
+        anchor_text: Chat Langchain
+        extracted_url: https://github.com/hwchase17/chat-langchain
+        surrounding_text: "- [Chat Langchain](https://github.com/hwchase17/chat-langchain): locally hosted chatbot specifically focused on question answering over the LangChain documentation ![GitHub Repo stars](https://img.shields.io/github/stars/hwchase17/chat-langchain?style=social)"
+        confidence: high
+metadata:
+  github:
+    stars: 6317
+    forks: 1468
+    license: MIT
+    archived: false
+    created_at: "2023-01-16T20:43:13Z"
+    pushed_at: "2026-04-23T22:43:08Z"
+    description: null
+    homepage: https://chat.langchain.com
+    topics: []
+    last_checked_at: "2026-05-05T21:03:15.707Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:15.707Z"
+      bytes: 3638
+insights:
+  summary: A documentation assistant agent built with LangGraph that answers questions about LangChain, LangGraph, and LangSmith by searching official docs and support knowledge bases.
+  why_it_matters: Serves as a reference implementation for developers building production-ready documentation agents with guardrails, middleware, and structured search workflows.
+  mental_damage: The official docs now need their own agent to help you understand the framework you are using to build agents that read those same docs.
+  tags:
+    - langgraph
+    - agent
+    - docs
+    - reference-app
+  confidence: high
+curation:
+  status: included
+  reason: This is a reference application built with the LangGraph framework, demonstrating how to construct agentic workflows in code rather than being a standalone coding assistant or hosted builder.
+  evidence:
+    - README states it is 'a simple documentation assistant built with LangGraph' and demonstrates how to build a production-ready agent using code-first tools.
+    - Project structure is a standard Python application with source code in src/, configured via langgraph.json and pyproject.toml for developer use.
+    - Homepage points to chat.langchain.com, but the GitHub repo is the primary artifact developers would fork or learn from.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (6317) exceeded threshold (150)
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:33:03.350Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.697Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:15.707Z"
+    cause: null
+    next_retry_at: null

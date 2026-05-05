@@ -1,0 +1,104 @@
+id: github__mcpjungle__mcpjungle
+kind: github-repo
+name: mcpjungle
+canonical_url: https://github.com/mcpjungle/mcpjungle
+identity:
+  github_repo: mcpjungle/mcpjungle
+provenance:
+  discoveries:
+    - id: discovery__github__duaraghav8__mcpjungle__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🔗 <a name="aggregators"></a>Aggregators
+        anchor_text: duaraghav8/MCPJungle
+        extracted_url: https://github.com/duaraghav8/mcpjungle
+        surrounding_text: "- [duaraghav8/MCPJungle](https://github.com/duaraghav8/MCPJungle) 🏎️ 🏠 - Self-hosted MCP Server registry for enterprise AI Agents"
+        confidence: high
+    - id: discovery__github__mcpjungle__mcpjungle__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: MCPJungle
+        extracted_url: https://github.com/mcpjungle/mcpjungle
+        surrounding_text: "- **[MCPJungle](https://github.com/mcpjungle/MCPJungle)** 🌳 - Open-source, Self-hosted MCP server Gateway that connects your AI Agents to MCP Servers (for developers and enterprises)"
+        confidence: high
+metadata:
+  github:
+    stars: 1000
+    forks: 132
+    license: MPL-2.0
+    archived: false
+    created_at: "2025-05-15T12:31:06Z"
+    pushed_at: "2026-05-04T21:08:13Z"
+    description: One place to manage all your MCP servers
+    homepage: https://docs.mcpjungle.com
+    topics:
+      - ai-agents
+      - infrastructure
+      - mcp
+      - mcp-gateway
+      - mcp-registry
+      - mcp-server
+      - model-context-protocol
+      - self-hosted
+    last_checked_at: "2026-05-05T21:03:33.445Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:33.445Z"
+      bytes: 35867
+insights:
+  summary: A self-hosted gateway that consolidates multiple MCP servers behind a single endpoint for unified client configuration and team-wide discovery.
+  why_it_matters: It eliminates the friction of configuring individual MCP servers across every AI client by providing one registry and endpoint for tools, prompts, and resources.
+  mental_damage: We have successfully reached the point where we need a dedicated management layer just to keep track of the management layers we added to our AI workflows.
+  tags:
+    - mcp
+    - gateway
+    - self-hosted
+    - infrastructure
+  confidence: high
+curation:
+  status: included
+  reason: The project is a dedicated MCP infrastructure tool (gateway/registry) that solves a specific integration pain point for developers using the Model Context Protocol.
+  evidence:
+    - "Repo description explicitly states: 'One place to manage all your MCP servers'."
+    - README defines it as a 'self-hosted MCP gateway' for unified discovery and access control.
+    - Topics include mcp, mcp-gateway, and mcp-registry, confirming its role in the MCP ecosystem.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1000) exceeded threshold (150)
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:36:27.582Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.706Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:33.445Z"
+    cause: null
+    next_retry_at: null

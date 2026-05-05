@@ -1,0 +1,112 @@
+id: github__bentoml__bentoml
+kind: github-repo
+name: bentoml
+canonical_url: https://github.com/bentoml/bentoml
+identity:
+  github_repo: bentoml/bentoml
+provenance:
+  discoveries:
+    - id: discovery__github__bentoml__bentoml__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: janhq/awesome-local-ai
+        url: https://github.com/janhq/awesome-local-ai
+        repository: janhq/awesome-local-ai
+      extraction:
+        mode: parsed
+        section_path:
+          - Platforms / full solutions
+        anchor_text: BentoML
+        extracted_url: https://github.com/bentoml/bentoml
+        surrounding_text: "- [BentoML](https://github.com/bentoml/BentoML) - BentoML is a framework for building reliable, scalable, and cost-efficient AI applications."
+        confidence: high
+    - id: discovery__github__bentoml__bentoml__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Serving
+          - Frameworks/Servers for Serving
+        anchor_text: BentoML
+        extracted_url: https://github.com/bentoml/bentoml
+        surrounding_text: "| [BentoML](https://github.com/bentoml/BentoML)                              | The Unified Model Serving Framework                                                                                                                                                                                                                                                                                                                | ![GitHub Badge](https://img.shields.io/github/stars/bentoml/BentoML.svg?style=flat-square)                |"
+        confidence: high
+metadata:
+  github:
+    stars: 8627
+    forks: 959
+    license: Apache-2.0
+    archived: false
+    created_at: "2019-04-02T01:39:27Z"
+    pushed_at: "2026-05-04T16:54:05Z"
+    description: The easiest way to serve AI apps and models - Build Model Inference APIs, Job queues, LLM apps, Multi-model pipelines, and more!
+    homepage: https://bentoml.com
+    topics:
+      - ai-inference
+      - deep-learning
+      - generative-ai
+      - inference-platform
+      - llm
+      - llm-inference
+      - llm-serving
+      - llmops
+      - machine-learning
+      - ml-engineering
+      - mlops
+      - model-inference-service
+      - model-serving
+      - multimodal
+      - python
+    last_checked_at: "2026-05-05T21:01:19.047Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:19.047Z"
+      bytes: 9909
+insights:
+  summary: A Python framework for building and deploying model inference APIs, multi-model pipelines, and LLM apps as production-ready Docker containers.
+  why_it_matters: It lets developers wrap any open-source or custom model into a scalable REST API without building the serving infrastructure from scratch.
+  mental_damage: Yet another framework promising that this time, your model-serving stack won't collapse under the weight of its own YAML once you try to ship a second model.
+  tags:
+    - model-serving
+    - inference
+    - mlops
+    - python
+    - llm
+  confidence: high
+curation:
+  status: included
+  reason: It is a code-first Python framework and SDK for serving AI models, which fits ai-frameworks perfectly as developers import and build with it rather than operating a hosting control plane.
+  evidence:
+    - "Repo description: 'Build Model Inference APIs, Job queues, LLM apps, Multi-model pipelines, and more!'"
+    - "README: 'BentoML is a Python library for building online serving systems optimized for AI apps and model inference.'"
+    - Listed in Awesome-LLMOps under 'Serving > Frameworks/Servers for Serving'.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (8627) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.663Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:19.047Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:10:32.391Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

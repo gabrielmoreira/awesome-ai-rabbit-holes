@@ -1,0 +1,76 @@
+id: www__softr__io
+kind: website
+name: www.softr.io
+canonical_url: https://www.softr.io
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__softr__io__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - App Builders
+        anchor_text: Softr
+        extracted_url: https://www.softr.io
+        surrounding_text: "- **[Softr](https://www.softr.io/)** – No-code app builder with AI assistance."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Softr is a no-code SaaS platform that uses AI to generate custom business apps, portals, and internal tools from text descriptions, integrating with data sources like Airtable and Notion.
+  why_it_matters: It allows developers to rapidly prototype and hand off business-facing tools without writing boilerplate CRUD code, acting as a bridge between data sources and functional web apps.
+  mental_damage: Yet another reminder that while we spend weeks debating state management libraries, the rest of the world is building entire ERPs by describing them to a chatbot.
+  tags:
+    - no-code
+    - app-builder
+    - internal-tools
+    - ai-generation
+  confidence: high
+curation:
+  status: included
+  reason: It is a browser-first SaaS product that generates full internal tools and portals from prompts, fitting the app-builders category rather than coding-agents.
+  evidence:
+    - Site title and description explicitly state 'Build Custom AI Business Apps, Portals & Internal Tools with No Code'.
+    - "Primary feature is 'Co-build with AI: Simply describe what you need. Let Softr handle everything - Interface, database, workflows.'"
+    - Already categorized under 'App Builders' in the awesome-ai-coding-tools source list.
+placement:
+  primary_category: app-builders
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.734Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:53:25.156Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

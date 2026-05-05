@@ -1,0 +1,76 @@
+id: makedraft__com
+kind: website
+name: makedraft.com
+canonical_url: https://makedraft.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__makedraft__com__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Makedraft
+        anchor_text: Makedraft
+        extracted_url: https://makedraft.com
+        surrounding_text: "## [Makedraft](https://makedraft.com/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Makedraft is a browser-first SaaS tool that uses AI to generate HTML templates from prompts.
+  why_it_matters: It allows developers to quickly scaffold frontend templates and static HTML structures without manually writing boilerplate markup.
+  mental_damage: Yet another vertical SaaS promising to automate the one part of web development—writing HTML—that we ironically still manage to overcomplicate.
+  tags:
+    - html
+    - templates
+    - prompt-to-site
+    - frontend
+  confidence: medium
+curation:
+  status: included
+  reason: The product is a hosted, browser-first tool that generates HTML templates from prompts, fitting the app-builders definition for prompt-to-site generation.
+  evidence:
+    - "Scraped site title and description state: 'Makedraft' and 'Create HTML templates with AI'."
+    - Source list context describes it as a tool to 'Create HTML templates with AI' within an AI agents list.
+    - The URL points to a hosted SaaS product (makedraft.com) rather than a code repository or IDE extension.
+placement:
+  primary_category: app-builders
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.728Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:46:10.591Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

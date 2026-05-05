@@ -1,0 +1,76 @@
+id: q__bot__suchica__com
+kind: website
+name: q-bot.suchica.com
+canonical_url: https://q-bot.suchica.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__q__bot__suchica__com__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Q, ChatGPT for Slack
+        anchor_text: Q, ChatGPT for Slack
+        extracted_url: https://q-bot.suchica.com
+        surrounding_text: "## [Q, ChatGPT for Slack](https://q-bot.suchica.com/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A Slack app that integrates OpenAI's GPT models into workspace channels and DMs to support team collaboration, document analysis, and content creation tasks.
+  why_it_matters: It allows development teams to query GPT, summarize documents, and draft content without leaving their Slack workspace, centralizing AI usage for shared visibility.
+  mental_damage: Now you can watch your entire team's prompt engineering skills degrade in real-time, together, right alongside the standup updates.
+  tags:
+    - slack
+    - chatgpt-integration
+    - team-collaboration
+    - openai
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a general-purpose team chat assistant for Slack, not a developer-facing tool that interacts with codebases, IDEs, or infrastructure.
+  evidence:
+    - The product is explicitly described as 'ChatGPT for Slack' focused on teamwork, emails, and copywriting.
+    - Feature list highlights document reading, translations, and content creation rather than code editing or repo workflows.
+    - Source list context categorizes it as a general autonomous agent for Slack, not a coding or developer tool.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.729Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:47:19.888Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

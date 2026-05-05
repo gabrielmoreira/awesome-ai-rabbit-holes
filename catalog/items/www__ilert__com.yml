@@ -1,0 +1,77 @@
+id: www__ilert__com
+kind: website
+name: www.ilert.com
+canonical_url: https://www.ilert.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__ilert__com__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: ilert
+        extracted_url: https://ilert.com
+        surrounding_text: "- **[ilert](https://github.com/iLert/mcp-ilert)** - Interact with [ilert](https://ilert.com) through natural language."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: An AI-first incident management platform for DevOps and SRE teams that uses embedded agents to investigate alerts, suggest remediations, and automate on-call workflows.
+  why_it_matters: It integrates with your observability stack to correlate signals and handle triage via an AI SRE agent, aiming to reduce MTTR and protect on-call engineers from 2:47 a.m. context-switching.
+  mental_damage: "We’ve successfully automated the investigation, the phone call, the scheduling, and the postmortem, so the human can remain fresh and well-rested for the most cognitively demanding task of all: clicking a button."
+  tags:
+    - incident-management
+    - sre
+    - ai-agent
+    - devops
+    - automation
+  confidence: medium
+curation:
+  status: included
+  reason: It is an operational platform for coordinating AI agents (AI SRE, Voice Agent, On-Call Assistant) across the incident lifecycle, fitting the user-facing agent coordination scope rather than a coding assistant.
+  evidence:
+    - Scraped site describes 'ilert AI SRE' as an intelligent agent that investigates, explains, and resolves incidents autonomously.
+    - Platform features multiple specialized agents including a Voice Agent, On-Call Scheduler, and postmortem generators working across the lifecycle.
+    - Listed in awesome-mcp-servers under 'Official Servers' for an AI-first alerting and on-call management platform.
+placement:
+  primary_category: agent-orchestration
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.732Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:51:29.856Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

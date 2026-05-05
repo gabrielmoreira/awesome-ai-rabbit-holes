@@ -1,0 +1,83 @@
+id: github__jtalk22__slack-mcp-server
+kind: github-repo
+name: slack-mcp-server
+canonical_url: https://github.com/jtalk22/slack-mcp-server
+identity:
+  github_repo: jtalk22/slack-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__jtalk22__slack-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💬 <a name="communication"></a>Communication
+        anchor_text: jtalk22/slack-mcp-server
+        extracted_url: https://github.com/jtalk22/slack-mcp-server
+        surrounding_text: "- [jtalk22/slack-mcp-server](https://github.com/jtalk22/slack-mcp-server) 📇 ☁️ 🏠 🍎 🪟 🐧 - Your complete Slack context for Claude—DMs, channels, threads, search. No OAuth apps, no admin approval. `--setup` and done, 11 tools, auto-refresh."
+        confidence: high
+metadata:
+  github:
+    stars: 22
+    forks: 15
+    license: MIT
+    archived: false
+    created_at: "2026-01-03T19:19:56Z"
+    pushed_at: "2026-05-02T13:02:02Z"
+    description: "Session-based Slack MCP for Claude and MCP clients: local-first workflows, secure-default HTTP."
+    homepage: https://mcp.revasserlabs.com
+    topics:
+      - platform-commercial
+      - status-live
+    last_checked_at: "2026-05-05T21:03:00.077Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:00.077Z"
+      bytes: 14746
+insights:
+  summary: A session-based MCP server that gives AI agents direct access to Slack using browser session tokens instead of OAuth, enabling integration with Claude Code, Cursor, Copilot, and other MCP clients.
+  why_it_matters: It lets developers query, search, and respond to Slack threads directly from their AI coding environment without needing admin approval or a registered Slack app.
+  mental_damage: "We have finally achieved the platonic ideal of modern engineering: your AI agent can now achieve inbox zero in Slack without you ever having to open the tab that causes you existential dread."
+  tags:
+    - mcp
+    - slack
+    - session-tokens
+    - ide-integration
+  confidence: high
+curation:
+  status: included
+  reason: This is a Model Context Protocol server that provides Slack access to MCP-compatible developer tools, fitting cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states 'Session-based Slack MCP for Claude and MCP clients'
+    - README demonstrates integration with Claude Code, Cursor, Windsurf, Gemini CLI, and Codex CLI as an MCP server
+    - Listed in awesome-mcp-servers under 'Server Implementations > Communication'
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.700Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:00.077Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:29:29.038Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

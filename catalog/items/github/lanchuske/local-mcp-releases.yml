@@ -1,0 +1,97 @@
+id: github__lanchuske__local-mcp-releases
+kind: github-repo
+name: local-mcp-releases
+canonical_url: https://github.com/lanchuske/local-mcp-releases
+identity:
+  github_repo: lanchuske/local-mcp-releases
+provenance:
+  discoveries:
+    - id: discovery__github__lanchuske__local-mcp-releases__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💬 <a name="communication"></a>Communication
+        anchor_text: lanchuske/local-mcp
+        extracted_url: https://github.com/lanchuske/local-mcp-releases
+        surrounding_text: "- [lanchuske/local-mcp](https://github.com/lanchuske/local-mcp-releases) [![lanchuske/local-mcp-releases MCP server](https://glama.ai/mcp/servers/lanchuske/local-mcp-releases/badges/score.svg)](https://glama.ai/mcp/servers/lanchuske/local-mcp-releases) 📇 🏠 🍎 - Connect Claude, Cursor, Windsurf and other AI agents to macOS native apps: Mail, Calendar, Contacts, Reminders, Notes, iMessage, Finder, Safari, OmniFocus, Microsoft Teams, Outlook, OneDrive, and Office documents. 82 tools. Runs entirely on your Mac — no cloud, no tokens, no API keys."
+        confidence: high
+metadata:
+  github:
+    stars: 9
+    forks: 4
+    license: NOASSERTION
+    archived: false
+    created_at: "2026-03-31T22:22:47Z"
+    pushed_at: "2026-05-04T18:07:50Z"
+    description: LMCP — Give your AI native access to your apps. 189 tools across macOS and Windows. Mail, Calendar, Teams, OneDrive, Outlook, Google Drive and more. 100% local.
+    homepage: https://local-mcp.com?ref=github
+    topics:
+      - ai-tools
+      - apple-silicon
+      - calendar
+      - claude
+      - cursor
+      - email
+      - gdpr
+      - local-first
+      - macos
+      - mcp
+      - mcp-server
+      - onedrive
+      - privacy
+      - productivity
+      - teams
+    last_checked_at: "2026-05-05T21:03:15.470Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:15.470Z"
+      bytes: 9161
+insights:
+  summary: A local MCP server that exposes 189 native macOS and Windows tools for Mail, Calendar, Teams, OneDrive, and other apps directly to AI assistants via the Model Context Protocol, with no cloud APIs or OAuth required.
+  why_it_matters: Developers can wire AI assistants into their local productivity apps using native system APIs instead of navigating enterprise OAuth, API keys, and rate limits for every integration.
+  mental_damage: You now have the infrastructure to let a language model read your Outlook inbox and cancel your 2pm meeting, and the only thing standing between you and that disaster is a preview dialog you'll probably click through without reading.
+  tags:
+    - mcp
+    - local-first
+    - macos
+    - privacy
+    - integrations
+  confidence: high
+curation:
+  status: included
+  reason: The project is itself an MCP server implementation that directly fits the MCP Servers and Tooling category with strong local-first positioning.
+  evidence:
+    - Repo description explicitly states 'LMCP — Give your AI native access to your apps' and promotes 189 MCP tools across macOS and Windows.
+    - README confirms it operates as an MCP server over stdio, auto-configuring Claude Desktop, Cursor, VS Code, and other MCP-compatible clients.
+    - Listed in awesome-mcp-servers under Server Implementations > Communication, reinforcing its role as MCP infrastructure.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.703Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:15.470Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:32:58.751Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

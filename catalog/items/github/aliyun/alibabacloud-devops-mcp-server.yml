@@ -1,0 +1,82 @@
+id: github__aliyun__alibabacloud-devops-mcp-server
+kind: github-repo
+name: alibabacloud-devops-mcp-server
+canonical_url: https://github.com/aliyun/alibabacloud-devops-mcp-server
+identity:
+  github_repo: aliyun/alibabacloud-devops-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__aliyun__alibabacloud-devops-mcp-server__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: AlibabaCloud DevOps MCP
+        extracted_url: https://github.com/aliyun/alibabacloud-devops-mcp-server
+        surrounding_text: "- **[AlibabaCloud DevOps MCP](https://github.com/aliyun/alibabacloud-devops-mcp-server)** - Yunxiao MCP Server provides AI assistants with the ability to interact with the [Yunxiao platform](https://devops.aliyun.com)."
+        confidence: high
+metadata:
+  github:
+    stars: 102
+    forks: 27
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-04-25T03:05:11Z"
+    pushed_at: "2026-04-29T14:44:23Z"
+    description: Yunxiao MCP Server provides AI assistants with the ability to interact with the Yunxiao platform. It provides a set of tools that interact with Yunxiao's API, allowing AI assistants to manage Codeup repository, Project, Pipeline, Packages etc.
+    homepage: https://devops.aliyun.com
+    topics:
+      - alibabacloud-devops
+      - devops-mcp
+    last_checked_at: "2026-05-05T21:01:00.130Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:00.130Z"
+      bytes: 23998
+insights:
+  summary: An MCP server that connects AI assistants to Alibaba Cloud's Yunxiao DevOps platform, exposing tools to manage repositories, pipelines, projects, and merge requests.
+  why_it_matters: It lets developers hand off repetitive DevOps chores—like creating work items, triggering pipelines, and submitting merge requests—directly from their AI coding assistant.
+  mental_damage: You can now ask your AI to open a merge request, provided you have already spent three hours configuring a personal access token for a platform you mostly tolerated in the browser anyway.
+  tags:
+    - mcp
+    - devops
+    - alibaba-cloud
+    - yunxiao
+  confidence: high
+curation:
+  status: included
+  reason: The project is an MCP server that gives AI assistants structured access to Alibaba Cloud DevOps APIs, fitting cleanly into MCP infrastructure rather than being a coding agent itself.
+  evidence:
+    - Repo description explicitly states it is a Yunxiao MCP Server providing tools via the Model Context Protocol.
+    - README documents stdio-mode MCP setup for clients like Cursor and Claude Desktop, with org, code, project, pipeline, and test management tools.
+    - Listed in awesome-mcp-servers under Official Servers, aligning with the MCP Servers and Tooling category.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.678Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:00.130Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:07:39.550Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

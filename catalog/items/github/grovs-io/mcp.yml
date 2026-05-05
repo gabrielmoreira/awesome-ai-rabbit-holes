@@ -1,0 +1,82 @@
+id: github__grovs-io__mcp
+kind: github-repo
+name: mcp
+canonical_url: https://github.com/grovs-io/mcp
+identity:
+  github_repo: grovs-io/mcp
+provenance:
+  discoveries:
+    - id: discovery__github__grovs-io__mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🎯 <a name="marketing"></a>Marketing
+        anchor_text: grovs-io/mcp
+        extracted_url: https://github.com/grovs-io/mcp
+        surrounding_text: "- [grovs-io/mcp](https://github.com/grovs-io/mcp) [![grovs-io/mcp MCP server](https://glama.ai/mcp/servers/grovs-io/mcp/badges/score.svg)](https://glama.ai/mcp/servers/grovs-io/mcp) 📇 ☁️ - Deep linking, attribution, analytics, and campaign management for mobile apps with [Grovs](https://grovs.io) — an open-source, privacy-first alternative to Branch and AppsFlyer. 16 tools for creating links, tracking installs and revenue, and configuring app settings."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-04-07T10:39:15Z"
+    pushed_at: "2026-04-15T12:36:32Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:28.532Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:28.532Z"
+      bytes: 6177
+insights:
+  summary: An MCP server that lets AI assistants manage deep links, analytics, and campaigns for the Grovs open-source mobile growth platform via natural language.
+  why_it_matters: It allows developers to configure deferred deep links and check attribution metrics directly from their AI editor instead of switching to a separate dashboard.
+  mental_damage: Another specialized MCP server arrives to shave seconds off a workflow that didn't need shaving, while your actual deep-link bugs remain safely untouchable.
+  tags:
+    - mcp
+    - deep-linking
+    - analytics
+    - grovs
+    - marketing
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server providing tooling for the Grovs platform, which fits squarely into the MCP Servers and Tooling category.
+  evidence:
+    - "README states: 'This is an MCP (Model Context Protocol) server that lets AI assistants manage your Grovs platform through natural language.'"
+    - Configuration examples provided for Claude Code, Cursor, Windsurf, VS Code, and ChatGPT Desktop.
+    - Listed under 'Server Implementations' in the awesome-mcp-servers directory.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.690Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:28.532Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:23:06.730Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

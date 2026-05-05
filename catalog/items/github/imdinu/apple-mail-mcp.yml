@@ -1,0 +1,92 @@
+id: github__imdinu__apple-mail-mcp
+kind: github-repo
+name: apple-mail-mcp
+canonical_url: https://github.com/imdinu/apple-mail-mcp
+identity:
+  github_repo: imdinu/apple-mail-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__imdinu__apple-mail-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💬 <a name="communication"></a>Communication
+        anchor_text: imdinu/apple-mail-mcp
+        extracted_url: https://github.com/imdinu/apple-mail-mcp
+        surrounding_text: "- [imdinu/apple-mail-mcp](https://github.com/imdinu/apple-mail-mcp) [![apple-mail-mcp MCP server](https://glama.ai/mcp/servers/@imdinu/apple-mail-mcp/badges/score.svg)](https://glama.ai/mcp/servers/@imdinu/apple-mail-mcp) 🐍 🏠 🍎 - Fast MCP server for Apple Mail — 87x faster email fetching via batch JXA and FTS5 search index for ~2ms body search. 6 tools: list accounts/mailboxes, get emails with filters, full-text search across all scopes, and attachment extraction."
+        confidence: high
+metadata:
+  github:
+    stars: 17
+    forks: 10
+    license: GPL-3.0
+    archived: false
+    created_at: "2026-01-27T01:12:53Z"
+    pushed_at: "2026-04-13T19:04:45Z"
+    description: Apple Mail MCP server with full-text email search — the only one that works reliably on large mailboxes. 6 tools for Claude Desktop & Claude Code.
+    homepage: https://imdinu.github.io/apple-mail-mcp/
+    topics:
+      - apple-mail
+      - automation
+      - claude
+      - email
+      - fts5
+      - jxa
+      - macos
+      - mcp
+      - mcp-server
+      - model-context-protocol
+    last_checked_at: "2026-05-05T21:02:41.987Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:41.987Z"
+      bytes: 4905
+insights:
+  summary: An Apple Mail MCP server for macOS that provides full-text email search and reading capabilities via an FTS5 index, designed for reliable performance on large mailboxes.
+  why_it_matters: It allows developers using Claude Desktop or Claude Code to search and read emails directly from their local Apple Mail client without timing out on large datasets.
+  mental_damage: We have successfully abstracted email, the most chaotic layer of the developer workflow, into a JSON tool call, yet we still haven't figured out how to actually answer them.
+  tags:
+    - mcp
+    - apple-mail
+    - macos
+    - claude
+    - automation
+  confidence: high
+curation:
+  status: included
+  reason: The project is a dedicated Model Context Protocol server for Apple Mail, fitting squarely into the MCP infrastructure category.
+  evidence:
+    - Repo description explicitly defines it as an 'Apple Mail MCP server'.
+    - README lists 8 tools for Claude Desktop & Claude Code and includes MCP configuration JSON.
+    - Listed in the 'awesome-mcp-servers' directory under 'Server Implementations > Communication'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.698Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:41.987Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:25:43.527Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,89 @@
+id: github__jacksun911__megalaunch-mcp
+kind: github-repo
+name: megalaunch-mcp
+canonical_url: https://github.com/jacksun911/megalaunch-mcp
+identity:
+  github_repo: jacksun911/megalaunch-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__jacksun911__megalaunch-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: jacksun911/megalaunch-mcp
+        extracted_url: https://github.com/jacksun911/megalaunch-mcp
+        surrounding_text: "- [jacksun911/megalaunch-mcp](https://github.com/jacksun911/megalaunch-mcp) [![jacksun911/megalaunch-mcp MCP server](https://glama.ai/mcp/servers/jacksun911/megalaunch-mcp/badges/score.svg)](https://glama.ai/mcp/servers/jacksun911/megalaunch-mcp) 📇 ☁️ - AI-powered meme token launch service on Solana/pump.fun. Create tokens with AI-generated art, bundled buys, and Jito-powered MEV protection. Supports Basic and Premium packages."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-04-12T14:52:09Z"
+    pushed_at: "2026-04-15T15:05:30Z"
+    description: MCP server for MegaLaunch — AI-powered meme token launch service on Solana/pump.fun
+    homepage: null
+    topics:
+      - ai-agent
+      - mcp
+      - mcp-server
+      - meme-coin
+      - pump-fun
+      - solana
+      - token-launch
+    last_checked_at: "2026-05-05T21:02:49.153Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:49.153Z"
+      bytes: 2627
+insights:
+  summary: An MCP server that exposes MegaLaunch's AI-powered meme token launch API for Solana and pump.fun to AI tools like Claude Desktop, Cursor, and Windsurf.
+  why_it_matters: Developers building AI-assisted workflows can let their coding agents query launch pricing, create token orders, and check statuses directly from the IDE.
+  mental_damage: "We have finally achieved the singularity: your coding agent can now rug-pull an entire chain without you ever leaving the editor."
+  tags:
+    - mcp
+    - solana
+    - meme-coin
+    - pump-fun
+    - token-launch
+  confidence: medium
+curation:
+  status: included
+  reason: The project is a standalone MCP server implementation, which fits cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states 'MCP server for MegaLaunch'.
+    - README documents tools like megalaunch_create_order and shows config for Claude Desktop, Cursor, and Windsurf.
+    - Listed in awesome-mcp-servers under Finance & Fintech, confirming MCP ecosystem relevance.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.699Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:49.153Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:27:12.674Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

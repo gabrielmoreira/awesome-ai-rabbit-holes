@@ -1,0 +1,82 @@
+id: github__aashari__mcp-server-aws-sso
+kind: github-repo
+name: mcp-server-aws-sso
+canonical_url: https://github.com/aashari/mcp-server-aws-sso
+identity:
+  github_repo: aashari/mcp-server-aws-sso
+provenance:
+  discoveries:
+    - id: discovery__github__aashari__mcp-server-aws-sso__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
+        anchor_text: aashari/mcp-server-aws-sso
+        extracted_url: https://github.com/aashari/mcp-server-aws-sso
+        surrounding_text: "- [aashari/mcp-server-aws-sso](https://github.com/aashari/mcp-server-aws-sso) 📇 ☁️ 🏠 - AWS Single Sign-On (SSO) integration enabling AI systems to securely interact with AWS resources by initiating SSO login, listing accounts/roles, and executing AWS CLI commands using temporary credentials."
+        confidence: high
+metadata:
+  github:
+    stars: 12
+    forks: 11
+    license: null
+    archived: false
+    created_at: "2025-03-29T11:04:59Z"
+    pushed_at: "2026-03-06T07:30:06Z"
+    description: Node.js/TypeScript MCP server for AWS Single Sign-On (SSO). Enables AI systems (LLMs) with tools to initiate SSO login (device auth flow), list accounts/roles, and securely execute AWS CLI commands using temporary credentials. Streamlines AI interaction with AWS resources.
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:00:46.430Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:46.430Z"
+      bytes: 23267
+insights:
+  summary: A Node.js/TypeScript MCP server that enables AI assistants to authenticate via AWS SSO and execute AWS CLI commands using temporary credentials across multiple accounts.
+  why_it_matters: It allows developers and DevOps engineers to manage AWS infrastructure and execute commands across multi-account setups using natural language through their existing AI assistants.
+  mental_damage: We have successfully abstracted the cloud so many layers deep that you now need an AI agent, an MCP server, and a single sign-on flow just to check disk usage on a server.
+  tags:
+    - mcp
+    - aws
+    - sso
+    - devops
+    - cli
+  confidence: high
+curation:
+  status: included
+  reason: The project is a dedicated MCP server implementation for AWS SSO, fitting perfectly into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states it is a 'Node.js/TypeScript MCP server for AWS Single Sign-On'.
+    - README details integration with Claude and Cursor via MCP configuration files.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Cloud Platforms'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.676Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:46.430Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:05:22.961Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,88 @@
+id: github__khan2a__telephony-mcp-server
+kind: github-repo
+name: telephony-mcp-server
+canonical_url: https://github.com/khan2a/telephony-mcp-server
+identity:
+  github_repo: khan2a/telephony-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__khan2a__telephony-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💬 <a name="communication"></a>Communication
+        anchor_text: khan2a/telephony-mcp-server
+        extracted_url: https://github.com/khan2a/telephony-mcp-server
+        surrounding_text: "- [khan2a/telephony-mcp-server](https://github.com/khan2a/telephony-mcp-server) 🐍 💬 - MCP Telephony server for automating voice calls with Speech-to-Text and Speech Recognition to summarize call conversations. Send and receive SMS, detect voicemail, and integrate with Vonage APIs for advanced telephony workflows."
+        confidence: high
+metadata:
+  github:
+    stars: 11
+    forks: 4
+    license: MIT
+    archived: false
+    created_at: "2025-06-13T16:56:14Z"
+    pushed_at: "2025-07-22T15:09:31Z"
+    description: A very simple no-fuss minimalist MCP Server with telephony tools like voice call and sms. This MCP Server can be integrated with LLM applications. Vonage API is used for calls, SMS, Speech-to-Text and Speech Recognition.
+    homepage: ""
+    topics:
+      - mcp
+      - mcp-server
+      - python
+      - telephony
+      - vonage
+      - vonage-voice
+    last_checked_at: "2026-05-05T21:03:05.037Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:05.037Z"
+      bytes: 8593
+insights:
+  summary: A minimalist Model Context Protocol server that exposes Vonage telephony tools—voice calls, SMS, speech-to-text, and speech recognition—to LLM applications and coding assistants like Claude Desktop and GitHub Copilot.
+  why_it_matters: It lets developers wire real-world phone and messaging actions directly into agent workflows without writing custom API integration code.
+  mental_damage: Your AI assistant can now cold-call your coworkers and text them vague status updates while you sit quietly and wonder when you became the supervisor of a very chatty switchboard.
+  tags:
+    - mcp
+    - telephony
+    - vonage
+    - llm-tools
+    - python
+  confidence: medium
+curation:
+  status: included
+  reason: The project is an MCP server implementation that provides telephony tools for LLM applications, which fits squarely into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states it is 'A very simple no-fuss minimalist MCP Server with telephony tools'.
+    - README demonstrates integration with Claude Desktop and GitHub Copilot via MCP tool calling for voice and SMS actions.
+    - Listed in awesome-mcp-servers under Server Implementations > Communication.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.701Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:05.037Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:30:33.968Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,89 @@
+id: github__idsia__sacred
+kind: github-repo
+name: sacred
+canonical_url: https://github.com/idsia/sacred
+identity:
+  github_repo: idsia/sacred
+provenance:
+  discoveries:
+    - id: discovery__github__idsia__sacred__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Training
+          - Experiment Tracking
+        anchor_text: Sacred
+        extracted_url: https://github.com/idsia/sacred
+        surrounding_text: "| [Sacred](https://github.com/IDSIA/sacred)              | Sacred is a tool to help you configure, organize, log and reproduce experiments.                                                                                                                                                                                                                                                                                                                                                                                          | ![GitHub Badge](https://img.shields.io/github/stars/IDSIA/sacred.svg?style=flat-square)            |"
+        confidence: high
+metadata:
+  github:
+    stars: 4364
+    forks: 391
+    license: MIT
+    archived: false
+    created_at: "2014-03-31T18:05:29Z"
+    pushed_at: "2025-10-22T08:04:57Z"
+    description: Sacred is a tool to help you configure, organize, log and reproduce experiments developed at IDSIA.
+    homepage: ""
+    topics:
+      - infrastructure
+      - machine-learning
+      - mongodb
+      - python
+      - reproducibility
+      - reproducible-research
+      - reproducible-science
+    last_checked_at: "2026-05-05T21:02:40.978Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:40.978Z"
+      bytes: 12697
+insights:
+  summary: Sacred is a Python library that helps developers configure, organize, log, and reproduce machine learning experiments by capturing parameters, dependencies, and results.
+  why_it_matters: It standardizes the tedious overhead of experiment tracking—configs, CLI, logging, and seeding—so ML developers can focus on model code and reliably reproduce runs.
+  mental_damage: Because nothing says modern ML engineering like wrapping a simple SVM script in an experiment framework just to prove your hyperparameters weren’t chosen by dice roll.
+  tags:
+    - python
+    - experiment-tracking
+    - reproducibility
+    - ml-infrastructure
+    - training
+  confidence: high
+curation:
+  status: excluded
+  reason: The project is a general machine learning experiment-tracking library for researchers, not a developer-facing AI tool, agent, workflow, or infrastructure aimed at software engineers building with AI.
+  evidence:
+    - Repo description and README focus on ML experiment configuration, tracking, and reproducibility, not AI-assisted development workflows.
+    - Topics and documentation emphasize infrastructure, machine-learning, and reproducible research rather than coding agents, app builders, or developer tooling.
+    - Listed under Training > Experiment Tracking in Awesome-LLMOps, which covers ML ops rather than the catalog’s developer-tooling scope.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (4364) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.697Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:40.978Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:25:29.258Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

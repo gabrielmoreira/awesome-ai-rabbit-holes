@@ -1,0 +1,87 @@
+id: github__higress-group__higress
+kind: github-repo
+name: higress
+canonical_url: https://github.com/higress-group/higress
+identity:
+  github_repo: higress-group/higress
+provenance:
+  discoveries:
+    - id: discovery__github__alibaba__higress__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: Higress
+        extracted_url: https://github.com/alibaba/higress
+        surrounding_text: "- [higress-group/higress-ops-mcp-server](https://github.com/higress-group/higress-ops-mcp-server) 🐍 🏠 - MCP server that provides comprehensive tools for managing [Higress](https://github.com/alibaba/higress) gateway configurations and operations."
+        confidence: high
+metadata:
+  github:
+    stars: 8307
+    forks: 1093
+    license: Apache-2.0
+    archived: false
+    created_at: "2022-10-27T03:53:00Z"
+    pushed_at: "2026-04-30T10:03:33Z"
+    description: 🤖 AI Gateway | AI Native API Gateway
+    homepage: https://higress.ai
+    topics:
+      - ai-gateway
+      - ai-native
+      - api-gateway
+      - cloud-native
+      - envoy
+    last_checked_at: "2026-05-05T21:02:33.881Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:33.881Z"
+      bytes: 13724
+insights:
+  summary: Higress is a cloud-native API gateway built on Istio and Envoy that provides unified management for LLM APIs and hosts MCP (Model Context Protocol) servers.
+  why_it_matters: It allows developers to standardize and manage AI model traffic alongside tool-calling MCP endpoints behind a single gateway with enterprise-grade reliability.
+  mental_damage: Just when you thought your Kubernetes cluster was complicated enough, now your API gateway needs to understand both gRPC and your LLM's existential crises.
+  tags:
+    - ai-gateway
+    - mcp
+    - cloud-native
+    - envoy
+    - api-management
+  confidence: high
+curation:
+  status: included
+  reason: Higress is primarily an API gateway, but its strong, dedicated focus on hosting MCP servers and managing MCP API traffic makes it a fit for the MCP infrastructure category.
+  evidence:
+    - Repo description explicitly states 'AI Native API Gateway' with MCP support.
+    - README highlights hosting MCP Servers via plugin mechanism and unifying LLM API and MCP API management.
+    - Features a dedicated hosted platform at mcp.higress.ai for experiencing remote MCP servers.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (8307) exceeded threshold (150)
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:23:58.847Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.678Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:33.881Z"
+    cause: null
+    next_retry_at: null

@@ -1,0 +1,81 @@
+id: github__brandcode-studio__brandsystem-mcp
+kind: github-repo
+name: brandsystem-mcp
+canonical_url: https://github.com/brandcode-studio/brandsystem-mcp
+identity:
+  github_repo: brandcode-studio/brandsystem-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__brand-system__brandsystem-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🎯 <a name="marketing"></a>Marketing
+        anchor_text: Brand-System/brandsystem-mcp
+        extracted_url: https://github.com/brand-system/brandsystem-mcp
+        surrounding_text: "- [Brand-System/brandsystem-mcp](https://github.com/Brand-System/brandsystem-mcp) [![Brand-System/brandsystem-mcp MCP server](https://glama.ai/mcp/servers/Brand-System/brandsystem-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Brand-System/brandsystem-mcp) 📇 🏠 🍎 🪟 🐧 - Make your brand machine-readable. Extract brand identity (colors, fonts, logo, voice, visual rules) from any website via static CSS + rendered-page extraction, compile into DTCG tokens, brand runtime contracts, and interaction policies. 34 tools across 4 progressive sessions. Subscribable `brand://runtime` and `brand://policy` MCP resources. Content compliance scoring (0-100), pass/fail gate, and HTML/CSS preflight. Brandcode Studio connector for hosted brand sync."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2026-03-22T08:01:37Z"
+    pushed_at: "2026-04-21T07:23:50Z"
+    description: MCP server for progressive brand governance — extract, compile, and audit brand identity systems
+    homepage: https://brandsystem-mcp.vercel.app
+    topics: []
+    last_checked_at: "2026-05-05T21:01:25.008Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:25.008Z"
+      bytes: 33173
+insights:
+  summary: An MCP server that extracts brand identity from websites, Figma, and PDFs to compile portable .brand/ runtimes for use across AI coding and design tools.
+  why_it_matters: It lets developers stop pasting 400 tokens of brand boilerplate into every prompt by loading a structured brand context directly into Claude Code, Cursor, and other MCP clients.
+  mental_damage: "We have finally solved the most pressing crisis of 2025: generative output that reads like a competent generalist wrote it."
+  tags:
+    - mcp
+    - brand-governance
+    - context-engineering
+    - design-tokens
+  confidence: medium
+curation:
+  status: included
+  reason: The product is explicitly an MCP server that packages brand context for consumption by AI developer tools, fitting the MCP infrastructure category cleanly.
+  evidence:
+    - Repo description states it is an 'MCP server for progressive brand governance'.
+    - README instructs adding it to .mcp.json for Claude Code, Cursor, and Windsurf.
+    - It compiles a portable brand-runtime.json artifact designed to be loaded by MCP clients.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:11:33.765Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.681Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:25.008Z"
+    cause: null
+    next_retry_at: null

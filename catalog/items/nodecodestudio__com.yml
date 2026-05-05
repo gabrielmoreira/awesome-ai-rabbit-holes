@@ -1,0 +1,75 @@
+id: nodecodestudio__com
+kind: website
+name: nodecodestudio.com
+canonical_url: https://nodecodestudio.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__nodecodestudio__com__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: NodeCodeStudio
+        extracted_url: https://nodecodestudio.com
+        surrounding_text: "- **[NodeCodeStudio](https://nodecodestudio.com)** - Activate MCP services (Gmail, Calendar, WordPress, etc.) and run browser automation workflows via a Chrome extension with importable sequences"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A browser-first platform for building and executing reusable Chrome browser automation workflows.
+  why_it_matters: It gives developers a structured way to design, share, and run browser automation sequences without starting from scratch each time.
+  mental_damage: Yet another layer of abstraction promising to automate the web, ensuring you can now debug declarative workflows instead of the Puppeteer scripts you originally wanted to avoid.
+  tags:
+    - browser-automation
+    - workflows
+    - chrome
+  confidence: medium
+curation:
+  status: excluded
+  reason: The product is a browser automation workflow builder with no clear AI-native features or developer-tooling angle beyond standard web automation.
+  evidence:
+    - Scraped site context describes it as 'Chrome browser automation with reusable workflows, shared templates, and real browser execution' with no mention of AI.
+    - Appears in awesome-mcp-servers as a 'Community Server' for Chrome automation, but the site itself presents no AI or MCP-facing developer workflow.
+    - No repo description, README, or homepage content provided that demonstrates AI-assisted coding, agent orchestration, or developer workflow integration.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.729Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:46:41.897Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

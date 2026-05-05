@@ -1,0 +1,101 @@
+id: github__akuity__awesome-argo
+kind: github-repo
+name: awesome-argo
+canonical_url: https://github.com/akuity/awesome-argo
+identity:
+  github_repo: akuity/awesome-argo
+provenance:
+  discoveries:
+    - id: discovery__github__terrytangyuan__awesome-argo__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Awesome Lists
+        anchor_text: Awesome Argo
+        extracted_url: https://github.com/terrytangyuan/awesome-argo
+        surrounding_text: "| [Awesome Argo](https://github.com/terrytangyuan/awesome-argo)                                           | A curated list of awesome projects and resources related to Argo                                                                  | ![GitHub Badge](https://img.shields.io/github/stars/terrytangyuan/awesome-argo.svg?style=flat-square)                    |"
+        confidence: high
+metadata:
+  github:
+    stars: 2424
+    forks: 193
+    license: Apache-2.0
+    archived: false
+    created_at: "2021-11-01T01:10:19Z"
+    pushed_at: "2026-02-28T03:02:12Z"
+    description: A curated list of awesome projects and resources related to Argo (a CNCF graduated project)
+    homepage: https://akuity.github.io/awesome-argo/
+    topics:
+      - argo
+      - argo-events
+      - argo-rollouts
+      - argo-workflows
+      - argocd
+      - awesome
+      - awesome-list
+      - awesome-lists
+      - cloud-native
+      - cncf
+      - continuous-delivery
+      - devops
+      - gitops
+      - infrastructure-as-code
+      - kubernetes
+      - machine-learning
+      - mlops
+      - workflow-engine
+      - workflow-management
+      - workflow-orchestration
+    last_checked_at: "2026-05-05T21:00:57.186Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:57.186Z"
+      bytes: 56458
+insights:
+  summary: A curated list of projects, resources, and learning materials related to the Argo ecosystem for Kubernetes, including Workflows, CD, Rollouts, and Events.
+  why_it_matters: It serves as a centralized navigation aid for developers looking to integrate Kubernetes-native CI/CD, MLOps, and workflow orchestration tools into their infrastructure.
+  mental_damage: "Just what the over-engineered modern stack needed: a dedicated map to ensure you can spend three weeks evaluating which Argo flavor best orchestrates your YAML."
+  tags:
+    - kubernetes
+    - gitops
+    - ci-cd
+    - mlops
+    - argoproj
+  confidence: high
+curation:
+  status: included
+  reason: This is a curated meta-list of resources for the Argo ecosystem, fitting the awesome-awesomes category as a navigation aid for developers, despite not being AI-specific.
+  evidence:
+    - "Repo description: 'A curated list of awesome projects and resources related to Argo'"
+    - README defines Argo as 'open source tools for deploying and running applications and workloads on Kubernetes'
+    - Topics include 'awesome-list' and 'machine-learning', indicating a broad DevOps/MLOps directory
+placement:
+  primary_category: awesome-awesomes
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (2424) exceeded threshold (150)
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:07:09.998Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.720Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:57.186Z"
+    cause: null
+    next_retry_at: null

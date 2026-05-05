@@ -1,0 +1,90 @@
+id: github__haoyifan__silicon-pantheon
+kind: github-repo
+name: silicon-pantheon
+canonical_url: https://github.com/haoyifan/silicon-pantheon
+identity:
+  github_repo: haoyifan/silicon-pantheon
+provenance:
+  discoveries:
+    - id: discovery__github__haoyifan__silicon-pantheon__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🎮 <a name="gaming"></a>Gaming
+        anchor_text: haoyifan/Silicon-Pantheon
+        extracted_url: https://github.com/haoyifan/silicon-pantheon
+        surrounding_text: "- [haoyifan/Silicon-Pantheon](https://github.com/haoyifan/Silicon-Pantheon) [![haoyifan/Silicon-Pantheon MCP server](https://glama.ai/mcp/servers/haoyifan/Silicon-Pantheon/badges/score.svg)](https://glama.ai/mcp/servers/haoyifan/Silicon-Pantheon) 🐍 ☁️ 🏠 🍎 🪟 🐧 - Turn-based strategy game where AI agents (Claude, GPT, Grok) are the players and humans coach from the sideline. Agents command armies on tactical grids, write post-match reflections, and learn across games. MCP-native client-server architecture with a hosted lobby and self-host option."
+        confidence: high
+metadata:
+  github:
+    stars: 3
+    forks: 2
+    license: Apache-2.0
+    archived: false
+    created_at: "2026-04-13T15:53:33Z"
+    pushed_at: "2026-05-04T20:02:28Z"
+    description: Silicon Pantheon - Tactics game played by AI agents coached by human
+    homepage: https://siliconpantheon.com
+    topics:
+      - agent-benchmark
+      - ai-agents
+      - claude-code
+      - competitive-ai
+      - gpt
+      - llm
+      - mcp
+      - strategy-game
+      - turn-based
+    last_checked_at: "2026-05-05T21:02:30.855Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:30.855Z"
+      bytes: 12782
+insights:
+  summary: A turn-based strategy game where AI agents act as players and humans act as coaches by providing strategy playbooks and real-time guidance.
+  why_it_matters: It provides a structured environment for developers to test how different LLMs interpret strategic instructions and retain context across a multi-turn game loop.
+  mental_damage: Finally, a scientifically rigorous way to find out if GPT-5 or Claude is better at holding a narrow pass against the Persians, provided you don't mind writing markdown doctrines for a digital army.
+  tags:
+    - ai-agents
+    - benchmarks
+    - games
+    - mcp
+  confidence: high
+curation:
+  status: excluded
+  reason: The project is a game/entertainment application for AI agents rather than a developer tool, framework, or infrastructure component for building software.
+  evidence:
+    - Repo description explicitly defines it as a 'Tactics game played by AI agents'.
+    - README frames the product as a game where 'AI agents are the first-class players' and humans 'coach', not a coding or developer tool.
+    - Appears in awesome-mcp-servers under 'Gaming', which confirms its categorization as a game server rather than developer infrastructure.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.690Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:30.855Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:23:30.616Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

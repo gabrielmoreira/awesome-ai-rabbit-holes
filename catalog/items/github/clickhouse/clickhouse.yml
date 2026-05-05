@@ -1,0 +1,98 @@
+id: github__clickhouse__clickhouse
+kind: github-repo
+name: clickhouse
+canonical_url: https://github.com/clickhouse/clickhouse
+identity:
+  github_repo: clickhouse/clickhouse
+provenance:
+  discoveries:
+    - id: discovery__github__clickhouse__clickhouse__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: scraped
+        section_path:
+          - Official Servers
+        anchor_text: ClickHouse
+        extracted_url: https://clickhouse.com
+        surrounding_text: "- **[ClickHouse](https://github.com/ClickHouse/mcp-clickhouse)** - Query your [ClickHouse](https://clickhouse.com/) database server."
+        confidence: high
+metadata:
+  github:
+    stars: 47214
+    forks: 8370
+    license: Apache-2.0
+    archived: false
+    created_at: "2016-06-02T08:28:18Z"
+    pushed_at: "2026-05-05T20:59:27Z"
+    description: ClickHouse® is a real-time analytics database management system
+    homepage: https://clickhouse.com
+    topics:
+      - ai
+      - analytics
+      - big-data
+      - clickhouse
+      - cloud-native
+      - cpp
+      - database
+      - dbms
+      - distributed
+      - embedded
+      - hacktoberfest
+      - lakehouse
+      - mpp
+      - olap
+      - rust
+      - self-hosted
+      - sql
+    last_checked_at: "2026-05-05T21:01:35.535Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:35.535Z"
+      bytes: 4616
+insights:
+  summary: ClickHouse is an open-source, column-oriented database management system designed for high-performance real-time analytical reporting using SQL.
+  why_it_matters: Developers building AI-driven applications often need a backend capable of handling massive analytical workloads and vector search with low latency.
+  mental_damage: Yet another high-performance database to evaluate while you ignore the fact that your current analytic bottleneck is a 400-line CSV file.
+  tags:
+    - database
+    - analytics
+    - olap
+    - sql
+    - real-time
+  confidence: high
+curation:
+  status: excluded
+  reason: While ClickHouse is a critical piece of modern data infrastructure often used for AI/ML workloads, it is a general-purpose database management system and not an AI developer tool, agent, or extension.
+  evidence:
+    - Repo description defines it strictly as a 'real-time analytics database management system', not an AI tool.
+    - README excerpt focuses on SQL queries, cluster setup, and DBMS architecture with no AI-specific developer workflow features.
+    - Appears in 'awesome-mcp-servers' only as a data source backend, not as a tool that assists in coding or development.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (47214) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.682Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:35.535Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:13:24.552Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

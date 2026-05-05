@@ -1,0 +1,99 @@
+id: github__epsilla-cloud__vectordb
+kind: github-repo
+name: vectordb
+canonical_url: https://github.com/epsilla-cloud/vectordb
+identity:
+  github_repo: epsilla-cloud/vectordb
+provenance:
+  discoveries:
+    - id: discovery__github__epsilla-cloud__vectordb__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Search
+          - Vector search
+        anchor_text: Epsilla
+        extracted_url: https://github.com/epsilla-cloud/vectordb
+        surrounding_text: "| [Epsilla](https://github.com/epsilla-cloud/vectordb)      | A 10x faster, cheaper, and better vector database                                                                                                                                                                                                                                             | ![GitHub Badge](https://img.shields.io/github/stars/epsilla-cloud/vectordb.svg?style=flat-square)         |"
+        confidence: high
+metadata:
+  github:
+    stars: 873
+    forks: 45
+    license: GPL-3.0
+    archived: false
+    created_at: "2023-07-09T02:28:31Z"
+    pushed_at: "2025-11-29T16:02:22Z"
+    description: Epsilla is a high performance Vector Database Management System
+    homepage: https://epsilla.com
+    topics:
+      - ai
+      - chatgpt
+      - data
+      - data-science
+      - database
+      - embeddings
+      - embeddings-similarity
+      - infrastructure
+      - llms
+      - machine-learning
+      - neural-network
+      - neural-search
+      - rag
+      - retrieval
+      - search-engine
+      - vector-database
+      - vector-search
+    last_checked_at: "2026-05-05T21:02:03.398Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:03.398Z"
+      bytes: 4940
+insights:
+  summary: Epsilla is an open-source, high-performance vector database management system written in C++, designed for scalable similarity search and LLM memory retention.
+  why_it_matters: It provides developers with a familiar database interface for vector data, claiming 10x faster search than HNSW to build RAG pipelines and AI memory layers.
+  mental_damage: Yet another vector database enters the fray, ensuring you can spend the next sprint benchmarking cosine similarity distances while wondering if your stack actually needed this complexity.
+  tags:
+    - vector-database
+    - vector-search
+    - rag
+    - embeddings
+    - infrastructure
+  confidence: high
+curation:
+  status: included
+  reason: This is a fundamental code-first infrastructure component (SDK, Docker image, Python/JS clients) for developers building AI applications, fitting the AI Frameworks category.
+  evidence:
+    - Repo description explicitly states 'high performance Vector Database Management System'.
+    - README highlights Python/JavaScript/Ruby clients and integrations with LangChain and LlamaIndex.
+    - Listed in Awesome-LLMOps under 'Search > Vector search', confirming developer-tooling relevance.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (873) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.686Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:03.398Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:18:13.082Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,81 @@
+id: github__ivanamador__vercel-ai-docs-mcp
+kind: github-repo
+name: vercel-ai-docs-mcp
+canonical_url: https://github.com/ivanamador/vercel-ai-docs-mcp
+identity:
+  github_repo: ivanamador/vercel-ai-docs-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__ivanamador__vercel-ai-docs-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: IvanAmador/vercel-ai-docs-mcp
+        extracted_url: https://github.com/ivanamador/vercel-ai-docs-mcp
+        surrounding_text: "- [IvanAmador/vercel-ai-docs-mcp](https://github.com/IvanAmador/vercel-ai-docs-mcp) 📇 🏠 - A Model Context Protocol (MCP) server that provides AI-powered search and querying capabilities for the Vercel AI SDK documentation."
+        confidence: high
+metadata:
+  github:
+    stars: 48
+    forks: 10
+    license: null
+    archived: false
+    created_at: "2025-04-03T02:36:52Z"
+    pushed_at: "2025-04-04T23:20:05Z"
+    description: A Model Context Protocol (MCP) server that provides AI-powered search and querying capabilities for the Vercel AI SDK documentation. This project enables developers to ask questions about the Vercel AI SDK and receive accurate, contextualized responses based on the official documentation.
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:02:48.089Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:48.089Z"
+      bytes: 7107
+insights:
+  summary: An MCP server that indexes the Vercel AI SDK documentation and exposes semantic search and AI-powered Q&A tools to compatible clients like Claude Desktop and Cursor.
+  why_it_matters: It lets developers query canonical Vercel AI SDK docs directly from their editor or assistant, reducing context-switching when wiring up AI features.
+  mental_damage: We have now successfully built an AI agent whose entire job is to read the documentation of the SDK that builds AI agents, completing the ouroboros.
+  tags:
+    - mcp
+    - vercel
+    - documentation
+    - context-retrieval
+  confidence: high
+curation:
+  status: included
+  reason: The project is a standalone MCP server providing documentation tooling, which fits squarely into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states it is 'A Model Context Protocol (MCP) server' for Vercel AI SDK docs.
+    - README details MCP integration instructions for Claude Desktop and Cursor with specific tool definitions (agent-query, direct-query).
+    - Listed in awesome-mcp-servers under 'Developer Tools', confirming its role as MCP infrastructure.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.699Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:48.089Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:26:57.225Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

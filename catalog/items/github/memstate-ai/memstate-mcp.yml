@@ -1,0 +1,91 @@
+id: github__memstate-ai__memstate-mcp
+kind: github-repo
+name: memstate-mcp
+canonical_url: https://github.com/memstate-ai/memstate-mcp
+identity:
+  github_repo: memstate-ai/memstate-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__memstate-ai__memstate-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: memstate-ai/memstate-mcp
+        extracted_url: https://github.com/memstate-ai/memstate-mcp
+        surrounding_text: "- [memstate-ai/memstate-mcp](https://github.com/memstate-ai/memstate-mcp) [![memstate-mcp MCP server](https://glama.ai/mcp/servers/memstate-ai/memstate-mcp/badges/score.svg)](https://glama.ai/mcp/servers/memstate-ai/memstate-mcp) 📇 ☁️ - Versioned, structured memory for AI agents. Stores facts as keypaths with full version history, automatic conflict detection, and O(1) token retrieval."
+        confidence: high
+metadata:
+  github:
+    stars: 2
+    forks: 1
+    license: Apache-2.0
+    archived: false
+    created_at: "2026-03-02T00:08:22Z"
+    pushed_at: "2026-04-01T20:53:13Z"
+    description: null
+    homepage: null
+    topics:
+      - agent-memory
+      - ai-agents
+      - ai-memory
+      - claude
+      - cline
+      - cursor
+      - mcp
+      - memory-management
+      - memstate
+      - model-context-protocol
+    last_checked_at: "2026-05-05T21:03:35.318Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:35.318Z"
+      bytes: 9088
+insights:
+  summary: A hosted MCP server that provides versioned, structured memory for AI agents, exposing a knowledge base with conflict detection and deterministic recall via an npm package.
+  why_it_matters: It gives coding agents a navigable, versioned knowledge base that claims to drastically reduce token usage compared to embedding-based RAG systems while preserving decision history.
+  mental_damage: We have successfully moved from 'the agent forgot what I said' to 'the agent remembers every contradiction I made three sprints ago, and it has the version history to prove it.'
+  tags:
+    - mcp
+    - memory
+    - agent-memory
+    - context-engineering
+  confidence: high
+curation:
+  status: included
+  reason: The primary artifact is a hosted MCP server implementation designed to be plugged into clients like Claude Desktop and Cursor, fitting the MCP infrastructure category.
+  evidence:
+    - README explicitly states 'exposed as a hosted MCP server' and provides the npm package @memstate/mcp.
+    - Setup instructions are entirely MCP client configurations for Claude Desktop, Cursor, Cline, and Windsurf.
+    - Listed under 'Server Implementations > Knowledge & Memory' in the awesome-mcp-servers directory.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.706Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:35.318Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:36:49.573Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

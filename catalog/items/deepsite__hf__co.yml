@@ -1,0 +1,76 @@
+id: deepsite__hf__co
+kind: website
+name: deepsite.hf.co
+canonical_url: https://deepsite.hf.co
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__deepsite__hf__co__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - UI Generators
+        anchor_text: Deepsite
+        extracted_url: https://huggingface.co/spaces/enzostvs/deepsite
+        surrounding_text: "- **[Deepsite](https://huggingface.co/spaces/enzostvs/deepsite)** – Build websites with AI on Hugging Face, no code required."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: DeepSite is a browser-first AI web development tool that generates and deploys multi-page websites and web applications from prompts with free hosting.
+  why_it_matters: It offers developers a rapid path to prototype and ship full websites or internal tools without setting up a local stack or CI/CD pipeline.
+  mental_damage: We have officially reached the point where 'no code required' is the selling point for a tool proudly listed in a curated catalog of coding tools.
+  tags:
+    - web-dev
+    - ai-generated
+    - hosting
+    - prototyping
+  confidence: high
+curation:
+  status: included
+  reason: The product is a hosted, browser-first builder that turns prompts into deployed websites and apps, which aligns precisely with the app-builders category and not a coding agent.
+  evidence:
+    - Scraped site describes it as a browser tool to 'Build, design, and deploy stunning websites in minutes with AI-powered development.'
+    - Features include 'Auto Deploy' and 'Free Hosting', indicating a hosted SaaS builder rather than a repo/IDE assistant.
+    - Listed in awesome-ai-coding-tools under the 'UI Generators' section, confirming its app/site generation focus.
+placement:
+  primary_category: app-builders
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.727Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:43:36.415Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

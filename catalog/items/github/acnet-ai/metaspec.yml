@@ -1,0 +1,85 @@
+id: github__acnet-ai__metaspec
+kind: github-repo
+name: metaspec
+canonical_url: https://github.com/acnet-ai/metaspec
+identity:
+  github_repo: acnet-ai/metaspec
+provenance:
+  discoveries:
+    - id: discovery__github__acnet-ai__metaspec__awesome-list__engineering4ai__awesome-spec-driven-development
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: Engineering4AI/awesome-spec-driven-development
+        url: https://github.com/engineering4ai/awesome-spec-driven-development
+        repository: Engineering4AI/awesome-spec-driven-development
+      extraction:
+        mode: parsed
+        section_path:
+          - Specification Tools
+        anchor_text: MetaSpec
+        extracted_url: https://github.com/acnet-ai/metaspec
+        surrounding_text: "- [MetaSpec](https://github.com/ACNet-AI/MetaSpec) ![](https://img.shields.io/github/stars/ACNet-AI/MetaSpec.svg) - Meta-specification framework enabling AI agents to auto-generate spec-driven toolkits."
+        confidence: high
+metadata:
+  github:
+    stars: 45
+    forks: 2
+    license: MIT
+    archived: false
+    created_at: "2025-10-20T03:07:39Z"
+    pushed_at: "2025-11-22T15:11:51Z"
+    description: Meta-specification framework for AI Agents to generate  Spec-driven X toolkits automatically.
+    homepage: https://mataspec.figma.site/
+    topics:
+      - ai
+      - intent
+      - spec
+      - spec-driven
+    last_checked_at: "2026-05-05T21:00:48.566Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:48.566Z"
+      bytes: 19969
+insights:
+  summary: MetaSpec is a Python meta-specification framework that generates domain-specific 'speckits'—complete with CLI, parsers, validators, and templates—to drive spec-first development workflows for AI agents.
+  why_it_matters: It lets developers define a domain specification once and automatically generate the surrounding tooling and validation environment, reducing the token overhead required for agents to navigate large spec files by up to 99%.
+  mental_damage: We have officially entered the era of building frameworks to build the frameworks that tell the agents how to read the frameworks.
+  tags:
+    - spec-driven
+    - meta-specification
+    - cli
+    - token-optimization
+    - python
+  confidence: medium
+curation:
+  status: included
+  reason: The project is a dedicated tool for spec-driven development, allowing the generation of complete toolkits based on domain specifications, fitting the spec-first loop criteria perfectly.
+  evidence:
+    - Repo description defines it as a 'Meta-specification framework for AI Agents to generate Spec-driven X toolkits'.
+    - README details 'precision-guided navigation' to reduce AI token usage by 84-99% when reading spec files.
+    - Included in the 'awesome-spec-driven-development' list under 'Specification Tools'.
+placement:
+  primary_category: spec-driven-development
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.440Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:48.566Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:05:41.822Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

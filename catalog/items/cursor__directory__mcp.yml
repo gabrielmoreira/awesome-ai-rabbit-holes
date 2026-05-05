@@ -1,0 +1,76 @@
+id: cursor__directory__mcp
+kind: website
+name: mcp
+canonical_url: https://cursor.directory/mcp
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__cursor__directory__mcp__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - MCP Servers and Directories
+        anchor_text: Cursor MCP Directory
+        extracted_url: https://cursor.directory/mcp
+        surrounding_text: "- **[Cursor MCP Directory](https://cursor.directory/mcp)** – MCP servers curated by Cursor."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A directory listing Model Context Protocol (MCP) servers and integrations, specifically curated for use with the Cursor editor.
+  why_it_matters: It acts as a discovery hub for developers looking to extend Cursor's capabilities by connecting it to external tools via the MCP standard.
+  mental_damage: Another meta-layer of indirection where you now have to shop for the specific protocol adapter that lets your AI editor talk to the tools you already have.
+  tags:
+    - mcp
+    - cursor
+    - directory
+    - integrations
+  confidence: high
+curation:
+  status: included
+  reason: This is a curated directory/listing of MCP servers designed for a specific editor, fitting the definition of a navigation aid for developers rather than a standalone tool.
+  evidence:
+    - URL is 'cursor.directory/mcp', indicating a directory specific to Cursor and MCP.
+    - Listed in 'awesome-ai-coding-tools' under the section 'MCP Servers and Directories'.
+    - No description, README, or code repo provided; it is a listing page rather than a functional tool.
+placement:
+  primary_category: awesome-awesomes
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.727Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:43:28.216Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

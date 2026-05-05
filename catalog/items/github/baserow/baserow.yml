@@ -1,0 +1,113 @@
+id: github__baserow__baserow
+kind: github-repo
+name: baserow
+canonical_url: https://github.com/baserow/baserow
+identity:
+  github_repo: baserow/baserow
+provenance:
+  discoveries:
+    - id: discovery__github__baserow__baserow__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: scraped
+        section_path:
+          - Official Servers
+        anchor_text: Baserow
+        extracted_url: https://baserow.io/user-docs/mcp-server
+        surrounding_text: "- **[Baserow](https://baserow.io/user-docs/mcp-server)** - Read and write access to your Baserow tables."
+        confidence: high
+    - id: discovery__github__bram2w__baserow__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🗄️ <a name="databases"></a>Databases
+        anchor_text: bram2w/baserow
+        extracted_url: https://github.com/bram2w/baserow
+        surrounding_text: "- [bram2w/baserow](https://github.com/bram2w/baserow) - Baserow database integration with table search, list, and row create, read, update, and delete capabilities."
+        confidence: high
+metadata:
+  github:
+    stars: 4780
+    forks: 587
+    license: NOASSERTION
+    archived: false
+    created_at: "2020-07-20T09:32:04Z"
+    pushed_at: "2026-05-05T16:36:36Z"
+    description: Build databases, automations, apps & agents with AI — no code.  Open source platform available on cloud and self-hosted. GDPR, HIPAA, SOC 2 compliant. Best Airtable alternative.
+    homepage: https://baserow.io
+    topics:
+      - airtable
+      - airtable-alternative
+      - airtable-replacement
+      - application-builder
+      - automations
+      - dashboards
+      - database
+      - low-code
+      - no-code
+      - no-code-database
+      - no-code-platform
+      - online-database
+      - postgresql
+      - restful-api
+      - self-hosted
+      - spreadsheet
+    last_checked_at: "2026-05-05T21:01:17.851Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:17.851Z"
+      bytes: 5453
+insights:
+  summary: An open-source, no-code database platform that integrates an AI assistant for building databases, automations, and internal applications, often positioned as a self-hosted Airtable alternative.
+  why_it_matters: It allows developers to rapidly prototype and deploy internal tools and data structures using natural language, while retaining full data ownership through self-hosted PostgreSQL backends.
+  mental_damage: Yet another opportunity to spend three hours configuring a self-hosted 'no-code' stack to solve a problem that was previously a five-line SQL query.
+  tags:
+    - no-code
+    - database
+    - self-hosted
+    - ai-assistant
+    - internal-tools
+  confidence: high
+curation:
+  status: excluded
+  reason: While it includes AI features and has an MCP server, the core product is a no-code database and application builder for end-users, not a tool that assists developers with source code, repo workflows, or IDE integration.
+  evidence:
+    - Repo description identifies it as a 'no code' platform for building databases and apps, positioning it as an 'Airtable alternative'.
+    - README emphasizes 'spreadsheet database hybrid', 'visualize data with dashboards', and 'application builder' rather than code editing or CLI workflows.
+    - Source-list context cites 'awesome-mcp-servers', but mere MCP integration does not override the primary product being a no-code database UI.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (4780) exceeded threshold (150)
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:10:19.177Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.681Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:17.851Z"
+    cause: null
+    next_retry_at: null

@@ -1,0 +1,82 @@
+id: github__letta-ai__lettabot
+kind: github-repo
+name: lettabot
+canonical_url: https://github.com/letta-ai/lettabot
+identity:
+  github_repo: letta-ai/lettabot
+provenance:
+  discoveries:
+    - id: discovery__github__letta-ai__lettabot__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Terminal-native coding agents
+          - Open Source
+        anchor_text: LettaBot
+        extracted_url: https://github.com/letta-ai/lettabot
+        surrounding_text: "- **[LettaBot](https://github.com/letta-ai/lettabot)** `⭐ 325` — Personal AI assistant with persistent unified memory across Telegram, Slack, Discord, WhatsApp, and Signal; built on the Letta platform."
+        confidence: high
+metadata:
+  github:
+    stars: 325
+    forks: 88
+    license: Apache-2.0
+    archived: false
+    created_at: "2026-01-29T02:02:13Z"
+    pushed_at: "2026-05-03T23:21:29Z"
+    description: Archived - has been replaced by Letta Code channels/schedules!
+    homepage: https://docs.letta.com/letta-code/channels
+    topics: []
+    last_checked_at: "2026-05-05T21:03:19.069Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:19.069Z"
+      bytes: 15614
+insights:
+  summary: LettaBot is a configurable, multi-channel AI assistant that connects to Telegram, Slack, Discord, WhatsApp, and Signal with persistent memory and local tool execution, now succeeded by Letta Code's Channels and Remote Environments.
+  why_it_matters: It shows how developers can wire an AI agent into everyday messaging surfaces with unified memory and scheduled tasks, while also serving as a reference for building hackable agent deployments.
+  mental_damage: We have reached the point where the setup instructions politely suggest you ask a different AI agent to configure this one for you.
+  tags:
+    - agents
+    - messaging
+    - persistent-memory
+    - cli
+    - self-hosting
+  confidence: high
+curation:
+  status: excluded
+  reason: The project is explicitly deprecated in favor of Letta Code Channels and Remote Environments, and it is not a repo-editing coding agent, app builder, or reusable skill pack that fits the catalog's developer-tooling scope.
+  evidence:
+    - "README warns: 'LettaBot is no longer actively maintained. All new development is happening in Letta Code via Channels and Remote Environments.'"
+    - "Repository description states: 'Archived - has been replaced by Letta Code channels/schedules!'"
+    - Functionality is a messaging-first personal assistant across chat platforms, not a developer-facing coding agent or IDE tool.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (325) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.704Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:19.069Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:33:43.173Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

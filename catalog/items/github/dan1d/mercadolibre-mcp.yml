@@ -1,0 +1,81 @@
+id: github__dan1d__mercadolibre-mcp
+kind: github-repo
+name: mercadolibre-mcp
+canonical_url: https://github.com/dan1d/mercadolibre-mcp
+identity:
+  github_repo: dan1d/mercadolibre-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__dan1d__mercadolibre-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📊 <a name="data-platforms"></a>Data Platforms
+        anchor_text: dan1d/mercadolibre-mcp
+        extracted_url: https://github.com/dan1d/mercadolibre-mcp
+        surrounding_text: "- [dan1d/mercadolibre-mcp](https://github.com/dan1d/mercadolibre-mcp) [![mercadolibre-mcp MCP server](https://glama.ai/mcp/servers/dan1d/mercadolibre-mcp/badges/score.svg)](https://glama.ai/mcp/servers/dan1d/mercadolibre-mcp) 📇 ☁️ - MercadoLibre marketplace integration for AI agents. Search products, get item details, browse categories, track trends, and convert currencies across Latin America (Argentina, Brazil, Mexico, Chile, Colombia)."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2026-03-08T21:36:21Z"
+    pushed_at: "2026-03-09T00:43:35Z"
+    description: MercadoLibre MCP server for AI agents. Search products, browse categories, track trends across Latin America.
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:01:45.910Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:45.910Z"
+      bytes: 5187
+insights:
+  summary: An MCP server that connects AI agents to MercadoLibre, allowing them to search products, browse categories, track trends, and convert currencies across Latin American marketplaces.
+  why_it_matters: It lets developers building AI agents quickly integrate real-time e-commerce data from 18 Latin American countries without wrestling with MercadoLibre's APIs directly.
+  mental_damage: We have officially reached the point where the AI needs its own API wrapper so it can shop for iPhones in Argentina while you stare at a Claude Desktop config file.
+  tags:
+    - mcp
+    - e-commerce
+    - ai-agents
+    - latin-america
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server providing marketplace tooling for AI agents, which fits cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description states: 'MercadoLibre MCP server for AI agents.'"
+    - README details tooling for Claude Desktop, Cursor, and Windsurf via the Model Context Protocol.
+    - Listed under 'Server Implementations > Data Platforms' in the awesome-mcp-servers directory.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.683Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:45.911Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:15:15.087Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

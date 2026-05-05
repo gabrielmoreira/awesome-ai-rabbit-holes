@@ -1,0 +1,78 @@
+id: www__fetchserp__com
+kind: website
+name: www.fetchserp.com
+canonical_url: https://www.fetchserp.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__fetchserp__com__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: FetchSERP
+        extracted_url: https://www.fetchserp.com
+        surrounding_text: "- **[FetchSERP](https://github.com/fetchSERP/fetchserp-mcp-server-node)** - All-in-One SEO & Web Intelligence Toolkit API [FetchSERP](https://www.fetchserp.com)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: FetchSERP is a commercial SEO and web intelligence API providing SERP data, keyword research, and backlinks analysis, packaged with an MCP server for integration into AI assistants like Claude and OpenAI.
+  why_it_matters: It allows developers to build AI agents and chatbots that require real-time search engine data and SEO analysis without maintaining their own scrapers.
+  mental_damage: We have successfully dockerized the act of checking if our blog post hit page one on DuckDuckGo, ensuring the existential crisis is now machine-readable.
+  tags:
+    - seo
+    - mcp-server
+    - api
+    - web-scraping
+  confidence: high
+curation:
+  status: included
+  reason: The project provides a dedicated MCP server to expose SEO and SERP data to LLMs like Claude and GPT, fitting the MCP infrastructure scope.
+  evidence:
+    - Featured in 'awesome-mcp-servers' under Official Servers for its MCP integration.
+    - Site provides explicit configuration for Claude Desktop and OpenAI API using the Model Context Protocol.
+    - Marketing explicitly highlights 'Chat with an SEO Expert Agent in Claude Desktop' via MCP.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.732Z"
+    cause:
+      type: ambiguous_canonicalization
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:50:40.176Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

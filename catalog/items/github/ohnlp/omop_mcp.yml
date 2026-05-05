@@ -1,0 +1,87 @@
+id: github__ohnlp__omop_mcp
+kind: github-repo
+name: omop_mcp
+canonical_url: https://github.com/ohnlp/omop_mcp
+identity:
+  github_repo: ohnlp/omop_mcp
+provenance:
+  discoveries:
+    - id: discovery__github__ohnlp__omop_mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - <a name="bio"></a>Biology, Medicine and Bioinformatics
+        anchor_text: OHNLP/omop_mcp
+        extracted_url: https://github.com/ohnlp/omop_mcp
+        surrounding_text: "- [OHNLP/omop_mcp](https://github.com/OHNLP/omop_mcp) 🐍 🏠 ☁️ - Map clinical terminology to OMOP concepts using LLMs for healthcare data standardization and interoperability."
+        confidence: high
+metadata:
+  github:
+    stars: 34
+    forks: 5
+    license: NOASSERTION
+    archived: false
+    created_at: "2025-05-06T03:04:05Z"
+    pushed_at: "2026-02-19T05:41:20Z"
+    description: Model Context Protocol (MCP) server for mapping clinical terminology to Observational Medical Outcomes Partnership (OMOP) concepts using Large Language Models
+    homepage: ""
+    topics:
+      - ai-agents
+      - healthcare
+      - mcp-server
+      - ohdsi
+      - omop-cdm
+    last_checked_at: "2026-05-05T21:04:00.301Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:00.301Z"
+      bytes: 3466
+insights:
+  summary: An MCP server that maps free-text clinical terminology to standardized OMOP Common Data Model concepts using LLMs and the OMOPHub vocabulary API.
+  why_it_matters: It lets developers building healthcare analytics pipelines automate the tedious mapping of messy clinical notes into standardized OMOP concepts directly from MCP-compatible clients like Claude Desktop.
+  mental_damage: We have successfully abstracted medical ontology mapping into an LLM-powered MCP server, because apparently even medical taxonomies weren't safe from needing an agentic wrapper.
+  tags:
+    - mcp-server
+    - healthcare
+    - omop
+    - clinical-ai
+    - llm-integration
+  confidence: high
+curation:
+  status: included
+  reason: The project is a dedicated MCP server implementation for clinical terminology mapping, which fits cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states it is a 'Model Context Protocol (MCP) server for mapping clinical terminology'
+    - Includes configuration instructions for Claude Desktop mcpServers setup
+    - Listed in awesome-mcp-servers under 'Biology, Medicine and Bioinformatics' section
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.710Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:00.301Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:41:49.299Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

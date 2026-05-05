@@ -1,0 +1,102 @@
+id: github__lyonzin__knowledge-rag
+kind: github-repo
+name: knowledge-rag
+canonical_url: https://github.com/lyonzin/knowledge-rag
+identity:
+  github_repo: lyonzin/knowledge-rag
+provenance:
+  discoveries:
+    - id: discovery__github__lyonzin__knowledge-rag__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: lyonzin/knowledge-rag
+        extracted_url: https://github.com/lyonzin/knowledge-rag
+        surrounding_text: "- [lyonzin/knowledge-rag](https://github.com/lyonzin/knowledge-rag) [![lyonzin/knowledge-rag MCP server](https://glama.ai/mcp/servers/lyonzin/knowledge-rag/badges/score.svg)](https://glama.ai/mcp/servers/lyonzin/knowledge-rag) 🐍 🏠 🍎 🪟 🐧 - Local RAG system for Claude Code with hybrid search (BM25 + semantic), cross-encoder reranking, markdown-aware chunking, query expansion, and 12 MCP tools. Runs entirely offline with zero external servers."
+        confidence: high
+metadata:
+  github:
+    stars: 69
+    forks: 14
+    license: MIT
+    archived: false
+    created_at: "2026-02-05T14:23:33Z"
+    pushed_at: "2026-05-01T19:12:24Z"
+    description: Drop docs, search instantly from Claude Code — 12 MCP tools, 20 format parsers, hybrid search + reranking. Zero servers, zero API keys, 100% local.
+    homepage: https://pypi.org/project/knowledge-rag/
+    topics:
+      - bm25
+      - chromadb
+      - claude
+      - claude-code
+      - document-search
+      - embeddings
+      - fastembed
+      - hybrid-search
+      - knowledge-base
+      - local-ai
+      - mcp
+      - mcp-server
+      - onnx
+      - privacy
+      - python
+      - rag
+      - reranking
+      - retrieval-augmented-generation
+      - semantic-search
+      - vector-database
+    last_checked_at: "2026-05-05T21:03:26.349Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:26.349Z"
+      bytes: 42359
+insights:
+  summary: A local MCP server that lets Claude Code ingest and semantically search developer documentation, code, and notes across 20 file formats using hybrid search and reranking with no external API keys.
+  why_it_matters: It extends Claude Code with a private, local knowledge layer so developers can query their own docs, codebases, and notes without leaving the coding workflow or sending data to the cloud.
+  mental_damage: Yet another existential reminder that your carefully curated Obsidian vault and scattered README stash are now just a poorly chunked vector database waiting to be accidentally hallucinated into a production PR.
+  tags:
+    - mcp
+    - rag
+    - local-ai
+    - claude-code
+    - knowledge-base
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server that integrates with Claude Code to provide local document search and retrieval, which fits cleanly into MCP infrastructure rather than being a standalone coding agent or generic extension.
+  evidence:
+    - "Repo description states: 'Drop docs, search instantly from Claude Code — 12 MCP tools, 20 format parsers, hybrid search + reranking. Zero servers, zero API keys, 100% local.'"
+    - "README confirms: 'Your docs, your machine, zero cloud. Claude Code searches them natively.' and lists 12 MCP tools with hybrid search via ONNX."
+    - Listed in awesome-mcp-servers under Server Implementations > Knowledge & Memory, and repository is active with recent pushes (2026-05-01) and not archived.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.705Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:26.349Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:35:05.649Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,88 @@
+id: github__codeintegrity-ai__mutahunter
+kind: github-repo
+name: mutahunter
+canonical_url: https://github.com/codeintegrity-ai/mutahunter
+identity:
+  github_repo: codeintegrity-ai/mutahunter
+provenance:
+  discoveries:
+    - id: discovery__github__codeintegrity-ai__mutahunter__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - MutahunterAI
+        anchor_text: MutahunterAI
+        extracted_url: https://github.com/codeintegrity-ai/mutahunter
+        surrounding_text: "## [MutahunterAI](https://github.com/codeintegrity-ai/mutahunter)"
+        confidence: high
+metadata:
+  github:
+    stars: 296
+    forks: 26
+    license: AGPL-3.0
+    archived: false
+    created_at: "2024-06-21T20:49:59Z"
+    pushed_at: "2025-04-17T15:46:03Z"
+    description: Open Source, Language Agnostic Mutation Testing
+    homepage: ""
+    topics:
+      - artificial-intelligence
+      - automated-testing
+      - mutation-testing
+      - software-testing
+      - static-code-analysis
+      - test-automation
+      - unit-testing
+    last_checked_at: "2026-05-05T21:01:37.747Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:37.747Z"
+      bytes: 2533
+insights:
+  summary: An open-source, language-agnostic mutation testing tool that uses LLMs to automatically generate and evaluate code mutants against existing test suites.
+  why_it_matters: It leverages AI to find gaps in unit test coverage by injecting intelligent bugs, helping developers harden their test suites without manually dreaming up edge cases.
+  mental_damage: "Just what the CI pipeline needed: an AI that deliberately breaks your code to see if your tests are paying attention, charging you fractions of a cent to remind you that your mocks are inadequate."
+  tags:
+    - mutation-testing
+    - llm-testing
+    - eval
+    - quality-assurance
+    - cli
+  confidence: high
+curation:
+  status: included
+  reason: This is an evaluation and benchmarking tool that measures the effectiveness of existing test suites by artificially introducing mutations, fitting the Evaluations and Benchmarks category.
+  evidence:
+    - Repo description identifies it as 'Open Source, Language Agnostic Mutation Testing'.
+    - README demonstrates it outputs 'Mutation Coverage' metrics and costs, functioning as a test-quality eval harness.
+    - It is actively maintained with a recent push date of 2025-04-17.
+placement:
+  primary_category: evals
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (296) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.683Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:37.747Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:13:44.684Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

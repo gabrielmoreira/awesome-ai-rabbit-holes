@@ -1,0 +1,88 @@
+id: github__lpigeon__ros-mcp-server
+kind: github-repo
+name: ros-mcp-server
+canonical_url: https://github.com/lpigeon/ros-mcp-server
+identity:
+  github_repo: lpigeon/ros-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__lpigeon__ros-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: lpigeon/ros-mcp-server
+        extracted_url: https://github.com/lpigeon/ros-mcp-server
+        surrounding_text: "- [lpigeon/ros-mcp-server](https://github.com/lpigeon/ros-mcp-server) 🐍 🏠 🍎 🪟 🐧 - The ROS MCP Server supports robot control by converting user-issued natural language commands into ROS or ROS2 control commands."
+        confidence: high
+metadata:
+  github:
+    stars: 1203
+    forks: 177
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-04-11T05:40:09Z"
+    pushed_at: "2026-05-05T09:53:27Z"
+    description: Connect AI models like Claude & GPT with robots using MCP and ROS.
+    homepage: https://robotmcp.ai
+    topics:
+      - mcp
+      - mcp-server
+      - modelcontextprotocol
+      - ros
+      - ros-mcp-server
+      - ros2
+      - ros2-mcp-server
+    last_checked_at: "2026-05-05T21:03:25.208Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:25.208Z"
+      bytes: 4281
+insights:
+  summary: An MCP server that bridges large language models with ROS and ROS2 robots for bidirectional communication, observation, and control without modifying existing robot source code.
+  why_it_matters: It allows robotics developers to connect standard AI coding tools like Claude Code and Cursor directly to physical or simulated robots for natural language debugging and control.
+  mental_damage: We have finally achieved the singularity where your LLM can segfault the robot arm while simultaneously complaining about your codebase's lack of documentation.
+  tags:
+    - mcp
+    - robotics
+    - ros2
+    - llm-integration
+  confidence: high
+curation:
+  status: included
+  reason: The project is a dedicated MCP server implementation designed to connect robotics middleware with AI models, fitting squarely into the MCP infrastructure category.
+  evidence:
+    - "Repo description explicitly states: 'Connect AI models like Claude & GPT with robots using MCP and ROS.'"
+    - README confirms it is built on the open MCP standard and works with Claude Code, Codex CLI, Gemini CLI, and Cursor.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1203) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.442Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:25.208Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:34:47.896Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

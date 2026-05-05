@@ -1,0 +1,88 @@
+id: github__ignaciohermosillacornejo__copilot-money-mcp
+kind: github-repo
+name: copilot-money-mcp
+canonical_url: https://github.com/ignaciohermosillacornejo/copilot-money-mcp
+identity:
+  github_repo: ignaciohermosillacornejo/copilot-money-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__ignaciohermosillacornejo__copilot-money-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: ignaciohermosillacornejo/copilot-money-mcp
+        extracted_url: https://github.com/ignaciohermosillacornejo/copilot-money-mcp
+        surrounding_text: "- [ignaciohermosillacornejo/copilot-money-mcp](https://github.com/ignaciohermosillacornejo/copilot-money-mcp) [![ignaciohermosillacornejo/copilot-money-mcp MCP server](https://glama.ai/mcp/servers/ignaciohermosillacornejo/copilot-money-mcp/badges/score.svg)](https://glama.ai/mcp/servers/ignaciohermosillacornejo/copilot-money-mcp) 📇 🏠 ☁️ 🍎 - Read and manage [Copilot Money](https://copilot.money) personal finance data — 30 tools for transactions, budgets, accounts, recurring charges, investments, and goals. Reads are 100% local from the Firestore cache; opt-in writes (`--write`) go directly to Copilot's GraphQL API."
+        confidence: high
+metadata:
+  github:
+    stars: 39
+    forks: 14
+    license: MIT
+    archived: false
+    created_at: "2026-01-11T22:56:33Z"
+    pushed_at: "2026-05-04T10:27:09Z"
+    description: MCP server for Copilot Money App - AI powered personal finance queries using local data
+    homepage: https://ignaciohermosillacornejo.github.io/copilot-money-mcp/
+    topics:
+      - bun
+      - copilot-money
+      - leveldb
+      - mcp
+      - personal-finance
+      - typescript
+    last_checked_at: "2026-05-05T21:02:41.083Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:41.083Z"
+      bytes: 10316
+insights:
+  summary: An MCP server that reads locally cached Copilot Money personal finance data from a Mac and exposes it to AI assistants like Claude Desktop and Cursor via 17 read-only tools.
+  why_it_matters: It demonstrates how developers can build local-first MCP servers to safely bridge proprietary desktop app data with AI workflows without cloud sync or vendor APIs.
+  mental_damage: We have successfully reached the point where we need a protocol server to ask an AI why we are poor, but at least the query runs with zero network requests.
+  tags:
+    - mcp
+    - personal-finance
+    - local-first
+    - typescript
+    - developer-tools
+  confidence: high
+curation:
+  status: included
+  reason: The project is a standalone MCP server that exposes local finance data to AI clients, which fits cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states 'MCP server for Copilot Money App'.
+    - README confirms it is an MCP server reading local LevelDB data for Claude Desktop, Cursor, and other MCP-compatible clients.
+    - Listed in awesome-mcp-servers under Finance & Fintech, reinforcing its role as MCP infrastructure.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.697Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:41.083Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:25:29.163Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

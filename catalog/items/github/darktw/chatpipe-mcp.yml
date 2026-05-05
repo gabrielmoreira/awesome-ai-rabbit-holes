@@ -1,0 +1,89 @@
+id: github__darktw__chatpipe-mcp
+kind: github-repo
+name: chatpipe-mcp
+canonical_url: https://github.com/darktw/chatpipe-mcp
+identity:
+  github_repo: darktw/chatpipe-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__darktw__chatpipe-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: darktw/chatpipe-mcp
+        extracted_url: https://github.com/darktw/chatpipe-mcp
+        surrounding_text: "- [darktw/chatpipe-mcp](https://github.com/darktw/chatpipe-mcp) [![darktw/chatpipe-mcp MCP server](https://glama.ai/mcp/servers/darktw/chatpipe-mcp/badges/score.svg)](https://glama.ai/mcp/servers/darktw/chatpipe-mcp) ☁️ - Publish HTML as live, shareable web pages from your AI coding agent. Instant URLs with access control (public, password-protected, email-restricted)."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-03-09T01:02:39Z"
+    pushed_at: "2026-03-17T17:03:59Z"
+    description: Publish live web pages from your AI coding agent — instant shareable URLs from your terminal.
+    homepage: https://chatpipe.net
+    topics:
+      - ai-tools
+      - chatpipe
+      - developer-tools
+      - html-publishing
+      - live-pages
+      - mcp
+      - mcp-server
+      - shareable-links
+    last_checked_at: "2026-05-05T21:01:46.611Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:46.611Z"
+      bytes: 6549
+insights:
+  summary: An MCP server that lets AI coding agents publish generated HTML content as live, shareable web pages via the ChatPipe hosting platform.
+  why_it_matters: It allows developers to instantly deploy prototypes, dashboards, or static pages directly from their AI agent without configuring hosting, domains, or CI/CD pipelines.
+  mental_damage: We have successfully abstracted away the 'deploy to production' button into a prompt, ensuring you can now publish unversioned, AI-generated HTML to the public internet before your linter even finishes.
+  tags:
+    - mcp
+    - publishing
+    - hosting
+    - developer-tools
+  confidence: high
+curation:
+  status: included
+  reason: The project is a dedicated MCP server implementation designed to extend AI agents with publishing capabilities, fitting squarely into the MCP infrastructure category.
+  evidence:
+    - "Repo description explicitly states: 'Publish live web pages from your AI coding agent — instant shareable URLs from your terminal.'"
+    - README confirms it is a 'Model Context Protocol server' compatible with any MCP-compatible AI coding agent.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.684Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:46.611Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:15:23.153Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

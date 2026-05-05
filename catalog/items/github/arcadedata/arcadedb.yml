@@ -1,0 +1,99 @@
+id: github__arcadedata__arcadedb
+kind: github-repo
+name: arcadedb
+canonical_url: https://github.com/arcadedata/arcadedb
+identity:
+  github_repo: arcadedata/arcadedb
+provenance:
+  discoveries:
+    - id: discovery__github__arcadedata__arcadedb__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🗄️ <a name="databases"></a>Databases
+        anchor_text: ArcadeData/arcadedb
+        extracted_url: https://github.com/arcadedata/arcadedb
+        surrounding_text: "- [ArcadeData/arcadedb](https://github.com/ArcadeData/arcadedb) [![arcade-db-multi-model-dbms MCP server](https://glama.ai/mcp/servers/@ArcadeData/arcade-db-multi-model-dbms/badges/score.svg)](https://glama.ai/mcp/servers/@ArcadeData/arcade-db-multi-model-dbms) 🎖️ ☕ 🏠 - Built-in MCP server for ArcadeDB, a multi-model database (graph, document, key-value, time-series, vector) with SQL, Cypher, Gremlin, and MongoDB QL support."
+        confidence: high
+metadata:
+  github:
+    stars: 844
+    forks: 102
+    license: Apache-2.0
+    archived: false
+    created_at: "2021-08-16T16:01:29Z"
+    pushed_at: "2026-05-05T18:44:15Z"
+    description: ArcadeDB Multi-Model Database, one DBMS that supports SQL, Cypher, Gremlin, HTTP/JSON, MongoDB and Redis. ArcadeDB is a conceptual fork of OrientDB, the first Multi-Model DBMS. ArcadeDB supports Vector Embeddings.
+    homepage: https://arcadedb.com
+    topics:
+      - arcadedb
+      - database
+      - dbms
+      - distributed
+      - docker
+      - document
+      - embedded
+      - graph
+      - k8s
+      - key-value
+      - kubernetes
+      - multi-model
+      - orientdb
+      - search-engine
+      - similarity-search
+      - time-series
+      - vector-database
+      - vector-search
+    last_checked_at: "2026-05-05T21:01:07.975Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:07.975Z"
+      bytes: 14871
+insights:
+  summary: ArcadeDB is a multi-model database written in Java that supports SQL, Cypher, Gremlin, and vector embeddings for similarity search.
+  why_it_matters: Developers building AI applications can use it as a single backend for graph relationships, document storage, and vector search without wiring multiple specialized databases together.
+  mental_damage: "Just what we needed: another database that does everything, ensuring you can now debate multi-model trade-offs while your vector embeddings quietly drift."
+  tags:
+    - database
+    - vector-search
+    - multi-model
+    - java
+  confidence: high
+curation:
+  status: excluded
+  reason: While it supports vector embeddings and appears in MCP server lists, ArcadeDB is a general-purpose database, not a developer-facing AI tool, agent, or workflow product.
+  evidence:
+    - Repo description defines it as a multi-model DBMS supporting SQL, Cypher, Gremlin, MongoDB, and Redis protocols.
+    - README positions it as a high-performance Java database with ACID transactions, graph engine, and vector support, not an AI assistant or workflow tool.
+    - Appears in awesome-mcp-servers under Databases, but the product itself is a database, not MCP infrastructure or an AI developer tool.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (844) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.679Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:07.975Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:08:50.006Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

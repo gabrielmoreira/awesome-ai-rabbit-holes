@@ -1,0 +1,81 @@
+id: github__aparajithn__agent-deploy-dashboard-mcp
+kind: github-repo
+name: agent-deploy-dashboard-mcp
+canonical_url: https://github.com/aparajithn/agent-deploy-dashboard-mcp
+identity:
+  github_repo: aparajithn/agent-deploy-dashboard-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__aparajithn__agent-deploy-dashboard-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
+        anchor_text: aparajithn/agent-deploy-dashboard-mcp
+        extracted_url: https://github.com/aparajithn/agent-deploy-dashboard-mcp
+        surrounding_text: "- [aparajithn/agent-deploy-dashboard-mcp](https://github.com/aparajithn/agent-deploy-dashboard-mcp) [![agent-deploy-dashbaord MCP server](https://glama.ai/mcp/servers/@aparajithn/agent-deploy-dashbaord/badges/score.svg)](https://glama.ai/mcp/servers/@aparajithn/agent-deploy-dashbaord) 🐍 ☁️ - Unified deployment dashboard MCP server across Vercel, Render, Railway, and Fly.io. 9 tools for deploy status, logs, environment variables, rollback, and health checks across all platforms. Free tier with x402 micropayments."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-03-07T13:11:56Z"
+    pushed_at: "2026-03-07T13:20:39Z"
+    description: Unified deployment management MCP server for Vercel, Render, Railway, and Fly.io
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:01:06.123Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:06.123Z"
+      bytes: 12526
+insights:
+  summary: An MCP server that provides a unified interface for managing deployments, environment variables, logs, and redeploys across Vercel, Render, Railway, and Fly.io.
+  why_it_matters: It lets AI agents and developers control multi-platform deployment workflows through a single MCP-compatible API rather than juggling multiple provider CLIs and dashboards.
+  mental_damage: We have successfully abstracted the cloud so that an AI agent can now redeploy your broken staging environment before you have even finished reading the stack trace.
+  tags:
+    - mcp
+    - deployment
+    - devops
+    - multi-cloud
+  confidence: high
+curation:
+  status: included
+  reason: The project is a Model Context Protocol server providing deployment management tooling, which fits squarely into the MCP category.
+  evidence:
+    - Repo description explicitly states it is a 'Unified deployment management MCP server'.
+    - README focuses on MCP configuration and exposes deployment tools via an MCP + REST API.
+    - Listed in awesome-mcp-servers under 'Cloud Platforms' implementations.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.679Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:06.123Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:08:33.525Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

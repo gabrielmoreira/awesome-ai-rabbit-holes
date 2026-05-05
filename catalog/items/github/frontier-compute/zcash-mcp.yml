@@ -1,0 +1,94 @@
+id: github__frontier-compute__zcash-mcp
+kind: github-repo
+name: zcash-mcp
+canonical_url: https://github.com/frontier-compute/zcash-mcp
+identity:
+  github_repo: frontier-compute/zcash-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__frontier-compute__zcash-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: Frontier-Compute/zcash-mcp
+        extracted_url: https://github.com/frontier-compute/zcash-mcp
+        surrounding_text: "- [Frontier-Compute/zcash-mcp](https://github.com/Frontier-Compute/zcash-mcp) [![Frontier-Compute/zcash-mcp MCP server](https://glama.ai/mcp/servers/Frontier-Compute/zcash-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Frontier-Compute/zcash-mcp) 📇 ☁️ - Zcash shielded operations for AI agents. Chain queries, memo decoding, on-chain attestation, and proof verification."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2026-04-02T22:18:48Z"
+    pushed_at: "2026-04-12T04:00:13Z"
+    description: 18-tool MCP server for Zcash. Shielded send, memo decode, attestation, proof verification. npm install @frontiercompute/zcash-mcp
+    homepage: https://pay.frontiercompute.io
+    topics:
+      - ai-agent
+      - blockchain
+      - claude
+      - cursor
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - privacy
+      - shielded
+      - typescript
+      - zap1
+      - zcash
+    last_checked_at: "2026-05-05T21:02:15.288Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:15.288Z"
+      bytes: 6161
+insights:
+  summary: An MCP server that exposes 18 Zcash tools—including shielded sends, memo decoding, attestation, and proof verification—for AI agents to interact with the Zcash blockchain.
+  why_it_matters: Developers building AI agents that handle crypto payments or on-chain identity can plug shielded Zcash operations directly into Claude Desktop, OpenClaw, or any MCP client without writing blockchain glue code.
+  mental_damage: Your AI agent can now independently manage shielded pools and cross-chain swaps, which is either the future of autonomous finance or the fastest way to accidentally donate to a cryptographic void while you're afk.
+  tags:
+    - mcp
+    - zcash
+    - blockchain
+    - agent-tooling
+    - typescript
+  confidence: high
+curation:
+  status: included
+  reason: This is a purpose-built MCP server that exposes Zcash blockchain operations as tools for AI agents, fitting cleanly into the MCP infrastructure category.
+  evidence:
+    - Repo description explicitly states '18-tool MCP server for Zcash' and publishes to the MCP registry.
+    - README confirms it 'exposes 18 Zcash tools that any MCP client can use' including Claude Desktop and OpenClaw.
+    - Listed under 'Server Implementations > Finance & Fintech' in the awesome-mcp-servers directory.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.688Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:15.288Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:20:19.394Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

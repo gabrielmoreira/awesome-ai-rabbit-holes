@@ -1,0 +1,100 @@
+id: github__kyegomez__swarms
+kind: github-repo
+name: swarms
+canonical_url: https://github.com/kyegomez/swarms
+identity:
+  github_repo: kyegomez/swarms
+provenance:
+  discoveries:
+    - id: discovery__github__kyegomez__swarms__awesome-list__vivy-yi__awesome-agent-orchestration
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: vivy-yi/awesome-agent-orchestration
+        url: https://github.com/vivy-yi/awesome-agent-orchestration
+        repository: vivy-yi/awesome-agent-orchestration
+      extraction:
+        mode: parsed
+        section_path:
+          - Core Frameworks
+          - Swarm Intelligence Frameworks
+        anchor_text: Swarms
+        extracted_url: https://github.com/kyegomez/swarms
+        surrounding_text: "| [Swarms](https://github.com/kyegomez/swarms) | Production-grade multi-agent infrastructure platform | ![Stars](https://img.shields.io/github/stars/kyegomez/swarms) |"
+        confidence: high
+metadata:
+  github:
+    stars: 6628
+    forks: 896
+    license: Apache-2.0
+    archived: false
+    created_at: "2023-05-11T01:09:00Z"
+    pushed_at: "2026-05-05T17:42:59Z"
+    description: "The Enterprise-Grade Production-Ready Multi-Agent Orchestration Framework. Website: https://swarms.ai"
+    homepage: https://docs.swarms.world
+    topics:
+      - agentic-ai
+      - agentic-workflow
+      - agents
+      - ai
+      - artificial-intelligence
+      - chatgpt
+      - claude-code
+      - gpt4all
+      - huggingface
+      - langchain
+      - langchain-python
+      - machine-learning
+      - multi-agent-systems
+      - prompt-engineering
+      - prompt-toolkit
+      - prompting
+      - swarms
+      - tree-of-thoughts
+    last_checked_at: "2026-05-05T21:03:14.452Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:14.452Z"
+      bytes: 46939
+insights:
+  summary: Swarms is a Python-based framework for building and orchestrating multi-agent systems with support for sequential, concurrent, and hierarchical agent architectures.
+  why_it_matters: It provides developers with production-ready patterns and protocol interoperability (MCP, skills) to scale beyond single-agent scripts into coordinated agent workflows.
+  mental_damage: Because nothing says 'enterprise-grade' like stacking autonomous agents on top of each other and praying the error propagation becomes someone else's department.
+  tags:
+    - multi-agent
+    - orchestration
+    - python
+    - framework
+    - llm
+  confidence: high
+curation:
+  status: included
+  reason: This is a code-first SDK/framework for embedding multi-agent orchestration logic into Python applications, which fits the AI Frameworks category rather than an operational control plane.
+  evidence:
+    - Repo description explicitly calls it a 'Multi-Agent Orchestration Framework'.
+    - README emphasizes it is a Python library installed via pip/uv/poetry for developers to build with.
+    - Source list classifies it under 'Core Frameworks > Swarm Intelligence Frameworks' in an agent-orchestration index.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (6628) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.703Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:14.452Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:32:45.321Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

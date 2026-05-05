@@ -1,0 +1,94 @@
+id: github__nexusforge-tools__mcp-eu-finance
+kind: github-repo
+name: mcp-eu-finance
+canonical_url: https://github.com/nexusforge-tools/mcp-eu-finance
+identity:
+  github_repo: nexusforge-tools/mcp-eu-finance
+provenance:
+  discoveries:
+    - id: discovery__github__nexusforge-tools__mcp-eu-finance__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: nexusforge-tools/mcp-eu-finance
+        extracted_url: https://github.com/nexusforge-tools/mcp-eu-finance
+        surrounding_text: "- [nexusforge-tools/mcp-eu-finance](https://github.com/nexusforge-tools/mcp-eu-finance) 📇 🏠 ☁️ - European financial data for AI agents — ECB rates, Eurostat inflation, GDP and unemployment by EU country. Zero API key needed. [![nexusforge-tools/mcp-eu-finance MCP server](https://glama.ai/mcp/servers/nexusforge-tools/mcp-eu-finance/badges/score.svg)](https://glama.ai/mcp/servers/nexusforge-tools/mcp-eu-finance)"
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-04-13T03:00:35Z"
+    pushed_at: "2026-04-19T04:42:27Z"
+    description: MCP server for European financial data — ECB rates, Eurostat inflation, GDP, unemployment. Works with Claude, Cursor, Windsurf.
+    homepage: https://nexusforge.tools
+    topics:
+      - claude
+      - cline
+      - cursor
+      - ecb
+      - europe
+      - eurostat
+      - finance
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - typescript
+      - windsurf
+    last_checked_at: "2026-05-05T21:03:54.183Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:54.183Z"
+      bytes: 3148
+insights:
+  summary: An MCP server providing European financial data from ECB and Eurostat, designed to integrate with AI coding assistants like Claude, Cursor, and Windsurf.
+  why_it_matters: It allows developers to query live Eurozone economic indicators directly within their AI coding environment without needing to manage API keys or custom scripts.
+  mental_damage: Now your AI agent can explain the nuances of negative interest rates while you both pretend it's going to help you make better investment decisions than a toaster.
+  tags:
+    - mcp
+    - finance
+    - europe
+    - typescript
+    - data
+  confidence: high
+curation:
+  status: included
+  reason: The project is a dedicated Model Context Protocol server for financial data, fitting cleanly into the MCP tooling category.
+  evidence:
+    - Repo description explicitly states 'MCP server for European financial data'.
+    - README demonstrates integration via MCP config for Claude, Cursor, and Windsurf.
+    - Listed under 'Server Implementations > Finance & Fintech' in the awesome-mcp-servers directory.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.709Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:54.183Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:40:29.746Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

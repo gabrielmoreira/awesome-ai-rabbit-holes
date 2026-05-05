@@ -1,0 +1,75 @@
+id: predibase__com
+kind: website
+name: predibase.com
+canonical_url: https://predibase.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__predibase__com__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: janhq/awesome-local-ai
+        url: https://github.com/janhq/awesome-local-ai
+        repository: janhq/awesome-local-ai
+      extraction:
+        mode: parsed
+        section_path:
+          - Platforms / full solutions
+        anchor_text: Predibase
+        extracted_url: https://predibase.com
+        surrounding_text: "- [Predibase](https://predibase.com/) - Serverless LoRA Fine-Tuning and Serving for LLMs."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Predibase is a platform for fine-tuning, serving, and evaluating open-source large language models on serverless infrastructure.
+  why_it_matters: It provides developers with a managed path to adapt open-source LLMs to specific tasks without managing the underlying GPU infrastructure.
+  mental_damage: Yet another promise that you can skip the MLOps pain, provided you outsource your model lifecycle to a platform that hopes you never leave.
+  tags:
+    - llm-serving
+    - fine-tuning
+    - mlops
+    - serverless
+  confidence: medium
+curation:
+  status: excluded
+  reason: The platform is a general MLOps and model-serving product for data scientists and ML engineers, lacking a specific developer-tooling or coding-workflow angle required for this catalog.
+  evidence:
+    - Seen in awesome-local-ai under 'Platforms / full solutions', indicating a focus on model hosting rather than developer IDE or coding workflows.
+    - No repo description, README, or site context provided that demonstrates a focus on code generation, IDE integration, or developer automation.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.729Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:47:06.664Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

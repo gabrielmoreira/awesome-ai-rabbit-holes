@@ -1,0 +1,102 @@
+id: github__great-expectations__great_expectations
+kind: github-repo
+name: great_expectations
+canonical_url: https://github.com/great-expectations/great_expectations
+identity:
+  github_repo: great-expectations/great_expectations
+provenance:
+  discoveries:
+    - id: discovery__github__great-expectations__great_expectations__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Security
+          - Observability
+        anchor_text: Great Expectations
+        extracted_url: https://github.com/great-expectations/great_expectations
+        surrounding_text: "| [Great Expectations](https://github.com/great-expectations/great_expectations) | Always know what to expect from your data.                                                                                                                                                                                     | ![GitHub Badge](https://img.shields.io/github/stars/great-expectations/great_expectations.svg?style=flat-square) |"
+        confidence: high
+metadata:
+  github:
+    stars: 11458
+    forks: 1745
+    license: Apache-2.0
+    archived: false
+    created_at: "2017-09-11T00:18:46Z"
+    pushed_at: "2026-05-05T10:51:30Z"
+    description: Always know what to expect from your data.
+    homepage: https://docs.greatexpectations.io/
+    topics:
+      - cleandata
+      - data-engineering
+      - data-profilers
+      - data-profiling
+      - data-quality
+      - data-science
+      - data-unit-tests
+      - datacleaner
+      - datacleaning
+      - dataquality
+      - dataunittest
+      - eda
+      - exploratory-analysis
+      - exploratory-data-analysis
+      - exploratorydataanalysis
+      - mlops
+      - pipeline
+      - pipeline-debt
+      - pipeline-testing
+      - pipeline-tests
+    last_checked_at: "2026-05-05T21:02:27.205Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:27.205Z"
+      bytes: 4751
+insights:
+  summary: Great Expectations is a Python framework for defining, running, and documenting data quality tests (Expectations) across pipelines and data sources.
+  why_it_matters: It lets data and ML engineering teams codify data contracts and catch pipeline regressions early with reusable, documented validation suites.
+  mental_damage: Because nothing says modern developer experience like writing unit tests for your data while your AI agents are busy hallucinating the business logic those tests were supposed to protect.
+  tags:
+    - data-quality
+    - testing
+    - mlops
+    - python
+    - pipelines
+  confidence: high
+curation:
+  status: excluded
+  reason: It is a general data engineering and MLOps testing framework with no meaningful AI developer-tooling angle for coding agents, app builders, or AI workflows.
+  evidence:
+    - Repo description and README focus on data quality tests and pipeline validation, not AI-assisted coding or developer workflows.
+    - Topics and case studies center on data engineering, MLOps, and data science, not AI IDEs, agents, or prompt-driven development.
+    - Listed only in Awesome-LLMOps under Observability, which reflects a peripheral MLOps overlap rather than core AI developer tooling.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (11458) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.690Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:27.205Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:22:49.372Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

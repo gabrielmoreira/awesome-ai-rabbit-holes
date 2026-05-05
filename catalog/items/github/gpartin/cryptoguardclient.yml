@@ -1,0 +1,82 @@
+id: github__gpartin__cryptoguardclient
+kind: github-repo
+name: cryptoguardclient
+canonical_url: https://github.com/gpartin/cryptoguardclient
+identity:
+  github_repo: gpartin/cryptoguardclient
+provenance:
+  discoveries:
+    - id: discovery__github__gpartin__cryptoguardclient__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: gpartin/CryptoGuardClient
+        extracted_url: https://github.com/gpartin/cryptoguardclient
+        surrounding_text: "- [gpartin/CryptoGuardClient](https://github.com/gpartin/CryptoGuardClient) [![CryptoGuardClient MCP server](https://glama.ai/mcp/servers/gpartin/CryptoGuardClient/badges/score.svg)](https://glama.ai/mcp/servers/gpartin/CryptoGuardClient) 🐍 ☁️ - Per-transaction deterministic crypto validator for AI trading agents. Validate trades (PROCEED/CAUTION/BLOCK), scan tokens, detect rug pulls — powered by WaveGuard physics engine. 5 free calls/day, x402 USDC payments. `pip install CryptoGuardClient`"
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-02-26T20:44:24Z"
+    pushed_at: "2026-03-16T21:25:15Z"
+    description: CryptoGuardClient
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:25.986Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:25.986Z"
+      bytes: 9374
+insights:
+  summary: An MCP server and Python client that provides crypto risk scoring, trade validation, and anomaly detection via a hosted API with 7 MCP tools for AI agents and developer workflows.
+  why_it_matters: Developers building crypto trading bots, AI agents, or DeFi dashboards can integrate structured risk verdicts (PROCEED / CAUTION / BLOCK) directly into their automated decision-making without building their own anomaly-detection pipeline.
+  mental_damage: You now have a deterministic risk oracle that confidently flagged FTX 23 days early, which somehow makes your own heuristic-laden trading bot feel even more like a glorified coin flip.
+  tags:
+    - mcp
+    - crypto
+    - risk-detection
+    - api-client
+    - fintech
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server with 7 tools, listed in awesome-mcp-servers under Finance & Fintech, and is designed to be consumed by Claude Desktop, Cursor, and other MCP clients.
+  evidence:
+    - README states 'CryptoGuard is an MCP server with 7 tools. Works with Claude Desktop, Cursor, or any MCP client.'
+    - Listed in awesome-mcp-servers under Server Implementations > Finance & Fintech.
+    - Provides MCP endpoint (/mcp), MCP tools list, and multiple MCP connection options (HTTP, uvx, pip).
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.689Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:25.986Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:22:35.565Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

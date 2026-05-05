@@ -1,0 +1,81 @@
+id: github__malamutemayhem__unclick-agent-native-endpoints
+kind: github-repo
+name: unclick-agent-native-endpoints
+canonical_url: https://github.com/malamutemayhem/unclick-agent-native-endpoints
+identity:
+  github_repo: malamutemayhem/unclick-agent-native-endpoints
+provenance:
+  discoveries:
+    - id: discovery__github__malamutemayhem__unclick-agent-native-endpoints__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🔗 <a name="aggregators"></a>Aggregators
+        anchor_text: malamutemayhem/unclick-agent-native-endpoints
+        extracted_url: https://github.com/malamutemayhem/unclick-agent-native-endpoints
+        surrounding_text: "- [malamutemayhem/unclick-agent-native-endpoints](https://github.com/malamutemayhem/unclick-agent-native-endpoints) [![malamutemayhem/unclick-agent-native-endpoints MCP server](https://glama.ai/mcp/servers/malamutemayhem/unclick-agent-native-endpoints/badges/score.svg)](https://glama.ai/mcp/servers/malamutemayhem/unclick-agent-native-endpoints) 📇 🏠 🍎 🪟 🐧 - 110+ tools for AI agents spanning social media, finance, gaming, music, AU-specific services, and utilities. Zero-config local tools plus platform connectors. `npx @unclick/mcp-server`"
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-04-06T05:28:34Z"
+    pushed_at: "2026-05-05T19:40:44Z"
+    description: null
+    homepage: https://unclick-agent-native-endpoints.vercel.app
+    topics: []
+    last_checked_at: "2026-05-05T21:03:28.014Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:28.014Z"
+      bytes: 2879
+insights:
+  summary: An MCP server that exposes a growing catalog of 450+ callable endpoints across 178+ tools to any MCP-compatible AI client from a centralized API.
+  why_it_matters: Developers can give agents access to hundreds of external tools through a single MCP server without installing and managing separate packages for each integration.
+  mental_damage: We've successfully abstracted away the pain of managing NPM packages into the pain of managing an API key that unlocks a magical bag of 450 endpoints your agent may or may not actually need.
+  tags:
+    - mcp
+    - tool-aggregation
+    - agent-tools
+    - npx
+  confidence: medium
+curation:
+  status: included
+  reason: This is an MCP server that acts as a centralized aggregator of tools for MCP-compatible AI clients, which fits cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - README states it is an MCP server providing '450+ callable endpoints across 178+ tools, available to any MCP-compatible AI client'.
+    - Installation instructions show MCP config integration for Claude Desktop, Cursor, and Windsurf.
+    - Listed under 'Server Implementations > Aggregators' in the awesome-mcp-servers directory.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.705Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:28.014Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:35:27.023Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,87 @@
+id: github__jagan-shanmugam__mattermost-mcp-host
+kind: github-repo
+name: mattermost-mcp-host
+canonical_url: https://github.com/jagan-shanmugam/mattermost-mcp-host
+identity:
+  github_repo: jagan-shanmugam/mattermost-mcp-host
+provenance:
+  discoveries:
+    - id: discovery__github__jagan-shanmugam__mattermost-mcp-host__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💬 <a name="communication"></a>Communication
+        anchor_text: jagan-shanmugam/mattermost-mcp-host
+        extracted_url: https://github.com/jagan-shanmugam/mattermost-mcp-host
+        surrounding_text: "- [jagan-shanmugam/mattermost-mcp-host](https://github.com/jagan-shanmugam/mattermost-mcp-host) 🐍 🏠 - A MCP server along with MCP host that provides access to Mattermost teams, channels and messages. MCP host is integrated as a bot in Mattermost with access to MCP servers that can be configured."
+        confidence: high
+metadata:
+  github:
+    stars: 32
+    forks: 17
+    license: MIT
+    archived: false
+    created_at: "2025-03-03T18:38:07Z"
+    pushed_at: "2025-04-07T19:56:58Z"
+    description: A Mattermost integration that connects to Model Context Protocol (MCP) servers, leveraging a LangGraph-based Agent.
+    homepage: ""
+    topics:
+      - langgraph
+      - llm
+      - mattermost
+      - mcp
+      - mcp-clients
+    last_checked_at: "2026-05-05T21:02:49.485Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:49.485Z"
+      bytes: 7481
+insights:
+  summary: A Mattermost bot that connects to MCP servers and uses a LangGraph agent to execute tools and respond to messages within Mattermost channels and threads.
+  why_it_matters: It lets teams run an MCP-powered agent directly inside their Mattermost workspace, turning chat into a command and tool-execution surface without leaving the team channel.
+  mental_damage: Another proud milestone in the quest to turn every workplace chat tool into a semi-autonomous agent runtime that occasionally calls four tools before admitting it can't find the issue tracker.
+  tags:
+    - mattermost
+    - mcp
+    - langgraph
+    - chatbot
+    - agent-integration
+  confidence: medium
+curation:
+  status: included
+  reason: The project is an MCP client and integration host that bridges Mattermost with MCP servers, which fits MCP infrastructure rather than a coding agent or generic extension.
+  evidence:
+    - "Repo description: 'A Mattermost integration that connects to Model Context Protocol (MCP) servers, leveraging a LangGraph-based Agent.'"
+    - README states it connects to MCP servers defined in mcp-servers.json and converts MCP tools to LangChain structured tools.
+    - Listed in awesome-mcp-servers under Server Implementations > Communication, confirming MCP ecosystem intent.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.699Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:49.485Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:27:13.956Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

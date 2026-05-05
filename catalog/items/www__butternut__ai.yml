@@ -1,0 +1,76 @@
+id: www__butternut__ai
+kind: website
+name: www.butternut.ai
+canonical_url: https://www.butternut.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__butternut__ai__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Butternut AI
+        anchor_text: Butternut AI
+        extracted_url: https://butternut.ai
+        surrounding_text: "## [Butternut AI](https://butternut.ai/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Butternut.ai is a browser-first SaaS that generates complete small-business websites from a short business description in seconds.
+  why_it_matters: It lets developers or founders quickly prototype and deploy marketing sites without touching templates, hosting configs, or CMS setups.
+  mental_damage: Just describe your business and watch another $1,100/month of developer-adjacent tooling evaporate into a single prompt box.
+  tags:
+    - website-builder
+    - ai-site-generation
+    - hosted-saas
+    - no-code
+  confidence: high
+curation:
+  status: included
+  reason: The product is a hosted, browser-first prompt-to-site builder whose primary surface turns a business description into a deployed website, which clearly fits app-builders.
+  evidence:
+    - Scraped site title and description call it an AI website builder that creates sites in 20 seconds with hosting, domain, and SEO included.
+    - Primary page excerpt shows a browser form where users describe their business and receive a generated site with customization and publish workflows.
+    - Listed in awesome-ai-agents but the listing explicitly describes it as a free website builder for small businesses, not a coding agent.
+placement:
+  primary_category: app-builders
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.732Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:50:01.900Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

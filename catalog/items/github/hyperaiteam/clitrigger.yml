@@ -1,0 +1,99 @@
+id: github__hyperaiteam__clitrigger
+kind: github-repo
+name: clitrigger
+canonical_url: https://github.com/hyperaiteam/clitrigger
+identity:
+  github_repo: hyperaiteam/clitrigger
+provenance:
+  discoveries:
+    - id: discovery__github__hyperaiteam__clitrigger__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Session managers & parallel runners
+        anchor_text: CLITrigger
+        extracted_url: https://github.com/hyperaiteam/clitrigger
+        surrounding_text: "- **[CLITrigger](https://github.com/HyperAITeam/CLITrigger)** `⭐ 4` — Self-hosted web UI for orchestrating Claude Code, Codex, and Gemini CLIs in parallel git worktrees. Features multi-agent discussion mode (architect/developer/reviewer debate before implementation), cross-project Morning Review Queue, scheduled execution with rate-limit auto-recovery, and a built-in Git client. MIT."
+        confidence: high
+metadata:
+  github:
+    stars: 4
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2026-03-24T13:03:53Z"
+    pushed_at: "2026-05-05T13:15:35Z"
+    description: Orchestrate AI coding agents (Claude, Gemini, Codex) in parallel with git worktree isolation — web UI + CLI
+    homepage: https://www.npmjs.com/package/clitrigger
+    topics:
+      - ai-automation
+      - ai-coding
+      - claude
+      - claude-code
+      - codex
+      - codex-cli
+      - developer-tools
+      - express
+      - gemini
+      - gemini-cli
+      - git-worktree
+      - harness
+      - harness-engineering
+      - llm-wiki
+      - multi-agent
+      - sqlite
+      - task-orchestration
+      - typescript
+    last_checked_at: "2026-05-05T21:02:39.589Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:39.589Z"
+      bytes: 21750
+insights:
+  summary: A CLI and web UI tool that orchestrates parallel runs of coding agents like Claude, Gemini, and Codex inside isolated git worktrees.
+  why_it_matters: It lets developers queue tasks across multiple AI agents overnight to maximize token quotas and review the resulting diffs in the morning.
+  mental_damage: You can now deploy an AI night shift to burn through your rate limits while you sleep, turning every morning into a 50-diff code review hangoover.
+  tags:
+    - cli
+    - agent-orchestration
+    - git-worktree
+    - parallel-agents
+  confidence: high
+curation:
+  status: included
+  reason: It is a user-facing control plane for coordinating multiple coding agents in parallel across isolated git worktrees, which matches the agent orchestration category.
+  evidence:
+    - "Repo description: 'Orchestrate AI coding agents (Claude, Gemini, Codex) in parallel with git worktree isolation — web UI + CLI'"
+    - "README: 'Multiple AI coding agents working in parallel, each in its own isolated git worktree' with a built-in web UI and scheduler"
+    - Included in awesome-cli-coding-agents under 'Harnesses & orchestration > Session managers & parallel runners'
+placement:
+  primary_category: agent-orchestration
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.697Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:39.589Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:25:03.475Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,82 @@
+id: github__hechtcarmel__jetbrains-index-mcp-plugin
+kind: github-repo
+name: jetbrains-index-mcp-plugin
+canonical_url: https://github.com/hechtcarmel/jetbrains-index-mcp-plugin
+identity:
+  github_repo: hechtcarmel/jetbrains-index-mcp-plugin
+provenance:
+  discoveries:
+    - id: discovery__github__hechtcarmel__jetbrains-index-mcp-plugin__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: hechtcarmel/jetbrains-index-mcp-plugin
+        extracted_url: https://github.com/hechtcarmel/jetbrains-index-mcp-plugin
+        surrounding_text: "- [hechtcarmel/jetbrains-index-mcp-plugin](https://github.com/hechtcarmel/jetbrains-index-mcp-plugin) ☕ 🏠 - A JetBrains IDE plugin that exposes an MCP server, enabling AI coding assistants to leverage the IDE's indexing and refactoring capabilities (rename, safe delete, find references, call hierarchy, type hierarchy, diagnostics and more)."
+        confidence: high
+metadata:
+  github:
+    stars: 192
+    forks: 42
+    license: MIT
+    archived: false
+    created_at: "2025-11-25T07:43:21Z"
+    pushed_at: "2026-05-03T07:54:44Z"
+    description: A Jetbrains IDE IntelliJ plugin aimed to provide coding agents the ability to leverage intelliJ's indexing of the codebase
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:32.104Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:32.104Z"
+      bytes: 21259
+insights:
+  summary: A JetBrains IDE plugin that runs an MCP server inside the IDE, exposing IntelliJ's code indexing, reference resolution, and refactoring capabilities to external AI coding assistants.
+  why_it_matters: It gives AI agents semantic understanding of large codebases through the IDE's native AST and index, enabling safer refactors and more accurate cross-file navigation than text-based analysis alone.
+  mental_damage: We've reached the point where the IDE needs a plugin so the AI can understand the code that the IDE already understands, effectively turning your development environment into a middleman API for your chatbot.
+  tags:
+    - jetbrains
+    - mcp
+    - indexing
+    - refactoring
+    - ide-integration
+  confidence: high
+curation:
+  status: included
+  reason: The project is itself an MCP server implementation designed to bridge AI assistants and JetBrains IDE intelligence, making it a clear fit for the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states it is 'A Jetbrains IDE IntelliJ plugin aimed to provide coding agents the ability to leverage intelliJ's indexing' via MCP.
+    - README confirms the plugin 'exposes an MCP (Model Context Protocol) server' with tools like Find References, Go to Definition, and Rename Refactoring.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools', aligning with the MCP infrastructure scope.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (192) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.690Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:32.104Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:23:41.838Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

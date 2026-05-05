@@ -1,0 +1,99 @@
+id: github__freepeak__db-mcp-server
+kind: github-repo
+name: db-mcp-server
+canonical_url: https://github.com/freepeak/db-mcp-server
+identity:
+  github_repo: freepeak/db-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__freepeak__db-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🗄️ <a name="databases"></a>Databases
+        anchor_text: FreePeak/db-mcp-server
+        extracted_url: https://github.com/freepeak/db-mcp-server
+        surrounding_text: "- [FreePeak/db-mcp-server](https://github.com/FreePeak/db-mcp-server) 🏎️ 🏠 – A high-performance multi-database MCP server built with Golang, supporting MySQL & PostgreSQL (NoSQL coming soon). Includes built-in tools for query execution, transaction management, schema exploration, query building, and performance analysis, with seamless Cursor integration for enhanced database workflows."
+        confidence: high
+    - id: discovery__github__freepeak__db-mcp-server__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - 🗄️ Databases
+        anchor_text: FreePeak/db-mcp-server
+        extracted_url: https://github.com/freepeak/db-mcp-server
+        surrounding_text: "-   **[FreePeak/db-mcp-server](https://github.com/FreePeak/db-mcp-server)** [![GitHub stars](https://img.shields.io/github/stars/FreePeak/db-mcp-server?style=social)](https://github.com/FreePeak/db-mcp-server): Provides a high-performance multi-database server (MySQL & PostgreSQL) with tools for query execution, transactions, and schema exploration."
+        confidence: high
+metadata:
+  github:
+    stars: 372
+    forks: 64
+    license: MIT
+    archived: false
+    created_at: "2025-03-17T20:40:28Z"
+    pushed_at: "2026-04-19T05:44:30Z"
+    description: A powerful multi-database server implementing the Model Context Protocol (MCP) to provide AI assistants with structured access to databases.
+    homepage: ""
+    topics:
+      - database-mcp-server
+      - mcp-server
+    last_checked_at: "2026-05-05T21:02:15.327Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:15.327Z"
+      bytes: 20731
+insights:
+  summary: A Go-based server implementing the Model Context Protocol that gives AI assistants structured, concurrent access to multiple MySQL, PostgreSQL, SQLite, and Oracle databases.
+  why_it_matters: It lets AI coding tools execute queries, inspect schemas, and manage transactions across several databases through a single, standardized MCP interface.
+  mental_damage: Your AI agent can now confidently generate SQL queries for four different databases it doesn't actually understand, but at least it will fail consistently across all of them.
+  tags:
+    - mcp
+    - database
+    - go
+    - ai-tooling
+    - backend
+  confidence: high
+curation:
+  status: included
+  reason: This is a dedicated Model Context Protocol server providing database access tools, which fits squarely into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states it is 'implementing the Model Context Protocol (MCP)'.
+    - README confirms it automatically generates MCP tools like query_, schema_, and performance_ for each connected database.
+    - Listed in both awesome-mcp-list and awesome-mcp-servers under their Databases sections.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (372) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.665Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:15.327Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:20:14.935Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

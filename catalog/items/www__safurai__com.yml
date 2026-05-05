@@ -1,0 +1,74 @@
+id: www__safurai__com
+kind: website
+name: www.safurai.com
+canonical_url: https://www.safurai.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__safurai__com__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: janhq/awesome-local-ai
+        url: https://github.com/janhq/awesome-local-ai
+        repository: janhq/awesome-local-ai
+      extraction:
+        mode: parsed
+        section_path:
+          - Developer tools
+        anchor_text: Safurai
+        extracted_url: https://www.safurai.com
+        surrounding_text: "- [Safurai](https://www.safurai.com) - AI Code Assistant that saves you time in changing, optimizing, and searching code."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Safurai is an AI-powered coding assistant that integrates with IDEs like VS Code to help developers write, debug, and refactor code.
+  why_it_matters: It acts as a context-aware pair programmer within the editor, aiming to reduce context switching by handling routine coding tasks directly in the development environment.
+  mental_damage: "Just what the modern developer needs: another floating assistant competing for focus while we try to remember which keyboard shortcut summons the one that actually fixes the bug."
+  tags:
+    - ide-extension
+    - code-assistant
+    - refactoring
+  confidence: medium
+curation:
+  status: included
+  reason: The tool is a developer-facing coding assistant that integrates directly into the IDE workflow to write, debug, and refactor code, fitting the coding-agents profile.
+  evidence:
+    - Listed under 'Developer tools' in the awesome-local-ai directory as an open source/local AI solution.
+    - Functionally described as an assistant that writes, debugs, and refactors code within the IDE.
+placement:
+  primary_category: coding-agents
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.734Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:53:14.291Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

@@ -1,0 +1,82 @@
+id: github__lc1332__luotuo-chinese-llm
+kind: github-repo
+name: luotuo-chinese-llm
+canonical_url: https://github.com/lc1332/luotuo-chinese-llm
+identity:
+  github_repo: lc1332/luotuo-chinese-llm
+provenance:
+  discoveries:
+    - id: discovery__github__lc1332__luotuo-chinese-llm__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Model
+          - Large Language Model
+        anchor_text: Luotuo
+        extracted_url: https://github.com/lc1332/luotuo-chinese-llm
+        surrounding_text: "| [Luotuo](https://github.com/LC1332/Luotuo-Chinese-LLM)                  | A Chinese LLM, Based on LLaMA and fine tune by Stanford Alpaca, Alpaca LoRA, Japanese-Alpaca-LoRA.                                                                                         | ![GitHub Badge](https://img.shields.io/github/stars/LC1332/Luotuo-Chinese-LLM.svg?style=flat-square)      |"
+        confidence: high
+metadata:
+  github:
+    stars: 3612
+    forks: 244
+    license: Apache-2.0
+    archived: false
+    created_at: "2023-03-21T02:43:12Z"
+    pushed_at: "2023-09-03T06:27:48Z"
+    description: "骆驼(Luotuo): Open Sourced Chinese Language Models. Developed by 陈启源 @ 华中师范大学 & 李鲁鲁 @ 商汤科技 & 冷子昂 @ 商汤科技"
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:03:17.946Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:17.946Z"
+      bytes: 38707
+insights:
+  summary: Luotuo is an open-source suite of Chinese-oriented large language models, including chat bots, embeddings, and QA models, built on top of LLaMA and other base models via LoRA tuning.
+  why_it_matters: It provides developers building Chinese-language applications with accessible, locally-tunable models and data pipelines as an alternative to closed API-only providers.
+  mental_damage: Just when you thought the LLaMA -> Alpaca -> Vicuna family tree couldn't get more pastoral, we now have a camel that mostly proves we'd rather fine-tune a new model than figure out how to prompt the existing ones.
+  tags:
+    - llm
+    - chinese-nlp
+    - fine-tuning
+    - language-model
+    - local-ai
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a collection of fine-tuned language models and research experiments rather than a developer tool, agent, or infrastructure component for building software.
+  evidence:
+    - Repo description explicitly defines this as 'Open Sourced Chinese Language Models', not a developer tooling product.
+    - README lists sub-projects like 'Chat凉宫春日' (character chat) and '骆驼嵌入' (embeddings), focusing on NLP research rather than coding workflows.
+    - Listed in Awesome-LLMOps under 'Model > Large Language Model', which aligns with model research rather than the developer tooling scope of this catalog.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (3612) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.704Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:17.947Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:33:28.703Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

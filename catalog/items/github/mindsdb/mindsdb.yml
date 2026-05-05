@@ -1,0 +1,96 @@
+id: github__mindsdb__mindsdb
+kind: github-repo
+name: mindsdb
+canonical_url: https://github.com/mindsdb/mindsdb
+identity:
+  github_repo: mindsdb/mindsdb
+provenance:
+  discoveries:
+    - id: discovery__github__mindsdb__mindsdb__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🔗 <a name="aggregators"></a>Aggregators
+        anchor_text: mindsdb/mindsdb
+        extracted_url: https://github.com/mindsdb/mindsdb
+        surrounding_text: "- [mindsdb/mindsdb](https://github.com/mindsdb/mindsdb) - Connect and unify data across various platforms and databases with [MindsDB as a single MCP server](https://docs.mindsdb.com/mcp/overview)."
+        confidence: high
+metadata:
+  github:
+    stars: 39107
+    forks: 6196
+    license: NOASSERTION
+    archived: false
+    created_at: "2018-08-02T17:56:45Z"
+    pushed_at: "2026-05-05T19:21:21Z"
+    description: AI Data Vault - A query engine for AI Agents to securely query data from any datasource
+    homepage: https://mindsdb.com
+    topics:
+      - agents
+      - ai
+      - analytics
+      - artificial-inteligence
+      - bigquery
+      - business-intelligence
+      - databases
+      - hacktoberfest
+      - llms
+      - mcp
+      - mssql
+      - mysql
+      - postgresql
+      - rag
+    last_checked_at: "2026-05-05T21:03:41.697Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:41.697Z"
+      bytes: 14777
+insights:
+  summary: MindsDB is a query engine that unifies access to 200+ structured and unstructured data sources, allowing AI agents to perform semantic search and conversational analytics using an SQL-compatible interface.
+  why_it_matters: It lets developers build data-aware agents that can query live production data across disparate systems without building custom ETL pipelines or connectors.
+  mental_damage: Because what your stack really needed was another SQL dialect, this time with extra LLM sprinkles to help your agents hallucinate insights from 200 different databases at once.
+  tags:
+    - query-engine
+    - data-integration
+    - agents
+    - semantic-search
+    - mcp
+  confidence: high
+curation:
+  status: included
+  reason: This is a developer-facing SDK/framework for embedding AI data connectivity and querying capabilities into applications, fitting the code-first building block definition.
+  evidence:
+    - Repo description defines it as a 'query engine for AI Agents to securely query data from any datasource'.
+    - README details a Connect → Unify → Respond workflow with SQL-compatible language, Docker, and PyPI installation.
+    - High traction with 39,107 stars and active development (pushed 2026-05-05).
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (39107) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.707Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:41.697Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:38:03.893Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

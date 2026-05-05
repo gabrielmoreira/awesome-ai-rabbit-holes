@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ai-for-developers__awesome-ai-coding-tools__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-01T13:51:25.374Z"
+      discovered_at: "2026-05-05T19:41:00.656Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -23,8 +23,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 1682
-    forks: 310
+    stars: 1699
+    forks: 314
     license: MIT
     archived: false
     created_at: "2025-06-27T13:08:36Z"
@@ -52,31 +52,49 @@ metadata:
       - cursor-ai
       - vibe-coding
       - workflow
-    last_checked_at: "2026-05-01T13:51:34.541Z"
+    last_checked_at: "2026-05-05T21:00:54.796Z"
     readme:
-      fetched_at: "2026-05-01T13:51:34.541Z"
+      fetched_at: "2026-05-05T21:00:54.796Z"
       bytes: 39452
 insights:
-  summary: A curated awesome list of AI-powered coding tools, covering editors, agents, code completion, review, testing, and related developer tooling.
-  why_it_matters: It’s a high-signal starting map for developers trying to compare the fast-moving AI coding tool landscape across multiple workflow categories.
-  mental_damage: You’ll open it to “pick one tool,” then resurface 90 minutes later with 14 tabs, three half-formed migrations, and a newfound respect for decision fatigue.
+  summary: A curated awesome list that catalogs AI-powered coding tools, including editors, agents, completion engines, and related infrastructure for software developers.
+  why_it_matters: It provides a structured map of the rapidly expanding AI coding ecosystem, helping developers discover tools for editing, reviewing, and building with AI.
+  mental_damage: AnotherMetaList™ to bookmark and never revisit, sitting quietly atop your 'ai-coding', 'awesome-ai', and 'vibe-coding' tag soup while the tools inside it multiply faster than you can evaluate them.
   tags:
     - awesome-list
-    - ai-devtools
-    - coding-assistants
-    - coding-agents
-    - developer-workflow
+    - directory
+    - ai-coding
+    - meta-list
   confidence: high
 curation:
   status: included
-  reason: Include because it’s explicitly a developer-focused awesome list of AI coding tools (a navigation aid), best fitting the catalog’s meta-list bucket rather than any single tool category.
+  reason: This is a curated directory/meta-list of AI developer tools rather than a standalone tool itself, which fits the awesome-awesomes category.
   evidence:
-    - "Repo description: “A curated list of AI-powered coding tools.”"
-    - README covers multiple developer-tooling sections (editors, coding agents, CLI tools, code review, testing, MCP servers).
-    - Not archived; recently updated (pushed 2026-04-25) with meaningful traction (1682 stars).
+    - "Repo description states: 'A curated list of AI-powered coding tools'."
+    - README structures the content as a categorized index with sections like 'Code Editors and Assistants' and 'Coding Agents'.
+    - The project is explicitly a 'Direct awesome list source' and carries topics like 'awesome-list' and 'awesome-ai'.
 placement:
   primary_category: awesome-awesomes
   section: null
 lifecycle:
   status: promotion_candidate
-  reason: Stars (1682) exceeded threshold (150)
+  reason: Stars (1699) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.657Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:54.796Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:06:46.267Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

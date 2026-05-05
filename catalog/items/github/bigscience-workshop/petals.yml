@@ -1,0 +1,101 @@
+id: github__bigscience-workshop__petals
+kind: github-repo
+name: petals
+canonical_url: https://github.com/bigscience-workshop/petals
+identity:
+  github_repo: bigscience-workshop/petals
+provenance:
+  discoveries:
+    - id: discovery__github__bigscience-workshop__petals__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: janhq/awesome-local-ai
+        url: https://github.com/janhq/awesome-local-ai
+        repository: janhq/awesome-local-ai
+      extraction:
+        mode: parsed
+        section_path:
+          - Inference UI
+        anchor_text: petals
+        extracted_url: https://github.com/bigscience-workshop/petals
+        surrounding_text: "- [petals](https://github.com/bigscience-workshop/petals) - Run LLMs at home, BitTorrent-style. Fine-tuning and inference up to 10x faster than offloading."
+        confidence: high
+metadata:
+  github:
+    stars: 10117
+    forks: 606
+    license: MIT
+    archived: false
+    created_at: "2022-06-12T00:10:27Z"
+    pushed_at: "2024-09-07T11:54:28Z"
+    description: 🌸 Run LLMs at home, BitTorrent-style. Fine-tuning and inference up to 10x faster than offloading
+    homepage: https://petals.dev
+    topics:
+      - bloom
+      - chatbot
+      - deep-learning
+      - distributed-systems
+      - falcon
+      - gpt
+      - guanaco
+      - language-models
+      - large-language-models
+      - llama
+      - machine-learning
+      - mixtral
+      - neural-networks
+      - nlp
+      - pipeline-parallelism
+      - pretrained-models
+      - pytorch
+      - tensor-parallelism
+      - transformer
+      - volunteer-computing
+    last_checked_at: "2026-05-05T21:01:20.631Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:20.631Z"
+      bytes: 9161
+insights:
+  summary: A framework for running large language model inference and fine-tuning by distributing model layers across a peer-to-peer swarm of GPUs, similar to BitTorrent.
+  why_it_matters: It allows developers to run or serve massive models like Llama 3.1 405B on consumer hardware by pooling resources with others, integrating directly with the Hugging Face Transformers library.
+  mental_damage: Finally, a way to crowdsource your hallucination engine, ensuring that the GPU warming your lap is only hosting 12% of a model that refuses to understand your database schema.
+  tags:
+    - local-ai
+    - distributed-systems
+    - inference
+    - pytorch
+    - llm
+  confidence: high
+curation:
+  status: included
+  reason: The project is a developer-facing infrastructure tool for running large AI models locally or via a distributed swarm, fitting the local-ai and framework criteria.
+  evidence:
+    - "Repo description: 'Run LLMs at home, BitTorrent-style. Fine-tuning and inference up to 10x faster than offloading'"
+    - README excerpt demonstrates a Python SDK workflow via `from petals import AutoDistributedModelForCausalLM`
+    - Seen in 'awesome-local-ai' list under the Inference UI section
+placement:
+  primary_category: local-ai
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (10117) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.681Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:20.631Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:10:47.303Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

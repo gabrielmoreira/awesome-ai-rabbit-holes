@@ -1,0 +1,81 @@
+id: github__microsoft__mm-react
+kind: github-repo
+name: mm-react
+canonical_url: https://github.com/microsoft/mm-react
+identity:
+  github_repo: microsoft/mm-react
+provenance:
+  discoveries:
+    - id: discovery__github__microsoft__mm-react__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Open Source Projects
+          - Other / Chatbots
+        anchor_text: MM ReAct
+        extracted_url: https://github.com/microsoft/mm-react
+        surrounding_text: "- [MM ReAct](https://github.com/microsoft/MM-REACT): Multi Modal ReAct Design"
+        confidence: high
+metadata:
+  github:
+    stars: 968
+    forks: 68
+    license: MIT
+    archived: false
+    created_at: "2023-03-15T06:56:13Z"
+    pushed_at: "2024-01-31T21:37:28Z"
+    description: Official repo for MM-REACT
+    homepage: https://multimodal-react.github.io/
+    topics: []
+    last_checked_at: "2026-05-05T21:03:38.951Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:38.951Z"
+      bytes: 6618
+insights:
+  summary: MM-REACT is a research system that integrates ChatGPT with specialized vision experts via LangChain to enable multimodal reasoning and action on images.
+  why_it_matters: It provides a concrete reference implementation for developers looking to compose LLMs with external perception APIs to build multimodal assistants.
+  mental_damage: You can now orchestrate a dozen Azure endpoints just to ask an AI what celebrity is in a photo, because apparently standard image recognition wasn't sufficiently complex.
+  tags:
+    - multimodal
+    - langchain
+    - vision
+    - research
+  confidence: medium
+curation:
+  status: included
+  reason: Fits the AI Frameworks category as a code-first example of composing LLMs with specialized vision tools via LangChain, despite being a research-oriented project.
+  evidence:
+    - "README states: 'MM-REACT code is bases on langchain' and provides sample code for running a conversational-mm-assistant agent."
+    - Repo description identifies it as the 'Official repo for MM-REACT', a system for prompt-driven multimodal reasoning.
+    - Listed in awesome-langchain under 'Open Source Projects > Other / Chatbots', confirming its utility as a developer reference for LangChain patterns.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (968) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.707Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:38.951Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:37:32.261Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

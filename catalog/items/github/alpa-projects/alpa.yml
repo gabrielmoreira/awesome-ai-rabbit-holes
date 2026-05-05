@@ -1,0 +1,91 @@
+id: github__alpa-projects__alpa
+kind: github-repo
+name: alpa
+canonical_url: https://github.com/alpa-projects/alpa
+identity:
+  github_repo: alpa-projects/alpa
+provenance:
+  discoveries:
+    - id: discovery__github__alpa-projects__alpa__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: janhq/awesome-local-ai
+        url: https://github.com/janhq/awesome-local-ai
+        repository: janhq/awesome-local-ai
+      extraction:
+        mode: parsed
+        section_path:
+          - Training
+        anchor_text: Alpa
+        extracted_url: https://github.com/alpa-projects/alpa
+        surrounding_text: "- [Alpa](https://github.com/alpa-projects/alpa) - Alpa is a system for training and serving large-scale neural networks."
+        confidence: high
+metadata:
+  github:
+    stars: 3187
+    forks: 362
+    license: Apache-2.0
+    archived: true
+    created_at: "2021-02-22T03:21:23Z"
+    pushed_at: "2023-12-09T16:26:31Z"
+    description: Training and serving large-scale neural networks with auto parallelization.
+    homepage: https://alpa.ai
+    topics:
+      - alpa
+      - auto-parallelization
+      - compiler
+      - deep-learning
+      - distributed-computing
+      - distributed-training
+      - high-performance-computing
+      - jax
+      - llm
+      - machine-learning
+    last_checked_at: "2026-05-05T21:01:01.179Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:01.179Z"
+      bytes: 4526
+insights:
+  summary: Alpa is a system for automatically parallelizing and serving large-scale neural networks across distributed clusters using JAX and XLA.
+  why_it_matters: It allows ML engineers to scale training and inference of massive models with minimal code changes by automating complex distributed system techniques.
+  mental_damage: We now have an archived research artifact that automates the very distributed training complexity that the current wave of 'local AI' tools is trying to hide behind a single 7B parameter download.
+  tags:
+    - distributed-training
+    - jax
+    - auto-parallelization
+    - llm-serving
+    - compiler
+  confidence: high
+curation:
+  status: excluded
+  reason: The project is archived and explicitly unmaintained, serving as a research artifact rather than an active developer tool.
+  evidence:
+    - "Archived: yes (and README states 'Alpa is not actively maintained currently')"
+    - Scope is deep learning infrastructure and distributed training, not developer-facing coding tools
+    - Core algorithms have been merged into XLA, reducing the utility of the standalone repo
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: needs_review
+  reason: Repository is archived
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.678Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:01.179Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:07:48.224Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

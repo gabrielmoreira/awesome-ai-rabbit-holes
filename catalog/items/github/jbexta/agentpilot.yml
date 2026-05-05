@@ -1,0 +1,98 @@
+id: github__jbexta__agentpilot
+kind: github-repo
+name: agentpilot
+canonical_url: https://github.com/jbexta/agentpilot
+identity:
+  github_repo: jbexta/agentpilot
+provenance:
+  discoveries:
+    - id: discovery__github__jbexta__agentpilot__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - AgentPilot
+        anchor_text: AgentPilot
+        extracted_url: https://github.com/jbexta/agentpilot
+        surrounding_text: "## [AgentPilot](https://github.com/jbexta/AgentPilot)"
+        confidence: high
+metadata:
+  github:
+    stars: 553
+    forks: 79
+    license: AGPL-3.0
+    archived: false
+    created_at: "2023-09-11T10:57:48Z"
+    pushed_at: "2026-04-14T04:11:29Z"
+    description: A versatile workflow automation platform to create, organize, and execute AI workflows, from a single LLM to complex AI-driven workflows.
+    homepage: https://agentpilot.ai
+    topics:
+      - agent
+      - agi
+      - ai
+      - artificial-intelligence
+      - claude
+      - copilot
+      - copilot-chat
+      - desktop-assistant
+      - gemini
+      - gui
+      - openai
+      - python
+      - realtime-api
+      - structured-output
+      - tool-calling
+      - windows-copilot
+      - workflow-automation
+      - workflow-engine
+    last_checked_at: "2026-05-05T21:02:53.181Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:53.181Z"
+      bytes: 9113
+insights:
+  summary: A desktop GUI platform for designing, organizing, and executing complex multi-agent AI workflows with branching chats and scheduled automation.
+  why_it_matters: It gives developers a visual workbench to design and run multi-member AI workflows without wiring everything together in code.
+  mental_damage: Yet another canvas promising to wrangle your agents into a coherent workflow, just waiting for you to believe this diagram won’t become tomorrow’s legacy spaghetti.
+  tags:
+    - agent-orchestration
+    - workflow-automation
+    - desktop-gui
+    - multi-agent
+  confidence: high
+curation:
+  status: included
+  reason: AgentPilot is an end-user desktop control plane for coordinating multiple LLMs and agents, scheduling workflows, and managing branching chats, which fits agent orchestration tooling.
+  evidence:
+    - Repo description states it is a 'versatile workflow automation platform to create, organize, and execute AI workflows, from a single LLM to complex AI-driven workflows.'
+    - README describes an 'intuitive and feature-rich interface' for designing AI workflows, branching chats, generative UI, and scheduled/recurring workflows.
+    - Listed in awesome-ai-agents under an agent orchestration section, and the project remains active with recent pushes and no archive flag.
+placement:
+  primary_category: agent-orchestration
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (553) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.699Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:53.181Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:28:00.837Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

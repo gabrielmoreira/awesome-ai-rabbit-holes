@@ -1,0 +1,76 @@
+id: aisearch__vpuna__com
+kind: website
+name: aisearch.vpuna.com
+canonical_url: https://aisearch.vpuna.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__aisearch__vpuna__com__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Vpuna AI Search Service
+        extracted_url: https://aisearch.vpuna.com
+        surrounding_text: "- **[VpunaAiSearch](https://github.com/vpuna/vpuna-ai-search)** - Connect to [Vpuna AI Search Service](https://aisearch.vpuna.com), a developer first platform for semantic search, summarization, and contextual chat. Each project dynamically exposes its own Remote HTTP MCP server, enabling real-time context injection from structured and unstructured data."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A developer-first AI search engine providing vector, semantic, and LLM-powered search capabilities via a multi-tenant, API-first platform.
+  why_it_matters: It offers an API-accessible search backend for developers looking to integrate advanced retrieval and LLM-powered search into their own applications.
+  mental_damage: Because what the modern developer stack truly needed was yet another proprietary API layer to wrap around the fundamental concept of looking things up.
+  tags:
+    - search
+    - api
+    - vector-db
+    - llm
+  confidence: medium
+curation:
+  status: excluded
+  reason: This is an API-first search platform rather than a tool that directly assists developers in writing code, building apps, or managing their workflow.
+  evidence:
+    - Scraped site context describes it as a 'Developer-first AI search engine' and 'API-first' platform.
+    - Source-list context lists it in awesome-mcp-servers, but it is the service itself, not an MCP server implementation.
+    - It lacks a clear fit in categories like coding-agents, app-builders, or ai-frameworks as it is a hosted search SaaS.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.726Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:41:41.917Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

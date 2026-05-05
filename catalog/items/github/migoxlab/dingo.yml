@@ -1,0 +1,101 @@
+id: github__migoxlab__dingo
+kind: github-repo
+name: dingo
+canonical_url: https://github.com/migoxlab/dingo
+identity:
+  github_repo: migoxlab/dingo
+provenance:
+  discoveries:
+    - id: discovery__github__dataeval__dingo__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧮 <a name="data-science-tools"></a>Data Science Tools
+        anchor_text: DataEval/dingo
+        extracted_url: https://github.com/dataeval/dingo
+        surrounding_text: "- [DataEval/dingo](https://github.com/DataEval/dingo) 🎖️ 🐍 🏠 🍎 🪟 🐧 - MCP server for the Dingo: a comprehensive data quality evaluation tool. Server Enables interaction with Dingo's rule-based and LLM-based evaluation capabilities and rules&prompts listing."
+        confidence: high
+metadata:
+  github:
+    stars: 693
+    forks: 71
+    license: Apache-2.0
+    archived: false
+    created_at: "2024-12-24T05:59:24Z"
+    pushed_at: "2026-04-30T07:44:25Z"
+    description: "Dingo: A Comprehensive AI Data, Model and Application Quality Evaluation Tool"
+    homepage: https://dingo.openxlab.org.cn/
+    topics:
+      - agent-as-a-judge
+      - common-crawl
+      - data-agent
+      - data-evaluation
+      - data-quality
+      - data-quality-assessment
+      - data-quality-report
+      - data-validation
+      - dataquality
+      - datascience
+      - deepseek
+      - hallucination
+      - hallucination-detection
+      - llm
+      - llm-as-a-judge
+      - openai
+      - opencompass
+      - qwen
+      - spark
+      - vlm
+    last_checked_at: "2026-05-05T21:03:40.409Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:40.409Z"
+      bytes: 24882
+insights:
+  summary: Dingo is a Python-based evaluation tool for assessing the quality of AI training data, models, and RAG applications using a mix of heuristic rules, LLM-based checks, and agent-based evaluations.
+  why_it_matters: It provides developers with a scalable pipeline to catch hallucinations, validate datasets, and benchmark RAG performance before models hit production.
+  mental_damage: Yet another reminder that we now need dedicated agents to verify the output of the agents we just hired to write the code.
+  tags:
+    - evals
+    - data-quality
+    - rag
+    - llm-judge
+  confidence: high
+curation:
+  status: included
+  reason: It is an evaluation framework and benchmark tool designed to measure data and model quality, fitting the 'Evaluations and Benchmarks' category.
+  evidence:
+    - Repo description explicitly calls it a 'Comprehensive AI Data, Model and Application Quality Evaluation Tool'.
+    - README highlights 'Production-Grade Quality Checks' and 'LLM & Rule & Agent Hybrid' evaluation strategies.
+    - Topics include 'evals', 'hallucination-detection', and 'llm-as-a-judge', confirming the eval focus.
+placement:
+  primary_category: evals
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (693) exceeded threshold (150)
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:37:43.425Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.684Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:40.409Z"
+    cause: null
+    next_retry_at: null

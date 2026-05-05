@@ -1,0 +1,75 @@
+id: devon__ai
+kind: website
+name: devon.ai
+canonical_url: https://devon.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__devon__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Coding Agents
+        anchor_text: Devon
+        extracted_url: https://devon.ai
+        surrounding_text: "- **[Devon](https://devon.ai/)** – AI software engineer for autonomous coding."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Devon is an autonomous AI coding agent designed to handle complex engineering tasks across a codebase.
+  why_it_matters: It offers developers a way to delegate multi-step coding, debugging, and testing workflows to an agent capable of running in the terminal or as a GitHub application.
+  mental_damage: Yet another autonomous agent promising to refactor your legacy code while you bravely alt-tab to watch it invent three new bugs you didn't have before.
+  tags:
+    - coding-agent
+    - autonomous
+    - terminal
+    - github
+  confidence: medium
+curation:
+  status: included
+  reason: The project is listed in awesome-ai-coding-tools under 'Coding Agents' and presents itself as an autonomous agent that plans, writes, and tests code directly in the developer's workflow.
+  evidence:
+    - Listed in awesome-ai-coding-tools under the 'Coding Agents' section.
+    - Described as an autonomous AI coding agent for complex engineering tasks.
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.444Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T20:49:22.657Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+    next_retry_at: null

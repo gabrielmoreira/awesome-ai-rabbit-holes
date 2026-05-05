@@ -1,0 +1,92 @@
+id: github__kael-bit__engram-rs
+kind: github-repo
+name: engram-rs
+canonical_url: https://github.com/kael-bit/engram-rs
+identity:
+  github_repo: kael-bit/engram-rs
+provenance:
+  discoveries:
+    - id: discovery__github__kael-bit__engram-rs__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: kael-bit/engram-rs
+        extracted_url: https://github.com/kael-bit/engram-rs
+        surrounding_text: "- [kael-bit/engram-rs](https://github.com/kael-bit/engram-rs) [![engram-rs MCP server](https://glama.ai/mcp/servers/@kael-bit/engram-rs/badges/score.svg)](https://glama.ai/mcp/servers/@kael-bit/engram-rs) 📇 🏠 🍎 🪟 🐧 - Hierarchical memory engine for AI agents with automatic decay, promotion, semantic dedup, and self-organizing topic tree. Single Rust binary, zero external dependencies."
+        confidence: high
+metadata:
+  github:
+    stars: 23
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2026-02-24T12:48:56Z"
+    pushed_at: "2026-03-03T05:02:31Z"
+    description: Memory engine for AI agents — time axis (3-layer decay/promotion) + space axis (self-organizing topic tree). Hybrid search, LLM consolidation. Single Rust binary.
+    homepage: ""
+    topics:
+      - agents
+      - ai
+      - ai-agents
+      - ai-memory
+      - claudecode
+      - mcp
+      - mcp-server
+      - openclaw
+      - rust
+      - sqlite
+    last_checked_at: "2026-05-05T21:03:01.916Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:01.916Z"
+      bytes: 11045
+insights:
+  summary: A lightweight, single-binary Rust memory engine for AI agents that manages memory lifecycle across a three-layer time axis and self-organizing topic tree, exposing itself as an MCP server.
+  why_it_matters: It gives coding agents a structured way to forget irrelevant context and promote durable knowledge using LLM-gated consolidation, hybrid search, and a local SQLite backend.
+  mental_damage: Finally, an Ebbinghaus-forgetting-curve implementation to solve the problem of an agent remembering that one typo you made in a throwaway branch three months ago.
+  tags:
+    - mcp
+    - memory
+    - rust
+    - agents
+    - local-ai
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server providing memory infrastructure for AI agents, which cleanly fits the MCP Servers and Tooling category.
+  evidence:
+    - Repo description states 'Memory engine for AI agents' and topics include mcp and mcp-server.
+    - README emphasizes MCP-aligned memory endpoints (/memories, /recall, /resume) and LLM consolidation.
+    - Listed in awesome-mcp-servers under 'Knowledge & Memory' server implementations.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.701Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:01.916Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:29:55.052Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

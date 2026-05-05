@@ -1,0 +1,77 @@
+id: router__teamolab__com
+kind: website
+name: router.teamolab.com
+canonical_url: https://router.teamolab.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__router__teamolab__com__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - LLMOps
+        anchor_text: TeamoRouter
+        extracted_url: https://router.teamolab.com
+        surrounding_text: "| [TeamoRouter](https://router.teamolab.com)                         | LLM routing gateway for OpenClaw. One API key to access Claude, GPT-4o, Gemini, DeepSeek, Kimi, MiniMax. Smart routing modes (teamo-best, teamo-balanced, teamo-eco) auto-pick the optimal model. Up to 50% off official prices. 2-second install via skill.md.                                                                                                                                        |                                                                                                           |"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Teamo Code is a terminal-based CLI wrapper that integrates the official Claude Code and OpenAI Codex SDKs into a single interface, allowing developers to switch between both coding engines within the same session.
+  why_it_matters: It lets developers leverage two different official coding agents (Claude and Codex) in one terminal environment while preserving existing local configurations and chat histories.
+  mental_damage: "We have finally solved the hardest problem in computer science: how to context-switch between two AI agents in the same terminal without closing a pane."
+  tags:
+    - cli
+    - coding-agent
+    - terminal
+    - wrapper
+    - multi-agent
+  confidence: high
+curation:
+  status: included
+  reason: The product is a developer-facing CLI that directly invokes and switches between two official coding agents (Claude Code and Codex) to help developers write, review, and plan code in a terminal workflow.
+  evidence:
+    - "Primary page excerpt states: 'Teamo Code integrates the official Claude Code and Codex SDKs' and 'One terminal, two official engines'."
+    - Includes native features like inheriting ~/.claude config, CLAUDE.md, ~/.codex config, and AGENTS.md for direct repo workflow.
+    - Listed in Awesome-LLMOps under the LLMOps section, indicating relevance to the AI developer tooling ecosystem.
+placement:
+  primary_category: coding-agents
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.730Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:47:48.206Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

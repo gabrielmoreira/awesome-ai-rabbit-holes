@@ -1,0 +1,96 @@
+id: github__expertvagabond__solmail-mcp
+kind: github-repo
+name: solmail-mcp
+canonical_url: https://github.com/expertvagabond/solmail-mcp
+identity:
+  github_repo: expertvagabond/solmail-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__expertvagabond__solmail-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💬 <a name="communication"></a>Communication
+        anchor_text: ExpertVagabond/solmail-mcp
+        extracted_url: https://github.com/expertvagabond/solmail-mcp
+        surrounding_text: "- [ExpertVagabond/solmail-mcp](https://github.com/ExpertVagabond/solmail-mcp) [![ExpertVagabond/solmail-mcp MCP server](https://glama.ai/mcp/servers/ExpertVagabond/solmail-mcp/badges/score.svg)](https://glama.ai/mcp/servers/ExpertVagabond/solmail-mcp) 📇 ☁️ - Send physical mail with Solana payments — AI agents can compose, price, and send letters and postcards via cryptocurrency."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-02-03T00:21:59Z"
+    pushed_at: "2026-03-24T21:30:05Z"
+    description: MCP server for sending physical mail with Solana cryptocurrency. Colosseum Agent Hackathon submission.
+    homepage: |-
+      - Creating gist solmail-mcp-quickstart.md
+      ✓ Created public gist solmail-mcp-quickstart.md
+      https://gist.github.com/ExpertVagabond/258ef2e9e921ba5dded9485ab455387b
+    topics:
+      - ai
+      - blockchain
+      - cryptocurrency
+      - hackathon
+      - mail
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - physical-mail
+      - solana
+      - tools
+    last_checked_at: "2026-05-05T21:02:06.679Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:06.679Z"
+      bytes: 4057
+insights:
+  summary: An MCP server that allows AI agents to send physical mail and postcards worldwide, with payments processed via the Solana blockchain.
+  why_it_matters: It extends the tool-calling surface of coding agents to physical logistics, enabling developers to build agents that bridge digital workflows with real-world postal delivery.
+  mental_damage: Finally, an agent can drain your Solana wallet just to tell grandma thanks for the socks, provided the LLM doesn't hallucinate the zip code.
+  tags:
+    - mcp-server
+    - solana
+    - physical-mail
+    - agent-tooling
+    - blockchain
+  confidence: high
+curation:
+  status: included
+  reason: The project is a Model Context Protocol server that integrates with agent runtimes to provide a specific tool (physical mailing via crypto), fitting the MCP infrastructure scope.
+  evidence:
+    - Repo description explicitly states 'MCP server for sending physical mail with Solana cryptocurrency.'
+    - README details tools like `send_mail` and `get_mail_quote` designed for 'AI agent' integration via standard MCP config.
+    - Listed in the 'awesome-mcp-servers' directory under 'Server Implementations > Communication'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.687Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:06.679Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:18:49.704Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,102 @@
+id: github__narasimhaponnada__mermaid-mcp
+kind: github-repo
+name: mermaid-mcp
+canonical_url: https://github.com/narasimhaponnada/mermaid-mcp
+identity:
+  github_repo: narasimhaponnada/mermaid-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__narasimhaponnada__mermaid-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📐 <a name="architecture-and-design"></a>Architecture & Design
+        anchor_text: Narasimhaponnada/mermaid-mcp
+        extracted_url: https://github.com/narasimhaponnada/mermaid-mcp
+        surrounding_text: "- [Narasimhaponnada/mermaid-mcp](https://github.com/Narasimhaponnada/mermaid-mcp) 📇 ☁️ 🍎 🪟 🐧 - AI-powered Mermaid diagram generation with 22+ diagram types including flowcharts, sequence diagrams, class diagrams, ER diagrams, architecture diagrams, state machines, and more. Features 50+ pre-built templates, advanced layout engines, SVG/PNG/PDF exports, and seamless integration with GitHub Copilot, Claude, and any MCP-compatible client. Install via NPM: `npm install -g @narasimhaponnada/mermaid-mcp-server`"
+        confidence: high
+metadata:
+  github:
+    stars: 42
+    forks: 5
+    license: NOASSERTION
+    archived: false
+    created_at: "2025-10-30T10:45:01Z"
+    pushed_at: "2025-11-05T07:46:51Z"
+    description: null
+    homepage: null
+    topics:
+      - ai
+      - architecture
+      - automation
+      - claude
+      - cli-tool
+      - copilot
+      - devtools
+      - diagrams
+      - documentation
+      - flowchart
+      - mcp
+      - mcp-server
+      - mermaid
+      - model-context-protocol
+      - npm
+      - npmjs
+      - puppeteer
+      - sequence-diagram
+      - svg
+      - typescript
+    last_checked_at: "2026-05-05T21:03:51.309Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:51.309Z"
+      bytes: 7787
+insights:
+  summary: An MCP server that lets AI coding assistants like GitHub Copilot and Claude generate Mermaid diagrams from natural language and output production-ready SVG files.
+  why_it_matters: It allows developers to generate architecture diagrams, flowcharts, and sequence diagrams directly from their IDE chat without leaving the coding workflow.
+  mental_damage: We have successfully abstracted away the last remaining excuse for not updating the architecture diagrams, so your documentation debt is now entirely a prompt-engineering problem.
+  tags:
+    - mcp
+    - diagrams
+    - mermaid
+    - devtools
+    - vscode
+  confidence: high
+curation:
+  status: included
+  reason: The project is a dedicated MCP server that extends AI assistants with diagram-generation capabilities, fitting squarely into the MCP infrastructure category.
+  evidence:
+    - Topics and README explicitly identify this as an MCP server for GitHub Copilot, Claude, and Cursor.
+    - Listed in awesome-mcp-servers under 'Architecture & Design' server implementations.
+    - Actively maintained with a recent push date (2025-11-05) and no archive flag.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.709Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:51.309Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:39:55.483Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

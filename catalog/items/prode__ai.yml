@@ -1,0 +1,77 @@
+id: prode__ai
+kind: website
+name: prode.ai
+canonical_url: https://prode.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__prode__ai__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Prode.ai
+        extracted_url: https://prode.ai
+        surrounding_text: "- **[ProdEAI](https://github.com/CuriousBox-AI/ProdE-mc)** - Your 24/7 production engineer that preserves context across multiple codebases [Prode.ai](https://prode.ai)."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A code-grounded workspace that generates PRDs, specs, and system context for engineering teams, exposing planning artifacts to coding agents via an MCP server.
+  why_it_matters: It anchors product planning in an actual codebase knowledge graph so specs stay aligned with reality and coding agents like Cursor and Claude Code can pull approved context instead of guessing.
+  mental_damage: "Just what the modern workflow needed: another layer of ceremony promising that if we plan perfectly enough, the agents will finally stop refactoring our authentication stack at 2 a.m."
+  tags:
+    - product-management
+    - mcp
+    - specs
+    - codebase-intelligence
+    - agent-context
+  confidence: high
+curation:
+  status: included
+  reason: The product’s center of gravity is a spec-first loop where ideas, PRDs, and engineering specs are generated and validated against a live codebase, then fed to coding agents via MCP.
+  evidence:
+    - Homepage describes it as 'Like Cursor, but for product management' with living specs grounded in the codebase.
+    - "Explicit workflow: ideas → PRDs → specs → coding-agent-ready via MCP server for Cursor, Claude Code, Copilot, and Windsurf."
+    - Listed in awesome-mcp-servers under Official Servers with a focus on specs and planning rather than autonomous code editing.
+placement:
+  primary_category: spec-driven-development
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.729Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:47:12.302Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

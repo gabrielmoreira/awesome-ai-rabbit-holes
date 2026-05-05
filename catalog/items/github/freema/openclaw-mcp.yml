@@ -1,0 +1,88 @@
+id: github__freema__openclaw-mcp
+kind: github-repo
+name: openclaw-mcp
+canonical_url: https://github.com/freema/openclaw-mcp
+identity:
+  github_repo: freema/openclaw-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__freema__openclaw-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🤖 <a name="coding-agents"></a>Coding Agents
+        anchor_text: freema/openclaw-mcp
+        extracted_url: https://github.com/freema/openclaw-mcp
+        surrounding_text: "- [freema/openclaw-mcp](https://github.com/freema/openclaw-mcp) [![openclaw-mcp MCP server](https://glama.ai/mcp/servers/@freema/openclaw-mcp/badges/score.svg)](https://glama.ai/mcp/servers/@freema/openclaw-mcp) 📇 ☁️ 🏠 - MCP server for [OpenClaw](https://github.com/openclaw/openclaw) AI assistant integration. Enables Claude to delegate tasks to OpenClaw agents with sync/async tools, OAuth 2.1 auth, and SSE transport for Claude.ai."
+        confidence: high
+metadata:
+  github:
+    stars: 153
+    forks: 21
+    license: MIT
+    archived: false
+    created_at: "2026-02-02T16:42:53Z"
+    pushed_at: "2026-04-25T20:52:58Z"
+    description: 🦞 MCP server for OpenClaw - secure bridge between Claude.ai and your self-hosted OpenClaw assistant with OAuth2 authentication
+    homepage: https://www.tomasgrasl.cz/
+    topics:
+      - docker-compose
+      - mcp-server
+      - open-claw
+      - productivity
+      - security
+      - typescript
+    last_checked_at: "2026-05-05T21:02:15.138Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:15.138Z"
+      bytes: 12506
+insights:
+  summary: An MCP server that securely bridges Claude.ai to a self-hosted OpenClaw assistant, allowing the web UI to delegate tasks to a local AI agent via OAuth2.
+  why_it_matters: It lets developers connect cloud-hosted Claude to their local, self-hosted agent stack, enabling remote orchestration of long-running OpenClaw tasks directly from the web UI.
+  mental_damage: "We have now reached the architectural pinnacle of 2026: running a server so your web chatbot can proxy commands to your local chatbot, which might itself spawn a coding agent to fix the YAML you just broke."
+  tags:
+    - mcp
+    - openclaw
+    - oauth2
+    - bridge
+    - self-hosted
+  confidence: high
+curation:
+  status: included
+  reason: The project is an MCP server implementation designed to bridge Claude.ai with a self-hosted OpenClaw instance, fitting squarely into MCP infrastructure.
+  evidence:
+    - Repo description explicitly states 'MCP server for OpenClaw'.
+    - README describes OAuth2 authenticated bridging between Claude.ai and OpenClaw via the Model Context Protocol.
+    - Listed under 'Server Implementations' in the awesome-mcp-servers directory.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (153) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.688Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:15.138Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:20:14.752Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

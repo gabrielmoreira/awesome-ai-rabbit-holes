@@ -1,0 +1,76 @@
+id: kombai__com
+kind: website
+name: kombai.com
+canonical_url: https://kombai.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__kombai__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - UI Generators
+        anchor_text: Kombai
+        extracted_url: https://kombai.com
+        surrounding_text: "- **[Kombai](https://kombai.com/)** – Convert Figma designs into production-ready UI code."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Kombai is an AI agent focused on frontend development that builds, refactors, and tests UI code directly within a developer's existing repository and IDE.
+  why_it_matters: It generates production-grade frontend code that respects specific stack conventions and existing component libraries, streamlining the Figma-to-code workflow.
+  mental_damage: Just when you thought your frontend stack was safe from agents, here comes one that actually understands your MUI theme and refuses to touch the backend.
+  tags:
+    - frontend
+    - coding-agent
+    - ui-generation
+    - refactoring
+  confidence: high
+curation:
+  status: included
+  reason: It is a developer-facing coding agent that directly plans, writes, and refactors source code inside a repo and IDE workflow, specifically targeting frontend stacks.
+  evidence:
+    - Listed in awesome-ai-coding-tools under 'UI Generators' as an agent that builds, refactors, and improves frontend code.
+    - Site describes it as 'The AI Agent Built for Frontend' that 'learns your stack' and generates code fitting cleanly into your repo.
+    - Generates code inside the IDE rather than being a browser-first prompt-to-app builder.
+placement:
+  primary_category: coding-agents
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.728Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:45:50.334Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

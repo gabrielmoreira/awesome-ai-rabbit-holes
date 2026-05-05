@@ -1,0 +1,111 @@
+id: github__bytedance__ui-tars-desktop
+kind: github-repo
+name: ui-tars-desktop
+canonical_url: https://github.com/bytedance/ui-tars-desktop
+identity:
+  github_repo: bytedance/ui-tars-desktop
+provenance:
+  discoveries:
+    - id: discovery__github__bytedance__ui-tars-desktop__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📂 <a name="browser-automation"></a>Browser Automation
+        anchor_text: agent-infra/mcp-server-browser
+        extracted_url: https://github.com/bytedance/ui-tars-desktop
+        surrounding_text: "- [agent-infra/mcp-server-browser](https://github.com/bytedance/UI-TARS-desktop/tree/main/packages/agent-infra/mcp-servers/browser) 📇 🏠 - Browser automation capabilities using Puppeteer, both support local and remote browser connection."
+        confidence: high
+    - id: discovery__github__bytedance__ui-tars-desktop__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: Browser MCP
+        extracted_url: https://github.com/bytedance/ui-tars-desktop
+        surrounding_text: "- **[Browser MCP](https://github.com/bytedance/UI-TARS-desktop/tree/main/packages/agent-infra/mcp-servers/browser)** (by UI-TARS) - A fast, lightweight MCP server that empowers LLMs with browser automation via Puppeteer’s structured accessibility data, featuring optional vision mode for complex visual understanding and flexible, cross-platform configuration."
+        confidence: high
+metadata:
+  github:
+    stars: 29615
+    forks: 2908
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-01-19T09:04:43Z"
+    pushed_at: "2026-04-29T07:27:48Z"
+    description: "The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra"
+    homepage: https://agent-tars.com
+    topics:
+      - agent
+      - agent-tars
+      - browser-use
+      - computer-use
+      - cowork
+      - gui-agent
+      - gui-operator
+      - mcp
+      - mcp-server
+      - multimodal
+      - tars
+      - ui-tars
+      - vision
+      - vlm
+    last_checked_at: "2026-05-05T21:01:27.943Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:27.943Z"
+      bytes: 16262
+insights:
+  summary: A ByteDance-maintained multimodal AI agent stack that ships Agent TARS (CLI and Web UI) and UI-TARS Desktop to control GUIs, browsers, terminals, and computers using vision and MCP tooling.
+  why_it_matters: It gives developers a local-first, extensible way to automate complex GUI and browser workflows using multimodal models and MCP tool integrations instead of brittle selectors.
+  mental_damage: Another leap forward in AI capabilities that will definitely help you automate your browser, right after you finish configuring the model, the sandbox, the MCP server, and your own expectations.
+  tags:
+    - multimodal
+    - gui-agent
+    - mcp
+    - browser-automation
+    - local-ai
+  confidence: high
+curation:
+  status: included
+  reason: Agent TARS provides a CLI and Web UI that act as a multimodal coding and task agent operating across terminals, browsers, and computers, clearly fitting a developer-facing coding agent that works outside the IDE.
+  evidence:
+    - "Repo description: 'The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra'"
+    - "README: 'Agent TARS primarily ships with a CLI and Web UI... closer to human-like task completion through multimodal LLMs and seamless integration with various real-world MCP tools.'"
+    - "README: 'UI-TARS Desktop is a desktop application that provides a native GUI Agent... local and remote computer as well as browser operators.'"
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (29615) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.664Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:27.943Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:12:05.039Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,81 @@
+id: github__nvidia__workbench-llamafactory
+kind: github-repo
+name: workbench-llamafactory
+canonical_url: https://github.com/nvidia/workbench-llamafactory
+identity:
+  github_repo: nvidia/workbench-llamafactory
+provenance:
+  discoveries:
+    - id: discovery__github__nvidia__workbench-llamafactory__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 微调 Fine-Tuning
+        anchor_text: workbench-llamafactory
+        extracted_url: https://github.com/nvidia/workbench-llamafactory
+        surrounding_text: "19. [workbench-llamafactory](https://github.com/NVIDIA/workbench-llamafactory): This is an NVIDIA AI Workbench example project that demonstrates an end-to-end model development workflow using Llamafactory."
+        confidence: high
+metadata:
+  github:
+    stars: 72
+    forks: 28
+    license: Apache-2.0
+    archived: false
+    created_at: "2024-05-31T20:07:30Z"
+    pushed_at: "2024-10-17T02:30:19Z"
+    description: "This is an NVIDIA AI Workbench example project that demonstrates an end-to-end model development workflow using Llamafactory. "
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:03:57.569Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:57.569Z"
+      bytes: 720
+insights:
+  summary: An NVIDIA AI Workbench example project that demonstrates an end-to-end model development workflow using LLaMA-Factory for fine-tuning LLMs.
+  why_it_matters: It provides a structured, containerized starting point for developers looking to fine-tune, quantize, and export LLMs using NVIDIA hardware and the LLaMA-Factory stack.
+  mental_damage: Another abstraction layer wrapped around an abstraction layer, ensuring you can fine-tune a model in Docker without ever having to understand the underlying math, or your own hardware.
+  tags:
+    - fine-tuning
+    - llama-factory
+    - nvidia
+    - workbench
+    - local-ai
+  confidence: medium
+curation:
+  status: included
+  reason: This is a developer-facing example for running local LLM fine-tuning workflows on NVIDIA hardware using LLaMA-Factory within the AI Workbench environment.
+  evidence:
+    - Repo description states it is an 'NVIDIA AI Workbench example project that demonstrates an end-to-end model development workflow using Llamafactory'.
+    - README features include fine-tuning LLMs, applying Post Training Quantization, and exporting models to TensorRT-LLM.
+    - Listed in awesome-LLM-resources under the '微调 Fine-Tuning' (Fine-Tuning) section.
+placement:
+  primary_category: local-ai
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.710Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:57.569Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:41:12.769Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

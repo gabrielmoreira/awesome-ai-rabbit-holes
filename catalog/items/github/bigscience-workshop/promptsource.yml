@@ -1,0 +1,84 @@
+id: github__bigscience-workshop__promptsource
+kind: github-repo
+name: promptsource
+canonical_url: https://github.com/bigscience-workshop/promptsource
+identity:
+  github_repo: bigscience-workshop/promptsource
+provenance:
+  discoveries:
+    - id: discovery__github__bigscience-workshop__promptsource__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Other LLM Frameworks
+        anchor_text: PromptSource
+        extracted_url: https://github.com/bigscience-workshop/promptsource
+        surrounding_text: "- [PromptSource](https://github.com/bigscience-workshop/promptsource): About Toolkit for creating, sharing and using natural language prompts. ![GitHub Repo stars](https://img.shields.io/github/stars/bigscience-workshop/promptsource?style=social)"
+        confidence: high
+metadata:
+  github:
+    stars: 3010
+    forks: 379
+    license: Apache-2.0
+    archived: false
+    created_at: "2021-05-19T15:26:25Z"
+    pushed_at: "2023-10-23T17:59:41Z"
+    description: Toolkit for creating, sharing and using natural language prompts.
+    homepage: ""
+    topics:
+      - machine-learning
+      - natural-language-processing
+      - nlp
+    last_checked_at: "2026-05-05T21:01:20.725Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:20.725Z"
+      bytes: 9587
+insights:
+  summary: A toolkit and library for creating, sharing, and applying structured natural language prompts (templates) to datasets, primarily within the HuggingFace ecosystem.
+  why_it_matters: It provides a standardized Jinja-based interface to manage thousands of prompts, allowing developers to apply consistent prompt engineering patterns across hundreds of NLP datasets.
+  mental_damage: Just when you thought prompt engineering was becoming a stable discipline, here is a library to remind you that managing 2,000 permutations of 'Does this imply that...' is the new data entry job.
+  tags:
+    - prompt-engineering
+    - nlp
+    - templates
+    - huggingface
+    - toolkit
+  confidence: high
+curation:
+  status: excluded
+  reason: Excluded because the project focuses on NLP dataset templating and model fine-tuning (P3/FLAN/T0) rather than providing developer-facing tooling, agents, or infrastructure for building software.
+  evidence:
+    - Repo description and README focus on 'natural language prompts' for 'datasets' rather than coding workflows.
+    - Topics listed are 'machine-learning', 'natural-language-processing', 'nlp', indicating a research/ML focus rather than dev tooling.
+    - Source list context places it in 'awesome-langchain' under 'Other LLM Frameworks', but its core function is dataset preparation, not software development automation.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (3010) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.681Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:20.725Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:10:47.762Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

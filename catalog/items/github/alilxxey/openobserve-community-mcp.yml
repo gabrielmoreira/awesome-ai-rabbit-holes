@@ -1,0 +1,81 @@
+id: github__alilxxey__openobserve-community-mcp
+kind: github-repo
+name: openobserve-community-mcp
+canonical_url: https://github.com/alilxxey/openobserve-community-mcp
+identity:
+  github_repo: alilxxey/openobserve-community-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__alilxxey__openobserve-community-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📊 <a name="monitoring"></a>Monitoring
+        anchor_text: alilxxey/openobserve-community-mcp
+        extracted_url: https://github.com/alilxxey/openobserve-community-mcp
+        surrounding_text: "- [alilxxey/openobserve-community-mcp](https://github.com/alilxxey/openobserve-community-mcp) [![alilxxey/openobserve-community-mcp MCP server](https://glama.ai/mcp/servers/alilxxey/openobserve-community-mcp/badges/score.svg)](https://glama.ai/mcp/servers/alilxxey/openobserve-community-mcp) 🐍 🏠 🍎 🪟 🐧 - Read-only MCP server for OpenObserve Community Edition via REST API. Search logs, traces, stream schemas, and dashboards without requiring the Enterprise license."
+        confidence: high
+metadata:
+  github:
+    stars: 7
+    forks: 1
+    license: GPL-3.0
+    archived: false
+    created_at: "2026-03-21T16:08:54Z"
+    pushed_at: "2026-03-24T07:57:24Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:00:59.563Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:59.563Z"
+      bytes: 6663
+insights:
+  summary: A Model Context Protocol server that exposes OpenObserve Community Edition logs, streams, dashboards, and traces to local AI coding agents via a read-only stdio interface.
+  why_it_matters: It lets AI agents inside Claude, Codex, and OpenCode directly query observability data without the developer context-switching to a separate monitoring dashboard.
+  mental_damage: Because the logical next step after teaching agents to write the code is teaching them to read the logs when that code inevitably sets the production environment on fire.
+  tags:
+    - mcp
+    - observability
+    - openobserve
+    - stdio
+  confidence: medium
+curation:
+  status: included
+  reason: The repository is a dedicated MCP server implementation designed to bridge OpenObserve with AI coding agents, fitting cleanly into the MCP infrastructure category.
+  evidence:
+    - README explicitly states this is a 'stdio MCP server for OpenObserve Community Edition'.
+    - Setup instructions are provided for Claude, Codex, and OpenCode MCP integrations.
+    - Listed in the awesome-mcp-servers directory under 'Server Implementations > Monitoring'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.678Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:59.563Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:07:34.400Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

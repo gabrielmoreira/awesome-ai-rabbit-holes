@@ -1,0 +1,103 @@
+id: github__co-browser__browser-use-mcp-server
+kind: github-repo
+name: browser-use-mcp-server
+canonical_url: https://github.com/co-browser/browser-use-mcp-server
+identity:
+  github_repo: co-browser/browser-use-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__co-browser__browser-use-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📂 <a name="browser-automation"></a>Browser Automation
+        anchor_text: co-browser/browser-use-mcp-server
+        extracted_url: https://github.com/co-browser/browser-use-mcp-server
+        surrounding_text: "- [co-browser/browser-use-mcp-server](https://github.com/co-browser/browser-use-mcp-server) 🐍 - browser-use packaged as an MCP server with SSE transport. includes a dockerfile to run chromium in docker + a vnc server."
+        confidence: high
+    - id: discovery__github__co-browser__browser-use-mcp-server__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - 📂 Browser Control
+        anchor_text: "@co-browser/browser-use-mcp-server"
+        extracted_url: https://github.com/co-browser/browser-use-mcp-server
+        surrounding_text: "-   **[@co-browser/browser-use-mcp-server](https://github.com/co-browser/browser-use-mcp-server)** [![GitHub stars](https://img.shields.io/github/stars/co-browser/browser-use-mcp-server?style=social)](https://github.com/co-browser/browser-use-mcp-server): Packages `browser-use` as an MCP server, with Docker support for Chromium and VNC."
+        confidence: high
+metadata:
+  github:
+    stars: 821
+    forks: 107
+    license: MIT
+    archived: false
+    created_at: "2025-03-06T09:47:03Z"
+    pushed_at: "2025-07-10T09:57:23Z"
+    description: Browse the web, directly from Cursor etc.
+    homepage: ""
+    topics:
+      - browser
+      - browser-use
+      - cursor
+      - mcp
+      - mcp-server
+      - playwright
+    last_checked_at: "2026-05-05T21:01:36.780Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:36.780Z"
+      bytes: 6285
+insights:
+  summary: A Model Context Protocol server that lets AI agents control web browsers via Playwright and the browser-use library, with integrations for Cursor, Windsurf, and Claude Desktop.
+  why_it_matters: It gives coding agents real-time, visual browser control and VNC streaming so they can automate web tasks directly from your IDE workflow.
+  mental_damage: We’ve reached the point where your AI assistant now needs its own VNC session just to click a button on a website while you watch it fail in real time.
+  tags:
+    - mcp
+    - browser-automation
+    - playwright
+    - cursor
+    - agent-tools
+  confidence: high
+curation:
+  status: included
+  reason: The project is an MCP server implementation for browser automation, fitting cleanly into MCP infrastructure rather than being a primary coding agent or extension.
+  evidence:
+    - "Repo description states: 'Browse the web, directly from Cursor etc.'"
+    - README explicitly describes it as 'An MCP server that enables AI agents to control web browsers using browser-use.'
+    - Listed in awesome-mcp-servers under 'Browser Automation' and awesome-mcp-list under 'Browser Control'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (821) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.439Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:36.780Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:13:35.172Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

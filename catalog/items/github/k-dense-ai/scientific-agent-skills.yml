@@ -1,0 +1,98 @@
+id: github__k-dense-ai__scientific-agent-skills
+kind: github-repo
+name: claude-scientific-skills
+canonical_url: https://github.com/k-dense-ai/scientific-agent-skills
+identity:
+  github_repo: k-dense-ai/scientific-agent-skills
+provenance:
+  discoveries:
+    - id: discovery__github__k-dense-ai__claude-scientific-skills__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 技能 Skills
+        anchor_text: claude-scientific-skills
+        extracted_url: https://github.com/k-dense-ai/claude-scientific-skills
+        surrounding_text: 11. [claude-scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills)
+        confidence: high
+metadata:
+  github:
+    stars: 20152
+    forks: 2246
+    license: MIT
+    archived: false
+    created_at: "2025-10-19T20:54:15Z"
+    pushed_at: "2026-05-04T10:52:04Z"
+    description: A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing.
+    homepage: https://k-dense.ai
+    topics:
+      - agent-skills
+      - ai-scientist
+      - bioinformatics
+      - chemoinformatics
+      - claude
+      - claude-skills
+      - claudecode
+      - clinical-research
+      - computational-biology
+      - data-analysis
+      - drug-discovery
+      - genomics
+      - materials-science
+      - metabolomics
+      - proteomics
+      - scientific-computing
+      - scientific-visualization
+    last_checked_at: "2026-05-05T21:03:01.801Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:01.801Z"
+      bytes: 42038
+insights:
+  summary: A collection of 135 reusable scientific and research skill definitions compatible with the open Agent Skills standard for use in AI coding agents like Claude Code, Cursor, and Codex.
+  why_it_matters: It allows developers to extend their AI agents with curated, domain-specific workflows for complex scientific computing tasks without hand-crafting prompts.
+  mental_damage: Now you can finally stop pretending you know how to process LC-MS/MS data and just offload the impostor syndrome to a specialized agent skill pack.
+  tags:
+    - skills
+    - scientific-computing
+    - agent-skills
+    - claude-code
+    - cursor
+  confidence: high
+curation:
+  status: included
+  reason: The repository is a reusable skill pack designed to be consumed by AI developer tools, which fits the skills category perfectly.
+  evidence:
+    - Repo description explicitly states it is a 'set of ready to use Agent Skills'.
+    - README confirms compatibility with 'Cursor, Claude Code, Codex' and the open Agent Skills standard.
+    - The primary artifact is the skill content itself (135 skills) rather than a new IDE or agent host.
+placement:
+  primary_category: skills
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (20152) exceeded threshold (150)
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:29:52.037Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.701Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:01.801Z"
+    cause: null
+    next_retry_at: null

@@ -1,0 +1,82 @@
+id: github__othmaneblial__term_mcp_deepseek
+kind: github-repo
+name: term_mcp_deepseek
+canonical_url: https://github.com/othmaneblial/term_mcp_deepseek
+identity:
+  github_repo: othmaneblial/term_mcp_deepseek
+provenance:
+  discoveries:
+    - id: discovery__github__othmaneblial__term_mcp_deepseek__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🤖 <a name="coding-agents"></a>Coding Agents
+        anchor_text: OthmaneBlial/term_mcp_deepseek
+        extracted_url: https://github.com/othmaneblial/term_mcp_deepseek
+        surrounding_text: "- [OthmaneBlial/term_mcp_deepseek](https://github.com/OthmaneBlial/term_mcp_deepseek) 🐍 🏠 - A DeepSeek MCP-like Server for Terminal"
+        confidence: high
+metadata:
+  github:
+    stars: 16
+    forks: 5
+    license: MIT
+    archived: false
+    created_at: "2025-03-28T06:30:25Z"
+    pushed_at: "2025-09-21T12:26:53Z"
+    description: A MCP‑like server using the DeepSeek API for Terminal
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:04:09.014Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:09.014Z"
+      bytes: 4856
+insights:
+  summary: A proof-of-concept MCP-like server that connects the DeepSeek API to a persistent terminal session, allowing an AI chat interface to discover tools and execute shell commands via REST and STDIO transports.
+  why_it_matters: It demonstrates how to wire a non-Anthropic model into an MCP-style tool-calling loop with real-time terminal streaming, giving developers a blueprint for local, API-driven agent workflows.
+  mental_damage: We are now implementing the protocol that was supposed to standardize protocols, using an API from a company that may or may not exist next Tuesday, to run bash commands we could have typed ourselves.
+  tags:
+    - mcp
+    - deepseek
+    - terminal
+    - agent-server
+    - proof-of-concept
+  confidence: medium
+curation:
+  status: included
+  reason: The project is explicitly an MCP server implementation (albeit pre-standard) designed to expose terminal tools via the Model Context Protocol, fitting the MCP infrastructure category.
+  evidence:
+    - Repo description states it is 'A MCP-like server using the DeepSeek API for Terminal'.
+    - README clarifies it 'is not yet a fully compliant MCP server' but provides /mcp/list_tools and /mcp/call_tool endpoints.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Coding Agents'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.712Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:09.014Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:43:18.853Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

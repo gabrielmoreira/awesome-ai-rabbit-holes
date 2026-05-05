@@ -1,0 +1,87 @@
+id: github__ariekogan__ateam-mcp
+kind: github-repo
+name: ateam-mcp
+canonical_url: https://github.com/ariekogan/ateam-mcp
+identity:
+  github_repo: ariekogan/ateam-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__ariekogan__ateam-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🔗 <a name="aggregators"></a>Aggregators
+        anchor_text: ariekogan/ateam-mcp
+        extracted_url: https://github.com/ariekogan/ateam-mcp
+        surrounding_text: "- [ariekogan/ateam-mcp](https://github.com/ariekogan/ateam-mcp) 📇 ☁️ 🏠 🍎 🪟 🐧 - Build, validate, and deploy multi-agent AI solutions on the ADAS platform. Design skills with tools, manage solution lifecycle, and connect from any AI environment via stdio or HTTP."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 3
+    license: null
+    archived: false
+    created_at: "2026-02-17T17:38:11Z"
+    pushed_at: "2026-04-28T20:37:24Z"
+    description: ADAS MCP Server — build, validate, and deploy multi-agent solutions from any AI environment
+    homepage: null
+    topics:
+      - adas
+      - ai-agents
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - multi-agent
+    last_checked_at: "2026-05-05T21:01:08.803Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:08.803Z"
+      bytes: 6910
+insights:
+  summary: An MCP server that connects AI assistants to the ADAS platform, enabling them to build, validate, and deploy multi-agent systems via natural language.
+  why_it_matters: It allows developers to manage the full lifecycle of multi-agent solutions directly from their existing AI tools without manually authoring JSON or reading documentation.
+  mental_damage: We have successfully abstracted away the last remaining task of writing JSON by convincing an AI to write it for us, thereby turning the developer into a highly-paid specification typist.
+  tags:
+    - mcp
+    - multi-agent
+    - adas
+    - agent-deployment
+  confidence: medium
+curation:
+  status: included
+  reason: The project is an MCP server implementation that integrates the ADAS platform with MCP-compatible clients, fitting squarely into the MCP infrastructure category.
+  evidence:
+    - Repo description explicitly states 'ADAS MCP Server' and notes it works from 'any MCP-compatible environment'.
+    - README describes 12 tools (adas_get_spec, adas_deploy_solution, etc.) exposed via the Model Context Protocol.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Aggregators'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.679Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:08.803Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:08:57.593Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

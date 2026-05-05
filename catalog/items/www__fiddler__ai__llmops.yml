@@ -1,0 +1,77 @@
+id: www__fiddler__ai__llmops
+kind: website
+name: llmops
+canonical_url: https://www.fiddler.ai/llmops
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__fiddler__ai__llmops__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - LLMOps
+        anchor_text: Fiddler AI
+        extracted_url: https://www.fiddler.ai/llmops
+        surrounding_text: "| [Fiddler AI](https://www.fiddler.ai/llmops)                        | Evaluate, monitor, analyze, and improve MLOps and LLMOps from pre-production to production.                                                                                                                                                                                                                                                                                                             |                                                                                                           |"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Fiddler AI is an enterprise LLMOps platform that provides observability, guardrails, and governance tools for monitoring and safeguarding production LLM and agentic applications.
+  why_it_matters: It gives developers and AI teams the dashboards and low-latency guardrails needed to detect hallucinations, prompt injections, and PII leaks in live AI systems.
+  mental_damage: Because if you aren't obsessively measuring hallucination rates and plotting 3D UMAP clusters of your agent's failures, are you even doing enterprise LLMOps?
+  tags:
+    - llmops
+    - observability
+    - guardrails
+    - enterprise
+    - agentic
+  confidence: high
+curation:
+  status: included
+  reason: The platform centers on measuring, monitoring, and governing LLM behavior in production (observability, guardrails, dashboards), which aligns with the Evaluations and Benchmarks category rather than a coding agent or app builder.
+  evidence:
+    - "Scraped site description states: 'Fiddler empowers AI teams with LLM observability, providing tools to monitor, analyze, and safeguard large language models (LLMs) and their applications.'"
+    - Site excerpt details 'metrics-driven LLMOps' including tracking hallucination, toxicity, PII exposure, and prompt injection attacks with 50+ out-of-the-box metrics.
+    - Listed in Awesome-LLMOps under the LLMOps section as a tool for monitoring, analyzing, and safeguarding LLMs.
+placement:
+  primary_category: evals
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.732Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:50:46.130Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

@@ -1,0 +1,78 @@
+id: www__grovs__io
+kind: website
+name: www.grovs.io
+canonical_url: https://www.grovs.io
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__grovs__io__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🎯 <a name="marketing"></a>Marketing
+        anchor_text: Grovs
+        extracted_url: https://grovs.io
+        surrounding_text: "- [grovs-io/mcp](https://github.com/grovs-io/mcp) [![grovs-io/mcp MCP server](https://glama.ai/mcp/servers/grovs-io/mcp/badges/score.svg)](https://glama.ai/mcp/servers/grovs-io/mcp) 📇 ☁️ - Deep linking, attribution, analytics, and campaign management for mobile apps with [Grovs](https://grovs.io) — an open-source, privacy-first alternative to Branch and AppsFlyer. 16 tools for creating links, tracking installs and revenue, and configuring app settings."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Grovs is an open-source, EU-hosted marketing attribution and deep linking platform that provides first-party data collection, revenue tracking, and app growth analytics as an alternative to legacy mobile measurement partners.
+  why_it_matters: It offers developers an auditable, self-hostable SDK and backend for handling attribution and deep linking without leaking user data to third-party brokers or relying on probabilistic fingerprinting.
+  mental_damage: Finally, a way to reconcile your GDPR panic with your marketing team's demand for ROAS reports, assuming you trust open-source code more than you trust a black box in the US.
+  tags:
+    - attribution
+    - deep-linking
+    - open-source
+    - eu-hosted
+    - marketing-infra
+  confidence: high
+curation:
+  status: excluded
+  reason: While the SDK is open source and listed in awesome-mcp-servers, the core product is a marketing attribution SaaS for growth teams, not a developer tooling product for coding, agent orchestration, or app building.
+  evidence:
+    - Primary page excerpt describes a 'First-party growth engine for apps' focused on attribution, deep linking, and revenue analytics for marketing teams.
+    - It is listed in awesome-mcp-servers under the 'Marketing' section, indicating its MCP server is a peripheral integration rather than the core developer tool.
+    - The 'For Engineering' section focuses on auditing logic and SDK integration, not on AI-assisted coding, agent workflows, or developer productivity.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.732Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:51:09.528Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

@@ -1,0 +1,87 @@
+id: github__cormanz__smartgpt
+kind: github-repo
+name: smartgpt
+canonical_url: https://github.com/cormanz/smartgpt
+identity:
+  github_repo: cormanz/smartgpt
+provenance:
+  discoveries:
+    - id: discovery__github__cormanz__smartgpt__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Other LLM Frameworks
+        anchor_text: SmartGPT
+        extracted_url: https://github.com/cormanz/smartgpt
+        surrounding_text: "- [SmartGPT](https://github.com/Cormanz/smartgpt): A program that provides LLMs with the ability to complete complex tasks using plugins. ![GitHub Repo stars](https://img.shields.io/github/stars/Cormanz/smartgpt?style=social)"
+        confidence: high
+metadata:
+  github:
+    stars: 1736
+    forks: 125
+    license: MIT
+    archived: false
+    created_at: "2023-04-11T01:27:02Z"
+    pushed_at: "2024-04-11T05:46:18Z"
+    description: A program that provides LLMs with the ability to complete complex tasks using plugins.
+    homepage: ""
+    topics:
+      - ai
+      - gpt-3
+      - gpt-4
+      - llm
+      - openai
+      - rust
+    last_checked_at: "2026-05-05T21:01:41.869Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:41.869Z"
+      bytes: 5553
+insights:
+  summary: SmartGPT is an experimental Rust-based program that extends LLMs like GPT-3.5 and GPT-4 with autonomous task-completion capabilities, plugin support, and dynamic/static agent orchestration.
+  why_it_matters: It offers developers a modular, code-first framework for building autonomous agents that can break down complex objectives and interact with external tools like search and browsing.
+  mental_damage: "Just what the ecosystem needed: another experimental agent loop written by a high schooler that promises to solve complex tasks while explicitly warning you that stability is merely a fever dream."
+  tags:
+    - agents
+    - rust
+    - autonomous
+    - plugins
+    - framework
+  confidence: high
+curation:
+  status: included
+  reason: The project is a code-first Rust framework for building autonomous LLM agents with plugins and memory, fitting the AI Frameworks category rather than a coding assistant.
+  evidence:
+    - Repo description states it is 'A program that provides LLMs with the ability to complete complex tasks using plugins.'
+    - README describes it as an 'experimental program' using 'Dynamic Agent' and 'Static Agent' logic, built with Rust (cargo run).
+    - Listed in 'awesome-langchain' under 'Other LLM Frameworks', reinforcing its identity as a developer tool/library.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1736) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.683Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:41.869Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:14:32.349Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

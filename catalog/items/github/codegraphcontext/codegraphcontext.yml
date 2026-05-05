@@ -1,0 +1,84 @@
+id: github__codegraphcontext__codegraphcontext
+kind: github-repo
+name: codegraphcontext
+canonical_url: https://github.com/codegraphcontext/codegraphcontext
+identity:
+  github_repo: codegraphcontext/codegraphcontext
+provenance:
+  discoveries:
+    - id: discovery__github__shashankss1205__codegraphcontext__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🤖 <a name="coding-agents"></a>Coding Agents
+        anchor_text: shashankss1205/codegraphcontext
+        extracted_url: https://github.com/shashankss1205/codegraphcontext
+        surrounding_text: "- [shashankss1205/codegraphcontext](https://github.com/Shashankss1205/CodeGraphContext) 🐍 🏠 🍎 🪟 🐧 An MCP server that indexes local code into a graph database to provide context to AI assistants with a graphical code visualizations for humans."
+        confidence: high
+metadata:
+  github:
+    stars: 3156
+    forks: 564
+    license: MIT
+    archived: false
+    created_at: "2025-08-16T19:20:31Z"
+    pushed_at: "2026-05-04T17:25:37Z"
+    description: An MCP server plus a CLI tool that indexes local code into a graph database to provide context to AI assistants.
+    homepage: https://codegraphcontext.vercel.app/
+    topics:
+      - hacktoberfest2025
+      - social-winter-of-code
+    last_checked_at: "2026-05-05T21:01:37.486Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:37.486Z"
+      bytes: 19751
+insights:
+  summary: An MCP server and CLI tool that indexes local codebases into a graph database to provide structural context to AI assistants.
+  why_it_matters: It gives coding agents a queryable map of call-chains and code relationships, reducing the context-window guessing games that happen on large repositories.
+  mental_damage: We have successfully reached the point where the AI needs a graph database just to pretend it read the codebase you cloned this morning.
+  tags:
+    - mcp
+    - context-engineering
+    - cli
+    - graph-database
+    - code-analysis
+  confidence: high
+curation:
+  status: included
+  reason: The project is itself an MCP server and CLI toolkit designed to feed structured code context to AI assistants, which aligns directly with the MCP infrastructure category.
+  evidence:
+    - Repo description explicitly states it is an 'MCP server plus a CLI tool that indexes local code into a graph database'.
+    - README confirms it is a 'powerful MCP server and CLI toolkit' that connects to AI IDEs via MCP.
+    - The project is active (pushed 2026-05-04) with 3,156 stars and is not archived.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (3156) exceeded threshold (150)
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:13:44.465Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.717Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:37.486Z"
+    cause: null
+    next_retry_at: null

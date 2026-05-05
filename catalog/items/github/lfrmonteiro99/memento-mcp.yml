@@ -1,0 +1,82 @@
+id: github__lfrmonteiro99__memento-mcp
+kind: github-repo
+name: memento-mcp
+canonical_url: https://github.com/lfrmonteiro99/memento-mcp
+identity:
+  github_repo: lfrmonteiro99/memento-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__lfrmonteiro99__memento-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: lfrmonteiro99/memento-mcp
+        extracted_url: https://github.com/lfrmonteiro99/memento-mcp
+        surrounding_text: "- [lfrmonteiro99/memento-mcp](https://github.com/lfrmonteiro99/memento-mcp) [![lfrmonteiro99/memento-mcp MCP server](https://glama.ai/mcp/servers/lfrmonteiro99/memento-mcp/badges/score.svg)](https://glama.ai/mcp/servers/lfrmonteiro99/memento-mcp) 📇 🏠 🍎 🪟 🐧 - Local-first persistent memory for AI coding agents. Captures facts, decisions, patterns, and architecture notes in SQLite (with optional cloud embeddings) to reduce repeated context across sessions."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-04-16T14:00:16Z"
+    pushed_at: "2026-05-05T09:17:17Z"
+    description: Persistent memory MCP server with typed memories, decay scoring, and token-aware context injection
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:03:19.194Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:19.194Z"
+      bytes: 18917
+insights:
+  summary: A local-first MCP server that provides persistent, typed memory and token-aware context injection for AI coding agents using a SQLite-backed knowledge store.
+  why_it_matters: It allows coding agents like Claude Code and Cursor to retain architectural decisions, conventions, and pitfalls across sessions, reducing the need to re-explain project context and burn tokens.
+  mental_damage: We have finally solved the 'AI forgets why we did it that way' problem by adding a database to remember the things we originally wrote down in markdown files that the AI also forgot.
+  tags:
+    - mcp
+    - memory
+    - context
+    - local-first
+    - coding-agent
+  confidence: high
+curation:
+  status: included
+  reason: The project is a specialized MCP server providing memory infrastructure, which fits cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly defines it as a 'Persistent memory MCP server'.
+    - README states it is a 'local-first MCP server' that integrates with Claude Code, Codex, and Cursor via stdio-MCP.
+    - Listed in awesome-mcp-servers under 'Knowledge & Memory' server implementations.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.704Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:19.194Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:33:46.341Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

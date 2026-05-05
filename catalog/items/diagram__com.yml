@@ -1,0 +1,75 @@
+id: diagram__com
+kind: website
+name: diagram.com
+canonical_url: https://diagram.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__diagram__com__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Diagram
+        anchor_text: Diagram
+        extracted_url: https://diagram.com
+        surrounding_text: "## [Diagram](https://diagram.com/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Diagram.com is a hosted, browser-first AI product that turns prompts into full apps, sites, dashboards, or deployed internal tools.
+  why_it_matters: It lets developers prototype and ship entire applications from a prompt inside a browser, bypassing the usual repo-and-editor setup.
+  mental_damage: Another reminder that your carefully maintained component library is now just a mildly annoying suggestion to a very confident text box.
+  tags:
+    - app-builder
+    - browser-first
+    - prompt-to-app
+    - prototyping
+  confidence: medium
+curation:
+  status: included
+  reason: The product is a browser-first SaaS that generates whole apps and sites from prompts, which maps directly to the app-builders category.
+  evidence:
+    - URL https://diagram.com points to a browser-first prompt-to-app product
+    - Listed under 'Diagram' in the awesome-ai-agents directory as a prompt-driven app-generation tool
+placement:
+  primary_category: app-builders
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.727Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:43:42.187Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

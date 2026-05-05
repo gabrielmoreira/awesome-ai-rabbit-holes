@@ -1,0 +1,86 @@
+id: github__lostintangent__gistpad-mcp
+kind: github-repo
+name: gistpad-mcp
+canonical_url: https://github.com/lostintangent/gistpad-mcp
+identity:
+  github_repo: lostintangent/gistpad-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__lostintangent__gistpad-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: GistPad-MCP
+        extracted_url: https://github.com/lostintangent/gistpad-mcp
+        surrounding_text: "- [GistPad-MCP](https://github.com/lostintangent/gistpad-mcp) 📇 🏠 - Use GitHub Gists to manage and access your personal knowledge, daily notes, and reusable prompts. This acts as a companion to https://gistpad.dev and the [GistPad VS Code extension](https://aka.ms/gistpad)."
+        confidence: high
+metadata:
+  github:
+    stars: 189
+    forks: 29
+    license: MIT
+    archived: false
+    created_at: "2025-03-12T18:02:16Z"
+    pushed_at: "2026-01-16T17:58:32Z"
+    description: 📓 An MCP server for managing your personal knowledge, daily notes, and re-usable prompts via GitHub Gists
+    homepage: https://npmjs.com/gistpad-mcp
+    topics:
+      - gists
+      - mcp
+      - mcp-server
+      - notetaking
+      - pkm
+    last_checked_at: "2026-05-05T21:03:24.377Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:24.377Z"
+      bytes: 7383
+insights:
+  summary: An MCP server that lets AI assistants manage personal knowledge, daily notes, and reusable prompts via GitHub Gists.
+  why_it_matters: It connects your existing gist-based PKM workflow to any MCP-enabled AI client, letting Copilot or Claude read, edit, and organize notes without leaving the chat.
+  mental_damage: You now have an AI agent managing your gists so you can finally stop pretending you will manually maintain a second brain that you only open when you panic.
+  tags:
+    - mcp
+    - gists
+    - pkm
+    - notes
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server implementing the Model Context Protocol to expose GitHub Gists as tools and resources.
+  evidence:
+    - Repo description states it is 'An MCP server for managing your personal knowledge, daily notes, and re-usable prompts via GitHub Gists'.
+    - README details included tools for gist management, file management, and comments specifically for MCP clients like GitHub Copilot and Claude Desktop.
+    - Listed in awesome-mcp-servers under Server Implementations > Knowledge & Memory.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (189) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.704Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:24.377Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:34:44.552Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

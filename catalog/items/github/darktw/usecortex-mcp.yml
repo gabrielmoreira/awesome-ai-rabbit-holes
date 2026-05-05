@@ -1,0 +1,90 @@
+id: github__darktw__usecortex-mcp
+kind: github-repo
+name: usecortex-mcp
+canonical_url: https://github.com/darktw/usecortex-mcp
+identity:
+  github_repo: darktw/usecortex-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__darktw__usecortex-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: darktw/usecortex-mcp
+        extracted_url: https://github.com/darktw/usecortex-mcp
+        surrounding_text: "- [darktw/usecortex-mcp](https://github.com/darktw/usecortex-mcp) [![darktw/usecortex-mcp MCP server](https://glama.ai/mcp/servers/darktw/usecortex-mcp/badges/score.svg)](https://glama.ai/mcp/servers/darktw/usecortex-mcp) ☁️ - Persistent knowledge memory for AI agents. Two-way flow: read context into projects and write discoveries back. Structured by topic with AES-256 encryption."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-03-09T01:54:10Z"
+    pushed_at: "2026-03-17T17:03:30Z"
+    description: UseCortex MCP Server — Give your AI coding agent a persistent memory. Read and write knowledge from any tool.
+    homepage: https://usecortex.net
+    topics:
+      - ai-memory
+      - ai-tools
+      - context
+      - developer-tools
+      - encrypted
+      - knowledge-management
+      - mcp
+      - mcp-server
+      - usecortex
+    last_checked_at: "2026-05-05T21:01:46.985Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:46.985Z"
+      bytes: 9387
+insights:
+  summary: An MCP server that connects AI coding agents to the UseCortex SaaS, enabling persistent, encrypted knowledge storage and retrieval across MCP-compatible tools.
+  why_it_matters: It allows coding agents to maintain a shared, structured memory of architectural decisions and standards outside their limited context windows, reducing repetitive re-explanation across sessions and tools.
+  mental_damage: We have successfully solved the problem of AI forgetting things by introducing yet another account, another API key, and another encrypted silo to manage.
+  tags:
+    - mcp
+    - memory
+    - context
+    - ai-agents
+  confidence: high
+curation:
+  status: included
+  reason: The primary artifact is a Model Context Protocol server implementation designed to integrate with MCP clients, fitting the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description explicitly states: 'UseCortex MCP Server — Give your AI coding agent a persistent memory.'"
+    - README confirms it is a 'Model Context Protocol server' with installation instructions for MCP clients like Claude.
+    - Listed in awesome-mcp-servers under the 'Knowledge & Memory' section.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.441Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:46.985Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:15:25.397Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

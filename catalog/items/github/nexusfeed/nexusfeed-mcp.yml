@@ -1,0 +1,82 @@
+id: github__nexusfeed__nexusfeed-mcp
+kind: github-repo
+name: nexusfeed-mcp
+canonical_url: https://github.com/nexusfeed/nexusfeed-mcp
+identity:
+  github_repo: nexusfeed/nexusfeed-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__nexusfeed__nexusfeed-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - ⚖️ <a name="legal"></a>Legal
+        anchor_text: NexusFeed/nexusfeed-mcp
+        extracted_url: https://github.com/nexusfeed/nexusfeed-mcp
+        surrounding_text: "- [NexusFeed/nexusfeed-mcp](https://github.com/NexusFeed/nexusfeed-mcp) [![NexusFeed/nexusfeed-mcp MCP server](https://glama.ai/mcp/servers/NexusFeed/nexusfeed-mcp/badges/score.svg)](https://glama.ai/mcp/servers/NexusFeed/nexusfeed-mcp) 🐍 ☁️ - US state ABC liquor license compliance lookup (CA, TX, NY, FL) — search by trade name, owner, or license number and verify status, expiration, and address against state portals. Every response includes a verifiability block with extraction confidence and source URL."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-04-08T13:51:29Z"
+    pushed_at: "2026-04-15T21:54:09Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:03:53.895Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:53.895Z"
+      bytes: 6519
+insights:
+  summary: An MCP server that provides AI agents with real-time LTL freight fuel surcharge rates and US state ABC liquor license compliance records via structured JSON.
+  why_it_matters: It allows developers building agentic workflows to integrate verifiable, hard-to-scrape logistics and compliance data without handling JS-rendered pages, CAPTCHAs, or session state themselves.
+  mental_damage: We have successfully abstracted the nightmare of navigating state liquor license portals into a clean JSON schema, yet we still haven't solved the OCR errors on the shipping invoices we're now auditing with it.
+  tags:
+    - mcp-server
+    - logistics
+    - compliance
+    - agent-tools
+    - verifiability
+  confidence: high
+curation:
+  status: included
+  reason: The primary artifact is a Model Context Protocol server specifically designed to expose external APIs as tools for AI agents.
+  evidence:
+    - README explicitly describes it as serving data 'via the Model Context Protocol' with stdio and HTTP transport options.
+    - Includes standard MCP configuration examples for Claude Desktop and Cline (VS Code).
+    - Listed in the awesome-mcp-servers directory under 'Server Implementations > Legal'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.709Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:53.895Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:40:29.658Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

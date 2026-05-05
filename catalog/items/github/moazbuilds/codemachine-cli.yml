@@ -1,0 +1,93 @@
+id: github__moazbuilds__codemachine-cli
+kind: github-repo
+name: codemachine-cli
+canonical_url: https://github.com/moazbuilds/codemachine-cli
+identity:
+  github_repo: moazbuilds/codemachine-cli
+provenance:
+  discoveries:
+    - id: discovery__github__moazbuilds__codemachine-cli__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Terminal-native coding agents
+          - Open Source
+        anchor_text: CodeMachine-CLI
+        extracted_url: https://github.com/moazbuilds/codemachine-cli
+        surrounding_text: "- **[CodeMachine-CLI](https://github.com/moazbuilds/CodeMachine-CLI)** `⭐ 2.5k` — Community multi-agent CLI aimed at running coding workflows locally (vibe-coding oriented)."
+        confidence: high
+metadata:
+  github:
+    stars: 2474
+    forks: 239
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-09-28T15:28:47Z"
+    pushed_at: "2026-02-25T21:09:41Z"
+    description: CodeMachine is an open-source tool that orchestrates AI coding agents into repeatable, long-running workflows. ⚡️
+    homepage: https://codemachine.co/
+    topics:
+      - ai
+      - automation
+      - cli
+      - cli-tool
+      - code-generation
+      - developer-tools
+      - generative-ai
+      - multi-agent-systems
+      - orchestration
+      - scaffolding
+      - workflow-automation
+    last_checked_at: "2026-05-05T21:03:44.505Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:44.505Z"
+      bytes: 3955
+insights:
+  summary: An open-source CLI tool that orchestrates AI coding agents through structured, repeatable, and long-running workflows using headless scripting modes.
+  why_it_matters: It allows developers to capture complex agent workflows—like bug fixing or feature building—into reusable definitions, eliminating the need to manually re-explain processes to agents across sessions.
+  mental_damage: You’ve successfully automated the process of nagging your AI agents, effectively turning your terminal into a middle manager that never forgets the workflow you wish you didn't have to repeat.
+  tags:
+    - cli
+    - orchestration
+    - multi-agent
+    - workflow-automation
+    - coding-agents
+  confidence: high
+curation:
+  status: included
+  reason: CodeMachine is a user-facing orchestration layer that controls and coordinates multiple AI coding agents via CLI, fitting the definition of agent orchestration rather than being a primary coding assistant itself.
+  evidence:
+    - Repo description states it 'orchestrates AI coding agents into repeatable, long-running workflows.'
+    - README describes it as 'an orchestration layer that runs AI coding CLIs' and supports multi-agent orchestration and parallel execution.
+    - Listed in awesome-cli-coding-agents under 'Terminal-native coding agents > Open Source', confirming its relevance to the CLI agent ecosystem.
+placement:
+  primary_category: agent-orchestration
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (2474) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.708Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:44.505Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:38:41.280Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

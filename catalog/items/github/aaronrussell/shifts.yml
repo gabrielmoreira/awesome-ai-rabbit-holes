@@ -1,0 +1,89 @@
+id: github__aaronrussell__shifts
+kind: github-repo
+name: shifts
+canonical_url: https://github.com/aaronrussell/shifts
+identity:
+  github_repo: aaronrussell/shifts
+provenance:
+  discoveries:
+    - id: discovery__github__aaronrussell__shifts__awesome-list__vivy-yi__awesome-agent-orchestration
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: vivy-yi/awesome-agent-orchestration
+        url: https://github.com/vivy-yi/awesome-agent-orchestration
+        repository: vivy-yi/awesome-agent-orchestration
+      extraction:
+        mode: parsed
+        section_path:
+          - Core Frameworks
+          - Swift, Ruby & Elixir Frameworks
+        anchor_text: shifts
+        extracted_url: https://github.com/aaronrussell/shifts
+        surrounding_text: "| [shifts](https://github.com/aaronrussell/shifts) | Elixir framework for composing autonomous AI agent workflows | ![Stars](https://img.shields.io/github/stars/aaronrussell/shifts) |"
+        confidence: high
+metadata:
+  github:
+    stars: 36
+    forks: 0
+    license: null
+    archived: false
+    created_at: "2024-04-06T15:37:01Z"
+    pushed_at: "2024-06-21T15:31:15Z"
+    description: Elixir framework for composing autonomous AI agent workflows.
+    homepage: ""
+    topics:
+      - agentic
+      - anthropic
+      - automation
+      - elixir
+      - llms
+      - ollama
+      - openai
+    last_checked_at: "2026-05-05T21:00:45.900Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:45.900Z"
+      bytes: 2000
+insights:
+  summary: Shifts is an Elixir framework for composing autonomous AI agent workflows using a mixture of LLM backends like Anthropic and Ollama.
+  why_it_matters: It allows Elixir developers to build stateful, multi-step agent workflows with tool-calling capabilities directly within their existing ecosystem.
+  mental_damage: Now you can orchestrate a swarm of agents in Elixir while pretending the 0.0.x stability tag and the 'for the brave and adventurous' warning don't exist.
+  tags:
+    - elixir
+    - agent-orchestration
+    - llm
+    - framework
+    - autonomous-agents
+  confidence: medium
+curation:
+  status: included
+  reason: This is a code-first library/framework that developers import into their Elixir projects to build agent behaviors, fitting the ai-frameworks definition over the operational agent-orchestration platform definition.
+  evidence:
+    - Repo description explicitly states 'Elixir framework for composing autonomous AI agent workflows'.
+    - "README instructs users to add it as a dependency in mix.exs: {:shifts, '~> 0.0.2'}."
+    - Listed in awesome-agent-orchestration under 'Core Frameworks > Swift, Ruby & Elixir Frameworks'.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.676Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:45.900Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:05:19.080Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

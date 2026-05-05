@@ -1,0 +1,98 @@
+id: github__lutzroeder__netron
+kind: github-repo
+name: netron
+canonical_url: https://github.com/lutzroeder/netron
+identity:
+  github_repo: lutzroeder/netron
+provenance:
+  discoveries:
+    - id: discovery__github__lutzroeder__netron__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Training
+          - Visualization
+        anchor_text: netron
+        extracted_url: https://github.com/lutzroeder/netron
+        surrounding_text: "| [netron](https://github.com/lutzroeder/netron)                 | Visualizer for neural network, deep learning, and machine learning models.                                                                                                    | ![GitHub Badge](https://img.shields.io/github/stars/lutzroeder/netron.svg?style=flat-square)            |"
+        confidence: high
+metadata:
+  github:
+    stars: 32839
+    forks: 3111
+    license: MIT
+    archived: false
+    created_at: "2010-12-26T12:53:43Z"
+    pushed_at: "2026-05-05T18:54:03Z"
+    description: Visualizer for neural network, deep learning and machine learning models
+    homepage: https://netron.app
+    topics:
+      - ai
+      - coreml
+      - deep-learning
+      - deeplearning
+      - keras
+      - machine-learning
+      - machinelearning
+      - ml
+      - neural-network
+      - numpy
+      - onnx
+      - pytorch
+      - safetensors
+      - tensorflow
+      - tensorflow-lite
+      - visualizer
+    last_checked_at: "2026-05-05T21:03:26.077Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:26.077Z"
+      bytes: 3348
+insights:
+  summary: Netron is a visualizer for neural network, deep learning, and machine learning models supporting formats like ONNX, PyTorch, TensorFlow Lite, and Core ML.
+  why_it_matters: It allows developers to inspect, debug, and understand complex model architectures and weights without needing to write custom scripts or load models into memory.
+  mental_damage: You now have a beautiful GUI to confirm that your 4GB model file is mostly just layer names you forgot you renamed three experiments ago.
+  tags:
+    - model-visualizer
+    - onnx
+    - pytorch
+    - tensorflow
+    - ml-tooling
+  confidence: high
+curation:
+  status: excluded
+  reason: While a high-quality tool, Netron is a model visualization utility for ML engineers rather than a developer-facing AI tool, agent, or infrastructure component for building software.
+  evidence:
+    - Repo description defines it strictly as a 'Visualizer for neural network, deep learning and machine learning models'.
+    - README focuses entirely on viewing model file formats (ONNX, TF, PyTorch) rather than code generation, agent workflows, or developer infrastructure.
+    - Appears in Awesome-LLMOps under 'Training > Visualization', which is outside the scope of developer tooling and coding workflows.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (32839) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.705Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:26.077Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:35:00.331Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

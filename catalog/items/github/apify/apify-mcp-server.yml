@@ -1,0 +1,100 @@
+id: github__apify__apify-mcp-server
+kind: github-repo
+name: mcp
+canonical_url: https://github.com/apify/apify-mcp-server
+identity:
+  github_repo: apify/apify-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__apify__com__fantastic__jobs__career__site__job__listing__api__api__mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: Career Site Jobs
+        extracted_url: https://apify.com/fantastic-jobs/career-site-job-listing-api/api/mcp
+        surrounding_text: "- **[Career Site Jobs](https://apify.com/fantastic-jobs/career-site-job-listing-api/api/mcp)** - A MCP server to retrieve up-to-date jobs from company career sites."
+        confidence: high
+    - id: discovery__github__apify__actors-mcp-server__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Apify
+        extracted_url: https://github.com/apify/actors-mcp-server
+        surrounding_text: "- **[Apify](https://github.com/apify/actors-mcp-server)** - [Actors MCP Server](https://apify.com/apify/actors-mcp-server): Use 3,000+ pre-built cloud tools to extract data from websites, e-commerce, social media, search engines, maps, and more"
+        confidence: high
+metadata:
+  github:
+    stars: 1188
+    forks: 162
+    license: MIT
+    archived: false
+    created_at: "2025-01-02T15:43:09Z"
+    pushed_at: "2026-05-05T19:47:14Z"
+    description: The Apify MCP server enables your AI agents to extract data from social media, search engines, maps, e-commerce sites, or any other website using thousands of ready-made scrapers, crawlers, and automation tools available on the Apify Store.
+    homepage: https://mcp.apify.com
+    topics:
+      - agents
+      - ai
+      - mcp
+      - mcp-server
+    last_checked_at: "2026-05-05T21:01:07.010Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:07.010Z"
+      bytes: 30729
+insights:
+  summary: An MCP server that exposes thousands of Apify Actors as tools so AI agents can scrape and extract data from websites, search engines, maps, and social media platforms.
+  why_it_matters: Developers can connect AI assistants in Claude, Cursor, or VS Code directly to a vast library of web scrapers without writing custom extraction code.
+  mental_damage: We have successfully abstracted away the tedious work of writing a scraper, only to replace it with the equally tedious work of persuading an agent to use one correctly.
+  tags:
+    - mcp
+    - scraping
+    - agents
+    - apify
+    - data-extraction
+  confidence: high
+curation:
+  status: included
+  reason: The project is an MCP server that makes Apify's scraping actors available as tools to MCP-compatible clients, fitting cleanly into MCP infrastructure.
+  evidence:
+    - Repo description explicitly states it is 'The Apify MCP server' enabling AI agents to use Apify Store scrapers via MCP.
+    - README lists compatibility with Claude, Cursor, VS Code, and other MCP clients, and promotes the hosted mcp.apify.com endpoint.
+    - Topics include mcp and mcp-server, and the project is actively maintained (pushed 2026-05-05).
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1188) exceeded threshold (150)
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:04:30.460Z"
+    cause: null
+    attempts: 2
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+    next_retry_at: null
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.726Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:07.010Z"
+    cause: null
+    next_retry_at: null

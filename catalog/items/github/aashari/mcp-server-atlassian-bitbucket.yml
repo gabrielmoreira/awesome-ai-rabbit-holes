@@ -1,0 +1,101 @@
+id: github__aashari__mcp-server-atlassian-bitbucket
+kind: github-repo
+name: mcp-server-atlassian-bitbucket
+canonical_url: https://github.com/aashari/mcp-server-atlassian-bitbucket
+identity:
+  github_repo: aashari/mcp-server-atlassian-bitbucket
+provenance:
+  discoveries:
+    - id: discovery__github__aashari__mcp-server-atlassian-bitbucket__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: aashari/mcp-server-atlassian-bitbucket
+        extracted_url: https://github.com/aashari/mcp-server-atlassian-bitbucket
+        surrounding_text: "- [aashari/mcp-server-atlassian-bitbucket](https://github.com/aashari/mcp-server-atlassian-bitbucket) 📇 ☁️ - Atlassian Bitbucket Cloud integration. Enables AI systems to interact with repositories, pull requests, workspaces, and code in real time."
+        confidence: high
+metadata:
+  github:
+    stars: 146
+    forks: 52
+    license: null
+    archived: false
+    created_at: "2025-03-24T12:18:56Z"
+    pushed_at: "2026-03-06T07:29:48Z"
+    description: Node.js/TypeScript MCP server for Atlassian Bitbucket. Enables AI systems (LLMs) to interact with workspaces, repositories, and pull requests via tools (list, get, comment, search). Connects AI directly to version control workflows through the standard MCP interface.
+    homepage: null
+    topics:
+      - ai
+      - ai-connector
+      - ai-integration
+      - anthropic
+      - atlassian
+      - bitbucket
+      - claude
+      - cli
+      - llm
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - pull-request
+      - repository
+      - server
+      - tooling
+      - tools
+      - typescript
+      - version-control
+    last_checked_at: "2026-05-05T21:00:46.110Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:46.110Z"
+      bytes: 25314
+insights:
+  summary: A Node.js/TypeScript MCP server that lets AI assistants like Claude and Cursor read repositories, manage pull requests, and search code in Atlassian Bitbucket Cloud.
+  why_it_matters: It connects LLMs directly to version control workflows so developers can query repo status, review PRs, and automate Bitbucket tasks using natural language.
+  mental_damage: Yet another MCP server ensuring your AI can comment on a pull request before you’ve even decided whether that pull request should exist.
+  tags:
+    - mcp
+    - bitbucket
+    - typescript
+    - version-control
+    - ai-integration
+  confidence: high
+curation:
+  status: included
+  reason: This is a dedicated MCP server for Bitbucket with clear tooling scope, making it a textbook fit for the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states it is 'Node.js/TypeScript MCP server for Atlassian Bitbucket' with MCP interface.
+    - README confirms it connects Claude, Cursor AI, and other AI assistants directly to repositories and pull requests.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.676Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:46.110Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:05:20.608Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

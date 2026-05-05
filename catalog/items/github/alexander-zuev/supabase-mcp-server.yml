@@ -1,0 +1,100 @@
+id: github__alexander-zuev__supabase-mcp-server
+kind: github-repo
+name: supabase-mcp-server
+canonical_url: https://github.com/alexander-zuev/supabase-mcp-server
+identity:
+  github_repo: alexander-zuev/supabase-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__alexander-zuev__supabase-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🗄️ <a name="databases"></a>Databases
+        anchor_text: alexanderzuev/supabase-mcp-server
+        extracted_url: https://github.com/alexander-zuev/supabase-mcp-server
+        surrounding_text: "- [alexanderzuev/supabase-mcp-server](https://github.com/alexander-zuev/supabase-mcp-server) - Supabase MCP Server with support for SQL query execution and database exploration tools"
+        confidence: high
+    - id: discovery__github__alexander-zuev__supabase-mcp-server__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - 🗄️ Databases
+        anchor_text: "@alexander-zuev/supabase-mcp-server"
+        extracted_url: https://github.com/alexander-zuev/supabase-mcp-server
+        surrounding_text: "-   **[@alexander-zuev/supabase-mcp-server](https://github.com/alexander-zuev/supabase-mcp-server)** [![GitHub stars](https://img.shields.io/github/stars/alexander-zuev/supabase-mcp-server?style=social)](https://github.com/alexander-zuev/supabase-mcp-server): Supports SQL query execution and database exploration within Supabase."
+        confidence: high
+metadata:
+  github:
+    stars: 819
+    forks: 106
+    license: Apache-2.0
+    archived: true
+    created_at: "2025-02-15T08:54:29Z"
+    pushed_at: "2025-09-26T14:03:00Z"
+    description: "Query MCP enables end-to-end management of Supabase via chat interface: read & write query executions, management API support, automatic migration versioning, access to logs and much more."
+    homepage: ""
+    topics:
+      - cursor
+      - model-context-protocol
+      - supabase
+      - windsurf
+    last_checked_at: "2026-05-05T21:00:57.978Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:57.978Z"
+      bytes: 29175
+insights:
+  summary: An open-source MCP server that lets developers manage Supabase projects, execute SQL queries, and handle schema migrations directly from AI IDEs like Cursor and Windsurf.
+  why_it_matters: It allows developers to perform database management tasks and schema changes through natural language chat interfaces rather than switching contexts to SQL editors or CLIs.
+  mental_damage: We have reached the phase where our database is being managed by a chatbot that relies on a community server that the author has politely abandoned in favor of the official one.
+  tags:
+    - mcp
+    - supabase
+    - database
+    - cursor
+    - windsurf
+  confidence: high
+curation:
+  status: excluded
+  reason: The repository is archived and the author explicitly states in the README that they have stopped maintaining it in favor of the official Supabase MCP server, making it a stale entry.
+  evidence:
+    - Repository is marked as archived on GitHub.
+    - "README states: 'Since Supabase has released their own official MCP server, I've decided to no longer actively maintain this one.'"
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: needs_review
+  reason: Repository is archived
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.662Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:57.978Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:07:19.443Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

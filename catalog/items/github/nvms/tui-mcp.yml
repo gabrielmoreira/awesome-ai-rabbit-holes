@@ -1,0 +1,82 @@
+id: github__nvms__tui-mcp
+kind: github-repo
+name: tui-mcp
+canonical_url: https://github.com/nvms/tui-mcp
+identity:
+  github_repo: nvms/tui-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__nvms__tui-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🖥️ <a name="command-line"></a>Command Line
+        anchor_text: nvms/tui-mcp
+        extracted_url: https://github.com/nvms/tui-mcp
+        surrounding_text: "- [nvms/tui-mcp](https://github.com/nvms/tui-mcp) [![tui-mcp MCP server](https://glama.ai/mcp/servers/nvms/tui-mcp/badges/score.svg)](https://glama.ai/mcp/servers/nvms/tui-mcp) 📇 🏠 🍎 🪟 🐧 - What Chrome DevTools MCP is for the browser, tui-mcp is for the terminal. Launch, screenshot, and interact with any TUI app."
+        confidence: high
+metadata:
+  github:
+    stars: 3
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-03-13T01:14:41Z"
+    pushed_at: "2026-03-19T17:13:33Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:03:57.551Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:57.551Z"
+      bytes: 4815
+insights:
+  summary: An MCP server that launches terminal applications in a managed pseudo-terminal, allowing AI agents to interact with stateful, full-screen TUI programs via screenshots, text snapshots, and keystrokes.
+  why_it_matters: It allows coding agents to drive interactive CLI tools, debuggers, and legacy admin panels that require a real TTY and persistent session state, removing the need for custom API wrappers.
+  mental_damage: We have successfully taught a large language model to press 'q' to exit vim, which is arguably the most expensive way to automate a task that has been trivial for decades.
+  tags:
+    - mcp
+    - terminal
+    - automation
+    - pty
+    - cli
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server designed to allow AI tools to interact with terminal applications, fitting the MCP Servers and Tooling category.
+  evidence:
+    - "README states: 'tui-mcp is for the terminal' and lists tools like launch, screenshot, and send_keys as MCP tools."
+    - Setup instruction shows integration via 'claude mcp add'.
+    - Listed in the 'awesome-mcp-servers' directory under Server Implementations > Command Line.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.710Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:57.551Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:41:17.790Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

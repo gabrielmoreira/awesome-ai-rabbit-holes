@@ -1,0 +1,94 @@
+id: github__nalediym__touch-grass
+kind: github-repo
+name: touch-grass
+canonical_url: https://github.com/nalediym/touch-grass
+identity:
+  github_repo: nalediym/touch-grass
+provenance:
+  discoveries:
+    - id: discovery__github__nalediym__touch-grass__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🌳 <a name="environment-and-nature"></a>Environment & Nature
+        anchor_text: nalediym/touch-grass
+        extracted_url: https://github.com/nalediym/touch-grass
+        surrounding_text: "- [nalediym/touch-grass](https://github.com/nalediym/touch-grass) [![nalediym/touch-grass MCP server](https://glama.ai/mcp/servers/nalediym/touch-grass/badges/score.svg)](https://glama.ai/mcp/servers/nalediym/touch-grass) 📇 🏠 🍎 🪟 🐧 - Claude Code plugin and MCP server that nudges you to take outdoor breaks based on local weather, sunset timing, and session streaks. Tools: `check_grass_conditions`, `suggest_activity`, `log_touch_grass`, `get_stats`. Fully local, no API keys, no cloud storage."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2026-04-11T19:40:34Z"
+    pushed_at: "2026-04-26T02:41:38Z"
+    description: A Claude Code plugin that teaches your AI agent to remind you to go outside. Weather-aware, sunset-aware, session-aware. Ships an MCP server + SessionStart hook + skill.
+    homepage: https://touch-grass-xi.vercel.app
+    topics:
+      - ai-agent
+      - break-reminder
+      - claude-code
+      - claude-code-hooks
+      - claude-code-plugin
+      - coding-break
+      - developer-wellness
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - pomodoro
+      - touch-grass
+    last_checked_at: "2026-05-05T21:03:50.999Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:50.999Z"
+      bytes: 12333
+insights:
+  summary: A Claude Code plugin that combines an MCP server, SessionStart hook, and skill pack to contextually remind developers to take breaks based on weather, sunset timing, and coding session activity.
+  why_it_matters: It replaces disruptive Pomodoro timers by leveraging the AI agent's awareness of your workflow state to suggest breaks at natural pauses, integrating environmental context directly into the coding environment.
+  mental_damage: We have successfully reached the point where we need to build MCP servers and inject hooks just to convince our AI assistants to parent us into going outside.
+  tags:
+    - claude-code
+    - mcp
+    - wellness
+    - plugin
+    - skills
+  confidence: high
+curation:
+  status: included
+  reason: The project is primarily distributed as a reusable skill pack and plugin designed to extend Claude Code with specific behavioral rules and MCP tooling.
+  evidence:
+    - Repo description explicitly identifies it as 'A Claude Code plugin... Ships an MCP server + SessionStart hook + skill.'
+    - README details a 'Skill' component that 'teaches the agent when to nudge, when to stay quiet, and what tone to use.'
+    - The primary artifact is a rules/skills bundle for an AI tool host, fitting the skills category definition.
+placement:
+  primary_category: skills
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.709Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:50.999Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:39:55.373Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

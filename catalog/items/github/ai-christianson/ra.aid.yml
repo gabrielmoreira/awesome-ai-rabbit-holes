@@ -1,0 +1,84 @@
+id: github__ai-christianson__ra.aid
+kind: github-repo
+name: ra.aid
+canonical_url: https://github.com/ai-christianson/ra.aid
+identity:
+  github_repo: ai-christianson/ra.aid
+provenance:
+  discoveries:
+    - id: discovery__github__ai-christianson__ra.aid__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Terminal-native coding agents
+          - Open Source
+        anchor_text: RA.Aid
+        extracted_url: https://github.com/ai-christianson/ra.aid
+        surrounding_text: "- **[RA.Aid](https://github.com/ai-christianson/RA.Aid)** `⭐ 2.2k` — Autonomous coding agent built on LangGraph with research/plan/implement pipeline; optional aider integration for near-full autonomy."
+        confidence: high
+metadata:
+  github:
+    stars: 2220
+    forks: 210
+    license: Apache-2.0
+    archived: false
+    created_at: "2024-12-10T23:55:34Z"
+    pushed_at: "2026-01-30T16:24:40Z"
+    description: Develop software autonomously.
+    homepage: https://ra-aid.ai/
+    topics:
+      - agents
+      - ai
+      - software-engineering
+    last_checked_at: "2026-05-05T21:00:54.604Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:54.604Z"
+      bytes: 26955
+insights:
+  summary: A terminal-native coding agent built on LangGraph that autonomously researches, plans, and implements multi-step software development tasks within a repository.
+  why_it_matters: It attempts to close the loop on complex coding work by chaining research, planning, and implementation steps directly in the CLI rather than requiring manual iteration on single edits.
+  mental_damage: Another day, another autonomous agent promising to rewrite your codebase while you sip coffee, provided you're comfortable with the 'cowboy mode' disclaimer and a very understanding git diff.
+  tags:
+    - cli
+    - autonomous
+    - langgraph
+    - python
+  confidence: high
+curation:
+  status: included
+  reason: The project is a standalone CLI coding agent designed to plan, research, and implement code changes across a repository, fitting the Terminal & CLI Agents section of the coding-agents category.
+  evidence:
+    - Repo description explicitly states 'Develop software autonomously.'
+    - README describes a three-stage architecture (Research, Planning, Implementation) executing multi-step tasks via the CLI.
+    - Listed in the 'awesome-cli-coding-agents' directory under 'Terminal-native coding agents > Open Source'.
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (2220) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.677Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:54.604Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:06:44.524Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

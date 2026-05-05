@@ -1,0 +1,77 @@
+id: testsigma__com
+kind: website
+name: testsigma.com
+canonical_url: https://testsigma.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__testsigma__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Testing and QA
+        anchor_text: Testsigma
+        extracted_url: https://testsigma.com
+        surrounding_text: "- **[Testsigma](https://testsigma.com/)** – AI test automation with natural language test creation."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Testsigma is a no-code, AI-powered test automation platform for web, mobile, API, and enterprise applications that uses AI agents to generate, execute, and self-heal tests.
+  why_it_matters: It allows developers and QA teams to shift test creation and maintenance to AI agents, integrating directly into CI/CD pipelines to reduce manual scripting time.
+  mental_damage: Now your AI agents can argue with the UI agents about why the regression suite is failing, while you wonder if writing the test yourself would have been faster.
+  tags:
+    - testing
+    - qa
+    - ai-agents
+    - no-code
+    - ci-cd
+  confidence: high
+curation:
+  status: included
+  reason: Fits the app-builders category as a hosted prompt-to-app product rather than a direct coding agent or AI IDE.
+  evidence:
+    - Listed in awesome-ai-coding-tools under the 'Testing and QA' section.
+    - Description explicitly mentions 'AI Agents' that generate, run, and manage tests across multiple platforms.
+    - Claims integration with GitHub, Jira, and CI/CD tools like Jenkins and CircleCI for developer workflows.
+placement:
+  primary_category: app-builders
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.731Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:48:40.444Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

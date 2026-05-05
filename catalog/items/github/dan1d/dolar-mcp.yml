@@ -1,0 +1,82 @@
+id: github__dan1d__dolar-mcp
+kind: github-repo
+name: dolar-mcp
+canonical_url: https://github.com/dan1d/dolar-mcp
+identity:
+  github_repo: dan1d/dolar-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__dan1d__dolar-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: dan1d/dolar-mcp
+        extracted_url: https://github.com/dan1d/dolar-mcp
+        surrounding_text: "- [dan1d/dolar-mcp](https://github.com/dan1d/dolar-mcp) [![dolar-mcp MCP server](https://glama.ai/mcp/servers/dan1d/dolar-mcp/badges/score.svg)](https://glama.ai/mcp/servers/dan1d/dolar-mcp) 📇 ☁️ - Argentine exchange rates for AI agents via DolarAPI. Dollar blue, oficial, MEP, CCL, crypto, tarjeta — plus currency conversion and spread calculator."
+        confidence: high
+metadata:
+  github:
+    stars: 4
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-03-08T21:36:25Z"
+    pushed_at: "2026-03-09T00:48:27Z"
+    description: Argentine exchange rates MCP server. Dollar blue, oficial, CCL, crypto and all currencies via DolarAPI.
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:01:45.864Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:45.864Z"
+      bytes: 3975
+insights:
+  summary: An MCP server that provides AI agents with real-time access to Argentine exchange rates, currency conversions, and spread calculations via DolarAPI.
+  why_it_matters: Developers building AI agents for LATAM financial workflows can plug in real-time peso/dollar context without writing their own API integration or managing keys.
+  mental_damage: We have successfully modularized global finance into a plugin for your chatbot, yet we still manually refresh three browser tabs to check if the blue dollar moved five cents.
+  tags:
+    - mcp
+    - argentina
+    - finance
+    - exchange-rates
+    - latam
+  confidence: high
+curation:
+  status: included
+  reason: This is a specialized MCP server that exposes Argentine financial data to AI agents, which cleanly fits the MCP infrastructure category.
+  evidence:
+    - Repo description explicitly states 'Argentine exchange rates MCP server' as the core identity.
+    - README demonstrates MCP integrations for Claude Desktop, Claude Code, Cursor, and Windsurf with concrete tool definitions.
+    - Listed under 'Server Implementations > Finance & Fintech' in the awesome-mcp-servers directory.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.683Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:45.864Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:15:12.727Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

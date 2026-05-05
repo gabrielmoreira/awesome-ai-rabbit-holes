@@ -1,0 +1,95 @@
+id: github__determined-ai__determined
+kind: github-repo
+name: determined
+canonical_url: https://github.com/determined-ai/determined
+identity:
+  github_repo: determined-ai/determined
+provenance:
+  discoveries:
+    - id: discovery__github__determined-ai__determined__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - AutoML
+        anchor_text: Determined
+        extracted_url: https://github.com/determined-ai/determined
+        surrounding_text: "| [Determined](https://github.com/determined-ai/determined)                    | scalable deep learning training platform with integrated hyperparameter tuning support; includes Hyperband, PBT, and other search methods.                                      | ![GitHub Badge](https://img.shields.io/github/stars/determined-ai/determined.svg?style=flat-square)        |"
+        confidence: high
+metadata:
+  github:
+    stars: 3225
+    forks: 371
+    license: Apache-2.0
+    archived: false
+    created_at: "2020-04-07T16:12:29Z"
+    pushed_at: "2025-03-20T19:09:46Z"
+    description: Determined is an open-source machine learning platform that simplifies distributed training, hyperparameter tuning, experiment tracking, and resource management. Works with PyTorch and TensorFlow.
+    homepage: https://determined.ai
+    topics:
+      - data-science
+      - deep-learning
+      - distributed-training
+      - hyperparameter-optimization
+      - hyperparameter-search
+      - hyperparameter-tuning
+      - keras
+      - kubernetes
+      - machine-learning
+      - ml-infrastructure
+      - ml-platform
+      - mlops
+      - pytorch
+      - tensorflow
+    last_checked_at: "2026-05-05T21:01:52.149Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:52.149Z"
+      bytes: 4749
+insights:
+  summary: Determined is an open-source machine learning platform that handles distributed training, hyperparameter tuning, experiment tracking, and resource management for PyTorch and TensorFlow workloads.
+  why_it_matters: It allows ML engineers to stop writing custom scripts for cluster management and instead define training, tuning, and resource allocation via YAML configs and Python APIs.
+  mental_damage: Yet another reminder that while AI writes the code, we still need an entire platform just to manage the GPUs burning down the house.
+  tags:
+    - ml-infrastructure
+    - distributed-training
+    - mlops
+    - pytorch
+    - tensorflow
+  confidence: high
+curation:
+  status: included
+  reason: It is a code-first SDK and infrastructure framework for ML training workflows, fitting the ai-frameworks category rather than a developer coding assistant.
+  evidence:
+    - Repo description explicitly defines it as a machine learning platform for distributed training and experiment tracking.
+    - README details Python library APIs (PyTorchTrial) and YAML configuration for training, fitting the SDK/framework definition.
+    - Topics include ml-infrastructure, distributed-training, and mlops, confirming the ML infrastructure scope over code editing.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (3225) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.684Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:52.149Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:16:13.491Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

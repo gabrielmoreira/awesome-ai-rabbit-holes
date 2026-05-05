@@ -1,0 +1,87 @@
+id: github__kontent-ai__mcp-server
+kind: github-repo
+name: mcp-server
+canonical_url: https://github.com/kontent-ai/mcp-server
+identity:
+  github_repo: kontent-ai/mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__kontent-ai__mcp-server__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Kontent.ai
+        extracted_url: https://github.com/kontent-ai/mcp-server
+        surrounding_text: "- **[Kontent.ai](https://github.com/kontent-ai/mcp-server)** - Create, manage, and explore your content and content model using natural language in any MCP-compatible AI tool."
+        confidence: high
+metadata:
+  github:
+    stars: 9
+    forks: 10
+    license: MIT
+    archived: false
+    created_at: "2025-04-12T17:14:38Z"
+    pushed_at: "2026-04-28T13:44:30Z"
+    description: The Official Kontent.ai MCP server. Connect your AI with Kontent.ai.
+    homepage: https://kontent.ai
+    topics:
+      - ai
+      - kontent-ai
+      - kontent-ai-mcp
+      - kontent-ai-tool
+      - mcp
+      - mcp-server
+    last_checked_at: "2026-05-05T21:03:07.417Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:07.417Z"
+      bytes: 16989
+insights:
+  summary: An official MCP server that connects AI tools like Claude, Cursor, and VS Code to Kontent.ai for managing content models, taxonomies, and content items through natural language.
+  why_it_matters: It allows developers to scaffold content types and manage headless CMS structures conversationally inside their AI-enabled editor instead of clicking through a web UI.
+  mental_damage: Your CMS is now an agent endpoint, so you can hallucinate an entire content model before your coffee finishes brewing.
+  tags:
+    - mcp
+    - kontent-ai
+    - cms
+    - headless
+    - npx
+  confidence: high
+curation:
+  status: included
+  reason: The project is a purpose-built MCP server for Kontent.ai, clearly fitting the MCP Servers and Tooling category rather than a coding agent or extension.
+  evidence:
+    - "Repo description states: 'The Official Kontent.ai MCP server. Connect your AI with Kontent.ai.'"
+    - README confirms it 'implements the Model Context Protocol to connect your Kontent.ai projects with AI tools like Claude, Cursor, and VS Code.'
+    - Listed under 'Official Servers' in the awesome-mcp-servers directory.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.702Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:07.417Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:31:09.383Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,7 +1,12 @@
 [tools]
 node = "25.9.0"
-"npm:@github/copilot" = "1.0.40"
 "npm:@mariozechner/pi-coding-agent" = "0.71.1"
+gh = "latest"
+
+[env]
+PI_CODING_AGENT_DIR = "{{config_root}}/.cache/pi/agent"
+_.file = { path = [".env", ".env.pi-free"], redact = true }
+
 
 [tasks."catalog:deps"]
 description = "Install project dependencies"
@@ -11,28 +16,117 @@ run = "npm ci"
 description = "Run automated tests"
 run = "npm test"
 
+[tasks."catalog:typecheck"]
+description = "Run TypeScript typecheck"
+run = "npm exec tsc -- --noEmit"
+
+[tasks."catalog:check"]
+description = "Run TypeScript typecheck and automated tests"
+run = "mise run catalog:typecheck && mise run catalog:test"
+
+[tasks."catalog:verify"]
+description = "Run typecheck, automated tests, and catalog validation"
+run = "mise run catalog:check && mise run catalog:validate"
+
+[tasks."catalog:discover"]
+description = "Discover new catalog candidates from explicit sources"
+run = "npm run catalog -- discover"
+
+[tasks."catalog:stars"]
+description = "Refresh GitHub star/order/incubation signals"
+run = "npm run catalog -- stars"
+
+[tasks."catalog:categorize"]
+description = "Run LLM categorization for ready catalog items"
+run = "npm run catalog -- categorize"
+
+
+[tasks."catalog:evals"]
+description = "Run prompt benchmark cases against real fetched catalog inputs"
+usage = '''
+flag "--model <model>" help="Pinned model to use (defaults to openrouter/tencent/hy3-preview:free)"
+flag "--profile <profile>" help="Prompt profile: baseline-current | definition-first | definition-with-examples"
+flag "--suite <suite>" help="Suite filter: prompt-core | prompt-holdout | pipeline-redflags"
+flag "--case <case>" help="Exact eval case id"
+flag "--limit <limit>" help="Optional cap on selected cases"
+flag "--timeout-ms <timeoutMs>" help="Per-case timeout in milliseconds"
+'''
+run = '''
+npm run catalog -- evals{% if usage.model %} --model {{ usage.model | json_encode }}{% endif %}{% if usage.profile %} --profile {{ usage.profile | json_encode }}{% endif %}{% if usage.suite %} --suite {{ usage.suite | json_encode }}{% endif %}{% if usage.case %} --case {{ usage.case | json_encode }}{% endif %}{% if usage.limit %} --limit {{ usage.limit }}{% endif %}{% if usage.timeout_ms %} --timeout-ms {{ usage.timeout_ms }}{% endif %}
+'''
+[tasks."catalog:render"]
+description = "Render README, rabbit-hole pages, and catalog JSON from disk"
+run = "npm run catalog -- render"
+
 [tasks."catalog:validate"]
 description = "Validate the generated catalog"
 run = "npm run catalog -- validate"
 
-[tasks."catalog:update"]
-description = "Regenerate catalog items and rendered output"
-run = "npm run catalog -- update"
-
-[tasks."catalog:refresh"]
-description = "Refresh GitHub metadata and regenerate output"
-run = "npm run catalog -- refresh"
-
 [tasks."catalog:sync"]
-description = "Refresh metadata, then regenerate catalog items and output"
-run = ["npm run catalog -- refresh", "npm run catalog -- update"]
+description = "Run discover, stars, categorize, render, then validate"
+run = "npm run catalog -- sync"
 
-[tasks."catalog:rerun-excluded"]
-description = "Re-run AI curation for excluded items"
-run = "npm run catalog -- rerun-excluded"
+[tasks."catalog:resync"]
+description = "Targeted recategorization / refresh for a selected subset"
+usage = '''
+flag "--id <id>" help="Exact catalog item id"
+flag "--url <url>" help="Exact canonical URL"
+flag "--match <match>" help="Regex or substring against id/name/url"
+flag "--status <status>" help="Curation status or processing status"
+flag "--where <where>" help="Path=value selector, e.g. processing.categorize.status=deferred"
+flag "--discover" help="Re-run discover for matched URLs/sources"
+flag "--stars" help="Refresh GitHub metadata for matched items"
+flag "--categorize" help="Re-run categorization for matched items"
+'''
+run = '''
+npm run catalog -- resync{% if usage.id %} --id {{ usage.id | json_encode }}{% endif %}{% if usage.url %} --url {{ usage.url | json_encode }}{% endif %}{% if usage.match %} --match {{ usage.match | json_encode }}{% endif %}{% if usage.status %} --status {{ usage.status | json_encode }}{% endif %}{% if usage.where %} --where {{ usage.where | json_encode }}{% endif %}{% if usage.discover %} --discover{% endif %}{% if usage.stars %} --stars{% endif %}{% if usage.categorize %} --categorize{% endif %}
+'''
 
+
+[tasks."catalog:repair"]
+description = "Canonicalize and merge persisted duplicate catalog items"
+run = "npm run catalog -- repair"
+
+[tasks."catalog:gaps"]
+description = "Summarize unresolved and excluded catalog processing gaps"
+run = "npm run catalog -- gaps"
+[tasks."catalog:clean"]
+description = "Remove generated catalog output and cache"
+run = "npm run catalog -- clean"
+
+[tasks."catalog:clean:cache"]
+description = "Remove local catalog caches only"
+run = "npm run catalog -- clean --cache"
+
+[tasks."catalog:clean:data"]
+description = "Remove generated catalog data"
+run = "npm run catalog -- clean --data"
+
+[tasks."catalog:clean:docs"]
+description = "Remove generated README and rabbit-hole pages"
+run = "npm run catalog -- clean --docs"
 [tasks.pi]
 description = "Run Pi coding agent with repo-local state"
-env = { PI_CODING_AGENT_DIR = "{{config_root}}/.cache/pi/agent" }
 raw = true
-run = ["pi --no-builtin-tools --no-skills --no-extensions"]
+run = ["pi --no-tools --no-skills --no-extensions"]
+
+[tasks.llm]
+description = "Run the shared non-interactive LLM prompt loop"
+raw = true
+usage = '''
+arg "[prompt]" help="Prompt to send to the shared LLM runner"
+flag "--stdin" help="Read the prompt from stdin"
+flag "--model <model>" help="Optional explicit model override"
+'''
+run = "node scripts/pi/free.ts"
+
+[tasks."llm:doctor"]
+description = "Probe the static shared LLM fallback order without changing runtime cache"
+usage = '''
+flag "--limit <limit>" help="Optional cap on how many configured models to probe (default: 10)"
+flag "--prompt <prompt>" help="Prompt to send to each model (default: Reply with exactly HI.)"
+flag "--timeout-ms <timeoutMs>" help="Per-model timeout in milliseconds"
+'''
+run = '''
+node scripts/pi/doctor.ts{% if usage.limit %} --limit {{ usage.limit }}{% endif %}{% if usage.prompt %} --prompt {{ usage.prompt | json_encode }}{% endif %}{% if usage.timeout_ms %} --timeout-ms {{ usage.timeout_ms }}{% endif %}
+'''

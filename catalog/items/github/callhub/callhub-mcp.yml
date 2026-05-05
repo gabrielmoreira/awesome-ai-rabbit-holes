@@ -1,0 +1,80 @@
+id: github__callhub__callhub-mcp
+kind: github-repo
+name: callhub-mcp
+canonical_url: https://github.com/callhub/callhub-mcp
+identity:
+  github_repo: callhub/callhub-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__callhub__callhub-mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: CallHub
+        extracted_url: https://github.com/callhub/callhub-mcp
+        surrounding_text: "- **[CallHub](https://github.com/callhub/callhub-mcp)** - Python-based MCP tool providing a comprehensive set of functions for managing contacts, phonebooks, agents, teams, campaigns, and other CallHub resources."
+        confidence: high
+metadata:
+  github:
+    stars: 3
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2025-06-05T05:57:10Z"
+    pushed_at: "2025-11-27T09:26:59Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:01:29.004Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:29.004Z"
+      bytes: 7224
+insights:
+  summary: A Python-based MCP server that exposes CallHub's contact, campaign, and agent management APIs to Claude as callable tools.
+  why_it_matters: It lets developers and operators manage call-center resources through natural language conversations with Claude instead of writing API integration code.
+  mental_damage: Another bespoke MCP server so niche you’ll wonder if we’re building a distributed CRM or just a very polite excuse to avoid reading API docs.
+  tags:
+    - mcp
+    - callhub
+    - api-wrapper
+    - claude
+  confidence: high
+curation:
+  status: included
+  reason: The project is an MCP server that bridges CallHub's API with Claude, fitting cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - "README states: 'CallHub MCP is a Python-based tool that allows you to interact with the CallHub API through Claude.'"
+    - Listed in awesome-mcp-servers under 'Official Servers'.
+    - GitHub repo name and structure (callhub-mcp, server.py entry point) confirm it is an MCP server implementation.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.682Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:29.004Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:12:18.185Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

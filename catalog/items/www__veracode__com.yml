@@ -1,0 +1,77 @@
+id: www__veracode__com
+kind: website
+name: www.veracode.com
+canonical_url: https://www.veracode.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__veracode__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Code Review and Refactoring
+        anchor_text: Veracode
+        extracted_url: https://www.veracode.com
+        surrounding_text: "- **[Veracode](https://www.veracode.com/)** – AI-driven application security with static and dynamic analysis."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Veracode is an enterprise application security platform that scans code using SAST, DAST, and SCA, and offers an AI-powered feature called Veracode Fix to automate vulnerability remediation.
+  why_it_matters: It integrates security scanning and AI-driven fixes directly into the developer workflow, aiming to reduce the burden of manual remediation for both human and AI-generated code.
+  mental_damage: Now that your AI agent is writing the code and another AI is fixing the security holes, you can spend your entire day in compliance meetings debating the false-positive rate of the tools replacing you.
+  tags:
+    - appsec
+    - security
+    - ai-remediation
+    - sast
+    - devsecops
+  confidence: high
+curation:
+  status: excluded
+  reason: The product is primarily an enterprise Application Security (AppSec) platform for scanning and compliance, not a developer-facing coding assistant, agent, or app builder that helps write or structure code.
+  evidence:
+    - Product description centers on 'Application Security', 'SAST', 'DAST', and 'Risk Manager (ASPM)', not code generation.
+    - The 'Fix (AI code remediation)' feature automates security patches, but this is a security governance tool rather than a coding workflow assistant.
+    - Listed in awesome-ai-coding-tools under 'Code Review and Refactoring', but the core offering is broad enterprise SDLC security rather than a developer tool for building.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.734Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:54:01.418Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

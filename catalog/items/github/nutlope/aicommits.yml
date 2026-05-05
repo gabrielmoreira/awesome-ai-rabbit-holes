@@ -1,0 +1,81 @@
+id: github__nutlope__aicommits
+kind: github-repo
+name: aicommits
+canonical_url: https://github.com/nutlope/aicommits
+identity:
+  github_repo: nutlope/aicommits
+provenance:
+  discoveries:
+    - id: discovery__github__nutlope__aicommits__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - CLI Tools
+        anchor_text: AICommits
+        extracted_url: https://github.com/nutlope/aicommits
+        surrounding_text: "- **[AICommits](https://github.com/Nutlope/aicommits)** – AI-powered meaningful git commit message generation."
+        confidence: high
+metadata:
+  github:
+    stars: 8967
+    forks: 466
+    license: MIT
+    archived: false
+    created_at: "2023-02-14T01:23:13Z"
+    pushed_at: "2026-04-09T20:03:27Z"
+    description: A CLI that writes your git commit messages for you with AI
+    homepage: https://www.npmjs.com/package/aicommits
+    topics: []
+    last_checked_at: "2026-05-05T21:03:57.170Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:57.170Z"
+      bytes: 11730
+insights:
+  summary: A CLI tool that analyzes staged git diffs and generates commit messages using various AI providers, including local models and hosted APIs.
+  why_it_matters: It automates the tedious chore of writing conventional, gitmoji, or plain commit messages directly from the terminal, integrating with existing git workflows and hooks.
+  mental_damage: We have successfully automated the last bastion of human accountability in version control, ensuring our git history is now as thoughtfully composed as a hallucination.
+  tags:
+    - cli
+    - git
+    - llm
+    - automation
+    - nodejs
+  confidence: high
+curation:
+  status: included
+  reason: It is a CLI-based coding agent that directly operates on a developer's repository context (git diffs) to generate code-related artifacts (commits), fitting the terminal agent profile.
+  evidence:
+    - "Repo description explicitly states: 'A CLI that writes your git commit messages for you with AI'."
+    - "README confirms it works inside the repo workflow: 'generate a commit message for your staged changes'."
+    - Included in 'awesome-ai-coding-tools' under the 'CLI Tools' section.
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (8967) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.710Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:57.170Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:41:09.186Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

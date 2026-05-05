@@ -1,0 +1,76 @@
+id: spacelift__io
+kind: website
+name: spacelift.io
+canonical_url: https://spacelift.io
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__spacelift__io__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - DevOps and Infrastructure
+        anchor_text: Spacelift
+        extracted_url: https://spacelift.io
+        surrounding_text: "- **[Spacelift](https://spacelift.io/)** – AI-powered infrastructure automation with policy as code."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Spacelift is an IaC orchestration platform that integrates AI, GitOps pipelines, and an Infrastructure Assistant to manage infrastructure provisioning for Terraform, OpenTofu, Ansible, and Kubernetes.
+  why_it_matters: It allows platform teams to define OPA policies in natural language and enables developers to request and manage infrastructure via an AI assistant or MCP server, reducing friction between rapid code shipping and infrastructure governance.
+  mental_damage: Now your infrastructure can hallucinate access policies just as confidently as your coding agent hallucinates deprecated API calls.
+  tags:
+    - iac
+    - devops
+    - infrastructure
+    - mcp
+  confidence: medium
+curation:
+  status: included
+  reason: While primarily an IaC orchestrator, it fits here because it offers an AI Infrastructure Assistant and an MCP server that allow teams to coordinate infrastructure tasks and policies via natural language, acting as a control plane for infrastructure agents.
+  evidence:
+    - Listed in awesome-ai-coding-tools under the 'DevOps and Infrastructure' section.
+    - Scraped site context mentions fusing IaC with an 'AI deployment model' and a 'powerful Infrastructure Assistant'.
+    - Documentation references enabling AI via the 'Spacelift AI assistant or via our MCP server' for self-service infrastructure management.
+placement:
+  primary_category: agent-orchestration
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.730Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:48:16.829Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

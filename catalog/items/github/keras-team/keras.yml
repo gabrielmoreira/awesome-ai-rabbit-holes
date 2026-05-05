@@ -1,0 +1,89 @@
+id: github__keras-team__keras
+kind: github-repo
+name: keras
+canonical_url: https://github.com/keras-team/keras
+identity:
+  github_repo: keras-team/keras
+provenance:
+  discoveries:
+    - id: discovery__github__keras-team__keras__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Training
+          - Frameworks for Training
+        anchor_text: Keras
+        extracted_url: https://github.com/keras-team/keras
+        surrounding_text: "| [Keras](https://github.com/keras-team/keras)                         | Keras is a deep learning API written in Python, running on top of the machine learning platform TensorFlow.                                                                                                 | ![GitHub Badge](https://img.shields.io/github/stars/keras-team/keras.svg?style=flat-square)                  |"
+        confidence: high
+metadata:
+  github:
+    stars: 64057
+    forks: 19764
+    license: Apache-2.0
+    archived: false
+    created_at: "2015-03-28T00:35:42Z"
+    pushed_at: "2026-05-05T19:49:26Z"
+    description: Deep Learning for humans
+    homepage: http://keras.io/
+    topics:
+      - data-science
+      - deep-learning
+      - jax
+      - machine-learning
+      - neural-networks
+      - python
+      - pytorch
+      - tensorflow
+    last_checked_at: "2026-05-05T21:03:04.085Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:04.085Z"
+      bytes: 5354
+insights:
+  summary: Keras is a high-level multi-backend deep learning framework supporting JAX, TensorFlow, and PyTorch, designed for building and training models across various ML domains.
+  why_it_matters: It allows developers to write backend-agnostic deep learning code that can scale from a laptop to datacenter GPUs while switching frameworks without rewriting models.
+  mental_damage: Another framework promising to end framework lock-in, just in time for developers to rewrite their stacks again to support the three backends that replaced the one they just left.
+  tags:
+    - deep-learning
+    - ml-framework
+    - multi-backend
+    - python
+  confidence: high
+curation:
+  status: excluded
+  reason: Keras is a general deep learning and ML research framework, not a developer-facing AI tool, agent, or infrastructure product for coding workflows.
+  evidence:
+    - Repo description is 'Deep Learning for humans', targeting ML model builders rather than software engineers building apps with AI.
+    - Topics and README focus on neural networks, JAX, TensorFlow, and PyTorch training workflows, not coding assistants or developer tooling.
+    - Listed in Awesome-LLMOps under 'Training > Frameworks for Training', which is a research/ML operations context rather than the developer productivity scope of this catalog.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (64057) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.701Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:04.085Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:30:26.150Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

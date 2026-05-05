@@ -1,0 +1,81 @@
+id: github__abetlen__llama-cpp-python
+kind: github-repo
+name: llama-cpp-python
+canonical_url: https://github.com/abetlen/llama-cpp-python
+identity:
+  github_repo: abetlen/llama-cpp-python
+provenance:
+  discoveries:
+    - id: discovery__github__abetlen__llama-cpp-python__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: janhq/awesome-local-ai
+        url: https://github.com/janhq/awesome-local-ai
+        repository: janhq/awesome-local-ai
+      extraction:
+        mode: parsed
+        section_path:
+          - Inference Engine
+        anchor_text: llama-cpp-python
+        extracted_url: https://github.com/abetlen/llama-cpp-python
+        surrounding_text: "| [llama-cpp-python](https://github.com/abetlen/llama-cpp-python) | - Python bindings for llama.cpp                                                      | GGUF                    | Both            | ❌  | Python      | Text-Gen      |"
+        confidence: high
+metadata:
+  github:
+    stars: 10269
+    forks: 1395
+    license: MIT
+    archived: false
+    created_at: "2023-03-23T09:30:33Z"
+    pushed_at: "2026-05-04T20:52:30Z"
+    description: Python bindings for llama.cpp
+    homepage: https://llama-cpp-python.readthedocs.io
+    topics: []
+    last_checked_at: "2026-05-05T21:00:46.944Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:46.944Z"
+      bytes: 31799
+insights:
+  summary: Python bindings for llama.cpp that provide low-level C API access, a high-level Python API for text completion, and an OpenAI-compatible local web server for running LLMs on your own hardware.
+  why_it_matters: It lets developers run and serve local LLMs with an OpenAI-compatible interface, making it easy to prototype local coding assistants, integrate with LangChain or LlamaIndex, and replace cloud APIs with private inference.
+  mental_damage: You will spend an afternoon tuning CMAKE_ARGS for the perfect BLAS backend, only to realize your local model still hallucinates with the confidence of a senior engineer on a deadline.
+  tags:
+    - python
+    - local-ai
+    - llama-cpp
+    - inference
+    - openai-compatible
+  confidence: high
+curation:
+  status: included
+  reason: This is a developer-facing library and local inference stack for running LLMs on your own hardware, directly matching the Local AI category.
+  evidence:
+    - "Repo description: 'Python bindings for llama.cpp'"
+    - README states it provides an 'OpenAI compatible web server' and 'Local Copilot replacement'
+    - Seen in awesome-local-ai under Inference Engine section
+placement:
+  primary_category: local-ai
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (10269) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.676Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:46.944Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:05:29.260Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

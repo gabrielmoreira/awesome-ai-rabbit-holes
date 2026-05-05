@@ -1,0 +1,77 @@
+id: ai__sdk__dev
+kind: website
+name: ai-sdk.dev
+canonical_url: https://ai-sdk.dev
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__ai__sdk__dev__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - AI Frameworks and SDKs
+        anchor_text: Vercel AI SDK
+        extracted_url: https://sdk.vercel.ai
+        surrounding_text: "- **[Vercel AI SDK](https://sdk.vercel.ai/)** – TypeScript toolkit for building AI-powered UIs with streaming, tool calling, and multi-provider support."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A TypeScript SDK and framework for building AI-powered applications and agents with unified APIs for text, image, and speech generation across 100+ models.
+  why_it_matters: It gives developers a single, streaming-friendly interface to swap between AI providers and build agentic workflows without writing custom fallback and parsing logic.
+  mental_damage: Another week, another 'universal' layer promising to abstract away the chaos of LLM providers, right before those providers deliberately break the abstractions you just built.
+  tags:
+    - typescript
+    - sdk
+    - agents
+    - multi-model
+    - vercel
+  confidence: high
+curation:
+  status: included
+  reason: The product is a code-first library and framework for embedding AI behavior into applications, which aligns with the ai-frameworks category instruction.
+  evidence:
+    - Scraped site describes it as 'The open-source AI toolkit designed to help developers build AI-powered applications and agents' with framework-agnostic hooks.
+    - Source list context from awesome-ai-coding-tools places it under 'AI Frameworks and SDKs'.
+    - Primary interface is an importable npm package (`npm install ai`) used via code (e.g., `import { generateText } from 'ai'`), not a hosted builder surface.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.726Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:41:34.563Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

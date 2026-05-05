@@ -1,0 +1,82 @@
+id: github__hampsterx__claude-mcp-bridge
+kind: github-repo
+name: claude-mcp-bridge
+canonical_url: https://github.com/hampsterx/claude-mcp-bridge
+identity:
+  github_repo: hampsterx/claude-mcp-bridge
+provenance:
+  discoveries:
+    - id: discovery__github__hampsterx__claude-mcp-bridge__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🤖 <a name="coding-agents"></a>Coding Agents
+        anchor_text: hampsterx/claude-mcp-bridge
+        extracted_url: https://github.com/hampsterx/claude-mcp-bridge
+        surrounding_text: "- [hampsterx/claude-mcp-bridge](https://github.com/hampsterx/claude-mcp-bridge) [![hampsterx/claude-mcp-bridge MCP server](https://glama.ai/mcp/servers/hampsterx/claude-mcp-bridge/badges/score.svg)](https://glama.ai/mcp/servers/hampsterx/claude-mcp-bridge) 📇 🏠 🍎 🪟 🐧 - Wraps Claude Code CLI as MCP tools (query, search, structured, sessions) with subscription-first auth, cost metadata, budget caps, and granular tool sandboxing."
+        confidence: high
+metadata:
+  github:
+    stars: 2
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-04-05T02:50:16Z"
+    pushed_at: "2026-05-04T03:43:57Z"
+    description: MCP server bridging Claude CLI to Gemini CLI, Codex, Cursor - queries, and search with hardened subprocess management
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:02:30.088Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:30.088Z"
+      bytes: 13742
+insights:
+  summary: An MCP server that wraps the Claude Code CLI as a subprocess to expose its querying, search, and structured output capabilities to MCP-compatible clients like Gemini CLI, Codex, Cursor, and VSurf.
+  why_it_matters: It allows developers to plug Claude's coding and reasoning capabilities into other AI agents and editors that lack shell access or need structured JSON output with cost tracking.
+  mental_damage: We have finally reached the point of writing middleware to let our AI assistants ask other AI assistants for help, because apparently collaboration is easier than picking one tool.
+  tags:
+    - mcp
+    - middleware
+    - cli
+    - bridge
+    - context
+  confidence: high
+curation:
+  status: included
+  reason: The project is a distinct MCP server implementation designed to bridge the Claude CLI with other MCP clients, fitting the MCP infrastructure criteria cleanly.
+  evidence:
+    - Repo description explicitly states 'MCP server bridging Claude CLI to Gemini CLI, Codex, Cursor'.
+    - README confirms it exposes Claude Code capabilities as 'Model Context Protocol tools' for any MCP client.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Coding Agents'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.690Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:30.088Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:23:24.297Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

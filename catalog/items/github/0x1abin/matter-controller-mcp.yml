@@ -1,0 +1,82 @@
+id: github__0x1abin__matter-controller-mcp
+kind: github-repo
+name: matter-controller-mcp
+canonical_url: https://github.com/0x1abin/matter-controller-mcp
+identity:
+  github_repo: 0x1abin/matter-controller-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__0x1abin__matter-controller-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📟 <a name="embedded-system"></a>Embedded System
+        anchor_text: 0x1abin/matter-controller-mcp
+        extracted_url: https://github.com/0x1abin/matter-controller-mcp
+        surrounding_text: "- [0x1abin/matter-controller-mcp](https://github.com/0x1abin/matter-controller-mcp) 📇 📟 - An MCP server for Matter Controller, enabling AI agents to control and interact with Matter devices."
+        confidence: high
+metadata:
+  github:
+    stars: 7
+    forks: 2
+    license: MIT
+    archived: false
+    created_at: "2025-07-13T17:31:08Z"
+    pushed_at: "2025-08-05T03:43:06Z"
+    description: An MCP server for Matter Controller, enabling AI agents to control and interact with Matter devices.
+    homepage: https://github.com/0x1abin/matter-controller-mcp
+    topics: []
+    last_checked_at: "2026-05-05T21:00:43.485Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:43.485Z"
+      bytes: 8897
+insights:
+  summary: An MCP server that bridges AI assistants with Matter-compatible smart home devices to discover, commission, and control them via standardized transports.
+  why_it_matters: It lets developers wire Matter device control into AI workflows and agents without writing custom protocol glue code.
+  mental_damage: Now your AI assistant can dim your smart lights when it gets stuck in a loop, proving that even home automation eventually becomes a developer tooling problem.
+  tags:
+    - mcp
+    - matter
+    - iot
+    - smart-home
+    - embedded
+  confidence: medium
+curation:
+  status: included
+  reason: The project is a standalone MCP server for Matter device control, fitting cleanly into MCP infrastructure tooling.
+  evidence:
+    - "Repo description: 'An MCP server for Matter Controller, enabling AI agents to control and interact with Matter devices.'"
+    - "README: 'A powerful Model Context Protocol (MCP) server that provides comprehensive Matter device control capabilities.'"
+    - Listed in awesome-mcp-servers under Server Implementations > Embedded System.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.675Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:43.485Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:04:49.052Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

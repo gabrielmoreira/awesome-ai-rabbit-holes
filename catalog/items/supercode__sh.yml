@@ -1,0 +1,76 @@
+id: supercode__sh
+kind: website
+name: supercode.sh
+canonical_url: https://supercode.sh
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__supercode__sh__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Developer Productivity Tools
+        anchor_text: Supercode.sh
+        extracted_url: https://supercode.sh
+        surrounding_text: "- **[Supercode.sh](https://supercode.sh/)** – Cursor extension adding Architect Mode, voice input, and prompt enhancement."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A browser extension designed to enhance the capabilities of the Cursor IDE with full-cycle AI coding features.
+  why_it_matters: It promises to layer additional automation and workflow enhancements onto an existing AI coding environment.
+  mental_damage: We have reached the point where we need extensions to turbocharge the tool that was already turbocharging our coding workflow.
+  tags:
+    - cursor
+    - extension
+    - ide
+    - ai-coding
+  confidence: high
+curation:
+  status: included
+  reason: The product is explicitly described as a Cursor extension that augments an existing AI coding assistant, fitting the AI Developer Extensions category.
+  evidence:
+    - Scraped site title identifies it as a 'Cursor extension for full-cycle AI-coding'.
+    - Description and source list context state it is meant to 'Supercharge your Cursor'.
+    - Listed in awesome-ai-coding-tools under 'Developer Productivity Tools' as an enhancer for Cursor.
+placement:
+  primary_category: ai-dev-extensions
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.730Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:48:26.253Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

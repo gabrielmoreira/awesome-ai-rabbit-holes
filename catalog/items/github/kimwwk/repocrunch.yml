@@ -1,0 +1,82 @@
+id: github__kimwwk__repocrunch
+kind: github-repo
+name: repocrunch
+canonical_url: https://github.com/kimwwk/repocrunch
+identity:
+  github_repo: kimwwk/repocrunch
+provenance:
+  discoveries:
+    - id: discovery__github__kimwwk__repocrunch__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: kimwwk/repocrunch
+        extracted_url: https://github.com/kimwwk/repocrunch
+        surrounding_text: "- [kimwwk/repocrunch](https://github.com/kimwwk/repocrunch) [![repo-crunch MCP server](https://glama.ai/mcp/servers/@kimwwk/repo-crunch/badges/score.svg)](https://glama.ai/mcp/servers/@kimwwk/repo-crunch) 🐍 🏠 🍎 🪟 🐧 - MCP server that gives AI agents structured, ground-truth GitHub repository intelligence. Analyze tech stack, dependencies, architecture, health metrics, and security indicators with deterministic JSON output."
+        confidence: high
+metadata:
+  github:
+    stars: 6
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-02-08T19:19:15Z"
+    pushed_at: "2026-03-08T14:47:52Z"
+    description: Analyze GitHub repos into structured JSON. No AI, fully deterministic.
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:03:05.989Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:05.989Z"
+      bytes: 5405
+insights:
+  summary: A deterministic GitHub repository analyzer that produces structured JSON covering tech stack, dependencies, architecture, health, and security signals, exposed as a Python library, CLI, REST API, and MCP server.
+  why_it_matters: Developers and AI agents can programmatically ingest consistent repo metadata to power health checks, dependency audits, and context-aware coding workflows without relying on probabilistic LLM outputs.
+  mental_damage: We have finally built a tool that perfectly summarizes a repository’s health without hallucinating, which frees up even more of our day to argue about whether we should feed its output into an LLM anyway.
+  tags:
+    - mcp
+    - repo-analysis
+    - cli
+    - developer-tools
+    - deterministic
+  confidence: medium
+curation:
+  status: included
+  reason: The project is an MCP server implementation for structured GitHub repo analysis, fitting cleanly into MCP infrastructure rather than being a primary coding agent or generic developer extension.
+  evidence:
+    - "Repo description states: 'Analyze GitHub repos into structured JSON. No AI, fully deterministic.'"
+    - README explicitly documents `repocrunch mcp` to start an MCP server for Claude, Cursor, etc.
+    - Listed under Server Implementations > Developer Tools in awesome-mcp-servers.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.701Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:05.989Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:30:48.584Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

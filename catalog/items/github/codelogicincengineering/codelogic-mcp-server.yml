@@ -1,0 +1,87 @@
+id: github__codelogicincengineering__codelogic-mcp-server
+kind: github-repo
+name: codelogic-mcp-server
+canonical_url: https://github.com/codelogicincengineering/codelogic-mcp-server
+identity:
+  github_repo: codelogicincengineering/codelogic-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__codelogicincengineering__codelogic-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: CodeLogicIncEngineering/codelogic-mcp-server
+        extracted_url: https://github.com/codelogicincengineering/codelogic-mcp-server
+        surrounding_text: "- [CodeLogicIncEngineering/codelogic-mcp-server](https://github.com/CodeLogicIncEngineering/codelogic-mcp-server) 🎖️ 🐍 ☁️ 🍎 🪟 🐧 - Official MCP server for CodeLogic, providing access to code dependency analytics, architectural risk analysis, and impact assessment tools."
+        confidence: high
+metadata:
+  github:
+    stars: 36
+    forks: 15
+    license: MPL-2.0
+    archived: false
+    created_at: "2025-04-02T13:11:29Z"
+    pushed_at: "2026-05-05T18:32:05Z"
+    description: An MCP Server to utilize Codelogic's rich software dependency data in your AI programming assistant.
+    homepage: https://codelogic.com/
+    topics:
+      - ai
+      - ai-agents
+      - coding
+      - developer-tools
+      - mcp-server
+    last_checked_at: "2026-05-05T21:01:37.760Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:37.760Z"
+      bytes: 20845
+insights:
+  summary: An MCP server that connects AI programming assistants to CodeLogic's software dependency graph to provide code impact analysis and database change assessments.
+  why_it_matters: It lets your AI assistant check blast radius and dependency impacts before suggesting changes, moving code review from guesswork to graph-backed evidence.
+  mental_damage: You now have an AI assistant that can perfectly diagram exactly how your 'simple' one-line fix will cascade into three weeks of unplanned outage.
+  tags:
+    - mcp
+    - dependency-analysis
+    - impact-analysis
+    - codelogic
+    - devops
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server providing dependency data to AI assistants, which fits cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description states it is 'An MCP Server to utilize Codelogic's rich software dependency data in your AI programming assistant.'
+    - README details eleven MCP tools including codelogic-method-impact and codelogic-graph-impact for dependency traversal.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools' section.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.683Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:37.760Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:13:47.535Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

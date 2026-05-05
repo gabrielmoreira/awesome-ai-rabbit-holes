@@ -1,0 +1,77 @@
+id: glama__ai__mcp__servers__dollhousemcp__mcp__server__badge
+kind: website
+name: badge
+canonical_url: https://glama.ai/mcp/servers/DollhouseMCP/mcp-server/badge
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__glama__ai__mcp__servers__dollhousemcp__mcp__server__badge__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: "![DollhouseMCP MCP server"
+        extracted_url: https://glama.ai/mcp/servers/DollhouseMCP/mcp-server/badge
+        surrounding_text: "- [DollhouseMCP/mcp-server](https://github.com/DollhouseMCP/mcp-server) [![DollhouseMCP MCP server](https://glama.ai/mcp/servers/DollhouseMCP/mcp-server/badge)](https://glama.ai/mcp/servers/DollhouseMCP/mcp-server) 📇 🏠 🍎 🪟 🐧 - One-line installable MCP server that adds reusable customization elements — personas, skills, templates, agents, memory, and ensembles (collected customization tools) — to any MCP Client application. Dynamic permissioning for safe AI operations, a robust validation architecture, versioning, and a public collection of shareable content. Install: `npx @dollhousemcp/mcp-server@latest --web`."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A Model Context Protocol (MCP) server implementation designed to run within the DollhouseMCP ecosystem.
+  why_it_matters: It contributes to the growing ecosystem of standardized tooling that allows AI agents to interface with external data sources and capabilities.
+  mental_damage: Just when you thought 'MCP' stood for something simple, you now have to navigate a nesting doll of MCP servers provided by a protocol named MCP.
+  tags:
+    - mcp
+    - server
+    - protocol
+    - tooling
+  confidence: low
+curation:
+  status: excluded
+  reason: Excluded because the inputs provide no meaningful description, README, or context to verify what this tool actually does beyond being a generic entry in an MCP list.
+  evidence:
+    - Repo description is empty and no README excerpt or scraped site context was provided.
+    - The URL is a generic Glama.ai registry link rather than a distinct project page or repository.
+    - No credible signals (stars, license, activity dates) are available to assess developer utility or traction.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.728Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:45:03.699Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

@@ -1,0 +1,86 @@
+id: github__neka-nat__freecad-mcp
+kind: github-repo
+name: freecad-mcp
+canonical_url: https://github.com/neka-nat/freecad-mcp
+identity:
+  github_repo: neka-nat/freecad-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__neka-nat__freecad-mcp__awesome-list__vivy-yi__awesome-agent-orchestration
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: vivy-yi/awesome-agent-orchestration
+        url: https://github.com/vivy-yi/awesome-agent-orchestration
+        repository: vivy-yi/awesome-agent-orchestration
+      extraction:
+        mode: parsed
+        section_path:
+          - Agent Communication Protocols
+          - Model Context Protocol (MCP)
+          - Specialized Servers
+        anchor_text: freecad-mcp
+        extracted_url: https://github.com/neka-nat/freecad-mcp
+        surrounding_text: "| [freecad-mcp](https://github.com/neka-nat/freecad-mcp) | FreeCAD 3D modeling | ![Stars](https://img.shields.io/github/stars/neka-nat/freecad-mcp) |"
+        confidence: high
+metadata:
+  github:
+    stars: 893
+    forks: 146
+    license: MIT
+    archived: false
+    created_at: "2023-11-25T08:46:42Z"
+    pushed_at: "2026-04-29T02:49:39Z"
+    description: FreeCAD MCP(Model Context Protocol) server
+    homepage: ""
+    topics:
+      - claude
+      - freecad
+      - mcp
+    last_checked_at: "2026-05-05T21:03:52.442Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:52.442Z"
+      bytes: 5369
+insights:
+  summary: An MCP server that lets Claude Desktop control FreeCAD to create, edit, and inspect 3D CAD models via RPC and exposed tools.
+  why_it_matters: Developers working with CAD can iterate on parts and assemblies through natural language conversations instead of manually chaining parametric operations inside FreeCAD.
+  mental_damage: "We have finally achieved the platonic ideal of our era: an AI agent that can design a toy car so you don’t have to open a CAD workbench, but you still have to configure JSON, install an addon, and bind an RPC server to 0.0.0.0."
+  tags:
+    - mcp
+    - cad
+    - claude
+    - freecad
+    - agent-tools
+  confidence: high
+curation:
+  status: included
+  reason: This is a Model Context Protocol server that exposes FreeCAD as tools to Claude Desktop, fitting cleanly into MCP infrastructure rather than coding agents or orchestration frameworks.
+  evidence:
+    - "Repo description: 'FreeCAD MCP(Model Context Protocol) server'"
+    - README lists MCP tools such as create_object, execute_code, and get_view for Claude Desktop integration
+    - Listed in awesome-agent-orchestration under 'Agent Communication Protocols > Model Context Protocol (MCP) > Specialized Servers'
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (893) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.709Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:52.442Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:40:10.115Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

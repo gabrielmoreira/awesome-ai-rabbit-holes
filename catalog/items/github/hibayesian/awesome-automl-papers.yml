@@ -1,0 +1,85 @@
+id: github__hibayesian__awesome-automl-papers
+kind: github-repo
+name: awesome-automl-papers
+canonical_url: https://github.com/hibayesian/awesome-automl-papers
+identity:
+  github_repo: hibayesian/awesome-automl-papers
+provenance:
+  discoveries:
+    - id: discovery__github__hibayesian__awesome-automl-papers__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Awesome Lists
+        anchor_text: Awesome AutoML Papers
+        extracted_url: https://github.com/hibayesian/awesome-automl-papers
+        surrounding_text: "| [Awesome AutoML Papers](https://github.com/hibayesian/awesome-automl-papers)                            | A curated list of automated machine learning papers, articles, tutorials, slides and projects                                     | ![GitHub Badge](https://img.shields.io/github/stars/hibayesian/awesome-automl-papers.svg?style=flat-square)              |"
+        confidence: high
+metadata:
+  github:
+    stars: 4147
+    forks: 681
+    license: Apache-2.0
+    archived: false
+    created_at: "2017-11-20T08:19:19Z"
+    pushed_at: "2024-06-11T16:51:05Z"
+    description: A curated list of automated machine learning papers, articles, tutorials, slides and projects
+    homepage: ""
+    topics:
+      - automated-feature-engineering
+      - automl
+      - hyperparameter-optimization
+      - neural-architecture-search
+    last_checked_at: "2026-05-05T21:02:33.490Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:33.490Z"
+      bytes: 33191
+insights:
+  summary: A curated list of automated machine learning papers, articles, tutorials, slides, and projects covering techniques like hyperparameter optimization, neural architecture search, and automated feature engineering.
+  why_it_matters: It serves as a comprehensive map for developers and researchers looking to understand or implement the underlying mechanics of automated model training and tuning.
+  mental_damage: Because nothing says 'accelerating research' quite like a 4,000-paper reading list that ensures you never actually write a line of code.
+  tags:
+    - automl
+    - machine-learning
+    - research
+    - papers
+    - awesome-list
+  confidence: high
+curation:
+  status: included
+  reason: This is a curated meta-list of research papers and resources rather than a developer-facing tool, making it a fit for the Awesome Awesomes category.
+  evidence:
+    - Repo description explicitly states it is 'A curated list of automated machine learning papers, articles, tutorials, slides and projects'.
+    - "README confirms the scope is academic: 'keep abreast of the latest developments of this booming research field' with sections for Surveys, Papers, and Books."
+    - Source-list context shows inclusion in 'Awesome-LLMOps' under the 'Awesome Lists' section.
+placement:
+  primary_category: awesome-awesomes
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (4147) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.691Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:33.490Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:23:53.135Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

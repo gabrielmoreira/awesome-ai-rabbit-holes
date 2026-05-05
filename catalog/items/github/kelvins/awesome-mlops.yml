@@ -1,0 +1,89 @@
+id: github__kelvins__awesome-mlops
+kind: github-repo
+name: awesome-mlops
+canonical_url: https://github.com/kelvins/awesome-mlops
+identity:
+  github_repo: kelvins/awesome-mlops
+provenance:
+  discoveries:
+    - id: discovery__github__kelvins__awesome-mlops__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Awesome Lists
+        anchor_text: kelvins/awesome-mlops
+        extracted_url: https://github.com/kelvins/awesome-mlops
+        surrounding_text: "| [kelvins/awesome-mlops](https://github.com/kelvins/awesome-mlops)                                       | A curated list of awesome MLOps tools.                                                                                            | ![GitHub Badge](https://img.shields.io/github/stars/kelvins/awesome-mlops.svg?style=flat-square)                         |"
+        confidence: high
+metadata:
+  github:
+    stars: 5127
+    forks: 728
+    license: null
+    archived: false
+    created_at: "2020-05-25T22:53:26Z"
+    pushed_at: "2026-04-29T15:00:57Z"
+    description: ":sunglasses: A curated list of awesome MLOps tools"
+    homepage: ""
+    topics:
+      - ai
+      - awesome
+      - data-science
+      - machine-learning
+      - machine-learning-engineering
+      - ml
+      - mle
+      - mlops
+    last_checked_at: "2026-05-05T21:03:03.724Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:03.724Z"
+      bytes: 41288
+insights:
+  summary: A curated awesome list indexing tools and resources across the MLOps lifecycle, including AutoML, CI/CD, data management, and model serving.
+  why_it_matters: It offers developers a structured map of the fragmented MLOps ecosystem to find tools for data catalogs, drift detection, and model lifecycle management.
+  mental_damage: Because nothing says 'I have a plan' like bookmarking a list of 5,000 tools you will panic-audit the night before your model fails in production.
+  tags:
+    - mlops
+    - awesome-list
+    - machine-learning
+    - data-science
+    - directory
+  confidence: high
+curation:
+  status: included
+  reason: This is a curated directory/meta-list of MLOps tools rather than a standalone developer tool, fitting the awesome-awesomes category.
+  evidence:
+    - Repo description states it is 'A curated list of awesome MLOps tools'.
+    - README is structured as a categorized index of links to external tools (AutoML, CI/CD, Data Catalogs) and resources (Books, Podcasts).
+    - Listed in the 'Awesome-LLMOps' source list under the 'Awesome Lists' section.
+placement:
+  primary_category: awesome-awesomes
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (5127) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.701Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:03.724Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:30:22.771Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

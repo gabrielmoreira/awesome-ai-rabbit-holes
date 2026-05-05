@@ -1,0 +1,75 @@
+id: powerdrill__ai
+kind: website
+name: powerdrill.ai
+canonical_url: https://powerdrill.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__powerdrill__ai__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Powerdrill AI
+        anchor_text: Powerdrill AI
+        extracted_url: https://powerdrill.ai
+        surrounding_text: "## [Powerdrill AI](https://powerdrill.ai/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Powerdrill.ai is a hosted platform that provides a team of AI agents designed to accelerate data analysis and decision-making.
+  why_it_matters: It offers developers a browser-based interface to delegate data processing and insight generation to specialized agents without building custom orchestration logic.
+  mental_damage: Because nothing says 'faster insights' like spinning up a whole team of agents just to ask a CSV file why your deploy failed.
+  tags:
+    - ai-agents
+    - data-analysis
+    - browser-saas
+  confidence: high
+curation:
+  status: excluded
+  reason: The product is a general-purpose data analysis and decision-making SaaS, lacking a specific developer-tooling or code-workflow angle.
+  evidence:
+    - Scraped site title and description emphasize 'Faster Insights, Smarter Decisions' rather than developer workflows.
+    - Listed in awesome-ai-agents for general autonomous agent capabilities, not specifically coding or dev infrastructure.
+    - No GitHub repo, README, or code-level context provided to suggest it integrates into a developer's IDE, CLI, or codebase.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.729Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:47:04.828Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

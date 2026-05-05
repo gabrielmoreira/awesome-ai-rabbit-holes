@@ -1,0 +1,90 @@
+id: github__kitao__pyxel-mcp
+kind: github-repo
+name: pyxel-mcp
+canonical_url: https://github.com/kitao/pyxel-mcp
+identity:
+  github_repo: kitao/pyxel-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__kitao__pyxel-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🎮 <a name="gaming"></a>Gaming
+        anchor_text: kitao/pyxel-mcp
+        extracted_url: https://github.com/kitao/pyxel-mcp
+        surrounding_text: "- [kitao/pyxel-mcp](https://github.com/kitao/pyxel-mcp) [![pyxel-mcp MCP server](https://glama.ai/mcp/servers/@kitao/pyxel-mcp/badges/score.svg)](https://glama.ai/mcp/servers/@kitao/pyxel-mcp) 🐍 🏠 - MCP server for [Pyxel](https://github.com/kitao/pyxel) retro game engine, enabling AI to run, capture screenshots, inspect sprites, and analyze audio of Pyxel games."
+        confidence: high
+metadata:
+  github:
+    stars: 15
+    forks: 3
+    license: MIT
+    archived: false
+    created_at: "2026-03-01T01:50:25Z"
+    pushed_at: "2026-05-01T13:39:15Z"
+    description: MCP server for AI-assisted retro game development with Pyxel
+    homepage: https://github.com/kitao/pyxel
+    topics:
+      - ai
+      - claude
+      - game-engine
+      - mcp
+      - model-context-protocol
+      - pixel-art
+      - pyxel
+      - retro-game
+    last_checked_at: "2026-05-05T21:03:06.574Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:06.574Z"
+      bytes: 2702
+insights:
+  summary: An MCP server that enables AI agents to autonomously run, inspect, debug, and verify retro games built with the Pyxel Python game engine.
+  why_it_matters: It gives AI coding agents the ability to visually test and iterate on game logic and pixel art without human intervention, bridging the gap between code generation and graphical verification.
+  mental_damage: We have finally reached the point where the AI can independently build, play, and critique your 8-bit platformer, leaving you with nothing to do but watch the GIFs it recorded of its own success.
+  tags:
+    - mcp
+    - game-dev
+    - pyxel
+    - retro
+    - tooling
+  confidence: high
+curation:
+  status: included
+  reason: The project is a purpose-built MCP server designed to expose Pyxel game engine capabilities to AI agents, fitting squarely into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states 'MCP server for AI-assisted retro game development with Pyxel'.
+    - README details specific MCP tools like run_and_capture, inspect_sprite, and exposes Pyxel docs as MCP Resources.
+    - Listed in awesome-mcp-servers under the Gaming section, confirming its role as a community-standard MCP implementation.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.701Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:06.574Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:30:58.913Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

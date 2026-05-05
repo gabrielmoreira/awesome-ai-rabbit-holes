@@ -1,0 +1,90 @@
+id: github__bytedance__dolphin
+kind: github-repo
+name: dolphin
+canonical_url: https://github.com/bytedance/dolphin
+identity:
+  github_repo: bytedance/dolphin
+provenance:
+  discoveries:
+    - id: discovery__github__bytedance__dolphin__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 数据 Data
+        anchor_text: Dolphin
+        extracted_url: https://github.com/bytedance/dolphin
+        surrounding_text: "35. [Dolphin](https://github.com/bytedance/Dolphin): Document Image Parsing via Heterogeneous Anchor Prompting."
+        confidence: high
+metadata:
+  github:
+    stars: 8924
+    forks: 754
+    license: NOASSERTION
+    archived: false
+    created_at: "2025-05-13T09:20:19Z"
+    pushed_at: "2026-03-25T06:34:12Z"
+    description: "The official repo for “Dolphin: Document Image Parsing via Heterogeneous Anchor Prompting”, ACL, 2025."
+    homepage: ""
+    topics:
+      - document-analysis
+      - layout-analysis
+      - ocr
+      - parser
+      - pdf
+      - pdf-converter
+      - pdf-parser
+      - python
+      - vlm-ocr
+    last_checked_at: "2026-05-05T21:01:27.694Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:27.694Z"
+      bytes: 9509
+insights:
+  summary: Dolphin is a document image parsing system from ByteDance that uses heterogeneous anchor prompting to analyze layout, reading order, and elements (text, tables, formulas, code) in both digital and photographed documents.
+  why_it_matters: It provides developers with a lightweight, high-performance local model for converting complex PDFs and images into structured data, reducing reliance on brittle traditional OCR pipelines.
+  mental_damage: Finally, a 3B parameter model to solve the 'is this a table or just a very organized accident' problem that every PDF parser since 1995 has failed to answer.
+  tags:
+    - ocr
+    - document-parsing
+    - vlm
+    - pdf
+    - bytedance
+  confidence: high
+curation:
+  status: excluded
+  reason: While technically impressive, this is a research-oriented document analysis model focused on vision and layout parsing, not a developer tool for coding, agent orchestration, or IDE workflows.
+  evidence:
+    - "Repo description explicitly frames it as a research paper implementation: 'Document Image Parsing via Heterogeneous Anchor Prompting, ACL 2025'."
+    - The README focuses on layout analysis, formula parsing, and table detection rather than source code assistance or developer infrastructure.
+    - Listed in awesome-LLM-resources under 'Data' section, indicating it is viewed as a data/model resource rather than a dev tool.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (8924) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.682Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:27.694Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:12:03.745Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

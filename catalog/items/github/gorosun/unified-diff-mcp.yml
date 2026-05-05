@@ -1,0 +1,96 @@
+id: github__gorosun__unified-diff-mcp
+kind: github-repo
+name: unified-diff-mcp
+canonical_url: https://github.com/gorosun/unified-diff-mcp
+identity:
+  github_repo: gorosun/unified-diff-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__gorosun__unified-diff-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: gorosun/unified-diff-mcp
+        extracted_url: https://github.com/gorosun/unified-diff-mcp
+        surrounding_text: "- [gorosun/unified-diff-mcp](https://github.com/gorosun/unified-diff-mcp) 📇 🏠 - Generate and visualize unified diff comparisons with beautiful HTML/PNG output, supporting side-by-side and line-by-line views for filesystem dry-run integration"
+        confidence: high
+    - id: discovery__github__gorosun__unified-diff-mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: Unified Diff MCP Server
+        extracted_url: https://github.com/gorosun/unified-diff-mcp
+        surrounding_text: "- **[Unified Diff MCP Server](https://github.com/gorosun/unified-diff-mcp)** - Beautiful HTML and PNG diff visualization using diff2html, designed for filesystem edit_file dry-run output with high-performance Bun runtime."
+        confidence: high
+metadata:
+  github:
+    stars: 12
+    forks: 5
+    license: NOASSERTION
+    archived: false
+    created_at: "2025-05-25T06:45:00Z"
+    pushed_at: "2025-06-02T05:45:03Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:25.393Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:25.393Z"
+      bytes: 8658
+insights:
+  summary: An MCP server that renders unified code diffs into visual HTML or PNG outputs and optionally shares them via temporary GitHub Gists.
+  why_it_matters: It gives coding agents a way to surface diffs as readable, shareable visuals inside Claude Desktop instead of raw text.
+  mental_damage: We have officially reached the point where the agent needs its own diff viewer because reading unified diffs is apparently too retro for 2025.
+  tags:
+    - mcp
+    - diff
+    - claude-desktop
+    - visualization
+  confidence: high
+curation:
+  status: included
+  reason: The project is an MCP server that extends Claude Desktop with diff visualization capabilities, which fits squarely into MCP infrastructure.
+  evidence:
+    - README states it is a 'Unified Diff MCP Server' with tools for visualizing diffs via HTML/PNG and GitHub Gist.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
+    - Built to integrate with Claude Desktop via the Model Context Protocol using Bun.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.666Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:25.393Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:22:23.175Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

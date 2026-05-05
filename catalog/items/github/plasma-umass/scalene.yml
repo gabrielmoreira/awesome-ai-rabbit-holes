@@ -1,0 +1,72 @@
+id: github__plasma-umass__scalene
+kind: github-repo
+name: scalene
+canonical_url: https://github.com/plasma-umass/scalene
+identity:
+  github_repo: plasma-umass/scalene
+provenance:
+  discoveries:
+    - id: discovery__github__plasma-umass__scalene__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Performance
+          - Profiling
+        anchor_text: scalene
+        extracted_url: https://github.com/plasma-umass/scalene
+        surrounding_text: "| [scalene](https://github.com/plasma-umass/scalene)         | a high-performance, high-precision CPU, GPU, and memory profiler for Python                                                                                                                                                         | ![GitHub Badge](https://img.shields.io/github/stars/plasma-umass/scalene.svg?style=flat-square)  |"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.713Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: deferred
+    updated_at: "2026-05-05T21:04:20.379Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for plasma-umass/scalene
+  categorize:
+    status: skipped
+    updated_at: "2026-05-05T21:04:23.169Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

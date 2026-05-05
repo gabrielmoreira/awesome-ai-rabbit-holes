@@ -1,0 +1,91 @@
+id: github__henripal__labnotebook
+kind: github-repo
+name: labnotebook
+canonical_url: https://github.com/henripal/labnotebook
+identity:
+  github_repo: henripal/labnotebook
+provenance:
+  discoveries:
+    - id: discovery__github__henripal__labnotebook__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Training
+          - Experiment Tracking
+        anchor_text: LabNotebook
+        extracted_url: https://github.com/henripal/labnotebook
+        surrounding_text: "| [LabNotebook](https://github.com/henripal/labnotebook) | LabNotebook is a tool that allows you to flexibly monitor, record, save, and query all your machine learning experiments.                                                                                                                                                                                                                                                                                                                                                 | ![GitHub Badge](https://img.shields.io/github/stars/henripal/labnotebook.svg?style=flat-square)    |"
+        confidence: high
+metadata:
+  github:
+    stars: 528
+    forks: 38
+    license: MIT
+    archived: false
+    created_at: "2018-02-20T20:17:48Z"
+    pushed_at: "2018-03-31T02:06:31Z"
+    description: LabNotebook is a tool that allows you to flexibly monitor, record, save, and query all your machine learning experiments.
+    homepage: ""
+    topics:
+      - experiment-manager
+      - experimental-data
+      - machine-learning
+      - postgres
+      - postgresql
+      - python
+      - reproducibility
+      - reproducible-research
+      - vuejs
+      - webapp
+    last_checked_at: "2026-05-05T21:02:32.768Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:32.768Z"
+      bytes: 4144
+insights:
+  summary: LabNotebook is a Python-based experiment manager that saves machine learning training data, configurations, and metrics to a PostgreSQL database for monitoring and querying via a web UI.
+  why_it_matters: It offers developers a simple, relational alternative to TensorBoard for tracking deep learning experiments and retaining historical performance data indefinitely.
+  mental_damage: Because nothing says 'cutting-edge AI research' like spinning up a 2008-era Postgres instance just to remember why your 40th MNIST run failed.
+  tags:
+    - experiment-tracking
+    - ml-ops
+    - pytorch
+    - postgres
+  confidence: high
+curation:
+  status: excluded
+  reason: Excluded because it is a traditional ML experiment tracker for data scientists, not a developer tool for building software, and the repository has been inactive since 2018.
+  evidence:
+    - Repo description and README focus on 'deep learning experiments' and 'PyTorch' monitoring, not software development workflows.
+    - Last commit was in March 2018, indicating the project is effectively abandoned and unmaintained.
+    - Listed in Awesome-LLMOps under 'Training > Experiment Tracking', which is a data science domain rather than the developer-tooling scope of this catalog.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (528) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.691Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:32.768Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:23:48.783Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

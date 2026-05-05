@@ -1,0 +1,81 @@
+id: github__entire-vc__evc-team-relay-mcp
+kind: github-repo
+name: evc-team-relay-mcp
+canonical_url: https://github.com/entire-vc/evc-team-relay-mcp
+identity:
+  github_repo: entire-vc/evc-team-relay-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__entire-vc__evc-team-relay-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: evc-team-relay-mcp
+        extracted_url: https://github.com/entire-vc/evc-team-relay-mcp
+        surrounding_text: "- [evc-team-relay-mcp](https://github.com/entire-vc/evc-team-relay-mcp) [![evc-team-relay-mcp MCP server](https://glama.ai/mcp/servers/@entire-vc/evc-team-relay-mcp/badges/score.svg)](https://glama.ai/mcp/servers/@entire-vc/evc-team-relay-mcp) - Give AI agents read/write access to your Obsidian vault via MCP"
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-02-24T19:32:07Z"
+    pushed_at: "2026-03-13T10:21:05Z"
+    description: MCP server for reading and writing Obsidian vault documents via EVC Team Relay
+    homepage: http://entire.vc/team-relay/ai/
+    topics: []
+    last_checked_at: "2026-05-05T21:02:02.750Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:02.750Z"
+      bytes: 7490
+insights:
+  summary: An MCP server that gives AI agents read and write access to Obsidian vaults via the EVC Team Relay API.
+  why_it_matters: Developers can wire coding agents like Claude Code and Codex CLI directly into their personal knowledge base to read context and automate note-taking without shell hacks.
+  mental_damage: You can now ask your coding agent to document its own hallucinations directly into your second brain, where they will sync in real time and wait to confuse you later.
+  tags:
+    - mcp
+    - obsidian
+    - knowledge-management
+    - agent-integration
+  confidence: high
+curation:
+  status: included
+  reason: This is a purpose-built MCP server that integrates Obsidian with MCP-compatible coding agents, fitting cleanly into the MCP infrastructure category.
+  evidence:
+    - Repo description explicitly states 'MCP server for reading and writing Obsidian vault documents via EVC Team Relay'.
+    - README confirms it wraps Team Relay REST API into standard MCP tools for Claude Code, Codex CLI, and OpenCode.
+    - Listed under 'Server Implementations > Knowledge & Memory' in the awesome-mcp-servers directory.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.686Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:02.750Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:18:08.033Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

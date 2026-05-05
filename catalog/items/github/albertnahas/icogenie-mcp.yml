@@ -1,0 +1,90 @@
+id: github__albertnahas__icogenie-mcp
+kind: github-repo
+name: icogenie-mcp
+canonical_url: https://github.com/albertnahas/icogenie-mcp
+identity:
+  github_repo: albertnahas/icogenie-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__albertnahas__icogenie-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🎨 <a name="art-and-culture"></a>Art & Culture
+        anchor_text: albertnahas/icogenie-mcp
+        extracted_url: https://github.com/albertnahas/icogenie-mcp
+        surrounding_text: "- [albertnahas/icogenie-mcp](https://github.com/albertnahas/icogenie-mcp) [![icogenie-mcp MCP server](https://glama.ai/mcp/servers/@albertnahas/icogenie-mcp/badges/score.svg)](https://glama.ai/mcp/servers/@albertnahas/icogenie-mcp) 📇 ☁️ - AI-powered SVG icon generation MCP server. Generate production-ready SVG icons from text descriptions with customizable styles."
+        confidence: high
+metadata:
+  github:
+    stars: 3
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-02-05T07:43:51Z"
+    pushed_at: "2026-03-06T08:23:16Z"
+    description: MCP server for IcoGenie - Enable AI agents to generate SVG icons programmatically
+    homepage: null
+    topics:
+      - ai
+      - anthropic
+      - claude
+      - icogenie
+      - icon-generation
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - svg
+    last_checked_at: "2026-05-05T21:00:57.453Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:57.453Z"
+      bytes: 7679
+insights:
+  summary: An MCP server that allows AI agents like Claude to generate and manage production-ready SVG icons programmatically via the IcoGenie API.
+  why_it_matters: It lets developers automate icon generation and refinement directly inside their AI-assisted coding workflows, removing the context switch to manual design tools.
+  mental_damage: We have successfully abstracted away the tedious work of drawing a 24x24 pixel house icon, ensuring your agent can now burn credits and API calls to avoid opening Figma for an additional six seconds.
+  tags:
+    - mcp
+    - icons
+    - svg
+    - npx
+  confidence: high
+curation:
+  status: included
+  reason: The repository is explicitly an MCP server implementation designed to extend AI agents with icon generation capabilities, fitting the MCP infrastructure category.
+  evidence:
+    - "Repo description states: 'MCP server for IcoGenie - Enable AI agents to generate SVG icons programmatically.'"
+    - README confirms it is an 'MCP (Model Context Protocol) server' with tools like generate_icon and download_icon.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Art & Culture'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.677Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:57.453Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:07:15.013Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

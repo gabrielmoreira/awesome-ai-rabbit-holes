@@ -1,0 +1,89 @@
+id: github__op7418__codepilot
+kind: github-repo
+name: codepilot
+canonical_url: https://github.com/op7418/codepilot
+identity:
+  github_repo: op7418/codepilot
+provenance:
+  discoveries:
+    - id: discovery__github__op7418__codepilot__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 代码 Coding
+        anchor_text: CodePilot
+        extracted_url: https://github.com/op7418/codepilot
+        surrounding_text: 14. [Claude Code (`🔥`)](https://github.com/anthropics/claude-code) + [Happy Coder](https://github.com/slopus/happy) / [CodePilot](https://github.com/op7418/CodePilot)
+        confidence: high
+metadata:
+  github:
+    stars: 5624
+    forks: 603
+    license: NOASSERTION
+    archived: false
+    created_at: "2026-02-06T12:38:55Z"
+    pushed_at: "2026-04-24T03:30:49Z"
+    description: A multi-model AI agent desktop client — connect any AI provider, extend with MCP & skills, control from your phone. Built with Electron + Next.js.
+    homepage: https://www.codepilot.sh/
+    topics:
+      - ai
+      - anthropic
+      - claude
+      - claude-code
+      - desktop-app
+      - electron
+      - gui
+      - nextjs
+    last_checked_at: "2026-05-05T21:04:02.393Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:02.393Z"
+      bytes: 13212
+insights:
+  summary: A desktop AI agent client built with Electron and Next.js that connects to 17+ AI providers, supports MCP servers and reusable skills, and can be controlled remotely via mobile chat apps.
+  why_it_matters: Developers can centralize multi-provider AI workflows, persist memory and skills, and review code or task output in a desktop environment that integrates with Claude Code CLI for direct repo editing.
+  mental_damage: Another desktop wrapper promising to unify the entire AI ecosystem, giving you one more place to wonder why your assistant remembers your birthday but not the variable you renamed three prompts ago.
+  tags:
+    - desktop-app
+    - multi-model
+    - mcp
+    - skills
+    - electron
+  confidence: high
+curation:
+  status: included
+  reason: The primary surface is a desktop AI agent that can directly edit files, run terminal commands, and operate on repos via Claude Code CLI integration, fitting the coding-agents category.
+  evidence:
+    - Repo description states it is a 'multi-model AI agent desktop client' with MCP and skills support.
+    - README explicitly notes that installing Claude Code CLI unlocks 'direct file editing, terminal commands, and git operations'.
+    - README positions it as a coding tool evolved into a general-purpose agent with assistant workspace, memory, and split-screen sessions.
+placement:
+  primary_category: coding-agents
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (5624) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.711Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:02.393Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:42:11.942Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

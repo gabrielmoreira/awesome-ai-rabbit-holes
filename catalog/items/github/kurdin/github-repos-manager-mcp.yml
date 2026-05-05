@@ -1,0 +1,81 @@
+id: github__kurdin__github-repos-manager-mcp
+kind: github-repo
+name: github-repos-manager-mcp
+canonical_url: https://github.com/kurdin/github-repos-manager-mcp
+identity:
+  github_repo: kurdin/github-repos-manager-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__kurdin__github-repos-manager-mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: GitHub Repos Manager MCP Server
+        extracted_url: https://github.com/kurdin/github-repos-manager-mcp
+        surrounding_text: "- **[GitHub Repos Manager MCP Server](https://github.com/kurdin/github-repos-manager-mcp)** - Token-based GitHub automation management. No Docker, Flexible configuration, 80+ tools with direct API integration."
+        confidence: high
+metadata:
+  github:
+    stars: 20
+    forks: 7
+    license: null
+    archived: false
+    created_at: "2025-06-02T18:26:25Z"
+    pushed_at: "2025-09-25T19:48:51Z"
+    description: GitHub Repos Manager MCP Server that enables your MCP client (e.g., Claude Desktop, Roo Code, etc.) to interact with GitHub repositories using your GitHub personal access token.
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:03:13.410Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:13.410Z"
+      bytes: 42098
+insights:
+  summary: A Node.js MCP server that exposes 89 GitHub API tools to MCP clients like Claude Desktop and Cursor using only a personal access token, with no Docker required.
+  why_it_matters: It lets developers automate comprehensive repository management, issue tracking, and PR workflows directly through their AI assistant rather than switching to the GitHub UI or CLI.
+  mental_damage: We have successfully abstracted away the need to open a browser tab, meaning your AI can now manage your GitHub notifications while you manage your AI's GitHub tokens.
+  tags:
+    - mcp
+    - github
+    - automation
+    - nodejs
+    - api
+  confidence: high
+curation:
+  status: included
+  reason: The repository is explicitly an MCP server providing GitHub automation tools, which fits squarely into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description confirms it is a 'GitHub Repos Manager MCP Server' for MCP clients.
+    - README details 89 tools for repo, issue, and PR management via direct GitHub API integration.
+    - Listed in the 'awesome-mcp-servers' directory under 'Community Servers'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.703Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:13.410Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:32:34.986Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

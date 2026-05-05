@@ -1,0 +1,86 @@
+id: github__needle-ai__needle-mcp
+kind: github-repo
+name: needle-mcp
+canonical_url: https://github.com/needle-ai/needle-mcp
+identity:
+  github_repo: needle-ai/needle-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__needle-ai__needle-mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Needle
+        extracted_url: https://github.com/needle-ai/needle-mcp
+        surrounding_text: "- **[Needle](https://github.com/needle-ai/needle-mcp)** - Production-ready RAG out of the box to search and retrieve data from your own documents."
+        confidence: high
+metadata:
+  github:
+    stars: 99
+    forks: 25
+    license: MIT
+    archived: false
+    created_at: "2024-12-15T14:25:13Z"
+    pushed_at: "2025-07-27T13:34:24Z"
+    description: Needle MCP Server for easy RAG.Long-term memory for LLMs.
+    homepage: https://needle.app
+    topics:
+      - ai
+      - mcp
+      - modelcontextprotocol
+      - rag
+      - semantic-search
+    last_checked_at: "2026-05-05T21:03:52.316Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:52.316Z"
+      bytes: 7076
+insights:
+  summary: An MCP server that connects Claude Desktop and Cursor to Needle's hosted RAG platform for document management and semantic search across PDFs, DOCX, and other files.
+  why_it_matters: It gives coding assistants a long-term memory layer by letting them ingest, organize, and semantically search project documentation and internal knowledge bases directly from the IDE.
+  mental_damage: "Just what every developer needs: another abstraction layer to manage so their AI can pretend to remember what was in that onboarding PDF from nine months ago."
+  tags:
+    - mcp
+    - rag
+    - semantic-search
+    - claude-desktop
+    - memory
+  confidence: high
+curation:
+  status: included
+  reason: The project is an MCP server implementation that provides document search and RAG capabilities to MCP-compatible clients like Claude Desktop and Cursor.
+  evidence:
+    - "Repo description explicitly states: 'Needle MCP Server for easy RAG. Long-term memory for LLMs.'"
+    - README confirms it is an MCP server for Claude Desktop and Cursor with document management and semantic search features.
+    - Listed in awesome-mcp-servers under 'Official Servers' section, confirming MCP ecosystem fit.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.709Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:52.316Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:40:09.359Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,85 @@
+id: github__automl__hpobench
+kind: github-repo
+name: hpolib2
+canonical_url: https://github.com/automl/hpobench
+identity:
+  github_repo: automl/hpobench
+provenance:
+  discoveries:
+    - id: discovery__github__automl__hpolib2__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - AutoML
+        anchor_text: HPOlib2
+        extracted_url: https://github.com/automl/hpolib2
+        surrounding_text: "| [HPOlib2](https://github.com/automl/HPOlib2)                                 | a library for hyperparameter optimization and black box optimization benchmarks.                                                                                                | ![GitHub Badge](https://img.shields.io/github/stars/automl/HPOlib2.svg?style=flat-square)                  |"
+        confidence: high
+metadata:
+  github:
+    stars: 167
+    forks: 38
+    license: Apache-2.0
+    archived: false
+    created_at: "2020-01-14T07:58:39Z"
+    pushed_at: "2025-05-21T11:10:27Z"
+    description: Collection of hyperparameter optimization benchmark problems
+    homepage: ""
+    topics:
+      - bayesian-optimization
+      - benchmark
+      - benchmarking
+      - containerized-benchmarks
+      - hyperparameter-optimization
+    last_checked_at: "2026-05-05T21:01:13.287Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:13.287Z"
+      bytes: 8175
+insights:
+  summary: HPOBench is a library providing containerized hyperparameter optimization benchmarks designed for reproducible multi-fidelity benchmarking.
+  why_it_matters: It allows developers and researchers to standardize performance testing across different HPO algorithms using isolated, reproducible environments.
+  mental_damage: "Just what every engineer needed: a standardized way to quantify exactly how much time we're wasting tuning hyperparameters instead of writing features."
+  tags:
+    - hyperparameter-optimization
+    - benchmarks
+    - reproducibility
+    - ml-eval
+  confidence: high
+curation:
+  status: included
+  reason: This is a benchmark and evaluation framework for ML hyperparameters, which fits the Evaluations and Benchmarks category for measuring model behavior.
+  evidence:
+    - "Repo description explicitly states: 'Collection of hyperparameter optimization benchmark problems'."
+    - README confirms the library provides 'benchmarks for (multi-fidelity) hyperparameter optimization with a focus on reproducibility.'
+    - Topics include 'benchmarking' and 'hyperparameter-optimization', aligning with the evals category.
+placement:
+  primary_category: evals
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (167) exceeded threshold (150)
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:09:38.389Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.680Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:13.287Z"
+    cause: null
+    next_retry_at: null

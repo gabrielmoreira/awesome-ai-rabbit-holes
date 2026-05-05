@@ -1,0 +1,76 @@
+id: docs__julep__ai__open__responses
+kind: website
+name: open-responses
+canonical_url: https://docs.julep.ai/open-responses
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__docs__julep__ai__open__responses__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Serving
+          - Frameworks/Servers for Serving
+        anchor_text: Open Responses
+        extracted_url: https://docs.julep.ai/open-responses
+        surrounding_text: "| [Open Responses](https://docs.julep.ai/open-responses) | Serverless open-source platform for building long-running LLM agents with tool use. | ![GitHub Badge](https://img.shields.io/github/stars/julep-ai/julep.svg?style=flat-square) |"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Open Responses is a framework or server implementation for serving LLM responses, listed as a serving infrastructure component.
+  why_it_matters: It provides developers with tooling to standardize and manage how LLM responses are served within their stacks.
+  mental_damage: Yet another layer of infrastructure to argue about while we all pretend that serving a 400-token completion is the hard part of the job.
+  tags:
+    - llm-serving
+    - infrastructure
+    - framework
+  confidence: low
+curation:
+  status: excluded
+  reason: The project is a serving framework/server for LLMs, which fits the AI Frameworks and SDKs category, but the inputs are too sparse and unverified to confirm it is a distinct, high-quality developer tool rather than a generic backend component.
+  evidence:
+    - Listed in Awesome-LLMOps under 'Serving > Frameworks/Servers for Serving', suggesting a backend infrastructure role.
+    - No repository description, README excerpt, or scraped site context was provided to verify specific developer-facing features.
+    - Metadata such as stars, creation date, and license status are unknown, making it impossible to verify traction or activity.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.727Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:44:05.726Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

@@ -1,0 +1,82 @@
+id: github__jjsantos01__jupyter-notebook-mcp
+kind: github-repo
+name: jupyter-notebook-mcp
+canonical_url: https://github.com/jjsantos01/jupyter-notebook-mcp
+identity:
+  github_repo: jjsantos01/jupyter-notebook-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__jjsantos01__jupyter-notebook-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧮 <a name="data-science-tools"></a>Data Science Tools
+        anchor_text: jjsantos01/jupyter-notebook-mcp
+        extracted_url: https://github.com/jjsantos01/jupyter-notebook-mcp
+        surrounding_text: "- [jjsantos01/jupyter-notebook-mcp](https://github.com/jjsantos01/jupyter-notebook-mcp) 🐍 🏠 - connects Jupyter Notebook to Claude AI, allowing Claude to directly interact with and control Jupyter Notebooks."
+        confidence: high
+metadata:
+  github:
+    stars: 128
+    forks: 25
+    license: MIT
+    archived: false
+    created_at: "2025-03-26T19:55:58Z"
+    pushed_at: "2025-04-02T04:37:21Z"
+    description: A Model Context Protocol (MCP) for Jupyter Notebook
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:02:56.317Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:56.317Z"
+      bytes: 11542
+insights:
+  summary: An MCP server that bridges Claude Desktop with Jupyter Notebook 6.x via WebSocket to enable AI-assisted cell manipulation, code execution, and notebook management.
+  why_it_matters: It allows developers to delegate notebook cell management and code execution to Claude, integrating AI assistance directly into a traditional data science workflow.
+  mental_damage: We've achieved the technological singularity where your AI assistant can execute arbitrary Python code in a notebook that hasn't been updated since 2020.
+  tags:
+    - mcp
+    - jupyter
+    - claude
+    - data-science
+    - websocket
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server implementation designed to connect Claude to Jupyter Notebook, fitting the MCP infrastructure category.
+  evidence:
+    - Repo description states it is 'A Model Context Protocol (MCP) for Jupyter Notebook'.
+    - README details implementation of 'jupyter_mcp_server.py' and WebSocket components to integrate with Claude Desktop.
+    - Listed in the 'awesome-mcp-servers' directory under 'Data Science Tools'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.700Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:56.317Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:28:38.669Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

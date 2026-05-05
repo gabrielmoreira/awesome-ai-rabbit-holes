@@ -1,0 +1,77 @@
+id: www__gitguardian__com
+kind: website
+name: www.gitguardian.com
+canonical_url: https://www.gitguardian.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__gitguardian__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Security
+        anchor_text: GitGuardian
+        extracted_url: https://www.gitguardian.com
+        surrounding_text: "- **[GitGuardian](https://www.gitguardian.com/)** – Monitors codebases for leaked secrets, API keys, and credentials."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: GitGuardian is a secrets detection and Non-Human Identity (NHI) governance platform that scans code, repositories, and tools to prevent hardcoded secrets and manage machine identities.
+  why_it_matters: It integrates into the developer workflow via CLI (ggshield) and Git hooks to catch secret leaks before deployment, while also providing security teams with visibility into the exploding population of AI agent credentials.
+  mental_damage: Just when you thought keeping track of your own API keys was hard, the rise of autonomous agents means you now have to govern the digital identities of the bots you accidentally hired.
+  tags:
+    - secrets-detection
+    - security
+    - nhis
+    - sdlc
+    - compliance
+  confidence: high
+curation:
+  status: excluded
+  reason: While it appears in 'awesome-ai-coding-tools' under security, GitGuardian is fundamentally a security and compliance platform for secrets management and NHI governance, not a tool that assists developers in writing, generating, or orchestrating code with AI.
+  evidence:
+    - Scraped site context describes the product as 'Secrets Security and NHI Governance' focused on detecting secrets and governing Non-Human Identities.
+    - Awesome list source classifies it under 'Security' for the purpose of detecting secrets in code, not as a coding agent or AI assistant.
+    - The CLI tool (ggshield) is presented as a scanning and prevention tool for hardcoded secrets rather than an AI coding assistant.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.732Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:51:01.205Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

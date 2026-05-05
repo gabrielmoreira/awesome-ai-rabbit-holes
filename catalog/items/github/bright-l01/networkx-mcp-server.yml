@@ -1,0 +1,95 @@
+id: github__bright-l01__networkx-mcp-server
+kind: github-repo
+name: networkx-mcp-server
+canonical_url: https://github.com/bright-l01/networkx-mcp-server
+identity:
+  github_repo: bright-l01/networkx-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__bright-l01__networkx-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧮 <a name="data-science-tools"></a>Data Science Tools
+        anchor_text: Bright-L01/networkx-mcp-server
+        extracted_url: https://github.com/bright-l01/networkx-mcp-server
+        surrounding_text: "- [Bright-L01/networkx-mcp-server](https://github.com/Bright-L01/networkx-mcp-server) 🐍 🏠 - The first NetworkX integration for Model Context Protocol, enabling graph analysis and visualization directly in AI conversations. Supports 13 operations including centrality algorithms, community detection, PageRank, and graph visualization."
+        confidence: high
+metadata:
+  github:
+    stars: 16
+    forks: 5
+    license: MIT
+    archived: false
+    created_at: "2025-06-27T04:35:59Z"
+    pushed_at: "2026-04-27T09:46:11Z"
+    description: 🕸️ First NetworkX MCP server for graph analysis in AI conversations | Community & Enterprise editions | Graph algorithms • Network analysis • MCP integration
+    homepage: https://networkx-mcp-server.readthedocs.io
+    topics:
+      - ai-tools
+      - algorithms
+      - community-detection
+      - enterprise
+      - first-of-kind
+      - graph-algorithms
+      - graph-analysis
+      - mcp
+      - mcp-server
+      - network-analysis
+      - networkx
+      - python
+      - visualization
+    last_checked_at: "2026-05-05T21:01:25.440Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:25.440Z"
+      bytes: 5755
+insights:
+  summary: A Model Context Protocol server that exposes NetworkX graph analysis and algorithm capabilities to MCP-compatible AI clients.
+  why_it_matters: It lets developers and AI agents perform advanced graph operations and network analysis directly within their AI-assisted workflows without leaving the conversation.
+  mental_damage: We have officially reached the point where we are packaging scientific computing libraries into protocol servers so our chatbots can draw graphs and call it agentic behavior.
+  tags:
+    - mcp
+    - graph-analysis
+    - networkx
+    - python
+    - data-science
+  confidence: high
+curation:
+  status: included
+  reason: The project is a dedicated MCP server implementation designed to expose graph analysis tools to MCP clients, which fits cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly calls it a 'NetworkX MCP server for graph analysis in AI conversations' with 'MCP integration'.
+    - README states it is a 'comprehensive Model Context Protocol (MCP) server providing advanced graph analysis capabilities'.
+    - Listed in awesome-mcp-servers under 'Data Science Tools', confirming its role as MCP infrastructure.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.440Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:25.440Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:11:37.395Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

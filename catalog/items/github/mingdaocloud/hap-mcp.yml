@@ -1,0 +1,80 @@
+id: github__mingdaocloud__hap-mcp
+kind: github-repo
+name: hap-mcp
+canonical_url: https://github.com/mingdaocloud/hap-mcp
+identity:
+  github_repo: mingdaocloud/hap-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__mingdaocloud__hap-mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: HAP-MCP
+        extracted_url: https://github.com/mingdaocloud/hap-mcp
+        surrounding_text: "- **[HAP-MCP](https://github.com/mingdaocloud/hap-mcp.git)** - HAP (Super Application Platform) is developed by Mingdao（ https://www.mingdao.com ）The launched APaaS platform helps you build enterprise level applications quickly without coding. This is HAP's MCP (Model Context Protocol) server, used for seamless integration of AI. It enables every zero code application built through HAP to quickly become a tool for agents."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2025-07-03T04:14:34Z"
+    pushed_at: "2025-07-03T12:49:59Z"
+    description: HAP - Model Context Protocol (MCP) Server by MingdaoCloud
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:03:42.030Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:42.030Z"
+      bytes: 11350
+insights:
+  summary: An MCP server that exposes the full HAP (Hyper Application Platform) APaaS API as tools for AI clients like Cursor, enabling AI-driven interaction with enterprise no-code application data.
+  why_it_matters: Developers using HAP can now integrate their low-code platform data and operations directly into AI coding workflows via the Model Context Protocol.
+  mental_damage: We have successfully bridged the gap between 'no-code' platforms and 'AI agents,' proving that if you can't beat the abstraction, you can at least wrap it in an MCP server.
+  tags:
+    - mcp
+    - apaas
+    - integration
+    - enterprise
+  confidence: high
+curation:
+  status: included
+  reason: The project is a dedicated MCP server implementation exposing HAP platform APIs, which fits squarely into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states 'MCP Server by MingdaoCloud'
+    - README details 28 specific tools (worksheet operations, role management) exposed via the Model Context Protocol
+    - Listed in the 'awesome-mcp-servers' directory under 'Community Servers'
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.707Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:42.030Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:38:04.327Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,85 @@
+id: github__marqo-ai__marqo
+kind: github-repo
+name: marqo
+canonical_url: https://github.com/marqo-ai/marqo
+identity:
+  github_repo: marqo-ai/marqo
+provenance:
+  discoveries:
+    - id: discovery__github__marqo-ai__marqo__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Search
+          - Vector search
+        anchor_text: Marqo
+        extracted_url: https://github.com/marqo-ai/marqo
+        surrounding_text: "| [Marqo](https://github.com/marqo-ai/marqo)                | Tensor search for humans.                                                                                                                                                                                                                                                                     | ![GitHub Badge](https://img.shields.io/github/stars/marqo-ai/marqo.svg?style=flat-square)             |"
+        confidence: high
+metadata:
+  github:
+    stars: 5026
+    forks: 232
+    license: Apache-2.0
+    archived: false
+    created_at: "2022-08-01T12:12:51Z"
+    pushed_at: "2026-04-10T05:12:14Z"
+    description: Ecommerce Search and Discovery - marqo.ai
+    homepage: https://www.marqo.ai/
+    topics:
+      - ecommerce
+      - machine-learning
+      - multi-modal
+      - search-engine
+    last_checked_at: "2026-05-05T21:03:30.835Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:30.835Z"
+      bytes: 1427
+insights:
+  summary: Marqo is an AI-native ecommerce search platform that provides semantic search and product recommendations by leveraging multimodal vector search and shopper behavior data.
+  why_it_matters: Developers building commerce experiences can use it to replace keyword search with intent-aware retrieval without training custom ML models from scratch.
+  mental_damage: Yet another reminder that while we automate search relevance, we still haven't figured out how to make the search bar on the internal dev docs return the right result.
+  tags:
+    - search
+    - vector-search
+    - ecommerce
+    - semantic-search
+  confidence: high
+curation:
+  status: excluded
+  reason: The project is a commerce-focused SaaS and vector search engine, not a developer-facing AI coding tool, agent, or workflow enhancer for software development.
+  evidence:
+    - "Repo description: 'Ecommerce Search and Discovery' and README confirms it is a platform for 'online brands in fashion, beauty, electronics'."
+    - Notice in README states the open source project is deprecated and directs users to the commercial marqo.ai product.
+    - Listed in Awesome-LLMOps under 'Search > Vector search', which is infrastructural, not developer-tooling for coding workflows.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (5026) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.705Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:30.835Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:36:01.874Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

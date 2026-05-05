@@ -1,0 +1,82 @@
+id: github__helm-protocol__openttt-mcp
+kind: github-repo
+name: openttt-mcp
+canonical_url: https://github.com/helm-protocol/openttt-mcp
+identity:
+  github_repo: helm-protocol/openttt-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__helm-protocol__openttt-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: Helm-Protocol/openttt-mcp
+        extracted_url: https://github.com/helm-protocol/openttt-mcp
+        surrounding_text: "- [Helm-Protocol/openttt-mcp](https://github.com/Helm-Protocol/openttt-mcp) [![openttt-mcp MCP server](https://glama.ai/mcp/servers/Helm-Protocol/openttt-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Helm-Protocol/openttt-mcp) 📇 ☁️ - Proof-of-Time temporal attestation for AI agents. 4 HTTPS sources, 54K+ proofs. Claude Desktop compatible."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-03-22T05:37:40Z"
+    pushed_at: "2026-03-23T14:14:25Z"
+    description: OpenTTT MCP Server — Proof-of-Time temporal attestation for AI agents
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:33.100Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:33.100Z"
+      bytes: 5073
+insights:
+  summary: An MCP server that provides AI agents with cryptographic Proof of Time tools for verifying transaction ordering using synthesized timestamps and GRG integrity shards.
+  why_it_matters: It allows AI agents to establish non-repudiable, cryptographically verified timestamps for on-chain transactions, solving ordering disputes in automated DeFi workflows.
+  mental_damage: "We have finally achieved the singularity: AI agents now need cryptographic notarization to prove to each other who clicked the button first."
+  tags:
+    - mcp
+    - blockchain
+    - crypto
+    - defi
+    - timestamp
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server implementation designed to extend AI agents with specific Proof of Time tools.
+  evidence:
+    - "Repo description states: 'OpenTTT MCP Server — Proof-of-Time temporal attestation for AI agents'"
+    - README confirms it is an 'MCP Server for OpenTTT' configured via claude_desktop_config.json
+    - Listed in awesome-mcp-servers under Server Implementations > Finance & Fintech
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.691Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:33.100Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:23:43.927Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

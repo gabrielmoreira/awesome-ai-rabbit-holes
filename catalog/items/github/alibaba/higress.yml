@@ -1,0 +1,86 @@
+id: github__alibaba__higress
+kind: github-repo
+name: higress
+canonical_url: https://github.com/alibaba/higress
+identity:
+  github_repo: alibaba/higress
+provenance:
+  discoveries:
+    - id: discovery__github__alibaba__higress__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: Higress
+        extracted_url: https://github.com/alibaba/higress
+        surrounding_text: "- [higress-group/higress-ops-mcp-server](https://github.com/higress-group/higress-ops-mcp-server) 🐍 🏠 - MCP server that provides comprehensive tools for managing [Higress](https://github.com/alibaba/higress) gateway configurations and operations."
+        confidence: high
+metadata:
+  github:
+    stars: 8307
+    forks: 1093
+    license: Apache-2.0
+    archived: false
+    created_at: "2022-10-27T03:53:00Z"
+    pushed_at: "2026-04-30T10:03:33Z"
+    description: 🤖 AI Gateway | AI Native API Gateway
+    homepage: https://higress.ai
+    topics:
+      - ai-gateway
+      - ai-native
+      - api-gateway
+      - cloud-native
+      - envoy
+    last_checked_at: "2026-05-05T21:00:59.369Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:59.369Z"
+      bytes: 13724
+insights:
+  summary: Higress is a cloud-native API gateway built on Istio and Envoy that provides unified management for LLM APIs and hosts MCP (Model Context Protocol) servers via Wasm plugins.
+  why_it_matters: It allows developers to standardize AI model routing and expose existing OpenAPI services as MCP servers, bridging the gap between traditional infrastructure and modern AI agent tooling.
+  mental_damage: Just when you thought your tech stack was stable, the API gateway now needs to understand model context protocols and Wasm plugins to serve your chatbot's tools.
+  tags:
+    - ai-gateway
+    - mcp
+    - envoy
+    - cloud-native
+  confidence: high
+curation:
+  status: included
+  reason: Higress is a gateway infrastructure that specifically supports hosting MCP servers and unifying LLM API traffic, making it a core piece of MCP tooling infrastructure rather than just a generic API gateway.
+  evidence:
+    - README states it 'supports hosting MCP (Model Context Protocol) Servers through its plugin mechanism' and provides an 'openapi-to-mcp tool'.
+    - Listed in awesome-mcp-servers under 'Developer Tools' section.
+    - Homepage and docs focus heavily on AI gateway capabilities for model providers and MCP API management.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (8307) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.440Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:59.369Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:07:31.624Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

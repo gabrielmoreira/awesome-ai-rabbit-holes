@@ -1,0 +1,74 @@
+id: mutable__ai
+kind: website
+name: mutable.ai
+canonical_url: https://mutable.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__mutable__ai__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Mutable AI
+        anchor_text: Mutable AI
+        extracted_url: https://mutable.ai
+        surrounding_text: "## [Mutable AI](https://mutable.ai/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Mutable AI is an AI coding assistant designed to help developers understand, refactor, and automatically generate code within their repositories.
+  why_it_matters: It integrates AI directly into the development workflow to automate complex refactoring tasks and accelerate code comprehension.
+  mental_damage: "Just what your git history needed: an autonomous agent convinced it can refactor that legacy module better than the person who wrote it three years ago."
+  tags:
+    - coding-assistant
+    - refactoring
+    - code-generation
+  confidence: medium
+curation:
+  status: included
+  reason: The tool is listed in awesome-ai-agents and functions as a developer-facing assistant that plans, writes, and edits code directly in the repo workflow.
+  evidence:
+    - Listed under 'Mutable AI' in the awesome-ai-agents directory as an autonomous agent.
+    - Described as a tool for refactoring and code generation, fitting the coding-agents criteria.
+placement:
+  primary_category: coding-agents
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.729Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:46:39.572Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

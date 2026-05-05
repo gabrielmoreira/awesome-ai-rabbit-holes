@@ -1,0 +1,86 @@
+id: github__kaito-project__kaito
+kind: github-repo
+name: kaito
+canonical_url: https://github.com/kaito-project/kaito
+identity:
+  github_repo: kaito-project/kaito
+provenance:
+  discoveries:
+    - id: discovery__github__kaito-project__kaito__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Serving
+          - Frameworks/Servers for Serving
+        anchor_text: Kaito
+        extracted_url: https://github.com/kaito-project/kaito
+        surrounding_text: "| [Kaito](https://github.com/kaito-project/kaito)                            | A Kubernetes operator that simplifies serving and tuning large AI models (e.g. Falcon or phi-3) using container images and GPU auto-provisioning. Includes an OpenAI-compatible server for inference and preset configurations for popular runtimes such as vLLM and transformers.                                                                 | ![GitHub Badge](https://img.shields.io/github/stars/kaito-project/kaito.svg?style=flat-square)            |"
+        confidence: high
+metadata:
+  github:
+    stars: 926
+    forks: 169
+    license: NOASSERTION
+    archived: false
+    created_at: "2023-09-09T01:53:38Z"
+    pushed_at: "2026-05-05T17:35:54Z"
+    description: Kubernetes AI Toolchain Operator
+    homepage: https://kaito-project.github.io/kaito/docs/
+    topics:
+      - ai
+      - gpu
+      - kubernetes
+      - operator
+    last_checked_at: "2026-05-05T21:03:02.228Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:02.228Z"
+      bytes: 9355
+insights:
+  summary: KAITO is a Kubernetes operator that automates the deployment of LLM inference, fine-tuning, and RAG engines by managing GPU provisioning, scheduling, and scaling within a cluster.
+  why_it_matters: It simplifies running self-hosted LLMs on Kubernetes by handling the complex orchestration of GPU nodes, model memory estimation, and inference engine configuration automatically.
+  mental_damage: Just when you thought your YAML files were safe, now your cluster can auto-provision expensive GPUs just to host a chatbot that summarizes your Jira tickets.
+  tags:
+    - kubernetes
+    - llm-serving
+    - gpu
+    - operator
+    - rag
+  confidence: high
+curation:
+  status: included
+  reason: It is a code-first framework and operator suite for embedding AI model serving infrastructure into Kubernetes, fitting the developer-tooling infrastructure scope.
+  evidence:
+    - Repo description states it is a 'Kubernetes AI Toolchain Operator'.
+    - README confirms it automates LLM inference and fine-tuning deployment using CRDs and GPU node auto-provisioning.
+    - Listed in Awesome-LLMOps under 'Serving > Frameworks/Servers for Serving'.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (926) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.701Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:02.228Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:29:59.750Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

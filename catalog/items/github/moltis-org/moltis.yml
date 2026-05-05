@@ -1,0 +1,94 @@
+id: github__moltis-org__moltis
+kind: github-repo
+name: moltis
+canonical_url: https://github.com/moltis-org/moltis
+identity:
+  github_repo: moltis-org/moltis
+provenance:
+  discoveries:
+    - id: discovery__github__moltis-org__moltis__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Terminal-native coding agents
+          - OpenClaw ecosystem
+        anchor_text: Moltis
+        extracted_url: https://github.com/moltis-org/moltis
+        surrounding_text: "- **[Moltis](https://github.com/moltis-org/moltis)** `⭐ 2.6k` — Secure, auditable Rust-native alternative to OpenClaw; zero unsafe code, 2,300+ tests, built-in voice I/O, MCP servers, and multi-channel access. MIT."
+        confidence: high
+metadata:
+  github:
+    stars: 2651
+    forks: 312
+    license: MIT
+    archived: false
+    created_at: "2026-01-29T19:36:31Z"
+    pushed_at: "2026-05-05T21:00:28Z"
+    description: A secure persistent personal agent server in Rust. One binary, sandboxed execution, multi-provider LLMs, voice, memory, Telegram, WhatsApp, Discord, Teams, and MCP tools. Secure by design, runs on your hardware.
+    homepage: https://moltis.org
+    topics:
+      - ai-agent
+      - ai-assistant
+      - clawdbot
+      - llm
+      - mcp
+      - openclaw
+      - rust
+      - sandbox
+      - self-hosted
+      - single-binary
+      - telegram-bot
+      - voice-assistant
+    last_checked_at: "2026-05-05T21:03:46.379Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:46.379Z"
+      bytes: 14099
+insights:
+  summary: A self-hosted, single-binary personal agent server written in Rust that supports sandboxed execution, multi-provider LLMs, voice, memory, and messaging platform integrations.
+  why_it_matters: It offers developers a secure, auditable, and local-first alternative to cloud agents, bundling MCP tooling, persistent memory, and cross-platform messaging into one deployable artifact.
+  mental_damage: Finally, a way to run a paranoid, sandboxed AI agent on your own hardware that integrates with Discord, Telegram, and WhatsApp, because apparently your Raspberry Pi needed more agency than your CI pipeline.
+  tags:
+    - rust
+    - self-hosted
+    - mcp
+    - agent-server
+    - local-ai
+  confidence: high
+curation:
+  status: included
+  reason: Listed in the awesome-cli-coding-agents directory under 'Terminal-native coding agents' and fits the criteria as a persistent, terminal-accessible agent that operates on projects with features like Cursor-compatible context and automatic edit checkpoints.
+  evidence:
+    - Repo description identifies it as a 'secure persistent personal agent server' with MCP tools and sandboxing.
+    - Included in awesome-cli-coding-agents under the section 'Terminal-native coding agents > OpenClaw ecosystem'.
+    - README highlights 'Cursor-compatible project context' and 'automatic edit checkpoints', indicating direct code workflow integration.
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (2651) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.708Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:46.379Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:39:00.089Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

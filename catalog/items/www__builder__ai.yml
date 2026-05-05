@@ -1,0 +1,75 @@
+id: www__builder__ai
+kind: website
+name: www.builder.ai
+canonical_url: https://www.builder.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__builder__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - App Builders
+        anchor_text: Builder.ai
+        extracted_url: https://www.builder.ai
+        surrounding_text: "- **[Builder.ai](https://www.builder.ai/)** – AI-driven custom software development for web and mobile."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Builder.ai is a browser-first SaaS platform that generates, assembles, and deploys full applications and websites from prompts.
+  why_it_matters: It allows developers and non-developers to prototype and ship functional apps or internal tools without manually scaffolding every component.
+  mental_damage: Yet another platform promising to turn a vague prompt into a production app, ensuring developers can outsource the joy of scaffolding while inheriting the full anxiety of maintaining someone else's generated stack.
+  tags:
+    - app-builder
+    - no-code
+    - prompt-to-app
+    - saas
+  confidence: medium
+curation:
+  status: included
+  reason: The product is a browser-first SaaS that turns prompts into full apps and sites, which aligns perfectly with the app-builders category and is already listed under App Builders in awesome-ai-coding-tools.
+  evidence:
+    - Seen in awesome-ai-coding-tools under the 'App Builders' section
+    - URL https://www.builder.ai points to a hosted, browser-first product rather than a repo/IDE assistant
+placement:
+  primary_category: app-builders
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.732Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:49:57.074Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

@@ -1,0 +1,101 @@
+id: github__kiln-ai__kiln
+kind: github-repo
+name: kiln
+canonical_url: https://github.com/kiln-ai/kiln
+identity:
+  github_repo: kiln-ai/kiln
+provenance:
+  discoveries:
+    - id: discovery__github__kiln-ai__kiln__awesome-list__kaushikb11__awesome-llm-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: kaushikb11/awesome-llm-agents
+        url: https://github.com/kaushikb11/awesome-llm-agents
+        repository: kaushikb11/awesome-llm-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Frameworks
+        anchor_text: Kiln AI
+        extracted_url: https://github.com/kiln-ai/kiln
+        surrounding_text: "- [Kiln AI](https://github.com/Kiln-AI/Kiln) - Tools for building AI products including"
+        confidence: high
+metadata:
+  github:
+    stars: 4800
+    forks: 361
+    license: NOASSERTION
+    archived: false
+    created_at: "2024-07-23T23:10:13Z"
+    pushed_at: "2026-05-05T19:05:00Z"
+    description: Build, Evaluate, and Optimize AI Systems. Includes evals, RAG, agents, fine-tuning, synthetic data generation, dataset management, MCP, and more.
+    homepage: https://kiln.tech
+    topics:
+      - ai
+      - chain-of-thought
+      - collaboration
+      - dataset-generation
+      - evals
+      - evaluation
+      - evaluation-framework
+      - fine-tuning
+      - machine-learning
+      - macos
+      - mcp
+      - ml
+      - ollama
+      - openai
+      - prompt
+      - prompt-engineering
+      - python
+      - rlhf
+      - synthetic-data
+      - windows
+    last_checked_at: "2026-05-05T21:03:05.636Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:05.636Z"
+      bytes: 19672
+insights:
+  summary: A desktop application and open-source library for building, evaluating, fine-tuning, and optimizing AI systems with support for RAG, agents, synthetic data generation, and MCP.
+  why_it_matters: It centralizes the fragmented AI development lifecycle—from prompt engineering and evals to fine-tuning and dataset management—into a single privacy-first desktop UI.
+  mental_damage: Another holy grail tool promising to solve the 'iterate until it works' loop, ensuring you'll spend just as much time configuring the evaluation framework as you would have fixing the model output manually.
+  tags:
+    - evals
+    - fine-tuning
+    - rag
+    - synthetic-data
+    - mcp
+  confidence: high
+curation:
+  status: included
+  reason: The project's center of gravity is measuring and improving AI system quality through evals, optimizers, and fine-tuning tooling, which aligns precisely with the Evaluations and Benchmarks category.
+  evidence:
+    - Repo description explicitly lists 'Build, Evaluate, and Optimize AI Systems' as the primary purpose.
+    - README highlights Evals, Optimizers, and Fine-Tuning as core features with dedicated documentation links.
+    - Listed in awesome-llm-agents under 'Frameworks' and awesome-LLM-resources under 'Fine-Tuning', confirming its relevance to the AI developer ecosystem.
+placement:
+  primary_category: evals
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (4800) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.701Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:05.637Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:30:45.180Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

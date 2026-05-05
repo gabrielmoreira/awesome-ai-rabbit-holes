@@ -1,0 +1,80 @@
+id: github__heilgar__shadcn-ui-mcp-server
+kind: github-repo
+name: shadcn-ui-mcp-server
+canonical_url: https://github.com/heilgar/shadcn-ui-mcp-server
+identity:
+  github_repo: heilgar/shadcn-ui-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__heilgar__shadcn-ui-mcp-server__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: shadcn-ui-mcp-server
+        extracted_url: https://github.com/heilgar/shadcn-ui-mcp-server
+        surrounding_text: "- **[shadcn-ui-mcp-server](https://github.com/heilgar/shadcn-ui-mcp-server)** - A powerful and flexible MCP server designed to enhance the development experience with Shadcn UI components, providing tools for component management, documentation, and installation."
+        confidence: high
+metadata:
+  github:
+    stars: 24
+    forks: 10
+    license: MIT
+    archived: false
+    created_at: "2025-05-15T20:23:42Z"
+    pushed_at: "2025-05-21T16:34:27Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:32.318Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:32.318Z"
+      bytes: 3659
+insights:
+  summary: An MCP server that lets AI coding agents discover, document, and install shadcn/ui components and blocks directly from the editor.
+  why_it_matters: It gives coding assistants direct access to component metadata and installation workflows, reducing context-switching during UI development.
+  mental_damage: We have now successfully automated the one part of frontend development that already came with copy-paste documentation.
+  tags:
+    - mcp
+    - shadcn-ui
+    - components
+    - agent-tooling
+  confidence: high
+curation:
+  status: included
+  reason: The project is a Model Context Protocol server purpose-built to expose shadcn/ui component and block management tools to AI agents.
+  evidence:
+    - README lists MCP tools including list-components, get-component-docs, and install-component.
+    - Configuration examples provided for Claude Desktop, Windsurf, and Cursor using the MCP server format.
+    - Listed in awesome-mcp-servers under Community Servers, aligning with the MCP servers and tooling category.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.690Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:32.318Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:23:41.495Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

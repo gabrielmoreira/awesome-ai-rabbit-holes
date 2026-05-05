@@ -1,0 +1,93 @@
+id: github__avivsinai__langfuse-mcp
+kind: github-repo
+name: langfuse-mcp
+canonical_url: https://github.com/avivsinai/langfuse-mcp
+identity:
+  github_repo: avivsinai/langfuse-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__avivsinai__langfuse-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📊 <a name="monitoring"></a>Monitoring
+        anchor_text: avivsinai/langfuse-mcp
+        extracted_url: https://github.com/avivsinai/langfuse-mcp
+        surrounding_text: "- [avivsinai/langfuse-mcp](https://github.com/avivsinai/langfuse-mcp) 🐍 ☁️ - Query Langfuse traces, debug exceptions, analyze sessions, and manage prompts. Full observability toolkit for LLM applications."
+        confidence: high
+metadata:
+  github:
+    stars: 85
+    forks: 22
+    license: MIT
+    archived: false
+    created_at: "2025-03-21T06:44:44Z"
+    pushed_at: "2026-05-05T17:55:36Z"
+    description: A Model Context Protocol (MCP) server for Langfuse, enabling AI agents to query Langfuse trace data for enhanced debugging and observability
+    homepage: https://github.com/avivsinai/langfuse-mcp
+    topics:
+      - agent-skills
+      - ai-agents
+      - claude-code
+      - codex
+      - developer-tools
+      - genai
+      - langfuse
+      - llm
+      - mcp
+      - mcp-server
+      - observability
+      - tracing
+    last_checked_at: "2026-05-05T21:01:13.959Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:13.959Z"
+      bytes: 6577
+insights:
+  summary: A Model Context Protocol server that connects AI agents to Langfuse, allowing them to query traces, sessions, prompts, and datasets for debugging and observability.
+  why_it_matters: It allows coding agents to directly inspect their own execution history and prompt configurations inside Langfuse without the developer needing to leave the terminal.
+  mental_damage: We have now successfully built an agent that can debug the agents we built to debug the agents, ensuring the stack is deep enough to hide the original bug completely.
+  tags:
+    - mcp
+    - observability
+    - langfuse
+    - debugging
+  confidence: high
+curation:
+  status: included
+  reason: The project is a dedicated MCP server implementation with 37 tools for a specific observability platform, fitting cleanly into the MCP infrastructure category.
+  evidence:
+    - Repo description explicitly states it is 'A Model Context Protocol (MCP) server for Langfuse'.
+    - README details 37 specific MCP tools for traces, observations, sessions, prompts, and datasets.
+    - Listed under 'Server Implementations > Monitoring' in the awesome-mcp-servers directory.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.680Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:13.959Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:09:46.448Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

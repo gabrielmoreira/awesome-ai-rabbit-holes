@@ -1,0 +1,103 @@
+id: github__chroma-core__chroma
+kind: github-repo
+name: chroma
+canonical_url: https://github.com/chroma-core/chroma
+identity:
+  github_repo: chroma-core/chroma
+provenance:
+  discoveries:
+    - id: discovery__github__chroma-core__chroma__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: scraped
+        section_path:
+          - Official Servers
+        anchor_text: Chroma Package Search
+        extracted_url: https://trychroma.com/package-search
+        surrounding_text: "- **[Chroma Package Search](https://trychroma.com/package-search)** - Add to coding agents like Claude or Cursor to give them the ability to understand and better use thousands of dependencies."
+        confidence: high
+    - id: discovery__github__chroma-core__chroma__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Search
+          - Vector search
+        anchor_text: Chroma
+        extracted_url: https://github.com/chroma-core/chroma
+        surrounding_text: "| [Chroma](https://github.com/chroma-core/chroma)           | the open source embedding database                                                                                                                                                                                                                                                            | ![GitHub Badge](https://img.shields.io/github/stars/chroma-core/chroma.svg?style=flat-square)         |"
+        confidence: high
+metadata:
+  github:
+    stars: 27813
+    forks: 2231
+    license: Apache-2.0
+    archived: false
+    created_at: "2022-10-05T17:58:44Z"
+    pushed_at: "2026-05-05T20:49:06Z"
+    description: Search infrastructure for AI
+    homepage: https://www.trychroma.com/
+    topics:
+      - agents
+      - ai
+      - ai-agents
+      - database
+      - rust
+      - rust-lang
+    last_checked_at: "2026-05-05T21:01:33.937Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:33.937Z"
+      bytes: 3273
+insights:
+  summary: Chroma is an open-source embedding database and search infrastructure designed to store, search, and manage vector embeddings for AI applications.
+  why_it_matters: It provides the retrieval backbone for LLM applications, allowing developers to add semantic search, memory, and context management to their agents and apps with a simple API.
+  mental_damage: Yet another excuse to treat a vector database as the silver bullet for all AI memory problems, ensuring your stack remains robust right up until the moment you realize cosine similarity isn't actually 'understanding' the docs.
+  tags:
+    - vector-database
+    - embeddings
+    - retrieval
+    - rust
+    - python
+  confidence: high
+curation:
+  status: included
+  reason: Chroma is a code-first SDK and infrastructure library that developers import to build AI features, fitting the AI Frameworks and SDKs category.
+  evidence:
+    - Repo description states 'Search infrastructure for AI' with topics including database and AI-agents.
+    - README demonstrates a code-first API (pip install, collection.add, collection.query) for embedding storage and search.
+    - Included in Awesome-LLMOps under 'Search > Vector search', confirming its role as a developer building block.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (27813) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.664Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:33.937Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:13:06.440Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

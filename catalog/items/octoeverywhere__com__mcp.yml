@@ -1,0 +1,76 @@
+id: octoeverywhere__com__mcp
+kind: website
+name: mcp
+canonical_url: https://octoeverywhere.com/mcp
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__octoeverywhere__com__mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: OctoEverywhere For 3D Printing
+        extracted_url: https://octoeverywhere.com/mcp
+        surrounding_text: "- **[OctoEverywhere For 3D Printing](https://octoeverywhere.com/mcp)** - A 3D Printing MCP server that allows for querying for live state, webcam snapshots, and 3D printer control."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A hosted Model Context Protocol server that provides AI LLMs with secure, read-and-control access to 3D printers via OctoPrint, Klipper, and major printer brands.
+  why_it_matters: It lets developers building AI workflows or chat interfaces integrate live 3D printer telemetry and controls without writing custom hardware integrations.
+  mental_damage: "We have finally achieved the singularity: your LLM can now panic-pause a 12-hour benchy print while you are just trying to debug a YAML file."
+  tags:
+    - mcp
+    - 3d-printing
+    - iot
+    - hardware
+  confidence: high
+curation:
+  status: included
+  reason: The product is explicitly an MCP server providing tooling access to hardware, which fits cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - Scraped site title and description confirm it is 'MCP For 3D Printers' providing 'AI LLM MCP server access'.
+    - Source-list context shows it is listed under 'Official Servers' in awesome-mcp-servers.
+    - Setup page provides a Server URL (https://octoeverywhere.com/api/mcp) and access token for MCP client integration.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.729Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:46:46.739Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

@@ -1,0 +1,99 @@
+id: github__adhikasp__mcp-twikit
+kind: github-repo
+name: mcp-twikit
+canonical_url: https://github.com/adhikasp/mcp-twikit
+identity:
+  github_repo: adhikasp/mcp-twikit
+provenance:
+  discoveries:
+    - id: discovery__github__adhikasp__mcp-twikit__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💬 <a name="communication"></a>Communication
+        anchor_text: adhikasp/mcp-twikit
+        extracted_url: https://github.com/adhikasp/mcp-twikit
+        surrounding_text: "- [adhikasp/mcp-twikit](https://github.com/adhikasp/mcp-twikit) 🐍 ☁️ - Interact with Twitter search and timeline"
+        confidence: high
+    - id: discovery__github__adhikasp__mcp-twikit__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - 💬 Communication
+        anchor_text: adhikasp/mcp-twikit
+        extracted_url: https://github.com/adhikasp/mcp-twikit
+        surrounding_text: "-   **[adhikasp/mcp-twikit](https://github.com/adhikasp/mcp-twikit)** [![GitHub stars](https://img.shields.io/github/stars/adhikasp/mcp-twikit?style=social)](https://github.com/adhikasp/mcp-twikit): Accesses Twitter search and timeline data."
+        confidence: high
+metadata:
+  github:
+    stars: 231
+    forks: 37
+    license: MIT
+    archived: false
+    created_at: "2024-12-15T03:37:27Z"
+    pushed_at: "2025-03-14T14:35:31Z"
+    description: A Model Context Protocol (MCP) server for interacting with Twitter.
+    homepage: ""
+    topics:
+      - llm
+      - mcp
+      - model-context-protocol
+    last_checked_at: "2026-05-05T21:00:49.624Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:49.624Z"
+      bytes: 4978
+insights:
+  summary: An MCP server that lets LLM clients interact with Twitter via the Twikit library, enabling timeline retrieval and tweet search directly from coding assistants.
+  why_it_matters: Developers can wire Twitter data into their local AI workflows without building custom API integrations, making social sentiment and real-time updates first-class context for coding agents.
+  mental_damage: "We have finally solved the hardest problem in computer science: letting a Claude instance automatically discover just how much everyone hates their ISP while you pretend to review a pull request."
+  tags:
+    - mcp
+    - twitter
+    - llm-integration
+    - social-media
+  confidence: high
+curation:
+  status: included
+  reason: This is a standalone MCP server implementation that integrates Twitter access into the Model Context Protocol ecosystem for developer tools.
+  evidence:
+    - "Repo description explicitly states: 'A Model Context Protocol (MCP) server for interacting with Twitter.'"
+    - README demonstrates MCP server installation for Claude Desktop and shows tool calls like search_twitter and get_timeline.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Communication', confirming its role as MCP infrastructure.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (231) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.662Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:49.624Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:05:54.326Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

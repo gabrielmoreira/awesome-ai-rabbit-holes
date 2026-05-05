@@ -1,0 +1,86 @@
+id: github__mozilla__firefox-devtools-mcp
+kind: github-repo
+name: firefox-devtools-mcp
+canonical_url: https://github.com/mozilla/firefox-devtools-mcp
+identity:
+  github_repo: mozilla/firefox-devtools-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__freema__firefox-devtools-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📂 <a name="browser-automation"></a>Browser Automation
+        anchor_text: freema/firefox-devtools-mcp
+        extracted_url: https://github.com/freema/firefox-devtools-mcp
+        surrounding_text: "- [freema/firefox-devtools-mcp](https://github.com/freema/firefox-devtools-mcp) 📇 🏠 - Firefox browser automation via WebDriver BiDi for testing, scraping, and browser control. Supports snapshot/UID-based interactions, network monitoring, console capture, and screenshots."
+        confidence: high
+metadata:
+  github:
+    stars: 141
+    forks: 30
+    license: NOASSERTION
+    archived: false
+    created_at: "2025-10-08T17:04:40Z"
+    pushed_at: "2026-05-05T14:13:52Z"
+    description: Model Context Protocol server for Firefox DevTools - enables AI assistants to inspect and control Firefox browser through the Remote Debugging Protocol
+    homepage: ""
+    topics:
+      - claude-code
+      - firefox
+      - mcp
+      - mcp-server
+    last_checked_at: "2026-05-05T21:03:47.444Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:47.444Z"
+      bytes: 9070
+insights:
+  summary: An official Mozilla MCP server that lets AI assistants inspect, control, and automate Firefox via WebDriver BiDi and the Remote Debugging Protocol.
+  why_it_matters: Developers can wire Claude Code, Cursor, or Cline directly into a real Firefox instance for automated debugging, network inspection, and browser interaction without leaving their AI workflow.
+  mental_damage: "We have finally achieved the platonic ideal of modern development: installing a protocol server to let an AI politely ask Firefox to click the button you could have clicked yourself in 1998."
+  tags:
+    - mcp
+    - firefox
+    - devtools
+    - automation
+    - browser
+  confidence: high
+curation:
+  status: included
+  reason: This is an official Model Context Protocol server for Firefox DevTools, directly fitting the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description explicitly states: 'Model Context Protocol server for Firefox DevTools'."
+    - README demonstrates integration with Claude Code, Cursor, and Cline as an MCP server.
+    - Maintained by Mozilla with recent activity (pushed 2026-05-05) and 141 stars.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:39:10.006Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.688Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:47.444Z"
+    cause: null
+    next_retry_at: null

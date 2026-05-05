@@ -1,0 +1,95 @@
+id: github__microsoft__playwright
+kind: github-repo
+name: playwright
+canonical_url: https://github.com/microsoft/playwright
+identity:
+  github_repo: microsoft/playwright
+provenance:
+  discoveries:
+    - id: discovery__github__microsoft__playwright__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: scraped
+        section_path:
+          - Testing and QA
+        anchor_text: Playwright
+        extracted_url: https://playwright.dev
+        surrounding_text: "- **[Playwright](https://playwright.dev/)** – Microsoft's end-to-end testing framework (often used with AI-powered test generation)."
+        confidence: high
+metadata:
+  github:
+    stars: 88024
+    forks: 5625
+    license: Apache-2.0
+    archived: false
+    created_at: "2019-11-15T18:32:42Z"
+    pushed_at: "2026-05-05T21:00:09Z"
+    description: "Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API. "
+    homepage: https://playwright.dev
+    topics:
+      - automation
+      - chrome
+      - chromium
+      - e2e-testing
+      - electron
+      - end-to-end-testing
+      - firefox
+      - javascript
+      - playwright
+      - test
+      - test-automation
+      - testing
+      - testing-tools
+      - web
+      - webkit
+    last_checked_at: "2026-05-05T21:03:39.359Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:39.359Z"
+      bytes: 11266
+insights:
+  summary: Playwright is a web automation and testing framework that provides a unified API for Chromium, Firefox, and WebKit, now explicitly designed to be used as a tool by AI agents and coding assistants.
+  why_it_matters: It provides the standardized browser automation layer that allows coding agents like Claude Code and Copilot to reliably interact with web UIs for testing and verification.
+  mental_damage: We have successfully reached the point where the industry's most robust testing framework has to explicitly market itself as 'a tool for AI agents' just to stay relevant in the README.
+  tags:
+    - testing
+    - automation
+    - browser
+    - ai-agents
+  confidence: high
+curation:
+  status: included
+  reason: The project positions its CLI specifically for coding agents and LLM-driven automation, fitting the 'Terminal & CLI Agents' section of the coding-agents category.
+  evidence:
+    - "README states: 'Playwright CLI is a command-line interface for browser automation designed for coding agents.'"
+    - README explicitly lists 'Coding agents (Claude Code, Copilot)' as a primary workflow path for the CLI.
+    - Seen in awesome-ai-coding-tools under 'Testing and QA' with the note 'tool for AI agents'.
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (88024) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.707Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:39.359Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:37:38.248Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

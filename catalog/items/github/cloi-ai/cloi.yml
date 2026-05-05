@@ -1,0 +1,81 @@
+id: github__cloi-ai__cloi
+kind: github-repo
+name: cloi
+canonical_url: https://github.com/cloi-ai/cloi
+identity:
+  github_repo: cloi-ai/cloi
+provenance:
+  discoveries:
+    - id: discovery__github__cloi-ai__cloi__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 代码 Coding
+        anchor_text: Cloi CLI
+        extracted_url: https://github.com/cloi-ai/cloi
+        surrounding_text: "1. [Cloi CLI](https://github.com/cloi-ai/cloi): Local debugging agent that runs in your terminal."
+        confidence: high
+metadata:
+  github:
+    stars: 395
+    forks: 21
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-05-01T21:58:43Z"
+    pushed_at: "2025-06-06T06:50:19Z"
+    description: Local debugging agent that runs in your terminal
+    homepage: http://www.cloi-ai.com
+    topics: []
+    last_checked_at: "2026-05-05T21:01:35.965Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:35.965Z"
+      bytes: 6801
+insights:
+  summary: A terminal-based debugging agent that runs locally on your machine, using Ollama or Claude models to analyze errors and suggest fixes with RAG-powered context retrieval.
+  why_it_matters: It lets developers debug directly in the terminal with local or API models, keeping code private while automating error analysis and fix suggestions.
+  mental_damage: Another brave terminal agent promising to fix your bugs, provided you are comfortable with an experimental beta patching your codebase and a 500 MB CodeBERT model running quietly in the background.
+  tags:
+    - terminal
+    - debugging
+    - local-ai
+    - rag
+    - cli
+  confidence: high
+curation:
+  status: included
+  reason: The tool is a developer-facing coding agent that directly debugs code inside the terminal, edits files with reviewable diffs, and fits cleanly as a CLI coding assistant.
+  evidence:
+    - "Repo description states: 'Local debugging agent that runs in your terminal.'"
+    - README says Cloi 'analyze[s] errors and apply fixes directly to your codebase' with reviewable diffs.
+    - "Active development: created 2025-05-01, last pushed 2025-06-06, and not archived."
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (395) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.440Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:35.965Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:13:26.193Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

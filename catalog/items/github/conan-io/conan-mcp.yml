@@ -1,0 +1,82 @@
+id: github__conan-io__conan-mcp
+kind: github-repo
+name: conan-mcp
+canonical_url: https://github.com/conan-io/conan-mcp
+identity:
+  github_repo: conan-io/conan-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__conan-io__conan-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: conan-io/conan-mcp
+        extracted_url: https://github.com/conan-io/conan-mcp
+        surrounding_text: "- [conan-io/conan-mcp](https://github.com/conan-io/conan-mcp) 🎖️ 🐍 🏠 🍎 🪟 🐧 - Official MCP server for Conan C/C++ package manager. Create projects, manage dependencies, check licenses, and scan for security vulnerabilities."
+        confidence: high
+metadata:
+  github:
+    stars: 7
+    forks: 4
+    license: MIT
+    archived: false
+    created_at: "2025-10-15T11:01:28Z"
+    pushed_at: "2026-02-12T10:57:51Z"
+    description: Model Context Protocol server for Conan
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:01:40.160Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:40.160Z"
+      bytes: 8642
+insights:
+  summary: A Model Context Protocol server that exposes Conan package manager operations—such as project creation, dependency installation, and license checking—to AI assistants.
+  why_it_matters: It lets developers manage C/C++ dependencies, generate project scaffolds, and audit licenses through natural language conversations inside their MCP-compatible AI tools.
+  mental_damage: The dream of solving C++ dependency hell via a quick chat with an LLM is finally here, meaning we can now anthropomorphize our linker errors.
+  tags:
+    - mcp
+    - conan
+    - cpp
+    - package-manager
+    - devops
+  confidence: high
+curation:
+  status: included
+  reason: The project is a standalone MCP server implementation designed to integrate the Conan package manager with AI assistants, which fits clearly into the MCP infrastructure category.
+  evidence:
+    - "Repo description explicitly states: 'Model Context Protocol server for Conan'."
+    - README details a full MCP server implementation with tools like create_conan_project and install_conan_packages.
+    - Listed in awesome-mcp-servers under 'Developer Tools', confirming its role as MCP infrastructure.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.683Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:40.160Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:14:11.060Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,109 @@
+id: github__oraios__serena
+kind: github-repo
+name: serena
+canonical_url: https://github.com/oraios/serena
+identity:
+  github_repo: oraios/serena
+provenance:
+  discoveries:
+    - id: discovery__github__oraios__serena__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🤖 <a name="coding-agents"></a>Coding Agents
+        anchor_text: oraios/serena
+        extracted_url: https://github.com/oraios/serena
+        surrounding_text: "- [oraios/serena](https://github.com/oraios/serena) 🐍 🏠 - A fully-featured coding agent that relies on symbolic code operations by using language servers."
+        confidence: high
+    - id: discovery__github__oraios__serena__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 代码 Coding
+        anchor_text: Serena
+        extracted_url: https://github.com/oraios/serena
+        surrounding_text: 16. [Serena](https://github.com/oraios/serena)
+        confidence: high
+metadata:
+  github:
+    stars: 23860
+    forks: 1600
+    license: MIT
+    archived: false
+    created_at: "2025-03-23T22:35:24Z"
+    pushed_at: "2026-05-05T15:59:57Z"
+    description: A powerful MCP toolkit for coding, providing semantic retrieval and editing capabilities  - the IDE for your agent
+    homepage: https://oraios.github.io/serena
+    topics:
+      - agent
+      - ai
+      - ai-coding
+      - claude
+      - claude-code
+      - codex
+      - ide
+      - jetbrains
+      - language-server
+      - mcp-server
+      - programming
+      - vibe-coding
+    last_checked_at: "2026-05-05T21:04:08.544Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:08.544Z"
+      bytes: 14354
+insights:
+  summary: Serena is an MCP toolkit that provides IDE-like semantic code retrieval, editing, and refactoring tools to coding agents across various IDEs and CLI environments.
+  why_it_matters: It gives AI agents symbol-level awareness and refactoring capabilities, allowing them to perform complex cross-file operations reliably rather than relying on fragile text-based edits.
+  mental_damage: We have finally built the IDE for the agent, so the only thing left for the human to do is debug the MCP configuration and explain to the agent why it renamed the wrong method.
+  tags:
+    - mcp
+    - coding-agent
+    - semantic-analysis
+    - ide-tools
+    - refactoring
+  confidence: high
+curation:
+  status: included
+  reason: The primary artifact is an MCP server toolkit designed to extend the capabilities of other coding agents, fitting squarely into MCP infrastructure rather than being a standalone coding assistant.
+  evidence:
+    - Repo description explicitly calls it 'A powerful MCP toolkit for coding'.
+    - README states it 'integrates with any client/LLM via the model context protocol (MCP)' and provides tools to existing agents.
+    - Source list context places it under 'Server Implementations > Coding Agents' in awesome-mcp-servers.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (23860) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.670Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:08.544Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:43:10.773Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

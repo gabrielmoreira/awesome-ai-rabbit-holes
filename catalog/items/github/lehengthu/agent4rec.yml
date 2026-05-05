@@ -1,0 +1,82 @@
+id: github__lehengthu__agent4rec
+kind: github-repo
+name: agent4rec
+canonical_url: https://github.com/lehengthu/agent4rec
+identity:
+  github_repo: lehengthu/agent4rec
+provenance:
+  discoveries:
+    - id: discovery__github__lehengthu__agent4rec__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Agent4Rec
+        anchor_text: Agent4Rec
+        extracted_url: https://github.com/lehengthu/agent4rec
+        surrounding_text: "## [Agent4Rec](https://github.com/LehengTHU/Agent4Rec)"
+        confidence: high
+metadata:
+  github:
+    stars: 481
+    forks: 59
+    license: MIT
+    archived: false
+    created_at: "2023-10-12T02:33:22Z"
+    pushed_at: "2024-07-07T05:45:01Z"
+    description: "[SIGIR 2024 perspective] The implementation of paper \"On Generative Agents in Recommendation\""
+    homepage: https://arxiv.org/abs/2310.10108
+    topics:
+      - llm-based-agent
+      - recommender-system
+    last_checked_at: "2026-05-05T21:03:18.329Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:18.329Z"
+      bytes: 4899
+insights:
+  summary: Agent4Rec is a research simulator that creates 1,000 LLM-powered generative agents based on the MovieLens-1M dataset to model and evaluate user behavior within recommender systems.
+  why_it_matters: It provides developers building recommendation engines a controlled environment to test how generative agents interact with personalized suggestions before deploying to real users.
+  mental_damage: Because spending sixteen dollars to simulate a thousand bots arguing over Nicolas Cage movies is exactly the kind of rigorous engineering milestone the SIGIR committee ordered.
+  tags:
+    - recommender-system
+    - simulation
+    - llm-agents
+    - research
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a research simulation for recommender systems, not a developer tool, agent orchestration platform, or coding assistant relevant to the catalog's scope.
+  evidence:
+    - Repo description identifies it as an implementation of a SIGIR 2024 paper on generative agents in recommendation.
+    - README frames the tool as a simulator for evaluating recommendation environments using MovieLens data, not a developer workflow tool.
+    - Source-list context shows it listed under 'awesome-ai-agents' specifically for research/perspective purposes, not as a usable coding agent.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (481) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.704Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:18.329Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:33:34.120Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

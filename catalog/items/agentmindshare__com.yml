@@ -1,0 +1,76 @@
+id: agentmindshare__com
+kind: website
+name: agentmindshare.com
+canonical_url: https://agentmindshare.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__agentmindshare__com__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Agent Mindshare
+        extracted_url: https://agentmindshare.com
+        surrounding_text: "- **[Agent Mindshare](https://agentmindshare.com)** - Track and monitor AI agent mindshare across platforms - measure brand visibility in AI conversations with [Agent Mindshare](https://agentmindshare.com)."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A SaaS platform that monitors and analyzes how brands are perceived and discussed across major AI agents and LLMs, offering an MCP server integration for AI-assisted marketing research.
+  why_it_matters: It provides developers building AI-integrated products with analytics on how their brand is represented in LLM outputs, alongside an MCP server for workflow automation.
+  mental_damage: We have officially entered the era of 'vibe SEO,' where we now need specialized dashboards and credits to audit the hallucinations that generative models are having about our companies.
+  tags:
+    - mcp
+    - llm-monitoring
+    - brand-analytics
+    - marketing
+  confidence: high
+curation:
+  status: excluded
+  reason: The core product is a marketing and brand-monitoring SaaS for businesses, not a tool designed to help developers write code, manage infrastructure, or build software.
+  evidence:
+    - Scraped site context describes it as a 'brand visibility platform' for monitoring AI agents, targeting agencies and marketing use cases.
+    - Primary features are sentiment analysis, competitor discovery, and BigQuery exports for marketing data, not source code assistance.
+    - Although it offers an MCP server, the tool itself is a hosted marketing analytics service rather than developer-facing infrastructure.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.725Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:41:23.748Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

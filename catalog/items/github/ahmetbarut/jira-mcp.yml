@@ -1,0 +1,84 @@
+id: github__ahmetbarut__jira-mcp
+kind: github-repo
+name: jira-mcp
+canonical_url: https://github.com/ahmetbarut/jira-mcp
+identity:
+  github_repo: ahmetbarut/jira-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__ahmetbarut__jira-mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: Jira MCP Server
+        extracted_url: https://github.com/ahmetbarut/jira-mcp
+        surrounding_text: "- **[Jira MCP Server](https://github.com/ahmetbarut/jira-mcp)** A modular and extensible MCP server designed to interact with Jira Cloud, providing tools to query boards, issues, and user data — ideal for integrating Jira with AI agents, bots, or automation systems"
+        confidence: high
+metadata:
+  github:
+    stars: 2
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2025-06-05T23:01:38Z"
+    pushed_at: "2026-02-02T06:25:16Z"
+    description: MCP server for using the Jira Cloud API
+    homepage: ""
+    topics:
+      - cursor
+      - jira
+      - mcp
+      - mcp-server
+    last_checked_at: "2026-05-05T21:00:53.959Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:53.959Z"
+      bytes: 4816
+insights:
+  summary: A Node.js MCP server that exposes Jira Cloud API operations—such as listing boards, fetching issues, and adding comments—as tools for AI agents and MCP-compatible clients.
+  why_it_matters: It lets coding agents and MCP hosts interact directly with Jira, so developers can query boards, manage issues, and post updates without leaving their AI-assisted workflow.
+  mental_damage: Now your AI agent can argue with product managers in Jira comments while you wonder whether the real ticket is the context window you burned along the way.
+  tags:
+    - mcp
+    - jira
+    - agent-tooling
+    - nodejs
+  confidence: medium
+curation:
+  status: included
+  reason: This is a purpose-built MCP server for Jira Cloud that fits cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description states: 'MCP server for using the Jira Cloud API'."
+    - README explicitly positions it as 'an MCP tool server' with tools like get_boards and add_comment_to_issue.
+    - Listed in awesome-mcp-servers under 'Community Servers'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.677Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:53.959Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:06:36.757Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

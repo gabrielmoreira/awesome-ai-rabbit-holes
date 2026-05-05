@@ -1,0 +1,76 @@
+id: lovable__dev
+kind: website
+name: lovable.dev
+canonical_url: https://lovable.dev
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__lovable__dev__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - App Builders
+        anchor_text: Lovable
+        extracted_url: https://lovable.dev
+        surrounding_text: "- **[Lovable](https://lovable.dev/)** – Create and deploy web apps from a single prompt in a browser tab."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Lovable is a browser-based AI app builder that generates and deploys full websites and web applications from chat prompts and visual descriptions.
+  why_it_matters: It allows developers and non-developers to rapidly prototype and ship internal tools or landing pages without manually scaffolding a frontend project.
+  mental_damage: Yet another opportunity to spend four hours refining a prompt for a CRUD app that would have taken three hours to write in React, but now you have a screenshot instead of a git history.
+  tags:
+    - app-builder
+    - no-code
+    - prototyping
+    - web-apps
+  confidence: high
+curation:
+  status: included
+  reason: The product is a browser-first SaaS that turns prompts into full, deployed applications, which aligns perfectly with the app-builders category instruction.
+  evidence:
+    - Source list awesome-ai-coding-tools explicitly lists it under 'App Builders'.
+    - Scraped site title and description confirm it is an 'AI App Builder' for creating apps via chat.
+    - Workflow described is 'Describe... Watch it come to life... Refine and ship', matching hosted prompt-to-app behavior.
+placement:
+  primary_category: app-builders
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.728Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:46:04.734Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

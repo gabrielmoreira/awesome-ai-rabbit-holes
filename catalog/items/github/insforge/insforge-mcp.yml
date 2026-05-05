@@ -1,0 +1,82 @@
+id: github__insforge__insforge-mcp
+kind: github-repo
+name: insforge-mcp
+canonical_url: https://github.com/insforge/insforge-mcp
+identity:
+  github_repo: insforge/insforge-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__insforge__insforge-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: InsForge/insforge-mcp
+        extracted_url: https://github.com/insforge/insforge-mcp
+        surrounding_text: "- [InsForge/insforge-mcp](https://github.com/InsForge/insforge-mcp) 📇 ☁️ - AI-native backend-as-a-service platform enabling AI agents to build and manage full-stack applications. Provides Auth, Database (PostgreSQL), Storage, and Functions as production-grade infrastructure, reducing MVP development time from weeks to hours."
+        confidence: high
+metadata:
+  github:
+    stars: 25
+    forks: 11
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-07-10T06:14:59Z"
+    pushed_at: "2026-05-04T22:40:26Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:44.173Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:44.173Z"
+      bytes: 3098
+insights:
+  summary: An MCP server that exposes Insforge backend capabilities—such as auth, databases, file storage, and serverless functions—to coding agents and AI IDEs.
+  why_it_matters: It lets AI coding assistants directly scaffold and wire backend infrastructure into apps instead of stopping at the frontend, reducing the manual glue work between agent output and real backends.
+  mental_damage: Another layer in the stack where your agent can now proudly generate broken auth flows and misconfigured databases without you lifting a finger.
+  tags:
+    - mcp
+    - backend
+    - coding-agent
+    - infrastructure
+    - insforge
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server implementation that integrates Insforge backend features into MCP-compatible clients like Cursor, Claude Code, and Cline.
+  evidence:
+    - "README states: 'This repo is Model Context Protocol server for Insforge' and provides MCP client install commands for Cursor, Claude Code, Cline, etc."
+    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools.
+    - Actively maintained with a recent push date of 2026-05-04 and no archive flag.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.698Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:44.173Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:26:04.967Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

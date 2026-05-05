@@ -1,0 +1,81 @@
+id: github__etbars__vibetrader-mcp
+kind: github-repo
+name: vibetrader-mcp
+canonical_url: https://github.com/etbars/vibetrader-mcp
+identity:
+  github_repo: etbars/vibetrader-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__etbars__vibetrader-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: etbars/vibetrader-mcp
+        extracted_url: https://github.com/etbars/vibetrader-mcp
+        surrounding_text: "- [etbars/vibetrader-mcp](https://github.com/etbars/vibetrader-mcp) 🐍 ☁️ - AI-powered trading bot platform. Create automated trading strategies with natural language via Alpaca brokerage."
+        confidence: high
+metadata:
+  github:
+    stars: 3
+    forks: 2
+    license: MIT
+    archived: false
+    created_at: "2026-01-04T23:43:35Z"
+    pushed_at: "2026-01-04T23:43:59Z"
+    description: Official VibeTrader MCP server enabling AI agents to manage trading bots, portfolios, strategies, and market analysis via natural language.
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:04.605Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:04.605Z"
+      bytes: 3292
+insights:
+  summary: An MCP server that connects AI assistants to the VibeTrader platform, allowing developers to create, manage, and backtest trading bots using natural language.
+  why_it_matters: It enables developers to integrate algorithmic trading workflows directly into their AI-assisted IDE or desktop environment without writing custom broker integration code.
+  mental_damage: We have officially reached the point where your AI assistant can panic-sell your portfolio while you are trying to refactor a React component.
+  tags:
+    - mcp
+    - trading
+    - fintech
+    - ai-assistant
+  confidence: high
+curation:
+  status: included
+  reason: The repository is explicitly an MCP server implementation designed to extend AI assistants with trading capabilities, fitting the MCP infrastructure category.
+  evidence:
+    - "Repo description states: 'Official VibeTrader MCP server enabling AI agents to manage trading bots...'"
+    - README confirms it is a Model Context Protocol (MCP) server connecting Claude Desktop, Cursor, and Windsurf to VibeTrader.
+    - Listed in awesome-mcp-servers under the 'Finance & Fintech' section.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.686Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:04.605Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:18:26.262Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

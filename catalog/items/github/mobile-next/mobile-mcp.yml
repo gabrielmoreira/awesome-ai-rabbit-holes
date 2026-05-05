@@ -1,0 +1,108 @@
+id: github__mobile-next__mobile-mcp
+kind: github-repo
+name: mobile-mcp
+canonical_url: https://github.com/mobile-next/mobile-mcp
+identity:
+  github_repo: mobile-next/mobile-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__mobile-next__mobile-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: mobile-next/mobile-mcp
+        extracted_url: https://github.com/mobile-next/mobile-mcp
+        surrounding_text: "- [mobile-next/mobile-mcp](https://github.com/mobile-next/mobile-mcp) 📇 🏠 🐧 🍎 - MCP Server for Android/iOS application and device automation, development and app scraping. Simulator/Emulator/Physical devices like iPhone, Google Pixel, Samsung supported."
+        confidence: high
+    - id: discovery__github__mobile-next__mobile-mcp__awesome-list__vivy-yi__awesome-agent-orchestration
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: vivy-yi/awesome-agent-orchestration
+        url: https://github.com/vivy-yi/awesome-agent-orchestration
+        repository: vivy-yi/awesome-agent-orchestration
+      extraction:
+        mode: parsed
+        section_path:
+          - Agent Communication Protocols
+          - Model Context Protocol (MCP)
+          - Browser & Automation
+        anchor_text: mobile-mcp
+        extracted_url: https://github.com/mobile-next/mobile-mcp
+        surrounding_text: "| [mobile-mcp](https://github.com/mobile-next/mobile-mcp) | iOS/Android automation | ![Stars](https://img.shields.io/github/stars/mobile-next/mobile-mcp) |"
+        confidence: high
+metadata:
+  github:
+    stars: 4799
+    forks: 418
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-03-28T16:21:06Z"
+    pushed_at: "2026-05-04T13:19:19Z"
+    description: Model Context Protocol Server for Mobile Automation and Scraping (iOS, Android, Emulators, Simulators and Real Devices)
+    homepage: https://mobilenexthq.com
+    topics:
+      - agent
+      - android
+      - emulator
+      - ios
+      - mcp
+      - mobile
+      - physical
+      - real
+      - simulator
+    last_checked_at: "2026-05-05T21:03:44.768Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:44.768Z"
+      bytes: 16980
+insights:
+  summary: A Model Context Protocol server that enables AI agents and LLMs to automate native iOS and Android apps across simulators, emulators, and real devices using accessibility snapshots and visual screen analysis.
+  why_it_matters: It provides a standardized, platform-agnostic interface for developers to wire mobile devices into agentic workflows, eliminating the need for deep platform-specific automation knowledge.
+  mental_damage: We have officially reached the point where your AI agent now needs its own MCP server just to tap the 'Submit' button on a mobile app for you.
+  tags:
+    - mcp
+    - mobile
+    - automation
+    - ios
+    - android
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly a Model Context Protocol server for mobile automation, fitting cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description identifies it as a 'Model Context Protocol Server for Mobile Automation and Scraping'.
+    - README states it 'enables scalable mobile automation... through a platform-agnostic interface' for Agents and LLMs.
+    - Listed in 'awesome-mcp-servers' under 'Server Implementations > Developer Tools'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (4799) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.669Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:44.768Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:38:41.190Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

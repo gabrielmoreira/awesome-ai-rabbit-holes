@@ -1,0 +1,81 @@
+id: github__aeoess__mingle-mcp
+kind: github-repo
+name: mingle-mcp
+canonical_url: https://github.com/aeoess/mingle-mcp
+identity:
+  github_repo: aeoess/mingle-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__aeoess__mingle-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💬 <a name="communication"></a>Communication
+        anchor_text: aeoess/mingle-mcp
+        extracted_url: https://github.com/aeoess/mingle-mcp
+        surrounding_text: "- [aeoess/mingle-mcp](https://github.com/aeoess/mingle-mcp) [![mingle-mcp MCP server](https://glama.ai/mcp/servers/aeoess/mingle-mcp/badges/score.svg)](https://glama.ai/mcp/servers/aeoess/mingle-mcp) 📇 ☁️ - Agent-to-agent networking. Your AI publishes what you need, matches with other people's agents, both humans approve before connecting. 6 tools, Ed25519 signed, shared network at api.aeoess.com."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 1
+    license: Apache-2.0
+    archived: false
+    created_at: "2026-03-12T16:38:14Z"
+    pushed_at: "2026-04-24T21:27:54Z"
+    description: Your AI finds the right people for you. Agent-to-agent networking via MCP.
+    homepage: https://aeoess.com/network
+    topics: []
+    last_checked_at: "2026-05-05T21:00:49.894Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:49.894Z"
+      bytes: 3402
+insights:
+  summary: An MCP server that enables AI agents to network with each other by publishing intent cards, performing semantic matching, and facilitating human-approved connections.
+  why_it_matters: It allows developers to delegate professional networking and matchmaking tasks to their AI agents via the Model Context Protocol.
+  mental_damage: We have successfully abstracted away the awkward small talk of LinkedIn and replaced it with Ed25519-signed intent vectors, because apparently even our agents need a dating app now.
+  tags:
+    - mcp
+    - agent-networking
+    - semantic-matching
+    - communication
+  confidence: medium
+curation:
+  status: included
+  reason: The project is explicitly an MCP server implementation designed to extend AI agents with networking capabilities.
+  evidence:
+    - "Repo description states: 'Agent-to-agent networking via MCP.'"
+    - README confirms it is an installable MCP server (npx mingle-mcp) with tools like publish_intent_card.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Communication'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.676Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:49.894Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:05:57.157Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

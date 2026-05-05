@@ -1,0 +1,77 @@
+id: gamebrain__co__api
+kind: website
+name: api
+canonical_url: https://gamebrain.co/api
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__gamebrain__co__api__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🎮 <a name="gaming"></a>Gaming
+        anchor_text: GameBrain API
+        extracted_url: https://gamebrain.co/api
+        surrounding_text: "- [ddsky/gamebrain-api-clients](https://github.com/ddsky/gamebrain-api-clients) ☁️ - Search and discover hundreds of thousands of video games on any platform through the [GameBrain API](https://gamebrain.co/api)."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A video game database API providing access to over 775,000 games, reviews, and media, with an MCP server for integrating game data into AI chatbots.
+  why_it_matters: It offers developers a structured way to enrich applications with game discovery data and allows AI agents to query a large semantic database via the Model Context Protocol.
+  mental_damage: "We have successfully abstracted the recommendation engine so far that an AI can now argue with you about whether *Kingdom Come: Deliverance II* is actually an RPG, saving you the trouble of forming your own opinions."
+  tags:
+    - api
+    - mcp
+    - gaming
+    - database
+  confidence: medium
+curation:
+  status: included
+  reason: The project is explicitly listed in awesome-mcp-servers under Gaming and provides a dedicated MCP interface to expose its video game database to chatbots like Claude and ChatGPT.
+  evidence:
+    - Listed in 'awesome-mcp-servers' under section 'Server Implementations > Gaming' with the linked page 'Video Games API'.
+    - "Scraped site context explicitly states: 'Model Context Protocol (MCP) is a new way to connect Game Brain data with any chatbot.'"
+    - The product is a data API for video games, which is only tangentially related to developer tooling unless accessed via the MCP layer.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.727Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:44:39.045Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

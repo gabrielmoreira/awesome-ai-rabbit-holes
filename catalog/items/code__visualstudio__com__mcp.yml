@@ -1,0 +1,76 @@
+id: code__visualstudio__com__mcp
+kind: website
+name: mcp
+canonical_url: https://code.visualstudio.com/mcp
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__code__visualstudio__com__mcp__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - MCP Servers and Directories
+        anchor_text: VS Code MCP Directory
+        extracted_url: https://code.visualstudio.com/mcp
+        surrounding_text: "- **[VS Code MCP Directory](https://code.visualstudio.com/mcp)** – Official VS Code MCP directory."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Official documentation and integration guide for the Model Context Protocol (MCP) within Visual Studio Code.
+  why_it_matters: It provides the canonical setup for connecting local MCP servers directly into the VS Code editor, bridging external tools with the IDE workflow.
+  mental_damage: Finally, a protocol to solve the problem of having too many protocols, ensuring your IDE can talk to your tools just as soon as you finish configuring the transport layer.
+  tags:
+    - mcp
+    - vscode
+    - protocol
+    - integration
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a documentation page for an editor feature, not a standalone tool, server, or product that fits the defined categories.
+  evidence:
+    - URL points to code.visualstudio.com/mcp, indicating a documentation/feature page rather than a tool repository.
+    - Seen in awesome-ai-coding-tools under 'MCP Servers and Directories', but the link itself is the host documentation, not an MCP server.
+    - No repo description, stars, or code indicators provided; it is a static resource page.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.726Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:42:55.769Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

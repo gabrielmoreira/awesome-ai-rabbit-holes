@@ -1,0 +1,100 @@
+id: github__nwiizo__tfmcp
+kind: github-repo
+name: tfmcp
+canonical_url: https://github.com/nwiizo/tfmcp
+identity:
+  github_repo: nwiizo/tfmcp
+provenance:
+  discoveries:
+    - id: discovery__github__nwiizo__tfmcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
+        anchor_text: nwiizo/tfmcp
+        extracted_url: https://github.com/nwiizo/tfmcp
+        surrounding_text: "- [nwiizo/tfmcp](https://github.com/nwiizo/tfmcp) - 🦀 🏠 - A Terraform MCP server allowing AI assistants to manage and operate Terraform environments, enabling reading configurations, analyzing plans, applying configurations, and managing Terraform state."
+        confidence: high
+    - id: discovery__github__nwiizo__tfmcp__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - ☁️ Cloud Platforms
+        anchor_text: nwiizo/tfmcp
+        extracted_url: https://github.com/nwiizo/tfmcp
+        surrounding_text: "-   **[nwiizo/tfmcp](https://github.com/nwiizo/tfmcp)** [![GitHub stars](https://img.shields.io/github/stars/nwiizo/tfmcp?style=social)](https://github.com/nwiizo/tfmcp): Allows AI assistants to control Terraform environments for infrastructure management."
+        confidence: high
+metadata:
+  github:
+    stars: 363
+    forks: 27
+    license: MIT
+    archived: false
+    created_at: "2025-03-08T14:10:29Z"
+    pushed_at: "2026-03-26T07:29:30Z"
+    description: 🌍 Terraform Model Context Protocol (MCP) Tool - An experimental CLI tool that enables AI assistants to manage and operate Terraform environments. Supports reading Terraform configurations, analyzing plans, applying configurations, and managing state with Claude Desktop integration. ⚡️
+    homepage: https://crates.io/crates/tfmcp
+    topics:
+      - mcp
+      - mcp-server
+      - terraform
+    last_checked_at: "2026-05-05T21:03:57.829Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:57.829Z"
+      bytes: 15918
+insights:
+  summary: A Rust-based CLI tool that runs as a Model Context Protocol server, allowing AI assistants like Claude Desktop to read, analyze, apply, and manage Terraform configurations and state.
+  why_it_matters: It bridges the gap between infrastructure-as-code workflows and AI agents, enabling natural language management of Terraform environments directly through an MCP-compatible client.
+  mental_damage: Finally, you can ask an LLM to taint your production resources, combining the unpredictability of AI with the destructive power of `terraform apply`.
+  tags:
+    - terraform
+    - mcp
+    - infrastructure
+    - rust
+    - cli
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly built as an MCP server implementation for Terraform, fitting the 'MCP Servers and Tooling' category rather than a general coding agent.
+  evidence:
+    - Repo description defines it as a 'Terraform Model Context Protocol (MCP) Tool' and 'experimental CLI tool' (363 stars).
+    - README confirms it 'Runs as a Model Context Protocol server' to allow AI assistants to access Terraform.
+    - Listed in 'awesome-mcp-servers' under 'Cloud Platforms' and 'awesome-mcp-list'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (363) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.669Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:57.829Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:41:17.885Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

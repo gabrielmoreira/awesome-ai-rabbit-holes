@@ -1,0 +1,100 @@
+id: github__microsoft__nni
+kind: github-repo
+name: nni
+canonical_url: https://github.com/microsoft/nni
+identity:
+  github_repo: microsoft/nni
+provenance:
+  discoveries:
+    - id: discovery__github__microsoft__nni__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - AutoML
+        anchor_text: NNI
+        extracted_url: https://github.com/microsoft/nni
+        surrounding_text: "| [NNI](https://github.com/Microsoft/nni)                                      | An open source AutoML toolkit for automate machine learning lifecycle, including feature engineering, neural architecture search, model compression and hyper-parameter tuning. | ![GitHub Badge](https://img.shields.io/github/stars/Microsoft/nni.svg?style=flat-square)                   |"
+        confidence: high
+metadata:
+  github:
+    stars: 14350
+    forks: 1857
+    license: MIT
+    archived: true
+    created_at: "2018-06-01T05:51:44Z"
+    pushed_at: "2024-07-03T10:55:10Z"
+    description: An open source AutoML toolkit for automate machine learning lifecycle, including feature engineering, neural architecture search, model compression and hyper-parameter tuning.
+    homepage: https://nni.readthedocs.io
+    topics:
+      - automated-machine-learning
+      - automl
+      - bayesian-optimization
+      - data-science
+      - deep-learning
+      - deep-neural-network
+      - distributed
+      - feature-engineering
+      - hyperparameter-optimization
+      - hyperparameter-tuning
+      - machine-learning
+      - machine-learning-algorithms
+      - mlops
+      - model-compression
+      - nas
+      - neural-architecture-search
+      - neural-network
+      - python
+      - pytorch
+      - tensorflow
+    last_checked_at: "2026-05-05T21:03:39.223Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:39.223Z"
+      bytes: 17395
+insights:
+  summary: An open source AutoML toolkit from Microsoft that automates hyperparameter tuning, neural architecture search, feature engineering, and model compression for deep learning workflows.
+  why_it_matters: It lets developers systematize and scale deep learning experiments without manually scripting every tuning or search loop themselves.
+  mental_damage: You can now fully automate your neural architecture search while your own career architecture remains entirely manual.
+  tags:
+    - automl
+    - hyperparameter-tuning
+    - neural-architecture-search
+    - model-compression
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a traditional AutoML and deep learning research toolkit, not a developer-facing AI coding tool, agent, or AI-native workflow product.
+  evidence:
+    - Repo description explicitly describes it as an AutoML toolkit for ML lifecycle, not a coding assistant or developer agent.
+    - Archived status and last release being a v3.0 preview from May 2022 indicate the project is no longer actively maintained.
+    - Listed in Awesome-LLMOps under AutoML, which reflects ML infrastructure rather than the catalog's developer-tooling scope.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: needs_review
+  reason: Repository is archived
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.707Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:39.223Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:37:34.929Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

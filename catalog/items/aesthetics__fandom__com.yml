@@ -1,0 +1,75 @@
+id: aesthetics__fandom__com
+kind: website
+name: aesthetics.fandom.com
+canonical_url: https://aesthetics.fandom.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__aesthetics__fandom__com__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🎨 <a name="art-and-culture"></a>Art & Culture
+        anchor_text: Aesthetics Wiki
+        extracted_url: https://aesthetics.fandom.com
+        surrounding_text: "- [leonardoca1/aesthetics-wiki-mcp](https://github.com/leonardoca1/aesthetics-wiki-mcp) [![leonardoca1/aesthetics-wiki-mcp MCP server](https://glama.ai/mcp/servers/leonardoca1/aesthetics-wiki-mcp/badges/score.svg)](https://glama.ai/mcp/servers/leonardoca1/aesthetics-wiki-mcp) 🐍 🏠 🍎 🪟 🐧 - Search, read, and discover thousands of visual aesthetics (cottagecore, dark academia, y2k, goblincore, and many more) from the [Aesthetics Wiki](https://aesthetics.fandom.com). Great for moodboards, brand direction, and creative inspiration. `uvx aesthetics-wiki-mcp`"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A Fandom wiki documenting aesthetic subcultures, styles, and visual themes.
+  why_it_matters: It is a reference site for art history that provides no developer tooling, APIs, or programmable surfaces.
+  mental_damage: We have reached the point where a static wiki about visual vibes is being logged as 'Art & Culture' infrastructure for AI agent protocols.
+  tags:
+    - wiki
+    - non-dev-tool
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a general-interest wiki about aesthetic subcultures and contains no developer-facing tooling, MCP server implementation, or programmable interface relevant to the catalog.
+  evidence:
+    - URL is aesthetics.fandom.com, a wiki for aesthetic subcultures with no developer tooling angle.
+    - No repo description, README, stars, or code indicators provided; no executable or installable toolkit exists.
+    - Listed in awesome-mcp-servers only as a placeholder or broken link under 'Art & Culture', not as a functional server.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.725Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:41:16.751Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

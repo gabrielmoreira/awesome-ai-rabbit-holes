@@ -1,0 +1,102 @@
+id: github__davidlandais__ovh-api-mcp
+kind: github-repo
+name: ovh-api-mcp
+canonical_url: https://github.com/davidlandais/ovh-api-mcp
+identity:
+  github_repo: davidlandais/ovh-api-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__davidlandais__ovh-api-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
+        anchor_text: davidlandais/ovh-api-mcp
+        extracted_url: https://github.com/davidlandais/ovh-api-mcp
+        surrounding_text: "- [davidlandais/ovh-api-mcp](https://github.com/davidlandais/ovh-api-mcp) [![ovh-api-mcp MCP server](https://glama.ai/mcp/servers/davidlandais/ovh-api-mcp/badges/score.svg)](https://glama.ai/mcp/servers/davidlandais/ovh-api-mcp) 🦀 ☁️ - Code Mode MCP server for the entire OVH API. Two tools (search + execute) give LLMs access to all OVH endpoints via sandboxed JavaScript, using ~1,000 tokens instead of thousands of tool definitions."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-03-11T21:16:53Z"
+    pushed_at: "2026-04-27T03:14:42Z"
+    description: MCP server for the OVH API — explore and execute any OVH endpoint from Claude, Cursor, or any MCP-compatible LLM client. Built in Rust.
+    homepage: https://modelcontextprotocol.io
+    topics:
+      - ai
+      - ai-tools
+      - automation
+      - claude
+      - cloud-api
+      - cursor
+      - devops
+      - dns
+      - infrastructure
+      - llm
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - openapi
+      - ovh
+      - ovh-api
+      - ovhcloud
+      - quickjs
+      - rust
+      - sandbox
+    last_checked_at: "2026-05-05T21:01:48.155Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:48.155Z"
+      bytes: 8292
+insights:
+  summary: A Rust-based MCP server that exposes the OVH API (v1 and v2) to LLM clients, allowing developers to search endpoints and execute API calls via JavaScript in a sandboxed QuickJS environment.
+  why_it_matters: It lets developers manage OVHcloud infrastructure—like DNS and services—directly through Claude or Cursor using natural language instead of manual API calls or scripts.
+  mental_damage: We have successfully reached the point where we need a sandboxed JavaScript runtime inside a Rust server just to ask an LLM to reboot a VPS for us.
+  tags:
+    - mcp
+    - ovh
+    - infrastructure
+    - rust
+    - devops
+  confidence: high
+curation:
+  status: included
+  reason: The project is a native MCP server implementation for a specific cloud provider, fitting squarely into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states 'MCP server for the OVH API'.
+    - README details a Rust implementation providing MCP tools (search, execute) for LLM clients like Claude and Cursor.
+    - Listed in awesome-mcp-servers under 'Cloud Platforms', confirming its identity as an MCP implementation.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.684Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:48.155Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:15:37.219Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

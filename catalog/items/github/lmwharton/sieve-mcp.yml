@@ -1,0 +1,101 @@
+id: github__lmwharton__sieve-mcp
+kind: github-repo
+name: sieve-mcp
+canonical_url: https://github.com/lmwharton/sieve-mcp
+identity:
+  github_repo: lmwharton/sieve-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__lmwharton__sieve-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: lmwharton/sieve-mcp
+        extracted_url: https://github.com/lmwharton/sieve-mcp
+        surrounding_text: "- [lmwharton/sieve-mcp](https://github.com/lmwharton/sieve-mcp) [![lmwharton/sieve-mcp MCP server](https://glama.ai/mcp/servers/lmwharton/sieve-mcp/badges/score.svg)](https://glama.ai/mcp/servers/lmwharton/sieve-mcp) 🐍 ☁️ - AI-powered startup due diligence. Screen any startup across 7 IMPACT-X dimensions, get a Sieve Score (0-140) with evidence-typed findings and a clear meeting recommendation. Built for VCs, solo GPs, and angel investors."
+        confidence: high
+metadata:
+  github:
+    stars: 2
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-02-10T23:53:11Z"
+    pushed_at: "2026-03-18T21:28:07Z"
+    description: From company name to investment decision. Sieve scores startups across 7 dimensions so you know who's worth a meeting.
+    homepage: null
+    topics:
+      - ai
+      - ai-analyst
+      - angel-investing
+      - claude
+      - cursor
+      - deal-flow
+      - deal-scoring
+      - due-diligence
+      - investment-analysis
+      - investment-memo
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - pitch-deck-analysis
+      - sieve
+      - solo-gp
+      - startup-evaluation
+      - startup-screening
+      - venture-capital
+      - windsurf
+    last_checked_at: "2026-05-05T21:03:22.653Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:22.653Z"
+      bytes: 9644
+insights:
+  summary: An MCP server that connects to Claude, Cursor, or Windsurf to perform structured venture capital due diligence on startups using a multi-agent analysis pipeline.
+  why_it_matters: It allows developers building VC tooling or acting as solo GPs to automate deal screening and generate analyst-grade investment memos directly from their AI coding environment.
+  mental_damage: We have finally reached the point where AI agents are screening startups so efficiently that even the 'human in the loop' is just another API key waiting for a polling status update.
+  tags:
+    - mcp-server
+    - venture-capital
+    - due-diligence
+    - multi-agent
+  confidence: high
+curation:
+  status: included
+  reason: This is a standalone MCP server implementation designed to extend AI assistants with specific domain tooling, fitting the MCP infrastructure category.
+  evidence:
+    - Repo description and README explicitly define this as an MCP server for Claude, Cursor, and Windsurf.
+    - Listed in the awesome-mcp-servers directory under 'Finance & Fintech' implementations.
+    - Provides standard MCP configuration instructions for Claude Desktop, Claude Code, and Cursor.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.704Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:22.653Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:34:25.710Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

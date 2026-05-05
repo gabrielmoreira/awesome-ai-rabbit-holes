@@ -1,0 +1,85 @@
+id: github__dominik1001__caldav-mcp
+kind: github-repo
+name: caldav-mcp
+canonical_url: https://github.com/dominik1001/caldav-mcp
+identity:
+  github_repo: dominik1001/caldav-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__dominik1001__caldav-mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: CalDAV MCP
+        extracted_url: https://github.com/dominik1001/caldav-mcp
+        surrounding_text: "- **[CalDAV MCP](https://github.com/dominik1001/caldav-mcp)** - A CalDAV MCP server to expose calendar operations as tools for AI assistants."
+        confidence: high
+metadata:
+  github:
+    stars: 66
+    forks: 22
+    license: MIT
+    archived: false
+    created_at: "2025-05-16T11:35:54Z"
+    pushed_at: "2026-05-04T00:50:01Z"
+    description: 🗓️ A CalDAV Model Context Protocol (MCP) server to expose calendar operations as tools for AI assistants.
+    homepage: ""
+    topics:
+      - caldav
+      - mcp
+      - mcp-server
+      - typescript
+    last_checked_at: "2026-05-05T21:01:55.896Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:55.896Z"
+      bytes: 3616
+insights:
+  summary: A TypeScript Model Context Protocol server that exposes read and write calendar operations for CalDAV accounts as tools for AI assistants.
+  why_it_matters: Developers can wire AI agents into their existing CalDAV calendars, allowing assistants to create, update, and delete events directly from coding workflows or chat interfaces.
+  mental_damage: We have successfully reached the point where your AI needs a standardized protocol to argue with your calendar about whether that meeting actually happened.
+  tags:
+    - mcp
+    - caldav
+    - typescript
+    - calendar
+    - tools
+  confidence: high
+curation:
+  status: included
+  reason: The project is a dedicated MCP server implementation, making it a clear fit for the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states it is 'A CalDAV Model Context Protocol (MCP) server'.
+    - README details specific MCP tools like create-event, list-events, and delete-event for CalDAV operations.
+    - Listed in the awesome-mcp-servers directory under 'Community Servers'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.685Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:55.896Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:16:51.672Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

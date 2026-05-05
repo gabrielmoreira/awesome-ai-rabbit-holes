@@ -1,0 +1,97 @@
+id: github__kaliaboi__mcp-zotero
+kind: github-repo
+name: mcp-zotero
+canonical_url: https://github.com/kaliaboi/mcp-zotero
+identity:
+  github_repo: kaliaboi/mcp-zotero
+provenance:
+  discoveries:
+    - id: discovery__github__kaliaboi__mcp-zotero__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: kaliaboi/mcp-zotero
+        extracted_url: https://github.com/kaliaboi/mcp-zotero
+        surrounding_text: "- [kaliaboi/mcp-zotero](https://github.com/kaliaboi/mcp-zotero) 📇 ☁️ - A connector for LLMs to work with collections and sources on your Zotero Cloud"
+        confidence: high
+    - id: discovery__github__kaliaboi__mcp-zotero__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - 🧠 Knowledge & Memory
+        anchor_text: "@kaliaboi/mcp-zotero"
+        extracted_url: https://github.com/kaliaboi/mcp-zotero
+        surrounding_text: "-   **[@kaliaboi/mcp-zotero](https://github.com/kaliaboi/mcp-zotero)** [![GitHub stars](https://img.shields.io/github/stars/kaliaboi/mcp-zotero?style=social)](https://github.com/kaliaboi/mcp-zotero): Connects LLMs to Zotero Cloud collections and sources."
+        confidence: high
+metadata:
+  github:
+    stars: 158
+    forks: 18
+    license: MIT
+    archived: false
+    created_at: "2024-12-19T17:53:35Z"
+    pushed_at: "2025-02-04T19:51:43Z"
+    description: A connector for Claude Desktop to work with collection and sources on your Zotero Cloud.
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:03:02.429Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:02.429Z"
+      bytes: 2514
+insights:
+  summary: An MCP server that connects Claude Desktop to a user's Zotero Cloud library, enabling the assistant to search, browse collections, and retrieve paper details.
+  why_it_matters: It allows developers to query and reference their research library directly within their AI assistant workflow without manually copying citation metadata.
+  mental_damage: We have successfully automated the last remaining excuse for not reading the papers in our Zotero libraries.
+  tags:
+    - mcp
+    - zotero
+    - claude
+    - research
+    - knowledge-management
+  confidence: high
+curation:
+  status: included
+  reason: This is a Model Context Protocol server that integrates Zotero with Claude Desktop, fitting squarely into the MCP infrastructure category.
+  evidence:
+    - Repo description explicitly states it is 'A connector for Claude Desktop to work with collection and sources on your Zotero Cloud.'
+    - README confirms it is 'A Model Context Protocol server for Zotero integration that allows Claude to interact with your Zotero library.'
+    - Listed in 'awesome-mcp-servers' under 'Knowledge & Memory' sections, confirming its identity as MCP tooling.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (158) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.668Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:02.429Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:30:01.549Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

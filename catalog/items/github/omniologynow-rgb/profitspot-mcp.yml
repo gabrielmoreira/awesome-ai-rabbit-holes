@@ -1,0 +1,102 @@
+id: github__omniologynow-rgb__profitspot-mcp
+kind: github-repo
+name: profitspot-mcp
+canonical_url: https://github.com/omniologynow-rgb/profitspot-mcp
+identity:
+  github_repo: omniologynow-rgb/profitspot-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__omniologynow-rgb__profitspot-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: omniologynow-rgb/profitspot-mcp
+        extracted_url: https://github.com/omniologynow-rgb/profitspot-mcp
+        surrounding_text: "- [omniologynow-rgb/profitspot-mcp](https://github.com/omniologynow-rgb/profitspot-mcp) [![profitspot-mcp MCP server](https://glama.ai/mcp/servers/omniologynow-rgb/profitspot-mcp/badges/score.svg)](https://glama.ai/mcp/servers/omniologynow-rgb/profitspot-mcp) 🐍 ☁️ - Cross-chain DeFi intelligence MCP server for AI agents. 7 tools for yield discovery, pool analysis, profit simulation, risk scoring, whale tracking, impermanent loss calculation, and DeFi overview across 86 chains and 6,500+ liquidity pools. Install via `pip install profitspot-mcp`."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: AGPL-3.0
+    archived: false
+    created_at: "2026-04-18T22:18:35Z"
+    pushed_at: "2026-05-03T17:08:41Z"
+    description: The DeFi Brain for AI agents — give Claude the power to grade 6,500 liquidity pools across 86 chains. Risk scoring, Monte Carlo sims, impermanent loss, whale tracking. pip install profitspot-mcp
+    homepage: https://profitspot.live
+    topics:
+      - ai-agent
+      - blockchain
+      - claude
+      - copilot
+      - cross-chain
+      - cursor
+      - decentralized-finance
+      - defi
+      - defillama
+      - ethereum
+      - impermanent-loss
+      - liquidity-pool
+      - llm
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - monte-carlo
+      - risk-scoring
+      - whale-tracking
+      - yield-farming
+    last_checked_at: "2026-05-05T21:04:01.421Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:01.421Z"
+      bytes: 18441
+insights:
+  summary: An MCP server that exposes cross-chain DeFi data, including risk scoring, Monte Carlo yield simulations, and whale tracking, to AI agents like Claude and Cursor.
+  why_it_matters: It allows developers to equip AI coding assistants with real-time, financial-grade blockchain intelligence without writing custom API wrappers.
+  mental_damage: Your AI agent can now lecture you on impermanent loss across 86 chains while you're just trying to fix a CSS bug.
+  tags:
+    - mcp
+    - defi
+    - blockchain
+    - finance
+    - agent-tools
+  confidence: high
+curation:
+  status: included
+  reason: This is a dedicated MCP server providing DeFi intelligence tooling for AI agents, which fits squarely into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly identifies it as an MCP server for AI agents.
+    - README details integration with Claude Desktop, Cursor, and VS Code Copilot via standard MCP configs.
+    - Listed in awesome-mcp-servers under the Finance & Fintech section.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.711Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:01.421Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:42:02.279Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

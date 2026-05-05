@@ -1,0 +1,76 @@
+id: openrouter__ai
+kind: website
+name: openrouter.ai
+canonical_url: https://openrouter.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__openrouter__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - AI Frameworks and SDKs
+        anchor_text: OpenRouter
+        extracted_url: https://openrouter.ai
+        surrounding_text: "- **[OpenRouter](https://openrouter.ai/)** – Unified API gateway for accessing models from OpenAI, Anthropic, Google, Meta, and more."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: OpenRouter is a unified API gateway that provides access to over 300 AI models from 60+ providers through a single OpenAI-compatible interface.
+  why_it_matters: It allows developers to switch between models and providers without rewriting API integration code, while offering fallback reliability and price comparison across the LLM ecosystem.
+  mental_damage: Now you can spend just as much time debating which of the 300 models to route to as you did writing the code that calls them.
+  tags:
+    - llm-api
+    - model-gateway
+    - sdk
+    - multi-provider
+  confidence: high
+curation:
+  status: included
+  reason: This is a developer-facing SDK and API gateway that acts as a code-first building block for embedding AI behavior into software via a unified interface.
+  evidence:
+    - "Scraped site states: 'One API for Any Model. Access all major models through a single, unified interface. OpenAI SDK works out of the box.'"
+    - Listed in awesome-ai-coding-tools under 'AI Frameworks and SDKs' section.
+    - Primary value proposition is routing, pricing, and provider abstraction for developers integrating LLMs into their apps.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.729Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:46:53.617Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

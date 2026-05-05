@@ -1,0 +1,86 @@
+id: github__lingodotdev__lingo.dev
+kind: github-repo
+name: lingo.dev
+canonical_url: https://github.com/lingodotdev/lingo.dev
+identity:
+  github_repo: lingodotdev/lingo.dev
+provenance:
+  discoveries:
+    - id: discovery__github__lingodotdev__lingo.dev__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Lingo.dev
+        extracted_url: https://github.com/lingodotdev/lingo.dev
+        surrounding_text: "- **[Lingo.dev](https://github.com/lingodotdev/lingo.dev/blob/main/mcp.md)** - Make your AI agent speak every language on the planet, using [Lingo.dev](https://lingo.dev) Localization Engine."
+        confidence: high
+metadata:
+  github:
+    stars: 5405
+    forks: 837
+    license: Apache-2.0
+    archived: false
+    created_at: "2024-03-13T11:27:31Z"
+    pushed_at: "2026-04-27T19:45:22Z"
+    description: Open-source localization engineering tools. Connects to Lingo.dev localization engineering platform for consistent, quality translations.
+    homepage: https://lingo.dev
+    topics:
+      - i18n
+      - javascript
+      - react
+      - react-native
+      - typescript
+    last_checked_at: "2026-05-05T21:03:20.843Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:20.843Z"
+      bytes: 7489
+insights:
+  summary: An open-source localization platform providing a CLI, GitHub Action, React compiler, API, and an MCP server to automate and manage translations for developer projects.
+  why_it_matters: It integrates AI and LLMs directly into the localization workflow, allowing developers to automate i18n setup and translation updates via CLI, CI/CD, or AI coding assistants.
+  mental_damage: Just when you thought 'vibe coding' couldn't get more specific, you now need an AI agent specifically to teach your other AI agent how to handle `next-i18n` without hallucinating the router.
+  tags:
+    - i18n
+    - localization
+    - mcp
+    - cli
+    - react
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly listed in 'awesome-mcp-servers' and provides a dedicated MCP server (Lingo React MCP) to give AI assistants structured access to i18n knowledge, fitting the MCP infrastructure definition.
+  evidence:
+    - Listed in 'awesome-mcp-servers' under 'Official Servers' section.
+    - README explicitly details 'Lingo.dev MCP' as a tool for Claude Code, Cursor, and Copilot.
+    - Repo is active (pushed 2026-04-27) and has significant traction (5405 stars).
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (5405) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.704Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:20.843Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:34:02.398Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

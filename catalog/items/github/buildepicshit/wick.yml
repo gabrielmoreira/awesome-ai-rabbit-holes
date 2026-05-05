@@ -1,0 +1,96 @@
+id: github__buildepicshit__wick
+kind: github-repo
+name: wick
+canonical_url: https://github.com/buildepicshit/wick
+identity:
+  github_repo: buildepicshit/wick
+provenance:
+  discoveries:
+    - id: discovery__github__buildepicshit__wick__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🎮 <a name="gaming"></a>Gaming
+        anchor_text: buildepicshit/Wick
+        extracted_url: https://github.com/buildepicshit/wick
+        surrounding_text: "- [buildepicshit/Wick](https://github.com/buildepicshit/Wick) [![buildepicshit/Wick MCP server](https://glama.ai/mcp/servers/buildepicshit/Wick/badges/score.svg)](https://glama.ai/mcp/servers/buildepicshit/Wick) #️⃣ 🏠 🍎 🪟 🐧 - Native C# MCP server for Godot Engine — 53 tools across 5 pillars: Roslyn-enriched exception telemetry, scene tree inspection, C# symbol navigation, MSBuild orchestration, and GDScript analysis. .NET 10, TCP JSON-RPC bridge, 219 tests."
+        confidence: high
+metadata:
+  github:
+    stars: 8
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2026-04-13T16:13:13Z"
+    pushed_at: "2026-05-04T16:03:35Z"
+    description: Roslyn-enriched C# exception telemetry for Godot Engine, exposed over MCP
+    homepage: null
+    topics:
+      - ai-tools
+      - csharp
+      - debugging
+      - diagnostics
+      - dotnet
+      - exception-handling
+      - game-development
+      - godot
+      - godot-engine
+      - godot4
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - roslyn
+    last_checked_at: "2026-05-05T21:01:27.093Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:27.093Z"
+      bytes: 5924
+insights:
+  summary: An MCP server that captures C# exceptions and build errors in Godot Engine, enriches them with Roslyn-powered source context, and exposes the telemetry to AI assistants.
+  why_it_matters: It collapses eight turns of AI debugging into one by giving the assistant the actual method body, caller chain, and scene state instead of a naked stack trace.
+  mental_damage: We have successfully built a tool to make the AI stop asking us to open the files we were already looking at.
+  tags:
+    - mcp
+    - godot
+    - csharp
+    - roslyn
+    - debugging
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server providing Godot C# telemetry to AI clients, which fits the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description states: 'Roslyn-enriched C# exception telemetry for Godot Engine, exposed over MCP'."
+    - README details architecture as an external process communicating via stdio (MCP protocol) to the AI client.
+    - Listed in awesome-mcp-servers under 'Gaming' as a server implementation.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.681Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:27.093Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:11:53.552Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

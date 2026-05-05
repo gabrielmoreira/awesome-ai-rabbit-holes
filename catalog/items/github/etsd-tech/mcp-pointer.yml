@@ -1,0 +1,91 @@
+id: github__etsd-tech__mcp-pointer
+kind: github-repo
+name: mcp-pointer
+canonical_url: https://github.com/etsd-tech/mcp-pointer
+identity:
+  github_repo: etsd-tech/mcp-pointer
+provenance:
+  discoveries:
+    - id: discovery__github__etsd-tech__mcp-pointer__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: etsd-tech/mcp-pointer
+        extracted_url: https://github.com/etsd-tech/mcp-pointer
+        surrounding_text: "- [etsd-tech/mcp-pointer](https://github.com/etsd-tech/mcp-pointer) 📇 🏠 🍎 🪟 🐧 - Visual DOM element selector for agentic coding tools. Chrome extension + MCP server bridge for Claude Code, Cursor, Windsurf etc. Option+Click to capture elements."
+        confidence: high
+metadata:
+  github:
+    stars: 574
+    forks: 55
+    license: MIT
+    archived: false
+    created_at: "2025-09-01T21:59:15Z"
+    pushed_at: "2025-11-12T15:12:43Z"
+    description: "MCP tool: let you point at DOM elements for your favorite agentic coding tool. Let AI see what you see."
+    homepage: ""
+    topics:
+      - agentic-coding
+      - browser
+      - claude-code
+      - cursor
+      - dom
+      - dom-element
+      - mcp
+      - mcp-server
+      - pointing
+      - stdio
+    last_checked_at: "2026-05-05T21:02:05.257Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:05.257Z"
+      bytes: 8568
+insights:
+  summary: An MCP server paired with a Chrome extension that captures DOM elements via Option+Click and exposes them as context to agentic coding tools like Claude Code and Cursor.
+  why_it_matters: It closes the loop between visual browser inspection and AI coding agents by letting the model see exactly which UI element a developer is pointing at.
+  mental_damage: We have finally solved the hard problem of explaining to an AI which button we mean by clicking on it, which is definitely easier than just describing it in three paragraphs of prompt tokens.
+  tags:
+    - mcp
+    - dom
+    - chrome-extension
+    - agentic-coding
+  confidence: high
+curation:
+  status: included
+  reason: The primary artifact is an MCP server and browser extension that feeds DOM context into other agents, making it a clean fit for MCP infrastructure rather than a standalone coding agent.
+  evidence:
+    - "Repo description explicitly states: 'MCP tool: let you point at DOM elements for your favorite agentic coding tool.'"
+    - "README confirms architecture: 'MCP Pointer is a local tool combining an MCP Server with a Chrome Extension.'"
+    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (574) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.686Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:05.257Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:18:32.759Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

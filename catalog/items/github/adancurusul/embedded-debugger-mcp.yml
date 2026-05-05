@@ -1,0 +1,82 @@
+id: github__adancurusul__embedded-debugger-mcp
+kind: github-repo
+name: embedded-debugger-mcp
+canonical_url: https://github.com/adancurusul/embedded-debugger-mcp
+identity:
+  github_repo: adancurusul/embedded-debugger-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__adancurusul__embedded-debugger-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📟 <a name="embedded-system"></a>Embedded System
+        anchor_text: adancurusul/embedded-debugger-mcp
+        extracted_url: https://github.com/adancurusul/embedded-debugger-mcp
+        surrounding_text: "- [adancurusul/embedded-debugger-mcp](https://github.com/adancurusul/embedded-debugger-mcp) 🦀 📟 - A Model Context Protocol server for embedded debugging with probe-rs - supports ARM Cortex-M, RISC-V debugging via J-Link, ST-Link, and more"
+        confidence: high
+metadata:
+  github:
+    stars: 77
+    forks: 10
+    license: MIT
+    archived: false
+    created_at: "2025-08-05T11:44:40Z"
+    pushed_at: "2025-08-06T12:10:07Z"
+    description: A Model Context Protocol server for embedded debugging with probe-rs - supports ARM Cortex-M, RISC-V debugging via J-Link, ST-Link, and more
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:00:48.912Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:48.912Z"
+      bytes: 9019
+insights:
+  summary: An MCP server that connects AI assistants like Claude to embedded hardware via probe-rs, enabling debugging, flashing, and RTT communication with ARM Cortex-M and RISC-V microcontrollers.
+  why_it_matters: It lets developers use natural language to halt, step, and inspect memory on physical hardware, bridging the gap between AI coding agents and the embedded debugger toolchain.
+  mental_damage: We have finally achieved the singularity where your AI assistant can single-step through a firmware loop, but only if you enjoy configuring JSON paths for a Rust binary that was pushed yesterday.
+  tags:
+    - mcp
+    - embedded
+    - debugging
+    - rust
+    - hardware
+  confidence: high
+curation:
+  status: included
+  reason: The project is a standalone MCP server implementation designed to give AI clients direct access to embedded hardware debugging tools.
+  evidence:
+    - Repo description explicitly states it is a 'Model Context Protocol server for embedded debugging with probe-rs'.
+    - "README architecture diagram shows the flow: MCP Client (Claude/AI) <-> Embedded Debugger MCP <-> Debug Probe."
+    - Listed in awesome-mcp-servers under the 'Embedded System' section, confirming its role as MCP infrastructure.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.676Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:48.912Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:05:46.579Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

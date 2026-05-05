@@ -1,0 +1,100 @@
+id: github__mahseema__awesome-ai-tools
+kind: github-repo
+name: awesome-ai-tools
+canonical_url: https://github.com/mahseema/awesome-ai-tools
+identity:
+  github_repo: mahseema/awesome-ai-tools
+provenance:
+  discoveries:
+    - id: discovery__github__mahseema__awesome-ai-tools__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Related Lists
+        anchor_text: Awesome AI Tools
+        extracted_url: https://github.com/mahseema/awesome-ai-tools
+        surrounding_text: "- **[Awesome AI Tools](https://github.com/mahseema/awesome-ai-tools)** – General AI tools for various applications."
+        confidence: high
+metadata:
+  github:
+    stars: 5103
+    forks: 1475
+    license: MIT
+    archived: false
+    created_at: "2023-08-25T21:51:55Z"
+    pushed_at: "2025-12-31T14:46:19Z"
+    description: A curated list of Artificial Intelligence Top Tools
+    homepage: ""
+    topics:
+      - ai
+      - ai-agent
+      - ai-agents
+      - ai-assistant
+      - ai-tools
+      - ai-tools-list
+      - ai-top-tools
+      - awesome
+      - awesome-ai
+      - awesome-ai-tools
+      - awesome-list
+      - bestofai
+      - futuretools
+      - machine-learning
+      - ml
+      - mlops
+      - theresanaiforthat
+      - top-ai-tools
+      - vibe-coding
+      - workflow
+    last_checked_at: "2026-05-05T21:03:27.364Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:27.364Z"
+      bytes: 60960
+insights:
+  summary: A curated awesome list aggregating various AI tools across text, code, image, video, and audio generation.
+  why_it_matters: It provides a broad map of the AI ecosystem, including a dedicated section for code-generation tools relevant to developers.
+  mental_damage: "Just what the world needed: another list of lists to browse instead of actually writing the code you're procrastinating on."
+  tags:
+    - awesome-list
+    - directory
+    - ai-tools
+    - meta-list
+  confidence: high
+curation:
+  status: included
+  reason: This is a curated directory/meta-list of AI tools rather than a standalone developer tool or agent.
+  evidence:
+    - Repo description states it is 'A curated list of Artificial Intelligence Top Tools'.
+    - README excerpt confirms it is a list with sections for Text, Code, Image, Video, and Audio tools.
+    - Listed in source list 'awesome-ai-coding-tools' under the section 'Related Lists'.
+placement:
+  primary_category: awesome-awesomes
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (5103) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.705Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:27.364Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:35:15.515Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

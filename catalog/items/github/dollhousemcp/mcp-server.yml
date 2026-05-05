@@ -1,0 +1,102 @@
+id: github__dollhousemcp__mcp-server
+kind: github-repo
+name: mcp-server
+canonical_url: https://github.com/dollhousemcp/mcp-server
+identity:
+  github_repo: dollhousemcp/mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__dollhousemcp__mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: DollhouseMCP/mcp-server
+        extracted_url: https://github.com/dollhousemcp/mcp-server
+        surrounding_text: "- [DollhouseMCP/mcp-server](https://github.com/DollhouseMCP/mcp-server) [![DollhouseMCP MCP server](https://glama.ai/mcp/servers/DollhouseMCP/mcp-server/badge)](https://glama.ai/mcp/servers/DollhouseMCP/mcp-server) 📇 🏠 🍎 🪟 🐧 - One-line installable MCP server that adds reusable customization elements — personas, skills, templates, agents, memory, and ensembles (collected customization tools) — to any MCP Client application. Dynamic permissioning for safe AI operations, a robust validation architecture, versioning, and a public collection of shareable content. Install: `npx @dollhousemcp/mcp-server@latest --web`."
+        confidence: high
+metadata:
+  github:
+    stars: 33
+    forks: 11
+    license: AGPL-3.0
+    archived: false
+    created_at: "2025-07-01T17:50:56Z"
+    pushed_at: "2026-05-01T23:30:02Z"
+    description: A Free, Open Source MCP server for dynamic custom persona management with public a GitHub collection of personas, skills, templates, and other elements for AI models.
+    homepage: https://www.npmjs.com/package/@dollhousemcp/mcp-server
+    topics:
+      - agents
+      - ai
+      - ai-tools
+      - claude
+      - codex
+      - cursor
+      - dollhousemcp
+      - ensembles
+      - llm
+      - mcp
+      - mcp-server
+      - memory
+      - model-context-protocol
+      - personas
+      - prompt-engineering
+      - skills
+      - templates
+      - typescript
+      - vscode
+      - windsurf
+    last_checked_at: "2026-05-05T21:01:55.474Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:55.474Z"
+      bytes: 27760
+insights:
+  summary: An open-source MCP server that manages dynamic personas, skills, templates, and memories, allowing developers to customize AI behavior via a local portfolio and community collection.
+  why_it_matters: It gives developers a structured way to package, reuse, and share modular AI behaviors like skills and personas across compatible hosts such as Claude, Cursor, and VS Code.
+  mental_damage: We have now reached the point where we are meticulously organizing the personalities of our AI assistants while our own documentation rots in peace.
+  tags:
+    - mcp
+    - personas
+    - skills
+    - memory
+    - context-engineering
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server providing infrastructure for managing AI elements, which fits the MCP Servers and Tooling category precisely.
+  evidence:
+    - Repo description identifies it as 'A Free, Open Source MCP server for dynamic custom persona management'.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Knowledge & Memory'.
+    - README confirms it implements the Model Context Protocol to manage personas, skills, and memories locally.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.685Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:55.474Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:16:47.823Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

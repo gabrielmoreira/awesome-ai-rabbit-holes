@@ -1,0 +1,93 @@
+id: github__bv-venky__excalidraw-architect-mcp
+kind: github-repo
+name: excalidraw-architect-mcp
+canonical_url: https://github.com/bv-venky/excalidraw-architect-mcp
+identity:
+  github_repo: bv-venky/excalidraw-architect-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__bv-venky__excalidraw-architect-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📐 <a name="architecture-and-design"></a>Architecture & Design
+        anchor_text: BV-Venky/excalidraw-architect-mcp
+        extracted_url: https://github.com/bv-venky/excalidraw-architect-mcp
+        surrounding_text: "- [BV-Venky/excalidraw-architect-mcp](https://github.com/BV-Venky/excalidraw-architect-mcp) [![excalidraw-architect-mcp MCP server](https://glama.ai/mcp/servers/@BV-Venky/excalidraw-architect-mcp/badges/score.svg)](https://glama.ai/mcp/servers/@BV-Venky/excalidraw-architect-mcp) 🐍 🏠 🍎 🪟 🐧 - Generate beautiful Excalidraw architecture diagrams with auto-layout, architecture-aware component styling, and stateful editing. 50+ technology mappings including databases, message queues, caches, and more. No API keys required."
+        confidence: high
+metadata:
+  github:
+    stars: 103
+    forks: 6
+    license: MIT
+    archived: false
+    created_at: "2026-03-05T17:40:40Z"
+    pushed_at: "2026-05-03T18:36:46Z"
+    description: An MCP server that generates beautiful Excalidraw architecture diagrams with perfect auto-layout.
+    homepage: ""
+    topics:
+      - ai
+      - antigravity
+      - cursor
+      - developer-tools
+      - excalidraw
+      - excalidraw-platform
+      - llm
+      - mcp
+      - productivity
+      - skills
+      - windsurf
+    last_checked_at: "2026-05-05T21:01:27.443Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:27.443Z"
+      bytes: 8861
+insights:
+  summary: An MCP server that generates Excalidraw architecture diagrams with automatic layout, allowing LLMs to describe system structure while the engine handles positioning and styling.
+  why_it_matters: It lets developers generate and iteratively edit accurate architecture diagrams through natural language in their AI editor, eliminating the manual cleanup usually required when LLMs hallucinate diagram coordinates.
+  mental_damage: We have finally solved the critical developer bottleneck of not being able to confidently explain a system we just spent six sprints building, provided we install a specialized MCP server to draw the boxes for us.
+  tags:
+    - mcp
+    - excalidraw
+    - architecture
+    - diagrams
+    - cursor
+  confidence: high
+curation:
+  status: included
+  reason: The primary artifact is an MCP server that integrates with editors like Cursor and Windsurf to generate diagrams, fitting cleanly into the MCP infrastructure category.
+  evidence:
+    - Repo description explicitly states it is 'An MCP server that generates beautiful Excalidraw architecture diagrams'.
+    - README details integration with Cursor/Windsurf and lists the MCP server ensuring 'perfect layouts every time' via graph algorithms.
+    - Included in the awesome-mcp-servers list under 'Architecture & Design' server implementations.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.682Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:27.443Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:12:02.349Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

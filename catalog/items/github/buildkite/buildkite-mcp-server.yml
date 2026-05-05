@@ -1,0 +1,99 @@
+id: github__buildkite__buildkite-mcp-server
+kind: github-repo
+name: buildkite-mcp-server
+canonical_url: https://github.com/buildkite/buildkite-mcp-server
+identity:
+  github_repo: buildkite/buildkite-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__buildkite__buildkite-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: buildkite/buildkite-mcp-server
+        extracted_url: https://github.com/buildkite/buildkite-mcp-server
+        surrounding_text: "- [buildkite/buildkite-mcp-server](https://github.com/buildkite/buildkite-mcp-server) 🎖️ 🏎️ 🏠 ☁️ 🍎 🪟 🐧 - Official MCP server for Buildkite. Create new pipelines, diagnose and fix failures, trigger builds, monitor job queues, and more."
+        confidence: high
+    - id: discovery__github__buildkite__buildkite-mcp-server__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Buildkite
+        extracted_url: https://github.com/buildkite/buildkite-mcp-server
+        surrounding_text: "- **[Buildkite](https://github.com/buildkite/buildkite-mcp-server)** - Manage [Buildkite](https://buildkite.com) pipelines and builds."
+        confidence: high
+metadata:
+  github:
+    stars: 50
+    forks: 31
+    license: MIT
+    archived: false
+    created_at: "2025-04-08T21:28:47Z"
+    pushed_at: "2026-05-04T05:13:29Z"
+    description: Official MCP Server for Buildkite.
+    homepage: ""
+    topics:
+      - buildkite
+      - mcp-server
+    last_checked_at: "2026-05-05T21:01:27.104Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:27.104Z"
+      bytes: 1055
+insights:
+  summary: An official MCP server from Buildkite that exposes pipeline, build, job, and test data to AI tools and editors.
+  why_it_matters: It allows AI coding assistants to query live CI/CD state and debug failing pipelines directly within the development environment.
+  mental_damage: Now your AI can watch your build fail in real-time and offer consoling hallucinations before you've even had your coffee.
+  tags:
+    - mcp
+    - buildkite
+    - ci-cd
+    - devops
+    - tooling
+  confidence: high
+curation:
+  status: included
+  reason: The project is a Model Context Protocol server created by Buildkite to integrate CI/CD data into AI workflows, fitting squarely into the MCP infrastructure category.
+  evidence:
+    - "Repo description states: 'Official MCP Server for Buildkite.'"
+    - README excerpt defines it as a 'Model Context Protocol (MCP) server exposing Buildkite data... to AI tooling and editors.'
+    - Listed in awesome-mcp-servers under 'Official Servers' and 'Developer Tools' sections.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.664Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:27.104Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:11:54.149Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,80 @@
+id: github__glenngillen__mcpmcp-server
+kind: github-repo
+name: mcpmcp-server
+canonical_url: https://github.com/glenngillen/mcpmcp-server
+identity:
+  github_repo: glenngillen/mcpmcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__glenngillen__mcpmcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🔗 <a name="aggregators"></a>Aggregators
+        anchor_text: glenngillen/mcpmcp-server
+        extracted_url: https://github.com/glenngillen/mcpmcp-server
+        surrounding_text: "- [glenngillen/mcpmcp-server](https://github.com/glenngillen/mcpmcp-server) ☁️ 📇 🍎 🪟 🐧 - A list of MCP servers so you can ask your client which servers you can use to improve your daily workflow."
+        confidence: high
+metadata:
+  github:
+    stars: 32
+    forks: 18
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-04-24T04:49:10Z"
+    pushed_at: "2025-04-24T04:51:41Z"
+    description: Discover, setup, and integrate MCP servers with your favorite clients. Unlock the full potential of AI in your daily workflow.
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:22.768Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:22.768Z"
+      bytes: 554
+insights:
+  summary: An MCP server that acts as a registry to help developers discover, set up, and integrate other MCP servers into their AI clients.
+  why_it_matters: It reduces the friction of finding and configuring the right Model Context Protocol servers for your local AI workflow.
+  mental_damage: We have now reached the point where we need a dedicated protocol server just to help us manage the growing pile of protocol servers we forgot we installed.
+  tags:
+    - mcp
+    - registry
+    - tooling
+  confidence: medium
+curation:
+  status: included
+  reason: The project is a registry/tooling layer specifically for the Model Context Protocol ecosystem, fitting the MCP category.
+  evidence:
+    - Repo description states it is for discovering, setting up, and integrating MCP servers.
+    - Listed in awesome-mcp-servers under the 'Aggregators' section.
+    - Configuration setup shows it functions as an MCP server endpoint (https://mcpmcp.io/mcp).
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.689Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:22.768Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:21:42.872Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

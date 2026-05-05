@@ -1,0 +1,84 @@
+id: github__pydantic__logfire-mcp
+kind: github-repo
+name: logfire-mcp
+canonical_url: https://github.com/pydantic/logfire-mcp
+identity:
+  github_repo: pydantic/logfire-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__pydantic__logfire-mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Logfire
+        extracted_url: https://github.com/pydantic/logfire-mcp
+        surrounding_text: "- **[Logfire](https://github.com/pydantic/logfire-mcp)** - Provides access to OpenTelemetry traces and metrics through Logfire."
+        confidence: high
+    - id: discovery__github__pydantic__logfire-mcp__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - 📊 Monitoring
+        anchor_text: pydantic/logfire-mcp
+        extracted_url: https://github.com/pydantic/logfire-mcp
+        surrounding_text: "-   **[pydantic/logfire-mcp](https://github.com/pydantic/logfire-mcp)** [![GitHub stars](https://img.shields.io/github/stars/pydantic/logfire-mcp?style=social)](https://github.com/pydantic/logfire-mcp): Accesses OpenTelemetry traces and metrics through Logfire."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.670Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: skipped
+    updated_at: "2026-05-05T21:04:23.169Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

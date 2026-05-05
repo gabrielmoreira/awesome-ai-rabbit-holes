@@ -1,0 +1,82 @@
+id: github__neovateai__neovate-code
+kind: github-repo
+name: neovate-code
+canonical_url: https://github.com/neovateai/neovate-code
+identity:
+  github_repo: neovateai/neovate-code
+provenance:
+  discoveries:
+    - id: discovery__github__neovateai__neovate-code__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Terminal-native coding agents
+          - Open Source
+        anchor_text: Neovate Code
+        extracted_url: https://github.com/neovateai/neovate-code
+        surrounding_text: "- **[Neovate Code](https://github.com/neovateai/neovate-code)** `⭐ 1.5k` `[Ant Group]` — Ant Group's CLI agent with plugin system, multi-model/multi-provider support, MCP integrations, and headless automation mode. MIT."
+        confidence: high
+metadata:
+  github:
+    stars: 1531
+    forks: 152
+    license: MIT
+    archived: false
+    created_at: "2025-03-11T08:32:54Z"
+    pushed_at: "2026-03-24T06:27:53Z"
+    description: Neovate Code is a code agent to enhance your development. You can use it to generate code, fix bugs, review code, add tests, and more. You can run it in interactive mode or headless mode.
+    homepage: https://neovateai.dev/
+    topics: []
+    last_checked_at: "2026-05-05T21:03:52.763Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:52.763Z"
+      bytes: 2479
+insights:
+  summary: Neovate Code is a terminal-native coding agent that runs in interactive or headless mode to generate code, fix bugs, review code, and add tests directly within a repository workflow.
+  why_it_matters: It offers developers a CLI-based AI assistant that integrates into existing terminal workflows for code generation, debugging, and testing without requiring an IDE switch.
+  mental_damage: Another CLI agent enters the arena, promising to refactor your authentication flow while you wonder if it will also refactor your employment status.
+  tags:
+    - cli
+    - coding-agent
+    - terminal
+    - code-review
+    - testing
+  confidence: high
+curation:
+  status: included
+  reason: The project is a developer-facing coding agent that directly edits, reviews, and tests code via a CLI, fitting cleanly into the terminal-native coding agents section.
+  evidence:
+    - Repo description states it is 'a code agent to enhance your development' for generating code, fixing bugs, and reviewing code in interactive or headless mode.
+    - README frames it as a 'coding agent' installed via npm and used in the command line to operate on an existing codebase.
+    - Listed in the awesome-cli-coding-agents list under 'Terminal-native coding agents > Open Source'.
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1531) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.709Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:52.763Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:40:15.949Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,81 @@
+id: github__modelcontextprotocol__servers-archived
+kind: github-repo
+name: servers-archived
+canonical_url: https://github.com/modelcontextprotocol/servers-archived
+identity:
+  github_repo: modelcontextprotocol/servers-archived
+provenance:
+  discoveries:
+    - id: discovery__github__modelcontextprotocol__servers-archived__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📂 <a name="browser-automation"></a>Browser Automation
+        anchor_text: modelcontextprotocol/server-puppeteer
+        extracted_url: https://github.com/modelcontextprotocol/servers-archived
+        surrounding_text: "- [modelcontextprotocol/server-puppeteer](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/puppeteer) 📇 🏠 - Browser automation for web scraping and interaction"
+        confidence: high
+metadata:
+  github:
+    stars: 254
+    forks: 147
+    license: MIT
+    archived: true
+    created_at: "2025-05-28T14:58:23Z"
+    pushed_at: "2025-05-28T17:57:12Z"
+    description: Reference MCP servers that are no longer maintained
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:03:45.110Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:45.110Z"
+      bytes: 1469
+insights:
+  summary: An archived repository of reference Model Context Protocol servers that are no longer maintained or supported.
+  why_it_matters: Developers looking for stable MCP integrations should use this archive only to understand what was deprecated, not to build new workflows.
+  mental_damage: We have successfully standardized the protocol for AI tooling so well that we already have a graveyard of reference implementations less than a year old.
+  tags:
+    - mcp
+    - archived
+    - reference
+    - protocol
+  confidence: high
+curation:
+  status: excluded
+  reason: The repository is explicitly archived, unmaintained, and provides no security guarantees, making it unsuitable for inclusion in an active developer tooling catalog.
+  evidence:
+    - Repo description states it contains 'Reference MCP servers that are no longer maintained'.
+    - "README explicitly warns: 'This repository is archived and no longer maintained' and 'NO SECURITY GUARANTEES ARE PROVIDED'."
+    - The active 'servers' repository is linked as the replacement for production use.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: needs_review
+  reason: Repository is archived
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.708Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:45.110Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:38:47.201Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

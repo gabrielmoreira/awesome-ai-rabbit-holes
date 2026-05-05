@@ -1,0 +1,91 @@
+id: github__kaarthik108__snowchat
+kind: github-repo
+name: snowchat
+canonical_url: https://github.com/kaarthik108/snowchat
+identity:
+  github_repo: kaarthik108/snowchat
+provenance:
+  discoveries:
+    - id: discovery__github__kaarthik108__snowchat__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Open Source Projects
+          - Other / Chatbots
+        anchor_text: snowChat ❄️
+        extracted_url: https://github.com/kaarthik108/snowchat
+        surrounding_text: "- [snowChat ❄️](https://github.com/kaarthik108/snowChat): Chat with you're snowflake database ![GitHub Repo stars](https://img.shields.io/github/stars/kaarthik108/snowChat?style=social)"
+        confidence: high
+metadata:
+  github:
+    stars: 553
+    forks: 288
+    license: null
+    archived: false
+    created_at: "2023-04-10T23:31:01Z"
+    pushed_at: "2025-02-16T19:23:23Z"
+    description: Chat snowflake - Text to SQL
+    homepage: https://snowchat.streamlit.app/
+    topics:
+      - agents
+      - chatgpt
+      - langchain
+      - langgraph
+      - llama
+      - snowflake
+      - snowpark
+      - streamlit
+      - supabase
+    last_checked_at: "2026-05-05T21:03:01.736Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:01.736Z"
+      bytes: 3701
+insights:
+  summary: A Streamlit-based chat interface that converts natural language questions into SQL queries to interact with Snowflake databases using LLMs and LangChain.
+  why_it_matters: It allows developers and data users to query Snowflake warehouses conversationally without writing raw SQL, using an agent-based architecture with memory and self-healing queries.
+  mental_damage: We have successfully abstracted away the need to learn SQL, replacing it with the need to carefully engineer prompts, debug LLM hallucinations, and manage a Supabase-Cloudflare-LangChain stack just to ask a database for a count.
+  tags:
+    - text-to-sql
+    - snowflake
+    - langchain
+    - streamlit
+    - llm-agents
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a specialized end-user business intelligence tool for querying Snowflake with natural language, not a developer tooling product for writing code, managing repos, or building apps.
+  evidence:
+    - Repo description and README define it as a tool to 'interact with their Snowflake data' and 'generate the appropriate SQL query', targeting data access rather than code development.
+    - The architecture is a Streamlit UI with LangChain/Snowflake integration, serving as a text-to-SQL app rather than a coding assistant, IDE, or app builder.
+    - Listed in awesome-langchain under 'Chatbots', which confirms its fit as a LangChain demo/project rather than a core developer workflow tool.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (553) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.701Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:01.736Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:29:53.891Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

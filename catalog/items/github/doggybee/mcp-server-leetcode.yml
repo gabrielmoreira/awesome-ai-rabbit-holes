@@ -1,0 +1,82 @@
+id: github__doggybee__mcp-server-leetcode
+kind: github-repo
+name: mcp-server-leetcode
+canonical_url: https://github.com/doggybee/mcp-server-leetcode
+identity:
+  github_repo: doggybee/mcp-server-leetcode
+provenance:
+  discoveries:
+    - id: discovery__github__doggybee__mcp-server-leetcode__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🤖 <a name="coding-agents"></a>Coding Agents
+        anchor_text: doggybee/mcp-server-leetcode
+        extracted_url: https://github.com/doggybee/mcp-server-leetcode
+        surrounding_text: "- [doggybee/mcp-server-leetcode](https://github.com/doggybee/mcp-server-leetcode) 📇 ☁️ - An MCP server that enables AI models to search, retrieve, and solve LeetCode problems. Supports metadata filtering, user profiles, submissions, and contest data access."
+        confidence: high
+metadata:
+  github:
+    stars: 42
+    forks: 14
+    license: MIT
+    archived: false
+    created_at: "2025-04-02T10:20:48Z"
+    pushed_at: "2025-04-02T14:27:05Z"
+    description: A Model Context Protocol (MCP) server for LeetCode that provides access to problems, user data, and contest information through GraphQL
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:01:55.278Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:55.278Z"
+      bytes: 4269
+insights:
+  summary: An MCP server that exposes LeetCode problems, user profiles, and contest data via GraphQL for integration with AI assistants like Claude for Desktop.
+  why_it_matters: It lets coding agents fetch and solve algorithm problems directly from LeetCode without the developer switching contexts to a browser.
+  mental_damage: "We have finally achieved the singularity: an MCP server so your AI can grind LeetCode grind-sets while you wonder if your own job is just a prompt away from being automated."
+  tags:
+    - mcp
+    - leetcode
+    - cli
+    - graphql
+    - coding-practice
+  confidence: high
+curation:
+  status: included
+  reason: The project is itself an MCP server implementation, fitting cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description explicitly states: 'A Model Context Protocol (MCP) server for LeetCode'"
+    - README confirms it provides MCP tools and resources for AI assistants to access LeetCode data
+    - Listed in awesome-mcp-servers under 'Server Implementations'
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.685Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:55.278Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:16:45.700Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

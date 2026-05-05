@@ -1,0 +1,96 @@
+id: github__f4ww4z__mcp-mysql-server
+kind: github-repo
+name: mcp-mysql-server
+canonical_url: https://github.com/f4ww4z/mcp-mysql-server
+identity:
+  github_repo: f4ww4z/mcp-mysql-server
+provenance:
+  discoveries:
+    - id: discovery__github__f4ww4z__mcp-mysql-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🗄️ <a name="databases"></a>Databases
+        anchor_text: f4ww4z/mcp-mysql-server
+        extracted_url: https://github.com/f4ww4z/mcp-mysql-server
+        surrounding_text: "- [f4ww4z/mcp-mysql-server](https://github.com/f4ww4z/mcp-mysql-server) 📇 🏠 - Node.js-based MySQL database integration that provides secure MySQL database operations"
+        confidence: high
+    - id: discovery__github__f4ww4z__mcp-mysql-server__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - 🗄️ Databases
+        anchor_text: f4ww4z/mcp-mysql-server
+        extracted_url: https://github.com/f4ww4z/mcp-mysql-server
+        surrounding_text: "-   **[f4ww4z/mcp-mysql-server](https://github.com/f4ww4z/mcp-mysql-server)** [![GitHub stars](https://img.shields.io/github/stars/f4ww4z/mcp-mysql-server?style=social)](https://github.com/f4ww4z/mcp-mysql-server): Offers secure MySQL database interaction."
+        confidence: high
+metadata:
+  github:
+    stars: 157
+    forks: 33
+    license: MIT
+    archived: false
+    created_at: "2024-12-13T09:39:28Z"
+    pushed_at: "2025-11-14T08:30:28Z"
+    description: A Model Context Protocol server for MySQL database operations
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:07.193Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:07.193Z"
+      bytes: 4367
+insights:
+  summary: A Model Context Protocol server that exposes MySQL database operations to AI models and agents through a standardized interface.
+  why_it_matters: It allows coding agents and AI assistants to directly query, modify, and inspect MySQL databases without custom glue code or fragile SQL generation wrappers.
+  mental_damage: Yet another MCP server appears in the night, promising your agent will finally understand your schema, though it will still probably drop the users table at 4 PM on a Friday.
+  tags:
+    - mcp
+    - mysql
+    - database
+    - integration
+  confidence: high
+curation:
+  status: included
+  reason: The project is a dedicated MCP server implementation for MySQL, cleanly fitting the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description explicitly states: 'A Model Context Protocol server for MySQL database operations'"
+    - README documents MCP tools like connect_db, query, execute, list_tables, and describe_table
+    - Included in awesome-mcp-list and awesome-mcp-servers under Databases sections
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (157) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.665Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:07.193Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:18:55.502Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

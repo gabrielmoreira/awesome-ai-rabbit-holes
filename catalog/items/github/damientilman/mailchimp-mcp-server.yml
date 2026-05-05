@@ -1,0 +1,89 @@
+id: github__damientilman__mailchimp-mcp-server
+kind: github-repo
+name: mailchimp-mcp-server
+canonical_url: https://github.com/damientilman/mailchimp-mcp-server
+identity:
+  github_repo: damientilman/mailchimp-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__damientilman__mailchimp-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🎯 <a name="marketing"></a>Marketing
+        anchor_text: damientilman/mailchimp-mcp-server
+        extracted_url: https://github.com/damientilman/mailchimp-mcp-server
+        surrounding_text: "- [damientilman/mailchimp-mcp-server](https://github.com/damientilman/mailchimp-mcp-server) [![mailchimp-mcp MCP server](https://glama.ai/mcp/servers/@damientilman/mailchimp-mcp/badges/score.svg)](https://glama.ai/mcp/servers/@damientilman/mailchimp-mcp) 🐍 ☁️ - Mailchimp Marketing API integration with 53 tools for managing campaigns, audiences, reports, automations, landing pages, e-commerce data, and batch operations."
+        confidence: high
+metadata:
+  github:
+    stars: 5
+    forks: 2
+    license: MIT
+    archived: false
+    created_at: "2026-03-06T23:46:36Z"
+    pushed_at: "2026-04-29T20:28:46Z"
+    description: Full Mailchimp control from Claude - 53 tools for audiences, campaigns, automations and more.
+    homepage: https://www.tilman.marketing
+    topics:
+      - ai
+      - claude
+      - email-marketing
+      - mailchimp
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - python
+    last_checked_at: "2026-05-05T21:01:45.730Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:45.730Z"
+      bytes: 12459
+insights:
+  summary: A Model Context Protocol server that exposes 53+ Mailchimp Marketing API tools to Claude, enabling read and write control over campaigns, audiences, automations, and reports from the IDE or desktop.
+  why_it_matters: Developers using Claude can manage email marketing workflows directly through prompts instead of wiring Mailchimp API calls by hand.
+  mental_damage: We have successfully abstracted email marketing into a chat window, because sending a campaign without explaining yourself to a language model was clearly the bottleneck.
+  tags:
+    - mcp
+    - mailchimp
+    - claude
+    - python
+  confidence: medium
+curation:
+  status: included
+  reason: The project is a standalone MCP server that integrates Mailchimp with Claude, which fits cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description: 'Full Mailchimp control from Claude - 53 tools for audiences, campaigns, automations and more.'"
+    - README states it is 'A Model Context Protocol (MCP) server for the Mailchimp Marketing API' with 74 tools.
+    - Listed in awesome-mcp-servers under Server Implementations > Marketing.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.683Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:45.730Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:15:12.410Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

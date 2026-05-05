@@ -1,0 +1,84 @@
+id: github__janhq__cortex.cpp
+kind: github-repo
+name: cortex.cpp
+canonical_url: https://github.com/janhq/cortex.cpp
+identity:
+  github_repo: janhq/cortex.cpp
+provenance:
+  discoveries:
+    - id: discovery__github__janhq__cortex.cpp__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: janhq/awesome-local-ai
+        url: https://github.com/janhq/awesome-local-ai
+        repository: janhq/awesome-local-ai
+      extraction:
+        mode: parsed
+        section_path:
+          - Inference Engine
+        anchor_text: Cortex
+        extracted_url: https://github.com/janhq/cortex.cpp
+        surrounding_text: "| [Cortex](https://github.com/janhq/cortex.cpp)                   | - Multi-engine engine embeddable in your apps. Uses llama.cpp and more                | Both                    | Both            | ❌  | Text-Gen    |"
+        confidence: high
+metadata:
+  github:
+    stars: 2757
+    forks: 180
+    license: Apache-2.0
+    archived: true
+    created_at: "2023-09-11T03:56:09Z"
+    pushed_at: "2025-07-04T07:38:05Z"
+    description: Local AI API Platform
+    homepage: https://cortex.so
+    topics:
+      - gguf
+      - llamacpp
+      - onnx
+      - onnxruntime
+    last_checked_at: "2026-05-05T21:02:51.302Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:51.302Z"
+      bytes: 6096
+insights:
+  summary: A local AI API platform for running models on your own hardware with an OpenAI-compatible API, multi-engine support, and automatic hardware optimization.
+  why_it_matters: Developers can run, manage, and serve local LLMs with familiar API patterns while maintaining full control over their hardware and data.
+  mental_damage: Another freshly archived local AI runtime that promises to be the brain for robots until the maintainers inevitably pivot to forking llama.cpp instead.
+  tags:
+    - local-ai
+    - llm
+    - inference
+    - openai-compatible
+  confidence: high
+curation:
+  status: excluded
+  reason: The repository is explicitly archived with development moved to menloresearch/llama.cpp, making it unsuitable for inclusion in a curated catalog.
+  evidence:
+    - README contains a prominent archived notice stating 'This repository is no longer actively maintained'
+    - Development has moved to menloresearch/llama.cpp according to the archived notice
+    - "archived: yes flag confirms the repository is no longer active"
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: needs_review
+  reason: Repository is archived
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.699Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:51.302Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:27:40.972Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

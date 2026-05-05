@@ -1,0 +1,122 @@
+id: cursor__com
+kind: website
+name: cursor.com
+canonical_url: https://cursor.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__cursor__com__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Cursor
+        anchor_text: Cursor
+        extracted_url: https://www.cursor.so
+        surrounding_text: "## [Cursor](https://www.cursor.so/)"
+        confidence: high
+    - id: discovery__cursor__com__awesome-list__patrickjs__awesome-cursorrules
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: PatrickJS/awesome-cursorrules
+        url: https://github.com/patrickjs/awesome-cursorrules
+        repository: PatrickJS/awesome-cursorrules
+      extraction:
+        mode: parsed
+        section_path:
+          - README
+        anchor_text: Cursor AI
+        extracted_url: https://cursor.sh
+        surrounding_text: "[Cursor AI](https://cursor.sh/) is an AI-powered code editor. `.cursorrules` files define custom rules for Cursor AI to follow when generating code, allowing you to tailor its behavior to your specific needs and preferences."
+        confidence: high
+    - id: discovery__cursor__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Code Editors and Assistants
+        anchor_text: Cursor
+        extracted_url: https://www.cursor.sh
+        surrounding_text: "- **[Cursor](https://www.cursor.sh/)** – AI-first code editor with advanced autocompletion, codebase-aware chat, and multi-file editing."
+        confidence: high
+    - id: discovery__cursor__com__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 代码 Coding
+        anchor_text: cursor
+        extracted_url: https://www.cursor.com
+        surrounding_text: 5. [cursor](https://www.cursor.com/)
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Cursor is an AI-native code editor and IDE that provides autocomplete, conversational code editing, and autonomous agents to plan, build, and review code within a developer's existing codebase.
+  why_it_matters: It integrates frontier models directly into the coding workflow, allowing developers to delegate routine implementation, navigate large codebases semantically, and automate PR reviews without leaving their environment.
+  mental_damage: We have successfully automated the 'vibe check' portion of programming, leaving developers to anxiously debate whether they are still the pilot or just the flight attendant for an agentic autocomplete system.
+  tags:
+    - ai-ide
+    - coding-agent
+    - autocomplete
+    - multi-agent
+    - developer-productivity
+  confidence: high
+curation:
+  status: included
+  reason: Cursor is the definitive example of an AI-native IDE, serving as the primary development environment with integrated agents, tab completion, and CLI tools, which fits the AI IDEs and Editors category.
+  evidence:
+    - Scraped site context describes it as 'The best way to code with AI' with a dedicated Desktop interface, Tab model, and CLI.
+    - The product features 'Agent Composer 2' and 'Cloud Agents' that plan, build, test, and demo features end-to-end within the IDE.
+    - Included in 'awesome-ai-coding-tools' under the section 'Code Editors and Assistants'.
+placement:
+  primary_category: ai-ides-editors
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.658Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:43:29.684Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

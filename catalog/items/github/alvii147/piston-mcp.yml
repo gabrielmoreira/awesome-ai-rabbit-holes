@@ -1,0 +1,85 @@
+id: github__alvii147__piston-mcp
+kind: github-repo
+name: piston-mcp
+canonical_url: https://github.com/alvii147/piston-mcp
+identity:
+  github_repo: alvii147/piston-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__alvii147__piston-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 👨‍💻 <a name="code-execution"></a>Code Execution
+        anchor_text: alvii147/piston-mcp
+        extracted_url: https://github.com/alvii147/piston-mcp
+        surrounding_text: "- [alvii147/piston-mcp](https://github.com/alvii147/piston-mcp) 🐍 ☁️ 🐧 🍎 🪟 - MCP server that lets LLMs execute code through the Piston remote code execution engine, with a zero-config `uv` setup and a ready-to-use Claude Desktop config example."
+        confidence: high
+metadata:
+  github:
+    stars: 8
+    forks: 2
+    license: MIT
+    archived: false
+    created_at: "2025-07-06T00:52:49Z"
+    pushed_at: "2026-02-22T20:04:06Z"
+    description: MCP server that allows LLMs to connect to and execute code using Piston
+    homepage: ""
+    topics:
+      - llm
+      - mcp
+      - piston-api
+      - uv
+    last_checked_at: "2026-05-05T21:01:01.718Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:01.718Z"
+      bytes: 2368
+insights:
+  summary: An MCP server that connects LLMs to the Piston code execution engine to run code snippets from within MCP-compatible clients.
+  why_it_matters: It gives coding assistants a sandboxed execution environment to validate code outputs without leaving the chat interface.
+  mental_damage: We have successfully built a bridge to run code in a sandbox that, as of last week, requires a secret token to actually access.
+  tags:
+    - mcp
+    - code-execution
+    - piston
+    - llm-tooling
+  confidence: high
+curation:
+  status: included
+  reason: The project is a standalone MCP server implementation designed to extend LLM capabilities with code execution via Piston.
+  evidence:
+    - "Repo description explicitly states: 'MCP server that allows LLMs to connect to and execute code using Piston'."
+    - Listed in awesome-mcp-servers under the 'Code Execution' section.
+    - README provides configuration details for MCP clients like Claude Desktop.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.678Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:01.718Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:07:52.351Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

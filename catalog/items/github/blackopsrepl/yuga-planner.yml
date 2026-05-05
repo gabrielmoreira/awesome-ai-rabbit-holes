@@ -1,0 +1,80 @@
+id: github__blackopsrepl__yuga-planner
+kind: github-repo
+name: yuga-planner
+canonical_url: https://github.com/blackopsrepl/yuga-planner
+identity:
+  github_repo: blackopsrepl/yuga-planner
+provenance:
+  discoveries:
+    - id: discovery__github__blackopsrepl__yuga-planner__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: Yuga Planner
+        extracted_url: https://github.com/blackopsrepl/yuga-planner
+        surrounding_text: "- **[Yuga Planner](https://github.com/blackopsrepl/yuga-planner)** - AI Task schedule planning with LLamaIndex and Timefold: breaks down a task description and schedules it around an existing calendar"
+        confidence: high
+metadata:
+  github:
+    stars: 3
+    forks: 2
+    license: Apache-2.0
+    archived: true
+    created_at: "2025-06-09T16:32:17Z"
+    pushed_at: "2025-08-05T16:45:01Z"
+    description: "Gradio Agents & MCP 2025 Hackathon project: LLM + constraint solver to schedule tasks around your existing calendar. Type task description → optimal calendar schedule."
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:01:22.038Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:22.038Z"
+      bytes: 10880
+insights:
+  summary: A neuro-symbolic prototype that combines LLM task decomposition with constraint solving to generate optimal team schedules from project descriptions, exposed as an MCP tool.
+  why_it_matters: It demonstrates a practical pattern for combining agentic planning with deterministic solvers and exposes the result via MCP for integration into developer workflows.
+  mental_damage: We have successfully built an AI agent to solve team scheduling, which is impressive, considering we still manually copy-paste our daily standup notes into a calendar no one reads.
+  tags:
+    - mcp
+    - scheduling
+    - agent
+    - hackathon
+  confidence: high
+curation:
+  status: excluded
+  reason: Excluded because the repository is archived and it is a niche hackathon demo for team scheduling rather than a core developer-tooling product.
+  evidence:
+    - Repo is marked as archived.
+    - Description identifies it as a 'Gradio Agents & MCP 2025 Hackathon project' and a 'prototype'.
+    - Only 3 stars and listed in awesome-mcp-servers under Community Servers.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: needs_review
+  reason: Repository is archived
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.681Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:22.038Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:11:01.700Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

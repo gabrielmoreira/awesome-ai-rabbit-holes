@@ -1,0 +1,76 @@
+id: tldv__io
+kind: website
+name: tldv.io
+canonical_url: https://tldv.io
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__tldv__io__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: tl;dv
+        extracted_url: https://tldv.io
+        surrounding_text: "- **[Tldv](https://gitlab.com/tldv/tldv-mcp-server)** - Connect your AI agents to Google-Meet, Zoom & Microsoft Teams through [tl;dv](https://tldv.io)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: tl;dv is a SaaS meeting recording and transcription tool that uses AI to summarize conversations across Zoom, Google Meet, and Microsoft Teams.
+  why_it_matters: It automates the busywork of meeting notes and CRM updates, allowing developers to focus on coding rather than documenting standups and sprint planning sessions.
+  mental_damage: Engineers can now officially stop paying attention to meetings, secure in the knowledge that an AI is hallucinating the action items they will later ignore.
+  tags:
+    - meetings
+    - transcription
+    - summarization
+    - saas
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a general-purpose meeting productivity SaaS for sales and customer success teams, lacking a developer-tooling or coding-specific angle required for the catalog.
+  evidence:
+    - The scraped site context describes a 'Sales coaching platform' and 'AI Meeting Notetaker' for Zoom/Meet/Teams with no mention of IDE, CLI, or code workflows.
+    - Source-list context lists it under 'awesome-mcp-servers' for 'AI meeting notes', but the product itself is a generic meeting tool, not developer infrastructure.
+    - The website targets Sales Managers, Product Owners, and Marketing Managers, not software developers building or shipping code.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.731Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:48:47.460Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

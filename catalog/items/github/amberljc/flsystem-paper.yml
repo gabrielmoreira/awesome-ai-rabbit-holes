@@ -1,0 +1,87 @@
+id: github__amberljc__flsystem-paper
+kind: github-repo
+name: flsystem-paper
+canonical_url: https://github.com/amberljc/flsystem-paper
+identity:
+  github_repo: amberljc/flsystem-paper
+provenance:
+  discoveries:
+    - id: discovery__github__amberljc__flsystem-paper__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Awesome Lists
+        anchor_text: Awesome Federated Learning Systems
+        extracted_url: https://github.com/amberljc/flsystem-paper
+        surrounding_text: "| [Awesome Federated Learning Systems](https://github.com/AmberLJC/FLsystem-paper/blob/main/README.md)    | A curated list of Federated Learning Systems related academic papers, articles, tutorials, slides and projects.                   | ![GitHub Badge](https://img.shields.io/github/stars/AmberLJC/FLsystem-paper.svg?style=flat-square)                       |"
+        confidence: high
+metadata:
+  github:
+    stars: 75
+    forks: 7
+    license: null
+    archived: false
+    created_at: "2022-04-25T23:32:40Z"
+    pushed_at: "2024-02-07T05:08:39Z"
+    description: Federated Learning Systems Paper List
+    homepage: ""
+    topics:
+      - awesome-list
+      - federated-learning
+      - machine-learning
+      - mlsys
+      - papers
+      - systems
+    last_checked_at: "2026-05-05T21:01:02.304Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:02.304Z"
+      bytes: 13068
+insights:
+  summary: A curated index of academic papers, frameworks, and systems focused on federated learning from big tech companies and open-source projects.
+  why_it_matters: It serves as a structured research map for developers building distributed, privacy-preserving ML infrastructure rather than standard centralized models.
+  mental_damage: Nothing cements your status as a cutting-edge engineer quite like bookmarking a list of 500 papers you swear you will read right after you finish tuning your 12th optimizer.
+  tags:
+    - federated-learning
+    - ml-systems
+    - research
+    - papers
+    - awesome-list
+  confidence: high
+curation:
+  status: included
+  reason: This is a curated meta-list of federated learning research and systems, fitting the catalog's navigation aids for developers exploring specific ML infrastructure domains.
+  evidence:
+    - Repo description explicitly states 'Federated Learning Systems Paper List' and topics include 'awesome-list'.
+    - README confirms it is 'A curated list of FL system-related academic papers, articles, tutorials, slides and projects'.
+    - Seen in Awesome-LLMOps source list under the 'Awesome Lists' section.
+placement:
+  primary_category: awesome-awesomes
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.678Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:02.304Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:07:58.933Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

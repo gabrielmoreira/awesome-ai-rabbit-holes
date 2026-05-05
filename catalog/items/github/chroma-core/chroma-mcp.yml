@@ -1,0 +1,97 @@
+id: github__chroma-core__chroma-mcp
+kind: github-repo
+name: chroma-mcp
+canonical_url: https://github.com/chroma-core/chroma-mcp
+identity:
+  github_repo: chroma-core/chroma-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__chroma-core__chroma-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🗄️ <a name="databases"></a>Databases
+        anchor_text: chroma-core/chroma-mcp
+        extracted_url: https://github.com/chroma-core/chroma-mcp
+        surrounding_text: "- [chroma-core/chroma-mcp](https://github.com/chroma-core/chroma-mcp) 🎖️ 🐍 ☁️ 🏠 - Chroma MCP server to access local and cloud Chroma instances for retrieval capabilities"
+        confidence: high
+    - id: discovery__github__chroma-core__chroma-mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Chroma
+        extracted_url: https://github.com/chroma-core/chroma-mcp
+        surrounding_text: "- **[Chroma](https://github.com/chroma-core/chroma-mcp)** - Embeddings, vector search, document storage, and full-text search with the open-source AI application database"
+        confidence: high
+metadata:
+  github:
+    stars: 542
+    forks: 109
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-02-11T00:23:22Z"
+    pushed_at: "2025-09-17T20:20:13Z"
+    description: A Model Context Protocol (MCP) server implementation that provides database capabilities for Chroma
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:01:33.905Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:33.905Z"
+      bytes: 8049
+insights:
+  summary: An official Model Context Protocol server that exposes Chroma vector database operations—such as semantic search, document management, and collection configuration—as tools for AI models and agents.
+  why_it_matters: It lets developers plug persistent, searchable memory into MCP-compatible coding agents and LLM workflows without building custom vector-store integrations.
+  mental_damage: Another essential brick in the tower of middleware that exists solely so your agent can remember what it was doing before the context window threw up its hands.
+  tags:
+    - mcp
+    - vector-database
+    - memory
+    - context
+    - chroma
+  confidence: high
+curation:
+  status: included
+  reason: This is a first-party MCP server implementation from Chroma, cleanly fitting the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states it is 'A Model Context Protocol (MCP) server implementation'
+    - README details MCP tools like chroma_query_documents and chroma_create_collection for AI model integration
+    - Listed in awesome-mcp-servers under Server Implementations > Databases and Official Servers
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (542) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.664Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:33.905Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:13:06.145Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

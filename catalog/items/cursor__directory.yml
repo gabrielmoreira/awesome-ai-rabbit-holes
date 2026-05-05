@@ -1,0 +1,76 @@
+id: cursor__directory
+kind: website
+name: cursor.directory
+canonical_url: https://cursor.directory
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__cursor__directory__awesome-list__patrickjs__awesome-cursorrules
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: PatrickJS/awesome-cursorrules
+        url: https://github.com/patrickjs/awesome-cursorrules
+        repository: PatrickJS/awesome-cursorrules
+      extraction:
+        mode: parsed
+        section_path:
+          - Directories
+        anchor_text: CursorDirectory
+        extracted_url: https://cursor.directory
+        surrounding_text: "- [CursorDirectory](https://cursor.directory/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A directory of cursor rules, prompt snippets, and configuration examples for the Cursor AI code editor.
+  why_it_matters: It provides reusable context engineering patterns that help developers standardize and improve how Cursor understands their codebase.
+  mental_damage: Because writing code is no longer enough; now you must also maintain a curated collection of markdown files just to keep your AI assistant from hallucinating your architecture.
+  tags:
+    - cursor
+    - rules
+    - prompt-engineering
+    - context
+  confidence: high
+curation:
+  status: included
+  reason: This is a directory and index of prompt configurations for Cursor, fitting the 'Awesome Awesomes' category as a navigational resource rather than a standalone tool.
+  evidence:
+    - Source URL is cursor.directory, indicating a directory-style site.
+    - Listed in the 'awesome-cursorrules' directory on GitHub, confirming its nature as a curated list.
+    - Lacks a repo description or README excerpt suggesting it is a coding agent or IDE itself.
+placement:
+  primary_category: awesome-awesomes
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.727Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:43:29.017Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

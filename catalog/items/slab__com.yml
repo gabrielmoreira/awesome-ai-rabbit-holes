@@ -1,0 +1,76 @@
+id: slab__com
+kind: website
+name: slab.com
+canonical_url: https://slab.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__slab__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Documentation
+        anchor_text: Slab
+        extracted_url: https://slab.com
+        surrounding_text: "- **[Slab](https://slab.com/)** – Team knowledge base with AI search and automated documentation."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Slab is a knowledge base and wiki platform for creating, organizing, and searching company documentation with integrations for tools like GitHub and Slack.
+  why_it_matters: It provides a centralized place for development teams to document architecture, code reviews, and internal processes, integrating with the existing engineering stack.
+  mental_damage: "Just what the world needed: another collaborative wiki promising to solve knowledge silos, this time with 'modern editing capabilities' and a GitHub integration badge to tempt the engineering lead."
+  tags:
+    - documentation
+    - wiki
+    - knowledge-base
+    - team-collaboration
+  confidence: high
+curation:
+  status: excluded
+  reason: Slab is a general-purpose team wiki and documentation platform, not a developer-facing AI tool, agent, or coding workflow product.
+  evidence:
+    - Scraped site context describes it as 'Knowledge Base & Wiki Software' for 'non-technical to tech-savvy' teams, not AI tooling.
+    - Source list context places it in the 'Documentation' section of awesome-ai-coding-tools, likely for its GitHub integration rather than AI features.
+    - Product features focus on editing, organizing, and searching general company knowledge, with no mention of AI coding assistance or agentic workflows.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.730Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:48:14.077Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

@@ -1,0 +1,76 @@
+id: www__magickml__com
+kind: website
+name: www.magickml.com
+canonical_url: https://www.magickml.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__magickml__com__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Magick
+        anchor_text: Magick
+        extracted_url: https://www.magickml.com
+        surrounding_text: "## [Magick](https://www.magickml.com/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Magick is a visual IDE for designing, developing, and deploying AI agents using a node-based interface without requiring code.
+  why_it_matters: It allows developers to rapidly prototype and deploy event-driven AI agents across multiple platforms using a drag-and-drop workflow rather than writing boilerplate orchestration code.
+  mental_damage: Finally, a way to construct complex agentic workflows using a visual node builder, ensuring that debugging your spaghetti flows requires understanding both the graph and the underlying prompt failures simultaneously.
+  tags:
+    - agent-builder
+    - visual-ide
+    - no-code
+    - llm-integration
+  confidence: medium
+curation:
+  status: included
+  reason: The product is a user-facing visual workbench for coordinating AI agents and logic flows, fitting the agent-orchestration category rather than a coding-agent that edits repos.
+  evidence:
+    - Scraped site describes it as a 'visual IDE for programming and deploying AI Agents' with a 'node-based interface'.
+    - Features include multi-platform integrations (Discord, Unreal Engine) and event-driven logic rather than repo editing.
+    - Listed in the 'awesome-ai-agents' directory under the 'Magick' section.
+placement:
+  primary_category: agent-orchestration
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.733Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:51:51.244Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

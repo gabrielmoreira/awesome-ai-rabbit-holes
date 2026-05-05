@@ -1,0 +1,94 @@
+id: github__hkuds__nanobot
+kind: github-repo
+name: nanobot
+canonical_url: https://github.com/hkuds/nanobot
+identity:
+  github_repo: hkuds/nanobot
+provenance:
+  discoveries:
+    - id: discovery__github__hkuds__nanobot__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Terminal-native coding agents
+          - OpenClaw ecosystem
+        anchor_text: nanobot
+        extracted_url: https://github.com/hkuds/nanobot
+        surrounding_text: "- **[nanobot](https://github.com/HKUDS/nanobot)** `⭐ 41.6k` — Ultra-lightweight ~4,000-line Python rewrite of OpenClaw; tool use, persistent memory, scheduled tasks, and multi-channel support (Telegram/Discord/WhatsApp). MIT."
+        confidence: high
+metadata:
+  github:
+    stars: 41695
+    forks: 7331
+    license: MIT
+    archived: false
+    created_at: "2026-02-01T07:16:15Z"
+    pushed_at: "2026-05-05T16:43:00Z"
+    description: "\"🐈 nanobot: The Ultra-Lightweight Personal AI Agent\""
+    homepage: https://nanobot.wiki
+    topics:
+      - ai
+      - ai-agent
+      - ai-agents
+      - anthropic
+      - chatgpt
+      - claude
+      - claude-code
+      - codex
+      - llm
+      - nanobot
+      - openai
+      - openclaw
+    last_checked_at: "2026-05-05T21:02:34.982Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:34.982Z"
+      bytes: 20580
+insights:
+  summary: nanobot is an open-source, ultra-lightweight AI agent designed for local setup and long-running personal use, supporting chat channels, memory, and MCP integration.
+  why_it_matters: Developers looking for a minimal, transparent alternative to heavier agent frameworks can deploy a personal assistant that integrates with Discord, Slack, and Telegram with minimal overhead.
+  mental_damage: "Just what the ecosystem needed: another personal AI agent to manage, distinct from the three others you already forgot you installed last month."
+  tags:
+    - ai-agent
+    - cli
+    - mcp
+    - local-ai
+    - openclaw
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly listed in the awesome-cli-coding-agents list as a terminal-native coding agent and describes itself as a lightweight agent in the spirit of Claude Code and OpenClaw.
+  evidence:
+    - Repo description identifies it as 'The Ultra-Lightweight Personal AI Agent'.
+    - README states it keeps the 'core agent loop small and readable' while supporting practical deployment paths.
+    - Source-list context confirms inclusion in awesome-cli-coding-agents under 'Terminal-native coding agents > OpenClaw ecosystem'.
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (41695) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.696Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:34.982Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:24:08.425Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,93 @@
+id: github__constantineb6__comfy-pilot
+kind: github-repo
+name: comfy-pilot
+canonical_url: https://github.com/constantineb6/comfy-pilot
+identity:
+  github_repo: constantineb6/comfy-pilot
+provenance:
+  discoveries:
+    - id: discovery__github__constantineb6__comfy-pilot__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🎨 <a name="art-and-culture"></a>Art & Culture
+        anchor_text: ConstantineB6/comfy-pilot
+        extracted_url: https://github.com/constantineb6/comfy-pilot
+        surrounding_text: "- [ConstantineB6/comfy-pilot](https://github.com/ConstantineB6/comfy-pilot) 🐍 🏠 - MCP server for ComfyUI that lets AI agents view, edit, and run node-based image generation workflows with an embedded terminal."
+        confidence: high
+metadata:
+  github:
+    stars: 182
+    forks: 37
+    license: MIT
+    archived: false
+    created_at: "2026-01-28T05:38:18Z"
+    pushed_at: "2026-02-16T09:58:06Z"
+    description: MCP server + embedded terminal that lets Claude Code see and edit your ComfyUI workflows
+    homepage: null
+    topics:
+      - ai
+      - claude
+      - claude-code
+      - comfyui
+      - comfyui-custom-node
+      - generative-ai
+      - image-generation
+      - mcp
+      - model-context-protocol
+      - stable-diffusion
+      - workflow-automation
+    last_checked_at: "2026-05-05T21:01:40.840Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:40.840Z"
+      bytes: 7780
+insights:
+  summary: An MCP server and embedded terminal that lets Claude Code directly view, edit, and execute ComfyUI image-generation workflows from inside the ComfyUI interface.
+  why_it_matters: It lets developers describe ComfyUI workflow changes in natural language and have Claude Code handle node creation, connections, model downloads, and image inspection automatically.
+  mental_damage: You can now debug your spaghetti node graphs by arguing with an LLM that is also debugging your spaghetti node graphs, all inside a terminal floating over your spaghetti node graphs.
+  tags:
+    - mcp
+    - comfyui
+    - claude-code
+    - workflow-automation
+    - generative-ai
+  confidence: high
+curation:
+  status: included
+  reason: The product itself is an MCP server that exposes ComfyUI workflow operations as tools for Claude Code, fitting the MCP infrastructure category rather than a general coding agent.
+  evidence:
+    - Repo description explicitly states 'MCP server + embedded terminal that lets Claude Code see and edit your ComfyUI workflows'
+    - README lists a dedicated MCP Tools table exposing workflow operations like get_workflow, edit_graph, and view_image to Claude Code
+    - Listed in awesome-mcp-servers under 'Server Implementations > Art & Culture' section
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (182) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.683Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:40.840Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:14:20.112Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

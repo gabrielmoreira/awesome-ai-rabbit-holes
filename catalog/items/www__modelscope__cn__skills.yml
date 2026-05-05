@@ -1,0 +1,76 @@
+id: www__modelscope__cn__skills
+kind: website
+name: skills
+canonical_url: https://www.modelscope.cn/skills
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__modelscope__cn__skills__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 技能 Skills
+        anchor_text: Modelscope Skills
+        extracted_url: https://modelscope.cn/skills
+        surrounding_text: 15. [Modelscope Skills](https://modelscope.cn/skills)
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: ModelScope Skills is a directory and registry for community-contributed AI capability components and skill packs.
+  why_it_matters: It provides a centralized hub for developers to discover and reuse modular skills that extend the behavior of AI models and developer tools.
+  mental_damage: Because nothing says 'streamlined workflow' like browsing a registry of modular capabilities while wondering if you should have just written the function yourself.
+  tags:
+    - skills
+    - registry
+    - modelscope
+    - ai-capabilities
+  confidence: medium
+curation:
+  status: included
+  reason: The product is a directory/registry of reusable AI skill components for developers, which fits the skills category.
+  evidence:
+    - Scraped site context describes it as '汇聚社区能力组件' (gathering community capability components).
+    - Listed in awesome-LLM-resources under a '技能 Skills' (Skills) section.
+    - Title explicitly identifies the product as 'ModelScope - Skills 技能中心'.
+placement:
+  primary_category: skills
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.733Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T20:27:18.573Z"
+    cause: null
+    attempts: 3
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 753a9feca783
+    next_retry_at: null

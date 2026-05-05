@@ -1,0 +1,89 @@
+id: github__paddlepaddle__paddle
+kind: github-repo
+name: paddle
+canonical_url: https://github.com/paddlepaddle/paddle
+identity:
+  github_repo: paddlepaddle/paddle
+provenance:
+  discoveries:
+    - id: discovery__github__paddlepaddle__paddle__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Training
+          - Frameworks for Training
+        anchor_text: PaddlePaddle
+        extracted_url: https://github.com/paddlepaddle/paddle
+        surrounding_text: "| [PaddlePaddle](https://github.com/PaddlePaddle/Paddle)               | Machine Learning Framework from Industrial Practice.                                                                                                                                                        | ![GitHub Badge](https://img.shields.io/github/stars/PaddlePaddle/Paddle.svg?style=flat-square)               |"
+        confidence: high
+metadata:
+  github:
+    stars: 23873
+    forks: 5989
+    license: Apache-2.0
+    archived: false
+    created_at: "2016-08-15T06:59:08Z"
+    pushed_at: "2026-05-03T19:04:47Z"
+    description: "PArallel Distributed Deep LEarning: Machine Learning Framework from Industrial Practice （『飞桨』核心框架，深度学习&机器学习高性能单机、分布式训练和跨平台部署）"
+    homepage: http://www.paddlepaddle.org/
+    topics:
+      - deep-learning
+      - distributed-training
+      - efficiency
+      - machine-learning
+      - neural-network
+      - paddlepaddle
+      - python
+      - scalability
+    last_checked_at: "2026-05-05T21:04:10.815Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:10.815Z"
+      bytes: 5541
+insights:
+  summary: PaddlePaddle is an open-source deep learning and machine learning framework from Baidu that supports high-performance single-machine and distributed training with cross-platform deployment capabilities.
+  why_it_matters: It provides developers with an industrial-grade platform for training and deploying large models, featuring unified dynamic/static graphs and automatic parallelism to reduce infrastructure overhead.
+  mental_damage: "Just what the ecosystem needed: another massive deep learning framework to evaluate while you wonder if your current stack will even support the next generation of model architectures."
+  tags:
+    - deep-learning
+    - framework
+    - distributed-training
+    - industrial-ml
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a general-purpose deep learning framework for ML researchers and data scientists, not a developer-facing AI tool, agent, or infrastructure product for software development workflows.
+  evidence:
+    - "Repo description explicitly defines it as a 'Deep Learning: Machine Learning Framework', not a developer tooling product."
+    - README focuses on industrial ML training, inference for large models, and scientific computing rather than coding assistance or developer workflows.
+    - Listed in Awesome-LLMOps under 'Training > Frameworks for Training', which targets ML ops rather than the developer-tooling scope of this catalog.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (23873) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.712Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:10.815Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:43:37.013Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

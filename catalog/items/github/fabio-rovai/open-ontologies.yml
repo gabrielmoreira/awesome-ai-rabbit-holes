@@ -1,0 +1,98 @@
+id: github__fabio-rovai__open-ontologies
+kind: github-repo
+name: open-ontologies
+canonical_url: https://github.com/fabio-rovai/open-ontologies
+identity:
+  github_repo: fabio-rovai/open-ontologies
+provenance:
+  discoveries:
+    - id: discovery__github__fabio-rovai__open-ontologies__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: fabio-rovai/open-ontologies
+        extracted_url: https://github.com/fabio-rovai/open-ontologies
+        surrounding_text: "- [fabio-rovai/open-ontologies](https://github.com/fabio-rovai/open-ontologies) [![open-ontologies MCP server](https://glama.ai/mcp/servers/fabio-rovai/open-ontologies/badges/score.svg)](https://glama.ai/mcp/servers/fabio-rovai/open-ontologies) 🦀 🏠 - AI-native ontology engineering with 39 tools and 5 prompts for OWL/RDF/SPARQL. Validate, query, diff, lint, version, and govern knowledge graphs via Oxigraph triple store."
+        confidence: high
+metadata:
+  github:
+    stars: 91
+    forks: 13
+    license: MIT
+    archived: false
+    created_at: "2026-03-09T09:08:58Z"
+    pushed_at: "2026-05-05T10:23:17Z"
+    description: "AI-native ontology engine: a Rust MCP server with tools for building, validating, querying, and reasoning over RDF/OWL ontologies. In-memory Oxigraph triple store, native OWL2-DL tableaux reasoner, SHACL validation, SPARQL, versioning. Single binary, no JVM."
+    homepage: ""
+    topics:
+      - ai-native
+      - claude
+      - description-logics
+      - knowledge-graph
+      - linked-data
+      - mcp
+      - mcp-server
+      - ontology
+      - owl
+      - owl2
+      - oxigraph
+      - reasoning
+      - rust
+      - shacl
+      - sparql
+      - triplestore
+    last_checked_at: "2026-05-05T21:02:07.258Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:07.258Z"
+      bytes: 34948
+insights:
+  summary: A Rust MCP server that exposes 43 tools for building, validating, reasoning over, and governing RDF/OWL ontologies with an in-memory Oxigraph triple store and a desktop Studio app.
+  why_it_matters: It lets developers wire ontology engineering, SHACL validation, SPARQL queries, and OWL2-DL reasoning directly into Claude and MCP-compatible IDEs without touching a JVM or Protégé.
+  mental_damage: You now have the perfect excuse to ask an LLM to terraform an OWL ontology before you’ve even finished explaining why your team needs one.
+  tags:
+    - mcp
+    - ontology
+    - knowledge-graph
+    - rust
+    - reasoning
+  confidence: high
+curation:
+  status: included
+  reason: This is explicitly an MCP server for ontology engineering with tooling for Claude and MCP-compatible IDEs, which fits the MCP category precisely.
+  evidence:
+    - "Repo description: 'AI-native ontology engine: a Rust MCP server with tools for building, validating, querying, and reasoning over RDF/OWL ontologies.'"
+    - "README: 'Open Ontologies is a Rust MCP server and desktop Studio for AI-native ontology engineering. It exposes 43 tools that let Claude build, validate, query, diff, lint, version, reason over, align, and persist RDF/OWL ontologies.'"
+    - "Source list: included in awesome-mcp-servers under Server Implementations > Knowledge & Memory."
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.687Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:07.258Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:18:56.778Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

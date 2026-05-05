@@ -1,0 +1,82 @@
+id: github__gregario__dnd-oracle
+kind: github-repo
+name: dnd-oracle
+canonical_url: https://github.com/gregario/dnd-oracle
+identity:
+  github_repo: gregario/dnd-oracle
+provenance:
+  discoveries:
+    - id: discovery__github__gregario__dnd-oracle__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🎮 <a name="gaming"></a>Gaming
+        anchor_text: gregario/dnd-oracle
+        extracted_url: https://github.com/gregario/dnd-oracle
+        surrounding_text: "- [gregario/dnd-oracle](https://github.com/gregario/dnd-oracle) [![dnd-oracle MCP server](https://glama.ai/mcp/servers/gregario/dnd-oracle/badges/score.svg)](https://glama.ai/mcp/servers/gregario/dnd-oracle) 📇 🏠 - D&D 5e SRD reference and analysis with monster search, spell lookup, encounter building, and loadout analysis. 10 tools, 1198 entities embedded."
+        confidence: high
+metadata:
+  github:
+    stars: 2
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2026-03-16T18:37:09Z"
+    pushed_at: "2026-05-02T20:43:06Z"
+    description: D&D 5e SRD MCP server — monster search, spell lookup, encounter building, and character tools powered by ground-truth SRD data
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:27.550Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:27.550Z"
+      bytes: 3150
+insights:
+  summary: An MCP server that exposes D&D 5e SRD data—including monsters, spells, and rules—via 12 tools for encounter building, spell planning, and character analysis in AI clients like Claude Desktop and Claude Code.
+  why_it_matters: It lets developers building D&D tooling or AI integrations test agent-tooling patterns against a clean, local, ground-truth dataset without risking LLM hallucinations.
+  mental_damage: We have successfully built a Model Context Protocol server so our AI can finally kill goblins with perfect rules compliance while our actual production code reviews remain a chaotic mess.
+  tags:
+    - mcp
+    - dnd
+    - game-dev
+    - tooling
+    - node
+  confidence: high
+curation:
+  status: included
+  reason: The project is a standalone MCP server implementation designed to be plugged into AI clients, which fits squarely into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states 'D&D 5e SRD MCP server'
+    - README lists 12 MCP tools (search_monsters, build_encounter, etc.) and provides config examples for Claude Desktop and Claude Code
+    - Listed under 'Server Implementations > Gaming' in the awesome-mcp-servers directory
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.690Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:27.550Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:22:55.057Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

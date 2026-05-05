@@ -1,0 +1,80 @@
+id: github__panasenco__mcp-sqlite
+kind: github-repo
+name: mcp-sqlite
+canonical_url: https://github.com/panasenco/mcp-sqlite
+identity:
+  github_repo: panasenco/mcp-sqlite
+provenance:
+  discoveries:
+    - id: discovery__github__panasenco__mcp-sqlite__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: SQLite
+        extracted_url: https://github.com/panasenco/mcp-sqlite
+        surrounding_text: "- **[SQLite](https://github.com/panasenco/mcp-sqlite)** - MCP server for SQLite files. Supports Datasette-compatible metadata!"
+        confidence: high
+metadata:
+  github:
+    stars: 21
+    forks: 5
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-05-31T03:26:48Z"
+    pushed_at: "2026-01-26T17:34:00Z"
+    description: MCP server for SQLite files. Supports Datasette-compatible metadata!
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:04:11.447Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:11.447Z"
+      bytes: 6572
+insights:
+  summary: An MCP server that exposes SQLite databases to AI agents via tools for schema discovery, arbitrary SQL execution, and Datasette-compatible canned queries.
+  why_it_matters: It lets coding agents safely query local data without external system access, bridging structured data and agent workflows using a familiar metadata format.
+  mental_damage: The ecosystem now requires installing a dedicated server just to let your AI assistant run SELECT * FROM users on a file that is already sitting on your hard drive.
+  tags:
+    - mcp
+    - sqlite
+    - database
+    - context-engineering
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server implementation for SQLite, fitting cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description states: 'MCP server for SQLite files.'"
+    - README demonstrates AI agent tools like sqlite_get_catalog and sqlite_execute for agent-driven SQL interaction.
+    - Listed in awesome-mcp-servers under 'Community Servers' section.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.712Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:11.447Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:43:43.298Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

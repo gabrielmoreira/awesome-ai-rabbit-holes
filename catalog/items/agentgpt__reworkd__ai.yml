@@ -1,0 +1,91 @@
+id: agentgpt__reworkd__ai
+kind: website
+name: agentgpt.reworkd.ai
+canonical_url: https://agentgpt.reworkd.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__agentgpt__reworkd__ai__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - AgentGPT
+        anchor_text: AgentGPT
+        extracted_url: https://agentgpt.reworkd.ai
+        surrounding_text: "## [AgentGPT](https://agentgpt.reworkd.ai/)"
+        confidence: high
+    - id: discovery__agentgpt__reworkd__ai__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: janhq/awesome-local-ai
+        url: https://github.com/janhq/awesome-local-ai
+        repository: janhq/awesome-local-ai
+      extraction:
+        mode: parsed
+        section_path:
+          - Agents
+        anchor_text: AgentGPT
+        extracted_url: https://agentgpt.reworkd.ai
+        surrounding_text: "- [AgentGPT](https://agentgpt.reworkd.ai/) -Assemble, configure, and deploy autonomous AI Agents in your browser."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A browser-based web application that allows users to assemble, configure, and deploy autonomous AI agents by defining a name and a goal.
+  why_it_matters: It offers developers a zero-install, browser-first environment to prototype and observe autonomous agent behavior without setting up local infrastructure.
+  mental_damage: Yet another reminder that we are rapidly turning software engineering into the art of naming a bot and praying it doesn't book a flight to Hawaii on the company credit card.
+  tags:
+    - autonomous-agents
+    - browser-based
+    - agent-deployment
+    - no-code
+  confidence: high
+curation:
+  status: excluded
+  reason: The product is a general-purpose, browser-based autonomous agent runner for tasks like trip planning and company research, lacking a specific developer-tooling or code-workflow angle required for the catalog.
+  evidence:
+    - The primary page excerpt shows example agents for trip planning ('TravelGPT') and company research ('ResearchGPT'), not code generation or development workflows.
+    - The site description claims to 'Assemble, configure, and deploy autonomous AI Agents in your browser' without mentioning source code, IDEs, or developer infrastructure.
+    - It is listed in 'awesome-ai-agents' under a general autonomous agent section, rather than a developer-tools or coding-specific context.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.673Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:41:22.948Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

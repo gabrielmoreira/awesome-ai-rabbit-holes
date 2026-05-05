@@ -1,0 +1,91 @@
+id: github__ailenshen__apple-notes-mcp
+kind: github-repo
+name: apple-notes-mcp
+canonical_url: https://github.com/ailenshen/apple-notes-mcp
+identity:
+  github_repo: ailenshen/apple-notes-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__ailenshen__apple-notes-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: ailenshen/apple-notes-mcp
+        extracted_url: https://github.com/ailenshen/apple-notes-mcp
+        surrounding_text: "- [ailenshen/apple-notes-mcp](https://github.com/ailenshen/apple-notes-mcp) [![apple-notes-mcp MCP server](https://glama.ai/mcp/servers/ailenshen/apple-notes-mcp/badges/score.svg)](https://glama.ai/mcp/servers/ailenshen/apple-notes-mcp) 📇 🏠 🍎 - Read and write Apple Notes with bidirectional Markdown conversion. Fast SQLite queries for listing/searching, AppleScript + native import for full CRUD. Supports stdio and Streamable HTTP transports."
+        confidence: high
+metadata:
+  github:
+    stars: 5
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2026-03-22T09:28:41Z"
+    pushed_at: "2026-04-29T14:55:51Z"
+    description: Read and write Apple Notes, with Apple Notes native formatting support
+    homepage: ""
+    topics:
+      - ai
+      - apple
+      - apple-notes
+      - claude
+      - llm
+      - macos
+      - markdown
+      - mcp
+      - mcp-server
+    last_checked_at: "2026-05-05T21:00:55.618Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:55.618Z"
+      bytes: 5735
+insights:
+  summary: An MCP server that lets AI clients read, search, write, and update Apple Notes on macOS with native formatting support via Markdown import.
+  why_it_matters: It turns Apple Notes into a structured, programmable knowledge base that AI assistants can directly query and update from the IDE or terminal.
+  mental_damage: We have finally bridged the gap between large language models and Apple Notes, meaning your AI can now argue with your grocery list in real time.
+  tags:
+    - mcp
+    - apple-notes
+    - macos
+    - knowledge-management
+    - developer-tools
+  confidence: high
+curation:
+  status: included
+  reason: The project is a focused MCP server that integrates Apple Notes with AI clients, fitting cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description: 'Read and write Apple Notes, with Apple Notes native formatting support'"
+    - README states it is an MCP server configured for Claude Desktop and Claude Code
+    - Listed in awesome-mcp-servers under Server Implementations > Knowledge & Memory
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.677Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:55.618Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:06:56.272Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

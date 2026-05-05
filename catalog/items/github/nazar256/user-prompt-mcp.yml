@@ -1,0 +1,80 @@
+id: github__nazar256__user-prompt-mcp
+kind: github-repo
+name: user-prompt-mcp
+canonical_url: https://github.com/nazar256/user-prompt-mcp
+identity:
+  github_repo: nazar256/user-prompt-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__nazar256__user-prompt-mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: User Prompt MCP
+        extracted_url: https://github.com/nazar256/user-prompt-mcp
+        surrounding_text: "- **[User Prompt MCP](https://github.com/nazar256/user-prompt-mcp)** - An MCP server for Cursor that enables requesting user input during generation process."
+        confidence: high
+metadata:
+  github:
+    stars: 21
+    forks: 4
+    license: MIT
+    archived: false
+    created_at: "2025-03-31T19:27:27Z"
+    pushed_at: "2025-04-02T11:13:30Z"
+    description: A Model Context Protocol (MCP) server for Cursor that enables requesting user input during generation
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:03:51.625Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:51.625Z"
+      bytes: 3211
+insights:
+  summary: A Model Context Protocol server for Cursor that pauses AI generation to request additional user input via a native OS dialog box.
+  why_it_matters: It allows coding agents to handle ambiguity interactively without ending the generation context, bridging the gap between autonomous coding and human decision-making.
+  mental_damage: We have successfully built a tool to ask the human what they meant, proving that the 'autonomous' agent still needs a babysitter with a GUI dialog box.
+  tags:
+    - mcp
+    - cursor
+    - interactive
+    - context
+  confidence: high
+curation:
+  status: included
+  reason: The project is a standalone MCP server designed to extend the capabilities of Cursor and other MCP-compatible clients.
+  evidence:
+    - Repo description explicitly states it is 'A Model Context Protocol (MCP) server for Cursor'.
+    - README confirms it 'implements an MCP server that allows Cursor... to request additional input'.
+    - Listed in the 'awesome-mcp-servers' directory under 'Community Servers'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.709Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:51.625Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:40:01.940Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

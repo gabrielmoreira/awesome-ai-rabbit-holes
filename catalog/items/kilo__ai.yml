@@ -1,0 +1,77 @@
+id: kilo__ai
+kind: website
+name: kilo.ai
+canonical_url: https://kilo.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__kilo__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Code Editors and Assistants
+        anchor_text: Kilo Code
+        extracted_url: https://kilocode.ai
+        surrounding_text: "- **[Kilo Code](https://kilocode.ai)** – Open-source VS Code extension supporting 500+ models at zero API markup, a superset of Cline/Roo Code."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: An open-source AI coding agent that integrates with VS Code, JetBrains, and CLI to write, refactor, debug, and review code using 500+ models with a local-first approach.
+  why_it_matters: It offers developers a transparent, model-agnostic alternative to closed-loop coding assistants, letting teams bring their own keys and inspect every prompt directly inside their existing IDEs.
+  mental_damage: Now you can agonize over choosing one of five hundred models every time you toggle between 'Architect' and 'Debug' mode, ensuring your workflow paralysis is as locally hosted as your code.
+  tags:
+    - coding-agent
+    - ide-extension
+    - open-source
+    - local-first
+    - cli
+  confidence: high
+curation:
+  status: included
+  reason: The product is a developer-facing coding assistant that directly plans, writes, edits, reviews, and debugs code inside a repo, IDE, and CLI workflow, fitting the coding-agents definition perfectly.
+  evidence:
+    - Scraped site title identifies it as 'The Open Source AI Coding Agent for VS Code, JetBrains, and your CLI'.
+    - Site excerpt details 'Code Mode', 'Architect Mode', and 'Debug Mode' for working directly on a codebase.
+    - Featured in awesome-ai-coding-tools under 'Code Editors and Assistants'.
+placement:
+  primary_category: coding-agents
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.728Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:45:50.016Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

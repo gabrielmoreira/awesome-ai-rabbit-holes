@@ -1,0 +1,77 @@
+id: respan__ai
+kind: website
+name: respan.ai
+canonical_url: https://respan.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__respan__ai__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - LLMOps
+        anchor_text: Keywords AI
+        extracted_url: https://keywordsai.co
+        surrounding_text: "| [Keywords AI](https://keywordsai.co/)                              | A unified DevOps platform for AI software. Keywords AI makes it easy for developers to build LLM applications.                                                                                                                                                                                                                                                                                          |                                                                                                           |"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Respan is a hosted LLM engineering platform that unifies observability, evaluations, prompt optimization, and a gateway for AI agents and applications.
+  why_it_matters: It provides developers with end-to-end tracing, evaluation workflows, and prompt versioning to diagnose behavior shifts and manage model deployments without building custom infrastructure.
+  mental_damage: We’ve successfully abstracted the chaos of AI development into a dashboard that proves our agents are confidently drifting exactly on schedule.
+  tags:
+    - llm-ops
+    - observability
+    - evals
+    - prompt-optimization
+    - gateway
+  confidence: high
+curation:
+  status: included
+  reason: Respan is an operational platform focused on measuring, tracing, and evaluating agent behavior and prompt performance, which aligns directly with the Evaluations and Benchmarks category.
+  evidence:
+    - Listed in Awesome-LLMOps under 'LLMOps' for unifying observability, evals, prompt optimization, and LLM gateway.
+    - Platform features explicitly center on tracing, evaluating, and monitoring AI agents with custom metrics and online evaluations.
+    - Marketing positions it as 'self-driving AI observability and evals for agents' with dedicated evaluate and monitor workflows.
+placement:
+  primary_category: evals
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.730Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:47:41.594Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

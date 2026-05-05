@@ -1,0 +1,76 @@
+id: www__ability__ai
+kind: website
+name: www.ability.ai
+canonical_url: https://www.ability.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__ability__ai__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Ability AI
+        anchor_text: Ability AI
+        extracted_url: https://ability.ai
+        surrounding_text: "## [Ability AI](https://ability.ai/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Ability.ai is a consultancy and solution provider that builds custom, technology-agnostic agentic AI automation systems for business workflows, with an emphasis on no platform fees and client-owned infrastructure.
+  why_it_matters: It represents a services-led approach to deploying agentic workflows, contrasting with platform subscription models, though it functions as a vendor rather than a developer tool.
+  mental_damage: Just when you thought you could automate your way out of a job, you realize you've just hired a consultancy to build the automation for you.
+  tags:
+    - agents
+    - consultancy
+    - automation
+    - enterprise
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a service and consultancy offering (agentic automation as a service), not a developer tool, agent framework, or code-first product that a developer installs or imports.
+  evidence:
+    - Site positions itself as a 'solution provider' building custom systems for clients, not a product the developer uses directly.
+    - Business model is fixed-cost projects and strategy calls, not a software license, SDK, or hosted developer tool.
+    - Appears in awesome-ai-agents lists, but the listing describes a service provider rather than a usable agent framework or tool.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.731Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:49:22.791Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

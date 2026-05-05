@@ -1,0 +1,92 @@
+id: github__ofodevelopment__cerebrochain-mcp-server
+kind: github-repo
+name: cerebrochain-mcp-server
+canonical_url: https://github.com/ofodevelopment/cerebrochain-mcp-server
+identity:
+  github_repo: ofodevelopment/cerebrochain-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__ofodevelopment__cerebrochain-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🛒 <a name="e-commerce"></a>E-Commerce
+        anchor_text: OFODevelopment/cerebrochain-mcp-server
+        extracted_url: https://github.com/ofodevelopment/cerebrochain-mcp-server
+        surrounding_text: "- [OFODevelopment/cerebrochain-mcp-server](https://github.com/OFODevelopment/cerebrochain-mcp-server) [![OFODevelopment/cerebrochain-mcp-server MCP server](https://glama.ai/mcp/servers/OFODevelopment/cerebrochain-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/OFODevelopment/cerebrochain-mcp-server) 📇 ☁️ - Supply chain & logistics intelligence — rate shopping across 85+ carriers, inventory management, order tracking, fleet logistics, and AI-powered demand forecasting. 20 tools and 3 resources for warehouse and supply chain operations."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-04-03T01:18:59Z"
+    pushed_at: "2026-04-24T04:39:09Z"
+    description: The first logistics/WMS MCP server for AI agents. Rate shopping, inventory, orders, fleet tracking, AI forecasting. 13+ tools, free tier + x402 paid tier.
+    homepage: https://cerebrochain.com
+    topics:
+      - ai-agent
+      - cerebrochain
+      - claude
+      - logistics
+      - mcp
+      - model-context-protocol
+      - supply-chain
+      - warehouse-management
+      - wms
+      - x402
+    last_checked_at: "2026-05-05T21:04:00.353Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:00.353Z"
+      bytes: 3684
+insights:
+  summary: An MCP server that exposes logistics, warehouse management, and supply chain APIs as tools for AI agents in environments like Claude Desktop and Cursor.
+  why_it_matters: Developers building AI agents for e-commerce or logistics workflows can plug in rate shopping, inventory tracking, and demand forecasting tools without writing custom API integrations.
+  mental_damage: We have officially entered the era where 'compare shipping rates' is a tool an AI agent invokes while you stare at a terminal wondering when you became the IT person for a digital supply chain.
+  tags:
+    - mcp
+    - logistics
+    - wms
+    - supply-chain
+    - ai-agent
+  confidence: medium
+curation:
+  status: included
+  reason: The repository is a straightforward Model Context Protocol server implementation that exposes proprietary logistics APIs as tools for MCP-compatible AI clients.
+  evidence:
+    - Repo description explicitly states 'The first logistics/WMS MCP server for AI agents.'
+    - README documents configuration for Claude Desktop and Cursor and lists 13+ MCP tools like compare_shipping_rates and search_inventory.
+    - Listed in awesome-mcp-servers under 'Server Implementations > E-Commerce'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.442Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:00.353Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:41:49.031Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

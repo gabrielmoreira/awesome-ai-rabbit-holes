@@ -1,0 +1,75 @@
+id: www__manag__ai
+kind: website
+name: www.manag.ai
+canonical_url: https://www.manag.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__manag__ai__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - LLMOps
+        anchor_text: Manag.ai
+        extracted_url: https://www.manag.ai
+        surrounding_text: "| [Manag.ai](https://www.manag.ai)                                   | Your all-in-one prompt management and observability platform. Craft, track, and perfect your LLM prompts with ease.                                                                                                                                                                                                                                                                                     |                                                                                                           |"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Manag.ai is a tool listed in Awesome-LLMOps focused on LLM operations.
+  why_it_matters: It provides developers with infrastructure for managing the operational lifecycle of large language models in production environments.
+  mental_damage: Yet another entry in the rapidly expanding LLMOps ecosystem, ensuring you'll spend more time configuring the management layer than actually building the product.
+  tags:
+    - llmops
+    - infrastructure
+    - management
+  confidence: low
+curation:
+  status: excluded
+  reason: The project provides no public description, README, repo context, or functional details beyond a URL, making it impossible to verify a developer-tooling fit or distinguish it from generic Ops noise.
+  evidence:
+    - No repo description, README, or scraped site context provided to explain what the tool actually does.
+    - Appears in Awesome-LLMOps, but that alone is insufficient without concrete product details.
+    - All metadata (stars, license, created/pushed dates) are unknown or unavailable.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.733Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:51:52.607Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

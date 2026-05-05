@@ -1,0 +1,80 @@
+id: github__isiahw1__mcp-server-bing-webmaster
+kind: github-repo
+name: mcp-server-bing-webmaster
+canonical_url: https://github.com/isiahw1/mcp-server-bing-webmaster
+identity:
+  github_repo: isiahw1/mcp-server-bing-webmaster
+provenance:
+  discoveries:
+    - id: discovery__github__isiahw1__mcp-server-bing-webmaster__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: Bing Webmaster Tools
+        extracted_url: https://github.com/isiahw1/mcp-server-bing-webmaster
+        surrounding_text: "- **[Bing Webmaster Tools](https://github.com/isiahw1/mcp-server-bing-webmaster)** - MCP server for Bing Webmaster Tools API integration providing access to search analytics, site management, URL submission, and SEO insights"
+        confidence: high
+metadata:
+  github:
+    stars: 13
+    forks: 6
+    license: MIT
+    archived: false
+    created_at: "2025-07-06T07:32:55Z"
+    pushed_at: "2026-02-10T01:42:33Z"
+    description: MCP server providing access to Bing Webmaster Tools API endpoints for SEO management and analytics
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:47.480Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:47.480Z"
+      bytes: 12620
+insights:
+  summary: An MCP server that exposes Bing Webmaster Tools API endpoints so that Claude, Cursor, and other MCP-compatible assistants can manage SEO tasks, traffic analytics, and sitemaps directly from the development environment.
+  why_it_matters: It lets developers query search performance, submit URLs, and manage sitemaps through their AI assistant instead of switching to the Bing web console.
+  mental_damage: We have officially reached the point where an AI agent now needs its own API key just to argue with Bing about your sitemap.
+  tags:
+    - mcp
+    - seo
+    - bing
+    - integrations
+  confidence: high
+curation:
+  status: included
+  reason: The primary artifact is a standalone MCP server designed to integrate Bing Webmaster Tools into MCP-compatible clients, which clearly fits the MCP category.
+  evidence:
+    - "Repo description explicitly states: 'MCP server providing access to Bing Webmaster Tools API endpoints'"
+    - README confirms full MCP compliance and provides setup examples for Claude, Cursor, and Windsurf
+    - Listed in awesome-mcp-servers under 'Community Servers'
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.698Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:47.480Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:26:50.240Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

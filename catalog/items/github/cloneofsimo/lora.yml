@@ -1,0 +1,86 @@
+id: github__cloneofsimo__lora
+kind: github-repo
+name: lora
+canonical_url: https://github.com/cloneofsimo/lora
+identity:
+  github_repo: cloneofsimo/lora
+provenance:
+  discoveries:
+    - id: discovery__github__cloneofsimo__lora__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Training
+          - Foundation Model Fine Tuning
+        anchor_text: Lora
+        extracted_url: https://github.com/cloneofsimo/lora
+        surrounding_text: "| [Lora](https://github.com/cloneofsimo/lora)                                | Using Low-rank adaptation to quickly fine-tune diffusion models.                                                                                                                                 | ![GitHub Badge](https://img.shields.io/github/stars/cloneofsimo/lora.svg?style=flat-square)                |"
+        confidence: high
+metadata:
+  github:
+    stars: 7536
+    forks: 495
+    license: Apache-2.0
+    archived: false
+    created_at: "2022-12-08T00:09:05Z"
+    pushed_at: "2024-03-22T03:48:10Z"
+    description: Using Low-rank adaptation to quickly fine-tune diffusion models.
+    homepage: https://arxiv.org/abs/2106.09685
+    topics:
+      - diffusion
+      - dreambooth
+      - fine-tuning
+      - lora
+      - stable-diffusion
+    last_checked_at: "2026-05-05T21:01:36.264Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:36.264Z"
+      bytes: 18303
+insights:
+  summary: A repository implementing Low-Rank Adaptation (LoRA) to fine-tune Stable Diffusion text-to-image models quickly with significantly smaller output files.
+  why_it_matters: It allows developers working with diffusion models to iterate on fine-tuning up to twice as fast as Dreambooth while producing shareable 1-6MB model weights.
+  mental_damage: Yet another reminder that while we are busy figuring out how to prompt an LLM to write a CRUD app, the image generation crowd has already solved rapid, lightweight model specialization and moved on to merging checkpoints for fun.
+  tags:
+    - lora
+    - stable-diffusion
+    - fine-tuning
+    - diffusion-models
+  confidence: high
+curation:
+  status: excluded
+  reason: Excluded because it is a model fine-tuning implementation for generative image models, lacking a software-developer tooling angle (IDE, coding agent, app builder, etc.).
+  evidence:
+    - "Repo description explicitly states: 'Using Low-rank adaptation to quickly fine-tune diffusion models.'"
+    - README focuses entirely on Stable Diffusion fine-tuning, Pivotal Tuning Inversion, and image generation workflows.
+    - GitHub topics include diffusion, dreambooth, and stable-diffusion, with no developer-tooling tags.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (7536) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.682Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:36.264Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:13:28.708Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

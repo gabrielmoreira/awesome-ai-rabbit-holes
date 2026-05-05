@@ -1,0 +1,82 @@
+id: github__alimuratkuslu__byok-observability-mcp
+kind: github-repo
+name: byok-observability-mcp
+canonical_url: https://github.com/alimuratkuslu/byok-observability-mcp
+identity:
+  github_repo: alimuratkuslu/byok-observability-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__alimuratkuslu__byok-observability-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📊 <a name="monitoring"></a>Monitoring
+        anchor_text: alimuratkuslu/byok-observability-mcp
+        extracted_url: https://github.com/alimuratkuslu/byok-observability-mcp
+        surrounding_text: "- [alimuratkuslu/byok-observability-mcp](https://github.com/alimuratkuslu/byok-observability-mcp) [![alimuratkuslu/byok-observability-mcp MCP server](https://glama.ai/mcp/servers/alimuratkuslu/byok-observability-mcp/badges/score.svg)](https://github.com/alimuratkuslu/byok-observability-mcp) 📇 🏠 ☁️ 🍎 🪟 🐧 - Comprehensive MCP server for Grafana, Prometheus, Kafka UI, and Datadog with a secure \"Bring Your Own Key\" or BYOK model."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-04-11T21:28:42Z"
+    pushed_at: "2026-04-13T15:10:16Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:00:59.763Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:59.763Z"
+      bytes: 20639
+insights:
+  summary: An MCP server that lets developers query Grafana, Prometheus, Kafka UI, and Datadog from Claude Code or Codex CLI without sending data outside their machine.
+  why_it_matters: It lets developers interrogate their own observability stack directly from a coding agent, cutting out the context-switch to dashboards during debugging.
+  mental_damage: You can now debug your Prometheus queries with an LLM that occasionally hallucinates metric names, while confidently telling yourself this is definitely more efficient than opening Grafana.
+  tags:
+    - mcp
+    - observability
+    - grafana
+    - prometheus
+    - datadog
+  confidence: high
+curation:
+  status: included
+  reason: The project is itself an MCP server purpose-built to expose observability backends as tools to MCP-compatible coding clients.
+  evidence:
+    - README states it is an MCP server queried from Claude Code and Codex CLI via npx.
+    - Listed under Server Implementations > Monitoring in the awesome-mcp-servers directory.
+    - Supports Grafana, Prometheus, Kafka UI, and Datadog as configurable backends.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.678Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:59.763Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:07:38.052Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,101 @@
+id: github__eli64s__readme-ai
+kind: github-repo
+name: readme-ai
+canonical_url: https://github.com/eli64s/readme-ai
+identity:
+  github_repo: eli64s/readme-ai
+provenance:
+  discoveries:
+    - id: discovery__github__eli64s__readme-ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Documentation
+        anchor_text: README-AI
+        extracted_url: https://github.com/eli64s/readme-ai
+        surrounding_text: "- **[README-AI](https://github.com/eli64s/readme-ai)** – AI tool for creating professional README files automatically."
+        confidence: high
+metadata:
+  github:
+    stars: 2894
+    forks: 283
+    license: MIT
+    archived: false
+    created_at: "2023-01-16T19:47:17Z"
+    pushed_at: "2026-04-26T00:59:15Z"
+    description: README file generator, powered by AI.
+    homepage: https://eli64s.github.io/readme-ai/
+    topics:
+      - agents
+      - ai
+      - ai-agents
+      - ai-documentation
+      - anthropic
+      - badge-generator
+      - cli
+      - developer-tools
+      - devtools
+      - documentation
+      - documentation-generator
+      - gemini
+      - gpt
+      - markdown
+      - markdown-generator
+      - python
+      - readme
+      - readme-generator
+      - readme-md-generator
+      - readme-template
+    last_checked_at: "2026-05-05T21:02:01.451Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:01.451Z"
+      bytes: 38921
+insights:
+  summary: A CLI tool that analyzes a repository or local codebase and generates a structured README file using various LLM providers including OpenAI, Anthropic, Gemini, and local Ollama models.
+  why_it_matters: It automates the tedious process of bootstrapping and maintaining documentation, allowing developers to generate consistent, detailed READMEs with a single command.
+  mental_damage: We now have AI agents writing the documentation for projects that the AI agents also wrote, ensuring the README is just as overconfident as the code itself.
+  tags:
+    - documentation
+    - cli
+    - readme-generator
+    - llm
+    - python
+  confidence: high
+curation:
+  status: included
+  reason: It is a developer tool that directly operates on a codebase via the CLI to generate and manipulate source files (READMEs), fitting the terminal agent profile.
+  evidence:
+    - "Repo description explicitly states: 'README file generator, powered by AI.'"
+    - "README claims: 'Simply provide a URL or path to your codebase, and a well-structured and detailed README will be generated.'"
+    - Listed in 'awesome-ai-coding-tools' under the Documentation section.
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (2894) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.686Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:01.451Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:17:50.130Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

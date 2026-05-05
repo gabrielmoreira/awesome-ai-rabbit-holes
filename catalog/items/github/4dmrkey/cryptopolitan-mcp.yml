@@ -1,0 +1,81 @@
+id: github__4dmrkey__cryptopolitan-mcp
+kind: github-repo
+name: cryptopolitan-mcp
+canonical_url: https://github.com/4dmrkey/cryptopolitan-mcp
+identity:
+  github_repo: 4dmrkey/cryptopolitan-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__4dmrkey__cryptopolitan-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: 4dmrkey/cryptopolitan-mcp
+        extracted_url: https://github.com/4dmrkey/cryptopolitan-mcp
+        surrounding_text: "- [4dmrkey/cryptopolitan-mcp](https://github.com/4dmrkey/cryptopolitan-mcp) [![4dmrkey/cryptopolitan-mcp MCP server](https://glama.ai/mcp/servers/4dmrkey/cryptopolitan-mcp/badges/score.svg)](https://glama.ai/mcp/servers/4dmrkey/cryptopolitan-mcp) ☁️ - Real-time cryptocurrency news, analysis, and price predictions for AI agents. 5 tools to search 50,000+ articles across 12 categories, filter by asset ticker (120+ coins), and access content with built-in attribution. Free with attribution. SSE and Streamable HTTP transport."
+        confidence: high
+metadata:
+  github:
+    stars: 2
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-04-06T08:04:20Z"
+    pushed_at: "2026-04-12T12:38:11Z"
+    description: Cryptopolitan MCP Server — Real-time crypto news, analysis, and price predictions for AI agents via Model Context Protocol
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:00:44.695Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:44.695Z"
+      bytes: 3149
+insights:
+  summary: An MCP server that exposes Cryptopolitan's crypto news, analysis, and price predictions to AI agents via SSE and Streamable HTTP transports.
+  why_it_matters: It lets developer-configured agents query real-time crypto content with structured filters and attribution, without scraping or parsing the site directly.
+  mental_damage: We have reached the point where crypto news has its own protocol server so your agent can hallucinate price predictions with proper attribution.
+  tags:
+    - mcp
+    - crypto
+    - news-api
+    - agent-tooling
+  confidence: medium
+curation:
+  status: included
+  reason: The project is a standalone MCP server providing crypto news and analysis endpoints for agents, which fits the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description: 'Cryptopolitan MCP Server — Real-time crypto news, analysis, and price predictions for AI agents via Model Context Protocol'"
+    - README defines SSE and Streamable HTTP endpoints and tools such as crypto_get_articles and crypto_search_articles
+    - Listed in awesome-mcp-servers under Finance & Fintech
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.675Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:44.695Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:05:03.564Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,82 @@
+id: github__paritytech__subxt
+kind: github-repo
+name: subxt
+canonical_url: https://github.com/paritytech/subxt
+identity:
+  github_repo: paritytech/subxt
+provenance:
+  discoveries:
+    - id: discovery__github__paritytech__subxt__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: subxt
+        extracted_url: https://github.com/paritytech/subxt
+        surrounding_text: "- [ThomasMarches/substrate-mcp-rs](https://github.com/ThomasMarches/substrate-mcp-rs) 🦀 🏠 - An MCP server implementation to interact with Substrate-based blockchains. Built with Rust and interfacing the [subxt](https://github.com/paritytech/subxt) crate."
+        confidence: high
+metadata:
+  github:
+    stars: 483
+    forks: 293
+    license: NOASSERTION
+    archived: false
+    created_at: "2019-08-05T09:55:57Z"
+    pushed_at: "2026-05-04T03:42:04Z"
+    description: Interact with Substrate based nodes in Rust or WebAssembly
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:04:12.301Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:12.301Z"
+      bytes: 5211
+insights:
+  summary: A Rust library and WebAssembly client for interacting with Substrate-based blockchain nodes, such as Polkadot, to submit transactions and query on-chain data.
+  why_it_matters: It provides developers building in the Polkadot ecosystem with a statically typed, offline-capable interface to handle extrinsics, storage, and runtime APIs without writing boilerplate RPC code.
+  mental_damage: You’ve mastered the Rust type system, only to realize the real boss fight is understanding why your transaction failed because you forgot the specific metadata version of a parachain.
+  tags:
+    - rust
+    - blockchain
+    - substrate
+    - polkadot
+    - wasm
+  confidence: high
+curation:
+  status: excluded
+  reason: While listed in awesome-mcp-servers, the project itself is a general-purpose blockchain SDK/CLI library for Substrate, lacking a direct AI developer tooling angle required for this catalog.
+  evidence:
+    - Repo description and README define it as a Rust library for Substrate/Polkadot nodes, not an AI tool.
+    - Listed in awesome-mcp-servers under 'Finance & Fintech', but the repo content shows no MCP implementation or AI features.
+    - Appears to be a standard blockchain infrastructure SDK rather than a coding assistant, agent, or prompt-driven builder.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (483) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.712Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:12.301Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:43:52.917Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,82 @@
+id: github__dhanji__g3
+kind: github-repo
+name: g3
+canonical_url: https://github.com/dhanji/g3
+identity:
+  github_repo: dhanji/g3
+provenance:
+  discoveries:
+    - id: discovery__github__dhanji__g3__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Terminal-native coding agents
+          - Open Source
+        anchor_text: g3
+        extracted_url: https://github.com/dhanji/g3
+        surrounding_text: "- **[g3](https://github.com/dhanji/g3)** `⭐ 509` — \"Coding AI agent\" in Rust: tool-running, repo interaction, skills system, and provider abstraction."
+        confidence: high
+metadata:
+  github:
+    stars: 509
+    forks: 98
+    license: null
+    archived: false
+    created_at: "2025-09-14T23:04:26Z"
+    pushed_at: "2026-05-02T06:09:46Z"
+    description: experiments in goose
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:01:52.741Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:52.741Z"
+      bytes: 21084
+insights:
+  summary: g3 is a terminal-native AI coding agent built in Rust that plans, writes, and executes code tasks while supporting multiple LLM providers including local models.
+  why_it_matters: It offers developers a self-hosted, provider-agnostic CLI agent with context window management and computer control capabilities for automating coding workflows.
+  mental_damage: Another Rust-based CLI agent enters the ring, because what every developer truly needs is a fourth terminal window debating context compaction strategies while the first three agents are still thinking.
+  tags:
+    - cli
+    - rust
+    - coding-agent
+    - local-llm
+    - terminal
+  confidence: high
+curation:
+  status: included
+  reason: The project is a terminal-native coding agent that directly plans, writes, and executes code tasks for developers, fitting the coding-agents category and its Terminal & CLI Agents section.
+  evidence:
+    - Repo description states 'experiments in goose' and README identifies it as 'a coding AI agent designed to help you complete tasks by writing code and executing commands.'
+    - README details agent architecture including agent engine, context window management, tool system, and support for multiple LLM providers including local llama.cpp models.
+    - Found in the awesome-cli-coding-agents list under the 'Terminal-native coding agents > Open Source' section.
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (509) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.684Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:52.741Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:16:20.301Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

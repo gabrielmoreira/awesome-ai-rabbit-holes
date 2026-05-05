@@ -1,0 +1,107 @@
+id: lmstudio__ai
+kind: website
+name: lmstudio.ai
+canonical_url: https://lmstudio.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__lmstudio__ai__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: janhq/awesome-local-ai
+        url: https://github.com/janhq/awesome-local-ai
+        repository: janhq/awesome-local-ai
+      extraction:
+        mode: parsed
+        section_path:
+          - Inference UI
+        anchor_text: LM Studio
+        extracted_url: https://lmstudio.ai
+        surrounding_text: "- [LM Studio](https://lmstudio.ai/) - Discover, download, and run local LLMs."
+        confidence: high
+    - id: discovery__lmstudio__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Local LLM Tools
+        anchor_text: LM Studio
+        extracted_url: https://lmstudio.ai
+        surrounding_text: "- **[LM Studio](https://lmstudio.ai/)** – Desktop app for discovering, downloading, and running local LLMs with a built-in chat UI and API server."
+        confidence: high
+    - id: discovery__lmstudio__ai__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 推理 Inference
+        anchor_text: LM Studio (`🔥`)
+        extracted_url: https://lmstudio.ai
+        surrounding_text: "12. [LM Studio (`🔥`)](https://lmstudio.ai/): Discover, download, and run local LLMs."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: LM Studio is a desktop application and headless runtime for running large language models locally on your own hardware, providing an OpenAI-compatible API and SDKs for integration.
+  why_it_matters: It allows developers to experiment with and integrate local LLMs like Llama and Gemma into their workflows without sending data to external servers, including support for headless server and CI deployments.
+  mental_damage: Finally, a tool that lets you hoard open-weight models on your laptop with the same fervor as a sysadmin backing up the internet to a hard drive in 2005.
+  tags:
+    - local-ai
+    - llm
+    - inference
+    - offline
+    - desktop
+  confidence: high
+curation:
+  status: included
+  reason: This is a desktop and headless runtime specifically designed for running AI models privately on local hardware, which fits the local-ai category perfectly.
+  evidence:
+    - "Scraped site context explicitly states: 'Run local AI models like gpt-oss, Llama, Gemma, Qwen, and DeepSeek privately on your computer.'"
+    - Includes 'no-gui deployment' and 'llmster' core for deploying on Linux boxes, cloud servers, or CI.
+    - Listed in 'awesome-local-ai' under the 'Inference UI' section and 'awesome-ai-coding-tools' under 'Local LLM Tools'.
+placement:
+  primary_category: local-ai
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.662Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:46:02.025Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

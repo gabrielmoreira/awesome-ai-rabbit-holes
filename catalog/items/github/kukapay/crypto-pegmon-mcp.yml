@@ -1,0 +1,82 @@
+id: github__kukapay__crypto-pegmon-mcp
+kind: github-repo
+name: crypto-pegmon-mcp
+canonical_url: https://github.com/kukapay/crypto-pegmon-mcp
+identity:
+  github_repo: kukapay/crypto-pegmon-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__kukapay__crypto-pegmon-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: kukapay/crypto-pegmon-mcp
+        extracted_url: https://github.com/kukapay/crypto-pegmon-mcp
+        surrounding_text: "- [kukapay/crypto-pegmon-mcp](https://github.com/kukapay/crypto-pegmon-mcp) 🐍 ☁️ -  Tracking stablecoin peg integrity across multiple blockchains."
+        confidence: high
+metadata:
+  github:
+    stars: 4
+    forks: 4
+    license: MIT
+    archived: false
+    created_at: "2025-05-05T15:06:13Z"
+    pushed_at: "2025-05-05T17:42:56Z"
+    description: An MCP server that tracks stablecoin peg integrity across multiple blockchains.
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:03:10.236Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:10.236Z"
+      bytes: 5540
+insights:
+  summary: An MCP server that provides AI agents with tools to monitor stablecoin prices, calculate peg deviation, and generate stability reports across multiple blockchains.
+  why_it_matters: It gives AI agents structured, real-time crypto market data so they can proactively detect depegging risks without relying on the developer to manually check dashboards.
+  mental_damage: We have finally automated the vigilance required to notice that the digital casino chips are briefly worth slightly less than a dollar.
+  tags:
+    - mcp
+    - crypto
+    - stablecoin
+    - fintech
+    - server
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server providing tooling for the Model Context Protocol, fitting cleanly into the MCP infrastructure category.
+  evidence:
+    - "Repo description states: 'An MCP server that tracks stablecoin peg integrity across multiple blockchains.'"
+    - README confirms it 'provides four tools, accessible via the MCP interface' for price and stability data.
+    - Listed in the 'awesome-mcp-servers' directory under 'Server Implementations > Finance & Fintech'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.702Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:10.236Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:31:52.689Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,100 @@
+id: github__mpaepper__llm_agents
+kind: github-repo
+name: llm_agents
+canonical_url: https://github.com/mpaepper/llm_agents
+identity:
+  github_repo: mpaepper/llm_agents
+provenance:
+  discoveries:
+    - id: discovery__github__mpaepper__llm_agents__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - LLM Agents
+        anchor_text: LLM Agents
+        extracted_url: https://github.com/mpaepper/llm_agents
+        surrounding_text: "## [LLM Agents](https://github.com/mpaepper/llm_agents)"
+        confidence: high
+    - id: discovery__github__mpaepper__llm_agents__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Other LLM Frameworks
+        anchor_text: LLM Agents
+        extracted_url: https://github.com/mpaepper/llm_agents
+        surrounding_text: "- [LLM Agents](https://github.com/mpaepper/llm_agents): Build agents which are controlled by LLMs ![GitHub Repo stars](https://img.shields.io/github/stars/mpaepper/llm_agents?style=social)"
+        confidence: high
+metadata:
+  github:
+    stars: 1041
+    forks: 85
+    license: MIT
+    archived: false
+    created_at: "2023-04-04T21:25:35Z"
+    pushed_at: "2025-06-23T14:01:18Z"
+    description: Build agents which are controlled by LLMs
+    homepage: https://www.paepper.com/blog/posts/intelligent-agents-guided-by-llms/
+    topics:
+      - deep-learning
+      - langchain
+      - llms
+      - machine-learning
+    last_checked_at: "2026-05-05T21:03:47.620Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:47.620Z"
+      bytes: 2750
+insights:
+  summary: A minimal Python library for building LLM-controlled agents with custom tools, implemented as a simplified, from-scratch alternative to LangChain.
+  why_it_matters: It provides developers with a transparent, few-hundred-line reference implementation for understanding and customizing the Thought-Action-Observation agent loop without LangChain's abstraction layers.
+  mental_damage: Because what the modern developer truly needs is yet another from-scratch agent framework to debate whether the ReAct loop is best implemented in 400 lines of Python or 300 lines of TypeScript.
+  tags:
+    - agents
+    - langchain
+    - llm
+    - python
+    - framework
+  confidence: high
+curation:
+  status: included
+  reason: It is a code-first library/framework for building LLM agents, fitting the ai-frameworks category rather than an end-user orchestration platform or coding assistant.
+  evidence:
+    - Repo description states 'Build agents which are controlled by LLMs' and README describes it as a 'small library'.
+    - README explicitly positions it as a from-scratch alternative to LangChain for building custom agent tools in Python.
+    - Listed in awesome-langchain under 'Other LLM Frameworks', confirming its identity as a developer framework.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1041) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.669Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:47.620Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:39:14.624Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,99 @@
+id: github__hifriendbot__cogmemai-mcp
+kind: github-repo
+name: cogmemai-mcp
+canonical_url: https://github.com/hifriendbot/cogmemai-mcp
+identity:
+  github_repo: hifriendbot/cogmemai-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__hifriendbot__cogmemai-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: hifriendbot/cogmemai-mcp
+        extracted_url: https://github.com/hifriendbot/cogmemai-mcp
+        surrounding_text: "- [hifriendbot/cogmemai-mcp](https://github.com/hifriendbot/cogmemai-mcp) 📇 ☁️ 🍎 🪟 🐧 - Persistent cognitive memory for Claude Code. Cloud-first with semantic search, AI-powered extraction, and project scoping. Zero local databases."
+        confidence: high
+metadata:
+  github:
+    stars: 4
+    forks: 2
+    license: MIT
+    archived: false
+    created_at: "2026-02-18T17:13:27Z"
+    pushed_at: "2026-04-28T17:44:15Z"
+    description: CogmemAi — Cognitive Memory for Any Ai System. Autonomous robots, self-driving vehicles, defense systems, coding assistants, and more. 91% LoCoMo benchmark — above human performance.
+    homepage: https://hifriendbot.com/developer/
+    topics:
+      - ai-agent
+      - ai-memory
+      - chatgpt
+      - claude-code
+      - cline
+      - cognitive-memory
+      - cursor
+      - developer-tools
+      - encryption
+      - knowledge-graph
+      - mcp
+      - mcp-server
+      - memory
+      - model-context-protocol
+      - openai
+      - persistent-memory
+      - semantic-search
+      - windsurf
+    last_checked_at: "2026-05-05T21:02:33.793Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:33.793Z"
+      bytes: 26143
+insights:
+  summary: An MCP server that provides persistent, autonomous memory storage for AI coding assistants and other agents, capturing context across sessions and devices.
+  why_it_matters: It automates the capture of coding decisions and context so developers don't lose architectural rationale when switching editors or starting new sessions.
+  mental_damage: We've reached the point where our AI assistants need their own autonomous infrastructure to remember what we did two hours ago, because apparently the assistant is too busy coding to remember it did the coding.
+  tags:
+    - mcp
+    - memory
+    - knowledge-graph
+    - context-engineering
+  confidence: medium
+curation:
+  status: included
+  reason: The product is explicitly an MCP server providing memory infrastructure for AI systems, fitting the MCP Servers and Tooling category.
+  evidence:
+    - Repo topics include 'mcp-server' and 'model-context-protocol', with the name 'cogmemai-mcp'.
+    - README details the 'Remote MCP — Zero Install' feature using Streamable HTTP transport at hifriendbot.com/mcp/.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Knowledge & Memory'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.691Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:33.793Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:23:56.124Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

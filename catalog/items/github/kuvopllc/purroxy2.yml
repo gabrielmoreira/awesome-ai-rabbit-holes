@@ -1,0 +1,92 @@
+id: github__kuvopllc__purroxy2
+kind: github-repo
+name: purroxy2
+canonical_url: https://github.com/kuvopllc/purroxy2
+identity:
+  github_repo: kuvopllc/purroxy2
+provenance:
+  discoveries:
+    - id: discovery__github__kuvopllc__purroxy2__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📂 <a name="browser-automation"></a>Browser Automation
+        anchor_text: KuvopLLC/purroxy2
+        extracted_url: https://github.com/kuvopllc/purroxy2
+        surrounding_text: "- [KuvopLLC/purroxy2](https://github.com/KuvopLLC/purroxy2) [![purroxy MCP server](https://glama.ai/mcp/servers/KuvopLLC/purroxy2/badges/score.svg)](https://glama.ai/mcp/servers/KuvopLLC/purroxy2) 📇 🏠 🍎 🪟 🐧 - Record what you do on any website and securely automate it forever. Replays browser actions in headless Playwright with encrypted credentials and AI-powered selector healing."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 1
+    license: Apache-2.0
+    archived: false
+    created_at: "2026-04-09T11:33:37Z"
+    pushed_at: "2026-05-05T12:37:46Z"
+    description: null
+    homepage: https://purroxy.com/
+    topics:
+      - ai
+      - anthropic
+      - automation
+      - browser-automation
+      - claude
+      - desktop-app
+      - electron
+      - mcp
+      - mcp-server
+      - playwright
+    last_checked_at: "2026-05-05T21:03:13.887Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:13.887Z"
+      bytes: 2694
+insights:
+  summary: An Electron-based desktop app that records browser sessions and exposes them as MCP tools for Claude Desktop to replay automated workflows against sites behind login walls.
+  why_it_matters: It lets developers securely delegate repetitive authenticated web tasks to Claude without ever sharing credentials, bridging local browser automation with MCP-based agent workflows.
+  mental_damage: "We’ve finally achieved the dream: an encrypted vault so Claude can politely click through your timesheets while you pretend you’re still doing it yourself."
+  tags:
+    - mcp
+    - browser-automation
+    - claude
+    - electron
+    - desktop-app
+  confidence: medium
+curation:
+  status: included
+  reason: The product is an MCP server and desktop client that records browser actions and exposes them as callable tools for Claude via the Model Context Protocol, fitting the MCP infrastructure scope.
+  evidence:
+    - "README states: 'Purroxy connects to Claude Desktop via MCP. One-click setup in Settings. Your capabilities become tools Claude can call.'"
+    - GitHub topics include mcp and mcp-server, and it is listed under 'Browser Automation' in awesome-mcp-servers.
+    - README describes it as 'Record what you do on any website. Securely automate it forever.' via an Electron desktop app.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.703Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:13.887Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:32:38.419Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

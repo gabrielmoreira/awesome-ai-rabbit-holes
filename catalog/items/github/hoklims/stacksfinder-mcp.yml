@@ -1,0 +1,81 @@
+id: github__hoklims__stacksfinder-mcp
+kind: github-repo
+name: stacksfinder-mcp
+canonical_url: https://github.com/hoklims/stacksfinder-mcp
+identity:
+  github_repo: hoklims/stacksfinder-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__hoklims__stacksfinder-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: hoklims/stacksfinder-mcp
+        extracted_url: https://github.com/hoklims/stacksfinder-mcp
+        surrounding_text: "- [hoklims/stacksfinder-mcp](https://github.com/hoklims/stacksfinder-mcp) 📇 🏠 🍎 🪟 🐧 - Deterministic tech stack recommendations with 6-dimension scoring. Analyze, compare technologies, get optimal stack suggestions for any project type. 10 tools (4 free, 6 Pro)."
+        confidence: high
+metadata:
+  github:
+    stars: 8
+    forks: 2
+    license: MIT
+    archived: false
+    created_at: "2025-12-31T17:49:26Z"
+    pushed_at: "2026-01-29T05:14:01Z"
+    description: MCP server for StacksFinder - deterministic tech stack recommendations for LLM clients
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:35.429Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:35.429Z"
+      bytes: 15406
+insights:
+  summary: An MCP server that provides deterministic tech stack recommendations to LLM clients like Claude, Cursor, and Windsurf via 23 tools.
+  why_it_matters: It turns vague 'what stack should I use' prompts into structured, deterministic recommendations directly inside your AI coding assistant.
+  mental_damage: We have successfully abstracted the 'which framework is best' debate into a plugin that lets your AI assistant confidently hallucinate with an API key.
+  tags:
+    - mcp
+    - tech-stack
+    - developer-tools
+    - prompt-engineering
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server providing tooling to LLM clients, which fits the MCP category definition perfectly.
+  evidence:
+    - "Repo description states: 'MCP server for StacksFinder - deterministic tech stack recommendations for LLM clients'"
+    - README confirms it is an MCP server with 23 tools for clients like Claude, Cursor, and Windsurf
+    - Included in awesome-mcp-servers list under 'Developer Tools' section
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.696Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:35.429Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:24:14.407Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

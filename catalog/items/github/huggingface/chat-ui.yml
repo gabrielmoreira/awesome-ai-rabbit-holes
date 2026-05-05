@@ -1,0 +1,105 @@
+id: github__huggingface__chat-ui
+kind: github-repo
+name: chat-ui
+canonical_url: https://github.com/huggingface/chat-ui
+identity:
+  github_repo: huggingface/chat-ui
+provenance:
+  discoveries:
+    - id: discovery__github__huggingface__chat-ui__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: janhq/awesome-local-ai
+        url: https://github.com/janhq/awesome-local-ai
+        repository: janhq/awesome-local-ai
+      extraction:
+        mode: parsed
+        section_path:
+          - Inference UI
+        anchor_text: ChatUI
+        extracted_url: https://github.com/huggingface/chat-ui
+        surrounding_text: "- [ChatUI](https://github.com/huggingface/chat-ui) - Open source codebase powering the HuggingChat app."
+        confidence: high
+    - id: discovery__github__huggingface__chat-ui__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 推理 Inference
+        anchor_text: chat-ui
+        extracted_url: https://github.com/huggingface/chat-ui
+        surrounding_text: "17. [chat-ui](https://github.com/huggingface/chat-ui): Open source codebase powering the HuggingChat app."
+        confidence: high
+metadata:
+  github:
+    stars: 10691
+    forks: 1631
+    license: Apache-2.0
+    archived: false
+    created_at: "2023-02-17T15:31:50Z"
+    pushed_at: "2026-05-04T02:24:00Z"
+    description: The open source codebase powering HuggingChat
+    homepage: https://huggingface.co/chat
+    topics:
+      - chatgpt
+      - hacktoberfest
+      - huggingface
+      - llm
+      - svelte
+      - svelte-kit
+      - sveltekit
+      - tailwindcss
+      - typescript
+    last_checked_at: "2026-05-05T21:02:37.032Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:37.032Z"
+      bytes: 9630
+insights:
+  summary: A SvelteKit-based chat interface that powers HuggingChat and can be self-hosted to interact with any OpenAI-compatible LLM endpoint.
+  why_it_matters: Developers can deploy their own chat front end locally or in production, pointing it at local runtimes like llama.cpp or Ollama to maintain full control over inference and data.
+  mental_damage: Yet another opportunity to spend a weekend dockerizing a chat UI just to ask a 7B model why your build is failing.
+  tags:
+    - chat-ui
+    - sveltekit
+    - local-ai
+    - openai-compatible
+    - self-hosted
+  confidence: high
+curation:
+  status: included
+  reason: It is a developer-deployable chat interface and local-AI front end that connects to local and self-hosted inference endpoints, fitting the local-ai scope.
+  evidence:
+    - Repo description states it is 'The open source codebase powering HuggingChat'.
+    - README confirms it connects to local endpoints like llama.cpp and Ollama via OpenAI-compatible APIs.
+    - Listed under 'Inference UI' in the awesome-local-ai directory.
+placement:
+  primary_category: local-ai
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (10691) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.666Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:37.032Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:24:32.871Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

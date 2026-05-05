@@ -1,0 +1,75 @@
+id: www__coingecko__com__en__api
+kind: website
+name: api
+canonical_url: https://www.coingecko.com/en/api
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__coingecko__com__en__api__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: CoinGecko API
+        extracted_url: https://www.coingecko.com/en/api
+        surrounding_text: "- **[CoinGecko](https://docs.coingecko.com/reference/mcp-server/)** - Official [CoinGecko API](https://www.coingecko.com/en/api) MCP Server for Crypto Price & Market Data, across 200+ blokchain networks and 8M+ tokens."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: CoinGecko provides a REST API for accessing cryptocurrency market data, prices, and metadata.
+  why_it_matters: It offers developers a standard data source for building crypto-related applications, bots, or dashboards.
+  mental_damage: Yet another reminder that while we build autonomous agents to refactor legacy codebases, the most reliable way to make money is still polling a JSON endpoint for the price of Pepe.
+  tags:
+    - api
+    - crypto
+    - data
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a general cryptocurrency data API with no AI-specific functionality, developer tooling angle, or workflow automation relevant to the catalog's scope.
+  evidence:
+    - URL points to a standard crypto market data API (coingecko.com/en/api), not an AI tool.
+    - No repo description, README, or site context suggesting AI, coding agents, or developer workflow features.
+    - Listed only in awesome-mcp-servers as a reference point, not as an actual MCP server implementation.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.732Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:50:15.749Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

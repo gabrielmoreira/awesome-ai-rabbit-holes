@@ -1,0 +1,101 @@
+id: github__hope1026__weppy-roblox-mcp
+kind: github-repo
+name: weppy-roblox-mcp
+canonical_url: https://github.com/hope1026/weppy-roblox-mcp
+identity:
+  github_repo: hope1026/weppy-roblox-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__hope1026__weppy-roblox-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🎮 <a name="gaming"></a>Gaming
+        anchor_text: hope1026/weppy-roblox-mcp
+        extracted_url: https://github.com/hope1026/weppy-roblox-mcp
+        surrounding_text: "- [hope1026/weppy-roblox-mcp](https://github.com/hope1026/weppy-roblox-mcp) [![roblox-mcp MCP server](https://glama.ai/mcp/servers/hope1026/roblox-mcp/badges/score.svg)](https://glama.ai/mcp/servers/hope1026/roblox-mcp) 📇 🏠 🍎 🪟 - MCP server and plugin that lets AI agents (Claude Code, Cursor, Codex, Gemini) directly control a live Roblox Studio session — create scripts, instances, terrain, lighting, and assets via natural language. 21 tools, 140+ actions, bidirectional sync, and automated playtest."
+        confidence: high
+metadata:
+  github:
+    stars: 19
+    forks: 3
+    license: AGPL-3.0
+    archived: false
+    created_at: "2026-01-26T10:55:38Z"
+    pushed_at: "2026-05-05T09:36:45Z"
+    description: Roblox Studio MCP server & plugin for Claude Code, Cursor, Codex, and Gemini. AI-powered scripts, terrain, assets, lighting, and bidirectional project sync.
+    homepage: https://weppyai.com
+    topics:
+      - ai
+      - ai-agents
+      - antigravity
+      - claude
+      - claude-code
+      - codex
+      - cursor
+      - game-development
+      - gemini
+      - luau
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - plugin
+      - roblox
+      - roblox-plugin
+      - roblox-studio
+      - typescript
+      - weppy-roblox-mcp
+    last_checked_at: "2026-05-05T21:02:35.691Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:35.691Z"
+      bytes: 10936
+insights:
+  summary: An MCP server and Roblox Studio plugin that lets AI coding agents like Claude, Cursor, and Codex directly create and edit scripts, terrain, assets, and UI inside a live Roblox Studio session.
+  why_it_matters: It closes the loop between AI code generation and game engine execution by letting agents manipulate the Roblox DataModel in real time, removing the manual copy-paste step for Luau的开发工作。
+  mental_damage: We have finally achieved the dream of watching a language model try to debug a terrain generation script by repeatedly crashing your local game engine at 3 AM.
+  tags:
+    - mcp
+    - roblox
+    - game-dev
+    - luau
+    - ai-agents
+  confidence: high
+curation:
+  status: included
+  reason: The project is an MCP server implementation that bridges AI agents with Roblox Studio, fitting cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states 'Roblox Studio MCP server & plugin'.
+    - README emphasizes 'WEPPY is an MCP server that lets AI coding agents control a live Roblox Studio session'.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Gaming'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.696Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:35.691Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:24:17.472Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

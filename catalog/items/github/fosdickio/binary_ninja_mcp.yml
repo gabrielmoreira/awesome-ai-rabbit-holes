@@ -1,0 +1,80 @@
+id: github__fosdickio__binary_ninja_mcp
+kind: github-repo
+name: binary_ninja_mcp
+canonical_url: https://github.com/fosdickio/binary_ninja_mcp
+identity:
+  github_repo: fosdickio/binary_ninja_mcp
+provenance:
+  discoveries:
+    - id: discovery__github__fosdickio__binary_ninja_mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: Binary Ninja
+        extracted_url: https://github.com/fosdickio/binary_ninja_mcp
+        surrounding_text: "- **[Binary Ninja](https://github.com/fosdickio/binary_ninja_mcp)** - A Binary Ninja plugin, MCP server, and bridge that seamlessly integrates [Binary Ninja](https://binary.ninja) with your favorite MCP client."
+        confidence: high
+metadata:
+  github:
+    stars: 336
+    forks: 71
+    license: GPL-3.0
+    archived: false
+    created_at: "2025-03-28T22:07:55Z"
+    pushed_at: "2026-04-05T19:38:07Z"
+    description: A Binary Ninja plugin containing an MCP server that enables seamless integration with your favorite LLM/MCP client.
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:02:14.060Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:14.060Z"
+      bytes: 20726
+insights:
+  summary: A Binary Ninja plugin that runs an MCP server, exposing reverse engineering capabilities to MCP-compatible LLM clients like Cline, Cursor, and Claude Desktop.
+  why_it_matters: It allows developers to delegate tedious reverse engineering tasks, such as renaming functions and analyzing malware, directly to an LLM within their existing Binary Ninja workflow.
+  mental_damage: We have finally reached the point where the AI is doing the decompiling, the renaming, and the CTF solving, leaving the human to merely watch the progress bar and wonder when 'reversing like a human' became a prompt engineering task.
+  tags:
+    - mcp
+    - reverse-engineering
+    - binary-ninja
+    - security
+  confidence: high
+curation:
+  status: included
+  reason: The project is an MCP server implementation that exposes Binary Ninja's capabilities to LLM clients, fitting the MCP infrastructure category perfectly.
+  evidence:
+    - Repo description explicitly states it is 'A Binary Ninja plugin containing an MCP server'.
+    - README confirms it exposes Binary Ninja capabilities through HTTP endpoints for any MCP client.
+    - Listed in the 'awesome-mcp-servers' directory under 'Community Servers'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (336) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.687Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:14.060Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:20:02.493Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

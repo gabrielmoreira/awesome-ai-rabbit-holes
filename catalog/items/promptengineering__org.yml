@@ -1,0 +1,76 @@
+id: promptengineering__org
+kind: website
+name: promptengineering.org
+canonical_url: https://promptengineering.org
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__promptengineering__org__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 课程 Course
+        anchor_text: Prompt Engineering & AI tutorials & Resources
+        extracted_url: https://promptengineering.org
+        surrounding_text: 45. [Prompt Engineering & AI tutorials & Resources](https://promptengineering.org/)
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: An educational institute and content hub offering tutorials, courses, and articles focused on prompt engineering, agentic workflows, and AI implementation strategies.
+  why_it_matters: It provides developers with structured mental models and frameworks, like the ACE framework, for moving AI workflows from unreliable demos to production-grade systems.
+  mental_damage: Because reading 2,000 words on 'The Polymath’s Renaissance' is definitely the missing step before you can figure out why your JSON schema keeps returning 'null'.
+  tags:
+    - prompt-engineering
+    - education
+    - agentic-workflows
+    - tutorials
+  confidence: high
+curation:
+  status: included
+  reason: This is a content hub and educational site offering tutorials and analysis on AI workflows, fitting the 'publications, newsletters, or feeds' category rather than a developer tool.
+  evidence:
+    - Site title is 'Prompt Engineering Institute' with a description focusing on 'tutorials resources, trends, products, and services'.
+    - Primary page content consists of 'Latest Posts' and 'News' (195 posts) covering topics like the ACE framework and agent playbooks.
+    - Listed in awesome-LLM-resources under the section '课程 Course' (Course), indicating its nature as an educational resource.
+placement:
+  primary_category: newsletters-and-feeds
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.729Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:47:14.213Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

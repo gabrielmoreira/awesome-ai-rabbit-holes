@@ -1,0 +1,82 @@
+id: github__artidoro__qlora
+kind: github-repo
+name: qlora
+canonical_url: https://github.com/artidoro/qlora
+identity:
+  github_repo: artidoro/qlora
+provenance:
+  discoveries:
+    - id: discovery__github__artidoro__qlora__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Training
+          - Foundation Model Fine Tuning
+        anchor_text: QLoRA
+        extracted_url: https://github.com/artidoro/qlora
+        surrounding_text: "| [QLoRA](https://github.com/artidoro/qlora)                                 | Efficient finetuning approach that reduces memory usage enough to finetune a 65B parameter model on a single 48GB GPU while preserving full 16-bit finetuning task performance.                  | ![GitHub Badge](https://img.shields.io/github/stars/artidoro/qlora.svg?style=flat-square)                  |"
+        confidence: high
+metadata:
+  github:
+    stars: 10897
+    forks: 872
+    license: MIT
+    archived: false
+    created_at: "2023-05-11T09:30:23Z"
+    pushed_at: "2024-06-10T19:20:16Z"
+    description: "QLoRA: Efficient Finetuning of Quantized LLMs"
+    homepage: https://arxiv.org/abs/2305.14314
+    topics: []
+    last_checked_at: "2026-05-05T21:01:10.288Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:10.288Z"
+      bytes: 10938
+insights:
+  summary: QLoRA is a research-backed repository and training method that enables efficient fine-tuning of large language models by backpropagating gradients through 4-bit quantized weights into Low Rank Adapters (LoRA).
+  why_it_matters: It allows developers to fine-tune massive models, such as a 65B parameter LLM, on a single 48GB GPU, drastically lowering the hardware barrier to entry for custom model training.
+  mental_damage: Because you can now fine-tune a 65B model on a single consumer-grade card, you no longer have the excuse of 'insufficient infrastructure' to avoid training the chatbot that will inevitably hallucinate your documentation.
+  tags:
+    - fine-tuning
+    - quantization
+    - llm
+    - training
+    - local-ai
+  confidence: high
+curation:
+  status: included
+  reason: The project is a code-first library and methodology for training LLMs, fitting the AI Frameworks category as it provides the building blocks for developers to train models in code rather than operating a hosted SaaS or agent.
+  evidence:
+    - Repo description explicitly states 'Efficient Finetuning of Quantized LLMs'.
+    - README describes integration with Hugging Face PEFT and transformers libraries as a training method.
+    - Listed in Awesome-LLMOps under 'Training > Foundation Model Fine Tuning'.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (10897) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.679Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:10.288Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:09:10.956Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

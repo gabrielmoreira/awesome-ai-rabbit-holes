@@ -1,0 +1,82 @@
+id: github__davidlin2k__pox-mcp-server
+kind: github-repo
+name: pox-mcp-server
+canonical_url: https://github.com/davidlin2k/pox-mcp-server
+identity:
+  github_repo: davidlin2k/pox-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__davidlin2k__pox-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: davidlin2k/pox-mcp-server
+        extracted_url: https://github.com/davidlin2k/pox-mcp-server
+        surrounding_text: "- [davidlin2k/pox-mcp-server](https://github.com/davidlin2k/pox-mcp-server) 🐍 🏠 - MCP server for the POX SDN controller to provides network control and management capabilities."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 5
+    license: MIT
+    archived: false
+    created_at: "2025-03-23T05:06:43Z"
+    pushed_at: "2025-03-24T01:03:19Z"
+    description: A Model Context Protocol (MCP) server for the POX SDN controller
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:01:48.179Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:48.179Z"
+      bytes: 3670
+insights:
+  summary: A Model Context Protocol server that exposes POX SDN controller capabilities for network topology management, flow configuration, and OpenFlow device control via MCP-compatible clients.
+  why_it_matters: It allows developers working with SDN to manage network configurations and analyze topology through AI assistants like Claude Desktop instead of direct POX programming.
+  mental_damage: We’ve successfully abstracted network engineering into yet another protocol layer, so you can now misconfigure an entire software-defined network using natural language prompts.
+  tags:
+    - mcp
+    - sdn
+    - networking
+    - openflow
+    - infrastructure
+  confidence: high
+curation:
+  status: included
+  reason: The project is a dedicated MCP server implementation for POX SDN, fitting cleanly into the MCP servers and tooling category.
+  evidence:
+    - "Repo description explicitly states: 'A Model Context Protocol (MCP) server for the POX SDN controller'"
+    - README details MCP resources, prompts, and tools for POX network management
+    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.684Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:48.179Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:15:36.826Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

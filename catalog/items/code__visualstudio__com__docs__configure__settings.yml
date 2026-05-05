@@ -1,0 +1,76 @@
+id: code__visualstudio__com__docs__configure__settings
+kind: website
+name: settings
+canonical_url: https://code.visualstudio.com/docs/configure/settings
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__code__visualstudio__com__docs__configure__settings__awesome-list__github__awesome-copilot
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: github/awesome-copilot
+        url: https://github.com/github/awesome-copilot
+        repository: github/awesome-copilot
+      extraction:
+        mode: parsed
+        section_path:
+          - 📚 Additional Resources
+        anchor_text: VS Code Settings
+        extracted_url: https://code.visualstudio.com/docs/getstarted/settings
+        surrounding_text: "- [VS Code Settings](https://code.visualstudio.com/docs/getstarted/settings) - General VS Code configuration guide"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Official Visual Studio Code documentation page explaining how to configure User and Workspace settings.
+  why_it_matters: Properly tuned settings control how Copilot, MCP servers, and agent features behave inside VS Code, making this a reference page rather than a tool itself.
+  mental_damage: Another reminder that even with autonomous agents planning our work, we are still debugging JSON config files in a text editor.
+  tags:
+    - vscode
+    - settings
+    - configuration
+    - docs
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a documentation page for Visual Studio Code configuration, not a standalone AI tool, agent, or developer product.
+  evidence:
+    - URL points to code.visualstudio.com/docs/configure/settings, an official docs page
+    - Scraped content is entirely Visual Studio Code settings documentation with no standalone tool or product
+    - Listed in awesome-copilot under 'Additional Resources' as a reference link, not as a tool
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.726Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:42:55.472Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

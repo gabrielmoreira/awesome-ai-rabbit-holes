@@ -1,0 +1,117 @@
+id: github__apache__apisix
+kind: github-repo
+name: apisix
+canonical_url: https://github.com/apache/apisix
+identity:
+  github_repo: apache/apisix
+provenance:
+  discoveries:
+    - id: discovery__github__apache__apisix__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: Apache APISIX
+        extracted_url: https://github.com/apache/apisix
+        surrounding_text: "- [api7/apisix-mcp](https://github.com/api7/apisix-mcp) 🎖️ 📇 🏠 MCP Server that support for querying and managing all resource in [Apache APISIX](https://github.com/apache/apisix)."
+        confidence: high
+    - id: discovery__github__apache__apisix__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: Apache APISIX
+        extracted_url: https://github.com/apache/apisix
+        surrounding_text: "- **[APISIX-MCP](https://github.com/api7/apisix-mcp)** - APISIX Model Context Protocol (MCP) server is used to bridge large language models (LLMs) with the APISIX Admin API, supporting querying and managing all resources in [Apache APISIX](https://github.com/apache/apisix)."
+        confidence: high
+metadata:
+  github:
+    stars: 16555
+    forks: 2851
+    license: Apache-2.0
+    archived: false
+    created_at: "2019-04-10T02:02:05Z"
+    pushed_at: "2026-04-30T10:57:33Z"
+    description: The Cloud-Native API Gateway and AI Gateway
+    homepage: https://apisix.apache.org/blog/
+    topics:
+      - api
+      - api-gateway
+      - api-management
+      - apigateway
+      - apis
+      - apisix
+      - cloud-native
+      - devops
+      - docker
+      - iot
+      - kubernetes
+      - kubernetes-ingress
+      - kubernetes-ingress-controller
+      - loadbalancing
+      - luajit
+      - microservices
+      - nginx
+      - reverse-proxy
+      - serverless
+      - service-mesh
+    last_checked_at: "2026-05-05T21:01:05.210Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:05.210Z"
+      bytes: 17542
+insights:
+  summary: Apache APISIX is a cloud-native API gateway that also functions as an AI gateway, offering LLM proxying, load balancing, and an MCP bridge plugin to convert stdio-based MCP servers to HTTP SSE services.
+  why_it_matters: It provides developers with a production-grade infrastructure layer to manage, secure, and scale AI agent traffic and MCP server endpoints without building custom proxy logic.
+  mental_damage: You now have a robust, enterprise-grade solution to the pressing problem of 'my MCP server is stdin-based and I need it to be HTTP SSE,' which is definitely a sentence that would have sounded insane eighteen months ago.
+  tags:
+    - api-gateway
+    - ai-gateway
+    - mcp
+    - infrastructure
+    - llm-proxy
+  confidence: high
+curation:
+  status: included
+  reason: While primarily an API gateway, the README explicitly highlights its `mcp-bridge` plugin for hosting MCP servers and it is listed in the awesome-mcp-servers directory, making its MCP infrastructure support the strongest fit here.
+  evidence:
+    - README explicitly mentions providing the `mcp-bridge` plugin to convert stdio-based MCP servers to HTTP SSE services.
+    - Listed in the awesome-mcp-servers source list under 'Server Implementations > Developer Tools'.
+    - Repo description identifies it as an 'AI Gateway' with features for AI proxying and LLM load balancing.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (16555) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.663Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:05.210Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:08:27.386Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,88 @@
+id: github__coollabsio__jean
+kind: github-repo
+name: jean
+canonical_url: https://github.com/coollabsio/jean
+identity:
+  github_repo: coollabsio/jean
+provenance:
+  discoveries:
+    - id: discovery__github__coollabsio__jean__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Session managers & parallel runners
+        anchor_text: jean
+        extracted_url: https://github.com/coollabsio/jean
+        surrounding_text: "- **[jean](https://github.com/coollabsio/jean)** `⭐ 893` — Administer multiple projects, worktrees, and sessions with Claude CLI."
+        confidence: high
+metadata:
+  github:
+    stars: 895
+    forks: 92
+    license: Apache-2.0
+    archived: false
+    created_at: "2026-01-23T07:59:41Z"
+    pushed_at: "2026-05-05T14:29:50Z"
+    description: A dev environment for AI agents.
+    homepage: https://jean.build
+    topics:
+      - agent
+      - ai
+      - claude-code
+      - git
+      - parallel
+      - worktree
+    last_checked_at: "2026-05-05T21:01:41.464Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:41.464Z"
+      bytes: 6602
+insights:
+  summary: A native desktop app that provides a unified interface for managing multiple AI coding agents, git worktrees, and chat sessions across projects using Claude CLI, Codex CLI, Cursor CLI, and OpenCode.
+  why_it_matters: It centralizes multi-agent workflows, git worktree automation, and IDE integrations into a single desktop environment, reducing context-switching for developers running several AI assistants in parallel.
+  mental_damage: We have finally reached the point where we need a desktop app just to manage the overlapping identities of our AI coworkers.
+  tags:
+    - desktop-app
+    - multi-agent
+    - worktree
+    - cli
+    - tauri
+  confidence: high
+curation:
+  status: included
+  reason: This is a developer-facing desktop assistant that directly manages, orchestrates, and interacts with multiple coding agents and source code workflows inside a repo, fitting the coding-agents category over a generic orchestration platform.
+  evidence:
+    - Repo description states it is 'A dev environment for AI agents' with topics including agent, git, and worktree.
+    - README confirms it manages Claude CLI, Codex CLI, Cursor CLI, and OpenCode sessions directly on local projects with git operations.
+    - Listed in awesome-cli-coding-agents under 'Session managers & parallel runners', confirming its place in the CLI coding agent ecosystem.
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (895) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.683Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:41.464Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:14:26.440Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

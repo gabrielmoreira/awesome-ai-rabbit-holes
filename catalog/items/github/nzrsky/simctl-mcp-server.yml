@@ -1,0 +1,81 @@
+id: github__nzrsky__simctl-mcp-server
+kind: github-repo
+name: simctl-mcp-server
+canonical_url: https://github.com/nzrsky/simctl-mcp-server
+identity:
+  github_repo: nzrsky/simctl-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__nzrsky__simctl-mcp-server__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: xcsimctl
+        extracted_url: https://github.com/nzrsky/simctl-mcp-server
+        surrounding_text: "- **[xcsimctl](https://github.com/nzrsky/simctl-mcp-server)** - 🍎 Manage Xcode simulators."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2025-05-27T10:39:19Z"
+    pushed_at: "2025-05-27T12:24:41Z"
+    description: iOS simctl MCP server
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:03:57.896Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:57.896Z"
+      bytes: 5123
+insights:
+  summary: An MCP server that exposes iOS Simulator management commands (like boot, install, screenshot, and location mocking) via `xcrun simctl` to AI tools such as Claude Desktop and VS Code.
+  why_it_matters: It allows AI coding agents to automate iOS simulator workflows—booting devices, installing apps, and faking GPS—directly from the chat interface instead of manual CLI tinkering.
+  mental_damage: We have finally reached the point where the AI can boot the simulator for you, sparing you the horrific effort of typing `xcrun simctl boot` into a terminal.
+  tags:
+    - mcp
+    - ios
+    - simulator
+    - developer-tools
+    - apple
+  confidence: medium
+curation:
+  status: included
+  reason: The primary artifact is a Model Context Protocol server designed to integrate iOS simulator management into AI coding workflows, fitting cleanly into the MCP category.
+  evidence:
+    - Repo description explicitly states 'iOS simctl MCP server'.
+    - README details a server implementing the Model Context Protocol to wrap `xcrun simctl` commands for tools like Claude Desktop and VS Code.
+    - Listed in the 'awesome-mcp-servers' directory under 'Community Servers'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.710Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:57.896Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:41:21.723Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

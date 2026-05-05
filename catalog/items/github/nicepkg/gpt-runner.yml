@@ -1,0 +1,89 @@
+id: github__nicepkg__gpt-runner
+kind: github-repo
+name: gpt-runner
+canonical_url: https://github.com/nicepkg/gpt-runner
+identity:
+  github_repo: nicepkg/gpt-runner
+provenance:
+  discoveries:
+    - id: discovery__github__nicepkg__gpt-runner__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - GPT Runner
+        anchor_text: GPT Runner
+        extracted_url: https://github.com/nicepkg/gpt-runner
+        surrounding_text: "## [GPT Runner](https://github.com/nicepkg/gpt-runner)"
+        confidence: high
+metadata:
+  github:
+    stars: 380
+    forks: 47
+    license: MIT
+    archived: false
+    created_at: "2023-05-14T08:06:03Z"
+    pushed_at: "2023-09-11T13:14:48Z"
+    description: Conversations with your files! Manage and run your AI presets!
+    homepage: https://github.com/nicepkg/gpt-runner
+    topics:
+      - ai
+      - anthropic
+      - chatgpt
+      - langchain
+      - llm
+      - openai
+      - prompt
+      - promptengineering
+    last_checked_at: "2026-05-05T21:03:54.276Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:54.276Z"
+      bytes: 8003
+insights:
+  summary: A VSCode extension, CLI, and web UI for managing reusable AI presets and chatting with selected project files using OpenAI or Anthropic models.
+  why_it_matters: It lets developers version-control AI role presets as .gpt.md files and query multiple code files without manually copying them into a chat window.
+  mental_damage: We have officially reached the point where we need a Storybook for our AI prompts, because apparently even our hallucinations deserve proper git history.
+  tags:
+    - ai-presets
+    - vscode-extension
+    - cli
+    - prompt-management
+    - file-chat
+  confidence: medium
+curation:
+  status: included
+  reason: It is a developer-facing assistant that interacts directly with source code files inside a repo via CLI and VSCode, fitting the coding-agents definition.
+  evidence:
+    - "Repo description: 'Conversations with your files! Manage and run your AI presets!'"
+    - "README: 'Select your project files from the file tree. The AI will provide responses based on the most recent contents of those files.'"
+    - Provides both a VSCode Extension and a CLI (`npx gptr`) to chat with local code.
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (380) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.709Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:54.276Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:40:30.213Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

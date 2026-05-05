@@ -1,0 +1,76 @@
+id: getizlo__com
+kind: website
+name: getizlo.com
+canonical_url: https://getizlo.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__getizlo__com__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - LLMOps
+        anchor_text: Izlo
+        extracted_url: https://getizlo.com
+        surrounding_text: "| [Izlo](https://getizlo.com/)                                       | Prompt management tools for teams. Store, improve, test, and deploy your prompts in one unified workspace.                                                                                                                                                                                                                                                                                              |                                                                                                           |"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Izlo is a team-focused prompt management platform that provides version control, collaboration, testing, and API deployment for storing and iterating on AI prompts.
+  why_it_matters: It centralizes prompt engineering workflows into a single workspace with versioning and testing, allowing teams to stop hardcoding prompts in source code and spreadsheets.
+  mental_damage: Now your team can spend three hours remixing a prompt in a dedicated sandbox while the original requirement doc remains a mystery.
+  tags:
+    - prompt-management
+    - llmops
+    - team-collaboration
+    - testing
+  confidence: high
+curation:
+  status: included
+  reason: The product is primarily a prompt-management and context-shaping infrastructure for teams, fitting the context-engineering category's focus on prompt systems and management.
+  evidence:
+    - Site excerpt describes 'Store, improve, test, and deploy your prompts in one unified workspace' with version control and remixes.
+    - Includes a powerful testing suite and API to retrieve prompts for use in applications without redeploying.
+    - Included in Awesome-LLMOps under the LLMOps section for prompt management tools.
+placement:
+  primary_category: context-engineering
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.727Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:44:40.342Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

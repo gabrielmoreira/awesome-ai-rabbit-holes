@@ -1,0 +1,94 @@
+id: github__andyrewlee__amux
+kind: github-repo
+name: amux
+canonical_url: https://github.com/andyrewlee/amux
+identity:
+  github_repo: andyrewlee/amux
+provenance:
+  discoveries:
+    - id: discovery__github__andyrewlee__amux__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Session managers & parallel runners
+        anchor_text: amux
+        extracted_url: https://github.com/andyrewlee/amux
+        surrounding_text: "- **[amux](https://github.com/andyrewlee/amux)** `⭐ 103` — Terminal UI designed for running multiple coding agents in parallel."
+        confidence: high
+metadata:
+  github:
+    stars: 104
+    forks: 2
+    license: MIT
+    archived: false
+    created_at: "2025-12-31T01:57:28Z"
+    pushed_at: "2026-04-13T05:42:13Z"
+    description: TUI for easily running parallel coding agents
+    homepage: ""
+    topics:
+      - agent-coordination
+      - agent-orchestration
+      - agent-swarm
+      - ai-orchestration
+      - conductor
+      - git-worktree
+      - parallel-agents
+      - parallelexecution
+      - terminal-ui
+      - tui
+      - worktree
+      - worktrees
+    last_checked_at: "2026-05-05T21:01:03.683Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:03.683Z"
+      bytes: 3844
+insights:
+  summary: A terminal UI for launching and managing multiple coding agents in parallel across isolated git worktrees using tmux.
+  why_it_matters: It lets developers orchestrate isolated agent sessions across worktrees so multiple AI assistants can work on different branches simultaneously without stepping on each other.
+  mental_damage: You now have a dashboard to watch twelve agents politely disagree with each other in separate tmux panes while your original branch wonders if you're ever coming back.
+  tags:
+    - tui
+    - parallel-agents
+    - tmux
+    - git-worktree
+    - orchestration
+  confidence: high
+curation:
+  status: included
+  reason: It is a user-facing control plane for coordinating multiple coding agents across isolated workspaces, which fits agent-orchestration rather than being a coding agent itself.
+  evidence:
+    - "Repo description explicitly states: 'TUI for easily running parallel coding agents'."
+    - README confirms it launches multiple agents in tmux sessions backed by git worktrees, and works with Claude Code, Codex, Gemini, Amp, and others.
+    - Listed in awesome-cli-coding-agents under 'Harnesses & orchestration > Session managers & parallel runners'.
+placement:
+  primary_category: agent-orchestration
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.678Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:03.683Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:08:10.983Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

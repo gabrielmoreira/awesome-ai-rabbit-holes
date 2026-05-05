@@ -1,0 +1,80 @@
+id: github__pattyboi101__indiestack
+kind: github-repo
+name: indiestack
+canonical_url: https://github.com/pattyboi101/indiestack
+identity:
+  github_repo: pattyboi101/indiestack
+provenance:
+  discoveries:
+    - id: discovery__github__pattyboi101__indiestack__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - 🔎 Search
+        anchor_text: Pattyboi101/indiestack
+        extracted_url: https://github.com/pattyboi101/indiestack
+        surrounding_text: "-   **[Pattyboi101/indiestack](https://github.com/Pattyboi101/indiestack)** [![GitHub stars](https://img.shields.io/github/stars/Pattyboi101/indiestack?style=social)](https://github.com/Pattyboi101/indiestack): Search 130+ indie SaaS tools from your AI coding assistant. Install via `pip install indiestack`."
+        confidence: high
+metadata:
+  github:
+    stars: 2
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2026-02-22T15:12:12Z"
+    pushed_at: "2026-05-05T16:12:10Z"
+    description: Dependency guardrail for AI coding agents — validates packages, catches hallucinations, 6,500+ developer tools. MCP server + CLI + web.
+    homepage: https://indiestack.ai
+    topics: []
+    last_checked_at: "2026-05-05T21:04:13.401Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:13.401Z"
+      bytes: 5452
+insights:
+  summary: An MCP server and CLI that validates packages, catches hallucinations and typosquats, and searches a curated database of 6,500+ developer tools with compatibility intelligence.
+  why_it_matters: It acts as a dependency guardrail for AI coding agents, preventing them from installing hallucinated packages or incompatible tools during autonomous workflows.
+  mental_damage: Your AI agent now has its own supply-chain security team, because apparently the robot can't be trusted to tell the difference between a real package and a fever dream.
+  tags:
+    - mcp
+    - dependency-management
+    - cli
+    - agent-guardrails
+  confidence: medium
+curation:
+  status: included
+  reason: The primary artifact is an MCP server (with CLI fallback) that provides tooling and context to agents via the Model Context Protocol.
+  evidence:
+    - Repo description explicitly states 'MCP server + CLI + web' with 23 MCP tools listed in the README.
+    - Provides `indiestack-mcp` integration specifically for Claude Code, Cursor, and Windsurf via standard MCP configuration.
+    - Seen in the awesome-mcp-list under the Search section, confirming its role as MCP infrastructure.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.712Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:13.401Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:44:03.635Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

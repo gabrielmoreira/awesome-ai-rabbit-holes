@@ -1,0 +1,74 @@
+id: pear__ai
+kind: website
+name: pear.ai
+canonical_url: https://pear.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__pear__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Code Editors and Assistants
+        anchor_text: PearAI
+        extracted_url: https://pear.ai
+        surrounding_text: "- **[PearAI](https://pear.ai/)** – Open-source AI-powered code editor."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Pearl.ai is an AI coding assistant and code editor positioned as an alternative development environment with integrated AI assistance.
+  why_it_matters: It offers developers an AI-native editor experience that combines code writing, editing, and assistance in a single dedicated IDE surface.
+  mental_damage: Yet another AI editor enters the arena, giving developers one more tab to manage while trying to remember which assistant they promised to actually use this week.
+  tags:
+    - ai-editor
+    - coding-assistant
+    - ide
+  confidence: medium
+curation:
+  status: included
+  reason: Pearl.ai is primarily an AI-native editor/IDE surface, which aligns with the ai-ides-editors category; it is listed in awesome-ai-coding-tools under 'Code Editors and Assistants', reinforcing this fit over coding-agents or app-builders.
+  evidence:
+    - Listed in awesome-ai-coding-tools under the section 'Code Editors and Assistants'
+    - Positioned as an AI coding assistant and editor rather than a repo-editing agent or prompt-to-app builder
+placement:
+  primary_category: ai-ides-editors
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.729Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:46:57.392Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

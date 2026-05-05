@@ -1,0 +1,81 @@
+id: github__evalsone__mcp-connect
+kind: github-repo
+name: mcp-connect
+canonical_url: https://github.com/evalsone/mcp-connect
+identity:
+  github_repo: evalsone/mcp-connect
+provenance:
+  discoveries:
+    - id: discovery__github__evalsone__mcp-connect__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Clients
+        anchor_text: MCP-Connect
+        extracted_url: https://github.com/evalsone/mcp-connect
+        surrounding_text: "- **[MCP-Connect](https://github.com/EvalsOne/mcp-connect)** A client that enables cloud-based AI services to access local Stdio based MCP servers by HTTP/HTTPS requests."
+        confidence: high
+metadata:
+  github:
+    stars: 236
+    forks: 37
+    license: MIT
+    archived: false
+    created_at: "2024-12-21T03:45:33Z"
+    pushed_at: "2026-03-18T20:50:34Z"
+    description: Enables cloud-based AI services to access local Stdio based MCP servers via HTTP requests
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:02:05.823Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:05.823Z"
+      bytes: 9671
+insights:
+  summary: A lightweight HTTP gateway that exposes local stdio-based MCP servers as Streamable HTTP or request/response endpoints for remote AI tools.
+  why_it_matters: It lets cloud-based AI services securely call local MCP servers over HTTP, bridging local tooling with remote agents without rewriting servers.
+  mental_damage: We have invented a protocol to tunnel a protocol so that a cloud agent can pretend your laptop is its USB peripheral.
+  tags:
+    - mcp
+    - http-bridge
+    - stdio
+    - local-ai
+    - gateway
+  confidence: high
+curation:
+  status: included
+  reason: "The project is MCP infrastructure itself: a gateway/middleware that exposes local MCP servers over HTTP, fitting the MCP Servers and Tooling category cleanly."
+  evidence:
+    - "Repo description: 'Enables cloud-based AI services to access local Stdio based MCP servers via HTTP requests'"
+    - "README: 'Lightweight bridge that exposes local MCP servers as HTTP APIs' with Streamable HTTP and classic bridge modes"
+    - Listed in awesome-mcp-servers under Clients, confirming MCP ecosystem relevance
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (236) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.686Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:05.823Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:18:36.852Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

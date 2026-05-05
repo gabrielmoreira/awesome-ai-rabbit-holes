@@ -1,0 +1,77 @@
+id: www__npmjs__com__package__tunedforai__x402__mcp
+kind: website
+name: x402-mcp
+canonical_url: https://www.npmjs.com/package/@tunedforai/x402-mcp
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__npmjs__com__package__tunedforai__x402__mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: "`@tunedforai/x402-mcp`"
+        extracted_url: https://www.npmjs.com/package/@tunedforai/x402-mcp
+        surrounding_text: "- [tunedforai/x402-mcp](https://github.com/tunedforai/x402-mcp) [![tunedforai/x402-mcp MCP server](https://glama.ai/mcp/servers/tunedforai/x402-mcp/badges/score.svg)](https://glama.ai/mcp/servers/tunedforai/x402-mcp) 📇 ☁️ - Real-time crypto market structure for AI agents — orderflow across 20 exchanges, 24 tokens. 9 tools: price/funding/OI snapshots, cross-exchange CVD with whale activity, 7yr OHLCV history with buy/sell flow, on-chain address risk. Free via MCP ([`@tunedforai/x402-mcp`](https://www.npmjs.com/package/@tunedforai/x402-mcp) on npm) or pay-per-call in USDC on Base via x402 REST at [`x402.tunedfor.ai`](https://x402.tunedfor.ai) — no API key, no rate limits."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: An npm package that implements x402 payment handling as a Model Context Protocol (MCP) server.
+  why_it_matters: It allows AI agents and LLM-powered tools to programmatically interact with x402-based payment systems via the growing MCP ecosystem.
+  mental_damage: We have successfully abstracted away the complexity of moving money by wrapping it in a protocol designed to help chatbots call tools, which is exactly the kind of architectural inception that keeps senior engineers awake at night.
+  tags:
+    - mcp
+    - payments
+    - fintech
+    - npm
+  confidence: medium
+curation:
+  status: included
+  reason: The package is explicitly an MCP server implementation for x402 payments, fitting cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - Listed in awesome-mcp-servers under 'Server Implementations > Finance & Fintech'.
+    - Package name is @tunedforai/x402-mcp, confirming it is an MCP server published on npm.
+    - No description or README excerpt provided, but the source-list context and package name clearly identify its MCP scope.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.733Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:52:15.727Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

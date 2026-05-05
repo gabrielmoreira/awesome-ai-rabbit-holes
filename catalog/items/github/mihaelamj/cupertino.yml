@@ -1,0 +1,94 @@
+id: github__mihaelamj__cupertino
+kind: github-repo
+name: cupertino
+canonical_url: https://github.com/mihaelamj/cupertino
+identity:
+  github_repo: mihaelamj/cupertino
+provenance:
+  discoveries:
+    - id: discovery__github__mihaelamj__cupertino__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: mihaelamj/cupertino
+        extracted_url: https://github.com/mihaelamj/cupertino
+        surrounding_text: "- [mihaelamj/cupertino](https://github.com/mihaelamj/cupertino) 🏠 🍎 - Apple Documentation MCP Server. Search Apple developer docs, Swift Evolution proposals, and 600+ sample code projects with full-text search."
+        confidence: high
+metadata:
+  github:
+    stars: 670
+    forks: 27
+    license: MIT
+    archived: false
+    created_at: "2025-11-14T10:33:40Z"
+    pushed_at: "2026-05-05T11:04:21Z"
+    description: A local Apple Documentation crawler and MCP server. Written in Swift.
+    homepage: ""
+    topics:
+      - apple-documentation
+      - cli
+      - command-line-tool
+      - developer-tools
+      - documentation-tools
+      - local-server
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - offline-docs
+      - swift
+      - swiftpm
+    last_checked_at: "2026-05-05T21:03:40.042Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:40.042Z"
+      bytes: 26242
+insights:
+  summary: A local Swift-based tool that crawls and indexes Apple Developer documentation into a searchable database and serves it to AI agents via the Model Context Protocol.
+  why_it_matters: It provides offline, hallucination-free access to over 405,000 pages of Apple documentation, allowing AI coding assistants to answer framework questions with accurate, up-to-date context.
+  mental_damage: We have built a system to feed the AI the manual so it stops guessing SwiftUI modifiers, effectively admitting that the model's training data is already obsolete the moment Xcode updates.
+  tags:
+    - mcp
+    - apple-docs
+    - swift
+    - local-first
+    - context-engineering
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server implementation designed to serve documentation to AI agents, fitting squarely into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description identifies it as 'A local Apple Documentation crawler and MCP server.'
+    - README states it 'serves documentation to AI agents like Claude via the Model Context Protocol.'
+    - Listed in the 'awesome-mcp-servers' directory under 'Server Implementations > Developer Tools'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (670) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.707Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:40.042Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:37:44.943Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

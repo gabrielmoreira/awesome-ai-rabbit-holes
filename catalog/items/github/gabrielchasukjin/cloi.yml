@@ -1,0 +1,81 @@
+id: github__gabrielchasukjin__cloi
+kind: github-repo
+name: cloi
+canonical_url: https://github.com/gabrielchasukjin/cloi
+identity:
+  github_repo: gabrielchasukjin/cloi
+provenance:
+  discoveries:
+    - id: discovery__github__cloi-ai__cloi__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 代码 Coding
+        anchor_text: Cloi CLI
+        extracted_url: https://github.com/cloi-ai/cloi
+        surrounding_text: "1. [Cloi CLI](https://github.com/cloi-ai/cloi): Local debugging agent that runs in your terminal."
+        confidence: high
+metadata:
+  github:
+    stars: 395
+    forks: 21
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-05-01T21:58:43Z"
+    pushed_at: "2025-06-06T06:50:19Z"
+    description: Local debugging agent that runs in your terminal
+    homepage: http://www.cloi-ai.com
+    topics: []
+    last_checked_at: "2026-05-05T21:02:16.993Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:16.993Z"
+      bytes: 6801
+insights:
+  summary: A local, terminal-based AI debugging agent that uses RAG to find relevant code and can apply fixes directly to your codebase using local Ollama models or Claude.
+  why_it_matters: It offers a privacy-first, zero-setup workflow for developers who want AI-assisted debugging directly in the terminal without sending code to external servers.
+  mental_damage: Yet another reason to wonder if your terminal is quietly becoming sentient while you're still struggling to configure your PATH.
+  tags:
+    - terminal
+    - debugging
+    - local-ai
+    - cli
+    - rag
+  confidence: high
+curation:
+  status: included
+  reason: The product is a CLI-based coding agent that directly debugs, plans, and applies fixes to a developer's local codebase, fitting the coding-agents category.
+  evidence:
+    - "Repo description explicitly states: 'Local debugging agent that runs in your terminal'."
+    - README claims it 'analyzes errors and applies fixes directly to your codebase' with a review step.
+    - Operates locally with Ollama or optionally via Claude API, using RAG for code context retrieval.
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (395) exceeded threshold (150)
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:20:32.903Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.682Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:16.993Z"
+    cause: null
+    next_retry_at: null

@@ -1,0 +1,87 @@
+id: github__jacksenechal__scan-mcp
+kind: github-repo
+name: scan-mcp
+canonical_url: https://github.com/jacksenechal/scan-mcp
+identity:
+  github_repo: jacksenechal/scan-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__jacksenechal__scan-mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: scan-mcp
+        extracted_url: https://github.com/jacksenechal/scan-mcp
+        surrounding_text: "- **[scan-mcp](https://github.com/jacksenechal/scan-mcp)** - Minimal MCP server for scanner capture (ADF/duplex/page-size); typed tools; JSON Schema–validated I/O; multipage assembly; Node 22 + SANE."
+        confidence: high
+metadata:
+  github:
+    stars: 5
+    forks: 4
+    license: NOASSERTION
+    archived: false
+    created_at: "2025-09-11T05:11:02Z"
+    pushed_at: "2025-12-15T06:01:54Z"
+    description: MCP server for scanning (image capture/multipage assembly)
+    homepage: ""
+    topics:
+      - documents
+      - images
+      - linux
+      - mcp
+      - sane
+      - scanner
+    last_checked_at: "2026-05-05T21:02:49.185Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:49.185Z"
+      bytes: 5926
+insights:
+  summary: A minimal MCP server that exposes local Linux SANE scanners to AI agents or MCP clients for device discovery, scan job control, and multipage document assembly.
+  why_it_matters: It lets AI coding agents and desktop assistants directly trigger physical document scans and retrieve structured outputs without developers wiring SANE utilities by hand.
+  mental_damage: We have finally achieved the future where your AI agent can digitize your receipts, yet it still can’t figure out why your build is failing.
+  tags:
+    - mcp
+    - scanner
+    - sane
+    - hardware-integration
+    - local-first
+  confidence: high
+curation:
+  status: included
+  reason: This is a purpose-built MCP server exposing hardware scanning capabilities, which clearly fits the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states 'MCP server for scanning (image capture/multipage assembly)'.
+    - README details JSON Schema–validated MCP tools like list_devices and start_scan_job for SANE backends.
+    - Listed in awesome-mcp-servers under 'Community Servers', confirming its MCP ecosystem intent.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.699Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:49.185Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:27:11.571Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

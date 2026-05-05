@@ -1,0 +1,75 @@
+id: ramp__com
+kind: website
+name: ramp.com
+canonical_url: https://ramp.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__ramp__com__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Ramp
+        extracted_url: https://ramp.com
+        surrounding_text: "- **[Ramp](https://github.com/ramp-public/ramp-mcp)** - Interact with [Ramp](https://ramp.com)'s Developer API to run analysis on your spend and gain insights leveraging LLMs"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Ramp is a corporate charge card and expense management platform for businesses.
+  why_it_matters: It automates expense reporting and accounting integrations, allowing developers working on internal tooling to offload financial workflow management.
+  mental_damage: We are now officially at the stage where a startup that sells you better Visa cards is considered a vital piece of AI infrastructure.
+  tags:
+    - fintech
+    - expense-management
+    - b2b-saas
+  confidence: high
+curation:
+  status: excluded
+  reason: Ramp is a financial services product for expense management, not a developer-facing AI tool, agent, or infrastructure component, despite its appearance in a generic MCP server list.
+  evidence:
+    - The URL https://ramp.com resolves to a corporate charge card and expense management platform, not an AI tool.
+    - The project has no repository description, stars, or code-related topics to suggest it is a developer tool.
+    - Mere inclusion in an awesome-mcp-servers list does not override the fact that the core product is a B2B fintech service.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.729Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:47:24.369Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

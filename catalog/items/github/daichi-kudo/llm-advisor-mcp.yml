@@ -1,0 +1,94 @@
+id: github__daichi-kudo__llm-advisor-mcp
+kind: github-repo
+name: llm-advisor-mcp
+canonical_url: https://github.com/daichi-kudo/llm-advisor-mcp
+identity:
+  github_repo: daichi-kudo/llm-advisor-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__daichi-kudo__llm-advisor-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧮 <a name="data-science-tools"></a>Data Science Tools
+        anchor_text: Daichi-Kudo/llm-advisor-mcp
+        extracted_url: https://github.com/daichi-kudo/llm-advisor-mcp
+        surrounding_text: "- [Daichi-Kudo/llm-advisor-mcp](https://github.com/Daichi-Kudo/llm-advisor-mcp) [![Daichi-Kudo/llm-advisor-mcp MCP server](https://glama.ai/mcp/servers/Daichi-Kudo/llm-advisor-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Daichi-Kudo/llm-advisor-mcp) 📇 ☁️ 🍎 🪟 🐧 - Real-time LLM/VLM model comparison with benchmarks, pricing, and personalized recommendations from 5 data sources. No API key required."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-02-24T18:03:34Z"
+    pushed_at: "2026-02-26T06:29:13Z"
+    description: null
+    homepage: null
+    topics:
+      - ai
+      - benchmarks
+      - claude-code
+      - llm
+      - mcp-server
+      - model-comparison
+      - model-context-protocol
+      - model-selection
+      - openrouter
+      - pricing
+      - swe-bench
+      - vlm
+    last_checked_at: "2026-05-05T21:01:45.459Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:45.459Z"
+      bytes: 13648
+insights:
+  summary: An MCP server that provides AI assistants with real-time LLM and VLM model data, including pricing, benchmark scores, and recommendations, updated hourly.
+  why_it_matters: It allows coding agents like Claude Code to make informed, up-to-date decisions about model selection and cost-efficiency without relying on stale training data.
+  mental_damage: We have successfully built infrastructure to help our AI overlords argue about which AI is the best AI, effectively automating the niche hobby of LLM trigger-pulling.
+  tags:
+    - mcp
+    - model-selection
+    - benchmarks
+    - context-engineering
+    - claude-code
+  confidence: high
+curation:
+  status: included
+  reason: The project is a dedicated MCP server designed to extend AI assistants with live model data, fitting squarely into the MCP Servers and Tooling category.
+  evidence:
+    - Topics include 'mcp-server' and 'model-context-protocol', confirming the technical implementation.
+    - README explicitly states it is an MCP server installable via 'claude mcp add' and compatible with Claude Desktop, Cursor, and Windsurf.
+    - Listed in 'awesome-mcp-servers' under 'Data Science Tools', corroborating its identity as an MCP implementation.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.683Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:45.459Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:15:10.459Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

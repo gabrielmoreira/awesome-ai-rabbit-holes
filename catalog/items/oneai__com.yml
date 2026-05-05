@@ -1,0 +1,76 @@
+id: oneai__com
+kind: website
+name: oneai.com
+canonical_url: https://oneai.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__oneai__com__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: janhq/awesome-local-ai
+        url: https://github.com/janhq/awesome-local-ai
+        repository: janhq/awesome-local-ai
+      extraction:
+        mode: parsed
+        section_path:
+          - Developer tools
+        anchor_text: One AI
+        extracted_url: https://www.oneai.com
+        surrounding_text: "- [One AI](https://www.oneai.com/) - MAKING GENERATIVE AI BUSINESS-READY."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: OneAI is a hosted SaaS platform that provides AI phone agents for outbound and inbound calls, SMS, and WhatsApp to automate lead qualification, meeting scheduling, and sales workflows.
+  why_it_matters: It offers developers APIs and integrations to sync call data with CRMs and internal systems, though it targets sales operations rather than code creation.
+  mental_damage: "Just what the modern developer needs: another opaque SaaS platform to integrate with Salesforce so that an AI can cold-call leads faster than a human ever could."
+  tags:
+    - sales-ai
+    - voice-agent
+    - saas
+    - integrations
+  confidence: high
+curation:
+  status: excluded
+  reason: The product is a sales-focused voice agent SaaS with no meaningful developer tooling, coding assistance, or local AI angle required for this catalog.
+  evidence:
+    - Scraped site describes 'AI Phone Call Agent' for 'qualify leads, book meetings, and drive revenue' across phone, SMS, and WhatsApp.
+    - Listed in awesome-local-ai only as a tangential reference to check out alongside Jan Desktop, not as a local AI tool itself.
+    - No evidence of IDE integration, coding assistance, app generation, or local model execution capabilities.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.729Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:46:48.316Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

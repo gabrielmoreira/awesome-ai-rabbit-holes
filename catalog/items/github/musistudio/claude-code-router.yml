@@ -1,0 +1,82 @@
+id: github__musistudio__claude-code-router
+kind: github-repo
+name: claude-code-router
+canonical_url: https://github.com/musistudio/claude-code-router
+identity:
+  github_repo: musistudio/claude-code-router
+provenance:
+  discoveries:
+    - id: discovery__github__musistudio__claude-code-router__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Agent infrastructure
+        anchor_text: claude-code-router
+        extracted_url: https://github.com/musistudio/claude-code-router
+        surrounding_text: "- **[claude-code-router](https://github.com/musistudio/claude-code-router)** `⭐ 33.4k` — Use Claude Code as a foundation while routing to alternative providers/endpoints."
+        confidence: high
+metadata:
+  github:
+    stars: 33465
+    forks: 2708
+    license: MIT
+    archived: false
+    created_at: "2025-02-25T02:17:18Z"
+    pushed_at: "2026-03-04T05:48:17Z"
+    description: Use Claude Code as the foundation for coding infrastructure, allowing you to decide how to interact with the model while enjoying updates from Anthropic.
+    homepage: https://musistudio.github.io/claude-code-router/
+    topics: []
+    last_checked_at: "2026-05-05T21:03:49.101Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:49.101Z"
+      bytes: 25492
+insights:
+  summary: A CLI tool that acts as a proxy for Claude Code, allowing developers to route requests to alternative models like OpenRouter, DeepSeek, or Ollama while maintaining the Claude Code interface.
+  why_it_matters: It decouples the Claude Code UX from Anthropic's specific models, letting teams use local or cheaper models for background tasks while keeping the workflow they already know.
+  mental_damage: "We have achieved the final form of the AI arms race: a router for your router, so you can use a cheaper model to pretend it's the expensive one while praying the context window survives the proxy chain."
+  tags:
+    - cli
+    - model-routing
+    - claude-code
+    - terminal
+    - proxy
+  confidence: high
+curation:
+  status: included
+  reason: This is a developer-facing CLI tool that directly integrates with and extends the Claude Code coding agent workflow by modifying how it interacts with models.
+  evidence:
+    - "Repo description: 'Use Claude Code as the foundation for coding infrastructure, allowing you to decide how to interact with the model'."
+    - README features include 'Model Routing', 'GitHub Actions Integration', and 'Dynamic Model Switching' within Claude Code.
+    - Found in awesome-cli-coding-agents list under 'Harnesses & orchestration > Agent infrastructure'.
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (33465) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.708Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:49.101Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:39:35.703Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

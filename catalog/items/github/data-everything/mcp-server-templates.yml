@@ -1,0 +1,91 @@
+id: github__data-everything__mcp-server-templates
+kind: github-repo
+name: mcp-server-templates
+canonical_url: https://github.com/data-everything/mcp-server-templates
+identity:
+  github_repo: data-everything/mcp-server-templates
+provenance:
+  discoveries:
+    - id: discovery__github__data-everything__mcp-server-templates__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🔗 <a name="aggregators"></a>Aggregators
+        anchor_text: Data-Everything/mcp-server-templates
+        extracted_url: https://github.com/data-everything/mcp-server-templates
+        surrounding_text: "- [Data-Everything/mcp-server-templates](https://github.com/Data-Everything/mcp-server-templates) 📇 🏠 🍎 🪟 🐧 - One server. All tools. A unified MCP platform that connects many apps, tools, and services behind one powerful interface—ideal for local devs or production agents."
+        confidence: high
+metadata:
+  github:
+    stars: 15
+    forks: 4
+    license: NOASSERTION
+    archived: false
+    created_at: "2025-07-22T23:45:53Z"
+    pushed_at: "2025-08-29T06:28:47Z"
+    description: A flexible platform that provides Docker & Kubernetes backends, a lightweight CLI (mcpt), and client utilities for seamless MCP integration. Spin up servers from templates, route requests through a single endpoint with load balancing, and support both deployed (HTTP) and local (stdio) transports — all with sensible defaults and YAML-based configs.
+    homepage: https://data-everything.github.io/mcp-server-templates/
+    topics:
+      - ai
+      - claude
+      - crew-ai
+      - cursor
+      - langchain
+      - llm
+      - mcp
+      - mcp-server
+      - openai
+      - vscode
+    last_checked_at: "2026-05-05T21:01:46.964Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:46.964Z"
+      bytes: 10293
+insights:
+  summary: A CLI and Docker/Kubernetes backend platform for deploying Model Context Protocol servers from pre-built templates with minimal configuration.
+  why_it_matters: It lets developers spin up MCP servers for common integrations like GitHub and GitLab in seconds, removing the boilerplate and Docker overhead from AI tooling setup.
+  mental_damage: Nothing says 'cutting edge' like a 15-star repo that renames itself to MCP Platform two months after launch, ensuring you get to learn two CLIs for the price of one.
+  tags:
+    - mcp
+    - cli
+    - docker
+    - deployment
+  confidence: medium
+curation:
+  status: included
+  reason: The project is a developer tool specifically for deploying and managing MCP servers, which fits cleanly into the MCP infrastructure category.
+  evidence:
+    - Repo description explicitly describes a platform for 'seamless MCP integration' with Docker, Kubernetes, and a CLI.
+    - README positions it as a tool to 'Deploy Model Context Protocol (MCP) servers in seconds' with templates for filesystem, GitHub, and GitLab.
+    - Listed in awesome-mcp-servers under the 'Aggregators' section, confirming its place in the MCP ecosystem.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.684Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:46.964Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:15:25.930Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

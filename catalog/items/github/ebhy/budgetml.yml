@@ -1,0 +1,88 @@
+id: github__ebhy__budgetml
+kind: github-repo
+name: budgetml
+canonical_url: https://github.com/ebhy/budgetml
+identity:
+  github_repo: ebhy/budgetml
+provenance:
+  discoveries:
+    - id: discovery__github__ebhy__budgetml__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - LLMOps
+        anchor_text: BudgetML
+        extracted_url: https://github.com/ebhy/budgetml
+        surrounding_text: "| [BudgetML](https://github.com/ebhy/budgetml)                       | Deploy a ML inference service on a budget in less than 10 lines of code.                                                                                                                                                                                                                                                                                                                                | ![GitHub Badge](https://img.shields.io/github/stars/ebhy/budgetml.svg?style=flat-square)                  |"
+        confidence: high
+metadata:
+  github:
+    stars: 1345
+    forks: 65
+    license: Apache-2.0
+    archived: false
+    created_at: "2020-12-27T14:24:57Z"
+    pushed_at: "2024-02-12T17:29:24Z"
+    description: Deploy a ML inference service on a budget in less than 10 lines of code.
+    homepage: ""
+    topics:
+      - api
+      - data-science
+      - deployment
+      - fastapi
+      - inference
+      - machine-learning
+      - mlops
+    last_checked_at: "2026-05-05T21:01:59.415Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:59.415Z"
+      bytes: 6373
+insights:
+  summary: A Python library that deploys ML inference models to secured HTTPS endpoints on cheap GCP preemptible instances with minimal configuration.
+  why_it_matters: It lets data scientists and developers skip the DevOps rabbit hole of Docker, SSL, and Kubernetes just to get a prediction API online on a budget.
+  mental_damage: We have officially reached the point where even our budget deployment tools are begging for new maintainers while promising 80% savings and 99% uptime on hardware designed to shut down every 24 hours.
+  tags:
+    - mlops
+    - deployment
+    - inference
+    - gcp
+    - fastapi
+  confidence: high
+curation:
+  status: included
+  reason: This is a code-first SDK and library for embedding ML deployment behavior into Python projects, fitting the AI Frameworks category rather than an agent, builder, or IDE tool.
+  evidence:
+    - "Repo description: 'Deploy a ML inference service on a budget in less than 10 lines of code.'"
+    - README shows a Python library usage pattern with `pip install budgetml` and class-based predictor imports.
+    - Listed in Awesome-LLMOps under the LLMOps section, confirming MLOps/infrastructure relevance.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1345) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.685Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:59.416Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:17:32.020Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

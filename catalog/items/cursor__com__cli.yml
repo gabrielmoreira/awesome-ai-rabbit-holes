@@ -1,0 +1,78 @@
+id: cursor__com__cli
+kind: website
+name: cli
+canonical_url: https://cursor.com/cli
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__cursor__com__cli__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Terminal-native coding agents
+          - Closed Source
+        anchor_text: Cursor CLI
+        extracted_url: https://cursor.com/cli
+        surrounding_text: "- **[Cursor CLI](https://cursor.com/cli)** `[Cursor]` — Cursor's official command-line agent (`agent`) with shell mode, headless/CI support, parallel agents, and multi-model access."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Cursor CLI is a terminal-native AI coding agent that allows developers to plan, build, and automate coding tasks using frontier models directly from the command line.
+  why_it_matters: It brings Cursor's agentic capabilities into headless environments, CI/CD pipelines, and custom scripts, allowing developers to integrate AI coding workflows outside of the IDE.
+  mental_damage: You can now have an existential crisis about your coding abilities while staring at a scenic painted landscape wallpaper in your terminal instead of just your editor.
+  tags:
+    - cli
+    - coding-agent
+    - terminal
+    - automation
+    - cursor
+  confidence: high
+curation:
+  status: included
+  reason: The product is a developer-facing coding agent that operates directly in the terminal, supporting repo work, scripting, and CI/CD integration, which fits the coding-agents category definition.
+  evidence:
+    - Scraped site context describes it as 'Ship code with agents... Right from your terminal' with commands like '> agent'.
+    - Explicit support for GitHub Actions and headless scripts to 'automatically update docs' and 'trigger security reviews'.
+    - Listed in 'awesome-cli-coding-agents' under the 'Terminal-native coding agents > Closed Source' section.
+placement:
+  primary_category: coding-agents
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.727Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:43:28.333Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

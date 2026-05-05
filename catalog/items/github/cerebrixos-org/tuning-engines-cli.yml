@@ -1,0 +1,95 @@
+id: github__cerebrixos-org__tuning-engines-cli
+kind: github-repo
+name: tuning-engines-cli
+canonical_url: https://github.com/cerebrixos-org/tuning-engines-cli
+identity:
+  github_repo: cerebrixos-org/tuning-engines-cli
+provenance:
+  discoveries:
+    - id: discovery__github__cerebrixos-org__tuning-engines-cli__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: cerebrixos-org/tuning-engines-cli
+        extracted_url: https://github.com/cerebrixos-org/tuning-engines-cli
+        surrounding_text: "- [cerebrixos-org/tuning-engines-cli](https://github.com/cerebrixos-org/tuning-engines-cli) [![cerebrixos-org/tuning-engines-cli MCP server](https://glama.ai/mcp/servers/cerebrixos-org/tuning-engines-cli/badges/score.svg)](https://glama.ai/mcp/servers/cerebrixos-org/tuning-engines-cli) 📇 ☁️ 🍎 🪟 🐧 - Domain-specific fine-tuning of open-source LLMs and SLMs with zero infrastructure. Specialized tuning agents deliver sovereign models trained on your data. Supports Qwen, Llama, DeepSeek, Mistral, Gemma 1B-72B. LoRA, QLoRA, full fine-tuning. Cost estimation, model management, S3 export."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-03-15T02:50:37Z"
+    pushed_at: "2026-04-28T02:52:47Z"
+    description: CLI & MCP server for Tuning Engines — fine-tune LLMs on code repositories
+    homepage: null
+    topics:
+      - ai
+      - cli
+      - fine-tuning
+      - llm
+      - lora
+      - machine-learning
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - open-source
+      - qlora
+      - slm
+      - sovereign-ai
+    last_checked_at: "2026-05-05T21:01:31.247Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:31.247Z"
+      bytes: 13083
+insights:
+  summary: A CLI and MCP server for fine-tuning LLMs and SLMs on code repositories using specialized agents, supporting LoRA, QLoRA, and full fine-tuning via managed GPU infrastructure.
+  why_it_matters: It lets developers create domain-specific, lighter-weight coding models trained on their own codebase patterns without managing their own ML training infrastructure.
+  mental_damage: Finally, a way to spend money fine-tuning a 7B model so it can autocomplete your variable names exactly as inconsistently as your team already does.
+  tags:
+    - fine-tuning
+    - mcp
+    - cli
+    - llm
+    - code-models
+  confidence: medium
+curation:
+  status: included
+  reason: The project's primary artifact is an MCP server and CLI tool for model fine-tuning, fitting the MCP infrastructure scope rather than being a coding agent itself.
+  evidence:
+    - Repo description explicitly states 'CLI & MCP server for Tuning Engines'
+    - README confirms it provides a 'CLI and MCP-compatible' interface for fine-tuning jobs
+    - Listed in awesome-mcp-servers under Developer Tools section
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.682Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:31.247Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:12:39.593Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,76 @@
+id: jayex__io
+kind: website
+name: jayex.io
+canonical_url: https://jayex.io
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__jayex__io__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - DevOps and Infrastructure
+        anchor_text: Jenkins X
+        extracted_url: https://jenkins-x.io
+        surrounding_text: "- **[Jenkins X](https://jenkins-x.io/)** – Cloud-native CI/CD with AI-enhanced automation."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: JayeX is a cloud-native CI/CD platform built on Kubernetes that automates GitOps pipelines, environment promotion, and preview environments for pull requests.
+  why_it_matters: It aims to abstract away the complexity of Kubernetes and Tekton, allowing developers to focus on writing code while the platform handles deployment automation and preview feedback.
+  mental_damage: Just when you thought your YAML-wrangling days were over, the solution is apparently a specialized CI/CD platform that requires you to learn an entirely new GitOps abstraction layer to avoid learning the underlying container orchestration.
+  tags:
+    - ci-cd
+    - gitops
+    - kubernetes
+    - devops
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a traditional DevOps infrastructure and CI/CD platform, lacking the AI-specific tooling, agents, or workflows required for this catalog's scope.
+  evidence:
+    - Scraped site context describes it as 'Cloud Native CI/CD Built On Kubernetes' with Tekton pipelines and GitOps, with no mention of AI features.
+    - Appears in awesome-ai-coding-tools under 'DevOps and Infrastructure', but the product description contains no AI coding agents or generative AI capabilities.
+    - The feature set (Preview Environments, ChatOps on PRs) describes standard modern DevOps practices rather than AI-driven development.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.728Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:45:39.541Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

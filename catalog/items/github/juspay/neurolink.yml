@@ -1,0 +1,129 @@
+id: github__juspay__neurolink
+kind: github-repo
+name: neurolink
+canonical_url: https://github.com/juspay/neurolink
+identity:
+  github_repo: juspay/neurolink
+provenance:
+  discoveries:
+    - id: discovery__github__juspay__neurolink__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🔗 <a name="aggregators"></a>Aggregators
+        anchor_text: juspay/neurolink
+        extracted_url: https://github.com/juspay/neurolink
+        surrounding_text: "- [juspay/neurolink](https://github.com/juspay/neurolink) 📇 ☁️ 🏠 🍎 🪟 🐧 - Making enterprise AI infrastructure universally accessible. Edge-first platform unifying 12 providers and 100+ models with multi-agent orchestration, HITL workflows, guardrails middleware, and context summarization."
+        confidence: high
+    - id: discovery__github__juspay__neurolink__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - LLMOps
+        anchor_text: Neurolink
+        extracted_url: https://github.com/juspay/neurolink
+        surrounding_text: "| [Neurolink](https://github.com/juspay/neurolink)                   | Multi-provider AI agent framework that unifies 12+ LLM providers (OpenAI, Google, Anthropic, AWS, Azure, Groq, etc.) with workflow orchestration. Production-grade platform for building LLM applications with streaming, tool calling, caching, and enterprise features. Battle-tested at 15M+ requests/month.                                                        | ![GitHub Badge](https://img.shields.io/github/stars/juspay/neurolink.svg?style=flat-square)               |"
+        confidence: high
+    - id: discovery__github__juspay__neurolink__awesome-list__kaushikb11__awesome-llm-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: kaushikb11/awesome-llm-agents
+        url: https://github.com/kaushikb11/awesome-llm-agents
+        repository: kaushikb11/awesome-llm-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Frameworks
+        anchor_text: Neurolink
+        extracted_url: https://github.com/juspay/neurolink
+        surrounding_text: "- [Neurolink](https://github.com/juspay/neurolink) - Multi-provider AI agent framework"
+        confidence: high
+metadata:
+  github:
+    stars: 87
+    forks: 104
+    license: MIT
+    archived: false
+    created_at: "2025-05-31T15:05:42Z"
+    pushed_at: "2026-05-05T19:47:43Z"
+    description: Streams are the future of AI powered by unlimited free tokens.
+    homepage: https://docs.neurolink.ink/
+    topics:
+      - agents
+      - ai
+      - ai-development
+      - ai-platform
+      - automation
+      - developer-tools
+      - enterprise
+      - future
+      - llm
+      - local-first
+      - mcp
+      - model-context-protocol
+      - neurolink
+      - personal-ai
+      - skills
+      - stream
+      - universal-ai
+    last_checked_at: "2026-05-05T21:03:01.097Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:01.097Z"
+      bytes: 60185
+insights:
+  summary: A TypeScript SDK and CLI that unifies 17+ AI providers and 100+ models under a single streaming API with built-in tools, MCP support, memory, and enterprise-grade routing.
+  why_it_matters: Developers can switch AI providers with a single parameter, add 64+ tools and MCP servers out of the box, and rely on multi-provider failover and context management without wiring multiple SDKs by hand.
+  mental_damage: We have successfully abstracted the abstraction, so you can now experience provider lock-in as a configurable streaming option rather than a costly architectural mistake.
+  tags:
+    - sdk
+    - multi-provider
+    - mcp
+    - streaming
+    - typescript
+  confidence: high
+curation:
+  status: included
+  reason: This is a code-first SDK and CLI framework that developers import to embed AI behavior into applications, not a control plane, editor, or hosted builder.
+  evidence:
+    - README explicitly states 'NeuroLink is the universal AI integration platform that unifies 17 major AI providers… under one consistent API' and shows a TypeScript SDK import example.
+    - Includes CLI usage and SDK distribution via @juspay/neurolink on npm, targeting developers building with AI in their own code.
+    - Listed in awesome-llm-agents under 'Frameworks' and awesome-mcp-servers under 'Aggregators', reinforcing its framework/SDK role.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.660Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:01.097Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:29:43.631Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

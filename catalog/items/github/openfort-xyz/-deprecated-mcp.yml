@@ -1,0 +1,80 @@
+id: github__openfort-xyz__-deprecated-mcp
+kind: github-repo
+name: mcp
+canonical_url: https://github.com/openfort-xyz/-deprecated-mcp
+identity:
+  github_repo: openfort-xyz/-deprecated-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__openfort-xyz__mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Openfort
+        extracted_url: https://github.com/openfort-xyz/mcp
+        surrounding_text: "- **[Openfort](https://github.com/openfort-xyz/mcp)** - Supercharge your AI assistant with plug-and-play access to authentication, project scaffolding, and smart wallet tooling."
+        confidence: high
+metadata:
+  github:
+    stars: 4
+    forks: 0
+    license: null
+    archived: true
+    created_at: "2025-07-22T08:27:04Z"
+    pushed_at: "2025-08-27T12:00:22Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:04:05.673Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:05.673Z"
+      bytes: 7532
+insights:
+  summary: An archived MCP server for Openfort that lets AI assistants create projects, manage configurations, and interact with Openfort's wallet and authentication infrastructure.
+  why_it_matters: Developers building on Openfort can scaffold apps and manage wallets, users, and contracts directly through their AI editor instead of switching to dashboards.
+  mental_damage: We have reached the point where a wallet infrastructure MCP server gets archived two weeks after launch, proving even the context protocol layer is subject to summer cleaning.
+  tags:
+    - mcp
+    - openfort
+    - wallet-infrastructure
+    - editor-integration
+  confidence: high
+curation:
+  status: excluded
+  reason: The repository is explicitly archived and was created in July 2025 with only 4 stars, indicating it is a discontinued or deprecated experiment rather than a living tool.
+  evidence:
+    - "Archived: yes"
+    - "Created at: 2025-07-22, Stars: 4"
+    - Repo name includes '-deprecated-mcp'
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: needs_review
+  reason: Repository is archived
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:42:41.758Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.711Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:05.673Z"
+    cause: null
+    next_retry_at: null

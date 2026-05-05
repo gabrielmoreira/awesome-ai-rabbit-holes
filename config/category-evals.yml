@@ -1,0 +1,395 @@
+- id: coding-agents__opencode
+  item_id: github__anomalyco__opencode
+  suite: prompt-core
+  fix_scope: prompt
+  case_type: positive
+  expected:
+    include: true
+    primary_category: coding-agents
+    section: Terminal & CLI Agents
+  hard_negatives:
+    - app-builders
+    - mcp
+  notes: Terminal-native coding assistant should stay in coding-agents.
+
+- id: coding-agents__cline
+  item_id: github__cline__cline
+  suite: prompt-core
+  fix_scope: prompt
+  case_type: adversarial
+  expected:
+    include: true
+    primary_category: coding-agents
+    section: IDE-Native Assistants
+  hard_negatives:
+    - ai-dev-extensions
+    - mcp
+  notes: IDE-hosted coding assistant, not an extension-only booster.
+
+- id: coding-agents__ui-tars-desktop
+  item_id: github__bytedance__ui-tars-desktop
+  suite: prompt-core
+  fix_scope: prompt
+  case_type: adversarial
+  expected:
+    include: true
+    primary_category: coding-agents
+    section: Browser/Desktop/Computer-Use Agents
+  hard_negatives:
+    - mcp
+    - app-builders
+  notes: User-facing computer-use agent; MCP mentions should not dominate.
+
+- id: coding-agents__coderabbit
+  item_id: coderabbit__ai
+  suite: prompt-core
+  fix_scope: prompt
+  case_type: positive
+  expected:
+    include: true
+    primary_category: coding-agents
+    section: Review, Testing & Repair Agents
+  hard_negatives:
+    - evals
+    - app-builders
+  notes: PR review assistant belongs with coding workflow tools.
+
+- id: ai-ides-editors__cursor
+  item_id: cursor__com
+  suite: prompt-core
+  fix_scope: prompt
+  case_type: positive
+  expected:
+    include: true
+    primary_category: ai-ides-editors
+    section: Full IDEs & Editors
+  hard_negatives:
+    - coding-agents
+    - ai-dev-extensions
+  notes: Cursor is the editor product itself, not just a coding agent or extension.
+
+- id: app-builders__bolt
+  item_id: bolt__new
+  suite: prompt-core
+  fix_scope: prompt
+  case_type: positive
+  expected:
+    include: true
+    primary_category: app-builders
+    section: Prompt-to-App Builders
+  hard_negatives:
+    - coding-agents
+    - ai-ides-editors
+  notes: Hosted prompt-to-app surface should stay out of coding-agents.
+
+- id: ai-frameworks__crewai
+  item_id: github__crewaiinc__crewai
+  suite: prompt-core
+  fix_scope: prompt
+  case_type: adversarial
+  expected:
+    include: true
+    primary_category: ai-frameworks
+    section: Agent Frameworks
+  hard_negatives:
+    - agent-orchestration
+    - coding-agents
+  notes: Framework-first product despite orchestration-heavy marketing.
+
+- id: agent-orchestration__openwork
+  item_id: github__different-ai__openwork
+  suite: prompt-core
+  fix_scope: prompt
+  case_type: adversarial
+  expected:
+    include: true
+    primary_category: agent-orchestration
+    section: Workbenches & Collaboration Surfaces
+  hard_negatives:
+    - coding-agents
+    - ai-frameworks
+  notes: Multi-surface orchestration platform should beat coding-agent framing.
+
+- id: mcp__playwright
+  item_id: github__executeautomation__mcp-playwright
+  suite: prompt-core
+  fix_scope: prompt
+  case_type: positive
+  expected:
+    include: true
+    primary_category: mcp
+    section: Generic Servers & Middleware
+  hard_negatives:
+    - coding-agents
+    - ai-dev-extensions
+  notes: Actual MCP server, not merely a tool that mentions MCP.
+
+- id: ai-dev-extensions__context-memory
+  item_id: github__erebusenigma__context-memory
+  suite: prompt-core
+  fix_scope: prompt
+  case_type: adversarial
+  expected:
+    include: true
+    primary_category: ai-dev-extensions
+    section: Memory & Context Add-ons
+  hard_negatives:
+    - coding-agents
+    - mcp
+  notes: Claude Code memory layer should be treated as an add-on, not the assistant.
+
+- id: ai-dev-extensions__tailtest-cline
+  item_id: github__avansaber__tailtest-cline
+  suite: prompt-core
+  fix_scope: prompt
+  case_type: adversarial
+  expected:
+    include: true
+    primary_category: ai-dev-extensions
+    section: Testing & QA Add-ons
+  hard_negatives:
+    - coding-agents
+    - mcp
+  notes: QA/testing booster for Cline should stay out of coding-agents.
+
+- id: ai-dev-extensions__task-master
+  item_id: github__eyaltoledano__claude-task-master
+  suite: prompt-core
+  fix_scope: prompt
+  case_type: adversarial
+  expected:
+    include: true
+    primary_category: ai-dev-extensions
+    section: IDE / UI / Workflow Add-ons
+  hard_negatives:
+    - coding-agents
+    - mcp
+  notes: Workflow/task layer for host assistants should count as an extension.
+
+- id: context-engineering__context7
+  item_id: context7__com
+  suite: prompt-core
+  fix_scope: prompt
+  case_type: positive
+  expected:
+    include: true
+    primary_category: context-engineering
+    section: Context Retrieval & Fresh Docs
+  hard_negatives:
+    - coding-agents
+    - mcp
+  notes: Fresh-doc retrieval infrastructure belongs in context-engineering.
+
+- id: context-engineering__promptsource
+  item_id: github__bigscience-workshop__promptsource
+  suite: prompt-core
+  fix_scope: prompt
+  case_type: positive
+  expected:
+    include: true
+    primary_category: context-engineering
+    section: Prompt Assets & Templating
+  hard_negatives:
+    - coding-agents
+    - ai-dev-extensions
+  notes: Prompt dataset/tooling should stay out of assistant categories.
+
+- id: evals__agenta
+  item_id: github__agenta-ai__agenta
+  suite: prompt-core
+  fix_scope: prompt
+  case_type: positive
+  expected:
+    include: true
+    primary_category: evals
+    section: Prompt Regression & Experimentation
+  hard_negatives:
+    - agent-orchestration
+    - ai-frameworks
+  notes: Prompt/eval platform should land in evals, not orchestration.
+
+- id: evals__agentbench
+  item_id: github__agentbench__agentbench
+  suite: prompt-core
+  fix_scope: prompt
+  case_type: positive
+  expected:
+    include: true
+    primary_category: evals
+    section: Agent Benchmarks
+  hard_negatives:
+    - agent-orchestration
+    - coding-agents
+  notes: Benchmark harness should not be mistaken for an agent platform.
+
+- id: local-ai__llama-cpp-python
+  item_id: github__abetlen__llama-cpp-python
+  suite: prompt-core
+  fix_scope: prompt
+  case_type: positive
+  expected:
+    include: true
+    primary_category: local-ai
+    section: Local Runtimes
+  hard_negatives:
+    - ai-frameworks
+    - coding-agents
+  notes: Local inference/runtime tooling belongs in local-ai.
+
+- id: spec-driven__kiro
+  item_id: kiro__dev
+  suite: prompt-core
+  fix_scope: prompt
+  case_type: positive
+  expected:
+    include: true
+    primary_category: spec-driven-development
+    section: Spec-First Environments
+  hard_negatives:
+    - coding-agents
+    - ai-ides-editors
+  notes: Spec-driven environment should not collapse into a generic editor bucket.
+
+- id: spec-driven__forge
+  item_id: github__lucasduys__forge
+  suite: prompt-core
+  fix_scope: prompt
+  case_type: adversarial
+  expected:
+    include: true
+    primary_category: spec-driven-development
+    section: Execution Loops & Repair
+  hard_negatives:
+    - coding-agents
+    - agent-orchestration
+  notes: Autonomous spec-to-code loop should stay spec-driven, not generic coding-agent.
+
+- id: awesome-awesomes__coding-tools
+  item_id: github__ai-for-developers__awesome-ai-coding-tools
+  suite: prompt-core
+  fix_scope: prompt
+  case_type: positive
+  expected:
+    include: true
+    primary_category: awesome-awesomes
+    section: Directories & Maps
+  hard_negatives:
+    - coding-agents
+    - app-builders
+  notes: Curated index should remain a directory, not a product category.
+
+- id: newsletters__ai-for-developers
+  item_id: aifordevelopers__substack__com
+  suite: prompt-core
+  fix_scope: prompt
+  case_type: positive
+  expected:
+    include: true
+    primary_category: newsletters-and-feeds
+    section: Newsletters & Feeds
+  hard_negatives:
+    - coding-agents
+    - context-engineering
+  notes: Publication/feed case to keep media separate from tooling.
+
+- id: skills__qovery-skills
+  item_id: github__qovery__qovery-skills
+  suite: prompt-core
+  fix_scope: prompt
+  case_type: adversarial
+  expected:
+    include: true
+    primary_category: skills
+    section: Domain & Workflow Skill Packs
+  hard_negatives:
+    - ai-dev-extensions
+    - coding-agents
+    - mcp
+  notes: Host-specific deploy skill pack should land in skills rather than a general extension bucket.
+
+- id: skills__skills-sh
+  item_id: skills__sh
+  suite: prompt-holdout
+  fix_scope: prompt
+  case_type: positive
+  expected:
+    include: true
+    primary_category: skills
+    section: Skill Registries & Directories
+  hard_negatives:
+    - ai-dev-extensions
+    - awesome-awesomes
+    - coding-agents
+  notes: A skills marketplace/directory should exercise the registry branch of the skills taxonomy.
+
+- id: skills__anthropics-skills
+  item_id: github__anthropics__skills
+  suite: prompt-holdout
+  fix_scope: mixed
+  case_type: adversarial
+  expected:
+    include: true
+    primary_category: skills
+    section: Skill Packs & Libraries
+  hard_negatives:
+    - mcp
+    - ai-dev-extensions
+    - coding-agents
+  notes: Official skills repository; the reusable skill content itself is the product.
+
+- id: agent-orchestration__agentsmesh
+  item_id: github__agentsmesh__agentsmesh
+  suite: prompt-holdout
+  fix_scope: prompt
+  case_type: adversarial
+  expected:
+    include: true
+    primary_category: agent-orchestration
+    section: Control Planes & Workforce Platforms
+  hard_negatives:
+    - coding-agents
+    - ai-frameworks
+  notes: Workforce/control-plane product should stay in orchestration.
+
+- id: ai-frameworks__phidata
+  item_id: github__agno-agi__phidata
+  suite: prompt-holdout
+  fix_scope: prompt
+  case_type: adversarial
+  expected:
+    include: true
+    primary_category: ai-frameworks
+    section: Agent Frameworks
+  hard_negatives:
+    - agent-orchestration
+    - coding-agents
+  notes: Framework-first despite orchestration-heavy discovery context.
+
+- id: redflag__devdocs_aux_link
+  item_id: devdocs__io
+  suite: pipeline-redflags
+  fix_scope: deterministic
+  case_type: negative
+  expected:
+    include: false
+    primary_category: null
+    section: null
+  hard_negatives:
+    - app-builders
+    - coding-agents
+    - mcp
+  notes: Auxiliary link pollution from an MCP source-list line; should not be cataloged as a product.
+
+- id: redflag__copilot_docs_page
+  item_id: code__visualstudio__com__docs__copilot__customization__overview
+  suite: pipeline-redflags
+  fix_scope: deterministic
+  case_type: negative
+  expected:
+    include: false
+    primary_category: null
+    section: null
+  hard_negatives:
+    - coding-agents
+    - ai-dev-extensions
+  notes: Official documentation page, not a standalone tool.

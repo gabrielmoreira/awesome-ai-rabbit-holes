@@ -1,0 +1,76 @@
+id: www__swebench__com
+kind: website
+name: www.swebench.com
+canonical_url: https://www.swebench.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__swebench__com__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - SWE Agent
+          - Description
+        anchor_text: varies
+        extracted_url: https://www.swebench.com
+        surrounding_text: "- It is important to say that the performance [varies](https://www.swebench.com/) based on the model used by the agent."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A leaderboard website tracking and comparing the performance of AI coding agents on the SWE-bench benchmark of real-world software engineering tasks.
+  why_it_matters: It provides developers with empirical data on which models and agents can actually resolve real GitHub issues, moving the conversation from marketing claims to reproducible benchmarks.
+  mental_damage: Finally, a place to scientifically prove that your AI intern is worse at fixing bugs than the one your coworker is bragging about on Slack.
+  tags:
+    - benchmarks
+    - evals
+    - coding-agents
+    - leaderboard
+  confidence: high
+curation:
+  status: included
+  reason: This is a benchmark leaderboard and evaluation platform measuring the quality of coding agents, which fits the evals category rather than being a coding agent itself.
+  evidence:
+    - Listed in awesome-ai-agents under the specific section 'SWE Agent > Description', indicating it benchmarks SWE agents.
+    - The URL and name (swebench.com) identify it as the web frontend for the SWE-bench evaluation benchmark.
+placement:
+  primary_category: evals
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.734Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:53:29.641Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

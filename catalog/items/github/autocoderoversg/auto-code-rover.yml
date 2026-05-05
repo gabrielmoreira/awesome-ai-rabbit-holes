@@ -1,0 +1,82 @@
+id: github__autocoderoversg__auto-code-rover
+kind: github-repo
+name: auto-code-rover
+canonical_url: https://github.com/autocoderoversg/auto-code-rover
+identity:
+  github_repo: autocoderoversg/auto-code-rover
+provenance:
+  discoveries:
+    - id: discovery__github__autocoderoversg__auto-code-rover__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Terminal-native coding agents
+          - Open Source
+        anchor_text: AutoCodeRover
+        extracted_url: https://github.com/autocoderoversg/auto-code-rover
+        surrounding_text: "- **[AutoCodeRover](https://github.com/AutoCodeRoverSG/auto-code-rover)** `⭐ 3.1k` — Autonomous program improvement agent; patches real GitHub issues using code search and analysis."
+        confidence: high
+metadata:
+  github:
+    stars: 3071
+    forks: 329
+    license: NOASSERTION
+    archived: false
+    created_at: "2024-04-08T05:34:14Z"
+    pushed_at: "2025-04-24T07:58:24Z"
+    description: A project structure aware autonomous software engineer aiming for autonomous program improvement. Resolved 37.3% tasks (pass@1) in SWE-bench lite and 46.2% tasks (pass@1) in SWE-bench verified with each task costs less than $0.7.
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:01:12.266Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:12.266Z"
+      bytes: 17836
+insights:
+  summary: An autonomous coding agent that navigates project structure and uses LLM-powered context retrieval to resolve GitHub issues like bug fixes and feature additions.
+  why_it_matters: It demonstrates a structured, cost-efficient approach to automated program repair that developers can run against real repositories to handle routine issue triage.
+  mental_damage: Our new autonomous colleague confidently fixes 30% of bugs while we scramble to review the remaining 70% that it left in a semantically valid but logically disastrous state.
+  tags:
+    - autonomous-agents
+    - program-repair
+    - swe-bench
+    - cli
+    - github-issues
+  confidence: high
+curation:
+  status: included
+  reason: The project is a terminal-based, autonomous coding agent designed to analyze and modify source code in repositories to fix issues, fitting the coding-agents category.
+  evidence:
+    - Repo description explicitly states it is an 'autonomous software engineer aiming for autonomous program improvement'.
+    - README confirms it works by resolving GitHub issues via context retrieval and patch generation on local repositories.
+    - Included in the 'awesome-cli-coding-agents' list under the 'Terminal-native coding agents' section.
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (3071) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.680Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:12.266Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:09:29.487Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

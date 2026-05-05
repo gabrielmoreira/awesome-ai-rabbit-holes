@@ -1,0 +1,100 @@
+id: github__echoingvesper__mcp-task-orchestrator
+kind: github-repo
+name: mcp-task-orchestrator
+canonical_url: https://github.com/echoingvesper/mcp-task-orchestrator
+identity:
+  github_repo: echoingvesper/mcp-task-orchestrator
+provenance:
+  discoveries:
+    - id: discovery__github__echoingvesper__mcp-task-orchestrator__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: Task Orchestrator
+        extracted_url: https://github.com/echoingvesper/mcp-task-orchestrator
+        surrounding_text: "- **[Task Orchestrator](https://github.com/EchoingVesper/mcp-task-orchestrator)** - AI-powered task orchestration and workflow automation with specialized agent roles, intelligent task decomposition, and seamless integration across Claude Desktop, Cursor IDE, Windsurf, and VS Code."
+        confidence: high
+metadata:
+  github:
+    stars: 25
+    forks: 12
+    license: MIT
+    archived: true
+    created_at: "2025-05-27T03:42:16Z"
+    pushed_at: "2025-08-15T07:22:54Z"
+    description: A Model Context Protocol server that provides task orchestration capabilities for AI assistants
+    homepage: ""
+    topics:
+      - ai-agents
+      - ai-automation
+      - ai-framework
+      - ai-orchestration
+      - ai-tools
+      - anthropic
+      - claude
+      - claude-desktop
+      - cursor-ide
+      - developer-tools
+      - devtools
+      - llm
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - multi-agent
+      - project-management
+      - python
+      - task-orchestration
+      - workflow-orchestration
+    last_checked_at: "2026-05-05T21:01:59.457Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:59.457Z"
+      bytes: 17023
+insights:
+  summary: An archived Model Context Protocol server that provides task orchestration, persistent memory, and specialist AI roles for MCP-compatible clients like Claude Desktop and Cursor.
+  why_it_matters: It attempts to structure monolithic AI responses into multi-step workflows with automatic documentation, context persistence, and role-based specialization inside your existing editor.
+  mental_damage: Nothing says 'robust ecosystem' quite like a task orchestrator for the future of coding that has already been laid to rest in the GitHub archive.
+  tags:
+    - mcp
+    - orchestration
+    - memory-layer
+    - python
+  confidence: high
+curation:
+  status: excluded
+  reason: The repository is archived, making it unsuitable for inclusion in a curated catalog of active developer tooling.
+  evidence:
+    - "Archived: yes (clear negative signal in the repository metadata)"
+    - "Created at: 2025-05-27 (very new, but development appears to have ceased already)"
+    - "Stars: 25 (low ecosystem traction compared to active alternatives)"
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: needs_review
+  reason: Repository is archived
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.685Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:59.457Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:17:31.921Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

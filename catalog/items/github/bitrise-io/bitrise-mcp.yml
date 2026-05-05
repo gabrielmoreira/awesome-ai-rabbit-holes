@@ -1,0 +1,85 @@
+id: github__bitrise-io__bitrise-mcp
+kind: github-repo
+name: bitrise-mcp
+canonical_url: https://github.com/bitrise-io/bitrise-mcp
+identity:
+  github_repo: bitrise-io/bitrise-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__bitrise-io__bitrise-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: bitrise-io/bitrise-mcp
+        extracted_url: https://github.com/bitrise-io/bitrise-mcp
+        surrounding_text: "- [bitrise-io/bitrise-mcp](https://github.com/bitrise-io/bitrise-mcp) 🎖️ 🐍 ☁️ 🍎 🪟 🐧 - MCP Server for the [Bitrise](https://bitrise.io) API, enabling app management, build operations, artifact management and more."
+        confidence: high
+metadata:
+  github:
+    stars: 38
+    forks: 14
+    license: MIT
+    archived: false
+    created_at: "2025-04-01T09:54:46Z"
+    pushed_at: "2026-04-20T12:13:40Z"
+    description: MCP Server for the Bitrise API, enabling app management, build operations, artifact management and more.
+    homepage: https://bitrise.io
+    topics:
+      - bitrise
+      - mcp
+      - mcp-server
+      - mcp-servers
+    last_checked_at: "2026-05-05T21:01:21.689Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:21.689Z"
+      bytes: 1305
+insights:
+  summary: An MCP server that exposes the Bitrise API as tools for AI assistants, enabling app management, build operations, and artifact handling across IDEs and CLIs.
+  why_it_matters: Developers can trigger and inspect CI/CD builds directly from their AI editor or agent without context-switching to the Bitrise web dashboard.
+  mental_damage: We have successfully abstracted away the one tab you actually needed to open, so your AI can now fail your builds for you in natural language.
+  tags:
+    - mcp
+    - ci-cd
+    - bitrise
+    - ide-integration
+  confidence: high
+curation:
+  status: included
+  reason: This is a dedicated MCP server implementation for a developer CI/CD platform, fitting cleanly into the MCP infrastructure category.
+  evidence:
+    - Repo description explicitly states 'MCP Server for the Bitrise API'.
+    - Includes installation guides for Claude, Cursor, Windsurf, and GitHub Copilot IDEs.
+    - Listed in awesome-mcp-servers under 'Developer Tools' implementations.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.681Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:21.689Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:10:56.139Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

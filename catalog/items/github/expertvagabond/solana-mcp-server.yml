@@ -1,0 +1,92 @@
+id: github__expertvagabond__solana-mcp-server
+kind: github-repo
+name: solana-mcp-server
+canonical_url: https://github.com/expertvagabond/solana-mcp-server
+identity:
+  github_repo: expertvagabond/solana-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__expertvagabond__solana-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: ExpertVagabond/solana-mcp-server
+        extracted_url: https://github.com/expertvagabond/solana-mcp-server
+        surrounding_text: "- [ExpertVagabond/solana-mcp-server](https://github.com/ExpertVagabond/solana-mcp-server) [![ExpertVagabond/solana-mcp-server MCP server](https://glama.ai/mcp/servers/ExpertVagabond/solana-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/ExpertVagabond/solana-mcp-server) 📇 ☁️ - 25 tools for Solana blockchain — wallet management, SOL/SPL token transfers, SPL token creation and minting, account operations, and network switching (mainnet/devnet/testnet)."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2025-09-21T16:35:49Z"
+    pushed_at: "2026-03-31T19:39:56Z"
+    description: Solana MCP server for wallet management, transactions, and program interactions
+    homepage: |-
+      - Creating gist solana-mcp-server-quickstart.md
+      ✓ Created public gist solana-mcp-server-quickstart.md
+      https://gist.github.com/ExpertVagabond/b03bb9deff60feb4d3df3d6fb8ca1fd3
+    topics:
+      - ai
+      - ai-tools
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - solana
+      - tools
+    last_checked_at: "2026-05-05T21:02:06.651Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:06.651Z"
+      bytes: 5450
+insights:
+  summary: An MCP server providing 25 tools for Solana blockchain interactions, including wallet management, SPL token lifecycle operations, transfers, and network queries.
+  why_it_matters: It allows AI coding assistants to manage the full lifecycle of Solana tokens and wallets directly from the chat interface, removing the need to manually construct CLI commands or raw RPC calls.
+  mental_damage: We've reached the point where the AI needs a dedicated server just to handle the existential dread of managing Solana token authorities.
+  tags:
+    - mcp
+    - solana
+    - blockchain
+    - web3
+    - tools
+  confidence: high
+curation:
+  status: included
+  reason: The project is a standalone MCP server implementation designed to extend AI assistants with Solana blockchain capabilities, fitting the MCP infrastructure category.
+  evidence:
+    - Repo description explicitly states 'Solana MCP server for wallet management, transactions, and program interactions'.
+    - README confirms it is a 'Full Solana blockchain MCP server' with 25 tools for MCP hosts like Claude Desktop.
+    - Listed in the 'awesome-mcp-servers' directory under Finance & Fintech implementations.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.686Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:06.651Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:18:45.345Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

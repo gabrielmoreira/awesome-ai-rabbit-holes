@@ -1,0 +1,76 @@
+id: www__anthropic__com__claude
+kind: website
+name: claude
+canonical_url: https://www.anthropic.com/claude
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__anthropic__com__claude__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Code Models
+        anchor_text: Claude (Anthropic)
+        extracted_url: https://www.anthropic.com/claude
+        surrounding_text: "- **[Claude (Anthropic)](https://www.anthropic.com/claude)** – Opus and Sonnet models dominate coding benchmarks in 2026; Claude Code is built on them."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Claude is a family of large language models developed by Anthropic, accessible via API and web interface for coding, analysis, and general-purpose tasks.
+  why_it_matters: Developers rely on Claude as a core model for AI coding assistants, IDE integrations, and agentic workflows that require strong reasoning and long-context capabilities.
+  mental_damage: We now architect complex systems around choosing the right proprietary model while pretending our job descriptions haven't silently become prompt engineer with a CS degree.
+  tags:
+    - llm
+    - model
+    - api
+    - anthropic
+  confidence: high
+curation:
+  status: excluded
+  reason: Claude is a foundational model/API, not a developer-facing tool, agent, IDE, or workflow product that belongs in a curated catalog of AI rabbit holes for software developers.
+  evidence:
+    - No repo description, README, or scraped site context indicating a developer tool, agent, or workflow product.
+    - Seen in awesome-ai-coding-tools under 'Code Models', which is a category for models rather than developer tooling.
+    - URL points to the Anthropic product page for the model, not a developer tool or app builder.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.731Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:49:30.207Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

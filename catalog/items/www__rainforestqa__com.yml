@@ -1,0 +1,77 @@
+id: www__rainforestqa__com
+kind: website
+name: www.rainforestqa.com
+canonical_url: https://www.rainforestqa.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__rainforestqa__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Testing and QA
+        anchor_text: Rainforest QA
+        extracted_url: https://www.rainforestqa.com
+        surrounding_text: "- **[Rainforest QA](https://www.rainforestqa.com/)** – AI-assisted testing with crowd-sourced manual testing."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A no-code, AI-powered platform for automating end-to-end UI tests that uses visual checks and self-healing to reduce maintenance overhead.
+  why_it_matters: It integrates directly into CI/CD pipelines and CLIs to let developers offload brittle UI test maintenance to AI, aiming to increase release confidence without specialized QA hiring.
+  mental_damage: Now you can outsource your test fragility to an AI that confidently 'self-heals' your suite right before it deploys a broken modal to production.
+  tags:
+    - qa
+    - testing
+    - ai-qa
+    - ci-cd
+    - no-code
+  confidence: high
+curation:
+  status: included
+  reason: It qualifies as a developer-facing testing add-on that integrates into existing workflows (CLI, GitHub Actions) rather than a primary coding agent or app builder.
+  evidence:
+    - Listed in awesome-ai-coding-tools under the 'Testing and QA' section.
+    - Offers CLI and API integrations for GitHub Actions and CircleCI to fit existing developer workflows.
+    - Uses AI specifically to draft, self-heal, and maintain e2e UI tests rather than generating application code.
+placement:
+  primary_category: ai-dev-extensions
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.733Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:52:54.850Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

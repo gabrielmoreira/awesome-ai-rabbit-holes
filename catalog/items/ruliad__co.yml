@@ -1,0 +1,75 @@
+id: ruliad__co
+kind: website
+name: ruliad.co
+canonical_url: https://ruliad.co
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__ruliad__co__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Naut
+        anchor_text: Naut
+        extracted_url: https://www.naut.ai
+        surrounding_text: "## [Naut](https://www.naut.ai/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Ruliad Chat is an AI chat interface positioned as 'Self Sovereign Intelligence', with no visible developer-tooling surface or public documentation.
+  why_it_matters: It aims to offer a self-sovereign alternative to mainstream hosted AI chat products, though the specific developer workflow impact is unclear.
+  mental_damage: Another day, another AI chat UI promising sovereignty while we still can't figure out where our API keys are stored.
+  tags:
+    - self-sovereign
+    - chat
+    - ai-interface
+  confidence: low
+curation:
+  status: excluded
+  reason: The project lacks a visible developer-tooling angle, code editing capabilities, or app-building workflow relevant to this catalog's scope.
+  evidence:
+    - Scraped site context only mentions 'Ruliad Chat' and 'Self Sovereign Intelligence' with no developer workflow claims.
+    - No repo description, README, homepage, or public code surface provided to evaluate developer utility.
+    - Listed in awesome-ai-agents under a vague 'Self Sovereign Intelligence' section with no clear agent-tooling evidence.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.730Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:47:47.771Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

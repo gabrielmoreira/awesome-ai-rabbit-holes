@@ -1,0 +1,81 @@
+id: github__jordandalton__restcsvmcpserver
+kind: github-repo
+name: restcsvmcpserver
+canonical_url: https://github.com/jordandalton/restcsvmcpserver
+identity:
+  github_repo: jordandalton/restcsvmcpserver
+provenance:
+  discoveries:
+    - id: discovery__github__jordandalton__restcsvmcpserver__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: jordandalton/restcsv-mcp-server
+        extracted_url: https://github.com/jordandalton/restcsvmcpserver
+        surrounding_text: "- [jordandalton/restcsv-mcp-server](https://github.com/JordanDalton/RestCsvMcpServer) 📇 ☁️ - An MCP server for CSV files."
+        confidence: high
+metadata:
+  github:
+    stars: 12
+    forks: 4
+    license: null
+    archived: false
+    created_at: "2025-04-08T00:17:03Z"
+    pushed_at: "2025-04-17T01:58:16Z"
+    description: MCP Server for RestCSV, Generated using MCPGen
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:58.598Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:58.598Z"
+      bytes: 893
+insights:
+  summary: An MCP server that allows AI clients like Claude Desktop and Cursor to interact with CSV data hosted on RestCSV.com via the Model Context Protocol.
+  why_it_matters: It lets developers query and manipulate cloud-hosted CSV files through their existing AI coding assistants without writing custom data connectors.
+  mental_damage: We have successfully abstracted the ancient art of opening a spreadsheet into a protocol handshake between two layers of middleware.
+  tags:
+    - mcp
+    - csv
+    - integration
+    - data
+  confidence: medium
+curation:
+  status: included
+  reason: The project is a specific implementation of a Model Context Protocol server designed to interface with the RestCSV service.
+  evidence:
+    - "Repo description explicitly states: 'MCP Server for RestCSV, Generated using MCPGen'."
+    - README details integration with MCP clients like Claude Desktop, Windsurf, and Cursor.
+    - Listed under 'Server Implementations' in the awesome-mcp-servers directory.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.700Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:58.598Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:29:05.052Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

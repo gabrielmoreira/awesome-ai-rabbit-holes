@@ -1,0 +1,85 @@
+id: github__aaronjmars__aeon
+kind: github-repo
+name: aeon
+canonical_url: https://github.com/aaronjmars/aeon
+identity:
+  github_repo: aaronjmars/aeon
+provenance:
+  discoveries:
+    - id: discovery__github__aaronjmars__aeon__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Orchestrators & autonomous loops
+        anchor_text: Aeon
+        extracted_url: https://github.com/aaronjmars/aeon
+        surrounding_text: "- **[Aeon](https://github.com/aaronjmars/aeon)** `⭐ 270` — Autonomous agent framework that runs unattended on GitHub Actions; orchestrates Claude Code across 90+ skills (research, dev, crypto, productivity) on cron or reactive triggers, with quality scoring (1–5 via Haiku), persistent memory, and a self-healing loop. MCP + A2A integrations. MIT."
+        confidence: high
+metadata:
+  github:
+    stars: 271
+    forks: 41
+    license: MIT
+    archived: false
+    created_at: "2026-03-04T19:44:49Z"
+    pushed_at: "2026-05-05T11:32:18Z"
+    description: The most autonomous agent framework. No approval loops. No babysitting. Configure once, forget forever.
+    homepage: https://x.com/aeonframework
+    topics:
+      - aeon
+      - ai-agents
+      - claude-code
+    last_checked_at: "2026-05-05T21:00:45.781Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:45.781Z"
+      bytes: 22515
+insights:
+  summary: Aeon is a self-hosted autonomous agent framework that runs unattended on a schedule, manages its own skills, and performs recurring developer tasks like PR reviews and research without interactive approval loops.
+  why_it_matters: It lets developers configure recurring CI-adjacent workflows—such as market monitoring, security scans, and morning briefs—to run autonomously on GitHub Actions without human intervention.
+  mental_damage: We’ve successfully automated the approval loops away, which means the only thing left for developers to do is anxiously check Telegram at 3 AM to see if the autonomous system has decided to refactor the entire repo.
+  tags:
+    - agents
+    - autonomous
+    - github-actions
+    - scheduling
+    - cli
+  confidence: high
+curation:
+  status: included
+  reason: Fits cleanly as a CLI-based autonomous coding agent that operates on repos and tasks without interactive babysitting, matching the awesome-cli-coding-agents source context.
+  evidence:
+    - Repo description explicitly calls it 'the most autonomous agent framework' with no approval loops.
+    - Source list includes it under awesome-cli-coding-agents → Harnesses & orchestration > Orchestrators & autonomous loops.
+    - README positions it as a system that handles PR reviews, deploys, and research digests on a schedule via GitHub Actions.
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (271) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.676Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:45.781Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:05:17.382Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

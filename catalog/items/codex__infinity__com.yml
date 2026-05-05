@@ -1,0 +1,74 @@
+id: codex__infinity__com
+kind: website
+name: codex-infinity.com
+canonical_url: https://codex-infinity.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__codex__infinity__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Coding Agents
+        anchor_text: Codex Infinity
+        extracted_url: https://codex-infinity.com
+        surrounding_text: "- **[Codex Infinity](https://codex-infinity.com)** – Autonomous coding agent that runs continuously on bare metal VPS. Run your Claude Max or OpenAI Codex plans with full root access and no cloud timeouts."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A platform for running autonomous coding sessions with advanced reasoning, AI art generation, and cloud orchestration.
+  why_it_matters: It aims to let developers delegate extended, autonomous coding workflows to an agent that can reason through tasks and manage cloud resources.
+  mental_damage: Another day, another 'infinite' agent promising to autonomously reshape your repo while you pray your cloud bill doesn't achieve singularity first.
+  tags:
+    - coding-agent
+    - autonomous
+    - cloud
+  confidence: medium
+curation:
+  status: included
+  reason: The product describes itself as an 'infinite coding agent platform' designed to run autonomous coding sessions, which fits the coding-agents category for tools that plan, write, and execute code.
+  evidence:
+    - "Scraped site title and description: 'Codex Infinity' and 'The infinite coding agent platform. Run autonomous coding sessions with advanced reasoning, AI art generation, and cloud orchestration.'"
+    - Included in awesome-ai-coding-tools under the 'Coding Agents' section.
+placement:
+  primary_category: coding-agents
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.726Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:43:06.883Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

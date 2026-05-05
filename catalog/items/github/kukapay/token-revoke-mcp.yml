@@ -1,0 +1,82 @@
+id: github__kukapay__token-revoke-mcp
+kind: github-repo
+name: token-revoke-mcp
+canonical_url: https://github.com/kukapay/token-revoke-mcp
+identity:
+  github_repo: kukapay/token-revoke-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__kukapay__token-revoke-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: kukapay/token-revoke-mcp
+        extracted_url: https://github.com/kukapay/token-revoke-mcp
+        surrounding_text: "- [kukapay/token-revoke-mcp](https://github.com/kukapay/token-revoke-mcp) 🐍 ☁️ - An MCP server for checking and revoking ERC-20 token allowances across multiple blockchains."
+        confidence: high
+metadata:
+  github:
+    stars: 3
+    forks: 5
+    license: MIT
+    archived: false
+    created_at: "2025-03-28T13:46:45Z"
+    pushed_at: "2025-03-28T13:47:10Z"
+    description: An MCP server for checking and revoking ERC-20 token allowances across multiple blockchains.
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:03:12.791Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:12.791Z"
+      bytes: 3747
+insights:
+  summary: An MCP server that allows AI agents or client tools to check and revoke ERC-20 token allowances across more than 50 EVM-compatible blockchains.
+  why_it_matters: It gives developers and their AI assistants a programmatic way to audit and clean up wallet approvals without manually navigating multiple block explorers.
+  mental_damage: Your AI agent can now autonomously revoke token allowances it doesn't like, which is either a security upgrade or the beginning of a very expensive hallucination.
+  tags:
+    - mcp
+    - web3
+    - blockchain
+    - security
+    - evm
+  confidence: high
+curation:
+  status: included
+  reason: The project is an MCP server implementation for ERC-20 approval management, which cleanly fits the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states it is 'An MCP server for checking and revoking ERC-20 token allowances'.
+    - README includes MCP client configuration JSON and natural language tool-call examples.
+    - Listed under 'Server Implementations > Finance & Fintech' in the awesome-mcp-servers directory.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.703Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:12.791Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:32:26.997Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

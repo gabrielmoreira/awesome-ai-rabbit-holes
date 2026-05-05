@@ -1,0 +1,94 @@
+id: github__com__antvis
+kind: website
+name: antvis
+canonical_url: https://github.com/antvis
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__github__com__antvis__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 👤 <a name="customer-data-platforms"></a>Customer Data Platforms
+        anchor_text: AntV
+        extracted_url: https://github.com/antvis
+        surrounding_text: "- [antv/mcp-server-chart](https://github.com/antvis/mcp-server-chart) 🎖️ 📇 ☁️ - A Model Context Protocol server for generating visual charts using [AntV](https://github.com/antvis)."
+        confidence: high
+    - id: discovery__github__com__antvis__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: AntV
+        extracted_url: https://github.com/antvis
+        surrounding_text: "- **[Chart](https://github.com/antvis/mcp-server-chart)** - 🤖 A Model Context Protocol server for generating visual charts using [AntV](https://github.com/antvis)."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: AntV is an open-source suite of JavaScript visualization libraries and AI-powered tooling from Ant Group, covering statistical, graph, geographical, and unstructured data visualization.
+  why_it_matters: It provides developers with a comprehensive, grammar-based toolkit to embed complex data visualizations and AI-generated infographics directly into applications.
+  mental_damage: Another sprawling charting ecosystem to evaluate while you quietly mourn the one time your boss let you just use a simple bar chart.
+  tags:
+    - data-visualization
+    - javascript
+    - ant-group
+    - charting-libraries
+  confidence: high
+curation:
+  status: excluded
+  reason: While AntV includes AI features (AVA, GPT-Vis, mcp-server-chart), the organization itself is a general-purpose data visualization suite, which falls outside the catalog's focus on AI-specific developer tooling, agents, and infrastructure.
+  evidence:
+    - The README describes AntV as a 'data visualization' suite started in 2017, focusing on graphical grammar rather than AI-native tooling.
+    - The GitHub organization is a collection of 121 repositories for chart libraries (G2, G6, L7), not a single AI product.
+    - AI components (like mcp-server-chart) are sub-components of a larger traditional visualization project.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.674Z"
+    cause:
+      type: ambiguous_canonicalization
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:44:45.177Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

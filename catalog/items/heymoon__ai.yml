@@ -1,0 +1,73 @@
+id: heymoon__ai
+kind: website
+name: heymoon.ai
+canonical_url: https://heymoon.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__heymoon__ai__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Heymoon.ai
+        anchor_text: Heymoon.ai
+        extracted_url: https://heymoon.ai
+        surrounding_text: "## [Heymoon.ai](https://heymoon.ai/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Heymoon.ai is an AI autonomous agent platform listed among tools for building and running agentic workflows.
+  why_it_matters: It represents the growing ecosystem of browser-based agent builders that developers are evaluating to automate multi-step tasks.
+  mental_damage: Yet another entry in the rapidly expanding ecosystem where the primary autonomous behavior is discovering which autonomous agent to actually use.
+  tags:
+    - ai-agents
+    - agent-platform
+  confidence: low
+curation:
+  status: excluded
+  reason: The project lacks a GitHub repo, description, README, or site excerpt, so it cannot be verified as a developer-facing tool rather than a generic AI product.
+  evidence:
+    - No repository description, README excerpt, or scraped site context is available to explain what the product actually does.
+    - Only signal is a listing in awesome-ai-agents, which is evidence but not enough to override the complete lack of grounded project details.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.728Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:45:18.310Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

@@ -1,0 +1,101 @@
+id: github__apache__hamilton
+kind: github-repo
+name: hamilton
+canonical_url: https://github.com/apache/hamilton
+identity:
+  github_repo: apache/hamilton
+provenance:
+  discoveries:
+    - id: discovery__github__dagworks-inc__hamilton__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Large Scale Deployment
+          - Workflow
+        anchor_text: Hamilton
+        extracted_url: https://github.com/dagworks-inc/hamilton
+        surrounding_text: "| [Hamilton](https://github.com/dagworks-inc/hamilton)         | A lightweight framework to represent ML/language model pipelines as a series of python functions.                 | ![GitHub Badge](https://img.shields.io/github/stars/dagworks-inc/hamilton.svg?style=flat-square)   |"
+        confidence: high
+metadata:
+  github:
+    stars: 2469
+    forks: 188
+    license: Apache-2.0
+    archived: false
+    created_at: "2023-02-23T17:16:48Z"
+    pushed_at: "2026-05-04T17:34:43Z"
+    description: Apache Hamilton helps data scientists and engineers define testable, modular, self-documenting dataflows, that encode lineage/tracing and metadata. Runs and scales everywhere python does.
+    homepage: https://hamilton.apache.org/
+    topics:
+      - dag
+      - data-analysis
+      - data-engineering
+      - data-science
+      - dataframe
+      - etl
+      - etl-framework
+      - etl-pipeline
+      - feature-engineering
+      - hacktoberfest
+      - lineage
+      - llmops
+      - machine-learning
+      - mlops
+      - orchestration
+      - pandas
+      - python
+      - rag
+      - software-engineering
+    last_checked_at: "2026-05-05T21:01:05.841Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:05.841Z"
+      bytes: 18961
+insights:
+  summary: Apache Hamilton is a Python library for defining data transformation DAGs as modular, testable functions, with built-in lineage tracking and a UI for visualization and monitoring.
+  why_it_matters: It gives data and AI teams a structured way to move from ad-hoc notebooks to production pipelines without rewriting their transformation logic.
+  mental_damage: Yet another framework that promises to make your spaghetti notebook code production-ready, provided you agree to redefine your entire pipeline as a curry-flavored dependency graph.
+  tags:
+    - dag
+    - data-engineering
+    - mlops
+    - python
+    - llmops
+  confidence: high
+curation:
+  status: included
+  reason: Hamilton is a code-first Python framework and SDK for building data/LLM transformation pipelines, which fits the AI Frameworks and SDKs category rather than an agent orchestration platform or coding assistant.
+  evidence:
+    - Repo description states it is a Python library for defining testable, modular dataflows that run wherever Python runs.
+    - README positions it as a lightweight framework for DAGs used in ETL, ML workflows, and RAG systems, not as a hosted control plane.
+    - Topics include dag, data-engineering, mlops, and llmops, all mapping to embeddable AI/ML infrastructure.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (2469) exceeded threshold (150)
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:08:32.066Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.683Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:05.841Z"
+    cause: null
+    next_retry_at: null

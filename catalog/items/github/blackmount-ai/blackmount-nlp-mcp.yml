@@ -1,0 +1,92 @@
+id: github__blackmount-ai__blackmount-nlp-mcp
+kind: github-repo
+name: blackmount-nlp-mcp
+canonical_url: https://github.com/blackmount-ai/blackmount-nlp-mcp
+identity:
+  github_repo: blackmount-ai/blackmount-nlp-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__blackmount-ai__blackmount-nlp-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧮 <a name="data-science-tools"></a>Data Science Tools
+        anchor_text: BlackMount-ai/blackmount-nlp-mcp
+        extracted_url: https://github.com/blackmount-ai/blackmount-nlp-mcp
+        surrounding_text: "- [BlackMount-ai/blackmount-nlp-mcp](https://github.com/BlackMount-ai/blackmount-nlp-mcp) [![BlackMount-ai/blackmount-nlp-mcp MCP server](https://glama.ai/mcp/servers/BlackMount-ai/blackmount-nlp-mcp/badges/score.svg)](https://glama.ai/mcp/servers/BlackMount-ai/blackmount-nlp-mcp) 🐍 🏠 🍎 🪟 🐧 - Deterministic local text analysis: sentiment, readability scoring, keyword extraction, text similarity, summarization, and language detection across 18 languages. Pure Python, zero heavy dependencies, 42 KB wheel. Install: `pip install blackmount-nlp-mcp`."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-03-26T04:12:56Z"
+    pushed_at: "2026-05-01T21:35:36Z"
+    description: NLP without the bloat — sentiment, keywords, readability, summarization. No NLTK, no spaCy. Zero heavy dependencies.
+    homepage: null
+    topics:
+      - fastmcp
+      - local-first
+      - mcp
+      - mcp-server
+      - nlp
+      - python
+      - readability
+      - sentiment-analysis
+      - text-analysis
+      - vibe-coding
+    last_checked_at: "2026-05-05T21:01:22.037Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:22.037Z"
+      bytes: 10468
+insights:
+  summary: A lightweight, dependency-free MCP server that exposes 45 local NLP tools—including sentiment analysis, readability scoring, keyword extraction, and text similarity—to MCP-compatible clients like Claude Desktop and Cursor.
+  why_it_matters: It lets developers add deterministic, local text analysis to their AI coding workflows without pulling in heavy ML libraries, API keys, or external dependencies.
+  mental_damage: We have successfully reached the point where even basic NLP needs its own 42 KB micro-server just to avoid admitting that NLTK ever existed.
+  tags:
+    - mcp
+    - nlp
+    - local-first
+    - fastmcp
+    - text-analysis
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server providing NLP tooling to MCP clients, which fits squarely into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description states it is 'NLP without the bloat' delivered as an MCP server with zero heavy dependencies.
+    - README confirms it is a FastMCP server with 45 tools for Claude Desktop, Cursor, Cline, and any MCP client.
+    - Listed in awesome-mcp-servers under 'Data Science Tools', reinforcing its MCP infrastructure role.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.681Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:22.037Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:11:01.375Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,81 @@
+id: github__huawei-noah__vega
+kind: github-repo
+name: vega
+canonical_url: https://github.com/huawei-noah/vega
+identity:
+  github_repo: huawei-noah/vega
+provenance:
+  discoveries:
+    - id: discovery__github__huawei-noah__vega__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - AutoML
+        anchor_text: Vegas
+        extracted_url: https://github.com/huawei-noah/vega
+        surrounding_text: "| [Vegas](https://github.com/huawei-noah/vega)                                 | an AutoML algorithm tool chain by Huawei Noah's Arb Lab.                                                                                                                        | ![GitHub Badge](https://img.shields.io/github/stars/huawei-noah/vega.svg?style=flat-square)                |"
+        confidence: high
+metadata:
+  github:
+    stars: 851
+    forks: 177
+    license: NOASSERTION
+    archived: false
+    created_at: "2020-06-20T08:20:06Z"
+    pushed_at: "2023-02-15T09:36:59Z"
+    description: AutoML tools chain
+    homepage: http://www.noahlab.com.hk/opensource/vega/
+    topics: []
+    last_checked_at: "2026-05-05T21:02:36.421Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:36.421Z"
+      bytes: 8823
+insights:
+  summary: Vega is an AutoML algorithm tool chain from Huawei's Noah's Ark Laboratory that provides a full pipeline for hyperparameter optimization, neural architecture search, model compression, and training across PyTorch, TensorFlow, and MindSpore backends.
+  why_it_matters: It gives developers access to industry-leading, pre-built algorithms for NAS and model optimization, allowing them to automate the design and compression of neural networks rather than hand-tuning architectures.
+  mental_damage: Just when you thought your manual grid search was safe, Huawei releases a tool that automates your neural architecture job while you're still figuring out how to pronounce 'Ascend 910'.
+  tags:
+    - automl
+    - neural-architecture-search
+    - model-compression
+    - hyperparameter-optimization
+    - pytorch
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a general machine learning research and infrastructure tool for model training and architecture search, not a developer-facing AI tool, agent, or workflow product for building software.
+  evidence:
+    - Repo description is 'AutoML tools chain', focusing on NAS, HPO, and model compression rather than software development workflows.
+    - README emphasizes training capabilities for PyTorch, TensorFlow, and MindSpore, targeting ML engineers rather than software developers seeking coding assistants.
+    - Listed in Awesome-LLMOps under 'AutoML', which confirms its place in ML infrastructure rather than developer tooling.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (851) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.696Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:36.421Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:24:26.583Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

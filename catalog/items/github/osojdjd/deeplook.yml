@@ -1,0 +1,86 @@
+id: github__osojdjd__deeplook
+kind: github-repo
+name: deeplook
+canonical_url: https://github.com/osojdjd/deeplook
+identity:
+  github_repo: osojdjd/deeplook
+provenance:
+  discoveries:
+    - id: discovery__github__osojdjd__deeplook__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: OSOJDJD/deeplook
+        extracted_url: https://github.com/osojdjd/deeplook
+        surrounding_text: "- [OSOJDJD/deeplook](https://github.com/OSOJDJD/deeplook) [![OSOJDJD/deeplook MCP server](https://glama.ai/mcp/servers/OSOJDJD/deeplook/badges/score.svg)](https://glama.ai/mcp/servers/OSOJDJD/deeplook) 🐍 ☁️ 🏠 🍎 🪟 🐧 - Free company research agent — 10 data sources, structured reports with bull/bear verdict in ~10 seconds. Stocks, crypto, and private companies."
+        confidence: high
+metadata:
+  github:
+    stars: 9
+    forks: 2
+    license: AGPL-3.0
+    archived: false
+    created_at: "2026-03-15T03:14:31Z"
+    pushed_at: "2026-05-01T10:34:11Z"
+    description: Company intelligence for AI agents — any company, one call
+    homepage: https://mcp.deeplook.dev
+    topics:
+      - company-research
+      - financial-data
+      - mcp
+      - mcp-server
+      - open-source
+    last_checked_at: "2026-05-05T21:04:08.796Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:08.796Z"
+      bytes: 2454
+insights:
+  summary: An open-source MCP server that provides AI agents with real-time structured company data, financials, and market context by aggregating multiple APIs to reduce LLM hallucinations.
+  why_it_matters: It allows developers building agentic workflows to replace fragile web scraping or hallucinated financial guesses with a single MCP call delivering vetted, structured company intelligence.
+  mental_damage: We have successfully abstracted 'looking up a stock ticker' into a protocol negotiation, proving that even checking if NVIDIA is still doing well requires a middleware layer now.
+  tags:
+    - mcp
+    - finance
+    - context-engineering
+    - agent-tooling
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server designed to provide structured context to AI agents, fitting the MCP infrastructure category perfectly.
+  evidence:
+    - "Repo description states: 'Company intelligence for AI agents — any company, one call' with topics including 'mcp-server'."
+    - README installation instructions focus entirely on adding the tool as an MCP connector to Claude, Cursor, VS Code, and other MCP clients.
+    - Listed under 'awesome-mcp-servers' in the 'Finance & Fintech' section, confirming its identity as a community-recognized MCP implementation.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.712Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:08.796Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:43:15.260Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

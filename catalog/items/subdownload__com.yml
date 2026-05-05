@@ -1,0 +1,77 @@
+id: subdownload__com
+kind: website
+name: subdownload.com
+canonical_url: https://subdownload.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__subdownload__com__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: subdownload.com
+        extracted_url: https://subdownload.com
+        surrounding_text: "- [SubDownload/subdownload-mcp](https://github.com/SubDownload/subdownload-mcp) [![SubDownload/subdownload-mcp MCP server](https://glama.ai/mcp/servers/SubDownload/subdownload-mcp/badges/score.svg)](https://glama.ai/mcp/servers/SubDownload/subdownload-mcp) 🏎️ ☁️ 🍎 🪟 🐧 - YouTube knowledge base for AI agents. Summarize videos, fetch full transcripts (including videos without captions, via AI ASR), search channels and playlists, and save everything into a per-user knowledge base for cross-session recall. OAuth 2.1 with Dynamic Client Registration. Hosted at [subdownload.com](https://subdownload.com?utm_source=gthb_awesome_9jqqed&utm_medium=code&utm_campaign=Awesome). `https://api.subdownload.com/mcp`, free credits on signup."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A service that provides YouTube video transcripts and AI-generated summaries via a web UI, REST API, and MCP server for integration with AI agents and developer workflows.
+  why_it_matters: It allows developers to programmatically feed video content into LLMs by handling transcript extraction and summarization across 40+ agents and editors like Cursor and Claude.
+  mental_damage: We have officially reached the point where our AI agents need their own dedicated 'skills' and MCP servers just to watch YouTube videos for us.
+  tags:
+    - mcp
+    - transcript
+    - api
+    - knowledge-base
+  confidence: high
+curation:
+  status: included
+  reason: The product explicitly offers an MCP server endpoint (api.subdownload.com/mcp) and agent skills packaging, fitting the MCP infrastructure scope beyond just being a generic SaaS.
+  evidence:
+    - "Scraped site context lists '⚡ MCP Server: Add api.subdownload.com/mcp to Claude, ChatGPT, Cursor'."
+    - Site mentions 'npx @subdown/skill@latest — works with 40+ agents' as an Agent Skill.
+    - Listed in the 'awesome-mcp-servers' directory under 'Server Implementations > Knowledge & Memory'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.730Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:48:23.600Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

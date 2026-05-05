@@ -1,0 +1,103 @@
+id: github__bh-rat__context-awesome
+kind: github-repo
+name: context-awesome
+canonical_url: https://github.com/bh-rat/context-awesome
+identity:
+  github_repo: bh-rat/context-awesome
+provenance:
+  discoveries:
+    - id: discovery__github__bh-rat__context-awesome__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: bh-rat/context-awesome
+        extracted_url: https://github.com/bh-rat/context-awesome
+        surrounding_text: "- [bh-rat/context-awesome](https://github.com/bh-rat/context-awesome) 📇 ☁️ 🏠 - MCP server for querying 8,500+ curated awesome lists (1M+ items) and fetching the best resources for your agent."
+        confidence: high
+    - id: discovery__github__bh-rat__context-awesome__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: context-awesome
+        extracted_url: https://github.com/bh-rat/context-awesome
+        surrounding_text: "- **[context-awesome](https://github.com/bh-rat/context-awesome)** - A MCP server for querying 8,500+ curated awesome lists (1M+ items) and fetching the best resources for your agent."
+        confidence: high
+metadata:
+  github:
+    stars: 49
+    forks: 9
+    license: MIT
+    archived: false
+    created_at: "2025-08-20T19:17:32Z"
+    pushed_at: "2026-04-21T15:04:15Z"
+    description: awesome-lists now available as CLI & MCP server for your agent.
+    homepage: https://www.context-awesome.com
+    topics:
+      - agents
+      - awesome
+      - awesome-list
+      - llm
+      - mcp
+      - mcp-server
+    last_checked_at: "2026-05-05T21:01:20.056Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:20.056Z"
+      bytes: 11247
+insights:
+  summary: An MCP server and CLI that exposes over 8,500 GitHub awesome lists and 1M+ indexed items to AI agents for structured resource discovery.
+  why_it_matters: It gives coding agents a curated, high-signal alternative to random web searches when looking for libraries, tools, and learning resources.
+  mental_damage: Your agent can now recursively cite awesome lists to justify its choices, turning dependency selection into a citation-tree nightmare.
+  tags:
+    - mcp
+    - awesome-lists
+    - cli
+    - context
+    - agent-tools
+  confidence: high
+curation:
+  status: included
+  reason: The product is explicitly an MCP server and CLI for exposing awesome-list data to agents, which fits cleanly into MCP infrastructure.
+  evidence:
+    - Repo description states it is 'awesome-lists now available as CLI & MCP server for your agent.'
+    - README details MCP tools (find_awesome_section, search_awesome_items) and CLI equivalents for agent integration.
+    - Listed in awesome-mcp-servers under 'Knowledge & Memory' and 'Community Servers' sections.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.663Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:20.056Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:10:39.200Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

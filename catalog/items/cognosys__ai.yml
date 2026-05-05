@@ -1,0 +1,75 @@
+id: cognosys__ai
+kind: website
+name: cognosys.ai
+canonical_url: https://cognosys.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__cognosys__ai__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Cognosys
+        anchor_text: Cognosys
+        extracted_url: https://cognosys.ai
+        surrounding_text: "## [Cognosys](https://cognosys.ai)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Cognosys is a browser-based platform for creating and deploying autonomous AI agents to perform complex tasks.
+  why_it_matters: It allows developers to delegate multi-step workflows and research tasks to autonomous agents without needing to build the orchestration layer themselves.
+  mental_damage: Just when you thought you had a handle on your own tech stack, now you're responsible for performance-reviewing a digital intern that never sleeps and has no concept of technical debt.
+  tags:
+    - agents
+    - autonomous
+    - browser-based
+    - workflow-automation
+  confidence: medium
+curation:
+  status: included
+  reason: The tool is a user-facing platform for operating autonomous agents rather than a coding assistant that edits code in a repo or a builder that generates full apps from prompts.
+  evidence:
+    - Listed under 'Cognosys' in the awesome-ai-agents list within the 'A list of AI autonomous agents' section.
+    - URL points to a hosted SaaS product (cognosys.ai) rather than a code repository or IDE plugin.
+placement:
+  primary_category: agent-orchestration
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.726Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:43:08.274Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

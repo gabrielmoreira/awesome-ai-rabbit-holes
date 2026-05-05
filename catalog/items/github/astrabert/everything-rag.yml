@@ -1,0 +1,97 @@
+id: github__astrabert__everything-rag
+kind: github-repo
+name: everything-rag
+canonical_url: https://github.com/astrabert/everything-rag
+identity:
+  github_repo: astrabert/everything-rag
+provenance:
+  discoveries:
+    - id: discovery__github__astrabert__everything-rag__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: janhq/awesome-local-ai
+        url: https://github.com/janhq/awesome-local-ai
+        repository: janhq/awesome-local-ai
+      extraction:
+        mode: parsed
+        section_path:
+          - Inference UI
+        anchor_text: everything-rag
+        extracted_url: https://github.com/astrabert/everything-rag
+        surrounding_text: "- [everything-rag](https://github.com/AstraBert/everything-rag) - Interact with (virtually) any LLM on Hugging Face Hub with an asy-to-use, 100% local Gradio chatbot."
+        confidence: high
+metadata:
+  github:
+    stars: 249
+    forks: 22
+    license: Apache-2.0
+    archived: true
+    created_at: "2024-04-03T22:20:59Z"
+    pushed_at: "2024-06-18T11:28:17Z"
+    description: Your fully proficient, AI-powered and local chatbot assistant🤖
+    homepage: https://astrabert.github.io/everything-ai/
+    topics:
+      - ai
+      - ai-studio
+      - chatgpt
+      - cheshire-cat
+      - docker-image
+      - free-to-use
+      - generative-ai
+      - image-classification
+      - jan-ai
+      - langchain
+      - learning
+      - local-llm
+      - open-source
+      - qdrant
+      - stable-diffusion
+      - text-summarization
+    last_checked_at: "2026-05-05T21:01:11.309Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:11.309Z"
+      bytes: 6585
+insights:
+  summary: A Dockerized, local-first AI assistant suite that provides a web UI for running retrieval-augmented generation, image generation, summarization, and various other ML tasks using local models via llama.cpp and Qdrant.
+  why_it_matters: It offers developers a self-contained, privacy-preserving stack to experiment with RAG pipelines and multi-modal AI tasks without relying on external APIs.
+  mental_damage: Just when you thought the 'everything-app' nightmare was confined to your phone, someone Dockerized the entire Hugging Face Hub and called it a chatbot.
+  tags:
+    - local-ai
+    - rag
+    - docker
+    - llama-cpp
+    - multimodal
+  confidence: high
+curation:
+  status: excluded
+  reason: The repository is archived and functions as a general-purpose local AI chatbot suite rather than a tool focused on the software development lifecycle.
+  evidence:
+    - Repository is marked as archived, indicating it is no longer actively maintained.
+    - The README describes a 'local chatbot assistant' with tasks like image generation and protein folding, lacking a developer-tooling workflow angle.
+    - Listed in awesome-local-ai under 'Inference UI', confirming its place as a consumer-facing local UI rather than a coding utility.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: needs_review
+  reason: Repository is archived
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.440Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:11.309Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:09:18.453Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

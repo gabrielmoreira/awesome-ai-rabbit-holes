@@ -1,0 +1,82 @@
+id: github__cseguinlz__doubletick-cli
+kind: github-repo
+name: doubletick-cli
+canonical_url: https://github.com/cseguinlz/doubletick-cli
+identity:
+  github_repo: cseguinlz/doubletick-cli
+provenance:
+  discoveries:
+    - id: discovery__github__cseguinlz__doubletick-cli__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💬 <a name="communication"></a>Communication
+        anchor_text: cseguinlz/doubletick-cli
+        extracted_url: https://github.com/cseguinlz/doubletick-cli
+        surrounding_text: "- [cseguinlz/doubletick-cli](https://github.com/cseguinlz/doubletick-cli) [![double-tick-mcp-server MCP server](https://glama.ai/mcp/servers/cseguinlz/double-tick-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/cseguinlz/double-tick-mcp-server) 📇 ☁️ - Email read tracking via Gmail. Send tracked emails, check if they were opened with open count, device, and timing."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-02-28T10:46:08Z"
+    pushed_at: "2026-03-18T17:55:54Z"
+    description: CLI and MCP server for DoubleTick email read tracking
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:01:43.672Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:43.672Z"
+      bytes: 3837
+insights:
+  summary: A CLI and MCP server for sending Gmail emails with read-tracking pixels and checking open status via the DoubleTick backend.
+  why_it_matters: It allows developers and AI agents to programmatically send tracked emails and check engagement directly from the terminal or through MCP-compatible tools like Claude Desktop.
+  mental_damage: We have successfully abstracted the primal human need for validation into a 1x1 pixel fired by a Node.js script running in a terminal.
+  tags:
+    - mcp
+    - cli
+    - email
+    - gmail
+    - tracking
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly built as an MCP server to allow AI agents to send and track emails, fitting the MCP infrastructure scope.
+  evidence:
+    - Repo description states it is a 'CLI and MCP server for DoubleTick email read tracking'.
+    - README details MCP setup for Claude and lists tools like `send_tracked_email` for agent use.
+    - Listed in the awesome-mcp-servers directory under 'Communication'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.683Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:43.672Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:14:52.880Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

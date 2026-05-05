@@ -1,0 +1,90 @@
+id: github__evilsocket__nerve
+kind: github-repo
+name: nerve
+canonical_url: https://github.com/evilsocket/nerve
+identity:
+  github_repo: evilsocket/nerve
+provenance:
+  discoveries:
+    - id: discovery__github__evilsocket__nerve__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Clients
+        anchor_text: Nerve
+        extracted_url: https://github.com/evilsocket/nerve
+        surrounding_text: "- **[Nerve](https://github.com/evilsocket/nerve)** is an open source command line tool designed to be a simple yet powerful platform for creating and executing MCP integrated LLM-based agents."
+        confidence: high
+metadata:
+  github:
+    stars: 1318
+    forks: 114
+    license: NOASSERTION
+    archived: true
+    created_at: "2024-06-07T09:58:13Z"
+    pushed_at: "2025-08-23T15:12:48Z"
+    description: The Simple Agent Development Kit.
+    homepage: ""
+    topics:
+      - adk
+      - agent-based-modeling
+      - agent-development-kit
+      - agents
+      - ai
+      - llm
+      - mcp
+      - mcp-client
+      - model-context-protocol
+    last_checked_at: "2026-05-05T21:02:05.990Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:05.990Z"
+      bytes: 4191
+insights:
+  summary: Nerve is a Python-based agent development kit that lets developers define, run, evaluate, and orchestrate LLM-based agents using YAML configurations and a CLI.
+  why_it_matters: It offers a declarative, auditable way to build and benchmark multi-step agent workflows with native MCP support and LiteLLM provider agnosticism.
+  mental_damage: Just when you thought YAML couldn't eclipse code in any more paradigms, your agent orchestration layer now demands you declare your autonomy in a config file.
+  tags:
+    - agent-sdk
+    - mcp
+    - yaml
+    - llm-orchestration
+    - cli
+  confidence: high
+curation:
+  status: included
+  reason: It is a code-first SDK and CLI toolkit for developers to build and evaluate agents programmatically, which fits the AI Frameworks definition rather than an end-user orchestration platform.
+  evidence:
+    - Repo description states it is 'The Simple Agent Development Kit' with a CLI and YAML definitions.
+    - README describes it as a framework using Python (pip install nerve-adk) and YAML to build, run, and evaluate agents.
+    - README explicitly highlights being an LLM-agnostic SDK built on LiteLLM with native MCP client/server support.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: needs_review
+  reason: Repository is archived
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.686Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:05.990Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:18:39.193Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,75 @@
+id: routine__co
+kind: website
+name: routine.co
+canonical_url: https://routine.co
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__routine__co__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Routine
+        extracted_url: https://routine.co
+        surrounding_text: "- **[Routine](https://github.com/routineco/mcp-server)** - MCP server to interact with [Routine](https://routine.co/): calendars, tasks, notes, etc."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Routine is a cross-platform AI-powered workspace that combines tasks, calendars, notes, and meeting data with features like AI meeting summaries, voice commands, and workflow automations.
+  why_it_matters: While it offers automation and AI agents for workflow management, it targets general productivity and team operations rather than the specific needs of software development workflows.
+  mental_damage: Just when you thought you had a handle on your stack, the industry invents another 'AI-powered operating system' to manage the apps that were supposed to manage your time.
+  tags:
+    - productivity
+    - ai-agents
+    - task-management
+  confidence: high
+curation:
+  status: excluded
+  reason: Routine is a general productivity and task management SaaS for professionals and teams, lacking a specific developer-tooling or code-workflow angle required for the catalog.
+  evidence:
+    - The scraped site describes it as 'One App for Tasks, Calendar & Notes, Powered by AI' targeting 'ambitious professionals and teams', not developers specifically.
+    - Testimonials and use cases focus on replacing tools like Notion, Todoist, and Asana for general work management, not coding or repository workflows.
+    - It appears in awesome-mcp-servers only as a listed integration, but the product itself is a consumer-facing productivity app, not MCP infrastructure.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.730Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:47:48.478Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

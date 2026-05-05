@@ -1,0 +1,96 @@
+id: github__johnneerdael__netskope-mcp
+kind: github-repo
+name: netskope-mcp
+canonical_url: https://github.com/johnneerdael/netskope-mcp
+identity:
+  github_repo: johnneerdael/netskope-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__johnneerdael__netskope-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
+        anchor_text: johnneerdael/netskope-mcp
+        extracted_url: https://github.com/johnneerdael/netskope-mcp
+        surrounding_text: "- [johnneerdael/netskope-mcp](https://github.com/johnneerdael/netskope-mcp) 🔒 ☁️ - An MCP to give access to all Netskope Private Access components within a Netskope Private Access environments including detailed setup information and LLM examples on usage."
+        confidence: high
+    - id: discovery__github__johnneerdael__netskope-mcp__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - ☁️ Cloud Platforms
+        anchor_text: johnneerdael/netskope-mcp
+        extracted_url: https://github.com/johnneerdael/netskope-mcp
+        surrounding_text: "-   **[johnneerdael/netskope-mcp](https://github.com/johnneerdael/netskope-mcp)** [![GitHub stars](https://img.shields.io/github/stars/johnneerdael/netskope-mcp?style=social)](https://github.com/johnneerdael/netskope-mcp): Accesses Netskope Private Access components and provides setup details."
+        confidence: high
+metadata:
+  github:
+    stars: 6
+    forks: 13
+    license: null
+    archived: false
+    created_at: "2025-01-29T01:53:05Z"
+    pushed_at: "2025-08-08T15:39:39Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:57.967Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:57.967Z"
+      bytes: 6128
+insights:
+  summary: An MCP server providing 84 tools for managing Netskope Private Access infrastructure, such as publishers, apps, and policies, via AI clients.
+  why_it_matters: It allows developers and DevOps engineers to automate complex Netskope security workflows, like provisioning new offices or handling incidents, through natural language prompts.
+  mental_damage: We have finally invented an AI that can configure VPNs and firewall rules, ensuring our cloud infrastructure can now be misconfigured conversationally.
+  tags:
+    - mcp
+    - netskope
+    - cloud-security
+    - automation
+  confidence: high
+curation:
+  status: included
+  reason: The project is a specialized MCP server implementation for Netskope, fitting the MCP infrastructure scope rather than a generic coding agent or framework.
+  evidence:
+    - README explicitly defines it as 'A comprehensive Model Context Protocol (MCP) server for managing Netskope Private Access'.
+    - Provides 84 specialized tools exposed via MCP for infrastructure automation.
+    - Listed in 'awesome-mcp-servers' under Cloud Platforms, confirming its role in the MCP ecosystem.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.439Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:57.967Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:28:57.898Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

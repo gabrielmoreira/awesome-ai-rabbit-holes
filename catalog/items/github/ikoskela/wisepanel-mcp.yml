@@ -1,0 +1,81 @@
+id: github__ikoskela__wisepanel-mcp
+kind: github-repo
+name: wisepanel-mcp
+canonical_url: https://github.com/ikoskela/wisepanel-mcp
+identity:
+  github_repo: ikoskela/wisepanel-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__ikoskela__wisepanel-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🔗 <a name="aggregators"></a>Aggregators
+        anchor_text: ikoskela/wisepanel-mcp
+        extracted_url: https://github.com/ikoskela/wisepanel-mcp
+        surrounding_text: "- [ikoskela/wisepanel-mcp](https://github.com/ikoskela/wisepanel-mcp) [![ikoskela/wisepanel-mcp MCP server](https://glama.ai/mcp/servers/ikoskela/wisepanel-mcp/badges/score.svg)](https://glama.ai/mcp/servers/ikoskela/wisepanel-mcp) 📇 ☁️ 🍎 🪟 🐧 - Multi-agent deliberation with divergent context enhancement. Roles are dynamically generated to surround the question-space and maximize divergent dialog across ChatGPT, Claude, Gemini, and Perplexity."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-02-23T03:10:24Z"
+    pushed_at: "2026-03-17T20:51:44Z"
+    description: MCP server for Wisepanel multi-agent deliberation platform
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:41.570Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:41.570Z"
+      bytes: 2797
+insights:
+  summary: An MCP server that gives Claude Code and compatible clients direct access to Wisepanel's multi-agent deliberation platform to run debates across Claude, Gemini, and Perplexity.
+  why_it_matters: Developers can orchestrate multi-model deliberations and stream panelist responses directly from their coding environment instead of switching to a separate platform.
+  mental_damage: Now your AI can consult other AIs and report back with their collective indecision, all without leaving the terminal.
+  tags:
+    - mcp
+    - multi-agent
+    - deliberation
+    - claude-code
+  confidence: high
+curation:
+  status: included
+  reason: This is a standalone MCP server that integrates Wisepanel's deliberation platform with MCP-compatible clients, fitting cleanly into the MCP infrastructure category.
+  evidence:
+    - "Repo description states: 'MCP server for Wisepanel multi-agent deliberation platform'"
+    - README shows it exposes Wisepanel tools (start, poll, result, publish) via the Model Context Protocol
+    - Listed in awesome-mcp-servers under 'Server Implementations > Aggregators'
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.697Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:41.570Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:25:36.801Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

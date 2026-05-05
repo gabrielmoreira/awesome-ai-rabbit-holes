@@ -1,0 +1,80 @@
+id: www__withone__ai
+kind: website
+name: www.withone.ai
+canonical_url: https://www.withone.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__withone__ai__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: Pica
+        extracted_url: https://www.picaos.com
+        surrounding_text: "- [picahq/mcp](https://github.com/picahq/mcp) 🎖️ 🦀 📇 ☁️ - One MCP for all your integrations — powered by [Pica](https://www.picaos.com), the infrastructure for intelligent, collaborative agents."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: An agent infrastructure platform providing a CLI, SDK, and managed MCP server to connect AI agents to 250+ platforms with managed auth, memory, and 50,000+ pre-built integrations.
+  why_it_matters: Developers can skip writing and maintaining custom OAuth flows, rate limiting, and API wiring by routing agent actions through a single authenticated runtime.
+  mental_damage: We have successfully abstracted integrating APIs into prompting a CLI to prompt an agent to use an API, which is exactly the kind of recursive workflow layering that guarantees someone will debug a token refresh at 2am.
+  tags:
+    - mcp
+    - agent-infrastructure
+    - cli
+    - integrations
+    - auth
+  confidence: high
+curation:
+  status: included
+  reason: The product is primarily an MCP server and toolkit infrastructure, explicitly offering the 'largest MCP server with 50,000+ tools' and a Bridge tool to turn API docs into MCP servers.
+  evidence:
+    - Listed under 'Server Implementations > Developer Tools' in awesome-mcp-servers.
+    - "FAQ states: 'One hosts the largest MCP server with 50,000+ tools ready to use. Bridge lets you turn any API into an MCP server by just pasting its docs URL.'"
+    - "Primary description: 'Connect your AI agents to every app. Auth, memory, scheduling, and 47,000+ tools in one CLI.'"
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.734Z"
+    cause:
+      type: ambiguous_canonicalization
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:54:07.056Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

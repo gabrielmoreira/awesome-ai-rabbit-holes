@@ -1,0 +1,82 @@
+id: github__aparajithn__agent-utils-mcp
+kind: github-repo
+name: agent-utils-mcp
+canonical_url: https://github.com/aparajithn/agent-utils-mcp
+identity:
+  github_repo: aparajithn/agent-utils-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__aparajithn__agent-utils-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: aparajithn/agent-utils-mcp
+        extracted_url: https://github.com/aparajithn/agent-utils-mcp
+        surrounding_text: "- [aparajithn/agent-utils-mcp](https://github.com/aparajithn/agent-utils-mcp) [![agent-utils-mcp MCP server](https://glama.ai/mcp/servers/@aparajithn/agent-utils-mcp/badges/score.svg)](https://glama.ai/mcp/servers/@aparajithn/agent-utils-mcp) 🐍 ☁️ - Swiss-army-knife utility server for AI agents. 18 tools including JSON validation, base64, hashing, UUID generation, regex testing, markdown conversion, datetime conversion, cron parsing, CSV/JSON conversion, JWT decoding, and more. Streamable HTTP MCP + REST API with x402 micropayments."
+        confidence: high
+metadata:
+  github:
+    stars: 2
+    forks: 0
+    license: null
+    archived: false
+    created_at: "2026-03-05T13:15:19Z"
+    pushed_at: "2026-03-07T07:13:56Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:01:06.341Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:06.341Z"
+      bytes: 2911
+insights:
+  summary: A Python-based MCP server providing 18 utility tools—such as JSON validation, hashing, and cron parsing—via Streamable HTTP and REST API for integration with AI agents.
+  why_it_matters: It gives agents a ready-made set of formatting, parsing, and generation primitives so they can stop hallucinating base64 encoding and cron calculations.
+  mental_damage: We now have a dedicated microservice to do what every developer already has in their shell history, just so your agent can mis-spell 'base64' in JSON RPC instead.
+  tags:
+    - mcp
+    - utilities
+    - fastapi
+    - agent-tools
+    - rest-api
+  confidence: medium
+curation:
+  status: included
+  reason: The project is explicitly an MCP server offering utility tools for AI agents, fitting cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - "README states: 'A Swiss-army-knife utility server for AI agents — 18 tools via MCP (Streamable HTTP) + REST API.'"
+    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
+    - Deployed as a live MCP endpoint at https://agent-utils-mcp.onrender.com/mcp with SDK usage.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.679Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:06.341Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:08:37.678Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

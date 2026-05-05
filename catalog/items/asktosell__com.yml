@@ -1,0 +1,74 @@
+id: asktosell__com
+kind: website
+name: asktosell.com
+canonical_url: https://asktosell.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__asktosell__com__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - AskToSell
+        anchor_text: AskToSell
+        extracted_url: https://asktosell.com
+        surrounding_text: "## [AskToSell](https://asktosell.com/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: AskToSell is a sales-focused AI agent listed in directories of autonomous agents.
+  why_it_matters: It represents the growing trend of verticalized AI agents, though it targets sales workflows rather than developer environments.
+  mental_damage: We have officially run out of developer problems to solve and have moved on to automating the people who buy the things we build.
+  tags:
+    - sales-agent
+    - autonomous-agent
+  confidence: high
+curation:
+  status: excluded
+  reason: The product is a sales agent for B2B outreach, which falls outside the catalog's scope of developer-facing tooling, infrastructure, and workflow automation.
+  evidence:
+    - The URL is asktosell.com, indicating a sales-focused product rather than a developer tool.
+    - Listed in awesome-ai-agents under a sales context, not a developer tooling section.
+    - No inputs describe coding assistance, IDE integration, or developer infrastructure.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.726Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:42:04.155Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

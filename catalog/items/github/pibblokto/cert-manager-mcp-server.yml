@@ -1,0 +1,81 @@
+id: github__pibblokto__cert-manager-mcp-server
+kind: github-repo
+name: cert-manager-mcp-server
+canonical_url: https://github.com/pibblokto/cert-manager-mcp-server
+identity:
+  github_repo: pibblokto/cert-manager-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__pibblokto__cert-manager-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
+        anchor_text: pibblokto/cert-manager-mcp-server
+        extracted_url: https://github.com/pibblokto/cert-manager-mcp-server
+        surrounding_text: "- [pibblokto/cert-manager-mcp-server](https://github.com/pibblokto/cert-manager-mcp-server) 🐍 🍎/🐧 ☁️ - mcp server for [cert-manager](https://github.com/cert-manager/cert-manager) management and troubleshooting"
+        confidence: high
+metadata:
+  github:
+    stars: 23
+    forks: 3
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-08-03T07:13:26Z"
+    pushed_at: "2025-08-25T10:16:29Z"
+    description: MCP Server for cert-manager
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:04:16.945Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:16.945Z"
+      bytes: 3097
+insights:
+  summary: An MCP server that lets AI assistants manage and troubleshoot cert-manager resources such as certificates and issuers inside Kubernetes clusters.
+  why_it_matters: Developers can offload tedious certificate hunting and renewal across namespaces and kubeconfig contexts directly to their AI assistant instead of writing kubectl incantations.
+  mental_damage: We have successfully reached the point where even our TLS certificates require an AI intermediary to feel emotionally supported.
+  tags:
+    - mcp
+    - kubernetes
+    - cert-manager
+    - devops
+  confidence: high
+curation:
+  status: included
+  reason: This is a standalone MCP server purpose-built to expose cert-manager and Kubernetes operations to MCP-compatible AI clients, which fits cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states 'MCP Server for cert-manager'.
+    - README details specific MCP tools (list_certificates, renew_certificate, switch_context) for Kubernetes cert-manager workflows.
+    - Listed under 'Server Implementations > Cloud Platforms' in the awesome-mcp-servers directory.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.713Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:16.945Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:44:41.120Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

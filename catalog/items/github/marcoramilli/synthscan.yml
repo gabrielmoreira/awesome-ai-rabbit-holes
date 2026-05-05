@@ -1,0 +1,85 @@
+id: github__marcoramilli__synthscan
+kind: github-repo
+name: synthscan
+canonical_url: https://github.com/marcoramilli/synthscan
+identity:
+  github_repo: marcoramilli/synthscan
+provenance:
+  discoveries:
+    - id: discovery__github__marcoramilli__synthscan__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Code Review and Refactoring
+        anchor_text: SynthScan
+        extracted_url: https://github.com/marcoramilli/synthscan
+        surrounding_text: "- **[SynthScan](https://github.com/marcoramilli/SynthScan)** – Scans codebases for AI-generated code patterns."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-04-17T13:15:16Z"
+    pushed_at: "2026-04-17T15:49:35Z"
+    description: Is your codebase AI Slopped? Find out with SynthScan!
+    homepage: ""
+    topics:
+      - ai
+      - ai-agents
+      - ai-code
+      - ai-code-review
+      - ai-safety
+    last_checked_at: "2026-05-05T21:03:29.050Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:29.050Z"
+      bytes: 7914
+insights:
+  summary: SynthScan is a GitHub Action and local scanner that detects AI-generated code patterns in a repository using a configurable set of rules and reports a normalized 'Synthetic Code Score'.
+  why_it_matters: It gives teams a quantifiable heuristic to audit their codebase for AI-generated boilerplate and stylistic patterns that often accompany synthetic code.
+  mental_damage: We have finally reached the point where we need automated tools to determine if our codebase was written by the very tools we just mandated everyone use.
+  tags:
+    - code-review
+    - ai-detection
+    - github-actions
+    - code-quality
+  confidence: medium
+curation:
+  status: included
+  reason: It fits the evals category as a specialized benchmark/harness for measuring the presence of AI-generated code patterns within a repository.
+  evidence:
+    - README defines a 'Synthetic Code Score' metric normalized per 1k LOC to measure AI signal in codebases.
+    - Tool outputs a JSON report and severity breakdown specifically designed to evaluate the nature of the code.
+    - Listed in awesome-ai-coding-tools under the 'Code Review and Refactoring' section, indicating developer-tooling relevance.
+placement:
+  primary_category: evals
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.705Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:29.050Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:35:39.107Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

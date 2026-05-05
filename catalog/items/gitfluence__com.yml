@@ -1,0 +1,75 @@
+id: gitfluence__com
+kind: website
+name: gitfluence.com
+canonical_url: https://gitfluence.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__gitfluence__com__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: janhq/awesome-local-ai
+        url: https://github.com/janhq/awesome-local-ai
+        repository: janhq/awesome-local-ai
+      extraction:
+        mode: parsed
+        section_path:
+          - Developer tools
+        anchor_text: GitFluence
+        extracted_url: https://www.gitfluence.com
+        surrounding_text: "- [GitFluence](https://www.gitfluence.com) - The AI-driven solution that helps you quickly find the right command. Get started with Git Command Generator today and save time."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A web-based AI tool that suggests the correct Git command based on a plain-language description of the desired action.
+  why_it_matters: It reduces workflow friction for developers who know what they want to do in Git but cannot recall the specific syntax or flags.
+  mental_damage: We have reached the point where the developer tooling stack requires an AI wrapper to translate human intent into a three-word command that hasn't changed in a decade.
+  tags:
+    - git
+    - cli
+    - workflow
+    - utility
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a narrow utility for a single CLI command rather than a developer tool, agent, or infrastructure component that fits the catalog's scope.
+  evidence:
+    - Scraped site context describes the tool solely as 'Git Command Generator' and 'helps you quickly find the right command'.
+    - The workflow is limited to describing a command, receiving a suggestion, and copying it to the terminal.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.727Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:44:44.310Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

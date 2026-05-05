@@ -1,0 +1,81 @@
+id: github__intentos-labs__beeper-mcp
+kind: github-repo
+name: beeper-mcp
+canonical_url: https://github.com/intentos-labs/beeper-mcp
+identity:
+  github_repo: intentos-labs/beeper-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__intentos-labs__beeper-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: intentos-labs/beeper-mcp
+        extracted_url: https://github.com/intentos-labs/beeper-mcp
+        surrounding_text: "- [intentos-labs/beeper-mcp](https://github.com/intentos-labs/beeper-mcp) 🐍 - Beeper provides transactions on BSC, including balance/token transfers, token swaps in Pancakeswap and beeper reward claims."
+        confidence: high
+metadata:
+  github:
+    stars: 3
+    forks: 3
+    license: null
+    archived: false
+    created_at: "2025-04-09T08:08:41Z"
+    pushed_at: "2025-04-10T09:12:10Z"
+    description: A backend service for executing beeper transactions on Binance Smart Chain
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:45.337Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:45.337Z"
+      bytes: 3590
+insights:
+  summary: A backend service that exposes Binance Smart Chain wallet operations, token swaps, and reward claims as MCP tools for integration with LLM clients like Claude and Cursor.
+  why_it_matters: It allows developers to delegate routine BSC DeFi operations directly to an AI agent via the Model Context Protocol, streamlining blockchain interaction workflows.
+  mental_damage: Because the one thing missing from your AI-assisted development loop was definitely giving a large language model direct access to your wallet's private key.
+  tags:
+    - mcp
+    - blockchain
+    - bsc
+    - defi
+  confidence: high
+curation:
+  status: included
+  reason: The project is a dedicated MCP server implementation for blockchain interactions, fitting squarely into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states 'A backend service for executing beeper transactions...' acting as an MCP server.
+    - README details configuration for Claude/Windsurf/Cursor and lists exposed MCP tools for wallet and trading operations.
+    - Listed in awesome-mcp-servers under the 'Finance & Fintech' section.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.698Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:45.337Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:26:18.000Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

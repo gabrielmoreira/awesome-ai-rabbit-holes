@@ -1,0 +1,76 @@
+id: www__getdot__ai
+kind: website
+name: www.getdot.ai
+canonical_url: https://www.getdot.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__getdot__ai__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Dot
+        anchor_text: Dot
+        extracted_url: https://www.getdot.ai
+        surrounding_text: "## [Dot](https://www.getdot.ai/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Dot is a hosted AI data analyst that answers business data questions via chat interfaces in Slack, Microsoft Teams, and email.
+  why_it_matters: It allows development and product teams to query metrics and data without writing SQL or waiting on a data analyst.
+  mental_damage: Another branded 'AI teammate' arrives to ensure that even your data questions are now answered by a black box you can't debug.
+  tags:
+    - data-analysis
+    - chatbot
+    - saas
+    - analytics
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a business-facing data analytics SaaS, not a developer tool for writing code, building apps, or managing infrastructure.
+  evidence:
+    - Scraped site description states 'Dot is the AI data analyst that answers any data question in seconds.'
+    - Primary integration points are Slack, Microsoft Teams, and email, not IDEs or CLIs.
+    - Listed in awesome-ai-agents under a data analyst section, but the product targets business users rather than developers.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.732Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:50:55.959Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

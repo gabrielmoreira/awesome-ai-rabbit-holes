@@ -1,0 +1,90 @@
+id: github__massive-com__mcp_massive
+kind: github-repo
+name: mcp_polygon
+canonical_url: https://github.com/massive-com/mcp_massive
+identity:
+  github_repo: massive-com/mcp_massive
+provenance:
+  discoveries:
+    - id: discovery__github__polygon-io__mcp_polygon__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: polygon-io/mcp_polygon)
+        extracted_url: https://github.com/polygon-io/mcp_polygon
+        surrounding_text: "- [polygon-io/mcp_polygon)](https://github.com/polygon-io/mcp_polygon)) 🐍 ☁️ -  An MCP server that provides access to [Polygon.io](https://polygon.io/) financial market data APIs for stocks, indices, forex, options, and more."
+        confidence: high
+metadata:
+  github:
+    stars: 325
+    forks: 88
+    license: MIT
+    archived: false
+    created_at: "2025-03-19T22:05:09Z"
+    pushed_at: "2026-05-05T20:28:21Z"
+    description: An MCP server for Massive.com Financial Market Data
+    homepage: ""
+    topics:
+      - cryptocurrency
+      - fintech
+      - llm
+      - market-data
+      - mcp
+      - mcp-server
+      - options
+      - stocks
+    last_checked_at: "2026-05-05T21:03:31.345Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:31.345Z"
+      bytes: 10070
+insights:
+  summary: "An MCP server that exposes the full Massive.com financial market data API to LLMs through three composable tools: search, call, and query."
+  why_it_matters: Developers can let coding agents pull real-time and historical market data, calculate option greeks, and run SQL queries without writing custom API integration code.
+  mental_damage: Your trading bot now has the same API access as your analyst, which mostly means your CLI is one prompt away from YOLOing a theta-decay experiment at 2am.
+  tags:
+    - mcp
+    - market-data
+    - finance
+    - llm-tooling
+    - sqlite
+  confidence: high
+curation:
+  status: included
+  reason: The project is an MCP server that integrates financial market data into LLM workflows, which fits cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description explicitly states: 'An MCP server for Massive.com Financial Market Data'"
+    - README confirms it is 'A Model Context Protocol (MCP) server that provides access to the full Massive.com financial data API'
+    - Installation instructions show integration with Claude Code and Claude Desktop as an MCP server
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (325) exceeded threshold (150)
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:36:07.589Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.713Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:31.345Z"
+    cause: null
+    next_retry_at: null

@@ -1,0 +1,115 @@
+id: github__centralmind__gateway
+kind: github-repo
+name: gateway
+canonical_url: https://github.com/centralmind/gateway
+identity:
+  github_repo: centralmind/gateway
+provenance:
+  discoveries:
+    - id: discovery__github__centralmind__gateway__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🗄️ <a name="databases"></a>Databases
+        anchor_text: centralmind/gateway
+        extracted_url: https://github.com/centralmind/gateway
+        surrounding_text: "- [centralmind/gateway](https://github.com/centralmind/gateway) 🏎️ 🏠 🍎 🪟 - MCP and MCP SSE Server that automatically generate API based on database schema and data. Supports PostgreSQL, Clickhouse, MySQL, Snowflake, BigQuery, Supabase"
+        confidence: high
+    - id: discovery__github__centralmind__gateway__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Frameworks
+        anchor_text: centralmind/gateway
+        extracted_url: https://github.com/centralmind/gateway
+        surrounding_text: "- **[centralmind/gateway](https://github.com/centralmind/gateway)** - CLI that generates MCP tools based on your Database schema and data using AI and host as REST, MCP or MCP-SSE server"
+        confidence: high
+metadata:
+  github:
+    stars: 528
+    forks: 65
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-02-10T19:34:14Z"
+    pushed_at: "2025-07-18T16:15:36Z"
+    description: Universal MCP-Server for your Databases optimized for LLMs and AI-Agents.
+    homepage: https://centralmind.ai
+    topics:
+      - amazon-bedrock
+      - anthropic-claude
+      - api
+      - automatic-api
+      - clickhouse
+      - duckdb
+      - elasticsearch
+      - golang
+      - google-vertex-ai
+      - llm
+      - mcp
+      - mysql-database
+      - openai
+      - oracle-database
+      - postgresql
+      - rest-api
+      - snowflake
+      - supabase
+    last_checked_at: "2026-05-05T21:01:31.259Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:31.259Z"
+      bytes: 12283
+insights:
+  summary: A self-hosted gateway that automatically generates and exposes secure, LLM-optimized REST or MCP APIs directly from your database schema.
+  why_it_matters: It lets developers instantly give AI agents structured, compliant, and auditable access to live database data without writing a custom API.
+  mental_damage: We have successfully abstracted the job of writing a CRUD API into 'run a docker container and pray the LLM guesses the schema correctly'.
+  tags:
+    - mcp
+    - database
+    - api-generation
+    - self-hosted
+    - golang
+  confidence: high
+curation:
+  status: included
+  reason: The project is a dedicated MCP server implementation that connects AI agents to databases, fitting perfectly into the MCP infrastructure category.
+  evidence:
+    - Repo description explicitly states 'Universal MCP-Server for your Databases optimized for LLMs and AI-Agents'.
+    - README confirms it generates APIs as an MCP Server including SSE mode for AI agents.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Databases'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (528) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.664Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:31.259Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:12:38.411Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,77 @@
+id: checksum__ai
+kind: website
+name: checksum.ai
+canonical_url: https://checksum.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__checksum__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Testing and QA
+        anchor_text: Checksum AI
+        extracted_url: https://checksum.ai
+        surrounding_text: "- **[Checksum AI](https://checksum.ai)** – AI automated software testing and validation."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A SaaS platform that uses specialized AI agents to automatically generate, run, and maintain Playwright end-to-end and API tests within a CI pipeline.
+  why_it_matters: It targets the pain point where AI-generated code outpaces a team's ability to manually write and maintain the test coverage required to validate it.
+  mental_damage: Just when you thought you could let a coding agent write the code, you now need a testing agent to clean up after the coding agent, creating a beautiful daisy chain of autonomous debugging debt.
+  tags:
+    - testing
+    - qa
+    - ci-cd
+    - agents
+    - playwright
+  confidence: high
+curation:
+  status: included
+  reason: It acts as an autonomous agent that collaborates on the codebase by generating, executing, and healing test code directly in the repo and PR workflow.
+  evidence:
+    - Generates production-ready Playwright tests that live in the repository (no vendor lock-in).
+    - CI Agent generates 50-200 tests per PR, targeting changed code before human review.
+    - Featured in awesome-ai-coding-tools under the 'Testing and QA' section.
+placement:
+  primary_category: coding-agents
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.726Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:42:48.117Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

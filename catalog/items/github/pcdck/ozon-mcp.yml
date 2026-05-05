@@ -1,0 +1,91 @@
+id: github__pcdck__ozon-mcp
+kind: github-repo
+name: ozon-mcp
+canonical_url: https://github.com/pcdck/ozon-mcp
+identity:
+  github_repo: pcdck/ozon-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__pcdck__ozon-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🛒 <a name="e-commerce"></a>E-Commerce
+        anchor_text: PCDCK/ozon-mcp
+        extracted_url: https://github.com/pcdck/ozon-mcp
+        surrounding_text: "- [PCDCK/ozon-mcp](https://github.com/PCDCK/ozon-mcp) [![PCDCK/ozon-mcp MCP server](https://glama.ai/mcp/servers/PCDCK/ozon-mcp/badges/score.svg)](https://glama.ai/mcp/servers/PCDCK/ozon-mcp) 🐍 ☁️ 🍎 🪟 🐧 - Knowledge-rich MCP server for the full Ozon Seller + Performance API (466 methods, 15 MCP tools). Auto-pagination over 4 cursor styles, subscription-tier pre-flight, rate-limit management with exponential back-off, and 13 curated analytical workflows (OOS risk, cabinet health, content audit, pricing, warehouse distribution). Russian + English BM25 search across the catalog."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2026-04-17T11:47:03Z"
+    pushed_at: "2026-04-17T13:43:23Z"
+    description: MCP-сервер для Ozon Seller API и Performance API — подключите любого AI-агента к кабинету продавца
+    homepage: https://github.com/PCDCK/ozon-mcp
+    topics:
+      - ai-agent
+      - claude
+      - ecommerce
+      - fastmcp
+      - mcp
+      - mcp-server
+      - ozon
+      - ozon-api
+      - python
+      - seller-api
+    last_checked_at: "2026-05-05T21:04:14.321Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:14.321Z"
+      bytes: 14805
+insights:
+  summary: An MCP server that connects AI agents to the Ozon Seller and Performance APIs, exposing 466 methods and 13 analytical workflows for e-commerce automation.
+  why_it_matters: Developers building or maintaining Ozon seller tooling can let their AI agents directly query performance data, manage inventory, and run analytics without writing custom API wrappers.
+  mental_damage: "We have now achieved the inevitable endpoint of the MCP ecosystem: a dedicated server so your AI can anxiously check your seller metrics while you sleep."
+  tags:
+    - mcp
+    - ecommerce
+    - ozon
+    - api-integration
+  confidence: high
+curation:
+  status: included
+  reason: This is a purpose-built MCP server for a specific platform API, fitting cleanly into the MCP Servers and Tooling category as infrastructure that extends AI agents via the Model Context Protocol.
+  evidence:
+    - Repo description explicitly states 'MCP-сервер для Ozon Seller API' (MCP server for Ozon Seller API).
+    - README confirms it is a FastMCP-based stdio server with 466 indexed methods for Claude, Cursor, Cline, and other MCP clients.
+    - Listed in awesome-mcp-servers under 'Server Implementations > E-Commerce', confirming its role as MCP infrastructure.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.712Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:14.321Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:44:12.217Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

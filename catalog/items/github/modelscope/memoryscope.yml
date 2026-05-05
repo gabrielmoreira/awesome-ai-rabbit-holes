@@ -1,0 +1,87 @@
+id: github__modelscope__memoryscope
+kind: github-repo
+name: memoryscope
+canonical_url: https://github.com/modelscope/memoryscope
+identity:
+  github_repo: modelscope/memoryscope
+provenance:
+  discoveries:
+    - id: discovery__github__modelscope__memoryscope__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 推理 Inference
+        anchor_text: MemoryScope
+        extracted_url: https://github.com/modelscope/memoryscope
+        surrounding_text: "37. [MemoryScope](https://github.com/modelscope/MemoryScope): MemoryScope provides LLM chatbots with powerful and flexible long-term memory capabilities, offering a framework for building such abilities."
+        confidence: high
+metadata:
+  github:
+    stars: 2895
+    forks: 236
+    license: Apache-2.0
+    archived: false
+    created_at: "2024-08-29T02:40:53Z"
+    pushed_at: "2026-04-30T02:19:36Z"
+    description: "ReMe: Memory Management Kit for Agents - Remember Me, Refine Me."
+    homepage: ""
+    topics:
+      - agent
+      - ai-agents
+      - memory
+      - memoryscope
+      - rag
+      - reme
+    last_checked_at: "2026-05-05T21:03:46.021Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:46.021Z"
+      bytes: 32021
+insights:
+  summary: ReMe is a memory management framework for AI agents that provides file-based and vector-based memory systems to persist context across sessions and overcome limited context windows.
+  why_it_matters: Developers building coding assistants or autonomous agents can use it to retain codebase context, user preferences, and project history across stateless sessions without manual re-injection.
+  mental_damage: Another layer of infrastructure promising that your agent will finally remember you—right before the next context-window breakthrough renders the whole stack quaint.
+  tags:
+    - memory
+    - agents
+    - context
+    - sdk
+    - infrastructure
+  confidence: high
+curation:
+  status: included
+  reason: It is a developer-importable SDK and building block for adding memory to agents, which fits the code-first AI framework category rather than a user-facing agent product.
+  evidence:
+    - "Repo description: 'ReMe: Memory Management Kit for Agents - Remember Me, Refine Me.'"
+    - "README: 'ReMe is a memory management framework designed for AI agents, providing both file-based and vector-based memory systems.'"
+    - Topics include agent, ai-agents, memory, rag and it is distributed as a PyPI package (reme-ai).
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (2895) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.442Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:46.021Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:38:53.666Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

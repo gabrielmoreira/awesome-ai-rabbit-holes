@@ -1,0 +1,90 @@
+id: github__alexey-pelykh__lhremote
+kind: github-repo
+name: lhremote
+canonical_url: https://github.com/alexey-pelykh/lhremote
+identity:
+  github_repo: alexey-pelykh/lhremote
+provenance:
+  discoveries:
+    - id: discovery__github__alexey-pelykh__lhremote__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🎯 <a name="marketing"></a>Marketing
+        anchor_text: alexey-pelykh/lhremote
+        extracted_url: https://github.com/alexey-pelykh/lhremote
+        surrounding_text: "- [alexey-pelykh/lhremote](https://github.com/alexey-pelykh/lhremote) 📇 🏠 - Open-source CLI and MCP server for LinkedHelper automation — 32 tools for campaign management, messaging, and profile queries via Chrome DevTools Protocol."
+        confidence: high
+metadata:
+  github:
+    stars: 4
+    forks: 7
+    license: AGPL-3.0
+    archived: false
+    created_at: "2026-01-31T08:13:23Z"
+    pushed_at: "2026-05-05T18:39:22Z"
+    description: CLI and MCP server for LinkedHelper automation — let AI assistants control LinkedIn outreach
+    homepage: https://lhremote.org
+    topics:
+      - ai-automation
+      - claude
+      - cli
+      - linkedhelper
+      - linkedin-automation
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - typescript
+    last_checked_at: "2026-05-05T21:00:58.443Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:58.443Z"
+      bytes: 49888
+insights:
+  summary: A CLI and MCP server that lets AI assistants control LinkedHelper to automate LinkedIn outreach, campaign management, and profile engagement.
+  why_it_matters: Developers building AI-driven sales or recruiting workflows can expose 68 LinkedIn automation tools to Claude and other MCP clients without writing custom browser scripts.
+  mental_damage: "We have finally achieved the singularity: an AI assistant that can politely endorse your skills and send connection requests while you debug why the MCP server has more stars than the campaign has replies."
+  tags:
+    - mcp
+    - linkedin
+    - cli
+    - automation
+  confidence: high
+curation:
+  status: included
+  reason: The project is an MCP server that exposes LinkedHelper automation tools to AI assistants, which fits cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description states it is a 'CLI and MCP server for LinkedHelper automation'.
+    - README demonstrates 68 tools exposed via MCP for Claude Desktop integration.
+    - Listed under 'Server Implementations > Marketing' in the awesome-mcp-servers directory.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.677Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:58.443Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:07:24.561Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

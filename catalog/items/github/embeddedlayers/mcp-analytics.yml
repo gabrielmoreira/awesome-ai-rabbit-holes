@@ -1,0 +1,102 @@
+id: github__embeddedlayers__mcp-analytics
+kind: github-repo
+name: mcp-analytics
+canonical_url: https://github.com/embeddedlayers/mcp-analytics
+identity:
+  github_repo: embeddedlayers/mcp-analytics
+provenance:
+  discoveries:
+    - id: discovery__github__embeddedlayers__mcp-analytics__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 👤 <a name="customer-data-platforms"></a>Customer Data Platforms
+        anchor_text: embeddedlayers/mcp-analytics
+        extracted_url: https://github.com/embeddedlayers/mcp-analytics
+        surrounding_text: "- [embeddedlayers/mcp-analytics](https://github.com/embeddedlayers/mcp-analytics) [![embeddedlayers/mcp-analytics MCP server](https://glama.ai/mcp/servers/embeddedlayers/mcp-analytics/badges/score.svg)](https://glama.ai/mcp/servers/embeddedlayers/mcp-analytics) 🐍 ☁️  - Statistical analysis, forecasting, and ML for business data (Shopify, Stripe, WooCommerce, eBay, GA4, Search Console). Upload a CSV or connect live data sources — ask a question in Claude or Cursor, get an interactive HTML report."
+        confidence: high
+metadata:
+  github:
+    stars: 5
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2025-09-17T01:25:49Z"
+    pushed_at: "2026-05-05T05:13:23Z"
+    description: "[BETA — v2 rebuild] MCP server for data analytics — Shopify, Stripe, CSV, forecasting, ML. Works in Claude, Cursor, and any MCP client. Expect rough edges while the rewrite lands."
+    homepage: https://mcpanalytics.ai
+    topics:
+      - ai-agents
+      - ai-tools
+      - analytics
+      - anthropic
+      - business-intelligence
+      - claude
+      - csv-analysis
+      - cursor
+      - data-analytics
+      - data-science
+      - interactive-reports
+      - llm-tools
+      - machine-learning
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - no-code
+      - shopify-analytics
+      - statistics
+      - stripe-analytics
+    last_checked_at: "2026-05-05T21:02:02.002Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:02.002Z"
+      bytes: 16622
+insights:
+  summary: MCP Analytics is an MCP server that connects data sources like Shopify, Stripe, and CSV files to AI clients, using a pipeline of specialist agents to generate custom, interactive analysis modules and reports.
+  why_it_matters: It allows developers to integrate ad-hoc data analytics and forecasting directly into their MCP-compatible workflow, enabling them to query proprietary data and rerun reports from tools like Claude or Cursor.
+  mental_damage: We have successfully abstracted data science into a black box of 'specialist agents' that ship back citable reports, ensuring you can now ignore the statistics just as thoroughly as the code.
+  tags:
+    - mcp
+    - analytics
+    - data-science
+    - agents
+    - shopify
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server implementation designed to provide analytics capabilities to MCP clients like Claude and Cursor.
+  evidence:
+    - "Repo description states: 'MCP server for data analytics — Shopify, Stripe, CSV, forecasting, ML. Works in Claude, Cursor, and any MCP client.'"
+    - Listed in awesome-mcp-servers under 'Server Implementations > Customer Data Platforms'.
+    - "README confirms: 'MCP-native — query the library from Claude, Cursor, Windsurf, or any MCP client'."
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.686Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:02.002Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:17:56.905Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

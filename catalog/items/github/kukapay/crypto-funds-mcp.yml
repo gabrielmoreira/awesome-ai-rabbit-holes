@@ -1,0 +1,81 @@
+id: github__kukapay__crypto-funds-mcp
+kind: github-repo
+name: crypto-funds-mcp
+canonical_url: https://github.com/kukapay/crypto-funds-mcp
+identity:
+  github_repo: kukapay/crypto-funds-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__kukapay__crypto-funds-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: kukapay/crypto-funds-mcp
+        extracted_url: https://github.com/kukapay/crypto-funds-mcp
+        surrounding_text: "- [kukapay/crypto-funds-mcp](https://github.com/kukapay/crypto-funds-mcp) 🐍 ☁️ -  Providing AI agents with structured, real-time data on cryptocurrency investment funds."
+        confidence: high
+metadata:
+  github:
+    stars: 3
+    forks: 3
+    license: MIT
+    archived: false
+    created_at: "2025-09-24T09:30:56Z"
+    pushed_at: "2025-09-25T03:18:43Z"
+    description: An MCP server that provides AI agents with structured, real-time data on cryptocurrency investment funds.
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:03:09.949Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:09.949Z"
+      bytes: 11013
+insights:
+  summary: An MCP server that provides AI agents with structured, real-time data on cryptocurrency investment funds via the Cryptorank API.
+  why_it_matters: It gives developers building crypto-native AI workflows a ready-made tool to fetch fund metrics, team data, and ROI without wiring API calls by hand.
+  mental_damage: We now have a dedicated protocol server so your AI agent can panic about token prices and venture capital returns with perfect ASCII formatting.
+  tags:
+    - mcp
+    - crypto
+    - finance
+    - agent-tooling
+  confidence: medium
+curation:
+  status: included
+  reason: The project is itself an MCP server implementation, which cleanly fits the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description: 'An MCP server that provides AI agents with structured, real-time data on cryptocurrency investment funds.'"
+    - README shows tool definitions (get_all_funds, search_funds, etc.) and Claude Desktop install instructions.
+    - Listed under 'Server Implementations > Finance & Fintech' in the awesome-mcp-servers directory.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.702Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:09.949Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:31:46.135Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

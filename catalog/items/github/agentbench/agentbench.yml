@@ -1,0 +1,81 @@
+id: github__agentbench__agentbench
+kind: github-repo
+name: agentbench
+canonical_url: https://github.com/agentbench/agentbench
+identity:
+  github_repo: agentbench/agentbench
+provenance:
+  discoveries:
+    - id: discovery__github__agentbench__agentbench__awesome-list__vivy-yi__awesome-agent-orchestration
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: vivy-yi/awesome-agent-orchestration
+        url: https://github.com/vivy-yi/awesome-agent-orchestration
+        repository: vivy-yi/awesome-agent-orchestration
+      extraction:
+        mode: parsed
+        section_path:
+          - Tools & Infrastructure
+          - Evaluation & Benchmarking
+        anchor_text: AgentBench
+        extracted_url: https://github.com/agentbench/agentbench
+        surrounding_text: "| [AgentBench](https://github.com/AgentBench/AgentBench) | Evaluates agents across diverse environments |"
+        confidence: high
+metadata:
+  github:
+    stars: 3
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-02-21T18:52:02Z"
+    pushed_at: "2026-02-27T16:29:02Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:00:50.840Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:50.840Z"
+      bytes: 4678
+insights:
+  summary: A benchmark tool that scores AI agent setups across 40 real-world tasks in 7 domains using pure rule-based checks and per-tool-call tracing.
+  why_it_matters: It lets developers measure how much their specific agent configuration, prompts, and tooling choices actually matter compared to just swapping models.
+  mental_damage: Finally, a scientific way to prove that your colleague's 'optimized' agent config is just 30 points of prompt snake oil.
+  tags:
+    - benchmark
+    - eval
+    - agent
+    - tooling
+  confidence: high
+curation:
+  status: included
+  reason: The project is a benchmark and evaluation harness designed to measure agent behavior and configuration effectiveness, which fits squarely into the Evaluations and Benchmarks category.
+  evidence:
+    - README explicitly states 'Benchmark your AI agent setup' with 40 tasks and 3-layer rule-based scoring.
+    - Includes per-tool-call tracing and outputs machine-readable results.json and trace.jsonl for measurement.
+    - Listed in awesome-agent-orchestration under 'Evaluation & Benchmarking' section.
+placement:
+  primary_category: evals
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.676Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:50.840Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:06:07.589Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

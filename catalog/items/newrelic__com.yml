@@ -1,0 +1,77 @@
+id: newrelic__com
+kind: website
+name: newrelic.com
+canonical_url: https://newrelic.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__newrelic__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - DevOps and Infrastructure
+        anchor_text: New Relic
+        extracted_url: https://newrelic.com
+        surrounding_text: "- **[New Relic](https://newrelic.com/)** – Observability platform with AIOps and anomaly detection."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: New Relic is an AI-powered observability platform that correlates telemetry across applications, infrastructure, and AI models to help developers monitor performance and reduce MTTR.
+  why_it_matters: It provides specialized tooling to monitor AI agents and LLM interactions in real-time, allowing developers to trace hallucinations and manage token costs within their production stacks.
+  mental_damage: Now your observability platform has its own SRE agent, meaning you are one abstraction layer away from an AI waking you up at 3 AM to approve its own automated remediation.
+  tags:
+    - observability
+    - monitoring
+    - ai-ops
+    - agents
+    - devops
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a general enterprise observability and APM platform; while it now includes AI monitoring features, it is infrastructure software for operations rather than a developer-facing AI tooling, agent, or coding workflow product.
+  evidence:
+    - Scraped site positions it as a general 'AI-powered observability platform' for APM, infra, and logs, not a coding assistant.
+    - Featured tools include infrastructure monitoring, Kubernetes, and security, which fall outside the catalog's focus on coding agents and developer AI workflows.
+    - Listed in awesome-ai-coding-tools under 'DevOps and Infrastructure', which confirms its role as ops infrastructure rather than a direct coding tool.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.729Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:46:41.731Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

@@ -1,0 +1,81 @@
+id: github__espadaw__agent47
+kind: github-repo
+name: agent47
+canonical_url: https://github.com/espadaw/agent47
+identity:
+  github_repo: espadaw/agent47
+provenance:
+  discoveries:
+    - id: discovery__github__espadaw__agent47__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🔗 <a name="aggregators"></a>Aggregators
+        anchor_text: espadaw/Agent47
+        extracted_url: https://github.com/espadaw/agent47
+        surrounding_text: "- [espadaw/Agent47](https://github.com/espadaw/Agent47) 📇 ☁️ - Unified job aggregator for AI agents across 9+ platforms (x402, RentAHuman, Virtuals, etc)."
+        confidence: high
+metadata:
+  github:
+    stars: 2
+    forks: 1
+    license: null
+    archived: false
+    created_at: "2026-02-15T17:08:33Z"
+    pushed_at: "2026-02-19T17:28:58Z"
+    description: Unified job search for AI agents. MCP server integrating x402, RentAHuman, Virtuals, and more into a single interface for finding work and comparing prices across the agent economy.
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:04.463Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:04.463Z"
+      bytes: 2030
+insights:
+  summary: An MCP server and web dashboard that aggregates job listings and pricing data across multiple AI agent marketplaces for autonomous agents to find work.
+  why_it_matters: Developers building autonomous agents can use this to programmatically discover task opportunities and compare compensation across fragmented agent economy platforms.
+  mental_damage: We’ve successfully built the infrastructure to let AI agents worry about the gig economy, so they can now experience the same platform fragmentation and race-to-the-bottom pricing their creators do.
+  tags:
+    - mcp
+    - agent-economy
+    - job-aggregation
+    - autonomous-agents
+  confidence: medium
+curation:
+  status: included
+  reason: The project is an MCP server that integrates multiple agent marketplaces into a single interface, which fits the MCP servers and tooling category.
+  evidence:
+    - Repo description explicitly states 'MCP server integrating x402, RentAHuman, Virtuals, and more into a single interface'
+    - README confirms 'Full support for Model Context Protocol via SSE' with tools like findJobs and comparePrice
+    - Listed in awesome-mcp-servers under Server Implementations > Aggregators
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.686Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:04.463Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:18:24.544Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

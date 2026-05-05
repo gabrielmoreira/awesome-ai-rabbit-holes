@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__clickhouse__mcp-clickhouse__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-01T13:51:25.374Z"
+      discovered_at: "2026-05-05T19:41:00.656Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [ClickHouse/mcp-clickhouse](https://github.com/ClickHouse/mcp-clickhouse) 🐍 ☁️ - ClickHouse database integration with schema inspection and query capabilities"
         confidence: high
     - id: discovery__github__clickhouse__mcp-clickhouse__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-01T13:51:25.374Z"
+      discovered_at: "2026-05-05T19:41:00.656Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -38,16 +38,15 @@ provenance:
         surrounding_text: "- **[ClickHouse](https://github.com/ClickHouse/mcp-clickhouse)** - Query your [ClickHouse](https://clickhouse.com/) database server."
         confidence: high
     - id: discovery__github__clickhouse__mcp-clickhouse__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-01T13:51:25.374Z"
+      discovered_at: "2026-05-05T19:41:00.656Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
-        url: https://github.com/MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
         repository: MobinX/awesome-mcp-list
       extraction:
         mode: parsed
         section_path:
-          - null
           - 🗄️ Databases
         anchor_text: ClickHouse/mcp-clickhouse
         extracted_url: https://github.com/clickhouse/mcp-clickhouse
@@ -56,7 +55,7 @@ provenance:
 metadata:
   github:
     stars: 766
-    forks: 178
+    forks: 179
     license: Apache-2.0
     archived: false
     created_at: "2024-12-25T14:15:46Z"
@@ -64,31 +63,49 @@ metadata:
     description: Connect ClickHouse to your AI assistants.
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-01T13:51:48.103Z"
+    last_checked_at: "2026-05-05T21:01:35.441Z"
     readme:
-      fetched_at: "2026-05-01T13:51:48.103Z"
+      fetched_at: "2026-05-05T21:01:35.441Z"
       bytes: 26542
 insights:
-  summary: An MCP server that lets AI assistants run queries and browse schema in a ClickHouse cluster (and optionally query via chDB).
-  why_it_matters: It turns ClickHouse into a first-class “tool” for agents, enabling natural-language-to-SQL exploration, diagnostics, and data-aware workflows without building a bespoke integration.
-  mental_damage: Now your assistant can confidently ship a “quick” read-only query that somehow still requires three auth modes, a health probe, and one more environment variable than your actual database.
+  summary: An official MCP server that lets AI assistants query ClickHouse clusters, list databases and tables, and run embedded chDB queries.
+  why_it_matters: It turns a live analytical database into a callable tool so agents can reason over real data without developers building custom connectors.
+  mental_damage: We have successfully abstracted away writing SQL by teaching an LLM to write SQL for us, which is exactly the kind of circular progress the ecosystem loves.
   tags:
     - mcp
     - clickhouse
     - database
-    - sql
-    - observability
+    - analytics
   confidence: high
 curation:
   status: included
-  reason: Clear developer-tooling fit as an actively maintained, official MCP database connector that exposes concrete ClickHouse tools for agent workflows.
+  reason: The project is an MCP server maintained by ClickHouse, directly fitting the MCP Servers and Tooling category.
   evidence:
-    - "Repo description: \"Connect ClickHouse to your AI assistants.\""
-    - README lists MCP tools like run_query, list_databases, list_tables, plus optional chDB querying
-    - "Active signals: not archived; pushed 2026-04-29; appears in multiple MCP server lists (Databases / Official Servers)"
+    - "Repo description: 'Connect ClickHouse to your AI assistants.'"
+    - "README: 'An MCP server for ClickHouse' with tools like run_query, list_databases, and list_tables."
+    - Featured in awesome-mcp-servers under Official Servers and Databases sections.
 placement:
   primary_category: mcp
   section: null
 lifecycle:
   status: promotion_candidate
   reason: Stars (766) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.659Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:35.441Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:13:24.643Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

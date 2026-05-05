@@ -1,0 +1,76 @@
+id: www__kaggle__com__models__google__gemma
+kind: website
+name: gemma
+canonical_url: https://www.kaggle.com/models/google/gemma
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__kaggle__com__models__google__gemma__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Model
+          - Large Language Model
+        anchor_text: Gemma
+        extracted_url: https://www.kaggle.com/models/google/gemma
+        surrounding_text: "| [Gemma](https://www.kaggle.com/models/google/gemma)                     | Gemma is a family of lightweight, open models built from the research and technology that Google used to create the Gemini models.                                                         |                                                                                                           |"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Gemma is a family of lightweight, open large language models built by Google using the research and technology behind Gemini.
+  why_it_matters: Developers can run and fine-tune these models locally or in their own infrastructure to build AI-powered applications without relying on hosted APIs.
+  mental_damage: Now you have to decide not just which model to use, but whether you are mentally prepared to quantize, fine-tune, and babysit a 'lightweight' 7B parameter roommate on your own hardware.
+  tags:
+    - local-ai
+    - llm
+    - open-model
+    - google
+  confidence: high
+curation:
+  status: excluded
+  reason: While Gemma is a highly relevant developer tool, it is a foundational model release rather than a developer-facing application, agent, or infrastructure tool, making it too broad for this specific catalog scope.
+  evidence:
+    - Seen in Awesome-LLMOps under 'Model > Large Language Model', confirming its classification as a base model.
+    - Scraped site context describes it as 'a family of lightweight, open models', not a coding assistant or workflow tool.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.732Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:51:36.231Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

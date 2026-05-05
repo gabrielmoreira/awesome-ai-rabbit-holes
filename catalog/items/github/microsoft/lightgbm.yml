@@ -1,0 +1,96 @@
+id: github__microsoft__lightgbm
+kind: github-repo
+name: lightgbm
+canonical_url: https://github.com/microsoft/lightgbm
+identity:
+  github_repo: microsoft/lightgbm
+provenance:
+  discoveries:
+    - id: discovery__github__microsoft__lightgbm__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Training
+          - Frameworks for Training
+        anchor_text: LightGBM
+        extracted_url: https://github.com/microsoft/lightgbm
+        surrounding_text: "| [LightGBM](https://github.com/microsoft/LightGBM)                    | A fast, distributed, high performance gradient boosting (GBT, GBDT, GBRT, GBM or MART) framework based on decision tree algorithms, used for ranking, classification and many other machine learning tasks. | ![GitHub Badge](https://img.shields.io/github/stars/microsoft/LightGBM.svg?style=flat-square)                |"
+        confidence: high
+metadata:
+  github:
+    stars: 18318
+    forks: 4012
+    license: MIT
+    archived: false
+    created_at: "2016-08-05T05:45:50Z"
+    pushed_at: "2026-05-04T04:02:22Z"
+    description: A fast, distributed, high performance gradient boosting (GBT, GBDT, GBRT, GBM or MART) framework based on decision tree algorithms, used for ranking, classification and many other machine learning tasks.
+    homepage: https://lightgbm.readthedocs.io/en/latest/
+    topics:
+      - data-mining
+      - decision-trees
+      - distributed
+      - gbdt
+      - gbm
+      - gbrt
+      - gradient-boosting
+      - kaggle
+      - lightgbm
+      - machine-learning
+      - microsoft
+      - parallel
+      - python
+      - r
+    last_checked_at: "2026-05-05T21:03:38.831Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:38.831Z"
+      bytes: 13016
+insights:
+  summary: LightGBM is a fast, distributed gradient boosting framework based on decision tree algorithms for ranking, classification, and other machine learning tasks.
+  why_it_matters: It provides developers with a highly efficient, low-memory library for training high-quality models on large-scale data with support for parallel and GPU learning.
+  mental_damage: Yet another classic ML framework that somehow ended up in an LLMOps list, proving that if you wait long enough, every tool eventually becomes an 'AI' tool by sheer proximity.
+  tags:
+    - gradient-boosting
+    - machine-learning
+    - distributed
+    - decision-trees
+    - python
+  confidence: high
+curation:
+  status: excluded
+  reason: LightGBM is a traditional machine learning framework for gradient boosting, not a developer-facing AI tool, agent, or infrastructure component as defined by the catalog scope.
+  evidence:
+    - Repo description explicitly defines it as a gradient boosting (GBT/GBDT) framework for ranking and classification, not an AI developer tool.
+    - README emphasizes faster training, lower memory usage, and handling large-scale data for ML competitions, with no mention of coding assistance or developer workflows.
+    - Listed in Awesome-LLMOps under 'Training > Frameworks for Training', which indicates general ML training infrastructure rather than the specific AI tooling this catalog curates.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (18318) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.442Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:38.831Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:37:30.661Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

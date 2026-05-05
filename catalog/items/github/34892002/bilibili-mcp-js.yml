@@ -1,0 +1,83 @@
+id: github__34892002__bilibili-mcp-js
+kind: github-repo
+name: bilibili-mcp-js
+canonical_url: https://github.com/34892002/bilibili-mcp-js
+identity:
+  github_repo: 34892002/bilibili-mcp-js
+provenance:
+  discoveries:
+    - id: discovery__github__34892002__bilibili-mcp-js__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📂 <a name="browser-automation"></a>Browser Automation
+        anchor_text: 34892002/bilibili-mcp-js
+        extracted_url: https://github.com/34892002/bilibili-mcp-js
+        surrounding_text: "- [34892002/bilibili-mcp-js](https://github.com/34892002/bilibili-mcp-js) 📇 🏠 - A MCP server that supports searching for Bilibili content. Provides LangChain integration examples and test scripts."
+        confidence: high
+metadata:
+  github:
+    stars: 165
+    forks: 27
+    license: MIT
+    archived: false
+    created_at: "2025-03-24T10:27:50Z"
+    pushed_at: "2026-03-30T01:18:26Z"
+    description: Bilibili video search MCP (Model Context Protocol) service - 哔哩哔哩视频搜索MCP服务
+    homepage: ""
+    topics:
+      - bilibili
+      - mcp
+    last_checked_at: "2026-05-05T21:00:44.379Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:44.379Z"
+      bytes: 3046
+insights:
+  summary: A Model Context Protocol (MCP) server that allows AI applications to search Bilibili videos, retrieve hot content, fetch video details, and access UP主 (uploader) information.
+  why_it_matters: It connects local AI agents and tools like Trae or LangChain directly to Bilibili's video ecosystem, enabling richer context retrieval for Chinese-language content workflows.
+  mental_damage: We have successfully built a standardized protocol to ask an AI agent to summarize a 10-minute video essay on why standardizing protocols is taking over our lives.
+  tags:
+    - mcp
+    - bilibili
+    - context-retrieval
+    - nodejs
+  confidence: high
+curation:
+  status: included
+  reason: The project is a dedicated MCP server implementation designed to expose Bilibili API capabilities to MCP-compatible clients and agents.
+  evidence:
+    - Repo description explicitly defines it as a 'Bilibili video search MCP (Model Context Protocol) service'.
+    - README provides configuration examples for 'mcpServers' using npx and Node.js.
+    - Listed in the awesome-mcp-servers directory under 'Browser Automation' implementations.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (165) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.675Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:44.379Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:05:00.079Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

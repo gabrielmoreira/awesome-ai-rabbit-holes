@@ -1,0 +1,74 @@
+id: www__puzzlet__ai
+kind: website
+name: www.puzzlet.ai
+canonical_url: https://www.puzzlet.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__puzzlet__ai__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - LLMOps
+        anchor_text: Puzzlet AI
+        extracted_url: https://www.puzzlet.ai
+        surrounding_text: "| [Puzzlet AI](https://www.puzzlet.ai)                              | The Git-Based LLM Engineering Platform. Achieve more from GenAI: Manage, evaluate, and improve your full-stack LLM application - with version control, type-safety, and local development built-in.                                                                                                                                                                                                    |                                                                                                         |"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Puzzlet is a browser-first platform for building and managing LLM-powered workflows, included in curated LLMOps directories.
+  why_it_matters: It provides a visual environment for developers to design and operate LLM workflows without writing boilerplate orchestration code from scratch.
+  mental_damage: "Just what the ecosystem needed: another abstract layer to manage the agents that are already managing your hallucinations."
+  tags:
+    - llmops
+    - workflow-orchestration
+    - browser-first
+  confidence: low
+curation:
+  status: excluded
+  reason: The project appears to be a general LLMOps platform for workflow orchestration rather than a tool directly assisting developers with source code, IDEs, or app building, and lacks sufficient detail to place it in a specific catalog category.
+  evidence:
+    - Listed in Awesome-LLMOps under the 'LLMOps' section, suggesting a focus on operations rather than coding assistance.
+    - No repository description, README excerpt, or scraped site context was provided to verify specific developer-tooling capabilities.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.733Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:52:50.214Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

@@ -1,0 +1,97 @@
+id: github__brightdata__brightdata-mcp
+kind: github-repo
+name: brightdata-mcp
+canonical_url: https://github.com/brightdata/brightdata-mcp
+identity:
+  github_repo: brightdata/brightdata-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__brightdata__brightdata-mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Bright Data
+        extracted_url: https://github.com/brightdata/brightdata-mcp
+        surrounding_text: "- **[Bright Data](https://github.com/brightdata/brightdata-mcp)** - Discover, extract, and interact with the web - one interface powering automated access across the public internet."
+        confidence: high
+metadata:
+  github:
+    stars: 2342
+    forks: 301
+    license: MIT
+    archived: false
+    created_at: "2025-04-15T10:55:56Z"
+    pushed_at: "2026-04-20T10:59:38Z"
+    description: A powerful Model Context Protocol (MCP) server that provides an all-in-one solution for public web access.
+    homepage: https://brightdata.com/
+    topics:
+      - ai-agents
+      - ai-integrations
+      - anti-bot-detection
+      - browser-automation
+      - data-collection
+      - data-extraction
+      - llm
+      - mcp
+      - mcp-server
+      - modelcontextprotocol
+      - scraping
+      - scraping-tools
+      - structured-data
+      - web-crawling
+      - web-data
+      - web-scraping
+    last_checked_at: "2026-05-05T21:01:25.309Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:25.309Z"
+      bytes: 19475
+insights:
+  summary: A Model Context Protocol server that provides AI agents with real-time web access for scraping, package metadata lookups, and LLM brand visibility queries.
+  why_it_matters: It allows coding agents like Claude Code and Cursor to fetch live npm/PyPI data and web content without getting blocked by anti-bot measures.
+  mental_damage: We have now successfully abstracted the act of reading the documentation into a paid API call that requires an MCP server to avoid a CAPTCHA.
+  tags:
+    - mcp
+    - web-scraping
+    - coding-agent-tools
+    - npm
+    - pypi
+  confidence: high
+curation:
+  status: included
+  reason: The project is specifically an MCP server designed to integrate web data capabilities into AI agents and coding workflows.
+  evidence:
+    - Repo description explicitly defines it as 'A powerful Model Context Protocol (MCP) server'.
+    - README highlights specific integration with coding agents for npm/PyPI lookups (GROUPS='code').
+    - Listed in awesome-mcp-servers under 'Official Servers'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (2342) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.681Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:25.309Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:11:38.954Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

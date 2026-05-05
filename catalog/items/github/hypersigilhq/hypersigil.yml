@@ -1,0 +1,86 @@
+id: github__hypersigilhq__hypersigil
+kind: github-repo
+name: hypersigil
+canonical_url: https://github.com/hypersigilhq/hypersigil
+identity:
+  github_repo: hypersigilhq/hypersigil
+provenance:
+  discoveries:
+    - id: discovery__github__hypersigilhq__hypersigil__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - LLMOps
+        anchor_text: Hypersigil
+        extracted_url: https://github.com/hypersigilhq/hypersigil
+        surrounding_text: "| [Hypersigil](https://github.com/hypersigilhq/hypersigil)           | Open-source prompt lifecycle management and gateway with a Web UI.                         | ![GitHub Badge](https://img.shields.io/github/stars/hypersigilhq/hypersigil.svg?style=flat-square)        |"
+        confidence: high
+metadata:
+  github:
+    stars: 25
+    forks: 2
+    license: NOASSERTION
+    archived: false
+    created_at: "2025-07-24T10:28:04Z"
+    pushed_at: "2026-04-17T13:20:42Z"
+    description: Prompt management gateway with a UI for AI-powered applications. Enables non-technical users to test, refine, and deploy prompts seamlessly across multiple AI providers.
+    homepage: https://hypersigilhq.github.io/hypersigil/introduction/
+    topics:
+      - llm
+      - llm-evaluation
+      - llm-gateway
+      - prompt-engineering
+      - prompt-toolkit
+      - prompt-tuning
+    last_checked_at: "2026-05-05T21:02:39.992Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:39.992Z"
+      bytes: 9828
+insights:
+  summary: A prompt management gateway with a UI that lets teams centrally store, test, refine, and hot-swap prompts across multiple AI providers without redeploying application code.
+  why_it_matters: Developers can decouple prompt lifecycle management from application code, enabling non-technical teammates to iterate on prompts while maintaining governance and cross-provider failover.
+  mental_damage: Because nothing says 'agile AI orchestration' like introducing a dedicated prompt deployment platform to solve the complexity introduced by your multi-provider LLM abstraction layer.
+  tags:
+    - prompt-management
+    - llm-gateway
+    - multi-provider
+    - prompt-tuning
+  confidence: medium
+curation:
+  status: included
+  reason: This is prompt-management infrastructure with hot-swapping, cross-provider orchestration, and testing, which fits the Prompting and Context Engineering category rather than a coding agent or framework.
+  evidence:
+    - Repo description explicitly calls it a 'prompt management gateway with a UI for AI-powered applications'
+    - README emphasizes centralized prompt management, hot-swapping without redeployments, and multi-provider execution
+    - Listed in Awesome-LLMOps under LLMOps, reinforcing its infrastructure/prompt-management positioning
+placement:
+  primary_category: context-engineering
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.697Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:39.992Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:25:13.092Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,85 @@
+id: github__jondot__picocode
+kind: github-repo
+name: picocode
+canonical_url: https://github.com/jondot/picocode
+identity:
+  github_repo: jondot/picocode
+provenance:
+  discoveries:
+    - id: discovery__github__jondot__picocode__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Terminal-native coding agents
+          - Open Source
+        anchor_text: picocode
+        extracted_url: https://github.com/jondot/picocode
+        surrounding_text: "- **[picocode](https://github.com/jondot/picocode)** `⭐ 48` — Minimal Rust-based coding agent focused on CI workflows and small codemods; multi-LLM with personas."
+        confidence: high
+metadata:
+  github:
+    stars: 48
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2026-01-16T15:10:05Z"
+    pushed_at: "2026-01-30T13:19:06Z"
+    description: a minimal, Rust-based coding agent focused at CI workflows and small codemods, similar to Claude Code
+    homepage: ""
+    topics:
+      - ai
+      - claude-code
+      - copilot
+    last_checked_at: "2026-05-05T21:02:58.286Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:58.286Z"
+      bytes: 7507
+insights:
+  summary: A minimal, Rust-based CLI coding agent that supports multiple LLM providers and is designed for interactive use, scripting, and CI/CD automation via predefined recipes.
+  why_it_matters: It offers developers a fast, lightweight, and provider-agnostic alternative to heavier coding agents, with specific support for automating code reviews and codemods in CI pipelines.
+  mental_damage: "Just what the ecosystem needed: a twelfth way to ask an LLM to delete your node_modules, now written in Rust so it can fail at blazing speed."
+  tags:
+    - cli
+    - rust
+    - llm
+    - automation
+    - ci
+  confidence: medium
+curation:
+  status: included
+  reason: The project is a terminal-native coding agent designed to interact with a codebase via CLI, fitting the 'Terminal & CLI Agents' section of the coding-agents category.
+  evidence:
+    - Repo description explicitly calls it a 'minimal, Rust-based coding agent focused at CI workflows'.
+    - README details CLI modes, file system tools, and 'Recipes' for non-interactive CI/CD execution.
+    - Included in the 'awesome-cli-coding-agents' list under 'Terminal-native coding agents > Open Source'.
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.700Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:58.286Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:29:05.129Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

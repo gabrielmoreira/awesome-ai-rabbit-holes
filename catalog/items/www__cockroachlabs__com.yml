@@ -1,0 +1,93 @@
+id: www__cockroachlabs__com
+kind: website
+name: www.cockroachlabs.com
+canonical_url: https://www.cockroachlabs.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__cockroachlabs__com__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🗄️ <a name="databases"></a>Databases
+        anchor_text: CockroachDB
+        extracted_url: https://cockroachlabs.com
+        surrounding_text: "- [amineelkouhen/mcp-cockroachdb](https://github.com/amineelkouhen/mcp-cockroachdb) 🐍 ☁️ - A Model Context Protocol server for managing, monitoring, and querying data in [CockroachDB](https://cockroachlabs.com)."
+        confidence: high
+    - id: discovery__www__cockroachlabs__com__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: CockroachDB
+        extracted_url: https://cockroachlabs.com
+        surrounding_text: "- **[CockroachDB](https://github.com/amineelkouhen/mcp-cockroachdb)** - A Model Context Protocol server for managing, monitoring, and querying data in [CockroachDB](https://cockroachlabs.com)."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: CockroachDB is a distributed, PostgreSQL-compatible SQL database designed for high availability, global scale, and cloud-native applications.
+  why_it_matters: It provides a resilient, scalable operational data layer that modern AI-driven and cloud applications can rely on without manual sharding or regional failover runbooks.
+  mental_damage: You will carefully evaluate distributed SQL databases and compliance features, then panic-deploy Postgres anyway because your AI agent hasn't heard of anything else.
+  tags:
+    - database
+    - distributed-sql
+    - postgresql
+    - cloud-native
+    - infrastructure
+  confidence: high
+curation:
+  status: excluded
+  reason: CockroachDB is a general-purpose distributed database with no primary AI developer-tooling surface, and is only tangentially relevant as infrastructure rather than an AI coding tool, agent, or workflow product.
+  evidence:
+    - Scraped site positions it as a cloud-agnostic, PostgreSQL-compatible distributed database for cloud applications, not an AI developer tool.
+    - Appears in awesome-mcp-servers only as a database backend with an MCP server wrapper, not as a core AI tooling product.
+    - No repo description, README, stars, or source code is provided; the site promotes database modernization and scalability, not AI coding workflows.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.675Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:50:10.077Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

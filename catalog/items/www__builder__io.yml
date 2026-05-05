@@ -1,0 +1,75 @@
+id: www__builder__io
+kind: website
+name: www.builder.io
+canonical_url: https://www.builder.io
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__builder__io__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - App Builders
+        anchor_text: Builder.io Fusion
+        extracted_url: https://www.builder.io
+        surrounding_text: "- **[Builder.io Fusion](https://www.builder.io/)** – AI-powered visual development platform."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Builder.io is a hosted, browser-first platform that turns prompts into full apps, sites, dashboards, and internal tools.
+  why_it_matters: It lets developers and product teams prototype, generate, and deploy front-end applications directly from a visual builder without touching a local repo.
+  mental_damage: Another reminder that your carefully hand-crafted component library is slowly being replaced by a prompt box and a deploy button.
+  tags:
+    - app-builder
+    - low-code
+    - visual-development
+    - prompt-to-app
+  confidence: high
+curation:
+  status: included
+  reason: The product is a browser-first SaaS that generates and deploys whole apps and sites from prompts, which matches the app-builders category definition.
+  evidence:
+    - Listed under 'App Builders' in the awesome-ai-coding-tools awesome list.
+    - URL points to www.builder.io, a hosted web product rather than a code-first SDK or IDE assistant.
+placement:
+  primary_category: app-builders
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.732Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:49:58.570Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

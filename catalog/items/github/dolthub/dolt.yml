@@ -1,0 +1,102 @@
+id: github__dolthub__dolt
+kind: github-repo
+name: dolt
+canonical_url: https://github.com/dolthub/dolt
+identity:
+  github_repo: dolthub/dolt
+provenance:
+  discoveries:
+    - id: discovery__github__dolthub__dolt__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Data
+          - Data Management
+        anchor_text: Dolt
+        extracted_url: https://github.com/dolthub/dolt
+        surrounding_text: "| [Dolt](https://github.com/dolthub/dolt)             | Git for Data.                                                                                                                                                   | ![GitHub Badge](https://img.shields.io/github/stars/dolthub/dolt.svg?style=flat-square)        |"
+        confidence: high
+metadata:
+  github:
+    stars: 22535
+    forks: 755
+    license: Apache-2.0
+    archived: false
+    created_at: "2019-07-24T17:46:25Z"
+    pushed_at: "2026-05-05T20:52:15Z"
+    description: Dolt – Git for Data
+    homepage: https://www.dolthub.com
+    topics:
+      - agent-memory
+      - agent-memory-server
+      - ai-agents
+      - ai-database
+      - data-version-control
+      - data-versioning
+      - database
+      - database-version-control
+      - database-versioning
+      - decentralized-database
+      - git
+      - git-database
+      - git-for-data
+      - git-for-databases
+      - git-sql
+      - immutable-database
+      - mariadb
+      - mysql
+      - sql
+      - version-controlled-database
+    last_checked_at: "2026-05-05T21:01:55.654Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:55.654Z"
+      bytes: 39963
+insights:
+  summary: Dolt is a MySQL-compatible SQL database that implements Git-like version control, allowing developers to branch, merge, diff, and clone structured data.
+  why_it_matters: It provides a version-controlled storage layer suitable for agent memory and multi-agent workflows where tracking state changes and provenance is critical.
+  mental_damage: We have successfully version-controlled the last remaining thing that wasn't meant to be merged, rebased, or conflicted like a poorly managed feature branch.
+  tags:
+    - database
+    - version-control
+    - agent-memory
+    - sql
+    - git-for-data
+  confidence: high
+curation:
+  status: included
+  reason: While marketed as 'Git for Data', the README explicitly positions it as the 'best database for agent memory' and it appears in LLMOps data management lists, making it a foundational framework for developers building stateful AI systems.
+  evidence:
+    - "Repo description: 'Dolt – Git for Data', providing SQL interface with Git-like commands."
+    - "README: 'It's the best database for agent memory, especially as you move up the ladder to multi-agent and multi-machine workflows.'"
+    - Seen in Awesome-LLMOps under Data > Data Management.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (22535) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.685Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:55.654Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:16:51.755Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

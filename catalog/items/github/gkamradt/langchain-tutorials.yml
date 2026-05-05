@@ -1,0 +1,82 @@
+id: github__gkamradt__langchain-tutorials
+kind: github-repo
+name: langchain-tutorials
+canonical_url: https://github.com/gkamradt/langchain-tutorials
+identity:
+  github_repo: gkamradt/langchain-tutorials
+provenance:
+  discoveries:
+    - id: discovery__github__gkamradt__langchain-tutorials__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Learn
+          - Notebooks
+        anchor_text: Langchain Tutorials
+        extracted_url: https://github.com/gkamradt/langchain-tutorials
+        surrounding_text: "- [Langchain Tutorials](https://github.com/gkamradt/langchain-tutorials): overview and tutorial of the LangChain Library ![GitHub Repo stars](https://img.shields.io/github/stars/gkamradt/langchain-tutorials?style=social)"
+        confidence: high
+metadata:
+  github:
+    stars: 7430
+    forks: 2026
+    license: null
+    archived: false
+    created_at: "2023-02-13T18:24:18Z"
+    pushed_at: "2024-08-05T09:18:46Z"
+    description: Overview and tutorial of the LangChain Library
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:22.679Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:22.678Z"
+      bytes: 6367
+insights:
+  summary: A repository of Jupyter Notebook tutorials, cookbooks, and example projects demonstrating how to use the LangChain framework.
+  why_it_matters: It provides a structured learning path and practical code examples for developers trying to implement LLM chaining, RAG, and agent patterns in their own applications.
+  mental_damage: Another reassuring notebook collection promising that if you just watch one more video and run one more cell, you'll finally master the abstraction layer that will be deprecated next Tuesday.
+  tags:
+    - langchain
+    - tutorials
+    - notebooks
+    - learning
+    - llm
+  confidence: high
+curation:
+  status: included
+  reason: This is a curated index of learning resources and example projects for a specific framework, serving as a navigation aid for developers rather than a standalone tool or product.
+  evidence:
+    - Repo description states it is an 'Overview and tutorial of the LangChain Library'.
+    - README organizes a 'Project Gallery' with links to external projects and provides cookbooks for learning LangChain.
+    - Listed in 'awesome-langchain' under the 'Learn > Notebooks' section, confirming its nature as a resource index.
+placement:
+  primary_category: awesome-awesomes
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (7430) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.689Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:22.679Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:21:41.935Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

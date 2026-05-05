@@ -1,0 +1,77 @@
+id: cycode__com
+kind: website
+name: cycode.com
+canonical_url: https://cycode.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__cycode__com__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Cycode
+        extracted_url: https://cycode.com
+        surrounding_text: "- **[Cycode](https://github.com/cycodehq/cycode-cli#mcp-command-experiment)** - Boost security in your dev lifecycle via SAST, SCA, Secrets & IaC scanning with [Cycode](https://cycode.com/)."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Cycode is an enterprise application security platform that uses AI agents to scan code, prioritize risks, and automate remediation across the SDLC.
+  why_it_matters: It integrates security scanning (SAST, SCA, Secrets) directly into developer workflows like the IDE and PRs, using AI to reduce the noise and manual effort of triaging vulnerabilities.
+  mental_damage: Just when you thought AI was making you a 10x developer, the security team bought an AI platform to ensure the code your AI wrote doesn't accidentally email your production secrets to a phishing bot.
+  tags:
+    - security
+    - sast
+    - devsecops
+    - ai-agents
+    - sdlc
+  confidence: high
+curation:
+  status: excluded
+  reason: While Cycode offers an MCP server and AI features, the core product is an enterprise Application Security Posture Management (ASPM) platform for security teams, not a developer-facing coding tool, agent, or IDE extension.
+  evidence:
+    - The scraped site describes it as an 'Agentic Development Security Platform' focused on ASPM, SAST, SCA, and compliance, not code generation or editing.
+    - It is listed in awesome-mcp-servers under 'Official Servers', but the primary product is a commercial SaaS security suite, not a developer tooling primitive.
+    - The workflow described is 'Secure AI Vibe Coding Workflows' and 'Governance', which targets security operations rather than the developer's coding loop.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.727Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:43:35.431Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

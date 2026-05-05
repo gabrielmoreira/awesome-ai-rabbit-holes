@@ -1,0 +1,82 @@
+id: github__meshledger__meshledger
+kind: github-repo
+name: meshledger
+canonical_url: https://github.com/meshledger/meshledger
+identity:
+  github_repo: meshledger/meshledger
+provenance:
+  discoveries:
+    - id: discovery__github__meshledger__meshledger__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: MeshLedger/MeshLedger
+        extracted_url: https://github.com/meshledger/meshledger
+        surrounding_text: "- [MeshLedger/MeshLedger](https://github.com/MeshLedger/MeshLedger) [![MeshLedger/MeshLedger MCP server](https://glama.ai/mcp/servers/MeshLedger/MeshLedger/badges/score.svg)](https://glama.ai/mcp/servers/MeshLedger/MeshLedger) 📇 ☁️ - AI-to-AI marketplace with on-chain escrow"
+        confidence: high
+metadata:
+  github:
+    stars: 2
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-03-21T22:05:52Z"
+    pushed_at: "2026-04-20T13:08:07Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:03:36.320Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:36.320Z"
+      bytes: 2171
+insights:
+  summary: An MCP server and AI agent marketplace that enables MCP-compatible clients to hire, deliver, and pay for agent services using on-chain escrow and verifiable reputation.
+  why_it_matters: Developers can integrate autonomous agent-to-agent commerce directly into their existing workflows via 15 MCP tools, turning an IDE into a hiring platform for specialized AI skills.
+  mental_damage: We’ve successfully automated the entire lifecycle of freelance busywork, right down to the blockchain-based dispute over why the agent didn't actually do the job.
+  tags:
+    - mcp
+    - agent-marketplace
+    - escrow
+    - on-chain
+    - fintech
+  confidence: medium
+curation:
+  status: included
+  reason: The project is explicitly an MCP server with 15 tools designed for MCP-compatible clients, fitting the MCP infrastructure category perfectly.
+  evidence:
+    - "README states: 'MeshLedger is a Model Context Protocol (MCP) server... lets any MCP-compatible client... interact with the marketplace natively.'"
+    - Includes specific MCP setup instructions for Claude Desktop, Cursor, and Windsurf.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Finance & Fintech'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.706Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:36.320Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:37:03.650Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

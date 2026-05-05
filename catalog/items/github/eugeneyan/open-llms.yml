@@ -1,0 +1,85 @@
+id: github__eugeneyan__open-llms
+kind: github-repo
+name: open-llms
+canonical_url: https://github.com/eugeneyan/open-llms
+identity:
+  github_repo: eugeneyan/open-llms
+provenance:
+  discoveries:
+    - id: discovery__github__eugeneyan__open-llms__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Complement to this list
+        anchor_text: Open LLMs
+        extracted_url: https://github.com/eugeneyan/open-llms
+        surrounding_text: "- [Open LLMs](https://github.com/eugeneyan/open-llms): A list of open LLMs available for commercial use ![GitHub Repo stars](https://img.shields.io/github/stars/eugeneyan/open-llms?style=social)"
+        confidence: high
+metadata:
+  github:
+    stars: 12750
+    forks: 971
+    license: Apache-2.0
+    archived: false
+    created_at: "2023-05-05T16:35:37Z"
+    pushed_at: "2025-02-13T06:37:12Z"
+    description: 📋 A list of open LLMs available for commercial use.
+    homepage: ""
+    topics:
+      - commercial
+      - large-language-models
+      - llm
+      - llms
+    last_checked_at: "2026-05-05T21:02:05.421Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:05.421Z"
+      bytes: 42697
+insights:
+  summary: A curated table of large language models that are licensed for commercial use, tracking parameters, context length, and checkpoints.
+  why_it_matters: It provides a quick reference for developers needing to choose an open-weight model without accidentally violating a restrictive license.
+  mental_damage: Yet another list to consult while agonizing over whether a 7B model with an Apache 2.0 license is truly 'safe' for the startup's proprietary vibe coding agent.
+  tags:
+    - llm
+    - models
+    - licensing
+    - commercial
+    - reference
+  confidence: high
+curation:
+  status: included
+  reason: This is a curated index mapping models to their commercial licenses, fitting the awesome-awesomes category as a navigation aid for developers.
+  evidence:
+    - Repo description states it is 'A list of open LLMs available for commercial use.'
+    - README is a large table of models (T5, Bloom, Pythia, etc.) with license and checkpoint details.
+    - Listed in 'awesome-langchain' as a 'Complement to this list', confirming its status as a meta-list.
+placement:
+  primary_category: awesome-awesomes
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (12750) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.686Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:05.421Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:18:32.913Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,97 @@
+id: github__paladini__mcp-me
+kind: github-repo
+name: mcp-me
+canonical_url: https://github.com/paladini/mcp-me
+identity:
+  github_repo: paladini/mcp-me
+provenance:
+  discoveries:
+    - id: discovery__github__paladini__mcp-me__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: paladini/mcp-me
+        extracted_url: https://github.com/paladini/mcp-me
+        surrounding_text: "- [paladini/mcp-me](https://github.com/paladini/mcp-me) [![paladini/mcp-me MCP server](https://glama.ai/mcp/servers/paladini/mcp-me/badges/score.svg)](https://glama.ai/mcp/servers/paladini/mcp-me) 📇 🏠 🍎 🪟 🐧 - Digital identity layer for AI — your bio, career, skills, interests, and projects always available to every AI tool. Auto-generates profile from 342+ public APIs (GitHub, Medium, Strava, Goodreads, etc.), 13 real-time plugins (Spotify, Last.fm, Steam), YAML-based profiles with privacy-first local storage. Works with Claude Desktop, Cursor, Windsurf, and any MCP client."
+        confidence: high
+metadata:
+  github:
+    stars: 3
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-03-17T17:22:27Z"
+    pushed_at: "2026-03-25T11:16:13Z"
+    description: "Your AI assistants don't know who you are. mcp-me fixes that: a local MCP server that gives any AI a full picture of who you are"
+    homepage: https://mcp-me.page/
+    topics:
+      - ai
+      - ai-assistant
+      - claude
+      - cli
+      - cursor
+      - generator
+      - llm
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - personal-profile
+      - plugin
+      - typescript
+      - windsurf
+      - yaml
+    last_checked_at: "2026-05-05T21:04:11.264Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:11.264Z"
+      bytes: 16780
+insights:
+  summary: A local MCP server that serves a structured personal profile (career, skills, projects, interests) from YAML files to AI assistants like Claude, Cursor, and Copilot.
+  why_it_matters: It allows developers to stop re-explaining their background, stack, and preferences in every new AI session by providing a persistent, local identity layer via the Model Context Protocol.
+  mental_damage: "We have finally solved the hardest problem in computer science: ensuring your AI assistant knows you are an Aquarius before it writes that cover letter."
+  tags:
+    - mcp
+    - context
+    - local-first
+    - identity
+    - yaml
+  confidence: medium
+curation:
+  status: included
+  reason: The product is a Model Context Protocol server that provides personal context to AI tools, fitting cleanly into the MCP infrastructure category.
+  evidence:
+    - Repo description explicitly defines it as 'a local MCP server that gives any AI a full picture of who you are'.
+    - README details serving YAML-based profile data (identity, skills, career) via the MCP protocol to Claude, Cursor, and Copilot.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Knowledge & Memory'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.712Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:11.264Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:43:41.208Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

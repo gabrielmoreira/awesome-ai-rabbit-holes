@@ -1,0 +1,115 @@
+id: github__jasonjmcghee__claude-debugs-for-you
+kind: github-repo
+name: claude-debugs-for-you
+canonical_url: https://github.com/jasonjmcghee/claude-debugs-for-you
+identity:
+  github_repo: jasonjmcghee/claude-debugs-for-you
+provenance:
+  discoveries:
+    - id: discovery__github__jasonjmcghee__claude-debugs-for-you__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: jasonjmcghee/claude-debugs-for-you
+        extracted_url: https://github.com/jasonjmcghee/claude-debugs-for-you
+        surrounding_text: "- [jasonjmcghee/claude-debugs-for-you](https://github.com/jasonjmcghee/claude-debugs-for-you) 📇 🏠 - An MCP Server and VS Code Extension which enables (language agnostic) automatic debugging via breakpoints and expression evaluation."
+        confidence: high
+    - id: discovery__github__jasonjmcghee__claude-debugs-for-you__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - 💻 Developer Tools
+        anchor_text: "@jasonjmcghee/claude-debugs-for-you"
+        extracted_url: https://github.com/jasonjmcghee/claude-debugs-for-you
+        surrounding_text: "-   **[@jasonjmcghee/claude-debugs-for-you](https://github.com/jasonjmcghee/claude-debugs-for-you)** [![GitHub stars](https://img.shields.io/github/stars/jasonjmcghee/claude-debugs-for-you?style=social)](https://github.com/jasonjmcghee/claude-debugs-for-you): Enables automatic debugging via breakpoints and expression evaluation."
+        confidence: high
+metadata:
+  github:
+    stars: 508
+    forks: 45
+    license: MIT
+    archived: false
+    created_at: "2025-01-17T05:54:24Z"
+    pushed_at: "2025-12-20T01:43:03Z"
+    description: Enable any LLM (e.g. Claude) to interactively debug any language for you via MCP and a VS Code Extension
+    homepage: https://marketplace.visualstudio.com/items?itemName=JasonMcGhee.claude-debugs-for-you
+    topics:
+      - anthropic
+      - autodebug
+      - automation
+      - claude
+      - context
+      - debug
+      - debugging
+      - debugging-tool
+      - llm
+      - mcp
+      - model
+      - model-context-protocol
+      - protocol
+      - vibe
+      - vibe-coding
+      - vibe-debugging
+      - vscode
+      - vscode-extension
+    last_checked_at: "2026-05-05T21:02:51.824Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:51.824Z"
+      bytes: 6424
+insights:
+  summary: A VS Code extension and MCP server that allows LLMs like Claude to interactively debug code by setting breakpoints, evaluating expressions, and stepping through execution inside the editor.
+  why_it_matters: It closes the loop between AI suggestions and runtime reality by giving the model actual control over the debugger, moving beyond static code review to live, step-by-step fault isolation.
+  mental_damage: We have officially entered the era of 'vibe debugging,' where you prompt an LLM to find a race condition while you stare at the breakpoint hit count and wonder when you became the supervisor of a very polite, context-hungry intern.
+  tags:
+    - mcp
+    - vscode-extension
+    - debugging
+    - llm-tooling
+    - vibe-debugging
+  confidence: high
+curation:
+  status: included
+  reason: The tool acts as an interactive coding agent that collaborates directly on source code within the IDE/debugger workflow, fitting the Coding Agents category.
+  evidence:
+    - Repo description explicitly states it enables LLMs to 'interactively debug any language for you via MCP and a VS Code Extension'.
+    - README demo shows the LLM figuring out a problem and suggesting a fix within the VS Code Continue workflow.
+    - Listed in awesome-mcp-servers under 'Developer Tools', confirming its role as MCP-based dev infrastructure.
+placement:
+  primary_category: coding-agents
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (508) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.667Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:51.824Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:27:46.243Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,99 @@
+id: github__imran-siddique__agent-mesh
+kind: github-repo
+name: agent-mesh
+canonical_url: https://github.com/imran-siddique/agent-mesh
+identity:
+  github_repo: imran-siddique/agent-mesh
+provenance:
+  discoveries:
+    - id: discovery__github__imran-siddique__agent-mesh__awesome-list__kaushikb11__awesome-llm-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: kaushikb11/awesome-llm-agents
+        url: https://github.com/kaushikb11/awesome-llm-agents
+        repository: kaushikb11/awesome-llm-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Frameworks
+        anchor_text: AgentMesh
+        extracted_url: https://github.com/imran-siddique/agent-mesh
+        surrounding_text: "- MCP server support- [AgentMesh](https://github.com/imran-siddique/agent-mesh) - Secure trust layer for"
+        confidence: high
+metadata:
+  github:
+    stars: 18
+    forks: 6
+    license: MIT
+    archived: true
+    created_at: "2026-02-01T01:35:43Z"
+    pushed_at: "2026-03-04T18:00:12Z"
+    description: "[DEPRECATED] Moved to microsoft/agent-governance-toolkit"
+    homepage: https://imransiddique.com
+    topics:
+      - agent-communication
+      - agent-governance
+      - agent-mesh
+      - agent-security
+      - ai-agents
+      - autonomous-agents
+      - decentralized-identity
+      - did
+      - distributed-systems
+      - llm
+      - mcp
+      - mcp-security
+      - multi-agent
+      - networking
+      - owasp
+      - python
+      - trust-framework
+      - verifiable-credentials
+      - zero-trust
+    last_checked_at: "2026-05-05T21:02:42.427Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:42.427Z"
+      bytes: 29596
+insights:
+  summary: A trust, identity, and governance layer for AI agent systems that provides decentralized identity, zero-trust networking, and MCP security features.
+  why_it_matters: It gives developers a standardized way to handle identity, trust, and compliance for multi-agent systems without building custom security infrastructure.
+  mental_damage: We have finally built SSL for AI agents, which means we can now spend our afternoons debugging mutual TLS handshakes instead of the agents themselves.
+  tags:
+    - agent-governance
+    - mcp-security
+    - zero-trust
+    - multi-agent
+  confidence: high
+curation:
+  status: excluded
+  reason: The repository is explicitly archived and deprecated, with development moved to microsoft/agent-governance-toolkit, making it unsuitable for inclusion as an active catalog entry.
+  evidence:
+    - Repo description states '[DEPRECATED] Moved to microsoft/agent-governance-toolkit'
+    - Archived flag is true
+    - Only 18 stars with development redirected to the Microsoft fork
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: needs_review
+  reason: Repository is archived
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.698Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:42.427Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:25:43.613Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

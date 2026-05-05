@@ -1,0 +1,79 @@
+id: www__code__intelligence__com
+kind: website
+name: www.code-intelligence.com
+canonical_url: https://www.code-intelligence.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__code__intelligence__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Security
+        anchor_text: Code Intelligence CI Fuzz
+        extracted_url: https://www.code-intelligence.com
+        surrounding_text: "- **[Code Intelligence CI Fuzz](https://www.code-intelligence.com/)** – AI-automated fuzz testing for C/C++."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: CI Fuzz by Code Intelligence is an AI-automated, coverage-guided fuzz testing platform that uses an AI test agent to autonomously detect bugs and vulnerabilities in code with minimal manual effort.
+  why_it_matters: It integrates into the development pipeline to achieve high code coverage and compliance with industry standards like ISO 21434, allowing developers to fix critical security flaws early without writing extensive unit tests manually.
+  mental_damage: Just when you thought your test suite was complete, an AI agent starts throwing random garbage at your memory-unsafe code to find the heap overflows you were praying didn't exist.
+  tags:
+    - fuzzing
+    - security
+    - testing
+    - ai-agent
+    - devops
+  confidence: high
+curation:
+  status: included
+  reason: It operates as an AI test agent that autonomously plans, executes, and debugs code tests within the development workflow to detect vulnerabilities, fitting the coding-agents definition.
+  evidence:
+    - Primary page excerpt describes 'CI Fuzz' as an 'AI-automated Coverage-Guided Fuzz testing solution' with an 'AI Test Agent' that 'autonomously detects bugs'.
+    - Listed in 'awesome-ai-coding-tools' under the Security section for finding bugs with a single command.
+    - Integrates into the PR workflow, noted by GitHub CEO Thomas Dohmke as testing code 'at each pull request'.
+placement:
+  primary_category: coding-agents
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.732Z"
+    cause:
+      type: ambiguous_canonicalization
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:50:10.788Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

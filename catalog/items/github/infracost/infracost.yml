@@ -1,0 +1,96 @@
+id: github__infracost__infracost
+kind: github-repo
+name: infracost
+canonical_url: https://github.com/infracost/infracost
+identity:
+  github_repo: infracost/infracost
+provenance:
+  discoveries:
+    - id: discovery__github__infracost__infracost__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: scraped
+        section_path:
+          - DevOps and Infrastructure
+        anchor_text: Infracost
+        extracted_url: https://www.infracost.io
+        surrounding_text: "- **[Infracost](https://www.infracost.io/)** – Cloud cost estimation in pull requests for Terraform/Pulumi."
+        confidence: high
+metadata:
+  github:
+    stars: 12283
+    forks: 667
+    license: Apache-2.0
+    archived: false
+    created_at: "2020-06-24T09:11:56Z"
+    pushed_at: "2026-05-04T15:38:59Z"
+    description: Cloud cost estimates for Terraform in pull requests💰📉 Shift FinOps Left!
+    homepage: https://infracost.io
+    topics:
+      - aws
+      - azure
+      - cloud
+      - cloud-cost-estimates
+      - cost-estimation
+      - cost-management
+      - cost-optimization
+      - devops
+      - finops
+      - gcp
+      - google
+      - infrastructure-as-code
+      - monthly-costs
+      - terraform
+      - terraform-cost-estimation
+    last_checked_at: "2026-05-05T21:02:43.509Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:43.509Z"
+      bytes: 4236
+insights:
+  summary: Infracost is a CLI and CI/CD integration that generates cloud cost estimates and FinOps best practices for Terraform resources directly in pull requests and the terminal.
+  why_it_matters: It allows engineers to see the financial impact of infrastructure changes before they merge, integrating cost awareness directly into the standard code review workflow.
+  mental_damage: We have successfully shifted the existential dread of unexpected cloud bills leftward, ensuring you now watch your budget die in a pull request comment instead of a monthly invoice.
+  tags:
+    - terraform
+    - finops
+    - cloud-cost
+    - devops
+    - ci-cd
+  confidence: high
+curation:
+  status: included
+  reason: It is a developer tool that extends the PR and CI workflow with cost intelligence, fitting the AI Developer Extensions category as an augmentation to the existing code review process.
+  evidence:
+    - "Repo description explicitly states: 'Cloud cost estimates for Terraform in pull requests'."
+    - "README confirms integration into PRs and CI/CD: 'Infracost also has many CI/CD integrations so you can easily post cost estimates in pull requests.'"
+    - Included in awesome-ai-coding-tools under 'DevOps and Infrastructure' as a governance tool for platform teams.
+placement:
+  primary_category: ai-dev-extensions
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (12283) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.698Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:43.509Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:25:57.695Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

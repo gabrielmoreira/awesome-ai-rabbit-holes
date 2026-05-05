@@ -1,0 +1,82 @@
+id: github__octoco-ltd__sheetsdata-mcp
+kind: github-repo
+name: sheetsdata-mcp
+canonical_url: https://github.com/octoco-ltd/sheetsdata-mcp
+identity:
+  github_repo: octoco-ltd/sheetsdata-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__octoco-ltd__sheetsdata-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📟 <a name="embedded-system"></a>Embedded System
+        anchor_text: octoco-ltd/sheetsdata-mcp
+        extracted_url: https://github.com/octoco-ltd/sheetsdata-mcp
+        surrounding_text: "- [octoco-ltd/sheetsdata-mcp](https://github.com/octoco-ltd/sheetsdata-mcp) [![octoco-ltd/sheetsdata-mcp MCP server](https://glama.ai/mcp/servers/octoco-ltd/sheetsdata-mcp/badges/score.svg)](https://glama.ai/mcp/servers/octoco-ltd/sheetsdata-mcp) 🐍 ☁️ 📟 - Instant access to electronic component datasheets for AI agents — specs, pinouts, package info, absolute max ratings extracted from manufacturer PDFs on demand."
+        confidence: high
+metadata:
+  github:
+    stars: 6
+    forks: 2
+    license: MIT
+    archived: false
+    created_at: "2026-03-19T14:35:03Z"
+    pushed_at: "2026-04-26T15:57:50Z"
+    description: sheetsdata-mcp
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:03:58.659Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:58.659Z"
+      bytes: 15448
+insights:
+  summary: An MCP server that provides AI agents with structured, queryable access to electronic component datasheets, pinouts, and specifications without requiring PDF uploads.
+  why_it_matters: Hardware engineers can now offload datasheet parsing and component validation to agents, streamlining part selection, BOM review, and firmware integration workflows.
+  mental_damage: We have successfully automated the ritual of opening a 400-page PDF to find a pinout that was on page 3 the whole time.
+  tags:
+    - mcp
+    - hardware
+    - datasheets
+    - embedded
+    - agent-tools
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server providing tooling for AI agents, fitting cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - Repo name is 'sheetsdata-mcp' and the README introduces it as 'SheetsData is an MCP server that gives AI agents instant, structured access to electronic component data.'
+    - Listed in the 'awesome-mcp-servers' directory under 'Server Implementations > Embedded System'.
+    - Provides MCP tools like 'read_datasheet', 'check_design_fit', and 'find_alternative' for hardware engineering workflows.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.710Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:58.659Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:41:28.600Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

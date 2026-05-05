@@ -1,0 +1,75 @@
+id: x__com__yoheinakajima__status__1678443482866933760
+kind: website
+name: "1678443482866933760"
+canonical_url: https://x.com/yoheinakajima/status/1678443482866933760
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__x__com__yoheinakajima__status__1678443482866933760__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - BabyElfAGI
+        anchor_text: BabyElfAGI
+        extracted_url: https://twitter.com/yoheinakajima/status/1678443482866933760
+        surrounding_text: "## [BabyElfAGI](https://twitter.com/yoheinakajima/status/1678443482866933760)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A link to a tweet on X about BabyElfAGI, which appears to be a related project or discussion point.
+  why_it_matters: It highlights the lineage of autonomous agent experiments that are currently shaping the tooling landscape for developers.
+  mental_damage: We have now reached the point where the catalog entry is effectively a citation to a social media notification about a project that may or may not exist.
+  tags:
+    - agents
+    - social-media
+    - link-rot
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a link to a tweet that could not be scraped, contains no usable tool description, and offers no developer-facing utility as a standalone entry.
+  evidence:
+    - The URL points to x.com and the scraped excerpt shows 'Something went wrong' with no content retrieved.
+    - No repository description, README, stars, or code context was provided to verify this is a tool.
+    - Listed in awesome-ai-agents under 'BabyElfAGI', but the link itself provides no actionable tooling information.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.734Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:54:27.769Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

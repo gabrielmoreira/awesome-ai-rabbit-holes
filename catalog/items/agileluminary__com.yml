@@ -1,0 +1,77 @@
+id: agileluminary__com
+kind: website
+name: agileluminary.com
+canonical_url: https://agileluminary.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__agileluminary__com__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Agile Luminary
+        extracted_url: https://agileluminary.com
+        surrounding_text: "- **[Agile Luminary](https://github.com/AgileLuminary/mcp-agile-luminary)** - Simpler Project Management - send [Agile Luminary](https://agileluminary.com) stories straight to your IDE"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A SaaS project management platform that uses AI to generate agile artifacts like user stories, epics, and release notes, featuring integrations with GitHub, Jira, and MCP servers.
+  why_it_matters: It automates the tedious parts of backlog grooming and sprint documentation, allowing developers to focus on execution rather than formatting INVEST-compliant stories.
+  mental_damage: We have successfully automated the agile process so thoroughly that the only manual task left is explaining to the AI why your velocity is still terrible.
+  tags:
+    - project-management
+    - agile
+    - mcp
+    - documentation
+    - saas
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a general-purpose project management SaaS for product owners and teams, not a developer tooling primitive for coding, infrastructure, or app building.
+  evidence:
+    - Scraped site context describes 'Enterprise agile project management, product backlog software' rather than a developer IDE or coding agent.
+    - Primary features focus on story creation, sprint planning, and release notes rather than source code editing or repo workflows.
+    - Source list context places it in 'Official Servers' for agile PM, not as a developer-centric coding or infrastructure tool.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.726Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:41:29.424Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

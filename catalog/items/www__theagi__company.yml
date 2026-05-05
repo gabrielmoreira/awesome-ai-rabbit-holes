@@ -1,0 +1,76 @@
+id: www__theagi__company
+kind: website
+name: www.theagi.company
+canonical_url: https://www.theagi.company
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__theagi__company__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - MultiOn
+        anchor_text: MultiOn
+        extracted_url: https://multion.ai
+        surrounding_text: "## [MultiOn](https://multion.ai/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: AGI, Inc. is an AI lab developing AGI-0, an on-device, proactive AI agent for smartphones that automates daily tasks like travel, messaging, and shopping.
+  why_it_matters: It demonstrates a shift toward local, private, agentic AI that interacts directly with mobile OS capabilities rather than relying on cloud-hosted chat interfaces.
+  mental_damage: Just when you thought 'vibe coding' was the peak, we now have companies promising 'everyday AGI' that will order your tacos while you wonder if your API keys are safe.
+  tags:
+    - mobile-agent
+    - on-device
+    - agi
+    - agentic-commerce
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a consumer-focused mobile agent product for daily life tasks, not a developer tool for coding, infrastructure, or app building.
+  evidence:
+    - Product described as a 'personalized, proactive AI co-worker that gets things done on your smartphone' with use cases like Taxi, Travel, Message, and Shopping.
+    - The company describes itself as an 'AI lab pioneering on-device Superintelligence' for everyday life, not developer workflow.
+    - Seen in awesome-ai-agents under 'MultiOn', but the product surface is a consumer mobile app, not a coding assistant or developer infrastructure.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.734Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:53:46.340Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

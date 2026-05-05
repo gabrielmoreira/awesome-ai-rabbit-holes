@@ -1,0 +1,81 @@
+id: github__lodordev__mcp-romm
+kind: github-repo
+name: mcp-romm
+canonical_url: https://github.com/lodordev/mcp-romm
+identity:
+  github_repo: lodordev/mcp-romm
+provenance:
+  discoveries:
+    - id: discovery__github__lodordev__mcp-romm__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🎮 <a name="gaming"></a>Gaming
+        anchor_text: lodordev/mcp-romm
+        extracted_url: https://github.com/lodordev/mcp-romm
+        surrounding_text: "- [lodordev/mcp-romm](https://github.com/lodordev/mcp-romm) [![lodordev/mcp-romm MCP server](https://glama.ai/mcp/servers/lodordev/mcp-romm/badges/score.svg)](https://glama.ai/mcp/servers/lodordev/mcp-romm) 🐍 🏠 - MCP server for [RomM](https://github.com/rommapp/romm) retro game library manager. 19 read-only tools for browsing platforms, searching ROMs, viewing metadata, managing collections, tracking saves, firmware, devices, and task monitoring. OAuth2 auth with automatic token refresh."
+        confidence: high
+metadata:
+  github:
+    stars: 3
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-03-22T19:22:57Z"
+    pushed_at: "2026-03-22T20:25:24Z"
+    description: MCP server for RomM — browse and manage your retro game library with AI
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:03:23.069Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:23.069Z"
+      bytes: 4502
+insights:
+  summary: An MCP server that exposes a self-hosted RomM retro game library through 19 read-only tools for browsing platforms, searching ROMs, and managing collections via AI assistants.
+  why_it_matters: It lets developers manage and query their personal retro gaming libraries conversationally through MCP-compatible assistants rather than clicking through a web UI.
+  mental_damage: We have successfully reached the point where an AI agent can now manage your Pokémon ROM collection, but still can't figure out why your Docker container won't connect to localhost.
+  tags:
+    - mcp
+    - retro-gaming
+    - romm
+    - self-hosted
+  confidence: high
+curation:
+  status: included
+  reason: This is a purpose-built MCP server that integrates RomM with MCP-compatible AI assistants, fitting cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states 'MCP server for RomM' with 19 read-only tools for browsing and managing a retro game library.
+    - README details integration with Claude Code and Claude Desktop via .mcp.json configuration.
+    - Listed under 'Server Implementations > Gaming' in the awesome-mcp-servers directory.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.704Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:23.069Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:34:32.174Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

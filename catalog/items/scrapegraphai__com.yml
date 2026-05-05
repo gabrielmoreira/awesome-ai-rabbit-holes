@@ -1,0 +1,79 @@
+id: scrapegraphai__com
+kind: website
+name: scrapegraphai.com
+canonical_url: https://scrapegraphai.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__scrapegraphai__com__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: ScrapeGraphAI
+        extracted_url: https://scrapegraphai.com
+        surrounding_text: "- **[ScrapeGraphAI](https://github.com/ScrapeGraphAI/Scrapegraph-ai)** - AI-powered web scraping library that creates scraping pipelines using natural language.- [ScrapeGraphAI](https://scrapegraphai.com)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A web scraping API and SDK that uses AI to extract structured data from websites without requiring selectors, proxies, or maintenance.
+  why_it_matters: Developers building AI agents or RAG pipelines can integrate web data extraction via SDKs, CLI, or an MCP server that adapts to site changes automatically.
+  mental_damage: We have officially reached the point where the most innovative part of web scraping is bragging that you no longer have to write the selectors you spent a decade mastering.
+  tags:
+    - web-scraping
+    - mcp
+    - api
+    - data-extraction
+    - ai-agent
+  confidence: high
+curation:
+  status: included
+  reason: The product presents itself as an MCP server and provides SDKs/CLI tooling for developers to integrate AI-powered web scraping into their stacks and agents.
+  evidence:
+    - Scraped site context explicitly lists 'MCP Server' as a core integration and links to a repo.
+    - Source list context shows the project listed in awesome-mcp-servers under 'Community Servers'.
+    - Provides Python SDK, JavaScript SDK, and CLI tooling for programmatic developer use.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.445Z"
+    cause:
+      type: ambiguous_canonicalization
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T20:49:37.868Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+    next_retry_at: null

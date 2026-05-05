@@ -1,0 +1,81 @@
+id: github__kukapay__pumpswap-mcp
+kind: github-repo
+name: pumpswap-mcp
+canonical_url: https://github.com/kukapay/pumpswap-mcp
+identity:
+  github_repo: kukapay/pumpswap-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__kukapay__pumpswap-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: kukapay/pumpswap-mcp
+        extracted_url: https://github.com/kukapay/pumpswap-mcp
+        surrounding_text: "- [kukapay/pumpswap-mcp](https://github.com/kukapay/pumpswap-mcp) 🐍 ☁️ - Enabling AI agents to interact with PumpSwap for real-time token swaps and automated on-chain trading."
+        confidence: high
+metadata:
+  github:
+    stars: 5
+    forks: 5
+    license: MIT
+    archived: false
+    created_at: "2025-05-06T08:23:39Z"
+    pushed_at: "2025-05-06T08:25:03Z"
+    description: An MCP server that enables AI agents to interact with PumpSwap for real-time token swaps and automated on-chain trading.
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:03:12.379Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:12.379Z"
+      bytes: 5406
+insights:
+  summary: An MCP server that lets AI agents execute token swaps and query pools on PumpSwap via natural language prompts.
+  why_it_matters: Developers building crypto-native AI agents can wire on-chain trading into agent workflows without writing custom Solana RPC glue code.
+  mental_damage: "We have finally achieved the Platonic ideal of 2025: an AI agent that can lose your SOL on PumpSwap while you watch in disbelief."
+  tags:
+    - mcp
+    - solana
+    - defi
+    - agent-tooling
+  confidence: medium
+curation:
+  status: included
+  reason: The project is a standalone MCP server for PumpSwap trading, which cleanly fits the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states it is 'An MCP server that enables AI agents to interact with PumpSwap'.
+    - README documents MCP tools (buy_token, sell_token, get_token_price, get_pool_data) for agent-triggered swaps.
+    - Listed in awesome-mcp-servers under Server Implementations > Finance & Fintech, confirming MCP ecosystem fit.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.703Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:12.379Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:32:19.303Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

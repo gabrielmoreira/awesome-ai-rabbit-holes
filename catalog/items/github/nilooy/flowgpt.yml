@@ -1,0 +1,88 @@
+id: github__nilooy__flowgpt
+kind: github-repo
+name: flowgpt
+canonical_url: https://github.com/nilooy/flowgpt
+identity:
+  github_repo: nilooy/flowgpt
+provenance:
+  discoveries:
+    - id: discovery__github__nilooy__flowgpt__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Open Source Projects
+          - Other / Chatbots
+        anchor_text: FlowGPT
+        extracted_url: https://github.com/nilooy/flowgpt
+        surrounding_text: "- [FlowGPT](https://github.com/nilooy/flowgpt): Generate diagram with AI ![GitHub Repo stars](https://img.shields.io/github/stars/nilooy/flowgpt?style=social)"
+        confidence: high
+metadata:
+  github:
+    stars: 305
+    forks: 61
+    license: MIT
+    archived: false
+    created_at: "2023-04-09T10:09:55Z"
+    pushed_at: "2023-10-06T09:39:57Z"
+    description: Generate diagram with AI
+    homepage: ""
+    topics:
+      - diagram
+      - flowchart
+      - gpt-3
+      - gpt-4
+      - langchain
+      - openai
+    last_checked_at: "2026-05-05T21:03:55.100Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:55.100Z"
+      bytes: 1394
+insights:
+  summary: A local Next.js web app that uses LangChain and OpenAI to generate Mermaid flowcharts from text prompts.
+  why_it_matters: It lets developers quickly scaffold diagrams and flowcharts from natural language without leaving a local browser environment.
+  mental_damage: Another brilliant solution to the existential threat of having to draw a box, type some text, and connect it to another box.
+  tags:
+    - flowchart
+    - diagram
+    - langchain
+    - mermaid
+    - local-tool
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a niche local web app for generating diagrams, which falls outside the catalog's focus on core developer tooling like coding agents, IDEs, and infrastructure.
+  evidence:
+    - Repo description states 'Generate diagram with AI', and README confirms it generates flowcharts using GPT-3.5 and Mermaid.
+    - Source list context shows it is listed under 'Chatbots' in awesome-langchain, not developer tooling or coding workflows.
+    - The project has seen no updates since October 2023, indicating it is not actively maintained.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (305) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.710Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:55.100Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:40:43.632Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

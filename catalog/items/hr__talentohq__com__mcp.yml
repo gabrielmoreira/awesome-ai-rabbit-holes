@@ -1,0 +1,75 @@
+id: hr__talentohq__com__mcp
+kind: website
+name: mcp
+canonical_url: https://hr.talentohq.com/mcp
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__hr__talentohq__com__mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: TalentoHQ
+        extracted_url: https://hr.talentohq.com/mcp
+        surrounding_text: "- **[TalentoHQ](https://hr.talentohq.com/mcp)** – Connect to the [TalentoHQ HR software](https://talentohq.com/features/mcp) via MCP. Transform your organization with the AI first HR software."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A hosted directory and submission page for discovering and listing Model Context Protocol (MCP) servers.
+  why_it_matters: It serves as a navigational aid for developers looking to extend AI assistants with new tools via the MCP standard.
+  mental_damage: Another registry for the registries, because apparently the hardest part of the AI workflow is remembering where we filed the tools that file the tools.
+  tags:
+    - mcp
+    - directory
+    - registry
+  confidence: medium
+curation:
+  status: included
+  reason: The URL acts as a submission gateway and directory index for MCP servers, making it a navigational map for developers rather than a tool itself.
+  evidence:
+    - The URL https://hr.talentohq.com/mcp redirects or links to the submission flow for mcpservers.org.
+    - It is listed in awesome-mcp-servers under the context of submitting servers to a central registry.
+    - The project provides no code, IDE, or agent, only a listing mechanism for MCP infrastructure.
+placement:
+  primary_category: awesome-awesomes
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.728Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:45:18.715Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

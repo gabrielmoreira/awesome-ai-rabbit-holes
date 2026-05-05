@@ -1,0 +1,81 @@
+id: github__jettyio__mlcbakery
+kind: github-repo
+name: mlcbakery
+canonical_url: https://github.com/jettyio/mlcbakery
+identity:
+  github_repo: jettyio/mlcbakery
+provenance:
+  discoveries:
+    - id: discovery__github__jettyio__mlcbakery__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Jetty.io
+        extracted_url: https://github.com/jettyio/mlcbakery
+        surrounding_text: "- **[Jetty.io](https://github.com/jettyio/mlcbakery/tree/main/mcp_server)** — Work on dataset metadata with MLCommons Croissant validation and creation."
+        confidence: high
+metadata:
+  github:
+    stars: 8
+    forks: 2
+    license: MIT
+    archived: false
+    created_at: "2025-03-25T03:44:37Z"
+    pushed_at: "2026-03-11T17:52:38Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:54.549Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:54.549Z"
+      bytes: 3209
+insights:
+  summary: A Python-based FastAPI service for managing ML model provenance and lineage with Croissant metadata validation, exposing a Streamable MCP HTTP endpoint for integration.
+  why_it_matters: It gives developers a structured way to track dataset and model lineage while exposing that metadata via MCP for AI assistants to consume.
+  mental_damage: We have successfully built an API to track the lineage of the models that we will inevitably replace six times before the quarter ends.
+  tags:
+    - mcp
+    - ml-lineage
+    - fastapi
+    - provenance
+    - metadata
+  confidence: medium
+curation:
+  status: included
+  reason: The project exposes a Streamable MCP HTTP endpoint and is explicitly listed in the awesome-mcp-servers directory, fitting the MCP infrastructure scope.
+  evidence:
+    - "README states: 'Streamable MCP HTTP: http://mcp.localhost/mcp'"
+    - Listed in awesome-mcp-servers source list under 'Official Servers'
+    - Built as a FastAPI service with a REST API and MCP integration for model provenance
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.700Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:54.549Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:28:13.081Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

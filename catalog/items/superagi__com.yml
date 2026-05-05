@@ -1,0 +1,90 @@
+id: superagi__com
+kind: website
+name: superagi.com
+canonical_url: https://superagi.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__superagi__com__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - SuperAGI
+        anchor_text: SuperAGI
+        extracted_url: https://superagi.com
+        surrounding_text: "## [SuperAGI](https://superagi.com/)"
+        confidence: high
+    - id: discovery__superagi__com__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: janhq/awesome-local-ai
+        url: https://github.com/janhq/awesome-local-ai
+        repository: janhq/awesome-local-ai
+      extraction:
+        mode: parsed
+        section_path:
+          - Agents
+        anchor_text: SuperAGI
+        extracted_url: https://superagi.com
+        surrounding_text: "- [SuperAGI](https://superagi.com/) - Opensource AGI Infrastructure."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: SuperAGI is a hosted AI sales agent that automates finding and engaging with sales prospects 24/7.
+  why_it_matters: It represents the growing trend of autonomous agents targeting specific business functions like sales rather than developer workflows.
+  mental_damage: We have successfully automated the one job that mostly consisted of automating other people's jobs.
+  tags:
+    - sales-agent
+    - autonomous-agent
+    - business-automation
+  confidence: high
+curation:
+  status: excluded
+  reason: The product is a business-facing sales automation tool, not a developer tool, coding agent, or infrastructure component relevant to software development workflows.
+  evidence:
+    - Scraped site description explicitly defines it as 'an AI sales agent that works 24×7 to find & engage with prospects'.
+    - Appears in source lists under sales/business contexts, not developer tooling or coding categories.
+    - No GitHub repository, code artifacts, or developer-facing APIs are present in the provided inputs.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.440Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T20:49:40.423Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+    next_retry_at: null

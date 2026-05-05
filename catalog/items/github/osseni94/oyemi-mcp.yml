@@ -1,0 +1,81 @@
+id: github__osseni94__oyemi-mcp
+kind: github-repo
+name: oyemi-mcp
+canonical_url: https://github.com/osseni94/oyemi-mcp
+identity:
+  github_repo: osseni94/oyemi-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__osseni94__oyemi-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📊 <a name="data-platforms"></a>Data Platforms
+        anchor_text: Osseni94/oyemi-mcp
+        extracted_url: https://github.com/osseni94/oyemi-mcp
+        surrounding_text: "- [Osseni94/oyemi-mcp](https://github.com/Osseni94/oyemi-mcp) 🐍 🏠 - Deterministic semantic word encoding and valence/sentiment analysis using 145K+ word lexicon. Provides word-to-code mapping, semantic similarity, synonym/antonym lookup with zero runtime NLP dependencies."
+        confidence: high
+metadata:
+  github:
+    stars: 2
+    forks: 1
+    license: null
+    archived: false
+    created_at: "2025-12-18T17:40:02Z"
+    pushed_at: "2025-12-18T18:04:15Z"
+    description: MCP support for Oyemi Library
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:04:08.922Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:08.922Z"
+      bytes: 3195
+insights:
+  summary: An MCP server that provides AI agents with deterministic word-to-code mapping, valence analysis, and semantic similarity lookups from the Oyemi semantic lexicon.
+  why_it_matters: It gives coding agents a structured, runtime-free way to perform sentiment analysis and semantic grounding without relying on heavy NLP libraries or probabilistic guessing.
+  mental_damage: "Just what every 2-star repository needs: a proprietary deterministic code for 'happy' so your agent can feel feelings while it hallucinates the rest of your stack."
+  tags:
+    - mcp
+    - nlp
+    - semantic
+    - agent-tooling
+  confidence: medium
+curation:
+  status: included
+  reason: The project is explicitly an MCP server providing semantic and valence tools for AI agents, which fits cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description states 'MCP support for Oyemi Library'.
+    - README confirms it is an 'MCP (Model Context Protocol) server for the Oyemi semantic lexicon'.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Data Platforms'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.712Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:08.922Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:43:19.162Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

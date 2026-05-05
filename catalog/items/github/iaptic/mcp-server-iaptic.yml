@@ -1,0 +1,96 @@
+id: github__iaptic__mcp-server-iaptic
+kind: github-repo
+name: mcp-server-iaptic
+canonical_url: https://github.com/iaptic/mcp-server-iaptic
+identity:
+  github_repo: iaptic/mcp-server-iaptic
+provenance:
+  discoveries:
+    - id: discovery__github__iaptic__mcp-server-iaptic__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 👤 <a name="customer-data-platforms"></a>Customer Data Platforms
+        anchor_text: iaptic/mcp-server-iaptic
+        extracted_url: https://github.com/iaptic/mcp-server-iaptic
+        surrounding_text: "- [iaptic/mcp-server-iaptic](https://github.com/iaptic/mcp-server-iaptic) 🎖️ 📇 ☁️ - Connect with [iaptic](https://www.iaptic.com) to ask about your Customer Purchases, Transaction data and App Revenue statistics."
+        confidence: high
+    - id: discovery__github__iaptic__mcp-server-iaptic__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - 👤 Customer Data Platforms
+        anchor_text: "@iaptic/mcp-server-iaptic"
+        extracted_url: https://github.com/iaptic/mcp-server-iaptic
+        surrounding_text: "-   **[@iaptic/mcp-server-iaptic](https://github.com/iaptic/mcp-server-iaptic)** [![GitHub stars](https://img.shields.io/github/stars/iaptic/mcp-server-iaptic?style=social)](https://github.com/iaptic/mcp-server-iaptic): Connects to iaptic to retrieve customer purchase and app revenue data."
+        confidence: high
+metadata:
+  github:
+    stars: 6
+    forks: 7
+    license: MIT
+    archived: false
+    created_at: "2025-01-16T21:41:08Z"
+    pushed_at: "2026-04-24T08:45:41Z"
+    description: " Model Context Protocol server for interacting with iaptic"
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:40.368Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:40.367Z"
+      bytes: 3773
+insights:
+  summary: An MCP server that exposes the Iaptic API, allowing AI assistants like Claude to query customer data, purchases, transactions, and statistics directly.
+  why_it_matters: It lets developers hook their in-app purchase management platform into their AI workflow, enabling natural language queries over financial data without building a custom integration.
+  mental_damage: Yet another niche MCP server proving that if a REST API exists, someone will inevitably wrap it in a protocol so an LLM can ask about yesterday's Stripe revenue.
+  tags:
+    - mcp
+    - iaptic
+    - api-wrapper
+    - nodejs
+  confidence: high
+curation:
+  status: included
+  reason: The project is a dedicated Model Context Protocol server implementation for a specific API, fitting cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description explicitly states: 'Model Context Protocol server for interacting with iaptic'."
+    - README details tools for customers, purchases, transactions, and statistics exposed via MCP.
+    - Listed in 'awesome-mcp-list' and 'awesome-mcp-servers' under Customer Data Platforms sections.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.667Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:40.368Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:25:20.143Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

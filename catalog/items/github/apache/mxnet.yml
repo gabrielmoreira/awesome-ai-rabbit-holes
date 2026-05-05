@@ -1,0 +1,82 @@
+id: github__apache__mxnet
+kind: github-repo
+name: mxnet
+canonical_url: https://github.com/apache/mxnet
+identity:
+  github_repo: apache/mxnet
+provenance:
+  discoveries:
+    - id: discovery__github__apache__mxnet__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Training
+          - Frameworks for Training
+        anchor_text: Apache MXNet
+        extracted_url: https://github.com/apache/mxnet
+        surrounding_text: "| [Apache MXNet](https://github.com/apache/mxnet)                      | Lightweight, Portable, Flexible Distributed/Mobile Deep Learning with Dynamic, Mutation-aware Dataflow Dep Scheduler.                                                                                       | ![GitHub Badge](https://img.shields.io/github/stars/apache/mxnet.svg?style=flat-square)                      |"
+        confidence: high
+metadata:
+  github:
+    stars: 20811
+    forks: 6709
+    license: Apache-2.0
+    archived: true
+    created_at: "2015-04-30T16:21:15Z"
+    pushed_at: "2023-10-25T21:28:33Z"
+    description: Lightweight, Portable, Flexible Distributed/Mobile Deep Learning with Dynamic, Mutation-aware Dataflow Dep Scheduler; for Python, R, Julia, Scala, Go, Javascript and more
+    homepage: https://mxnet.apache.org
+    topics:
+      - mxnet
+    last_checked_at: "2026-05-05T21:01:05.968Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:05.968Z"
+      bytes: 16698
+insights:
+  summary: Apache MXNet is an archived, portable deep learning framework supporting multiple languages with a dynamic dependency scheduler for efficient symbolic and imperative execution.
+  why_it_matters: It provides a historical reference point for developers building or maintaining legacy deep learning systems that require flexible hybrid programming models.
+  mental_damage: It stands as a monument to the deep learning framework churn, reminding us that even Apache-backed projects eventually get archived while the ecosystem moves on to the next shiny object.
+  tags:
+    - deep-learning
+    - framework
+    - archived
+    - apache
+  confidence: high
+curation:
+  status: excluded
+  reason: The project is an archived general deep learning framework with no specific AI developer-tooling or modern LLM/agent workflow angle required for this catalog.
+  evidence:
+    - Repository is marked as archived.
+    - Repo description and README focus on general deep learning training, not AI developer tools or coding agents.
+    - Listed in Awesome-LLMOps under 'Training > Frameworks for Training', which is a general ML category outside the catalog's scope.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: needs_review
+  reason: Repository is archived
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.679Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:05.968Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:08:31.885Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

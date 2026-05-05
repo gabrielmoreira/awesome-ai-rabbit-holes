@@ -1,0 +1,81 @@
+id: github__deepseek-ai__deepseek-coder-v2
+kind: github-repo
+name: deepseek-coder-v2
+canonical_url: https://github.com/deepseek-ai/deepseek-coder-v2
+identity:
+  github_repo: deepseek-ai/deepseek-coder-v2
+provenance:
+  discoveries:
+    - id: discovery__github__deepseek-ai__deepseek-coder-v2__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Code Models
+        anchor_text: DeepSeek Coder
+        extracted_url: https://github.com/deepseek-ai/deepseek-coder-v2
+        surrounding_text: "- **[DeepSeek Coder](https://github.com/deepseek-ai/DeepSeek-Coder-V2)** – High-performance open-source coding model; popular for cost-efficient AI coding via API."
+        confidence: high
+metadata:
+  github:
+    stars: 6706
+    forks: 1077
+    license: MIT
+    archived: false
+    created_at: "2024-06-14T03:39:37Z"
+    pushed_at: "2025-11-11T06:44:45Z"
+    description: "DeepSeek-Coder-V2: Breaking the Barrier of Closed-Source Models in Code Intelligence"
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:01:50.984Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:50.984Z"
+      bytes: 20235
+insights:
+  summary: DeepSeek-Coder-V2 is an open-source Mixture-of-Experts (MoE) code language model available in 16B and 236B parameter sizes, designed to match or exceed closed-source models like GPT-4 Turbo on code-specific tasks.
+  why_it_matters: It provides developers with a high-performing, locally runnable alternative to proprietary coding models, supporting 338 programming languages with a 128k context window.
+  mental_damage: "Just what we needed: another benchmark where an open-source model claims parity with GPT-4, ensuring we spend the next month tuning yet another set of inference parameters instead of writing code."
+  tags:
+    - llm
+    - code-model
+    - local-ai
+    - open-source
+    - moe
+  confidence: high
+curation:
+  status: included
+  reason: The repository distributes the weights and instructions for running a powerful coding model locally, fitting the scope of local AI tooling for developers.
+  evidence:
+    - Repo description states it is 'Breaking the Barrier of Closed-Source Models in Code Intelligence'.
+    - README details models (16B and 236B) available on HuggingFace for local use with 128k context.
+    - Listed under 'Code Models' in the awesome-ai-coding-tools directory, confirming its identity as a model weight distribution.
+placement:
+  primary_category: local-ai
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (6706) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.684Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:50.984Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:16:00.761Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

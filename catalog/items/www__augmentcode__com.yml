@@ -1,0 +1,91 @@
+id: www__augmentcode__com
+kind: website
+name: www.augmentcode.com
+canonical_url: https://www.augmentcode.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__augmentcode__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Code Editors and Assistants
+        anchor_text: Augment Code
+        extracted_url: https://www.augmentcode.com
+        surrounding_text: "- **[Augment Code](https://www.augmentcode.com/)** – AI coding platform with deep cross-repo codebase understanding via its Context Engine, built for large enterprise codebases."
+        confidence: high
+    - id: discovery__www__augmentcode__com__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 代码 Coding
+        anchor_text: AugmentCode
+        extracted_url: https://www.augmentcode.com
+        surrounding_text: 12. [AugmentCode](https://www.augmentcode.com/)
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Augment Code is a developer platform providing AI coding agents that integrate with IDEs, CLI, and GitHub pull requests to generate, review, and refactor code using a proprietary context engine.
+  why_it_matters: It attempts to differentiate from standard AI assistants by maintaining a live, deep understanding of entire large codebases to improve the accuracy of generated code and reviews.
+  mental_damage: "Just what every engineer wanted: another 'context-aware' agent promising to understand a 3.6M LOC monorepo while we still struggle to understand why the linter is yelling at line 42."
+  tags:
+    - coding-agent
+    - code-review
+    - cli
+    - ide-extension
+  confidence: high
+curation:
+  status: included
+  reason: The product is a primary coding assistant operating directly in the developer's workflow across IDE, CLI, and PR review contexts, fitting the coding-agents criteria.
+  evidence:
+    - Product description explicitly lists IDE agents, CLI, and GitHub Code Review as primary surfaces.
+    - Benchmark claims compare agent-generated PRs directly against human-written code in the Elasticsearch repo.
+    - Included in 'awesome-ai-coding-tools' under 'Code Editors and Assistants'.
+placement:
+  primary_category: coding-agents
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.675Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:49:45.066Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

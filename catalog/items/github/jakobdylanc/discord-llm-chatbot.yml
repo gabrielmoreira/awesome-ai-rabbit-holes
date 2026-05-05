@@ -1,0 +1,95 @@
+id: github__jakobdylanc__discord-llm-chatbot
+kind: github-repo
+name: discord-llm-chatbot
+canonical_url: https://github.com/jakobdylanc/discord-llm-chatbot
+identity:
+  github_repo: jakobdylanc/discord-llm-chatbot
+provenance:
+  discoveries:
+    - id: discovery__github__jakobdylanc__discord-llm-chatbot__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: janhq/awesome-local-ai
+        url: https://github.com/janhq/awesome-local-ai
+        repository: janhq/awesome-local-ai
+      extraction:
+        mode: parsed
+        section_path:
+          - User Tools
+        anchor_text: llmcord.py
+        extracted_url: https://github.com/jakobdylanc/discord-llm-chatbot
+        surrounding_text: "- [llmcord.py](https://github.com/jakobdylanc/discord-llm-chatbot) - Discord LLM Chatbot - Talk to LLMs with your friends!"
+        confidence: high
+metadata:
+  github:
+    stars: 793
+    forks: 190
+    license: MIT
+    archived: false
+    created_at: "2023-05-08T23:07:07Z"
+    pushed_at: "2026-02-22T19:26:14Z"
+    description: Make Discord your LLM frontend - Supports any OpenAI compatible API (Ollama, xAI, Gemini, OpenRouter and more)
+    homepage: ""
+    topics:
+      - bot
+      - chatbot
+      - discord
+      - discord-bot
+      - gemini
+      - gpt-5
+      - grok-4
+      - llama
+      - llm
+      - mistral
+      - ollama
+      - openai
+      - openrouter
+      - vllm
+    last_checked_at: "2026-05-05T21:02:49.954Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:49.954Z"
+      bytes: 7116
+insights:
+  summary: A lightweight Python bot that turns Discord into a collaborative frontend for any OpenAI-compatible LLM, supporting reply-based threading and model switching.
+  why_it_matters: It lets teams self-host a shared AI chat interface using local or remote models without standing up a dedicated web app or SaaS.
+  mental_damage: Finally, a way to make architectural decisions with your LLM while arguing with your teammates in a Discord thread at 2 AM.
+  tags:
+    - discord
+    - llm
+    - local-ai
+    - chatbot
+    - openai-compatible
+  confidence: high
+curation:
+  status: included
+  reason: This is a developer-tooling project for running LLMs as a Discord bot with strong local-AI support, fitting the local-ai category rather than coding agents or app builders.
+  evidence:
+    - "Repo description: 'Make Discord your LLM frontend - Supports any OpenAI compatible API (Ollama, xAI, Gemini, OpenRouter and more)'"
+    - README states it works with local models via Ollama, LM Studio, vLLM, and any OpenAI-compatible API server.
+    - Seen in awesome-local-ai under User Tools, aligning with local execution and developer utility.
+placement:
+  primary_category: local-ai
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (793) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.442Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:49.954Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:27:19.632Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

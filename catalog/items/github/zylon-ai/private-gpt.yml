@@ -1,0 +1,94 @@
+id: github__zylon-ai__private-gpt
+kind: github-repo
+name: privategpt
+canonical_url: https://github.com/zylon-ai/private-gpt
+identity:
+  github_repo: zylon-ai/private-gpt
+provenance:
+  discoveries:
+    - id: discovery__github__imartinez__privategpt__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Tools
+          - Agents
+        anchor_text: Private GPT
+        extracted_url: https://github.com/imartinez/privategpt
+        surrounding_text: "- [Private GPT](https://github.com/imartinez/privateGPT): Interact privately with your documents using the power of GPT, 100% privately, no data leaks ![GitHub Repo stars](https://img.shields.io/github/stars/imartinez/privateGPT?style=social)"
+        confidence: high
+    - id: discovery__www__privategpt__io__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Private GPT
+        anchor_text: Private GPT
+        extracted_url: https://www.privategpt.io
+        surrounding_text: "## [Private GPT](https://www.privategpt.io/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A private, enterprise-facing AI tool that connects company data sources like Notion, JIRA, and GitHub to provide a secure, natural language question-answering interface.
+  why_it_matters: It allows developers and organizations to deploy a ChatGPT-like interface over internal knowledge bases without exposing proprietary data to external LLM training sets.
+  mental_damage: Yet another reason to stop reading documentation, as 'just ask the PrivateGPT' becomes the official onboarding strategy for codebases no one wants to maintain.
+  tags:
+    - enterprise
+    - knowledge-management
+    - llm
+    - privacy
+    - rag
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a knowledge management and RAG product for enterprise users, not a developer tool for writing, editing, or deploying code.
+  evidence:
+    - Site description focuses on connecting data sources (Notion, JIRA, Slack) for natural language Q&A.
+    - Positioned as a 'Private ChatGPT' for company knowledge management and security, not coding.
+    - Listed in awesome-ai-agents under a 'Private GPT' section for data connectivity, not coding agents.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:52:38.124Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.733Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

@@ -1,0 +1,77 @@
+id: atlan__com
+kind: website
+name: atlan.com
+canonical_url: https://atlan.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__atlan__com__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Atlan
+        extracted_url: https://atlan.com
+        surrounding_text: "- **[Atlan](https://github.com/atlanhq/agent-toolkit/tree/main/modelcontextprotocol)** - Official MCP Server from [Atlan](https://atlan.com) which enables you to bring the power of metadata to your AI tools"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Atlan is an enterprise data governance platform that creates a 'context layer' by unifying business systems, data lineage, and knowledge graphs to make organizational context available to AI agents via an MCP server.
+  why_it_matters: It allows developers building enterprise AI agents to stop hardcoding business logic and instead connect their tools to a centralized, governed source of truth for data definitions and company metrics.
+  mental_damage: Finally, a way to formally document that 'revenue' actually means 'net ACV minus discounts' so the AI agent can confidently hallucinate the wrong answer with enterprise-grade authority.
+  tags:
+    - mcp
+    - context-engineering
+    - enterprise
+    - data-governance
+    - agents
+  confidence: high
+curation:
+  status: excluded
+  reason: While it offers an MCP server integration, the core product is an enterprise data governance and cataloging SaaS (targeting non-technical stakeholders like 'VP of Data') rather than a developer-facing tool, framework, or infrastructure component.
+  evidence:
+    - Scraped site context describes the product as 'The missing context layer for enterprise AI' targeting business systems, data lineage, and governance for 'humans' and 'domain experts', not developers directly.
+    - Inclusion in 'awesome-mcp-servers' is specifically noted as a link to a third-party directory (mcpservers.org/submit) rather than the server being a primary developer tool.
+    - The workflow described (Unify, Bootstrap, Collaborate, Activate) is centered on data governance, glossary creation, and certification by business users, not code development.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.726Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:42:09.576Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

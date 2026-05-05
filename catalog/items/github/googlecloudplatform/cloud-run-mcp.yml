@@ -1,0 +1,85 @@
+id: github__googlecloudplatform__cloud-run-mcp
+kind: github-repo
+name: cloud-run-mcp
+canonical_url: https://github.com/googlecloudplatform/cloud-run-mcp
+identity:
+  github_repo: googlecloudplatform/cloud-run-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__googlecloudplatform__cloud-run-mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Google Cloud Run
+        extracted_url: https://github.com/googlecloudplatform/cloud-run-mcp
+        surrounding_text: "- **[Google Cloud Run](https://github.com/GoogleCloudPlatform/cloud-run-mcp)** - Official MCP Server to deploy to [Google Cloud Run](https://cloud.google.com/run)."
+        confidence: high
+metadata:
+  github:
+    stars: 604
+    forks: 109
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-05-06T23:22:44Z"
+    pushed_at: "2026-04-30T04:39:29Z"
+    description: MCP server to deploy apps to Cloud Run
+    homepage: ""
+    topics:
+      - google-cloud
+      - google-cloud-run
+      - mcp
+      - mcp-server
+    last_checked_at: "2026-05-05T21:02:25.114Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:25.114Z"
+      bytes: 13299
+insights:
+  summary: An official Google Cloud MCP server that lets AI agents, IDEs, and CLIs deploy and manage applications on Cloud Run.
+  why_it_matters: It connects AI coding agents directly to GCP infrastructure, allowing them to ship code to production without the developer manually configuring Cloud Run deployments.
+  mental_damage: We have successfully abstracted the last remaining friction point between 'vibe coding' an app and deploying it to a URL that will cost you real money.
+  tags:
+    - mcp
+    - google-cloud
+    - cloud-run
+    - deployment
+    - agent-tooling
+  confidence: high
+curation:
+  status: included
+  reason: The project is an official MCP server implementation for Google Cloud Run, fitting squarely into the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description explicitly states: 'MCP server to deploy apps to Cloud Run'."
+    - README details a Model Context Protocol server with tools like 'deploy-file-contents' and 'list-services'.
+    - Included in the 'awesome-mcp-servers' list under 'Official Servers'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (604) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.689Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:25.114Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:22:17.364Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

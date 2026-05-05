@@ -1,0 +1,102 @@
+id: github__mrexodia__user-feedback-mcp
+kind: github-repo
+name: user-feedback-mcp
+canonical_url: https://github.com/mrexodia/user-feedback-mcp
+identity:
+  github_repo: mrexodia/user-feedback-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__mrexodia__user-feedback-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: mrexodia/user-feedback-mcp
+        extracted_url: https://github.com/mrexodia/user-feedback-mcp
+        surrounding_text: "- [mrexodia/user-feedback-mcp](https://github.com/mrexodia/user-feedback-mcp) 🐍 🏠 - Simple MCP Server to enable a human-in-the-loop workflow in tools like Cline and Cursor."
+        confidence: high
+    - id: discovery__github__mrexodia__user-feedback-mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: User Feedback
+        extracted_url: https://github.com/mrexodia/user-feedback-mcp
+        surrounding_text: "- **[User Feedback](https://github.com/mrexodia/user-feedback-mcp)** - Simple MCP Server to enable a human-in-the-loop workflow in tools like Cline and Cursor."
+        confidence: high
+metadata:
+  github:
+    stars: 53
+    forks: 11
+    license: MIT
+    archived: false
+    created_at: "2025-03-22T15:31:07Z"
+    pushed_at: "2025-03-26T12:06:07Z"
+    description: Simple MCP Server to enable a human-in-the-loop workflow in tools like Cline and Cursor.
+    homepage: ""
+    topics:
+      - cline
+      - cursor
+      - mcp
+      - mcp-server
+      - modelcontextprotocol
+    last_checked_at: "2026-05-05T21:03:47.965Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:47.965Z"
+      bytes: 2767
+insights:
+  summary: A Model Context Protocol server that enables human-in-the-loop workflows by prompting users for feedback within AI coding tools like Cline and Cursor.
+  why_it_matters: It allows autonomous coding agents to pause and request user validation before completing tasks, bridging the gap between agent autonomy and developer oversight.
+  mental_damage: We have finally achieved the technological pinnacle of building an MCP server just to ask the human if the robot can stop working now.
+  tags:
+    - mcp
+    - human-in-the-loop
+    - cursor
+    - cline
+    - feedback
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server implementation designed to extend the capabilities of coding agents, fitting squarely into the MCP tooling category.
+  evidence:
+    - Repo description states it is a 'Simple MCP Server to enable a human-in-the-loop workflow'.
+    - README details integration specifically with Cline and Cursor using the Model Context Protocol.
+    - Listed in awesome-mcp-servers under 'Developer Tools' and 'Community Servers'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.669Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:47.965Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:39:16.176Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,87 @@
+id: github__isekos__awesome-a2a-agents
+kind: github-repo
+name: awesome-a2a-agents
+canonical_url: https://github.com/isekos/awesome-a2a-agents
+identity:
+  github_repo: isekos/awesome-a2a-agents
+provenance:
+  discoveries:
+    - id: discovery__github__isekos__awesome-a2a-agents__awesome-list__vivy-yi__awesome-agent-orchestration
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: vivy-yi/awesome-agent-orchestration
+        url: https://github.com/vivy-yi/awesome-agent-orchestration
+        repository: vivy-yi/awesome-agent-orchestration
+      extraction:
+        mode: parsed
+        section_path:
+          - Agent Communication Protocols
+          - Agent-to-Agent (A2A)
+        anchor_text: awesome-a2a-agents
+        extracted_url: https://github.com/isekos/awesome-a2a-agents
+        surrounding_text: "| [awesome-a2a-agents](https://github.com/isekOS/awesome-a2a-agents) | Curated list of A2A tools and frameworks | ![Stars](https://img.shields.io/github/stars/isekOS/awesome-a2a-agents) |"
+        confidence: high
+metadata:
+  github:
+    stars: 23
+    forks: 16
+    license: MIT
+    archived: false
+    created_at: "2025-09-27T09:00:16Z"
+    pushed_at: "2025-09-27T18:20:05Z"
+    description: Awesome A2A Agents is a curated list of tools, frameworks, and projects built on the Agent-to-Agent (A2A) communication protocol. It aims to showcase interoperable agent systems, share best practices, and help developers explore the emerging A2A ecosystem.
+    homepage: https:/isek.xyz/
+    topics:
+      - a2a
+      - a2a-protocol
+      - agent
+      - agents
+      - ai
+    last_checked_at: "2026-05-05T21:02:47.357Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:47.357Z"
+      bytes: 64018
+insights:
+  summary: A curated list of tools, frameworks, and agent projects built on Google's Agent-to-Agent (A2A) communication protocol.
+  why_it_matters: It serves as a developer map for navigating the emerging A2A ecosystem, making it easier to find interoperable agents and implementation patterns.
+  mental_damage: Another meta-list to bookmark before the protocol it documents inevitably gets rewritten by a newer, shinier standard next month.
+  tags:
+    - a2a
+    - agent-communication
+    - google
+    - multi-agent
+    - directory
+  confidence: high
+curation:
+  status: included
+  reason: This is a curated index of A2A-compatible agents and tools, which fits the awesome-awesomes category as a navigation aid for developers exploring a specific protocol.
+  evidence:
+    - Repo description explicitly states it is 'a curated list of tools, frameworks, and projects built on the Agent-to-Agent (A2A) communication protocol.'
+    - README is structured as an 'Awesome' list with categorized links to external agent projects (e.g., CrewAI examples).
+    - Listed in the 'awesome-agent-orchestration' source list under the 'Agent Communication Protocols' section.
+placement:
+  primary_category: awesome-awesomes
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.698Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:47.357Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:26:47.432Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,101 @@
+id: github__m0n0x41d__quint-code
+kind: github-repo
+name: quint-code
+canonical_url: https://github.com/m0n0x41d/quint-code
+identity:
+  github_repo: m0n0x41d/quint-code
+provenance:
+  discoveries:
+    - id: discovery__github__m0n0x41d__quint-code__awesome-list__engineering4ai__awesome-spec-driven-development
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: Engineering4AI/awesome-spec-driven-development
+        url: https://github.com/engineering4ai/awesome-spec-driven-development
+        repository: Engineering4AI/awesome-spec-driven-development
+      extraction:
+        mode: parsed
+        section_path:
+          - Specification Tools
+        anchor_text: quint-code
+        extracted_url: https://github.com/m0n0x41d/quint-code
+        surrounding_text: "- [quint-code](https://github.com/m0n0x41d/quint-code) ![](https://img.shields.io/github/stars/m0n0x41d/quint-code.svg) - Structured reasoning framework for AI coding tools implementing hypothesis-driven spec development with automated design rationale records."
+        confidence: high
+metadata:
+  github:
+    stars: 1311
+    forks: 104
+    license: NOASSERTION
+    archived: false
+    created_at: "2025-12-10T19:16:51Z"
+    pushed_at: "2026-05-04T08:20:34Z"
+    description: Engineering decisions  engine that know when they're stale. Frame, compare, decide — with evidence decay and parity enforcement. For Claude Code, Cursor, Gemini CLI, Codex and more.
+    homepage: https://quint.codes
+    topics:
+      - ai-agents
+      - ai-coding
+      - ai-skills
+      - air
+      - anthropic
+      - claude
+      - claude-code
+      - cli
+      - codex
+      - codex-cli
+      - context-memory
+      - cursor
+      - cursor-ai
+      - developer-tools
+      - first-principles
+      - gemini-cli
+      - prompt-engineering
+      - reasoning
+      - structured-reasoning
+      - systems-thinking
+    last_checked_at: "2026-05-05T21:03:26.809Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:26.809Z"
+      bytes: 19379
+insights:
+  summary: A CLI and MCP server that enforces structured engineering decisions, spec governance, and evidence decay for AI coding agents like Claude Code and Codex.
+  why_it_matters: It forces AI-assisted workflows to frame problems, compare options under parity, and track decision staleness before agents blindly ship code.
+  mental_damage: You now have a governance layer for your governance layer, because apparently the only thing more comforting than an AI agent is a tool that tells you when the AI agent's assumptions have rotted.
+  tags:
+    - spec-driven
+    - mcp
+    - governance
+    - cli
+    - agents
+  confidence: high
+curation:
+  status: included
+  reason: It directly matches the spec-driven development workflow of spec-first planning, governed decisions, and evidence-backed engineering, and is already curated in the awesome-spec-driven-development list.
+  evidence:
+    - Repo description explicitly calls it an 'Engineering decisions engine' with 'evidence decay and parity enforcement' for Claude Code, Cursor, and others.
+    - README states it is 'the engineering governor that sits between your intentions and your agents' execution' with a 'Specify → Think → Run → Govern' loop.
+    - Listed in awesome-spec-driven-development under 'Specification Tools' as a tool for writing specifications first to guide development.
+placement:
+  primary_category: spec-driven-development
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1311) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.442Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:26.809Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:35:07.440Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,88 @@
+id: github__opusforge__gorilla-mcp
+kind: github-repo
+name: gorilla-mcp
+canonical_url: https://github.com/opusforge/gorilla-mcp
+identity:
+  github_repo: opusforge/gorilla-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__opusforge__gorilla-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🎯 <a name="marketing"></a>Marketing
+        anchor_text: opusforge/gorilla-mcp
+        extracted_url: https://github.com/opusforge/gorilla-mcp
+        surrounding_text: "- [opusforge/gorilla-mcp](https://github.com/opusforge/gorilla-mcp) [![opusforge/gorilla-mcp MCP server](https://glama.ai/mcp/servers/opusforge/gorilla-mcp/badges/score.svg)](https://glama.ai/mcp/servers/opusforge/gorilla-mcp) 📇 ☁️ - Lead discovery for solo SaaS founders. Searches Reddit, X, YouTube, and TikTok for posts where people describe a problem your product solves, ranks each by buying intent, and returns ranked leads. Includes `find_leads`, `draft_outreach`, and `plan_acquisition_funnel` for the full acquisition flow. Hosted, $0.99 per run. Install: `npx -y github:opusforge/gorilla-mcp`. Sign up: [usegorilla.app](https://usegorilla.app)."
+        confidence: high
+metadata:
+  github:
+    stars: 2
+    forks: 3
+    license: MIT
+    archived: false
+    created_at: "2026-04-17T00:07:08Z"
+    pushed_at: "2026-05-02T05:48:36Z"
+    description: MCP server for Gorilla. Find your first SaaS users on Reddit, X, YouTube, and TikTok. https://usegorilla.app
+    homepage: https://usegorilla.app
+    topics:
+      - anthropic
+      - claude
+      - founders
+      - lead-generation
+      - mcp
+      - model-context-protocol
+      - saas
+    last_checked_at: "2026-05-05T21:04:08.370Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:08.370Z"
+      bytes: 7622
+insights:
+  summary: An MCP server that connects Claude and Cursor to the Gorilla SaaS, enabling AI agents to find and qualify early SaaS users by searching Reddit, X, YouTube, TikTok, and LinkedIn.
+  why_it_matters: It allows developer-focused AI workflows to integrate lead generation and outreach drafting directly into the coding environment rather than switching to external marketing tools.
+  mental_damage: "We have officially reached the point where your coding agent can now handle the part of the job no one wanted anyway: cold outreach to strangers on the internet."
+  tags:
+    - mcp
+    - lead-generation
+    - marketing
+    - saas
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server implementation designed to integrate a specific SaaS tool into AI coding environments like Claude Code and Cursor.
+  evidence:
+    - Repo description identifies it as an 'MCP server for Gorilla'.
+    - README provides configuration examples for Claude Code and Cursor under the MCP server format.
+    - Listed in awesome-mcp-servers under the 'Marketing' section, confirming its identity as an MCP tool.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.712Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:08.370Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:43:09.831Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

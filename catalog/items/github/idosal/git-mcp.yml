@@ -1,0 +1,107 @@
+id: github__idosal__git-mcp
+kind: github-repo
+name: git-mcp
+canonical_url: https://github.com/idosal/git-mcp
+identity:
+  github_repo: idosal/git-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__idosal__git-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: idosal/git-mcp
+        extracted_url: https://github.com/idosal/git-mcp
+        surrounding_text: "- [idosal/git-mcp](https://github.com/idosal/git-mcp) 📇 ☁️ - [gitmcp.io](https://gitmcp.io/) is a generic remote MCP server to connect to ANY [GitHub](https://www.github.com) repository or project for documentation"
+        confidence: high
+    - id: discovery__gitmcp__io__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: gitmcp.io
+        extracted_url: https://gitmcp.io
+        surrounding_text: "- [idosal/git-mcp](https://github.com/idosal/git-mcp) 📇 ☁️ - [gitmcp.io](https://gitmcp.io/) is a generic remote MCP server to connect to ANY [GitHub](https://www.github.com) repository or project for documentation"
+        confidence: high
+metadata:
+  github:
+    stars: 8027
+    forks: 706
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-03-29T00:44:19Z"
+    pushed_at: "2026-03-13T01:21:48Z"
+    description: Put an end to code hallucinations! GitMCP is a free, open-source, remote MCP server for any GitHub project
+    homepage: https://gitmcp.io
+    topics:
+      - agentic-ai
+      - agents
+      - ai
+      - claude
+      - copilot
+      - cursor
+      - git
+      - llm
+      - mcp
+    last_checked_at: "2026-05-05T21:02:40.800Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:40.800Z"
+      bytes: 15886
+insights:
+  summary: A free, remote MCP server that exposes any GitHub repository's documentation and code to AI tools, enabling live context lookups to reduce hallucinations.
+  why_it_matters: It allows coding assistants in IDEs like Cursor and Claude to query fresh, repo-specific documentation instead of relying on outdated training data.
+  mental_damage: We have successfully engineered a solution that forces our AI to read the README, just in case it forgot how to read the code we just wrote.
+  tags:
+    - mcp
+    - context-retrieval
+    - documentation
+    - open-source
+    - github
+  confidence: high
+curation:
+  status: included
+  reason: The project is a Model Context Protocol server designed to provide context to other AI tools, fitting squarely into the MCP infrastructure category.
+  evidence:
+    - Repo description explicitly states it is a 'remote MCP server for any GitHub project'.
+    - README confirms it transforms GitHub projects into documentation hubs for AI tools via MCP.
+    - Listed under 'Server Implementations > Developer Tools' in the awesome-mcp-servers directory.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (8027) exceeded threshold (150)
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:04:39.817Z"
+    cause: null
+    attempts: 2
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+    next_retry_at: null
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.728Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:40.800Z"
+    cause: null
+    next_retry_at: null

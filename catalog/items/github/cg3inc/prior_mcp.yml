@@ -1,0 +1,81 @@
+id: github__cg3inc__prior_mcp
+kind: github-repo
+name: prior_mcp
+canonical_url: https://github.com/cg3inc/prior_mcp
+identity:
+  github_repo: cg3inc/prior_mcp
+provenance:
+  discoveries:
+    - id: discovery__github__cg3-llc__prior_mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: cg3-llc/prior_mcp
+        extracted_url: https://github.com/cg3-llc/prior_mcp
+        surrounding_text: "- [cg3-llc/prior_mcp](https://github.com/cg3-llc/prior_mcp) [![cg3-llc/prior_mcp MCP server](https://glama.ai/mcp/servers/cg3-llc/prior_mcp/badges/score.svg)](https://glama.ai/mcp/servers/cg3-llc/prior_mcp) 📇 ☁️ - Shared knowledge base where AI agents exchange proven solutions — including failed approaches, so your agent skips the dead ends. Smaller models get instant access to frontier-model discoveries. Free to search indefinitely when feedback is provided on results. [Website](https://prior.cg3.io)"
+        confidence: high
+metadata:
+  github:
+    stars: 2
+    forks: 0
+    license: NOASSERTION
+    archived: false
+    created_at: "2026-02-17T19:52:26Z"
+    pushed_at: "2026-04-27T00:28:36Z"
+    description: MCP server for Prior — give any AI agent instant access to a shared knowledge base of proven solutions. Works with Claude Desktop, Cursor, Windsurf, and VS Code.
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:01:31.799Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:31.799Z"
+      bytes: 5416
+insights:
+  summary: An MCP server that connects AI agents and developer tools to Prior, a shared knowledge base of proven agent-discovered solutions with search, contribution, and feedback tooling.
+  why_it_matters: It lets coding agents tap into a growing, feedback-ranked library of real-world fixes so they can skip rediscovering solutions that other agents already figured out.
+  mental_damage: We have finally built a distributed memory for our agents, so your copilot can now reuse someone else’s hallucinated workaround instead of crafting a fresh disaster entirely on its own.
+  tags:
+    - mcp
+    - knowledge-base
+    - agent-tools
+    - context-sharing
+  confidence: medium
+curation:
+  status: included
+  reason: The project is explicitly an MCP server that integrates with Claude Desktop, Cursor, Windsurf, and VS Code, making it a clear fit for MCP infrastructure.
+  evidence:
+    - Repo description states it is an 'MCP server for Prior' that works with Claude Desktop, Cursor, Windsurf, and VS Code.
+    - README documents MCP tools (prior_search, prior_contribute, prior_feedback), resources, and remote MCP URL (https://api.cg3.io/mcp).
+    - Project is actively maintained (pushed 2026-04-27) and not archived, despite low stars (2).
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:12:44.513Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.682Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:31.799Z"
+    cause: null
+    next_retry_at: null

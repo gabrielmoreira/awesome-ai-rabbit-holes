@@ -1,0 +1,81 @@
+id: github__jonathan-politzki__your-memory
+kind: github-repo
+name: your-memory
+canonical_url: https://github.com/jonathan-politzki/your-memory
+identity:
+  github_repo: jonathan-politzki/your-memory
+provenance:
+  discoveries:
+    - id: discovery__github__jonathan-politzki__your-memory__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: Jean Memory
+        extracted_url: https://github.com/jonathan-politzki/your-memory
+        surrounding_text: "- **[Jean Memory](https://github.com/jonathan-politzki/your-memory)** - Premium memory consistent across all AI applications."
+        confidence: high
+metadata:
+  github:
+    stars: 169
+    forks: 14
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-05-01T01:49:16Z"
+    pushed_at: "2026-01-06T20:30:18Z"
+    description: next-generation AI memory infrastructure (powered by mem0 and graphiti)
+    homepage: https://jeanmemory.com
+    topics: []
+    last_checked_at: "2026-05-05T21:02:58.402Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:58.402Z"
+      bytes: 6644
+insights:
+  summary: Next-generation AI memory infrastructure providing persistent, context-aware memory layers and SDKs for integrating user-specific knowledge graphs into applications and agents.
+  why_it_matters: It allows developers to move beyond stateless LLM calls by adding a sophisticated memory layer that understands user context across different applications with minimal integration effort.
+  mental_damage: We’ve successfully abstracted away the burden of remembering conversations into a dedicated infrastructure layer, ensuring your AI can now misinterpret your past self with persistent, graph-powered confidence.
+  tags:
+    - memory
+    - sdk
+    - context-engineering
+    - react
+    - python
+  confidence: high
+curation:
+  status: included
+  reason: The project is primarily a framework and SDK (Python, Node, React) for developers to embed memory and context-retrieval behavior into their own applications and agents.
+  evidence:
+    - README explicitly provides SDK integration examples for React, Python, and Node.js to add memory to apps.
+    - Description labels it as 'AI memory infrastructure' powered by mem0 and graphiti.
+    - Architecture described as a two-layer system with an orchestration engine and core API tools for developers.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (169) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.442Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:58.402Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:29:04.877Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

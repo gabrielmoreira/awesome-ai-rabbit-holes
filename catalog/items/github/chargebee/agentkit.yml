@@ -1,0 +1,103 @@
+id: github__chargebee__agentkit
+kind: github-repo
+name: agentkit
+canonical_url: https://github.com/chargebee/agentkit
+identity:
+  github_repo: chargebee/agentkit
+provenance:
+  discoveries:
+    - id: discovery__github__chargebee__agentkit__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: chargebee/mcp
+        extracted_url: https://github.com/chargebee/agentkit
+        surrounding_text: "- [chargebee/mcp](https://github.com/chargebee/agentkit/tree/main/modelcontextprotocol) 🎖️ 📇 ☁️ - MCP Server that connects AI agents to [Chargebee platform](https://www.chargebee.com/)."
+        confidence: high
+    - id: discovery__github__chargebee__agentkit__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Chargebee
+        extracted_url: https://github.com/chargebee/agentkit
+        surrounding_text: "- **[Chargebee](https://github.com/chargebee/agentkit/tree/main/modelcontextprotocol)** - MCP Server that connects AI agents to [Chargebee platform](https://www.chargebee.com)."
+        confidence: high
+metadata:
+  github:
+    stars: 14
+    forks: 7
+    license: MIT
+    archived: true
+    created_at: "2025-03-11T05:25:01Z"
+    pushed_at: "2025-11-18T10:04:08Z"
+    description: Seamlessly integrate AI agents with Chargebee using AgentKit for smarter billing and subscription workflows.
+    homepage: ""
+    topics:
+      - ai-agents
+      - chargebee
+      - gen-ai
+      - llm
+      - mcp
+      - public
+      - workflows
+    last_checked_at: "2026-05-05T21:01:32.375Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:32.375Z"
+      bytes: 1364
+insights:
+  summary: A deprecated and archived toolkit that provided Chargebee billing and subscription management tools to AI agents via the Model Context Protocol.
+  why_it_matters: It allowed developers to integrate subscription billing workflows directly into AI coding assistants like Cursor and Claude Desktop before being sunset.
+  mental_damage: Just as the MCP ecosystem was figuring out how to bill for tokens, the official billing MCP server decided to deprecate itself, proving even fintech tools can't maintain their own subscription lifecycle.
+  tags:
+    - mcp
+    - chargebee
+    - billing
+    - deprecated
+  confidence: high
+curation:
+  status: excluded
+  reason: The repository is archived and the README explicitly marks the package as deprecated in favor of a newer Chargebee MCP Server, signaling it is no longer maintained or recommended.
+  evidence:
+    - "Archived: yes (GitHub archive status)"
+    - README contains a deprecation notice pointing users to migrate to the 'Chargebee MCP Server'
+    - Low ecosystem traction (14 stars) combined with the sunsetting notice
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: needs_review
+  reason: Repository is archived
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.664Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:32.375Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:12:53.413Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

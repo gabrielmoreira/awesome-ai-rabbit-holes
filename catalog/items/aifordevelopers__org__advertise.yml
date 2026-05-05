@@ -1,0 +1,76 @@
+id: aifordevelopers__org__advertise
+kind: website
+name: advertise
+canonical_url: https://aifordevelopers.org/advertise
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__aifordevelopers__org__advertise__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - README
+        anchor_text: aifordevelopers.org/advertise
+        extracted_url: https://aifordevelopers.org/advertise
+        surrounding_text: "**Reach thousands of developers building with AI by sponsoring this list, our [newsletter](https://aifordevelopers.substack.com/) and [AI For Developers](https://aifordevelopers.org/). Contact us at [aifordevelopers.org/advertise](https://aifordevelopers.org/advertise)**"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A dedicated advertising page for AI for Developers, a curated directory offering targeted ad placements, newsletter sponsorships, and spotlight slots to reach developers building with AI.
+  why_it_matters: It provides a direct channel for AI dev-tool builders to reach a concentrated audience of 50k+ developers actively browsing for AI implementation tools and resources.
+  mental_damage: We have successfully reached the stage of the AI boom where the primary business model isn't building the tools, but selling the ad space between them.
+  tags:
+    - advertising
+    - directory
+    - newsletter
+    - devtools-marketing
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a commercial advertisement page for a directory, not a developer tool, agent, or infrastructure component itself.
+  evidence:
+    - The scraped page content is exclusively about purchasing ad spots, newsletter features, and sponsorships.
+    - Linked in the source list as 'Advertise on AI for Developers', confirming it is a promotional page rather than a tool.
+    - It describes a directory service ('Curated AI tools and resources') rather than providing a functional developer tool.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.726Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:41:39.236Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

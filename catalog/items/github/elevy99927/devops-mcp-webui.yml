@@ -1,0 +1,82 @@
+id: github__elevy99927__devops-mcp-webui
+kind: github-repo
+name: devops-mcp-webui
+canonical_url: https://github.com/elevy99927/devops-mcp-webui
+identity:
+  github_repo: elevy99927/devops-mcp-webui
+provenance:
+  discoveries:
+    - id: discovery__github__elevy99927__devops-mcp-webui__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
+        anchor_text: elevy99927/devops-mcp-webui
+        extracted_url: https://github.com/elevy99927/devops-mcp-webui
+        surrounding_text: "- [elevy99927/devops-mcp-webui](https://github.com/elevy99927/devops-mcp-webui) 🐍 ☁️/🏠 - MCP Server for Kubernetes integrated with Open-WebUI, bridging the gap between DevOps and non-technical teams. Supports `kubectl` and `helm` operations through natural-language commands."
+        confidence: high
+metadata:
+  github:
+    stars: 2
+    forks: 1
+    license: null
+    archived: false
+    created_at: "2025-10-23T05:50:08Z"
+    pushed_at: "2025-10-28T09:43:36Z"
+    description: Bridge connecting OpenWebUI to Kubernetes clusters via MCP protocol
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:00.901Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:00.901Z"
+      bytes: 11333
+insights:
+  summary: A bridge that connects OpenWebUI to Kubernetes clusters via the MCP protocol, allowing developers to manage cluster resources through natural language chat.
+  why_it_matters: It lets developers query pods, apply manifests, and manage Helm charts conversationally through a local OpenWebUI instance instead of switching to kubectl.
+  mental_damage: We have successfully closed the critical gap between managing distributed infrastructure and explaining your YAML errors to a local chatbot.
+  tags:
+    - kubernetes
+    - mcp
+    - openwebui
+    - devops
+    - local-ai
+  confidence: medium
+curation:
+  status: included
+  reason: The project is an MCP server/bridge implementation that exposes Kubernetes cluster management as tools via the Model Context Protocol for OpenWebUI.
+  evidence:
+    - "Repo description explicitly states: 'Bridge connecting OpenWebUI to Kubernetes clusters via MCP protocol'"
+    - README shows it implements MCP tools like kubectl_get, kubectl_apply, and helm_install for OpenWebUI
+    - Listed in awesome-mcp-servers under 'Server Implementations > Cloud Platforms'
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.686Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:00.901Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:17:49.568Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

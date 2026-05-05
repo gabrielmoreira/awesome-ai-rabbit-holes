@@ -1,0 +1,101 @@
+id: github__luizedupp__rememb
+kind: github-repo
+name: rememb
+canonical_url: https://github.com/luizedupp/rememb
+identity:
+  github_repo: luizedupp/rememb
+provenance:
+  discoveries:
+    - id: discovery__github__luizedupp__rememb__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: LuizEduPP/rememb
+        extracted_url: https://github.com/luizedupp/rememb
+        surrounding_text: "- [LuizEduPP/rememb](https://github.com/LuizEduPP/Rememb) [![rememb MCP server](https://glama.ai/mcp/servers/LuizEduPP/Rememb/badges/score.svg)](https://glama.ai/mcp/servers/LuizEduPP/Rememb) 🐍 🏠 🍎 🪟 🐧 - Persistent memory for AI agents with sectioned entries (project/user/context/etc), semantic search, CLI, and per-project scope. Local JSON, zero config, no server required."
+        confidence: high
+metadata:
+  github:
+    stars: 3
+    forks: 2
+    license: MIT
+    archived: false
+    created_at: "2026-04-11T02:58:39Z"
+    pushed_at: "2026-05-05T03:21:13Z"
+    description: Persistent memory for AI agents — local, portable, zero config. Works with Cursor, Windsurf, Claude via MCP.
+    homepage: ""
+    topics:
+      - agent-memory
+      - ai-agents
+      - ai-memories
+      - ai-memory
+      - cherry-studio
+      - claude
+      - clawdbot
+      - context-persistence
+      - copilot
+      - cursor
+      - llm
+      - llm-memory
+      - mcp
+      - mcp-server
+      - memory
+      - model-context-protocol
+      - moltbot
+      - persistent-memory
+      - tui
+      - windsurf
+    last_checked_at: "2026-05-05T21:03:25.512Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:25.512Z"
+      bytes: 6930
+insights:
+  summary: A local, zero-config MCP server that gives AI agents persistent memory by storing project context, decisions, and preferences in a JSON file within the repo.
+  why_it_matters: It eliminates the repetitive context-rewriting loop across sessions in Cursor, Windsurf, and Claude by letting agents read and write structured memory locally without cloud dependencies.
+  mental_damage: We have finally solved the tragedy of the AI that forgets it’s supposed to be using PostgreSQL before you’ve finished your morning coffee, provided you remember to configure the memory server that remembers things.
+  tags:
+    - mcp
+    - agent-memory
+    - context-persistence
+    - local-ai
+  confidence: medium
+curation:
+  status: included
+  reason: The product is an MCP server focused on giving agents persistent local memory, which fits squarely into MCP infrastructure.
+  evidence:
+    - Repo description explicitly states 'Persistent memory for AI agents — local, portable, zero config. Works with Cursor, Windsurf, Claude via MCP.'
+    - README demonstrates MCP server setup via mcpServers config and SSE transport for IDE integration.
+    - Listed in awesome-mcp-servers under Knowledge & Memory, reinforcing its role as MCP tooling.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.705Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:25.512Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:34:54.244Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,96 @@
+id: github__g0t4__mcp-server-commands
+kind: github-repo
+name: mcp-server-commands
+canonical_url: https://github.com/g0t4/mcp-server-commands
+identity:
+  github_repo: g0t4/mcp-server-commands
+provenance:
+  discoveries:
+    - id: discovery__github__g0t4__mcp-server-commands__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🤖 <a name="coding-agents"></a>Coding Agents
+        anchor_text: g0t4/mcp-server-commands
+        extracted_url: https://github.com/g0t4/mcp-server-commands
+        surrounding_text: "- [g0t4/mcp-server-commands](https://github.com/g0t4/mcp-server-commands) 📇 🏠 - Run any command with `run_command` and `run_script` tools."
+        confidence: high
+    - id: discovery__github__g0t4__mcp-server-commands__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - 🖥️ Command Line
+        anchor_text: g0t4/mcp-server-commands
+        extracted_url: https://github.com/g0t4/mcp-server-commands
+        surrounding_text: "-   **[g0t4/mcp-server-commands](https://github.com/g0t4/mcp-server-commands)** [![GitHub stars](https://img.shields.io/github/stars/g0t4/mcp-server-commands?style=social)](https://github.com/g0t4/mcp-server-commands): Executes arbitrary commands and scripts via MCP."
+        confidence: high
+metadata:
+  github:
+    stars: 224
+    forks: 33
+    license: MIT
+    archived: false
+    created_at: "2024-11-29T02:39:02Z"
+    pushed_at: "2026-04-23T07:15:14Z"
+    description: "Model Context Protocol server to run commands (tool: `runProcess`)"
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:02:16.660Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:16.660Z"
+      bytes: 5588
+insights:
+  summary: A Model Context Protocol server that exposes a `runProcess` tool, allowing LLMs to execute shell commands and scripts directly on the host machine.
+  why_it_matters: It gives coding agents the ability to interact with the local environment, run scripts, and inspect system state via standard MCP clients like Claude Desktop or Zed.
+  mental_damage: "We have finally closed the loop: the AI can now run `rm -rf` on the very machine you are using to supervise it, provided you click 'Approve Once' with blind faith."
+  tags:
+    - mcp
+    - cli
+    - tooling
+    - local-ai
+  confidence: high
+curation:
+  status: included
+  reason: The project is a standalone MCP server implementation designed to bridge LLMs and the host command line, fitting the MCP infrastructure category.
+  evidence:
+    - Repo description explicitly states 'Model Context Protocol server to run commands'.
+    - README details the `runProcess` tool for shell execution via STDIO transport for clients like Claude Desktop.
+    - Listed in awesome-mcp-list and awesome-mcp-servers directories under command-line and server implementations.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (224) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.665Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:16.660Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:20:31.056Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,98 @@
+id: github__nousresearch__hermes-agent
+kind: github-repo
+name: hermes-agent
+canonical_url: https://github.com/nousresearch/hermes-agent
+identity:
+  github_repo: nousresearch/hermes-agent
+provenance:
+  discoveries:
+    - id: discovery__github__nousresearch__hermes-agent__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Terminal-native coding agents
+          - Open Source
+        anchor_text: Hermes Agent
+        extracted_url: https://github.com/nousresearch/hermes-agent
+        surrounding_text: "- **[Hermes Agent](https://github.com/NousResearch/hermes-agent)** `⭐ 132k` — Nous Research's self-improving CLI agent with persistent memory, automated skill creation, sandboxed code execution via Unix socket RPC, and multi-platform reach (Telegram/Slack/Discord/WhatsApp); supports 300+ models across multiple providers."
+        confidence: high
+metadata:
+  github:
+    stars: 134015
+    forks: 20443
+    license: MIT
+    archived: false
+    created_at: "2025-07-22T22:22:28Z"
+    pushed_at: "2026-05-05T20:55:40Z"
+    description: The agent that grows with you
+    homepage: https://hermes-agent.nousresearch.com
+    topics:
+      - ai
+      - ai-agent
+      - ai-agents
+      - anthropic
+      - chatgpt
+      - claude
+      - claude-code
+      - clawdbot
+      - codex
+      - hermes
+      - hermes-agent
+      - llm
+      - moltbot
+      - nous-research
+      - openai
+      - openclaw
+    last_checked_at: "2026-05-05T21:03:56.090Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:56.090Z"
+      bytes: 11308
+insights:
+  summary: A self-improving, terminal-native AI agent that runs on local or cloud infrastructure, supports multi-model providers, and learns skills from usage across sessions.
+  why_it_matters: Developers can deploy a persistent, provider-agnostic coding agent on cheap infrastructure that autonomously improves its own capabilities and communicates via CLI or messaging platforms.
+  mental_damage: "Just what we needed: an agent that builds a 'deepening model of who you are' while you're still trying to remember which of your fifteen AI subscriptions wrote that broken Dockerfile."
+  tags:
+    - cli
+    - self-improving
+    - multi-model
+    - terminal
+    - agent
+  confidence: high
+curation:
+  status: included
+  reason: This is a terminal-native coding agent focused on codebase interaction, autonomous skill creation, and multi-platform communication, fitting the coding-agents category based on its primary interface and workflow.
+  evidence:
+    - Explicitly listed in awesome-cli-coding-agents under 'Terminal-native coding agents > Open Source'
+    - README describes a 'real terminal interface' with tool output, multiline editing, and slash commands for developer workflows
+    - Features agent-curated memory, autonomous skill creation, and subagent spawning for parallel workstreams
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (134015) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.710Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:56.090Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:40:58.562Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

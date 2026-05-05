@@ -1,0 +1,81 @@
+id: github__declan142__calcnook-mcp-server
+kind: github-repo
+name: calcnook-mcp-server
+canonical_url: https://github.com/declan142/calcnook-mcp-server
+identity:
+  github_repo: declan142/calcnook-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__declan142__calcnook-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: Declan142/calcnook-mcp-server
+        extracted_url: https://github.com/declan142/calcnook-mcp-server
+        surrounding_text: "- [Declan142/calcnook-mcp-server](https://github.com/Declan142/calcnook-mcp-server) [![Declan142/calcnook-mcp-server MCP server](https://glama.ai/mcp/servers/Declan142/calcnook-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/Declan142/calcnook-mcp-server) 🐍 🏠 🍎 🪟 🐧 - Personal finance calculations across 7 countries (US, UK, CA, AU, AE, SA, India) plus Sharia-compliant Islamic finance (Zakat, Murabaha, Ijarah, Mudarabah, Hajj savings, halal stock screening). 17 tools wrapping the deterministic [calcnook](https://pypi.org/project/calcnook/) engine — income tax, SIP/EMI/loans, retirement, EOSG, VAT, currency formatting (incl. Indian lakh/crore), and BMI/BMR/TDEE. Zero API keys, pure stdlib. Install with `uvx calcnook-mcp`."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-04-25T10:08:14Z"
+    pushed_at: "2026-04-25T10:43:14Z"
+    description: MCP server for calcnook — exposes 24 financial calculations to Claude Code, Cursor, Goose, and any MCP-compatible AI agent. Sharia-compliant, 7 countries. uvx calcnook-mcp.
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:01:50.419Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:50.419Z"
+      bytes: 3932
+insights:
+  summary: An MCP server that wraps the calcnook financial engine to expose 17+ personal finance and tax calculation tools to Claude Code, Cursor, Goose, and other MCP-compatible AI agents.
+  why_it_matters: Developers can give their AI agents precise, domain-specific math for loans, taxes, and Islamic finance without the model hallucinating compound interest formulas.
+  mental_damage: We have successfully reached the point where a dedicated server is required so your AI can accurately calculate a 401(k) instead of confidently inventing a new tax bracket.
+  tags:
+    - mcp
+    - finance
+    - tools
+    - context-engineering
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server providing tooling to AI agents, which fits cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description confirms it is an 'MCP server for calcnook' exposing financial calculations to MCP-compatible agents.
+    - README details 17+ specific tools (loans, tax, zakat) exposed via the Model Context Protocol.
+    - Listed in awesome-mcp-servers under the Finance & Fintech section.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.684Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:50.419Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:15:54.614Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

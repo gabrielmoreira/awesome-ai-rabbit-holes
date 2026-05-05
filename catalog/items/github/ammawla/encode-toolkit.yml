@@ -1,0 +1,97 @@
+id: github__ammawla__encode-toolkit
+kind: github-repo
+name: encode-toolkit
+canonical_url: https://github.com/ammawla/encode-toolkit
+identity:
+  github_repo: ammawla/encode-toolkit
+provenance:
+  discoveries:
+    - id: discovery__github__ammawla__encode-toolkit__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - <a name="bio"></a>Biology, Medicine and Bioinformatics
+        anchor_text: ammawla/encode-toolkit
+        extracted_url: https://github.com/ammawla/encode-toolkit
+        surrounding_text: "- [ammawla/encode-toolkit](https://github.com/ammawla/encode-toolkit) [![encode-toolkit MCP server](https://glama.ai/mcp/servers/ammawla/encode-toolkit/badges/score.svg)](https://glama.ai/mcp/servers/ammawla/encode-toolkit) 🐧 - MCP server and Claude Plugin for a full ENCODE Project genomic data and analysis toolkit — search, download, track, and analyze functional genomics experiments."
+        confidence: high
+metadata:
+  github:
+    stars: 7
+    forks: 5
+    license: AGPL-3.0
+    archived: false
+    created_at: "2026-03-08T23:34:17Z"
+    pushed_at: "2026-04-19T01:22:32Z"
+    description: MCP server and Claude Plugin for a full ENCODE Project genomic data and analysis toolkit — search, download, track, and analyze functional genomics experiments
+    homepage: ""
+    topics:
+      - ai
+      - ai-agents
+      - ai-bio
+      - bioinformatics
+      - bioinformatics-tool
+      - claude
+      - claude-code
+      - claude-code-mcp
+      - claude-code-plugin
+      - claude-code-skills
+      - claude-mcp
+      - claude-plugin
+      - claude-skills
+      - encode
+      - mcp-server
+    last_checked_at: "2026-05-05T21:01:02.659Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:02.659Z"
+      bytes: 32529
+insights:
+  summary: An MCP server and Claude Code plugin that provides 20 tools and 47 skills to search, cross-reference, and analyze ENCODE genomics data and run analysis pipelines from natural language.
+  why_it_matters: Bioinformatics developers can query 14 databases, run 7 genomic pipelines, and generate publication-ready methods directly inside Claude Code without leaving the IDE.
+  mental_damage: Because nothing says 'focused software engineering' like turning your coding agent into a specialized genomics workbench that can cross-reference GWAS variants and ClinVar pathogenicity between commits.
+  tags:
+    - mcp
+    - bioinformatics
+    - claude-code
+    - genomics
+    - skills
+  confidence: high
+curation:
+  status: included
+  reason: The primary artifact is an MCP server and Claude plugin that extends an AI developer tool with domain-specific genomics capabilities, fitting cleanly into MCP tooling.
+  evidence:
+    - Repo description explicitly states 'MCP server and Claude Plugin for a full ENCODE Project genomic data and analysis toolkit'.
+    - README shows 20 MCP tools, 47 skills, and integrations with Claude Code, VS Code, Cursor, and Windsurf.
+    - Listed under 'Server Implementations > Biology, Medicine and Bioinformatics' in awesome-mcp-servers.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.678Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:02.659Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:08:00.095Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

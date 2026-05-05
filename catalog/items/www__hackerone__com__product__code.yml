@@ -1,0 +1,77 @@
+id: www__hackerone__com__product__code
+kind: website
+name: code
+canonical_url: https://www.hackerone.com/product/code
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__hackerone__com__product__code__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Security
+        anchor_text: HackerOne Code
+        extracted_url: https://www.hackerone.com/product/code
+        surrounding_text: "- **[HackerOne Code](https://www.hackerone.com/product/code)** – AI + human expertise for context-aware vulnerability detection."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: HackerOne Code is a continuous AI-assisted code security platform that integrates with developer workflows to automatically detect, validate, and help fix vulnerabilities in commits and pull requests.
+  why_it_matters: It shifts security left by combining traditional SAST/SCA with AI reasoning models and human-in-the-loop validation to deliver context-aware, fix-ready guidance directly inside GitHub, GitLab, Bitbucket, and Azure DevOps.
+  mental_damage: Your code now has an AI agent that thinks like a hacker, meaning you can add 'AI flagging my own AI-generated code' to the list of modern developer anxieties.
+  tags:
+    - security
+    - code-review
+    - ai-agents
+    - vulnerability-scanning
+    - devsecops
+  confidence: high
+curation:
+  status: included
+  reason: It is a developer-facing AI agent that operates directly on source code inside repo and PR workflows to review, triage, and generate fixes for security vulnerabilities.
+  evidence:
+    - Described as 'AI code security that works like a dev and thinks like a hacker' with integration into GitHub, GitLab, Bitbucket, and Azure DevOps.
+    - Detects vulnerabilities in commits and pull requests, evaluates context, and generates actionable fixes tailored to the environment.
+    - Explicitly listed under 'Security' in the awesome-ai-coding-tools curated directory.
+placement:
+  primary_category: coding-agents
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.732Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:51:11.237Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

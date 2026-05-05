@@ -1,0 +1,80 @@
+id: github__com
+kind: website
+name: github.com
+canonical_url: https://github.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__github__com__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: GitHub
+        extracted_url: https://www.github.com
+        surrounding_text: "- [idosal/git-mcp](https://github.com/idosal/git-mcp) 📇 ☁️ - [gitmcp.io](https://gitmcp.io/) is a generic remote MCP server to connect to ANY [GitHub](https://www.github.com) repository or project for documentation"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: GitHub is the world's most widely adopted developer platform, providing a suite of AI-powered tools including Copilot, Codespaces, Actions, and an MCP Registry.
+  why_it_matters: It centralizes the modern developer workflow by integrating AI code generation, automated CI/CD, and an expanding ecosystem of external MCP tooling.
+  mental_damage: We now have an AI platform to manage the AI agents that are writing the code to automate the platform that manages the code.
+  tags:
+    - git
+    - platform
+    - ci-cd
+    - mcp
+    - copilot
+  confidence: high
+curation:
+  status: excluded
+  reason: GitHub is a foundational platform and hosting service rather than a specific AI tool, agent, or developer-facing product that fits the catalog's scope.
+  evidence:
+    - The URL points to the root github.com domain, which is a general developer platform, not a specific tool or repository.
+    - Appears in awesome-mcp-servers only as a reference to the broader platform and its MCP Registry, not as a standalone server implementation.
+    - Scraped site context describes a wide array of features (Issues, Actions, Codespaces) rather than a single AI rabbit hole or tool.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.728Z"
+    cause:
+      type: ambiguous_canonicalization
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:44:50.976Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

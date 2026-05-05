@@ -1,0 +1,86 @@
+id: github__jupyterlab__jupyter-ai
+kind: github-repo
+name: jupyter-ai
+canonical_url: https://github.com/jupyterlab/jupyter-ai
+identity:
+  github_repo: jupyterlab/jupyter-ai
+provenance:
+  discoveries:
+    - id: discovery__github__jupyterlab__jupyter-ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: scraped
+        section_path:
+          - Code Editors and Assistants
+        anchor_text: Jupyter AI
+        extracted_url: https://jupyter-ai.readthedocs.io
+        surrounding_text: "- **[Jupyter AI](https://jupyter-ai.readthedocs.io/)** – AI extensions for Jupyter notebooks with natural language code generation."
+        confidence: high
+metadata:
+  github:
+    stars: 4206
+    forks: 492
+    license: BSD-3-Clause
+    archived: false
+    created_at: "2023-02-09T21:37:47Z"
+    pushed_at: "2026-04-21T00:16:25Z"
+    description: An open source extension that connects AI agents to computational notebooks in JupyterLab.
+    homepage: https://jupyter-ai.readthedocs.io/
+    topics:
+      - acp
+      - agents
+      - jupyter
+      - jupyterlab
+      - jupyterlab-extension
+    last_checked_at: "2026-05-05T21:03:00.973Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:00.973Z"
+      bytes: 2433
+insights:
+  summary: An open source JupyterLab extension that integrates AI agents into computational notebooks, allowing developers to collaborate with models via chat, read/write files, run commands, and interact with notebooks using the Agent Client Protocol and MCP.
+  why_it_matters: It brings agentic coding workflows directly into the data science and notebook environment, bridging the gap between interactive computing and autonomous AI assistance.
+  mental_damage: Now your notebook can hallucinate both your data analysis and the cleanup code, giving you twice the opportunities to wonder if the bug is in your tensor or the agent's permissions.
+  tags:
+    - jupyterlab
+    - agents
+    - notebooks
+    - mcp
+    - acp
+  confidence: high
+curation:
+  status: included
+  reason: It is a developer-facing coding agent that directly interacts with and edits code/notebooks within the JupyterLab IDE environment.
+  evidence:
+    - Repo description states it 'connects AI agents to computational notebooks in JupyterLab.'
+    - README confirms agents 'read and write files, run terminal commands, and interact with notebooks.'
+    - Listed under 'Code Editors and Assistants' in awesome-ai-coding-tools.
+placement:
+  primary_category: coding-agents
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (4206) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.701Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:00.973Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:29:39.092Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

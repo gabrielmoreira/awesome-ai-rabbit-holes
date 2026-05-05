@@ -1,0 +1,89 @@
+id: github__markpdxt__dronelytics-mcp
+kind: github-repo
+name: dronelytics-mcp
+canonical_url: https://github.com/markpdxt/dronelytics-mcp
+identity:
+  github_repo: markpdxt/dronelytics-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__markpdxt__dronelytics-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🗺️ <a name="location-services"></a>Location Services
+        anchor_text: markpdxt/dronelytics-mcp
+        extracted_url: https://github.com/markpdxt/dronelytics-mcp
+        surrounding_text: "- [markpdxt/dronelytics-mcp](https://github.com/markpdxt/dronelytics-mcp) [![markpdxt/dronelytics-mcp MCP server](https://glama.ai/mcp/servers/markpdxt/dronelytics-mcp/badges/score.svg)](https://glama.ai/mcp/servers/markpdxt/dronelytics-mcp) 📇 ☁️ - US drone airspace intelligence and mission planning. 24 tools: check airspace restrictions across 11 FAA data layers, plan grid/orbit/corridor surveys, validate Part 107 compliance, generate pre-flight briefings, and export to KML/GPX/QGC/Litchi/WPML. Available via `npx @dronelytics/mcp`."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-04-18T19:17:41Z"
+    pushed_at: "2026-04-23T18:33:51Z"
+    description: MCP server for US drone airspace intelligence and mission planning — 24 tools for airspace queries, mission generation, Part 107 compliance, and flight plan export
+    homepage: null
+    topics:
+      - airspace
+      - drone
+      - faa
+      - mcp
+      - mcp-server
+      - mission-planning
+      - part107
+    last_checked_at: "2026-05-05T21:03:30.465Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:30.465Z"
+      bytes: 4916
+insights:
+  summary: An MCP server that exposes 24 tools for querying US airspace data, generating drone missions, managing drone profiles, and exporting flight plans to formats like KML and GPX for the Dronelytics platform.
+  why_it_matters: It allows developers building drone or geospatial applications to integrate complex FAA airspace compliance, mission planning, and live traffic data directly into AI-assisted workflows via the Model Context Protocol.
+  mental_damage: We have finally unlocked the ability for an AI to confidently authorize a $75,000 federal violation at the click of a button.
+  tags:
+    - mcp
+    - drones
+    - airspace
+    - mission-planning
+    - geospatial
+  confidence: high
+curation:
+  status: included
+  reason: The project is a dedicated MCP server implementation providing tooling for a specific domain, fitting cleanly into the MCP infrastructure category.
+  evidence:
+    - Repo description explicitly defines it as an 'MCP server for US drone airspace intelligence'.
+    - README details 24 specific tools (airspace, mission management, generation) exposed via the Model Context Protocol.
+    - Listed in the 'awesome-mcp-servers' directory under 'Location Services'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.705Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:30.465Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:35:53.341Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

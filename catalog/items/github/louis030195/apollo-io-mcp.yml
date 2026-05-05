@@ -1,0 +1,81 @@
+id: github__louis030195__apollo-io-mcp
+kind: github-repo
+name: apollo-io-mcp
+canonical_url: https://github.com/louis030195/apollo-io-mcp
+identity:
+  github_repo: louis030195/apollo-io-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__louis030195__apollo-io-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🎯 <a name="marketing"></a>Marketing
+        anchor_text: louis030195/apollo-io-mcp
+        extracted_url: https://github.com/louis030195/apollo-io-mcp
+        surrounding_text: "- [louis030195/apollo-io-mcp](https://github.com/louis030195/apollo-io-mcp) 📇 ☁️ 🍎 🪟 🐧 - B2B sales intelligence and prospecting with Apollo.io. Search for prospects, enrich contacts with emails and phone numbers, discover companies by industry and size, and access Apollo's database of 275M+ contacts."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 2
+    license: MIT
+    archived: false
+    created_at: "2025-10-06T20:13:32Z"
+    pushed_at: "2025-10-17T22:53:30Z"
+    description: let AGI print dollars for you
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:03:24.646Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:24.646Z"
+      bytes: 4920
+insights:
+  summary: An MCP server that exposes the Apollo.io B2B sales intelligence API to LLMs like Claude for searching and enriching contacts and companies.
+  why_it_matters: Developers can wire Apollo's 275M+ contact database directly into their LLM workflows to automate sales prospecting without leaving the chat interface.
+  mental_damage: We have successfully abstracted away the labor of talking to humans so thoroughly that we now need a protocol server to let our AI ask Apollo.io who it should cold email next.
+  tags:
+    - mcp
+    - sales
+    - llm-integration
+    - apollo
+  confidence: high
+curation:
+  status: included
+  reason: It is a concrete MCP server implementation for a specific API, which fits cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description identifies it as an MCP server for Apollo.io
+    - "README states: 'MCP (Model Context Protocol) server for Apollo.io B2B sales intelligence API'"
+    - Source list context places it under 'Server Implementations' in awesome-mcp-servers
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.704Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:24.646Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:34:45.071Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

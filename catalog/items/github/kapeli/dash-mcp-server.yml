@@ -1,0 +1,82 @@
+id: github__kapeli__dash-mcp-server
+kind: github-repo
+name: dash-mcp-server
+canonical_url: https://github.com/kapeli/dash-mcp-server
+identity:
+  github_repo: kapeli/dash-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__kapeli__dash-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: Kapeli/dash-mcp-server
+        extracted_url: https://github.com/kapeli/dash-mcp-server
+        surrounding_text: "- [Kapeli/dash-mcp-server](https://github.com/Kapeli/dash-mcp-server) [![Kapeli/dash-mcp-server MCP server](https://glama.ai/mcp/servers/@Kapeli/dash-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/@Kapeli/dash-mcp-server) 🐍 🏠 🍎 - MCP server for [Dash](https://kapeli.com/dash), the macOS API documentation browser. Instant search over 200+ documentation sets."
+        confidence: high
+metadata:
+  github:
+    stars: 150
+    forks: 27
+    license: MIT
+    archived: false
+    created_at: "2025-07-18T17:11:05Z"
+    pushed_at: "2026-04-01T16:24:04Z"
+    description: MCP server for Dash, the macOS API documentation browser
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:03:02.688Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:02.688Z"
+      bytes: 1848
+insights:
+  summary: An MCP server that exposes the Dash macOS documentation browser's installed docsets, search, and full-text search capabilities to MCP-compatible AI clients.
+  why_it_matters: It lets developers query offline API documentation directly from their AI coding assistant instead of interrupting the flow to open a separate browser window.
+  mental_damage: We have successfully built a bridge to let an LLM ask your local docs app to explain the API you could have just read yourself in that same docs app.
+  tags:
+    - mcp
+    - documentation
+    - macos
+    - dash
+    - developer-tools
+  confidence: high
+curation:
+  status: included
+  reason: This is a Model Context Protocol server that integrates Dash documentation into MCP clients, fitting cleanly under MCP Servers and Tooling.
+  evidence:
+    - "Repo description states: 'MCP server for Dash, the macOS API documentation browser'"
+    - README lists tools like list_installed_docsets, search_documentation, and load_documentation_page for MCP clients
+    - Included in awesome-mcp-servers under Server Implementations > Developer Tools
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.701Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:02.688Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:30:06.992Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

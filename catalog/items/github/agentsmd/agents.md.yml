@@ -1,0 +1,80 @@
+id: github__agentsmd__agents.md
+kind: github-repo
+name: agents.md
+canonical_url: https://github.com/agentsmd/agents.md
+identity:
+  github_repo: agentsmd/agents.md
+provenance:
+  discoveries:
+    - id: discovery__github__agentsmd__agents.md__awesome-list__engineering4ai__awesome-spec-driven-development
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: Engineering4AI/awesome-spec-driven-development
+        url: https://github.com/engineering4ai/awesome-spec-driven-development
+        repository: Engineering4AI/awesome-spec-driven-development
+      extraction:
+        mode: parsed
+        section_path:
+          - Standards
+        anchor_text: agents.md
+        extracted_url: https://github.com/agentsmd/agents.md
+        surrounding_text: "- [agents.md](https://github.com/agentsmd/agents.md) ![](https://img.shields.io/github/stars/agentsmd/agents.md.svg) - Markdown-based specification format for defining AI agent behaviors and capabilities."
+        confidence: high
+metadata:
+  github:
+    stars: 20997
+    forks: 1536
+    license: MIT
+    archived: false
+    created_at: "2025-08-19T17:22:54Z"
+    pushed_at: "2026-03-12T14:26:14Z"
+    description: AGENTS.md — a simple, open format for guiding coding agents
+    homepage: https://agents.md
+    topics: []
+    last_checked_at: "2026-05-05T21:00:53.085Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:53.085Z"
+      bytes: 2015
+insights:
+  summary: AGENTS.md is an open format specification for creating dedicated markdown files that provide context, instructions, and rules to guide AI coding agents within a project.
+  why_it_matters: It offers a standardized, predictable way to teach coding agents about your repo's environment, testing, and PR conventions without relying on ad-hoc prompt injection.
+  mental_damage: We have officially progressed from writing code to writing README files for the robots that write our code, and somehow this feels like progress.
+  tags:
+    - spec-driven
+    - context-engineering
+    - coding-agents
+    - standards
+  confidence: high
+curation:
+  status: included
+  reason: The project defines a specification format for guiding agents, which aligns perfectly with Spec-Driven Development as evidenced by its inclusion in the awesome-spec-driven-development list.
+  evidence:
+    - Repo description explicitly calls it 'a simple, open format for guiding coding agents.'
+    - README describes it as 'a README for agents' to provide 'context and instructions' via a dedicated file.
+    - Listed in 'awesome-spec-driven-development' under the 'Standards' section.
+placement:
+  primary_category: spec-driven-development
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (20997) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.677Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:53.085Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:06:26.389Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

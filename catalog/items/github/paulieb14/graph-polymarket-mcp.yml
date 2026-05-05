@@ -1,0 +1,82 @@
+id: github__paulieb14__graph-polymarket-mcp
+kind: github-repo
+name: graph-polymarket-mcp
+canonical_url: https://github.com/paulieb14/graph-polymarket-mcp
+identity:
+  github_repo: paulieb14/graph-polymarket-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__paulieb14__graph-polymarket-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: PaulieB14/graph-polymarket-mcp
+        extracted_url: https://github.com/paulieb14/graph-polymarket-mcp
+        surrounding_text: "- [PaulieB14/graph-polymarket-mcp](https://github.com/PaulieB14/graph-polymarket-mcp) [![graph-polymarket-mcp MCP server](https://glama.ai/mcp/servers/@PaulieB14/graph-polymarket-mcp/badges/score.svg)](https://glama.ai/mcp/servers/@PaulieB14/graph-polymarket-mcp) 📇 ☁️ - Polymarket prediction market data via The Graph — markets, positions, orders, user activity, and real-time odds."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2026-03-01T00:47:07Z"
+    pushed_at: "2026-03-29T00:45:26Z"
+    description: MCP server for Polymarket prediction markets — 31 tools combining The Graph subgraphs + Polymarket REST APIs (Gamma + CLOB) for market search, live prices, order books, trader P&L, open interest, and resolution data
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:04:14.013Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:14.013Z"
+      bytes: 9962
+insights:
+  summary: An MCP server that exposes 31 tools for querying Polymarket prediction market data by combining The Graph subgraphs with Polymarket's Gamma and CLOB REST APIs.
+  why_it_matters: Developers building AI agents on Claude, Cursor, or remote runtimes can let their agents search markets, pull live order books, and evaluate trader P&L without wiring up Polymarket APIs by hand.
+  mental_damage: We have officially reached the point where prediction markets have their own MCP server before most developers have even configured their first one.
+  tags:
+    - mcp
+    - polymarket
+    - prediction-markets
+    - the-graph
+    - finance
+  confidence: medium
+curation:
+  status: included
+  reason: The project is itself an MCP server with 31 tools designed to be used by LLM agents, which fits cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states 'MCP server for Polymarket prediction markets' with 31 tools for market data.
+    - README demonstrates integration with Claude Desktop, Claude Code, Cursor, and remote agents via stdio and SSE transports.
+    - Listed in awesome-mcp-servers under Finance & Fintech, reinforcing its role as MCP infrastructure.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.712Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:14.013Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:44:09.046Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

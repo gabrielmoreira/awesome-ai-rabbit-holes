@@ -1,0 +1,84 @@
+id: github__leonardcser__smelt
+kind: github-repo
+name: smelt
+canonical_url: https://github.com/leonardcser/smelt
+identity:
+  github_repo: leonardcser/smelt
+provenance:
+  discoveries:
+    - id: discovery__github__leonardcser__smelt__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Terminal-native coding agents
+          - Open Source
+        anchor_text: Smelt
+        extracted_url: https://github.com/leonardcser/smelt
+        surrounding_text: "- **[Smelt](https://github.com/leonardcser/smelt)** `⭐ 18` — Rust TUI coding agent; multi-provider (Anthropic, OpenAI, Ollama, GitHub Copilot, any OpenAI-compatible endpoint), four modes (Normal/Plan/Apply/Yolo), granular permission system, parallel subagents, vim keybindings, and headless scriptable mode. MIT."
+        confidence: high
+metadata:
+  github:
+    stars: 18
+    forks: 2
+    license: MIT
+    archived: false
+    created_at: "2026-02-25T21:37:53Z"
+    pushed_at: "2026-05-05T17:32:33Z"
+    description: TUI coding agent
+    homepage: https://leonardcser.github.io/smelt/
+    topics:
+      - agent
+      - cli
+    last_checked_at: "2026-05-05T21:03:18.512Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:18.512Z"
+      bytes: 4878
+insights:
+  summary: A Rust-based terminal user interface (TUI) coding agent that connects to OpenAI-compatible APIs, ChatGPT Pro, or GitHub Copilot to assist with code generation and file manipulation.
+  why_it_matters: It offers developers a local, terminal-native interface to leverage various LLM subscriptions (including local Ollama and GitHub Copilot) for interactive coding without leaving the CLI.
+  mental_damage: Finally, a TUI agent written in Rust to ensure your terminal remains maximally over-engineered while you wait for the API to decide if it wants to write the code for you.
+  tags:
+    - tui
+    - cli
+    - rust
+    - coding-agent
+    - terminal
+  confidence: high
+curation:
+  status: included
+  reason: It is a developer-facing coding assistant that directly plans, writes, and edits code inside a terminal/CLI workflow, fitting the coding-agents category perfectly.
+  evidence:
+    - Repo description explicitly states 'TUI coding agent'.
+    - README details features for 'code generation, analysis, and assistance' with file read/write/edit capabilities.
+    - Seen in the 'awesome-cli-coding-agents' list under 'Terminal-native coding agents > Open Source'.
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.704Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:18.512Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:33:35.061Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

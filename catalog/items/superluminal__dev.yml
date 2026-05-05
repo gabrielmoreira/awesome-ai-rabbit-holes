@@ -1,0 +1,75 @@
+id: superluminal__dev
+kind: website
+name: superluminal.dev
+canonical_url: https://superluminal.dev
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__superluminal__dev__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Superluminal
+        anchor_text: Superluminal
+        extracted_url: https://superluminal.dev
+        surrounding_text: "## [Superluminal](https://superluminal.dev)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Superluminal is an AI autonomous agent listed in the awesome-ai-agents directory.
+  why_it_matters: It represents the growing ecosystem of autonomous agents that developers are evaluating for task automation and workflow delegation.
+  mental_damage: You now have yet another agent to evaluate while the agents themselves are busy evaluating whether your codebase is worth their attention.
+  tags:
+    - agents
+    - autonomous
+    - ai-agents
+  confidence: low
+curation:
+  status: excluded
+  reason: No substantive evidence exists to confirm this is a developer-facing tool; it appears only as a name in an awesome list with no description, README, repo, or site context to verify its purpose or audience.
+  evidence:
+    - No repo description, README, or scraped site context provided—only a name and URL.
+    - Listed in awesome-ai-agents under 'Superluminal' with no further detail on what it does or who it is for.
+    - Homepage, stars, topics, license, created/pushed dates all unknown; no signals to confirm developer-tooling fit.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.730Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:48:28.684Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

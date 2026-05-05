@@ -1,0 +1,108 @@
+id: github__dair-ai__prompt-engineering-guide
+kind: github-repo
+name: prompt-engineering-guide
+canonical_url: https://github.com/dair-ai/prompt-engineering-guide
+identity:
+  github_repo: dair-ai/prompt-engineering-guide
+provenance:
+  discoveries:
+    - id: discovery__github__dair-ai__prompt-engineering-guide__awesome-list__vivy-yi__awesome-agent-orchestration
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: vivy-yi/awesome-agent-orchestration
+        url: https://github.com/vivy-yi/awesome-agent-orchestration
+        repository: vivy-yi/awesome-agent-orchestration
+      extraction:
+        mode: parsed
+        section_path:
+          - Learning Resources
+          - Tutorials & Guides
+        anchor_text: "Prompt Engineering Guide: LLM Agents"
+        extracted_url: https://github.com/dair-ai/prompt-engineering-guide
+        surrounding_text: "- [Prompt Engineering Guide: LLM Agents](https://github.com/dair-ai/Prompt-Engineering-Guide#llm-agents) - Comprehensive agent building guide"
+        confidence: high
+    - id: discovery__github__dair-ai__prompt-engineering-guide__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: scraped
+        section_path:
+          - 教程 Tutorial
+        anchor_text: Prompt Engineering Guide
+        extracted_url: https://www.promptingguide.ai
+        surrounding_text: 7. [Prompt Engineering Guide](https://www.promptingguide.ai/)
+        confidence: high
+metadata:
+  github:
+    stars: 74218
+    forks: 8022
+    license: MIT
+    archived: false
+    created_at: "2022-12-16T16:04:50Z"
+    pushed_at: "2026-03-11T20:09:13Z"
+    description: 🐙 Guides, papers, lessons, notebooks and resources for prompt engineering, context engineering, RAG, and AI Agents.
+    homepage: https://www.promptingguide.ai/
+    topics:
+      - agent
+      - agents
+      - ai-agents
+      - chatgpt
+      - deep-learning
+      - generative-ai
+      - language-model
+      - llms
+      - openai
+      - prompt-engineering
+      - rag
+    last_checked_at: "2026-05-05T21:01:45.572Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:45.572Z"
+      bytes: 10961
+insights:
+  summary: A comprehensive guide and web resource containing papers, tutorials, techniques, and prompt examples for prompt engineering, context engineering, RAG, and AI agents.
+  why_it_matters: It provides developers with the foundational knowledge and reference patterns needed to design effective prompts and reliably interface with LLMs for coding, RAG, and agent workflows.
+  mental_damage: You now have 74,000 stars worth of prompting techniques to choose from, ensuring you can over-engineer a simple instruction for an entire afternoon.
+  tags:
+    - prompt-engineering
+    - llm-guides
+    - rag
+    - ai-agents
+    - learning-resource
+  confidence: high
+curation:
+  status: included
+  reason: This is a core educational resource focused on prompt design, context shaping, and LLM interaction patterns, fitting squarely into context engineering for developers.
+  evidence:
+    - Repo description explicitly covers 'prompt engineering, context engineering, RAG, and AI Agents'.
+    - README positions the guide as a resource for developers to 'design robust and effective prompting techniques that interface with LLMs'.
+    - Included in 'awesome-LLM-resources' and 'awesome-agent-orchestration' under learning/tutorial sections.
+placement:
+  primary_category: context-engineering
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (74218) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.664Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:45.572Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:15:10.906Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

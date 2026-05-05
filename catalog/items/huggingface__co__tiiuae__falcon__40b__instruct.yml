@@ -1,0 +1,80 @@
+id: huggingface__co__tiiuae__falcon__40b__instruct
+kind: website
+name: falcon-40b-instruct
+canonical_url: https://huggingface.co/tiiuae/falcon-40b-instruct
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__huggingface__co__tiiuae__falcon__40b__instruct__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Model
+          - Large Language Model
+        anchor_text: Falcon 40B
+        extracted_url: https://huggingface.co/tiiuae/falcon-40b-instruct
+        surrounding_text: "| [Falcon 40B](https://huggingface.co/tiiuae/falcon-40b-instruct)         | Falcon-40B-Instruct is a 40B parameters causal decoder-only model built by TII based on Falcon-40B and finetuned on a mixture of Baize. It is made available under the Apache 2.0 license. |                                                                                                           |"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Falcon-40B-Instruct is a 40-billion parameter causal decoder-only language model from the Technology Innovation Institute, fine-tuned for chat and instruction-following tasks.
+  why_it_matters: Developers can use this Apache 2.0-licensed model as a high-performing, open-weight foundation for self-hosted inference, fine-tuning, or as an alternative to closed-source LLMs in their pipelines.
+  mental_damage: Another open-weight titan enters the arena, kindly reminding you that your local GPU budget is now measured in 'how many kidneys do I actually need'.
+  tags:
+    - llm
+    - text-generation
+    - open-source
+    - huggingface
+    - inference
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a foundational large language model, not a developer-facing tool, agent, IDE, or infrastructure product; it is a model weight hosted on Hugging Face, which falls outside the scope of developer tooling catalogs.
+  evidence:
+    - Hugging Face page identifies this as a 'Text Generation' model (tiiuae/falcon-40b-instruct), not a software tool or agent.
+    - Listed in Awesome-LLMOps under 'Model > Large Language Model', indicating it is a model asset rather than operational tooling.
+    - The README provides Python inference snippets but describes a model architecture, not a developer workflow automation product.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.728Z"
+    cause:
+      type: ambiguous_canonicalization
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:45:32.932Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

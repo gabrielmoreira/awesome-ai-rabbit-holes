@@ -1,0 +1,76 @@
+id: www__promptfoundry__ai
+kind: website
+name: www.promptfoundry.ai
+canonical_url: https://www.promptfoundry.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__promptfoundry__ai__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - LLMOps
+        anchor_text: PromptFoundry
+        extracted_url: https://www.promptfoundry.ai
+        surrounding_text: "| [PromptFoundry](https://www.promptfoundry.ai)                      | The simple prompt engineering and evaluation tool designed for developers building AI applications.                                                                                                                                                                                                                                                                                                     | ![GitHub Badge](https://img.shields.io/github/stars/prompt-foundry/python-sdk.svg?style=flat-square)      |"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A browser-based prompt management and evaluation tool for AI applications that supports comparing models, testing variables, and mocking tool calls across Node, JavaScript, TypeScript, and Python SDKs.
+  why_it_matters: Developers building AI applications can use it to iterate on prompts, compare model outputs, and test tool-calling behavior before deploying to production.
+  mental_damage: Another SaaS layer to manage the strings you feed to the black box, so you can feel methodical while praying temperature=0.7 still produces different results on Tuesdays.
+  tags:
+    - prompt-management
+    - evals
+    - llm-testing
+    - developer-tooling
+  confidence: high
+curation:
+  status: included
+  reason: It fits squarely into context-engineering as a prompt design, testing, and management system for developers building AI applications, not a generic resource list.
+  evidence:
+    - Site describes it as 'The simple prompt management and evaluation tool for your AI application' with SDKs for multiple languages.
+    - Features include prompt comparison, variable inputs, tool-calling mocks, and vision support for model testing.
+    - Listed in Awesome-LLMOps under LLMOps section for prompt management and evaluation.
+placement:
+  primary_category: context-engineering
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.733Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:52:45.889Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

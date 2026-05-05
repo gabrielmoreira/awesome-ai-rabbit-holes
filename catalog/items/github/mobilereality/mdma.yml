@@ -1,0 +1,95 @@
+id: github__mobilereality__mdma
+kind: github-repo
+name: mdma
+canonical_url: https://github.com/mobilereality/mdma
+identity:
+  github_repo: mobilereality/mdma
+provenance:
+  discoveries:
+    - id: discovery__github__mobilereality__mdma__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: MobileReality/mdma
+        extracted_url: https://github.com/mobilereality/mdma
+        surrounding_text: "- [MobileReality/mdma](https://github.com/MobileReality/mdma/tree/main/packages/mcp) [![MobileReality/mdma MCP server](https://glama.ai/mcp/servers/MobileReality/mdma/badges/score.svg)](https://glama.ai/mcp/servers/MobileReality/mdma) 📇 ☁️ 🏠 🍎 🪟 🐧 - MCP server for MDMA (interactive Markdown applications with mounted components). Exposes the MDMA spec, authoring prompts, package metadata, and live docs to AI assistants. Tools: `get-spec`, `get-prompt`, `build-system-prompt`, `validate-prompt`, `list-packages`, `list-docs`, `get-doc`. Install: `npx @mobile-reality/mdma-mcp`."
+        confidence: high
+metadata:
+  github:
+    stars: 12
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2026-03-04T15:18:17Z"
+    pushed_at: "2026-05-05T16:13:12Z"
+    description: Interactive documents from Markdown. Extends MD with forms, approvals, webhooks, and more — built for next gen apps
+    homepage: ""
+    topics:
+      - agent-skills
+      - ai-agents
+      - claude-skill
+      - generative-ui
+      - interactive-markdown
+      - llm
+      - mcp
+      - mcp-server
+      - mdma
+      - model-context-protocol
+      - react
+      - remark-plugin
+      - typescript
+    last_checked_at: "2026-05-05T21:03:44.887Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:44.887Z"
+      bytes: 25540
+insights:
+  summary: MDMA (Markdown Document with Mounted Applications) extends Markdown with interactive components like forms, approval gates, and webhooks, allowing LLMs to generate structured, actionable documents rendered via a React SDK.
+  why_it_matters: It replaces fragile free-form text parsing with a predictable schema for LLM outputs, enabling developers to build interactive AI workflows and structured UIs without writing custom rendering logic for every use case.
+  mental_damage: We've successfully evolved AI interactions from 'vibes-based text' to 'vibes-based forms', ensuring the model now hallucinates the exact structure of your intake questionnaire instead of just the answers.
+  tags:
+    - markdown
+    - llm
+    - interactive
+    - mcp
+    - react
+  confidence: medium
+curation:
+  status: included
+  reason: The project is a code-first SDK and library (parser, runtime, renderer, CLI) for embedding interactive AI-driven document behavior into applications, which fits the AI Frameworks category.
+  evidence:
+    - "README lists installation of npm packages: @mobile-reality/mdma-parser, @mobile-reality/mdma-runtime, and @mobile-reality/mdma-renderer-react."
+    - Described as extending Markdown with components (forms, webhooks) specifically so an LLM can generate structured, renderable outputs.
+    - Included in awesome-mcp-servers under 'Developer Tools', confirming its relevance to the MCP/developer tooling ecosystem.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.708Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:44.887Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:38:42.112Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

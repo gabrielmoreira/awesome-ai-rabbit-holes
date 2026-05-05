@@ -1,0 +1,94 @@
+id: github__etiennechollet__ontomics
+kind: github-repo
+name: ontomics
+canonical_url: https://github.com/etiennechollet/ontomics
+identity:
+  github_repo: etiennechollet/ontomics
+provenance:
+  discoveries:
+    - id: discovery__github__etiennechollet__ontomics__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: EtienneChollet/ontomics
+        extracted_url: https://github.com/etiennechollet/ontomics
+        surrounding_text: "- [EtienneChollet/ontomics](https://github.com/EtienneChollet/ontomics) [![EtienneChollet/ontomics MCP server](https://glama.ai/mcp/servers/EtienneChollet/ontomics/badges/score.svg)](https://glama.ai/mcp/servers/EtienneChollet/ontomics) 🦀 🏠 🍎 🐧 - Semantic code index that extracts domain concepts, naming conventions, and behavioral similarity from codebases. One tool call instead of 19, ~20x fewer tokens for codebase understanding queries."
+        confidence: high
+metadata:
+  github:
+    stars: 25
+    forks: 6
+    license: MIT
+    archived: false
+    created_at: "2026-03-27T12:48:46Z"
+    pushed_at: "2026-04-17T01:21:28Z"
+    description: Extract domain knowledge from codebases to reduce LLM token consumption by 20x and time in agentic search by 10x — gathers and makes concepts, naming conventions, and vocabulary queryable via MCP.
+    homepage: ""
+    topics:
+      - agentic-coding
+      - ai-coding
+      - claude-code
+      - codex
+      - coding-agents
+      - domain-knowledge
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - rust
+      - semantic-search
+      - tree-sitter
+    last_checked_at: "2026-05-05T21:02:04.933Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:04.933Z"
+      bytes: 8615
+insights:
+  summary: A Model Context Protocol server that builds a semantic index of a codebase's domain concepts, naming conventions, and behavioral similarities to reduce token usage and tool calls for coding agents.
+  why_it_matters: It allows coding agents like Claude Code and Codex to retrieve deep domain knowledge in a single tool call rather than burning tens of thousands of tokens on exploratory searches.
+  mental_damage: We have successfully optimized the part of the workflow where the AI guesses what your code means, so you can spend the saved time arguing with it about why the generated tests still don't compile.
+  tags:
+    - mcp
+    - context-engineering
+    - semantic-search
+    - coding-agents
+    - rust
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server that provides context and semantic search capabilities to other coding agents, fitting the MCP infrastructure category.
+  evidence:
+    - Repo description states it 'makes concepts, naming conventions, and vocabulary queryable via MCP'
+    - Installation instructions show registering it as an MCP server with Claude Code, Codex, and other harnesses
+    - Listed in awesome-mcp-servers under 'Developer Tools' section
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.686Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:04.933Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:18:32.119Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

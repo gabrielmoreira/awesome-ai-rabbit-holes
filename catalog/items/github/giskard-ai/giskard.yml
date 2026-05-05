@@ -1,0 +1,99 @@
+id: github__giskard-ai__giskard
+kind: github-repo
+name: giskard
+canonical_url: https://github.com/giskard-ai/giskard
+identity:
+  github_repo: giskard-ai/giskard
+provenance:
+  discoveries:
+    - id: discovery__github__giskard-ai__giskard__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Security
+          - Observability
+        anchor_text: Giskard
+        extracted_url: https://github.com/giskard-ai/giskard
+        surrounding_text: "| [Giskard](https://github.com/Giskard-AI/giskard)                               | Testing framework dedicated to ML models, from tabular to LLMs. Detect risks of biases, performance issues and errors in 4 lines of code.                                                                                      | ![GitHub Badge](https://img.shields.io/github/stars/Giskard-AI/giskard.svg?style=flat-square)"
+        confidence: high
+metadata:
+  github:
+    stars: 5323
+    forks: 447
+    license: Apache-2.0
+    archived: false
+    created_at: "2022-03-06T21:45:37Z"
+    pushed_at: "2026-05-02T02:44:52Z"
+    description: 🐢 Open-Source Evaluation & Testing library for LLM Agents
+    homepage: https://docs.giskard.ai
+    topics:
+      - agent-evaluation
+      - ai-red-team
+      - ai-security
+      - ai-testing
+      - fairness-ai
+      - llm
+      - llm-eval
+      - llm-evaluation
+      - llm-security
+      - llmops
+      - ml-testing
+      - ml-validation
+      - mlops
+      - rag-evaluation
+      - red-team-tools
+      - responsible-ai
+      - trustworthy-ai
+    last_checked_at: "2026-05-05T21:02:21.429Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:21.429Z"
+      bytes: 8556
+insights:
+  summary: Giskard is an open-source Python library for testing, evaluating, and red-teaming LLM agents, featuring scenario-based evals, built-in checks, and multi-turn conversation testing.
+  why_it_matters: It lets developers catch regressions, validate RAG outputs, and enforce safety rules on non-deterministic agent behavior using a modular, async-first eval framework.
+  mental_damage: You can now scientifically prove that your agent fails consistently, rather than just suspecting it based on vibes.
+  tags:
+    - llm-eval
+    - red-teaming
+    - agent-testing
+    - python-library
+    - rag-evaluation
+  confidence: high
+curation:
+  status: included
+  reason: Giskard is a dedicated evaluation, benchmarking, and red-teaming framework for LLM agents, which fits squarely into the Evaluations and Benchmarks category.
+  evidence:
+    - Repo description explicitly states it is an 'Open-Source Evaluation & Testing library for LLM Agents'.
+    - README positions it as a tool for catching regressions, validating RAG quality, enforcing safety rules, and evaluating multi-turn agents.
+    - Included in the Awesome-LLMOps list under the 'Security > Observability' section, confirming its role in the eval/observability ecosystem.
+placement:
+  primary_category: evals
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (5323) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.441Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:21.429Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:21:24.969Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

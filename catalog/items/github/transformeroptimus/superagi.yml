@@ -1,0 +1,122 @@
+id: github__transformeroptimus__superagi
+kind: github-repo
+name: superagi
+canonical_url: https://github.com/transformeroptimus/superagi
+identity:
+  github_repo: transformeroptimus/superagi
+provenance:
+  discoveries:
+    - id: discovery__github__transformeroptimus__superagi__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Tools
+          - Agents
+        anchor_text: SuperAGI
+        extracted_url: https://github.com/transformeroptimus/superagi
+        surrounding_text: "- [SuperAGI](https://github.com/TransformerOptimus/SuperAGI): SuperAGI - A dev-first open source autonomous AI agent framework ![GitHub Repo stars](https://img.shields.io/github/stars/TransformerOptimus/SuperAGI?style=social)"
+        confidence: high
+    - id: discovery__github__transformeroptimus__superagi__awesome-list__kaushikb11__awesome-llm-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: kaushikb11/awesome-llm-agents
+        url: https://github.com/kaushikb11/awesome-llm-agents
+        repository: kaushikb11/awesome-llm-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Frameworks
+        anchor_text: SuperAGI
+        extracted_url: https://github.com/transformeroptimus/superagi
+        surrounding_text: "- [SuperAGI](https://github.com/TransformerOptimus/SuperAGI) - Open-source autonomous AI"
+        confidence: high
+    - id: discovery__superagi__com__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - SuperAGI
+        anchor_text: SuperAGI
+        extracted_url: https://superagi.com
+        surrounding_text: "## [SuperAGI](https://superagi.com/)"
+        confidence: high
+    - id: discovery__superagi__com__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: janhq/awesome-local-ai
+        url: https://github.com/janhq/awesome-local-ai
+        repository: janhq/awesome-local-ai
+      extraction:
+        mode: parsed
+        section_path:
+          - Agents
+        anchor_text: SuperAGI
+        extracted_url: https://superagi.com
+        surrounding_text: "- [SuperAGI](https://superagi.com/) - Opensource AGI Infrastructure."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: SuperAGI is a hosted AI sales agent that autonomously finds and engages with sales prospects around the clock.
+  why_it_matters: It represents the application of autonomous agent patterns to specific business functions like sales, though it targets sales teams rather than developers building software.
+  mental_damage: We have successfully reached the point where we are hiring autonomous agents to do the hiring so we don't have to talk to humans anymore.
+  tags:
+    - autonomous-agents
+    - saas
+    - sales-agent
+  confidence: high
+curation:
+  status: excluded
+  reason: The product is a vertical SaaS sales tool for prospect engagement, not a developer-facing tool, coding agent, or infrastructure component.
+  evidence:
+    - Scraped site description states it is 'an AI sales agent that works 24×7 to find & engage with prospects'
+    - Source lists categorize it under sales/agent verticals rather than developer tooling or IDE extensions
+    - No GitHub repo, code-level SDK, or developer workflow integration is described in the provided context
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:48:26.017Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.674Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

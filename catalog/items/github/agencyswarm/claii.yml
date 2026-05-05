@@ -1,0 +1,82 @@
+id: github__agencyswarm__claii
+kind: github-repo
+name: claii
+canonical_url: https://github.com/agencyswarm/claii
+identity:
+  github_repo: agencyswarm/claii
+provenance:
+  discoveries:
+    - id: discovery__github__agencyswarm__claii__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Terminal-native coding agents
+          - Open Source
+        anchor_text: CLAII
+        extracted_url: https://github.com/agencyswarm/claii
+        surrounding_text: "- **[CLAII](https://github.com/agencyswarm/CLAII)** `⭐ 2` — CLI-first AI coding agent with multi-agent orchestration, MCP toolchains, and memory-persistent refactors."
+        confidence: high
+metadata:
+  github:
+    stars: 2
+    forks: 0
+    license: null
+    archived: false
+    created_at: "2025-11-15T09:47:51Z"
+    pushed_at: "2025-11-17T06:09:53Z"
+    description: CLAII = CLI AI Agent for coding. CLAII is a terminal-native AI pair-programmer with multi-agent orchestration, MCP toolchains, and context-aware, memory-persistent refactors across your codebase.
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:00:50.076Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:50.076Z"
+      bytes: 13425
+insights:
+  summary: CLAII is a terminal-native AI coding agent that runs an iterative agent loop to read, write, and execute code within a scoped local directory using pluggable LLM providers.
+  why_it_matters: It offers developers a hackable, CLI-first coding assistant that can directly refactor and test codebases from the terminal with persistent memory and knowledge-base support.
+  mental_damage: Another pristine CLI tool promising agentic refactors, ready to bravely overwrite your files the moment you realize the working directory wasn't quite as scoped as you thought.
+  tags:
+    - cli
+    - coding-agent
+    - terminal
+    - local-ai
+    - multi-agent
+  confidence: medium
+curation:
+  status: included
+  reason: The project is a developer-facing CLI coding agent designed to directly edit, test, and refactor code inside a repo, which matches the coding-agents category and its terminal section.
+  evidence:
+    - Repo description states it is a 'CLI AI Agent for coding' with multi-agent orchestration and codebase refactors.
+    - README explicitly defines it as a 'command-line–first AI coding agent' that writes files, runs tests, and iterates in an agent loop.
+    - Included in the awesome-cli-coding-agents list under the 'Terminal-native coding agents > Open Source' section.
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.676Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:50.076Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:06:01.446Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

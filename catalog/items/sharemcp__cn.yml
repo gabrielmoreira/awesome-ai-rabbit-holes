@@ -1,0 +1,76 @@
+id: sharemcp__cn
+kind: website
+name: sharemcp.cn
+canonical_url: https://sharemcp.cn
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__sharemcp__cn__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 模型上下文协议 MCP
+        anchor_text: sharemcp.cn
+        extracted_url: https://sharemcp.cn
+        surrounding_text: 12. [sharemcp.cn](https://sharemcp.cn/)
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A Chinese-language directory and sharing site for Model Context Protocol (MCP) servers and resources.
+  why_it_matters: It provides a localized, community-driven index for developers looking to discover and integrate MCP tooling into their AI workflows.
+  mental_damage: Just when you thought the MCP ecosystem was manageable, someone helpfully curates the sprawl so you can feel inadequate about the 40 servers you haven't tried yet.
+  tags:
+    - mcp
+    - directory
+    - resources
+    - china
+  confidence: medium
+curation:
+  status: included
+  reason: This is a curated directory and index of MCP resources rather than a standalone tool itself, fitting the awesome-awesomes category.
+  evidence:
+    - Listed in the 'awesome-LLM-resources' list under a section for Model Context Protocol (MCP).
+    - The URL and name (sharemcp.cn) indicate a sharing and directory site for MCP resources.
+    - No code repository, IDE, or agent functionality is present; it serves as a navigation aid.
+placement:
+  primary_category: awesome-awesomes
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.730Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:48:03.605Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

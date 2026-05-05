@@ -1,0 +1,88 @@
+id: github__lupantech__agentflow
+kind: github-repo
+name: agentflow
+canonical_url: https://github.com/lupantech/agentflow
+identity:
+  github_repo: lupantech/agentflow
+provenance:
+  discoveries:
+    - id: discovery__github__lupantech__agentflow__awesome-list__kaushikb11__awesome-llm-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: kaushikb11/awesome-llm-agents
+        url: https://github.com/kaushikb11/awesome-llm-agents
+        repository: kaushikb11/awesome-llm-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Frameworks
+        anchor_text: AgentFlow
+        extracted_url: https://github.com/lupantech/agentflow
+        surrounding_text: "- Supports popular agentic workflows- [AgentFlow](https://github.com/lupantech/AgentFlow) - Trainable multi-agent framework"
+        confidence: high
+metadata:
+  github:
+    stars: 1803
+    forks: 216
+    license: MIT
+    archived: false
+    created_at: "2025-09-27T02:17:05Z"
+    pushed_at: "2026-02-08T14:00:53Z"
+    description: "AgentFlow: In-the-Flow Agentic System Optimization"
+    homepage: https://agentflow.stanford.edu
+    topics:
+      - agentic-ai
+      - agentic-systems
+      - llms
+      - llms-reasoning
+      - multi-agent-systems
+      - reinforcement-learning
+      - tool-augmented
+    last_checked_at: "2026-05-05T21:03:25.859Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:25.859Z"
+      bytes: 17343
+insights:
+  summary: AgentFlow is a modular, trainable agentic framework that optimizes a Planner, Executor, Verifier, and Generator with Flow-GRPO for long-horizon reasoning and tool use.
+  why_it_matters: It gives developers a code-first way to build and train multi-agent systems that can reliably interleave reasoning with tool calls on long-horizon tasks.
+  mental_damage: We have now reached the point where the agents need their own agents to learn how to use agents, and somewhere a Staff Engineer is writing a 40-page RFC to decide who owns the Planner.
+  tags:
+    - agentic-ai
+    - reinforcement-learning
+    - multi-agent
+    - tool-augmented
+    - llm-framework
+  confidence: high
+curation:
+  status: included
+  reason: This is a code-first framework and SDK for building trainable multi-agent systems, not a developer-facing coding assistant or app builder.
+  evidence:
+    - Repo description and README present it as a trainable, tool-integrated agentic framework with modular agents and Flow-GRPO training.
+    - Listed under Frameworks in awesome-llm-agents, and installation/training sections show it is imported and used as a library.
+    - Created 2025-09-27 and pushed 2026-02-08, active and not archived, with a research paper and benchmarks.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1803) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.705Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:25.859Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:35:00.641Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

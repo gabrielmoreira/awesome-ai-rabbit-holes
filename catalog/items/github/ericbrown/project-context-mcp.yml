@@ -1,0 +1,81 @@
+id: github__ericbrown__project-context-mcp
+kind: github-repo
+name: project-context-mcp
+canonical_url: https://github.com/ericbrown/project-context-mcp
+identity:
+  github_repo: ericbrown/project-context-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__ericbrown__project-context-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: ericbrown/project-context-mcp
+        extracted_url: https://github.com/ericbrown/project-context-mcp
+        surrounding_text: "- [ericbrown/project-context-mcp](https://github.com/ericbrown/project-context-mcp) 🐍 🏠 - Exposes `.context/` folder files as MCP resources, giving Claude Code instant access to project documentation via `@` mentions."
+        confidence: high
+metadata:
+  github:
+    stars: 3
+    forks: 2
+    license: MIT
+    archived: false
+    created_at: "2026-01-14T21:30:36Z"
+    pushed_at: "2026-01-14T22:09:24Z"
+    description: Give Claude Code instant access to your project's institutional knowledge. Drop docs in .context/, mention them with @, and watch Claude become an expert on your codebase.
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:02:03.699Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:03.699Z"
+      bytes: 12353
+insights:
+  summary: An MCP server that exposes project documentation and context files from a .context/ folder directly into Claude Code's @ mention workflow.
+  why_it_matters: It allows developers to keep institutional knowledge, conventions, and architecture decisions alongside their code so Claude Code can reference them instantly without constant copy-pasting.
+  mental_damage: Now your AI can silently violate your coding standards with the same confidence it had before, just with your own documentation as the weapon of choice.
+  tags:
+    - mcp
+    - claude-code
+    - context
+    - documentation
+  confidence: high
+curation:
+  status: included
+  reason: The project is itself an MCP server that extends Claude Code's context capabilities, fitting cleanly into MCP Servers and Tooling.
+  evidence:
+    - Repo description explicitly states it is an MCP server for Claude Code.
+    - README details installation via `claude mcp add` and exposes .context/ files through MCP.
+    - Listed under Server Implementations > Developer Tools in awesome-mcp-servers.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.686Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:03.699Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:18:15.003Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,83 @@
+id: github__alapi-sdk__mcp-alapi-cn
+kind: github-repo
+name: mcp-alapi-cn
+canonical_url: https://github.com/alapi-sdk/mcp-alapi-cn
+identity:
+  github_repo: alapi-sdk/mcp-alapi-cn
+provenance:
+  discoveries:
+    - id: discovery__github__alapi-sdk__mcp-alapi-cn__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: ALAPI
+        extracted_url: https://github.com/alapi-sdk/mcp-alapi-cn
+        surrounding_text: "- **[ALAPI](https://github.com/ALAPI-SDK/mcp-alapi-cn)** - ALAPI MCP Tools,Call hundreds of API interfaces via MCP"
+        confidence: high
+metadata:
+  github:
+    stars: 12
+    forks: 3
+    license: MIT
+    archived: false
+    created_at: "2025-03-30T09:06:44Z"
+    pushed_at: "2025-04-16T12:28:26Z"
+    description: 这是一个基于 [ALAPI](https://www.alapi.cn) 的 MCP (Model Control Protocol) 服务器实现，可以通过MCP协议直接调用ALAPI的接口
+    homepage: ""
+    topics:
+      - mcp
+      - mcp-go
+      - mcp-server
+    last_checked_at: "2026-05-05T21:00:57.216Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:57.216Z"
+      bytes: 5845
+insights:
+  summary: An MCP server implementation that exposes ALAPI's 100+ API services, such as IP lookup, weather, and enterprise queries, for integration into MCP-compatible AI clients.
+  why_it_matters: It allows developers to equip MCP clients like Claude Desktop and Cursor with a wide array of utility APIs without writing custom integration code.
+  mental_damage: Finally, your coding agent can now check the horoscope and query express delivery logs, because clearly what the modern developer needs is more ways to procrastinate inside their IDE.
+  tags:
+    - mcp
+    - api-integration
+    - server
+    - alapi
+  confidence: high
+curation:
+  status: included
+  reason: The project is a dedicated MCP server implementation, making it a direct fit for the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states it is '基于 ALAPI 的 MCP (Model Control Protocol) 服务器实现'.
+    - README confirms compatibility with MCP clients including Claude Desktop, Cursor, and Cline.
+    - Listed in the 'awesome-mcp-servers' directory under 'Official Servers'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.677Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:57.216Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:07:14.099Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,76 @@
+id: www__microsoft__com__nl__nl__power__platform__products__power__apps
+kind: website
+name: power-apps
+canonical_url: https://www.microsoft.com/nl-nl/power-platform/products/power-apps
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__microsoft__com__nl__nl__power__platform__products__power__apps__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - App Builders
+        anchor_text: Microsoft Power Apps
+        extracted_url: https://powerapps.microsoft.com
+        surrounding_text: "- **[Microsoft Power Apps](https://powerapps.microsoft.com/)** – Enterprise low-code platform with AI-powered app generation."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Microsoft Power Apps is an enterprise low-code platform that uses AI and natural language to build, modernize, and deploy custom business applications across web and mobile.
+  why_it_matters: It allows developers and business users to collaborate in a single workspace, using AI to accelerate UI design, data modeling, and app generation without starting from scratch.
+  mental_damage: Now you can spend your afternoons explaining to stakeholders that vibe-coding an enterprise app in a browser still requires someone to care about where the data actually lives.
+  tags:
+    - low-code
+    - enterprise
+    - ai-app-builder
+    - microsoft
+  confidence: high
+curation:
+  status: included
+  reason: This is a browser-first, prompt-to-app SaaS platform for building and deploying full business applications, which fits the app-builders category rather than a coding agent that works inside a repo or IDE.
+  evidence:
+    - Source list context explicitly categorizes it as an 'App Builder' for low-code business app creation.
+    - Scraped site describes building and deploying full apps via natural language and drag-and-drop, not editing an existing codebase in an IDE.
+    - Product pitch centers on shipping enterprise apps, dashboards, and internal tools rather than assisting with source code in a developer workflow.
+placement:
+  primary_category: app-builders
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.733Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:52:05.924Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

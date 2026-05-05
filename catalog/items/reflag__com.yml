@@ -1,0 +1,93 @@
+id: reflag__com
+kind: website
+name: reflag.com
+canonical_url: https://reflag.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__reflag__com__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: Reflag
+        extracted_url: https://reflag.com
+        surrounding_text: "- [reflagcom/mcp](https://github.com/reflagcom/javascript/tree/main/packages/cli#model-context-protocol) 🎖️ 📇 ☁️ - Flag features directly from chat in your IDE with [Reflag](https://reflag.com)."
+        confidence: high
+    - id: discovery__reflag__com__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Bucket
+        extracted_url: https://bucket.co
+        surrounding_text: "- **[Bucket](https://github.com/bucketco/bucket-javascript-sdk/tree/main/packages/cli#model-context-protocol)** - Flag features, manage company data, and control feature access using [Bucket](https://bucket.co)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A TypeScript-first feature flag platform with SDKs for React, Vue, Next, and Node, offering Linear and Slack integrations alongside a self-cleaning agent for flag removal.
+  why_it_matters: It streamlines feature rollouts and cleanup for SaaS teams while claiming to integrate directly with agentic workflows and IDEs like Cursor.
+  mental_damage: We have finally reached the point where the flags themselves are unionized and demand an agent to negotiate their retirement.
+  tags:
+    - feature-flags
+    - typescript
+    - agent-ready
+    - mcp
+    - developer-tools
+  confidence: medium
+curation:
+  status: included
+  reason: The product primarily extends developer workflows and AI coding assistants (like Cursor) with feature flag management and MCP-based cleanup, fitting the extension/skills category.
+  evidence:
+    - Scraped site claims 'Auto cleaning up stale feature flags' and 'flagging using just a prompt in Cursor'.
+    - Listed in awesome-mcp-servers under 'Developer Tools' with description 'TypeScript feature management'.
+    - Provides SDKs for React, Vue, Next, Node and integrates with Linear and Slack.
+placement:
+  primary_category: ai-dev-extensions
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.674Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:47:29.060Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

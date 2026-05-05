@@ -1,0 +1,82 @@
+id: github__kukapay__chainlink-feeds-mcp
+kind: github-repo
+name: chainlink-feeds-mcp
+canonical_url: https://github.com/kukapay/chainlink-feeds-mcp
+identity:
+  github_repo: kukapay/chainlink-feeds-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__kukapay__chainlink-feeds-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: kukapay/chainlink-feeds-mcp
+        extracted_url: https://github.com/kukapay/chainlink-feeds-mcp
+        surrounding_text: "- [kukapay/chainlink-feeds-mcp](https://github.com/kukapay/chainlink-feeds-mcp) 📇 ☁️ -  Providing real-time access to Chainlink's decentralized on-chain price feeds."
+        confidence: high
+metadata:
+  github:
+    stars: 6
+    forks: 6
+    license: MIT
+    archived: false
+    created_at: "2025-04-17T09:37:04Z"
+    pushed_at: "2025-07-24T13:18:32Z"
+    description: An MCP server that provides real-time access to Chainlink's decentralized on-chain price feeds.
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:03:09.652Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:09.652Z"
+      bytes: 7525
+insights:
+  summary: An MCP server that provides real-time access to Chainlink's decentralized on-chain price feeds across 9 blockchain networks for integration into AI agents and autonomous systems.
+  why_it_matters: It allows AI agents and developer tools to query reliable, decentralized price data directly via the Model Context Protocol, removing the need to manually wire RPC calls and parse on-chain feeds.
+  mental_damage: We have successfully abstracted reading a smart contract into an MCP tool, so your agent can now panic about token prices with the same low latency as a human day-trader.
+  tags:
+    - mcp
+    - chainlink
+    - web3
+    - price-feeds
+    - blockchain
+  confidence: high
+curation:
+  status: included
+  reason: The project is a standalone MCP server implementation for Chainlink price feeds, which fits cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states it is 'An MCP server that provides real-time access to Chainlink's decentralized on-chain price feeds.'
+    - README confirms it uses '@modelcontextprotocol/sdk' and is configured for MCP clients like Claude Desktop.
+    - Listed in 'awesome-mcp-servers' under the Finance & Fintech section, confirming ecosystem relevance.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.702Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:09.652Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:31:41.419Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

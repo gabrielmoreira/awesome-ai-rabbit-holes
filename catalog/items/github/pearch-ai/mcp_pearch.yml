@@ -1,0 +1,85 @@
+id: github__pearch-ai__mcp_pearch
+kind: github-repo
+name: mcp_pearch
+canonical_url: https://github.com/pearch-ai/mcp_pearch
+identity:
+  github_repo: pearch-ai/mcp_pearch
+provenance:
+  discoveries:
+    - id: discovery__github__pearch-ai__mcp_pearch__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Pearch
+        extracted_url: https://github.com/pearch-ai/mcp_pearch
+        surrounding_text: "- **[Pearch](https://github.com/Pearch-ai/mcp_pearch)** - Best people search engine that reduces the time spent on talent discovery."
+        confidence: high
+metadata:
+  github:
+    stars: 7
+    forks: 7
+    license: MIT
+    archived: false
+    created_at: "2025-06-17T08:16:19Z"
+    pushed_at: "2026-02-18T11:00:12Z"
+    description: The most accurate people search API/MCP. Natural language in, high-quality candidates out. Built for ATSs and AI Agents.
+    homepage: https://pearch.ai
+    topics:
+      - ai
+      - api
+      - human-resources
+      - mcp
+    last_checked_at: "2026-05-05T21:04:14.632Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:14.632Z"
+      bytes: 4575
+insights:
+  summary: An MCP server that provides natural-language search over people and company leads via the Pearch.ai API, designed for integration with Claude Desktop, Cursor, and other MCP-compatible clients.
+  why_it_matters: Developers building AI recruiting or sales workflows can plug candidate and lead search directly into their coding agent instead of wiring up separate API calls.
+  mental_damage: Your coding agent can now source engineering candidates while you debug, so the same tool can both build the team and eventually replace it.
+  tags:
+    - mcp
+    - recruiting
+    - api
+    - leads
+    - b2b
+  confidence: medium
+curation:
+  status: included
+  reason: The project is explicitly an MCP server exposing recruiting and lead search tools to MCP-compatible developer clients, which aligns directly with the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description: 'The most accurate people search API/MCP. Natural language in, high-quality candidates out.'"
+    - "README: 'MCP server for Pearch.AI... Use it from Cursor, Claude Desktop, VS Code, or any MCP-compatible client.'"
+    - Listed in awesome-mcp-servers under 'Official Servers'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.712Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:14.632Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:44:15.647Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

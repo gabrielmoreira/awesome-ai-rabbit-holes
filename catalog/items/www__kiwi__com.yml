@@ -1,0 +1,75 @@
+id: www__kiwi__com
+kind: website
+name: www.kiwi.com
+canonical_url: https://www.kiwi.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__kiwi__com__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Kiwi.com
+        extracted_url: https://www.kiwi.com
+        surrounding_text: "- **[Kiwi.com](<[https://www.kiwi.com](https://mcp-install-instructions.alpic.cloud/servers/kiwi-com-flight-search)>)** - Official [Kiwi.com](https://www.kiwi.com) flight search MCP server. Search and book flights directly from your favorite AI assistant."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Kiwi.com is a travel booking website for flights, trains, and buses, not a developer tool or AI coding product.
+  why_it_matters: It doesn't—unless your definition of 'developer workflow' involves desperately searching for a cheap flight after your PR gets rejected.
+  mental_damage: We have officially reached the point where a travel agency appears in a curated list of MCP servers, suggesting the 'AI ecosystem' will soon try to book your vacation while it debugs your code.
+  tags:
+    - travel
+    - off-topic
+    - not-a-dev-tool
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a consumer travel booking site with no developer-facing AI tooling, code agents, or infrastructure, and its appearance in an MCP list appears to be a classification error.
+  evidence:
+    - URL resolves to www.kiwi.com, a commercial travel booking site, not a developer tool.
+    - No repository description, README, or code context provided to suggest AI or developer utility.
+    - Source list context mentions 'awesome-mcp-servers', but the entity itself is a travel agency, not an MCP server or tool.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.732Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:51:37.944Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

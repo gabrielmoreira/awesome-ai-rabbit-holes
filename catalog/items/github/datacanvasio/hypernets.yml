@@ -1,0 +1,93 @@
+id: github__datacanvasio__hypernets
+kind: github-repo
+name: hypernets
+canonical_url: https://github.com/datacanvasio/hypernets
+identity:
+  github_repo: datacanvasio/hypernets
+provenance:
+  discoveries:
+    - id: discovery__github__datacanvasio__hypernets__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - AutoML
+        anchor_text: Hypernets
+        extracted_url: https://github.com/datacanvasio/hypernets
+        surrounding_text: "| [Hypernets](https://github.com/DataCanvasIO/Hypernets)                       | A General Automated Machine Learning Framework.                                                                                                                                 | ![GitHub Badge](https://img.shields.io/github/stars/DataCanvasIO/Hypernets.svg?style=flat-square)          |"
+        confidence: high
+metadata:
+  github:
+    stars: 264
+    forks: 39
+    license: Apache-2.0
+    archived: false
+    created_at: "2020-06-22T07:40:31Z"
+    pushed_at: "2026-04-20T02:07:49Z"
+    description: A General Automated Machine Learning framework to simplify the development of End-to-end AutoML toolkits in specific domains.
+    homepage: https://hypernets.readthedocs.io/
+    topics:
+      - autodl
+      - automl
+      - enas
+      - evolutionary-algorithms
+      - hyperparameter-optimization
+      - hyperparameter-tuning
+      - keras
+      - mcts
+      - monte-carlo-tree-search
+      - nas
+      - nasnet
+      - neural-architecture-search
+      - reinforcement-learning
+    last_checked_at: "2026-05-05T21:01:47.517Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:47.517Z"
+      bytes: 6086
+insights:
+  summary: Hypernets is a general automated machine learning framework for building end-to-end AutoML toolkits that handle hyperparameter optimization and neural architecture search across various ML libraries.
+  why_it_matters: It provides developers with reusable abstractions and state-of-the-art search algorithms to build custom AutoML solutions for tabular data, time series, and deep learning without implementing optimization from scratch.
+  mental_damage: "Just what the modern developer needs: another abstract abstraction layer to manage while trying to remember if they signed up to write code or just architect the robots that architect the models."
+  tags:
+    - automl
+    - neural-architecture-search
+    - hyperparameter-tuning
+    - machine-learning-framework
+  confidence: high
+curation:
+  status: excluded
+  reason: The project is a general machine learning research and AutoML framework focused on model training optimization, which falls outside the catalog's scope of developer-facing AI tooling, coding agents, and infrastructure.
+  evidence:
+    - Repo description explicitly defines it as 'A General Automated Machine Learning framework' for building AutoML toolkits, not developer tools.
+    - Topics and README focus on NAS, hyperparameter optimization, evolutionary algorithms, and ML libraries (sklearn, pytorch, tensorflow), not code editing or developer workflows.
+    - Listed in Awesome-LLMOps under 'AutoML', which is a ML research/engineering category rather than the developer-tooling focus of this catalog.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (264) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.684Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:47.517Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:15:28.450Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

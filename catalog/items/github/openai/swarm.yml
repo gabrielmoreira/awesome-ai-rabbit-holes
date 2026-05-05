@@ -1,0 +1,97 @@
+id: github__openai__swarm
+kind: github-repo
+name: swarm
+canonical_url: https://github.com/openai/swarm
+identity:
+  github_repo: openai/swarm
+provenance:
+  discoveries:
+    - id: discovery__github__openai__swarm__awesome-list__vivy-yi__awesome-agent-orchestration
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: vivy-yi/awesome-agent-orchestration
+        url: https://github.com/vivy-yi/awesome-agent-orchestration
+        repository: vivy-yi/awesome-agent-orchestration
+      extraction:
+        mode: parsed
+        section_path:
+          - Core Frameworks
+          - Multi-Agent Orchestration Frameworks
+        anchor_text: OpenAI Swarm
+        extracted_url: https://github.com/openai/swarm
+        surrounding_text: "| [OpenAI Swarm](https://github.com/openai/swarm) | Educational lightweight multi-agent orchestration framework | ![Stars](https://img.shields.io/github/stars/openai/swarm) |"
+        confidence: high
+    - id: discovery__github__openai__swarm__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 智能体 Agents
+        anchor_text: Swarm
+        extracted_url: https://github.com/openai/swarm
+        surrounding_text: "26. [Swarm](https://github.com/openai/swarm): Framework for building, orchestrating and deploying multi-agent systems. Managed by OpenAI Solutions team. Experimental framework."
+        confidence: high
+metadata:
+  github:
+    stars: 21427
+    forks: 2273
+    license: MIT
+    archived: false
+    created_at: "2024-02-22T20:53:54Z"
+    pushed_at: "2026-04-15T17:10:28Z"
+    description: Educational framework exploring ergonomic, lightweight multi-agent orchestration. Managed by OpenAI Solution team.
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:04:03.736Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:03.736Z"
+      bytes: 16860
+insights:
+  summary: An educational Python framework from OpenAI for exploring lightweight, client-side multi-agent orchestration using Agents and handoffs.
+  why_it_matters: It provides a minimal code-first substrate for developers to learn and prototype how to coordinate multiple LLM agents before adopting production SDKs.
+  mental_damage: You can now orchestrate a swarm of agents to handle tasks that a single prompt failed to solve, proving that adding complexity is always the first refuge of the overwhelmed developer.
+  tags:
+    - multi-agent
+    - orchestration
+    - openai
+    - framework
+    - python
+  confidence: high
+curation:
+  status: included
+  reason: It is a code-first SDK/framework for building multi-agent systems, which fits the ai-frameworks category; it is not a control-plane orchestration platform.
+  evidence:
+    - Repo description explicitly calls it an 'Educational framework exploring ergonomic, lightweight multi-agent orchestration'.
+    - README demonstrates usage via Python imports (from swarm import Swarm, Agent) and client.run() patterns typical of a library.
+    - Listed in awesome-agent-orchestration under 'Core Frameworks > Multi-Agent Orchestration Frameworks'.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (21427) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.669Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:03.736Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:42:23.916Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

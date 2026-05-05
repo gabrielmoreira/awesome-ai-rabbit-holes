@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__designcomputer__mysql_mcp_server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-01T13:51:25.374Z"
+      discovered_at: "2026-05-05T19:41:00.656Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [designcomputer/mysql_mcp_server](https://github.com/designcomputer/mysql_mcp_server) 🐍 🏠 - MySQL database integration with configurable access controls, schema inspection, and comprehensive security guidelines"
         confidence: high
     - id: discovery__github__designcomputer__mysql_mcp_server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-01T13:51:25.374Z"
+      discovered_at: "2026-05-05T19:41:00.656Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -38,23 +38,22 @@ provenance:
         surrounding_text: "- **[MySQL](https://github.com/designcomputer/mysql_mcp_server)** - MySQL database integration with configurable access controls and schema inspection"
         confidence: high
     - id: discovery__github__designcomputer__mysql_mcp_server__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-01T13:51:25.374Z"
+      discovered_at: "2026-05-05T19:41:00.656Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
-        url: https://github.com/MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
         repository: MobinX/awesome-mcp-list
       extraction:
         mode: parsed
         section_path:
-          - null
           - 🗄️ Databases
         anchor_text: designcomputer/mysql_mcp_server
         extracted_url: https://github.com/designcomputer/mysql_mcp_server
         surrounding_text: "-   **[designcomputer/mysql_mcp_server](https://github.com/designcomputer/mysql_mcp_server)** [![GitHub stars](https://img.shields.io/github/stars/designcomputer/mysql_mcp_server?style=social)](https://github.com/designcomputer/mysql_mcp_server): Provides secure MySQL database operations with configurable access controls."
         confidence: high
     - id: discovery__github__designcomputer__mysql_mcp_server__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-01T13:51:25.374Z"
+      discovered_at: "2026-05-05T19:41:00.656Z"
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -72,8 +71,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 1241
-    forks: 231
+    stars: 1244
+    forks: 233
     license: MIT
     archived: false
     created_at: "2024-12-03T20:53:52Z"
@@ -85,31 +84,49 @@ metadata:
       - mcp
       - model-context-protocol
       - mysql
-    last_checked_at: "2026-05-01T13:51:39.526Z"
+    last_checked_at: "2026-05-05T21:01:51.886Z"
     readme:
-      fetched_at: "2026-05-01T13:51:39.526Z"
+      fetched_at: "2026-05-05T21:01:51.886Z"
       bytes: 5001
 insights:
-  summary: An MCP server that provides a controlled interface for AI clients to interact with MySQL databases (list tables, read data, run queries).
-  why_it_matters: It lets developers safely wire tools like Claude Desktop or VS Code into a MySQL database for exploration and analysis without giving the model raw, unrestricted DB access.
-  mental_damage: You finally got “AI can query prod” into a least-privilege box, and now your new hobby is explaining why the box still needs a threat model.
+  summary: A Model Context Protocol server that enables AI applications like Claude Desktop and VS Code to securely read tables and execute SQL queries against MySQL databases.
+  why_it_matters: It plugs your MySQL databases directly into MCP-compatible developer tools, allowing AI assistants to inspect schemas and run queries without you manually dumping context.
+  mental_damage: We have successfully abstracted the ancient art of writing SQL into 'configuring a protocol server so your AI can write the SQL for you instead.'
   tags:
     - mcp
     - mysql
-    - database-tools
-    - agent-tooling
-    - developer-workflow
+    - database
+    - protocol
   confidence: high
 curation:
   status: included
-  reason: Clear developer-tooling fit as an MCP database connector used by AI hosts/clients, making it a practical MCP server entry rather than a generic AI repo.
+  reason: The project is a canonical MCP server implementation for MySQL, fitting perfectly into the MCP infrastructure category.
   evidence:
-    - "Repo description: “MCP server that enables secure interaction with MySQL databases”."
-    - README features include listing tables/resources, reading table contents, and executing SQL queries with error handling and logging.
-    - Appears in multiple MCP-focused awesome lists under database sections, suggesting established relevance in the MCP ecosystem.
+    - Repo description states it is 'A Model Context Protocol (MCP) server that enables secure interaction with MySQL databases'.
+    - README confirms integration with Claude Desktop and VS Code via `mcp.json` and `claude_desktop_config.json`.
+    - Listed in 'awesome-mcp-servers' and 'awesome-mcp-list' under Database sections.
 placement:
   primary_category: mcp
   section: null
 lifecycle:
   status: promotion_candidate
-  reason: Stars (1241) exceeded threshold (150)
+  reason: Stars (1244) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.658Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:51.886Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:16:12.052Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,85 @@
+id: github__picotrex__awesome-nano-banana-images
+kind: github-repo
+name: awesome-nano-banana-images
+canonical_url: https://github.com/picotrex/awesome-nano-banana-images
+identity:
+  github_repo: picotrex/awesome-nano-banana-images
+provenance:
+  discoveries:
+    - id: discovery__github__picotrex__awesome-nano-banana-images__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 图片 Image
+          - 生成
+        anchor_text: Awesome-Nano-Banana-images
+        extracted_url: https://github.com/picotrex/awesome-nano-banana-images
+        surrounding_text: "- [Awesome-Nano-Banana-images](https://github.com/PicoTrex/Awesome-Nano-Banana-images)"
+        confidence: high
+metadata:
+  github:
+    stars: 22579
+    forks: 2334
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-08-28T17:03:09Z"
+    pushed_at: "2025-12-12T19:38:04Z"
+    description: A curated collection of fun and creative examples generated with Nano Banana & Nano Banana Pro🍌, Gemini-2.5-flash-image based model. We also release Nano-consistent-150K openly to support the community's development of image generation and unified models(click to website to see our blog)
+    homepage: https://picotrex.github.io/Awesome-Nano-Banana-images/
+    topics:
+      - awesome
+      - gemini-2-5-flash-image
+      - nano-banana
+    last_checked_at: "2026-05-05T21:04:17.283Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:17.283Z"
+      bytes: 189465
+insights:
+  summary: A curated collection of image generation examples and prompts created with Google's Nano Banana and Gemini 2.5 Flash Image models, accompanied by the Nano-consistent-150k dataset for training identity-consistent generation.
+  why_it_matters: Provides developers building image generation features with a reference dataset and prompt patterns for maintaining identity consistency across complex editing tasks.
+  mental_damage: Another 22,000-star GitHub repository dedicated to proving that we can now generate a 3D isometric room model before we figure out how to center a div.
+  tags:
+    - image-generation
+    - gemini
+    - dataset
+    - prompt-engineering
+    - awesome-list
+  confidence: high
+curation:
+  status: included
+  reason: This is an awesome-list-style directory of model outputs and a dataset, serving as a navigation aid and reference map for developers working with specific image generation models.
+  evidence:
+    - Repo description explicitly calls it 'A curated collection of fun and creative examples' and 'awesome-nano-banana-images'.
+    - README highlights the 'Nano-consistent-150k' dataset release for community development of image generation models.
+    - Found in source lists under 'awesome-LLM-resources' in the image generation section, confirming its role as a resource directory.
+placement:
+  primary_category: awesome-awesomes
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (22579) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.713Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:17.283Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:44:43.397Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

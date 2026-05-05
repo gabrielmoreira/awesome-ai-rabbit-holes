@@ -1,0 +1,77 @@
+id: www__gumloop__com
+kind: website
+name: www.gumloop.com
+canonical_url: https://www.gumloop.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__gumloop__com__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Gumloop
+        anchor_text: Gumloop
+        extracted_url: https://www.gumloop.com
+        surrounding_text: "## [Gumloop](https://www.gumloop.com/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Gumloop is a no-code platform for building and hosting AI-powered business automations and specialized agents using a visual canvas.
+  why_it_matters: It provides developers and enterprise teams a way to orchestrate multi-agent workflows, connect internal data, and deploy recurring AI tasks without writing custom orchestration code.
+  mental_damage: Another 'no-code' layer promising to unleash engineering capacity, ensuring developers can now spend their afternoons debugging why the visual agent skipped the Slack trigger instead of writing the script themselves.
+  tags:
+    - no-code
+    - agent-orchestration
+    - automation
+    - enterprise
+    - workflow
+  confidence: high
+curation:
+  status: included
+  reason: Gumloop is a user-facing platform for coordinating multiple AI agents and business automations on a visual canvas, fitting the agent-orchestration category rather than coding-agents or app-builders.
+  evidence:
+    - Scraped site describes it as 'The no-code platform to build and host AI-powered business automations' with 'a canvas to orchestrate multi-agent workflows'.
+    - Features include rolling out specialized agents (Data Analysis, Support, CRM) and interacting with them via Slack/Teams rather than writing code in an IDE.
+    - Listed in the 'awesome-ai-agents' directory under business automation use cases.
+placement:
+  primary_category: agent-orchestration
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.732Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:51:09.916Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

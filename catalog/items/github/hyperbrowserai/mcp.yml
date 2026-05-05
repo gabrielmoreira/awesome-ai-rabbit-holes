@@ -1,0 +1,80 @@
+id: github__hyperbrowserai__mcp
+kind: github-repo
+name: mcp
+canonical_url: https://github.com/hyperbrowserai/mcp
+identity:
+  github_repo: hyperbrowserai/mcp
+provenance:
+  discoveries:
+    - id: discovery__github__hyperbrowserai__mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Hyperbrowser
+        extracted_url: https://github.com/hyperbrowserai/mcp
+        surrounding_text: "- **[Hyperbrowser](https://github.com/hyperbrowserai/mcp)** - [Hyperbrowser](https://www.hyperbrowser.ai/) is the next-generation platform empowering AI agents and enabling effortless, scalable browser automation."
+        confidence: high
+metadata:
+  github:
+    stars: 761
+    forks: 69
+    license: MIT
+    archived: false
+    created_at: "2025-02-25T19:06:01Z"
+    pushed_at: "2025-11-20T01:32:08Z"
+    description: A MCP server implementation for hyperbrowser
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:39.820Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:39.820Z"
+      bytes: 3617
+insights:
+  summary: A Model Context Protocol server that exposes Hyperbrowser's web scraping, structured data extraction, web crawling, and browser automation agents to MCP-compatible AI clients like Cursor, Windsurf, and Claude Desktop.
+  why_it_matters: It lets coding agents reach outside the repo to scrape pages, run browser agents, and extract structured data without developers building custom web automation glue code.
+  mental_damage: We have officially reached the point where your coding assistant needs its own headless browser and an MCP server just to Google something for you.
+  tags:
+    - mcp
+    - browser-automation
+    - web-scraping
+    - agent-tools
+  confidence: high
+curation:
+  status: included
+  reason: This is a dedicated MCP server implementation that integrates Hyperbrowser's scraping and browser automation capabilities into MCP-compatible clients, fitting cleanly into MCP infrastructure.
+  evidence:
+    - Repo description explicitly states 'A MCP server implementation for hyperbrowser'.
+    - README documents integration with Cursor, Windsurf, Claude Desktop, and Smithery as an MCP server.
+    - Listed under 'Official Servers' in the awesome-mcp-servers directory.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (761) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.697Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:39.820Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:25:10.611Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

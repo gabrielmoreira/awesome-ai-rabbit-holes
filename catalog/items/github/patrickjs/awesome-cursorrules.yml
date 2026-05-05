@@ -1,34 +1,34 @@
 id: github__patrickjs__awesome-cursorrules
 kind: github-repo
 name: awesome-cursorrules
-canonical_url: https://github.com/PatrickJS/awesome-cursorrules
+canonical_url: https://github.com/patrickjs/awesome-cursorrules
 identity:
-  github_repo: PatrickJS/awesome-cursorrules
+  github_repo: patrickjs/awesome-cursorrules
 provenance:
   discoveries:
     - id: discovery__github__patrickjs__awesome-cursorrules__awesome-list__patrickjs__awesome-cursorrules
-      discovered_at: "2026-05-01T13:51:25.374Z"
+      discovered_at: "2026-05-05T19:41:00.656Z"
       source:
         type: awesome-list
         name: PatrickJS/awesome-cursorrules
-        url: https://github.com/PatrickJS/awesome-cursorrules
+        url: https://github.com/patrickjs/awesome-cursorrules
         repository: PatrickJS/awesome-cursorrules
       extraction:
         mode: direct
         section_path:
           - inbox
         anchor_text: https://github.com/PatrickJS/awesome-cursorrules
-        extracted_url: https://github.com/PatrickJS/awesome-cursorrules
+        extracted_url: https://github.com/patrickjs/awesome-cursorrules
         surrounding_text: Cursor rules — AI IDE configuration.
         confidence: high
 metadata:
   github:
-    stars: 39339
-    forks: 3354
+    stars: 39383
+    forks: 3357
     license: CC0-1.0
     archived: false
     created_at: "2024-09-16T15:38:38Z"
-    pushed_at: "2025-10-24T16:37:26Z"
+    pushed_at: "2026-05-05T03:14:10Z"
     description: 📄  Configuration files that enhance Cursor AI editor experience with custom rules and behaviors
     homepage: https://github.com/PatrickJS/awesome-cursorrules
     topics:
@@ -37,31 +37,50 @@ metadata:
       - cursor
       - cursor-ai-editor
       - cursorrules
-    last_checked_at: "2026-05-01T13:51:31.242Z"
+    last_checked_at: "2026-05-05T21:04:13.093Z"
     readme:
-      fetched_at: "2026-05-01T13:51:31.242Z"
-      bytes: 36774
+      fetched_at: "2026-05-05T21:04:13.093Z"
+      bytes: 39570
 insights:
-  summary: An awesome list of .cursorrules configuration files that customize Cursor AI editor behavior for different stacks and workflows.
-  why_it_matters: It gives developers ready-made, project-specific instruction sets to make Cursor’s code generation more consistent with team conventions and architecture, reducing repetitive “please follow our style” prompting.
-  mental_damage: You’ll spend an afternoon debating whether your repo needs one canonical rules file or a small constitution of rules files, and both sides will claim it’s “for consistency.”
+  summary: A curated directory of reusable .cursorrules configuration files to customize AI behavior across various frontend, backend, and mobile development stacks in the Cursor editor.
+  why_it_matters: It solves the 'blank canvas' problem for Cursor users by providing community-vetted rule sets that enforce project-specific coding standards and context awareness out of the box.
+  mental_damage: We have now reached the point where we are compiling awesome lists of configuration files for the configuration files that tell the AI how to pretend it's senior engineers.
   tags:
-    - awesome-list
     - cursor
-    - context-engineering
-    - prompt-rules
-    - dev-workflow
+    - rules
+    - config
+    - awesome-list
+    - context
   confidence: high
 curation:
   status: included
-  reason: "Include: it’s a high-traction, developer-facing navigation hub for Cursor rule/config patterns, which fits the catalog as a practical map of AI dev workflow tooling."
+  reason: This is a meta-list (awesome list) containing a directory of rules/skills for Cursor, making it a navigation aid for developers rather than a standalone tool or skill pack itself.
   evidence:
-    - "Repo description: \"Configuration files that enhance Cursor AI editor experience with custom rules and behaviors\""
-    - "README: explains that .cursorrules define project-specific instructions for Cursor AI to follow when generating code"
-    - "Direct awesome list source: yes, with very high stars (39,339) and not archived"
+    - Repo description identifies it explicitly as 'Configuration files' and the README structure is a categorized directory of links.
+    - Direct awesome list source is confirmed as 'yes' in the inputs.
+    - The project acts as an index for .cursorrules files across different frameworks rather than being a single tool or extension.
 placement:
   primary_category: awesome-awesomes
   section: null
 lifecycle:
   status: promotion_candidate
-  reason: Stars (39339) exceeded threshold (150)
+  reason: Stars (39383) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.657Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:13.093Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:43:58.317Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

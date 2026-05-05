@@ -1,0 +1,82 @@
+id: github__98lukehall__renoun-mcp
+kind: github-repo
+name: renoun-mcp
+canonical_url: https://github.com/98lukehall/renoun-mcp
+identity:
+  github_repo: 98lukehall/renoun-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__98lukehall__renoun-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧮 <a name="data-science-tools"></a>Data Science Tools
+        anchor_text: 98lukehall/renoun-mcp
+        extracted_url: https://github.com/98lukehall/renoun-mcp
+        surrounding_text: "- [98lukehall/renoun-mcp](https://github.com/98lukehall/renoun-mcp) [![renoun-mcp MCP server](https://glama.ai/mcp/servers/@98lukehall/renoun-mcp/badges/score.svg)](https://glama.ai/mcp/servers/@98lukehall/renoun-mcp) 🐍 ☁️ - Structural observability for AI conversations. Detects loops, stuck states, breakthroughs, and convergence across 17 channels without analyzing content."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: NOASSERTION
+    archived: false
+    created_at: "2026-03-03T16:51:41Z"
+    pushed_at: "2026-03-22T17:12:34Z"
+    description: Structural observability for AI conversations. Detects loops, stuck states, breakthroughs, and convergence patterns across 17 channels without analyzing content. MCP server + REST API.
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:00:45.096Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:45.096Z"
+      bytes: 11918
+insights:
+  summary: An MCP server and REST API that classifies crypto market structural regimes — bounded, active, or unstable — and estimates regime stability half-life for pre-trade risk gating in trading bots and autonomous agents.
+  why_it_matters: It gives algorithmic trading systems and AI agents a lightweight, machine-readable risk signal to gate trades without analyzing price content directly.
+  mental_damage: Yet another niche SaaS emerges so your crypto bot can technically be called an 'autonomous agent' while still losing money with 100% bounded accuracy.
+  tags:
+    - mcp
+    - crypto
+    - trading
+    - risk
+    - api
+  confidence: high
+curation:
+  status: included
+  reason: The project’s primary artifact is an MCP server paired with a REST API for crypto regime telemetry, which fits cleanly as MCP infrastructure.
+  evidence:
+    - Repo description explicitly states 'MCP server + REST API' for structural observability.
+    - README documents MCP-compatible endpoints with machine-readable headers and webhook registrations.
+    - Listed in awesome-mcp-servers under Data Science Tools, reinforcing its MCP-server identity.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.675Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:45.096Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:05:09.297Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

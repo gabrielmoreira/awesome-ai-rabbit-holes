@@ -1,0 +1,93 @@
+id: github__kleveross__ormb
+kind: github-repo
+name: ormb
+canonical_url: https://github.com/kleveross/ormb
+identity:
+  github_repo: kleveross/ormb
+provenance:
+  discoveries:
+    - id: discovery__github__kleveross__ormb__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Large Scale Deployment
+          - Model Management
+        anchor_text: ormb
+        extracted_url: https://github.com/kleveross/ormb
+        surrounding_text: "| [ormb](https://github.com/kleveross/ormb)           | Docker for Your ML/DL Models Based on OCI Artifacts                                                                                                                                                                                                                                                          | ![GitHub Badge](https://img.shields.io/github/stars/kleveross/ormb.svg?style=flat-square)          |"
+        confidence: high
+metadata:
+  github:
+    stars: 474
+    forks: 62
+    license: Apache-2.0
+    archived: false
+    created_at: "2020-05-21T02:39:10Z"
+    pushed_at: "2024-01-26T02:53:43Z"
+    description: Docker for Your ML/DL Models Based on OCI Artifacts
+    homepage: ""
+    topics:
+      - docker
+      - docker-registry
+      - harbor
+      - image-registry
+      - machine-learning
+      - model-management
+      - model-versioning
+      - oci
+      - oci-artifacts
+      - oci-registry
+      - opencontainers
+    last_checked_at: "2026-05-05T21:03:07.064Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:07.064Z"
+      bytes: 4801
+insights:
+  summary: ORMB is a CLI tool that packages, versions, and distributes machine learning and deep learning models using OCI-compliant image registries like Docker Hub or Harbor.
+  why_it_matters: It allows ML engineers to apply familiar Docker-like workflows (save, push, pull, export) to model artifacts, bridging the gap between training and deployment infrastructure.
+  mental_damage: We have successfully Dockerized the ephemeral nature of machine learning, ensuring your model versioning is now just as over-engineered as your microservices.
+  tags:
+    - model-management
+    - oci
+    - docker
+    - mlops
+    - cli
+  confidence: high
+curation:
+  status: excluded
+  reason: The project focuses on ML/DL model registry and deployment infrastructure (MLOps) rather than AI developer tooling, coding agents, or prompt-driven workflows.
+  evidence:
+    - Repo description explicitly states 'Docker for Your ML/DL Models', targeting model management rather than code generation.
+    - README describes a workflow for pushing/pulling trained models (SavedModel, variables) to Harbor/Docker registries.
+    - Listed in Awesome-LLMOps under 'Large Scale Deployment > Model Management', confirming its MLOps infrastructure role.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (474) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.701Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:07.064Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:31:03.413Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

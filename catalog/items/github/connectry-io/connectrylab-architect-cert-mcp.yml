@@ -1,0 +1,95 @@
+id: github__connectry-io__connectrylab-architect-cert-mcp
+kind: github-repo
+name: connectrylab-architect-cert-mcp
+canonical_url: https://github.com/connectry-io/connectrylab-architect-cert-mcp
+identity:
+  github_repo: connectry-io/connectrylab-architect-cert-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__connectry-io__connectrylab-architect-cert-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🎓 <a name="education"></a>Education
+        anchor_text: Connectry-io/connectrylab-architect-cert-mcp
+        extracted_url: https://github.com/connectry-io/connectrylab-architect-cert-mcp
+        surrounding_text: "- [Connectry-io/connectrylab-architect-cert-mcp](https://github.com/Connectry-io/connectrylab-architect-cert-mcp) [![connectrylab-architect-cert-mcp MCP server](https://glama.ai/mcp/servers/Connectry-io/connectrylab-architect-cert-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Connectry-io/connectrylab-architect-cert-mcp) 📇 🏠 🍎 🪟 🐧 - Free certification prep for the Claude Certified Architect exam. 390 scenario-based questions, guided capstone build, 30 concept handouts, 6 reference projects, practice exams, interactive UI with clickable answer cards, glassmorphism progress dashboard, spaced repetition, and deterministic grading."
+        confidence: high
+metadata:
+  github:
+    stars: 18
+    forks: 6
+    license: MIT
+    archived: false
+    created_at: "2026-03-16T19:45:02Z"
+    pushed_at: "2026-03-19T12:33:30Z"
+    description: Free certification prep for the Claude Certified Architect exam. 390 questions. Spaced repetition. Zero sycophancy.
+    homepage: https://connectry.io/labs/architect-cert/
+    topics:
+      - anthropic
+      - architect
+      - certification
+      - claude
+      - claude-code
+      - exam-prep
+      - mcp
+      - mcp-server
+      - productivity
+      - productivity-tools
+      - spaced-repetition
+      - study
+      - study-tool
+    last_checked_at: "2026-05-05T21:01:40.572Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:40.572Z"
+      bytes: 37758
+insights:
+  summary: A free, open-source MCP server that turns Claude into a personal tutor for the Claude Certified Architect exam with 390 questions, guided capstone builds, and spaced repetition.
+  why_it_matters: It allows developers preparing for Anthropic's certification to study interactively through their existing Claude workflow with practice exams and progress tracking.
+  mental_damage: We have successfully built an AI-powered study tool for a certification that validates your ability to architect AI systems, completing the recursion with style.
+  tags:
+    - mcp
+    - certification
+    - claude
+    - exam-prep
+    - education
+  confidence: high
+curation:
+  status: included
+  reason: The primary artifact is an MCP server that integrates with Claude to provide certification prep, fitting cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states it is a certification prep tool delivered as an MCP server.
+    - README confirms it is an open-source MCP server that turns Claude into a certification tutor with 390 questions and interactive tools.
+    - Listed in awesome-mcp-servers under Server Implementations > Education, reinforcing its identity as an MCP tool.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.683Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:40.572Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:14:16.385Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

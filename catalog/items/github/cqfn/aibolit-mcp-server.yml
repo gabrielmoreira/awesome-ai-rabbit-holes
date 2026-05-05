@@ -1,0 +1,84 @@
+id: github__cqfn__aibolit-mcp-server
+kind: github-repo
+name: aibolit-mcp-server
+canonical_url: https://github.com/cqfn/aibolit-mcp-server
+identity:
+  github_repo: cqfn/aibolit-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__cqfn__aibolit-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: cqfn/aibolit-mcp-server
+        extracted_url: https://github.com/cqfn/aibolit-mcp-server
+        surrounding_text: "- [cqfn/aibolit-mcp-server](https://github.com/cqfn/aibolit-mcp-server) ☕ - Helping Your AI Agent Identify Hotspots for Refactoring; Help AI Understand How to 'Make Code Better'"
+        confidence: high
+metadata:
+  github:
+    stars: 26
+    forks: 5
+    license: MIT
+    archived: false
+    created_at: "2025-05-12T09:38:46Z"
+    pushed_at: "2026-04-07T15:54:54Z"
+    description: "MCP Server for Aibolit Java Static Analyzer: Helping Your AI Agent Identify Hotspots for Refactoring"
+    homepage: https://www.npmjs.com/package/aibolit-mcp-server
+    topics:
+      - ai
+      - mcp-server
+      - refactoring
+    last_checked_at: "2026-05-05T21:01:42.346Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:42.346Z"
+      bytes: 2323
+insights:
+  summary: An MCP server that wraps the Aibolit Java static analyzer to surface critical design issues directly to AI coding agents during refactoring tasks.
+  why_it_matters: It gives AI agents structured, rule-based hints about deep design problems, helping them move beyond cosmetic fixes when refactoring Java codebases.
+  mental_damage: We have now successfully reached the point where we need a dedicated server to explain to the AI that it is focusing on the wrong things.
+  tags:
+    - mcp
+    - java
+    - refactoring
+    - static-analysis
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server designed to integrate a specific tool (Aibolit) into agent workflows, fitting the MCP infrastructure category.
+  evidence:
+    - "Repo description states: 'MCP Server for Aibolit Java Static Analyzer'."
+    - README instructs adding it as an MCP server to Claude Code/Cursor/Windsurf.
+    - Listed in awesome-mcp-servers under 'Developer Tools'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.683Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:42.346Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:14:37.416Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,74 @@
+id: codegeex__cn
+kind: website
+name: codegeex.cn
+canonical_url: https://codegeex.cn
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__codegeex__cn__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Code Completion
+        anchor_text: CodeGeeX
+        extracted_url: https://codegeex.cn
+        surrounding_text: "- **[CodeGeeX](https://codegeex.cn/)** – Open-source multilingual code generation model."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: CodeGeeX is an AI coding assistant that provides code completion, generation, translation, and comment writing across more than 20 programming languages.
+  why_it_matters: It offers developers a multilingual autocomplete and code translation layer that can reduce boilerplate and context-switching overhead inside the IDE.
+  mental_damage: Yet another entry in the race to see whose model can help you write the most average code in the most languages simultaneously.
+  tags:
+    - code-completion
+    - multilingual
+    - ide-assistant
+  confidence: medium
+curation:
+  status: included
+  reason: CodeGeeX is a developer-facing coding assistant focused on direct code generation and completion within the developer workflow, fitting the coding-agents category.
+  evidence:
+    - Source-list context lists it in awesome-ai-coding-tools under 'Code Completion'.
+    - Scraped site context describes it as an AI coding assistant for code suggestion, generation, translation, and comment writing.
+placement:
+  primary_category: coding-agents
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.444Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T20:49:14.893Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+    next_retry_at: null

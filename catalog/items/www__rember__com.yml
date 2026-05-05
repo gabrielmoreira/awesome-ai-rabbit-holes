@@ -1,0 +1,76 @@
+id: www__rember__com
+kind: website
+name: www.rember.com
+canonical_url: https://www.rember.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__rember__com__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Rember
+        extracted_url: https://rember.com
+        surrounding_text: "- **[Rember](https://github.com/rember/rember-mcp)** - Create spaced repetition flashcards in [Rember](https://rember.com) to remember anything you learn in your chats"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Rember is an AI-powered flashcard generator and spaced repetition app that integrates with AI chat tools via MCP to capture learning content from various inputs.
+  why_it_matters: It offers developers an MCP-connected workflow to turn AI chats, PDFs, and videos into high-quality flashcards for retaining technical concepts.
+  mental_damage: We have successfully built an MCP server so your AI can instruct another AI to help you memorize what the first AI just explained to you.
+  tags:
+    - flashcards
+    - spaced-repetition
+    - mcp
+    - learning
+  confidence: high
+curation:
+  status: excluded
+  reason: Although it provides an MCP server, the core product is a consumer-grade learning and flashcard app for spaced repetition, not a developer-facing tool for building, coding, or infrastructure.
+  evidence:
+    - Primary description is 'AI canvas for flashcards you will remember', targeting general learners rather than developers.
+    - MCP integration is presented as a way to 'capture AI chats' and create study cards, not to enhance coding workflows.
+    - Product competes with Anki and focuses on memory retention techniques rather than software development tasks.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.734Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:53:10.337Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

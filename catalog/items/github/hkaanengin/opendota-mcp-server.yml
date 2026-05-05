@@ -1,0 +1,86 @@
+id: github__hkaanengin__opendota-mcp-server
+kind: github-repo
+name: opendota-mcp-server
+canonical_url: https://github.com/hkaanengin/opendota-mcp-server
+identity:
+  github_repo: hkaanengin/opendota-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__hkaanengin__opendota-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🎮 <a name="gaming"></a>Gaming
+        anchor_text: hkaanengin/opendota-mcp-server
+        extracted_url: https://github.com/hkaanengin/opendota-mcp-server
+        surrounding_text: "- [hkaanengin/opendota-mcp-server](https://github.com/hkaanengin/opendota-mcp-server) 🐍 🏠 ☁️ - MCP server providing AI assistants with access to Dota 2 statistics via OpenDota API. 20+ tools for player stats, hero data, and match    analysis with natural language support."
+        confidence: high
+metadata:
+  github:
+    stars: 2
+    forks: 1
+    license: null
+    archived: false
+    created_at: "2025-10-08T18:10:49Z"
+    pushed_at: "2026-01-28T21:58:50Z"
+    description: MCP server providing AI assistants with access to Dota 2 statistics via OpenDota API. 20+ tools for player stats, hero data, and match    analysis with natural language support.
+    homepage: ""
+    topics:
+      - dota2
+      - fastmcp
+      - mcp
+      - mcp-server
+      - opendota
+    last_checked_at: "2026-05-05T21:02:34.698Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:34.698Z"
+      bytes: 7570
+insights:
+  summary: An MCP server that exposes 20+ tools for querying Dota 2 player statistics, match data, and hero information from the OpenDota API to AI assistants like Claude.
+  why_it_matters: It demonstrates how to build a domain-specific MCP server with dual transport modes, caching, and fuzzy matching for developers looking to wrap niche APIs for LLM consumption.
+  mental_damage: "We have finally solved the hardest problem in computer science: letting a frontier model tell you that your last 50 matches on Nature's Prophet were a mistake."
+  tags:
+    - mcp
+    - dota2
+    - api-wrapper
+    - game-data
+  confidence: medium
+curation:
+  status: included
+  reason: The project is a Model Context Protocol server with tooling for Dota 2 data, which fits cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states it is an 'MCP server providing AI assistants with access to Dota 2 statistics'.
+    - README details 20+ tools across 5 categories for querying the OpenDota API via MCP.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Gaming'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.696Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:34.698Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:24:06.761Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

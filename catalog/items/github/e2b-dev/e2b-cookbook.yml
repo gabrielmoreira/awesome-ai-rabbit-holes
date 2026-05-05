@@ -1,0 +1,115 @@
+id: github__e2b-dev__e2b-cookbook
+kind: github-repo
+name: e2b-cookbook
+canonical_url: https://github.com/e2b-dev/e2b-cookbook
+identity:
+  github_repo: e2b-dev/e2b-cookbook
+provenance:
+  discoveries:
+    - id: discovery__github__e2b-dev__e2b-cookbook__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: scraped
+        section_path:
+          - README
+        anchor_text: web version of this list
+        extracted_url: https://e2b.dev/ai-agents
+        surrounding_text: To filter the products by categories and use-cases, see the 🌟 [web version of this list](https://e2b.dev/ai-agents). 🌟
+        confidence: high
+    - id: discovery__github__e2b-dev__e2b-cookbook__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: scraped
+        section_path:
+          - Official Servers
+        anchor_text: E2B
+        extracted_url: https://e2b.dev
+        surrounding_text: "- **[E2B](https://github.com/e2b-dev/mcp-server)** - Run code in secure sandboxes hosted by [E2B](https://e2b.dev)"
+        confidence: high
+metadata:
+  github:
+    stars: 1337
+    forks: 239
+    license: null
+    archived: false
+    created_at: "2023-09-27T11:02:43Z"
+    pushed_at: "2026-04-22T09:13:04Z"
+    description: Examples of using E2B
+    homepage: https://e2b.dev/docs
+    topics:
+      - agent
+      - ai
+      - ai-agents
+      - code-interpreter
+      - cookbook
+      - devtools
+      - e2b
+      - example
+      - gpt
+      - gpt4
+      - guides
+      - javascript
+      - llm
+      - openai
+      - python
+      - python3
+      - sdk
+      - tutorial
+      - typescript
+    last_checked_at: "2026-05-05T21:01:58.724Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:58.724Z"
+      bytes: 8128
+insights:
+  summary: A collection of example code, guides, and integrations for building with the E2B SDK across multiple LLM providers and AI frameworks.
+  why_it_matters: It gives developers runnable patterns for wiring secure E2B sandboxes into agentic workflows with OpenAI, Anthropic, LangChain, LangGraph, and other stacks.
+  mental_damage: Yet another cookbook proving that the modern developer experience is mostly copying someone else’s example code and praying the sandbox doesn’t time out.
+  tags:
+    - e2b
+    - cookbook
+    - sdk
+    - agents
+    - examples
+  confidence: high
+curation:
+  status: included
+  reason: This is a code-first repo of SDK examples and integrations rather than a standalone assistant, builder, or control plane, which fits AI Frameworks and SDKs.
+  evidence:
+    - Repo description states 'Examples of using E2B', and README says 'Example code and guides for building with E2B SDK'.
+    - Includes integrations with LangChain, LangGraph, Autogen, Vercel AI SDK, and multiple LLM providers via Python and TypeScript examples.
+    - Listed in awesome-ai-agents and awesome-mcp-servers, showing ecosystem relevance but not overriding the framework-level nature of the repository.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1337) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.665Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:58.724Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:17:26.653Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

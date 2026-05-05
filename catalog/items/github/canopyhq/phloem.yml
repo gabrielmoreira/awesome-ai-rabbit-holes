@@ -1,0 +1,88 @@
+id: github__canopyhq__phloem
+kind: github-repo
+name: phloem
+canonical_url: https://github.com/canopyhq/phloem
+identity:
+  github_repo: canopyhq/phloem
+provenance:
+  discoveries:
+    - id: discovery__github__canopyhq__phloem__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: CanopyHQ/phloem
+        extracted_url: https://github.com/canopyhq/phloem
+        surrounding_text: "- [CanopyHQ/phloem](https://github.com/CanopyHQ/phloem) 🏎️ 🏠 🍎 🪟 🐧 - Local-first AI memory with causal graphs and citation verification. Semantic search, confidence decay when code drifts, and zero network connections. Works across Claude Code, Cursor, VS Code, and 7 more MCP clients."
+        confidence: high
+    - id: discovery__github__canopyhq__phloem__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - 🧠 Knowledge & Memory
+        anchor_text: CanopyHQ/phloem
+        extracted_url: https://github.com/canopyhq/phloem
+        surrounding_text: "-   **[CanopyHQ/phloem](https://github.com/CanopyHQ/phloem)** [![GitHub stars](https://img.shields.io/github/stars/CanopyHQ/phloem?style=social)](https://github.com/CanopyHQ/phloem): Local-first AI memory with causal graphs, citation verification, and zero network connections."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.664Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: failed
+    updated_at: "2026-05-05T21:01:29.889Z"
+    cause:
+      type: github_repo_missing
+      message: "GitHub repository not found: canopyhq/phloem"
+    next_retry_at: null
+  categorize:
+    status: skipped
+    updated_at: "2026-05-05T21:04:23.169Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

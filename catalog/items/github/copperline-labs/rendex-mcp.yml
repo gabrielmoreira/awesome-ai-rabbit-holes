@@ -1,0 +1,93 @@
+id: github__copperline-labs__rendex-mcp
+kind: github-repo
+name: rendex-mcp
+canonical_url: https://github.com/copperline-labs/rendex-mcp
+identity:
+  github_repo: copperline-labs/rendex-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__copperline-labs__rendex-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📂 <a name="browser-automation"></a>Browser Automation
+        anchor_text: copperline-labs/rendex-mcp
+        extracted_url: https://github.com/copperline-labs/rendex-mcp
+        surrounding_text: "- [copperline-labs/rendex-mcp](https://github.com/copperline-labs/rendex-mcp) [![rendex-mcp MCP server](https://glama.ai/mcp/servers/copperline-labs/rendex-mcp/badges/score.svg)](https://glama.ai/mcp/servers/copperline-labs/rendex-mcp) 📇 ☁️ - Screenshot, PDF, and HTML rendering API for AI agents. Capture any URL or raw HTML as PNG/JPEG/WebP/PDF with batch processing, geo-targeting, async webhooks, and MCP-native integration. Free tier included."
+        confidence: high
+metadata:
+  github:
+    stars: 2
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-03-27T23:54:15Z"
+    pushed_at: "2026-04-24T23:12:14Z"
+    description: MCP server for Rendex — capture screenshots and render PDFs of any webpage via AI agents. Claude, Cursor, Windsurf compatible.
+    homepage: https://rendex.dev
+    topics:
+      - ai-agent
+      - api
+      - claude
+      - cloudflare-workers
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - rendex
+      - screenshot
+      - screenshot-api
+      - web-capture
+    last_checked_at: "2026-05-05T21:01:41.372Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:41.372Z"
+      bytes: 4989
+insights:
+  summary: An MCP server that lets AI agents capture screenshots and generate PDFs of webpages via the Rendex API, compatible with Claude, Cursor, and Windsurf.
+  why_it_matters: Developers can equip their AI coding assistants with visual verification and automated documentation capture without wiring up browser automation themselves.
+  mental_damage: We have successfully reached the point where our AI agents need their own screenshot API so they can show us what they broke without actually loading a browser.
+  tags:
+    - mcp
+    - screenshot
+    - browser-automation
+    - rendex
+    - claude
+  confidence: high
+curation:
+  status: included
+  reason: The project is a standalone MCP server implementation that adds webpage screenshot and PDF rendering capabilities to MCP-compatible AI clients.
+  evidence:
+    - Repo description explicitly states 'MCP server for Rendex' with Claude, Cursor, Windsurf compatibility.
+    - README details MCP tool configuration (rendex_screenshot) and API integration, not a broader product or framework.
+    - Listed under 'Server Implementations > Browser Automation' in the awesome-mcp-servers directory.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.683Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:41.372Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:14:25.506Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,92 @@
+id: github__johannesjo__parallel-code
+kind: github-repo
+name: parallel-code
+canonical_url: https://github.com/johannesjo/parallel-code
+identity:
+  github_repo: johannesjo/parallel-code
+provenance:
+  discoveries:
+    - id: discovery__github__johannesjo__parallel-code__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Session managers & parallel runners
+        anchor_text: Parallel Code
+        extracted_url: https://github.com/johannesjo/parallel-code
+        surrounding_text: "- **[Parallel Code](https://github.com/johannesjo/parallel-code)** `⭐ 604` — Desktop app for running multiple AI coding agents (Claude Code, Codex CLI, Gemini CLI) simultaneously in isolated git worktrees."
+        confidence: high
+metadata:
+  github:
+    stars: 609
+    forks: 78
+    license: MIT
+    archived: false
+    created_at: "2026-02-18T09:53:27Z"
+    pushed_at: "2026-05-05T18:06:46Z"
+    description: Run Claude Code, Codex, and Gemini side by side — each in      its own git worktree
+    homepage: https://parallelcode.app
+    topics:
+      - ai-agents
+      - ai-coding
+      - ai-tools
+      - claude-code
+      - codex-cli
+      - coding-agent
+      - developer-tools
+      - gemini-cli
+      - git-worktree
+      - terminal
+    last_checked_at: "2026-05-05T21:02:57.507Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:57.507Z"
+      bytes: 8481
+insights:
+  summary: A desktop orchestration tool for running Claude Code, Codex, Gemini, and Copilot CLI in parallel, each isolated in its own git worktree for concurrent task execution and diff review.
+  why_it_matters: It lets developers dispatch multiple AI agents on separate features simultaneously while keeping changes isolated, auditable, and mergeable from a single keyboard-driven interface.
+  mental_damage: You now have ten agents, ten branches, and a renewed sense that your job is less 'writing code' and more 'managing a small, very confident workforce of context-window tenants.'
+  tags:
+    - agent-orchestration
+    - git-worktree
+    - cli-tools
+    - parallel-agents
+    - electron
+  confidence: high
+curation:
+  status: included
+  reason: This is a user-facing workbench for coordinating multiple AI coding agents and tasks in parallel, which aligns with agent-orchestration, not a primary coding assistant itself.
+  evidence:
+    - Repo description states it runs Claude Code, Codex, and Gemini side by side in their own git worktrees.
+    - README positions it as dispatching agents in parallel with isolated branches, diff review, and merge workflows.
+    - Listed in awesome-cli-coding-agents under 'Harnesses & orchestration > Session managers & parallel runners'.
+placement:
+  primary_category: agent-orchestration
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (609) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.700Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:57.507Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:28:49.965Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

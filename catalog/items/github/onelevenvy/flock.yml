@@ -1,0 +1,102 @@
+id: github__onelevenvy__flock
+kind: github-repo
+name: flock
+canonical_url: https://github.com/onelevenvy/flock
+identity:
+  github_repo: onelevenvy/flock
+provenance:
+  discoveries:
+    - id: discovery__github__onelevenvy__flock__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Tools
+          - Low-code
+        anchor_text: Flock
+        extracted_url: https://github.com/onelevenvy/flock
+        surrounding_text: "- [Flock](https://github.com/Onelevenvy/flock): Flock is a workflow-based low-code platform for rapidly building chatbots, RAG, and coordinating multi-agent teams![GitHub Repo stars](https://img.shields.io/github/stars/Onelevenvy/flock?style=social)"
+        confidence: high
+metadata:
+  github:
+    stars: 1089
+    forks: 135
+    license: Apache-2.0
+    archived: false
+    created_at: "2024-09-04T01:21:01Z"
+    pushed_at: "2025-08-20T10:37:02Z"
+    description: Flock is a workflow-based low-code platform for rapidly building chatbots, RAG, and coordinating multi-agent teams, powered by LangGraph, Langchain, FastAPI, and NextJS.（Flock 是一个基于workflow工作流的低代码平台，用于快速构建聊天机器人、RAG、Agent和Muti-Agent应用，采用 LangGraph、Langchain、FastAPI 和 NextJS 构建。）
+    homepage: Email:qingxin1114@163.com
+    topics:
+      - agent
+      - ai
+      - chatbot
+      - crewai
+      - deekseek
+      - dify
+      - fastapi
+      - langchain
+      - langgraph
+      - langgraph-gui
+      - llm
+      - mcp
+      - muti-agent
+      - nextjs
+      - ollama
+      - openai
+      - openapi
+      - rag
+      - react-flow
+      - workflow
+    last_checked_at: "2026-05-05T21:04:01.722Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:01.722Z"
+      bytes: 12805
+insights:
+  summary: Flock is a low-code, workflow-based platform for building chatbots, RAG applications, and multi-agent teams using LangGraph and LangChain, featuring a visual editor with support for MCP tools and custom code execution.
+  why_it_matters: It provides developers with a visual interface to orchestrate complex LangChain/LangGraph logic, including human-in-the-loop nodes and MCP integrations, without manually wiring every agent interaction in code.
+  mental_damage: Just when you thought the LangChain stack couldn't get another layer of abstraction, we now have a low-code GUI to manage the cognitive overhead of the agents managing the cognitive overhead.
+  tags:
+    - langchain
+    - multi-agent
+    - low-code
+    - mcp
+    - rag
+  confidence: high
+curation:
+  status: included
+  reason: Flock is a user-facing workbench and control plane for visually coordinating multiple agents and workflows, fitting the agent orchestration category rather than a code-first SDK or a coding assistant.
+  evidence:
+    - Repo description identifies it as a 'workflow-based low-code platform' for coordinating multi-agent teams.
+    - README details visual nodes including Agent, MCP, Human-in-the-loop, and Code Execution within a GUI workflow.
+    - Listed in awesome-langchain under 'Tools > Low-code' as a visual orchestration layer.
+placement:
+  primary_category: agent-orchestration
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1089) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.711Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:01.722Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:42:05.663Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

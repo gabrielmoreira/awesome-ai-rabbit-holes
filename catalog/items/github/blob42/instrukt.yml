@@ -1,0 +1,108 @@
+id: github__blob42__instrukt
+kind: github-repo
+name: instrukt
+canonical_url: https://github.com/blob42/instrukt
+identity:
+  github_repo: blob42/instrukt
+provenance:
+  discoveries:
+    - id: discovery__github__blob42__instrukt__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Instrukt
+        anchor_text: Instrukt
+        extracted_url: https://github.com/blob42/instrukt
+        surrounding_text: "## [Instrukt](https://github.com/blob42/Instrukt)"
+        confidence: high
+    - id: discovery__github__blob42__instrukt__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Open Source Projects
+          - Other / Chatbots
+        anchor_text: Instrukt
+        extracted_url: https://github.com/blob42/instrukt
+        surrounding_text: "- [Instrukt](https://github.com/blob42/Instrukt): A fully-fledged AI environment in the terminal. Build, test and instruct agents. ![GitHub Repo stars](https://img.shields.io/github/stars/blob42/Instrukt?style=social)"
+        confidence: high
+metadata:
+  github:
+    stars: 326
+    forks: 27
+    license: AGPL-3.0
+    archived: false
+    created_at: "2023-04-05T01:29:31Z"
+    pushed_at: "2025-05-14T03:06:35Z"
+    description: Integrated AI environment in the terminal. Build, test and instruct agents.
+    homepage: https://blob42.github.io/Instrukt/
+    topics:
+      - agent-executor
+      - agents
+      - ai
+      - containers
+      - developer-tools
+      - gpt
+      - langchain
+      - llm
+      - rag
+      - terminal
+      - tui
+    last_checked_at: "2026-05-05T21:01:22.719Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:22.719Z"
+      bytes: 7780
+insights:
+  summary: A terminal-based TUI environment for creating, instructing, and debugging modular AI agents using LangChain, with support for sandboxing agents in Docker containers and indexing codebases for RAG.
+  why_it_matters: It gives developers a keyboard-driven, local-first control plane for prototyping and testing custom LLM agents without leaving the terminal.
+  mental_damage: Finally, a way to orchestrate a chaotic swarm of agents inside a terminal that is itself trapped inside a Docker container you forgot to prune.
+  tags:
+    - terminal
+    - agents
+    - langchain
+    - tui
+    - local-ai
+  confidence: high
+curation:
+  status: included
+  reason: This is a developer-facing terminal UI for building and instructing coding agents and custom LLM workflows, fitting the coding-agents category under the terminal section.
+  evidence:
+    - Repo description states it is an 'Integrated AI environment in the terminal. Build, test and instruct agents.'
+    - README lists a 'Coding AI' agent that indexes codebases for RAG and is built with LangChain/Textual.
+    - Active development indicated by pushed_at date of 2025-05-14T03:06:35Z and 326 stars.
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (326) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.664Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:22.719Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:11:08.337Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

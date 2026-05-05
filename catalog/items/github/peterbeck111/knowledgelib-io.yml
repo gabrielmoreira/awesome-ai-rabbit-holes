@@ -1,0 +1,81 @@
+id: github__peterbeck111__knowledgelib-io
+kind: github-repo
+name: knowledgelib-io
+canonical_url: https://github.com/peterbeck111/knowledgelib-io
+identity:
+  github_repo: peterbeck111/knowledgelib-io
+provenance:
+  discoveries:
+    - id: discovery__github__peterbeck111__knowledgelib-io__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: peterbeck111/knowledgelib-io
+        extracted_url: https://github.com/peterbeck111/knowledgelib-io
+        surrounding_text: "- [peterbeck111/knowledgelib-io](https://github.com/peterbeck111/knowledgelib-io) [![peterbeck111/knowledgelib-io MCP server](https://glama.ai/mcp/servers/peterbeck111/knowledgelib-io/badges/score.svg)](https://glama.ai/mcp/servers/peterbeck111/knowledgelib-io) 📇 ☁️ - Search 1,500+ pre-verified, cited knowledge units across 16 domains. 6 tools: query, batch query, get unit, list domains, suggest topics, report issues. Confidence scores, source provenance, and freshness tracking. Free, no API key required."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-02-10T20:07:53Z"
+    pushed_at: "2026-04-30T09:52:35Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:04:15.444Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:15.444Z"
+      bytes: 4687
+insights:
+  summary: A structured knowledge library and MCP server providing pre-verified, cited knowledge units designed to reduce hallucinations and token usage for AI agents.
+  why_it_matters: Developers can integrate a ready-made knowledge graph of 1,500+ verified facts into agents via MCP, REST, or LangChain, replacing unreliable web searches with sourced answers.
+  mental_damage: We have finally solved the problem of AI making things up by introducing a manually curated library of facts that will inevitably be outdated exactly five minutes after you deploy your agent.
+  tags:
+    - mcp
+    - knowledge-base
+    - rag
+    - agent-context
+  confidence: high
+curation:
+  status: included
+  reason: The project is primarily distributed as an MCP server (npx knowledgelib-mcp) and HTTP MCP endpoint, providing direct MCP tooling for agent context.
+  evidence:
+    - README explicitly provides MCP Server setup for Claude, Cursor, and Windsurf via npx and HTTP POST.
+    - Listed under 'Server Implementations > Knowledge & Memory' in the awesome-mcp-servers directory.
+    - Includes MCP-specific features like readOnlyHint and idempotentHint per MCP spec 2025-03-26.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.713Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:15.444Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:44:22.241Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,88 @@
+id: github__getsentry__xcodebuildmcp
+kind: github-repo
+name: xcodebuildmcp
+canonical_url: https://github.com/getsentry/xcodebuildmcp
+identity:
+  github_repo: getsentry/xcodebuildmcp
+provenance:
+  discoveries:
+    - id: discovery__github__cameroncooke__xcodebuildmcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: XcodeBuildMCP
+        extracted_url: https://github.com/cameroncooke/xcodebuildmcp
+        surrounding_text: "- **[XcodeBuildMCP](https://github.com/cameroncooke/xcodebuildmcp)** -  Popular MCP server that enables AI agents to scaffold, build, run and test iOS, macOS, visionOS and watchOS apps or simulators and wired and wireless devices. It has powerful UI-automation capabilities like controlling the simulator, capturing run-time logs, as well as taking screenshots and viewing the accessibility hierarchy."
+        confidence: high
+metadata:
+  github:
+    stars: 5420
+    forks: 266
+    license: MIT
+    archived: false
+    created_at: "2025-03-09T17:31:18Z"
+    pushed_at: "2026-05-05T20:51:26Z"
+    description: A Model Context Protocol (MCP) server and CLI that provides tools for agent use when working on iOS and macOS projects.
+    homepage: https://www.xcodebuildmcp.com
+    topics:
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - model-context-protocol-servers
+      - tag-production
+      - xcode
+      - xcodebuild
+    last_checked_at: "2026-05-05T21:02:20.271Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:20.271Z"
+      bytes: 5413
+insights:
+  summary: A Model Context Protocol server and CLI that exposes Xcode build, simulator, and device tools for AI agents working on iOS and macOS projects.
+  why_it_matters: It lets coding agents directly build, test, and debug Apple platform projects by giving them structured access to xcodebuild without leaving the agent workflow.
+  mental_damage: We have successfully taught AI agents to suffer through Xcode build errors so you don't have to, though they will still ask you to fix the provisioning profile.
+  tags:
+    - mcp
+    - ios
+    - macos
+    - xcode
+    - cli
+  confidence: high
+curation:
+  status: included
+  reason: This is specifically an MCP server implementation that exposes Xcode tooling to MCP-compatible clients, making it MCP infrastructure rather than a coding agent itself.
+  evidence:
+    - Repo description explicitly states 'A Model Context Protocol (MCP) server and CLI'
+    - README confirms it provides tools for agent use via MCP with setup docs for MCP clients like Cursor and Claude Code
+    - Topics include mcp, mcp-server, and model-context-protocol-servers, reinforcing the MCP infrastructure identity
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (5420) exceeded threshold (150)
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:21:14.375Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.682Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:20.271Z"
+    cause: null
+    next_retry_at: null

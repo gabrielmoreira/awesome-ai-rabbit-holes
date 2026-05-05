@@ -1,0 +1,77 @@
+id: www__testmuai__com
+kind: website
+name: www.testmuai.com
+canonical_url: https://www.testmuai.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__testmuai__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - DevOps and Infrastructure
+        anchor_text: LambdaTest
+        extracted_url: https://www.lambdatest.com
+        surrounding_text: "- **[LambdaTest](https://www.lambdatest.com/)** – AI-powered cross-browser testing platform."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: TestMu AI (formerly LambdaTest) is an AI-native cloud testing platform that provides autonomous testing agents, including KaneAI for natural language test authoring and an MCP server for IDE integration.
+  why_it_matters: It allows developers to automate end-to-end browser flows and manage test suites using natural language prompts and autonomous agents, shifting testing left into the development workflow.
+  mental_damage: Now your test suite is an autonomous agent with its own root cause analysis, leaving you to wonder if the bug is in the code or if the AI has simply developed a pessimistic personality.
+  tags:
+    - testing
+    - ai-agents
+    - mcp
+    - qa
+    - cloud
+  confidence: high
+curation:
+  status: included
+  reason: The platform provides coding agents (KaneAI) that help developers author, orchestrate, and debug tests directly via natural language and an MCP server integration for the IDE.
+  evidence:
+    - Includes 'KaneAI - GenAI-Native Testing Agent' described as the world's first end-to-end software testing agent.
+    - Offers 'TestMu AI MCP Server' to connect AI to test data and tools directly in the IDE.
+    - Listed in awesome-ai-coding-tools under 'DevOps and Infrastructure' for AI-powered testing.
+placement:
+  primary_category: coding-agents
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.734Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:53:45.008Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

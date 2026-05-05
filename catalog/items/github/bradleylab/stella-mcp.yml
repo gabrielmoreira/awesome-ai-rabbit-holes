@@ -1,0 +1,82 @@
+id: github__bradleylab__stella-mcp
+kind: github-repo
+name: stella-mcp
+canonical_url: https://github.com/bradleylab/stella-mcp
+identity:
+  github_repo: bradleylab/stella-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__bradleylab__stella-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧮 <a name="data-science-tools"></a>Data Science Tools
+        anchor_text: bradleylab/stella-mcp
+        extracted_url: https://github.com/bradleylab/stella-mcp
+        surrounding_text: "- [bradleylab/stella-mcp](https://github.com/bradleylab/stella-mcp) 🐍 🏠 - Create, read, validate, and save Stella system dynamics models (.stmx files in XMILE format) for scientific simulation and modeling."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2026-01-13T01:57:28Z"
+    pushed_at: "2026-02-09T22:54:41Z"
+    description: MCP server for Stella
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:01:24.611Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:24.611Z"
+      bytes: 5369
+insights:
+  summary: An MCP server that lets AI assistants programmatically create, read, validate, and save Stella system dynamics models in the XMILE format.
+  why_it_matters: It allows developers working in ecology, economics, or engineering to prototype and modify complex system dynamics models through natural language instead of manual diagramming.
+  mental_damage: We have successfully built an MCP server so your AI can generate system dynamics diagrams, because apparently the next frontier of automation is modeling carbon cycles while you debug a null pointer.
+  tags:
+    - mcp
+    - system-dynamics
+    - modeling
+    - xmile
+    - stella
+  confidence: high
+curation:
+  status: included
+  reason: The project is a dedicated MCP server implementation for Stella, cleanly fitting the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description: 'MCP server for Stella'"
+    - "README: 'A Model Context Protocol (MCP) server for creating and manipulating Stella system dynamics models.'"
+    - Listed in awesome-mcp-servers under 'Data Science Tools' section
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.681Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:24.611Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:11:29.958Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

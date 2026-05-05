@@ -1,0 +1,75 @@
+id: julius__ai
+kind: website
+name: julius.ai
+canonical_url: https://julius.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__julius__ai__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Julius
+        anchor_text: Julius
+        extracted_url: https://julius.ai
+        surrounding_text: "## [Julius](https://julius.ai/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Julius is a chat-based AI data analyst that connects to user data sources to generate code, perform analysis, and create visualizations.
+  why_it_matters: It allows developers and analysts to delegate data cleaning and visualization tasks to an agent that writes and executes the underlying code for them.
+  mental_damage: Yet another 'chat with your data' wrapper that promises to replace the analyst, but mostly succeeds at replacing your afternoon with prompt-debugging sessions.
+  tags:
+    - data-analysis
+    - chatbot
+    - visualization
+    - agent
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a general-purpose data analysis tool for end-users, not a developer-facing tool for writing code, building apps, or managing infrastructure.
+  evidence:
+    - The product is listed in awesome-ai-agents under a data/analysis context rather than a coding/dev context.
+    - The core promise is analyzing data and creating graphs via chat, rather than editing repos, IDE workflows, or building software products.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.728Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:45:43.759Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

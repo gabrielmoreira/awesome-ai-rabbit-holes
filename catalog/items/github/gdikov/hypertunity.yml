@@ -1,0 +1,85 @@
+id: github__gdikov__hypertunity
+kind: github-repo
+name: hypertunity
+canonical_url: https://github.com/gdikov/hypertunity
+identity:
+  github_repo: gdikov/hypertunity
+provenance:
+  discoveries:
+    - id: discovery__github__gdikov__hypertunity__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - AutoML
+        anchor_text: hyperunity
+        extracted_url: https://github.com/gdikov/hypertunity
+        surrounding_text: "| [hyperunity](https://github.com/gdikov/hypertunity)                          | A toolset for black-box hyperparameter optimisation.                                                                                                                            | ![GitHub Badge](https://img.shields.io/github/stars/gdikov/hypertunity.svg?style=flat-square)              |"
+        confidence: high
+metadata:
+  github:
+    stars: 136
+    forks: 10
+    license: Apache-2.0
+    archived: false
+    created_at: "2019-06-02T12:04:55Z"
+    pushed_at: "2020-01-26T23:14:49Z"
+    description: A toolset for black-box hyperparameter optimisation.
+    homepage: https://hypertunity.readthedocs.io
+    topics:
+      - bayesian-optimization
+      - gpyopt
+      - hyperparameter-optimization
+      - slurm
+      - tensorboard
+    last_checked_at: "2026-05-05T21:02:17.843Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:17.843Z"
+      bytes: 3408
+insights:
+  summary: A lightweight Python library for black-box hyperparameter optimisation that wraps GPyOpt, supports Slurm-based scheduling, and visualises results in Tensorboard.
+  why_it_matters: It lets ML engineers treat expensive model-tuning loops as structured, parallelisable jobs instead of a pile of hand-tuned scripts.
+  mental_damage: Yet another reminder that the hardest part of modern AI work is not the model, but the existential dread of tuning the knobs that control it.
+  tags:
+    - hyperparameter-optimization
+    - bayesian-optimization
+    - ml-ops
+    - tensorboard
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a traditional ML tuning library with no meaningful AI-assisted developer tooling, coding agent, or prompt-driven workflow.
+  evidence:
+    - Repo description explicitly frames it as a black-box hyperparameter optimisation toolset, not a developer AI assistant.
+    - README focuses on Bayesian optimisation, Slurm scheduling, and Tensorboard reporting for ML experiments.
+    - Listed under AutoML in Awesome-LLMOps, which reflects an ML infrastructure context rather than AI developer tooling.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.688Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:17.843Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:20:42.985Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

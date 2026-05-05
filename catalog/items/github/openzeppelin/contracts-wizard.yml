@@ -1,0 +1,82 @@
+id: github__openzeppelin__contracts-wizard
+kind: github-repo
+name: contracts-wizard
+canonical_url: https://github.com/openzeppelin/contracts-wizard
+identity:
+  github_repo: openzeppelin/contracts-wizard
+provenance:
+  discoveries:
+    - id: discovery__github__openzeppelin__contracts-wizard__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: OpenZeppelin/contracts-wizard
+        extracted_url: https://github.com/openzeppelin/contracts-wizard
+        surrounding_text: "- [OpenZeppelin/contracts-wizard](https://github.com/OpenZeppelin/contracts-wizard/tree/master/packages/mcp) - A Model Context Protocol (MCP) server that allows AI agents to generate secure smart contracts in multiples languages based on [OpenZeppelin Wizard templates](https://wizard.openzeppelin.com/)."
+        confidence: high
+metadata:
+  github:
+    stars: 292
+    forks: 176
+    license: AGPL-3.0
+    archived: false
+    created_at: "2021-02-09T23:46:23Z"
+    pushed_at: "2026-05-05T17:48:23Z"
+    description: Interactive smart contract generator based on OpenZeppelin Contracts.
+    homepage: https://wizard.openzeppelin.com
+    topics: []
+    last_checked_at: "2026-05-05T21:04:07.521Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:07.521Z"
+      bytes: 4018
+insights:
+  summary: An interactive web application and CLI that generates smart contract code for Solidity, Cairo, Stellar, and Stylus based on OpenZeppelin components and user-selected features.
+  why_it_matters: It allows smart contract developers to quickly scaffold secure, standards-compliant code with desired features without manually wiring OpenZeppelin modules.
+  mental_damage: We've reached the point where we need a specialized wizard to navigate the wizardry of our own security standards, ensuring we don't accidentally deploy a vulnerable token while vibing with the generator.
+  tags:
+    - smart-contracts
+    - code-generation
+    - solidity
+    - cli
+    - web-tool
+  confidence: high
+curation:
+  status: included
+  reason: This is a browser-first and CLI tool that generates whole smart contract files from a selection of features, fitting the prompt-to-project scaffold definition of app-builders.
+  evidence:
+    - "Repo description: 'Interactive smart contract generator based on OpenZeppelin Contracts.'"
+    - "README: 'Generate contracts from the command line' and hosted wizard at wizard.openzeppelin.com."
+    - "README: 'Web application to interactively build a contract out of components... generates all of the code necessary.'"
+placement:
+  primary_category: app-builders
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (292) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.711Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:07.521Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:43:00.411Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

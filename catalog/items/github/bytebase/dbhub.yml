@@ -1,0 +1,116 @@
+id: github__bytebase__dbhub
+kind: github-repo
+name: dbhub
+canonical_url: https://github.com/bytebase/dbhub
+identity:
+  github_repo: bytebase/dbhub
+provenance:
+  discoveries:
+    - id: discovery__github__bytebase__dbhub__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: bytebase/dbhub
+        extracted_url: https://github.com/bytebase/dbhub
+        surrounding_text: "- **[bytebase/dbhub](https://github.com/bytebase/dbhub)** – 📇 Universal database MCP server supporting mainstream databases.\\"
+        confidence: high
+    - id: discovery__github__bytebase__dbhub__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - 🗄️ Databases
+        anchor_text: bytebase/dbhub
+        extracted_url: https://github.com/bytebase/dbhub
+        surrounding_text: "-   **[bytebase/dbhub](https://github.com/bytebase/dbhub)** [![GitHub stars](https://img.shields.io/github/stars/bytebase/dbhub?style=social)](https://github.com/bytebase/dbhub): Provides a universal database MCP server with support for mainstream databases."
+        confidence: high
+metadata:
+  github:
+    stars: 2689
+    forks: 227
+    license: MIT
+    archived: false
+    created_at: "2025-03-09T16:36:38Z"
+    pushed_at: "2026-04-21T10:55:33Z"
+    description: Zero-dependency, token-efficient database MCP server for Postgres, MySQL, SQL Server, MariaDB, SQLite.
+    homepage: https://dbhub.ai
+    topics:
+      - agents
+      - ai
+      - anthropic
+      - claude
+      - claude-ai
+      - codex
+      - cursor
+      - database
+      - dify
+      - llm
+      - mariadb
+      - mcp
+      - mcp-server
+      - mssql
+      - mysql
+      - postgres
+      - postgresql
+      - sql
+      - sqlite
+      - sqlserver
+    last_checked_at: "2026-05-05T21:01:27.692Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:27.692Z"
+      bytes: 5539
+insights:
+  summary: A zero-dependency, token-efficient MCP server that allows AI clients like Claude and Cursor to query and explore Postgres, MySQL, SQL Server, MariaDB, and SQLite databases.
+  why_it_matters: It gives coding agents structured, guarded access to live database schemas and queries without burning through the context window or requiring heavy dependencies.
+  mental_damage: Another essential piece of infrastructure so your AI can finally generate that one SQL query that fixes production, while you sit there wondering why you still need to configure TOML files to make it happen.
+  tags:
+    - mcp
+    - database
+    - cursor
+    - claude
+    - sql
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server implementation designed to bridge AI clients and databases, fitting perfectly into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description defines it as a 'zero-dependency, token-efficient database MCP server'.
+    - README confirms it implements the Model Context Protocol (MCP) server interface for clients like Claude and Cursor.
+    - Listed in awesome-mcp-list (Databases) and awesome-mcp-servers directories.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (2689) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.664Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:27.692Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:12:00.205Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

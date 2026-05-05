@@ -1,0 +1,88 @@
+id: github__idapixl__algora-mcp-server
+kind: github-repo
+name: algora-mcp-server
+canonical_url: https://github.com/idapixl/algora-mcp-server
+identity:
+  github_repo: idapixl/algora-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__idapixl__algora-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: idapixl/algora-mcp-server
+        extracted_url: https://github.com/idapixl/algora-mcp-server
+        surrounding_text: "- [idapixl/algora-mcp-server](https://github.com/idapixl/algora-mcp-server) [![idapixl-algora-mcp-server MCP server](https://glama.ai/mcp/servers/idapixl-algora-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/idapixl-algora-mcp-server) 📇 ☁️ - Browse and search open-source bounties on Algora. 5 tools: list, search, filter by org/tech/amount, get top bounties, aggregate stats. No API key required."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 1
+    license: null
+    archived: false
+    created_at: "2026-03-05T09:27:26Z"
+    pushed_at: "2026-03-12T21:25:01Z"
+    description: MCP server for Algora bounty platform — lets AI agents discover, search, and analyze open-source bounties. 5 tools, no API key needed.
+    homepage: null
+    topics:
+      - ai-agents
+      - algora
+      - bounties
+      - mcp
+      - mcp-server
+      - open-source
+      - typescript
+    last_checked_at: "2026-05-05T21:02:40.644Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:40.644Z"
+      bytes: 4083
+insights:
+  summary: An MCP server that connects AI agents to Algora's public bounty API, allowing them to discover, search, and analyze open-source bounties across various organizations.
+  why_it_matters: It allows coding agents to autonomously identify paid work and analyze the open-source bounty market without requiring API keys or manual browsing.
+  mental_damage: "We have finally closed the loop: your AI agent can now independently find the gig work that will pay for the GPU credits it burns completing said gig work."
+  tags:
+    - mcp
+    - bounties
+    - algora
+    - typescript
+  confidence: high
+curation:
+  status: included
+  reason: The project is a dedicated MCP server implementation designed to extend agent capabilities via the Model Context Protocol, fitting the MCP infrastructure category.
+  evidence:
+    - Repo description explicitly states 'MCP server for Algora bounty platform'.
+    - README architecture notes confirm it 'uses stdio transport (standard MCP convention)'.
+    - Listed in awesome-mcp-servers under 'Server Implementations'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.697Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:40.644Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:25:22.016Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

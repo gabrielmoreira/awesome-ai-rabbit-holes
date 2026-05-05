@@ -1,0 +1,86 @@
+id: github__configcat__mcp-server
+kind: github-repo
+name: mcp-server
+canonical_url: https://github.com/configcat/mcp-server
+identity:
+  github_repo: configcat/mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__configcat__mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: ConfigCat/mcp-server
+        extracted_url: https://github.com/configcat/mcp-server
+        surrounding_text: "- [ConfigCat/mcp-server](https://github.com/configcat/mcp-server) 🎖️ 📇 ☁️ - MCP server for interacting with ConfigCat feature flag platform. Supports managing feature flags, configs, environments, products and organizations."
+        confidence: high
+metadata:
+  github:
+    stars: 15
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2025-08-14T09:41:35Z"
+    pushed_at: "2026-04-01T20:16:37Z"
+    description: "Official ConfigCat Model Context Protocol (MCP) Server "
+    homepage: https://configcat.com/docs/advanced/mcp-server/
+    topics:
+      - configcat
+      - feature-flags
+      - feature-toggle
+      - mcp-server
+      - modelcontextprotocol
+    last_checked_at: "2026-05-05T21:01:40.550Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:40.550Z"
+      bytes: 8237
+insights:
+  summary: An official MCP server that exposes ConfigCat's feature flag management API to AI coding assistants like Cursor, VS Code, and Claude Desktop.
+  why_it_matters: It lets AI agents directly read and manipulate feature flags and SDK integrations inside your editor, keeping feature rollout logic in sync with the codebase without leaving the IDE.
+  mental_damage: "We have finally achieved the singularity: an AI agent that can toggle a boolean in a dashboard so you don't have to context-switch to a browser tab."
+  tags:
+    - mcp
+    - feature-flags
+    - configcat
+    - ide-integration
+  confidence: high
+curation:
+  status: included
+  reason: This is a first-party MCP server implementation that integrates feature flag management into AI-assisted development workflows.
+  evidence:
+    - Repo description explicitly states 'Official ConfigCat Model Context Protocol (MCP) Server'.
+    - README demonstrates full MCP integration with Cursor, VS Code, and Claude Desktop.
+    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.683Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:40.550Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:14:14.763Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

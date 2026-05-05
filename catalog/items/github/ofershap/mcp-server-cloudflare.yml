@@ -1,0 +1,90 @@
+id: github__ofershap__mcp-server-cloudflare
+kind: github-repo
+name: mcp-server-cloudflare
+canonical_url: https://github.com/ofershap/mcp-server-cloudflare
+identity:
+  github_repo: ofershap/mcp-server-cloudflare
+provenance:
+  discoveries:
+    - id: discovery__github__ofershap__mcp-server-cloudflare__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
+        anchor_text: ofershap/mcp-server-cloudflare
+        extracted_url: https://github.com/ofershap/mcp-server-cloudflare
+        surrounding_text: "- [ofershap/mcp-server-cloudflare](https://github.com/ofershap/mcp-server-cloudflare) [![mcp-server-cloudflare MCP server](https://glama.ai/mcp/servers/ofershap/mcp-server-cloudflare/badges/score.svg)](https://glama.ai/mcp/servers/ofershap/mcp-server-cloudflare) 📇 ☁️ - Manage Cloudflare Workers, KV, R2, Pages, DNS, and cache from your IDE."
+        confidence: high
+metadata:
+  github:
+    stars: 2
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-02-13T08:17:40Z"
+    pushed_at: "2026-03-10T09:22:46Z"
+    description: MCP server to manage Cloudflare Workers, KV, R2, DNS, and cache from your IDE
+    homepage: null
+    topics:
+      - cloudflare
+      - dns
+      - kv
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - r2
+      - typescript
+      - workers
+    last_checked_at: "2026-05-05T21:03:59.172Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:59.172Z"
+      bytes: 4152
+insights:
+  summary: An MCP server that allows AI assistants like Claude and Cursor to manage Cloudflare resources including Workers, KV storage, R2 buckets, DNS records, and cache purging directly from the IDE.
+  why_it_matters: Developers can now offload routine Cloudflare infrastructure tasks—like spinning up Workers or purging caches—to their coding assistant without leaving the editor.
+  mental_damage: We have finally achieved the future where your AI assistant can delete your production DNS records and purge your CDN cache while you watch, slightly detached from the consequences.
+  tags:
+    - mcp
+    - cloudflare
+    - infrastructure
+    - ide-integration
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server implementation for Cloudflare, fitting perfectly into the MCP Servers and Tooling category as a developer-facing infrastructure extension for AI assistants.
+  evidence:
+    - Repo description states it is an 'MCP server to manage Cloudflare Workers, KV, R2, DNS, and cache from your IDE'
+    - README confirms it works with Claude Desktop, Cursor, and VS Code Copilot via the Model Context Protocol
+    - Listed in the awesome-mcp-servers directory under 'Cloud Platforms' implementations
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.710Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:59.172Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:41:35.939Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

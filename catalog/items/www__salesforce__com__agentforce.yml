@@ -1,0 +1,76 @@
+id: www__salesforce__com__agentforce
+kind: website
+name: agentforce
+canonical_url: https://www.salesforce.com/agentforce
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__salesforce__com__agentforce__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Airkit.ai
+        anchor_text: Airkit.ai
+        extracted_url: https://www.airkit.ai
+        surrounding_text: "## [Airkit.ai](https://www.airkit.ai)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Agentforce is Salesforce's platform for building and customizing autonomous AI agents that integrate with the Salesforce ecosystem to support employees and customers.
+  why_it_matters: It provides developers with a specialized environment (Agentforce Builder and Dev Tools) to construct enterprise-grade service and sales agents deeply embedded in CRM data.
+  mental_damage: Just when you thought the stack was complete, your CRM now demands you staff it with autonomous agents that also need performance reviews.
+  tags:
+    - agents
+    - salesforce
+    - enterprise
+    - crm
+  confidence: high
+curation:
+  status: excluded
+  reason: This is an enterprise CRM product suite, not a developer-facing tool for coding, IDEs, or local infrastructure.
+  evidence:
+    - Primary page excerpt describes 'Humans with Agents drive customer success' within the Salesforce Sales, Service, and Marketing clouds.
+    - Positioned as a platform for building customer service/sales agents, not for assisting developers with source code or app generation.
+    - Source list context (awesome-ai-agents) categorized it under Airkit.ai/Salesforce ecosystem, indicating an enterprise agent product rather than a dev tool.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.734Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:53:17.071Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

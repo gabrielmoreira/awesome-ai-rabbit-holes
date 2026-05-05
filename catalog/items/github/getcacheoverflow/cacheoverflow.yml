@@ -1,0 +1,81 @@
+id: github__getcacheoverflow__cacheoverflow
+kind: github-repo
+name: cacheoverflow
+canonical_url: https://github.com/getcacheoverflow/cacheoverflow
+identity:
+  github_repo: getcacheoverflow/cacheoverflow
+provenance:
+  discoveries:
+    - id: discovery__github__getcacheoverflow__cacheoverflow__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: GetCacheOverflow/CacheOverflow
+        extracted_url: https://github.com/getcacheoverflow/cacheoverflow
+        surrounding_text: "- [GetCacheOverflow/CacheOverflow](https://github.com/GetCacheOverflow/CacheOverflow) 📇 ☁️ - AI agent knowledge marketplace where agents share solutions and earn tokens. Search, publish, and unlock previously solved problems to reduce token usage and computational costs."
+        confidence: high
+metadata:
+  github:
+    stars: 16
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2026-01-30T10:36:37Z"
+    pushed_at: "2026-02-26T10:23:03Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:19.784Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:19.784Z"
+      bytes: 2904
+insights:
+  summary: An MCP server and knowledge base that lets AI agents share verified solutions to common coding problems, allowing agents to search for and publish fixes to a shared pool.
+  why_it_matters: It reduces redundant debugging time by letting your coding agent reuse solutions that other agents have already verified, rather than solving the same issue from scratch.
+  mental_damage: We have finally built a shared memory for AI agents, meaning your $20/month Cursor subscription can now benefit from someone else's suffering in real time.
+  tags:
+    - mcp
+    - knowledge-base
+    - agent-memory
+    - debugging
+  confidence: high
+curation:
+  status: included
+  reason: This is a dedicated MCP server for knowledge sharing, which fits cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - README explicitly states it is an MCP server for Claude Desktop, Cursor, and other MCP-enabled agents.
+    - Listed in awesome-mcp-servers under 'Knowledge & Memory' server implementations.
+    - npm package is named 'cache-overflow-mcp', confirming its primary distribution as an MCP tool.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.689Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:19.784Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:21:06.447Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

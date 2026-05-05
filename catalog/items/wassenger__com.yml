@@ -1,0 +1,77 @@
+id: wassenger__com
+kind: website
+name: wassenger.com
+canonical_url: https://wassenger.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__wassenger__com__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: Wassenger
+        extracted_url: https://wassenger.com
+        surrounding_text: "- **[Wassenger](https://github.com/wassengerhq/mcp-wassenger)** - [Wassenger](https://wassenger.com) MCP server to chat, send messages and automate WhatsApp from any AI model client (free trial available)."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Wassenger is a WhatsApp Business API platform offering no-code AI agent builders, team chat collaboration, and an MCP server to connect WhatsApp with AI assistants like Claude and Cursor.
+  why_it_matters: It provides a cloud-hosted MCP server that lets developers integrate WhatsApp messaging into AI workflows and developer tools without managing their own WhatsApp infrastructure.
+  mental_damage: Finally, an MCP server exists to bridge the gap between your IDE and the one channel where stakeholders send requirements as voice notes and vague PDF attachments.
+  tags:
+    - whatsapp
+    - mcp
+    - no-code
+    - ai-agents
+    - business-api
+  confidence: high
+curation:
+  status: included
+  reason: The product includes a specific MCP server implementation designed to connect WhatsApp to AI assistants and developer tools like VS Code and Cursor, fitting the MCP infrastructure category.
+  evidence:
+    - "The scraped site context explicitly lists 'MCP Server New: Connect WhatsApp to AI assistants'."
+    - Source list context confirms inclusion in 'awesome-mcp-servers' under 'Community Servers'.
+    - The platform describes '20+ MCP Tools' and compatibility with Claude, ChatGPT, Gemini, Cursor, and VS Code.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.731Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:49:09.533Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

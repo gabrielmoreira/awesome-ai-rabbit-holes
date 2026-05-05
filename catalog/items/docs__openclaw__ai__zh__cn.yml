@@ -1,0 +1,76 @@
+id: docs__openclaw__ai__zh__cn
+kind: website
+name: zh-CN
+canonical_url: https://docs.openclaw.ai/zh-CN
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__docs__openclaw__ai__zh__cn__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 技能 Skills
+        anchor_text: OpenClaw
+        extracted_url: https://docs.openclaw.ai/zh-CN
+        surrounding_text: 2. [OpenClaw](https://docs.openclaw.ai/zh-CN)
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A Chinese-language (zh-CN) localized version of the OpenClaw AI documentation site.
+  why_it_matters: Provides developers who prefer or require Chinese documentation with localized access to OpenClaw's AI tooling guides.
+  mental_damage: We now maintain distinct AI rabbit holes for every human language, because reading English is apparently the new bottleneck in autonomous coding.
+  tags:
+    - localization
+    - docs
+    - chinese
+    - openclaw
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a documentation translation page, not a standalone developer tool, agent, or infrastructure component.
+  evidence:
+    - The URL points to a localized documentation path (https://docs.openclaw.ai/zh-CN).
+    - Seen in awesome-LLM-resources under a 'Skills' section, likely as a documentation resource rather than a tool.
+    - No repository description, README, or code context provided to indicate a functional tool.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.444Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T20:49:25.107Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+    next_retry_at: null

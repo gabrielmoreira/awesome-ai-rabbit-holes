@@ -1,0 +1,76 @@
+id: rygen__io
+kind: website
+name: rygen.io
+canonical_url: https://rygen.io
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__rygen__io__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - LLMOps
+        anchor_text: Dataoorts
+        extracted_url: https://dataoorts.com/ai
+        surrounding_text: "| [Dataoorts](https://dataoorts.com/ai)                              | Enjoy unlimited API calls with Serverless AI Workers/LLMs for just $25 per month. No rate or concurrency limits.                                                                                                                                                                                                                                                                                        |                                                                                                           |"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: RyGen is a hosted AI gateway offering access to multiple AI models with a focus on affordability, enterprise security, and privacy.
+  why_it_matters: It provides developers with a unified, potentially lower-cost API endpoint to access various AI models while maintaining enterprise-grade security standards.
+  mental_damage: Yet another AI gateway promising 'uncompromised' performance, because clearly what the ecosystem needed was more abstraction layers between our code and the models we can't quite afford.
+  tags:
+    - ai-gateway
+    - api
+    - llmops
+    - privacy
+  confidence: medium
+curation:
+  status: excluded
+  reason: The project appears to be a generic hosted AI model gateway/api service rather than a developer tool, agent, or workflow automation product that fits the catalog's scope.
+  evidence:
+    - Scraped site context describes it as 'The world's most affordable Gateway to AI' with generic marketing copy.
+    - Lack of repository details, README, or specific developer-tooling features prevent verifying a concrete developer workflow fit.
+    - Listed in Awesome-LLMOps under a generic 'Rize with RyGen' link, but the surface area resembles a standard API provider rather than a tool.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.730Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:47:51.910Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

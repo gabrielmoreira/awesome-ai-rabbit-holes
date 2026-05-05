@@ -1,0 +1,77 @@
+id: workhub__ai
+kind: website
+name: workhub.ai
+canonical_url: https://workhub.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__workhub__ai__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - WorkBot
+        anchor_text: WorkBot
+        extracted_url: https://workhub.ai
+        surrounding_text: "## [WorkBot](https://workhub.ai/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: WorkHub AI is a no-code SaaS platform that deploys AI agents (chat, voice, and email) specifically for automating customer support workflows.
+  why_it_matters: It provides a plug-and-play interface for businesses to integrate LLM-based support automation with tools like Jira, Slack, and CRMs without requiring developer intervention for maintenance.
+  mental_damage: Yet another 'no-code' AI agent builder proving that while we can automate the support, we still haven't figured out how to automate the existential dread of reading generic marketing copy.
+  tags:
+    - customer-support
+    - no-code
+    - chatbot
+    - saas
+    - voice-ai
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a business-facing customer support SaaS tool, not a developer tool or workflow automation product for software engineers.
+  evidence:
+    - The primary page excerpt and description focus entirely on 'Customer Support', 'CSAT', and 'Support Operations' rather than code generation or developer infrastructure.
+    - It is explicitly marketed as a 'no-code chatbot platform' designed for 'support managers to marketers', not developers working on source code.
+    - Source list context places it in 'awesome-ai-agents' under 'WorkBot' specifically for automating customer support chat, voice, and email.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.731Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:49:24.138Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

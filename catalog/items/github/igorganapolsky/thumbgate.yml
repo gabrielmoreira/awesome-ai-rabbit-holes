@@ -1,0 +1,118 @@
+id: github__igorganapolsky__thumbgate
+kind: github-repo
+name: mcp-memory-gateway
+canonical_url: https://github.com/igorganapolsky/thumbgate
+identity:
+  github_repo: igorganapolsky/thumbgate
+provenance:
+  discoveries:
+    - id: discovery__github__igorganapolsky__mcp-memory-gateway__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: IgorGanapolsky/mcp-memory-gateway
+        extracted_url: https://github.com/igorganapolsky/mcp-memory-gateway
+        surrounding_text: "- [IgorGanapolsky/mcp-memory-gateway](https://github.com/IgorGanapolsky/mcp-memory-gateway) [![IgorGanapolsky/mcp-memory-gateway MCP server](https://glama.ai/mcp/servers/IgorGanapolsky/mcp-memory-gateway/badges/score.svg)](https://glama.ai/mcp/servers/IgorGanapolsky/mcp-memory-gateway) 📇 🏠 - Pre-action gates that prevent AI coding agents from repeating known mistakes. Captures explicit feedback, auto-promotes failures into prevention rules, and enforces them via hooks."
+        confidence: high
+    - id: discovery__github__igorganapolsky__thumbgate__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: IgorGanapolsky/ThumbGate
+        extracted_url: https://github.com/igorganapolsky/thumbgate
+        surrounding_text: "- [IgorGanapolsky/ThumbGate](https://github.com/IgorGanapolsky/ThumbGate) [![IgorGanapolsky/ThumbGate MCP server](https://glama.ai/mcp/servers/IgorGanapolsky/ThumbGate/badges/score.svg)](https://glama.ai/mcp/servers/IgorGanapolsky/ThumbGate) 📇 🏠 - MCP server that blocks AI coding agents from repeating mistakes — turns thumbs-up/down feedback into enforced pre-action gates via PreToolUse hooks. Install: `npx thumbgate`."
+        confidence: high
+metadata:
+  github:
+    stars: 18
+    forks: 6
+    license: MIT
+    archived: false
+    created_at: "2026-03-03T18:13:26Z"
+    pushed_at: "2026-05-05T21:01:48Z"
+    description: "Agent governance for ThumbGate: 👍/👎 become Pre-Action Checks that block repeat mistakes before code, money, or customer systems change."
+    homepage: https://thumbgate-production.up.railway.app
+    topics:
+      - agent-reliability
+      - ai-agents
+      - ai-cost-optimization
+      - ai-safety
+      - amp
+      - claude-code
+      - codex
+      - cursor
+      - developer-tools
+      - feedback-loop
+      - gemini
+      - guardrails
+      - mcp
+      - mcp-server
+      - opencode
+      - pre-action-checks
+      - reduce-llm-cost
+      - save-llm-tokens
+      - thompson-sampling
+      - thumbgate
+    last_checked_at: "2026-05-05T21:02:41.181Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:41.181Z"
+      bytes: 25649
+insights:
+  summary: ThumbGate is an MCP-compatible governance tool that converts user feedback into pre-action checks that block repeated AI mistakes across coding agents like Claude Code, Cursor, and Codex to reduce token waste.
+  why_it_matters: It directly attacks the hidden cost of LLM retry loops and hallucinated commands by enforcing corrective rules locally before the model spends tokens on repeat failures.
+  mental_damage: We have officially reached the point where we need middleware to stop our AI assistants from making the same expensive mistakes we explicitly told them to stop making five minutes ago.
+  tags:
+    - mcp
+    - agent-governance
+    - cost-optimization
+    - guardrails
+    - token-savings
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server and toolkit that acts as middleware for agent governance, fitting the MCP infrastructure definition rather than being a primary coding assistant or a simple extension.
+  evidence:
+    - Repo description defines it as 'Agent governance' using 'Pre-Action Checks' for MCP-compatible agents.
+    - README states it works with 'any MCP-compatible agent' and is listed in awesome-mcp-servers under Developer Tools.
+    - Active development (pushed 2026-05-05) and MIT license confirm it is a viable, current developer tool.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:25:32.954Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.697Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:41.181Z"
+    cause: null
+    next_retry_at: null

@@ -1,0 +1,90 @@
+id: www__hyperwriteai__com
+kind: website
+name: www.hyperwriteai.com
+canonical_url: https://www.hyperwriteai.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__hyperwriteai__com__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Otherside's AI Assistant - Hyperwrite
+        anchor_text: Otherside's AI Assistant - Hyperwrite
+        extracted_url: https://www.hyperwriteai.com
+        surrounding_text: "## [Otherside's AI Assistant - Hyperwrite](https://www.hyperwriteai.com/)"
+        confidence: high
+    - id: discovery__www__hyperwriteai__com__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: janhq/awesome-local-ai
+        url: https://github.com/janhq/awesome-local-ai
+        repository: janhq/awesome-local-ai
+      extraction:
+        mode: parsed
+        section_path:
+          - Agents
+        anchor_text: HyperWrite
+        extracted_url: https://www.hyperwriteai.com
+        surrounding_text: "- [HyperWrite](https://www.hyperwriteai.com/) - HyperWrite helps you work smarter, faster, and with ease."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: HyperWrite is a browser-based AI writing assistant and Chrome extension that provides content generation, rewriting, summarization, and research tools aimed at general writing and communication tasks.
+  why_it_matters: It offers a suite of prompt-driven writing tools and a Chrome extension that can automate repetitive text generation and email responses directly within the browser.
+  mental_damage: Another sophisticated AI secretary arrives to ensure you never have to actually write an email again, provided you enjoy debugging its tone more than writing the original draft.
+  tags:
+    - writing-assistant
+    - chrome-extension
+    - content-generation
+    - productivity
+  confidence: high
+curation:
+  status: excluded
+  reason: The product is a general-purpose AI writing and communication assistant for emails, speeches, and research, lacking a developer-tooling, coding, or infrastructure angle required for this catalog.
+  evidence:
+    - Scraped site context describes it as an 'AI writing assistant' for content generation, emails, speeches, and research, with no mention of code or developer workflows.
+    - Source lists categorize it under general AI assistants or local AI agents, but the tool's own pitch focuses entirely on text editing and communication rather than software development.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.675Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:51:25.227Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

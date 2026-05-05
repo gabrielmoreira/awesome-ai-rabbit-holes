@@ -1,0 +1,76 @@
+id: aidevboard__com
+kind: website
+name: aidevboard.com
+canonical_url: https://aidevboard.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__aidevboard__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Developer Productivity Tools
+        anchor_text: AI Dev Jobs
+        extracted_url: https://aidevboard.com
+        surrounding_text: "- **[AI Dev Jobs](https://aidevboard.com)** – AI job board aggregating 6,000+ positions from 340+ companies like OpenAI, Anthropic, and Google DeepMind. Free API and MCP server for AI-powered job search."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A job board aggregating AI developer roles with salary data and API access for hiring workflows.
+  why_it_matters: Developers can filter and benchmark compensation across thousands of AI engineering roles, rather than relying on generic tech job boards.
+  mental_damage: The average salary displayed is likely the only working agent in the entire stack, and it still can't fix your deployment pipeline.
+  tags:
+    - jobs
+    - career
+    - hiring
+    - salary-benchmark
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a job board and hiring platform, not a developer tool, agent, workflow, or infrastructure component for building with AI.
+  evidence:
+    - "Site title and description describe it as 'The #1 job board for AI developers' with 9906 roles and salary data."
+    - Page excerpt shows job listings (Software Engineer, Research Scientist) and hiring flows, not developer tooling.
+    - Listed in awesome-ai-coding-tools under 'Developer Productivity Tools', but that context does not override the core product being a jobs site.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.726Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:41:35.615Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

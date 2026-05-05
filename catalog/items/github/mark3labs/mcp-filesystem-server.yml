@@ -1,0 +1,114 @@
+id: github__mark3labs__mcp-filesystem-server
+kind: github-repo
+name: mcp-filesystem-server
+canonical_url: https://github.com/mark3labs/mcp-filesystem-server
+identity:
+  github_repo: mark3labs/mcp-filesystem-server
+provenance:
+  discoveries:
+    - id: discovery__github__mark3labs__mcp-filesystem-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📂 <a name="file-systems"></a>File Systems
+        anchor_text: mark3labs/mcp-filesystem-server
+        extracted_url: https://github.com/mark3labs/mcp-filesystem-server
+        surrounding_text: "- [mark3labs/mcp-filesystem-server](https://github.com/mark3labs/mcp-filesystem-server) 🏎️ 🏠 - Golang implementation for local file system access."
+        confidence: high
+    - id: discovery__github__mark3labs__mcp-filesystem-server__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - 📂 File Systems
+        anchor_text: mark3labs/mcp-filesystem-server
+        extracted_url: https://github.com/mark3labs/mcp-filesystem-server
+        surrounding_text: "-   **[mark3labs/mcp-filesystem-server](https://github.com/mark3labs/mcp-filesystem-server)** [![GitHub stars](https://img.shields.io/github/stars/mark3labs/mcp-filesystem-server?style=social)](https://github.com/mark3labs/mcp-filesystem-server): Provides local file system access (Golang implementation)."
+        confidence: high
+    - id: discovery__github__mark3labs__mcp-filesystem-server__awesome-list__vivy-yi__awesome-agent-orchestration
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: vivy-yi/awesome-agent-orchestration
+        url: https://github.com/vivy-yi/awesome-agent-orchestration
+        repository: vivy-yi/awesome-agent-orchestration
+      extraction:
+        mode: parsed
+        section_path:
+          - Agent Communication Protocols
+          - Model Context Protocol (MCP)
+          - Development & Tools
+        anchor_text: mcp-filesystem-server
+        extracted_url: https://github.com/mark3labs/mcp-filesystem-server
+        surrounding_text: "| [mcp-filesystem-server](https://github.com/mark3labs/mcp-filesystem-server) | Filesystem operations | ![Stars](https://img.shields.io/github/stars/mark3labs/mcp-filesystem-server) |"
+        confidence: high
+metadata:
+  github:
+    stars: 640
+    forks: 104
+    license: MIT
+    archived: false
+    created_at: "2024-11-28T12:15:08Z"
+    pushed_at: "2025-11-24T15:46:55Z"
+    description: Go server implementing Model Context Protocol (MCP) for filesystem operations.
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:03:29.726Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:29.726Z"
+      bytes: 5802
+insights:
+  summary: A Go server implementing the Model Context Protocol (MCP) that exposes local filesystem operations—like read, write, search, and directory tree—as secure, programmable tools for MCP-compatible clients.
+  why_it_matters: It lets AI agents and developer tools safely access and manipulate your local filesystem through a standardized protocol, removing the need for brittle, custom file-handling glue code.
+  mental_damage: We have successfully abstracted file I/O into yet another protocol layer, so your agent can now recursively delete your project in a way that is fully standards-compliant.
+  tags:
+    - mcp
+    - filesystem
+    - go
+    - local-ai
+    - tooling
+  confidence: high
+curation:
+  status: included
+  reason: The project is a dedicated MCP server implementation for filesystem access, matching the 'MCP Servers and Tooling' category exactly.
+  evidence:
+    - "Repo description states: 'Go server implementing Model Context Protocol (MCP) for filesystem operations.'"
+    - README shows explicit integration examples using the 'mcpServers' JSON configuration block for MCP clients.
+    - Listed in 'awesome-mcp-servers' and 'awesome-mcp-list' under File Systems sections, confirming its role in the MCP ecosystem.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (640) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.661Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:29.726Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:35:46.044Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

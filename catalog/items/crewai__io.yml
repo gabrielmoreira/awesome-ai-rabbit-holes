@@ -1,0 +1,75 @@
+id: crewai__io
+kind: website
+name: crewai.io
+canonical_url: https://crewai.io
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__crewai__io__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: janhq/awesome-local-ai
+        url: https://github.com/janhq/awesome-local-ai
+        repository: janhq/awesome-local-ai
+      extraction:
+        mode: parsed
+        section_path:
+          - Agents
+        anchor_text: CrewAI
+        extracted_url: https://crewai.io
+        surrounding_text: "- [CrewAI](https://crewai.io) - Cutting-edge framework for orchestrating role-playing, autonomous AI agents."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: CrewAI is a framework for orchestrating role-playing, autonomous AI agents that collaborate to tackle complex tasks.
+  why_it_matters: It provides developers with a structured way to build multi-agent systems where specialized agents can work together on coding and operational workflows.
+  mental_damage: Another day, another framework that lets you orchestrate a team of imaginary employees who never ask for equity or dental coverage.
+  tags:
+    - multi-agent
+    - agent-framework
+    - orchestration
+    - python
+  confidence: medium
+curation:
+  status: included
+  reason: The project is a code-first SDK/framework for building multi-agent systems, which fits the AI Frameworks category rather than a hosted control plane.
+  evidence:
+    - Listed in awesome-local-ai under the 'Agents' section, indicating developer tooling relevance.
+    - The product is a framework for orchestrating autonomous AI agents, requiring developers to build with it in code.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.444Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T20:49:20.038Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+    next_retry_at: null

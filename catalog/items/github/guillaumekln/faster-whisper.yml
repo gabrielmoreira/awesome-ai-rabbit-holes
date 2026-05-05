@@ -1,0 +1,89 @@
+id: github__guillaumekln__faster-whisper
+kind: github-repo
+name: faster-whisper
+canonical_url: https://github.com/guillaumekln/faster-whisper
+identity:
+  github_repo: guillaumekln/faster-whisper
+provenance:
+  discoveries:
+    - id: discovery__github__guillaumekln__faster-whisper__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Serving
+          - Large Model Serving
+        anchor_text: Faster Whisper
+        extracted_url: https://github.com/guillaumekln/faster-whisper
+        surrounding_text: "| [Faster Whisper](https://github.com/guillaumekln/faster-whisper)                      | fast inference engine for whisper in C++ using CTranslate2.                                                     | ![GitHub Badge](https://img.shields.io/github/stars/guillaumekln/faster-whisper.svg?style=flat-square)           |"
+        confidence: high
+metadata:
+  github:
+    stars: 22645
+    forks: 1848
+    license: MIT
+    archived: false
+    created_at: "2023-02-11T09:17:27Z"
+    pushed_at: "2025-11-19T14:40:46Z"
+    description: Faster Whisper transcription with CTranslate2
+    homepage: ""
+    topics:
+      - deep-learning
+      - inference
+      - openai
+      - quantization
+      - speech-recognition
+      - speech-to-text
+      - transformer
+      - whisper
+    last_checked_at: "2026-05-05T21:02:29.327Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:29.327Z"
+      bytes: 15246
+insights:
+  summary: A Python reimplementation of OpenAI's Whisper speech recognition model using the CTranslate2 inference engine for faster transcription with lower memory usage.
+  why_it_matters: Developers building voice features or processing audio pipelines can integrate state-of-the-art transcription that runs up to 4x faster and supports 8-bit quantization on both CPU and GPU.
+  mental_damage: We have successfully optimized the model that transcribes our meetings so efficiently that we now have even more free time to worry about why we aren't shipping code.
+  tags:
+    - speech-to-text
+    - inference
+    - local-ai
+    - python
+  confidence: high
+curation:
+  status: included
+  reason: This is a local model serving stack that allows developers to run speech-to-text inference on their own hardware, fitting the Local AI category.
+  evidence:
+    - "Repo description states: 'Faster Whisper transcription with CTranslate2'."
+    - README confirms it is a reimplementation for fast inference using CTranslate2, supporting CPU and GPU with quantization.
+    - Listed in Awesome-LLMOps under 'Serving > Large Model Serving', indicating its role in local model infrastructure.
+placement:
+  primary_category: local-ai
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (22645) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.441Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:29.327Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:23:10.816Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

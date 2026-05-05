@@ -1,0 +1,87 @@
+id: github__freema__mcp-gsheets
+kind: github-repo
+name: mcp-gsheets
+canonical_url: https://github.com/freema/mcp-gsheets
+identity:
+  github_repo: freema/mcp-gsheets
+provenance:
+  discoveries:
+    - id: discovery__github__freema__mcp-gsheets__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🗄️ <a name="databases"></a>Databases
+        anchor_text: freema/mcp-gsheets
+        extracted_url: https://github.com/freema/mcp-gsheets
+        surrounding_text: "- [freema/mcp-gsheets](https://github.com/freema/mcp-gsheets) 📇 ☁️ - MCP server for Google Sheets API integration with comprehensive reading, writing, formatting, and sheet management capabilities."
+        confidence: high
+metadata:
+  github:
+    stars: 63
+    forks: 16
+    license: MIT
+    archived: false
+    created_at: "2025-05-24T17:43:01Z"
+    pushed_at: "2026-04-26T12:08:06Z"
+    description: MCP server for Google Sheets - Read, write and manipulate spreadsheets through Claude Desktop
+    homepage: ""
+    topics:
+      - automation
+      - google-sheets-api
+      - mcp
+      - nodejs
+      - typescript
+    last_checked_at: "2026-05-05T21:02:14.915Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:14.915Z"
+      bytes: 22970
+insights:
+  summary: An MCP server that lets AI clients like Claude Desktop, Cursor, and Cline read, write, and manage Google Sheets using the Google Sheets API.
+  why_it_matters: It allows developers to automate spreadsheet workflows and manipulate data via natural language prompts inside their existing AI-assisted development environments.
+  mental_damage: We have successfully abstracted away the joy of manually copy-pasting CSVs by turning Google Sheets into a stateful database for your LLM to quietly corrupt at 2 AM.
+  tags:
+    - mcp
+    - google-sheets
+    - typescript
+    - automation
+    - nodejs
+  confidence: high
+curation:
+  status: included
+  reason: The project is a Model Context Protocol server designed to integrate Google Sheets into AI client workflows, fitting the MCP category perfectly.
+  evidence:
+    - Repo description explicitly states 'MCP server for Google Sheets'.
+    - README confirms it is 'A Model Context Protocol (MCP) server for Google Sheets API integration' supporting Claude, Cursor, and Cline.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Databases'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.688Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:14.916Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:20:13.780Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

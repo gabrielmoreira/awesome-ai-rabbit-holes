@@ -1,0 +1,96 @@
+id: github__deepchecks__deepchecks
+kind: github-repo
+name: deepchecks
+canonical_url: https://github.com/deepchecks/deepchecks
+identity:
+  github_repo: deepchecks/deepchecks
+provenance:
+  discoveries:
+    - id: discovery__github__deepchecks__deepchecks__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Security
+          - Observability
+        anchor_text: Deepchecks
+        extracted_url: https://github.com/deepchecks/deepchecks
+        surrounding_text: "| [Deepchecks](https://github.com/deepchecks/deepchecks)                         | Tests for Continuous Validation of ML Models & Data. Deepchecks is a Python package for comprehensively validating your machine learning models and data with minimal effort.                                                  | ![GitHub Badge](https://img.shields.io/github/stars/deepchecks/deepchecks.svg?style=flat-square)                 |"
+        confidence: high
+metadata:
+  github:
+    stars: 4011
+    forks: 294
+    license: NOASSERTION
+    archived: false
+    created_at: "2021-10-11T14:48:38Z"
+    pushed_at: "2025-12-28T12:07:44Z"
+    description: "Deepchecks: Tests for Continuous Validation of ML Models & Data. Deepchecks is a holistic open-source solution for all of your AI & ML validation needs, enabling to thoroughly test your data and models from research to production."
+    homepage: https://docs.deepchecks.com/stable
+    topics:
+      - data-drift
+      - data-science
+      - data-validation
+      - deep-learning
+      - html-report
+      - jupyter-notebook
+      - machine-learning
+      - ml
+      - mlops
+      - model-monitoring
+      - model-validation
+      - pandas-dataframe
+      - python
+      - pytorch
+    last_checked_at: "2026-05-05T21:01:50.931Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:50.931Z"
+      bytes: 31857
+insights:
+  summary: Deepchecks is an open-source Python library offering automated validation checks for tabular, NLP, and computer vision data and models across research, CI, and production monitoring workflows.
+  why_it_matters: It lets ML engineers codify data integrity, model performance, and drift checks directly into CI pipelines and production monitoring instead of relying on ad-hoc analysis.
+  mental_damage: Now you can add 'continuous validation' to your resume while quietly praying your carefully tuned checks don't flag your entire dataset as statistical garbage the night before a launch.
+  tags:
+    - mlops
+    - model-validation
+    - data-drift
+    - python
+    - testing
+  confidence: high
+curation:
+  status: excluded
+  reason: Deepchecks is a traditional ML validation and monitoring framework for data scientists and MLOps engineers, not a developer-facing AI coding tool, agent, or AI-app builder.
+  evidence:
+    - Repo description explicitly states it is for 'Continuous Validation of ML Models & Data' and 'AI & ML validation needs', targeting data scientists rather than software developers.
+    - Topics include data-drift, data-science, deep-learning, machine-learning, mlops, and model-monitoring, with no coding-agent or developer-tooling signals.
+    - README describes testing, CI, and monitoring for tabular, NLP, and CV models, not AI-assisted code editing or app generation.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (4011) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.684Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:50.931Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:16:00.848Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,99 @@
+id: github__felipedaza7__swarm-tools
+kind: github-repo
+name: swarm-tools
+canonical_url: https://github.com/felipedaza7/swarm-tools
+identity:
+  github_repo: felipedaza7/swarm-tools
+provenance:
+  discoveries:
+    - id: discovery__github__felipedaza7__swarm-tools__awesome-list__vivy-yi__awesome-agent-orchestration
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: vivy-yi/awesome-agent-orchestration
+        url: https://github.com/vivy-yi/awesome-agent-orchestration
+        repository: vivy-yi/awesome-agent-orchestration
+      extraction:
+        mode: parsed
+        section_path:
+          - Core Frameworks
+          - Swarm Intelligence Frameworks
+        anchor_text: Swarm-Tools
+        extracted_url: https://github.com/felipedaza7/swarm-tools
+        surrounding_text: "| [Swarm-Tools](https://github.com/FelipeDaza7/swarm-tools) | Tool for coordinating AI agents with learning capabilities | ![Stars](https://img.shields.io/github/stars/FelipeDaza7/swarm-tools) |"
+        confidence: high
+metadata:
+  github:
+    stars: 6
+    forks: 0
+    license: null
+    archived: false
+    created_at: "2020-10-26T16:35:19Z"
+    pushed_at: "2026-05-05T18:47:33Z"
+    description: 🐝 Boost productivity by coordinating AI agents that learn and adapt, breaking down tasks for efficient, parallel execution.
+    homepage: https://felipedaza7.github.io
+    topics:
+      - agents-team
+      - ai
+      - ai-agent-framework
+      - autogen
+      - awesome
+      - cli
+      - decentralized-ai
+      - docker
+      - gui-application
+      - multi-agent
+      - opencode
+      - orchestration
+      - orchestrator
+      - prometheus
+      - stable-diffusion
+      - swarm
+      - swarmkit
+      - swarmzero
+    last_checked_at: "2026-05-05T21:02:09.663Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:09.663Z"
+      bytes: 5020
+insights:
+  summary: A downloadable desktop application for coordinating and managing multiple AI agents with a GUI, tracking issues, and supporting parallel task execution.
+  why_it_matters: It provides a user-friendly control plane for developers experimenting with multi-agent systems who want a visual interface over raw orchestration code.
+  mental_damage: Yet another local GUI promising to wrangle your agent swarm, because clearly what your terminal needed was a desktop app to manage the hallucinations in parallel.
+  tags:
+    - multi-agent
+    - orchestration
+    - gui
+    - swarm
+  confidence: medium
+curation:
+  status: included
+  reason: The project is a user-facing desktop application (GUI) for coordinating multiple AI agents, which fits the definition of an end-user control plane or workbench for agent orchestration.
+  evidence:
+    - Repo description states it 'Boost productivity by coordinating AI agents... for efficient, parallel execution.'
+    - README describes a 'user-friendly application' and 'clean interface' for managing agents via a desktop GUI.
+    - Listed in 'awesome-agent-orchestration' under the 'Swarm Intelligence Frameworks' section.
+placement:
+  primary_category: agent-orchestration
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.687Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:09.663Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:19:16.189Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,97 @@
+id: github__carrierone__verilexdata-mcp
+kind: github-repo
+name: verilexdata-mcp
+canonical_url: https://github.com/carrierone/verilexdata-mcp
+identity:
+  github_repo: carrierone/verilexdata-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__carrierone__verilexdata-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📊 <a name="data-platforms"></a>Data Platforms
+        anchor_text: carrierone/verilexdata-mcp
+        extracted_url: https://github.com/carrierone/verilexdata-mcp
+        surrounding_text: "- [carrierone/verilexdata-mcp](https://github.com/carrierone/verilexdata-mcp) [![carrierone/verilexdata-mcp MCP server](https://glama.ai/mcp/servers/carrierone/verilexdata-mcp/badges/score.svg)](https://glama.ai/mcp/servers/carrierone/verilexdata-mcp) 📇 ☁️ - 20 structured datasets (NPI healthcare, SEC filings, OFAC sanctions, crypto whales, Polymarket signals, patents, economic indicators) via x402 pay-per-query with USDC. Free stats/sample endpoints, MCP + HTTP transport."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-03-12T16:22:01Z"
+    pushed_at: "2026-03-18T09:25:02Z"
+    description: MCP server for Verilex Data — query NPI, SEC, PACER, Weather, and OTC datasets from AI agents
+    homepage: null
+    topics:
+      - ai-agents
+      - crypto
+      - data-api
+      - defi
+      - government-data
+      - healthcare
+      - mcp
+      - model-context-protocol
+      - npi
+      - polymarket
+      - prediction-markets
+      - sanctions
+      - sec-edgar
+      - usdc
+      - x402
+    last_checked_at: "2026-05-05T21:01:30.183Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:30.183Z"
+      bytes: 3174
+insights:
+  summary: An MCP server that exposes 20 structured datasets—including NPI, SEC, PACER, weather, and crypto intelligence—to AI agents via the Model Context Protocol with x402-powered USDC payments.
+  why_it_matters: It lets agents natively query fresh government, financial, and crypto data behind a pay-per-query wall without the developer wiring custom API integrations.
+  mental_damage: Your AI agent can now independently monitor whale wallets and federal court filings, then send USDC to settle the invoice before you even knew it was curious.
+  tags:
+    - mcp
+    - data-api
+    - x402
+    - ai-agents
+    - government-data
+  confidence: high
+curation:
+  status: included
+  reason: The project is itself an MCP server implementation that exposes multiple data platforms to agents, which fits cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description explicitly states: 'MCP server for Verilex Data — query NPI, SEC, PACER, Weather, and OTC datasets from AI agents'."
+    - README confirms it is an MCP server installable into Claude Desktop, VS Code, and Cursor with 20 structured datasets.
+    - Listed in awesome-mcp-servers under Server Implementations > Data Platforms, reinforcing its MCP-native identity.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.682Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:30.183Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:12:28.106Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

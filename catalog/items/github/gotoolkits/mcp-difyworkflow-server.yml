@@ -1,0 +1,84 @@
+id: github__gotoolkits__mcp-difyworkflow-server
+kind: github-repo
+name: mcp-difyworkflow-server
+canonical_url: https://github.com/gotoolkits/mcp-difyworkflow-server
+identity:
+  github_repo: gotoolkits/mcp-difyworkflow-server
+provenance:
+  discoveries:
+    - id: discovery__github__gotoolkits__mcp-difyworkflow-server__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: DifyWorkflow
+        extracted_url: https://github.com/gotoolkits/mcp-difyworkflow-server
+        surrounding_text: "- **[DifyWorkflow](https://github.com/gotoolkits/mcp-difyworkflow-server)** - Tools to the query and execute of Dify workflows"
+        confidence: high
+metadata:
+  github:
+    stars: 59
+    forks: 16
+    license: Apache-2.0
+    archived: false
+    created_at: "2024-12-26T07:57:27Z"
+    pushed_at: "2024-12-26T09:02:57Z"
+    description: mcp-difyworkflow-server is an mcp server Tools application that implements the query and invocation of Dify workflows, supporting the on-demand operation of multiple custom Dify workflows.
+    homepage: ""
+    topics:
+      - ai
+      - mcp
+      - mcp-server
+    last_checked_at: "2026-05-05T21:02:25.701Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:25.701Z"
+      bytes: 2078
+insights:
+  summary: An MCP server that lets developers query and execute multiple custom Dify workflows directly from MCP-compatible clients.
+  why_it_matters: It bridges self-hosted Dify workflow automation into local AI clients, allowing developers to invoke complex orchestrations without leaving their coding environment.
+  mental_damage: We have finally achieved the architectural pinnacle of invoking a workflow that invokes an AI to help you invoke more workflows, all so you don't have to alt-tab away from your chat window.
+  tags:
+    - mcp
+    - dify
+    - workflow
+    - server
+    - go
+  confidence: high
+curation:
+  status: included
+  reason: The project is a standalone MCP server implementation designed to expose Dify workflows to MCP clients, fitting cleanly into the MCP infrastructure category.
+  evidence:
+    - Repo description explicitly defines it as 'an mcp server Tools application' for Dify workflow invocation.
+    - README details MCP server configuration ('mcpServers'), environment variables for Dify API keys, and tool definitions like 'execute_workflow'.
+    - Listed in the 'awesome-mcp-servers' directory under 'Community Servers', confirming its identity as an MCP component.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.689Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:25.701Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:22:26.904Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

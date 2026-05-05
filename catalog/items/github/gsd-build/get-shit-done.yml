@@ -1,0 +1,85 @@
+id: github__gsd-build__get-shit-done
+kind: github-repo
+name: get-shit-done
+canonical_url: https://github.com/gsd-build/get-shit-done
+identity:
+  github_repo: gsd-build/get-shit-done
+provenance:
+  discoveries:
+    - id: discovery__github__gsd-build__get-shit-done__awesome-list__engineering4ai__awesome-spec-driven-development
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: Engineering4AI/awesome-spec-driven-development
+        url: https://github.com/engineering4ai/awesome-spec-driven-development
+        repository: Engineering4AI/awesome-spec-driven-development
+      extraction:
+        mode: parsed
+        section_path:
+          - Specification Tools
+        anchor_text: get-shit-done
+        extracted_url: https://github.com/gsd-build/get-shit-done
+        surrounding_text: "- [get-shit-done](https://github.com/gsd-build/get-shit-done) ![](https://img.shields.io/github/stars/gsd-build/get-shit-done.svg) - Lightweight and powerful system for meta-prompting, context engineering, and spec-driven development."
+        confidence: high
+metadata:
+  github:
+    stars: 60195
+    forks: 5129
+    license: MIT
+    archived: false
+    created_at: "2025-12-14T14:17:12Z"
+    pushed_at: "2026-05-05T20:07:09Z"
+    description: A light-weight and powerful meta-prompting, context engineering and spec-driven development system for Claude Code by TÂCHES.
+    homepage: ""
+    topics:
+      - claude-code
+      - context-engineering
+      - meta-prompting
+      - spec-driven-development
+    last_checked_at: "2026-05-05T21:02:28.761Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:28.761Z"
+      bytes: 10849
+insights:
+  summary: A meta-prompting and spec-driven development system that adds context engineering and subagent orchestration to Claude Code and other AI coding assistants via slash commands.
+  why_it_matters: It addresses context window degradation by breaking projects into spec-driven phases with parallel subagents, allowing developers to automate planning, execution, and verification while maintaining a clean git history.
+  mental_damage: We have officially reached the point where the 'solo developer' badge now means 'I don't write code, my subagents do,' and we call a 60,000-star npm package 'light-weight.'
+  tags:
+    - spec-driven
+    - context-engineering
+    - claude-code
+    - meta-prompting
+    - subagents
+  confidence: high
+curation:
+  status: included
+  reason: The project's center of gravity is a spec-first loop (brainstorm/spec, plan, execute, verify) designed to drive development through specifications rather than acting as a generic coding assistant.
+  evidence:
+    - Repo description explicitly defines it as a 'meta-prompting, context engineering and spec-driven development system.'
+    - README details a six-command workflow (Initialize, Discuss, Plan, Execute, Verify, Ship) centered on specs and context management.
+    - Listed in awesome-spec-driven-development under 'Specification Tools' and covers multiple AI runtimes including Claude Code and Cursor.
+placement:
+  primary_category: spec-driven-development
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (60195) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.690Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:28.761Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:23:10.594Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,82 @@
+id: github__kukapay__hyperliquid-whalealert-mcp
+kind: github-repo
+name: hyperliquid-whalealert-mcp
+canonical_url: https://github.com/kukapay/hyperliquid-whalealert-mcp
+identity:
+  github_repo: kukapay/hyperliquid-whalealert-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__kukapay__hyperliquid-whalealert-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: kukapay/hyperliquid-whalealert-mcp
+        extracted_url: https://github.com/kukapay/hyperliquid-whalealert-mcp
+        surrounding_text: "- [kukapay/hyperliquid-whalealert-mcp](https://github.com/kukapay/hyperliquid-whalealert-mcp) 🐍 ☁️ - An MCP server that provides real-time whale alerts on Hyperliquid, flagging positions with a notional value exceeding $1 million."
+        confidence: high
+metadata:
+  github:
+    stars: 12
+    forks: 11
+    license: MIT
+    archived: false
+    created_at: "2025-05-12T08:14:18Z"
+    pushed_at: "2025-11-16T02:10:37Z"
+    description: An MCP server that provides real-time whale alerts on Hyperliquid.
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:03:11.828Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:11.828Z"
+      bytes: 3435
+insights:
+  summary: An MCP server that exposes a tool and prompt for fetching and summarizing Hyperliquid whale transactions over $1 million using the CoinGlass API.
+  why_it_matters: It lets developers and traders wire real-time on-chain whale alerts directly into MCP-compatible clients like Claude Desktop without building their own API integration.
+  mental_damage: We now have a dedicated protocol server whose sole job is to tell you that someone just opened a $20 million ETH position while you were debugging a CSS flexbox issue.
+  tags:
+    - mcp
+    - crypto
+    - finance
+    - real-time
+    - hyperliquid
+  confidence: high
+curation:
+  status: included
+  reason: The project is a standalone MCP server with tool and prompt definitions, fitting cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description: 'An MCP server that provides real-time whale alerts on Hyperliquid.'"
+    - README shows concrete MCP tool `get_whale_alerts` and prompt `summarize_whale_activity` with Claude Desktop installation instructions.
+    - Listed in awesome-mcp-servers under Finance & Fintech, confirming its MCP ecosystem role.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.703Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:11.828Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:32:12.936Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

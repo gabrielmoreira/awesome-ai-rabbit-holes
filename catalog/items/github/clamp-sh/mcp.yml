@@ -1,0 +1,93 @@
+id: github__clamp-sh__mcp
+kind: github-repo
+name: mcp
+canonical_url: https://github.com/clamp-sh/mcp
+identity:
+  github_repo: clamp-sh/mcp
+provenance:
+  discoveries:
+    - id: discovery__github__clamp-sh__mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📊 <a name="monitoring"></a>Monitoring
+        anchor_text: clamp-sh/mcp
+        extracted_url: https://github.com/clamp-sh/mcp
+        surrounding_text: "- [clamp-sh/mcp](https://github.com/clamp-sh/mcp) [![clamp-sh/mcp MCP server](https://glama.ai/mcp/servers/clamp-sh/mcp/badges/score.svg)](https://glama.ai/mcp/servers/clamp-sh/mcp) 📇 ☁️ 🍎 🪟 🐧 - AI-native web analytics. Query pageviews, top pages, referrers, countries, devices, and custom events. Create conversion funnels and alerts."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-04-15T08:55:16Z"
+    pushed_at: "2026-05-05T10:25:26Z"
+    description: MCP server for Clamp, web analytics for the agentic era. Tools for traffic, referrers, live visitors, events, revenue, session paths, funnels, and alerts — queryable from Cursor, Claude Code, Claude Desktop, Smithery, and any MCP-compatible editor.
+    homepage: https://clamp.sh/docs/mcp
+    topics:
+      - agent-tools
+      - analytics
+      - clamp
+      - claude
+      - claude-code
+      - cursor
+      - llm-tools
+      - mcp
+      - model-context-protocol
+      - smithery
+      - web-analytics
+    last_checked_at: "2026-05-05T21:01:35.025Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:35.025Z"
+      bytes: 10895
+insights:
+  summary: An MCP server that exposes Clamp web analytics data—including traffic, visitors, events, and funnels—as tools for AI assistants like Cursor, Claude Code, and VS Code Copilot.
+  why_it_matters: It lets developers query pageviews, conversion funnels, and revenue trends directly inside their AI-assisted editor instead of switching to a dashboard.
+  mental_damage: Your AI assistant can now debug your traffic drops in real time, which is either empowering or the beginning of a very passive-aggressive code review.
+  tags:
+    - mcp
+    - analytics
+    - cursor
+    - claude-code
+    - web-analytics
+  confidence: high
+curation:
+  status: included
+  reason: The project is a dedicated MCP server that makes Clamp analytics queryable by MCP-compatible editors and agents, which fits the MCP category precisely.
+  evidence:
+    - Repo description explicitly states 'MCP server for Clamp' with tools for traffic, funnels, and alerts queryable from Cursor, Claude Code, and other MCP clients.
+    - README confirms stdio MCP server implementation with setup instructions for VS Code, Claude Code, Claude Desktop, and Cursor.
+    - Listed in awesome-mcp-servers under Server Implementations > Monitoring, reinforcing its role as MCP infrastructure.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.682Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:35.025Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:13:19.358Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

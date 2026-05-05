@@ -1,0 +1,76 @@
+id: www__deployramp__com
+kind: website
+name: www.deployramp.com
+canonical_url: https://www.deployramp.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__deployramp__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - DevOps and Infrastructure
+        anchor_text: DeployRamp
+        extracted_url: https://www.deployramp.com
+        surrounding_text: "- **[DeployRamp](https://www.deployramp.com)** – AI-powered feature flagging platform that can automatically wrap PRs in feature flags."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: An AI-powered feature flag management platform that scans pull requests for risky code changes, wraps them in feature flags, monitors rollouts, and automates cleanup.
+  why_it_matters: It automates the risky parts of shipping code by detecting dangerous changes in PRs and managing the flag lifecycle, reducing the need for manual deployment oversight.
+  mental_damage: We've successfully automated the fear of deploying code so thoroughly that 'manual flag cleanup' is now considered a tragic career setback.
+  tags:
+    - feature-flags
+    - devops
+    - ci-cd
+    - automation
+  confidence: high
+curation:
+  status: included
+  reason: The product uses AI to scan PRs and augment a developer's existing workflow with automated flagging and rollout monitoring, fitting the extension of developer tooling rather than a primary coding agent.
+  evidence:
+    - Scan PRs, wrap risky code in feature flags, roll out gradually, and roll back instantly (Source-list context / Awesome list description).
+    - DeployRamp uses AI to wrap risky PRs in feature flags, rolls them out while watching for errors, and opens a cleanup PR when you're done (Scraped site excerpt).
+    - Listed in awesome-ai-coding-tools under the 'DevOps and Infrastructure' section (Source-list context).
+placement:
+  primary_category: ai-dev-extensions
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.732Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:50:28.001Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

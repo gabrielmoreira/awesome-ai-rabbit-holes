@@ -1,0 +1,80 @@
+id: github__ajhous44__cody
+kind: github-repo
+name: cody
+canonical_url: https://github.com/ajhous44/cody
+identity:
+  github_repo: ajhous44/cody
+provenance:
+  discoveries:
+    - id: discovery__github__ajhous44__cody__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Cody by ajhous44
+        anchor_text: Cody by ajhous44
+        extracted_url: https://github.com/ajhous44/cody
+        surrounding_text: "## [Cody by ajhous44](https://github.com/ajhous44/cody)"
+        confidence: high
+metadata:
+  github:
+    stars: 62
+    forks: 7
+    license: MIT
+    archived: false
+    created_at: "2023-07-22T16:38:48Z"
+    pushed_at: "2025-03-11T22:24:29Z"
+    description: Cody the coding ai assistant
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:00:56.272Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:56.272Z"
+      bytes: 6396
+insights:
+  summary: A local Python-based AI assistant that monitors a codebase in real-time, builds a vector embedding knowledge base, and allows interactive Q&A via terminal or voice.
+  why_it_matters: It offers developers a way to query their evolving codebase using natural language without sending source code to a hosted SaaS, relying instead on local file watching and OpenAI embeddings.
+  mental_damage: Yet another local wrapper promising to 'understand' your monorepo, provided you can keep the ignore list tuned tighter than your actual code reviews.
+  tags:
+    - local-ai
+    - codebase-qa
+    - python
+    - embeddings
+  confidence: medium
+curation:
+  status: included
+  reason: The tool acts as a local coding assistant that interacts directly with an existing codebase via CLI and voice to answer questions, fitting the coding-agents definition.
+  evidence:
+    - "Repo description states: 'Cody the coding ai assistant'."
+    - README describes real-time file monitoring, embedding-based knowledge bases, and interactive Q&A for a local project directory.
+    - Dependencies include watchdog, langchain, and OpenAI, confirming a local CLI workflow rather than a hosted SaaS builder.
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.677Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:56.272Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:07:03.689Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

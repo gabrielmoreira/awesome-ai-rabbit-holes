@@ -1,0 +1,75 @@
+id: dropbin__org__mcp
+kind: website
+name: mcp
+canonical_url: https://dropbin.org/mcp
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__dropbin__org__mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: DropBin
+        extracted_url: https://dropbin.org/mcp
+        surrounding_text: "- **[DropBin](https://dropbin.org/mcp)** - Remote SSE MCP server for hosting HTML webpages and sharing content through temporary URLs without authentication"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A website directory that aggregates and lists Model Context Protocol (MCP) servers for submission and discovery.
+  why_it_matters: It serves as a centralized navigation aid for developers looking to find or submit MCP servers to extend AI tooling ecosystems.
+  mental_damage: "Another layer of indirection has been added to the stack: a directory, specifically for directories of servers, because apparently we needed a Yelp for protocol adapters."
+  tags:
+    - mcp
+    - directory
+    - ecosystem
+  confidence: medium
+curation:
+  status: included
+  reason: The project is a website directory/meta-list for discovering MCP servers, fitting the awesome-awesomes category as a navigation aid rather than a tool itself.
+  evidence:
+    - The URL (https://dropbin.org/mcp) presents a directory site for MCP.
+    - "Referenced in awesome-mcp-servers as the submission website: https://mcpservers.org/submit."
+    - It acts as an index/map for MCP servers rather than being a server or toolkit itself.
+placement:
+  primary_category: awesome-awesomes
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.727Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:44:15.620Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

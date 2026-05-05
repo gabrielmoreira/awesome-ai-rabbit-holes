@@ -1,0 +1,91 @@
+id: github__mmorris35__devplan-mcp-server
+kind: github-repo
+name: devplan-mcp-server
+canonical_url: https://github.com/mmorris35/devplan-mcp-server
+identity:
+  github_repo: mmorris35/devplan-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__mmorris35__devplan-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: mmorris35/devplan-mcp-server
+        extracted_url: https://github.com/mmorris35/devplan-mcp-server
+        surrounding_text: "- [mmorris35/devplan-mcp-server](https://github.com/mmorris35/devplan-mcp-server) 📇 ☁️ - Generate comprehensive, paint-by-numbers development plans using the [ClaudeCode-DevPlanBuilder](https://github.com/mmorris35/ClaudeCode-DevPlanBuilder) methodology. Creates PROJECT_BRIEF.md, DEVELOPMENT_PLAN.md, and CLAUDE.md."
+        confidence: high
+metadata:
+  github:
+    stars: 3
+    forks: 2
+    license: null
+    archived: false
+    created_at: "2025-12-09T18:31:23Z"
+    pushed_at: "2026-03-25T05:37:39Z"
+    description: MCP server for generating development plans, project roadmaps, and task breakdowns for Claude Code. Turn project ideas into paint-by-numbers implementation plans.
+    homepage: null
+    topics:
+      - ai-coding
+      - claude
+      - claude-code
+      - development-plan
+      - mcp
+      - mcp-server
+      - prd
+      - project-planning
+      - roadmap
+      - task-management
+    last_checked_at: "2026-05-05T21:03:44.173Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:44.173Z"
+      bytes: 11811
+insights:
+  summary: An MCP server that generates detailed, agent-executable development plans, roadmaps, and task breakdowns directly inside Claude Code.
+  why_it_matters: It addresses context loss in AI coding sessions by producing validated, step-by-step implementation plans with built-in git workflows and progress tracking.
+  mental_damage: We have officially reached the point where we need a specialized server to tell the AI how to plan the work the AI is about to do, just to make sure the AI doesn't forget what the AI is doing.
+  tags:
+    - mcp
+    - claude-code
+    - planning
+    - task-management
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server that integrates with Claude Code to provide planning tools, fitting the MCP infrastructure category.
+  evidence:
+    - Repo description states it is an 'MCP server for generating development plans... for Claude Code'
+    - README confirms it is an MCP server bringing the DevPlan methodology to Claude Code with 21 tools
+    - Listed in awesome-mcp-servers under 'Developer Tools' section
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.707Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:44.173Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:38:34.959Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

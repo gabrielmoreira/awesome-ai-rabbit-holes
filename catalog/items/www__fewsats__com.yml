@@ -1,0 +1,75 @@
+id: www__fewsats__com
+kind: website
+name: www.fewsats.com
+canonical_url: https://www.fewsats.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__fewsats__com__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Fewsats
+        extracted_url: https://fewsats.com
+        surrounding_text: "- **[Fewsats](https://github.com/Fewsats/fewsats-mcp)** - Enable AI Agents to purchase anything in a secure way using [Fewsats](https://fewsats.com)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Fewsats is a hosted directory and submission site for discovering and listing Model Context Protocol (MCP) servers.
+  why_it_matters: It provides a centralized registry for developers to find MCP servers that extend AI assistants with new tools and capabilities.
+  mental_damage: Yet another directory promising to organize the sprawling MCP ecosystem, ensuring we spend more time browsing indexes than actually integrating the tools.
+  tags:
+    - mcp
+    - directory
+    - registry
+  confidence: medium
+curation:
+  status: included
+  reason: The site functions as a directory and submission portal for MCP servers, fitting the awesome-awesomes category for navigational indexes rather than the mcp category, since it is not a server or toolkit itself.
+  evidence:
+    - URL resolves to www.fewsats.com, a hosted website rather than a GitHub repository.
+    - "Referenced in awesome-mcp-servers as the submission target: https://mcpservers.org/submit."
+    - Primary function is serving as a registry/listing site for MCP servers.
+placement:
+  primary_category: awesome-awesomes
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.732Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:50:40.266Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

@@ -1,0 +1,76 @@
+id: www__glideapps__com
+kind: website
+name: www.glideapps.com
+canonical_url: https://www.glideapps.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__glideapps__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - App Builders
+        anchor_text: Glide
+        extracted_url: https://www.glideapps.com
+        surrounding_text: "- **[Glide](https://www.glideapps.com/)** – No-code app builder with AI features."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Glide is a no-code SaaS platform that turns spreadsheets and data sources into deployable, AI-enhanced business apps and internal tools via a browser-based builder.
+  why_it_matters: It lets developers and teams rapidly prototype and ship internal operational apps without writing boilerplate CRUD code, using AI to generate app structures and automate workflows.
+  mental_damage: Another reminder that while we debate agentic loops and context windows, the rest of the world is happily running their supply chain on a Google Sheet wrapper with a shiny UI.
+  tags:
+    - no-code
+    - app-builder
+    - internal-tools
+    - ai-workflows
+  confidence: high
+curation:
+  status: included
+  reason: Glide is a browser-first platform that generates full apps and internal tools from data and prompts, fitting the app-builders category rather than coding-agents or frameworks.
+  evidence:
+    - "Scraped site title and description: 'No Code App Builder: Create Custom, AI-Powered Apps' that turns spreadsheets into apps."
+    - "Primary excerpt states: 'Instantly turn spreadsheets into intuitive, AI-powered apps that automate manual work' via a hosted builder."
+    - Listed in awesome-ai-coding-tools under the 'App Builders' section with the description 'no code' app builder.
+placement:
+  primary_category: app-builders
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.732Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:51:00.237Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

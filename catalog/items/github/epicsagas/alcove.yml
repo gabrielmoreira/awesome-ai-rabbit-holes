@@ -1,0 +1,81 @@
+id: github__epicsagas__alcove
+kind: github-repo
+name: alcove
+canonical_url: https://github.com/epicsagas/alcove
+identity:
+  github_repo: epicsagas/alcove
+provenance:
+  discoveries:
+    - id: discovery__github__epicsagas__alcove__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: epicsagas/alcove
+        extracted_url: https://github.com/epicsagas/alcove
+        surrounding_text: "- [epicsagas/alcove](https://github.com/epicsagas/alcove)[![alcove MCP server](https://glama.ai/mcp/servers/epicsagas/alcove/badges/score.svg)](https://glama.ai/mcp/servers/epicsagas/alcove) 🦀 🏠 🍎 🪟 🐧 - MCP server that gives AI coding agents on-demand access to private project docs via BM25 ranked search. One setup for Claude Code, Cursor, Codex, Gemini CLI, and more. Docs stay private, never in public repos."
+        confidence: high
+metadata:
+  github:
+    stars: 5
+    forks: 2
+    license: Apache-2.0
+    archived: false
+    created_at: "2026-03-06T11:51:31Z"
+    pushed_at: "2026-04-30T17:24:19Z"
+    description: MCP server that gives AI coding agents on-demand access to your private project docs — without dumping everything into the context window, without leaking docs into public repos, and without per-project config for every agent you use.
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:03.123Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:03.123Z"
+      bytes: 31196
+insights:
+  summary: An MCP server that provides AI coding agents with on-demand access to private project documentation via BM25 search, avoiding context window bloat.
+  why_it_matters: It separates transient agent behavior from persistent project knowledge, allowing developers to maintain a single, standardized documentation layer for multiple AI agents across different projects.
+  mental_damage: We have successfully built infrastructure to manage the infrastructure required to tell the infrastructure what the infrastructure is supposed to be building.
+  tags:
+    - mcp
+    - context-engineering
+    - docs
+    - coding-agent-tooling
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server designed to provide context to coding agents, fitting perfectly into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description defines it as 'MCP server that gives AI coding agents on-demand access to your private project docs'.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Knowledge & Memory'.
+    - README details BM25 search integration and CWD auto-detection for project context.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.686Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:03.123Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:18:08.658Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

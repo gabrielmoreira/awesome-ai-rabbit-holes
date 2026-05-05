@@ -1,0 +1,91 @@
+id: github__jparkerweb__mcp-sqlite
+kind: github-repo
+name: mcp-sqlite
+canonical_url: https://github.com/jparkerweb/mcp-sqlite
+identity:
+  github_repo: jparkerweb/mcp-sqlite
+provenance:
+  discoveries:
+    - id: discovery__github__jparkerweb__mcp-sqlite__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🗄️ <a name="databases"></a>Databases
+        anchor_text: jparkerweb/mcp-sqlite
+        extracted_url: https://github.com/jparkerweb/mcp-sqlite
+        surrounding_text: "- [jparkerweb/mcp-sqlite](https://github.com/jparkerweb/mcp-sqlite) 📇 🏠 - Model Context Protocol (MCP) server that provides comprehensive SQLite database interaction capabilities."
+        confidence: high
+metadata:
+  github:
+    stars: 101
+    forks: 13
+    license: MIT
+    archived: false
+    created_at: "2025-04-05T03:28:31Z"
+    pushed_at: "2026-04-05T04:51:05Z"
+    description: 🐇 Model Context Protocol (MCP) server that provides comprehensive SQLite database interaction capabilities
+    homepage: https://www.npmjs.com/package/mcp-sqlite
+    topics:
+      - aitooling
+      - cursor
+      - database
+      - development
+      - equill-service
+      - mcp
+      - nodejs
+      - sqlite
+      - windsurf
+    last_checked_at: "2026-05-05T21:02:59.767Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:59.767Z"
+      bytes: 4969
+insights:
+  summary: An MCP server that connects AI coding assistants to local SQLite databases, exposing full CRUD operations and custom query execution.
+  why_it_matters: It allows agents in Cursor and VSCode to directly inspect and manipulate local SQLite data without the developer manually writing queries or switching context.
+  mental_damage: We have successfully reached the point where your AI assistant needs a dedicated protocol server just to argue with a local SQLite file.
+  tags:
+    - mcp
+    - sqlite
+    - database
+    - cursor
+    - vscode
+  confidence: high
+curation:
+  status: included
+  reason: The project is a dedicated Model Context Protocol server providing database interaction capabilities for AI tools, fitting cleanly into the MCP category.
+  evidence:
+    - Repo description explicitly states it is a 'Model Context Protocol (MCP) server'.
+    - README details integration with Cursor and VSCode MCP settings.
+    - Listed under 'Server Implementations > Databases' in the awesome-mcp-servers directory.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.700Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:59.767Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:29:27.213Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

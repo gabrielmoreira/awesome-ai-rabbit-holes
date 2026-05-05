@@ -1,0 +1,76 @@
+id: www__parea__ai
+kind: website
+name: www.parea.ai
+canonical_url: https://www.parea.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__parea__ai__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - LLMOps
+        anchor_text: Parea AI
+        extracted_url: https://www.parea.ai
+        surrounding_text: "| [Parea AI](https://www.parea.ai/)                                  | Platform and SDK for AI Engineers providing tools for LLM evaluation, observability, and a version-controlled enhanced prompt playground.                                                                                                                                                                                                                                                               | ![GitHub Badge](https://img.shields.io/github/stars/parea-ai/parea-sdk-py?style=flat-square)              |"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Parea AI is a platform for experiment tracking, human annotation, and observability designed for teams building and deploying LLM applications.
+  why_it_matters: It provides the evaluation infrastructure and SDKs needed to test prompt changes, track regressions, and collect human feedback on production AI systems.
+  mental_damage: Another platform promising to solve the 'which prompt regression broke production' mystery, ensuring you can now generate graphs about your AI's failure modes instead of just crying about them.
+  tags:
+    - llmops
+    - evals
+    - observability
+    - experiment-tracking
+  confidence: high
+curation:
+  status: included
+  reason: The product is primarily an evaluation, observability, and experiment-tracking platform for LLM apps, which fits the Evaluations and Benchmarks category.
+  evidence:
+    - Listed in Awesome-LLMOps under the 'LLMOps' section as an experimentation and human annotation platform.
+    - Website explicitly details features for Evaluation, Human Review, Observability, and Datasets for LLM apps.
+    - Provides Python and JS SDKs to trace LLM calls and run experiments on datasets.
+placement:
+  primary_category: evals
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.733Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:52:28.786Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

@@ -1,0 +1,96 @@
+id: github__idoru__influxdb-mcp-server
+kind: github-repo
+name: influxdb-mcp-server
+canonical_url: https://github.com/idoru/influxdb-mcp-server
+identity:
+  github_repo: idoru/influxdb-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__idoru__influxdb-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🗄️ <a name="databases"></a>Databases
+        anchor_text: idoru/influxdb-mcp-server
+        extracted_url: https://github.com/idoru/influxdb-mcp-server
+        surrounding_text: "- [idoru/influxdb-mcp-server](https://github.com/idoru/influxdb-mcp-server) 📇 ☁️ 🏠 - Run queries against InfluxDB OSS API v2."
+        confidence: high
+    - id: discovery__github__idoru__influxdb-mcp-server__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - 🗄️ Databases
+        anchor_text: idoru/influxdb-mcp-server
+        extracted_url: https://github.com/idoru/influxdb-mcp-server
+        surrounding_text: "-   **[idoru/influxdb-mcp-server](https://github.com/idoru/influxdb-mcp-server)** [![GitHub stars](https://img.shields.io/github/stars/idoru/influxdb-mcp-server?style=social)](https://github.com/idoru/influxdb-mcp-server): Executes queries against InfluxDB OSS API v2."
+        confidence: high
+metadata:
+  github:
+    stars: 37
+    forks: 15
+    license: MIT
+    archived: false
+    created_at: "2025-03-11T05:24:06Z"
+    pushed_at: "2026-01-14T16:24:11Z"
+    description: An MCP Server for querying InfluxDB
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:40.765Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:40.765Z"
+      bytes: 5819
+insights:
+  summary: An MCP server that exposes InfluxDB v2 instances to AI assistants, enabling read, write, and query operations via the InfluxDB OSS API v2.
+  why_it_matters: It allows developers to interact with time-series databases conversationally, letting AI tools execute Flux queries and manage buckets without leaving the chat interface.
+  mental_damage: We have successfully abstracted away the need to remember Flux syntax by adding a tool that requires an active InfluxDB instance, a specific token, and a running MCP client just to ask a database a question.
+  tags:
+    - mcp-server
+    - influxdb
+    - database
+    - time-series
+  confidence: high
+curation:
+  status: included
+  reason: The primary artifact is a dedicated MCP server implementation for InfluxDB, fitting squarely into the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description explicitly states: 'An MCP Server for querying InfluxDB'."
+    - README confirms it is a 'Model Context Protocol (MCP) server' providing resources, tools, and prompts for InfluxDB v2.
+    - Listed in 'awesome-mcp-servers' under the Databases section and 'awesome-mcp-list'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.667Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:40.765Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:25:29.093Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

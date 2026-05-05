@@ -1,0 +1,76 @@
+id: www__lindy__ai
+kind: website
+name: www.lindy.ai
+canonical_url: https://www.lindy.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__lindy__ai__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Lindy
+        anchor_text: Lindy
+        extracted_url: https://www.lindy.ai
+        surrounding_text: "## [Lindy](https://www.lindy.ai/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Lindy is a SaaS AI executive assistant that automates email triage, meeting scheduling, and administrative follow-ups by connecting to Gmail, Outlook, and calendars.
+  why_it_matters: While it doesn't write code, it handles the meeting scheduling and email busywork that frequently interrupts a developer's deep work flow.
+  mental_damage: We've reached the point where the ecosystem offers a $49/month AI assistant to manage the calendar, so you can finally find the time to configure the $20/month AI coding agent to write the code that automates your job.
+  tags:
+    - ai-assistant
+    - email-automation
+    - meetings
+    - productivity
+  confidence: high
+curation:
+  status: excluded
+  reason: Lindy is a general-purpose executive assistant for email and calendar management, not a developer-facing tool for coding, app building, or infrastructure.
+  evidence:
+    - Primary page excerpt focuses entirely on email triage, meeting scheduling, and administrative tasks, not code generation or developer workflows.
+    - Source list context describes it as 'proactively managing your inbox, meetings, and calendar' rather than software development.
+    - Available use cases listed (Sales, Marketing, Support, Recruiting) target general business operations rather than engineering.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.733Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:51:44.637Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

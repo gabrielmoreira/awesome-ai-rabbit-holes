@@ -1,0 +1,76 @@
+id: about__gitlab__com__solutions__artificial__intelligence
+kind: website
+name: artificial-intelligence
+canonical_url: https://about.gitlab.com/solutions/artificial-intelligence
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__about__gitlab__com__solutions__artificial__intelligence__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - DevOps and Infrastructure
+        anchor_text: GitLab AI
+        extracted_url: https://about.gitlab.com/solutions/artificial-intelligence
+        surrounding_text: "- **[GitLab AI](https://about.gitlab.com/solutions/artificial-intelligence/)** – Integrated AI across GitLab for code suggestions, security scanning, and workflows."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: GitLab's enterprise solution page for integrating artificial intelligence features into the software development lifecycle.
+  why_it_matters: It outlines how a major DevOps platform embeds AI into planning, coding, and security workflows within an existing enterprise infrastructure.
+  mental_damage: "Just what every overengineered pipeline needed: another layer of 'AI solutions' sitting between the developer and the YAML file."
+  tags:
+    - devops
+    - enterprise
+    - gitlab
+    - ai-integration
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a marketing solutions page for GitLab's AI features, not a standalone developer tool, agent, or app builder suitable for this catalog.
+  evidence:
+    - The URL points to a GitLab solutions page (about.gitlab.com/solutions/artificial-intelligence), not a tool repository.
+    - Source-list context shows it was listed under 'DevOps and Infrastructure' in awesome-ai-coding-tools, but the item itself is a product page rather than a tool.
+    - No repository description, README, or code indicators were provided to suggest this is a standalone developer-facing tool.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.725Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:41:15.656Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

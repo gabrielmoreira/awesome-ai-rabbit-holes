@@ -1,0 +1,85 @@
+id: github__hlydecker__ucsc-genome-mcp
+kind: github-repo
+name: ucsc-genome-mcp
+canonical_url: https://github.com/hlydecker/ucsc-genome-mcp
+identity:
+  github_repo: hlydecker/ucsc-genome-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__hlydecker__ucsc-genome-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - <a name="bio"></a>Biology, Medicine and Bioinformatics
+        anchor_text: hlydecker/ucsc-genome-mcp
+        extracted_url: https://github.com/hlydecker/ucsc-genome-mcp
+        surrounding_text: "- [hlydecker/ucsc-genome-mcp](https://github.com/hlydecker/ucsc-genome-mcp) 🐍 ☁️ - MCP server to interact with the UCSC Genome Browser API, letting you find genomes, chromosomes, and more."
+        confidence: high
+metadata:
+  github:
+    stars: 3
+    forks: 2
+    license: MIT
+    archived: false
+    created_at: "2025-11-13T03:09:05Z"
+    pushed_at: "2025-11-13T04:06:30Z"
+    description: An MCP server to interact with the UCSC Genome Browser API
+    homepage: ""
+    topics:
+      - bioinformatics
+      - genetics
+      - mcp
+      - mcp-server
+    last_checked_at: "2026-05-05T21:02:35.300Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:35.300Z"
+      bytes: 6902
+insights:
+  summary: An MCP server that exposes the UCSC Genome Browser API as tools for LLM applications to query genomic data, sequences, and annotations.
+  why_it_matters: Bioinformatics developers can wire LLM workflows directly into genome browsers without writing custom API wrappers or scraping HTML.
+  mental_damage: We have successfully abstracted genomics into tool calls, which means your next code review might involve a model debating the merits of hg38 versus hg19.
+  tags:
+    - mcp
+    - bioinformatics
+    - genomics
+    - llm-tools
+  confidence: high
+curation:
+  status: included
+  reason: The project is a purpose-built MCP server that exposes genomic APIs as tools, fitting cleanly into the MCP servers and tooling category.
+  evidence:
+    - Repo description explicitly states 'An MCP server to interact with the UCSC Genome Browser API'.
+    - README details 12 MCP tools covering genome search, track listing, and sequence retrieval.
+    - Listed under 'Server Implementations > Biology, Medicine and Bioinformatics' in awesome-mcp-servers.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.696Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:35.300Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:24:12.704Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

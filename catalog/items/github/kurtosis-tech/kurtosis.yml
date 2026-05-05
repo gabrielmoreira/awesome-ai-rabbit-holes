@@ -1,0 +1,96 @@
+id: github__kurtosis-tech__kurtosis
+kind: github-repo
+name: kurtosis
+canonical_url: https://github.com/kurtosis-tech/kurtosis
+identity:
+  github_repo: kurtosis-tech/kurtosis
+provenance:
+  discoveries:
+    - id: discovery__github__kurtosis-tech__kurtosis__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Training
+          - IDEs and Workspaces
+        anchor_text: Kurtosis
+        extracted_url: https://github.com/kurtosis-tech/kurtosis
+        surrounding_text: "| [Kurtosis](https://github.com/kurtosis-tech/kurtosis)    | A build, packaging, and run system for ephemeral multi-container environments.                                                                                                                     | ![GitHub Badge](https://img.shields.io/github/stars/kurtosis-tech/kurtosis.svg?style=flat-square) |"
+        confidence: high
+metadata:
+  github:
+    stars: 539
+    forks: 95
+    license: Apache-2.0
+    archived: false
+    created_at: "2023-02-14T15:44:55Z"
+    pushed_at: "2026-04-28T19:55:58Z"
+    description: A platform for packaging and launching blockchain infra. Think docker compose for blockchain
+    homepage: https://docs.kurtosistech.com/
+    topics:
+      - backend
+      - cicd
+      - containerization
+      - deploy
+      - devops
+      - distributed-systems
+      - docker
+      - docker-compose
+      - environment
+      - go
+      - infrastructure
+      - kubernetes
+      - networks
+      - prototyping
+    last_checked_at: "2026-05-05T21:03:13.655Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:13.655Z"
+      bytes: 24511
+insights:
+  summary: A container orchestration platform and packaging system for spinning up ephemeral backend stacks on Docker or Kubernetes, with Claude Code skills for managing enclaves and services.
+  why_it_matters: It lets developers reuse complex stack definitions across local dev, CI, and cluster testing with one-liner launches instead of glue scripts and YAML sprawl.
+  mental_damage: Now you can orchestrate multi-service ephemeral environments with Starlark packages and Claude Code skills, because plain Docker Compose clearly wasn’t enough abstraction for a Tuesday.
+  tags:
+    - devops
+    - infrastructure
+    - claude-code
+    - orchestration
+    - docker
+  confidence: high
+curation:
+  status: included
+  reason: The repository’s primary inclusion hook is a structured set of Claude Code skills for building, debugging, and managing Kurtosis enclaves, making it a reusable skill pack rather than a standalone coding agent or general DevOps tool.
+  evidence:
+    - The README explicitly documents 20+ Claude Code skills in a skills/ directory for enclave, cluster, Docker, and Kubernetes workflows.
+    - Repo description positions it as 'Docker Compose for blockchain,' but the skills layer is the developer-facing AI integration.
+    - Appears in Awesome-LLMOps under IDEs and Workspaces, reinforcing its relevance to AI-assisted developer workflows.
+placement:
+  primary_category: skills
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (539) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.703Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:13.655Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:32:37.845Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,82 @@
+id: github__andrewnguonly__chatabstractions
+kind: github-repo
+name: chatabstractions
+canonical_url: https://github.com/andrewnguonly/chatabstractions
+identity:
+  github_repo: andrewnguonly/chatabstractions
+provenance:
+  discoveries:
+    - id: discovery__github__andrewnguonly__chatabstractions__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Tools
+          - Services
+        anchor_text: ChatAbstractions
+        extracted_url: https://github.com/andrewnguonly/chatabstractions
+        surrounding_text: "- [ChatAbstractions](https://github.com/andrewnguonly/ChatAbstractions): LangChain chat model abstractions for dynamic failover, load balancing, chaos engineering, and more! ![GitHub Repo stars](https://img.shields.io/github/stars/andrewnguonly/ChatAbstractions?style=social)"
+        confidence: high
+metadata:
+  github:
+    stars: 84
+    forks: 5
+    license: MIT
+    archived: false
+    created_at: "2023-11-08T23:46:11Z"
+    pushed_at: "2024-01-29T23:22:00Z"
+    description: LangChain chat model abstractions for dynamic failover, load balancing, chaos engineering, and more!
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:01:03.269Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:03.269Z"
+      bytes: 6539
+insights:
+  summary: A collection of LangChain chat model abstractions that adds runtime behaviors like dynamic failover, load balancing, chaos engineering, and custom routing on top of BaseChatModel.
+  why_it_matters: Developers building with LangChain can更稳定地 run LLM chains by plugging in proven patterns for failover, load balancing, and chaos testing without rewriting their existing model interfaces.
+  mental_damage: Because what every mature LLM-powered app clearly needs is a certified way to inject hallucinated poems on a cron schedule just to keep the team humble.
+  tags:
+    - langchain
+    - resilience
+    - chaos-engineering
+    - llm-routing
+    - sdk
+  confidence: high
+curation:
+  status: included
+  reason: This is an importable Python SDK/library that extends LangChain with reusable code-first building blocks for routing and resilience, making it a clear fit for AI Frameworks and SDKs.
+  evidence:
+    - "Repo description: 'LangChain chat model abstractions for dynamic failover, load balancing, chaos engineering, and more!'"
+    - README shows subclassing of BaseChatModel with implementations like ChatDynamic, ChatLoadBalance, and ChatChaos.
+    - Listed in awesome-langchain under Tools > Services, confirming developer-tooling relevance.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.678Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:03.269Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:08:09.981Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

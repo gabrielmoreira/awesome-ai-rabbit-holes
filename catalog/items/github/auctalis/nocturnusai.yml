@@ -1,0 +1,96 @@
+id: github__auctalis__nocturnusai
+kind: github-repo
+name: nocturnusai
+canonical_url: https://github.com/auctalis/nocturnusai
+identity:
+  github_repo: auctalis/nocturnusai
+provenance:
+  discoveries:
+    - id: discovery__github__auctalis__nocturnusai__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: Auctalis/nocturnusai
+        extracted_url: https://github.com/auctalis/nocturnusai
+        surrounding_text: "- [Auctalis/nocturnusai](https://github.com/Auctalis/nocturnusai) [![Auctalis/nocturnusai MCP server](https://glama.ai/mcp/servers/Auctalis/nocturnusai/badges/score.svg)](https://glama.ai/mcp/servers/Auctalis/nocturnusai) 🐍 🏠 - Deterministic reasoning engine for AI agent context compression. Extracts structured facts with logical inference, proof chains, and truth maintenance. REST API, Python/TypeScript SDKs, and MCP server integration."
+        confidence: high
+metadata:
+  github:
+    stars: 2
+    forks: 0
+    license: NOASSERTION
+    archived: false
+    created_at: "2026-02-19T17:41:50Z"
+    pushed_at: "2026-04-17T21:19:24Z"
+    description: Verified knowledge for AI agents.  Compress context, extract and store facts, define rules, and ask questions — get deterministic answers with proof, not LLM guesses. Connect agents via MCP, Python SDK, TypeSc
+    homepage: https://nocturnus.ai/
+    topics:
+      - agentic-ai
+      - agents
+      - ai-agents
+      - ai-memory
+      - backward-chaining
+      - context-engineering
+      - cost-optimization
+      - inference-engine
+      - knowledge-graph
+      - langchain
+      - logic-programming
+      - mcp
+      - reasoning
+      - truth-maintenance
+    last_checked_at: "2026-05-05T21:01:11.737Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:11.737Z"
+      bytes: 12710
+insights:
+  summary: A context engineering engine and SDK for AI agents that compresses conversation history into deterministic, logic-based fact deltas using backward-chaining inference rather than vector search or summarization.
+  why_it_matters: It claims to reduce token usage by up to 5–10x per turn by sending only inferred facts that changed, directly lowering latency and API costs for agent workflows.
+  mental_damage: We have graduated from prompting to epistemology, where your agent now needs a truth-maintenance system just to remember what you told it three turns ago.
+  tags:
+    - context-engineering
+    - mcp
+    - agent-memory
+    - sdk
+    - logic-inference
+  confidence: medium
+curation:
+  status: included
+  reason: This is a context-shaping and memory-compression system for agents, which fits the context-engineering category explicitly, not a coding agent or app builder.
+  evidence:
+    - Repo description states it 'Compress context, extract and store facts, define rules, and ask questions' for AI agents.
+    - "README positions it as 'The context engineering engine for AI agents: send only what changed' with delta-based token reduction."
+    - Listed in awesome-mcp-servers under Knowledge & Memory, and provides a spec-compliant MCP server.
+placement:
+  primary_category: context-engineering
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.679Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:11.737Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:09:24.542Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

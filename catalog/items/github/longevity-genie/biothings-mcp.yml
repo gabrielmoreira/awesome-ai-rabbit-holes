@@ -1,0 +1,86 @@
+id: github__longevity-genie__biothings-mcp
+kind: github-repo
+name: biothings-mcp
+canonical_url: https://github.com/longevity-genie/biothings-mcp
+identity:
+  github_repo: longevity-genie/biothings-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__longevity-genie__biothings-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - <a name="bio"></a>Biology, Medicine and Bioinformatics
+        anchor_text: longevity-genie/biothings-mcp
+        extracted_url: https://github.com/longevity-genie/biothings-mcp
+        surrounding_text: "- [longevity-genie/biothings-mcp](https://github.com/longevity-genie/biothings-mcp) 🐍 🏠 ☁️ - MCP server to interact with the BioThings API, including genes, genetic variants, drugs, and taxonomic information."
+        confidence: high
+metadata:
+  github:
+    stars: 31
+    forks: 9
+    license: MIT
+    archived: false
+    created_at: "2025-05-03T18:38:29Z"
+    pushed_at: "2025-11-03T20:05:06Z"
+    description: MCP (Model Context Protocol) server for biothings
+    homepage: ""
+    topics:
+      - bioinformatics
+      - biothings
+      - genetic-variants
+      - genetics
+      - mcp-server
+    last_checked_at: "2026-05-05T21:03:23.974Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:23.974Z"
+      bytes: 9946
+insights:
+  summary: An open-source MCP server that provides structured access to BioThings.io biomedical data sources, including gene, variant, chemical, and taxon information.
+  why_it_matters: It allows developers building AI assistants or agents to query authoritative biomedical databases using natural language via the standardized Model Context Protocol.
+  mental_damage: Because nothing says 'streamlined developer workflow' like wrapping niche genetic databases behind a protocol that is somehow both the future and the current source of three weeks of yak-shaving.
+  tags:
+    - mcp
+    - bioinformatics
+    - biomedical
+    - server
+  confidence: high
+curation:
+  status: included
+  reason: This is a dedicated MCP server implementation for biomedical data, fitting cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description explicitly states: 'MCP (Model Context Protocol) server for biothings'."
+    - README confirms it 'implements the Model Context Protocol (MCP) for BioThings' with multiple interfaces (Gene, Variant, Chem).
+    - Listed in awesome-mcp-servers under 'Biology, Medicine and Bioinformatics'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.704Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:23.974Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:34:38.233Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,77 @@
+id: glama__ai__mcp__connectors
+kind: website
+name: connectors
+canonical_url: https://glama.ai/mcp/connectors
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__glama__ai__mcp__connectors__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📂 <a name="browser-automation"></a>Browser Automation
+        anchor_text: hosted endpoint
+        extracted_url: https://glama.ai/mcp/connectors
+        surrounding_text: "- [Metadrama/obscura-mcp](https://github.com/Metadrama/obscura-mcp) [![Metadrama/obscura-mcp MCP server](https://glama.ai/mcp/servers/Metadrama/obscura-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Metadrama/obscura-mcp) 📇 ☁️ 🐧 🪟 🍎 - MCP server adapter for the lightweight Rust headless browser Obscura — high-performance web scraping with anti-detection. Perfect for AI agent automation. Server can run [locally](https://github.com/Metadrama/obscura-mcp) or as [hosted endpoint](https://glama.ai/mcp/connectors)."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A hosted registry and browser interface for discovering and connecting to 3,065+ remote MCP servers that require no local installation.
+  why_it_matters: Developers can browse, filter, and connect to a massive ecosystem of remote MCP servers directly from their AI clients without managing local server configurations.
+  mental_damage: We have successfully abstracted the pain of running MCP servers locally into the pain of choosing which of three thousand nearly identical connectors to trust.
+  tags:
+    - mcp
+    - registry
+    - remote-servers
+    - tool-discovery
+  confidence: high
+curation:
+  status: included
+  reason: This is MCP infrastructure itself—a hosted registry and connector browser for remote MCP servers—which fits the MCP Servers and Tooling category perfectly.
+  evidence:
+    - Title explicitly states 'Remote MCP Servers – 3,065 Connectors' and describes it as the 'official MCP Registry'.
+    - Source list context places it under 'awesome-mcp-servers' in the 'Server Implementations > Browser Automation' section.
+    - The page acts as a directory and connection layer for MCP servers rather than being a coding agent or app builder.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.728Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:44:59.313Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

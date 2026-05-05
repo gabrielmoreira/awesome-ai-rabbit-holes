@@ -1,0 +1,85 @@
+id: github__calderbuild__vibedoc
+kind: github-repo
+name: vibedoc
+canonical_url: https://github.com/calderbuild/vibedoc
+identity:
+  github_repo: calderbuild/vibedoc
+provenance:
+  discoveries:
+    - id: discovery__github__jasonrobertdestiny__vibedoc__awesome-list__engineering4ai__awesome-spec-driven-development
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: Engineering4AI/awesome-spec-driven-development
+        url: https://github.com/engineering4ai/awesome-spec-driven-development
+        repository: Engineering4AI/awesome-spec-driven-development
+      extraction:
+        mode: parsed
+        section_path:
+          - Workflow Management
+        anchor_text: VibeDoc
+        extracted_url: https://github.com/jasonrobertdestiny/vibedoc
+        surrounding_text: "- [VibeDoc](https://github.com/JasonRobertDestiny/VibeDoc) ![](https://img.shields.io/github/stars/JasonRobertDestiny/VibeDoc.svg) - Documentation tool for spec-driven development workflows."
+        confidence: high
+metadata:
+  github:
+    stars: 377
+    forks: 49
+    license: MIT
+    archived: false
+    created_at: "2025-09-06T08:28:19Z"
+    pushed_at: "2025-11-21T13:22:34Z"
+    description: 🚀 Your AI Product Manager & Architect - Transform ideas into complete development plans with AI coding prompts in 60-180 seconds
+    homepage: https://modelscope.cn/studios/JasonRobert/Vibedocs
+    topics:
+      - agent
+      - architect
+      - productmanager
+      - vibecoding
+    last_checked_at: "2026-05-05T21:01:28.669Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:28.669Z"
+      bytes: 11888
+insights:
+  summary: An AI tool that transforms product ideas into structured development plans, architecture diagrams, and ready-to-use coding prompts for assistants like Claude, Cursor, and Copilot.
+  why_it_matters: It operationalizes the 'vibe coding' workflow by bridging the gap between a raw concept and the specific prompts needed to drive modern AI coding agents.
+  mental_damage: We have officially reached the point where we need an AI to generate the prompts required to ask another AI to write the code for the app we haven't fully imagined yet.
+  tags:
+    - product-management
+    - planning
+    - prompts
+    - architecture
+    - spec-driven
+  confidence: high
+curation:
+  status: included
+  reason: "The tool centers on a spec-first loop: taking an idea, generating a technical specification, architecture diagrams, and then producing the prompts to drive execution, fitting the spec-driven development category."
+  evidence:
+    - Repo description states it 'Transform[s] ideas into complete development plans with AI coding prompts'.
+    - README emphasizes 'Intelligent Development Plan Generation' and 'AI Coding Prompt Generation' for tools like Cursor and Claude.
+    - Generates technical documentation, architecture diagrams (Mermaid), and exportable plans before coding begins.
+placement:
+  primary_category: spec-driven-development
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (377) exceeded threshold (150)
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:12:15.816Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.699Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:28.669Z"
+    cause: null
+    next_retry_at: null

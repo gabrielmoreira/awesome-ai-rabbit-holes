@@ -1,0 +1,82 @@
+id: github__muvon__mcp-binance-futures
+kind: github-repo
+name: mcp-binance-futures
+canonical_url: https://github.com/muvon/mcp-binance-futures
+identity:
+  github_repo: muvon/mcp-binance-futures
+provenance:
+  discoveries:
+    - id: discovery__github__muvon__mcp-binance-futures__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: muvon/mcp-binance-futures
+        extracted_url: https://github.com/muvon/mcp-binance-futures
+        surrounding_text: "- [muvon/mcp-binance-futures](https://github.com/muvon/mcp-binance-futures) [![binance](https://glama.ai/mcp/servers/Muvon/mcp-binance-futures/badges/score.svg)](https://glama.ai/mcp/servers/Muvon/mcp-binance-futures) 🐍 ☁️ - MCP server for Binance USDT-M Futures trading — exposes tools for market data, account state, order management, and position/margin control."
+        confidence: high
+metadata:
+  github:
+    stars: 2
+    forks: 0
+    license: Apache-2.0
+    archived: false
+    created_at: "2026-03-10T12:29:36Z"
+    pushed_at: "2026-03-12T11:24:21Z"
+    description: MCP server to trade futures on Binance
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:03:49.265Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:49.265Z"
+      bytes: 5673
+insights:
+  summary: An MCP server that exposes Binance USDT-M Futures trading capabilities—market data, account state, and order/position management—to LLMs via the Model Context Protocol.
+  why_it_matters: It lets developers wire an LLM into a live futures trading account, turning a code assistant into a semi-autonomous crypto trading operator.
+  mental_damage: Because nothing says responsible software engineering like giving a hallucination-prone language model the ability to set 125× leverage and cancel all your orders.
+  tags:
+    - mcp
+    - binance
+    - futures
+    - trading
+    - finance
+  confidence: high
+curation:
+  status: included
+  reason: The project is itself an MCP server implementation for Binance Futures, which fits cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description explicitly states: 'MCP server to trade futures on Binance'."
+    - README confirms it is built with FastMCP and exposes trading tools for LLM integration via MCP.
+    - Listed in awesome-mcp-servers under Finance & Fintech, reinforcing its role as MCP infrastructure.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.708Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:49.265Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:39:34.618Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

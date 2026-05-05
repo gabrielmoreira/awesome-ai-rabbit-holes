@@ -1,0 +1,96 @@
+id: github__paulhkang94__markview
+kind: github-repo
+name: markview
+canonical_url: https://github.com/paulhkang94/markview
+identity:
+  github_repo: paulhkang94/markview
+provenance:
+  discoveries:
+    - id: discovery__github__paulhkang94__markview__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: paulhkang94/markview
+        extracted_url: https://github.com/paulhkang94/markview
+        surrounding_text: "- [paulhkang94/markview](https://github.com/paulhkang94/markview) [![markview MCP server](https://glama.ai/mcp/servers/@paulhkang94/markview/badges/score.svg)](https://glama.ai/mcp/servers/@paulhkang94/markview) 🏠 🍎 - Native macOS markdown preview app with MCP server. Open and render Markdown files in MarkView directly from AI assistants via `npx mcp-server-markview`."
+        confidence: high
+metadata:
+  github:
+    stars: 29
+    forks: 3
+    license: MIT
+    archived: false
+    created_at: "2026-02-16T09:19:08Z"
+    pushed_at: "2026-04-16T17:19:12Z"
+    description: Native macOS markdown preview + MCP server for Claude Code. Swift/SwiftUI, GFM, Mermaid, syntax highlighting. No Electron.
+    homepage: https://paulkang.dev
+    topics:
+      - ai-tools
+      - claude
+      - claude-code
+      - developer-tools
+      - gfm
+      - macos
+      - markdown
+      - markdown-preview
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - native-app
+      - swift
+      - swiftui
+    last_checked_at: "2026-05-05T21:04:13.726Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:13.726Z"
+      bytes: 5808
+insights:
+  summary: A native macOS markdown preview application that includes an MCP server, allowing Claude Code to render and preview markdown content live in a dedicated Swift/SwiftUI window.
+  why_it_matters: It enables coding agents to visualize generated documentation, READMEs, and Mermaid diagrams in real-time without leaving the workflow or relying on Electron-heavy browsers.
+  mental_damage: We have successfully built a native bridge just so the AI can watch its own markdown render, because apparently even the bots need a preview pane to feel productive.
+  tags:
+    - mcp
+    - macos
+    - markdown
+    - swift
+    - claude-code
+  confidence: high
+curation:
+  status: included
+  reason: The primary artifact is an MCP server implementation designed to integrate Claude Code with a native macOS rendering engine, fitting the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description explicitly states: 'Native macOS markdown preview + MCP server for Claude Code.'"
+    - README details the `mcp-server-markview` npm wrapper and tools like `preview_markdown` for AI integration.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.712Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:13.726Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:44:05.520Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

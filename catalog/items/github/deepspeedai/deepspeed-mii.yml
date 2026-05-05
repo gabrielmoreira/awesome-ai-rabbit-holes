@@ -1,0 +1,85 @@
+id: github__deepspeedai__deepspeed-mii
+kind: github-repo
+name: deepspeed-mii
+canonical_url: https://github.com/deepspeedai/deepspeed-mii
+identity:
+  github_repo: deepspeedai/deepspeed-mii
+provenance:
+  discoveries:
+    - id: discovery__github__microsoft__deepspeed-mii__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Serving
+          - Large Model Serving
+        anchor_text: DeepSpeed-MII
+        extracted_url: https://github.com/microsoft/deepspeed-mii
+        surrounding_text: "| [DeepSpeed-MII](https://github.com/microsoft/DeepSpeed-MII)                           | MII makes low-latency and high-throughput inference possible, powered by DeepSpeed.                             | ![GitHub Badge](https://img.shields.io/github/stars/microsoft/DeepSpeed-MII.svg?style=flat-square)               |"
+        confidence: high
+metadata:
+  github:
+    stars: 2109
+    forks: 190
+    license: Apache-2.0
+    archived: false
+    created_at: "2022-03-23T22:30:45Z"
+    pushed_at: "2025-06-30T16:21:45Z"
+    description: MII makes low-latency and high-throughput inference possible, powered by DeepSpeed.
+    homepage: ""
+    topics:
+      - deep-learning
+      - inference
+      - pytorch
+    last_checked_at: "2026-05-05T21:01:51.247Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:51.247Z"
+      bytes: 20477
+insights:
+  summary: DeepSpeed-MII is an open-source Python library that optimizes large language model and image generation inference using techniques like blocked KV-caching, continuous batching, and tensor parallelism to achieve low-latency, high-throughput performance.
+  why_it_matters: It allows developers to serve massive models like Llama-2-70B and Mixtral locally or in infrastructure with significantly higher throughput and lower cost than standard inference stacks.
+  mental_damage: Yet another opportunity to realize that your inference stack is the bottleneck, right before you spend three days debugging CUDA versions to save 200ms of latency.
+  tags:
+    - inference
+    - llm
+    - pytorch
+    - performance
+    - cuda
+  confidence: high
+curation:
+  status: included
+  reason: The project provides the core infrastructure for running and optimizing AI models on local or private hardware, fitting the Local AI scope for developers serving their own models.
+  evidence:
+    - Repo description states it makes 'low-latency and high-throughput inference possible, powered by DeepSpeed.'
+    - README details support for local serving of LLMs (Llama-2-70B, Mixtral) and text2image models (Stable Diffusion) with high-performance CUDA kernels.
+    - Project is active (pushed 2025-06-30) and licensed under Apache-2.0.
+placement:
+  primary_category: local-ai
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (2109) exceeded threshold (150)
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:16:01.344Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.706Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:51.247Z"
+    cause: null
+    next_retry_at: null

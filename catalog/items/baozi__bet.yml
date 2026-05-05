@@ -1,0 +1,76 @@
+id: baozi__bet
+kind: website
+name: baozi.bet
+canonical_url: https://baozi.bet
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__baozi__bet__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: Baozi.bet
+        extracted_url: https://baozi.bet
+        surrounding_text: "- [bolivian-peru/baozi-mcp](https://github.com/bolivian-peru/baozi-mcp) 📇 ☁️ - 68 tools for AI agents to interact with Solana prediction markets on [Baozi.bet](https://baozi.bet) — browse markets, place bets, claim winnings, create markets, and earn affiliate commissions."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Baozi is a prediction market platform built on Solana for trading on crypto, sports, politics, and culture.
+  why_it_matters: While listed in an MCP servers directory, this is a consumer-facing betting platform rather than a developer tool.
+  mental_damage: We have officially reached the point where a Solana betting app is categorized alongside IDE extensions in our quest to index every possible implementation of a protocol.
+  tags:
+    - solana
+    - prediction-markets
+    - betting
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a consumer-facing prediction market and betting platform, not a developer tool, agent, or piece of infrastructure.
+  evidence:
+    - Scraped site context describes it as 'Trade prediction markets on Solana with SOL. Pari-mutuel betting on crypto, sports, politics, culture.'
+    - Source list context places it under 'Finance & Fintech' as a trade/prediction market, not a development tool.
+    - No repository description, README, or evidence of a developer-facing API or MCP server implementation was provided.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.726Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:42:25.734Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

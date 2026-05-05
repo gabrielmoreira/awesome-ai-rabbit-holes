@@ -1,0 +1,98 @@
+id: github__gptme__gptme
+kind: github-repo
+name: gptme
+canonical_url: https://github.com/gptme/gptme
+identity:
+  github_repo: gptme/gptme
+provenance:
+  discoveries:
+    - id: discovery__github__gptme__gptme__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Terminal-native coding agents
+          - Open Source
+        anchor_text: gptme
+        extracted_url: https://github.com/gptme/gptme
+        surrounding_text: "- **[gptme](https://github.com/gptme/gptme)** `⭐ 4.3k` — AI agent in your terminal with support for persistent autonomous agents. Runs code, edits files, browses the web. Build long-lived self-modifying agents with git-backed memory via [gptme-agent-template](https://github.com/gptme/gptme-agent-template)."
+        confidence: high
+metadata:
+  github:
+    stars: 4289
+    forks: 384
+    license: MIT
+    archived: false
+    created_at: "2023-03-24T16:25:01Z"
+    pushed_at: "2026-05-05T12:41:59Z"
+    description: "Your agent in your terminal, equipped with local tools: writes code, uses the terminal, browses the web. Make your own persistent autonomous agent on top!"
+    homepage: https://gptme.org/docs/
+    topics:
+      - agent
+      - agents
+      - ai-agents
+      - ai-assistant
+      - anthropic
+      - chatbot
+      - chatgpt
+      - cli
+      - code-generation
+      - llamacpp
+      - llm
+      - llm-agent
+      - llm-apps
+      - openai
+      - openrouter
+      - rag
+    last_checked_at: "2026-05-05T21:02:26.279Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:26.279Z"
+      bytes: 27758
+insights:
+  summary: A terminal-native AI agent that interacts with local tools like the shell, Python, and web browsing to write code and automate tasks across environments like laptops, servers, and CI pipelines.
+  why_it_matters: It provides a provider-agnostic, local-first coding agent that developers can run anywhere a terminal exists, offering an open-source alternative to managed SaaS coding assistants.
+  mental_damage: Yet another opportunity to watch a CLI agent hallucinate a bash command that nukes your working directory while you sip coffee and pretend you're still the one in control.
+  tags:
+    - cli
+    - local-first
+    - terminal
+    - agent
+    - coding-assistant
+  confidence: high
+curation:
+  status: included
+  reason: The project is a terminal-native coding agent that directly writes, edits, and executes code in the developer's environment, fitting the coding-agents category with a clear CLI focus.
+  evidence:
+    - Repo description states it is 'Your agent in your terminal' that 'writes code, uses the terminal, browses the web'.
+    - README explicitly positions it as 'A personal AI agent that runs anywhere a terminal runs' and a 'capable alternative to Claude Code'.
+    - Listed in the 'awesome-cli-coding-agents' directory under the 'Terminal-native coding agents > Open Source' section.
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (4289) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.689Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:26.279Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:22:36.041Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

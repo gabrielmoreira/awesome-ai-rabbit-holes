@@ -1,0 +1,97 @@
+id: github__codefuturist__email-mcp
+kind: github-repo
+name: email-mcp
+canonical_url: https://github.com/codefuturist/email-mcp
+identity:
+  github_repo: codefuturist/email-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__codefuturist__email-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💬 <a name="communication"></a>Communication
+        anchor_text: codefuturist/email-mcp
+        extracted_url: https://github.com/codefuturist/email-mcp
+        surrounding_text: "- [codefuturist/email-mcp](https://github.com/codefuturist/email-mcp) 📇 ☁️ 🍎 🪟 🐧 - IMAP/SMTP email MCP server with 42 tools for reading, searching, sending, scheduling, and managing emails across multiple accounts. Supports IMAP IDLE push, AI triage, desktop notifications, and auto-detects providers like Gmail, Outlook, and iCloud."
+        confidence: high
+metadata:
+  github:
+    stars: 40
+    forks: 20
+    license: LGPL-3.0
+    archived: false
+    created_at: "2026-02-18T09:07:06Z"
+    pushed_at: "2026-05-04T19:29:03Z"
+    description: Email MCP server with full IMAP + SMTP support — read, search, send, manage, and organize email from any AI assistant via the Model Context Protocol
+    homepage: ""
+    topics:
+      - ai
+      - claude
+      - email
+      - imap
+      - imapflow
+      - llm
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - nodejs
+      - nodemailer
+      - protonmail
+      - protonmail-bridge
+      - smtp
+      - typescript
+    last_checked_at: "2026-05-05T21:01:37.377Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:37.377Z"
+      bytes: 28094
+insights:
+  summary: A Model Context Protocol server that exposes full IMAP and SMTP email capabilities, allowing AI assistants to read, search, send, schedule, and triage messages across multiple accounts.
+  why_it_matters: It turns a generic coding agent into an email client, letting you automate entire communication workflows like triage, follow-ups, and calendar extraction directly from your assistant.
+  mental_damage: "We have finally achieved the future: your AI can now silently read your inbox, judge your pending replies, and schedule emails while you wonder if you are the one working for the agent."
+  tags:
+    - mcp
+    - email
+    - imap
+    - smtp
+    - typescript
+  confidence: high
+curation:
+  status: included
+  reason: The project is a standalone MCP server providing email tooling for AI assistants, which fits cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description explicitly states: 'Email MCP server with full IMAP + SMTP support'."
+    - README confirms it is an MCP server exposing 47 tools, 7 prompts, and 6 resources over the MCP protocol.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Communication'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.683Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:37.377Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:13:44.384Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

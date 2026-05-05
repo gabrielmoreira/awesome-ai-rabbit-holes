@@ -1,0 +1,98 @@
+id: github__antinomyhq__forge
+kind: github-repo
+name: forge
+canonical_url: https://github.com/antinomyhq/forge
+identity:
+  github_repo: antinomyhq/forge
+provenance:
+  discoveries:
+    - id: discovery__github__antinomyhq__forge__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Terminal-native coding agents
+          - Open Source
+        anchor_text: ForgeCode
+        extracted_url: https://github.com/antinomyhq/forge
+        surrounding_text: "- **[ForgeCode](https://github.com/antinomyhq/forge)** `⭐ 7.2k` — AI pair programmer supporting 300+ models, with task management, custom agents, and large-scale refactor tooling."
+        confidence: high
+metadata:
+  github:
+    stars: 7203
+    forks: 1421
+    license: Apache-2.0
+    archived: false
+    created_at: "2024-12-08T20:33:37Z"
+    pushed_at: "2026-05-05T20:39:50Z"
+    description: AI enabled pair programmer for Claude, GPT, O Series, Grok, Deepseek, Gemini and 300+ models
+    homepage: https://forgecode.dev
+    topics:
+      - ai-pair-programming
+      - ai-workflows
+      - artifical-intelligense
+      - claude-3-7-sonnet
+      - claude-4
+      - claude-4-sonnet
+      - cli-assistant
+      - command-line
+      - grok
+      - llm
+      - multi-agent-reinforcement-learning
+      - open-router
+      - open-source-claude-code
+      - openai
+      - qwen
+      - shell
+    last_checked_at: "2026-05-05T21:01:04.548Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:04.548Z"
+      bytes: 39804
+insights:
+  summary: A terminal-based AI coding agent and interactive development environment that supports 300+ models including Claude, GPT, and Gemini for code understanding, generation, debugging, and review.
+  why_it_matters: It gives developers a model-agnostic CLI and TUI alternative to proprietary coding assistants, with multi-agent workflows, ZSH integration, and MCP support built in.
+  mental_damage: Another day, another CLI agent promising to be your pair programmer—because clearly what every terminal needed was 300 ways to hallucinate a missing semicolon.
+  tags:
+    - cli
+    - coding-agent
+    - multi-model
+    - terminal
+    - tui
+  confidence: high
+curation:
+  status: included
+  reason: Forge is a terminal-native coding agent that directly plans, writes, edits, reviews, and debugs code in a developer's repo via CLI, TUI, and ZSH plugin modes, fitting the coding-agents category cleanly.
+  evidence:
+    - "Repo description: 'AI enabled pair programmer for Claude, GPT, O Series, Grok, Deepseek, Gemini and 300+ models'"
+    - "README: 'A comprehensive coding agent that integrates AI capabilities with your development environment' with interactive TUI, one-shot CLI, and ZSH plugin modes"
+    - Listed in awesome-cli-coding-agents under 'Terminal-native coding agents > Open Source'
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (7203) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.440Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:04.548Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:08:20.965Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

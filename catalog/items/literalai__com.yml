@@ -1,0 +1,75 @@
+id: literalai__com
+kind: website
+name: literalai.com
+canonical_url: https://literalai.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__literalai__com__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - LLMOps
+        anchor_text: Literal AI
+        extracted_url: https://literalai.com
+        surrounding_text: "| [Literal AI](https://literalai.com/)                               | Multi-modal LLM observability and evaluation platform. Create prompt templates, deploy prompts versions, debug LLM runs, create datasets, run evaluations, monitor LLM metrics and collect human feedback.                                                                                                                                                                                              |                                                                                                           |"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: LiteralAI is a platform for observing, evaluating, and managing LLM applications, included in the Awesome-LLMOps ecosystem.
+  why_it_matters: It provides developers with the observability and evaluation infrastructure needed to monitor, debug, and improve production LLM workflows.
+  mental_damage: Yet another dashboard promising to tame the chaos of your prompts, right alongside the five other LLMOps tools you bookmarked and never deployed.
+  tags:
+    - llmops
+    - observability
+    - evaluation
+    - platform
+  confidence: medium
+curation:
+  status: included
+  reason: Fits the Evaluations and Benchmarks category as a platform for observing and evaluating LLM behavior in production workflows, aligning with the Awesome-LLMOps listing.
+  evidence:
+    - Listed under 'LLMOps' in the Awesome-LLMOps awesome list.
+    - URL points to literalai.com, indicating a hosted platform rather than a local tool or code framework.
+placement:
+  primary_category: evals
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.728Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:45:56.815Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

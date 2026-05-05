@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__cyberchitta__llm-context.py__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-01T13:51:25.374Z"
+      discovered_at: "2026-05-05T19:41:00.656Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [cyberchitta/llm-context.py](https://github.com/cyberchitta/llm-context.py) 🐍 🏠 - Share code context with LLMs via MCP or clipboard"
         confidence: high
     - id: discovery__github__cyberchitta__llm-context.py__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-01T13:51:25.374Z"
+      discovered_at: "2026-05-05T19:41:00.656Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -38,16 +38,15 @@ provenance:
         surrounding_text: "- **[llm-context](https://github.com/cyberchitta/llm-context.py)** - Share code context with LLMs via Model Context Protocol or clipboard."
         confidence: high
     - id: discovery__github__cyberchitta__llm-context.py__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-01T13:51:25.374Z"
+      discovered_at: "2026-05-05T19:41:00.656Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
-        url: https://github.com/MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
         repository: MobinX/awesome-mcp-list
       extraction:
         mode: parsed
         section_path:
-          - null
           - 📂 File Systems
         anchor_text: cyberchitta/llm-context.py
         extracted_url: https://github.com/cyberchitta/llm-context.py
@@ -69,31 +68,50 @@ metadata:
       - coding
       - model-context-protocol
       - tools
-    last_checked_at: "2026-05-01T13:51:51.653Z"
+    last_checked_at: "2026-05-05T21:01:44.586Z"
     readme:
-      fetched_at: "2026-05-01T13:51:51.653Z"
+      fetched_at: "2026-05-05T21:01:44.586Z"
       bytes: 11113
 insights:
-  summary: A Python CLI and MCP server that selects, filters, outlines, and shares project code context with LLMs via clipboard or the Model Context Protocol.
-  why_it_matters: It reduces the manual “find files, paste chunks, hit token limits” loop by letting developers generate task-specific context and let chat-based agents fetch additional files on demand via MCP.
-  mental_damage: Finally, a tool that turns “please paste the relevant files” into a configurable rules engine—so you can spend your afternoon debugging YAML instead of auth.
+  summary: A CLI tool and MCP server that builds task-specific context bundles from a codebase using rule-based filtering, smart outlining, and clipboard or MCP output for LLM workflows.
+  why_it_matters: It reduces the friction of manually hunting, copying, and curating files by letting developers and agents define reusable rules that select, outline, and deliver the right code context for reviews, debugging, and task-focused sessions.
+  mental_damage: We have finally built a tool to manage the context we only need because the models can’t remember the repo we just opened.
   tags:
     - mcp
-    - context-engineering
+    - context-management
     - cli
-    - python
-    - developer-workflow
+    - rules
+    - llm-workflow
   confidence: high
 curation:
   status: included
-  reason: It directly supports developer LLM workflows by providing an MCP server + CLI for structured context sharing and on-demand file retrieval, making it a clear fit for the MCP tooling category.
+  reason: The project is primarily an MCP server and toolkit for context management, not a coding agent or generic extension, and it is explicitly curated in MCP awesome lists under file systems and server implementations.
   evidence:
-    - "Repo description: shares code with LLMs via Model Context Protocol or clipboard with rule-based customization and code outlining"
-    - "README: provides MCP tools like lc_outlines / lc_preview / lc_missing to explore structure and fetch files during chat"
-    - Not archived and recently active (pushed 2026-04-28) with moderate traction (299 stars) and listed in multiple awesome MCP server lists
+    - "Repo description: 'Share code with LLMs via Model Context Protocol or clipboard' with MCP listed in topics."
+    - README demonstrates MCP integration via lc-mcp for Claude Desktop and provides MCP tools like lc_outlines and lc_missing.
+    - Included in awesome-mcp-list and awesome-mcp-servers under File Systems and Community Servers sections.
 placement:
   primary_category: mcp
   section: null
 lifecycle:
   status: promotion_candidate
   reason: Stars (299) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.659Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:44.586Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:15:00.591Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

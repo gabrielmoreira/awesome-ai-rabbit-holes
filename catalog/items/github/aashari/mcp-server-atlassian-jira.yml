@@ -1,0 +1,102 @@
+id: github__aashari__mcp-server-atlassian-jira
+kind: github-repo
+name: mcp-server-atlassian-jira
+canonical_url: https://github.com/aashari/mcp-server-atlassian-jira
+identity:
+  github_repo: aashari/mcp-server-atlassian-jira
+provenance:
+  discoveries:
+    - id: discovery__github__aashari__mcp-server-atlassian-jira__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: aashari/mcp-server-atlassian-jira
+        extracted_url: https://github.com/aashari/mcp-server-atlassian-jira
+        surrounding_text: "- [aashari/mcp-server-atlassian-jira](https://github.com/aashari/mcp-server-atlassian-jira) 📇 ☁️ - Atlassian Jira Cloud integration. Enables AI systems to interact with Jira projects, issues, comments, and related development information in real time."
+        confidence: high
+metadata:
+  github:
+    stars: 68
+    forks: 26
+    license: null
+    archived: false
+    created_at: "2025-03-23T11:55:53Z"
+    pushed_at: "2026-03-06T07:29:55Z"
+    description: Node.js/TypeScript MCP server for Atlassian Jira. Equips AI systems (LLMs) with tools to list/get projects, search/get issues (using JQL/ID), and view dev info (commits, PRs). Connects AI capabilities directly into Jira project management and issue tracking workflows.
+    homepage: null
+    topics:
+      - ai
+      - ai-connector
+      - ai-integration
+      - anthropic
+      - atlassian
+      - claude
+      - cli
+      - external-tools
+      - issue-tracking
+      - jira
+      - llm
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - project-management
+      - resources
+      - server
+      - tooling
+      - tools
+      - typescript
+    last_checked_at: "2026-05-05T21:00:46.390Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:46.390Z"
+      bytes: 15911
+insights:
+  summary: A Node.js/TypeScript MCP server that exposes Atlassian Jira projects, issues, and development info to AI assistants like Claude and Cursor via the Model Context Protocol.
+  why_it_matters: It lets developers query, create, and update Jira issues using natural language through their existing AI assistants instead of context-switching to the Jira UI.
+  mental_damage: We have successfully abstracted away the Jira interface, meaning you can now procrastinate on your tickets using conversational AI instead of clicking through a bloated web app.
+  tags:
+    - mcp
+    - jira
+    - atlassian
+    - typescript
+    - integration
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server implementation designed to integrate Jira with AI assistants, which fits precisely into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description identifies it as a 'Node.js/TypeScript MCP server for Atlassian Jira' with tools for projects and issues.
+    - README demonstrates configuration for Claude Desktop and other AI assistants via the MCP standard.
+    - Listed in awesome-mcp-servers under 'Developer Tools', confirming its role in the MCP ecosystem.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.676Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:46.390Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:05:23.039Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

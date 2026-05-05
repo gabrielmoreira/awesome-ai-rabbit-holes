@@ -1,0 +1,86 @@
+id: github__openclaw__peekaboo
+kind: github-repo
+name: peekaboo
+canonical_url: https://github.com/openclaw/peekaboo
+identity:
+  github_repo: openclaw/peekaboo
+provenance:
+  discoveries:
+    - id: discovery__github__steipete__peekaboo__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: Peekaboo
+        extracted_url: https://github.com/steipete/peekaboo
+        surrounding_text: "- **[Peekaboo](https://github.com/steipete/Peekaboo)** - a macOS-only MCP server that enables AI agents to capture screenshots of applications, or the entire system."
+        confidence: high
+metadata:
+  github:
+    stars: 3247
+    forks: 233
+    license: MIT
+    archived: false
+    created_at: "2025-05-22T16:09:06Z"
+    pushed_at: "2026-05-05T19:39:52Z"
+    description: Peekaboo is a macOS CLI & optional MCP server that enables AI agents to capture screenshots of applications, or the entire system, with optional visual question answering through local or remote AI models.
+    homepage: http://www.peekaboo.boo/
+    topics:
+      - ai
+      - macos
+      - mcp
+      - screenshots
+      - swift
+    last_checked_at: "2026-05-05T21:04:05.114Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:05.114Z"
+      bytes: 8336
+insights:
+  summary: A macOS CLI and MCP server that enables AI agents to capture high-fidelity screenshots, analyze screen content with vision models, and automate GUI interactions like clicking and typing.
+  why_it_matters: It gives coding agents and automation workflows the ability to see and control macOS GUI applications through a standardized MCP interface, bridging the gap between code execution and visual interface interaction.
+  mental_damage: We've finally automated the 'look at the screen and click things' part of the job that nobody wanted, yet somehow the machine still needs three AI models and Accessibility permissions to do what a sleep-deprived intern could do in five minutes.
+  tags:
+    - macos
+    - mcp
+    - screen-capture
+    - gui-automation
+    - vision
+  confidence: high
+curation:
+  status: included
+  reason: The primary artifact is an MCP server that exposes macOS screen capture and GUI automation as tools for Claude Desktop, Cursor, and other MCP-compatible clients.
+  evidence:
+    - Repo description explicitly states it is 'a macOS CLI & optional MCP server'
+    - README emphasizes 'MCP server for Claude Desktop and Cursor plus a native CLI; the same tools in both'
+    - Provides explicit Claude Desktop MCP configuration snippet in the quick start section
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (3247) exceeded threshold (150)
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:42:36.001Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.718Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:05.114Z"
+    cause: null
+    next_retry_at: null

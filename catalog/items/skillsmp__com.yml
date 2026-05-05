@@ -1,0 +1,79 @@
+id: skillsmp__com
+kind: website
+name: skillsmp.com
+canonical_url: https://skillsmp.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__skillsmp__com__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 技能 Skills
+        anchor_text: Skillsmp
+        extracted_url: https://skillsmp.com
+        surrounding_text: 3. [Skillsmp](https://skillsmp.com/)
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A searchable marketplace and directory for discovering over 1.2 million open-source agent skills compatible with Claude Code, OpenAI Codex CLI, and ChatGPT using the SKILL.md standard.
+  why_it_matters: It provides a centralized registry and API to find, filter, and install modular AI capabilities, saving developers from digging through scattered GitHub repositories to extend their coding assistants.
+  mental_damage: Just when you thought your AI assistant was smart enough, you now have 1.2 million additional 'skills' to browse, evaluate, and inevitably second-guess your choices over.
+  tags:
+    - skills
+    - marketplace
+    - claude-code
+    - codex
+    - directory
+  confidence: high
+curation:
+  status: included
+  reason: It is a dedicated directory and registry for reusable AI developer skills (SKILL.md format) for tools like Claude Code and Codex CLI, which fits the skills category perfectly.
+  evidence:
+    - Scraped site title and description explicitly call it an 'Agent Skills Marketplace' for Claude, Codex, and ChatGPT.
+    - FAQ states 'Skills are modular capabilities that extend AI coding assistants' using the open SKILL.md standard.
+    - Listed in awesome-LLM-resources under the '技能 Skills' section referencing the same ecosystem.
+placement:
+  primary_category: skills
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.730Z"
+    cause:
+      type: ambiguous_canonicalization
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T20:27:13.194Z"
+    cause: null
+    attempts: 3
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 753a9feca783
+    next_retry_at: null

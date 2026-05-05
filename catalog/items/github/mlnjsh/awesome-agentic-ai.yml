@@ -1,0 +1,92 @@
+id: github__mlnjsh__awesome-agentic-ai
+kind: github-repo
+name: awesome-agentic-ai
+canonical_url: https://github.com/mlnjsh/awesome-agentic-ai
+identity:
+  github_repo: mlnjsh/awesome-agentic-ai
+provenance:
+  discoveries:
+    - id: discovery__github__mlnjsh__awesome-agentic-ai__awesome-list__vivy-yi__awesome-agent-orchestration
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: vivy-yi/awesome-agent-orchestration
+        url: https://github.com/vivy-yi/awesome-agent-orchestration
+        repository: vivy-yi/awesome-agent-orchestration
+      extraction:
+        mode: parsed
+        section_path:
+          - Related Awesome Lists
+        anchor_text: awesome-agentic-ai
+        extracted_url: https://github.com/mlnjsh/awesome-agentic-ai
+        surrounding_text: "- [awesome-agentic-ai](https://github.com/mlnjsh/awesome-agentic-ai) - Agentic AI frameworks and papers"
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 0
+    license: null
+    archived: false
+    created_at: "2026-02-22T04:33:39Z"
+    pushed_at: "2026-03-25T12:20:56Z"
+    description: A curated list of Agentic AI frameworks, papers, tools, and resources for building autonomous AI agents
+    homepage: null
+    topics:
+      - agentic-ai
+      - ai-agents
+      - ai-frameworks
+      - artificial-intelligence
+      - autogen
+      - autonomous-agents
+      - awesome-list
+      - crewai
+      - langchain
+      - llm
+      - multi-agent
+      - research
+    last_checked_at: "2026-05-05T21:03:43.839Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:43.839Z"
+      bytes: 11354
+insights:
+  summary: A curated awesome list of frameworks, papers, tools, and resources for building autonomous AI agents.
+  why_it_matters: It serves as a structured map through the rapidly expanding and chaotic ecosystem of agentic AI libraries and research.
+  mental_damage: "Just what the ecosystem needed: another list to star and ignore while you manually glue LangChain to a vector database for the third time this month."
+  tags:
+    - awesome-list
+    - agentic-ai
+    - multi-agent
+    - resources
+  confidence: high
+curation:
+  status: included
+  reason: This is a curated directory/meta-list of AI resources and tools, which fits the awesome-awesomes category as a navigation aid for developers.
+  evidence:
+    - Repo description explicitly states 'A curated list of Agentic AI frameworks, papers, tools, and resources'.
+    - README is structured as an awesome list with sections for Frameworks, Papers, and Architectures rather than a functional tool.
+    - Listed in the 'awesome-agent-orchestration' source list under 'Related Awesome Lists'.
+placement:
+  primary_category: awesome-awesomes
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.707Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:43.839Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:38:29.530Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

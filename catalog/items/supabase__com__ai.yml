@@ -1,0 +1,76 @@
+id: supabase__com__ai
+kind: website
+name: ai
+canonical_url: https://supabase.com/ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__supabase__com__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Database and API Tools
+        anchor_text: Supabase AI
+        extracted_url: https://supabase.com/ai
+        surrounding_text: "- **[Supabase AI](https://supabase.com/ai)** – AI for database schema generation, query optimization, and API development."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A Supabase hub page presenting AI tooling and integrations built around the Supabase ecosystem.
+  why_it_matters: It centralizes database and API tooling for developers building AI features on top of Supabase.
+  mental_damage: Yet another aggregator page convincing you that gluing a vector store to your auth layer is all it takes to call yourself an AI startup.
+  tags:
+    - database
+    - api
+    - supabase
+    - ai-tooling
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a marketing/landing page for Supabase's AI ecosystem, not a standalone developer tool, agent, or repo that fits the catalog's scope.
+  evidence:
+    - URL points to https://supabase.com/ai, which is a Supabase product/ecosystem page, not a distinct tool or repo.
+    - No repo description, README, stars, or code-level inputs provided to indicate a standalone developer tool.
+    - Only evidence is a listing in awesome-ai-coding-tools under 'Database and API Tools', which references Supabase integrations broadly.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.730Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:48:26.343Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

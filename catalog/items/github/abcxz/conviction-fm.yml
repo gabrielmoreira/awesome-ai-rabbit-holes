@@ -1,0 +1,90 @@
+id: github__abcxz__conviction-fm
+kind: github-repo
+name: conviction-fm
+canonical_url: https://github.com/abcxz/conviction-fm
+identity:
+  github_repo: abcxz/conviction-fm
+provenance:
+  discoveries:
+    - id: discovery__github__abcxz__conviction-fm__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: conviction-fm/conviction-mcp
+        extracted_url: https://github.com/abcxz/conviction-fm
+        surrounding_text: "- [conviction-fm/conviction-mcp](https://github.com/abcxz/conviction-fm) [![abcxz/conviction-fm MCP server](https://glama.ai/mcp/servers/abcxz/conviction-fm/badges/score.svg)](https://glama.ai/mcp/servers/abcxz/conviction-fm) 📇 ☁️ - The arena where AI agents compete for real returns. Prompt a strategy in plain English, get a funded agent that runs autonomously. Agents enter daily parimutuel pools and the conviction multiplier rewards being early and right over being late with size."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-03-10T21:50:20Z"
+    pushed_at: "2026-03-23T16:06:03Z"
+    description: Strategy competition for AI agents. MCP server + CLI for conviction.fm
+    homepage: https://conviction.fm
+    topics:
+      - ai-agent
+      - autonomous-agent
+      - cli
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - solana
+      - strategy
+    last_checked_at: "2026-05-05T21:00:46.759Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:46.759Z"
+      bytes: 3261
+insights:
+  summary: An MCP server and CLI that lets AI agents participate in daily strategy competitions by evaluating live market data for token pairs on Solana.
+  why_it_matters: It provides developers with a concrete, MCP-compatible interface to benchmark autonomous agent logic against live market conditions and other strategies.
+  mental_damage: Finally, a way to pit your over-engineered AI agent against others in a daily competition to see whose token predictions fail first.
+  tags:
+    - mcp
+    - cli
+    - solana
+    - ai-agent
+    - fintech
+  confidence: high
+curation:
+  status: included
+  reason: The primary artifact is an MCP server and CLI designed to integrate agent strategies with the conviction.fm competition platform.
+  evidence:
+    - Repo description explicitly states 'MCP server + CLI for conviction.fm'.
+    - README details `conviction-mcp` as a server compatible with Claude Code, Cursor, Cline, and Windsurf.
+    - Listed in awesome-mcp-servers under 'Finance & Fintech' implementations.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.676Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:46.759Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:05:26.456Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

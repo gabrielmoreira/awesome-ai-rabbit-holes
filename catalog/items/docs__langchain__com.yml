@@ -1,0 +1,76 @@
+id: docs__langchain__com
+kind: website
+name: docs.langchain.com
+canonical_url: https://docs.langchain.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__docs__langchain__com__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - LangChain Framework
+        anchor_text: Concepts
+        extracted_url: https://docs.langchain.com/docs
+        surrounding_text: "- [Concepts](https://docs.langchain.com/docs/): Langchain concepts doc"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: The official documentation hub for the LangChain ecosystem, covering the LangSmith observability platform, LangGraph orchestration, and LangChain frameworks for building AI agents.
+  why_it_matters: It serves as the central reference for developers implementing agent engineering workflows, tracing, and evaluation using the industry-standard LangChain stack.
+  mental_damage: Memorizing yet another framework's documentation hierarchy just to figure out if you should be using Agents, Deep Agents, Graphs, or just raw Python today.
+  tags:
+    - langchain
+    - documentation
+    - agents
+    - observability
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a documentation website for a framework ecosystem, not a standalone tool, agent, or developer-facing product itself.
+  evidence:
+    - The URL resolves to docs.langchain.com, identified as 'Home - Docs by LangChain'.
+    - The content is a documentation index and product overview for LangChain/LangSmith, not an installable tool or SaaS product.
+    - Appears in awesome-langchain as a reference link for the framework documentation, not as a tool entry.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.727Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:44:11.671Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

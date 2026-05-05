@@ -1,0 +1,76 @@
+id: www__base44__com
+kind: website
+name: www.base44.com
+canonical_url: https://www.base44.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__base44__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - App Builders
+        anchor_text: base44
+        extracted_url: https://www.base44.com
+        surrounding_text: "- **[base44](https://www.base44.com/)** – AI-native software development OS for startups."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Base44 is a browser-first AI app builder that generates and deploys entire applications, sites, and internal tools from text prompts.
+  why_it_matters: It allows developers to rapidly prototype and ship functional web applications without manually scaffolding boilerplate code or configuring deployment pipelines.
+  mental_damage: Yet another chance to realize that while the AI can ship the MVP in minutes, you'll still be the one explaining to stakeholders why the tech debt is insurmountable six weeks later.
+  tags:
+    - app-builder
+    - prompt-to-app
+    - prototyping
+    - deployment
+  confidence: high
+curation:
+  status: included
+  reason: The product is a hosted, browser-first platform for turning prompts into full deployed applications, which matches the app-builders category criteria and its listing in awesome-ai-coding-tools under App Builders.
+  evidence:
+    - URL is https://www.base44.com, indicating a hosted SaaS product rather than a local IDE tool.
+    - Listed in awesome-ai-coding-tools under the 'App Builders' section.
+    - The catalog instruction for app-builders explicitly covers browser-first products that turn prompts into full apps and deployed tools.
+placement:
+  primary_category: app-builders
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.731Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:49:49.116Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

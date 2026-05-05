@@ -1,0 +1,88 @@
+id: github__microsoft__taskweaver
+kind: github-repo
+name: taskweaver
+canonical_url: https://github.com/microsoft/taskweaver
+identity:
+  github_repo: microsoft/taskweaver
+provenance:
+  discoveries:
+    - id: discovery__github__microsoft__taskweaver__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Other LLM Frameworks
+        anchor_text: TaskWeaver
+        extracted_url: https://github.com/microsoft/taskweaver
+        surrounding_text: "- [TaskWeaver](https://github.com/microsoft/TaskWeaver): A code-first agent framework for seamlessly planning and executing data analytics tasks. ![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/TaskWeaver?style=social)"
+        confidence: high
+metadata:
+  github:
+    stars: 6158
+    forks: 774
+    license: MIT
+    archived: true
+    created_at: "2023-09-11T03:17:38Z"
+    pushed_at: "2026-03-23T06:17:21Z"
+    description: "The first \"code-first\" agent framework for seamlessly planning and executing data analytics tasks. "
+    homepage: https://microsoft.github.io/TaskWeaver/
+    topics:
+      - agent
+      - ai-agents
+      - code-interpreter
+      - copilot
+      - data-analysis
+      - llm
+      - openai
+    last_checked_at: "2026-05-05T21:03:39.675Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:39.675Z"
+      bytes: 14759
+insights:
+  summary: TaskWeaver is a code-first agent framework from Microsoft that plans and executes data analytics tasks by generating and running code snippets while maintaining chat and execution history.
+  why_it_matters: It provides developers with a stateful framework to build agents that handle complex data structures and plugin coordination using an importable Python SDK.
+  mental_damage: Yet another 'code-first' agent framework enters the arena, graciously offering us the chance to spend three days configuring roles and memory just to answer a question about a CSV.
+  tags:
+    - agent-framework
+    - data-analysis
+    - python
+    - microsoft
+    - plugins
+  confidence: high
+curation:
+  status: excluded
+  reason: The repo is archived, and as a framework for building data analytics agents rather than a tool for editing code or building apps, it falls outside the catalog's core developer-tooling scope.
+  evidence:
+    - Repo is marked as archived, indicating it is no longer actively maintained.
+    - Description and README define it as a 'code-first agent framework' for data analytics, not a developer coding assistant or IDE tool.
+    - Listed in awesome-langchain under 'Other LLM Frameworks', confirming its identity as a building block rather than a direct developer utility.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: needs_review
+  reason: Repository is archived
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.707Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:39.675Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:37:38.746Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,76 @@
+id: awesome__copilot__github__com__skills
+kind: website
+name: skills
+canonical_url: https://awesome-copilot.github.com/skills
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__awesome__copilot__github__com__skills__awesome-list__github__awesome-copilot
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: github/awesome-copilot
+        url: https://github.com/github/awesome-copilot
+        repository: github/awesome-copilot
+      extraction:
+        mode: parsed
+        section_path:
+          - What's in this repo
+        anchor_text: All skills →
+        extracted_url: https://awesome-copilot.github.com/skills
+        surrounding_text: "| 🎯 [Skills](docs/README.skills.md) | Self-contained folders with instructions and bundled assets | [All skills →](https://awesome-copilot.github.com/skills) |"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A directory and registry of reusable skill packs, rules bundles, and command packs designed to extend GitHub Copilot's capabilities.
+  why_it_matters: It provides a centralized way for developers to discover and plug pre-built behaviors into Copilot, reducing the need to hand-craft every custom instruction from scratch.
+  mental_damage: We have successfully abstracted software engineering into managing a portfolio of prompt packs for an AI that occasionally forgets how to close a tag.
+  tags:
+    - copilot
+    - skills
+    - rules
+    - prompt-extensions
+  confidence: high
+curation:
+  status: included
+  reason: The project is a directory/registry of reusable skill packs and rules bundles for GitHub Copilot, which aligns perfectly with the 'skills' category definition.
+  evidence:
+    - Site URL is https://awesome-copilot.github.com/skills, indicating a skills-focused registry.
+    - Found in the 'awesome-copilot' source list under the section 'What's in this repo'.
+    - The name 'skills' and context imply a distribution unit of reusable skill content rather than a primary coding agent.
+placement:
+  primary_category: skills
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.726Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T20:27:12.621Z"
+    cause: null
+    attempts: 3
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 753a9feca783
+    next_retry_at: null

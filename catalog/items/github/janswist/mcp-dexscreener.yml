@@ -1,0 +1,81 @@
+id: github__janswist__mcp-dexscreener
+kind: github-repo
+name: mcp-dexscreener
+canonical_url: https://github.com/janswist/mcp-dexscreener
+identity:
+  github_repo: janswist/mcp-dexscreener
+provenance:
+  discoveries:
+    - id: discovery__github__janswist__mcp-dexscreener__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: janswist/mcp-dexscreener
+        extracted_url: https://github.com/janswist/mcp-dexscreener
+        surrounding_text: "- [janswist/mcp-dexscreener](https://github.com/janswist/mcp-dexscreener) 📇 ☁️ - Real-time on-chain market prices using open and free Dexscreener API"
+        confidence: high
+metadata:
+  github:
+    stars: 17
+    forks: 5
+    license: null
+    archived: false
+    created_at: "2025-04-07T13:02:51Z"
+    pushed_at: "2025-04-07T14:02:17Z"
+    description: Dexscreener API's MCP server - let your AI agent check any on-chain price using Dexscreener's free and open API
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:02:51.423Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:51.423Z"
+      bytes: 1075
+insights:
+  summary: A Model Context Protocol server that exposes the Dexscreener API, allowing AI agents to query on-chain token prices and trading pair data.
+  why_it_matters: It enables developers to give their local AI agents real-time crypto market data access without needing to write custom API integration code.
+  mental_damage: We have successfully abstracted the act of checking coin prices into a protocol handshake, ensuring your AI can now panic about market volatility on your behalf.
+  tags:
+    - mcp
+    - crypto
+    - api
+    - tooling
+  confidence: high
+curation:
+  status: included
+  reason: This is a dedicated MCP server implementation for a specific API, fitting cleanly into the MCP infrastructure category.
+  evidence:
+    - Repo description explicitly states 'Dexscreener API's MCP server'.
+    - README details setup for Claude Desktop and usage with the MCP Inspector.
+    - Listed in the awesome-mcp-servers directory under Finance & Fintech.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.699Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:51.423Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:27:41.359Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

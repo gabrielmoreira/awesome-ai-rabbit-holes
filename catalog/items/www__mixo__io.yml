@@ -1,0 +1,76 @@
+id: www__mixo__io
+kind: website
+name: www.mixo.io
+canonical_url: https://www.mixo.io
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__mixo__io__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: janhq/awesome-local-ai
+        url: https://github.com/janhq/awesome-local-ai
+        repository: janhq/awesome-local-ai
+      extraction:
+        mode: parsed
+        section_path:
+          - Developer tools
+        anchor_text: Mixo.io
+        extracted_url: https://mixo.io
+        surrounding_text: "- [Mixo.io](https://mixo.io/?via=futurepedia) - AI website builder."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Mixo is a browser-based AI website builder that generates complete business websites, including pages, content, and contact forms, from a short text description.
+  why_it_matters: It allows developers to spin up lead-generating landing pages and marketing sites for side projects or clients in seconds without touching HTML or CSS.
+  mental_damage: We’ve reached a point where 'no coding needed' is the primary selling point for a tool listed in a directory of developer resources.
+  tags:
+    - website-builder
+    - no-code
+    - ai-generated
+    - marketing
+  confidence: high
+curation:
+  status: included
+  reason: The product is a browser-first SaaS that turns prompts into deployed websites, which fits the app-builders category for site generation tools.
+  evidence:
+    - Scraped site describes it as an 'AI Website Builder' that builds a 'complete business website in seconds' from a description.
+    - Source list context identifies it as a tool to 'Create a professional business website in minutes... No coding needed.'
+    - The interface is hosted (www.mixo.io) and focuses on generating whole sites rather than editing code in a repo or IDE.
+placement:
+  primary_category: app-builders
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.733Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:52:07.876Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

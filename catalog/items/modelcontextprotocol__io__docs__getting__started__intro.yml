@@ -1,0 +1,93 @@
+id: modelcontextprotocol__io__docs__getting__started__intro
+kind: website
+name: intro
+canonical_url: https://modelcontextprotocol.io/docs/getting-started/intro
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__modelcontextprotocol__io__docs__getting__started__intro__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - What is MCP?
+        anchor_text: MCP
+        extracted_url: https://modelcontextprotocol.io
+        surrounding_text: "[MCP](https://modelcontextprotocol.io/) is an open protocol that enables AI models to securely interact with local and remote resources through standardized server implementations. This list focuses on production-ready and experimental MCP servers that extend AI capabilities through file access, database connections, API integrations, and other contextual services."
+        confidence: high
+    - id: discovery__modelcontextprotocol__io__docs__getting__started__intro__awesome-list__vivy-yi__awesome-agent-orchestration
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: vivy-yi/awesome-agent-orchestration
+        url: https://github.com/vivy-yi/awesome-agent-orchestration
+        repository: vivy-yi/awesome-agent-orchestration
+      extraction:
+        mode: parsed
+        section_path:
+          - SEO Keywords
+          - Popular Protocols
+        anchor_text: MCP
+        extracted_url: https://modelcontextprotocol.io
+        surrounding_text: "- [MCP](https://modelcontextprotocol.io/) - Model Context Protocol"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: The Model Context Protocol (MCP) is an open-source standard that provides a universal interface for connecting AI applications to external data sources, tools, and workflows.
+  why_it_matters: It reduces the integration complexity for developers building AI agents by providing a standardized 'USB-C port' style protocol for accessing external systems like calendars, databases, and file systems.
+  mental_damage: We have successfully standardized the process of explaining to an LLM how to read a spreadsheet, meaning the holy grail of modern engineering is now writing adapters for adapters.
+  tags:
+    - mcp
+    - protocol
+    - standard
+    - integration
+    - ai-infrastructure
+  confidence: high
+curation:
+  status: included
+  reason: The project is the definition and documentation of the Model Context Protocol itself, serving as the foundational infrastructure for the MCP ecosystem.
+  evidence:
+    - Primary page excerpt defines MCP as 'an open-source standard for connecting AI applications to external systems'.
+    - Listed in 'awesome-mcp-servers' under the section 'What is MCP?' as the core documentation.
+    - Referenced in 'awesome-agent-orchestration' as a popular protocol (mcp protocol) for agent communication.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.674Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:46:40.481Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

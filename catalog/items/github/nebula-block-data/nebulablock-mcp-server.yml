@@ -1,0 +1,96 @@
+id: github__nebula-block-data__nebulablock-mcp-server
+kind: github-repo
+name: nebulablock-mcp-server
+canonical_url: https://github.com/nebula-block-data/nebulablock-mcp-server
+identity:
+  github_repo: nebula-block-data/nebulablock-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__nebula-block-data__nebulablock-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
+        anchor_text: Nebula-Block-Data/nebulablock-mcp-server
+        extracted_url: https://github.com/nebula-block-data/nebulablock-mcp-server
+        surrounding_text: "- [Nebula-Block-Data/nebulablock-mcp-server](https://github.com/Nebula-Block-Data/nebulablock-mcp-server) 📇 🏠 - integrates with the fastmcp library to expose the full range of NebulaBlock API functionalities as accessible tools"
+        confidence: high
+    - id: discovery__github__nebula-block-data__nebulablock-mcp-server__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Nebula-Block-Data/nebulablock-mcp-server
+        extracted_url: https://github.com/nebula-block-data/nebulablock-mcp-server
+        surrounding_text: "- **[Nebula-Block-Data/nebulablock-mcp-server](https://github.com/Nebula-Block-Data/nebulablock-mcp-server)** integrates with the fastmcp library to expose the full range of NebulaBlock API functionalities as accessible tools"
+        confidence: high
+metadata:
+  github:
+    stars: 2
+    forks: 2
+    license: null
+    archived: false
+    created_at: "2025-05-29T21:16:34Z"
+    pushed_at: "2025-06-23T14:07:12Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:03:52.219Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:52.219Z"
+      bytes: 4132
+insights:
+  summary: An official MCP server implementation that exposes NebulaBlock API functionalities as tools within MCP-compatible environments using the fastmcp library.
+  why_it_matters: It allows developers to integrate NebulaBlock's cloud platform capabilities directly into their existing MCP workflows and AI coding assistants.
+  mental_damage: We now have a dedicated protocol server for a cloud platform you've likely never heard of, just in case your AI assistant suddenly needs to query it between generating boilerplate code.
+  tags:
+    - mcp
+    - api
+    - cloud
+    - fastmcp
+  confidence: medium
+curation:
+  status: included
+  reason: The project is a dedicated Model Context Protocol server implementation for the NebulaBlock API, fitting cleanly into the MCP infrastructure category.
+  evidence:
+    - README states it hosts the 'official NebulaBlock API Model Context Protocol (MCP) server' using fastmcp.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Cloud Platforms'.
+    - Provides configuration examples for connecting the server to MCP clients like VS Code.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.669Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:52.219Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:40:08.719Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

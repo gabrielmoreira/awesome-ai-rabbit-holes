@@ -1,0 +1,90 @@
+id: github__manaflow-ai__cmux
+kind: github-repo
+name: cmux
+canonical_url: https://github.com/manaflow-ai/cmux
+identity:
+  github_repo: manaflow-ai/cmux
+provenance:
+  discoveries:
+    - id: discovery__github__manaflow-ai__cmux__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Session managers & parallel runners
+        anchor_text: cmux
+        extracted_url: https://github.com/manaflow-ai/cmux
+        surrounding_text: "- **[cmux](https://github.com/manaflow-ai/cmux)** `⭐ 16.1k` — Open-source platform for running multiple coding agents in parallel."
+        confidence: high
+metadata:
+  github:
+    stars: 16227
+    forks: 1224
+    license: NOASSERTION
+    archived: false
+    created_at: "2026-01-28T10:03:24Z"
+    pushed_at: "2026-05-05T20:59:01Z"
+    description: Ghostty-based macOS terminal with vertical tabs and notifications for AI coding agents
+    homepage: https://cmux.com
+    topics:
+      - amp
+      - claude-code
+      - codex
+      - gemini
+      - ghostty
+      - opencode
+      - terminal
+      - tmux
+    last_checked_at: "2026-05-05T21:03:28.128Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:28.128Z"
+      bytes: 13449
+insights:
+  summary: A macOS terminal built on Ghostty that adds vertical tabs, notification rings, and an in-app browser specifically designed for managing multiple AI coding agent sessions.
+  why_it_matters: It provides a dedicated UI for developers running concurrent CLI agents like Claude Code and OpenCode, surfacing notifications and status updates so you don't have to poll background processes manually.
+  mental_damage: We have officially entered the era of needing a specialized terminal emulator just to manage the overwhelming vortex of autonomous agents we've spawned across our desktops.
+  tags:
+    - terminal
+    - macos
+    - ghostty
+    - cli
+    - coding-agents
+  confidence: high
+curation:
+  status: included
+  reason: While it is a terminal, its specific value proposition is extending the workflow of AI coding agents (Claude Code, OpenCode, etc.) with notifications, team views, and integrations rather than being a coding agent itself.
+  evidence:
+    - Repo description explicitly states it is a 'Ghostty-based macOS terminal... for AI coding agents'.
+    - README features include 'Notification rings' and 'Claude Code Teams' integration specific to agent workflows.
+    - Listed in awesome-cli-coding-agents under 'Session managers & parallel runners'.
+placement:
+  primary_category: ai-dev-extensions
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (16227) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.705Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:28.128Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:35:26.951Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

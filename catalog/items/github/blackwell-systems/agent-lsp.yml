@@ -1,0 +1,102 @@
+id: github__blackwell-systems__agent-lsp
+kind: github-repo
+name: agent-lsp
+canonical_url: https://github.com/blackwell-systems/agent-lsp
+identity:
+  github_repo: blackwell-systems/agent-lsp
+provenance:
+  discoveries:
+    - id: discovery__github__blackwell-systems__agent-lsp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: blackwell-systems/agent-lsp
+        extracted_url: https://github.com/blackwell-systems/agent-lsp
+        surrounding_text: "- [blackwell-systems/agent-lsp](https://github.com/blackwell-systems/agent-lsp) [![blackwell-systems/agent-lsp MCP server](https://glama.ai/mcp/servers/blackwell-systems/agent-lsp/badges/score.svg)](https://glama.ai/mcp/servers/blackwell-systems/agent-lsp) 🏎️ 🏠 🍎 🪟 🐧 - Stateful MCP server over real language servers. 50 tools, 30 CI-verified languages, 20 agent workflows. Persistent sessions keep the index warm across files and projects. Speculative execution simulates edits in memory before writing to disk."
+        confidence: high
+metadata:
+  github:
+    stars: 12
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2026-04-06T16:38:40Z"
+    pushed_at: "2026-05-04T23:47:12Z"
+    description: LSP-powered code intelligence for AI agents. Speculative execution, blast-radius analysis, and enforced multi-step workflows. 50 tools, 20 skills, 30 languages.
+    homepage: http://www.agent-lsp.com/
+    topics:
+      - agentskills
+      - ai-agents
+      - code-intelligence
+      - code-navigation
+      - developer-tools
+      - elixir
+      - gleam
+      - go
+      - gopls
+      - language-server-protocol
+      - lsp
+      - mcp
+      - mcp-server
+      - nix
+      - python
+      - refactoring
+      - rust
+      - scala
+      - static-analysis
+      - typescript
+    last_checked_at: "2026-05-05T21:01:22.063Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:22.063Z"
+      bytes: 15355
+insights:
+  summary: A stateful MCP server that bridges language servers (LSP) to AI agents, providing code intelligence, speculative execution, and enforced multi-step workflows across 30 languages.
+  why_it_matters: It solves the 'blind edit' problem for coding agents by giving them warm, structured code intelligence and blast-radius analysis instead of relying on token-heavy grep and raw file reads.
+  mental_damage: We have now successfully abstracted the abstraction that was abstracting the compiler, so your agent can simulate a rename in memory before confidently breaking your build in a single atomic operation.
+  tags:
+    - mcp
+    - lsp
+    - code-intelligence
+    - agent-skills
+    - developer-tools
+  confidence: high
+curation:
+  status: included
+  reason: The product is itself an MCP server and middleware layer that exposes LSP intelligence to MCP clients, fitting the MCP infrastructure scope cleanly.
+  evidence:
+    - "Repo description explicitly states: 'LSP-powered code intelligence for AI agents' and lists 'mcp-server' as a topic."
+    - README identifies it as 'The most complete MCP server for language intelligence' with 53 tools and MCP client configurations for Claude Code, Cline, and Cursor.
+    - Included in awesome-mcp-servers under 'Server Implementations > Developer Tools', confirming its role as MCP infrastructure.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.681Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:22.063Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:11:02.378Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

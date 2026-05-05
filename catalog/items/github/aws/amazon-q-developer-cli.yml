@@ -1,0 +1,96 @@
+id: github__aws__amazon-q-developer-cli
+kind: github-repo
+name: amazon-q-developer-cli
+canonical_url: https://github.com/aws/amazon-q-developer-cli
+identity:
+  github_repo: aws/amazon-q-developer-cli
+provenance:
+  discoveries:
+    - id: discovery__github__aws__amazon-q-developer-cli__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Terminal-native coding agents
+          - Open Source
+        anchor_text: Amazon Q Developer CLI
+        extracted_url: https://github.com/aws/amazon-q-developer-cli
+        surrounding_text: "- **[Amazon Q Developer CLI](https://github.com/aws/amazon-q-developer-cli)** `⭐ 1.9k` `[AWS]` — AWS's agentic terminal chat for building apps, debugging, and DevOps with natural language. Apache-2.0."
+        confidence: high
+metadata:
+  github:
+    stars: 1945
+    forks: 426
+    license: Apache-2.0
+    archived: false
+    created_at: "2024-09-23T18:41:22Z"
+    pushed_at: "2026-04-30T17:39:50Z"
+    description: ✨ Agentic chat experience in your terminal. Build applications using natural language.
+    homepage: https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/command-line-installing.html
+    topics:
+      - agent
+      - ai
+      - amazon-q
+      - cli
+      - linux
+      - llm
+      - macos
+      - mcp
+      - open-source
+      - productivity
+      - rust
+      - shell
+      - terminal
+      - typescript
+    last_checked_at: "2026-05-05T21:01:14.396Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:14.396Z"
+      bytes: 2849
+insights:
+  summary: An open-source terminal-based CLI that provides an agentic chat experience for building applications using natural language with Amazon Q Developer.
+  why_it_matters: It allows developers to interact with an AI coding agent directly from the command line to plan, write, and debug code without leaving the terminal.
+  mental_damage: AWS built a shiny new CLI, open-sourced it with great fanfare, and then told everyone to migrate to a closed-source successor before the paint even dried.
+  tags:
+    - cli
+    - terminal
+    - rust
+    - aws
+    - agent
+  confidence: high
+curation:
+  status: excluded
+  reason: Excluded because the repository is explicitly no longer actively maintained and has been replaced by Kiro CLI, preserving the catalog's focus on current, usable tooling.
+  evidence:
+    - "README banner states: 'This open source project is no longer being actively maintained and will only receive critical security fixes.'"
+    - "README directs users to Kiro CLI as the successor: 'Amazon Q Developer CLI is now available as Kiro CLI, a closed-source product.'"
+    - Although pushed_at is recent (2026-04-30), the maintainers' explicit deprecation notice overrides the activity signal.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1945) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.680Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:14.396Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:09:48.808Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

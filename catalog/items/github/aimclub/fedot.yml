@@ -1,0 +1,91 @@
+id: github__aimclub__fedot
+kind: github-repo
+name: fedot
+canonical_url: https://github.com/aimclub/fedot
+identity:
+  github_repo: aimclub/fedot
+provenance:
+  discoveries:
+    - id: discovery__github__nccr-itmo__fedot__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - AutoML
+        anchor_text: FEDOT
+        extracted_url: https://github.com/nccr-itmo/fedot
+        surrounding_text: "| [FEDOT](https://github.com/nccr-itmo/FEDOT)                                  | AutoML framework for the design of composite pipelines.                                                                                                                         | ![GitHub Badge](https://img.shields.io/github/stars/nccr-itmo/FEDOT.svg?style=flat-square)                 |"
+        confidence: high
+metadata:
+  github:
+    stars: 704
+    forks: 92
+    license: BSD-3-Clause
+    archived: false
+    created_at: "2020-01-13T12:48:37Z"
+    pushed_at: "2026-05-05T15:30:58Z"
+    description: Automated modeling and machine learning framework FEDOT
+    homepage: https://fedot.readthedocs.io
+    topics:
+      - automated-machine-learning
+      - automation
+      - automl
+      - evolutionary-algorithms
+      - fedot
+      - genetic-programming
+      - hyperparameter-optimization
+      - machine-learning
+      - multimodality
+      - parameter-tuning
+      - structural-learning
+    last_checked_at: "2026-05-05T21:00:55.893Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:55.893Z"
+      bytes: 17507
+insights:
+  summary: FEDOT is an open-source AutoML framework that uses evolutionary algorithms to automatically design and optimize machine learning pipelines for classification, regression, clustering, and time series tasks.
+  why_it_matters: It allows developers to automate the complex generative design of ML pipelines, integrating with libraries like Scikit-learn and XGBoost while handling hyperparameter tuning and structural learning.
+  mental_damage: Another framework promising to automate the data scientist out of existence, provided you're comfortable letting an evolutionary algorithm decide your model architecture while you debug the resulting graph.
+  tags:
+    - automl
+    - machine-learning
+    - evolutionary-algorithms
+    - python
+  confidence: high
+curation:
+  status: included
+  reason: The project is a code-first SDK and framework for embedding automated ML pipeline generation into software, fitting the ai-frameworks definition rather than a developer-facing coding agent.
+  evidence:
+    - Repo description defines it as an 'Automated modeling and machine learning framework'.
+    - README confirms it is a framework providing a high-level Python API (pip install fedot) for building ML pipelines.
+    - Topics include 'automated-machine-learning', 'machine-learning', and 'evolutionary-algorithms', indicating a library/SDK nature.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (704) exceeded threshold (150)
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:06:57.835Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.709Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:55.893Z"
+    cause: null
+    next_retry_at: null

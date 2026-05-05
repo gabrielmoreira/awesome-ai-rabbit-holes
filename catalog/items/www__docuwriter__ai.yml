@@ -1,0 +1,76 @@
+id: www__docuwriter__ai
+kind: website
+name: www.docuwriter.ai
+canonical_url: https://www.docuwriter.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__docuwriter__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Documentation
+        anchor_text: DocuWriter.ai
+        extracted_url: https://www.docuwriter.ai
+        surrounding_text: "- **[DocuWriter.ai](https://www.docuwriter.ai/)** – AI documentation generator for codebases and APIs."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A hosted AI documentation tool that connects to repositories to generate and maintain code documentation, API references, UML diagrams, and tests, with an Autopilot agent that suggests updates on code changes.
+  why_it_matters: It automates the creation and upkeep of technical documentation directly from the codebase, aiming to solve documentation rot and reduce onboarding friction without requiring a dedicated writing team.
+  mental_damage: We have successfully outsourced the chore of writing documentation to an AI, but we still have to review the AI's suggestions, meaning we have merely traded writing docs for managing a documentation PR queue.
+  tags:
+    - documentation
+    - ai-agent
+    - codebase-analysis
+    - mcp
+  confidence: high
+curation:
+  status: included
+  reason: The product functions as an autonomous coding agent (Autopilot) that reviews code diffs, identifies documentation drift, and opens reviewable suggestions within the repo workflow, fitting the 'agent that helps a developer work directly on source code' criteria.
+  evidence:
+    - Features an 'Autopilot AI Agent' that watches repos, reviews diffs, and opens reviewable suggestions for documentation updates.
+    - Listed in awesome-ai-coding-tools under the 'Documentation' section as an AI code documentation tool.
+    - Generates code documentation, API docs, READMEs, and UML diagrams grounded in source code analysis.
+placement:
+  primary_category: coding-agents
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.732Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:50:32.441Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

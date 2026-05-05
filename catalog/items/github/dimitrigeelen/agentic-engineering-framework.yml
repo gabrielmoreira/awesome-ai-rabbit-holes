@@ -1,0 +1,101 @@
+id: github__dimitrigeelen__agentic-engineering-framework
+kind: github-repo
+name: agentic-engineering-framework
+canonical_url: https://github.com/dimitrigeelen/agentic-engineering-framework
+identity:
+  github_repo: dimitrigeelen/agentic-engineering-framework
+provenance:
+  discoveries:
+    - id: discovery__github__dimitrigeelen__agentic-engineering-framework__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Agent infrastructure
+        anchor_text: Agentic Engineering Framework
+        extracted_url: https://github.com/dimitrigeelen/agentic-engineering-framework
+        surrounding_text: "- **[Agentic Engineering Framework](https://github.com/DimitriGeelen/agentic-engineering-framework)** `⭐ 5` — Provider-neutral governance framework for CLI coding agents. Structural enforcement of task-driven workflows, context budget management, antifragile healing loops, and audit compliance. Works with Claude Code, Aider, Cursor, and any file-based agent."
+        confidence: high
+metadata:
+  github:
+    stars: 5
+    forks: 4
+    license: Apache-2.0
+    archived: false
+    created_at: "2026-03-03T20:57:30Z"
+    pushed_at: "2026-05-04T21:00:06Z"
+    description: Governance framework for AI coding agents — enforces task traceability, structural gates, session continuity, and audit trails for Claude Code, Cursor, and Copilot.
+    homepage: null
+    topics:
+      - agentic-ai
+      - ai-agents
+      - ai-governance
+      - audit-trail
+      - claude-code
+      - cli
+      - coding-agents
+      - copilot
+      - cursor
+      - developer-experience
+      - developer-tools
+      - devops
+      - framework
+      - governance
+      - mcp
+      - open-source
+      - session-management
+      - software-engineering
+      - task-management
+      - workflow-automation
+    last_checked_at: "2026-05-05T21:01:53.679Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:53.679Z"
+      bytes: 15703
+insights:
+  summary: A governance framework that enforces task traceability, structural gates, and audit trails for AI coding agents like Claude Code, Cursor, and Copilot via CLI tooling and hooks.
+  why_it_matters: It replaces prompt-based 'please be careful' instructions with structural enforcement to prevent agents from making untraced edits, destructive git commands, or context-exhausting runs.
+  mental_damage: We have finally built the bureaucratic approval layer for our AI agents, proving that no matter how advanced the intelligence, it still eventually reports to a middle manager named fw.
+  tags:
+    - governance
+    - cli
+    - agent-infrastructure
+    - audit-trail
+  confidence: high
+curation:
+  status: included
+  reason: It is a developer-facing extension that adds governance, gates, and audit infrastructure to existing coding agents rather than being a primary coding assistant itself.
+  evidence:
+    - Repo description explicitly calls it a 'Governance framework for AI coding agents' with enforcement for Claude Code, Cursor, and Copilot.
+    - README demonstrates structural gates (task gates, Tier 0 destructive command blocks) and audit tooling that wrap existing agents.
+    - Listed in awesome-cli-coding-agents under 'Harnesses & orchestration > Agent infrastructure'.
+placement:
+  primary_category: ai-dev-extensions
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.685Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:53.679Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:16:26.919Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

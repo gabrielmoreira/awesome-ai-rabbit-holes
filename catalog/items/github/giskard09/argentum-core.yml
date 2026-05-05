@@ -1,0 +1,81 @@
+id: github__giskard09__argentum-core
+kind: github-repo
+name: argentum-core
+canonical_url: https://github.com/giskard09/argentum-core
+identity:
+  github_repo: giskard09/argentum-core
+provenance:
+  discoveries:
+    - id: discovery__github__giskard09__argentum-core__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: giskard09/argentum-core
+        extracted_url: https://github.com/giskard09/argentum-core
+        surrounding_text: "- [giskard09/argentum-core](https://github.com/giskard09/argentum-core) [![giskard09/argentum-core MCP server](https://glama.ai/mcp/servers/giskard09/argentum-core/badges/score.svg)](https://glama.ai/mcp/servers/giskard09/argentum-core) 🐍 🏠 - Karma economy for AI agents and humans. Submit good actions, get community attestations, earn on-chain reputation on Arbitrum. 5 MCP tools: submit_action, attest_action, get_karma, get_action_detail, get_leaderboard. Karma-weighted verification, slashing, and Kleros dispute resolution."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: Apache-2.0
+    archived: false
+    created_at: "2026-03-25T14:50:32Z"
+    pushed_at: "2026-05-04T00:53:00Z"
+    description: ARGENTUM core — karma economy for agents and humans
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:21.292Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:21.292Z"
+      bytes: 8934
+insights:
+  summary: A Model Context Protocol (MCP) server that implements a karma economy system for AI agents and humans, featuring verifiable action tracking, reputation leaderboards, and composable 'Mycelium Trails' for chaining MCP service calls.
+  why_it_matters: It provides a standardized MCP interface for agents to record reputation, verify actions via community attestation, and register reusable service workflows within the growing MCP ecosystem.
+  mental_damage: We have successfully built a blockchain-style karma system for bots, ensuring your AI agent can now worry about its credit score while it fixes your merge conflicts.
+  tags:
+    - mcp
+    - karma
+    - agent-reputation
+    - lightning
+  confidence: medium
+curation:
+  status: included
+  reason: The project is explicitly an MCP server providing tools for a karma economy and service trails, fitting the MCP infrastructure category perfectly.
+  evidence:
+    - "Repo description states: 'ARGENTUM core — karma economy for agents and humans' and README confirms 'MCP Server'."
+    - README details 10 specific MCP tools (submit_action, attest_action, register_trail, etc.) exposed via SSE transport.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Finance & Fintech'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.689Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:21.292Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:21:22.851Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,85 @@
+id: github__databrickslabs__dolly
+kind: github-repo
+name: dolly
+canonical_url: https://github.com/databrickslabs/dolly
+identity:
+  github_repo: databrickslabs/dolly
+provenance:
+  discoveries:
+    - id: discovery__github__databrickslabs__dolly__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Model
+          - Large Language Model
+        anchor_text: dolly
+        extracted_url: https://github.com/databrickslabs/dolly
+        surrounding_text: "| [dolly](https://github.com/databrickslabs/dolly)                        | Databricks’ Dolly, a large language model trained on the Databricks Machine Learning Platform                                                                                              | ![GitHub Badge](https://img.shields.io/github/stars/databrickslabs/dolly.svg?style=flat-square)           |"
+        confidence: high
+metadata:
+  github:
+    stars: 10794
+    forks: 1146
+    license: Apache-2.0
+    archived: false
+    created_at: "2023-03-24T16:15:53Z"
+    pushed_at: "2023-06-30T18:36:16Z"
+    description: Databricks’ Dolly, a large language model trained on the Databricks Machine Learning Platform
+    homepage: https://www.databricks.com/blog/2023/03/24/hello-dolly-democratizing-magic-chatgpt-open-models.html
+    topics:
+      - chatbot
+      - databricks
+      - dolly
+      - gpt
+    last_checked_at: "2026-05-05T21:01:47.313Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:47.313Z"
+      bytes: 9327
+insights:
+  summary: Dolly is a family of instruction-tuned large language models, such as dolly-v2-12b, trained on the Databricks platform and licensed for commercial use.
+  why_it_matters: It provides developers with an open, commercially permissive benchmark model and dataset (databricks-dolly-15k) for fine-tuning and experimenting with instruction-following behavior.
+  mental_damage: We now have a commercially licensed model specifically noted for struggling with programming problems, proving that even open-source magic needs a debugger.
+  tags:
+    - llm
+    - databricks
+    - fine-tuning
+    - open-model
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a foundational LLM and dataset, not a developer-facing tool, agent, or infrastructure component that assists in building software.
+  evidence:
+    - Repo description states it is 'a large language model trained on the Databricks Machine Learning Platform'.
+    - README explicitly notes the model 'struggles with... programming problems' and is not a state-of-the-art generative model.
+    - Listed in Awesome-LLMOps under 'Model > Large Language Model', indicating it is a model asset rather than a dev tool.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (10794) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.684Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:47.313Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:15:27.413Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

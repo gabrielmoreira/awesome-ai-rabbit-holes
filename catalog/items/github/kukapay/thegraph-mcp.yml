@@ -1,0 +1,96 @@
+id: github__kukapay__thegraph-mcp
+kind: github-repo
+name: thegraph-mcp
+canonical_url: https://github.com/kukapay/thegraph-mcp
+identity:
+  github_repo: kukapay/thegraph-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__kukapay__thegraph-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: kukapay/thegraph-mcp
+        extracted_url: https://github.com/kukapay/thegraph-mcp
+        surrounding_text: "- [kukapay/thegraph-mcp](https://github.com/kukapay/thegraph-mcp) 🐍 ☁️ -  An MCP server that powers AI agents with indexed blockchain data from The Graph."
+        confidence: high
+    - id: discovery__github__kukapay__thegraph-mcp__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - 💰 Finance & Fintech
+        anchor_text: kukapay/thegraph-mcp
+        extracted_url: https://github.com/kukapay/thegraph-mcp
+        surrounding_text: "-   **[kukapay/thegraph-mcp](https://github.com/kukapay/thegraph-mcp)** [![GitHub stars](https://img.shields.io/github/stars/kukapay/thegraph-mcp?style=social)](https://github.com/kukapay/thegraph-mcp): Provides indexed blockchain data from The Graph to AI agents."
+        confidence: high
+metadata:
+  github:
+    stars: 8
+    forks: 12
+    license: MIT
+    archived: false
+    created_at: "2025-03-21T19:45:48Z"
+    pushed_at: "2025-07-31T09:46:42Z"
+    description: An MCP server that powers AI agents with indexed blockchain data from The Graph.
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:03:12.738Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:12.738Z"
+      bytes: 2966
+insights:
+  summary: A Model Context Protocol server that provides AI agents with tools to fetch schemas and execute GraphQL queries against The Graph's indexed blockchain data.
+  why_it_matters: It allows developers to build AI agents that can query on-chain data via natural language without manually writing or maintaining GraphQL queries.
+  mental_damage: Another MCP server appears in the registry, ensuring your blockchain agent can now hallucinate token prices with the full authority of a verified subgraph schema.
+  tags:
+    - mcp
+    - blockchain
+    - the-graph
+    - ai-agents
+  confidence: high
+curation:
+  status: included
+  reason: The project is a dedicated MCP server implementation designed to give AI agents access to blockchain data from The Graph.
+  evidence:
+    - "Repo description explicitly states: 'An MCP server that powers AI agents with indexed blockchain data from The Graph.'"
+    - README details specific MCP tools (getSubgraphSchema, querySubgraph) for GraphQL interaction.
+    - Listed in both awesome-mcp-list and awesome-mcp-servers under Finance & Fintech sections.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.668Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:12.738Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:32:24.822Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,80 @@
+id: github__khromov__svelte-llm-mcp
+kind: github-repo
+name: llmctx
+canonical_url: https://github.com/khromov/svelte-llm-mcp
+identity:
+  github_repo: khromov/svelte-llm-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__khromov__llmctx__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: Svelte Documentation
+        extracted_url: https://github.com/khromov/llmctx
+        surrounding_text: "- **[Svelte Documentation](https://github.com/khromov/llmctx)** - Remote server (SSE/Streamable) for the latest Svelte and SvelteKit documentation"
+        confidence: high
+metadata:
+  github:
+    stars: 159
+    forks: 12
+    license: MIT
+    archived: false
+    created_at: "2024-11-25T21:45:39Z"
+    pushed_at: "2026-02-14T01:03:57Z"
+    description: Svelte developer documentation as an MCP and in llms.txt format
+    homepage: https://svelte-llm.stanislav.garden
+    topics: []
+    last_checked_at: "2026-05-05T21:03:05.253Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:05.253Z"
+      bytes: 1384
+insights:
+  summary: An MCP server and llms.txt bundle that exposes Svelte 5 and SvelteKit documentation to AI assistants via Streamable HTTP and SSE endpoints.
+  why_it_matters: It allows coding agents and MCP clients to query up-to-date Svelte framework knowledge directly, reducing hallucinated APIs during AI-assisted frontend development.
+  mental_damage: Another curated context shard for your AI's fragile memory, because apparently the model couldn't be trusted to read the docs you already bookmarked.
+  tags:
+    - mcp
+    - svelte
+    - context-engineering
+    - documentation
+  confidence: high
+curation:
+  status: included
+  reason: This is an MCP server providing Svelte documentation as context, fitting cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description explicitly states: 'Svelte developer documentation as an MCP and in llms.txt format'"
+    - "README details MCP endpoints: Streamable HTTP and SSE for Claude Desktop and other clients"
+    - Project is active (pushed_at 2026-02-14) and not archived
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (159) exceeded threshold (150)
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:30:40.727Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.701Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:05.253Z"
+    cause: null
+    next_retry_at: null

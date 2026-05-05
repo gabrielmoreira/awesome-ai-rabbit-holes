@@ -8,16 +8,19 @@
   },
   "scripts": {
     "catalog": "node scripts/catalog.ts",
-    "test": "vitest run",
-    "test:watch": "vitest"
+    "test": "vitest run --dir test",
+    "test:watch": "vitest --dir test"
   },
   "devDependencies": {
     "@types/js-yaml": "^4.0.9",
     "@types/node": "^25.0.0",
+    "@types/nunjucks": "^3.2.6",
     "typescript": "^5.8.0",
     "vitest": "^3.1.0"
   },
   "dependencies": {
-    "js-yaml": "^4.1.0"
+    "@mariozechner/pi-ai": "^0.73.0",
+    "js-yaml": "^4.1.0",
+    "nunjucks": "^3.2.4"
   }
 }

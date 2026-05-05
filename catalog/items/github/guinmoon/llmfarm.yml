@@ -1,0 +1,91 @@
+id: github__guinmoon__llmfarm
+kind: github-repo
+name: llmfarm
+canonical_url: https://github.com/guinmoon/llmfarm
+identity:
+  github_repo: guinmoon/llmfarm
+provenance:
+  discoveries:
+    - id: discovery__github__guinmoon__llmfarm__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: janhq/awesome-local-ai
+        url: https://github.com/janhq/awesome-local-ai
+        repository: janhq/awesome-local-ai
+      extraction:
+        mode: parsed
+        section_path:
+          - Inference UI
+        anchor_text: LLMFarm
+        extracted_url: https://github.com/guinmoon/llmfarm
+        surrounding_text: "- [LLMFarm](https://github.com/guinmoon/LLMFarm) - llama and other large language models on iOS and MacOS offline using GGML library."
+        confidence: high
+metadata:
+  github:
+    stars: 2023
+    forks: 167
+    license: MIT
+    archived: false
+    created_at: "2023-06-14T16:07:14Z"
+    pushed_at: "2026-01-30T20:52:36Z"
+    description: llama and other  large language models on iOS and MacOS offline using GGML library.
+    homepage: https://llmfarm.space
+    topics:
+      - ai
+      - ggml
+      - gpt-2
+      - gptneox
+      - ios
+      - llama
+      - macos
+      - rwkv
+      - starcoder
+      - swift
+    last_checked_at: "2026-05-05T21:02:29.069Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:29.069Z"
+      bytes: 6669
+insights:
+  summary: LLMFarm is an iOS and macOS application that enables offline execution of various large language models, including coding models like StarCoder, using the GGML library.
+  why_it_matters: It allows developers to benchmark and run local LLMs directly on Apple hardware, providing a mobile-native interface for testing model performance and experimenting with on-device inference.
+  mental_damage: Now you can waste your battery life optimizing quantized models on your iPhone instead of just complaining about context windows on your laptop.
+  tags:
+    - local-ai
+    - ios
+    - macos
+    - ggml
+    - offline
+  confidence: high
+curation:
+  status: included
+  reason: The project is a desktop and mobile interface specifically designed for running AI models locally on Apple hardware, fitting squarely into the local-ai category.
+  evidence:
+    - Repo description states it runs 'llama and other large language models on iOS and MacOS offline using GGML library.'
+    - README lists supported inferences including StarCoder and notes compatibility with macOS 13+ and iOS 16+.
+    - Included in the 'awesome-local-ai' list under the 'Inference UI' section.
+placement:
+  primary_category: local-ai
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (2023) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.690Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:29.069Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:23:12.527Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

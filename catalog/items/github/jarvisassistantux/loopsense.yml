@@ -1,0 +1,88 @@
+id: github__jarvisassistantux__loopsense
+kind: github-repo
+name: loopsense
+canonical_url: https://github.com/jarvisassistantux/loopsense
+identity:
+  github_repo: jarvisassistantux/loopsense
+provenance:
+  discoveries:
+    - id: discovery__github__jarvisassistantux__loopsense__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: jarvisassistantux/loopsense
+        extracted_url: https://github.com/jarvisassistantux/loopsense
+        surrounding_text: "- [jarvisassistantux/loopsense](https://github.com/jarvisassistantux/loopsense) [![jarvisassistantux/loopsense MCP server](https://glama.ai/mcp/servers/jarvisassistantux/loopsense/badges/score.svg)](https://glama.ai/mcp/servers/jarvisassistantux/loopsense) 📇 🏠 - MCP server that closes the feedback loop for AI coding agents — CI monitoring, process watching, file changes, HTTP polling."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-03-23T02:48:04Z"
+    pushed_at: "2026-03-24T00:38:59Z"
+    description: "LoopSense is an open-source MCP server that closes the feedback loop for AI coding agents — giving them real-time visibility into CI results, deployments, test outcomes, and file system changes. "
+    homepage: ""
+    topics:
+      - ai-agent
+      - ci-cd
+      - claude-code
+      - developer-tools
+      - github-actions
+      - mcp
+      - mcp-server
+    last_checked_at: "2026-05-05T21:02:51.744Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:51.744Z"
+      bytes: 4065
+insights:
+  summary: LoopSense is an open-source MCP server that gives AI coding agents real-time visibility into CI results, deployments, test outcomes, and file system changes.
+  why_it_matters: It closes the blind-loop where agents push code and wait blindly, letting them react immediately to failing tests or broken deployments.
+  mental_damage: We have finally built the middleware required to let an AI agent nervously refresh its own CI results every thirty seconds so you don't have to.
+  tags:
+    - mcp
+    - ci-cd
+    - coding-agents
+    - feedback-loop
+  confidence: high
+curation:
+  status: included
+  reason: The product is itself an MCP server that integrates with Claude Code and other MCP hosts to provide CI and filesystem watching capabilities, fitting cleanly into MCP infrastructure.
+  evidence:
+    - Repo description explicitly states it is an open-source MCP server for AI coding agents.
+    - README details MCP configuration for Claude Code and exposes MCP resources like loopsense://timeline/recent.
+    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.699Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:51.744Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:27:44.748Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

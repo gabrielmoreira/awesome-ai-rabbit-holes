@@ -1,0 +1,99 @@
+id: github__jsdelivr__globalping-mcp-server
+kind: github-repo
+name: globalping-mcp-server
+canonical_url: https://github.com/jsdelivr/globalping-mcp-server
+identity:
+  github_repo: jsdelivr/globalping-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__jsdelivr__globalping-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: jsdelivr/globalping-mcp-server
+        extracted_url: https://github.com/jsdelivr/globalping-mcp-server
+        surrounding_text: "- [jsdelivr/globalping-mcp-server](https://github.com/jsdelivr/globalping-mcp-server) 🎖️ 📇 ☁️ - The Globalping MCP server provides users and LLMs access to run network tools like ping, traceroute, mtr, HTTP and DNS resolve from thousands of locations around the world."
+        confidence: high
+    - id: discovery__github__jsdelivr__globalping-mcp-server__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Globalping
+        extracted_url: https://github.com/jsdelivr/globalping-mcp-server
+        surrounding_text: "- **[Globalping](https://github.com/jsdelivr/globalping-mcp-server)** - Network access with the ability to run commands like ping, traceroute, mtr, http, dns resolve."
+        confidence: high
+metadata:
+  github:
+    stars: 54
+    forks: 9
+    license: null
+    archived: false
+    created_at: "2025-04-01T10:05:00Z"
+    pushed_at: "2026-04-09T13:03:04Z"
+    description: Remote MCP server that gives LLMs access to run network commands
+    homepage: ""
+    topics:
+      - mcp
+      - mcp-server
+      - remote-mcp-server
+    last_checked_at: "2026-05-05T21:03:00.079Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:00.079Z"
+      bytes: 8898
+insights:
+  summary: A remote MCP server that exposes Globalping's worldwide network measurement probes (ping, traceroute, DNS, MTR, HTTP) to LLMs via the Model Context Protocol.
+  why_it_matters: It lets developers delegate network debugging and performance comparisons across global locations to their AI assistant instead of manually chaining CLI commands.
+  mental_damage: We have finally closed the gap between asking a chatbot for help and having it accidentally traceroute your production infrastructure from three continents at once.
+  tags:
+    - mcp
+    - networking
+    - devops
+    - debugging
+  confidence: high
+curation:
+  status: included
+  reason: This is a purpose-built MCP server that gives LLMs tool access to Globalping's network measurement platform, fitting cleanly into the MCP infrastructure category.
+  evidence:
+    - Repo description states it is a 'Remote MCP server that gives LLMs access to run network commands'.
+    - README explains it implements the Model Context Protocol to let AI models run measurements via Globalping's probe network.
+    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.668Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:00.079Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:29:27.677Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

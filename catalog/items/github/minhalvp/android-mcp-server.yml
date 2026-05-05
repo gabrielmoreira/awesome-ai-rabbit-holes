@@ -1,0 +1,81 @@
+id: github__minhalvp__android-mcp-server
+kind: github-repo
+name: android-mcp-server
+canonical_url: https://github.com/minhalvp/android-mcp-server
+identity:
+  github_repo: minhalvp/android-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__minhalvp__android-mcp-server__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: Android MCP
+        extracted_url: https://github.com/minhalvp/android-mcp-server
+        surrounding_text: "- **[Android MCP](https://github.com/minhalvp/android-mcp-server)** - 📲 An MCP server that provides control over Android devices through ADB. Offers device screenshot capture, UI layout analysis, package management, and ADB command execution capabilities."
+        confidence: high
+metadata:
+  github:
+    stars: 742
+    forks: 82
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-02-28T12:20:34Z"
+    pushed_at: "2025-05-28T17:13:55Z"
+    description: An MCP server that provides control over Android devices via adb
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:03:41.996Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:41.996Z"
+      bytes: 5556
+insights:
+  summary: An MCP server that exposes Android device control via ADB, allowing AI models and editors to execute commands, capture screenshots, and inspect UI layouts.
+  why_it_matters: It lets coding agents and MCP clients directly interact with Android emulators or devices, bridging the gap between AI-assisted code generation and mobile hardware testing.
+  mental_damage: "We have finally achieved the singularity: an AI that can take a screenshot of your broken UI and proudly tell you exactly what it sees while being completely unable to fix the XML."
+  tags:
+    - mcp
+    - android
+    - adb
+    - automation
+    - mobile
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server designed to provide tooling for the Model Context Protocol ecosystem, fitting cleanly into the MCP category.
+  evidence:
+    - Repo description states it is 'An MCP server that provides control over Android devices via adb'.
+    - README confirms it exposes tools for ADB commands, screenshots, and UI layout for MCP clients like Claude Desktop and Cursor.
+    - Listed in the awesome-mcp-servers directory under 'Community Servers'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (742) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.707Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:41.996Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:38:09.072Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

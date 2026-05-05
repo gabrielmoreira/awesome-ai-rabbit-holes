@@ -1,0 +1,75 @@
+id: x__com__maccaw__status__1669367224694607875
+kind: website
+name: "1669367224694607875"
+canonical_url: https://x.com/maccaw/status/1669367224694607875
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__x__com__maccaw__status__1669367224694607875__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - WorkGPT
+          - Description
+        anchor_text: The tweet announcing this feature
+        extracted_url: https://twitter.com/maccaw/status/1669367224694607875
+        surrounding_text: "- [The tweet announcing this feature](https://twitter.com/maccaw/status/1669367224694607875)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: An X.com status link with no accessible content, scraped site context, or repository information to describe a tool.
+  why_it_matters: Without a functioning link or description, there is no workflow or pain point for a developer to evaluate here.
+  mental_damage: We have reached the point in the AI gold rush where a broken social media link is considered a candidate for the autonomous agent stack.
+  tags:
+    - broken-link
+    - unverified
+  confidence: high
+curation:
+  status: excluded
+  reason: The URL returns a privacy error and no description, README, or repo metadata exists to verify this is a developer tool rather than a tweet.
+  evidence:
+    - The scraped site context shows 'Something went wrong' on x.com with no content.
+    - No repo description, stars, license, or creation date is available.
+    - Source-list context only mentions it was seen in an awesome list, but provides no substance.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.734Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:54:21.525Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

@@ -1,0 +1,77 @@
+id: gooey__ai
+kind: website
+name: gooey.ai
+canonical_url: https://gooey.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__gooey__ai__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: janhq/awesome-local-ai
+        url: https://github.com/janhq/awesome-local-ai
+        repository: janhq/awesome-local-ai
+      extraction:
+        mode: parsed
+        section_path:
+          - Developer tools
+        anchor_text: Gooey.AI
+        extracted_url: https://gooey.ai
+        surrounding_text: "- [Gooey.AI](https://gooey.ai/) - Create Your Own No Code AI Workflows."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Gooey.AI is a low-code platform for orchestrating and deploying AI workflows, agents, and RAG pipelines across channels like WhatsApp, web, and voice.
+  why_it_matters: Developers can fork pre-built workflows and embed streaming AI responses into apps via webview or API without managing model billing, infrastructure, or DevOps.
+  mental_damage: Yet another 'low-code' salvation promising that this time, assembling prompts and API keys in a browser really is the final abstraction layer developers have been waiting for.
+  tags:
+    - low-code
+    - agent-orchestration
+    - rag
+    - workflow-builder
+    - multilingual
+  confidence: high
+curation:
+  status: included
+  reason: It is an end-user platform for coordinating AI agents, workflows, and deployments across multiple channels and models, fitting agent-orchestration cleanly.
+  evidence:
+    - Scraped site describes it as 'low-code AI orchestration platform' with forkable workflows and multi-agent deployment.
+    - Includes FaaS code execution, streaming API responses, and deployment to WhatsApp, web, and voice channels.
+    - Listed under 'Developer tools' in awesome-local-ai with description 'Low-code AI orchestration to empower people everywhere.'
+placement:
+  primary_category: agent-orchestration
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.728Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:45:06.325Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

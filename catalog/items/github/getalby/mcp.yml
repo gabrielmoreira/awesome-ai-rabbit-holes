@@ -1,0 +1,97 @@
+id: github__getalby__mcp
+kind: github-repo
+name: mcp
+canonical_url: https://github.com/getalby/mcp
+identity:
+  github_repo: getalby/mcp
+provenance:
+  discoveries:
+    - id: discovery__github__getalby__mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: getAlby/mcp
+        extracted_url: https://github.com/getalby/mcp
+        surrounding_text: "- [getAlby/mcp](https://github.com/getAlby/mcp) 🎖️ 📇 ☁️ 🏠 - Connect any bitcoin lightning wallet to your agent to send and receive instant payments globally."
+        confidence: high
+    - id: discovery__github__getalby__mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Alby Bitcoin Payments MCP
+        extracted_url: https://github.com/getalby/mcp
+        surrounding_text: "- **[Alby Bitcoin Payments MCP](https://github.com/getAlby/mcp/)** - Connect any bitcoin lightning wallet to agents to send and receive payments instantly at low cost."
+        confidence: high
+metadata:
+  github:
+    stars: 65
+    forks: 16
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-06-02T08:51:32Z"
+    pushed_at: "2026-02-10T05:53:39Z"
+    description: Connect a bitcoin lightning wallet to your LLM using Nostr Wallet Connect and Model Context Protocol
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:19.524Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:19.524Z"
+      bytes: 7683
+insights:
+  summary: An MCP server that connects a Bitcoin Lightning wallet to LLMs via Nostr Wallet Connect, enabling AI agents to send and receive payments.
+  why_it_matters: It allows developers building AI agents to integrate BTC micropayments natively into LLM workflows for paid APIs, metered access, or autonomous tipping.
+  mental_damage: Finally, your AI agent can independently bankrupt your Lightning wallet while you debug why it decided to tip a Nostr relay at 3 AM.
+  tags:
+    - mcp
+    - bitcoin
+    - lightning
+    - nostr
+    - payments
+  confidence: high
+curation:
+  status: included
+  reason: The project is a dedicated Model Context Protocol server designed to give AI agents financial capabilities via Bitcoin Lightning.
+  evidence:
+    - "Repo description explicitly states: 'Connect a bitcoin lightning wallet to your LLM using Nostr Wallet Connect and Model Context Protocol'."
+    - README details integration with Claude, Cline, Goose, and N8N as a standard MCP server implementation.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Finance & Fintech'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.666Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:19.524Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:21:04.705Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

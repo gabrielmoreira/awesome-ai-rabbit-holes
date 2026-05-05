@@ -1,0 +1,82 @@
+id: github__kukapay__crypto-rss-mcp
+kind: github-repo
+name: crypto-rss-mcp
+canonical_url: https://github.com/kukapay/crypto-rss-mcp
+identity:
+  github_repo: kukapay/crypto-rss-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__kukapay__crypto-rss-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: kukapay/crypto-rss-mcp
+        extracted_url: https://github.com/kukapay/crypto-rss-mcp
+        surrounding_text: "- [kukapay/crypto-rss-mcp](https://github.com/kukapay/crypto-rss-mcp) 🐍 ☁️ - An MCP server that aggregates real-time cryptocurrency news from multiple RSS feeds."
+        confidence: high
+metadata:
+  github:
+    stars: 13
+    forks: 5
+    license: MIT
+    archived: false
+    created_at: "2025-04-28T09:19:33Z"
+    pushed_at: "2025-07-24T13:17:13Z"
+    description: An MCP server that aggregates real-time cryptocurrency news from multiple RSS feeds.
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:03:10.673Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:10.673Z"
+      bytes: 3750
+insights:
+  summary: An MCP server that aggregates real-time cryptocurrency news from multiple RSS feeds for AI agents.
+  why_it_matters: It provides a standardized tool for developers building AI agents that need to ingest and analyze fast-moving crypto market news via the Model Context Protocol.
+  mental_damage: We have successfully standardized the process of feeding hallucination-prone models the same chaotic crypto news cycles that fuel retail panic.
+  tags:
+    - mcp
+    - crypto
+    - rss
+    - news-aggregation
+    - finance
+  confidence: high
+curation:
+  status: included
+  reason: The project is specifically an MCP server implementation designed to expose RSS feed data to AI models, fitting the MCP Servers and Tooling category perfectly.
+  evidence:
+    - Repo description explicitly states 'An MCP server that aggregates real-time cryptocurrency news from multiple RSS feeds.'
+    - README details usage with `mcp dev cli.py` and installation to Claude Desktop, confirming it is an MCP implementation.
+    - Listed in awesome-mcp-servers under the 'Finance & Fintech' section, confirming its role in the MCP ecosystem.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.702Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:10.673Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:31:54.613Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

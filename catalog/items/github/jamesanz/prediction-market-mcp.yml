@@ -1,0 +1,87 @@
+id: github__jamesanz__prediction-market-mcp
+kind: github-repo
+name: prediction-market-mcp
+canonical_url: https://github.com/jamesanz/prediction-market-mcp
+identity:
+  github_repo: jamesanz/prediction-market-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__jamesanz__prediction-market-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: JamesANZ/prediction-market-mcp
+        extracted_url: https://github.com/jamesanz/prediction-market-mcp
+        surrounding_text: "- [JamesANZ/prediction-market-mcp](https://github.com/JamesANZ/prediction-market-mcp) 📇 ☁️ - An MCP server that provides real-time prediction market data from multiple platforms including Polymarket, PredictIt, and Kalshi. Enables AI assistants to query current odds, prices, and market information through a unified interface."
+        confidence: high
+metadata:
+  github:
+    stars: 35
+    forks: 11
+    license: MIT
+    archived: false
+    created_at: "2025-07-08T10:47:49Z"
+    pushed_at: "2026-01-16T05:58:44Z"
+    description: "A simple MCP server that grabs prediction market data from polymarket, PredictIt, & Kalshi. "
+    homepage: https://glama.ai/mcp/servers/@JamesANZ/prediction-market-mcp
+    topics:
+      - cryptocurrency
+      - llms
+      - mcp-server
+      - prediction
+      - prediction-markets
+    last_checked_at: "2026-05-05T21:02:50.439Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:50.439Z"
+      bytes: 4853
+insights:
+  summary: An MCP server that exposes real-time prediction market odds and prices from Polymarket, PredictIt, and Kalshi to AI coding environments like Cursor and Claude Desktop.
+  why_it_matters: Developers building AI workflows or agents that reason about event probabilities can pull live market data directly into their context without managing API keys or separate data pipelines.
+  mental_damage: Your AI agent is now fully equipped to debate geopolitical outcomes using Polymarket odds while you're just trying to fix a CSS bug.
+  tags:
+    - mcp
+    - prediction-markets
+    - data-tools
+    - cursor
+    - context-tools
+  confidence: high
+curation:
+  status: included
+  reason: This is a purpose-built MCP server that adds prediction market data as a tool for AI environments, fitting cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states it is 'A simple MCP server that grabs prediction market data from polymarket, PredictIt, & Kalshi.'
+    - README positions it as 'An MCP server that brings live prediction market data into AI coding environments like Cursor and Claude Desktop.'
+    - Listed under 'Server Implementations > Finance & Fintech' in the awesome-mcp-servers directory.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.699Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:50.440Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:27:29.187Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

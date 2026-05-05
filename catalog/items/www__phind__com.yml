@@ -1,0 +1,91 @@
+id: www__phind__com
+kind: website
+name: www.phind.com
+canonical_url: https://www.phind.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__phind__com__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Phind
+        anchor_text: Phind
+        extracted_url: https://www.phind.com
+        surrounding_text: "## [Phind](https://www.phind.com/)"
+        confidence: high
+    - id: discovery__www__phind__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Code Editors and Assistants
+        anchor_text: Phind
+        extracted_url: https://www.phind.com
+        surrounding_text: "- **[Phind](https://www.phind.com/)** – AI search and coding assistant for instant answers and code solutions."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Phind is a search engine and conversational assistant designed specifically for developers to answer technical questions and resolve coding issues.
+  why_it_matters: It provides context-aware, technical answers and code snippets directly in a search interface, aiming to replace general-purpose search for programming workflows.
+  mental_damage: Another specialized layer promising to shield you from the horror of reading documentation, as long as you're comfortable debugging answers authored by a stochastic parrot.
+  tags:
+    - search
+    - qa
+    - coding-assistant
+    - developer-tools
+  confidence: high
+curation:
+  status: included
+  reason: It is a developer-facing coding assistant designed to answer technical questions and help with code, fitting the definition of a coding agent/search assistant rather than an app builder.
+  evidence:
+    - Listed under 'Code Editors and Assistants' in awesome-ai-coding-tools.
+    - Listed under 'Phind' in awesome-ai-agents as an autonomous agent.
+    - Described as a search engine and assistant for developers.
+placement:
+  primary_category: coding-agents
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.675Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:52:34.964Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

@@ -1,0 +1,86 @@
+id: github__evolvinglmms-lab__lmms-engine
+kind: github-repo
+name: lmms-engine
+canonical_url: https://github.com/evolvinglmms-lab/lmms-engine
+identity:
+  github_repo: evolvinglmms-lab/lmms-engine
+provenance:
+  discoveries:
+    - id: discovery__github__evolvinglmms-lab__lmms-engine__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 微调 Fine-Tuning
+        anchor_text: LMMs-Engine
+        extracted_url: https://github.com/evolvinglmms-lab/lmms-engine
+        surrounding_text: "46. [LMMs-Engine](https://github.com/EvolvingLMMs-Lab/lmms-engine): A simple, any-to-any modality framework for pretraining and finetuning. Lean, flexible, and built for research."
+        confidence: high
+metadata:
+  github:
+    stars: 773
+    forks: 35
+    license: null
+    archived: false
+    created_at: "2025-07-27T14:42:12Z"
+    pushed_at: "2026-05-04T09:07:07Z"
+    description: A simple, unified multimodal models training engine. Lean, flexible, and built for hacking at scale.
+    homepage: https://lmms-engine.readthedocs.io/en/latest/
+    topics:
+      - agi
+      - large-language-models
+      - multimodal
+      - unified-multimodal-models
+      - video-generation
+    last_checked_at: "2026-05-05T21:02:06.181Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:06.181Z"
+      bytes: 17785
+insights:
+  summary: A lean, unified training engine for building and fine-tuning multimodal large language models at scale using PyTorch.
+  why_it_matters: It gives developers a streamlined, configuration-driven path to train custom vision-language models without wrestling with fragmented research codebases.
+  mental_damage: "Just what the ecosystem needed: another framework to help you spend your GPU budget proving that your cat photos can indeed caption themselves with 99% MFU."
+  tags:
+    - multimodal
+    - training
+    - fine-tuning
+    - pytorch
+    - llm
+  confidence: high
+curation:
+  status: included
+  reason: This is a code-first framework and SDK for training multimodal models, fitting cleanly into AI Frameworks and SDKs rather than application builders or coding agents.
+  evidence:
+    - Repo description states it is 'A simple, unified multimodal models training engine' built for scale.
+    - README demonstrates a library/framework usage pattern via torchrun CLI and YAML configs for training.
+    - Listed in awesome-LLM-resources under the '微调 Fine-Tuning' (Fine-Tuning) section.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (773) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.686Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:06.181Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:18:42.509Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,96 @@
+id: github__4everland__4everland-hosting-mcp
+kind: github-repo
+name: 4everland-hosting-mcp
+canonical_url: https://github.com/4everland/4everland-hosting-mcp
+identity:
+  github_repo: 4everland/4everland-hosting-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__4everland__4everland-hosting-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
+        anchor_text: 4everland/4everland-hosting-mcp
+        extracted_url: https://github.com/4everland/4everland-hosting-mcp
+        surrounding_text: "- [4everland/4everland-hosting-mcp](https://github.com/4everland/4everland-hosting-mcp) 🎖️ 📇 🏠 🍎 🐧 - An MCP server implementation for 4EVERLAND Hosting enabling instant deployment of AI-generated code to decentralized storage networks like Greenfield, IPFS, and Arweave."
+        confidence: high
+    - id: discovery__github__4everland__4everland-hosting-mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: 4everland/4everland-hosting-mcp
+        extracted_url: https://github.com/4everland/4everland-hosting-mcp
+        surrounding_text: "- **[4everland/4everland-hosting-mcp](https://github.com/4everland/4everland-hosting-mcp)** - An MCP server implementation for 4EVERLAND Hosting enabling instant deployment of AI-generated code to decentralized storage networks like Greenfield, IPFS, and Arweave."
+        confidence: high
+metadata:
+  github:
+    stars: 4
+    forks: 6
+    license: null
+    archived: false
+    created_at: "2025-06-12T06:47:30Z"
+    pushed_at: "2025-06-19T06:39:56Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:00:44.772Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:44.772Z"
+      bytes: 4316
+insights:
+  summary: A Model Context Protocol server that deploys AI-generated code to decentralized storage networks including IPFS, Arweave, and Greenfield, returning a live accessible domain.
+  why_it_matters: It lets coding agents and AI workflows push generated sites or apps to decentralized storage and get a live URL without leaving the editor or CLI.
+  mental_damage: We have successfully automated the part of web development where you brag about your side project to friends by sending them a link, now running on immutable decentralized storage you do not control.
+  tags:
+    - mcp
+    - deployment
+    - ipfs
+    - decentralized-storage
+  confidence: high
+curation:
+  status: included
+  reason: The project is a standalone MCP server designed to deploy code to decentralized hosting platforms, which clearly fits the MCP Servers and Tooling category.
+  evidence:
+    - "README states: 'A Model Context Protocol (MCP) server implementation for 4EVERLAND Hosting enabling instant deployment of AI-generated code to decentralized storage networks.'"
+    - Includes integration instructions for Cursor and Claude Desktop as an MCP server endpoint.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Cloud Platforms'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.662Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:44.772Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:05:05.920Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

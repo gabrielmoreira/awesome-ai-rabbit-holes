@@ -1,0 +1,82 @@
+id: github__gregario__mtg-oracle
+kind: github-repo
+name: mtg-oracle
+canonical_url: https://github.com/gregario/mtg-oracle
+identity:
+  github_repo: gregario/mtg-oracle
+provenance:
+  discoveries:
+    - id: discovery__github__gregario__mtg-oracle__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🎮 <a name="gaming"></a>Gaming
+        anchor_text: gregario/mtg-oracle
+        extracted_url: https://github.com/gregario/mtg-oracle
+        surrounding_text: "- [gregario/mtg-oracle](https://github.com/gregario/mtg-oracle) [![gregario/mtg-oracle MCP server](https://glama.ai/mcp/servers/gregario/mtg-oracle/badges/score.svg)](https://glama.ai/mcp/servers/gregario/mtg-oracle) 📇 🏠 - Magic: The Gathering card search, rules lookup, deck analysis, price data, and Commander intelligence. 14 tools, Scryfall + Academy Ruins + Commander Spellbook data."
+        confidence: high
+metadata:
+  github:
+    stars: 3
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-03-15T14:39:27Z"
+    pushed_at: "2026-05-02T20:58:05Z"
+    description: "Magic: The Gathering MCP server with card search, rules lookup, deck analysis, and Commander intelligence"
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:27.885Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:27.885Z"
+      bytes: 5109
+insights:
+  summary: "An MCP server that provides Magic: The Gathering card search, rules lookup, deck analysis, and Commander-specific intelligence by exposing local SQLite data to AI assistants."
+  why_it_matters: It allows developers building AI workflows to enrich their assistants with domain-specific MTG knowledge without relying on slow, generic external API calls.
+  mental_damage: We have finally reached the point where we are building local infrastructure to explain the rules of cardboard dragons to a large language model.
+  tags:
+    - mcp
+    - nodejs
+    - gaming
+    - sqlite
+    - cli
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server implementation designed to expose MTG data tools to AI assistants, fitting the MCP category perfectly.
+  evidence:
+    - "Repo description identifies it as a 'Magic: The Gathering MCP server'."
+    - README lists 14 tools provided via the Model Context Protocol for AI assistants.
+    - Found in awesome-mcp-servers under 'Server Implementations > Gaming'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.690Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:27.885Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:22:57.850Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

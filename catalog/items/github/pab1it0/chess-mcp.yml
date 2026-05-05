@@ -1,0 +1,81 @@
+id: github__pab1it0__chess-mcp
+kind: github-repo
+name: chess-mcp
+canonical_url: https://github.com/pab1it0/chess-mcp
+identity:
+  github_repo: pab1it0/chess-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__pab1it0__chess-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🎮 <a name="gaming"></a>Gaming
+        anchor_text: pab1ito/chess-mcp
+        extracted_url: https://github.com/pab1it0/chess-mcp
+        surrounding_text: "- [pab1ito/chess-mcp](https://github.com/pab1it0/chess-mcp) 🐍 ☁️ - Access Chess.com player data, game records, and other public information through standardized MCP interfaces, allowing AI assistants to search and analyze chess information."
+        confidence: high
+metadata:
+  github:
+    stars: 71
+    forks: 16
+    license: MIT
+    archived: false
+    created_at: "2025-03-29T08:32:00Z"
+    pushed_at: "2025-11-15T16:26:26Z"
+    description: A Model Context Protocol server for Chess.com's Published Data API.  This provides access to Chess.com player data, game records, and other public information through standardized MCP interfaces, allowing AI assistants to search and analyze chess information.
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:04:10.136Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:10.136Z"
+      bytes: 3930
+insights:
+  summary: A Model Context Protocol server that exposes Chess.com's public player data, game records, and club information as tools for AI assistants.
+  why_it_matters: It lets developers and AI agents query chess data programmatically without writing API wrappers, enabling chess analysis and tooling experiments directly inside MCP-compatible hosts.
+  mental_damage: We have finally achieved the future where your AI assistant can critique your blunders on Chess.com while you wait for it to debug your CI pipeline.
+  tags:
+    - mcp
+    - chess
+    - api-wrapper
+    - game-data
+  confidence: high
+curation:
+  status: included
+  reason: This is a standalone MCP server that exposes Chess.com data as tools, which fits cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states it is 'A Model Context Protocol server for Chess.com's Published Data API.'
+    - README lists multiple MCP tools (get_player_profile, get_player_games_by_month, etc.) and configuration for Claude Desktop.
+    - Listed under 'Server Implementations > Gaming' in the awesome-mcp-servers directory.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.712Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:10.136Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:43:30.880Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

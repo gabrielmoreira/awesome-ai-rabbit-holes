@@ -1,0 +1,89 @@
+id: github__kedro-org__kedro-viz
+kind: github-repo
+name: kedro-viz
+canonical_url: https://github.com/kedro-org/kedro-viz
+identity:
+  github_repo: kedro-org/kedro-viz
+provenance:
+  discoveries:
+    - id: discovery__github__kedro-org__kedro-viz__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Training
+          - Experiment Tracking
+        anchor_text: Kedro-Viz
+        extracted_url: https://github.com/kedro-org/kedro-viz
+        surrounding_text: "| [Kedro-Viz](https://github.com/kedro-org/kedro-viz)    | Kedro-Viz is an interactive development tool for building data science pipelines with Kedro. Kedro-Viz also allows users to view and compare different runs in the Kedro project.                                                                                                                                                                                                                                                                                         | ![GitHub Badge](https://img.shields.io/github/stars/kedro-org/kedro-viz.svg?style=flat-square)     |"
+        confidence: high
+metadata:
+  github:
+    stars: 748
+    forks: 123
+    license: Apache-2.0
+    archived: false
+    created_at: "2019-05-09T10:35:23Z"
+    pushed_at: "2026-05-04T09:51:21Z"
+    description: "Visualise your Kedro data and machine-learning pipelines and track your experiments. "
+    homepage: https://demo.kedro.org
+    topics:
+      - data-visualization
+      - experiment-tracking
+      - hacktoberfest
+      - kedro
+      - kedro-plugin
+      - python
+      - react
+    last_checked_at: "2026-05-05T21:03:03.360Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:03.360Z"
+      bytes: 10733
+insights:
+  summary: Kedro-Viz is an interactive visualisation plugin and standalone React component for exploring Kedro data and machine-learning pipelines and tracking experiments.
+  why_it_matters: It lets developers inspect, search, and debug complex ML pipelines with autoreload and rich metadata instead of reading raw YAML or Python boilerplate.
+  mental_damage: Yet another reminder that your most impressive AI system is still just a DAG wearing a Plotly chart, and someone will eventually ask you to visualise the visualiser.
+  tags:
+    - kedro
+    - pipeline-visualisation
+    - experiment-tracking
+    - mlops
+    - react
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a general MLOps and data-pipeline visualisation tool with no meaningful AI developer-tooling angle for coding agents, IDEs, app builders, or adjacent AI infrastructure.
+  evidence:
+    - Repo description and README focus on visualising Kedro data/ML pipelines and experiment tracking, not AI-assisted coding or developer workflows.
+    - Listed under Training > Experiment Tracking in Awesome-LLMOps, which is a general MLOps context rather than AI developer tooling.
+    - No mention of coding agents, IDE integration, prompt tooling, MCP, or app-building capabilities in the provided inputs.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (748) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.701Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:03.360Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:30:17.492Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

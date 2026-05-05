@@ -1,0 +1,109 @@
+id: github__kadykov__mcp-openapi-schema-explorer
+kind: github-repo
+name: mcp-openapi-schema-explorer
+canonical_url: https://github.com/kadykov/mcp-openapi-schema-explorer
+identity:
+  github_repo: kadykov/mcp-openapi-schema-explorer
+provenance:
+  discoveries:
+    - id: discovery__github__kadykov__mcp-openapi-schema-explorer__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: kadykov/mcp-openapi-schema-explorer
+        extracted_url: https://github.com/kadykov/mcp-openapi-schema-explorer
+        surrounding_text: "- [kadykov/mcp-openapi-schema-explorer](https://github.com/kadykov/mcp-openapi-schema-explorer) 📇 ☁️ 🏠 - Token-efficient access to OpenAPI/Swagger specs via MCP Resources."
+        confidence: high
+    - id: discovery__github__kadykov__mcp-openapi-schema-explorer__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: OpenAPI Schema Explorer
+        extracted_url: https://github.com/kadykov/mcp-openapi-schema-explorer
+        surrounding_text: "- **[OpenAPI Schema Explorer](https://github.com/kadykov/mcp-openapi-schema-explorer)** - Token-efficient access to OpenAPI/Swagger specs via MCP Resources"
+        confidence: high
+metadata:
+  github:
+    stars: 71
+    forks: 12
+    license: MIT
+    archived: false
+    created_at: "2025-04-08T17:17:39Z"
+    pushed_at: "2026-05-04T16:10:43Z"
+    description: MCP server providing token-efficient access to OpenAPI/Swagger specs via MCP Resource Templates for client-side exploration.
+    homepage: ""
+    topics:
+      - api-specification
+      - developer-tools
+      - development
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - node
+      - node-js
+      - nodejs
+      - openapi
+      - swagger
+      - typescript
+    last_checked_at: "2026-05-05T21:03:02.093Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:02.093Z"
+      bytes: 15461
+insights:
+  summary: An MCP server that exposes OpenAPI and Swagger specifications through parameterized resource templates, allowing AI clients to query specific API details without loading entire specs into context windows.
+  why_it_matters: Developers using AI coding assistants can now explore and understand large API specifications on-demand without blowing through token limits or context windows.
+  mental_damage: We have finally built infrastructure to let AI efficiently read the same API docs that humans have been heroically ignoring since 2010.
+  tags:
+    - mcp
+    - openapi
+    - context-engineering
+    - api-tools
+    - typescript
+  confidence: high
+curation:
+  status: included
+  reason: This is a dedicated MCP server that solves a context-efficiency problem for API exploration, fitting cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description explicitly states: 'MCP server providing token-efficient access to OpenAPI/Swagger specs via MCP Resource Templates'"
+    - README confirms it exposes specs via MCP Resource Templates and is designed for MCP clients like Cline or Claude Desktop
+    - Listed in awesome-mcp-servers under 'Developer Tools' and 'Community Servers' sections
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.668Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:02.093Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:29:53.534Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

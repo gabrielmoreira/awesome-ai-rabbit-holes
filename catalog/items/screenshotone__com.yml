@@ -1,0 +1,76 @@
+id: screenshotone__com
+kind: website
+name: screenshotone.com
+canonical_url: https://screenshotone.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__screenshotone__com__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: ScreenshotOne
+        extracted_url: https://screenshotone.com
+        surrounding_text: "- **[ScreenshotOne](https://github.com/screenshotone/mcp/)** - Render website screenshots with [ScreenshotOne](https://screenshotone.com/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A screenshot rendering API for developers that provides a simple HTTP endpoint to generate pixel-perfect website screenshots without managing browser clusters.
+  why_it_matters: It offloads the brittle work of headless browser orchestration, cookie-banner blocking, and responsive rendering to a managed service with SDKs for all major languages.
+  mental_damage: We have successfully abstracted away the last remaining excuse for not automating the visual regression of our 400-page marketing site.
+  tags:
+    - screenshot-api
+    - browser-automation
+    - developer-tools
+    - http-api
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a general-purpose web screenshot API, not a developer-facing AI tool, agent, or AI infrastructure component.
+  evidence:
+    - The product is described as 'The Screenshot API for developers' with no mention of AI features.
+    - It focuses on rendering website screenshots via browser automation, not AI-driven coding or agent workflows.
+    - Listed in awesome-mcp-servers only as a hosted service endpoint, not as AI tooling.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.730Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:47:59.955Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

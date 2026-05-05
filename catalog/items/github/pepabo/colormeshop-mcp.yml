@@ -1,0 +1,88 @@
+id: github__pepabo__colormeshop-mcp
+kind: github-repo
+name: colormeshop-mcp
+canonical_url: https://github.com/pepabo/colormeshop-mcp
+identity:
+  github_repo: pepabo/colormeshop-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__pepabo__colormeshop-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🛒 <a name="e-commerce"></a>E-Commerce
+        anchor_text: pepabo/colormeshop-mcp
+        extracted_url: https://github.com/pepabo/colormeshop-mcp
+        surrounding_text: "- [pepabo/colormeshop-mcp](https://github.com/pepabo/colormeshop-mcp) [![pepabo/colormeshop-mcp MCP server](https://glama.ai/mcp/servers/pepabo/colormeshop-mcp/badges/score.svg)](https://glama.ai/mcp/servers/pepabo/colormeshop-mcp) 🎖️ ☁️ - Official remote MCP server for Color Me Shop (GMO Pepabo), a Japanese e-commerce platform. Manage orders, products, inventory, customers, coupons, and shop settings via natural language."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-04-21T04:51:43Z"
+    pushed_at: "2026-04-28T13:12:28Z"
+    description: Official remote MCP server for Color Me Shop
+    homepage: https://help.shop-pro.jp/hc/ja/articles/49646901116819
+    topics:
+      - ai-agent
+      - colorme
+      - ecommerce
+      - mcp
+      - model-context-protocol
+      - remote-mcp-server
+    last_checked_at: "2026-05-05T21:04:14.991Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:14.991Z"
+      bytes: 3602
+insights:
+  summary: An official remote MCP server for Color Me Shop that exposes e-commerce operations like orders, products, and customers to AI tools via Streamable HTTP.
+  why_it_matters: Developers building on Color Me Shop can now delegate shop operations to MCP-capable clients like Claude Code, Cursor, or Gemini CLI through a standardized protocol.
+  mental_damage: We have successfully abstracted away the last remaining excuse for not processing refunds on a Sunday afternoon by wrapping an entire e-commerce backend behind a chat prompt.
+  tags:
+    - mcp
+    - ecommerce
+    - remote-server
+    - colormeshop
+    - oauth
+  confidence: high
+curation:
+  status: included
+  reason: This is an official MCP server implementation designed to connect an e-commerce platform to AI developer tools, fitting cleanly into the MCP category.
+  evidence:
+    - Repo description explicitly states 'Official remote MCP server for Color Me Shop'.
+    - README details a remote MCP endpoint (https://agent.colorme.app/api/mcp) with support for Claude, Cursor, Codex, and Gemini CLI.
+    - Listed in awesome-mcp-servers under Server Implementations > E-Commerce.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.712Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:14.991Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:44:17.159Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

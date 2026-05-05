@@ -1,0 +1,81 @@
+id: github__leekangbum__networklytics-mcp
+kind: github-repo
+name: networklytics-mcp
+canonical_url: https://github.com/leekangbum/networklytics-mcp
+identity:
+  github_repo: leekangbum/networklytics-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__leekangbum__networklytics-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📊 <a name="data-platforms"></a>Data Platforms
+        anchor_text: Leekangbum/networklytics-mcp
+        extracted_url: https://github.com/leekangbum/networklytics-mcp
+        surrounding_text: "- [Leekangbum/networklytics-mcp](https://github.com/Leekangbum/networklytics-mcp) [![Leekangbum/networklytics-mcp MCP server](https://glama.ai/mcp/servers/Leekangbum/networklytics-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Leekangbum/networklytics-mcp) 🐍 - YouTube comment social network analysis (SNA): influencer centrality ranking, community detection (Louvain), sentiment analysis, and public JSON API for AI agents"
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: null
+    archived: false
+    created_at: "2026-04-13T03:53:38Z"
+    pushed_at: "2026-04-17T04:08:57Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:03:18.125Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:18.125Z"
+      bytes: 1891
+insights:
+  summary: An MCP server that allows AI tools like Claude Desktop and Cursor to query YouTube comment network analysis data from NetworkLytics.
+  why_it_matters: It lets developers pipe social sentiment and influencer analytics directly into their AI workflow without context-switching to a browser.
+  mental_damage: We have successfully abstracted away the need to visit a website by configuring a JSON file to ask an AI to read the website for us.
+  tags:
+    - mcp
+    - youtube
+    - analytics
+    - network-analysis
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server implementation designed to integrate external analytics data with AI coding assistants.
+  evidence:
+    - README identifies this as a 'NetworkLytics MCP (Model Context Protocol) server' for Claude Desktop and Cursor.
+    - Listed in the awesome-mcp-servers directory under 'Data Platforms'.
+    - Provides specific MCP tools like `get_shared_analysis` and `get_analysis_by_id`.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.704Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:18.125Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:33:31.236Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

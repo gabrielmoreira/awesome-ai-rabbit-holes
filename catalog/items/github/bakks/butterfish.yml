@@ -1,0 +1,81 @@
+id: github__bakks__butterfish
+kind: github-repo
+name: butterfish
+canonical_url: https://github.com/bakks/butterfish
+identity:
+  github_repo: bakks/butterfish
+provenance:
+  discoveries:
+    - id: discovery__github__bakks__butterfish__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: scraped
+        section_path:
+          - CLI Tools
+        anchor_text: Butterfish
+        extracted_url: https://butterfi.sh
+        surrounding_text: "- **[Butterfish](https://butterfi.sh)** – AI tool for enhancing shell productivity with natural language."
+        confidence: high
+metadata:
+  github:
+    stars: 526
+    forks: 63
+    license: MIT
+    archived: false
+    created_at: "2023-01-10T05:27:13Z"
+    pushed_at: "2026-04-01T15:45:00Z"
+    description: A shell with AI superpowers
+    homepage: https://butterfi.sh
+    topics: []
+    last_checked_at: "2026-05-05T21:01:16.999Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:16.999Z"
+      bytes: 22023
+insights:
+  summary: Butterfish is a CLI shell wrapper for bash and zsh that integrates OpenAI to provide contextual coding help, command generation, and agentic debugging directly in the terminal.
+  why_it_matters: It allows developers to invoke AI assistance without leaving the command line or copy-pasting context, streamlining debugging and command discovery during active development.
+  mental_damage: Finally, the CLI has the same 'just ask the magic box' workflow we've been trying to escape by using the terminal in the first place.
+  tags:
+    - cli
+    - shell
+    - terminal
+    - llm-integration
+    - openai
+  confidence: high
+curation:
+  status: included
+  reason: The tool acts as an autonomous coding agent operating directly in the terminal workflow, fitting the 'Terminal & CLI Agents' section of coding-agents.
+  evidence:
+    - Repo description explicitly states 'A shell with AI superpowers'.
+    - "README describes agentic behavior: '!Run make in this directory, debug problems' and command autocompletion."
+    - Included in the 'awesome-ai-coding-tools' list under the 'CLI Tools' section.
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (526) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.680Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:16.999Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:10:10.571Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

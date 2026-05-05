@@ -1,0 +1,76 @@
+id: memclaw__me__en__claw
+kind: website
+name: claw
+canonical_url: https://memclaw.me/en/claw
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__memclaw__me__en__claw__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Developer Productivity Tools
+        anchor_text: MemClaw
+        extracted_url: https://memclaw.me
+        surrounding_text: "- **[MemClaw](https://memclaw.me)** – Persistent project memory for AI coding agents (MCP-compatible). Creates isolated memory workspaces per project with a web dashboard to review and manage context. Free and open source."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: MemClaw is a memory extension for the OpenClaw assistant that adds persistent, project-scoped memory, isolated workspaces, and team collaboration features.
+  why_it_matters: It allows developers juggling multiple projects to maintain clean, separated context in OpenClaw and recall entire project histories with a single prompt instead of re-explaining requirements.
+  mental_damage: We have now reached the point where our AI assistants need their own external memory modules to remember what they were doing five minutes ago.
+  tags:
+    - memory
+    - openclaw
+    - context
+    - productivity
+  confidence: high
+curation:
+  status: included
+  reason: This is a skill/extension that augments the OpenClaw assistant with persistent memory and project isolation, fitting the AI Developer Extensions and Skills category.
+  evidence:
+    - Listed in awesome-ai-coding-tools under Developer Productivity Tools as a memory extension for OpenClaw.
+    - Scraped site describes it as turning OpenClaw into persistent project memory with isolated workspaces and team collaboration.
+    - Installation instructions show it is added to OpenClaw via a repository install command rather than being a standalone assistant.
+placement:
+  primary_category: ai-dev-extensions
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.729Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:46:32.831Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

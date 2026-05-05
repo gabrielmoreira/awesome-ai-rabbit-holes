@@ -1,0 +1,81 @@
+id: github__mmz-001__knowledge_gpt
+kind: github-repo
+name: knowledge_gpt
+canonical_url: https://github.com/mmz-001/knowledge_gpt
+identity:
+  github_repo: mmz-001/knowledge_gpt
+provenance:
+  discoveries:
+    - id: discovery__github__mmz-001__knowledge_gpt__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Open Source Projects
+          - Knowledge Management
+        anchor_text: Knowledge GPT
+        extracted_url: https://github.com/mmz-001/knowledge_gpt
+        surrounding_text: "- [Knowledge GPT](https://github.com/mmz-001/knowledge_gpt): Accurate answers and instant citations for your documents. ![GitHub Repo stars](https://img.shields.io/github/stars/mmz-001/knowledge_gpt?style=social)"
+        confidence: high
+metadata:
+  github:
+    stars: 1646
+    forks: 792
+    license: MIT
+    archived: true
+    created_at: "2023-01-31T06:17:33Z"
+    pushed_at: "2024-05-29T21:23:51Z"
+    description: Accurate answers and instant citations for your documents.
+    homepage: https://knowledgegpt.streamlit.app/
+    topics: []
+    last_checked_at: "2026-05-05T21:03:44.238Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:44.238Z"
+      bytes: 2890
+insights:
+  summary: A Streamlit-based app that uses LangChain to let users upload documents and receive answers with inline citations.
+  why_it_matters: It provides a reference implementation for developers looking to build document-grounded Q&A pipelines with retrieval and citation features.
+  mental_damage: Another heroic attempt to solve the 'trust the LLM' problem by pointing at the source text, as if highlighting the hallucination makes it less magical.
+  tags:
+    - langchain
+    - rag
+    - streamlit
+    - document-qa
+  confidence: high
+curation:
+  status: excluded
+  reason: The repository is archived and represents a generic document Q&A application rather than a developer-facing tool that integrates into coding workflows.
+  evidence:
+    - Repository is marked as archived on GitHub.
+    - README describes a Streamlit app for document Q&A, not a tool for editing code or building software.
+    - Listed in awesome-langchain under 'Knowledge Management', which is outside the catalog's developer-tooling scope.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: needs_review
+  reason: Repository is archived
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.707Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:44.238Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:38:35.373Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

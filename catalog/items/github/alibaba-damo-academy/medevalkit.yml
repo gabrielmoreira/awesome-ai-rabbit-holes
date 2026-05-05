@@ -1,0 +1,85 @@
+id: github__alibaba-damo-academy__medevalkit
+kind: github-repo
+name: medevalkit
+canonical_url: https://github.com/alibaba-damo-academy/medevalkit
+identity:
+  github_repo: alibaba-damo-academy/medevalkit
+provenance:
+  discoveries:
+    - id: discovery__github__alibaba-damo-academy__medevalkit__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 评估 Evaluation
+        anchor_text: MedEvalKit
+        extracted_url: https://github.com/alibaba-damo-academy/medevalkit
+        surrounding_text: "18. [MedEvalKit](https://github.com/alibaba-damo-academy/MedEvalKit): A Unified Medical Evaluation Framework."
+        confidence: high
+metadata:
+  github:
+    stars: 228
+    forks: 21
+    license: null
+    archived: false
+    created_at: "2025-06-11T03:12:27Z"
+    pushed_at: "2026-02-24T02:40:45Z"
+    description: "MedEvalKit: A Unified Medical Evaluation Framework"
+    homepage: https://alibaba-damo-academy.github.io/lingshu/
+    topics:
+      - evaluation-framework
+      - llm
+      - medicalai
+      - multimodal
+    last_checked_at: "2026-05-05T21:00:59.223Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:59.223Z"
+      bytes: 6889
+insights:
+  summary: MedEvalKit is a unified evaluation framework for benchmarking large medical language and multimodal models across a wide range of healthcare datasets and supported model architectures.
+  why_it_matters: It gives developers building medical AI a single harness to plug in new models, run standardized medical benchmarks, and compare results without stitching together disjointed eval scripts.
+  mental_damage: Because nothing says practical developer tooling like needing flash-attn, open_clip_torch, and an entire cloned LLaVA-NeXT repo just to find out your medical model still can’t read an X-ray.
+  tags:
+    - evaluation
+    - medical-ai
+    - llm
+    - benchmark
+    - multimodal
+  confidence: high
+curation:
+  status: included
+  reason: This is an evaluation harness and benchmark framework for medical LLMs/MLLMs, which fits squarely into the Evaluations and Benchmarks category.
+  evidence:
+    - "Repo description: 'MedEvalKit: A Unified Medical Evaluation Framework'"
+    - README states it is 'A comprehensive evaluation framework for Large Medical Models (LMMs/LLMs) in the healthcare domain.'
+    - Seen in awesome-LLM-resources under the section '评估 Evaluation'
+placement:
+  primary_category: evals
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (228) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.678Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:59.223Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:07:31.569Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

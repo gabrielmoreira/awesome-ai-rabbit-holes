@@ -1,0 +1,78 @@
+id: e2b__dev__docs
+kind: website
+name: docs
+canonical_url: https://e2b.dev/docs
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__e2b__dev__docs__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Check out E2B - Code Interpreting for AI apps
+        anchor_text: Code Interpreter SDK
+        extracted_url: https://e2b.dev/docs
+        surrounding_text: "- Check out [Code Interpreter SDK](https://e2b.dev/docs?ref=awesome-sdk)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: E2B provides isolated, fast Linux VM sandboxes (and SDKs to manage them) that allow developers to safely run code, tools, and data-processing tasks for AI agents.
+  why_it_matters: It gives AI agents a secure, disposable compute environment with terminals, file systems, and browser access, which is essential infrastructure for building and scaling agentic workflows.
+  mental_damage: We have ascended from 'vibe coding' to 'vibe provisioning infrastructure,' where your agent's biggest production risk is that its sandbox provider scheduled maintenance during your 3 AM deploy.
+  tags:
+    - sandbox
+    - agents
+    - infrastructure
+    - sdk
+  confidence: high
+curation:
+  status: included
+  reason: E2B is a developer-facing SDK and infrastructure framework for providing secure, isolated sandboxes to AI agents, fitting the code-first building blocks definition of ai-frameworks rather than a primary coding agent or app builder.
+  evidence:
+    - "Documentation states: 'E2B provides isolated sandboxes that let agents safely execute code... Our SDKs make it easy to start and manage these environments.'"
+    - Featured in awesome-ai-agents list under 'Check out E2B - Code Interpreting for AI apps'.
+    - Primary page excerpt shows a code example for starting a sandbox via an SDK (import { Sandbox } from 'e2b').
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.727Z"
+    cause:
+      type: ambiguous_canonicalization
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:44:22.325Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

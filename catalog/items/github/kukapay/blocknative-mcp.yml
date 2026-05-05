@@ -1,0 +1,82 @@
+id: github__kukapay__blocknative-mcp
+kind: github-repo
+name: blocknative-mcp
+canonical_url: https://github.com/kukapay/blocknative-mcp
+identity:
+  github_repo: kukapay/blocknative-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__kukapay__blocknative-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: kukapay/blocknative-mcp
+        extracted_url: https://github.com/kukapay/blocknative-mcp
+        surrounding_text: "- [kukapay/blocknative-mcp](https://github.com/kukapay/blocknative-mcp) 🐍 ☁️ -  Providing real-time gas price predictions across multiple blockchains, powered by Blocknative."
+        confidence: high
+metadata:
+  github:
+    stars: 4
+    forks: 6
+    license: MIT
+    archived: false
+    created_at: "2025-04-30T04:40:33Z"
+    pushed_at: "2025-04-30T13:13:39Z"
+    description: An MCP server that provides real-time gas price predictions across multiple blockchains.
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:03:09.374Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:09.374Z"
+      bytes: 4917
+insights:
+  summary: An MCP server that provides real-time gas price predictions and transaction cost estimations across multiple blockchains via the Blocknative API.
+  why_it_matters: It allows AI agents and developer tools to query live blockchain gas data and estimate transaction costs directly within their workflow.
+  mental_damage: We have successfully abstracted checking gas prices into a protocol that requires a server, an agent, and a neural network, just in case we forget how to read a number from a block explorer.
+  tags:
+    - mcp
+    - blockchain
+    - web3
+    - gas-prices
+    - api
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server implementation for blockchain data, fitting cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description states: 'An MCP server that provides real-time gas price predictions across multiple blockchains.'"
+    - README confirms it uses the FastMCP framework to expose tools like `predict_gas_price` and `estimate_gas_cost`.
+    - Listed in the awesome-mcp-servers directory under 'Finance & Fintech'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.702Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:09.374Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:31:37.901Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,75 @@
+id: x__com__danielhanchen__status__1775120334305607781
+kind: website
+name: "1775120334305607781"
+canonical_url: https://x.com/danielhanchen/status/1775120334305607781
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__x__com__danielhanchen__status__1775120334305607781__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - SWE Agent
+          - Description
+        anchor_text: "\"An open source Devin getting 12.29% on 100% of the SWE Bench test set vs Devin's 13.84% on 25% of the test set!\""
+        extracted_url: https://x.com/danielhanchen/status/1775120334305607781
+        surrounding_text: "- [\"An open source Devin getting 12.29% on 100% of the SWE Bench test set vs Devin's 13.84% on 25% of the test set!\"](https://x.com/danielhanchen/status/1775120334305607781)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: An X.com status link with no accessible description, repo, or tool page to evaluate.
+  why_it_matters: It doesn't, because there is no tooling surface, README, or explanation attached to this entry.
+  mental_damage: We have reached peak AI curation velocity when a broken Twitter link qualifies as a candidate for the stack.
+  tags:
+    - broken-link
+    - unverifiable
+  confidence: high
+curation:
+  status: excluded
+  reason: The URL points to an X.com status that cannot be scraped, has no repo, no description, no README, and no usable context to determine what the tool actually is.
+  evidence:
+    - URL is a Twitter/X status with no accessible content or description
+    - No repo description, README, stars, or creation date available
+    - Scraped site context returned an error page rather than product information
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.734Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:54:16.194Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

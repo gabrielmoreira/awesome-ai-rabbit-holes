@@ -1,0 +1,99 @@
+id: github__aiwaves-cn__agents
+kind: github-repo
+name: agents
+canonical_url: https://github.com/aiwaves-cn/agents
+identity:
+  github_repo: aiwaves-cn/agents
+provenance:
+  discoveries:
+    - id: discovery__github__aiwaves-cn__agents__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Agents
+        anchor_text: Agents
+        extracted_url: https://github.com/aiwaves-cn/agents
+        surrounding_text: "## [Agents](https://github.com/aiwaves-cn/agents)"
+        confidence: high
+    - id: discovery__github__aiwaves-cn__agents__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 智能体 Agents
+        anchor_text: Agents
+        extracted_url: https://github.com/aiwaves-cn/agents
+        surrounding_text: "23. [Agents](https://github.com/aiwaves-cn/agents): An Open-source Framework for Data-centric, Self-evolving Autonomous Language Agents."
+        confidence: high
+metadata:
+  github:
+    stars: 5919
+    forks: 481
+    license: Apache-2.0
+    archived: false
+    created_at: "2023-07-18T02:01:03Z"
+    pushed_at: "2024-09-26T03:12:53Z"
+    description: An Open-source Framework for Data-centric, Self-evolving Autonomous Language Agents
+    homepage: ""
+    topics:
+      - autonomous-agents
+      - language-model
+      - llm
+    last_checked_at: "2026-05-05T21:00:56.250Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:56.250Z"
+      bytes: 4402
+insights:
+  summary: An open-source Python framework for building, training, and evaluating autonomous language agents using symbolic learning techniques inspired by neural network backpropagation.
+  why_it_matters: It gives developers a structured way to treat agent pipelines like trainable computational graphs, enabling systematic optimization of prompts, tools, and multi-agent workflows via language-based gradients.
+  mental_damage: Just when you thought prompt engineering was the final form of programming, we now have gradient descent for your agent's personality, because apparently even your LLM chains need to overfit to a training set.
+  tags:
+    - agents
+    - framework
+    - training
+    - autonomous-agents
+    - llm
+  confidence: high
+curation:
+  status: included
+  reason: This is a code-first SDK/framework for constructing and training agentic systems, which fits squarely into ai-frameworks rather than a developer-facing coding assistant or control-plane orchestration platform.
+  evidence:
+    - Repo description explicitly labels it as 'An Open-source Framework for Data-centric, Self-evolving Autonomous Language Agents'.
+    - README details a Python library implementing symbolic learning, loss functions, and back-propagation for agent pipelines via pip install.
+    - Listed in awesome-LLM-resources under '智能体 Agents' and awesome-ai-agents, confirming its positioning as a developer framework for agents.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (5919) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.662Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:56.250Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:07:02.228Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

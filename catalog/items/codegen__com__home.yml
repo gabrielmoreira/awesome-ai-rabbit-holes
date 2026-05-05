@@ -1,0 +1,76 @@
+id: codegen__com__home
+kind: website
+name: home
+canonical_url: https://codegen.com/home
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__codegen__com__home__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Codegen
+        anchor_text: Codegen
+        extracted_url: https://www.codegen.com
+        surrounding_text: "## [Codegen](https://www.codegen.com/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Codegen is an AI-powered coding agent platform that automates development workflows by turning tickets into pull requests, featuring on-prem deployment and integrations with tools like Linear.
+  why_it_matters: It aims to bridge the gap between project management and code implementation, allowing engineering teams to automate the path from a ticket to production-ready code.
+  mental_damage: "Just what the backlog needed: another 'operating system for agents' ensuring your tickets are resolved by entities that don't have to attend the standup."
+  tags:
+    - coding-agents
+    - code-review
+    - automation
+    - enterprise
+  confidence: high
+curation:
+  status: included
+  reason: The product is a developer-facing coding agent designed to plan, write, and review code within a repo workflow, explicitly positioning itself as an agentic OS for engineering teams.
+  evidence:
+    - Blog titles include 'Best AI Coding Agents in 2026' and 'How to Build Agentic Coding Workflows That Actually Ship'.
+    - Product description calls it 'The operating system for AI coding agents' and highlights 'Ticket to pull request' automation.
+    - Featured in awesome-ai-agents list under the 'Codegen' section.
+placement:
+  primary_category: coding-agents
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.444Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T20:49:16.896Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+    next_retry_at: null

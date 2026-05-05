@@ -1,0 +1,76 @@
+id: mcp__stromhaltig__de
+kind: website
+name: mcp.stromhaltig.de
+canonical_url: https://mcp.stromhaltig.de
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__mcp__stromhaltig__de__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Willi MaKo Knowledge Service
+        extracted_url: https://mcp.stromhaltig.de
+        surrounding_text: "- **[Willi MaKo Knowledge Service](https://mcp.stromhaltig.de)** - A knowledge service for Germany's complex Energy Market Communications (MaKo) regulations."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A listing or registry site for discovering and submitting Model Context Protocol (MCP) servers.
+  why_it_matters: It serves as a centralized directory for developers looking to find or register MCP servers for their AI tooling stacks.
+  mental_damage: We have now successfully built a directory to organize the directories that organize the servers that standardize the way we plug context into the things that write our code.
+  tags:
+    - mcp
+    - directory
+    - registry
+    - servers
+  confidence: medium
+curation:
+  status: included
+  reason: The site functions as a directory and submission portal for MCP servers, fitting the 'awesome-awesomes' category as a navigation aid rather than a standalone server or tool itself.
+  evidence:
+    - URL is https://mcp.stromhaltig.de, indicating a web property dedicated to MCP.
+    - Referenced in awesome-mcp-servers list with the note to submit servers via mcpservers.org, suggesting this is a related listing/registry site.
+    - No code repository, IDE, or agent functionality described; it is a curated list/registry surface.
+placement:
+  primary_category: awesome-awesomes
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.729Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:46:27.837Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

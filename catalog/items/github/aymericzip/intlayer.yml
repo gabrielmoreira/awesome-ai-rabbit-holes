@@ -1,0 +1,113 @@
+id: github__aymericzip__intlayer
+kind: github-repo
+name: intlayer
+canonical_url: https://github.com/aymericzip/intlayer
+identity:
+  github_repo: aymericzip/intlayer
+provenance:
+  discoveries:
+    - id: discovery__github__aymericzip__intlayer__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🤖 <a name="coding-agents"></a>Coding Agents
+        anchor_text: aymericzip/intlayer
+        extracted_url: https://github.com/aymericzip/intlayer
+        surrounding_text: "- [aymericzip/intlayer](https://github.com/aymericzip/intlayer) 📇 ☁️ 🏠 - A MCP Server that enhance your IDE with AI-powered assistance for Intlayer i18n / CMS tool: smart CLI access, access to the docs."
+        confidence: high
+    - id: discovery__github__aymericzip__intlayer__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: aymericzip/intlayer
+        extracted_url: https://github.com/aymericzip/intlayer
+        surrounding_text: "- **[aymericzip/intlayer](https://github.com/aymericzip/intlayer)** - A MCP Server that enhance your IDE with AI-powered assistance for Intlayer i18n / CMS tool: smart CLI access, versioned docs."
+        confidence: high
+metadata:
+  github:
+    stars: 712
+    forks: 114
+    license: Apache-2.0
+    archived: false
+    created_at: "2024-03-24T20:14:24Z"
+    pushed_at: "2026-05-05T05:21:06Z"
+    description: Per-component Internationalisation solution for JS application. Type-Safe. Translate with AI. Edit Visually.
+    homepage: https://intlayer.org
+    topics:
+      - cms
+      - content
+      - content-management
+      - hacktoberfest
+      - i18n
+      - internationalisation
+      - javascript
+      - l10n
+      - localization
+      - multilingual
+      - nextjs
+      - node
+      - react-native
+      - reactjs
+      - typescript
+      - vitejs
+    last_checked_at: "2026-05-05T21:01:15.610Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:15.610Z"
+      bytes: 28284
+insights:
+  summary: A per-component internationalization library for JavaScript applications that integrates AI-powered translations, a visual editor, and a multilingual CMS for frameworks like Next.js, React, and Vite.
+  why_it_matters: It streamlines the localization workflow by allowing developers to co-locate dictionaries with components and automate translation updates using AI.
+  mental_damage: Another framework-specific dependency promising to solve i18n, now with LLMs to ensure your 'Submit' button is culturally nuanced in forty languages you don't speak.
+  tags:
+    - i18n
+    - localization
+    - cms
+    - typescript
+    - react
+  confidence: high
+curation:
+  status: included
+  reason: The project is a code-first library and SDK for embedding AI-driven translation capabilities into a developer's existing codebase, fitting the AI Frameworks definition.
+  evidence:
+    - Repo description explicitly calls it a 'Per-component Internationalisation solution for JS application' with 'Translate with AI'.
+    - README excerpt describes it as a 'modern i18n solution' with TypeScript autocompletion and CI/CD integration.
+    - Topics include library-appropriate tags like 'reactjs', 'nextjs', 'typescript', and 'vitejs' rather than agent orchestration.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (712) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.663Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:15.610Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:10:00.202Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

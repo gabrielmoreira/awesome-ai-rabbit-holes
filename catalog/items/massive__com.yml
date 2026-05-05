@@ -1,0 +1,76 @@
+id: massive__com
+kind: website
+name: massive.com
+canonical_url: https://massive.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__massive__com__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: Polygon.io
+        extracted_url: https://polygon.io
+        surrounding_text: "- [polygon-io/mcp_polygon)](https://github.com/polygon-io/mcp_polygon)) 🐍 ☁️ -  An MCP server that provides access to [Polygon.io](https://polygon.io/) financial market data APIs for stocks, indices, forex, options, and more."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Massive is a stock market API providing real-time and historical tick data via REST and WebSockets in JSON and CSV formats.
+  why_it_matters: It serves as a data source for developers building financial applications or creating MCP server integrations for AI agents that require market data.
+  mental_damage: We have successfully abstracted the chaos of the global economy into a standardized JSON endpoint so your autonomous agent can panic about market volatility at machine speed.
+  tags:
+    - finance
+    - api
+    - mcp
+    - data
+  confidence: medium
+curation:
+  status: included
+  reason: The project is specifically listed as an MCP server implementation for finance and fintech in the awesome-mcp-servers directory, fitting the MCP infrastructure category.
+  evidence:
+    - Listed in awesome-mcp-servers under 'Server Implementations > Finance & Fintech'.
+    - Scraped site description identifies it as a 'Stock API with real-time and historical tick data'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.728Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:46:13.636Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

@@ -1,0 +1,81 @@
+id: github__doggychip__agentforge
+kind: github-repo
+name: agentforge
+canonical_url: https://github.com/doggychip/agentforge
+identity:
+  github_repo: doggychip/agentforge
+provenance:
+  discoveries:
+    - id: discovery__github__doggychip__agentforge__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🔗 <a name="aggregators"></a>Aggregators
+        anchor_text: doggychip/agentforge
+        extracted_url: https://github.com/doggychip/agentforge
+        surrounding_text: "- [doggychip/agentforge](https://github.com/doggychip/agentforge) [![doggychip/agentforge MCP server](https://glama.ai/mcp/servers/doggychip/agentforge/badges/score.svg)](https://glama.ai/mcp/servers/doggychip/agentforge) 📇 ☁️ - Unified API gateway and marketplace for 300+ AI agents. One API key, REST + streaming, 90% creator revenue share, health monitoring. Self-hostable (MIT)."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: null
+    archived: false
+    created_at: "2026-03-16T03:39:08Z"
+    pushed_at: "2026-04-21T17:13:00Z"
+    description: AgentForge — subscription marketplace for AI agents, tools & content. Built for developers and AI agents alike.
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:01:55.306Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:55.306Z"
+      bytes: 12903
+insights:
+  summary: AgentForge is a unified API gateway and marketplace that provides a single API key to access and invoke over 300 AI agents, with a built-in MCP server for integration with editors like Claude and Cursor.
+  why_it_matters: It reduces integration overhead by acting as a single billing and auth layer for diverse agents, while the MCP server allows developers to call these agents directly from their existing IDEs.
+  mental_damage: We have successfully abstracted the abstraction, meaning you now need a marketplace account and an API key just to manage the other API keys you were trying to simplify.
+  tags:
+    - mcp
+    - api-gateway
+    - marketplace
+    - agents
+  confidence: medium
+curation:
+  status: included
+  reason: The project is primarily an MCP server implementation that exposes a marketplace of agents as tools for MCP-compatible clients like Claude and Cursor.
+  evidence:
+    - README explicitly details a built-in MCP server (mcp/server.ts) to expose agents as MCP tools.
+    - Listed in awesome-mcp-servers under the 'Aggregators' section.
+    - Provides specific configuration examples for Claude Desktop and other MCP clients.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.685Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:55.306Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:16:46.134Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

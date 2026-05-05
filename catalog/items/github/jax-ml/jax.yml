@@ -1,0 +1,83 @@
+id: github__jax-ml__jax
+kind: github-repo
+name: jax
+canonical_url: https://github.com/jax-ml/jax
+identity:
+  github_repo: jax-ml/jax
+provenance:
+  discoveries:
+    - id: discovery__github__google__jax__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Training
+          - Frameworks for Training
+        anchor_text: Jax
+        extracted_url: https://github.com/google/jax
+        surrounding_text: "| [Jax](https://github.com/google/jax)                                 | Autograd and XLA for high-performance machine learning research.                                                                                                                                            | ![GitHub Badge](https://img.shields.io/github/stars/google/jax.svg?style=flat-square)                        |"
+        confidence: high
+metadata:
+  github:
+    stars: 35552
+    forks: 3560
+    license: Apache-2.0
+    archived: false
+    created_at: "2018-10-25T21:25:02Z"
+    pushed_at: "2026-05-05T21:01:47Z"
+    description: "Composable transformations of Python+NumPy programs: differentiate, vectorize, JIT to GPU/TPU, and more"
+    homepage: https://docs.jax.dev
+    topics:
+      - jax
+    last_checked_at: "2026-05-05T21:02:53.160Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:53.160Z"
+      bytes: 10758
+insights:
+  summary: JAX is a Python library for accelerator-oriented array computation and program transformation, enabling automatic differentiation, JIT compilation to GPU/TPU via XLA, and auto-vectorization for high-performance numerical computing and machine learning.
+  why_it_matters: It provides developers with composable function transformations to scale NumPy-style programs across accelerators without leaving Python, serving as a foundation for many modern ML research and production workflows.
+  mental_damage: Yet another powerful numerical computing framework that will make you question why your PyTorch code is still running on a single CPU while you debug XLA compilation errors at 2 AM.
+  tags:
+    - python
+    - numerical-computing
+    - autodiff
+    - xla
+    - machine-learning
+  confidence: high
+curation:
+  status: excluded
+  reason: JAX is a general-purpose numerical computing and ML framework, not a developer-facing AI tool, agent, workflow, or infrastructure product for software development as defined by this catalog's scope.
+  evidence:
+    - Repo description and README position JAX as a library for numerical computing, autodiff, and ML, not as a coding assistant or developer tool.
+    - No references to coding agents, IDE integrations, app building, MCP, or developer infrastructure in the provided inputs.
+    - Fits the profile of general ML research/framework work, which is explicitly excluded from this catalog.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (35552) exceeded threshold (150)
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:27:59.733Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.689Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:53.160Z"
+    cause: null
+    next_retry_at: null

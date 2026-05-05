@@ -1,0 +1,77 @@
+id: vulert__com
+kind: website
+name: vulert.com
+canonical_url: https://vulert.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__vulert__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Security
+        anchor_text: Vulert
+        extracted_url: https://vulert.com
+        surrounding_text: "- **[Vulert](https://vulert.com/)** – Detects vulnerabilities in open-source dependencies without accessing your code."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Vulert is a SaaS platform for software composition analysis that scans manifest files and SBOMs to detect vulnerabilities, manage license compliance, and monitor Docker images without accessing source code.
+  why_it_matters: It integrates into CI/CD pipelines and dashboards to automate dependency security and compliance checks so developers can stop manually grepping through lockfiles for CVEs.
+  mental_damage: Another zero-install, zero-trust SaaS to manage the supply-chain anxiety that prompts and autocomplete accidentally introduced in the first place.
+  tags:
+    - security
+    - sca
+    - compliance
+    - ci-cd
+    - dependencies
+  confidence: high
+curation:
+  status: excluded
+  reason: The platform is a traditional security and compliance SaaS for dependency scanning rather than an AI tool, agent, or AI-native developer workflow product.
+  evidence:
+    - Site description focuses on SCA, SBOM monitoring, license compliance, and Docker scanning with no mention of AI assistance.
+    - Listed in awesome-ai-coding-tools under a 'Security' section, but the product itself does not claim to use or provide AI features.
+    - CI/CD and Jira integrations target standard DevOps workflows rather than AI coding, agent orchestration, or prompt-driven development.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.731Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:49:09.635Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

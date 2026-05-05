@@ -1,0 +1,86 @@
+id: github__ggml-org__llamabarn
+kind: github-repo
+name: llamabarn
+canonical_url: https://github.com/ggml-org/llamabarn
+identity:
+  github_repo: ggml-org/llamabarn
+provenance:
+  discoveries:
+    - id: discovery__github__ggml-org__llamabarn__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 推理 Inference
+        anchor_text: LlamaBarn
+        extracted_url: https://github.com/ggml-org/llamabarn
+        surrounding_text: "51. [LlamaBarn](https://github.com/ggml-org/LlamaBarn): Run local LLMs on your Mac with a simple menu bar app."
+        confidence: high
+metadata:
+  github:
+    stars: 1240
+    forks: 65
+    license: MIT
+    archived: false
+    created_at: "2025-06-30T11:05:34Z"
+    pushed_at: "2026-04-27T08:25:54Z"
+    description: A cosy home for your LLMs.
+    homepage: ""
+    topics:
+      - ai
+      - llama-cpp
+      - llms
+      - macos
+      - swift
+    last_checked_at: "2026-05-05T21:02:20.613Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:20.613Z"
+      bytes: 3162
+insights:
+  summary: A lightweight macOS menu bar app that runs local LLMs via llama.cpp and exposes them through a standard OpenAI-compatible API server.
+  why_it_matters: It gives developers a zero-config, native way to run and manage local models on Mac, making it easy to point editors, CLIs, and AI extensions at a private localhost endpoint.
+  mental_damage: Yet another glossy wrapper for summoning ghosts into your menu bar, promising that this time, running an LLM locally won't feel like managing a small data center on your lap.
+  tags:
+    - local-ai
+    - macos
+    - llama-cpp
+    - openai-compatible
+    - menu-bar
+  confidence: high
+curation:
+  status: included
+  reason: The project is a developer-focused local model runtime and serving stack for macOS, clearly fitting the local-ai category rather than a coding agent or app builder.
+  evidence:
+    - Repo description states it is 'A cosy home for your LLMs.'
+    - README explains it runs a local server at localhost:2276 with OpenAI-compatible API, built on llama.cpp.
+    - Connects to editors and extensions like VS Code, Zed, Cline, and Continue as a local backend.
+placement:
+  primary_category: local-ai
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1240) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.689Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:20.613Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:21:15.706Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

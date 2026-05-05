@@ -1,0 +1,92 @@
+id: github__fedml-ai__fedml
+kind: github-repo
+name: fedml
+canonical_url: https://github.com/fedml-ai/fedml
+identity:
+  github_repo: fedml-ai/fedml
+provenance:
+  discoveries:
+    - id: discovery__github__fedml-ai__fedml__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Federated ML
+        anchor_text: FedML
+        extracted_url: https://github.com/fedml-ai/fedml
+        surrounding_text: "| [FedML](https://github.com/FedML-AI/FedML)                      | The federated learning and analytics library enabling secure and collaborative machine learning on decentralized data anywhere at any scale. Supporting large-scale cross-silo federated learning, cross-device federated learning on smartphones/IoTs, and research simulation. | ![GitHub Badge](https://img.shields.io/github/stars/FedML-AI/FedML.svg?style=flat-square)       |"
+        confidence: high
+metadata:
+  github:
+    stars: 4044
+    forks: 766
+    license: Apache-2.0
+    archived: false
+    created_at: "2020-07-21T22:41:25Z"
+    pushed_at: "2025-10-28T12:44:12Z"
+    description: FEDML - The unified and scalable ML library for large-scale distributed training, model serving, and federated learning. FEDML Launch, a cross-cloud scheduler, further enables running any AI jobs on any GPU cloud or on-premise cluster. Built on this library, TensorOpera AI (https://TensorOpera.ai) is your generative AI platform at scale.
+    homepage: https://TensorOpera.ai
+    topics:
+      - ai-agent
+      - deep-learning
+      - distributed-training
+      - edge-ai
+      - federated-learning
+      - inference-engine
+      - machine-learning
+      - mlops
+      - model-deployment
+      - model-serving
+      - on-device-training
+    last_checked_at: "2026-05-05T21:02:09.351Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:09.351Z"
+      bytes: 3814
+insights:
+  summary: FEDML is a unified, scalable machine learning library and platform for large-scale distributed training, model serving, and federated learning across cross-cloud, on-premise, and edge environments.
+  why_it_matters: It lets developers launch and manage complex AI jobs like LLM training and deployment on any GPU infrastructure without wrestling with environment setup or cluster provisioning.
+  mental_damage: Yet another 'unified' platform promising to tame your GPU sprawl, just in time for you to realize your model's real bottleneck is the four-hour YAML debugging session required to join the federated future.
+  tags:
+    - mlops
+    - distributed-training
+    - federated-learning
+    - model-serving
+    - llm-ops
+  confidence: high
+curation:
+  status: included
+  reason: The project is a code-first library and SDK for distributed training, federated learning, and model deployment, fitting the ai-frameworks category rather than developer-facing coding assistants or app builders.
+  evidence:
+    - Repo description explicitly calls it a 'unified and scalable ML library for large-scale distributed training, model serving, and federated learning'.
+    - README positions it as an open-source library (FEDML) backing the TensorOpera cloud service, used by developers to run AI jobs in code.
+    - Featured in Awesome-LLMOps under the 'Federated ML' section, confirming its fit as infrastructure tooling for ML engineers.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (4044) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.687Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:09.351Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:19:16.352Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

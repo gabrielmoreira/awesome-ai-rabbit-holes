@@ -1,0 +1,103 @@
+id: github__iunera__druid-mcp-server
+kind: github-repo
+name: druid-mcp-server
+canonical_url: https://github.com/iunera/druid-mcp-server
+identity:
+  github_repo: iunera/druid-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__iunera__druid-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🗄️ <a name="databases"></a>Databases
+        anchor_text: iunera/druid-mcp-server
+        extracted_url: https://github.com/iunera/druid-mcp-server
+        surrounding_text: "- [iunera/druid-mcp-server](https://github.com/iunera/druid-mcp-server) ☕ ☁️ 🏠 - Comprehensive MCP server for Apache Druid that provides extensive tools, resources, and prompts for managing and analyzing Druid clusters."
+        confidence: high
+    - id: discovery__github__iunera__druid-mcp-server__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: Druid MCP Server
+        extracted_url: https://github.com/iunera/druid-mcp-server
+        surrounding_text: "- **[Druid MCP Server](https://github.com/iunera/druid-mcp-server)** - STDIO/SEE MCP Server for Apache Druid by [iunera](https://www.iunera.com) that provides extensive tools, resources, and prompts for managing and analyzing Druid clusters."
+        confidence: high
+metadata:
+  github:
+    stars: 12
+    forks: 6
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-06-27T15:02:26Z"
+    pushed_at: "2026-03-26T10:37:47Z"
+    description: A comprehensive Model Context Protocol (MCP) server for Apache Druid that provides extensive tools, resources, and AI-assisted prompts for managing and analyzing Druid clusters. Built with Spring Boot and Spring AI, this server enables seamless integration between AI assistants and Apache Druid through standardized MCP protocol.
+    homepage: https://www.iunera.com
+    topics:
+      - ai-integration
+      - apache-druid
+      - data-analytics
+      - mcp-server
+      - model-context-protocol
+      - spring-ai
+    last_checked_at: "2026-05-05T21:02:47.981Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:47.981Z"
+      bytes: 35508
+insights:
+  summary: A Spring Boot MCP server that exposes Apache Druid cluster management, data ingestion, and analytics as tools, resources, and prompts for AI assistants.
+  why_it_matters: It lets developers query, manage, and analyze Druid clusters using natural language through MCP-compatible clients instead of hand-crafting Druid APIs and SQL.
+  mental_damage: Yet another hyper-specific MCP server so your AI can debug your OLAP cluster while you debug why your AI can't debug your OLAP cluster.
+  tags:
+    - mcp
+    - apache-druid
+    - spring-ai
+    - analytics
+    - data-engineering
+  confidence: high
+curation:
+  status: included
+  reason: The project is itself a Model Context Protocol server for Druid, directly matching the MCP category's requirement for MCP infrastructure.
+  evidence:
+    - Repo description explicitly states it is 'A comprehensive Model Context Protocol (MCP) server for Apache Druid'
+    - README confirms tool/resource/prompt architecture and MCP compliance with Spring AI MCP Server integration
+    - Listed in awesome-mcp-servers under Server Implementations > Databases
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.667Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:47.981Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:26:56.092Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

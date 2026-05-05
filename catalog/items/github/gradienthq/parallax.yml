@@ -1,0 +1,98 @@
+id: github__gradienthq__parallax
+kind: github-repo
+name: parallax
+canonical_url: https://github.com/gradienthq/parallax
+identity:
+  github_repo: gradienthq/parallax
+provenance:
+  discoveries:
+    - id: discovery__github__gradienthq__parallax__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 推理 Inference
+        anchor_text: Parallax
+        extracted_url: https://github.com/gradienthq/parallax
+        surrounding_text: "52. [Parallax](https://github.com/GradientHQ/parallax): a distributed model serving framework that lets you build your own AI cluster anywhere."
+        confidence: high
+metadata:
+  github:
+    stars: 1272
+    forks: 134
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-09-22T07:00:51Z"
+    pushed_at: "2026-04-12T03:51:36Z"
+    description: Parallax is a distributed model serving framework that lets you build your own AI cluster anywhere
+    homepage: ""
+    topics:
+      - blackwell
+      - chatbot
+      - decentralized-inference
+      - deepseek
+      - distributed-systems
+      - glm
+      - kimi
+      - large-language-models
+      - llama
+      - llm
+      - llm-serving
+      - minimax
+      - oss-gpt
+      - python
+      - pytorch
+      - qwen
+      - transformer
+    last_checked_at: "2026-05-05T21:02:26.643Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:26.643Z"
+      bytes: 8412
+insights:
+  summary: Parallax is a distributed model serving framework that enables developers to build local AI clusters by pooling GPUs and devices across different locations for LLM inference.
+  why_it_matters: It allows developers to run large models like DeepSeek and Qwen by sharding them across personal hardware, bypassing centralized API costs and constraints.
+  mental_damage: Finally, a way to turn your team's collection of mismatched MacBooks and spare GPUs into a distributed cluster that will inevitably spend more time debugging P2P connections than generating tokens.
+  tags:
+    - local-ai
+    - inference
+    - distributed-systems
+    - llm-serving
+    - self-hosted
+  confidence: high
+curation:
+  status: included
+  reason: The project is a developer-facing infrastructure tool for running LLMs locally and across distributed nodes, fitting the local-ai category's focus on private/on-device execution stacks.
+  evidence:
+    - Repo description explicitly states it is a 'distributed model serving framework' for building your own AI cluster.
+    - README highlights 'Host local LLM on personal devices' and 'Pipeline parallel model sharding' as core features.
+    - Backend integrates with SGLang and vLLM, positioning it as infrastructure for local/decentralized inference rather than a coding assistant.
+placement:
+  primary_category: local-ai
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1272) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.689Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:26.643Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:22:42.696Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

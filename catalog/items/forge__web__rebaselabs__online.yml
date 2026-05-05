@@ -1,0 +1,76 @@
+id: forge__web__rebaselabs__online
+kind: website
+name: forge-web.rebaselabs.online
+canonical_url: https://forge-web.rebaselabs.online
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__forge__web__rebaselabs__online__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - App Builders
+        anchor_text: Forge
+        extracted_url: https://forge-web.rebaselabs.online
+        surrounding_text: "- **[Forge](https://forge-web.rebaselabs.online)** – BYOK full-stack app creator — use your own API key (Anthropic, OpenAI, Google) with no markup. Multi-stage pipeline generates production-ready Next.js apps from natural language."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A browser-first AI product that generates, assembles, or deploys whole apps, sites, and internal tools from prompts.
+  why_it_matters: It allows developers to prototype and ship full applications or internal tools directly from a browser without setting up a local development environment.
+  mental_damage: Another browser tab promising to turn your vague prompt into a deployable app, ensuring you can now distract yourself with 'vibe coding' instead of fixing that one critical bug in the repo.
+  tags:
+    - app-builder
+    - prompt-to-app
+    - browser-first
+    - prototyping
+  confidence: medium
+curation:
+  status: included
+  reason: This is a hosted, browser-first product for turning prompts into full apps and sites, which clearly fits the app-builders category and matches its inclusion in awesome-ai-coding-tools under App Builders.
+  evidence:
+    - Listed in awesome-ai-coding-tools under the 'App Builders' section.
+    - URL is a hosted web property (forge-web.rebaselabs.online), indicating a browser-first product surface.
+    - No repo description, README, or source code details provided, so the awesome-list context is the primary fit signal.
+placement:
+  primary_category: app-builders
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.727Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:44:34.476Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

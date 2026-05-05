@@ -1,0 +1,81 @@
+id: github__3knightcz__codebeamer-mcp
+kind: github-repo
+name: codebeamer-mcp
+canonical_url: https://github.com/3knightcz/codebeamer-mcp
+identity:
+  github_repo: 3knightcz/codebeamer-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__3knightcz__codebeamer-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: 3KniGHtcZ/codebeamer-mcp
+        extracted_url: https://github.com/3knightcz/codebeamer-mcp
+        surrounding_text: "- [3KniGHtcZ/codebeamer-mcp](https://github.com/3KniGHtcZ/codebeamer-mcp) [![codebeamer-mcp MCP server](https://glama.ai/mcp/servers/3KniGHtcZ/codebeamer-mcp/badges/score.svg)](https://glama.ai/mcp/servers/3KniGHtcZ/codebeamer-mcp) 📇 ☁️ 🍎 🪟 🐧 - Codebeamer ALM integration for managing work items, trackers, and projects. Provides 17 tools for reading and writing items, associations, references, comments, and risk management data via Codebeamer REST API v3."
+        confidence: high
+metadata:
+  github:
+    stars: 4
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2026-03-01T13:33:16Z"
+    pushed_at: "2026-04-15T19:05:08Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:00:44.633Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:44.633Z"
+      bytes: 6381
+insights:
+  summary: An MCP server that lets Claude and other MCP clients read and write projects, trackers, and items in a Codebeamer ALM instance using natural language.
+  why_it_matters: It connects AI coding assistants directly to ALM workflows, allowing developers to manage requirements, bugs, and traceability links without leaving their AI-powered IDE or CLI.
+  mental_damage: Finally, your AI agent can argue with your requirements management tool about traceability references in natural language, just in case your day wasn't fragmented enough.
+  tags:
+    - mcp
+    - alm
+    - codebeamer
+    - integration
+  confidence: high
+curation:
+  status: included
+  reason: The project is a dedicated MCP server implementation, fitting cleanly into the MCP Servers and Tooling category as infrastructure that extends AI tools via the Model Context Protocol.
+  evidence:
+    - README explicitly defines it as 'An MCP (Model Context Protocol) server for Codebeamer ALM'
+    - Provides standard MCP integration instructions for Claude, Cursor, Windsurf, VS Code, and Gemini CLI
+    - Listed in the awesome-mcp-servers directory under 'Server Implementations > Developer Tools'
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.675Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:44.633Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:05:02.812Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

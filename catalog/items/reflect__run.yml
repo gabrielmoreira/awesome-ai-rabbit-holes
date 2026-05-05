@@ -1,0 +1,77 @@
+id: reflect__run
+kind: website
+name: reflect.run
+canonical_url: https://reflect.run
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__reflect__run__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Testing and QA
+        anchor_text: Reflect
+        extracted_url: https://reflect.run
+        surrounding_text: "- **[Reflect](https://reflect.run/)** – No-code test automation with AI maintenance."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Reflect is a cloud-based, no-code end-to-end testing platform that uses generative AI to create and maintain web, mobile, and API tests from plain-English instructions.
+  why_it_matters: It allows teams to build and maintain regression test suites significantly faster than code-based frameworks by using AI to adapt tests to UI changes automatically.
+  mental_damage: Another leap forward in our quest to ensure that no one on the team actually knows how the selectors work until the AI hallucinates a 'realistic' address and ships a bug to production.
+  tags:
+    - testing
+    - qa
+    - no-code
+    - "-generative-ai"
+    - e2e
+  confidence: high
+curation:
+  status: excluded
+  reason: The product is a no-code SaaS for QA testers rather than a developer-facing tool that assists with source code, IDE workflows, or app generation.
+  evidence:
+    - The site excerpt explicitly states users can 'build end-to-end tests 10x faster... with no code required.'
+    - The workflow targets functional testers and QA, not developers working directly on source code in an IDE or CLI.
+    - It is listed in awesome-ai-coding-tools under 'Testing and QA', but it functions as a traditional SaaS test runner rather than a coding agent or app builder.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.730Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:47:29.609Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

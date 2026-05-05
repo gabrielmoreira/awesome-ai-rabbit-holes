@@ -1,0 +1,77 @@
+id: www__prompteams__com
+kind: website
+name: www.prompteams.com
+canonical_url: https://www.prompteams.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__prompteams__com__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - LLMOps
+        anchor_text: Prompteams
+        extracted_url: https://www.prompteams.com
+        surrounding_text: "| [Prompteams](https://www.prompteams.com)                           | Prompt management system. Version, test, collaborate, and retrieve prompts through real-time APIs. Have GitHub style with repos, branches, and commits (and commit history).                                                                                                                                                                                                                            |                                                                                                           |"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A SaaS platform for managing, versioning, testing, and deploying AI prompts with Git-like workflows and auto-generated APIs for team collaboration.
+  why_it_matters: It provides a structured environment to version prompts, build CI/CD pipelines for LLM testing, and decouple prompt updates from application code via real-time APIs.
+  mental_damage: Because nothing says 'cutting-edge AI innovation' quite like building a dedicated CI/CD pipeline to manage the recursive art of asking a robot to please behave this time.
+  tags:
+    - prompt-management
+    - llmops
+    - testing
+    - versioning
+    - ci-cd
+  confidence: high
+curation:
+  status: included
+  reason: The product is a prompt-management and testing infrastructure designed to help developers version, iterate, and validate prompts, which aligns with context engineering.
+  evidence:
+    - Listed in Awesome-LLMOps under prompt management, testing, and version control.
+    - Features include prompt versioning, a testing suite for hallucinations/edge cases, and Git-like repositories/commits.
+    - Auto-generated real-time APIs allow prompt updates without changing application code.
+placement:
+  primary_category: context-engineering
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.733Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:52:42.789Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

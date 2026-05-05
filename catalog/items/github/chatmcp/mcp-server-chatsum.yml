@@ -1,0 +1,84 @@
+id: github__chatmcp__mcp-server-chatsum
+kind: github-repo
+name: mcp-server-chatsum
+canonical_url: https://github.com/chatmcp/mcp-server-chatsum
+identity:
+  github_repo: chatmcp/mcp-server-chatsum
+provenance:
+  discoveries:
+    - id: discovery__github__chatmcp__mcp-server-chatsum__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: chatmcp/mcp-server-chatsum
+        extracted_url: https://github.com/chatmcp/mcp-server-chatsum
+        surrounding_text: "- [chatmcp/mcp-server-chatsum](https://github.com/chatmcp/mcp-server-chatsum) - Query and summarize your chat messages with AI prompts."
+        confidence: high
+metadata:
+  github:
+    stars: 1034
+    forks: 100
+    license: null
+    archived: false
+    created_at: "2024-12-03T16:08:19Z"
+    pushed_at: "2024-12-04T02:58:20Z"
+    description: Query and Summarize your chat messages.
+    homepage: https://mcp.so
+    topics:
+      - chatbot
+      - chatsum
+      - mcp-server
+    last_checked_at: "2026-05-05T21:01:32.398Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:32.398Z"
+      bytes: 1832
+insights:
+  summary: An MCP server that connects to a local chat database to query and summarize chat messages for use with MCP-compatible clients like Claude Desktop.
+  why_it_matters: It allows developers to surface and condense context from their chat history directly inside their AI client, bridging conversational logs with active development workflows.
+  mental_damage: Finally, an autonomous way to summarize the thousands of tokens you burned last week arguing with an AI about a CSS margin, just so you can burn more tokens understanding the summary.
+  tags:
+    - mcp
+    - chat
+    - summary
+    - node
+  confidence: high
+curation:
+  status: included
+  reason: The project is a standalone MCP server implementation designed to be plugged into MCP clients, fitting the MCP infrastructure category.
+  evidence:
+    - "Repo description explicitly states: 'Query and Summarize your chat messages.' with topic 'mcp-server'."
+    - README details installation via Claude Desktop config as an MCP server using stdio communication.
+    - Listed in the 'awesome-mcp-servers' directory under 'Server Implementations > Knowledge & Memory'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1034) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.682Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:32.398Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:12:53.555Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

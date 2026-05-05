@@ -1,0 +1,75 @@
+id: zapier__com__central
+kind: website
+name: central
+canonical_url: https://zapier.com/central
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__zapier__com__central__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Zapier Central
+        anchor_text: Zapier Central
+        extracted_url: https://zapier.com/central
+        surrounding_text: "## [Zapier Central](https://zapier.com/central)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Zapier Central is a platform for building and running autonomous AI agents that connect to your existing apps and workflows.
+  why_it_matters: It allows developers and operations teams to automate complex, multi-step tasks across their SaaS stack without writing custom integration code.
+  mental_damage: We have successfully abstracted away the need to write code to the point where we now need AI agents to manage the agents that are managing our workflow triggers.
+  tags:
+    - agents
+    - automation
+    - zapier
+    - workflow
+  confidence: medium
+curation:
+  status: included
+  reason: The product is an end-user platform for coordinating autonomous agents across multiple applications, fitting the user-facing control plane definition of agent-orchestration.
+  evidence:
+    - Listed in the awesome-ai-agents directory under 'Zapier Central' as an autonomous agent platform.
+    - URL points to a hosted SaaS product (zapier.com/central) rather than a code-first SDK or IDE plugin.
+placement:
+  primary_category: agent-orchestration
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.734Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:54:30.605Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

@@ -1,0 +1,112 @@
+id: github__jmorganca__ollama
+kind: github-repo
+name: ollama
+canonical_url: https://github.com/jmorganca/ollama
+identity:
+  github_repo: jmorganca/ollama
+provenance:
+  discoveries:
+    - id: discovery__github__jmorganca__ollama__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: janhq/awesome-local-ai
+        url: https://github.com/janhq/awesome-local-ai
+        repository: janhq/awesome-local-ai
+      extraction:
+        mode: parsed
+        section_path:
+          - Inference Engine
+        anchor_text: ollama
+        extracted_url: https://github.com/jmorganca/ollama
+        surrounding_text: "| [ollama](https://github.com/jmorganca/ollama)                   | - CLI and local server. Uses llama.cpp                                                | Both                    | Both            | ❌  | Text-Gen    |"
+        confidence: high
+    - id: discovery__github__jmorganca__ollama__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Serving
+          - Large Model Serving
+        anchor_text: Ollama
+        extracted_url: https://github.com/jmorganca/ollama
+        surrounding_text: "| [Ollama](https://github.com/jmorganca/ollama)                                         | Serve Llama 2 and other large language models locally from command line or through a browser interface.         | ![GitHub Badge](https://img.shields.io/github/stars/jmorganca/ollama.svg?style=flat-square)                      |"
+        confidence: high
+metadata:
+  github:
+    stars: 170777
+    forks: 15993
+    license: MIT
+    archived: false
+    created_at: "2023-06-26T19:39:32Z"
+    pushed_at: "2026-05-05T21:00:32Z"
+    description: Get up and running with Kimi-K2.5, GLM-5, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.
+    homepage: https://ollama.com
+    topics:
+      - deepseek
+      - gemma
+      - gemma3
+      - glm
+      - go
+      - golang
+      - gpt-oss
+      - llama
+      - llama3
+      - llm
+      - llms
+      - minimax
+      - mistral
+      - ollama
+      - qwen
+    last_checked_at: "2026-05-05T21:02:56.899Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:56.899Z"
+      bytes: 19150
+insights:
+  summary: A cross-platform tool that bundles and serves large language models locally via a CLI and REST API, with client libraries for Python and JavaScript.
+  why_it_matters: It lets developers run, test, and integrate open-weight models like DeepSeek and Gemma directly into their local workflow and existing coding agents without relying on hosted APIs.
+  mental_damage: You now have a 170k-star repo dedicated to letting you run a model locally that will still hallucinate your API keys, just with slightly more latency and a lot more pride.
+  tags:
+    - local-ai
+    - llm
+    - cli
+    - inference
+    - developer-tooling
+  confidence: high
+curation:
+  status: included
+  reason: Serves as a primary local runtime and model-serving stack for developers to run open models on their own hardware and integrate them into apps and agents.
+  evidence:
+    - Repo description explicitly lists serving Kimi-K2.5, GLM-5, DeepSeek, Gemma, and other models locally.
+    - README details a REST API and client libraries (Python/JS) for integrating models into applications and agents like Claude Code and Copilot CLI.
+    - Listed in 'awesome-local-ai' under Inference Engine and 'Awesome-LLMOps' under Large Model Serving.
+placement:
+  primary_category: local-ai
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (170777) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.439Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:56.899Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:28:41.956Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,94 @@
+id: github__arthurpanhku__docsentinel
+kind: github-repo
+name: arthor-agent
+canonical_url: https://github.com/arthurpanhku/docsentinel
+identity:
+  github_repo: arthurpanhku/docsentinel
+provenance:
+  discoveries:
+    - id: discovery__github__arthurpanhku__arthor-agent__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: arthurpanhku/Arthor-Agent
+        extracted_url: https://github.com/arthurpanhku/arthor-agent
+        surrounding_text: "- [arthurpanhku/Arthor-Agent](https://github.com/arthurpanhku/Arthor-Agent) [![arthor-agent MCP server](https://glama.ai/mcp/servers/@arthurpanhku/arthor-agent/badges/score.svg)](https://glama.ai/mcp/servers/@arthurpanhku/arthor-agent) 🐍 🏠 ☁️ - ..."
+        confidence: high
+metadata:
+  github:
+    stars: 89
+    forks: 10
+    license: MIT
+    archived: false
+    created_at: "2026-03-06T03:55:04Z"
+    pushed_at: "2026-04-09T03:39:12Z"
+    description: "MCP server for AI agent for cybersecurity: automate assessment of documents, questionnaires & reports. Multi-format parsing, RAG knowledge base,Risks, compliance gaps, remediations. "
+    homepage: ""
+    topics:
+      - ai-agent
+      - compliance
+      - document-parsing
+      - fastapi
+      - llm
+      - mcp
+      - ollama
+      - openai
+      - openclaw
+      - rag
+      - security
+      - security-assessment
+    last_checked_at: "2026-05-05T21:01:10.108Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:10.108Z"
+      bytes: 19595
+insights:
+  summary: DocSentinel is an MCP-compatible AI agent platform that automates security assessments across the SSDLC by parsing documents and generating compliance reports using LangGraph workflows.
+  why_it_matters: It shifts security left by automating threat modeling, SAST triage, and compliance checks directly within CI/CD pipelines and developer tooling via MCP.
+  mental_damage: "Just what we needed: another way to discover that the spreadsheet we wrote three years ago technically violates GDPR while we are still trying to figure out why the linter is yelling at us."
+  tags:
+    - mcp
+    - security
+    - ssdlc
+    - compliance
+    - langgraph
+  confidence: high
+curation:
+  status: included
+  reason: The project's primary artifact is an MCP server designed to integrate security agent workflows into developer environments like Claude Desktop and CI/CD pipelines.
+  evidence:
+    - Repo description explicitly states 'MCP server for AI agent for cybersecurity'.
+    - README highlights 'Headless API + MCP service' and integrations with 'Claude Desktop, Cursor, OpenClaw'.
+    - Badges and documentation confirm 'MCP Ready' status and agent integration focus.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:09:08.378Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.679Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:10.108Z"
+    cause: null
+    next_retry_at: null

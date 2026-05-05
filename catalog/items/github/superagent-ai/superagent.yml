@@ -1,0 +1,93 @@
+id: github__superagent-ai__superagent
+kind: github-repo
+name: superagent
+canonical_url: https://github.com/superagent-ai/superagent
+identity:
+  github_repo: superagent-ai/superagent
+provenance:
+  discoveries:
+    - id: discovery__github__homanp__superagent__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Tools
+          - Agents
+        anchor_text: SuperAgent
+        extracted_url: https://github.com/homanp/superagent
+        surrounding_text: "- [SuperAgent](https://github.com/homanp/superagent): Deploy LLM Agents to production ![GitHub Repo stars](https://img.shields.io/github/stars/homanp/superagent?style=social)"
+        confidence: high
+    - id: discovery__www__superagent__sh__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Superagent
+        anchor_text: Superagent
+        extracted_url: https://www.superagent.sh
+        surrounding_text: "## [Superagent](https://www.superagent.sh/)</details>"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A red teaming service that deploys specialized attack agents against AI systems in production to surface data leaks, harmful outputs, and unauthorized actions.
+  why_it_matters: Developers building AI agents can use this to find security and compliance gaps before they result in real-world failures or customer data exposure.
+  mental_damage: We have finally reached the point where we need autonomous agents to attack our autonomous agents because we no longer have the bandwidth to break our own stuff.
+  tags:
+    - agents
+    - ai-safety
+    - red-teaming
+    - security
+  confidence: high
+curation:
+  status: included
+  reason: The product is an evaluation and security platform that measures agent behavior and surfaces failures, which fits the evals category better than a coding or orchestration tool.
+  evidence:
+    - The site describes 'Red teaming for AI agents' that attacks production systems to surface data leaks and harmful outputs.
+    - It provides findings, evidence, remediation guidance, and a shareable Safety Page with test results.
+    - Listed in awesome-ai-agents under a red teaming and safety context.
+placement:
+  primary_category: evals
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:53:26.853Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.734Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

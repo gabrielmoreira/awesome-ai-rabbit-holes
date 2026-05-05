@@ -1,0 +1,88 @@
+id: github__betterdb-inc__monitor
+kind: github-repo
+name: monitor
+canonical_url: https://github.com/betterdb-inc/monitor
+identity:
+  github_repo: betterdb-inc/monitor
+provenance:
+  discoveries:
+    - id: discovery__github__betterdb-inc__monitor__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: BetterDB-inc/monitor
+        extracted_url: https://github.com/betterdb-inc/monitor
+        surrounding_text: "- [BetterDB-inc/monitor](https://github.com/BetterDB-inc/monitor) [![BetterDB MCP server](https://glama.ai/mcp/servers/BetterDB-inc/monitor/badges/score.svg)](https://glama.ai/mcp/servers/BetterDB-inc/monitor) 📇 ☁️ 🏠 - Valkey-first observability with Redis compatibility. Query real-time metrics, analyze slow commands, detect hot keys, and investigate performance issues directly from AI coding assistants."
+        confidence: high
+metadata:
+  github:
+    stars: 307
+    forks: 47
+    license: NOASSERTION
+    archived: false
+    created_at: "2025-12-29T16:47:38Z"
+    pushed_at: "2026-05-05T16:54:31Z"
+    description: Real-time monitoring, slowlog analysis, and audit trails for Valkey and Redis
+    homepage: https://betterdb.com
+    topics:
+      - metrics
+      - monitoring
+      - obsevability
+      - prometheus
+      - redis
+      - valkey
+    last_checked_at: "2026-05-05T21:01:19.636Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:19.636Z"
+      bytes: 17244
+insights:
+  summary: A self-hosted monitoring tool for Valkey and Redis with a NestJS backend, React frontend, and CLI for real-time metrics, slowlog analysis, and audit trails.
+  why_it_matters: It gives developers a dedicated, easy-to-deploy interface for observing and auditing Valkey/Redis performance without relying on generic infrastructure dashboards.
+  mental_damage: You now have a dedicated observability stack for your key-value store, because apparently the one thing our AI agents haven't automated yet is the anxiety of watching our cache hit ratio in real time.
+  tags:
+    - monitoring
+    - valkey
+    - redis
+    - observability
+    - cli
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a traditional database monitoring and observability tool with no AI, agent, or prompt-driven workflow for developers.
+  evidence:
+    - Repo description and README describe real-time monitoring, slowlog analysis, and audit trails for Valkey/Redis with no mention of AI.
+    - Tech stack includes NestJS, React, and CLI tooling focused on database metrics, not AI-assisted development.
+    - Listed in awesome-mcp-servers, but the project itself is not an MCP server or AI tool; it is conventional observability infrastructure.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (307) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.681Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:19.636Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:10:37.363Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,76 @@
+id: www__coursera__org__learn__prompt__engineering
+kind: website
+name: prompt-engineering
+canonical_url: https://www.coursera.org/learn/prompt-engineering
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__coursera__org__learn__prompt__engineering__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 课程 Course
+        anchor_text: "Coursera: Chatgpt 应用提示工程"
+        extracted_url: https://www.coursera.org/learn/prompt-engineering
+        surrounding_text: "20. [Coursera: Chatgpt 应用提示工程](https://www.coursera.org/learn/prompt-engineering)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A Coursera course covering the fundamentals of prompt engineering for large language models.
+  why_it_matters: It provides a structured learning path for developers looking to improve their interaction patterns with LLMs, albeit in a traditional lecture format.
+  mental_damage: Another reminder that we are now paying for university-level credit to learn how to talk to a chatbot that might hallucinate the syntax anyway.
+  tags:
+    - education
+    - prompt-engineering
+    - course
+    - llm
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a generic educational course, not a developer-facing tool, agent, infrastructure component, or app-building product.
+  evidence:
+    - URL points to a Coursera course (learn/prompt-engineering), not a tool or repo.
+    - Listed in awesome-LLM-resources under the section '课程 Course' (Course).
+    - No code, CLI, IDE integration, or infrastructure component is present.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.732Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:50:20.505Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

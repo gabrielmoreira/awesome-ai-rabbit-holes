@@ -1,0 +1,82 @@
+id: github__gregario__3dprint-oracle
+kind: github-repo
+name: 3dprint-oracle
+canonical_url: https://github.com/gregario/3dprint-oracle
+identity:
+  github_repo: gregario/3dprint-oracle
+provenance:
+  discoveries:
+    - id: discovery__github__gregario__3dprint-oracle__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: gregario/3dprint-oracle
+        extracted_url: https://github.com/gregario/3dprint-oracle
+        surrounding_text: "- [gregario/3dprint-oracle](https://github.com/gregario/3dprint-oracle) [![3dprint-oracle MCP server](https://glama.ai/mcp/servers/gregario/3dprint-oracle/badges/score.svg)](https://glama.ai/mcp/servers/gregario/3dprint-oracle) 📇 🏠 🍎 🪟 🐧 - 3D printing filament and materials knowledge base. 6,957 filaments from SpoolmanDB with material properties, print settings, manufacturer data, and troubleshooting guides. 8 tools for searching filaments, comparing materials, and diagnosing print issues. `npx 3dprint-oracle`"
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-03-16T11:52:56Z"
+    pushed_at: "2026-05-02T20:52:28Z"
+    description: 3D printing filament and materials knowledge MCP server
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:27.276Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:27.276Z"
+      bytes: 2604
+insights:
+  summary: An MCP server that provides LLMs with structured access to a database of 7,000+ 3D printing filaments and material science knowledge for search, comparison, and troubleshooting.
+  why_it_matters: It allows developers building 3D printing workflows to ground their AI assistants in authoritative material data without maintaining their own databases or API keys.
+  mental_damage: We have successfully abstracted the physical world into an MCP server, meaning your AI can now diagnose warping PLA without ever having touched a heated bed.
+  tags:
+    - mcp
+    - 3d-printing
+    - materials
+    - knowledge-base
+    - node
+  confidence: high
+curation:
+  status: included
+  reason: The project is a purpose-built MCP server providing tooling for 3D printing material data, fitting cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states '3D printing filament and materials knowledge MCP server'.
+    - README details 8 MCP tools (search, lookup, compare, diagnose) and claims compatibility with Claude Desktop via MCP.
+    - Listed in the awesome-mcp-servers directory under 'Knowledge & Memory' implementations.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.690Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:27.276Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:22:48.442Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,75 @@
+id: www__coze__com
+kind: website
+name: www.coze.com
+canonical_url: https://www.coze.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__coze__com__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 智能体 Agents
+        anchor_text: Coze
+        extracted_url: https://www.coze.com
+        surrounding_text: 3. [Coze](https://www.coze.com/)
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Coze is a browser-based AI agent platform that integrates productivity tools for writing, PPT generation, web development, and design.
+  why_it_matters: It offers developers a hosted environment to build and deploy AI agents that automate office tasks and generate web assets without local setup.
+  mental_damage: Yet another platform promising to redefine productivity, ensuring you can now spend your afternoon debugging an agent that was supposed to save your afternoon.
+  tags:
+    - ai-agents
+    - browser-based
+    - productivity
+    - web-development
+  confidence: high
+curation:
+  status: excluded
+  reason: The platform is positioned as an end-user office productivity suite (writing, PPTs, design) rather than a developer-facing tool for editing codebases or building software infrastructure.
+  evidence:
+    - Scraped site context describes it as an 'intelligent office platform' focused on AI writing, PPT generation, and design.
+    - Source-list context categorizes it under '智能体 Agents' specifically for office productivity, not developer tooling.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.732Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:50:20.588Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

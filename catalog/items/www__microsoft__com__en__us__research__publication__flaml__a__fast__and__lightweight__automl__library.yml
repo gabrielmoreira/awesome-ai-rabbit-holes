@@ -1,0 +1,76 @@
+id: www__microsoft__com__en__us__research__publication__flaml__a__fast__and__lightweight__automl__library
+kind: website
+name: flaml-a-fast-and-lightweight-automl-library
+canonical_url: https://www.microsoft.com/en-us/research/publication/flaml-a-fast-and-lightweight-automl-library
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__microsoft__com__en__us__research__publication__flaml__a__fast__and__lightweight__automl__library__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - AutoML
+        anchor_text: paper
+        extracted_url: https://www.microsoft.com/en-us/research/publication/flaml-a-fast-and-lightweight-automl-library
+        surrounding_text: "| [FLAML](https://github.com/microsoft/FLAML)                                  | Fast and lightweight AutoML ([paper](https://www.microsoft.com/en-us/research/publication/flaml-a-fast-and-lightweight-automl-library/)).                                       | ![GitHub Badge](https://img.shields.io/github/stars/microsoft/FLAML.svg?style=flat-square)                 |"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: FLAML is a lightweight Python AutoML library from Microsoft Research that automatically selects machine learning models and tunes hyperparameters under tight computational budgets.
+  why_it_matters: It lets developers automate model and hyperparameter selection with minimal compute cost, integrating directly into Python workflows for efficient ML prototyping.
+  mental_damage: Yet another reminder that the hardest part of machine learning is still deciding which model to pick, even when the library does it for you at lightning speed.
+  tags:
+    - automl
+    - python
+    - hyperparameter-tuning
+    - microsoft-research
+  confidence: high
+curation:
+  status: excluded
+  reason: FLAML is a traditional AutoML library for training and tuning ML models, not a developer-facing AI coding tool, agent, or workflow product.
+  evidence:
+    - Microsoft Research page describes it as a library to automate learner and hyperparameter selection for training datasets, not code generation or developer workflows.
+    - Appears in Awesome-LLMOps under AutoML, which reflects ML Ops scope rather than the coding-agent, app-builder, or developer-tooling focus of this catalog.
+    - No evidence of IDE integration, coding assistance, app generation, or developer workflow automation in the provided description or excerpts.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.733Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:51:59.252Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

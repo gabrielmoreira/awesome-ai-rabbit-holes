@@ -1,0 +1,87 @@
+id: github__all-contributors__allcontributors.org
+kind: github-repo
+name: all-contributors
+canonical_url: https://github.com/all-contributors/allcontributors.org
+identity:
+  github_repo: all-contributors/allcontributors.org
+provenance:
+  discoveries:
+    - id: discovery__github__all-contributors__all-contributors__awesome-list__github__awesome-copilot
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: github/awesome-copilot
+        url: https://github.com/github/awesome-copilot
+        repository: github/awesome-copilot
+      extraction:
+        mode: parsed
+        section_path:
+          - Contributors ✨
+        anchor_text: all-contributors
+        extracted_url: https://github.com/all-contributors/all-contributors
+        surrounding_text: This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+        confidence: high
+metadata:
+  github:
+    stars: 8037
+    forks: 1733
+    license: MIT
+    archived: false
+    created_at: "2016-02-28T07:29:02Z"
+    pushed_at: "2026-05-05T08:45:47Z"
+    description: ✨ The all-contributors bot website and documentation. Recognize all contributors, not just the ones who push code ✨
+    homepage: https://allcontributors.org/
+    topics:
+      - acknowledgements
+      - all-contributors
+      - contributors
+      - open-source-tooling
+      - opensource
+      - opensource-management
+      - recognition
+    last_checked_at: "2026-05-05T21:01:00.806Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:00.806Z"
+      bytes: 52166
+insights:
+  summary: A specification and bot system for recognizing all types of open-source contributors, not just code committers, by automating emoji-based attribution tables in project READMEs.
+  why_it_matters: It automates community management by acknowledging documentation, design, and bug reporting contributions alongside code, helping maintainers enforce inclusive recognition without manual tracking.
+  mental_damage: We now have a bot to ensure the bot that recognizes the humans who helped build the bot is properly thanked with the correct emoji.
+  tags:
+    - open-source
+    - community
+    - automation
+    - github-bot
+  confidence: high
+curation:
+  status: excluded
+  reason: While mature and well-maintained, this is a general open-source community management tool with no AI-specific functionality or developer-facing AI workflow integration.
+  evidence:
+    - Repo description and README focus entirely on recognizing non-code contributors using a bot and specification, with no mention of AI.
+    - Topics and content are centered on open-source management and acknowledgements, not AI tooling, agents, or infrastructure.
+    - Does not fit any available category, as it is neither an AI tool nor an extension of one.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (8037) exceeded threshold (150)
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:07:43.981Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.678Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:00.806Z"
+    cause: null
+    next_retry_at: null

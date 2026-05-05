@@ -1,0 +1,86 @@
+id: github__codervisor__lean-spec
+kind: github-repo
+name: lean-spec
+canonical_url: https://github.com/codervisor/lean-spec
+identity:
+  github_repo: codervisor/lean-spec
+provenance:
+  discoveries:
+    - id: discovery__github__codervisor__lean-spec__awesome-list__engineering4ai__awesome-spec-driven-development
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: Engineering4AI/awesome-spec-driven-development
+        url: https://github.com/engineering4ai/awesome-spec-driven-development
+        repository: Engineering4AI/awesome-spec-driven-development
+      extraction:
+        mode: parsed
+        section_path:
+          - Specification Tools
+        anchor_text: lean-spec
+        extracted_url: https://github.com/codervisor/lean-spec
+        surrounding_text: "- [lean-spec](https://github.com/codervisor/lean-spec) ![](https://img.shields.io/github/stars/codervisor/lean-spec.svg) - Lightweight framework for focused specifications under 2,000 tokens designed for humans and AI assistants."
+        confidence: high
+metadata:
+  github:
+    stars: 237
+    forks: 19
+    license: MIT
+    archived: false
+    created_at: "2025-10-31T08:59:00Z"
+    pushed_at: "2026-04-16T23:50:30Z"
+    description: Lightweight, flexible Spec-Driven Development (SDD) for modern AI-powered development
+    homepage: https://lean-spec.dev
+    topics:
+      - ai
+      - ai-agents
+      - development
+      - project-management
+      - spec
+      - spec-driven-development
+    last_checked_at: "2026-05-05T21:01:38.323Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:38.323Z"
+      bytes: 9357
+insights:
+  summary: A tool-agnostic spec framework that unifies project specifications across backends like GitHub Issues, Jira, or markdown, providing a CLI, MCP server, and UI for AI-powered spec-driven development workflows.
+  why_it_matters: It lets developers keep their existing project management tools while adding a structured spec layer that AI coding assistants can consume via MCP or CLI to stay grounded in project context.
+  mental_damage: "The dream of 'AI writes the code if the spec is perfect' meets the reality of 'now you have two problems: the code and the spec it was supposed to make obsolete'."
+  tags:
+    - spec-driven
+    - mcp
+    - cli
+    - ai-workflow
+  confidence: high
+curation:
+  status: included
+  reason: The project's center of gravity is a spec-first loop that structures requirements for AI consumption, fitting the spec-driven-development category rather than a coding agent or app builder.
+  evidence:
+    - Repo description explicitly calls it 'Lightweight, flexible Spec-Driven Development (SDD) for modern AI-powered development'.
+    - README positions it as 'The tool-agnostic spec framework' designed to feed 'structured spec data for any AI coding assistant' via MCP.
+    - Included in the awesome-spec-driven-development list under 'Specification Tools'.
+placement:
+  primary_category: spec-driven-development
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (237) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.683Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:38.323Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:13:50.967Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

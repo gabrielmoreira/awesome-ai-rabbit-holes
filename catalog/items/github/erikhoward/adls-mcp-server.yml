@@ -1,0 +1,86 @@
+id: github__erikhoward__adls-mcp-server
+kind: github-repo
+name: adls-mcp-server
+canonical_url: https://github.com/erikhoward/adls-mcp-server
+identity:
+  github_repo: erikhoward/adls-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__erikhoward__adls-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
+        anchor_text: erikhoward/adls-mcp-server
+        extracted_url: https://github.com/erikhoward/adls-mcp-server
+        surrounding_text: "- [erikhoward/adls-mcp-server](https://github.com/erikhoward/adls-mcp-server) 🐍 ☁️/🏠 - MCP Server for Azure Data Lake Storage. It can perform manage containers, read/write/upload/download operations on container files and manage file metadata."
+        confidence: high
+metadata:
+  github:
+    stars: 6
+    forks: 6
+    license: MIT
+    archived: false
+    created_at: "2025-04-03T19:55:31Z"
+    pushed_at: "2025-05-31T01:46:12Z"
+    description: Microsoft Azure Data Lake Storage MCP Server
+    homepage: ""
+    topics:
+      - adls
+      - azure
+      - mcp
+      - mcp-server
+    last_checked_at: "2026-05-05T21:02:03.988Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:03.988Z"
+      bytes: 5720
+insights:
+  summary: A Model Context Protocol server that provides a standardized interface for interacting with Azure Data Lake Storage Gen2, enabling file and directory operations via MCP tools.
+  why_it_matters: It allows developers to connect Azure data lake storage directly to MCP-compatible clients like Claude Desktop, enabling natural language file management without custom integrations.
+  mental_damage: Yet another specialized MCP server appears, proving that we are steadily building a distributed filesystem held together by vibes and JSON configs.
+  tags:
+    - mcp
+    - azure
+    - data-lake
+    - storage
+    - python
+  confidence: medium
+curation:
+  status: included
+  reason: The project is a dedicated MCP server implementation for Azure Data Lake Storage, fitting cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states 'Microsoft Azure Data Lake Storage MCP Server'.
+    - README details implementation of filesystem, file, and directory operations exposed as MCP tools.
+    - Listed under 'Server Implementations > Cloud Platforms' in the awesome-mcp-servers directory.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.686Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:03.988Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:18:20.423Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

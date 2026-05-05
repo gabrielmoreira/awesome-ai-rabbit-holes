@@ -1,0 +1,103 @@
+id: github__alexrozanski__llamachat
+kind: github-repo
+name: llamachat
+canonical_url: https://github.com/alexrozanski/llamachat
+identity:
+  github_repo: alexrozanski/llamachat
+provenance:
+  discoveries:
+    - id: discovery__github__alexrozanski__llamachat__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: janhq/awesome-local-ai
+        url: https://github.com/janhq/awesome-local-ai
+        repository: janhq/awesome-local-ai
+      extraction:
+        mode: scraped
+        section_path:
+          - Inference UI
+        anchor_text: LlamaChat
+        extracted_url: https://llamachat.app
+        surrounding_text: "- [LlamaChat](https://llamachat.app/) - LlamaChat allows you to chat with LLaMa, Alpaca and GPT4All models1 all running locally on your Mac."
+        confidence: high
+    - id: discovery__github__alexrozanski__llamachat__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 推理 Inference
+        anchor_text: LlamaChat
+        extracted_url: https://github.com/alexrozanski/llamachat
+        surrounding_text: "10. [LlamaChat](https://github.com/alexrozanski/LlamaChat): Chat with your favourite LLaMA models in a native macOS app."
+        confidence: high
+metadata:
+  github:
+    stars: 1511
+    forks: 61
+    license: MIT
+    archived: false
+    created_at: "2023-03-26T00:10:36Z"
+    pushed_at: "2023-06-09T00:13:34Z"
+    description: Chat with your favourite LLaMA models in a native macOS app
+    homepage: https://llamachat.app
+    topics:
+      - ai
+      - llama
+      - llamacpp
+      - machine-learning
+      - macos
+      - swift
+      - swiftui
+    last_checked_at: "2026-05-05T21:00:58.644Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:58.644Z"
+      bytes: 5211
+insights:
+  summary: A native macOS desktop app for chatting with locally running LLaMA, Alpaca, and GPT4All models via llama.cpp.
+  why_it_matters: It provides developers on Apple hardware with a dedicated UI for running and converting local LLMs without relying on terminal commands or hosted APIs.
+  mental_damage: Nothing says 'I am optimizing my local development workflow' quite like downloading a 13B model to chat with it through a SwiftUI window while your fan sounds like a jet engine.
+  tags:
+    - macos
+    - local-ai
+    - llama
+    - swift
+    - desktop-app
+  confidence: high
+curation:
+  status: included
+  reason: Fits cleanly under local-ai as a developer-facing desktop interface for running and managing local inference on macOS.
+  evidence:
+    - "Repo description states: 'Chat with your favourite LLaMA models in a native macOS app'."
+    - README confirms it is built on llama.cpp and llama.swift to run models locally on Mac.
+    - Included in awesome-local-ai under the 'Inference UI' section.
+placement:
+  primary_category: local-ai
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1511) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.663Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:58.644Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:07:26.316Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

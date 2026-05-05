@@ -1,0 +1,82 @@
+id: github__ahnlabio__bicscan-mcp
+kind: github-repo
+name: bicscan-mcp
+canonical_url: https://github.com/ahnlabio/bicscan-mcp
+identity:
+  github_repo: ahnlabio/bicscan-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__ahnlabio__bicscan-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: ahnlabio/bicscan-mcp
+        extracted_url: https://github.com/ahnlabio/bicscan-mcp
+        surrounding_text: "- [ahnlabio/bicscan-mcp](https://github.com/ahnlabio/bicscan-mcp) 🎖️ 🐍 ☁️ - Risk score / asset holdings of EVM blockchain address (EOA, CA, ENS) and even domain names."
+        confidence: high
+metadata:
+  github:
+    stars: 16
+    forks: 15
+    license: MIT
+    archived: false
+    created_at: "2025-03-25T03:27:57Z"
+    pushed_at: "2026-02-17T01:35:00Z"
+    description: BICScan MCP Server
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:00:54.259Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:54.259Z"
+      bytes: 3811
+insights:
+  summary: A Model Context Protocol server that integrates the BICScan API to provide blockchain address risk scoring, asset information, and real-time scanning for crypto addresses, domains, and dApps.
+  why_it_matters: It allows developers using MCP-compatible clients like Claude Desktop to query blockchain risk data and asset holdings directly within their workflow without switching contexts.
+  mental_damage: We have successfully abstracted away the need to leave our IDEs to check if that wallet address is a scam, marking a new peak in developer laziness.
+  tags:
+    - mcp
+    - blockchain
+    - security
+    - fintech
+    - api
+  confidence: high
+curation:
+  status: included
+  reason: The project is a dedicated MCP server implementation designed to integrate blockchain risk analysis into MCP-compatible clients.
+  evidence:
+    - Repo description explicitly states 'BICScan MCP Server' and the README details integration with 'claude_desktop_config.json'.
+    - Listed under 'Server Implementations > Finance & Fintech' in the awesome-mcp-servers directory.
+    - Created recently (2025-03-25) but actively pushed (2026-02-17) with MIT license and not archived.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.677Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:54.259Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:06:38.835Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

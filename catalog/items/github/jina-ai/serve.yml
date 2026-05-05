@@ -1,0 +1,102 @@
+id: github__jina-ai__serve
+kind: github-repo
+name: jina
+canonical_url: https://github.com/jina-ai/serve
+identity:
+  github_repo: jina-ai/serve
+provenance:
+  discoveries:
+    - id: discovery__github__jina-ai__jina__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Serving
+          - Frameworks/Servers for Serving
+        anchor_text: Jina
+        extracted_url: https://github.com/jina-ai/jina
+        surrounding_text: "| [Jina](https://github.com/jina-ai/jina)                                    | Build multimodal AI services via cloud native technologies · Model Serving · Generative AI · Neural Search · Cloud Native                                                                                                                                                                                                                          | ![GitHub Badge](https://img.shields.io/github/stars/jina-ai/jina.svg?style=flat-square)                   |"
+        confidence: high
+metadata:
+  github:
+    stars: 21872
+    forks: 2236
+    license: Apache-2.0
+    archived: false
+    created_at: "2020-02-13T17:04:44Z"
+    pushed_at: "2025-03-24T13:59:54Z"
+    description: ☁️ Build multimodal AI applications with cloud-native stack
+    homepage: https://jina.ai/serve
+    topics:
+      - cloud-native
+      - cncf
+      - deep-learning
+      - docker
+      - fastapi
+      - framework
+      - generative-ai
+      - grpc
+      - jaeger
+      - kubernetes
+      - llmops
+      - machine-learning
+      - microservice
+      - mlops
+      - multimodal
+      - neural-search
+      - opentelemetry
+      - orchestration
+      - pipeline
+      - prometheus
+    last_checked_at: "2026-05-05T21:02:55.601Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:55.601Z"
+      bytes: 6643
+insights:
+  summary: Jina is a framework for building and deploying multimodal AI services and pipelines that communicate via gRPC, HTTP, and WebSockets, with native support for scaling from local development to Kubernetes.
+  why_it_matters: It gives developers a code-first way to wrap models and chains into scalable microservices without rewriting orchestration glue for every new LLM experiment.
+  mental_damage: Yet another cloud-native ML framework promising one-command deployment, ensuring your local Poetry environment will still cry when you try to leave the happy path.
+  tags:
+    - llm-serving
+    - microservices
+    - grpc
+    - kubernetes
+    - multimodal
+  confidence: high
+curation:
+  status: included
+  reason: The product is fundamentally a framework and SDK that developers import and use in code to build AI services, not a control-plane orchestration platform or a coding assistant.
+  evidence:
+    - Repo description states it is a framework for building multimodal AI applications with a cloud-native stack.
+    - README demonstrates importable Python classes (Executor, Flow, Deployment) and YAML configs for developers to define services in code.
+    - Topics include framework, grpc, kubernetes, and llmops, reinforcing its identity as a developer SDK rather than a hosted product.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (21872) exceeded threshold (150)
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:28:27.559Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.700Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:55.601Z"
+    cause: null
+    next_retry_at: null

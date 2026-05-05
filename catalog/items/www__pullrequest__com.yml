@@ -1,0 +1,76 @@
+id: www__pullrequest__com
+kind: website
+name: www.pullrequest.com
+canonical_url: https://www.pullrequest.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__pullrequest__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Code Review and Refactoring
+        anchor_text: PullRequest
+        extracted_url: https://www.pullrequest.com
+        surrounding_text: "- **[PullRequest](https://www.pullrequest.com/)** – Human-AI hybrid code review combining automated analysis with expert reviewers."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A code security service that combines proprietary AI filtering with human expert validation to review pull requests and catch vulnerabilities before production.
+  why_it_matters: It integrates directly into existing SCM workflows to provide remediation guidance and security audits without requiring developers to leave their current tools.
+  mental_damage: Yet another service promising to automate the boring parts of code review, while still requiring a human to validate that the AI didn't hallucinate the vulnerability in the first place.
+  tags:
+    - code-review
+    - security
+    - ai-review
+    - pull-request
+  confidence: high
+curation:
+  status: included
+  reason: It functions as an AI agent that reviews code, identifies security risks, and provides feedback directly within the developer's PR workflow, fitting the coding-agents definition.
+  evidence:
+    - Listed in awesome-ai-coding-tools under 'Code Review and Refactoring'.
+    - Proprietary AI (Hai) identifies high-risk code changes and provides remediation guidance within SCM tools.
+    - Combines AI review with human validation to catch vulnerabilities in the development workflow.
+placement:
+  primary_category: coding-agents
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.733Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:52:44.697Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

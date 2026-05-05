@@ -1,0 +1,87 @@
+id: github__dimillian__codexmonitor
+kind: github-repo
+name: codexmonitor
+canonical_url: https://github.com/dimillian/codexmonitor
+identity:
+  github_repo: dimillian/codexmonitor
+provenance:
+  discoveries:
+    - id: discovery__github__dimillian__codexmonitor__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Session managers & parallel runners
+        anchor_text: CodexMonitor
+        extracted_url: https://github.com/dimillian/codexmonitor
+        surrounding_text: "- **[CodexMonitor](https://github.com/Dimillian/CodexMonitor)** `⭐ 3.8k` — Coordinate multiple Codex agents across local workspaces."
+        confidence: high
+metadata:
+  github:
+    stars: 3787
+    forks: 373
+    license: MIT
+    archived: false
+    created_at: "2026-01-11T07:56:35Z"
+    pushed_at: "2026-03-26T07:01:43Z"
+    description: An app to monitor the (Codex) situation
+    homepage: https://www.codexmonitor.app
+    topics:
+      - ai
+      - codex
+      - linux
+      - macos
+      - tauri-app
+    last_checked_at: "2026-05-05T21:01:53.569Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:53.569Z"
+      bytes: 14109
+insights:
+  summary: A Tauri desktop app for orchestrating multiple OpenAI Codex CLI agents across local workspaces with integrated Git, GitHub, and prompt management.
+  why_it_matters: It gives developers a visual control plane to run, monitor, and steer parallel Codex sessions across multiple repos without losing track of threads.
+  mental_damage: We have finally built a desktop GUI to manage the 47 autonomous agents that are currently rewriting the same file in 47 different ways.
+  tags:
+    - codex
+    - orchestration
+    - desktop-app
+    - tauri
+    - cli
+  confidence: high
+curation:
+  status: included
+  reason: The primary product is a user-facing control plane for coordinating multiple Codex CLI agents across workspaces, which fits agent orchestration rather than being a coding agent itself.
+  evidence:
+    - "Repo description: 'An app to monitor the (Codex) situation'"
+    - "README: 'CodexMonitor is a Tauri app for orchestrating multiple Codex agents across local workspaces.'"
+    - "Source list: included under 'Harnesses & orchestration > Session managers & parallel runners'"
+placement:
+  primary_category: agent-orchestration
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (3787) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.685Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:53.569Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:16:26.617Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

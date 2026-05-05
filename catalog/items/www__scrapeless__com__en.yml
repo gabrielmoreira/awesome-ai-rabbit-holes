@@ -1,0 +1,76 @@
+id: www__scrapeless__com__en
+kind: website
+name: en
+canonical_url: https://www.scrapeless.com/en
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__scrapeless__com__en__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Scrapeless
+        extracted_url: https://www.scrapeless.com/en
+        surrounding_text: "- **[Scrapeless](https://github.com/scrapeless-ai/scrapeless-mcp-server)** - Integrate real-time [Scrapeless](https://www.scrapeless.com/en) Google SERP(Google Search, Google Flight, Google Map, Google Jobs....) results into your LLM applications. This server enables dynamic context retrieval for AI workflows, chatbots, and research tools."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Scrapeless is a commercial web scraping platform offering a cloud browser, scraping APIs, proxy networks, and a dedicated MCP server to give AI agents and developers programmatic access to public web data.
+  why_it_matters: It provides the infrastructure needed to feed real-time, cleaned web data into LLMs and AI agents, bypassing typical anti-bot and CAPTCHA hurdles.
+  mental_damage: We have successfully abstracted away the internet into a paid API, ensuring our agents never have to experience the character-building frustration of a 403 error again.
+  tags:
+    - web-scraping
+    - mcp
+    - ai-agents
+    - infrastructure
+  confidence: medium
+curation:
+  status: included
+  reason: The project specifically offers an MCP server to connect LLMs to web data, fitting the MCP category, despite the core product being a general scraping SaaS.
+  evidence:
+    - Listed in 'awesome-mcp-servers' under Official Servers with a description of its MCP capabilities.
+    - Scraped site context highlights the 'Scrapeless MCP Server' for giving LLMs real-time browsing and scraping abilities.
+    - Primary pitch is a full-stack web scraping toolkit (API, Browser, Proxies) targeted at developers and AI Agents.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.734Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:53:18.908Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

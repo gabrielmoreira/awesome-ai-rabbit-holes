@@ -1,0 +1,90 @@
+id: github__bintocher__mcp-superset
+kind: github-repo
+name: mcp-superset
+canonical_url: https://github.com/bintocher/mcp-superset
+identity:
+  github_repo: bintocher/mcp-superset
+provenance:
+  discoveries:
+    - id: discovery__github__bintocher__mcp-superset__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📊 <a name="data-platforms"></a>Data Platforms
+        anchor_text: bintocher/mcp-superset
+        extracted_url: https://github.com/bintocher/mcp-superset
+        surrounding_text: "- [bintocher/mcp-superset](https://github.com/bintocher/mcp-superset) [![mcp-superset MCP server](https://glama.ai/mcp/servers/bintocher/mcp-superset/badges/score.svg)](https://glama.ai/mcp/servers/bintocher/mcp-superset) 🐍 ☁️ 🏠 🍎 🪟 🐧 - Full-featured Apache Superset MCP server with 135+ tools for dashboards, charts, datasets, SQL Lab, security (users, roles, RLS, groups), permissions audit, and 30+ built-in safety validations. Supports HTTP, SSE, and stdio transports."
+        confidence: high
+metadata:
+  github:
+    stars: 34
+    forks: 3
+    license: MIT
+    archived: false
+    created_at: "2026-03-10T20:27:46Z"
+    pushed_at: "2026-04-05T20:06:12Z"
+    description: MCP server for managing Apache Superset — 128+ tools for dashboards, charts, datasets, SQL Lab, access control
+    homepage: null
+    topics:
+      - ai-tools
+      - apache-superset
+      - claude
+      - fastmcp
+      - llm
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - superset
+    last_checked_at: "2026-05-05T21:01:21.029Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:21.029Z"
+      bytes: 24037
+insights:
+  summary: An MCP server that exposes 137 tools for managing Apache Superset instances, enabling AI assistants to control dashboards, charts, datasets, SQL Lab, and security settings.
+  why_it_matters: It allows developers to automate complex Superset administration tasks and integrate business intelligence workflows directly into AI-assisted development environments.
+  mental_damage: Now your LLM can manage row-level security and permission matrices, proving once again that no niche is too specific to avoid being wrapped in an MCP server.
+  tags:
+    - mcp
+    - apache-superset
+    - bi-tools
+    - fastmcp
+  confidence: high
+curation:
+  status: included
+  reason: The project is a dedicated MCP server implementation for Apache Superset, clearly fitting the MCP Servers and Tooling category.
+  evidence:
+    - Repo description confirms it is an 'MCP server for managing Apache Superset' with 128+ tools.
+    - README details 137 MCP tools covering the full Superset REST API, including CRUD and security management.
+    - Listed in the awesome-mcp-servers directory under 'Data Platforms', confirming its role in the MCP ecosystem.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.681Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:21.029Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:10:51.153Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

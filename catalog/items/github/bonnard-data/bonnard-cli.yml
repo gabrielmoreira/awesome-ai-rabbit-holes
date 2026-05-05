@@ -1,0 +1,102 @@
+id: github__bonnard-data__bonnard-cli
+kind: github-repo
+name: bonnard-cli
+canonical_url: https://github.com/bonnard-data/bonnard-cli
+identity:
+  github_repo: bonnard-data/bonnard-cli
+provenance:
+  discoveries:
+    - id: discovery__github__meal-inc__bonnard-cli__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📊 <a name="data-platforms"></a>Data Platforms
+        anchor_text: meal-inc/bonnard-cli
+        extracted_url: https://github.com/meal-inc/bonnard-cli
+        surrounding_text: "- [meal-inc/bonnard-cli](https://github.com/meal-inc/bonnard-cli) 📇 ☁️ - Ultra-fast to deploy agentic-first MCP-ready semantic layer. Let your data be like water."
+        confidence: high
+metadata:
+  github:
+    stars: 47
+    forks: 4
+    license: MIT
+    archived: false
+    created_at: "2026-02-17T17:44:57Z"
+    pushed_at: "2026-03-20T10:43:05Z"
+    description: Open-source agentic schema CLI. Optimised for claude code, gemini, codex and co-pilot. Skills included.
+    homepage: https://www.bonnard.dev
+    topics:
+      - agentic
+      - agentic-analytics
+      - agentic-schema
+      - ai-analytics
+      - bigquery
+      - data-catalog
+      - databricks
+      - dbt
+      - embedded-analytics
+      - mcp-server
+      - metrics
+      - metrics-layer
+      - metrics-store
+      - model-context-protocol
+      - open-source
+      - reliable-ai
+      - semantic-layer
+      - snowflake
+      - structured-output
+      - text-to-sql
+    last_checked_at: "2026-05-05T21:01:24.010Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:24.010Z"
+      bytes: 6706
+insights:
+  summary: An open-source CLI tool for defining an agent-native semantic analytics layer that scaffolds project schemas and generates reusable skills for coding agents like Claude Code, Cursor, and Codex.
+  why_it_matters: It lets developers define metrics once and expose them to AI agents via MCP and SDKs, preventing the metric drift that usually occurs when dashboards and LLMs query the same warehouse.
+  mental_damage: We have successfully abstracted the abstraction, meaning your AI agent now needs a CLI tool just to understand the metrics your BI tool already misunderstood.
+  tags:
+    - semantic-layer
+    - mcp
+    - cli
+    - analytics
+    - skills
+  confidence: high
+curation:
+  status: included
+  reason: The primary artifact is a CLI that generates reusable skill packs and rules bundles (bon init) specifically designed for AI developer tools like Claude Code and Cursor.
+  evidence:
+    - Repo description explicitly states 'Skills included' and is optimized for Claude Code, Gemini, and Codex.
+    - "README states: 'bon init generates rules and skills for Claude Code, Cursor, and Codex so agents understand your semantic layer.'"
+    - Topics include 'mcp-server' and 'agentic-schema', framing it as infrastructure for agent context.
+placement:
+  primary_category: skills
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:11:22.824Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.706Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:24.010Z"
+    cause: null
+    next_retry_at: null

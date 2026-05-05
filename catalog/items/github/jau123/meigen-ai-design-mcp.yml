@@ -1,0 +1,92 @@
+id: github__jau123__meigen-ai-design-mcp
+kind: github-repo
+name: meigen-ai-design-mcp
+canonical_url: https://github.com/jau123/meigen-ai-design-mcp
+identity:
+  github_repo: jau123/meigen-ai-design-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__jau123__meigen-ai-design-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🎨 <a name="art-and-culture"></a>Art & Culture
+        anchor_text: jau123/MeiGen-AI-Design-MCP
+        extracted_url: https://github.com/jau123/meigen-ai-design-mcp
+        surrounding_text: "- [jau123/MeiGen-AI-Design-MCP](https://github.com/jau123/MeiGen-AI-Design-MCP) [![mei-gen-ai-design-mcp MCP server](https://glama.ai/mcp/servers/@jau123/mei-gen-ai-design-mcp/badges/score.svg)](https://glama.ai/mcp/servers/@jau123/mei-gen-ai-design-mcp) 📇 ☁️ 🏠 - AI image generation & editing MCP server with 1,500+ curated prompt library, smart prompt enhancement, and multi-provider routing (local ComfyUI, MeiGen Cloud, OpenAI-compatible APIs)."
+        confidence: high
+metadata:
+  github:
+    stars: 947
+    forks: 130
+    license: MIT
+    archived: false
+    created_at: "2026-02-07T12:39:26Z"
+    pushed_at: "2026-04-30T16:24:15Z"
+    description: Supports GPT Image 2, Nanobanana & ComfyUI, with a 1,400+ prompt library, carefully crafted hooks and a multi-task orchestration system
+    homepage: https://meigen.ai
+    topics:
+      - ai-image-generation
+      - claude
+      - claude-code
+      - comfyui
+      - lovart
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - openclaw
+      - prompt-engineering
+    last_checked_at: "2026-05-05T21:02:52.776Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:52.776Z"
+      bytes: 13357
+insights:
+  summary: An MCP server that extends Claude Code and OpenClaw with image generation capabilities via GPT Image 2, Nanobanana, and local ComfyUI, featuring a library of over 1,400 curated prompts and multi-task orchestration.
+  why_it_matters: Developers can delegate complex design and image-generation tasks directly from their coding agent, enabling parallel batch generation and multi-direction workflows without leaving the terminal.
+  mental_damage: Your coding agent can now generate 1,500 variations of a perfume ad while you're still trying to decide if 'luxury minimalist' is a valid CSS framework name.
+  tags:
+    - mcp
+    - image-generation
+    - claude-code
+    - comfyui
+    - prompt-engineering
+  confidence: high
+curation:
+  status: included
+  reason: The project is an MCP server that integrates image generation models and a prompt library into AI coding assistants, fitting squarely into the MCP infrastructure category.
+  evidence:
+    - Repo description explicitly states it is an MCP server for GPT Image 2, Nanobanana, and ComfyUI with a 1,400+ prompt library.
+    - README identifies it as 'An open-source MCP Server... that gives LLMs creative and aesthetic capabilities through 7 tools and carefully designed skills'.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Art & Culture'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (947) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.699Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:52.776Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:27:57.368Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

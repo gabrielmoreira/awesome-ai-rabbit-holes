@@ -1,0 +1,82 @@
+id: github__google-agentic-commerce__a2a-x402
+kind: github-repo
+name: a2a-x402
+canonical_url: https://github.com/google-agentic-commerce/a2a-x402
+identity:
+  github_repo: google-agentic-commerce/a2a-x402
+provenance:
+  discoveries:
+    - id: discovery__github__google-agentic-commerce__a2a-x402__awesome-list__vivy-yi__awesome-agent-orchestration
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: vivy-yi/awesome-agent-orchestration
+        url: https://github.com/vivy-yi/awesome-agent-orchestration
+        repository: vivy-yi/awesome-agent-orchestration
+      extraction:
+        mode: parsed
+        section_path:
+          - Agent Communication Protocols
+          - Agent-to-Agent (A2A)
+        anchor_text: a2a-x402
+        extracted_url: https://github.com/google-agentic-commerce/a2a-x402
+        surrounding_text: "| [a2a-x402](https://github.com/google-agentic-commerce/a2a-x402) | A2A protocol with cryptocurrency payments | ![Stars](https://img.shields.io/github/stars/google-agentic-commerce/a2a-x402) |"
+        confidence: high
+metadata:
+  github:
+    stars: 501
+    forks: 118
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-06-10T14:52:03Z"
+    pushed_at: "2026-04-08T20:41:27Z"
+    description: The A2A x402 Extension brings cryptocurrency payments to the Agent-to-Agent (A2A) protocol, enabling agents to monetize their services through on-chain payments. This extension revives the spirit of HTTP 402 "Payment Required" for the decentralized agent ecosystem.
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:02:24.684Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:24.684Z"
+      bytes: 3712
+insights:
+  summary: An extension to the Agent-to-Agent (A2A) protocol that enables cryptocurrency payments between agents for monetizing services via on-chain transactions.
+  why_it_matters: It provides a standardized, HTTP 402-inspired payment layer for developers building decentralized agent economies where services must be traded programmatically.
+  mental_damage: Finally, your autonomous agents can accrue crypto debt faster than you can understand the smart contracts enabling it.
+  tags:
+    - agent-commerce
+    - a2a
+    - payments
+    - protocol-extension
+    - crypto
+  confidence: high
+curation:
+  status: included
+  reason: This is a developer-facing SDK and specification for adding payment logic to agents, fitting the code-first building block definition of ai-frameworks rather than an end-user orchestration platform.
+  evidence:
+    - Repo description explicitly defines it as an extension with 'core libraries, and example implementations' for multiple languages.
+    - Architecture section describes 'functional core, imperative shell' with libraries for Python and TypeScript, indicating a code-first SDK.
+    - Appears in 'awesome-agent-orchestration' under 'Agent Communication Protocols', confirming relevance to the agent ecosystem.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (501) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.689Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:24.684Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:22:09.192Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

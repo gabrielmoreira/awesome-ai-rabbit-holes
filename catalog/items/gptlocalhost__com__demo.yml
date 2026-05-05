@@ -1,0 +1,78 @@
+id: gptlocalhost__com__demo
+kind: website
+name: demo
+canonical_url: https://gptlocalhost.com/demo
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__gptlocalhost__com__demo__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: janhq/awesome-local-ai
+        url: https://github.com/janhq/awesome-local-ai
+        repository: janhq/awesome-local-ai
+      extraction:
+        mode: parsed
+        section_path:
+          - Inference UI
+        anchor_text: GPTLocalhost
+        extracted_url: https://gptlocalhost.com/demo
+        surrounding_text: "- [GPTLocalhost](https://gptlocalhost.com/demo/) - A local Word Add-in for you to use local LLM servers in Microsoft Word. Alternative to \"Copilot in Word\" and much more affordable."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A demo page showcasing GPTLocalhost, a tool that integrates various local LLMs and inference runtimes into Microsoft Word.
+  why_it_matters: It demonstrates how local AI models from providers like Ollama, LM Studio, and llama.cpp can be embedded into enterprise-standard document workflows rather than isolated developer environments.
+  mental_damage: Finally, the dream of running a 2-billion-parameter model inside Microsoft Word is realized, ensuring that 'AI-assisted writing' now carries the full system requirements and latency of a local inference stack.
+  tags:
+    - local-ai
+    - microsoft-word
+    - llm-integration
+    - demos
+  confidence: high
+curation:
+  status: excluded
+  reason: This URL points to a demo/showcase page for the GPTLocalhost product, not a standalone developer tool, and the catalog lists the main product (GPTLocalhost) rather than its marketing videos.
+  evidence:
+    - The URL https://gptlocalhost.com/demo is a 'Demos' page containing videos, not a tool or repository.
+    - Source list context identifies this as part of 'awesome-local-ai' under 'Inference UI', but links to the demo page rather than a usable tool/repo.
+    - No repository metadata (stars, description, README) is provided for the tool itself; only the marketing page content is available.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.728Z"
+    cause:
+      type: ambiguous_canonicalization
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:45:11.082Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

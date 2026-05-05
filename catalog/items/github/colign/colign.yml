@@ -1,0 +1,99 @@
+id: github__colign__colign
+kind: github-repo
+name: colign
+canonical_url: https://github.com/colign/colign
+identity:
+  github_repo: colign/colign
+provenance:
+  discoveries:
+    - id: discovery__github__colign__colign__awesome-list__engineering4ai__awesome-spec-driven-development
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: Engineering4AI/awesome-spec-driven-development
+        url: https://github.com/engineering4ai/awesome-spec-driven-development
+        repository: Engineering4AI/awesome-spec-driven-development
+      extraction:
+        mode: parsed
+        section_path:
+          - Development Frameworks
+        anchor_text: colign
+        extracted_url: https://github.com/colign/colign
+        surrounding_text: "- [colign](https://github.com/colign/colign) ![](https://img.shields.io/github/stars/colign/colign.svg) - Collaborative spec-driven development platform for teams to discuss, write, review, and implement specs with AI."
+        confidence: high
+metadata:
+  github:
+    stars: 2
+    forks: 2
+    license: AGPL-3.0
+    archived: false
+    created_at: "2026-03-19T07:44:09Z"
+    pushed_at: "2026-05-02T00:58:05Z"
+    description: AI-powered spec writing & team alignment platform — Spec-Driven Development for teams using Claude Code, Cursor, and other AI tools
+    homepage: https://colign.co
+    topics:
+      - ai
+      - ai-coding
+      - ai-collaboration
+      - claude
+      - claude-code
+      - collaboration
+      - developer-tools
+      - golang
+      - grpc
+      - mcp
+      - mcp-server
+      - nextjs
+      - product-requirements
+      - realtime-collaboration
+      - software-specifications
+      - spec-driven-development
+      - spec-writing
+      - team-collaboration
+      - workflow
+    last_checked_at: "2026-05-05T21:01:38.777Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:38.777Z"
+      bytes: 7228
+insights:
+  summary: An open-source spec-driven development platform that enables teams to collaboratively write and review software specifications, featuring real-time co-editing and an MCP server for integration with AI coding tools like Claude Code and Cursor.
+  why_it_matters: It shifts the bottleneck of AI-assisted development from code generation to team alignment by providing structured specs that downstream AI agents can reliably implement.
+  mental_damage: We have successfully automated the code writing, so naturally we need a specialized platform to ensure the ten humans involved can agree on what the code is supposed to do.
+  tags:
+    - spec-driven-development
+    - mcp
+    - team-collaboration
+    - ai-workflow
+  confidence: high
+curation:
+  status: included
+  reason: The project's center of gravity is a spec-first workflow, providing the structured environment and MCP tooling specifically designed to drive AI implementation via specifications.
+  evidence:
+    - Repo description explicitly defines it as an 'AI-powered spec writing & team alignment platform — Spec-Driven Development'.
+    - README details a 'Two-layer spec architecture' (Project Memory and Structured Proposals) and MCP integration for Claude Code/Cursor.
+    - Listed in the 'awesome-spec-driven-development' directory under 'Development Frameworks'.
+placement:
+  primary_category: spec-driven-development
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.683Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:38.777Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:13:58.996Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

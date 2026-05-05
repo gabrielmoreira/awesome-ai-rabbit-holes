@@ -1,0 +1,92 @@
+id: github__codefuse-ai__codefuse-chatbot
+kind: github-repo
+name: codefuse-chatbot
+canonical_url: https://github.com/codefuse-ai/codefuse-chatbot
+identity:
+  github_repo: codefuse-ai/codefuse-chatbot
+provenance:
+  discoveries:
+    - id: discovery__github__codefuse-ai__codefuse-chatbot__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - CodeFuse-ChatBot
+        anchor_text: CodeFuse-ChatBot
+        extracted_url: https://github.com/codefuse-ai/codefuse-chatbot
+        surrounding_text: "## [CodeFuse-ChatBot](https://github.com/codefuse-ai/codefuse-chatbot)"
+        confidence: high
+metadata:
+  github:
+    stars: 1288
+    forks: 144
+    license: NOASSERTION
+    archived: false
+    created_at: "2023-09-28T01:06:40Z"
+    pushed_at: "2024-07-01T09:16:47Z"
+    description: An intelligent assistant serving the entire software development lifecycle, powered by a Multi-Agent Framework, working with DevOps Toolkits, Code&Doc Repo RAG,  etc.
+    homepage: ""
+    topics:
+      - aiops
+      - chatbot
+      - code-repo-analysis
+      - code-repo-generation
+      - devops
+      - gpt
+      - knowledge-graph
+      - langchain
+      - multi-agent
+      - rag
+      - tool-learning
+    last_checked_at: "2026-05-05T21:01:37.354Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:37.354Z"
+      bytes: 8928
+insights:
+  summary: An open-source AI assistant that uses a multi-agent framework to support the software development lifecycle, integrating DevOps toolkits, RAG for code and documentation repositories, and sandbox environments.
+  why_it_matters: It provides a private, offline-capable multi-agent system that can analyze whole code repositories and automate tasks across the DevOps pipeline, from design to deployment.
+  mental_damage: Yet another ambitious 'entire lifecycle' chatbot that asks you to dockerize a 34B model locally just to find out why your CI pipeline failed yesterday.
+  tags:
+    - multi-agent
+    - devops
+    - rag
+    - llm
+    - private-deployment
+  confidence: high
+curation:
+  status: included
+  reason: It is a multi-agent coding and DevOps assistant that directly interacts with code repositories and aims to automate development tasks, fitting the coding-agents definition.
+  evidence:
+    - Repo description explicitly states it is 'an intelligent assistant serving the entire software development lifecycle, powered by a Multi-Agent Framework'.
+    - README claims 'code整库分析' (repository-level code analysis) and 'project file-level code writing/generation'.
+    - Listed in 'awesome-ai-agents' under the Code section, confirming its agent-oriented design.
+placement:
+  primary_category: coding-agents
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1288) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.683Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:37.354Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:13:42.317Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

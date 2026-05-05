@@ -1,0 +1,81 @@
+id: github__google__model_search
+kind: github-repo
+name: model_search
+canonical_url: https://github.com/google/model_search
+identity:
+  github_repo: google/model_search
+provenance:
+  discoveries:
+    - id: discovery__github__google__model_search__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - AutoML
+        anchor_text: Model Search
+        extracted_url: https://github.com/google/model_search
+        surrounding_text: "| [Model Search](https://github.com/google/model_search)                       | a framework that implements AutoML algorithms for model architecture search at scale.                                                                                           | ![GitHub Badge](https://img.shields.io/github/stars/google/model_search.svg?style=flat-square)             |"
+        confidence: high
+metadata:
+  github:
+    stars: 3246
+    forks: 553
+    license: Apache-2.0
+    archived: true
+    created_at: "2021-01-19T18:26:34Z"
+    pushed_at: "2024-07-30T21:36:15Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:24.318Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:24.318Z"
+      bytes: 10734
+insights:
+  summary: Model Search is an archived Google framework that implements AutoML algorithms to automatically search for and evaluate optimal neural network architectures for classification problems.
+  why_it_matters: It allows researchers and developers to automate the deep learning architecture exploration process, comparing hundreds of model configurations without manual tuning.
+  mental_damage: We've gone from 'I wrote this model' to 'I wrote a script to write the model' to 'I archived the script that writes the model' in the time it takes to train a single epoch.
+  tags:
+    - automl
+    - neural-architecture-search
+    - tensorflow
+    - classification
+    - google
+  confidence: high
+curation:
+  status: excluded
+  reason: The project is an archived AutoML research framework for neural architecture search, which falls outside the catalog's scope of practical, active AI developer tooling and workflows.
+  evidence:
+    - Repository is marked as archived, indicating it is no longer maintained or active.
+    - The README describes a framework for automatically searching DNN architectures for classification problems, which is ML research rather than a developer-facing AI tool.
+    - Listed in Awesome-LLMOps under 'AutoML', but the scope is academic model tuning rather than coding agents or developer infrastructure.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: needs_review
+  reason: Repository is archived
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.689Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:24.318Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:22:08.829Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

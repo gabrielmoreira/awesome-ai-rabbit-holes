@@ -1,0 +1,102 @@
+id: github__frihet-io__frihet-mcp
+kind: github-repo
+name: frihet-mcp
+canonical_url: https://github.com/frihet-io/frihet-mcp
+identity:
+  github_repo: frihet-io/frihet-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__frihet-io__frihet-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: "@frihet/mcp-server"
+        extracted_url: https://github.com/frihet-io/frihet-mcp
+        surrounding_text: "- [@frihet/mcp-server](https://github.com/Frihet-io/frihet-mcp) [![frihet-mcp MCP server](https://glama.ai/mcp/servers/Frihet-io/frihet-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Frihet-io/frihet-mcp) 📇 ☁️ - AI-native business management — invoices, expenses, clients, products, and quotes. 31 tools for Claude, Cursor, Windsurf, and Cline."
+        confidence: high
+metadata:
+  github:
+    stars: 4
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2026-02-12T02:45:11Z"
+    pushed_at: "2026-05-05T18:05:50Z"
+    description: Official MCP server for Frihet ERP — 52 tools for AI-powered invoicing, expenses, clients, products, quotes, reports, and tax compliance. Works with Claude, Cursor, Windsurf, Cline, Copilot.
+    homepage: https://frihet.io
+    topics:
+      - accounting
+      - ai
+      - ai-native
+      - automation
+      - billing
+      - business-management
+      - claude
+      - claude-code-plugin
+      - claude-code-skill
+      - cloudflare-workers
+      - erp
+      - fintech
+      - invoicing
+      - llm
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - saas
+      - tax-compliance
+      - typescript
+    last_checked_at: "2026-05-05T21:02:15.381Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:15.381Z"
+      bytes: 17894
+insights:
+  summary: An MCP server that exposes 66 tools for the Frihet ERP platform, enabling AI assistants to manage invoicing, expenses, clients, and tax compliance directly from the IDE.
+  why_it_matters: It allows developers to automate business management workflows like creating invoices and tracking expenses using natural language within their existing AI coding environments.
+  mental_damage: You can now ask your coding agent to bill a client for 40 hours of consulting while it simultaneously forgets the semicolon it wrote two minutes ago.
+  tags:
+    - mcp
+    - erp
+    - fintech
+    - automation
+    - claude
+  confidence: high
+curation:
+  status: included
+  reason: The repository is explicitly an MCP server implementation designed to connect AI assistants to the Frihet ERP system, fitting the MCP infrastructure category perfectly.
+  evidence:
+    - "Repo description confirms: 'Official MCP server for Frihet ERP — 52 tools for AI-powered invoicing... Works with Claude, Cursor, Windsurf, Cline, Copilot.'"
+    - "README states: 'An MCP server that connects your AI assistant to Frihet... Manage your entire business from your IDE.'"
+    - Listed in awesome-mcp-servers under 'Server Implementations > Finance & Fintech', confirming community recognition as an MCP tool.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.688Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:15.381Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:20:16.819Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

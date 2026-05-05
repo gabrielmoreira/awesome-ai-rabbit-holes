@@ -1,0 +1,82 @@
+id: github__audienseco__mcp-audiense-insights
+kind: github-repo
+name: mcp-audiense-insights
+canonical_url: https://github.com/audienseco/mcp-audiense-insights
+identity:
+  github_repo: audienseco/mcp-audiense-insights
+provenance:
+  discoveries:
+    - id: discovery__github__audienseco__mcp-audiense-insights__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Audiense Insights
+        extracted_url: https://github.com/audienseco/mcp-audiense-insights
+        surrounding_text: "- **[Audiense Insights](https://github.com/AudienseCo/mcp-audiense-insights)** - Marketing insights and audience analysis from [Audiense](https://www.audiense.com/products/audiense-insights) reports, covering demographic, cultural, influencer, and content engagement analysis."
+        confidence: high
+metadata:
+  github:
+    stars: 19
+    forks: 12
+    license: Apache-2.0
+    archived: true
+    created_at: "2025-01-31T16:14:54Z"
+    pushed_at: "2025-06-16T14:35:07Z"
+    description: Audiense Insights MCP Server is a server based on the Model Context Protocol (MCP) that allows Claude and other MCP-compatible clients to interact with your Audiense Insights account
+    homepage: https://audiense.com
+    topics:
+      - mcp
+      - modelcontextprotocol
+    last_checked_at: "2026-05-05T21:01:11.866Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:11.866Z"
+      bytes: 8093
+insights:
+  summary: An archived MCP server that lets Claude and other MCP-compatible clients interact with Audiense Insights to pull marketing and audience analysis data.
+  why_it_matters: It exposes marketing audience insights—demographics, influencers, and content engagement—directly into developer and AI agent workflows via the Model Context Protocol.
+  mental_damage: We have successfully reached the point where even social media marketing analytics need their own protocol server, just in case your coding agent wants to optimize a Twitter bio mid-sprint.
+  tags:
+    - mcp
+    - marketing
+    - analytics
+    - audiense
+  confidence: high
+curation:
+  status: excluded
+  reason: The repository is archived and explicitly deprecated by the authors, who have migrated the functionality to a remote MCP, making this codebase unsuitable for inclusion.
+  evidence:
+    - Repo is marked as archived on GitHub.
+    - README includes a prominent deprecation notice stating the server has been migrated to a remote model.
+    - 19 stars and niche marketing focus outside core developer tooling scope.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: needs_review
+  reason: Repository is archived
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.679Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:11.866Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:09:27.028Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

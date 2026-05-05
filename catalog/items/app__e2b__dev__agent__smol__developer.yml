@@ -1,0 +1,76 @@
+id: app__e2b__dev__agent__smol__developer
+kind: website
+name: smol-developer
+canonical_url: https://app.e2b.dev/agent/smol-developer
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__app__e2b__dev__agent__smol__developer__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Smol developer
+          - Description
+        anchor_text: Deployed in few seconds via e2b
+        extracted_url: https://app.e2b.dev/agent/smol-developer
+        surrounding_text: Smol is your own junior developer. [Deployed in few seconds via e2b](https://app.e2b.dev/agent/smol-developer/?utm_source=awesome-ai-agents)
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A cloud-hosted coding agent that runs in the browser to plan and execute software development tasks using an isolated VM environment.
+  why_it_matters: It offloads autonomous coding tasks to a hosted environment, allowing developers to delegate implementation work without local setup.
+  mental_damage: Yet another reminder that your job is slowly transitioning from writing code to carefully phrasing prompts for the VM that writes it for you.
+  tags:
+    - coding-agent
+    - autonomous
+    - e2b
+    - browser-based
+  confidence: medium
+curation:
+  status: included
+  reason: The project is listed in awesome-ai-agents as a 'Smol developer' autonomous agent and the URL (app.e2b.dev/agent) indicates a hosted agent that executes coding tasks, fitting the coding-agents category.
+  evidence:
+    - Listed in 'awesome-ai-agents' under the description 'A list of AI autonomous agents' specifically for 'Smol developer'.
+    - URL hosted at app.e2b.dev/agent/smol-developer implies a browser-first agent execution environment.
+placement:
+  primary_category: coding-agents
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.726Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:41:55.835Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

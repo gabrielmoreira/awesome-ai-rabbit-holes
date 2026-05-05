@@ -1,0 +1,75 @@
+id: mcp__apify__com
+kind: website
+name: mcp.apify.com
+canonical_url: https://mcp.apify.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__mcp__apify__com__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Actors MCP Server
+        extracted_url: https://apify.com/apify/actors-mcp-server
+        surrounding_text: "- **[Apify](https://github.com/apify/actors-mcp-server)** - [Actors MCP Server](https://apify.com/apify/actors-mcp-server): Use 3,000+ pre-built cloud tools to extract data from websites, e-commerce, social media, search engines, maps, and more"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: An MCP server implementation that exposes Apify Actors and tools for integration with Model Context Protocol clients.
+  why_it_matters: Developers can connect their MCP-compatible assistants to Apify's library of web scraping and automation actors without building custom integrations.
+  mental_damage: We have successfully abstracted the abstraction that was scraping the web, so your AI can now delegate the job of scraping the web to another AI.
+  tags:
+    - mcp
+    - apify
+    - tooling
+    - integration
+  confidence: high
+curation:
+  status: included
+  reason: The project is an MCP server that provides access to Apify Actors, fitting cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - Scraped site context identifies it as 'Apify MCP Server' for integrating Actors with MCP clients.
+    - Listed in awesome-mcp-servers under the 'Official Servers' section.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.728Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:46:16.522Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

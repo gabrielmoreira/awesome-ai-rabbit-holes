@@ -1,0 +1,76 @@
+id: www__magnific__com
+kind: website
+name: www.magnific.com
+canonical_url: https://www.magnific.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__magnific__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - UI Generators
+        anchor_text: Freepik
+        extracted_url: https://www.freepik.com
+        surrounding_text: "- **[Freepik](https://www.freepik.com/)** – AI design platform with image generation and mockup tools for UI designers."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Magnific is a browser-first AI creative platform offering hosted tools for generating and editing images, video, audio, and 3D assets, along with collaborative workflows and a developer API.
+  why_it_matters: It provides a unified API and workflow canvas for developers needing to integrate diverse generative media models into applications or marketing pipelines without stitching together multiple vendor SDKs.
+  mental_damage: Yet another reminder that while we have perfectly good diffusion models, we are still waiting for an AI that can reliably center a div without six rounds of persuasion.
+  tags:
+    - generative-media
+    - api
+    - browser-first
+    - creative-assets
+  confidence: high
+curation:
+  status: excluded
+  reason: Magnific is a general creative suite for images, video, and audio generation aimed at marketing and filmmaking, lacking the software development, coding agent, or infrastructure focus required for this catalog.
+  evidence:
+    - Scraped site context describes it as 'The complete platform of creative AI tools for image, video, and audio generation' for campaigns and filmmaking.
+    - The listed tools (Image Upscaler, Video Generator, Voice Cloning) target creative production rather than code editing or developer workflow automation.
+    - Source list context places it under 'UI Generators' in a general awesome list, which is too broad for a curated developer-tooling catalog.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.733Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:51:52.829Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

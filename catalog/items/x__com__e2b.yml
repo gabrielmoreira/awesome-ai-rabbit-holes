@@ -1,0 +1,76 @@
+id: x__com__e2b
+kind: website
+name: e2b
+canonical_url: https://x.com/e2b
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__x__com__e2b__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Check out E2B - Code Interpreting for AI apps
+        anchor_text: X (Twitter)
+        extracted_url: https://twitter.com/e2b
+        surrounding_text: "- Contact us at [hello@e2b.dev](mailto:hello@e2b.dev) or [on Discord](https://discord.gg/35NF4Y8WSE). Follow us on [X (Twitter)](https://twitter.com/e2b)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: E2B provides isolated, sandboxed cloud environments (Code Interpreting) specifically designed for AI applications to execute code safely.
+  why_it_matters: It allows developers building AI apps to offload untrusted code execution to a secure sandbox, enabling agents to run generated code without risking the host infrastructure.
+  mental_damage: We have successfully abstracted the concept of 'running code' so far away that we now need a specialized cloud provider just to let our hallucinations compile themselves in isolation.
+  tags:
+    - sandbox
+    - code-execution
+    - ai-infrastructure
+    - agents
+  confidence: medium
+curation:
+  status: included
+  reason: The tool is a developer-facing SDK/infrastructure layer for adding secure code execution environments to AI applications, fitting the code-first building block definition.
+  evidence:
+    - Source list context describes it as 'Code Interpreting for AI apps'.
+    - Name 'e2b' is recognized in the ecosystem as a sandboxing platform for coding agents.
+    - Classified under 'ai-frameworks' because it is an importable infrastructure component rather than a user-facing agent or IDE.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.734Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:54:17.668Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

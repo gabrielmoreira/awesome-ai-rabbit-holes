@@ -1,0 +1,113 @@
+id: github__omega-memory__omega-memory
+kind: github-repo
+name: core
+canonical_url: https://github.com/omega-memory/omega-memory
+identity:
+  github_repo: omega-memory/omega-memory
+provenance:
+  discoveries:
+    - id: discovery__github__omega-memory__core__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - 🧠 Knowledge & Memory
+        anchor_text: omega-memory/core
+        extracted_url: https://github.com/omega-memory/core
+        surrounding_text: "-   **[omega-memory/core](https://github.com/omega-memory/core)** [![GitHub stars](https://img.shields.io/github/stars/omega-memory/core?style=social)](https://github.com/omega-memory/core): Persistent memory for AI coding agents with semantic search, auto-capture, intelligent forgetting, and cross-session learning. #1 on LongMemEval (95.4%). Local-first with zero cloud dependency."
+        confidence: high
+    - id: discovery__github__omega-memory__omega-memory__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: omega-memory/omega-memory
+        extracted_url: https://github.com/omega-memory/omega-memory
+        surrounding_text: "- [omega-memory/omega-memory](https://github.com/omega-memory/omega-memory) 🐍 🏠 🍎 🪟 🐧 - Persistent memory for AI coding agents with semantic search, auto-capture, cross-session learning, and intelligent forgetting. 12 MCP tools, local-first."
+        confidence: high
+metadata:
+  github:
+    stars: 113
+    forks: 21
+    license: Apache-2.0
+    archived: false
+    created_at: "2026-02-13T03:28:56Z"
+    pushed_at: "2026-05-01T12:04:51Z"
+    description: Persistent memory for AI coding agents
+    homepage: https://omegamax.co
+    topics:
+      - ai-agent
+      - ai-memory
+      - claude
+      - claude-code
+      - coding-agent
+      - context-engineering
+      - cursor
+      - knowledge-graph
+      - llm
+      - local-first
+      - mcp
+      - mcp-server
+      - memory
+      - model-context-protocol
+      - persistent-memory
+      - semantic-search
+      - windsurf
+    last_checked_at: "2026-05-05T21:04:01.161Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:01.161Z"
+      bytes: 14642
+insights:
+  summary: A local-first persistent memory system that integrates with AI coding agents via MCP to store and recall decisions, preferences, and context across sessions.
+  why_it_matters: It eliminates the repetitive context re-explanation tax developers pay when starting new sessions with stateless coding agents by providing semantic memory that works across models and editors.
+  mental_damage: We have successfully escalated from writing code to writing infrastructure so our AI can remember that we prefer tabs over spaces, as if the machines needed another reason to judge us.
+  tags:
+    - memory
+    - mcp
+    - local-first
+    - context-engineering
+  confidence: high
+curation:
+  status: included
+  reason: The project is a memory and context-shaping system for AI agents that focuses on retrieval, persistence, and surfacing relevant information across sessions, which fits context-engineering rather than being a primary coding agent itself.
+  evidence:
+    - Repo description explicitly states 'Persistent memory for AI coding agents' and topics include context-engineering and mcp-server.
+    - README positions it as solving 'context loss' and 'repeated mistakes' by storing memories with semantic embeddings across sessions.
+    - Listed in awesome-mcp-servers under 'Knowledge & Memory' section, and integrates with Claude, Cursor, Windsurf via MCP.
+placement:
+  primary_category: context-engineering
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:41:58.624Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.711Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:01.161Z"
+    cause: null
+    next_retry_at: null

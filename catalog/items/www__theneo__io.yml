@@ -1,0 +1,76 @@
+id: www__theneo__io
+kind: website
+name: www.theneo.io
+canonical_url: https://www.theneo.io
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__theneo__io__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Documentation
+        anchor_text: Theneo.io
+        extracted_url: https://theneo.io
+        surrounding_text: "- **[Theneo.io](https://theneo.io/)** – AI-powered API documentation generation."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: An AI-native platform for generating and maintaining API documentation, portals, and changelogs by importing OpenAPI specs or Markdown.
+  why_it_matters: It automates the tedious cycle of writing and updating API docs, letting developers generate interactive references and changelogs from existing specs in seconds.
+  mental_damage: Another brilliant tool to solve the ancient problem of developers refusing to write documentation, this time by convincing an AI to do it instead.
+  tags:
+    - api-docs
+    - documentation
+    - ai-native
+    - developer-portal
+  confidence: medium
+curation:
+  status: included
+  reason: It is listed in awesome-ai-coding-tools under Documentation and provides AI-powered extensions (CLI, VSCode, GitHub Actions) that automate a specific developer workflow.
+  evidence:
+    - Listed in awesome-ai-coding-tools under the 'Documentation' section for API/SDK docs.
+    - Scraped site describes 'AI-powered API documentation' with 'Docs on Autopilot' and 'Instant docs'.
+    - Offers developer-facing extensions including VSCode Extension, GitHub Actions, and CLI tools.
+placement:
+  primary_category: ai-dev-extensions
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.734Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:53:45.713Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

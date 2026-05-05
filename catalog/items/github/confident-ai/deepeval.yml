@@ -1,0 +1,87 @@
+id: github__confident-ai__deepeval
+kind: github-repo
+name: deepeval
+canonical_url: https://github.com/confident-ai/deepeval
+identity:
+  github_repo: confident-ai/deepeval
+provenance:
+  discoveries:
+    - id: discovery__github__confident-ai__deepeval__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 评估 Evaluation
+        anchor_text: DeepEval
+        extracted_url: https://github.com/confident-ai/deepeval
+        surrounding_text: "12. [DeepEval](https://github.com/confident-ai/deepeval): a simple-to-use, open-source LLM evaluation framework, for evaluating and testing large-language model systems."
+        confidence: high
+metadata:
+  github:
+    stars: 15156
+    forks: 1409
+    license: Apache-2.0
+    archived: false
+    created_at: "2023-08-10T05:35:04Z"
+    pushed_at: "2026-05-05T18:30:14Z"
+    description: The LLM Evaluation Framework
+    homepage: https://deepeval.com
+    topics:
+      - evaluation-framework
+      - evaluation-metrics
+      - llm-evaluation
+      - llm-evaluation-framework
+      - llm-evaluation-metrics
+      - python
+    last_checked_at: "2026-05-05T21:01:40.229Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:40.229Z"
+      bytes: 21986
+insights:
+  summary: An open-source Python framework for unit testing LLM applications using research-backed metrics like G-Eval, hallucination detection, and task completion.
+  why_it_matters: It lets developers scientifically compare prompts, models, and architectures with Pytest-style rigor before shipping brittle AI features to production.
+  mental_damage: Because nothing says 'confident in my AI' like needing a dedicated framework to statistically prove it isn't hallucinating while it writes your unit tests.
+  tags:
+    - evals
+    - llm-evaluation
+    - testing
+    - python
+    - metrics
+  confidence: high
+curation:
+  status: included
+  reason: It is a developer-facing evaluation framework designed to measure and regress prompt, agent, and RAG quality, fitting the evals category perfectly.
+  evidence:
+    - Repo description explicitly states 'The LLM Evaluation Framework'.
+    - README describes it as 'similar to Pytest but specialized for unit testing LLM apps' with metrics like G-Eval and hallucination detection.
+    - Included in the '评估 Evaluation' section of the awesome-LLM-resources list.
+placement:
+  primary_category: evals
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (15156) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.683Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:40.229Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:14:14.023Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

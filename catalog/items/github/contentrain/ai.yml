@@ -1,0 +1,96 @@
+id: github__contentrain__ai
+kind: github-repo
+name: ai
+canonical_url: https://github.com/contentrain/ai
+identity:
+  github_repo: contentrain/ai
+provenance:
+  discoveries:
+    - id: discovery__github__contentrain__ai__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: Contentrain/ai
+        extracted_url: https://github.com/contentrain/ai
+        surrounding_text: "- [Contentrain/ai](https://github.com/Contentrain/ai) [![Contentrain/ai MCP server](https://glama.ai/mcp/servers/Contentrain/ai/badges/score.svg)](https://glama.ai/mcp/servers/Contentrain/ai) 📇 🏠 - Local-first MCP server for AI content governance — 13 tools for model/content CRUD, validation, normalization, and i18n across any framework."
+        confidence: high
+metadata:
+  github:
+    stars: 3
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-03-09T15:08:35Z"
+    pushed_at: "2026-04-18T12:18:45Z"
+    description: Repo-native content governance for AI agents. Extract, review, and deliver UI text, docs, and structured content from Git.
+    homepage: https://ai.contentrain.io
+    topics:
+      - ai-agents
+      - claude-code
+      - content-governance
+      - contentrain
+      - cursor
+      - developer-tools
+      - git
+      - i18n
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - sdk
+      - typescript
+      - windsurf
+    last_checked_at: "2026-05-05T21:01:41.029Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:41.029Z"
+      bytes: 12342
+insights:
+  summary: A repo-native content governance tool that uses an MCP server to help AI agents extract, structure, and review UI text and documentation stored in Git.
+  why_it_matters: It allows developers to delegate the tedious extraction of hardcoded strings to AI agents while enforcing schema validation and human review via standard Git workflows.
+  mental_damage: "Finally, an agentic workflow to solve the hardest problem in computer science: getting developers to stop hardcoding 'Welcome to our platform' directly into the JSX."
+  tags:
+    - mcp
+    - content-governance
+    - git
+    - i18n
+    - agent-tools
+  confidence: high
+curation:
+  status: included
+  reason: The project is fundamentally an MCP server implementation that provides 17 tools for agents to interact with a git-based content layer.
+  evidence:
+    - Repo description explicitly states 'Repo-native content governance for AI agents' and lists 'mcp-server' in topics.
+    - README details an architecture where an 'AI Agent' interacts via 'MCP (17 tools)' to enforce schemas and git workflows.
+    - Listed in 'awesome-mcp-servers' under the 'Developer Tools' section.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.683Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:41.029Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:14:21.252Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

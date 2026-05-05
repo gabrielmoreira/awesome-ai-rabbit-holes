@@ -1,0 +1,104 @@
+id: github__datalayer__jupyter-mcp-server
+kind: github-repo
+name: jupyter-mcp-server
+canonical_url: https://github.com/datalayer/jupyter-mcp-server
+identity:
+  github_repo: datalayer/jupyter-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__datalayer__jupyter-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧮 <a name="data-science-tools"></a>Data Science Tools
+        anchor_text: datalayer/jupyter-mcp-server
+        extracted_url: https://github.com/datalayer/jupyter-mcp-server
+        surrounding_text: "- [datalayer/jupyter-mcp-server](https://github.com/datalayer/jupyter-mcp-server) 🐍 🏠 - Model Context Protocol (MCP) Server for Jupyter."
+        confidence: high
+    - id: discovery__github__datalayer__jupyter-mcp-server__awesome-list__vivy-yi__awesome-agent-orchestration
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: vivy-yi/awesome-agent-orchestration
+        url: https://github.com/vivy-yi/awesome-agent-orchestration
+        repository: vivy-yi/awesome-agent-orchestration
+      extraction:
+        mode: parsed
+        section_path:
+          - Agent Communication Protocols
+          - Model Context Protocol (MCP)
+          - Development & Tools
+        anchor_text: jupyter-mcp-server
+        extracted_url: https://github.com/datalayer/jupyter-mcp-server
+        surrounding_text: "| [jupyter-mcp-server](https://github.com/datalayer/jupyter-mcp-server) | Jupyter notebook integration | ![Stars](https://img.shields.io/github/stars/datalayer/jupyter-mcp-server) |"
+        confidence: high
+metadata:
+  github:
+    stars: 1064
+    forks: 157
+    license: BSD-3-Clause
+    archived: false
+    created_at: "2025-02-12T06:41:35Z"
+    pushed_at: "2026-04-27T06:07:54Z"
+    description: 🪐 🔧 Model Context Protocol (MCP) Server for Jupyter.
+    homepage: https://jupyter-mcp-server.datalayer.tech
+    topics:
+      - ai
+      - jupyter
+      - mcp
+      - mcp-server
+      - tools
+    last_checked_at: "2026-05-05T21:01:47.590Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:47.590Z"
+      bytes: 16527
+insights:
+  summary: A Model Context Protocol server that enables AI assistants to connect to, control, and execute code in Jupyter notebooks in real-time.
+  why_it_matters: It allows coding agents and MCP-compatible clients to directly interact with notebook environments, bridging the gap between generative AI workflows and data science prototyping.
+  mental_damage: We've successfully abstracted the abstraction, so now your AI can hallucinate inside a kernel while your notebook watches itself be rewritten in real-time.
+  tags:
+    - mcp
+    - jupyter
+    - notebook
+    - data-science
+    - llm-integration
+  confidence: high
+curation:
+  status: included
+  reason: The project is a dedicated MCP server implementation for Jupyter, fitting precisely into the MCP infrastructure category.
+  evidence:
+    - Repo description explicitly states it is a 'Model Context Protocol (MCP) Server for Jupyter'.
+    - README confirms it works with any MCP client (Claude Desktop, Cursor, Windsurf) to control notebooks.
+    - Listed in awesome-mcp-servers under 'Data Science Tools' and awesome-agent-orchestration under 'MCP Development & Tools'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1064) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.664Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:47.590Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:15:31.608Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

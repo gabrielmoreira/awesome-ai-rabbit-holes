@@ -1,0 +1,81 @@
+id: github__heurema__awesome-ai-agents
+kind: github-repo
+name: awesome-ai-agents
+canonical_url: https://github.com/heurema/awesome-ai-agents
+identity:
+  github_repo: heurema/awesome-ai-agents
+provenance:
+  discoveries:
+    - id: discovery__github__heurema__awesome-ai-agents__awesome-list__vivy-yi__awesome-agent-orchestration
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: vivy-yi/awesome-agent-orchestration
+        url: https://github.com/vivy-yi/awesome-agent-orchestration
+        repository: vivy-yi/awesome-agent-orchestration
+      extraction:
+        mode: parsed
+        section_path:
+          - Related Awesome Lists
+        anchor_text: awesome-ai-agents
+        extracted_url: https://github.com/heurema/awesome-ai-agents
+        surrounding_text: "- [awesome-ai-agents](https://github.com/heurema/awesome-ai-agents) - Comprehensive AI agent resources"
+        confidence: high
+metadata:
+  github:
+    stars: 2
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2025-08-26T05:17:10Z"
+    pushed_at: "2025-09-07T06:39:10Z"
+    description: Curated collection of tools, frameworks, research papers, and tutorials for building AI agents, multi-agent systems, LLM-based orchestration, memory, planning, tool use, and evaluation. Each entry includes a link to the original source for quick access.
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:32.959Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:32.959Z"
+      bytes: 10221
+insights:
+  summary: A curated GitHub repository listing open-source frameworks, tools, research papers, and learning resources for building AI agents and multi-agent systems.
+  why_it_matters: It provides developers with a centralized map of the rapidly expanding ecosystem of agent frameworks, observability tools, and orchestration libraries.
+  mental_damage: Another list to bookmark while you pretend you have time to evaluate the 400th agent framework that promises to revolutionize your workflow.
+  tags:
+    - awesome-list
+    - agents
+    - multi-agent
+    - resources
+    - directories
+  confidence: high
+curation:
+  status: included
+  reason: This is a curated directory/meta-list of AI agent tools and resources rather than a standalone developer tool itself, fitting the awesome-awesomes category.
+  evidence:
+    - Repo description explicitly calls it a 'Curated collection of tools, frameworks, research papers, and tutorials'.
+    - README lists entries like LangChain, AutoGen, and CrewAI with links to original sources rather than providing executable tooling.
+    - Listed in the 'awesome-agent-orchestration' source list under 'Related Awesome Lists'.
+placement:
+  primary_category: awesome-awesomes
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.691Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:32.959Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:23:47.672Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

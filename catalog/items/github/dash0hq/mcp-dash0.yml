@@ -1,0 +1,80 @@
+id: github__dash0hq__mcp-dash0
+kind: github-repo
+name: mcp-dash0
+canonical_url: https://github.com/dash0hq/mcp-dash0
+identity:
+  github_repo: dash0hq/mcp-dash0
+provenance:
+  discoveries:
+    - id: discovery__github__dash0hq__mcp-dash0__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Dash0
+        extracted_url: https://github.com/dash0hq/mcp-dash0
+        surrounding_text: "- **[Dash0](https://github.com/dash0hq/mcp-dash0)** - Navigate your OpenTelemetry resources, investigate incidents and query metrics, logs and traces on [Dash0](https://www.dash0.com/)."
+        confidence: high
+metadata:
+  github:
+    stars: 3
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2025-06-23T12:34:55Z"
+    pushed_at: "2025-06-23T15:45:41Z"
+    description: MCP server for Dash0
+    homepage: https://dash0.com
+    topics: []
+    last_checked_at: "2026-05-05T21:01:46.996Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:46.996Z"
+      bytes: 2072
+insights:
+  summary: An official MCP server that allows AI assistants to query OpenTelemetry resources, metrics, logs, and traces directly from Dash0.
+  why_it_matters: It connects observability data directly into the coding loop, letting AI agents investigate incidents and debug issues without switching context to the Dash0 dashboard.
+  mental_damage: We have successfully closed the loop where the AI writes the bug, the AI deploys the bug, and now the AI uses this server to stare at the telemetry of the bug it just wrote.
+  tags:
+    - mcp
+    - observability
+    - otel
+    - debugging
+  confidence: high
+curation:
+  status: included
+  reason: This is an official MCP server implementation for Dash0, fitting squarely into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states 'MCP server for Dash0'.
+    - README confirms it is 'The official Model Context Protocol (MCP) server for Dash0'.
+    - Listed in awesome-mcp-servers under 'Official Servers'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.684Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:46.996Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:15:25.824Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

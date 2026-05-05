@@ -1,0 +1,78 @@
+id: financialdata__net
+kind: website
+name: financialdata.net
+canonical_url: https://financialdata.net
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__financialdata__net__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: FinancialData.Net
+        extracted_url: https://financialdata.net
+        surrounding_text: "- [financialdatanet/mcp-server](https://github.com/financialdatanet/mcp-server) 🐍 🏠 🪟 🐧 - [FinancialData.Net](https://financialdata.net/) MCP server allows you to retrieve end-of-day and intraday stock market data, company financial statements, insider and institutional trading data, sustainability data, earnings releases, and much more."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A financial data API providing real-time and historical stock market data, company fundamentals, and alternative data via REST endpoints, including an MCP server implementation.
+  why_it_matters: Standardizes access to global equity and crypto data for developers building trading algorithms, financial dashboards, or AI agents that need market context.
+  mental_damage: Yet another data vendor promising 'institutional-grade' insights, ensuring your AI agent will confidently hallucinate trades based on slightly delayed JSON.
+  tags:
+    - financial-data
+    - api
+    - mcp
+    - trading
+    - fintech
+  confidence: high
+curation:
+  status: included
+  reason: The project explicitly offers an MCP server implementation for financial data access, fitting the MCP Servers and Tooling category, and is listed in the awesome-mcp-servers directory.
+  evidence:
+    - Scraped site context confirms an 'MCP' section and describes the tool as 'Access real-time and historical stock data...'
+    - Listed in the 'awesome-mcp-servers' directory under 'Server Implementations > Finance & Fintech'
+    - The product is a REST API with JSON/CSV output covering equities, ETFs, derivatives, and crypto.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.727Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:44:28.158Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

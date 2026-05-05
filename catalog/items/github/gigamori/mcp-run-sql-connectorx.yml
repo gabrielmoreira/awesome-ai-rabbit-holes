@@ -1,0 +1,97 @@
+id: github__gigamori__mcp-run-sql-connectorx
+kind: github-repo
+name: mcp-run-sql-connectorx
+canonical_url: https://github.com/gigamori/mcp-run-sql-connectorx
+identity:
+  github_repo: gigamori/mcp-run-sql-connectorx
+provenance:
+  discoveries:
+    - id: discovery__github__gigamori__mcp-run-sql-connectorx__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🗄️ <a name="databases"></a>Databases
+        anchor_text: gigamori/mcp-run-sql-connectorx
+        extracted_url: https://github.com/gigamori/mcp-run-sql-connectorx
+        surrounding_text: "- [gigamori/mcp-run-sql-connectorx](https://github.com/gigamori/mcp-run-sql-connectorx) 🐍 ☁️ 🏠 🍎 🪟 🐧 - An MCP server that executes SQL via ConnectorX and streams the result to a CSV or Parquet file. Supports PostgreSQL, MariaDB, BigQuery, RedShift, MS SQL Server, etc."
+        confidence: high
+    - id: discovery__github__gigamori__mcp-run-sql-connectorx__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: run-sql-connectorx
+        extracted_url: https://github.com/gigamori/mcp-run-sql-connectorx
+        surrounding_text: "- **[run-sql-connectorx](https://github.com/gigamori/mcp-run-sql-connectorx)** - Execute SQL (PostgreSQL, MariaDB, BigQuery, MS SQL Server, RedShift, etc.) via ConnectorX and stream results to CSV/Parquet. MCP tool: run_sql."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2025-09-02T15:04:42Z"
+    pushed_at: "2025-09-03T13:33:14Z"
+    description: An MCP server that executes SQL via ConnectorX and streams (using Arrow RecordBatch) the result to CSV or Parquet. Supports PostgreSQL, MySQL, MariaDB, SQLite, MS SQL Server, Amazon Redshift, Google BigQuery
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:21.104Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:21.104Z"
+      bytes: 4425
+insights:
+  summary: An MCP server that executes SQL queries across multiple databases via ConnectorX and streams results to CSV or Parquet files using Arrow RecordBatch.
+  why_it_matters: It lets MCP clients like Cursor run heavy SQL workloads against diverse databases without clogging the context window with inline result payloads.
+  mental_damage: We have invented a protocol so an AI can talk to a database just to write a file that the AI will then ask another tool to read back into context.
+  tags:
+    - mcp
+    - sql
+    - connectorx
+    - databases
+    - arrow
+  confidence: high
+curation:
+  status: included
+  reason: The project is a Model Context Protocol server for executing SQL and returning file-based results, which fits cleanly into MCP Servers and Tooling.
+  evidence:
+    - Repo description explicitly states 'An MCP server that executes SQL via ConnectorX'.
+    - README documents MCP tool specification with run_sql arguments and Cursor mcp.json integration.
+    - Listed in awesome-mcp-servers under Server Implementations > Databases.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.666Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:21.104Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:21:19.061Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

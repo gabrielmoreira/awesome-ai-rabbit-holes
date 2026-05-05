@@ -1,0 +1,77 @@
+id: huggingface__co__datasets__mvp__lab__llava__onevision__1__5__mid__training__85m
+kind: website
+name: LLaVA-OneVision-1.5-Mid-Training-85M
+canonical_url: https://huggingface.co/datasets/mvp-lab/LLaVA-OneVision-1.5-Mid-Training-85M
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__huggingface__co__datasets__mvp__lab__llava__onevision__1__5__mid__training__85m__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 论文 Paper
+        anchor_text: 85M-Midtraining Data
+        extracted_url: https://huggingface.co/datasets/mvp-lab/LLaVA-OneVision-1.5-Mid-Training-85M
+        surrounding_text: "57. [LLaVA-OneVision-1.5: Fully Open Framework for Democratized Multimodal Training](https://arxiv.org/abs/2509.23661) [85M-Midtraining Data](https://huggingface.co/datasets/mvp-lab/LLaVA-OneVision-1.5-Mid-Training-85M) [22M Instruct Data](https://huggingface.co/datasets/mvp-lab/LLaVA-OneVision-1.5-Instruct-Data)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A large, 91.5M-row image-text dataset on Hugging Face used for mid-training vision-language models like LLaVA-OneVision.
+  why_it_matters: Developers fine-tuning multimodal models can use this dataset to improve image-caption alignment and visual reasoning capabilities.
+  mental_damage: Another 85 million rows of carefully captioned pomegranate juice and monster trucks, because apparently the path to AGI requires teaching a model what a DSAAC sculpture looks like.
+  tags:
+    - dataset
+    - multimodal
+    - llava
+    - vision-language
+    - training-data
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a raw training dataset and research resource, not a developer-facing tool, agent, IDE, or infrastructure product.
+  evidence:
+    - Hosted on Hugging Face Datasets with 91.5M rows of image-caption pairs for model training.
+    - Appears in awesome-LLM-resources under a 'Paper' section, signaling a research/data resource.
+    - No description of a tool, CLI, IDE plugin, or developer workflow product in any provided input.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.728Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:45:24.366Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

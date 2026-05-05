@@ -1,0 +1,91 @@
+id: github__cocoindex-io__cocoindex-code
+kind: github-repo
+name: cocoindex-code
+canonical_url: https://github.com/cocoindex-io/cocoindex-code
+identity:
+  github_repo: cocoindex-io/cocoindex-code
+provenance:
+  discoveries:
+    - id: discovery__github__cocoindex-io__cocoindex-code__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - 💻 Developer Tools
+        anchor_text: cocoindex-io/cocoindex-code
+        extracted_url: https://github.com/cocoindex-io/cocoindex-code
+        surrounding_text: "-   **[cocoindex-io/cocoindex-code](https://github.com/cocoindex-io/cocoindex-code)** [![GitHub stars](https://img.shields.io/github/stars/cocoindex-io/cocoindex-code?style=social)](https://github.com/cocoindex-io/cocoindex-code): A super light-weight embedded MCP server for coding agents. Uses tree-sitter for code search and indexing, saves 70% tokens and improves speed."
+        confidence: high
+metadata:
+  github:
+    stars: 1548
+    forks: 115
+    license: Apache-2.0
+    archived: false
+    created_at: "2026-02-01T02:16:56Z"
+    pushed_at: "2026-05-05T03:47:02Z"
+    description: A super light-weight embedded code search engine CLI (AST based) that just works - saves 70% token and improves speed for coding agent  🌟 Star if you like it!
+    homepage: https://cocoindex.io/
+    topics:
+      - agents
+      - ast
+      - cocoindex
+      - code-search
+      - coding-agent
+      - context-engineering
+      - indexing
+      - mcp
+      - python
+      - tree-sitter
+    last_checked_at: "2026-05-05T21:01:36.981Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:36.981Z"
+      bytes: 28708
+insights:
+  summary: A lightweight, AST-based semantic code search CLI that integrates with coding agents via CLI, Skill, or MCP to reduce context tokens by roughly 70%.
+  why_it_matters: It gives coding agents a fast, local way to retrieve relevant code snippets without stuffing entire repositories into context windows.
+  mental_damage: We have officially reached the point where our AI assistants need their own indexing pipeline just to cope with the context we keep feeding them.
+  tags:
+    - code-search
+    - ast
+    - mcp
+    - context-engineering
+    - coding-agent
+  confidence: high
+curation:
+  status: included
+  reason: The project is a retrieval and context-optimization tool designed to feed relevant code to coding agents more efficiently, which aligns with context engineering rather than being a primary coding agent itself.
+  evidence:
+    - Repo description and README state it is an AST-based semantic code search tool that saves 70% tokens for coding agents.
+    - Integrates with agents via CLI, Skill, and MCP (README explicitly lists Claude, Codex, Cursor integration).
+    - Topics include ast, code-search, context-engineering, and mcp, reinforcing its role as a context-shaping layer.
+placement:
+  primary_category: context-engineering
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1548) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.682Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:36.981Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:13:38.177Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

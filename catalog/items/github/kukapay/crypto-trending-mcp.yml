@@ -1,0 +1,82 @@
+id: github__kukapay__crypto-trending-mcp
+kind: github-repo
+name: crypto-trending-mcp
+canonical_url: https://github.com/kukapay/crypto-trending-mcp
+identity:
+  github_repo: kukapay/crypto-trending-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__kukapay__crypto-trending-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: kukapay/crypto-trending-mcp
+        extracted_url: https://github.com/kukapay/crypto-trending-mcp
+        surrounding_text: "- [kukapay/crypto-trending-mcp](https://github.com/kukapay/crypto-trending-mcp) 🐍 ☁️ - Tracking the latest trending tokens on CoinGecko."
+        confidence: high
+metadata:
+  github:
+    stars: 7
+    forks: 4
+    license: MIT
+    archived: false
+    created_at: "2025-04-17T17:21:23Z"
+    pushed_at: "2025-07-24T13:17:52Z"
+    description: An MCP server that tracks and monitors the latest trending tokens on CoinGecko.
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:03:10.811Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:10.811Z"
+      bytes: 4372
+insights:
+  summary: An MCP server that fetches and parses trending cryptocurrency data from CoinGecko for use in MCP-compatible clients like Claude Desktop.
+  why_it_matters: It allows developers to query live crypto market trends directly through their AI assistant using structured tools and prompts rather than manual browser checks.
+  mental_damage: We have reached the point where we need a dedicated protocol server just to ask an LLM what coin is currently mooning, sparing us the terrible effort of opening a browser tab.
+  tags:
+    - mcp
+    - crypto
+    - finance
+    - claude
+    - data
+  confidence: high
+curation:
+  status: included
+  reason: The project is a standalone MCP server implementation focused on providing crypto data to MCP clients, which fits cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description explicitly states: 'An MCP server that tracks and monitors the latest trending tokens on CoinGecko.'"
+    - README confirms it is 'Designed for use with Claude Desktop' as an MCP server providing tools and prompts.
+    - Listed in awesome-mcp-servers under the Finance & Fintech section.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.702Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:10.811Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:31:59.404Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

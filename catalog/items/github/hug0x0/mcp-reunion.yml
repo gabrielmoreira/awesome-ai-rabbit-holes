@@ -1,0 +1,81 @@
+id: github__hug0x0__mcp-reunion
+kind: github-repo
+name: mcp-reunion
+canonical_url: https://github.com/hug0x0/mcp-reunion
+identity:
+  github_repo: hug0x0/mcp-reunion
+provenance:
+  discoveries:
+    - id: discovery__github__hug0x0__mcp-reunion__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📊 <a name="data-platforms"></a>Data Platforms
+        anchor_text: Hug0x0/mcp-reunion
+        extracted_url: https://github.com/hug0x0/mcp-reunion
+        surrounding_text: "- [Hug0x0/mcp-reunion](https://github.com/Hug0x0/mcp-reunion) [![Hug0x0/mcp-reunion MCP server](https://glama.ai/mcp/servers/Hug0x0/mcp-reunion/badges/score.svg)](https://glama.ai/mcp/servers/Hug0x0/mcp-reunion) 📇 ☁️ 🍎 🪟 🐧 - 96 tools across 21 modules for La Réunion (French overseas region) open data: economy, demographics, geography, transport, health, education, elections, tourism, housing, environment, and more. Powered by data.regionreunion.com and data.gouv.fr. Install: `npx -y mcp-reunion`."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-04-21T22:19:19Z"
+    pushed_at: "2026-05-04T02:19:37Z"
+    description: MCP server for La Réunion open data
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:36.741Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:36.741Z"
+      bytes: 8030
+insights:
+  summary: An MCP server that exposes ~270 La Réunion open data datasets as 99 tools for Claude Desktop and other MCP clients.
+  why_it_matters: Developers building AI agents for French regional data can wire in census, housing, transport, and election datasets without writing custom API glue.
+  mental_damage: We have successfully MCP'd a single island's dataset catalog before the tooling to actually use it has any users.
+  tags:
+    - mcp
+    - open-data
+    - local-data
+    - claude-desktop
+  confidence: high
+curation:
+  status: included
+  reason: This is a purpose-built MCP server exposing regional open data tools, which fits cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description states: 'MCP server for La Réunion open data'"
+    - README says it exposes ~270 datasets over stdio for Claude Desktop and MCP clients with 99 tools across 22 modules
+    - Listed in awesome-mcp-servers under Server Implementations > Data Platforms
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.696Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:36.741Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:24:26.301Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,97 @@
+id: github__maxritter__pilot-shell
+kind: github-repo
+name: claude-codepro
+canonical_url: https://github.com/maxritter/pilot-shell
+identity:
+  github_repo: maxritter/pilot-shell
+provenance:
+  discoveries:
+    - id: discovery__github__maxritter__claude-codepro__awesome-list__engineering4ai__awesome-spec-driven-development
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: Engineering4AI/awesome-spec-driven-development
+        url: https://github.com/engineering4ai/awesome-spec-driven-development
+        repository: Engineering4AI/awesome-spec-driven-development
+      extraction:
+        mode: parsed
+        section_path:
+          - Development Frameworks
+        anchor_text: claude-codepro
+        extracted_url: https://github.com/maxritter/claude-codepro
+        surrounding_text: "- [claude-codepro](https://github.com/maxritter/claude-codepro) ![](https://img.shields.io/github/stars/maxritter/claude-codepro.svg) - Professional development system combining spec-driven development, TDD, and automated quality enforcement."
+        confidence: high
+metadata:
+  github:
+    stars: 1678
+    forks: 141
+    license: NOASSERTION
+    archived: false
+    created_at: "2025-10-18T08:30:23Z"
+    pushed_at: "2026-05-04T13:01:22Z"
+    description: "How real engineers run Claude Code: spec-driven planning, enforced TDD, persistent memory, and quality enforcement on all levels. Make Claude Code production-ready."
+    homepage: https://pilot-shell.com
+    topics:
+      - ai-agents
+      - ai-assistant
+      - ai-coding
+      - ai-coding-tools
+      - ai-engineering
+      - ai-tools
+      - anthropic
+      - anthropic-claude
+      - claude
+      - claude-ai
+      - claude-code
+      - claude-context
+      - claude-skills
+      - claudecode
+      - model-context-protocol
+      - spec-driven-development
+    last_checked_at: "2026-05-05T21:03:32.868Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:32.868Z"
+      bytes: 53566
+insights:
+  summary: A terminal-based CLI framework that extends Claude Code with spec-driven planning, enforced TDD workflows, quality gates, and persistent context management.
+  why_it_matters: It attempts to solve the common problem of Claude Code producing inconsistent, untested code by wrapping the assistant in structured workflows and quality enforcement hooks.
+  mental_damage: We have finally reached the point where we need a meta-framework to prevent our AI assistant from skipping tests, which is exactly the kind of architectural overhead that makes you question whether you are coding or configuring a bureaucratic robot.
+  tags:
+    - claude-code
+    - spec-driven
+    - cli
+    - tdd
+    - context-engineering
+  confidence: high
+curation:
+  status: included
+  reason: The project is a CLI-based coding agent assistant that directly plans, writes, and verifies code inside a developer's repo via Claude Code, fitting the coding-agents terminal criteria.
+  evidence:
+    - Repo description states it provides 'spec-driven planning, enforced TDD, persistent memory, and quality enforcement' for Claude Code.
+    - README confirms it is a terminal CLI ('pilot' or 'ccp') that runs '/spec', '/fix', and '/prd' workflows directly on existing projects.
+    - Active development indicated by created_at 2025-10-18 and pushed_at 2026-05-04 with 1678 stars.
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1678) exceeded threshold (150)
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:36:21.586Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.705Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:32.868Z"
+    cause: null
+    next_retry_at: null

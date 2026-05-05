@@ -1,0 +1,107 @@
+id: v0__dev
+kind: website
+name: v0.dev
+canonical_url: https://v0.dev
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__v0__dev__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - v0 by Vercel
+        anchor_text: v0 by Vercel
+        extracted_url: https://v0.dev
+        surrounding_text: "## [v0 by Vercel](https://v0.dev/)"
+        confidence: high
+    - id: discovery__v0__dev__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - App Builders
+        anchor_text: v0.dev
+        extracted_url: https://v0.dev
+        surrounding_text: "- **[v0.dev](https://v0.dev/)** – Vercel's AI tool for generating UI components and full pages from text prompts."
+        confidence: high
+    - id: discovery__v0__dev__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 代码 Coding
+        anchor_text: v0
+        extracted_url: https://v0.dev
+        surrounding_text: 3. [v0](https://v0.dev/)
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: v0.dev is a browser-first AI tool by Vercel that generates React components, full web applications, and UI layouts from natural language prompts.
+  why_it_matters: It allows developers to scaffold functional front-end code and responsive layouts instantly, significantly speeding up the prototyping phase without leaving the browser.
+  mental_damage: You can now generate a beautifully styled, production-ready checkout flow in 30 seconds, only to spend the next three hours trying to convince your team that generating the entire app via prompt doesn't mean you don't need a version control strategy.
+  tags:
+    - ui-generation
+    - react
+    - prototyping
+    - vercel
+    - frontend
+  confidence: high
+curation:
+  status: included
+  reason: It is a hosted, browser-first product that turns prompts into full applications and deployed tools, fitting the app-builders definition over coding-agents.
+  evidence:
+    - Listed under 'App Builders' in the awesome-ai-coding-tools directory.
+    - URL is a hosted SaaS product (v0.dev) rather than a repo or IDE plugin.
+    - Described as an AI tool for generating code and apps from prompts.
+placement:
+  primary_category: app-builders
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.662Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:49:01.142Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

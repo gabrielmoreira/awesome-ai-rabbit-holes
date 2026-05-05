@@ -1,0 +1,110 @@
+id: github__abanteai__archive-old-cli-mentat
+kind: github-repo
+name: cli
+canonical_url: https://github.com/abanteai/archive-old-cli-mentat
+identity:
+  github_repo: abanteai/archive-old-cli-mentat
+provenance:
+  discoveries:
+    - id: discovery__github__biobootloader__mentat__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Mentat
+        anchor_text: Mentat
+        extracted_url: https://github.com/biobootloader/mentat
+        surrounding_text: "## [Mentat](https://github.com/biobootloader/mentat)"
+        confidence: high
+    - id: discovery__mentat__ai__docs__cli__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Terminal-native coding agents
+          - Closed Source
+        anchor_text: Mentat CLI
+        extracted_url: https://mentat.ai/docs/cli
+        surrounding_text: "- **[Mentat CLI](https://mentat.ai/docs/cli)** `[Mentat]` — Cloud-native coding agent CLI for managing remote Mentat agents from your terminal; auto-detects repo/branch context."
+        confidence: high
+    - id: discovery__mentat__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - CLI Tools
+        anchor_text: Mentat
+        extracted_url: https://mentat.ai
+        surrounding_text: "- **[Mentat](https://mentat.ai/)** – AI coding assistant for command-line development."
+        confidence: high
+metadata:
+  github:
+    stars: 2555
+    forks: 239
+    license: Apache-2.0
+    archived: true
+    created_at: "2023-07-25T18:00:13Z"
+    pushed_at: "2025-01-07T22:52:59Z"
+    description: null
+    homepage: https://mentat.ai
+    topics: []
+    last_checked_at: "2026-05-05T21:00:46.747Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:46.747Z"
+      bytes: 495
+insights:
+  summary: An archived command-line tool that was an early AI coding assistant, now superseded by a different hosted GitHub bot project called Mentat.
+  why_it_matters: It represents an early iteration of CLI-based AI coding assistance that helped pioneer the local-agent workflow before the project shifted to a hosted service.
+  mental_damage: We dutifully archive the tools that dared to run on our own metal, only to be told the real future is a hosted bot we can't self-host.
+  tags:
+    - cli
+    - archived
+    - coding-agent
+  confidence: high
+curation:
+  status: excluded
+  reason: The repository is explicitly archived and marked as an old, unmaintained version of a tool that has since pivoted to a different hosted service.
+  evidence:
+    - "README header states: 'ARCHIVED PROJECT' and 'no longer maintained or supported'"
+    - README directs users to a different project at mentat.ai, indicating this code is legacy
+    - Repository archived flag is true
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: needs_review
+  reason: Repository is archived
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:04:41.740Z"
+    cause: null
+    attempts: 2
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+    next_retry_at: null
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.729Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:46.747Z"
+    cause: null
+    next_retry_at: null

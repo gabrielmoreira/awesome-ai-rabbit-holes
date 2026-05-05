@@ -1,0 +1,80 @@
+id: github__g-core__gcore-mcp-server
+kind: github-repo
+name: gcore-mcp-server
+canonical_url: https://github.com/g-core/gcore-mcp-server
+identity:
+  github_repo: g-core/gcore-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__g-core__gcore-mcp-server__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Gcore Cloud
+        extracted_url: https://github.com/g-core/gcore-mcp-server
+        surrounding_text: "- **[Gcore Cloud](https://github.com/G-Core/gcore-mcp-server)** - Gcore's Cloud Official MCP Server"
+        confidence: high
+metadata:
+  github:
+    stars: 12
+    forks: 4
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-07-16T14:19:22Z"
+    pushed_at: "2026-03-31T22:32:05Z"
+    description: Gcore official MCP server
+    homepage: https://gcore.com
+    topics: []
+    last_checked_at: "2026-05-05T21:02:16.713Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:16.713Z"
+      bytes: 8765
+insights:
+  summary: An official MCP server that exposes Gcore Cloud API operations as tools for LLM assistants like Cursor and Claude Code.
+  why_it_matters: It lets developers manage cloud infrastructure—from GPU clusters to DNS records—directly through natural language prompts inside their AI coding environments.
+  mental_damage: We have successfully abstracted cloud infrastructure management into a prompt context window overflow problem that requires carefully curated wildcard patterns to remain sane.
+  tags:
+    - mcp
+    - cloud
+    - infrastructure
+    - gcore
+  confidence: high
+curation:
+  status: included
+  reason: The project is a dedicated MCP server implementation for the Gcore API, fitting cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states 'Gcore official MCP server'.
+    - README details integration with Cursor IDE and Claude Code using the Model Context Protocol.
+    - Listed under 'Official Servers' in the awesome-mcp-servers directory.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.688Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:16.713Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:20:30.426Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

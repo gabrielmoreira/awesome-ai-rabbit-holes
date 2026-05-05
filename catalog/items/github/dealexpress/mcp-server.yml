@@ -1,0 +1,80 @@
+id: github__dealexpress__mcp-server
+kind: github-repo
+name: mcp-server
+canonical_url: https://github.com/dealexpress/mcp-server
+identity:
+  github_repo: dealexpress/mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__dealexpress__mcp-server__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: DealX
+        extracted_url: https://github.com/dealexpress/mcp-server
+        surrounding_text: "- **[DealX](https://github.com/DealExpress/mcp-server)** - MCP Server for DealX platform"
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 2
+    license: MIT
+    archived: false
+    created_at: "2025-04-01T14:52:34Z"
+    pushed_at: "2026-03-30T07:54:26Z"
+    description: MCP Server for DealX platform
+    homepage: https://www.npmjs.com/package/@dealx/mcp-server
+    topics: []
+    last_checked_at: "2026-05-05T21:01:49.786Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:49.785Z"
+      bytes: 8476
+insights:
+  summary: An MCP server that allows LLMs to search for ads on the DealX platform via the Model Context Protocol.
+  why_it_matters: It connects local LLM clients like Claude Desktop and Cline to a specific classifieds API, demonstrating how to build vertical integrations for niche data sources.
+  mental_damage: We have successfully standardized the protocol for asking an AI to find a used iPhone in Kyiv, proving once again that no integration is too small for its own npm package.
+  tags:
+    - mcp
+    - dealx
+    - typescript
+    - classifieds
+  confidence: high
+curation:
+  status: included
+  reason: The project is a dedicated Model Context Protocol server for a specific platform, fitting cleanly into the MCP infrastructure category.
+  evidence:
+    - Repo description explicitly states 'MCP Server for DealX platform'.
+    - README confirms it 'implements the Model Context Protocol' to allow LLMs to interact with DealX.
+    - Listed in the 'awesome-mcp-servers' directory under 'Official Servers'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.684Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:49.786Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:15:48.688Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

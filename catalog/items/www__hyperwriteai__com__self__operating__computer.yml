@@ -1,0 +1,75 @@
+id: www__hyperwriteai__com__self__operating__computer
+kind: website
+name: self-operating-computer
+canonical_url: https://www.hyperwriteai.com/self-operating-computer
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__hyperwriteai__com__self__operating__computer__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Self-operating computer
+        anchor_text: Self-operating computer
+        extracted_url: https://www.hyperwriteai.com/self-operating-computer
+        surrounding_text: "## [Self-operating computer](https://www.hyperwriteai.com/self-operating-computer)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A framework that allows AI models like GPT-4V to autonomously control a computer by interpreting visual screenshots and simulating mouse and keyboard inputs.
+  why_it_matters: It demonstrates a developer-facing approach to agentic workflows where the AI interacts with the OS interface directly, bypassing API constraints to automate complex GUI-based tasks.
+  mental_damage: We have finally reached the point where we are teaching robots to click through cookie banners and decipher 1990s-era Excel menus just so we don't have to.
+  tags:
+    - computer-use
+    - agent-framework
+    - gpt-4v
+    - automation
+  confidence: medium
+curation:
+  status: included
+  reason: The project is a code-first framework for enabling multimodal AI to control a desktop environment, fitting the SDK/building-block definition of ai-frameworks rather than a direct coding assistant.
+  evidence:
+    - Listed in the 'awesome-ai-agents' directory under the 'Self-operating computer' section, indicating its role in agentic infrastructure.
+    - The concept involves providing AI with screen visibility and input control, serving as a building block for computer-using agents rather than a developer's IDE tool.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.732Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:51:25.536Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

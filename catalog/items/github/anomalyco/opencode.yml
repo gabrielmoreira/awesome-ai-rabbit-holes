@@ -1,0 +1,97 @@
+id: github__anomalyco__opencode
+kind: github-repo
+name: opencode
+canonical_url: https://github.com/anomalyco/opencode
+identity:
+  github_repo: anomalyco/opencode
+provenance:
+  discoveries:
+    - id: discovery__github__anomalyco__opencode__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Terminal-native coding agents
+          - Open Source
+        anchor_text: OpenCode
+        extracted_url: https://github.com/anomalyco/opencode
+        surrounding_text: "- **[OpenCode](https://github.com/anomalyco/opencode)** `⭐ 154k` — Terminal-native coding agent with 75+ provider support, LSP integration, and privacy-first design (formerly opencode-ai; now at opencode.ai)."
+        confidence: high
+    - id: discovery__github__anomalyco__opencode__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 代码 Coding
+        anchor_text: opencode
+        extracted_url: https://github.com/anomalyco/opencode
+        surrounding_text: 24. [opencode](https://github.com/anomalyco/opencode)
+        confidence: high
+metadata:
+  github:
+    stars: 155194
+    forks: 17980
+    license: MIT
+    archived: false
+    created_at: "2025-04-30T20:08:00Z"
+    pushed_at: "2026-05-05T20:53:03Z"
+    description: The open source coding agent.
+    homepage: https://opencode.ai
+    topics: []
+    last_checked_at: "2026-05-05T21:01:04.006Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:04.006Z"
+      bytes: 6312
+insights:
+  summary: An open-source AI coding agent available via CLI and desktop app that assists with code development, analysis, and planning inside a repository.
+  why_it_matters: It offers a capable, locally-runnable alternative to proprietary coding agents like Claude Code, with built-in specialized agents for building and planning.
+  mental_damage: Yet another open-source CLI agent enters the terminal to gently remind you that your job is now 50% prompt engineering and 50% managing agents that edit files faster than you can `git diff`.
+  tags:
+    - cli
+    - coding-agent
+    - desktop
+    - terminal
+    - opensource
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an open-source coding agent that operates directly on source code via CLI and desktop interfaces, fitting the coding-agents category perfectly.
+  evidence:
+    - "Repo description states: 'The open source coding agent.'"
+    - README describes built-in 'build' and 'plan' agents for development work and code exploration directly in the repo.
+    - Included in the 'awesome-cli-coding-agents' list under the 'Terminal-native coding agents > Open Source' section.
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (155194) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.663Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:04.006Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:08:16.658Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

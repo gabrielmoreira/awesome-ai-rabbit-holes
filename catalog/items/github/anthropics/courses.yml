@@ -1,0 +1,81 @@
+id: github__anthropics__courses
+kind: github-repo
+name: courses
+canonical_url: https://github.com/anthropics/courses
+identity:
+  github_repo: anthropics/courses
+provenance:
+  discoveries:
+    - id: discovery__github__anthropics__courses__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 课程 Course
+        anchor_text: Anthropics：Prompt Engineering Interactive Tutorial
+        extracted_url: https://github.com/anthropics/courses
+        surrounding_text: 35. [Anthropics：Prompt Engineering Interactive Tutorial](https://github.com/anthropics/courses/tree/master/prompt_engineering_interactive_tutorial/Anthropic%201P)
+        confidence: high
+metadata:
+  github:
+    stars: 21034
+    forks: 2187
+    license: NOASSERTION
+    archived: false
+    created_at: "2024-05-30T15:40:29Z"
+    pushed_at: "2025-11-13T20:40:51Z"
+    description: Anthropic's educational courses
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:01:04.331Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:04.331Z"
+      bytes: 1434
+insights:
+  summary: Anthropic's official repository of educational courses covering API fundamentals, prompt engineering, tool use, and prompt evaluations for Claude.
+  why_it_matters: It provides a structured, official curriculum for developers moving from basic API calls to complex production workflows like tool use and evaluations.
+  mental_damage: Because spending three hours tweaking a prompt to save $0.02 on inference costs is the new 'optimizing CSS for IE6'.
+  tags:
+    - education
+    - prompt-engineering
+    - claude
+    - evals
+    - anthropic
+  confidence: high
+curation:
+  status: excluded
+  reason: While high quality, this is an educational resource and curriculum collection rather than a developer tool, agent, or infrastructure component.
+  evidence:
+    - Repo description explicitly states 'Anthropic's educational courses'.
+    - README describes five courses on API fundamentals, prompting, and evals, not a tool or product.
+    - Located in an 'awesome-LLM-resources' list under the 'Course' section, confirming its nature as learning material.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (21034) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.678Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:04.331Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:08:19.592Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

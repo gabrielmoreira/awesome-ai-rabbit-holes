@@ -1,0 +1,75 @@
+id: firecrawl__dev
+kind: website
+name: firecrawl.dev
+canonical_url: https://firecrawl.dev
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__firecrawl__dev__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Firecrawl
+        extracted_url: https://firecrawl.dev
+        surrounding_text: "- **[Firecrawl](https://github.com/mendableai/firecrawl-mcp-server)** - Extract web data with [Firecrawl](https://firecrawl.dev)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Firecrawl is a web scraping and data extraction API designed to turn websites into clean, LLM-ready markdown or structured data.
+  why_it_matters: It handles the complex plumbing of rendering JavaScript, bypassing anti-bot measures, and mapping site structures so developers can feed reliable web content into AI applications.
+  mental_damage: Another essential piece of infrastructure proving that the modern developer experience is mostly just sanitizing the internet so a context window doesn't choke on a nav bar.
+  tags:
+    - scraping
+    - llm-ready
+    - data-extraction
+    - mcp
+  confidence: medium
+curation:
+  status: excluded
+  reason: While listed in awesome-mcp-servers, the core product is a web scraping and data extraction API, which lacks a direct AI developer-tooling angle like coding agents, IDEs, or app builders.
+  evidence:
+    - Listed in awesome-mcp-servers, but the URL firecrawl.dev points to a scraping service rather than a developer tool for coding.
+    - No repo description, README, or site context provided that describes an AI agent, IDE, or app-building workflow.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.727Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:44:32.990Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

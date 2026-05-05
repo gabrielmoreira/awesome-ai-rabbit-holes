@@ -1,0 +1,77 @@
+id: docs__langchain__com__oss__python__langgraph__overview
+kind: website
+name: overview
+canonical_url: https://docs.langchain.com/oss/python/langgraph/overview
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__docs__langchain__com__oss__python__langgraph__overview__awesome-list__vivy-yi__awesome-agent-orchestration
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: vivy-yi/awesome-agent-orchestration
+        url: https://github.com/vivy-yi/awesome-agent-orchestration
+        repository: vivy-yi/awesome-agent-orchestration
+      extraction:
+        mode: parsed
+        section_path:
+          - Learning Resources
+          - Documentation
+        anchor_text: LangGraph Documentation
+        extracted_url: https://langchain-ai.github.io/langgraph
+        surrounding_text: "- [LangGraph Documentation](https://langchain-ai.github.io/langgraph/) - LangGraph docs"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: The official documentation page for LangGraph, a framework for building stateful, multi-actor AI applications using LLMs.
+  why_it_matters: It provides the canonical reference and learning resources for developers building complex, cyclic agent workflows and graph-based LLM logic.
+  mental_damage: Yet another discovery that the 'overview' link in your saved bookmarks is now a 301 redirect, forcing you to re-learn the doc structure all over again.
+  tags:
+    - langgraph
+    - documentation
+    - agents
+    - framework
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a documentation landing page and redirect, not a standalone tool, framework, or developer product to be installed or used.
+  evidence:
+    - Primary page excerpt confirms 'Documentation has moved' and the page is simply 'Redirecting to LangGraph Documentation'.
+    - No repository description, README, or source code provided; the input is a documentation URL.
+    - Seen in source lists only as a 'Learning Resource > Documentation' link, not as a software project.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.727Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:44:04.845Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

@@ -1,0 +1,91 @@
+id: github__lzjever__routilux
+kind: github-repo
+name: routilux
+canonical_url: https://github.com/lzjever/routilux
+identity:
+  github_repo: lzjever/routilux
+provenance:
+  discoveries:
+    - id: discovery__github__lzjever__routilux__awesome-list__vivy-yi__awesome-agent-orchestration
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: vivy-yi/awesome-agent-orchestration
+        url: https://github.com/vivy-yi/awesome-agent-orchestration
+        repository: vivy-yi/awesome-agent-orchestration
+      extraction:
+        mode: parsed
+        section_path:
+          - Core Frameworks
+          - Workflow & Pipeline Frameworks
+        anchor_text: routilux
+        extracted_url: https://github.com/lzjever/routilux
+        surrounding_text: "| [routilux](https://github.com/lzjever/routilux) | Event-driven workflow orchestration for Python | ![Stars](https://img.shields.io/github/stars/lzjever/routilux) |"
+        confidence: high
+metadata:
+  github:
+    stars: 86
+    forks: 5
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-12-28T02:10:26Z"
+    pushed_at: "2026-03-01T11:58:29Z"
+    description: Routines-based, event-driven workflow orchestration for Python—compose complex data/AI pipelines and run concurrent workflows across distributed systems with durable state and robust error handling.
+    homepage: https://routilux.readthedocs.io
+    topics:
+      - agent
+      - agent-orchestration
+      - api-orchestration
+      - data-pipeline
+      - event-driven
+      - python3
+      - routines
+      - workflow-engine
+      - workflow-orchestration
+    last_checked_at: "2026-05-05T21:03:26.549Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:26.549Z"
+      bytes: 15521
+insights:
+  summary: A Python library for event-driven, routines-based workflow orchestration that supports concurrent execution, checkpointing, and durable state for data pipelines and AI agent workflows.
+  why_it_matters: It gives developers a structured way to compose complex, resumable data and AI pipelines in Python without wiring their own state management and recovery logic.
+  mental_damage: Yet another orchestration framework promising to tame your pipelines, because clearly what your stack needs in 2026 is one more event queue to babysit.
+  tags:
+    - python
+    - workflow-orchestration
+    - agent-orchestration
+    - event-driven
+    - checkpointing
+  confidence: high
+curation:
+  status: included
+  reason: This is a code-first Python SDK and library for building orchestrated workflows, which fits ai-frameworks rather than a user-facing agent control plane.
+  evidence:
+    - Repo description explicitly calls it a Python workflow orchestration library with durable state and error handling.
+    - README positions it as a developer-imported framework for data pipelines, API orchestration, and LLM agent workflows.
+    - Listed in awesome-agent-orchestration under 'Core Frameworks > Workflow & Pipeline Frameworks', reinforcing its framework nature.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.705Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:26.549Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:35:07.186Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,109 @@
+id: github__paul-gauthier__aider
+kind: github-repo
+name: aider
+canonical_url: https://github.com/paul-gauthier/aider
+identity:
+  github_repo: paul-gauthier/aider
+provenance:
+  discoveries:
+    - id: discovery__github__paul-gauthier__aider__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Aider
+        anchor_text: Aider
+        extracted_url: https://github.com/paul-gauthier/aider
+        surrounding_text: "## [Aider](https://github.com/paul-gauthier/aider)"
+        confidence: high
+    - id: discovery__github__paul-gauthier__aider__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Coding Agents
+        anchor_text: Aider
+        extracted_url: https://github.com/paul-gauthier/aider
+        surrounding_text: "- **[Aider](https://github.com/paul-gauthier/aider)** – AI coding agent for collaborative editing and code generation via CLI."
+        confidence: high
+metadata:
+  github:
+    stars: 44368
+    forks: 4358
+    license: Apache-2.0
+    archived: false
+    created_at: "2023-05-09T18:57:49Z"
+    pushed_at: "2026-04-25T16:44:33Z"
+    description: aider is AI pair programming in your terminal
+    homepage: https://aider.chat/
+    topics:
+      - anthropic
+      - chatgpt
+      - claude-3
+      - cli
+      - command-line
+      - gemini
+      - gpt-3
+      - gpt-35-turbo
+      - gpt-4
+      - gpt-4o
+      - llama
+      - openai
+      - sonnet
+    last_checked_at: "2026-05-05T21:04:13.757Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:13.757Z"
+      bytes: 12406
+insights:
+  summary: Aider is a terminal-based AI pair programming tool that connects to both cloud and local LLMs to edit code, navigate codebases, and automatically commit changes via git.
+  why_it_matters: It enables developers to delegate multi-file edits and refactoring directly from the command line while maintaining git history and integrating with existing editor workflows.
+  mental_damage: You can now reach 88% 'singularity' on your own repo, meaning you are officially a minor character in your own codebase's origin story.
+  tags:
+    - cli
+    - pair-programming
+    - git-integration
+    - local-llm
+    - terminal
+  confidence: high
+curation:
+  status: included
+  reason: This is a primary AI coding assistant that operates directly on source code via the terminal and git, fitting the coding-agents category and its CLI section perfectly.
+  evidence:
+    - Repo description defines it as 'AI pair programming in your terminal'.
+    - README highlights direct codebase editing, repo mapping, and automatic git commits.
+    - Included in awesome-ai-coding-tools under the 'Coding Agents' section.
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (44368) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.439Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:13.757Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:44:03.764Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

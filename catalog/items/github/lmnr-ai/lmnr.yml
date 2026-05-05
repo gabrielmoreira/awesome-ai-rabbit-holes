@@ -1,0 +1,101 @@
+id: github__lmnr-ai__lmnr
+kind: github-repo
+name: lmnr
+canonical_url: https://github.com/lmnr-ai/lmnr
+identity:
+  github_repo: lmnr-ai/lmnr
+provenance:
+  discoveries:
+    - id: discovery__github__lmnr-ai__lmnr__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - LLMOps
+        anchor_text: Laminar
+        extracted_url: https://github.com/lmnr-ai/lmnr
+        surrounding_text: "| [Laminar](https://github.com/lmnr-ai/lmnr)                         | Open-source all-in-one platform for engineering AI products. Traces, Evals, Datasets, Labels.                                                                                                                                                                                                                                                                                                           | ![GitHub Badge](https://img.shields.io/github/stars/lmnr-ai/lmnr.svg?style=flat-square)                   |"
+        confidence: high
+metadata:
+  github:
+    stars: 2838
+    forks: 194
+    license: Apache-2.0
+    archived: false
+    created_at: "2024-08-29T03:45:28Z"
+    pushed_at: "2026-05-05T18:25:51Z"
+    description: Laminar - open-source observability platform purpose-built for AI agents. YC S24.
+    homepage: https://laminar.sh
+    topics:
+      - agent-observability
+      - agents
+      - ai
+      - ai-observability
+      - aiops
+      - analytics
+      - developer-tools
+      - evals
+      - evaluation
+      - llm-evaluation
+      - llm-observability
+      - llmops
+      - monitoring
+      - observability
+      - open-source
+      - rust
+      - rust-lang
+      - self-hosted
+      - ts
+      - typescript
+    last_checked_at: "2026-05-05T21:03:22.708Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:22.708Z"
+      bytes: 6000
+insights:
+  summary: Laminar is an open-source, Rust-based observability platform for AI agents, providing tracing, evaluations, and monitoring via OpenTelemetry-native SDKs and a self-hosted or managed UI.
+  why_it_matters: It gives developers a unified way to trace complex agentic workflows, run evaluations in CI/CD, and query execution data via SQL to debug why their agent decided to buy 2,000 units of glitter.
+  mental_damage: We have successfully built an observability stack to watch our observability stack watch the AI agents that are watching us.
+  tags:
+    - observability
+    - evals
+    - llmops
+    - rust
+    - self-hosted
+  confidence: high
+curation:
+  status: included
+  reason: This is a developer-facing observability and evaluation platform for AI agents, fitting the evals category better than agent orchestration because it is a tool for measuring and debugging, not coordinating runtimes.
+  evidence:
+    - Repo description explicitly states 'open-source observability platform purpose-built for AI agents'.
+    - README highlights tracing, evals CLI/SDK, and SQL access for trace data analysis.
+    - Listed in Awesome-LLMOps under the LLMOps section, confirming its fit in the ops/metrics tooling space.
+placement:
+  primary_category: evals
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (2838) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.704Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:22.708Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:34:25.785Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,93 @@
+id: github__agentscope-ai__openjudge
+kind: github-repo
+name: openjudge
+canonical_url: https://github.com/agentscope-ai/openjudge
+identity:
+  github_repo: agentscope-ai/openjudge
+provenance:
+  discoveries:
+    - id: discovery__github__modelscope__openjudge__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 评估 Evaluation
+        anchor_text: OpenJudge
+        extracted_url: https://github.com/modelscope/openjudge
+        surrounding_text: "19. [OpenJudge](https://github.com/modelscope/OpenJudge): A Unified Framework for Holistic Evaluation and Quality Rewards."
+        confidence: high
+metadata:
+  github:
+    stars: 587
+    forks: 48
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-07-08T06:17:01Z"
+    pushed_at: "2026-04-30T08:18:46Z"
+    description: "OpenJudge: A Unified Framework for Holistic Evaluation and Quality Rewards"
+    homepage: https://openjudge.me/
+    topics:
+      - agent
+      - agent-skills
+      - ai-agent
+      - alignment
+      - evaluation
+      - grader
+      - llm
+      - reward
+      - reward-model
+      - rlhf
+      - skill-md
+      - skills
+    last_checked_at: "2026-05-05T21:00:52.581Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:52.581Z"
+      bytes: 20582
+insights:
+  summary: OpenJudge is an open-source evaluation framework for AI applications that provides ready-to-use and scenario-specific graders to assess quality and generate reward signals for fine-tuning.
+  why_it_matters: It gives developers a structured workflow to collect test data, define grading rubrics, and run large-scale evaluations to iterate on and optimize their AI agents or chatbots.
+  mental_damage: Because the only thing more exhausting than building a brittle AI agent is building an entire second system just to grade how brittle the first one is.
+  tags:
+    - evaluation
+    - grading
+    - ai-agents
+    - benchmark
+    - fine-tuning
+  confidence: high
+curation:
+  status: included
+  reason: The project is an evaluation harness and benchmark framework designed to measure and optimize AI application quality, which fits squarely into the evals category.
+  evidence:
+    - Repo description explicitly calls it a 'Unified Framework for Holistic Evaluation and Quality Rewards'.
+    - README states it is an 'open-source evaluation framework' designed to 'evaluate quality' and drive 'continuous application optimization'.
+    - Includes built-in and scenario-specific graders, reward signals for fine-tuning, and features like a 'Reference Hallucination Arena' leaderboard.
+placement:
+  primary_category: evals
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (587) exceeded threshold (150)
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:06:22.977Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.708Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:52.582Z"
+    cause: null
+    next_retry_at: null
