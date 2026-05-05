@@ -1,6 +1,6 @@
 id: www__getdot__ai
 kind: website
-name: www.getdot.ai
+name: Dot
 canonical_url: https://www.getdot.ai
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It allows development and product teams to query metrics and data without writing SQL or waiting on a data analyst.
   mental_damage: Another branded 'AI teammate' arrives to ensure that even your data questions are now answered by a black box you can't debug.
   tags:
-    - data-analysis
-    - chatbot
-    - saas
     - analytics
+    - chatbot
+    - data-analysis
+    - saas
   confidence: high
 curation:
   status: excluded
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:50:55.959Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.732Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:50:55.959Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

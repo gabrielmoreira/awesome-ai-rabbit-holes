@@ -1,6 +1,6 @@
 id: github__milvus-io__milvus
 kind: github-repo
-name: milvus
+name: Milvus
 canonical_url: https://github.com/milvus-io/milvus
 identity:
   github_repo: milvus-io/milvus
@@ -60,11 +60,11 @@ insights:
   why_it_matters: It provides the persistence and retrieval layer developers need to build RAG pipelines, semantic search, and other LLM-powered features at scale.
   mental_damage: Another essential piece of infrastructure that will sit perfectly alongside your five other vector stores until you inevitably rewrite everything to use the one your new hire preferred.
   tags:
-    - vector-database
+    - go
     - llm-infrastructure
     - rag
     - search
-    - go
+    - vector-database
   confidence: high
 curation:
   status: included
@@ -80,6 +80,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (44117) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:37:58.095Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.707Z"
@@ -90,11 +98,3 @@ processing:
     updated_at: "2026-05-05T21:03:41.671Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:37:58.095Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

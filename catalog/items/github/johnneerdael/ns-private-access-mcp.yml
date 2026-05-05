@@ -1,6 +1,6 @@
 id: github__johnneerdael__ns-private-access-mcp
 kind: github-repo
-name: netskope-mcp
+name: johnneerdael/netskope-mcp
 canonical_url: https://github.com/johnneerdael/ns-private-access-mcp
 identity:
   github_repo: johnneerdael/ns-private-access-mcp
@@ -37,6 +37,22 @@ provenance:
         extracted_url: https://github.com/johnneerdael/netskope-mcp
         surrounding_text: "-   **[johnneerdael/netskope-mcp](https://github.com/johnneerdael/netskope-mcp)** [![GitHub stars](https://img.shields.io/github/stars/johnneerdael/netskope-mcp?style=social)](https://github.com/johnneerdael/netskope-mcp): Accesses Netskope Private Access components and provides setup details."
         confidence: high
+    - id: discovery__github__johnneerdael__ns-private-access-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T22:33:31.148Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
+        anchor_text: johnneerdael/netskope-mcp
+        extracted_url: https://github.com/johnneerdael/netskope-mcp
+        surrounding_text: "- [johnneerdael/netskope-mcp](https://github.com/johnneerdael/netskope-mcp) 🔒 ☁️ - An MCP to give access to all Netskope Private Access components within a Netskope Private Access environments including detailed setup information and LLM examples on usage."
+        confidence: high
 metadata:
   github:
     stars: 6
@@ -48,24 +64,28 @@ metadata:
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:02:57.801Z"
+    last_checked_at: "2026-05-05T21:02:57.967Z"
     readme:
-      fetched_at: "2026-05-05T21:02:57.801Z"
+      fetched_at: "2026-05-05T21:02:57.967Z"
       bytes: 6128
 insights:
-  summary: An MCP server that exposes 84 tools for managing Netskope Private Access infrastructure, enabling AI agents to automate deployment, policy management, and compliance auditing.
-  why_it_matters: It allows developers and security teams to manage complex network access configurations through natural language prompts rather than manual API calls or UI clicking.
-  mental_damage: You can now orchestrate an entire London office rollout via chat, but you still need to explain to the CISO why the AI decided to tag the payroll server 'london-new-thing-123'.
+  summary: An MCP server providing 84 tools for managing Netskope Private Access infrastructure, such as publishers, apps, and policies, via AI clients.
+  why_it_matters: It allows developers and DevOps engineers to automate complex Netskope security workflows, like provisioning new offices or handling incidents, through natural language prompts.
+  mental_damage: We have finally invented an AI that can configure VPNs and firewall rules, ensuring our cloud infrastructure can now be misconfigured conversationally.
   tags:
+    - automation
+    - cloud-security
+    - infrastructure
     - mcp
     - netskope
-    - infrastructure
-    - automation
   confidence: high
 curation:
   status: included
-  reason: The project is a specialized MCP server providing tooling for a specific infrastructure vendor, fitting cleanly into the MCP Servers and Tooling category.
+  reason: The project is a specialized MCP server implementation for Netskope, fitting the MCP infrastructure scope rather than a generic coding agent or framework.
   evidence:
+    - README explicitly defines it as 'A comprehensive Model Context Protocol (MCP) server for managing Netskope Private Access'.
+    - Provides 84 specialized tools exposed via MCP for infrastructure automation.
+    - Listed in 'awesome-mcp-servers' under Cloud Platforms, confirming its role in the MCP ecosystem.
     - README explicitly defines this as 'A comprehensive Model Context Protocol (MCP) server'.
     - Provides 84 tools across 10 categories for Netskope Private Access management.
     - Installation instructions show configuring it as an MCP server in a client JSON.
@@ -78,7 +98,7 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-05-05T21:28:56.856Z"
+    updated_at: "2026-05-05T21:28:57.898Z"
     cause: null
     next_retry_at: null
     attempts: 1
@@ -86,11 +106,11 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.667Z"
+    updated_at: "2026-05-05T22:33:31.151Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:57.801Z"
+    updated_at: "2026-05-05T21:02:57.967Z"
     cause: null
     next_retry_at: null

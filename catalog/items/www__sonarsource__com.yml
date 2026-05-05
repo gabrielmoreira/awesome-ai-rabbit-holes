@@ -1,6 +1,6 @@
 id: www__sonarsource__com
 kind: website
-name: www.sonarsource.com
+name: SonarQube
 canonical_url: https://www.sonarsource.com
 identity: {}
 provenance:
@@ -38,11 +38,11 @@ insights:
   why_it_matters: It integrates into CI/CD pipelines and IDEs to automatically enforce quality gates on AI-generated code, helping teams manage technical debt and security risks as they adopt coding agents.
   mental_damage: We have entered the era where we need enterprise-grade static analysis specifically to clean up the mess made by the 'ship fast' AI assistants we just bought.
   tags:
-    - static-analysis
-    - code-quality
     - ai-code-review
-    - security
+    - code-quality
     - mcp
+    - security
+    - static-analysis
   confidence: high
 curation:
   status: included
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:53:27.772Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.734Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:53:27.772Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

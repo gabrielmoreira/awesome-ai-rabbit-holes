@@ -1,13 +1,13 @@
 id: github__oceanbase__awesome-oceanbase-mcp
 kind: github-repo
-name: mcp-oceanbase
+name: OceanBase
 canonical_url: https://github.com/oceanbase/awesome-oceanbase-mcp
 identity:
   github_repo: oceanbase/awesome-oceanbase-mcp
 provenance:
   discoveries:
     - id: discovery__github__oceanbase__mcp-oceanbase__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-05T20:48:55.437Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -32,20 +32,20 @@ metadata:
     description: MCP Server for OceanBase database and its tools
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-05T21:03:58.224Z"
+    last_checked_at: "2026-05-05T21:03:58.433Z"
     readme:
-      fetched_at: "2026-05-05T21:03:58.224Z"
+      fetched_at: "2026-05-05T21:03:58.433Z"
       bytes: 5218
 insights:
-  summary: A collection of Model Context Protocol (MCP) servers designed to allow AI assistants to interact with OceanBase databases, cloud platforms, Kubernetes deployments, and diagnostic tools.
-  why_it_matters: It enables developers to query, manage, and troubleshoot OceanBase ecosystems directly through their AI assistant chats rather than switching to database clients or CLIs.
-  mental_damage: We have successfully abstracted database administration into a conversation, meaning your AI now needs an AI to remember which cluster it crashed last week.
+  summary: A collection of Model Context Protocol (MCP) servers for the OceanBase ecosystem, enabling AI assistants to interact directly with OceanBase databases, cloud platforms, and diagnostic tools.
+  why_it_matters: It allows developers to query, manage, and troubleshoot OceanBase clusters and data directly through AI assistants like Claude using standardized MCP tooling.
+  mental_damage: You can now ask an AI to debug your distributed database while wondering if the AI is also quietly managing the Kubernetes cluster you forgot you deployed.
   tags:
-    - mcp
-    - database
-    - oceanbase
-    - devops
     - ai-integration
+    - database
+    - devops
+    - mcp
+    - oceanbase
   confidence: high
 curation:
   status: included
@@ -54,6 +54,9 @@ curation:
     - "Repo description states: 'MCP Server for OceanBase database and its tools'."
     - README identifies the project as a 'Model Context Protocol (MCP) server repository specifically designed for the OceanBase ecosystem'.
     - Includes multiple specific MCP servers (OCP, OBCloud, OKCTL, OBDIAG) for various OceanBase tools.
+    - Repo description states it is an 'MCP Server for OceanBase database and its tools'
+    - README lists multiple specific MCP servers including OceanBase, OCP, OBCloud, and OBDIAG integrations
+    - Listed under 'Official Servers' in the awesome-mcp-servers directory
 placement:
   primary_category: mcp
   section: null
@@ -63,7 +66,7 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-05-05T21:41:24.202Z"
+    updated_at: "2026-05-05T21:41:24.657Z"
     cause: null
     next_retry_at: null
     attempts: 1
@@ -71,11 +74,11 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.710Z"
+    updated_at: "2026-05-05T20:48:55.442Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:58.224Z"
+    updated_at: "2026-05-05T21:03:58.433Z"
     cause: null
     next_retry_at: null

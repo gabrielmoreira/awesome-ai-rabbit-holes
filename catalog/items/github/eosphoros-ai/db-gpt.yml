@@ -1,6 +1,6 @@
 id: github__eosphoros-ai__db-gpt
 kind: github-repo
-name: db-gpt
+name: DB GPT
 canonical_url: https://github.com/eosphoros-ai/db-gpt
 identity:
   github_repo: eosphoros-ai/db-gpt
@@ -65,20 +65,24 @@ metadata:
       fetched_at: "2026-05-05T21:02:03.066Z"
       bytes: 21133
 insights:
-  summary: An open-source AI data assistant that connects to databases and files, writes SQL and code, and runs agentic analysis workflows with reusable skills and sandboxed execution.
-  why_it_matters: It lets developers and teams build AI-native data agents that plan tasks, query structured and unstructured sources, and turn analysis into reports without wiring together separate RAG and orchestration pieces.
-  mental_damage: Another brave attempt to convince the organization that the bottleneck was never SQL syntax, but the lack of an agentic middle layer to generate it for us.
+  summary: An open-source agentic AI data assistant that connects to various data sources, writes SQL and code, and generates reports and insights through natural language queries.
+  why_it_matters: It allows developers and teams to build AI-native data agents and workflows that automate complex data analysis tasks across databases, spreadsheets, and knowledge bases.
+  mental_damage: Another heroic solution to the enduring crisis of wanting insights from a database without actually remembering how to write a JOIN.
   tags:
+    - agentic-workflows
     - data-agent
+    - llm-framework
+    - local-ai
     - rag
     - sql-generation
-    - agentic-workflows
-    - local-ai
   confidence: high
 curation:
   status: included
-  reason: DB-GPT is a code-first framework and platform for building AI data agents with AWEL, RAG, multi-model support, and sandboxed execution, not a developer-facing coding assistant for editing repos.
+  reason: This is a code-first framework and platform for developers to build AI data agents and workflows, fitting the AI Frameworks and SDKs category rather than a direct coding assistant.
   evidence:
+    - Repo description identifies it as an 'open-source agentic AI data assistant' for building AI + Data products.
+    - README states DB-GPT is a 'platform for building AI-native data agents, workflows, and applications' using AWEL, RAG, and multi-model support.
+    - Developers interact by importing skills, connecting data sources, and building workflows rather than using it as a repo-editing IDE agent.
     - "Repo description: 'open-source agentic AI data assistant for the next generation of AI + Data products.'"
     - "README: 'DB-GPT is an open-source agentic AI data assistant... also a platform for building AI-native data agents, workflows, and applications with agents, AWEL, RAG, and multi-model support.'"
     - Active project with 18,660 stars, MIT license, not archived, pushed recently.
@@ -99,7 +103,7 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.686Z"
+    updated_at: "2026-05-05T20:48:55.441Z"
     cause: null
     next_retry_at: null
   stars:

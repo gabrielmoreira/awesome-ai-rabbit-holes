@@ -1,6 +1,6 @@
 id: github__nazar256__user-prompt-mcp
 kind: github-repo
-name: user-prompt-mcp
+name: User Prompt MCP
 canonical_url: https://github.com/nazar256/user-prompt-mcp
 identity:
   github_repo: nazar256/user-prompt-mcp
@@ -41,10 +41,10 @@ insights:
   why_it_matters: It allows coding agents to handle ambiguity interactively without ending the generation context, bridging the gap between autonomous coding and human decision-making.
   mental_damage: We have successfully built a tool to ask the human what they meant, proving that the 'autonomous' agent still needs a babysitter with a GUI dialog box.
   tags:
-    - mcp
+    - context
     - cursor
     - interactive
-    - context
+    - mcp
   confidence: high
 curation:
   status: included
@@ -60,6 +60,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:40:01.940Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.709Z"
@@ -70,11 +78,3 @@ processing:
     updated_at: "2026-05-05T21:03:51.625Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:40:01.940Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

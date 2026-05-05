@@ -6,24 +6,8 @@ identity:
   github_repo: hive-intel/hive-crypto-mcp
 provenance:
   discoveries:
-    - id: discovery__github__hive-intel__hive-crypto-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T20:48:55.437Z"
-      source:
-        type: awesome-list
-        name: punkpeye/awesome-mcp-servers
-        url: https://github.com/punkpeye/awesome-mcp-servers
-        repository: punkpeye/awesome-mcp-servers
-      extraction:
-        mode: parsed
-        section_path:
-          - Server Implementations
-          - 💰 <a name="finance--fintech"></a>Finance & Fintech
-        anchor_text: hive-intel/hive-crypto-mcp
-        extracted_url: https://github.com/hive-intel/hive-crypto-mcp
-        surrounding_text: "- [hive-intel/hive-crypto-mcp](https://github.com/hive-intel/hive-crypto-mcp) 📇 ☁️ 🏠 - Hive Intelligence: Ultimate cryptocurrency MCP for AI assistants with unified access to crypto, DeFi, and Web3 analytics"
-        confidence: high
     - id: discovery__github__hive-intel__hive-crypto-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T20:48:55.437Z"
+      discovered_at: "2026-05-05T22:33:31.148Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -68,29 +52,22 @@ metadata:
       - prediction-markets
       - wallet
       - web3
-    last_checked_at: "2026-05-05T21:02:34.796Z"
+    last_checked_at: "2026-05-05T23:07:53.550Z"
     readme:
-      fetched_at: "2026-05-05T21:02:34.796Z"
+      fetched_at: "2026-05-05T23:07:53.550Z"
       bytes: 18842
 insights:
-  summary: An MCP server that aggregates live crypto market data, DeFi activity, and on-chain signals from nine providers into a single tool surface for AI agents.
-  why_it_matters: Developers wiring AI agents into crypto workflows can avoid stitching together nine separate APIs by pointing their MCP client at one normalized server.
-  mental_damage: We have successfully reached the point where even our AI agents need a dedicated DeFi data stack, lest they form incorrect opinions about token honeypots.
-  tags:
-    - mcp
-    - crypto
-    - defi
-    - agent-tooling
-  confidence: high
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
 curation:
-  status: included
-  reason: The product is itself an MCP server providing normalized crypto data tools for agents, fitting cleanly into MCP Servers and Tooling.
-  evidence:
-    - Repo description explicitly states 'MCP server + CLI for Claude, Cursor, ChatGPT' with 376+ tools across 9 providers.
-    - README positions it as a managed MCP server for AI agents, with setup guides for Claude Desktop, Cursor, VS Code, and others.
-    - Listed in awesome-mcp-servers under 'Finance & Fintech' server implementations.
+  status: pending
+  reason: null
+  evidence: []
 placement:
-  primary_category: mcp
+  primary_category: null
   section: null
 lifecycle:
   status: incubating
@@ -98,19 +75,21 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.439Z"
+    updated_at: "2026-05-05T22:33:31.150Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:34.796Z"
+    updated_at: "2026-05-05T23:07:53.550Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-05T21:24:04.950Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
+    status: deferred
+    updated_at: "2026-05-05T23:08:33.635Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-05-06T00:08:33.635Z"
+    attempts: 0
     prompt_version: catalog-categorize-v2-baseline
     category_rules_version: 1b6cc5462ecc

@@ -37,20 +37,25 @@ metadata:
       fetched_at: "2026-05-05T21:04:02.431Z"
       bytes: 30820
 insights:
-  summary: An open-source desktop application for running LLMs locally with chat, vision, tool-calling, and OpenAI/Anthropic-compatible API support.
-  why_it_matters: It provides developers with a fully offline, private environment to experiment with and serve local models via a standard API for integration into other AI workflows.
-  mental_damage: You now have 46,000 stars worth of validation that your home workstation is indeed the right place to host a temperature-0.9 confidant.
+  summary: A desktop application for running large language models locally, featuring chat, vision, tool-calling, and OpenAI/Anthropic-compatible API endpoints.
+  why_it_matters: It provides developers with a private, offline playground and a local API drop-in replacement for testing and integrating LLMs without cloud dependencies.
+  mental_damage: Now you can host the hallucination engine on your own GPU, giving you the distinct pleasure of debugging your own local model while your fan sounds like a jet engine taking off.
   tags:
-    - local-ai
-    - llm
-    - desktop-app
     - api
+    - desktop-app
+    - llm
+    - local-ai
     - open-source
+    - openai-api
+    - tool-calling
   confidence: high
 curation:
   status: included
-  reason: This is a desktop interface and serving stack for running AI models locally, fitting the local-ai category's focus on private, on-device execution rather than SaaS or repo-editing.
+  reason: This is a desktop interface and serving stack for local LLMs, fitting the local-ai category as a developer-facing tool for private inference and API testing.
   evidence:
+    - Repo description explicitly calls it an 'Open-source desktop app for local LLMs' with API compatibility.
+    - README details local execution with multiple backends (llama.cpp, Transformers) and zero telemetry.
+    - Included in 'awesome-local-ai' under the 'Inference UI' section.
     - Repo description explicitly states 'Open-source desktop app for local LLMs' with API compatibility.
     - README emphasizes 100% offline/private execution with zero telemetry and supports multiple local backends like llama.cpp.
     - High traction with 46,941 stars and active maintenance (pushed 2026-05-05).
@@ -71,7 +76,7 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.711Z"
+    updated_at: "2026-05-05T20:48:55.442Z"
     cause: null
     next_retry_at: null
   stars:

@@ -1,6 +1,6 @@
 id: getcarbon__app
 kind: website
-name: getcarbon.app
+name: Carbon Voice
 canonical_url: https://getcarbon.app
 identity: {}
 provenance:
@@ -54,8 +54,8 @@ insights:
   why_it_matters: It provides developers with a plug-and-play MCP server to extend AI assistants with communication capabilities.
   mental_damage: Another entry in the MCP ecosystem that solves the critical problem of explaining to your agent how to send a message, assuming you can first solve the problem of getting the agent to run reliably.
   tags:
-    - mcp
     - communication
+    - mcp
     - server
   confidence: medium
 curation:
@@ -72,6 +72,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:44:38.969Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.674Z"
@@ -81,11 +89,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:44:38.969Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

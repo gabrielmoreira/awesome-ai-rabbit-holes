@@ -1,6 +1,6 @@
 id: cspr__trade
 kind: website
-name: cspr.trade
+name: CSPR.trade
 canonical_url: https://cspr.trade
 identity: {}
 provenance:
@@ -39,9 +39,9 @@ insights:
   why_it_matters: It allows developers building AI agents to give their models direct, structured access to blockchain finance tools via the MCP standard.
   mental_damage: We have successfully abstracted blockchain trading into yet another server protocol, ensuring your AI agent can now lose money on decentralized finance with unprecedented interoperability.
   tags:
-    - mcp
     - blockchain
     - fintech
+    - mcp
     - server
   confidence: medium
 curation:
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:43:23.555Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.727Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:43:23.555Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

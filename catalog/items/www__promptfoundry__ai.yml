@@ -1,6 +1,6 @@
 id: www__promptfoundry__ai
 kind: website
-name: www.promptfoundry.ai
+name: PromptFoundry
 canonical_url: https://www.promptfoundry.ai
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: Developers building AI applications can use it to iterate on prompts, compare model outputs, and test tool-calling behavior before deploying to production.
   mental_damage: Another SaaS layer to manage the strings you feed to the black box, so you can feel methodical while praying temperature=0.7 still produces different results on Tuesdays.
   tags:
-    - prompt-management
+    - developer-tooling
     - evals
     - llm-testing
-    - developer-tooling
+    - prompt-management
   confidence: high
 curation:
   status: included
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:52:45.889Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.733Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:52:45.889Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

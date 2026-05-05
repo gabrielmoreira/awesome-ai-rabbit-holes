@@ -1,6 +1,6 @@
 id: ruliad__co
 kind: website
-name: ruliad.co
+name: Naut
 canonical_url: https://ruliad.co
 identity: {}
 provenance:
@@ -38,9 +38,9 @@ insights:
   why_it_matters: It aims to offer a self-sovereign alternative to mainstream hosted AI chat products, though the specific developer workflow impact is unclear.
   mental_damage: Another day, another AI chat UI promising sovereignty while we still can't figure out where our API keys are stored.
   tags:
-    - self-sovereign
-    - chat
     - ai-interface
+    - chat
+    - self-sovereign
   confidence: low
 curation:
   status: excluded
@@ -56,6 +56,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:47:47.771Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.730Z"
@@ -65,11 +73,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:47:47.771Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

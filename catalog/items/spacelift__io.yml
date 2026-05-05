@@ -1,6 +1,6 @@
 id: spacelift__io
 kind: website
-name: spacelift.io
+name: Spacelift
 canonical_url: https://spacelift.io
 identity: {}
 provenance:
@@ -38,8 +38,8 @@ insights:
   why_it_matters: It allows platform teams to define OPA policies in natural language and enables developers to request and manage infrastructure via an AI assistant or MCP server, reducing friction between rapid code shipping and infrastructure governance.
   mental_damage: Now your infrastructure can hallucinate access policies just as confidently as your coding agent hallucinates deprecated API calls.
   tags:
-    - iac
     - devops
+    - iac
     - infrastructure
     - mcp
   confidence: medium
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:48:16.829Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.730Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:48:16.829Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

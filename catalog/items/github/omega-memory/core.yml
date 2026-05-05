@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__omega-memory__core__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T20:48:55.437Z"
+      discovered_at: "2026-05-05T22:33:31.148Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -49,29 +49,22 @@ metadata:
       - persistent-memory
       - semantic-search
       - windsurf
-    last_checked_at: "2026-05-05T21:04:01.302Z"
+    last_checked_at: "2026-05-05T23:08:03.411Z"
     readme:
-      fetched_at: "2026-05-05T21:04:01.302Z"
+      fetched_at: "2026-05-05T23:08:03.411Z"
       bytes: 14642
 insights:
-  summary: A local-first memory layer and MCP server that gives AI coding agents persistent, cross-model memory across sessions.
-  why_it_matters: It eliminates the daily ritual of re-explaining your codebase and past decisions to stateless agents by storing preferences, errors, and architecture choices locally.
-  mental_damage: We have finally built a brain for the thing that was supposed to be the brain, and it turns out even the brain needs its own brain to remember what it learned yesterday.
-  tags:
-    - memory
-    - mcp
-    - local-first
-    - context-engineering
-  confidence: high
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
 curation:
-  status: included
-  reason: The project is a memory and context-shaping system for AI agents, directly matching the context-engineering category's focus on retrieval, memory, and context management.
-  evidence:
-    - Repo description explicitly states 'Persistent memory for AI coding agents'.
-    - README positions it as a local-first memory, coordination, and learning system with semantic search and MCP server integration.
-    - Listed in awesome-mcp-list under 'Knowledge & Memory', reinforcing its role as a context/memory tool.
+  status: pending
+  reason: null
+  evidence: []
 placement:
-  primary_category: context-engineering
+  primary_category: null
   section: null
 lifecycle:
   status: incubating
@@ -79,19 +72,21 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.442Z"
+    updated_at: "2026-05-05T22:33:31.151Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:01.302Z"
+    updated_at: "2026-05-05T23:08:03.411Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-05T21:41:57.267Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
+    status: deferred
+    updated_at: "2026-05-05T23:08:33.635Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-05-06T00:08:33.635Z"
+    attempts: 0
     prompt_version: catalog-categorize-v2-baseline
     category_rules_version: 1b6cc5462ecc

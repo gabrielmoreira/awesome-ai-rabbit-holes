@@ -1,6 +1,6 @@
 id: github__axolotl-ai-cloud__axolotl
 kind: github-repo
-name: axolotl
+name: Axolotl
 canonical_url: https://github.com/axolotl-ai-cloud/axolotl
 identity:
   github_repo: axolotl-ai-cloud/axolotl
@@ -22,7 +22,7 @@ provenance:
         surrounding_text: "38. [Axolotl](https://axolotl-ai-cloud.github.io/axolotl/): Axolotl is designed to work with YAML config files that contain everything you need to preprocess a dataset, train or fine-tune a model, run model inference or evaluation, and much more."
         confidence: high
     - id: discovery__github__openaccess-ai-collective__axolotl__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-05T20:48:55.437Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -50,29 +50,37 @@ metadata:
     topics:
       - fine-tuning
       - llm
-    last_checked_at: "2026-05-05T21:01:15.248Z"
+    last_checked_at: "2026-05-05T21:04:03.381Z"
     readme:
-      fetched_at: "2026-05-05T21:01:15.248Z"
+      fetched_at: "2026-05-05T21:04:03.381Z"
       bytes: 16931
 insights:
-  summary: Axolotl is an open-source framework for fine-tuning large language models across a wide range of architectures and optimization strategies.
-  why_it_matters: It provides a unified, config-driven interface for developers to adapt LLMs to custom datasets, supporting advanced techniques like LoRA, MoE expert quantization, and distributed training.
-  mental_damage: You now have 11,000 stars worth of framework to learn just to justify spending three days tweaking hyperparameters so your model can reliably output JSON instead of apologies.
+  summary: Axolotl is an open-source framework for fine-tuning large language models with support for LoRA, DPO, and a wide range of model architectures.
+  why_it_matters: It standardizes the fragmented LLM training ecosystem into a single config-driven workflow, letting developers fine-tune cutting-edge models without writing bespoke training loops.
+  mental_damage: Because nothing says 'I understand transformers' like debugging a YAML file for three hours only to realize you forgot to set the correct MoE expert quantization flag.
   tags:
+    - cli
+    - distributed-training
     - fine-tuning
+    - frameworks
     - llm
-    - training
+    - llm-training
     - ml-ops
+    - multimodal
+    - training
   confidence: high
 curation:
-  status: excluded
-  reason: This is a general ML training framework focused on model fine-tuning rather than a developer tool that assists with coding, infrastructure, or app building workflows.
+  status: included
+  reason: Axolotl is a code-first framework and CLI tool for building fine-tuning pipelines, fitting squarely into AI Frameworks and SDKs rather than a hosted app builder or coding agent.
   evidence:
-    - Repo description and README define it specifically as 'A Free and Open Source LLM Fine-tuning Framework'.
-    - Topics and latest updates focus on model support (Mistral, Qwen, Gemma) and training techniques (LoRA, DPO, FSDP2), not developer tooling.
-    - No evidence in the inputs linking it to coding agents, IDEs, app builders, or developer-facing AI infrastructure.
+    - README describes Axolotl as a 'free and open-source tool designed to streamline post-training and fine-tuning' using YAML configs and a CLI (axolotl train).
+    - Supported workflows include LoRA, QLoRA, GRPO, and multi-GPU training via FSDP/DeepSpeed, targeting developers building training pipelines in code.
+    - Listed under '微调 Fine-Tuning' in awesome-LLM-resources, confirming its niche as a developer tool for model post-training.
+    - Repo description explicitly calls it an 'LLM Fine-tuning Framework'.
+    - README highlights support for LoRA, DPO, and specific model architectures (Mistral, Qwen, Gemma) via configuration.
+    - Listed in Awesome-LLMOps under 'Training > Frameworks for Training'.
 placement:
-  primary_category: null
+  primary_category: ai-frameworks
   section: null
 lifecycle:
   status: promotion_candidate
@@ -80,21 +88,21 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-05-05T21:04:30.222Z"
+    updated_at: "2026-05-05T21:42:20.147Z"
     cause: null
-    attempts: 2
+    next_retry_at: null
+    attempts: 1
     prompt_version: catalog-categorize-v2-baseline
     category_rules_version: 1b6cc5462ecc
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.725Z"
+    updated_at: "2026-05-05T20:48:55.444Z"
     cause:
       type: ambiguous_canonicalization
       message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:15.249Z"
+    updated_at: "2026-05-05T21:04:03.381Z"
     cause: null
     next_retry_at: null

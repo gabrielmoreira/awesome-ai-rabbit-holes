@@ -37,6 +37,37 @@ provenance:
         extracted_url: https://github.com/hypersequent/qasphere-mcp
         surrounding_text: "- **[QA Sphere](https://github.com/Hypersequent/qasphere-mcp)** - Integration with [QA Sphere](https://qasphere.com/) test management system, enabling LLMs to discover, summarize, and interact with test cases directly from AI-powered IDEs"
         confidence: high
+    - id: discovery__qasphere__com__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T22:47:06.910Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: QA Sphere
+        extracted_url: https://qasphere.com
+        surrounding_text: "- [Hypersequent/qasphere-mcp](https://github.com/Hypersequent/qasphere-mcp) 🎖️ 📇 ☁️ - Integration with [QA Sphere](https://qasphere.com/) test management system, enabling LLMs to discover, summarize, and interact with test cases directly from AI-powered IDEs"
+        confidence: high
+    - id: discovery__qasphere__com__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T22:47:06.910Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: QA Sphere
+        extracted_url: https://qasphere.com
+        surrounding_text: "- **[QA Sphere](https://github.com/Hypersequent/qasphere-mcp)** - Integration with [QA Sphere](https://qasphere.com/) test management system, enabling LLMs to discover, summarize, and interact with test cases directly from AI-powered IDEs"
+        confidence: high
 metadata:
   github:
     stars: 22
@@ -62,10 +93,12 @@ insights:
   why_it_matters: It allows developers to reference, summarize, and chat about QA Sphere test cases directly within their AI-powered coding environment, bridging the gap between test management and code generation.
   mental_damage: We have successfully abstracted the test case so far away from the code that you now need a specific protocol server just to ask an AI what you were supposed to be testing.
   tags:
-    - mcp
-    - test-management
-    - qa-sphere
     - ai-ide-integration
+    - ai-testing
+    - mcp
+    - qa
+    - qa-sphere
+    - test-management
   confidence: high
 curation:
   status: included
@@ -81,16 +114,6 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  discover:
-    status: done
-    updated_at: "2026-05-05T19:41:00.667Z"
-    cause: null
-    next_retry_at: null
-  stars:
-    status: done
-    updated_at: "2026-05-05T21:02:39.960Z"
-    cause: null
-    next_retry_at: null
   categorize:
     status: done
     updated_at: "2026-05-05T21:25:12.226Z"
@@ -99,3 +122,13 @@ processing:
     attempts: 1
     prompt_version: catalog-categorize-v2-baseline
     category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T22:47:06.910Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:39.960Z"
+    cause: null
+    next_retry_at: null

@@ -1,6 +1,6 @@
 id: github__jackmpcollins__magentic
 kind: github-repo
-name: magentic
+name: Magentic
 canonical_url: https://github.com/jackmpcollins/magentic
 identity:
   github_repo: jackmpcollins/magentic
@@ -70,11 +70,11 @@ insights:
   why_it_matters: It lets developers embed LLM capabilities directly into Python code using familiar function syntax and Pydantic models, bridging the gap between scripts and agentic behavior.
   mental_damage: You can now build a recursive agent chain inside a function decorator, because apparently your stack traces needed another layer of existential uncertainty.
   tags:
-    - python
-    - llm
     - agents
-    - pydantic
     - framework
+    - llm
+    - pydantic
+    - python
   confidence: high
 curation:
   status: included
@@ -90,6 +90,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (2406) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:27:09.207Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.667Z"
@@ -100,11 +108,3 @@ processing:
     updated_at: "2026-05-05T21:02:48.873Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:27:09.207Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

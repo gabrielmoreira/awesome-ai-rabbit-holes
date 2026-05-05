@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__polygon-io__mcp_polygon__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T20:48:55.437Z"
+      discovered_at: "2026-05-05T22:33:31.148Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,17 +24,27 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 325
+    forks: 88
+    license: MIT
+    archived: false
+    created_at: "2025-03-19T22:05:09Z"
+    pushed_at: "2026-05-05T20:28:21Z"
+    description: An MCP server for Massive.com Financial Market Data
+    homepage: ""
+    topics:
+      - cryptocurrency
+      - fintech
+      - llm
+      - market-data
+      - mcp
+      - mcp-server
+      - options
+      - stocks
+    last_checked_at: "2026-05-05T23:08:08.127Z"
+    readme:
+      fetched_at: "2026-05-05T23:08:08.127Z"
+      bytes: 10070
 insights:
   summary: null
   why_it_matters: null
@@ -49,22 +59,26 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (325) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.443Z"
+    updated_at: "2026-05-05T22:33:31.152Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-05T23:08:08.127Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T21:04:23.169Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-05-05T23:08:33.635Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-05-06T00:08:33.635Z"
+    attempts: 0
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,6 +1,6 @@
 id: www__iaptic__com
 kind: website
-name: www.iaptic.com
+name: iaptic
 canonical_url: https://www.iaptic.com
 identity: {}
 provenance:
@@ -39,10 +39,10 @@ insights:
   why_it_matters: It handles the complex server-side logic of in-app purchases and subscription lifecycles across platforms so developers can focus on app features rather than billing infrastructure.
   mental_damage: We have successfully automated the part of the job where you stare at charts wondering why your churn is high, replacing it with an AI that tells you why your churn is high.
   tags:
-    - monetization
-    - subscriptions
-    - receipt-validation
     - cross-platform
+    - monetization
+    - receipt-validation
+    - subscriptions
   confidence: high
 curation:
   status: excluded
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:51:26.055Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.732Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:51:26.055Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

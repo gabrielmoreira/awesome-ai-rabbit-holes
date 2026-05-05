@@ -1,6 +1,6 @@
 id: humanloop__com
 kind: website
-name: humanloop.com
+name: Humanloop
 canonical_url: https://humanloop.com
 identity: {}
 provenance:
@@ -38,8 +38,8 @@ insights:
   why_it_matters: It helped define industry standards for managing and evaluating AI applications before shutting down its platform.
   mental_damage: The company that taught us how to evaluate AI models has now been successfully evaluated and acquired by one, proving the only safe way to deploy AI is to become part of it.
   tags:
-    - llmops
     - evals
+    - llmops
     - sunset
   confidence: high
 curation:
@@ -55,6 +55,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:45:31.120Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.728Z"
@@ -64,11 +72,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:45:31.120Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

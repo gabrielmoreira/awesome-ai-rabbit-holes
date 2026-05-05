@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mwgmorningwood__central-memory-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-05T20:48:55.437Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,20 +33,20 @@ metadata:
     description: A custom fork of @modelcontextprotocol/server-memory using Azure Functions MCP triggers and Table storage.
     homepage: https://mwg-logan.github.io/Central-Memory-MCP/
     topics: []
-    last_checked_at: "2026-05-05T21:03:49.800Z"
+    last_checked_at: "2026-05-05T21:03:50.059Z"
     readme:
-      fetched_at: "2026-05-05T21:03:49.800Z"
+      fetched_at: "2026-05-05T21:03:50.059Z"
       bytes: 2622
 insights:
   summary: A .NET 10 Azure Functions implementation of an MCP-compliant memory and knowledge graph server that provides durable, workspace-isolated entity and relation storage for AI assistants.
   why_it_matters: It gives coding agents a persistent, structured memory layer backed by Azure Table storage, allowing AI workflows to retain project context across sessions without relying on local files.
   mental_damage: Another day, another memory server proving that the hardest problem in AI isn't reasoning—it's remembering what you were doing before the context window threw it all away.
   tags:
-    - mcp
     - azure-functions
-    - memory
-    - knowledge-graph
     - dotnet
+    - knowledge-graph
+    - mcp
+    - memory
   confidence: medium
 curation:
   status: included
@@ -55,6 +55,9 @@ curation:
     - Repo description explicitly states it is 'A custom fork of @modelcontextprotocol/server-memory using Azure Functions MCP triggers'
     - README confirms 'Model Context Protocol (MCP) compliant memory & knowledge graph server implemented in .NET 10 (Azure Functions isolated worker)'
     - Project provides implemented MCP tools (read_graph, upsert_entity, upsert_relation) and HTTP endpoints for client integration
+    - Repo description states it is 'A custom fork of @modelcontextprotocol/server-memory using Azure Functions MCP triggers and Table storage.'
+    - README confirms it is a 'Model Context Protocol (MCP) compliant memory & knowledge graph server implemented in .NET 10.'
+    - Listed in awesome-mcp-servers under 'Server Implementations > Knowledge & Memory'.
 placement:
   primary_category: mcp
   section: null
@@ -64,7 +67,7 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-05-05T21:39:36.482Z"
+    updated_at: "2026-05-05T21:39:40.712Z"
     cause: null
     next_retry_at: null
     attempts: 1
@@ -72,11 +75,11 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.709Z"
+    updated_at: "2026-05-05T20:48:55.442Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:49.800Z"
+    updated_at: "2026-05-05T21:03:50.059Z"
     cause: null
     next_retry_at: null

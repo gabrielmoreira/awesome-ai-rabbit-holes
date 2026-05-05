@@ -1,6 +1,6 @@
 id: github__lupantech__agentflow
 kind: github-repo
-name: agentflow
+name: AgentFlow
 canonical_url: https://github.com/lupantech/agentflow
 identity:
   github_repo: lupantech/agentflow
@@ -49,10 +49,10 @@ insights:
   mental_damage: We have now reached the point where the agents need their own agents to learn how to use agents, and somewhere a Staff Engineer is writing a 40-page RFC to decide who owns the Planner.
   tags:
     - agentic-ai
-    - reinforcement-learning
-    - multi-agent
-    - tool-augmented
     - llm-framework
+    - multi-agent
+    - reinforcement-learning
+    - tool-augmented
   confidence: high
 curation:
   status: included
@@ -68,6 +68,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (1803) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:35:00.641Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.705Z"
@@ -78,11 +86,3 @@ processing:
     updated_at: "2026-05-05T21:03:25.859Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:35:00.641Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

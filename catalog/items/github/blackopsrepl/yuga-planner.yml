@@ -1,6 +1,6 @@
 id: github__blackopsrepl__yuga-planner
 kind: github-repo
-name: yuga-planner
+name: Yuga Planner
 canonical_url: https://github.com/blackopsrepl/yuga-planner
 identity:
   github_repo: blackopsrepl/yuga-planner
@@ -41,10 +41,10 @@ insights:
   why_it_matters: It demonstrates a practical pattern for combining agentic planning with deterministic solvers and exposes the result via MCP for integration into developer workflows.
   mental_damage: We have successfully built an AI agent to solve team scheduling, which is impressive, considering we still manually copy-paste our daily standup notes into a calendar no one reads.
   tags:
-    - mcp
-    - scheduling
     - agent
     - hackathon
+    - mcp
+    - scheduling
   confidence: high
 curation:
   status: excluded
@@ -60,6 +60,14 @@ lifecycle:
   status: needs_review
   reason: Repository is archived
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:11:01.700Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.681Z"
@@ -70,11 +78,3 @@ processing:
     updated_at: "2026-05-05T21:01:22.038Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:11:01.700Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

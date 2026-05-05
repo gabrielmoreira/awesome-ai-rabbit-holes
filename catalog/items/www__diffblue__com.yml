@@ -1,6 +1,6 @@
 id: www__diffblue__com
 kind: website
-name: www.diffblue.com
+name: DiffBlue Cover
 canonical_url: https://www.diffblue.com
 identity: {}
 provenance:
@@ -38,11 +38,11 @@ insights:
   why_it_matters: It automates the tedious workflow of achieving high regression test coverage on legacy or complex Java and Python codebases where standard coding agents struggle to scale.
   mental_damage: We have finally reached the point where we need an agent specifically to clean up and verify the mess left behind by our other autonomous agents.
   tags:
-    - testing
+    - ci-cd
     - enterprise
     - java
-    - ci-cd
     - legacy-modernization
+    - testing
   confidence: high
 curation:
   status: included
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:50:31.230Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.732Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:50:31.230Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

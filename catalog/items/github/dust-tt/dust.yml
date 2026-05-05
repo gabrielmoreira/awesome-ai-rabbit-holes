@@ -1,6 +1,6 @@
 id: github__dust-tt__dust
 kind: github-repo
-name: dust
+name: Dust
 canonical_url: https://github.com/dust-tt/dust
 identity:
   github_repo: dust-tt/dust
@@ -47,8 +47,8 @@ insights:
   tags:
     - agents
     - llm
-    - rust
     - platform
+    - rust
   confidence: high
 curation:
   status: included
@@ -64,6 +64,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (1337) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:17:17.233Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.685Z"
@@ -74,11 +82,3 @@ processing:
     updated_at: "2026-05-05T21:01:57.981Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:17:17.233Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

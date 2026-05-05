@@ -1,6 +1,6 @@
 id: github__mlfoundations__evalchemy
 kind: github-repo
-name: evalchemy
+name: Evalchemy
 canonical_url: https://github.com/mlfoundations/evalchemy
 identity:
   github_repo: mlfoundations/evalchemy
@@ -41,9 +41,9 @@ insights:
   why_it_matters: It gives developers a single CLI and standardized output to measure model quality across reasoning, coding, and chat benchmarks without wrestling with conflicting dependencies.
   mental_damage: Yet another chance to discover that your carefully tuned model still can't solve a math problem that a diligent middle schooler would finish before lunch.
   tags:
+    - benchmarks
     - evals
     - llm
-    - benchmarks
     - reasoning
   confidence: high
 curation:
@@ -60,6 +60,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (594) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:38:29.260Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.707Z"
@@ -70,11 +78,3 @@ processing:
     updated_at: "2026-05-05T21:03:43.707Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:38:29.260Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

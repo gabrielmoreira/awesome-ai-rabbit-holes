@@ -1,6 +1,6 @@
 id: github__arc53__docsgpt
 kind: github-repo
-name: docsgpt
+name: DocsGPT
 canonical_url: https://github.com/arc53/docsgpt
 identity:
   github_repo: arc53/docsgpt
@@ -62,8 +62,8 @@ insights:
   mental_damage: Another day, another opportunity to spend three hours wiring a PDF-ingesting agent that will eventually answer questions about last year’s roadmap with confident, cited precision.
   tags:
     - agents
-    - rag
     - enterprise-search
+    - rag
     - self-hosted
   confidence: high
 curation:
@@ -80,6 +80,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (17871) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:08:49.951Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.679Z"
@@ -90,11 +98,3 @@ processing:
     updated_at: "2026-05-05T21:01:08.035Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:08:49.951Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

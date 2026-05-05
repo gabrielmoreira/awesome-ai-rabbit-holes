@@ -1,13 +1,13 @@
 id: github__alteryx__featuretools
 kind: github-repo
-name: featuretools
+name: FeatureTools
 canonical_url: https://github.com/alteryx/featuretools
 identity:
   github_repo: alteryx/featuretools
 provenance:
   discoveries:
     - id: discovery__github__featuretools__featuretools__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-05T20:48:55.437Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -41,20 +41,20 @@ metadata:
       - machine-learning
       - python
       - scikit-learn
-    last_checked_at: "2026-05-05T21:01:01.675Z"
+    last_checked_at: "2026-05-05T21:02:09.314Z"
     readme:
-      fetched_at: "2026-05-05T21:01:01.675Z"
+      fetched_at: "2026-05-05T21:02:09.313Z"
       bytes: 11163
 insights:
   summary: Featuretools is an open-source Python library that automates feature engineering for machine learning by applying deep feature synthesis across multi-table datasets.
   why_it_matters: It allows developers building ML pipelines to automatically generate complex feature sets from relational data without hand-crafting transformations.
   mental_damage: Yet another library promising to automate the data scientist out of a job, right up until the model fails and you have to reverse-engineer exactly what Deep Feature Synthesis did to your schema.
   tags:
-    - feature-engineering
     - automl
-    - python
-    - machine-learning
     - data-science
+    - feature-engineering
+    - machine-learning
+    - python
   confidence: high
 curation:
   status: excluded
@@ -63,6 +63,9 @@ curation:
     - Repo description states it is 'An open source python library for automated feature engineering'
     - Topics and README focus on ML workflows (AutoML, scikit-learn, DFS) rather than coding agents or developer tooling
     - No source-list context indicates it appears in developer-tooling or coding-agent awesome lists
+    - Repo description and README define it as a Python library for automated feature engineering and ML, not AI-assisted development.
+    - Topics and source-list context (Awesome-LLMOps | Data > Feature Engineering) place it firmly in data science, not developer tooling.
+    - No mention of coding agents, IDE integration, app building, or developer workflow automation in the provided inputs.
 placement:
   primary_category: null
   section: null
@@ -72,7 +75,7 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-05-05T21:07:52.170Z"
+    updated_at: "2026-05-05T21:19:10.457Z"
     cause: null
     next_retry_at: null
     attempts: 1
@@ -80,11 +83,11 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.687Z"
+    updated_at: "2026-05-05T20:48:55.441Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:01.675Z"
+    updated_at: "2026-05-05T21:02:09.314Z"
     cause: null
     next_retry_at: null

@@ -1,6 +1,6 @@
 id: github__agentsmesh__agentsmesh
 kind: github-repo
-name: agentsmesh
+name: AgentsMesh
 canonical_url: https://github.com/agentsmesh/agentsmesh
 identity:
   github_repo: agentsmesh/agentsmesh
@@ -84,15 +84,25 @@ insights:
   mental_damage: We have successfully built Jira for autonomous agents, ensuring your AI squads can now suffer from the same ticket-pod binding friction and Kanban anxiety as your human teams.
   tags:
     - agent-orchestration
+    - agent-workforce
+    - cli-agents
     - multi-agent
     - self-hosted
     - task-management
-    - cli-agents
+    - workforce
   confidence: high
 curation:
   status: included
-  reason: AgentsMesh is a user-facing control plane and workforce system for coordinating multiple coding agents across remote pods, task boards, and Git providers, which aligns with the agent-orchestration category rather than being a primary coding assistant itself.
+  reason: The product is a control plane for coordinating multiple AI agents as a workforce, which fits the user-facing orchestration platform definition rather than a repo-editing coding agent.
   evidence:
+    - Scraped site title and description define it as 'The AI Agent Workforce Platform' for assigning squads and tracking progress.
+    - "Source-list context (awesome-ai-coding-tools) lists it under 'Coding Agents' with the pitch: 'Give every team member an AI agent squad — assign tasks, track progress, and let them collaborate autonomously.'"
+    - Site title and description define it as 'The AI Agent Workforce Platform' for assigning tasks and tracking progress.
+    - Source list awesome-ai-coding-tools classifies it under 'Coding Agents' with a focus on squad-based autonomous collaboration.
+    - The workflow described is task assignment and progress tracking rather than direct IDE or repo code editing.
+    - Scraped site describes it as 'The AI Agent Workforce Platform' for assigning tasks and tracking progress.
+    - "Source list context (awesome-ai-coding-tools) lists it under 'Coding Agents' with the pitch: 'Give every team member an AI agent squad'."
+    - The workflow described is a management control plane for agents, not a repo/IDE assistant.
     - README describes it as 'The AI Agent Workforce Platform' with AgentPods, multi-agent collaboration channels, and Kanban task management.
     - Supports orchestrating Claude Code, Codex CLI, Gemini CLI, and Aider rather than being a coding agent itself.
     - Listed in awesome-cli-coding-agents under 'Harnesses & orchestration > Orchestrators & autonomous loops'.
@@ -105,15 +115,15 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-05-05T21:04:30.609Z"
+    updated_at: "2026-05-05T22:47:16.940Z"
     cause: null
-    attempts: 2
+    attempts: 1
     prompt_version: catalog-categorize-v2-baseline
     category_rules_version: 1b6cc5462ecc
     next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.726Z"
+    updated_at: "2026-05-05T22:47:06.910Z"
     cause: null
     next_retry_at: null
   stars:

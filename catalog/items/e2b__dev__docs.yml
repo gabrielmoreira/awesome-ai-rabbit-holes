@@ -1,6 +1,6 @@
 id: e2b__dev__docs
 kind: website
-name: docs
+name: Code Interpreter SDK
 canonical_url: https://e2b.dev/docs
 identity: {}
 provenance:
@@ -38,9 +38,9 @@ insights:
   why_it_matters: It gives AI agents a secure, disposable compute environment with terminals, file systems, and browser access, which is essential infrastructure for building and scaling agentic workflows.
   mental_damage: We have ascended from 'vibe coding' to 'vibe provisioning infrastructure,' where your agent's biggest production risk is that its sandbox provider scheduled maintenance during your 3 AM deploy.
   tags:
-    - sandbox
     - agents
     - infrastructure
+    - sandbox
     - sdk
   confidence: high
 curation:
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:44:22.325Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.727Z"
@@ -68,11 +76,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:44:22.325Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

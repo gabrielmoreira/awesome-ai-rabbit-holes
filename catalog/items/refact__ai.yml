@@ -1,6 +1,6 @@
 id: refact__ai
 kind: website
-name: refact.ai
+name: Refact.ai
 canonical_url: https://refact.ai
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It offers developers a self-hosted alternative to Cursor and Copilot that can autonomously plan and execute coding tasks directly within their existing IDE workflow.
   mental_damage: Another existential milestone where the 'vibe coding' approach promises a digital twin that handles 95% of the work while you perfect the art of prompt ping-pong.
   tags:
-    - ide
     - autonomous-agent
-    - self-hosted
     - code-completion
+    - ide
+    - self-hosted
   confidence: high
 curation:
   status: included
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:47:28.335Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.730Z"
@@ -68,11 +76,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:47:28.335Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

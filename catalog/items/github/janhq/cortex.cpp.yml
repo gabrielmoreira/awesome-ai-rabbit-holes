@@ -1,6 +1,6 @@
 id: github__janhq__cortex.cpp
 kind: github-repo
-name: cortex.cpp
+name: Cortex
 canonical_url: https://github.com/janhq/cortex.cpp
 identity:
   github_repo: janhq/cortex.cpp
@@ -45,9 +45,9 @@ insights:
   why_it_matters: Developers can run, manage, and serve local LLMs with familiar API patterns while maintaining full control over their hardware and data.
   mental_damage: Another freshly archived local AI runtime that promises to be the brain for robots until the maintainers inevitably pivot to forking llama.cpp instead.
   tags:
-    - local-ai
-    - llm
     - inference
+    - llm
+    - local-ai
     - openai-compatible
   confidence: high
 curation:
@@ -64,6 +64,14 @@ lifecycle:
   status: needs_review
   reason: Repository is archived
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:27:40.972Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.699Z"
@@ -74,11 +82,3 @@ processing:
     updated_at: "2026-05-05T21:02:51.302Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:27:40.972Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

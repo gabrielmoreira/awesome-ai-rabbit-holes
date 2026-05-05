@@ -1,6 +1,6 @@
 id: www__qodo__ai
 kind: website
-name: www.qodo.ai
+name: Qodo (CodiumAI)
 canonical_url: https://www.qodo.ai
 identity: {}
 provenance:
@@ -53,10 +53,10 @@ insights:
   why_it_matters: It shifts code review left by running context-aware agents in your IDE and PRs, helping teams catch logic gaps, security issues, and standard violations before they reach production.
   mental_damage: Just when you thought the AI slop problem was solved by writing more AI code, now you need an AI agent to review the code the other AI agents wrote.
   tags:
-    - code-review
     - ai-agents
-    - sdlc-governance
+    - code-review
     - enterprise
+    - sdlc-governance
   confidence: high
 curation:
   status: included
@@ -72,6 +72,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:52:55.171Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.675Z"
@@ -81,11 +89,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:52:55.171Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

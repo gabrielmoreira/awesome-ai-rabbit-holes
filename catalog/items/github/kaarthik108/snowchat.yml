@@ -1,6 +1,6 @@
 id: github__kaarthik108__snowchat
 kind: github-repo
-name: snowchat
+name: snowChat ❄️
 canonical_url: https://github.com/kaarthik108/snowchat
 identity:
   github_repo: kaarthik108/snowchat
@@ -51,11 +51,11 @@ insights:
   why_it_matters: It allows developers and data users to query Snowflake warehouses conversationally without writing raw SQL, using an agent-based architecture with memory and self-healing queries.
   mental_damage: We have successfully abstracted away the need to learn SQL, replacing it with the need to carefully engineer prompts, debug LLM hallucinations, and manage a Supabase-Cloudflare-LangChain stack just to ask a database for a count.
   tags:
-    - text-to-sql
-    - snowflake
     - langchain
-    - streamlit
     - llm-agents
+    - snowflake
+    - streamlit
+    - text-to-sql
   confidence: high
 curation:
   status: excluded
@@ -71,6 +71,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (553) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:29:53.891Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.701Z"
@@ -81,11 +89,3 @@ processing:
     updated_at: "2026-05-05T21:03:01.736Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:29:53.891Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

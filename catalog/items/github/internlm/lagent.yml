@@ -1,6 +1,6 @@
 id: github__internlm__lagent
 kind: github-repo
-name: lagent
+name: Lagent
 canonical_url: https://github.com/internlm/lagent
 identity:
   github_repo: internlm/lagent
@@ -80,6 +80,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (2244) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:26:19.968Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.667Z"
@@ -90,11 +98,3 @@ processing:
     updated_at: "2026-05-05T21:02:45.539Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:26:19.968Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

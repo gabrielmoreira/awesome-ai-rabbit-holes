@@ -1,6 +1,6 @@
 id: www__mcpserverfinder__com__servers
 kind: website
-name: servers
+name: MCP Server Finder
 canonical_url: https://www.mcpserverfinder.com/servers
 identity: {}
 provenance:
@@ -38,9 +38,9 @@ insights:
   why_it_matters: It provides a centralized index for developers to find and evaluate MCP servers to extend their AI coding assistants.
   mental_damage: We have successfully graduated from 'which AI tool should I use?' to 'which directory of tools should I trust to find the tool that connects my tool to other tools?'
   tags:
-    - mcp
     - directory
     - discovery
+    - mcp
   confidence: high
 curation:
   status: included
@@ -56,6 +56,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:51:57.330Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.733Z"
@@ -65,11 +73,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:51:57.330Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

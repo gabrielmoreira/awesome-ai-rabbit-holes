@@ -1,6 +1,6 @@
 id: lingo__dev
 kind: website
-name: lingo.dev
+name: Lingo.dev
 canonical_url: https://lingo.dev
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It allows developers to automate internationalization and translation tasks directly within their AI coding agent workflows via the MCP standard.
   mental_damage: We have successfully abstracted 'translating strings' into a protocol server, ensuring your Claude instance can now argue about grammar in 40 languages instead of just one.
   tags:
-    - mcp
-    - localization
-    - i18n
     - automation
+    - i18n
+    - localization
+    - mcp
   confidence: medium
 curation:
   status: included
@@ -56,6 +56,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:45:55.608Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.728Z"
@@ -65,11 +73,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:45:55.608Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

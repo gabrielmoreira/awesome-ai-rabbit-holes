@@ -1,6 +1,6 @@
 id: binary__ninja
 kind: website
-name: binary.ninja
+name: Binary Ninja
 canonical_url: https://binary.ninja
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It provides developers working on reverse engineering with a scriptable environment to automate binary analysis using C++, Python, or Rust, and includes AI features to accelerate understanding.
   mental_damage: Just when you thought your job was safe from AI, it's now helping reverse engineers decompile binaries faster, leaving you with even fewer excuses for not understanding that legacy firmware.
   tags:
-    - reverse-engineering
-    - decompiler
-    - binary-analysis
     - ai-assisted
+    - binary-analysis
+    - decompiler
+    - reverse-engineering
   confidence: high
 curation:
   status: excluded
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:42:30.170Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.726Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:42:30.170Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

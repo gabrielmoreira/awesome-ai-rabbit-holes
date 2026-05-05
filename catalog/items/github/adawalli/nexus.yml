@@ -1,6 +1,6 @@
 id: github__adawalli__nexus
 kind: github-repo
-name: nexus
+name: Nexus
 canonical_url: https://github.com/adawalli/nexus
 identity:
   github_repo: adawalli/nexus
@@ -60,6 +60,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:05:51.550Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.676Z"
@@ -70,11 +78,3 @@ processing:
     updated_at: "2026-05-05T21:00:49.295Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:05:51.550Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

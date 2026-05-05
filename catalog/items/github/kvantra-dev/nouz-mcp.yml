@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kvantra-dev__nouz-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T20:48:55.437Z"
+      discovered_at: "2026-05-05T22:33:31.148Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,30 +33,22 @@ metadata:
     description: MCP Server for local knowledge systems
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:03:13.960Z"
+    last_checked_at: "2026-05-05T23:07:59.155Z"
     readme:
-      fetched_at: "2026-05-05T21:03:13.960Z"
+      fetched_at: "2026-05-05T23:07:59.155Z"
       bytes: 13241
 insights:
-  summary: An MCP server that connects local Markdown knowledge bases, such as Obsidian or Logseq vaults, to AI agents by generating semantic graphs, classifying content domains, and tracking knowledge drift.
-  why_it_matters: It allows coding agents to semantically navigate personal knowledge graphs and project memory vaults via the Model Context Protocol, rather than treating notes as a flat list of files.
-  mental_damage: You can now give your agent a five-level semantic hierarchy and watch it confidently hallucinate connections between your abandoned side projects and your actual work.
-  tags:
-    - mcp
-    - knowledge-graph
-    - obsidian
-    - semantic-search
-    - local-first
-  confidence: medium
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
 curation:
-  status: included
-  reason: The project is explicitly an MCP server implementation designed to expose local knowledge bases to MCP-compatible clients like Claude Desktop and Cursor.
-  evidence:
-    - "Repo description states: 'MCP Server for local knowledge systems'."
-    - README confirms it acts as a layer between notes and AI agents via MCP, supporting clients like Claude Desktop and Cursor.
-    - Listed in awesome-mcp-servers under 'Knowledge & Memory' server implementations.
+  status: pending
+  reason: null
+  evidence: []
 placement:
-  primary_category: mcp
+  primary_category: null
   section: null
 lifecycle:
   status: incubating
@@ -64,19 +56,21 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.442Z"
+    updated_at: "2026-05-05T22:33:31.151Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:13.960Z"
+    updated_at: "2026-05-05T23:07:59.155Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-05T21:32:39.215Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
+    status: deferred
+    updated_at: "2026-05-05T23:08:33.635Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-05-06T00:08:33.635Z"
+    attempts: 0
     prompt_version: catalog-categorize-v2-baseline
     category_rules_version: 1b6cc5462ecc

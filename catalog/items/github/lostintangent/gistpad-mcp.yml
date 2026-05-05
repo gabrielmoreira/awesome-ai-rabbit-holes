@@ -1,6 +1,6 @@
 id: github__lostintangent__gistpad-mcp
 kind: github-repo
-name: gistpad-mcp
+name: GistPad-MCP
 canonical_url: https://github.com/lostintangent/gistpad-mcp
 identity:
   github_repo: lostintangent/gistpad-mcp
@@ -47,10 +47,10 @@ insights:
   why_it_matters: It connects your existing gist-based PKM workflow to any MCP-enabled AI client, letting Copilot or Claude read, edit, and organize notes without leaving the chat.
   mental_damage: You now have an AI agent managing your gists so you can finally stop pretending you will manually maintain a second brain that you only open when you panic.
   tags:
-    - mcp
     - gists
-    - pkm
+    - mcp
     - notes
+    - pkm
   confidence: high
 curation:
   status: included
@@ -66,6 +66,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (189) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:34:44.552Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.704Z"
@@ -76,11 +84,3 @@ processing:
     updated_at: "2026-05-05T21:03:24.377Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:34:44.552Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

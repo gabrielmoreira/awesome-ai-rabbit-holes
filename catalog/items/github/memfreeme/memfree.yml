@@ -1,6 +1,6 @@
 id: github__memfreeme__memfree
 kind: github-repo
-name: memfree
+name: MemFree
 canonical_url: https://github.com/memfreeme/memfree
 identity:
   github_repo: memfreeme/memfree
@@ -74,8 +74,8 @@ insights:
     - ai-search
     - page-generator
     - react
-    - ui-generation
     - shadcn-ui
+    - ui-generation
   confidence: high
 curation:
   status: included
@@ -91,6 +91,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (1497) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:36:48.160Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.669Z"
@@ -101,11 +109,3 @@ processing:
     updated_at: "2026-05-05T21:03:35.104Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:36:48.160Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

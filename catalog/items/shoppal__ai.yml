@@ -1,6 +1,6 @@
 id: shoppal__ai
 kind: website
-name: shoppal.ai
+name: ShopPal
 canonical_url: https://shoppal.ai
 identity: {}
 provenance:
@@ -38,9 +38,9 @@ insights:
   why_it_matters: It offers a case study in how domain-specific AI agents and content automation are being packaged as managed services for enterprise commerce stacks rather than developer tooling.
   mental_damage: Yet another 'AI agent' that turns out to be a managed services firm in the Bay Area, proving that if you put 'agent' in the name, someone will list you in an awesome-ai-agents repo.
   tags:
-    - fashion
-    - e-commerce
     - ai-infrastructure
+    - e-commerce
+    - fashion
     - managed-services
   confidence: high
 curation:
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:48:06.888Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.730Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:48:06.888Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

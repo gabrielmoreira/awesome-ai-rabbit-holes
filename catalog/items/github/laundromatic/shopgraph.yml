@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [laundromatic/shopgraph](https://github.com/laundromatic/shopgraph) [![laundromatic/shopgraph MCP server](https://glama.ai/mcp/servers/laundromatic/shopgraph/badges/score.svg)](https://glama.ai/mcp/servers/laundromatic/shopgraph) 📇 ☁️ - Structured product data from the open web — Schema.org + AI extraction for e-commerce enrichment. Pay per call via Stripe. [shopgraph.dev](https://shopgraph.dev)"
         confidence: high
     - id: discovery__shopgraph__dev__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-05T22:47:06.910Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -70,10 +70,12 @@ insights:
   why_it_matters: Developers building shopping or commerce agents can integrate structured product data with confidence thresholds to filter unreliable extractions before they reach their application logic.
   mental_damage: We now have an API that grades its own homework per field, so you can confidently ship a product price to production while knowing the confidence score itself might be questionable.
   tags:
-    - mcp
+    - agent-tooling
+    - confidence-scoring
+    - e-commerce
     - ecommerce
     - extraction
-    - confidence-scoring
+    - mcp
   confidence: high
 curation:
   status: included
@@ -82,6 +84,8 @@ curation:
     - "Repo description: 'REST API + MCP server' with MCP configuration shown in README."
     - Listed under 'Server Implementations > E-Commerce' in awesome-mcp-servers.
     - README includes MCP client compatibility with Claude, Cursor, Windsurf, CrewAI, LangGraph, and AutoGen.
+    - Listed in awesome-mcp-servers under 'Server Implementations > E-Commerce' as a product data extraction tool for agents.
+    - Site describes itself as an extraction API with per-field provenance and confidence scoring specifically for agent consumption.
 placement:
   primary_category: mcp
   section: null
@@ -99,7 +103,7 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.730Z"
+    updated_at: "2026-05-05T22:47:06.911Z"
     cause: null
     next_retry_at: null
   stars:

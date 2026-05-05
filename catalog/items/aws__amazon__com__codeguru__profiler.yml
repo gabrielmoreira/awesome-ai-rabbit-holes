@@ -1,6 +1,6 @@
 id: aws__amazon__com__codeguru__profiler
 kind: website
-name: profiler
+name: Amazon CodeGuru Reviewer
 canonical_url: https://aws.amazon.com/codeguru/profiler
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It lets developers automatically surface CPU and memory inefficiencies in running applications using ML-driven recommendations rather than manual profiling sessions.
   mental_damage: Yet another magical AI product promising to find your worst code, while you still have to explain to your manager why the AWS bill for finding it costs more than the inefficiency itself.
   tags:
-    - performance
     - aws
-    - profiling
     - ml-insights
+    - performance
+    - profiling
   confidence: high
 curation:
   status: excluded
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:42:21.118Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.726Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:42:21.118Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

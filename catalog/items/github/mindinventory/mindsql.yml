@@ -1,6 +1,6 @@
 id: github__mindinventory__mindsql
 kind: github-repo
-name: mindsql
+name: MindSQL
 canonical_url: https://github.com/mindinventory/mindsql
 identity:
   github_repo: mindinventory/mindsql
@@ -48,11 +48,11 @@ insights:
   why_it_matters: It allows developers to quickly integrate natural language querying into applications by indexing database schemas and example queries into vector stores like ChromaDB and Faiss.
   mental_damage: Yet another layer of abstraction ensuring that when the SQL fails, you get to debug both the database logic and the LLM's confidence interval.
   tags:
-    - text-to-sql
-    - rag
-    - python
     - langchain
     - llm
+    - python
+    - rag
+    - text-to-sql
   confidence: high
 curation:
   status: included
@@ -68,6 +68,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (442) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:38:02.507Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.707Z"
@@ -78,11 +86,3 @@ processing:
     updated_at: "2026-05-05T21:03:41.307Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:38:02.507Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

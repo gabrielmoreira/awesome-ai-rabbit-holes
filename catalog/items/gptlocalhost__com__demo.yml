@@ -1,6 +1,6 @@
 id: gptlocalhost__com__demo
 kind: website
-name: demo
+name: GPTLocalhost
 canonical_url: https://gptlocalhost.com/demo
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It demonstrates how local AI models from providers like Ollama, LM Studio, and llama.cpp can be embedded into enterprise-standard document workflows rather than isolated developer environments.
   mental_damage: Finally, the dream of running a 2-billion-parameter model inside Microsoft Word is realized, ensuring that 'AI-assisted writing' now carries the full system requirements and latency of a local inference stack.
   tags:
+    - demos
+    - llm-integration
     - local-ai
     - microsoft-word
-    - llm-integration
-    - demos
   confidence: high
 curation:
   status: excluded
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:45:11.082Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.728Z"
@@ -68,11 +76,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:45:11.082Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

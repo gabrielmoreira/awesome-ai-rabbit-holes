@@ -1,6 +1,6 @@
 id: www__jetbrains__com__qodana
 kind: website
-name: qodana
+name: JetBrains Qodana
 canonical_url: https://www.jetbrains.com/qodana
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It allows teams to automate the enforcement of JetBrains' coding standards and inspections directly within their continuous integration workflow.
   mental_damage: Just when you thought the AI agent was going to write all the code, JetBrains reminds you that you still need a non-AI agent to tell you that the code is messy.
   tags:
-    - static-analysis
     - ci-cd
-    - jetbrains
     - code-quality
+    - jetbrains
+    - static-analysis
   confidence: high
 curation:
   status: excluded
@@ -56,6 +56,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:51:34.241Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.732Z"
@@ -65,11 +73,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:51:34.241Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

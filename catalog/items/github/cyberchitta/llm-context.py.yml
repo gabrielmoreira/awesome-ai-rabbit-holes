@@ -1,6 +1,6 @@
 id: github__cyberchitta__llm-context.py
 kind: github-repo
-name: llm-context.py
+name: llm-context
 canonical_url: https://github.com/cyberchitta/llm-context.py
 identity:
   github_repo: cyberchitta/llm-context.py
@@ -77,11 +77,11 @@ insights:
   why_it_matters: It reduces the friction of manually hunting, copying, and curating files by letting developers and agents define reusable rules that select, outline, and deliver the right code context for reviews, debugging, and task-focused sessions.
   mental_damage: We have finally built a tool to manage the context we only need because the models can’t remember the repo we just opened.
   tags:
-    - mcp
-    - context-management
     - cli
-    - rules
+    - context-management
     - llm-workflow
+    - mcp
+    - rules
   confidence: high
 curation:
   status: included
@@ -97,6 +97,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (299) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:15:00.591Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.659Z"
@@ -107,11 +115,3 @@ processing:
     updated_at: "2026-05-05T21:01:44.586Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:15:00.591Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

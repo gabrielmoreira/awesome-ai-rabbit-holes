@@ -1,6 +1,6 @@
 id: github__liu-hy__genomas
 kind: github-repo
-name: genomas
+name: GenoMAS
 canonical_url: https://github.com/liu-hy/genomas
 identity:
   github_repo: liu-hy/genomas
@@ -47,11 +47,11 @@ insights:
   why_it_matters: It provides a notebook-style multi-agent system that can plan, write, execute, and debug code for complex bioinformatics tasks, offering a template for domain-specific agentic workflows.
   mental_damage: "Just what the overworked bioinformatician ordered: a multi-agent system to hallucinate gene associations so convincingly that even the paper claims they are 'worthy of further investigation.'"
   tags:
-    - multi-agent
     - bioinformatics
-    - scientific-workflows
-    - genomics
     - framework
+    - genomics
+    - multi-agent
+    - scientific-workflows
   confidence: high
 curation:
   status: included
@@ -67,6 +67,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:34:19.617Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.704Z"
@@ -77,11 +85,3 @@ processing:
     updated_at: "2026-05-05T21:03:21.773Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:34:19.617Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

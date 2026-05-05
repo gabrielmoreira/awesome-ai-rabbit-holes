@@ -1,6 +1,6 @@
 id: github__fedml-ai__fedml
 kind: github-repo
-name: fedml
+name: FedML
 canonical_url: https://github.com/fedml-ai/fedml
 identity:
   github_repo: fedml-ai/fedml
@@ -52,11 +52,11 @@ insights:
   why_it_matters: It lets developers launch and manage complex AI jobs like LLM training and deployment on any GPU infrastructure without wrestling with environment setup or cluster provisioning.
   mental_damage: Yet another 'unified' platform promising to tame your GPU sprawl, just in time for you to realize your model's real bottleneck is the four-hour YAML debugging session required to join the federated future.
   tags:
-    - mlops
     - distributed-training
     - federated-learning
-    - model-serving
     - llm-ops
+    - mlops
+    - model-serving
   confidence: high
 curation:
   status: included
@@ -72,6 +72,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (4044) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:19:16.352Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.687Z"
@@ -82,11 +90,3 @@ processing:
     updated_at: "2026-05-05T21:02:09.351Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:19:16.352Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

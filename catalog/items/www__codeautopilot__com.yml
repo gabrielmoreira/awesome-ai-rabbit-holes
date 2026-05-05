@@ -1,6 +1,6 @@
 id: www__codeautopilot__com
 kind: website
-name: www.codeautopilot.com
+name: Code Autopilot
 canonical_url: https://www.codeautopilot.com
 identity: {}
 provenance:
@@ -39,9 +39,9 @@ insights:
   mental_damage: Yet another entry in the growing competition to see who can most effectively convince you that your keyboard is now merely a decorative paperweight.
   tags:
     - ai
+    - automation
     - coding-agent
     - web-app
-    - automation
   confidence: low
 curation:
   status: included
@@ -56,6 +56,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:50:09.659Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.732Z"
@@ -65,11 +73,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:50:09.659Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

@@ -1,6 +1,6 @@
 id: github__autoreason__swarm
 kind: github-repo
-name: swarm
+name: Swarm
 canonical_url: https://github.com/autoreason/swarm
 identity:
   github_repo: autoreason/swarm
@@ -52,6 +52,13 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: skipped
+    updated_at: "2026-05-05T23:08:18.952Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.680Z"
@@ -59,15 +66,8 @@ processing:
     next_retry_at: null
   stars:
     status: failed
-    updated_at: "2026-05-05T21:01:13.625Z"
+    updated_at: "2026-05-05T23:07:42.902Z"
     cause:
       type: github_repo_missing
       message: "GitHub repository not found: autoreason/swarm"
-    next_retry_at: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T21:04:23.169Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null

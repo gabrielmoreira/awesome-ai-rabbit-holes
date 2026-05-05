@@ -1,6 +1,6 @@
 id: awesome__copilot__github__com__learning__hub
 kind: website
-name: learning-hub
+name: Learning Hub
 canonical_url: https://awesome-copilot.github.com/learning-hub
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It provides the missing manual for developers trying to graduate from basic tab-completion to orchestrating custom agents and workflows within Copilot.
   mental_damage: Finally, a documentation site to help you figure out why your 'Agentic Workflow' is just a very expensive way to generate YAML files you don't understand.
   tags:
-    - github-copilot
-    - docs
-    - learning
     - agents
+    - docs
+    - github-copilot
+    - learning
   confidence: high
 curation:
   status: included
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:42:15.707Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.726Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:42:15.707Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

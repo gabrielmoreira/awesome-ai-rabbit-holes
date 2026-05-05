@@ -1,6 +1,6 @@
 id: github__kevinelliott__agentpipe
 kind: github-repo
-name: agentpipe
+name: AgentPipe
 canonical_url: https://github.com/kevinelliott/agentpipe
 identity:
   github_repo: kevinelliott/agentpipe
@@ -55,10 +55,10 @@ insights:
   mental_damage: Finally, a dedicated terminal room where your expensive AI agents can awkwardly talk to each other while you watch the token meter spin and wonder who is actually in charge.
   tags:
     - cli
-    - tui
     - multi-agent
     - orchestration
     - terminal
+    - tui
   confidence: high
 curation:
   status: included
@@ -74,6 +74,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:30:33.267Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.701Z"
@@ -84,11 +92,3 @@ processing:
     updated_at: "2026-05-05T21:03:04.504Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:30:33.267Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

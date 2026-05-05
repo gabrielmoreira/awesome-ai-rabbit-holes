@@ -1,6 +1,6 @@
 id: github__muellerberndt__mini-agi
 kind: github-repo
-name: mini-agi
+name: Mini AGI
 canonical_url: https://github.com/muellerberndt/mini-agi
 identity:
   github_repo: muellerberndt/mini-agi
@@ -48,9 +48,9 @@ insights:
   tags:
     - agents
     - autonomous
+    - cli
     - gpt
     - python
-    - cli
   confidence: high
 curation:
   status: included
@@ -66,6 +66,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (2906) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:39:28.031Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.708Z"
@@ -76,11 +84,3 @@ processing:
     updated_at: "2026-05-05T21:03:48.892Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:39:28.031Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

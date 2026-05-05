@@ -1,6 +1,6 @@
 id: www__comet__com__site__llm__course
 kind: website
-name: llm-course
+name: "LLM Evaluation: A Complete Course"
 canonical_url: https://www.comet.com/site/llm-course
 identity: {}
 provenance:
@@ -38,8 +38,8 @@ insights:
   why_it_matters: It focuses on the practical, applied side of LLM evaluation—covering testing pipelines, monitoring, and hallucination detection—rather than deep ML theory.
   mental_damage: Another hour-long course promising to solve the 'evaluate the thing that writes the code' problem, ensuring you now have homework for your homework.
   tags:
-    - llm-evaluation
     - course
+    - llm-evaluation
     - observability
     - opik
   confidence: high
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:50:17.697Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.732Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:50:17.697Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

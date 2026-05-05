@@ -1,6 +1,6 @@
 id: autify__com
 kind: website
-name: autify.com
+name: Autify
 canonical_url: https://autify.com
 identity: {}
 provenance:
@@ -38,11 +38,11 @@ insights:
   why_it_matters: It allows engineering teams to describe test scenarios in natural language and have AI agents autonomously generate, execute, and maintain E2E test coverage, reducing the burden of manual scripting.
   mental_damage: "Just what the modern developer needs: another autonomous agent designed to find out exactly how broken the app is while you are already pretending the sprint is on track."
   tags:
+    - ai-agent
+    - e2e
+    - playwright
     - qa
     - testing
-    - e2e
-    - ai-agent
-    - playwright
   confidence: high
 curation:
   status: included
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:42:07.733Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.726Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:42:07.733Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

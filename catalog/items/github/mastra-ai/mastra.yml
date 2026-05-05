@@ -1,6 +1,6 @@
 id: github__mastra-ai__mastra
 kind: github-repo
-name: mastra
+name: Mastra
 canonical_url: https://github.com/mastra-ai/mastra
 identity:
   github_repo: mastra-ai/mastra
@@ -99,10 +99,10 @@ insights:
   why_it_matters: It provides a batteries-included, code-first stack for TypeScript developers to build, tune, and scale production-ready AI agents with native integrations for React, Next.js, and Node.
   mental_damage: Yet another framework promising to be the 'easy way' to ship reliable agents, ensuring you can now spend your afternoons debating workflow graph syntax instead of actually debugging your prompts.
   tags:
-    - typescript
     - agents
     - framework
     - mcp
+    - typescript
     - workflows
   confidence: high
 curation:
@@ -119,6 +119,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (23592) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:36:06.046Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.658Z"
@@ -129,11 +137,3 @@ processing:
     updated_at: "2026-05-05T21:03:31.351Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:36:06.046Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

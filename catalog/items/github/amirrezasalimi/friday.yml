@@ -1,6 +1,6 @@
 id: github__amirrezasalimi__friday
 kind: github-repo
-name: friday
+name: Friday
 canonical_url: https://github.com/amirrezasalimi/friday
 identity:
   github_repo: amirrezasalimi/friday
@@ -41,11 +41,11 @@ insights:
   why_it_matters: It offers developers a way to scaffold entire Node.js projects locally through a prompt-driven interface rather than manually setting up boilerplate.
   mental_damage: Another brave soul attempting to convince GPT-4 to reliably update package.json, a battle that historically ends with developers manually installing missing dependencies anyway.
   tags:
-    - nodejs
     - app-generator
     - gpt-4
-    - scaffolding
     - local-tool
+    - nodejs
+    - scaffolding
   confidence: medium
 curation:
   status: included
@@ -61,6 +61,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:07:59.392Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.678Z"
@@ -71,11 +79,3 @@ processing:
     updated_at: "2026-05-05T21:01:02.498Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:07:59.392Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

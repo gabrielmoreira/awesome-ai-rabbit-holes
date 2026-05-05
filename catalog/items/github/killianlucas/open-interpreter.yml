@@ -1,13 +1,13 @@
 id: github__killianlucas__open-interpreter
 kind: github-repo
-name: open-interpreter
+name: Open Interpreter
 canonical_url: https://github.com/killianlucas/open-interpreter
 identity:
   github_repo: killianlucas/open-interpreter
 provenance:
   discoveries:
     - id: discovery__github__killianlucas__open-interpreter__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-05T20:48:55.437Z"
+      discovered_at: "2026-05-05T22:33:31.148Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -23,7 +23,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 63394
+    stars: 63396
     forks: 5526
     license: AGPL-3.0
     archived: false
@@ -38,49 +38,44 @@ metadata:
       - javascript
       - nodejs
       - python
-    last_checked_at: "2026-05-05T21:03:05.771Z"
+    last_checked_at: "2026-05-05T23:07:58.996Z"
     readme:
-      fetched_at: "2026-05-05T21:03:05.771Z"
+      fetched_at: "2026-05-05T23:07:58.996Z"
       bytes: 14378
 insights:
-  summary: A terminal-based natural language interface that lets LLMs run Python, JavaScript, and shell commands locally to automate tasks on your computer.
-  why_it_matters: It gives developers a local, unrestricted coding agent that can manipulate files, control browsers, and analyze data without the sandbox limits of hosted Code Interpreters.
-  mental_damage: Yet another reason to feel guilty about charging hourly for a task that a local Python script just negotiated with itself to complete in under sixty seconds.
-  tags:
-    - coding-agent
-    - local-ai
-    - cli
-    - code-execution
-  confidence: high
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
 curation:
-  status: included
-  reason: It is a developer-facing coding agent that runs locally in the terminal/IDE context to plan, write, and execute code directly on the user's machine.
-  evidence:
-    - Repo description defines it as 'A natural language interface for computers' that runs code locally.
-    - README states it lets LLMs 'run code (Python, Javascript, Shell, and more) locally' via a ChatGPT-like terminal interface.
-    - Source list context confirms inclusion in 'awesome-local-ai' under the 'Agents' section with high ecosystem traction (63k stars).
+  status: pending
+  reason: null
+  evidence: []
 placement:
-  primary_category: coding-agents
-  section: Terminal & CLI Agents
+  primary_category: null
+  section: null
 lifecycle:
   status: promotion_candidate
-  reason: Stars (63394) exceeded threshold (150)
+  reason: Stars (63396) exceeded threshold (150)
 processing:
+  categorize:
+    status: deferred
+    updated_at: "2026-05-05T23:08:33.635Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-05-06T00:08:33.635Z"
+    attempts: 0
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.442Z"
+    updated_at: "2026-05-05T22:33:31.151Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:05.771Z"
+    updated_at: "2026-05-05T23:07:58.996Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:30:41.624Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

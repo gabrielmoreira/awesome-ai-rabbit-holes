@@ -1,6 +1,6 @@
 id: blogburst__ai
 kind: website
-name: blogburst.ai
+name: BlogBurst
 canonical_url: https://blogburst.ai
 identity: {}
 provenance:
@@ -39,9 +39,9 @@ insights:
   why_it_matters: It automates the social media and content marketing workload for developers who want to focus on shipping code rather than managing a brand presence.
   mental_damage: We have finally reached the point where the AI is better at pretending to be an enthusiastic founder on Twitter than the actual founder is.
   tags:
-    - marketing
     - agents
     - automation
+    - marketing
     - saas
   confidence: high
 curation:
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:42:34.733Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.726Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:42:34.733Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

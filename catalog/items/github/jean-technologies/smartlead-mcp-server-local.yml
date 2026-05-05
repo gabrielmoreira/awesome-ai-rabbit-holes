@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jean-technologies__smartlead-mcp-server-local__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T20:48:55.437Z"
+      discovered_at: "2026-05-05T22:33:31.148Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -32,30 +32,22 @@ metadata:
     description: Local version of Smartlead MCP for quick download and deployment to MCP compatible clients or n8n.
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:02:54.038Z"
+    last_checked_at: "2026-05-05T23:07:56.050Z"
     readme:
-      fetched_at: "2026-05-05T21:02:54.038Z"
+      fetched_at: "2026-05-05T23:07:56.050Z"
       bytes: 3405
 insights:
-  summary: A local MCP server that exposes Smartlead email marketing API features to AI assistants like Claude Desktop and automation tools like n8n.
-  why_it_matters: It allows developers to manage email campaigns, leads, and analytics directly through AI chat interfaces or workflow automations without writing custom API integration code.
-  mental_damage: We have successfully abstracted email marketing campaigns into tokens, meaning your AI can now ruin your deliverability while you watch it happen in a terminal.
-  tags:
-    - mcp
-    - email-marketing
-    - n8n
-    - api-wrapper
-    - automation
-  confidence: high
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
 curation:
-  status: included
-  reason: The project is explicitly an MCP server implementation designed to connect Smartlead to MCP-compatible clients, which fits directly into the MCP Servers and Tooling category.
-  evidence:
-    - Repo description states it is a 'Local version of Smartlead MCP for quick download and deployment to MCP compatible clients'.
-    - README confirms it provides a 'simplified interface to the Smartlead API' for 'AI assistants and automation tools' via MCP.
-    - Listed in the 'awesome-mcp-list' under the Communication section, confirming its identity as an MCP tool.
+  status: pending
+  reason: null
+  evidence: []
 placement:
-  primary_category: mcp
+  primary_category: null
   section: null
 lifecycle:
   status: incubating
@@ -63,19 +55,21 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.442Z"
+    updated_at: "2026-05-05T22:33:31.151Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:54.038Z"
+    updated_at: "2026-05-05T23:07:56.050Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-05T21:28:06.999Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
+    status: deferred
+    updated_at: "2026-05-05T23:08:33.635Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-05-06T00:08:33.635Z"
+    attempts: 0
     prompt_version: catalog-categorize-v2-baseline
     category_rules_version: 1b6cc5462ecc

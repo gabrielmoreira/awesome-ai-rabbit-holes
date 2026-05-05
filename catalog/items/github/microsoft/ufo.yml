@@ -1,6 +1,6 @@
 id: github__microsoft__ufo
 kind: github-repo
-name: ufo
+name: UFO
 canonical_url: https://github.com/microsoft/ufo
 identity:
   github_repo: microsoft/ufo
@@ -48,10 +48,10 @@ insights:
   mental_damage: Just when you thought your automation stack was complicated enough, Microsoft has gifted you a constellation of agents that require their own galaxy-scale DAG to click a button on Windows.
   tags:
     - agent-orchestration
-    - multi-device
-    - windows-automation
     - dag
     - microsoft
+    - multi-device
+    - windows-automation
   confidence: high
 curation:
   status: included
@@ -67,6 +67,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (8536) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:37:43.625Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.707Z"
@@ -77,11 +85,3 @@ processing:
     updated_at: "2026-05-05T21:03:39.766Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:37:43.625Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

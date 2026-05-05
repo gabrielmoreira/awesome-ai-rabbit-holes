@@ -1,6 +1,6 @@
 id: github__ironcladdev__langchain.js-llm-template
 kind: github-repo
-name: langchain.js-llm-template
+name: LangChain.js LLM Template
 canonical_url: https://github.com/ironcladdev/langchain.js-llm-template
 identity:
   github_repo: ironcladdev/langchain.js-llm-template
@@ -38,10 +38,11 @@ metadata:
       fetched_at: "2026-05-05T21:02:46.501Z"
       bytes: 783
 insights:
-  summary: A LangChain.js template for training a custom LLM on local markdown files using OpenAI embeddings and a vector store.
-  why_it_matters: It provides a minimal starting point for developers wanting to prototype a document-grounded Q&A bot without configuring a RAG pipeline from scratch.
-  mental_damage: Yet another 'train your own AI' template that basically wraps a vector store in a folder, proving that in 2023, 'training' was just a synonym for 'ingesting'.
+  summary: A LangChain.js starter template for building a custom LLM on private data using OpenAI embeddings and a local vector store.
+  why_it_matters: It provides a minimal, file-based workflow for developers to bootstrap a retrieval-augmented generation setup without wiring LangChain primitives from scratch.
+  mental_damage: Another 2023 relic where 'train your own LLM' really meant 'dump markdown files into a vector store and pray the cosine similarity holds.'
   tags:
+    - javascript
     - langchain
     - rag
     - template
@@ -49,8 +50,11 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: The repository is archived and has not been updated since April 2023, making it a stale example rather than an active developer tool.
+  reason: The repository is archived and has seen no meaningful updates since early 2023, making it a stale example rather than an active developer tool.
   evidence:
+    - "Archived: yes"
+    - "Pushed at: 2023-04-01 (over a year without updates)"
+    - README describes a basic LangChain vector-store tutorial, not a maintained product or framework
     - Repo is marked as archived.
     - Last push was 2023-04-01, over a year ago.
     - Project is a simple boilerplate fork rather than a maintained framework or product.
@@ -71,7 +75,7 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.683Z"
+    updated_at: "2026-05-05T20:48:55.440Z"
     cause: null
     next_retry_at: null
   stars:

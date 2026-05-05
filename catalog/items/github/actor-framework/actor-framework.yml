@@ -1,6 +1,6 @@
 id: github__actor-framework__actor-framework
 kind: github-repo
-name: actor-framework
+name: Actor Framework
 canonical_url: https://github.com/actor-framework/actor-framework
 identity:
   github_repo: actor-framework/actor-framework
@@ -48,8 +48,8 @@ insights:
   mental_damage: Yet another reminder that while we wait for AI agents to refactor our spaghetti into clean concurrency models, we still have to manually wire up message-passing C++ actors like it’s 2011.
   tags:
     - actor-model
-    - cpp
     - concurrency
+    - cpp
     - distributed-systems
   confidence: high
 curation:
@@ -66,6 +66,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (3414) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:05:48.065Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.676Z"
@@ -76,11 +84,3 @@ processing:
     updated_at: "2026-05-05T21:00:48.872Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:05:48.065Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

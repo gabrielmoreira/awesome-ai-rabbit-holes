@@ -1,6 +1,6 @@
 id: github__furey__mongodb-lens
 kind: github-repo
-name: mongodb-lens
+name: MongoDB Lens
 canonical_url: https://github.com/furey/mongodb-lens
 identity:
   github_repo: furey/mongodb-lens
@@ -79,11 +79,11 @@ insights:
   why_it_matters: It allows developers to inspect, query, and optimize MongoDB databases directly through their AI assistant rather than switching contexts to a database shell or admin UI.
   mental_damage: Finally, a way to write aggregation pipelines using the same confident-but-wrong natural language that your coding agent uses to write the application code consuming them.
   tags:
+    - database
+    - developer-tools
+    - llm-integration
     - mcp
     - mongodb
-    - database
-    - llm-integration
-    - developer-tools
   confidence: high
 curation:
   status: included
@@ -99,6 +99,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (201) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:20:21.152Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.660Z"
@@ -109,11 +117,3 @@ processing:
     updated_at: "2026-05-05T21:02:15.848Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:20:21.152Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

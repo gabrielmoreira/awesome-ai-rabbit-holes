@@ -1,6 +1,6 @@
 id: semgrep__dev
 kind: website
-name: semgrep.dev
+name: Semgrep
 canonical_url: https://semgrep.dev
 identity: {}
 provenance:
@@ -53,11 +53,11 @@ insights:
   why_it_matters: It integrates security scans and AI-assisted remediation directly into developer workflows like PRs, IDEs, and CLIs, aiming to reduce false positives and fix issues at the source.
   mental_damage: Just when you thought 'vibe coding' was safe, the security team deployed an AI that remembers every false positive you've ever dismissed to make sure you never ship a feature again.
   tags:
-    - security
-    - sast
     - ai-assisted
     - code-scanning
     - devsecops
+    - sast
+    - security
   confidence: high
 curation:
   status: included
@@ -73,6 +73,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:48:02.126Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.674Z"
@@ -82,11 +90,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:48:02.126Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

@@ -1,6 +1,6 @@
 id: www__imean__ai
 kind: website
-name: www.imean.ai
+name: iMean.AI
 canonical_url: https://www.imean.ai
 identity: {}
 provenance:
@@ -38,9 +38,9 @@ insights:
   why_it_matters: It does not; this is a consumer travel concierge with no developer workflow, API, or code-generation utility.
   mental_damage: We have reached the point where autonomous agent directories are confidently indexing SaaS products that help you book a honeymoon in Bali.
   tags:
-    - travel
     - ai-planner
     - consumer-saas
+    - travel
   confidence: high
 curation:
   status: excluded
@@ -56,6 +56,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:51:27.612Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.732Z"
@@ -65,11 +73,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:51:27.612Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

@@ -1,6 +1,6 @@
 id: github__minimaxir__simpleaichat
 kind: github-repo
-name: simpleaichat
+name: SimpleAIChat
 canonical_url: https://github.com/minimaxir/simpleaichat
 identity:
   github_repo: minimaxir/simpleaichat
@@ -43,11 +43,11 @@ insights:
   why_it_matters: It provides developers with a lightweight, async-friendly SDK to rapidly build custom AI chat workflows and agents without importing heavy, opaque frameworks.
   mental_damage: Yet another minimal Python wrapper promising to save you from boilerplate, right until you realize you've spent three hours tuning prompts to save five cents on tokens.
   tags:
+    - chatgpt
+    - framework
+    - llm
     - python
     - sdk
-    - chatgpt
-    - llm
-    - framework
   confidence: high
 curation:
   status: included
@@ -63,6 +63,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (3505) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:38:15.458Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.707Z"
@@ -73,11 +81,3 @@ processing:
     updated_at: "2026-05-05T21:03:42.666Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:38:15.458Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

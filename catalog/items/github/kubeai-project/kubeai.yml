@@ -1,13 +1,13 @@
 id: github__kubeai-project__kubeai
 kind: github-repo
-name: kubeai
+name: KubeAI
 canonical_url: https://github.com/kubeai-project/kubeai
 identity:
   github_repo: kubeai-project/kubeai
 provenance:
   discoveries:
     - id: discovery__github__substratusai__kubeai__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-05T20:48:55.437Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -55,11 +55,11 @@ insights:
   why_it_matters: It gives developers a zero-dependency, autoscaling control plane to run local or edge LLM inference on their own infrastructure without wiring together Istio, Knative, and custom autoscalers.
   mental_damage: Yet another heroic attempt to tame the Kubernetes complexity dragon by adding an operator that promises it just works, right up until you need to debug a custom resource definition at 2 a.m.
   tags:
+    - autoscaling
     - kubernetes
     - llm-inference
-    - vllm
     - ollama
-    - autoscaling
+    - vllm
   confidence: high
 curation:
   status: included
@@ -85,7 +85,7 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.719Z"
+    updated_at: "2026-05-05T20:48:55.443Z"
     cause: null
     next_retry_at: null
   stars:

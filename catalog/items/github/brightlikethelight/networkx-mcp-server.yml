@@ -22,6 +22,22 @@ provenance:
         extracted_url: https://github.com/bright-l01/networkx-mcp-server
         surrounding_text: "- [Bright-L01/networkx-mcp-server](https://github.com/Bright-L01/networkx-mcp-server) 🐍 🏠 - The first NetworkX integration for Model Context Protocol, enabling graph analysis and visualization directly in AI conversations. Supports 13 operations including centrality algorithms, community detection, PageRank, and graph visualization."
         confidence: high
+    - id: discovery__github__brightlikethelight__networkx-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T22:33:31.148Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧮 <a name="data-science-tools"></a>Data Science Tools
+        anchor_text: Bright-L01/networkx-mcp-server
+        extracted_url: https://github.com/bright-l01/networkx-mcp-server
+        surrounding_text: "- [Bright-L01/networkx-mcp-server](https://github.com/Bright-L01/networkx-mcp-server) 🐍 🏠 - The first NetworkX integration for Model Context Protocol, enabling graph analysis and visualization directly in AI conversations. Supports 13 operations including centrality algorithms, community detection, PageRank, and graph visualization."
+        confidence: high
 metadata:
   github:
     stars: 16
@@ -52,19 +68,23 @@ metadata:
       bytes: 5755
 insights:
   summary: A Model Context Protocol server that exposes NetworkX graph analysis and algorithm capabilities to MCP-compatible AI clients.
-  why_it_matters: It allows developers to perform advanced graph analysis, community detection, and network visualization directly within AI conversations and agent workflows without leaving the context.
-  mental_damage: The MCP ecosystem is now so granular that we have dedicated servers for graph theory, ensuring your AI assistant can calculate betweenness centrality while you still cannot calculate your own deployment timeline.
+  why_it_matters: It lets developers and AI agents perform advanced graph operations and network analysis directly within their AI-assisted workflows without leaving the conversation.
+  mental_damage: We have officially reached the point where we are packaging scientific computing libraries into protocol servers so our chatbots can draw graphs and call it agentic behavior.
   tags:
-    - mcp
+    - ai-tooling
+    - data-science
     - graph-analysis
+    - mcp
     - networkx
     - python
-    - ai-tooling
   confidence: high
 curation:
   status: included
-  reason: The project is a dedicated MCP server implementation providing graph analysis capabilities, which fits cleanly into the MCP Servers and Tooling category.
+  reason: The project is a dedicated MCP server implementation designed to expose graph analysis tools to MCP clients, which fits cleanly into the MCP Servers and Tooling category.
   evidence:
+    - Repo description explicitly calls it a 'NetworkX MCP server for graph analysis in AI conversations' with 'MCP integration'.
+    - README states it is a 'comprehensive Model Context Protocol (MCP) server providing advanced graph analysis capabilities'.
+    - Listed in awesome-mcp-servers under 'Data Science Tools', confirming its role as MCP infrastructure.
     - Repo description explicitly states 'First NetworkX MCP server' and lists 'MCP integration' as a core feature.
     - "README confirms 'Complete MCP Implementation: Full Model Context Protocol support with Tools, Resources, and Prompts'."
     - Topics include 'mcp-server' and 'mcp', and the architecture is built around serving graph functions via MCP.
@@ -85,7 +105,7 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.681Z"
+    updated_at: "2026-05-05T22:33:31.150Z"
     cause: null
     next_retry_at: null
   stars:

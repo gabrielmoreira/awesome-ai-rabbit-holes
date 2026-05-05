@@ -1,6 +1,6 @@
 id: github__dataelement__clawith
 kind: github-repo
-name: clawith
+name: Clawith
 canonical_url: https://github.com/dataelement/clawith
 identity:
   github_repo: dataelement/clawith
@@ -46,10 +46,10 @@ insights:
   why_it_matters: It lets developers spin up a multi-agent 'company' with RBAC, audit logs, and Slack/Discord integration instead of wiring together single-purpose scripts.
   mental_damage: You now have the infrastructure to hire a fully autonomous workforce, complete with org charts and performance anxiety, before you've fixed the failing CI build.
   tags:
-    - multi-agent
-    - orchestration
     - digital-employees
+    - multi-agent
     - open-source
+    - orchestration
   confidence: high
 curation:
   status: included
@@ -65,6 +65,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (3535) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:15:31.235Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.684Z"
@@ -75,11 +83,3 @@ processing:
     updated_at: "2026-05-05T21:01:47.290Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:15:31.235Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

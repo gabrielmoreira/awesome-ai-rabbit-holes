@@ -1,6 +1,6 @@
 id: codestory__ai
 kind: website
-name: codestory.ai
+name: Aide by Codestory
 canonical_url: https://codestory.ai
 identity: {}
 provenance:
@@ -38,8 +38,8 @@ insights:
   why_it_matters: It offers a dedicated autonomous agent for developers looking to offload coding, review, or debugging tasks to a specialized AI tool.
   mental_damage: We have reached the point where we are curating the curators of the agents that help us review the code the other agents wrote.
   tags:
-    - coding-agent
     - autonomous
+    - coding-agent
     - developer-tool
   confidence: medium
 curation:
@@ -55,6 +55,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:43:07.030Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.726Z"
@@ -64,11 +72,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:43:07.030Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

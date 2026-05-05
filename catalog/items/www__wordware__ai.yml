@@ -1,6 +1,6 @@
 id: www__wordware__ai
 kind: website
-name: www.wordware.ai
+name: Wordware
 canonical_url: https://www.wordware.ai
 identity: {}
 provenance:
@@ -54,8 +54,8 @@ insights:
   mental_damage: Another YC-backed startup has decided that words are the new programming language, meaning your job is now explaining 'taste' to an LLM in a beachside office.
   tags:
     - ai-assistant
-    - workflow-automation
     - context-management
+    - workflow-automation
     - yc-startup
   confidence: high
 curation:
@@ -72,6 +72,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:54:11.197Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.675Z"
@@ -81,11 +89,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:54:11.197Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

@@ -1,6 +1,6 @@
 id: github__agentset-ai__agentset
 kind: github-repo
-name: agentset
+name: Agentset
 canonical_url: https://github.com/agentset-ai/agentset
 identity:
   github_repo: agentset-ai/agentset
@@ -53,11 +53,11 @@ insights:
   why_it_matters: It gives developers a turnkey, model-agnostic stack to ship RAG-powered apps quickly without having to hand-roll ingestion and evaluation pipelines.
   mental_damage: Yet another promise that you can finally stop worrying about retrieval quality, right before you spend three days tuning chunk sizes and wondering why your citations look hallucinated.
   tags:
-    - rag
     - agentic-rag
-    - mcp
-    - llm
     - embeddings
+    - llm
+    - mcp
+    - rag
   confidence: high
 curation:
   status: included
@@ -73,6 +73,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (1980) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:06:26.489Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.677Z"
@@ -83,11 +91,3 @@ processing:
     updated_at: "2026-05-05T21:00:52.799Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:06:26.489Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__arthurpanhku__arthor-agent__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T20:48:55.437Z"
+      discovered_at: "2026-05-05T22:33:31.148Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -45,30 +45,22 @@ metadata:
       - rag
       - security
       - security-assessment
-    last_checked_at: "2026-05-05T21:01:10.257Z"
+    last_checked_at: "2026-05-05T23:07:42.565Z"
     readme:
-      fetched_at: "2026-05-05T21:01:10.257Z"
+      fetched_at: "2026-05-05T23:07:42.565Z"
       bytes: 19595
 insights:
-  summary: An AI-powered Secure Software Development Lifecycle (SSDLC) platform that uses LangGraph agents to automate security assessments across all six phases of development, from requirements to operations.
-  why_it_matters: It shifts security left by automating the tedious review of documents, threat modeling, and SAST/DAST triage directly into CI/CD pipelines and developer workflows.
-  mental_damage: Finally, an AI agent to automate the security paperwork so you can get back to shipping the vulnerabilities faster.
-  tags:
-    - security
-    - ssdlc
-    - langgraph
-    - mcp
-    - compliance
-  confidence: high
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
 curation:
-  status: included
-  reason: It is a user-facing platform using LangGraph to coordinate multiple specialized AI agents across the software lifecycle, fitting the orchestration category rather than a simple coding assistant.
-  evidence:
-    - README describes 'stateful, graph-based agent workflows' orchestrated by LangGraph with dedicated personas for each SSDLC phase.
-    - Built as a headless API + MCP service intended to integrate into CI/CD pipelines and existing security workflows.
-    - Listed in awesome-mcp-servers under 'Knowledge & Memory' implementations, confirming its role as agent infrastructure.
+  status: pending
+  reason: null
+  evidence: []
 placement:
-  primary_category: agent-orchestration
+  primary_category: null
   section: null
 lifecycle:
   status: incubating
@@ -76,19 +68,21 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.440Z"
+    updated_at: "2026-05-05T22:33:31.150Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:10.257Z"
+    updated_at: "2026-05-05T23:07:42.565Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-05T21:09:08.324Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
+    status: deferred
+    updated_at: "2026-05-05T23:08:33.635Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-05-06T00:08:33.635Z"
+    attempts: 0
     prompt_version: catalog-categorize-v2-baseline
     category_rules_version: 1b6cc5462ecc

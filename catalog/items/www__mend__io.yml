@@ -1,6 +1,6 @@
 id: www__mend__io
 kind: website
-name: www.mend.io
+name: Mend (WhiteSource)
 canonical_url: https://www.mend.io
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It integrates into developer workflows to automate the detection and remediation of security risks in the software supply chain.
   mental_damage: Because nothing says 'agile' like paying a SaaS platform to yell at you for using a package that was patched twelve minutes after you pushed to production.
   tags:
+    - compliance
     - security
     - supply-chain
     - vulnerability-scanning
-    - compliance
   confidence: high
 curation:
   status: excluded
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:51:57.166Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.733Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:51:57.166Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

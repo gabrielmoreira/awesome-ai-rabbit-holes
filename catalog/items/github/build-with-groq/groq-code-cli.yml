@@ -1,6 +1,6 @@
 id: github__build-with-groq__groq-code-cli
 kind: github-repo
-name: groq-code-cli
+name: Groq Code CLI
 canonical_url: https://github.com/build-with-groq/groq-code-cli
 identity:
   github_repo: build-with-groq/groq-code-cli
@@ -44,10 +44,10 @@ insights:
   mental_damage: "Just what the ecosystem needed: another CLI agent, but this one helpfully suggests you rewrite the CLI agent itself as a productivity exercise."
   tags:
     - cli
-    - groq
     - coding-agent
-    - terminal
+    - groq
     - open-source
+    - terminal
   confidence: high
 curation:
   status: included
@@ -63,6 +63,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (726) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:11:52.854Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.681Z"
@@ -73,11 +81,3 @@ processing:
     updated_at: "2026-05-05T21:01:26.877Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:11:52.854Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

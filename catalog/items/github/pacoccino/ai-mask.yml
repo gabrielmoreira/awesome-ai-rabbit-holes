@@ -1,13 +1,13 @@
 id: github__pacoccino__ai-mask
 kind: github-repo
-name: ai-mask
+name: AI-Mask
 canonical_url: https://github.com/pacoccino/ai-mask
 identity:
   github_repo: pacoccino/ai-mask
 provenance:
   discoveries:
     - id: discovery__github__pacoccino__ai-mask__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-05T20:48:55.437Z"
+      discovered_at: "2026-05-05T22:33:31.148Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -38,50 +38,44 @@ metadata:
       - machine-learning
       - wasm
       - webgpu
-    last_checked_at: "2026-05-05T21:04:10.976Z"
+    last_checked_at: "2026-05-05T23:08:04.457Z"
     readme:
-      fetched_at: "2026-05-05T21:04:10.976Z"
+      fetched_at: "2026-05-05T23:08:04.457Z"
       bytes: 5788
 insights:
-  summary: A Chrome extension that runs local AI models via WebGPU and WASM and exposes them to web apps through a unified SDK, acting as a local inference provider for the browser.
-  why_it_matters: It lets developers build web apps that run inference entirely on the user's device, eliminating API keys, backend proxies, and redundant model downloads across domains.
-  mental_damage: We have successfully rebuilt the crypto-wallet pattern for AI, so now your browser extension can guard your LLM access with the same comforting friction.
-  tags:
-    - local-ai
-    - chrome-extension
-    - webgpu
-    - on-device
-    - inference
-  confidence: medium
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
 curation:
-  status: included
-  reason: The project is a local inference tool that serves on-device AI models to web applications via a browser extension and SDK, fitting cleanly into Local AI.
-  evidence:
-    - "Repo description states: 'Serve local ML inference engines to web apps'"
-    - "README: 'AI-Mask is a chrome web extension that serves as a local provider to AI models execution. It runs model on-device for web apps.'"
-    - Seen in awesome-local-ai under Inference UI, aligning with local execution focus.
+  status: pending
+  reason: null
+  evidence: []
 placement:
-  primary_category: local-ai
+  primary_category: null
   section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: deferred
+    updated_at: "2026-05-05T23:08:33.635Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-05-06T00:08:33.635Z"
+    attempts: 0
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.443Z"
+    updated_at: "2026-05-05T22:33:31.151Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:10.976Z"
+    updated_at: "2026-05-05T23:08:04.457Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:43:34.638Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

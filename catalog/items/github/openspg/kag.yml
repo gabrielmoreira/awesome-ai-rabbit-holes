@@ -1,6 +1,6 @@
 id: github__openspg__kag
 kind: github-repo
-name: kag
+name: KAG
 canonical_url: https://github.com/openspg/kag
 identity:
   github_repo: openspg/kag
@@ -46,11 +46,11 @@ insights:
   why_it_matters: It provides developers with a structured way to move beyond naive vector similarity retrieval by integrating knowledge graph reasoning directly into LLM workflows.
   mental_damage: Just when you thought RAG was solved, you now have to decide if your vectors need a graph topology and a logic solver to feel academically adequate.
   tags:
-    - rag
+    - framework
     - knowledge-graph
     - llm
+    - rag
     - reasoning
-    - framework
   confidence: high
 curation:
   status: included
@@ -66,6 +66,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (8713) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:42:56.786Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.711Z"
@@ -76,11 +84,3 @@ processing:
     updated_at: "2026-05-05T21:04:07.179Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:42:56.786Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

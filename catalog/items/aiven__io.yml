@@ -1,6 +1,6 @@
 id: aiven__io
 kind: website
-name: aiven.io
+name: Aiven projects
 canonical_url: https://aiven.io
 identity: {}
 provenance:
@@ -54,10 +54,10 @@ insights:
   why_it_matters: It offers an MCP interface that allows AI agents and coding assistants to directly interact with and manage production-grade data infrastructure across major cloud providers.
   mental_damage: We have successfully abstracted infrastructure management so far that your AI agent can now provision a Kafka cluster while you argue with it about why the bill is so high.
   tags:
-    - mcp
+    - cloud
     - data-infrastructure
     - managed-services
-    - cloud
+    - mcp
   confidence: high
 curation:
   status: included
@@ -73,6 +73,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:41:47.160Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.673Z"
@@ -82,11 +90,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:41:47.160Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

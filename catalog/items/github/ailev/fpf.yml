@@ -1,6 +1,6 @@
 id: github__ailev__fpf
 kind: github-repo
-name: fpf
+name: FPF
 canonical_url: https://github.com/ailev/fpf
 identity:
   github_repo: ailev/fpf
@@ -53,10 +53,10 @@ insights:
   why_it_matters: It provides a structured, spec-driven methodology for teams to align vocabulary, responsibilities, and decision criteria when collaborating with AI agents on complex, long-running problems.
   mental_damage: Because the missing piece in your AI-assisted workflow was definitely a 30-pattern ontological framework to prevent your LLM from forgetting what 'boundary' means.
   tags:
-    - spec-driven
     - agent-orchestration
-    - human-ai-collab
     - decision-records
+    - human-ai-collab
+    - spec-driven
   confidence: high
 curation:
   status: included
@@ -72,6 +72,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (346) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:06:58.052Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.677Z"
@@ -82,11 +90,3 @@ processing:
     updated_at: "2026-05-05T21:00:55.721Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:06:58.052Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

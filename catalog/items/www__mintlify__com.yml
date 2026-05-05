@@ -1,6 +1,6 @@
 id: www__mintlify__com
 kind: website
-name: www.mintlify.com
+name: Mintlify
 canonical_url: https://www.mintlify.com
 identity: {}
 provenance:
@@ -38,11 +38,11 @@ insights:
   why_it_matters: It allows developer teams to automate the creation and upkeep of documentation while ensuring their content is optimized for both human readers and AI workflows like LLM training and context retrieval.
   mental_damage: We’ve successfully reached the point where documentation is no longer written for the humans who use the software, but primarily for the agents that will eventually replace them.
   tags:
-    - documentation
     - ai-native
-    - mcp
-    - llms.txt
+    - documentation
     - knowledge-base
+    - llms.txt
+    - mcp
   confidence: high
 curation:
   status: excluded
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:52:07.183Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.733Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:52:07.183Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

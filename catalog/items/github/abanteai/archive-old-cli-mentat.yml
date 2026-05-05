@@ -1,13 +1,13 @@
 id: github__abanteai__archive-old-cli-mentat
 kind: github-repo
-name: cli
+name: Mentat CLI
 canonical_url: https://github.com/abanteai/archive-old-cli-mentat
 identity:
   github_repo: abanteai/archive-old-cli-mentat
 provenance:
   discoveries:
     - id: discovery__github__biobootloader__mentat__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-05T20:48:55.437Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -22,7 +22,7 @@ provenance:
         surrounding_text: "## [Mentat](https://github.com/biobootloader/mentat)"
         confidence: high
     - id: discovery__mentat__ai__docs__cli__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-05T22:47:06.910Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -52,6 +52,21 @@ provenance:
         extracted_url: https://mentat.ai
         surrounding_text: "- **[Mentat](https://mentat.ai/)** – AI coding assistant for command-line development."
         confidence: high
+    - id: discovery__github__abanteai__archive-old-cli-mentat__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T22:33:31.148Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Mentat
+        anchor_text: Mentat
+        extracted_url: https://github.com/biobootloader/mentat
+        surrounding_text: "## [Mentat](https://github.com/biobootloader/mentat)"
+        confidence: high
 metadata:
   github:
     stars: 2555
@@ -63,18 +78,23 @@ metadata:
     description: null
     homepage: https://mentat.ai
     topics: []
-    last_checked_at: "2026-05-05T21:00:46.747Z"
+    last_checked_at: "2026-05-05T21:01:21.417Z"
     readme:
-      fetched_at: "2026-05-05T21:00:46.747Z"
+      fetched_at: "2026-05-05T21:01:21.417Z"
       bytes: 495
 insights:
   summary: An archived command-line tool that was an early AI coding assistant, now superseded by a different hosted GitHub bot project called Mentat.
   why_it_matters: It represents an early iteration of CLI-based AI coding assistance that helped pioneer the local-agent workflow before the project shifted to a hosted service.
   mental_damage: We dutifully archive the tools that dared to run on our own metal, only to be told the real future is a hosted bot we can't self-host.
   tags:
-    - cli
     - archived
+    - cli
+    - cli-agent
     - coding-agent
+    - github-bot
+    - pivot
+    - repo-editing
+    - terminal
   confidence: high
 curation:
   status: excluded
@@ -83,6 +103,9 @@ curation:
     - "README header states: 'ARCHIVED PROJECT' and 'no longer maintained or supported'"
     - README directs users to a different project at mentat.ai, indicating this code is legacy
     - Repository archived flag is true
+    - "README states: 'This repository contains an archived version of an old command-line tool that is no longer maintained or supported.'"
+    - README directs users to mentat.ai for the new 'AI-powered GitHub bot', indicating this repo is not the active product.
+    - "Repository metadata confirms 'archived: yes'."
 placement:
   primary_category: null
   section: null
@@ -92,19 +115,19 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-05-05T21:04:41.740Z"
+    updated_at: "2026-05-05T21:10:53.101Z"
     cause: null
-    attempts: 2
+    next_retry_at: null
+    attempts: 1
     prompt_version: catalog-categorize-v2-baseline
     category_rules_version: 1b6cc5462ecc
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.729Z"
+    updated_at: "2026-05-05T22:47:06.911Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:00:46.747Z"
+    updated_at: "2026-05-05T21:01:21.417Z"
     cause: null
     next_retry_at: null

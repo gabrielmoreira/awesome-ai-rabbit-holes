@@ -1,6 +1,6 @@
 id: github__dushyant30suthar__endiagram-mcp
 kind: github-repo
-name: endiagram-mcp
+name: endiagram/mcp
 canonical_url: https://github.com/dushyant30suthar/endiagram-mcp
 identity:
   github_repo: dushyant30suthar/endiagram-mcp
@@ -42,10 +42,10 @@ insights:
   why_it_matters: It lets developers ask an AI agent to validate system architecture, check for deadlocks, and verify invariants without the AI guessing—backed by actual math instead of vibes.
   mental_damage: We have finally reached the point where the AI admits it doesn't know your system is broken and politely hands the question to a graph-theory oracle that actually does.
   tags:
-    - mcp
     - architecture
-    - graph-theory
     - developer-tools
+    - graph-theory
+    - mcp
   confidence: medium
 curation:
   status: included
@@ -61,6 +61,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:17:20.476Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.685Z"
@@ -71,11 +79,3 @@ processing:
     updated_at: "2026-05-05T21:01:57.861Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:17:20.476Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

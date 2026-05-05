@@ -21,6 +21,36 @@ provenance:
         extracted_url: https://github.com/gotohuman/gotohuman-mcp-server
         surrounding_text: "- **[gotoHuman](https://github.com/gotohuman/gotohuman-mcp-server)** - Human-in-the-loop platform - Allow AI agents and automations to send requests for approval to your [gotoHuman](https://www.gotohuman.com) inbox."
         confidence: high
+    - id: discovery__www__gotohuman__com__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T22:47:06.910Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: gotoHuman
+        extracted_url: https://www.gotohuman.com
+        surrounding_text: "- **[gotoHuman](https://github.com/gotohuman/gotohuman-mcp-server)** - Human-in-the-loop platform - Allow AI agents and automations to send requests for approval to your [gotoHuman](https://www.gotohuman.com) inbox."
+        confidence: high
+    - id: discovery__www__gotohuman__com__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T22:47:06.910Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - LLMOps
+        anchor_text: gotoHuman
+        extracted_url: https://www.gotohuman.com
+        surrounding_text: "| [gotoHuman](https://www.gotohuman.com)                             | Bring a **human into the loop** in your LLM-based and agentic workflows. Prompt users to approve actions, select next steps, or review and validate generated results.                                                                                                                                                                                                                                  |"
+        confidence: high
 metadata:
   github:
     stars: 54
@@ -41,10 +71,11 @@ insights:
   why_it_matters: It gives developers a drop-in way to add human oversight to autonomous agent workflows, helping prevent agents from silently making bad decisions without building a custom review system.
   mental_damage: We have finally built the corporate approval layer for the thing that was supposed to eliminate the corporate approval layer.
   tags:
-    - mcp
-    - human-in-the-loop
     - agent-orchestration
     - approval-workflow
+    - human-in-the-loop
+    - mcp
+    - workflow-automation
   confidence: high
 curation:
   status: included
@@ -53,6 +84,9 @@ curation:
     - README explicitly states 'Use our MCP server to request human approvals from your AI workflows via MCP'
     - Provides MCP configuration examples for Cursor, Claude, and Windsurf with npx @gotohuman/mcp-server
     - Listed in awesome-mcp-servers directory under Official Servers section
+    - Site describes it as 'a central control plane for your team to approve actions' and 'supervise AI agents in one unified platform'.
+    - Provides integrations and SDKs for n8n, Make, LangGraph, and Python/TypeScript, plus an MCP server for broad workflow adoption.
+    - Listed in awesome-mcp-servers and Awesome-LLMOps under human approval and agent supervision contexts.
 placement:
   primary_category: mcp
   section: null
@@ -60,16 +94,6 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  discover:
-    status: done
-    updated_at: "2026-05-05T19:41:00.689Z"
-    cause: null
-    next_retry_at: null
-  stars:
-    status: done
-    updated_at: "2026-05-05T21:02:25.390Z"
-    cause: null
-    next_retry_at: null
   categorize:
     status: done
     updated_at: "2026-05-05T21:22:26.021Z"
@@ -78,3 +102,13 @@ processing:
     attempts: 1
     prompt_version: catalog-categorize-v2-baseline
     category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T22:47:06.910Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:25.390Z"
+    cause: null
+    next_retry_at: null

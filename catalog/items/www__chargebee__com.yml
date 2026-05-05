@@ -1,6 +1,6 @@
 id: www__chargebee__com
 kind: website
-name: www.chargebee.com
+name: Chargebee platform
 canonical_url: https://www.chargebee.com
 identity: {}
 provenance:
@@ -54,11 +54,11 @@ insights:
   why_it_matters: It offers developer-friendly APIs and SDKs (TypeScript, Python, Go, etc.) to integrate complex billing models, including usage-based pricing for AI apps, directly into software products.
   mental_damage: Yet another 'AI-ready' billing platform reminds us that while we can generate entire applications in seconds, we still need enterprise-grade dashboards to figure out how to charge for them.
   tags:
+    - api
     - billing
+    - finops
     - payments
     - saas
-    - api
-    - finops
   confidence: high
 curation:
   status: excluded
@@ -74,6 +74,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:50:03.349Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.675Z"
@@ -83,11 +91,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:50:03.349Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

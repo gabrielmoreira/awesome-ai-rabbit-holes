@@ -1,6 +1,6 @@
 id: www__testim__io
 kind: website
-name: www.testim.io
+name: Testim
 canonical_url: https://www.testim.io
 identity: {}
 provenance:
@@ -38,11 +38,11 @@ insights:
   why_it_matters: It uses AI and ML to author tests via natural language and self-healing locators to reduce the maintenance burden for developers and QA teams integrating with CI/CD pipelines.
   mental_damage: Just when you thought 'self-healing tests' meant you could finally stop fixing your test suite, you now have to manage the AI agent that is busy breaking them in new, more autonomous ways.
   tags:
-    - testing
-    - qa
     - ai-powered
     - ci-cd
+    - qa
     - salesforce
+    - testing
   confidence: high
 curation:
   status: excluded
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:53:43.054Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.734Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:53:43.054Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

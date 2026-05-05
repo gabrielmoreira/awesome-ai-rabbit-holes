@@ -1,6 +1,6 @@
 id: github__evalsone__mcp-connect
 kind: github-repo
-name: mcp-connect
+name: MCP-Connect
 canonical_url: https://github.com/evalsone/mcp-connect
 identity:
   github_repo: evalsone/mcp-connect
@@ -41,11 +41,11 @@ insights:
   why_it_matters: It lets cloud-based AI services securely call local MCP servers over HTTP, bridging local tooling with remote agents without rewriting servers.
   mental_damage: We have invented a protocol to tunnel a protocol so that a cloud agent can pretend your laptop is its USB peripheral.
   tags:
-    - mcp
-    - http-bridge
-    - stdio
-    - local-ai
     - gateway
+    - http-bridge
+    - local-ai
+    - mcp
+    - stdio
   confidence: high
 curation:
   status: included
@@ -61,6 +61,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (236) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:18:36.852Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.686Z"
@@ -71,11 +79,3 @@ processing:
     updated_at: "2026-05-05T21:02:05.823Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:18:36.852Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

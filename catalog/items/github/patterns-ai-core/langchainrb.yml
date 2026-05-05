@@ -1,6 +1,6 @@
 id: github__patterns-ai-core__langchainrb
 kind: github-repo
-name: langchainrb
+name: LangchainRb
 canonical_url: https://github.com/patterns-ai-core/langchainrb
 identity:
   github_repo: patterns-ai-core/langchainrb
@@ -44,20 +44,24 @@ metadata:
       fetched_at: "2026-05-05T21:04:13.410Z"
       bytes: 27200
 insights:
-  summary: A Ruby gem providing a unified interface for LLMs, prompt management, output parsers, RAG systems, and assistants to build AI-powered applications.
-  why_it_matters: It allows Ruby and Rails developers to integrate LLMs, embeddings, and RAG workflows into their applications without writing provider-specific boilerplate.
-  mental_damage: Yet another ecosystem inevitably fragments as it rebuilds the same LLM abstraction layer, ensuring Rubyists can now argue about prompt templates just as vigorously as their Python counterparts.
+  summary: A Ruby gem providing a unified interface for LLMs, RAG pipelines, and assistants to build AI-powered applications in Ruby.
+  why_it_matters: It allows Ruby and Rails developers to integrate multiple LLM providers, embeddings, and RAG workflows without rewriting infrastructure for every new model release.
+  mental_damage: Now you can orchestrate sophisticated agent workflows in Ruby, just in time for the rest of the ecosystem to rewrite everything in TypeScript for the fourth time this year.
   tags:
-    - ruby
+    - agents
+    - framework
     - llm
     - rag
-    - framework
+    - ruby
     - sdk
   confidence: high
 curation:
   status: included
-  reason: This is a code-first Ruby SDK/framework for embedding AI capabilities into applications, fitting the AI Frameworks category rather than an end-user coding agent or app builder.
+  reason: This is a code-first Ruby SDK and framework for building LLM applications, fitting cleanly into AI Frameworks and SDKs rather than an end-user agent or builder.
   evidence:
+    - "Repo description states: 'Build LLM-powered applications in Ruby'"
+    - README details a unified LLM interface, RAG building blocks, and assistant patterns as importable library code
+    - Listed in awesome-langchain under 'Ports to other languages', confirming its role as a developer framework
     - "Repo description states: 'Build LLM-powered applications in Ruby'."
     - README details a unified LLM interface, prompt management, and RAG building blocks for developers to use in code.
     - Topics include 'agents' and 'machine-learning', but the primary artifact is an importable library/gem.
@@ -78,7 +82,7 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.678Z"
+    updated_at: "2026-05-05T20:48:55.440Z"
     cause: null
     next_retry_at: null
   stars:

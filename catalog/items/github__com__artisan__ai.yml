@@ -1,6 +1,6 @@
 id: github__com__artisan__ai
 kind: website
-name: Artisan-AI
+name: Artisian AI
 canonical_url: https://github.com/Artisan-AI
 identity: {}
 provenance:
@@ -38,9 +38,9 @@ insights:
   why_it_matters: It represents the trend of vertical AI agents aimed at replacing human-led outbound sales, though it offers no developer-facing tooling or APIs for software engineers to integrate into their workflows.
   mental_damage: We have officially entered the era of 'AI Employees' where the GitHub organization is just a ghost town of forks, proving that even AI startups need a placeholder repo to look legitimate to developers.
   tags:
-    - sales-automation
     - ai-employees
     - outbound
+    - sales-automation
   confidence: high
 curation:
   status: excluded
@@ -56,6 +56,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:44:46.862Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.728Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:44:46.862Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

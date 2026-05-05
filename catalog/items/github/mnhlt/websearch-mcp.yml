@@ -1,6 +1,6 @@
 id: github__mnhlt__websearch-mcp
 kind: github-repo
-name: websearch-mcp
+name: WebSearch-MCP
 canonical_url: https://github.com/mnhlt/websearch-mcp
 identity:
   github_repo: mnhlt/websearch-mcp
@@ -43,11 +43,11 @@ insights:
   why_it_matters: It allows developers to give their local MCP-compatible agents real-time web access without relying on hosted search APIs or leaking queries to third parties.
   mental_damage: Another essential brick in the tower of infrastructure we are building so our AI can browse the web while we are busy configuring Docker containers for the crawler that browses the web.
   tags:
+    - docker
     - mcp
-    - web-search
     - self-hosted
     - stdio
-    - docker
+    - web-search
   confidence: high
 curation:
   status: included
@@ -63,6 +63,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:38:36.271Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.708Z"
@@ -73,11 +81,3 @@ processing:
     updated_at: "2026-05-05T21:03:44.386Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:38:36.271Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

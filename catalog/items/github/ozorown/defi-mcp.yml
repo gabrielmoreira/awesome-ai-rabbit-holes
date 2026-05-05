@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ozorown__defi-mcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T20:48:55.437Z"
+      discovered_at: "2026-05-05T22:33:31.148Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -46,30 +46,22 @@ metadata:
       - model-context-protocol
       - solana
       - web3
-    last_checked_at: "2026-05-05T21:04:10.061Z"
+    last_checked_at: "2026-05-05T23:08:04.152Z"
     readme:
-      fetched_at: "2026-05-05T21:04:10.061Z"
+      fetched_at: "2026-05-05T23:08:04.152Z"
       bytes: 7606
 insights:
-  summary: An MCP server providing 12 tools for live DeFi and crypto data, including token prices, wallet balances, gas fees, and DEX swap quotes for EVM chains and Solana.
-  why_it_matters: It gives MCP-compatible AI assistants like Claude and Cursor direct access to on-chain data without requiring developers to wire up their own API keys or RPC nodes.
-  mental_damage: We have successfully abstracted away the last remaining barrier to asking an LLM for the price of Ethereum while pretending we are doing serious engineering work.
-  tags:
-    - mcp
-    - defi
-    - crypto
-    - web3
-    - tools
-  confidence: high
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
 curation:
-  status: included
-  reason: This is a dedicated MCP server that extends AI developer tools with DeFi capabilities, fitting cleanly into the MCP category.
-  evidence:
-    - Repo description explicitly states 'MCP server for DeFi & crypto' and lists compatible MCP hosts like Claude Desktop and Cursor.
-    - README details 12 specific MCP tools for token prices, wallet balances, gas fees, and DEX quotes.
-    - Listed in the awesome-mcp-list under the Finance & Fintech section.
+  status: pending
+  reason: null
+  evidence: []
 placement:
-  primary_category: mcp
+  primary_category: null
   section: null
 lifecycle:
   status: incubating
@@ -77,19 +69,21 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.443Z"
+    updated_at: "2026-05-05T22:33:31.151Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:10.061Z"
+    updated_at: "2026-05-05T23:08:04.152Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-05T21:43:26.645Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
+    status: deferred
+    updated_at: "2026-05-05T23:08:33.635Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-05-06T00:08:33.635Z"
+    attempts: 0
     prompt_version: catalog-categorize-v2-baseline
     category_rules_version: 1b6cc5462ecc

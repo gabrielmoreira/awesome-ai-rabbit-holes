@@ -1,13 +1,13 @@
 id: github__conner1115__langchain.js-llm-template
 kind: github-repo
-name: langchain.js-llm-template
+name: LangChain.js LLM Template
 canonical_url: https://github.com/conner1115/langchain.js-llm-template
 identity:
   github_repo: conner1115/langchain.js-llm-template
 provenance:
   discoveries:
     - id: discovery__github__conner1115__langchain.js-llm-template__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-05T20:48:55.437Z"
+      discovered_at: "2026-05-05T22:33:31.148Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -33,28 +33,20 @@ metadata:
     description: This is a LangChain LLM template that allows you to train your own custom AI LLM.
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:01:40.718Z"
+    last_checked_at: "2026-05-05T23:07:46.410Z"
     readme:
-      fetched_at: "2026-05-05T21:01:40.718Z"
+      fetched_at: "2026-05-05T23:07:46.410Z"
       bytes: 783
 insights:
-  summary: A LangChain.js starter template for building a custom LLM on private data using OpenAI embeddings and a local vector store.
-  why_it_matters: It provides a minimal, file-based workflow for developers to bootstrap a retrieval-augmented generation setup without wiring LangChain primitives from scratch.
-  mental_damage: Another 2023 relic where 'train your own LLM' really meant 'dump markdown files into a vector store and pray the cosine similarity holds.'
-  tags:
-    - langchain
-    - rag
-    - template
-    - vector-store
-    - javascript
-  confidence: high
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
 curation:
-  status: excluded
-  reason: The repository is archived and has seen no meaningful updates since early 2023, making it a stale example rather than an active developer tool.
-  evidence:
-    - "Archived: yes"
-    - "Pushed at: 2023-04-01 (over a year without updates)"
-    - README describes a basic LangChain vector-store tutorial, not a maintained product or framework
+  status: pending
+  reason: null
+  evidence: []
 placement:
   primary_category: null
   section: null
@@ -62,21 +54,23 @@ lifecycle:
   status: needs_review
   reason: Repository is archived
 processing:
+  categorize:
+    status: deferred
+    updated_at: "2026-05-05T23:08:33.635Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-05-06T00:08:33.635Z"
+    attempts: 0
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.440Z"
+    updated_at: "2026-05-05T22:33:31.150Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:40.718Z"
+    updated_at: "2026-05-05T23:07:46.410Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:14:18.934Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

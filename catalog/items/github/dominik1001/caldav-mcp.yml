@@ -1,6 +1,6 @@
 id: github__dominik1001__caldav-mcp
 kind: github-repo
-name: caldav-mcp
+name: CalDAV MCP
 canonical_url: https://github.com/dominik1001/caldav-mcp
 identity:
   github_repo: dominik1001/caldav-mcp
@@ -45,11 +45,11 @@ insights:
   why_it_matters: Developers can wire AI agents into their existing CalDAV calendars, allowing assistants to create, update, and delete events directly from coding workflows or chat interfaces.
   mental_damage: We have successfully reached the point where your AI needs a standardized protocol to argue with your calendar about whether that meeting actually happened.
   tags:
-    - mcp
     - caldav
-    - typescript
     - calendar
+    - mcp
     - tools
+    - typescript
   confidence: high
 curation:
   status: included
@@ -65,6 +65,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:16:51.672Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.685Z"
@@ -75,11 +83,3 @@ processing:
     updated_at: "2026-05-05T21:01:55.896Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:16:51.672Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

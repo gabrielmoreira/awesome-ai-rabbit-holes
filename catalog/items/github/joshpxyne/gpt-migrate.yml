@@ -1,11 +1,26 @@
 id: github__joshpxyne__gpt-migrate
 kind: github-repo
-name: gpt-migrate
+name: GPT Migrate
 canonical_url: https://github.com/joshpxyne/gpt-migrate
 identity:
   github_repo: joshpxyne/gpt-migrate
 provenance:
   discoveries:
+    - id: discovery__github__0xpayne__gpt-migrate__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - GPT Migrate
+        anchor_text: GPT Migrate
+        extracted_url: https://github.com/0xpayne/gpt-migrate
+        surrounding_text: "## [GPT Migrate](https://github.com/0xpayne/gpt-migrate)"
+        confidence: high
     - id: discovery__github__0xpayne__gpt-migrate__awesome-list__kyrolabs__awesome-langchain
       discovered_at: "2026-05-05T19:41:00.656Z"
       source:
@@ -53,20 +68,24 @@ metadata:
       fetched_at: "2026-05-05T21:02:58.870Z"
       bytes: 10078
 insights:
-  summary: A CLI tool that uses LLMs to migrate an existing codebase from one language or framework to another, generating and testing the new code locally.
-  why_it_matters: It attempts to automate the costly, tedious process of language or framework migration by having an AI model rewrite and validate the codebase.
-  mental_damage: Finally, a tool that lets you escape your framework's golden handcuffs by entrusting your entire legacy codebase to an API that might hallucinate your authentication logic in a new syntax.
+  summary: A CLI tool that uses LLMs to migrate an existing codebase from one language or framework to another, including generating tests and Dockerfiles.
+  why_it_matters: It attempts to automate the costly, tedious process of framework or language migration by having an AI rewrite and test the entire codebase.
+  mental_damage: Finally, an autonomous agent that can confidently introduce breaking changes across your entire stack while racking up a GPT-4-32k bill in the process.
   tags:
-    - migration
     - cli
+    - code-migration
     - codebase-refactor
+    - langchain
     - llm
+    - migration
   confidence: high
 curation:
   status: included
-  reason: The tool operates as an autonomous coding agent that plans, writes, and tests code changes directly on a local codebase via the CLI, fitting the developer-facing coding assistant profile.
+  reason: It is a CLI-based coding agent that directly plans, rewrites, and tests source code within a repository workflow, fitting the coding-agents definition over an app builder.
   evidence:
     - "Repo description states: 'Easily migrate your codebase from one framework or language to another.'"
+    - README explains it writes, rewrites, and tests the entirety of a codebase using LLMs via a CLI script (python main.py).
+    - Listed in awesome-ai-agents under the section 'GPT Migrate', confirming its perception as a coding agent.
     - README confirms it writes, rewrites, and validates the codebase using GPT-4 and Docker.
     - Usage involves running a Python main script against a local source directory to generate a target directory.
 placement:
@@ -86,7 +105,7 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.700Z"
+    updated_at: "2026-05-05T20:48:55.439Z"
     cause: null
     next_retry_at: null
   stars:

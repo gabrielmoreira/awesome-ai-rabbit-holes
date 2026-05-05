@@ -1,6 +1,6 @@
 id: huyenchip__com
 kind: website
-name: huyenchip.com
+name: Chip Huyen
 canonical_url: https://huyenchip.com
 identity: {}
 provenance:
@@ -39,9 +39,9 @@ insights:
   mental_damage: Yet another authoritative source promising to tell you how to actually do AI engineering, adding one more tab to the 'must read' pile you will definitely catch up on this weekend.
   tags:
     - ai-engineering
+    - blog
     - mlops
     - production-ai
-    - blog
   confidence: high
 curation:
   status: included
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:45:33.938Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.728Z"
@@ -68,11 +76,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:45:33.938Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

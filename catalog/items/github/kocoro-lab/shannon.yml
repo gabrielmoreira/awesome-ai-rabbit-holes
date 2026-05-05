@@ -1,6 +1,6 @@
 id: github__kocoro-lab__shannon
 kind: github-repo
-name: shannon
+name: Shannon
 canonical_url: https://github.com/kocoro-lab/shannon
 identity:
   github_repo: kocoro-lab/shannon
@@ -45,11 +45,11 @@ insights:
   why_it_matters: It gives developers a self-hosted, observable runtime for running multi-agent systems with cost controls, human approval gates, and execution replay instead of crossing fingers and hoping the swarm converges.
   mental_damage: You now have a full Temporal + Rust + Go + Python + Tauri stack to debug so your agents can autonomously spend your API budget with enterprise-grade confidence.
   tags:
+    - go
     - multi-agent
+    - observability
     - orchestration
     - self-hosted
-    - observability
-    - go
   confidence: high
 curation:
   status: included
@@ -65,6 +65,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (1813) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:31:10.174Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.702Z"
@@ -75,11 +83,3 @@ processing:
     updated_at: "2026-05-05T21:03:07.407Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:31:10.174Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

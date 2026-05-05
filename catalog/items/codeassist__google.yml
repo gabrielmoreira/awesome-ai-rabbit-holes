@@ -1,6 +1,6 @@
 id: codeassist__google
 kind: website
-name: codeassist.google
+name: Google Code Assist (Gemini)
 canonical_url: https://codeassist.google
 identity: {}
 provenance:
@@ -38,9 +38,9 @@ insights:
   why_it_matters: It integrates Google's AI models directly into the developer workflow to provide real-time code suggestions and completions.
   mental_damage: Yet another mandatory AI sidebar fighting for attention while you try to remember if you already have three other omniscient coding bots running.
   tags:
+    - ai-assistant
     - code-completion
     - google
-    - ai-assistant
   confidence: medium
 curation:
   status: included
@@ -56,6 +56,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:43:01.527Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.726Z"
@@ -65,11 +73,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:43:01.527Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

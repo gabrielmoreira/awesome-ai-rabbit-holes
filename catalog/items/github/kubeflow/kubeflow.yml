@@ -1,6 +1,6 @@
 id: github__kubeflow__kubeflow
 kind: github-repo
-name: kubeflow
+name: Kubeflow
 canonical_url: https://github.com/kubeflow/kubeflow
 identity:
   github_repo: kubeflow/kubeflow
@@ -51,10 +51,10 @@ insights:
   why_it_matters: It allows platform teams to assemble scalable, portable AI infrastructure on Kubernetes without being locked into a single vendor's ML platform.
   mental_damage: Finally, you too can experience the unique joy of debugging CRDs and reconciling YAML manifests just to discover that your model training failed because of a missing network policy.
   tags:
+    - infrastructure
     - kubernetes
     - ml-platform
     - mlops
-    - infrastructure
   confidence: high
 curation:
   status: excluded
@@ -70,6 +70,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (15623) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:31:26.263Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.702Z"
@@ -80,11 +88,3 @@ processing:
     updated_at: "2026-05-05T21:03:08.836Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:31:26.263Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

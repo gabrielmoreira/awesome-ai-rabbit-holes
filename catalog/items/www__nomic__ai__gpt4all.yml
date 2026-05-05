@@ -1,6 +1,6 @@
 id: www__nomic__ai__gpt4all
 kind: website
-name: gpt4all
+name: GPT4All
 canonical_url: https://www.nomic.ai/gpt4all
 identity: {}
 provenance:
@@ -53,8 +53,8 @@ insights:
   why_it_matters: It provides a private, high-performance environment for running local models, enabling developers to build custom assistants and workflows while keeping sensitive data on their own machines.
   mental_damage: Now you can have the full anxiety of managing a hallucinating AI assistant, but with the added satisfaction of your laptop fans spinning at maximum velocity to keep your secrets local.
   tags:
-    - local-ai
     - llm
+    - local-ai
     - offline
     - privacy
   confidence: high
@@ -72,6 +72,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:52:15.078Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.675Z"
@@ -81,11 +89,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:52:15.078Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

@@ -1,6 +1,6 @@
 id: mentat__ai
 kind: website
-name: mentat.ai
+name: Mentat
 canonical_url: https://mentat.ai
 identity: {}
 provenance:
@@ -40,8 +40,8 @@ insights:
   tags:
     - cli
     - coding-agent
-    - terminal
     - repo-editing
+    - terminal
   confidence: medium
 curation:
   status: included
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T20:49:33.727Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T20:48:55.445Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T20:49:33.727Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
-    next_retry_at: null

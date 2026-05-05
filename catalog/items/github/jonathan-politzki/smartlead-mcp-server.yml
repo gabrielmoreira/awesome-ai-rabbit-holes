@@ -1,6 +1,6 @@
 id: github__jonathan-politzki__smartlead-mcp-server
 kind: github-repo
-name: smartlead-mcp-server-local
+name: jean-technologies/smartlead-mcp-server-local
 canonical_url: https://github.com/jonathan-politzki/smartlead-mcp-server
 identity:
   github_repo: jonathan-politzki/smartlead-mcp-server
@@ -37,20 +37,23 @@ metadata:
       fetched_at: "2026-05-05T21:02:58.105Z"
       bytes: 3405
 insights:
-  summary: A local MCP server that exposes Smartlead email marketing API features to AI assistants and automation tools like Claude and n8n.
-  why_it_matters: Developers can now let their AI assistants or n8n workflows automate campaign management, lead tracking, and analytics for Smartlead directly via the Model Context Protocol.
-  mental_damage: We have officially reached the point where our AI assistants need their own API wrappers just to handle cold email cadences while we debug the wrapper's wrapper.
+  summary: A local MCP server that exposes Smartlead email marketing API features to AI assistants like Claude Desktop and automation tools like n8n.
+  why_it_matters: It allows developers to manage email campaigns, leads, and analytics directly through AI chat interfaces or workflow automations without writing custom API integration code.
+  mental_damage: We have successfully abstracted email marketing campaigns into tokens, meaning your AI can now ruin your deliverability while you watch it happen in a terminal.
   tags:
-    - mcp
-    - email-marketing
-    - n8n
-    - automation
     - api-wrapper
+    - automation
+    - email-marketing
+    - mcp
+    - n8n
   confidence: high
 curation:
   status: included
-  reason: The project is a standalone MCP server implementation designed to connect Smartlead's API to MCP-compatible clients, fitting cleanly into the MCP Servers and Tooling category.
+  reason: The project is explicitly an MCP server implementation designed to connect Smartlead to MCP-compatible clients, which fits directly into the MCP Servers and Tooling category.
   evidence:
+    - Repo description states it is a 'Local version of Smartlead MCP for quick download and deployment to MCP compatible clients'.
+    - README confirms it provides a 'simplified interface to the Smartlead API' for 'AI assistants and automation tools' via MCP.
+    - Listed in the 'awesome-mcp-list' under the Communication section, confirming its identity as an MCP tool.
     - Repo description explicitly states it is a 'Local version of Smartlead MCP for quick download and deployment to MCP compatible clients'.
     - README details integration examples for Claude Desktop and n8n via MCP server commands (start, sse).
     - Project is active with a recent push date of 2025-07-23 and is not archived.
@@ -71,7 +74,7 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.700Z"
+    updated_at: "2026-05-05T20:48:55.442Z"
     cause: null
     next_retry_at: null
   stars:

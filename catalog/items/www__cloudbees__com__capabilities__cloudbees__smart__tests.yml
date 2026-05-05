@@ -1,6 +1,6 @@
 id: www__cloudbees__com__capabilities__cloudbees__smart__tests
 kind: website
-name: cloudbees-smart-tests
+name: Launchable
 canonical_url: https://www.cloudbees.com/capabilities/cloudbees-smart-tests
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It integrates with existing pipelines to prioritize tests that are likely to fail, helping developers get faster feedback without rewriting their test suites or replacing their current CI tools.
   mental_damage: Now your CI pipeline is powered by an AI that confidently skips the one test that would have caught the bug you are about to ship.
   tags:
-    - ci-cd
-    - testing
     - ai-test-intelligence
+    - ci-cd
     - devops
+    - testing
   confidence: high
 curation:
   status: included
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:50:09.471Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.732Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:50:09.471Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

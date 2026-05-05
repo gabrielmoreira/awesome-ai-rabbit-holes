@@ -1,6 +1,6 @@
 id: github__bitbonsai__mcpvault
 kind: github-repo
-name: mcp-obsidian
+name: bitbonsai/mcp-obsidian
 canonical_url: https://github.com/bitbonsai/mcpvault
 identity:
   github_repo: bitbonsai/mcpvault
@@ -33,24 +33,28 @@ metadata:
     description: A lightweight Model Context Protocol (MCP) server for safe Obsidian vault access
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:01:21.332Z"
+    last_checked_at: "2026-05-05T21:01:21.608Z"
     readme:
-      fetched_at: "2026-05-05T21:01:21.332Z"
+      fetched_at: "2026-05-05T21:01:21.608Z"
       bytes: 25309
 insights:
-  summary: A lightweight Model Context Protocol server that provides safe read/write access to Obsidian vaults for MCP-compatible AI assistants.
-  why_it_matters: It allows developers to connect any MCP-compatible AI tool to their Obsidian knowledge base for unified note search, editing, and metadata management without vendor lock-in.
-  mental_damage: Finally, the perfect excuse to let an AI agent reorganize your 4,000 orphaned notes while you nervously monitor the token budget.
+  summary: A lightweight Model Context Protocol (MCP) server that gives AI assistants safe read, write, and search access to Obsidian vaults.
+  why_it_matters: It lets developers connect their note-taking knowledge base directly to coding agents and IDEs like Claude Code, Cursor, and Windsurf without installing Obsidian plugins.
+  mental_damage: We have successfully solved the critical engineering challenge of making sure your AI can reorganize your meeting notes while you are supposed to be shipping code.
   tags:
+    - ide-integration
+    - knowledge-base
     - mcp
     - obsidian
-    - knowledge-base
     - typescript
   confidence: high
 curation:
   status: included
-  reason: The project is a dedicated MCP server implementation that bridges Obsidian vaults with the Model Context Protocol ecosystem.
+  reason: The project is a dedicated MCP server implementation, which fits squarely into the MCP Servers and Tooling category.
   evidence:
+    - Repo description explicitly states it is a 'Model Context Protocol (MCP) server for safe Obsidian vault access'.
+    - README lists compatibility with multiple MCP-compatible clients including Claude Desktop, Claude Code, Cursor IDE, and Windsurf IDE.
+    - Listed in the 'awesome-mcp-servers' directory under 'Server Implementations > Knowledge & Memory'.
     - Repo description explicitly states it is 'A lightweight Model Context Protocol (MCP) server for safe Obsidian vault access'
     - README details 14 MCP methods covering file operations, search, metadata, and tag management for vaults
     - Recent activity with created_at 2025-09-21 and pushed_at 2026-05-04 showing active maintenance
@@ -71,11 +75,11 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.681Z"
+    updated_at: "2026-05-05T20:48:55.440Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:21.332Z"
+    updated_at: "2026-05-05T21:01:21.608Z"
     cause: null
     next_retry_at: null

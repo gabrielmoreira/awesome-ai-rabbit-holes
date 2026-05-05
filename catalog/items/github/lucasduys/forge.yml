@@ -1,6 +1,6 @@
 id: github__lucasduys__forge
 kind: github-repo
-name: forge
+name: Forge
 canonical_url: https://github.com/lucasduys/forge
 identity:
   github_repo: lucasduys/forge
@@ -60,9 +60,9 @@ insights:
   why_it_matters: It offloads the state-management and context-tracking burden from the developer to a disk-persisted pipeline that handles spec generation, TDD execution in git worktrees, and verification.
   mental_damage: You can finally stop acting as the human context-window babysitter and just show up in the morning to review diffs like a proper 2019-era manager.
   tags:
+    - autonomous
     - claude-code
     - plugin
-    - autonomous
     - tdd
     - workflow-automation
   confidence: high
@@ -80,6 +80,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:34:51.697Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.705Z"
@@ -90,11 +98,3 @@ processing:
     updated_at: "2026-05-05T21:03:25.313Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:34:51.697Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

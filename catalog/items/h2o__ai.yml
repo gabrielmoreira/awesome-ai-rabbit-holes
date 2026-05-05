@@ -1,6 +1,6 @@
 id: h2o__ai
 kind: website
-name: h2o.ai
+name: H2OAI
 canonical_url: https://h2o.ai
 identity: {}
 provenance:
@@ -38,11 +38,11 @@ insights:
   why_it_matters: It offers developers a complete stack to build, deploy, and monitor AI agents and models within secure, private infrastructure without sending data to external SaaS providers.
   mental_damage: "Just what every developer wanted: a 'complete end-to-end platform' that promises to solve fraud, HR, and KYC simultaneously, ensuring your YAML files will now require enterprise-grade compliance reviews."
   tags:
-    - enterprise-ai
-    - local-ai
     - agents
-    - mlops
+    - enterprise-ai
     - generative-ai
+    - local-ai
+    - mlops
   confidence: medium
 curation:
   status: excluded
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:45:12.677Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.728Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:45:12.677Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

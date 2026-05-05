@@ -1,6 +1,6 @@
 id: www__hiveintelligence__xyz__crypto__mcp
 kind: website
-name: crypto-mcp
+name: remote server
 canonical_url: https://www.hiveintelligence.xyz/crypto-mcp
 identity: {}
 provenance:
@@ -38,11 +38,11 @@ insights:
   why_it_matters: Developers building crypto-aware agents can skip stitching together multiple provider APIs by connecting Claude, Cursor, or ChatGPT to one normalized MCP endpoint.
   mental_damage: Because nothing says 'focus on shipping features' like debugging why your trading bot insists on calling a token-security tool that costs one credit to tell you the rug is already pulled.
   tags:
-    - mcp
-    - crypto
-    - blockchain
-    - data
     - agents
+    - blockchain
+    - crypto
+    - data
+    - mcp
   confidence: high
 curation:
   status: included
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:51:19.082Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.732Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:51:19.082Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

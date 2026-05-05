@@ -1,6 +1,6 @@
 id: github__openbmb__bmtools
 kind: github-repo
-name: bmtools
+name: BMTools
 canonical_url: https://github.com/openbmb/bmtools
 identity:
   github_repo: openbmb/bmtools
@@ -42,11 +42,11 @@ insights:
   why_it_matters: It provides a code-first platform for developers to experiment with tool-augmented LLMs and build custom agent capabilities outside of closed hosted ecosystems.
   mental_damage: Another valiant attempt to reinvent the LangChain wheel, proving that in 2023, the fastest way to build an agent was to wrap it in a framework that mimics the API of a product that was itself about to be deprecated.
   tags:
-    - tool-use
     - agent-framework
     - llm
-    - python
     - plugins
+    - python
+    - tool-use
   confidence: medium
 curation:
   status: included
@@ -62,6 +62,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (2776) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:42:30.025Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.711Z"
@@ -72,11 +80,3 @@ processing:
     updated_at: "2026-05-05T21:04:04.284Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:42:30.025Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

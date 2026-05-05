@@ -1,6 +1,6 @@
 id: github__huggingface__accelerate
 kind: github-repo
-name: accelerate
+name: Accelerate
 canonical_url: https://github.com/huggingface/accelerate
 identity:
   github_repo: huggingface/accelerate
@@ -42,11 +42,11 @@ insights:
   why_it_matters: It lets PyTorch developers keep writing their own training loops while offloading device management, mixed precision, and distributed scaling to a few lines of imports.
   mental_damage: You wanted to train a model, but now you’ve spent three hours deciding whether your fp8 setup is spiritually correct while Accelerate silently decides where your tensors live.
   tags:
-    - pytorch
-    - training
+    - deep-learning
     - distributed
     - huggingface
-    - deep-learning
+    - pytorch
+    - training
   confidence: high
 curation:
   status: excluded
@@ -62,6 +62,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (9659) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:24:30.548Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.697Z"
@@ -72,11 +80,3 @@ processing:
     updated_at: "2026-05-05T21:02:36.812Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:24:30.548Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

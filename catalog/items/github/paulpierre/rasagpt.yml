@@ -1,6 +1,6 @@
 id: github__paulpierre__rasagpt
 kind: github-repo
-name: rasagpt
+name: RasaGPT
 canonical_url: https://github.com/paulpierre/rasagpt
 identity:
   github_repo: paulpierre/rasagpt
@@ -60,10 +60,10 @@ insights:
   mental_damage: Yet another ambitious framework promising to glue yesterday's chatbot state machine to today's LLM hallucination engine, just waiting for you to declare it production-ready before discovering the prompt injection caveats.
   tags:
     - chatbot
-    - rasa
-    - langchain
     - fastapi
+    - langchain
     - llm
+    - rasa
   confidence: high
 curation:
   status: included
@@ -79,6 +79,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (2465) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:44:09.799Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.712Z"
@@ -89,11 +97,3 @@ processing:
     updated_at: "2026-05-05T21:04:14.043Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:44:09.799Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

@@ -1,6 +1,6 @@
 id: github__leonardcser__smelt
 kind: github-repo
-name: smelt
+name: Smelt
 canonical_url: https://github.com/leonardcser/smelt
 identity:
   github_repo: leonardcser/smelt
@@ -44,11 +44,11 @@ insights:
   why_it_matters: It offers developers a local, terminal-native interface to leverage various LLM subscriptions (including local Ollama and GitHub Copilot) for interactive coding without leaving the CLI.
   mental_damage: Finally, a TUI agent written in Rust to ensure your terminal remains maximally over-engineered while you wait for the API to decide if it wants to write the code for you.
   tags:
-    - tui
     - cli
-    - rust
     - coding-agent
+    - rust
     - terminal
+    - tui
   confidence: high
 curation:
   status: included
@@ -64,6 +64,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:33:35.061Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.704Z"
@@ -74,11 +82,3 @@ processing:
     updated_at: "2026-05-05T21:03:18.512Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:33:35.061Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

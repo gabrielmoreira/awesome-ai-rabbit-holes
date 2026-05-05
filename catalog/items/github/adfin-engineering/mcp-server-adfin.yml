@@ -6,6 +6,21 @@ identity:
   github_repo: adfin-engineering/mcp-server-adfin
 provenance:
   discoveries:
+    - id: discovery__adfin__com__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Adfin
+        extracted_url: https://www.adfin.com
+        surrounding_text: "- **[Adfin](https://github.com/Adfin-Engineering/mcp-server-adfin)** - The only platform you need to get paid - all payments in one place, invoicing and accounting reconciliations with [Adfin](https://www.adfin.com/)."
+        confidence: high
     - id: discovery__github__adfin-engineering__mcp-server-adfin__awesome-list__wong2__awesome-mcp-servers
       discovered_at: "2026-05-05T19:41:00.656Z"
       source:
@@ -41,10 +56,13 @@ insights:
   why_it_matters: It lets developers automate financial workflows like invoice creation and credit checks directly from Claude Desktop using live API documentation.
   mental_damage: "We have finally achieved the future: an AI assistant that can politely ask your customers for money while you stare at a JSON config file wondering why uv is taking 20 seconds to start."
   tags:
-    - mcp
+    - agentic-ai
+    - api-integration
+    - automation
     - claude
     - finance
-    - api-integration
+    - mcp
+    - payments
   confidence: high
 curation:
   status: included
@@ -60,9 +78,17 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T22:47:17.688Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.676Z"
+    updated_at: "2026-05-05T22:47:06.910Z"
     cause: null
     next_retry_at: null
   stars:
@@ -70,11 +96,3 @@ processing:
     updated_at: "2026-05-05T21:00:49.277Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:05:52.074Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

@@ -1,6 +1,6 @@
 id: github__sidhq__multi-gpt
 kind: github-repo
-name: multi-gpt
+name: Multi GPT
 canonical_url: https://github.com/sidhq/multi-gpt
 identity:
   github_repo: sidhq/multi-gpt
@@ -8,6 +8,21 @@ provenance:
   discoveries:
     - id: discovery__github__rumpfmax__multi-gpt__awesome-list__e2b-dev__awesome-ai-agents
       discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Multi GPT
+        anchor_text: Multi GPT
+        extracted_url: https://github.com/rumpfmax/multi-gpt
+        surrounding_text: "## [Multi GPT](https://github.com/rumpfmax/Multi-GPT)"
+        confidence: high
+    - id: discovery__github__sidhq__multi-gpt__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T22:33:31.148Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -53,14 +68,14 @@ lifecycle:
 processing:
   categorize:
     status: skipped
-    updated_at: "2026-05-05T21:04:23.169Z"
+    updated_at: "2026-05-05T23:08:18.952Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.715Z"
+    updated_at: "2026-05-05T22:33:31.152Z"
     cause: null
     next_retry_at: null
   stars:

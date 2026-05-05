@@ -1,6 +1,6 @@
 id: github__featureform__featureform
 kind: github-repo
-name: featureform
+name: Featureform
 canonical_url: https://github.com/featureform/featureform
 identity:
   github_repo: featureform/featureform
@@ -54,10 +54,10 @@ insights:
   why_it_matters: It allows data science teams to standardize feature definitions and manage deployment across heterogeneous data backends without replacing their existing infrastructure.
   mental_damage: Because what the modern stack really needed was another abstraction layer turning your Snowflake bill into a 'feature' you can version-control.
   tags:
-    - mlops
-    - feature-store
     - data-infrastructure
     - embeddings
+    - feature-store
+    - mlops
   confidence: high
 curation:
   status: excluded
@@ -73,6 +73,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (1973) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:19:09.857Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.687Z"
@@ -83,11 +91,3 @@ processing:
     updated_at: "2026-05-05T21:02:09.051Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:19:09.857Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

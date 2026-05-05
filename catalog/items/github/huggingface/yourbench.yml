@@ -1,6 +1,6 @@
 id: github__huggingface__yourbench
 kind: github-repo
-name: yourbench
+name: YourBench
 canonical_url: https://github.com/huggingface/yourbench
 identity:
   github_repo: huggingface/yourbench
@@ -41,11 +41,11 @@ insights:
   why_it_matters: It lets developers benchmark models against their own private documentation and domain data instead of relying on generic public benchmarks.
   mental_damage: Now you can scientifically prove that your RAG pipeline fails on your own docs just as much as it does on the MMLU.
   tags:
-    - llm-eval
     - benchmarking
-    - huggingface
-    - datasets
     - cli
+    - datasets
+    - huggingface
+    - llm-eval
   confidence: high
 curation:
   status: included
@@ -61,6 +61,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (444) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:24:44.928Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.697Z"
@@ -71,11 +79,3 @@ processing:
     updated_at: "2026-05-05T21:02:38.081Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:24:44.928Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

@@ -1,6 +1,6 @@
 id: about__gitlab__com__gitlab__duo__agent__platform
 kind: website
-name: gitlab-duo-agent-platform
+name: GitLab Duo
 canonical_url: https://about.gitlab.com/gitlab-duo-agent-platform
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It allows development teams to automate complex, multi-step SDLC tasks—from code reviews to CI/CD diagnostics—directly within their existing GitLab projects using configurable agents and flows.
   mental_damage: Just when you thought 'GitOps' was the final word on automation, your CI/CD pipeline now requires its own team of specialized AI agents and a maturity framework quiz to prove it's actually working.
   tags:
-    - gitlab
-    - devsecops
     - agentic-workflows
+    - devsecops
     - enterprise
+    - gitlab
     - sdlc-automation
   confidence: high
 curation:
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:41:16.618Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.725Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:41:16.618Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

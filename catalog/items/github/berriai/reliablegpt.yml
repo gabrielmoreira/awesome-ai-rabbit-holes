@@ -1,6 +1,6 @@
 id: github__berriai__reliablegpt
 kind: github-repo
-name: reliablegpt
+name: ReliableGPT 💪
 canonical_url: https://github.com/berriai/reliablegpt
 identity:
   github_repo: berriai/reliablegpt
@@ -51,6 +51,13 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: skipped
+    updated_at: "2026-05-05T23:08:18.952Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.681Z"
@@ -58,15 +65,8 @@ processing:
     next_retry_at: null
   stars:
     status: failed
-    updated_at: "2026-05-05T21:01:19.431Z"
+    updated_at: "2026-05-05T23:07:43.737Z"
     cause:
       type: github_repo_missing
       message: "GitHub repository not found: berriai/reliablegpt"
-    next_retry_at: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T21:04:23.169Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null

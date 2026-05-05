@@ -1,6 +1,6 @@
 id: github__flyflow-devs__.github
 kind: github-repo
-name: .github
+name: Flyflow
 canonical_url: https://github.com/flyflow-devs/.github
 identity:
   github_repo: flyflow-devs/.github
@@ -42,10 +42,10 @@ insights:
   why_it_matters: It provides a self-hostable layer for developers to improve the speed and reliability of their LLM integrations without sacrificing response quality.
   mental_damage: We have now reached the point where we deploy dedicated middleware just to hide the fact that our 'instant' AI features are actually agonizingly slow.
   tags:
+    - golang
     - llm
     - middleware
     - performance
-    - golang
     - self-hosted
   confidence: medium
 curation:
@@ -62,6 +62,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:19:53.412Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.687Z"
@@ -72,11 +80,3 @@ processing:
     updated_at: "2026-05-05T21:02:13.354Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:19:53.412Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

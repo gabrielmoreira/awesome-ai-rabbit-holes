@@ -1,6 +1,6 @@
 id: github__guangzhengli__chatfiles
 kind: github-repo
-name: chatfiles
+name: ChatFiles
 canonical_url: https://github.com/guangzhengli/chatfiles
 identity:
   github_repo: guangzhengli/chatfiles
@@ -49,9 +49,9 @@ insights:
   tags:
     - chatbot
     - langchain
-    - vector-db
     - nextjs
     - rag
+    - vector-db
   confidence: high
 curation:
   status: excluded
@@ -67,6 +67,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (3348) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:23:10.473Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.690Z"
@@ -77,11 +85,3 @@ processing:
     updated_at: "2026-05-05T21:02:28.789Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:23:10.473Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

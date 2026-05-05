@@ -1,6 +1,6 @@
 id: github__kkjdaniel__bgg-mcp
 kind: github-repo
-name: bgg-mcp
+name: BGG MCP
 canonical_url: https://github.com/kkjdaniel/bgg-mcp
 identity:
   github_repo: kkjdaniel/bgg-mcp
@@ -64,10 +64,10 @@ insights:
   why_it_matters: It lets developers quickly wire rich board game data into LLM workflows, agents, or chat interfaces without writing custom API integrations.
   mental_damage: We now have a rigorously versioned, Go-powered MCP server for board game trades while our actual production APIs remain hand-crafted, untested chaos.
   tags:
-    - mcp
     - boardgamegeek
-    - mcp-server
     - go
+    - mcp
+    - mcp-server
   confidence: high
 curation:
   status: included
@@ -83,6 +83,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:31:01.009Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.668Z"
@@ -93,11 +101,3 @@ processing:
     updated_at: "2026-05-05T21:03:06.925Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:31:01.009Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

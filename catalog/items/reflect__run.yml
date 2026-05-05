@@ -1,6 +1,6 @@
 id: reflect__run
 kind: website
-name: reflect.run
+name: Reflect
 canonical_url: https://reflect.run
 identity: {}
 provenance:
@@ -38,11 +38,11 @@ insights:
   why_it_matters: It allows teams to build and maintain regression test suites significantly faster than code-based frameworks by using AI to adapt tests to UI changes automatically.
   mental_damage: Another leap forward in our quest to ensure that no one on the team actually knows how the selectors work until the AI hallucinates a 'realistic' address and ships a bug to production.
   tags:
-    - testing
-    - qa
-    - no-code
     - "-generative-ai"
     - e2e
+    - no-code
+    - qa
+    - testing
   confidence: high
 curation:
   status: excluded
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:47:29.609Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.730Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:47:29.609Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

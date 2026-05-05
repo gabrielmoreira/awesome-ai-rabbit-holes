@@ -1,6 +1,6 @@
 id: github__mudler__localai
 kind: github-repo
-name: localai
+name: LocalAI
 canonical_url: https://github.com/mudler/localai
 identity:
   github_repo: mudler/localai
@@ -85,20 +85,25 @@ metadata:
       fetched_at: "2026-05-05T21:03:48.445Z"
       bytes: 14262
 insights:
-  summary: LocalAI is an open-source AI engine that runs LLMs and generative models locally with drop-in OpenAI/Anthropic API compatibility.
-  why_it_matters: It lets developers build and test AI integrations against local models on any hardware, avoiding external API dependencies and cloud costs.
-  mental_damage: Now you can host your own fragile AGI stack on a laptop fan that sounds like a jet engine, while still debugging the same prompt failures locally.
+  summary: LocalAI is an open-source AI engine that runs LLMs and generative models locally with OpenAI-compatible APIs, supporting a wide range of hardware and backends.
+  why_it_matters: It lets developers build and test AI-powered features against a local, private endpoint that mirrors the APIs they already use in production.
+  mental_damage: You can now perfectly replicate the experience of a flaky hosted LLM API right on your own laptop, complete with GPU envy and backend roulette.
   tags:
-    - local-ai
-    - llm
-    - self-hosted
     - api-compatibility
+    - inference
+    - llm
+    - local-ai
+    - openai-api
     - privacy
+    - self-hosted
   confidence: high
 curation:
   status: included
-  reason: This is a developer-facing local model runtime and serving stack focused on private, on-device inference rather than a hosted SaaS or coding assistant.
+  reason: This is a local model runtime and inference stack that lets developers run AI on their own hardware with drop-in API compatibility.
   evidence:
+    - Repo description states it is an open-source AI engine to run any model on any hardware with no GPU required.
+    - README lists drop-in OpenAI/Anthropic API compatibility and 36+ backends such as llama.cpp and vLLM.
+    - High traction with 46,070 stars and active development (pushed 2026-05-05).
     - Repo description states it is 'the open-source AI engine' to 'Run any model... on any hardware. No GPU required.'
     - README highlights drop-in OpenAI/Anthropic API compatibility, 36+ backends, and privacy-first local execution.
     - Listed in awesome-ai-coding-tools under 'Local LLM Tools' and has 46k stars with recent activity (pushed 2026-05-05).
@@ -119,7 +124,7 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.689Z"
+    updated_at: "2026-05-05T20:48:55.441Z"
     cause: null
     next_retry_at: null
   stars:

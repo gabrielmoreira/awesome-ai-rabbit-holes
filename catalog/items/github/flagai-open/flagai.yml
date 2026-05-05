@@ -1,6 +1,6 @@
 id: github__flagai-open__flagai
 kind: github-repo
-name: flagai
+name: FlagAI
 canonical_url: https://github.com/flagai-open/flagai
 identity:
   github_repo: flagai-open/flagai
@@ -41,11 +41,11 @@ insights:
   why_it_matters: It provides developers with a unified API to download and adapt over 30 pre-trained models while abstracting complex parallelism libraries like DeepSpeed and Megatron-LM into fewer than ten lines of code.
   mental_damage: Another framework promising that 'parallel training is just ten lines of code' right before you spend three days debugging CUDA versions and distributed timeout errors.
   tags:
-    - llm
-    - training
-    - fine-tuning
-    - multi-modal
     - chinese-nlp
+    - fine-tuning
+    - llm
+    - multi-modal
+    - training
   confidence: high
 curation:
   status: included
@@ -61,6 +61,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (3875) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:19:41.083Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.687Z"
@@ -71,11 +79,3 @@ processing:
     updated_at: "2026-05-05T21:02:11.935Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:19:41.083Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

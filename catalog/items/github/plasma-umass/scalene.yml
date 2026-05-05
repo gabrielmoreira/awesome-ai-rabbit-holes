@@ -24,17 +24,33 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 13407
+    forks: 435
+    license: Apache-2.0
+    archived: false
+    created_at: "2019-12-17T20:56:28Z"
+    pushed_at: "2026-05-04T18:19:43Z"
+    description: "Scalene: a high-performance, high-precision CPU, GPU, and memory profiler for Python with AI-powered optimization proposals"
+    homepage: ""
+    topics:
+      - cpu
+      - cpu-profiling
+      - gpu
+      - gpu-programming
+      - memory-allocation
+      - memory-consumption
+      - performance-analysis
+      - performance-cpu
+      - profiler
+      - profiles-memory
+      - profiling
+      - python
+      - python-profilers
+      - scalene
+    last_checked_at: "2026-05-05T23:08:06.938Z"
+    readme:
+      fetched_at: "2026-05-05T23:08:06.938Z"
+      bytes: 25566
 insights:
   summary: null
   why_it_matters: null
@@ -49,8 +65,8 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (13407) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -58,15 +74,17 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-05-05T21:04:20.379Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for plasma-umass/scalene
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T21:04:23.169Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-05-05T23:08:06.938Z"
+    cause: null
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-05-05T23:08:33.635Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-05-06T00:08:33.635Z"
+    attempts: 0
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

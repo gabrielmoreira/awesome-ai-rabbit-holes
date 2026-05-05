@@ -1,6 +1,6 @@
 id: github__ironclad__rivet
 kind: github-repo
-name: rivet
+name: Rivet
 canonical_url: https://github.com/ironclad/rivet
 identity:
   github_repo: ironclad/rivet
@@ -46,9 +46,9 @@ insights:
   mental_damage: Because nothing says 'focus on shipping features' like spending three hours aligning nodes in a visual graph to reproduce what a 20-line LangChain script already did.
   tags:
     - agent-builder
-    - visual-programming
-    - typescript
     - llm
+    - typescript
+    - visual-programming
   confidence: high
 curation:
   status: included
@@ -64,6 +64,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (4565) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:26:32.016Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.698Z"
@@ -74,11 +82,3 @@ processing:
     updated_at: "2026-05-05T21:02:46.557Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:26:32.016Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

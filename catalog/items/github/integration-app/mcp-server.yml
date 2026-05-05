@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__integration-app__mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T20:48:55.437Z"
+      discovered_at: "2026-05-05T22:33:31.148Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -34,29 +34,22 @@ metadata:
     topics:
       - mcp
       - mcp-server
-    last_checked_at: "2026-05-05T21:02:45.475Z"
+    last_checked_at: "2026-05-05T23:07:55.035Z"
     readme:
-      fetched_at: "2026-05-05T21:02:45.475Z"
+      fetched_at: "2026-05-05T23:07:55.035Z"
       bytes: 6527
 insights:
-  summary: An MCP server that exposes Membrane integration actions as tools for AI agents and supports both static and dynamic tool modes, SSE and Streamable HTTP transports, and experimental chat session management.
-  why_it_matters: Developers building AI agents can connect this server to give their agents access to Membrane’s integration ecosystem without writing custom tool wrappers.
-  mental_damage: Another Tuesday, another MCP server that lets your agent politely ask Gmail to send an email it will inevitably hallucinate the recipient of.
-  tags:
-    - mcp
-    - membrane
-    - integrations
-    - agent-tools
-  confidence: high
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
 curation:
-  status: included
-  reason: This is a purpose-built MCP server that exposes third-party integration actions as tools for AI agents, which aligns precisely with the MCP Servers and Tooling category.
-  evidence:
-    - "Repo description states: 'MCP Server for Membrane' with topics mcp and mcp-server."
-    - README explicitly describes it as 'a Model Context Protocol (MCP) server' that provides integration actions as tools.
-    - Listed under 'official servers' in the awesome-mcp-servers directory.
+  status: pending
+  reason: null
+  evidence: []
 placement:
-  primary_category: mcp
+  primary_category: null
   section: null
 lifecycle:
   status: incubating
@@ -64,19 +57,21 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.442Z"
+    updated_at: "2026-05-05T22:33:31.151Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:45.475Z"
+    updated_at: "2026-05-05T23:07:55.035Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-05T21:26:11.543Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
+    status: deferred
+    updated_at: "2026-05-05T23:08:33.635Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-05-06T00:08:33.635Z"
+    attempts: 0
     prompt_version: catalog-categorize-v2-baseline
     category_rules_version: 1b6cc5462ecc

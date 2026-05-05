@@ -1,13 +1,13 @@
 id: github__homanp__superagent
 kind: github-repo
-name: superagent
+name: SuperAgent
 canonical_url: https://github.com/homanp/superagent
 identity:
   github_repo: homanp/superagent
 provenance:
   discoveries:
     - id: discovery__github__homanp__superagent__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-05T20:48:55.437Z"
+      discovered_at: "2026-05-05T22:33:31.148Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -40,50 +40,44 @@ metadata:
       - openai
       - prompt-injection
       - security
-    last_checked_at: "2026-05-05T21:02:35.818Z"
+    last_checked_at: "2026-05-05T23:07:53.495Z"
     readme:
-      fetched_at: "2026-05-05T21:02:35.818Z"
+      fetched_at: "2026-05-05T23:07:53.495Z"
       bytes: 4976
 insights:
-  summary: An open-source SDK and security toolkit for AI applications that detects prompt injections, redacts sensitive data, and scans repositories for threats.
-  why_it_matters: It gives developers a programmatic way to harden agent workflows against common attacks and data leaks without building custom guardrails from scratch.
-  mental_damage: We have officially entered the era where we need a dedicated security layer just to keep our AI agents from impulsively emailing the user's Social Security number to a prompt injection.
-  tags:
-    - security
-    - guardrails
-    - sdk
-    - prompt-injection
-    - agent-safety
-  confidence: high
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
 curation:
-  status: included
-  reason: The primary artifact is a developer-importable SDK and library for embedding AI safety and guardrail logic into applications, which fits cleanly under AI Frameworks and SDKs.
-  evidence:
-    - Repo description explicitly defines it as an SDK to 'Embed safety directly into your app' with Guard, Redact, and Scan features.
-    - README provides TypeScript and Python SDK code examples for client.guard() and client.redact() usage.
-    - Includes an MCP Server integration and open-weight models, positioning it as a code-first building block for developers.
+  status: pending
+  reason: null
+  evidence: []
 placement:
-  primary_category: ai-frameworks
+  primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
   reason: Stars (6576) exceeded threshold (150)
 processing:
+  categorize:
+    status: deferred
+    updated_at: "2026-05-05T23:08:33.635Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-05-06T00:08:33.635Z"
+    attempts: 0
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.441Z"
+    updated_at: "2026-05-05T22:33:31.151Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:35.818Z"
+    updated_at: "2026-05-05T23:07:53.495Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:24:14.640Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

@@ -1,6 +1,6 @@
 id: github__jeannier__homebrew-mcp
 kind: github-repo
-name: homebrew-mcp
+name: Homebrew MCP
 canonical_url: https://github.com/jeannier/homebrew-mcp
 identity:
   github_repo: jeannier/homebrew-mcp
@@ -57,11 +57,11 @@ insights:
   why_it_matters: It allows developers to manage macOS packages conversationally through their AI IDE or assistant, removing the need to context-switch to a terminal for common brew tasks.
   mental_damage: "We have finally achieved the singularity: an AI agent that can `brew install` the very dependencies required to run the AI agent itself."
   tags:
-    - mcp
+    - cursor
     - homebrew
     - macos
+    - mcp
     - package-manager
-    - cursor
   confidence: high
 curation:
   status: included
@@ -77,6 +77,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:28:07.856Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.667Z"
@@ -87,11 +95,3 @@ processing:
     updated_at: "2026-05-05T21:02:53.829Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:28:07.856Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

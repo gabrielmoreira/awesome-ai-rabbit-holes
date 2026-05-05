@@ -1,6 +1,6 @@
 id: www__anthropic__com__claude
 kind: website
-name: claude
+name: Claude (Anthropic)
 canonical_url: https://www.anthropic.com/claude
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: Developers rely on Claude as a core model for AI coding assistants, IDE integrations, and agentic workflows that require strong reasoning and long-context capabilities.
   mental_damage: We now architect complex systems around choosing the right proprietary model while pretending our job descriptions haven't silently become prompt engineer with a CS degree.
   tags:
+    - anthropic
+    - api
     - llm
     - model
-    - api
-    - anthropic
   confidence: high
 curation:
   status: excluded
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:49:30.207Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.731Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:49:30.207Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

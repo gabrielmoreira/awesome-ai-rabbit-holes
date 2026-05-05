@@ -1,6 +1,6 @@
 id: github__felipedaza7__swarm-tools
 kind: github-repo
-name: swarm-tools
+name: Swarm-Tools
 canonical_url: https://github.com/felipedaza7/swarm-tools
 identity:
   github_repo: felipedaza7/swarm-tools
@@ -60,9 +60,9 @@ insights:
   why_it_matters: It provides a user-friendly control plane for developers experimenting with multi-agent systems who want a visual interface over raw orchestration code.
   mental_damage: Yet another local GUI promising to wrangle your agent swarm, because clearly what your terminal needed was a desktop app to manage the hallucinations in parallel.
   tags:
+    - gui
     - multi-agent
     - orchestration
-    - gui
     - swarm
   confidence: medium
 curation:
@@ -79,6 +79,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:19:16.189Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.687Z"
@@ -89,11 +97,3 @@ processing:
     updated_at: "2026-05-05T21:02:09.663Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:19:16.189Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

@@ -1,6 +1,6 @@
 id: github__ollama__ollama
 kind: github-repo
-name: ollama
+name: Ollama
 canonical_url: https://github.com/ollama/ollama
 identity:
   github_repo: ollama/ollama
@@ -83,19 +83,26 @@ metadata:
       fetched_at: "2026-05-05T21:04:00.725Z"
       bytes: 19150
 insights:
-  summary: A local runtime for downloading, serving, and interacting with open-source large language models via a CLI and REST API.
-  why_it_matters: It gives developers a private, low-friction way to run and integrate models like DeepSeek and Gemma into their own agents, IDEs, and CLIs without sending code to a hosted API.
-  mental_damage: You now have the power to run state-of-the-art models locally, yet somehow still spend three hours deciding which 4-bit quantized Gemma variant qualifies as 'production-ready' for your side project.
+  summary: A cross-platform tool that bundles and serves large language models locally via a CLI and REST API, with client libraries for Python and JavaScript.
+  why_it_matters: It lets developers run, test, and integrate open-weight models like DeepSeek and Gemma directly into their local workflow and existing coding agents without relying on hosted APIs.
+  mental_damage: You now have a 170k-star repo dedicated to letting you run a model locally that will still hallucinate your API keys, just with slightly more latency and a lot more pride.
   tags:
-    - local-llm
     - cli
+    - developer-tooling
     - developer-tools
+    - inference
+    - llm
+    - local-ai
+    - local-llm
     - open-source
   confidence: high
 curation:
   status: included
-  reason: Ollama is a local model runtime and serving stack that lets developers run open models on their own hardware and integrate them into coding agents and CLIs.
+  reason: Serves as a primary local runtime and model-serving stack for developers to run open models on their own hardware and integrate them into apps and agents.
   evidence:
+    - Repo description explicitly lists serving Kimi-K2.5, GLM-5, DeepSeek, Gemma, and other models locally.
+    - README details a REST API and client libraries (Python/JS) for integrating models into applications and agents like Claude Code and Copilot CLI.
+    - Listed in 'awesome-local-ai' under Inference Engine and 'Awesome-LLMOps' under Large Model Serving.
     - "Repo description: 'Get up and running with Kimi-K2.5, GLM-5, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.'"
     - "README: provides CLI, REST API, and integrations with Claude Code, Codex, Copilot CLI, and other coding agents."
     - Listed under 'Local LLM Tools' in awesome-ai-coding-tools source list.
@@ -116,7 +123,7 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.710Z"
+    updated_at: "2026-05-05T20:48:55.439Z"
     cause: null
     next_retry_at: null
   stars:

@@ -1,6 +1,6 @@
 id: github__google-gemini__gemini-cli
 kind: github-repo
-name: gemini-cli
+name: Gemini CLI
 canonical_url: https://github.com/google-gemini/gemini-cli
 identity:
   github_repo: google-gemini/gemini-cli
@@ -80,10 +80,10 @@ insights:
   mental_damage: Just when you thought your terminal was safe from AI, Google drops a 100k-star agent that turns your shell into a prompt box with a 1-million-token identity crisis.
   tags:
     - cli
-    - gemini
-    - terminal
     - coding-agent
+    - gemini
     - mcp
+    - terminal
   confidence: high
 curation:
   status: included
@@ -99,6 +99,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (103206) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:22:15.077Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.660Z"
@@ -109,11 +117,3 @@ processing:
     updated_at: "2026-05-05T21:02:24.710Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:22:15.077Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

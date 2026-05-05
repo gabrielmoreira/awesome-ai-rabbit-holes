@@ -1,6 +1,6 @@
 id: github__knowledgecanvas__knowledge
 kind: github-repo
-name: knowledge
+name: Knowledge
 canonical_url: https://github.com/knowledgecanvas/knowledge
 identity:
   github_repo: knowledgecanvas/knowledge
@@ -49,11 +49,11 @@ insights:
   why_it_matters: It offers developers a local-first way to ingest technical documentation and web content into a searchable, chat-accessible knowledge base.
   mental_damage: Another brave attempt to solve the problem of 'I have 400 browser tabs open' by creating a second, slightly more organized place for them to live until the project is inevitably archived.
   tags:
+    - desktop-app
     - knowledge-management
+    - langchain
     - llm
     - local-ai
-    - langchain
-    - desktop-app
   confidence: high
 curation:
   status: excluded
@@ -69,6 +69,14 @@ lifecycle:
   status: needs_review
   reason: Repository is archived
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:31:08.245Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.702Z"
@@ -79,11 +87,3 @@ processing:
     updated_at: "2026-05-05T21:03:07.336Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:31:08.245Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

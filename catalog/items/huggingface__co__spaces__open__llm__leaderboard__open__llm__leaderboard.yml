@@ -1,6 +1,6 @@
 id: huggingface__co__spaces__open__llm__leaderboard__open__llm__leaderboard
 kind: website
-name: open_llm_leaderboard
+name: Open LLM Leaderboard
 canonical_url: https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: Developers building on local or open models can reference a centralized benchmark to compare model performance before integrating them into their stack.
   mental_damage: Another leaderboard to consult religiously while pretending that a 0.2-point accuracy bump will finally fix your hallucinations.
   tags:
-    - llm
     - benchmark
     - evaluation
     - huggingface
+    - llm
   confidence: high
 curation:
   status: included
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:45:32.841Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.728Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:45:32.841Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

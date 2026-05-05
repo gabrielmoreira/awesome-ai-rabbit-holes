@@ -1,13 +1,13 @@
 id: github__featuretools__featuretools
 kind: github-repo
-name: featuretools
+name: FeatureTools
 canonical_url: https://github.com/featuretools/featuretools
 identity:
   github_repo: featuretools/featuretools
 provenance:
   discoveries:
     - id: discovery__github__featuretools__featuretools__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T20:48:55.437Z"
+      discovered_at: "2026-05-05T22:33:31.148Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -41,28 +41,20 @@ metadata:
       - machine-learning
       - python
       - scikit-learn
-    last_checked_at: "2026-05-05T21:02:09.314Z"
+    last_checked_at: "2026-05-05T23:07:50.436Z"
     readme:
-      fetched_at: "2026-05-05T21:02:09.313Z"
+      fetched_at: "2026-05-05T23:07:50.436Z"
       bytes: 11163
 insights:
-  summary: Featuretools is an open source Python library that automates feature engineering for machine learning by applying Deep Feature Synthesis to multi-table datasets.
-  why_it_matters: It lets developers shift from manual feature crafting to automated generation, accelerating the data preparation phase of ML pipelines.
-  mental_damage: You can now automate the feature engineering so thoroughly that you’ll have plenty of extra time to argue with your team about why the automated features are still underperforming.
-  tags:
-    - feature-engineering
-    - automl
-    - python
-    - machine-learning
-    - data-science
-  confidence: high
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
 curation:
-  status: excluded
-  reason: While highly polished, this is a traditional data science and ML library for feature engineering, not a developer-facing AI tool, agent, or infrastructure component.
-  evidence:
-    - Repo description and README define it as a Python library for automated feature engineering and ML, not AI-assisted development.
-    - Topics and source-list context (Awesome-LLMOps | Data > Feature Engineering) place it firmly in data science, not developer tooling.
-    - No mention of coding agents, IDE integration, app building, or developer workflow automation in the provided inputs.
+  status: pending
+  reason: null
+  evidence: []
 placement:
   primary_category: null
   section: null
@@ -70,21 +62,23 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (7634) exceeded threshold (150)
 processing:
+  categorize:
+    status: deferred
+    updated_at: "2026-05-05T23:08:33.635Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-05-06T00:08:33.635Z"
+    attempts: 0
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.441Z"
+    updated_at: "2026-05-05T22:33:31.150Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:09.314Z"
+    updated_at: "2026-05-05T23:07:50.436Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:19:10.457Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

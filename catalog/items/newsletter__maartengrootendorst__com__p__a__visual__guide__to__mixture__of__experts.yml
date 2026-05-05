@@ -1,6 +1,6 @@
 id: newsletter__maartengrootendorst__com__p__a__visual__guide__to__mixture__of__experts
 kind: website
-name: a-visual-guide-to-mixture-of-experts
+name: A Visual Guide to Mixture of Experts (MoE)
 canonical_url: https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-mixture-of-experts
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It helps developers understand the trade-offs between sparse and active parameters in models like Mixtral 8x7B, which impacts infrastructure decisions for hosting and inference.
   mental_damage: You will read this entire guide to feel smart about router load balancing, only to immediately forget the difference between Token Choice and Soft-MoE when the next model drops.
   tags:
+    - architecture
+    - education
     - llm
     - moe
-    - education
-    - architecture
   confidence: high
 curation:
   status: excluded
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:46:42.070Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.729Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:46:42.070Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

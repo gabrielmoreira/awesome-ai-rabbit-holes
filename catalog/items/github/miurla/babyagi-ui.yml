@@ -1,6 +1,6 @@
 id: github__miurla__babyagi-ui
 kind: github-repo
-name: babyagi-ui
+name: BabyAGI UI
 canonical_url: https://github.com/miurla/babyagi-ui
 identity:
   github_repo: miurla/babyagi-ui
@@ -51,9 +51,9 @@ insights:
   mental_damage: We built a web interface to watch an AI create tasks for itself, effectively turning a todo list into a serverless burnout simulator.
   tags:
     - agent
+    - autonomous
     - langchain
     - nextjs
-    - autonomous
   confidence: high
 curation:
   status: excluded
@@ -69,6 +69,14 @@ lifecycle:
   status: needs_review
   reason: Repository is archived
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:38:23.356Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.707Z"
@@ -79,11 +87,3 @@ processing:
     updated_at: "2026-05-05T21:03:43.312Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:38:23.356Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

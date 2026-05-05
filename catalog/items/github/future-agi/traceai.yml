@@ -1,6 +1,6 @@
 id: github__future-agi__traceai
 kind: github-repo
-name: traceai
+name: traceAI
 canonical_url: https://github.com/future-agi/traceai
 identity:
   github_repo: future-agi/traceai
@@ -66,11 +66,11 @@ insights:
   why_it_matters: It lets developers debug complex AI workflows by sending structured traces to any OTel-compatible backend without locking into a specific vendor dashboard.
   mental_damage: Finally, a way to visualize exactly where your agentic workflow unraveled, so you can add 'observability' to the slide deck while the pager still goes off at 3 AM.
   tags:
+    - agents
+    - llm
     - observability
     - opentelemetry
     - tracing
-    - llm
-    - agents
   confidence: high
 curation:
   status: included
@@ -86,6 +86,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (175) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:20:25.352Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.665Z"
@@ -96,11 +104,3 @@ processing:
     updated_at: "2026-05-05T21:02:16.298Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:20:25.352Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

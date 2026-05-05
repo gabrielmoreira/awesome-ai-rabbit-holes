@@ -1,6 +1,6 @@
 id: github__langwatch__langwatch
 kind: github-repo
-name: langwatch
+name: LangWatch
 canonical_url: https://github.com/langwatch/langwatch
 identity:
   github_repo: langwatch/langwatch
@@ -70,10 +70,10 @@ insights:
   why_it_matters: It provides developers with a unified loop to trace, dataset-ize, evaluate, and optimize agent behavior before and after release, eliminating the need to glue together separate observability and eval tools.
   mental_damage: Finally, a single platform to scientifically prove that your agent fails in exactly the same creative ways across every provider and prompt version.
   tags:
-    - llm-evals
-    - observability
     - agent-testing
+    - llm-evals
     - llmops
+    - observability
     - opentelemetry
   confidence: high
 curation:
@@ -90,6 +90,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (3237) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:33:18.429Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.668Z"
@@ -100,11 +108,3 @@ processing:
     updated_at: "2026-05-05T21:03:17.068Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:33:18.429Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

@@ -1,13 +1,13 @@
 id: github__csunny__db-gpt
 kind: github-repo
-name: db-gpt
+name: DB GPT
 canonical_url: https://github.com/csunny/db-gpt
 identity:
   github_repo: csunny/db-gpt
 provenance:
   discoveries:
     - id: discovery__github__csunny__db-gpt__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-05T20:48:55.437Z"
+      discovered_at: "2026-05-05T22:33:31.148Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -24,7 +24,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 18660
+    stars: 18661
     forks: 2674
     license: MIT
     archived: false
@@ -45,49 +45,44 @@ metadata:
       - rag
       - security
       - vicuna
-    last_checked_at: "2026-05-05T21:01:43.898Z"
+    last_checked_at: "2026-05-05T23:07:47.075Z"
     readme:
-      fetched_at: "2026-05-05T21:01:43.898Z"
+      fetched_at: "2026-05-05T23:07:47.075Z"
       bytes: 21133
 insights:
-  summary: An open-source agentic AI data assistant that connects to various data sources, writes SQL and code, and generates reports and insights through natural language queries.
-  why_it_matters: It allows developers and teams to build AI-native data agents and workflows that automate complex data analysis tasks across databases, spreadsheets, and knowledge bases.
-  mental_damage: Another heroic solution to the enduring crisis of wanting insights from a database without actually remembering how to write a JOIN.
-  tags:
-    - data-agent
-    - sql-generation
-    - rag
-    - llm-framework
-  confidence: high
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
 curation:
-  status: included
-  reason: This is a code-first framework and platform for developers to build AI data agents and workflows, fitting the AI Frameworks and SDKs category rather than a direct coding assistant.
-  evidence:
-    - Repo description identifies it as an 'open-source agentic AI data assistant' for building AI + Data products.
-    - README states DB-GPT is a 'platform for building AI-native data agents, workflows, and applications' using AWEL, RAG, and multi-model support.
-    - Developers interact by importing skills, connecting data sources, and building workflows rather than using it as a repo-editing IDE agent.
+  status: pending
+  reason: null
+  evidence: []
 placement:
-  primary_category: ai-frameworks
+  primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
-  reason: Stars (18660) exceeded threshold (150)
+  reason: Stars (18661) exceeded threshold (150)
 processing:
+  categorize:
+    status: deferred
+    updated_at: "2026-05-05T23:08:33.635Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-05-06T00:08:33.635Z"
+    attempts: 0
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.441Z"
+    updated_at: "2026-05-05T22:33:31.150Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:43.898Z"
+    updated_at: "2026-05-05T23:07:47.075Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:14:53.057Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

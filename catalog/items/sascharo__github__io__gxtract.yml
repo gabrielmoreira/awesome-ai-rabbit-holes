@@ -1,6 +1,6 @@
 id: sascharo__github__io__gxtract
 kind: website
-name: gxtract
+name: sascharo.github.io/gxtract
 canonical_url: https://sascharo.github.io/gxtract
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It allows developers to plug document extraction and semantic search capabilities into MCP-compatible clients like VS Code, bridging the gap between research literature and coding workflows.
   mental_damage: We have successfully abstracted the act of reading a paper into a server protocol, ensuring you can ignore groundbreaking research without ever leaving your IDE.
   tags:
-    - mcp
-    - groundx
     - document-extraction
     - fastmcp
+    - groundx
+    - mcp
     - research
   confidence: high
 curation:
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:47:54.199Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.730Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:47:54.199Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

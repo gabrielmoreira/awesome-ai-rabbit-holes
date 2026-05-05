@@ -1,6 +1,6 @@
 id: github__a16z-infra__ai-getting-started
 kind: github-repo
-name: ai-getting-started
+name: AI Getting Started
 canonical_url: https://github.com/a16z-infra/ai-getting-started
 identity:
   github_repo: a16z-infra/ai-getting-started
@@ -42,11 +42,11 @@ insights:
   why_it_matters: It gives developers a fully wired, runnable scaffold so they can skip plumbing together Clerk, OpenAI, Replicate, Pinecone, and Fly.io and start prototyping AI features immediately.
   mental_damage: Yet another beautifully assembled starter kit that saves you three hours of setup, only to be abandoned six months later when the next model provider inevitably pivots their SDK again.
   tags:
-    - nextjs
     - langchain
-    - vector-db
-    - starter-kit
+    - nextjs
     - prototyping
+    - starter-kit
+    - vector-db
   confidence: high
 curation:
   status: included
@@ -62,6 +62,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (4143) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:05:13.297Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.675Z"
@@ -72,11 +80,3 @@ processing:
     updated_at: "2026-05-05T21:00:45.437Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:05:13.297Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

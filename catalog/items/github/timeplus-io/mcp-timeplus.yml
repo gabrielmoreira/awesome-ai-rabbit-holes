@@ -37,49 +37,83 @@ provenance:
         extracted_url: https://github.com/jovezhong/mcp-timeplus
         surrounding_text: "-   **[jovezhong/mcp-timeplus](https://github.com/jovezhong/mcp-timeplus)** [![GitHub stars](https://img.shields.io/github/stars/jovezhong/mcp-timeplus?style=social)](https://github.com/jovezhong/mcp-timeplus): Manages Apache Kafka topics and queries streaming data via Timeplus SQL."
         confidence: high
+    - id: discovery__github__timeplus-io__mcp-timeplus__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T22:33:31.148Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🗄️ <a name="databases"></a>Databases
+        anchor_text: jovezhong/mcp-timeplus
+        extracted_url: https://github.com/jovezhong/mcp-timeplus
+        surrounding_text: "- [jovezhong/mcp-timeplus](https://github.com/jovezhong/mcp-timeplus) 🐍 ☁️ - MCP server for Apache Kafka and Timeplus. Able to list Kafka topics, poll Kafka messages, save Kafka data locally and query streaming data with SQL via Timeplus"
+        confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 12
+    forks: 5
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-02-16T22:42:47Z"
+    pushed_at: "2025-07-24T06:04:40Z"
+    description: Execute SQL queries and manage databases seamlessly with Timeplus. Leverage powerful tools to interact with your data, Kafka topics, and Iceberg tables efficiently. Enhance your data workflows with a user-friendly interface and robust backend capabilities.
+    homepage: ""
+    topics:
+      - clickhouse
+      - flink
+      - iceberg
+      - kafka
+      - mcp-server
+      - spark
+    last_checked_at: "2026-05-05T21:03:00.094Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:00.094Z"
+      bytes: 5998
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that lets LLMs execute SQL queries, manage databases, and interact with Kafka and Iceberg tables inside a Timeplus cluster.
+  why_it_matters: Developers can wire Timeplus into MCP clients like Claude Desktop so their assistants can directly query streaming data, Kafka topics, and lakehouse tables without manual SQL translation.
+  mental_damage: We have successfully abstracted away the last remaining joy of crafting a perfectly tuned SQL query by letting an LLM run it as a tool call you can’t quite see.
+  tags:
+    - iceberg
+    - kafka
+    - mcp
+    - sql
+    - timeplus
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The project is a standalone MCP server implementation for Timeplus, clearly fitting the MCP Servers and Tooling category rather than a coding agent or generic data tool.
+  evidence:
+    - Repo description explicitly states this is an MCP server for executing SQL and managing databases with Timeplus.
+    - README documents MCP tools (run_sql, list_databases, list_kafka_topics, connect_to_apache_iceberg) and configuration for Claude Desktop.
+    - Included in awesome-mcp-list and awesome-mcp-servers under Databases sections, confirming MCP ecosystem positioning.
 placement:
-  primary_category: null
+  primary_category: mcp
   section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
-    status: skipped
-    updated_at: "2026-05-05T21:04:23.170Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-05-05T21:29:23.783Z"
+    cause: null
     next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.668Z"
+    updated_at: "2026-05-05T22:33:31.152Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-05T21:03:00.094Z"
     cause: null
+    next_retry_at: null

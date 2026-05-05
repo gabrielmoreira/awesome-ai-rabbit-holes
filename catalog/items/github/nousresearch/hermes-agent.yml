@@ -1,6 +1,6 @@
 id: github__nousresearch__hermes-agent
 kind: github-repo
-name: hermes-agent
+name: Hermes Agent
 canonical_url: https://github.com/nousresearch/hermes-agent
 identity:
   github_repo: nousresearch/hermes-agent
@@ -58,11 +58,11 @@ insights:
   why_it_matters: Developers can deploy a persistent, provider-agnostic coding agent on cheap infrastructure that autonomously improves its own capabilities and communicates via CLI or messaging platforms.
   mental_damage: "Just what we needed: an agent that builds a 'deepening model of who you are' while you're still trying to remember which of your fifteen AI subscriptions wrote that broken Dockerfile."
   tags:
-    - cli
-    - self-improving
-    - multi-model
-    - terminal
     - agent
+    - cli
+    - multi-model
+    - self-improving
+    - terminal
   confidence: high
 curation:
   status: included
@@ -78,6 +78,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (134015) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:40:58.562Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.710Z"
@@ -88,11 +96,3 @@ processing:
     updated_at: "2026-05-05T21:03:56.090Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:40:58.562Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

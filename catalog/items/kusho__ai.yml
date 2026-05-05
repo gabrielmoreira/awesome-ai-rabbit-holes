@@ -1,6 +1,6 @@
 id: kusho__ai
 kind: website
-name: kusho.ai
+name: Kusho
 canonical_url: https://kusho.ai
 identity: {}
 provenance:
@@ -53,11 +53,11 @@ insights:
   why_it_matters: It shifts API testing and security validation into the pipeline with self-maintaining tests, reducing the manual upkeep typically required to keep QA coverage in sync with a changing codebase.
   mental_damage: Another layer of autonomous agents now sits between your code and production, confidently deciding what is safe to ship while you wonder if anyone is still actually reading the tests.
   tags:
-    - testing
     - ci-cd
+    - qa
     - security
     - self-healing
-    - qa
+    - testing
   confidence: high
 curation:
   status: included
@@ -73,6 +73,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:45:50.858Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.674Z"
@@ -82,11 +90,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:45:50.858Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

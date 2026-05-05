@@ -1,6 +1,6 @@
 id: promptengineering__org
 kind: website
-name: promptengineering.org
+name: Prompt Engineering & AI tutorials & Resources
 canonical_url: https://promptengineering.org
 identity: {}
 provenance:
@@ -38,9 +38,9 @@ insights:
   why_it_matters: It provides developers with structured mental models and frameworks, like the ACE framework, for moving AI workflows from unreliable demos to production-grade systems.
   mental_damage: Because reading 2,000 words on 'The Polymath’s Renaissance' is definitely the missing step before you can figure out why your JSON schema keeps returning 'null'.
   tags:
-    - prompt-engineering
-    - education
     - agentic-workflows
+    - education
+    - prompt-engineering
     - tutorials
   confidence: high
 curation:
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:47:14.213Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.729Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:47:14.213Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

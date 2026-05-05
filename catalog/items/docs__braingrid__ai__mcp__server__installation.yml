@@ -1,6 +1,6 @@
 id: docs__braingrid__ai__mcp__server__installation
 kind: website
-name: installation
+name: BrainGrid MCP
 canonical_url: https://docs.braingrid.ai/mcp-server/installation
 identity: {}
 provenance:
@@ -39,11 +39,11 @@ insights:
   why_it_matters: It allows developers to extend their current AI coding environment with task and requirement generation capabilities via the Model Context Protocol without switching contexts.
   mental_damage: You can now authenticate yet another service just to ask an agent to write the requirements for the code that another agent is going to write for you.
   tags:
-    - mcp
-    - cursor
     - claude-code
-    - task-management
+    - cursor
     - integration
+    - mcp
+    - task-management
   confidence: high
 curation:
   status: included
@@ -59,6 +59,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:43:55.613Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.727Z"
@@ -68,11 +76,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:43:55.613Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

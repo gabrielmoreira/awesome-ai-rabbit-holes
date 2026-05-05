@@ -1,6 +1,6 @@
 id: www__theagi__company
 kind: website
-name: www.theagi.company
+name: MultiOn
 canonical_url: https://www.theagi.company
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It demonstrates a shift toward local, private, agentic AI that interacts directly with mobile OS capabilities rather than relying on cloud-hosted chat interfaces.
   mental_damage: Just when you thought 'vibe coding' was the peak, we now have companies promising 'everyday AGI' that will order your tacos while you wonder if your API keys are safe.
   tags:
+    - agentic-commerce
+    - agi
     - mobile-agent
     - on-device
-    - agi
-    - agentic-commerce
   confidence: high
 curation:
   status: excluded
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:53:46.340Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.734Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:53:46.340Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

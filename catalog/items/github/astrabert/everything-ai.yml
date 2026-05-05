@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__astrabert__everything-rag__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-05T20:48:55.437Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -48,20 +48,21 @@ metadata:
       - qdrant
       - stable-diffusion
       - text-summarization
-    last_checked_at: "2026-05-05T21:01:10.882Z"
+    last_checked_at: "2026-05-05T21:01:11.309Z"
     readme:
-      fetched_at: "2026-05-05T21:01:10.882Z"
+      fetched_at: "2026-05-05T21:01:11.309Z"
       bytes: 6585
 insights:
   summary: A Dockerized, local-first AI assistant that exposes multiple generative AI tasks—including RAG-enabled chat, image generation, summarization, and audio processing—via a web interface and Hugging Face models.
   why_it_matters: It offers developers a self-contained, local environment to experiment with dozens of open-source models and RAG pipelines without relying on external APIs.
   mental_damage: Nothing says 'focused developer tooling' quite like packaging protein folding, Stable Diffusion, and PDF chat into a single Docker Compose stack and calling it a day.
   tags:
-    - local-ai
-    - rag
-    - docker
-    - multimodal
     - chatbot
+    - docker
+    - llama-cpp
+    - local-ai
+    - multimodal
+    - rag
   confidence: high
 curation:
   status: excluded
@@ -70,6 +71,9 @@ curation:
     - Repo is marked as archived, indicating it is no longer maintained.
     - The README describes a general-purpose assistant for tasks like image generation, protein folding, and PDF chat, not developer tooling.
     - No clear fit within the catalog's developer-focused categories like coding-agents, local-ai (as a dev tool), or frameworks.
+    - Repository is marked as archived, indicating it is no longer actively maintained.
+    - The README describes a 'local chatbot assistant' with tasks like image generation and protein folding, lacking a developer-tooling workflow angle.
+    - Listed in awesome-local-ai under 'Inference UI', confirming its place as a consumer-facing local UI rather than a coding utility.
 placement:
   primary_category: null
   section: null
@@ -79,7 +83,7 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-05-05T21:09:17.668Z"
+    updated_at: "2026-05-05T21:09:18.453Z"
     cause: null
     next_retry_at: null
     attempts: 1
@@ -87,11 +91,11 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.679Z"
+    updated_at: "2026-05-05T20:48:55.440Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:10.882Z"
+    updated_at: "2026-05-05T21:01:11.309Z"
     cause: null
     next_retry_at: null

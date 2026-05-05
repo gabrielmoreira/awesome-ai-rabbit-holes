@@ -1,6 +1,6 @@
 id: github__omega-memory__omega-memory
 kind: github-repo
-name: core
+name: omega-memory/core
 canonical_url: https://github.com/omega-memory/omega-memory
 identity:
   github_repo: omega-memory/omega-memory
@@ -65,24 +65,27 @@ metadata:
       - persistent-memory
       - semantic-search
       - windsurf
-    last_checked_at: "2026-05-05T21:04:01.161Z"
+    last_checked_at: "2026-05-05T21:04:01.302Z"
     readme:
-      fetched_at: "2026-05-05T21:04:01.161Z"
+      fetched_at: "2026-05-05T21:04:01.302Z"
       bytes: 14642
 insights:
-  summary: A local-first persistent memory system that integrates with AI coding agents via MCP to store and recall decisions, preferences, and context across sessions.
-  why_it_matters: It eliminates the repetitive context re-explanation tax developers pay when starting new sessions with stateless coding agents by providing semantic memory that works across models and editors.
-  mental_damage: We have successfully escalated from writing code to writing infrastructure so our AI can remember that we prefer tabs over spaces, as if the machines needed another reason to judge us.
+  summary: A local-first memory layer and MCP server that gives AI coding agents persistent, cross-model memory across sessions.
+  why_it_matters: It eliminates the daily ritual of re-explaining your codebase and past decisions to stateless agents by storing preferences, errors, and architecture choices locally.
+  mental_damage: We have finally built a brain for the thing that was supposed to be the brain, and it turns out even the brain needs its own brain to remember what it learned yesterday.
   tags:
-    - memory
-    - mcp
-    - local-first
     - context-engineering
+    - local-first
+    - mcp
+    - memory
   confidence: high
 curation:
   status: included
-  reason: The project is a memory and context-shaping system for AI agents that focuses on retrieval, persistence, and surfacing relevant information across sessions, which fits context-engineering rather than being a primary coding agent itself.
+  reason: The project is a memory and context-shaping system for AI agents, directly matching the context-engineering category's focus on retrieval, memory, and context management.
   evidence:
+    - Repo description explicitly states 'Persistent memory for AI coding agents'.
+    - README positions it as a local-first memory, coordination, and learning system with semantic search and MCP server integration.
+    - Listed in awesome-mcp-list under 'Knowledge & Memory', reinforcing its role as a context/memory tool.
     - Repo description explicitly states 'Persistent memory for AI coding agents' and topics include context-engineering and mcp-server.
     - README positions it as solving 'context loss' and 'repeated mistakes' by storing memories with semantic embeddings across sessions.
     - Listed in awesome-mcp-servers under 'Knowledge & Memory' section, and integrates with Claude, Cursor, Windsurf via MCP.
@@ -103,11 +106,11 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.711Z"
+    updated_at: "2026-05-05T20:48:55.442Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:01.161Z"
+    updated_at: "2026-05-05T21:04:01.302Z"
     cause: null
     next_retry_at: null

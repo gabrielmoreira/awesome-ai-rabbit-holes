@@ -6,6 +6,21 @@ identity:
   github_repo: agileluminary/mcp-agile-luminary
 provenance:
   discoveries:
+    - id: discovery__agileluminary__com__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Agile Luminary
+        extracted_url: https://agileluminary.com
+        surrounding_text: "- **[Agile Luminary](https://github.com/AgileLuminary/mcp-agile-luminary)** - Simpler Project Management - send [Agile Luminary](https://agileluminary.com) stories straight to your IDE"
+        confidence: high
     - id: discovery__github__agileluminary__mcp-agile-luminary__awesome-list__wong2__awesome-mcp-servers
       discovered_at: "2026-05-05T19:41:00.656Z"
       source:
@@ -48,11 +63,17 @@ insights:
   why_it_matters: It allows developers to query their project management context and history directly from their AI coding assistant without switching contexts to a separate PM tool.
   mental_damage: We have successfully bridged the gap between 'vibe coding' and 'agile ceremony compliance', ensuring your AI can now ask you for your stakeholder sign-off status.
   tags:
-    - mcp
-    - project-management
-    - cursor
+    - agile
+    - ai-native
     - claude
+    - cursor
+    - documentation
+    - enterprise
+    - mcp
     - nodejs
+    - project-management
+    - saas
+    - sprint-planning
   confidence: high
 curation:
   status: included
@@ -68,9 +89,17 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T22:47:17.609Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.677Z"
+    updated_at: "2026-05-05T22:47:06.911Z"
     cause: null
     next_retry_at: null
   stars:
@@ -78,11 +107,3 @@ processing:
     updated_at: "2026-05-05T21:00:53.527Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:06:32.151Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

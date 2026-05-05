@@ -6,6 +6,21 @@ identity:
   github_repo: dot-agent/nextpy
 provenance:
   discoveries:
+    - id: discovery__github__dot-agent__dotagent__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - dotagent
+        anchor_text: dotagent
+        extracted_url: https://github.com/dot-agent/dotagent
+        surrounding_text: "## [dotagent](https://github.com/dot-agent/dotagent)"
+        confidence: high
     - id: discovery__github__dot-agent__nextpy__awesome-list__e2b-dev__awesome-ai-agents
       discovered_at: "2026-05-05T19:41:00.656Z"
       source:
@@ -52,25 +67,31 @@ metadata:
       - streamlit
       - webdev
       - webdevelopment
-    last_checked_at: "2026-05-05T21:01:56.550Z"
+    last_checked_at: "2026-05-05T21:01:56.595Z"
     readme:
-      fetched_at: "2026-05-05T21:01:56.550Z"
+      fetched_at: "2026-05-05T21:01:56.595Z"
       bytes: 5711
 insights:
-  summary: Nextpy is a Python framework for building self-modifying applications that integrates LLM code generation, optimized prompt compilation, and session state management for faster, controlled AI-driven development.
-  why_it_matters: It gives developers a structured way to embed self-improving AI behavior directly into Python apps while optimizing token usage and LLM response quality at compile time.
-  mental_damage: Just when you thought your CI pipeline was the only thing rewriting your code, now your framework wants to refactor itself while you wonder if you’re the maintainer or the liability.
+  summary: Dotagent (Nextpy) is a Python framework for building self-modifying software and AI applications, combining a specialized prompt engine, structured outputs, and session state management for LLMs.
+  why_it_matters: It offers developers a code-first stack to optimize LLM interactions—via pre-compiled prompts and KV-cache session reuse—while also scaffolding full-stack generative UI apps.
+  mental_damage: Another 'framework from the future' arrives to ensure you still have to write the boilerplate, just now with an AI that tries to rewrite it while you're looking.
   tags:
-    - python
-    - llm
-    - framework
-    - self-modifying
+    - ai-framework
     - code-generation
+    - framework
+    - llm
+    - llmops
+    - prompt-engineering
+    - python
+    - self-modifying
   confidence: high
 curation:
   status: included
-  reason: The project is a code-first Python framework and SDK for embedding AI behavior into applications, which cleanly fits the AI Frameworks and SDKs category.
+  reason: This is a code-first Python framework and SDK for embedding AI behavior and building AI apps, fitting the ai-frameworks category rather than a hosted builder or IDE agent.
   evidence:
+    - Repo description calls it a 'Self-Modifying Framework' and topics include python, fastapi, and llmops.
+    - README describes Nextpy as 'a framework for building self-modifying software' with a prompt engine, session state, and generative UI modules.
+    - "Archived: no, 2337 stars, active push as of 2024-05-01."
     - Repo description and README frame it as a framework for building self-modifying software, not a hosted app builder or IDE assistant.
     - Developers import and build with it in Python, leveraging FastAPI, SQLModel, and LLM integrations rather than operating a separate agent control plane.
     - Topics and README emphasize framework, SDK, and code-generation architecture rather than a primary coding-agent product surface.
@@ -81,16 +102,6 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (2337) exceeded threshold (150)
 processing:
-  discover:
-    status: done
-    updated_at: "2026-05-05T19:41:00.685Z"
-    cause: null
-    next_retry_at: null
-  stars:
-    status: done
-    updated_at: "2026-05-05T21:01:56.550Z"
-    cause: null
-    next_retry_at: null
   categorize:
     status: done
     updated_at: "2026-05-05T21:17:03.050Z"
@@ -99,3 +110,13 @@ processing:
     attempts: 1
     prompt_version: catalog-categorize-v2-baseline
     category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.441Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:56.595Z"
+    cause: null
+    next_retry_at: null

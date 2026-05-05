@@ -1,6 +1,6 @@
 id: github__openlit__openlit
 kind: github-repo
-name: openlit
+name: OpenLIT
 canonical_url: https://github.com/openlit/openlit
 identity:
   github_repo: openlit/openlit
@@ -61,11 +61,11 @@ insights:
   why_it_matters: It gives developers a single drop-in SDK to monitor, evaluate, and secure LLM-powered applications across the full stack from experimentation to production.
   mental_damage: Now you can add observability-induced anxiety to your existing prompt-induced anxiety, all while pretending your Python monolith is a distributed GenAI system.
   tags:
+    - evals
+    - gpu-monitoring
     - llm-observability
     - opentelemetry
-    - evals
     - prompt-management
-    - gpu-monitoring
   confidence: high
 curation:
   status: included
@@ -81,6 +81,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (2416) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:42:50.760Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.711Z"
@@ -91,11 +99,3 @@ processing:
     updated_at: "2026-05-05T21:04:06.495Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:42:50.760Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

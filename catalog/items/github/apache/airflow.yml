@@ -1,6 +1,6 @@
 id: github__apache__airflow
 kind: github-repo
-name: airflow
+name: Airflow
 canonical_url: https://github.com/apache/airflow
 identity:
   github_repo: apache/airflow
@@ -78,11 +78,11 @@ insights:
   why_it_matters: It remains the industry-standard backbone for orchestrating complex data pipelines, MLOps lifecycles, and batch processing jobs that modern AI systems depend on.
   mental_damage: We have reached a point where the 'AI workflow' is often just a very fancy way of scheduling a Python script that calls an API, and Airflow is still the king of knowing exactly when that script failed at 3 AM.
   tags:
-    - workflow
-    - orchestration
     - data-engineering
     - mlops
+    - orchestration
     - python
+    - workflow
   confidence: high
 curation:
   status: excluded
@@ -98,6 +98,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (45288) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:08:26.594Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.663Z"
@@ -108,11 +116,3 @@ processing:
     updated_at: "2026-05-05T21:01:05.337Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:08:26.594Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

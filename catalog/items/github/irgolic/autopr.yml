@@ -1,6 +1,6 @@
 id: github__irgolic__autopr
 kind: github-repo
-name: autopr
+name: AutoPR
 canonical_url: https://github.com/irgolic/autopr
 identity:
   github_repo: irgolic/autopr
@@ -52,11 +52,11 @@ insights:
   why_it_matters: It offers a historical look at one of the first attempts to automate the full code-change lifecycle from issue to PR, predating modern coding agents.
   mental_damage: A pioneer in showing us that letting a 2023 LLM autonomously push branches was a great way to collect duplicated lines and hallucinations in a neat PR format.
   tags:
-    - github-action
-    - pull-requests
-    - llm
-    - autonomous
     - archived
+    - autonomous
+    - github-action
+    - llm
+    - pull-requests
   confidence: high
 curation:
   status: excluded
@@ -72,6 +72,14 @@ lifecycle:
   status: needs_review
   reason: Repository is archived
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:26:31.848Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.698Z"
@@ -82,11 +90,3 @@ processing:
     updated_at: "2026-05-05T21:02:46.455Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:26:31.848Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

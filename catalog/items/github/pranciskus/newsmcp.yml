@@ -23,17 +23,32 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
+    stars: 4
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-03-03T13:24:10Z"
+    pushed_at: "2026-03-06T15:24:03Z"
+    description: MCP server for real-time world news — free, no API key required
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics:
+      - ai-agents
+      - claude
+      - llm
+      - llm-tools
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - news
+      - news-api
+      - newsmcp
+      - openclaw
+      - real-time-news
+      - world-news
+    last_checked_at: "2026-05-05T23:08:09.030Z"
+    readme:
+      fetched_at: "2026-05-05T23:08:09.030Z"
+      bytes: 10265
 insights:
   summary: null
   why_it_matters: null
@@ -57,13 +72,17 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-05T23:08:09.030Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T21:04:23.169Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-05-05T23:08:33.635Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-05-06T00:08:33.635Z"
+    attempts: 0
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

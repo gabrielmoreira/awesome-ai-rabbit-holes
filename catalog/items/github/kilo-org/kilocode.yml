@@ -1,6 +1,6 @@
 id: github__kilo-org__kilocode
 kind: github-repo
-name: kilocode
+name: Kilo Code
 canonical_url: https://github.com/kilo-org/kilocode
 identity:
   github_repo: kilo-org/kilocode
@@ -69,11 +69,11 @@ insights:
   why_it_matters: It offers developers a multi-modal agent experience—combining inline autocomplete, terminal automation, browser control, and an MCP marketplace—directly inside their IDE or terminal workflow.
   mental_damage: "Just what the modern developer needs: another 'all-in-one agentic platform' to manage while wondering if the agent is refactoring the code or just refactoring the anxiety."
   tags:
-    - coding-agent
-    - vscode-extension
     - cli
+    - coding-agent
     - mcp
     - open-source
+    - vscode-extension
   confidence: high
 curation:
   status: included
@@ -89,6 +89,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (18940) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:30:45.457Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.668Z"
@@ -99,11 +107,3 @@ processing:
     updated_at: "2026-05-05T21:03:05.681Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:30:45.457Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

@@ -1,6 +1,6 @@
 id: www__ultravox__ai
 kind: website
-name: www.ultravox.ai
+name: Fixie
 canonical_url: https://www.ultravox.ai
 identity: {}
 provenance:
@@ -38,11 +38,11 @@ insights:
   why_it_matters: It offers developers a purpose-built stack to integrate human-like voice interactions into applications without the latency and context loss of traditional speech-to-text-to-LLM pipelines.
   mental_damage: Yet another 'agentic' API promising to solve latency, summoning the inevitable future where we debug WebSocket streams instead of stack traces.
   tags:
-    - voice-ai
+    - api
     - infrastructure
     - real-time
-    - api
     - sdk
+    - voice-ai
   confidence: high
 curation:
   status: included
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:53:54.690Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.734Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:53:54.690Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

@@ -1,6 +1,6 @@
 id: github__flux0-ai__flux0
 kind: github-repo
-name: flux0
+name: Flux0
 canonical_url: https://github.com/flux0-ai/flux0
 identity:
   github_repo: flux0-ai/flux0
@@ -48,10 +48,10 @@ insights:
   mental_damage: Yet another 'unified' agent framework that promises to solve orchestration complexity by adding a new layer of abstraction you'll have to debug at 2am.
   tags:
     - agent-orchestration
-    - multi-agent
-    - real-time-streaming
     - llm-framework
+    - multi-agent
     - react-ui
+    - real-time-streaming
   confidence: medium
 curation:
   status: included
@@ -67,6 +67,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:19:54.165Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.687Z"
@@ -77,11 +85,3 @@ processing:
     updated_at: "2026-05-05T21:02:12.983Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:19:54.165Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

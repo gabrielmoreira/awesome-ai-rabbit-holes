@@ -1,6 +1,6 @@
 id: github__hpcaitech__colossalai
 kind: github-repo
-name: colossalai
+name: ColossalAI
 canonical_url: https://github.com/hpcaitech/colossalai
 identity:
   github_repo: hpcaitech/colossalai
@@ -70,8 +70,8 @@ insights:
   why_it_matters: It allows developers to train massive foundation models and run large-scale inference on heterogeneous hardware clusters without needing custom distributed systems expertise.
   mental_damage: Because clearly what every software engineer needed this year was another reason to pretend they understand HPC topology and NVIDIA multi-GPU interconnects.
   tags:
-    - distributed-training
     - deep-learning
+    - distributed-training
     - hpc
     - llm-infrastructure
     - model-parallelism
@@ -90,6 +90,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (41376) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:24:25.639Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.666Z"
@@ -100,11 +108,3 @@ processing:
     updated_at: "2026-05-05T21:02:36.351Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:24:25.639Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

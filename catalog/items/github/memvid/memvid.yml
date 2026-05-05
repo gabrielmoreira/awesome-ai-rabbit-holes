@@ -7,7 +7,23 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__olow304__memvid__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🗄️ <a name="databases"></a>Databases
+        anchor_text: memvid
+        extracted_url: https://github.com/olow304/memvid
+        surrounding_text: "- [ferrants/memvid-mcp-server](https://github.com/ferrants/memvid-mcp-server) 🐍 🏠 - Python Streamable HTTP Server you can run locally to interact with [memvid](https://github.com/Olow304/memvid) storage and semantic search."
+        confidence: high
+    - id: discovery__github__memvid__memvid__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T22:33:31.148Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -53,20 +69,22 @@ metadata:
       - semantic-search
       - vector-database
       - video-processing
-    last_checked_at: "2026-05-05T21:03:35.387Z"
+    last_checked_at: "2026-05-05T21:04:00.985Z"
     readme:
-      fetched_at: "2026-05-05T21:03:35.387Z"
+      fetched_at: "2026-05-05T21:04:00.985Z"
       bytes: 16849
 insights:
   summary: Memvid is a serverless, single-file memory layer for AI agents that replaces complex RAG pipelines with a portable, versioned, and offline-first memory system using video-inspired encoding.
   why_it_matters: It gives developers a way to add persistent, long-term memory to AI agents without standing up vector databases or managing complex retrieval infrastructure.
   mental_damage: Yet another clever workaround for the fact that your agent still can’t remember what it did five minutes ago without an external memory prosthetic.
   tags:
-    - memory
-    - rag
     - agents
-    - vector-search
+    - memory
     - offline-first
+    - python
+    - rag
+    - vector-database
+    - vector-search
   confidence: high
 curation:
   status: included
@@ -75,6 +93,9 @@ curation:
     - "Repo description: 'Memory layer for AI Agents. Replace complex RAG pipelines with a serverless, single-file memory layer.'"
     - "README: 'Memvid is a portable AI memory system that packages your data, embeddings, search structure, and metadata into a single file.'"
     - Topics include rag, memory, vector-database, semantic-search, and context, aligning with context-engineering scope.
+    - Repo description explicitly calls it a 'Memory layer for AI Agents' that replaces 'complex RAG pipelines with a serverless, single-file memory layer'.
+    - README states it is a 'portable AI memory system' that packages 'data, embeddings, search structure, and metadata into a single file' for fast retrieval.
+    - Core concepts include 'Living Memory Engine', 'Smart Recall', and 'Codec Intelligence', all focused on context and memory management rather than code editing.
 placement:
   primary_category: context-engineering
   section: null
@@ -84,7 +105,7 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-05-05T21:36:52.677Z"
+    updated_at: "2026-05-05T21:41:56.270Z"
     cause: null
     next_retry_at: null
     attempts: 1
@@ -92,11 +113,11 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.711Z"
+    updated_at: "2026-05-05T22:33:31.151Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:35.387Z"
+    updated_at: "2026-05-05T21:04:00.985Z"
     cause: null
     next_retry_at: null

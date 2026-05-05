@@ -39,18 +39,23 @@ metadata:
       bytes: 7426
 insights:
   summary: An MCP server that connects AI development environments to a regulatory compliance knowledge base covering the EU AI Act, GDPR, and DORA with article-level citations.
-  why_it_matters: It allows developers building AI products to query and classify their systems against EU regulations directly from their AI assistant workflow.
-  mental_damage: Now your AI agent can experience the paralyzing dread of EU compliance paperwork right alongside you, complete with 240 articles of existential risk classification.
+  why_it_matters: It lets developers building AI products query complex EU regulations directly from their AI assistant instead of manually parsing hundreds of legal articles.
+  mental_damage: Now your AI agent can confidently hallucinate that your facial recognition startup is fully DORA-compliant while you still can't figure out where to store the API keys.
   tags:
-    - mcp
     - compliance
     - eu-ai-act
+    - legal
+    - mcp
+    - regulations
     - regulatory
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server providing regulatory compliance tooling to AI development environments.
+  reason: The project is explicitly an MCP server providing regulatory compliance lookups, fitting cleanly into the MCP servers and tooling category.
   evidence:
+    - Repo description states 'Gibs MCP Server — EU regulatory compliance for AI agents (AI Act, GDPR, DORA)'
+    - README confirms it 'connects your AI development environment directly to a regulatory compliance knowledge base' via MCP
+    - Listed in awesome-mcp-servers under Server Implementations > Legal section
     - "Repo description states: 'Gibs MCP Server — EU regulatory compliance for AI agents'"
     - README demonstrates MCP integration via claude_desktop_config.json and provides MCP tools like classify_ai_system and check_compliance
     - Active development as of 2026-02-15 with no archive flag
@@ -71,7 +76,7 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.681Z"
+    updated_at: "2026-05-05T20:48:55.440Z"
     cause: null
     next_retry_at: null
   stars:

@@ -1,6 +1,6 @@
 id: github__microsoft__mm-react
 kind: github-repo
-name: mm-react
+name: MM ReAct
 canonical_url: https://github.com/microsoft/mm-react
 identity:
   github_repo: microsoft/mm-react
@@ -42,10 +42,10 @@ insights:
   why_it_matters: It provides a concrete reference implementation for developers looking to compose LLMs with external perception APIs to build multimodal assistants.
   mental_damage: You can now orchestrate a dozen Azure endpoints just to ask an AI what celebrity is in a photo, because apparently standard image recognition wasn't sufficiently complex.
   tags:
-    - multimodal
     - langchain
-    - vision
+    - multimodal
     - research
+    - vision
   confidence: medium
 curation:
   status: included
@@ -61,6 +61,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (968) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:37:32.261Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.707Z"
@@ -71,11 +79,3 @@ processing:
     updated_at: "2026-05-05T21:03:38.951Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:37:32.261Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

@@ -1,6 +1,6 @@
 id: github__gkamradt__langchain-tutorials
 kind: github-repo
-name: langchain-tutorials
+name: Langchain Tutorials
 canonical_url: https://github.com/gkamradt/langchain-tutorials
 identity:
   github_repo: gkamradt/langchain-tutorials
@@ -43,10 +43,10 @@ insights:
   mental_damage: Another reassuring notebook collection promising that if you just watch one more video and run one more cell, you'll finally master the abstraction layer that will be deprecated next Tuesday.
   tags:
     - langchain
-    - tutorials
-    - notebooks
     - learning
     - llm
+    - notebooks
+    - tutorials
   confidence: high
 curation:
   status: included
@@ -62,6 +62,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (7430) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:21:41.935Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.689Z"
@@ -72,11 +80,3 @@ processing:
     updated_at: "2026-05-05T21:02:22.679Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:21:41.935Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

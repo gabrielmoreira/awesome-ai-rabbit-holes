@@ -1,6 +1,6 @@
 id: github__microsoft__archai
 kind: github-repo
-name: archai
+name: Archai
 canonical_url: https://github.com/microsoft/archai
 identity:
   github_repo: microsoft/archai
@@ -53,11 +53,11 @@ insights:
   why_it_matters: It lets developers move beyond hand-tuning model architectures by defining search spaces and objectives in code to automatically find Pareto-optimal configurations for parameters, latency, and memory.
   mental_damage: Because what your CI pipeline really needed was an autonomous agent burning GPU cycles to rediscover that a slightly smaller Transformer would have been fine.
   tags:
-    - neural-architecture-search
     - automl
-    - pytorch
     - deep-learning
     - model-optimization
+    - neural-architecture-search
+    - pytorch
   confidence: high
 curation:
   status: included
@@ -73,6 +73,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (486) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:37:22.757Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.706Z"
@@ -83,11 +91,3 @@ processing:
     updated_at: "2026-05-05T21:03:37.886Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:37:22.757Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

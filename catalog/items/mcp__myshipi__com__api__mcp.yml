@@ -1,6 +1,6 @@
 id: mcp__myshipi__com__api__mcp
 kind: website
-name: mcp
+name: remote MCP
 canonical_url: https://mcp.myshipi.com/api/mcp
 identity: {}
 provenance:
@@ -39,8 +39,8 @@ insights:
   why_it_matters: It represents the growing ecosystem of specialized MCP servers that extend AI assistants with domain-specific capabilities like delivery logistics.
   mental_damage: Another Tuesday, another MCP server you didn't know you needed until your AI assistant casually mentions it can't track your packages.
   tags:
-    - mcp
     - delivery
+    - mcp
     - server
   confidence: low
 curation:
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:46:21.021Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.729Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:46:21.021Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

@@ -1,6 +1,6 @@
 id: github__kestra-io__kestra
 kind: github-repo
-name: kestra
+name: Kestra
 canonical_url: https://github.com/kestra-io/kestra
 identity:
   github_repo: kestra-io/kestra
@@ -55,10 +55,10 @@ insights:
   why_it_matters: It allows developers to manage complex workflow orchestration with Infrastructure as Code practices, offering a UI for visualization while maintaining Git version control and supporting scripts in any language.
   mental_damage: Yet another 'declarative' orchestration platform promising to tame chaos, just in case you missed the memo that YAML was supposed to be the cure for complex infrastructure anxiety.
   tags:
+    - event-driven
+    - infrastructure-as-code
     - orchestration
     - workflow
-    - infrastructure-as-code
-    - event-driven
     - yaml
   confidence: high
 curation:
@@ -75,6 +75,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (26789) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:30:26.297Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.701Z"
@@ -85,11 +93,3 @@ processing:
     updated_at: "2026-05-05T21:03:04.221Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:30:26.297Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

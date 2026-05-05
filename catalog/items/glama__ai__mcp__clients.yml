@@ -1,6 +1,6 @@
 id: glama__ai__mcp__clients
 kind: website
-name: clients
+name: glama.ai/mcp/clients
 canonical_url: https://glama.ai/mcp/clients
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: Developers adopting MCP need a reliable index of compatible hosts (like Claude Desktop, Cursor, and others) to plug their servers into.
   mental_damage: We now have a protocol for the protocols, ensuring you can spend your afternoon debating which 'client' supports which 'server' instead of writing code.
   tags:
-    - mcp
-    - directory
-    - tooling
     - clients
+    - directory
+    - mcp
+    - tooling
   confidence: high
 curation:
   status: included
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:44:57.619Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.728Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:44:57.619Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

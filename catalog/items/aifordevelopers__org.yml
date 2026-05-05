@@ -1,6 +1,6 @@
 id: aifordevelopers__org
 kind: website
-name: aifordevelopers.org
+name: AI For Developers
 canonical_url: https://aifordevelopers.org
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It provides a categorized starting point for developers trying to navigate and compare the rapidly expanding ecosystem of AI dev tools.
   mental_damage: Yet another beautifully designed map of the rabbit hole, ensuring you spend your afternoon browsing tools instead of configuring the one you already have.
   tags:
-    - directory
     - ai-tools
-    - discovery
     - awesome-list
+    - directory
+    - discovery
   confidence: high
 curation:
   status: included
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:41:41.039Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.726Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:41:41.039Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

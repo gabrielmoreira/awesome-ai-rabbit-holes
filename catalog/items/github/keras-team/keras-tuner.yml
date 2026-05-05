@@ -1,6 +1,6 @@
 id: github__keras-team__keras-tuner
 kind: github-repo
-name: keras-tuner
+name: Keras Tuner
 canonical_url: https://github.com/keras-team/keras-tuner
 identity:
   github_repo: keras-team/keras-tuner
@@ -47,11 +47,11 @@ insights:
   why_it_matters: It lets deep learning developers define a search space with a simple API and automate the trial-and-error process of finding optimal model configurations.
   mental_damage: Because clearly what the modern ML engineer needed was another layer of abstraction to endlessly tweak while their models trained for three days on a hunch.
   tags:
+    - automl
     - deep-learning
     - hyperparameter-tuning
     - keras
     - tensorflow
-    - automl
   confidence: high
 curation:
   status: excluded
@@ -67,6 +67,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (2923) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:30:25.162Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.701Z"
@@ -77,11 +85,3 @@ processing:
     updated_at: "2026-05-05T21:03:04.083Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:30:25.162Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

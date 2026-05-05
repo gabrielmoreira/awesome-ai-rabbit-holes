@@ -1,6 +1,6 @@
 id: github__dicklesworthstone__swiss_army_llama
 kind: github-repo
-name: llama_embeddings_fastapi_service
+name: Llama2 Embedding Server
 canonical_url: https://github.com/dicklesworthstone/swiss_army_llama
 identity:
   github_repo: dicklesworthstone/swiss_army_llama
@@ -39,30 +39,33 @@ metadata:
       - llama2
       - llamacpp
       - semantic-search
-    last_checked_at: "2026-05-05T21:01:52.758Z"
+    last_checked_at: "2026-05-05T21:01:53.064Z"
     readme:
-      fetched_at: "2026-05-05T21:01:52.758Z"
+      fetched_at: "2026-05-05T21:01:53.064Z"
       bytes: 42843
 insights:
-  summary: A FastAPI service that exposes REST endpoints for local LLM text embeddings, completions, semantic search, and document/audio processing using llama_cpp and Whisper.
-  why_it_matters: It gives developers a ready-to-integrate local API for embedding pipelines and semantic search without relying on external hosted model services.
-  mental_damage: Another proud step toward the future where every developer runs a bespoke museum of local model-serving microservices just to avoid a $20 API bill.
+  summary: A FastAPI service that hosts local LLMs via llama_cpp to provide REST endpoints for text embeddings, semantic search over precomputed vectors, text completion, audio transcription, and document ingestion.
+  why_it_matters: It packages local LLM capabilities—including advanced similarity measures and document/OCR support—into a ready-to-integrate API service for developers building semantic search or RAG workflows.
+  mental_damage: Just when you thought you could escape the 'which pooling method best captures my soul' debate, here is a service offering six mathematical ways to flatten your tokens while you debug a RAM disk.
   tags:
-    - fastapi
-    - local-llm
     - embeddings
-    - semantic-search
+    - fastapi
     - llama-cpp
+    - local-llm
+    - semantic-search
   confidence: high
 curation:
   status: included
-  reason: This is a local model-serving stack and developer tooling for running embeddings and LLM inference on your own hardware via a FastAPI interface.
+  reason: This is a code-first service framework and SDK-style building block for hosting local LLM inference and embedding capabilities, fitting the AI Frameworks and SDKs category.
   evidence:
+    - Repo description explicitly defines it as 'A FastAPI service for semantic text search using precomputed embeddings'
+    - README details a REST API surface with Swagger UI for embeddings, completions, and document ingestion using llama_cpp and FAISS
+    - Listed in awesome-langchain under Tools > Services, reinforcing its role as a developer-consumable service framework
     - Repo description explicitly calls it a FastAPI service for semantic search using local embeddings and llama_cpp.
     - README details local execution via llama_cpp, Whisper transcription, and FAISS vector search with no hosted SaaS component.
     - Actively maintained with a recent push date of 2025-02-27 and over 1,000 stars.
 placement:
-  primary_category: local-ai
+  primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
@@ -78,11 +81,11 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.684Z"
+    updated_at: "2026-05-05T20:48:55.441Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:52.758Z"
+    updated_at: "2026-05-05T21:01:53.064Z"
     cause: null
     next_retry_at: null

@@ -1,6 +1,6 @@
 id: github__argilla-io__distilabel
 kind: github-repo
-name: distilabel
+name: Distilabel
 canonical_url: https://github.com/argilla-io/distilabel
 identity:
   github_repo: argilla-io/distilabel
@@ -66,11 +66,11 @@ insights:
   why_it_matters: It lets developers programmatically generate high-quality fine-tuning datasets and preference pairs using research-backed methods and any LLM provider.
   mental_damage: Yet another chance to discover that your model's biggest bottleneck isn't the architecture, it's the three weeks you'll spend perfecting a pipeline to synthesize data that mostly mimics your own biases.
   tags:
-    - synthetic-data
-    - llm
-    - python
     - fine-tuning
+    - llm
     - pipelines
+    - python
+    - synthetic-data
   confidence: high
 curation:
   status: included
@@ -86,6 +86,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (3202) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:08:55.142Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.663Z"
@@ -96,11 +104,3 @@ processing:
     updated_at: "2026-05-05T21:01:08.669Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:08:55.142Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

@@ -3,6 +3,14 @@ import { mapWithConcurrency } from "../support/async.ts";
 import { fetchGitHubRepo, parseGitHubUrl } from "../support/github.ts";
 import { makeItemId, makeItemPath, normalizeCatalogUrl, normalizeLoadedItem } from "./core.ts";
 import { loadCatalogItems, saveCatalogItem } from "./data.ts";
+import {
+  collectCatalogDisplayNameCandidates,
+  normalizeCatalogDisplayNameKey,
+  resolveCatalogDisplayName,
+  resolveCatalogDisplayNameTargetKeys,
+  resolveCatalogUrlHostLabel,
+  selectBestCatalogDisplayName,
+} from "./display-names.ts";
 import { summarizeDistinctCounts } from "./reporting.ts";
 import type { CatalogItem, ProcessingCommandState } from "./types.ts";
 import { resolveWebsiteLink } from "./website-links.ts";
@@ -44,35 +52,12 @@ export type RepairDeps = {
   removePath: (filePath: string) => void;
 };
 
-function normalizeNameKey(value: string | null | undefined): string | null {
-  if (typeof value !== "string") return null;
-  const normalized = value.trim().toLowerCase().replace(/[^a-z0-9]+/g, "");
-  return normalized.length > 0 ? normalized : null;
-}
-
-function resolveWebsiteHostLabel(url: string): string | null {
-  try {
-    const hostname = new URL(url).hostname.toLowerCase().replace(/^www\./, "");
-    const parts = hostname.split(".");
-    const label = parts.length >= 2 ? parts[parts.length - 2] : parts[0];
-    return normalizeNameKey(label);
-  } catch {
-    return null;
-  }
-}
-
-function looksLikeWeakDisplayName(name: string | null | undefined): boolean {
-  if (typeof name !== "string") return true;
-  const trimmed = name.trim();
-  if (trimmed.length === 0) return true;
-  if (/^https?:\/\//i.test(trimmed)) return true;
-  return /\.[a-z]{2,}$/i.test(trimmed);
-}
 
 function choosePreferredItem(items: CatalogItem[], canonicalUrl: string): CatalogItem {
   const canonicalGithub = parseGitHubUrl(canonicalUrl);
   const scored = items.map((item) => {
     let score = 0;
+    const resolvedName = resolveCatalogDisplayName(item);
     if (item.curation.status !== "pending") score += 200;
     if (item.processing?.categorize?.status === "done") score += 80;
     if (item.processing?.stars?.status === "done") score += 40;
@@ -82,7 +67,7 @@ function choosePreferredItem(items: CatalogItem[], canonicalUrl: string): Catalo
     if (item.insights.mental_damage) score += 10;
     if ((item.insights.tags ?? []).length > 0) score += 10;
     if (canonicalGithub && item.kind === "github-repo") score += 50;
-    if (!looksLikeWeakDisplayName(item.name)) score += 10;
+    if (resolvedName === item.name) score += 10;
     return { item, score };
   });
   scored.sort((left, right) => right.score - left.score || left.item.canonical_url.localeCompare(right.item.canonical_url));
@@ -99,13 +84,18 @@ function pickFirstDefined<T>(preferred: CatalogItem, items: CatalogItem[], pick:
   return null;
 }
 
+function serializeRepairComparableItem(item: CatalogItem): string {
+  return JSON.stringify(normalizeLoadedItem(item));
+}
+
 function chooseMergedName(preferred: CatalogItem, items: CatalogItem[], canonicalUrl: string): string {
   const canonicalGithub = parseGitHubUrl(canonicalUrl);
-  const candidates = [preferred, ...items]
-    .map((item) => item.name?.trim())
-    .filter((value): value is string => typeof value === "string" && value.length > 0);
-  const strong = candidates.find((value) => !looksLikeWeakDisplayName(value));
-  if (strong) return strong;
+  const targetKeys = resolveCatalogDisplayNameTargetKeys(canonicalUrl, canonicalGithub ? `${canonicalGithub.owner}/${canonicalGithub.repo}` : preferred.identity.github_repo);
+  const mergedName = selectBestCatalogDisplayName(
+    items.flatMap((item) => collectCatalogDisplayNameCandidates(item)),
+    targetKeys,
+  );
+  if (mergedName) return mergedName;
   if (canonicalGithub) return canonicalGithub.repo;
   return preferred.name;
 }
@@ -211,14 +201,14 @@ function mergeGithubMetadata(preferred: CatalogItem, items: CatalogItem[]): Cata
 function collectDiscoveryAnchorKeys(item: CatalogItem): Set<string> {
   return new Set(
     item.provenance.discoveries
-      .map((discovery) => normalizeNameKey(discovery.extraction.anchor_text))
+      .map((discovery) => normalizeCatalogDisplayNameKey(discovery.extraction.anchor_text))
       .filter((value): value is string => typeof value === "string" && value.length > 0),
   );
 }
 
 export function findLocalWebsiteGitHubMatch(item: CatalogItem, items: CatalogItem[]): string | null {
   if (item.kind !== "website") return null;
-  const hostLabel = resolveWebsiteHostLabel(item.canonical_url);
+  const hostLabel = resolveCatalogUrlHostLabel(item.canonical_url);
   if (!hostLabel) return null;
 
   const websiteEvidenceKeys = [...collectDiscoveryAnchorKeys(item)];
@@ -229,7 +219,7 @@ export function findLocalWebsiteGitHubMatch(item: CatalogItem, items: CatalogIte
     if (!github || candidate.id === item.id) return false;
     const candidateKeys = new Set<string>([
       github.repo,
-      normalizeNameKey(candidate.name) ?? "",
+      normalizeCatalogDisplayNameKey(candidate.name) ?? "",
       ...collectDiscoveryAnchorKeys(candidate),
     ].filter((value) => value.length > 0));
     if (!candidateKeys.has(hostLabel)) return false;
@@ -242,25 +232,48 @@ export function findLocalWebsiteGitHubMatch(item: CatalogItem, items: CatalogIte
 }
 
 export function selectRepairCandidates(items: CatalogItem[]): CatalogItem[] {
-  const githubRepoNames = new Set<string>();
-  const githubNameKeys = new Set<string>();
+  const githubRepoCounts = new Map<string, number>();
+  const githubRepoKeyCounts = new Map<string, number>();
+  const githubNameCounts = new Map<string, number>();
+  const websiteSignals = new Set<string>();
   for (const item of items) {
     const github = parseGitHubUrl(item.canonical_url);
-    if (!github) continue;
-    githubRepoNames.add(github.repo);
-    const nameKey = normalizeNameKey(item.name);
-    if (nameKey) githubNameKeys.add(nameKey);
+    const nameKey = normalizeCatalogDisplayNameKey(item.name);
+    if (github) {
+      githubRepoCounts.set(github.repo, (githubRepoCounts.get(github.repo) ?? 0) + 1);
+      const repoKey = normalizeCatalogDisplayNameKey(github.repo);
+      if (repoKey) githubRepoKeyCounts.set(repoKey, (githubRepoKeyCounts.get(repoKey) ?? 0) + 1);
+      if (nameKey) githubNameCounts.set(nameKey, (githubNameCounts.get(nameKey) ?? 0) + 1);
+      continue;
+    }
+    if (item.kind !== "website") continue;
+    const hostLabel = resolveCatalogUrlHostLabel(item.canonical_url);
+    if (hostLabel) websiteSignals.add(hostLabel);
+    if (nameKey) websiteSignals.add(nameKey);
   }
 
   return items.filter((item) => {
-    if (parseGitHubUrl(item.canonical_url)) return true;
-    if (item.kind !== "website") return false;
-    const hostLabel = resolveWebsiteHostLabel(item.canonical_url);
-    const nameKey = normalizeNameKey(item.name);
-    return Boolean(
-      (hostLabel && (githubRepoNames.has(hostLabel) || githubNameKeys.has(hostLabel)))
-      || (nameKey && (githubRepoNames.has(nameKey) || githubNameKeys.has(nameKey))),
+    const resolvedName = resolveCatalogDisplayName(item);
+    const needsNameRepair = resolvedName.trim() !== item.name.trim();
+    const github = parseGitHubUrl(item.canonical_url);
+    if (github) {
+      const repoKey = normalizeCatalogDisplayNameKey(github.repo);
+      const nameKey = normalizeCatalogDisplayNameKey(item.name);
+      const hasAliasProneGitHubMatch = (githubRepoCounts.get(github.repo) ?? 0) > 1
+        || (repoKey != null && (githubRepoKeyCounts.get(repoKey) ?? 0) > 1)
+        || (nameKey != null && (githubNameCounts.get(nameKey) ?? 0) > 1);
+      const hasWebsiteMatch = (repoKey != null && websiteSignals.has(repoKey))
+        || (nameKey != null && websiteSignals.has(nameKey));
+      return needsNameRepair || hasAliasProneGitHubMatch || hasWebsiteMatch;
+    }
+    if (item.kind !== "website") return needsNameRepair;
+    const hostLabel = resolveCatalogUrlHostLabel(item.canonical_url);
+    const nameKey = normalizeCatalogDisplayNameKey(item.name);
+    const hasLocalGitHubMatch = Boolean(
+      (hostLabel && ((githubRepoKeyCounts.get(hostLabel) ?? 0) > 0 || (githubNameCounts.get(hostLabel) ?? 0) > 0))
+      || (nameKey && ((githubRepoKeyCounts.get(nameKey) ?? 0) > 0 || (githubNameCounts.get(nameKey) ?? 0) > 0)),
     );
+    return hasLocalGitHubMatch || needsNameRepair;
   });
 }
 
@@ -298,12 +311,17 @@ export function repairCatalogItems(items: CatalogItem[], targets: Map<string, Ca
   for (const [targetUrl, group] of [...grouped.entries()].sort((left, right) => left[0].localeCompare(right[0]))) {
     const originalUrls = [...new Set(group.map((item) => normalizeCatalogUrl(item.canonical_url)))];
     const targetChanged = group.some((item) => (targets.get(item.id)?.canonicalUrl ?? normalizeCatalogUrl(item.canonical_url)) !== normalizeCatalogUrl(item.canonical_url));
-    if (originalUrls.length === 1 && !targetChanged) {
-      finalItems.push(group[0]!);
+    const preferred = choosePreferredItem(group, targetUrl);
+    const mergedName = chooseMergedName(preferred, group, targetUrl);
+    const nameChanged = group.some((item) => item.name.trim() !== mergedName);
+    if (originalUrls.length === 1 && !targetChanged && !nameChanged) {
+      const preferredSignature = serializeRepairComparableItem(preferred);
+      const shouldPersistPreferred = group.some((item) => serializeRepairComparableItem(item) !== preferredSignature);
+      finalItems.push(preferred);
+      if (shouldPersistPreferred) changedItems.push(preferred);
       continue;
     }
 
-    const preferred = choosePreferredItem(group, targetUrl);
     const { curation, conflict } = resolveMergedCuration(group, preferred);
     const keepPlacement = curation.status === "included" && !conflict;
     const targetGithub = parseGitHubUrl(targetUrl);
@@ -311,9 +329,14 @@ export function repairCatalogItems(items: CatalogItem[], targets: Map<string, Ca
       ...preferred,
       id: makeItemId(targetUrl),
       kind: targetGithub ? "github-repo" : preferred.kind,
-      name: chooseMergedName(preferred, group, targetUrl),
+      name: mergedName,
       canonical_url: targetUrl,
-      identity: targetGithub ? { github_repo: `${targetGithub.owner}/${targetGithub.repo}` } : {},
+      identity: targetGithub
+        ? { github_repo: `${targetGithub.owner}/${targetGithub.repo}` }
+        : (() => {
+            const githubRepo = pickFirstDefined(preferred, group, (item) => item.identity.github_repo);
+            return githubRepo ? { github_repo: githubRepo } : {};
+          })(),
       provenance: {
         discoveries: group.flatMap((item) => item.provenance.discoveries),
       },
@@ -389,7 +412,7 @@ export async function runRepair(
   const targets = new Map(resolvedTargets.map((entry) => [entry.id, entry.target] as const));
   const plan = repairCatalogItems(items, targets);
 
-  for (const item of plan.items) resolvedDeps.saveItem(item);
+  for (const item of plan.changedItems) resolvedDeps.saveItem(item);
   for (const filePath of plan.removedPaths) resolvedDeps.removePath(filePath);
 
   console.log(`Catalog repair candidates: ${plan.summary.candidates}`);
@@ -401,7 +424,7 @@ export async function runRepair(
       `Repair causes: ${plan.summary.byCause.map((entry) => `${entry.value}=${entry.count}`).join(", ")}`,
     );
   }
-  if (plan.summary.changedCandidates === 0 && plan.summary.removedPaths === 0) {
+  if (plan.changedItems.length === 0 && plan.summary.removedPaths === 0) {
     console.log("No persisted catalog items required canonical repair.");
   }
 }

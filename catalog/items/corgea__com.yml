@@ -1,6 +1,6 @@
 id: corgea__com
 kind: website
-name: corgea.com
+name: Corgea
 canonical_url: https://corgea.com
 identity: {}
 provenance:
@@ -38,11 +38,11 @@ insights:
   why_it_matters: It integrates directly into pull requests and IDEs to autonomously fix security flaws—including business logic issues missed by traditional SAST—allowing developers to offload remediation work without leaving their current context.
   mental_damage: We’ve successfully automated the part of security where humans used to argue with each other in code reviews, so now we can focus our anxiety on whether the AI is hallucinating the correct SQL parameterization.
   tags:
-    - security
-    - sast
-    - vulnerability-fixing
-    - devsecops
     - ai-scanning
+    - devsecops
+    - sast
+    - security
+    - vulnerability-fixing
   confidence: high
 curation:
   status: included
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:43:20.597Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.727Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:43:20.597Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

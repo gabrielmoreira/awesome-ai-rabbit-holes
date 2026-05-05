@@ -1,6 +1,6 @@
 id: github__neovateai__neovate-code
 kind: github-repo
-name: neovate-code
+name: Neovate Code
 canonical_url: https://github.com/neovateai/neovate-code
 identity:
   github_repo: neovateai/neovate-code
@@ -43,9 +43,9 @@ insights:
   mental_damage: Another CLI agent enters the arena, promising to refactor your authentication flow while you wonder if it will also refactor your employment status.
   tags:
     - cli
+    - code-review
     - coding-agent
     - terminal
-    - code-review
     - testing
   confidence: high
 curation:
@@ -62,6 +62,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (1531) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:40:15.949Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.709Z"
@@ -72,11 +80,3 @@ processing:
     updated_at: "2026-05-05T21:03:52.763Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:40:15.949Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

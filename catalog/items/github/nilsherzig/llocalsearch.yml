@@ -1,6 +1,6 @@
 id: github__nilsherzig__llocalsearch
 kind: github-repo
-name: llocalsearch
+name: LLocalSearch
 canonical_url: https://github.com/nilsherzig/llocalsearch
 identity:
   github_repo: nilsherzig/llocalsearch
@@ -43,10 +43,10 @@ insights:
   why_it_matters: It lets developers prototype agentic search workflows on private infrastructure using local models, avoiding cloud API lock-in and data privacy trade-offs.
   mental_damage: Yet another reminder that while we wait for the perfect local agent, we’re still debugging langchaingo stop-word patches and pretending a 300€ GPU counts as 'low end'.
   tags:
-    - local-ai
-    - search
     - agents
     - langchain
+    - local-ai
+    - search
     - self-hosted
   confidence: high
 curation:
@@ -63,6 +63,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (5954) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:40:44.753Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.710Z"
@@ -73,11 +81,3 @@ processing:
     updated_at: "2026-05-05T21:03:55.146Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:40:44.753Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

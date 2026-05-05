@@ -1,6 +1,6 @@
 id: github__upstash__context7
 kind: github-repo
-name: context7
+name: Context 7
 canonical_url: https://github.com/upstash/context7
 identity:
   github_repo: upstash/context7
@@ -71,18 +71,24 @@ insights:
   mental_damage: We have successfully engineered a system to feed documentation to the AI because apparently the human's job is now verifying if the bot read the changelog.
   tags:
     - ai-coding-assistant
+    - context
     - context-retrieval
+    - developer-productivity
     - documentation
+    - llm-grounding
     - upstash
   confidence: high
 curation:
   status: included
-  reason: The product primarily augments existing AI coding assistants (like Cursor and Claude Code) with fresh documentation rather than acting as a standalone coding agent or IDE.
+  reason: The product is a context-shaping system that retrieves fresh documentation to improve model output, fitting squarely into prompt/context engineering rather than being a primary coding agent.
   evidence:
+    - Scraped description states it pulls 'up-to-date, version-specific documentation and code examples... directly into Cursor, Claude Code, Windsurf, and other AI coding tools.'
+    - Listed in awesome-ai-coding-tools under 'Developer Productivity Tools' specifically for documentation lookup.
+    - Title explicitly identifies it as 'Up-to-date documentation for LLMs and AI code editors.'
     - Scraped site description states it pulls docs 'directly into Cursor, Claude Code, Windsurf, and other AI coding tools'.
     - Listed in awesome-ai-coding-tools under 'Developer Productivity Tools' specifically for enhancing LLM context.
 placement:
-  primary_category: ai-dev-extensions
+  primary_category: null
   section: null
 lifecycle:
   status: incubating
@@ -90,15 +96,15 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-05-05T19:43:14.199Z"
+    updated_at: "2026-05-05T20:49:21.881Z"
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
+    category_rules_version: 1b6cc5462ecc
     next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.727Z"
+    updated_at: "2026-05-05T20:48:55.444Z"
     cause: null
     next_retry_at: null
   stars:

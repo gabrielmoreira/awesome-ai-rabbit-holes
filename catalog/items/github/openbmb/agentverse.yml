@@ -1,6 +1,6 @@
 id: github__openbmb__agentverse
 kind: github-repo
-name: agentverse
+name: AgentVerse
 canonical_url: https://github.com/openbmb/agentverse
 identity:
   github_repo: openbmb/agentverse
@@ -61,11 +61,11 @@ insights:
   why_it_matters: It provides the scaffolding to build multi-agent systems—like automated software development teams—without wiring the inter-agent logic from scratch.
   mental_damage: "Just what your Stack overflow-induced imposter syndrome needed: a framework to simulate an entire engineering department that might actually agree on a design doc."
   tags:
-    - multi-agent
-    - simulation
-    - llm
     - framework
+    - llm
+    - multi-agent
     - python
+    - simulation
   confidence: high
 curation:
   status: included
@@ -81,6 +81,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (5031) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:42:27.832Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.669Z"
@@ -91,11 +99,3 @@ processing:
     updated_at: "2026-05-05T21:04:04.029Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:42:27.832Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

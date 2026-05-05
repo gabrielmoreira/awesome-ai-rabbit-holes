@@ -39,25 +39,29 @@ metadata:
       - pandas-dataframe
       - ranking
       - semantic-analysis
-    last_checked_at: "2026-05-05T21:02:16.389Z"
+    last_checked_at: "2026-05-05T21:02:16.398Z"
     readme:
-      fetched_at: "2026-05-05T21:02:16.389Z"
+      fetched_at: "2026-05-05T21:02:16.398Z"
       bytes: 10282
 insights:
-  summary: A Python SDK and MCP server that provides a team of web research agents for data gathering, classification, forecasting, and ranking across large datasets.
-  why_it_matters: It lets developers offload large-scale web research and data labeling tasks to parallel agent teams directly from Python, Claude Code, or other AI surfaces.
-  mental_damage: Finally, a way to deploy a union of research agents to classify 10,000 rows, so you can anxiously wonder if the agents are hallucinating the categories faster than you can verify them.
+  summary: A Python SDK and MCP server that provides a team of web research agents to forecast, classify, score, and gather data, designed to be used as a callable tool by AI surfaces like Claude Code, Claude.ai, and Gemini.
+  why_it_matters: It allows developers to offload large-scale web research and data labeling tasks to a specialized agent workforce directly from their pandas dataframes or AI coding tools.
+  mental_damage: We have finally reached the point where we need SDKs to give our AI agents their own team of sub-agents, just in case the recursion wasn't deep enough.
   tags:
     - agents
-    - sdk
+    - claude-code
+    - data
     - mcp
     - research
-    - data
+    - sdk
   confidence: high
 curation:
   status: included
-  reason: The primary artifact is a Python SDK and MCP server for embedding research agent behavior into developer code and workflows, fitting the AI Frameworks and SDKs category.
+  reason: The primary artifact is a Python SDK and MCP tool that lets developers import agentic research capabilities into their own code or AI workflows, fitting the code-first building block definition.
   evidence:
+    - Repo description describes it as a 'team of research agents' and SDK integration.
+    - README shows a Python SDK usage pattern (futuresearch.ops) and MCP integration for Claude Code.
+    - Listed in awesome-llm-agents under 'Frameworks', aligning with the SDK category.
     - "Repo description states: 'Your team of research agents. Or give researchers to your AI.'"
     - README demonstrates a code-first SDK usage with `from futuresearch.ops import single_agent, agent_map` and pandas DataFrames.
     - Provides an MCP server endpoint (`https://mcp.futuresearch.ai/mcp`) for Claude Code and other AI surfaces.
@@ -78,11 +82,11 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.688Z"
+    updated_at: "2026-05-05T20:48:55.441Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:16.389Z"
+    updated_at: "2026-05-05T21:02:16.398Z"
     cause: null
     next_retry_at: null

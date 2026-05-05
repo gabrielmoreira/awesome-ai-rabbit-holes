@@ -1,6 +1,6 @@
 id: github__arize-ai__phoenix
 kind: github-repo
-name: phoenix
+name: Phoenix
 canonical_url: https://github.com/arize-ai/phoenix
 identity:
   github_repo: arize-ai/phoenix
@@ -90,8 +90,8 @@ insights:
   tags:
     - llm-eval
     - observability
-    - tracing
     - opensource
+    - tracing
   confidence: high
 curation:
   status: included
@@ -107,6 +107,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (9531) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:09:01.723Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.659Z"
@@ -117,11 +125,3 @@ processing:
     updated_at: "2026-05-05T21:01:09.180Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:09:01.723Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

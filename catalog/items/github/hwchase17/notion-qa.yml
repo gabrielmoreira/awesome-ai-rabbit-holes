@@ -1,6 +1,6 @@
 id: github__hwchase17__notion-qa
 kind: github-repo
-name: notion-qa
+name: Notion QA
 canonical_url: https://github.com/hwchase17/notion-qa
 identity:
   github_repo: hwchase17/notion-qa
@@ -62,6 +62,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (2154) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:25:02.161Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.697Z"
@@ -72,11 +80,3 @@ processing:
     updated_at: "2026-05-05T21:02:39.071Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:25:02.161Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

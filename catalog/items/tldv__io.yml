@@ -1,6 +1,6 @@
 id: tldv__io
 kind: website
-name: tldv.io
+name: tl;dv
 canonical_url: https://tldv.io
 identity: {}
 provenance:
@@ -39,9 +39,9 @@ insights:
   mental_damage: Engineers can now officially stop paying attention to meetings, secure in the knowledge that an AI is hallucinating the action items they will later ignore.
   tags:
     - meetings
-    - transcription
-    - summarization
     - saas
+    - summarization
+    - transcription
   confidence: high
 curation:
   status: excluded
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:48:47.460Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.731Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:48:47.460Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

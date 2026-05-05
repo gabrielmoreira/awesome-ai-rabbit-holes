@@ -21,6 +21,21 @@ provenance:
         extracted_url: https://github.com/token-metrics/mcp
         surrounding_text: "- **[Token Metrics](https://github.com/token-metrics/mcp)** - [Token Metrics](https://www.tokenmetrics.com/) integration for fetching real-time crypto market data, trading signals, price predictions, and advanced analytics."
         confidence: high
+    - id: discovery__www__tokenmetrics__com__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T22:47:06.910Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Token Metrics
+        extracted_url: https://www.tokenmetrics.com
+        surrounding_text: "- **[Token Metrics](https://github.com/token-metrics/mcp)** - [Token Metrics](https://www.tokenmetrics.com/) integration for fetching real-time crypto market data, trading signals, price predictions, and advanced analytics."
+        confidence: high
 metadata:
   github:
     stars: null
@@ -35,15 +50,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Token Metrics Daily Pulse is an AI-driven daily newsletter and multi-platform feed that aggregates 41+ editorial sources and market data into a structured crypto market brief.
+  why_it_matters: It provides a streamlined workflow for consuming crypto market analysis, though it targets investors rather than developers building software.
+  mental_damage: Just when you thought your morning doomscroll couldn't get more automated, we now have AI condensing 41 sources so you can feel behind the market in record time.
+  tags:
+    - ai-generated
+    - crypto
+    - market-brief
+    - newsletter
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: This is a crypto-focused financial newsletter and content platform for investors, not a developer tool, agent, or coding workflow product.
+  evidence:
+    - Product is described as an 'AI-driven daily crypto newsletter' and 'AI market brief for crypto'
+    - Target audience is 'busy investors', 'serious researchers', and 'crypto-curious teams', not software developers
+    - No developer-facing tooling, IDE integration, coding assistance, or app-building capabilities are present
 placement:
   primary_category: null
   section: null
@@ -51,19 +73,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:53:47.939Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.721Z"
+    updated_at: "2026-05-05T22:47:06.911Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T21:04:23.170Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null

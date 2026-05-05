@@ -1,13 +1,13 @@
 id: github__automl__hpobench
 kind: github-repo
-name: hpolib2
+name: HPOlib2
 canonical_url: https://github.com/automl/hpobench
 identity:
   github_repo: automl/hpobench
 provenance:
   discoveries:
     - id: discovery__github__automl__hpolib2__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-05T20:48:55.437Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -37,19 +37,21 @@ metadata:
       - benchmarking
       - containerized-benchmarks
       - hyperparameter-optimization
-    last_checked_at: "2026-05-05T21:01:13.287Z"
+    last_checked_at: "2026-05-05T21:01:13.426Z"
     readme:
-      fetched_at: "2026-05-05T21:01:13.287Z"
+      fetched_at: "2026-05-05T21:01:13.426Z"
       bytes: 8175
 insights:
   summary: HPOBench is a library providing containerized hyperparameter optimization benchmarks designed for reproducible multi-fidelity benchmarking.
   why_it_matters: It allows developers and researchers to standardize performance testing across different HPO algorithms using isolated, reproducible environments.
   mental_damage: "Just what every engineer needed: a standardized way to quantify exactly how much time we're wasting tuning hyperparameters instead of writing features."
   tags:
-    - hyperparameter-optimization
+    - automl
     - benchmarks
-    - reproducibility
+    - evaluation
+    - hyperparameter-optimization
     - ml-eval
+    - reproducibility
   confidence: high
 curation:
   status: included
@@ -58,6 +60,8 @@ curation:
     - "Repo description explicitly states: 'Collection of hyperparameter optimization benchmark problems'."
     - README confirms the library provides 'benchmarks for (multi-fidelity) hyperparameter optimization with a focus on reproducibility.'
     - Topics include 'benchmarking' and 'hyperparameter-optimization', aligning with the evals category.
+    - README confirms the library provides 'benchmarks for (multi-fidelity) hyperparameter optimization with a focus on reproducibility'.
+    - "Archived: no, pushed_at is recent (2025-05-21), and it is listed in Awesome-LLMOps under AutoML."
 placement:
   primary_category: evals
   section: null
@@ -67,7 +71,7 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-05-05T21:09:38.389Z"
+    updated_at: "2026-05-05T21:09:39.914Z"
     cause: null
     next_retry_at: null
     attempts: 1
@@ -75,11 +79,11 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.680Z"
+    updated_at: "2026-05-05T20:48:55.440Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:13.287Z"
+    updated_at: "2026-05-05T21:01:13.426Z"
     cause: null
     next_retry_at: null

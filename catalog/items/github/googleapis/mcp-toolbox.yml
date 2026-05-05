@@ -1,6 +1,6 @@
 id: github__googleapis__mcp-toolbox
 kind: github-repo
-name: genai-toolbox
+name: MCP Toolbox for Databases
 canonical_url: https://github.com/googleapis/mcp-toolbox
 identity:
   github_repo: googleapis/mcp-toolbox
@@ -37,6 +37,22 @@ provenance:
         extracted_url: https://github.com/googleapis/genai-toolbox
         surrounding_text: "- **[MCP Toolbox for Databases](https://github.com/googleapis/genai-toolbox)** - Open source MCP server specializing in easy, fast, and secure tools for Databases."
         confidence: high
+    - id: discovery__github__googleapis__mcp-toolbox__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T22:33:31.148Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🗄️ <a name="databases"></a>Databases
+        anchor_text: googleapis/genai-toolbox
+        extracted_url: https://github.com/googleapis/genai-toolbox
+        surrounding_text: "- [googleapis/genai-toolbox](https://github.com/googleapis/genai-toolbox) 🏎️ ☁️ - Open source MCP server specializing in easy, fast, and secure tools for Databases."
+        confidence: high
 metadata:
   github:
     stars: 14963
@@ -68,25 +84,30 @@ metadata:
       - server
       - spanner
       - tidb
-    last_checked_at: "2026-05-05T21:02:25.059Z"
+    last_checked_at: "2026-05-05T21:02:25.132Z"
     readme:
-      fetched_at: "2026-05-05T21:02:25.059Z"
+      fetched_at: "2026-05-05T21:02:25.132Z"
       bytes: 31848
 insights:
-  summary: An open source MCP server from Google that connects AI agents, IDEs, and applications directly to enterprise databases with prebuilt tools and a framework for building custom database tools.
-  why_it_matters: It removes the boilerplate of wiring database credentials, connection pooling, and auth into AI agents so developers can focus on what the agent actually does with the data.
-  mental_damage: We have successfully abstracted the database so many layers away that your AI agent can now hallucinate a SQL query and execute it with enterprise-grade IAM credentials, which feels exactly as safe as it sounds.
+  summary: An open source MCP server from Google that provides prebuilt and custom tooling to connect AI agents, IDEs, and applications directly to enterprise databases like PostgreSQL, MySQL, and BigQuery.
+  why_it_matters: It eliminates the boilerplate of wiring database connections, authentication, and query execution for AI agents, allowing developers to give their tools live data access in minutes rather than days.
+  mental_damage: We have successfully abstracted the job of writing SQL queries into the job of debugging why our MCP server won't authenticate with the production Cloud SQL instance.
   tags:
-    - mcp
-    - database
-    - google
+    - agent-tooling
     - agents
+    - database
+    - enterprise
+    - google
+    - mcp
     - sdk
   confidence: high
 curation:
   status: included
-  reason: The project is itself an MCP server and toolkit for databases, which is a direct match for the MCP Servers and Tooling category.
+  reason: The project is explicitly an MCP server implementation for databases, fitting perfectly into the MCP infrastructure category.
   evidence:
+    - "Repo description states: 'MCP Toolbox for Databases is an open source MCP server for databases.'"
+    - "README confirms: 'MCP Toolbox for Databases is an open source Model Context Protocol (MCP) server that connects your AI agents, IDEs, and applications directly to your enterprise databases.'"
+    - Listed in awesome-mcp-servers under 'Server Implementations > Databases' and 'Official Servers'.
     - Repo description states it is 'an open source MCP server for databases.'
     - README describes it as 'an open source Model Context Protocol (MCP) server that connects your AI agents, IDEs, and applications directly to your enterprise databases.'
     - Topics include mcp, agents, llm, and database, reinforcing the MCP infrastructure focus.
@@ -99,7 +120,7 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-05-05T21:22:17.428Z"
+    updated_at: "2026-05-05T21:22:18.566Z"
     cause: null
     next_retry_at: null
     attempts: 1
@@ -107,11 +128,11 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.666Z"
+    updated_at: "2026-05-05T22:33:31.150Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:25.059Z"
+    updated_at: "2026-05-05T21:02:25.132Z"
     cause: null
     next_retry_at: null

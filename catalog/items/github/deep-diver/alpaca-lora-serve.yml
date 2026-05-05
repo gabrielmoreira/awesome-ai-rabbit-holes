@@ -1,13 +1,13 @@
 id: github__deep-diver__alpaca-lora-serve
 kind: github-repo
-name: alpaca-lora-serve
+name: Alpaca-LoRA-Serve
 canonical_url: https://github.com/deep-diver/alpaca-lora-serve
 identity:
   github_repo: deep-diver/alpaca-lora-serve
 provenance:
   discoveries:
     - id: discovery__github__deep-diver__alpaca-lora-serve__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T20:48:55.437Z"
+      discovered_at: "2026-05-05T22:33:31.148Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -33,50 +33,44 @@ metadata:
     description: LLM as a Chatbot Service
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-05T21:01:50.905Z"
+    last_checked_at: "2026-05-05T23:07:48.180Z"
     readme:
-      fetched_at: "2026-05-05T21:01:50.905Z"
+      fetched_at: "2026-05-05T23:07:48.180Z"
       bytes: 17103
 insights:
-  summary: A Gradio and Discord-based serving stack for running open-source, instruction-following LLMs as chatbots with model-agnostic conversation management.
-  why_it_matters: It lets developers quickly stand up and test a variety of local or cloud-hosted open-source chat models through a ready-made UI or Discord bot without building serving infrastructure from scratch.
-  mental_damage: Yet another reminder that in 2023, standing up a 'chatbot service' still meant cloning a repo, hunting GPU quotas, and praying your Hugging Face cache didn't silently implode.
-  tags:
-    - llm-serving
-    - chatbot
-    - gradio
-    - discord-bot
-    - open-source
-  confidence: high
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
 curation:
-  status: included
-  reason: The project is a developer tooling stack for serving and interacting with local/open-source LLMs via Gradio or Discord, which fits local-AI developer infrastructure rather than coding agents or app builders.
-  evidence:
-    - "Repo description: 'LLM as a Chatbot Service' with README framing it as a way to serve open-source instruction-following LLMs."
-    - Supports local execution with --local-files-only and integration with JarvisLabs GPU VMs and dstack cloud deployments.
-    - Included in Awesome-LLMOps under 'Serving > Large Model Serving', reinforcing its serving/infrastructure focus.
+  status: pending
+  reason: null
+  evidence: []
 placement:
-  primary_category: local-ai
+  primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
   reason: Stars (3325) exceeded threshold (150)
 processing:
+  categorize:
+    status: deferred
+    updated_at: "2026-05-05T23:08:33.635Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-05-06T00:08:33.635Z"
+    attempts: 0
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.441Z"
+    updated_at: "2026-05-05T22:33:31.150Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:50.905Z"
+    updated_at: "2026-05-05T23:07:48.180Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:15:57.186Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

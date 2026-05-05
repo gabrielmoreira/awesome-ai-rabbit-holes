@@ -3,6 +3,7 @@ import { makeItemId } from "../scripts/catalog/core.ts";
 import {
   findLocalWebsiteGitHubMatch,
   repairCatalogItems,
+  runRepair,
   selectRepairCandidates,
   type CatalogRepairTarget,
 } from "../scripts/catalog/repair.ts";
@@ -258,9 +259,10 @@ describe("catalog repair planning", () => {
     const aliasOld = makeItem({ canonical_url: "https://github.com/joaomdmoura/crewai", identity: { github_repo: "joaomdmoura/crewai" }, name: "crewai" });
     const aliasNew = makeItem({ canonical_url: "https://github.com/crewaiinc/crewai", identity: { github_repo: "crewaiinc/crewai" }, name: "crewai" });
     const websiteDuplicate = makeItem({ canonical_url: "https://crewai.io", name: "crewai.io" });
+    const unrelatedGitHub = makeItem({ canonical_url: "https://github.com/example/solo-tool", identity: { github_repo: "example/solo-tool" }, name: "solo-tool" });
     const unrelatedWebsite = makeItem({ canonical_url: "https://example.com/no-match", name: "Example" });
 
-    const candidates = selectRepairCandidates([aliasOld, aliasNew, websiteDuplicate, unrelatedWebsite]);
+    const candidates = selectRepairCandidates([aliasOld, aliasNew, websiteDuplicate, unrelatedGitHub, unrelatedWebsite]);
     expect(candidates.map((item) => item.id).sort()).toEqual([
       aliasNew.id,
       aliasOld.id,
@@ -360,5 +362,216 @@ describe("catalog repair planning", () => {
     expect(findLocalWebsiteGitHubMatch(websiteItem, [websiteItem, githubItem])).toBe(
       "https://github.com/openhands/openhands",
     );
+  });
+
+  it("selects standalone weak-name items when discovery evidence provides a stronger product name", () => {
+    const websiteItem = makeItem({
+      canonical_url: "https://10web.io",
+      name: "10web.io",
+      provenance: {
+        discoveries: [{
+          id: "website-name",
+          discovered_at: "2026-05-05T00:00:00Z",
+          source: { type: "awesome-list", name: "list", url: "https://github.com/example/list", repository: "example/list" },
+          extraction: { mode: "parsed", section_path: ["App Builders"], anchor_text: "10Web", extracted_url: "https://10web.io", surrounding_text: null, confidence: "high" },
+        }],
+      },
+    });
+
+    const candidates = selectRepairCandidates([websiteItem]);
+
+    expect(candidates.map((item) => item.id)).toEqual([websiteItem.id]);
+  });
+
+  it("repairs standalone weak names from source-list evidence even when the canonical URL is unchanged", () => {
+    const item = makeItem({
+      canonical_url: "https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview",
+      name: "overview",
+      provenance: {
+        discoveries: [{
+          id: "claude-code-docs",
+          discovered_at: "2026-05-05T00:00:00Z",
+          source: { type: "awesome-list", name: "list", url: "https://github.com/example/list", repository: "example/list" },
+          extraction: {
+            mode: "parsed",
+            section_path: ["[Claude Code](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview)", "Links"],
+            anchor_text: "Documentation",
+            extracted_url: "https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview",
+            surrounding_text: null,
+            confidence: "high",
+          },
+        }],
+      },
+    });
+
+    const plan = repairCatalogItems(
+      [item],
+      targetMap([
+        item.id,
+        { canonicalUrl: "https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview", cause: "unchanged" },
+      ]),
+    );
+
+    expect(plan.changedItems).toHaveLength(1);
+    expect(plan.changedItems[0]).toMatchObject({
+      canonical_url: "https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview",
+      name: "Claude Code",
+    });
+  });
+
+  it("prefers discovery casing over lowercase repo slugs when the product identity matches", () => {
+    const item = makeItem({
+      canonical_url: "https://github.com/crewaiinc/crewai",
+      identity: { github_repo: "crewaiinc/crewai" },
+      name: "crewai",
+      provenance: {
+        discoveries: [{
+          id: "crewai-name",
+          discovered_at: "2026-05-05T00:00:00Z",
+          source: { type: "awesome-list", name: "list", url: "https://github.com/example/list", repository: "example/list" },
+          extraction: {
+            mode: "parsed",
+            section_path: ["Frameworks"],
+            anchor_text: "CrewAI",
+            extracted_url: "https://github.com/crewaiinc/crewai",
+            surrounding_text: null,
+            confidence: "high",
+          },
+        }],
+      },
+    });
+
+    const plan = repairCatalogItems(
+      [item],
+      targetMap([
+        item.id,
+        { canonicalUrl: "https://github.com/crewaiinc/crewai", cause: "unchanged" },
+      ]),
+    );
+
+    expect(plan.changedItems).toHaveLength(1);
+    expect(plan.changedItems[0]).toMatchObject({
+      canonical_url: "https://github.com/crewaiinc/crewai",
+      name: "CrewAI",
+    });
+  });
+
+  it("keeps the preferred duplicate record on the unchanged fast path instead of the first inserted item", () => {
+    const weakerDuplicate = makeItem({
+      id: "duplicate-weak",
+      canonical_url: "https://github.com/crewaiinc/crewai",
+      identity: { github_repo: "crewaiinc/crewai" },
+      name: "CrewAI",
+      curation: { status: "pending", reason: null, evidence: [] },
+      placement: { primary_category: null, section: null },
+      insights: {
+        summary: null,
+        why_it_matters: null,
+        mental_damage: null,
+        tags: [],
+        confidence: null,
+      },
+      processing: {
+        discover: { status: "done", updated_at: "2026-05-05T00:00:00Z", cause: null },
+        stars: { status: "pending", updated_at: null, cause: null },
+        categorize: { status: "pending", updated_at: null, cause: null },
+      },
+    });
+    const preferredDuplicate = makeItem({
+      id: "duplicate-preferred",
+      canonical_url: "https://github.com/crewaiinc/crewai",
+      identity: { github_repo: "crewaiinc/crewai" },
+      name: "CrewAI",
+      curation: { status: "included", reason: "Framework fit.", evidence: ["framework"] },
+      placement: { primary_category: "ai-frameworks", section: "Agent Frameworks" },
+      insights: {
+        summary: "Framework.",
+        why_it_matters: "Developers build with it.",
+        mental_damage: "Another agent framework.",
+        tags: ["framework"],
+        confidence: "high",
+      },
+      processing: {
+        discover: { status: "done", updated_at: "2026-05-05T00:00:00Z", cause: null },
+        stars: { status: "done", updated_at: "2026-05-05T00:01:00Z", cause: null },
+        categorize: { status: "done", updated_at: "2026-05-05T00:02:00Z", cause: null },
+      },
+    });
+
+    const plan = repairCatalogItems(
+      [weakerDuplicate, preferredDuplicate],
+      targetMap(
+        [weakerDuplicate.id, { canonicalUrl: "https://github.com/crewaiinc/crewai", cause: "unchanged" }],
+        [preferredDuplicate.id, { canonicalUrl: "https://github.com/crewaiinc/crewai", cause: "unchanged" }],
+      ),
+    );
+
+    expect(plan.changedItems).toHaveLength(1);
+    expect(plan.items).toHaveLength(1);
+    expect(plan.items[0]).toMatchObject({
+      id: "duplicate-preferred",
+      canonical_url: "https://github.com/crewaiinc/crewai",
+      curation: { status: "included", reason: "Framework fit." },
+      placement: { primary_category: "ai-frameworks", section: "Agent Frameworks" },
+      insights: { summary: "Framework." },
+    });
+  });
+
+  it("runRepair only saves changed repair outputs instead of rewriting every catalog item", async () => {
+    const unchangedItem = makeItem({
+      canonical_url: "https://example.com/no-match",
+      name: "Example",
+    });
+    const repairedNameItem = makeItem({
+      canonical_url: "https://10web.io",
+      name: "10web.io",
+      provenance: {
+        discoveries: [{
+          id: "repair-name",
+          discovered_at: "2026-05-05T00:00:00Z",
+          source: { type: "awesome-list", name: "list", url: "https://github.com/example/list", repository: "example/list" },
+          extraction: { mode: "parsed", section_path: ["App Builders"], anchor_text: "10Web", extracted_url: "https://10web.io", surrounding_text: null, confidence: "high" },
+        }],
+      },
+    });
+    const savedUrls: string[] = [];
+
+    await runRepair(undefined, {
+      loadItems: () => [unchangedItem, repairedNameItem],
+      resolveTarget: async (item) => ({ canonicalUrl: item.canonical_url, cause: "unchanged" }),
+      saveItem: (item) => {
+        savedUrls.push(item.canonical_url);
+      },
+      removePath: () => {},
+    });
+
+    expect(savedUrls).toEqual(["https://10web.io"]);
+  });
+
+  it("preserves known GitHub identity when merging onto a non-GitHub canonical URL", () => {
+    const preferredWebsite = makeItem({
+      canonical_url: "https://example.com/product",
+      name: "Product",
+      identity: { github_repo: "example/product" },
+      curation: { status: "included", reason: "Keep it.", evidence: ["fit"] },
+    });
+    const duplicateWebsite = makeItem({
+      id: "duplicate-website",
+      canonical_url: "https://www.example.com/product",
+      name: "product",
+    });
+
+    const plan = repairCatalogItems(
+      [preferredWebsite, duplicateWebsite],
+      targetMap(
+        [duplicateWebsite.id, { canonicalUrl: "https://example.com/product", cause: "website_canonical" }],
+      ),
+    );
+
+    expect(plan.changedItems).toHaveLength(1);
+    expect(plan.changedItems[0]).toMatchObject({
+      canonical_url: "https://example.com/product",
+      identity: { github_repo: "example/product" },
+    });
   });
 });

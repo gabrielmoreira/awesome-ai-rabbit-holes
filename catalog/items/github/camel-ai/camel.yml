@@ -1,6 +1,6 @@
 id: github__camel-ai__camel
 kind: github-repo
-name: camel
+name: CAMEL
 canonical_url: https://github.com/camel-ai/camel
 identity:
   github_repo: camel-ai/camel
@@ -80,10 +80,10 @@ insights:
   why_it_matters: It provides developers with a structured SDK to prototype complex agent collaborations, generate synthetic data, and research agent scaling laws without starting from scratch.
   mental_damage: "Just what your weekend project needed: a framework capable of spawning a million agents when you can barely manage your own standup meetings."
   tags:
-    - multi-agent
-    - framework
-    - simulation
     - agent-scaling
+    - framework
+    - multi-agent
+    - simulation
   confidence: high
 curation:
   status: included
@@ -99,6 +99,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (16873) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:12:18.489Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.659Z"
@@ -109,11 +117,3 @@ processing:
     updated_at: "2026-05-05T21:01:29.012Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:12:18.489Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

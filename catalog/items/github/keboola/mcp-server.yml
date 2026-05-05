@@ -1,6 +1,6 @@
 id: github__keboola__mcp-server
 kind: github-repo
-name: keboola-mcp-server
+name: Keboola
 canonical_url: https://github.com/keboola/mcp-server
 identity:
   github_repo: keboola/mcp-server
@@ -37,6 +37,22 @@ provenance:
         extracted_url: https://github.com/keboola/keboola-mcp-server
         surrounding_text: "- **[Keboola](https://github.com/keboola/keboola-mcp-server)** - Build robust data workflows, integrations, and analytics on a single intuitive platform."
         confidence: high
+    - id: discovery__github__keboola__mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T22:33:31.148Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📊 <a name="data-platforms"></a>Data Platforms
+        anchor_text: keboola/keboola-mcp-server
+        extracted_url: https://github.com/keboola/keboola-mcp-server
+        surrounding_text: "- [keboola/keboola-mcp-server](https://github.com/keboola/keboola-mcp-server) 🐍 - interact with Keboola Connection Data Platform. This server provides tools for listing and accessing data from Keboola Storage API."
+        confidence: high
 metadata:
   github:
     stars: 84
@@ -54,25 +70,28 @@ metadata:
       - mcp
       - mcp-server
       - model-context-protocol
-    last_checked_at: "2026-05-05T21:03:03.543Z"
+    last_checked_at: "2026-05-05T21:03:03.544Z"
     readme:
-      fetched_at: "2026-05-05T21:03:03.543Z"
+      fetched_at: "2026-05-05T21:03:03.544Z"
       bytes: 21487
 insights:
-  summary: An open-source MCP server that exposes Keboola data platform features—like storage, SQL transformations, job triggers, and flows—as callable tools for AI assistants such as Claude, Cursor, and VS Code.
-  why_it_matters: It lets developers query data, build SQL transformations with natural language, and manage ETL pipelines directly from their AI coding environment without writing glue code.
-  mental_damage: Your AI assistant can now trigger production data jobs and deploy Streamlit apps, which is either the ultimate developer productivity flex or a one-way ticket to your next incident postmortem.
+  summary: An open-source MCP server that exposes Keboola data platform features—such as storage, SQL transformations, jobs, and flows—as callable tools for AI agents and MCP clients like Cursor, Claude, and VS Code.
+  why_it_matters: It lets developers query tables, trigger jobs, and manage data pipelines conversationally inside their existing AI coding tools instead of switching to the Keboola UI.
+  mental_damage: We have successfully abstracted the data platform so far away that your AI agent now needs its own data platform integration to ask another AI to run your SQL.
   tags:
-    - mcp
+    - ai-integration
     - data-platform
     - etl
     - keboola
-    - ai-integration
+    - mcp
   confidence: high
 curation:
   status: included
-  reason: The project is a dedicated MCP server implementation that integrates a data platform with AI assistants, clearly fitting the MCP infrastructure category.
+  reason: The project is a dedicated MCP server implementation that integrates a data platform with MCP clients, fitting cleanly into the MCP Servers and Tooling category.
   evidence:
+    - "Repo description states: 'Model Context Protocol (MCP) Server for the Keboola Platform'"
+    - README excerpt confirms it 'turns Keboola features into callable tools for Claude, Cursor, CrewAI, LangChain, Amazon Q, and more'
+    - Listed in awesome-mcp-servers under 'Server Implementations > Data Platforms'
     - Repo description explicitly states this is a 'Model Context Protocol (MCP) Server for the Keboola Platform'.
     - README confirms it turns Keboola features into 'callable tools for Claude, Cursor, CrewAI, LangChain, Amazon Q, and more' via MCP.
     - Created in January 2025 and actively pushed as of May 2026, with 84 stars and an MIT license.
@@ -93,11 +112,11 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.668Z"
+    updated_at: "2026-05-05T22:33:31.151Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:03.543Z"
+    updated_at: "2026-05-05T21:03:03.544Z"
     cause: null
     next_retry_at: null

@@ -1,6 +1,6 @@
 id: github__cvs-health__uqlm
 kind: github-repo
-name: uqlm
+name: UQLM
 canonical_url: https://github.com/cvs-health/uqlm
 identity:
   github_repo: cvs-health/uqlm
@@ -57,9 +57,9 @@ insights:
   mental_damage: Yet another reminder that we have built an entire industrial sub-discipline just to figure out when the model is confidently lying to us.
   tags:
     - hallucination-detection
+    - langchain
     - llm-evaluation
     - uncertainty-quantification
-    - langchain
   confidence: high
 curation:
   status: included
@@ -75,6 +75,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (1147) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:14:59.692Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.683Z"
@@ -85,11 +93,3 @@ processing:
     updated_at: "2026-05-05T21:01:44.549Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:14:59.692Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

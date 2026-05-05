@@ -1,6 +1,6 @@
 id: github__bytedance__dolphin
 kind: github-repo
-name: dolphin
+name: Dolphin
 canonical_url: https://github.com/bytedance/dolphin
 identity:
   github_repo: bytedance/dolphin
@@ -50,11 +50,11 @@ insights:
   why_it_matters: It provides developers with a lightweight, high-performance local model for converting complex PDFs and images into structured data, reducing reliance on brittle traditional OCR pipelines.
   mental_damage: Finally, a 3B parameter model to solve the 'is this a table or just a very organized accident' problem that every PDF parser since 1995 has failed to answer.
   tags:
-    - ocr
-    - document-parsing
-    - vlm
-    - pdf
     - bytedance
+    - document-parsing
+    - ocr
+    - pdf
+    - vlm
   confidence: high
 curation:
   status: excluded
@@ -70,6 +70,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (8924) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:12:03.745Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.682Z"
@@ -80,11 +88,3 @@ processing:
     updated_at: "2026-05-05T21:01:27.694Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:12:03.745Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

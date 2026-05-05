@@ -1,6 +1,6 @@
 id: github__blushyes__coro-code
 kind: github-repo
-name: coro-code
+name: Coro Code
 canonical_url: https://github.com/blushyes/coro-code
 identity:
   github_repo: blushyes/coro-code
@@ -50,10 +50,10 @@ insights:
   mental_damage: Yet another CLI agent promising to 'seamlessly manage' your codebase while you wonder if rewriting it in Rust was the final boss of productivity.
   tags:
     - cli
-    - rust
     - coding-agent
-    - terminal
     - llm
+    - rust
+    - terminal
   confidence: high
 curation:
   status: included
@@ -69,6 +69,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (358) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:11:16.265Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.681Z"
@@ -79,11 +87,3 @@ processing:
     updated_at: "2026-05-05T21:01:23.449Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:11:16.265Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

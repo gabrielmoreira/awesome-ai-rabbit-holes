@@ -1,6 +1,6 @@
 id: financialdata__net
 kind: website
-name: financialdata.net
+name: FinancialData.Net
 canonical_url: https://financialdata.net
 identity: {}
 provenance:
@@ -39,11 +39,11 @@ insights:
   why_it_matters: Standardizes access to global equity and crypto data for developers building trading algorithms, financial dashboards, or AI agents that need market context.
   mental_damage: Yet another data vendor promising 'institutional-grade' insights, ensuring your AI agent will confidently hallucinate trades based on slightly delayed JSON.
   tags:
-    - financial-data
     - api
+    - financial-data
+    - fintech
     - mcp
     - trading
-    - fintech
   confidence: high
 curation:
   status: included
@@ -59,6 +59,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:44:28.158Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.727Z"
@@ -68,11 +76,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:44:28.158Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

@@ -1,6 +1,6 @@
 id: github__hhhuang__cag
 kind: github-repo
-name: cag
+name: CAG
 canonical_url: https://github.com/hhhuang/cag
 identity:
   github_repo: hhhuang/cag
@@ -44,10 +44,10 @@ insights:
   why_it_matters: It provides developers with a streamlined, lower-latency architecture for knowledge-intensive tasks that fits entirely within an LLM's extended context window, bypassing the complexity of vector databases.
   mental_damage: Just when you finished debugging your chunking strategy and vector store, the community decides the best context is the one you preheat and cache like a microwave dinner.
   tags:
-    - rag
-    - llm
     - cache
     - inference
+    - llm
+    - rag
     - research
   confidence: high
 curation:
@@ -64,6 +64,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (1486) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:23:53.304Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.691Z"
@@ -74,11 +82,3 @@ processing:
     updated_at: "2026-05-05T21:02:33.292Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:23:53.304Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

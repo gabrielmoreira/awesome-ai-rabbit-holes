@@ -1,6 +1,6 @@
 id: github__codebuffai__codebuff
 kind: github-repo
-name: codebuff
+name: Codebuff
 canonical_url: https://github.com/codebuffai/codebuff
 identity:
   github_repo: codebuffai/codebuff
@@ -61,6 +61,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (4623) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:13:38.554Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.683Z"
@@ -71,11 +79,3 @@ processing:
     updated_at: "2026-05-05T21:01:36.980Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:13:38.554Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

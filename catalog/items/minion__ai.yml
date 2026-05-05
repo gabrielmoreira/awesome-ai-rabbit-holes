@@ -1,6 +1,6 @@
 id: minion__ai
 kind: website
-name: minion.ai
+name: Minion AI
 canonical_url: https://minion.ai
 identity: {}
 provenance:
@@ -38,9 +38,9 @@ insights:
   why_it_matters: It represents the growing ecosystem of autonomous agents that developers may evaluate for task automation workflows.
   mental_damage: Yet another entry in the autonomous agent zoo where we carefully curate tools that will likely pivot to 'AI-powered workflow optimization' before the ink dries.
   tags:
+    - agent-directory
     - ai-agents
     - autonomous-agents
-    - agent-directory
   confidence: low
 curation:
   status: excluded
@@ -56,6 +56,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:46:34.981Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.729Z"
@@ -65,11 +73,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:46:34.981Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

@@ -1,6 +1,6 @@
 id: github__ju-bezdek__langchain-decorators
 kind: github-repo
-name: langchain-decorators
+name: Langchain Decorators
 canonical_url: https://github.com/ju-bezdek/langchain-decorators
 identity:
   github_repo: ju-bezdek/langchain-decorators
@@ -46,8 +46,8 @@ insights:
   mental_damage: We have officially reached the point where we need a library to disguise our LLM prompts as ordinary Python functions so we can pretend the boilerplate was never there.
   tags:
     - langchain
-    - python
     - prompt-engineering
+    - python
     - syntactic-sugar
   confidence: high
 curation:
@@ -64,6 +64,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (234) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:29:29.917Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.700Z"
@@ -74,11 +82,3 @@ processing:
     updated_at: "2026-05-05T21:03:00.321Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:29:29.917Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

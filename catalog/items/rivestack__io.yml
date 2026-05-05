@@ -1,6 +1,6 @@
 id: rivestack__io
 kind: website
-name: rivestack.io
+name: Rivestack
 canonical_url: https://rivestack.io
 identity: {}
 provenance:
@@ -39,11 +39,11 @@ insights:
   why_it_matters: Developers running pgvector can migrate from Supabase, Neon, or Pinecone to get dedicated NVMe performance, sub-4ms latency, and predictable billing without the ops burden of self-hosting.
   mental_damage: We have successfully reached the point where the most innovative thing you can do with AI infrastructure is pay someone to give you a properly tuned Postgres instance and call it a product.
   tags:
+    - managed-hosting
     - pgvector
     - postgresql
-    - vector-search
-    - managed-hosting
     - rag
+    - vector-search
   confidence: medium
 curation:
   status: included
@@ -59,6 +59,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:47:41.874Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.730Z"
@@ -68,11 +76,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:47:41.874Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

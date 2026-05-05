@@ -1,11 +1,26 @@
 id: github__salesforce__codegen
 kind: github-repo
-name: codegen
+name: CodeGen
 canonical_url: https://github.com/salesforce/codegen
 identity:
   github_repo: salesforce/codegen
 provenance:
   discoveries:
+    - id: discovery__codegen__com__home__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Codegen
+        anchor_text: Codegen
+        extracted_url: https://www.codegen.com
+        surrounding_text: "## [Codegen](https://www.codegen.com/)"
+        confidence: high
     - id: discovery__github__salesforce__codegen__awesome-list__tensorchord__awesome-llmops
       discovered_at: "2026-05-05T19:41:00.656Z"
       source:
@@ -54,15 +69,25 @@ insights:
   why_it_matters: It aims to automate the implementation of entire tasks or features, allowing developers to shift focus from boilerplate generation to higher-level architecture and review.
   mental_damage: "Just what the modern developer needs: another autonomous agent ready to refactor your perfectly working legacy code while you sip coffee and pray the test suite still passes."
   tags:
+    - automation
     - autonomous
     - code-review
+    - codemods
     - coding-agent
+    - coding-agents
+    - enterprise
     - repo-workflow
-  confidence: medium
+  confidence: high
 curation:
   status: included
-  reason: The tool is explicitly listed in the 'awesome-ai-agents' directory under 'Codegen' and is positioned as an autonomous agent that operates directly on source code within a repo workflow.
+  reason: The product is explicitly described as an 'operating system for AI coding agents' that integrates with tickets and PRs to automate code workflows, fitting the coding-agents category.
   evidence:
+    - Blog headline describes it as 'The operating system for AI coding agents' that automates from ticket to pull request.
+    - Source list context places it under 'awesome-ai-agents' in a 'Codegen' section for autonomous agents.
+    - Product features include Codegen + Linear integration, AI code review tools, and on-prem deployment for engineering teams.
+    - Blog titles include 'Best AI Coding Agents in 2026' and 'How to Build Agentic Coding Workflows That Actually Ship'.
+    - Product description calls it 'The operating system for AI coding agents' and highlights 'Ticket to pull request' automation.
+    - Featured in awesome-ai-agents list under the 'Codegen' section.
     - Listed in the 'awesome-ai-agents' directory under the specific section 'Codegen'.
     - The URL (www.codegen.com) and name imply a direct focus on code generation and autonomous coding capabilities.
 placement:
@@ -74,15 +99,15 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-05-05T19:50:15.017Z"
+    updated_at: "2026-05-05T22:47:24.084Z"
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
+    category_rules_version: 1b6cc5462ecc
     next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.732Z"
+    updated_at: "2026-05-05T22:47:06.911Z"
     cause: null
     next_retry_at: null
   stars:

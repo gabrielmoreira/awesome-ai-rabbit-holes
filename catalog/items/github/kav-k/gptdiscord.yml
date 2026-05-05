@@ -1,6 +1,6 @@
 id: github__kav-k__gptdiscord
 kind: github-repo
-name: gptdiscord
+name: GPT Discord
 canonical_url: https://github.com/kav-k/gptdiscord
 identity:
   github_repo: kav-k/gptdiscord
@@ -61,10 +61,10 @@ insights:
   why_it_matters: It provides developers with a ready-to-deploy, extensible template for building conversational AI agents with code execution and RAG capabilities inside a chat platform.
   mental_damage: Because what every engineering team desperately needs is another bridge between expensive LLMs and the same Discord channel where nobody reads the documentation.
   tags:
-    - discord
     - bot
-    - openai
     - code-interpreter
+    - discord
+    - openai
     - self-hosted
   confidence: high
 curation:
@@ -80,6 +80,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (1853) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:30:09.570Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.701Z"
@@ -90,11 +98,3 @@ processing:
     updated_at: "2026-05-05T21:03:02.988Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:30:09.570Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

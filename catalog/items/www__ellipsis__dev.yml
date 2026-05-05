@@ -1,6 +1,6 @@
 id: www__ellipsis__dev
 kind: website
-name: www.ellipsis.dev
+name: Ellipsis
 canonical_url: https://www.ellipsis.dev
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It aims to catch logical bugs and style violations on every commit while allowing developers to delegate feature development and bug fixes via GitHub comments.
   mental_damage: Now your pull request can be rejected by an AI teammate that has read your style guide but still doesn't understand why you used a global variable in 2018.
   tags:
+    - ai-teammate
     - code-review
     - github
     - yc-w24
-    - ai-teammate
   confidence: high
 curation:
   status: included
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T20:49:09.255Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.732Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T20:49:09.255Z"
-    cause: null
-    next_retry_at: null
-    attempts: 2
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

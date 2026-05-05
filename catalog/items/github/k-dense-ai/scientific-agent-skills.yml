@@ -54,20 +54,24 @@ metadata:
       fetched_at: "2026-05-05T21:03:01.801Z"
       bytes: 42038
 insights:
-  summary: A collection of 135 reusable scientific and research skill definitions compatible with the open Agent Skills standard for use in AI coding agents like Claude Code, Cursor, and Codex.
-  why_it_matters: It allows developers to extend their AI agents with curated, domain-specific workflows for complex scientific computing tasks without hand-crafting prompts.
-  mental_damage: Now you can finally stop pretending you know how to process LC-MS/MS data and just offload the impostor syndrome to a specialized agent skill pack.
+  summary: A collection of 135 reusable agent skills for scientific and research workflows, compatible with AI coding assistants like Claude Code, Cursor, and Codex via the open Agent Skills standard.
+  why_it_matters: Developers building scientific tooling can plug in domain-specific skills that upgrade their coding agent into a specialized research assistant without writing custom workflows from scratch.
+  mental_damage: We have now reached the point where we are packaging specialized knowledge into 'skills' so our AI agents can pretend to have a PhD while we still struggle to center a div.
   tags:
-    - skills
-    - scientific-computing
     - agent-skills
     - claude-code
     - cursor
+    - research
+    - scientific-computing
+    - skills
   confidence: high
 curation:
   status: included
-  reason: The repository is a reusable skill pack designed to be consumed by AI developer tools, which fits the skills category perfectly.
+  reason: The repository is a dedicated skills pack for AI developer tools, distributing reusable scientific workflows specifically designed to enhance coding agents rather than being a standalone assistant.
   evidence:
+    - Repo description explicitly states it is 'a set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing.'
+    - README confirms it is 'a comprehensive collection of 135 ready-to-use scientific and research skills... for any AI agent that supports the open Agent Skills standard' and works with Cursor, Claude Code, and Codex.
+    - Topics include agent-skills, claude-skills, and claudecode, and it is listed in awesome-LLM-resources under the '技能 Skills' section.
     - Repo description explicitly states it is a 'set of ready to use Agent Skills'.
     - README confirms compatibility with 'Cursor, Claude Code, Codex' and the open Agent Skills standard.
     - The primary artifact is the skill content itself (135 skills) rather than a new IDE or agent host.
@@ -88,7 +92,7 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.701Z"
+    updated_at: "2026-05-05T20:48:55.442Z"
     cause: null
     next_retry_at: null
   stars:

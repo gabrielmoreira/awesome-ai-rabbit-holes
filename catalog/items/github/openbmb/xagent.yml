@@ -1,6 +1,6 @@
 id: github__openbmb__xagent
 kind: github-repo
-name: xagent
+name: XAgent
 canonical_url: https://github.com/openbmb/xagent
 identity:
   github_repo: openbmb/xagent
@@ -73,8 +73,8 @@ insights:
   mental_damage: "Just what the world needed: another autonomous agent that promises to solve any task while you nervously wonder which of your production databases it will try to 'refactor' first."
   tags:
     - autonomous-agents
-    - llm
     - experimental
+    - llm
     - task-solving
   confidence: high
 curation:
@@ -91,6 +91,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (8525) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:42:33.606Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.661Z"
@@ -101,11 +109,3 @@ processing:
     updated_at: "2026-05-05T21:04:04.523Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:42:33.606Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

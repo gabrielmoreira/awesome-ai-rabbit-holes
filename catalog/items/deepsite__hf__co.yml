@@ -1,6 +1,6 @@
 id: deepsite__hf__co
 kind: website
-name: deepsite.hf.co
+name: Deepsite
 canonical_url: https://deepsite.hf.co
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It offers developers a rapid path to prototype and ship full websites or internal tools without setting up a local stack or CI/CD pipeline.
   mental_damage: We have officially reached the point where 'no code required' is the selling point for a tool proudly listed in a curated catalog of coding tools.
   tags:
-    - web-dev
     - ai-generated
     - hosting
     - prototyping
+    - web-dev
   confidence: high
 curation:
   status: included
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:43:36.415Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.727Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:43:36.415Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

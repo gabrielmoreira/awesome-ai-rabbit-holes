@@ -1,6 +1,6 @@
 id: github__marcoramilli__slopcodemonitor.ai
 kind: github-repo
-name: slopcodemonitor.ai
+name: AICodeSlopMonitor
 canonical_url: https://github.com/marcoramilli/slopcodemonitor.ai
 identity:
   github_repo: marcoramilli/slopcodemonitor.ai
@@ -48,9 +48,9 @@ insights:
   why_it_matters: It provides developers and maintainers with visibility into the prevalence of low-quality AI-generated 'slop' within popular open-source projects.
   mental_damage: We've reached the point where we need automated tools to tell us how much of the code was written by the very tools we bought to save us time.
   tags:
+    - ai-detection
     - code-analysis
     - code-quality
-    - ai-detection
     - github-scanner
   confidence: medium
 curation:
@@ -67,6 +67,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:35:34.760Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.705Z"
@@ -77,11 +85,3 @@ processing:
     updated_at: "2026-05-05T21:03:29.069Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:35:34.760Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

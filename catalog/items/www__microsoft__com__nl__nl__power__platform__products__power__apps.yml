@@ -1,6 +1,6 @@
 id: www__microsoft__com__nl__nl__power__platform__products__power__apps
 kind: website
-name: power-apps
+name: Microsoft Power Apps
 canonical_url: https://www.microsoft.com/nl-nl/power-platform/products/power-apps
 identity: {}
 provenance:
@@ -38,9 +38,9 @@ insights:
   why_it_matters: It allows developers and business users to collaborate in a single workspace, using AI to accelerate UI design, data modeling, and app generation without starting from scratch.
   mental_damage: Now you can spend your afternoons explaining to stakeholders that vibe-coding an enterprise app in a browser still requires someone to care about where the data actually lives.
   tags:
-    - low-code
-    - enterprise
     - ai-app-builder
+    - enterprise
+    - low-code
     - microsoft
   confidence: high
 curation:
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:52:05.924Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.733Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:52:05.924Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

@@ -1,6 +1,6 @@
 id: www__oreilly__com__radar__how__to__write__a__good__spec__for__ai__agents
 kind: website
-name: how-to-write-a-good-spec-for-ai-agents
+name: How to write a good spec for AI agents
 canonical_url: https://www.oreilly.com/radar/how-to-write-a-good-spec-for-ai-agents
 identity: {}
 provenance:
@@ -38,9 +38,9 @@ insights:
   why_it_matters: It provides a structured framework for developers to move from vague prompts to spec-driven workflows that keep agents like Claude Code and Gemini CLI focused and productive.
   mental_damage: We now need a formal specification document just to explain to the AI what we want, turning every feature request into a miniature bureaucracy before the first line of code is even generated.
   tags:
-    - spec-driven
-    - prompt-engineering
     - ai-guide
+    - prompt-engineering
+    - spec-driven
     - workflow
   confidence: high
 curation:
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:52:30.941Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.733Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:52:30.941Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

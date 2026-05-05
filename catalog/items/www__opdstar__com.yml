@@ -1,6 +1,6 @@
 id: www__opdstar__com
 kind: website
-name: www.opdstar.com
+name: OPDSTAR
 canonical_url: https://www.opdstar.com
 identity: {}
 provenance:
@@ -39,10 +39,10 @@ insights:
   why_it_matters: It is a domain-specific MCP server implementation that demonstrates how to build structured medical workflows on top of the protocol for non-software-engineering verticals.
   mental_damage: We have successfully abstracted the Taiwanese healthcare billing system into a prompt, proving once again that no human workflow is safe from being turned into a context window.
   tags:
-    - mcp
     - healthcare
-    - taiwan
+    - mcp
     - niche
+    - taiwan
   confidence: high
 curation:
   status: excluded
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:52:21.500Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.733Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:52:21.500Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

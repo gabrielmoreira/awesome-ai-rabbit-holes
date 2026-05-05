@@ -1,6 +1,6 @@
 id: github__intelligentnode__intelli
 kind: github-repo
-name: intelli
+name: Intelli
 canonical_url: https://github.com/intelligentnode/intelli
 identity:
   github_repo: intelligentnode/intelli
@@ -55,11 +55,11 @@ insights:
   why_it_matters: It lets developers swap between LLM providers and orchestrate multi-step AI tasks in code without rewriting integration logic.
   mental_damage: Yet another abstraction layer promising to liberate you from vendor lock-in, provided you're willing to marry its specific Python SDK instead.
   tags:
-    - python
-    - llm
     - agents
-    - mcp
     - framework
+    - llm
+    - mcp
+    - python
   confidence: high
 curation:
   status: included
@@ -75,6 +75,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:26:17.912Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.698Z"
@@ -85,11 +93,3 @@ processing:
     updated_at: "2026-05-05T21:02:45.151Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:26:17.912Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

@@ -1,6 +1,6 @@
 id: www__cockroachlabs__com
 kind: website
-name: www.cockroachlabs.com
+name: CockroachDB
 canonical_url: https://www.cockroachlabs.com
 identity: {}
 provenance:
@@ -54,11 +54,11 @@ insights:
   why_it_matters: It provides a resilient, scalable operational data layer that modern AI-driven and cloud applications can rely on without manual sharding or regional failover runbooks.
   mental_damage: You will carefully evaluate distributed SQL databases and compliance features, then panic-deploy Postgres anyway because your AI agent hasn't heard of anything else.
   tags:
+    - cloud-native
     - database
     - distributed-sql
-    - postgresql
-    - cloud-native
     - infrastructure
+    - postgresql
   confidence: high
 curation:
   status: excluded
@@ -74,6 +74,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:50:10.077Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.675Z"
@@ -83,11 +91,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:50:10.077Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

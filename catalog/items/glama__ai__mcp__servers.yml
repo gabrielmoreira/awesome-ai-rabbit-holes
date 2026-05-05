@@ -1,6 +1,6 @@
 id: glama__ai__mcp__servers
 kind: website
-name: servers
+name: Awesome MCP Servers
 canonical_url: https://glama.ai/mcp/servers
 identity: {}
 provenance:
@@ -53,11 +53,11 @@ insights:
   why_it_matters: It serves as a central discovery hub for developers looking to extend AI assistants with specific capabilities like database access, browser automation, or API integrations via MCP.
   mental_damage: We now have a registry of 22,836 ways to give an AI agent the keys to our databases, our browsers, and our crypto wallets, because manually checking documentation is apparently too much friction.
   tags:
+    - directory
+    - integrations
     - mcp
     - registry
-    - directory
     - tooling
-    - integrations
   confidence: high
 curation:
   status: included
@@ -73,6 +73,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:45:04.156Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.674Z"
@@ -82,11 +90,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:45:04.156Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

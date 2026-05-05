@@ -1,6 +1,6 @@
 id: github__flowiseai__flowise
 kind: github-repo
-name: flowise
+name: Flowise
 canonical_url: https://github.com/flowiseai/flowise
 identity:
   github_repo: flowiseai/flowise
@@ -105,9 +105,9 @@ insights:
   why_it_matters: It lets developers quickly prototype and serve agentic workflows with a drag-and-drop UI while keeping the option to self-host or extend via API.
   mental_damage: Another reminder that in 2024, the hottest way to demonstrate senior engineering judgment is reconnecting the same three boxes until the latency makes it look like distributed systems.
   tags:
-    - low-code
     - agent-orchestration
     - langchain
+    - low-code
     - self-hosted
     - visual-builder
   confidence: high
@@ -125,6 +125,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (52560) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:19:47.392Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.658Z"
@@ -135,11 +143,3 @@ processing:
     updated_at: "2026-05-05T21:02:12.654Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:19:47.392Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

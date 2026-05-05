@@ -1,6 +1,6 @@
 id: github__ploomber__ploomber
 kind: github-repo
-name: ploomber
+name: Ploomber
 canonical_url: https://github.com/ploomber/ploomber
 identity:
   github_repo: ploomber/ploomber
@@ -24,17 +24,31 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 3625
+    forks: 241
+    license: Apache-2.0
+    archived: true
+    created_at: "2020-01-20T20:13:06Z"
+    pushed_at: "2025-05-29T22:02:03Z"
+    description: The fastest ⚡️ way to build data pipelines. Develop iteratively, deploy anywhere. ☁️
+    homepage: https://docs.ploomber.io
+    topics:
+      - data-engineering
+      - data-science
+      - jupyter
+      - jupyter-notebooks
+      - machine-learning
+      - mlops
+      - notebooks
+      - papermill
+      - pipelines
+      - pycharm
+      - vscode
+      - workflow
+    last_checked_at: "2026-05-05T23:08:07.322Z"
+    readme:
+      fetched_at: "2026-05-05T23:08:07.322Z"
+      bytes: 5798
 insights:
   summary: null
   why_it_matters: null
@@ -49,22 +63,26 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: Repository is archived
 processing:
+  categorize:
+    status: deferred
+    updated_at: "2026-05-05T23:08:33.635Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-05-06T00:08:33.635Z"
+    attempts: 0
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.713Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-05T23:08:07.322Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T21:04:23.169Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null

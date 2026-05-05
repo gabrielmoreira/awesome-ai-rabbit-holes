@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__cheffromspace__nutjs-windows-control__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T20:48:55.437Z"
+      discovered_at: "2026-05-05T22:33:31.148Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -39,30 +39,22 @@ metadata:
       - mcp
       - os-automation
       - windows
-    last_checked_at: "2026-05-05T21:01:32.963Z"
+    last_checked_at: "2026-05-05T23:07:45.934Z"
     readme:
-      fetched_at: "2026-05-05T21:01:32.963Z"
+      fetched_at: "2026-05-05T23:07:45.934Z"
       bytes: 10804
 insights:
-  summary: An MCP server for Windows that enables AI models like Claude to programmatically control the desktop via mouse, keyboard, window management, and screen capture.
-  why_it_matters: It allows developers to delegate tedious UI testing and cross-application workflows to an AI that can actually see and interact with the Windows interface.
-  mental_damage: We have finally bridged the gap between 'vibe coding' and 'vibe clicking' by letting an LLM take over your mouse cursor in a 1280x720 virtual machine.
-  tags:
-    - mcp
-    - windows
-    - automation
-    - os-control
-    - claude
-  confidence: high
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
 curation:
-  status: included
-  reason: The project is explicitly an MCP server for Windows OS automation, fitting directly into the MCP Servers and Tooling category.
-  evidence:
-    - "Repo description states: 'MCP server for Windows OS automation'"
-    - README identifies it as a 'Windows control server for the Model Context Protocol'
-    - Listed in 'awesome-mcp-servers' under 'Community Servers'
+  status: pending
+  reason: null
+  evidence: []
 placement:
-  primary_category: mcp
+  primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
@@ -70,19 +62,21 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.440Z"
+    updated_at: "2026-05-05T22:33:31.150Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:32.963Z"
+    updated_at: "2026-05-05T23:07:45.934Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-05T21:12:55.094Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
+    status: deferred
+    updated_at: "2026-05-05T23:08:33.635Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-05-06T00:08:33.635Z"
+    attempts: 0
     prompt_version: catalog-categorize-v2-baseline
     category_rules_version: 1b6cc5462ecc

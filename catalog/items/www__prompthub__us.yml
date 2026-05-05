@@ -1,6 +1,6 @@
 id: www__prompthub__us
 kind: website
-name: www.prompthub.us
+name: PromptHub
 canonical_url: https://www.prompthub.us
 identity: {}
 provenance:
@@ -38,9 +38,9 @@ insights:
   why_it_matters: It replaces spreadsheet-based prompt tracking with Git-style versioning, batch eval runs, and API endpoints so teams can ship prompt changes to production without manual redeploys.
   mental_damage: We have successfully abstracted the abstraction, meaning you now need version control, CI pipelines, and eval suites for the sentences you type into a chat box.
   tags:
-    - prompt-management
-    - llmops
     - evaluations
+    - llmops
+    - prompt-management
     - team-collaboration
   confidence: high
 curation:
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:52:45.782Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.733Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:52:45.782Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

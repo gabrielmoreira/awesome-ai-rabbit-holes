@@ -1,6 +1,6 @@
 id: www__nature__com__articles__d41586__023__03266__1
 kind: website
-name: d41586-023-03266-1
+name: "see also: [living guidelines"
 canonical_url: https://www.nature.com/articles/d41586-023-03266-1
 identity: {}
 provenance:
@@ -39,10 +39,10 @@ insights:
   why_it_matters: It frames the policy and oversight debates that increasingly shape how and where developers are allowed to deploy generative AI systems.
   mental_damage: We have arrived at the point where even the科学院 thinks the AI is moving too fast, yet we will still ship that unverified model to prod on Friday because the sprint ends then.
   tags:
-    - policy
+    - commentary
     - generative-ai
     - oversight
-    - commentary
+    - policy
   confidence: high
 curation:
   status: excluded
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:52:14.695Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.733Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:52:14.695Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

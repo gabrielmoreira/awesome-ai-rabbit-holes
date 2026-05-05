@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__dcostenco__prism-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T20:48:55.437Z"
+      discovered_at: "2026-05-05T22:33:31.148Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -29,7 +29,7 @@ metadata:
     license: NOASSERTION
     archived: false
     created_at: "2026-02-12T21:29:53Z"
-    pushed_at: "2026-05-05T14:45:12Z"
+    pushed_at: "2026-05-05T23:04:24Z"
     description: The Mind Palace for AI Agents - HIPAA-hardened Cognitive Architecture with on-device LLM (prism-coder:7b), Hebbian learning, ACT-R spreading activation, adversarial evaluation, persistent memory, multi-agent Hivemind and visual dashboard. Zero API keys required.
     homepage: https://www.npmjs.com/package/prism-mcp-server
     topics:
@@ -53,30 +53,22 @@ metadata:
       - supabase
       - typescript
       - vector-search
-    last_checked_at: "2026-05-05T21:01:49.267Z"
+    last_checked_at: "2026-05-05T23:07:47.809Z"
     readme:
-      fetched_at: "2026-05-05T21:01:49.267Z"
-      bytes: 121029
+      fetched_at: "2026-05-05T23:07:47.809Z"
+      bytes: 122960
 insights:
-  summary: An MCP server and AI-native desktop IDE that provides a HIPAA-hardened cognitive architecture with persistent memory, Hebbian learning, and on-device LLM execution for coding and multi-agent workflows.
-  why_it_matters: It offers developers a local-first, privacy-conscious workspace that combines an IDE, persistent agent memory, and visual multi-agent orchestration without relying on external APIs.
-  mental_damage: Just when you thought 'vibe coding' was the peak, we now have cognitive architectures with Hebbian learning and HIPAA-hardened mind palaces running autonomously on your laptop.
-  tags:
-    - mcp
-    - local-ai
-    - ide
-    - agent-memory
-    - cognitive-architecture
-  confidence: high
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
 curation:
-  status: included
-  reason: The primary product surface is the Prism Coder IDE, a full-stack AI-native desktop editor with integrated coding, building, deploying, and agent capabilities.
-  evidence:
-    - README explicitly presents 'Prism Coder IDE' as the full-stack AI-native desktop IDE with coding, building, and deploying in one tool.
-    - Includes IDE features like real terminal, inline AI completions, agent mode, debugger, and git integration.
-    - Also provides an MCP server (prism-mcp-server) but the IDE is the primary surface described.
+  status: pending
+  reason: null
+  evidence: []
 placement:
-  primary_category: ai-ides-editors
+  primary_category: null
   section: null
 lifecycle:
   status: incubating
@@ -84,19 +76,21 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.441Z"
+    updated_at: "2026-05-05T22:33:31.150Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:49.267Z"
+    updated_at: "2026-05-05T23:07:47.809Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-05T21:15:43.487Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
+    status: deferred
+    updated_at: "2026-05-05T23:08:33.635Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-05-06T00:08:33.635Z"
+    attempts: 0
     prompt_version: catalog-categorize-v2-baseline
     category_rules_version: 1b6cc5462ecc

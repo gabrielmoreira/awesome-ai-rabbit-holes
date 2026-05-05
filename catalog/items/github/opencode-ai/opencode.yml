@@ -1,6 +1,6 @@
 id: github__opencode-ai__opencode
 kind: github-repo
-name: opencode
+name: OpenCode
 canonical_url: https://github.com/opencode-ai/opencode
 identity:
   github_repo: opencode-ai/opencode
@@ -62,10 +62,10 @@ insights:
   mental_damage: You can now switch to the 'fastest AI coder' and experience the thrill of watching a terminal UI debug itself right before the maintainer archives the repo to rebrand it.
   tags:
     - cli
-    - terminal
-    - tui
     - coding-agent
     - llm
+    - terminal
+    - tui
   confidence: high
 curation:
   status: excluded
@@ -81,6 +81,14 @@ lifecycle:
   status: needs_review
   reason: Repository is archived
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:42:38.190Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.670Z"
@@ -91,11 +99,3 @@ processing:
     updated_at: "2026-05-05T21:04:05.176Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:42:38.190Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

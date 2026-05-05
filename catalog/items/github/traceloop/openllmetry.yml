@@ -1,6 +1,6 @@
 id: github__traceloop__openllmetry
 kind: github-repo
-name: openllmetry
+name: Openllmetry
 canonical_url: https://github.com/traceloop/openllmetry
 identity:
   github_repo: traceloop/openllmetry
@@ -68,6 +68,13 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: skipped
+    updated_at: "2026-05-05T23:08:18.952Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.672Z"
@@ -77,10 +84,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T21:04:23.170Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null

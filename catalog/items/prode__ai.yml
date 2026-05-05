@@ -1,6 +1,6 @@
 id: prode__ai
 kind: website
-name: prode.ai
+name: Prode.ai
 canonical_url: https://prode.ai
 identity: {}
 provenance:
@@ -38,11 +38,11 @@ insights:
   why_it_matters: It anchors product planning in an actual codebase knowledge graph so specs stay aligned with reality and coding agents like Cursor and Claude Code can pull approved context instead of guessing.
   mental_damage: "Just what the modern workflow needed: another layer of ceremony promising that if we plan perfectly enough, the agents will finally stop refactoring our authentication stack at 2 a.m."
   tags:
-    - product-management
-    - mcp
-    - specs
-    - codebase-intelligence
     - agent-context
+    - codebase-intelligence
+    - mcp
+    - product-management
+    - specs
   confidence: high
 curation:
   status: included
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:47:12.302Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.729Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:47:12.302Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

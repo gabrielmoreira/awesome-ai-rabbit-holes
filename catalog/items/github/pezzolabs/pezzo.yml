@@ -1,6 +1,6 @@
 id: github__pezzolabs__pezzo
 kind: github-repo
-name: pezzo
+name: Pezzo 🕹️
 canonical_url: https://github.com/pezzolabs/pezzo
 identity:
   github_repo: pezzolabs/pezzo
@@ -22,7 +22,7 @@ provenance:
         surrounding_text: "| [Pezzo 🕹️](https://github.com/pezzolabs/pezzo)                     | Pezzo is the open-source LLMOps platform built for developers and teams. In just two lines of code, you can seamlessly troubleshoot your AI operations, collaborate and manage your prompts in one place, and instantly deploy changes to any environment.                                                                                                                                              | ![GitHub Badge](https://img.shields.io/github/stars/pezzolabs/pezzo.svg?style=flat-square)                |"
         confidence: high
     - id: discovery__www__pezzo__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-05T22:47:06.910Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -76,10 +76,12 @@ insights:
   why_it_matters: It gives developers a centralized console to version prompts, observe LLM calls, and cut costs with caching instead of scattering prompt strings across application code.
   mental_damage: Yet another pristine dashboard promising to wrangle your prompts, as if debugging a 400-line system prompt wasn't already the new printf-debugging.
   tags:
+    - agent-management
     - llmops
-    - prompt-management
     - observability
     - open-source
+    - prompt-management
+    - prompt-ops
   confidence: high
 curation:
   status: included
@@ -88,6 +90,8 @@ curation:
     - Repo description explicitly calls it an 'LLMOps platform designed to streamline prompt design, version management, [and] observability'.
     - README claims prompt management, observability, and caching across Node.js, Python, and LangChain clients.
     - Listed in Awesome-LLMOps under the LLMOps section, aligning with prompt and context infrastructure.
+    - Listed in the awesome-ai-agents directory under 'Pezzo'
+    - Homepage describes the product as a platform for managing AI prompts and agents
 placement:
   primary_category: agent-orchestration
   section: null
@@ -105,7 +109,7 @@ processing:
     next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.733Z"
+    updated_at: "2026-05-05T22:47:06.911Z"
     cause: null
     next_retry_at: null
   stars:

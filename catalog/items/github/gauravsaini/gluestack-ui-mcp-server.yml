@@ -1,6 +1,6 @@
 id: github__gauravsaini__gluestack-ui-mcp-server
 kind: github-repo
-name: gluestack-ui-mcp-server
+name: Gluestack UI MCP Server
 canonical_url: https://github.com/gauravsaini/gluestack-ui-mcp-server
 identity:
   github_repo: gauravsaini/gluestack-ui-mcp-server
@@ -41,9 +41,9 @@ insights:
   why_it_matters: It allows coding agents to generate accurate, platform-aware React Native screens and components using Gluestack UI without hallucinating props or missing platform-specific patterns.
   mental_damage: We have now successfully abstracted the job of reading component documentation into a protocol server, so your AI can ignore the docs just as confidently as you used to.
   tags:
+    - gluestack
     - mcp
     - react-native
-    - gluestack
     - ui-components
   confidence: high
 curation:
@@ -60,6 +60,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:20:38.542Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.688Z"
@@ -70,11 +78,3 @@ processing:
     updated_at: "2026-05-05T21:02:17.384Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:20:38.542Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

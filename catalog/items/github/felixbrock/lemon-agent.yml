@@ -1,6 +1,6 @@
 id: github__felixbrock__lemon-agent
 kind: github-repo
-name: lemon-agent
+name: Lemon Agent
 canonical_url: https://github.com/felixbrock/lemon-agent
 identity:
   github_repo: felixbrock/lemon-agent
@@ -42,9 +42,9 @@ insights:
   mental_damage: You can now orchestrate a planner and a solver agent to ask for permission before executing a workflow step, ensuring your automation pipeline is as bureaucratically safe as the enterprise processes it's trying to replace.
   tags:
     - agent-framework
-    - workflow-automation
-    - langchain
     - cli
+    - langchain
+    - workflow-automation
   confidence: medium
 curation:
   status: included
@@ -60,6 +60,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (344) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:19:17.292Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.687Z"
@@ -70,11 +78,3 @@ processing:
     updated_at: "2026-05-05T21:02:09.778Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:19:17.292Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

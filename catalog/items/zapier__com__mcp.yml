@@ -1,6 +1,6 @@
 id: zapier__com__mcp
 kind: website
-name: mcp
+name: Zapier
 canonical_url: https://zapier.com/mcp
 identity: {}
 provenance:
@@ -38,11 +38,11 @@ insights:
   why_it_matters: It lets developers connect any MCP-compatible AI client to a massive library of pre-authenticated app actions without writing integration code or managing OAuth flows.
   mental_damage: We have successfully abstracted the abstraction, so your AI can now trigger a Zap that triggers a webhook that triggers your CI, and nobody knows where the actual logic lives anymore.
   tags:
-    - mcp
-    - integrations
     - automation
-    - zapier
+    - integrations
+    - mcp
     - tooling
+    - zapier
   confidence: high
 curation:
   status: included
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:54:34.296Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.734Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:54:34.296Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

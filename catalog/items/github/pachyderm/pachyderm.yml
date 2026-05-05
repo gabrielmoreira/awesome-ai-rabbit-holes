@@ -1,6 +1,6 @@
 id: github__pachyderm__pachyderm
 kind: github-repo
-name: pachyderm
+name: Pachyderm
 canonical_url: https://github.com/pachyderm/pachyderm
 identity:
   github_repo: pachyderm/pachyderm
@@ -53,10 +53,10 @@ insights:
   mental_damage: "Just what we needed: a Kubernetes-native CI/CD engine for data, ensuring your pipeline can now fail at scale with perfect, immutable lineage tracking."
   tags:
     - data-pipelines
-    - kubernetes
     - data-versioning
-    - mlops
     - go
+    - kubernetes
+    - mlops
   confidence: high
 curation:
   status: excluded
@@ -72,6 +72,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (6297) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:43:31.953Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.712Z"
@@ -82,11 +90,3 @@ processing:
     updated_at: "2026-05-05T21:04:10.463Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:43:31.953Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

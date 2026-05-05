@@ -1,26 +1,11 @@
 id: github__crewaiinc__crewai
 kind: github-repo
-name: crewai
+name: CrewAI
 canonical_url: https://github.com/crewaiinc/crewai
 identity:
   github_repo: crewaiinc/crewai
 provenance:
   discoveries:
-    - id: discovery__crewai__io__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-05T19:41:00.656Z"
-      source:
-        type: awesome-list
-        name: janhq/awesome-local-ai
-        url: https://github.com/janhq/awesome-local-ai
-        repository: janhq/awesome-local-ai
-      extraction:
-        mode: parsed
-        section_path:
-          - Agents
-        anchor_text: CrewAI
-        extracted_url: https://crewai.io
-        surrounding_text: "- [CrewAI](https://crewai.io) - Cutting-edge framework for orchestrating role-playing, autonomous AI agents."
-        confidence: high
     - id: discovery__docs__crewai__com__awesome-list__vivy-yi__awesome-agent-orchestration
       discovered_at: "2026-05-05T19:41:00.656Z"
       source:
@@ -36,6 +21,21 @@ provenance:
         anchor_text: CrewAI Documentation
         extracted_url: https://docs.crewai.com
         surrounding_text: "- [CrewAI Documentation](https://docs.crewai.com/) - CrewAI official docs"
+        confidence: high
+    - id: discovery__crewai__io__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: janhq/awesome-local-ai
+        url: https://github.com/janhq/awesome-local-ai
+        repository: janhq/awesome-local-ai
+      extraction:
+        mode: parsed
+        section_path:
+          - Agents
+        anchor_text: CrewAI
+        extracted_url: https://crewai.io
+        surrounding_text: "- [CrewAI](https://crewai.io) - Cutting-edge framework for orchestrating role-playing, autonomous AI agents."
         confidence: high
     - id: discovery__github__crewaiinc__crewai__awesome-list__e2b-dev__awesome-ai-agents
       discovered_at: "2026-05-05T19:41:00.656Z"
@@ -84,7 +84,7 @@ provenance:
         surrounding_text: "- **[CrewAI](https://www.crewai.com/)** – Multi-agent orchestration platform for building teams of AI agents for development and automation."
         confidence: high
     - id: discovery__github__joaomdmoura__crewai__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-05T20:48:55.437Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -100,7 +100,7 @@ provenance:
         surrounding_text: "- [CrewAI](https://github.com/joaomdmoura/crewai): Cutting-edge framework for orchestrating role-playing, autonomous AI agents. ![GitHub Repo stars](https://img.shields.io/github/stars/joaomdmoura/crewai?style=social)"
         confidence: high
     - id: discovery__github__joaomdmoura__crewai__awesome-list__kaushikb11__awesome-llm-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-05T20:48:55.437Z"
       source:
         type: awesome-list
         name: kaushikb11/awesome-llm-agents
@@ -115,7 +115,7 @@ provenance:
         surrounding_text: "- [CrewAI](https://github.com/joaomdmoura/crewAI) - Framework for orchestrating"
         confidence: high
     - id: discovery__github__joaomdmoura__crewai__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-05T20:48:55.437Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -128,6 +128,21 @@ provenance:
         anchor_text: CrewAI
         extracted_url: https://github.com/joaomdmoura/crewai
         surrounding_text: "2. [CrewAI](https://github.com/joaomdmoura/crewAI): Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks."
+        confidence: high
+    - id: discovery__github__joaomdmoura__crewai__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - CrewAI
+        anchor_text: CrewAI
+        extracted_url: https://github.com/joaomdmoura/crewai
+        surrounding_text: "## [CrewAI](https://github.com/joaomdmoura/crewai)"
         confidence: high
 metadata:
   github:
@@ -145,28 +160,38 @@ metadata:
       - ai-agents
       - aiagentframework
       - llms
-    last_checked_at: "2026-05-05T21:01:42.719Z"
+    last_checked_at: "2026-05-05T21:02:57.316Z"
     readme:
-      fetched_at: "2026-05-05T21:01:42.719Z"
+      fetched_at: "2026-05-05T21:02:57.316Z"
       bytes: 34984
 insights:
   summary: CrewAI is a Python framework for building and orchestrating multi-agent systems where autonomous AI agents collaborate to tackle complex tasks.
   why_it_matters: It provides developers with a code-first toolkit to construct agentic workflows with event-driven control, granular task orchestration, and enterprise-grade observability.
   mental_damage: Just when you thought your job was safe from a single hallucinating LLM, now you can orchestrate an entire crew of them to argue about the implementation details together.
   tags:
-    - multi-agent
+    - agent-framework
+    - agents
+    - documentation
     - framework
-    - python
-    - orchestration
     - llm
+    - multi-agent
+    - orchestration
+    - python
   confidence: high
 curation:
   status: included
-  reason: CrewAI is a code-first Python library and SDK for building agentic systems, which fits the AI Frameworks category rather than a user-facing orchestration platform or coding agent.
+  reason: The project is a code-first SDK/framework for building multi-agent systems, which fits the AI Frameworks category rather than a hosted control plane.
   evidence:
+    - Listed in awesome-local-ai under the 'Agents' section, indicating developer tooling relevance.
+    - The product is a framework for orchestrating autonomous AI agents, requiring developers to build with it in code.
+    - URL is docs.crewai.com, identifying it as the official documentation hub.
+    - Listed in awesome-agent-orchestration under 'Learning Resources > Documentation'.
+    - CrewAI is widely recognized as a developer SDK/framework for orchestrating LLM agents via Python code.
     - Repo description states it is a 'Framework for orchestrating role-playing, autonomous AI agents.'
     - README describes it as a 'lean, lightning-fast Python framework built entirely from scratch' for developers.
     - Source lists categorize it under 'agent orchestration' and 'coding agents', but the artifact itself is a developer SDK.
+    - README explicitly notes it is a 'lean, lightning-fast Python framework built entirely from scratch' for developers.
+    - Listed in awesome-llm-agents under the 'Frameworks' section, confirming its role as a developer building block.
 placement:
   primary_category: ai-frameworks
   section: null
@@ -176,7 +201,7 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-05-05T21:14:41.643Z"
+    updated_at: "2026-05-05T21:28:47.191Z"
     cause: null
     next_retry_at: null
     attempts: 1
@@ -184,11 +209,11 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.727Z"
+    updated_at: "2026-05-05T22:47:06.911Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:42.719Z"
+    updated_at: "2026-05-05T21:02:57.316Z"
     cause: null
     next_retry_at: null

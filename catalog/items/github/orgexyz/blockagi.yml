@@ -1,6 +1,6 @@
 id: github__orgexyz__blockagi
 kind: github-repo
-name: blockagi
+name: BlockAGI
 canonical_url: https://github.com/orgexyz/blockagi
 identity:
   github_repo: orgexyz/blockagi
@@ -44,19 +44,23 @@ metadata:
       fetched_at: "2026-05-05T21:04:08.513Z"
       bytes: 7217
 insights:
-  summary: BlockAGI is an open-source, self-hosted research agent built with Python and LangChain that conducts iterative domain-specific research and outputs detailed narrative reports via a web UI.
-  why_it_matters: Developers can deploy a hackable, local agent to automate deep research tasks across custom domains without relying on hosted SaaS platforms.
-  mental_damage: Another autonomous agent framework promising to think so you don't have to, provided you enjoy debugging LangChain pipelines to answer questions you could have Googled in five minutes.
+  summary: BlockAGI is an open-source, self-hosted research agent built with Python and LangChain that automates domain-specific research tasks and outputs detailed narrative reports via an interactive web UI.
+  why_it_matters: Developers can deploy and customize a local research agent to automate deep-dive investigations without relying on hosted SaaS, keeping data private and costs predictable.
+  mental_damage: Because what the modern developer truly needed was a self-hosted agentic loop to hallucinate a crypto report while burning through a 16k context window in real time.
   tags:
-    - research-agent
-    - langchain
-    - self-hosted
     - autogpt
+    - langchain
+    - local-ai
+    - research-agent
+    - self-hosted
   confidence: medium
 curation:
   status: included
-  reason: The project is a code-first framework and SDK for building research agents using LangChain and Python, rather than a coding assistant that edits repos or a hosted app builder.
+  reason: It is a code-first, hackable Python framework for building research agents rather than a coding assistant that edits repos or a hosted app builder.
   evidence:
+    - "Repo description: 'Self-Hosted, Hackable Research Agent Inspired by AutoGPT' built with Python and LangChain."
+    - README states it is '100% Hackable' with a concise codebase based on LangChain, designed for developers to modify.
+    - Listed in awesome-langchain under 'Tools > Agents', confirming its role as a developer tool for building agents.
     - Repo description states it is a 'Self-Hosted, Hackable Research Agent' built with Python3 and LangChain.
     - README clarifies it is '100% Hackable' code designed for developers to modify and build custom research tools upon.
     - Created in June 2023 with last push in November 2023, showing it is an established but no longer actively maintained framework.
@@ -77,7 +81,7 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.681Z"
+    updated_at: "2026-05-05T20:48:55.440Z"
     cause: null
     next_retry_at: null
   stars:

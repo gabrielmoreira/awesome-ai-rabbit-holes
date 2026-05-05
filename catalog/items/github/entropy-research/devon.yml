@@ -1,6 +1,6 @@
 id: github__entropy-research__devon
 kind: github-repo
-name: devon
+name: Devon
 canonical_url: https://github.com/entropy-research/devon
 identity:
   github_repo: entropy-research/devon
@@ -89,16 +89,21 @@ insights:
   why_it_matters: It gives developers a locally runnable, multi-model coding agent that works directly inside an existing project directory without requiring a hosted SaaS subscription.
   mental_damage: Yet another brave attempt to automate your PRs, this time with a terminal UI that politely asks you to remind it which file you actually meant to change.
   tags:
+    - autonomous
     - coding-agent
-    - terminal-ui
-    - open-source
-    - multi-model
+    - github
     - local-ai
+    - multi-model
+    - open-source
+    - terminal
+    - terminal-ui
   confidence: high
 curation:
   status: included
-  reason: Devon is a developer-facing coding agent that directly plans, edits, and debugs code inside a repo via a terminal UI, CLI, and Electron app, fitting the coding-agents category cleanly.
+  reason: The project is listed in awesome-ai-coding-tools under 'Coding Agents' and presents itself as an autonomous agent that plans, writes, and tests code directly in the developer's workflow.
   evidence:
+    - Listed in awesome-ai-coding-tools under the 'Coding Agents' section.
+    - Described as an autonomous AI coding agent for complex engineering tasks.
     - "Repo description states: 'Devon: An open-source pair programmer' with topics including agent, code-assistant, and code-generation."
     - README features include multi-file editing, codebase exploration, test writing, and bug fixing inside a project directory.
     - Included in awesome-cli-coding-agents under 'Terminal-native coding agents > Open Source'.
@@ -119,7 +124,7 @@ processing:
     next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.727Z"
+    updated_at: "2026-05-05T22:47:06.911Z"
     cause: null
     next_retry_at: null
   stars:

@@ -1,6 +1,6 @@
 id: github__jamesrochabrun__swiftswarm
 kind: github-repo
-name: swiftswarm
+name: SwiftSwarm
 canonical_url: https://github.com/jamesrochabrun/swiftswarm
 identity:
   github_repo: jamesrochabrun/swiftswarm
@@ -42,11 +42,11 @@ insights:
   why_it_matters: It gives Swift developers a native, code-first way to experiment with multi-agent orchestration patterns directly within their existing app projects without switching to Python or JavaScript stacks.
   mental_damage: Yet another framework proves that the fastest way to understand agent orchestration is to implement it yourself in a language the original authors specifically did not use.
   tags:
-    - swift
+    - framework
+    - ios
     - multi-agent
     - orchestration
-    - ios
-    - framework
+    - swift
   confidence: medium
 curation:
   status: included
@@ -62,6 +62,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:27:34.322Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.699Z"
@@ -72,11 +80,3 @@ processing:
     updated_at: "2026-05-05T21:02:50.749Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:27:34.322Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

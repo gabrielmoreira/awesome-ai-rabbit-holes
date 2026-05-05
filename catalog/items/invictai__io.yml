@@ -1,6 +1,6 @@
 id: invictai__io
 kind: website
-name: invictai.io
+name: Invicta
 canonical_url: https://invictai.io
 identity: {}
 provenance:
@@ -39,9 +39,9 @@ insights:
   mental_damage: Because what your roadmap really needed was a 'Scheduler Agent' that sends invites while you manually debug why the 'Competitor Monitoring' team filed a false report to Slack.
   tags:
     - agent-orchestration
-    - no-code
-    - llm-integration
     - automation
+    - llm-integration
+    - no-code
     - saas
   confidence: high
 curation:
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:45:37.125Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.728Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:45:37.125Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

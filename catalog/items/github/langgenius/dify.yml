@@ -1,6 +1,6 @@
 id: github__langgenius__dify
 kind: github-repo
-name: dify
+name: Dify
 canonical_url: https://github.com/langgenius/dify
 identity:
   github_repo: langgenius/dify
@@ -107,11 +107,11 @@ insights:
   why_it_matters: It provides developers with a low-code interface to prototype and operationalize agentic workflows with built-in observability and model management.
   mental_damage: Yet another 'production-ready' orchestration platform promising to turn your prompts into a sustainable business just in time for the next framework rewrite.
   tags:
+    - agents
     - llm
+    - low-code
     - orchestration
     - rag
-    - low-code
-    - agents
   confidence: high
 curation:
   status: included
@@ -127,6 +127,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (140170) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:33:13.860Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.658Z"
@@ -137,11 +145,3 @@ processing:
     updated_at: "2026-05-05T21:03:16.601Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:33:13.860Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

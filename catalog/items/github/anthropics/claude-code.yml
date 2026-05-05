@@ -1,6 +1,6 @@
 id: github__anthropics__claude-code
 kind: github-repo
-name: claude-code
+name: Claude Code
 canonical_url: https://github.com/anthropics/claude-code
 identity:
   github_repo: anthropics/claude-code
@@ -57,11 +57,11 @@ insights:
   why_it_matters: It integrates directly into the developer's existing terminal and IDE workflows, offering a way to delegate routine coding and git tasks without switching context to a separate tool.
   mental_damage: Yet another reason to wonder if 'git add -p' and actually reading the diff will soon be considered a lost art.
   tags:
-    - coding-agent
-    - cli
-    - terminal
     - anthropic
+    - cli
+    - coding-agent
     - git-workflow
+    - terminal
   confidence: high
 curation:
   status: included
@@ -77,6 +77,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (120619) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:08:16.575Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.663Z"
@@ -87,11 +95,3 @@ processing:
     updated_at: "2026-05-05T21:01:04.367Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:08:16.575Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

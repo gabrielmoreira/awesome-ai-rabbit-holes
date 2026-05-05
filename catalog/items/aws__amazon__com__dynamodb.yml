@@ -1,6 +1,6 @@
 id: aws__amazon__com__dynamodb
 kind: website
-name: dynamodb
+name: DynamoDB
 canonical_url: https://aws.amazon.com/dynamodb
 identity: {}
 provenance:
@@ -38,11 +38,11 @@ insights:
   why_it_matters: It provides developers with zero-infrastructure database management, instant scaling, and single-digit millisecond performance for building serverless applications.
   mental_damage: Your AI agent can now hallucinate a perfectly valid DynamoDB schema, leaving you to debug the eventual consistency model it didn't understand.
   tags:
-    - database
     - aws
-    - serverless
-    - nosql
+    - database
     - infrastructure
+    - nosql
+    - serverless
   confidence: high
 curation:
   status: excluded
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:42:23.597Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.726Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:42:23.597Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

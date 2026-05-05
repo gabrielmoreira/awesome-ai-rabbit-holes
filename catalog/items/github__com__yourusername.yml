@@ -1,6 +1,6 @@
 id: github__com__yourusername
 kind: website
-name: yourusername
+name: Your Name
 canonical_url: https://github.com/yourusername
 identity: {}
 provenance:
@@ -38,8 +38,8 @@ insights:
   why_it_matters: It doesn't; this is a placeholder profile rather than a usable developer tool or framework.
   mental_damage: We have reached peak AI automation when the catalog starts reviewing the empty GitHub profiles of the people who might one day build the tools.
   tags:
-    - placeholder
     - no-repo
+    - placeholder
   confidence: high
 curation:
   status: excluded
@@ -55,6 +55,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:44:42.156Z"
+    cause: null
+    attempts: 3
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.728Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:44:42.156Z"
-    cause: null
-    attempts: 3
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
-    next_retry_at: null

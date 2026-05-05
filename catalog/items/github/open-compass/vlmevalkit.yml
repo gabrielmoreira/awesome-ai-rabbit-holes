@@ -1,6 +1,6 @@
 id: github__open-compass__vlmevalkit
 kind: github-repo
-name: vlmevalkit
+name: VLMEvalKit
 canonical_url: https://github.com/open-compass/vlmevalkit
 identity:
   github_repo: open-compass/vlmevalkit
@@ -60,11 +60,11 @@ insights:
   why_it_matters: It lets developers reliably measure and compare multimodal model performance without wrestling with data prep across multiple repositories.
   mental_damage: Because nothing says 'we have achieved AGI' quite like spending three weeks tuning an eval harness to confirm your model still can't count the fingers in an image.
   tags:
-    - eval
-    - vision-language
     - benchmark
-    - multimodal
+    - eval
     - llm
+    - multimodal
+    - vision-language
   confidence: high
 curation:
   status: included
@@ -80,6 +80,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (4109) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:42:15.058Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.711Z"
@@ -90,11 +98,3 @@ processing:
     updated_at: "2026-05-05T21:04:02.750Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:42:15.058Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

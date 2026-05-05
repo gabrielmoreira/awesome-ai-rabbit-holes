@@ -1,13 +1,13 @@
 id: github__agentmark-ai__agentmark
 kind: github-repo
-name: agentmark
+name: AgentMark
 canonical_url: https://github.com/agentmark-ai/agentmark
 identity:
   github_repo: agentmark-ai/agentmark
 provenance:
   discoveries:
     - id: discovery__github__puzzlet-ai__agentmark__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-05T20:48:55.437Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -22,7 +22,7 @@ provenance:
         surrounding_text: "| [AgentMark](https://github.com/puzzlet-ai/agentmark)                      | Type-Safe Markdown-based Agents                                                                                                                                                                                                                                                             | ![GitHub Badge](https://img.shields.io/github/stars/Puzzlet-ai/agentmark.svg?style=flat-square)               |"
         confidence: high
     - id: discovery__github__puzzlet-ai__promptdx__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-05T20:48:55.437Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -63,11 +63,11 @@ insights:
   why_it_matters: It lets developers manage prompts as code, run evaluations against datasets, and trace LLM calls across multiple SDKs from a single CLI and dev server.
   mental_damage: Finally, a way to version-control your prompt engineering despair in Markdown while convincing yourself that shipping a 400-line .prompt.mdx file counts as proper software architecture.
   tags:
-    - prompt-management
-    - observability
-    - evals
     - agents
+    - evals
+    - observability
     - opentelemetry
+    - prompt-management
   confidence: high
 curation:
   status: included
@@ -93,7 +93,7 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.714Z"
+    updated_at: "2026-05-05T20:48:55.443Z"
     cause: null
     next_retry_at: null
   stars:

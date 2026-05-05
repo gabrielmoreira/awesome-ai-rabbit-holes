@@ -1,6 +1,6 @@
 id: aidevboard__com
 kind: website
-name: aidevboard.com
+name: AI Dev Jobs
 canonical_url: https://aidevboard.com
 identity: {}
 provenance:
@@ -38,9 +38,9 @@ insights:
   why_it_matters: Developers can filter and benchmark compensation across thousands of AI engineering roles, rather than relying on generic tech job boards.
   mental_damage: The average salary displayed is likely the only working agent in the entire stack, and it still can't fix your deployment pipeline.
   tags:
-    - jobs
     - career
     - hiring
+    - jobs
     - salary-benchmark
   confidence: high
 curation:
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:41:35.615Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.726Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:41:35.615Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

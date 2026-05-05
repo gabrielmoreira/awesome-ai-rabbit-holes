@@ -1,6 +1,6 @@
 id: github__iunera__druid-mcp-server
 kind: github-repo
-name: druid-mcp-server
+name: Druid MCP Server
 canonical_url: https://github.com/iunera/druid-mcp-server
 identity:
   github_repo: iunera/druid-mcp-server
@@ -63,11 +63,11 @@ insights:
   why_it_matters: It lets developers query, manage, and analyze Druid clusters using natural language through MCP-compatible clients instead of hand-crafting Druid APIs and SQL.
   mental_damage: Yet another hyper-specific MCP server so your AI can debug your OLAP cluster while you debug why your AI can't debug your OLAP cluster.
   tags:
-    - mcp
-    - apache-druid
-    - spring-ai
     - analytics
+    - apache-druid
     - data-engineering
+    - mcp
+    - spring-ai
   confidence: high
 curation:
   status: included
@@ -83,6 +83,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:26:56.092Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.667Z"
@@ -93,11 +101,3 @@ processing:
     updated_at: "2026-05-05T21:02:47.981Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:26:56.092Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

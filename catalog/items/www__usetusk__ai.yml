@@ -1,6 +1,6 @@
 id: www__usetusk__ai
 kind: website
-name: www.usetusk.ai
+name: Tusk
 canonical_url: https://www.usetusk.ai
 identity: {}
 provenance:
@@ -38,11 +38,11 @@ insights:
   why_it_matters: It shifts testing left by autonomously building coverage and catching regressions directly in the PR workflow, allowing teams to ship faster without manually writing thousands of test cases.
   mental_damage: We have now successfully automated the writing of tests that verify the code written by the agents that we summoned because we were too busy automating testing to write the code ourselves.
   tags:
-    - testing
+    - automation
     - ci-cd
     - code-review
-    - automation
     - coverage
+    - testing
   confidence: high
 curation:
   status: included
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:54:00.678Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.734Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:54:00.678Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

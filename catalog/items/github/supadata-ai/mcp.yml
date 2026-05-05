@@ -21,6 +21,21 @@ provenance:
         extracted_url: https://github.com/supadata-ai/mcp
         surrounding_text: "- **[Supadata](https://github.com/supadata-ai/mcp)** - Official MCP server for [Supadata](https://supadata.ai) - YouTube, TikTok, X and Web data for makers."
         confidence: high
+    - id: discovery__supadata__ai__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T22:47:06.910Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Supadata
+        extracted_url: https://supadata.ai
+        surrounding_text: "- **[Supadata](https://github.com/supadata-ai/mcp)** - Official MCP server for [Supadata](https://supadata.ai) - YouTube, TikTok, X and Web data for makers."
+        confidence: high
 metadata:
   github:
     stars: null
@@ -35,15 +50,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A developer API that extracts transcripts, metadata, and structured data from web pages and social media videos (YouTube, TikTok, Instagram, X, Facebook) for AI training and retrieval pipelines.
+  why_it_matters: Developers building RAG systems or AI agents can pipe social and web content directly into their pipelines without maintaining brittle scrapers for individual platforms.
+  mental_damage: We have reached the point where an API exists solely to feed Rick Astley lyrics into a vector database at enterprise scale.
+  tags:
+    - api
+    - data-extraction
+    - rag
+    - web-scraping
+    - youtube
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: This is a general-purpose data extraction API for social media and web content, not a developer-facing AI tool, agent, workflow, or infrastructure component.
+  evidence:
+    - The product is described as a 'Web & YouTube to text API for makers' aimed at AI training and retrieval, not developer tooling or coding workflows.
+    - It provides a REST API for transcripts and metadata, functioning as a content pipeline utility rather than a coding agent, IDE, app builder, or AI framework.
+    - Appears in awesome-mcp-servers only as an MCP data source, but the product itself is a generic content API with no AI-agent, IDE, or developer-workflow-native surface.
 placement:
   primary_category: null
   section: null
@@ -51,19 +74,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:48:28.428Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.719Z"
+    updated_at: "2026-05-05T22:47:06.911Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T21:04:23.170Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null

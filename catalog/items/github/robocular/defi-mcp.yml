@@ -23,47 +23,73 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
+    stars: 2
+    forks: 0
     license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    archived: false
+    created_at: "2026-02-26T12:11:35Z"
+    pushed_at: "2026-03-05T15:20:31Z"
+    description: "MCP server for DeFi & crypto: token prices, wallet balances, gas prices, DEX swap quotes. Works with Claude Desktop, Cursor, Continue.dev."
+    homepage: https://api-catalog-three.vercel.app/blog/defi-mcp-server-claude-cursor
+    topics:
+      - ai-agents
+      - blockchain
+      - claude-desktop
+      - coingecko
+      - crypto
+      - cursor
+      - defi
+      - dex
+      - ethereum
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - solana
+      - web3
+    last_checked_at: "2026-05-05T21:04:10.061Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:10.061Z"
+      bytes: 7606
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server providing 12 tools for live DeFi and crypto data, including token prices, wallet balances, gas fees, and DEX swap quotes for EVM chains and Solana.
+  why_it_matters: It gives MCP-compatible AI assistants like Claude and Cursor direct access to on-chain data without requiring developers to wire up their own API keys or RPC nodes.
+  mental_damage: We have successfully abstracted away the last remaining barrier to asking an LLM for the price of Ethereum while pretending we are doing serious engineering work.
+  tags:
+    - crypto
+    - defi
+    - mcp
+    - tools
+    - web3
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: This is a dedicated MCP server that extends AI developer tools with DeFi capabilities, fitting cleanly into the MCP category.
+  evidence:
+    - Repo description explicitly states 'MCP server for DeFi & crypto' and lists compatible MCP hosts like Claude Desktop and Cursor.
+    - README details 12 specific MCP tools for token prices, wallet balances, gas fees, and DEX quotes.
+    - Listed in the awesome-mcp-list under the Finance & Fintech section.
 placement:
-  primary_category: null
+  primary_category: mcp
   section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
-    status: skipped
-    updated_at: "2026-05-05T21:04:23.169Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-05-05T21:43:26.645Z"
+    cause: null
     next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.712Z"
+    updated_at: "2026-05-05T20:48:55.443Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-05T21:04:10.061Z"
     cause: null
+    next_retry_at: null

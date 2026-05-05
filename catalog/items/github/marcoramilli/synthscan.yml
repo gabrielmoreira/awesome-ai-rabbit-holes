@@ -1,6 +1,6 @@
 id: github__marcoramilli__synthscan
 kind: github-repo
-name: synthscan
+name: SynthScan
 canonical_url: https://github.com/marcoramilli/synthscan
 identity:
   github_repo: marcoramilli/synthscan
@@ -46,10 +46,10 @@ insights:
   why_it_matters: It gives teams a quantifiable heuristic to audit their codebase for AI-generated boilerplate and stylistic patterns that often accompany synthetic code.
   mental_damage: We have finally reached the point where we need automated tools to determine if our codebase was written by the very tools we just mandated everyone use.
   tags:
-    - code-review
     - ai-detection
-    - github-actions
     - code-quality
+    - code-review
+    - github-actions
   confidence: medium
 curation:
   status: included
@@ -65,6 +65,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:35:39.107Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.705Z"
@@ -75,11 +83,3 @@ processing:
     updated_at: "2026-05-05T21:03:29.050Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:35:39.107Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

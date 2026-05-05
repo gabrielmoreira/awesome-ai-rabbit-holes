@@ -1,6 +1,6 @@
 id: github__jina-ai__serve
 kind: github-repo
-name: jina
+name: Jina
 canonical_url: https://github.com/jina-ai/serve
 identity:
   github_repo: jina-ai/serve
@@ -58,21 +58,24 @@ metadata:
       fetched_at: "2026-05-05T21:02:55.601Z"
       bytes: 6643
 insights:
-  summary: Jina is a framework for building and deploying multimodal AI services and pipelines that communicate via gRPC, HTTP, and WebSockets, with native support for scaling from local development to Kubernetes.
-  why_it_matters: It gives developers a code-first way to wrap models and chains into scalable microservices without rewriting orchestration glue for every new LLM experiment.
-  mental_damage: Yet another cloud-native ML framework promising one-command deployment, ensuring your local Poetry environment will still cry when you try to leave the happy path.
+  summary: Jina (jina-serve) is a Python framework for building and deploying scalable AI microservices, supporting multimodal models, LLM streaming, and one-command deployment to Kubernetes or Jina AI Cloud.
+  why_it_matters: Developers can wrap any ML/LLM model into a standardized gRPC or HTTP service and scale it from a local prototype to a production K8s cluster without rewriting their stack.
+  mental_damage: Another reminder that your carefully hand-tuned FastAPI service is now considered merely an MVP for a framework that ships its own Executor Hub and a cloud deployment command.
   tags:
-    - llm-serving
-    - microservices
     - grpc
     - kubernetes
+    - llm-serving
+    - microservices
+    - mlops
     - multimodal
   confidence: high
 curation:
   status: included
-  reason: The product is fundamentally a framework and SDK that developers import and use in code to build AI services, not a control-plane orchestration platform or a coding assistant.
+  reason: This is a code-first Python framework and SDK that developers import to build AI services, fitting the ai-frameworks category rather than an agent orchestration platform or app builder.
   evidence:
     - Repo description states it is a framework for building multimodal AI applications with a cloud-native stack.
+    - README shows Python imports (from jina import Executor, Flow) and focuses on building services in code.
+    - Listed in Awesome-LLMOps under 'Serving > Frameworks/Servers for Serving', reinforcing its framework/serving nature.
     - README demonstrates importable Python classes (Executor, Flow, Deployment) and YAML configs for developers to define services in code.
     - Topics include framework, grpc, kubernetes, and llmops, reinforcing its identity as a developer SDK rather than a hosted product.
 placement:
@@ -92,7 +95,7 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.700Z"
+    updated_at: "2026-05-05T20:48:55.442Z"
     cause: null
     next_retry_at: null
   stars:

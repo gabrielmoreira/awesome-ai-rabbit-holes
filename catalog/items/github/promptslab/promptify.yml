@@ -1,6 +1,6 @@
 id: github__promptslab__promptify
 kind: github-repo
-name: promptify
+name: Promptify
 canonical_url: https://github.com/promptslab/promptify
 identity:
   github_repo: promptslab/promptify
@@ -23,17 +23,39 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 4592
+    forks: 361
+    license: Apache-2.0
+    archived: false
+    created_at: "2022-12-12T18:06:32Z"
+    pushed_at: "2026-03-27T01:09:45Z"
+    description: Prompt Engineering | Prompt Versioning | Use GPT or other prompt based models to get structured output. Join our discord for Prompt-Engineering, LLMs and other latest research
+    homepage: https://discord.gg/m88xfYMbK6
+    topics:
+      - chatgpt
+      - chatgpt-api
+      - chatgpt-python
+      - gpt-3
+      - gpt-3-prompts
+      - gpt-4
+      - gpt-4-api
+      - gpt3-library
+      - large-language-models
+      - machine-learning
+      - nlp
+      - openai
+      - prompt-engineering
+      - prompt-toolkit
+      - prompt-tuning
+      - prompt-versioning
+      - prompting
+      - prompts
+      - promptversioning
+      - transformers
+    last_checked_at: "2026-05-05T23:08:10.819Z"
+    readme:
+      fetched_at: "2026-05-05T23:08:10.819Z"
+      bytes: 6763
 insights:
   summary: null
   why_it_matters: null
@@ -48,22 +70,26 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (4592) exceeded threshold (150)
 processing:
+  categorize:
+    status: deferred
+    updated_at: "2026-05-05T23:08:33.635Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-05-06T00:08:33.635Z"
+    attempts: 0
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.714Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-05T23:08:10.819Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T21:04:23.169Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null

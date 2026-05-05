@@ -1,6 +1,6 @@
 id: www__sentius__ai
 kind: website
-name: www.sentius.ai
+name: Sentius
 canonical_url: https://www.sentius.ai
 identity: {}
 provenance:
@@ -39,8 +39,8 @@ insights:
   mental_damage: Just when you thought 'vibe coding' was the peak, we now have 'UI maps' to ensure the agents automating your job don't burn through your token budget while guessing their way through SAP.
   tags:
     - agent-orchestration
-    - enterprise
     - automation
+    - enterprise
     - workflows
   confidence: medium
 curation:
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:53:23.022Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.734Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:53:23.022Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

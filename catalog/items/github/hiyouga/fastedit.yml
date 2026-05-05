@@ -1,6 +1,6 @@
 id: github__hiyouga__fastedit
 kind: github-repo
-name: fastedit
+name: FastEdit
 canonical_url: https://github.com/hiyouga/fastedit
 identity:
   github_repo: hiyouga/fastedit
@@ -52,11 +52,11 @@ insights:
   why_it_matters: It lets developers quickly update specific facts in local LLMs without expensive full retraining, which is useful for keeping instruction-tuned models current.
   mental_damage: Now you can patch obsolete facts into your 13B model in 10 seconds, right before you realize the model still hallucinates confidently about everything else.
   tags:
-    - llm
-    - model-editing
-    - local-ai
-    - pytorch
     - knowledge-injection
+    - llm
+    - local-ai
+    - model-editing
+    - pytorch
   confidence: high
 curation:
   status: excluded
@@ -72,6 +72,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (1363) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:24:06.057Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.696Z"
@@ -82,11 +90,3 @@ processing:
     updated_at: "2026-05-05T21:02:34.602Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:24:06.057Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

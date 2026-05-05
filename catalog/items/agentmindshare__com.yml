@@ -1,6 +1,6 @@
 id: agentmindshare__com
 kind: website
-name: agentmindshare.com
+name: Agent Mindshare
 canonical_url: https://agentmindshare.com
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It provides developers building AI-integrated products with analytics on how their brand is represented in LLM outputs, alongside an MCP server for workflow automation.
   mental_damage: We have officially entered the era of 'vibe SEO,' where we now need specialized dashboards and credits to audit the hallucinations that generative models are having about our companies.
   tags:
-    - mcp
-    - llm-monitoring
     - brand-analytics
+    - llm-monitoring
     - marketing
+    - mcp
   confidence: high
 curation:
   status: excluded
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:41:23.748Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.725Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:41:23.748Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

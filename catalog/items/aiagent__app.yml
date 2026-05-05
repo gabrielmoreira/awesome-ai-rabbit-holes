@@ -1,6 +1,6 @@
 id: aiagent__app
 kind: website
-name: aiagent.app
+name: AI Agents
 canonical_url: https://aiagent.app
 identity: {}
 provenance:
@@ -38,9 +38,9 @@ insights:
   why_it_matters: It offers a hosted interface for orchestrating multi-agent workflows without writing code, targeting business operations rather than source code modification.
   mental_damage: Another 'agentic' platform promising to multiply your best teammates, assuming you first survive the irony of using an autonomous agent to handle the busywork of evaluating autonomous agents.
   tags:
-    - no-code
-    - multi-agent
     - automation
+    - multi-agent
+    - no-code
     - saas
   confidence: high
 curation:
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:41:34.863Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.726Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:41:34.863Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

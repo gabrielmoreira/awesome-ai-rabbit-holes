@@ -1,6 +1,6 @@
 id: github__generalaction__emdash
 kind: github-repo
-name: emdash
+name: Emdash
 canonical_url: https://github.com/generalaction/emdash
 identity:
   github_repo: generalaction/emdash
@@ -62,9 +62,9 @@ insights:
   mental_damage: Finally, a dedicated desktop environment to orchestrate the growing swarm of CLI agents so you can feel productive while watching four different LLMs refactor the same function into four slightly different kinds of broken.
   tags:
     - agentic-ide
-    - parallel-agents
     - cli-orchestration
     - git-worktrees
+    - parallel-agents
     - yc-w26
   confidence: high
 curation:
@@ -81,6 +81,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (4257) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:20:51.471Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.688Z"
@@ -91,11 +99,3 @@ processing:
     updated_at: "2026-05-05T21:02:18.482Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:20:51.471Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

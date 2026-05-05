@@ -1,6 +1,6 @@
 id: app__e2b__dev__agent__smol__developer
 kind: website
-name: smol-developer
+name: Deployed in few seconds via e2b
 canonical_url: https://app.e2b.dev/agent/smol-developer
 identity: {}
 provenance:
@@ -39,10 +39,10 @@ insights:
   why_it_matters: It offloads autonomous coding tasks to a hosted environment, allowing developers to delegate implementation work without local setup.
   mental_damage: Yet another reminder that your job is slowly transitioning from writing code to carefully phrasing prompts for the VM that writes it for you.
   tags:
-    - coding-agent
     - autonomous
-    - e2b
     - browser-based
+    - coding-agent
+    - e2b
   confidence: medium
 curation:
   status: included
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:41:55.835Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.726Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:41:55.835Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

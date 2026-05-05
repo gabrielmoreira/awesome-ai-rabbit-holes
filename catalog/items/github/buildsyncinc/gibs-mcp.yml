@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__buildsyncinc__gibs-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T20:48:55.437Z"
+      discovered_at: "2026-05-05T22:33:31.148Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,30 +33,22 @@ metadata:
     description: Gibs MCP Server — EU regulatory compliance for AI agents (AI Act, GDPR, DORA)
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:01:27.350Z"
+    last_checked_at: "2026-05-05T23:07:45.027Z"
     readme:
-      fetched_at: "2026-05-05T21:01:27.350Z"
+      fetched_at: "2026-05-05T23:07:45.027Z"
       bytes: 7426
 insights:
-  summary: An MCP server that connects AI development environments to a regulatory compliance knowledge base covering the EU AI Act, GDPR, and DORA with article-level citations.
-  why_it_matters: It lets developers building AI products query complex EU regulations directly from their AI assistant instead of manually parsing hundreds of legal articles.
-  mental_damage: Now your AI agent can confidently hallucinate that your facial recognition startup is fully DORA-compliant while you still can't figure out where to store the API keys.
-  tags:
-    - mcp
-    - compliance
-    - eu-ai-act
-    - legal
-    - regulations
-  confidence: medium
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
 curation:
-  status: included
-  reason: The project is explicitly an MCP server providing regulatory compliance lookups, fitting cleanly into the MCP servers and tooling category.
-  evidence:
-    - Repo description states 'Gibs MCP Server — EU regulatory compliance for AI agents (AI Act, GDPR, DORA)'
-    - README confirms it 'connects your AI development environment directly to a regulatory compliance knowledge base' via MCP
-    - Listed in awesome-mcp-servers under Server Implementations > Legal section
+  status: pending
+  reason: null
+  evidence: []
 placement:
-  primary_category: mcp
+  primary_category: null
   section: null
 lifecycle:
   status: incubating
@@ -64,19 +56,21 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.440Z"
+    updated_at: "2026-05-05T22:33:31.150Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:27.350Z"
+    updated_at: "2026-05-05T23:07:45.027Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-05T21:11:55.854Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
+    status: deferred
+    updated_at: "2026-05-05T23:08:33.635Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-05-06T00:08:33.635Z"
+    attempts: 0
     prompt_version: catalog-categorize-v2-baseline
     category_rules_version: 1b6cc5462ecc

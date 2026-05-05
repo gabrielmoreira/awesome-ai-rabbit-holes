@@ -1,6 +1,6 @@
 id: github__moshthepitt__lionclaw
 kind: github-repo
-name: lionclaw
+name: LionClaw
 canonical_url: https://github.com/moshthepitt/lionclaw
 identity:
   github_repo: moshthepitt/lionclaw
@@ -57,8 +57,8 @@ insights:
   mental_damage: We have finally invented the dedicated operating system layer for our AI agents, which means the stack is now deep enough to require its own onboarding flow.
   tags:
     - cli
-    - local-ai
     - coding-agents
+    - local-ai
     - security
     - skills
   confidence: medium
@@ -76,6 +76,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:39:07.687Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.708Z"
@@ -86,11 +94,3 @@ processing:
     updated_at: "2026-05-05T21:03:46.996Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:39:07.687Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

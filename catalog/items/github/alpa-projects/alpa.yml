@@ -1,6 +1,6 @@
 id: github__alpa-projects__alpa
 kind: github-repo
-name: alpa
+name: Alpa
 canonical_url: https://github.com/alpa-projects/alpa
 identity:
   github_repo: alpa-projects/alpa
@@ -51,11 +51,11 @@ insights:
   why_it_matters: It allows ML engineers to scale training and inference of massive models with minimal code changes by automating complex distributed system techniques.
   mental_damage: We now have an archived research artifact that automates the very distributed training complexity that the current wave of 'local AI' tools is trying to hide behind a single 7B parameter download.
   tags:
+    - auto-parallelization
+    - compiler
     - distributed-training
     - jax
-    - auto-parallelization
     - llm-serving
-    - compiler
   confidence: high
 curation:
   status: excluded
@@ -71,6 +71,14 @@ lifecycle:
   status: needs_review
   reason: Repository is archived
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:07:48.224Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.678Z"
@@ -81,11 +89,3 @@ processing:
     updated_at: "2026-05-05T21:01:01.179Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:07:48.224Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

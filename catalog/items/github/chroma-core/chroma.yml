@@ -1,6 +1,6 @@
 id: github__chroma-core__chroma
 kind: github-repo
-name: chroma
+name: Chroma
 canonical_url: https://github.com/chroma-core/chroma
 identity:
   github_repo: chroma-core/chroma
@@ -63,11 +63,11 @@ insights:
   why_it_matters: It provides the retrieval backbone for LLM applications, allowing developers to add semantic search, memory, and context management to their agents and apps with a simple API.
   mental_damage: Yet another excuse to treat a vector database as the silver bullet for all AI memory problems, ensuring your stack remains robust right up until the moment you realize cosine similarity isn't actually 'understanding' the docs.
   tags:
-    - vector-database
     - embeddings
+    - python
     - retrieval
     - rust
-    - python
+    - vector-database
   confidence: high
 curation:
   status: included
@@ -83,6 +83,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (27813) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:13:06.440Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.664Z"
@@ -93,11 +101,3 @@ processing:
     updated_at: "2026-05-05T21:01:33.937Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:13:06.440Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

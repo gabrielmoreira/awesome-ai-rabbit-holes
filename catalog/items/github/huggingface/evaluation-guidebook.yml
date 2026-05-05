@@ -1,6 +1,6 @@
 id: github__huggingface__evaluation-guidebook
 kind: github-repo
-name: evaluation-guidebook
+name: Evaluation guidebook
 canonical_url: https://github.com/huggingface/evaluation-guidebook
 identity:
   github_repo: huggingface/evaluation-guidebook
@@ -48,10 +48,10 @@ insights:
   why_it_matters: It provides developers with structured guidance on how to rigorously test and validate model performance for specific production tasks.
   mental_damage: Because the only thing more exhausting than tuning a prompt is reading a 50-page guide on how to properly measure whether your tuning actually worked.
   tags:
-    - llm-evaluation
     - benchmarks
-    - huggingface
     - guide
+    - huggingface
+    - llm-evaluation
   confidence: high
 curation:
   status: included
@@ -67,6 +67,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (2102) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:24:32.958Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.697Z"
@@ -77,11 +85,3 @@ processing:
     updated_at: "2026-05-05T21:02:37.070Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:24:32.958Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

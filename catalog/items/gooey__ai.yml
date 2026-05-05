@@ -1,6 +1,6 @@
 id: gooey__ai
 kind: website
-name: gooey.ai
+name: Gooey.AI
 canonical_url: https://gooey.ai
 identity: {}
 provenance:
@@ -38,11 +38,11 @@ insights:
   why_it_matters: Developers can fork pre-built workflows and embed streaming AI responses into apps via webview or API without managing model billing, infrastructure, or DevOps.
   mental_damage: Yet another 'low-code' salvation promising that this time, assembling prompts and API keys in a browser really is the final abstraction layer developers have been waiting for.
   tags:
-    - low-code
     - agent-orchestration
+    - low-code
+    - multilingual
     - rag
     - workflow-builder
-    - multilingual
   confidence: high
 curation:
   status: included
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:45:06.325Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.728Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:45:06.325Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

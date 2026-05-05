@@ -1,6 +1,6 @@
 id: fine__tuner__ai
 kind: website
-name: fine-tuner.ai
+name: Fine Tuner
 canonical_url: https://fine-tuner.ai
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It allows teams to deploy voice-based AI agents without writing code, shifting the developer role from implementation to data configuration.
   mental_damage: We have successfully abstracted away the coding part of software development so thoroughly that we can now build autonomous agents that talk on the phone, and we didn't even have to learn how to prompt them.
   tags:
-    - voice-agents
-    - no-code
     - automation
+    - no-code
     - phone-calls
+    - voice-agents
   confidence: high
 curation:
   status: excluded
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:44:32.071Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.727Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:44:32.071Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

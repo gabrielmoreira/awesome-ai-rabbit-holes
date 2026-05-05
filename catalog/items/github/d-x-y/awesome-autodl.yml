@@ -1,6 +1,6 @@
 id: github__d-x-y__awesome-autodl
 kind: github-repo
-name: awesome-autodl
+name: Awesome AutoDL
 canonical_url: https://github.com/d-x-y/awesome-autodl
 identity:
   github_repo: d-x-y/awesome-autodl
@@ -50,9 +50,9 @@ insights:
   tags:
     - autodl
     - automl
-    - neural-architecture-search
-    - benchmarks
     - awesome-list
+    - benchmarks
+    - neural-architecture-search
   confidence: high
 curation:
   status: included
@@ -68,6 +68,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (2335) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:15:06.043Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.683Z"
@@ -78,11 +86,3 @@ processing:
     updated_at: "2026-05-05T21:01:45.023Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:15:06.043Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

@@ -1,6 +1,6 @@
 id: github__pleisto__flappy
 kind: github-repo
-name: flappy
+name: Flappy
 canonical_url: https://github.com/pleisto/flappy
 identity:
   github_repo: pleisto/flappy
@@ -53,17 +53,26 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 307
+    forks: 24
+    license: Apache-2.0
+    archived: true
+    created_at: "2023-09-15T18:09:15Z"
+    pushed_at: "2024-04-19T20:02:28Z"
+    description: Production-Ready LLM Agent SDK for Every Developer
+    homepage: http://flappy.pleisto.com/
+    topics:
+      - agent
+      - chatgpt
+      - generative-ai
+      - llama
+      - llm
+      - rewoo
+      - transformers
+    last_checked_at: "2026-05-05T23:08:07.238Z"
+    readme:
+      fetched_at: "2026-05-05T23:08:07.238Z"
+      bytes: 6167
 insights:
   summary: null
   why_it_matters: null
@@ -78,22 +87,26 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: Repository is archived
 processing:
+  categorize:
+    status: deferred
+    updated_at: "2026-05-05T23:08:33.635Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-05-06T00:08:33.635Z"
+    attempts: 0
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.661Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-05T23:08:07.238Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T21:04:23.169Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null

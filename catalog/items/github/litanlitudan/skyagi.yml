@@ -1,6 +1,6 @@
 id: github__litanlitudan__skyagi
 kind: github-repo
-name: skyagi
+name: SkyAGI
 canonical_url: https://github.com/litanlitudan/skyagi
 identity:
   github_repo: litanlitudan/skyagi
@@ -47,11 +47,11 @@ insights:
   why_it_matters: It provides a reference implementation for developers exploring agent memory, NPC scripting, and human-like simulation loops within the LangChain ecosystem.
   mental_damage: Another opportunity to spend three hours configuring Sheldon Cooper's personality traits only to watch two LLMs argue about hiking while you have actual bugs to fix.
   tags:
-    - llm
-    - simulation
-    - langchain
     - agents
+    - langchain
+    - llm
     - npc
+    - simulation
   confidence: high
 curation:
   status: excluded
@@ -67,6 +67,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (780) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:34:09.373Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.704Z"
@@ -77,11 +85,3 @@ processing:
     updated_at: "2026-05-05T21:03:21.515Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:34:09.373Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

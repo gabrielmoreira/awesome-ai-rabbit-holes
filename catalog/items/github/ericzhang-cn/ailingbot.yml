@@ -1,6 +1,6 @@
 id: github__ericzhang-cn__ailingbot
 kind: github-repo
-name: ailingbot
+name: AilingBot
 canonical_url: https://github.com/ericzhang-cn/ailingbot
 identity:
   github_repo: ericzhang-cn/ailingbot
@@ -47,10 +47,10 @@ insights:
   mental_damage: Yet another framework promising to wire LLMs into every corporate chat tool, ensuring your team can ask a bot about Q3 projections while the actual documentation rots in Confluence.
   tags:
     - chatbot
-    - langchain
-    - im-integration
-    - python
     - framework
+    - im-integration
+    - langchain
+    - python
   confidence: medium
 curation:
   status: included
@@ -66,6 +66,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:18:18.941Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.686Z"
@@ -76,11 +84,3 @@ processing:
     updated_at: "2026-05-05T21:02:03.808Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:18:18.941Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

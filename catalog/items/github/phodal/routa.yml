@@ -1,6 +1,6 @@
 id: github__phodal__routa
 kind: github-repo
-name: routa
+name: Routa
 canonical_url: https://github.com/phodal/routa
 identity:
   github_repo: phodal/routa
@@ -42,11 +42,11 @@ insights:
   why_it_matters: It moves multi-agent software delivery out of buried chat threads and into a visible, governed workspace with stacked review gates and traceability.
   mental_damage: "Just what your delivery process needed: another layer of agent bureaucracy with Kanban boards, trace logs, and fitness gates to debate whether your AI agents are sufficiently aligned today."
   tags:
-    - multi-agent
-    - orchestration
+    - a2a
     - kanban
     - mcp
-    - a2a
+    - multi-agent
+    - orchestration
   confidence: high
 curation:
   status: included
@@ -62,6 +62,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (843) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:44:34.796Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.713Z"
@@ -72,11 +80,3 @@ processing:
     updated_at: "2026-05-05T21:04:16.566Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:44:34.796Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

@@ -1,13 +1,13 @@
 id: github__adap__flower
 kind: github-repo
-name: flower
+name: Flower
 canonical_url: https://github.com/adap/flower
 identity:
   github_repo: adap/flower
 provenance:
   discoveries:
     - id: discovery__github__adap__flower__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T20:48:55.437Z"
+      discovered_at: "2026-05-05T22:33:31.148Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -28,7 +28,7 @@ metadata:
     license: Apache-2.0
     archived: false
     created_at: "2020-02-17T11:51:29Z"
-    pushed_at: "2026-05-05T18:42:03Z"
+    pushed_at: "2026-05-05T23:06:57Z"
     description: "Flower: A Friendly Federated AI Framework"
     homepage: https://flower.ai
     topics:
@@ -52,27 +52,28 @@ metadata:
       - raspberry-pi
       - scikit-learn
       - tensorflow
-    last_checked_at: "2026-05-05T21:00:49.418Z"
+    last_checked_at: "2026-05-05T23:07:40.245Z"
     readme:
-      fetched_at: "2026-05-05T21:00:49.418Z"
+      fetched_at: "2026-05-05T23:07:40.245Z"
       bytes: 11434
 insights:
-  summary: Flower is a framework for building federated AI systems that enables training machine learning models across decentralized devices without sharing raw data.
-  why_it_matters: It provides a framework-agnostic SDK for developers to implement federated learning workflows across PyTorch, TensorFlow, Hugging Face, and other ML stacks, including edge devices like Android, iOS, and Raspberry Pi.
-  mental_damage: Yet another framework promises to solve the hard part of ML—getting data from clients—while you quietly realize your biggest federation challenge is getting two microservices to agree on a schema.
+  summary: Flower is a framework for building federated learning systems that connects to various ML backends and runs across devices from mobile to servers.
+  why_it_matters: It lets developers implement federated AI workflows across PyTorch, TensorFlow, Hugging Face, and mobile devices without rewriting their entire stack.
+  mental_damage: Finally, a framework to coordinate model training across thousands of edge devices, because obviously the next logical step after distributed systems hell is distributed gradient descent hell.
   tags:
     - federated-learning
     - ml-framework
     - privacy
     - edge-ai
+    - python
   confidence: high
 curation:
   status: included
-  reason: Flower is a code-first SDK and framework that developers import to build federated learning systems, fitting cleanly into AI Frameworks and SDKs.
+  reason: Flower is a code-first SDK and framework for embedding federated learning behavior into applications, fitting cleanly into ai-frameworks rather than orchestration or agent categories.
   evidence:
-    - Repo description defines it as 'A Friendly Federated AI Framework' with strong framework/SDK signals.
-    - README positions Flower as a customizable, extendable framework for building federated AI systems with PyTorch, TensorFlow, Hugging Face, etc.
-    - Listed in Awesome-LLMOps under the 'Federated ML' section, confirming its fit in ML infrastructure rather than dev tooling like coding agents.
+    - Repo description explicitly calls it 'A Friendly Federated AI Framework' with framework-agnostic ML backend support.
+    - README positions it as an importable Python framework (flwr) with tutorials for PyTorch, TensorFlow, Hugging Face, and mobile quickstarts.
+    - Active development (pushed 2026-05-05) with 6879 stars and Apache-2.0 license confirms it is a living developer tool.
 placement:
   primary_category: ai-frameworks
   section: null
@@ -80,21 +81,21 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (6879) exceeded threshold (150)
 processing:
-  discover:
-    status: done
-    updated_at: "2026-05-05T20:48:55.440Z"
-    cause: null
-    next_retry_at: null
-  stars:
-    status: done
-    updated_at: "2026-05-05T21:00:49.418Z"
-    cause: null
-    next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:05:48.655Z"
+    updated_at: "2026-05-05T23:08:26.111Z"
     cause: null
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v2-baseline
     category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T22:33:31.149Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T23:07:40.246Z"
+    cause: null
+    next_retry_at: null

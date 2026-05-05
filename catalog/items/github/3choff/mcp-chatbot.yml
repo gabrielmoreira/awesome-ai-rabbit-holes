@@ -1,6 +1,6 @@
 id: github__3choff__mcp-chatbot
 kind: github-repo
-name: mcp-chatbot
+name: MCP-Chatbot
 canonical_url: https://github.com/3choff/mcp-chatbot
 identity:
   github_repo: 3choff/mcp-chatbot
@@ -41,11 +41,11 @@ insights:
   why_it_matters: It provides a minimal, working reference implementation for developers looking to understand how to wire MCP servers into a client-side chat loop.
   mental_damage: Another heroic open-source effort to build a chatbot that will be obsoleted by a new MCP feature release roughly three hours after it was pushed.
   tags:
-    - mcp
-    - cli
     - chatbot
-    - python
+    - cli
     - example
+    - mcp
+    - python
   confidence: medium
 curation:
   status: included
@@ -61,6 +61,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (248) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:05:00.897Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.675Z"
@@ -71,11 +79,3 @@ processing:
     updated_at: "2026-05-05T21:00:44.483Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:05:00.897Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

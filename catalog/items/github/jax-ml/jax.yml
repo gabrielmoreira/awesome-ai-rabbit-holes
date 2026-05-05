@@ -1,6 +1,6 @@
 id: github__jax-ml__jax
 kind: github-repo
-name: jax
+name: Jax
 canonical_url: https://github.com/jax-ml/jax
 identity:
   github_repo: jax-ml/jax
@@ -39,20 +39,25 @@ metadata:
       fetched_at: "2026-05-05T21:02:53.160Z"
       bytes: 10758
 insights:
-  summary: JAX is a Python library for accelerator-oriented array computation and program transformation, enabling automatic differentiation, JIT compilation to GPU/TPU via XLA, and auto-vectorization for high-performance numerical computing and machine learning.
-  why_it_matters: It provides developers with composable function transformations to scale NumPy-style programs across accelerators without leaving Python, serving as a foundation for many modern ML research and production workflows.
-  mental_damage: Yet another powerful numerical computing framework that will make you question why your PyTorch code is still running on a single CPU while you debug XLA compilation errors at 2 AM.
+  summary: JAX is a Python library for accelerator-oriented array computation and program transformation, enabling automatic differentiation, JIT compilation to GPU/TPU via XLA, and auto-vectorization of NumPy programs.
+  why_it_matters: It provides the high-performance numerical computing foundation for large-scale machine learning research and training infrastructure that many modern AI models rely on.
+  mental_damage: Another foundational tensor framework to learn while you wait for the industry to decide whether your five-year ML investment is actually just a JAX wrapper.
   tags:
-    - python
-    - numerical-computing
     - autodiff
-    - xla
+    - gpu
     - machine-learning
+    - numerical-computing
+    - python
+    - tpu
+    - xla
   confidence: high
 curation:
   status: excluded
-  reason: JAX is a general-purpose numerical computing and ML framework, not a developer-facing AI tool, agent, workflow, or infrastructure product for software development as defined by this catalog's scope.
+  reason: JAX is a general-purpose numerical computing and ML training framework, not a developer-facing AI tool, agent, or infrastructure product for building with AI.
   evidence:
+    - Repo description focuses on differentiating, vectorizing, and JIT-compiling NumPy programs for GPU/TPU.
+    - README positions JAX as a library for accelerator-oriented array computation and large-scale machine learning training.
+    - Listed in Awesome-LLMOps under 'Training > Frameworks for Training', not under developer tooling or coding workflows.
     - Repo description and README position JAX as a library for numerical computing, autodiff, and ML, not as a coding assistant or developer tool.
     - No references to coding agents, IDE integrations, app building, MCP, or developer infrastructure in the provided inputs.
     - Fits the profile of general ML research/framework work, which is explicitly excluded from this catalog.
@@ -73,7 +78,7 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.689Z"
+    updated_at: "2026-05-05T20:48:55.441Z"
     cause: null
     next_retry_at: null
   stars:

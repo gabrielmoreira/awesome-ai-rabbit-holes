@@ -1,6 +1,6 @@
 id: www__postman__com__postman__postman__public__workspace
 kind: website
-name: postman-public-workspace
+name: Postman API
 canonical_url: https://www.postman.com/postman/postman-public-workspace
 identity: {}
 provenance:
@@ -40,8 +40,8 @@ insights:
   mental_damage: We have successfully abstracted API testing into browsing a directory of directories, ensuring you can procrastinate on actual integration work by exploring someone else's public folder structure.
   tags:
     - api
-    - testing
     - postman
+    - testing
     - workspace
   confidence: high
 curation:
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:52:36.954Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.733Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:52:36.954Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

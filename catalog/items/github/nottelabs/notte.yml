@@ -1,6 +1,6 @@
 id: github__nottelabs__notte
 kind: github-repo
-name: notte
+name: Notte
 canonical_url: https://github.com/nottelabs/notte
 identity:
   github_repo: nottelabs/notte
@@ -49,11 +49,11 @@ insights:
   why_it_matters: It lets developers mix deterministic Playwright-style scripting with AI agents to cut web automation costs and improve reliability on hosted stealth browser infra.
   mental_damage: Yet another web agent framework promising to solve the web with LLMs, just in time for everyone to realize that scrolling cat memes programmatically is the true killer app.
   tags:
-    - web-agents
     - browser-automation
-    - sdk
-    - python
     - llm
+    - python
+    - sdk
+    - web-agents
   confidence: high
 curation:
   status: included
@@ -69,6 +69,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (1943) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:40:58.639Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.710Z"
@@ -79,11 +87,3 @@ processing:
     updated_at: "2026-05-05T21:03:56.137Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:40:58.639Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

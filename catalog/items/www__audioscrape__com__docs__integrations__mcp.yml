@@ -1,6 +1,6 @@
 id: www__audioscrape__com__docs__integrations__mcp
 kind: website
-name: mcp
+name: Audioscrape
 canonical_url: https://www.audioscrape.com/docs/integrations/mcp
 identity: {}
 provenance:
@@ -38,11 +38,11 @@ insights:
   why_it_matters: It allows developers to query spoken audio content directly from their IDE or terminal, bridging the gap between long-form audio intelligence and the coding workflow.
   mental_damage: We have finally achieved the singularity where your coding agent can procrastinate by listening to podcasts instead of just reading documentation.
   tags:
-    - mcp
     - audio-search
-    - podcast
     - context-tooling
     - integrations
+    - mcp
+    - podcast
   confidence: high
 curation:
   status: included
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:49:44.655Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.731Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:49:44.655Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

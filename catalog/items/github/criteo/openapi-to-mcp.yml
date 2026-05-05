@@ -7,7 +7,23 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ouvreboite__openapi-to-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 👨‍💻 <a name="code-execution"></a>Code Execution
+        anchor_text: ouvreboite/openapi-to-mcp
+        extracted_url: https://github.com/ouvreboite/openapi-to-mcp
+        surrounding_text: "- [ouvreboite/openapi-to-mcp](https://github.com/ouvreboite/openapi-to-mcp) #️⃣ ☁️ - Lightweight MCP server to access any API using their OpenAPI specification. Supports OAuth2 and full JSON schema parameters and request body."
+        confidence: high
+    - id: discovery__github__criteo__openapi-to-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T22:33:31.148Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,19 +49,20 @@ metadata:
     description: An MCP server for your API
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:01:42.697Z"
+    last_checked_at: "2026-05-05T21:04:09.375Z"
     readme:
-      fetched_at: "2026-05-05T21:01:42.697Z"
+      fetched_at: "2026-05-05T21:04:09.375Z"
       bytes: 6935
 insights:
   summary: A .NET CLI tool that converts OpenAPI specifications into MCP servers, exposing API endpoints as strongly typed tools for AI assistants.
   why_it_matters: It allows developers to instantly turn any OpenAPI-documented API into a usable toolset for MCP-compatible clients without writing custom server code.
   mental_damage: We have reached the point where we need an automated bridge to translate the spec of a bridge, so the AI can finally talk to the thing we already built to talk to the thing.
   tags:
+    - cli
+    - dotnet
+    - integration
     - mcp
     - openapi
-    - dotnet
-    - cli
   confidence: high
 curation:
   status: included
@@ -54,6 +71,9 @@ curation:
     - Repo description states it is 'An MCP server for your API'.
     - README demonstrates usage by pointing the tool at an OpenAPI URL (e.g., Petstore, GitHub) to generate an MCP server config.
     - Tool is actively maintained (pushed 2025-07-15) and distributed as a NuGet package.
+    - Repo description explicitly states 'An MCP server for your API'.
+    - README demonstrates usage by pointing the tool at an OpenAPI URL to generate an MCP server configuration.
+    - Listed in 'awesome-mcp-servers' under Server Implementations, confirming its role in the MCP ecosystem.
 placement:
   primary_category: mcp
   section: null
@@ -63,7 +83,7 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-05-05T21:14:42.992Z"
+    updated_at: "2026-05-05T21:43:18.415Z"
     cause: null
     next_retry_at: null
     attempts: 1
@@ -71,11 +91,11 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.712Z"
+    updated_at: "2026-05-05T22:33:31.150Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:42.697Z"
+    updated_at: "2026-05-05T21:04:09.375Z"
     cause: null
     next_retry_at: null

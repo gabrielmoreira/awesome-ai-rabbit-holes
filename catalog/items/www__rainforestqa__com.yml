@@ -1,6 +1,6 @@
 id: www__rainforestqa__com
 kind: website
-name: www.rainforestqa.com
+name: Rainforest QA
 canonical_url: https://www.rainforestqa.com
 identity: {}
 provenance:
@@ -38,11 +38,11 @@ insights:
   why_it_matters: It integrates directly into CI/CD pipelines and CLIs to let developers offload brittle UI test maintenance to AI, aiming to increase release confidence without specialized QA hiring.
   mental_damage: Now you can outsource your test fragility to an AI that confidently 'self-heals' your suite right before it deploys a broken modal to production.
   tags:
-    - qa
-    - testing
     - ai-qa
     - ci-cd
     - no-code
+    - qa
+    - testing
   confidence: high
 curation:
   status: included
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:52:54.850Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.733Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:52:54.850Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

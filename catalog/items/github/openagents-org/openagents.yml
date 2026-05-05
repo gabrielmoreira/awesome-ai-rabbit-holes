@@ -1,6 +1,6 @@
 id: github__openagents-org__openagents
 kind: github-repo
-name: openagents
+name: OpenAgents
 canonical_url: https://github.com/openagents-org/openagents
 identity:
   github_repo: openagents-org/openagents
@@ -47,10 +47,10 @@ insights:
   mental_damage: You’ve graduated from managing one hallucinating assistant to managing an entire chat room of them, all sharing a browser and a filesystem like it’s 1999.
   tags:
     - agents
-    - multi-agent
-    - workspace
     - cli
     - collaboration
+    - multi-agent
+    - workspace
   confidence: high
 curation:
   status: included
@@ -66,6 +66,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (3384) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:42:21.000Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.711Z"
@@ -76,11 +84,3 @@ processing:
     updated_at: "2026-05-05T21:04:03.210Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:42:21.000Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

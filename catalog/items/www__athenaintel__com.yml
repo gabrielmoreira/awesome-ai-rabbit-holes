@@ -1,6 +1,6 @@
 id: www__athenaintel__com
 kind: website
-name: www.athenaintel.com
+name: Athena Intelligence
 canonical_url: https://www.athenaintel.com
 identity: {}
 provenance:
@@ -39,8 +39,8 @@ insights:
   mental_damage: We've successfully reached the stage where we are hiring an AI to take over the laborious tasks of the analysts so they can focus on even more laborious strategic meetings about the AI's output.
   tags:
     - ai-agent
-    - enterprise
     - analytics
+    - enterprise
     - workflow-automation
   confidence: high
 curation:
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:49:40.300Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.731Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:49:40.300Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

@@ -22,22 +22,13 @@ Reusable skill packs, rules packs, command packs, and skill directories for AI d
   `skills` `claude` `cursor` `agent-extensions` `awesome-list`
   </details>
 
-- **[claude-scientific-skills](https://github.com/k-dense-ai/claude-scientific-skills)** `⭐ 20.2k` `updated ≤30d` A collection of 135 reusable agent skills for scientific and research workflows, compatible with AI coding assistants like Claude Code, Cursor, and Codex via the open Agent Skills standard. <details><summary>More about</summary>
+- **[claude-scientific-skills](https://github.com/k-dense-ai/scientific-agent-skills)** `⭐ 20.2k` `updated ≤30d` A collection of 135 reusable agent skills for scientific and research workflows, compatible with AI coding assistants like Claude Code, Cursor, and Codex via the open Agent Skills standard. <details><summary>More about</summary>
 
   Developers building scientific tooling can plug in domain-specific skills that upgrade their coding agent into a specialized research assistant without writing custom workflows from scratch.
 
   _We have now reached the point where we are packaging specialized knowledge into 'skills' so our AI agents can pretend to have a PhD while we still struggle to center a div._
 
-  `agent-skills` `scientific-computing` `claude-code` `cursor` `research`
-  </details>
-
-- **[claude-scientific-skills](https://github.com/k-dense-ai/scientific-agent-skills)** `⭐ 20.2k` `updated ≤30d` A collection of 135 reusable scientific and research skill definitions compatible with the open Agent Skills standard for use in AI coding agents like Claude Code, Cursor, and Codex. <details><summary>More about</summary>
-
-  It allows developers to extend their AI agents with curated, domain-specific workflows for complex scientific computing tasks without hand-crafting prompts.
-
-  _Now you can finally stop pretending you know how to process LC-MS/MS data and just offload the impostor syndrome to a specialized agent skill pack._
-
-  `skills` `scientific-computing` `agent-skills` `claude-code` `cursor`
+  `agent-skills` `claude-code` `cursor` `research` `scientific-computing` `skills`
   </details>
 
 - **[awesome-claude-skills](https://github.com/behisecc/awesome-claude-skills)** `⭐ 8.9k` `updated ≤90d` A curated directory of reusable skill packs, rules bundles, and command packs for extending Claude and Claude Code with specialized workflows. <details><summary>More about</summary>
@@ -49,13 +40,13 @@ Reusable skill packs, rules packs, command packs, and skill directories for AI d
   `claude` `skills` `ai-config` `agent-extensions` `directory`
   </details>
 
-- **[clawhub](https://github.com/openclaw/clawhub)** `⭐ 8.4k` `updated ≤30d` ClawHub is a public registry and CLI for publishing, versioning, searching, and installing text-based agent skills and plugins for the OpenClaw ecosystem. <details><summary>More about</summary>
+- **[ClawHub](https://github.com/openclaw/clawhub)** `⭐ 8.4k` `updated ≤30d` ClawHub is a public registry and CLI for publishing, versioning, searching, and installing text-based agent skills and plugins for the OpenClaw ecosystem. <details><summary>More about</summary>
 
   It gives developers a centralized, versioned, and vector-searchable way to share and reuse agent skill definitions, reducing duplicated effort when extending OpenClaw-powered workflows.
 
   _We have now reached the point where agents need their own npm-style registries, so you can npm install your way into an identity crisis via SKILL.md files._
 
-  `skills` `registry` `cli` `openclaw` `agent-tooling`
+  `agent-tooling` `cli` `openclaw` `registry` `skills`
   </details>
 
 - **[cc-sdd](https://github.com/gotalab/cc-sdd)** `⭐ 3.3k` `updated ≤30d` A spec-driven development harness that installs 17 reusable Agent Skills into AI coding agents to turn approved specs into long-running autonomous implementation with per-task review and auto-debug. <details><summary>More about</summary>
@@ -76,13 +67,13 @@ Reusable skill packs, rules packs, command packs, and skill directories for AI d
   `claude-code` `seo` `ads` `skills` `marketing`
   </details>
 
-- **[kurtosis](https://github.com/kurtosis-tech/kurtosis)** `⭐ 539` `updated ≤30d` A container orchestration platform and packaging system for spinning up ephemeral backend stacks on Docker or Kubernetes, with Claude Code skills for managing enclaves and services. <details><summary>More about</summary>
+- **[Kurtosis](https://github.com/kurtosis-tech/kurtosis)** `⭐ 539` `updated ≤30d` A container orchestration platform and packaging system for spinning up ephemeral backend stacks on Docker or Kubernetes, with Claude Code skills for managing enclaves and services. <details><summary>More about</summary>
 
   It lets developers reuse complex stack definitions across local dev, CI, and cluster testing with one-liner launches instead of glue scripts and YAML sprawl.
 
   _Now you can orchestrate multi-service ephemeral environments with Starlark packages and Claude Code skills, because plain Docker Compose clearly wasn’t enough abstraction for a Tuesday._
 
-  `devops` `infrastructure` `claude-code` `orchestration` `docker`
+  `claude-code` `devops` `docker` `infrastructure` `orchestration`
   </details>
 
 - **[claude-cmd](https://github.com/kiliczsh/claude-cmd)** `⭐ 301` `updated ≤90d` A lightweight CLI tool for discovering, installing, and managing custom commands, CLAUDE.md configurations, and MCP servers for Claude Code. <details><summary>More about</summary>
@@ -107,15 +98,6 @@ Reusable skill packs, rules packs, command packs, and skill directories for AI d
 
 _These are new or low-traffic entries being watched._
 
-- **[bonnard-cli](https://github.com/bonnard-data/bonnard-cli)** `⭐ 47` `updated ≤90d` An open-source CLI tool for defining an agent-native semantic analytics layer that scaffolds project schemas and generates reusable skills for coding agents like Claude Code, Cursor, and Codex. <details><summary>More about</summary>
-
-  It lets developers define metrics once and expose them to AI agents via MCP and SDKs, preventing the metric drift that usually occurs when dashboards and LLMs query the same warehouse.
-
-  _We have successfully abstracted the abstraction, meaning your AI agent now needs a CLI tool just to understand the metrics your BI tool already misunderstood._
-
-  `semantic-layer` `mcp` `cli` `analytics` `skills`
-  </details>
-
 - **[nex-as-a-skill](https://github.com/nex-crm/nex-as-a-skill)** `⭐ 41` `updated ≤30d` A CLI and skill-pack system that connects AI coding agents across platforms into a shared knowledge graph with integrations for email, Slack, and CRM tools. <details><summary>More about</summary>
 
   It lets developers carry context, memories, and project knowledge across Claude Code, Cursor, Windsurf, and other agents without re-explaining or re-pasting information.
@@ -134,13 +116,13 @@ _These are new or low-traffic entries being watched._
   `legal-tech` `mcp` `cli` `agent-skills` `templates`
   </details>
 
-- **[llms-universal-life-science-and-clinical-skills-](https://github.com/mdbabumiamssm/llms-universal-life-science-and-clinical-skills-)** `⭐ 26` `updated ≤30d` A repository of reusable AI skill definitions, agentic workflows, and operational guides for life sciences, genomics, and clinical research, covering platforms like Claude Code, OpenAI Codex, and various MCP servers. <details><summary>More about</summary>
+- **[LLMs-Universal-Life-Science-and-Clinical-Skills-](https://github.com/mdbabumiamssm/llms-universal-life-science-and-clinical-skills-)** `⭐ 26` `updated ≤30d` A repository of reusable AI skill definitions, agentic workflows, and operational guides for life sciences, genomics, and clinical research, covering platforms like Claude Code, OpenAI Codex, and various MCP servers. <details><summary>More about</summary>
 
   It provides a structured library of SKILL.md definitions and operational guides that developers can reuse to bootstrap biomedical agent workflows or extend their own coding agents with domain-specific context.
 
   _You now have a 26-star repo promising a full Biomedical OS with 150+ tools, which is either the future of precision oncology or the most elaborate prompt folder ever committed to main._
 
-  `skills` `biomedical` `agents` `mcp` `life-sciences`
+  `agents` `biomedical` `life-sciences` `mcp` `skills`
   </details>
 
 - **[citedy-seo-agent](https://github.com/citedy/citedy-seo-agent)** `⭐ 10` `updated ≤30d` An agent skill for Claude Code, OpenAI Codex, and other AI developer tools that automates SEO content workflows including trend scouting, competitor analysis, multilingual article generation, and social media publishing via the Citedy platform. <details><summary>More about</summary>
@@ -161,13 +143,13 @@ _These are new or low-traffic entries being watched._
   `mcp` `claude` `rules` `developer-tools` `safety`
   </details>
 
-- **[claudecode-devplanbuilder](https://github.com/mmorris35/claudecode-devplanbuilder)** `⭐ 3` `updated ≤90d` A reusable methodology and template repository that instructs Claude Code to interview a user, then generate a full project brief, development plan with atomic subtasks, and specialized executor and verifier agent definitions. <details><summary>More about</summary>
+- **[ClaudeCode-DevPlanBuilder](https://github.com/mmorris35/claudecode-devplanbuilder)** `⭐ 3` `updated ≤90d` A reusable methodology and template repository that instructs Claude Code to interview a user, then generate a full project brief, development plan with atomic subtasks, and specialized executor and verifier agent definitions. <details><summary>More about</summary>
 
   It provides a structured spec-driven workflow for developers who want Claude Code to plan and autonomously execute an entire project with baked-in git discipline and testing requirements.
 
   _We have officially reached the point where we are writing instruction manuals for the AI on how to write instruction manuals for itself._
 
-  `claude-code` `spec-driven` `agents` `planning`
+  `agents` `claude-code` `planning` `spec-driven`
   </details>
 
 - **[integrations](https://github.com/aidesignblueprint/integrations)** `⭐ 1` `updated ≤30d` A repository of official integrations, IDE rules, prompt files, and MCP server configurations for the AI Design Blueprint framework. <details><summary>More about</summary>
@@ -188,13 +170,13 @@ _These are new or low-traffic entries being watched._
   `logging` `rules` `multi-agent` `osop` `skills`
   </details>
 
-- **[relay](https://github.com/momobits/relay)** `⭐ 1` `updated ≤30d` A workflow system that adds a persistent .relay/ memory layer and 20 structured skills for directing AI coding agents across multi-session projects. <details><summary>More about</summary>
+- **[Relay](https://github.com/momobits/relay)** `⭐ 1` `updated ≤30d` A workflow system that adds a persistent .relay/ memory layer and 20 structured skills for directing AI coding agents across multi-session projects. <details><summary>More about</summary>
 
   It attempts to solve AI amnesia and context fragmentation by giving developers a shared, structured state file that works across Claude Code, OpenAI Codex CLI, and Google Gemini CLI.
 
   _Finally, a system to manage the meta-work of managing the AI that manages your codebase, ensuring your token budget now requires its own project manager._
 
-  `memory-layer` `cli` `multi-agent` `workflow` `skills`
+  `cli` `memory-layer` `multi-agent` `skills` `workflow`
   </details>
 
 - **[touch-grass](https://github.com/nalediym/touch-grass)** `⭐ 1` `updated ≤30d` A Claude Code plugin that combines an MCP server, SessionStart hook, and skill pack to contextually remind developers to take breaks based on weather, sunset timing, and coding session activity. <details><summary>More about</summary>
@@ -206,56 +188,56 @@ _These are new or low-traffic entries being watched._
   `claude-code` `mcp` `wellness` `plugin` `skills`
   </details>
 
-- **[agentskill.sh](https://agentskill.sh)** A marketplace and CLI directory for browsing, installing, and managing reusable AI agent skills across Claude Code, Cursor, Copilot, Windsurf, Zed, and 20+ developer tools. <details><summary>More about</summary>
+- **[Agent Skill](https://agentskill.sh)** A marketplace and CLI directory for browsing, installing, and managing reusable AI agent skills across Claude Code, Cursor, Copilot, Windsurf, Zed, and 20+ developer tools. <details><summary>More about</summary>
 
   Developers can discover and install curated skill packs to extend their AI coding assistants with specialized workflows like code review, changelog generation, and GitHub issue automation.
 
   _We have officially reached the point where our AI agents need their own npm-style package registry, because writing a capable agent from scratch is apparently harder than managing 107,000 micro-skills._
 
-  `skills` `marketplace` `cli` `agent-extensions` `claude-code`
+  `agent-extensions` `claude-code` `cli` `marketplace` `skills`
   </details>
 
-- **[skillhub.cn](https://skillhub.cn)** SkillHub is a community and directory focused on discovering and sharing high-quality AI skills, specifically curated for Chinese users. <details><summary>More about</summary>
-
-  It provides a centralized, vetted registry of reusable AI skills that developers can use to extend the capabilities of their existing coding assistants and agents.
-
-  _Just when you thought you had mastered prompt engineering, the ecosystem has decided you now need a certified library of micro-skills to prevent your agent from hallucinating its way through a CRUD app._
-
-  `skills` `china` `registry` `ai-community`
-  </details>
-
-- **[skills](https://awesome-copilot.github.com/skills)** A directory and registry of reusable skill packs, rules bundles, and command packs designed to extend GitHub Copilot's capabilities. <details><summary>More about</summary>
+- **[All skills →](https://awesome-copilot.github.com/skills)** A directory and registry of reusable skill packs, rules bundles, and command packs designed to extend GitHub Copilot's capabilities. <details><summary>More about</summary>
 
   It provides a centralized way for developers to discover and plug pre-built behaviors into Copilot, reducing the need to hand-craft every custom instruction from scratch.
 
   _We have successfully abstracted software engineering into managing a portfolio of prompt packs for an AI that occasionally forgets how to close a tag._
 
-  `copilot` `skills` `rules` `prompt-extensions`
+  `copilot` `prompt-extensions` `rules` `skills`
   </details>
 
-- **[skills](https://www.modelscope.cn/skills)** ModelScope Skills is a directory and registry for community-contributed AI capability components and skill packs. <details><summary>More about</summary>
+- **[Modelscope Skills](https://www.modelscope.cn/skills)** ModelScope Skills is a directory and registry for community-contributed AI capability components and skill packs. <details><summary>More about</summary>
 
   It provides a centralized hub for developers to discover and reuse modular skills that extend the behavior of AI models and developer tools.
 
   _Because nothing says 'streamlined workflow' like browsing a registry of modular capabilities while wondering if you should have just written the function yourself._
 
-  `skills` `registry` `modelscope` `ai-capabilities`
+  `ai-capabilities` `modelscope` `registry` `skills`
   </details>
 
-- **[skills.sh](https://skills.sh)** A centralized directory and CLI installer for reusable AI agent skills, allowing developers to add procedural knowledge packs to their agents with a single command. <details><summary>More about</summary>
+- **[SkillHub](https://skillhub.cn)** SkillHub is a community and directory focused on discovering and sharing high-quality AI skills, specifically curated for Chinese users. <details><summary>More about</summary>
+
+  It provides a centralized, vetted registry of reusable AI skills that developers can use to extend the capabilities of their existing coding assistants and agents.
+
+  _Just when you thought you had mastered prompt engineering, the ecosystem has decided you now need a certified library of micro-skills to prevent your agent from hallucinating its way through a CRUD app._
+
+  `ai-community` `china` `registry` `skills`
+  </details>
+
+- **[Skills.Sh](https://skills.sh)** A centralized directory and CLI installer for reusable AI agent skills, allowing developers to add procedural knowledge packs to their agents with a single command. <details><summary>More about</summary>
 
   It provides a package-manager-style workflow for discovering and distributing the specific behaviors and rules that shape how coding agents operate.
 
   _We have finally achieved the dream of npm install for 'agent capabilities', meaning your AI's personality is now just a dependency tree waiting to conflict._
 
-  `skills` `agents` `cli` `registry`
+  `agents` `cli` `registry` `skills`
   </details>
 
-- **[skillsmp.com](https://skillsmp.com)** A searchable marketplace and directory for discovering over 1.2 million open-source agent skills compatible with Claude Code, OpenAI Codex CLI, and ChatGPT using the SKILL.md standard. <details><summary>More about</summary>
+- **[Skillsmp](https://skillsmp.com)** A searchable marketplace and directory for discovering over 1.2 million open-source agent skills compatible with Claude Code, OpenAI Codex CLI, and ChatGPT using the SKILL.md standard. <details><summary>More about</summary>
 
   It provides a centralized registry and API to find, filter, and install modular AI capabilities, saving developers from digging through scattered GitHub repositories to extend their coding assistants.
 
   _Just when you thought your AI assistant was smart enough, you now have 1.2 million additional 'skills' to browse, evaluate, and inevitably second-guess your choices over._
 
-  `skills` `marketplace` `claude-code` `codex` `directory`
+  `claude-code` `codex` `directory` `marketplace` `skills`
   </details>

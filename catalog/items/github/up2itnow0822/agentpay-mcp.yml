@@ -1,13 +1,29 @@
 id: github__up2itnow0822__agentpay-mcp
 kind: github-repo
-name: clawpay-mcp
+name: up2itnow0822/clawpay-mcp
 canonical_url: https://github.com/up2itnow0822/agentpay-mcp
 identity:
   github_repo: up2itnow0822/agentpay-mcp
 provenance:
   discoveries:
     - id: discovery__github__up2itnow0822__clawpay-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: up2itnow0822/clawpay-mcp
+        extracted_url: https://github.com/up2itnow0822/clawpay-mcp
+        surrounding_text: "- [up2itnow0822/clawpay-mcp](https://github.com/up2itnow0822/clawpay-mcp) [![clawpay-mcp MCP server](https://glama.ai/mcp/servers/@up2itnow0822/clawpay-mcp/badges/score.svg)](https://glama.ai/mcp/servers/@up2itnow0822/clawpay-mcp) 📇 ☁️ - Non-custodial x402 payment layer for AI agents. Agents sign transactions from their own wallet with on-chain spend limits — no custodial infrastructure, no API keys. Built on Base."
+        confidence: high
+    - id: discovery__github__up2itnow0822__agentpay-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T22:33:31.148Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -54,14 +70,14 @@ lifecycle:
 processing:
   categorize:
     status: skipped
-    updated_at: "2026-05-05T21:04:23.170Z"
+    updated_at: "2026-05-05T23:08:18.952Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.722Z"
+    updated_at: "2026-05-05T22:33:31.152Z"
     cause: null
     next_retry_at: null
   stars:

@@ -1,6 +1,6 @@
 id: aide__dev
 kind: website
-name: aide.dev
+name: Aide
 canonical_url: https://aide.dev
 identity: {}
 provenance:
@@ -39,8 +39,8 @@ insights:
   mental_damage: We have reached the point where the agents are not just writing the code, but the agents are also running their own bitter therapy sessions on why brute-forcing tokens is the only path to 60% accuracy.
   tags:
     - coding-agents
-    - swe-bench
     - inference-scaling
+    - swe-bench
   confidence: medium
 curation:
   status: included
@@ -56,6 +56,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:41:35.175Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.726Z"
@@ -65,11 +73,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:41:35.175Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

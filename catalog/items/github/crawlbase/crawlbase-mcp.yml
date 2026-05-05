@@ -1,6 +1,6 @@
 id: github__crawlbase__crawlbase-mcp
 kind: github-repo
-name: crawlbase-mcp
+name: Crawlbase MCP
 canonical_url: https://github.com/crawlbase/crawlbase-mcp
 identity:
   github_repo: crawlbase/crawlbase-mcp
@@ -50,10 +50,10 @@ insights:
   why_it_matters: It gives coding agents and IDEs the ability to fetch fresh, structured web content in real time instead of relying on outdated training data.
   mental_damage: Your agent can now hallucinate about today's Hacker News instead of last year's, provided you've configured three tokens and convinced the anti-bot gods to cooperate.
   tags:
+    - agent-tools
+    - llm-integration
     - mcp
     - web-scraping
-    - llm-integration
-    - agent-tools
   confidence: high
 curation:
   status: included
@@ -69,6 +69,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:14:41.461Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.683Z"
@@ -79,11 +87,3 @@ processing:
     updated_at: "2026-05-05T21:01:42.636Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:14:41.461Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

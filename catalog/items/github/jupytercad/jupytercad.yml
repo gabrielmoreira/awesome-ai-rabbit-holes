@@ -1,6 +1,6 @@
 id: github__jupytercad__jupytercad
 kind: github-repo
-name: jupytercad
+name: JupyterCAD
 canonical_url: https://github.com/jupytercad/jupytercad
 identity:
   github_repo: jupytercad/jupytercad
@@ -47,11 +47,11 @@ insights:
   why_it_matters: It allows developers working with CAD data to manipulate 3D geometries and collaborate directly within a familiar notebook environment instead of switching to standalone modeling software.
   mental_damage: Finally, the inevitable convergence of data science notebooks and mechanical CAD proves that if developers can find a way to avoid leaving their IDE, they absolutely will.
   tags:
-    - jupyterlab
-    - cad
     - 3d-modeling
-    - freecad
+    - cad
     - collaborative
+    - freecad
+    - jupyterlab
   confidence: high
 curation:
   status: excluded
@@ -67,6 +67,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (223) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:29:37.463Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.701Z"
@@ -77,11 +85,3 @@ processing:
     updated_at: "2026-05-05T21:03:00.761Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:29:37.463Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

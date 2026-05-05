@@ -1,6 +1,6 @@
 id: github__davidmigloz__langchain_dart
 kind: github-repo
-name: langchain_dart
+name: LangChainDart
 canonical_url: https://github.com/davidmigloz/langchain_dart
 identity:
   github_repo: davidmigloz/langchain_dart
@@ -67,6 +67,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (676) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:15:38.488Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.684Z"
@@ -77,11 +85,3 @@ processing:
     updated_at: "2026-05-05T21:01:49.274Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:15:38.488Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

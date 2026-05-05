@@ -1,6 +1,6 @@
 id: gitlab__com__elementfm__mcp
 kind: website
-name: mcp
+name: elementfm/mcp
 canonical_url: https://gitlab.com/elementfm/mcp
 identity: {}
 provenance:
@@ -54,8 +54,8 @@ insights:
   why_it_matters: It provides developers with an MCP server implementation reference hosted on GitLab, fitting into the growing ecosystem of context-sharing tools.
   mental_damage: We have successfully reached the point where the protocol for sharing context has its own protocols, and we are now indexing the places where those protocol implementations live.
   tags:
-    - mcp
     - gitlab
+    - mcp
     - protocol
   confidence: medium
 curation:
@@ -72,6 +72,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:44:51.744Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.674Z"
@@ -81,11 +89,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:44:51.744Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

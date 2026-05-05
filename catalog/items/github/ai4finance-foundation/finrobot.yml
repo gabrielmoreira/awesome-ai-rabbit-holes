@@ -1,6 +1,6 @@
 id: github__ai4finance-foundation__finrobot
 kind: github-repo
-name: finrobot
+name: FinRobot
 canonical_url: https://github.com/ai4finance-foundation/finrobot
 identity:
   github_repo: ai4finance-foundation/finrobot
@@ -49,11 +49,11 @@ insights:
   why_it_matters: It provides developers with a full-stack framework to build and deploy specialized financial AI agents that fetch data, run multi-agent analysis, and produce professional reports locally.
   mental_damage: Yet another reminder that while we're debugging middleware configurations, the robots are busy writing equity research reports that might actually be more bullish than our own portfolios.
   tags:
-    - finance
     - agents
+    - analysis
+    - finance
     - langchain
     - local-ai
-    - analysis
   confidence: high
 curation:
   status: included
@@ -69,6 +69,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (6871) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:06:48.094Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.677Z"
@@ -79,11 +87,3 @@ processing:
     updated_at: "2026-05-05T21:00:54.877Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:06:48.094Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

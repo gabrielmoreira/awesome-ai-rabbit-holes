@@ -1,6 +1,6 @@
 id: x__com__e2b
 kind: website
-name: e2b
+name: X (Twitter)
 canonical_url: https://x.com/e2b
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It allows developers building AI apps to offload untrusted code execution to a secure sandbox, enabling agents to run generated code without risking the host infrastructure.
   mental_damage: We have successfully abstracted the concept of 'running code' so far away that we now need a specialized cloud provider just to let our hallucinations compile themselves in isolation.
   tags:
-    - sandbox
-    - code-execution
-    - ai-infrastructure
     - agents
+    - ai-infrastructure
+    - code-execution
+    - sandbox
   confidence: medium
 curation:
   status: included
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:54:17.668Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.734Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:54:17.668Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

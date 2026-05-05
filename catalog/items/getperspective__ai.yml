@@ -1,6 +1,6 @@
 id: getperspective__ai
 kind: website
-name: getperspective.ai
+name: Perspective AI
 canonical_url: https://getperspective.ai
 identity: {}
 provenance:
@@ -39,11 +39,11 @@ insights:
   why_it_matters: It offers an MCP server implementation for developers looking to integrate conversational data capture into their tech stack without building custom LLM logic.
   mental_damage: We have successfully abstracted the form away so thoroughly that the user now has to negotiate their intent with a bot before we can ignore their input in a CRM.
   tags:
+    - automation
+    - conversational-ai
     - forms
     - mcp
-    - conversational-ai
     - saas
-    - automation
   confidence: high
 curation:
   status: excluded
@@ -59,6 +59,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:44:41.103Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.727Z"
@@ -68,11 +76,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:44:41.103Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

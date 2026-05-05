@@ -1,6 +1,6 @@
 id: github__google__model_search
 kind: github-repo
-name: model_search
+name: Model Search
 canonical_url: https://github.com/google/model_search
 identity:
   github_repo: google/model_search
@@ -42,10 +42,10 @@ insights:
   mental_damage: We've gone from 'I wrote this model' to 'I wrote a script to write the model' to 'I archived the script that writes the model' in the time it takes to train a single epoch.
   tags:
     - automl
-    - neural-architecture-search
-    - tensorflow
     - classification
     - google
+    - neural-architecture-search
+    - tensorflow
   confidence: high
 curation:
   status: excluded
@@ -61,6 +61,14 @@ lifecycle:
   status: needs_review
   reason: Repository is archived
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:22:08.829Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.689Z"
@@ -71,11 +79,3 @@ processing:
     updated_at: "2026-05-05T21:02:24.318Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:22:08.829Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

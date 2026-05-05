@@ -1,6 +1,6 @@
 id: www__terraform__io__cloud
 kind: website
-name: cloud
+name: Terraform Cloud
 canonical_url: https://www.terraform.io/cloud
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It centralizes infrastructure-as-code workflows, allowing teams to automate provisioning and enforce policies without managing their own CI/CD runners.
   mental_damage: Now you can wait for a hosted plan to fail in the cloud just as easily as you could locally, but with the added bonus of RBAC anxiety.
   tags:
-    - infrastructure-as-code
-    - devops
-    - terraform
     - cloud
+    - devops
+    - infrastructure-as-code
+    - terraform
   confidence: high
 curation:
   status: excluded
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:53:41.197Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.734Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:53:41.197Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

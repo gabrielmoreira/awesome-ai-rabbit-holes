@@ -1,6 +1,6 @@
 id: github__evoagentx__evoagentx
 kind: github-repo
-name: evoagentx
+name: EvoAgentX
 canonical_url: https://github.com/evoagentx/evoagentx
 identity:
   github_repo: evoagentx/evoagentx
@@ -53,10 +53,10 @@ insights:
   mental_damage: You can now deploy a self-evolving swarm of agents to solve the same problem you could have fixed in twenty minutes before you decided to architect the singularity.
   tags:
     - agents
-    - multi-agent
-    - framework
-    - self-evolving
     - eval
+    - framework
+    - multi-agent
+    - self-evolving
   confidence: high
 curation:
   status: included
@@ -72,6 +72,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (2939) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:18:39.506Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.686Z"
@@ -82,11 +90,3 @@ processing:
     updated_at: "2026-05-05T21:02:06.113Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:18:39.506Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

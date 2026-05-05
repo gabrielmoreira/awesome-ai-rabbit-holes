@@ -1,6 +1,6 @@
 id: github__copilotkit__copilotkit
 kind: github-repo
-name: copilotkit
+name: CopilotKit
 canonical_url: https://github.com/copilotkit/copilotkit
 identity:
   github_repo: copilotkit/copilotkit
@@ -77,11 +77,11 @@ insights:
   why_it_matters: It gives developers a structured way to connect LLM agents to their frontend with streaming UI, tool rendering, and shared state without wiring together ad-hoc hooks.
   mental_damage: Another protocol to learn so your chatbot can politely ask the user for confirmation before confidently hallucinating the next form field.
   tags:
-    - generative-ui
-    - agent-native
-    - react
-    - frontend-sdk
     - ag-ui
+    - agent-native
+    - frontend-sdk
+    - generative-ui
+    - react
   confidence: high
 curation:
   status: included
@@ -97,6 +97,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (30633) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:14:27.794Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.664Z"
@@ -107,11 +115,3 @@ processing:
     updated_at: "2026-05-05T21:01:41.269Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:14:27.794Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

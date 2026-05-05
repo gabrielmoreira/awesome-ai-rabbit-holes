@@ -1,6 +1,6 @@
 id: github__dynamodb-toolbox__dynamodb-toolbox
 kind: github-repo
-name: dynamodb-toolbox
+name: DynamoDB-Toolbox
 canonical_url: https://github.com/dynamodb-toolbox/dynamodb-toolbox
 identity:
   github_repo: dynamodb-toolbox/dynamodb-toolbox
@@ -46,11 +46,11 @@ insights:
   why_it_matters: It handles complex DynamoDB request formatting and data validation so developers can write clearer, type-safe database code with less boilerplate.
   mental_damage: Yet another perfectly fine developer tool that somehow ended up in an MCP servers list, proving that if you leave an awesome list open long enough, everything becomes agent infrastructure.
   tags:
-    - dynamodb
-    - typescript
-    - query-builder
     - aws
+    - dynamodb
     - orm
+    - query-builder
+    - typescript
   confidence: high
 curation:
   status: excluded
@@ -66,6 +66,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (1997) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:17:21.618Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.685Z"
@@ -76,11 +84,3 @@ processing:
     updated_at: "2026-05-05T21:01:58.302Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:17:21.618Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

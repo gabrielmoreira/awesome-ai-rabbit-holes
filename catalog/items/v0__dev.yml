@@ -1,6 +1,6 @@
 id: v0__dev
 kind: website
-name: v0.dev
+name: v0
 canonical_url: https://v0.dev
 identity: {}
 provenance:
@@ -68,11 +68,11 @@ insights:
   why_it_matters: It allows developers to scaffold functional front-end code and responsive layouts instantly, significantly speeding up the prototyping phase without leaving the browser.
   mental_damage: You can now generate a beautifully styled, production-ready checkout flow in 30 seconds, only to spend the next three hours trying to convince your team that generating the entire app via prompt doesn't mean you don't need a version control strategy.
   tags:
-    - ui-generation
-    - react
-    - prototyping
-    - vercel
     - frontend
+    - prototyping
+    - react
+    - ui-generation
+    - vercel
   confidence: high
 curation:
   status: included
@@ -88,6 +88,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:49:01.142Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.662Z"
@@ -97,11 +105,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:49:01.142Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

@@ -1,6 +1,6 @@
 id: github__8ensmith__mcp-open-library
 kind: github-repo
-name: mcp-open-library
+name: MCP Open Library
 canonical_url: https://github.com/8ensmith/mcp-open-library
 identity:
   github_repo: 8ensmith/mcp-open-library
@@ -68,11 +68,11 @@ insights:
   why_it_matters: It lets developers wire literary and bibliographic data directly into local AI workflows without writing custom API wrappers.
   mental_damage: We now have a standardized protocol for asking an assistant about Tolkien, while the actual code review it was supposed to help with remains unstarted.
   tags:
+    - api-integration
+    - assistant-tools
+    - books
     - mcp
     - open-library
-    - api-integration
-    - books
-    - assistant-tools
   confidence: high
 curation:
   status: included
@@ -88,6 +88,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:05:09.425Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.662Z"
@@ -98,11 +106,3 @@ processing:
     updated_at: "2026-05-05T21:00:45.060Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:05:09.425Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

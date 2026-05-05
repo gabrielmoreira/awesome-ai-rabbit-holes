@@ -1,6 +1,6 @@
 id: modelcontextprotocol__io__docs__getting__started__intro
 kind: website
-name: intro
+name: MCP
 canonical_url: https://modelcontextprotocol.io/docs/getting-started/intro
 identity: {}
 provenance:
@@ -54,11 +54,11 @@ insights:
   why_it_matters: It reduces the integration complexity for developers building AI agents by providing a standardized 'USB-C port' style protocol for accessing external systems like calendars, databases, and file systems.
   mental_damage: We have successfully standardized the process of explaining to an LLM how to read a spreadsheet, meaning the holy grail of modern engineering is now writing adapters for adapters.
   tags:
+    - ai-infrastructure
+    - integration
     - mcp
     - protocol
     - standard
-    - integration
-    - ai-infrastructure
   confidence: high
 curation:
   status: included
@@ -74,6 +74,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:46:40.481Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.674Z"
@@ -83,11 +91,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:46:40.481Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

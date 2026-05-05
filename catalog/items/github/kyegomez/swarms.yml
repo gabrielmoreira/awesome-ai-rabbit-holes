@@ -1,6 +1,6 @@
 id: github__kyegomez__swarms
 kind: github-repo
-name: swarms
+name: Swarms
 canonical_url: https://github.com/kyegomez/swarms
 identity:
   github_repo: kyegomez/swarms
@@ -60,11 +60,11 @@ insights:
   why_it_matters: It provides developers with production-ready patterns and protocol interoperability (MCP, skills) to scale beyond single-agent scripts into coordinated agent workflows.
   mental_damage: Because nothing says 'enterprise-grade' like stacking autonomous agents on top of each other and praying the error propagation becomes someone else's department.
   tags:
+    - framework
+    - llm
     - multi-agent
     - orchestration
     - python
-    - framework
-    - llm
   confidence: high
 curation:
   status: included
@@ -80,6 +80,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (6628) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:32:45.321Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.703Z"
@@ -90,11 +98,3 @@ processing:
     updated_at: "2026-05-05T21:03:14.452Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:32:45.321Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

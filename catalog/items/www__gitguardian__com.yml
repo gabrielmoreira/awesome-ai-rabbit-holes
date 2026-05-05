@@ -1,6 +1,6 @@
 id: www__gitguardian__com
 kind: website
-name: www.gitguardian.com
+name: GitGuardian
 canonical_url: https://www.gitguardian.com
 identity: {}
 provenance:
@@ -38,11 +38,11 @@ insights:
   why_it_matters: It integrates into the developer workflow via CLI (ggshield) and Git hooks to catch secret leaks before deployment, while also providing security teams with visibility into the exploding population of AI agent credentials.
   mental_damage: Just when you thought keeping track of your own API keys was hard, the rise of autonomous agents means you now have to govern the digital identities of the bots you accidentally hired.
   tags:
-    - secrets-detection
-    - security
+    - compliance
     - nhis
     - sdlc
-    - compliance
+    - secrets-detection
+    - security
   confidence: high
 curation:
   status: excluded
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:51:01.205Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.732Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:51:01.205Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

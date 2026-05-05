@@ -1,6 +1,6 @@
 id: awesome__copilot__github__com__skills
 kind: website
-name: skills
+name: All skills →
 canonical_url: https://awesome-copilot.github.com/skills
 identity: {}
 provenance:
@@ -39,9 +39,9 @@ insights:
   mental_damage: We have successfully abstracted software engineering into managing a portfolio of prompt packs for an AI that occasionally forgets how to close a tag.
   tags:
     - copilot
-    - skills
-    - rules
     - prompt-extensions
+    - rules
+    - skills
   confidence: high
 curation:
   status: included
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T20:27:12.621Z"
+    cause: null
+    attempts: 3
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 753a9feca783
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.726Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T20:27:12.621Z"
-    cause: null
-    attempts: 3
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 753a9feca783
-    next_retry_at: null

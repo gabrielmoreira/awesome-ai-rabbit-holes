@@ -1,6 +1,6 @@
 id: github__eth-sri__matharena
 kind: github-repo
-name: matharena
+name: MathArena
 canonical_url: https://github.com/eth-sri/matharena
 identity:
   github_repo: eth-sri/matharena
@@ -43,9 +43,9 @@ insights:
   why_it_matters: Developers building or fine-tuning math-capable models can use this to run reproducible evals across AIME, IMO, and other contests with structured grading and reasoning traces.
   mental_damage: Because nothing says production readiness like discovering your flagship model can’t solve a kangaroo competition problem written for 10-year-olds.
   tags:
+    - benchmarks
     - evals
     - llm
-    - benchmarks
     - math
   confidence: high
 curation:
@@ -62,6 +62,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (257) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:18:27.007Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.686Z"
@@ -72,11 +80,3 @@ processing:
     updated_at: "2026-05-05T21:02:04.867Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:18:27.007Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

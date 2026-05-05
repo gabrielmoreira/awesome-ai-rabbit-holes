@@ -1,6 +1,6 @@
 id: github__eli64s__readme-ai
 kind: github-repo
-name: readme-ai
+name: README-AI
 canonical_url: https://github.com/eli64s/readme-ai
 identity:
   github_repo: eli64s/readme-ai
@@ -61,11 +61,11 @@ insights:
   why_it_matters: It automates the tedious process of bootstrapping and maintaining documentation, allowing developers to generate consistent, detailed READMEs with a single command.
   mental_damage: We now have AI agents writing the documentation for projects that the AI agents also wrote, ensuring the README is just as overconfident as the code itself.
   tags:
-    - documentation
     - cli
-    - readme-generator
+    - documentation
     - llm
     - python
+    - readme-generator
   confidence: high
 curation:
   status: included
@@ -81,6 +81,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (2894) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:17:50.130Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.686Z"
@@ -91,11 +99,3 @@ processing:
     updated_at: "2026-05-05T21:02:01.451Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:17:50.130Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

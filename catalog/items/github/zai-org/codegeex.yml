@@ -1,6 +1,6 @@
 id: github__zai-org__codegeex
 kind: github-repo
-name: codegeex
+name: CodeGeeX
 canonical_url: https://github.com/zai-org/codegeex
 identity:
   github_repo: zai-org/codegeex
@@ -56,13 +56,16 @@ insights:
   tags:
     - ai-assistant
     - code-completion
+    - ide-assistant
     - ide-plugin
     - multilingual
   confidence: medium
 curation:
   status: included
-  reason: The tool is a developer-facing coding assistant focused on code generation, completion, and translation within the coding workflow, which fits the coding-agents category.
+  reason: CodeGeeX is a developer-facing coding assistant focused on direct code generation and completion within the developer workflow, fitting the coding-agents category.
   evidence:
+    - Source-list context lists it in awesome-ai-coding-tools under 'Code Completion'.
+    - Scraped site context describes it as an AI coding assistant for code suggestion, generation, translation, and comment writing.
     - Listed in awesome-ai-coding-tools under Code Completion as an AI-based coding assistant.
     - Scraped description states it suggests code, generates code, translates code, and writes comments for 20+ languages.
 placement:
@@ -74,15 +77,15 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-05-05T19:43:01.374Z"
+    updated_at: "2026-05-05T20:49:14.893Z"
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
+    category_rules_version: 1b6cc5462ecc
     next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.726Z"
+    updated_at: "2026-05-05T20:48:55.444Z"
     cause: null
     next_retry_at: null
   stars:

@@ -1,6 +1,6 @@
 id: github__eth-sri__lmql
 kind: github-repo
-name: lmql
+name: LMQL
 canonical_url: https://github.com/eth-sri/lmql
 identity:
   github_repo: eth-sri/lmql
@@ -60,10 +60,10 @@ insights:
   why_it_matters: It gives developers a structured way to build complex LLM-powered logic with programmable constraints and branching decoders, rather than relying on fragile string templating.
   mental_damage: Just when you thought prompt engineering was the final form of programming, we've successfully reinvented SQL for people who talk to hallucinations.
   tags:
-    - llm
-    - programming-language
     - constraints
     - framework
+    - llm
+    - programming-language
     - python
   confidence: high
 curation:
@@ -80,6 +80,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (4175) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:18:26.557Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.665Z"
@@ -90,11 +98,3 @@ processing:
     updated_at: "2026-05-05T21:02:04.468Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:18:26.557Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

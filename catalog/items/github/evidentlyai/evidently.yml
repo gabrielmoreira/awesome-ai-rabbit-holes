@@ -1,6 +1,6 @@
 id: github__evidentlyai__evidently
 kind: github-repo
-name: evidently
+name: Evidently
 canonical_url: https://github.com/evidentlyai/evidently
 identity:
   github_repo: evidentlyai/evidently
@@ -56,9 +56,9 @@ insights:
   why_it_matters: It provides over 100 built-in metrics and test suites that let developers programmatically validate data quality, detect drift, and evaluate generative AI outputs within their existing pipelines.
   mental_damage: You can now mathematically prove that your RAG pipeline is hallucinating with 100+ metrics, which only adds to the pile of dashboards you'll ignore when the pager actually goes off.
   tags:
-    - mlops
-    - llm-observability
     - evals
+    - llm-observability
+    - mlops
     - monitoring
     - python
   confidence: high
@@ -76,6 +76,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (7449) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:18:39.028Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.686Z"
@@ -86,11 +94,3 @@ processing:
     updated_at: "2026-05-05T21:02:06.009Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:18:39.028Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

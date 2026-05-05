@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__payclaw__mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-05T20:48:55.437Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,19 +33,20 @@ metadata:
     description: Badge identity + virtual Visa cards for AI agents. MCP-native.
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:03:14.003Z"
+    last_checked_at: "2026-05-05T21:04:14.298Z"
     readme:
-      fetched_at: "2026-05-05T21:03:14.003Z"
+      fetched_at: "2026-05-05T21:04:14.298Z"
       bytes: 11537
 insights:
   summary: An MCP server that provides AI agents with identity declaration (Badge) and single-use virtual Visa card issuance (Spend) for agentic commerce workflows.
   why_it_matters: It allows developers building shopping or payment agents to handle merchant identity handshakes and human-approved transactions directly through the Model Context Protocol.
   mental_damage: "We have finally solved the hardest problem in AI: letting a bot independently buy socks on Target without accidentally putting your real credit card on a public pastebin."
   tags:
-    - mcp
-    - payments
     - agents
     - commerce
+    - identity
+    - mcp
+    - payments
   confidence: high
 curation:
   status: included
@@ -54,6 +55,9 @@ curation:
     - Repo description explicitly states 'MCP-native' and provides an MCP server for agents.
     - README instructs users to add it as an MCP server in Claude Desktop, Cursor, or any MCP client.
     - Package is distributed as @kyalabs/mcp-server on npm and integrates via standard MCP config.
+    - Repo description explicitly states 'MCP-native' and it is listed in awesome-mcp-servers under Finance & Fintech.
+    - README details an MCP server installable via npx or Claude Desktop/Cursor config to provide Badge and Spend tools.
+    - Active development (pushed 2026-05-04) and MIT licensed, despite being very new with 1 star.
 placement:
   primary_category: mcp
   section: null
@@ -63,7 +67,7 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-05-05T21:32:41.103Z"
+    updated_at: "2026-05-05T21:44:09.881Z"
     cause: null
     next_retry_at: null
     attempts: 1
@@ -71,11 +75,11 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.712Z"
+    updated_at: "2026-05-05T20:48:55.443Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:14.003Z"
+    updated_at: "2026-05-05T21:04:14.298Z"
     cause: null
     next_retry_at: null

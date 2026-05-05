@@ -1,13 +1,13 @@
 id: github__deepspeedai__deepspeed-mii
 kind: github-repo
-name: deepspeed-mii
+name: DeepSpeed-MII
 canonical_url: https://github.com/deepspeedai/deepspeed-mii
 identity:
   github_repo: deepspeedai/deepspeed-mii
 provenance:
   discoveries:
     - id: discovery__github__microsoft__deepspeed-mii__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-05T20:48:55.437Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -36,20 +36,22 @@ metadata:
       - deep-learning
       - inference
       - pytorch
-    last_checked_at: "2026-05-05T21:01:51.247Z"
+    last_checked_at: "2026-05-05T21:03:38.325Z"
     readme:
-      fetched_at: "2026-05-05T21:01:51.247Z"
+      fetched_at: "2026-05-05T21:03:38.325Z"
       bytes: 20477
 insights:
   summary: DeepSpeed-MII is an open-source Python library that optimizes large language model and image generation inference using techniques like blocked KV-caching, continuous batching, and tensor parallelism to achieve low-latency, high-throughput performance.
   why_it_matters: It allows developers to serve massive models like Llama-2-70B and Mixtral locally or in infrastructure with significantly higher throughput and lower cost than standard inference stacks.
   mental_damage: Yet another opportunity to realize that your inference stack is the bottleneck, right before you spend three days debugging CUDA versions to save 200ms of latency.
   tags:
+    - cuda
     - inference
     - llm
-    - pytorch
+    - llm-serving
+    - local-ai
     - performance
-    - cuda
+    - pytorch
   confidence: high
 curation:
   status: included
@@ -58,6 +60,9 @@ curation:
     - Repo description states it makes 'low-latency and high-throughput inference possible, powered by DeepSpeed.'
     - README details support for local serving of LLMs (Llama-2-70B, Mixtral) and text2image models (Stable Diffusion) with high-performance CUDA kernels.
     - Project is active (pushed 2025-06-30) and licensed under Apache-2.0.
+    - Repo description states it 'makes low-latency and high-throughput inference possible, powered by DeepSpeed.'
+    - README details support for fast local text-generation inference for LLMs like Llama-2-70B and Mixtral.
+    - Listed in Awesome-LLMOps under the 'Serving > Large Model Serving' section.
 placement:
   primary_category: local-ai
   section: null
@@ -67,7 +72,7 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-05-05T21:16:01.344Z"
+    updated_at: "2026-05-05T21:37:24.724Z"
     cause: null
     next_retry_at: null
     attempts: 1
@@ -75,11 +80,11 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.706Z"
+    updated_at: "2026-05-05T20:48:55.442Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:51.247Z"
+    updated_at: "2026-05-05T21:03:38.325Z"
     cause: null
     next_retry_at: null

@@ -1,6 +1,6 @@
 id: github__hannibal046__awesome-llm
 kind: github-repo
-name: awesome-llm
+name: Awesome LLM
 canonical_url: https://github.com/hannibal046/awesome-llm
 identity:
   github_repo: hannibal046/awesome-llm
@@ -42,9 +42,9 @@ insights:
   mental_damage: Another meticulously organized list that guarantees you will spend four hours reading papers instead of shipping the feature that was due yesterday.
   tags:
     - awesome-list
+    - directory
     - llm
     - research
-    - directory
   confidence: high
 curation:
   status: included
@@ -60,6 +60,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (26738) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:23:28.387Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.690Z"
@@ -70,11 +78,3 @@ processing:
     updated_at: "2026-05-05T21:02:30.710Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:23:28.387Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

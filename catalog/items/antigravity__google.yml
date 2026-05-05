@@ -1,6 +1,6 @@
 id: antigravity__google
 kind: website
-name: antigravity.google
+name: Google Antigravity
 canonical_url: https://antigravity.google
 identity: {}
 provenance:
@@ -38,9 +38,9 @@ insights:
   why_it_matters: If this turns out to be a functional product, it would represent a major platform shift from Google in the AI-assisted development space.
   mental_damage: We are now expected to evaluate and categorize products that are essentially a domain name and a vague slogan, proving that in 2024, the README is optional but the hype is mandatory.
   tags:
-    - google
     - ai-builder
     - early-stage
+    - google
   confidence: low
 curation:
   status: excluded
@@ -56,6 +56,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:41:50.005Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.726Z"
@@ -65,11 +73,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:41:50.005Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

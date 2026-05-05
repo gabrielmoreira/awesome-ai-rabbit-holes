@@ -1,6 +1,6 @@
 id: github__hkuds__minirag
 kind: github-repo
-name: minirag
+name: MiniRAG
 canonical_url: https://github.com/hkuds/minirag
 identity:
   github_repo: hkuds/minirag
@@ -44,11 +44,11 @@ insights:
   why_it_matters: It allows developers to build RAG systems that run on resource-constrained devices or with smaller models, reducing storage costs by 75% compared to traditional methods.
   mental_damage: Yet another RAG framework arrives to assure you that this time, the graph topology will finally solve the context problem without requiring a PhD in knowledge graphs.
   tags:
-    - rag
     - framework
-    - small-language-models
     - graph-retrieval
     - lightweight
+    - rag
+    - small-language-models
   confidence: high
 curation:
   status: included
@@ -64,6 +64,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (1877) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:24:07.852Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.696Z"
@@ -74,11 +82,3 @@ processing:
     updated_at: "2026-05-05T21:02:34.956Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:24:07.852Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

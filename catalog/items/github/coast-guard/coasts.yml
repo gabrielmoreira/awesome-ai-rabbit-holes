@@ -1,6 +1,6 @@
 id: github__coast-guard__coasts
 kind: github-repo
-name: coasts
+name: Coasts
 canonical_url: https://github.com/coast-guard/coasts
 identity:
   github_repo: coast-guard/coasts
@@ -45,10 +45,10 @@ insights:
   why_it_matters: It allows developers to run parallel, isolated instances of their stack for multiple AI coding agents simultaneously, solving port conflicts and environment pollution during agentic development.
   mental_damage: We have finally reached the point where we need container orchestration just to manage the sheer number of half-finished features our AI agents are hallucinating in parallel.
   tags:
+    - docker
     - local-dev
     - orchestration
     - worktrees
-    - docker
   confidence: high
 curation:
   status: included
@@ -64,6 +64,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (381) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:13:36.952Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.682Z"
@@ -74,11 +82,3 @@ processing:
     updated_at: "2026-05-05T21:01:36.620Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:13:36.952Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

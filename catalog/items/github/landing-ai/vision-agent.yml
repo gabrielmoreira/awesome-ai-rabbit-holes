@@ -1,6 +1,6 @@
 id: github__landing-ai__vision-agent
 kind: github-repo
-name: vision-agent
+name: Vision agent
 canonical_url: https://github.com/landing-ai/vision-agent
 identity:
   github_repo: landing-ai/vision-agent
@@ -41,11 +41,11 @@ insights:
   why_it_matters: It lets developers prototype visual AI features by turning a prompt and an image into working code and tests, without hand-crafting model-selection and inference logic.
   mental_damage: You now have a coder agent that writes vision code, but you still need three different API keys and a dream to figure out who owns the resulting liability.
   tags:
-    - vision
     - code-generation
     - langchain
-    - python
     - local-webapp
+    - python
+    - vision
   confidence: high
 curation:
   status: included
@@ -61,6 +61,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (5275) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:32:59.409Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.703Z"
@@ -71,11 +79,3 @@ processing:
     updated_at: "2026-05-05T21:03:15.471Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:32:59.409Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

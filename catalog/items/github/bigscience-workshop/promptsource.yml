@@ -1,6 +1,6 @@
 id: github__bigscience-workshop__promptsource
 kind: github-repo
-name: promptsource
+name: PromptSource
 canonical_url: https://github.com/bigscience-workshop/promptsource
 identity:
   github_repo: bigscience-workshop/promptsource
@@ -44,10 +44,10 @@ insights:
   why_it_matters: It provides a standardized Jinja-based interface to manage thousands of prompts, allowing developers to apply consistent prompt engineering patterns across hundreds of NLP datasets.
   mental_damage: Just when you thought prompt engineering was becoming a stable discipline, here is a library to remind you that managing 2,000 permutations of 'Does this imply that...' is the new data entry job.
   tags:
-    - prompt-engineering
-    - nlp
-    - templates
     - huggingface
+    - nlp
+    - prompt-engineering
+    - templates
     - toolkit
   confidence: high
 curation:
@@ -64,6 +64,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (3010) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:10:47.762Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.681Z"
@@ -74,11 +82,3 @@ processing:
     updated_at: "2026-05-05T21:01:20.725Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:10:47.762Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

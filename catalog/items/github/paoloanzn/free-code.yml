@@ -1,6 +1,6 @@
 id: github__paoloanzn__free-code
 kind: github-repo
-name: free-code
+name: Free Code
 canonical_url: https://github.com/paoloanzn/free-code
 identity:
   github_repo: paoloanzn/free-code
@@ -42,11 +42,11 @@ insights:
   why_it_matters: Developers who want to run the Claude Code agent locally with multiple model providers and without upstream analytics or restrictions can build and use this drop-in alternative.
   mental_damage: We have reached the point where the most popular 'new' coding agent is literally defined by the guardrails it deleted from a leaked build.
   tags:
-    - cli
     - claude-code
+    - cli
     - fork
-    - terminal
     - privacy
+    - terminal
   confidence: high
 curation:
   status: excluded
@@ -62,6 +62,14 @@ lifecycle:
   status: needs_review
   reason: Repository is archived
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:43:46.785Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.712Z"
@@ -72,11 +80,3 @@ processing:
     updated_at: "2026-05-05T21:04:11.858Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:43:46.785Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

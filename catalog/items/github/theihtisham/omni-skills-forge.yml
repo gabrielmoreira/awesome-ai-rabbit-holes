@@ -1,6 +1,6 @@
 id: github__theihtisham__omni-skills-forge
 kind: github-repo
-name: omni-skills-forge
+name: Omni Skills Forge
 canonical_url: https://github.com/theihtisham/omni-skills-forge
 identity:
   github_repo: theihtisham/omni-skills-forge
@@ -51,6 +51,13 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: skipped
+    updated_at: "2026-05-05T23:08:18.952Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.720Z"
@@ -62,10 +69,3 @@ processing:
     cause:
       type: github_unavailable
       message: Could not fetch GitHub metadata for theihtisham/omni-skills-forge
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T21:04:23.170Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null

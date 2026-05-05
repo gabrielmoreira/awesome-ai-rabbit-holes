@@ -1,6 +1,6 @@
 id: github__microsoft__semantic-kernel
 kind: github-repo
-name: semantic-kernel
+name: Semantic Kernel
 canonical_url: https://github.com/microsoft/semantic-kernel
 identity:
   github_repo: microsoft/semantic-kernel
@@ -92,11 +92,11 @@ insights:
   why_it_matters: It provides a stable, multi-language foundation for developers to orchestrate complex LLM workflows, connect to various model providers, and integrate tools via MCP without vendor lock-in.
   mental_damage: It’s the rare Microsoft library that upgrades itself out of a job, forcing you to migrate from a 'kernel' to a 'framework' just as you finished reading the docs.
   tags:
-    - sdk
-    - multi-agent
     - enterprise
     - microsoft
+    - multi-agent
     - orchestration
+    - sdk
   confidence: high
 curation:
   status: included
@@ -112,6 +112,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (27842) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:37:38.166Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.658Z"
@@ -122,11 +130,3 @@ processing:
     updated_at: "2026-05-05T21:03:39.644Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:37:38.166Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

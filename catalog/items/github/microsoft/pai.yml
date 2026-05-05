@@ -1,6 +1,6 @@
 id: github__microsoft__pai
 kind: github-repo
-name: pai
+name: PAI
 canonical_url: https://github.com/microsoft/pai
 identity:
   github_repo: microsoft/pai
@@ -80,6 +80,14 @@ lifecycle:
   status: needs_review
   reason: Repository is archived
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:37:36.356Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.707Z"
@@ -90,11 +98,3 @@ processing:
     updated_at: "2026-05-05T21:03:39.203Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:37:36.356Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

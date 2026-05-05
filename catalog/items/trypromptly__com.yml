@@ -1,6 +1,6 @@
 id: trypromptly__com
 kind: website
-name: trypromptly.com
+name: trypromptly
 canonical_url: https://trypromptly.com
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It allows developers to prototype and ship AI-driven internal tools or chat interfaces directly from a browser, skipping the boilerplate of model integration.
   mental_damage: Another glorious entry in the 'why write code when you can write prompts to generate the code you used to write' ecosystem that ensures your deployment pipeline is now just a text box.
   tags:
-    - prompt-to-app
     - browser-builder
-    - no-code
     - chatbot
+    - no-code
+    - prompt-to-app
   confidence: medium
 curation:
   status: included
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:48:48.519Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.731Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:48:48.519Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

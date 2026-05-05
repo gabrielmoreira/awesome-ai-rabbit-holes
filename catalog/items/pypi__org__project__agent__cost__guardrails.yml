@@ -1,6 +1,6 @@
 id: pypi__org__project__agent__cost__guardrails
 kind: website
-name: agent-cost-guardrails
+name: PyPI
 canonical_url: https://pypi.org/project/agent-cost-guardrails
 identity: {}
 provenance:
@@ -38,8 +38,8 @@ insights:
   why_it_matters: Presumably helps developers stop their autonomous agents from burning through their API budget, assuming the package actually exists and works.
   mental_damage: We now need a guardrail for the guardrails that watch the agents that replaced the interns.
   tags:
-    - cost-control
     - agents
+    - cost-control
     - python
   confidence: low
 curation:
@@ -56,6 +56,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:47:16.027Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.729Z"
@@ -65,11 +73,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:47:16.027Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

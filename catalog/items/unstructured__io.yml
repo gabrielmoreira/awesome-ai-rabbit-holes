@@ -1,6 +1,6 @@
 id: unstructured__io
 kind: website
-name: unstructured.io
+name: Unstructured Platform
 canonical_url: https://unstructured.io
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It handles the messy 'last mile' of document parsing and chunking, allowing developers to feed clean, structured data into AI models rather than wrestling with brittle format converters.
   mental_damage: We have successfully abstracted the problem of reading a PDF into a multi-stage pipeline that requires its own dedicated ingestion engine.
   tags:
-    - rag
     - data-ingestion
-    - preprocessing
     - llm-infrastructure
+    - preprocessing
+    - rag
   confidence: medium
 curation:
   status: excluded
@@ -56,6 +56,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:48:54.739Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.731Z"
@@ -65,11 +73,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:48:54.739Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

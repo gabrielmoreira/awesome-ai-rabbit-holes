@@ -1,6 +1,6 @@
 id: github__chainlit__chainlit
 kind: github-repo
-name: chainlit
+name: Chainlit
 canonical_url: https://github.com/chainlit/chainlit
 identity:
   github_repo: chainlit/chainlit
@@ -49,11 +49,11 @@ insights:
   why_it_matters: It gives developers a fast path to wrap LLMs in a functional chat UI with tool-calling support, cutting the time from 'it works in a script' to 'it works in a browser' from weeks to minutes.
   mental_damage: Another pristine framework for building the exact same chat UI we’ve all deployed three times this quarter, just in case the 'production-ready' label finally sticks.
   tags:
-    - python
-    - llm
     - chat-ui
-    - langchain
     - conversational-ai
+    - langchain
+    - llm
+    - python
   confidence: high
 curation:
   status: included
@@ -69,6 +69,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (12043) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:12:45.812Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.682Z"
@@ -79,11 +87,3 @@ processing:
     updated_at: "2026-05-05T21:01:32.083Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:12:45.812Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

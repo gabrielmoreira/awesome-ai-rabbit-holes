@@ -1,6 +1,6 @@
 id: github__llmware-ai__llmware
 kind: github-repo
-name: llmware
+name: Llmware
 canonical_url: https://github.com/llmware-ai/llmware
 identity:
   github_repo: llmware-ai/llmware
@@ -50,10 +50,10 @@ insights:
   why_it_matters: It gives developers a single toolkit to ingest documents, manage embeddings across multiple vector databases, and run specialized small models locally on laptops or edge devices.
   mental_damage: You now have the power to run a 300-model enterprise RAG stack on your laptop, which is the perfect excuse to spend three days tuning a local Bling model instead of fixing that one critical bug.
   tags:
-    - rag
-    - local-ai
-    - llm-framework
     - enterprise
+    - llm-framework
+    - local-ai
+    - rag
     - sdk
   confidence: high
 curation:
@@ -70,6 +70,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (14862) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:34:20.281Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.704Z"
@@ -80,11 +88,3 @@ processing:
     updated_at: "2026-05-05T21:03:22.279Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:34:20.281Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

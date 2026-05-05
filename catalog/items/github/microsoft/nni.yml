@@ -1,6 +1,6 @@
 id: github__microsoft__nni
 kind: github-repo
-name: nni
+name: NNI
 canonical_url: https://github.com/microsoft/nni
 identity:
   github_repo: microsoft/nni
@@ -63,8 +63,8 @@ insights:
   tags:
     - automl
     - hyperparameter-tuning
-    - neural-architecture-search
     - model-compression
+    - neural-architecture-search
   confidence: high
 curation:
   status: excluded
@@ -80,6 +80,14 @@ lifecycle:
   status: needs_review
   reason: Repository is archived
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:37:34.929Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.707Z"
@@ -90,11 +98,3 @@ processing:
     updated_at: "2026-05-05T21:03:39.223Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:37:34.929Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

@@ -1,6 +1,6 @@
 id: github__langchain-ai__langserve
 kind: github-repo
-name: langserve
+name: LangServe
 canonical_url: https://github.com/langchain-ai/langserve
 identity:
   github_repo: langchain-ai/langserve
@@ -47,9 +47,9 @@ insights:
   why_it_matters: It allows developers to quickly wrap and serve LangChain logic as production-ready APIs with automatic schema validation, streaming endpoints, and built-in tracing.
   mental_damage: A core deployment tool deprecated less than a year after launch, reminding us that in modern AI infrastructure, your integration layer may be discontinued before your first endpoint stabilizes.
   tags:
-    - langchain
     - deployment
     - fastapi
+    - langchain
     - llm-serving
   confidence: high
 curation:
@@ -66,6 +66,14 @@ lifecycle:
   status: needs_review
   reason: Repository is archived
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:33:05.569Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.703Z"
@@ -76,11 +84,3 @@ processing:
     updated_at: "2026-05-05T21:03:16.098Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:33:05.569Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

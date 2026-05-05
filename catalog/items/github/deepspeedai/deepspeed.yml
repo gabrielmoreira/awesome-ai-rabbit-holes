@@ -1,13 +1,13 @@
 id: github__deepspeedai__deepspeed
 kind: github-repo
-name: deepspeed
+name: DeepSpeed
 canonical_url: https://github.com/deepspeedai/deepspeed
 identity:
   github_repo: deepspeedai/deepspeed
 provenance:
   discoveries:
     - id: discovery__github__microsoft__deepspeed__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-05T20:48:55.437Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -22,7 +22,7 @@ provenance:
         surrounding_text: "- [DeepSpeed](https://github.com/microsoft/DeepSpeed) - DeepSpeed is a deep learning optimization library that makes distributed training and inference easy, efficient, and effective."
         confidence: high
     - id: discovery__github__microsoft__deepspeed__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-05T20:48:55.437Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -61,9 +61,9 @@ metadata:
       - pytorch
       - trillion-parameters
       - zero
-    last_checked_at: "2026-05-05T21:01:51.309Z"
+    last_checked_at: "2026-05-05T21:03:38.504Z"
     readme:
-      fetched_at: "2026-05-05T21:01:51.309Z"
+      fetched_at: "2026-05-05T21:03:38.504Z"
       bytes: 31729
 insights:
   summary: DeepSpeed is a deep learning optimization library for PyTorch that provides distributed training and inference capabilities via ZeRO, 3D parallelism, and memory offloading techniques.
@@ -71,10 +71,13 @@ insights:
   mental_damage: You now have the power to train a trillion-parameter model, provided you can solve the far more complex puzzle of configuring ZeRO stages without accidentally OOM-ing a supercomputer.
   tags:
     - deep-learning
+    - distributed
     - distributed-training
+    - gpu
     - inference
-    - pytorch
     - optimization
+    - pytorch
+    - training
   confidence: high
 curation:
   status: included
@@ -92,7 +95,7 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-05-05T21:16:03.076Z"
+    updated_at: "2026-05-05T21:37:25.299Z"
     cause: null
     next_retry_at: null
     attempts: 1
@@ -100,11 +103,11 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.669Z"
+    updated_at: "2026-05-05T20:48:55.439Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:51.309Z"
+    updated_at: "2026-05-05T21:03:38.504Z"
     cause: null
     next_retry_at: null

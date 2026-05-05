@@ -1,6 +1,6 @@
 id: celiums__io
 kind: website
-name: celiums.io
+name: Website
 canonical_url: https://celiums.io
 identity: {}
 provenance:
@@ -39,9 +39,9 @@ insights:
   why_it_matters: It provides developers with a standardized way to give their AI agents persistent memory and knowledge retrieval capabilities via the MCP standard.
   mental_damage: "Just what we needed: another layer of abstraction to help our agents remember that they forgot the context we already paid to process."
   tags:
+    - knowledge
     - mcp
     - memory
-    - knowledge
     - server
   confidence: medium
 curation:
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:42:41.779Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.726Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:42:41.779Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

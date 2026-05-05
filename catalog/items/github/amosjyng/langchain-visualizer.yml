@@ -1,6 +1,6 @@
 id: github__amosjyng__langchain-visualizer
 kind: github-repo
-name: langchain-visualizer
+name: Langchain visualizer
 canonical_url: https://github.com/amosjyng/langchain-visualizer
 identity:
   github_repo: amosjyng/langchain-visualizer
@@ -43,10 +43,10 @@ insights:
   why_it_matters: It lets developers visually inspect prompt templating, execution flow, and token costs during local development instead of relying solely on text logs.
   mental_damage: We have reached the point where debugging an agent requires a dedicated visualizer to understand why a language model spent twelve cents explaining its way through a math problem.
   tags:
-    - langchain
     - debugging
-    - visualization
+    - langchain
     - python
+    - visualization
   confidence: high
 curation:
   status: included
@@ -62,6 +62,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (740) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:08:04.430Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.678Z"
@@ -72,11 +80,3 @@ processing:
     updated_at: "2026-05-05T21:01:02.825Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:08:04.430Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

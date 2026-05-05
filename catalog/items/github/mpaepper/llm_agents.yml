@@ -1,6 +1,6 @@
 id: github__mpaepper__llm_agents
 kind: github-repo
-name: llm_agents
+name: LLM Agents
 canonical_url: https://github.com/mpaepper/llm_agents
 identity:
   github_repo: mpaepper/llm_agents
@@ -61,10 +61,10 @@ insights:
   mental_damage: Because what the modern developer truly needs is yet another from-scratch agent framework to debate whether the ReAct loop is best implemented in 400 lines of Python or 300 lines of TypeScript.
   tags:
     - agents
+    - framework
     - langchain
     - llm
     - python
-    - framework
   confidence: high
 curation:
   status: included
@@ -80,6 +80,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (1041) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:39:14.624Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.669Z"
@@ -90,11 +98,3 @@ processing:
     updated_at: "2026-05-05T21:03:47.620Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:39:14.624Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

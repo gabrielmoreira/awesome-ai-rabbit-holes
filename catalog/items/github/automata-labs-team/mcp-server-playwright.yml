@@ -6,24 +6,8 @@ identity:
   github_repo: automata-labs-team/mcp-server-playwright
 provenance:
   discoveries:
-    - id: discovery__github__automata-labs-team__mcp-server-playwright__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T20:48:55.437Z"
-      source:
-        type: awesome-list
-        name: punkpeye/awesome-mcp-servers
-        url: https://github.com/punkpeye/awesome-mcp-servers
-        repository: punkpeye/awesome-mcp-servers
-      extraction:
-        mode: parsed
-        section_path:
-          - Server Implementations
-          - 📂 <a name="browser-automation"></a>Browser Automation
-        anchor_text: automatalabs/mcp-server-playwright
-        extracted_url: https://github.com/automata-labs-team/mcp-server-playwright
-        surrounding_text: "- [automatalabs/mcp-server-playwright](https://github.com/Automata-Labs-team/MCP-Server-Playwright) 🐍 - An MCP server for browser automation using Playwright"
-        confidence: high
     - id: discovery__github__automata-labs-team__mcp-server-playwright__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T20:48:55.437Z"
+      discovered_at: "2026-05-05T22:33:31.148Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -48,29 +32,22 @@ metadata:
     description: MCP server for browser automation using Playwright
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:01:12.552Z"
+    last_checked_at: "2026-05-05T23:07:42.687Z"
     readme:
-      fetched_at: "2026-05-05T21:01:12.552Z"
+      fetched_at: "2026-05-05T23:07:42.687Z"
       bytes: 6315
 insights:
-  summary: An MCP server that exposes Playwright browser automation capabilities—navigation, screenshots, clicks, form filling, console logs, and JavaScript execution—to LLM-powered tools like Claude and Cursor.
-  why_it_matters: It lets AI coding assistants directly drive a real browser, turning them from code generators into agents that can observe and interact with live web pages.
-  mental_damage: We’ve successfully taught the stochastic parrot to click 'Accept Cookies' so you don’t have to, right before it hallucinates a CSS selector and rage-clicks the footer.
-  tags:
-    - mcp
-    - playwright
-    - browser-automation
-    - agent-tools
-  confidence: high
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
 curation:
-  status: included
-  reason: This is a Model Context Protocol server that provides browser automation tooling for LLM clients, which fits cleanly into MCP Servers and Tooling.
-  evidence:
-    - "Repo description: 'MCP server for browser automation using Playwright'"
-    - "README: 'A Model Context Protocol server that provides browser automation capabilities using Playwright'"
-    - Listed in awesome-mcp-list (Browser Control) and awesome-mcp-servers (Browser Automation)
+  status: pending
+  reason: null
+  evidence: []
 placement:
-  primary_category: mcp
+  primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
@@ -78,19 +55,21 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.439Z"
+    updated_at: "2026-05-05T22:33:31.150Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:12.552Z"
+    updated_at: "2026-05-05T23:07:42.687Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-05T21:09:32.697Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
+    status: deferred
+    updated_at: "2026-05-05T23:08:33.635Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-05-06T00:08:33.635Z"
+    attempts: 0
     prompt_version: catalog-categorize-v2-baseline
     category_rules_version: 1b6cc5462ecc

@@ -1,6 +1,6 @@
 id: github__akshata29__entaoai
 kind: github-repo
-name: chatpdf
+name: ChatPDF
 canonical_url: https://github.com/akshata29/entaoai
 identity:
   github_repo: akshata29/entaoai
@@ -52,19 +52,24 @@ metadata:
       fetched_at: "2026-05-05T21:00:56.835Z"
       bytes: 21627
 insights:
-  summary: An accelerator for building ChatGPT-like experiences over enterprise data using Azure OpenAI, vector stores, and various RAG patterns.
-  why_it_matters: It provides developers with a ready-to-deploy scaffold for RAG workflows, including evaluation flows for groundedness, similarity, and coherence.
-  mental_damage: Another heroic attempt to convince the enterprise that uploading everything to a vector store is the same thing as having a knowledge management strategy.
+  summary: An accelerator for building ChatGPT-like experiences over enterprise data using Azure OpenAI, LangChain, and vector stores like Pinecone or Redis.
+  why_it_matters: It provides a ready-to-deploy reference architecture for RAG pipelines, including implementations of advanced techniques and evaluation flows for groundedness and similarity.
+  mental_damage: "Just what the world needed: another 'chat with your PDF' starter kit that proves the hardest part of AI isn't the model, it's deciding which Azure service acronym to configure first."
   tags:
-    - rag
     - azure
     - enterprise
+    - evaluation
+    - langchain
     - llm
+    - rag
   confidence: high
 curation:
   status: included
-  reason: It is a code-first sample and accelerator for building RAG applications on Azure, fitting the developer framework and SDK category rather than a hosted product or coding agent.
+  reason: This is a code-first accelerator and framework for building RAG systems with Azure and LangChain, fitting the 'importable building blocks' criteria for AI Frameworks.
   evidence:
+    - Repo description explicitly calls it an 'Accelerator to quickly upload your own enterprise data' using Azure and OpenAI services.
+    - README details a reference implementation using LangChain, vector stores (Pinecone/Redis), and Azure PromptFlow for evaluation.
+    - Listed in awesome-langchain under 'Open Source Projects > Other / Chatbots', confirming its status as a developer toolkit.
     - Repo description explicitly calls it an 'Accelerator to quickly upload your own enterprise data' using Azure services.
     - README details implementation using Langchain, Pinecone, Redis, and Azure Cognitive Search as building blocks for developers.
     - Includes specific evaluation harnesses (Groundedness, F1, Coherence) for developers to measure RAG quality in code.
@@ -77,7 +82,7 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-05-05T21:07:08.480Z"
+    updated_at: "2026-05-05T21:07:09.114Z"
     cause: null
     next_retry_at: null
     attempts: 1
@@ -85,7 +90,7 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.677Z"
+    updated_at: "2026-05-05T20:48:55.440Z"
     cause: null
     next_retry_at: null
   stars:

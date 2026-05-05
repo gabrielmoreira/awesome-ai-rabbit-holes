@@ -1,6 +1,6 @@
 id: github__bigsy__clj-kondo-mcp
 kind: github-repo
-name: clj-kondo-mcp
+name: clj-kondo-MCP
 canonical_url: https://github.com/bigsy/clj-kondo-mcp
 identity:
   github_repo: bigsy/clj-kondo-mcp
@@ -41,9 +41,9 @@ insights:
   why_it_matters: It allows AI agents to catch static analysis errors in Clojure projects during generation, preventing the common issue of an assistant writing syntactically convincing but lint-failing code.
   mental_damage: We have successfully abstracted the act of asking a robot to check if the robot's code will make the other robot grumpy.
   tags:
-    - mcp
     - clojure
     - linting
+    - mcp
     - static-analysis
   confidence: high
 curation:
@@ -60,6 +60,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:10:49.131Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.681Z"
@@ -70,11 +78,3 @@ processing:
     updated_at: "2026-05-05T21:01:20.957Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:10:49.131Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

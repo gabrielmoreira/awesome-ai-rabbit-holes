@@ -1,6 +1,6 @@
 id: github__bvlc__caffe
 kind: github-repo
-name: caffe
+name: Caffe
 canonical_url: https://github.com/bvlc/caffe
 identity:
   github_repo: bvlc/caffe
@@ -45,8 +45,8 @@ insights:
   why_it_matters: It provides a mature, expression-focused foundation for developers building or experimenting with convolutional neural networks and vision models.
   mental_damage: Yet another reminder that while we’re prompting agents to ship CRUD apps, a significant slice of the ecosystem is still meticulously brewing low-level conv-nets in C++.
   tags:
-    - deep-learning
     - computer-vision
+    - deep-learning
     - framework
     - training
   confidence: high
@@ -64,6 +64,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (34596) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:11:59.561Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.682Z"
@@ -74,11 +82,3 @@ processing:
     updated_at: "2026-05-05T21:01:27.612Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:11:59.561Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

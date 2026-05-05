@@ -1,6 +1,6 @@
 id: www__chatarena__org
 kind: website
-name: www.chatarena.org
+name: ChatArena
 canonical_url: https://www.chatarena.org
 identity: {}
 provenance:
@@ -38,9 +38,9 @@ insights:
   why_it_matters: It provides developers with a structured environment to benchmark, observe, and analyze the behavior of multi-agent LLM systems.
   mental_damage: Yet another pristine sandbox where agents politely outperform each other while your actual production monolith remains terrified of a single unsupervised merge.
   tags:
-    - multi-agent
     - evaluation
     - llm
+    - multi-agent
     - research
   confidence: medium
 curation:
@@ -56,6 +56,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:50:02.734Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.732Z"
@@ -65,11 +73,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:50:02.734Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

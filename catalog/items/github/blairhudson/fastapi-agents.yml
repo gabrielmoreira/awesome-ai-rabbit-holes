@@ -1,6 +1,6 @@
 id: github__blairhudson__fastapi-agents
 kind: github-repo
-name: fastapi-agents
+name: FastAPI Agents
 canonical_url: https://github.com/blairhudson/fastapi-agents
 identity:
   github_repo: blairhudson/fastapi-agents
@@ -47,11 +47,11 @@ insights:
   why_it_matters: It lets developers expose multiple heterogeneous agent backends through standard FastAPI endpoints with built-in auth and OpenAPI docs, reducing boilerplate orchestration code.
   mental_damage: Now you can host a soup of agents from four different frameworks and call it 'microservices architecture' while wondering why your latency graph looks like a heartbeat monitor.
   tags:
-    - fastapi
     - agents
-    - python
     - backend
+    - fastapi
     - orchestration
+    - python
   confidence: medium
 curation:
   status: included
@@ -67,6 +67,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:11:04.926Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.681Z"
@@ -77,11 +85,3 @@ processing:
     updated_at: "2026-05-05T21:01:22.366Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:11:04.926Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

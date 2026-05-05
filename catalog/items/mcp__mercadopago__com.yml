@@ -1,6 +1,6 @@
 id: mcp__mercadopago__com
 kind: website
-name: mcp.mercadopago.com
+name: Mercado Pago
 canonical_url: https://mcp.mercadopago.com
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It allows AI agents and coding assistants to directly integrate Mercado Pago functionality without developers manually wiring API calls.
   mental_damage: Another official MCP server appears, bringing us one step closer to a world where every SaaS API gets wrapped in a protocol that your agent will probably forget to use anyway.
   tags:
+    - api-integration
     - mcp
     - mercado-pago
     - payments
-    - api-integration
   confidence: high
 curation:
   status: included
@@ -56,6 +56,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:46:21.271Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.729Z"
@@ -65,11 +73,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:46:21.271Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

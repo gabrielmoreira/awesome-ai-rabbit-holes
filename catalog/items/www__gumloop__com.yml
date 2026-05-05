@@ -1,6 +1,6 @@
 id: www__gumloop__com
 kind: website
-name: www.gumloop.com
+name: Gumloop
 canonical_url: https://www.gumloop.com
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It provides developers and enterprise teams a way to orchestrate multi-agent workflows, connect internal data, and deploy recurring AI tasks without writing custom orchestration code.
   mental_damage: Another 'no-code' layer promising to unleash engineering capacity, ensuring developers can now spend their afternoons debugging why the visual agent skipped the Slack trigger instead of writing the script themselves.
   tags:
-    - no-code
     - agent-orchestration
     - automation
     - enterprise
+    - no-code
     - workflow
   confidence: high
 curation:
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:51:09.916Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.732Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:51:09.916Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

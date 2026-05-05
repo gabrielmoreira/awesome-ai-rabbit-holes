@@ -1,6 +1,6 @@
 id: github__idsia__sacred
 kind: github-repo
-name: sacred
+name: Sacred
 canonical_url: https://github.com/idsia/sacred
 identity:
   github_repo: idsia/sacred
@@ -49,10 +49,10 @@ insights:
   why_it_matters: It standardizes the tedious overhead of experiment tracking—configs, CLI, logging, and seeding—so ML developers can focus on model code and reliably reproduce runs.
   mental_damage: Because nothing says modern ML engineering like wrapping a simple SVM script in an experiment framework just to prove your hyperparameters weren’t chosen by dice roll.
   tags:
-    - python
     - experiment-tracking
-    - reproducibility
     - ml-infrastructure
+    - python
+    - reproducibility
     - training
   confidence: high
 curation:
@@ -69,6 +69,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (4364) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:25:29.258Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.697Z"
@@ -79,11 +87,3 @@ processing:
     updated_at: "2026-05-05T21:02:40.978Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:25:29.258Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

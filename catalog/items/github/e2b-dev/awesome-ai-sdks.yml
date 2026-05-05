@@ -21,6 +21,21 @@ provenance:
         extracted_url: https://github.com/e2b-dev/awesome-sdks-for-ai-agents
         surrounding_text: For adding AI agents'-related SDKs, frameworks and tools, please visit [Awesome SDKs for AI Agents](https://github.com/e2b-dev/awesome-sdks-for-ai-agents). This list is only for AI assistants and agents.
         confidence: high
+    - id: discovery__github__e2b-dev__awesome-sdks-for-ai-agents__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Have anything to add?
+        anchor_text: Awesome SDKs for AI Agents
+        extracted_url: https://github.com/e2b-dev/awesome-sdks-for-ai-agents
+        surrounding_text: For adding AI agents'-related SDKs, frameworks and tools, please visit [Awesome SDKs for AI Agents](https://github.com/e2b-dev/awesome-sdks-for-ai-agents). This list is only for AI assistants and agents.
+        confidence: high
 metadata:
   github:
     stars: 1171
@@ -50,20 +65,22 @@ metadata:
       - sdk
       - tools
       - vercel
-    last_checked_at: "2026-05-05T21:01:58.627Z"
+    last_checked_at: "2026-05-05T21:01:58.840Z"
     readme:
-      fetched_at: "2026-05-05T21:01:58.627Z"
+      fetched_at: "2026-05-05T21:01:58.840Z"
       bytes: 5866
 insights:
   summary: A curated awesome list cataloging SDKs, frameworks, libraries, and tools for building, monitoring, debugging, and deploying autonomous AI agents.
   why_it_matters: It serves as a centralized map for developers navigating the fragmented ecosystem of agent-building infrastructure, from LangChain to monitoring tools like Helicone.
   mental_damage: Another 'awesome' list proving that keeping track of the tools to build the agents is becoming a more complex task than building the agents themselves.
   tags:
-    - awesome-list
+    - agents
     - ai-agents
-    - sdk
+    - awesome-list
     - directory
+    - frameworks
     - infrastructure
+    - sdk
   confidence: high
 curation:
   status: included
@@ -72,6 +89,9 @@ curation:
     - Repo description explicitly states it is 'A database of SDKs, frameworks, libraries, and tools' (an awesome list).
     - README confirms it is a 'list of AI agents SDKs' and invites improvements via pull request.
     - Created by e2b.dev, the list covers tools like LangChain, Vercel AI SDK, and AgentOps.
+    - Repo description explicitly calls it 'A database of SDKs, frameworks, libraries, and tools' (an awesome list).
+    - README exhibits the standard awesome-list format, listing tools like LangChain, Helicone, and Vercel AI SDK with descriptions and links.
+    - "Active maintenance signal: last pushed 2025-02-26, with 1171 stars indicating strong ecosystem traction."
 placement:
   primary_category: awesome-awesomes
   section: null
@@ -79,21 +99,21 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (1171) exceeded threshold (150)
 processing:
-  discover:
-    status: done
-    updated_at: "2026-05-05T19:41:00.685Z"
-    cause: null
-    next_retry_at: null
-  stars:
-    status: done
-    updated_at: "2026-05-05T21:01:58.627Z"
-    cause: null
-    next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:17:26.015Z"
+    updated_at: "2026-05-05T21:17:26.130Z"
     cause: null
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v2-baseline
     category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.441Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:58.840Z"
+    cause: null
+    next_retry_at: null

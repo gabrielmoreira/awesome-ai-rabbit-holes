@@ -1,6 +1,6 @@
 id: github__liveblocks__liveblocks
 kind: github-repo
-name: liveblocks
+name: Liveblocks
 canonical_url: https://github.com/liveblocks/liveblocks
 identity:
   github_repo: liveblocks/liveblocks
@@ -58,10 +58,10 @@ insights:
   why_it_matters: It gives developers a ready-made backend and React/Node/Python SDKs to add shared state, presence, and AI collaborators to apps without building custom WebSocket or CRDT infrastructure.
   mental_damage: Now your app can host an AI agent that edits shared state in real time, so users and language models can race to break your data model simultaneously.
   tags:
-    - realtime
+    - ai-agents
     - collaboration
     - multiplayer
-    - ai-agents
+    - realtime
     - sdk
   confidence: high
 curation:
@@ -78,6 +78,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (4579) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:34:19.695Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.704Z"
@@ -88,11 +96,3 @@ processing:
     updated_at: "2026-05-05T21:03:22.138Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:34:19.695Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

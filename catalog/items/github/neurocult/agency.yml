@@ -1,6 +1,6 @@
 id: github__neurocult__agency
 kind: github-repo
-name: agency
+name: Agency
 canonical_url: https://github.com/neurocult/agency
 identity:
   github_repo: neurocult/agency
@@ -61,11 +61,11 @@ insights:
   why_it_matters: It gives Go developers a lightweight, statically typed alternative to Python-heavy frameworks like LangChain for wiring up LLMs, RAG, and agentic workflows.
   mental_damage: Another day, another framework promising to tame the agent swarm, this time with Go interfaces instead of Pythonic abstractions.
   tags:
+    - agents
+    - generative-ai
     - go
     - llm-framework
-    - agents
     - sdk
-    - generative-ai
   confidence: high
 curation:
   status: included
@@ -81,6 +81,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (507) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:40:23.528Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.709Z"
@@ -91,11 +99,3 @@ processing:
     updated_at: "2026-05-05T21:03:53.450Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:40:23.528Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

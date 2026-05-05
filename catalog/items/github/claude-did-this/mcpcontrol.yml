@@ -1,6 +1,6 @@
 id: github__claude-did-this__mcpcontrol
 kind: github-repo
-name: nutjs-windows-control
+name: Windows Control
 canonical_url: https://github.com/claude-did-this/mcpcontrol
 identity:
   github_repo: claude-did-this/mcpcontrol
@@ -44,19 +44,25 @@ metadata:
       fetched_at: "2026-05-05T21:01:34.980Z"
       bytes: 10804
 insights:
-  summary: An MCP server that provides programmatic control over Windows OS operations including mouse, keyboard, window management, and screen capture for AI model integration.
-  why_it_matters: It allows developers to wire AI assistants like Claude directly into Windows desktop automation workflows, bridging the gap between model reasoning and local system control.
-  mental_damage: We have finally progressed from 'AI writes code' to 'AI clicks the button for you in a 1280x720 virtual machine', which is either the future of test automation or the cry for help we probably need to hear.
+  summary: An MCP server for Windows that enables AI models like Claude to programmatically control the desktop via mouse, keyboard, window management, and screen capture.
+  why_it_matters: It allows developers to delegate tedious UI testing and cross-application workflows to an AI that can actually see and interact with the Windows interface.
+  mental_damage: We have finally bridged the gap between 'vibe coding' and 'vibe clicking' by letting an LLM take over your mouse cursor in a 1280x720 virtual machine.
   tags:
-    - mcp
-    - windows
-    - os-automation
+    - automation
+    - claude
     - computer-control
+    - mcp
+    - os-automation
+    - os-control
+    - windows
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server implementation for Windows automation, fitting squarely into the MCP Servers and Tooling category.
+  reason: The project is explicitly an MCP server for Windows OS automation, fitting directly into the MCP Servers and Tooling category.
   evidence:
+    - "Repo description states: 'MCP server for Windows OS automation'"
+    - README identifies it as a 'Windows control server for the Model Context Protocol'
+    - Listed in 'awesome-mcp-servers' under 'Community Servers'
     - Repo description states 'MCP server for Windows OS automation'.
     - README confirms it is a 'Windows control server for the Model Context Protocol'.
     - Topics include 'mcp' and 'computer-control', aligning with the MCP category scope.
@@ -77,7 +83,7 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.682Z"
+    updated_at: "2026-05-05T20:48:55.440Z"
     cause: null
     next_retry_at: null
   stars:

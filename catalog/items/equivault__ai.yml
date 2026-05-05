@@ -1,6 +1,6 @@
 id: equivault__ai
 kind: website
-name: equivault.ai
+name: EquiVault
 canonical_url: https://equivault.ai
 identity: {}
 provenance:
@@ -39,11 +39,11 @@ insights:
   why_it_matters: It offers a REST API and MCP integration for developers building financial intelligence features, but the core product is a consumer-facing research tool rather than a developer workflow assistant.
   mental_damage: Yet another AI wrapper that turns dense regulatory filings into chat bubbles, ensuring developers can now hallucinate financial insights with the same effortless confidence they bring to code reviews.
   tags:
+    - api
     - finance
     - mcp
-    - api
-    - sec-filings
     - research
+    - sec-filings
   confidence: high
 curation:
   status: excluded
@@ -59,6 +59,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T20:49:09.122Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.727Z"
@@ -68,11 +76,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T20:49:09.122Z"
-    cause: null
-    next_retry_at: null
-    attempts: 2
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

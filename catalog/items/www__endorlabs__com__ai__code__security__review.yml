@@ -1,6 +1,6 @@
 id: www__endorlabs__com__ai__code__security__review
 kind: website
-name: ai-code-security-review
+name: Endor Labs
 canonical_url: https://www.endorlabs.com/ai-code-security-review
 identity: {}
 provenance:
@@ -38,11 +38,11 @@ insights:
   why_it_matters: It integrates directly into CI/CD pipelines to prioritize high-impact security findings and summarize complex code changes in natural language for faster reviews.
   mental_damage: We have successfully automated the security review process so you can now argue with three AI agents instead of one sleepy architect about why your authentication flow is broken.
   tags:
-    - security
-    - pull-request
     - ai-agents
     - appsec
     - endor-labs
+    - pull-request
+    - security
   confidence: high
 curation:
   status: included
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:50:40.101Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.732Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:50:40.101Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

@@ -1,13 +1,13 @@
 id: github__babelcloud__gbox
 kind: github-repo
-name: gru-sandbox
+name: Gru Sandbox
 canonical_url: https://github.com/babelcloud/gbox
 identity:
   github_repo: babelcloud/gbox
 provenance:
   discoveries:
     - id: discovery__github__babelcloud__gru-sandbox__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-05T20:48:55.437Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -39,20 +39,24 @@ metadata:
       - linux
       - mcp
       - sandbox
-    last_checked_at: "2026-05-05T21:01:16.406Z"
+    last_checked_at: "2026-05-05T21:01:16.729Z"
     readme:
-      fetched_at: "2026-05-05T21:01:16.406Z"
+      fetched_at: "2026-05-05T21:01:16.729Z"
       bytes: 6716
 insights:
   summary: A CLI and MCP server that provides AI agents with sandboxed environments to operate Android devices, Linux desktops, and browsers.
   why_it_matters: It allows coding agents like Claude Code and Cursor to move beyond text generation and directly interact with mobile and desktop UIs to develop, test, and automate tasks.
   mental_damage: Your agent can now argue that it couldn't fix the bug because the Android emulator was feeling a bit laggy today.
   tags:
+    - agent-infrastructure
+    - agent-sandbox
+    - android
+    - android-automation
+    - automation
+    - desktop-automation
+    - device-control
     - mcp
     - sandbox
-    - agent-infrastructure
-    - android
-    - automation
   confidence: high
 curation:
   status: included
@@ -61,6 +65,9 @@ curation:
     - Repo description explicitly states 'Cli and MCP for gbox' as the core identity.
     - README details exporting MCP config directly into Claude Code and Cursor via `gbox mcp export`.
     - Project provides environments (Android/Browser/Desktop) specifically for AI agents to operate via the MCP protocol.
+    - "Repo description explicitly states: 'Cli and MCP for gbox. Enable AI agents to operate Android/Browser/Desktop like human.'"
+    - "README shows MCP export commands for Claude Code and Cursor: 'gbox mcp export --merge-to claude-code'."
+    - Listed in awesome-mcp-servers under Community Servers, reinforcing its role as MCP infrastructure.
 placement:
   primary_category: mcp
   section: null
@@ -70,7 +77,7 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-05-05T21:10:05.962Z"
+    updated_at: "2026-05-05T21:10:07.922Z"
     cause: null
     next_retry_at: null
     attempts: 1
@@ -78,11 +85,11 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.680Z"
+    updated_at: "2026-05-05T20:48:55.440Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:16.406Z"
+    updated_at: "2026-05-05T21:01:16.729Z"
     cause: null
     next_retry_at: null

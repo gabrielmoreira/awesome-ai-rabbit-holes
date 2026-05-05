@@ -1,6 +1,6 @@
 id: github__andrewnguonly__chatabstractions
 kind: github-repo
-name: chatabstractions
+name: ChatAbstractions
 canonical_url: https://github.com/andrewnguonly/chatabstractions
 identity:
   github_repo: andrewnguonly/chatabstractions
@@ -42,10 +42,10 @@ insights:
   why_it_matters: Developers building with LangChain can更稳定地 run LLM chains by plugging in proven patterns for failover, load balancing, and chaos testing without rewriting their existing model interfaces.
   mental_damage: Because what every mature LLM-powered app clearly needs is a certified way to inject hallucinated poems on a cron schedule just to keep the team humble.
   tags:
-    - langchain
-    - resilience
     - chaos-engineering
+    - langchain
     - llm-routing
+    - resilience
     - sdk
   confidence: high
 curation:
@@ -62,6 +62,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:08:09.981Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.678Z"
@@ -72,11 +80,3 @@ processing:
     updated_at: "2026-05-05T21:01:03.269Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:08:09.981Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

@@ -1,6 +1,6 @@
 id: github__minedojo__voyager
 kind: github-repo
-name: voyager
+name: Voyager
 canonical_url: https://github.com/minedojo/voyager
 identity:
   github_repo: minedojo/voyager
@@ -46,11 +46,11 @@ insights:
   why_it_matters: It demonstrates a practical implementation of an automatic curriculum and growing skill library using code generation as an action space for lifelong learning agents.
   mental_damage: Finally, a framework that writes its own code to play a block game, proving that even our agents are now contributing to the 'unfinished side-project' ecosystem.
   tags:
+    - embodied-ai
+    - lifelong-learning
     - llm-agent
     - minecraft
-    - lifelong-learning
     - research
-    - embodied-ai
   confidence: high
 curation:
   status: excluded
@@ -66,6 +66,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (6874) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:38:05.454Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.707Z"
@@ -76,11 +84,3 @@ processing:
     updated_at: "2026-05-05T21:03:41.687Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:38:05.454Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

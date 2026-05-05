@@ -1,6 +1,6 @@
 id: github__dmayboroda__minima
 kind: github-repo
-name: minima
+name: Minima
 canonical_url: https://github.com/dmayboroda/minima
 identity:
   github_repo: dmayboroda/minima
@@ -69,11 +69,11 @@ insights:
   why_it_matters: It lets developers run private, local document-grounded AI workflows without sending internal data to external APIs, with pluggable LLM backends and MCP support for Claude Desktop.
   mental_damage: Now you can host your own vector-backed paranoia fortress and still obsess over whether the reranker is secretly telephoning home.
   tags:
-    - rag
-    - local-ai
-    - mcp
     - docker
     - langchain
+    - local-ai
+    - mcp
+    - rag
   confidence: high
 curation:
   status: included
@@ -89,6 +89,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (1046) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:16:37.350Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.665Z"
@@ -99,11 +107,3 @@ processing:
     updated_at: "2026-05-05T21:01:54.474Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:16:37.350Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

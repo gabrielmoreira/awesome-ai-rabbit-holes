@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__sergehuber__inoyu-mcp-unomi-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-05T20:48:55.437Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [sergehuber/inoyu-mcp-unomi-server](https://github.com/sergehuber/inoyu-mcp-unomi-server) 📇 ☁️ - An MCP server to access and updates profiles on an Apache Unomi CDP server."
         confidence: high
     - id: discovery__github__sergehuber__inoyu-mcp-unomi-server__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-05T20:48:55.437Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -36,6 +36,22 @@ provenance:
         anchor_text: sergehuber/inoyu-mcp-unomi-server
         extracted_url: https://github.com/sergehuber/inoyu-mcp-unomi-server
         surrounding_text: "-   **[sergehuber/inoyu-mcp-unomi-server](https://github.com/sergehuber/inoyu-mcp-unomi-server)** [![GitHub stars](https://img.shields.io/github/stars/sergehuber/inoyu-mcp-unomi-server?style=social)](https://github.com/sergehuber/inoyu-mcp-unomi-server): Accesses and updates user profiles on an Apache Unomi CDP server."
+        confidence: high
+    - id: discovery__github__inoyu-dev__inoyu-mcp-unomi-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T22:33:31.148Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 👤 <a name="customer-data-platforms"></a>Customer Data Platforms
+        anchor_text: sergehuber/inoyu-mcp-unomi-server
+        extracted_url: https://github.com/sergehuber/inoyu-mcp-unomi-server
+        surrounding_text: "- [sergehuber/inoyu-mcp-unomi-server](https://github.com/sergehuber/inoyu-mcp-unomi-server) 📇 ☁️ - An MCP server to access and updates profiles on an Apache Unomi CDP server."
         confidence: high
 metadata:
   github:
@@ -57,10 +73,10 @@ insights:
   why_it_matters: It lets developers connect conversational AI workflows to existing customer profiles and GDPR consent states without building a custom Unomi integration.
   mental_damage: We have successfully abstracted the abstraction, so your AI can now argue with your customer data platform about whether a user agreed to marketing emails.
   tags:
-    - mcp
     - cdp
-    - unomi
     - context
+    - mcp
+    - unomi
   confidence: high
 curation:
   status: included
@@ -86,7 +102,7 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.671Z"
+    updated_at: "2026-05-05T22:33:31.151Z"
     cause: null
     next_retry_at: null
   stars:

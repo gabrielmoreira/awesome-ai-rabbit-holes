@@ -1,13 +1,13 @@
 id: github__infuseai__primehub
 kind: github-repo
-name: primehub
+name: Primehub
 canonical_url: https://github.com/infuseai/primehub
 identity:
   github_repo: infuseai/primehub
 provenance:
   discoveries:
     - id: discovery__github__infuseai__primehub__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T20:48:55.437Z"
+      discovered_at: "2026-05-05T22:33:31.148Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -43,28 +43,20 @@ metadata:
       - machine-learning
       - primehub
       - primehub-ce
-    last_checked_at: "2026-05-05T21:02:43.984Z"
+    last_checked_at: "2026-05-05T23:07:54.560Z"
     readme:
-      fetched_at: "2026-05-05T21:02:43.984Z"
+      fetched_at: "2026-05-05T23:07:54.560Z"
       bytes: 4150
 insights:
-  summary: PrimeHub is an open-source MLOps platform built on Kubernetes that provides cluster computing, one-click Jupyter-based research environments, and managed datasets with team-centric access control.
-  why_it_matters: It gives data scientists and platform teams a self-service ML infrastructure layer on top of Kubernetes without having to glue together JupyterHub, permissions, and storage from scratch.
-  mental_damage: Yet another Kubernetes-native platform promising effortless ML infrastructure, because nothing says 'effortless' quite like debugging Helm charts and CRDs before you can even train a model.
-  tags:
-    - mlops
-    - kubernetes
-    - jupyterhub
-    - machine-learning
-    - data-science
-  confidence: high
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
 curation:
-  status: excluded
-  reason: PrimeHub is a general MLOps and data science platform rather than a developer-facing AI tool, coding agent, or app builder.
-  evidence:
-    - Repo description explicitly calls it an 'open-source MLOps platform' focused on ML infrastructure.
-    - README emphasizes Jupyter Notebook environments, dataset management, and Kubernetes cluster computing for data scientists.
-    - Listed in Awesome-LLMOps under 'Large Scale Deployment > ML Platforms', not in developer-tooling or coding-agent contexts.
+  status: pending
+  reason: null
+  evidence: []
 placement:
   primary_category: null
   section: null
@@ -72,21 +64,23 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (411) exceeded threshold (150)
 processing:
+  categorize:
+    status: deferred
+    updated_at: "2026-05-05T23:08:33.635Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-05-06T00:08:33.635Z"
+    attempts: 0
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.442Z"
+    updated_at: "2026-05-05T22:33:31.151Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:43.984Z"
+    updated_at: "2026-05-05T23:07:54.560Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:26:02.201Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

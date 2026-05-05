@@ -8,7 +8,7 @@ export const DEFAULT_SETTINGS: AppSettings = {
   promotion: { incubating_until_stars: 150 },
   github: { metadata_refresh_days: 7 },
   budgets: { discover_minutes: 10, stars_minutes: 10, categorize_minutes: 60 },
-  concurrency: { github: 4, site: 2, llm: 4 },
+  concurrency: { github: 4, site: 3, llm: 6 },
 };
 
 const MAX_CONCURRENCY = 8;

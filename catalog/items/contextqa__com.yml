@@ -1,6 +1,6 @@
 id: contextqa__com
 kind: website
-name: contextqa.com
+name: ContextQA
 canonical_url: https://contextqa.com
 identity: {}
 provenance:
@@ -38,11 +38,11 @@ insights:
   why_it_matters: It integrates directly with developer workflows via MCP in Cursor and Claude Code, allowing teams to generate and run test suites in plain English without leaving their IDE.
   mental_damage: We have finally automated the automation, meaning the only thing left for developers to do is argue with an AI about whether the AI testing the other AI is hallucinating.
   tags:
-    - testing
-    - qa
     - ai-agents
-    - mcp
     - enterprise
+    - mcp
+    - qa
+    - testing
   confidence: high
 curation:
   status: included
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:43:18.492Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.727Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:43:18.492Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

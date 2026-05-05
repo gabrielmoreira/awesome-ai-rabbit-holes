@@ -1,6 +1,6 @@
 id: github__emrgnt-cmplxty__automata
 kind: github-repo
-name: automata
+name: Automata
 canonical_url: https://github.com/emrgnt-cmplxty/automata
 identity:
   github_repo: emrgnt-cmplxty/automata
@@ -49,10 +49,10 @@ insights:
   why_it_matters: It offers a look into the early architecture of self-modifying code agents that attempted to manage codebases and dependencies with minimal human intervention.
   mental_damage: A self-programming agent that hasn't been touched in over a year is the perfect metaphor for the autonomous future where the AI also stops responding to your tickets.
   tags:
-    - autonomous-agents
-    - self-coding
     - agi
+    - autonomous-agents
     - experimental
+    - self-coding
   confidence: high
 curation:
   status: excluded
@@ -68,6 +68,14 @@ lifecycle:
   status: needs_review
   reason: Repository is archived
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:18:01.274Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.686Z"
@@ -78,11 +86,3 @@ processing:
     updated_at: "2026-05-05T21:02:02.044Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:18:01.274Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

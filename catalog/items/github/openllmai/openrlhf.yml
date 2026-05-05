@@ -1,13 +1,13 @@
 id: github__openllmai__openrlhf
 kind: github-repo
-name: openrlhf
+name: OpenRLHF
 canonical_url: https://github.com/openllmai/openrlhf
 identity:
   github_repo: openllmai/openrlhf
 provenance:
   discoveries:
     - id: discovery__github__openllmai__openrlhf__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T20:48:55.437Z"
+      discovered_at: "2026-05-05T22:33:31.148Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -40,50 +40,44 @@ metadata:
       - transformers
       - visual-language-models
       - vllm
-    last_checked_at: "2026-05-05T21:04:06.840Z"
+    last_checked_at: "2026-05-05T23:08:04.103Z"
     readme:
-      fetched_at: "2026-05-05T21:04:06.840Z"
+      fetched_at: "2026-05-05T23:08:04.103Z"
       bytes: 41802
 insights:
-  summary: OpenRLHF is a high-performance, Ray and vLLM-based framework for reinforcement learning from human feedback (RLHF) and agentic RL, supporting algorithms like PPO, REINFORCE++, and VLM training.
-  why_it_matters: It provides developers with a production-ready, distributed infrastructure to fine-tune and align LLMs and VLMs using custom reward functions and multi-turn agent interactions.
-  mental_damage: Yet another sophisticated framework promising to align your model's soul, provided you can first align your understanding of Ray, vLLM, and distributed systems without losing your own sanity.
-  tags:
-    - rlhf
-    - reinforcement-learning
-    - ray
-    - vllm
-    - fine-tuning
-  confidence: high
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
 curation:
-  status: included
-  reason: The project is a code-first SDK and distributed infrastructure framework for implementing RLHF and agent training, fitting the AI Frameworks category rather than a developer-facing coding assistant.
-  evidence:
-    - Repo description identifies it as a 'Scalable and High-performance Agentic RL Framework based on Ray'.
-    - README describes it as a framework combining 'Ray + vLLM distributed architecture' for building RL pipelines.
-    - Found in awesome-LLM-resources under a fine-tuning section, confirming its place in the ML infrastructure ecosystem.
+  status: pending
+  reason: null
+  evidence: []
 placement:
-  primary_category: ai-frameworks
+  primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
   reason: Stars (9446) exceeded threshold (150)
 processing:
+  categorize:
+    status: deferred
+    updated_at: "2026-05-05T23:08:33.635Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-05-06T00:08:33.635Z"
+    attempts: 0
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.443Z"
+    updated_at: "2026-05-05T22:33:31.151Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:06.840Z"
+    updated_at: "2026-05-05T23:08:04.103Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:42:50.554Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

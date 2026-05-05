@@ -1,6 +1,6 @@
 id: mistral__ai__news__codestral
 kind: website
-name: codestral
+name: Codestral
 canonical_url: https://mistral.ai/news/codestral
 identity: {}
 provenance:
@@ -39,9 +39,9 @@ insights:
   mental_damage: Another 'write code like a human' model launch, just in time to add a third option to the dropdown menu you've been ignoring while writing the prompt instead of the code.
   tags:
     - code-model
+    - ide-integration
     - llm
     - mistral
-    - ide-integration
     - open-weight
   confidence: high
 curation:
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:46:40.404Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.729Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:46:40.404Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__dicklesworthstone__llama_embeddings_fastapi_service__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-05T20:48:55.437Z"
+      discovered_at: "2026-05-05T22:33:31.148Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -39,30 +39,22 @@ metadata:
       - llama2
       - llamacpp
       - semantic-search
-    last_checked_at: "2026-05-05T21:01:53.064Z"
+    last_checked_at: "2026-05-05T23:07:48.421Z"
     readme:
-      fetched_at: "2026-05-05T21:01:53.064Z"
+      fetched_at: "2026-05-05T23:07:48.421Z"
       bytes: 42843
 insights:
-  summary: A FastAPI service that hosts local LLMs via llama_cpp to provide REST endpoints for text embeddings, semantic search over precomputed vectors, text completion, audio transcription, and document ingestion.
-  why_it_matters: It packages local LLM capabilities—including advanced similarity measures and document/OCR support—into a ready-to-integrate API service for developers building semantic search or RAG workflows.
-  mental_damage: Just when you thought you could escape the 'which pooling method best captures my soul' debate, here is a service offering six mathematical ways to flatten your tokens while you debug a RAM disk.
-  tags:
-    - fastapi
-    - local-llm
-    - embeddings
-    - semantic-search
-    - llama-cpp
-  confidence: high
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
 curation:
-  status: included
-  reason: This is a code-first service framework and SDK-style building block for hosting local LLM inference and embedding capabilities, fitting the AI Frameworks and SDKs category.
-  evidence:
-    - Repo description explicitly defines it as 'A FastAPI service for semantic text search using precomputed embeddings'
-    - README details a REST API surface with Swagger UI for embeddings, completions, and document ingestion using llama_cpp and FAISS
-    - Listed in awesome-langchain under Tools > Services, reinforcing its role as a developer-consumable service framework
+  status: pending
+  reason: null
+  evidence: []
 placement:
-  primary_category: ai-frameworks
+  primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
@@ -70,19 +62,21 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.441Z"
+    updated_at: "2026-05-05T22:33:31.150Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:53.064Z"
+    updated_at: "2026-05-05T23:07:48.421Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-05T21:16:19.590Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
+    status: deferred
+    updated_at: "2026-05-05T23:08:33.635Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-05-06T00:08:33.635Z"
+    attempts: 0
     prompt_version: catalog-categorize-v2-baseline
     category_rules_version: 1b6cc5462ecc

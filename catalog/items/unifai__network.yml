@@ -1,6 +1,6 @@
 id: unifai__network
 kind: website
-name: unifai.network
+name: UnifAI Network
 canonical_url: https://unifai.network
 identity: {}
 provenance:
@@ -38,11 +38,11 @@ insights:
   why_it_matters: It offers developers a framework and SDK to build autonomous financial agents that interact with over 100 DeFi protocols without writing custom integration code.
   mental_damage: Finally, the existential dread of being replaced by AI is softened by the comforting realization that the bot is just going to ape into Solana memecoins for you.
   tags:
-    - defi
     - agent-runtime
+    - ai-infrastructure
+    - defi
     - sdk
     - solana
-    - ai-infrastructure
   confidence: high
 curation:
   status: excluded
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:48:54.538Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.731Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:48:54.538Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

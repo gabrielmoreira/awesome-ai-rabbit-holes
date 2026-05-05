@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__maxritter__claude-codepro__awesome-list__engineering4ai__awesome-spec-driven-development
-      discovered_at: "2026-05-05T20:48:55.437Z"
+      discovered_at: "2026-05-05T22:33:31.148Z"
       source:
         type: awesome-list
         name: Engineering4AI/awesome-spec-driven-development
@@ -48,50 +48,44 @@ metadata:
       - claudecode
       - model-context-protocol
       - spec-driven-development
-    last_checked_at: "2026-05-05T21:03:32.672Z"
+    last_checked_at: "2026-05-05T23:08:00.875Z"
     readme:
-      fetched_at: "2026-05-05T21:03:32.672Z"
+      fetched_at: "2026-05-05T23:08:00.875Z"
       bytes: 53566
 insights:
-  summary: A CLI that layers spec-driven planning, enforced TDD, persistent memory, and quality gates on top of Claude Code to structure how features are planned, implemented, and verified.
-  why_it_matters: It gives developers a structured workflow—specs, tests, and quality hooks—on top of Claude Code instead of relying on ad-hoc prompts and hoping for the best.
-  mental_damage: Because nothing says 'trust the autonomous agent' like wrapping it in an elaborate bureaucracy of specs, gates, and reassuring slash commands.
-  tags:
-    - claude-code
-    - spec-driven
-    - tdd
-    - cli
-    - quality-gates
-  confidence: high
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
 curation:
-  status: included
-  reason: The primary product is a CLI that runs as a structured coding agent on top of Claude Code, planning, writing, testing, and reviewing code directly in a repo workflow.
-  evidence:
-    - "Repo description: 'How real engineers run Claude Code: spec-driven planning, enforced TDD, persistent memory, and quality enforcement on all levels.'"
-    - "README: '/spec plans, implements, and verifies features end-to-end with TDD; /fix bugfix workflow with TDD; quality hooks enforce linting, formatting, type checking, and tests.'"
-    - "Source list: included in awesome-spec-driven-development under 'Development Frameworks' for spec-driven development tooling."
+  status: pending
+  reason: null
+  evidence: []
 placement:
-  primary_category: coding-agents
-  section: Terminal & CLI Agents
+  primary_category: null
+  section: null
 lifecycle:
   status: promotion_candidate
   reason: Stars (1678) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.442Z"
+    updated_at: "2026-05-05T22:33:31.151Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:32.672Z"
+    updated_at: "2026-05-05T23:08:00.875Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-05T21:36:21.129Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
+    status: deferred
+    updated_at: "2026-05-05T23:08:33.635Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-05-06T00:08:33.635Z"
+    attempts: 0
     prompt_version: catalog-categorize-v2-baseline
     category_rules_version: 1b6cc5462ecc

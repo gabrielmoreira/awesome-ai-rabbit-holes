@@ -1,6 +1,6 @@
 id: github__dimitrigeelen__agentic-engineering-framework
 kind: github-repo
-name: agentic-engineering-framework
+name: Agentic Engineering Framework
 canonical_url: https://github.com/dimitrigeelen/agentic-engineering-framework
 identity:
   github_repo: dimitrigeelen/agentic-engineering-framework
@@ -62,10 +62,10 @@ insights:
   why_it_matters: It replaces prompt-based 'please be careful' instructions with structural enforcement to prevent agents from making untraced edits, destructive git commands, or context-exhausting runs.
   mental_damage: We have finally built the bureaucratic approval layer for our AI agents, proving that no matter how advanced the intelligence, it still eventually reports to a middle manager named fw.
   tags:
-    - governance
-    - cli
     - agent-infrastructure
     - audit-trail
+    - cli
+    - governance
   confidence: high
 curation:
   status: included
@@ -81,6 +81,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:16:26.919Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.685Z"
@@ -91,11 +99,3 @@ processing:
     updated_at: "2026-05-05T21:01:53.679Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:16:26.919Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

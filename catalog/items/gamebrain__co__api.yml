@@ -1,6 +1,6 @@
 id: gamebrain__co__api
 kind: website
-name: api
+name: GameBrain API
 canonical_url: https://gamebrain.co/api
 identity: {}
 provenance:
@@ -40,9 +40,9 @@ insights:
   mental_damage: "We have successfully abstracted the recommendation engine so far that an AI can now argue with you about whether *Kingdom Come: Deliverance II* is actually an RPG, saving you the trouble of forming your own opinions."
   tags:
     - api
-    - mcp
-    - gaming
     - database
+    - gaming
+    - mcp
   confidence: medium
 curation:
   status: included
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:44:39.045Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.727Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:44:39.045Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

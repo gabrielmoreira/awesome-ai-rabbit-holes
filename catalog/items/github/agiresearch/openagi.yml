@@ -1,6 +1,6 @@
 id: github__agiresearch__openagi
 kind: github-repo
-name: openagi
+name: OpenAGI
 canonical_url: https://github.com/agiresearch/openagi
 identity:
   github_repo: agiresearch/openagi
@@ -42,9 +42,9 @@ insights:
   mental_damage: Just when you thought your stack was stable, here is another SDK telling you that the correct way to build agents involves migrating to a new package called Cerebrum while the old one is still online.
   tags:
     - agents
-    - sdk
-    - framework
     - aios
+    - framework
+    - sdk
   confidence: high
 curation:
   status: included
@@ -60,6 +60,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (2264) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:06:33.471Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.677Z"
@@ -70,11 +78,3 @@ processing:
     updated_at: "2026-05-05T21:00:53.726Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:06:33.471Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

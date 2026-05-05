@@ -22,6 +22,21 @@ provenance:
         extracted_url: https://github.com/epsilla-cloud/vectordb
         surrounding_text: "| [Epsilla](https://github.com/epsilla-cloud/vectordb)      | A 10x faster, cheaper, and better vector database                                                                                                                                                                                                                                             | ![GitHub Badge](https://img.shields.io/github/stars/epsilla-cloud/vectordb.svg?style=flat-square)         |"
         confidence: high
+    - id: discovery__www__epsilla__com__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T22:47:06.910Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - LLMOps
+        anchor_text: Epsilla
+        extracted_url: https://epsilla.com
+        surrounding_text: "| [Epsilla](https://epsilla.com)                                     | An all-in-one platform to create vertical AI agents powered by your private data and knowledge.                                                                                                                                                                                                      |               |"
+        confidence: high
 metadata:
   github:
     stars: 873
@@ -59,11 +74,15 @@ insights:
   why_it_matters: It provides developers with a familiar database interface for vector data, claiming 10x faster search than HNSW to build RAG pipelines and AI memory layers.
   mental_damage: Yet another vector database enters the fray, ensuring you can spend the next sprint benchmarking cosine similarity distances while wondering if your stack actually needed this complexity.
   tags:
+    - agents
+    - embeddings
+    - enterprise
+    - infrastructure
+    - llmops
+    - no-code
+    - rag
     - vector-database
     - vector-search
-    - rag
-    - embeddings
-    - infrastructure
   confidence: high
 curation:
   status: included
@@ -79,16 +98,6 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (873) exceeded threshold (150)
 processing:
-  discover:
-    status: done
-    updated_at: "2026-05-05T19:41:00.686Z"
-    cause: null
-    next_retry_at: null
-  stars:
-    status: done
-    updated_at: "2026-05-05T21:02:03.398Z"
-    cause: null
-    next_retry_at: null
   categorize:
     status: done
     updated_at: "2026-05-05T21:18:13.082Z"
@@ -97,3 +106,13 @@ processing:
     attempts: 1
     prompt_version: catalog-categorize-v2-baseline
     category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T22:47:06.911Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:03.398Z"
+    cause: null
+    next_retry_at: null

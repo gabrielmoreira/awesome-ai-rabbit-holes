@@ -1,6 +1,6 @@
 id: www__hyperwriteai__com
 kind: website
-name: www.hyperwriteai.com
+name: Otherside's AI Assistant - Hyperwrite
 canonical_url: https://www.hyperwriteai.com
 identity: {}
 provenance:
@@ -53,10 +53,10 @@ insights:
   why_it_matters: It offers a suite of prompt-driven writing tools and a Chrome extension that can automate repetitive text generation and email responses directly within the browser.
   mental_damage: Another sophisticated AI secretary arrives to ensure you never have to actually write an email again, provided you enjoy debugging its tone more than writing the original draft.
   tags:
-    - writing-assistant
     - chrome-extension
     - content-generation
     - productivity
+    - writing-assistant
   confidence: high
 curation:
   status: excluded
@@ -71,6 +71,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:51:25.227Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.675Z"
@@ -80,11 +88,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:51:25.227Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

@@ -1,6 +1,6 @@
 id: www__kaggle__com__models__google__gemma
 kind: website
-name: gemma
+name: Gemma
 canonical_url: https://www.kaggle.com/models/google/gemma
 identity: {}
 provenance:
@@ -39,10 +39,10 @@ insights:
   why_it_matters: Developers can run and fine-tune these models locally or in their own infrastructure to build AI-powered applications without relying on hosted APIs.
   mental_damage: Now you have to decide not just which model to use, but whether you are mentally prepared to quantize, fine-tune, and babysit a 'lightweight' 7B parameter roommate on your own hardware.
   tags:
-    - local-ai
-    - llm
-    - open-model
     - google
+    - llm
+    - local-ai
+    - open-model
   confidence: high
 curation:
   status: excluded
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:51:36.231Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.732Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:51:36.231Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

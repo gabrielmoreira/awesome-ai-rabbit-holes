@@ -1,6 +1,6 @@
 id: docs__tabnine__com__main__getting__started__tabnine__cli
 kind: website
-name: tabnine-cli
+name: Tabnine CLI
 canonical_url: https://docs.tabnine.com/main/getting-started/tabnine-cli
 identity: {}
 provenance:
@@ -40,8 +40,8 @@ insights:
   mental_damage: Another day, another interface claiming to save you from your own code, provided your admin has graciously enabled the right agents in the console.
   tags:
     - cli
-    - coding-assistant
     - code-review
+    - coding-assistant
     - terminal
   confidence: high
 curation:
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:44:10.647Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.727Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:44:10.647Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

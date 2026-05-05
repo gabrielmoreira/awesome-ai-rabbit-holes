@@ -1,6 +1,6 @@
 id: supabase__com__ai
 kind: website
-name: ai
+name: Supabase AI
 canonical_url: https://supabase.com/ai
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It centralizes database and API tooling for developers building AI features on top of Supabase.
   mental_damage: Yet another aggregator page convincing you that gluing a vector store to your auth layer is all it takes to call yourself an AI startup.
   tags:
-    - database
-    - api
-    - supabase
     - ai-tooling
+    - api
+    - database
+    - supabase
   confidence: high
 curation:
   status: excluded
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:48:26.343Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.730Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:48:26.343Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

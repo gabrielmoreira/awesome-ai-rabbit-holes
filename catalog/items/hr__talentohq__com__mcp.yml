@@ -1,6 +1,6 @@
 id: hr__talentohq__com__mcp
 kind: website
-name: mcp
+name: TalentoHQ
 canonical_url: https://hr.talentohq.com/mcp
 identity: {}
 provenance:
@@ -38,8 +38,8 @@ insights:
   why_it_matters: It serves as a navigational aid for developers looking to extend AI assistants with new tools via the MCP standard.
   mental_damage: Another registry for the registries, because apparently the hardest part of the AI workflow is remembering where we filed the tools that file the tools.
   tags:
-    - mcp
     - directory
+    - mcp
     - registry
   confidence: medium
 curation:
@@ -56,6 +56,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:45:18.715Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.728Z"
@@ -65,11 +73,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:45:18.715Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

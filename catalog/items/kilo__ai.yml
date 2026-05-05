@@ -1,6 +1,6 @@
 id: kilo__ai
 kind: website
-name: kilo.ai
+name: Kilo Code
 canonical_url: https://kilo.ai
 identity: {}
 provenance:
@@ -38,11 +38,11 @@ insights:
   why_it_matters: It offers developers a transparent, model-agnostic alternative to closed-loop coding assistants, letting teams bring their own keys and inspect every prompt directly inside their existing IDEs.
   mental_damage: Now you can agonize over choosing one of five hundred models every time you toggle between 'Architect' and 'Debug' mode, ensuring your workflow paralysis is as locally hosted as your code.
   tags:
+    - cli
     - coding-agent
     - ide-extension
-    - open-source
     - local-first
-    - cli
+    - open-source
   confidence: high
 curation:
   status: included
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:45:50.016Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.728Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:45:50.016Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

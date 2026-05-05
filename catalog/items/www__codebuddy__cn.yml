@@ -1,6 +1,6 @@
 id: www__codebuddy__cn
 kind: website
-name: www.codebuddy.cn
+name: CodeBuddy
 canonical_url: https://www.codebuddy.cn
 identity: {}
 provenance:
@@ -39,9 +39,9 @@ insights:
   mental_damage: Another proprietary 'intelligent companion' enters the arena, ensuring developers can now debate context windows in Mandarin while wondering if their cloud bill scales with every autocomplete token.
   tags:
     - ai-coding
-    - tencent
     - code-completion
     - ide-assistant
+    - tencent
   confidence: medium
 curation:
   status: included
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:50:17.827Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.732Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:50:17.827Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

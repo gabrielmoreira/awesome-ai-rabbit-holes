@@ -1,6 +1,6 @@
 id: github__inercia__mcpshell
 kind: github-repo
-name: mcp-cli-adapter
+name: MCP-CLI Adapter
 canonical_url: https://github.com/inercia/mcpshell
 identity:
   github_repo: inercia/mcpshell
@@ -32,25 +32,28 @@ metadata:
     description: Use shell scripts as MCP tools
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-05T21:02:43.154Z"
+    last_checked_at: "2026-05-05T21:02:43.158Z"
     readme:
-      fetched_at: "2026-05-05T21:02:43.154Z"
+      fetched_at: "2026-05-05T21:02:43.158Z"
       bytes: 5820
 insights:
-  summary: A tool that wraps shell scripts as MCP-compatible tools so LLMs can safely execute command-line operations through the Model Context Protocol.
-  why_it_matters: It lets developers quickly expose existing CLI utilities as structured, constrained tools for AI agents in editors like Cursor and VS Code without writing new code.
-  mental_damage: We’ve successfully abstracted shell commands into YAML so your AI can safely run `du` while we all pretend this isn’t just a very polite wrapper around `os.system`.
+  summary: A tool that wraps shell scripts as MCP-compatible servers so LLMs can safely execute command-line tools with parameter validation and optional sandboxing.
+  why_it_matters: It lets developers quickly expose existing CLI tooling to MCP clients like Cursor or VS Code without writing custom server code.
+  mental_damage: We have finally reached the point where we wrap a shell in a protocol wrapper so an LLM can run du for us, and somehow this is progress.
   tags:
-    - mcp
-    - shell
     - cli
-    - tooling
+    - mcp
     - security
+    - shell
+    - tooling
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server toolkit that bridges shell scripts into the Model Context Protocol for LLM clients, fitting cleanly into MCP infrastructure.
+  reason: "The project is MCP infrastructure itself: an MCP server generator that turns shell scripts into MCP tools, directly matching the MCP Servers and Tooling category."
   evidence:
+    - Repo description states 'Use shell scripts as MCP tools'
+    - README describes it as a tool to let LLMs execute CLI tools through the Model Context Protocol with YAML-defined tool configs
+    - Listed in awesome-mcp-servers under Community Servers
     - "Repo description states: 'Use shell scripts as MCP tools'"
     - README pitches it as a tool to 'safely execute command-line tools through the Model Context Protocol (MCP)'
     - Integrates with MCP clients like Cursor and VSCode via standard MCP server configuration
@@ -71,11 +74,11 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.698Z"
+    updated_at: "2026-05-05T20:48:55.441Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:43.154Z"
+    updated_at: "2026-05-05T21:02:43.158Z"
     cause: null
     next_retry_at: null

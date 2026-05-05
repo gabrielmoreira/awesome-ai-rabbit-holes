@@ -1,6 +1,6 @@
 id: github__aimhubio__aim
 kind: github-repo
-name: aim
+name: Aim
 canonical_url: https://github.com/aimhubio/aim
 identity:
   github_repo: aimhubio/aim
@@ -59,10 +59,10 @@ insights:
   mental_damage: Because nothing says 'I have my model architecture under control' like spending three hours configuring a dashboard to visualize why your loss curve is still flat.
   tags:
     - experiment-tracking
-    - mlops
-    - python
     - metadata
+    - mlops
     - open-source
+    - python
   confidence: high
 curation:
   status: included
@@ -78,6 +78,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (6109) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:06:58.395Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.677Z"
@@ -88,11 +96,3 @@ processing:
     updated_at: "2026-05-05T21:00:55.946Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:06:58.395Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

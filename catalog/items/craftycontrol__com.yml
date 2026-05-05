@@ -1,6 +1,6 @@
 id: craftycontrol__com
 kind: website
-name: craftycontrol.com
+name: Crafty Controller 4
 canonical_url: https://craftycontrol.com
 identity: {}
 provenance:
@@ -39,10 +39,10 @@ insights:
   why_it_matters: It provides developers and server admins with a browser-based interface to manage game server lifecycles, configurations, and backups without manual CLI intervention.
   mental_damage: You now have the infrastructure to debate whether your Minecraft server wrapper qualifies as an AI agent because it appeared in an MCP directory.
   tags:
-    - minecraft
-    - server-management
-    - self-hosted
     - gaming
+    - minecraft
+    - self-hosted
+    - server-management
   confidence: high
 curation:
   status: excluded
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:43:20.284Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.727Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:43:20.284Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

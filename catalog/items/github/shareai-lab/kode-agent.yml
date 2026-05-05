@@ -22,6 +22,22 @@ provenance:
         extracted_url: https://github.com/shareai-lab/kode-cli
         surrounding_text: "- **[Kode CLI](https://github.com/shareAI-lab/Kode-cli)** `⭐ 5k` — ShareAI's open-source CLI agent for terminal-native coding with multi-provider support."
         confidence: high
+    - id: discovery__github__shareai-lab__kode-cli__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Terminal-native coding agents
+          - Open Source
+        anchor_text: Kode CLI
+        extracted_url: https://github.com/shareai-lab/kode-cli
+        surrounding_text: "- **[Kode CLI](https://github.com/shareAI-lab/Kode-cli)** `⭐ 5k` — ShareAI's open-source CLI agent for terminal-native coding with multi-provider support."
+        confidence: high
 metadata:
   github:
     stars: null
@@ -52,19 +68,19 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: skipped
+    updated_at: "2026-05-05T23:08:18.952Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.717Z"
+    updated_at: "2026-05-05T20:48:55.443Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T21:04:23.169Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null

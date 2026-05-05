@@ -1,6 +1,6 @@
 id: www__getinboxzero__com
 kind: website
-name: www.getinboxzero.com
+name: Inbox Zero
 canonical_url: https://www.getinboxzero.com
 identity: {}
 provenance:
@@ -38,9 +38,9 @@ insights:
   why_it_matters: It offers developers an open-source, self-hostable option to automate email triage and drafting rather than relying on closed-loop proprietary assistants.
   mental_damage: We have successfully automated the inbox so we can spend the saved hour debugging why the AI drafted a passive-aggressive reply to our biggest client.
   tags:
+    - ai-assistant
     - email-automation
     - open-source
-    - ai-assistant
     - productivity
   confidence: high
 curation:
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:50:57.450Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.732Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:50:57.450Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

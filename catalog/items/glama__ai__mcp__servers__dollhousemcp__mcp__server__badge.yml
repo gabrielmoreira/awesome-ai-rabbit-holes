@@ -1,6 +1,6 @@
 id: glama__ai__mcp__servers__dollhousemcp__mcp__server__badge
 kind: website
-name: badge
+name: "![DollhouseMCP MCP server"
 canonical_url: https://glama.ai/mcp/servers/DollhouseMCP/mcp-server/badge
 identity: {}
 provenance:
@@ -40,8 +40,8 @@ insights:
   mental_damage: Just when you thought 'MCP' stood for something simple, you now have to navigate a nesting doll of MCP servers provided by a protocol named MCP.
   tags:
     - mcp
-    - server
     - protocol
+    - server
     - tooling
   confidence: low
 curation:
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:45:03.699Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.728Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:45:03.699Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

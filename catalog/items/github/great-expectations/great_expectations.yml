@@ -1,6 +1,6 @@
 id: github__great-expectations__great_expectations
 kind: github-repo
-name: great_expectations
+name: Great Expectations
 canonical_url: https://github.com/great-expectations/great_expectations
 identity:
   github_repo: great-expectations/great_expectations
@@ -63,10 +63,10 @@ insights:
   mental_damage: Because nothing says modern developer experience like writing unit tests for your data while your AI agents are busy hallucinating the business logic those tests were supposed to protect.
   tags:
     - data-quality
-    - testing
     - mlops
-    - python
     - pipelines
+    - python
+    - testing
   confidence: high
 curation:
   status: excluded
@@ -82,6 +82,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (11458) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:22:49.372Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.690Z"
@@ -92,11 +100,3 @@ processing:
     updated_at: "2026-05-05T21:02:27.205Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:22:49.372Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

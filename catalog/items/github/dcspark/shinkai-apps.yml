@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__dcspark__shinkai-apps__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T20:48:55.437Z"
+      discovered_at: "2026-05-05T22:33:31.148Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -38,30 +38,22 @@ metadata:
       - local-ai
       - local-ai-agents
       - mcp-agents
-    last_checked_at: "2026-05-05T21:01:49.386Z"
+    last_checked_at: "2026-05-05T23:07:47.663Z"
     readme:
-      fetched_at: "2026-05-05T21:01:49.386Z"
+      fetched_at: "2026-05-05T23:07:47.663Z"
       bytes: 11423
 insights:
-  summary: Shinkai is a desktop application that provides a no-code visual interface for creating and orchestrating local or remote AI agents with built-in support for MCP and crypto payments.
-  why_it_matters: It allows developers to spin up local, privacy-focused multi-agent workflows that integrate with existing tooling like Claude and Cursor without writing orchestration boilerplate.
-  mental_damage: Because what your development environment was truly missing was a drag-and-drop UI to orchestrate crypto-native autonomous agents that can execute trades while you debug CSS.
-  tags:
-    - local-ai
-    - agents
-    - mcp
-    - no-code
-    - crypto
-  confidence: high
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
 curation:
-  status: included
-  reason: The project is a user-facing desktop platform (control plane) specifically designed for orchestrating multiple AI agents, handling workflows, and integrating with MCP, fitting the agent-orchestration category definition.
-  evidence:
-    - Repo description states it is a 'two click install App' to 'create Local AI agents' with a 'simple UI'.
-    - README highlights 'Multi-Agent Orchestration' and a 'No-Code Agent Builder' with a 'visual interface'.
-    - Source list context shows it is listed under 'Clients' in awesome-mcp-servers, confirming its role as an operational tool rather than just a library.
+  status: pending
+  reason: null
+  evidence: []
 placement:
-  primary_category: agent-orchestration
+  primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
@@ -69,19 +61,21 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.441Z"
+    updated_at: "2026-05-05T22:33:31.150Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:49.387Z"
+    updated_at: "2026-05-05T23:07:47.663Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-05T21:15:44.631Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
+    status: deferred
+    updated_at: "2026-05-05T23:08:33.635Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-05-06T00:08:33.635Z"
+    attempts: 0
     prompt_version: catalog-categorize-v2-baseline
     category_rules_version: 1b6cc5462ecc

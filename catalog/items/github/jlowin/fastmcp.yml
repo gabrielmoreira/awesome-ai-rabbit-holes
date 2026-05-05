@@ -1,13 +1,13 @@
 id: github__jlowin__fastmcp
 kind: github-repo
-name: fastmcp
+name: FastMCP
 canonical_url: https://github.com/jlowin/fastmcp
 identity:
   github_repo: jlowin/fastmcp
 provenance:
   discoveries:
     - id: discovery__github__jlowin__fastmcp__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T20:48:55.437Z"
+      discovered_at: "2026-05-05T22:33:31.148Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -23,7 +23,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 25009
+    stars: 25010
     forks: 1989
     license: Apache-2.0
     archived: false
@@ -41,49 +41,44 @@ metadata:
       - mcp-tools
       - model-context-protocol
       - python
-    last_checked_at: "2026-05-05T21:02:57.072Z"
+    last_checked_at: "2026-05-05T23:07:56.778Z"
     readme:
-      fetched_at: "2026-05-05T21:02:57.072Z"
+      fetched_at: "2026-05-05T23:07:56.778Z"
       bytes: 6658
 insights:
-  summary: A Python framework for building Model Context Protocol (MCP) servers and clients with automatic schema generation and protocol management.
-  why_it_matters: It standardizes how developers expose tools and data to LLMs, handling transport, validation, and lifecycle so you can focus on Python function logic.
-  mental_damage: The standard framework for building MCP servers that powers 70% of them, proving once again that the fastest way to standardize a protocol is to let the Python community build a wrapper everyone actually enjoys using.
-  tags:
-    - mcp
-    - python
-    - framework
-    - llm-tools
-  confidence: high
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
 curation:
-  status: included
-  reason: FastMCP is a core MCP infrastructure tool (server/client framework) explicitly designed for building Model Context Protocol integrations, fitting the mcp category perfectly.
-  evidence:
-    - "Repo description: 'The fast, Pythonic way to build MCP servers and clients.'"
-    - README states it is 'the standard framework for working with MCP' and powers 70% of MCP servers.
-    - Topics include mcp, mcp-servers, mcp-clients, and mcp-tools.
+  status: pending
+  reason: null
+  evidence: []
 placement:
-  primary_category: mcp
+  primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
-  reason: Stars (25009) exceeded threshold (150)
+  reason: Stars (25010) exceeded threshold (150)
 processing:
+  categorize:
+    status: deferred
+    updated_at: "2026-05-05T23:08:33.635Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-05-06T00:08:33.635Z"
+    attempts: 0
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.442Z"
+    updated_at: "2026-05-05T22:33:31.151Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:57.072Z"
+    updated_at: "2026-05-05T23:07:56.778Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:28:42.472Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

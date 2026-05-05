@@ -1,6 +1,6 @@
 id: github__pacwoodson__ai-mask
 kind: github-repo
-name: ai-mask
+name: AI-Mask
 canonical_url: https://github.com/pacwoodson/ai-mask
 identity:
   github_repo: pacwoodson/ai-mask
@@ -38,26 +38,31 @@ metadata:
       - machine-learning
       - wasm
       - webgpu
-    last_checked_at: "2026-05-05T21:04:10.681Z"
+    last_checked_at: "2026-05-05T21:04:10.976Z"
     readme:
-      fetched_at: "2026-05-05T21:04:10.681Z"
+      fetched_at: "2026-05-05T21:04:10.976Z"
       bytes: 5788
 insights:
-  summary: A Chrome extension that serves as a local AI inference provider for web apps, caching models once via WebGPU/WASM to enable free, private on-device execution.
-  why_it_matters: It lets developers build web apps that run LLMs entirely client-side without forcing users to download massive models per domain or share API keys with third-party backends.
-  mental_damage: We have successfully rebuilt the browser extension wallet pattern for AI, because apparently the only way to get privacy is to install a plugin that promises to be the single, trusted gateway to your GPU.
+  summary: A Chrome extension that runs local AI models via WebGPU and WASM and exposes them to web apps through a unified SDK, acting as a local inference provider for the browser.
+  why_it_matters: It lets developers build web apps that run inference entirely on the user's device, eliminating API keys, backend proxies, and redundant model downloads across domains.
+  mental_damage: We have successfully rebuilt the crypto-wallet pattern for AI, so now your browser extension can guard your LLM access with the same comforting friction.
   tags:
     - chrome-extension
+    - inference
+    - local-ai
     - local-inference
-    - webgpu
-    - wasm
+    - on-device
     - privacy
+    - wasm
+    - webgpu
   confidence: medium
 curation:
   status: included
-  reason: It is a developer-facing local AI tooling project that provides a runtime and SDK for on-device model execution in the browser via a Chrome extension.
+  reason: The project is a local inference tool that serves on-device AI models to web applications via a browser extension and SDK, fitting cleanly into Local AI.
   evidence:
     - "Repo description states: 'Serve local ML inference engines to web apps'"
+    - "README: 'AI-Mask is a chrome web extension that serves as a local provider to AI models execution. It runs model on-device for web apps.'"
+    - Seen in awesome-local-ai under Inference UI, aligning with local execution focus.
     - README positions it as a local inference provider using WebGPU/WASM with an npm SDK package
     - Active as of 2024-04-09 and not archived, despite being early-stage
 placement:
@@ -77,11 +82,11 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.712Z"
+    updated_at: "2026-05-05T20:48:55.443Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:10.681Z"
+    updated_at: "2026-05-05T21:04:10.976Z"
     cause: null
     next_retry_at: null

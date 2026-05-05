@@ -1,6 +1,6 @@
 id: github__the-open-agent__openagent
 kind: github-repo
-name: casibase
+name: Casibase
 canonical_url: https://github.com/the-open-agent/openagent
 identity:
   github_repo: the-open-agent/openagent
@@ -23,47 +23,79 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 4538
+    forks: 537
+    license: Apache-2.0
+    archived: false
+    created_at: "2020-05-29T02:45:58Z"
+    pushed_at: "2026-05-05T17:06:08Z"
+    description: "⚡️next-generation personal AI assistant powered by LLM, RAG and agent loops, supporting computer-use, browser-use and coding agent, demo: https://demo.openagentai.org"
+    homepage: https://www.openagentai.org/
+    topics:
+      - a2a
+      - agent
+      - agentic
+      - agentic-ai
+      - agi
+      - chatbot
+      - chatgpt
+      - gpt
+      - harness
+      - knowledge-base
+      - langchain
+      - llama
+      - llm
+      - mcp
+      - model-context-protocol
+      - multi-agent
+      - openagent
+      - openai
+      - openclaw
+      - rag
+    last_checked_at: "2026-05-05T21:01:30.832Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:30.832Z"
+      bytes: 7718
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: OpenAgent is a self-hostable, open-source personal AI assistant platform that integrates LLMs, RAG knowledge bases, and autonomous agent loops to perform tasks like web browsing, code execution, and computer use via MCP-compatible tools.
+  why_it_matters: It provides developers with a self-contained, deployable control plane to orchestrate multi-agent workflows, connect custom model providers, and manage agent tooling outside of closed SaaS ecosystems.
+  mental_damage: "Just what the modern developer needs: another self-hosted 'next-generation' platform to maintain so their agents can autonomously manage the complexity of the tools meant to reduce their complexity."
+  tags:
+    - agents
+    - go
+    - mcp
+    - rag
+    - self-hosted
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The project is primarily a user-facing platform and control plane for running and managing autonomous agents, RAG, and tool integrations, rather than a repo-editing coding assistant.
+  evidence:
+    - Repo description identifies it as a 'personal AI assistant... supporting computer-use, browser-use and coding agent' with an admin dashboard.
+    - README describes a 'self-hostable platform' with usage analytics, activity monitoring, and tool management rather than an IDE plugin.
+    - It is listed in awesome-langchain under 'Other LLM Frameworks', indicating its role as a foundational platform rather than a specific coding extension.
 placement:
-  primary_category: null
+  primary_category: agent-orchestration
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (4538) exceeded threshold (150)
 processing:
   categorize:
-    status: skipped
-    updated_at: "2026-05-05T21:04:23.170Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-05-05T21:12:32.752Z"
+    cause: null
     next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.682Z"
+    updated_at: "2026-05-05T20:48:55.440Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-05T21:01:30.832Z"
     cause: null
+    next_retry_at: null

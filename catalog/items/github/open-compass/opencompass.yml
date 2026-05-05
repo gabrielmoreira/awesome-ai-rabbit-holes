@@ -1,6 +1,6 @@
 id: github__open-compass__opencompass
 kind: github-repo
-name: opencompass
+name: opencompass (`🔥`)
 canonical_url: https://github.com/open-compass/opencompass
 identity:
   github_repo: open-compass/opencompass
@@ -49,9 +49,9 @@ insights:
   why_it_matters: It provides developers and researchers with the infrastructure to objectively measure and compare model performance across standardized tasks.
   mental_damage: Just when you thought the model was smart enough to ship, you now have an entire platform dedicated to proving exactly how mediocre it remains on obscure reasoning benchmarks.
   tags:
-    - llm
     - benchmark
     - evaluation
+    - llm
     - testing
   confidence: high
 curation:
@@ -68,6 +68,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (6962) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:42:14.257Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.711Z"
@@ -78,11 +86,3 @@ processing:
     updated_at: "2026-05-05T21:04:02.540Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:42:14.257Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

@@ -1,6 +1,6 @@
 id: docs__aws__amazon__com__amazonq__latest__qdeveloper__ug__command__line__html
 kind: website
-name: command-line.html
+name: Amazon Q Developer CLI
 canonical_url: https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/command-line.html
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It attempted to streamline terminal workflows by turning natural language into executable commands and code, reducing the need to memorize hundreds of CLI flags.
   mental_damage: Just when you memorized the Amazon Q CLI flags, AWS gracefully sunsets it into Kiro, proving that in modern cloud tooling, the only constant is the migration guide.
   tags:
-    - cli
     - aws
-    - terminal
+    - cli
     - sunset
+    - terminal
   confidence: high
 curation:
   status: excluded
@@ -56,6 +56,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:43:54.075Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.727Z"
@@ -65,11 +73,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:43:54.075Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

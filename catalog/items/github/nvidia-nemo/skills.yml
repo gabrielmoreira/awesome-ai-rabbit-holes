@@ -1,6 +1,6 @@
 id: github__nvidia-nemo__skills
 kind: github-repo
-name: skills
+name: Skills
 canonical_url: https://github.com/nvidia-nemo/skills
 identity:
   github_repo: nvidia-nemo/skills
@@ -41,11 +41,11 @@ insights:
   why_it_matters: It gives developers a unified, scalable way to measure and improve model capabilities across the exact benchmarks—like SWE-bench and LiveCodeBench—that define modern coding-agent performance.
   mental_damage: "Just what we needed: another thousand-GPU harness to prove that scaling up the thing we just vibe-coded still loses to a tired human on a Friday afternoon."
   tags:
-    - llm-training
-    - evals
     - benchmarks
-    - nvidia
+    - evals
     - inference
+    - llm-training
+    - nvidia
   confidence: high
 curation:
   status: included
@@ -61,6 +61,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (946) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:41:14.528Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.710Z"
@@ -71,11 +79,3 @@ processing:
     updated_at: "2026-05-05T21:03:57.764Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:41:14.528Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

@@ -1,6 +1,6 @@
 id: github__langstream__langstream
 kind: github-repo
-name: langstream
+name: LangStream
 canonical_url: https://github.com/langstream/langstream
 identity:
   github_repo: langstream/langstream
@@ -53,11 +53,11 @@ insights:
   why_it_matters: It gives developers a production-oriented runtime to wire LangChain or LlamaIndex components into scalable, event-driven architectures without stitching together raw infrastructure by hand.
   mental_damage: Just when you thought your stack was simple enough, here comes a platform that turns a chatbot into a distributed streaming workload because why not Kafka everything.
   tags:
+    - event-driven
     - kafka
     - kubernetes
-    - event-driven
-    - llm
     - langchain
+    - llm
   confidence: high
 curation:
   status: included
@@ -73,6 +73,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (431) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:33:16.657Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.703Z"
@@ -83,11 +91,3 @@ processing:
     updated_at: "2026-05-05T21:03:16.920Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:33:16.657Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

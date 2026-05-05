@@ -1,6 +1,6 @@
 id: ampcode__com
 kind: website
-name: ampcode.com
+name: Amp (Sourcegraph)
 canonical_url: https://ampcode.com
 identity: {}
 provenance:
@@ -54,10 +54,10 @@ insights:
   why_it_matters: It offers a premium, agentic CLI experience that lets developers delegate complex, multi-file coding tasks directly from the terminal using frontier models.
   mental_damage: Yet another contender in the terminal agent wars, ensuring developers can now anxiously watch a scrolling log of autonomous code changes instead of just anxiously reviewing static diffs.
   tags:
-    - coding-agent
     - cli
-    - terminal
+    - coding-agent
     - developer-tools
+    - terminal
   confidence: high
 curation:
   status: included
@@ -73,6 +73,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:41:48.025Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.673Z"
@@ -82,11 +90,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:41:48.025Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

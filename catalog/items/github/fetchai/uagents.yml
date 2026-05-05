@@ -1,6 +1,6 @@
 id: github__fetchai__uagents
 kind: github-repo
-name: uagents
+name: uAgents
 canonical_url: https://github.com/fetchai/uagents
 identity:
   github_repo: fetchai/uagents
@@ -47,10 +47,10 @@ insights:
   mental_damage: Yet another agent framework enters the arena, proving that while we can't agree on what an agent is, we can all agree it needs its own blockchain.
   tags:
     - agents
-    - python
-    - framework
-    - decentralized
     - blockchain
+    - decentralized
+    - framework
+    - python
   confidence: high
 curation:
   status: included
@@ -66,6 +66,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (1588) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:19:28.289Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.687Z"
@@ -76,11 +84,3 @@ processing:
     updated_at: "2026-05-05T21:02:10.720Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:19:28.289Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

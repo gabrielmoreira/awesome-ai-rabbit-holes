@@ -1,13 +1,13 @@
 id: github__cameroncooke__xcodebuildmcp
 kind: github-repo
-name: xcodebuildmcp
+name: XcodeBuildMCP
 canonical_url: https://github.com/cameroncooke/xcodebuildmcp
 identity:
   github_repo: cameroncooke/xcodebuildmcp
 provenance:
   discoveries:
     - id: discovery__github__cameroncooke__xcodebuildmcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T20:48:55.437Z"
+      discovered_at: "2026-05-05T22:33:31.148Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -28,7 +28,7 @@ metadata:
     license: MIT
     archived: false
     created_at: "2025-03-09T17:31:18Z"
-    pushed_at: "2026-05-05T20:51:26Z"
+    pushed_at: "2026-05-05T23:01:12Z"
     description: A Model Context Protocol (MCP) server and CLI that provides tools for agent use when working on iOS and macOS projects.
     homepage: https://www.xcodebuildmcp.com
     topics:
@@ -39,50 +39,44 @@ metadata:
       - tag-production
       - xcode
       - xcodebuild
-    last_checked_at: "2026-05-05T21:01:29.534Z"
+    last_checked_at: "2026-05-05T23:07:45.210Z"
     readme:
-      fetched_at: "2026-05-05T21:01:29.534Z"
+      fetched_at: "2026-05-05T23:07:45.210Z"
       bytes: 5413
 insights:
-  summary: A Model Context Protocol server and CLI that gives AI coding agents tools to build, run, and manage iOS and macOS projects via xcodebuild.
-  why_it_matters: It lets AI agents meaningfully interact with Apple's build toolchain, bridging the gap between generic coding assistants and platform-specific mobile development workflows.
-  mental_damage: Finally, your AI agent can autonomously argue with code signing and provisioning profiles at 3 AM so you do not have to.
-  tags:
-    - mcp
-    - ios
-    - macos
-    - xcode
-    - cli
-  confidence: high
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
 curation:
-  status: included
-  reason: The primary artifact is an MCP server and CLI for Xcode, fitting directly into the MCP infrastructure category rather than being a general coding agent itself.
-  evidence:
-    - Repo description explicitly states it is 'A Model Context Protocol (MCP) server and CLI'.
-    - README confirms it is an MCP server with a CLI mode, designed to provide tools for agent use in iOS/macOS projects.
-    - Listed in awesome-mcp-servers under 'Community Servers', reinforcing its identity as MCP infrastructure.
+  status: pending
+  reason: null
+  evidence: []
 placement:
-  primary_category: mcp
+  primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
   reason: Stars (5420) exceeded threshold (150)
 processing:
+  categorize:
+    status: deferred
+    updated_at: "2026-05-05T23:08:33.635Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-05-06T00:08:33.635Z"
+    attempts: 0
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.440Z"
+    updated_at: "2026-05-05T22:33:31.150Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:29.534Z"
+    updated_at: "2026-05-05T23:07:45.210Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:12:20.882Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

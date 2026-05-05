@@ -1,6 +1,6 @@
 id: github__automl__robo
 kind: github-repo
-name: robo
+name: RoBO
 canonical_url: https://github.com/automl/robo
 identity:
   github_repo: automl/robo
@@ -41,10 +41,10 @@ insights:
   why_it_matters: It gives developers a structured way to automate hyperparameter tuning and expensive function optimization without hand-rolling their own BO loops.
   mental_damage: Yet another reminder that while we build tools to auto-tune models, we still manually tune the learning rates of our own productivity.
   tags:
-    - bayesian-optimization
     - automl
-    - python
+    - bayesian-optimization
     - hyperparameter-tuning
+    - python
   confidence: high
 curation:
   status: excluded
@@ -60,6 +60,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (489) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:09:40.308Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.680Z"
@@ -70,11 +78,3 @@ processing:
     updated_at: "2026-05-05T21:01:13.206Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:09:40.308Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

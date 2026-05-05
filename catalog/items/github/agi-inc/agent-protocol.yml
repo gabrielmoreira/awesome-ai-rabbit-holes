@@ -1,13 +1,13 @@
 id: github__agi-inc__agent-protocol
 kind: github-repo
-name: agent-protocol
+name: Agent Protocol
 canonical_url: https://github.com/agi-inc/agent-protocol
 identity:
   github_repo: agi-inc/agent-protocol
 provenance:
   discoveries:
     - id: discovery__github__e2b-dev__agent-protocol__awesome-list__kaushikb11__awesome-llm-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-05T20:48:55.437Z"
       source:
         type: awesome-list
         name: kaushikb11/awesome-llm-agents
@@ -44,9 +44,9 @@ metadata:
       - protocol
       - python
       - typescript
-    last_checked_at: "2026-05-05T21:00:53.351Z"
+    last_checked_at: "2026-05-05T21:01:58.498Z"
     readme:
-      fetched_at: "2026-05-05T21:00:53.351Z"
+      fetched_at: "2026-05-05T21:01:58.498Z"
       bytes: 6389
 insights:
   summary: A tech-stack agnostic API specification (OpenAPI) and SDK defining a common REST interface for communicating with and benchmarking AI agents.
@@ -54,9 +54,10 @@ insights:
   mental_damage: We’ve reached the point where we’re building protocols to manage the chaos of the protocols we just built to manage the agents.
   tags:
     - agents
-    - protocol
     - api
     - benchmarking
+    - interoperability
+    - protocol
     - sdk
   confidence: high
 curation:
@@ -66,6 +67,9 @@ curation:
     - Repo description states it is a common interface and API specification for interacting with AI agents.
     - README describes the protocol as an OpenAPI spec and includes an SDK/library for developers to implement or interact with agents in code.
     - Active repository with recent pushes (2025-04-08) and adoption by projects like Auto-GPT and smol developer.
+    - "Repo description: 'Common interface for interacting with AI agents. The protocol is tech stack agnostic.'"
+    - README states it is an 'API specification' and provides an SDK and Client library for developers to implement.
+    - Listed in awesome-llm-agents under the 'Frameworks' section.
 placement:
   primary_category: ai-frameworks
   section: null
@@ -75,7 +79,7 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-05-05T21:06:28.344Z"
+    updated_at: "2026-05-05T21:17:21.465Z"
     cause: null
     next_retry_at: null
     attempts: 1
@@ -83,11 +87,11 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.685Z"
+    updated_at: "2026-05-05T20:48:55.441Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:00:53.351Z"
+    updated_at: "2026-05-05T21:01:58.498Z"
     cause: null
     next_retry_at: null

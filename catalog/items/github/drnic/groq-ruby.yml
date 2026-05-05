@@ -1,6 +1,6 @@
 id: github__drnic__groq-ruby
 kind: github-repo
-name: groq-ruby
+name: Groq Ruby
 canonical_url: https://github.com/drnic/groq-ruby
 identity:
   github_repo: drnic/groq-ruby
@@ -45,9 +45,9 @@ insights:
   why_it_matters: It allows Ruby developers to integrate high-throughput LLM inference into their applications using a familiar, OpenAI-compatible interface.
   mental_damage: We have successfully abstracted the abstraction of the API, proving that no matter how fast the tokens arrive, we will always spend equal time wrapping them in helper methods.
   tags:
-    - ruby
     - groq
     - llm-client
+    - ruby
     - sdk
   confidence: high
 curation:
@@ -64,6 +64,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:17:11.471Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.685Z"
@@ -74,11 +82,3 @@ processing:
     updated_at: "2026-05-05T21:01:57.433Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:17:11.471Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

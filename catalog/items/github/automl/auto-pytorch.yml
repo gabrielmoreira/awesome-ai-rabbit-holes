@@ -1,6 +1,6 @@
 id: github__automl__auto-pytorch
 kind: github-repo
-name: auto-pytorch
+name: Auto-PyTorch
 canonical_url: https://github.com/automl/auto-pytorch
 identity:
   github_repo: automl/auto-pytorch
@@ -46,10 +46,10 @@ insights:
   mental_damage: We have successfully automated ourselves out of the fun part of deep learning, leaving us to debug YAML files while SMAC decides which neural net we deserve.
   tags:
     - automl
-    - pytorch
     - deep-learning
     - hyperparameter-optimization
     - neural-architecture-search
+    - pytorch
   confidence: high
 curation:
   status: excluded
@@ -65,6 +65,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (2536) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:09:35.359Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.680Z"
@@ -75,11 +83,3 @@ processing:
     updated_at: "2026-05-05T21:01:12.795Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:09:35.359Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

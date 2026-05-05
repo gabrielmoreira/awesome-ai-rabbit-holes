@@ -38,20 +38,24 @@ metadata:
       fetched_at: "2026-05-05T21:01:31.799Z"
       bytes: 5416
 insights:
-  summary: An MCP server that connects AI agents and developer tools to Prior, a shared knowledge base of proven agent-discovered solutions with search, contribution, and feedback tooling.
-  why_it_matters: It lets coding agents tap into a growing, feedback-ranked library of real-world fixes so they can skip rediscovering solutions that other agents already figured out.
-  mental_damage: We have finally built a distributed memory for our agents, so your copilot can now reuse someone else’s hallucinated workaround instead of crafting a fresh disaster entirely on its own.
+  summary: An MCP server that connects AI agents and coding assistants to Prior, a shared knowledge base where agents publish and search for proven solutions to technical problems.
+  why_it_matters: It lets agents skip costly trial-and-error by retrieving past solutions from a shared pool, saving tokens and reducing repeated debugging cycles inside your IDE or CLI workflow.
+  mental_damage: We have finally built a collective memory for our agents so they can collectively agree on the wrong solution slightly faster.
   tags:
-    - mcp
-    - knowledge-base
     - agent-tools
+    - agents
+    - context
     - context-sharing
+    - knowledge-base
+    - mcp
   confidence: medium
 curation:
   status: included
-  reason: The project is explicitly an MCP server that integrates with Claude Desktop, Cursor, Windsurf, and VS Code, making it a clear fit for MCP infrastructure.
+  reason: The project is explicitly an MCP server that integrates with Claude Desktop, Cursor, Windsurf, and VS Code, which cleanly fits the MCP Servers and Tooling category.
   evidence:
     - Repo description states it is an 'MCP server for Prior' that works with Claude Desktop, Cursor, Windsurf, and VS Code.
+    - README confirms it is an MCP server providing tools like prior_search and prior_contribute with outputSchema and MCP tool annotations.
+    - Listed in awesome-mcp-servers under Server Implementations > Knowledge & Memory.
     - README documents MCP tools (prior_search, prior_contribute, prior_feedback), resources, and remote MCP URL (https://api.cg3.io/mcp).
     - Project is actively maintained (pushed 2026-04-27) and not archived, despite low stars (2).
 placement:
@@ -71,7 +75,7 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.682Z"
+    updated_at: "2026-05-05T20:48:55.440Z"
     cause: null
     next_retry_at: null
   stars:

@@ -1,6 +1,6 @@
 id: github__mem0ai__mem0
 kind: github-repo
-name: embedchain
+name: Embedchain
 canonical_url: https://github.com/mem0ai/mem0
 identity:
   github_repo: mem0ai/mem0
@@ -82,20 +82,24 @@ metadata:
       fetched_at: "2026-05-05T21:03:34.909Z"
       bytes: 10571
 insights:
-  summary: Mem0 provides a memory layer for AI agents and assistants that enables personalized interactions by retaining user preferences, session state, and agent history across interactions.
-  why_it_matters: Developers building AI agents can integrate a managed or self-hosted memory system via SDKs to maintain context and user preferences without building custom state management.
-  mental_damage: We have successfully abstracted away the joy of manually wiring Redis caches and vector databases just to help a chatbot remember your favorite color.
+  summary: Mem0 (formerly Embedchain) is a memory layer framework and managed service that gives AI agents and assistants persistent, multi-level memory with semantic, keyword, and entity-based retrieval.
+  why_it_matters: It provides developers with a ready-to-integrate SDK and API for adding stateful, personalized memory to LLM apps without building custom RAG pipelines from scratch.
+  mental_damage: "Just what every developer needs: another abstraction layer to debate while their agent confidently hallucinates yesterday's facts with upgraded recall."
   tags:
-    - memory
     - agents
     - llm
-    - sdk
+    - memory
     - python
+    - rag
+    - sdk
   confidence: high
 curation:
   status: included
-  reason: Mem0 is a developer-facing SDK and managed service for adding memory capabilities to AI agents, fitting the code-first building block definition of AI Frameworks and SDKs.
+  reason: It is a developer-facing SDK and managed service for embedding memory and RAG behavior into AI applications, which maps cleanly to the AI Frameworks and SDKs category.
   evidence:
+    - "Repo description states: 'Universal memory layer for AI Agents' with Python SDK and managed service at mem0.ai."
+    - README highlights multi-level memory, cross-platform SDKs, and benchmarks for LoCoMo and LongMemEval.
+    - Included in awesome-llm-agents (Frameworks) and Awesome-LLMOps, showing ecosystem fit for developer tooling.
     - "Repo description: 'Universal memory layer for AI Agents'"
     - "README highlights 'Developer-Friendly: Intuitive API, cross-platform SDKs, and a fully managed service option' and includes PyPI/NPM packages."
     - Strong ecosystem traction with 54,828 stars and recent activity (pushed 2026-05-05).
@@ -116,7 +120,7 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.660Z"
+    updated_at: "2026-05-05T20:48:55.438Z"
     cause: null
     next_retry_at: null
   stars:

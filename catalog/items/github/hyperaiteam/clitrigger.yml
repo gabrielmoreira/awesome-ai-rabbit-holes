@@ -1,6 +1,6 @@
 id: github__hyperaiteam__clitrigger
 kind: github-repo
-name: clitrigger
+name: CLITrigger
 canonical_url: https://github.com/hyperaiteam/clitrigger
 identity:
   github_repo: hyperaiteam/clitrigger
@@ -60,8 +60,8 @@ insights:
   why_it_matters: It lets developers queue tasks across multiple AI agents overnight to maximize token quotas and review the resulting diffs in the morning.
   mental_damage: You can now deploy an AI night shift to burn through your rate limits while you sleep, turning every morning into a 50-diff code review hangoover.
   tags:
-    - cli
     - agent-orchestration
+    - cli
     - git-worktree
     - parallel-agents
   confidence: high
@@ -79,6 +79,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:25:03.475Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.697Z"
@@ -89,11 +97,3 @@ processing:
     updated_at: "2026-05-05T21:02:39.589Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:25:03.475Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

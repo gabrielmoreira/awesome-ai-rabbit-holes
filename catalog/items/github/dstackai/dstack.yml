@@ -1,6 +1,6 @@
 id: github__dstackai__dstack
 kind: github-repo
-name: dstack
+name: Dstack
 canonical_url: https://github.com/dstackai/dstack
 identity:
   github_repo: dstackai/dstack
@@ -60,9 +60,9 @@ insights:
   mental_damage: Yet another layer of infrastructure abstraction promising to solve the GPU shortage, assuming you weren't already enjoying the thrill of debugging Kubernetes YAML at 2 AM.
   tags:
     - gpu
-    - orchestration
     - infrastructure
     - kubernetes
+    - orchestration
     - training
   confidence: high
 curation:
@@ -79,6 +79,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (2129) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:17:15.967Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.685Z"
@@ -89,11 +97,3 @@ processing:
     updated_at: "2026-05-05T21:01:57.677Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:17:15.967Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

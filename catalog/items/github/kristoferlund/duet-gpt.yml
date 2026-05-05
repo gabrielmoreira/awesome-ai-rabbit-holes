@@ -1,6 +1,6 @@
 id: github__kristoferlund__duet-gpt
 kind: github-repo
-name: duet-gpt
+name: DuetGPT
 canonical_url: https://github.com/kristoferlund/duet-gpt
 identity:
   github_repo: kristoferlund/duet-gpt
@@ -50,11 +50,11 @@ insights:
   why_it_matters: It offers a middle ground between passive code completion and fully autonomous agents by keeping the developer in the loop to approve shell and code modifications.
   mental_damage: Yet another 2023 CLI agent that bravely trusts a GPT-4 function call to touch your file system, provided you enjoy the adrenaline rush of verifying bash commands in a terminal.
   tags:
-    - cli
     - agent
+    - bash
+    - cli
     - gpt-4
     - terminal
-    - bash
   confidence: medium
 curation:
   status: included
@@ -70,6 +70,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (166) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:31:18.122Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.702Z"
@@ -80,11 +88,3 @@ processing:
     updated_at: "2026-05-05T21:03:08.070Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:31:18.122Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

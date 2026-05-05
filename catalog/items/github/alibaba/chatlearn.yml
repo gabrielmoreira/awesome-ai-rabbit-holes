@@ -1,6 +1,6 @@
 id: github__alibaba__chatlearn
 kind: github-repo
-name: chatlearn
+name: ChatLearn
 canonical_url: https://github.com/alibaba/chatlearn
 identity:
   github_repo: alibaba/chatlearn
@@ -41,11 +41,11 @@ insights:
   why_it_matters: It provides a high-performance, programmable interface for developers building custom RL training loops for models up to 600B parameters.
   mental_damage: Another essential tool for when your hobbyist GPU cluster of eight H100s simply isn't enough to align a model larger than your ego.
   tags:
-    - reinforcement-learning
-    - llm-training
-    - distributed-systems
     - alibaba
     - alignment
+    - distributed-systems
+    - llm-training
+    - reinforcement-learning
   confidence: high
 curation:
   status: included
@@ -61,6 +61,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (453) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:07:31.261Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.678Z"
@@ -71,11 +79,3 @@ processing:
     updated_at: "2026-05-05T21:00:59.005Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:07:31.261Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

@@ -1,6 +1,6 @@
 id: github__alexrozanski__llamachat
 kind: github-repo
-name: llamachat
+name: LlamaChat
 canonical_url: https://github.com/alexrozanski/llamachat
 identity:
   github_repo: alexrozanski/llamachat
@@ -63,11 +63,11 @@ insights:
   why_it_matters: It provides developers on Apple hardware with a dedicated UI for running and converting local LLMs without relying on terminal commands or hosted APIs.
   mental_damage: Nothing says 'I am optimizing my local development workflow' quite like downloading a 13B model to chat with it through a SwiftUI window while your fan sounds like a jet engine.
   tags:
-    - macos
-    - local-ai
-    - llama
-    - swift
     - desktop-app
+    - llama
+    - local-ai
+    - macos
+    - swift
   confidence: high
 curation:
   status: included
@@ -83,6 +83,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (1511) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:07:26.316Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.663Z"
@@ -93,11 +101,3 @@ processing:
     updated_at: "2026-05-05T21:00:58.644Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:07:26.316Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

@@ -1,6 +1,6 @@
 id: www__ycombinator__com__companies__tusk
 kind: website
-name: tusk
+name: Y-combinator company
 canonical_url: https://www.ycombinator.com/companies/tusk
 identity: {}
 provenance:
@@ -39,11 +39,11 @@ insights:
   why_it_matters: It allows engineering teams to maintain high test coverage and prevent regressions without pulling developers away from feature work to write boilerplate tests.
   mental_damage: Finally, an AI agent to handle the 'testing' phase of 'move fast and break things,' so you can ship features with confidence while wondering if the robot writing your edge cases actually understands your business logic.
   tags:
-    - testing
     - ci-cd
-    - yc-w24
     - code-quality
     - pr-automation
+    - testing
+    - yc-w24
   confidence: high
 curation:
   status: included
@@ -59,6 +59,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:54:07.508Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.734Z"
@@ -68,11 +76,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:54:07.508Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

@@ -1,6 +1,6 @@
 id: github__com__antvis
 kind: website
-name: antvis
+name: AntV
 canonical_url: https://github.com/antvis
 identity: {}
 provenance:
@@ -54,10 +54,10 @@ insights:
   why_it_matters: It provides developers with a comprehensive, grammar-based toolkit to embed complex data visualizations and AI-generated infographics directly into applications.
   mental_damage: Another sprawling charting ecosystem to evaluate while you quietly mourn the one time your boss let you just use a simple bar chart.
   tags:
-    - data-visualization
-    - javascript
     - ant-group
     - charting-libraries
+    - data-visualization
+    - javascript
   confidence: high
 curation:
   status: excluded
@@ -73,6 +73,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:44:45.177Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.674Z"
@@ -84,11 +92,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:44:45.177Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

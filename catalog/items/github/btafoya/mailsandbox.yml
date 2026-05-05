@@ -1,6 +1,6 @@
 id: github__btafoya__mailsandbox
 kind: github-repo
-name: mailsandbox
+name: MailSandbox
 canonical_url: https://github.com/btafoya/mailsandbox
 identity:
   github_repo: btafoya/mailsandbox
@@ -41,10 +41,10 @@ insights:
   why_it_matters: It lets developers stub transactional email and then point an AI coding agent directly at the inbox to verify sending behavior without leaving the workflow.
   mental_damage: "We have finally achieved the destiny of modern tooling: an SMTP server that needs an MCP server so your AI can read the emails your AI just sent on your behalf."
   tags:
-    - mcp
-    - email-testing
     - debugging
     - developer-tools
+    - email-testing
+    - mcp
   confidence: high
 curation:
   status: included
@@ -60,6 +60,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:11:47.354Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.681Z"
@@ -70,11 +78,3 @@ processing:
     updated_at: "2026-05-05T21:01:26.319Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:11:47.354Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

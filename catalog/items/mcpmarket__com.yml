@@ -1,6 +1,6 @@
 id: mcpmarket__com
 kind: website
-name: mcpmarket.com
+name: MCP Market
 canonical_url: https://mcpmarket.com
 identity: {}
 provenance:
@@ -38,9 +38,9 @@ insights:
   why_it_matters: It provides a centralized index for developers to find and evaluate MCP integrations to extend their AI coding assistants.
   mental_damage: Just when you thought managing dependencies was hard, we've invented a protocol for your assistant's tools that now requires its own App Store.
   tags:
-    - mcp
     - directory
     - marketplace
+    - mcp
     - tooling
   confidence: high
 curation:
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:46:27.756Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.729Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:46:27.756Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

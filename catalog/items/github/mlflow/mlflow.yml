@@ -1,6 +1,6 @@
 id: github__mlflow__mlflow
 kind: github-repo
-name: mlflow
+name: MLflow
 canonical_url: https://github.com/mlflow/mlflow
 identity:
   github_repo: mlflow/mlflow
@@ -59,11 +59,11 @@ insights:
   why_it_matters: It provides engineering teams with a unified stack to debug, evaluate, and monitor production AI applications while managing model access and controlling costs.
   mental_damage: Finally, a tool to help you monitor the ghost in the machine that you shipped last Tuesday and haven't quite figured out how to test yet.
   tags:
+    - evaluation
     - llmops
+    - mlops
     - monitoring
     - observability
-    - mlops
-    - evaluation
   confidence: high
 curation:
   status: included
@@ -79,6 +79,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (25744) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:38:29.167Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.707Z"
@@ -89,11 +97,3 @@ processing:
     updated_at: "2026-05-05T21:03:43.693Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:38:29.167Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

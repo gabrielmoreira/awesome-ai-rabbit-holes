@@ -1,6 +1,6 @@
 id: snyk__io
 kind: website
-name: snyk.io
+name: Snyk (DeepCode)
 canonical_url: https://snyk.io
 identity: {}
 provenance:
@@ -38,9 +38,9 @@ insights:
   why_it_matters: It integrates directly into the developer workflow to catch insecure AI-generated code and supply chain risks before they reach production.
   mental_damage: Now you can ship AI-generated vulnerabilities at record speed, safe in the knowledge that a separate AI is being paid to judge the output of the first one.
   tags:
-    - security
-    - devsecops
     - ai-generated-code
+    - devsecops
+    - security
     - vulnerability-scanning
   confidence: high
 curation:
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:48:13.657Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.730Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:48:13.657Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

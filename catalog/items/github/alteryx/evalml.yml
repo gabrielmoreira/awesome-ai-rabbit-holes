@@ -1,6 +1,6 @@
 id: github__alteryx__evalml
 kind: github-repo
-name: evalml
+name: EvalML
 canonical_url: https://github.com/alteryx/evalml
 identity:
   github_repo: alteryx/evalml
@@ -51,9 +51,9 @@ insights:
   tags:
     - automl
     - machine-learning
-    - python
-    - pipelines
     - model-selection
+    - pipelines
+    - python
   confidence: high
 curation:
   status: excluded
@@ -69,6 +69,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (847) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:07:49.639Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.678Z"
@@ -79,11 +87,3 @@ processing:
     updated_at: "2026-05-05T21:01:01.629Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:07:49.639Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

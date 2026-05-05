@@ -1,6 +1,6 @@
 id: github__jetbrains__mcp-jetbrains
 kind: github-repo
-name: ai
+name: JetBrains AI
 canonical_url: https://github.com/jetbrains/mcp-jetbrains
 identity:
   github_repo: jetbrains/mcp-jetbrains
@@ -22,7 +22,7 @@ provenance:
         surrounding_text: "- **[JetBrains](https://github.com/JetBrains/mcp-jetbrains)** – Work on your code with JetBrains IDEs"
         confidence: high
     - id: discovery__github__jetbrains__mcpproxy__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-05T20:48:55.437Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -38,7 +38,7 @@ provenance:
         surrounding_text: "- [jetbrains/mcpProxy](https://github.com/JetBrains/mcpProxy) 🎖️ 📇 🏠 - Connect to JetBrains IDE"
         confidence: high
     - id: discovery__github__jetbrains__mcpproxy__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-05T20:48:55.437Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -53,7 +53,7 @@ provenance:
         surrounding_text: "-   **[JetBrains/mcpProxy](https://github.com/JetBrains/mcpProxy)** [![GitHub stars](https://img.shields.io/github/stars/JetBrains/mcpProxy?style=social)](https://github.com/JetBrains/mcpProxy): Connects to JetBrains IDEs for development tasks."
         confidence: high
     - id: discovery__www__jetbrains__com__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-05T22:47:06.910Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -66,6 +66,22 @@ provenance:
         anchor_text: JetBrains AI
         extracted_url: https://www.jetbrains.com/ai
         surrounding_text: "- **[JetBrains AI](https://www.jetbrains.com/ai/)** – Integrated AI for code completion and analysis in all JetBrains IDEs."
+        confidence: high
+    - id: discovery__github__jetbrains__mcp-jetbrains__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T22:33:31.148Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: jetbrains/mcpProxy
+        extracted_url: https://github.com/jetbrains/mcpproxy
+        surrounding_text: "- [jetbrains/mcpProxy](https://github.com/JetBrains/mcpProxy) 🎖️ 📇 🏠 - Connect to JetBrains IDE"
         confidence: high
 metadata:
   github:
@@ -84,19 +100,21 @@ metadata:
       - mcp
       - mcp-server
       - pycharm
-    last_checked_at: "2026-05-05T21:02:54.356Z"
+    last_checked_at: "2026-05-05T21:02:54.628Z"
     readme:
-      fetched_at: "2026-05-05T21:02:54.356Z"
+      fetched_at: "2026-05-05T21:02:54.628Z"
       bytes: 5468
 insights:
   summary: A Model Context Protocol server and proxy that allows external AI tools and agents to connect to and interact with JetBrains IDEs, now integrated natively into IntelliJ-based IDEs since version 2025.2.
   why_it_matters: It allows developers to hook AI coding agents and MCP clients directly into their JetBrains workflow, bridging the gap between modern AI tooling and the IntelliJ ecosystem.
   mental_damage: We have successfully abstracted the IDE into a context server so that an AI can finally refactor the code you were about to write before the plugin was deprecated.
   tags:
-    - mcp
-    - jetbrains
+    - ai-assistant
+    - code-completion
     - ide
     - integration
+    - jetbrains
+    - mcp
   confidence: high
 curation:
   status: included
@@ -105,6 +123,8 @@ curation:
     - Repo description explicitly states it is 'A model context protocol server to work with JetBrains IDEs'.
     - README is marked deprecated as functionality moved to IntelliJ 2025.2, but remains the reference implementation for the MCP integration.
     - Listed in awesome-mcp-servers under 'Official Servers'.
+    - Scraped site context describes 'Intelligent Coding Assistance' and 'integrated AI tools'.
+    - Listed in awesome-ai-coding-tools under the 'Code Completion' section.
 placement:
   primary_category: coding-agents
   section: null
@@ -114,19 +134,19 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-05-05T21:04:47.878Z"
+    updated_at: "2026-05-05T21:28:12.253Z"
     cause: null
-    attempts: 2
+    next_retry_at: null
+    attempts: 1
     prompt_version: catalog-categorize-v2-baseline
     category_rules_version: 1b6cc5462ecc
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.732Z"
+    updated_at: "2026-05-05T22:47:06.911Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:54.356Z"
+    updated_at: "2026-05-05T21:02:54.628Z"
     cause: null
     next_retry_at: null

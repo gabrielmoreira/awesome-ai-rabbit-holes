@@ -46,20 +46,23 @@ metadata:
       fetched_at: "2026-05-05T21:02:22.949Z"
       bytes: 5016
 insights:
-  summary: Enchanted is an open-source iOS, macOS, and visionOS app that provides a ChatGPT-like interface for interacting with private, self-hosted language models via Ollama.
-  why_it_matters: It gives developers a native, privacy-focused way to interact with local LLMs across the Apple ecosystem without sending data to third-party cloud APIs.
-  mental_damage: Because nothing says 'secure private AI' quite like tunneling your local Ollama server through ngrok just to show a chatbot on your Apple Watch.
+  summary: Enchanted is an open-source iOS, macOS, and visionOS app that provides a ChatGPT-like interface for interacting with privately hosted Ollama language models.
+  why_it_matters: It allows developers to test, prompt, and iterate on local LLMs across the Apple ecosystem while keeping data and inference entirely offline.
+  mental_damage: Because nothing says 'secure private inference' like tunneling your local Ollama server through ngrok just to chat on your iPhone.
   tags:
     - ios
+    - local-ai
     - macos
     - ollama
-    - local-ai
     - swift
   confidence: high
 curation:
   status: included
-  reason: The project is a native desktop and mobile interface specifically designed for running and interacting with local, self-hosted AI models.
+  reason: This is a desktop and mobile interface for running local AI models, fitting squarely into the local-AI category as a consumer of self-hosted infrastructure.
   evidence:
+    - Repo description explicitly states it is an iOS/macOS app for chatting with private self-hosted models via Ollama.
+    - README details support for Llama 2, Mistral, and Vision Pro, with all conversation history stored on-device.
+    - Project is active (pushed 2025-03-19) with 5920 stars and is licensed under Apache-2.0.
     - Repo description explicitly states it is an iOS/macOS app for chatting with private self-hosted models using Ollama.
     - README confirms it is an Ollama-compatible app for working with privately hosted models like Llama 2 and Mistral.
     - Active repository with recent pushes (2025-03-19) and significant traction (5920 stars).
@@ -80,7 +83,7 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.680Z"
+    updated_at: "2026-05-05T20:48:55.440Z"
     cause: null
     next_retry_at: null
   stars:

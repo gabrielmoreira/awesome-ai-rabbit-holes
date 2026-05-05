@@ -1,6 +1,6 @@
 id: github__modelengine-group__nexent
 kind: github-repo
-name: nexent
+name: Nexent
 canonical_url: https://github.com/modelengine-group/nexent
 identity:
   github_repo: modelengine-group/nexent
@@ -54,10 +54,10 @@ insights:
   mental_damage: Yet another platform promising to solve the 'complexity' of agent building by adding a layer of abstraction so thick you'll need a prompt to remember why you started the project.
   tags:
     - agents
-    - orchestration
-    - no-code
-    - mcp
     - harness-engineering
+    - mcp
+    - no-code
+    - orchestration
   confidence: high
 curation:
   status: included
@@ -73,6 +73,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (4383) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:38:49.600Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.708Z"
@@ -83,11 +91,3 @@ processing:
     updated_at: "2026-05-05T21:03:45.446Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:38:49.600Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

@@ -1009,6 +1009,34 @@ describe("render", () => {
     expect(page).not.toContain("**[Docs]");
   });
 
+  it("uses discovery labels instead of dotted hostnames for rendered display names", () => {
+    const item = makeItem({
+      id: "10web__io",
+      kind: "website",
+      name: "10web.io",
+      canonical_url: "https://10web.io",
+      identity: {},
+      placement: { primary_category: "coding-agents", section: null },
+      lifecycle: { status: "curated" },
+      insights: { ...makeItem().insights, summary: "AI website builder." },
+      provenance: {
+        discoveries: [{
+          ...makeItem().provenance.discoveries[0],
+          extraction: {
+            ...makeItem().provenance.discoveries[0].extraction,
+            section_path: ["App Builders"],
+            anchor_text: "10Web",
+          },
+        }],
+      },
+    });
+
+    const page = renderRabbitHolePage(CATEGORIES[0], [item]);
+
+    expect(page).toContain("**[10Web](https://10web.io)** AI website builder.");
+    expect(page).not.toContain("**[10web.io]");
+  });
+
 
 
   it("incubating items render separately as compact bullets", () => {
@@ -1089,7 +1117,7 @@ describe("render", () => {
     expect(a.generated_at).toBe("2026-04-01T00:00:00Z");
   });
 
-  it("site catalog derives repo activity buckets from pushed_at relative to the metadata snapshot", () => {
+  it("site catalog derives repo activity buckets from pushed_at relative to the latest metadata snapshot", () => {
     const baseGithub = makeItem().metadata.github;
     const makeGitHubActivityItem = (
       name: string,
@@ -1110,13 +1138,15 @@ describe("render", () => {
       },
     });
 
+    const snapshot = "2026-05-01T00:00:00Z";
     const catalog = renderSiteCatalog([
-      makeGitHubActivityItem("recent", "2026-01-15T00:00:00Z", "2026-01-31T00:00:00Z"),
-      makeGitHubActivityItem("active", "2026-01-01T00:00:00Z", "2026-03-15T00:00:00Z"),
-      makeGitHubActivityItem("warm", "2025-01-01T00:00:00Z", "2025-06-15T00:00:00Z"),
-      makeGitHubActivityItem("quiet", "2025-01-01T00:00:00Z", "2025-10-01T00:00:00Z"),
-      makeGitHubActivityItem("inactive", "2024-01-01T00:00:00Z", "2025-06-01T00:00:00Z"),
-      makeGitHubActivityItem("unknown", null, "2026-05-01T00:00:00Z"),
+      makeGitHubActivityItem("recent", "2026-04-15T00:00:00Z", snapshot),
+      makeGitHubActivityItem("active", "2026-02-15T00:00:00Z", snapshot),
+      makeGitHubActivityItem("warm", "2025-12-15T00:00:00Z", snapshot),
+      makeGitHubActivityItem("quiet", "2025-07-15T00:00:00Z", snapshot),
+      makeGitHubActivityItem("inactive", "2025-04-01T00:00:00Z", snapshot),
+      makeGitHubActivityItem("unchecked", "2026-04-20T00:00:00Z", null),
+      makeGitHubActivityItem("unknown", null, snapshot),
     ]);
 
     const byId = Object.fromEntries(catalog.items.map((item) => [item.id, item]));
@@ -1126,9 +1156,48 @@ describe("render", () => {
     expect(byId.github__example__warm?.activity_bucket).toBe("updated_180d");
     expect(byId.github__example__quiet?.activity_bucket).toBe("updated_365d");
     expect(byId.github__example__inactive?.activity_bucket).toBe("inactive");
+    expect(byId.github__example__unchecked?.activity_bucket).toBeNull();
     expect(byId.github__example__unknown?.activity_bucket).toBeNull();
-    expect(byId.github__example__recent?.pushed_at).toBe("2026-01-15T00:00:00Z");
+    expect(byId.github__example__recent?.pushed_at).toBe("2026-04-15T00:00:00Z");
     expect(byId.github__example__unknown?.pushed_at).toBeNull();
+  });
+
+  it("uses the latest catalog metadata snapshot for activity buckets, not each item's own check lag", () => {
+    const baseGithub = makeItem().metadata.github;
+    const snapshotItem = makeItem({
+      id: "github__example__snapshot-anchor",
+      name: "snapshot-anchor",
+      canonical_url: "https://github.com/example/snapshot-anchor",
+      identity: { github_repo: "example/snapshot-anchor" },
+      metadata: {
+        github: {
+          ...baseGithub,
+          stars: 1,
+          pushed_at: "2026-05-01T00:00:00Z",
+          last_checked_at: "2026-05-05T00:00:00Z",
+        },
+      },
+    });
+    const staleCheckItem = makeItem({
+      id: "github__example__stale-check",
+      name: "stale-check",
+      canonical_url: "https://github.com/example/stale-check",
+      identity: { github_repo: "example/stale-check" },
+      metadata: {
+        github: {
+          ...baseGithub,
+          stars: 1,
+          pushed_at: "2025-05-01T00:00:00Z",
+          last_checked_at: "2025-06-01T00:00:00Z",
+        },
+      },
+    });
+
+    const catalog = renderSiteCatalog([snapshotItem, staleCheckItem]);
+    const byId = Object.fromEntries(catalog.items.map((item) => [item.id, item]));
+
+    expect(catalog.generated_at).toBe("2026-05-05T00:00:00Z");
+    expect(byId["github__example__stale-check"]?.activity_bucket).toBe("inactive");
   });
 
   it("site catalog sorts included items by stars descending", () => {

@@ -1,6 +1,6 @@
 id: devdocs__io
 kind: website
-name: devdocs.io
+name: DevDocs.io
 canonical_url: https://devdocs.io
 identity: {}
 provenance:
@@ -39,9 +39,9 @@ insights:
   why_it_matters: It provides developers with a single, searchable hub for API references, reducing context switching between browser tabs and local files.
   mental_damage: Finally, a tool to help us navigate the documentation of the very frameworks we are trying to replace with AI code generators that haven't read the docs yet.
   tags:
+    - developer-tools
     - documentation
     - offline
-    - developer-tools
     - reference
   confidence: high
 curation:
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:43:41.422Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.727Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:43:41.422Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

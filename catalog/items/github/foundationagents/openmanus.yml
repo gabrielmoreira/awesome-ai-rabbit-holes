@@ -1,6 +1,6 @@
 id: github__foundationagents__openmanus
 kind: github-repo
-name: openmanus
+name: OpenManus
 canonical_url: https://github.com/foundationagents/openmanus
 identity:
   github_repo: foundationagents/openmanus
@@ -42,10 +42,10 @@ insights:
   mental_damage: Now you can spend three hours setting up a local agent to automate the five-minute task you were procrastinating anyway.
   tags:
     - agents
-    - open-source
-    - framework
     - automation
+    - framework
     - llm
+    - open-source
   confidence: high
 curation:
   status: included
@@ -61,6 +61,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (56032) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:20:04.303Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.687Z"
@@ -71,11 +79,3 @@ processing:
     updated_at: "2026-05-05T21:02:14.208Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:20:04.303Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

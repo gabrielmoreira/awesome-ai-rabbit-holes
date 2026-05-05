@@ -24,17 +24,38 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 11310
+    forks: 5649
+    license: NOASSERTION
+    archived: false
+    created_at: "2020-01-22T00:28:31Z"
+    pushed_at: "2026-05-05T22:32:59Z"
+    description: Connect APIs, remarkably fast.  Free for developers.
+    homepage: https://pipedream.com
+    topics:
+      - apis
+      - automation
+      - bash
+      - cli
+      - data-flow
+      - event-sourcing
+      - eventsourcing
+      - golang
+      - integration-flow
+      - integrations
+      - ipaas
+      - low-code
+      - low-code-development-platform
+      - nodejs
+      - python
+      - serverless
+      - typescript
+      - workflow
+      - workflows
+    last_checked_at: "2026-05-05T23:08:05.934Z"
+    readme:
+      fetched_at: "2026-05-05T23:08:05.934Z"
+      bytes: 12082
 insights:
   summary: null
   why_it_matters: null
@@ -49,8 +70,8 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (11310) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -58,15 +79,17 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-05-05T21:04:18.761Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for pipedreamhq/pipedream
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T21:04:23.169Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-05-05T23:08:05.934Z"
+    cause: null
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-05-05T23:08:33.635Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-05-06T00:08:33.635Z"
+    attempts: 0
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

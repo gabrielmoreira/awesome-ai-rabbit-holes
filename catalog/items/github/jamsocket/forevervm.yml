@@ -1,6 +1,6 @@
 id: github__jamsocket__forevervm
 kind: github-repo
-name: forevervm
+name: ForeverVM
 canonical_url: https://github.com/jamsocket/forevervm
 identity:
   github_repo: jamsocket/forevervm
@@ -41,11 +41,11 @@ insights:
   why_it_matters: It gives developers a simple way to persist Python REPL state across sessions, making it easier to build AI agents that need durable, interactive code execution.
   mental_damage: We have finally solved the hard problem of keeping a Python process alive forever, right alongside the ~47 other sandboxing projects that also guarantee eternal life until the next VC pivot.
   tags:
-    - sandbox
+    - agents
     - python
+    - sandbox
     - sdk
     - stateful-execution
-    - agents
   confidence: high
 curation:
   status: included
@@ -61,6 +61,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (228) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:27:34.626Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.699Z"
@@ -71,11 +79,3 @@ processing:
     updated_at: "2026-05-05T21:02:50.916Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:27:34.626Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

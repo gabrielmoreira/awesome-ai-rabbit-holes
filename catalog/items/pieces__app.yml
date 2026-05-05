@@ -1,6 +1,6 @@
 id: pieces__app
 kind: website
-name: pieces.app
+name: Pieces.app
 canonical_url: https://pieces.app
 identity: {}
 provenance:
@@ -38,9 +38,9 @@ insights:
   why_it_matters: It builds an OS-level long-term memory layer that lets developers and their AI tools recall code snippets, docs, and context across different apps without manual organization.
   mental_damage: We have finally achieved the nightmare scenario where your operating system remembers everything you did in the browser, IDE, and Slack, but you still cannot remember why you wrote that function six months ago.
   tags:
-    - memory
-    - local-ai
     - context
+    - local-ai
+    - memory
     - productivity
   confidence: medium
 curation:
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:47:01.906Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.729Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:47:01.906Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

@@ -1,13 +1,13 @@
 id: github__alaeddine-13__thinkgpt
 kind: github-repo
-name: thinkgpt
+name: ThinkGPT
 canonical_url: https://github.com/alaeddine-13/thinkgpt
 identity:
   github_repo: alaeddine-13/thinkgpt
 provenance:
   discoveries:
     - id: discovery__github__alaeddine-13__thinkgpt__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-05T20:48:55.437Z"
+      discovered_at: "2026-05-05T22:33:31.148Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -33,28 +33,28 @@ metadata:
     description: Agent techniques to augment your LLM and push it beyong its limits
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:00:57.385Z"
+    last_checked_at: "2026-05-05T23:07:41.179Z"
     readme:
-      fetched_at: "2026-05-05T21:00:57.385Z"
+      fetched_at: "2026-05-05T23:07:41.179Z"
       bytes: 8838
 insights:
-  summary: ThinkGPT is a Python library that implements Chain of Thoughts, memory, and reasoning primitives to extend LLM capabilities with techniques like self-refinement and knowledge compression.
-  why_it_matters: It provides developers with importable building blocks to solve limited context windows and add higher-order reasoning to their own LLM-powered applications.
-  mental_damage: Yet another reminder that the industry is frantically building external brains to compensate for the fact that our models still can't remember what they did five minutes ago.
+  summary: ThinkGPT is a Python library that implements Chain of Thoughts, memory, self-refinement, and knowledge compression primitives to extend LLM capabilities within developer codebases.
+  why_it_matters: It provides developers with importable building blocks for long-term memory and reasoning, enabling the creation of more persistent and context-aware generative agents without switching tools.
+  mental_damage: We have now reached the point in the cycle where your library needs a library to make the library you are calling think about thinking.
   tags:
-    - python
     - llm
+    - chain-of-thought
     - memory
-    - reasoning
-    - library
+    - python
+    - agents
   confidence: high
 curation:
   status: included
-  reason: The project is a code-first library and SDK that developers import to build LLM features, fitting the AI Frameworks and SDKs category rather than a user-facing agent or app builder.
+  reason: The project is a code-first Python library providing SDK building blocks for LLM reasoning and memory, fitting cleanly into AI Frameworks rather than a standalone agent or extension.
   evidence:
-    - Repo description states it is 'Agent techniques to augment your LLM', framing it as a library.
-    - README explicitly describes it as 'a Python library aimed at implementing Chain of Thoughts for Large Language Models (LLMs)' with a pythonic API.
-    - Source list context confirms inclusion in awesome-langchain under 'Tools > Agents' as a project using the framework.
+    - Repo description states it is 'Agent techniques to augment your LLM' via a library.
+    - README confirms it is a 'Python library' with a 'pythonic API' for importing memory and reasoning primitives.
+    - Active development indicated by pushed_at date of 2024-05-23T13:04:46Z.
 placement:
   primary_category: ai-frameworks
   section: null
@@ -62,21 +62,21 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (1578) exceeded threshold (150)
 processing:
-  discover:
-    status: done
-    updated_at: "2026-05-05T20:48:55.440Z"
-    cause: null
-    next_retry_at: null
-  stars:
-    status: done
-    updated_at: "2026-05-05T21:00:57.385Z"
-    cause: null
-    next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:07:14.433Z"
+    updated_at: "2026-05-05T23:08:32.059Z"
     cause: null
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v2-baseline
     category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T22:33:31.149Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T23:07:41.179Z"
+    cause: null
+    next_retry_at: null

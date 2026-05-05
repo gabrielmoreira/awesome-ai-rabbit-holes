@@ -1,6 +1,6 @@
 id: themodernsoftware__dev
 kind: website
-name: themodernsoftware.dev
+name: "斯坦福CS146S: The Modern Software Developer"
 canonical_url: https://themodernsoftware.dev
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It provides a structured curriculum for developers looking to navigate the rapidly expanding ecosystem of AI tooling and modern development practices.
   mental_damage: Yet another curated syllabus to make you realize how many tools you haven't learned yet while you're busy debugging a prompt.
   tags:
-    - education
     - course
-    - stanford
+    - education
     - learning
+    - stanford
   confidence: high
 curation:
   status: excluded
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:48:41.630Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.731Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:48:41.630Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

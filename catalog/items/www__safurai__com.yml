@@ -1,6 +1,6 @@
 id: www__safurai__com
 kind: website
-name: www.safurai.com
+name: Safurai
 canonical_url: https://www.safurai.com
 identity: {}
 provenance:
@@ -38,8 +38,8 @@ insights:
   why_it_matters: It acts as a context-aware pair programmer within the editor, aiming to reduce context switching by handling routine coding tasks directly in the development environment.
   mental_damage: "Just what the modern developer needs: another floating assistant competing for focus while we try to remember which keyboard shortcut summons the one that actually fixes the bug."
   tags:
-    - ide-extension
     - code-assistant
+    - ide-extension
     - refactoring
   confidence: medium
 curation:
@@ -55,6 +55,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:53:14.291Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.734Z"
@@ -64,11 +72,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:53:14.291Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

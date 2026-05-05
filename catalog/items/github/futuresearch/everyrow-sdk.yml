@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__futuresearch__everyrow-sdk__awesome-list__kaushikb11__awesome-llm-agents
-      discovered_at: "2026-05-05T20:48:55.437Z"
+      discovered_at: "2026-05-05T22:33:31.148Z"
       source:
         type: awesome-list
         name: kaushikb11/awesome-llm-agents
@@ -39,30 +39,22 @@ metadata:
       - pandas-dataframe
       - ranking
       - semantic-analysis
-    last_checked_at: "2026-05-05T21:02:16.398Z"
+    last_checked_at: "2026-05-05T23:07:51.260Z"
     readme:
-      fetched_at: "2026-05-05T21:02:16.398Z"
+      fetched_at: "2026-05-05T23:07:51.260Z"
       bytes: 10282
 insights:
-  summary: A Python SDK and MCP server that provides a team of web research agents to forecast, classify, score, and gather data, designed to be used as a callable tool by AI surfaces like Claude Code, Claude.ai, and Gemini.
-  why_it_matters: It allows developers to offload large-scale web research and data labeling tasks to a specialized agent workforce directly from their pandas dataframes or AI coding tools.
-  mental_damage: We have finally reached the point where we need SDKs to give our AI agents their own team of sub-agents, just in case the recursion wasn't deep enough.
-  tags:
-    - agents
-    - mcp
-    - sdk
-    - research
-    - claude-code
-  confidence: high
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
 curation:
-  status: included
-  reason: The primary artifact is a Python SDK and MCP tool that lets developers import agentic research capabilities into their own code or AI workflows, fitting the code-first building block definition.
-  evidence:
-    - Repo description describes it as a 'team of research agents' and SDK integration.
-    - README shows a Python SDK usage pattern (futuresearch.ops) and MCP integration for Claude Code.
-    - Listed in awesome-llm-agents under 'Frameworks', aligning with the SDK category.
+  status: pending
+  reason: null
+  evidence: []
 placement:
-  primary_category: ai-frameworks
+  primary_category: null
   section: null
 lifecycle:
   status: incubating
@@ -70,19 +62,21 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.441Z"
+    updated_at: "2026-05-05T22:33:31.150Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:16.398Z"
+    updated_at: "2026-05-05T23:07:51.260Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-05T21:20:26.943Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
+    status: deferred
+    updated_at: "2026-05-05T23:08:33.635Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-05-06T00:08:33.635Z"
+    attempts: 0
     prompt_version: catalog-categorize-v2-baseline
     category_rules_version: 1b6cc5462ecc

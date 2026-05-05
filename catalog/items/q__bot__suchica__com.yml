@@ -1,6 +1,6 @@
 id: q__bot__suchica__com
 kind: website
-name: q-bot.suchica.com
+name: Q, ChatGPT for Slack
 canonical_url: https://q-bot.suchica.com
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It allows development teams to query GPT, summarize documents, and draft content without leaving their Slack workspace, centralizing AI usage for shared visibility.
   mental_damage: Now you can watch your entire team's prompt engineering skills degrade in real-time, together, right alongside the standup updates.
   tags:
-    - slack
     - chatgpt-integration
-    - team-collaboration
     - openai
+    - slack
+    - team-collaboration
   confidence: high
 curation:
   status: excluded
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:47:19.888Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.729Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:47:19.888Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

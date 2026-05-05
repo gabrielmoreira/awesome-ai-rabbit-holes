@@ -1,6 +1,6 @@
 id: aws__amazon__com__q__developer
 kind: website
-name: developer
+name: Amazon Q Developer
 canonical_url: https://aws.amazon.com/q/developer
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It integrates deeply with AWS services and private repositories to accelerate the full development lifecycle, from feature implementation to Java upgrades and cloud resource management.
   mental_damage: Yet another agentic assistant promising to heal your legacy Java stack, provided you're willing to hand over your org's entire codebase and cloud bill to the AWS Free Tier.
   tags:
-    - aws
-    - ide
-    - code-completion
     - agentic
+    - aws
+    - code-completion
+    - ide
   confidence: high
 curation:
   status: included
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:42:25.091Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.726Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:42:25.091Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

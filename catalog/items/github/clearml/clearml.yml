@@ -1,6 +1,6 @@
 id: github__clearml__clearml
 kind: github-repo
-name: clearml
+name: ClearML
 canonical_url: https://github.com/clearml/clearml
 identity:
   github_repo: clearml/clearml
@@ -54,20 +54,24 @@ metadata:
       fetched_at: "2026-05-05T21:01:35.177Z"
       bytes: 15112
 insights:
-  summary: ClearML is an open-source MLOps/LLMOps suite combining experiment tracking, data versioning, pipeline orchestration, and model serving for AI workloads.
-  why_it_matters: It provides a unified, self-hostable platform for developers to manage the full lifecycle of AI experiments, from training to production deployment.
-  mental_damage: Yet another 'Auto-Magical' solution promising to solve your CI/CD pain, assuming you weren't already drowning in a sea of incompatible YAML files and orchestration dashboards.
+  summary: ClearML is an open-source suite for experiment tracking, data management, pipeline orchestration, and model serving across ML, DL, and GenAI workflows.
+  why_it_matters: It gives developers a unified, self-hostable control plane to manage the lifecycle of AI experiments and deployments from local notebooks to Kubernetes clusters.
+  mental_damage: Yet another integrated MLOps platform promising to solve the 'three months of YAML then give up' phase of AI infrastructure.
   tags:
-    - mlops
-    - llmops
     - experiment-tracking
-    - orchestration
+    - llmops
+    - mlops
     - model-serving
+    - orchestration
+    - self-hosted
   confidence: high
 curation:
   status: included
-  reason: ClearML is a code-first SDK and infrastructure framework for building and managing AI pipelines, fitting the AI Frameworks category rather than a direct coding agent or app builder.
+  reason: It is a code-first SDK and infrastructure suite for building and operating AI workflows, fitting the frameworks category rather than a coding assistant or app builder.
   evidence:
+    - Repo description explicitly lists Experiment Manager, MLOps/LLMOps, Data-Management, and Pipeline/Orchestration as core modules.
+    - Listed under 'Training > Experiment Tracking' in Awesome-LLMOps, aligning with infrastructure and SDK tooling.
+    - Active development with 6,657 stars and recent pushes, confirming it is a living developer tool rather than abandoned infrastructure.
     - Repo description defines it as a suite for AI workload CI/CD, experiment management, and orchestration.
     - "README details five modular SDK components: Experiment Manager, MLOps/LLMOps agent, Data-Management, Model-Serving, and Reports."
     - Topics include mlops, devops, and machine-learning, indicating a developer infrastructure tool rather than a coding assistant.
@@ -88,7 +92,7 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.678Z"
+    updated_at: "2026-05-05T20:48:55.440Z"
     cause: null
     next_retry_at: null
   stars:

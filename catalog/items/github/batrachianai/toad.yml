@@ -1,6 +1,6 @@
 id: github__batrachianai__toad
 kind: github-repo
-name: toad
+name: Toad
 canonical_url: https://github.com/batrachianai/toad
 identity:
   github_repo: batrachianai/toad
@@ -51,10 +51,10 @@ insights:
   why_it_matters: It lets developers interleave a fully functional shell with agent prompts and manage concurrent sessions across different providers without leaving the terminal.
   mental_damage: You now have a terminal UI to manage the half-dozen AI agents you installed to manage the code you could have just written yourself.
   tags:
+    - agent-orchestration
+    - cli
     - terminal
     - tui
-    - cli
-    - agent-orchestration
   confidence: high
 curation:
   status: included
@@ -70,6 +70,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (3018) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:10:22.782Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.680Z"
@@ -80,11 +88,3 @@ processing:
     updated_at: "2026-05-05T21:01:17.979Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:10:22.782Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

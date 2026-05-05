@@ -1,6 +1,6 @@
 id: github__oraios__serena
 kind: github-repo
-name: serena
+name: Serena
 canonical_url: https://github.com/oraios/serena
 identity:
   github_repo: oraios/serena
@@ -69,11 +69,11 @@ insights:
   why_it_matters: It gives AI agents symbol-level awareness and refactoring capabilities, allowing them to perform complex cross-file operations reliably rather than relying on fragile text-based edits.
   mental_damage: We have finally built the IDE for the agent, so the only thing left for the human to do is debug the MCP configuration and explain to the agent why it renamed the wrong method.
   tags:
-    - mcp
     - coding-agent
-    - semantic-analysis
     - ide-tools
+    - mcp
     - refactoring
+    - semantic-analysis
   confidence: high
 curation:
   status: included
@@ -89,6 +89,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (23860) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:43:10.773Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.670Z"
@@ -99,11 +107,3 @@ processing:
     updated_at: "2026-05-05T21:04:08.544Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:43:10.773Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

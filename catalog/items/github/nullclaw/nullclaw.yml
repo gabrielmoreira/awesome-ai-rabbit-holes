@@ -1,6 +1,6 @@
 id: github__nullclaw__nullclaw
 kind: github-repo
-name: nullclaw
+name: NullClaw
 canonical_url: https://github.com/nullclaw/nullclaw
 identity:
   github_repo: nullclaw/nullclaw
@@ -46,11 +46,11 @@ insights:
   why_it_matters: It lets developers run a fully autonomous AI assistant on extremely constrained hardware with near-zero memory overhead while retaining a full tool stack including providers, channels, and subagents.
   mental_damage: We have successfully optimized the AI assistant down to 1 MB of RAM, proving once and for all that the bottleneck was never the memory footprint but our ability to decide what to ask it.
   tags:
-    - zig
-    - cli
     - autonomous-agent
-    - mcp
+    - cli
     - edge
+    - mcp
+    - zig
   confidence: high
 curation:
   status: included
@@ -66,6 +66,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (7409) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:41:06.175Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.710Z"
@@ -76,11 +84,3 @@ processing:
     updated_at: "2026-05-05T21:03:56.818Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:41:06.175Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

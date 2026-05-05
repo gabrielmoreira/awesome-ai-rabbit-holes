@@ -1,13 +1,13 @@
 id: github__acnet-ai__metaspec
 kind: github-repo
-name: metaspec
+name: MetaSpec
 canonical_url: https://github.com/acnet-ai/metaspec
 identity:
   github_repo: acnet-ai/metaspec
 provenance:
   discoveries:
     - id: discovery__github__acnet-ai__metaspec__awesome-list__engineering4ai__awesome-spec-driven-development
-      discovered_at: "2026-05-05T20:48:55.437Z"
+      discovered_at: "2026-05-05T22:33:31.148Z"
       source:
         type: awesome-list
         name: Engineering4AI/awesome-spec-driven-development
@@ -36,28 +36,28 @@ metadata:
       - intent
       - spec
       - spec-driven
-    last_checked_at: "2026-05-05T21:00:48.566Z"
+    last_checked_at: "2026-05-05T23:07:40.200Z"
     readme:
-      fetched_at: "2026-05-05T21:00:48.566Z"
+      fetched_at: "2026-05-05T23:07:40.200Z"
       bytes: 19969
 insights:
-  summary: MetaSpec is a Python meta-specification framework that generates domain-specific 'speckits'—complete with CLI, parsers, validators, and templates—to drive spec-first development workflows for AI agents.
-  why_it_matters: It lets developers define a domain specification once and automatically generate the surrounding tooling and validation environment, reducing the token overhead required for agents to navigate large spec files by up to 99%.
-  mental_damage: We have officially entered the era of building frameworks to build the frameworks that tell the agents how to read the frameworks.
+  summary: A meta-specification framework that generates domain-specific, spec-driven development toolkits (speckits) equipped with CLI, validation, and AI agent navigation support.
+  why_it_matters: It lets teams codify domain specs once and automatically generate the supporting CLI, parsers, and templates needed to drive AI-assisted workflows with significantly reduced token usage.
+  mental_damage: We have successfully abstracted the abstraction of the abstraction, ensuring that by the time you write the spec for the spec, the original requirement will have changed twice.
   tags:
     - spec-driven
     - meta-specification
     - cli
     - token-optimization
-    - python
+    - ai-agents
   confidence: medium
 curation:
   status: included
-  reason: The project is a dedicated tool for spec-driven development, allowing the generation of complete toolkits based on domain specifications, fitting the spec-first loop criteria perfectly.
+  reason: The project's center of gravity is a spec-first loop where structured specifications drive the generation of toolkits and guide AI agent execution, fitting the spec-driven-development category perfectly.
   evidence:
     - Repo description defines it as a 'Meta-specification framework for AI Agents to generate Spec-driven X toolkits'.
-    - README details 'precision-guided navigation' to reduce AI token usage by 84-99% when reading spec files.
-    - Included in the 'awesome-spec-driven-development' list under 'Specification Tools'.
+    - README emphasizes 'Spec-Driven' as using structured specifications to drive workflows from requirements to implementation.
+    - Features 'precision-guided navigation' allowing AI agents to jump to specific lines in specs to cut token usage by 84-99%.
 placement:
   primary_category: spec-driven-development
   section: null
@@ -65,21 +65,21 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  discover:
-    status: done
-    updated_at: "2026-05-05T20:48:55.440Z"
-    cause: null
-    next_retry_at: null
-  stars:
-    status: done
-    updated_at: "2026-05-05T21:00:48.566Z"
-    cause: null
-    next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:05:41.822Z"
+    updated_at: "2026-05-05T23:08:25.962Z"
     cause: null
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v2-baseline
     category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T22:33:31.149Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T23:07:40.200Z"
+    cause: null
+    next_retry_at: null

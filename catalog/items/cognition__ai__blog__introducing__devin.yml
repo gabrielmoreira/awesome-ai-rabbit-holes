@@ -1,6 +1,6 @@
 id: cognition__ai__blog__introducing__devin
 kind: website
-name: introducing-devin
+name: Devin
 canonical_url: https://cognition.ai/blog/introducing-devin
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It aims to act as a tireless teammate that can handle end-to-end tasks from bug fixes to full app deployment, allowing developers to shift focus to higher-level engineering challenges.
   mental_damage: Just when you thought attending stand-ups was the only ritual proving you are employed, now you have to review PRs from a teammate that doesn't drink coffee or complain about Jira.
   tags:
+    - ai-teammate
     - autonomous-agents
     - coding-agent
     - swe-bench
-    - ai-teammate
   confidence: high
 curation:
   status: included
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:43:08.440Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.726Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:43:08.440Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

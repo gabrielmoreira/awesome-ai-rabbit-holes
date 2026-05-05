@@ -1,6 +1,6 @@
 id: github__particlefuture__1mcpserver
 kind: github-repo
-name: mcp
+name: 1mcpserver
 canonical_url: https://github.com/particlefuture/1mcpserver
 identity:
   github_repo: particlefuture/1mcpserver
@@ -38,7 +38,7 @@ provenance:
         surrounding_text: "- **[1mcpserver](https://github.com/particlefuture/1mcpserver)** - MCP of MCPs. Automatic discovery and configure MCP servers on your local machine. Fully REMOTE! Just use [https://mcp.1mcpserver.com/mcp/](https://mcp.1mcpserver.com/mcp/)"
         confidence: high
     - id: discovery__mcp__1mcpserver__com__mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-05T22:47:06.910Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -72,10 +72,12 @@ insights:
   why_it_matters: It reduces the friction of managing individual MCP server configurations by providing a single entry point that dynamically finds and invokes the right tools for complex goals.
   mental_damage: Because if configuring one MCP server feels like an achievement, configuring a server that configures your other servers is clearly the next logical step in our collective descent.
   tags:
-    - mcp
-    - tooling
     - aggregation
     - context-management
+    - directory
+    - mcp
+    - registry
+    - tooling
   confidence: high
 curation:
   status: included
@@ -84,6 +86,9 @@ curation:
     - README explicitly states 'MCP of MCPs' and describes automatic discovery of MCP servers.
     - Listed in awesome-mcp-servers under 'Server Implementations > Aggregators'.
     - Provides remote and local setup instructions specifically for MCP clients like Cursor, Claude Desktop, and Gemini CLI.
+    - URL https://mcp.1mcpserver.com/mcp appears to be a browsing/submission site for MCP servers.
+    - "Referenced in awesome-mcp-servers with the note: 'submit your MCP on the website: https://mcpservers.org/submit'."
+    - No repo description, README, or code-level signals provided; the artifact is a listing site, not a server or toolkit.
 placement:
   primary_category: awesome-awesomes
   section: null
@@ -101,7 +106,7 @@ processing:
     next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.728Z"
+    updated_at: "2026-05-05T22:47:06.911Z"
     cause: null
     next_retry_at: null
   stars:

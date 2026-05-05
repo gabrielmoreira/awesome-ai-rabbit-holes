@@ -23,17 +23,31 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 485
+    forks: 63
+    license: MIT
+    archived: false
+    created_at: "2025-03-22T09:33:08Z"
+    pushed_at: "2026-03-30T17:06:12Z"
+    description: "Vibe Check is a tool that provides mentor-like feedback to AI Agents, preventing tunnel-vision, over-engineering and reasoning lock-in for complex and long-horizon agent workflows. KISS your over-eager AI Agents goodbye! Effective for: Coding, Ambiguous Tasks, High-Risk tasks"
+    homepage: https://pruthvibhat.com/
+    topics:
+      - agentic-ai
+      - agentic-workflow
+      - ai-agents
+      - chain-of-thought
+      - cpi
+      - error-handling
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - rli
+      - vibe-coding
+      - workflow-automation
+    last_checked_at: "2026-05-05T23:08:12.401Z"
+    readme:
+      fetched_at: "2026-05-05T23:08:12.401Z"
+      bytes: 18190
 insights:
   summary: null
   why_it_matters: null
@@ -48,8 +62,8 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (485) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -57,13 +71,17 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-05T23:08:12.401Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T21:04:23.169Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-05-05T23:08:33.635Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-05-06T00:08:33.635Z"
+    attempts: 0
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

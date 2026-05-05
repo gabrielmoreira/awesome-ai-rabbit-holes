@@ -1,6 +1,6 @@
 id: github__mirascope__mirascope
 kind: github-repo
-name: mirascope
+name: Mirascope
 canonical_url: https://github.com/mirascope/mirascope
 identity:
   github_repo: mirascope/mirascope
@@ -48,11 +48,11 @@ insights:
   why_it_matters: It lets developers write LLM-powered features and agents against a single API surface instead of wrestling with provider-specific SDKs.
   mental_damage: Yet another valiant attempt to abstract away the chaotic LLM landscape, proving that the only thing developers love more than a new model is a new abstraction layer to wrap it.
   tags:
-    - llm
-    - sdk
-    - python
-    - typescript
     - agents
+    - llm
+    - python
+    - sdk
+    - typescript
   confidence: high
 curation:
   status: included
@@ -68,6 +68,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (1476) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:38:17.436Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.707Z"
@@ -78,11 +86,3 @@ processing:
     updated_at: "2026-05-05T21:03:42.940Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:38:17.436Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

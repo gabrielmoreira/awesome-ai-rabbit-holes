@@ -1,6 +1,6 @@
 id: autogen__studio__com
 kind: website
-name: autogen-studio.com
+name: AutoGen AIStudio
 canonical_url: https://autogen-studio.com
 identity: {}
 provenance:
@@ -38,9 +38,9 @@ insights:
   why_it_matters: It doesn't—this is a classic case of link rot or malicious SEO injection in a curated list.
   mental_damage: We've reached the point where even our awesome lists are being hijacked by online slot machines, just in case you weren't paranoid enough about your supply chain.
   tags:
-    - spam
     - link-rot
     - scam
+    - spam
   confidence: high
 curation:
   status: excluded
@@ -56,6 +56,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:42:11.128Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.726Z"
@@ -65,11 +73,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:42:11.128Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

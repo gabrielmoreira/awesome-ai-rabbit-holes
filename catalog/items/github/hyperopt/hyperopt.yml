@@ -1,6 +1,6 @@
 id: github__hyperopt__hyperopt
 kind: github-repo
-name: hyperopt
+name: Hyperopt
 canonical_url: https://github.com/hyperopt/hyperopt
 identity:
   github_repo: hyperopt/hyperopt
@@ -42,10 +42,10 @@ insights:
   why_it_matters: It provides developers with a mature, code-first framework to automate the tuning of machine learning models across local, Spark, or MongoDB-backed environments.
   mental_damage: Because nothing says 'I have my model under control' like spending three days optimizing hyperparameters for a model that still can't beat a linear regression.
   tags:
-    - hyperparameter-optimization
-    - python
     - automl
+    - hyperparameter-optimization
     - ml-ops
+    - python
   confidence: high
 curation:
   status: excluded
@@ -61,6 +61,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (7575) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:25:11.814Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.697Z"
@@ -71,11 +79,3 @@ processing:
     updated_at: "2026-05-05T21:02:39.819Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:25:11.814Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

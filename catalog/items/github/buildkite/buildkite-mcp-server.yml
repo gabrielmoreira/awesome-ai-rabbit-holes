@@ -6,6 +6,21 @@ identity:
   github_repo: buildkite/buildkite-mcp-server
 provenance:
   discoveries:
+    - id: discovery__buildkite__com__home__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Buildkite
+        extracted_url: https://buildkite.com
+        surrounding_text: "- **[Buildkite](https://github.com/buildkite/buildkite-mcp-server)** - Manage [Buildkite](https://buildkite.com) pipelines and builds."
+        confidence: high
     - id: discovery__github__buildkite__buildkite-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
       discovered_at: "2026-05-05T19:41:00.656Z"
       source:
@@ -59,11 +74,17 @@ insights:
   why_it_matters: It allows AI coding assistants to query live CI/CD state and debug failing pipelines directly within the development environment.
   mental_damage: Now your AI can watch your build fail in real-time and offer consoling hallucinations before you've even had your coffee.
   tags:
-    - mcp
     - buildkite
     - ci-cd
     - devops
+    - mcp
+    - mcp-artifact
+    - no-tool
+    - placeholder
+    - redirect
+    - registry
     - tooling
+    - unknown
   confidence: high
 curation:
   status: included
@@ -79,9 +100,17 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T22:47:22.814Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.664Z"
+    updated_at: "2026-05-05T22:47:06.911Z"
     cause: null
     next_retry_at: null
   stars:
@@ -89,11 +118,3 @@ processing:
     updated_at: "2026-05-05T21:01:27.104Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:11:54.149Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

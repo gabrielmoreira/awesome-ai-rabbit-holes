@@ -1,6 +1,6 @@
 id: github__berriai__litellm
 kind: github-repo
-name: litellm
+name: LiteLLM 🚅
 canonical_url: https://github.com/berriai/litellm
 identity:
   github_repo: berriai/litellm
@@ -87,9 +87,9 @@ insights:
   tags:
     - ai-gateway
     - llmops
-    - sdk
     - openai-compatible
     - proxy
+    - sdk
   confidence: high
 curation:
   status: included
@@ -105,6 +105,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (45759) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:10:35.419Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.659Z"
@@ -115,11 +123,3 @@ processing:
     updated_at: "2026-05-05T21:01:19.250Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:10:35.419Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

@@ -1,6 +1,6 @@
 id: github__mrkrsl__web-search-mcp
 kind: github-repo
-name: web-search-mcp
+name: Web Search MCP
 canonical_url: https://github.com/mrkrsl/web-search-mcp
 identity:
   github_repo: mrkrsl/web-search-mcp
@@ -46,10 +46,10 @@ insights:
   why_it_matters: It allows developers running local models to grant their LLMs autonomous web research abilities without relying on external APIs or cloud-based search keys.
   mental_damage: Finally, your local 8B model can doom-scroll the internet just as effectively as you can, provided you don't mind configuring Playwright and praying your tool-calling weights are up to date.
   tags:
-    - mcp
     - local-llm
-    - web-search
+    - mcp
     - typescript
+    - web-search
   confidence: high
 curation:
   status: included
@@ -65,6 +65,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (836) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:39:20.875Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.708Z"
@@ -75,11 +83,3 @@ processing:
     updated_at: "2026-05-05T21:03:48.077Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:39:20.875Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

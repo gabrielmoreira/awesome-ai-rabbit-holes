@@ -1,6 +1,6 @@
 id: github__determined-ai__determined
 kind: github-repo
-name: determined
+name: Determined
 canonical_url: https://github.com/determined-ai/determined
 identity:
   github_repo: determined-ai/determined
@@ -55,8 +55,8 @@ insights:
   why_it_matters: It allows ML engineers to stop writing custom scripts for cluster management and instead define training, tuning, and resource allocation via YAML configs and Python APIs.
   mental_damage: Yet another reminder that while AI writes the code, we still need an entire platform just to manage the GPUs burning down the house.
   tags:
-    - ml-infrastructure
     - distributed-training
+    - ml-infrastructure
     - mlops
     - pytorch
     - tensorflow
@@ -75,6 +75,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (3225) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:16:13.491Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.684Z"
@@ -85,11 +93,3 @@ processing:
     updated_at: "2026-05-05T21:01:52.149Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:16:13.491Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

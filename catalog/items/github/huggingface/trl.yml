@@ -1,6 +1,6 @@
 id: github__huggingface__trl
 kind: github-repo
-name: trl
+name: TRL
 canonical_url: https://github.com/huggingface/trl
 identity:
   github_repo: huggingface/trl
@@ -58,10 +58,10 @@ insights:
   mental_damage: You now have the power to replicate the DeepSeek-R1 training loop locally, which is the perfect excuse to spend three days tuning hyperparameters instead of merging that PR.
   tags:
     - fine-tuning
-    - reinforcement-learning
-    - llm
     - huggingface
+    - llm
     - post-training
+    - reinforcement-learning
   confidence: high
 curation:
   status: included
@@ -77,6 +77,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (18293) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:24:44.805Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.667Z"
@@ -87,11 +95,3 @@ processing:
     updated_at: "2026-05-05T21:02:37.976Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:24:44.805Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

@@ -1,6 +1,6 @@
 id: github__lingodotdev__lingo.dev
 kind: github-repo
-name: lingo.dev
+name: Lingo.dev
 canonical_url: https://github.com/lingodotdev/lingo.dev
 identity:
   github_repo: lingodotdev/lingo.dev
@@ -46,10 +46,10 @@ insights:
   why_it_matters: It integrates AI and LLMs directly into the localization workflow, allowing developers to automate i18n setup and translation updates via CLI, CI/CD, or AI coding assistants.
   mental_damage: Just when you thought 'vibe coding' couldn't get more specific, you now need an AI agent specifically to teach your other AI agent how to handle `next-i18n` without hallucinating the router.
   tags:
+    - cli
     - i18n
     - localization
     - mcp
-    - cli
     - react
   confidence: high
 curation:
@@ -66,6 +66,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (5405) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:34:02.398Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.704Z"
@@ -76,11 +84,3 @@ processing:
     updated_at: "2026-05-05T21:03:20.843Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:34:02.398Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

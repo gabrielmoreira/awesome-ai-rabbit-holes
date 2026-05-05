@@ -1,6 +1,6 @@
 id: www__webdatasource__com
 kind: website
-name: www.webdatasource.com
+name: WebDataSource
 canonical_url: https://www.webdatasource.com
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: Developers can connect this MCP server to IDEs like VS Code to let coding agents autonomously discover, crawl, and extract structured data from the internet or intranets.
   mental_damage: Another essential piece of infrastructure so your agent can browse the web for you, because apparently the one thing it still needs help with is reading the documentation you already opened in a different window.
   tags:
-    - mcp
-    - web-scraping
     - agent-tooling
     - ide-integration
+    - mcp
+    - web-scraping
   confidence: high
 curation:
   status: included
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:54:11.106Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.734Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:54:11.106Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

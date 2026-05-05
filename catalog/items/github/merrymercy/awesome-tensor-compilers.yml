@@ -1,6 +1,6 @@
 id: github__merrymercy__awesome-tensor-compilers
 kind: github-repo
-name: awesome-tensor-compilers
+name: Awesome Tensor Compilers
 canonical_url: https://github.com/merrymercy/awesome-tensor-compilers
 identity:
   github_repo: merrymercy/awesome-tensor-compilers
@@ -48,11 +48,11 @@ insights:
   why_it_matters: It serves as a centralized map for developers building or optimizing high-performance ML infrastructure, covering everything from TVM and MLIR to auto-scheduling techniques.
   mental_damage: Another map of the graveyard where brilliant engineers spend years shaving off milliseconds from matrix multiplications that will ultimately be called by a Python script with a 400ms framework overhead.
   tags:
-    - compilers
-    - tensor
-    - deep-learning
     - awesome-list
+    - compilers
+    - deep-learning
     - optimization
+    - tensor
   confidence: high
 curation:
   status: included
@@ -68,6 +68,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (2742) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:36:58.812Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.706Z"
@@ -78,11 +86,3 @@ processing:
     updated_at: "2026-05-05T21:03:35.922Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:36:58.812Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

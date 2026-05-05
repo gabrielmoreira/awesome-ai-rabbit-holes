@@ -21,6 +21,21 @@ provenance:
         extracted_url: https://github.com/harness/mcp-server
         surrounding_text: "- **[Harness](https://github.com/harness/mcp-server)** - Access and interact with Harness platform data, including pipelines, repositories, logs, and artifact registries."
         confidence: high
+    - id: discovery__www__harness__io__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T22:47:06.910Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - DevOps and Infrastructure
+        anchor_text: Harness
+        extracted_url: https://harness.io
+        surrounding_text: "- **[Harness](https://harness.io/)** – AI-powered CI/CD with intelligent deployments and automated rollbacks."
+        confidence: high
 metadata:
   github:
     stars: 52
@@ -41,10 +56,14 @@ insights:
   why_it_matters: It allows developers to manage CI/CD, feature flags, cloud costs, and security testing across the Harness platform via natural language in their AI clients.
   mental_damage: We have successfully abstracted an already abstracted CI/CD platform into 11 tools so your LLM can burn tokens deciding which resource type you meant.
   tags:
-    - mcp
-    - harness
-    - devops
     - agent-tooling
+    - ai-agents
+    - ci-cd
+    - devops
+    - harness
+    - mcp
+    - platform
+    - sdlc
   confidence: high
 curation:
   status: included
@@ -53,6 +72,9 @@ curation:
     - "Repo description states: 'This is the official repo for the Harness MCP server'."
     - README describes 'An MCP (Model Context Protocol) server that gives AI agents full access to the Harness.io platform'.
     - Listed in 'awesome-mcp-servers' under 'Official Servers', confirming its role in the MCP ecosystem.
+    - Scraped site title and description describe it as a 'unified, end-to-end AI software delivery platform to manage the SDLC using purpose-built AI agents'.
+    - Product modules include AI SRE, AI Test Automation, and AI Security, functioning as a coordinated agent workforce.
+    - Listed in awesome-ai-coding-tools under the 'DevOps and Infrastructure' section.
 placement:
   primary_category: mcp
   section: null
@@ -60,16 +82,6 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  discover:
-    status: done
-    updated_at: "2026-05-05T19:41:00.690Z"
-    cause: null
-    next_retry_at: null
-  stars:
-    status: done
-    updated_at: "2026-05-05T21:02:31.418Z"
-    cause: null
-    next_retry_at: null
   categorize:
     status: done
     updated_at: "2026-05-05T21:23:36.009Z"
@@ -78,3 +90,13 @@ processing:
     attempts: 1
     prompt_version: catalog-categorize-v2-baseline
     category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T22:47:06.911Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:31.418Z"
+    cause: null
+    next_retry_at: null

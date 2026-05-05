@@ -1,6 +1,6 @@
 id: github__langchain4j__langchain4j
 kind: github-repo
-name: langchain4j
+name: LangChain4j
 canonical_url: https://github.com/langchain4j/langchain4j
 identity:
   github_repo: langchain4j/langchain4j
@@ -61,10 +61,10 @@ insights:
   why_it_matters: It brings enterprise-grade LLM integration patterns to the Java ecosystem, allowing developers to build AI features using familiar frameworks like Spring Boot and Quarkus without writing provider-specific glue code.
   mental_damage: Just when you thought your Java stack was safe from the hallucination economy, here comes a library to ensure your boilerplate is now powered by temperature sampling.
   tags:
-    - java
-    - llm
     - framework
+    - java
     - jvm
+    - llm
     - rag
   confidence: high
 curation:
@@ -81,6 +81,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (11859) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:33:10.641Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.703Z"
@@ -91,11 +99,3 @@ processing:
     updated_at: "2026-05-05T21:03:16.192Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:33:10.641Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

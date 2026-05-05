@@ -1,6 +1,6 @@
 id: github__dkuang1980__promptsite
 kind: github-repo
-name: promptsite
+name: PromptSite
 canonical_url: https://github.com/dkuang1980/promptsite
 identity:
   github_repo: dkuang1980/promptsite
@@ -41,11 +41,11 @@ insights:
   why_it_matters: It gives developers a low-overhead way to iteratively debug prompts, track LLM runs, and manage variables without standing up a separate server or database.
   mental_damage: "Just what your workflow needed: another layer of versioning, this time for the sentences you feed to the model until it stops lying to you."
   tags:
-    - prompt-management
+    - experimentation
     - llmops
+    - prompt-management
     - python
     - version-control
-    - experimentation
   confidence: medium
 curation:
   status: included
@@ -61,6 +61,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:16:32.930Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.685Z"
@@ -71,11 +79,3 @@ processing:
     updated_at: "2026-05-05T21:01:54.352Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:16:32.930Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

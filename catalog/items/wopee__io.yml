@@ -1,6 +1,6 @@
 id: wopee__io
 kind: website
-name: wopee.io
+name: Wopee.io
 canonical_url: https://wopee.io
 identity: {}
 provenance:
@@ -38,11 +38,11 @@ insights:
   why_it_matters: It targets the high-maintenance burden of end-to-end testing by automating test creation and adaptation directly from a live URL, integrating with CI/CD pipelines and frameworks like Cypress and Robot Framework.
   mental_damage: We’ve successfully automated ourselves out of writing tests, leaving us with the new full-time job of reviewing whether the AI successfully tested the thing we forgot to specify.
   tags:
-    - testing
-    - qa
     - ai-agents
-    - playwright
     - e2e
+    - playwright
+    - qa
+    - testing
   confidence: high
 curation:
   status: included
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:49:22.564Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.731Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:49:22.564Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

@@ -1,6 +1,6 @@
 id: www__blackbox__ai
 kind: website
-name: www.blackbox.ai
+name: Blackbox AI
 canonical_url: https://www.blackbox.ai
 identity: {}
 provenance:
@@ -53,11 +53,11 @@ insights:
   why_it_matters: Developers can dispatch autonomous coding agents across their terminal, editor, and cloud to refactor, test, deploy, and review code while a judge model selects the best solution automatically.
   mental_damage: You now have a Chairman LLM to evaluate your AI agents while you sip coffee, because apparently the natural next step after trusting one model was trusting several at once and hoping the committee gets it right.
   tags:
-    - multi-agent
-    - ide
+    - app-builder
     - cli
     - coding-agent
-    - app-builder
+    - ide
+    - multi-agent
   confidence: high
 curation:
   status: included
@@ -73,6 +73,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:49:53.086Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.675Z"
@@ -82,11 +90,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:49:53.086Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

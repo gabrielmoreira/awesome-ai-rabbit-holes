@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__cryptosquanch__legends-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T20:48:55.437Z"
+      discovered_at: "2026-05-05T22:33:31.148Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,29 +33,22 @@ metadata:
     description: Chat with legendary founders & investors via MCP. No API key required!
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:01:43.466Z"
+    last_checked_at: "2026-05-05T23:07:46.613Z"
     readme:
-      fetched_at: "2026-05-05T21:01:43.466Z"
+      fetched_at: "2026-05-05T23:07:46.613Z"
       bytes: 11400
 insights:
-  summary: An MCP server that lets developers chat with simulated personas of famous founders and investors like Elon Musk and Paul Graham, featuring multi-legend debate modes and smart matching.
-  why_it_matters: It provides a novel, API-key-free way to inject historical founder perspectives and investment heuristics directly into a developer's Claude Code workflow via the Model Context Protocol.
-  mental_damage: We have officially reached the point where we are installing local servers to have simulated billionaires roast our startup ideas, because apparently the real ones aren't responding to cold emails fast enough.
-  tags:
-    - mcp
-    - claude-code
-    - simulation
-    - personas
-  confidence: medium
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
 curation:
-  status: included
-  reason: The project is a distinct MCP server implementation designed to be plugged into Claude Code, fitting the MCP Servers and Tooling category.
-  evidence:
-    - Repo description explicitly states 'Chat with legendary founders & investors via MCP'
-    - README provides configuration for Claude Code via the mcpServers JSON block
-    - Listed in the awesome-mcp-servers directory under 'Knowledge & Memory'
+  status: pending
+  reason: null
+  evidence: []
 placement:
-  primary_category: mcp
+  primary_category: null
   section: null
 lifecycle:
   status: incubating
@@ -63,19 +56,21 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.441Z"
+    updated_at: "2026-05-05T22:33:31.150Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:43.466Z"
+    updated_at: "2026-05-05T23:07:46.613Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-05T21:14:48.991Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
+    status: deferred
+    updated_at: "2026-05-05T23:08:33.635Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-05-06T00:08:33.635Z"
+    attempts: 0
     prompt_version: catalog-categorize-v2-baseline
     category_rules_version: 1b6cc5462ecc

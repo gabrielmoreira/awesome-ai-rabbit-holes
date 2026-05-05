@@ -1,6 +1,6 @@
 id: www__aomni__com
 kind: website
-name: www.aomni.com
+name: Aomni
 canonical_url: https://www.aomni.com
 identity: {}
 provenance:
@@ -38,9 +38,9 @@ insights:
   why_it_matters: It is relevant to developers building sales tooling or integrating AI agents into revenue workflows, but offers no direct utility for coding or IDE workflows.
   mental_damage: We have reached the point where 'agentic' has been applied to cold emailing so thoroughly that the term now covers both autonomous codebases and whoever is drafting LinkedIn DMs at 2 AM.
   tags:
-    - sales-ai
     - agents
     - b2b-saas
+    - sales-ai
   confidence: high
 curation:
   status: excluded
@@ -56,6 +56,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:49:38.254Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.731Z"
@@ -65,11 +73,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:49:38.254Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

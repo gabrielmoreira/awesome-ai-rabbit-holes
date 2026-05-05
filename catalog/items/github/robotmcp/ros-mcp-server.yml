@@ -22,49 +22,83 @@ provenance:
         extracted_url: https://github.com/lpigeon/ros-mcp-server
         surrounding_text: "- [lpigeon/ros-mcp-server](https://github.com/lpigeon/ros-mcp-server) 🐍 🏠 🍎 🪟 🐧 - The ROS MCP Server supports robot control by converting user-issued natural language commands into ROS or ROS2 control commands."
         confidence: high
+    - id: discovery__github__robotmcp__ros-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T22:33:31.148Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: lpigeon/ros-mcp-server
+        extracted_url: https://github.com/lpigeon/ros-mcp-server
+        surrounding_text: "- [lpigeon/ros-mcp-server](https://github.com/lpigeon/ros-mcp-server) 🐍 🏠 🍎 🪟 🐧 - The ROS MCP Server supports robot control by converting user-issued natural language commands into ROS or ROS2 control commands."
+        confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 1203
+    forks: 177
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-04-11T05:40:09Z"
+    pushed_at: "2026-05-05T09:53:27Z"
+    description: Connect AI models like Claude & GPT with robots using MCP and ROS.
+    homepage: https://robotmcp.ai
+    topics:
+      - mcp
+      - mcp-server
+      - modelcontextprotocol
+      - ros
+      - ros-mcp-server
+      - ros2
+      - ros2-mcp-server
+    last_checked_at: "2026-05-05T21:03:25.208Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:25.208Z"
+      bytes: 4281
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that bridges large language models with ROS and ROS2 robots for bidirectional communication, observation, and control without modifying existing robot source code.
+  why_it_matters: It allows robotics developers to connect standard AI coding tools like Claude Code and Cursor directly to physical or simulated robots for natural language debugging and control.
+  mental_damage: We have finally achieved the singularity where your LLM can segfault the robot arm while simultaneously complaining about your codebase's lack of documentation.
+  tags:
+    - llm-integration
+    - mcp
+    - robotics
+    - ros2
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The project is a dedicated MCP server implementation designed to connect robotics middleware with AI models, fitting squarely into the MCP infrastructure category.
+  evidence:
+    - "Repo description explicitly states: 'Connect AI models like Claude & GPT with robots using MCP and ROS.'"
+    - README confirms it is built on the open MCP standard and works with Claude Code, Codex CLI, Gemini CLI, and Cursor.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
 placement:
-  primary_category: null
+  primary_category: mcp
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (1203) exceeded threshold (150)
 processing:
   categorize:
-    status: skipped
-    updated_at: "2026-05-05T21:04:23.169Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-05-05T21:34:47.896Z"
+    cause: null
     next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.704Z"
+    updated_at: "2026-05-05T22:33:31.152Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-05T21:03:25.208Z"
     cause: null
+    next_retry_at: null

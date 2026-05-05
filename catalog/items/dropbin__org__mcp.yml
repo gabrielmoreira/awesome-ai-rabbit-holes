@@ -1,6 +1,6 @@
 id: dropbin__org__mcp
 kind: website
-name: mcp
+name: DropBin
 canonical_url: https://dropbin.org/mcp
 identity: {}
 provenance:
@@ -38,9 +38,9 @@ insights:
   why_it_matters: It serves as a centralized navigation aid for developers looking to find or submit MCP servers to extend AI tooling ecosystems.
   mental_damage: "Another layer of indirection has been added to the stack: a directory, specifically for directories of servers, because apparently we needed a Yelp for protocol adapters."
   tags:
-    - mcp
     - directory
     - ecosystem
+    - mcp
   confidence: medium
 curation:
   status: included
@@ -56,6 +56,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:44:15.620Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.727Z"
@@ -65,11 +73,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:44:15.620Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

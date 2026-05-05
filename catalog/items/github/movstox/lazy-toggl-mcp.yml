@@ -1,6 +1,6 @@
 id: github__movstox__lazy-toggl-mcp
 kind: github-repo
-name: lazy-toggl-mcp
+name: Lazy Toggl MCP
 canonical_url: https://github.com/movstox/lazy-toggl-mcp
 identity:
   github_repo: movstox/lazy-toggl-mcp
@@ -41,10 +41,10 @@ insights:
   why_it_matters: It allows developers to delegate time tracking tasks to MCP-compatible assistants instead of manually switching to the Toggl UI.
   mental_damage: Now your AI agent can bill your client for the exact five minutes you spent arguing with it about a CSS margin.
   tags:
-    - mcp
-    - toggl
-    - time-tracking
     - integrations
+    - mcp
+    - time-tracking
+    - toggl
   confidence: medium
 curation:
   status: included
@@ -60,6 +60,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:39:08.165Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.708Z"
@@ -70,11 +78,3 @@ processing:
     updated_at: "2026-05-05T21:03:47.332Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:39:08.165Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

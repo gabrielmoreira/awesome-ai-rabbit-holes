@@ -1,6 +1,6 @@
 id: github__c-bata__goptuna
 kind: github-repo
-name: goptuna
+name: Goptuna
 canonical_url: https://github.com/c-bata/goptuna
 identity:
   github_repo: c-bata/goptuna
@@ -45,10 +45,10 @@ insights:
   why_it_matters: It allows Go developers to integrate production-grade hyperparameter tuning directly into their applications without switching to Python.
   mental_damage: Move over Python hegemony; now you can over-engineer your goroutine count and MySQL buffers using the same cutting-edge algorithms that took hours to tune in your Jupyter notebook.
   tags:
+    - automl
+    - bayesian-optimization
     - go
     - hyperparameter-optimization
-    - bayesian-optimization
-    - automl
     - ml-ops
   confidence: high
 curation:
@@ -65,6 +65,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (279) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:12:07.345Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.682Z"
@@ -75,11 +83,3 @@ processing:
     updated_at: "2026-05-05T21:01:28.066Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:12:07.345Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

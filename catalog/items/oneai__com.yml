@@ -1,6 +1,6 @@
 id: oneai__com
 kind: website
-name: oneai.com
+name: One AI
 canonical_url: https://oneai.com
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It offers developers APIs and integrations to sync call data with CRMs and internal systems, though it targets sales operations rather than code creation.
   mental_damage: "Just what the modern developer needs: another opaque SaaS platform to integrate with Salesforce so that an AI can cold-call leads faster than a human ever could."
   tags:
+    - integrations
+    - saas
     - sales-ai
     - voice-agent
-    - saas
-    - integrations
   confidence: high
 curation:
   status: excluded
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:46:48.316Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.729Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:46:48.316Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

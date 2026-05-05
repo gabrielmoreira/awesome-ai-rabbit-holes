@@ -1,6 +1,6 @@
 id: github__com__fiddler__labs
 kind: website
-name: fiddler-labs
+name: Fiddler AI
 canonical_url: https://github.com/fiddler-labs
 identity: {}
 provenance:
@@ -39,8 +39,8 @@ insights:
   why_it_matters: It provides developers with utilities to evaluate language models and observe ML behavior, fitting into the operational side of LLMOps workflows.
   mental_damage: Yet another reminder that we now need a dedicated auditing tool just to figure out which of our black-box models is confidently hallucinating in production.
   tags:
-    - llm-eval
     - ai-observability
+    - llm-eval
     - ml-monitoring
   confidence: medium
 curation:
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:44:48.868Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.728Z"
@@ -68,11 +76,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:44:48.868Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

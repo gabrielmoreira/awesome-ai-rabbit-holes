@@ -1,6 +1,6 @@
 id: github__evolvinglmms-lab__lmms-engine
 kind: github-repo
-name: lmms-engine
+name: LMMs-Engine
 canonical_url: https://github.com/evolvinglmms-lab/lmms-engine
 identity:
   github_repo: evolvinglmms-lab/lmms-engine
@@ -46,11 +46,11 @@ insights:
   why_it_matters: It gives developers a streamlined, configuration-driven path to train custom vision-language models without wrestling with fragmented research codebases.
   mental_damage: "Just what the ecosystem needed: another framework to help you spend your GPU budget proving that your cat photos can indeed caption themselves with 99% MFU."
   tags:
-    - multimodal
-    - training
     - fine-tuning
-    - pytorch
     - llm
+    - multimodal
+    - pytorch
+    - training
   confidence: high
 curation:
   status: included
@@ -66,6 +66,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (773) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:18:42.509Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.686Z"
@@ -76,11 +84,3 @@ processing:
     updated_at: "2026-05-05T21:02:06.181Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:18:42.509Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

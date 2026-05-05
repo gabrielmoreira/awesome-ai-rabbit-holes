@@ -1,6 +1,6 @@
 id: github__ebhy__budgetml
 kind: github-repo
-name: budgetml
+name: BudgetML
 canonical_url: https://github.com/ebhy/budgetml
 identity:
   github_repo: ebhy/budgetml
@@ -48,11 +48,11 @@ insights:
   why_it_matters: It lets data scientists and developers skip the DevOps rabbit hole of Docker, SSL, and Kubernetes just to get a prediction API online on a budget.
   mental_damage: We have officially reached the point where even our budget deployment tools are begging for new maintainers while promising 80% savings and 99% uptime on hardware designed to shut down every 24 hours.
   tags:
-    - mlops
     - deployment
-    - inference
-    - gcp
     - fastapi
+    - gcp
+    - inference
+    - mlops
   confidence: high
 curation:
   status: included
@@ -68,6 +68,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (1345) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:17:32.020Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.685Z"
@@ -78,11 +86,3 @@ processing:
     updated_at: "2026-05-05T21:01:59.416Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:17:32.020Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

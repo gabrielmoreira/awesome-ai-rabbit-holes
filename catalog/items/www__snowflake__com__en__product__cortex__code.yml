@@ -1,6 +1,6 @@
 id: www__snowflake__com__en__product__cortex__code
 kind: website
-name: cortex-code
+name: Cortex Code CLI
 canonical_url: https://www.snowflake.com/en/product/cortex-code
 identity: {}
 provenance:
@@ -40,8 +40,8 @@ insights:
   mental_damage: Another closed-source CLI agent enters the arena, proving that the only thing developers love more than writing code is installing a new tool to partially write it for them.
   tags:
     - cli
-    - coding-agent
     - closed-source
+    - coding-agent
     - snowflake
   confidence: medium
 curation:
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:53:22.074Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.734Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:53:22.074Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

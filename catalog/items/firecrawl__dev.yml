@@ -1,6 +1,6 @@
 id: firecrawl__dev
 kind: website
-name: firecrawl.dev
+name: Firecrawl
 canonical_url: https://firecrawl.dev
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It handles the complex plumbing of rendering JavaScript, bypassing anti-bot measures, and mapping site structures so developers can feed reliable web content into AI applications.
   mental_damage: Another essential piece of infrastructure proving that the modern developer experience is mostly just sanitizing the internet so a context window doesn't choke on a nav bar.
   tags:
-    - scraping
-    - llm-ready
     - data-extraction
+    - llm-ready
     - mcp
+    - scraping
   confidence: medium
 curation:
   status: excluded
@@ -56,6 +56,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:44:32.990Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.727Z"
@@ -65,11 +73,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:44:32.990Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

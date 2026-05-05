@@ -1,6 +1,6 @@
 id: github__muvon__octomind
 kind: github-repo
-name: octomind
+name: OctoMind
 canonical_url: https://github.com/muvon/octomind
 identity:
   github_repo: muvon/octomind
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- **[Octomind](https://github.com/Muvon/octomind)** `⭐ 52` — Open-source, model-agnostic AI agent runtime with community tap registry (`developer:rust`, `doctor:blood`, `legal:contracts`), MCP support with runtime self-extension, 13+ providers, and adaptive compression. Written in Rust. Apache-2.0."
         confidence: high
     - id: discovery__octomind__dev__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-05T22:47:06.910Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -39,7 +39,7 @@ provenance:
         surrounding_text: "- [OctoMind-dev/octomind-mcp](https://github.com/OctoMind-dev/octomind-mcp) 📇 ☁️ - lets your preferred AI agent create & run fully managed [Octomind](https://www.octomind.dev/) end-to-end tests from your codebase or other data sources like Jira, Slack or TestRail."
         confidence: high
     - id: discovery__octomind__dev__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-05T22:47:06.910Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -91,11 +91,16 @@ insights:
   why_it_matters: It gives developers a way to run domain-specific coding agents in the terminal with hard cost controls and session memory that survives longer workflows, without wiring MCP servers by hand.
   mental_damage: We have finally reached the point where the headline feature of a coding agent is not that it writes code, but that it will politely stop before invoicing you seven thousand dollars.
   tags:
+    - ci-cd
     - cli
     - coding-agent
-    - mcp
-    - rust
     - cost-control
+    - e2e-testing
+    - mcp
+    - playwright
+    - qa-automation
+    - rust
+    - self-healing
   confidence: high
 curation:
   status: included
@@ -104,6 +109,9 @@ curation:
     - Repo description states 'Plug and play AI agents for any domain' and topics include cli, coding-agent, and mcp.
     - README positions it as a CLI coding agent with specialist agents like aws-debug and session-based coding workflows.
     - Listed in awesome-cli-coding-agents under 'Terminal-native coding agents > Open Source'.
+    - Scraped site states it creates 'Instant test code from simple actions' and handles 'code, structure, and best practices'.
+    - Features 'Self-healing maintenance' where the tool 'automatically updates selectors and flows' to fix tests.
+    - Listed in awesome-ai-coding-tools under the 'Testing and QA' section as an AI-powered testing tool.
 placement:
   primary_category: coding-agents
   section: Terminal & CLI Agents
@@ -121,7 +129,7 @@ processing:
     next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.708Z"
+    updated_at: "2026-05-05T22:47:06.910Z"
     cause: null
     next_retry_at: null
   stars:

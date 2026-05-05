@@ -38,17 +38,24 @@ metadata:
       fetched_at: "2026-05-05T21:02:28.046Z"
       bytes: 2744
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that provides One Piece TCG card search, deck analysis, and set browsing for assistant integrations like Claude Desktop and Claude Code.
+  why_it_matters: It's a clean example of how to build a domain-specific MCP server that wires a community dataset into an AI assistant's context window.
+  mental_damage: "We have finally achieved the singularity: an AI assistant that can optimize your Don!! curve while your actual production code rots in main."
+  tags:
+    - mcp
+    - tcg
+    - node
+    - npx
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The project is a standalone MCP server that exposes One Piece TCG data as tools for AI assistants, which fits the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states 'One Piece TCG MCP server'
+    - README confirms MCP-compatible tools for Claude Desktop and Claude Code
+    - Listed in awesome-mcp-servers under Server Implementations > Gaming
 placement:
-  primary_category: null
+  primary_category: mcp
   section: null
 lifecycle:
   status: incubating
@@ -65,12 +72,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-05T21:22:55.854Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for github__gregario__onepiece-oracle: 你好，我无法给到相关内容。"
+    status: done
+    updated_at: "2026-05-05T22:29:43.099Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v2-baseline
     category_rules_version: 1b6cc5462ecc

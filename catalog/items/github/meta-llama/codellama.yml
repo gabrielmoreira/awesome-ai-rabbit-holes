@@ -1,6 +1,6 @@
 id: github__meta-llama__codellama
 kind: github-repo
-name: codellama
+name: Code Llama
 canonical_url: https://github.com/meta-llama/codellama
 identity:
   github_repo: meta-llama/codellama
@@ -37,19 +37,23 @@ metadata:
       fetched_at: "2026-05-05T21:03:36.450Z"
       bytes: 8837
 insights:
-  summary: Inference code and minimal example scripts for loading and running Meta's Code Llama family of code-specialized large language models locally.
-  why_it_matters: It provides developers with the weights and code to run state-of-the-art, open, code-focused models for infilling, instruction following, and long-context code tasks on their own hardware.
-  mental_damage: Nothing says 'cutting-edge AI' quite like a repository that is already archived before your downloaded weights finish their 24-hour expiry timer.
+  summary: A minimal inference repository for the Code Llama family of open large language models for code, fine-tuned from Llama 2 by Meta.
+  why_it_matters: It provides the baseline weights and inference code for developers looking to run state-of-the-art, local code generation models without relying on hosted APIs.
+  mental_damage: "Just what the ecosystem needed: another reason to download 131GB of weights, wait 48 hours for a signed URL, and realize your GPU is still too small."
   tags:
-    - local-models
-    - inference
     - code-generation
+    - inference
     - llama
+    - local-models
+    - meta
   confidence: high
 curation:
   status: excluded
-  reason: The repository is archived and serves only as minimal inference boilerplate for a model family, not as an active developer-facing tool, agent, or framework for our catalog.
+  reason: The repository is archived and serves only as minimal inference code for a foundational model, which falls outside the scope of practical developer tooling and into general ML research infrastructure.
   evidence:
+    - Repository is marked as archived, indicating it is no longer actively maintained.
+    - Description and README state it is a 'minimal example to load Code Llama models and run inference', not a developer tool or agent.
+    - Appears in awesome lists under 'Code Models', reinforcing that it is a model weight repo rather than a coding workflow tool.
     - Repo description states it is 'Inference code for CodeLlama models', and README confirms it is a 'minimal example to load Code Llama models and run inference.'
     - "The repository has archived: yes, indicating it is no longer actively maintained or intended for new adoption."
     - The project is a model release artifact rather than a practical AI coding tool, agent, IDE, or developer workflow product.
@@ -70,7 +74,7 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.687Z"
+    updated_at: "2026-05-05T20:48:55.441Z"
     cause: null
     next_retry_at: null
   stars:

@@ -1,6 +1,6 @@
 id: github__helicone__helicone
 kind: github-repo
-name: helicone
+name: Helicone
 canonical_url: https://github.com/helicone/helicone
 identity:
   github_repo: helicone/helicone
@@ -61,8 +61,8 @@ insights:
   why_it_matters: It gives developers a centralized control plane to monitor token usage, debug agent sessions, and manage prompt versions across 100+ models without touching core application logic.
   mental_damage: Yet another lifecycle stage where you realize your 'simple' AI integration now requires a dedicated dashboard, a proxy worker, and a ClickHouse instance just to figure out why your agent spent $40 hallucinating JSON.
   tags:
-    - llm-observability
     - ai-gateway
+    - llm-observability
     - monitoring
     - prompt-management
     - self-hosted
@@ -81,6 +81,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (5609) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:23:43.750Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.690Z"
@@ -91,11 +99,3 @@ processing:
     updated_at: "2026-05-05T21:02:32.471Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:23:43.750Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

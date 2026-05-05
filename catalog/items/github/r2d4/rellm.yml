@@ -1,6 +1,6 @@
 id: github__r2d4__rellm
 kind: github-repo
-name: rellm
+name: ReLLM
 canonical_url: https://github.com/r2d4/rellm
 identity:
   github_repo: r2d4/rellm
@@ -51,19 +51,21 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: skipped
+    updated_at: "2026-05-05T23:08:18.952Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.714Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
-    cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T21:04:23.169Z"
+    status: deferred
+    updated_at: "2026-05-05T23:08:17.229Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for r2d4/rellm

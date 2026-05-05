@@ -1,6 +1,6 @@
 id: www__hyperwriteai__com__self__operating__computer
 kind: website
-name: self-operating-computer
+name: Self-operating computer
 canonical_url: https://www.hyperwriteai.com/self-operating-computer
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It demonstrates a developer-facing approach to agentic workflows where the AI interacts with the OS interface directly, bypassing API constraints to automate complex GUI-based tasks.
   mental_damage: We have finally reached the point where we are teaching robots to click through cookie banners and decipher 1990s-era Excel menus just so we don't have to.
   tags:
-    - computer-use
     - agent-framework
-    - gpt-4v
     - automation
+    - computer-use
+    - gpt-4v
   confidence: medium
 curation:
   status: included
@@ -56,6 +56,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:51:25.536Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.732Z"
@@ -65,11 +73,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:51:25.536Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

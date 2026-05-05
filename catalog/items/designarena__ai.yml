@@ -1,6 +1,6 @@
 id: designarena__ai
 kind: website
-name: designarena.ai
+name: Design Arena
 canonical_url: https://designarena.ai
 identity: {}
 provenance:
@@ -39,8 +39,8 @@ insights:
   mental_damage: We now have a leaderboard for algorithmic taste, because apparently the only thing worse than arguing about design with a human is arguing about it with a leaderboard.
   tags:
     - benchmark
-    - eval
     - design
+    - eval
     - model-comparison
   confidence: high
 curation:
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:43:36.660Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.727Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:43:36.660Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

@@ -1,6 +1,6 @@
 id: www__glideapps__com
 kind: website
-name: www.glideapps.com
+name: Glide
 canonical_url: https://www.glideapps.com
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It lets developers and teams rapidly prototype and ship internal operational apps without writing boilerplate CRUD code, using AI to generate app structures and automate workflows.
   mental_damage: Another reminder that while we debate agentic loops and context windows, the rest of the world is happily running their supply chain on a Google Sheet wrapper with a shiny UI.
   tags:
-    - no-code
+    - ai-workflows
     - app-builder
     - internal-tools
-    - ai-workflows
+    - no-code
   confidence: high
 curation:
   status: included
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:51:00.237Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.732Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:51:00.237Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

@@ -1,6 +1,6 @@
 id: github__webflow__mcp-server
 kind: github-repo
-name: ai
+name: Webflow AI
 canonical_url: https://github.com/webflow/mcp-server
 identity:
   github_repo: webflow/mcp-server
@@ -22,7 +22,7 @@ provenance:
         surrounding_text: "- **[Webflow](https://github.com/webflow/mcp-server)** - Interact with Webflow APIs to list and edit your site and CMS data."
         confidence: high
     - id: discovery__webflow__com__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-05T22:47:06.910Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -57,6 +57,7 @@ insights:
     - ai-site-generation
     - mcp
     - prompt-to-site
+    - site-builder
     - web-builders
     - webflow
   confidence: high
@@ -67,6 +68,8 @@ curation:
     - Scraped site context describes an 'AI site builder' that generates entire websites from a basic prompt.
     - Features include generating React code components and CMS items directly within the Webflow platform.
     - Listed under 'App Builders' in the awesome-ai-coding-tools directory.
+    - Scraped site context describes an 'AI site builder' that generates entire websites from a basic prompt without technical expertise.
+    - Features include generating React code components, CMS items, and copy directly within the Webflow platform.
 placement:
   primary_category: app-builders
   section: null
@@ -76,15 +79,15 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-05-05T19:49:15.451Z"
+    updated_at: "2026-05-05T20:49:43.813Z"
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
+    category_rules_version: 1b6cc5462ecc
     next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.731Z"
+    updated_at: "2026-05-05T22:47:06.911Z"
     cause: null
     next_retry_at: null
   stars:

@@ -1,6 +1,6 @@
 id: code__visualstudio__com__docs__copilot__chat__copilot__chat
 kind: website
-name: copilot-chat
+name: GitHub Copilot Chat Documentation
 canonical_url: https://code.visualstudio.com/docs/copilot/chat/copilot-chat
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It integrates chat-driven coding, inline edits, context management, and model selection into the daily IDE workflow, reducing context switching for developers.
   mental_damage: We now have chat surfaces, subagents, and checkpoints inside the editor, yet somehow we still spend forty minutes crafting the perfect prompt to rename a variable.
   tags:
-    - copilot
-    - vscode
     - chat
+    - copilot
     - ide
+    - vscode
   confidence: high
 curation:
   status: included
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:42:55.840Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.726Z"
@@ -68,11 +76,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:42:55.840Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

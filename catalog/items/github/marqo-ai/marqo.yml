@@ -1,6 +1,6 @@
 id: github__marqo-ai__marqo
 kind: github-repo
-name: marqo
+name: Marqo
 canonical_url: https://github.com/marqo-ai/marqo
 identity:
   github_repo: marqo-ai/marqo
@@ -46,10 +46,10 @@ insights:
   why_it_matters: Developers building commerce experiences can use it to replace keyword search with intent-aware retrieval without training custom ML models from scratch.
   mental_damage: Yet another reminder that while we automate search relevance, we still haven't figured out how to make the search bar on the internal dev docs return the right result.
   tags:
-    - search
-    - vector-search
     - ecommerce
+    - search
     - semantic-search
+    - vector-search
   confidence: high
 curation:
   status: excluded
@@ -65,6 +65,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (5026) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:36:01.874Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.705Z"
@@ -75,11 +83,3 @@ processing:
     updated_at: "2026-05-05T21:03:30.835Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:36:01.874Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

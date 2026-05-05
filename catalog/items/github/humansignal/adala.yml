@@ -1,6 +1,6 @@
 id: github__humansignal__adala
 kind: github-repo
-name: adala
+name: Adala
 canonical_url: https://github.com/humansignal/adala
 identity:
   github_repo: humansignal/adala
@@ -48,8 +48,8 @@ insights:
   tags:
     - agents
     - data-labeling
-    - llm
     - framework
+    - llm
     - python
   confidence: high
 curation:
@@ -66,6 +66,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (1424) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:24:47.151Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.697Z"
@@ -76,11 +84,3 @@ processing:
     updated_at: "2026-05-05T21:02:38.123Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:24:47.151Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

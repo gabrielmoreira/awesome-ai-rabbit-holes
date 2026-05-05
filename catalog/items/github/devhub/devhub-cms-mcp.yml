@@ -21,6 +21,21 @@ provenance:
         extracted_url: https://github.com/devhub/devhub-cms-mcp
         surrounding_text: "- **[DevHub](https://github.com/devhub/devhub-cms-mcp)** - Manage and utilize website content within the [DevHub](https://www.devhub.com) CMS platform"
         confidence: high
+    - id: discovery__www__devhub__com__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T22:47:06.910Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: DevHub
+        extracted_url: https://www.devhub.com
+        surrounding_text: "- **[DevHub](https://github.com/devhub/devhub-cms-mcp)** - Manage and utilize website content within the [DevHub](https://www.devhub.com) CMS platform"
+        confidence: high
 metadata:
   github:
     stars: 9
@@ -41,10 +56,13 @@ insights:
   why_it_matters: It lets developers delegate CMS CRUD operations to AI agents inside their existing IDE or chat workflows instead of writing API integration code.
   mental_damage: We have successfully abstracted content management into a protocol so that an LLM can update business hours while you debug why the MCP server lost its API credentials.
   tags:
-    - mcp
     - cms
     - devhub
+    - franchise
+    - headless
     - integration
+    - mcp
+    - multi-location
   confidence: high
 curation:
   status: included
@@ -60,16 +78,6 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  discover:
-    status: done
-    updated_at: "2026-05-05T19:41:00.684Z"
-    cause: null
-    next_retry_at: null
-  stars:
-    status: done
-    updated_at: "2026-05-05T21:01:52.491Z"
-    cause: null
-    next_retry_at: null
   categorize:
     status: done
     updated_at: "2026-05-05T21:16:16.410Z"
@@ -78,3 +86,13 @@ processing:
     attempts: 1
     prompt_version: catalog-categorize-v2-baseline
     category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T22:47:06.911Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:52.491Z"
+    cause: null
+    next_retry_at: null

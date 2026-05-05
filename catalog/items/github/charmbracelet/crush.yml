@@ -1,6 +1,6 @@
 id: github__charmbracelet__crush
 kind: github-repo
-name: crush
+name: Crush
 canonical_url: https://github.com/charmbracelet/crush
 identity:
   github_repo: charmbracelet/crush
@@ -47,10 +47,10 @@ insights:
   mental_damage: Yet another opportunity to stare at a terminal, waiting for an LLM to 'help' you write code while you question your own utility as a developer.
   tags:
     - cli
-    - terminal
     - coding-agent
     - lsp
     - mcp
+    - terminal
   confidence: high
 curation:
   status: included
@@ -66,6 +66,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (23882) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:12:51.283Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.682Z"
@@ -76,11 +84,3 @@ processing:
     updated_at: "2026-05-05T21:01:32.367Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:12:51.283Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

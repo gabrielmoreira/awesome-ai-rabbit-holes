@@ -1,6 +1,6 @@
 id: github__turboderp__exllama
 kind: github-repo
-name: exllama
+name: ExLlama
 canonical_url: https://github.com/turboderp/exllama
 identity:
   github_repo: turboderp/exllama
@@ -51,6 +51,13 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: skipped
+    updated_at: "2026-05-05T23:08:18.952Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.722Z"
@@ -60,10 +67,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T21:04:23.170Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null

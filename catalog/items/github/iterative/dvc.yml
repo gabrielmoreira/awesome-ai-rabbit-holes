@@ -1,13 +1,13 @@
 id: github__iterative__dvc
 kind: github-repo
-name: dvc
+name: DVC
 canonical_url: https://github.com/iterative/dvc
 identity:
   github_repo: iterative/dvc
 provenance:
   discoveries:
     - id: discovery__github__iterative__dvc__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T20:48:55.437Z"
+      discovered_at: "2026-05-05T22:33:31.148Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -40,50 +40,44 @@ metadata:
       - machine-learning
       - reproducibility
       - unstructured-data
-    last_checked_at: "2026-05-05T21:02:48.090Z"
+    last_checked_at: "2026-05-05T23:07:55.316Z"
     readme:
-      fetched_at: "2026-05-05T21:02:48.090Z"
+      fetched_at: "2026-05-05T23:07:55.316Z"
       bytes: 12874
 insights:
-  summary: DVC is a command-line tool and VS Code extension for versioning data and machine learning models, managing lightweight pipelines, and tracking experiments locally within a Git repository.
-  why_it_matters: It brings Git-like versioning and pipeline reproducibility to ML assets, allowing developers to manage data, model iterations, and experiment lifecycles alongside their source code.
-  mental_damage: Finally, you can version your 50GB dataset in Git, provided you enjoy the existential dread of configuring yet another remote storage endpoint.
-  tags:
-    - mlops
-    - data-versioning
-    - experiments
-    - gitops
-    - cli
-  confidence: high
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
 curation:
-  status: included
-  reason: It is a code-first SDK and CLI framework for embedding ML lifecycle management into software projects, fitting the AI Frameworks category rather than a coding agent or app builder.
-  evidence:
-    - Repo description identifies it as 'Data Versioning and ML Experiments' with topics like 'developer-tools'.
-    - README defines it as a 'command line tool' and 'VS Code Extension' to version data, iterate pipelines, and track experiments.
-    - Seen in Awesome-LLMOps under 'Data > Data Management', confirming its place in the ML infrastructure stack.
+  status: pending
+  reason: null
+  evidence: []
 placement:
-  primary_category: ai-frameworks
+  primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
   reason: Stars (15578) exceeded threshold (150)
 processing:
+  categorize:
+    status: deferred
+    updated_at: "2026-05-05T23:08:33.635Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-05-06T00:08:33.635Z"
+    attempts: 0
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.442Z"
+    updated_at: "2026-05-05T22:33:31.151Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:48.090Z"
+    updated_at: "2026-05-05T23:07:55.316Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:26:48.924Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

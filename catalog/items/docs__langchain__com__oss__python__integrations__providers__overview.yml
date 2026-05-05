@@ -1,6 +1,6 @@
 id: docs__langchain__com__oss__python__integrations__providers__overview
 kind: website
-name: overview
+name: Langchain Data Analyst
 canonical_url: https://docs.langchain.com/oss/python/integrations/providers/overview
 identity: {}
 provenance:
@@ -39,11 +39,11 @@ insights:
   why_it_matters: It is the canonical reference developers use to discover and swap provider-specific packages while keeping a consistent LangChain API.
   mental_damage: You now have a single page documenting a thousand ways to integrate a model you will inevitably swap three weeks from now when the next provider drops a new context window.
   tags:
-    - langchain
-    - integrations
-    - python
-    - llm-providers
     - docs
+    - integrations
+    - langchain
+    - llm-providers
+    - python
   confidence: high
 curation:
   status: excluded
@@ -59,6 +59,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:44:05.363Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.727Z"
@@ -70,11 +78,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:44:05.363Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

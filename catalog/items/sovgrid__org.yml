@@ -1,6 +1,6 @@
 id: sovgrid__org
 kind: website
-name: sovgrid.org
+name: Sovereign AI Blog
 canonical_url: https://sovgrid.org
 identity: {}
 provenance:
@@ -39,10 +39,10 @@ insights:
   why_it_matters: Provides practical, battle-tested documentation for developers attempting to self-host large-scale AI models and build local sovereign AI stacks.
   mental_damage: "The ultimate power move: spending three hours debugging an AttributeError just so you can tell your colleagues your chatbot runs on hardware that draws more watts than a space heater."
   tags:
+    - blog
+    - infrastructure
     - local-ai
     - self-hosted
-    - infrastructure
-    - blog
     - sovereign-ai
   confidence: medium
 curation:
@@ -59,6 +59,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:48:15.016Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.730Z"
@@ -68,11 +76,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:48:15.016Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

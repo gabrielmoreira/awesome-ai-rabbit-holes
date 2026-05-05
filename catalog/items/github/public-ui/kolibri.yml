@@ -24,17 +24,38 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 259
+    forks: 46
+    license: EUPL-1.2
+    archived: false
+    created_at: "2022-10-12T06:16:11Z"
+    pushed_at: "2026-05-05T18:38:44Z"
+    description: The accessible HTML-Standard
+    homepage: https://public-ui.github.io
+    topics:
+      - a11y
+      - accessibility
+      - angular
+      - barrierefreiheit
+      - client-side-rendering
+      - csr
+      - design-system
+      - react
+      - service-side
+      - service-side-generation
+      - service-side-rendering
+      - solid-js
+      - ssg
+      - ssr
+      - styleguide
+      - theming
+      - ui
+      - vuejs
+      - webcomponents
+    last_checked_at: "2026-05-05T23:08:11.478Z"
+    readme:
+      fetched_at: "2026-05-05T23:08:11.478Z"
+      bytes: 6476
 insights:
   summary: null
   why_it_matters: null
@@ -49,8 +70,8 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (259) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -58,13 +79,17 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-05T23:08:11.478Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T21:04:23.169Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-05-05T23:08:33.635Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-05-06T00:08:33.635Z"
+    attempts: 0
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

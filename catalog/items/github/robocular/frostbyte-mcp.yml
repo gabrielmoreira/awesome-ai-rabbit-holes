@@ -23,47 +23,73 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 1
+    forks: 2
+    license: MIT
+    archived: false
+    created_at: "2026-03-04T23:04:11Z"
+    pushed_at: "2026-03-05T18:28:07Z"
+    description: MCP server giving AI agents access to 40+ developer APIs — geolocation, crypto, screenshots, scraping, DNS, code execution, and more
+    homepage: https://ozorown.github.io
+    topics:
+      - ai-agent
+      - api
+      - claude
+      - code-execution
+      - crypto
+      - cursor
+      - developer-tools
+      - dns
+      - geolocation
+      - mcp
+      - model-context-protocol
+      - screenshot
+      - web-scraping
+      - windsurf
+    last_checked_at: "2026-05-05T21:04:10.274Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:10.274Z"
+      bytes: 4802
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that exposes 40+ developer APIs—including geolocation, code execution, web scraping, and DNS lookups—to AI agents via SSE, Streamable HTTP, or stdio transports.
+  why_it_matters: It turns any MCP-compatible client into a gateway for instant API access without writing integration code or managing multiple service keys.
+  mental_damage: We have successfully abstracted away the 'burden' of reading API documentation by making our AI agents the ones that now need to figure out which of these 40 tools actually does the thing.
+  tags:
+    - agent-infrastructure
+    - api-gateway
+    - cursor
+    - developer-tools
+    - mcp
+  confidence: medium
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The project is a Model Context Protocol server that provides tooling infrastructure for AI agents, fitting cleanly into the MCP category.
+  evidence:
+    - "Repo description explicitly states: 'MCP server giving AI agents access to 40+ developer APIs'."
+    - README details SSE, Streamable HTTP, and stdio transports for Claude, Cursor, Windsurf, and VS Code.
+    - Listed in awesome-mcp-list under the 'Developer Tools' section, confirming MCP ecosystem relevance.
 placement:
-  primary_category: null
+  primary_category: mcp
   section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
-    status: skipped
-    updated_at: "2026-05-05T21:04:23.169Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-05-05T21:43:28.326Z"
+    cause: null
     next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.712Z"
+    updated_at: "2026-05-05T20:48:55.443Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-05T21:04:10.274Z"
     cause: null
+    next_retry_at: null

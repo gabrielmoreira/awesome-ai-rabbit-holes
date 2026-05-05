@@ -1,6 +1,6 @@
 id: www__youtube__com
 kind: website
-name: www.youtube.com
+name: Building Autonomous Agents with LangChain
 canonical_url: https://www.youtube.com
 identity: {}
 provenance:
@@ -71,9 +71,9 @@ insights:
   why_it_matters: It hosts tutorials, conference talks, and course content that developers use to learn new tools and frameworks.
   mental_damage: The primary hazard is the 'just one more video' loop that transforms a 20-minute bug fix into a three-hour descent into algorithmically recommended irrelevance.
   tags:
-    - video
-    - learning
     - content-platform
+    - learning
+    - video
   confidence: high
 curation:
   status: excluded
@@ -89,6 +89,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:54:15.076Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.662Z"
@@ -98,11 +106,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:54:15.076Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

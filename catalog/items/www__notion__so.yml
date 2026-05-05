@@ -1,6 +1,6 @@
 id: www__notion__so
 kind: website
-name: www.notion.so
+name: OpenRAG
 canonical_url: https://www.notion.so
 identity: {}
 provenance:
@@ -39,9 +39,9 @@ insights:
   mental_damage: We have successfully abstracted software development to the point where the 'IDE' is now a wiki page with a chat box.
   tags:
     - agent-orchestration
-    - workspace
-    - collaboration
     - ai-agents
+    - collaboration
+    - workspace
   confidence: high
 curation:
   status: excluded
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:52:14.918Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.733Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:52:14.918Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

@@ -1,6 +1,6 @@
 id: github__flyteorg__flyte
 kind: github-repo
-name: flyte
+name: Flyte
 canonical_url: https://github.com/flyteorg/flyte
 identity:
   github_repo: flyteorg/flyte
@@ -62,11 +62,11 @@ insights:
   why_it_matters: It lets developers define production-grade AI and data workflows in pure Python while handling the heavy lifting of distributed execution, caching, and retries.
   mental_damage: Yet another chance to wonder if your MLOps stack really needs a distributed orchestrator, or if you just enjoy rewriting your training loop in YAML-adjacent abstractions.
   tags:
+    - agents
+    - kubernetes
     - mlops
     - orchestration
     - python
-    - kubernetes
-    - agents
   confidence: high
 curation:
   status: included
@@ -82,6 +82,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (6989) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:19:55.011Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.687Z"
@@ -92,11 +100,3 @@ processing:
     updated_at: "2026-05-05T21:02:13.277Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:19:55.011Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

@@ -1,6 +1,6 @@
 id: github__different-ai__embedbase
 kind: github-repo
-name: embedbase
+name: Embedbase
 canonical_url: https://github.com/different-ai/embedbase
 identity:
   github_repo: different-ai/embedbase
@@ -54,10 +54,10 @@ insights:
   mental_damage: Yet another abstraction layer promising to save you from the terrifying complexity of running a vector database, provided you're comfortable handing your data to a hosted API that might vanish faster than your last side project.
   tags:
     - embeddings
-    - vectordb
     - llm-api
     - sdk
     - semantic-search
+    - vectordb
   confidence: high
 curation:
   status: included
@@ -73,6 +73,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (522) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:16:20.109Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.684Z"
@@ -83,11 +91,3 @@ processing:
     updated_at: "2026-05-05T21:01:53.266Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:16:20.109Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

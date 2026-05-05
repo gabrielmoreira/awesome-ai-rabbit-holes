@@ -1,6 +1,6 @@
 id: github__internlm__mindsearch
 kind: github-repo
-name: mindsearch
+name: MindSearch
 canonical_url: https://github.com/internlm/mindsearch
 identity:
   github_repo: internlm/mindsearch
@@ -67,10 +67,10 @@ insights:
   why_it_matters: Developers can self-host a Perplexity-style search engine, swapping in custom LLMs and search APIs to build deep research capabilities into their own applications.
   mental_damage: Yet another opportunity to realize that while the agents are great at parallel searching, you're still the one manually aggregating why the four different API keys failed.
   tags:
-    - multi-agent
-    - web-search
     - llm-framework
+    - multi-agent
     - research
+    - web-search
   confidence: high
 curation:
   status: included
@@ -86,6 +86,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (6848) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:26:24.847Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.667Z"
@@ -96,11 +104,3 @@ processing:
     updated_at: "2026-05-05T21:02:45.793Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:26:24.847Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

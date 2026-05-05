@@ -1,6 +1,6 @@
 id: github__paddlepaddle__paddleocr
 kind: github-repo
-name: paddleocr
+name: PaddleOCR
 canonical_url: https://github.com/paddlepaddle/paddleocr
 identity:
   github_repo: paddlepaddle/paddleocr
@@ -54,11 +54,11 @@ insights:
   why_it_matters: It provides the foundational document-parsing layer needed to feed clean, structured data into RAG pipelines, agents, and other LLM applications.
   mental_damage: Yet another reminder that while models can debate philosophy, we are still writing 70,000-star libraries just to teach computers to read a tilted PDF.
   tags:
-    - ocr
     - document-parsing
-    - rag
-    - pdf-extraction
     - local-ai
+    - ocr
+    - pdf-extraction
+    - rag
   confidence: high
 curation:
   status: included
@@ -74,6 +74,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (77117) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:43:37.100Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.712Z"
@@ -84,11 +92,3 @@ processing:
     updated_at: "2026-05-05T21:04:11.030Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:43:37.100Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

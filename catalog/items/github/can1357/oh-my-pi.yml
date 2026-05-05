@@ -1,6 +1,6 @@
 id: github__can1357__oh-my-pi
 kind: github-repo
-name: oh-my-pi
+name: OH-MY-PI
 canonical_url: https://github.com/can1357/oh-my-pi
 identity:
   github_repo: can1357/oh-my-pi
@@ -59,9 +59,9 @@ insights:
   tags:
     - cli
     - coding-agent
-    - terminal
     - multi-provider
     - rust
+    - terminal
   confidence: high
 curation:
   status: included
@@ -77,6 +77,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (3959) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:12:23.730Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.682Z"
@@ -87,11 +95,3 @@ processing:
     updated_at: "2026-05-05T21:01:29.791Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:12:23.730Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

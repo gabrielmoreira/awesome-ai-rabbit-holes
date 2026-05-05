@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__brand-system__brandsystem-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T20:48:55.437Z"
+      discovered_at: "2026-05-05T22:33:31.148Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,29 +33,22 @@ metadata:
     description: MCP server for progressive brand governance — extract, compile, and audit brand identity systems
     homepage: https://brandsystem-mcp.vercel.app
     topics: []
-    last_checked_at: "2026-05-05T21:01:24.947Z"
+    last_checked_at: "2026-05-05T23:07:44.644Z"
     readme:
-      fetched_at: "2026-05-05T21:01:24.947Z"
+      fetched_at: "2026-05-05T23:07:44.644Z"
       bytes: 33173
 insights:
-  summary: An MCP server that extracts brand identity from websites, Figma, and PDFs, then compiles it into a portable .brand/ directory for consumption by AI coding and design tools.
-  why_it_matters: It allows developers to stop pasting 400 tokens of brand guidelines into every prompt by packaging governance, tokens, and voice rules into a single runtime file that Claude Code, Cursor, and ChatGPT can load natively.
-  mental_damage: We have successfully reached the point where we need a dedicated server to remind the AI that your logo is blue and your brand voice isn't 'competent generalist'.
-  tags:
-    - mcp
-    - brand-governance
-    - context-engineering
-    - design-tokens
-  confidence: high
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
 curation:
-  status: included
-  reason: The project is explicitly an MCP server designed to provide brand context to developer tools, fitting cleanly into the MCP infrastructure category.
-  evidence:
-    - Repo description identifies it as an 'MCP server for progressive brand governance'.
-    - README details a tool that compiles a .brand/ directory and brand-runtime.json for clients like Claude Code, Cursor, and ChatGPT.
-    - Listed in awesome-mcp-servers under the 'Marketing' section, confirming its identity as an MCP implementation.
+  status: pending
+  reason: null
+  evidence: []
 placement:
-  primary_category: mcp
+  primary_category: null
   section: null
 lifecycle:
   status: incubating
@@ -63,19 +56,21 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.440Z"
+    updated_at: "2026-05-05T22:33:31.150Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:24.947Z"
+    updated_at: "2026-05-05T23:07:44.644Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-05T21:11:32.944Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
+    status: deferred
+    updated_at: "2026-05-05T23:08:33.635Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-05-06T00:08:33.635Z"
+    attempts: 0
     prompt_version: catalog-categorize-v2-baseline
     category_rules_version: 1b6cc5462ecc

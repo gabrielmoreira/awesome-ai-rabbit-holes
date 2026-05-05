@@ -1,13 +1,13 @@
 id: github__openchatai__openchat
 kind: github-repo
-name: openchat
+name: OpenChat
 canonical_url: https://github.com/openchatai/openchat
 identity:
   github_repo: openchatai/openchat
 provenance:
   discoveries:
     - id: discovery__github__openchatai__openchat__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-05T20:48:55.437Z"
+      discovered_at: "2026-05-05T22:33:31.148Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -33,27 +33,20 @@ metadata:
     description: LLMs custom-chatbots console ⚡
     homepage: https://open.cx
     topics: []
-    last_checked_at: "2026-05-05T21:04:04.995Z"
+    last_checked_at: "2026-05-05T23:08:03.865Z"
     readme:
-      fetched_at: "2026-05-05T21:04:04.995Z"
+      fetched_at: "2026-05-05T23:08:03.865Z"
       bytes: 11047
 insights:
-  summary: OpenChat is an archived, self-hosted chatbot console for creating customized GPT-powered chatbots with support for ingesting codebases, PDFs, and websites as data sources.
-  why_it_matters: It offered developers a local hub to build and embed RAG-based chatbots using their own code and documentation as context before the ecosystem standardized on newer stacks.
-  mental_damage: Just when you finished wrapping your head around LangChain, you discover the 'central hub' you deployed six months ago is now a digital ghost town in a GitHub archive.
-  tags:
-    - chatbot
-    - rag
-    - local-ai
-    - langchain
-  confidence: high
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
 curation:
-  status: excluded
-  reason: The repository is archived and the project appears to be abandoned, making it unsuitable for a curated catalog of active developer tooling.
-  evidence:
-    - "Repo status is explicitly 'archived: yes'."
-    - Last push was in February 2024, with no signs of active maintenance since.
-    - Appears in awesome-langchain as a chatbot project, but the core product is a user-facing chatbot console rather than a deep developer workflow integration.
+  status: pending
+  reason: null
+  evidence: []
 placement:
   primary_category: null
   section: null
@@ -61,21 +54,23 @@ lifecycle:
   status: needs_review
   reason: Repository is archived
 processing:
+  categorize:
+    status: deferred
+    updated_at: "2026-05-05T23:08:33.635Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-05-06T00:08:33.635Z"
+    attempts: 0
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.443Z"
+    updated_at: "2026-05-05T22:33:31.151Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:04.995Z"
+    updated_at: "2026-05-05T23:08:03.865Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:42:34.093Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

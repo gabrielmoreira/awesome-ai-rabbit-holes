@@ -1,6 +1,6 @@
 id: github__christopherkarani__swarm
 kind: github-repo
-name: swarm
+name: Swarm
 canonical_url: https://github.com/christopherkarani/swarm
 identity:
   github_repo: christopherkarani/swarm
@@ -61,11 +61,11 @@ insights:
   why_it_matters: It lets Swift developers build agentic systems using native concurrency and familiar tooling while targeting Apple platforms, Linux, or local inference backends.
   mental_damage: You can now orchestrate autonomous agents on your watch, because apparently your wrist deserves crash recovery and durable DAGs too.
   tags:
-    - swift
     - agents
-    - on-device
     - framework
     - multi-agent
+    - on-device
+    - swift
   confidence: high
 curation:
   status: included
@@ -81,6 +81,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (472) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:13:04.796Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.682Z"
@@ -91,11 +99,3 @@ processing:
     updated_at: "2026-05-05T21:01:33.706Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:13:04.796Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

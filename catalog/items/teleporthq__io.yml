@@ -1,6 +1,6 @@
 id: teleporthq__io
 kind: website
-name: teleporthq.io
+name: TeleportHQ
 canonical_url: https://teleporthq.io
 identity: {}
 provenance:
@@ -38,11 +38,11 @@ insights:
   why_it_matters: It allows developers to rapidly prototype and ship production-ready static websites and UI components by converting Figma designs or text prompts directly into code for frameworks like React, Angular, and Vue.
   mental_damage: Another 'AI-powered' builder promising to bridge the design-developer gap, ensuring you can now spend your afternoon arguing with a drag-and-drop editor about margin pixels instead of writing CSS.
   tags:
-    - low-code
-    - website-builder
     - figma-to-code
+    - low-code
     - static-site
     - ui-generator
+    - website-builder
   confidence: high
 curation:
   status: included
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:48:36.008Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.731Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:48:36.008Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

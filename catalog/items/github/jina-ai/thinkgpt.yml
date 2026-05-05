@@ -1,6 +1,6 @@
 id: github__jina-ai__thinkgpt
 kind: github-repo
-name: thinkgpt
+name: ThinkGPT
 canonical_url: https://github.com/jina-ai/thinkgpt
 identity:
   github_repo: jina-ai/thinkgpt
@@ -38,20 +38,25 @@ metadata:
       fetched_at: "2026-05-05T21:02:55.720Z"
       bytes: 8838
 insights:
-  summary: ThinkGPT is a Python library that provides Chain of Thoughts building blocks—such as long-term memory, self-refinement, knowledge compression, and natural language conditions—for enhancing LLM capabilities in code.
-  why_it_matters: It gives developers structured, importable primitives to add reasoning, memory, and self-healing behaviors to their own LLM-powered applications without starting from scratch.
-  mental_damage: Another library promising to push your LLM beyond its limits, just in case you were worried your code didn't have enough non-deterministic thinking already.
+  summary: ThinkGPT is a Python library that implements Chain of Thoughts, memory, and reasoning primitives to extend LLM capabilities with techniques like self-refinement and knowledge compression.
+  why_it_matters: It provides developers with importable building blocks to solve limited context windows and add higher-order reasoning to their own LLM-powered applications.
+  mental_damage: Yet another reminder that the industry is frantically building external brains to compensate for the fact that our models still can't remember what they did five minutes ago.
   tags:
-    - python
     - chain-of-thought
+    - library
+    - llm
     - llm-library
     - memory
+    - python
     - reasoning
   confidence: high
 curation:
   status: included
-  reason: It is a code-first SDK providing importable building blocks for developers to embed reasoning and memory into their own applications, which fits the AI Frameworks category.
+  reason: The project is a code-first library and SDK that developers import to build LLM features, fitting the AI Frameworks and SDKs category rather than a user-facing agent or app builder.
   evidence:
+    - Repo description states it is 'Agent techniques to augment your LLM', framing it as a library.
+    - README explicitly describes it as 'a Python library aimed at implementing Chain of Thoughts for Large Language Models (LLMs)' with a pythonic API.
+    - Source list context confirms inclusion in awesome-langchain under 'Tools > Agents' as a project using the framework.
     - Repo description states it is for 'Agent techniques to augment your LLM' and the README confirms it is a 'Python library'.
     - Features are implemented as importable methods like llm.memorize(), llm.remember(), and llm.refine().
     - Created in April 2023 and last pushed in May 2024, showing it is an established, active library.
@@ -72,7 +77,7 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.677Z"
+    updated_at: "2026-05-05T20:48:55.440Z"
     cause: null
     next_retry_at: null
   stars:

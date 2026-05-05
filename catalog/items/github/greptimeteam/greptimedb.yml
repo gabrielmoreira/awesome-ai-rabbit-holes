@@ -1,6 +1,6 @@
 id: github__greptimeteam__greptimedb
 kind: github-repo
-name: greptimedb
+name: GreptimeDB
 canonical_url: https://github.com/greptimeteam/greptimedb
 identity:
   github_repo: greptimeteam/greptimedb
@@ -61,9 +61,9 @@ insights:
   why_it_matters: It offers a specialized backend for AI and LLM observability, allowing developers to store and analyze high-volume agent traces and token metrics using OpenTelemetry GenAI conventions.
   mental_damage: Because nothing says 'Observability 2.0' like replacing three complex databases with one database that still requires you to learn a new unified data model while praying your cardinality doesn't blow up the Rust heap.
   tags:
-    - observability
     - database
     - llm-monitoring
+    - observability
     - opentelemetry
     - rust
   confidence: medium
@@ -81,6 +81,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (6232) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:23:04.814Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.690Z"
@@ -91,11 +99,3 @@ processing:
     updated_at: "2026-05-05T21:02:28.388Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:23:04.814Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

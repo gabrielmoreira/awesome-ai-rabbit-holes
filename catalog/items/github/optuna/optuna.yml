@@ -1,6 +1,6 @@
 id: github__optuna__optuna
 kind: github-repo
-name: optuna
+name: Optuna
 canonical_url: https://github.com/optuna/optuna
 identity:
   github_repo: optuna/optuna
@@ -46,10 +46,10 @@ insights:
   why_it_matters: It allows developers to move beyond manual grid search by dynamically constructing search spaces and efficiently pruning unpromising trials using a define-by-run API.
   mental_damage: Yet another sophisticated tool to help you discover that your model's performance is actually quite sensitive to random seed initialization.
   tags:
+    - automl
     - hyperparameter-optimization
     - machine-learning
     - python
-    - automl
   confidence: high
 curation:
   status: excluded
@@ -65,6 +65,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (14096) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:43:08.855Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.711Z"
@@ -75,11 +83,3 @@ processing:
     updated_at: "2026-05-05T21:04:08.218Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:43:08.855Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

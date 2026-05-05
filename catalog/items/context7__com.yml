@@ -1,12 +1,12 @@
 id: context7__com
 kind: website
-name: context7.com
+name: Context7
 canonical_url: https://context7.com
 identity: {}
 provenance:
   discoveries:
     - id: discovery__context7__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T20:48:55.437Z"
+      discovered_at: "2026-05-05T22:33:31.148Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,43 +34,38 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Context7 provides up-to-date, version-specific documentation and code examples for libraries, pulled directly into AI coding tools like Cursor, Claude Code, and Windsurf.
-  why_it_matters: It reduces hallucinations and version-mismatch errors by grounding AI coding assistants in current, relevant documentation rather than stale training data.
-  mental_damage: We have finally solved the problem of LLMs using deprecated APIs by building an entire infrastructure just to remind them that React 19 exists.
-  tags:
-    - documentation
-    - context
-    - llm-grounding
-    - developer-productivity
-  confidence: high
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
 curation:
-  status: included
-  reason: The product is a context-shaping system that retrieves fresh documentation to improve model output, fitting squarely into prompt/context engineering rather than being a primary coding agent.
-  evidence:
-    - Scraped description states it pulls 'up-to-date, version-specific documentation and code examples... directly into Cursor, Claude Code, Windsurf, and other AI coding tools.'
-    - Listed in awesome-ai-coding-tools under 'Developer Productivity Tools' specifically for documentation lookup.
-    - Title explicitly identifies it as 'Up-to-date documentation for LLMs and AI code editors.'
+  status: pending
+  reason: null
+  evidence: []
 placement:
-  primary_category: context-engineering
+  primary_category: null
   section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: deferred
+    updated_at: "2026-05-05T22:33:51.095Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-05-05T23:33:51.093Z"
+    attempts: 0
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.444Z"
+    updated_at: "2026-05-05T22:33:31.153Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T20:49:21.881Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
-    next_retry_at: null

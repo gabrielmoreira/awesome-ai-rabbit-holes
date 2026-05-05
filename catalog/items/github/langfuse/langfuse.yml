@@ -1,6 +1,6 @@
 id: github__langfuse__langfuse
 kind: github-repo
-name: langfuse
+name: Langfuse 🪢
 canonical_url: https://github.com/langfuse/langfuse
 identity:
   github_repo: langfuse/langfuse
@@ -108,11 +108,11 @@ insights:
   why_it_matters: It integrates with major LLM frameworks and SDKs to give developers the tracing and evaluation infrastructure needed to move AI prototypes into production.
   mental_damage: You now have a dashboard that perfectly visualizes your LLM application failing in ways you didn't know were possible, but at least the traces look beautiful.
   tags:
-    - llm-observability
     - evals
+    - llm-observability
+    - llmops
     - prompt-management
     - self-hosted
-    - llmops
   confidence: high
 curation:
   status: included
@@ -128,6 +128,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (26600) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:33:11.845Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.658Z"
@@ -138,11 +146,3 @@ processing:
     updated_at: "2026-05-05T21:03:16.497Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:33:11.845Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

@@ -1,6 +1,6 @@
 id: github__megengine__megengine
 kind: github-repo
-name: megengine
+name: MegEngine
 canonical_url: https://github.com/megengine/megengine
 identity:
   github_repo: megengine/megengine
@@ -51,10 +51,10 @@ insights:
   mental_damage: "Just what the world needed: another deep learning framework promising to be the one framework to rule them all, because clearly PyTorch and TensorFlow didn't cover enough surface area."
   tags:
     - deep-learning
-    - training-framework
+    - gpu
     - inference
     - python
-    - gpu
+    - training-framework
   confidence: high
 curation:
   status: excluded
@@ -70,6 +70,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (4806) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:36:40.927Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.706Z"
@@ -80,11 +88,3 @@ processing:
     updated_at: "2026-05-05T21:03:34.561Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:36:40.927Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

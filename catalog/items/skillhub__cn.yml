@@ -1,6 +1,6 @@
 id: skillhub__cn
 kind: website
-name: skillhub.cn
+name: SkillHub
 canonical_url: https://skillhub.cn
 identity: {}
 provenance:
@@ -38,10 +38,10 @@ insights:
   why_it_matters: It provides a centralized, vetted registry of reusable AI skills that developers can use to extend the capabilities of their existing coding assistants and agents.
   mental_damage: Just when you thought you had mastered prompt engineering, the ecosystem has decided you now need a certified library of micro-skills to prevent your agent from hallucinating its way through a CRUD app.
   tags:
-    - skills
+    - ai-community
     - china
     - registry
-    - ai-community
+    - skills
   confidence: high
 curation:
   status: included
@@ -56,6 +56,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T20:27:12.042Z"
+    cause: null
+    attempts: 3
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 753a9feca783
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.730Z"
@@ -65,11 +73,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T20:27:12.042Z"
-    cause: null
-    attempts: 3
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 753a9feca783
-    next_retry_at: null

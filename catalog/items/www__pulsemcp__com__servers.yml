@@ -1,6 +1,6 @@
 id: www__pulsemcp__com__servers
 kind: website
-name: servers
+name: PulseMCP
 canonical_url: https://www.pulsemcp.com/servers
 identity: {}
 provenance:
@@ -38,8 +38,8 @@ insights:
   why_it_matters: It serves as a central navigation point for developers looking to extend AI assistants with external tools and data sources via the MCP standard.
   mental_damage: Because nothing says 'streamlined workflow' like needing a dedicated directory just to manage the directories of servers that teach your AI how to read a file.
   tags:
-    - mcp
     - directory
+    - mcp
     - registry
     - tooling
   confidence: high
@@ -57,6 +57,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:52:45.100Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.733Z"
@@ -66,11 +74,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:52:45.100Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

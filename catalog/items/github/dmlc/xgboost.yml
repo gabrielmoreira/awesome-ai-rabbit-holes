@@ -1,6 +1,6 @@
 id: github__dmlc__xgboost
 kind: github-repo
-name: xgboost
+name: XGBoost
 canonical_url: https://github.com/dmlc/xgboost
 identity:
   github_repo: dmlc/xgboost
@@ -48,10 +48,10 @@ insights:
   why_it_matters: It provides a highly efficient and portable framework for developers to solve large-scale data science problems with gradient boosting algorithms.
   mental_damage: A classic piece of ML infrastructure that predates the current AI hype cycle, yet somehow still gets dragged into 'Awesome LLMOps' lists like a historical artifact mistaken for modern tooling.
   tags:
-    - machine-learning
-    - gradient-boosting
-    - distributed-systems
     - data-science
+    - distributed-systems
+    - gradient-boosting
+    - machine-learning
   confidence: high
 curation:
   status: excluded
@@ -67,6 +67,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (28344) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:16:39.269Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.685Z"
@@ -77,11 +85,3 @@ processing:
     updated_at: "2026-05-05T21:01:54.487Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:16:39.269Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

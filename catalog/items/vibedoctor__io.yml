@@ -1,6 +1,6 @@
 id: vibedoctor__io
 kind: website
-name: vibedoctor.io
+name: VibeDoctor
 canonical_url: https://vibedoctor.io
 identity: {}
 provenance:
@@ -38,11 +38,11 @@ insights:
   why_it_matters: It provides a pragmatic workflow to catch vulnerabilities, secrets, and code smells in AI-generated output before production, integrating directly with GitHub, CI, and AI coding tools.
   mental_damage: Your AI wrote the code, your AI reviewed the code, and now a third AI-driven scanner checks the result, leaving you to wonder if anyone is actually writing software anymore.
   tags:
-    - security
-    - code-quality
     - ai-generated-code
+    - code-quality
     - mcp
     - scanner
+    - security
   confidence: high
 curation:
   status: included
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:49:04.415Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.731Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:49:04.415Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

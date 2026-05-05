@@ -1,6 +1,6 @@
 id: github__doriandarko__claude-engineer
 kind: github-repo
-name: claude-engineer
+name: Claude Engineer
 canonical_url: https://github.com/doriandarko/claude-engineer
 identity:
   github_repo: doriandarko/claude-engineer
@@ -59,8 +59,8 @@ insights:
   tags:
     - cli
     - coding-agent
-    - tool-generation
     - self-improving
+    - tool-generation
     - web-interface
   confidence: high
 curation:
@@ -77,6 +77,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (11167) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:16:58.136Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.665Z"
@@ -87,11 +95,3 @@ processing:
     updated_at: "2026-05-05T21:01:56.059Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:16:58.136Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

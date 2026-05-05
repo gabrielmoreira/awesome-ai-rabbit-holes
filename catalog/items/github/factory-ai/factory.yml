@@ -1,6 +1,6 @@
 id: github__factory-ai__factory
 kind: github-repo
-name: factory
+name: Factory
 canonical_url: https://github.com/factory-ai/factory
 identity:
   github_repo: factory-ai/factory
@@ -72,16 +72,22 @@ insights:
   why_it_matters: It aims to unify the coding agent experience across the terminal, VS Code, JetBrains, Slack, and GitHub Actions, reducing context switching between different AI assistants.
   mental_damage: "Just what we needed: another 'top-performing' agent to install globally via curl while we pretend our terminal window is now a competent coworker."
   tags:
-    - coding-agent
-    - cli
-    - ide-extension
+    - automation
     - ci-cd
+    - cli
+    - coding-agent
+    - coding-agents
+    - enterprise
     - github-actions
+    - ide-extension
   confidence: high
 curation:
   status: included
-  reason: The product is a primary coding assistant that edits code across CLI, IDEs, and PR workflows, fitting the coding-agents definition.
+  reason: Factory.ai is an AI coding agent platform that operates directly within a developer's repo, IDE, CLI, and PR workflow, fitting the coding-agents definition precisely.
   evidence:
+    - "Scraped site states: 'Delegate complete tasks like refactors, incident response, and migrations to Droids without changing your tools.'"
+    - Product integrates into 'IDE, Web, CLI, Slack, Linear' and 'creates PRs while maintaining full traceability from ticket to code.'
+    - Listed in awesome-ai-coding-tools under the 'Coding Agents' section.
     - Repo description explicitly states 'Agent-Native Software Development'.
     - README details CLI installation, VS Code/JetBrains extensions, and a GitHub Action for code reviews.
     - Listed in 'awesome-cli-coding-agents' under the 'Terminal-native coding agents' section.
@@ -102,7 +108,7 @@ processing:
     next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.687Z"
+    updated_at: "2026-05-05T22:47:06.910Z"
     cause: null
     next_retry_at: null
   stars:

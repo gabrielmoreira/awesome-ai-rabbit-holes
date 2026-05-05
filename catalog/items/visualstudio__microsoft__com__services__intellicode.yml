@@ -1,6 +1,6 @@
 id: visualstudio__microsoft__com__services__intellicode
 kind: website
-name: intellicode
+name: Visual Studio IntelliCode
 canonical_url: https://visualstudio.microsoft.com/services/intellicode
 identity: {}
 provenance:
@@ -39,9 +39,9 @@ insights:
   mental_damage: Just when you thought your tab key was safe, Microsoft found a way to make you feel guilty for typing out variable names that the AI already guessed.
   tags:
     - code-completion
+    - refactoring
     - visual-studio
     - vs-code
-    - refactoring
   confidence: high
 curation:
   status: included
@@ -56,6 +56,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:49:07.388Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.731Z"
@@ -65,11 +73,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:49:07.388Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

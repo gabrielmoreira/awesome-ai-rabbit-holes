@@ -1,13 +1,13 @@
 id: github__dcostenco__prism-coder
 kind: github-repo
-name: prism-mcp
+name: dcostenco/prism-mcp
 canonical_url: https://github.com/dcostenco/prism-coder
 identity:
   github_repo: dcostenco/prism-coder
 provenance:
   discoveries:
     - id: discovery__github__dcostenco__prism-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-05T20:48:55.437Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -53,20 +53,23 @@ metadata:
       - supabase
       - typescript
       - vector-search
-    last_checked_at: "2026-05-05T21:01:48.961Z"
+    last_checked_at: "2026-05-05T21:01:49.267Z"
     readme:
-      fetched_at: "2026-05-05T21:01:48.961Z"
+      fetched_at: "2026-05-05T21:01:49.267Z"
       bytes: 121029
 insights:
-  summary: An AI-native desktop IDE and MCP server that provides autonomous coding agents, visual app building, and a local-first cognitive memory architecture running on an on-device 7B model.
-  why_it_matters: It bundles a full development environment with agentic task execution, persistent memory, and local model inference, aiming to let developers ship applications without relying on external APIs or disjointed toolchains.
-  mental_damage: Just when you thought the 'one tool to rule them all' fatigue had peaked, someone ships an IDE with a Mind Palace, Hebbian learning, and HIPAA-hardened multi-agent dashboards so you can feel inadequate about your vanilla VS Code setup.
+  summary: An MCP server and AI-native desktop IDE that provides a HIPAA-hardened cognitive architecture with persistent memory, Hebbian learning, and on-device LLM execution for coding and multi-agent workflows.
+  why_it_matters: It offers developers a local-first, privacy-conscious workspace that combines an IDE, persistent agent memory, and visual multi-agent orchestration without relying on external APIs.
+  mental_damage: Just when you thought 'vibe coding' was the peak, we now have cognitive architectures with Hebbian learning and HIPAA-hardened mind palaces running autonomously on your laptop.
   tags:
-    - ai-ide
-    - local-llm
-    - mcp-server
-    - cognitive-architecture
     - agent-memory
+    - ai-ide
+    - cognitive-architecture
+    - ide
+    - local-ai
+    - local-llm
+    - mcp
+    - mcp-server
   confidence: high
 curation:
   status: included
@@ -75,6 +78,9 @@ curation:
     - README explicitly lists 'Prism Coder IDE' as the full-stack AI-native desktop IDE with downloads for macOS, Windows, and Linux.
     - Repo description and README highlight the MCP server component (prism-mcp) serving as the cognitive architecture backend.
     - Active development indicated by recent push date (2026-05-05) and latest IDE release v2.1.1.
+    - README explicitly presents 'Prism Coder IDE' as the full-stack AI-native desktop IDE with coding, building, and deploying in one tool.
+    - Includes IDE features like real terminal, inline AI completions, agent mode, debugger, and git integration.
+    - Also provides an MCP server (prism-mcp-server) but the IDE is the primary surface described.
 placement:
   primary_category: ai-ides-editors
   section: null
@@ -84,7 +90,7 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-05-05T21:15:43.434Z"
+    updated_at: "2026-05-05T21:15:43.487Z"
     cause: null
     next_retry_at: null
     attempts: 1
@@ -92,11 +98,11 @@ processing:
     category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.684Z"
+    updated_at: "2026-05-05T20:48:55.441Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:48.961Z"
+    updated_at: "2026-05-05T21:01:49.267Z"
     cause: null
     next_retry_at: null

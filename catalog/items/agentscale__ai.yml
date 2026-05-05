@@ -1,6 +1,6 @@
 id: agentscale__ai
 kind: website
-name: agentscale.ai
+name: AgentScale
 canonical_url: http://agentscale.ai
 identity: {}
 provenance:
@@ -38,9 +38,9 @@ insights:
   why_it_matters: It offers a blueprint for integrating LLMs with traditional RPA workflows to automate business processes.
   mental_damage: Another 'cutting-edge' consultancy promising to automate your backlog with agents, provided you have the budget and the patience to explain your legacy RPA setup to a GPT wrapper.
   tags:
-    - rpa
     - business-automation
     - llm-integration
+    - rpa
   confidence: high
 curation:
   status: excluded
@@ -56,6 +56,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:41:28.352Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.725Z"
@@ -65,11 +73,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:41:28.352Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

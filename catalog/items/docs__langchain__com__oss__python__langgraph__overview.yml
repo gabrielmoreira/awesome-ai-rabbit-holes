@@ -1,6 +1,6 @@
 id: docs__langchain__com__oss__python__langgraph__overview
 kind: website
-name: overview
+name: LangGraph Documentation
 canonical_url: https://docs.langchain.com/oss/python/langgraph/overview
 identity: {}
 provenance:
@@ -39,10 +39,10 @@ insights:
   why_it_matters: It provides the canonical reference and learning resources for developers building complex, cyclic agent workflows and graph-based LLM logic.
   mental_damage: Yet another discovery that the 'overview' link in your saved bookmarks is now a 301 redirect, forcing you to re-learn the doc structure all over again.
   tags:
-    - langgraph
-    - documentation
     - agents
+    - documentation
     - framework
+    - langgraph
   confidence: high
 curation:
   status: excluded
@@ -58,6 +58,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:44:04.845Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.727Z"
@@ -67,11 +75,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:44:04.845Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null

@@ -1,6 +1,6 @@
 id: www__apimatic__io
 kind: website
-name: www.apimatic.io
+name: APIMatic
 canonical_url: https://www.apimatic.io
 identity: {}
 provenance:
@@ -39,9 +39,9 @@ insights:
   mental_damage: "Just what the modern developer needs: another layer of automation to ensure our API wrappers are perfect, right before we prompt an AI agent to ignore them and write the fetch calls by hand anyway."
   tags:
     - api
-    - sdks
-    - developer-tools
     - automation
+    - developer-tools
+    - sdks
   confidence: high
 curation:
   status: excluded
@@ -56,6 +56,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:49:37.343Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.731Z"
@@ -65,11 +73,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:49:37.343Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
