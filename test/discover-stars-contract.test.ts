@@ -1,0 +1,481 @@
+import * as fs from "node:fs";
+import * as os from "node:os";
+import * as path from "node:path";
+import { describe, expect, it } from "vitest";
+import {
+  rankDirectDiscoveryCandidates,
+  loadDiscoveryCandidates,
+  saveDiscoveryCandidates,
+  selectDiscoverSources,
+} from "../scripts/catalog/discover.js";
+import {
+  orderDiscoverableSources,
+} from "../scripts/catalog/discovery.js";
+import {
+  MAX_CONSECUTIVE_GITHUB_UNAVAILABLE,
+  refreshItemStars,
+  runStars,
+  selectStarRefreshTargets,
+} from "../scripts/catalog/stars.js";
+import type { CatalogItem, DiscoveryCandidate, Source } from "../scripts/catalog/types.js";
+
+function makeGitHubItem(overrides: Partial<CatalogItem> = {}): CatalogItem {
+  return {
+    id: "github__example__tool",
+    kind: "github-repo",
+    name: "tool",
+    canonical_url: "https://github.com/example/tool",
+    identity: { github_repo: "example/tool" },
+    provenance: {
+      discoveries: [
+        {
+          id: "discovery__github__example__tool__direct-link",
+          discovered_at: "2026-05-01T00:00:00Z",
+          source: { type: "direct-link", name: "Manual submission", url: null, repository: null },
+          extraction: {
+            mode: "direct",
+            section_path: ["inbox"],
+            anchor_text: "https://github.com/example/tool",
+            extracted_url: "https://github.com/example/tool",
+            surrounding_text: null,
+            confidence: "high",
+          },
+        },
+      ],
+    },
+    metadata: {
+      github: {
+        stars: 10,
+        forks: 1,
+        license: "MIT",
+        archived: false,
+        created_at: "2026-04-01T00:00:00Z",
+        pushed_at: "2026-05-01T00:00:00Z",
+        description: "Developer tool",
+        homepage: "",
+        topics: ["agent"],
+        last_checked_at: "2026-04-01T00:00:00Z",
+      },
+    },
+    insights: { summary: null, why_it_matters: null, mental_damage: null, tags: [], confidence: null },
+    curation: { status: "pending", reason: null, evidence: [] },
+    placement: { primary_category: null, section: null },
+    lifecycle: { status: "incubating" },
+    processing: {
+      discover: { status: "done", updated_at: "2026-05-01T00:00:00Z" },
+      stars: { status: "pending", updated_at: null },
+      categorize: { status: "skipped", updated_at: "2026-05-01T00:00:00Z", cause: { type: "missing_metadata", message: "not ready" } },
+    },
+    ...overrides,
+  };
+}
+
+describe("orderDiscoverableSources", () => {
+  it("prioritizes curated lists before unrelated direct sources", () => {
+    const sources: Source[] = [
+      { url: "https://example.com/direct", kind: "direct-item" },
+      { url: "https://github.com/example/awesome-list", kind: "curated-list" },
+      { url: "https://example.com/docs", kind: "docs-page" },
+    ];
+
+    expect(orderDiscoverableSources(sources).map((source) => source.url)).toEqual([
+      "https://github.com/example/awesome-list",
+      "https://example.com/direct",
+      "https://example.com/docs",
+    ]);
+  });
+
+  it("prioritizes GitHub links within curated and direct source buckets", () => {
+    const sources: Source[] = [
+      { url: "https://example.com/curated", kind: "curated-list" },
+      { url: "https://example.com/direct", kind: "direct-item" },
+      { url: "https://github.com/example/awesome-curated", kind: "curated-list" },
+      { url: "https://github.com/example/direct-tool", kind: "direct-item" },
+    ];
+
+    expect(orderDiscoverableSources(sources).map((source) => source.url)).toEqual([
+      "https://github.com/example/awesome-curated",
+      "https://example.com/curated",
+      "https://github.com/example/direct-tool",
+      "https://example.com/direct",
+    ]);
+  });
+});
+
+describe("rankDirectDiscoveryCandidates", () => {
+  it("prioritizes direct sources whose canonical target resolves to GitHub", () => {
+    const ranked = rankDirectDiscoveryCandidates([
+      {
+        target_url: "https://example.com/website-tool",
+        source: { url: "https://example.com/website-tool", kind: "direct-item" },
+        extraction: {
+          mode: "direct",
+          section_path: ["inbox"],
+          anchor_text: "https://example.com/website-tool",
+          extracted_url: "https://example.com/website-tool",
+          surrounding_text: null,
+          confidence: "high",
+        },
+      },
+      {
+        target_url: "https://github.com/example/resolved-tool",
+        source: { url: "https://vendor.example/resolved-tool", kind: "direct-item" },
+        extraction: {
+          mode: "scraped",
+          section_path: ["inbox"],
+          anchor_text: "https://vendor.example/resolved-tool",
+          extracted_url: "https://vendor.example/resolved-tool",
+          surrounding_text: null,
+          confidence: "high",
+        },
+      },
+    ]);
+
+    expect(ranked.map((candidate) => candidate.target_url)).toEqual([
+      "https://github.com/example/resolved-tool",
+      "https://example.com/website-tool",
+    ]);
+  });
+});
+
+describe("selectDiscoverSources", () => {
+  it("matches normalized GitHub source urls from provenance-driven resync inputs", () => {
+    const sources: Source[] = [
+      { url: "https://github.com/bradAGI/awesome-cli-coding-agents", kind: "curated-list" },
+      { url: "https://example.com/inbox", kind: "direct-item" },
+    ];
+
+    const selected = selectDiscoverSources(sources, new Set(["https://github.com/bradagi/awesome-cli-coding-agents"]));
+    expect(selected.map((source) => source.url)).toEqual(["https://github.com/bradAGI/awesome-cli-coding-agents"]);
+  });
+});
+
+describe("discovery candidate cache", () => {
+  it("round-trips candidates without touching durable catalog items", () => {
+    const root = fs.mkdtempSync(path.join(os.tmpdir(), "aarh-discover-candidates-"));
+    const cachePath = path.join(root, ".cache", "discover", "candidates.json");
+    const candidates: DiscoveryCandidate[] = [
+      {
+        target_url: "https://github.com/example/tool",
+        source: { url: "https://github.com/example/list", kind: "curated-list", note: "CLI tools" },
+        extraction: {
+          mode: "parsed",
+          section_path: ["CLI"],
+          anchor_text: "Tool",
+          extracted_url: "https://github.com/example/tool",
+          surrounding_text: "- [Tool](https://github.com/example/tool)",
+          confidence: "high",
+        },
+      },
+    ];
+
+    try {
+      saveDiscoveryCandidates(candidates, cachePath);
+      expect(loadDiscoveryCandidates(cachePath)).toEqual(candidates);
+      expect(fs.existsSync(path.join(root, "catalog", "items"))).toBe(false);
+    } finally {
+      fs.rmSync(root, { recursive: true, force: true });
+    }
+  });
+
+  it("normalizes legacy cached source kinds on load", () => {
+    const root = fs.mkdtempSync(path.join(os.tmpdir(), "aarh-discover-candidates-legacy-"));
+    const cachePath = path.join(root, ".cache", "discover", "candidates.json");
+
+    try {
+      fs.mkdirSync(path.dirname(cachePath), { recursive: true });
+      fs.writeFileSync(cachePath, JSON.stringify([
+        {
+          target_url: "https://github.com/example/tool/",
+          source: { url: "https://github.com/example/awesome", kind: "awesome-list" },
+          extraction: {
+            mode: "parsed",
+            section_path: ["CLI"],
+            anchor_text: "Tool",
+            extracted_url: "https://github.com/example/tool/",
+            surrounding_text: null,
+            confidence: "high",
+          },
+        },
+      ], null, 2));
+
+      expect(loadDiscoveryCandidates(cachePath)).toEqual([
+        {
+          target_url: "https://github.com/example/tool",
+          source: { url: "https://github.com/example/awesome", kind: "curated-list" },
+          extraction: {
+            mode: "parsed",
+            section_path: ["CLI"],
+            anchor_text: "Tool",
+            extracted_url: "https://github.com/example/tool",
+            surrounding_text: null,
+            confidence: "high",
+          },
+        },
+      ]);
+    } finally {
+      fs.rmSync(root, { recursive: true, force: true });
+    }
+  });
+});
+
+describe("selectStarRefreshTargets", () => {
+  it("includes github-backed items even when categorization is not ready", () => {
+    const staleGithub = makeGitHubItem();
+    const freshGithub = makeGitHubItem({
+      id: "github__example__fresh",
+      canonical_url: "https://github.com/example/fresh",
+      identity: { github_repo: "example/fresh" },
+      metadata: {
+        github: {
+          stars: 50,
+          forks: 2,
+          license: "MIT",
+          archived: false,
+          created_at: "2026-04-01T00:00:00Z",
+          pushed_at: "2026-05-01T00:00:00Z",
+          description: "Fresh repo",
+          homepage: "",
+          topics: ["agent"],
+          last_checked_at: new Date().toISOString(),
+        },
+      },
+    });
+
+    const incompleteFreshGithub = makeGitHubItem({
+      id: "github__example__incomplete",
+      canonical_url: "https://github.com/example/incomplete",
+      identity: { github_repo: "example/incomplete" },
+      metadata: {
+        github: {
+          stars: 5,
+          forks: 0,
+          license: "MIT",
+          archived: false,
+          created_at: null,
+          pushed_at: "2026-05-01T00:00:00Z",
+          description: "Partial metadata",
+          homepage: "",
+          topics: ["agent"],
+          last_checked_at: new Date().toISOString(),
+        },
+      },
+    });
+
+    const websiteOnly = makeGitHubItem({
+      id: "website__example__tool",
+      kind: "website",
+      canonical_url: "https://example.com/tool",
+      identity: {},
+    });
+
+    const selected = selectStarRefreshTargets(
+      [staleGithub, freshGithub, incompleteFreshGithub, websiteOnly],
+      7,
+      new Date("2026-05-10T00:00:00Z"),
+      { force: false }
+    );
+
+    expect(selected.map((item) => item.id)).toEqual([staleGithub.id, incompleteFreshGithub.id]);
+  });
+});
+
+describe("runStars", () => {
+  it("does not rewrite unclaimed items when the stars budget is already exhausted", async () => {
+    const staleGithub = makeGitHubItem();
+    const anotherStaleGithub = makeGitHubItem({
+      id: "github__example__another",
+      canonical_url: "https://github.com/example/another",
+      identity: { github_repo: "example/another" },
+    });
+    const savedIds: string[] = [];
+    const logLines: string[] = [];
+
+    await runStars(undefined, {}, {
+      loadItems: () => [staleGithub, anotherStaleGithub],
+      saveItem: (item) => { savedIds.push(item.id); },
+      loadSettings: () => ({
+        promotion: { incubating_until_stars: 150 },
+        github: { metadata_refresh_days: 7 },
+        budgets: { discover_minutes: 10, stars_minutes: 0, categorize_minutes: 60 },
+        concurrency: { github: 1, site: 2, llm: 2 },
+      }),
+      refreshItem: async (item) => item,
+      log: (line) => { logLines.push(line); },
+    });
+
+    expect(savedIds).toEqual([]);
+    expect(logLines).toContain("Star refresh budget exhausted before claiming any item(s); leaving 2 item(s) pending.");
+  });
+
+  it("stops claiming new star refresh work after repeated github availability failures", async () => {
+    const items = Array.from({ length: MAX_CONSECUTIVE_GITHUB_UNAVAILABLE + 5 }, (_, index) =>
+      makeGitHubItem({
+        id: `github__example__${index}`,
+        canonical_url: `https://github.com/example/${index}`,
+        identity: { github_repo: `example/${index}` },
+      }),
+    );
+    const savedIds: string[] = [];
+    const logLines: string[] = [];
+
+    await runStars(undefined, {}, {
+      loadItems: () => items,
+      saveItem: (item) => { savedIds.push(item.id); },
+      loadSettings: () => ({
+        promotion: { incubating_until_stars: 150 },
+        github: { metadata_refresh_days: 7 },
+        budgets: { discover_minutes: 10, stars_minutes: 10, categorize_minutes: 60 },
+        concurrency: { github: 1, site: 2, llm: 2 },
+      }),
+      refreshItem: async (item) => ({
+        ...item,
+        processing: {
+          ...item.processing,
+          stars: {
+            status: "deferred",
+            updated_at: "2026-05-02T00:00:00Z",
+            cause: { type: "github_unavailable", message: "rate limited" },
+          },
+        },
+      }),
+      log: (line) => { logLines.push(line); },
+    });
+
+    expect(savedIds).toHaveLength(MAX_CONSECUTIVE_GITHUB_UNAVAILABLE);
+    expect(logLines.some((line) => line.includes("Star refresh halted:"))).toBe(true);
+    expect(logLines).toContain(`Star refresh issues (${MAX_CONSECUTIVE_GITHUB_UNAVAILABLE}): github_unavailable=${MAX_CONSECUTIVE_GITHUB_UNAVAILABLE}`);
+  });
+
+  it("continues saving other items when one star refresh throws", async () => {
+    const failing = makeGitHubItem();
+    const succeeding = makeGitHubItem({
+      id: "github__example__success",
+      canonical_url: "https://github.com/example/success",
+      identity: { github_repo: "example/success" },
+    });
+    const saved = new Map<string, CatalogItem>();
+
+    await runStars(undefined, {}, {
+      loadItems: () => [failing, succeeding],
+      saveItem: (item) => { saved.set(item.id, item); },
+      loadSettings: () => ({
+        promotion: { incubating_until_stars: 150 },
+        github: { metadata_refresh_days: 7 },
+        budgets: { discover_minutes: 10, stars_minutes: 10, categorize_minutes: 60 },
+        concurrency: { github: 1, site: 2, llm: 2 },
+      }),
+      refreshItem: async (item) => {
+        if (item.id === failing.id) throw new Error("network down");
+        return {
+          ...item,
+          processing: {
+            ...item.processing,
+            stars: { status: "done", updated_at: "2026-05-02T00:00:00Z", cause: null },
+          },
+        };
+      },
+    });
+
+    expect(saved.get(failing.id)?.processing?.stars?.status).toBe("failed");
+    expect(saved.get(failing.id)?.processing?.stars?.cause?.type).toBe("github_refresh_failed");
+    expect(saved.get(succeeding.id)?.processing?.stars?.status).toBe("done");
+  });
+
+  it("uses loadSettings as the single source for metadata refresh windows", async () => {
+    const fifteenDaysAgo = new Date(Date.now() - 15 * 24 * 60 * 60 * 1000).toISOString();
+    const item = makeGitHubItem({
+      metadata: {
+        github: {
+          ...makeGitHubItem().metadata.github,
+          last_checked_at: fifteenDaysAgo,
+        },
+      },
+    });
+    const logLines: string[] = [];
+    let refreshCalls = 0;
+
+    await runStars(undefined, {}, {
+      loadItems: () => [item],
+      loadSettings: () => ({
+        promotion: { incubating_until_stars: 500 },
+        github: { metadata_refresh_days: 30 },
+        budgets: { discover_minutes: 10, stars_minutes: 10, categorize_minutes: 60 },
+        concurrency: { github: 1, site: 2, llm: 2 },
+      }),
+      refreshItem: async (candidate) => {
+        refreshCalls += 1;
+        return candidate;
+      },
+      log: (line) => { logLines.push(line); },
+    });
+
+    expect(refreshCalls).toBe(0);
+    expect(logLines).toContain("No GitHub-backed items need star refresh.");
+  });
+
+  it("uses loadSettings as the single source for promotion thresholds", async () => {
+    const item = makeGitHubItem();
+    const saved = new Map<string, CatalogItem>();
+
+    await runStars(undefined, {}, {
+      loadItems: () => [item],
+      saveItem: (candidate) => { saved.set(candidate.id, candidate); },
+      loadSettings: () => ({
+        promotion: { incubating_until_stars: 500 },
+        github: { metadata_refresh_days: 7 },
+        budgets: { discover_minutes: 10, stars_minutes: 10, categorize_minutes: 60 },
+        concurrency: { github: 1, site: 2, llm: 2 },
+      }),
+      refreshItem: async (candidate) => ({
+        ...candidate,
+        metadata: {
+          github: {
+            ...candidate.metadata.github,
+            stars: 200,
+            archived: false,
+            last_checked_at: new Date().toISOString(),
+          },
+        },
+        processing: {
+          ...candidate.processing,
+          stars: { status: "done", updated_at: "2026-05-02T00:00:00Z", cause: null },
+        },
+      }),
+    });
+
+    expect(saved.get(item.id)?.lifecycle.status).toBe("incubating");
+  });
+});
+
+describe("refreshItemStars", () => {
+  it("defers unavailable github metadata instead of crashing the command", async () => {
+    const item = makeGitHubItem();
+
+    const refreshed = await refreshItemStars(
+      item,
+      undefined,
+      150,
+      async () => item,
+      async () => "unknown",
+    );
+
+    expect(refreshed.processing?.stars?.status).toBe("deferred");
+    expect(refreshed.processing?.stars?.cause?.type).toBe("github_unavailable");
+  });
+
+  it("marks missing github repos as failed instead of systemic unavailability", async () => {
+    const item = makeGitHubItem();
+
+    const refreshed = await refreshItemStars(
+      item,
+      undefined,
+      150,
+      async () => item,
+      async () => "missing",
+    );
+
+    expect(refreshed.processing?.stars?.status).toBe("failed");
+    expect(refreshed.processing?.stars?.cause?.type).toBe("github_repo_missing");
+  });
+});

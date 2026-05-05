@@ -1,0 +1,45 @@
+{#
+Template: category-page.njk
+Purpose: Render one rabbit-hole markdown page with active tools, incubating tools, and the empty fallback.
+Executed by: scripts/catalog/render.ts -> renderRabbitHolePage() during `catalog:render` and `catalog:sync`.
+Receives:
+- categoryName: string
+- categoryDescription: string
+- hasActiveItems: boolean
+- activeItems: Array<{ name, url, summary, hasStars, starsLabel, hasActivity, activityLabel, hasDetails, hasWhyItMatters, whyItMatters, hasMentalDamage, mentalDamage, hasTags, tags }>
+- hasIncubatingItems: boolean
+- incubatingItems: same shape as activeItems
+- isEmpty: boolean
+#}
+# {{ categoryName }}
+
+{{ categoryDescription }}
+
+{% if hasActiveItems %}## Tools & Resources
+
+{% for item in activeItems %}- **[{{ item.name }}]({{ item.url }})**{% if item.hasStars %} `⭐ {{ item.starsLabel }}`{% endif %}{% if item.hasActivity %} `{{ item.activityLabel }}`{% endif %} {{ item.summary }}{% if item.hasDetails %} <details><summary>More about</summary>
+
+{% if item.hasWhyItMatters %}  {{ item.whyItMatters }}
+
+{% endif %}{% if item.hasMentalDamage %}  _{{ item.mentalDamage }}_
+
+{% endif %}{% if item.hasTags %}  {% for tag in item.tags %}`{{ tag }}`{% if not loop.last %} {% endif %}{% endfor %}
+{% endif %}  </details>{% endif %}
+
+{% endfor %}{% endif %}{% if hasIncubatingItems %}## Incubating
+
+_These are new or low-traffic entries being watched._
+
+{% for item in incubatingItems %}- **[{{ item.name }}]({{ item.url }})**{% if item.hasStars %} `⭐ {{ item.starsLabel }}`{% endif %}{% if item.hasActivity %} `{{ item.activityLabel }}`{% endif %} {{ item.summary }}{% if item.hasDetails %} <details><summary>More about</summary>
+
+{% if item.hasWhyItMatters %}  {{ item.whyItMatters }}
+
+{% endif %}{% if item.hasMentalDamage %}  _{{ item.mentalDamage }}_
+
+{% endif %}{% if item.hasTags %}  {% for tag in item.tags %}`{{ tag }}`{% if not loop.last %} {% endif %}{% endfor %}
+{% endif %}  </details>{% endif %}
+
+{% endfor %}{% endif %}{% if isEmpty %}## Nothing Here Yet
+
+_Even the hype forgot to stop here._
+{% endif %}

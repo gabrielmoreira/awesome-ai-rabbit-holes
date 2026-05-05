@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: "0 4 */3 * *"
   workflow_dispatch:
+    inputs:
+      categorize_budget_minutes:
+        description: Max minutes to spend starting new categorization work in this run.
+        required: false
+        default: "60"
 
 permissions:
   contents: write
@@ -15,14 +20,25 @@ concurrency:
 jobs:
   sync:
     runs-on: ubuntu-latest
+    environment: pi-free
     env:
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      COPILOT_GITHUB_TOKEN: ${{ secrets.COPILOT_GITHUB_TOKEN }}
-      COPILOT_MODEL: gpt-4o
-      CATALOG_FAIL_ON_PROCESSING_ERRORS: "1"
+      OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
+      OLLAMA_API_KEY: ${{ secrets.OLLAMA_API_KEY }}
+      MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
+      PI_FREE_ONLY: ${{ secrets.PI_FREE_ONLY }}
+      OPENROUTER_SHOW_PAID: ${{ secrets.OPENROUTER_SHOW_PAID }}
+      NVIDIA_SHOW_PAID: ${{ secrets.NVIDIA_SHOW_PAID }}
+      CLOUDFLARE_SHOW_PAID: ${{ secrets.CLOUDFLARE_SHOW_PAID }}
+      OLLAMA_SHOW_PAID: ${{ secrets.OLLAMA_SHOW_PAID }}
+      CATALOG_FAIL_ON_PROCESSING_ERRORS: "0"
+      CATALOG_LLM_CONCURRENCY: "2"
+      CATALOG_LLM_TIMEOUT_MS: "60000"
       MISE_TASK_OUTPUT: prefix
-      CATALOG_MAX_SOURCE_LIST_NEW_ITEMS: "250"
     steps:
       - name: Checkout
         uses: actions/checkout@v5
@@ -35,39 +51,50 @@ jobs:
           install: true
           github_token: ${{ secrets.GITHUB_TOKEN }}
 
-
       - name: Restore catalog cache
-        uses: actions/cache@v4
+        id: catalog-cache-restore
+        uses: actions/cache/restore@v4
         with:
           path: .cache
-          key: ${{ runner.os }}-catalog-cache-v3-${{ hashFiles('sources/**/*.yml', 'scripts/**/*.ts', 'catalog/categories.yml', 'package-lock.json', '.mise.toml') }}-${{ github.run_id }}
+          key: ${{ runner.os }}-catalog-cache-v3-${{ hashFiles('config/**/*.yml', 'scripts/**/*.ts', 'package-lock.json', '.mise.toml') }}-${{ github.run_id }}
           restore-keys: |
-            ${{ runner.os }}-catalog-cache-v3-${{ hashFiles('sources/**/*.yml', 'scripts/**/*.ts', 'catalog/categories.yml', 'package-lock.json', '.mise.toml') }}-
+            ${{ runner.os }}-catalog-cache-v3-${{ hashFiles('config/**/*.yml', 'scripts/**/*.ts', 'package-lock.json', '.mise.toml') }}-
             ${{ runner.os }}-catalog-cache-v3-
 
       - name: Install project dependencies
         run: mise run catalog:deps
 
-      - name: Verify Copilot token is configured
+      - name: Probe top pi-free fallback models
+        run: mise run llm:doctor --limit 3
+
+      - name: Configure sync budgets
+        env:
+          INPUT_CATEGORIZE_BUDGET_MINUTES: ${{ github.event.inputs.categorize_budget_minutes }}
         run: |
-          if [ -z "${COPILOT_GITHUB_TOKEN}" ]; then
-            echo "::error::Missing COPILOT_GITHUB_TOKEN secret. Create a fine-grained PAT with the 'Copilot Requests' permission and store it as an Actions secret named COPILOT_GITHUB_TOKEN."
+          ai_minutes="${INPUT_CATEGORIZE_BUDGET_MINUTES:-60}"
+          case "$ai_minutes" in
+            ''|*[!0-9]*)
+              echo "::error::workflow_dispatch input categorize_budget_minutes must be a positive integer."
+              exit 1
+              ;;
+          esac
+          if [ "$ai_minutes" -le 0 ]; then
+            echo "::error::workflow_dispatch input categorize_budget_minutes must be greater than zero."
             exit 1
           fi
+          echo "CATALOG_CATEGORIZE_BUDGET_MINUTES=$ai_minutes" >> "$GITHUB_ENV"
+          echo "Configured categorization batch budget: ${ai_minutes} minute(s)."
 
       - name: Sync catalog metadata and generated output
         run: mise run catalog:sync
 
-      - name: Validate catalog
-        run: mise run catalog:validate
-
-      - name: Run tests
-        run: mise run catalog:test
+      - name: Run catalog checks
+        run: mise run catalog:check
 
       - name: Detect generated changes
         id: changes
         run: |
-          if [ -n "$(git status --porcelain -- README.md docs/rabbit-holes site/catalog.json catalog/items)" ]; then
+          if [ -n "$(git status --porcelain -- README.md docs/rabbit-holes catalog/catalog.json catalog/items)" ]; then
             echo "changed=true" >> "$GITHUB_OUTPUT"
           else
             echo "changed=false" >> "$GITHUB_OUTPUT"
@@ -86,7 +113,7 @@ jobs:
           attempt=1
 
           while [ "${attempt}" -le "${max_attempts}" ]; do
-            git add -A README.md docs/rabbit-holes site/catalog.json catalog/items
+            git add -A README.md docs/rabbit-holes catalog/catalog.json catalog/items
             if git diff --cached --quiet; then
               echo "Catalog already up to date after rebasing."
               exit 0
@@ -107,8 +134,7 @@ jobs:
             git fetch origin "${GITHUB_REF_NAME}"
             git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
             mise run catalog:sync
-            mise run catalog:validate
-            mise run catalog:test
+            mise run catalog:check
 
             attempt=$((attempt + 1))
           done
@@ -116,3 +142,10 @@ jobs:
       - name: Report no-op run
         if: steps.changes.outputs.changed != 'true'
         run: echo "Catalog already up to date."
+
+      - name: Save catalog cache
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: .cache
+          key: ${{ steps.catalog-cache-restore.outputs.cache-primary-key }}

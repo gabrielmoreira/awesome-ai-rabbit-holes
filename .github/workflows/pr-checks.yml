@@ -26,8 +26,5 @@ jobs:
       - name: Install project dependencies
         run: mise run catalog:deps
 
-      - name: Run tests
-        run: mise run catalog:test
-
-      - name: Validate catalog
-        run: mise run catalog:validate
+      - name: Run catalog verification
+        run: mise run catalog:verify

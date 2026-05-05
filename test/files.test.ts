@@ -5,7 +5,7 @@ import { describe, it, expect } from "vitest";
 import * as fs from "node:fs";
 import * as os from "node:os";
 import * as path from "node:path";
-import { writeTextFileIfChanged } from "../scripts/files.js";
+import { writeTextFileIfChanged } from "../scripts/support/files.js";
 
 describe("writeTextFileIfChanged", () => {
   it("does not rewrite a CRLF file when the logical content is unchanged", () => {
