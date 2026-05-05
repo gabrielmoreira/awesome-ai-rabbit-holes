@@ -1,0 +1,103 @@
+id: github__askbudi__roundtable
+kind: github-repo
+name: roundtable
+canonical_url: https://github.com/askbudi/roundtable
+identity:
+  github_repo: askbudi/roundtable
+provenance:
+  discoveries:
+    - id: discovery__github__askbudi__roundtable__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🔗 <a name="aggregators"></a>Aggregators
+        anchor_text: askbudi/roundtable
+        extracted_url: https://github.com/askbudi/roundtable
+        surrounding_text: "- [askbudi/roundtable](https://github.com/askbudi/roundtable) 📇 ☁️ 🏠 🍎 🪟 🐧 - Meta-MCP server that unifies multiple AI coding assistants (Codex, Claude Code, Cursor, Gemini) through intelligent auto-discovery and standardized MCP interface, providing zero-configuration access to the entire AI coding ecosystem."
+        confidence: high
+    - id: discovery__github__askbudi__roundtable__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - LLMOps
+        anchor_text: Roundtable
+        extracted_url: https://github.com/askbudi/roundtable
+        surrounding_text: "| [Roundtable](https://github.com/askbudi/roundtable)                | Zero-configuration unified AI assistant management built on the FastMCP framework. Provides seamless integration with Claude, ChatGPT, and other AI assistants through a single MCP interface with session management, logging, and production-ready operations.                                                                                                                                        | ![GitHub Badge](https://img.shields.io/github/stars/askbudi/roundtable.svg?style=flat-square)             |"
+        confidence: high
+metadata:
+  github:
+    stars: 103
+    forks: 15
+    license: null
+    archived: false
+    created_at: "2025-09-19T04:53:02Z"
+    pushed_at: "2025-10-06T04:11:43Z"
+    description: Zero-configuration MCP server that unifies multiple AI coding assistants (Codex, Claude Code, Cursor, Gemini) through intelligent auto-discovery and standardized interface
+    homepage: https://askbudi.ai/roundtable
+    topics:
+      - claude-code
+      - cursor
+      - gemini-cli
+      - mcp-server
+      - openai-codex
+      - vibe-coding
+    last_checked_at: "2026-05-05T21:01:10.673Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:10.673Z"
+      bytes: 24625
+insights:
+  summary: A zero-configuration MCP server that allows developers to delegate tasks from a primary IDE AI assistant to multiple specialized sub-agents like Codex, Claude, Cursor, and Gemini in parallel.
+  why_it_matters: It enables a multi-model workflow directly inside the IDE, allowing developers to leverage the specific strengths of different AI models (e.g., Gemini's context window, Claude's reasoning) without manual context switching or copy-pasting.
+  mental_damage: We have successfully built infrastructure to manage the cognitive load of managing the infrastructure that manages the AI assistants that are managing our code.
+  tags:
+    - mcp
+    - multi-agent
+    - ide-integration
+    - python
+    - local-server
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly a Model Context Protocol server designed to unify other AI tools, which fits the dedicated MCP infrastructure category.
+  evidence:
+    - Repo description identifies it as a 'Zero-configuration MCP server'.
+    - README details architecture where the local server dispatches tasks to sub-agent CLIs like Codex and Claude via the MCP protocol.
+    - Listed in awesome-mcp-servers under the 'Aggregators' section.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.663Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:10.673Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:09:17.132Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

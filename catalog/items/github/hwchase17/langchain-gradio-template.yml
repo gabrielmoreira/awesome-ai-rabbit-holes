@@ -1,0 +1,81 @@
+id: github__hwchase17__langchain-gradio-template
+kind: github-repo
+name: langchain-gradio-template
+canonical_url: https://github.com/hwchase17/langchain-gradio-template
+identity:
+  github_repo: hwchase17/langchain-gradio-template
+provenance:
+  discoveries:
+    - id: discovery__github__hwchase17__langchain-gradio-template__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Tools
+          - Templates
+        anchor_text: Gradio Template
+        extracted_url: https://github.com/hwchase17/langchain-gradio-template
+        surrounding_text: "- [Gradio Template](https://github.com/hwchase17/langchain-gradio-template): template for how to deploy a LangChain on Gradio ![GitHub Repo stars](https://img.shields.io/github/stars/hwchase17/langchain-gradio-template?style=social)"
+        confidence: high
+metadata:
+  github:
+    stars: 137
+    forks: 30
+    license: null
+    archived: false
+    created_at: "2023-01-09T03:41:31Z"
+    pushed_at: "2023-01-19T21:24:11Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:38.712Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:38.712Z"
+      bytes: 978
+insights:
+  summary: A minimal template for deploying LangChain applications using the Gradio interface, designed for quick sharing on Hugging Face Spaces.
+  why_it_matters: It provides a standardized starting point for developers to wrap their LLM chains in a chat UI and deploy them to a hosted environment with minimal configuration.
+  mental_damage: Because nothing says 'cutting-edge AI infrastructure' like copying an app.py file from a template that hasn't been touched since early 2023.
+  tags:
+    - langchain
+    - gradio
+    - template
+    - huggingface
+  confidence: high
+curation:
+  status: excluded
+  reason: Excluded because it is a stagnant, minimal boilerplate template rather than a maintained tool, framework, or developer-facing product.
+  evidence:
+    - "The repo has not been updated since January 2023 (pushed_at: 2023-01-19)."
+    - It is a simple copy-paste template (app.py and requirements.txt) rather than an active tool or SDK.
+    - Lacks a license and substantial description, indicating it was likely a quick example rather than a curated catalog entry.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.697Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:38.712Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:24:54.658Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,77 @@
+id: glama__ai__mcp__servers__cdeust__cortex__badge
+kind: website
+name: badge
+canonical_url: https://glama.ai/mcp/servers/cdeust/Cortex/badge
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__glama__ai__mcp__servers__cdeust__cortex__badge__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: "![badge"
+        extracted_url: https://glama.ai/mcp/servers/cdeust/Cortex/badge
+        surrounding_text: "- [cdeust/Cortex](https://github.com/cdeust/Cortex) [![badge](https://glama.ai/mcp/servers/cdeust/Cortex/badge)](https://glama.ai/mcp/servers/cdeust/Cortex) 🐍 🏠 🍎 - Persistent memory for Claude Code grounded in computational neuroscience (41 cited papers). Thermodynamic decay, hippocampal-cortical consolidation, predictive-coding write gate, WRRF retrieval. PostgreSQL + pgvector, 33 MCP tools, 7 lifecycle hooks. Benchmarked 97.8% R@10 on LongMemEval. `claude plugin marketplace add cdeust/Cortex`"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A Model Context Protocol (MCP) server implementation for the Cortex memory system, listed among community server implementations.
+  why_it_matters: It allows MCP-compatible assistants to interface with Cortex, extending their memory capabilities with another backend option.
+  mental_damage: We now have a protocol for the tools that help the AI remember which protocol we are currently using to talk to the tools.
+  tags:
+    - mcp
+    - memory
+    - context
+    - server
+  confidence: medium
+curation:
+  status: included
+  reason: This is a specific server implementation for the Model Context Protocol, fitting cleanly into the MCP infrastructure category.
+  evidence:
+    - URL path is 'glama.ai/mcp/servers/cdeust/Cortex/badge', identifying it as an MCP server.
+    - Listed in 'awesome-mcp-servers' under 'Server Implementations > Knowledge & Memory'.
+    - Related to 'Cortex', implying a memory/knowledge system integration via MCP.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.728Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:44:58.640Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

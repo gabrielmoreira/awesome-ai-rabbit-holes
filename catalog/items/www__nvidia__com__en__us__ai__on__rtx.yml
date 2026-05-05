@@ -1,0 +1,76 @@
+id: www__nvidia__com__en__us__ai__on__rtx
+kind: website
+name: ai-on-rtx
+canonical_url: https://www.nvidia.com/en-us/ai-on-rtx
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__nvidia__com__en__us__ai__on__rtx__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 推理 Inference
+        anchor_text: NVIDIA ChatRTX
+        extracted_url: https://www.nvidia.com/en-us/ai-on-rtx/chatrtx
+        surrounding_text: "11. [NVIDIA ChatRTX](https://www.nvidia.com/en-us/ai-on-rtx/chatrtx/): ChatRTX is a demo app that lets you personalize a GPT large language model (LLM) connected to your own content—docs, notes, or other data."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: NVIDIA's marketing hub for RTX AI PCs, promoting consumer and professional hardware for running AI workloads locally.
+  why_it_matters: It outlines the hardware requirements and NVIDIA software stack (like AI Workbench and NIM) needed to run local models and agentic workflows on personal machines.
+  mental_damage: Proof that we have successfully commoditized the definition of 'AI PC' down to a GPU sticker and a regional pricing page.
+  tags:
+    - local-ai
+    - nvidia
+    - hardware
+    - inference
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a product category landing page and hardware marketing site, not a developer tool, agent, framework, or software repository.
+  evidence:
+    - The URL points to an NVIDIA product marketing page (nvidia.com/en-us/ai-on-rtx), not a tool or repo.
+    - The excerpt is a regional navigation menu and hardware catalog, lacking a developer-facing tool pitch.
+    - Source list context (awesome-LLM-resources) categorizes it under 'Inference', but the link is just a hardware landing page.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.733Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:52:22.038Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

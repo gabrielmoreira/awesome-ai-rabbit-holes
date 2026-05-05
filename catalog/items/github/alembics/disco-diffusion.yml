@@ -1,0 +1,81 @@
+id: github__alembics__disco-diffusion
+kind: github-repo
+name: disco-diffusion
+canonical_url: https://github.com/alembics/disco-diffusion
+identity:
+  github_repo: alembics/disco-diffusion
+provenance:
+  discoveries:
+    - id: discovery__github__alembics__disco-diffusion__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Model
+          - CV Foundation Model
+        anchor_text: disco-diffusion
+        extracted_url: https://github.com/alembics/disco-diffusion
+        surrounding_text: "| [disco-diffusion](https://github.com/alembics/disco-diffusion)                 | A frankensteinian amalgamation of notebooks, models and techniques for the generation of AI Art and Animations.                                  | ![GitHub Badge](https://img.shields.io/github/stars/alembics/disco-diffusion.svg?style=flat-square)          |"
+        confidence: high
+metadata:
+  github:
+    stars: 7420
+    forks: 1099
+    license: NOASSERTION
+    archived: false
+    created_at: "2022-02-24T23:52:28Z"
+    pushed_at: "2023-07-09T06:30:00Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:00:57.788Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:57.788Z"
+      bytes: 7398
+insights:
+  summary: A Google Colab notebook amalgamation for generating AI art and animations using diffusion models, CLIP guidance, and various creative interpolation techniques.
+  why_it_matters: It provides developers with a concrete, hackable playground for experimenting with diffusion model parameters, depth estimation, and 3D transforms without needing a dedicated ML pipeline.
+  mental_damage: A 7,000+ star monument to the era where 'becoming an AI artist' meant spending four hours tweaking notebook parameters to get a decent PNG of a cosmic jellyfish.
+  tags:
+    - diffusion
+    - ai-art
+    - colab
+    - computer-vision
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a tool for generating AI art and animations, which falls outside the catalog's focus on developer tooling, coding agents, and infrastructure.
+  evidence:
+    - README states it is a 'frankensteinian amalgamation of notebooks, models and techniques for the generation of AI Art and Animations.'
+    - Source list context places it under 'Model > CV Foundation Model', indicating a computer vision/machine learning research focus rather than dev tooling.
+    - No description or README content suggests it assists with code editing, app building, or developer workflow automation.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (7420) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.677Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:57.788Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:07:15.953Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

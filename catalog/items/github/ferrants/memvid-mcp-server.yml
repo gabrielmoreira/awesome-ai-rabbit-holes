@@ -1,0 +1,82 @@
+id: github__ferrants__memvid-mcp-server
+kind: github-repo
+name: memvid-mcp-server
+canonical_url: https://github.com/ferrants/memvid-mcp-server
+identity:
+  github_repo: ferrants/memvid-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__ferrants__memvid-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🗄️ <a name="databases"></a>Databases
+        anchor_text: ferrants/memvid-mcp-server
+        extracted_url: https://github.com/ferrants/memvid-mcp-server
+        surrounding_text: "- [ferrants/memvid-mcp-server](https://github.com/ferrants/memvid-mcp-server) 🐍 🏠 - Python Streamable HTTP Server you can run locally to interact with [memvid](https://github.com/Olow304/memvid) storage and semantic search."
+        confidence: high
+metadata:
+  github:
+    stars: 10
+    forks: 5
+    license: NOASSERTION
+    archived: false
+    created_at: "2025-06-20T03:35:40Z"
+    pushed_at: "2025-06-20T03:51:29Z"
+    description: A Streamable HTTP MCP Server for Memvid
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:10.386Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:10.386Z"
+      bytes: 1385
+insights:
+  summary: A Streamable HTTP MCP server that encodes text data into video files using Memvid for semantic search and retrieval via the Model Context Protocol.
+  why_it_matters: It allows developers to integrate video-encoded memory storage into MCP-compatible clients, enabling novel semantic search workflows outside traditional vector databases.
+  mental_damage: We have successfully reached the point where your context window is so small that we are now compressing it into MP4 files just to get a few chunks of text back.
+  tags:
+    - mcp
+    - memory
+    - semantic-search
+    - video-storage
+    - python
+  confidence: medium
+curation:
+  status: included
+  reason: The project is a standalone implementation of a Model Context Protocol server, fitting squarely into the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description explicitly states: 'A Streamable HTTP MCP Server for Memvid'."
+    - README confirms it is a server implementing the MCP specification for client connectivity.
+    - Listed in the awesome-mcp-servers directory under 'Server Implementations'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.687Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:10.386Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:19:22.901Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

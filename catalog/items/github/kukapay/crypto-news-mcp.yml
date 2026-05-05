@@ -1,0 +1,81 @@
+id: github__kukapay__crypto-news-mcp
+kind: github-repo
+name: crypto-news-mcp
+canonical_url: https://github.com/kukapay/crypto-news-mcp
+identity:
+  github_repo: kukapay/crypto-news-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__kukapay__crypto-news-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: kukapay/crypto-news-mcp
+        extracted_url: https://github.com/kukapay/crypto-news-mcp
+        surrounding_text: "- [kukapay/crypto-news-mcp](https://github.com/kukapay/crypto-news-mcp) 🐍 ☁️ - An MCP server that provides real-time cryptocurrency news sourced from NewsData for AI agents."
+        confidence: high
+metadata:
+  github:
+    stars: 14
+    forks: 10
+    license: MIT
+    archived: false
+    created_at: "2025-04-07T10:41:36Z"
+    pushed_at: "2025-12-10T10:47:52Z"
+    description: An MCP server that provides real-time cryptocurrency news sourced from NewsData for AI agents.
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:03:10.215Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:10.215Z"
+      bytes: 3729
+insights:
+  summary: An MCP server that supplies real-time cryptocurrency news from NewsData to AI agents via tools for headlines, keyword search, and summarization prompts.
+  why_it_matters: Developers building crypto-aware agents can plug in live news context without wiring their own NewsData API client or managing pagination logic.
+  mental_damage: Another specialized MCP server enters the registry, inching us closer to an agent ecosystem where half the stack is fetching headlines and the other half is arguing about Bitcoin.
+  tags:
+    - mcp
+    - crypto
+    - news
+    - agent-tooling
+  confidence: high
+curation:
+  status: included
+  reason: This is a standalone MCP server that exposes cryptocurrency news as tools and prompts for MCP-compatible clients, fitting the MCP Servers and Tooling category cleanly.
+  evidence:
+    - "Repo description states: 'An MCP server that provides real-time cryptocurrency news sourced from NewsData for AI agents.'"
+    - README documents MCP tools (get_latest_news, get_crypto_news) and prompts (summarize_news) with Claude Desktop and Smithery installation.
+    - Listed under 'Server Implementations > Finance & Fintech' in awesome-mcp-servers, confirming its MCP server role.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.702Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:10.215Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:31:49.049Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

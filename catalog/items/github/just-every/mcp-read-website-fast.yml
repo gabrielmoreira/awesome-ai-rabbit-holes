@@ -1,0 +1,89 @@
+id: github__just-every__mcp-read-website-fast
+kind: github-repo
+name: mcp-read-website-fast
+canonical_url: https://github.com/just-every/mcp-read-website-fast
+identity:
+  github_repo: just-every/mcp-read-website-fast
+provenance:
+  discoveries:
+    - id: discovery__github__just-every__mcp-read-website-fast__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: just-every/mcp-read-website-fast
+        extracted_url: https://github.com/just-every/mcp-read-website-fast
+        surrounding_text: "- **[just-every/mcp-read-website-fast](https://github.com/just-every/mcp-read-website-fast)** - Fast, token-efficient web content extraction that converts websites to clean Markdown. Features Mozilla Readability, smart caching, polite crawling with robots.txt support, and concurrent fetching with minimal dependencies."
+        confidence: high
+metadata:
+  github:
+    stars: 147
+    forks: 25
+    license: MIT
+    archived: false
+    created_at: "2025-06-11T10:58:03Z"
+    pushed_at: "2026-05-01T10:50:31Z"
+    description: Quickly reads webpages and converts to markdown for fast, token efficient web scraping
+    homepage: https://justevery.com
+    topics:
+      - claude
+      - codex
+      - crawler
+      - fast
+      - markdown
+      - mcp
+      - mcp-server
+      - scraper
+      - website
+    last_checked_at: "2026-05-05T21:03:01.091Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:01.091Z"
+      bytes: 6694
+insights:
+  summary: An MCP server that fetches web pages, strips noise using Mozilla Readability, and converts content to clean Markdown for token-efficient consumption by AI agents.
+  why_it_matters: It integrates directly into Claude Code, VS Code, Cursor, and JetBrains IDEs to give coding agents fast, low-token access to web documentation and context without the bloat of raw HTML.
+  mental_damage: We have finally invented a way to turn an entire documentation site into markdown so your agent can hallucinate from it using fewer tokens.
+  tags:
+    - mcp
+    - web-scraping
+    - markdown
+    - context-engineering
+  confidence: high
+curation:
+  status: included
+  reason: The project is an MCP server purpose-built to provide web-to-markdown tooling for AI coding agents and IDEs, fitting cleanly into MCP infrastructure.
+  evidence:
+    - Repo description states it 'reads webpages and converts to markdown for fast, token efficient web scraping' as an MCP server.
+    - README details direct integration with Claude Code, VS Code, Cursor, and JetBrains IDEs via MCP configuration.
+    - Listed in awesome-mcp-servers under Community Servers, reinforcing its role in the MCP ecosystem.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.701Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:01.091Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:29:44.780Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

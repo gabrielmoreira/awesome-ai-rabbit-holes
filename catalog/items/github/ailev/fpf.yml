@@ -1,0 +1,92 @@
+id: github__ailev__fpf
+kind: github-repo
+name: fpf
+canonical_url: https://github.com/ailev/fpf
+identity:
+  github_repo: ailev/fpf
+provenance:
+  discoveries:
+    - id: discovery__github__ailev__fpf__awesome-list__engineering4ai__awesome-spec-driven-development
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: Engineering4AI/awesome-spec-driven-development
+        url: https://github.com/engineering4ai/awesome-spec-driven-development
+        repository: Engineering4AI/awesome-spec-driven-development
+      extraction:
+        mode: parsed
+        section_path:
+          - Standards
+        anchor_text: FPF
+        extracted_url: https://github.com/ailev/fpf
+        surrounding_text: "- [FPF](https://github.com/ailev/FPF) ![](https://img.shields.io/github/stars/ailev/FPF.svg) - First Principles Framework - Rigorous specification framework for modeling systems, methods, and knowledge with auditable assurance levels and machine-readable patterns."
+        confidence: high
+metadata:
+  github:
+    stars: 346
+    forks: 58
+    license: null
+    archived: false
+    created_at: "2025-12-01T12:47:55Z"
+    pushed_at: "2026-05-04T21:36:08Z"
+    description: "First Principles Framework (FPF): Operating system for open-ended thought for engieering, research, and mixed human/AI teams: bounded contexts, auditable reasoning, decision records, and multi-view publication."
+    homepage: ""
+    topics:
+      - ai-agents
+      - auditability
+      - bounded-context
+      - collective-intelligence
+      - conceptual-modeling
+      - decision-making
+      - first-principles
+      - human-ai-collaboration
+      - multi-agent-systems
+      - reasoning
+      - spec-driven-development
+      - systems-engineering
+    last_checked_at: "2026-05-05T21:00:55.721Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:55.721Z"
+      bytes: 28806
+insights:
+  summary: First Principles Framework (FPF) is a conceptual specification and reasoning system for structuring open-ended engineering and research work across human and AI teams using bounded contexts, decision records, and auditable reasoning.
+  why_it_matters: It provides a structured, spec-driven methodology for teams to align vocabulary, responsibilities, and decision criteria when collaborating with AI agents on complex, long-running problems.
+  mental_damage: Because the missing piece in your AI-assisted workflow was definitely a 30-pattern ontological framework to prevent your LLM from forgetting what 'boundary' means.
+  tags:
+    - spec-driven
+    - agent-orchestration
+    - human-ai-collab
+    - decision-records
+  confidence: high
+curation:
+  status: included
+  reason: The project is a specification-first methodology and conceptual kernel for guiding engineering work and AI collaboration, fitting the spec-driven-development scope rather than a direct coding agent.
+  evidence:
+    - Repo description defines it as an 'Operating system for open-ended thought' focused on 'spec-driven development' and 'auditable reasoning'.
+    - README emphasizes turning vague problems into 'bounded-context maps', 'decision criteria', and 'durable working forms' like UTS or DRR.
+    - Listed in the 'awesome-spec-driven-development' list under the 'Standards' section.
+placement:
+  primary_category: spec-driven-development
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (346) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.677Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:55.721Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:06:58.052Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

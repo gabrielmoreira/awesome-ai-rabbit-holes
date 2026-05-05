@@ -1,0 +1,100 @@
+id: github__jpisnice__shadcn-ui-mcp-server
+kind: github-repo
+name: shadcn-ui-mcp-server
+canonical_url: https://github.com/jpisnice/shadcn-ui-mcp-server
+identity:
+  github_repo: jpisnice/shadcn-ui-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__jpisnice__shadcn-ui-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: Jpisnice/shadcn-ui-mcp-server
+        extracted_url: https://github.com/jpisnice/shadcn-ui-mcp-server
+        surrounding_text: "- [Jpisnice/shadcn-ui-mcp-server](https://github.com/Jpisnice/shadcn-ui-mcp-server) 📇 🏠 - MCP server that gives AI assistants seamless access to shadcn/ui v4 components, blocks, demos, and metadata."
+        confidence: high
+metadata:
+  github:
+    stars: 2761
+    forks: 289
+    license: MIT
+    archived: false
+    created_at: "2025-04-07T13:10:12Z"
+    pushed_at: "2026-03-17T08:17:56Z"
+    description: A mcp server to allow LLMS gain context about shadcn ui component structure,usage and installation,compaitable with react,svelte 5,vue & React Native
+    homepage: ""
+    topics:
+      - ai
+      - expo
+      - mcp
+      - modelcontextprotocol
+      - nextjs
+      - npm
+      - npm-package
+      - npx
+      - react
+      - react-native
+      - shadcn-ui
+      - svelte
+      - sveltekit
+      - ts
+      - typescript
+      - ui
+      - vue
+      - vuejs
+      - webdev
+    last_checked_at: "2026-05-05T21:02:59.736Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:59.736Z"
+      bytes: 10659
+insights:
+  summary: An MCP server that provides AI assistants with structured access to shadcn/ui v4 component source code, demos, and metadata across React, Svelte, Vue, and React Native frameworks.
+  why_it_matters: It gives coding agents the ability to retrieve accurate, framework-specific shadcn/ui implementations and configuration details directly within the development workflow, reducing hallucinated UI code.
+  mental_damage: We have now successfully abstracted the process of copy-pasting UI components into a protocol that allows an AI to hallucinate them with significantly more authority.
+  tags:
+    - mcp
+    - shadcn-ui
+    - context-engineering
+    - multi-framework
+  confidence: high
+curation:
+  status: included
+  reason: The project is a Model Context Protocol server providing context and tooling infrastructure for AI assistants, fitting squarely into the MCP category.
+  evidence:
+    - Repo description explicitly states it is 'A mcp server to allow LLMS gain context about shadcn ui'.
+    - README details MCP transport modes (stdio, SSE) and integration with Claude Desktop and Claude Code.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (2761) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.700Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:59.736Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:29:27.783Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

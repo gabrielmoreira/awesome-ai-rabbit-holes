@@ -1,0 +1,82 @@
+id: github__ezyang__codemcp
+kind: github-repo
+name: codemcp
+canonical_url: https://github.com/ezyang/codemcp
+identity:
+  github_repo: ezyang/codemcp
+provenance:
+  discoveries:
+    - id: discovery__github__ezyang__codemcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🤖 <a name="coding-agents"></a>Coding Agents
+        anchor_text: ezyang/codemcp
+        extracted_url: https://github.com/ezyang/codemcp
+        surrounding_text: "- [ezyang/codemcp](https://github.com/ezyang/codemcp) 🐍 🏠 - Coding agent with basic read, write and command line tools."
+        confidence: high
+metadata:
+  github:
+    stars: 1615
+    forks: 140
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-03-09T03:58:34Z"
+    pushed_at: "2025-12-25T02:10:23Z"
+    description: Coding assistant MCP for Claude Desktop
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:02:07.062Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:07.062Z"
+      bytes: 8454
+insights:
+  summary: An MCP server that turns Claude Desktop (and browser-based Claude) into a local coding agent that can directly edit files, run tests, and manage Git commits on your codebase.
+  why_it_matters: It lets developers use a flat-rate Claude Pro subscription as a zero-marginal-cost pair programmer that works across any IDE without requiring VSCode or expensive per-token billing.
+  mental_damage: The author already considers it obsolete compared to Claude Code, which means you can now feel behind the curve while self-hosting the thing that replaced the thing that replaced you.
+  tags:
+    - mcp
+    - claude
+    - coding-agent
+    - local-first
+    - cli
+  confidence: high
+curation:
+  status: included
+  reason: This is a developer-facing coding agent that directly edits, tests, and versions code inside a local repo via Claude, fitting the coding-agents category over MCP infrastructure since the MCP server is the delivery mechanism for the agent itself.
+  evidence:
+    - Repo description states it is a 'Coding assistant MCP for Claude Desktop'
+    - README says it lets you 'ask Claude to implement features, fix bugs and do refactors on a codebase... Claude will directly edit files and run tests'
+    - Listed under 'Coding Agents' in the awesome-mcp-servers directory
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1615) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.687Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:07.062Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:18:51.704Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

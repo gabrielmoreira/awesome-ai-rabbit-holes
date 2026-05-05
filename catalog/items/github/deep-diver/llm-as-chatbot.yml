@@ -1,0 +1,97 @@
+id: github__deep-diver__llm-as-chatbot
+kind: github-repo
+name: alpaca-lora-serve
+canonical_url: https://github.com/deep-diver/llm-as-chatbot
+identity:
+  github_repo: deep-diver/llm-as-chatbot
+provenance:
+  discoveries:
+    - id: discovery__github__deep-diver__alpaca-lora-serve__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Serving
+          - Large Model Serving
+        anchor_text: Alpaca-LoRA-Serve
+        extracted_url: https://github.com/deep-diver/alpaca-lora-serve
+        surrounding_text: "| [Alpaca-LoRA-Serve](https://github.com/deep-diver/Alpaca-LoRA-Serve)                  | Alpaca-LoRA as Chatbot service                                                                                  | ![GitHub Badge](https://img.shields.io/github/stars/deep-diver/Alpaca-LoRA-Serve.svg?style=flat-square)          |"
+        confidence: high
+    - id: discovery__github__deep-diver__llm-as-chatbot__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: janhq/awesome-local-ai
+        url: https://github.com/janhq/awesome-local-ai
+        repository: janhq/awesome-local-ai
+      extraction:
+        mode: parsed
+        section_path:
+          - Inference UI
+        anchor_text: LLM as a Chatbot Service
+        extracted_url: https://github.com/deep-diver/llm-as-chatbot
+        surrounding_text: "- [LLM as a Chatbot Service](https://github.com/deep-diver/LLM-As-Chatbot) - LLM as a Chatbot Service."
+        confidence: high
+metadata:
+  github:
+    stars: 3325
+    forks: 379
+    license: Apache-2.0
+    archived: false
+    created_at: "2023-02-27T15:32:16Z"
+    pushed_at: "2023-11-20T14:33:58Z"
+    description: LLM as a Chatbot Service
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:01:50.794Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:50.794Z"
+      bytes: 17103
+insights:
+  summary: A Gradio and Discord-based chat interface for serving a variety of open-source, instruction-following LLMs locally or in the cloud with model-agnostic context management.
+  why_it_matters: It provides a ready-to-run UI and bot infrastructure for developers wanting to deploy and test local open-source models without building the interface layer themselves.
+  mental_damage: Another valiant attempt to wrap the ever-growing zoo of finicky LLMs in a Gradio UI so you can chat with a 7B model that thinks it is a toaster.
+  tags:
+    - local-ai
+    - chatbot
+    - gradio
+    - llm-serving
+    - open-source
+  confidence: high
+curation:
+  status: included
+  reason: The project is a developer-facing tool for running and serving open-source LLMs locally via a Gradio UI or Discord bot, fitting the local-ai category.
+  evidence:
+    - Repo description states 'LLM as a Chatbot Service' and README describes serving open-source instruction-following LLMs.
+    - Includes Gradio UI and Discord bot integration for local or cloud-deployed model inference.
+    - Listed under 'Inference UI' in the awesome-local-ai directory.
+placement:
+  primary_category: local-ai
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (3325) exceeded threshold (150)
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:16:00.483Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.684Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:50.794Z"
+    cause: null
+    next_retry_at: null

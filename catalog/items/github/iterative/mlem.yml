@@ -1,0 +1,91 @@
+id: github__iterative__mlem
+kind: github-repo
+name: mlem
+canonical_url: https://github.com/iterative/mlem
+identity:
+  github_repo: iterative/mlem
+provenance:
+  discoveries:
+    - id: discovery__github__iterative__mlem__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Large Scale Deployment
+          - Model Management
+        anchor_text: MLEM
+        extracted_url: https://github.com/iterative/mlem
+        surrounding_text: "| [MLEM](https://github.com/iterative/mlem)           | A tool to package, serve, and deploy any ML model on any platform.                                                                                                                                                                                                                                           | ![GitHub Badge](https://img.shields.io/github/stars/iterative/mlem.svg?style=flat-square)          |"
+        confidence: high
+metadata:
+  github:
+    stars: 718
+    forks: 42
+    license: Apache-2.0
+    archived: true
+    created_at: "2021-09-30T08:07:34Z"
+    pushed_at: "2023-09-13T18:27:00Z"
+    description: 🐶 A tool to package, serve, and deploy any ML model on any platform. Archived to be resurrected one day🤞
+    homepage: https://mlem.ai
+    topics:
+      - cli
+      - data-science
+      - deployment
+      - developer-tools
+      - git
+      - machine-learning
+      - mlem
+      - model-registry
+      - python
+    last_checked_at: "2026-05-05T21:02:47.720Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:47.720Z"
+      bytes: 6710
+insights:
+  summary: MLEM is a GitOps-oriented CLI and Python library for packaging, versioning, and deploying ML models to platforms like Heroku, SageMaker, and Kubernetes.
+  why_it_matters: It lets ML and backend developers manage model lifecycles using familiar Git workflows and standard Python tooling instead of adopting a separate model-serving platform.
+  mental_damage: Another bold attempt to bring GitOps purity to ML model deployment, allowing teams to argue about model diffs in pull requests while the underlying library gathers dust in archive limbo.
+  tags:
+    - mlops
+    - model-deployment
+    - gitops
+    - cli
+    - python
+  confidence: high
+curation:
+  status: excluded
+  reason: The project is archived and focused on traditional ML model deployment rather than the AI developer tooling, coding agents, and app-building workflows this catalog curates.
+  evidence:
+    - Repo description explicitly states 'Archived to be resurrected one day🤞' and last push was 2023-09-13.
+    - Tooling is centered on sklearn/ML model packaging and deployment (SageMaker, Heroku), not AI coding assistants or developer agents.
+    - Listed in Awesome-LLMOps under 'Large Scale Deployment > Model Management', which is outside the catalog's coding-agent and developer-tooling scope.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: needs_review
+  reason: Repository is archived
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.698Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:47.720Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:26:49.943Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

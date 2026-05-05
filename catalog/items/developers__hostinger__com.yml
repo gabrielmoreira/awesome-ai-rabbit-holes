@@ -1,0 +1,75 @@
+id: developers__hostinger__com
+kind: website
+name: developers.hostinger.com
+canonical_url: https://developers.hostinger.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__developers__hostinger__com__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Hostinger API
+        extracted_url: https://developers.hostinger.com
+        surrounding_text: "- **[Hostinger](https://github.com/hostinger/api-mcp-server)** - Official [Hostinger API](https://developers.hostinger.com/) MCP server for services managment."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: The Hostinger API Reference is a documentation portal for Hostinger's web services API.
+  why_it_matters: It provides the necessary endpoints for developers to programmatically manage hosting infrastructure, domains, and services.
+  mental_damage: Another API reference joins the ecosystem, allowing AI agents to spin up failing side projects on hosting infrastructure you forgot you were paying for.
+  tags:
+    - api
+    - hosting
+    - documentation
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a standard API documentation site for a hosting provider, not an AI tool, agent, or developer-facing AI infrastructure.
+  evidence:
+    - Scraped site context identifies the title as 'Hostinger API Reference', indicating a documentation portal.
+    - Source-list context mentions it only as a link within an 'Official Servers' section of an MCP list, but the URL itself is a standard API docs page.
+    - No inputs indicate the presence of AI features, agents, or AI-specific developer tooling.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.727Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:43:42.097Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

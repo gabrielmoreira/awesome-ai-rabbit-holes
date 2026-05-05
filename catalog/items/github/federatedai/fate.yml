@@ -1,0 +1,86 @@
+id: github__federatedai__fate
+kind: github-repo
+name: fate
+canonical_url: https://github.com/federatedai/fate
+identity:
+  github_repo: federatedai/fate
+provenance:
+  discoveries:
+    - id: discovery__github__federatedai__fate__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Federated ML
+        anchor_text: FATE
+        extracted_url: https://github.com/federatedai/fate
+        surrounding_text: "| [FATE](https://github.com/FederatedAI/FATE)                     | An Industrial Grade Federated Learning Framework                                                                                                                                                                                                                                 | ![GitHub Badge](https://img.shields.io/github/stars/FederatedAI/FATE.svg?style=flat-square)     |"
+        confidence: high
+metadata:
+  github:
+    stars: 6069
+    forks: 1568
+    license: Apache-2.0
+    archived: false
+    created_at: "2019-01-24T10:32:43Z"
+    pushed_at: "2024-11-19T08:19:11Z"
+    description: An Industrial Grade Federated Learning Framework
+    homepage: ""
+    topics:
+      - algorithm
+      - fate
+      - federated-learning
+      - machine-learning
+      - privacy-preserving
+    last_checked_at: "2026-05-05T21:02:09.326Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:09.326Z"
+      bytes: 7613
+insights:
+  summary: FATE is an industrial-grade, open-source federated learning framework that enables secure, privacy-preserving collaborative model training across institutions using homomorphic encryption and multi-party computation.
+  why_it_matters: It provides the infrastructure for developers to build machine learning solutions that comply with data privacy regulations by keeping data localized while still training shared models.
+  mental_damage: Watch as 'privacy-preserving' becomes the new 'blockchain-enabled' buzzword tacked onto every ML pipeline, despite requiring a PhD just to configure the MPC protocols.
+  tags:
+    - federated-learning
+    - privacy
+    - machine-learning
+    - framework
+    - llmops
+  confidence: high
+curation:
+  status: excluded
+  reason: While included in Awesome-LLMOps, this is a general machine learning and data science framework for federated learning, lacking a developer-tooling or AI-assisted coding workflow angle.
+  evidence:
+    - Repo description is 'An Industrial Grade Federated Learning Framework', focusing on data science rather than developer productivity.
+    - README emphasizes algorithms like logistic regression and deep learning for data collaboration, not code generation or developer assistance.
+    - Seen in Awesome-LLMOps under 'Federated ML', which is a research/infrastructure niche rather than the catalog's scope of coding agents and dev tools.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (6069) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.687Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:09.326Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:19:13.880Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

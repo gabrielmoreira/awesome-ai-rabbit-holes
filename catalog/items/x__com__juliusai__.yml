@@ -1,0 +1,76 @@
+id: x__com__juliusai__
+kind: website
+name: JuliusAI_
+canonical_url: https://x.com/JuliusAI_
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__x__com__juliusai____awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Julius
+          - Description
+        anchor_text: Twitter
+        extracted_url: https://twitter.com/JuliusAI_
+        surrounding_text: "- [Twitter](https://twitter.com/JuliusAI_)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: JuliusAI is an AI autonomous agent with no accessible public repository, description, or functional project page available for review.
+  why_it_matters: It claims to be an autonomous agent, which theoretically fits into the growing ecosystem of tools attempting to offload coding tasks to AI.
+  mental_damage: We are now curating 'agents' that exist only as a handle on a social media site that is currently blocking the scraper, proving the tooling is as stable as the privacy extensions it breaks.
+  tags:
+    - autonomous-agents
+    - unverified
+    - x-dot-com
+  confidence: high
+curation:
+  status: excluded
+  reason: The project is excluded because there is no functional homepage, repo, or description available to verify it is a developer tool rather than a generic AI service or vaporware.
+  evidence:
+    - The scraped site context returns an error page (x.com) with no description or title.
+    - No repository description, README, stars, or license information is provided.
+    - Listed only as a name in an awesome list section without descriptive evidence of developer utility.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.734Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:54:18.879Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

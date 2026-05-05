@@ -1,0 +1,76 @@
+id: www__rocket__new
+kind: website
+name: www.rocket.new
+canonical_url: https://www.rocket.new
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__rocket__new__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - App Builders
+        anchor_text: Rocket.new
+        extracted_url: https://rocket.new
+        surrounding_text: "- **[Rocket.new](https://rocket.new/)** – AI-powered rapid app development from natural language."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A browser-first platform that uses natural language prompts to research market problems, generate production-ready web and mobile apps with one-click deployment, and track competitor intelligence.
+  why_it_matters: It allows developers and product teams to move from a vague market idea to a deployed application and ongoing competitive monitoring without switching contexts or tools.
+  mental_damage: You no longer have the excuse of 'we need to do more market research' to avoid fixing that bug, as the AI now handles the market research, the build, and the competitor stalking simultaneously.
+  tags:
+    - app-builder
+    - prompt-to-app
+    - saas
+    - competitor-tracking
+  confidence: high
+curation:
+  status: included
+  reason: Rocket is a browser-first SaaS product focused on generating and deploying full applications (web, mobile, internal tools) from prompts, which aligns perfectly with the app-builders category.
+  evidence:
+    - Scraped site context describes 'Production-grade from first prompt' and 'One-click deploy' for Web apps, Mobile apps, and SaaS.
+    - Source list context places it under 'App Builders' in awesome-ai-coding-tools.
+    - User testimonials compare it favorably against other prompt-to-app tools like Bolt, Lovable, and V0.
+placement:
+  primary_category: app-builders
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.734Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:53:12.585Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

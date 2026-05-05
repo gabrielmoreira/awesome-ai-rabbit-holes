@@ -1,0 +1,76 @@
+id: localhost
+kind: website
+name: localhost
+canonical_url: https://localhost
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__localhost__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Taskeract
+        extracted_url: https://www.taskeract.com
+        surrounding_text: "- **[Taskeract](https://github.com/Acqusys/taskeract-mcp)** - Official Taskeract MCP Server for integrating your [Taskeract](https://www.taskeract.com/) project tasks and load the context of your tasks into your MCP enabled app."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A desktop workspace app that hosts AI coding agents (Claude Code, OpenAI Codex, OpenCode) in isolated terminals with integrated git workflows, PR review, and local domain environments.
+  why_it_matters: It centralizes multi-agent coding sessions and git operations into a single desktop interface, offering timeline checkpoints and structural diffs to manage agent-generated changes without switching tools.
+  mental_damage: We have officially reached the point where we need a dedicated desktop app just to coordinate the three different AI agents pretending to be junior developers in isolated terminal windows.
+  tags:
+    - coding-agents
+    - desktop-app
+    - git-workflow
+    - multi-agent
+  confidence: high
+curation:
+  status: included
+  reason: The product is a developer-facing desktop workspace that orchestrates AI coding agents directly in terminals to write, review, and merge code within a repo/PR workflow, fitting the coding-agents category.
+  evidence:
+    - Scraped site describes it as a 'desktop app where AI coding agents run in real terminals' for generating code and reviewing PRs.
+    - Integrates directly with developer workflows including git workspace isolation, issue tracking, and PR review for GitHub/GitLab/Bitbucket.
+    - Listed in awesome-mcp-servers as a desktop AI coding tool for agent-based development.
+placement:
+  primary_category: coding-agents
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.728Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:46:03.567Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

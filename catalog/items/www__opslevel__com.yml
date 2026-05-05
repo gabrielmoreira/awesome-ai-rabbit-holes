@@ -1,0 +1,77 @@
+id: www__opslevel__com
+kind: website
+name: www.opslevel.com
+canonical_url: https://www.opslevel.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__opslevel__com__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: OpsLevel
+        extracted_url: https://www.opslevel.com
+        surrounding_text: "- [opslevel/opslevel-mcp](https://github.com/opslevel/opslevel-mcp) 🎖️ 🏎️ ☁️ 🪟 🍎 🐧 - Official MCP Server for [OpsLevel](https://www.opslevel.com)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: OpsLevel is an internal developer portal that provides a software catalog, scorecards, and self-service actions, recently adding AI-powered catalog enrichment and a maintenance agent for code upkeep.
+  why_it_matters: It centralizes service ownership, health standards, and documentation discovery so platform teams can automate governance without manually chasing down microservice owners.
+  mental_damage: Yet another 'single pane of glass' promising to solve organizational chaos, while your team still can't agree on who owns the authentication service.
+  tags:
+    - internal-developer-portal
+    - platform-engineering
+    - service-catalog
+    - ai-maintenance
+  confidence: high
+curation:
+  status: excluded
+  reason: OpsLevel is a platform engineering and SRE portal for service cataloging and standards, not a developer-facing AI coding tool, agent, or app builder.
+  evidence:
+    - Product description focuses on internal developer portal, software catalog, scorecards, and self-service actions rather than AI coding assistance.
+    - AI features mentioned (Tidra AI, Maintenance Agent) are positioned as code maintenance automation at scale, not interactive coding agents or app generation.
+    - Appears in awesome-mcp-servers under Developer Tools, but the product itself is a SaaS portal, not an MCP server, framework, or coding assistant.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.733Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:52:22.886Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

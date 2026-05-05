@@ -1,0 +1,85 @@
+id: github__dataelement__clawith
+kind: github-repo
+name: clawith
+canonical_url: https://github.com/dataelement/clawith
+identity:
+  github_repo: dataelement/clawith
+provenance:
+  discoveries:
+    - id: discovery__github__dataelement__clawith__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Terminal-native coding agents
+          - OpenClaw ecosystem
+        anchor_text: Clawith
+        extracted_url: https://github.com/dataelement/clawith
+        surrounding_text: "- **[Clawith](https://github.com/dataelement/Clawith)** `⭐ 3.5k` — \"OpenClaw for Teams\" — multi-agent collaboration platform that scales OpenClaw to organizations. Apache-2.0."
+        confidence: high
+metadata:
+  github:
+    stars: 3535
+    forks: 581
+    license: Apache-2.0
+    archived: false
+    created_at: "2026-03-03T04:58:21Z"
+    pushed_at: "2026-05-04T03:03:25Z"
+    description: Your Agent Company
+    homepage: https://www.clawith.ai
+    topics:
+      - agent
+      - llm
+      - multiagent
+      - openclaw
+    last_checked_at: "2026-05-05T21:01:47.290Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:47.290Z"
+      bytes: 12929
+insights:
+  summary: An open-source platform for deploying teams of autonomous AI agents with persistent identities, long-term memory, and workspace isolation that collaborate like digital employees.
+  why_it_matters: It lets developers spin up a multi-agent 'company' with RBAC, audit logs, and Slack/Discord integration instead of wiring together single-purpose scripts.
+  mental_damage: You now have the infrastructure to hire a fully autonomous workforce, complete with org charts and performance anxiety, before you've fixed the failing CI build.
+  tags:
+    - multi-agent
+    - orchestration
+    - digital-employees
+    - open-source
+  confidence: high
+curation:
+  status: included
+  reason: This is a user-facing control plane for coordinating multiple AI agents with enterprise features like RBAC and audit logs, fitting agent-orchestration rather than a coding agent that edits repos directly.
+  evidence:
+    - "Repo description: 'Your Agent Company' and README defines it as a 'multi-agent collaboration platform' with persistent identity and workspaces."
+    - "Includes org-grade features: multi-tenant RBAC, approval workflows, audit logs, and Slack/Discord channel integration for each agent."
+    - Seen in awesome-cli-coding-agents under 'Terminal-native coding agents > OpenClaw ecosystem', confirming developer-tooling relevance.
+placement:
+  primary_category: agent-orchestration
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (3535) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.684Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:47.290Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:15:31.235Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

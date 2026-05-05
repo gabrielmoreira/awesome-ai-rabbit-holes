@@ -1,0 +1,77 @@
+id: h2o__ai
+kind: website
+name: h2o.ai
+canonical_url: https://h2o.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__h2o__ai__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: janhq/awesome-local-ai
+        url: https://github.com/janhq/awesome-local-ai
+        repository: janhq/awesome-local-ai
+      extraction:
+        mode: parsed
+        section_path:
+          - Platforms / full solutions
+        anchor_text: H2OAI
+        extracted_url: https://h2o.ai
+        surrounding_text: "- [H2OAI](https://h2o.ai/#tabs-320f3fc63d-item-aa19ad7787-tab) - H2OGPT The fastest, most accurate AI Cloud Platform."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: H2O.ai is an enterprise AI platform providing end-to-end predictive and generative AI infrastructure, including fine-tuning studios, LLMs, and agentic workflows for on-premises or air-gapped deployments.
+  why_it_matters: It offers developers a complete stack to build, deploy, and monitor AI agents and models within secure, private infrastructure without sending data to external SaaS providers.
+  mental_damage: "Just what every developer wanted: a 'complete end-to-end platform' that promises to solve fraud, HR, and KYC simultaneously, ensuring your YAML files will now require enterprise-grade compliance reviews."
+  tags:
+    - enterprise-ai
+    - local-ai
+    - agents
+    - mlops
+    - generative-ai
+  confidence: medium
+curation:
+  status: excluded
+  reason: While it includes developer tools like H2O Wave and LLM Studio, the primary surface is a broad enterprise AI platform for data scientists and business use cases, not a focused developer-tooling product for coding workflows.
+  evidence:
+    - Site context emphasizes 'Enterprise AI Agent', 'Predictive AI', and business use cases (banking, telco) over developer IDE/CLI tooling.
+    - Included in 'awesome-local-ai' under 'Platforms / full solutions', suggesting it is infrastructure rather than a coding-specific utility.
+    - No repository description, stars, or code-level inputs provided to confirm it functions as a developer-facing coding agent or SDK.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.728Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:45:12.677Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

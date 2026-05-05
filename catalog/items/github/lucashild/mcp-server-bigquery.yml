@@ -1,0 +1,114 @@
+id: github__lucashild__mcp-server-bigquery
+kind: github-repo
+name: mcp-server-bigquery
+canonical_url: https://github.com/lucashild/mcp-server-bigquery
+identity:
+  github_repo: lucashild/mcp-server-bigquery
+provenance:
+  discoveries:
+    - id: discovery__github__lucashild__mcp-server-bigquery__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🗄️ <a name="databases"></a>Databases
+        anchor_text: LucasHild/mcp-server-bigquery
+        extracted_url: https://github.com/lucashild/mcp-server-bigquery
+        surrounding_text: "- [LucasHild/mcp-server-bigquery](https://github.com/LucasHild/mcp-server-bigquery) 🐍 ☁️ - BigQuery database integration with schema inspection and query capabilities"
+        confidence: high
+    - id: discovery__github__lucashild__mcp-server-bigquery__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: BigQuery
+        extracted_url: https://github.com/lucashild/mcp-server-bigquery
+        surrounding_text: "- **[BigQuery](https://github.com/LucasHild/mcp-server-bigquery)** (by LucasHild) - BigQuery database integration with schema inspection and query capabilities"
+        confidence: high
+    - id: discovery__github__lucashild__mcp-server-bigquery__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - 🗄️ Databases
+        anchor_text: LucasHild/mcp-server-bigquery
+        extracted_url: https://github.com/lucashild/mcp-server-bigquery
+        surrounding_text: "-   **[LucasHild/mcp-server-bigquery](https://github.com/LucasHild/mcp-server-bigquery)** [![GitHub stars](https://img.shields.io/github/stars/LucasHild/mcp-server-bigquery?style=social)](https://github.com/LucasHild/mcp-server-bigquery): Allows querying and schema inspection of BigQuery databases."
+        confidence: high
+metadata:
+  github:
+    stars: 125
+    forks: 36
+    license: MIT
+    archived: false
+    created_at: "2024-12-03T18:09:19Z"
+    pushed_at: "2026-03-26T13:57:09Z"
+    description: A Model Context Protocol server that provides access to BigQuery
+    homepage: ""
+    topics:
+      - bigquery
+      - mcp
+      - mcp-server
+    last_checked_at: "2026-05-05T21:03:25.543Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:25.543Z"
+      bytes: 4666
+insights:
+  summary: A Model Context Protocol server that allows LLMs to inspect schemas, list tables, and execute SQL queries against Google BigQuery datasets.
+  why_it_matters: It lets developers wire BigQuery directly into AI coding assistants like Claude Code and Cursor, so the model can reason over live production data without manual schema copying.
+  mental_damage: We have successfully abstracted the database so far away that the AI can now hallucinate your analytics queries in real time, provided you configured the JSON correctly.
+  tags:
+    - mcp
+    - bigquery
+    - database
+    - context-protocol
+  confidence: high
+curation:
+  status: included
+  reason: This is a dedicated MCP server implementation for BigQuery, fitting cleanly into the MCP Servers and Tooling category as a developer-facing integration.
+  evidence:
+    - "Repo description explicitly states: 'A Model Context Protocol server that provides access to BigQuery'."
+    - README lists tools for execute-query, list-tables, and describe-table for LLM integration.
+    - Included in awesome-mcp-list and awesome-mcp-servers under the Databases section.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.660Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:25.543Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:34:54.156Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

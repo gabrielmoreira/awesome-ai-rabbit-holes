@@ -1,0 +1,82 @@
+id: github__confluentinc__mcp-confluent
+kind: github-repo
+name: mcp-confluent
+canonical_url: https://github.com/confluentinc/mcp-confluent
+identity:
+  github_repo: confluentinc/mcp-confluent
+provenance:
+  discoveries:
+    - id: discovery__github__confluentinc__mcp-confluent__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🗄️ <a name="databases"></a>Databases
+        anchor_text: confluentinc/mcp-confluent
+        extracted_url: https://github.com/confluentinc/mcp-confluent
+        surrounding_text: "- [confluentinc/mcp-confluent](https://github.com/confluentinc/mcp-confluent) 🐍 ☁️ - Confluent integration to interact with Confluent Kafka and Confluent Cloud REST APIs."
+        confidence: high
+metadata:
+  github:
+    stars: 152
+    forks: 50
+    license: MIT
+    archived: false
+    created_at: "2025-01-16T20:07:31Z"
+    pushed_at: "2026-05-05T20:50:36Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:01:40.551Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:40.551Z"
+      bytes: 38917
+insights:
+  summary: An MCP server that exposes 50+ Confluent Cloud and Confluent Local tools—covering Kafka, Flink SQL, Schema Registry, Connectors, and Tableflow—to MCP-compatible AI clients like Claude, Cursor, and VS Code.
+  why_it_matters: It lets developers manage streaming infrastructure, inspect schemas, and run Flink SQL through natural-language conversations inside their existing AI-assisted editor or CLI workflows.
+  mental_damage: You can now troubleshoot a misbehaving Kafka topic by arguing with your IDE instead of the CLI, which at least makes the confusion feel more interactive.
+  tags:
+    - mcp
+    - confluent
+    - kafka
+    - flink
+    - infrastructure
+  confidence: high
+curation:
+  status: included
+  reason: This is a first-party MCP server implementation for Confluent's streaming platform, matching the MCP Servers and Tooling category cleanly.
+  evidence:
+    - README describes it as 'an open-source MCP server' with 50+ tools for Confluent Cloud and Confluent Local.
+    - Listed in awesome-mcp-servers under Server Implementations > Databases, confirming ecosystem fit.
+    - Actively maintained (pushed 2026-05-05) with MIT license and 152 stars since early 2025.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (152) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.683Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:40.551Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:14:15.558Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

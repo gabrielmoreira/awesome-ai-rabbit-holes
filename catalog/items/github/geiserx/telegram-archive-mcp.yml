@@ -1,0 +1,102 @@
+id: github__geiserx__telegram-archive-mcp
+kind: github-repo
+name: telegram-archive-mcp
+canonical_url: https://github.com/geiserx/telegram-archive-mcp
+identity:
+  github_repo: geiserx/telegram-archive-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__geiserx__telegram-archive-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💬 <a name="communication"></a>Communication
+        anchor_text: GeiserX/telegram-archive-mcp
+        extracted_url: https://github.com/geiserx/telegram-archive-mcp
+        surrounding_text: "- [GeiserX/telegram-archive-mcp](https://github.com/GeiserX/telegram-archive-mcp) [![GeiserX/telegram-archive-mcp MCP server](https://glama.ai/mcp/servers/GeiserX/telegram-archive-mcp/badges/score.svg)](https://glama.ai/mcp/servers/GeiserX/telegram-archive-mcp) 🏎️ ☁️ 🍎 🪟 🐧 - Go-based MCP server for Telegram Archive. Search and browse Telegram chat history, list chats, and retrieve messages with full-text search. Docker image available."
+        confidence: high
+metadata:
+  github:
+    stars: 2
+    forks: 0
+    license: GPL-3.0
+    archived: false
+    created_at: "2026-04-01T10:40:14Z"
+    pushed_at: "2026-04-28T16:03:41Z"
+    description: MCP Server for Telegram-Archive — search messages, browse chats, and access archived Telegram history via MCP
+    homepage: null
+    topics:
+      - ai-tools
+      - archive
+      - chat-backup
+      - chat-history
+      - docker
+      - go
+      - golang
+      - json-rpc
+      - llm
+      - mcp
+      - mcp-server
+      - message-search
+      - messaging
+      - model-context-protocol
+      - search
+      - self-hosted
+      - stdio
+      - telegram
+      - telegram-archive
+      - telegram-bot
+    last_checked_at: "2026-05-05T21:02:18.474Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:18.474Z"
+      bytes: 8346
+insights:
+  summary: A self-hosted MCP server that exposes archived Telegram chat history as resources and tools for LLMs to search messages and browse chats.
+  why_it_matters: Developers can connect AI agents and coding assistants directly to their Telegram archives, enabling automated reference lookups and context retrieval from past conversations.
+  mental_damage: "We have finally achieved the platonic ideal of modern developer productivity: an MCP server to help your AI agent query that one message from three years ago where you swore you pasted the correct API key."
+  tags:
+    - mcp
+    - telegram
+    - archive
+    - self-hosted
+    - go
+  confidence: high
+curation:
+  status: included
+  reason: The project is an MCP server implementation that exposes Telegram archive data to LLMs, fitting cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states 'MCP Server for Telegram-Archive' with MCP-specific features.
+    - README details MCP resources and tools (search_messages, get_chat_stats) over JSON-RPC / stdio transports.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Communication', confirming its MCP ecosystem role.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.688Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:18.474Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:20:50.473Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

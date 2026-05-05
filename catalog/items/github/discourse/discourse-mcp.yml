@@ -1,0 +1,81 @@
+id: github__discourse__discourse-mcp
+kind: github-repo
+name: discourse-mcp
+canonical_url: https://github.com/discourse/discourse-mcp
+identity:
+  github_repo: discourse/discourse-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__discourse__discourse-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💬 <a name="communication"></a>Communication
+        anchor_text: discourse/discourse-mcp
+        extracted_url: https://github.com/discourse/discourse-mcp
+        surrounding_text: "- [discourse/discourse-mcp](https://github.com/discourse/discourse-mcp) 🎖️ 💎 ☁️ 🏠 💬 🍎 🪟 🐧 - Official Discourse MCP server for forum integration. Search topics, read posts, manage categories and tags, discover users, and interact with Discourse communities."
+        confidence: high
+metadata:
+  github:
+    stars: 54
+    forks: 32
+    license: MIT
+    archived: false
+    created_at: "2025-08-18T06:15:05Z"
+    pushed_at: "2026-04-01T20:48:14Z"
+    description: MCP client for Discourse sites
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:01:53.900Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:53.900Z"
+      bytes: 21808
+insights:
+  summary: An official MCP server from Discourse that exposes forum capabilities as tools and resources for AI agents to read and write posts, topics, and users.
+  why_it_matters: Developers can now wire AI agents directly into community forums to automate support, moderation, and knowledge-base workflows without building custom API wrappers.
+  mental_damage: "We have finally achieved the singularity: an AI agent that can argue with users on your forum, entirely unburdened by the need to understand your community guidelines."
+  tags:
+    - mcp
+    - discourse
+    - agent-tooling
+    - forum-automation
+  confidence: high
+curation:
+  status: included
+  reason: This is a first-party MCP server implementation that exposes Discourse forum APIs as tools and resources for AI agents, fitting cleanly into MCP infrastructure.
+  evidence:
+    - "Repo description states: 'MCP client for Discourse sites' (though README clarifies it is an MCP server)."
+    - README confirms it is 'A Model Context Protocol (MCP) stdio server that exposes Discourse forum capabilities as tools and resources for AI agents.'
+    - Listed in awesome-mcp-servers under 'Server Implementations > Communication', aligning with the MCP category scope.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.685Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:53.900Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:16:32.285Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

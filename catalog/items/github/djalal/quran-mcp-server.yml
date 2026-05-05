@@ -1,0 +1,81 @@
+id: github__djalal__quran-mcp-server
+kind: github-repo
+name: quran-mcp-server
+canonical_url: https://github.com/djalal/quran-mcp-server
+identity:
+  github_repo: djalal/quran-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__djalal__quran-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🎨 <a name="art-and-culture"></a>Art & Culture
+        anchor_text: djalal/quran-mcp-server
+        extracted_url: https://github.com/djalal/quran-mcp-server
+        surrounding_text: "- [djalal/quran-mcp-server](https://github.com/djalal/quran-mcp-server) 📇 ☁️ MCP server to interact with Quran.com corpus via the official REST API v4."
+        confidence: high
+metadata:
+  github:
+    stars: 64
+    forks: 12
+    license: MIT
+    archived: false
+    created_at: "2025-03-31T15:59:42Z"
+    pushed_at: "2025-06-12T18:53:07Z"
+    description: Quran.com API integration for verse search, translation and tafsir
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:01:54.009Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:54.009Z"
+      bytes: 4856
+insights:
+  summary: An MCP server that exposes the Quran.com REST API (v4) as tools for LLM clients, enabling verse search, translation, tafsir lookup, and audio recitation access.
+  why_it_matters: It lets developers quickly wire Islamic text and commentary into AI workflows, coding agents, or Claude Desktop without writing custom API integration code.
+  mental_damage: We now have a protocol for letting LLMs cite scripture with the same rigor they apply to Stack Overflow answers.
+  tags:
+    - mcp
+    - quran
+    - api-integration
+    - llm-tools
+  confidence: high
+curation:
+  status: included
+  reason: The project is a standalone MCP server implementation that exposes the Quran.com API as LLM-accessible tools, fitting cleanly into MCP infrastructure rather than app building, coding agents, or generic directories.
+  evidence:
+    - "Repo description states: 'Quran.com API integration for verse search, translation and tafsir'."
+    - "README confirms: 'This is a Model Context Protocol (MCP) server generated from the OpenAPI specification'."
+    - Listed under 'Server Implementations > Art & Culture' in awesome-mcp-servers, confirming MCP ecosystem fit.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.685Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:54.009Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:16:32.840Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

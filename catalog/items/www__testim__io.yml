@@ -1,0 +1,76 @@
+id: www__testim__io
+kind: website
+name: www.testim.io
+canonical_url: https://www.testim.io
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__testim__io__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Testing and QA
+        anchor_text: Testim
+        extracted_url: https://www.testim.io
+        surrounding_text: "- **[Testim](https://www.testim.io/)** – AI end-to-end testing with self-healing locators."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Testim is an AI-powered automated testing platform for creating, maintaining, and executing stable UI, functional, and mobile tests for web, Salesforce, and mobile applications.
+  why_it_matters: It uses AI and ML to author tests via natural language and self-healing locators to reduce the maintenance burden for developers and QA teams integrating with CI/CD pipelines.
+  mental_damage: Just when you thought 'self-healing tests' meant you could finally stop fixing your test suite, you now have to manage the AI agent that is busy breaking them in new, more autonomous ways.
+  tags:
+    - testing
+    - qa
+    - ai-powered
+    - ci-cd
+    - salesforce
+  confidence: high
+curation:
+  status: excluded
+  reason: Excluded because, as a no-code/low-code SaaS testing platform for QA and business users, it lacks the developer-facing code-editing, IDE, or CLI workflow required for this catalog.
+  evidence:
+    - Listed in awesome-ai-coding-tools under 'Testing and QA', but the product is marketed as a codeless platform for 'Agile Teams' and 'Salesforce' rather than developers working in a repo.
+    - Primary page excerpt emphasizes 'codeless, intuitive, fast' authoring and 'Agentic Test Automation' for non-coders rather than direct source code collaboration.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.734Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:53:43.054Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

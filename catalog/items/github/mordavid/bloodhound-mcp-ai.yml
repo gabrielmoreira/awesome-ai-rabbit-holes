@@ -1,0 +1,87 @@
+id: github__mordavid__bloodhound-mcp-ai
+kind: github-repo
+name: bloodhound-mcp-ai
+canonical_url: https://github.com/mordavid/bloodhound-mcp-ai
+identity:
+  github_repo: mordavid/bloodhound-mcp-ai
+provenance:
+  discoveries:
+    - id: discovery__github__mordavid__bloodhound-mcp-ai__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: BloodHound-MCP
+        extracted_url: https://github.com/mordavid/bloodhound-mcp-ai
+        surrounding_text: "- **[BloodHound-MCP](https://github.com/MorDavid/BloodHound-MCP-AI)** (by MorDavid) - integration that connects BloodHound with AI through MCP, allowing security professionals to analyze Active Directory attack paths using natural language queries instead of Cypher."
+        confidence: high
+metadata:
+  github:
+    stars: 353
+    forks: 54
+    license: null
+    archived: false
+    created_at: "2025-04-04T08:14:28Z"
+    pushed_at: "2025-06-02T22:21:26Z"
+    description: BloodHound-MCP-AI is integration that connects BloodHound with AI through Model Context Protocol, allowing security professionals to analyze Active Directory attack paths using natural language instead of complex Cypher queries.
+    homepage: https://www.MORDAVID.com
+    topics:
+      - ai
+      - bloodhound
+      - bloodhoundad
+      - cypher-query-language
+      - mcp
+      - mcp-server
+    last_checked_at: "2026-05-05T21:03:46.892Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:46.892Z"
+      bytes: 4359
+insights:
+  summary: An MCP server that allows security professionals to query BloodHound Active Directory data and attack paths using natural language instead of complex Cypher queries.
+  why_it_matters: It lowers the barrier to entry for AD security analysis by wrapping 75+ Cypher queries into an AI-accessible tool that integrates with existing MCP clients.
+  mental_damage: We have successfully abstracted away the need to understand graph databases, meaning you can now pwn an entire domain without ever learning how the graph actually works.
+  tags:
+    - mcp
+    - security
+    - bloodhound
+    - active-directory
+    - cypher
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server implementation designed to expose BloodHound functionality via the Model Context Protocol.
+  evidence:
+    - Repo description defines it as 'integration that connects BloodHound with AI through Model Context Protocol'
+    - README confirms it is a 'Model Context Protocol (MCP) Server for BloodHound' with 75+ specialized tools
+    - Listed in the 'awesome-mcp-servers' directory under 'Community Servers'
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (353) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.708Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:46.892Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:39:03.811Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

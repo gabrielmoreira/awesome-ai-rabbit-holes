@@ -1,0 +1,89 @@
+id: github__huggingface__tokenizers
+kind: github-repo
+name: tokenizers
+canonical_url: https://github.com/huggingface/tokenizers
+identity:
+  github_repo: huggingface/tokenizers
+provenance:
+  discoveries:
+    - id: discovery__github__huggingface__tokenizers__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Serving
+          - Large Model Serving
+        anchor_text: tokenizers
+        extracted_url: https://github.com/huggingface/tokenizers
+        surrounding_text: "| [tokenizers](https://github.com/huggingface/tokenizers)                               | 💥 Fast State-of-the-Art Tokenizers optimized for Research and Production                                       | ![GitHub Badge](https://img.shields.io/github/stars/huggingface/tokenizers.svg?style=flat-square)                |"
+        confidence: high
+metadata:
+  github:
+    stars: 10693
+    forks: 1084
+    license: Apache-2.0
+    archived: false
+    created_at: "2019-11-01T17:52:20Z"
+    pushed_at: "2026-05-01T19:02:26Z"
+    description: 💥 Fast State-of-the-Art Tokenizers optimized for Research and Production
+    homepage: https://huggingface.co/docs/tokenizers
+    topics:
+      - bert
+      - gpt
+      - language-model
+      - natural-language-processing
+      - natural-language-understanding
+      - nlp
+      - transformers
+    last_checked_at: "2026-05-05T21:02:37.743Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:37.743Z"
+      bytes: 3379
+insights:
+  summary: A fast, Rust-based library for training and running state-of-the-art tokenizers (BPE, WordPiece, Unigram) with bindings for Python, Node.js, and Ruby.
+  why_it_matters: Developers building NLP pipelines or LLM infrastructure can integrate high-performance tokenization that handles training, truncation, and alignment tracking out of the box.
+  mental_damage: Another essential brick in the towering cathedral of ML infrastructure that reminds you tokenization is still something you have to worry about in 2025.
+  tags:
+    - nlp
+    - tokenization
+    - rust
+    - python-bindings
+    - llm-infrastructure
+  confidence: high
+curation:
+  status: included
+  reason: This is a code-first library and SDK focused on embedding tokenizer behavior into software, fitting the AI Frameworks category rather than a developer-facing agent or IDE tool.
+  evidence:
+    - Repo description identifies it as fast state-of-the-art tokenizers optimized for research and production.
+    - README details training vocabularies, bindings for Rust/Python/Node.js/Ruby, and pre/post-processing features.
+    - Listed in Awesome-LLMOps under 'Serving > Large Model Serving', reinforcing its infrastructure/SDK role.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (10693) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.697Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:37.743Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:24:43.256Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

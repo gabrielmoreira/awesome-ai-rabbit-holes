@@ -1,0 +1,75 @@
+id: commit__dev
+kind: website
+name: commit.dev
+canonical_url: https://commit.dev
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__commit__dev__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Commit
+        anchor_text: Commit
+        extracted_url: https://commit.dev
+        surrounding_text: "## [Commit](https://commit.dev)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: commit.dev is a browser-first AI product for generating, assembling, or deploying complete applications from prompts.
+  why_it_matters: It allows developers to prototype and ship full apps, sites, or internal tools directly from a prompt without manually scaffolding a codebase.
+  mental_damage: Another shortcut that lets you ship a deployed app so fast you’ll spend the rest of the afternoon pretending you definitely still need a local dev environment.
+  tags:
+    - app-builder
+    - prompt-to-app
+    - browser-first
+    - prototyping
+  confidence: medium
+curation:
+  status: included
+  reason: The product is a browser-first SaaS that turns prompts into full apps and deployed tools, which aligns with the app-builders category rather than a repo/IDE coding agent.
+  evidence:
+    - URL is https://commit.dev, indicating a hosted, browser-first product surface rather than a repo or IDE plugin.
+    - Listed under awesome-ai-agents in the 'Commit' section, but the product behavior maps to prompt-to-app generation rather than autonomous coding agents inside a repo.
+placement:
+  primary_category: app-builders
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.727Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:43:14.122Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

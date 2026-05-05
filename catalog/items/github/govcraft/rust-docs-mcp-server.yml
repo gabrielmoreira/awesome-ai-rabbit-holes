@@ -1,0 +1,102 @@
+id: github__govcraft__rust-docs-mcp-server
+kind: github-repo
+name: rust-docs-mcp-server
+canonical_url: https://github.com/govcraft/rust-docs-mcp-server
+identity:
+  github_repo: govcraft/rust-docs-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__govcraft__rust-docs-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: Govcraft/rust-docs-mcp-server
+        extracted_url: https://github.com/govcraft/rust-docs-mcp-server
+        surrounding_text: "- [Govcraft/rust-docs-mcp-server](https://github.com/Govcraft/rust-docs-mcp-server) 🦀 🏠 - Provides up-to-date documentation context for a specific Rust crate to LLMs via an MCP tool, using semantic search (embeddings) and LLM summarization."
+        confidence: high
+metadata:
+  github:
+    stars: 273
+    forks: 34
+    license: MIT
+    archived: false
+    created_at: "2025-03-26T00:15:21Z"
+    pushed_at: "2025-11-24T19:44:06Z"
+    description: 🦀 Prevents outdated Rust code suggestions from AI assistants. This MCP server fetches current crate docs, uses embeddings/LLMs, and provides accurate context via a tool call.
+    homepage: ""
+    topics:
+      - ai
+      - ai-safety
+      - caching
+      - cargo
+      - coding-assistant
+      - context-aware
+      - crates-io
+      - developer-tools
+      - embeddings
+      - information-retrieval
+      - llm
+      - mcp
+      - mcp-server
+      - openai
+      - rag
+      - rust
+      - rust-library
+      - rustdoc
+      - rustlang
+      - semantic-search
+    last_checked_at: "2026-05-05T21:02:25.796Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:25.796Z"
+      bytes: 14065
+insights:
+  summary: An MCP server that fetches current Rust crate documentation, generates embeddings, and provides an LLM-powered query tool to supply AI coding assistants with up-to-date API context.
+  why_it_matters: It prevents AI assistants from hallucinating imports and APIs by grounding their suggestions in the specific documentation of the crates you are actually using.
+  mental_damage: You now have to run and maintain a dedicated server just to teach your AI assistant that `tokio::fs` changed three months after its training cutoff.
+  tags:
+    - mcp
+    - rust
+    - embeddings
+    - rag
+    - developer-tools
+  confidence: high
+curation:
+  status: included
+  reason: The project is a standalone Model Context Protocol server designed to provide fresh documentation context to other AI tools, fitting cleanly into the MCP infrastructure category.
+  evidence:
+    - Repo description explicitly identifies it as 'This MCP server' for providing context via tool calls.
+    - README confirms it 'Runs as a standard MCP server over stdio, exposing tools and resources.'
+    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (273) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.689Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:25.796Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:22:31.541Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,123 @@
+id: github__agentsmesh__agentsmesh
+kind: github-repo
+name: agentsmesh
+canonical_url: https://github.com/agentsmesh/agentsmesh
+identity:
+  github_repo: agentsmesh/agentsmesh
+provenance:
+  discoveries:
+    - id: discovery__agentsmesh__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Coding Agents
+        anchor_text: AgentsMesh
+        extracted_url: https://agentsmesh.ai
+        surrounding_text: "- **[AgentsMesh](https://agentsmesh.ai)** – Self-hostable AI Agent Workforce Platform. Orchestrates Claude Code, Codex CLI, Gemini CLI, Aider, OpenCode across remote AI workstations (AgentPods) with PTY sandbox + git worktree isolation, channels-based multi-agent collaboration, built-in Kanban, and per-pod MCP server. Multi-Git (GitHub/GitLab/Gitee), multi-tenant, SSO/RBAC, BYOK."
+        confidence: high
+    - id: discovery__github__agentsmesh__agentsmesh__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Orchestrators & autonomous loops
+        anchor_text: AgentsMesh
+        extracted_url: https://github.com/agentsmesh/agentsmesh
+        surrounding_text: "- **[AgentsMesh](https://github.com/AgentsMesh/AgentsMesh)** `⭐ 1.9k` — AI Agent Workforce Platform: remote AI workstations (AgentPods) with PTY sandbox + git worktree isolation, multi-agent collaboration via channels and pod bindings, built-in Kanban with MR/PR integration. Self-hosted with BYOK. Supports Claude Code, Codex CLI, Gemini CLI, Aider, OpenCode. BSL-1.1."
+        confidence: high
+    - id: discovery__github__agentsmesh__agentsmesh__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 智能体 Agents
+        anchor_text: AgentsMesh
+        extracted_url: https://github.com/agentsmesh/agentsmesh
+        surrounding_text: "52. [AgentsMesh](https://github.com/AgentsMesh/AgentsMesh): The AI Agent Workforce Platform. Self-hostable multi-agent orchestration with remote AI workstations (AgentPods), PTY sandbox + git worktree isolation, channels-based agent collaboration, built-in Kanban, and per-pod MCP server. Supports Claude Code, Codex CLI, Gemini CLI, Aider, OpenCode."
+        confidence: high
+metadata:
+  github:
+    stars: 1934
+    forks: 200
+    license: NOASSERTION
+    archived: false
+    created_at: "2026-02-28T07:10:42Z"
+    pushed_at: "2026-05-05T20:14:16Z"
+    description: The AI Agent Workforce Platform — where teams scale beyond headcount. Give every team member an AI agent squad.
+    homepage: https://agentsmesh.ai
+    topics:
+      - agent-orchestration
+      - agentsmesh
+      - ai-agent
+      - ai-agent-workforce-platform
+      - ai-coding
+      - aider
+      - claude-code
+      - codex-cli
+      - gemini-cli
+      - multi-agent
+      - self-hosted
+    last_checked_at: "2026-05-05T21:00:53.180Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:53.180Z"
+      bytes: 8755
+insights:
+  summary: A self-hosted platform that spins up remote AI workstations (AgentPods) to coordinate multi-agent collaboration, task management, and Git workflows through a web console.
+  why_it_matters: It lets teams move beyond running single CLI agents locally by orchestrating Claude Code, Codex CLI, Gemini CLI, and Aider inside isolated worktrees with shared task tracking and PR integration.
+  mental_damage: We have successfully built Jira for autonomous agents, ensuring your AI squads can now suffer from the same ticket-pod binding friction and Kanban anxiety as your human teams.
+  tags:
+    - agent-orchestration
+    - multi-agent
+    - self-hosted
+    - task-management
+    - cli-agents
+  confidence: high
+curation:
+  status: included
+  reason: AgentsMesh is a user-facing control plane and workforce system for coordinating multiple coding agents across remote pods, task boards, and Git providers, which aligns with the agent-orchestration category rather than being a primary coding assistant itself.
+  evidence:
+    - README describes it as 'The AI Agent Workforce Platform' with AgentPods, multi-agent collaboration channels, and Kanban task management.
+    - Supports orchestrating Claude Code, Codex CLI, Gemini CLI, and Aider rather than being a coding agent itself.
+    - Listed in awesome-cli-coding-agents under 'Harnesses & orchestration > Orchestrators & autonomous loops'.
+placement:
+  primary_category: agent-orchestration
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1934) exceeded threshold (150)
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:04:30.609Z"
+    cause: null
+    attempts: 2
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+    next_retry_at: null
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.726Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:53.180Z"
+    cause: null
+    next_retry_at: null

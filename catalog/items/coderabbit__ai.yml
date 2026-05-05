@@ -1,0 +1,76 @@
+id: coderabbit__ai
+kind: website
+name: coderabbit.ai
+canonical_url: https://coderabbit.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__coderabbit__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Code Review and Refactoring
+        anchor_text: CodeRabbit
+        extracted_url: https://coderabbit.ai
+        surrounding_text: "- **[CodeRabbit](https://coderabbit.ai/)** – AI-driven contextual pull request reviews with actionable feedback."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: An AI-first pull request reviewer that provides context-aware feedback, line-by-line code suggestions, and real-time chat, available via GitHub/GitLab integrations, CLI, and IDE extensions.
+  why_it_matters: It aims to reduce code review time and catch edge-case bugs before production by automating the heavy lifting of PR reviews with codebase-aware analysis.
+  mental_damage: Finally, an AI agent to review the code written by the other AI agents, ensuring our infinite loop of generated bugs has at least one layer of automated peer review.
+  tags:
+    - code-review
+    - pr-reviewer
+    - ai-agents
+    - static-analysis
+  confidence: high
+curation:
+  status: included
+  reason: The product functions as an AI agent that directly reviews, suggests fixes for, and interacts with source code within the PR workflow, IDE, and CLI, fitting the coding-agents definition.
+  evidence:
+    - Scraped site describes it as an 'AI-first pull request reviewer with context-aware feedback, line-by-line code suggestions, and real-time chat.'
+    - Product integrates directly into the developer workflow via 'Agent Pull Request Reviews, IDE Reviews, [and] CLI Reviews.'
+    - Listed in awesome-ai-coding-tools under the 'Code Review and Refactoring' section.
+placement:
+  primary_category: coding-agents
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.726Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:43:02.829Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

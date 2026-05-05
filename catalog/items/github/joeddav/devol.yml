@@ -1,0 +1,87 @@
+id: github__joeddav__devol
+kind: github-repo
+name: devol
+canonical_url: https://github.com/joeddav/devol
+identity:
+  github_repo: joeddav/devol
+provenance:
+  discoveries:
+    - id: discovery__github__joeddav__devol__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - AutoML
+        anchor_text: DEvol (DeepEvolution)
+        extracted_url: https://github.com/joeddav/devol
+        surrounding_text: "| [DEvol (DeepEvolution)](https://github.com/joeddav/devol)                    | a basic proof of concept for genetic architecture search in Keras.                                                                                                              | ![GitHub Badge](https://img.shields.io/github/stars/joeddav/devol.svg?style=flat-square)                   |"
+        confidence: high
+metadata:
+  github:
+    stars: 952
+    forks: 114
+    license: MIT
+    archived: false
+    created_at: "2017-02-10T03:07:54Z"
+    pushed_at: "2023-05-25T14:45:47Z"
+    description: Genetic neural architecture search with Keras
+    homepage: ""
+    topics:
+      - automl
+      - computer-vision
+      - deep-learning
+      - genetic-algorithm
+      - keras
+      - machine-learning
+      - neural-architecture-search
+    last_checked_at: "2026-05-05T21:02:57.206Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:57.206Z"
+      bytes: 6329
+insights:
+  summary: A genetic programming toolkit that evolves neural network architectures for classification problems using Keras.
+  why_it_matters: It automates the trial-and-error process of designing deep learning architectures by treating model topology as an evolvable genome.
+  mental_damage: Because manually tuning hyperparameters was far too legacy, so now we just evolve a thousand inadequate models and call it efficiency.
+  tags:
+    - automl
+    - keras
+    - genetic-algorithm
+    - neural-architecture-search
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a traditional deep learning research tool for neural architecture search, lacking the developer-facing AI assistance, agents, or infrastructure focus required for this catalog.
+  evidence:
+    - Repo description explicitly states 'Genetic neural architecture search with Keras', targeting ML researchers rather than software developers building with AI.
+    - README focuses on evolving CNN/Dense layer structures for MNIST-style classification problems, with no mention of LLMs, coding assistance, or developer workflows.
+    - Listed under AutoML in Awesome-LLMOps, but the project predates the modern LLM era (created 2017) and functions as a classic ML framework, not a developer tool.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (952) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.700Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:57.206Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:28:48.710Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

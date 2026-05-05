@@ -1,0 +1,75 @@
+id: osop__editor__vercel__app
+kind: website
+name: osop-editor.vercel.app
+canonical_url: https://osop-editor.vercel.app
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__osop__editor__vercel__app__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Agent infrastructure
+        anchor_text: visual editor
+        extracted_url: https://osop-editor.vercel.app
+        surrounding_text: "- **[OSOP](https://github.com/Archie0125/osop-agent-rules)** `⭐ 1` — Universal workflow logging protocol for CLI coding agents; produces `.osop` workflow definitions and `.osoplog.yaml` execution records. Supports Claude Code, Codex, Cursor, Windsurf, Aider, Cline, Roo Code, Devin, and OpenClaw. Includes a [visual editor](https://osop-editor.vercel.app) and [spec](https://github.com/Archie0125/osop-spec)."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A hosted web interface branded as 'My Google AI Studio App' with no public description, documentation, or visible source code.
+  why_it_matters: It does not currently provide a discernible workflow, feature set, or developer-facing capability to evaluate.
+  mental_damage: We have reached the point where a supposedly curated directory of coding agents now includes a single-page Vercel deployment that is literally just someone's personal AI Studio playground.
+  tags:
+    - unknown
+    - web-app
+  confidence: high
+curation:
+  status: excluded
+  reason: The project lacks a description, README, visible functionality, and source code, making it impossible to verify it is a legitimate developer tool rather than a personal sandbox deployment.
+  evidence:
+    - Scraped site title is 'My Google AI Studio App' with no description or README provided
+    - No repo description, stars, license, or creation/push dates are available
+    - Listed in a coding agents directory but the linked page provides no evidence of agent infrastructure functionality
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.729Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:46:53.814Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

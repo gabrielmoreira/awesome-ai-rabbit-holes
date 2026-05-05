@@ -1,0 +1,87 @@
+id: github__just-every__mcp-screenshot-website-fast
+kind: github-repo
+name: mcp-screenshot-website-fast
+canonical_url: https://github.com/just-every/mcp-screenshot-website-fast
+identity:
+  github_repo: just-every/mcp-screenshot-website-fast
+provenance:
+  discoveries:
+    - id: discovery__github__just-every__mcp-screenshot-website-fast__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: just-every/mcp-screenshot-website-fast
+        extracted_url: https://github.com/just-every/mcp-screenshot-website-fast
+        surrounding_text: "- **[just-every/mcp-screenshot-website-fast](https://github.com/just-every/mcp-screenshot-website-fast)** - High-quality screenshot capture optimized for Claude Vision API. Automatically tiles full pages into 1072x1072 chunks (1.15 megapixels) with configurable viewports and wait strategies for dynamic content."
+        confidence: high
+metadata:
+  github:
+    stars: 106
+    forks: 9
+    license: MIT
+    archived: false
+    created_at: "2025-06-11T16:27:17Z"
+    pushed_at: "2026-04-05T01:31:45Z"
+    description: Quickly screenshots webpages and converts to an LLM friendly size
+    homepage: https://justevery.com
+    topics:
+      - claude
+      - codex
+      - fast
+      - mcp
+      - mcp-server
+      - screenshot
+    last_checked_at: "2026-05-05T21:03:01.302Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:01.302Z"
+      bytes: 10219
+insights:
+  summary: An MCP server that captures fast, tiled 1072x1072 screenshots of web pages for optimized processing by vision-capable AI models like Claude.
+  why_it_matters: It integrates directly into coding agents and IDEs to provide visual context of live web pages, bridging the gap between code generation and UI verification.
+  mental_damage: We have successfully abstracted the act of looking at a website into a 1072x1072 tile passed to a model that hallucinates what it saw.
+  tags:
+    - mcp
+    - screenshot
+    - vision
+    - puppeteer
+    - cli-tool
+  confidence: high
+curation:
+  status: included
+  reason: The project is a dedicated MCP server designed to extend AI coding workflows with screenshot capabilities, fitting cleanly into the MCP infrastructure category.
+  evidence:
+    - "Repo description explicitly states: 'Quickly screenshots webpages and converts to an LLM friendly size'."
+    - README confirms it is an MCP server with installation instructions for Claude Code, VS Code, Cursor, and JetBrains.
+    - Listed in the 'awesome-mcp-servers' directory under 'Community Servers'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.701Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:01.303Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:29:46.054Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

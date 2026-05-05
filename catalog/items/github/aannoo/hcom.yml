@@ -1,0 +1,101 @@
+id: github__aannoo__hcom
+kind: github-repo
+name: hcom
+canonical_url: https://github.com/aannoo/hcom
+identity:
+  github_repo: aannoo/hcom
+provenance:
+  discoveries:
+    - id: discovery__github__aannoo__hcom__awesome-list__kaushikb11__awesome-llm-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: kaushikb11/awesome-llm-agents
+        url: https://github.com/kaushikb11/awesome-llm-agents
+        repository: kaushikb11/awesome-llm-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Frameworks
+        anchor_text: hcom
+        extracted_url: https://github.com/aannoo/hcom
+        surrounding_text: "- Production-grade observability and zero-trust security model- [hcom](https://github.com/aannoo/hcom) - Let AI agents message, watch, and spawn"
+        confidence: high
+metadata:
+  github:
+    stars: 252
+    forks: 32
+    license: MIT
+    archived: false
+    created_at: "2025-07-21T02:32:38Z"
+    pushed_at: "2026-05-05T11:39:40Z"
+    description: Let AI agents message, watch, and spawn each other across terminals. Claude Code, Gemini CLI, Codex, OpenCode
+    homepage: https://pypi.org/project/hcom/
+    topics:
+      - agent
+      - agent-skills
+      - ai
+      - ai-agents
+      - ai-tools
+      - automation
+      - claude
+      - claude-code
+      - claude-code-hooks
+      - cli
+      - codex
+      - coding-agent
+      - communication
+      - developer-tools
+      - gemini-cli
+      - multi-agent
+      - opencode
+      - orchestration
+      - subagents
+      - terminal
+    last_checked_at: "2026-05-05T21:00:45.589Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:45.589Z"
+      bytes: 13662
+insights:
+  summary: A CLI tool that connects coding agents across terminals, allowing them to message, spawn, and observe each other to coordinate multi-agent workflows.
+  why_it_matters: It lets developers wire together Claude Code, Gemini CLI, Codex, and OpenCode into coordinated pipelines without abandoning their existing terminal workflows.
+  mental_damage: Your biggest debugging challenge has evolved from 'why is this code broken' to 'which of my three locally-running AI agents is silently judging the others via SQLite.'
+  tags:
+    - multi-agent
+    - terminal
+    - cli
+    - orchestration
+    - coding-agents
+  confidence: high
+curation:
+  status: included
+  reason: This is a user-facing CLI control plane for coordinating multiple coding agents across terminals, fitting agent orchestration rather than being a coding agent itself.
+  evidence:
+    - "Repo description explicitly states: 'Let AI agents message, watch, and spawn each other across terminals.'"
+    - README defines it as a CLI that agents use to coordinate, spawn subagents, and observe each other via hooks and a local SQLite database.
+    - Listed in awesome-llm-agents under 'Frameworks' for coordinating agents like Claude Code, Gemini CLI, Codex, and OpenCode.
+placement:
+  primary_category: agent-orchestration
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (252) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.675Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:45.589Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:05:15.513Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

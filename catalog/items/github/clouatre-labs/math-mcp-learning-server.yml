@@ -1,0 +1,91 @@
+id: github__clouatre-labs__math-mcp-learning-server
+kind: github-repo
+name: math-mcp-learning-server
+canonical_url: https://github.com/clouatre-labs/math-mcp-learning-server
+identity:
+  github_repo: clouatre-labs/math-mcp-learning-server
+provenance:
+  discoveries:
+    - id: discovery__github__clouatre-labs__math-mcp-learning-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧮 <a name="data-science-tools"></a>Data Science Tools
+        anchor_text: clouatre-labs/math-mcp-learning-server
+        extracted_url: https://github.com/clouatre-labs/math-mcp-learning-server
+        surrounding_text: "- [clouatre-labs/math-mcp-learning-server](https://github.com/clouatre-labs/math-mcp-learning-server) 🐍 ☁️ 🏠 🍎 🪟 🐧 - Educational MCP server for math operations, statistics, visualization, and persistent workspaces. Built with FastMCP 2.0."
+        confidence: high
+metadata:
+  github:
+    stars: 3
+    forks: 3
+    license: NOASSERTION
+    archived: false
+    created_at: "2025-09-20T14:39:29Z"
+    pushed_at: "2026-04-27T01:32:45Z"
+    description: Educational MCP server with math operations, matrix algebra, data visualization, and persistent workspace
+    homepage: null
+    topics:
+      - calculator
+      - educational
+      - fastmcp
+      - fastmcp-3
+      - mathematics
+      - mcp
+      - mcp-server
+      - python
+      - tutorial
+    last_checked_at: "2026-05-05T21:01:35.856Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:35.856Z"
+      bytes: 6546
+insights:
+  summary: An educational MCP server built with FastMCP that exposes 17 mathematical tools, including matrix algebra and data visualization, via a persistent workspace.
+  why_it_matters: Developers building or testing MCP clients can use this as a ready-made, cloud-hosted server to validate tool-calling and resource handling without writing math logic themselves.
+  mental_damage: We have successfully abstracted learning math into configuring a JSON transport URL, ensuring future generations will know how to invert a matrix solely through a Claude Desktop config file.
+  tags:
+    - mcp
+    - math
+    - fastmcp
+    - learning
+    - python
+  confidence: high
+curation:
+  status: included
+  reason: The project is a concrete MCP server implementation with cloud hosting and a PyPI package, fitting squarely into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states 'Educational MCP server with math operations...'
+    - README confirms it is 'Built with FastMCP and the official Model Context Protocol Python SDK' and available on PyPI and the MCP Registry.
+    - Listed in awesome-mcp-servers under 'Data Science Tools', confirming its identity as an MCP artifact.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.682Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:35.856Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:13:30.915Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

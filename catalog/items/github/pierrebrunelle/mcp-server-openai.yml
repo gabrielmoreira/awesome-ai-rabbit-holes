@@ -1,0 +1,71 @@
+id: github__pierrebrunelle__mcp-server-openai
+kind: github-repo
+name: mcp-server-openai
+canonical_url: https://github.com/pierrebrunelle/mcp-server-openai
+identity:
+  github_repo: pierrebrunelle/mcp-server-openai
+provenance:
+  discoveries:
+    - id: discovery__github__pierrebrunelle__mcp-server-openai__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: OpenAI
+        extracted_url: https://github.com/pierrebrunelle/mcp-server-openai
+        surrounding_text: "- **[OpenAI](https://github.com/pierrebrunelle/mcp-server-openai)** - Query OpenAI models directly from Claude using MCP protocol"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.713Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: deferred
+    updated_at: "2026-05-05T21:04:17.638Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for pierrebrunelle/mcp-server-openai
+  categorize:
+    status: skipped
+    updated_at: "2026-05-05T21:04:23.169Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

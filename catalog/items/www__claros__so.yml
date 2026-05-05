@@ -1,0 +1,75 @@
+id: www__claros__so
+kind: website
+name: www.claros.so
+canonical_url: https://www.claros.so
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__claros__so__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Claros AI Shopper
+        anchor_text: Claros AI Shopper
+        extracted_url: https://www.claros.so
+        surrounding_text: "## [Claros AI Shopper](https://www.claros.so/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Claros is an AI-powered shopping assistant designed to help consumers research and compare products through conversational search.
+  why_it_matters: It represents the application of agentic workflows to vertical consumer use cases, though it targets shoppers rather than software developers.
+  mental_damage: We have successfully reached the point where the 'AI agent' directory is so broad it includes tools for buying a new toaster.
+  tags:
+    - shopping
+    - consumer-ai
+    - agent
+  confidence: high
+curation:
+  status: excluded
+  reason: The product is a consumer-facing shopping assistant with no discernible developer-tooling, coding, or infrastructure utility.
+  evidence:
+    - Listed in awesome-ai-agents under the section 'Claros AI Shopper', indicating a consumer retail focus.
+    - The URL resolves to a 'www.claros.so' domain, typical of a SaaS product rather than a developer library or tool.
+    - No repository description, README, or code context provided that suggests utility for software development workflows.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.732Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:50:04.092Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

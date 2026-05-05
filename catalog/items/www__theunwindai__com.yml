@@ -1,0 +1,77 @@
+id: www__theunwindai__com
+kind: website
+name: www.theunwindai.com
+canonical_url: https://www.theunwindai.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__theunwindai__com__awesome-list__shubhamsaboo__awesome-llm-apps
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: Shubhamsaboo/awesome-llm-apps
+        url: https://github.com/shubhamsaboo/awesome-llm-apps
+        repository: Shubhamsaboo/awesome-llm-apps
+      extraction:
+        mode: parsed
+        section_path:
+          - 💡 Why this exists
+        anchor_text: Unwind AI
+        extracted_url: https://www.theunwindai.com
+        surrounding_text: "- 📚 **Step-by-step tutorials** - every featured template has a free walkthrough on [Unwind AI](https://www.theunwindai.com)."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Unwind AI is a newsletter and content hub delivering daily digests, tutorials, and commentary on AI agents, LLMs, and developer-facing AI tooling.
+  why_it_matters: It aggregates high-leverage AI development trends and tutorials into a single feed, helping developers keep up with the rapidly evolving agent and LLM ecosystem without chasing individual repos.
+  mental_damage: Yet another expertly curated daily reminder that while you are fixing a CSS bug, the rest of the ecosystem is apparently building autonomous, 24/7, self-teaching agent workforces.
+  tags:
+    - newsletter
+    - ai-agents
+    - llm
+    - content-hub
+    - tutorials
+  confidence: high
+curation:
+  status: included
+  reason: The project is a content publication and daily digest covering AI tools and agent workflows, which fits the newsletters-and-feeds category as an ongoing discovery resource for developers.
+  evidence:
+    - Site describes itself as an 'Open-source Ecosystem for High-Leverage AI Builders' with 'Daily Unwind' and 'Weekly Unwind' sections.
+    - Primary page excerpt shows 'AI Blogs', 'AI Tutorial', and 'Daily Unwind' entries rather than a software product or IDE tool.
+    - Listed in awesome-llm-apps under a section titled '💡 Why this exists', functioning as a content hub for the list itself.
+placement:
+  primary_category: newsletters-and-feeds
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.734Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:53:48.030Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

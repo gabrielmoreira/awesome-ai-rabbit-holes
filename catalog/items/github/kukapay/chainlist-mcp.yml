@@ -1,0 +1,82 @@
+id: github__kukapay__chainlist-mcp
+kind: github-repo
+name: chainlist-mcp
+canonical_url: https://github.com/kukapay/chainlist-mcp
+identity:
+  github_repo: kukapay/chainlist-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__kukapay__chainlist-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: kukapay/chainlist-mcp
+        extracted_url: https://github.com/kukapay/chainlist-mcp
+        surrounding_text: "- [kukapay/chainlist-mcp](https://github.com/kukapay/chainlist-mcp) 📇 ☁️ -  An MCP server that gives AI agents fast access to verified EVM chain information, including RPC URLs, chain IDs, explorers, and native tokens."
+        confidence: high
+metadata:
+  github:
+    stars: 2
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2025-05-31T22:18:10Z"
+    pushed_at: "2025-05-31T22:18:26Z"
+    description: An MCP server that gives AI agents fast access to verified EVM chain information, including RPC URLs, chain IDs, explorers, and native tokens.
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:03:09.661Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:09.661Z"
+      bytes: 4507
+insights:
+  summary: An MCP server that provides AI agents with fast access to verified EVM chain metadata, including RPC URLs, chain IDs, explorers, and native tokens sourced from Chainlist.org.
+  why_it_matters: It allows developers building Web3 AI workflows to equip their agents with structured, up-to-date chain data without manually hardcoding RPC endpoints or explorer URLs.
+  mental_damage: We have successfully abstracted the need to remember what chain ID 1 is, which is definitively the peak of modern engineering.
+  tags:
+    - mcp
+    - web3
+    - evm
+    - chainlist
+    - python
+  confidence: medium
+curation:
+  status: included
+  reason: The project is a purpose-built MCP server designed to extend AI agent capabilities with blockchain data, fitting cleanly into the MCP infrastructure category.
+  evidence:
+    - Repo description explicitly states it is 'An MCP server that gives AI agents fast access to verified EVM chain information'.
+    - README details two MCP tools (getChainById, getChainsByKeyword) and provides configuration for Claude Desktop.
+    - Listed under 'Server Implementations > Finance & Fintech' in the awesome-mcp-servers directory.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.702Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:09.661Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:31:41.735Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,81 @@
+id: github__hyperopt__hyperopt
+kind: github-repo
+name: hyperopt
+canonical_url: https://github.com/hyperopt/hyperopt
+identity:
+  github_repo: hyperopt/hyperopt
+provenance:
+  discoveries:
+    - id: discovery__github__hyperopt__hyperopt__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - AutoML
+        anchor_text: Hyperopt
+        extracted_url: https://github.com/hyperopt/hyperopt
+        surrounding_text: "| [Hyperopt](https://github.com/hyperopt/hyperopt)                             | Distributed Asynchronous Hyperparameter Optimization in Python.                                                                                                                 | ![GitHub Badge](https://img.shields.io/github/stars/hyperopt/hyperopt.svg?style=flat-square)               |"
+        confidence: high
+metadata:
+  github:
+    stars: 7575
+    forks: 1075
+    license: NOASSERTION
+    archived: false
+    created_at: "2011-09-06T22:24:59Z"
+    pushed_at: "2026-03-16T21:37:20Z"
+    description: Distributed Asynchronous Hyperparameter Optimization in Python
+    homepage: http://hyperopt.github.io/hyperopt
+    topics:
+      - hacktoberfest
+    last_checked_at: "2026-05-05T21:02:39.819Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:39.818Z"
+      bytes: 7426
+insights:
+  summary: A Python library for serial and parallel hyperparameter optimization over complex search spaces using algorithms like Tree of Parzen Estimators (TPE).
+  why_it_matters: It provides developers with a mature, code-first framework to automate the tuning of machine learning models across local, Spark, or MongoDB-backed environments.
+  mental_damage: Because nothing says 'I have my model under control' like spending three days optimizing hyperparameters for a model that still can't beat a linear regression.
+  tags:
+    - hyperparameter-optimization
+    - python
+    - automl
+    - ml-ops
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a traditional machine learning optimization library with no AI developer tooling, coding agent, or prompt-engineering angle relevant to the catalog's scope.
+  evidence:
+    - Repo description defines it strictly as 'Distributed Asynchronous Hyperparameter Optimization in Python', a core ML task rather than a developer tooling workflow.
+    - README excerpt focuses entirely on model parameter tuning algorithms (TPE, Random Search) and infrastructure (Spark, MongoDB), not code generation or AI assistance.
+    - Appears in Awesome-LLMOps under 'AutoML', which covers the ML lifecycle but does not align with the catalog's focus on AI tools for software development.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (7575) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.697Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:39.819Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:25:11.814Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

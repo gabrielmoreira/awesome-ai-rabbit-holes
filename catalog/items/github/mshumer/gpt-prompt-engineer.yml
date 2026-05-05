@@ -1,0 +1,80 @@
+id: github__mshumer__gpt-prompt-engineer
+kind: github-repo
+name: gpt-prompt-engineer
+canonical_url: https://github.com/mshumer/gpt-prompt-engineer
+identity:
+  github_repo: mshumer/gpt-prompt-engineer
+provenance:
+  discoveries:
+    - id: discovery__github__mshumer__gpt-prompt-engineer__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: janhq/awesome-local-ai
+        url: https://github.com/janhq/awesome-local-ai
+        repository: janhq/awesome-local-ai
+      extraction:
+        mode: parsed
+        section_path:
+          - Agents
+        anchor_text: GPT Prompt Engineer
+        extracted_url: https://github.com/mshumer/gpt-prompt-engineer
+        surrounding_text: "- [GPT Prompt Engineer](https://github.com/mshumer/gpt-prompt-engineer) - Automated prompt engineering. It generates, tests, and ranks prompts to find the best ones."
+        confidence: high
+metadata:
+  github:
+    stars: 9655
+    forks: 679
+    license: MIT
+    archived: false
+    created_at: "2023-07-04T03:47:09Z"
+    pushed_at: "2025-10-16T18:52:42Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:03:48.484Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:48.484Z"
+      bytes: 8861
+insights:
+  summary: A notebook-based tool that generates, tests, and ranks multiple prompt variations using an ELO rating system to find the most effective prompt for a given task.
+  why_it_matters: It automates the tedious trial-and-error cycle of prompt engineering by scientifically benchmarking candidates against your specific test cases.
+  mental_damage: We've successfully built a distributed system to solve the problem of writing a text box input, effectively turning prompt engineering into a spectator sport with an ELO leaderboard.
+  tags:
+    - prompt-engineering
+    - evals
+    - notebooks
+    - llm-optimization
+  confidence: high
+curation:
+  status: included
+  reason: The tool is fundamentally an evaluation harness that benchmarks and ranks prompt performance using an ELO system, fitting the evals category better than a generic prompting bucket.
+  evidence:
+    - README states it 'generate[s], test[s], and rank[s] a multitude of prompts' using an 'ELO rating system'.
+    - Features include testing prompts against test cases and logging results to Weights & Biases for performance tracking.
+    - Active development (pushed 2025-10-16) with ~9.6k stars, indicating strong ecosystem traction for this specific workflow.
+placement:
+  primary_category: evals
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (9655) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.708Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:48.484Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:39:23.772Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

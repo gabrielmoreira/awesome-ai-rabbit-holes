@@ -1,0 +1,82 @@
+id: github__erodenn__godot-mcp-runtime
+kind: github-repo
+name: godot-mcp-runtime
+canonical_url: https://github.com/erodenn/godot-mcp-runtime
+identity:
+  github_repo: erodenn/godot-mcp-runtime
+provenance:
+  discoveries:
+    - id: discovery__github__erodenn__godot-mcp-runtime__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🎮 <a name="gaming"></a>Gaming
+        anchor_text: Erodenn/godot-mcp-runtime
+        extracted_url: https://github.com/erodenn/godot-mcp-runtime
+        surrounding_text: "- [Erodenn/godot-mcp-runtime](https://github.com/Erodenn/godot-mcp-runtime) [![godot-runtime-mcp MCP server](https://glama.ai/mcp/servers/@Erodenn/godot-runtime-mcp/badges/score.svg)](https://glama.ai/mcp/servers/@Erodenn/godot-runtime-mcp) 📇 🏠 🍎 🪟 🐧 - MCP server for Godot 4.x with runtime control via injected UDP bridge: input simulation, screenshots, UI discovery, and live GDScript execution while the game is running."
+        confidence: high
+metadata:
+  github:
+    stars: 23
+    forks: 3
+    license: MIT
+    archived: false
+    created_at: "2026-02-28T16:49:22Z"
+    pushed_at: "2026-05-05T17:27:55Z"
+    description: "A lightweight, zero-footprint TypeScript MCP server that lets AI assistants interact with the Godot 4.x game engine: not just editing files, but playing the game."
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:02:04.124Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:04.123Z"
+      bytes: 9167
+insights:
+  summary: A TypeScript MCP server that gives AI assistants runtime control over Godot 4.x games via input simulation, screenshots, UI discovery, and live GDScript execution without requiring project modifications.
+  why_it_matters: It closes the agent feedback loop for game development by letting AI verify its own changes in a running engine rather than relying solely on static file edits.
+  mental_damage: We have finally reached the point where the AI can play the game it just broke, staring at the crash screen so you don't have to.
+  tags:
+    - mcp
+    - godot
+    - game-dev
+    - runtime
+    - typescript
+  confidence: high
+curation:
+  status: included
+  reason: The project is a standalone MCP server that provides runtime tooling for Godot, which fits cleanly into the MCP infrastructure category.
+  evidence:
+    - Repo description explicitly states it is 'a lightweight, zero-footprint TypeScript MCP server' for Godot 4.x.
+    - README details MCP tools including input simulation, screenshots, and live GDScript execution against a running game.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Gaming', confirming its identity as an MCP artifact.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.686Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:04.124Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:18:20.614Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

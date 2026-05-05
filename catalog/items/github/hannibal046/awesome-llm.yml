@@ -1,0 +1,80 @@
+id: github__hannibal046__awesome-llm
+kind: github-repo
+name: awesome-llm
+canonical_url: https://github.com/hannibal046/awesome-llm
+identity:
+  github_repo: hannibal046/awesome-llm
+provenance:
+  discoveries:
+    - id: discovery__github__hannibal046__awesome-llm__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Complement to this list
+        anchor_text: Awesome LLM
+        extracted_url: https://github.com/hannibal046/awesome-llm
+        surrounding_text: "- [Awesome LLM](https://github.com/Hannibal046/Awesome-LLM): Awesome-LLM: a curated list of Large Language Model resources. ![GitHub Repo stars](https://img.shields.io/github/stars/Hannibal046/Awesome-LLM?style=social)"
+        confidence: high
+metadata:
+  github:
+    stars: 26738
+    forks: 2488
+    license: CC0-1.0
+    archived: false
+    created_at: "2023-02-17T14:12:21Z"
+    pushed_at: "2025-07-31T02:38:24Z"
+    description: "Awesome-LLM: a curated list of Large Language Model"
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:02:30.710Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:30.710Z"
+      bytes: 62254
+insights:
+  summary: A curated GitHub repository listing Large Language Model papers, training frameworks, inference tools, checkpoints, and educational resources.
+  why_it_matters: It serves as a centralized map for developers navigating the overwhelming ecosystem of LLM research, open models, and deployment tools.
+  mental_damage: Another meticulously organized list that guarantees you will spend four hours reading papers instead of shipping the feature that was due yesterday.
+  tags:
+    - awesome-list
+    - llm
+    - research
+    - directory
+  confidence: high
+curation:
+  status: included
+  reason: This is a curated directory and index of LLM resources rather than a standalone developer tool or product, fitting the awesome-awesomes category.
+  evidence:
+    - Repo description identifies it as 'a curated list of Large Language Model'.
+    - README states it is 'a curated list of papers about large language models... frameworks for LLM training, tools to deploy LLM, courses and tutorials'.
+    - Seen in source lists / directories under 'awesome-langchain' as a 'Complement to this list'.
+placement:
+  primary_category: awesome-awesomes
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (26738) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.690Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:30.710Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:23:28.387Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

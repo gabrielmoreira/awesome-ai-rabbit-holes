@@ -1,0 +1,101 @@
+id: github__eat-pray-ai__yutu
+kind: github-repo
+name: yutu
+canonical_url: https://github.com/eat-pray-ai/yutu
+identity:
+  github_repo: eat-pray-ai/yutu
+provenance:
+  discoveries:
+    - id: discovery__github__eat-pray-ai__yutu__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📂 <a name="browser-automation"></a>Browser Automation
+        anchor_text: eat-pray-ai/yutu
+        extracted_url: https://github.com/eat-pray-ai/yutu
+        surrounding_text: "- [eat-pray-ai/yutu](https://github.com/eat-pray-ai/yutu) 🏎️ 🏠 🍎 🐧 🪟 - A fully functional MCP server and CLI for YouTube to automate YouTube operation"
+        confidence: high
+metadata:
+  github:
+    stars: 449
+    forks: 46
+    license: Apache-2.0
+    archived: false
+    created_at: "2023-05-20T09:46:22Z"
+    pushed_at: "2026-05-05T01:30:24Z"
+    description: The AI-powered toolkit that grows your YouTube channel on autopilot.
+    homepage: https://yutu.ifor.dev
+    topics:
+      - agent
+      - ai
+      - automation
+      - bot
+      - chatgpt
+      - claude
+      - clawdbot-skill
+      - cli
+      - docker
+      - gemini
+      - linux
+      - macos
+      - mcp
+      - openclaw
+      - shorts
+      - skills
+      - video
+      - windows
+      - youtube
+    last_checked_at: "2026-05-05T21:01:59.254Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:59.254Z"
+      bytes: 17323
+insights:
+  summary: A CLI, MCP server, and AI agent toolkit for automating YouTube channel management tasks including video uploads, optimization, and comment management.
+  why_it_matters: Developers building YouTube integrations or managing channels can automate tedious platform workflows via a programmable interface and MCP-compatible tooling.
+  mental_damage: "We have finally achieved the singularity: an AI agent to handle the part of your job no one wanted, leaving you with even more time to wonder why you are automating a YouTube channel."
+  tags:
+    - youtube
+    - cli
+    - mcp
+    - automation
+    - agent
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a content creator tool for YouTube automation, not a developer-facing coding assistant, IDE extension, or infrastructure component.
+  evidence:
+    - "Repo description explicitly targets YouTube channel growth: 'AI-powered toolkit that grows your YouTube channel on autopilot.'"
+    - README focuses on video upload, optimization, comments, playlists, and channel branding rather than code development workflows.
+    - Listed in awesome-mcp-servers under 'Browser Automation', not under developer tooling or coding sections.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (449) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.685Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:59.254Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:17:31.377Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

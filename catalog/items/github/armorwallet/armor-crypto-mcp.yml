@@ -1,0 +1,103 @@
+id: github__armorwallet__armor-crypto-mcp
+kind: github-repo
+name: armor-crypto-mcp
+canonical_url: https://github.com/armorwallet/armor-crypto-mcp
+identity:
+  github_repo: armorwallet/armor-crypto-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__armorwallet__armor-crypto-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: armorwallet/armor-crypto-mcp
+        extracted_url: https://github.com/armorwallet/armor-crypto-mcp
+        surrounding_text: "- [armorwallet/armor-crypto-mcp](https://github.com/armorwallet/armor-crypto-mcp) 🐍 ☁️ - MCP to interface with multiple blockchains, staking, DeFi, swap, bridging, wallet management, DCA, Limit Orders, Coin Lookup, Tracking and more."
+        confidence: high
+    - id: discovery__github__armorwallet__armor-crypto-mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Armor Crypto MCP
+        extracted_url: https://github.com/armorwallet/armor-crypto-mcp
+        surrounding_text: "- **[Armor Crypto MCP](https://github.com/armorwallet/armor-crypto-mcp)** - MCP to interface with multiple blockchains, staking, DeFi, swap, bridging, wallet management, DCA, Limit Orders, Coin Lookup, Tracking and more."
+        confidence: high
+metadata:
+  github:
+    stars: 183
+    forks: 30
+    license: GPL-3.0
+    archived: false
+    created_at: "2025-03-22T12:05:35Z"
+    pushed_at: "2025-07-29T15:53:53Z"
+    description: The MCP server for interacting with Blockchain, Swaps, Strategic Planning and more.
+    homepage: ""
+    topics:
+      - ai
+      - ai-agents
+      - cryptocurrency
+      - mcp
+      - tradingbot
+      - wallet
+    last_checked_at: "2026-05-05T21:01:09.554Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:09.554Z"
+      bytes: 4331
+insights:
+  summary: An MCP server that connects AI agents to cryptocurrency ecosystems for wallet management, swaps, staking, and automated trading strategies like DCA and stop-loss.
+  why_it_matters: Developers building crypto-native AI agents can integrate multi-chain wallet operations and trading logic through a single standardized MCP interface instead of wiring individual blockchain APIs.
+  mental_damage: Your AI agent can now panic-sell your Solana bags at 3 AM based on social sentiment analysis, and it's technically an MCP-compliant architecture.
+  tags:
+    - mcp
+    - crypto
+    - blockchain
+    - trading
+    - agent-tools
+  confidence: high
+curation:
+  status: included
+  reason: This is a purpose-built MCP server that exposes cryptocurrency trading and wallet tools to AI agents, fitting cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description explicitly states: 'The MCP server for interacting with Blockchain, Swaps, Strategic Planning and more.'"
+    - README confirms it is an MCP server with UVX-based deployment for Claude Desktop, Cline, Cursor, and n8n.
+    - Listed in awesome-mcp-servers under 'Finance & Fintech' server implementations.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (183) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.663Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:09.554Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:09:05.049Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

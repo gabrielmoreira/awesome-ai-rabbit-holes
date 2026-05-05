@@ -1,0 +1,87 @@
+id: github__jina-ai__vectordb
+kind: github-repo
+name: vectordb
+canonical_url: https://github.com/jina-ai/vectordb
+identity:
+  github_repo: jina-ai/vectordb
+provenance:
+  discoveries:
+    - id: discovery__github__jina-ai__vectordb__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Search
+          - Vector search
+        anchor_text: VectorDB
+        extracted_url: https://github.com/jina-ai/vectordb
+        surrounding_text: "| [VectorDB](https://github.com/jina-ai/vectordb)           | A Python vector database you just need - no more, no less.                                                                                                                                                                                                                                    | ![GitHub Badge](https://img.shields.io/github/stars/jina-ai/vectordb.svg?style=flat-square)           |"
+        confidence: high
+metadata:
+  github:
+    stars: 650
+    forks: 50
+    license: Apache-2.0
+    archived: false
+    created_at: "2023-05-02T14:59:09Z"
+    pushed_at: "2024-03-04T17:10:06Z"
+    description: A Python vector database you just need - no more, no less.
+    homepage: ""
+    topics:
+      - embedding-similarity
+      - neural-search
+      - sentence-embeddings
+      - vector-database
+      - vector-database-embedding
+      - vector-search
+    last_checked_at: "2026-05-05T21:02:56.038Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:56.038Z"
+      bytes: 16442
+insights:
+  summary: A lightweight, Pythonic vector database built on DocArray and Jina for local, on-premise, or cloud-based vector search and CRUD operations.
+  why_it_matters: It gives Python developers a familiar, no-overhead interface for embedding-based retrieval without the operational burden of heavier vector stores.
+  mental_damage: Yet another 'just enough' vector database, because apparently the 47 existing ones still haven't hit the perfect balance of Pythonic minimalism and existential dread.
+  tags:
+    - vector-database
+    - python
+    - vector-search
+    - embeddings
+  confidence: high
+curation:
+  status: included
+  reason: This is a code-first SDK and library for embedding vector search into Python applications, fitting cleanly under AI Frameworks and SDKs.
+  evidence:
+    - "Repo description: 'A Python vector database you just need - no more, no less.'"
+    - README shows importable Python classes like InMemoryExactNNVectorDB and HNSWVectorDB with local and cloud deployment options.
+    - Listed in Awesome-LLMOps under Search > Vector search, confirming developer-tooling relevance.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (650) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.700Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:56.038Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:28:30.169Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

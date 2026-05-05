@@ -1,0 +1,92 @@
+id: github__sweepai__sweep
+kind: github-repo
+name: sweep
+canonical_url: https://github.com/sweepai/sweep
+identity:
+  github_repo: sweepai/sweep
+provenance:
+  discoveries:
+    - id: discovery__github__sweepai__sweep__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Code Review and Refactoring
+        anchor_text: Sweep
+        extracted_url: https://github.com/sweepai/sweep
+        surrounding_text: "- **[Sweep](https://github.com/sweepai/sweep)** – AI agent for automating PR reviews and fixes."
+        confidence: high
+    - id: discovery__sweep__dev__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Sweep
+        anchor_text: Sweep
+        extracted_url: https://sweep.dev
+        surrounding_text: "## [Sweep](https://sweep.dev/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A JetBrains IDE plugin that provides AI-powered code autocomplete, an AI agent for code changes, and codebase indexing.
+  why_it_matters: It offers developers a way to stay inside their preferred JetBrains IDEs (like IntelliJ and PyCharm) while getting AI coding assistance comparable to tools like Cursor.
+  mental_damage: We have officially reached the point where bragging about 'Tab, Tab, Tab' is considered a competitive advantage in the IDE wars.
+  tags:
+    - autocomplete
+    - coding-agent
+    - ide-plugin
+    - jetbrains
+  confidence: high
+curation:
+  status: included
+  reason: The product is a developer-facing coding assistant that directly edits, suggests, and reviews code within the JetBrains IDE workflow, fitting the coding-agents criteria.
+  evidence:
+    - Scraped site context describes it as 'The fastest AI copilot for JetBrains' with an 'AI Agent built for JetBrains'.
+    - Features include 'next-edit autocomplete', 'AI Code Review', and 'Resolving Definitions / Code Search' inside the IDE.
+    - Listed in awesome-ai-agents under the section for AI copilots and agents.
+placement:
+  primary_category: coding-agents
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:48:32.619Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.730Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

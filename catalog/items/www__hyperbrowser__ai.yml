@@ -1,0 +1,74 @@
+id: www__hyperbrowser__ai
+kind: website
+name: www.hyperbrowser.ai
+canonical_url: https://www.hyperbrowser.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__hyperbrowser__ai__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Hyperbrowser
+        extracted_url: https://www.hyperbrowser.ai
+        surrounding_text: "- **[Hyperbrowser](https://github.com/hyperbrowserai/mcp)** - [Hyperbrowser](https://www.hyperbrowser.ai/) is the next-generation platform empowering AI agents and enabling effortless, scalable browser automation."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Hyperbrowser provides cloud-hosted browser infrastructure designed for AI agents and applications to interact with the web.
+  why_it_matters: It handles the headless browser plumbing so agents can scrape, navigate, and interact with web pages without developers managing their own browser fleets.
+  mental_damage: We have officially reached the point where our agents need their own cloud-hosted browsers so they can suffer through cookie banners just like we do.
+  tags:
+    - cloud-browser
+    - agent-infra
+    - web-automation
+  confidence: medium
+curation:
+  status: included
+  reason: This is a developer-facing infrastructure product providing cloud browsers as building blocks for AI applications, fitting the SDK/framework model over a control plane.
+  evidence:
+    - "Scraped site title and description: 'Hyperbrowser - Web Infra for AI Agents' and 'Cloud browsers for AI agents & Apps'."
+    - Listed in awesome-mcp-servers under 'Official Servers' for providing browser access to agents.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.732Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:51:19.577Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

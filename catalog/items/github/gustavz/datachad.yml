@@ -1,0 +1,93 @@
+id: github__gustavz__datachad
+kind: github-repo
+name: datachad
+canonical_url: https://github.com/gustavz/datachad
+identity:
+  github_repo: gustavz/datachad
+provenance:
+  discoveries:
+    - id: discovery__github__gustavz__datachad__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Open Source Projects
+          - Knowledge Management
+        anchor_text: DataChad
+        extracted_url: https://github.com/gustavz/datachad
+        surrounding_text: "- [DataChad](https://github.com/gustavz/DataChad): A streamlit app that lets you chat with any data source. Supporting both OpenAI and local mode with GPT4All. ![GitHub Repo stars](https://img.shields.io/github/stars/gustavz/DataChad?style=social)"
+        confidence: high
+metadata:
+  github:
+    stars: 322
+    forks: 73
+    license: Apache-2.0
+    archived: false
+    created_at: "2023-05-10T13:53:51Z"
+    pushed_at: "2024-02-09T11:33:46Z"
+    description: Ask questions about any data source by leveraging langchains
+    homepage: https://datachad.streamlit.app/
+    topics:
+      - activeloop
+      - chatbot
+      - chatgpt
+      - chatwithanything
+      - chatwithpdf
+      - embeddings
+      - knowledge-base
+      - langchain
+      - openai
+      - python
+      - streamlit
+    last_checked_at: "2026-05-05T21:02:29.397Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:29.397Z"
+      bytes: 2981
+insights:
+  summary: A Streamlit app that lets users upload files or provide URLs to create knowledge bases, then ask questions using LangChain, vector databases, and LLMs.
+  why_it_matters: It gives developers a ready-made interface for building RAG pipelines over arbitrary data sources without wiring together loaders, embeddings, and vector stores by hand.
+  mental_damage: Yet another lovingly hand-crafted RAG demo that proves the hardest part of LLM development is not the model, but deciding which vector database deserves your trust this week.
+  tags:
+    - rag
+    - langchain
+    - streamlit
+    - knowledge-base
+    - llm
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a general-purpose RAG chatbot for end users to query data, not a developer-facing tool for coding, infrastructure, or app-building workflows.
+  evidence:
+    - Repo description and README focus on asking questions about any data source, not developer tooling.
+    - Listed in awesome-langchain under Knowledge Management, not developer productivity or coding.
+    - No IDE, CLI, repo-editing, app-building, or developer-infrastructure workflow is described.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (322) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.690Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:29.397Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:23:17.196Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

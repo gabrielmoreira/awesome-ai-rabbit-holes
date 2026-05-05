@@ -1,0 +1,102 @@
+id: github__azeth-protocol__mcp-server
+kind: github-repo
+name: mcp-server
+canonical_url: https://github.com/azeth-protocol/mcp-server
+identity:
+  github_repo: azeth-protocol/mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__azeth-protocol__mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: azeth-protocol/mcp-server
+        extracted_url: https://github.com/azeth-protocol/mcp-server
+        surrounding_text: "- [azeth-protocol/mcp-server](https://github.com/azeth-protocol/mcp-server) [![mcp-azeth MCP server](https://glama.ai/mcp/servers/@azeth-protocol/mcp-azeth/badges/score.svg)](https://glama.ai/mcp/servers/@azeth-protocol/mcp-azeth) 📇 ☁️ - Trust infrastructure for the machine economy — non-custodial ERC-4337 smart accounts, x402 payments, on-chain reputation via ERC-8004, and service discovery for AI agents."
+        confidence: high
+metadata:
+  github:
+    stars: 2
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2026-03-03T14:25:26Z"
+    pushed_at: "2026-03-10T21:14:57Z"
+    description: MCP server for Azeth — smart accounts, payments, reputation, and discovery tools for AI agents
+    homepage: https://azeth.ai
+    topics:
+      - account-abstraction
+      - ai-agent-payments
+      - ai-agents
+      - base
+      - blockchain
+      - claude
+      - erc-4337
+      - ethereum
+      - machine-economy
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - payments
+      - reputation
+      - service-discovery
+      - smart-accounts
+      - typescript
+      - usdc
+      - x402
+      - xmtp
+    last_checked_at: "2026-05-05T21:01:16.049Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:16.049Z"
+      bytes: 6439
+insights:
+  summary: An MCP server that provides AI agents with tools for creating smart accounts, processing payments, discovering services, managing reputation, and sending encrypted messages on Ethereum and Base networks.
+  why_it_matters: It allows developers to equip AI agents with autonomous financial capabilities and service discovery within the Model Context Protocol ecosystem.
+  mental_damage: Your AI agent can now open a smart account, pay for a data feed, and build a reputation—which is comforting until you realize it’s also capable of blowing through your testnet USDC without you noticing.
+  tags:
+    - mcp
+    - blockchain
+    - payments
+    - ai-agents
+    - typescript
+  confidence: high
+curation:
+  status: included
+  reason: The project is a dedicated MCP server implementation that provides financial and discovery tools for AI agents, fitting squarely into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states 'MCP server for Azeth — smart accounts, payments, reputation, and discovery tools for AI agents'.
+    - README details 32 tools exposed via MCP for account management, transfers, payments, and messaging.
+    - Listed in awesome-mcp-servers under 'Finance & Fintech' section, confirming its identity as an MCP implementation.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.680Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:16.049Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:10:03.465Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

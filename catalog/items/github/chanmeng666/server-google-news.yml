@@ -1,0 +1,93 @@
+id: github__chanmeng666__server-google-news
+kind: github-repo
+name: server-google-news
+canonical_url: https://github.com/chanmeng666/server-google-news
+identity:
+  github_repo: chanmeng666/server-google-news
+provenance:
+  discoveries:
+    - id: discovery__github__chanmeng666__server-google-news__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: Google News
+        extracted_url: https://github.com/chanmeng666/server-google-news
+        surrounding_text: "- **[Google News](https://github.com/ChanMeng666/server-google-news)** - Google News search capabilities with automatic topic categorization and multi-language support via SerpAPI integration."
+        confidence: high
+metadata:
+  github:
+    stars: 122
+    forks: 21
+    license: MIT
+    archived: false
+    created_at: "2024-12-29T12:48:15Z"
+    pushed_at: "2026-03-30T02:36:33Z"
+    description: 【Star-crossed coders unite!⭐️】Model Context Protocol (MCP) server implementation providing Google News search capabilities via SerpAPI, with automatic news categorization and multi-language support.
+    homepage: https://glama.ai/mcp/servers/dbx6imq4ef
+    topics:
+      - ai
+      - claude
+      - claude-desktop
+      - google-news-api
+      - mcp
+      - mcp-server
+      - modelcontextprotocol
+      - news-aggregation
+      - news-search
+      - nodejs
+      - serpapi
+      - typescript
+    last_checked_at: "2026-05-05T21:01:32.060Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:32.060Z"
+      bytes: 12426
+insights:
+  summary: A Model Context Protocol (MCP) server that integrates Google News search via SerpAPI, providing categorized and multi-language news results to MCP-compatible clients like Claude Desktop.
+  why_it_matters: It allows developers to extend AI assistants with real-time news search capabilities, enabling workflows that require current events context without leaving the development environment.
+  mental_damage: We have successfully abstracted the act of reading the news into a protocol server, because apparently opening a browser to check headlines is now considered a context-switching failure.
+  tags:
+    - mcp
+    - news-search
+    - serpapi
+    - typescript
+    - claude
+  confidence: high
+curation:
+  status: included
+  reason: The project is a dedicated MCP server implementation designed to provide external tooling (Google News search) to AI clients, fitting squarely into the MCP infrastructure category.
+  evidence:
+    - Repo description explicitly states 'Model Context Protocol (MCP) server implementation providing Google News search capabilities'.
+    - README features integration badges from Glama.ai andPulseMCP, confirming its status as a recognized MCP tool.
+    - Source-list context shows inclusion in 'awesome-mcp-servers' under 'Community Servers'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.682Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:32.060Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:12:46.955Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

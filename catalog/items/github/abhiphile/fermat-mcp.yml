@@ -1,0 +1,90 @@
+id: github__abhiphile__fermat-mcp
+kind: github-repo
+name: fermat-mcp
+canonical_url: https://github.com/abhiphile/fermat-mcp
+identity:
+  github_repo: abhiphile/fermat-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__abhiphile__fermat-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧮 <a name="data-science-tools"></a>Data Science Tools
+        anchor_text: abhiphile/fermat-mcp
+        extracted_url: https://github.com/abhiphile/fermat-mcp
+        surrounding_text: "- [abhiphile/fermat-mcp](https://github.com/abhiphile/fermat-mcp) 🐍 🏠 🍎 🪟 🐧 - The ultimate math engine unifying SymPy, NumPy & Matplotlib in one powerful server. Perfect for developers & researchers needing symbolic algebra, numerical computing, and data visualization."
+        confidence: high
+metadata:
+  github:
+    stars: 14
+    forks: 6
+    license: MIT
+    archived: false
+    created_at: "2025-07-19T08:13:04Z"
+    pushed_at: "2025-10-08T19:36:24Z"
+    description: "🚀 Fermat MCP: The Ultimate Math Engine - Unifying SymPy, NumPy & Matplotlib in one powerful server! Perfect for devs & researchers. "
+    homepage: https://mcpmarket.com/server/fermat
+    topics:
+      - mathematics
+      - matplotlib
+      - mcp
+      - mcp-server
+      - numerical-computation
+      - numpy
+      - symbolic-computation
+      - sympy
+    last_checked_at: "2026-05-05T21:00:47.288Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:47.288Z"
+      bytes: 10150
+insights:
+  summary: An MCP server that exposes SymPy, NumPy, and Matplotlib operations as tools for AI assistants to perform symbolic math, numerical computation, and plotting.
+  why_it_matters: It lets coding agents handle mathematical reasoning, linear algebra, and visualization directly instead of hallucinating equations or ASCII art charts.
+  mental_damage: We have reached the point where we need a dedicated protocol server so our AI can confidently calculate eigenvalues instead of confidently inventing them.
+  tags:
+    - mcp
+    - math
+    - sympy
+    - numpy
+    - matplotlib
+  confidence: high
+curation:
+  status: included
+  reason: This is a Model Context Protocol server that provides mathematical computation tools for AI assistants, which fits squarely into the MCP infrastructure category.
+  evidence:
+    - Repo description explicitly states 'Fermat MCP' and describes it as a server unifying SymPy, NumPy, and Matplotlib.
+    - README demonstrates MCP server setup for Claude, Gemini CLI, VS Code, and Windsurf with mcp.json configuration.
+    - Listed under 'Server Implementations > Data Science Tools' in the awesome-mcp-servers directory.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.676Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:47.288Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:05:30.591Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

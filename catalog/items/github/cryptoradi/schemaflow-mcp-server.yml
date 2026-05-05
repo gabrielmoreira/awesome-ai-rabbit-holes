@@ -1,0 +1,81 @@
+id: github__cryptoradi__schemaflow-mcp-server
+kind: github-repo
+name: schemaflow-mcp-server
+canonical_url: https://github.com/cryptoradi/schemaflow-mcp-server
+identity:
+  github_repo: cryptoradi/schemaflow-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__cryptoradi__schemaflow-mcp-server__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: SchemaFlow
+        extracted_url: https://github.com/cryptoradi/schemaflow-mcp-server
+        surrounding_text: "- **[SchemaFlow](https://github.com/CryptoRadi/schemaflow-mcp-server)** - Real-time PostgreSQL & Supabase database schema access for AI-IDEs via Model Context Protocol. Provides live database context through secure SSE connections with three powerful tools: get_schema, analyze_database, and check_schema_alignment. [SchemaFlow](https://schemaflow.dev)"
+        confidence: high
+metadata:
+  github:
+    stars: 9
+    forks: 5
+    license: MIT
+    archived: false
+    created_at: "2025-06-02T20:51:48Z"
+    pushed_at: "2025-06-02T20:56:51Z"
+    description: SchemaFlow MCP Server
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:01:43.010Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:43.010Z"
+      bytes: 4259
+insights:
+  summary: An MCP server that provides AI IDEs with real-time access to PostgreSQL and Supabase database schemas for improved code generation.
+  why_it_matters: It allows coding assistants to understand database structure without manual context pasting, reducing errors in schema-dependent code generation.
+  mental_damage: We've reached the point where our AI needs a dedicated protocol server just to remember what tables we created twenty minutes ago.
+  tags:
+    - mcp
+    - database
+    - schema
+    - supabase
+    - postgresql
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server designed to provide database schema context to AI IDEs, fitting cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description is 'SchemaFlow MCP Server' and README states it provides 'live access to PostgreSQL and Supabase database schemas through the Model Context Protocol'
+    - README demonstrates integration with Cursor, Windsurf, and VS Code + Cline via MCP configuration
+    - Listed in awesome-mcp-servers under 'Community Servers' section
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.683Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:43.010Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:14:46.957Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

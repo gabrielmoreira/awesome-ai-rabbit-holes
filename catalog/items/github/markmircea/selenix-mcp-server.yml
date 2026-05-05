@@ -1,0 +1,89 @@
+id: github__markmircea__selenix-mcp-server
+kind: github-repo
+name: selenix-mcp-server
+canonical_url: https://github.com/markmircea/selenix-mcp-server
+identity:
+  github_repo: markmircea/selenix-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__markmircea__selenix-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📂 <a name="browser-automation"></a>Browser Automation
+        anchor_text: markmircea/Selenix-MCP-Server
+        extracted_url: https://github.com/markmircea/selenix-mcp-server
+        surrounding_text: "- [markmircea/Selenix-MCP-Server](https://github.com/markmircea/Selenix-MCP-Server) [![markmircea/Selenix-MCP-Server MCP server](https://glama.ai/mcp/servers/markmircea/Selenix-MCP-Server/badges/score.svg)](https://glama.ai/mcp/servers/markmircea/Selenix-MCP-Server) 📇 🏠 🍎 🪟 🐧 - MCP server bridging Claude Desktop with Selenix for browser automation and testing. Create, run, debug, and manage browser tests through natural language."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: Apache-2.0
+    archived: false
+    created_at: "2026-03-10T19:26:18Z"
+    pushed_at: "2026-03-18T13:16:02Z"
+    description: MCP server that bridges Claude Desktop (or any other local app supporting MCP)  with Selenix for browser automation and testing. Enables creating, running, debugging, and managing browser automation tests through natural language.
+    homepage: https://selenix.io
+    topics:
+      - automation
+      - browser
+      - mcp
+      - mcp-server
+      - selenium
+      - selenium-webdriver
+      - selenix
+    last_checked_at: "2026-05-05T21:03:30.339Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:30.339Z"
+      bytes: 6734
+insights:
+  summary: An MCP server that bridges Claude Desktop with the Selenix desktop app to create, run, debug, and manage browser automation tests using natural language.
+  why_it_matters: It lets developers offload the tedious cycle of writing and fixing Selenium-style browser tests by controlling Selenix directly through a conversational AI interface.
+  mental_damage: We have successfully reached the point where your AI assistant now needs its own MCP server just to argue with your browser automation tool about why the selector is still broken.
+  tags:
+    - mcp
+    - browser-automation
+    - selenium
+    - testing
+    - claude
+  confidence: high
+curation:
+  status: included
+  reason: The primary artifact is an MCP server implementation designed to connect Claude Desktop to Selenix, which fits squarely into MCP infrastructure tooling.
+  evidence:
+    - "Repo description explicitly states: 'MCP server that bridges Claude Desktop... with Selenix for browser automation'."
+    - README details a Node.js MCP server that communicates via stdio to a local bridge inside the Selenix desktop app.
+    - Listed in awesome-mcp-servers under 'Browser Automation' server implementations.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.705Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:30.339Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:35:52.189Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

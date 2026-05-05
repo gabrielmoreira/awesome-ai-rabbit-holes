@@ -1,0 +1,81 @@
+id: github__chrisbusbin-pixel__propfirmdealfinder-mcp-server
+kind: github-repo
+name: propfirmdealfinder-mcp-server
+canonical_url: https://github.com/chrisbusbin-pixel/propfirmdealfinder-mcp-server
+identity:
+  github_repo: chrisbusbin-pixel/propfirmdealfinder-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__chrisbusbin-pixel__propfirmdealfinder-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: chrisbusbin-pixel/propfirmdealfinder-mcp-server
+        extracted_url: https://github.com/chrisbusbin-pixel/propfirmdealfinder-mcp-server
+        surrounding_text: "- [chrisbusbin-pixel/propfirmdealfinder-mcp-server](https://github.com/chrisbusbin-pixel/propfirmdealfinder-mcp-server) [![chrisbusbin-pixel/propfirmdealfinder-mcp-server MCP server](https://glama.ai/mcp/servers/chrisbusbin-pixel/propfirmdealfinder-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/chrisbusbin-pixel/propfirmdealfinder-mcp-server) 📇 ☁️ - Aggregates proprietary trading firm discounts, reviews, and affiliate deals across 20+ prop firms. Query live discount codes, compare firms by country, and check featured deals via MCP tools."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-04-05T10:24:14Z"
+    pushed_at: "2026-04-14T06:36:52Z"
+    description: MCP server for Prop Firm Deal Finder - lets AI assistants query live prop firm discount codes, compare firms, and find the cheapest challenges across 20+ proprietary trading firms.
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:01:33.457Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:33.457Z"
+      bytes: 5121
+insights:
+  summary: An MCP server that lets AI assistants query live prop firm discount codes, compare firms, and find the cheapest challenges across 20+ proprietary trading firms.
+  why_it_matters: Developers building MCP-connected assistants can plug in a ready-made tool for real-time prop trading data without writing their own scrapers or API integrations.
+  mental_damage: We have finally reached the point where the Model Context Protocol is being used to optimize discount codes for simulated day traders, and somehow this feels inevitable.
+  tags:
+    - mcp
+    - trading
+    - fintech
+    - server
+  confidence: medium
+curation:
+  status: included
+  reason: The project is itself an MCP server providing structured tooling for AI assistants, which fits cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states 'MCP server for Prop Firm Deal Finder'.
+    - README confirms it exposes pfdf_* tools over stdio and HTTP MCP transports.
+    - Listed under 'Server Implementations > Finance & Fintech' in awesome-mcp-servers.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.682Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:33.457Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:13:00.768Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

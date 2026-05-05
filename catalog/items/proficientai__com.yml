@@ -1,0 +1,74 @@
+id: proficientai__com
+kind: website
+name: proficientai.com
+canonical_url: https://proficientai.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__proficientai__com__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Proficient AI
+        anchor_text: Proficient AI
+        extracted_url: https://proficientai.com
+        surrounding_text: "## [Proficient AI](https://proficientai.com)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Proficient AI is a platform for building and deploying autonomous AI agents, listed among other agent tools in curated AI directories.
+  why_it_matters: It provides infrastructure for developers looking to move beyond simple chatbots into multi-step autonomous agent workflows.
+  mental_damage: "Just what the ecosystem needed: another platform to orchestrate digital workers while we manually debug why they refuse to stop booking meetings in 2023."
+  tags:
+    - agents
+    - autonomous
+    - platform
+  confidence: low
+curation:
+  status: excluded
+  reason: The project lacks a developer-facing tool, SDK, or extension; it appears to be a general-purpose agent platform without specific utility for a developer's coding workflow or IDE.
+  evidence:
+    - Listed in awesome-ai-agents under a general 'autonomous agents' section with no specific developer-tooling angle provided.
+    - No repository description, README, or site context was provided to verify it offers coding assistance, frameworks, or IDE integration.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.729Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:47:10.762Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

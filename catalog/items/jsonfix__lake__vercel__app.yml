@@ -1,0 +1,76 @@
+id: jsonfix__lake__vercel__app
+kind: website
+name: jsonfix-lake.vercel.app
+canonical_url: https://jsonfix-lake.vercel.app
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__jsonfix__lake__vercel__app__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Developer Productivity Tools
+        anchor_text: JSONFix
+        extracted_url: https://jsonfix-lake.vercel.app
+        surrounding_text: "- **[JSONFix](https://jsonfix-lake.vercel.app/)** – AI-powered JSON fixer that instantly repairs broken JSON with missing quotes, trailing commas, or unescaped characters. Free, no signup."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A free online tool that formats, validates, minifies, and uses Claude AI to repair broken JSON strings.
+  why_it_matters: It provides a quick, browser-based way to un-break malformed JSON without requiring IDE extensions or new dependencies.
+  mental_damage: We have successfully solved the JSON formatting crisis of 2024 by adding yet another Vercel deployment to the stack that already includes jq, Python, and five different IDE plugins.
+  tags:
+    - json
+    - formatter
+    - utility
+    - ai-fix
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a general-purpose utility website for formatting JSON, not a developer-facing AI tool, agent, workflow, or infrastructure component for building software.
+  evidence:
+    - The tool is a generic 'online JSON formatter & fixer' with no repo, IDE, CLI, or workflow integration.
+    - It is a simple hosted utility rather than a coding agent, app builder, or developer infrastructure.
+    - Included in 'awesome-ai-coding-tools' under 'Developer Productivity Tools', but the listing is a generic utility rather than a coding tool.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.728Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:45:42.962Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

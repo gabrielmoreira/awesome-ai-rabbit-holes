@@ -1,0 +1,91 @@
+id: github__myagenthubs__aimemo
+kind: github-repo
+name: aimemo
+canonical_url: https://github.com/myagenthubs/aimemo
+identity:
+  github_repo: myagenthubs/aimemo
+provenance:
+  discoveries:
+    - id: discovery__github__myagenthubs__aimemo__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: MyAgentHubs/aimemo
+        extracted_url: https://github.com/myagenthubs/aimemo
+        surrounding_text: "- [MyAgentHubs/aimemo](https://github.com/MyAgentHubs/aimemo) 🏎️ 🏠 🍎 🪟 🐧 - Zero-dependency MCP memory server. Single binary, 100% local, no Docker."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2026-02-18T13:02:28Z"
+    pushed_at: "2026-02-21T01:45:37Z"
+    description: null
+    homepage: null
+    topics:
+      - ai
+      - claude
+      - context-protocol
+      - golang
+      - knowledge-graph
+      - local-first
+      - mcp
+      - memory
+      - zero-dependency
+    last_checked_at: "2026-05-05T21:03:50.265Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:50.265Z"
+      bytes: 14426
+insights:
+  summary: A zero-dependency, local-first MCP server written in Go that provides persistent, searchable memory and context management for AI coding agents like Claude Code.
+  why_it_matters: It allows AI agents to maintain state across sessions by storing decisions and progress locally in a project's directory, eliminating the need to re-explain context after every restart.
+  mental_damage: We have successfully solved the problem of AI amnesia by adding a single binary that requires its own init process, turning our `.gitignore` into a graveyard of memory files.
+  tags:
+    - mcp
+    - memory
+    - local-first
+    - go
+    - context
+  confidence: high
+curation:
+  status: included
+  reason: The project is a dedicated Model Context Protocol (MCP) server designed to provide memory tooling to AI agents, fitting the MCP infrastructure category.
+  evidence:
+    - README explicitly states it is a 'Zero-dependency MCP memory server' and runs via `aimemo serve` as an stdio MCP server.
+    - Topics include 'mcp' and 'context-protocol', and it is listed in the 'awesome-mcp-servers' directory under Knowledge & Memory.
+    - Active development (pushed 3 days after creation in Feb 2026) with no archived status.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.709Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:50.265Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:39:41.798Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

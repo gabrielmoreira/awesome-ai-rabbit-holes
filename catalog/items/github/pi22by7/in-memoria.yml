@@ -1,0 +1,89 @@
+id: github__pi22by7__in-memoria
+kind: github-repo
+name: in-memoria
+canonical_url: https://github.com/pi22by7/in-memoria
+identity:
+  github_repo: pi22by7/in-memoria
+provenance:
+  discoveries:
+    - id: discovery__github__pi22by7__in-memoria__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: pi22by7/In-Memoria
+        extracted_url: https://github.com/pi22by7/in-memoria
+        surrounding_text: "- [pi22by7/In-Memoria](https://github.com/pi22by7/In-Memoria) 📇 🦀 🏠 🍎 🐧 🪟 - Persistent intelligence infrastructure for agentic development that gives AI coding assistants cumulative memory and pattern learning. Hybrid TypeScript/Rust implementation with local-first storage using SQLite + SurrealDB for semantic analysis and incremental codebase understanding."
+        confidence: high
+metadata:
+  github:
+    stars: 166
+    forks: 29
+    license: MIT
+    archived: false
+    created_at: "2025-08-16T06:53:05Z"
+    pushed_at: "2025-12-23T15:59:37Z"
+    description: Persistent Intelligence Infrastructure for AI Agents
+    homepage: ""
+    topics:
+      - ai-agents
+      - ai-tools
+      - codebase-intelligence
+      - developer-tools
+      - local-first
+      - mcp-server
+      - persistent-memory
+    last_checked_at: "2026-05-05T21:04:16.942Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:16.942Z"
+      bytes: 21181
+insights:
+  summary: An MCP server that analyzes a codebase to build persistent memory of patterns, architecture, and conventions, allowing AI coding assistants to query this context across sessions.
+  why_it_matters: It eliminates the repetitive context-rebuilding loop in AI-assisted development by giving tools like Claude and Copilot a persistent understanding of your project's specific style and structure.
+  mental_damage: We have successfully engineered a solution to the problem of explaining our own codebases to the AI that constantly forgets we don't use classes.
+  tags:
+    - mcp-server
+    - memory
+    - context
+    - local-first
+    - codebase-intelligence
+  confidence: high
+curation:
+  status: included
+  reason: The product is explicitly an MCP server designed to provide persistent memory and context retrieval for AI coding assistants.
+  evidence:
+    - "Repo description states: 'Persistent Intelligence Infrastructure for AI Agents' and topics include 'mcp-server'."
+    - README identifies it as 'an MCP server that learns from your actual codebase' and provides integration steps for Claude Desktop and Copilot.
+    - Listed in awesome-mcp-servers under 'Knowledge & Memory' section.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (166) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.713Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:16.942Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:44:40.554Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

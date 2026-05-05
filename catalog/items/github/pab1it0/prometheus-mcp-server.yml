@@ -1,0 +1,103 @@
+id: github__pab1it0__prometheus-mcp-server
+kind: github-repo
+name: prometheus-mcp-server
+canonical_url: https://github.com/pab1it0/prometheus-mcp-server
+identity:
+  github_repo: pab1it0/prometheus-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__pab1it0__prometheus-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🗄️ <a name="databases"></a>Databases
+        anchor_text: pab1it0/prometheus-mcp-server
+        extracted_url: https://github.com/pab1it0/prometheus-mcp-server
+        surrounding_text: "- [pab1it0/prometheus-mcp-server](https://github.com/pab1it0/prometheus-mcp-server) 🐍 ☁️ -  Query and analyze Prometheus, open-source monitoring system."
+        confidence: high
+    - id: discovery__github__pab1it0__prometheus-mcp-server__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - 🗄️ Databases
+        anchor_text: pab1it0/prometheus-mcp-server
+        extracted_url: https://github.com/pab1it0/prometheus-mcp-server
+        surrounding_text: "-   **[pab1it0/prometheus-mcp-server](https://github.com/pab1it0/prometheus-mcp-server)** [![GitHub stars](https://img.shields.io/github/stars/pab1it0/prometheus-mcp-server?style=social)](https://github.com/pab1it0/prometheus-mcp-server): Provides querying and analysis of Prometheus monitoring system."
+        confidence: high
+metadata:
+  github:
+    stars: 431
+    forks: 90
+    license: MIT
+    archived: false
+    created_at: "2025-03-19T16:36:09Z"
+    pushed_at: "2026-05-05T14:51:46Z"
+    description: A Model Context Protocol (MCP) server that enables AI agents and LLMs to query and analyze Prometheus metrics through standardized interfaces.
+    homepage: ""
+    topics:
+      - ai
+      - devops
+      - llm
+      - mcp
+      - model-context-protocol
+      - prometheus
+    last_checked_at: "2026-05-05T21:04:10.342Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:10.342Z"
+      bytes: 8749
+insights:
+  summary: A Model Context Protocol server that allows AI assistants and coding agents to execute PromQL queries and analyze metrics from a connected Prometheus instance.
+  why_it_matters: It bridges observability data with AI workflows, enabling agents inside IDEs or CLIs to directly diagnose production issues using real-time metrics.
+  mental_damage: Finally, your AI assistant can panic about the server load just as effectively as you can, using the exact same queries to confirm that yes, everything is indeed on fire.
+  tags:
+    - mcp
+    - prometheus
+    - observability
+    - devops
+    - metrics
+  confidence: high
+curation:
+  status: included
+  reason: The project is a purpose-built MCP server designed to expose Prometheus metrics to LLMs, fitting cleanly into the MCP infrastructure category.
+  evidence:
+    - Repo description explicitly defines it as 'A Model Context Protocol (MCP) server'.
+    - README demonstrates integration with Claude Desktop, VS Code, Cursor, and Windsurf as an MCP tool.
+    - Listed in both 'awesome-mcp-list' and 'awesome-mcp-servers' directories under database tooling.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (431) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.670Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:10.342Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:43:30.755Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

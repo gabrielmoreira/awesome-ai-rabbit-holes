@@ -1,0 +1,82 @@
+id: github__dagger__container-use
+kind: github-repo
+name: container-use
+canonical_url: https://github.com/dagger/container-use
+identity:
+  github_repo: dagger/container-use
+provenance:
+  discoveries:
+    - id: discovery__github__dagger__container-use__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 👨‍💻 <a name="code-execution"></a>Code Execution
+        anchor_text: dagger/container-use
+        extracted_url: https://github.com/dagger/container-use
+        surrounding_text: "- [dagger/container-use](https://github.com/dagger/container-use) 🏎️ 🏠 🐧 🍎 🪟 - Containerized environments for coding agents. Multiple agents can work independently, isolated in fresh containers and git branches. No conflicts, many experiments. Full execution history, terminal access to agent environments, git workflow. Any agent/model/infra stack."
+        confidence: high
+metadata:
+  github:
+    stars: 3766
+    forks: 191
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-05-23T23:18:43Z"
+    pushed_at: "2026-02-23T12:37:47Z"
+    description: Development environments for coding agents. Enable multiple agents to work safely and independently with your preferred stack.
+    homepage: https://container-use.com
+    topics: []
+    last_checked_at: "2026-05-05T21:01:45.231Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:45.231Z"
+      bytes: 3512
+insights:
+  summary: An MCP server and CLI tool that spins up isolated, containerized git environments so coding agents can work in parallel without conflicting with each other or the developer's main branch.
+  why_it_matters: It lets developers safely run multiple coding agents concurrently by giving each agent its own container and branch, with real-time visibility and direct terminal intervention for when they inevitably get stuck.
+  mental_damage: We have finally solved the problem of one agent breaking your codebase at a time by virtualizing the chaos so an entire team of agents can confidently break isolated containers instead.
+  tags:
+    - mcp
+    - coding-agents
+    - containers
+    - parallel
+    - dagger
+  confidence: high
+curation:
+  status: included
+  reason: The primary artifact is an open-source MCP server designed to be added to MCP-compatible agents like Claude Code and Cursor, fitting the MCP infrastructure scope rather than being a coding agent itself.
+  evidence:
+    - "README explicitly states: 'It's an open-source MCP server that works as a CLI tool with Claude Code, Cursor, and other MCP-compatible agents.'"
+    - Setup instructions require adding 'container-use stdio' as an MCP server to the agent.
+    - Listed under 'Server Implementations > Code Execution' in awesome-mcp-servers source list.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (3766) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.683Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:45.231Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:15:06.451Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

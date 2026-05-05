@@ -1,0 +1,93 @@
+id: github__einstack__glide
+kind: github-repo
+name: glide
+canonical_url: https://github.com/einstack/glide
+identity:
+  github_repo: einstack/glide
+provenance:
+  discoveries:
+    - id: discovery__github__einstack__glide__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - LLMOps
+        anchor_text: Glide
+        extracted_url: https://github.com/einstack/glide
+        surrounding_text: "| [Glide](https://github.com/EinStack/glide)                         | Cloud-Native LLM Routing Engine. Improve LLM app resilience and speed.                                                                                                                                                                                                                                                                                                                                  | ![GitHub Badge](https://img.shields.io/github/stars/einstack/glide.svg?style=flat-square)                 |"
+        confidence: high
+metadata:
+  github:
+    stars: 159
+    forks: 26
+    license: Apache-2.0
+    archived: false
+    created_at: "2023-12-07T00:49:46Z"
+    pushed_at: "2024-08-12T19:49:05Z"
+    description: 🐦 A open blazing-fast simple model gateway for rapid development of production GenAI apps
+    homepage: https://docs.einstack.ai/glide/
+    topics:
+      - ai
+      - gateway
+      - gateway-api
+      - genai
+      - generative-ai
+      - glide
+      - go
+      - llm
+      - llmops
+      - ml
+      - mlops
+      - router
+    last_checked_at: "2026-05-05T21:02:00.550Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:00.550Z"
+      bytes: 10400
+insights:
+  summary: Glide is a cloud-native Go LLM gateway that provides a unified REST API across multiple model providers, handling failover, caching, and key management for production GenAI applications.
+  why_it_matters: It abstracts away provider-specific APIs and transient errors so developers can swap LLM backends without touching application code while gaining production-grade resilience.
+  mental_damage: Yet another layer of infrastructure promising to make your AI stack resilient, just in case the six other abstractions between you and the model weights fail simultaneously.
+  tags:
+    - llm-gateway
+    - genai
+    - llmops
+    - go
+    - cloud-native
+  confidence: medium
+curation:
+  status: included
+  reason: Glide is a developer-facing framework and gateway SDK/component for embedding LLM communication and resilience logic into applications, fitting the code-first building block mold.
+  evidence:
+    - Repo description explicitly calls it an 'open blazing-fast simple model gateway for rapid development of production GenAI apps'.
+    - README positions it as a component that sits between the application and providers with configurable caching, failover, and key management.
+    - Listed in Awesome-LLMOps under the LLMOps section, indicating strong ecosystem fit for developer infrastructure.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (159) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.686Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:00.550Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:17:43.836Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

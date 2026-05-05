@@ -1,0 +1,96 @@
+id: github__moshthepitt__lionclaw
+kind: github-repo
+name: lionclaw
+canonical_url: https://github.com/moshthepitt/lionclaw
+identity:
+  github_repo: moshthepitt/lionclaw
+provenance:
+  discoveries:
+    - id: discovery__github__moshthepitt__lionclaw__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Terminal-native coding agents
+          - OpenClaw ecosystem
+        anchor_text: LionClaw
+        extracted_url: https://github.com/moshthepitt/lionclaw
+        surrounding_text: "- **[LionClaw](https://github.com/moshthepitt/lionclaw)** `⭐ 4` — Secure-first local AI CLI with a small auditable kernel, durable sessions, and installable skills. MIT."
+        confidence: high
+metadata:
+  github:
+    stars: 6
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-03-12T05:24:46Z"
+    pushed_at: "2026-05-04T20:18:40Z"
+    description: Secure-first local AI CLI with a small auditable kernel, durable sessions, and installable skills.
+    homepage: https://lionclaw.co.ke
+    topics:
+      - agent-skills
+      - agentic-ai
+      - ai
+      - ai-agents
+      - ai-skills
+      - codex
+      - ironclaw
+      - llm
+      - nanoclaw
+      - openai
+      - openclaw
+      - openclaw-skills
+      - opencode
+      - skills
+    last_checked_at: "2026-05-05T21:03:46.996Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:46.996Z"
+      bytes: 15780
+insights:
+  summary: A local, security-first CLI that wraps existing coding agents like Codex and OpenCode with durable sessions, sandboxed execution, and installable skills.
+  why_it_matters: It lets developers run autonomous coding agents inside a controlled local boundary with persistent memory and scheduled jobs without handing over full system access.
+  mental_damage: We have finally invented the dedicated operating system layer for our AI agents, which means the stack is now deep enough to require its own onboarding flow.
+  tags:
+    - cli
+    - local-ai
+    - coding-agents
+    - security
+    - skills
+  confidence: medium
+curation:
+  status: included
+  reason: LionClaw is a terminal-native CLI that hosts and secures interactive coding agents inside sandboxed, durable sessions, fitting the coding-agents category and its CLI section.
+  evidence:
+    - Repo description explicitly calls it a 'Secure-first local AI CLI' for agents with 'installable skills'.
+    - "README positions it as 'a new layer for AI: a local home for the interactive coding and reasoning agents you already use'."
+    - Listed under 'Terminal-native coding agents > OpenClaw ecosystem' in the awesome-cli-coding-agents directory.
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.708Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:46.996Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:39:07.687Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

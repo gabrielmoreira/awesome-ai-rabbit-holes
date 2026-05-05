@@ -1,0 +1,81 @@
+id: github__agenthotspot__agenthotspot-mcp
+kind: github-repo
+name: agenthotspot-mcp
+canonical_url: https://github.com/agenthotspot/agenthotspot-mcp
+identity:
+  github_repo: agenthotspot/agenthotspot-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__agenthotspot__agenthotspot-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🔗 <a name="aggregators"></a>Aggregators
+        anchor_text: AgentHotspot
+        extracted_url: https://github.com/agenthotspot/agenthotspot-mcp
+        surrounding_text: "- [AgentHotspot](https://github.com/AgentHotspot/agenthotspot-mcp) 🐍 ☁️ 🏠 🍎 🪟 🐧 - Search, integrate and monetize MCP connectors on the AgentHotspot MCP marketplace"
+        confidence: high
+metadata:
+  github:
+    stars: 2
+    forks: 3
+    license: MIT
+    archived: false
+    created_at: "2026-01-15T03:46:25Z"
+    pushed_at: "2026-01-21T14:12:57Z"
+    description: 🔍 MCP server to search 6,000+ AI agent MCP connectors from AgentHotspot.com Marketplace
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:00:50.880Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:50.880Z"
+      bytes: 5381
+insights:
+  summary: An MCP server that allows AI agents to search and discover over 6,000 MCP connectors listed on the AgentHotspot marketplace.
+  why_it_matters: Developers can search for and integrate existing MCP connectors directly from their agent workflow instead of manually browsing the web.
+  mental_damage: We now have an AI tool designed solely to help other AI tools find more AI tools, accelerating the recursive loop of middleware discovering middleware.
+  tags:
+    - mcp
+    - connectors
+    - marketplace
+    - agent-tools
+  confidence: high
+curation:
+  status: included
+  reason: This is a Model Context Protocol server implementation that provides search access to a catalog of other MCP connectors, fitting cleanly into the MCP infrastructure category.
+  evidence:
+    - Repo description explicitly states it is an 'MCP server to search 6,000+ AI agent MCP connectors'.
+    - README confirms it is 'MCP Compatible' and allows agents to 'search and discover oss connectors from the AgentHotspot marketplace'.
+    - Listed in the awesome-mcp-servers list under 'Server Implementations > Aggregators'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.676Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:50.880Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:06:08.969Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

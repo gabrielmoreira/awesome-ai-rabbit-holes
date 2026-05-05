@@ -1,0 +1,75 @@
+id: www__blobr__io
+kind: website
+name: www.blobr.io
+canonical_url: https://www.blobr.io
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__blobr__io__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Blobr
+        anchor_text: Blobr
+        extracted_url: https://www.blobr.io
+        surrounding_text: "## [Blobr](https://www.blobr.io/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A hosted SaaS platform that runs specialized AI agents to analyze Google Ads campaigns and apply recommended changes to ad accounts.
+  why_it_matters: It automates routine paid-media optimizations so agencies and advertisers can standardize account management without writing custom scripts or manually tweaking campaigns.
+  mental_damage: We’ve finally reached the point where AI agents are fighting over who gets to optimize your negative keyword list while you wonder if ‘AI teammate’ is cheaper than the junior you just laid off.
+  tags:
+    - google-ads
+    - marketing-automation
+    - ai-agents
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a vertical marketing tool for Google Ads management, not a developer-facing coding assistant, app builder, or AI infrastructure product.
+  evidence:
+    - Scraped site title and description position it as 'Your AI teammate for Google Ads' focused on campaign optimization.
+    - Feature set centers on ad copy, keywords, bids, and budgets rather than source code, IDEs, or developer workflows.
+    - Listed in awesome-ai-agents only as a Google Ads automation tool, with no developer-tooling angle in the excerpt.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.731Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T20:49:10.798Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

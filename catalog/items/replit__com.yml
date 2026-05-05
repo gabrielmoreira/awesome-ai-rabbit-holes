@@ -1,0 +1,76 @@
+id: replit__com
+kind: website
+name: replit.com
+canonical_url: https://replit.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__replit__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - App Builders
+        anchor_text: Replit
+        extracted_url: https://replit.com
+        surrounding_text: "- **[Replit](https://replit.com/)** – Cloud IDE with AI agent for building complete applications from descriptions."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A browser-first platform that lets users generate, iterate on, and deploy full-stack web and mobile applications using conversational AI prompts.
+  why_it_matters: It allows developers and product teams to prototype and ship functional full-stack applications with integrated databases and hosting without managing underlying infrastructure.
+  mental_damage: You can now watch a bot scaffold an entire CRUD app in the time it takes to explain to your manager why the sprint estimate is still 'just two weeks.'
+  tags:
+    - app-builder
+    - prototyping
+    - full-stack
+    - ai-agent
+  confidence: high
+curation:
+  status: included
+  reason: Replit is a hosted, browser-first SaaS that generates and deploys entire applications from prompts, which aligns perfectly with the app-builders category rather than a coding-agent that assists within an existing repo.
+  evidence:
+    - "Scraped site title and description: 'Build apps and sites with AI' and 'Turn ideas into apps in minutes'."
+    - Source list context explicitly categorizes it as 'App Builders' in awesome-ai-coding-tools.
+    - Feature list includes 'Publish Apps', 'Full stack infrastructure', and 'Agent writes production-ready code' for new projects.
+placement:
+  primary_category: app-builders
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.730Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:47:35.375Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

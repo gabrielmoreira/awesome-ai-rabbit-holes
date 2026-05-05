@@ -1,0 +1,91 @@
+id: github__isgudtek__mycrab-mcp
+kind: github-repo
+name: mycrab-mcp
+canonical_url: https://github.com/isgudtek/mycrab-mcp
+identity:
+  github_repo: isgudtek/mycrab-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__isgudtek__mycrab-mcp__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - ☁️ Cloud Platforms
+        anchor_text: isgudtek/mycrab-mcp
+        extracted_url: https://github.com/isgudtek/mycrab-mcp
+        surrounding_text: "-   **[isgudtek/mycrab-mcp](https://github.com/isgudtek/mycrab-mcp)** [![GitHub stars](https://img.shields.io/github/stars/isgudtek/mycrab-mcp?style=social)](https://github.com/isgudtek/mycrab-mcp): Instant public HTTPS Cloudflare tunnels for AI agents. Free ephemeral URLs in 60s or permanent custom subdomains via Solana micropayment. Install with `uvx mycrab-mcp`."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: null
+    archived: false
+    created_at: "2026-02-24T03:35:20Z"
+    pushed_at: "2026-02-28T00:04:18Z"
+    description: MCP server for mycrab.space — instant Cloudflare tunnels for AI agents
+    homepage: null
+    topics:
+      - ai-agents
+      - cloudflare
+      - cloudflare-tunnel
+      - fastmcp
+      - mcp
+      - mcp-server
+      - python
+      - solana
+      - tunnel
+      - x402
+    last_checked_at: "2026-05-05T21:02:47.394Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:47.394Z"
+      bytes: 1409
+insights:
+  summary: An MCP server that allows AI agents to create instant public HTTPS tunnels using Cloudflare via mycrab.space, with support for both free ephemeral and paid permanent subdomains.
+  why_it_matters: It gives coding agents a native tool to instantly expose local services to the internet for webhook testing, demos, or remote access without leaving the chat interface.
+  mental_damage: We have officially reached the point where agents need their own micropayment infrastructure just to expose a localhost port to the internet.
+  tags:
+    - mcp
+    - cloudflare
+    - tunnel
+    - agent-tooling
+    - solana
+  confidence: medium
+curation:
+  status: included
+  reason: This is a dedicated MCP server implementation that integrates Cloudflare tunneling capabilities directly into agent workflows, fitting perfectly into the MCP infrastructure category.
+  evidence:
+    - Repo description explicitly states 'MCP server for mycrab.space — instant Cloudflare tunnels for AI agents'
+    - README documents MCP tools (check_domain, setup_free_tunnel, buy_domain_sol) consumable by agents like Claude
+    - Listed in awesome-mcp-list under 'Cloud Platforms' section, confirming MCP ecosystem relevance
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.698Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:47.394Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:26:50.169Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

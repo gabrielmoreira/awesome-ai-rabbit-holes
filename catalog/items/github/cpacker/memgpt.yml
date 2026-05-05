@@ -1,0 +1,100 @@
+id: github__cpacker__memgpt
+kind: github-repo
+name: memgpt
+canonical_url: https://github.com/cpacker/memgpt
+identity:
+  github_repo: cpacker/memgpt
+provenance:
+  discoveries:
+    - id: discovery__github__cpacker__memgpt__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - MemGPT
+        anchor_text: MemGPT
+        extracted_url: https://github.com/cpacker/memgpt
+        surrounding_text: "## [MemGPT](https://github.com/cpacker/MemGPT)"
+        confidence: high
+    - id: discovery__github__cpacker__memgpt__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Other LLM Frameworks
+        anchor_text: MemGPT
+        extracted_url: https://github.com/cpacker/memgpt
+        surrounding_text: "- [MemGPT](https://github.com/cpacker/MemGPT): Teaching LLMs memory management for unbounded context ![GitHub Repo stars](https://img.shields.io/github/stars/cpacker/MemGPT?style=social)"
+        confidence: high
+metadata:
+  github:
+    stars: 22441
+    forks: 2386
+    license: Apache-2.0
+    archived: false
+    created_at: "2023-10-11T07:38:37Z"
+    pushed_at: "2026-04-12T20:54:54Z"
+    description: "Letta is the platform for building stateful agents: AI with advanced memory that can learn and self-improve over time."
+    homepage: https://docs.letta.com/
+    topics:
+      - ai
+      - ai-agents
+      - llm
+      - llm-agent
+    last_checked_at: "2026-05-05T21:01:42.313Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:42.313Z"
+      bytes: 4248
+insights:
+  summary: Letta (formerly MemGPT) is a platform and CLI tool for building stateful AI agents with persistent memory, available as a local terminal agent (Letta Code) or via an API/SDK for application integration.
+  why_it_matters: It provides developers with a framework and CLI to run coding agents locally with advanced memory management, or embed stateful agents into applications using Python and TypeScript SDKs.
+  mental_damage: We have successfully abstracted the concept of remembering things so that our agents can experience the same existential dread of context window limits that we do.
+  tags:
+    - agents
+    - memory
+    - framework
+    - cli
+    - sdk
+  confidence: high
+curation:
+  status: included
+  reason: The Letta Code CLI is a terminal-based agent that helps developers code and perform local tasks with persistent memory, fitting the coding-agents category.
+  evidence:
+    - Repo description states it is a 'platform for building stateful agents' with 'Letta Code' running agents locally in the terminal.
+    - README specifies 'Letta Code supports skills and subagents... your agent help you code and do any task you can do on your computer.'
+    - Provides a full API and SDK (Python/TypeScript) for integrating agents, showing strong developer-tooling utility.
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (22441) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.439Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:42.313Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:14:35.718Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,78 @@
+id: www__ragie__ai
+kind: website
+name: www.ragie.ai
+canonical_url: https://www.ragie.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__ragie__ai__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: Ragie
+        extracted_url: https://www.ragie.ai
+        surrounding_text: "- [ragieai/mcp-server](https://github.com/ragieai/ragie-mcp-server) 📇 ☁️ - Retrieve context from your [Ragie](https://www.ragie.ai) (RAG) knowledge base connected to integrations like Google Drive, Notion, JIRA and more."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A fully managed RAG-as-a-Service platform that handles document parsing, multimodal indexing, and retrieval via API, including an MCP server for agent context.
+  why_it_matters: It allows developers to outsource the entire RAG pipeline—ingestion, chunking, and hybrid search—so they can focus on application logic rather than vector database infrastructure.
+  mental_damage: Yet another magical 'context engine' promising to solve hallucination, conveniently ignoring that piping your proprietary docs into a third-party SaaS is just a new way to scatter your proprietary data across the internet.
+  tags:
+    - rag
+    - mcp
+    - retrieval
+    - backend
+    - api
+  confidence: high
+curation:
+  status: included
+  reason: The product is explicitly listed in 'awesome-mcp-servers' under Knowledge & Memory and features a dedicated MCP Server that gives agents permissioned access to knowledge bases.
+  evidence:
+    - Listed in awesome-mcp-servers as a Server Implementation in the Knowledge & Memory section.
+    - Scraped site context confirms a dedicated 'MCP Server' feature for giving agents context via AI tools.
+    - Described as a fully managed RAG-as-a-Service platform with APIs and SDKs for developers.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.733Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:52:55.763Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

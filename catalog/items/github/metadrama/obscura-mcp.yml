@@ -1,0 +1,81 @@
+id: github__metadrama__obscura-mcp
+kind: github-repo
+name: obscura-mcp
+canonical_url: https://github.com/metadrama/obscura-mcp
+identity:
+  github_repo: metadrama/obscura-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__metadrama__obscura-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📂 <a name="browser-automation"></a>Browser Automation
+        anchor_text: Metadrama/obscura-mcp
+        extracted_url: https://github.com/metadrama/obscura-mcp
+        surrounding_text: "- [Metadrama/obscura-mcp](https://github.com/Metadrama/obscura-mcp) [![Metadrama/obscura-mcp MCP server](https://glama.ai/mcp/servers/Metadrama/obscura-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Metadrama/obscura-mcp) 📇 ☁️ 🐧 🪟 🍎 - MCP server adapter for the lightweight Rust headless browser Obscura — high-performance web scraping with anti-detection. Perfect for AI agent automation. Server can run [locally](https://github.com/Metadrama/obscura-mcp) or as [hosted endpoint](https://glama.ai/mcp/connectors)."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-04-29T20:25:07Z"
+    pushed_at: "2026-05-04T19:46:55Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:03:36.294Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:36.294Z"
+      bytes: 9320
+insights:
+  summary: An MCP server that exposes Obscura, a lightweight Rust headless browser, to AI agents for browser automation and web scraping without a Chrome dependency.
+  why_it_matters: It allows AI agents to perform browser automation tasks like scraping and interaction using a compact, self-contained browser binary via the Model Context Protocol.
+  mental_damage: We have successfully abstracted the browser so that an LLM can now confidently click the wrong button on a page using a 4MB context window instead of a 40MB one.
+  tags:
+    - mcp
+    - browser-automation
+    - headless-browser
+    - scraping
+  confidence: medium
+curation:
+  status: included
+  reason: The project is explicitly an MCP server implementation designed to interface a headless browser with MCP-compatible clients, fitting the MCP infrastructure scope.
+  evidence:
+    - GitHub description states it is 'An MCP server adapter for Obscura...'
+    - README confirms it 'Exposes Obscura's native CDP capabilities through a clean MCP interface'
+    - Listed in awesome-mcp-servers under 'Server Implementations > Browser Automation'
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.706Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:36.294Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:37:03.564Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

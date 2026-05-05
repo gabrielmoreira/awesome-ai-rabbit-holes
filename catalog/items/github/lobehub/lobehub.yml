@@ -1,0 +1,109 @@
+id: github__lobehub__lobehub
+kind: github-repo
+name: lobe-chat
+canonical_url: https://github.com/lobehub/lobehub
+identity:
+  github_repo: lobehub/lobehub
+provenance:
+  discoveries:
+    - id: discovery__github__lobehub__lobe-chat__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Open Source Projects
+          - Other / Chatbots
+        anchor_text: Lobe Chat
+        extracted_url: https://github.com/lobehub/lobe-chat
+        surrounding_text: "- [Lobe Chat](https://github.com/lobehub/lobe-chat) An open-source, extensible (Function Calling), high-performance chatbot framework ![GitHub Repo stars](https://img.shields.io/github/stars/lobehub/lobe-chat?style=social)"
+        confidence: high
+    - id: discovery__github__lobehub__lobe-chat__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 推理 Inference
+        anchor_text: lobe-chat
+        extracted_url: https://github.com/lobehub/lobe-chat
+        surrounding_text: "7. [lobe-chat](https://github.com/lobehub/lobe-chat): an open-source, modern-design LLMs/AI chat framework. Supports Multi AI Providers, Multi-Modals (Vision/TTS) and plugin system."
+        confidence: high
+metadata:
+  github:
+    stars: 76066
+    forks: 15068
+    license: NOASSERTION
+    archived: false
+    created_at: "2023-05-21T07:19:12Z"
+    pushed_at: "2026-05-05T18:42:54Z"
+    description: The ultimate space for work and life — to find, build, and collaborate with agent teammates that grow with you. We are taking agent harness to the next level — enabling multi-agent collaboration, effortless agent team design, and introducing agents as the unit of work interaction.
+    homepage: https://lobehub.com
+    topics:
+      - agent
+      - agent-collaboration
+      - agent-harness
+      - ai
+      - chatgpt
+      - claude
+      - deepseek
+      - gemini
+      - gpt
+      - knowledge-base
+      - mcp
+      - openai
+    last_checked_at: "2026-05-05T21:03:23.059Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:23.059Z"
+      bytes: 60153
+insights:
+  summary: An open-source platform for creating, deploying, and collaborating with customizable AI agents, featuring multi-agent workflows, MCP integration, and local model support.
+  why_it_matters: It provides developers with a self-hostable, extensible environment to build and manage specialized agent teams and knowledge bases beyond standard chat interfaces.
+  mental_damage: Finally, a way to orchestrate an entire workforce of agents that will patiently wait for you to write the prompts they need to do the work you are now too distracted to do.
+  tags:
+    - agents
+    - multi-agent
+    - mcp
+    - self-hosted
+    - chat
+  confidence: high
+curation:
+  status: included
+  reason: LobeHub is a user-facing platform and workbench for coordinating multiple agents and tasks, complete with an agent marketplace and MCP tooling, fitting the orchestration category.
+  evidence:
+    - Repo description explicitly states it is for 'multi-agent collaboration' and 'agent team design'.
+    - README highlights 'Agent Market (GPTs)', 'MCP Marketplace', and 'agents as the unit of work'.
+    - High traction with 76k stars and active development (pushed 2026-05-05).
+placement:
+  primary_category: agent-orchestration
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (76066) exceeded threshold (150)
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:34:27.845Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.669Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:23.059Z"
+    cause: null
+    next_retry_at: null

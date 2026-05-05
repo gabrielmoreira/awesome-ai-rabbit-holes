@@ -1,0 +1,75 @@
+id: www__apimatic__io
+kind: website
+name: www.apimatic.io
+canonical_url: https://www.apimatic.io
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__apimatic__io__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: APIMatic
+        extracted_url: https://www.apimatic.io
+        surrounding_text: "- **[APIMatic MCP](https://github.com/apimatic/apimatic-validator-mcp)** - APIMatic MCP Server is used to validate OpenAPI specifications using [APIMatic](https://www.apimatic.io/). The server processes OpenAPI files and returns validation summaries by leveraging APIMatic’s API."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: APIMatic is a developer experience platform that generates SDKs, documentation, and API wrappers from API definitions like OpenAPI.
+  why_it_matters: It automates the tedious translation of API specs into usable client libraries and docs, letting developers focus on integration rather than boilerplate generation.
+  mental_damage: "Just what the modern developer needs: another layer of automation to ensure our API wrappers are perfect, right before we prompt an AI agent to ignore them and write the fetch calls by hand anyway."
+  tags:
+    - api
+    - sdks
+    - developer-tools
+    - automation
+  confidence: high
+curation:
+  status: excluded
+  reason: The product is an API lifecycle tool for SDK and documentation generation, which lacks a specific AI-native workflow or agentic angle required for this catalog.
+  evidence:
+    - Appears in awesome-mcp-servers lists, but the product itself is a general API toolkit, not MCP-specific infrastructure.
+    - No inputs indicate AI-driven coding agents, app building, or prompt-based development workflows.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.731Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:49:37.343Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

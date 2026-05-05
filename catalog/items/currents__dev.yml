@@ -1,0 +1,93 @@
+id: currents__dev
+kind: website
+name: currents.dev
+canonical_url: https://currents.dev
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__currents__dev__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: Currents
+        extracted_url: https://currents.dev
+        surrounding_text: "- [currents-dev/currents-mcp](https://github.com/currents-dev/currents-mcp) 🎖️ 📇 ☁️ Enable AI Agents to fix Playwright test failures reported to [Currents](https://currents.dev)."
+        confidence: high
+    - id: discovery__currents__dev__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Currents
+        extracted_url: https://currents.dev
+        surrounding_text: "- **[Currents](https://github.com/currents-dev/currents-mcp)** - Enable AI Agents to fix Playwright test failures reported to [Currents](https://currents.dev)."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Currents is a Playwright-focused dashboard, reporter, and test orchestrator that provides test history, debugging artifacts, and smart CI test balancing.
+  why_it_matters: It helps teams debug failed tests faster and cut CI costs by automatically balancing Playwright test suites and detecting flaky tests.
+  mental_damage: You can now vibe-fix flaky tests with an AI agent that has rich context, provided you first survive the irony of adding a SaaS dashboard to solve the complexity of your test orchestration.
+  tags:
+    - playwright
+    - testing
+    - ci
+    - mcp
+    - dashboard
+  confidence: high
+curation:
+  status: included
+  reason: The core product is a Playwright test dashboard, but it qualifies for inclusion because it explicitly ships an MCP Server to empower AI agents with test data, fitting the MCP category.
+  evidence:
+    - "Product page explicitly features 'MCP Server 2.0: Better context for AI agents' as a headline feature."
+    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools' and 'Official Servers'.
+    - Description confirms it is a Playwright reporter and orchestrator that now exposes data via MCP for AI-driven automations.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.674Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:43:26.600Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

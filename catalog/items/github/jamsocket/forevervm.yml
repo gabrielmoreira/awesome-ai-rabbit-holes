@@ -1,0 +1,81 @@
+id: github__jamsocket__forevervm
+kind: github-repo
+name: forevervm
+canonical_url: https://github.com/jamsocket/forevervm
+identity:
+  github_repo: jamsocket/forevervm
+provenance:
+  discoveries:
+    - id: discovery__github__jamsocket__forevervm__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: ForeverVM
+        extracted_url: https://github.com/jamsocket/forevervm
+        surrounding_text: "- **[ForeverVM](https://github.com/jamsocket/forevervm/tree/main/javascript/mcp-server)** - Run Python in a code sandbox."
+        confidence: high
+metadata:
+  github:
+    stars: 228
+    forks: 22
+    license: MIT
+    archived: false
+    created_at: "2025-01-18T14:15:35Z"
+    pushed_at: "2025-04-17T07:01:29Z"
+    description: Securely run AI-generated code in stateful sandboxes that run forever.
+    homepage: https://forevervm.com
+    topics: []
+    last_checked_at: "2026-05-05T21:02:50.916Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:50.916Z"
+      bytes: 3481
+insights:
+  summary: forevervm is an API and SDK for securely running stateful Python code in long-lived, automatically hibernating sandboxes.
+  why_it_matters: It gives developers a simple way to persist Python REPL state across sessions, making it easier to build AI agents that need durable, interactive code execution.
+  mental_damage: We have finally solved the hard problem of keeping a Python process alive forever, right alongside the ~47 other sandboxing projects that also guarantee eternal life until the next VC pivot.
+  tags:
+    - sandbox
+    - python
+    - sdk
+    - stateful-execution
+    - agents
+  confidence: high
+curation:
+  status: included
+  reason: The primary artifact is an SDK and API that developers import and use in code to embed stateful Python execution, which fits the AI Frameworks and SDKs category.
+  evidence:
+    - Repo description states it is for running AI-generated code in stateful sandboxes.
+    - README demonstrates a TypeScript SDK and CLI for executing Python instructions against managed machines.
+    - Active development shown by a January 2025 creation date and April 2025 push date.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (228) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.699Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:50.916Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:27:34.626Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

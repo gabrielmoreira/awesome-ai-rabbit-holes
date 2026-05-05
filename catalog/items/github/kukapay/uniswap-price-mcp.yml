@@ -1,0 +1,82 @@
+id: github__kukapay__uniswap-price-mcp
+kind: github-repo
+name: uniswap-price-mcp
+canonical_url: https://github.com/kukapay/uniswap-price-mcp
+identity:
+  github_repo: kukapay/uniswap-price-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__kukapay__uniswap-price-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: kukapay/uniswap-price-mcp
+        extracted_url: https://github.com/kukapay/uniswap-price-mcp
+        surrounding_text: "- [kukapay/uniswap-price-mcp](https://github.com/kukapay/uniswap-price-mcp) 📇 ☁️ -  An MCP server that tracks newly created liquidity pools on Uniswap across multiple blockchains."
+        confidence: high
+metadata:
+  github:
+    stars: 2
+    forks: 2
+    license: MIT
+    archived: false
+    created_at: "2025-06-05T08:16:48Z"
+    pushed_at: "2025-06-05T08:17:05Z"
+    description: An MCP server that delivers real-time token prices from Uniswap V3 across multiple chains.
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:03:13.055Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:13.055Z"
+      bytes: 2381
+insights:
+  summary: An MCP server that delivers real-time token prices from Uniswap V3 pools across Ethereum, Polygon, Arbitrum, and Optimism for integration with AI agents.
+  why_it_matters: It allows developers building DeFi-compatible AI agents to query on-chain pricing data directly through the standardized MCP interface without writing custom web3 logic.
+  mental_damage: A dedicated server to feed token prices to an AI agent that will eventually be smart enough to drain the liquidity pool you're querying.
+  tags:
+    - mcp
+    - defi
+    - uniswap
+    - web3
+    - pricing
+  confidence: high
+curation:
+  status: included
+  reason: The project is a Model Context Protocol server specifically built to expose Uniswap V3 price data to MCP-compatible clients, fitting the MCP infrastructure category.
+  evidence:
+    - Repo description states it is 'An MCP server that delivers real-time token prices from Uniswap V3'.
+    - README confirms it is configured and interacted with as an MCP server for AI agents and DeFi automation.
+    - Listed in the awesome-mcp-servers directory under 'Finance & Fintech'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.703Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:13.055Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:32:30.728Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

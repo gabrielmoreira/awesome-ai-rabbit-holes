@@ -1,0 +1,75 @@
+id: openai__com
+kind: website
+name: openai.com
+canonical_url: https://openai.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__openai__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Code Models
+        anchor_text: GPT-5 (OpenAI)
+        extracted_url: https://openai.com
+        surrounding_text: "- **[GPT-5 (OpenAI)](https://openai.com/)** – Powers GitHub Copilot, Codex CLI, and ChatGPT coding workflows."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: OpenAI.com is the corporate homepage for OpenAI, the AI research and deployment company behind models like GPT and Codex.
+  why_it_matters: While the underlying models power much of the current generation of developer tooling, the homepage itself is a marketing site, not a developer-facing tool or SDK.
+  mental_damage: We have reached a point where the company website is considered a 'coding tool' entry in a directory, proving that if you slap 'AI' on it, someone will try to git clone the homepage.
+  tags:
+    - company
+    - llm-provider
+    - research
+  confidence: high
+curation:
+  status: excluded
+  reason: OpenAI.com is a corporate marketing homepage and does not represent a standalone developer tool, agent, framework, or extension that fits the catalog's scope.
+  evidence:
+    - The URL points to the root corporate domain (https://openai.com) rather than a specific product, tool, or repository.
+    - No repo description, README, or tool-specific scraped context was provided—only the homepage exists.
+    - Source-list context cites 'awesome-ai-coding-tools' under 'Code Models', which refers to the models themselves, not the homepage as a tool.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.729Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:46:50.775Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

@@ -1,0 +1,81 @@
+id: github__getrupt__ashra-mcp
+kind: github-repo
+name: ashra-mcp
+canonical_url: https://github.com/getrupt/ashra-mcp
+identity:
+  github_repo: getrupt/ashra-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__getrupt__ashra-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📂 <a name="browser-automation"></a>Browser Automation
+        anchor_text: getrupt/ashra-mcp
+        extracted_url: https://github.com/getrupt/ashra-mcp
+        surrounding_text: "- [getrupt/ashra-mcp](https://github.com/getrupt/ashra-mcp) 📇 🏠 - Extract structured data from any website. Just prompt and get JSON."
+        confidence: high
+metadata:
+  github:
+    stars: 61
+    forks: 12
+    license: null
+    archived: false
+    created_at: "2025-03-20T17:47:50Z"
+    pushed_at: "2025-03-26T14:55:03Z"
+    description: A Model Context Protocol server for Ashra
+    homepage: https://ashra.ai
+    topics: []
+    last_checked_at: "2026-05-05T21:02:20.281Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:20.281Z"
+      bytes: 831
+insights:
+  summary: An MCP server that allows Claude Desktop to interface with Ashra's browser automation capabilities.
+  why_it_matters: It lets developers wire Ashra's automation features directly into their local Claude workflow via the Model Context Protocol.
+  mental_damage: Another day, another MCP server, because apparently the only way to make tools talk to each other now is adding another layer to the protocol tower.
+  tags:
+    - mcp
+    - browser-automation
+    - ashra
+    - claude
+  confidence: high
+curation:
+  status: included
+  reason: This is a Model Context Protocol server implementation, which fits squarely into the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description explicitly states: 'A Model Context Protocol server for Ashra'"
+    - README details configuration for Claude Desktop via 'mcpServers' in claude_desktop_config.json
+    - Listed under 'Server Implementations > Browser Automation' in the awesome-mcp-servers directory
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.689Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:20.281Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:21:08.490Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

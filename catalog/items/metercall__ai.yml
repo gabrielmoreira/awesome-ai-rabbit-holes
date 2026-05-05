@@ -1,0 +1,76 @@
+id: metercall__ai
+kind: website
+name: metercall.ai
+canonical_url: https://metercall.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__metercall__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - App Builders
+        anchor_text: MeterCall
+        extracted_url: https://metercall.ai
+        surrounding_text: "- **[MeterCall](https://metercall.ai)** – Universal API gateway over 10M+ APIs with AI router across 25+ models. Type a sentence in plain English, get a working app. 727+ ready-made modules to fork. Free tier, usage-based pricing."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: MeterCall is a browser-first SaaS platform that generates and deploys full business systems, such as CRMs and invoicing tools, from natural language prompts without requiring API keys or manual configuration.
+  why_it_matters: It allows developers and non-technical users to prototype and deploy integrated business applications by handling API connections and infrastructure automatically.
+  mental_damage: Another day, another platform promising to replace the 'complexity' of pasting an API key with a subscription to a proprietary 'Meter Credit' economy.
+  tags:
+    - app-builder
+    - no-code
+    - saas
+    - prompt-to-app
+  confidence: high
+curation:
+  status: included
+  reason: It is a hosted, browser-first product that turns prompts into full deployed systems and internal tools, which aligns perfectly with the app-builders category.
+  evidence:
+    - "Scraped site context states: 'This isn't a chatbot — it's a builder' and 'Tell it what you want. We just build it.'"
+    - The site highlights building specific systems like 'a CRM with invoicing and scheduling' using keyless API integrations.
+    - Listed under 'App Builders' in the awesome-ai-coding-tools directory.
+placement:
+  primary_category: app-builders
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.729Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:46:34.661Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

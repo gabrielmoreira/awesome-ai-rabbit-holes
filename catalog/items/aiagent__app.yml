@@ -1,0 +1,76 @@
+id: aiagent__app
+kind: website
+name: aiagent.app
+canonical_url: https://aiagent.app
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__aiagent__app__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: janhq/awesome-local-ai
+        url: https://github.com/janhq/awesome-local-ai
+        repository: janhq/awesome-local-ai
+      extraction:
+        mode: parsed
+        section_path:
+          - Agents
+        anchor_text: AI Agents
+        extracted_url: https://aiagent.app
+        surrounding_text: "- [AI Agents](https://aiagent.app/) - AI Agent that Power Up Your Productivity."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A no-code SaaS platform for creating and deploying teams of AI agents to automate business tasks like marketing, sales, and content generation.
+  why_it_matters: It offers a hosted interface for orchestrating multi-agent workflows without writing code, targeting business operations rather than source code modification.
+  mental_damage: Another 'agentic' platform promising to multiply your best teammates, assuming you first survive the irony of using an autonomous agent to handle the busywork of evaluating autonomous agents.
+  tags:
+    - no-code
+    - multi-agent
+    - automation
+    - saas
+  confidence: high
+curation:
+  status: excluded
+  reason: The product is a no-code business automation SaaS for marketing and sales, lacking a developer-facing tooling angle for coding, infrastructure, or app-building.
+  evidence:
+    - Site excerpt describes 'Create a team of AI agents' for 'Marketing, SEO, Content, Social, Sales' with 'No Code Needed'.
+    - Capabilities focus on business users ('no training needed', 'optimize workflow', 'content strategy') rather than developers.
+    - Listed in awesome-local-ai under 'Agents', but the tool itself is a hosted SaaS for business ops, not a local developer tool.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.726Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:41:34.863Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__codergamester__mcp-unity__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-01T13:51:25.374Z"
+      discovered_at: "2026-05-05T19:41:00.656Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [CoderGamester/mcp-unity](https://github.com/CoderGamester/mcp-unity) #️⃣ 🏠 - MCP Server for Unity3d Game Engine integration for game development"
         confidence: high
     - id: discovery__github__codergamester__mcp-unity__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-01T13:51:25.374Z"
+      discovered_at: "2026-05-05T19:41:00.656Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -38,16 +38,15 @@ provenance:
         surrounding_text: "- **[Unity3d Game Engine](https://github.com/CoderGamester/mcp-unity)** - MCP Server to control and interact with Unity3d Game Engine for game development"
         confidence: high
     - id: discovery__github__codergamester__mcp-unity__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-01T13:51:25.374Z"
+      discovered_at: "2026-05-05T19:41:00.656Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
-        url: https://github.com/MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
         repository: MobinX/awesome-mcp-list
       extraction:
         mode: parsed
         section_path:
-          - null
           - 🎮 Gaming
         anchor_text: CoderGamester/mcp-unity
         extracted_url: https://github.com/codergamester/mcp-unity
@@ -55,8 +54,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 1636
-    forks: 206
+    stars: 1642
+    forks: 205
     license: MIT
     archived: false
     created_at: "2025-03-13T20:41:25Z"
@@ -78,31 +77,49 @@ metadata:
       - unity-package
       - unity3d
       - windsurf
-    last_checked_at: "2026-05-01T13:51:49.317Z"
+    last_checked_at: "2026-05-05T21:01:38.013Z"
     readme:
-      fetched_at: "2026-05-01T13:51:49.317Z"
+      fetched_at: "2026-05-05T21:01:38.013Z"
       bytes: 31082
 insights:
-  summary: An MCP (Model Context Protocol) plugin that bridges AI assistants to the Unity Editor via a Unity package and a Node.js MCP server.
-  why_it_matters: It lets developers use MCP-capable coding agents (Cursor, Windsurf, Claude Code, Codex CLI, Copilot, etc.) to run project operations inside the Unity Editor instead of copy-pasting context and commands by hand.
-  mental_damage: Your IDE can now “talk to Unity,” which is great until you realize you’ve added a second runtime, a protocol, and an agent mood swing to the simplest “can you press Play?” request.
+  summary: An MCP server plugin that connects AI coding assistants like Cursor, Claude Code, and Windsurf directly to the Unity Editor to execute operations within a Unity project.
+  why_it_matters: It allows game developers to control and interact with the Unity Editor through natural language prompts inside their preferred AI-assisted IDEs.
+  mental_damage: Finally, the ability to hallucinate C# scripts and immediately break your scene hierarchy without ever alt-tabbing out of your chat window.
   tags:
-    - mcp
     - unity
-    - game-development
+    - mcp
     - ide-integration
-    - developer-tools
+    - game-dev
   confidence: high
 curation:
   status: included
-  reason: This is a clear developer-facing MCP server/integration that gives AI tools controlled access to a real development environment (Unity Editor), squarely fitting the catalog’s MCP tooling scope.
+  reason: The project is specifically an MCP server implementation designed to bridge Unity with AI IDEs, fitting squarely into the MCP infrastructure category.
   evidence:
-    - "Repo description: “Model Context Protocol (MCP) plugin to connect with Unity Editor — designed for Cursor, Claude Code, Codex, Windsurf and other IDEs.”"
-    - "README: “bridge between Unity and a Node.js server that implements the MCP protocol,” enabling AI assistants to execute operations within Unity Editor."
-    - "Active and adopted: not archived, 1636 stars, pushed 2026-04-26, and appears in multiple MCP server awesome lists under Gaming."
+    - Repo description explicitly states it is a 'Model Context Protocol (MCP) plugin to connect with Unity Editor'.
+    - README confirms it 'provides a bridge between Unity and a Node.js server that implements the MCP protocol'.
+    - Featured in 'awesome-mcp-servers' under the Gaming section, confirming its role as a specific MCP tool.
 placement:
   primary_category: mcp
   section: null
 lifecycle:
   status: promotion_candidate
-  reason: Stars (1636) exceeded threshold (150)
+  reason: Stars (1642) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.659Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:38.013Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:13:49.998Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

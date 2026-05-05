@@ -1,0 +1,84 @@
+id: github__nvidia__megatron-lm
+kind: github-repo
+name: megatron-lm
+canonical_url: https://github.com/nvidia/megatron-lm
+identity:
+  github_repo: nvidia/megatron-lm
+provenance:
+  discoveries:
+    - id: discovery__github__nvidia__megatron-lm__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: janhq/awesome-local-ai
+        url: https://github.com/janhq/awesome-local-ai
+        repository: janhq/awesome-local-ai
+      extraction:
+        mode: parsed
+        section_path:
+          - Training
+        anchor_text: Megatron-LM
+        extracted_url: https://github.com/nvidia/megatron-lm
+        surrounding_text: "- [Megatron-LM](https://github.com/NVIDIA/Megatron-LM) - Ongoing research training transformer models at scale."
+        confidence: high
+metadata:
+  github:
+    stars: 16226
+    forks: 3911
+    license: NOASSERTION
+    archived: false
+    created_at: "2019-03-21T16:15:52Z"
+    pushed_at: "2026-05-05T20:49:44Z"
+    description: Ongoing research training transformer models at scale
+    homepage: https://docs.nvidia.com/megatron-core/developer-guide/latest/get-started/quickstart.html
+    topics:
+      - large-language-models
+      - model-para
+      - transformers
+    last_checked_at: "2026-05-05T21:03:57.191Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:57.191Z"
+      bytes: 9938
+insights:
+  summary: A GPU-optimized library and reference examples from NVIDIA for training large transformer models at scale using advanced parallelism strategies.
+  why_it_matters: It provides the foundational building blocks and scripts needed for ML engineers and framework developers to build custom training pipelines for massive LLMs.
+  mental_damage: The perfect tool to ensure you spend three weeks debugging tensor parallelism configurations just to discover you don't actually have enough GPUs to care.
+  tags:
+    - training
+    - transformers
+    - nvidia
+    - llm
+    - distributed
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a foundational ML research and training framework for building models, not a tool that assists software developers in writing, debugging, or shipping application code.
+  evidence:
+    - Repo description states it is 'Ongoing research training transformer models at scale', indicating an ML research focus.
+    - README clarifies it is a 'GPU-optimized library for training transformer models' and 'best for research teams' and 'framework developers', not app developers.
+    - Appears in 'awesome-local-ai' under 'Training', which is a component of ML infrastructure rather than developer-facing AI tooling like agents or extensions.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (16226) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.710Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:57.191Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:41:10.522Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

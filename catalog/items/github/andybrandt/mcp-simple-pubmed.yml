@@ -1,0 +1,81 @@
+id: github__andybrandt__mcp-simple-pubmed
+kind: github-repo
+name: mcp-simple-pubmed
+canonical_url: https://github.com/andybrandt/mcp-simple-pubmed
+identity:
+  github_repo: andybrandt/mcp-simple-pubmed
+provenance:
+  discoveries:
+    - id: discovery__github__andybrandt__mcp-simple-pubmed__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - 🔎 Search
+        anchor_text: andybrandt/mcp-simple-pubmed
+        extracted_url: https://github.com/andybrandt/mcp-simple-pubmed
+        surrounding_text: "-   **[andybrandt/mcp-simple-pubmed](https://github.com/andybrandt/mcp-simple-pubmed)** [![GitHub stars](https://img.shields.io/github/stars/andybrandt/mcp-simple-pubmed?style=social)](https://github.com/andybrandt/mcp-simple-pubmed): Allows searching and reading papers from PubMed."
+        confidence: high
+metadata:
+  github:
+    stars: 164
+    forks: 31
+    license: MIT
+    archived: false
+    created_at: "2024-12-11T14:53:03Z"
+    pushed_at: "2026-03-19T13:33:40Z"
+    description: MCP server for searching and querying PubMed medical papers/research database
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:01:03.566Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:03.566Z"
+      bytes: 5037
+insights:
+  summary: An MCP server that provides AI assistants with tools to search PubMed, retrieve abstracts, and download full-text open access articles via the NCBI Entrez API.
+  why_it_matters: It allows coding agents and AI workflows to programmatically query medical literature and incorporate research papers directly into development tasks without leaving the IDE.
+  mental_damage: Finally, an automated way to hallucinate citations from medical journals faster than a tired resident on a 24-hour shift.
+  tags:
+    - mcp
+    - pubmed
+    - research
+    - medical
+    - ai-tooling
+  confidence: high
+curation:
+  status: included
+  reason: This is a dedicated MCP server designed to extend AI assistants with PubMed search capabilities, fitting squarely into the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description explicitly states: 'MCP server for searching and querying PubMed medical papers/research database'."
+    - README confirms it is an 'MCP server that provides access to PubMed articles through the Entrez API' with search and retrieval tools.
+    - Featured in the 'awesome-mcp-list' under the Search section, confirming its role in the MCP ecosystem.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (164) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.678Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:03.566Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:08:11.216Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,101 @@
+id: github__helicone__helicone
+kind: github-repo
+name: helicone
+canonical_url: https://github.com/helicone/helicone
+identity:
+  github_repo: helicone/helicone
+provenance:
+  discoveries:
+    - id: discovery__github__helicone__helicone__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Security
+          - Observability
+        anchor_text: Helicone
+        extracted_url: https://github.com/helicone/helicone
+        surrounding_text: "| [Helicone](https://github.com/Helicone/helicone)                              | Open source LLM observability platform. One line of code to monitor, evaluate, and experiment with features like prompt management, agent tracing, and evaluations.                                                            | ![GitHub Badge](https://img.shields.io/github/stars/Helicone/helicone.svg?style=flat-square)                     |"
+        confidence: high
+metadata:
+  github:
+    stars: 5609
+    forks: 561
+    license: Apache-2.0
+    archived: false
+    created_at: "2023-01-31T22:34:44Z"
+    pushed_at: "2026-05-02T00:48:58Z"
+    description: 🧊 Open source LLM observability platform. One line of code to monitor, evaluate, and experiment. YC W23 🍓
+    homepage: https://www.helicone.ai
+    topics:
+      - agent-monitoring
+      - analytics
+      - evaluation
+      - gpt
+      - langchain
+      - large-language-models
+      - llama-index
+      - llm
+      - llm-cost
+      - llm-evaluation
+      - llm-observability
+      - llmops
+      - monitoring
+      - open-source
+      - openai
+      - playground
+      - prompt-engineering
+      - prompt-management
+      - ycombinator
+    last_checked_at: "2026-05-05T21:02:32.471Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:32.471Z"
+      bytes: 15453
+insights:
+  summary: Helicone is an open-source AI gateway and LLM observability platform that proxies model requests to provide logging, cost tracking, prompt management, and agent tracing with a single base URL change.
+  why_it_matters: It gives developers a centralized control plane to monitor token usage, debug agent sessions, and manage prompt versions across 100+ models without touching core application logic.
+  mental_damage: Yet another lifecycle stage where you realize your 'simple' AI integration now requires a dedicated dashboard, a proxy worker, and a ClickHouse instance just to figure out why your agent spent $40 hallucinating JSON.
+  tags:
+    - llm-observability
+    - ai-gateway
+    - monitoring
+    - prompt-management
+    - self-hosted
+  confidence: high
+curation:
+  status: included
+  reason: The project is a developer-facing LLM observability and evaluation platform that provides monitoring, tracing, and cost analytics for AI applications.
+  evidence:
+    - Repo description explicitly calls it an 'Open source LLM observability platform' for monitoring, evaluation, and experimentation.
+    - README positions it as an AI Gateway & LLM Observability Platform with cost/latency tracking, agent tracing, and prompt management features.
+    - Listed in Awesome-LLMOps under 'Security > Observability', confirming its place in the LLMOps/observability toolchain.
+placement:
+  primary_category: evals
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (5609) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.690Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:32.471Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:23:43.750Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

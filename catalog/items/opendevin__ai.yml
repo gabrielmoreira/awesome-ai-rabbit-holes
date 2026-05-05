@@ -1,0 +1,75 @@
+id: opendevin__ai
+kind: website
+name: opendevin.ai
+canonical_url: https://opendevin.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__opendevin__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Coding Agents
+        anchor_text: OpenHands (OpenDevin)
+        extracted_url: https://opendevin.ai
+        surrounding_text: "- **[OpenHands (OpenDevin)](https://opendevin.ai/)** – Open-source AI software engineer for autonomous development."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: OpenDevin is an open-source, autonomous AI coding agent framework designed to interact with the world like a human developer by executing code, browsing the web, and using the command line.
+  why_it_matters: It provides a platform for developers to build and run autonomous agents that can handle complex, multi-step software engineering tasks within a secure, sandboxed environment.
+  mental_damage: Another valiant attempt to automate the 'read docs until 3am' phase of development, now with a sandboxed shell so the agent can break your environment virtually instead of physically.
+  tags:
+    - coding-agent
+    - autonomous
+    - open-source
+    - swe-agent
+  confidence: medium
+curation:
+  status: included
+  reason: The project is a developer-facing autonomous coding agent that operates via CLI and sandbox environments to plan, write, and execute code, fitting the 'Terminal & CLI Agents' section.
+  evidence:
+    - Included in the 'awesome-ai-coding-tools' list under the 'Coding Agents' section.
+    - The project (OpenDevin) is a well-known autonomous coding agent framework, even though this specific URL points to the site rather than the repo.
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.445Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T20:49:37.352Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+    next_retry_at: null

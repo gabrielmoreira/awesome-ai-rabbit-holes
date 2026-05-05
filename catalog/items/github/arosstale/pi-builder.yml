@@ -1,0 +1,73 @@
+id: github__arosstale__pi-builder
+kind: github-repo
+name: pi-builder
+canonical_url: https://github.com/arosstale/pi-builder
+identity:
+  github_repo: arosstale/pi-builder
+provenance:
+  discoveries:
+    - id: discovery__github__arosstale__pi-builder__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Agent infrastructure
+        anchor_text: pi-builder
+        extracted_url: https://github.com/arosstale/pi-builder
+        surrounding_text: "- **[pi-builder](https://github.com/arosstale/pi-builder)** `⭐ 5` — TypeScript monorepo that wraps any installed CLI coding agent (Claude Code, Aider, OpenCode, Codex, Gemini CLI, Goose, Plandex, SWE-agent, Crush, gptme) behind a single interface; capability-based routing, health caching, fallback chains, SQLite persistence, and a streaming OrchestratorService. MIT."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.679Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: failed
+    updated_at: "2026-05-05T21:01:09.767Z"
+    cause:
+      type: github_repo_missing
+      message: "GitHub repository not found: arosstale/pi-builder"
+    next_retry_at: null
+  categorize:
+    status: skipped
+    updated_at: "2026-05-05T21:04:23.169Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

@@ -1,0 +1,110 @@
+id: github__microsoft__deepspeed
+kind: github-repo
+name: deepspeed
+canonical_url: https://github.com/microsoft/deepspeed
+identity:
+  github_repo: microsoft/deepspeed
+provenance:
+  discoveries:
+    - id: discovery__github__microsoft__deepspeed__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: janhq/awesome-local-ai
+        url: https://github.com/janhq/awesome-local-ai
+        repository: janhq/awesome-local-ai
+      extraction:
+        mode: parsed
+        section_path:
+          - Training
+        anchor_text: DeepSpeed
+        extracted_url: https://github.com/microsoft/deepspeed
+        surrounding_text: "- [DeepSpeed](https://github.com/microsoft/DeepSpeed) - DeepSpeed is a deep learning optimization library that makes distributed training and inference easy, efficient, and effective."
+        confidence: high
+    - id: discovery__github__microsoft__deepspeed__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Training
+          - Frameworks for Training
+        anchor_text: DeepSpeed
+        extracted_url: https://github.com/microsoft/deepspeed
+        surrounding_text: "| [DeepSpeed](https://github.com/microsoft/DeepSpeed)                  | DeepSpeed is a deep learning optimization library that makes distributed training and inference easy, efficient, and effective.                                                                             | ![GitHub Badge](https://img.shields.io/github/stars/microsoft/DeepSpeed.svg?style=flat-square)               |"
+        confidence: high
+metadata:
+  github:
+    stars: 42260
+    forks: 4817
+    license: Apache-2.0
+    archived: false
+    created_at: "2020-01-23T18:35:18Z"
+    pushed_at: "2026-05-05T03:01:33Z"
+    description: DeepSpeed is a deep learning optimization library that makes distributed training and inference easy, efficient, and effective.
+    homepage: https://www.deepspeed.ai/
+    topics:
+      - billion-parameters
+      - compression
+      - data-parallelism
+      - deep-learning
+      - gpu
+      - inference
+      - machine-learning
+      - mixture-of-experts
+      - model-parallelism
+      - pipeline-parallelism
+      - pytorch
+      - trillion-parameters
+      - zero
+    last_checked_at: "2026-05-05T21:03:38.504Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:38.504Z"
+      bytes: 31729
+insights:
+  summary: DeepSpeed is a deep learning optimization library for PyTorch that provides distributed training and inference capabilities through ZeRO optimization, 3D parallelism, and memory offloading techniques.
+  why_it_matters: It enables developers to train and infer with trillion-parameter models on commodity hardware by efficiently managing memory and scaling across GPU clusters.
+  mental_damage: You have 42,000 stars and the power to train a 530B-parameter model, yet you still spend three days debugging why ZeRO-Infinity is trying to offload your gradients to a swap file.
+  tags:
+    - training
+    - pytorch
+    - distributed
+    - inference
+    - gpu
+  confidence: high
+curation:
+  status: excluded
+  reason: DeepSpeed is a deep learning optimization framework for model training and inference, which falls into general ML research/infrastructure rather than the developer-facing AI tooling (agents, IDEs, app builders, extensions) this catalog curates.
+  evidence:
+    - Repo description defines it as a 'deep learning optimization library' for distributed training and inference, not a developer productivity tool.
+    - Topics and README focus on billion-parameter model training, ZeRO, and parallelism—classic ML infrastructure rather than AI-assisted coding workflows.
+    - Source lists (awesome-local-ai, Awesome-LLMOps) include it under 'Training' sections for ML practitioners, not developer tooling.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (42260) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.439Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:38.504Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:37:25.299Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,82 @@
+id: github__marlinjai__email-mcp
+kind: github-repo
+name: email-mcp
+canonical_url: https://github.com/marlinjai/email-mcp
+identity:
+  github_repo: marlinjai/email-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__marlinjai__email-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💬 <a name="communication"></a>Communication
+        anchor_text: marlinjai/email-mcp
+        extracted_url: https://github.com/marlinjai/email-mcp
+        surrounding_text: "- [marlinjai/email-mcp](https://github.com/marlinjai/email-mcp) 📇 ☁️ 🏠 - Unified MCP server for email across Gmail (REST API), Outlook (Microsoft Graph), iCloud, and generic IMAP/SMTP. 24 tools for search, send, organize, and batch-manage emails with built-in OAuth2 and encrypted credential storage."
+        confidence: high
+metadata:
+  github:
+    stars: 9
+    forks: 6
+    license: MIT
+    archived: false
+    created_at: "2026-02-16T09:23:03Z"
+    pushed_at: "2026-03-16T09:51:56Z"
+    description: Unified MCP server for email access across Gmail, Outlook, iCloud, and IMAP
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:03:30.752Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:30.752Z"
+      bytes: 6817
+insights:
+  summary: A unified MCP server that lets AI agents read, search, send, and organize email across Gmail, Outlook, iCloud, and generic IMAP providers.
+  why_it_matters: It allows developers to wire email access directly into Claude Code and other MCP-compatible assistants so agents can triage inboxes and send replies without leaving the workflow.
+  mental_damage: "We have finally solved the hardest problem in computer science: letting a language model delete a thousand emails at once so you don't have to."
+  tags:
+    - mcp
+    - email
+    - integrations
+    - node
+    - automation
+  confidence: high
+curation:
+  status: included
+  reason: The project is itself an MCP server implementation with multi-provider email tooling, which fits squarely into the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description: 'Unified MCP server for email access across Gmail, Outlook, iCloud, and IMAP'"
+    - README explicitly documents 24 MCP tools (search, send, batch operations) and .mcp.json configuration
+    - Listed in awesome-mcp-servers under Server Implementations > Communication
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.705Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:30.752Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:36:01.286Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

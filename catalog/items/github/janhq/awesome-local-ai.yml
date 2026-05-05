@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__janhq__awesome-local-ai__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-01T13:51:25.374Z"
+      discovered_at: "2026-05-05T19:41:00.656Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -23,8 +23,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 1939
-    forks: 199
+    stars: 1945
+    forks: 202
     license: null
     archived: false
     created_at: "2023-09-06T03:27:33Z"
@@ -32,31 +32,49 @@ metadata:
     description: An awesome repository of local AI tools
     homepage: null
     topics: []
-    last_checked_at: "2026-05-01T13:51:31.841Z"
+    last_checked_at: "2026-05-05T21:02:51.140Z"
     readme:
-      fetched_at: "2026-05-01T13:51:31.841Z"
+      fetched_at: "2026-05-05T21:02:51.140Z"
       bytes: 17640
 insights:
-  summary: A curated awesome list of open-source tools and solutions for running AI locally.
-  why_it_matters: It’s a practical map for developers choosing local LLM runtimes, servers, and related tooling when they want offline/private workflows or to avoid cloud costs.
-  mental_damage: It turns “just run a model locally” into a spreadsheet lifestyle where you benchmark three engines, adopt none, and still feel behind.
+  summary: A curated meta-list of open-source tools and solutions for running AI models and inference engines locally.
+  why_it_matters: It serves as a centralized navigation aid for developers looking to evaluate or deploy local LLM runtimes, inference engines, and desktop interfaces without relying on hosted SaaS.
+  mental_damage: Yet another 'awesome' list proving that keeping track of local AI tools now requires a dedicated organizational hierarchy just to manage the overwhelming flood of them.
   tags:
     - local-ai
     - awesome-list
-    - llm-inference
-    - self-hosted
-    - developer-tools
+    - inference
+    - meta-list
   confidence: high
 curation:
   status: included
-  reason: Include because it’s a high-signal navigation index specifically focused on local AI tooling that developers actually install and compare.
+  reason: This is a curated index of local AI tools rather than a standalone developer tool, making it a clear fit for the Awesome Awesomes category.
   evidence:
-    - "Repo description: \"An awesome repository of local AI tools\""
-    - README frames it as an "awesome collection of open source and/or local AI tools and solutions" and lists inference engines like llama.cpp and ollama
-    - Not archived, with meaningful traction (1939 stars) and recent activity (pushed 2024-11-13)
+    - Repo description states it is 'An awesome repository of local AI tools'.
+    - README is structured as a meta-list comparing inference engines, UIs, and local solutions.
+    - Direct awesome list source is marked as true, indicating it organizes other tools.
 placement:
   primary_category: awesome-awesomes
   section: null
 lifecycle:
   status: promotion_candidate
-  reason: Stars (1939) exceeded threshold (150)
+  reason: Stars (1945) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.657Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:51.140Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:27:37.556Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

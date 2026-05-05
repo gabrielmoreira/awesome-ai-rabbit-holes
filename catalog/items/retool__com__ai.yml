@@ -1,0 +1,76 @@
+id: retool__com__ai
+kind: website
+name: ai
+canonical_url: https://retool.com/ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__retool__com__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Database and API Tools
+        anchor_text: Retool AI
+        extracted_url: https://retool.com/ai
+        surrounding_text: "- **[Retool AI](https://retool.com/ai)** – AI-powered internal tool builder with natural language interface."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Retool AI is a hosted platform for building internal applications, workflows, and agents using prompts grounded in an organization's live production data and existing security policies.
+  why_it_matters: It allows developers to scaffold full-stack internal tools on top of existing databases and APIs with enterprise-grade security controls applied by default.
+  mental_damage: Another platform promises to turn your 'trusted building blocks' into apps, right up until the AI hallucinates a permission schema that turns your internal tool into a public read API for the entire company.
+  tags:
+    - internal-tools
+    - prompt-to-app
+    - enterprise
+    - workflow-automation
+  confidence: high
+curation:
+  status: included
+  reason: Retool AI is a browser-first SaaS product that scaffolds full-stack internal applications, dashboards, and workflows from prompts, which aligns with the app-builders category rather than coding agents.
+  evidence:
+    - "Scraped site states: 'Prompt full-stack apps on your live production data... Apps are scaffolded based on your real schema'."
+    - Described as a 'Browser-first prompt-to-app' product in the category guidance.
+    - Featured in awesome-ai-coding-tools under 'Database and API Tools' for building bespoke AI-powered internal tools.
+placement:
+  primary_category: app-builders
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.730Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:47:39.552Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

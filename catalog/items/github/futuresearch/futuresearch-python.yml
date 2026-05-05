@@ -1,0 +1,88 @@
+id: github__futuresearch__futuresearch-python
+kind: github-repo
+name: everyrow-sdk
+canonical_url: https://github.com/futuresearch/futuresearch-python
+identity:
+  github_repo: futuresearch/futuresearch-python
+provenance:
+  discoveries:
+    - id: discovery__github__futuresearch__everyrow-sdk__awesome-list__kaushikb11__awesome-llm-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: kaushikb11/awesome-llm-agents
+        url: https://github.com/kaushikb11/awesome-llm-agents
+        repository: kaushikb11/awesome-llm-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Frameworks
+        anchor_text: everyrow
+        extracted_url: https://github.com/futuresearch/everyrow-sdk
+        surrounding_text: "- Just prefix `hcom` in front of your existing tool command- [everyrow](https://github.com/futuresearch/everyrow-sdk) - AI-powered data operations"
+        confidence: high
+metadata:
+  github:
+    stars: 37
+    forks: 4
+    license: MIT
+    archived: false
+    created_at: "2026-01-14T20:03:46Z"
+    pushed_at: "2026-05-05T20:51:20Z"
+    description: Your team of research agents. Or give researchers to your AI.
+    homepage: https://futuresearch.ai
+    topics:
+      - claude
+      - claude-code
+      - filtering
+      - llm-agents
+      - pandas-dataframe
+      - ranking
+      - semantic-analysis
+    last_checked_at: "2026-05-05T21:02:16.389Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:16.389Z"
+      bytes: 10282
+insights:
+  summary: A Python SDK and MCP server that provides a team of web research agents for data gathering, classification, forecasting, and ranking across large datasets.
+  why_it_matters: It lets developers offload large-scale web research and data labeling tasks to parallel agent teams directly from Python, Claude Code, or other AI surfaces.
+  mental_damage: Finally, a way to deploy a union of research agents to classify 10,000 rows, so you can anxiously wonder if the agents are hallucinating the categories faster than you can verify them.
+  tags:
+    - agents
+    - sdk
+    - mcp
+    - research
+    - data
+  confidence: high
+curation:
+  status: included
+  reason: The primary artifact is a Python SDK and MCP server for embedding research agent behavior into developer code and workflows, fitting the AI Frameworks and SDKs category.
+  evidence:
+    - "Repo description states: 'Your team of research agents. Or give researchers to your AI.'"
+    - README demonstrates a code-first SDK usage with `from futuresearch.ops import single_agent, agent_map` and pandas DataFrames.
+    - Provides an MCP server endpoint (`https://mcp.futuresearch.ai/mcp`) for Claude Code and other AI surfaces.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:20:27.167Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.688Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:16.389Z"
+    cause: null
+    next_retry_at: null

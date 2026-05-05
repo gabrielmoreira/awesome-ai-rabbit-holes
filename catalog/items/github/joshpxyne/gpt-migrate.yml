@@ -1,0 +1,96 @@
+id: github__joshpxyne__gpt-migrate
+kind: github-repo
+name: gpt-migrate
+canonical_url: https://github.com/joshpxyne/gpt-migrate
+identity:
+  github_repo: joshpxyne/gpt-migrate
+provenance:
+  discoveries:
+    - id: discovery__github__0xpayne__gpt-migrate__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Open Source Projects
+          - Other / Chatbots
+        anchor_text: GPT Migrate
+        extracted_url: https://github.com/0xpayne/gpt-migrate
+        surrounding_text: "- [GPT Migrate](https://github.com/0xpayne/gpt-migrate): Easily migrate your codebase from one framework or language to another."
+        confidence: high
+    - id: discovery__github__joshpxyne__gpt-migrate__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - GPT Migrate
+        anchor_text: GPT Migrate
+        extracted_url: https://github.com/0xpayne/gpt-migrate
+        surrounding_text: "## [GPT Migrate](https://github.com/0xpayne/gpt-migrate)"
+        confidence: high
+metadata:
+  github:
+    stars: 6981
+    forks: 506
+    license: MIT
+    archived: false
+    created_at: "2023-06-24T22:17:12Z"
+    pushed_at: "2024-09-17T23:13:51Z"
+    description: Easily migrate your codebase from one framework or language to another.
+    homepage: https://gpt-migrate.com
+    topics: []
+    last_checked_at: "2026-05-05T21:02:58.870Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:58.870Z"
+      bytes: 10078
+insights:
+  summary: A CLI tool that uses LLMs to migrate an existing codebase from one language or framework to another, generating and testing the new code locally.
+  why_it_matters: It attempts to automate the costly, tedious process of language or framework migration by having an AI model rewrite and validate the codebase.
+  mental_damage: Finally, a tool that lets you escape your framework's golden handcuffs by entrusting your entire legacy codebase to an API that might hallucinate your authentication logic in a new syntax.
+  tags:
+    - migration
+    - cli
+    - codebase-refactor
+    - llm
+  confidence: high
+curation:
+  status: included
+  reason: The tool operates as an autonomous coding agent that plans, writes, and tests code changes directly on a local codebase via the CLI, fitting the developer-facing coding assistant profile.
+  evidence:
+    - "Repo description states: 'Easily migrate your codebase from one framework or language to another.'"
+    - README confirms it writes, rewrites, and validates the codebase using GPT-4 and Docker.
+    - Usage involves running a Python main script against a local source directory to generate a target directory.
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (6981) exceeded threshold (150)
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:29:13.171Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.700Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:58.870Z"
+    cause: null
+    next_retry_at: null

@@ -1,0 +1,78 @@
+id: cursorlist__com
+kind: website
+name: cursorlist.com
+canonical_url: https://cursorlist.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__cursorlist__com__awesome-list__patrickjs__awesome-cursorrules
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: PatrickJS/awesome-cursorrules
+        url: https://github.com/patrickjs/awesome-cursorrules
+        repository: PatrickJS/awesome-cursorrules
+      extraction:
+        mode: parsed
+        section_path:
+          - Directories
+        anchor_text: CursorList
+        extracted_url: https://cursorlist.com
+        surrounding_text: "- [CursorList](https://cursorlist.com)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A directory for browsing, filtering, and copying .cursorrules prompt files and SOPs tailored to specific tech stacks and frameworks.
+  why_it_matters: It provides a centralized, searchable repository of specialized prompt configurations that help developers tune Cursor AI's behavior for their specific stack without writing rules from scratch.
+  mental_damage: We have successfully abstracted the task of writing code into the task of curating the perfect YAML-adjacent text file to convince the robot how to write code.
+  tags:
+    - cursor
+    - prompts
+    - rules
+    - directory
+  confidence: high
+curation:
+  status: included
+  reason: The site is a curated directory and index of .cursorrules files rather than a standalone developer tool or agent itself, making it a navigation aid for the Cursor ecosystem.
+  evidence:
+    - Title and description explicitly state 'CursorList - .cursorrule files and more for Cursor AI' and 'Manage and view .cursorrule files and SOPs'.
+    - The primary page content is a filterable list of rules for stacks like Solidity, Angular, SvelteKit, and Vue.
+    - It is listed under 'Directories' in the awesome-cursorrules source list.
+placement:
+  primary_category: awesome-awesomes
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.727Z"
+    cause:
+      type: ambiguous_canonicalization
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:43:36.605Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

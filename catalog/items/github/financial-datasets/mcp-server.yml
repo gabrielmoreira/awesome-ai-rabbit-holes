@@ -1,0 +1,81 @@
+id: github__financial-datasets__mcp-server
+kind: github-repo
+name: mcp-server
+canonical_url: https://github.com/financial-datasets/mcp-server
+identity:
+  github_repo: financial-datasets/mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__financial-datasets__mcp-server__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Financial Datasets
+        extracted_url: https://github.com/financial-datasets/mcp-server
+        surrounding_text: "- **[Financial Datasets](https://github.com/financial-datasets/mcp-server)** - Stock market API made for AI agents"
+        confidence: high
+metadata:
+  github:
+    stars: 2062
+    forks: 329
+    license: MIT
+    archived: false
+    created_at: "2025-03-07T13:39:26Z"
+    pushed_at: "2025-06-05T19:50:38Z"
+    description: An MCP server for interacting with the Financial Datasets stock market API.
+    homepage: https://www.financialdatasets.ai/
+    topics: []
+    last_checked_at: "2026-05-05T21:02:11.223Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:11.223Z"
+      bytes: 3255
+insights:
+  summary: An MCP server that exposes financial statements, stock prices, and crypto market data from Financial Datasets to AI assistants like Claude Desktop.
+  why_it_matters: Developers building or using MCP-compatible assistants can give their models real-time financial data access without writing custom API integration code.
+  mental_damage: We have successfully abstracted the abstraction, so now your AI can hallucinate about Apple's balance sheet with the confidence of a live API call.
+  tags:
+    - mcp
+    - finance
+    - market-data
+    - claude
+    - python
+  confidence: high
+curation:
+  status: included
+  reason: The project is a Model Context Protocol server that provides financial data tools to AI assistants, which fits squarely into the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description explicitly states: 'An MCP server for interacting with the Financial Datasets stock market API.'"
+    - README confirms it is a 'Model Context Protocol (MCP) server' providing tools like get_income_statements and get_historical_stock_prices.
+    - Listed in awesome-mcp-servers under 'Official Servers', confirming its role in the MCP ecosystem.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (2062) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.687Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:11.223Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:19:35.181Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

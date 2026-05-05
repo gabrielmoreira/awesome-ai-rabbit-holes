@@ -1,0 +1,80 @@
+id: huggingface__co__mistralai__mixtral__8x7b__v0__1
+kind: website
+name: Mixtral-8x7B-v0.1
+canonical_url: https://huggingface.co/mistralai/Mixtral-8x7B-v0.1
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__huggingface__co__mistralai__mixtral__8x7b__v0__1__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Model
+          - Large Language Model
+        anchor_text: Mixtral-8x7B-v0.1
+        extracted_url: https://huggingface.co/mistralai/Mixtral-8x7B-v0.1
+        surrounding_text: "| [Mixtral-8x7B-v0.1](https://huggingface.co/mistralai/Mixtral-8x7B-v0.1) | The Mixtral-8x7B Large Language Model (LLM) is a pretrained generative Sparse Mixture of Experts.                                                                                          |                                                                                                           |"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Mixtral-8x7B-v0.1 is a pretrained 47B-parameter Sparse Mixture of Experts large language model hosted on Hugging Face.
+  why_it_matters: Developers can use this high-performing open-weight model as a foundation for fine-tuning, local deployment, or serving via vLLM in their own AI applications.
+  mental_damage: Another Thursday, another open-weight model that claims to outperform Llama 2, ensuring your weekend plans now involve benchmarking it against your current stack just to be safe.
+  tags:
+    - llm
+    - mixture-of-experts
+    - huggingface
+    - mistral
+    - local-ai
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a base model weight release, not a developer-facing tool, agent, IDE, or infrastructure product that changes a developer's workflow.
+  evidence:
+    - It is a pretrained generative model hosted on Hugging Face, not an application or tool.
+    - Appears in Awesome-LLMOps under 'Model > Large Language Model', which is a research/model category rather than developer tooling.
+    - The README explicitly states it is a pretrained base model with no moderation or instruction tuning.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.728Z"
+    cause:
+      type: ambiguous_canonicalization
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:45:25.309Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

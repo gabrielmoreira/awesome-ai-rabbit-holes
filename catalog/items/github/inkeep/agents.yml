@@ -1,0 +1,101 @@
+id: github__inkeep__agents
+kind: github-repo
+name: agents
+canonical_url: https://github.com/inkeep/agents
+identity:
+  github_repo: inkeep/agents
+provenance:
+  discoveries:
+    - id: discovery__github__inkeep__agents__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: scraped
+        section_path:
+          - Official Servers
+        anchor_text: Inkeep
+        extracted_url: https://inkeep.com
+        surrounding_text: "- **[Inkeep](https://github.com/inkeep/mcp-server-python)** - RAG Search over your content powered by [Inkeep](https://inkeep.com)"
+        confidence: high
+metadata:
+  github:
+    stars: 1121
+    forks: 134
+    license: NOASSERTION
+    archived: false
+    created_at: "2025-09-05T12:23:24Z"
+    pushed_at: "2026-05-05T21:01:59Z"
+    description: Create AI Agents in a No-Code Visual Builder or TypeScript SDK with full 2-way sync. For shipping AI assistants and multi-agent AI workflows.
+    homepage: https://docs.inkeep.com
+    topics:
+      - agent
+      - agent-builder
+      - agent-framework
+      - agents-sdk
+      - ai
+      - ai-agent
+      - ai-agents
+      - aiagentframework
+      - developer-sdk
+      - inkeep
+      - llms
+      - low-code
+      - mcp
+      - mcp-server
+      - mulit-agent
+      - no-code
+      - self-hosted
+      - typescript
+      - workflow
+      - workflows
+    last_checked_at: "2026-05-05T21:02:43.875Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:43.875Z"
+      bytes: 4607
+insights:
+  summary: An open-source platform for building AI agents using a no-code visual builder or a TypeScript SDK, featuring full two-way sync between the two interfaces.
+  why_it_matters: It allows engineering teams to use typed, CI/CD-friendly code while business teams use a drag-and-drop canvas, bridging the gap between technical implementation and non-technical management of AI workflows.
+  mental_damage: Finally, a tool to manage the meta-agent that manages the sub-agent that logs 'h3llo world' in a console you stopped watching three frameworks ago.
+  tags:
+    - agents
+    - typescript
+    - no-code
+    - mcp
+    - sdk
+  confidence: high
+curation:
+  status: included
+  reason: The primary artifact is a code-first TypeScript SDK and framework for embedding AI agent behavior, fitting the AI Frameworks category better than a hosted control plane.
+  evidence:
+    - Repo description explicitly offers a 'TypeScript SDK' and 'No-Code Visual Builder' for building agents.
+    - README demonstrates a code-first approach with `agents-sdk` imports and CLI utilities like `inkeep push/pull` for syncing.
+    - The architecture section clarifies this is a framework using the Vercel AI SDK under the hood for developers to build upon.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1121) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.698Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:43.875Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:26:04.055Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

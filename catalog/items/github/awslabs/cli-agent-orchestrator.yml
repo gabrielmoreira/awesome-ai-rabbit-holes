@@ -1,0 +1,82 @@
+id: github__awslabs__cli-agent-orchestrator
+kind: github-repo
+name: cli-agent-orchestrator
+canonical_url: https://github.com/awslabs/cli-agent-orchestrator
+identity:
+  github_repo: awslabs/cli-agent-orchestrator
+provenance:
+  discoveries:
+    - id: discovery__github__awslabs__cli-agent-orchestrator__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Session managers & parallel runners
+        anchor_text: CLI Agent Orchestrator (CAO)
+        extracted_url: https://github.com/awslabs/cli-agent-orchestrator
+        surrounding_text: "- **[CLI Agent Orchestrator (CAO)](https://github.com/awslabs/cli-agent-orchestrator)** `⭐ 529` — AWS's hierarchical multi-agent orchestration via tmux with intelligent task delegation patterns."
+        confidence: high
+metadata:
+  github:
+    stars: 535
+    forks: 99
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-07-29T14:16:56Z"
+    pushed_at: "2026-05-05T09:49:07Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:01:14.545Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:14.545Z"
+      bytes: 20446
+insights:
+  summary: An open-source orchestration framework that runs multiple AI coding CLI agents in isolated tmux sessions and coordinates them using a supervisor–worker pattern over MCP.
+  why_it_matters: It lets developers combine and parallelize the strengths of different CLI coding agents (Claude Code, Codex, Q CLI, etc.) in a single local workflow with human-in-the-loop steering.
+  mental_damage: Finally, you can run a supervisor agent to manage your worker agents so you can supervise the supervision of the tools that were supposed to stop you from supervising code in the first place.
+  tags:
+    - agent-orchestration
+    - cli
+    - tmux
+    - mcp
+    - multi-agent
+  confidence: high
+curation:
+  status: included
+  reason: It is a user-facing control plane for coordinating multiple coding agents in isolated sessions, which aligns with agent-orchestration rather than being a coding agent itself.
+  evidence:
+    - README explicitly defines CAO as a 'multi-agent orchestration framework for AI coding CLIs' with supervisor–worker coordination.
+    - Includes multiple control planes (CLI, Web UI, MCP server) for managing sessions rather than acting as an assistant that edits code directly.
+    - Already curated in awesome-cli-coding-agents under 'Harnesses & orchestration > Session managers & parallel runners'.
+placement:
+  primary_category: agent-orchestration
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (535) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.680Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:14.545Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:09:51.391Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

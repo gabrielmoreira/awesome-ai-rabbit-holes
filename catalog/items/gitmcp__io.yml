@@ -1,0 +1,77 @@
+id: gitmcp__io
+kind: website
+name: gitmcp.io
+canonical_url: https://gitmcp.io
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__gitmcp__io__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: gitmcp.io
+        extracted_url: https://gitmcp.io
+        surrounding_text: "- [idosal/git-mcp](https://github.com/idosal/git-mcp) 📇 ☁️ - [gitmcp.io](https://gitmcp.io/) is a generic remote MCP server to connect to ANY [GitHub](https://www.github.com) repository or project for documentation"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: GitMCP instantly creates a remote Model Context Protocol server for any public GitHub repository, exposing README and llms.txt context to MCP-compatible AI tools.
+  why_it_matters: It allows developers to give AI coding assistants deep, repo-specific context without configuring or hosting their own MCP server.
+  mental_damage: We have successfully abstracted the process of abstracting the context away from the code, so your AI can now hallucinate about your repo with zero infrastructure overhead.
+  tags:
+    - mcp
+    - context
+    - github
+    - server
+  confidence: high
+curation:
+  status: included
+  reason: The product is a dedicated MCP server generator and middleware specifically designed to serve repository context to AI tools via the Model Context Protocol.
+  evidence:
+    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools' as a tool to instantly create an MCP server for any GitHub project.
+    - Scraped site context confirms the product creates a 'dedicated Model Context Protocol (MCP) server for any GitHub project'.
+    - Explicitly states compatibility with MCP tools like Claude, Cursor, Windsurf, VSCode, and Cline.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.445Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T20:49:28.669Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+    next_retry_at: null

@@ -1,0 +1,111 @@
+id: github__particlefuture__1mcpserver
+kind: github-repo
+name: mcp
+canonical_url: https://github.com/particlefuture/1mcpserver
+identity:
+  github_repo: particlefuture/1mcpserver
+provenance:
+  discoveries:
+    - id: discovery__github__particlefuture__1mcpserver__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🔗 <a name="aggregators"></a>Aggregators
+        anchor_text: particlefuture/MCPDiscovery
+        extracted_url: https://github.com/particlefuture/1mcpserver
+        surrounding_text: "- [particlefuture/MCPDiscovery](https://github.com/particlefuture/1mcpserver) 🐍 ☁️ 🏠 🍎 🪟 - MCP of MCPs. Automatic discovery and configure MCP servers on your local machine."
+        confidence: high
+    - id: discovery__github__particlefuture__1mcpserver__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: 1mcpserver
+        extracted_url: https://github.com/particlefuture/1mcpserver
+        surrounding_text: "- **[1mcpserver](https://github.com/particlefuture/1mcpserver)** - MCP of MCPs. Automatic discovery and configure MCP servers on your local machine. Fully REMOTE! Just use [https://mcp.1mcpserver.com/mcp/](https://mcp.1mcpserver.com/mcp/)"
+        confidence: high
+    - id: discovery__mcp__1mcpserver__com__mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: https://mcp.1mcpserver.com/mcp/
+        extracted_url: https://mcp.1mcpserver.com/mcp
+        surrounding_text: "- **[1mcpserver](https://github.com/particlefuture/1mcpserver)** - MCP of MCPs. Automatic discovery and configure MCP servers on your local machine. Fully REMOTE! Just use [https://mcp.1mcpserver.com/mcp/](https://mcp.1mcpserver.com/mcp/)"
+        confidence: high
+metadata:
+  github:
+    stars: 46
+    forks: 12
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-08-02T15:21:56Z"
+    pushed_at: "2025-12-31T12:01:46Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:04:12.493Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:12.493Z"
+      bytes: 5819
+insights:
+  summary: A Model Context Protocol server that acts as an aggregator, automatically discovering, configuring, and routing to other MCP servers based on user intent.
+  why_it_matters: It reduces the friction of managing individual MCP server configurations by providing a single entry point that dynamically finds and invokes the right tools for complex goals.
+  mental_damage: Because if configuring one MCP server feels like an achievement, configuring a server that configures your other servers is clearly the next logical step in our collective descent.
+  tags:
+    - mcp
+    - tooling
+    - aggregation
+    - context-management
+  confidence: high
+curation:
+  status: included
+  reason: The project is a distinct MCP server infrastructure tool designed to aggregate and orchestrate other MCP servers, fitting the MCP category perfectly.
+  evidence:
+    - README explicitly states 'MCP of MCPs' and describes automatic discovery of MCP servers.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Aggregators'.
+    - Provides remote and local setup instructions specifically for MCP clients like Cursor, Claude Desktop, and Gemini CLI.
+placement:
+  primary_category: awesome-awesomes
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:04:41.945Z"
+    cause: null
+    attempts: 2
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+    next_retry_at: null
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.728Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:12.493Z"
+    cause: null
+    next_retry_at: null

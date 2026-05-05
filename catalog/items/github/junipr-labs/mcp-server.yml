@@ -1,0 +1,81 @@
+id: github__junipr-labs__mcp-server
+kind: github-repo
+name: mcp-server
+canonical_url: https://github.com/junipr-labs/mcp-server
+identity:
+  github_repo: junipr-labs/mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__junipr-labs__mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📂 <a name="browser-automation"></a>Browser Automation
+        anchor_text: junipr-labs/mcp-server
+        extracted_url: https://github.com/junipr-labs/mcp-server
+        surrounding_text: "- [junipr-labs/mcp-server](https://github.com/junipr-labs/mcp-server) [![mcp-server MCP server](https://glama.ai/mcp/servers/junipr-labs/mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/junipr-labs/mcp-server) 📇 ☁️ - Web intelligence API for AI agents — screenshot capture, PDF generation, page metadata extraction, and 75+ specialized data extractors for news, social media, SERP, pricing, and more. Free tier included."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-03-12T00:34:37Z"
+    pushed_at: "2026-03-12T06:23:44Z"
+    description: MCP server for Junipr APIs — screenshots, PDFs, and metadata extraction
+    homepage: https://junipr.io
+    topics: []
+    last_checked_at: "2026-05-05T21:03:00.638Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:00.638Z"
+      bytes: 3804
+insights:
+  summary: An MCP server that exposes 75+ Junipr web intelligence tools—including screenshot capture, PDF generation, and metadata extraction—to AI assistants via the Model Context Protocol.
+  why_it_matters: Developers can give coding agents and IDEs direct access to web scraping, rendering, and document conversion capabilities without building custom API integrations.
+  mental_damage: Another MCP server appears overnight, proving that the true AI breakthrough wasn't artificial general intelligence, but the discovery that everything becomes useful once wrapped in a protocol.
+  tags:
+    - mcp
+    - web-scraping
+    - ai-tools
+    - ide-integration
+  confidence: medium
+curation:
+  status: included
+  reason: The project is explicitly an MCP server providing tool access to AI assistants, which fits squarely into the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description states: 'MCP server for Junipr APIs — screenshots, PDFs, and metadata extraction'"
+    - "README confirms: 'MCP server for Junipr APIs. Gives AI assistants access to 75+ web intelligence tools'"
+    - Listed in awesome-mcp-servers under 'Server Implementations > Browser Automation'
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.700Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:00.638Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:29:37.317Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

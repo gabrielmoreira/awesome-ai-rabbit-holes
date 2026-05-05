@@ -1,0 +1,84 @@
+id: github__eyalzh__browser-control-mcp
+kind: github-repo
+name: browser-control-mcp
+canonical_url: https://github.com/eyalzh/browser-control-mcp
+identity:
+  github_repo: eyalzh/browser-control-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__eyalzh__browser-control-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📂 <a name="browser-automation"></a>Browser Automation
+        anchor_text: eyalzh/browser-control-mcp
+        extracted_url: https://github.com/eyalzh/browser-control-mcp
+        surrounding_text: "- [eyalzh/browser-control-mcp](https://github.com/eyalzh/browser-control-mcp) 📇 🏠 - An MCP server paired with a browser extension that enables LLM clients to control the user's browser (Firefox)."
+        confidence: high
+metadata:
+  github:
+    stars: 278
+    forks: 62
+    license: MIT
+    archived: false
+    created_at: "2025-03-27T16:16:33Z"
+    pushed_at: "2026-03-31T07:11:27Z"
+    description: MCP server paired with a browser extension that enables AI agents to control the user's browser.
+    homepage: ""
+    topics:
+      - browser-extension
+      - firefox
+      - mcp
+    last_checked_at: "2026-05-05T21:02:06.935Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:06.935Z"
+      bytes: 6493
+insights:
+  summary: An MCP server paired with a Firefox extension that allows AI assistants to control the user's browser for tab management, history search, and webpage content reading with explicit user consent.
+  why_it_matters: It lets developers wire AI agents into their actual personal browser workflow for research and tab organization without handing over full arbitrary scripting control.
+  mental_damage: Finally, an MCP server that lets your AI agent manage your 47 open tabs, proving once and for all that we've successfully automated the distraction.
+  tags:
+    - mcp
+    - browser-extension
+    - firefox
+    - agent-tooling
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server implementation designed to extend AI assistants with browser control capabilities, fitting cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description states it is an 'MCP server paired with a browser extension that enables AI agents to control the user's browser.'
+    - Listed in the awesome-mcp-servers directory under 'Server Implementations > Browser Automation'.
+    - README details an MCP server providing tools like tab management, history search, and webpage reading via a Firefox extension.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (278) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.687Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:06.935Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:18:50.754Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,101 @@
+id: github__aaif-goose__goose
+kind: github-repo
+name: goose
+canonical_url: https://github.com/aaif-goose/goose
+identity:
+  github_repo: aaif-goose/goose
+provenance:
+  discoveries:
+    - id: discovery__github__aaif-goose__goose__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Terminal-native coding agents
+          - Open Source
+        anchor_text: Goose
+        extracted_url: https://github.com/block/goose
+        surrounding_text: "- **[Goose](https://github.com/block/goose)** `⭐ 43.7k` — Local, extensible agent that can execute, edit, and test; designed to run on-device and integrate with MCP."
+        confidence: high
+    - id: discovery__github__block__goose__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Coding Agents
+        anchor_text: Codename Goose
+        extracted_url: https://github.com/block/goose
+        surrounding_text: "- **[Codename Goose](https://github.com/block/goose)** – Desktop and CLI agent by Block for automating tasks using LLMs and extensions."
+        confidence: high
+metadata:
+  github:
+    stars: 43836
+    forks: 4487
+    license: Apache-2.0
+    archived: false
+    created_at: "2024-08-23T19:03:36Z"
+    pushed_at: "2026-05-05T20:59:33Z"
+    description: an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM
+    homepage: https://goose-docs.ai/
+    topics:
+      - acp
+      - ai
+      - ai-agents
+      - mcp
+    last_checked_at: "2026-05-05T21:00:45.525Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:45.525Z"
+      bytes: 3230
+insights:
+  summary: An open-source, extensible AI agent that runs on your machine as a desktop app, CLI, or API to plan, execute, edit, and test code across repositories using various LLM providers.
+  why_it_matters: It gives developers a local, provider-agnostic agent that can directly manipulate their codebase, run tests, and automate workflows without being locked into a specific IDE or hosted SaaS.
+  mental_damage: Yet another local agent promising to edit your code, ensuring you can now ruin your repository in Rust-speed native performance with whichever LLM subscription you forgot to cancel.
+  tags:
+    - ai-agent
+    - cli
+    - desktop
+    - local-ai
+    - mcp
+  confidence: high
+curation:
+  status: included
+  reason: It is a general-purpose coding agent that operates directly on source code via a CLI and desktop app, fitting the coding-agents criteria for repo-level editing and automation.
+  evidence:
+    - Repo description explicitly defines it as an 'extensible AI agent that goes beyond code suggestions - install, execute, edit, and test'.
+    - README states it is a 'native open source AI agent' available as a 'full CLI for terminal workflows' and a 'native desktop app'.
+    - High traction with 43,836 stars and active maintenance (pushed 2026-05-05) under the Linux Foundation's AAIF.
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (43836) exceeded threshold (150)
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:05:14.916Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.681Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:45.525Z"
+    cause: null
+    next_retry_at: null

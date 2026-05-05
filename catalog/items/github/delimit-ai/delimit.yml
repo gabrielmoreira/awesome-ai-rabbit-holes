@@ -1,0 +1,96 @@
+id: github__delimit-ai__delimit
+kind: github-repo
+name: delimit
+canonical_url: https://github.com/delimit-ai/delimit
+identity:
+  github_repo: delimit-ai/delimit
+provenance:
+  discoveries:
+    - id: discovery__github__delimit-ai__delimit__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: delimit-ai/delimit
+        extracted_url: https://github.com/delimit-ai/delimit
+        surrounding_text: "- [delimit-ai/delimit](https://github.com/delimit-ai/delimit) [![delimit-ai/delimit MCP server](https://glama.ai/mcp/servers/delimit-ai/delimit/badges/score.svg)](https://glama.ai/mcp/servers/delimit-ai/delimit) 🐍 🏠 🍎 🪟 🐧 - API governance server that detects breaking changes in OpenAPI specs. Diffs two spec versions, applies configurable policy rules (strict/default/relaxed), and returns structured pass/fail verdicts. 23 change types, 10 breaking. Supports OpenAPI 3.0, 3.1, and Swagger 2.0."
+        confidence: high
+metadata:
+  github:
+    stars: 14
+    forks: 6
+    license: MIT
+    archived: false
+    created_at: "2026-03-09T03:53:35Z"
+    pushed_at: "2026-05-03T19:29:56Z"
+    description: Govern AI coding across Claude Code, Codex, Cursor, and Gemini CLI. Breaking-change detection, deploy gates, and multi-model consensus — delivered as MCP server, CLI, and GitHub Action.
+    homepage: https://delimit.ai
+    topics:
+      - ai-governance
+      - api-governance
+      - breaking-changes
+      - claude-code
+      - codex
+      - cross-model
+      - cursor
+      - deliberation
+      - devtools
+      - gemini-cli
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - openapi
+    last_checked_at: "2026-05-05T21:01:51.772Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:51.772Z"
+      bytes: 19803
+insights:
+  summary: A governance toolkit that wraps AI coding assistants like Claude Code, Cursor, and Codex to enforce breaking-change detection, deploy gates, and multi-model consensus, delivered as an MCP server, CLI, and GitHub Action.
+  why_it_matters: It lets teams gate every AI-written change with signed, replayable attestations and automated drift checks before code merges, replacing blind trust with an audit trail.
+  mental_damage: You now have a cryptographic receipt proving that Claude, Cursor, and Gemini all independently agreed to break your API in exactly the same way.
+  tags:
+    - ai-governance
+    - mcp
+    - ci-cd
+    - breaking-changes
+    - multi-model
+  confidence: high
+curation:
+  status: included
+  reason: The product is primarily MCP infrastructure—an MCP server, CLI, and GitHub Action—that governs AI coding tools, fitting the MCP Servers and Tooling category clearly.
+  evidence:
+    - Repo description explicitly states it is 'delivered as MCP server, CLI, and GitHub Action'
+    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'
+    - README highlights MCP delivery and cross-model governance via delimit wrap and attestation bundles
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.441Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:51.772Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:16:07.036Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

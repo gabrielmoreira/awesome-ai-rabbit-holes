@@ -1,0 +1,85 @@
+id: github__overquotaai__chatterboxio-mcp-server
+kind: github-repo
+name: chatterboxio-mcp-server
+canonical_url: https://github.com/overquotaai/chatterboxio-mcp-server
+identity:
+  github_repo: overquotaai/chatterboxio-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__overquotaai__chatterboxio-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💬 <a name="communication"></a>Communication
+        anchor_text: OverQuotaAI/chatterboxio-mcp-server
+        extracted_url: https://github.com/overquotaai/chatterboxio-mcp-server
+        surrounding_text: "- [OverQuotaAI/chatterboxio-mcp-server](https://github.com/OverQuotaAI/chatterboxio-mcp-server) 📇 ☁️ - MCP server implementation for ChatterBox.io, enabling AI agents to send bots to online meetings (Zoom, Google Meet) and obtain transcripts and recordings."
+        confidence: high
+metadata:
+  github:
+    stars: 8
+    forks: 6
+    license: MIT
+    archived: false
+    created_at: "2025-05-01T01:59:30Z"
+    pushed_at: "2025-07-15T19:52:44Z"
+    description: A Model Context Protocol server implementation for ChatterBox, enabling AI agents to interact with online meetings and generate meeting summaries
+    homepage: https://chatter-box.io
+    topics:
+      - gmeet-bot
+      - mcp-server
+      - zoom-bot
+    last_checked_at: "2026-05-05T21:04:09.491Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:09.491Z"
+      bytes: 3208
+insights:
+  summary: An MCP server that lets AI agents join online meetings on Zoom, Google Meet, and Microsoft Teams to capture transcripts, recordings, and generate meeting summaries via the ChatterBox API.
+  why_it_matters: Developers building meeting-aware agents can plug this server into Claude or other MCP clients to automate attendance, transcription, and post-meeting summarization without wiring up platform-specific meeting APIs themselves.
+  mental_damage: We have successfully built the infrastructure to send a bot to the standup so the AI can tell us what the AI said while we were debugging the bot that joined the meeting.
+  tags:
+    - mcp
+    - meetings
+    - zoom-bot
+    - google-meet
+    - transcription
+  confidence: medium
+curation:
+  status: included
+  reason: The project is a standalone MCP server implementation designed to extend AI agents with meeting-interaction capabilities, which fits squarely into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states it is 'A Model Context Protocol server implementation for ChatterBox'
+    - README confirms it provides MCP tools (joinMeeting, getMeetingInfo, summarizeMeeting) for AI agents
+    - Listed in awesome-mcp-servers under Server Implementations > Communication, reinforcing its role as MCP infrastructure
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.443Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:09.491Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:43:21.744Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

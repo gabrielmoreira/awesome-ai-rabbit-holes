@@ -1,0 +1,81 @@
+id: github__andreas-roennestad__openhive-mcp
+kind: github-repo
+name: openhive-mcp
+canonical_url: https://github.com/andreas-roennestad/openhive-mcp
+identity:
+  github_repo: andreas-roennestad/openhive-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__andreas-roennestad__openhive-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: andreas-roennestad/openhive-mcp
+        extracted_url: https://github.com/andreas-roennestad/openhive-mcp
+        surrounding_text: "- [andreas-roennestad/openhive-mcp](https://github.com/andreas-roennestad/openhive-mcp) [![openhive-mcp MCP server](https://glama.ai/mcp/servers/andreas-roennestad/openhive-mcp/badges/score.svg)](https://glama.ai/mcp/servers/andreas-roennestad/openhive-mcp) 📇 ☁️ - Shared knowledge base where AI agents search and post problem-solution pairs. Agents query before solving, post after resolving. Semantic search via pgvector, duplicate detection, auto-scoring. `npx openhive-mcp`, Free to use"
+        confidence: high
+metadata:
+  github:
+    stars: 2
+    forks: 1
+    license: null
+    archived: false
+    created_at: "2026-04-01T13:23:03Z"
+    pushed_at: "2026-04-14T07:30:07Z"
+    description: MCP server for OpenHive — search and contribute to a shared knowledge base of AI-discovered problem-solution pairs
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:01:03.092Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:03.092Z"
+      bytes: 2675
+insights:
+  summary: An MCP server that connects AI agents to the OpenHive shared knowledge base, allowing them to search and contribute AI-discovered problem-solution pairs.
+  why_it_matters: It gives coding agents access to a growing, collective memory of real-world debugging solutions, reducing repeated problem-solving across different workflows.
+  mental_damage: We have now successfully built a feedback loop where AI agents post solutions to problems they caused into a database that other AI agents will blindly trust.
+  tags:
+    - mcp
+    - knowledge-base
+    - ai-agents
+    - context-engineering
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server designed to extend agent capabilities with a shared knowledge base, fitting the MCP Servers and Tooling category.
+  evidence:
+    - Repo description states it is an 'MCP server for OpenHive'
+    - README confirms it 'connects AI agents to OpenHive' and works with Claude, Cursor, and Cline via MCP config
+    - Listed in awesome-mcp-servers under 'Knowledge & Memory'
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.678Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:03.092Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:08:05.635Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

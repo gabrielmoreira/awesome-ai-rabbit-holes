@@ -1,0 +1,77 @@
+id: www__endorlabs__com__ai__code__security__review
+kind: website
+name: ai-code-security-review
+canonical_url: https://www.endorlabs.com/ai-code-security-review
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__endorlabs__com__ai__code__security__review__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Security
+        anchor_text: Endor Labs
+        extracted_url: https://www.endorlabs.com/ai-code-security-review
+        surrounding_text: "- **[Endor Labs](https://www.endorlabs.com/ai-code-security-review)** – AI code review for security risks and architectural vulnerabilities."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Endor Labs AI Security Code Review is a pull request analysis tool that uses a trio of AI agents to detect security risks, architectural changes, and compliance issues in human and AI-generated code.
+  why_it_matters: It integrates directly into CI/CD pipelines to prioritize high-impact security findings and summarize complex code changes in natural language for faster reviews.
+  mental_damage: We have successfully automated the security review process so you can now argue with three AI agents instead of one sleepy architect about why your authentication flow is broken.
+  tags:
+    - security
+    - pull-request
+    - ai-agents
+    - appsec
+    - endor-labs
+  confidence: high
+curation:
+  status: included
+  reason: The tool acts as a specialized AI agent that collaborates on source code directly within the PR workflow to review, analyze, and debug security issues.
+  evidence:
+    - Scraped site context describes 'a trio of AI agents — trained to think like a developer, architect, and security engineer' analyzing pull requests.
+    - Source list context (awesome-ai-coding-tools) lists it under Security for reviewing AI-generated code in pull requests.
+    - The product explicitly focuses on integrating with GitHub/GitLab workflows to review, summarize, and take action on code changes.
+placement:
+  primary_category: coding-agents
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.732Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:50:40.101Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

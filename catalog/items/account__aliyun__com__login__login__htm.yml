@@ -1,0 +1,75 @@
+id: account__aliyun__com__login__login__htm
+kind: website
+name: login.htm
+canonical_url: https://account.aliyun.com/login/login.htm
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__account__aliyun__com__login__login__htm__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Yunxiao platform
+        extracted_url: https://devops.aliyun.com
+        surrounding_text: "- **[AlibabaCloud DevOps MCP](https://github.com/aliyun/alibabacloud-devops-mcp-server)** - Yunxiao MCP Server provides AI assistants with the ability to interact with the [Yunxiao platform](https://devops.aliyun.com)."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: This is the standard login page for Alibaba Cloud (Aliyun), a major cloud service provider.
+  why_it_matters: It matters only in the sense that developers need to authenticate to access Aliyun's underlying AI and cloud infrastructure.
+  mental_damage: We have officially reached peak signal-to-noise ratio when a cloud provider's login page is listed alongside autonomous coding agents.
+  tags:
+    - cloud
+    - infrastructure
+    - login-page
+  confidence: high
+curation:
+  status: excluded
+  reason: The URL points to a generic corporate login page, not a developer tool, agent, or MCP server implementation.
+  evidence:
+    - The URL is 'https://account.aliyun.com/login/login.htm', which is a standard user authentication gateway.
+    - Scraped context describes general cloud services (computing, security, IoT), not a specific AI developer tool.
+    - The awesome-mcp-servers reference appears to be a hallucinated or mislinked description for a generic cloud login URL.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.725Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:41:16.685Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

@@ -1,0 +1,75 @@
+id: codeassist__google
+kind: website
+name: codeassist.google
+canonical_url: https://codeassist.google
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__codeassist__google__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Code Completion
+        anchor_text: Google Code Assist (Gemini)
+        extracted_url: https://codeassist.google
+        surrounding_text: "- **[Google Code Assist (Gemini)](https://codeassist.google)** – AI coding assistant for Google Cloud developers."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Google Code Assist is an AI-powered code completion and development assistance tool.
+  why_it_matters: It integrates Google's AI models directly into the developer workflow to provide real-time code suggestions and completions.
+  mental_damage: Yet another mandatory AI sidebar fighting for attention while you try to remember if you already have three other omniscient coding bots running.
+  tags:
+    - code-completion
+    - google
+    - ai-assistant
+  confidence: medium
+curation:
+  status: included
+  reason: The tool is a developer-facing AI assistant focused on code completion and editing, fitting the coding-agents category as defined.
+  evidence:
+    - Listed in 'awesome-ai-coding-tools' under the 'Code Completion' section
+    - URL hosted at codeassist.google implies a direct Google-run developer tool
+    - Product name and context imply an AI assistant for source code work
+placement:
+  primary_category: coding-agents
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.726Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:43:01.527Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

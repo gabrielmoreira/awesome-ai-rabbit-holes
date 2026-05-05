@@ -1,0 +1,76 @@
+id: mcp__myshipi__com__api__mcp
+kind: website
+name: mcp
+canonical_url: https://mcp.myshipi.com/api/mcp
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__mcp__myshipi__com__api__mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🔒 <a name="delivery"></a>Delivery
+        anchor_text: remote MCP
+        extracted_url: https://mcp.myshipi.com/api/mcp
+        surrounding_text: "- [aarsiv-groups/shipi-mcp-server](https://github.com/aarsiv-groups/shipi-mcp-server) 📇 ☁️ - Shipi MCP server to create shipments, track packages, and compare rates with 18 tools for various carriers. Supports [remote MCP](https://mcp.myshipi.com/api/mcp)."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: An MCP server endpoint hosted at mcp.myshipi.com that appears to provide delivery-related integrations for the Model Context Protocol.
+  why_it_matters: It represents the growing ecosystem of specialized MCP servers that extend AI assistants with domain-specific capabilities like delivery logistics.
+  mental_damage: Another Tuesday, another MCP server you didn't know you needed until your AI assistant casually mentions it can't track your packages.
+  tags:
+    - mcp
+    - delivery
+    - server
+  confidence: low
+curation:
+  status: excluded
+  reason: This is just a bare MCP server URL with no repository, description, documentation, or substantive project information available to evaluate what it actually does.
+  evidence:
+    - No repo description, README, homepage, or scraped site context provided — only a bare API endpoint URL
+    - Listed in awesome-mcp-servers under 'Delivery' section but with no project details to verify scope or quality
+    - No stars, license, creation date, or activity signals available to assess project health or adoption
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.729Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:46:21.021Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

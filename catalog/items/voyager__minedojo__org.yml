@@ -1,0 +1,79 @@
+id: voyager__minedojo__org
+kind: website
+name: voyager.minedojo.org
+canonical_url: https://voyager.minedojo.org
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__voyager__minedojo__org__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Voyager
+        anchor_text: Voyager
+        extracted_url: https://voyager.minedojo.org
+        surrounding_text: "## [Voyager](https://voyager.minedojo.org/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Voyager is a research project and LLM-powered embodied agent that uses GPT-4 to play Minecraft autonomously, generating code to explore, build skills, and unlock tech tree milestones without human intervention.
+  why_it_matters: It demonstrates a practical architecture for using LLMs to generate and store executable code as reusable skills, offering a reference pattern for developers building autonomous agents.
+  mental_damage: Your CI pipeline still needs a human to approve a PR, while a research bot in a block game has already mastered lifelong learning and self-improvement without asking for a single code review.
+  tags:
+    - agents
+    - llm
+    - research
+    - minecraft
+    - lifelong-learning
+  confidence: high
+curation:
+  status: excluded
+  reason: While it is listed in awesome-ai-agents, this is a research project focused on embodied AI in Minecraft rather than a practical tool for improving software development workflows.
+  evidence:
+    - Scraped site context describes it as an 'embodied lifelong learning agent in Minecraft' developed by NVIDIA, Caltech, and UT Austin.
+    - The abstract and README focus on game-playing benchmarks and tech tree mastery, not developer tooling or code editing.
+    - Appears in source lists under 'awesome-ai-agents' for research purposes, but lacks a developer-facing product or IDE integration.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.731Z"
+    cause:
+      type: ambiguous_canonicalization
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:49:08.424Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

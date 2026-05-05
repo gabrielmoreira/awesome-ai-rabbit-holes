@@ -1,0 +1,81 @@
+id: github__kukapay__sui-trader-mcp
+kind: github-repo
+name: sui-trader-mcp
+canonical_url: https://github.com/kukapay/sui-trader-mcp
+identity:
+  github_repo: kukapay/sui-trader-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__kukapay__sui-trader-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: kukapay/sui-trader-mcp
+        extracted_url: https://github.com/kukapay/sui-trader-mcp
+        surrounding_text: "- [kukapay/sui-trader-mcp](https://github.com/kukapay/sui-trader-mcp) 📇 ☁️ - An MCP server designed for AI agents to perform optimal token swaps on the Sui blockchain."
+        confidence: high
+metadata:
+  github:
+    stars: 5
+    forks: 3
+    license: MIT
+    archived: false
+    created_at: "2025-05-10T08:39:32Z"
+    pushed_at: "2025-05-10T08:39:50Z"
+    description: An MCP server designed for AI agents to perform optimal token swaps on the Sui blockchain.
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:03:12.684Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:12.684Z"
+      bytes: 1712
+insights:
+  summary: An MCP server that enables AI agents to execute token swaps on the Sui blockchain using the Cetus Aggregator.
+  why_it_matters: It allows developers to integrate autonomous DeFi trading capabilities directly into MCP-compatible AI workflows or agents.
+  mental_damage: We have finally reached the point where we are building infrastructure to let autonomous agents incur transaction fees on Layer 1 blockchains while we debug the JSON configs.
+  tags:
+    - mcp
+    - sui
+    - defi
+    - trading
+  confidence: medium
+curation:
+  status: included
+  reason: The project is a Model Context Protocol server designed to give AI agents blockchain trading capabilities, fitting squarely into the MCP tooling category.
+  evidence:
+    - Repo description identifies it explicitly as 'An MCP server designed for AI agents'.
+    - README details a `swap` tool for Sui mainnet invoked via MCP-compatible clients.
+    - Listed in the 'awesome-mcp-servers' directory under Finance & Fintech.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.703Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:12.684Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:32:24.023Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

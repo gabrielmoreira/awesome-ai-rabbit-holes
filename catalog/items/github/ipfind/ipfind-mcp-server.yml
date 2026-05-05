@@ -1,0 +1,81 @@
+id: github__ipfind__ipfind-mcp-server
+kind: github-repo
+name: ipfind-mcp-server
+canonical_url: https://github.com/ipfind/ipfind-mcp-server
+identity:
+  github_repo: ipfind/ipfind-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__ipfind__ipfind-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🗺️ <a name="location-services"></a>Location Services
+        anchor_text: ipfind/ipfind-mcp-server
+        extracted_url: https://github.com/ipfind/ipfind-mcp-server
+        surrounding_text: "- [ipfind/ipfind-mcp-server](https://github.com/ipfind/ipfind-mcp-server) 🐍 ☁️ - IP Address location service using the [IP Find](https://ipfind.com) API"
+        confidence: high
+metadata:
+  github:
+    stars: 2
+    forks: 4
+    license: null
+    archived: false
+    created_at: "2025-04-11T19:56:20Z"
+    pushed_at: "2025-07-07T19:53:49Z"
+    description: IP Find MCP Server
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:46.131Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:46.131Z"
+      bytes: 911
+insights:
+  summary: A Model Context Protocol server that connects to the IP Find API so AI assistants like Claude Desktop can look up location data for IP addresses.
+  why_it_matters: It gives coding assistants a plug-and-play way to enrich IP addresses with geolocation context during chat workflows without custom integration work.
+  mental_damage: We have finally reached the point where the AI needs its own dedicated microservice just to answer the timeless question of 'where on earth is this packet going'.
+  tags:
+    - mcp
+    - ip-geolocation
+    - claude-desktop
+    - tooling
+  confidence: high
+curation:
+  status: included
+  reason: The project is an MCP server implementation that exposes IP Find's geolocation API to MCP-compatible clients, which fits squarely under MCP infrastructure.
+  evidence:
+    - Repo description states 'IP Find MCP Server' and README confirms it is 'A Model Context Protocol server that enables AI assistants to use IP Find.'
+    - Listed in awesome-mcp-servers under Server Implementations > Location Services, confirming its role in the MCP ecosystem.
+    - Actively maintained with a recent push date of 2025-07-07 and created in April 2025, showing it is a current MCP tool.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.698Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:46.131Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:26:25.651Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

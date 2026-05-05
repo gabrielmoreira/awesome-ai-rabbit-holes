@@ -1,0 +1,76 @@
+id: www__broadn__io
+kind: website
+name: www.broadn.io
+canonical_url: https://www.broadn.io
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__broadn__io__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - broadn
+        anchor_text: broadn
+        extracted_url: https://www.broadn.io
+        surrounding_text: "## [broadn](https://www.broadn.io/?utm_source=awesome-ai-agents)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A hosted SaaS platform that automates manufacturing sales workflows by using an AI agent to parse RFQs and emails, generate quotes, and sync orders with ERP/CRM systems.
+  why_it_matters: It demonstrates a niche, end-to-end agentic workflow integration that developers building vertical SaaS or ERP connectors might study for patterns.
+  mental_damage: We have successfully automated the sales quoting process, meaning the only thing left for humans to do is argue with the AI about why the margin is too low.
+  tags:
+    - sales-automation
+    - erp-integration
+    - vertical-ai
+    - manufacturing
+  confidence: high
+curation:
+  status: excluded
+  reason: The product is a vertical SaaS solution for manufacturing sales teams, not a developer-facing tool, coding agent, or infrastructure component.
+  evidence:
+    - Site description explicitly targets 'U.S. manufacturers' and 'sales teams' rather than developers.
+    - Core functionality is automating RFQs, quoting, and ERP order entry, not code generation or developer workflow.
+    - Listed in awesome-ai-agents under a sales/operations context ('Quoting and orders automated from inbox to ERP'), not a dev-tooling context.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.731Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:49:55.266Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

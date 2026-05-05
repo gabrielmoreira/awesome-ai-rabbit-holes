@@ -1,0 +1,76 @@
+id: www__privategpt__io
+kind: website
+name: www.privategpt.io
+canonical_url: https://www.privategpt.io
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__privategpt__io__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Private GPT
+        anchor_text: Private GPT
+        extracted_url: https://www.privategpt.io
+        surrounding_text: "## [Private GPT](https://www.privategpt.io/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A private, enterprise-focused AI chat tool that connects to internal data sources like Notion, JIRA, and GitHub to answer natural language questions without exposing data to external models.
+  why_it_matters: It allows development teams to surface buried organizational knowledge across project management and documentation tools via a centralized, permission-aware AI interface.
+  mental_damage: Yet another 'private ChatGPT' promising to solve the fact that your team's documentation is scattered across six platforms, while quietly adding a seventh platform to manage.
+  tags:
+    - rag
+    - knowledge-management
+    - enterprise
+    - privacy
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a general-purpose enterprise knowledge management SaaS, not a developer tool; it targets company-wide data search rather than assisting with source code, IDE workflows, or app building.
+  evidence:
+    - Scraped site describes it as 'A GPT private ChatGPT with all the knowledge from your company' focused on Notion, JIRA, and Slack.
+    - Source list context lists it under 'awesome-ai-agents' specifically for connecting data sources for natural language Q&A.
+    - No evidence of coding assistance, repo editing, IDE integration, or app generation capabilities.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.445Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:44:47.032Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

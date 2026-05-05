@@ -1,0 +1,81 @@
+id: github__chakkaradeep__pycodeagi
+kind: github-repo
+name: pycodeagi
+canonical_url: https://github.com/chakkaradeep/pycodeagi
+identity:
+  github_repo: chakkaradeep/pycodeagi
+provenance:
+  discoveries:
+    - id: discovery__github__chakkaradeep__pycodeagi__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Tools
+          - Agents
+        anchor_text: PyCodeAGI
+        extracted_url: https://github.com/chakkaradeep/pycodeagi
+        surrounding_text: "- [PyCodeAGI](https://github.com/chakkaradeep/pyCodeAGI): A small AGI experiment to generate a Python app given what app the user wants to build ![GitHub Repo stars](https://img.shields.io/github/stars/chakkaradeep/pyCodeAGI?style=social)"
+        confidence: high
+metadata:
+  github:
+    stars: 183
+    forks: 28
+    license: null
+    archived: false
+    created_at: "2023-04-16T06:47:06Z"
+    pushed_at: "2023-05-04T06:48:22Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:01:32.008Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:32.008Z"
+      bytes: 428
+insights:
+  summary: An early-stage experiment that uses LangChain to generate complete Python applications from a text description of what the user wants to build.
+  why_it_matters: It demonstrates a prompt-to-app workflow for Python, serving as a reference implementation for developers exploring autonomous code generation using the LangChain framework.
+  mental_damage: "Just what the world needed: another 'AGI' script from 2023 that hallucinates a Flask app and then gracefully retires to the GitHub graveyard a few weeks later."
+  tags:
+    - langchain
+    - code-generation
+    - python
+    - autonomous-agents
+  confidence: high
+curation:
+  status: excluded
+  reason: The project is an inactive, experimental proof-of-concept from 2023 with no description and no recent updates, falling outside the scope of practical, maintained developer tooling.
+  evidence:
+    - Last push was 2023-05-04, indicating the project is abandoned and not actively maintained.
+    - README describes it as a 'small AGI experiment' and 'very early' stage rather than a usable tool.
+    - Appears in awesome-langchain as an agent tool, but the code itself is a toy implementation rather than a robust framework.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (183) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.682Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:32.008Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:12:46.801Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

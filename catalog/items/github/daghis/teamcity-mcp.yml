@@ -1,0 +1,91 @@
+id: github__daghis__teamcity-mcp
+kind: github-repo
+name: teamcity-mcp
+canonical_url: https://github.com/daghis/teamcity-mcp
+identity:
+  github_repo: daghis/teamcity-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__daghis__teamcity-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: Daghis/teamcity-mcp
+        extracted_url: https://github.com/daghis/teamcity-mcp
+        surrounding_text: "- [Daghis/teamcity-mcp](https://github.com/Daghis/teamcity-mcp) 📇 ☁️ 🍎 🪟 🐧 - MCP server for JetBrains TeamCity with 87 tools for builds, tests, agents, and CI/CD pipeline management. Features dual-mode operation (dev/full) and runtime mode switching."
+        confidence: high
+metadata:
+  github:
+    stars: 24
+    forks: 19
+    license: MIT
+    archived: false
+    created_at: "2025-09-11T00:08:45Z"
+    pushed_at: "2026-05-04T14:23:44Z"
+    description: "Model Context Protocol (MCP) server for JetBrains TeamCity: control builds, tests, agents and configs from AI coding assistants."
+    homepage: https://github.com/Daghis/teamcity-mcp
+    topics:
+      - automation
+      - cd
+      - ci
+      - devops
+      - mcp
+      - model-context-protocol
+      - nodejs
+      - teamcity
+      - typescript
+    last_checked_at: "2026-05-05T21:01:45.235Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:45.235Z"
+      bytes: 13400
+insights:
+  summary: An MCP server that exposes JetBrains TeamCity CI/CD operations as tools for AI coding assistants like Claude Code, Cursor, and Windsurf.
+  why_it_matters: It allows developers to trigger builds, inspect test failures, and manage build configurations directly from their AI assistant without context-switching to the TeamCity UI.
+  mental_damage: Your AI assistant can now argue with you about why the build failed while simultaneously having the power to break the CI server entirely in 'Full Mode'.
+  tags:
+    - mcp
+    - teamcity
+    - ci-cd
+    - devops
+    - typescript
+  confidence: high
+curation:
+  status: included
+  reason: The project is a distinct MCP server implementation that integrates CI/CD infrastructure with AI assistants, fitting the MCP category perfectly.
+  evidence:
+    - "Repo description explicitly states: 'Model Context Protocol (MCP) server for JetBrains TeamCity'."
+    - README details 87 tools exposed via MCP for Claude Code, Cursor, and Windsurf.
+    - Listed in awesome-mcp-servers under 'Developer Tools' section.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.683Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:45.235Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:15:06.356Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

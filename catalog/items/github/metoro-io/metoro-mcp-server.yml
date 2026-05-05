@@ -1,0 +1,96 @@
+id: github__metoro-io__metoro-mcp-server
+kind: github-repo
+name: metoro-mcp-server
+canonical_url: https://github.com/metoro-io/metoro-mcp-server
+identity:
+  github_repo: metoro-io/metoro-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__metoro-io__metoro-mcp-server__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Metoro
+        extracted_url: https://github.com/metoro-io/metoro-mcp-server
+        surrounding_text: "- **[Metoro](https://github.com/metoro-io/metoro-mcp-server)** - Query and interact with kubernetes environments monitored by Metoro"
+        confidence: high
+    - id: discovery__github__metoro-io__metoro-mcp-server__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - 📊 Monitoring
+        anchor_text: metoro-io/metoro-mcp-server
+        extracted_url: https://github.com/metoro-io/metoro-mcp-server
+        surrounding_text: "-   **[metoro-io/metoro-mcp-server](https://github.com/metoro-io/metoro-mcp-server)** [![GitHub stars](https://img.shields.io/github/stars/metoro-io/metoro-mcp-server?style=social)](https://github.com/metoro-io/metoro-mcp-server): Queries and interacts with Kubernetes environments monitored by Metoro."
+        confidence: high
+metadata:
+  github:
+    stars: 49
+    forks: 13
+    license: MIT
+    archived: false
+    created_at: "2024-12-08T14:11:07Z"
+    pushed_at: "2026-03-16T16:20:36Z"
+    description: Metoro MCP Server
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:03:37.099Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:37.099Z"
+      bytes: 4664
+insights:
+  summary: An MCP server that exposes Metoro's Kubernetes observability data to LLMs like Claude Desktop, allowing developers to query cluster telemetry using natural language.
+  why_it_matters: It lets developers bypass dashboard fatigue by querying eBPF-generated Kubernetes traces, metrics, and logs directly through their AI assistant.
+  mental_damage: Instead of learning kubectl or reading docs, you can now debug a complex microservices outage by politely asking a chat window that might hallucinate the status of your pods.
+  tags:
+    - mcp
+    - kubernetes
+    - observability
+    - monitoring
+    - llm-integration
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server implementation designed to bridge LLM applications with Kubernetes observability data.
+  evidence:
+    - Repo description and README define this as 'Metoro MCP Server' that connects LLMs to Kubernetes cluster data.
+    - Included in 'awesome-mcp-servers' under 'Official Servers' and 'awesome-mcp-list' under 'Monitoring'.
+    - Actively maintained with a recent push date of 2026-03-16 and an MIT license.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.669Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:37.099Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:37:10.572Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

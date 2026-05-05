@@ -1,0 +1,88 @@
+id: github__andreibondarev__langchainrb
+kind: github-repo
+name: langchainrb
+canonical_url: https://github.com/andreibondarev/langchainrb
+identity:
+  github_repo: andreibondarev/langchainrb
+provenance:
+  discoveries:
+    - id: discovery__github__andreibondarev__langchainrb__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Ports to other languages
+        anchor_text: LangchainRb
+        extracted_url: https://github.com/andreibondarev/langchainrb
+        surrounding_text: "- [LangchainRb](https://github.com/andreibondarev/langchainrb): Ruby Langchain ![GitHub Repo stars](https://img.shields.io/github/stars/andreibondarev/langchainrb?style=social)"
+        confidence: high
+metadata:
+  github:
+    stars: 1982
+    forks: 259
+    license: MIT
+    archived: false
+    created_at: "2023-04-18T18:43:09Z"
+    pushed_at: "2026-05-01T13:06:13Z"
+    description: Build LLM-powered applications in Ruby
+    homepage: https://rubydoc.info/gems/langchainrb
+    topics:
+      - agents
+      - ai-agents
+      - artificial-intelligence
+      - machine-learning
+      - ml
+      - rubyml
+      - vector-search
+    last_checked_at: "2026-05-05T21:01:03.554Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:03.554Z"
+      bytes: 27200
+insights:
+  summary: A Ruby gem providing a unified interface for LLMs, RAG pipelines, and assistants to build AI-powered applications in Ruby.
+  why_it_matters: It allows Ruby and Rails developers to integrate multiple LLM providers, embeddings, and RAG workflows without rewriting infrastructure for every new model release.
+  mental_damage: Now you can orchestrate sophisticated agent workflows in Ruby, just in time for the rest of the ecosystem to rewrite everything in TypeScript for the fourth time this year.
+  tags:
+    - ruby
+    - llm
+    - rag
+    - agents
+    - sdk
+  confidence: high
+curation:
+  status: included
+  reason: This is a code-first Ruby SDK and framework for building LLM applications, fitting cleanly into AI Frameworks and SDKs rather than an end-user agent or builder.
+  evidence:
+    - "Repo description states: 'Build LLM-powered applications in Ruby'"
+    - README details a unified LLM interface, RAG building blocks, and assistant patterns as importable library code
+    - Listed in awesome-langchain under 'Ports to other languages', confirming its role as a developer framework
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1982) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.440Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:03.554Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:08:06.415Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

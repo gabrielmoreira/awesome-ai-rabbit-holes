@@ -1,0 +1,92 @@
+id: github__hiyouga__fastedit
+kind: github-repo
+name: fastedit
+canonical_url: https://github.com/hiyouga/fastedit
+identity:
+  github_repo: hiyouga/fastedit
+provenance:
+  discoveries:
+    - id: discovery__github__hiyouga__fastedit__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Training
+          - Model Editing
+        anchor_text: FastEdit
+        extracted_url: https://github.com/hiyouga/fastedit
+        surrounding_text: "| [FastEdit](https://github.com/hiyouga/FastEdit) | FastEdit aims to assist developers with injecting fresh and customized knowledge into large language models efficiently using one single command. | ![GitHub Badge](https://img.shields.io/github/stars/hiyouga/FastEdit.svg?style=flat-square) |"
+        confidence: high
+metadata:
+  github:
+    stars: 1363
+    forks: 105
+    license: Apache-2.0
+    archived: false
+    created_at: "2023-07-09T06:21:30Z"
+    pushed_at: "2023-08-13T03:52:25Z"
+    description: 🩹Editing large language models within 10 seconds⚡
+    homepage: ""
+    topics:
+      - bloom
+      - chatbots
+      - chatgpt
+      - falcon
+      - gpt
+      - large-language-models
+      - llama
+      - llms
+      - pytorch
+      - transformers
+    last_checked_at: "2026-05-05T21:02:34.602Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:34.602Z"
+      bytes: 5244
+insights:
+  summary: A Python toolkit for efficiently injecting fresh or customized factual knowledge into local large language models using model editing algorithms like ROME.
+  why_it_matters: It lets developers quickly update specific facts in local LLMs without expensive full retraining, which is useful for keeping instruction-tuned models current.
+  mental_damage: Now you can patch obsolete facts into your 13B model in 10 seconds, right before you realize the model still hallucinates confidently about everything else.
+  tags:
+    - llm
+    - model-editing
+    - local-ai
+    - pytorch
+    - knowledge-injection
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a model-editing research toolkit for tweaking LLM weights, not a developer-facing tool for building software, IDE workflows, or app creation.
+  evidence:
+    - Repo description and README focus on injecting factual knowledge into LLMs using algorithms like ROME, not assisting with coding workflows.
+    - Listed in Awesome-LLMOps under 'Training > Model Editing', indicating a model ops/research fit rather than developer tooling.
+    - No relevance to coding agents, app builders, IDEs, or developer extensions as defined in the catalog scope.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1363) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.696Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:34.602Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:24:06.057Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,103 @@
+id: github__langflow-ai__langflow
+kind: github-repo
+name: langflow
+canonical_url: https://github.com/langflow-ai/langflow
+identity:
+  github_repo: langflow-ai/langflow
+provenance:
+  discoveries:
+    - id: discovery__github__logspace-ai__langflow__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - LLMOps
+        anchor_text: LangFlow
+        extracted_url: https://github.com/logspace-ai/langflow
+        surrounding_text: "| [LangFlow](https://github.com/logspace-ai/langflow)                | An effortless way to experiment and prototype LangChain flows with drag-and-drop components and a chat interface.                                                                                                                                                                                                                                                                                       | ![GitHub Badge](https://img.shields.io/github/stars/logspace-ai/langflow.svg?style=flat-square)           |"
+        confidence: high
+    - id: discovery__github__logspace-ai__langflow__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Tools
+          - Low-code
+        anchor_text: Langflow
+        extracted_url: https://github.com/logspace-ai/langflow
+        surrounding_text: "- [Langflow](https://github.com/logspace-ai/langflow): LangFlow is a UI for LangChain ![GitHub Repo stars](https://img.shields.io/github/stars/logspace-ai/langflow?style=social)"
+        confidence: high
+metadata:
+  github:
+    stars: 147721
+    forks: 8907
+    license: MIT
+    archived: false
+    created_at: "2023-02-08T22:28:03Z"
+    pushed_at: "2026-05-05T20:58:39Z"
+    description: Langflow is a powerful tool for building and deploying AI-powered agents and workflows.
+    homepage: http://www.langflow.org
+    topics:
+      - agents
+      - chatgpt
+      - generative-ai
+      - large-language-models
+      - multiagent
+      - react-flow
+    last_checked_at: "2026-05-05T21:03:16.247Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:16.247Z"
+      bytes: 4729
+insights:
+  summary: Langflow is a visual platform for building and deploying AI agents and workflows, offering a drag-and-drop interface, Python customization, and deployment options as APIs or MCP servers.
+  why_it_matters: It allows developers to rapidly prototype, test, and integrate multi-agent systems and LLM workflows into existing applications without writing extensive boilerplate code.
+  mental_damage: Yet another visual 'no-code' bridge to justify why your team now needs three different flowcharts to debug a single API call.
+  tags:
+    - agents
+    - workflows
+    - mcp
+    - visual-builder
+    - llm
+  confidence: high
+curation:
+  status: included
+  reason: Langflow is a user-facing platform and workbench for coordinating agents and tasks via a visual interface, fitting the Agent Orchestration category rather than a code-first SDK or a primary coding assistant.
+  evidence:
+    - Repo description explicitly states it is a tool for 'building and deploying AI-powered agents and workflows'.
+    - README highlights a 'Visual builder interface' and 'Multi-agent orchestration' as core features.
+    - README notes it can 'Deploy as an MCP server' and turn flows into tools, acting as an operational platform.
+placement:
+  primary_category: agent-orchestration
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (147721) exceeded threshold (150)
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:33:09.864Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.669Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:16.247Z"
+    cause: null
+    next_retry_at: null

@@ -1,0 +1,85 @@
+id: github__infuseai__artivc
+kind: github-repo
+name: artivc
+canonical_url: https://github.com/infuseai/artivc
+identity:
+  github_repo: infuseai/artivc
+provenance:
+  discoveries:
+    - id: discovery__github__infuseai__artivc__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Data
+          - Data Management
+        anchor_text: ArtiVC
+        extracted_url: https://github.com/infuseai/artivc
+        surrounding_text: "| [ArtiVC](https://github.com/InfuseAI/ArtiVC)        | A version control system to manage large files. Lake is a dataset format with a simple API for creating, storing, and collaborating on AI datasets of any size. | ![GitHub Badge](https://img.shields.io/github/stars/InfuseAI/ArtiVC.svg?style=flat-square)     |"
+        confidence: high
+metadata:
+  github:
+    stars: 311
+    forks: 13
+    license: Apache-2.0
+    archived: false
+    created_at: "2022-02-06T15:10:05Z"
+    pushed_at: "2023-02-07T07:08:55Z"
+    description: A version control system to manage large files.
+    homepage: https://artivc.io
+    topics:
+      - data
+      - machinelearning
+      - storage
+      - version-control
+    last_checked_at: "2026-05-05T21:02:43.490Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:43.490Z"
+      bytes: 2669
+insights:
+  summary: A CLI tool for versioning large files and datasets on cloud storage using a Git-like workflow.
+  why_it_matters: It lets developers version control massive datasets on their existing AWS, GCP, or Azure storage without needing to run a separate server.
+  mental_damage: Because apparently the only thing better than managing a messy Git history is managing a messy data history on S3.
+  tags:
+    - data-versioning
+    - cli
+    - storage
+    - mlops
+  confidence: high
+curation:
+  status: excluded
+  reason: It is a general data storage utility for ML datasets, not a developer-facing AI tool, agent, or infrastructure component.
+  evidence:
+    - Repo description identifies it as a 'version control system to manage large files', not an AI tool.
+    - README focuses on CLI data snapshotting on cloud storage (S3, GCS, Azure) for ML datasets.
+    - Listed in Awesome-LLMOps under 'Data > Data Management', which is operational infrastructure rather than AI dev tooling.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (311) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.698Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:43.490Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:25:56.803Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

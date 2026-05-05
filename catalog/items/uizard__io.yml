@@ -1,0 +1,76 @@
+id: uizard__io
+kind: website
+name: uizard.io
+canonical_url: https://uizard.io
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__uizard__io__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - UI Generators
+        anchor_text: Uizard
+        extracted_url: https://uizard.io
+        surrounding_text: "- **[Uizard](https://uizard.io/)** – Convert hand-drawn mockups, screenshots, or text into interactive prototypes."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Uizard is a browser-based AI design platform that generates editable UI mockups, wireframes, and prototypes for apps and websites from text prompts, screenshots, or hand-drawn sketches.
+  why_it_matters: It allows developers to generate clickable UI prototypes and visual scaffolds in seconds, providing a faster starting point for implementation without needing deep design expertise.
+  mental_damage: Yet another tool that turns a 30-second idea into a pixel-perfect mockup, ensuring you can spend the next three days arguing with stakeholders about the shade of blue while the actual codebase remains empty.
+  tags:
+    - ui-design
+    - prototyping
+    - mockups
+    - ai-generated
+  confidence: high
+curation:
+  status: included
+  reason: Uizard is a browser-first SaaS that generates UI designs and prototypes from prompts, fitting the app-builder profile for visual scaffolding rather than a repo-based coding agent.
+  evidence:
+    - Scraped site context describes 'Generate multi-screen, editable prototypes in seconds using simple text' via a web interface.
+    - Listed in awesome-ai-coding-tools under 'UI Generators' with the description 'UI design for apps, websites, and desktop software in minutes.'
+    - Primary workflow is design generation (Screenshot Scanner, Wireframe Scanner) rather than editing source code in an IDE or CLI.
+placement:
+  primary_category: app-builders
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.731Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:48:54.089Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

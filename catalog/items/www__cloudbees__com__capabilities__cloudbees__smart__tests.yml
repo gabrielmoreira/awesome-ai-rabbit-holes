@@ -1,0 +1,76 @@
+id: www__cloudbees__com__capabilities__cloudbees__smart__tests
+kind: website
+name: cloudbees-smart-tests
+canonical_url: https://www.cloudbees.com/capabilities/cloudbees-smart-tests
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__cloudbees__com__capabilities__cloudbees__smart__tests__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Testing and QA
+        anchor_text: Launchable
+        extracted_url: https://launchableinc.com
+        surrounding_text: "- **[Launchable](https://launchableinc.com/)** – AI-driven test optimization that predicts which tests to run."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: CloudBees Smart Tests is an AI-powered CI/CD add-on that analyzes test behavior to run only the most relevant tests for a given code change, reducing flaky failures and cutting CI execution time.
+  why_it_matters: It integrates with existing pipelines to prioritize tests that are likely to fail, helping developers get faster feedback without rewriting their test suites or replacing their current CI tools.
+  mental_damage: Now your CI pipeline is powered by an AI that confidently skips the one test that would have caught the bug you are about to ship.
+  tags:
+    - ci-cd
+    - testing
+    - ai-test-intelligence
+    - devops
+  confidence: high
+curation:
+  status: included
+  reason: It is a developer-facing testing add-on that extends existing CI/CD pipelines with AI capabilities, fitting the ai-dev-extensions category rather than a primary coding agent.
+  evidence:
+    - Source list context describes it as an AI tool for 'Testing and QA' that cuts CI time and automates failure triage.
+    - Scraped site excerpt states it 'fits into the tools and pipelines your teams already use' rather than replacing them.
+    - Product description emphasizes running fewer tests and fixing flaky patterns inside existing CI workflows.
+placement:
+  primary_category: ai-dev-extensions
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.732Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:50:09.471Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

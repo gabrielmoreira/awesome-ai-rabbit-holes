@@ -1,0 +1,82 @@
+id: github__kukapay__dao-proposals-mcp
+kind: github-repo
+name: dao-proposals-mcp
+canonical_url: https://github.com/kukapay/dao-proposals-mcp
+identity:
+  github_repo: kukapay/dao-proposals-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__kukapay__dao-proposals-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: kukapay/dao-proposals-mcp
+        extracted_url: https://github.com/kukapay/dao-proposals-mcp
+        surrounding_text: "- [kukapay/dao-proposals-mcp](https://github.com/kukapay/dao-proposals-mcp) 🐍 ☁️ - An MCP server that aggregates live governance proposals from major DAOs."
+        confidence: high
+metadata:
+  github:
+    stars: 2
+    forks: 2
+    license: MIT
+    archived: false
+    created_at: "2025-08-02T09:59:54Z"
+    pushed_at: "2025-08-02T10:00:13Z"
+    description: An MCP server that aggregates live governance proposals from major DAOs.
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:03:11.001Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:11.001Z"
+      bytes: 3633
+insights:
+  summary: An MCP server that aggregates live governance proposals from major DAOs like ENS and Aave via Snapshot, providing tools to list spaces, fetch proposals, and summarize them for AI agents.
+  why_it_matters: It allows developers building AI agents to give their models real-time visibility into decentralized governance without manually scraping Snapshot APIs.
+  mental_damage: Finally, your AI agent can stress-vote on DAO proposals faster than the humans who actually understand the implications.
+  tags:
+    - mcp
+    - dao
+    - governance
+    - snapshot
+    - web3
+  confidence: high
+curation:
+  status: included
+  reason: The project is a Model Context Protocol server designed to provide DAO governance data to AI agents, fitting cleanly into the MCP tooling category.
+  evidence:
+    - Repo description explicitly states it is 'An MCP server that aggregates live governance proposals from major DAOs.'
+    - README details MCP tools (list_spaces, list_proposals) and integration instructions for Claude Desktop.
+    - Listed in the awesome-mcp-servers directory under 'Server Implementations > Finance & Fintech'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.702Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:11.001Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:32:00.870Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

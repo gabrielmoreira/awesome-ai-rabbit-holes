@@ -1,0 +1,92 @@
+id: github__mcp-telegram__mcp-telegram
+kind: github-repo
+name: mcp-telegram
+canonical_url: https://github.com/mcp-telegram/mcp-telegram
+identity:
+  github_repo: mcp-telegram/mcp-telegram
+provenance:
+  discoveries:
+    - id: discovery__github__overpod__mcp-telegram__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💬 <a name="communication"></a>Communication
+        anchor_text: overpod/mcp-telegram
+        extracted_url: https://github.com/overpod/mcp-telegram
+        surrounding_text: "- [overpod/mcp-telegram](https://github.com/overpod/mcp-telegram) [![mcp-telegram MCP server](https://glama.ai/mcp/servers/overpod/mcp-telegram/badges/score.svg)](https://glama.ai/mcp/servers/overpod/mcp-telegram) 📇 🏠 🍎 🪟 🐧 - Telegram MCP server via MTProto/GramJS — 20 tools for reading chats, searching messages, downloading media, managing contacts. QR code login, npx zero-install. Hosted version at mcp-telegram.com."
+        confidence: high
+metadata:
+  github:
+    stars: 6
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2026-03-10T09:25:47Z"
+    pushed_at: "2026-05-04T17:29:02Z"
+    description: "Connect Telegram to Claude AI — messages, media, reactions, polls, scheduled messages & more. Hosted version: mcp-telegram.com (QR login, 30 sec setup). Built on GramJS/MTProto."
+    homepage: https://mcp-telegram.github.io/mcp-telegram/
+    topics:
+      - ai-tools
+      - claude
+      - gramjs
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - mtproto
+      - telegram
+      - typescript
+      - userbot
+    last_checked_at: "2026-05-05T21:03:33.313Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:33.313Z"
+      bytes: 21328
+insights:
+  summary: An MCP server that acts as a Telegram userbot, allowing AI assistants to read, send, and manage messages, media, and account settings via the MTProto protocol.
+  why_it_matters: It enables developers to wire Telegram directly into their AI workflows, letting assistants query chats, summarize threads, and manage notifications without leaving the IDE or agent loop.
+  mental_damage: "We have finally achieved the singularity: your AI assistant now has full read-receipt anxiety and can boost Telegram channels on your behalf while you debug a CSS margin."
+  tags:
+    - mcp
+    - telegram
+    - userbot
+    - typescript
+    - mtproto
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server providing Telegram integration for AI clients, fitting cleanly into the MCP infrastructure category.
+  evidence:
+    - Repo description confirms it is an MCP server connecting Telegram to Claude AI.
+    - README states it is 'An MCP (Model Context Protocol) server' with 80+ tools for AI assistants.
+    - Topics include 'mcp-server' and 'model-context-protocol', aligning with the MCP category scope.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:36:27.484Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.712Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:33.313Z"
+    cause: null
+    next_retry_at: null

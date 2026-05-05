@@ -1,0 +1,99 @@
+id: github__logly__mureo
+kind: github-repo
+name: mureo
+canonical_url: https://github.com/logly/mureo
+identity:
+  github_repo: logly/mureo
+provenance:
+  discoveries:
+    - id: discovery__github__logly__mureo__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🎯 <a name="marketing"></a>Marketing
+        anchor_text: logly/mureo
+        extracted_url: https://github.com/logly/mureo
+        surrounding_text: "- [logly/mureo](https://github.com/logly/mureo) [![logly/mureo MCP server](https://glama.ai/mcp/servers/logly/mureo/badges/score.svg)](https://glama.ai/mcp/servers/logly/mureo) 🐍 ☁️ 🏠 - Framework for AI agents (Claude Code, Cursor, Codex, Gemini) to operate Google Ads, Meta Ads, and Search Console. Grounded in a local STRATEGY.md — not metric-chasing. Defense-in-depth security, local-first. Apache 2.0."
+        confidence: high
+metadata:
+  github:
+    stars: 6
+    forks: 0
+    license: Apache-2.0
+    archived: false
+    created_at: "2026-03-30T22:25:22Z"
+    pushed_at: "2026-05-02T01:28:20Z"
+    description: Local-first, safety-gated AI ad-ops framework for Claude Code, Codex, Cursor & Gemini
+    homepage: https://mureo.io
+    topics:
+      - advertising
+      - agentic-ai
+      - ai-agents
+      - claude-code
+      - cli
+      - codex
+      - cursor
+      - facebook-ads
+      - gemini-cli
+      - google-ads
+      - marketing
+      - marketing-automation
+      - mcp
+      - meta-ads
+      - model-context-protocol
+      - python
+      - search-console
+    last_checked_at: "2026-05-05T21:03:23.636Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:23.636Z"
+      bytes: 52350
+insights:
+  summary: A local-first Python framework that lets AI agents like Claude Code and Cursor autonomously analyze and operate Google Ads, Meta Ads, Search Console, and GA4 accounts using a strategy file and a persistent knowledge base.
+  why_it_matters: It allows developers to hand off tedious ad-account diagnostics and optimizations to local agents while keeping credentials on their own machine and enforcing business logic via a STRATEGY.md file.
+  mental_damage: Yet another breakthrough proving that the singularity will be spent debugging OAuth flows so an agent can tell us we wasted ¥31,800 on our own brand terms.
+  tags:
+    - ad-ops
+    - mcp
+    - local-first
+    - marketing-automation
+    - cli
+  confidence: medium
+curation:
+  status: included
+  reason: The project is an extension framework that augments existing coding agents (Claude Code, Cursor, Codex) with ad-operations capabilities, memory, and strategy-gated behavior rather than being a primary coding assistant itself.
+  evidence:
+    - Repo description explicitly calls it a 'framework for Claude Code, Codex, Cursor & Gemini' rather than a standalone agent.
+    - README states it runs across hosts like Claude Code and Claude Desktop chat to let those agents operate ad accounts.
+    - Listed in awesome-mcp-servers under 'Marketing', confirming its role as an MCP-based extension/tooling layer.
+placement:
+  primary_category: ai-dev-extensions
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.704Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:23.636Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:34:34.555Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,101 @@
+id: github__nikolai-vysotskyi__trace-mcp
+kind: github-repo
+name: trace-mcp
+canonical_url: https://github.com/nikolai-vysotskyi/trace-mcp
+identity:
+  github_repo: nikolai-vysotskyi/trace-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__nikolai-vysotskyi__trace-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: nikolai-vysotskyi/trace-mcp
+        extracted_url: https://github.com/nikolai-vysotskyi/trace-mcp
+        surrounding_text: "- [nikolai-vysotskyi/trace-mcp](https://github.com/nikolai-vysotskyi/trace-mcp) [![nikolai-vysotskyi/trace-mcp MCP server](https://glama.ai/mcp/servers/nikolai-vysotskyi/trace-mcp/badges/score.svg)](https://glama.ai/mcp/servers/nikolai-vysotskyi/trace-mcp) 📇 🏠 🍎 🪟 🐧 - Framework-aware code intelligence that indexes source code into a cross-language dependency graph. Understands framework semantics — routes, ORM relations, component rendering, DI trees — for navigation, impact analysis, call graphs, refactoring, security scanning, and cross-session memory."
+        confidence: high
+metadata:
+  github:
+    stars: 67
+    forks: 7
+    license: MIT
+    archived: false
+    created_at: "2026-04-03T09:54:03Z"
+    pushed_at: "2026-05-04T14:18:06Z"
+    description: MCP server for Claude Code and Codex. One tool call replaces ~42 minutes of agent exploration
+    homepage: https://trace-mcp.com
+    topics:
+      - ai-agents
+      - claude
+      - claude-ai
+      - claude-code
+      - claude-code-plugin
+      - claude-code-skill
+      - claude-desktop
+      - claude-skill
+      - claude-skills
+      - code-intelligence
+      - codex
+      - codex-skill
+      - developer-tools
+      - knowledge-graph
+      - mcp
+      - mcp-server
+      - rag
+      - token
+      - token-savings
+      - tokens
+    last_checked_at: "2026-05-05T21:03:55.030Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:55.030Z"
+      bytes: 37740
+insights:
+  summary: An MCP server that builds a framework-aware graph of a codebase or markdown vault once and serves it to AI agents, replacing repeated file reads and dependency traversal with graph queries.
+  why_it_matters: It cuts token usage by 40–50% and eliminates redundant context re-inflations, allowing coding agents to reason from precomputed structure instead of brute-forcing repo exploration.
+  mental_damage: We have finally built a tool to stop our agents from pretending they have short-term memory loss and re-reading the same file forty times in a single session.
+  tags:
+    - mcp
+    - context-engineering
+    - token-optimization
+    - code-intelligence
+  confidence: high
+curation:
+  status: included
+  reason: The product is itself an MCP server that provides code and knowledge-graph intelligence to agents via the Model Context Protocol.
+  evidence:
+    - Repo description explicitly states 'MCP server for Claude Code and Codex'.
+    - README positions it as an MCP server with 138 tools serving precomputed graphs to agents.
+    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.710Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:55.030Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:40:42.132Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

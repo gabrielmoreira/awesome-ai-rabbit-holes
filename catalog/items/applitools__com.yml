@@ -1,0 +1,77 @@
+id: applitools__com
+kind: website
+name: applitools.com
+canonical_url: https://applitools.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__applitools__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Testing and QA
+        anchor_text: Applitools
+        extracted_url: https://applitools.com
+        surrounding_text: "- **[Applitools](https://applitools.com/)** – Visual AI testing platform with cross-browser support."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Applitools is an AI-powered end-to-end testing platform that uses visual AI to automate functional, visual, accessibility, and cross-browser testing for web, mobile, and PDF interfaces.
+  why_it_matters: It allows developers and QA teams to validate UI changes and catch visual regressions across complex applications without writing or maintaining brittle pixel-based assertions.
+  mental_damage: Because nothing says 'confident deployment' like praying a proprietary AI model trained on four billion screens agrees with your designer's latest 2px margin tweak.
+  tags:
+    - testing
+    - visual-ai
+    - qa
+    - e2e
+    - enterprise
+  confidence: high
+curation:
+  status: included
+  reason: It serves as a testing and validation layer that integrates into existing developer workflows and CI/CD pipelines, acting as an AI extension to standard test automation rather than a primary coding agent or app builder.
+  evidence:
+    - Listed in awesome-ai-coding-tools under the 'Testing and QA' section as an AI end-to-end testing solution.
+    - Product description highlights 'Autonomous' test creation, 'Visual AI' validation, and integrations with existing test frameworks and CI/CD tools.
+    - Platform capabilities focus on validating interfaces, self-healing tests, and root cause analysis rather than writing application source code.
+placement:
+  primary_category: ai-dev-extensions
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.726Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:41:58.741Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

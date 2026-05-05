@@ -1,0 +1,85 @@
+id: github__moby__moby
+kind: github-repo
+name: moby
+canonical_url: https://github.com/moby/moby
+identity:
+  github_repo: moby/moby
+provenance:
+  discoveries:
+    - id: discovery__github__moby__moby__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Training
+          - IDEs and Workspaces
+        anchor_text: Docker
+        extracted_url: https://github.com/moby/moby
+        surrounding_text: "| [Docker](https://github.com/moby/moby)                   | Moby is an open-source project created by Docker to enable and accelerate software containerization.                                                                                               | ![GitHub Badge](https://img.shields.io/github/stars/moby/moby.svg?style=flat-square)              |"
+        confidence: high
+metadata:
+  github:
+    stars: 71519
+    forks: 18926
+    license: Apache-2.0
+    archived: false
+    created_at: "2013-01-18T18:10:57Z"
+    pushed_at: "2026-05-05T17:13:14Z"
+    description: The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems
+    homepage: https://mobyproject.org/
+    topics:
+      - containers
+      - docker
+      - go
+      - golang
+    last_checked_at: "2026-05-05T21:03:44.841Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:44.841Z"
+      bytes: 5620
+insights:
+  summary: Moby is an open-source project providing a modular 'Lego set' of components for building custom container-based systems, serving as the upstream for Docker Engine.
+  why_it_matters: It provides the foundational build tools, runtime, and APIs that power the container ecosystem, which remains the deployment target for the vast majority of AI applications and models.
+  mental_damage: We've built a massive, modular ecosystem to containerize our software so that AI agents can eventually write the code that runs inside the very containers we spent a decade assembling.
+  tags:
+    - containers
+    - docker
+    - infrastructure
+    - go
+  confidence: high
+curation:
+  status: excluded
+  reason: Moby is foundational container infrastructure and a Go project, but it lacks a specific AI developer-tooling angle required for this catalog.
+  evidence:
+    - Repo description defines it as a collaborative project for the container ecosystem, not an AI tool.
+    - README focuses on container build tools, registries, and runtimes with no mention of AI workflows.
+    - Seen in Awesome-LLMOps under 'Training > IDEs and Workspaces', which appears to be a misclassification or irrelevant context for this catalog's scope.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (71519) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.708Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:44.841Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:38:42.414Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

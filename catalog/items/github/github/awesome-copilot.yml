@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__github__awesome-copilot__awesome-list__github__awesome-copilot
-      discovered_at: "2026-05-01T13:51:25.374Z"
+      discovered_at: "2026-05-05T19:41:00.656Z"
       source:
         type: awesome-list
         name: github/awesome-copilot
@@ -23,12 +23,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 31877
-    forks: 3858
+    stars: 32173
+    forks: 3914
     license: MIT
     archived: false
     created_at: "2025-06-11T16:57:39Z"
-    pushed_at: "2026-05-01T11:04:03Z"
+    pushed_at: "2026-05-05T19:56:50Z"
     description: Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot.
     homepage: https://awesome-copilot.github.com/
     topics:
@@ -40,31 +40,50 @@ metadata:
       - github-copilot
       - hacktoberfest
       - prompt-engineering
-    last_checked_at: "2026-05-01T13:51:30.758Z"
+    last_checked_at: "2026-05-05T21:02:21.814Z"
     readme:
-      fetched_at: "2026-05-01T13:51:30.758Z"
-      bytes: 82597
+      fetched_at: "2026-05-05T21:02:21.814Z"
+      bytes: 86931
 insights:
-  summary: A community-maintained awesome list of GitHub Copilot customizations including agents, instructions, skills, hooks, workflows, and plugins.
-  why_it_matters: It gives developers a searchable, curated starting point for extending Copilot with reusable agent setups, MCP-integrated agents, and workflow automation patterns instead of reinventing configs from scratch.
-  mental_damage: You will spend a calm, reasonable afternoon “just browsing agents” and wake up three days later with five plugins installed and a new belief system about hooks.
+  summary: A GitHub-maintained, community-contributed collection of custom agents, instructions, skills, hooks, and workflows designed to extend and customize the GitHub Copilot experience.
+  why_it_matters: It provides a centralized, machine-readable registry of reusable configuration packs that help developers tailor Copilot's behavior to specific technologies and workflows without starting from scratch.
+  mental_damage: We have now reached the point where we need an awesome list to manage the awesome list of skills required to make our AI assistant act like it knows what it's doing.
   tags:
-    - awesome-list
     - github-copilot
-    - agents
-    - mcp
-    - developer-workflows
+    - skills
+    - awesome-list
+    - extensions
+    - prompt-engineering
   confidence: high
 curation:
   status: included
-  reason: Include as an awesome-list navigation hub that’s explicitly developer-tooling focused (Copilot agents/skills/hooks/workflows) and widely adopted, making it a high-signal map of the Copilot customization ecosystem.
+  reason: This is a curated directory and registry of AI developer resources (skills/agents/instructions) rather than a standalone tool, fitting the awesome-awesomes category.
   evidence:
-    - "Repo description: \"instructions, agents, skills, and configurations\" for GitHub Copilot"
-    - "README: curated collection of \"custom agents, instructions, skills, hooks, workflows, and plugins\" plus a Tools section for \"MCP servers and developer tooling\""
-    - "Strong traction and freshness: 31,877 stars, not archived, pushed 2026-05-01"
+    - Repo description explicitly calls it a 'Community-contributed instructions, agents, skills, and configurations' collection.
+    - README highlights a 'full collection' website with search/filtering across hundreds of resources, plus an llms.txt for machine-readable listings.
+    - Marked as a 'Direct awesome list source' in the source-list context.
 placement:
   primary_category: awesome-awesomes
   section: null
 lifecycle:
   status: promotion_candidate
-  reason: Stars (31877) exceeded threshold (150)
+  reason: Stars (32173) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.657Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:21.814Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:21:26.777Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

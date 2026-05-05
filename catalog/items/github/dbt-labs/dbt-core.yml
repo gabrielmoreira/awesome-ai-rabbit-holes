@@ -1,0 +1,104 @@
+id: github__dbt-labs__dbt-core
+kind: github-repo
+name: dbt-core
+canonical_url: https://github.com/dbt-labs/dbt-core
+identity:
+  github_repo: dbt-labs/dbt-core
+provenance:
+  discoveries:
+    - id: discovery__github__dbt-labs__dbt-core__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: scraped
+        section_path:
+          - Server Implementations
+          - 📊 <a name="data-platforms"></a>Data Platforms
+        anchor_text: dbt (data build tool)
+        extracted_url: https://www.getdbt.com/product/what-is-dbt
+        surrounding_text: "- [dbt-labs/dbt-mcp](https://github.com/dbt-labs/dbt-mcp) 🎖️ 🐍 🏠 ☁️ - Official MCP server for [dbt (data build tool)](https://www.getdbt.com/product/what-is-dbt) providing integration with dbt Core/Cloud CLI, project metadata discovery, model information, and semantic layer querying capabilities."
+        confidence: high
+    - id: discovery__github__dbt-labs__dbt-core__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: scraped
+        section_path:
+          - Official Servers
+        anchor_text: dbt (data build tool)
+        extracted_url: https://www.getdbt.com/product/what-is-dbt
+        surrounding_text: "- **[dbt](https://github.com/dbt-labs/dbt-mcp)** - Official MCP server for [dbt (data build tool)](https://www.getdbt.com/product/what-is-dbt) providing integration with dbt Core/Cloud CLI, project metadata discovery, model information, and semantic layer querying capabilities."
+        confidence: high
+metadata:
+  github:
+    stars: 12721
+    forks: 2377
+    license: NOASSERTION
+    archived: false
+    created_at: "2016-03-10T02:38:00Z"
+    pushed_at: "2026-05-05T20:05:12Z"
+    description: dbt enables data analysts and engineers to transform their data using the same practices that software engineers use to build applications.
+    homepage: https://getdbt.com
+    topics:
+      - analytics
+      - business-intelligence
+      - data-modeling
+      - dbt-viewpoint
+      - elt
+      - pypa
+      - slack
+    last_checked_at: "2026-05-05T21:01:48.648Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:48.648Z"
+      bytes: 2717
+insights:
+  summary: dbt-core is an open-source command-line tool that enables data analysts and engineers to transform data in warehouses using software engineering practices like versioning, testing, and modular modeling.
+  why_it_matters: It brings CI/CD, testing, and dependency management to SQL-based data transformation, allowing data teams to treat analytics code with the same rigor as application software.
+  mental_damage: We've successfully applied the entire software engineering stack to SQL, meaning you can now enjoy merge conflicts and broken CI pipelines while waiting for your warehouse credits to burn.
+  tags:
+    - data-engineering
+    - sql
+    - elt
+    - analytics
+    - transformations
+  confidence: high
+curation:
+  status: excluded
+  reason: While dbt is a critical developer tool for data teams, it is a data transformation and analytics engineering framework with no AI-specific functionality, which falls outside the scope of this AI rabbit hole catalog.
+  evidence:
+    - Repo description and README focus entirely on SQL transformation and software engineering practices for data, with no mention of AI, LLMs, or agents.
+    - GitHub topics (analytics, business-intelligence, data-modeling, elt) confirm a data engineering focus rather than an AI tooling focus.
+    - Appearance in awesome-mcp-servers is likely due to a community MCP wrapper, but the core dbt-core product itself contains no AI features.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (12721) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.665Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:48.648Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:15:42.419Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

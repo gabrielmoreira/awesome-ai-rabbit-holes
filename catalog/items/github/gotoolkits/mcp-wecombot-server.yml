@@ -1,0 +1,111 @@
+id: github__gotoolkits__mcp-wecombot-server
+kind: github-repo
+name: mcp-wecombot-server
+canonical_url: https://github.com/gotoolkits/mcp-wecombot-server
+identity:
+  github_repo: gotoolkits/mcp-wecombot-server
+provenance:
+  discoveries:
+    - id: discovery__github__gotoolkits__mcp-wecombot-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💬 <a name="communication"></a>Communication
+        anchor_text: gotoolkits/wecombot
+        extracted_url: https://github.com/gotoolkits/mcp-wecombot-server
+        surrounding_text: "- [gotoolkits/wecombot](https://github.com/gotoolkits/mcp-wecombot-server.git) 🚀 ☁️ - An MCP server application that sends various types of messages to the WeCom group robot."
+        confidence: high
+    - id: discovery__github__gotoolkits__mcp-wecombot-server__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: gotoolkits/wecombot
+        extracted_url: https://github.com/gotoolkits/mcp-wecombot-server
+        surrounding_text: "- **[gotoolkits/wecombot](https://github.com/gotoolkits/mcp-wecombot-server.git)** - 🏎️ ☁️ An MCP server application that sends various types of messages to the WeCom group robot."
+        confidence: high
+    - id: discovery__github__gotoolkits__mcp-wecombot-server__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - 💬 Communication
+        anchor_text: gotoolkits/mcp-wecombot-server
+        extracted_url: https://github.com/gotoolkits/mcp-wecombot-server
+        surrounding_text: "-   **[gotoolkits/mcp-wecombot-server](https://github.com/gotoolkits/mcp-wecombot-server.git)** [![GitHub stars](https://img.shields.io/github/stars/gotoolkits/mcp-wecombot-server?style=social)](https://github.com/gotoolkits/mcp-wecombot-server): Sends messages to WeCom group robots. (*Note: Link ends with .git*)"
+        confidence: high
+metadata:
+  github:
+    stars: 37
+    forks: 7
+    license: GPL-3.0
+    archived: false
+    created_at: "2025-01-08T15:23:13Z"
+    pushed_at: "2025-01-22T15:51:29Z"
+    description: An MCP server application that sends various types of messages to the WeCom group robot.
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:25.739Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:25.739Z"
+      bytes: 2872
+insights:
+  summary: An MCP server that enables AI assistants like Claude Desktop to send text, markdown, images, news, and file attachments to WeCom group robots via webhooks.
+  why_it_matters: It bridges local AI workflows with enterprise WeCom communication, allowing developers to automate team notifications and alerts directly from their coding agent.
+  mental_damage: We now have a protocol bridge to help your AI remind your team about the code it just broke, delivered with the same robotic cheerfulness as a CI/CD failure email.
+  tags:
+    - mcp
+    - wecom
+    - chatops
+    - integration
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server implementation designed to extend AI assistant capabilities with WeCom messaging tools.
+  evidence:
+    - Repo description confirms it is 'An MCP server application that sends various types of messages to the WeCom group robot.'
+    - README details specific MCP tools like send_text, send_markdown, and upload_file for Claude Desktop integration.
+    - Listed in both 'awesome-mcp-list' and 'awesome-mcp-servers' under the Communication section.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.660Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:25.739Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:22:27.391Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

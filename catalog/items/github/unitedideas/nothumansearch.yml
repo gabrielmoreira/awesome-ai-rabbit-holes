@@ -1,0 +1,93 @@
+id: github__unitedideas__nothumansearch
+kind: github-repo
+name: mcp
+canonical_url: https://github.com/unitedideas/nothumansearch
+identity:
+  github_repo: unitedideas/nothumansearch
+provenance:
+  discoveries:
+    - id: discovery__github__unitedideas__nothumansearch__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Agent infrastructure
+        anchor_text: Not Human Search
+        extracted_url: https://github.com/unitedideas/nothumansearch
+        surrounding_text: "- **[Not Human Search](https://github.com/unitedideas/nothumansearch)** `⭐ 0` — Search engine for AI agents that ranks sites by agentic readiness (llms.txt, OpenAPI, MCP, ai-plugin); 8,000+ indexed sites exposed via MCP server, REST API, and full-text search. Lets agents discover and verify external services before wiring them into a repo. MIT."
+        confidence: high
+    - id: discovery__nothumansearch__ai__mcp__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - MCP Servers and Directories
+        anchor_text: Not Human Search
+        extracted_url: https://nothumansearch.ai/mcp
+        surrounding_text: "- **[Not Human Search](https://nothumansearch.ai/mcp)** – Agent-first search engine for discovering AI tools, MCP servers, and APIs."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A searchable web directory and index of Model Context Protocol (MCP) servers and tools.
+  why_it_matters: It provides a centralized navigation point for developers looking to discover and integrate MCP-compatible tools into their AI-assisted workflows.
+  mental_damage: Just when you thought you had a handle on the 47 MCP servers you already installed, here comes a directory to remind you of the 400 more you're missing.
+  tags:
+    - directory
+    - discovery
+    - mcp
+    - tooling
+  confidence: medium
+curation:
+  status: included
+  reason: The project is a directory/index of MCP tools rather than an MCP server, client, or toolkit itself, making it a navigation aid for developers.
+  evidence:
+    - URL resolves to nothumansearch.ai/mcp, indicating a searchable index rather than a tool repo.
+    - Listed in awesome-ai-coding-tools under the section 'MCP Servers and Directories'.
+    - No repository description, stars, or code indicators provided; fits the profile of a curated web directory.
+placement:
+  primary_category: awesome-awesomes
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:46:45.036Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.729Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

@@ -1,0 +1,87 @@
+id: github__dcspark__shinkai-local-ai-agents
+kind: github-repo
+name: shinkai-apps
+canonical_url: https://github.com/dcspark/shinkai-local-ai-agents
+identity:
+  github_repo: dcspark/shinkai-local-ai-agents
+provenance:
+  discoveries:
+    - id: discovery__github__dcspark__shinkai-apps__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Clients
+        anchor_text: Shinkai
+        extracted_url: https://github.com/dcspark/shinkai-apps
+        surrounding_text: "- **[Shinkai](http://github.com/dcSpark/shinkai-apps/)** is a two click install AI manager (Local and Remote) that allows you to create AI agents in 5 minutes or less using a simple UI. Agents and tools are exposed as an MCP Server."
+        confidence: high
+metadata:
+  github:
+    stars: 429
+    forks: 64
+    license: Apache-2.0
+    archived: false
+    created_at: "2023-08-30T15:49:34Z"
+    pushed_at: "2026-05-02T10:06:00Z"
+    description: "Shinkai is a two click install App that allows you to create Local AI agents in 5 minutes or less using a simple UI.  Supports: MCPs, Remote and Local AI, Crypto and Payments."
+    homepage: https://shinkai.com
+    topics:
+      - ai-agents
+      - crypto-ai-agents
+      - decentralized-ai
+      - local-ai
+      - local-ai-agents
+      - mcp-agents
+    last_checked_at: "2026-05-05T21:01:49.352Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:49.352Z"
+      bytes: 11423
+insights:
+  summary: Shinkai is a desktop application that lets developers and non-coders build and run local or remote AI agents with a visual interface, supporting MCP integration and crypto payments.
+  why_it_matters: It offers a no-code path to orchestrate multi-agent workflows locally while maintaining protocol compatibility with existing AI coding tools like Claude and Cursor.
+  mental_damage: Another desktop app promising to democratize agent creation so you can finally automate your crypto portfolio while wondering why your actual Jira tickets are still open.
+  tags:
+    - local-ai
+    - mcp
+    - agents
+    - no-code
+    - crypto
+  confidence: high
+curation:
+  status: included
+  reason: This is a user-facing platform for coordinating multiple AI agents with a visual interface and MCP support, fitting the definition of agent orchestration rather than a coding assistant or local model runner alone.
+  evidence:
+    - Repo description states it creates 'Local AI agents in 5 minutes or less using a simple UI' with MCP support.
+    - README describes 'Multi-Agent Orchestration' and a 'No-Code Agent Builder' for deploying collaborative agent teams.
+    - Active development with a recent push date (2026-05-02) and 429 stars.
+placement:
+  primary_category: agent-orchestration
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (429) exceeded threshold (150)
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:15:46.385Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.684Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:49.352Z"
+    cause: null
+    next_retry_at: null

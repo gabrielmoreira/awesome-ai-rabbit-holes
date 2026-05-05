@@ -1,0 +1,147 @@
+id: github__langgenius__dify
+kind: github-repo
+name: dify
+canonical_url: https://github.com/langgenius/dify
+identity:
+  github_repo: langgenius/dify
+provenance:
+  discoveries:
+    - id: discovery__github__langgenius__dify__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - LLMOps
+        anchor_text: Dify
+        extracted_url: https://github.com/langgenius/dify
+        surrounding_text: "| [Dify](https://github.com/langgenius/dify)                         | Open-source framework aims to enable developers (and even non-developers) to quickly build useful applications based on large language models, ensuring they are visual, operable, and improvable.                                                                                                                                                                                                      | ![GitHub Badge](https://img.shields.io/github/stars/langgenius/dify.svg?style=flat-square)                |"
+        confidence: high
+    - id: discovery__github__langgenius__dify__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Tools
+          - Services
+        anchor_text: Dify
+        extracted_url: https://github.com/langgenius/dify
+        surrounding_text: "- [Dify](https://github.com/langgenius/dify): One API for plugins and datasets, one interface for prompt engineering and visual operation, all for creating powerful AI applications. ![GitHub Repo stars](https://img.shields.io/github/stars/langgenius/dify?style=social)"
+        confidence: high
+    - id: discovery__github__langgenius__dify__awesome-list__kaushikb11__awesome-llm-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: kaushikb11/awesome-llm-agents
+        url: https://github.com/kaushikb11/awesome-llm-agents
+        repository: kaushikb11/awesome-llm-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Frameworks
+        anchor_text: Dify
+        extracted_url: https://github.com/langgenius/dify
+        surrounding_text: "- [Dify](https://github.com/langgenius/dify) - Open-source framework for LLM"
+        confidence: high
+    - id: discovery__github__langgenius__dify__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 知识库 RAG
+        anchor_text: Dify
+        extracted_url: https://github.com/langgenius/dify
+        surrounding_text: "4. [Dify](https://github.com/langgenius/dify): An open-source LLM app development platform. Dify's intuitive interface combines AI workflow, RAG pipeline, agent capabilities, model management, observability features and more, letting you quickly go from prototype to production."
+        confidence: high
+metadata:
+  github:
+    stars: 140170
+    forks: 21975
+    license: NOASSERTION
+    archived: false
+    created_at: "2023-04-12T07:40:24Z"
+    pushed_at: "2026-05-05T15:05:51Z"
+    description: Production-ready platform for agentic workflow development.
+    homepage: https://dify.ai
+    topics:
+      - agent
+      - agentic-ai
+      - agentic-framework
+      - agentic-workflow
+      - ai
+      - automation
+      - gemini
+      - genai
+      - gpt
+      - gpt-4
+      - llm
+      - low-code
+      - mcp
+      - nextjs
+      - no-code
+      - openai
+      - orchestration
+      - python
+      - rag
+      - workflow
+    last_checked_at: "2026-05-05T21:03:16.601Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:16.601Z"
+      bytes: 14554
+insights:
+  summary: Dify is an open-source platform for building, orchestrating, and managing LLM-powered applications, featuring visual AI workflows, RAG pipelines, and agent capabilities.
+  why_it_matters: It provides developers with a low-code interface to prototype and operationalize agentic workflows with built-in observability and model management.
+  mental_damage: Yet another 'production-ready' orchestration platform promising to turn your prompts into a sustainable business just in time for the next framework rewrite.
+  tags:
+    - llm
+    - orchestration
+    - rag
+    - low-code
+    - agents
+  confidence: high
+curation:
+  status: included
+  reason: Dify is a user-facing platform and control plane for building and coordinating agentic workflows and LLM apps, fitting the 'agent-orchestration' category's focus on operational tooling rather than a code-first SDK.
+  evidence:
+    - Repo description explicitly calls it a 'platform for agentic workflow development'.
+    - README describes an intuitive interface combining AI workflow, RAG, and agent capabilities for going from prototype to production.
+    - Listed in awesome-llm-agents under the 'Frameworks' section, confirming its role in the agent ecosystem.
+placement:
+  primary_category: agent-orchestration
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (140170) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.658Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:16.601Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:33:13.860Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

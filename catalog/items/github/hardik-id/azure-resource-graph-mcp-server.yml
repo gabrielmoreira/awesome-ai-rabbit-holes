@@ -1,0 +1,81 @@
+id: github__hardik-id__azure-resource-graph-mcp-server
+kind: github-repo
+name: azure-resource-graph-mcp-server
+canonical_url: https://github.com/hardik-id/azure-resource-graph-mcp-server
+identity:
+  github_repo: hardik-id/azure-resource-graph-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__hardik-id__azure-resource-graph-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
+        anchor_text: hardik-id/azure-resource-graph-mcp-server
+        extracted_url: https://github.com/hardik-id/azure-resource-graph-mcp-server
+        surrounding_text: "- [hardik-id/azure-resource-graph-mcp-server](https://github.com/hardik-id/azure-resource-graph-mcp-server) 📇 ☁️/🏠 - A Model Context Protocol server for querying and analyzing Azure resources at scale using Azure Resource Graph, enabling AI assistants to explore and monitor Azure infrastructure."
+        confidence: high
+metadata:
+  github:
+    stars: 18
+    forks: 9
+    license: MIT
+    archived: false
+    created_at: "2025-04-02T22:34:55Z"
+    pushed_at: "2025-05-06T18:41:57Z"
+    description: Model Context Protocol (MCP) server that provides access to Azure Resource Graph queries. It allows you to retrieve information about Azure resources across your subscriptions using Resource Graph queries.
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:30.982Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:30.982Z"
+      bytes: 4620
+insights:
+  summary: A Model Context Protocol (MCP) server that allows AI agents in IDEs like Cursor and VS Code to query Azure Resource Graph for resource information across subscriptions.
+  why_it_matters: It bridges the gap between AI coding assistants and live Azure infrastructure, allowing developers to query cloud resources directly from their editor without switching contexts.
+  mental_damage: Now your AI can second-guess your Azure subscription costs while you're trying to write a for-loop, provided you've correctly configured three different JSON files and the Azure CLI.
+  tags:
+    - mcp
+    - azure
+    - cloud
+    - infrastructure
+  confidence: high
+curation:
+  status: included
+  reason: This is a dedicated MCP server implementation designed to extend AI tools with Azure Resource Graph capabilities, fitting the MCP infrastructure category perfectly.
+  evidence:
+    - Repo description explicitly states it is a 'Model Context Protocol (MCP) server'.
+    - README details integration specifically with Cursor IDE and VS Code via MCP configuration.
+    - Listed in the 'awesome-mcp-servers' directory under 'Cloud Platforms'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.690Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:30.982Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:23:33.171Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

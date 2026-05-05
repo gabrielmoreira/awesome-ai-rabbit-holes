@@ -1,0 +1,103 @@
+id: github__dbt-labs__dbt-mcp
+kind: github-repo
+name: dbt-mcp
+canonical_url: https://github.com/dbt-labs/dbt-mcp
+identity:
+  github_repo: dbt-labs/dbt-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__dbt-labs__dbt-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📊 <a name="data-platforms"></a>Data Platforms
+        anchor_text: dbt-labs/dbt-mcp
+        extracted_url: https://github.com/dbt-labs/dbt-mcp
+        surrounding_text: "- [dbt-labs/dbt-mcp](https://github.com/dbt-labs/dbt-mcp) 🎖️ 🐍 🏠 ☁️ - Official MCP server for [dbt (data build tool)](https://www.getdbt.com/product/what-is-dbt) providing integration with dbt Core/Cloud CLI, project metadata discovery, model information, and semantic layer querying capabilities."
+        confidence: high
+    - id: discovery__github__dbt-labs__dbt-mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: dbt
+        extracted_url: https://github.com/dbt-labs/dbt-mcp
+        surrounding_text: "- **[dbt](https://github.com/dbt-labs/dbt-mcp)** - Official MCP server for [dbt (data build tool)](https://www.getdbt.com/product/what-is-dbt) providing integration with dbt Core/Cloud CLI, project metadata discovery, model information, and semantic layer querying capabilities."
+        confidence: high
+metadata:
+  github:
+    stars: 555
+    forks: 114
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-03-12T20:13:12Z"
+    pushed_at: "2026-05-05T19:27:37Z"
+    description: A MCP (Model Context Protocol) server for interacting with dbt.
+    homepage: ""
+    topics:
+      - data-analytics
+      - data-engineering
+      - dbt
+      - llm
+      - mcp
+      - mcp-server
+      - model-context-protocol
+    last_checked_at: "2026-05-05T21:01:48.719Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:48.719Z"
+      bytes: 7803
+insights:
+  summary: An official MCP server from dbt Labs that exposes dbt project context, SQL execution, lineage, and CLI commands to AI agents.
+  why_it_matters: It lets AI coding agents understand your dbt models, metrics, and lineage well enough to run, test, and introspect pipelines without you manually pasting manifest details into the chat.
+  mental_damage: We have successfully built an integration that allows an AI to trigger a dbt build on your warehouse so you can watch your credit balance disappear in two places at once.
+  tags:
+    - mcp
+    - dbt
+    - data-engineering
+    - agent-tooling
+  confidence: high
+curation:
+  status: included
+  reason: The project is a first-party MCP server implementation that provides dbt context and tooling to AI agents, fitting cleanly into the MCP infrastructure category.
+  evidence:
+    - Repo description states it is 'A MCP (Model Context Protocol) server for interacting with dbt.'
+    - README lists dozens of MCP tools across SQL, Semantic Layer, Discovery, dbt CLI, and Admin API surfaces.
+    - Listed in awesome-mcp-servers under 'Official Servers' and 'Data Platforms' sections.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (555) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.665Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:48.719Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:15:42.963Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

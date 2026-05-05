@@ -1,0 +1,85 @@
+id: github__horw__esp-mcp
+kind: github-repo
+name: esp-mcp
+canonical_url: https://github.com/horw/esp-mcp
+identity:
+  github_repo: horw/esp-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__horw__esp-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📟 <a name="embedded-system"></a>Embedded System
+        anchor_text: horw/esp-mcp
+        extracted_url: https://github.com/horw/esp-mcp
+        surrounding_text: "- [horw/esp-mcp](https://github.com/horw/esp-mcp) 📟 - Workflow for fixing build issues in ESP32 series chips using ESP-IDF."
+        confidence: high
+metadata:
+  github:
+    stars: 147
+    forks: 18
+    license: null
+    archived: false
+    created_at: "2025-03-24T04:07:19Z"
+    pushed_at: "2025-12-27T01:32:27Z"
+    description: Centralize ESP32 related commands and simplify getting started with seamless, LLM-driven interaction and help.
+    homepage: ""
+    topics:
+      - esp-idf
+      - esp32
+      - mcp
+      - mcp-server
+    last_checked_at: "2026-05-05T21:02:36.124Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:36.124Z"
+      bytes: 5962
+insights:
+  summary: An MCP server that centralizes ESP-IDF commands to let LLMs install toolchains, build, flash, and test ESP32 firmware through natural language.
+  why_it_matters: It lets embedded developers drive the full ESP32 workflow—from project creation to flashing—through an LLM instead of memorizing idf.py incantations.
+  mental_damage: We have officially reached the point where even your microcontroller toolchain needs a chatbot intermediary to remember how to run install.sh.
+  tags:
+    - mcp
+    - esp32
+    - embedded
+    - esp-idf
+  confidence: high
+curation:
+  status: included
+  reason: This is a purpose-built MCP server for ESP32 embedded workflows, which fits cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states it is an MCP server to centralize ESP32 commands with LLM-driven interaction.
+    - README details MCP tools like run_esp_idf_install, build_esp_project, and flash_esp_project for ESP-IDF workflows.
+    - Listed in awesome-mcp-servers under Server Implementations > Embedded System.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.696Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:36.124Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:24:20.602Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

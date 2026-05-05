@@ -1,0 +1,103 @@
+id: github__kkjdaniel__bgg-mcp
+kind: github-repo
+name: bgg-mcp
+canonical_url: https://github.com/kkjdaniel/bgg-mcp
+identity:
+  github_repo: kkjdaniel/bgg-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__kkjdaniel__bgg-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🎮 <a name="gaming"></a>Gaming
+        anchor_text: kkjdaniel/bgg-mcp
+        extracted_url: https://github.com/kkjdaniel/bgg-mcp
+        surrounding_text: "- [kkjdaniel/bgg-mcp](https://github.com/kkjdaniel/bgg-mcp) 🏎️ ☁️ - An MCP server that enables interaction with board game related data via the BoardGameGeek API (XML API2)."
+        confidence: high
+    - id: discovery__github__kkjdaniel__bgg-mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: BGG MCP
+        extracted_url: https://github.com/kkjdaniel/bgg-mcp
+        surrounding_text: "- **[BGG MCP](https://github.com/kkjdaniel/bgg-mcp)** - BGG MCP enables AI tools to interact with the BoardGameGeek API."
+        confidence: high
+metadata:
+  github:
+    stars: 38
+    forks: 11
+    license: MIT
+    archived: false
+    created_at: "2025-05-20T15:50:40Z"
+    pushed_at: "2026-04-19T22:40:25Z"
+    description: BGG MCP provides access to BoardGameGeek and a variety of board game related data through the Model Context Protocol. Enabling retrieval and filtering of board game data, user collections, and profiles.
+    homepage: ""
+    topics:
+      - bgg
+      - bgg-api
+      - board-game
+      - boardgamegeek
+      - boardgames
+      - mcp
+      - mcp-server
+    last_checked_at: "2026-05-05T21:03:06.925Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:06.925Z"
+      bytes: 9820
+insights:
+  summary: An MCP server that exposes BoardGameGeek board game data, user collections, and forum content to AI assistants via the Model Context Protocol.
+  why_it_matters: It lets developers quickly wire rich board game data into LLM workflows, agents, or chat interfaces without writing custom API integrations.
+  mental_damage: We now have a rigorously versioned, Go-powered MCP server for board game trades while our actual production APIs remain hand-crafted, untested chaos.
+  tags:
+    - mcp
+    - boardgamegeek
+    - mcp-server
+    - go
+  confidence: high
+curation:
+  status: included
+  reason: This is a clearly scoped MCP server implementation, which fits directly into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description states it provides BGG data access through the Model Context Protocol.
+    - README lists multiple MCP tools, resources, and prompts specifically for MCP hosts.
+    - Listed in awesome-mcp-servers under Server Implementations > Gaming.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.668Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:06.925Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:31:01.009Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

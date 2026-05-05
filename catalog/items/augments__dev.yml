@@ -1,0 +1,77 @@
+id: augments__dev
+kind: website
+name: augments.dev
+canonical_url: https://augments.dev
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__augments__dev__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Augments
+        extracted_url: https://augments.dev
+        surrounding_text: "- **[Augments](https://augments.dev/)** - Comprehensive framework documentation and code examples for popular development tools and libraries."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: An MCP server that provides Claude Code with type signatures, prose documentation, and code examples from any npm package.
+  why_it_matters: It allows AI coding assistants to answer framework and library questions with up-to-date, version-specific documentation rather than hallucinated or outdated training data.
+  mental_damage: We have officially reached the point where our AI assistants need their own package managers to stop them from confidently inventing APIs that haven't existed since 2022.
+  tags:
+    - mcp
+    - npm
+    - claude-code
+    - docs
+    - context
+  confidence: high
+curation:
+  status: included
+  reason: The product is explicitly an MCP server designed to extend AI assistants with npm documentation context, fitting cleanly into the MCP infrastructure category.
+  evidence:
+    - Scraped site title and description define it as 'An MCP server that gives Claude Code types, docs, and examples from npm.'
+    - Source-list context confirms inclusion in 'awesome-mcp-servers' under the Official Servers section.
+    - The README explains it resolves TypeScript types and documentation directly from the npm registry and DefinitelyTyped.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.726Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:42:06.051Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

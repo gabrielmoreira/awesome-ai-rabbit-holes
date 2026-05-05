@@ -1,0 +1,80 @@
+id: github__peliqan-io__mcp-server-peliqan
+kind: github-repo
+name: mcp-server-peliqan
+canonical_url: https://github.com/peliqan-io/mcp-server-peliqan
+identity:
+  github_repo: peliqan-io/mcp-server-peliqan
+provenance:
+  discoveries:
+    - id: discovery__github__peliqan-io__mcp-server-peliqan__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: Peliqan
+        extracted_url: https://github.com/peliqan-io/mcp-server-peliqan
+        surrounding_text: "- **[Peliqan](https://github.com/Peliqan-io/mcp-server-peliqan)** - Data platform with ETL and built-in data warehouse, access all business applications (ERP, CRM, Accounting etc.) via MCP and run queries on your business data."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 0
+    license: null
+    archived: false
+    created_at: "2025-06-08T20:14:31Z"
+    pushed_at: "2025-12-30T19:03:39Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:04:14.660Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:14.660Z"
+      bytes: 3935
+insights:
+  summary: A local Model Context Protocol server that connects Claude Desktop and other MCP clients to the Peliqan data platform to query and write back to over 100 SaaS, database, and file connectors.
+  why_it_matters: It lets developers query business data and update SaaS resources directly from their AI assistant without building custom connectors or leaving the IDE chat.
+  mental_damage: "We have finally achieved the zenith of modern engineering: configuring a proxy, an API token, and a local Python server just to let an LLM invoice a customer in Exact Online from a Claude Desktop sidebar."
+  tags:
+    - mcp
+    - data-integration
+    - peliqan
+    - local-server
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly a Model Context Protocol server implementation, which fits cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - "README states: 'This repo provides a local MCP Server... It communicates with the Peliqan platform via a Proxy API endpoint.'"
+    - Usage documentation shows configuration for Claude Desktop's mcpServers integration.
+    - Listed in the awesome-mcp-servers community list under 'Community Servers'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.712Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:14.660Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:44:16.775Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

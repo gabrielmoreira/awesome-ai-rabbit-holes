@@ -1,0 +1,76 @@
+id: stitch__withgoogle__com
+kind: website
+name: stitch.withgoogle.com
+canonical_url: https://stitch.withgoogle.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__stitch__withgoogle__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - UI Generators
+        anchor_text: Stitch (Google)
+        extracted_url: https://stitch.withgoogle.com
+        surrounding_text: "- **[Stitch (Google)](https://stitch.withgoogle.com/)** – Google Labs tool using Gemini to generate multi-screen UI designs and front-end code from text or images."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Stitch is a browser-based AI tool from Google that generates UI designs and frontend code for mobile and web applications from text prompts.
+  why_it_matters: It allows developers and designers to rapidly prototype application interfaces and frontends directly from ideas without starting from a blank canvas.
+  mental_damage: Just when you thought you had the 'vibe coding' workflow figured out, Google releases a tool that turns your vague prompt into a UI that you will now spend four hours refactoring to actually work.
+  tags:
+    - ui-generation
+    - prototyping
+    - google
+    - frontend
+  confidence: high
+curation:
+  status: included
+  reason: As a browser-first SaaS that generates UIs and code from prompts, it fits the app-builders category for rapid prototyping rather than a repo-based coding agent.
+  evidence:
+    - Scraped site title and description confirm it 'generates UIs for mobile and web applications' via AI.
+    - Source-list context places it under 'UI Generators' in awesome-ai-coding-tools.
+    - The product is a hosted browser experience (stitch.withgoogle.com), not an IDE plugin or CLI agent.
+placement:
+  primary_category: app-builders
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.730Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:48:21.097Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

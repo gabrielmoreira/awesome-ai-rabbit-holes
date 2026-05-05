@@ -1,0 +1,76 @@
+id: www__superagent__sh
+kind: website
+name: www.superagent.sh
+canonical_url: https://www.superagent.sh
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__superagent__sh__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Superagent
+        anchor_text: Superagent
+        extracted_url: https://www.superagent.sh
+        surrounding_text: "## [Superagent](https://www.superagent.sh/)</details>"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A Y Combinator-backed security platform that deploys specialized attack agents to red team production AI systems, uncovering data leaks and harmful outputs before users encounter them.
+  why_it_matters: Developers building agentic workflows can integrate automated red teaming to catch compliance violations and unauthorized actions that standard system prompts fail to prevent.
+  mental_damage: We now need autonomous agents to attack our autonomous agents, because apparently the only thing more terrifying than one rogue AI is an entire simulated army of them finding your edge cases first.
+  tags:
+    - red-teaming
+    - security
+    - agent-evals
+    - production-testing
+  confidence: high
+curation:
+  status: included
+  reason: The product is an operational platform for measuring and testing agent behavior in production, which aligns with the Evaluations and Benchmarks category rather than a coding assistant or framework.
+  evidence:
+    - "Site title and description explicitly state: 'Red Team Testing for AI Agents' and 'We attack your production system to surface data leaks'."
+    - The workflow offers 'findings, evidence, and remediation guidance' based on black-box testing, which is an evaluation/measurement surface.
+    - Listed under 'awesome-ai-agents' with the purpose of red teaming and attacking production systems.
+placement:
+  primary_category: evals
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.445Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T20:49:53.097Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+    next_retry_at: null

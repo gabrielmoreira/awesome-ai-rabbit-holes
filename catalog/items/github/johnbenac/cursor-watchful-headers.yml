@@ -1,0 +1,81 @@
+id: github__johnbenac__cursor-watchful-headers
+kind: github-repo
+name: cursor-watchful-headers
+canonical_url: https://github.com/johnbenac/cursor-watchful-headers
+identity:
+  github_repo: johnbenac/cursor-watchful-headers
+provenance:
+  discoveries:
+    - id: discovery__github__johnbenac__cursor-watchful-headers__awesome-list__patrickjs__awesome-cursorrules
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: PatrickJS/awesome-cursorrules
+        url: https://github.com/patrickjs/awesome-cursorrules
+        repository: PatrickJS/awesome-cursorrules
+      extraction:
+        mode: parsed
+        section_path:
+          - Rules
+          - Utilities
+        anchor_text: Cursor Watchful Headers
+        extracted_url: https://github.com/johnbenac/cursor-watchful-headers
+        surrounding_text: "- [Cursor Watchful Headers](https://github.com/johnbenac/cursor-watchful-headers) - A Python-based file watching system that automatically manages headers in text files and maintains a clean, focused project tree structure. Perfect for maintaining consistent file headers and documentation across your project, with special features to help LLMs maintain better project awareness."
+        confidence: high
+metadata:
+  github:
+    stars: 51
+    forks: 3
+    license: MIT
+    archived: false
+    created_at: "2025-02-08T03:55:23Z"
+    pushed_at: "2025-06-09T21:56:11Z"
+    description: Automated file header management and project structure visualization in cursorrules. Maintains consistent headers across multiple file types while providing real-time project tree updates. Perfect for maintaining documentation context in large codebases.
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:57.520Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:57.519Z"
+      bytes: 15163
+insights:
+  summary: A Python file watcher that automatically injects and maintains consistent headers across project files while keeping a .cursorrules project tree clean for LLM context.
+  why_it_matters: It automates the grunt work of header consistency and shapes project context so Cursor's AI sees a focused tree instead of a noisy dump of build artifacts.
+  mental_damage: We have officially reached the point where we need background scripts to curate the context window for the AI that is already writing the code we no longer read.
+  tags:
+    - cursor
+    - context-engineering
+    - file-watcher
+    - cursorrules
+  confidence: high
+curation:
+  status: included
+  reason: This is a host-side integration that extends Cursor by automating header management and cleaning up .cursorrules context, fitting the AI Developer Extensions category.
+  evidence:
+    - Repo description explicitly mentions 'Automated file header management and project structure visualization in cursorrules.'
+    - README states the tool 'Provides clean, focused context for LLM coding agents' by maintaining the .cursorrules tree.
+    - Listed under 'Rules > Utilities' in the awesome-cursorrules directory, confirming its role as a Cursor extension.
+placement:
+  primary_category: ai-dev-extensions
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.700Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:57.520Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:28:54.173Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

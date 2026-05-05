@@ -1,0 +1,82 @@
+id: github__make-software__cspr-trade-mcp
+kind: github-repo
+name: cspr-trade-mcp
+canonical_url: https://github.com/make-software/cspr-trade-mcp
+identity:
+  github_repo: make-software/cspr-trade-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__make-software__cspr-trade-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: make-software/cspr-trade-mcp
+        extracted_url: https://github.com/make-software/cspr-trade-mcp
+        surrounding_text: "- [make-software/cspr-trade-mcp](https://github.com/make-software/cspr-trade-mcp) [![make-software/cspr-trade-mcp MCP server](https://glama.ai/mcp/servers/make-software/cspr-trade-mcp/badges/score.svg)](https://glama.ai/mcp/servers/make-software/cspr-trade-mcp) 📇 ☁️ 🏠 🍎 🪟 🐧 - Non-custodial DEX trading on the Casper Network via [CSPR.trade](https://cspr.trade). 14 tools for market data, swaps, liquidity, and account queries. Transactions built remotely, signed locally — private keys never leave the machine. Public endpoint: `https://mcp.cspr.trade/mcp`"
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2026-03-08T03:34:36Z"
+    pushed_at: "2026-04-28T06:04:30Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:03:27.768Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:27.768Z"
+      bytes: 3861
+insights:
+  summary: An MCP server that exposes 24 tools for trading, market data, and portfolio tracking on the Casper Network DEX CSPR.trade to AI agents.
+  why_it_matters: It turns a blockchain DEX into a programmable surface so agents can quote swaps, analyze liquidity, and track portfolios without custom API glue code.
+  mental_damage: You now have a non-custodial AI agent that can estimate your impermanent loss in real time, which is either a productivity hack or a very efficient way to automate poor life choices.
+  tags:
+    - mcp
+    - casper
+    - dex
+    - blockchain
+    - finance
+  confidence: high
+curation:
+  status: included
+  reason: The project is a purpose-built MCP server providing DEX tooling to AI agents, which fits cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - README explicitly states 'AI agent integration for CSPR.trade' via MCP with 24 public tools.
+    - Includes MCP endpoint and config instructions for Claude Desktop, Cursor, and other MCP clients.
+    - Listed in awesome-mcp-servers under Finance & Fintech, reinforcing its MCP-native purpose.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.705Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:27.768Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:35:19.963Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

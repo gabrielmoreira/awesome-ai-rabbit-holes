@@ -1,0 +1,90 @@
+id: github__catallo__misterclaw
+kind: github-repo
+name: misterclaw
+canonical_url: https://github.com/catallo/misterclaw
+identity:
+  github_repo: catallo/misterclaw
+provenance:
+  discoveries:
+    - id: discovery__github__catallo__misterclaw__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📟 <a name="embedded-system"></a>Embedded System
+        anchor_text: catallo/misterclaw
+        extracted_url: https://github.com/catallo/misterclaw
+        surrounding_text: "- [catallo/misterclaw](https://github.com/catallo/misterclaw) [![catallo/misterclaw MCP server](https://glama.ai/mcp/servers/catallo/misterclaw/badges/score.svg)](https://glama.ai/mcp/servers/catallo/misterclaw) 🏎️ 📟 🏠 🐧 🍎 - MiSTerClaw — MCP remote control for MiSTer-FPGA. Launch games, search ROMs, take screenshots, manage systems, and set up Tailscale VPN. Auto-discovers 70+ systems with dynamic core/ROM scanning."
+        confidence: high
+metadata:
+  github:
+    stars: 4
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2026-03-22T13:10:32Z"
+    pushed_at: "2026-03-25T08:27:16Z"
+    description: 👾🦀 MiSTerClaw — MCP Remote Control for MiSTer-FPGA
+    homepage: null
+    topics:
+      - ai-agent
+      - clawexec
+      - de10-nano
+      - fpga
+      - mcp
+      - mcp-server
+      - mister-fpga
+      - remote-control
+      - retro-gaming
+    last_checked_at: "2026-05-05T21:01:30.759Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:30.759Z"
+      bytes: 8515
+insights:
+  summary: An MCP server that allows AI agents to remotely control a MiSTer-FPGA system, enabling game launching, ROM library search, screenshot capture, and core configuration via natural language.
+  why_it_matters: It exposes retro-gaming hardware as a programmable surface for AI agents, letting developers script and automate FPGA interactions through standard MCP clients like Claude and Cursor.
+  mental_damage: We have finally reached the singularity where LLMs can tweak DIP switches on a 30-year-old arcade core, yet they still can't reliably center a div.
+  tags:
+    - mcp
+    - retro-gaming
+    - fpga
+    - hardware-control
+  confidence: medium
+curation:
+  status: included
+  reason: The project is explicitly an MCP server implementation designed to integrate MiSTer-FPGA hardware with AI agents, which fits squarely into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description states it is an 'MCP Remote Control for MiSTer-FPGA'.
+    - README identifies it as 'the first MCP server for MiSTer-FPGA' with tools for agent control.
+    - Listed in awesome-mcp-servers under the 'Embedded System' section.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.682Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:30.759Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:12:34.185Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

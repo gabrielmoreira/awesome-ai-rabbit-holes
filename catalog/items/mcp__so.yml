@@ -1,0 +1,91 @@
+id: mcp__so
+kind: website
+name: mcp.so
+canonical_url: https://mcp.so
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__mcp__so__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - MCP Servers and Directories
+        anchor_text: MCP.so
+        extracted_url: https://mcp.so
+        surrounding_text: "- **[MCP.so](https://mcp.so/)** – Platform for MCP server resources and community."
+        confidence: high
+    - id: discovery__mcp__so__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 模型上下文协议 MCP
+        anchor_text: mcp.so
+        extracted_url: https://mcp.so
+        surrounding_text: 2. [mcp.so](https://mcp.so/)
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A community-driven directory and marketplace that indexes over 20,000 MCP servers, clients, and tools for AI applications.
+  why_it_matters: It serves as a central navigation hub for developers looking to discover and integrate specific Model Context Protocol capabilities into their AI workflows.
+  mental_damage: Just when you thought the npm ecosystem was the peak of dependency hell, we now have a registry for the registries that teach your LLM how to use the registry.
+  tags:
+    - mcp
+    - directory
+    - marketplace
+    - ai-tooling
+  confidence: high
+curation:
+  status: included
+  reason: The project is a directory and discovery platform for MCP servers and clients, fitting the 'Awesome Awesomes' category for navigation aids rather than being a tool itself.
+  evidence:
+    - Scraped site context describes it as a 'community-driven platform that collects and organizes third-party MCP Servers' and a 'central directory'.
+    - The site lists 20,700+ MCP servers across categories like Official, Hosted, and Clients.
+    - Listed in 'awesome-ai-coding-tools' under the section 'MCP Servers and Directories'.
+placement:
+  primary_category: awesome-awesomes
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.674Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:46:26.117Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

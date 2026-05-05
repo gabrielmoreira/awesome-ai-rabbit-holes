@@ -1,0 +1,108 @@
+id: devin__ai
+kind: website
+name: devin.ai
+canonical_url: https://devin.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__devin__ai__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Terminal-native coding agents
+          - Closed Source
+        anchor_text: Devin
+        extracted_url: https://devin.ai
+        surrounding_text: "- **[Devin](https://devin.ai)** `[Cognition]` — Cognition's autonomous AI software engineer with full shell/browser access, self-healing code, and PR collaboration."
+        confidence: high
+    - id: discovery__devin__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Coding Agents
+        anchor_text: Devin AI
+        extracted_url: https://devin.ai
+        surrounding_text: "- **[Devin AI](https://devin.ai/)** – Autonomous AI software engineer that plans, codes, debugs, and deploys end-to-end."
+        confidence: high
+    - id: discovery__devin__ai__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 代码 Coding
+        anchor_text: Devin
+        extracted_url: https://devin.ai
+        surrounding_text: 2. [Devin](https://devin.ai/)
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Devin is a cloud-hosted AI coding agent designed to autonomously plan, execute, and review complex engineering tasks like code migrations, refactors, and ticket resolution directly within a team's repositories.
+  why_it_matters: It allows engineering teams to delegate large-scale, repetitive codebase changes and ticket triage to parallel agents, aiming to reclaim developer time from tedious maintenance work.
+  mental_damage: You can now watch in real-time as an autonomous agent creates 1,000 parallel PRs, giving you the distinct pleasure of reviewing an AI's 'compounding learning' one merge conflict at a time.
+  tags:
+    - coding-agent
+    - refactoring
+    - enterprise
+    - pr-review
+    - automation
+  confidence: high
+curation:
+  status: included
+  reason: The product is a developer-facing coding agent that directly plans, writes, edits, and reviews code inside repo and PR workflows, fitting the coding-agents category perfectly.
+  evidence:
+    - Scraped site context describes Devin as an 'AI coding agent and software engineer' that ships PRs and handles code migrations.
+    - Source lists (awesome-ai-coding-tools, awesome-cli-coding-agents) categorize it explicitly as a coding agent.
+    - Site excerpt details integration with GitHub, Linear, and Slack to triage incidents and merge code changes.
+placement:
+  primary_category: coding-agents
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.662Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:43:43.575Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

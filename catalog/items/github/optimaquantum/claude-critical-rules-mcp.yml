@@ -1,0 +1,95 @@
+id: github__optimaquantum__claude-critical-rules-mcp
+kind: github-repo
+name: claude-critical-rules-mcp
+canonical_url: https://github.com/optimaquantum/claude-critical-rules-mcp
+identity:
+  github_repo: optimaquantum/claude-critical-rules-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__optimaquantum__claude-critical-rules-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: optimaquantum/claude-critical-rules-mcp
+        extracted_url: https://github.com/optimaquantum/claude-critical-rules-mcp
+        surrounding_text: "- [optimaquantum/claude-critical-rules-mcp](https://github.com/optimaquantum/claude-critical-rules-mcp) 📇 ☁️ 🏠 🍎 🪟 🐧 - Automatic enforcement of critical rules for Claude AI preventing 96 documented failure patterns. Provides compliance verification checklist and rules summary via MCP tools."
+        confidence: high
+metadata:
+  github:
+    stars: 5
+    forks: 2
+    license: MIT
+    archived: false
+    created_at: "2026-01-08T18:57:52Z"
+    pushed_at: "2026-01-10T13:29:38Z"
+    description: MCP server for Claude AI providing automatic enforcement of critical rules - Prevents 96 documented failure patterns
+    homepage: https://optimaquantum.com
+    topics:
+      - ai-automation
+      - anthropic
+      - best-practices
+      - claude
+      - claude-ai
+      - claude-code
+      - claude-desktop
+      - developer-tools
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - npm-package
+      - typescript
+    last_checked_at: "2026-05-05T21:04:07.956Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:07.956Z"
+      bytes: 8337
+insights:
+  summary: An MCP server that provides Claude AI with 21 automatically enforced rules derived from 96 documented failure patterns to prevent common assistant mistakes during technical tasks.
+  why_it_matters: It gives developers a plug-and-play safety harness for Claude Desktop that systematizes lessons from six months of production failures into a mandatory pre-flight checklist.
+  mental_damage: We have collectively decided that the most efficient way to stop an AI from breaking production is to write a rulebook in TypeScript that the AI must read before it is allowed to touch the database.
+  tags:
+    - mcp
+    - claude
+    - rules
+    - developer-tools
+    - safety
+  confidence: high
+curation:
+  status: included
+  reason: The primary artifact is a reusable rules bundle designed to augment Claude Desktop via MCP, fitting the skills category perfectly.
+  evidence:
+    - Repo description explicitly defines it as an MCP server providing 'automatic enforcement of critical rules' for Claude AI.
+    - README states it provides '21 numbered rules' and 'mandatory checklist' based on '96+ real documented failures'.
+    - Listed in awesome-mcp-servers under 'Developer Tools', confirming its fit as an MCP-based extension.
+placement:
+  primary_category: skills
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.711Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:07.956Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:43:05.687Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,82 @@
+id: github__neptun2000__heor-agent-mcp
+kind: github-repo
+name: heor-agent-mcp
+canonical_url: https://github.com/neptun2000/heor-agent-mcp
+identity:
+  github_repo: neptun2000/heor-agent-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__neptun2000__heor-agent-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - <a name="bio"></a>Biology, Medicine and Bioinformatics
+        anchor_text: neptun2000/heor-agent-mcp
+        extracted_url: https://github.com/neptun2000/heor-agent-mcp
+        surrounding_text: "- [neptun2000/heor-agent-mcp](https://github.com/neptun2000/heor-agent-mcp) [![heor-agent-mcp MCP server](https://glama.ai/mcp/servers/neptun2000/heor-agent-mcp/badges/score.svg)](https://glama.ai/mcp/servers/neptun2000/heor-agent-mcp) 📇 ☁️ - HEOR (Health Economics and Outcomes Research) MCP server with 7 tools for literature search across 41 medical data sources (PubMed, NICE, CADTH, ICER, etc.), cost-effectiveness modeling (Markov/PartSA/PSA), and HTA dossier preparation for pharmaceutical and biotech teams."
+        confidence: high
+metadata:
+  github:
+    stars: 3
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-04-12T19:17:40Z"
+    pushed_at: "2026-05-05T13:28:11Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:03:52.920Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:52.920Z"
+      bytes: 26559
+insights:
+  summary: An MCP server that provides AI-powered Health Economics and Outcomes Research (HEOR) tools for literature review, risk of bias assessment, cost-effectiveness modeling, and HTA dossier preparation.
+  why_it_matters: It allows developers building health-tech or pharma applications to integrate rigorous, regulatory-compliant HEOR workflows directly into Claude or other MCP-compatible hosts via standard tool calls.
+  mental_damage: "We have finally achieved the singularity: an AI agent that understands both your spaghetti code and the nuanced regulatory differences between EMA GVP Module V and Article 107a of EU Regulation 1235/2010."
+  tags:
+    - mcp-server
+    - healthcare
+    - pharma
+    - heor
+    - biotech
+  confidence: medium
+curation:
+  status: included
+  reason: The project is explicitly an MCP server providing callable tools for health economics research, fitting the MCP infrastructure category.
+  evidence:
+    - Repo name is 'heor-agent-mcp' and README describes it as 'Health Economics and Outcomes Research (HEOR) agent as a Model Context Protocol server'.
+    - Installation instructions show integration via `claude mcp add` and standard MCP JSON configuration for Claude Desktop.
+    - Listed under 'Server Implementations > Biology, Medicine and Bioinformatics' in the awesome-mcp-servers directory.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.709Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:52.920Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:40:16.024Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

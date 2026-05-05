@@ -1,0 +1,76 @@
+id: www__capably__ai
+kind: website
+name: www.capably.ai
+canonical_url: https://www.capably.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__capably__ai__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: janhq/awesome-local-ai
+        url: https://github.com/janhq/awesome-local-ai
+        repository: janhq/awesome-local-ai
+      extraction:
+        mode: parsed
+        section_path:
+          - Agents
+        anchor_text: AgentRunner.ai
+        extracted_url: https://www.agentrunner.ai
+        surrounding_text: "- [AgentRunner.ai](https://www.agentrunner.ai) - Leverage the power of GPT-4 to create and train fully autonomous AI agents."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Capably is an enterprise SaaS platform that provides a unified hub for natural language-driven business process automation, task delegation, and industry-specific AI capabilities.
+  why_it_matters: It represents a class of no-code operational automation tools that developers may be asked to integrate with or evaluate when enterprises want to deploy 'agentic AI' without writing code.
+  mental_damage: Another platform promising that 'anyone' can automate work with AI, ensuring developers will still be the ones debugging the 'deterministic outcomes' when the NLMP interface inevitably misinterprets the CFO's intent.
+  tags:
+    - enterprise-ai
+    - process-automation
+    - agents
+    - nlp
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a general-purpose enterprise business operations platform targeting non-technical employees, not a developer tool for writing code, building apps, or managing infrastructure.
+  evidence:
+    - Site description focuses on 'employee efficiency' and 'company intelligence' across industries like Retail, Healthcare, and Finance, not developer workflows.
+    - The 'NLMP Interface' is described as a 'simple interface for letting everyone in the company automate work,' targeting business users rather than coders.
+    - No GitHub repo, code-first SDK, or developer-facing API/CLI surface is evident in the scraped context; it is a 'Book a demo' SaaS product.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.732Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:50:02.636Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

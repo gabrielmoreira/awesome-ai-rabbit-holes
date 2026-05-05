@@ -1,0 +1,90 @@
+id: github__fission-ai__openspec
+kind: github-repo
+name: openspec
+canonical_url: https://github.com/fission-ai/openspec
+identity:
+  github_repo: fission-ai/openspec
+provenance:
+  discoveries:
+    - id: discovery__github__fission-ai__openspec__awesome-list__engineering4ai__awesome-spec-driven-development
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: Engineering4AI/awesome-spec-driven-development
+        url: https://github.com/engineering4ai/awesome-spec-driven-development
+        repository: Engineering4AI/awesome-spec-driven-development
+      extraction:
+        mode: parsed
+        section_path:
+          - Specification Tools
+        anchor_text: OpenSpec
+        extracted_url: https://github.com/fission-ai/openspec
+        surrounding_text: "- [OpenSpec](https://github.com/Fission-AI/OpenSpec) ![](https://img.shields.io/github/stars/Fission-AI/OpenSpec.svg) - Aligns developers and AI assistants on specifications before code is written."
+        confidence: high
+metadata:
+  github:
+    stars: 45378
+    forks: 3154
+    license: MIT
+    archived: false
+    created_at: "2025-08-05T10:37:45Z"
+    pushed_at: "2026-05-05T18:58:15Z"
+    description: Spec-driven development (SDD) for AI coding assistants.
+    homepage: https://openspec.dev/
+    topics:
+      - ai
+      - context-engineering
+      - engineering
+      - planning
+      - prd
+      - sdd
+      - sdlc
+      - spec
+      - spec-driven-development
+      - specification
+    last_checked_at: "2026-05-05T21:02:11.771Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:11.771Z"
+      bytes: 7936
+insights:
+  summary: A spec-driven development framework that uses slash commands to generate and manage proposal, spec, design, and task artifacts for AI coding assistants.
+  why_it_matters: It introduces a structured spec layer that forces alignment on requirements and implementation steps before AI assistants generate code, reducing unpredictable outputs in existing codebases.
+  mental_damage: We have successfully abstracted the waterfall method into markdown files so your LLM can ignore the requirements with perfect documentation.
+  tags:
+    - spec-driven
+    - context-engineering
+    - ai-workflow
+    - cli
+  confidence: high
+curation:
+  status: included
+  reason: The project's center of gravity is a spec-first loop where artifacts like proposals, specs, and tasks drive the AI coding workflow, fitting the spec-driven-development category perfectly.
+  evidence:
+    - "Repo description states: 'Spec-driven development (SDD) for AI coding assistants.'"
+    - README demonstrates a workflow based on '/opsx:propose', '/opsx:apply', and '/opsx:archive' that manages specification artifacts (proposal.md, specs/, design.md, tasks.md).
+    - Listed in 'awesome-spec-driven-development' under the 'Specification Tools' section.
+placement:
+  primary_category: spec-driven-development
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (45378) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.687Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:11.771Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:19:40.933Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

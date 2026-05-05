@@ -1,0 +1,90 @@
+id: github__fradser__mcp-server-apple-events
+kind: github-repo
+name: mcp-server-apple-reminders
+canonical_url: https://github.com/fradser/mcp-server-apple-events
+identity:
+  github_repo: fradser/mcp-server-apple-events
+provenance:
+  discoveries:
+    - id: discovery__github__fradser__mcp-server-apple-reminders__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📂 <a name="browser-automation"></a>Browser Automation
+        anchor_text: fradser/mcp-server-apple-reminders
+        extracted_url: https://github.com/fradser/mcp-server-apple-reminders
+        surrounding_text: "- [fradser/mcp-server-apple-reminders](https://github.com/FradSer/mcp-server-apple-reminders) 📇 🏠 🍎 - An MCP server for interacting with Apple Reminders on macOS"
+        confidence: high
+metadata:
+  github:
+    stars: 103
+    forks: 34
+    license: MIT
+    archived: false
+    created_at: "2025-02-14T18:03:02Z"
+    pushed_at: "2026-04-25T12:37:14Z"
+    description: MCP server providing native macOS integration with Apple Reminders and Calendar via EventKit
+    homepage: null
+    topics:
+      - calendar
+      - eventkit
+      - macos
+      - mcp-server
+      - model-context-protocol
+      - reminders
+      - swift
+      - typescript
+    last_checked_at: "2026-05-05T21:02:14.262Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:14.262Z"
+      bytes: 31634
+insights:
+  summary: An MCP server that provides native macOS integration with Apple Reminders and Calendar via EventKit, enabling AI assistants to manage tasks and events.
+  why_it_matters: It allows developers to offload reminder and calendar management directly to their AI workflows without leaving the context of their coding assistant.
+  mental_damage: "We have finally achieved the future: an AI agent that can nag you about your calendar invites using a Swift-compiled binary, while you ponder why you are debugging Objective-C permissions in a TypeScript project."
+  tags:
+    - mcp
+    - macos
+    - swift
+    - productivity
+    - eventkit
+  confidence: high
+curation:
+  status: included
+  reason: The project is a dedicated Model Context Protocol server designed to integrate macOS native calendar and reminder functionality into AI tooling.
+  evidence:
+    - Repo description explicitly states 'MCP server providing native macOS integration with Apple Reminders and Calendar'.
+    - README details a Model Context Protocol server using EventKit for full CRUD operations on reminders and calendar events.
+    - Topics include 'mcp-server' and 'model-context-protocol', confirming it is MCP infrastructure.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:20:05.788Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.687Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:14.262Z"
+    cause: null
+    next_retry_at: null

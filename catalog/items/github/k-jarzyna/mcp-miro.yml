@@ -1,0 +1,80 @@
+id: github__k-jarzyna__mcp-miro
+kind: github-repo
+name: mcp-miro
+canonical_url: https://github.com/k-jarzyna/mcp-miro
+identity:
+  github_repo: k-jarzyna/mcp-miro
+provenance:
+  discoveries:
+    - id: discovery__github__k-jarzyna__mcp-miro__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: Miro
+        extracted_url: https://github.com/k-jarzyna/mcp-miro
+        surrounding_text: "- **[Miro](https://github.com/k-jarzyna/mcp-miro)** - Miro MCP server, exposing all functionalities available in official Miro SDK."
+        confidence: high
+metadata:
+  github:
+    stars: 64
+    forks: 20
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-04-07T13:07:16Z"
+    pushed_at: "2025-08-19T06:30:22Z"
+    description: Miro integration for Model Context Protocol
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:03:01.661Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:01.661Z"
+      bytes: 7225
+insights:
+  summary: An MCP server that connects AI assistants to the Miro API, allowing models like Claude to list, create, update, and delete boards, items, and workspace resources.
+  why_it_matters: Developers can now script and automate Miro board management or hand off diagramming workflows directly to their AI assistants instead of clicking through the UI.
+  mental_damage: We have finally achieved the future where an AI can autonomously reorganize your sticky notes while you wonder why you bother attending the retrospective.
+  tags:
+    - mcp
+    - miro
+    - integration
+    - automation
+  confidence: high
+curation:
+  status: included
+  reason: This is a Model Context Protocol server that integrates with Miro, fitting cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states 'Miro integration for Model Context Protocol'.
+    - README confirms it is an MCP server enabling AI assistants to access and manage Miro boards.
+    - Listed in the awesome-mcp-servers community servers section.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.701Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:01.661Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:29:51.730Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,74 @@
+id: www__fullmetal__ai
+kind: website
+name: www.fullmetal.ai
+canonical_url: https://www.fullmetal.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__fullmetal__ai__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: janhq/awesome-local-ai
+        url: https://github.com/janhq/awesome-local-ai
+        repository: janhq/awesome-local-ai
+      extraction:
+        mode: parsed
+        section_path:
+          - Inference UI
+        anchor_text: FuLLMetalAi
+        extracted_url: https://www.fullmetal.ai
+        surrounding_text: "- [FuLLMetalAi](https://www.fullmetal.ai/) - Fullmetal.Ai is a distributed network of self-hosted Large Language Models (LLMs)."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Fullmetal AI is a local AI inference UI for running open source models on your own hardware.
+  why_it_matters: It provides developers with a desktop interface to run and interact with local models without relying on hosted APIs.
+  mental_damage: Yet another desktop wrapper promising to keep your data local, just in case the cloud decides to hallucinate your API keys too.
+  tags:
+    - local-ai
+    - inference-ui
+    - desktop
+  confidence: medium
+curation:
+  status: included
+  reason: The project is explicitly listed as a local inference UI in the awesome-local-ai directory, fitting the local-ai category for tools that run models on your own hardware.
+  evidence:
+    - Seen in awesome-local-ai under the section 'Inference UI'
+    - Source list purpose describes it as an 'awesome collection of open source and/or local AI tools and solutions'
+placement:
+  primary_category: local-ai
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.732Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:50:48.202Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

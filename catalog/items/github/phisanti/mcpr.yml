@@ -1,0 +1,85 @@
+id: github__phisanti__mcpr
+kind: github-repo
+name: mcpr
+canonical_url: https://github.com/phisanti/mcpr
+identity:
+  github_repo: phisanti/mcpr
+provenance:
+  discoveries:
+    - id: discovery__github__phisanti__mcpr__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧮 <a name="data-science-tools"></a>Data Science Tools
+        anchor_text: phisanti/MCPR
+        extracted_url: https://github.com/phisanti/mcpr
+        surrounding_text: "- [phisanti/MCPR](https://github.com/phisanti/MCPR) 🏠 🍎 🪟 🐧 - Model Context Protocol for R: enables AI agents to participate in interactive live R sessions."
+        confidence: high
+metadata:
+  github:
+    stars: 25
+    forks: 5
+    license: CC-BY-SA-4.0
+    archived: false
+    created_at: "2025-09-08T21:04:30Z"
+    pushed_at: "2026-03-30T07:42:44Z"
+    description: " MCPR enables AI agents to participate in interactive R sessions for professional analysis workflows."
+    homepage: https://phisanti.github.io/MCPR/
+    topics:
+      - data-analysis
+      - mcp
+      - mcp-server
+      - r
+    last_checked_at: "2026-05-05T21:04:16.196Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:16.196Z"
+      bytes: 9480
+insights:
+  summary: MCPR is an R package that runs an MCP server to let AI agents execute code inside a persistent, stateful R session rather than stateless Rscript invocations.
+  why_it_matters: It preserves workspace state across multi-step analytical workflows, allowing agents to iterate on plots, models, and data without re-running entire scripts from scratch.
+  mental_damage: We have finally engineered a way for an AI to inherit our messy global R environments, ensuring that tomorrow’s agent will also panic at objects created three days ago.
+  tags:
+    - r
+    - mcp
+    - data-analysis
+    - stateful-sessions
+  confidence: high
+curation:
+  status: included
+  reason: The project is an MCP server implementation that exposes a live R session to AI agents, fitting cleanly into MCP infrastructure rather than being a primary coding agent or generic framework.
+  evidence:
+    - Repo description states it enables AI agents to participate in interactive R sessions via MCP.
+    - README explains it exposes R functionality to agents as MCP tools using JSON-RPC over nanonext sockets.
+    - Listed in awesome-mcp-servers under Data Science Tools, confirming MCP ecosystem fit.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.713Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:16.196Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:44:30.911Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

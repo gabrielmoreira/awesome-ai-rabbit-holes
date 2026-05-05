@@ -1,0 +1,86 @@
+id: github__chaindead__telegram-mcp
+kind: github-repo
+name: telegram-mcp
+canonical_url: https://github.com/chaindead/telegram-mcp
+identity:
+  github_repo: chaindead/telegram-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__chaindead__telegram-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💬 <a name="communication"></a>Communication
+        anchor_text: chaindead/telegram-mcp
+        extracted_url: https://github.com/chaindead/telegram-mcp
+        surrounding_text: "- [chaindead/telegram-mcp](https://github.com/chaindead/telegram-mcp) 🏎️ 🏠 - Telegram API integration for accessing user data, managing dialogs (chats, channels, groups), retrieving messages, and handling read status"
+        confidence: high
+metadata:
+  github:
+    stars: 326
+    forks: 43
+    license: MIT
+    archived: false
+    created_at: "2025-04-01T14:43:04Z"
+    pushed_at: "2026-02-27T21:31:40Z"
+    description: Telegram MCP for managing dialogs, messages, drafts, read statuses, and more.
+    homepage: ""
+    topics:
+      - mcp
+      - mcp-server
+      - mtproto
+      - telegram
+      - telegram-api
+    last_checked_at: "2026-05-05T21:01:31.770Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:31.770Z"
+      bytes: 9065
+insights:
+  summary: An MCP server that bridges the Telegram API with AI assistants, enabling programmatic management of dialogs, messages, drafts, and read statuses.
+  why_it_matters: It allows developers to wire Telegram directly into agent workflows so assistants can read, summarize, and draft responses to messages without leaving the IDE.
+  mental_damage: "We have finally solved the hardest problem in computer science: making your AI agent just as distracted by Telegram notifications as you are."
+  tags:
+    - mcp
+    - telegram
+    - messaging
+    - tooling
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server implementation designed to expose Telegram API capabilities to AI assistants via the Model Context Protocol.
+  evidence:
+    - Repo description states it is a 'Telegram MCP for managing dialogs, messages, drafts, read statuses, and more.'
+    - README confirms 'The server is a bridge between the Telegram API and the AI assistants and is based on the Model Context Protocol.'
+    - Listed in awesome-mcp-servers under 'Server Implementations > Communication'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (326) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.682Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:31.770Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:12:45.261Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

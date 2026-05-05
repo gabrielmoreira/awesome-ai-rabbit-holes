@@ -1,0 +1,76 @@
+id: thinkchain__ai
+kind: website
+name: thinkchain.ai
+canonical_url: https://thinkchain.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__thinkchain__ai__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - ThinkChain AI
+        anchor_text: ThinkChain AI
+        extracted_url: https://www.thinkchain.ai
+        surrounding_text: "## [ThinkChain AI](https://www.thinkchain.ai/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: ThinkChain.ai offers cloud-hosted MCP server bundles that connect AI assistants to external tools via downloadable configuration files or URLs.
+  why_it_matters: It simplifies giving AI clients like Claude and ChatGPT access to developer tools by removing the need for local server setup or credential management.
+  mental_damage: We have successfully abstracted setting up the abstraction that abstracts the work we were already abstracting.
+  tags:
+    - mcp
+    - tooling
+    - infrastructure
+    - integrations
+  confidence: high
+curation:
+  status: included
+  reason: The product is a developer-facing MCP infrastructure provider offering cloud-hosted server bundles and configuration files.
+  evidence:
+    - Scraped site context describes 'Cloud-hosted MCP server bundles that connect AI assistants like ChatGPT and Claude to your tools'
+    - Product features include '.mcpb file installation for Claude Desktop' and 'MCP URLs for universal AI client compatibility'
+    - Positioned as a tool for 'developers who want AI automation without technical complexity'
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.731Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:48:42.612Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

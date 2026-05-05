@@ -1,0 +1,75 @@
+id: x__com__0interestrates
+kind: website
+name: 0interestrates
+canonical_url: https://x.com/0interestrates
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__x__com__0interestrates__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Julius
+          - Description
+        anchor_text: rahul
+        extracted_url: https://twitter.com/0interestrates
+        surrounding_text: "- Team Twitter profiles: [Matt Brockman](https://twitter.com/badphilosopher), [rahul](https://twitter.com/0interestrates)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A Twitter/X account with no accessible content, repository, or product surface.
+  why_it_matters: It doesn't, unless you were hoping an X profile would somehow ship code for you.
+  mental_damage: We have officially reached the stage where an unresolvable privacy-error page qualifies as a candidate for the AI agent stack.
+  tags:
+    - unverified
+    - social-media
+  confidence: high
+curation:
+  status: excluded
+  reason: This is an X.com URL returning an error page with no repository, product, tooling surface, or developer-facing utility.
+  evidence:
+    - URL resolves to https://x.com/0interestrates with a privacy-extension error and no accessible content
+    - No repo description, README, stars, license, or creation/push dates available
+    - No evidence of a tool, agent, framework, or developer workflow — only a social media profile
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.734Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:54:12.127Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

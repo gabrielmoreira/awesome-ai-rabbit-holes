@@ -1,0 +1,82 @@
+id: github__omni-mcp__isaac-sim-mcp
+kind: github-repo
+name: isaac-sim-mcp
+canonical_url: https://github.com/omni-mcp/isaac-sim-mcp
+identity:
+  github_repo: omni-mcp/isaac-sim-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__omni-mcp__isaac-sim-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🎨 <a name="art-and-culture"></a>Art & Culture
+        anchor_text: omni-mcp/isaac-sim-mcp
+        extracted_url: https://github.com/omni-mcp/isaac-sim-mcp
+        surrounding_text: "- [omni-mcp/isaac-sim-mcp](https://github.com/omni-mcp/isaac-sim-mcp) 📇 ☁️ - A MCP Server and an extension enables natural language control of NVIDIA Isaac Sim, Lab, OpenUSD and etc."
+        confidence: high
+metadata:
+  github:
+    stars: 161
+    forks: 42
+    license: MIT
+    archived: false
+    created_at: "2025-03-31T04:43:01Z"
+    pushed_at: "2025-04-25T12:39:05Z"
+    description: Isaac Simulation MCP Extension and Server
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:04:01.285Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:01.285Z"
+      bytes: 6971
+insights:
+  summary: An MCP server and extension that enables natural language control of NVIDIA Isaac Sim to manipulate robots, lighting, and scenes through AI coding assistants like Cursor.
+  why_it_matters: It lets robotics developers use conversational prompts to set up complex Isaac Sim environments and robot simulations instead of manually writing USD scene code.
+  mental_damage: Now your robot can misunderstand your instructions in natural language before it inevitably drives itself off a virtual cliff.
+  tags:
+    - mcp
+    - robotics
+    - simulation
+    - nvidia
+    - cursor
+  confidence: high
+curation:
+  status: included
+  reason: This is a dedicated MCP server and Isaac Sim extension that integrates simulation control into MCP-compatible AI editors, fitting cleanly into MCP infrastructure.
+  evidence:
+    - "Repo description states: 'Isaac Simulation MCP Extension and Server'"
+    - README says it 'leverages the Model Context Protocol (MCP) framework to enable natural language control of NVIDIA Isaac Sim'
+    - Setup instructions show integration with Cursor's MCP settings as a server endpoint
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (161) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.711Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:01.285Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:41:59.135Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

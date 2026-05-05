@@ -1,0 +1,85 @@
+id: github__optuna__optuna-dashboard
+kind: github-repo
+name: optuna-dashboard
+canonical_url: https://github.com/optuna/optuna-dashboard
+identity:
+  github_repo: optuna/optuna-dashboard
+provenance:
+  discoveries:
+    - id: discovery__github__optuna__optuna-dashboard__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: scraped
+        section_path:
+          - Server Implementations
+          - 🧮 <a name="data-science-tools"></a>Data Science Tools
+        anchor_text: Optuna
+        extracted_url: https://optuna.org
+        surrounding_text: "- [optuna/optuna-mcp](https://github.com/optuna/optuna-mcp) 🎖️ 🐍 🏠 🐧 🍎 - Official MCP server enabling seamless orchestration of hyperparameter search and other optimization tasks with [Optuna](https://optuna.org/)."
+        confidence: high
+metadata:
+  github:
+    stars: 771
+    forks: 117
+    license: NOASSERTION
+    archived: false
+    created_at: "2020-10-24T09:19:45Z"
+    pushed_at: "2026-04-23T01:44:51Z"
+    description: Real-time Web Dashboard for Optuna.
+    homepage: https://optuna-dashboard.readthedocs.io/en/latest/
+    topics:
+      - dashboard
+      - hyperparameter-optimization
+      - optuna
+    last_checked_at: "2026-05-05T21:04:08.266Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:08.266Z"
+      bytes: 4981
+insights:
+  summary: A real-time web dashboard and IDE extension for visualizing and managing Optuna hyperparameter optimization studies.
+  why_it_matters: It provides developers with immediate visual feedback on model tuning trials directly inside Jupyter, VS Code, or a browser, removing the need to manually parse database files.
+  mental_damage: Because nothing soothes the existential dread of watching a model fail to converge quite like a beautifully rendered, real-time chart of exactly how poorly your hyperparameters are performing.
+  tags:
+    - ml-ops
+    - hyperparameter-tuning
+    - dashboard
+    - optuna
+    - jupyter
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a specialized visualization tool for the Optuna machine learning framework, which falls outside the catalog's scope of AI developer tooling and coding workflows.
+  evidence:
+    - Repo description defines it strictly as a 'Real-time Web Dashboard for Optuna', a hyperparameter optimization framework.
+    - README demonstrates a workflow centered on ML model tuning (suggest_float, suggest_categorical) rather than software development or coding assistance.
+    - Listed in awesome-mcp-servers under 'Data Science Tools', confirming its identity as a data science utility rather than a developer productivity agent.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (771) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.712Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:08.266Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:43:06.509Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

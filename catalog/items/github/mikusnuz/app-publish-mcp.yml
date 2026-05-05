@@ -1,0 +1,92 @@
+id: github__mikusnuz__app-publish-mcp
+kind: github-repo
+name: app-publish-mcp
+canonical_url: https://github.com/mikusnuz/app-publish-mcp
+identity:
+  github_repo: mikusnuz/app-publish-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__mikusnuz__app-publish-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: mikusnuz/app-publish-mcp
+        extracted_url: https://github.com/mikusnuz/app-publish-mcp
+        surrounding_text: "- [mikusnuz/app-publish-mcp](https://github.com/mikusnuz/app-publish-mcp) [![mikusnuz/app-publish-mcp MCP server](https://glama.ai/mcp/servers/mikusnuz/app-publish-mcp/badges/score.svg)](https://glama.ai/mcp/servers/mikusnuz/app-publish-mcp) 📇 ☁️ - Unified MCP server for App Store Connect & Google Play Console — 91 tools for iOS/Android app management, TestFlight, builds, submissions, pricing, and sales reports."
+        confidence: high
+metadata:
+  github:
+    stars: 7
+    forks: 2
+    license: MIT
+    archived: false
+    created_at: "2026-02-15T16:49:14Z"
+    pushed_at: "2026-03-19T19:48:45Z"
+    description: Unified MCP server for App Store Connect & Google Play Console — 91 tools for listings, screenshots, releases, reviews & submissions
+    homepage: null
+    topics:
+      - ai-tools
+      - android
+      - app-publishing
+      - app-store-connect
+      - google-play
+      - ios
+      - mcp
+      - mcp-server
+      - mobile-app
+      - model-context-protocol
+    last_checked_at: "2026-05-05T21:03:40.665Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:40.665Z"
+      bytes: 7566
+insights:
+  summary: A Model Context Protocol server providing 91 tools to manage App Store Connect and Google Play Console operations, including listings, screenshots, releases, and reviews.
+  why_it_matters: It allows developers to delegate tedious mobile app store metadata updates, submission states, and review responses to an AI assistant via the MCP standard.
+  mental_damage: We have successfully abstracted away the pain of the App Store Connect web interface by adding a 91-tool middleware layer that requires an AI to operate.
+  tags:
+    - mcp
+    - mobile
+    - app-store
+    - automation
+    - devops
+  confidence: high
+curation:
+  status: included
+  reason: The primary artifact is a dedicated MCP server implementation with 91 tools for mobile app publishing, fitting perfectly into the MCP infrastructure category.
+  evidence:
+    - Repo description explicitly states 'Unified MCP server for App Store Connect & Google Play Console'
+    - README details 56 Apple tools and 35 Google tools exposed via the Model Context Protocol
+    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.707Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:40.665Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:37:50.981Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

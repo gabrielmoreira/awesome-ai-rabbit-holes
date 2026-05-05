@@ -1,0 +1,80 @@
+id: github__mailtrap__mailtrap-mcp
+kind: github-repo
+name: mailtrap-mcp
+canonical_url: https://github.com/mailtrap/mailtrap-mcp
+identity:
+  github_repo: mailtrap/mailtrap-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__railsware__mailtrap-mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Mailtrap
+        extracted_url: https://github.com/railsware/mailtrap-mcp
+        surrounding_text: "- **[Mailtrap](https://github.com/railsware/mailtrap-mcp)** - Integrates with Mailtrap Email API."
+        confidence: high
+metadata:
+  github:
+    stars: 59
+    forks: 13
+    license: MIT
+    archived: false
+    created_at: "2025-03-24T17:59:54Z"
+    pushed_at: "2026-04-21T06:45:26Z"
+    description: Official mailtrap.io MCP server
+    homepage: https://mailtrap.io
+    topics: []
+    last_checked_at: "2026-05-05T21:03:27.684Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:27.684Z"
+      bytes: 20828
+insights:
+  summary: An official MCP server that exposes Mailtrap's email sending, sandbox testing, templates, and inbox tools to AI coding agents and IDEs.
+  why_it_matters: It lets developers ask their AI assistant to send real emails, inspect sandbox inboxes, and manage templates without leaving the editor or writing API integration code.
+  mental_damage: We have successfully reached the point where your AI assistant now needs an API token just to debug your password reset email.
+  tags:
+    - mcp
+    - mailtrap
+    - email-testing
+    - ide-integration
+  confidence: high
+curation:
+  status: included
+  reason: This is a first-party MCP server that integrates Mailtrap's email testing capabilities directly into AI coding workflows, fitting cleanly into the MCP infrastructure category.
+  evidence:
+    - Repo description explicitly states 'Official mailtrap.io MCP server'.
+    - README demonstrates MCP tools for send-email, sandbox testing, templates, and inbox management with Cursor and VS Code install badges.
+    - Published as an npm package (mcp-mailtrap) with active maintenance (pushed 2026-04-21).
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:35:19.421Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.714Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:27.684Z"
+    cause: null
+    next_retry_at: null

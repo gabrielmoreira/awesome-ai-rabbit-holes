@@ -1,0 +1,74 @@
+id: gocharlie__ai
+kind: website
+name: gocharlie.ai
+canonical_url: https://gocharlie.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__gocharlie__ai__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - GoCharlie
+        anchor_text: GoCharlie
+        extracted_url: https://gocharlie.ai
+        surrounding_text: "## [GoCharlie](https://gocharlie.ai/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: GoCharlie is a multi-agent AI platform designed to automate marketing tasks, content creation, and business workflows.
+  why_it_matters: It represents the trend of specialized, domain-specific agent teams, though it targets business operators rather than developers looking to modify source code.
+  mental_damage: Yet another 'autonomous agent' platform that solves everything except the existential dread of maintaining the prompt stack required to keep it running.
+  tags:
+    - agents
+    - marketing
+    - automation
+  confidence: high
+curation:
+  status: excluded
+  reason: The product is a general-purpose business and marketing automation SaaS, lacking a specific developer-tooling, IDE, or repo-editing angle required for the catalog.
+  evidence:
+    - Listed in awesome-ai-agents under a general 'autonomous agents' section without dev-tooling context.
+    - URL points to a commercial SaaS (gocharlie.ai) with no GitHub repo, description, or README indicating developer features.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.728Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:45:04.043Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

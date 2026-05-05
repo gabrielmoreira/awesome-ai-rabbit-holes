@@ -1,0 +1,80 @@
+id: github__easyfl-ai__easyfl
+kind: github-repo
+name: easyfl
+canonical_url: https://github.com/easyfl-ai/easyfl
+identity:
+  github_repo: easyfl-ai/easyfl
+provenance:
+  discoveries:
+    - id: discovery__github__easyfl-ai__easyfl__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Federated ML
+        anchor_text: EasyFL
+        extracted_url: https://github.com/easyfl-ai/easyfl
+        surrounding_text: "| [EasyFL](https://github.com/EasyFL-AI/EasyFL)                   | An Easy-to-use Federated Learning Platform                                                                                                                                                                                                                                       | ![GitHub Badge](https://img.shields.io/github/stars/EasyFL-AI/EasyFL.svg?style=flat-square)     |"
+        confidence: high
+metadata:
+  github:
+    stars: 25
+    forks: 1
+    license: Apache-2.0
+    archived: false
+    created_at: "2024-08-14T17:02:58Z"
+    pushed_at: "2023-08-23T06:50:58Z"
+    description: An easy-to-use federated learning platform
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:01:59.106Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:59.106Z"
+      bytes: 6087
+insights:
+  summary: EasyFL is a low-code federated learning platform built on PyTorch that enables researchers and developers to simulate, prototype, and deploy FL applications with minimal coding.
+  why_it_matters: It lowers the barrier to entering federated learning by providing out-of-the-box datasets, models, and algorithms while supporting distributed and Kubernetes-based remote training.
+  mental_damage: Another 'low-code' platform promising to abstract away the complexity of distributed systems, ensuring you can now debug multi-node PyTorch errors with only three lines of code.
+  tags:
+    - federated-learning
+    - pytorch
+    - low-code
+    - ml-research
+  confidence: high
+curation:
+  status: excluded
+  reason: The project is a federated learning research platform and framework, which falls under general ML research and infrastructure rather than the specific scope of AI developer tooling, coding agents, or app builders.
+  evidence:
+    - Repo description defines it as 'An easy-to-use federated learning platform', focusing on ML research and POCs.
+    - README emphasizes CV/NLP application migration, PyTorch code, and research paper reproductions rather than AI-assisted coding workflows.
+    - Listed in Awesome-LLMOps under 'Federated ML', a general ML operations category rather than developer productivity or coding assistants.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.685Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:59.106Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:17:28.188Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

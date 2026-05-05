@@ -1,0 +1,81 @@
+id: github__facebookresearch__segment-anything
+kind: github-repo
+name: segment-anything
+canonical_url: https://github.com/facebookresearch/segment-anything
+identity:
+  github_repo: facebookresearch/segment-anything
+provenance:
+  discoveries:
+    - id: discovery__github__facebookresearch__segment-anything__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Model
+          - CV Foundation Model
+        anchor_text: segment-anything (SAM)
+        extracted_url: https://github.com/facebookresearch/segment-anything
+        surrounding_text: "| [segment-anything (SAM)](https://github.com/facebookresearch/segment-anything) | produces high quality object masks from input prompts such as points or boxes, and it can be used to generate masks for all objects in an image. | ![GitHub Badge](https://img.shields.io/github/stars/facebookresearch/segment-anything.svg?style=flat-square) |"
+        confidence: high
+metadata:
+  github:
+    stars: 54088
+    forks: 6335
+    license: Apache-2.0
+    archived: false
+    created_at: "2023-03-23T17:03:03Z"
+    pushed_at: "2024-09-18T17:46:55Z"
+    description: The repository provides code for running inference with the SegmentAnything Model (SAM), links for downloading the trained model checkpoints, and example notebooks that show how to use the model.
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:02:07.462Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:07.462Z"
+      bytes: 9621
+insights:
+  summary: A Meta AI research repository providing code and model checkpoints for the Segment Anything Model (SAM), a promptable foundation model for zero-shot image and video segmentation.
+  why_it_matters: It gives developers a high-quality, pre-trained foundation model and inference code to embed visual segmentation capabilities into applications without training custom models.
+  mental_damage: You now have 54,000 stars worth of anxiety wondering if your manual pixel-labelling script is the modern equivalent of writing your own HTTP server in C.
+  tags:
+    - computer-vision
+    - foundation-model
+    - segmentation
+    - ml-models
+  confidence: high
+curation:
+  status: excluded
+  reason: While a high-quality developer resource, it is a general ML research model for computer vision rather than a tool for coding workflows, agent orchestration, or app building.
+  evidence:
+    - Repo description explicitly states it provides code for running inference with a CV model (SAM), not for software development tasks.
+    - README focuses on image/video segmentation, mask generation, and ONNX export for visual tasks, with no developer-tooling angle.
+    - Listed in Awesome-LLMOps under 'Model > CV Foundation Model', confirming its scope is ML infrastructure rather than developer productivity.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (54088) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.687Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:07.462Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:18:58.139Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

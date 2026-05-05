@@ -1,0 +1,129 @@
+id: github__entropy-research__devon
+kind: github-repo
+name: devon
+canonical_url: https://github.com/entropy-research/devon
+identity:
+  github_repo: entropy-research/devon
+provenance:
+  discoveries:
+    - id: discovery__devon__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Coding Agents
+        anchor_text: Devon
+        extracted_url: https://devon.ai
+        surrounding_text: "- **[Devon](https://devon.ai/)** – AI software engineer for autonomous coding."
+        confidence: high
+    - id: discovery__github__entropy-research__devon__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Terminal-native coding agents
+          - Open Source
+        anchor_text: Devon
+        extracted_url: https://github.com/entropy-research/devon
+        surrounding_text: "- **[Devon](https://github.com/entropy-research/Devon)** `⭐ 3.4k` — Open-source pair programmer with a TUI; autonomous planning, execution, and debugging in Git workflows."
+        confidence: high
+    - id: discovery__github__entropy-research__devon__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Devon
+        anchor_text: Devon
+        extracted_url: https://github.com/entropy-research/devon
+        surrounding_text: "## [Devon](https://github.com/entropy-research/Devon)"
+        confidence: high
+metadata:
+  github:
+    stars: 3447
+    forks: 281
+    license: AGPL-3.0
+    archived: false
+    created_at: "2024-03-15T04:52:31Z"
+    pushed_at: "2025-05-26T05:47:27Z"
+    description: "Devon: An open-source pair programmer"
+    homepage: ""
+    topics:
+      - agent
+      - agent-based-framework
+      - agent-based-model
+      - ai
+      - ai-developer
+      - ai-software
+      - ai-software-engineer
+      - code-assistant
+      - code-generation
+      - developer-tool
+      - developer-tools
+      - gpt-4
+      - gpt-4o
+      - groq
+      - llama3
+      - ollama
+      - vscode
+    last_checked_at: "2026-05-05T21:02:03.107Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:03.107Z"
+      bytes: 8437
+insights:
+  summary: Devon is an open-source AI pair programmer that runs in the terminal or as a desktop UI and can explore codebases, edit multiple files, write tests, and fix bugs using models from Anthropic, OpenAI, Groq, or local Ollama setups.
+  why_it_matters: It gives developers a locally runnable, multi-model coding agent that works directly inside an existing project directory without requiring a hosted SaaS subscription.
+  mental_damage: Yet another brave attempt to automate your PRs, this time with a terminal UI that politely asks you to remind it which file you actually meant to change.
+  tags:
+    - coding-agent
+    - terminal-ui
+    - open-source
+    - multi-model
+    - local-ai
+  confidence: high
+curation:
+  status: included
+  reason: Devon is a developer-facing coding agent that directly plans, edits, and debugs code inside a repo via a terminal UI, CLI, and Electron app, fitting the coding-agents category cleanly.
+  evidence:
+    - "Repo description states: 'Devon: An open-source pair programmer' with topics including agent, code-assistant, and code-generation."
+    - README features include multi-file editing, codebase exploration, test writing, and bug fixing inside a project directory.
+    - Included in awesome-cli-coding-agents under 'Terminal-native coding agents > Open Source'.
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (3447) exceeded threshold (150)
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:04:30.932Z"
+    cause: null
+    attempts: 2
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+    next_retry_at: null
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.727Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:03.107Z"
+    cause: null
+    next_retry_at: null

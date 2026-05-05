@@ -1,0 +1,81 @@
+id: github__diivi__aseprite-mcp
+kind: github-repo
+name: aseprite-mcp
+canonical_url: https://github.com/diivi/aseprite-mcp
+identity:
+  github_repo: diivi/aseprite-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__diivi__aseprite-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🎨 <a name="art-and-culture"></a>Art & Culture
+        anchor_text: diivi/aseprite-mcp
+        extracted_url: https://github.com/diivi/aseprite-mcp
+        surrounding_text: "- [diivi/aseprite-mcp](https://github.com/diivi/aseprite-mcp) 🐍 🏠 - MCP server using the Aseprite API to create pixel art"
+        confidence: high
+metadata:
+  github:
+    stars: 158
+    forks: 17
+    license: MIT
+    archived: false
+    created_at: "2025-04-05T21:55:18Z"
+    pushed_at: "2026-05-04T07:01:10Z"
+    description: MCP server for interacting with the Aseprite API
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:01:53.504Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:53.504Z"
+      bytes: 1563
+insights:
+  summary: An MCP server that exposes the Aseprite pixel art API to AI coding assistants, allowing them to create and manipulate sprites directly within the editor.
+  why_it_matters: It bridges the gap between AI code generation and creative asset workflows, letting developers automate sprite creation and modification through natural language prompts in their IDE.
+  mental_damage: "We have finally solved the hardest problem in computer science: getting a $20/month subscription to prompt a cloud while a Docker container installs Steam to draw a pixelated mushroom."
+  tags:
+    - mcp
+    - aseprite
+    - pixel-art
+    - integration
+  confidence: high
+curation:
+  status: included
+  reason: The project is a dedicated MCP server implementation designed to integrate Aseprite with AI assistants, fitting squarely into the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description explicitly states: 'MCP server for interacting with the Aseprite API'."
+    - README demonstrates usage by showing Cursor using the MCP server to draw a cloud in Aseprite.
+    - Listed in the 'awesome-mcp-servers' directory under 'Art & Culture' server implementations.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (158) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.685Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:53.504Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:16:26.537Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

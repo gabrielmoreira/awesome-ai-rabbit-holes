@@ -1,0 +1,81 @@
+id: github__aws-powertools__powertools-mcp
+kind: github-repo
+name: powertools-mcp
+canonical_url: https://github.com/aws-powertools/powertools-mcp
+identity:
+  github_repo: aws-powertools/powertools-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__aws-powertools__powertools-mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Powertool
+        extracted_url: https://github.com/aws-powertools/powertools-mcp
+        surrounding_text: "- **[Powertool](https://github.com/aws-powertools/powertools-mcp)** - An MCP implementation that provides search functionality for the Powertools for AWS Lambda documentation across multiple runtimes."
+        confidence: high
+metadata:
+  github:
+    stars: 43
+    forks: 13
+    license: NOASSERTION
+    archived: false
+    created_at: "2025-04-21T02:19:56Z"
+    pushed_at: "2026-05-04T18:59:22Z"
+    description: Powertools for AWS's official MCP Server
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:01:14.352Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:14.352Z"
+      bytes: 10305
+insights:
+  summary: An official MCP server from AWS Powertools that enables LLM agents to search Powertools for AWS Lambda documentation and examples across multiple runtimes.
+  why_it_matters: It allows AI coding agents and IDEs to pull accurate, context-specific Lambda utility documentation directly into the development workflow instead of guessing from stale training data.
+  mental_damage: We have now successfully abstracted reading documentation into a protocol that requires an agent to read the documentation for us.
+  tags:
+    - mcp
+    - aws
+    - lambda
+    - documentation
+    - context
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server implementation for AWS Powertools documentation, which fits cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description states: 'Powertools for AWS's official MCP Server'"
+    - README confirms it is an MCP implementation providing search for Powertools for AWS Lambda documentation to LLM agents
+    - Listed in awesome-mcp-servers under 'Official Servers' section
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.680Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:14.352Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:09:48.253Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

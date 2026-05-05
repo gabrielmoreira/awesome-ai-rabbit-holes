@@ -1,0 +1,76 @@
+id: aifordevelopers__substack__com
+kind: website
+name: aifordevelopers.substack.com
+canonical_url: https://aifordevelopers.substack.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__aifordevelopers__substack__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - README
+        anchor_text: newsletter
+        extracted_url: https://aifordevelopers.substack.com
+        surrounding_text: "**Reach thousands of developers building with AI by sponsoring this list, our [newsletter](https://aifordevelopers.substack.com/) and [AI For Developers](https://aifordevelopers.org/). Contact us at [aifordevelopers.org/advertise](https://aifordevelopers.org/advertise)**"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A Substack newsletter providing weekly curated updates, guides, and analysis on AI tools, frameworks, and APIs for developers building with AI.
+  why_it_matters: It aggregates and explains practical usage of emerging AI developer tools, helping engineers cut through the noise to find workflows that actually work.
+  mental_damage: Yet another subscription promising to unlock the remaining 80% of tools you already own but will probably never configure correctly.
+  tags:
+    - newsletter
+    - ai-tools
+    - developer-resources
+    - substack
+  confidence: high
+curation:
+  status: included
+  reason: This is a publication focused on ongoing discovery and commentary of AI tools rather than a standalone developer tool or product experience.
+  evidence:
+    - Official newsletter of aifordevelopers.org with weekly updates on tools, frameworks, APIs, and tips
+    - Featured in awesome-ai-coding-tools as a newsletter with tens of thousands of subscribers
+    - Recent headlines include guides for Claude Code, Claude Skills, and DeepSeek model analysis
+placement:
+  primary_category: newsletters-and-feeds
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.726Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T20:49:09.324Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

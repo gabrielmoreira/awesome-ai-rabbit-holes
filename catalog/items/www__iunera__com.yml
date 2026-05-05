@@ -1,0 +1,74 @@
+id: www__iunera__com
+kind: website
+name: www.iunera.com
+canonical_url: https://www.iunera.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__iunera__com__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: iunera
+        extracted_url: https://www.iunera.com
+        surrounding_text: "- **[Druid MCP Server](https://github.com/iunera/druid-mcp-server)** - STDIO/SEE MCP Server for Apache Druid by [iunera](https://www.iunera.com) that provides extensive tools, resources, and prompts for managing and analyzing Druid clusters."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: iunera.com is a website with no public repository, description, or README excerpt provided, and only appears as a reference link in an MCP servers community list.
+  why_it_matters: Without a clear product description or accessible tooling details, it is impossible to determine what workflow it changes for developers.
+  mental_damage: We have reached the point in the AI gold rush where a URL in a spreadsheet is enough to trigger a full architectural review.
+  tags:
+    - unknown
+    - mcp
+  confidence: low
+curation:
+  status: excluded
+  reason: The project lacks a description, README, homepage, and any verifiable evidence of a developer tool; it is merely a URL referenced in a community list.
+  evidence:
+    - No repo description, README excerpt, or scraped site context is provided.
+    - Homepage is listed as (none) and direct source list context is 'no'.
+    - Only signal is a mention in awesome-mcp-servers without a description of what the server actually does.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.732Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:51:27.804Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

@@ -1,0 +1,76 @@
+id: aws__amazon__com__q__developer
+kind: website
+name: developer
+canonical_url: https://aws.amazon.com/q/developer
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__aws__amazon__com__q__developer__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Code Completion
+        anchor_text: Amazon Q Developer
+        extracted_url: https://aws.amazon.com/q/developer
+        surrounding_text: "- **[Amazon Q Developer](https://aws.amazon.com/q/developer/)** – AI assistant for code completion, debugging, and AWS integration."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Amazon Q Developer is an AWS-native AI coding assistant that provides code generation, debugging, refactoring, and agentic task execution inside IDEs, the CLI, and the AWS Console.
+  why_it_matters: It integrates deeply with AWS services and private repositories to accelerate the full development lifecycle, from feature implementation to Java upgrades and cloud resource management.
+  mental_damage: Yet another agentic assistant promising to heal your legacy Java stack, provided you're willing to hand over your org's entire codebase and cloud bill to the AWS Free Tier.
+  tags:
+    - aws
+    - ide
+    - code-completion
+    - agentic
+  confidence: high
+curation:
+  status: included
+  reason: It is a primary coding assistant that writes, edits, and reviews code directly within the developer's IDE, CLI, and PR workflows with agentic capabilities.
+  evidence:
+    - Listed in awesome-ai-coding-tools under 'Code Completion' as an AI coding assistant for IDEs.
+    - Scraped site describes 'agentic capabilities' to autonomously implement features, review code, and refactor inside the IDE and CLI.
+    - Supports integration with GitHub.com for code reviews and feature implementation within existing repo workflows.
+placement:
+  primary_category: coding-agents
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.726Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:42:25.091Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

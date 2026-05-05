@@ -1,0 +1,87 @@
+id: github__all-contributors__all-contributors
+kind: github-repo
+name: all-contributors
+canonical_url: https://github.com/all-contributors/all-contributors
+identity:
+  github_repo: all-contributors/all-contributors
+provenance:
+  discoveries:
+    - id: discovery__github__all-contributors__all-contributors__awesome-list__github__awesome-copilot
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: github/awesome-copilot
+        url: https://github.com/github/awesome-copilot
+        repository: github/awesome-copilot
+      extraction:
+        mode: parsed
+        section_path:
+          - Contributors ✨
+        anchor_text: all-contributors
+        extracted_url: https://github.com/all-contributors/all-contributors
+        surrounding_text: This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+        confidence: high
+metadata:
+  github:
+    stars: 8037
+    forks: 1733
+    license: MIT
+    archived: false
+    created_at: "2016-02-28T07:29:02Z"
+    pushed_at: "2026-05-05T08:45:47Z"
+    description: ✨ The all-contributors bot website and documentation. Recognize all contributors, not just the ones who push code ✨
+    homepage: https://allcontributors.org/
+    topics:
+      - acknowledgements
+      - all-contributors
+      - contributors
+      - open-source-tooling
+      - opensource
+      - opensource-management
+      - recognition
+    last_checked_at: "2026-05-05T21:01:00.893Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:00.893Z"
+      bytes: 52166
+insights:
+  summary: A specification and bot system for recognizing all types of contributors (not just code) in open-source project documentation.
+  why_it_matters: It provides a standardized way for maintainers to automate acknowledgment of diverse contributions like documentation, design, and issue triage directly in the README.
+  mental_damage: We have successfully automated the social anxiety of remembering to thank people, ensuring our open-source ego management is as well-maintained as our dependency trees.
+  tags:
+    - open-source
+    - contributors
+    - automation
+    - bot
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a general open-source community management tool for acknowledging contributors, lacking a specific AI developer-tooling angle required for the catalog.
+  evidence:
+    - Repo description focuses on recognizing contributors, not AI tooling.
+    - README describes a specification and bot for open-source acknowledgment with no mention of AI.
+    - Found in awesome-copilot lists only as a badge/example of contributor recognition, not as a copilot extension.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (8037) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.440Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:00.893Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:07:43.573Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

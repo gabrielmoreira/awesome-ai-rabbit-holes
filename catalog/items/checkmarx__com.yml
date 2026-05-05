@@ -1,0 +1,76 @@
+id: checkmarx__com
+kind: website
+name: checkmarx.com
+canonical_url: https://checkmarx.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__checkmarx__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Security
+        anchor_text: Checkmarx
+        extracted_url: https://checkmarx.com
+        surrounding_text: "- **[Checkmarx](https://checkmarx.com/)** – AI-enhanced SAST with comprehensive vulnerability detection."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Checkmarx One is an enterprise application security platform that uses agentic AI to scan code, dependencies, and cloud infrastructure while providing in-IDE remediation guidance.
+  why_it_matters: It integrates SAST, SCA, and ASPM directly into the developer workflow with AI agents that prioritize exploitable risks and suggest fixes inside the IDE.
+  mental_damage: You can now watch an AI agent argue with your security team about whether that vulnerability you introduced at 2am actually matters.
+  tags:
+    - security
+    - sast
+    - agents
+    - ide-integration
+  confidence: high
+curation:
+  status: included
+  reason: The 'Developer Assist' product is an AI agent that directly triages, explains, and remediates code vulnerabilities inside the developer's IDE workflow, fitting the coding-agents definition.
+  evidence:
+    - "Scraped site states: 'Developer-first AI agent preventing and remediating vulnerabilities instantly in IDE.'"
+    - Listed in awesome-ai-coding-tools under the 'Security' section as an 'Agentic AppSec platform'.
+    - Platform description highlights 'AI-powered Agentic AppSec agents' that provide 'in-IDE fixes and surfacing priority issues'.
+placement:
+  primary_category: coding-agents
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.726Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:42:48.522Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

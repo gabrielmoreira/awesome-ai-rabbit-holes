@@ -1,0 +1,91 @@
+id: github__labring__fastgpt
+kind: github-repo
+name: fastgpt
+canonical_url: https://github.com/labring/fastgpt
+identity:
+  github_repo: labring/fastgpt
+provenance:
+  discoveries:
+    - id: discovery__github__labring__fastgpt__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 知识库 RAG
+        anchor_text: FastGPT
+        extracted_url: https://github.com/labring/fastgpt
+        surrounding_text: "5. [FastGPT](https://github.com/labring/FastGPT): A knowledge-based platform built on the LLM, offers out-of-the-box data processing and model invocation capabilities, allows for workflow orchestration through Flow visualization."
+        confidence: high
+metadata:
+  github:
+    stars: 27907
+    forks: 7070
+    license: NOASSERTION
+    archived: false
+    created_at: "2023-02-23T16:53:25Z"
+    pushed_at: "2026-04-30T06:44:00Z"
+    description: FastGPT is a knowledge-based platform built on the LLMs, offers a comprehensive suite of out-of-the-box capabilities such as data processing, RAG retrieval, and visual AI workflow orchestration, letting you easily develop and deploy complex question-answering systems without the need for extensive setup or configuration.
+    homepage: https://fastgpt.io
+    topics:
+      - agent
+      - claude
+      - deepseek
+      - llm
+      - mcp
+      - nextjs
+      - openai
+      - qwen
+      - rag
+      - workflow
+    last_checked_at: "2026-05-05T21:03:14.832Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:14.832Z"
+      bytes: 9174
+insights:
+  summary: FastGPT is an open-source platform for building AI agents with visual workflow orchestration, RAG retrieval, data processing, and knowledge base management.
+  why_it_matters: It gives developers a self-hostable workbench to quickly prototype, evaluate, and deploy RAG-based agents and chatbot applications with built-in knowledge base and OpenAPI integrations.
+  mental_damage: Yet another visual 'agent builder' promising that wiring nodes together will finally save you from actually understanding your own data pipeline.
+  tags:
+    - rag
+    - agent-orchestration
+    - self-hosted
+    - workflow
+    - mcp
+  confidence: high
+curation:
+  status: included
+  reason: FastGPT is a user-facing platform for visually orchestrating agents, workflows, and knowledge bases, fitting agent orchestration rather than a coding agent or app builder.
+  evidence:
+    - Repo description states it provides 'visual AI workflow orchestration' and 'develop and deploy complex question-answering systems'.
+    - README positions it as an 'AI Agent 构建平台' (AI Agent building platform) with conversation/workflow orchestration, RAG, and an app evaluation module.
+    - Topics include agent, rag, workflow, and mcp, and it is listed in awesome-LLM-resources under a RAG knowledge base section.
+placement:
+  primary_category: agent-orchestration
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (27907) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.703Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:14.832Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:32:52.007Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

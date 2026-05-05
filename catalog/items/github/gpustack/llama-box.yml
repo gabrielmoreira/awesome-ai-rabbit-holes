@@ -1,0 +1,85 @@
+id: github__gpustack__llama-box
+kind: github-repo
+name: llama-box
+canonical_url: https://github.com/gpustack/llama-box
+identity:
+  github_repo: gpustack/llama-box
+provenance:
+  discoveries:
+    - id: discovery__github__gpustack__llama-box__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 推理 Inference
+        anchor_text: LLaMA Box
+        extracted_url: https://github.com/gpustack/llama-box
+        surrounding_text: "41. [LLaMA Box](https://github.com/gpustack/llama-box): LLM inference server implementation based on llama.cpp."
+        confidence: high
+metadata:
+  github:
+    stars: 295
+    forks: 28
+    license: MIT
+    archived: true
+    created_at: "2024-06-19T02:34:37Z"
+    pushed_at: "2025-11-24T00:45:50Z"
+    description: LM inference server implementation based on *.cpp.
+    homepage: ""
+    topics:
+      - cpp
+      - diffusion
+      - gguf
+      - openai-compatible-api
+      - transformer
+    last_checked_at: "2026-05-05T21:02:26.767Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:26.767Z"
+      bytes: 69410
+insights:
+  summary: An OpenAI-compatible local inference server for LLMs and diffusion models, built on llama.cpp and stable-diffusion.cpp, that supports multimodal inputs, function calling, and multi-GPU/RPC offloading.
+  why_it_matters: It lets developers run a wide range of local models behind a familiar OpenAI API, making it easier to test, prototype, and integrate local AI without relying on hosted services.
+  mental_damage: Yet another local inference wrapper that teaches us the true cost of AI autonomy is maintaining an RPC server for a project that politely tells you to use the upstream repo instead.
+  tags:
+    - local-ai
+    - inference
+    - openai-compatible
+    - cpp
+  confidence: high
+curation:
+  status: excluded
+  reason: The README explicitly marks the project as no longer actively maintained and directs users to llama.cpp, making it inappropriate for inclusion in a curated, active developer-tooling catalog.
+  evidence:
+    - README includes a CAUTION banner stating 'This project is not longer actively maintained' and recommends using llama.cpp directly.
+    - GitHub archive status is true (archived), reinforcing that the project is not intended for new adoption.
+    - Source-list appearance is in a general LLM inference section, not a curated developer-tooling workflow list.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: needs_review
+  reason: Repository is archived
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.689Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:26.767Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:22:41.939Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,83 @@
+id: github__nickgnd__tmux-mcp
+kind: github-repo
+name: tmux-mcp
+canonical_url: https://github.com/nickgnd/tmux-mcp
+identity:
+  github_repo: nickgnd/tmux-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__nickgnd__tmux-mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: Tmux
+        extracted_url: https://github.com/nickgnd/tmux-mcp
+        surrounding_text: "- **[Tmux](https://github.com/nickgnd/tmux-mcp)** - Interact with your Tmux sessions, windows and pane, execute commands in tmux panes and retrieve result."
+        confidence: high
+metadata:
+  github:
+    stars: 267
+    forks: 49
+    license: MIT
+    archived: false
+    created_at: "2025-03-13T22:28:43Z"
+    pushed_at: "2026-02-14T07:24:57Z"
+    description: A MCP server for our beloved terminal multiplexer tmux.
+    homepage: ""
+    topics:
+      - mcp
+      - mcp-server
+      - tmux
+    last_checked_at: "2026-05-05T21:03:54.470Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:54.470Z"
+      bytes: 2271
+insights:
+  summary: A Model Context Protocol server that allows AI assistants like Claude Desktop to list, control, and execute commands inside tmux sessions and panes.
+  why_it_matters: It bridges terminal multiplexers with MCP clients, letting coding agents observe and manipulate long-running terminal workflows without leaving the chat interface.
+  mental_damage: "We have finally achieved the inevitable endpoint of modern developer tooling: an AI agent running inside your terminal multiplexer so it can watch another AI agent generate code in a split pane."
+  tags:
+    - mcp
+    - tmux
+    - terminal
+    - agent-integration
+  confidence: high
+curation:
+  status: included
+  reason: The project is a dedicated MCP server implementation for tmux, which fits squarely into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description states it is 'A MCP server for our beloved terminal multiplexer tmux.'
+    - README confirms it exposes tmux sessions, panes, and command execution as MCP resources and tools for Claude Desktop.
+    - Listed in the awesome-mcp-servers directory under 'Community Servers'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (267) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.709Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:54.470Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:40:35.533Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

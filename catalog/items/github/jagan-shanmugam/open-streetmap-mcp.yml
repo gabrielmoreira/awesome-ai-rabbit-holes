@@ -1,0 +1,86 @@
+id: github__jagan-shanmugam__open-streetmap-mcp
+kind: github-repo
+name: open-streetmap-mcp
+canonical_url: https://github.com/jagan-shanmugam/open-streetmap-mcp
+identity:
+  github_repo: jagan-shanmugam/open-streetmap-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__jagan-shanmugam__open-streetmap-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🗺️ <a name="location-services"></a>Location Services
+        anchor_text: jagan-shanmugam/open-streetmap-mcp
+        extracted_url: https://github.com/jagan-shanmugam/open-streetmap-mcp
+        surrounding_text: "- [jagan-shanmugam/open-streetmap-mcp](https://github.com/jagan-shanmugam/open-streetmap-mcp) 🐍 🏠 - An OpenStreetMap MCP server with location-based services and geospatial data."
+        confidence: high
+metadata:
+  github:
+    stars: 188
+    forks: 41
+    license: MIT
+    archived: false
+    created_at: "2025-03-03T21:17:47Z"
+    pushed_at: "2025-07-12T21:55:20Z"
+    description: An OpenStreetMap MCP server implementation that enhances LLM capabilities with location-based services and geospatial data.
+    homepage: ""
+    topics:
+      - anthropic-claude
+      - llm
+      - mcp
+      - mcp-server
+      - openstreetmap
+    last_checked_at: "2026-05-05T21:02:49.520Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:49.520Z"
+      bytes: 5559
+insights:
+  summary: An MCP server that exposes OpenStreetMap geospatial tools—geocoding, routing, POI search, and neighborhood analysis—to LLMs via the Model Context Protocol.
+  why_it_matters: It lets developer-hosted AI assistants tap into live OSM data for location-aware features without wiring up custom geospatial APIs.
+  mental_damage: Now your coding agent can argue about the optimal meeting point for three people in San Francisco before it even suggests a variable name.
+  tags:
+    - mcp
+    - openstreetmap
+    - geospatial
+    - location-services
+  confidence: high
+curation:
+  status: included
+  reason: This is a standalone MCP server implementation that extends LLM hosts with OpenStreetMap tooling, which fits cleanly in the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states 'OpenStreetMap MCP server implementation'
+    - README demonstrates MCP host configuration for Claude Desktop, Cursor, and Windsurf
+    - Listed in awesome-mcp-servers under Location Services section
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (188) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.699Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:49.520Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:27:16.643Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,169 @@
+id: github__run-llama__llama_index
+kind: github-repo
+name: llama_index
+canonical_url: https://github.com/run-llama/llama_index
+identity:
+  github_repo: run-llama/llama_index
+provenance:
+  discoveries:
+    - id: discovery__github__jerryjliu__llama_index__awesome-list__vivy-yi__awesome-agent-orchestration
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: vivy-yi/awesome-agent-orchestration
+        url: https://github.com/vivy-yi/awesome-agent-orchestration
+        repository: vivy-yi/awesome-agent-orchestration
+      extraction:
+        mode: parsed
+        section_path:
+          - Core Frameworks
+          - Graph-Based Workflow Frameworks
+        anchor_text: LlamaIndex
+        extracted_url: https://github.com/jerryjliu/llama_index
+        surrounding_text: "| [LlamaIndex](https://github.com/jerryjliu/llama_index) | Data-centric agent framework for RAG | ![Stars](https://img.shields.io/github/stars/jerryjliu/llama_index) |"
+        confidence: high
+    - id: discovery__github__jerryjliu__llama_index__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - LLMOps
+        anchor_text: LlamaIndex
+        extracted_url: https://github.com/jerryjliu/llama_index
+        surrounding_text: "| [LlamaIndex](https://github.com/jerryjliu/llama_index)             | Provides a central interface to connect your LLMs with external data.                                                                                                                                                                                                                                                                                                                                   | ![GitHub Badge](https://img.shields.io/github/stars/jerryjliu/llama_index.svg?style=flat-square)          |"
+        confidence: high
+    - id: discovery__github__jerryjliu__llama_index__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Other LLM Frameworks
+        anchor_text: LlamaIndex
+        extracted_url: https://github.com/jerryjliu/llama_index
+        surrounding_text: "- [LlamaIndex](https://github.com/jerryjliu/llama_index): provides a central interface to connect your LLM's with external data. ![GitHub Repo stars](https://img.shields.io/github/stars/jerryjliu/llama_index?style=social)"
+        confidence: high
+    - id: discovery__github__run-llama__llama_index__awesome-list__kaushikb11__awesome-llm-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: kaushikb11/awesome-llm-agents
+        url: https://github.com/kaushikb11/awesome-llm-agents
+        repository: kaushikb11/awesome-llm-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Frameworks
+        anchor_text: Llama Index
+        extracted_url: https://github.com/run-llama/llama_index
+        surrounding_text: "- [Llama Index](https://github.com/run-llama/llama_index) - Data framework for LLM"
+        confidence: high
+    - id: discovery__github__run-llama__llama_index__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 推理 Inference
+        anchor_text: LlamaIndex
+        extracted_url: https://github.com/run-llama/llama_index
+        surrounding_text: "6. [LlamaIndex](https://github.com/run-llama/llama_index): A data framework for your LLM applications."
+        confidence: high
+    - id: discovery__www__llamaindex__ai__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: janhq/awesome-local-ai
+        url: https://github.com/janhq/awesome-local-ai
+        repository: janhq/awesome-local-ai
+      extraction:
+        mode: parsed
+        section_path:
+          - Developer tools
+        anchor_text: LlamaIndex
+        extracted_url: https://www.llamaindex.ai
+        surrounding_text: "- [LlamaIndex](https://www.llamaindex.ai/) - A data framework for building LLM applications over external data."
+        confidence: high
+    - id: discovery__www__llamaindex__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - AI Frameworks and SDKs
+        anchor_text: LlamaIndex
+        extracted_url: https://www.llamaindex.ai
+        surrounding_text: "- **[LlamaIndex](https://www.llamaindex.ai/)** – Data framework for connecting LLMs to external data sources with indexing and retrieval."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: LlamaIndex provides LlamaParse, a hosted and local document processing service using vision-language models and agents to parse complex layouts, tables, and charts into LLM-ready structured data.
+  why_it_matters: It handles the notoriously painful part of RAG and agent pipelines—ingesting messy real-world documents—so developers can stop writing brittle regex and start shipping retrieval features.
+  mental_damage: We have successfully abstracted away the pain of reading PDFs, yet somehow still find ourselves spending three days debugging why the agent thought a chart axis was a SQL table.
+  tags:
+    - agentic
+    - document-processing
+    - llm
+    - ocr
+    - rag
+  confidence: high
+curation:
+  status: included
+  reason: The site presents LlamaParse and the broader LlamaIndex ecosystem as a developer-facing SDK and API for building document-aware agents and RAG pipelines, fitting the code-first building block definition of ai-frameworks.
+  evidence:
+    - Listed in awesome-ai-coding-tools under 'AI Frameworks and SDKs'.
+    - Scraped site describes 'OSS repos trusted by millions of developers' and provides 'npm install @llamaindex/liteparse'.
+    - Product pitch focuses on parsing, extracting, and indexing as building blocks for 'end-to-end document agents'.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:51:45.938Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.675Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

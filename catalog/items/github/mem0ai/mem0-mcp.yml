@@ -1,0 +1,80 @@
+id: github__mem0ai__mem0-mcp
+kind: github-repo
+name: mem0-mcp
+canonical_url: https://github.com/mem0ai/mem0-mcp
+identity:
+  github_repo: mem0ai/mem0-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__mem0ai__mem0-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: mem0ai/mem0-mcp
+        extracted_url: https://github.com/mem0ai/mem0-mcp
+        surrounding_text: "- [mem0ai/mem0-mcp](https://github.com/mem0ai/mem0-mcp) 🐍 🏠 - A Model Context Protocol server for Mem0 that helps manage coding preferences and patterns, providing tools for storing, retrieving and semantically handling code implementations, best practices and technical documentation in IDEs like Cursor and Windsurf"
+        confidence: high
+metadata:
+  github:
+    stars: 650
+    forks: 139
+    license: Apache-2.0
+    archived: true
+    created_at: "2025-02-18T08:35:49Z"
+    pushed_at: "2026-03-24T23:36:56Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:03:34.714Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:34.714Z"
+      bytes: 6916
+insights:
+  summary: An archived MCP server that wraps the Mem0 Memory API to let LLM clients add, search, update, and delete long-term memories.
+  why_it_matters: It gives MCP-compatible tools like Claude Desktop and Cursor a shared memory layer so assistants can recall user preferences and project context across sessions.
+  mental_damage: We have successfully abstracted memory into an API, so your AI can now remember your allergies while forgetting that the project maintaining this integration is dead.
+  tags:
+    - mcp
+    - memory
+    - context
+  confidence: high
+curation:
+  status: excluded
+  reason: Repository is explicitly archived, and the README directs users to a cloud-hosted official Mem0 MCP server instead.
+  evidence:
+    - Repo description is none, and README opens with a CAUTION banner marking the project as archived and no longer maintained.
+    - Created at 2025-02-18, pushed at 2026-03-24, but archived status signals the codebase is intentionally sunset.
+    - README instructs users to migrate to https://mcp.mem0.ai/mcp rather than use this self-hosted server.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: needs_review
+  reason: Repository is archived
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.706Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:34.714Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:36:42.922Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

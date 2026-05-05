@@ -1,0 +1,92 @@
+id: github__perspective-ai__mcp
+kind: github-repo
+name: mcp
+canonical_url: https://github.com/perspective-ai/mcp
+identity:
+  github_repo: perspective-ai/mcp
+provenance:
+  discoveries:
+    - id: discovery__github__perspective-ai__mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🗣️ <a name="conversational-ai"></a>Conversational AI
+        anchor_text: Perspective-AI/mcp
+        extracted_url: https://github.com/perspective-ai/mcp
+        surrounding_text: "- [Perspective-AI/mcp](https://github.com/Perspective-AI/mcp) [![Perspective-AI/mcp MCP server](https://glama.ai/mcp/servers/Perspective-AI/mcp/badges/score.svg)](https://glama.ai/mcp/servers/Perspective-AI/mcp) 🎖️ 📇 ☁️ - Official MCP server for [Perspective AI](https://getperspective.ai). An AI Concierge replaces static forms with adaptive AI conversations for lead qualification, customer research, onboarding feedback, and advocacy. Design conversation agents (Concierge, Interviewer, Evaluator, Advocate), analyze conversations, deploy embeds, and automate follow-ups (webhook, email, Slack, HubSpot)."
+        confidence: high
+metadata:
+  github:
+    stars: 4
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2025-12-11T15:25:11Z"
+    pushed_at: "2026-04-28T11:14:26Z"
+    description: MCP server for Perspective AI. An AI Concierge replaces static forms with adaptive AI conversations that understand real situations, structure key information automatically, and trigger the right next step.
+    homepage: https://getperspective.ai/docs/build/mcp
+    topics:
+      - advocate
+      - analysis
+      - concierge
+      - conversational-ai
+      - evaluator
+      - forms
+      - interviewer
+      - interviews
+      - mcp-server
+      - researcher
+      - survey
+    last_checked_at: "2026-05-05T21:04:15.144Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:15.144Z"
+      bytes: 10115
+insights:
+  summary: An MCP server that connects Perspective AI's conversational form replacement platform to MCP-compatible clients like Claude and Cursor, allowing developers to design, analyze, and automate AI-driven conversation agents directly from their IDE or assistant.
+  why_it_matters: It lets developers manage lead qualification workflows, conversation analytics, and CRM automations as code-adjacent tasks without leaving their AI-assisted editing environment.
+  mental_damage: We have successfully abstracted away the trauma of filling out forms by introducing the trauma of configuring an MCP server to trick users into filling out forms via 'adaptive AI conversations'.
+  tags:
+    - mcp
+    - conversational-ai
+    - automation
+    - perspective-ai
+  confidence: high
+curation:
+  status: included
+  reason: The repository is explicitly an MCP server implementation for a third-party SaaS, fitting squarely into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description and README identify this as 'MCP server for Perspective AI' with setup instructions for Claude, Cursor, and VS Code.
+    - Listed in 'awesome-mcp-servers' under the 'Conversational AI' section, confirming its role in the MCP ecosystem.
+    - Repository is active (pushed 2026-04-28) and not archived, despite low star count.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.713Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:15.144Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:44:22.156Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,80 @@
+id: docs__langchain__com__oss__python__integrations__providers__overview
+kind: website
+name: overview
+canonical_url: https://docs.langchain.com/oss/python/integrations/providers/overview
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__docs__langchain__com__oss__python__integrations__providers__overview__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - ":eight_pointed_black_star: AI apps & agents with sandbox integration or native support"
+          - Langchain Data Analyst
+        anchor_text: Langchain Data Analyst
+        extracted_url: https://python.langchain.com/docs/integrations/tools/e2b_data_analysis
+        surrounding_text: "### :eight_pointed_black_star: [Langchain Data Analyst](https://python.langchain.com/docs/integrations/tools/e2b_data_analysis)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A directory page listing LangChain Python integration packages for 1000+ AI providers, models, and data stores.
+  why_it_matters: It is the canonical reference developers use to discover and swap provider-specific packages while keeping a consistent LangChain API.
+  mental_damage: You now have a single page documenting a thousand ways to integrate a model you will inevitably swap three weeks from now when the next provider drops a new context window.
+  tags:
+    - langchain
+    - integrations
+    - python
+    - llm-providers
+    - docs
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a documentation index page for an existing framework's integrations, not a standalone developer tool, agent, or product.
+  evidence:
+    - The URL resolves to a LangChain documentation page, not a standalone repo or product.
+    - The page is a listing of integration packages (langchain-openai, langchain-anthropic, etc.) rather than a tool itself.
+    - It is listed in awesome-ai-agents as a reference link, not as a distinct agent or tool.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.727Z"
+    cause:
+      type: ambiguous_canonicalization
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:44:05.363Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

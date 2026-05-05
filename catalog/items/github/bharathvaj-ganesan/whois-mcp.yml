@@ -1,0 +1,86 @@
+id: github__bharathvaj-ganesan__whois-mcp
+kind: github-repo
+name: whois-mcp
+canonical_url: https://github.com/bharathvaj-ganesan/whois-mcp
+identity:
+  github_repo: bharathvaj-ganesan/whois-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__bharathvaj-ganesan__whois-mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: Whois MCP
+        extracted_url: https://github.com/bharathvaj-ganesan/whois-mcp
+        surrounding_text: "- **[Whois MCP](https://github.com/bharathvaj-ganesan/whois-mcp)** - MCP server that performs whois lookup against domain, IP, ASN and TLD."
+        confidence: high
+metadata:
+  github:
+    stars: 54
+    forks: 18
+    license: MIT
+    archived: false
+    created_at: "2025-03-05T18:20:19Z"
+    pushed_at: "2025-03-15T10:21:52Z"
+    description: MCP Server for whois lookups.
+    homepage: https://www.npmjs.com/package/@bharathvaj/whois-mcp
+    topics:
+      - claude
+      - cursor
+      - mcp
+      - mcp-server
+      - whois-lookup
+    last_checked_at: "2026-05-05T21:01:20.112Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:20.112Z"
+      bytes: 4018
+insights:
+  summary: An MCP server that enables AI agents like Claude Desktop and Cursor to perform WHOIS lookups for domains, IPs, TLDs, and autonomous system numbers.
+  why_it_matters: It allows developers to check domain availability and registration details directly through their AI assistant without switching to a browser or external lookup tools.
+  mental_damage: We have successfully reached the point where we need a specialized protocol server so our AI can check if a domain is taken, sparing us the unimaginable burden of typing 'whois' in a terminal.
+  tags:
+    - mcp
+    - whois
+    - cursor
+    - claude
+    - networking
+  confidence: high
+curation:
+  status: included
+  reason: The project is a dedicated MCP server that extends AI developer tools with network lookup capabilities, fitting cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states 'MCP Server for whois lookups.'
+    - README demonstrates integration with Cursor, Claude Desktop, and Roo Code as an MCP server.
+    - Listed in the awesome-mcp-servers directory under 'Community Servers'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.681Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:20.112Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:10:41.393Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

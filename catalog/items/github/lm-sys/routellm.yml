@@ -1,0 +1,80 @@
+id: github__lm-sys__routellm
+kind: github-repo
+name: routellm
+canonical_url: https://github.com/lm-sys/routellm
+identity:
+  github_repo: lm-sys/routellm
+provenance:
+  discoveries:
+    - id: discovery__github__lm-sys__routellm__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 推理 Inference
+        anchor_text: RouteLLM
+        extracted_url: https://github.com/lm-sys/routellm
+        surrounding_text: "25. [RouteLLM](https://github.com/lm-sys/RouteLLM): A framework for serving and evaluating LLM routers - save LLM costs without compromising quality!"
+        confidence: high
+metadata:
+  github:
+    stars: 4849
+    forks: 374
+    license: Apache-2.0
+    archived: false
+    created_at: "2024-06-03T02:16:57Z"
+    pushed_at: "2024-08-10T19:10:15Z"
+    description: A framework for serving and evaluating LLM routers - save LLM costs without compromising quality
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:03:22.640Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:22.640Z"
+      bytes: 14103
+insights:
+  summary: RouteLLM is a framework and OpenAI-compatible server for serving and evaluating LLM routers that dynamically route queries between strong and weak models to reduce costs while maintaining response quality.
+  why_it_matters: Developers can drop it in as an OpenAI client replacement to automatically route simpler queries to cheaper models, potentially cutting LLM API costs by up to 85% without significant quality loss.
+  mental_damage: We have successfully abstracted the decision of which model to use into yet another layer of abstraction that requires its own calibration, threshold tuning, and evaluation framework.
+  tags:
+    - llm-routing
+    - cost-optimization
+    - openai-compatible
+    - inference
+  confidence: high
+curation:
+  status: included
+  reason: It is a code-first SDK and framework that developers import and configure to embed intelligent LLM routing behavior into their own applications, rather than an orchestration control plane or a coding assistant.
+  evidence:
+    - Repo description states it is 'A framework for serving and evaluating LLM routers'.
+    - README demonstrates Python SDK usage via 'from routellm.controller import Controller' and pip install instructions.
+    - Provides an OpenAI-compatible server launched via 'python -m routellm.openai_server' for integration into existing codebases.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (4849) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.704Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:22.640Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:34:22.050Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

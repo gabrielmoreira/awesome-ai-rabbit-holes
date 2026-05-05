@@ -1,0 +1,100 @@
+id: github__1broseidon__promptext
+kind: github-repo
+name: promptext
+canonical_url: https://github.com/1broseidon/promptext
+identity:
+  github_repo: 1broseidon/promptext
+provenance:
+  discoveries:
+    - id: discovery__github__1broseidon__promptext__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Code AI
+        anchor_text: promptext
+        extracted_url: https://github.com/1broseidon/promptext
+        surrounding_text: "| [promptext](https://github.com/1broseidon/promptext) | Smart code context extractor for AI assistants with accurate token counting and budget management        | ![GitHub Badge](https://img.shields.io/github/stars/1broseidon/promptext.svg?style=flat-square) |"
+        confidence: high
+metadata:
+  github:
+    stars: 21
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2024-12-16T20:06:59Z"
+    pushed_at: "2026-04-12T20:05:25Z"
+    description: Smart code context extractor for AI assistants
+    homepage: https://chain.sh/promptext
+    topics:
+      - ai
+      - ai-tools
+      - chatgpt
+      - claude
+      - cli
+      - code-analysis
+      - code-context
+      - code2prompt
+      - codebase
+      - command-line-tool
+      - context-window
+      - developer-tools
+      - go
+      - golang
+      - llm
+      - llm-prompts
+      - prompt-engineering
+      - prompt-generator
+      - tokenizer
+    last_checked_at: "2026-05-05T21:00:43.890Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:43.890Z"
+      bytes: 16110
+insights:
+  summary: A Go-based CLI tool that analyzes a codebase, ranks files by relevance, and packages them into token-efficient formats for pasting into LLM chats.
+  why_it_matters: It automates the tedious and error-prone work of selecting and formatting code context, helping developers stay within token limits and reduce API costs.
+  mental_damage: We have finally built a tool to manage the tragic reality that our context windows are too small for the sprawling monoliths we blindly feed to ChatGPT.
+  tags:
+    - cli
+    - context-engineering
+    - prompt-tooling
+    - go
+    - token-management
+  confidence: medium
+curation:
+  status: included
+  reason: It is a context-shaping system designed to pack, compress, and manage code context for LLMs, which fits the Prompting and Context Engineering category.
+  evidence:
+    - Repo description explicitly calls it a 'Smart code context extractor for AI assistants'.
+    - README claims 25-60% token reduction and uses 'cl100k_base' tokenizer for accurate counting.
+    - Listed in Awesome-LLMOps under 'Code AI', aligning with developer tooling.
+placement:
+  primary_category: context-engineering
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.675Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:43.890Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:04:55.024Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

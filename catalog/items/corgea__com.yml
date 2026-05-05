@@ -1,0 +1,77 @@
+id: corgea__com
+kind: website
+name: corgea.com
+canonical_url: https://corgea.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__corgea__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Security
+        anchor_text: Corgea
+        extracted_url: https://corgea.com
+        surrounding_text: "- **[Corgea](https://corgea.com/)** – AI-native application security."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Corgea is an AI-native application security platform that scans code, dependencies, infrastructure, and containers to detect vulnerabilities and automatically generate fixes within existing developer workflows.
+  why_it_matters: It integrates directly into pull requests and IDEs to autonomously fix security flaws—including business logic issues missed by traditional SAST—allowing developers to offload remediation work without leaving their current context.
+  mental_damage: We’ve successfully automated the part of security where humans used to argue with each other in code reviews, so now we can focus our anxiety on whether the AI is hallucinating the correct SQL parameterization.
+  tags:
+    - security
+    - sast
+    - vulnerability-fixing
+    - devsecops
+    - ai-scanning
+  confidence: high
+curation:
+  status: included
+  reason: Corgea acts as an autonomous agent that reviews code in PRs, proposes fixes, and interacts with the developer, fitting the coding-agents criteria for repo/PR workflow assistance.
+  evidence:
+    - Scraped site context confirms 'Corgea reviews vulnerable code in pull requests, proposes safe fixes, and answers follow-up questions'.
+    - Listed in awesome-ai-coding-tools under the Security section with the description 'finds, triages, and fixes vulnerabilities'.
+    - Supports IDE integrations (VS Code, Cursor, IntelliJ) and SCM integrations (GitHub, GitLab, Azure DevOps).
+placement:
+  primary_category: coding-agents
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.727Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:43:20.597Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

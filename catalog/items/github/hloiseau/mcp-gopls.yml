@@ -1,0 +1,91 @@
+id: github__hloiseau__mcp-gopls
+kind: github-repo
+name: mcp-gopls
+canonical_url: https://github.com/hloiseau/mcp-gopls
+identity:
+  github_repo: hloiseau/mcp-gopls
+provenance:
+  discoveries:
+    - id: discovery__github__hloiseaufcms__mcp-gopls__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: hloiseaufcms/mcp-gopls
+        extracted_url: https://github.com/hloiseaufcms/mcp-gopls
+        surrounding_text: "- [hloiseaufcms/mcp-gopls](https://github.com/hloiseaufcms/mcp-gopls) 🏎️ 🏠 - A MCP server for interacting with [Go's Language Server Protocol (gopls)](https://github.com/golang/tools/tree/master/gopls) and benefit from advanced Go code analysis features."
+        confidence: high
+metadata:
+  github:
+    stars: 83
+    forks: 11
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-04-05T15:25:05Z"
+    pushed_at: "2026-02-02T15:34:27Z"
+    description: Model Context Protocol (MCP) server for Go using gopls – LSP-powered analysis, tests, coverage, and tooling.
+    homepage: https://github.com/hloiseau/mcp-gopls/blob/main/docs/usage.md
+    topics:
+      - ai-agents
+      - ai-tools
+      - developer-tools
+      - go
+      - golang
+      - gopls
+      - lsp
+      - mcp
+      - model-context-protocol
+    last_checked_at: "2026-05-05T21:02:35.001Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:35.001Z"
+      bytes: 19427
+insights:
+  summary: An MCP server that exposes Go's gopls language server capabilities—including navigation, diagnostics, testing, and coverage—to AI assistants via the Model Context Protocol.
+  why_it_matters: It gives coding agents deep, structured access to Go tooling so they can reliably navigate, test, and refactor Go code without guessing at workspace structure.
+  mental_damage: We now have an MCP server wrapping a language server so that an AI agent can pretend it knows how to run `go mod tidy` without breaking your module graph.
+  tags:
+    - go
+    - mcp
+    - lsp
+    - gopls
+    - developer-tools
+  confidence: high
+curation:
+  status: included
+  reason: The project is itself an MCP server that bridges gopls LSP features to MCP clients, which fits cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description explicitly states: 'Model Context Protocol (MCP) server for Go using gopls – LSP-powered analysis, tests, coverage, and tooling.'"
+    - "README confirms: 'A Model Context Protocol (MCP) server that lets AI assistants use Go’s LSP (gopls) for navigation, diagnostics, testing, coverage, and more.'"
+    - Topics include mcp, gopls, lsp, and it is actively maintained (pushed 2026-02-02, not archived).
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:24:11.114Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.696Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:35.001Z"
+    cause: null
+    next_retry_at: null

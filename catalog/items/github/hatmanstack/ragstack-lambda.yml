@@ -1,0 +1,82 @@
+id: github__hatmanstack__ragstack-lambda
+kind: github-repo
+name: ragstack-lambda
+canonical_url: https://github.com/hatmanstack/ragstack-lambda
+identity:
+  github_repo: hatmanstack/ragstack-lambda
+provenance:
+  discoveries:
+    - id: discovery__github__hatmanstack__ragstack-lambda__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: HatmanStack/ragstack-mcp
+        extracted_url: https://github.com/hatmanstack/ragstack-lambda
+        surrounding_text: "- [HatmanStack/ragstack-mcp](https://github.com/HatmanStack/RAGStack-Lambda/tree/main/src/ragstack-mcp) 🐍 ☁️ 🍎 🪟 🐧 - MCP server for RAGStack serverless knowledge bases. Search, chat with AI-generated answers, upload documents/media, scrape websites, and analyze metadata through an AWS-powered RAG pipeline (Lambda, Bedrock, S3, DynamoDB)."
+        confidence: high
+metadata:
+  github:
+    stars: 20
+    forks: 9
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-10-26T01:03:41Z"
+    pushed_at: "2026-05-05T15:41:21Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:31.735Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:31.735Z"
+      bytes: 10657
+insights:
+  summary: A serverless document and media processing stack that builds a retrieval-augmented knowledge base on AWS Lambda and exposes it to AI assistants via MCP.
+  why_it_matters: It lets developers spin up a scalable RAG pipeline on AWS with zero idle costs and integrate it directly into MCP-compatible assistants.
+  mental_damage: Because nothing says 'focus on shipping features' like deploying a bespoke serverless knowledge graph just to ask a chatbot where that one paragraph was buried in Q3's PDF archives.
+  tags:
+    - rag
+    - mcp
+    - aws
+    - serverless
+    - knowledge-base
+  confidence: medium
+curation:
+  status: included
+  reason: The project is explicitly listed in awesome-mcp-servers and builds an MCP-compatible knowledge base server on AWS, fitting the MCP infrastructure scope.
+  evidence:
+    - "README states: 'query using Amazon Bedrock or your AI assistant via MCP'"
+    - Seen in awesome-mcp-servers under 'Server Implementations > Knowledge & Memory'
+    - Architecture centers on AWS Lambda, S3, and DynamoDB for serverless RAG
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.690Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:31.735Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:23:38.735Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

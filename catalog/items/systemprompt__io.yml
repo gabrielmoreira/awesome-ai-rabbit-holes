@@ -1,0 +1,77 @@
+id: systemprompt__io
+kind: website
+name: systemprompt.io
+canonical_url: https://systemprompt.io
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__systemprompt__io__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - LLMOps
+        anchor_text: systemprompt.io
+        extracted_url: https://systemprompt.io
+        surrounding_text: "| [systemprompt.io](https://systemprompt.io)                         | Systemprompt.io is a Rest API with quality tooling to enable the creation, use and observability of prompts in any AI system. Control every detail of your prompt for a SOTA prompt management experience.                                                                                                                                                                                              |                                                                                                           |"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A self-hosted, single-binary Rust infrastructure layer that governs, authenticates, rate-limits, and audits every AI agent interaction, tool call, and MCP execution across an organization.
+  why_it_matters: It gives developers and platform teams a provider-agnostic control plane to enforce RBAC, track costs, and satisfy compliance audits without surrendering data to a SaaS vendor.
+  mental_damage: Finally, a 50MB binary to solve the existential dread of explaining to your CISO that the AI agent just pasted the production database credentials into a prompt.
+  tags:
+    - governance
+    - self-hosted
+    - audit
+    - mcp
+    - rust
+  confidence: high
+curation:
+  status: included
+  reason: It is an operational control plane for coordinating, governing, and observing AI agents and tool calls across infrastructure, fitting the user-facing platform criteria for agent-orchestration.
+  evidence:
+    - Scraped site describes it as 'The governance layer for AI agents' with a 'unified control plane'.
+    - Features include governing every tool call, MCP server registry, and audit trails for agents like Claude, Codex, and Gemini.
+    - Listed in Awesome-LLMOps under the LLMOps section as a governance and infrastructure tool.
+placement:
+  primary_category: agent-orchestration
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.731Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:48:33.952Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

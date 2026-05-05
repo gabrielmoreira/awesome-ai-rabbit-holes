@@ -1,0 +1,82 @@
+id: github__joshuayoes__ios-simulator-mcp
+kind: github-repo
+name: ios-simulator-mcp
+canonical_url: https://github.com/joshuayoes/ios-simulator-mcp
+identity:
+  github_repo: joshuayoes/ios-simulator-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__joshuayoes__ios-simulator-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: ios-simulator-mcp
+        extracted_url: https://github.com/joshuayoes/ios-simulator-mcp
+        surrounding_text: "- [ios-simulator-mcp](https://github.com/joshuayoes/ios-simulator-mcp) 📇 🏠 🍎 - A Model Context Protocol (MCP) server for interacting with iOS simulators. This server allows you to interact with iOS simulators by getting information about them, controlling UI interactions, and inspecting UI elements."
+        confidence: high
+metadata:
+  github:
+    stars: 1949
+    forks: 85
+    license: MIT
+    archived: false
+    created_at: "2025-03-20T02:39:27Z"
+    pushed_at: "2026-04-21T21:27:16Z"
+    description: MCP server for interacting with the iOS simulator
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:59.342Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:59.342Z"
+      bytes: 15864
+insights:
+  summary: An MCP server that lets AI agents and tools interact with iOS simulators by querying device status, inspecting UI elements, and performing touch, swipe, and text input actions.
+  why_it_matters: It gives coding agents and IDE integrations the ability to visually inspect and control iOS simulators, enabling automated UI testing and screenshot-driven mobile workflows without manual device interaction.
+  mental_damage: We have finally reached the point where your AI needs its own MCP server just to tap a button on a simulator that is already running on your machine.
+  tags:
+    - mcp
+    - ios
+    - simulator
+    - mobile-testing
+    - automation
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server providing simulator tooling for AI agents, which fits cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description states: 'MCP server for interacting with the iOS simulator'."
+    - README lists MCP tools like ui_tap, ui_type, ui_swipe, and screenshot for simulator control.
+    - Featured in punkpeye/awesome-mcp-servers under Server Implementations > Developer Tools.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1949) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.700Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:59.342Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:29:20.190Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

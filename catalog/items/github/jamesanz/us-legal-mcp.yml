@@ -1,0 +1,87 @@
+id: github__jamesanz__us-legal-mcp
+kind: github-repo
+name: us-legal-mcp
+canonical_url: https://github.com/jamesanz/us-legal-mcp
+identity:
+  github_repo: jamesanz/us-legal-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__jamesanz__us-legal-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - ⚖️ <a name="legal"></a>Legal
+        anchor_text: JamesANZ/us-legal-mcp
+        extracted_url: https://github.com/jamesanz/us-legal-mcp
+        surrounding_text: "- [JamesANZ/us-legal-mcp](https://github.com/JamesANZ/us-legal-mcp) 📇 ☁️ - An MCP server that provides comprehensive US legislation."
+        confidence: high
+metadata:
+  github:
+    stars: 25
+    forks: 8
+    license: MIT
+    archived: false
+    created_at: "2025-08-11T11:17:53Z"
+    pushed_at: "2026-04-20T03:40:34Z"
+    description: An MCP server that provides comprehensive US legislation.
+    homepage: https://glama.ai/mcp/servers/@JamesANZ/us-legal-mcp
+    topics:
+      - law
+      - legal
+      - legislation
+      - llm
+      - usa
+    last_checked_at: "2026-05-05T21:02:50.718Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:50.718Z"
+      bytes: 9167
+insights:
+  summary: An MCP server that provides AI coding environments like Cursor and Claude Desktop with searchable access to US legislation, federal regulations, and court opinions.
+  why_it_matters: It allows developers building legal-tech or compliance workflows to query live congressional bills, Federal Register docs, and court opinions directly from their IDE without juggling multiple government API keys.
+  mental_damage: "We have finally solved the hardest problem in modern development: enabling an LLM to cite the GENIUS Act while you're fixing a CSS bug at 2 AM."
+  tags:
+    - mcp
+    - legal
+    - government
+    - cursor
+    - context
+  confidence: high
+curation:
+  status: included
+  reason: The project is a standalone MCP server providing legal data tooling for AI environments, which fits precisely into the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description explicitly states: 'An MCP server that provides comprehensive US legislation.'"
+    - README positions it as 'An MCP (Model Context Protocol) server that brings authoritative US legal information into AI coding environments like Cursor and Claude Desktop.'
+    - Listed in awesome-mcp-servers under 'Server Implementations > Legal', confirming ecosystem fit.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.699Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:50.718Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:27:33.612Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

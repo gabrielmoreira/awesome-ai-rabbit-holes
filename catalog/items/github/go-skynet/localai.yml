@@ -1,0 +1,99 @@
+id: github__go-skynet__localai
+kind: github-repo
+name: localai
+canonical_url: https://github.com/go-skynet/localai
+identity:
+  github_repo: go-skynet/localai
+provenance:
+  discoveries:
+    - id: discovery__github__go-skynet__localai__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: janhq/awesome-local-ai
+        url: https://github.com/janhq/awesome-local-ai
+        repository: janhq/awesome-local-ai
+      extraction:
+        mode: parsed
+        section_path:
+          - Inference UI
+        anchor_text: LocalAI
+        extracted_url: https://github.com/go-skynet/localai
+        surrounding_text: "- [LocalAI](https://github.com/go-skynet/LocalAI) - LocalAI is a drop-in replacement REST API that’s compatible with OpenAI API specifications for local inferencing."
+        confidence: high
+metadata:
+  github:
+    stars: 46070
+    forks: 4057
+    license: MIT
+    archived: false
+    created_at: "2023-03-18T22:58:02Z"
+    pushed_at: "2026-05-05T13:38:41Z"
+    description: LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required.
+    homepage: https://localai.io
+    topics:
+      - agents
+      - ai
+      - api
+      - audio-generation
+      - decentralized
+      - distributed
+      - image-generation
+      - libp2p
+      - llama
+      - llm
+      - mamba
+      - mcp
+      - musicgen
+      - object-detection
+      - rerank
+      - stable-diffusion
+      - text-generation
+      - tts
+    last_checked_at: "2026-05-05T21:02:23.464Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:23.464Z"
+      bytes: 14262
+insights:
+  summary: LocalAI is an open-source AI engine that runs LLMs and generative models locally with OpenAI-compatible APIs, supporting a wide range of hardware and backends.
+  why_it_matters: It lets developers build and test AI-powered features against a local, private endpoint that mirrors the APIs they already use in production.
+  mental_damage: You can now perfectly replicate the experience of a flaky hosted LLM API right on your own laptop, complete with GPU envy and backend roulette.
+  tags:
+    - local-ai
+    - self-hosted
+    - llm
+    - openai-api
+    - inference
+  confidence: high
+curation:
+  status: included
+  reason: This is a local model runtime and inference stack that lets developers run AI on their own hardware with drop-in API compatibility.
+  evidence:
+    - Repo description states it is an open-source AI engine to run any model on any hardware with no GPU required.
+    - README lists drop-in OpenAI/Anthropic API compatibility and 36+ backends such as llama.cpp and vLLM.
+    - High traction with 46,070 stars and active development (pushed 2026-05-05).
+placement:
+  primary_category: local-ai
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (46070) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.441Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:23.464Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:21:50.358Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,97 @@
+id: github__automatic1111__stable-diffusion-webui
+kind: github-repo
+name: stable-diffusion-webui
+canonical_url: https://github.com/automatic1111/stable-diffusion-webui
+identity:
+  github_repo: automatic1111/stable-diffusion-webui
+provenance:
+  discoveries:
+    - id: discovery__github__automatic1111__stable-diffusion-webui__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: janhq/awesome-local-ai
+        url: https://github.com/janhq/awesome-local-ai
+        repository: janhq/awesome-local-ai
+      extraction:
+        mode: parsed
+        section_path:
+          - Inference UI
+        anchor_text: Automatic1111
+        extracted_url: https://github.com/automatic1111/stable-diffusion-webui
+        surrounding_text: "- [Automatic1111](https://github.com/AUTOMATIC1111/stable-diffusion-webui) - Stable Diffusion web UI."
+        confidence: high
+metadata:
+  github:
+    stars: 162730
+    forks: 30312
+    license: AGPL-3.0
+    archived: false
+    created_at: "2022-08-22T14:05:26Z"
+    pushed_at: "2026-03-02T07:00:53Z"
+    description: Stable Diffusion web UI
+    homepage: ""
+    topics:
+      - ai
+      - ai-art
+      - deep-learning
+      - diffusion
+      - gradio
+      - image-generation
+      - image2image
+      - img2img
+      - pytorch
+      - stable-diffusion
+      - text2image
+      - torch
+      - txt2img
+      - unstable
+      - upscaling
+      - web
+    last_checked_at: "2026-05-05T21:01:12.665Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:12.665Z"
+      bytes: 12924
+insights:
+  summary: A local web interface for running Stable Diffusion models that provides txt2img, img2img, inpainting, and model training capabilities with extensive customization options.
+  why_it_matters: Developers building local AI pipelines or needing offline image generation can run, fine-tune, and serve diffusion models through a Gradio-based UI with API access.
+  mental_damage: Yet another reminder that while we're all here to automate coding, the most stable local AI tool in your stack is still the one generating anime wallpapers.
+  tags:
+    - stable-diffusion
+    - local-ai
+    - image-generation
+    - gradio
+    - diffusion-models
+  confidence: high
+curation:
+  status: included
+  reason: This is a classic local AI tool for running diffusion models on your own hardware, fitting the local-ai category as a desktop local-AI interface and inference UI.
+  evidence:
+    - Repo description identifies it as 'Stable Diffusion web UI'
+    - README excerpt confirms it is 'A web interface for Stable Diffusion, implemented using Gradio library' with API support
+    - Seen in awesome-local-ai under Inference UI, and local-ai category covers 'desktop local-AI interfaces'
+placement:
+  primary_category: local-ai
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (162730) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.680Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:12.665Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:09:34.360Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

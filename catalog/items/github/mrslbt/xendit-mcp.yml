@@ -1,0 +1,98 @@
+id: github__mrslbt__xendit-mcp
+kind: github-repo
+name: xendit-mcp
+canonical_url: https://github.com/mrslbt/xendit-mcp
+identity:
+  github_repo: mrslbt/xendit-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__mrslbt__xendit-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: mrslbt/xendit-mcp
+        extracted_url: https://github.com/mrslbt/xendit-mcp
+        surrounding_text: "- [mrslbt/xendit-mcp](https://github.com/mrslbt/xendit-mcp) [![mrslbt/xendit-mcp MCP server](https://glama.ai/mcp/servers/mrslbt/xendit-mcp/badges/score.svg)](https://glama.ai/mcp/servers/mrslbt/xendit-mcp) 📇 ☁️ - Xendit payment gateway for Southeast Asia. Invoices, disbursements, balance checks, and bank transfers across Indonesia, Philippines, Thailand, Vietnam, and Malaysia. Install via `npx xendit-mcp`."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-04-14T07:26:03Z"
+    pushed_at: "2026-05-04T10:00:33Z"
+    description: MCP server for the Xendit payment API. Invoices, disbursements, balances, and transactions across Indonesia, the Philippines, Thailand, Vietnam, and Malaysia.
+    homepage: https://www.npmjs.com/package/xendit-mcp
+    topics:
+      - ai-agents
+      - anthropic
+      - claude
+      - claude-code
+      - cursor
+      - disbursements
+      - fintech
+      - indonesia
+      - invoice
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - payments
+      - philippines
+      - typescript
+      - xendit
+    last_checked_at: "2026-05-05T21:03:48.313Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:48.313Z"
+      bytes: 5230
+insights:
+  summary: An unofficial MCP server that exposes Xendit payment API operations—invoices, disbursements, balances, and transactions—to AI agents and coding assistants.
+  why_it_matters: Developers building in Southeast Asian markets can let their AI tools query balances, create invoices, and manage transactions directly through agent workflows instead of hand-crafting API calls.
+  mental_damage: We have finally reached the point where you can accidentally disburse real money to a BCA account because your coding agent hallucinated a friendly prompt in Indonesian.
+  tags:
+    - mcp
+    - fintech
+    - payments
+    - xendit
+    - typescript
+  confidence: high
+curation:
+  status: included
+  reason: This is a Model Context Protocol server that integrates a payment API into agent workflows, fitting cleanly into the MCP infrastructure category.
+  evidence:
+    - "Repo description states: 'MCP server for the Xendit payment API.'"
+    - README documents tools, prompts, and resources designed for Claude Desktop, Claude Code, and Cursor via MCP.
+    - Listed under 'Server Implementations > Finance & Fintech' in the awesome-mcp-servers directory.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.708Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:48.313Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:39:21.572Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

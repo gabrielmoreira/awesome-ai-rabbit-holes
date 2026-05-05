@@ -1,0 +1,86 @@
+id: github__browserstack__mcp-server
+kind: github-repo
+name: mcp-server
+canonical_url: https://github.com/browserstack/mcp-server
+identity:
+  github_repo: browserstack/mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__browserstack__mcp-server__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: BrowserStack
+        extracted_url: https://github.com/browserstack/mcp-server
+        surrounding_text: "- **[BrowserStack](https://github.com/browserstack/mcp-server)** – Bring the full power of BrowserStack’s [Test Platform](https://www.browserstack.com/test-platform) to your AI tools, making testing faster and easier for every developer and tester on your team."
+        confidence: high
+metadata:
+  github:
+    stars: 138
+    forks: 45
+    license: AGPL-3.0
+    archived: false
+    created_at: "2025-04-17T09:14:44Z"
+    pushed_at: "2026-04-27T14:45:32Z"
+    description: BrowserStack's Official MCP Server
+    homepage: ""
+    topics:
+      - accessibility
+      - automation
+      - browserstack
+      - mcp-server
+      - quality-assurance
+      - testing
+    last_checked_at: "2026-05-05T21:01:26.002Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:26.002Z"
+      bytes: 21473
+insights:
+  summary: An official MCP server that connects BrowserStack's test platform to AI tools like Cursor and Claude, enabling test management and debugging via natural language prompts.
+  why_it_matters: It allows developers to trigger cross-browser tests, diagnose failures, and fix code without leaving their IDE or LLM chat window.
+  mental_damage: You can now ask an AI to debug a crash on an iPhone 15 Pro Max, proving that even 'vibe testing' still requires a Node version check.
+  tags:
+    - mcp
+    - testing
+    - browserstack
+    - qa
+  confidence: high
+curation:
+  status: included
+  reason: The repository is explicitly an MCP server implementation published by BrowserStack to integrate their testing platform with AI clients.
+  evidence:
+    - "Repo description states: 'BrowserStack's Official MCP Server'."
+    - README lists usage examples for managing tests and debugging directly within 'Cursor, Claude, or any MCP-enabled client'.
+    - Listed in 'awesome-mcp-servers' under the 'Official Servers' section.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.681Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:26.002Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:11:43.440Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

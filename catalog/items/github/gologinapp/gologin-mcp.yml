@@ -1,0 +1,80 @@
+id: github__gologinapp__gologin-mcp
+kind: github-repo
+name: gologin-mcp
+canonical_url: https://github.com/gologinapp/gologin-mcp
+identity:
+  github_repo: gologinapp/gologin-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__gologinapp__gologin-mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: GoLogin MCP server
+        extracted_url: https://github.com/gologinapp/gologin-mcp
+        surrounding_text: "- **[GoLogin MCP server](https://github.com/gologinapp/gologin-mcp)** - Manage your GoLogin browser profiles and automation directly through AI conversations!"
+        confidence: high
+metadata:
+  github:
+    stars: 15
+    forks: 8
+    license: MIT
+    archived: false
+    created_at: "2025-06-18T14:36:08Z"
+    pushed_at: "2025-09-15T15:54:51Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:23.437Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:23.437Z"
+      bytes: 4707
+insights:
+  summary: An MCP server that lets developers manage GoLogin browser profiles, proxies, and fingerprints through natural language conversations in AI clients like Claude Desktop and Cursor.
+  why_it_matters: It allows developers to automate browser identity management and fingerprinting tasks directly from their AI coding workflows without switching contexts or writing custom scripts.
+  mental_damage: We have finally reached the point where we need an AI assistant to help us keep track of all the browser profiles we use to trick other AI systems into thinking we are human.
+  tags:
+    - mcp
+    - browser-automation
+    - gologin
+    - agent-tools
+  confidence: high
+curation:
+  status: included
+  reason: This is an MCP server that connects the GoLogin API to MCP-compatible clients, fitting cleanly into the MCP Servers and Tooling category rather than a coding agent or extension.
+  evidence:
+    - README explicitly states this is an MCP server for Claude Desktop and Cursor
+    - Featured in the awesome-mcp-servers list under 'Official Servers'
+    - Active development with recent push in September 2025 and 15 stars on a June 2025 creation
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.689Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:23.438Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:21:55.862Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

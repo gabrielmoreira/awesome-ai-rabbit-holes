@@ -1,0 +1,101 @@
+id: github__leonting1010__tap
+kind: github-repo
+name: tap
+canonical_url: https://github.com/leonting1010/tap
+identity:
+  github_repo: leonting1010/tap
+provenance:
+  discoveries:
+    - id: discovery__github__leonting1010__tap__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📂 <a name="browser-automation"></a>Browser Automation
+        anchor_text: LeonTing1010/tap
+        extracted_url: https://github.com/leonting1010/tap
+        surrounding_text: "- [LeonTing1010/tap](https://github.com/LeonTing1010/tap) [![LeonTing1010/tap MCP server](https://glama.ai/mcp/servers/LeonTing1010/tap/badges/score.svg)](https://glama.ai/mcp/servers/LeonTing1010/tap) 📇 🏠 🍎 🪟 🐧 - MCP server that compiles AI browser automation into deterministic `.tap.json` plans (25-op closed union, zero runtime LLM), runs on your logged-in Chrome, and detects drift via semantic fingerprint diff when sites change. 65+ open community taps on 40+ sites."
+        confidence: high
+metadata:
+  github:
+    stars: 3
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2026-04-03T00:26:27Z"
+    pushed_at: "2026-05-05T11:06:08Z"
+    description: Automate any website. AI compiles it. Runs forever at $0. 200+ skills, 3 runtimes, MCP native.
+    homepage: https://taprun.dev/?utm_source=github&utm_medium=repo&utm_campaign=homepage
+    topics:
+      - ai-agent
+      - ai-automation
+      - automation
+      - browser-automation
+      - browser-use
+      - chrome-extension
+      - claude
+      - claude-code
+      - cli
+      - cursor
+      - data-extraction
+      - deterministic
+      - llm
+      - mcp
+      - mcp-server
+      - playwright
+      - puppeteer
+      - scraping
+      - stagehand
+    last_checked_at: "2026-05-05T21:03:18.684Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:18.684Z"
+      bytes: 12906
+insights:
+  summary: A local-first browser automation tool that uses AI to compile a deterministic .plan.json program from a website once, then replays it forever with zero LLM tokens.
+  why_it_matters: It lets developers build resilient web scrapers and automations that don't silently break or drain the API budget on every run.
+  mental_damage: We have successfully invented a way to make a scraper that is too deterministic to fail, yet you will still refresh it at 9 AM like it owes you money.
+  tags:
+    - browser-automation
+    - mcp
+    - scraping
+    - cli
+    - chrome-extension
+  confidence: medium
+curation:
+  status: included
+  reason: The project is explicitly MCP-native infrastructure designed to be used as a server with other AI dev tools like Claude Code and Cursor.
+  evidence:
+    - "Repo description states: 'MCP native' and lists mcp-server as a topic."
+    - "README confirms: 'Works with Claude Code, Cursor, Cline, Windsurf, and any MCP host.'"
+    - Listed in awesome-mcp-servers under 'Browser Automation' server implementations.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.704Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:18.684Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:33:38.743Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,76 @@
+id: weave__docs__wandb__ai__guides__core__types__evaluations
+kind: website
+name: evaluations
+canonical_url: https://weave-docs.wandb.ai/guides/core-types/evaluations
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__weave__docs__wandb__ai__guides__core__types__evaluations__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 评估 Evaluation
+        anchor_text: Weave
+        extracted_url: https://weave-docs.wandb.ai/guides/core-types/evaluations
+        surrounding_text: "5. [Weave](https://weave-docs.wandb.ai/guides/core-types/evaluations): A lightweight toolkit for tracking and evaluating LLM applications."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Weave Evaluations is a feature within Weights & Biases' Weave toolkit for defining, running, and tracking evaluations of LLM outputs and application behavior.
+  why_it_matters: It provides developers with structured tooling to measure model quality and catch prompt regressions before they reach production.
+  mental_damage: Finally, a rigorous way to prove that the new prompt isn't actually better, just differently wrong.
+  tags:
+    - evals
+    - llm-observability
+    - testing
+    - wandb
+  confidence: high
+curation:
+  status: included
+  reason: This is a dedicated evaluation and observability capability for LLM applications, which fits squarely into the Evaluations and Benchmarks category.
+  evidence:
+    - URL path is 'weave-docs.wandb.ai/guides/core-types/evaluations', indicating a specific eval feature.
+    - Listed in awesome-LLM-resources under the Evaluation (评估) section.
+    - Described as a guide for 'evaluations' within the Weave product ecosystem.
+placement:
+  primary_category: evals
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.445Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T20:49:41.084Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+    next_retry_at: null

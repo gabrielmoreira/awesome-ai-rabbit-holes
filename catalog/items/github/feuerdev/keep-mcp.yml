@@ -1,0 +1,80 @@
+id: github__feuerdev__keep-mcp
+kind: github-repo
+name: keep-mcp
+canonical_url: https://github.com/feuerdev/keep-mcp
+identity:
+  github_repo: feuerdev/keep-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__feuerdev__keep-mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: Google Keep
+        extracted_url: https://github.com/feuerdev/keep-mcp
+        surrounding_text: "- **[Google Keep](https://github.com/feuerdev/keep-mcp)** - Read, create, update and delete Google Keep notes."
+        confidence: high
+metadata:
+  github:
+    stars: 73
+    forks: 26
+    license: MIT
+    archived: false
+    created_at: "2025-03-31T23:22:45Z"
+    pushed_at: "2026-02-22T20:24:05Z"
+    description: MCP server for Google Keep
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:02:10.658Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:10.658Z"
+      bytes: 7075
+insights:
+  summary: An MCP server that lets AI assistants read, create, and manage notes in Google Keep via a range of note, label, and collaborator tools.
+  why_it_matters: It turns Google Keep into a programmable surface so agents can treat your notes as task lists, specs, and transient state without leaving the chat.
+  mental_damage: We have successfully built an integration that allows an AI to reorganize your grocery lists while you are still debugging why the MCP config won't parse.
+  tags:
+    - mcp
+    - google-keep
+    - productivity
+    - agent-tooling
+  confidence: high
+curation:
+  status: included
+  reason: This is a standalone MCP server for Google Keep, which cleanly fits the MCP Servers and Tooling category.
+  evidence:
+    - Repo description states 'MCP server for Google Keep'.
+    - README documents MCP tools for notes, labels, collaborators, and media tied to an MCP server config.
+    - Listed in awesome-mcp-servers under Community Servers.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.687Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:10.658Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:19:28.367Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,84 @@
+id: github__modelcontextprotocol__registry
+kind: github-repo
+name: registry
+canonical_url: https://github.com/modelcontextprotocol/registry
+identity:
+  github_repo: modelcontextprotocol/registry
+provenance:
+  discoveries:
+    - id: discovery__github__modelcontextprotocol__registry__awesome-list__vivy-yi__awesome-agent-orchestration
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: vivy-yi/awesome-agent-orchestration
+        url: https://github.com/vivy-yi/awesome-agent-orchestration
+        repository: vivy-yi/awesome-agent-orchestration
+      extraction:
+        mode: parsed
+        section_path:
+          - Agent Communication Protocols
+          - Model Context Protocol (MCP)
+          - Official Resources
+        anchor_text: modelcontextprotocol/registry
+        extracted_url: https://github.com/modelcontextprotocol/registry
+        surrounding_text: "| [modelcontextprotocol/registry](https://github.com/modelcontextprotocol/registry) | Community-driven MCP server registry | ![Stars](https://img.shields.io/github/stars/modelcontextprotocol/registry) |"
+        confidence: high
+metadata:
+  github:
+    stars: 6775
+    forks: 797
+    license: NOASSERTION
+    archived: false
+    created_at: "2025-02-05T17:58:01Z"
+    pushed_at: "2026-05-05T10:14:52Z"
+    description: A community driven registry service for Model Context Protocol (MCP) servers.
+    homepage: https://github.com/modelcontextprotocol/registry/tree/main/docs
+    topics:
+      - mcp
+      - mcp-servers
+    last_checked_at: "2026-05-05T21:03:45.138Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:45.138Z"
+      bytes: 7769
+insights:
+  summary: A community-driven registry service and API for discovering, publishing, and integrating Model Context Protocol (MCP) servers.
+  why_it_matters: It provides the discoverability and API backbone that allows MCP clients and developers to find and integrate compatible servers without maintaining their own manual lists.
+  mental_damage: We have successfully built an app store for the protocol that connects your AI to your tools, meaning the new weekend project is now browsing the app store instead of writing code.
+  tags:
+    - mcp
+    - registry
+    - ecosystem
+    - tooling
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly a registry service for MCP servers, which fits the MCP Servers and Tooling category definition perfectly.
+  evidence:
+    - "Repo description: 'A community driven registry service for Model Context Protocol (MCP) servers.'"
+    - "README states: 'The MCP registry provides MCP clients with a list of MCP servers, like an app store for MCP servers.'"
+    - Source list context confirms inclusion under 'Agent Communication Protocols > Model Context Protocol (MCP) > Official Resources'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (6775) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.708Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:45.138Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:38:42.489Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

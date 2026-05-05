@@ -1,0 +1,103 @@
+id: github__browserbase__mcp-server-browserbase
+kind: github-repo
+name: mcp-server-browserbase
+canonical_url: https://github.com/browserbase/mcp-server-browserbase
+identity:
+  github_repo: browserbase/mcp-server-browserbase
+provenance:
+  discoveries:
+    - id: discovery__github__browserbase__mcp-server-browserbase__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📂 <a name="browser-automation"></a>Browser Automation
+        anchor_text: browserbase/mcp-server-browserbase
+        extracted_url: https://github.com/browserbase/mcp-server-browserbase
+        surrounding_text: "- [browserbase/mcp-server-browserbase](https://github.com/browserbase/mcp-server-browserbase) 🎖️ 📇 - Automate browser interactions in the cloud (e.g. web navigation, data extraction, form filling, and more)"
+        confidence: high
+    - id: discovery__github__browserbase__mcp-server-browserbase__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Browserbase
+        extracted_url: https://github.com/browserbase/mcp-server-browserbase
+        surrounding_text: "- **[Browserbase](https://github.com/browserbase/mcp-server-browserbase)** - Automate browser interactions in the cloud (e.g. web navigation, data extraction, form filling, and more)"
+        confidence: high
+metadata:
+  github:
+    stars: 3310
+    forks: 358
+    license: Apache-2.0
+    archived: false
+    created_at: "2024-12-05T19:20:40Z"
+    pushed_at: "2026-05-05T18:37:45Z"
+    description: Allow LLMs to control a browser with Browserbase and Stagehand
+    homepage: https://stagehand.dev
+    topics:
+      - ai
+      - browser
+      - chrome
+      - chromium
+      - mcp
+      - playwright
+      - puppeteer
+    last_checked_at: "2026-05-05T21:01:25.668Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:25.668Z"
+      bytes: 7707
+insights:
+  summary: An MCP server that connects LLMs to cloud browser automation via Browserbase and Stagehand, enabling web page interaction, data extraction, and automated actions.
+  why_it_matters: It gives coding agents and AI workflows a standardized way to control a real browser for scraping, testing, and interacting with web UIs without custom playwright glue.
+  mental_damage: We have successfully abstracted the browser so that your LLM can now get stuck on cookie banners entirely through standardized protocol buffers.
+  tags:
+    - mcp
+    - browser-automation
+    - stagehand
+    - llm-tools
+  confidence: high
+curation:
+  status: included
+  reason: The project is an MCP server implementation that provides browser automation tools for LLMs, fitting cleanly into the MCP infrastructure category.
+  evidence:
+    - "Repo description: 'Allow LLMs to control a browser with Browserbase and Stagehand'"
+    - "README: 'This server provides cloud browser automation capabilities using Browserbase and Stagehand. It enables LLMs to interact with web pages, extract information, and perform automated actions.'"
+    - Listed in awesome-mcp-servers under 'Server Implementations > Browser Automation'
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (3310) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.664Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:25.668Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:11:41.249Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

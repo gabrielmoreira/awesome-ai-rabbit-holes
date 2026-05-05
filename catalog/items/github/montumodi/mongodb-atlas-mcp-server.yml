@@ -1,0 +1,90 @@
+id: github__montumodi__mongodb-atlas-mcp-server
+kind: github-repo
+name: mongodb-atlas-mcp-server
+canonical_url: https://github.com/montumodi/mongodb-atlas-mcp-server
+identity:
+  github_repo: montumodi/mongodb-atlas-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__montumodi__mongodb-atlas-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🗄️ <a name="databases"></a>Databases
+        anchor_text: montumodi/mongodb-atlas-mcp-server
+        extracted_url: https://github.com/montumodi/mongodb-atlas-mcp-server
+        surrounding_text: "- [montumodi/mongodb-atlas-mcp-server](https://github.com/montumodi/mongodb-atlas-mcp-server) 📇 ☁️ 🪟 🍎 🐧 - A Model Context Protocol (MCP) that provides access to the MongoDB Atlas API. This server wraps the `mongodb-atlas-api-client` package to expose MongoDB Atlas functionality through MCP tools."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2025-08-13T13:39:47Z"
+    pushed_at: "2026-04-29T10:46:49Z"
+    description: MCP server for mongodb atlas api. Internally uses mongodb-atlas-api-client
+    homepage: ""
+    topics:
+      - llm
+      - mcp
+      - mcp-server
+      - mongo
+      - mongodb-atlas
+      - mongodb-atlas-api
+      - node
+      - nodejs
+    last_checked_at: "2026-05-05T21:03:46.714Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:46.714Z"
+      bytes: 8190
+insights:
+  summary: An MCP server that wraps the MongoDB Atlas API to expose database clusters, users, backups, and project settings as tools for AI assistants.
+  why_it_matters: It allows LLM-powered coding agents to manage Atlas infrastructure, query backups, and configure access controls through natural language instead of manual API calls.
+  mental_damage: Because what the modern developer truly craves is a fourteen-layer stack just to ask a chatbot if their database cluster is still online.
+  tags:
+    - mcp
+    - mongodb
+    - atlas
+    - infrastructure
+    - nodejs
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server implementation for MongoDB Atlas, fitting cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description states: 'MCP server for mongodb atlas api.'"
+    - README confirms it 'wraps the mongodb-atlas-api-client package to expose MongoDB Atlas functionality through MCP tools.'
+    - Listed in awesome-mcp-servers under Server Implementations > Databases.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.708Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:46.715Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:39:01.815Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

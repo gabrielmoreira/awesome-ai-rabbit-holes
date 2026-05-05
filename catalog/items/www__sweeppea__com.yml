@@ -1,0 +1,77 @@
+id: www__sweeppea__com
+kind: website
+name: www.sweeppea.com
+canonical_url: https://www.sweeppea.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__sweeppea__com__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🎯 <a name="marketing"></a>Marketing
+        anchor_text: Sweeppea
+        extracted_url: https://www.sweeppea.com
+        surrounding_text: "- [Sweeppea-Development-Lab/sweeppea-mcp-info](https://github.com/Sweeppea-Development-Lab/sweeppea-mcp-info) [![Sweeppea-Development-Lab/sweeppea-mcp-info MCP server](https://glama.ai/mcp/servers/Sweeppea-Development-Lab/sweeppea-mcp-info/badges/score.svg)](https://glama.ai/mcp/servers/Sweeppea-Development-Lab/sweeppea-mcp-info) 📇 ☁️ - Sweepstakes management platform with 70 MCP tools for legally compliant promotions in the US and Canada. Manage participants, official rules, winner drawings, entry pages, billing, and more. Requires a [Sweeppea](https://www.sweeppea.com/) subscription."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Sweeppea is a full-service and self-service sweepstakes platform for brands and agencies that includes API access, MCP server integration, and AI agents for marketing promotions.
+  why_it_matters: It offers developers API documentation and an MCP server to programmatically manage legally compliant sweepstakes and integrate promotional campaigns into their applications.
+  mental_damage: We have successfully reached the point where even legally compliant giveaway platforms need an MCP server and AI agents to justify their existence in a developer directory.
+  tags:
+    - mcp
+    - marketing
+    - api
+    - integrations
+  confidence: high
+curation:
+  status: excluded
+  reason: While it lists MCP and AI integration, the core product is a marketing sweepstakes SaaS for agencies and brands, not a developer-facing tool for coding, infrastructure, or app building.
+  evidence:
+    - Primary description focuses on 'legally compliant administration' and 'Shopify Buy-to-Enter app' for brands and agencies.
+    - Listed in awesome-mcp-servers under the 'Marketing' section, indicating it is a niche integration rather than a core dev tool.
+    - Site excerpt emphasizes 'Full-Service' and 'Self-Service Sweepstakes Solutions' rather than developer workflow automation.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.734Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:53:32.390Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

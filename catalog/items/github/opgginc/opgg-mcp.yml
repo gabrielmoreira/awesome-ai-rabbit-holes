@@ -1,0 +1,96 @@
+id: github__opgginc__opgg-mcp
+kind: github-repo
+name: opgg-mcp
+canonical_url: https://github.com/opgginc/opgg-mcp
+identity:
+  github_repo: opgginc/opgg-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__opgginc__opgg-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🎮 <a name="gaming"></a>Gaming
+        anchor_text: opgginc/opgg-mcp
+        extracted_url: https://github.com/opgginc/opgg-mcp
+        surrounding_text: "- [opgginc/opgg-mcp](https://github.com/opgginc/opgg-mcp) 📇 ☁️ - Access real-time gaming data across popular titles like League of Legends, TFT, and Valorant, offering champion analytics, esports schedules, meta compositions, and character statistics."
+        confidence: high
+    - id: discovery__github__opgginc__opgg-mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: OP.GG
+        extracted_url: https://github.com/opgginc/opgg-mcp
+        surrounding_text: "- **[OP.GG](https://github.com/opgginc/opgg-mcp)** - Access real-time gaming data across popular titles like League of Legends, TFT, and Valorant, offering champion analytics, esports schedules, meta compositions, and character statistics."
+        confidence: high
+metadata:
+  github:
+    stars: 89
+    forks: 14
+    license: MIT
+    archived: false
+    created_at: "2025-04-08T21:44:27Z"
+    pushed_at: "2026-01-01T20:03:37Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:04:07.700Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:07.700Z"
+      bytes: 4378
+insights:
+  summary: An MCP server implementation that exposes OP.GG game data for League of Legends, TFT, and Valorant to AI agents via a Streamable HTTP endpoint.
+  why_it_matters: Developers building gaming assistants or data-driven agent workflows can plug directly into OP.GG's meta, match history, and leaderboard APIs without writing custom scraping or API glue code.
+  mental_damage: "We have finally solved the most critical interoperability problem of our time: letting Claude argue with you about lane matchups and Valorant agent comps with zero latency."
+  tags:
+    - mcp
+    - gaming
+    - league-of-legends
+    - api-wrapper
+  confidence: high
+curation:
+  status: included
+  reason: This is a dedicated MCP server exposing game data APIs, fitting cleanly into the MCP Servers and Tooling category rather than a coding agent or framework.
+  evidence:
+    - README states it is 'a Model Context Protocol implementation that provides AI agents with access to OP.GG game data'.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Gaming'.
+    - Provides a Streamable HTTP MCP endpoint at https://mcp-api.op.gg/mcp with tool definitions for LoL, TFT, and Valorant.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.670Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:07.700Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:43:02.967Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

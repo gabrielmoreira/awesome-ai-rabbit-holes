@@ -1,0 +1,77 @@
+id: www__tavily__com
+kind: website
+name: www.tavily.com
+canonical_url: https://www.tavily.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__tavily__com__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Tavily
+        extracted_url: https://tavily.com
+        surrounding_text: "- **[Tavily](https://github.com/tavily-ai/tavily-mcp)** - Search engine for AI agents (search + extract) powered by [Tavily](https://tavily.com/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Tavily is a hosted API service that provides real-time web search, content extraction, and crawling specifically designed to ground AI agents and RAG workflows with fresh web context.
+  why_it_matters: It allows developers to reduce hallucinations in LLM applications by providing a production-grade retrieval stack that returns structured, chunked web data ready for model consumption.
+  mental_damage: We have successfully abstracted 'looking something up on the internet' into a paid API call with 180ms latency, just so our agents can hallucinate with verifiable sources.
+  tags:
+    - search-api
+    - rag
+    - agents
+    - mcp
+    - web-scraping
+  confidence: high
+curation:
+  status: included
+  reason: It fits squarely into context-engineering as a retrieval and fresh-doc lookup system designed to shape what information an AI model sees.
+  evidence:
+    - Scraped site describes it as 'the real-time search engine for AI agents and RAG workflows' with APIs for search and extraction.
+    - Included in awesome-mcp-servers under 'Official Servers' for providing web access to agents.
+    - Marketing explicitly focuses on grounding models with 'fresh web context' to prevent hallucinations.
+placement:
+  primary_category: context-engineering
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.734Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:53:37.741Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

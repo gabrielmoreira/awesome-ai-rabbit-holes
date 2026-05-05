@@ -1,0 +1,76 @@
+id: copilot__money
+kind: website
+name: copilot.money
+canonical_url: https://copilot.money
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__copilot__money__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: Copilot Money
+        extracted_url: https://copilot.money
+        surrounding_text: "- [ignaciohermosillacornejo/copilot-money-mcp](https://github.com/ignaciohermosillacornejo/copilot-money-mcp) [![ignaciohermosillacornejo/copilot-money-mcp MCP server](https://glama.ai/mcp/servers/ignaciohermosillacornejo/copilot-money-mcp/badges/score.svg)](https://glama.ai/mcp/servers/ignaciohermosillacornejo/copilot-money-mcp) 📇 🏠 ☁️ 🍎 - Read and manage [Copilot Money](https://copilot.money) personal finance data — 30 tools for transactions, budgets, accounts, recurring charges, investments, and goals. Reads are 100% local from the Firestore cache; opt-in writes (`--write`) go directly to Copilot's GraphQL API."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: copilot.money is a Model Context Protocol (MCP) server that provides financial and fintech data capabilities to AI assistants.
+  why_it_matters: It allows developers to equip their AI coding agents with real-time financial context, enabling workflows that involve market data analysis or economic reasoning without leaving the chat interface.
+  mental_damage: "We have finally achieved the platonic ideal of late-stage capitalism: an AI agent that can autonomously lose your money faster than you ever could manually."
+  tags:
+    - mcp
+    - fintech
+    - server
+    - finance
+  confidence: medium
+curation:
+  status: included
+  reason: The project is explicitly listed as an MCP server implementation in the 'Finance & Fintech' section of the awesome-mcp-servers directory, fitting the MCP infrastructure category.
+  evidence:
+    - Listed in awesome-mcp-servers under 'Server Implementations > Finance & Fintech'.
+    - URL resolves to copilot.money, indicating a dedicated tool/service page.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.444Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T20:49:20.407Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+    next_retry_at: null

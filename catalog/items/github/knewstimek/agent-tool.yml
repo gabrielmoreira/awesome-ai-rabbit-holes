@@ -1,0 +1,101 @@
+id: github__knewstimek__agent-tool
+kind: github-repo
+name: agent-tool
+canonical_url: https://github.com/knewstimek/agent-tool
+identity:
+  github_repo: knewstimek/agent-tool
+provenance:
+  discoveries:
+    - id: discovery__github__knewstimek__agent-tool__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: knewstimek/agent-tool
+        extracted_url: https://github.com/knewstimek/agent-tool
+        surrounding_text: "- [knewstimek/agent-tool](https://github.com/knewstimek/agent-tool) [![agent-tool MCP server](https://glama.ai/mcp/servers/knewstimek/agent-tool/badges/score.svg)](https://glama.ai/mcp/servers/knewstimek/agent-tool) 🏎️ 🏠 🍎 🪟 🐧 - Encoding-aware, indentation-smart file tools for AI coding agents. 20+ tools including read/edit with automatic encoding detection, smart indentation conversion, SSH, SFTP, process management, and system utilities. Preserves file encoding (UTF-8, EUC-KR, Shift_JIS, etc.) and respects .editorconfig settings."
+        confidence: high
+metadata:
+  github:
+    stars: 17
+    forks: 2
+    license: MIT
+    archived: false
+    created_at: "2026-03-13T19:45:38Z"
+    pushed_at: "2026-05-05T10:43:07Z"
+    description: MCP tool server for AI coding agents -- encoding-aware file tools, binary analysis, DAP debugger, SSH/SFTP, process memory, and more
+    homepage: null
+    topics:
+      - ai-coding
+      - automation
+      - claude-code
+      - cli
+      - codex
+      - cross-platform
+      - cursor
+      - developer-tools
+      - dns
+      - encoding
+      - file-tools
+      - golang
+      - mcp
+      - mcp-server
+      - mysql
+      - redis
+      - sftp
+      - ssh
+      - tls
+    last_checked_at: "2026-05-05T21:03:06.983Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:06.983Z"
+      bytes: 20731
+insights:
+  summary: An MCP tool server that provides AI coding agents with encoding-aware file operations, remote execution via SSH/SFTP, and reverse engineering capabilities like binary analysis and DAP debugging.
+  why_it_matters: It fixes common friction points in AI coding agents—such as indentation corruption and encoding loss—while bundling 50 tools into a single binary to expand an agent's reach into system processes, databases, and remote servers.
+  mental_damage: We have reached the point where we need a dedicated server just to stop our AI assistants from silently converting legacy encodings and breaking tab indentation, because apparently the agents can't be trusted with a simple text editor.
+  tags:
+    - mcp
+    - coding-agents
+    - developer-tools
+    - encoding
+    - reverse-engineering
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server providing tooling infrastructure for AI coding agents, which fits the MCP category definition perfectly.
+  evidence:
+    - Repo description states it is an 'MCP tool server for AI coding agents'.
+    - README confirms it is an MCP server solving limitations in agents like Claude Code, Cursor, and Codex.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.701Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:06.983Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:31:08.063Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

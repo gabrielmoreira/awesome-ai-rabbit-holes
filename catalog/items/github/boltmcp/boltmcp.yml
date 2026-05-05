@@ -1,0 +1,87 @@
+id: github__boltmcp__boltmcp
+kind: github-repo
+name: open-mcp
+canonical_url: https://github.com/boltmcp/boltmcp
+identity:
+  github_repo: boltmcp/boltmcp
+provenance:
+  discoveries:
+    - id: discovery__github__wegotdocs__open-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🔗 <a name="aggregators"></a>Aggregators
+        anchor_text: wegotdocs/open-mcp
+        extracted_url: https://github.com/wegotdocs/open-mcp
+        surrounding_text: "- [wegotdocs/open-mcp](https://github.com/wegotdocs/open-mcp) 📇 🏠 🍎 🪟 🐧 - Turn a web API into an MCP server in 10 seconds and add it to the open source registry: https://open-mcp.org"
+        confidence: high
+metadata:
+  github:
+    stars: 348
+    forks: 43
+    license: null
+    archived: false
+    created_at: "2025-03-27T14:40:31Z"
+    pushed_at: "2026-03-21T10:22:12Z"
+    description: null
+    homepage: https://boltmcp.io
+    topics:
+      - agentic-ai
+      - llm
+      - mcp
+      - mcp-server
+      - skills
+    last_checked_at: "2026-05-05T21:01:23.783Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:23.782Z"
+      bytes: 2194
+insights:
+  summary: BoltMCP is an enterprise-grade, self-hosted platform for creating, deploying, and managing custom Model Context Protocol (MCP) servers with support for OAuth 2, Streamable HTTP, and rich tool customization.
+  why_it_matters: It allows development teams to standardize and operate MCP infrastructure on-premises, turning API integrations into declarative, secure tool servers for their AI agents.
+  mental_damage: We have successfully abstracted the abstraction, meaning you can now deploy a Kubernetes cluster just to argue with a server about whether it has the right token context.
+  tags:
+    - mcp
+    - orchestration
+    - self-hosted
+    - enterprise
+    - kubernetes
+  confidence: high
+curation:
+  status: included
+  reason: The project is a dedicated MCP infrastructure platform for managing and deploying custom MCP servers, fitting the MCP category perfectly.
+  evidence:
+    - README identifies it as an 'enterprise-grade MCP orchestration platform to create, deploy, and manage custom MCP servers'.
+    - Features include Streamable HTTP transport, OAuth 2 security, and declarative json/yaml specs for tools.
+    - Topics include 'mcp', 'mcp-server', and 'agentic-ai', and it provides an MCP client playground.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (348) exceeded threshold (150)
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:11:21.346Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.724Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:23.783Z"
+    cause: null
+    next_retry_at: null

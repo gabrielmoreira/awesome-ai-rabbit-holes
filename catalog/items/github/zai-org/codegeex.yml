@@ -1,0 +1,91 @@
+id: github__zai-org__codegeex
+kind: github-repo
+name: codegeex
+canonical_url: https://github.com/zai-org/codegeex
+identity:
+  github_repo: zai-org/codegeex
+provenance:
+  discoveries:
+    - id: discovery__codegeex__cn__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Code Completion
+        anchor_text: CodeGeeX
+        extracted_url: https://codegeex.cn
+        surrounding_text: "- **[CodeGeeX](https://codegeex.cn/)** – Open-source multilingual code generation model."
+        confidence: high
+    - id: discovery__github__thudm__codegeex__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Code AI
+        anchor_text: CodeGeeX
+        extracted_url: https://github.com/thudm/codegeex
+        surrounding_text: "| [CodeGeeX](https://github.com/THUDM/CodeGeeX)       | CodeGeeX: An Open Multilingual Code Generation Model (KDD 2023)                                          | ![GitHub Badge](https://img.shields.io/github/stars/THUDM/CodeGeeX.svg?style=flat-square)       |"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: CodeGeeX is an AI-powered coding assistant that provides code completion, translation, and comment generation across more than 20 programming languages.
+  why_it_matters: It integrates directly into the developer workflow to reduce boilerplate and accelerate multilingual coding tasks.
+  mental_damage: Yet another multilingual sidekick arrives to ensure you never quite learn the syntax of that second language, you just learn to trust the autocomplete.
+  tags:
+    - ai-assistant
+    - code-completion
+    - ide-plugin
+    - multilingual
+  confidence: medium
+curation:
+  status: included
+  reason: The tool is a developer-facing coding assistant focused on code generation, completion, and translation within the coding workflow, which fits the coding-agents category.
+  evidence:
+    - Listed in awesome-ai-coding-tools under Code Completion as an AI-based coding assistant.
+    - Scraped description states it suggests code, generates code, translates code, and writes comments for 20+ languages.
+placement:
+  primary_category: coding-agents
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:43:01.374Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.726Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

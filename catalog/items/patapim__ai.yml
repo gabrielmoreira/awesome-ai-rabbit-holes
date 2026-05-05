@@ -1,0 +1,78 @@
+id: patapim__ai
+kind: website
+name: patapim.ai
+canonical_url: https://patapim.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__patapim__ai__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Session managers & parallel runners
+        anchor_text: PATAPIM
+        extracted_url: https://patapim.ai
+        surrounding_text: "- **[PATAPIM](https://patapim.ai)** — Terminal IDE with a 9-terminal grid for running multiple CLI coding agents simultaneously; features AI state detection, built-in Whisper voice dictation, LAN remote access, and an embedded MCP browser. Built with Electron and node-pty. Freemium."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A desktop terminal and workspace manager that orchestrates Claude Code, Codex, and Gemini across multiple local terminals with integrated browser automation, session persistence, and remote mobile access.
+  why_it_matters: It provides a unified local control plane for running multiple coding agents in parallel, preserving context and state across sessions without requiring additional API subscriptions.
+  mental_damage: We have officially reached the point where the selling point is 'run ten AI agents at once so you can anxiously watch them all fail in different tabs simultaneously.'
+  tags:
+    - terminal
+    - multi-agent
+    - session-management
+    - claude-code
+    - local-first
+  confidence: high
+curation:
+  status: included
+  reason: This is an end-user desktop platform for coordinating multiple AI coding agents (Claude, Gemini, Codex) and their state, fitting the user-facing orchestration category rather than being a coding agent itself.
+  evidence:
+    - Scraped site context describes 'Multi-AI War Room Claude, Gemini & Codex side by side' and 'Run 10 projects at the same time.'
+    - Source list context explicitly places it in 'Harnesses & orchestration > Session managers & parallel runners' for CLI coding agents.
+    - Features include session restore, connected tabs, and terminal management rather than being a new underlying coding model or IDE.
+placement:
+  primary_category: agent-orchestration
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.729Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:46:57.568Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

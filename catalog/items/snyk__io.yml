@@ -1,0 +1,76 @@
+id: snyk__io
+kind: website
+name: snyk.io
+canonical_url: https://snyk.io
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__snyk__io__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Code Review and Refactoring
+        anchor_text: Snyk (DeepCode)
+        extracted_url: https://snyk.io
+        surrounding_text: "- **[Snyk (DeepCode)](https://snyk.io/)** – Security-focused code analysis with vulnerability detection."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Snyk is a commercial security platform that scans code, dependencies, containers, and infrastructure for vulnerabilities, with newer AI-focused features for securing AI-generated code and AI agents.
+  why_it_matters: It integrates directly into the developer workflow to catch insecure AI-generated code and supply chain risks before they reach production.
+  mental_damage: Now you can ship AI-generated vulnerabilities at record speed, safe in the knowledge that a separate AI is being paid to judge the output of the first one.
+  tags:
+    - security
+    - devsecops
+    - ai-generated-code
+    - vulnerability-scanning
+  confidence: high
+curation:
+  status: excluded
+  reason: Snyk is a general application security and DevSecOps platform, not a primary AI coding assistant, agent, or app builder, and lacks the direct AI-assisted code generation or editing focus required for this catalog.
+  evidence:
+    - Scraped site context describes it as 'AI Security Fabric' focused on scanning code, dependencies, containers, and IaC, not writing or editing code.
+    - Source list context places it in 'Code Review and Refactoring' in an awesome list, but the product itself is a security scanner, not a coding agent.
+    - The platform emphasizes vulnerability detection, compliance, and governance rather than AI-driven code creation or autonomous coding workflows.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.730Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:48:13.657Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

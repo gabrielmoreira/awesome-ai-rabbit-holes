@@ -1,0 +1,75 @@
+id: skillhub__cn
+kind: website
+name: skillhub.cn
+canonical_url: https://skillhub.cn
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__skillhub__cn__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 技能 Skills
+        anchor_text: SkillHub
+        extracted_url: https://skillhub.tencent.com
+        surrounding_text: 13. [SkillHub](https://skillhub.tencent.com/#categories)
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: SkillHub is a community and directory focused on discovering and sharing high-quality AI skills, specifically curated for Chinese users.
+  why_it_matters: It provides a centralized, vetted registry of reusable AI skills that developers can use to extend the capabilities of their existing coding assistants and agents.
+  mental_damage: Just when you thought you had mastered prompt engineering, the ecosystem has decided you now need a certified library of micro-skills to prevent your agent from hallucinating its way through a CRUD app.
+  tags:
+    - skills
+    - china
+    - registry
+    - ai-community
+  confidence: high
+curation:
+  status: included
+  reason: The project is a directory/registry of reusable AI skills for developers, which aligns perfectly with the 'skills' category's focus on skill packs and directories.
+  evidence:
+    - Scraped site context describes it as an 'AI技能社区' (AI Skills Community) focusing on 'AI Skills'.
+    - Source list context places it in a 'Skills' section, noting it '精选 Top 50 高质量 AI Skills' (Selects Top 50 high-quality AI Skills).
+placement:
+  primary_category: skills
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.730Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T20:27:12.042Z"
+    cause: null
+    attempts: 3
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 753a9feca783
+    next_retry_at: null

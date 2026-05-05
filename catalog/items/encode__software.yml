@@ -1,0 +1,74 @@
+id: encode__software
+kind: website
+name: encode.software
+canonical_url: https://encode.software
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__encode__software__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - encode
+        anchor_text: encode
+        extracted_url: https://encode.software
+        surrounding_text: "## [encode](https://encode.software)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Encode is an AI autonomous agent listed in the awesome-ai-agents directory with no public repository details or hosted tool description available.
+  why_it_matters: If operational, it represents another entry in the growing ecosystem of autonomous agents aimed at automating developer workflows.
+  mental_damage: We are now curating tools that are themselves just curated lists of other invisible agents, creating a recursive loop of meta-automation.
+  tags:
+    - autonomous-agents
+    - agent
+  confidence: low
+curation:
+  status: excluded
+  reason: The project lacks a public repository, description, README, or hosted site context, making it impossible to verify if it is a developer tool or just a listing in a directory.
+  evidence:
+    - No repo description, README, or scraped site context provided.
+    - Only signal is inclusion in awesome-ai-agents, which is evidence of a listing but not of the tool's actual functionality.
+    - URL encode.software returns no homepage or product details to validate the developer-tooling claim.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.727Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:44:22.082Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

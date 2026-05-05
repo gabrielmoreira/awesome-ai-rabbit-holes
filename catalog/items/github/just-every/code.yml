@@ -1,0 +1,95 @@
+id: github__just-every__code
+kind: github-repo
+name: code
+canonical_url: https://github.com/just-every/code
+identity:
+  github_repo: just-every/code
+provenance:
+  discoveries:
+    - id: discovery__github__just-every__code__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Terminal-native coding agents
+          - Open Source
+        anchor_text: Every Code
+        extracted_url: https://github.com/just-every/code
+        surrounding_text: "- **[Every Code](https://github.com/just-every/code)** `⭐ 3.7k` — Fork of Codex CLI with validation, automation, browser integration, multi-agents, theming, and multi-provider orchestration (OpenAI, Claude, Gemini). Apache-2.0."
+        confidence: high
+metadata:
+  github:
+    stars: 3731
+    forks: 228
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-08-10T05:04:55Z"
+    pushed_at: "2026-05-01T13:30:08Z"
+    description: Every Code - push frontier AI to it limits. A fork of the Codex CLI with validation, automation, browser integration, multi-agents, theming, and much more. Orchestrate agents from OpenAI, Claude, Gemini or any provider.
+    homepage: https://justevery.com
+    topics:
+      - ai
+      - anthropic
+      - claude
+      - cli
+      - code
+      - codex
+      - deepseek
+      - every
+      - gemini
+      - google
+      - grok
+      - opanai
+      - qwen
+    last_checked_at: "2026-05-05T21:03:01.122Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:01.122Z"
+      bytes: 13696
+insights:
+  summary: A community fork of the OpenAI Codex CLI that adds browser integration, multi-agent orchestration, theming, and background code review for terminal-based AI coding workflows.
+  why_it_matters: It lets developers run multi-model coding agents locally in the terminal with background reviews and browser automation, without waiting for upstream CLI polish.
+  mental_damage: We are now forking the CLI that forks the model that finishes the sentence you started three prompts ago, and somehow this still feels like progress.
+  tags:
+    - cli
+    - multi-agent
+    - terminal
+    - codex
+    - local-ai
+  confidence: high
+curation:
+  status: included
+  reason: This is a terminal-native coding agent that directly edits, reviews, and orchestrates code in a local repo workflow, which matches the coding-agents category.
+  evidence:
+    - Repo description calls it a 'fork of the Codex CLI' with 'multi-agents' and 'browser integration'.
+    - README says 'Every Code is a fast, local coding agent for your terminal'.
+    - Listed in awesome-cli-coding-agents under 'Terminal-native coding agents > Open Source'.
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (3731) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.701Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:01.122Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:29:44.630Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

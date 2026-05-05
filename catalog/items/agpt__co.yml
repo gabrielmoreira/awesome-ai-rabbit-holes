@@ -1,0 +1,75 @@
+id: agpt__co
+kind: website
+name: agpt.co
+canonical_url: https://agpt.co
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__agpt__co__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - AutoGPT
+        anchor_text: AutoGPT
+        extracted_url: https://agpt.co
+        surrounding_text: "## [AutoGPT](https://agpt.co/?utm_source=awesome-ai-agents)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A hosted browser-first platform for creating and deploying autonomous AI agents.
+  why_it_matters: It allows developers to prototype and run autonomous agent workflows without managing the underlying infrastructure.
+  mental_damage: Yet another no-code agent builder promising that this time, the robots will definitely manage themselves while you watch the dashboard.
+  tags:
+    - agents
+    - no-code
+    - browser
+  confidence: medium
+curation:
+  status: included
+  reason: It is an end-user platform for coordinating AI agents and workflows in the browser, fitting the agent-orchestration category.
+  evidence:
+    - Listed in awesome-ai-agents under the AutoGPT section, indicating its role in autonomous agent ecosystems.
+    - URL is a hosted SaaS (agpt.co) rather than a code-first repository or IDE plugin.
+    - Source-list context and product framing match hosted app-building / prompt-to-app tooling rather than direct code collaboration.
+placement:
+  primary_category: agent-orchestration
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.726Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:41:28.920Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

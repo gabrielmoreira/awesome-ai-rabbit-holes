@@ -1,0 +1,75 @@
+id: talentohq__com__features__mcp
+kind: website
+name: mcp
+canonical_url: https://talentohq.com/features/mcp
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__talentohq__com__features__mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: TalentoHQ HR software
+        extracted_url: https://talentohq.com/features/mcp
+        surrounding_text: "- **[TalentoHQ](https://hr.talentohq.com/mcp)** – Connect to the [TalentoHQ HR software](https://talentohq.com/features/mcp) via MCP. Transform your organization with the AI first HR software."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A product page on the TalentoHQ website describing their implementation of the Model Context Protocol (MCP) as a feature.
+  why_it_matters: Developers evaluating TalentoHQ as a potential host for their AI workflows need to know it supports the emerging MCP standard for tool connectivity.
+  mental_damage: We now have marketing landing pages for protocol support, because apparently 'supports MCP' is the new 'has a newsletter signup form'.
+  tags:
+    - mcp
+    - enterprise
+    - hr-tech
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a marketing feature page for a talent/HR platform, not a standalone developer tool, MCP server, or infrastructure component.
+  evidence:
+    - URL points to a product feature page (talentohq.com/features/mcp), not a tool repository or registry.
+    - No repository description, README, or code evidence provided to suggest this is a developer tool rather than SaaS HR software.
+    - Listed in awesome-mcp-servers only as a reference to the 'Official Servers' concept, likely misinterpreted or scraped without context.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.731Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:48:32.469Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

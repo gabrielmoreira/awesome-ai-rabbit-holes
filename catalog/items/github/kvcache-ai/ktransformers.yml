@@ -1,0 +1,81 @@
+id: github__kvcache-ai__ktransformers
+kind: github-repo
+name: ktransformers
+canonical_url: https://github.com/kvcache-ai/ktransformers
+identity:
+  github_repo: kvcache-ai/ktransformers
+provenance:
+  discoveries:
+    - id: discovery__github__kvcache-ai__ktransformers__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 推理 Inference
+        anchor_text: ktransformers
+        extracted_url: https://github.com/kvcache-ai/ktransformers
+        surrounding_text: "45. [ktransformers](https://github.com/kvcache-ai/ktransformers): A Flexible Framework for Experiencing Cutting-edge LLM Inference Optimizations."
+        confidence: high
+metadata:
+  github:
+    stars: 17120
+    forks: 1283
+    license: Apache-2.0
+    archived: false
+    created_at: "2024-07-26T07:18:28Z"
+    pushed_at: "2026-05-03T13:07:33Z"
+    description: A Flexible Framework for Experiencing Heterogeneous LLM Inference/Fine-tune Optimizations
+    homepage: https://kvcache-ai.github.io/ktransformers/
+    topics: []
+    last_checked_at: "2026-05-05T21:03:13.953Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:13.953Z"
+      bytes: 9915
+insights:
+  summary: A flexible framework for efficient local LLM inference and fine-tuning that uses CPU-GPU heterogeneous computing to run large models on consumer hardware with limited VRAM.
+  why_it_matters: It allows developers to run and fine-tune massive models like DeepSeek-V3 and Kimi-K2 locally on modest GPUs by offloading experts to CPU and disk, drastically reducing hardware barriers.
+  mental_damage: Another heroic effort to convince us that 24GB of VRAM is actually enough to host the future of intelligence, provided you are comfortable with three-layer memory hierarchies and the fleeting peace of mind that comes with 'experimental' support.
+  tags:
+    - local-ai
+    - llm-inference
+    - fine-tuning
+    - heterogeneous-computing
+    - cpu-gpu
+  confidence: high
+curation:
+  status: included
+  reason: This is a local model serving stack and optimization framework designed to run LLMs on personal hardware, fitting squarely into the Local AI category.
+  evidence:
+    - Repo description explicitly states it is a framework for 'Heterogeneous LLM Inference/Fine-tune Optimizations'.
+    - README highlights running DeepSeek-R1 on 'single (24GB VRAM)/multi gpu and 382G DRAM' and supports local backends like llamfile.
+    - Active development indicated by recent pushes (2026-05-03) and rapid Day0 support for models like DeepSeek-V4-Flash and MiniMax-M2.5.
+placement:
+  primary_category: local-ai
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (17120) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.703Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:13.953Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:32:40.687Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

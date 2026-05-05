@@ -1,0 +1,100 @@
+id: github__hidai25__eval-view
+kind: github-repo
+name: eval-view
+canonical_url: https://github.com/hidai25/eval-view
+identity:
+  github_repo: hidai25/eval-view
+provenance:
+  discoveries:
+    - id: discovery__github__hidai25__eval-view__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: hidai25/eval-view
+        extracted_url: https://github.com/hidai25/eval-view
+        surrounding_text: "- [hidai25/eval-view](https://github.com/hidai25/eval-view) [![hidai25/eval-view MCP server](https://glama.ai/mcp/servers/hidai25/eval-view/badges/score.svg)](https://glama.ai/mcp/servers/hidai25/eval-view) 🐍 🏠 🍎 🪟 🐧 - Regression testing framework for AI agents. Save golden baselines, detect behavioral drift, and block regressions in CI. Works with LangGraph, CrewAI, OpenAI, Claude, and any HTTP API."
+        confidence: high
+metadata:
+  github:
+    stars: 98
+    forks: 20
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-11-17T22:21:38Z"
+    pushed_at: "2026-05-05T14:45:10Z"
+    description: Regression testing for AI agents. Snapshot behavior,diff tool calls,catch regressions in CI. Works with LangGraph, CrewAI, OpenAI, Anthropic.
+    homepage: https://evalview.com
+    topics:
+      - agent-benchmark
+      - agent-evaluation
+      - agentic-ai
+      - ai-agents
+      - anthropic
+      - autogen
+      - cli
+      - crewai
+      - evaluation
+      - langchain-agent
+      - langgraph
+      - llm
+      - mcp
+      - openai-assistants
+      - pytest
+      - python
+      - regression-testing
+      - testing
+    last_checked_at: "2026-05-05T21:02:33.522Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:33.522Z"
+      bytes: 46842
+insights:
+  summary: An open-source regression testing tool for AI agents that snapshots behavior, diffs tool calls, and catches silent regressions in CI for frameworks like LangGraph, CrewAI, and OpenAI.
+  why_it_matters: It gives developers a Playwright-style safety net for agent behavior, letting teams detect when a model update silently degrades tool choice or output quality before shipping to users.
+  mental_damage: We have finally built CI pipelines to catch when our autonomous agents quietly forget how to do the jobs we already forgot how to do ourselves.
+  tags:
+    - agent-testing
+    - regression
+    - eval
+    - ci
+    - langgraph
+  confidence: high
+curation:
+  status: included
+  reason: This is an evaluation and regression framework purpose-built for measuring and guarding agent behavior across model or provider changes, which fits squarely in Evaluations and Benchmarks.
+  evidence:
+    - Repo description explicitly states 'Regression testing for AI agents. Snapshot behavior, diff tool calls, catch regressions in CI.'
+    - README positions it as 'the open-source behavior regression gate for AI agents' with CI verdicts like BLOCK_RELEASE.
+    - Topics include agent-evaluation, regression-testing, and eval, and it integrates with LangGraph, CrewAI, OpenAI, and Anthropic.
+placement:
+  primary_category: evals
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.691Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:33.522Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:23:53.985Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

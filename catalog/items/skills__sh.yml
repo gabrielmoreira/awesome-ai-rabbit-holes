@@ -1,0 +1,76 @@
+id: skills__sh
+kind: website
+name: skills.sh
+canonical_url: https://skills.sh
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__skills__sh__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 技能 Skills
+        anchor_text: Skills.Sh
+        extracted_url: https://skills.sh
+        surrounding_text: 7. [Skills.Sh](https://skills.sh/)
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A centralized directory and CLI installer for reusable AI agent skills, allowing developers to add procedural knowledge packs to their agents with a single command.
+  why_it_matters: It provides a package-manager-style workflow for discovering and distributing the specific behaviors and rules that shape how coding agents operate.
+  mental_damage: We have finally achieved the dream of npm install for 'agent capabilities', meaning your AI's personality is now just a dependency tree waiting to conflict.
+  tags:
+    - skills
+    - agents
+    - cli
+    - registry
+  confidence: high
+curation:
+  status: included
+  reason: The project is a directory and installer specifically for reusable AI agent skill packs, which fits the dedicated skills category perfectly.
+  evidence:
+    - Title and description explicitly call it 'The Agent Skills Directory' for discovering and installing skills.
+    - "Usage is via a CLI command: 'npx skills add <owner/repo>' to enhance agents with procedural knowledge."
+    - Listed in awesome-LLM-resources under the section '技能 Skills' (Skills) linked as a skills directory.
+placement:
+  primary_category: skills
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.730Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T20:27:13.151Z"
+    cause: null
+    attempts: 3
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 753a9feca783
+    next_retry_at: null

@@ -1,0 +1,80 @@
+id: github__github__codeql-cli-binaries
+kind: github-repo
+name: codeql-cli-binaries
+canonical_url: https://github.com/github/codeql-cli-binaries
+identity:
+  github_repo: github/codeql-cli-binaries
+provenance:
+  discoveries:
+    - id: discovery__github__github__codeql-cli-binaries__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: scraped
+        section_path:
+          - Code Review and Refactoring
+        anchor_text: CodeQL (GitHub)
+        extracted_url: https://codeql.github.com
+        surrounding_text: "- **[CodeQL (GitHub)](https://codeql.github.com/)** – Semantic code analysis for security and quality."
+        confidence: high
+metadata:
+  github:
+    stars: 975
+    forks: 166
+    license: NOASSERTION
+    archived: false
+    created_at: "2019-10-15T09:46:34Z"
+    pushed_at: "2026-05-01T12:07:16Z"
+    description: Binaries for the CodeQL CLI
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:02:21.823Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:21.823Z"
+      bytes: 1481
+insights:
+  summary: A repository hosting pre-built binary releases for the GitHub CodeQL CLI, used to create and query databases for semantic code analysis.
+  why_it_matters: It provides the essential command-line tooling for security researchers and developers to perform deep static analysis and identify vulnerabilities in codebases.
+  mental_damage: We now download 'binaries for the CLI' from a repo that is essentially a glorified USB stick, proving that even in 2024, we still just wget zips and pray the PATH holds.
+  tags:
+    - static-analysis
+    - security
+    - cli
+    - codeql
+  confidence: high
+curation:
+  status: excluded
+  reason: While listed in an AI coding tools list due to CodeQL's variant analysis capabilities, this specific repository is merely a binary distribution host and contains no AI-driven developer tooling itself.
+  evidence:
+    - Repo description explicitly states this is just 'Binaries for the CodeQL CLI'.
+    - README confirms the repo only holds releases and points to external docs, offering no AI agent or workflow features itself.
+    - Despite appearing in awesome-ai-coding-tools under 'Code Review', the artifact is a compiler/analyzer binary host, not an AI tool.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (975) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.689Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:21.823Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:21:29.897Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

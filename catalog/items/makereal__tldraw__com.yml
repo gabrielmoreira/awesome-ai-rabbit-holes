@@ -1,0 +1,76 @@
+id: makereal__tldraw__com
+kind: website
+name: makereal.tldraw.com
+canonical_url: https://makereal.tldraw.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__makereal__tldraw__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - UI Generators
+        anchor_text: tldraw Make Real
+        extracted_url: https://makereal.tldraw.com
+        surrounding_text: "- **[tldraw Make Real](https://makereal.tldraw.com/)** – Draw UI wireframes on a canvas and convert them to working HTML/CSS with AI."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A browser-based tool that lets developers draw UI wireframes on a tldraw canvas and uses AI to generate real, functional code from those sketches.
+  why_it_matters: It allows developers to rapidly prototype user interfaces by bridging the gap between visual brainstorming and working code without switching contexts.
+  mental_damage: You can now spend three hours perfecting a hand-drawn wireframe in a browser canvas, only to have an AI turn it into code that you will rewrite for the next four hours.
+  tags:
+    - ui-generation
+    - prototyping
+    - tldraw
+    - visual-coding
+  confidence: high
+curation:
+  status: included
+  reason: This is a browser-first tool that transforms visual prompts (drawings) into functional UI code, fitting the app-builders category for site and UI generation.
+  evidence:
+    - "Scraped site description: 'Draw a ui and make it real with tldraw.'"
+    - Listed in awesome-ai-coding-tools under the 'UI Generators' section.
+    - The product surface is a hosted web tool (makereal.tldraw.com), not an IDE plugin or CLI agent.
+placement:
+  primary_category: app-builders
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.728Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:46:09.697Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

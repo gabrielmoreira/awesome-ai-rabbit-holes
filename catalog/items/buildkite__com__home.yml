@@ -1,0 +1,75 @@
+id: buildkite__com__home
+kind: website
+name: home
+canonical_url: https://buildkite.com/home
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__buildkite__com__home__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Buildkite
+        extracted_url: https://buildkite.com
+        surrounding_text: "- **[Buildkite](https://github.com/buildkite/buildkite-mcp-server)** - Manage [Buildkite](https://buildkite.com) pipelines and builds."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A Buildkite sub-path redirecting to /home with no discernible product, README, or description available for review.
+  why_it_matters: It doesn't, because there is no tooling surface, documentation, or usable artifact exposed here for developers to evaluate.
+  mental_damage: We have reached peak AI ecosystem entropy when a redirecting sub-path can get listed as an official MCP server and survive a PR review.
+  tags:
+    - redirect
+    - unknown
+    - mcp-artifact
+  confidence: high
+curation:
+  status: excluded
+  reason: The URL resolves to a redirect with no description, README, repo, or product surface, making it impossible to verify it is a real developer tool rather than a stale or placeholder link.
+  evidence:
+    - Scraped site context shows only 'Redirecting from / to /home' with no description or README.
+    - No repo description, stars, license, or creation metadata are available.
+    - Listed in awesome-mcp-servers as an 'Official Server' but the linked page exposes no usable product or documentation.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.726Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:42:40.740Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

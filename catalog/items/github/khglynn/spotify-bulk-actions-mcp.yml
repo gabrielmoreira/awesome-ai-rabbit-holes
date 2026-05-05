@@ -1,0 +1,88 @@
+id: github__khglynn__spotify-bulk-actions-mcp
+kind: github-repo
+name: spotify-bulk-actions-mcp
+canonical_url: https://github.com/khglynn/spotify-bulk-actions-mcp
+identity:
+  github_repo: khglynn/spotify-bulk-actions-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__khglynn__spotify-bulk-actions-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🎨 <a name="art-and-culture"></a>Art & Culture
+        anchor_text: khglynn/spotify-bulk-actions-mcp
+        extracted_url: https://github.com/khglynn/spotify-bulk-actions-mcp
+        surrounding_text: "- [khglynn/spotify-bulk-actions-mcp](https://github.com/khglynn/spotify-bulk-actions-mcp) 🐍 ☁️ - Bulk Spotify operations with confidence-scored song matching, batch playlist creation from CSV/podcast lists, and library exports for discovering your most-saved artists and albums."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2025-12-12T20:37:44Z"
+    pushed_at: "2025-12-22T07:03:29Z"
+    description: MCP server for bulk Spotify operations - batch playlist creation with confidence scoring, library exports, CSV imports, and human-in-the-loop review for uncertain matches
+    homepage: null
+    topics:
+      - claude
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - playlist
+      - spotify
+      - spotify-api
+    last_checked_at: "2026-05-05T21:03:04.968Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:04.968Z"
+      bytes: 7485
+insights:
+  summary: An MCP server that enables bulk Spotify operations (playlist creation, library exports, CSV imports) with confidence scoring and human-in-the-loop review for uncertain matches.
+  why_it_matters: It lets developers build AI workflows that manage large Spotify libraries and automate podcast playlist creation without manually handling rate limits or fuzzy matching logic.
+  mental_damage: We now have a Model Context Protocol server, a Python package, and a Claude Code integration just to bulk-add songs from podcast show notes, because apparently the 2025 stack for 'making a playlist' involves three protocols and a confidence score.
+  tags:
+    - mcp
+    - spotify
+    - bulk-operations
+    - claude-code
+  confidence: high
+curation:
+  status: included
+  reason: The project is itself an MCP server, which fits squarely into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states 'MCP server for bulk Spotify operations'
+    - README confirms 18 MCP tools for library analysis, search, and playlist management
+    - Listed in awesome-mcp-servers under Server Implementations > Art & Culture
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.701Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:04.968Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:30:37.608Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

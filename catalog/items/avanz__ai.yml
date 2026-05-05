@@ -1,0 +1,74 @@
+id: avanz__ai
+kind: website
+name: avanz.ai
+canonical_url: https://avanz.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__avanz__ai__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Avanzai
+        anchor_text: Avanzai
+        extracted_url: https://avanz.ai
+        surrounding_text: "## [Avanzai](https://avanz.ai/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Avanz.ai is an AI-powered platform listed among autonomous AI agents.
+  why_it_matters: It represents the growing ecosystem of autonomous agents that developers are evaluating to automate complex workflows.
+  mental_damage: Another entry in the 'autonomous agents' directory that forces you to wonder if this agent will actually ship code or just hallucinate a roadmap before asking for a API budget increase.
+  tags:
+    - ai-agents
+    - autonomous
+    - agent-platform
+  confidence: low
+curation:
+  status: excluded
+  reason: The project lacks a GitHub repository, description, README, or scraped site context to verify it is a developer-facing tool rather than a generic AI product.
+  evidence:
+    - No repository description, README, or scraped site context provided to explain what the tool actually does.
+    - Unknown archive status and limited metadata make it impossible to verify developer-tooling fit.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.726Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:42:11.995Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

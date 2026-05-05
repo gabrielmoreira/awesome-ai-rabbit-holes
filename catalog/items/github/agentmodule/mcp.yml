@@ -1,0 +1,81 @@
+id: github__agentmodule__mcp
+kind: github-repo
+name: mcp
+canonical_url: https://github.com/agentmodule/mcp
+identity:
+  github_repo: agentmodule/mcp
+provenance:
+  discoveries:
+    - id: discovery__github__agentmodule__mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: AgentModule/mcp
+        extracted_url: https://github.com/agentmodule/mcp
+        surrounding_text: "- [AgentModule/mcp](https://github.com/AgentModule/mcp) [![AgentModule/mcp MCP server](https://glama.ai/mcp/servers/AgentModule/mcp/badges/score.svg)](https://glama.ai/mcp/servers/AgentModule/mcp) 📇 ☁️ - Agent-native knowledge infrastructure. Deterministic, vertical-specific knowledge bases engineered for autonomous agent consumption via MCP. Ethics module (22 modules, EU AI Act mapped) included with every membership. Free 24hr ethics trial."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-03-15T00:56:38Z"
+    pushed_at: "2026-04-04T02:42:50Z"
+    description: Agent Module MCP Server — deterministic knowledge retrieval for autonomous agents
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:00:52.302Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:52.302Z"
+      bytes: 12640
+insights:
+  summary: An MCP server that provides deterministic EU AI Act compliance logic, benchmark directives, and audit telemetry for autonomous agents via Streamable HTTP.
+  why_it_matters: Developers building agents can integrate live regulatory compliance checks and audit trails without manually mapping statutory requirements into application logic.
+  mental_damage: Your agent is now legally self-aware, yet you are still personally liable when it inevitably hallucinates its way through a compliance gate.
+  tags:
+    - mcp
+    - compliance
+    - eu-ai-act
+    - agent-infrastructure
+  confidence: medium
+curation:
+  status: included
+  reason: The project is an MCP server exposing structured compliance logic and telemetry endpoints, fitting cleanly into MCP infrastructure.
+  evidence:
+    - "Repo description: 'Agent Module MCP Server — deterministic knowledge retrieval for autonomous agents'"
+    - README states transport is Streamable HTTP and endpoint is https://api.agent-module.dev/mcp with MCP protocol version 2025-06-18
+    - Listed in awesome-mcp-servers under Server Implementations > Knowledge & Memory
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.677Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:52.302Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:06:20.725Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,85 @@
+id: github__automl__hpbandster
+kind: github-repo
+name: hpbandster
+canonical_url: https://github.com/automl/hpbandster
+identity:
+  github_repo: automl/hpbandster
+provenance:
+  discoveries:
+    - id: discovery__github__automl__hpbandster__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - AutoML
+        anchor_text: HpBandSter
+        extracted_url: https://github.com/automl/hpbandster
+        surrounding_text: "| [HpBandSter](https://github.com/automl/HpBandSter)                           | a framework for distributed hyperparameter optimization.                                                                                                                        | ![GitHub Badge](https://img.shields.io/github/stars/automl/HpBandSter.svg?style=flat-square)               |"
+        confidence: high
+metadata:
+  github:
+    stars: 630
+    forks: 109
+    license: BSD-3-Clause
+    archived: false
+    created_at: "2017-12-17T20:28:20Z"
+    pushed_at: "2022-10-16T06:18:34Z"
+    description: a distributed Hyperband implementation on Steroids
+    homepage: null
+    topics:
+      - automated-machine-learning
+      - automl
+      - bayesian-optimization
+      - hyperparameter-optimization
+      - neural-architecture-search
+    last_checked_at: "2026-05-05T21:01:12.978Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:12.978Z"
+      bytes: 2140
+insights:
+  summary: A Python framework for distributed hyperparameter optimization implementing Hyperband and BOHB for tuning machine learning models.
+  why_it_matters: It provides a code-first way to scale HPO workloads across multiple workers, which is useful for developers training models that require extensive tuning.
+  mental_damage: "Just what the modern developer needs: another sophisticated way to burn compute cycles searching for the perfect learning rate while the model still can't recognize a stop sign."
+  tags:
+    - automl
+    - hyperparameter-optimization
+    - machine-learning
+    - python
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a generic machine learning research framework for hyperparameter optimization, not a developer-facing AI tool, agent, or infrastructure component.
+  evidence:
+    - Repo description and README focus on HPO, Bayesian optimization, and neural architecture search, not developer tooling.
+    - Topics include automated-machine-learning and automl, targeting ML researchers rather than software engineers.
+    - The maintainers explicitly state the repo is no longer maintained and recommend migrating to SMAC3 or DEHB.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (630) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.680Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:12.978Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:09:37.289Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,76 @@
+id: embold__io
+kind: website
+name: embold.io
+canonical_url: https://embold.io
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__embold__io__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Code Review and Refactoring
+        anchor_text: Embold
+        extracted_url: https://embold.io
+        surrounding_text: "- **[Embold](https://embold.io/)** – AI code analysis for quality, maintainability, and tech debt."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Embold is a static code analysis platform that detects structural issues, security leaks, and anti-patterns in codebases, integrating with CI/CD pipelines and IDEs.
+  why_it_matters: It automates the detection of hard-to-see design flaws and technical debt directly within existing developer workflows like GitHub PRs, Jira, and VS Code.
+  mental_damage: Just when you thought AI would write the code for you, here is a tool to remind you that the code you shipped last week is structurally bankrupt.
+  tags:
+    - static-analysis
+    - code-quality
+    - ci-cd
+    - enterprise
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a traditional static analysis and code quality platform without an AI-native developer tooling angle required for the catalog's scope.
+  evidence:
+    - The product description emphasizes 'static code analysis' and 'anti-pattern detection' without mentioning AI, LLMs, or coding agents.
+    - Listed in awesome-ai-coding-tools under 'Code Review and Refactoring', but the site content describes standard enterprise code quality features (MISRA, TUV certification).
+    - It functions as a traditional linter/analyzer (IDE plugins, CI gates) rather than an AI agent, app builder, or prompt-driven engineering tool.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.727Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:44:21.459Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

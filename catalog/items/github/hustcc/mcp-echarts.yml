@@ -1,0 +1,100 @@
+id: github__hustcc__mcp-echarts
+kind: github-repo
+name: mcp-echarts
+canonical_url: https://github.com/hustcc/mcp-echarts
+identity:
+  github_repo: hustcc/mcp-echarts
+provenance:
+  discoveries:
+    - id: discovery__github__hustcc__mcp-echarts__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 👤 <a name="customer-data-platforms"></a>Customer Data Platforms
+        anchor_text: hustcc/mcp-echarts
+        extracted_url: https://github.com/hustcc/mcp-echarts
+        surrounding_text: "- [hustcc/mcp-echarts](https://github.com/hustcc/mcp-echarts) 📇 🏠 - Generate visual charts using [Apache ECharts](https://echarts.apache.org) with AI MCP dynamically."
+        confidence: high
+    - id: discovery__github__hustcc__mcp-echarts__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: ECharts
+        extracted_url: https://github.com/hustcc/mcp-echarts
+        surrounding_text: "- **[ECharts](https://github.com/hustcc/mcp-echarts)** - Generate visual charts using [ECharts](https://echarts.apache.org) with AI MCP dynamically, used for chart generation and data analysis."
+        confidence: high
+metadata:
+  github:
+    stars: 227
+    forks: 35
+    license: MIT
+    archived: false
+    created_at: "2025-07-10T01:29:54Z"
+    pushed_at: "2026-01-30T15:36:37Z"
+    description: 🧬 Generate visual charts using ECharts with AI MCP dynamically, used for chart generation and data analysis.
+    homepage: https://github.com/hustcc/mcp-echarts
+    topics:
+      - echarts
+      - llm
+      - mcp
+      - mcp-server
+    last_checked_at: "2026-05-05T21:02:38.369Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:38.369Z"
+      bytes: 6986
+insights:
+  summary: An MCP server that allows AI models and clients to generate Apache ECharts visualizations locally and export them to PNG, SVG, or JSON formats.
+  why_it_matters: It gives coding agents and MCP-compatible IDEs the ability to render data visualizations on the fly without relying on external SaaS charting APIs.
+  mental_damage: We have successfully modularized the stack so that an AI can now hallucinate a pie chart with the same confidence it hallucinates your backend logic.
+  tags:
+    - mcp
+    - echarts
+    - data-visualization
+    - nodejs
+  confidence: high
+curation:
+  status: included
+  reason: The project is a dedicated Model Context Protocol server providing chart generation capabilities, fitting cleanly into the MCP infrastructure category.
+  evidence:
+    - Repo description explicitly states 'Generate visual charts using ECharts with AI MCP dynamically'.
+    - README documents integration with Claude, VSCode, Cline, and Cherry Studio via MCP server configs.
+    - Listed in 'awesome-mcp-servers' under 'Server Implementations'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (227) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.667Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:38.369Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:24:50.121Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

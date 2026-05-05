@@ -1,0 +1,103 @@
+id: github__browsermcp__mcp
+kind: github-repo
+name: mcp
+canonical_url: https://github.com/browsermcp/mcp
+identity:
+  github_repo: browsermcp/mcp
+provenance:
+  discoveries:
+    - id: discovery__github__browsermcp__mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📂 <a name="browser-automation"></a>Browser Automation
+        anchor_text: browsermcp/mcp
+        extracted_url: https://github.com/browsermcp/mcp
+        surrounding_text: "- [browsermcp/mcp](https://github.com/browsermcp/mcp) 📇 🏠 - Automate your local Chrome browser"
+        confidence: high
+    - id: discovery__github__browsermcp__mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: Browser MCP
+        extracted_url: https://github.com/browsermcp/mcp
+        surrounding_text: "- **[Browser MCP](https://github.com/browsermcp/mcp)** - Automate your local browser"
+        confidence: high
+metadata:
+  github:
+    stars: 6452
+    forks: 495
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-03-28T02:01:22Z"
+    pushed_at: "2025-04-24T21:49:44Z"
+    description: Browser MCP is a Model Context Provider (MCP) server that allows AI applications to control your browser
+    homepage: https://browsermcp.io
+    topics:
+      - browser-automation
+      - browser-extension
+      - claude
+      - cursor
+      - mcp
+      - mcp-server
+    last_checked_at: "2026-05-05T21:01:25.762Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:25.762Z"
+      bytes: 1518
+insights:
+  summary: Browser MCP is a Model Context Protocol server paired with a Chrome extension that allows AI applications to automate a user's existing browser profile locally.
+  why_it_matters: It lets developers hand off browser-based tasks to AI agents using their real login sessions and fingerprint, avoiding the friction of headless browser setups.
+  mental_damage: "We have finally achieved the pinnacle of engineering: installing a browser extension so an AI can click the 'Accept Cookies' button for us while we pretend to be supervising."
+  tags:
+    - mcp
+    - browser-automation
+    - chrome-extension
+    - local-ai
+    - agent-tooling
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server implementation designed to provide browser automation capabilities to AI applications, fitting directly into the MCP infrastructure category.
+  evidence:
+    - Repo description confirms it is a 'Model Context Provider (MCP) server' for browser control.
+    - Listed in 'awesome-mcp-servers' under 'Browser Automation' and 'Community Servers'.
+    - README states it is 'an MCP server + Chrome extension' using the user's existing browser profile.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (6452) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.664Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:25.762Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:11:41.857Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

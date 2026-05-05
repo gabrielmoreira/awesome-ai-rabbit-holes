@@ -1,0 +1,82 @@
+id: github__kukapay__crypto-portfolio-mcp
+kind: github-repo
+name: crypto-portfolio-mcp
+canonical_url: https://github.com/kukapay/crypto-portfolio-mcp
+identity:
+  github_repo: kukapay/crypto-portfolio-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__kukapay__crypto-portfolio-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: kukapay/crypto-portfolio-mcp
+        extracted_url: https://github.com/kukapay/crypto-portfolio-mcp
+        surrounding_text: "- [kukapay/crypto-portfolio-mcp](https://github.com/kukapay/crypto-portfolio-mcp) 🐍 ☁️ - An MCP server for tracking and managing cryptocurrency portfolio allocations."
+        confidence: high
+metadata:
+  github:
+    stars: 9
+    forks: 3
+    license: MIT
+    archived: false
+    created_at: "2025-04-05T04:08:57Z"
+    pushed_at: "2025-04-05T04:11:28Z"
+    description: An MCP server for tracking and managing cryptocurrency portfolio allocations.
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:03:10.320Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:10.320Z"
+      bytes: 3587
+insights:
+  summary: An MCP server for tracking cryptocurrency portfolio allocations, fetching real-time Binance prices, and generating value history charts via SQLite storage.
+  why_it_matters: It lets developers wire crypto portfolio tracking and analysis directly into MCP-compatible clients like Claude Desktop without building custom API integrations.
+  mental_damage: Because nothing says 'responsible crypto investing' like handing your portfolio allocation logic to an LLM through a protocol server you cloned from a 9-star repo.
+  tags:
+    - mcp
+    - crypto
+    - finance
+    - portfolio
+    - binance
+  confidence: medium
+curation:
+  status: included
+  reason: The project is itself an MCP server implementation for crypto portfolio tracking, which clearly fits the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description: 'An MCP server for tracking and managing cryptocurrency portfolio allocations.'"
+    - README states it exposes tools like get_portfolio_summary and add_holding for MCP clients like Claude Desktop.
+    - Listed in awesome-mcp-servers under Finance & Fintech section.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.702Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:10.320Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:31:52.822Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

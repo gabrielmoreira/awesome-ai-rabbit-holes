@@ -1,0 +1,81 @@
+id: github__bch1212__agentfetch-mcp
+kind: github-repo
+name: agentfetch-mcp
+canonical_url: https://github.com/bch1212/agentfetch-mcp
+identity:
+  github_repo: bch1212/agentfetch-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__bch1212__agentfetch-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📂 <a name="browser-automation"></a>Browser Automation
+        anchor_text: bch1212/agentfetch-mcp
+        extracted_url: https://github.com/bch1212/agentfetch-mcp
+        surrounding_text: "- [bch1212/agentfetch-mcp](https://github.com/bch1212/agentfetch-mcp) [![bch1212/agentfetch-mcp MCP server](https://glama.ai/mcp/servers/bch1212/agentfetch-mcp/badges/score.svg)](https://glama.ai/mcp/servers/bch1212/agentfetch-mcp) 🐍 ☁️ 🏠 🍎 🪟 🐧 - Token-budgeted web fetch for AI agents. Auto-routes between Trafilatura, Jina Reader, FireCrawl, and pypdf based on URL pattern. `estimate_tokens` before `fetch_url`, 6h Redis cache, server-side `max_tokens` truncation. Open source MCP server (MIT) plus hosted REST API at [agentfetch.dev](https://www.agentfetch.dev) — 500 free fetches/mo, no card."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-04-28T01:46:56Z"
+    pushed_at: "2026-04-28T17:17:55Z"
+    description: MCP server for fetching web URLs with token estimation, caching, and intelligent routing. Built for AI agents.
+    homepage: https://www.agentfetch.dev
+    topics: []
+    last_checked_at: "2026-05-05T21:01:18.432Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:18.432Z"
+      bytes: 5869
+insights:
+  summary: An MCP server that fetches web content with built-in token estimation, caching, and intelligent routing across multiple fetchers for AI agents.
+  why_it_matters: Developers wiring agents to the web can stop gluing together Jina, FireCrawl, PDF parsers, and their own cache layers by routing through one MCP tool with token budgeting.
+  mental_damage: We have finally built an agent-aware middleware to manage our middleware, and somewhere a senior engineer is writing a three-page RFC about how to version the cache TTL.
+  tags:
+    - mcp
+    - web-fetch
+    - token-budget
+    - agent-tooling
+  confidence: high
+curation:
+  status: included
+  reason: The project is an MCP server that extends agent capabilities via the Model Context Protocol, which clearly fits the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states 'MCP server for fetching web URLs with token estimation, caching, and intelligent routing.'
+    - README confirms the tool 'speaks MCP over stdio' and is configured as an MCP server in Claude Desktop / Claude Code.
+    - Listed under 'Server Implementations > Browser Automation' in the awesome-mcp-servers directory.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.680Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:18.432Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:10:27.077Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

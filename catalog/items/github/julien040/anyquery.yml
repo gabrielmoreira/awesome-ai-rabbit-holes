@@ -1,0 +1,102 @@
+id: github__julien040__anyquery
+kind: github-repo
+name: anyquery
+canonical_url: https://github.com/julien040/anyquery
+identity:
+  github_repo: julien040/anyquery
+provenance:
+  discoveries:
+    - id: discovery__github__julien040__anyquery__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🔗 <a name="aggregators"></a>Aggregators
+        anchor_text: julien040/anyquery
+        extracted_url: https://github.com/julien040/anyquery
+        surrounding_text: "- [julien040/anyquery](https://github.com/julien040/anyquery) 🏎️ 🏠 ☁️ - Query more than 40 apps with one binary using SQL. It can also connect to your PostgreSQL, MySQL, or SQLite compatible database. Local-first and private by design."
+        confidence: high
+metadata:
+  github:
+    stars: 1684
+    forks: 117
+    license: NOASSERTION
+    archived: false
+    created_at: "2024-04-06T17:17:25Z"
+    pushed_at: "2026-05-02T12:48:46Z"
+    description: Query anything (GitHub, Notion, +40 more) with SQL and let LLMs (ChatGPT, Claude) connect to using MCP
+    homepage: https://anyquery.dev
+    topics:
+      - ai
+      - analytics
+      - api
+      - business-intelligence
+      - chatgpt
+      - csv
+      - data-visualization
+      - database
+      - github
+      - go
+      - hacktoberfest
+      - json
+      - llm
+      - mcp
+      - mysql
+      - notion
+      - parquet
+      - salesforce
+      - sql
+      - sqlite
+    last_checked_at: "2026-05-05T21:03:00.363Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:00.363Z"
+      bytes: 6042
+insights:
+  summary: A SQL query engine built on SQLite that lets developers query files, apps, and databases, and exposes them to LLMs via a Model Context Protocol (MCP) server.
+  why_it_matters: It allows developers to turn disparate data sources like Notion, GitHub, and local files into a queryable SQL interface that AI assistants can access for richer context.
+  mental_damage: Because nothing says 'modern developer experience' like installing a local MySQL server just so your LLM can run a JOIN on your todo list and your CSV exports.
+  tags:
+    - sql
+    - mcp
+    - llm-integration
+    - data-querying
+    - sqlite
+  confidence: high
+curation:
+  status: included
+  reason: The project is primarily an MCP server implementation that connects LLMs to diverse data sources via SQL, fitting the MCP infrastructure category.
+  evidence:
+    - Repo description explicitly states 'let LLMs connect to using MCP'.
+    - README details the `anyquery mcp` command to start the Model Context Protocol server for LLM clients.
+    - Listed in awesome-mcp-servers under the 'Aggregators' section.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1684) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.700Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:00.363Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:29:37.391Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

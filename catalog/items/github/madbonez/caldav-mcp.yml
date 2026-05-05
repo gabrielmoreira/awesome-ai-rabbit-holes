@@ -1,0 +1,82 @@
+id: github__madbonez__caldav-mcp
+kind: github-repo
+name: caldav-mcp
+canonical_url: https://github.com/madbonez/caldav-mcp
+identity:
+  github_repo: madbonez/caldav-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__madbonez__caldav-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💬 <a name="communication"></a>Communication
+        anchor_text: madbonez/caldav-mcp
+        extracted_url: https://github.com/madbonez/caldav-mcp
+        surrounding_text: "- [madbonez/caldav-mcp](https://github.com/madbonez/caldav-mcp) 🐍 ☁️ - Universal MCP server for CalDAV protocol integration. Works with any CalDAV-compatible calendar server including Yandex Calendar, Google Calendar (via CalDAV), Nextcloud, ownCloud, Apple iCloud, and others. Supports creating events with recurrence, categories, priority, attendees, reminders, searching events, and retrieving events by UID."
+        confidence: high
+metadata:
+  github:
+    stars: 7
+    forks: 7
+    license: null
+    archived: false
+    created_at: "2025-11-28T15:52:06Z"
+    pushed_at: "2025-11-28T15:55:56Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:03:26.982Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:26.982Z"
+      bytes: 7978
+insights:
+  summary: A Model Context Protocol server that exposes CalDAV-compatible calendar operations—listing, creating, and searching events—to MCP-enabled developer tools like Cursor.
+  why_it_matters: It lets coding agents directly read and write calendar events across providers like Google, Nextcloud, and iCloud, bridging personal scheduling into the IDE workflow.
+  mental_damage: We have successfully taught our coding agents to schedule meetings, fully automating the part of the job we were already procrastinating on.
+  tags:
+    - mcp
+    - caldav
+    - calendar
+    - cursor
+    - integration
+  confidence: high
+curation:
+  status: included
+  reason: The project is a self-contained MCP server implementation for CalDAV, which fits squarely into the MCP Servers and Tooling category.
+  evidence:
+    - "README states: 'Universal MCP server for CalDAV protocol integration.'"
+    - Includes explicit Cursor IDE configuration examples for adding it as an MCP server.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Communication'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.705Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:26.982Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:35:11.944Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

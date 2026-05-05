@@ -1,0 +1,81 @@
+id: github__dnaerys__onekgpd-mcp
+kind: github-repo
+name: onekgpd-mcp
+canonical_url: https://github.com/dnaerys/onekgpd-mcp
+identity:
+  github_repo: dnaerys/onekgpd-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__dnaerys__onekgpd-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - <a name="bio"></a>Biology, Medicine and Bioinformatics
+        anchor_text: dnaerys/onekgpd-mcp
+        extracted_url: https://github.com/dnaerys/onekgpd-mcp
+        surrounding_text: "- [dnaerys/onekgpd-mcp](https://github.com/dnaerys/onekgpd-mcp) ☕ ☁️ 🍎 🪟 🐧- real-time access to 1000 Genomes Project dataset"
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 3
+    license: Apache-2.0
+    archived: false
+    created_at: "2026-01-18T12:09:55Z"
+    pushed_at: "2026-04-06T17:42:35Z"
+    description: 1000 Genomes Project Dataset MCP Server
+    homepage: https://dnaerys.org
+    topics: []
+    last_checked_at: "2026-05-05T21:01:54.640Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:54.640Z"
+      bytes: 10351
+insights:
+  summary: An MCP server that provides natural language access to the 1000 Genomes Project dataset, allowing LLMs to query 138 million variants and 442 billion genotypes hosted in the Dnaerys variant store.
+  why_it_matters: It allows computational biologists and bioinformaticians to perform complex genomic queries and spatial analyses via LLM agents instead of writing custom SQL or Python scripts against massive variant databases.
+  mental_damage: We’ve successfully built an MCP server for querying 442 billion genotypes, yet we still can’t get a coding agent to correctly rename a variable across three files without introducing a syntax error.
+  tags:
+    - mcp
+    - bioinformatics
+    - genomics
+    - data-access
+  confidence: high
+curation:
+  status: included
+  reason: The primary artifact is a Model Context Protocol server exposing genomic data to LLMs, which fits squarely into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states '1000 Genomes Project Dataset MCP Server'.
+    - README details remote MCP service endpoints via Streamable HTTP (http://db.dnaerys.org/mcp).
+    - Listed in awesome-mcp-servers under 'Biology, Medicine and Bioinformatics' section.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.685Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:54.640Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:16:38.889Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

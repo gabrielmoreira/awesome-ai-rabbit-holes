@@ -1,0 +1,81 @@
+id: github__gongrzhe__a2a-mcp-server
+kind: github-repo
+name: a2a-mcp-server
+canonical_url: https://github.com/gongrzhe/a2a-mcp-server
+identity:
+  github_repo: gongrzhe/a2a-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__gongrzhe__a2a-mcp-server__awesome-list__vivy-yi__awesome-agent-orchestration
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: vivy-yi/awesome-agent-orchestration
+        url: https://github.com/vivy-yi/awesome-agent-orchestration
+        repository: vivy-yi/awesome-agent-orchestration
+      extraction:
+        mode: parsed
+        section_path:
+          - Agent Communication Protocols
+          - Agent-to-Agent (A2A)
+        anchor_text: A2A-MCP-Server
+        extracted_url: https://github.com/gongrzhe/a2a-mcp-server
+        surrounding_text: "| [A2A-MCP-Server](https://github.com/GongRzhe/A2A-MCP-Server) | Bridge between MCP and A2A protocols | ![Stars](https://img.shields.io/github/stars/GongRzhe/A2A-MCP-Server) |"
+        confidence: high
+metadata:
+  github:
+    stars: 148
+    forks: 38
+    license: Apache-2.0
+    archived: true
+    created_at: "2025-05-19T05:48:21Z"
+    pushed_at: "2025-06-18T07:36:29Z"
+    description: A mcp server that bridges the Model Context Protocol (MCP) with the Agent-to-Agent (A2A) protocol, enabling MCP-compatible AI assistants (like Claude) to seamlessly interact with A2A agents.
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:02:23.850Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:23.850Z"
+      bytes: 14970
+insights:
+  summary: An archived MCP server that bridges the Model Context Protocol with Google's Agent-to-Agent (A2A) protocol, allowing MCP-compatible assistants like Claude to discover and communicate with A2A agents.
+  why_it_matters: It demonstrates a concrete interoperability layer between two emerging agent protocols, enabling developers to experiment with multi-agent workflows before the standards fully settle.
+  mental_damage: We are now building bridges between protocols that were invented last Tuesday, ensuring our agents can argue with each other in multiple dialects.
+  tags:
+    - mcp
+    - a2a
+    - protocol-bridge
+    - agent-communication
+  confidence: high
+curation:
+  status: excluded
+  reason: The repository is archived, indicating it is no longer maintained, which makes it unsuitable for a curated catalog of active developer tooling.
+  evidence:
+    - "Repository is marked as archived (archived: yes)"
+    - Created in May 2025 and last pushed in June 2025, showing extremely short lifespan before archival
+    - Appears in awesome-agent-orchestration under Agent Communication Protocols, confirming protocol-bridge intent
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: needs_review
+  reason: Repository is archived
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.689Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:23.850Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:21:59.447Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,78 @@
+id: code__visualstudio__com__docs__copilot__chat__copilot__chat
+kind: website
+name: copilot-chat
+canonical_url: https://code.visualstudio.com/docs/copilot/chat/copilot-chat
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__code__visualstudio__com__docs__copilot__chat__copilot__chat__awesome-list__github__awesome-copilot
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: github/awesome-copilot
+        url: https://github.com/github/awesome-copilot
+        repository: github/awesome-copilot
+      extraction:
+        mode: parsed
+        section_path:
+          - 📚 Additional Resources
+        anchor_text: GitHub Copilot Chat Documentation
+        extracted_url: https://code.visualstudio.com/docs/copilot/chat/copilot-chat
+        surrounding_text: "- [GitHub Copilot Chat Documentation](https://code.visualstudio.com/docs/copilot/chat/copilot-chat) - Complete chat feature guide"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Copilot Chat is the conversational AI interface inside VS Code that lets developers interact with language models, add context, and review AI-generated code changes directly within the editor.
+  why_it_matters: It integrates chat-driven coding, inline edits, context management, and model selection into the daily IDE workflow, reducing context switching for developers.
+  mental_damage: We now have chat surfaces, subagents, and checkpoints inside the editor, yet somehow we still spend forty minutes crafting the perfect prompt to rename a variable.
+  tags:
+    - copilot
+    - vscode
+    - chat
+    - ide
+  confidence: high
+curation:
+  status: included
+  reason: Copilot Chat is a developer-facing coding assistant that plans, writes, edits, and reviews code directly inside the VS Code IDE workflow, which matches the coding-agents category.
+  evidence:
+    - The page is described as 'Overview of chat in VS Code' with features for chat sessions, inline chat, and reviewing AI-generated changes.
+    - It is documented as part of GitHub Copilot inside VS Code, covering context, language models, tools, and agents.
+    - It appears in the awesome-copilot list under resources for Copilot chat functionality.
+placement:
+  primary_category: coding-agents
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.726Z"
+    cause:
+      type: ambiguous_canonicalization
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:42:55.840Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

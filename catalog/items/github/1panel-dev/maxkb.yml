@@ -1,0 +1,95 @@
+id: github__1panel-dev__maxkb
+kind: github-repo
+name: maxkb
+canonical_url: https://github.com/1panel-dev/maxkb
+identity:
+  github_repo: 1panel-dev/maxkb
+provenance:
+  discoveries:
+    - id: discovery__github__1panel-dev__maxkb__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 知识库 RAG
+        anchor_text: MaxKB
+        extracted_url: https://github.com/1panel-dev/maxkb
+        surrounding_text: "2. [MaxKB](https://github.com/1Panel-dev/MaxKB): 基于 LLM 大语言模型的知识库问答系统。开箱即用，支持快速嵌入到第三方业务系统"
+        confidence: high
+metadata:
+  github:
+    stars: 20876
+    forks: 2814
+    license: GPL-3.0
+    archived: false
+    created_at: "2023-09-14T02:05:12Z"
+    pushed_at: "2026-04-30T06:39:05Z"
+    description: 🔥 MaxKB is an open-source platform for building enterprise-grade agents.  强大易用的开源企业级智能体平台。
+    homepage: https://maxkb.cn
+    topics:
+      - agent
+      - agentic-ai
+      - chatbot
+      - deepseek-r1
+      - knowledgebase
+      - langchain
+      - llama3
+      - llm
+      - maxkb
+      - mcp-server
+      - ollama
+      - pgvector
+      - qwen3
+      - rag
+    last_checked_at: "2026-05-05T21:00:44.186Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:44.186Z"
+      bytes: 4896
+insights:
+  summary: MaxKB is an open-source platform for building enterprise-grade AI agents with integrated RAG pipelines, workflow orchestration, and MCP tool-use capabilities.
+  why_it_matters: It provides developers with a ready-to-deploy stack to build and integrate knowledge-backed AI agents into business systems without writing custom glue code.
+  mental_damage: Yet another open-source agent platform promising to turn your static documentation into a hallucination-prone chatbot before leadership realizes the RAG pipeline needs constant feeding.
+  tags:
+    - agents
+    - rag
+    - mcp
+    - open-source
+    - enterprise
+  confidence: high
+curation:
+  status: included
+  reason: MaxKB is a user-facing platform for orchestrating RAG pipelines, workflows, and MCP tool-use to build enterprise agents, fitting the agent orchestration category rather than a coding assistant.
+  evidence:
+    - "Repo description: 'open-source platform for building enterprise-grade agents' with RAG and MCP tool-use capabilities."
+    - "README: 'Equipped with a powerful workflow engine, function library and MCP tool-use, enabling the orchestration of AI processes.'"
+    - Scenarios are intelligent customer service and internal knowledge bases, not direct repo or IDE coding assistance.
+placement:
+  primary_category: agent-orchestration
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (20876) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.675Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:44.186Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:04:57.180Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

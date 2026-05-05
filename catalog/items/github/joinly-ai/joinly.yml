@@ -1,0 +1,94 @@
+id: github__joinly-ai__joinly
+kind: github-repo
+name: joinly
+canonical_url: https://github.com/joinly-ai/joinly
+identity:
+  github_repo: joinly-ai/joinly
+provenance:
+  discoveries:
+    - id: discovery__github__joinly-ai__joinly__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💬 <a name="communication"></a>Communication
+        anchor_text: joinly-ai/joinly
+        extracted_url: https://github.com/joinly-ai/joinly
+        surrounding_text: "- [joinly-ai/joinly](https://github.com/joinly-ai/joinly) 🐍☁️ - MCP server to interact with browser-based meeting platforms (Zoom, Teams, Google Meet). Enables AI agents to send bots to online meetings, gather live transcripts, speak text, and send messages in the meeting chat."
+        confidence: high
+metadata:
+  github:
+    stars: 497
+    forks: 81
+    license: MIT
+    archived: false
+    created_at: "2025-05-29T01:21:02Z"
+    pushed_at: "2026-03-19T15:13:10Z"
+    description: Make your meetings accessible to AI Agents
+    homepage: https://joinly.ai
+    topics:
+      - agentic-ai
+      - ai-agent
+      - ai-tool
+      - conversational-ai
+      - llm
+      - mcp
+      - meeting-agent
+      - meeting-assistant
+      - meeting-notes
+      - productivity
+      - python
+      - transcription
+      - voice-ai
+    last_checked_at: "2026-05-05T21:02:57.867Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:57.867Z"
+      bytes: 14179
+insights:
+  summary: Middleware that lets AI agents join video calls via an MCP server to interact through voice or chat during meetings.
+  why_it_matters: Developers can connect AI agents to meetings to automate tasks like creating GitHub issues or updating Notion pages in real time.
+  mental_damage: We have finally bridged the gap between "too many meetings" and "too many autonomous agents," so your calendar can now debate you directly.
+  tags:
+    - mcp
+    - meeting-agent
+    - middleware
+    - voice-ai
+  confidence: high
+curation:
+  status: included
+  reason: The project is an MCP server and middleware specifically designed to give AI agents meeting capabilities via the Model Context Protocol.
+  evidence:
+    - "Repo description states: 'Make your meetings accessible to AI Agents'"
+    - README describes joinly.ai as 'a connector middleware' that 'provides essential meeting tools and resources' via its MCP server
+    - Listed in awesome-mcp-servers under Server Implementations > Communication
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (497) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.700Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:57.867Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:28:57.014Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

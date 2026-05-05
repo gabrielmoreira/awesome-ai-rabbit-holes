@@ -1,0 +1,82 @@
+id: github__mahdin75__gis-mcp
+kind: github-repo
+name: gis-mcp
+canonical_url: https://github.com/mahdin75/gis-mcp
+identity:
+  github_repo: mahdin75/gis-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__mahdin75__gis-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🗺️ <a name="location-services"></a>Location Services
+        anchor_text: mahdin75/gis-mcp
+        extracted_url: https://github.com/mahdin75/gis-mcp
+        surrounding_text: "- [mahdin75/gis-mcp](https://github.com/mahdin75/gis-mcp) 🏠 – A Model Context Protocol (MCP) server implementation that connects Large Language Models (LLMs) to GIS operations using GIS libraries, enabling AI assistants to perform accurate geospatial operations and transformations."
+        confidence: high
+metadata:
+  github:
+    stars: 141
+    forks: 42
+    license: MIT
+    archived: false
+    created_at: "2025-05-07T14:21:57Z"
+    pushed_at: "2025-12-21T11:05:18Z"
+    description: A Model Context Protocol (MCP) server implementation that connects Large Language Models (LLMs) to GIS operations using GIS libraries, enabling AI assistants to perform geospatial operations and transformations.
+    homepage: https://gis-mcp.com/
+    topics: []
+    last_checked_at: "2026-05-05T21:03:27.381Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:27.381Z"
+      bytes: 33458
+insights:
+  summary: A Model Context Protocol (MCP) server that connects LLMs to GIS libraries, enabling AI assistants to perform geospatial operations, data gathering, and transformations.
+  why_it_matters: It allows developers to equip their AI agents with spatial analysis capabilities, bridging the gap between code generation and geographic data processing.
+  mental_damage: Your AI can now calculate the exact buffer zone for a nature reserve, but it still can't figure out why your CI pipeline is failing.
+  tags:
+    - mcp
+    - gis
+    - geospatial
+    - server
+    - python
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server implementation for GIS operations, fitting perfectly into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description confirms it is 'A Model Context Protocol (MCP) server implementation' for GIS operations.
+    - Listed in the 'awesome-mcp-servers' directory under Server Implementations > Location Services.
+    - Actively maintained with a recent push date of 2025-12-21 and published on PyPI.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.705Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:27.381Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:35:13.466Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,87 @@
+id: github__optuna__optuna-mcp
+kind: github-repo
+name: optuna-mcp
+canonical_url: https://github.com/optuna/optuna-mcp
+identity:
+  github_repo: optuna/optuna-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__optuna__optuna-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧮 <a name="data-science-tools"></a>Data Science Tools
+        anchor_text: optuna/optuna-mcp
+        extracted_url: https://github.com/optuna/optuna-mcp
+        surrounding_text: "- [optuna/optuna-mcp](https://github.com/optuna/optuna-mcp) 🎖️ 🐍 🏠 🐧 🍎 - Official MCP server enabling seamless orchestration of hyperparameter search and other optimization tasks with [Optuna](https://optuna.org/)."
+        confidence: high
+metadata:
+  github:
+    stars: 76
+    forks: 23
+    license: MIT
+    archived: false
+    created_at: "2025-06-10T07:03:55Z"
+    pushed_at: "2026-04-06T05:36:08Z"
+    description: The Optuna MCP Server is a Model Context Protocol (MCP) server to interact with Optuna APIs.
+    homepage: ""
+    topics:
+      - hyperparameter-optimization
+      - llm
+      - mcp
+      - mcp-server
+      - optimization
+      - python
+    last_checked_at: "2026-05-05T21:04:08.162Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:08.162Z"
+      bytes: 12074
+insights:
+  summary: An MCP server that exposes Optuna's hyperparameter optimization, study management, and visualization APIs so LLM clients can run tuning workflows via chat.
+  why_it_matters: Developers can delegate trial creation, evaluation, and analysis of hyperparameter searches to an LLM inside their existing MCP client instead of writing and running tuning scripts manually.
+  mental_damage: We have successfully abstracted hyperparameter tuning so far that even the loop is now someone else’s problem, provided you can explain the search space to a chatbot.
+  tags:
+    - mcp
+    - hyperparameter-optimization
+    - optuna
+    - llm-tooling
+  confidence: high
+curation:
+  status: included
+  reason: This is an MCP server that exposes Optuna’s optimization APIs for LLM clients, which fits the MCP Servers and Tooling category directly.
+  evidence:
+    - Repo description states it is 'a Model Context Protocol (MCP) server to interact with Optuna APIs'.
+    - README documents tools for study creation, trial management, visualization, and dashboard access via MCP clients.
+    - Listed in awesome-mcp-servers under 'Data Science Tools', confirming it is recognized MCP infrastructure.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.712Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:08.162Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:43:07.845Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

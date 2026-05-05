@@ -1,0 +1,97 @@
+id: github__kitao__pyxel
+kind: github-repo
+name: pyxel
+canonical_url: https://github.com/kitao/pyxel
+identity:
+  github_repo: kitao/pyxel
+provenance:
+  discoveries:
+    - id: discovery__github__kitao__pyxel__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🎮 <a name="gaming"></a>Gaming
+        anchor_text: Pyxel
+        extracted_url: https://github.com/kitao/pyxel
+        surrounding_text: "- [kitao/pyxel-mcp](https://github.com/kitao/pyxel-mcp) [![pyxel-mcp MCP server](https://glama.ai/mcp/servers/@kitao/pyxel-mcp/badges/score.svg)](https://glama.ai/mcp/servers/@kitao/pyxel-mcp) 🐍 🏠 - MCP server for [Pyxel](https://github.com/kitao/pyxel) retro game engine, enabling AI to run, capture screenshots, inspect sprites, and analyze audio of Pyxel games."
+        confidence: high
+metadata:
+  github:
+    stars: 17439
+    forks: 925
+    license: NOASSERTION
+    archived: false
+    created_at: "2018-06-10T04:58:54Z"
+    pushed_at: "2026-05-05T10:11:09Z"
+    description: A retro game engine for Python
+    homepage: ""
+    topics:
+      - game
+      - game-development
+      - game-engine
+      - gamedev
+      - graphics
+      - html
+      - opengl
+      - pico-8
+      - pixel-art
+      - python
+      - pyxel
+      - retro-game
+      - rust
+      - tic-80
+      - wasm
+      - webgl
+    last_checked_at: "2026-05-05T21:03:06.623Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:06.623Z"
+      bytes: 2969
+insights:
+  summary: Pyxel is a Python-based retro game engine with constrained color palettes and integrated editors for building pixel-art games.
+  why_it_matters: It provides a lightweight, approachable framework for developers to prototype game logic and graphics without modern engine overhead.
+  mental_damage: Another pristine toolkit for 'discovering joy in simplicity' while your actual codebase remains a sprawling, uncommented existential crisis.
+  tags:
+    - python
+    - game-engine
+    - retro
+    - pixel-art
+  confidence: high
+curation:
+  status: excluded
+  reason: Pyxel is a general-purpose game development engine with no AI-specific features, developer tooling integrations, or AI workflow components.
+  evidence:
+    - Repo description and README describe it strictly as a retro game engine for Python with no mention of AI, agents, or LLM integrations.
+    - Listed in awesome-mcp-servers under Gaming, but the repository itself is the game engine, not an MCP server implementation.
+    - No AI, coding agent, or developer productivity angle is present in the provided description or README excerpt.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (17439) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.701Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:06.623Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:30:59.066Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

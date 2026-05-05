@@ -1,0 +1,101 @@
+id: github__greptimeteam__greptimedb
+kind: github-repo
+name: greptimedb
+canonical_url: https://github.com/greptimeteam/greptimedb
+identity:
+  github_repo: greptimeteam/greptimedb
+provenance:
+  discoveries:
+    - id: discovery__github__greptimeteam__greptimedb__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: GreptimeDB
+        extracted_url: https://github.com/greptimeteam/greptimedb
+        surrounding_text: "- **[GreptimeDB](https://github.com/GreptimeTeam/greptimedb-mcp-server)** - Provides AI assistants with a secure and structured way to explore and analyze data in [GreptimeDB](https://github.com/GreptimeTeam/greptimedb)."
+        confidence: high
+metadata:
+  github:
+    stars: 6232
+    forks: 482
+    license: Apache-2.0
+    archived: false
+    created_at: "2022-04-11T03:46:48Z"
+    pushed_at: "2026-05-04T03:19:04Z"
+    description: The open-source Observability 2.0 database. One engine for metrics, logs, and traces — replacing Prometheus, Loki & ES.
+    homepage: https://greptime.com/
+    topics:
+      - ai-observability
+      - analytics
+      - cloud-native
+      - database
+      - distributed
+      - greptimedb
+      - llm-monitoring
+      - logs
+      - metrics
+      - monitoring
+      - object-storage
+      - observability
+      - observability-database
+      - observability-datalake
+      - opentelemetry
+      - prometheus
+      - promql
+      - rust
+      - sql
+      - traces
+    last_checked_at: "2026-05-05T21:02:28.388Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:28.388Z"
+      bytes: 12745
+insights:
+  summary: GreptimeDB is an open-source Rust-based observability database that unifies metrics, logs, and traces into a single engine with SQL and PromQL support, designed to replace Prometheus, Loki, and Elasticsearch.
+  why_it_matters: It offers a specialized backend for AI and LLM observability, allowing developers to store and analyze high-volume agent traces and token metrics using OpenTelemetry GenAI conventions.
+  mental_damage: Because nothing says 'Observability 2.0' like replacing three complex databases with one database that still requires you to learn a new unified data model while praying your cardinality doesn't blow up the Rust heap.
+  tags:
+    - observability
+    - database
+    - llm-monitoring
+    - opentelemetry
+    - rust
+  confidence: medium
+curation:
+  status: included
+  reason: While primarily a database, it specifically targets LLM observability and agent tracing as a key use case, fitting the evaluation/observability slice of developer tooling.
+  evidence:
+    - Repo description explicitly mentions 'ai-observability' and 'llm-monitoring' as core topics.
+    - README highlights 'AI/LLM observability' as a perfect use case for storing agent traces and token metrics.
+    - Listed in awesome-mcp-servers context, indicating its relevance to the modern AI tooling ecosystem.
+placement:
+  primary_category: evals
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (6232) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.690Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:28.388Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:23:04.814Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

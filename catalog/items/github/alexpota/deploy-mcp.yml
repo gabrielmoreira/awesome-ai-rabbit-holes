@@ -1,0 +1,97 @@
+id: github__alexpota__deploy-mcp
+kind: github-repo
+name: deploy-mcp
+canonical_url: https://github.com/alexpota/deploy-mcp
+identity:
+  github_repo: alexpota/deploy-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__alexpota__deploy-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: deploy-mcp/deploy-mcp
+        extracted_url: https://github.com/alexpota/deploy-mcp
+        surrounding_text: "- [deploy-mcp/deploy-mcp](https://github.com/alexpota/deploy-mcp) 📇 ☁️ 🏠 - Universal deployment tracker for AI assistants with live status badges and deployment monitoring"
+        confidence: high
+metadata:
+  github:
+    stars: 6
+    forks: 4
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-08-02T18:18:50Z"
+    pushed_at: "2026-04-16T02:54:57Z"
+    description: Universal deployment tracker for AI assistants - check deployment status without leaving your AI chat
+    homepage: https://deploy-mcp.io
+    topics:
+      - ai
+      - ci-cd
+      - claude
+      - cloudflare-deployment
+      - cloudflare-pages
+      - deployment
+      - deployment-monitor
+      - deployment-status
+      - deployment-tracking
+      - mcp
+      - netlify
+      - netlify-deployment
+      - real-time-monitoring
+      - vercel
+      - vercel-deployment
+      - webhook-integration
+    last_checked_at: "2026-05-05T21:00:58.581Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:58.581Z"
+      bytes: 12853
+insights:
+  summary: An MCP server that connects AI assistants to Vercel, Netlify, and Cloudflare Pages to check deployment status, logs, and history directly in chat.
+  why_it_matters: It lets developers track deployments across multiple platforms without leaving their AI assistant or switching to hosting dashboards.
+  mental_damage: We have successfully abstracted the act of staring at a deployment progress bar into a natural language conversation with a bot.
+  tags:
+    - mcp
+    - deployment
+    - ci-cd
+    - developer-tools
+  confidence: high
+curation:
+  status: included
+  reason: The product itself is an MCP server that exposes deployment platform APIs to AI assistants, which matches the MCP category definition.
+  evidence:
+    - Repo description explicitly states 'Universal deployment tracker for AI assistants' and the README confirms it is an MCP server.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
+    - Supports Vercel, Netlify, and Cloudflare Pages with token-based configuration for deployment status and logs.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.678Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:58.581Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:07:25.940Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

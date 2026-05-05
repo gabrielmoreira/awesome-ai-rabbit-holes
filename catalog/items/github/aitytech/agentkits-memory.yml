@@ -1,0 +1,82 @@
+id: github__aitytech__agentkits-memory
+kind: github-repo
+name: agentkits-memory
+canonical_url: https://github.com/aitytech/agentkits-memory
+identity:
+  github_repo: aitytech/agentkits-memory
+provenance:
+  discoveries:
+    - id: discovery__github__aitytech__agentkits-memory__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: aitytech/agentkits-memory
+        extracted_url: https://github.com/aitytech/agentkits-memory
+        surrounding_text: "- [aitytech/agentkits-memory](https://github.com/aitytech/agentkits-memory) [![agentkits-memory MCP server](https://glama.ai/mcp/servers/@aitytech/agentkits-memory/badges/score.svg)](https://glama.ai/mcp/servers/@aitytech/agentkits-memory) 📇 🏠 🍎 🪟 🐧 - Persistent memory for AI coding assistants with hybrid search (FTS5 + vector embeddings), session tracking, automatic context hooks, and web viewer. SQLite-based with no daemon process — works with Claude Code, Cursor, Windsurf, and any MCP client."
+        confidence: high
+metadata:
+  github:
+    stars: 61
+    forks: 10
+    license: MIT
+    archived: false
+    created_at: "2026-02-01T03:40:30Z"
+    pushed_at: "2026-02-27T13:26:24Z"
+    description: Persistent memory system for AI coding assistants via MCP. Works with Claude Code, Cursor, Copilot, Windsurf, Cline.
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:00:56.133Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:56.133Z"
+      bytes: 28122
+insights:
+  summary: A local MCP-based memory server that persists coding decisions, errors, and context across sessions for AI assistants like Claude Code, Cursor, and Cline using SQLite.
+  why_it_matters: It addresses the 'amnesiac assistant' problem by injecting relevant past decisions and patterns into new sessions, reducing the need to re-explain codebase context.
+  mental_damage: We have finally solved the problem of AI assistants forgetting our bad decisions by building a local database specifically designed to remember them forever.
+  tags:
+    - mcp
+    - memory
+    - context
+    - ai-assistants
+    - local-first
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server implementation providing memory tooling for AI coding assistants, fitting the MCP infrastructure category.
+  evidence:
+    - "Repo description states: 'Persistent memory system for AI coding assistants via MCP.'"
+    - README lists 9 MCP tools including save, search, and timeline for session context.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Knowledge & Memory'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.677Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:56.133Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:06:59.818Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

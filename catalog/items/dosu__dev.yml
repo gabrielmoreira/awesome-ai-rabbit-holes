@@ -1,0 +1,76 @@
+id: dosu__dev
+kind: website
+name: dosu.dev
+canonical_url: https://dosu.dev
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__dosu__dev__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Dosu
+        anchor_text: Dosu
+        extracted_url: https://dosu.dev
+        surrounding_text: "## [Dosu](https://dosu.dev/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Dosu is a knowledge infrastructure product that captures context from coding agent sessions and tool integrations to automatically maintain documentation and improve agent performance.
+  why_it_matters: It provides a shared memory layer and MCP server that allows coding agents to access consistent team context, reducing token usage and improving implementation consistency across sessions.
+  mental_damage: We have finally solved the problem of stale documentation by ensuring our agents quietly document their own hallucinations directly into the repo's permanent record.
+  tags:
+    - knowledge-management
+    - mcp
+    - context-engineering
+    - agent-memory
+  confidence: high
+curation:
+  status: included
+  reason: Dosu primarily extends the capabilities of existing coding agents (like Claude Code) by providing memory, context, and documentation automation via an MCP server, rather than acting as a primary coding assistant itself.
+  evidence:
+    - "Scraped site states: 'The Dosu MCP Server builds team-wide memory in the background during every coding agent session'."
+    - "Installation flow shows: 'npx @dosu/cli setup' followed by 'Added Dosu to Claude Code' and 'Updated AGENTS.md'."
+    - "Site explicitly mentions: 'Your agent gets access to consistent, token-efficient context from all your connected tools'."
+placement:
+  primary_category: ai-dev-extensions
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.727Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:44:13.836Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

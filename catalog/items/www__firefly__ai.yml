@@ -1,0 +1,78 @@
+id: www__firefly__ai
+kind: website
+name: www.firefly.ai
+canonical_url: https://www.firefly.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__firefly__ai__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: Firefly
+        extracted_url: https://firefly.ai
+        surrounding_text: "- [gofireflyio/firefly-mcp](https://github.com/gofireflyio/firefly-mcp) 🎖️ 📇 ☁️ - Integrates, discovers, manages, and codifies cloud resources with [Firefly](https://firefly.ai)."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Firefly is an AI agent platform that automates cloud infrastructure using Infrastructure-as-Code, handling orchestration, drift remediation, and disaster recovery for cloud environments.
+  why_it_matters: It replaces manual runbooks and Terraform drudgery by using AI agents to automatically convert ungoverned resources into IaC and instantly rebuild environments during outages.
+  mental_damage: You can now technically achieve 'Infrastructure as Code' without ever writing code, which means you've successfully automated yourself out of the one part of the job that felt like actual engineering.
+  tags:
+    - infrastructure-as-code
+    - devops
+    - cloud
+    - agents
+    - disaster-recovery
+  confidence: high
+curation:
+  status: excluded
+  reason: While it uses 'AI agents' in its marketing, the product is a cloud governance and disaster recovery SaaS for Platform/SecOps, not a developer-facing tool for writing, reviewing, or managing application source code.
+  evidence:
+    - Description focuses on 'cloud resilience', 'IaC Orchestration', and 'Disaster Recovery' rather than code authoring.
+    - Target audiences listed are 'Platform Engineering', 'FinOps', 'SecOps', and 'CIO & CTO', not software developers writing applications.
+    - Appears in awesome-mcp-servers under 'Developer Tools', but the actual product is enterprise cloud management, not a coding workflow tool.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.732Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:50:50.728Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

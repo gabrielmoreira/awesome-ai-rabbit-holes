@@ -1,0 +1,76 @@
+id: rosebud__ai
+kind: website
+name: rosebud.ai
+canonical_url: https://rosebud.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__rosebud__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - App Builders
+        anchor_text: Rosebud AI
+        extracted_url: https://rosebud.ai
+        surrounding_text: "- **[Rosebud AI](https://rosebud.ai)** – Vibe coding platform for 3D games and interactive web apps."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Rosebud is a browser-first AI platform that generates complete apps, sites, and internal tools directly from user prompts.
+  why_it_matters: It allows developers to rapidly prototype and deploy functional applications without manually scaffolding boilerplate code or frontend components.
+  mental_damage: Yet another reminder that 'shipping' now means watching a progress bar while wondering if you still qualify as a real engineer.
+  tags:
+    - app-builder
+    - prompt-to-app
+    - prototyping
+    - saas
+  confidence: medium
+curation:
+  status: included
+  reason: The product is a hosted, browser-first SaaS that turns prompts into full applications, which aligns perfectly with the app-builders definition.
+  evidence:
+    - Source URL is https://rosebud.ai, identifying it as a hosted SaaS rather than a repo-based tool.
+    - Listed under 'App Builders' in the awesome-ai-coding-tools directory.
+    - The name and domain suggest a prompt-to-app workflow rather than a repo-editing assistant.
+placement:
+  primary_category: app-builders
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.730Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:47:44.859Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

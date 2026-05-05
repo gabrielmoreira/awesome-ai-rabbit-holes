@@ -1,0 +1,88 @@
+id: github__pheonixhkbxoic__a2a4j
+kind: github-repo
+name: a2a4j
+canonical_url: https://github.com/pheonixhkbxoic/a2a4j
+identity:
+  github_repo: pheonixhkbxoic/a2a4j
+provenance:
+  discoveries:
+    - id: discovery__github__pheonixhkbxoic__a2a4j__awesome-list__vivy-yi__awesome-agent-orchestration
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: vivy-yi/awesome-agent-orchestration
+        url: https://github.com/vivy-yi/awesome-agent-orchestration
+        repository: vivy-yi/awesome-agent-orchestration
+      extraction:
+        mode: parsed
+        section_path:
+          - Agent Communication Protocols
+          - Agent-to-Agent (A2A)
+        anchor_text: a2a4j
+        extracted_url: https://github.com/pheonixhkbxoic/a2a4j
+        surrounding_text: "| [a2a4j](https://github.com/PheonixHkbxoic/a2a4j) | Java implementation of A2A protocol | ![Stars](https://img.shields.io/github/stars/PheonixHkbxoic/a2a4j) |"
+        confidence: high
+metadata:
+  github:
+    stars: 17
+    forks: 4
+    license: MIT
+    archived: false
+    created_at: "2025-04-10T12:20:23Z"
+    pushed_at: "2025-05-25T11:38:15Z"
+    description: A Java implementation of the A2A protocol, that's agent to agent scenarios with google a2a protocol
+    homepage: ""
+    topics:
+      - a2a
+      - a2a-protocol
+      - a2a4j
+      - agent2agent
+      - langchain
+      - langchain4j
+    last_checked_at: "2026-05-05T21:04:15.872Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:15.872Z"
+      bytes: 16528
+insights:
+  summary: A Java SDK and Spring Boot framework implementing Google's Agent-to-Agent (A2A) protocol for building interoperable AI agents.
+  why_it_matters: It provides Java developers with a structured way to implement agent collaboration, capability discovery, and task management within enterprise Spring ecosystems.
+  mental_damage: "Just what the Java ecosystem needed: another layer of abstraction to argue about in XML configs, now with autonomous agents that can ignore your requests in a standardized, protocol-compliant way."
+  tags:
+    - java
+    - a2a
+    - agent-orchestration
+    - spring-boot
+    - langchain4j
+  confidence: medium
+curation:
+  status: included
+  reason: The project is a code-first SDK and framework for implementing the A2A protocol in Java/Spring, fitting the AI Frameworks category rather than a runtime orchestration platform.
+  evidence:
+    - Repo description explicitly states it is 'A Java implementation of the A2A protocol'.
+    - README details Spring Boot integration, JDK support branches, and code features like 'support redis as task storage'.
+    - Listed in awesome-agent-orchestration under 'Agent Communication Protocols', confirming its relevance to agent interoperability.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.713Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:15.872Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:44:28.423Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

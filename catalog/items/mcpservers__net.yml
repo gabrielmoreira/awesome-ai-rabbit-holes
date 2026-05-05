@@ -1,0 +1,76 @@
+id: mcpservers__net
+kind: website
+name: mcpservers.net
+canonical_url: https://mcpservers.net
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__mcpservers__net__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - MCP Servers and Directories
+        anchor_text: MCPServers.Net
+        extracted_url: https://mcpservers.net
+        surrounding_text: "- **[MCPServers.Net](https://mcpservers.net/)** – Comprehensive MCP navigation with tutorials and resources."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A directory and index of Model Context Protocol (MCP) servers.
+  why_it_matters: It serves as a navigation aid for developers looking to discover and integrate MCP servers into their AI-assisted workflows.
+  mental_damage: We have now reached the point where we need a dedicated directory just to manage the directory of protocols that help our assistants talk to tools.
+  tags:
+    - mcp
+    - directory
+    - index
+    - awesome-list
+  confidence: high
+curation:
+  status: included
+  reason: It is a directory/index of MCP servers, fitting the 'Awesome Awesomes' category as a navigation aid for developers rather than a standalone tool.
+  evidence:
+    - URL is mcpservers.net, indicating a directory or index site.
+    - Listed in awesome-ai-coding-tools under the section 'MCP Servers and Directories'.
+    - No repo description or README provided, suggesting it is a listing site rather than a functional tool.
+placement:
+  primary_category: awesome-awesomes
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.729Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:46:27.671Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

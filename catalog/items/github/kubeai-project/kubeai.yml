@@ -1,0 +1,95 @@
+id: github__kubeai-project__kubeai
+kind: github-repo
+name: kubeai
+canonical_url: https://github.com/kubeai-project/kubeai
+identity:
+  github_repo: kubeai-project/kubeai
+provenance:
+  discoveries:
+    - id: discovery__github__substratusai__kubeai__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Serving
+          - Frameworks/Servers for Serving
+        anchor_text: KubeAI
+        extracted_url: https://github.com/substratusai/kubeai
+        surrounding_text: "| [KubeAI](https://github.com/substratusai/kubeai)                       | Deploy and scale machine learning models on Kubernetes. Built for LLMs, embeddings, and speech-to-text. | ![GitHub Badge](https://img.shields.io/github/stars/substratusai/kubeai.svg?style=flat-square)             |"
+        confidence: high
+metadata:
+  github:
+    stars: 1192
+    forks: 126
+    license: Apache-2.0
+    archived: false
+    created_at: "2023-10-21T00:59:51Z"
+    pushed_at: "2026-03-31T11:54:20Z"
+    description: AI Inference Operator for Kubernetes. The easiest way to serve ML models in production. Supports VLMs, LLMs, embeddings, and speech-to-text.
+    homepage: https://www.kubeai.org
+    topics:
+      - ai
+      - autoscaler
+      - faster-whisper
+      - inference-operator
+      - k8s
+      - kubernetes
+      - llm
+      - ollama
+      - ollama-operator
+      - openai-api
+      - vllm
+      - vllm-operator
+      - whisper
+    last_checked_at: "2026-05-05T21:03:08.688Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:08.688Z"
+      bytes: 8877
+insights:
+  summary: A Kubernetes operator that deploys and scales ML models like LLMs, embeddings, and speech-to-text servers using vLLM, Ollama, and FasterWhisper with OpenAI-compatible APIs.
+  why_it_matters: It gives developers a zero-dependency, autoscaling control plane to run local or edge LLM inference on their own infrastructure without wiring together Istio, Knative, and custom autoscalers.
+  mental_damage: Yet another heroic attempt to tame the Kubernetes complexity dragon by adding an operator that promises it just works, right up until you need to debug a custom resource definition at 2 a.m.
+  tags:
+    - kubernetes
+    - llm-inference
+    - vllm
+    - ollama
+    - autoscaling
+  confidence: high
+curation:
+  status: included
+  reason: KubeAI is developer infrastructure for running and scaling AI models on your own hardware inside Kubernetes, which fits the local AI and self-hosted inference scope.
+  evidence:
+    - "Repo description: 'AI Inference Operator for Kubernetes. The easiest way to serve ML models in production.'"
+    - README states it supports LLMs via vLLM and Ollama with OpenAI-compatible APIs and zero external dependencies like Istio.
+    - Over 1,100 stars, active development (pushed 2026-03-31), and adopted by multiple cloud and edge providers.
+placement:
+  primary_category: local-ai
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1192) exceeded threshold (150)
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:31:26.669Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.719Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:08.688Z"
+    cause: null
+    next_retry_at: null

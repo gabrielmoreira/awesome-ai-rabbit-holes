@@ -1,0 +1,82 @@
+id: github__endorhq__cli
+kind: github-repo
+name: cli
+canonical_url: https://github.com/endorhq/cli
+identity:
+  github_repo: endorhq/cli
+provenance:
+  discoveries:
+    - id: discovery__github__endorhq__cli__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: endorhq/cli
+        extracted_url: https://github.com/endorhq/cli
+        surrounding_text: "- [endorhq/cli](https://github.com/endorhq/cli) 📇 ☁️ 🏠 🪟 🐧 🍎 - Endor lets your AI agents run services like MariaDB, Postgres, Redis, Memcached, Alpine, or Valkey in isolated sandboxes. Get pre-configured applications that boot in less than 5 seconds."
+        confidence: high
+metadata:
+  github:
+    stars: 27
+    forks: 6
+    license: NOASSERTION
+    archived: false
+    created_at: "2025-06-30T17:26:59Z"
+    pushed_at: "2025-07-01T16:10:06Z"
+    description: Endor provides instant, private, sandboxed environments for your favorite services anywhere Node is available. Run MariaDB, PostgreSQL and many more servers securely and in just a few seconds. Perfect for AI agents and humans in a hurry.
+    homepage: https://docs.endor.dev/cli/overview/
+    topics: []
+    last_checked_at: "2026-05-05T21:02:02.320Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:02.320Z"
+      bytes: 2013
+insights:
+  summary: Endor is a Node-based CLI that spins up instant, private, sandboxed environments for databases and services, exposing them to AI agents and IDEs via MCP.
+  why_it_matters: It lets agents safely provision their own ephemeral infrastructure dependencies like Postgres or Redis without polluting the host system or requiring manual Docker setup.
+  mental_damage: Your AI agent can now dynamically provision an entire infrastructure stack in seconds, ensuring it has plenty of new and exciting ways to corrupt its own database before you even see the PR.
+  tags:
+    - mcp
+    - cli
+    - sandbox
+    - local-dev
+    - agents
+  confidence: high
+curation:
+  status: included
+  reason: The project is fundamentally an MCP server implementation designed to give AI agents and IDEs the ability to launch sandboxed services, fitting the MCP infrastructure scope.
+  evidence:
+    - README explicitly states 'MCP mode allows the services to be launched and used from AI tools like agents and IDEs' and provides setup guides for Claude Code, Cursor, and VS Code.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
+    - Repo created 2025-06-30 and pushed 2025-07-01, clearly active and purpose-built for the modern MCP workflow.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.686Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:02.320Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:18:01.463Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

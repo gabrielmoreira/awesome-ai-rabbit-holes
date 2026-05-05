@@ -1,0 +1,76 @@
+id: docs__coingecko__com__docs__ai__agent__hub__mcp__server
+kind: website
+name: mcp-server
+canonical_url: https://docs.coingecko.com/docs/ai-agent-hub/mcp-server
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__docs__coingecko__com__docs__ai__agent__hub__mcp__server__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: CoinGecko
+        extracted_url: https://docs.coingecko.com/reference/mcp-server
+        surrounding_text: "- **[CoinGecko](https://docs.coingecko.com/reference/mcp-server/)** - Official [CoinGecko API](https://www.coingecko.com/en/api) MCP Server for Crypto Price & Market Data, across 200+ blokchain networks and 8M+ tokens."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: An official MCP server from CoinGecko that exposes real-time and historical cryptocurrency market, onchain, and metadata APIs as tools for LLMs and AI agents.
+  why_it_matters: Developers building crypto-aware AI agents or IDE integrations can connect their tools to 15k+ coins and onchain data without writing custom API wrappers.
+  mental_damage: We have now reached the point where even querying the price of a meme coin requires configuring a streaming HTTP server, an SSE fallback, and a Stainless-powered MCP config file.
+  tags:
+    - mcp
+    - crypto
+    - api
+    - llm-tools
+  confidence: high
+curation:
+  status: included
+  reason: The product is an official MCP server implementation for CoinGecko data, which fits squarely into the MCP Servers and Tooling category.
+  evidence:
+    - Documentation explicitly describes it as 'MCP Server for Crypto Price & Market Data' with HTTP and SSE endpoints.
+    - Supports connection configurations for Claude Desktop, ChatGPT Developer Mode, and other MCP-compatible clients.
+    - Listed in the awesome-mcp-servers directory under 'Official Servers' for CoinGecko crypto data.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.727Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:43:59.148Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

@@ -1,0 +1,76 @@
+id: www__hammerai__com__desktop
+kind: website
+name: desktop
+canonical_url: https://www.hammerai.com/desktop
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__hammerai__com__desktop__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: janhq/awesome-local-ai
+        url: https://github.com/janhq/awesome-local-ai
+        repository: janhq/awesome-local-ai
+      extraction:
+        mode: parsed
+        section_path:
+          - Inference UI
+        anchor_text: HammerAI
+        extracted_url: https://www.hammerai.com/desktop
+        surrounding_text: "- [HammerAI](https://www.hammerai.com/desktop) - Simple character-chat interface to run LLMs on Windows, Mac, and Linux. Uses Ollama under the hood and is offline, free to chat, and requires zero configuration."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A local desktop application for Mac, Windows, and Linux that runs AI character chat models offline using Ollama and Llama.cpp.
+  why_it_matters: It provides developers with a zero-config, private desktop environment to run and interact with local LLMs without sending data to external servers.
+  mental_damage: Yet another local chat UI enters the ring, proving that while we can run models in isolation, we still can't agree on a single way to talk to them.
+  tags:
+    - local-ai
+    - desktop
+    - offline
+    - chat
+    - ollama
+  confidence: high
+curation:
+  status: included
+  reason: The product is a desktop interface specifically designed for running AI models locally on user hardware, fitting the scope of local developer tooling.
+  evidence:
+    - Scraped site context describes it as a desktop app that 'runs LLMs locally using Ollama' and is 'free, private, and works out of the box.'
+    - Source-list context places it in 'awesome-local-ai' under the 'Inference UI' section, comparing it to Jan Desktop.
+placement:
+  primary_category: local-ai
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.732Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:51:14.615Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

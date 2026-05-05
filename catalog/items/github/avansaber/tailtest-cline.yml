@@ -1,0 +1,91 @@
+id: github__avansaber__tailtest-cline
+kind: github-repo
+name: tailtest-cline
+canonical_url: https://github.com/avansaber/tailtest-cline
+identity:
+  github_repo: avansaber/tailtest-cline
+provenance:
+  discoveries:
+    - id: discovery__github__avansaber__tailtest-cline__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🤖 <a name="coding-agents"></a>Coding Agents
+        anchor_text: avansaber/tailtest-cline
+        extracted_url: https://github.com/avansaber/tailtest-cline
+        surrounding_text: "- [avansaber/tailtest-cline](https://github.com/avansaber/tailtest-cline) [![avansaber/tailtest-cline MCP server](https://glama.ai/mcp/servers/avansaber/tailtest-cline/badges/score.svg)](https://glama.ai/mcp/servers/avansaber/tailtest-cline) 🐍 🏠 🍎 🪟 🐧 - Adversarial test generation for AI coding sessions. Detects language and framework; writes tests; runs them; classifies failures via R12 (real_bug / environment / test_bug). Ships 8 adversarial scenario categories. Works in Cline directly and in 8+ editors via Cline host coverage. 162 plugin tests. MIT."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-04-26T15:31:31Z"
+    pushed_at: "2026-04-27T01:20:22Z"
+    description: "tailtest for Cline: MCP server + .clinerules pack + Memory Bank integration. Reaches 8+ editors via Cline. Adversarial test mode shipped from day one."
+    homepage: https://tailtest.com
+    topics:
+      - ai
+      - ai-coding
+      - automated-testing
+      - cline
+      - code-quality
+      - mcp
+      - mcp-server
+      - python
+      - testing
+    last_checked_at: "2026-05-05T21:01:13.661Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:13.661Z"
+      bytes: 4921
+insights:
+  summary: A Cline plugin that combines an MCP server, .clinerules pack, and Memory Bank integration to automatically generate and run tests whenever the AI agent edits source code across 8+ supported editors.
+  why_it_matters: It bakes automated testing and adversarial checks directly into the Cline agent workflow, reducing the friction of manually verifying AI-generated changes in supported IDEs.
+  mental_damage: We have now reached the point where we need a dedicated test framework to verify the work of the thing that just overwrote our code, and it comes with an R1-R15 rule layer to keep the chaos organized.
+  tags:
+    - cline
+    - testing
+    - mcp
+    - automation
+    - rules
+  confidence: high
+curation:
+  status: included
+  reason: This is a developer-facing extension that augments the Cline coding assistant with automated testing behavior, memory, and rules, fitting the AI Developer Extensions category rather than being the primary assistant itself.
+  evidence:
+    - "Repo description explicitly calls it 'tailtest for Cline: MCP server + .clinerules pack + Memory Bank integration.'"
+    - README states it is a 'Cline plugin that automatically generates and runs tests every time the agent edits a source file.'
+    - Functionally provides a testing add-on and rule layer that extends another AI developer tool rather than acting as the main assistant.
+placement:
+  primary_category: ai-dev-extensions
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.680Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:13.661Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:09:43.230Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

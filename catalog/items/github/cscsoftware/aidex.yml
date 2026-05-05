@@ -1,0 +1,98 @@
+id: github__cscsoftware__aidex
+kind: github-repo
+name: aidex
+canonical_url: https://github.com/cscsoftware/aidex
+identity:
+  github_repo: cscsoftware/aidex
+provenance:
+  discoveries:
+    - id: discovery__github__cscsoftware__aidex__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: CSCSoftware/AiDex
+        extracted_url: https://github.com/cscsoftware/aidex
+        surrounding_text: "- [CSCSoftware/AiDex](https://github.com/CSCSoftware/AiDex) 📇 🏠 🍎 🪟 🐧 - Persistent code index MCP server using Tree-sitter for fast, precise code search. Replaces grep with ~50 token responses instead of 2000+. Supports 11 languages including C#, TypeScript, Python, Rust, and Go."
+        confidence: high
+metadata:
+  github:
+    stars: 30
+    forks: 7
+    license: MIT
+    archived: false
+    created_at: "2026-01-26T18:22:10Z"
+    pushed_at: "2026-05-04T21:25:25Z"
+    description: MCP Server for persistent code indexing. Gives AI assistants (Claude, Gemini, Copilot, Cursor) instant access to your codebase. 50x less context than grep.
+    homepage: https://www.npmjs.com/package/aidex-mcp
+    topics:
+      - ai-coding
+      - claude
+      - claude-code
+      - code-indexing
+      - code-search
+      - copilot
+      - cursor
+      - developer-tools
+      - gemini
+      - gemini-cli
+      - mcp
+      - mcp-server
+      - sqlite
+      - tree-sitter
+      - vscode
+      - windsurf
+    last_checked_at: "2026-05-05T21:01:43.338Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:43.338Z"
+      bytes: 39883
+insights:
+  summary: An MCP server that provides persistent code indexing, semantic search, memory, and telemetry to AI coding assistants, claiming to reduce context usage by up to 50x compared to grep.
+  why_it_matters: It gives local AI agents a persistent, cross-project memory and low-token search layer so they stop re-reading your entire codebase on every prompt.
+  mental_damage: We have now built a brain with 33 tools just so our AI assistants can remember what they were doing five minutes ago without burning through a novel's worth of tokens.
+  tags:
+    - mcp
+    - code-search
+    - context-engineering
+    - memory-layer
+    - developer-tools
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server providing tooling for the Model Context Protocol ecosystem, fitting cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description states: 'MCP Server for persistent code indexing.'"
+    - README identifies it as 'an MCP server that gives AI coding assistants a memory, semantic search, and live telemetry.'
+    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.683Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:43.338Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:14:51.171Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

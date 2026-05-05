@@ -1,0 +1,102 @@
+id: github__mcpware__pagecast
+kind: github-repo
+name: pagecast
+canonical_url: https://github.com/mcpware/pagecast
+identity:
+  github_repo: mcpware/pagecast
+provenance:
+  discoveries:
+    - id: discovery__github__mcpware__pagecast__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: mcpware/pagecast
+        extracted_url: https://github.com/mcpware/pagecast
+        surrounding_text: "- [mcpware/pagecast](https://github.com/mcpware/pagecast) [![mcpware/pagecast MCP server](https://glama.ai/mcp/servers/mcpware/pagecast/badges/score.svg)](https://glama.ai/mcp/servers/mcpware/pagecast) 📇 🏠 - Record any browser page as GIF or video. AI-driven demo recording with scroll/click/hover interactions via Playwright + ffmpeg. `npx @mcpware/pagecast`"
+        confidence: high
+metadata:
+  github:
+    stars: 10
+    forks: 2
+    license: MIT
+    archived: false
+    created_at: "2026-03-20T02:50:40Z"
+    pushed_at: "2026-03-27T01:29:26Z"
+    description: Record any browser page as GIF or video via MCP — powered by Playwright + ffmpeg
+    homepage: null
+    topics:
+      - ai-tools
+      - automation
+      - browser-automation
+      - claude
+      - claude-code
+      - demo
+      - developer-tools
+      - ffmpeg
+      - gif
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - open-source
+      - playwright
+      - recording
+      - screen-capture
+      - screen-recorder
+      - screencast
+      - typescript
+      - video
+    last_checked_at: "2026-05-05T21:03:33.637Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:33.637Z"
+      bytes: 9494
+insights:
+  summary: An MCP server that uses Playwright and ffmpeg to record browser interactions as GIFs or MP4s, enabling AI agents to automatically generate polished product demos.
+  why_it_matters: It allows developers to automate the creation of README demos and UI walkthroughs by letting an AI agent interact with a live browser and export optimized recordings.
+  mental_damage: We have successfully automated the creation of demo GIFs so that AI can show off the apps that AI helped us build, completing the loop of algorithmic vanity.
+  tags:
+    - mcp
+    - playwright
+    - demo-recording
+    - browser-automation
+    - ffmpeg
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server that extends AI agent capabilities with browser recording tools, fitting the MCP infrastructure category.
+  evidence:
+    - Repo description states it is 'Record any browser page as GIF or video via MCP'.
+    - README confirms it is installed as an MCP server for Claude Code ('claude mcp add pagecast').
+    - Listed in awesome-mcp-servers under 'Developer Tools' section.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.706Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:33.637Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:36:30.065Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

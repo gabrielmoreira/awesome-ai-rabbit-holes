@@ -1,0 +1,81 @@
+id: github__gregario__lego-oracle
+kind: github-repo
+name: lego-oracle
+canonical_url: https://github.com/gregario/lego-oracle
+identity:
+  github_repo: gregario/lego-oracle
+provenance:
+  discoveries:
+    - id: discovery__github__gregario__lego-oracle__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: gregario/lego-oracle
+        extracted_url: https://github.com/gregario/lego-oracle
+        surrounding_text: "- [gregario/lego-oracle](https://github.com/gregario/lego-oracle) [![gregario/lego-oracle MCP server](https://glama.ai/mcp/servers/gregario/lego-oracle/badges/score.svg)](https://glama.ai/mcp/servers/gregario/lego-oracle) 📇 🏠 - LEGO sets, parts, minifigs, colours, and inventories from Rebrickable. 10 tools for searching sets, finding parts by colour, browsing themes, comparing sets, and discovering MOC alternate builds. 26k sets, 62k parts, 17k minifigs embedded."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-03-15T21:25:13Z"
+    pushed_at: "2026-05-02T20:56:22Z"
+    description: LEGO sets, parts, minifigs, and inventories as an MCP server
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:27.770Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:27.770Z"
+      bytes: 5081
+insights:
+  summary: An MCP server that exposes the Rebrickable LEGO catalog—covering sets, parts, minifigs, and inventories—as tools for MCP-compatible IDEs and assistants.
+  why_it_matters: It lets developers query a 26k-set LEGO database directly from their AI editor instead of context-switching to a browser, which is useful if you are building brick-related features or just very serious about minifigs.
+  mental_damage: We have finally reached the point where your coding agent can compare minifigure inventories, yet it still cannot reliably import your existing project without deleting half the tests.
+  tags:
+    - mcp
+    - lego
+    - ide-extension
+    - knowledge-base
+  confidence: high
+curation:
+  status: included
+  reason: The project is itself an MCP server providing tooling for MCP-compatible developer environments, which fits the MCP category cleanly.
+  evidence:
+    - "Repo description: 'LEGO sets, parts, minifigs, and inventories as an MCP server'"
+    - "README: '10 tools. Zero config. Works with every MCP-compatible IDE.' and lists Claude Code, Cursor, VS Code, Windsurf, Zed setup instructions."
+    - Listed in awesome-mcp-servers under Server Implementations > Knowledge & Memory.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.690Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:27.770Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:22:55.557Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

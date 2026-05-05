@@ -1,13 +1,13 @@
 id: github__bloopai__vibe-kanban
 kind: github-repo
 name: vibe-kanban
-canonical_url: https://github.com/BloopAI/vibe-kanban
+canonical_url: https://github.com/bloopai/vibe-kanban
 identity:
-  github_repo: BloopAI/vibe-kanban
+  github_repo: bloopai/vibe-kanban
 provenance:
   discoveries:
     - id: discovery__github__bloopai__vibe-kanban__direct-link
-      discovered_at: "2026-05-01T13:51:25.374Z"
+      discovered_at: "2026-05-05T19:41:00.656Z"
       source:
         type: direct-link
         name: Manual submission
@@ -18,13 +18,13 @@ provenance:
         section_path:
           - inbox
         anchor_text: https://github.com/BloopAI/vibe-kanban
-        extracted_url: https://github.com/BloopAI/vibe-kanban
+        extracted_url: https://github.com/bloopai/vibe-kanban
         surrounding_text: Kanban UI for coding agents.
         confidence: high
 metadata:
   github:
-    stars: 25763
-    forks: 2632
+    stars: 25934
+    forks: 2667
     license: Apache-2.0
     archived: false
     created_at: "2025-06-14T19:10:21Z"
@@ -37,31 +37,49 @@ metadata:
       - kanban
       - management
       - task-manager
-    last_checked_at: "2026-05-01T13:51:25.905Z"
+    last_checked_at: "2026-05-05T21:01:23.356Z"
     readme:
-      fetched_at: "2026-05-01T13:51:25.905Z"
+      fetched_at: "2026-05-05T21:01:23.356Z"
       bytes: 7427
 insights:
-  summary: A kanban-style UI that orchestrates coding agents by turning issues into workspaces with branches, terminals, app previews, and diff review.
-  why_it_matters: It packages the messy parts of “agent-driven dev” (planning, running, reviewing, and shipping) into a single workflow so teams can iterate faster without living in five separate tools.
-  mental_damage: It formalizes the new career arc where you do project management for robots, then leave inline comments so your robot can fix its robot mistakes on a fresh branch.
+  summary: A kanban board and workspace manager for running and reviewing multiple coding agents—including Claude Code, Codex, and Gemini CLI—directly against a repo with built-in diff review and app previews.
+  why_it_matters: It gives developers a single control plane to plan tasks, dispatch agents to isolated workspaces, review generated diffs, and open PRs without context-switching out of the planning flow.
+  mental_damage: "Just what every engineer needed: a kanban board to orchestrate the seven different AI agents they now have to manage, review, and emotionally support."
   tags:
-    - agent-orchestration
     - kanban
-    - code-review
-    - dev-workflow
-    - workspace-runner
+    - agent-orchestration
+    - coding-agents
+    - review-workflow
   confidence: high
 curation:
   status: included
-  reason: Despite the sunsetting notice, it’s clearly developer-facing agent orchestration (planning + running agents in isolated workspaces + reviewing diffs) with strong traction and recent activity.
+  reason: This is a user-facing workbench for coordinating multiple coding agents across workspaces, review, and planning, which aligns with agent-orchestration rather than being a primary coding assistant itself.
   evidence:
-    - "README: “Vibe Kanban is sunsetting” but repo is not archived and was pushed 2026-04-24"
-    - "README claims: kanban issues, agent workspaces (branch/terminal/dev server), inline diff comments, app preview, PR/merge flow"
-    - "Stars: 25,763 and it appears under “Harnesses & orchestration > Session managers & parallel runners” in awesome-cli-coding-agents"
+    - "Repo description: 'Get 10X more out of Claude Code, Codex or any coding agent'"
+    - "README: 'Run coding agents in workspaces… Review diffs and leave inline comments… Switch between 10+ coding agents'"
+    - Listed in awesome-cli-coding-agents under 'Session managers & parallel runners' and in awesome-spec-driven-development under 'Workflow Management'
 placement:
   primary_category: agent-orchestration
   section: null
 lifecycle:
   status: promotion_candidate
-  reason: Stars (25763) exceeded threshold (150)
+  reason: Stars (25934) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.657Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:23.356Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:11:18.168Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,87 @@
+id: github__huggingface__evaluation-guidebook
+kind: github-repo
+name: evaluation-guidebook
+canonical_url: https://github.com/huggingface/evaluation-guidebook
+identity:
+  github_repo: huggingface/evaluation-guidebook
+provenance:
+  discoveries:
+    - id: discovery__github__huggingface__evaluation-guidebook__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 评估 Evaluation
+        anchor_text: Evaluation guidebook
+        extracted_url: https://github.com/huggingface/evaluation-guidebook
+        surrounding_text: "7. [Evaluation guidebook](https://github.com/huggingface/evaluation-guidebook): If you've ever wondered how to make sure an LLM performs well on your specific task, this guide is for you!"
+        confidence: high
+metadata:
+  github:
+    stars: 2102
+    forks: 122
+    license: NOASSERTION
+    archived: false
+    created_at: "2024-10-09T10:36:39Z"
+    pushed_at: "2025-12-03T14:45:05Z"
+    description: Sharing both practical insights and theoretical knowledge about LLM evaluation that we gathered while managing the Open LLM Leaderboard and designing lighteval!
+    homepage: ""
+    topics:
+      - evaluation
+      - evaluation-metrics
+      - guidebook
+      - large-language-models
+      - llm
+      - machine-learning
+      - tutorial
+    last_checked_at: "2026-05-05T21:02:37.070Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:37.070Z"
+      bytes: 6880
+insights:
+  summary: A guidebook from Hugging Face sharing practical insights and theoretical knowledge on evaluating LLM performance, covering automated benchmarks, human evaluation, and LLM-as-a-judge methods.
+  why_it_matters: It provides developers with structured guidance on how to rigorously test and validate model performance for specific production tasks.
+  mental_damage: Because the only thing more exhausting than tuning a prompt is reading a 50-page guide on how to properly measure whether your tuning actually worked.
+  tags:
+    - llm-evaluation
+    - benchmarks
+    - huggingface
+    - guide
+  confidence: high
+curation:
+  status: included
+  reason: The project is a resource guide focused on the methodology and tooling for evaluating LLMs, which fits squarely into the Evaluations and Benchmarks category.
+  evidence:
+    - Repo description explicitly states it is for sharing insights on 'LLM evaluation' and designing 'lighteval'.
+    - README details a guide covering automatic benchmarks, human evaluation, and LLM-as-a-judge workflows.
+    - Listed under '评估 Evaluation' (Evaluation) in the awesome-LLM-resources directory.
+placement:
+  primary_category: evals
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (2102) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.697Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:37.070Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:24:32.958Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,97 @@
+id: github__openmf__mcp-mifosx-self-service
+kind: github-repo
+name: mcp-mifosx-self-service
+canonical_url: https://github.com/openmf/mcp-mifosx-self-service
+identity:
+  github_repo: openmf/mcp-mifosx-self-service
+provenance:
+  discoveries:
+    - id: discovery__github__openmf__mcp-mifosx-self-service__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: openMF/mcp-mifosx-self-service
+        extracted_url: https://github.com/openmf/mcp-mifosx-self-service
+        surrounding_text: "- [openMF/mcp-mifosx-self-service](https://github.com/openMF/mcp-mifosx-self-service) 🐍 ☁️  - A self-service integration for user registration, authentication, account management, transactions, and third-party transfers with Apache Fineract."
+        confidence: high
+    - id: discovery__github__openmf__mcp-mifosx-self-service__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: OpenMF-mifosx-self-service
+        extracted_url: https://github.com/openmf/mcp-mifosx-self-service
+        surrounding_text: "- **[OpenMF-mifosx-self-service](https://github.com/openMF/mcp-mifosx-self-service)** - Access Apache Fineract self-service APIs for registration, authentication, account management, and transactions via MCP."
+        confidence: high
+metadata:
+  github:
+    stars: 7
+    forks: 13
+    license: MPL-2.0
+    archived: false
+    created_at: "2025-08-13T14:56:29Z"
+    pushed_at: "2026-03-16T15:11:02Z"
+    description: MCP Server for Mifos X - Self Service
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:04:06.609Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:06.609Z"
+      bytes: 10929
+insights:
+  summary: An open-source MCP server built with FastMCP that exposes Apache Fineract / MifosX self-service banking APIs as AI-callable tools for MCP-compatible clients like Claude Desktop.
+  why_it_matters: It allows developers building fintech integrations to let AI agents handle complex banking workflows—like loan management and transfers—directly through the MifosX API without writing custom glue code.
+  mental_damage: We have successfully abstracted banking infrastructure so that an LLM can now mismanage your loans and beneficiaries with the same confidence it brings to JavaScript dependency upgrades.
+  tags:
+    - mcp
+    - fintech
+    - fastmcp
+    - python
+    - banking
+  confidence: high
+curation:
+  status: included
+  reason: The project is a dedicated MCP server implementation for the MifosX banking platform, fitting cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states 'MCP Server for Mifos X - Self Service'
+    - README confirms it is a 'Model Context Protocol (MCP) server built using FastMCP (Python)' exposing tools for AI clients
+    - Listed in awesome-mcp-servers under 'Server Implementations > Finance & Fintech'
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.670Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:06.609Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:42:53.034Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

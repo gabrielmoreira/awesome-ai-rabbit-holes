@@ -1,0 +1,81 @@
+id: github__amirrezasalimi__friday
+kind: github-repo
+name: friday
+canonical_url: https://github.com/amirrezasalimi/friday
+identity:
+  github_repo: amirrezasalimi/friday
+provenance:
+  discoveries:
+    - id: discovery__github__amirrezasalimi__friday__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Friday
+        anchor_text: Friday
+        extracted_url: https://github.com/amirrezasalimi/friday
+        surrounding_text: "## [Friday](https://github.com/amirrezasalimi/friday/)"
+        confidence: high
+metadata:
+  github:
+    stars: 65
+    forks: 10
+    license: null
+    archived: false
+    created_at: "2023-05-20T15:05:51Z"
+    pushed_at: "2023-05-24T22:59:04Z"
+    description: Friday is a developer assistant can make whole nodejs project for you with unlimited prompts
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:01:02.498Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:02.498Z"
+      bytes: 3220
+insights:
+  summary: Friday is a local web interface that uses GPT-4 to generate entire Node.js applications from a base prompt and additional section prompts, outputting the project to a local directory.
+  why_it_matters: It offers developers a way to scaffold entire Node.js projects locally through a prompt-driven interface rather than manually setting up boilerplate.
+  mental_damage: Another brave soul attempting to convince GPT-4 to reliably update package.json, a battle that historically ends with developers manually installing missing dependencies anyway.
+  tags:
+    - nodejs
+    - app-generator
+    - gpt-4
+    - scaffolding
+    - local-tool
+  confidence: medium
+curation:
+  status: included
+  reason: The tool is a prompt-to-project generator that creates whole new Node.js applications locally, which fits the app-builders category rather than a coding agent that edits existing repos.
+  evidence:
+    - Repo description states it 'can make whole nodejs project for you with unlimited prompts'
+    - README confirms it generates an application foundation and sections, outputting to a 'projects/last' directory
+    - Future goals mention enhancing scalability for multi-file apps and generating index.js and .env files
+placement:
+  primary_category: app-builders
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.678Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:02.498Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:07:59.392Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

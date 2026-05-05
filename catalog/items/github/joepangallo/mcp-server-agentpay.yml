@@ -1,0 +1,92 @@
+id: github__joepangallo__mcp-server-agentpay
+kind: github-repo
+name: mcp-server-agentpay
+canonical_url: https://github.com/joepangallo/mcp-server-agentpay
+identity:
+  github_repo: joepangallo/mcp-server-agentpay
+provenance:
+  discoveries:
+    - id: discovery__github__joepangallo__mcp-server-agentpay__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: joepangallo/mcp-server-agentpay
+        extracted_url: https://github.com/joepangallo/mcp-server-agentpay
+        surrounding_text: "- [joepangallo/mcp-server-agentpay](https://github.com/joepangallo/mcp-server-agentpay) [![ict1p5dlrr MCP server](https://glama.ai/mcp/servers/ict1p5dlrr/badges/score.svg)](https://glama.ai/mcp/servers/ict1p5dlrr) 📇 ☁️ - Payment gateway for autonomous AI agents. Single gateway key for tool discovery, auto-provisioning, and pay-per-call metering. Supports Stripe and x402 USDC for fully autonomous wallet funding."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-02-26T22:15:30Z"
+    pushed_at: "2026-03-21T04:11:53Z"
+    description: MCP server for AgentPay — payment gateway for autonomous AI agents. Discover, provision, and pay for MCP tool APIs.
+    homepage: null
+    topics:
+      - ai-agent
+      - claude
+      - llm
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - payment-gateway
+      - tool-marketplace
+      - usdc
+      - x402
+    last_checked_at: "2026-05-05T21:02:57.218Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:57.218Z"
+      bytes: 3883
+insights:
+  summary: An MCP server that acts as a payment gateway, allowing autonomous AI agents to discover, provision, and pay for external tool APIs using a single gateway key.
+  why_it_matters: It removes the friction of managing individual API keys and billing for multiple services, letting developers build agents that can autonomously purchase and use tools.
+  mental_damage: "We have finally solved the hardest problem in computer science: allowing a bot to involuntarily spend your USDC on a security audit it found via a keyword search."
+  tags:
+    - mcp
+    - payments
+    - agent-tooling
+    - x402
+    - gateway
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server designed to provide payment infrastructure for AI agents, fitting the MCP tooling category.
+  evidence:
+    - "Repo description states: 'MCP server for AgentPay — payment gateway for autonomous AI agents.'"
+    - README details tools like `call_tool` and `fund_wallet_x402` specifically for the Model Context Protocol.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Finance & Fintech'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.700Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:57.218Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:28:48.615Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

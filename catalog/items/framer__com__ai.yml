@@ -1,0 +1,74 @@
+id: framer__com__ai
+kind: website
+name: ai
+canonical_url: https://framer.com/ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__framer__com__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - App Builders
+        anchor_text: Framer AI
+        extracted_url: https://framer.com/ai
+        surrounding_text: "- **[Framer AI](https://framer.com/ai)** – AI-powered website builder with advanced design capabilities."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Framer AI is a browser-first SaaS feature inside the Framer web design platform that generates websites and landing pages from text prompts.
+  why_it_matters: It allows developers and designers to scaffold marketing sites and landing pages instantly without manually writing HTML, CSS, or configuring a static site generator.
+  mental_damage: Another reminder that while we automate entire websites in seconds, we still manually fight CSS grid for three hours to align a footer.
+  tags:
+    - website-builder
+    - framer
+    - prompt-to-site
+  confidence: medium
+curation:
+  status: included
+  reason: This is a hosted, browser-first product that turns prompts into full sites and landing pages, which aligns perfectly with the app-builders category definition.
+  evidence:
+    - Classified under 'App Builders' in the awesome-ai-coding-tools source list.
+    - URL points to framer.com/ai, indicating a hosted SaaS builder surface rather than a repo/IDE assistant.
+placement:
+  primary_category: app-builders
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.727Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:44:35.063Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

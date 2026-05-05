@@ -1,0 +1,76 @@
+id: shareseer__com
+kind: website
+name: shareseer.com
+canonical_url: https://shareseer.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__shareseer__com__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: ShareSeer
+        extracted_url: https://shareseer.com
+        surrounding_text: "- [shareseer/shareseer-mcp-server](https://github.com/shareseer/shareseer-mcp-server) 🏎️ ☁️ - MCP to Access SEC filings, financials & insider trading data in real time using [ShareSeer](https://shareseer.com)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Shareseer is a web-based financial research tool that generates investment ideas by tracking SEC insider transactions, company filings, and executive wealth patterns in real-time.
+  why_it_matters: It offers developers building fintech tools a ready-made data layer for insider trading signals and financial filings without needing to parse SEC forms manually.
+  mental_damage: We have successfully built an AI-powered tool to help you day-trade with the same confidence as the C-suite executives who are currently selling their shares.
+  tags:
+    - fintech
+    - mcp
+    - investment-research
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a consumer-facing investment research SaaS for traders, not a tool that assists software developers with coding, infrastructure, or development workflows.
+  evidence:
+    - Scraped context describes a 'research tool to generate investment ideas' for tracking insider trades and financials.
+    - The site is a browser-first SaaS for traders with pricing plans ($49/mo) and Chrome extensions, not a developer tool.
+    - Although listed in awesome-mcp-servers under 'Finance & Fintech', it lacks a clear developer-facing MCP server implementation or code-first interface in the visible context.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.730Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:48:05.447Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

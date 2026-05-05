@@ -1,0 +1,111 @@
+id: github__modelcontextprotocol__servers
+kind: github-repo
+name: servers
+canonical_url: https://github.com/modelcontextprotocol/servers
+identity:
+  github_repo: modelcontextprotocol/servers
+provenance:
+  discoveries:
+    - id: discovery__github__modelcontextprotocol__servers__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Reference Servers
+        anchor_text: Everything
+        extracted_url: https://github.com/modelcontextprotocol/servers
+        surrounding_text: "- **[Everything](https://github.com/modelcontextprotocol/servers/blob/main/src/everything)** - Reference / test server with prompts, resources, and tools"
+        confidence: high
+    - id: discovery__github__modelcontextprotocol__servers__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - 📂 Browser Control
+        anchor_text: modelcontextprotocol/server-puppeteer
+        extracted_url: https://github.com/modelcontextprotocol/servers
+        surrounding_text: "-   **[modelcontextprotocol/server-puppeteer](https://github.com/modelcontextprotocol/servers/tree/main/src/puppeteer)** [![GitHub stars](https://img.shields.io/github/stars/modelcontextprotocol/servers?style=social)](https://github.com/modelcontextprotocol/servers): Automates web interactions and scraping using Puppeteer (part of the official servers collection)."
+        confidence: high
+    - id: discovery__github__modelcontextprotocol__servers__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 模型上下文协议 MCP
+        anchor_text: modelcontextprotocol/servers
+        extracted_url: https://github.com/modelcontextprotocol/servers
+        surrounding_text: 3. [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers)
+        confidence: high
+metadata:
+  github:
+    stars: 85090
+    forks: 10603
+    license: NOASSERTION
+    archived: false
+    created_at: "2024-11-19T01:10:17Z"
+    pushed_at: "2026-04-17T22:59:54Z"
+    description: Model Context Protocol Servers
+    homepage: https://modelcontextprotocol.io
+    topics: []
+    last_checked_at: "2026-05-05T21:03:45.220Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:45.220Z"
+      bytes: 24605
+insights:
+  summary: A collection of reference implementations and community server references for the Model Context Protocol (MCP), demonstrating how to build secure tool and data integrations for LLMs.
+  why_it_matters: It provides the canonical examples and SDK usage patterns developers need to build MCP-compatible servers that extend AI assistants with custom tools and data sources.
+  mental_damage: We have successfully standardized the way we let language models touch our stuff, and now we just need 85,000 stars worth of reference implementations to feel secure about it.
+  tags:
+    - mcp
+    - reference-servers
+    - llm-tools
+    - protocol
+    - sdk
+  confidence: high
+curation:
+  status: included
+  reason: This is the official reference server repository for the Model Context Protocol, directly fitting the MCP infrastructure category.
+  evidence:
+    - Repo description is 'Model Context Protocol Servers' and README confirms it houses reference implementations for MCP.
+    - README explicitly states servers demonstrate MCP features and SDK usage for developers building their own MCP servers.
+    - High traction with 85,090 stars and active maintenance (pushed 2026-04-17).
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (85090) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.661Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:45.220Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:38:47.123Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

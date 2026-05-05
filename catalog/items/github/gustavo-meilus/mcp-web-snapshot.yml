@@ -1,0 +1,80 @@
+id: github__gustavo-meilus__mcp-web-snapshot
+kind: github-repo
+name: mcp-web-snapshot
+canonical_url: https://github.com/gustavo-meilus/mcp-web-snapshot
+identity:
+  github_repo: gustavo-meilus/mcp-web-snapshot
+provenance:
+  discoveries:
+    - id: discovery__github__gustavo-meilus__mcp-web-snapshot__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: Website Snapshot
+        extracted_url: https://github.com/gustavo-meilus/mcp-web-snapshot
+        surrounding_text: "- **[Website Snapshot](https://github.com/gustavo-meilus/mcp-web-snapshot)** - A MCP server that provides comprehensive website snapshot capabilities using Playwright. This server enables LLMs to capture and analyze web pages through structured accessibility snapshots, network monitoring, and console message collection."
+        confidence: high
+metadata:
+  github:
+    stars: 6
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2025-05-29T18:41:52Z"
+    pushed_at: "2025-05-30T13:57:51Z"
+    description: Take snapshot of websites and deliver it to LLM tools.
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:29.234Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:29.234Z"
+      bytes: 8596
+insights:
+  summary: An MCP server that uses Playwright to capture structured website snapshots, network activity, and console logs for consumption by LLM tools.
+  why_it_matters: It allows coding agents in editors like VS Code and Cursor to see and analyze live web pages, including network traffic and console output, without leaving the development environment.
+  mental_damage: We have successfully abstracted the browser into a JSON tree so your agent can hallucinate about the DOM instead of you having to open the dev tools yourself.
+  tags:
+    - mcp
+    - playwright
+    - web-scraping
+    - context-engineering
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server designed to provide web snapshot capabilities to LLM clients, fitting cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description states: 'Take snapshot of websites and deliver it to LLM tools.'"
+    - "README confirms: 'A Model Context Protocol (MCP) server that provides comprehensive website snapshot capabilities using Playwright.'"
+    - Listed in the 'awesome-mcp-servers' directory under 'Community Servers'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.690Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:29.234Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:23:16.841Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

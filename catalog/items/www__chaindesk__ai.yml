@@ -1,0 +1,77 @@
+id: www__chaindesk__ai
+kind: website
+name: www.chaindesk.ai
+canonical_url: https://www.chaindesk.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__chaindesk__ai__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Databerry
+        anchor_text: Databerry
+        extracted_url: https://www.databerry.ai
+        surrounding_text: "## [Databerry](https://www.databerry.ai/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A no-code SaaS platform for building custom GPT-powered chatbots trained on private data sources like Notion, Google Drive, and websites for customer support and lead generation.
+  why_it_matters: It allows developers and businesses to deploy a branded, data-aware conversational agent across web and messaging channels without writing backend AI infrastructure code.
+  mental_damage: Yet another no-code 'AI Agent' builder promising to automate support, ensuring developers can spend their saved time debugging why the bot confidently hallucinates the company refund policy.
+  tags:
+    - chatbot
+    - no-code
+    - customer-support
+    - gpt-4
+    - saas
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a no-code SaaS for business users to build customer support chatbots, lacking a direct developer-tooling, coding, or infrastructure angle required for the catalog.
+  evidence:
+    - Scraped site title and description explicitly target 'no-code platform to create custom AI chatbots' for customer support.
+    - Primary workflow is importing data via UI, customizing a persona, and deploying a widget, not editing code or developer infrastructure.
+    - Listed in awesome-ai-agents under 'Databerry' for its chatbot capabilities, but lacks a developer-facing API/SDK or coding agent workflow.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.732Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:50:03.010Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

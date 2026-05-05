@@ -1,0 +1,90 @@
+id: github__ivnvxd__mcp-server-odoo
+kind: github-repo
+name: mcp-server-odoo
+canonical_url: https://github.com/ivnvxd/mcp-server-odoo
+identity:
+  github_repo: ivnvxd/mcp-server-odoo
+provenance:
+  discoveries:
+    - id: discovery__github__ivnvxd__mcp-server-odoo__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: Odoo
+        extracted_url: https://github.com/ivnvxd/mcp-server-odoo
+        surrounding_text: "- **[Odoo](https://github.com/ivnvxd/mcp-server-odoo)** - Connect AI assistants to Odoo ERP systems for business data access and workflow automation."
+        confidence: high
+metadata:
+  github:
+    stars: 270
+    forks: 129
+    license: MPL-2.0
+    archived: false
+    created_at: "2025-03-22T20:45:03Z"
+    pushed_at: "2026-05-02T13:31:25Z"
+    description: Model Context Protocol (MCP) server that enables AI assistants to securely interact with Odoo ERP systems through standardized resources and tools for data retrieval and manipulation.
+    homepage: ""
+    topics:
+      - ai
+      - erp
+      - llm
+      - mcp
+      - mcp-server
+      - mcp-servers
+      - model-context-protocol
+      - odoo
+      - odoo-mcp
+    last_checked_at: "2026-05-05T21:02:48.380Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:48.380Z"
+      bytes: 25612
+insights:
+  summary: An MCP server that lets AI assistants like Claude and Copilot securely read, create, update, and delete records in Odoo ERP instances via natural language.
+  why_it_matters: It bridges the gap between modern AI coding workflows and legacy ERP data, allowing developers to manage Odoo records directly from their IDE or chat interface without writing custom API glue code.
+  mental_damage: You can now ask your LLM to invoice a client while it simultaneously writes the feature that broke the checkout flow in the first place.
+  tags:
+    - mcp
+    - odoo
+    - erp
+    - integration
+    - local-server
+  confidence: high
+curation:
+  status: included
+  reason: The project is a dedicated Model Context Protocol server for Odoo, fitting cleanly into the MCP Servers and Tooling category as infrastructure that extends AI assistants.
+  evidence:
+    - Repo description explicitly defines it as a 'Model Context Protocol (MCP) server' for Odoo.
+    - README includes setup instructions for Claude, Cursor, VS Code, Windsurf, and Zed, confirming it is developer-facing MCP infrastructure.
+    - Listed in the awesome-mcp-servers directory under 'Community Servers'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (270) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.699Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:48.380Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:26:56.966Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

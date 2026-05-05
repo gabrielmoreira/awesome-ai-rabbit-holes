@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__e2b-dev__awesome-ai-agents__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-01T13:51:25.374Z"
+      discovered_at: "2026-05-05T19:41:00.656Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -23,8 +23,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 27579
-    forks: 2803
+    stars: 27658
+    forks: 2825
     license: NOASSERTION
     archived: false
     created_at: "2023-06-19T00:20:06Z"
@@ -45,31 +45,49 @@ metadata:
       - gpt-engineer
       - openai
       - python
-    last_checked_at: "2026-05-01T13:51:27.355Z"
+    last_checked_at: "2026-05-05T21:01:58.343Z"
     readme:
-      fetched_at: "2026-05-01T13:51:27.355Z"
+      fetched_at: "2026-05-05T21:01:58.342Z"
       bytes: 210706
 insights:
-  summary: A curated awesome list of AI autonomous agents, split into open-source projects and closed-source products.
-  why_it_matters: It’s a high-signal starting map for developers evaluating agent tools, with categories and a companion web UI for browsing and filtering.
-  mental_damage: You’ll open it to “pick one agent framework” and resurface three hours later with 19 tabs, a new taxonomy, and no decision.
+  summary: A curated, categorized directory of open-source and closed-source AI autonomous agents, maintained as a GitHub awesome list.
+  why_it_matters: It serves as a structured map of the rapidly expanding agent ecosystem, helping developers quickly discover frameworks and products for building or integrating autonomous workflows.
+  mental_damage: Another beautifully organized landscape to scroll through when you should be writing code, proving that mapping the chaos is easier than taming it.
   tags:
-    - awesome-list
-    - ai-agents
-    - autonomous-agents
+    - agents
     - directory
+    - awesome-list
     - landscape
   confidence: high
 curation:
   status: included
-  reason: "Include as an ecosystem navigation aid: it’s a widely-used, actively maintained awesome list specifically focused on AI agents (a core developer-tooling area), making it a practical entry point for this catalog’s audience."
+  reason: This is a curated index and map of AI agents rather than a standalone developer tool, making it a classic fit for the awesome-awesomes category.
   evidence:
-    - "Repo description: \"A list of AI autonomous agents\""
-    - "README: structured list of agent projects (open-source + closed-source) and offers a filterable web version"
-    - "Strong traction and recency: 27,579 stars; not archived; pushed 2025-02-26; direct awesome list source: yes"
+    - Repo description explicitly states 'A list of AI autonomous agents'.
+    - README structures the project as a list split into 'Open source projects' and 'Closed-source projects and companies'.
+    - Direct awesome list source is true, and it provides a web UI landscape at e2b.dev/ai-agents.
 placement:
   primary_category: awesome-awesomes
   section: null
 lifecycle:
   status: promotion_candidate
-  reason: Stars (27579) exceeded threshold (150)
+  reason: Stars (27658) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.657Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:58.343Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:17:22.724Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

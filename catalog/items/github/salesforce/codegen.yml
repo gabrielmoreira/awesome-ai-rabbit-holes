@@ -1,0 +1,91 @@
+id: github__salesforce__codegen
+kind: github-repo
+name: codegen
+canonical_url: https://github.com/salesforce/codegen
+identity:
+  github_repo: salesforce/codegen
+provenance:
+  discoveries:
+    - id: discovery__github__salesforce__codegen__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Code AI
+        anchor_text: CodeGen
+        extracted_url: https://github.com/salesforce/codegen
+        surrounding_text: "| [CodeGen](https://github.com/salesforce/CodeGen)    | CodeGen is an open-source model for program synthesis. Trained on TPU-v4. Competitive with OpenAI Codex. | ![GitHub Badge](https://img.shields.io/github/stars/salesforce/CodeGen.svg?style=flat-square)   |"
+        confidence: high
+    - id: discovery__www__codegen__com__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Codegen
+        anchor_text: Codegen
+        extracted_url: https://www.codegen.com
+        surrounding_text: "## [Codegen](https://www.codegen.com/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Codegen is an AI coding agent designed to autonomously plan, write, and review code changes within a developer's repository workflow.
+  why_it_matters: It aims to automate the implementation of entire tasks or features, allowing developers to shift focus from boilerplate generation to higher-level architecture and review.
+  mental_damage: "Just what the modern developer needs: another autonomous agent ready to refactor your perfectly working legacy code while you sip coffee and pray the test suite still passes."
+  tags:
+    - autonomous
+    - code-review
+    - coding-agent
+    - repo-workflow
+  confidence: medium
+curation:
+  status: included
+  reason: The tool is explicitly listed in the 'awesome-ai-agents' directory under 'Codegen' and is positioned as an autonomous agent that operates directly on source code within a repo workflow.
+  evidence:
+    - Listed in the 'awesome-ai-agents' directory under the specific section 'Codegen'.
+    - The URL (www.codegen.com) and name imply a direct focus on code generation and autonomous coding capabilities.
+placement:
+  primary_category: coding-agents
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:50:15.017Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.732Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

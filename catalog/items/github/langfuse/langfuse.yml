@@ -1,0 +1,148 @@
+id: github__langfuse__langfuse
+kind: github-repo
+name: langfuse
+canonical_url: https://github.com/langfuse/langfuse
+identity:
+  github_repo: langfuse/langfuse
+provenance:
+  discoveries:
+    - id: discovery__github__langfuse__langfuse__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: scraped
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: https://langfuse.com/
+        extracted_url: https://langfuse.com/docs/prompts/get-started
+        surrounding_text: "- [langfuse/mcp-server-langfuse](https://github.com/langfuse/mcp-server-langfuse) 🐍 🏠 - MCP server to access and manage LLM application prompts created with [Langfuse]([https://langfuse.com/](https://langfuse.com/docs/prompts/get-started)) Prompt Management."
+        confidence: high
+    - id: discovery__github__langfuse__langfuse__awesome-list__vivy-yi__awesome-agent-orchestration
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: vivy-yi/awesome-agent-orchestration
+        url: https://github.com/vivy-yi/awesome-agent-orchestration
+        repository: vivy-yi/awesome-agent-orchestration
+      extraction:
+        mode: parsed
+        section_path:
+          - Tools & Infrastructure
+          - Observability & Tracing
+        anchor_text: Langfuse
+        extracted_url: https://github.com/langfuse/langfuse
+        surrounding_text: "| [Langfuse](https://github.com/langfuse/langfuse) | Open-source LLM engineering platform |"
+        confidence: high
+    - id: discovery__github__langfuse__langfuse__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: janhq/awesome-local-ai
+        url: https://github.com/janhq/awesome-local-ai
+        repository: janhq/awesome-local-ai
+      extraction:
+        mode: scraped
+        section_path:
+          - Developer tools
+        anchor_text: Langfuse
+        extracted_url: https://langfuse.com
+        surrounding_text: "- [Langfuse](https://langfuse.com/) - Open-source LLM monitoring platform that helps teams collaboratively debug, analyze, and iterate on their LLM applications. [#opensource](https://github.com/langfuse/langfuse)"
+        confidence: high
+    - id: discovery__github__langfuse__langfuse__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: scraped
+        section_path:
+          - Security
+          - Observability
+        anchor_text: Langfuse 🪢
+        extracted_url: https://langfuse.com
+        surrounding_text: "| [Langfuse 🪢](https://langfuse.com) | Open-source LLM observability platform that helps teams collaboratively debug, analyze, and iterate on their LLM applications. | ![GitHub Badge](https://img.shields.io/github/stars/langfuse/langfuse.svg?style=flat-square)              |"
+        confidence: high
+metadata:
+  github:
+    stars: 26600
+    forks: 2694
+    license: NOASSERTION
+    archived: false
+    created_at: "2023-05-18T17:47:09Z"
+    pushed_at: "2026-05-05T19:54:20Z"
+    description: "🪢 Open source LLM engineering platform: LLM Observability, metrics, evals, prompt management, playground, datasets. Integrates with OpenTelemetry, Langchain, OpenAI SDK, LiteLLM, and more. 🍊YC W23 "
+    homepage: https://langfuse.com/docs
+    topics:
+      - analytics
+      - autogen
+      - evaluation
+      - langchain
+      - large-language-models
+      - llama-index
+      - llm
+      - llm-evaluation
+      - llm-observability
+      - llmops
+      - monitoring
+      - observability
+      - open-source
+      - openai
+      - playground
+      - prompt-engineering
+      - prompt-management
+      - self-hosted
+      - ycombinator
+    last_checked_at: "2026-05-05T21:03:16.497Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:16.497Z"
+      bytes: 53021
+insights:
+  summary: An open source LLM engineering platform providing observability, metrics, evaluations, prompt management, and a playground for debugging and improving AI applications.
+  why_it_matters: It integrates with major LLM frameworks and SDKs to give developers the tracing and evaluation infrastructure needed to move AI prototypes into production.
+  mental_damage: You now have a dashboard that perfectly visualizes your LLM application failing in ways you didn't know were possible, but at least the traces look beautiful.
+  tags:
+    - llm-observability
+    - evals
+    - prompt-management
+    - self-hosted
+    - llmops
+  confidence: high
+curation:
+  status: included
+  reason: Langfuse is a developer-facing observability and evaluation platform for LLM applications, fitting the evals category's focus on measuring model, prompt, and agent behavior.
+  evidence:
+    - Repo description explicitly lists 'LLM Observability, metrics, evals, prompt management, playground, datasets' as core features.
+    - README excerpt defines Langfuse as an 'open source LLM engineering platform' to 'develop, monitor, evaluate, and debug AI applications'.
+    - Featured in Awesome-LLMOps under 'Security > Observability' and awesome-agent-orchestration under 'Observability & Tracing'.
+placement:
+  primary_category: evals
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (26600) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.658Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:16.497Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:33:11.845Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

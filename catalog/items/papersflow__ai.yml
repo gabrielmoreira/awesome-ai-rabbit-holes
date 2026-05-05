@@ -1,0 +1,77 @@
+id: papersflow__ai
+kind: website
+name: papersflow.ai
+canonical_url: https://papersflow.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__papersflow__ai__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: PapersFlow
+        extracted_url: https://papersflow.ai
+        surrounding_text: "- [papersflow-ai/papersflow-mcp](https://github.com/papersflow-ai/papersflow-mcp) [![papers-flow MCP server](https://glama.ai/mcp/servers/papersflow-ai/papers-flow/badges/score.svg)](https://glama.ai/mcp/servers/papersflow-ai/papers-flow) 📇 ☁️ - Hosted MCP server by [PapersFlow](https://papersflow.ai) for academic research with 7 specialized AI agents and 474M+ papers from Semantic Scholar and OpenAlex. Literature search, citation verification, citation graph exploration, and autonomous deep research workflows."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: An AI research workspace that indexes over 474 million academic papers to power literature reviews, citation management, LaTeX writing, and presentation generation for researchers.
+  why_it_matters: It offers an MCP server integration that allows developers building research-adjacent tools to query a massive academic corpus programmatically rather than scraping Google Scholar.
+  mental_damage: Another all-in-one 'workspace' arrives to save us from the terrifying possibility that a PhD student might have to use Zotero and Overleaf in two different browser tabs.
+  tags:
+    - research
+    - mcp
+    - literature-review
+    - academic
+  confidence: high
+curation:
+  status: excluded
+  reason: This is an end-user SaaS for academic research and writing, not a developer tool for building software, despite its presence in an MCP servers list.
+  evidence:
+    - Primary pitch is 'AI research workspace' for literature reviews, LaTeX writing, and citation management, targeting students and researchers.
+    - Listed in awesome-mcp-servers under 'Knowledge & Memory', but the product itself is a closed SaaS for academics, not a developer infrastructure tool.
+    - No evidence of an IDE plugin, CLI agent, or coding workflow; it generates presentations and paraphrases text rather than code.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.729Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:46:59.006Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

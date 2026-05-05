@@ -1,0 +1,76 @@
+id: fine__tuner__ai
+kind: website
+name: fine-tuner.ai
+canonical_url: https://fine-tuner.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__fine__tuner__ai__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Fine Tuner
+        anchor_text: Fine Tuner
+        extracted_url: https://fine-tuner.ai
+        surrounding_text: "## [Fine Tuner](https://fine-tuner.ai/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A no-code SaaS platform for creating custom AI phone call agents using data and automation workflows.
+  why_it_matters: It allows teams to deploy voice-based AI agents without writing code, shifting the developer role from implementation to data configuration.
+  mental_damage: We have successfully abstracted away the coding part of software development so thoroughly that we can now build autonomous agents that talk on the phone, and we didn't even have to learn how to prompt them.
+  tags:
+    - voice-agents
+    - no-code
+    - automation
+    - phone-calls
+  confidence: high
+curation:
+  status: excluded
+  reason: The product is a no-code SaaS for business users to build phone agents, lacking a developer-tooling, IDE, coding, or infrastructure angle required for this catalog.
+  evidence:
+    - Scraped site context states 'No coding or tech skills needed'.
+    - Source list context describes it as a tool for creating phone call agents effortlessly with data and ideas.
+    - The product is a browser-first SaaS for end-users, not a tool for developers to build software.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.727Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:44:32.071Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

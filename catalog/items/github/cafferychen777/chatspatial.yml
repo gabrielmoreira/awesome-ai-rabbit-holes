@@ -1,0 +1,102 @@
+id: github__cafferychen777__chatspatial
+kind: github-repo
+name: chatspatial
+canonical_url: https://github.com/cafferychen777/chatspatial
+identity:
+  github_repo: cafferychen777/chatspatial
+provenance:
+  discoveries:
+    - id: discovery__github__cafferychen777__chatspatial__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - <a name="bio"></a>Biology, Medicine and Bioinformatics
+        anchor_text: cafferychen777/ChatSpatial
+        extracted_url: https://github.com/cafferychen777/chatspatial
+        surrounding_text: "- [cafferychen777/ChatSpatial](https://github.com/cafferychen777/ChatSpatial) 🐍 🏠 - MCP server for spatial transcriptomics analysis with 60+ integrated methods covering cell annotation, deconvolution, spatial statistics, and visualization."
+        confidence: high
+metadata:
+  github:
+    stars: 34
+    forks: 8
+    license: MIT
+    archived: false
+    created_at: "2025-05-06T05:40:10Z"
+    pushed_at: "2026-05-05T15:45:17Z"
+    description: MCP server for spatial transcriptomics analysis through natural language interfaces.
+    homepage: https://docs.cafferyang.com/
+    topics:
+      - agentic-ai
+      - bioinformatics
+      - cell-communication
+      - claude-desktop
+      - computational-biology
+      - deconvolution
+      - genomics
+      - llm-agent
+      - machine-learning
+      - mcp-server
+      - model-context-protocol
+      - python
+      - pytorch
+      - scanpy
+      - single-cell
+      - spatial-analysis
+      - spatial-domains
+      - spatial-transcriptomics
+      - squidpy
+      - visualization
+    last_checked_at: "2026-05-05T21:01:28.335Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:28.335Z"
+      bytes: 6273
+insights:
+  summary: An MCP server that exposes 20 schema-validated tools to orchestrate 65 spatial transcriptomics methods, allowing developers and researchers to run bioinformatics workflows via natural language in MCP-compatible clients.
+  why_it_matters: It replaces fragile ad-hoc LLM code generation with a reproducible, schema-enforced interface for complex single-cell and spatial genomics analysis inside standard MCP clients like Claude Code and Claude Desktop.
+  mental_damage: Finally, a way to let your LLM orchestrate obscure scRNA-seq methods with validated schemas, so you can feel productive while wondering if you still need a PhD to understand the output.
+  tags:
+    - mcp-server
+    - bioinformatics
+    - spatial-transcriptomics
+    - agentic-ai
+    - python
+  confidence: high
+curation:
+  status: included
+  reason: The project is an MCP server that integrates with MCP-compatible developer clients, which clearly fits the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description explicitly states: 'MCP server for spatial transcriptomics analysis through natural language interfaces.'"
+    - README confirms it exposes 20 schema-validated MCP tools and works with 'any MCP-compatible client — Claude Code, Claude Desktop, Codex, OpenCode, and other MCP-capable tools.'
+    - Listed in awesome-mcp-servers under 'Server Implementations > Biology, Medicine and Bioinformatics'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.682Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:28.335Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:12:12.857Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

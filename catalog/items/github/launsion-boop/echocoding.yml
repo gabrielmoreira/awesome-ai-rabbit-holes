@@ -1,0 +1,84 @@
+id: github__launsion-boop__echocoding
+kind: github-repo
+name: echocoding
+canonical_url: https://github.com/launsion-boop/echocoding
+identity:
+  github_repo: launsion-boop/echocoding
+provenance:
+  discoveries:
+    - id: discovery__github__launsion-boop__echocoding__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Agent infrastructure
+        anchor_text: EchoCoding
+        extracted_url: https://github.com/launsion-boop/echocoding
+        surrounding_text: "- **[EchoCoding](https://github.com/launsion-boop/EchoCoding)** `⭐ 21` — Audio layer for CLI coding agents with hook-triggered SFX, ambient soundscape, and optional cloud TTS/ASR voice interaction for Codex and Claude Code workflows."
+        confidence: high
+metadata:
+  github:
+    stars: 25
+    forks: 6
+    license: MIT
+    archived: false
+    created_at: "2026-04-14T05:47:31Z"
+    pushed_at: "2026-05-01T12:37:40Z"
+    description: Make your AI coding agent talk, listen, and feel alive.
+    homepage: ""
+    topics:
+      - agent
+      - vibe-coding
+    last_checked_at: "2026-05-05T21:03:17.731Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:17.731Z"
+      bytes: 23591
+insights:
+  summary: EchoCoding adds sound effects, ambient audio, TTS, and voice input to AI coding agents like Claude Code, Cursor, and Windsurf via CLI hooks and MCP tools.
+  why_it_matters: It gives developers audio-based spatial awareness of their agent's state and enables hands-free voice interaction during coding sessions.
+  mental_damage: Your AI agent now has a sonic personality and expects spoken answers, turning quiet debugging into a fully voice-acted theatre production.
+  tags:
+    - audio
+    - voice
+    - mcp
+    - cli
+    - agent-extension
+  confidence: high
+curation:
+  status: included
+  reason: This is an extension layer that augments existing coding agents with audio and voice capabilities rather than being a primary coding assistant itself.
+  evidence:
+    - "Repo description states: 'Make your AI coding agent talk, listen, and feel alive.'"
+    - "README explains: 'EchoCoding is pipes, not brains. It gives your AI agent a mouth and ears' and supports Claude Code, Cursor, Windsurf, Codex CLI, Gemini CLI via hooks and MCP."
+    - Listed in awesome-cli-coding-agents under 'Harnesses & orchestration > Agent infrastructure'.
+placement:
+  primary_category: ai-dev-extensions
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.703Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:17.731Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:33:25.215Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

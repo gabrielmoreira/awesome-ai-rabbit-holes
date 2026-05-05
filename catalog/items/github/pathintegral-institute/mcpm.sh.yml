@@ -1,0 +1,99 @@
+id: github__pathintegral-institute__mcpm.sh
+kind: github-repo
+name: mcpm.sh
+canonical_url: https://github.com/pathintegral-institute/mcpm.sh
+identity:
+  github_repo: pathintegral-institute/mcpm.sh
+provenance:
+  discoveries:
+    - id: discovery__github__pathintegral-institute__mcpm.sh__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 模型上下文协议 MCP
+        anchor_text: mcpm.sh
+        extracted_url: https://github.com/pathintegral-institute/mcpm.sh
+        surrounding_text: 16. [mcpm.sh](https://github.com/pathintegral-institute/mcpm.sh)
+        confidence: high
+metadata:
+  github:
+    stars: 939
+    forks: 99
+    license: MIT
+    archived: false
+    created_at: "2025-03-21T10:16:41Z"
+    pushed_at: "2026-04-24T16:46:04Z"
+    description: CLI MCP package manager & registry for all platforms and all clients. Search & configure MCP servers. Advanced Router & Profile features.
+    homepage: https://mcpm.sh/
+    topics:
+      - ai
+      - claude-desktop
+      - cli
+      - cline
+      - continue
+      - cursor
+      - goose
+      - homebrew
+      - llm
+      - mcp
+      - package-manager
+      - pip
+      - profile
+      - routing
+      - sse
+      - stdio
+      - tools
+      - windsurf
+    last_checked_at: "2026-05-05T21:04:13.064Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:13.064Z"
+      bytes: 14676
+insights:
+  summary: A CLI tool and registry for discovering, installing, and managing MCP servers across multiple AI clients like Claude Desktop, Cursor, and Windsurf.
+  why_it_matters: It centralizes the fragmented setup of Model Context Protocol servers into a single global configuration, allowing developers to manage tools once and share them across different AI coding environments.
+  mental_damage: We have successfully invented package managers for the plugins that help our AI assistants talk to the tools that help us code, because apparently installing things once is the new frontier.
+  tags:
+    - mcp
+    - cli
+    - package-manager
+    - registry
+    - devops
+  confidence: high
+curation:
+  status: included
+  reason: The project is a dedicated CLI and registry for MCP infrastructure, fitting the mcp category's definition of servers, clients, registries, and tooling.
+  evidence:
+    - "Repo description explicitly states: 'CLI MCP package manager & registry for all platforms and all clients.'"
+    - README confirms it provides 'Server Discovery through a central registry' and 'Client Integration' for multiple MCP hosts.
+    - Topics include 'mcp', 'package-manager', and lists specific clients like 'cursor', 'windsurf', and 'cline'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (939) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.712Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:13.064Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:43:58.151Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

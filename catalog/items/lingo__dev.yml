@@ -1,0 +1,75 @@
+id: lingo__dev
+kind: website
+name: lingo.dev
+canonical_url: https://lingo.dev
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__lingo__dev__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Lingo.dev
+        extracted_url: https://lingo.dev
+        surrounding_text: "- **[Lingo.dev](https://github.com/lingodotdev/lingo.dev/blob/main/mcp.md)** - Make your AI agent speak every language on the planet, using [Lingo.dev](https://lingo.dev) Localization Engine."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Lingo.dev is a Model Context Protocol (MCP) server that integrates localization workflows into AI-assisted development environments.
+  why_it_matters: It allows developers to automate internationalization and translation tasks directly within their AI coding agent workflows via the MCP standard.
+  mental_damage: We have successfully abstracted 'translating strings' into a protocol server, ensuring your Claude instance can now argue about grammar in 40 languages instead of just one.
+  tags:
+    - mcp
+    - localization
+    - i18n
+    - automation
+  confidence: medium
+curation:
+  status: included
+  reason: The project is explicitly listed in the awesome-mcp-servers directory as an official server, fitting the MCP infrastructure category.
+  evidence:
+    - Seen in source lists under 'awesome-mcp-servers' specifically as an Official Server.
+    - URL points to lingo.dev, consistent with an MCP server implementation rather than a generic app builder.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.728Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:45:55.608Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

@@ -1,0 +1,82 @@
+id: github__equivault__equivault-mcp
+kind: github-repo
+name: equivault-mcp
+canonical_url: https://github.com/equivault/equivault-mcp
+identity:
+  github_repo: equivault/equivault-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__equivault__equivault-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: equivault/equivault-mcp
+        extracted_url: https://github.com/equivault/equivault-mcp
+        surrounding_text: "- [equivault/equivault-mcp](https://github.com/equivault/equivault-mcp) [![equivault/equivault-mcp MCP server](https://glama.ai/mcp/servers/equivault/equivault-mcp/badges/score.svg)](https://glama.ai/mcp/servers/equivault/equivault-mcp) 🎖️ 📇 ☁️ - Official [EquiVault](https://equivault.ai) MCP — AI-powered equity research for Claude. 38 tools covering company fundamentals, financial statements, ratios & metrics, stock quotes, screening, peer comparison, investment narrative, guidance tracking, segments, capital allocation, insider transactions, earnings quality, signals intelligence, alerts, briefs, portfolio analytics, and more. Tier-aware with graceful upgrade prompts. Install via `npx equivault-mcp`."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-04-17T15:58:37Z"
+    pushed_at: "2026-04-18T08:22:29Z"
+    description: MCP server for EquiVault — AI-powered equity research tools for Claude
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:03.406Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:03.406Z"
+      bytes: 6124
+insights:
+  summary: An MCP server that exposes EquiVault's AI-powered equity research API as tools for Claude, enabling financial data lookups, screening, and deep-dive analysis directly in-chat.
+  why_it_matters: It lets developers or finance-savvy users wire professional-grade equity research, financial statements, and signal dashboards directly into Claude Desktop or Claude Code without building custom API integrations.
+  mental_damage: "We have finally achieved the platonic ideal of the modern developer workflow: installing a local server just to ask a chatbot about Apple's P/E ratio instead of opening a browser tab."
+  tags:
+    - mcp
+    - finance
+    - claude
+    - equity-research
+    - npx
+  confidence: high
+curation:
+  status: included
+  reason: This is an MCP server bridging a third-party financial API into Claude, which clearly fits the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states 'MCP server for EquiVault — AI-powered equity research tools for Claude'.
+    - README documents Claude Desktop and Claude Code integration via MCP configuration.
+    - Listed under 'Server Implementations > Finance & Fintech' in the awesome-mcp-servers directory.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.686Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:03.406Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:18:13.753Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,76 @@
+id: element__fm
+kind: website
+name: element.fm
+canonical_url: https://element.fm
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__element__fm__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: ELEMENT.FM
+        extracted_url: https://element.fm
+        surrounding_text: "- **[ELEMENT.FM](https://gitlab.com/elementfm/mcp)** - Create and publish unlimited podcast shows and episodes with [ELEMENT.FM](https://element.fm)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: ELEMENT.FM is a podcast hosting platform that offers unlimited hosting, AI-generated show notes and chapters, and Podcasting 2.0 features.
+  why_it_matters: Developers building podcasting tools or integrations can leverage its API and open-source self-hosting options to power their own audio workflows.
+  mental_damage: Yet another platform promising AI-generated content, ensuring that the only thing truly unlimited about podcasting is the number of dashboards we need to check.
+  tags:
+    - podcast
+    - hosting
+    - ai-generated
+    - self-hosted
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a consumer-facing podcast hosting SaaS platform, not a developer tool, agent, or infrastructure component for building software.
+  evidence:
+    - Scraped site describes it as 'the ultimate podcast hosting platform' with $5/month pricing for shows.
+    - "Primary features are podcast-specific: unlimited episodes, transcripts, show notes, and Podcasting 2.0 support."
+    - Appears in awesome-mcp-servers list only as a hosted service, not as an installable MCP server or developer tool.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.727Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:44:22.271Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

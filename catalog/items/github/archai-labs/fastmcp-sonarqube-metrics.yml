@@ -1,0 +1,84 @@
+id: github__archai-labs__fastmcp-sonarqube-metrics
+kind: github-repo
+name: fastmcp-sonarqube-metrics
+canonical_url: https://github.com/archai-labs/fastmcp-sonarqube-metrics
+identity:
+  github_repo: archai-labs/fastmcp-sonarqube-metrics
+provenance:
+  discoveries:
+    - id: discovery__github__archai-labs__fastmcp-sonarqube-metrics__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: ArchAI-Labs/fastmcp-sonarqube-metrics
+        extracted_url: https://github.com/archai-labs/fastmcp-sonarqube-metrics
+        surrounding_text: "- [ArchAI-Labs/fastmcp-sonarqube-metrics](https://github.com/ArchAI-Labs/fastmcp-sonarqube-metrics) 🐍 🏠 🪟 🐧 🍎 -  A Model Context Protocol (MCP) server that provides a set of tools for retrieving information about SonarQube projects like metrics (actual and historical), issues, health status."
+        confidence: high
+metadata:
+  github:
+    stars: 12
+    forks: 8
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-05-12T16:26:08Z"
+    pushed_at: "2026-03-30T12:20:44Z"
+    description: "Chat with your SonarQube data: explore metrics, compare trends, and track issues—effortlessly."
+    homepage: ""
+    topics:
+      - mcp-server
+      - sonarqube
+    last_checked_at: "2026-05-05T21:01:08.113Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:08.113Z"
+      bytes: 20168
+insights:
+  summary: A FastMCP server that exposes SonarQube project metrics, history, and issues as tools for AI agents and LLM clients to query via the Model Context Protocol.
+  why_it_matters: It allows developers and AI coding agents to natively query code quality metrics and technical debt trends without leaving their agent workflow or writing custom API wrappers.
+  mental_damage: We have successfully abstracted the act of checking our code quality into a tool that lets an AI ask an API about the mess we just made, so we can maintain plausible deniability while the context window fills up with bug counts.
+  tags:
+    - mcp
+    - sonarqube
+    - devops
+    - metrics
+    - python
+  confidence: high
+curation:
+  status: included
+  reason: The project is a dedicated MCP server implementation designed to interface SonarQube with AI agents, fitting squarely into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states it is an interface for chatting with SonarQube data using the FastMCP framework.
+    - Listed in the awesome-mcp-servers directory under 'Developer Tools' section.
+    - README details specific MCP tools like get_sonarqube_metrics and get_project_issues using the FastMCP framework.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.679Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:08.113Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:08:51.342Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

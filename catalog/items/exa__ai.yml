@@ -1,0 +1,77 @@
+id: exa__ai
+kind: website
+name: exa.ai
+canonical_url: https://exa.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__exa__ai__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Exa
+        extracted_url: https://exa.ai
+        surrounding_text: "- **[Exa](https://github.com/exa-labs/exa-mcp-server)** - Search Engine made for AIs by [Exa](https://exa.ai)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Exa is a web search API designed for AI applications, providing low-latency, structured retrieval of real-time web data for grounding agents and LLMs.
+  why_it_matters: It offers developers a specialized search backend with features like structured outputs and highlights to reduce token costs and improve retrieval accuracy for AI workflows.
+  mental_damage: Another essential brick in the wall of 'agentic' infrastructure, ensuring your LLM can now hallucinate about Boeing's founding year with sub-180ms confidence.
+  tags:
+    - search-api
+    - ai-infrastructure
+    - retrieval
+    - mcp
+    - agents
+  confidence: high
+curation:
+  status: included
+  reason: It is a developer-facing API and SDK for embedding web search and retrieval capabilities into AI applications, fitting the code-first building block definition.
+  evidence:
+    - Scraped site context describes it as 'The best search API for AI' with an API Dashboard and Docs.
+    - Source-list context notes it as an Official MCP Server for web search.
+    - Page excerpt highlights enterprise-grade controls and structured outputs for developers.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.727Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:44:24.735Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

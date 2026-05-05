@@ -1,0 +1,78 @@
+id: www__ycombinator__com__companies__tusk
+kind: website
+name: tusk
+canonical_url: https://www.ycombinator.com/companies/tusk
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__ycombinator__com__companies__tusk__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Tusk
+          - Description
+        anchor_text: Y-combinator company
+        extracted_url: https://www.ycombinator.com/companies/tusk
+        surrounding_text: "- Tusk is a [Y-combinator company](https://www.ycombinator.com/companies/tusk)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Tusk is an AI agent that integrates with CI/CD pipelines to automatically generate and validate unit and integration tests for pull requests.
+  why_it_matters: It allows engineering teams to maintain high test coverage and prevent regressions without pulling developers away from feature work to write boilerplate tests.
+  mental_damage: Finally, an AI agent to handle the 'testing' phase of 'move fast and break things,' so you can ship features with confidence while wondering if the robot writing your edge cases actually understands your business logic.
+  tags:
+    - testing
+    - ci-cd
+    - yc-w24
+    - code-quality
+    - pr-automation
+  confidence: high
+curation:
+  status: included
+  reason: Tusk is a developer-facing coding agent that directly writes, runs, and debugs code (tests) within the PR and CI workflow, fitting the definition of a coding agent over a general app builder.
+  evidence:
+    - Scraped site context describes it as 'an AI agent that generates unit and integration tests' sitting in CI.
+    - Product loop involves generating tests, running them in a sandbox, and allowing one-click incorporation into the PR.
+    - Listed in awesome-ai-agents directory under the description of an agent generating tests.
+placement:
+  primary_category: coding-agents
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.734Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:54:07.508Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

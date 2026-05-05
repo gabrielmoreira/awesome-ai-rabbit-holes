@@ -1,0 +1,87 @@
+id: github__acedatacloud__fluxmcp
+kind: github-repo
+name: fluxmcp
+canonical_url: https://github.com/acedatacloud/fluxmcp
+identity:
+  github_repo: acedatacloud/fluxmcp
+provenance:
+  discoveries:
+    - id: discovery__github__acedatacloud__fluxmcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🎨 <a name="art-and-culture"></a>Art & Culture
+        anchor_text: AceDataCloud/MCPFlux
+        extracted_url: https://github.com/acedatacloud/fluxmcp
+        surrounding_text: "- [AceDataCloud/MCPFlux](https://github.com/AceDataCloud/FluxMCP) [![AceDataCloud/MCPFlux MCP server](https://glama.ai/mcp/servers/AceDataCloud/MCPFlux/badges/score.svg)](https://glama.ai/mcp/servers/AceDataCloud/MCPFlux) 🐍 ☁️ - Flux AI image generation and editing (Black Forest Labs) via Ace Data Cloud API."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-03-08T20:38:55Z"
+    pushed_at: "2026-04-30T19:03:10Z"
+    description: MCP server for Flux AI image generation and editing via Ace Data Cloud.
+    homepage: null
+    topics:
+      - ai-image
+      - developer-tools
+      - flux-api
+      - image-generation
+      - mcp-server
+      - model-context-protocol
+    last_checked_at: "2026-05-05T21:00:47.782Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:47.782Z"
+      bytes: 12098
+insights:
+  summary: An MCP server that lets Claude, Cursor, and other MCP-compatible clients generate and edit images using Flux models via the AceDataCloud platform.
+  why_it_matters: Developers can add AI image generation and editing directly into their coding workflows without leaving tools like Claude Desktop, Cursor, or VS Code.
+  mental_damage: You now have the power to generate art from your IDE, which is perfect for when your codebase is so broken that visual distraction is the only coping mechanism left.
+  tags:
+    - mcp
+    - image-generation
+    - flux
+    - developer-tools
+  confidence: high
+curation:
+  status: included
+  reason: The project is an MCP server implementation for image generation, which fits the MCP Servers and Tooling category.
+  evidence:
+    - Repo description states it is an 'MCP server for Flux AI image generation'.
+    - README confirms it is a Model Context Protocol server for use with Claude, Cursor, and other MCP clients.
+    - Listed under 'Server Implementations' in the awesome-mcp-servers directory.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.676Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:47.782Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:05:36.266Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

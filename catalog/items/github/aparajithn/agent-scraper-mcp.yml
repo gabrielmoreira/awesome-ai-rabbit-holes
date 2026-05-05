@@ -1,0 +1,81 @@
+id: github__aparajithn__agent-scraper-mcp
+kind: github-repo
+name: agent-scraper-mcp
+canonical_url: https://github.com/aparajithn/agent-scraper-mcp
+identity:
+  github_repo: aparajithn/agent-scraper-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__aparajithn__agent-scraper-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📂 <a name="browser-automation"></a>Browser Automation
+        anchor_text: aparajithn/agent-scraper-mcp
+        extracted_url: https://github.com/aparajithn/agent-scraper-mcp
+        surrounding_text: "- [aparajithn/agent-scraper-mcp](https://github.com/aparajithn/agent-scraper-mcp) [![agent-scraper-mcp MCP server](https://glama.ai/mcp/servers/@aparajithn/agent-scraper-mcp/badges/score.svg)](https://glama.ai/mcp/servers/@aparajithn/agent-scraper-mcp) 🐍 ☁️ - Web scraping MCP server for AI agents. 6 tools: clean content extraction, structured scraping with CSS selectors, full-page screenshots via Playwright, link extraction, metadata extraction (OG/Twitter cards), and Google search. Free tier with x402 micropayments."
+        confidence: high
+metadata:
+  github:
+    stars: 3
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-03-05T15:26:57Z"
+    pushed_at: "2026-03-07T07:13:57Z"
+    description: Web scraping MCP server for AI agents — screenshots, content extraction, structured scraping
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:01:06.242Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:06.242Z"
+      bytes: 8005
+insights:
+  summary: An MCP server that provides web scraping capabilities—including content extraction, structured data scraping, screenshots, and Google search—for AI agents via MCP and REST API.
+  why_it_matters: It gives coding agents and developer workflows a standardized way to pull live web content, metadata, and screenshots without writing custom scraping boilerplate.
+  mental_damage: We have successfully turned the open web into yet another JSON endpoint, so agents can now hallucinate quotes from pages they barely scraped.
+  tags:
+    - mcp
+    - web-scraping
+    - agent-tooling
+    - playwright
+  confidence: low
+curation:
+  status: included
+  reason: The project is explicitly an MCP server providing web scraping tools for AI agents, which cleanly fits the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description states: 'Web scraping MCP server for AI agents — screenshots, content extraction, structured scraping'."
+    - README shows MCP configuration and tool definitions (scrape_url, scrape_structured, screenshot_url, etc.) for agent consumption.
+    - Listed in awesome-mcp-servers under Server Implementations > Browser Automation.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.679Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:06.242Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:08:35.699Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

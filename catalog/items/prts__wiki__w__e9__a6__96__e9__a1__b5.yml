@@ -1,0 +1,76 @@
+id: prts__wiki__w__e9__a6__96__e9__a1__b5
+kind: website
+name: "%E9%A6%96%E9%A1%B5"
+canonical_url: https://prts.wiki/w/%E9%A6%96%E9%A1%B5
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__prts__wiki__w__e9__a6__96__e9__a1__b5__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🎮 <a name="gaming"></a>Gaming
+        anchor_text: PRTS Wiki
+        extracted_url: https://prts.wiki
+        surrounding_text: "- [3aKHP/prts-mcp](https://github.com/3aKHP/prts-mcp) [![3aKHP/prts-mcp MCP server](https://glama.ai/mcp/servers/3aKHP/prts-mcp/badges/score.svg)](https://glama.ai/mcp/servers/3aKHP/prts-mcp) 🐍 📇 ☁️ 🏠 - MCP Server for [Arknights](https://www.arknights.global/), querying the [PRTS Wiki](https://prts.wiki) API and serving auto-synced operator archives and voice lines from game data. Designed for fan-creation (同人創作) AI agents. Python (stdio/Docker) and TypeScript (Streamable HTTP) implementations."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: PRTS is a non-profit community-maintained Chinese wiki for the mobile game Arknights, containing game data, operator profiles, and strategy information.
+  why_it_matters: It provides a structured data source that could theoretically be queried by game-related tooling, though it has no direct developer workflow integration.
+  mental_damage: We have officially reached the point where a game wiki is being listed alongside MCP infrastructure as if 'adding PRTS' is a serious developer workflow decision.
+  tags:
+    - gaming
+    - wiki
+    - arbitrary-listing
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a game wiki with no AI tooling, developer workflow integration, or MCP server implementation; it is included in awesome-mcp-servers only as a wiki link under gaming, not as a server or tool.
+  evidence:
+    - The scraped site context explicitly states 'PRTS是一个非营利性质的明日方舟资料Wiki网站' (a non-profit Arknights wiki).
+    - The awesome-mcp-servers listing places it under 'Gaming' with the linked page description being the wiki itself, not an MCP server.
+    - No repo description, README, or code signals exist to suggest this is a developer tool, MCP server, or AI product.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.729Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:47:17.197Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

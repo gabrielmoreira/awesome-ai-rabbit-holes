@@ -1,0 +1,76 @@
+id: www__adept__ai
+kind: website
+name: www.adept.ai
+canonical_url: https://www.adept.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__adept__ai__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Adept AI
+        anchor_text: Adept AI
+        extracted_url: https://www.adept.ai
+        surrounding_text: "## [Adept AI](https://www.adept.ai/?utm_source=awesome-ai-agents)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Adept AI is a research and product company building general-purpose AI agents designed to perform complex software and web-based tasks across desktop and browser environments.
+  why_it_matters: It aims to create models that can directly interact with user interfaces to automate multi-step workflows, potentially changing how developers delegate routine software operations.
+  mental_damage: "Just what we needed: another highly funded research lab promising an agent that will finally automate the boring parts of our job while we nervously check if our own repo is in their training set."
+  tags:
+    - agents
+    - automation
+    - research
+    - ui-interaction
+  confidence: medium
+curation:
+  status: excluded
+  reason: Adept is a research lab and company focused on foundational models rather than a direct developer tool, IDE plugin, or coding agent that fits into a developer's current workflow.
+  evidence:
+    - The URL points to a corporate homepage (www.adept.ai) with no repository description, README, or code exposed for evaluation.
+    - Listed in awesome-ai-agents as a company/research entity rather than a specific installable tool or library.
+    - No evidence of a developer-facing IDE integration, CLI tool, or framework SDK in the provided inputs.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.731Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:49:23.731Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

@@ -1,0 +1,77 @@
+id: teleporthq__io
+kind: website
+name: teleporthq.io
+canonical_url: https://teleporthq.io
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__teleporthq__io__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - UI Generators
+        anchor_text: TeleportHQ
+        extracted_url: https://teleporthq.io
+        surrounding_text: "- **[TeleportHQ](https://teleporthq.io/)** – Generate production-ready code from visual designs."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A low-code front-end design and development platform that uses AI to generate website layouts from prompts, which can then be refined visually and exported as static sites or component code.
+  why_it_matters: It allows developers to rapidly prototype and ship production-ready static websites and UI components by converting Figma designs or text prompts directly into code for frameworks like React, Angular, and Vue.
+  mental_damage: Another 'AI-powered' builder promising to bridge the design-developer gap, ensuring you can now spend your afternoon arguing with a drag-and-drop editor about margin pixels instead of writing CSS.
+  tags:
+    - low-code
+    - website-builder
+    - figma-to-code
+    - static-site
+    - ui-generator
+  confidence: high
+curation:
+  status: included
+  reason: This is a browser-first SaaS product that generates and deploys whole websites from prompts and visual edits, fitting the app-builders definition over coding-agents.
+  evidence:
+    - Listed in awesome-ai-coding-tools under 'UI Generators' as a front-end platform with a visual builder.
+    - Scraped site describes a 'Professional website builder' that generates layouts from prompts and exports to HTML, CSS, JS, and React/Vue/Angular.
+    - Features GitHub integration and free code export, positioning it as a tool to generate sites/components rather than a repo-resident coding agent.
+placement:
+  primary_category: app-builders
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.731Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:48:36.008Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

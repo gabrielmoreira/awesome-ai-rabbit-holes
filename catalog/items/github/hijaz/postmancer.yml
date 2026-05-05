@@ -1,0 +1,86 @@
+id: github__hijaz__postmancer
+kind: github-repo
+name: postmancer
+canonical_url: https://github.com/hijaz/postmancer
+identity:
+  github_repo: hijaz/postmancer
+provenance:
+  discoveries:
+    - id: discovery__github__hijaz__postmancer__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: hijaz/postmancer
+        extracted_url: https://github.com/hijaz/postmancer
+        surrounding_text: "- [hijaz/postmancer](https://github.com/hijaz/postmancer) 📇 🏠 - A MCP server for replacing Rest Clients like Postman/Insomnia, by allowing your LLM to maintain and use api collections."
+        confidence: high
+metadata:
+  github:
+    stars: 28
+    forks: 5
+    license: MIT
+    archived: false
+    created_at: "2025-03-30T04:50:05Z"
+    pushed_at: "2025-08-19T00:45:47Z"
+    description: An experimental MCP server Rest Client intended to be a replacement of tools postman & insomnia
+    homepage: ""
+    topics:
+      - insomnia
+      - mcp
+      - postman
+      - rest-client
+    last_checked_at: "2026-05-05T21:02:33.909Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:33.909Z"
+      bytes: 2770
+insights:
+  summary: Postmancer is an MCP server that allows AI assistants like Claude to make HTTP requests, manage API collections, and test REST API responses through natural language.
+  why_it_matters: It integrates API testing workflows directly into AI chat sessions, removing the need to switch contexts between Postman or Insomnia and your coding assistant.
+  mental_damage: We have successfully abstracted away the one tab that wasn't already an LLM, ensuring your API keys are now managed by the same hallucination-prone assistant writing your spaghetti code.
+  tags:
+    - mcp
+    - rest-client
+    - api-testing
+    - cli
+    - developer-tools
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server implementation designed to expose API testing capabilities to AI assistants, fitting the MCP infrastructure category perfectly.
+  evidence:
+    - Repo description states it is 'An experimental MCP server Rest Client intended to be a replacement of tools postman & insomnia'.
+    - README confirms it is 'A standalone MCP server for API testing and management, allowing AI assistants to interact with RESTful APIs'.
+    - Listed in the awesome-mcp-servers list under 'Server Implementations > Developer Tools'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.691Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:33.909Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:23:59.758Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

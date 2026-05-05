@@ -1,0 +1,89 @@
+id: github__alteryx__evalml
+kind: github-repo
+name: evalml
+canonical_url: https://github.com/alteryx/evalml
+identity:
+  github_repo: alteryx/evalml
+provenance:
+  discoveries:
+    - id: discovery__github__alteryx__evalml__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - AutoML
+        anchor_text: EvalML
+        extracted_url: https://github.com/alteryx/evalml
+        surrounding_text: "| [EvalML](https://github.com/alteryx/evalml)                                  | An open source python library for AutoML.                                                                                                                                       | ![GitHub Badge](https://img.shields.io/github/stars/alteryx/evalml.svg?style=flat-square)                  |"
+        confidence: high
+metadata:
+  github:
+    stars: 847
+    forks: 93
+    license: BSD-3-Clause
+    archived: false
+    created_at: "2019-07-17T21:36:30Z"
+    pushed_at: "2026-01-14T22:09:13Z"
+    description: EvalML is an AutoML library written in python.
+    homepage: https://evalml.alteryx.com
+    topics:
+      - automl
+      - data-science
+      - feature-engineering
+      - feature-selection
+      - hyperparameter-tuning
+      - machine-learning
+      - model-selection
+      - optimization
+    last_checked_at: "2026-05-05T21:01:01.629Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:01.629Z"
+      bytes: 4829
+insights:
+  summary: EvalML is a Python AutoML library that automates the construction, optimization, and evaluation of end-to-end machine learning pipelines including preprocessing and feature engineering.
+  why_it_matters: It allows developers to automate model selection and hyperparameter tuning with domain-specific objectives, reducing the manual overhead of building ML pipelines.
+  mental_damage: Sometimes the most advanced AI in the stack is the library that decides you don't need to look at your own features anymore.
+  tags:
+    - automl
+    - machine-learning
+    - python
+    - pipelines
+    - model-selection
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a traditional data science and AutoML library, not a developer-facing AI tool, agent, or infrastructure component for software engineering workflows.
+  evidence:
+    - Repo description explicitly defines it as 'an AutoML library written in python' focused on machine learning pipelines.
+    - README demonstrates a standard data science workflow (load data, run AutoML search, get rankings) with no coding agent or developer tooling angle.
+    - Listed under 'AutoML' in Awesome-LLMOps, which confirms its identity as a model-training library rather than a coding assistant or IDE extension.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (847) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.678Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:01.629Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:07:49.639Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

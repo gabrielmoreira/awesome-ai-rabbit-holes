@@ -1,0 +1,91 @@
+id: gitlab__com__elementfm__mcp
+kind: website
+name: mcp
+canonical_url: https://gitlab.com/elementfm/mcp
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__gitlab__com__elementfm__mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
+        anchor_text: elementfm/mcp
+        extracted_url: https://gitlab.com/elementfm/mcp
+        surrounding_text: "- [elementfm/mcp](https://gitlab.com/elementfm/mcp) 🎖️ 🐍 📇 🏠 ☁️ - Open source podcast hosting platform"
+        confidence: high
+    - id: discovery__gitlab__com__elementfm__mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: ELEMENT.FM
+        extracted_url: https://gitlab.com/elementfm/mcp
+        surrounding_text: "- **[ELEMENT.FM](https://gitlab.com/elementfm/mcp)** - Create and publish unlimited podcast shows and episodes with [ELEMENT.FM](https://element.fm)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A GitLab-hosted implementation of a Model Context Protocol (MCP) server, created in March 2025.
+  why_it_matters: It provides developers with an MCP server implementation reference hosted on GitLab, fitting into the growing ecosystem of context-sharing tools.
+  mental_damage: We have successfully reached the point where the protocol for sharing context has its own protocols, and we are now indexing the places where those protocol implementations live.
+  tags:
+    - mcp
+    - gitlab
+    - protocol
+  confidence: medium
+curation:
+  status: included
+  reason: The project is explicitly listed as an MCP server implementation in the awesome-mcp-servers directory, directly fitting the MCP Servers and Tooling category.
+  evidence:
+    - Listed in awesome-mcp-servers under 'Server Implementations > Cloud Platforms' linked to GitLab.
+    - Project name is 'mcp' and it is hosted on GitLab, aligning with the MCP tooling scope.
+    - Created on March 30, 2025, indicating a very recent entry into the MCP ecosystem.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.674Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:44:51.744Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

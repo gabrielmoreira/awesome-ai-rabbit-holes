@@ -1,0 +1,85 @@
+id: github__alvinunreal__tmuxai
+kind: github-repo
+name: tmuxai
+canonical_url: https://github.com/alvinunreal/tmuxai
+identity:
+  github_repo: alvinunreal/tmuxai
+provenance:
+  discoveries:
+    - id: discovery__github__alvinunreal__tmuxai__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: scraped
+        section_path:
+          - CLI Tools
+        anchor_text: TmuxAI
+        extracted_url: https://tmuxai.dev
+        surrounding_text: "- **[TmuxAI](https://tmuxai.dev/)** – AI assistant for automating tmux workflows."
+        confidence: high
+metadata:
+  github:
+    stars: 1793
+    forks: 110
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-04-19T05:51:47Z"
+    pushed_at: "2026-05-05T19:45:54Z"
+    description: AI-Powered, Non-Intrusive Terminal Assistant
+    homepage: https://tmuxai.dev
+    topics:
+      - ai
+      - assistant
+      - chatgpt
+      - tmux
+      - warp
+    last_checked_at: "2026-05-05T21:01:02.065Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:02.065Z"
+      bytes: 34141
+insights:
+  summary: A terminal assistant that integrates with tmux to observe pane contents and assist developers with commands and problem-solving without leaving the terminal environment.
+  why_it_matters: It offers a non-intrusive AI pair programming experience that understands multi-pane terminal context and can execute commands in a dedicated pane, preserving existing shell workflows.
+  mental_damage: Because the natural next step after teaching the AI to watch your terminal is presumably giving it your sudo password so it can really feel at home.
+  tags:
+    - terminal
+    - tmux
+    - cli
+    - pair-programming
+  confidence: high
+curation:
+  status: included
+  reason: It is a developer-facing coding agent that collaborates directly within the terminal (tmux) to observe context, plan, and execute commands, fitting the coding-agents category and its Terminal & CLI Agents section.
+  evidence:
+    - Repo description states it is an 'AI-Powered, Non-Intrusive Terminal Assistant'.
+    - README describes it as 'an intelligent pair programmer' that 'observes and understands the content of your tmux panes' and 'execute commands in a separate execution pane'.
+    - Listed in awesome-ai-coding-tools under CLI Tools, aligning with the terminal agent scope.
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1793) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.678Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:02.065Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:07:54.219Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

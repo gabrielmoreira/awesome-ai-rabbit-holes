@@ -1,0 +1,81 @@
+id: github__agentlux__agentlux-mcp
+kind: github-repo
+name: agentlux-mcp
+canonical_url: https://github.com/agentlux/agentlux-mcp
+identity:
+  github_repo: agentlux/agentlux-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__agentlux__agentlux-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🛒 <a name="e-commerce"></a>E-Commerce
+        anchor_text: agentlux/agentlux-mcp
+        extracted_url: https://github.com/agentlux/agentlux-mcp
+        surrounding_text: "- [agentlux/agentlux-mcp](https://github.com/agentlux/agentlux-mcp) [![agentlux/agentlux-mcp MCP server](https://glama.ai/mcp/servers/agentlux/agentlux-mcp/badges/score.svg)](https://glama.ai/mcp/servers/agentlux/agentlux-mcp) 📇 ☁️ 🍎 🪟 🐧 - Agent marketplace and services MCP server for AgentLux. Browse marketplace items, manage agent identity, creator workflows, service hires, social flows, and Base/x402 commerce through 33 tools. Install via `npx -y @agentlux/mcp-server`."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-04-17T03:25:02Z"
+    pushed_at: "2026-05-01T22:51:59Z"
+    description: Embedded MCP toolkit for AgentLux marketplace, identity, creator, services, and social flows
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:00:52.110Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:52.110Z"
+      bytes: 5387
+insights:
+  summary: An embeddable MCP toolkit and stdio server that exposes 33 tools for interacting with the AgentLux marketplace, identity, creator, and social flows from an AI agent runtime.
+  why_it_matters: Developers building agents that need to participate in the AgentLux ecosystem can integrate marketplace browsing, purchases, and social actions without manually wrapping the platform's API.
+  mental_damage: We have successfully abstracted away the soul-crushing labor of writing API wrappers for a digital marketplace where avatars buy hats from each other using blockchain tokens.
+  tags:
+    - mcp
+    - agentlux
+    - marketplace
+    - sdk
+  confidence: high
+curation:
+  status: included
+  reason: The project is an MCP server and toolkit designed to expose AgentLux platform capabilities to MCP-compatible clients, fitting the MCP infrastructure scope.
+  evidence:
+    - "Repo description explicitly states: 'Embedded MCP toolkit for AgentLux marketplace, identity, creator, services, and social flows'"
+    - README confirms it is an MCP server available via stdio (npx) and remote HTTP endpoint (https://api.agentlux.ai/v1/mcp/jsonrpc)
+    - Listed under 'Server Implementations > E-Commerce' in the awesome-mcp-servers directory
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.677Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:52.110Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:06:19.438Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

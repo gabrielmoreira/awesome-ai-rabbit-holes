@@ -1,0 +1,106 @@
+id: github__wandb__wandb
+kind: github-repo
+name: evaluations
+canonical_url: https://github.com/wandb/wandb
+identity:
+  github_repo: wandb/wandb
+provenance:
+  discoveries:
+    - id: discovery__docs__wandb__ai__guides__prompts__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - LLMOps
+        anchor_text: Weights & Biases (Prompts)
+        extracted_url: https://docs.wandb.ai/guides/prompts
+        surrounding_text: "| [Weights & Biases (Prompts)](https://docs.wandb.ai/guides/prompts) | A suite of LLMOps tools within the developer-first W&B MLOps platform. Utilize W&B Prompts for visualizing and inspecting LLM execution flow, tracking inputs and outputs, viewing intermediate results, securely managing prompts and LLM chain configurations.                                                                                                                                        |                                                                                                           |"
+        confidence: high
+    - id: discovery__github__wandb__wandb__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Training
+          - Experiment Tracking
+        anchor_text: Weights & Biases
+        extracted_url: https://github.com/wandb/wandb
+        surrounding_text: "| [Weights & Biases](https://github.com/wandb/wandb)     | A developer first, lightweight, user-friendly experiment tracking and visualization tool for machine learning projects, streamlining collaboration and simplifying MLOps. W&B excels at tracking LLM-powered applications, featuring W&B Prompts for LLM execution flow visualization, input and output monitoring, and secure management of prompts and LLM chain configurations.                                                                                        | ![GitHub Badge](https://img.shields.io/github/stars/wandb/wandb.svg?style=flat-square)             |"
+        confidence: high
+    - id: discovery__weave__docs__wandb__ai__guides__core__types__evaluations__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 评估 Evaluation
+        anchor_text: Weave
+        extracted_url: https://weave-docs.wandb.ai/guides/core-types/evaluations
+        surrounding_text: "5. [Weave](https://weave-docs.wandb.ai/guides/core-types/evaluations): A lightweight toolkit for tracking and evaluating LLM applications."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: W&B Weave Evaluations is a documentation page for a feature within the Weave platform that allows developers to systematically measure and score LLM outputs.
+  why_it_matters: It provides the structured scaffolding needed to regression-test prompts and models, turning vibes-based development into observable, comparable data.
+  mental_damage: Finally, a standardized way to prove that your prompt changes didn't just break the one edge case you forgot to write down.
+  tags:
+    - evals
+    - llm-observability
+    - llmops
+    - prompt-engineering
+    - testing
+    - wandb
+  confidence: high
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: skipped
+    updated_at: "2026-05-05T21:04:23.170Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.731Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

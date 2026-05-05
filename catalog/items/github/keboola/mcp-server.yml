@@ -1,0 +1,103 @@
+id: github__keboola__mcp-server
+kind: github-repo
+name: keboola-mcp-server
+canonical_url: https://github.com/keboola/mcp-server
+identity:
+  github_repo: keboola/mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__keboola__keboola-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📊 <a name="data-platforms"></a>Data Platforms
+        anchor_text: keboola/keboola-mcp-server
+        extracted_url: https://github.com/keboola/keboola-mcp-server
+        surrounding_text: "- [keboola/keboola-mcp-server](https://github.com/keboola/keboola-mcp-server) 🐍 - interact with Keboola Connection Data Platform. This server provides tools for listing and accessing data from Keboola Storage API."
+        confidence: high
+    - id: discovery__github__keboola__keboola-mcp-server__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Keboola
+        extracted_url: https://github.com/keboola/keboola-mcp-server
+        surrounding_text: "- **[Keboola](https://github.com/keboola/keboola-mcp-server)** - Build robust data workflows, integrations, and analytics on a single intuitive platform."
+        confidence: high
+metadata:
+  github:
+    stars: 84
+    forks: 25
+    license: MIT
+    archived: false
+    created_at: "2025-01-12T20:01:21Z"
+    pushed_at: "2026-05-04T11:29:20Z"
+    description: Model Context Protocol (MCP) Server for the Keboola Platform
+    homepage: ""
+    topics:
+      - data-platform
+      - etl-pipeline
+      - keboola-platform
+      - mcp
+      - mcp-server
+      - model-context-protocol
+    last_checked_at: "2026-05-05T21:03:03.543Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:03.543Z"
+      bytes: 21487
+insights:
+  summary: An open-source MCP server that exposes Keboola data platform features—like storage, SQL transformations, job triggers, and flows—as callable tools for AI assistants such as Claude, Cursor, and VS Code.
+  why_it_matters: It lets developers query data, build SQL transformations with natural language, and manage ETL pipelines directly from their AI coding environment without writing glue code.
+  mental_damage: Your AI assistant can now trigger production data jobs and deploy Streamlit apps, which is either the ultimate developer productivity flex or a one-way ticket to your next incident postmortem.
+  tags:
+    - mcp
+    - data-platform
+    - etl
+    - keboola
+    - ai-integration
+  confidence: high
+curation:
+  status: included
+  reason: The project is a dedicated MCP server implementation that integrates a data platform with AI assistants, clearly fitting the MCP infrastructure category.
+  evidence:
+    - Repo description explicitly states this is a 'Model Context Protocol (MCP) Server for the Keboola Platform'.
+    - README confirms it turns Keboola features into 'callable tools for Claude, Cursor, CrewAI, LangChain, Amazon Q, and more' via MCP.
+    - Created in January 2025 and actively pushed as of May 2026, with 84 stars and an MIT license.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:30:15.570Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.668Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:03.543Z"
+    cause: null
+    next_retry_at: null

@@ -1,0 +1,81 @@
+id: github__cct15__war-dashboard-data
+kind: github-repo
+name: war-dashboard-data
+canonical_url: https://github.com/cct15/war-dashboard-data
+identity:
+  github_repo: cct15/war-dashboard-data
+provenance:
+  discoveries:
+    - id: discovery__github__cct15__war-dashboard-data__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: cct15/war-dashboard-data
+        extracted_url: https://github.com/cct15/war-dashboard-data
+        surrounding_text: "- [cct15/war-dashboard-data](https://github.com/cct15/war-dashboard-data) 🐍 ☁️ - Geopolitical conflict risk probabilities for AI agents. Covers 6 regions (Russia-Ukraine, Iran-Israel, China-Taiwan, etc.) with escalation/ceasefire/regime change probabilities at 1d/7d/30d horizons. Includes maritime chokepoint vessel data and political event probabilities. Updated daily."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-03-23T16:17:17Z"
+    pushed_at: "2026-05-05T03:30:59Z"
+    description: Futuristic Risk Intelligence — Geopolitical conflict risk data for AI agents (MCP/API)
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:01:31.151Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:31.151Z"
+      bytes: 5840
+insights:
+  summary: An MCP server and daily-updated data feed providing geopolitical conflict risk probabilities and political event data for AI agents.
+  why_it_matters: Developers building trading bots, risk management systems, or DeFi protocols can wire this server into their agents to make decisions based on structured conflict escalation probabilities instead of parsing headlines.
+  mental_damage: We’ve officially reached the point where autonomous agents can hedge crypto portfolios based on the probability of a ceasefire, yet we still can’t get a linter to agree with our formatting rules.
+  tags:
+    - mcp
+    - geopolitical-data
+    - risk-intelligence
+    - agent-data
+  confidence: high
+curation:
+  status: included
+  reason: This is a standalone MCP server that exposes geopolitical risk data tools for agents, fitting cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states 'Geopolitical conflict risk data for AI agents (MCP/API)'
+    - README documents MCP tools like get_conflict_risks and setup instructions for Claude Desktop
+    - Listed under Server Implementations in the awesome-mcp-servers directory
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.682Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:31.151Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:12:35.581Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

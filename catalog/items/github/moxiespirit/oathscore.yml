@@ -1,0 +1,92 @@
+id: github__moxiespirit__oathscore
+kind: github-repo
+name: oathscore
+canonical_url: https://github.com/moxiespirit/oathscore
+identity:
+  github_repo: moxiespirit/oathscore
+provenance:
+  discoveries:
+    - id: discovery__github__moxiespirit__oathscore__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: moxiespirit/oathscore
+        extracted_url: https://github.com/moxiespirit/oathscore
+        surrounding_text: "- [moxiespirit/oathscore](https://github.com/moxiespirit/oathscore) [![oath-score MCP server](https://glama.ai/mcp/servers/moxiespirit/oath-score/badges/score.svg)](https://glama.ai/mcp/servers/moxiespirit/oath-score) 🐍 ☁️ - The trust layer for AI trading agents. Real-time world state (exchange status, VIX/VVIX/SKEW, economic events) in one call, plus independent quality ratings (0-100) for financial data APIs. 8 MCP tools."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-03-04T03:02:34Z"
+    pushed_at: "2026-04-10T14:58:04Z"
+    description: Every API makes promises. OathScore checks the receipts. Real-time world state + independent API quality ratings for AI trading agents.
+    homepage: ""
+    topics:
+      - ai-agents
+      - api
+      - api-monitoring
+      - finance
+      - market-data
+      - mcp
+      - mcp-server
+      - trading
+      - vix
+      - volatility
+    last_checked_at: "2026-05-05T21:03:47.285Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:47.285Z"
+      bytes: 6200
+insights:
+  summary: OathScore is an MCP-compatible server and API that provides real-time world state data and continuous quality ratings for financial data APIs used by AI trading agents.
+  why_it_matters: It gives trading agents a trust layer to verify data API accuracy, uptime, and freshness before making decisions, reducing the risk of acting on faulty market data.
+  mental_damage: We have finally built a credit bureau for APIs, because apparently the agents need to worry about data integrity even if they still can't decide whether to buy or sell.
+  tags:
+    - mcp
+    - finance
+    - api-monitoring
+    - trading-agents
+    - data-quality
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server providing tools like get_now and get_score for agent use, with MCP configuration examples and inclusion in the awesome-mcp-servers finance section.
+  evidence:
+    - README includes MCP server configuration for Claude Code/Cursor and lists MCP tools like get_now and get_score.
+    - GitHub topics include mcp and mcp-server, and it is listed in awesome-mcp-servers under Finance & Fintech.
+    - Project is active (pushed 2026-04-10) and not archived, with a clear developer-facing MCP implementation.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.708Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:47.285Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:39:10.176Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

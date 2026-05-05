@@ -1,0 +1,85 @@
+id: github__merterbak__grok-mcp
+kind: github-repo
+name: grok-mcp
+canonical_url: https://github.com/merterbak/grok-mcp
+identity:
+  github_repo: merterbak/grok-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__merterbak__grok-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🔗 <a name="aggregators"></a>Aggregators
+        anchor_text: merterbak/Grok-MCP
+        extracted_url: https://github.com/merterbak/grok-mcp
+        surrounding_text: "- [merterbak/Grok-MCP](https://github.com/merterbak/Grok-MCP) 🐍 ☁️ 🍎 🪟 🐧 - MCP server for xAI's [Grok API](https://docs.x.ai/docs/overview) with agentic tool calling, image generation, vision, and file support."
+        confidence: high
+metadata:
+  github:
+    stars: 31
+    forks: 6
+    license: MIT
+    archived: false
+    created_at: "2025-09-29T20:32:57Z"
+    pushed_at: "2026-04-18T20:32:57Z"
+    description: MCP server for xAI's Grok API with agentic tool calling, image and video generation, vision, and file support.
+    homepage: ""
+    topics:
+      - grok
+      - mcp
+      - mcp-server
+      - xai
+    last_checked_at: "2026-05-05T21:03:35.933Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:35.933Z"
+      bytes: 5048
+insights:
+  summary: An MCP server that exposes xAI's Grok API features—including agentic tool calling, image and video generation, vision analysis, and file handling—to MCP-compatible clients like Claude Desktop.
+  why_it_matters: Developers using Claude Desktop or Claude Code can pipe Grok's reasoning, web search, X search, and media generation directly into their local workflow without writing custom API glue.
+  mental_damage: We have reached the point where the selling point of a tool is that it lets you use an API from a different company inside the tool you are already using to talk to a third company's model.
+  tags:
+    - mcp
+    - grok
+    - xai
+    - integration
+  confidence: high
+curation:
+  status: included
+  reason: The project is an MCP server implementation that integrates xAI's Grok API into the MCP ecosystem, fitting cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states 'MCP server for xAI's Grok API'.
+    - README documents Claude Desktop and Claude Code integration using the MCP configuration format.
+    - Listed in awesome-mcp-servers under Server Implementations > Aggregators.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.706Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:35.933Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:37:03.108Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

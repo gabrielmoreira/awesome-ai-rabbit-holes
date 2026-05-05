@@ -1,0 +1,81 @@
+id: github__jaspertvdm__mcp-server-ollama-bridge
+kind: github-repo
+name: mcp-server-ollama-bridge
+canonical_url: https://github.com/jaspertvdm/mcp-server-ollama-bridge
+identity:
+  github_repo: jaspertvdm/mcp-server-ollama-bridge
+provenance:
+  discoveries:
+    - id: discovery__github__jaspertvdm__mcp-server-ollama-bridge__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🔗 <a name="aggregators"></a>Aggregators
+        anchor_text: jaspertvdm/mcp-server-ollama-bridge
+        extracted_url: https://github.com/jaspertvdm/mcp-server-ollama-bridge
+        surrounding_text: "- [jaspertvdm/mcp-server-ollama-bridge](https://github.com/jaspertvdm/mcp-server-ollama-bridge) 🐍 🏠 - Bridge to local Ollama LLM server. Run Llama, Mistral, Qwen and other local models through MCP."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2026-01-06T07:49:07Z"
+    pushed_at: "2026-01-24T06:18:51Z"
+    description: MCP Server - Bridge to local Ollama LLM. Part of HumoticaOS/SymbAIon ecosystem.
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:52.385Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:52.385Z"
+      bytes: 1582
+insights:
+  summary: A Model Context Protocol server that bridges MCP clients like Claude Desktop to a local Ollama LLM instance.
+  why_it_matters: It allows developers to use local, private LLMs as drop-in replacements for cloud providers within MCP-compatible workflows.
+  mental_damage: We have successfully invented the technology to connect a protocol wrapper to a local model so we can ask it why we are spending four figures a month on API tokens.
+  tags:
+    - mcp
+    - ollama
+    - local-ai
+    - bridge
+  confidence: medium
+curation:
+  status: included
+  reason: The project is explicitly an MCP server implementation designed to connect local Ollama models to MCP clients, fitting the MCP infrastructure category perfectly.
+  evidence:
+    - "Repo description states: 'MCP Server - Bridge to local Ollama LLM.'"
+    - README confirms usage with Claude Desktop via mcpServers configuration.
+    - Listed in awesome-mcp-servers under 'Server Implementations'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.699Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:52.385Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:27:53.045Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

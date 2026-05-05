@@ -1,0 +1,92 @@
+id: ampcode__com
+kind: website
+name: ampcode.com
+canonical_url: https://ampcode.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__ampcode__com__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Terminal-native coding agents
+          - Closed Source
+        anchor_text: Amp
+        extracted_url: https://sourcegraph.com/amp
+        surrounding_text: "- **[Amp](https://sourcegraph.com/amp)** `[Sourcegraph]` — Sourcegraph's AI coding agent with a CLI for implementing tasks across real codebases."
+        confidence: high
+    - id: discovery__ampcode__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Code Editors and Assistants
+        anchor_text: Amp (Sourcegraph)
+        extracted_url: https://ampcode.com
+        surrounding_text: "- **[Amp (Sourcegraph)](https://ampcode.com/)** – Agentic coding tool built on Sourcegraph's code search infrastructure with deep codebase graph and unconstrained token usage."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Amp is a terminal-native coding agent that integrates leading AI models to assist developers in writing, editing, and managing code within their repositories.
+  why_it_matters: It offers a premium, agentic CLI experience that lets developers delegate complex, multi-file coding tasks directly from the terminal using frontier models.
+  mental_damage: Yet another contender in the terminal agent wars, ensuring developers can now anxiously watch a scrolling log of autonomous code changes instead of just anxiously reviewing static diffs.
+  tags:
+    - coding-agent
+    - cli
+    - terminal
+    - developer-tools
+  confidence: high
+curation:
+  status: included
+  reason: Amp is a terminal-native coding agent that directly plans, writes, and edits code in a developer's workflow, fitting the coding-agents category perfectly.
+  evidence:
+    - Described as 'a frontier coding agent that lets you wield the full power of leading models' on the scraped site.
+    - Included in awesome-cli-coding-agents under 'Terminal-native coding agents > Closed Source'.
+    - "Install instructions show a terminal installation via curl: `curl -fsSL https://ampcode.com/install.sh | bash`."
+placement:
+  primary_category: coding-agents
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.673Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:41:48.025Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

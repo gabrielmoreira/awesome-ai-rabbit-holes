@@ -1,0 +1,82 @@
+id: github__areweai__tsgram-mcp
+kind: github-repo
+name: tsgram-mcp
+canonical_url: https://github.com/areweai/tsgram-mcp
+identity:
+  github_repo: areweai/tsgram-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__areweai__tsgram-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💬 <a name="communication"></a>Communication
+        anchor_text: areweai/tsgram-mcp
+        extracted_url: https://github.com/areweai/tsgram-mcp
+        surrounding_text: "- [areweai/tsgram-mcp](https://github.com/areweai/tsgram-mcp) - TSgram: Telegram + Claude with local workspace access on your phone in typescript. Read, write, and vibe code on the go!"
+        confidence: high
+metadata:
+  github:
+    stars: 89
+    forks: 23
+    license: MIT
+    archived: false
+    created_at: "2025-06-23T22:38:41Z"
+    pushed_at: "2025-06-26T04:55:26Z"
+    description: TSGram - Telegram MCP Server for local Claude Code integration - debug and vibe code on the go!
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:01:08.367Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:08.367Z"
+      bytes: 11100
+insights:
+  summary: TSGram MCP is an MCP server that bridges local Claude Code sessions with Telegram, allowing developers to query and edit their codebase via mobile chat.
+  why_it_matters: It enables developers to interact with their local coding agent and modify files while away from their desk, turning a messaging app into a remote terminal for AI-assisted development.
+  mental_damage: "We have finally achieved the platonic ideal of modern productivity: deploying a local Docker stack so you can debug your package.json from a messaging app while pretending you aren't at your computer."
+  tags:
+    - mcp
+    - telegram
+    - claude-code
+    - local-ai
+    - mobile
+  confidence: high
+curation:
+  status: included
+  reason: The project is a Model Context Protocol server specifically designed to connect Claude Code with Telegram, fitting the MCP infrastructure category.
+  evidence:
+    - Repo description explicitly identifies it as a 'Telegram MCP Server for local Claude Code integration'.
+    - README details the architecture as a 'TSGram MCP server' running locally to connect Telegram chats to Claude Code.
+    - Listed in the awesome-mcp-servers directory under 'Server Implementations > Communication'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.679Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:08.367Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:08:55.426Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

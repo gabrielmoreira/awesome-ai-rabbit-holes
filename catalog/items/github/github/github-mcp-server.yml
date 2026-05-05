@@ -1,0 +1,83 @@
+id: github__github__github-mcp-server
+kind: github-repo
+name: github-mcp-server
+canonical_url: https://github.com/github/github-mcp-server
+identity:
+  github_repo: github/github-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__github__github-mcp-server__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: GitHub
+        extracted_url: https://github.com/github/github-mcp-server
+        surrounding_text: "- **[GitHub](https://github.com/github/github-mcp-server)** - GitHub's official MCP Server"
+        confidence: high
+metadata:
+  github:
+    stars: 29523
+    forks: 4114
+    license: MIT
+    archived: false
+    created_at: "2025-03-04T16:42:04Z"
+    pushed_at: "2026-05-05T14:16:05Z"
+    description: GitHub's official MCP Server
+    homepage: ""
+    topics:
+      - github
+      - mcp
+      - mcp-server
+    last_checked_at: "2026-05-05T21:02:22.126Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:22.126Z"
+      bytes: 85641
+insights:
+  summary: GitHub's official MCP server that connects AI tools directly to the GitHub platform for repository management, issue automation, and code analysis.
+  why_it_matters: It gives coding agents and AI assistants a standardized, officially maintained interface to interact with repos, PRs, CI/CD, and code analysis through natural language.
+  mental_damage: Another layer of middleware so your AI can argue with your CI pipeline and close your issues while you wonder what exactly is running on your machine.
+  tags:
+    - mcp
+    - github
+    - tooling
+    - agent-infrastructure
+  confidence: high
+curation:
+  status: included
+  reason: This is GitHub's official MCP server implementation, cleanly fitting the MCP Servers and Tooling category as infrastructure that exposes GitHub capabilities to AI tools.
+  evidence:
+    - "Repo description explicitly states: 'GitHub's official MCP Server'"
+    - README emphasizes connecting AI agents and assistants directly to GitHub for repo management, PRs, and CI/CD
+    - Listed in awesome-mcp-servers under 'Official Servers' section
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (29523) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.689Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:22.126Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:21:33.636Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

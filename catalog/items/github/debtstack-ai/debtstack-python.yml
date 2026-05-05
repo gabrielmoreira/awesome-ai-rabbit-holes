@@ -1,0 +1,91 @@
+id: github__debtstack-ai__debtstack-python
+kind: github-repo
+name: debtstack-python
+canonical_url: https://github.com/debtstack-ai/debtstack-python
+identity:
+  github_repo: debtstack-ai/debtstack-python
+provenance:
+  discoveries:
+    - id: discovery__github__debtstack-ai__debtstack-python__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: debtstack-ai/debtstack-python
+        extracted_url: https://github.com/debtstack-ai/debtstack-python
+        surrounding_text: "- [debtstack-ai/debtstack-python](https://github.com/debtstack-ai/debtstack-python) 🐍 ☁️ - Corporate debt structure data for AI agents. Search 250+ issuers, 5,000+ bonds with leverage ratios, seniority, covenants, guarantor chains, and FINRA TRACE pricing."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 1
+    license: Apache-2.0
+    archived: false
+    created_at: "2026-02-19T00:09:49Z"
+    pushed_at: "2026-02-24T21:34:10Z"
+    description: Corporate credit data for AI agents — Python SDK, LangChain tools, and MCP server
+    homepage: https://debtstack.ai
+    topics:
+      - ai-agents
+      - api
+      - bonds
+      - credit
+      - finance
+      - langchain
+      - mcp
+      - mcp-server
+      - python
+    last_checked_at: "2026-05-05T21:01:49.946Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:49.946Z"
+      bytes: 10909
+insights:
+  summary: A Python SDK and MCP server providing normalized corporate credit data for AI agents, with LangChain integration and pre-built API methods for screening companies, traversing entity relationships, and searching bond pricing.
+  why_it_matters: Developers building financial AI agents can skip parsing hundreds of SEC filings and instead query structured credit metrics, guarantor chains, and bond pricing in milliseconds.
+  mental_damage: "We have finally achieved the singularity: an API that saves your agent from having to read a 10-K, while the developer still has to read the API docs."
+  tags:
+    - mcp
+    - finance
+    - python
+    - langchain
+    - sdk
+  confidence: medium
+curation:
+  status: included
+  reason: The project itself is an MCP server and Python SDK for surfacing corporate credit data to AI agents, which fits cleanly as MCP infrastructure.
+  evidence:
+    - Repo description explicitly states 'Corporate credit data for AI agents — Python SDK, LangChain tools, and MCP server'
+    - Included in awesome-mcp-servers under Finance & Fintech section
+    - README demonstrates MCP server packaging alongside LangChain tooling and a structured API client
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.684Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:49.946Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:15:49.381Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

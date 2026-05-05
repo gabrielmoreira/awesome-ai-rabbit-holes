@@ -1,0 +1,77 @@
+id: unifai__network
+kind: website
+name: unifai.network
+canonical_url: https://unifai.network
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__unifai__network__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: UnifAI Network
+        extracted_url: https://unifai.network
+        surrounding_text: "- **[UnifAI](https://github.com/unifai-network/unifai-mcp-server)** - Dynamically search and call tools using [UnifAI Network](https://unifai.network)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: UnifAI Network is an AI-native infrastructure platform for DeFi that provides an agent runtime, developer SDK, and unified tooling to build and automate financial strategies on Solana.
+  why_it_matters: It offers developers a framework and SDK to build autonomous financial agents that interact with over 100 DeFi protocols without writing custom integration code.
+  mental_damage: Finally, the existential dread of being replaced by AI is softened by the comforting realization that the bot is just going to ape into Solana memecoins for you.
+  tags:
+    - defi
+    - agent-runtime
+    - sdk
+    - solana
+    - ai-infrastructure
+  confidence: high
+curation:
+  status: excluded
+  reason: Despite having a developer SDK, the platform is fundamentally a DeFi/Solana finance application rather than a general-purpose developer tool, IDE extension, or coding agent.
+  evidence:
+    - Primary page excerpt focuses almost entirely on 'Agentic Finance', 'Smart Farming Strategy', and DeFi APY performance metrics.
+    - Testimonials and features highlight automated liquidity positions and market-making on Meteora/Solana, not software development workflows.
+    - Listed in awesome-mcp-servers under 'Official Servers', but the product itself is a domain-specific financial agent platform, not core dev tooling.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.731Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:48:54.538Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

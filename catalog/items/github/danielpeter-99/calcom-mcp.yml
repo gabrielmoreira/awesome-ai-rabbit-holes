@@ -1,0 +1,97 @@
+id: github__danielpeter-99__calcom-mcp
+kind: github-repo
+name: calcom-mcp
+canonical_url: https://github.com/danielpeter-99/calcom-mcp
+identity:
+  github_repo: danielpeter-99/calcom-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__danielpeter-99__calcom-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💬 <a name="communication"></a>Communication
+        anchor_text: Danielpeter-99/calcom-mcp
+        extracted_url: https://github.com/danielpeter-99/calcom-mcp
+        surrounding_text: "- [Danielpeter-99/calcom-mcp](https://github.com/Danielpeter-99/calcom-mcp) 🐍 🏠 - MCP server for Calcom. Manage event types, create bookings, and access Cal.com scheduling data through LLMs."
+        confidence: high
+    - id: discovery__github__danielpeter-99__calcom-mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: Danielpeter-99/calcom-mcp
+        extracted_url: https://github.com/danielpeter-99/calcom-mcp
+        surrounding_text: "- **[Danielpeter-99/calcom-mcp](https://github.com/Danielpeter-99/calcom-mcp)** - MCP server for [Calcom](https://cal.com/) (Also known as [Cal.com](https://cal.com/)). Manage event types, create bookings, and access Cal.com scheduling data through LLMs."
+        confidence: high
+metadata:
+  github:
+    stars: 16
+    forks: 12
+    license: MIT
+    archived: false
+    created_at: "2025-05-21T18:26:12Z"
+    pushed_at: "2025-06-02T14:47:26Z"
+    description: A FastMCP server for interacting with the Cal.com API. This enables LLMs to manage event types, create bookings, and access Cal.com scheduling data programmatically.
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:01:46.189Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:46.189Z"
+      bytes: 5255
+insights:
+  summary: A FastMCP server that exposes the Cal.com API as tools so LLMs can programmatically manage event types, bookings, and scheduling data.
+  why_it_matters: It lets developers wire Cal.com scheduling capabilities into AI workflows and agents without writing custom API integration code.
+  mental_damage: Because nothing says developer productivity like spinning up a local server just so your chatbot can decide whether you're free on Thursday.
+  tags:
+    - mcp
+    - cal.com
+    - fastmcp
+    - api-integration
+    - scheduling
+  confidence: high
+curation:
+  status: included
+  reason: The project is itself an MCP server implementation, which fits cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states it is a FastMCP server for the Cal.com API.
+    - README confirms it provides MCP tools (list_event_types, create_booking, etc.) for LLM interaction.
+    - Listed in awesome-mcp-servers under Server Implementations > Communication.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.664Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:46.189Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:15:17.435Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

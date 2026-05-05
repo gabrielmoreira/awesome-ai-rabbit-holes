@@ -1,0 +1,113 @@
+id: github__openai__codex
+kind: github-repo
+name: codex
+canonical_url: https://github.com/openai/codex
+identity:
+  github_repo: openai/codex
+provenance:
+  discoveries:
+    - id: discovery__github__openai__codex__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Terminal-native coding agents
+          - Open Source
+        anchor_text: Codex CLI
+        extracted_url: https://github.com/openai/codex
+        surrounding_text: "- **[Codex CLI](https://github.com/openai/codex)** `⭐ 79.9k` `[OpenAI]` — OpenAI's local coding agent for reading/editing/running code, with an interactive TUI and tool execution. Apache-2.0."
+        confidence: high
+    - id: discovery__github__openai__codex__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 代码 Coding
+        anchor_text: CodeX (`🔥`)
+        extracted_url: https://github.com/openai/codex
+        surrounding_text: 22. [CodeX (`🔥`)](https://github.com/openai/codex)
+        confidence: high
+    - id: discovery__www__codex__io__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: Codex API
+        extracted_url: https://www.codex.io
+        surrounding_text: "- [codex-data/codex-mcp](https://github.com/Codex-Data/codex-mcp) 🎖️ 📇 ☁️ - [Codex API](https://www.codex.io) integration for real-time enriched blockchain and market data on 60+ networks"
+        confidence: high
+metadata:
+  github:
+    stars: 80134
+    forks: 11558
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-04-13T05:37:54Z"
+    pushed_at: "2026-05-05T21:03:17Z"
+    description: Lightweight coding agent that runs in your terminal
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:04:03.466Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:03.466Z"
+      bytes: 2627
+insights:
+  summary: A lightweight, local coding agent from OpenAI that runs in the terminal, assisting developers with code tasks using their ChatGPT plan or API key.
+  why_it_matters: It brings OpenAI's agentic coding capabilities directly into the terminal, allowing developers to integrate advanced AI assistance into their existing local workflows without switching context to a web UI.
+  mental_damage: Yet another reason to wonder if your terminal is now just a fancy wrapper for an API call you could have made yourself, provided you enjoy debugging an AI's file system access.
+  tags:
+    - cli
+    - coding-agent
+    - openai
+    - terminal
+    - local-first
+  confidence: high
+curation:
+  status: included
+  reason: The repository explicitly describes itself as a 'lightweight coding agent that runs in your terminal' and provides a CLI tool for direct code interaction, fitting the coding-agents category perfectly.
+  evidence:
+    - "Repo description states: 'Lightweight coding agent that runs in your terminal'"
+    - "README confirms: 'Codex CLI is a coding agent from OpenAI that runs locally on your computer'"
+    - Included in the awesome-cli-coding-agents list under 'Terminal-native coding agents > Open Source'
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (80134) exceeded threshold (150)
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:04:45.642Z"
+    cause: null
+    attempts: 2
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+    next_retry_at: null
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.732Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:03.466Z"
+    cause: null
+    next_retry_at: null

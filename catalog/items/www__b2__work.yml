@@ -1,0 +1,75 @@
+id: www__b2__work
+kind: website
+name: www.b2.work
+canonical_url: https://www.b2.work
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__b2__work__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - B2 AI
+        anchor_text: B2 AI
+        extracted_url: https://www.b2.work
+        surrounding_text: "## [B2 AI](https://www.b2.work/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: B2 is a directory entry for an AI autonomous agent referenced in the awesome-ai-agents list.
+  why_it_matters: It represents an attempt to catalog the growing ecosystem of autonomous agents that developers are integrating into workflows.
+  mental_damage: Another entry in a list of lists that proves we are now optimizing for the meta-management of agent directories rather than the agents themselves.
+  tags:
+    - agents
+    - directory
+    - autonomous
+  confidence: low
+curation:
+  status: excluded
+  reason: The source URL points to a domain with no description, README, or verifiable tool surface; it appears only as a name in a directory list with no evidence of a developer-facing tool, app builder, or framework.
+  evidence:
+    - No repo description, README, or scraped site context provided to explain what www.b2.work actually does.
+    - Only signal is a mention in awesome-ai-agents under 'B2 AI', which is directory evidence, not a product signal.
+    - No stars, license, creation date, or activity data available to assess traction or viability.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.731Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:49:46.219Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

@@ -1,0 +1,83 @@
+id: github__gomerudo__nas-env
+kind: github-repo
+name: nas-env
+canonical_url: https://github.com/gomerudo/nas-env
+identity:
+  github_repo: gomerudo/nas-env
+provenance:
+  discoveries:
+    - id: discovery__github__gomerudo__nas-env__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - AutoML
+        anchor_text: NASGym
+        extracted_url: https://github.com/gomerudo/nas-env
+        surrounding_text: "| [NASGym](https://github.com/gomerudo/nas-env)                                | a proof-of-concept OpenAI Gym environment for Neural Architecture Search (NAS).                                                                                                 | ![GitHub Badge](https://img.shields.io/github/stars/gomerudo/nas-env.svg?style=flat-square)                |"
+        confidence: high
+metadata:
+  github:
+    stars: 31
+    forks: 3
+    license: MIT
+    archived: false
+    created_at: "2019-03-25T12:56:01Z"
+    pushed_at: "2020-05-04T22:38:59Z"
+    description: A simple OpenAI Gym environment for Neural Architecture Search (NAS)
+    homepage: null
+    topics:
+      - neural-architecture-search
+      - openai-gym
+      - reinforcement-learning
+    last_checked_at: "2026-05-05T21:02:23.760Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:23.760Z"
+      bytes: 2410
+insights:
+  summary: A proof-of-concept OpenAI Gym environment that models Neural Architecture Search (NAS) as a reinforcement learning problem using the Neural Structure Code encoding.
+  why_it_matters: It provides a structured RL interface for researchers to experiment with agent-driven neural network design on datasets like CIFAR-10 without building the scaffolding from scratch.
+  mental_damage: "Just what we needed: yet another reinforcement learning loop to tweak hyperparameters in a 2019-era gym environment while the rest of the world moves on to foundation models."
+  tags:
+    - neural-architecture-search
+    - reinforcement-learning
+    - openai-gym
+    - research
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a specialized ML research environment for Neural Architecture Search, not a practical developer tool, agent, or infrastructure component for software engineering workflows.
+  evidence:
+    - Repo description and README explicitly frame this as a research project for Neural Architecture Search (NAS), not a developer tool.
+    - Last push was in 2020, and the README notes the code is a proof-of-concept that 'may contain minor bugs'.
+    - Listed under 'AutoML' in Awesome-LLMOps, which confirms its ML research niche rather than developer-tooling focus.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.689Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:23.760Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:22:00.874Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

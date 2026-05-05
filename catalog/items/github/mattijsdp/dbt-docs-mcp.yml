@@ -1,0 +1,96 @@
+id: github__mattijsdp__dbt-docs-mcp
+kind: github-repo
+name: dbt-docs-mcp
+canonical_url: https://github.com/mattijsdp/dbt-docs-mcp
+identity:
+  github_repo: mattijsdp/dbt-docs-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__mattijsdp__dbt-docs-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📊 <a name="data-platforms"></a>Data Platforms
+        anchor_text: mattijsdp/dbt-docs-mcp
+        extracted_url: https://github.com/mattijsdp/dbt-docs-mcp
+        surrounding_text: "- [mattijsdp/dbt-docs-mcp](https://github.com/mattijsdp/dbt-docs-mcp) 🐍 🏠 - MCP server for dbt-core (OSS) users as the official dbt MCP only supports dbt Cloud. Supports project metadata, model and column-level lineage and dbt documentation."
+        confidence: high
+    - id: discovery__github__mattijsdp__dbt-docs-mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: dbt-docs
+        extracted_url: https://github.com/mattijsdp/dbt-docs-mcp
+        surrounding_text: "- **[dbt-docs](https://github.com/mattijsdp/dbt-docs-mcp)** - MCP server for dbt-core (OSS) users as the official dbt MCP only supports dbt Cloud. Supports project metadata, model and column-level lineage and dbt documentation."
+        confidence: high
+metadata:
+  github:
+    stars: 23
+    forks: 7
+    license: MIT
+    archived: false
+    created_at: "2025-03-30T09:36:12Z"
+    pushed_at: "2025-08-19T20:35:15Z"
+    description: MCP (model context protocol) server for interacting with dbt Docs
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:03:31.890Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:31.890Z"
+      bytes: 3402
+insights:
+  summary: An MCP server that exposes dbt project metadata, graph information, and column-level lineage from manifest and catalog artifacts to AI clients.
+  why_it_matters: It allows developers to query complex dbt model lineage, dependencies, and SQL code directly through AI assistants like Claude or Cursor without leaving their editor.
+  mental_damage: You can now ask an LLM to trace your column lineage through a five-layer dbt spaghetti graph, which is slightly more dignified than crying into the manifest.json yourself.
+  tags:
+    - mcp
+    - dbt
+    - data-lineage
+    - metadata
+  confidence: high
+curation:
+  status: included
+  reason: The primary artifact is a dedicated MCP server for dbt, which fits squarely into the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description explicitly states: 'MCP (model context protocol) server for interacting with dbt Docs'."
+    - README details specific MCP tools for searching nodes, inspecting attributes, and exploring lineage (get_dbt_predecessors, get_column_ancestors, etc.).
+    - Listed in awesome-mcp-servers under 'Server Implementations > Data Platforms'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.669Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:31.890Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:36:14.011Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

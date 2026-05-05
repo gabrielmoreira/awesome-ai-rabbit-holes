@@ -1,0 +1,76 @@
+id: mcpstore__co
+kind: website
+name: mcpstore.co
+canonical_url: https://mcpstore.co
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__mcpstore__co__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 模型上下文协议 MCP
+        anchor_text: mcpstore.co
+        extracted_url: https://mcpstore.co
+        surrounding_text: 13. [mcpstore.co](https://mcpstore.co/)
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A directory and installer for discovering and connecting to over 30,000 Model Context Protocol (MCP) servers for AI clients like Claude and Cursor.
+  why_it_matters: It provides a centralized registry and simplified two-click setup process to extend the capabilities of local AI coding assistants with external tools and data sources.
+  mental_damage: Another directory promising to 'unleash the power of AI Agents' while the primary innovation remains finding novel ways to wrap a 404 page in a shiny UI.
+  tags:
+    - mcp
+    - directory
+    - integrations
+    - ai-clients
+  confidence: high
+curation:
+  status: included
+  reason: This is a directory/registry for MCP servers rather than a standalone developer tool itself, making it a navigation aid for the ecosystem.
+  evidence:
+    - Scraped site title and description identify it as a store to 'Find and connect to 30,000+ MCP Servers'.
+    - Source list context places it in an 'MCP' section of an awesome-LLM-resources list as a directory.
+    - The workflow described is discovery and installation of other people's servers, not acting as the primary coding assistant.
+placement:
+  primary_category: awesome-awesomes
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.729Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:46:29.085Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

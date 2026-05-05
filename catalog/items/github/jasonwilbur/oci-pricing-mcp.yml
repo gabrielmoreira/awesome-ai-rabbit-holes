@@ -1,0 +1,92 @@
+id: github__jasonwilbur__oci-pricing-mcp
+kind: github-repo
+name: oci-pricing-mcp
+canonical_url: https://github.com/jasonwilbur/oci-pricing-mcp
+identity:
+  github_repo: jasonwilbur/oci-pricing-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__jasonwilbur__oci-pricing-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
+        anchor_text: jasonwilbur/oci-pricing-mcp
+        extracted_url: https://github.com/jasonwilbur/oci-pricing-mcp
+        surrounding_text: "- [jasonwilbur/oci-pricing-mcp](https://github.com/jasonwilbur/oci-pricing-mcp) 📇 ☁️ - Oracle Cloud Infrastructure pricing data with 602 products, cost calculators, and cross-provider comparisons. One-command install for Claude."
+        confidence: high
+metadata:
+  github:
+    stars: 2
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2026-01-17T15:23:16Z"
+    pushed_at: "2026-02-11T20:21:24Z"
+    description: OCI Pricing MCP Server - Model Context Protocol server for Oracle Cloud Infrastructure pricing information
+    homepage: https://www.npmjs.com/package/oci-pricing-mcp
+    topics:
+      - ai
+      - claude
+      - cloud
+      - mcp
+      - model-context-protocol
+      - model-context-protocol-servers
+      - oci
+      - oracle
+      - pricing
+      - typescript
+    last_checked_at: "2026-05-05T21:02:52.256Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:52.256Z"
+      bytes: 10310
+insights:
+  summary: An MCP server that exposes Oracle Cloud Infrastructure pricing data to AI assistants for real-time cost estimation and cloud provider comparisons.
+  why_it_matters: Developers can ask Claude or other MCP-compatible assistants to instantly compare OCI compute, storage, and egress costs against AWS and Azure without leaving their chat window.
+  mental_damage: We have officially reached the point where we need a dedicated protocol server just to ask an AI how much a VM costs, because reading the actual price list has become an endangered skill.
+  tags:
+    - mcp
+    - oci
+    - cloud-pricing
+    - typescript
+    - cost-estimation
+  confidence: high
+curation:
+  status: included
+  reason: This is a first-party MCP server implementation that provides OCI pricing data to AI assistants, fitting cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description explicitly states: 'Model Context Protocol server for Oracle Cloud Infrastructure pricing information'"
+    - Included in the awesome-mcp-servers list under 'Server Implementations > Cloud Platforms'
+    - Provides 20+ MCP tools like get_pricing, compare_compute_shapes, and fetch_realtime_pricing for AI assistant integration
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.699Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:52.256Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:27:49.651Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

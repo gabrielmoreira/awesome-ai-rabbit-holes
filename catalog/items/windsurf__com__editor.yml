@@ -1,0 +1,76 @@
+id: windsurf__com__editor
+kind: website
+name: editor
+canonical_url: https://windsurf.com/editor
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__windsurf__com__editor__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 代码 Coding
+        anchor_text: Windsurf
+        extracted_url: https://codeium.com/windsurf
+        surrounding_text: 6. [Windsurf](https://codeium.com/windsurf)
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Windsurf Editor is an AI-native IDE that integrates coding agents and autonomous cloud agents directly into the development environment to assist with code generation, refactoring, and task delegation.
+  why_it_matters: It attempts to merge local coding assistance with cloud-based autonomous agents in a single interface, aiming to reduce context switching and keep developers in a continuous 'flow state'.
+  mental_damage: Just when you thought you had mastered the 'Cursor vs Copilot' workflow anxiety, we now have IDEs shipping with built-in Kanban boards to manage your robot subordinates so you can focus on 'the fun parts' like prompt engineering.
+  tags:
+    - ide
+    - coding-agent
+    - editor
+    - ai-workflow
+  confidence: high
+curation:
+  status: included
+  reason: The primary product surface is an AI-native editor and IDE, featuring integrated agents like Cascade and Devin, which fits the ai-ides-editors category specifically designed for development environments built around AI assistance.
+  evidence:
+    - Scraped site context describes it as 'The first agentic IDE' and 'Windsurf Editor is where the work of developers and AI truly flow together'.
+    - Features include an AI-native editor built from a VS Code fork, Cascade for codebase understanding, and Devin for cloud-based task delegation.
+    - Included in the awesome-LLM-resources list under the '代码 Coding' (Coding) section as an AI agent-powered IDE.
+placement:
+  primary_category: ai-ides-editors
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.731Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:49:17.447Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

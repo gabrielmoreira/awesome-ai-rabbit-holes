@@ -1,0 +1,81 @@
+id: github__marketplaceadpros__amazon-ads-mcp-server
+kind: github-repo
+name: amazon-ads-mcp-server
+canonical_url: https://github.com/marketplaceadpros/amazon-ads-mcp-server
+identity:
+  github_repo: marketplaceadpros/amazon-ads-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__marketplaceadpros__amazon-ads-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🎯 <a name="marketing"></a>Marketing
+        anchor_text: marketplaceadpros/amazon-ads-mcp-server
+        extracted_url: https://github.com/marketplaceadpros/amazon-ads-mcp-server
+        surrounding_text: "- [marketplaceadpros/amazon-ads-mcp-server](https://github.com/MarketplaceAdPros/amazon-ads-mcp-server) 📇 ☁️  - Enables tools to interact with Amazon Advertising, analyzing campaign metrics and configurations."
+        confidence: high
+metadata:
+  github:
+    stars: 21
+    forks: 8
+    license: MIT
+    archived: false
+    created_at: "2025-05-19T02:55:51Z"
+    pushed_at: "2025-05-21T06:33:00Z"
+    description: MCP Server to interact with Amazon Ads
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:03:30.044Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:30.044Z"
+      bytes: 3005
+insights:
+  summary: An MCP server that connects AI clients like Claude Desktop to Amazon Advertising data, enabling natural language queries of Sponsored Products, Brands, and Display campaigns.
+  why_it_matters: It allows developers working on ad-tech integrations to query Amazon Ads performance and manage campaigns directly through their existing MCP-compatible AI interfaces.
+  mental_damage: We have successfully abstracted advertising APIs so thoroughly that you can now tank your ROAS using conversational English in Claude Desktop.
+  tags:
+    - mcp
+    - amazon-ads
+    - marketing
+    - api-integration
+  confidence: high
+curation:
+  status: included
+  reason: The repository is explicitly an MCP server implementation for Amazon Ads, which fits the MCP infrastructure category.
+  evidence:
+    - "Repo description states: 'MCP Server to interact with Amazon Ads'."
+    - README confirms it provides MCP access to advertising resources and reports via npx or Streamable HTTP.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Marketing'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.705Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:30.044Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:35:46.465Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

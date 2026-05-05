@@ -1,0 +1,87 @@
+id: github__hostinger__api-mcp-server
+kind: github-repo
+name: api-mcp-server
+canonical_url: https://github.com/hostinger/api-mcp-server
+identity:
+  github_repo: hostinger/api-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__hostinger__api-mcp-server__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Hostinger
+        extracted_url: https://github.com/hostinger/api-mcp-server
+        surrounding_text: "- **[Hostinger](https://github.com/hostinger/api-mcp-server)** - Official [Hostinger API](https://developers.hostinger.com/) MCP server for services managment."
+        confidence: high
+metadata:
+  github:
+    stars: 87
+    forks: 41
+    license: MIT
+    archived: false
+    created_at: "2025-04-11T10:40:50Z"
+    pushed_at: "2026-05-04T06:59:34Z"
+    description: null
+    homepage: https://developers.hostinger.com
+    topics:
+      - ai
+      - api
+      - claude
+      - cursor
+      - hostinger
+      - mcp
+    last_checked_at: "2026-05-05T21:02:36.282Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:36.282Z"
+      bytes: 44778
+insights:
+  summary: An MCP server that exposes 118 Hostinger API tools (covering billing, DNS, domains, hosting, VPS, and reach) to Claude, Cursor, and other MCP-compatible AI clients.
+  why_it_matters: It lets developers manage Hostinger infrastructure through natural-language prompts in their AI coding environments instead of juggling separate dashboards and API docs.
+  mental_damage: Because the one thing your autonomous coding agent was clearly missing was the ability to accidentally delete your production VPS while you argue about variable naming.
+  tags:
+    - mcp
+    - hostinger
+    - api
+    - infrastructure
+    - cursor
+  confidence: high
+curation:
+  status: included
+  reason: The project is a Model Context Protocol server that exposes a specific API surface to MCP-compatible clients, which clearly fits the MCP Servers and Tooling category.
+  evidence:
+    - "README states: 'Model Context Protocol (MCP) server for Hostinger API' with 118 total tools across multiple binaries."
+    - Includes JSON configuration examples for Claude and Cursor and supports stdio and HTTP transports.
+    - Listed in the awesome-mcp-servers directory under 'Official Servers'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.696Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:36.282Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:24:23.764Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

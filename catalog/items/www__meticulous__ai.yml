@@ -1,0 +1,77 @@
+id: www__meticulous__ai
+kind: website
+name: www.meticulous.ai
+canonical_url: https://www.meticulous.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__meticulous__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Testing and QA
+        anchor_text: Meticulous
+        extracted_url: https://www.meticulous.ai
+        surrounding_text: "- **[Meticulous](https://www.meticulous.ai/)** – AI-driven visual and functional testing."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Meticulous is a frontend testing platform that records user interactions in development and staging environments to auto-generate and maintain visual end-to-end browser tests.
+  why_it_matters: It promises exhaustive regression coverage without the maintenance burden of manually written tests, fitting naturally into CI workflows for React, Vue, Angular, and SvelteKit applications.
+  mental_damage: We have successfully automated the creation of the tests we were too burnt out to write, meaning we can now ship AI-generated code at machine speed with a safety net we never have to look at.
+  tags:
+    - testing
+    - frontend
+    - visual-regression
+    - qa
+    - ci-cd
+  confidence: high
+curation:
+  status: included
+  reason: The product acts as a testing layer that extends a developer's workflow with AI-generated coverage, fitting the 'AI Developer Extensions and Skills' category rather than a primary coding agent.
+  evidence:
+    - Listed in awesome-ai-coding-tools under 'Testing and QA' as a tool that auto-generates and maintains visual frontend tests.
+    - Site claims the tool 'auto-generates and auto-maintains visual frontend browser tests' by recording sessions and replaying backend responses.
+    - Integrates into CI workflows and supports major frontend frameworks (NextJS, React, Vue, Angular, SvelteKit) via a recorder script.
+placement:
+  primary_category: ai-dev-extensions
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.733Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:51:59.678Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

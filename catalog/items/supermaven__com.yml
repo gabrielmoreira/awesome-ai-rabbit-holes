@@ -1,0 +1,76 @@
+id: supermaven__com
+kind: website
+name: supermaven.com
+canonical_url: https://supermaven.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__supermaven__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Code Editors and Assistants
+        anchor_text: Supermaven
+        extracted_url: https://supermaven.com
+        surrounding_text: "- **[Supermaven](https://supermaven.com/)** – Extremely fast AI code completion with low-latency, large-context responses."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Supermaven is an AI-powered code completion and chat tool that integrates with VS Code, JetBrains, and Neovim, featuring a large context window for understanding entire codebases.
+  why_it_matters: It promises faster, context-aware code suggestions and a developer-focused chat interface that can apply diffs and fix errors directly within your existing IDE workflow.
+  mental_damage: Just when you had your .cursorrules perfectly tuned, you now have to evaluate whether a 1-million-token context window is the upgrade that finally justifies explaining to your team why you're switching editors again.
+  tags:
+    - code-completion
+    - ide-plugin
+    - chat
+    - developer-tool
+  confidence: high
+curation:
+  status: included
+  reason: The product is a developer-facing coding assistant that provides code suggestions, chat, and error fixing directly inside the IDE workflow, fitting the coding-agents criteria.
+  evidence:
+    - Listed in awesome-ai-coding-tools under 'Code Editors and Assistants' as a copilot alternative.
+    - Primary page describes IDE integrations (VS Code, JetBrains, Neovim) with code completion and a chat interface to apply diffs.
+    - Claims to provide contextual suggestions by finding definitions elsewhere in the codebase using a 1M token context window.
+placement:
+  primary_category: coding-agents
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.730Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:48:31.039Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

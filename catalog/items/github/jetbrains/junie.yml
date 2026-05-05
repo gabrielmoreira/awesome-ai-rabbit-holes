@@ -1,0 +1,82 @@
+id: github__jetbrains__junie
+kind: github-repo
+name: junie
+canonical_url: https://github.com/jetbrains/junie
+identity:
+  github_repo: jetbrains/junie
+provenance:
+  discoveries:
+    - id: discovery__github__jetbrains__junie__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: scraped
+        section_path:
+          - Terminal-native coding agents
+          - Closed Source
+        anchor_text: Junie CLI
+        extracted_url: https://junie.jetbrains.com
+        surrounding_text: "- **[Junie CLI](https://junie.jetbrains.com)** `[JetBrains]` — JetBrains' LLM-agnostic CLI coding agent (EAP); supports GPT-5, Claude, Gemini, Grok with plan mode and CI/CD headless usage."
+        confidence: high
+metadata:
+  github:
+    stars: 227
+    forks: 10
+    license: NOASSERTION
+    archived: false
+    created_at: "2025-04-07T16:40:43Z"
+    pushed_at: "2026-05-05T20:26:38Z"
+    description: An AI coding agent by JetBrains that ships code from your terminal, IDE, or CI/CD pipeline - powered by any LLM you choose
+    homepage: https://junie.jetbrains.com
+    topics: []
+    last_checked_at: "2026-05-05T21:02:54.434Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:54.434Z"
+      bytes: 2922
+insights:
+  summary: An LLM-agnostic AI coding agent by JetBrains that operates via terminal, IDE, and CI/CD pipelines to handle tasks like bug fixing, feature implementation, and code review.
+  why_it_matters: It allows developers to delegate coding tasks across their existing workflow—from the command line to GitHub Actions—while retaining the flexibility to use their preferred LLM provider.
+  mental_damage: Just when you thought 'vibe coding' needed another vendor lock-in, JetBrains arrives to ensure your terminal, IDE, and CI pipeline are all politely judged by the same algorithm.
+  tags:
+    - coding-agent
+    - cli
+    - ide
+    - llm-agnostic
+    - jetbrains
+  confidence: high
+curation:
+  status: included
+  reason: The project is a developer-facing coding assistant that directly plans, writes, and reviews code inside the terminal, IDE, and CI/CD workflows, fitting the coding-agents category perfectly.
+  evidence:
+    - Repo description explicitly states it is 'An AI coding agent by JetBrains that ships code from your terminal, IDE, or CI/CD pipeline'.
+    - README excerpt confirms it handles tasks like fixing bugs, implementing features, and reviewing PRs directly in the repo.
+    - Already curated in the 'awesome-cli-coding-agents' list under 'Terminal-native coding agents'.
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (227) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.700Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:54.434Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:28:12.333Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

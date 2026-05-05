@@ -1,0 +1,77 @@
+id: ipfind__com
+kind: website
+name: ipfind.com
+canonical_url: https://ipfind.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__ipfind__com__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🗺️ <a name="location-services"></a>Location Services
+        anchor_text: IP Find
+        extracted_url: https://ipfind.com
+        surrounding_text: "- [ipfind/ipfind-mcp-server](https://github.com/ipfind/ipfind-mcp-server) 🐍 ☁️ - IP Address location service using the [IP Find](https://ipfind.com) API"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A web service providing a REST API for reverse IP address lookup, returning location, timezone, currency, and language data.
+  why_it_matters: It offers developers a simple, predictable HTTP endpoint to enrich IP data for general application logic without hosting their own GeoIP database.
+  mental_damage: Another essential utility API that will inevitably be replaced by a junior developer's weekend MCP server project, rendering this subscription obsolete.
+  tags:
+    - geoip
+    - api
+    - utility
+    - location
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a general-purpose GeoIP API service with no specific AI functionality, developer workflow integration, or AI-tooling angle required for this catalog.
+  evidence:
+    - The scraped site describes a standard REST API for IP location lookup, listing code samples for Ruby, PHP, JS, C#, and Python, with no mention of AI, agents, or LLM integration.
+    - It appears in awesome-mcp-servers only as a 'Location Services' example, but the product itself is a generic web API, not native MCP infrastructure or AI tooling.
+    - The catalog scope explicitly excludes general developer utilities and non-AI infrastructure, focusing instead on AI agents, workflows, and dev-facing AI products.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.728Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:45:38.303Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

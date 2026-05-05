@@ -1,0 +1,97 @@
+id: github__drhalto__agentmako
+kind: github-repo
+name: agentmako
+canonical_url: https://github.com/drhalto/agentmako
+identity:
+  github_repo: drhalto/agentmako
+provenance:
+  discoveries:
+    - id: discovery__github__drhalto__agentmako__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: drhalto/agentmako
+        extracted_url: https://github.com/drhalto/agentmako
+        surrounding_text: "- [drhalto/agentmako](https://github.com/drhalto/agentmako) [![drhalto/agentmako MCP server](https://glama.ai/mcp/servers/drhalto/agentmako/badges/score.svg)](https://glama.ai/mcp/servers/drhalto/agentmako) 📇 🏠 🍎 🪟 🐧 - Local-first codebase intelligence engine. Gives coding agents structured context packets, indexed code/schema facts, and diagnostics over MCP, backed by a local SQLite store — so agents stop rediscovering your repo with raw grep. Optional Postgres/Supabase awareness and a bundled Claude Code plugin."
+        confidence: high
+metadata:
+  github:
+    stars: 37
+    forks: 5
+    license: Apache-2.0
+    archived: false
+    created_at: "2026-04-26T01:47:38Z"
+    pushed_at: "2026-05-03T08:55:35Z"
+    description: Local-first MCP server that gives coding agents structured context packets, code/schema facts, and diagnostics - backed by a local SQLite store.
+    homepage: https://agentmako.drhalto.com
+    topics:
+      - ai-coding
+      - claude-code
+      - claude-code-plugin
+      - code-intelligence
+      - codex
+      - cursor
+      - developer-tools
+      - llm-tools
+      - local-first
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - opencode
+      - sqlite
+      - typescript
+      - vibecoding
+    last_checked_at: "2026-05-05T21:01:57.295Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:57.295Z"
+      bytes: 9938
+insights:
+  summary: A local-first MCP server that indexes codebases into a SQLite store to provide coding agents with structured context packets, code facts, and diagnostics.
+  why_it_matters: It stops agents from brute-forcing their way through a repo with raw grep by feeding them pre-indexed symbols, routes, and schema facts before they touch a single file.
+  mental_damage: We have officially reached the point where our AI assistants need their own dedicated knowledge graph just to remember which files they were supposed to be editing.
+  tags:
+    - mcp
+    - context-engineering
+    - local-first
+    - code-intelligence
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server providing context tooling for other agents, fitting cleanly into the MCP infrastructure category.
+  evidence:
+    - Repo description defines it as a 'Local-first MCP server' for coding agents.
+    - README states it gives agents a 'typed MCP toolset' via `agentmako mcp`.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.685Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:57.295Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:17:10.833Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

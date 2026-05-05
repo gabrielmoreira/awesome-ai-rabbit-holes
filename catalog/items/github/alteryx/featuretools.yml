@@ -1,0 +1,90 @@
+id: github__alteryx__featuretools
+kind: github-repo
+name: featuretools
+canonical_url: https://github.com/alteryx/featuretools
+identity:
+  github_repo: alteryx/featuretools
+provenance:
+  discoveries:
+    - id: discovery__github__featuretools__featuretools__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Data
+          - Feature Engineering
+        anchor_text: FeatureTools
+        extracted_url: https://github.com/featuretools/featuretools
+        surrounding_text: "| [FeatureTools](https://github.com/Featuretools/featuretools) | An open source python framework for automated feature engineering                       | ![GitHub Badge](https://img.shields.io/github/stars/Featuretools/featuretools.svg?style=flat-square) |"
+        confidence: high
+metadata:
+  github:
+    stars: 7634
+    forks: 906
+    license: BSD-3-Clause
+    archived: false
+    created_at: "2017-09-08T22:15:17Z"
+    pushed_at: "2026-02-03T18:19:45Z"
+    description: An open source python library for automated feature engineering
+    homepage: https://www.featuretools.com
+    topics:
+      - automated-feature-engineering
+      - automated-machine-learning
+      - automl
+      - data-science
+      - feature-engineering
+      - machine-learning
+      - python
+      - scikit-learn
+    last_checked_at: "2026-05-05T21:01:01.675Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:01.675Z"
+      bytes: 11163
+insights:
+  summary: Featuretools is an open-source Python library that automates feature engineering for machine learning by applying deep feature synthesis across multi-table datasets.
+  why_it_matters: It allows developers building ML pipelines to automatically generate complex feature sets from relational data without hand-crafting transformations.
+  mental_damage: Yet another library promising to automate the data scientist out of a job, right up until the model fails and you have to reverse-engineer exactly what Deep Feature Synthesis did to your schema.
+  tags:
+    - feature-engineering
+    - automl
+    - python
+    - machine-learning
+    - data-science
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a traditional data science and machine learning library for feature engineering, not a developer-facing AI tool, agent, or infrastructure component.
+  evidence:
+    - Repo description states it is 'An open source python library for automated feature engineering'
+    - Topics and README focus on ML workflows (AutoML, scikit-learn, DFS) rather than coding agents or developer tooling
+    - No source-list context indicates it appears in developer-tooling or coding-agent awesome lists
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (7634) exceeded threshold (150)
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:07:52.170Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.687Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:01.675Z"
+    cause: null
+    next_retry_at: null

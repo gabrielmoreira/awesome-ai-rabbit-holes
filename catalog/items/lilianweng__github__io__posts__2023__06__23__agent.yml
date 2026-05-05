@@ -1,0 +1,79 @@
+id: lilianweng__github__io__posts__2023__06__23__agent
+kind: website
+name: 2023-06-23-agent
+canonical_url: https://lilianweng.github.io/posts/2023-06-23-agent
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__lilianweng__github__io__posts__2023__06__23__agent__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - ChemCrow
+          - Description
+        anchor_text: Weng, Lilian. (Jun 2023). LLM-powered Autonomous Agents". Lil’Log. https://lilianweng.github.io/posts/2023-06-23-agent/.
+        extracted_url: https://lilianweng.github.io/posts/2023-06-23-agent
+        surrounding_text: "- The LLM is provided with a list of tool names, descriptions of their utility, and details about the expected input/output. It is then instructed to answer a user-given prompt using the tools provided when necessary. The instruction suggests the model to follow the ReAct format - Thought, Action, Action Input, Observation. One interesting observation is that while the LLM-based evaluation concluded that GPT-4 and ChemCrow perform nearly equivalently, human evaluations with experts oriented towards the completion and chemical correctness of the solutions showed that ChemCrow outperforms GPT-4 by a large margin. This indicates a potential problem with using LLM to evaluate its own performance on domains that requires deep expertise. The lack of expertise may cause LLMs not knowing its flaws and thus cannot well judge the correctness of task results. (Source: [Weng, Lilian. (Jun 2023). LLM-powered Autonomous Agents\". Lil’Log. https://lilianweng.github.io/posts/2023-06-23-agent/.](https://lilianweng.github.io/posts/2023-06-23-agent/))"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A long-form technical blog post by Lilian Weng that decomposes the architecture of LLM-powered autonomous agents into planning, memory, and tool-use components.
+  why_it_matters: It remains a foundational reference for developers building agentic workflows, outlining the system design patterns behind tools like AutoGPT and ChemCrow.
+  mental_damage: The definitive map of the rabbit hole we all read once, nodded along to, and then immediately forgot when the next shiny agent framework dropped.
+  tags:
+    - agents
+    - llm
+    - research
+    - architecture
+  confidence: high
+curation:
+  status: excluded
+  reason: This is an educational article and conceptual overview, not a developer tool, SDK, or product that can be installed or used in a workflow.
+  evidence:
+    - The source is a blog post (lilianweng.github.io) titled 'LLM Powered Autonomous Agents', not a software repository or tool.
+    - The content describes theory, architectures (ReAct, Reflexion), and case studies rather than providing executable code or a service.
+    - It appears in 'awesome-ai-agents' as a reference link under a 'Description' section, not as a standalone tool entry.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.728Z"
+    cause:
+      type: ambiguous_canonicalization
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:45:55.347Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

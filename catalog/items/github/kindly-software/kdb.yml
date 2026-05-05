@@ -1,0 +1,81 @@
+id: github__kindly-software__kdb
+kind: github-repo
+name: kdb
+canonical_url: https://github.com/kindly-software/kdb
+identity:
+  github_repo: kindly-software/kdb
+provenance:
+  discoveries:
+    - id: discovery__github__kindly-software__kdb__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: kindly-software/kdb
+        extracted_url: https://github.com/kindly-software/kdb
+        surrounding_text: "- [kindly-software/kdb](https://github.com/kindly-software/kdb) 🦀 ☁️ - AI-powered time-travel debugger with bidirectional execution replay, audit-compliant hash-chain logging, and SIMD-accelerated stack unwinding. Free Hobby tier available."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 1
+    license: NOASSERTION
+    archived: false
+    created_at: "2025-12-05T19:56:42Z"
+    pushed_at: "2025-12-12T14:30:26Z"
+    description: Kindly Debugger - Time-Travel Debugging for AI Workflows
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:03:06.128Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:06.128Z"
+      bytes: 4031
+insights:
+  summary: An MCP server that provides time-travel debugging capabilities, allowing AI assistants to step forward and backward through program execution to diagnose crashes.
+  why_it_matters: It shifts debugging from reading stack traces to letting an AI agent rewind live process state and suggest fixes directly inside your editor.
+  mental_damage: We have finally invented a debugger that can undo the timeline, yet we still haven't figured out how to make the AI stop rewinding past the point where we introduced the bug in the first place.
+  tags:
+    - mcp
+    - debugging
+    - time-travel
+    - developer-tools
+  confidence: high
+curation:
+  status: included
+  reason: The repository is explicitly an MCP server providing debugging tools for AI clients like Claude Code and Cursor, which fits cleanly under MCP Servers and Tooling.
+  evidence:
+    - "Repo description states: 'Kindly Debugger - Time-Travel Debugging for AI Workflows'"
+    - README details MCP configuration for Claude Code and Cursor and lists MCP tools like debugger_step_backward
+    - Listed in awesome-mcp-servers under 'Developer Tools' section
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.701Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:06.128Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:30:48.791Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

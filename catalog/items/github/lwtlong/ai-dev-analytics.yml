@@ -1,0 +1,82 @@
+id: github__lwtlong__ai-dev-analytics
+kind: github-repo
+name: ai-dev-analytics
+canonical_url: https://github.com/lwtlong/ai-dev-analytics
+identity:
+  github_repo: lwtlong/ai-dev-analytics
+provenance:
+  discoveries:
+    - id: discovery__github__lwtlong__ai-dev-analytics__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: LWTlong/ai-dev-analytics
+        extracted_url: https://github.com/lwtlong/ai-dev-analytics
+        surrounding_text: "- [LWTlong/ai-dev-analytics](https://github.com/LWTlong/ai-dev-analytics) [![glama.ai](https://glama.ai/mcp/servers/LWTlong/ai-dev-analytics/badges/score.svg)](https://glama.ai/mcp/servers/LWTlong/ai-dev-analytics) 📇 🏠 - An open-source observability layer for AI coding. Silently tracks dev tokens/time and auto-codifies AI deviations into persistent project rules."
+        confidence: high
+metadata:
+  github:
+    stars: 7
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2026-03-11T13:02:11Z"
+    pushed_at: "2026-04-29T08:01:41Z"
+    description: An open-source AI coding observability layer. Silently tracks vibe coding sessions via MCP and codifies AI deviations into project rules. 100% local.
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:03:26.249Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:26.249Z"
+      bytes: 16556
+insights:
+  summary: An open-source MCP server that silently tracks vibe coding sessions locally and visualizes deviations in a dashboard to codify patterns into project rules.
+  why_it_matters: It gives developers structured visibility into AI coding behaviors and automatically converts recurring deviations into reusable project rules to improve future outputs.
+  mental_damage: Your AI assistant is now so unpredictable that you need a local observability stack just to figure out why it keeps writing the layout upside down.
+  tags:
+    - mcp
+    - observability
+    - local-first
+    - rules
+    - vibe-coding
+  confidence: medium
+curation:
+  status: included
+  reason: The product is itself an MCP server that provides observability and rule-generation tooling, fitting cleanly into MCP infrastructure rather than being a generic coding agent.
+  evidence:
+    - Repo description explicitly states it 'tracks vibe coding sessions via MCP' and is '100% local'.
+    - README shows it is configured as an MCP server in .mcp.json and integrates with Cursor, VS Code, Windsurf, and Lingma.
+    - Listed under 'Server Implementations > Developer Tools' in awesome-mcp-servers, confirming its MCP server identity.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.705Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:26.249Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:35:03.949Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,78 @@
+id: localhost__3000
+kind: website
+name: localhost:3000
+canonical_url: http://localhost:3000
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__localhost__3000__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: Flipt
+        extracted_url: https://flipt.io
+        surrounding_text: "- [flipt-io/mcp-server-flipt](https://github.com/flipt-io/mcp-server-flipt) 📇 🏠 - Enable AI assistants to interact with your feature flags in [Flipt](https://flipt.io)."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Flipt is a self-hosted, Git-native feature flag platform that uses an intuitive UI to toggle deployments and automatically syncs changes to Git.
+  why_it_matters: It allows engineering teams to manage feature rollouts and rollbacks through a UI that enforces standard Git workflows like pull requests and code reviews, removing the fear of breaking production.
+  mental_damage: We have successfully abstracted feature flags into a UI that writes Git commits, so now we can accidentally toggle production off with a mouse click instead of a carefully crafted YAML file.
+  tags:
+    - feature-flags
+    - self-hosted
+    - git-native
+    - devops
+    - deployment
+  confidence: high
+curation:
+  status: excluded
+  reason: Flipt is a general developer infrastructure tool for feature flagging and deployment safety, but it lacks a specific AI component or AI-driven workflow required for this curated catalog.
+  evidence:
+    - Scraped site context describes it as a 'Git-native feature flag platform' with no mention of AI, agents, or LLM integration.
+    - Source list context places it in 'awesome-mcp-servers' under 'Developer Tools', but the tool itself is a standard feature toggle system, not an AI tool.
+    - Inputs show no repo description, stars, or code indicating AI functionality; it is purely a deployment safety tool.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.725Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:46:03.226Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

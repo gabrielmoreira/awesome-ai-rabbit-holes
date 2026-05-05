@@ -1,0 +1,86 @@
+id: github__mcpdotdirect__starknet-mcp-server
+kind: github-repo
+name: starknet-mcp-server
+canonical_url: https://github.com/mcpdotdirect/starknet-mcp-server
+identity:
+  github_repo: mcpdotdirect/starknet-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__mcpdotdirect__starknet-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: mcpdotdirect/starknet-mcp-server
+        extracted_url: https://github.com/mcpdotdirect/starknet-mcp-server
+        surrounding_text: "- [mcpdotdirect/starknet-mcp-server](https://github.com/mcpdotdirect/starknet-mcp-server) 📇 ☁️ - Comprehensive Starknet blockchain integration with support for native tokens (ETH, STRK), smart contracts, StarknetID resolution, and token transfers."
+        confidence: high
+metadata:
+  github:
+    stars: 5
+    forks: 4
+    license: MIT
+    archived: false
+    created_at: "2025-03-10T21:36:26Z"
+    pushed_at: "2025-11-26T17:16:07Z"
+    description: "MCP server that provides LLM with tools for interacting with Starknet "
+    homepage: ""
+    topics:
+      - agent
+      - blockchain
+      - mcp
+      - mcp-server
+      - starknet
+    last_checked_at: "2026-05-05T21:03:33.380Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:33.380Z"
+      bytes: 19156
+insights:
+  summary: An MCP server that exposes Starknet blockchain interactions—such as querying state, managing wallets, and executing smart contracts—as tools for LLM agents.
+  why_it_matters: It allows AI agents to reliably perform Starknet operations via natural language, bridging blockchain development workflows with MCP-compatible assistants.
+  mental_damage: We’ve successfully built an MCP server so your AI can lose funds on Starknet with the same effortless confidence it already loses context in 40k-token windows.
+  tags:
+    - mcp
+    - blockchain
+    - starknet
+    - agent-tools
+  confidence: medium
+curation:
+  status: included
+  reason: The project is a standalone MCP server implementation that provides blockchain tools for AI agents, fitting cleanly into MCP infrastructure.
+  evidence:
+    - "Repo description explicitly states: 'MCP server that provides LLM with tools for interacting with Starknet'."
+    - README confirms it is a 'comprehensive Model Context Protocol (MCP) server for the Starknet blockchain'.
+    - Listed in awesome-mcp-servers under Server Implementations > Finance & Fintech.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.706Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:33.380Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:36:27.670Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

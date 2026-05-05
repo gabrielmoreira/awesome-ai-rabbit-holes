@@ -1,0 +1,75 @@
+id: beam__ai
+kind: website
+name: beam.ai
+canonical_url: https://beam.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__beam__ai__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Beam
+        anchor_text: Beam
+        extracted_url: https://beam.ai
+        surrounding_text: "## [Beam](https://beam.ai/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Beam is listed as an autonomous AI agent within the awesome-ai-agents ecosystem.
+  why_it_matters: It represents the trend of autonomous agents capable of handling complex tasks without constant developer intervention.
+  mental_damage: Yet another autonomous agent promising to 'think' for you, ensuring you can worry about prompt engineering instead of the code itself.
+  tags:
+    - agents
+    - autonomous
+    - workflow
+  confidence: low
+curation:
+  status: excluded
+  reason: Included in an agent list but lacks a GitHub repo, description, or site context to verify it is a practical, developer-facing tool rather than a generic service.
+  evidence:
+    - Listed under 'Beam' in the awesome-ai-agents directory section.
+    - No repo description, README, or scraped site context provided to confirm developer utility.
+    - No code repository, license, or activity data available for verification.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.726Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:42:26.878Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

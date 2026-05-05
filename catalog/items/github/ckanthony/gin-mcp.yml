@@ -1,0 +1,82 @@
+id: github__ckanthony__gin-mcp
+kind: github-repo
+name: gin-mcp
+canonical_url: https://github.com/ckanthony/gin-mcp
+identity:
+  github_repo: ckanthony/gin-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__ckanthony__gin-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: ckanthony/gin-mcp
+        extracted_url: https://github.com/ckanthony/gin-mcp
+        surrounding_text: "- [ckanthony/gin-mcp](https://github.com/ckanthony/gin-mcp) 🏎️ ☁️ 📟 🪟 🐧 🍎 - A zero-configuration Go library to automatically expose existing Gin web framework APIs as MCP tools."
+        confidence: high
+metadata:
+  github:
+    stars: 77
+    forks: 18
+    license: MIT
+    archived: false
+    created_at: "2025-04-17T17:27:12Z"
+    pushed_at: "2026-03-19T17:34:51Z"
+    description: Enable MCP features for any Gin API with a line of code
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:01:34.655Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:34.655Z"
+      bytes: 18161
+insights:
+  summary: A zero-configuration Go library that automatically exposes existing Gin API endpoints as Model Context Protocol (MCP) tools with a single line of code.
+  why_it_matters: It allows Go developers using the Gin framework to instantly make their APIs available to MCP-compatible clients like Cursor and Claude without writing boilerplate integration code.
+  mental_damage: Because nothing says 'modern backend development' like wrapping your REST API in three layers of abstraction just so an LLM can theoretically call your /ping endpoint.
+  tags:
+    - go
+    - gin
+    - mcp
+    - middleware
+    - api
+  confidence: high
+curation:
+  status: included
+  reason: The project is a developer-facing library that provides MCP infrastructure by bridging the Gin framework to the Model Context Protocol, fitting the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description states: 'Enable MCP features for any Gin API with a line of code'"
+    - README explicitly describes it as a library that exposes Gin endpoints as 'Model Context Protocol (MCP) tools'
+    - Listed in 'awesome-mcp-servers' under Server Implementations > Developer Tools
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.682Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:34.655Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:13:16.525Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

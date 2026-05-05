@@ -1,0 +1,100 @@
+id: github__microsoft__flaml
+kind: github-repo
+name: flaml
+canonical_url: https://github.com/microsoft/flaml
+identity:
+  github_repo: microsoft/flaml
+provenance:
+  discoveries:
+    - id: discovery__github__microsoft__flaml__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - AutoML
+        anchor_text: FLAML
+        extracted_url: https://github.com/microsoft/flaml
+        surrounding_text: "| [FLAML](https://github.com/microsoft/FLAML)                                  | Fast and lightweight AutoML ([paper](https://www.microsoft.com/en-us/research/publication/flaml-a-fast-and-lightweight-automl-library/)).                                       | ![GitHub Badge](https://img.shields.io/github/stars/microsoft/FLAML.svg?style=flat-square)                 |"
+        confidence: high
+metadata:
+  github:
+    stars: 4342
+    forks: 560
+    license: MIT
+    archived: false
+    created_at: "2020-08-20T20:46:11Z"
+    pushed_at: "2026-05-05T04:53:46Z"
+    description: "A fast library for AutoML and tuning. Join our Discord: https://discord.gg/Cppx2vSPVP."
+    homepage: https://microsoft.github.io/FLAML/
+    topics:
+      - automated-machine-learning
+      - automl
+      - classification
+      - data-science
+      - deep-learning
+      - finetuning
+      - hyperparam
+      - hyperparameter-optimization
+      - jupyter-notebook
+      - machine-learning
+      - natural-language-generation
+      - natural-language-processing
+      - python
+      - random-forest
+      - regression
+      - scikit-learn
+      - tabular-data
+      - timeseries-forecasting
+      - tuning
+    last_checked_at: "2026-05-05T21:03:38.372Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:38.372Z"
+      bytes: 7409
+insights:
+  summary: FLAML is a lightweight Python library from Microsoft Research for economical AutoML and hyperparameter tuning across ML models, LLM inference configurations, and custom evaluation functions.
+  why_it_matters: It lets developers automate model selection and hyperparameter optimization with minimal code while enforcing resource constraints, bridging ML workflows and LLMOps tuning.
+  mental_damage: Because nothing says modern developer productivity like installing a library to automate the very intuition you’re afraid you never had in the first place.
+  tags:
+    - automl
+    - hyperparameter-tuning
+    - mlops
+    - python
+    - microsoft
+  confidence: high
+curation:
+  status: excluded
+  reason: FLAML is a general AutoML and hyperparameter optimization library for data science workflows, lacking a direct developer-tooling angle focused on coding agents, app building, or AI IDE workflows.
+  evidence:
+    - Repo description explicitly calls it 'A fast library for AutoML and tuning.'
+    - README positions it as a scikit-learn-style estimator and generic tuning tool for ML models and LLM inference hyperparameters, not developer coding workflows.
+    - Appears in Awesome-LLMOps under AutoML, which reinforces its ML/MLOps scope rather than developer tooling.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (4342) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.706Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:38.372Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:37:28.557Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,81 @@
+id: github__aytuncyildizli__legends-mcp
+kind: github-repo
+name: legends-mcp
+canonical_url: https://github.com/aytuncyildizli/legends-mcp
+identity:
+  github_repo: aytuncyildizli/legends-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__cryptosquanch__legends-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: cryptosquanch/legends-mcp
+        extracted_url: https://github.com/cryptosquanch/legends-mcp
+        surrounding_text: "- [cryptosquanch/legends-mcp](https://github.com/cryptosquanch/legends-mcp) 📇 🏠 🍎 🪟 🐧 - Chat with 36 legendary founders & investors (Elon Musk, Warren Buffett, Steve Jobs, CZ). AI personas with authentic voices, frameworks, and principles. No API key required."
+        confidence: high
+metadata:
+  github:
+    stars: 4
+    forks: 2
+    license: MIT
+    archived: false
+    created_at: "2025-12-24T13:32:28Z"
+    pushed_at: "2025-12-27T18:14:19Z"
+    description: Chat with legendary founders & investors via MCP. No API key required!
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:01:16.229Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:16.228Z"
+      bytes: 11400
+insights:
+  summary: An MCP server that lets developers chat with simulated personas of famous founders and investors inside Claude Code, operating without an API key.
+  why_it_matters: It provides a local MCP integration that augments the developer's assistant with domain-specific 'characters' for startup strategy and product advice directly in the coding environment.
+  mental_damage: We have reached the point where we are meticulously injecting simulated venture capitalists into our IDEs to roast our product designs, just in case the real ones weren't enough of a rejection trigger.
+  tags:
+    - mcp
+    - claude-code
+    - simulation
+    - personas
+  confidence: medium
+curation:
+  status: included
+  reason: The project is explicitly an MCP server ('legends-mcp') designed to integrate legendary personas into Claude Code via the Model Context Protocol.
+  evidence:
+    - "Repo description states: 'Chat with legendary founders & investors via MCP.'"
+    - README setup instructions configure it as an MCP server in Claude Code settings.
+    - The package is distributed as 'legends-mcp' on npm specifically for MCP compatibility.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:10:01.286Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.683Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:16.229Z"
+    cause: null
+    next_retry_at: null

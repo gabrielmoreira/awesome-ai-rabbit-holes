@@ -1,0 +1,82 @@
+id: github__ipfred__aiwen-mcp-server-geoip
+kind: github-repo
+name: aiwen-mcp-server-geoip
+canonical_url: https://github.com/ipfred/aiwen-mcp-server-geoip
+identity:
+  github_repo: ipfred/aiwen-mcp-server-geoip
+provenance:
+  discoveries:
+    - id: discovery__github__ipfred__aiwen-mcp-server-geoip__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🗺️ <a name="location-services"></a>Location Services
+        anchor_text: ipfred/aiwen-mcp-server-geoip
+        extracted_url: https://github.com/ipfred/aiwen-mcp-server-geoip
+        surrounding_text: "- [ipfred/aiwen-mcp-server-geoip](https://github.com/ipfred/aiwen-mcp-server-geoip) 🐍 📇 ☁️ – MCP Server for the Aiwen IP Location, Get user network IP location, get IP details (country, province, city, lat, lon, ISP, owner, etc.)"
+        confidence: high
+metadata:
+  github:
+    stars: 5
+    forks: 4
+    license: null
+    archived: false
+    created_at: "2025-05-06T07:59:28Z"
+    pushed_at: "2025-05-28T02:50:27Z"
+    description: 埃文IP定位MCP
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:46.209Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:46.209Z"
+      bytes: 5360
+insights:
+  summary: An MCP server that exposes Aiwen's IP geolocation, whois, risk profiling, and traffic analysis APIs for use in AI coding assistants like Cursor and VS Code.
+  why_it_matters: Developers can pipe IP intelligence—location, risk, and ISP data—directly into AI agent workflows without wiring API calls by hand.
+  mental_damage: "We have finally achieved the future: your coding agent can now tell you the street address of a botnet attacker while still failing to center a div."
+  tags:
+    - mcp
+    - ip-geolocation
+    - networking
+    - cursor
+    - vscode
+  confidence: high
+curation:
+  status: included
+  reason: This is a purpose-built MCP server that adds external IP intelligence tooling to AI developer environments, which fits cleanly under MCP infrastructure.
+  evidence:
+    - Repo description explicitly states '埃文IP定位MCP' (Aiwen IP Location MCP).
+    - README provides MCP server config examples for Cursor and VS Code.
+    - Listed under 'Server Implementations > Location Services' in awesome-mcp-servers.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.698Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:46.209Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:26:26.439Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

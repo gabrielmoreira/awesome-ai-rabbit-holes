@@ -1,0 +1,77 @@
+id: mistral__ai__news__codestral
+kind: website
+name: codestral
+canonical_url: https://mistral.ai/news/codestral
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__mistral__ai__news__codestral__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Code Models
+        anchor_text: Codestral
+        extracted_url: https://mistral.ai/news/codestral
+        surrounding_text: "- **[Codestral](https://mistral.ai/news/codestral)** – Mistral's open-weight model designed for code generation."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Codestral is a 22B open-weight language model from Mistral AI specifically trained for code generation, supporting over 80 programming languages with instruction, completion, and fill-in-the-middle capabilities.
+  why_it_matters: It provides a fast, high-context (32k) model option for IDE integrations like Continue.dev and Tabnine, as well as a backend for building AI coding applications via API or self-deployment.
+  mental_damage: Another 'write code like a human' model launch, just in time to add a third option to the dropdown menu you've been ignoring while writing the prompt instead of the code.
+  tags:
+    - code-model
+    - llm
+    - mistral
+    - ide-integration
+    - open-weight
+  confidence: high
+curation:
+  status: included
+  reason: This is a foundational model and API endpoint used to build other tools or power coding assistants, fitting the AI Frameworks and SDKs category as a building block rather than a standalone coding agent or IDE.
+  evidence:
+    - Described as a '22B open-weight generative AI model explicitly designed for code generation tasks' with instruct and FIM endpoints.
+    - Available via API (codestral.mistral.ai) and downloadable on HuggingFace for self-deployment.
+    - Integrated into frameworks like LangChain/LlamaIndex and IDE tools like Continue.dev and Tabnine as the underlying intelligence.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.729Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:46:40.404Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

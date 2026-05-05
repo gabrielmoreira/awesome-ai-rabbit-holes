@@ -1,0 +1,89 @@
+id: github__erebusenigma__context-memory
+kind: github-repo
+name: context-memory
+canonical_url: https://github.com/erebusenigma/context-memory
+identity:
+  github_repo: erebusenigma/context-memory
+provenance:
+  discoveries:
+    - id: discovery__github__erebusenigma__context-memory__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: ErebusEnigma/context-memory
+        extracted_url: https://github.com/erebusenigma/context-memory
+        surrounding_text: "- [ErebusEnigma/context-memory](https://github.com/ErebusEnigma/context-memory) 🐍 🏠 🍎 🪟 🐧 - Persistent, searchable context storage across Claude Code sessions using SQLite FTS5. Save sessions with AI-generated summaries, two-tier full-text search, checkpoint recovery, and a web dashboard."
+        confidence: high
+metadata:
+  github:
+    stars: 4
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2026-02-12T08:12:38Z"
+    pushed_at: "2026-02-17T21:31:25Z"
+    description: Persistent, searchable context storage across Claude Code sessions using SQLite + FTS5
+    homepage: ""
+    topics:
+      - claude-code
+      - claude-code-plugin
+      - context
+      - full-text-search
+      - memory
+      - plugin
+      - sqlite
+    last_checked_at: "2026-05-05T21:02:03.468Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:03.468Z"
+      bytes: 19538
+insights:
+  summary: A SQLite-backed memory plugin for Claude Code that persists session context, decisions, and code snippets across terminal sessions with full-text search.
+  why_it_matters: It eliminates the ephemeral nature of Claude Code sessions by allowing developers to recall past debugging sessions, architectural decisions, and code patterns months after they happened.
+  mental_damage: We have finally solved the problem of Claude forgetting everything by building a database to remember everything, which means we can now spend even more time debugging the same auth bug across an infinite timeline.
+  tags:
+    - claude-code
+    - memory
+    - plugin
+    - sqlite
+    - context
+  confidence: high
+curation:
+  status: included
+  reason: This is a host-side integration that extends Claude Code with a memory layer, fitting the AI Developer Extensions category rather than being a primary coding agent itself.
+  evidence:
+    - Repo description explicitly states it is 'Persistent, searchable context storage across Claude Code sessions'
+    - "README confirms it is a plugin/extension: 'context-memory fixes this' for Claude Code's ephemeral sessions"
+    - Topics include 'claude-code-plugin' and it is listed in awesome-mcp-servers under Knowledge & Memory
+placement:
+  primary_category: ai-dev-extensions
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.686Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:03.468Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:18:14.542Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

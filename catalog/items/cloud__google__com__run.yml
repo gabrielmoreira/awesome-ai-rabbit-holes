@@ -1,0 +1,76 @@
+id: cloud__google__com__run
+kind: website
+name: run
+canonical_url: https://cloud.google.com/run
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__cloud__google__com__run__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Google Cloud Run
+        extracted_url: https://cloud.google.com/run
+        surrounding_text: "- **[Google Cloud Run](https://github.com/GoogleCloudPlatform/cloud-run-mcp)** - Official MCP Server to deploy to [Google Cloud Run](https://cloud.google.com/run)."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Google Cloud Run is a managed compute platform for deploying and scaling containerized applications.
+  why_it_matters: It provides the serverless infrastructure backbone that many AI apps and agents are deployed on, abstracting away the underlying Kubernetes cluster management.
+  mental_damage: We've reached a point where even the infrastructure that runs our AI tools is being listed as an AI tool, shortening the feedback loop of recursive complexity.
+  tags:
+    - cloud
+    - infrastructure
+    - serverless
+    - google-cloud
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a general-purpose cloud infrastructure product (serverless containers), not a developer-facing AI tool, agent, or workflow product.
+  evidence:
+    - URL points to cloud.google.com/run, identifying it as Google Cloud Run, a standard container hosting service.
+    - Source-list context shows it is only listed in awesome-mcp-servers as an 'Official Server', likely referring to a specific MCP connector rather than the core product.
+    - No evidence in the inputs suggests it is an AI-native coding assistant, agent, or app builder.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.726Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:43:01.597Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

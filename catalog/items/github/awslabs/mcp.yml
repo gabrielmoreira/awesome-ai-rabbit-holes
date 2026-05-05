@@ -1,0 +1,105 @@
+id: github__awslabs__mcp
+kind: github-repo
+name: mcp
+canonical_url: https://github.com/awslabs/mcp
+identity:
+  github_repo: awslabs/mcp
+provenance:
+  discoveries:
+    - id: discovery__github__awslabs__mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
+        anchor_text: awslabs/mcp
+        extracted_url: https://github.com/awslabs/mcp
+        surrounding_text: "- [awslabs/mcp](https://github.com/awslabs/mcp) 🎖️ ☁️ - AWS MCP servers for seamless integration with AWS services and resources."
+        confidence: high
+    - id: discovery__github__awslabs__mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: AWS Bedrock KB Retrieval
+        extracted_url: https://github.com/awslabs/mcp
+        surrounding_text: "- **[AWS Bedrock KB Retrieval](https://github.com/awslabs/mcp/tree/main/src/bedrock-kb-retrieval-mcp-server)** - Query Amazon Bedrock Knowledge Bases using natural language to retrieve relevant information from your data sources."
+        confidence: high
+metadata:
+  github:
+    stars: 8964
+    forks: 1500
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-03-21T00:39:00Z"
+    pushed_at: "2026-05-05T20:32:44Z"
+    description: Official MCP Servers for AWS
+    homepage: https://awslabs.github.io/mcp/
+    topics:
+      - aws
+      - mcp
+      - mcp-client
+      - mcp-clients
+      - mcp-host
+      - mcp-server
+      - mcp-servers
+      - mcp-tools
+      - modelcontextprotocol
+    last_checked_at: "2026-05-05T21:01:14.829Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:14.829Z"
+      bytes: 185437
+insights:
+  summary: A suite of official AWS MCP servers and supporting tooling maintained by AWS Labs to connect AI assistants with AWS services.
+  why_it_matters: It lets AI coding agents and IDEs directly read AWS docs, manage infrastructure, and operate on cloud resources through a standardized protocol.
+  mental_damage: Now your AI can confidently misconfigure your entire AWS account with the full, official blessing of the cloud provider.
+  tags:
+    - aws
+    - mcp
+    - server
+    - cloud
+  confidence: high
+curation:
+  status: included
+  reason: This is official MCP infrastructure from AWS Labs, providing the servers and tooling that define the category itself.
+  evidence:
+    - Repo description explicitly states 'Official MCP Servers for AWS'.
+    - README details a suite of specialized MCP servers for AWS services with integrations for Claude Code, Cursor, Cline, and VS Code.
+    - Actively maintained with a recent push date (2026-05-05) and high traction (8964 stars).
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (8964) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.663Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:14.829Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:09:52.135Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

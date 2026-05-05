@@ -1,0 +1,88 @@
+id: github__babelcloud__gbox
+kind: github-repo
+name: gru-sandbox
+canonical_url: https://github.com/babelcloud/gbox
+identity:
+  github_repo: babelcloud/gbox
+provenance:
+  discoveries:
+    - id: discovery__github__babelcloud__gru-sandbox__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: Gru Sandbox
+        extracted_url: https://github.com/babelcloud/gru-sandbox
+        surrounding_text: "- **[Gru Sandbox](https://github.com/babelcloud/gru-sandbox)** - Gru-sandbox(gbox) is an open source project that provides a self-hostable sandbox for MCP integration or other AI agent usecases."
+        confidence: high
+metadata:
+  github:
+    stars: 174
+    forks: 49
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-03-19T04:07:56Z"
+    pushed_at: "2026-02-11T02:26:05Z"
+    description: Cli and MCP for gbox. Enable AI agents to operate Android/Browser/Desktop like human.
+    homepage: https://gbox.ai
+    topics:
+      - agent
+      - android
+      - browser
+      - desktop
+      - linux
+      - mcp
+      - sandbox
+    last_checked_at: "2026-05-05T21:01:16.406Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:16.406Z"
+      bytes: 6716
+insights:
+  summary: A CLI and MCP server that provides AI agents with sandboxed environments to operate Android devices, Linux desktops, and browsers.
+  why_it_matters: It allows coding agents like Claude Code and Cursor to move beyond text generation and directly interact with mobile and desktop UIs to develop, test, and automate tasks.
+  mental_damage: Your agent can now argue that it couldn't fix the bug because the Android emulator was feeling a bit laggy today.
+  tags:
+    - mcp
+    - sandbox
+    - agent-infrastructure
+    - android
+    - automation
+  confidence: high
+curation:
+  status: included
+  reason: The project's primary distribution mechanism is a CLI that exposes device environments specifically as an MCP server for integration with editors like Cursor and Claude Code.
+  evidence:
+    - Repo description explicitly states 'Cli and MCP for gbox' as the core identity.
+    - README details exporting MCP config directly into Claude Code and Cursor via `gbox mcp export`.
+    - Project provides environments (Android/Browser/Desktop) specifically for AI agents to operate via the MCP protocol.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (174) exceeded threshold (150)
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:10:05.962Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.680Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:16.406Z"
+    cause: null
+    next_retry_at: null

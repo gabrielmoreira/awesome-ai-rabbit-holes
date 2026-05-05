@@ -1,0 +1,102 @@
+id: github__igorganapolsky__mcp-memory-gateway
+kind: github-repo
+name: mcp-memory-gateway
+canonical_url: https://github.com/igorganapolsky/mcp-memory-gateway
+identity:
+  github_repo: igorganapolsky/mcp-memory-gateway
+provenance:
+  discoveries:
+    - id: discovery__github__igorganapolsky__mcp-memory-gateway__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: IgorGanapolsky/mcp-memory-gateway
+        extracted_url: https://github.com/igorganapolsky/mcp-memory-gateway
+        surrounding_text: "- [IgorGanapolsky/mcp-memory-gateway](https://github.com/IgorGanapolsky/mcp-memory-gateway) [![IgorGanapolsky/mcp-memory-gateway MCP server](https://glama.ai/mcp/servers/IgorGanapolsky/mcp-memory-gateway/badges/score.svg)](https://glama.ai/mcp/servers/IgorGanapolsky/mcp-memory-gateway) 📇 🏠 - Pre-action gates that prevent AI coding agents from repeating known mistakes. Captures explicit feedback, auto-promotes failures into prevention rules, and enforces them via hooks."
+        confidence: high
+metadata:
+  github:
+    stars: 18
+    forks: 6
+    license: MIT
+    archived: false
+    created_at: "2026-03-03T18:13:26Z"
+    pushed_at: "2026-05-05T21:01:48Z"
+    description: "Agent governance for ThumbGate: 👍/👎 become Pre-Action Checks that block repeat mistakes before code, money, or customer systems change."
+    homepage: https://thumbgate-production.up.railway.app
+    topics:
+      - agent-reliability
+      - ai-agents
+      - ai-cost-optimization
+      - ai-safety
+      - amp
+      - claude-code
+      - codex
+      - cursor
+      - developer-tools
+      - feedback-loop
+      - gemini
+      - guardrails
+      - mcp
+      - mcp-server
+      - opencode
+      - pre-action-checks
+      - reduce-llm-cost
+      - save-llm-tokens
+      - thompson-sampling
+      - thumbgate
+    last_checked_at: "2026-05-05T21:02:41.279Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:41.279Z"
+      bytes: 25649
+insights:
+  summary: An MCP-compatible governance tool that converts user feedback (thumbs-up/down) into pre-action checks that block repeated AI agent mistakes across sessions to reduce token waste.
+  why_it_matters: It targets the hidden cost of AI coding by preventing agents from repeating expensive errors across Claude Code, Cursor, Codex, Gemini, and other MCP-compatible environments.
+  mental_damage: We have finally reached the point where we need a gatekeeper to stop our autonomous agents from confidently force-pushing to main on repeat, because apparently the agents have better retention policies than we do.
+  tags:
+    - mcp
+    - agent-governance
+    - cost-optimization
+    - guardrails
+    - memory
+  confidence: high
+curation:
+  status: included
+  reason: The project is fundamentally an MCP server (mcp-memory-gateway) that provides governance and memory infrastructure for agents via the Model Context Protocol.
+  evidence:
+    - Repo description explicitly defines it as 'Agent governance for ThumbGate' and lists 'mcp-server' as a primary topic.
+    - Listed under 'awesome-mcp-servers' in the 'Knowledge & Memory' section of a major MCP directory.
+    - README confirms it works with 'any MCP-compatible agent' and installs via `npx thumbgate init` to wire into agent workflows.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.441Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:41.279Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:25:30.048Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

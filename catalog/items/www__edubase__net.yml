@@ -1,0 +1,76 @@
+id: www__edubase__net
+kind: website
+name: www.edubase.net
+canonical_url: https://www.edubase.net
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__edubase__net__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: EduBase
+        extracted_url: https://www.edubase.net
+        surrounding_text: "- **[EduBase](https://github.com/EduBase/MCP)** - Interact with [EduBase](https://www.edubase.net), a comprehensive e-learning platform with advanced quizzing, exam management, and content organization capabilities"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: EduBase is a commercial, hosted online learning and exam platform that uses AI to generate quiz questions from uploaded content and supports integrations with LMS systems via API, LTI, and MCP.
+  why_it_matters: It offers an MCP server and API surface for developers needing to automate learning content generation or integrate exam capabilities into enterprise systems.
+  mental_damage: We have finally reached the point where the 'AI-powered' badge is slapped on a quiz generator that mainly helps your compliance department stop emailing PDFs.
+  tags:
+    - mcp
+    - lms
+    - education
+    - api
+  confidence: high
+curation:
+  status: excluded
+  reason: While it provides an MCP server, the core product is a general-purpose e-learning SaaS for education and compliance, not a developer-facing tool for coding, infrastructure, or app building.
+  evidence:
+    - Primary product is an online learning platform for customers, employees, and students, not a developer tool.
+    - AI features are limited to generating quiz questions from documents, not assisting with coding or development workflows.
+    - Appears in awesome-mcp-servers only as a listed server implementation for a non-developer product.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.732Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:50:35.079Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

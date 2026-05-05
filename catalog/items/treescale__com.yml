@@ -1,0 +1,76 @@
+id: treescale__com
+kind: website
+name: treescale.com
+canonical_url: https://treescale.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__treescale__com__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - LLMOps
+        anchor_text: TreeScale
+        extracted_url: https://treescale.com
+        surrounding_text: "| [TreeScale](https://treescale.com)                                 | All In One Dev Platform For LLM Apps. Deploy LLM-enhanced APIs seamlessly using tools for prompt optimization, semantic querying, version management, statistical evaluation, and performance tracking. As a part of the developer friendly API implementation TreeScale offers Elastic LLM product, which makes a unified API Endpoint for all major LLM providers and open source models.             |                                                                                                           |"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: TreeScale is a no-code SaaS platform that lets users chain LLM prompts, manage context, and publish deployable API endpoints without writing code.
+  why_it_matters: It offers developers a managed way to turn prompt chains and data contexts into callable APIs with built-in debugging and versioning, offloading prompt infrastructure concerns.
+  mental_damage: We have officially reached the point where you can now deploy an API without writing a single line of code, yet somehow still manage to introduce technical debt.
+  tags:
+    - llmops
+    - no-code
+    - prompt-chaining
+    - api-builder
+  confidence: high
+curation:
+  status: excluded
+  reason: The platform is a no-code SaaS for business users and non-developers to build LLM-powered APIs, lacking a developer-tooling surface like an IDE, CLI, or code-first SDK.
+  evidence:
+    - Site explicitly states 'No, TreeScale is designed specifically to eliminate the need for coding. Users can effortlessly turn their ideas or LLM prompts into fully functional APIs without writing a single line of code.'
+    - Target audience is described broadly as 'start-ups, enterprises, individual developers, or researchers', with testimonials focusing on non-technical use cases like email marketing.
+    - No GitHub repository, CLI tool, or importable SDK was provided; the product is a hosted web interface for prompt chaining.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.731Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:48:49.351Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

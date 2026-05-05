@@ -1,0 +1,103 @@
+id: github__antvis__mcp-server-chart
+kind: github-repo
+name: mcp-server-chart
+canonical_url: https://github.com/antvis/mcp-server-chart
+identity:
+  github_repo: antvis/mcp-server-chart
+provenance:
+  discoveries:
+    - id: discovery__github__antvis__mcp-server-chart__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 👤 <a name="customer-data-platforms"></a>Customer Data Platforms
+        anchor_text: antv/mcp-server-chart
+        extracted_url: https://github.com/antvis/mcp-server-chart
+        surrounding_text: "- [antv/mcp-server-chart](https://github.com/antvis/mcp-server-chart) 🎖️ 📇 ☁️ - A Model Context Protocol server for generating visual charts using [AntV](https://github.com/antvis)."
+        confidence: high
+    - id: discovery__github__antvis__mcp-server-chart__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Chart
+        extracted_url: https://github.com/antvis/mcp-server-chart
+        surrounding_text: "- **[Chart](https://github.com/antvis/mcp-server-chart)** - 🤖 A Model Context Protocol server for generating visual charts using [AntV](https://github.com/antvis)."
+        confidence: high
+metadata:
+  github:
+    stars: 4035
+    forks: 377
+    license: MIT
+    archived: false
+    created_at: "2025-04-25T09:10:06Z"
+    pushed_at: "2026-04-28T01:10:38Z"
+    description: 🤖 A visualization mcp & skills contains 25+ visual charts using @antvis. Using for chart generation and data analysis.
+    homepage: https://github.com/antvis/mcp-server-chart
+    topics:
+      - antv
+      - llm
+      - mcp
+      - mcp-server
+      - skills
+      - visualization
+    last_checked_at: "2026-05-05T21:01:04.965Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:04.965Z"
+      bytes: 14113
+insights:
+  summary: A Model Context Protocol server that exposes 26+ AntV visualization chart generators as tools for LLMs to create charts and perform data analysis.
+  why_it_matters: Developers can give coding agents and MCP clients the ability to render area, bar, scatter, Sankey, and mind-map charts without wiring up visualization libraries by hand.
+  mental_damage: We have successfully abstracted charting so that an LLM can now hallucinate your data viz pipeline through a protocol server instead of just doing it wrong in React code.
+  tags:
+    - mcp
+    - visualization
+    - charts
+    - antv
+    - data-analysis
+  confidence: high
+curation:
+  status: included
+  reason: This is a dedicated MCP server implementation that exposes chart generation tools, fitting cleanly into the MCP infrastructure category.
+  evidence:
+    - Repo description explicitly states 'A visualization mcp & skills' and it is an MCP server for chart generation.
+    - Included in awesome-mcp-servers under Server Implementations, confirming its role in the MCP ecosystem.
+    - README confirms it is a 'TypeScript-based MCP server that provides chart generation capabilities' with 26+ supported chart types.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (4035) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.663Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:04.965Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:08:25.241Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

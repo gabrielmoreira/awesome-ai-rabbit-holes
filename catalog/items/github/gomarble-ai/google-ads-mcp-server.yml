@@ -1,0 +1,97 @@
+id: github__gomarble-ai__google-ads-mcp-server
+kind: github-repo
+name: google-ads-mcp-server
+canonical_url: https://github.com/gomarble-ai/google-ads-mcp-server
+identity:
+  github_repo: gomarble-ai/google-ads-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__gomarble-ai__google-ads-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🎯 <a name="marketing"></a>Marketing
+        anchor_text: gomarble-ai/google-ads-mcp-server
+        extracted_url: https://github.com/gomarble-ai/google-ads-mcp-server
+        surrounding_text: "- [gomarble-ai/google-ads-mcp-server](https://github.com/gomarble-ai/google-ads-mcp-server) 🐍 ☁️ - MCP server acting as an interface to the Google Ads, enabling programmatic access to Google Ads data and management features."
+        confidence: high
+    - id: discovery__github__gomarble-ai__google-ads-mcp-server__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: Google Ads
+        extracted_url: https://github.com/gomarble-ai/google-ads-mcp-server
+        surrounding_text: "- **[Google Ads](https://github.com/gomarble-ai/google-ads-mcp-server)** - MCP server acting as an interface to the Google Ads, enabling programmatic access to Google Ads data and management features."
+        confidence: high
+metadata:
+  github:
+    stars: 124
+    forks: 49
+    license: MIT
+    archived: false
+    created_at: "2025-06-12T18:29:55Z"
+    pushed_at: "2025-12-17T05:51:32Z"
+    description: This repo helps us to analyze googla ads performance data
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:23.941Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:23.941Z"
+      bytes: 18040
+insights:
+  summary: A FastMCP-powered server that connects the Google Ads API to MCP clients like Claude Desktop for querying performance data and generating keyword ideas.
+  why_it_matters: It allows developers to query GAQL, manage accounts, and research keywords through natural language conversations in their MCP-compatible IDE or desktop client.
+  mental_damage: We have successfully abstracted away the Google Ads UI, meaning you can now mismanage your ad spend without ever leaving your text editor.
+  tags:
+    - mcp
+    - google-ads
+    - marketing
+    - fastmcp
+    - api-integration
+  confidence: high
+curation:
+  status: included
+  reason: The project is a dedicated Model Context Protocol server implementation for Google Ads, fitting cleanly into the MCP infrastructure category.
+  evidence:
+    - "Repo description explicitly states: 'This repo helps us to analyze google ads performance data' via MCP."
+    - README confirms it is a 'FastMCP-powered Model Context Protocol server' built for Claude Desktop integration.
+    - Listed in 'awesome-mcp-servers' under 'Server Implementations > Marketing'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.666Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:23.941Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:21:59.393Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

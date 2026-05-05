@@ -1,0 +1,81 @@
+id: github__aliyun__alibabacloud-hologres-mcp-server
+kind: github-repo
+name: alibabacloud-hologres-mcp-server
+canonical_url: https://github.com/aliyun/alibabacloud-hologres-mcp-server
+identity:
+  github_repo: aliyun/alibabacloud-hologres-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__aliyun__alibabacloud-hologres-mcp-server__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Hologres
+        extracted_url: https://github.com/aliyun/alibabacloud-hologres-mcp-server
+        surrounding_text: "- **[Hologres](https://github.com/aliyun/alibabacloud-hologres-mcp-server)** - Connect to a [Hologres](https://www.alibabacloud.com/en/product/hologres) instance, get table metadata, query and analyze data."
+        confidence: high
+metadata:
+  github:
+    stars: 32
+    forks: 15
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-03-20T03:30:27Z"
+    pushed_at: "2026-04-24T14:24:56Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:01:00.283Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:00.283Z"
+      bytes: 15813
+insights:
+  summary: An MCP server that provides AI agents with a standardized interface to connect to, inspect metadata from, and execute SQL against Alibaba Cloud Hologres databases.
+  why_it_matters: It allows developers to hook their AI coding agents directly into Hologres, enabling natural language querying and database management without leaving the agent workflow.
+  mental_damage: We have successfully abstracted the database so far away that we now need a protocol server just to let the AI ask the database what it looks like.
+  tags:
+    - mcp
+    - database
+    - alibaba-cloud
+    - sql
+    - integration
+  confidence: high
+curation:
+  status: included
+  reason: The project is a dedicated MCP server implementation for Hologres, fitting precisely into the MCP Servers and Tooling category.
+  evidence:
+    - "README states: 'Hologres MCP Server serves as a universal interface between AI Agents and Hologres databases.'"
+    - Includes configuration examples for MCP clients and specifically mentions integration with 'Claude Code'.
+    - Listed in the 'awesome-mcp-servers' directory under 'Official Servers'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.678Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:00.283Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:07:41.683Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,92 @@
+id: github__modelscope__openjudge
+kind: github-repo
+name: openjudge
+canonical_url: https://github.com/modelscope/openjudge
+identity:
+  github_repo: modelscope/openjudge
+provenance:
+  discoveries:
+    - id: discovery__github__modelscope__openjudge__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 评估 Evaluation
+        anchor_text: OpenJudge
+        extracted_url: https://github.com/modelscope/openjudge
+        surrounding_text: "19. [OpenJudge](https://github.com/modelscope/OpenJudge): A Unified Framework for Holistic Evaluation and Quality Rewards."
+        confidence: high
+metadata:
+  github:
+    stars: 587
+    forks: 48
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-07-08T06:17:01Z"
+    pushed_at: "2026-04-30T08:18:46Z"
+    description: "OpenJudge: A Unified Framework for Holistic Evaluation and Quality Rewards"
+    homepage: https://openjudge.me/
+    topics:
+      - agent
+      - agent-skills
+      - ai-agent
+      - alignment
+      - evaluation
+      - grader
+      - llm
+      - reward
+      - reward-model
+      - rlhf
+      - skill-md
+      - skills
+    last_checked_at: "2026-05-05T21:03:46.116Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:46.116Z"
+      bytes: 20582
+insights:
+  summary: OpenJudge is an open-source framework and hosted playground for evaluating the quality of AI applications, agents, and chatbots using ready-to-use and custom rubric graders.
+  why_it_matters: It provides developers with a structured workflow to measure agent performance, generate reward signals for fine-tuning, and iterate on application quality beyond simple output checks.
+  mental_damage: We have now reached the point where we need a dedicated evaluation framework just to figure out if our evaluation framework's graders are actually grading the agents that are grading the code.
+  tags:
+    - evals
+    - agents
+    - benchmark
+    - open-source
+  confidence: high
+curation:
+  status: included
+  reason: The project is a dedicated evaluation framework and SaaS playground for measuring LLM and agent quality, fitting the evals category perfectly.
+  evidence:
+    - "Repo description explicitly states: 'A Unified Framework for Holistic Evaluation and Quality Rewards'."
+    - README defines it as an 'open-source evaluation framework' that provides 'ready-to-use graders' and converts results into 'reward signals'.
+    - Listed in awesome-LLM-resources under the '评估 Evaluation' section.
+placement:
+  primary_category: evals
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (587) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.442Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:46.116Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:38:54.208Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

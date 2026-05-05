@@ -1,0 +1,81 @@
+id: github__kukapay__polymarket-predictions-mcp
+kind: github-repo
+name: polymarket-predictions-mcp
+canonical_url: https://github.com/kukapay/polymarket-predictions-mcp
+identity:
+  github_repo: kukapay/polymarket-predictions-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__kukapay__polymarket-predictions-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: kukapay/polymarket-predictions-mcp
+        extracted_url: https://github.com/kukapay/polymarket-predictions-mcp
+        surrounding_text: "- [kukapay/polymarket-predictions-mcp](https://github.com/kukapay/polymarket-predictions-mcp) 🐍 ☁️ - An MCP server that delivers real-time market odds from Polymarket."
+        confidence: high
+metadata:
+  github:
+    stars: 4
+    forks: 3
+    license: MIT
+    archived: false
+    created_at: "2025-09-23T08:30:36Z"
+    pushed_at: "2025-09-23T08:30:54Z"
+    description: An MCP server that delivers real-time market odds from Polymarket.
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:03:12.095Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:12.095Z"
+      bytes: 8223
+insights:
+  summary: An MCP server that exposes real-time Polymarket prediction market odds, events, and search to AI agents and desktop integrations like Claude Desktop.
+  why_it_matters: Developers building agentic trading workflows or prediction-market analytics can hook into live Polymarket data without writing custom API glue code.
+  mental_damage: Another niche MCP server enters the ecosystem, ensuring your AI agent can now debate election odds while you are just trying to fix a null pointer.
+  tags:
+    - mcp
+    - polymarket
+    - prediction-markets
+    - agent-tooling
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server implementation for exposing Polymarket data, aligning cleanly with the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description states: 'An MCP server that delivers real-time market odds from Polymarket.'"
+    - README confirms it is an MCP server with tools for events, markets, and search, installable to Claude Desktop.
+    - Listed in awesome-mcp-servers under 'Finance & Fintech' implementations.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.703Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:12.095Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:32:18.806Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

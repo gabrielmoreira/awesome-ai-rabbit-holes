@@ -1,0 +1,78 @@
+id: docs__braingrid__ai__mcp__server__installation
+kind: website
+name: installation
+canonical_url: https://docs.braingrid.ai/mcp-server/installation
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__docs__braingrid__ai__mcp__server__installation__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: BrainGrid MCP
+        extracted_url: https://docs.braingrid.ai/mcp-server/installation
+        surrounding_text: "- [BrainGrid MCP](https://docs.braingrid.ai/mcp-server/installation) 🎖️☁️ - [BrainGrid](https://braingrid.ai) MCP is the Product Management Agent that writes your specs, plans your features, and creates engineering-grade tasks your coding tools can build reliably."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: BrainGrid is an MCP server that integrates with AI coding assistants like Claude Code, Cursor, and Windsurf to generate requirements and tasks from within the developer's existing workflow.
+  why_it_matters: It allows developers to extend their current AI coding environment with task and requirement generation capabilities via the Model Context Protocol without switching contexts.
+  mental_damage: You can now authenticate yet another service just to ask an agent to write the requirements for the code that another agent is going to write for you.
+  tags:
+    - mcp
+    - cursor
+    - claude-code
+    - task-management
+    - integration
+  confidence: high
+curation:
+  status: included
+  reason: The product is defined as an MCP server implementation designed to be plugged into existing coding agents and IDEs, fitting the MCP category perfectly.
+  evidence:
+    - Documentation explicitly details configuring the 'BrainGrid MCP server' for Claude Code, Cursor, Windsurf, and Warp.
+    - Listed in the 'awesome-mcp-servers' directory under 'Server Implementations > Developer Tools'.
+    - The tool's primary function is connecting to editors via the 'https://mcp.braingrid.ai/mcp' endpoint to create requirements and tasks.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.727Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:43:55.613Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

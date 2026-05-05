@@ -1,0 +1,76 @@
+id: julius__ai__docs__chat__start__guide
+kind: website
+name: chat-start-guide
+canonical_url: https://julius.ai/docs/chat-start-guide
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__julius__ai__docs__chat__start__guide__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Julius
+          - Description
+        anchor_text: Docs
+        extracted_url: https://julius.ai/docs/chat-start-guide
+        surrounding_text: "- [Docs](https://julius.ai/docs/chat-start-guide)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A documentation page explaining how to start using Julius AI's conversational data analysis chat interface.
+  why_it_matters: It helps newcomers configure and navigate a chat-based analytics tool, but offers no direct developer tooling or code-generation capabilities.
+  mental_damage: Yet another 'start here' guide for a SaaS product that helps non-coders ask spreadsheets questions, while we still debate whether agents can resolve a merge conflict.
+  tags:
+    - docs
+    - chatbot
+    - data-analysis
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a documentation guide for a conversational data analysis product, not a developer-facing AI tool, agent, or infrastructure component.
+  evidence:
+    - URL points to a docs page (julius.ai/docs/chat-start-guide), not a tool or repo
+    - Seen in awesome-ai-agents as a description link for Julius, which is a data-analysis chat product rather than a coding agent
+    - No repo description, README, or code surface indicating developer workflow integration
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.728Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:45:43.040Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

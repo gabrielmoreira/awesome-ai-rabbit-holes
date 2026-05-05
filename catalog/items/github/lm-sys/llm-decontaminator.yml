@@ -1,0 +1,81 @@
+id: github__lm-sys__llm-decontaminator
+kind: github-repo
+name: llm-decontaminator
+canonical_url: https://github.com/lm-sys/llm-decontaminator
+identity:
+  github_repo: lm-sys/llm-decontaminator
+provenance:
+  discoveries:
+    - id: discovery__github__lm-sys__llm-decontaminator__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 数据 Data
+        anchor_text: LLM Decontaminator
+        extracted_url: https://github.com/lm-sys/llm-decontaminator
+        surrounding_text: "11. [LLM Decontaminator](https://github.com/lm-sys/llm-decontaminator): Rethinking Benchmark and Contamination for Language Models with Rephrased Samples."
+        confidence: high
+metadata:
+  github:
+    stars: 321
+    forks: 28
+    license: Apache-2.0
+    archived: false
+    created_at: "2023-10-17T04:06:33Z"
+    pushed_at: "2023-12-20T22:33:26Z"
+    description: Code for the paper "Rethinking Benchmark and Contamination for Language Models with Rephrased Samples"
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:03:22.386Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:22.386Z"
+      bytes: 4220
+insights:
+  summary: A research tool and codebase for detecting and removing benchmark-contaminated rephrased samples from LLM training datasets.
+  why_it_matters: It gives model trainers and evaluators a concrete way to measure and clean training data so benchmark scores reflect actual capability instead of memorization.
+  mental_damage: We have arrived at a point where we need specialized tooling to figure out whether our models are simply reciting rephrased homework instead of learning anything useful.
+  tags:
+    - llm
+    - training-data
+    - benchmarks
+    - evaluation
+    - research
+  confidence: high
+curation:
+  status: excluded
+  reason: This is primarily an ML research and dataset-cleaning tool for model training, not a developer-facing AI tool, agent, or workflow product.
+  evidence:
+    - Repo description explicitly frames it as 'Code for the paper' on benchmark contamination.
+    - README focuses on training-set contamination detection, dataset preprocessing, and reproducing academic paper results.
+    - Listed in an ML resources list under a data section, not in developer-tooling or coding-agent directories.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (321) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.704Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:22.386Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:34:21.316Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

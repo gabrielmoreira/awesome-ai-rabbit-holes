@@ -1,0 +1,88 @@
+id: github__agileluminary__mcp-agile-luminary
+kind: github-repo
+name: mcp-agile-luminary
+canonical_url: https://github.com/agileluminary/mcp-agile-luminary
+identity:
+  github_repo: agileluminary/mcp-agile-luminary
+provenance:
+  discoveries:
+    - id: discovery__github__agileluminary__mcp-agile-luminary__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Agile Luminary
+        extracted_url: https://github.com/agileluminary/mcp-agile-luminary
+        surrounding_text: "- **[Agile Luminary](https://github.com/AgileLuminary/mcp-agile-luminary)** - Simpler Project Management - send [Agile Luminary](https://agileluminary.com) stories straight to your IDE"
+        confidence: high
+metadata:
+  github:
+    stars: 4
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2025-06-22T00:55:33Z"
+    pushed_at: "2025-07-23T22:17:14Z"
+    description: An MCP server for connecting with Agile Luminary Project Management Application
+    homepage: https://agileluminary.com
+    topics:
+      - agile-development
+      - claude-code
+      - cursor-ai
+      - mcp-server
+      - nodejs
+      - project-management
+      - windsurf-ai
+    last_checked_at: "2026-05-05T21:00:53.527Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:53.527Z"
+      bytes: 4569
+insights:
+  summary: An MCP server that connects AI clients like Cursor and Claude Desktop to the Agile Luminary project management API to fetch tasks, documentation, and past work.
+  why_it_matters: It allows developers to query their project management context and history directly from their AI coding assistant without switching contexts to a separate PM tool.
+  mental_damage: We have successfully bridged the gap between 'vibe coding' and 'agile ceremony compliance', ensuring your AI can now ask you for your stakeholder sign-off status.
+  tags:
+    - mcp
+    - project-management
+    - cursor
+    - claude
+    - nodejs
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server implementation designed to bridge AI clients with a specific project management API, fitting the MCP infrastructure category.
+  evidence:
+    - "Repo description states: 'An MCP server for connecting with Agile Luminary Project Management Application'."
+    - "README confirms architecture: 'AI Client (Cursor/Claude) → Local MCP Server → Agile Luminary API'."
+    - Topics include 'mcp-server', and it is listed in awesome-mcp-servers under 'Official Servers'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.677Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:53.527Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:06:32.151Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

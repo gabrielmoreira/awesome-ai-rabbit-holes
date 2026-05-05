@@ -1,0 +1,77 @@
+id: tradeit__app
+kind: website
+name: tradeit.app
+canonical_url: https://tradeit.app
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__tradeit__app__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Trade Agent
+        extracted_url: https://thetradeagent.ai
+        surrounding_text: "- **[Trade Agent](https://github.com/Trade-Agent/trade-agent-mcp)** - Execute stock and crypto trades via [Trade Agent](https://thetradeagent.ai/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Trade It is a non-custodial embedded trading platform that provides APIs, a React SDK, and an MCP server to let developers integrate stock, crypto, and options trading into apps, newsletters, and AI agents.
+  why_it_matters: It gives developers a way to wire real brokerage execution into AI agents and chat-based workflows without handling funds or building broker integrations from scratch.
+  mental_damage: Because nothing says responsible AI progress like giving your chatbot the ability to YOLO your Robinhood account into a meme-coin put spread at 3 AM.
+  tags:
+    - mcp
+    - fintech
+    - embedded-trading
+    - agent-tooling
+    - sdk
+  confidence: high
+curation:
+  status: included
+  reason: The product explicitly ships an MCP Server for agentic workflows and is listed in awesome-mcp-servers, making MCP infrastructure the clearest fit even though it also provides broader SDKs.
+  evidence:
+    - "Explicitly offers an 'Agentic: MCP Server' with 'Dev Time: 5 min' to connect to Claude, ChatGPT, or any MCP client."
+    - Listed in the awesome-mcp-servers directory under 'Official Servers' for embedded trading.
+    - Provides React SDK and APIs, but the MCP surface is a first-class integration path targeting AI agents.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.731Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:48:48.137Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

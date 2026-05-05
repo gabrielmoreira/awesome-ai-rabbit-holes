@@ -1,0 +1,88 @@
+id: github__a-agmon__rs-graph-llm
+kind: github-repo
+name: rs-graph-llm
+canonical_url: https://github.com/a-agmon/rs-graph-llm
+identity:
+  github_repo: a-agmon/rs-graph-llm
+provenance:
+  discoveries:
+    - id: discovery__github__a-agmon__rs-graph-llm__awesome-list__vivy-yi__awesome-agent-orchestration
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: vivy-yi/awesome-agent-orchestration
+        url: https://github.com/vivy-yi/awesome-agent-orchestration
+        repository: vivy-yi/awesome-agent-orchestration
+      extraction:
+        mode: parsed
+        section_path:
+          - Core Frameworks
+          - Go Frameworks
+        anchor_text: rs-graph-llm
+        extracted_url: https://github.com/a-agmon/rs-graph-llm
+        surrounding_text: "| [rs-graph-llm](https://github.com/a-agmon/rs-graph-llm) | High-performance framework for interactive multi-agent workflows in Rust | ![Stars](https://img.shields.io/github/stars/a-agmon/rs-graph-llm) |"
+        confidence: high
+metadata:
+  github:
+    stars: 309
+    forks: 34
+    license: MIT
+    archived: false
+    created_at: "2025-06-10T18:20:02Z"
+    pushed_at: "2026-04-26T06:54:33Z"
+    description: High-performance framework for building interactive multi-agent workflow systems in Rust
+    homepage: ""
+    topics:
+      - agents
+      - graph
+      - langgraph
+      - llm
+      - rust
+      - workflow
+    last_checked_at: "2026-05-05T21:00:45.393Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:45.393Z"
+      bytes: 28150
+insights:
+  summary: A Rust-based framework for building stateful, graph-structured multi-agent workflows with integrated LLM capabilities.
+  why_it_matters: It offers developers a high-performance, type-safe alternative to Python-centric orchestration libraries like LangGraph, leveraging Rust's ecosystem for production agent systems.
+  mental_damage: Finally, the undeniable peace of mind that comes with knowing your agent's panic-driven workflow graph is just as memory-safe as the rest of your systems programming.
+  tags:
+    - rust
+    - multi-agent
+    - workflow
+    - framework
+    - graph
+  confidence: high
+curation:
+  status: included
+  reason: This is a code-first library/framework for embedding AI agent behavior into Rust applications, fitting the ai-frameworks definition over the operational agent-orchestration category.
+  evidence:
+    - Repo description states it is a 'High-performance framework for building interactive multi-agent workflow systems in Rust'.
+    - README describes it as a 'Core graph execution library' and 'framework library' for developers to import and use in code.
+    - Appears in 'awesome-agent-orchestration' under 'Core Frameworks', reinforcing its identity as a developer building block.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (309) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.675Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:45.393Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:05:11.557Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

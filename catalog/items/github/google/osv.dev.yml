@@ -1,0 +1,87 @@
+id: github__google__osv.dev
+kind: github-repo
+name: osv.dev
+canonical_url: https://github.com/google/osv.dev
+identity:
+  github_repo: google/osv.dev
+provenance:
+  discoveries:
+    - id: discovery__github__google__osv.dev__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: scraped
+        section_path:
+          - Community Servers
+        anchor_text: OSV (Open Source Vulnerabilities) database
+        extracted_url: https://osv.dev
+        surrounding_text: "- **[OSV](https://github.com/StacklokLabs/osv-mcp)** - Access the [OSV (Open Source Vulnerabilities) database](https://osv.dev/) for vulnerability information. Query vulnerabilities by package version or commit, batch query multiple packages, and get detailed vulnerability information by ID."
+        confidence: high
+metadata:
+  github:
+    stars: 2650
+    forks: 313
+    license: Apache-2.0
+    archived: false
+    created_at: "2021-01-08T02:14:10Z"
+    pushed_at: "2026-05-05T19:15:07Z"
+    description: Open source vulnerability DB and triage service.
+    homepage: https://osv.dev
+    topics:
+      - security
+      - security-tools
+      - vulnerability
+      - vulnerability-databases
+      - vulnerability-management
+      - vulnerability-scanners
+    last_checked_at: "2026-05-05T21:02:24.347Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:24.347Z"
+      bytes: 4570
+insights:
+  summary: OSV is Google's open source vulnerability database and triage service, providing an API and infrastructure for checking project dependencies against a centralized feed of security advisories.
+  why_it_matters: It provides the structured vulnerability data that AI coding agents and security scanners need to automatically detect and patch insecure dependencies in your codebase.
+  mental_damage: We now have an autonomous pipeline to find bugs in the code that AI agents wrote, ensuring the circle of life remains perfectly automated.
+  tags:
+    - security
+    - vulnerability
+    - database
+    - api
+    - scanner
+  confidence: high
+curation:
+  status: included
+  reason: The project is a core vulnerability database that is explicitly listed as an MCP server in the awesome-mcp-servers directory, fitting the MCP infrastructure scope for developer tooling.
+  evidence:
+    - Repo description identifies it as an 'Open source vulnerability DB and triage service.'
+    - Listed in awesome-mcp-servers under 'Community Servers' as a vulnerability database.
+    - API documentation and Go bindings are provided for integration with developer tools.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (2650) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.689Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:24.347Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:22:08.421Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,75 @@
+id: discord__com__invite__x4jwnznxpb
+kind: website
+name: X4JWnZnxPb
+canonical_url: https://discord.com/invite/X4JWnZnxPb
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__discord__com__invite__x4jwnznxpb__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: janhq/awesome-local-ai
+        url: https://github.com/janhq/awesome-local-ai
+        repository: janhq/awesome-local-ai
+      extraction:
+        mode: parsed
+        section_path:
+          - Community
+        anchor_text: CrewAI
+        extracted_url: https://discord.com/invite/X4JWnZnxPb
+        surrounding_text: "- [CrewAI](https://discord.com/invite/X4JWnZnxPb)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: An invite-only Discord community for users of the CrewAI multi-agent orchestration framework.
+  why_it_matters: It provides a support and discussion channel for developers building agentic workflows with the CrewAI framework.
+  mental_damage: Yet another Discord invite link masquerading as a 'project' in a tooling list, because apparently joining a chat room counts as installing infrastructure now.
+  tags:
+    - community
+    - discord
+    - crewai
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a Discord invite link to a community chat, not a developer tool, framework, or product that fits the catalog's scope.
+  evidence:
+    - URL points to discord.com/invite/X4JWnZnxPb, which is a chat server invite, not a tool or repo.
+    - Scraped context confirms it is 'The community discord for CrewAI' with 7621 members.
+    - No repository, code, or product exists here—only a social channel for discussion.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.727Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:43:49.391Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

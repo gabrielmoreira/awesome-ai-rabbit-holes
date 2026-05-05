@@ -1,0 +1,102 @@
+id: github__ajitpratap0__gosqlx
+kind: github-repo
+name: gosqlx
+canonical_url: https://github.com/ajitpratap0/gosqlx
+identity:
+  github_repo: ajitpratap0/gosqlx
+provenance:
+  discoveries:
+    - id: discovery__github__ajitpratap0__gosqlx__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: ajitpratap0/GoSQLX
+        extracted_url: https://github.com/ajitpratap0/gosqlx
+        surrounding_text: "- [ajitpratap0/GoSQLX](https://github.com/ajitpratap0/GoSQLX) [![ajitpratap0/GoSQLX MCP server](https://glama.ai/mcp/servers/ajitpratap0/GoSQLX/badges/score.svg)](https://glama.ai/mcp/servers/ajitpratap0/GoSQLX) 🏎️ ☁️ 🏠 - 7 SQL tools (validate, format, parse, lint, security scan, metadata extraction, full analysis) over Streamable HTTP. Public remote server at mcp.gosqlx.dev - no install needed. 1.25M+ ops/sec, 6 SQL dialects."
+        confidence: high
+metadata:
+  github:
+    stars: 92
+    forks: 8
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-02-17T06:47:21Z"
+    pushed_at: "2026-05-01T19:11:45Z"
+    description: High-performance SQL parser, formatter, linter & security scanner for Go - 1.5M+ ops/sec, multi-dialect, zero-copy, race-free
+    homepage: https://gosqlx.dev
+    topics:
+      - ast
+      - cli
+      - dialect
+      - go
+      - golang
+      - lsp
+      - mysql
+      - parser
+      - postgresql
+      - query-analyzer
+      - security
+      - sql
+      - sql-formatter
+      - sql-injection
+      - sql-linter
+      - sql-parser
+      - sql-validator
+      - sqlite
+      - wasm
+      - zero-copy
+    last_checked_at: "2026-05-05T21:00:56.477Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:56.477Z"
+      bytes: 9379
+insights:
+  summary: A high-performance Go SDK and CLI for parsing, formatting, linting, and security-scanning SQL across multiple dialects, also available as an MCP server and VS Code extension.
+  why_it_matters: It gives developers and AI agents a fast, programmatic way to safely analyze and transform SQL before it reaches the database.
+  mental_damage: We have finally achieved sub-microsecond SQL parsing, which means your AI agent can now hallucinate insecure queries 1.38 million times per second.
+  tags:
+    - sql
+    - parser
+    - mcp
+    - go
+    - security
+  confidence: high
+curation:
+  status: included
+  reason: The project positions itself as an MCP server with 7 SQL tools for AI integration, which fits the MCP infrastructure scope beyond its core Go library.
+  evidence:
+    - README explicitly lists '🤖 MCP Server (AI Integration)' with a remote endpoint and setup guide for Claude and Cursor.
+    - Included in the awesome-mcp-servers list under 'Developer Tools', confirming its role in the MCP ecosystem.
+    - Repository is active (pushed 2026-05-01) and provides a public remote MCP endpoint at mcp.gosqlx.dev.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.677Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:56.477Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:07:04.118Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

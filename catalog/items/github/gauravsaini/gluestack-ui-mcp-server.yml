@@ -1,0 +1,80 @@
+id: github__gauravsaini__gluestack-ui-mcp-server
+kind: github-repo
+name: gluestack-ui-mcp-server
+canonical_url: https://github.com/gauravsaini/gluestack-ui-mcp-server
+identity:
+  github_repo: gauravsaini/gluestack-ui-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__gauravsaini__gluestack-ui-mcp-server__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Gluestack UI MCP Server
+        extracted_url: https://github.com/gauravsaini/gluestack-ui-mcp-server
+        surrounding_text: "- **[Gluestack UI MCP Server](https://github.com/gauravsaini/gluestack-ui-mcp-server)** - An MCP server tailored for React Native–first development using Gluestack UI."
+        confidence: high
+metadata:
+  github:
+    stars: 4
+    forks: 2
+    license: MIT
+    archived: false
+    created_at: "2025-08-24T23:58:50Z"
+    pushed_at: "2025-08-29T22:55:23Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:17.384Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:17.384Z"
+      bytes: 17747
+insights:
+  summary: An MCP server that provides AI assistants with structured access to Gluestack UI components, source code, and React Native-specific examples to accelerate mobile app development.
+  why_it_matters: It allows coding agents to generate accurate, platform-aware React Native screens and components using Gluestack UI without hallucinating props or missing platform-specific patterns.
+  mental_damage: We have now successfully abstracted the job of reading component documentation into a protocol server, so your AI can ignore the docs just as confidently as you used to.
+  tags:
+    - mcp
+    - react-native
+    - gluestack
+    - ui-components
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server providing Gluestack UI context to AI assistants, which fits cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - README title and description define it as 'The definitive MCP server for React Native development with Gluestack UI'.
+    - Usage instructions show integration with Claude Desktop via the mcpServers configuration block.
+    - Listed in awesome-mcp-servers under the Official Servers section.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.688Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:17.384Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:20:38.542Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

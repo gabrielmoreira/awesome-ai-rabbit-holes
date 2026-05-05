@@ -1,0 +1,77 @@
+id: usegorilla__app
+kind: website
+name: usegorilla.app
+canonical_url: https://usegorilla.app
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__usegorilla__app__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🎯 <a name="marketing"></a>Marketing
+        anchor_text: usegorilla.app
+        extracted_url: https://usegorilla.app
+        surrounding_text: "- [opusforge/gorilla-mcp](https://github.com/opusforge/gorilla-mcp) [![opusforge/gorilla-mcp MCP server](https://glama.ai/mcp/servers/opusforge/gorilla-mcp/badges/score.svg)](https://glama.ai/mcp/servers/opusforge/gorilla-mcp) 📇 ☁️ - Lead discovery for solo SaaS founders. Searches Reddit, X, YouTube, and TikTok for posts where people describe a problem your product solves, ranks each by buying intent, and returns ranked leads. Includes `find_leads`, `draft_outreach`, and `plan_acquisition_funnel` for the full acquisition flow. Hosted, $0.99 per run. Install: `npx -y github:opusforge/gorilla-mcp`. Sign up: [usegorilla.app](https://usegorilla.app)."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A multi-platform lead discovery SaaS that surfaces high-intent posts across Reddit, X, YouTube, TikTok, and LinkedIn, with an MCP server for running queries from inside AI coding agents.
+  why_it_matters: Developers building SaaS products can trigger lead-hunting workflows directly from their editor instead of context-switching to a marketing dashboard.
+  mental_damage: We have finally achieved the singularity where your IDE can now draft outreach messages to strangers on TikTok while you are trying to fix a CSS bug.
+  tags:
+    - mcp
+    - lead-generation
+    - marketing
+    - saas
+  confidence: high
+curation:
+  status: included
+  reason: The product ships an MCP server that integrates with Claude Code, Cursor, and other agents, making it a developer-facing MCP tooling addition despite its marketing SaaS core.
+  evidence:
+    - "Scraped site clearly states: 'Gorilla ships as an open-source MCP server. Drop it into Claude Code, Cursor, Codex, or any MCP-compatible agent.'"
+    - Listed in awesome-mcp-servers under Server Implementations > Marketing, confirming MCP ecosystem inclusion.
+    - Primary product is lead discovery for founders, but the MCP integration is a first-class, documented interface for developers.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.731Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:48:57.414Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

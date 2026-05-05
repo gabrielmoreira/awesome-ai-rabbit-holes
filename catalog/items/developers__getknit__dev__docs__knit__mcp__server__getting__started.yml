@@ -1,0 +1,76 @@
+id: developers__getknit__dev__docs__knit__mcp__server__getting__started
+kind: website
+name: knit-mcp-server-getting-started
+canonical_url: https://developers.getknit.dev/docs/knit-mcp-server-getting-started
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__developers__getknit__dev__docs__knit__mcp__server__getting__started__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Knit MCP
+        extracted_url: https://developers.getknit.dev/docs/knit-mcp-server-getting-started
+        surrounding_text: "- **[Knit MCP](https://developers.getknit.dev/docs/knit-mcp-server-getting-started)** - Connect with 10,000+ tools across HRIS, ATS, CRM, Accounting, Calendar, Meeting, Ticketing, and more categories."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Knit MCP Hub is a platform for creating and managing hosted MCP servers that expose pre-built integrations with SaaS tools for use in AI agents and IDEs.
+  why_it_matters: It allows developers to instantly package dozens of SaaS API integrations (HRIS, CRM, ATS) into a single MCP endpoint for LangGraph, LangChain, or OpenAI assistants without writing custom connector code.
+  mental_damage: We have successfully abstracted the job of writing API integrations into the job of clicking through a wizard to generate a URL that acts as an integration.
+  tags:
+    - mcp
+    - saas
+    - integrations
+    - agent-tooling
+  confidence: high
+curation:
+  status: included
+  reason: The product is a dedicated MCP server management platform and registry that packages SaaS tools into MCP endpoints for AI agents.
+  evidence:
+    - Scraped site describes 'setting up and operating SaaS MCP servers managed by Knit' including creating a server and selecting tools.
+    - Platform generates MCP server URLs and tokens for use in clients like Claude, Cursor, and Windsurf.
+    - Listed in awesome-mcp-servers under 'Official Servers' for providing managed MCP infrastructure.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.727Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:43:42.374Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

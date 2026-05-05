@@ -1,0 +1,82 @@
+id: github__agentic-mcp-tools__owlex
+kind: github-repo
+name: owlex
+canonical_url: https://github.com/agentic-mcp-tools/owlex
+identity:
+  github_repo: agentic-mcp-tools/owlex
+provenance:
+  discoveries:
+    - id: discovery__github__agentic-mcp-tools__owlex__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🤖 <a name="coding-agents"></a>Coding Agents
+        anchor_text: agentic-mcp-tools/owlex
+        extracted_url: https://github.com/agentic-mcp-tools/owlex
+        surrounding_text: "- [agentic-mcp-tools/owlex](https://github.com/agentic-mcp-tools/owlex) 🐍 🏠 🍎 🪟 🐧 - AI council server: query CLI agents (Claude Code, Codex, Gemini, and OpenCode) in parallel with deliberation rounds"
+        confidence: high
+metadata:
+  github:
+    stars: 109
+    forks: 11
+    license: MIT
+    archived: false
+    created_at: "2025-10-27T11:51:15Z"
+    pushed_at: "2026-03-15T03:37:28Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:00:51.412Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:51.412Z"
+      bytes: 6558
+insights:
+  summary: An MCP server that runs a multi-model 'council' where Codex, Gemini, OpenCode, and other agents deliberate on architecture, debugging, or code review questions directly inside Claude Code.
+  why_it_matters: It lets developers cross-check tricky design or debugging decisions against multiple AI models without leaving their IDE workflow.
+  mental_damage: Finally, a way to summon a committee of debating LLMs so you can feel productive while waiting for the consensus to finish hallucinating.
+  tags:
+    - mcp
+    - multi-agent
+    - claude-code
+    - code-review
+    - cli
+  confidence: high
+curation:
+  status: included
+  reason: The project is an MCP server that integrates multiple AI agents into Claude Code, which clearly fits the MCP Servers and Tooling category.
+  evidence:
+    - README explicitly describes it as an MCP-compatible server added via .mcp.json configuration.
+    - Listed under 'Server Implementations > Coding Agents' in the awesome-mcp-servers directory.
+    - Provides tools like council_ask and individual agent sessions that extend Claude Code via the Model Context Protocol.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.440Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:51.412Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:06:13.472Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

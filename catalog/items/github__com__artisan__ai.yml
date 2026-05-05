@@ -1,0 +1,77 @@
+id: github__com__artisan__ai
+kind: website
+name: Artisan-AI
+canonical_url: https://github.com/Artisan-AI
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__github__com__artisan__ai__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Artisian AI
+        anchor_text: Artisian AI
+        extracted_url: https://github.com/Artisan-AI
+        surrounding_text: "## [Artisian AI](https://github.com/Artisan-AI)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Artisan AI is a commercial SaaS platform that provides AI employees to automate outbound sales workflows, with its GitHub organization containing only forks and prototype repositories unrelated to the core product.
+  why_it_matters: It represents the trend of vertical AI agents aimed at replacing human-led outbound sales, though it offers no developer-facing tooling or APIs for software engineers to integrate into their workflows.
+  mental_damage: We have officially entered the era of 'AI Employees' where the GitHub organization is just a ghost town of forks, proving that even AI startups need a placeholder repo to look legitimate to developers.
+  tags:
+    - sales-automation
+    - ai-employees
+    - outbound
+  confidence: high
+curation:
+  status: excluded
+  reason: The product is a vertical SaaS for sales automation, not a developer tool, coding agent, or infrastructure component relevant to software engineers.
+  evidence:
+    - Scraped site context describes the product as 'Automate Your Outbound With an All-In-One, AI-First Platform Powered by AI Employees'.
+    - The GitHub organization contains only forks (sqlalchemy-filters) and a prototype repo, with no developer tooling, SDK, or agent code.
+    - Seen in awesome-ai-agents lists under a sales/outbound context, which falls outside the catalog's scope of developer-facing infrastructure and coding tools.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.728Z"
+    cause:
+      type: ambiguous_canonicalization
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:44:46.862Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

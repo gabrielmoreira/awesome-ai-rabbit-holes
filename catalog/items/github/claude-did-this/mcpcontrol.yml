@@ -1,0 +1,87 @@
+id: github__claude-did-this__mcpcontrol
+kind: github-repo
+name: nutjs-windows-control
+canonical_url: https://github.com/claude-did-this/mcpcontrol
+identity:
+  github_repo: claude-did-this/mcpcontrol
+provenance:
+  discoveries:
+    - id: discovery__github__cheffromspace__nutjs-windows-control__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: Windows Control
+        extracted_url: https://github.com/cheffromspace/nutjs-windows-control
+        surrounding_text: "- **[Windows Control](https://github.com/Cheffromspace/nutjs-windows-control)** - Programmatic control over Windows system operations including mouse, keyboard, window management, and screen capture using nut.js."
+        confidence: high
+metadata:
+  github:
+    stars: 319
+    forks: 47
+    license: MIT
+    archived: false
+    created_at: "2024-12-03T17:40:27Z"
+    pushed_at: "2025-12-02T17:19:23Z"
+    description: MCP server for Windows OS automation
+    homepage: ""
+    topics:
+      - ai
+      - claude
+      - computer-control
+      - computer-vision
+      - mcp
+      - os-automation
+      - windows
+    last_checked_at: "2026-05-05T21:01:34.980Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:34.980Z"
+      bytes: 10804
+insights:
+  summary: An MCP server that provides programmatic control over Windows OS operations including mouse, keyboard, window management, and screen capture for AI model integration.
+  why_it_matters: It allows developers to wire AI assistants like Claude directly into Windows desktop automation workflows, bridging the gap between model reasoning and local system control.
+  mental_damage: We have finally progressed from 'AI writes code' to 'AI clicks the button for you in a 1280x720 virtual machine', which is either the future of test automation or the cry for help we probably need to hear.
+  tags:
+    - mcp
+    - windows
+    - os-automation
+    - computer-control
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server implementation for Windows automation, fitting squarely into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description states 'MCP server for Windows OS automation'.
+    - README confirms it is a 'Windows control server for the Model Context Protocol'.
+    - Topics include 'mcp' and 'computer-control', aligning with the MCP category scope.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (319) exceeded threshold (150)
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:13:19.450Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.682Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:34.980Z"
+    cause: null
+    next_retry_at: null

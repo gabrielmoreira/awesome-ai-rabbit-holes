@@ -1,0 +1,88 @@
+id: github__bzsasson__screaming-frog-mcp
+kind: github-repo
+name: screaming-frog-mcp
+canonical_url: https://github.com/bzsasson/screaming-frog-mcp
+identity:
+  github_repo: bzsasson/screaming-frog-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__bzsasson__screaming-frog-mcp__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - 🎯 Marketing
+        anchor_text: bzsasson/screaming-frog-mcp
+        extracted_url: https://github.com/bzsasson/screaming-frog-mcp
+        surrounding_text: "-   **[bzsasson/screaming-frog-mcp](https://github.com/bzsasson/screaming-frog-mcp)** [![GitHub stars](https://img.shields.io/github/stars/bzsasson/screaming-frog-mcp?style=social)](https://github.com/bzsasson/screaming-frog-mcp): MCP server for Screaming Frog SEO Spider — list saved crawls, export SEO audit data, read and filter results, and manage crawl storage through natural language."
+        confidence: high
+metadata:
+  github:
+    stars: 36
+    forks: 8
+    license: MIT
+    archived: false
+    created_at: "2026-02-28T21:55:30Z"
+    pushed_at: "2026-04-22T08:52:44Z"
+    description: MCP server for Screaming Frog SEO Spider – crawl sites, export data, and manage crawl storage via Claude or any MCP-compatible client
+    homepage: https://github.com/bzsasson/screaming-frog-mcp#readme
+    topics:
+      - claude
+      - mcp
+      - mcp-server
+      - screaming-frog
+      - screaming-frog-seo-spider
+      - seo
+      - seo-tools
+    last_checked_at: "2026-05-05T21:01:28.014Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:28.014Z"
+      bytes: 7233
+insights:
+  summary: An MCP server that gives AI assistants programmatic access to Screaming Frog SEO Spider for crawling websites, exporting data, and managing crawl storage.
+  why_it_matters: Developers can analyze SEO crawl data, export reports, and query site health directly through Claude or other MCP clients without manually opening the Screaming Frog GUI.
+  mental_damage: We have successfully automated the one task that was previously safe from AI interference because it required closing a desktop GUI first.
+  tags:
+    - mcp
+    - seo
+    - screaming-frog
+    - claude
+    - developer-tools
+  confidence: high
+curation:
+  status: included
+  reason: The project is an MCP server that integrates Screaming Frog with AI assistants, which fits cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states 'MCP server for Screaming Frog SEO Spider'
+    - README confirms it is an MCP server providing tools like crawl_site and export_crawl to Claude and MCP-compatible clients
+    - Listed in awesome-mcp-list under the Marketing section
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.682Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:28.014Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:12:05.473Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,94 @@
+id: github__codex-curator__studiomcphub
+kind: github-repo
+name: studiomcphub
+canonical_url: https://github.com/codex-curator/studiomcphub
+identity:
+  github_repo: codex-curator/studiomcphub
+provenance:
+  discoveries:
+    - id: discovery__github__codex-curator__studiomcphub__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🎨 <a name="art-and-culture"></a>Art & Culture
+        anchor_text: codex-curator/studiomcphub
+        extracted_url: https://github.com/codex-curator/studiomcphub
+        surrounding_text: "- [Cifero74/mcp-apple-music](https://github.com/Cifero74/mcp-apple-music) [![mcp-apple-music MCP server](https://glama.ai/mcp/servers/@Cifero74/mcp-apple-music/badges/score.svg)](https://glama.ai/mcp/servers/@Cifero74/mcp-apple-music) 🐍 🏠 🍎 - Full Apple Music integration: search catalog, browse personal library, manage playlists, and get personalised recommendations.- [codex-curator/studiomcphub](https://github.com/codex-curator/studiomcphub) [![studio-mcp-hub MCP server](https://glama.ai/mcp/servers/@codex-curator/studio-mcp-hub/badges/score.svg)](https://glama.ai/mcp/servers/@codex-curator/studio-mcp-hub) 🐍 ☁️ - 32 creative AI tools (18 free) for autonomous agents: image generation (SD 3.5), ESRGAN upscaling, background removal, product mockups, CMYK conversion, print-ready PDF, SVG vectorization, invisible watermarking, AI metadata enrichment, provenance, Arweave storage, NFT minting, and 53K+ museum artworks. Pay per call via x402/Stripe/GCX."
+        confidence: high
+metadata:
+  github:
+    stars: 2
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-02-25T07:32:50Z"
+    pushed_at: "2026-03-24T03:23:33Z"
+    description: "Creative AI MCP server — 32 tools (18 free): image generation, upscaling, bg removal, mockups, CMYK, print-ready PDF, vectorization, watermarking, enrichment, provenance. Pay per call via x402/Stripe/GCX."
+    homepage: https://studiomcphub.com
+    topics:
+      - art
+      - arweave
+      - creative-ai
+      - esrgan
+      - golden-codex
+      - image-generation
+      - mcp
+      - mcp-server
+      - nft
+      - print-on-demand
+      - provenance
+      - stable-diffusion
+      - x402
+    last_checked_at: "2026-05-05T21:01:38.395Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:38.395Z"
+      bytes: 5033
+insights:
+  summary: A hosted MCP server providing 32 creative AI tools—including image generation, upscaling, background removal, and NFT minting—accessible via x402 USDC payments on Base L2 without API keys.
+  why_it_matters: It lets agents and developers integrate a full creative pipeline into their workflows directly through MCP, handling everything from SDXL image generation to print-ready PDF conversion with pay-per-call pricing.
+  mental_damage: We have successfully tokenized the entire creative process down to invisible watermarks and perceptual hashes, meaning your agent can now ruin graphic design forever with nothing but a hot wallet and a 402 response.
+  tags:
+    - mcp
+    - creative-ai
+    - image-generation
+    - x402
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server implementation providing tooling for the Model Context Protocol ecosystem.
+  evidence:
+    - Repo description identifies it as a 'Creative AI MCP server' with 32 tools.
+    - README confirms it is a 'production MCP server' with a streamable-http endpoint at studiomcphub.com/mcp.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Art & Culture'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.683Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:38.395Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:13:54.926Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

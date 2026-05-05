@@ -1,0 +1,81 @@
+id: github__hwchase17__langchainjs
+kind: github-repo
+name: langchainjs
+canonical_url: https://github.com/hwchase17/langchainjs
+identity:
+  github_repo: hwchase17/langchainjs
+provenance:
+  discoveries:
+    - id: discovery__github__hwchase17__langchainjs__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - LangChain Framework
+        anchor_text: LangChain.js
+        extracted_url: https://github.com/hwchase17/langchainjs
+        surrounding_text: "- [LangChain.js](https://github.com/hwchase17/langchainjs): the js brother ✨ ![GitHub Repo stars](https://img.shields.io/github/stars/hwchase17/langchainjs?style=social)"
+        confidence: high
+metadata:
+  github:
+    stars: 17617
+    forks: 3151
+    license: MIT
+    archived: false
+    created_at: "2023-02-06T22:50:27Z"
+    pushed_at: "2026-05-05T20:10:45Z"
+    description: The agent engineering platform
+    homepage: https://docs.langchain.com/oss/javascript/langchain/
+    topics: []
+    last_checked_at: "2026-05-05T21:02:39.262Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:39.262Z"
+      bytes: 6343
+insights:
+  summary: LangChain.js is a TypeScript framework for building LLM-powered applications, providing a standard interface for chaining together models, tools, vector stores, and agents in Node.js and browser environments.
+  why_it_matters: It lets developers rapidly prototype, swap models, and integrate diverse data sources through a modular component architecture that scales from quick experiments to production monitoring via LangSmith.
+  mental_damage: Watch your npm lockfile swell with yet another abstraction layer designed to protect you from the model providers you’ll inevitably swap out next Tuesday anyway.
+  tags:
+    - typescript
+    - llm
+    - framework
+    - agent-orchestration
+    - nodejs
+  confidence: high
+curation:
+  status: included
+  reason: This is a foundational code-first SDK and building block for embedding AI behavior into applications, fitting the AI Frameworks category rather than a hosted control plane or coding agent.
+  evidence:
+    - Repo description explicitly states 'The agent engineering platform' and README positions it as a framework for building LLM-powered apps via interoperable components.
+    - Supports multiple JS environments including Node.js, Cloudflare Workers, Vercel, and browsers, targeting developers building their own apps rather than editing existing repos.
+    - Listed in awesome-langchain under 'LangChain Framework', confirming its role as a core developer library rather than a standalone assistant or app builder.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (17617) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.441Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:39.263Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:25:02.072Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

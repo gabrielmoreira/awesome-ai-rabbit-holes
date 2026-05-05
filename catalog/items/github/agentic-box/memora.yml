@@ -1,0 +1,92 @@
+id: github__agentic-box__memora
+kind: github-repo
+name: memora
+canonical_url: https://github.com/agentic-box/memora
+identity:
+  github_repo: agentic-box/memora
+provenance:
+  discoveries:
+    - id: discovery__github__agentic-mcp-tools__memora__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: agentic-mcp-tools/memora
+        extracted_url: https://github.com/agentic-mcp-tools/memora
+        surrounding_text: "- [agentic-mcp-tools/memora](https://github.com/agentic-mcp-tools/memora) 🐍 🏠 ☁️ - Persistent memory with knowledge graph visualization, semantic/hybrid search, cloud sync (S3/R2), and cross-session context management."
+        confidence: high
+metadata:
+  github:
+    stars: 400
+    forks: 49
+    license: MIT
+    archived: false
+    created_at: "2025-09-19T09:44:12Z"
+    pushed_at: "2026-04-29T20:35:07Z"
+    description: Give your AI agents persistent memory.
+    homepage: ""
+    topics:
+      - ai-agent
+      - claude
+      - knowledge-graph
+      - llms
+      - mcp
+      - mcp-server
+      - memory
+      - rag
+      - semantic-search
+      - semantic-search-algorithm
+    last_checked_at: "2026-05-05T21:00:51.050Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:51.050Z"
+      bytes: 19669
+insights:
+  summary: A lightweight MCP server that provides persistent memory, semantic search, and knowledge graph capabilities for AI agents.
+  why_it_matters: It allows developers to add cross-session memory and contextual recall to their AI workflows via the Model Context Protocol.
+  mental_damage: We have finally solved the existential dread of a bot forgetting what it was doing five minutes ago, provided you are willing to self-host a graph database to do it.
+  tags:
+    - mcp
+    - memory
+    - knowledge-graph
+    - semantic-search
+    - persistent-storage
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly described as a lightweight MCP server for agent memory, fitting directly into the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description states: 'Give your AI agents persistent memory.'"
+    - README identifies it as a 'lightweight MCP server for semantic memory storage'.
+    - Topics include 'mcp-server' and 'knowledge-graph'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (400) exceeded threshold (150)
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:06:10.592Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.676Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:51.050Z"
+    cause: null
+    next_retry_at: null

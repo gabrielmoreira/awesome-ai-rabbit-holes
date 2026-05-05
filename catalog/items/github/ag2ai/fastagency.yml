@@ -1,0 +1,85 @@
+id: github__ag2ai__fastagency
+kind: github-repo
+name: fastagency
+canonical_url: https://github.com/ag2ai/fastagency
+identity:
+  github_repo: ag2ai/fastagency
+provenance:
+  discoveries:
+    - id: discovery__github__ag2ai__fastagency__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: scraped
+        section_path:
+          - FastAgency
+        anchor_text: FastAgency
+        extracted_url: https://fastagency.ai/latest
+        surrounding_text: "## [FastAgency](https://fastagency.ai/latest/)"
+        confidence: high
+metadata:
+  github:
+    stars: 537
+    forks: 64
+    license: Apache-2.0
+    archived: false
+    created_at: "2024-07-17T04:34:02Z"
+    pushed_at: "2026-02-23T00:49:21Z"
+    description: The fastest way to bring multi-agent workflows to production.
+    homepage: https://fastagency.ai/latest
+    topics:
+      - autogen
+      - llm
+      - mesop
+      - multiagent
+    last_checked_at: "2026-05-05T21:00:50.008Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:50.008Z"
+      bytes: 17315
+insights:
+  summary: FastAgency is an open-source Python framework that provides a unified interface for deploying multi-agent workflows built with the AG2 (formerly AutoGen) framework into production web and API environments.
+  why_it_matters: It allows developers to bridge the gap between AG2 Jupyter notebook prototypes and distributed, production-ready applications with minimal code changes.
+  mental_damage: We have officially reached the point where we need a framework to manage the framework that manages the agents that manage the code.
+  tags:
+    - multi-agent
+    - ag2
+    - autogen
+    - production
+    - orchestration
+  confidence: high
+curation:
+  status: included
+  reason: It is a code-first SDK and framework designed for developers to import and use in their Python applications to scale AG2 agent workflows, fitting the ai-frameworks definition.
+  evidence:
+    - Repo description states it is 'The fastest way to bring multi-agent workflows to production.'
+    - README explicitly says it is a framework providing a 'unified programming interface' for AG2 workflows.
+    - Project is actively maintained (pushed_at 2026-02-23) with 537 stars and an Apache-2.0 license.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (537) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.676Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:50.008Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:05:58.098Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,101 @@
+id: github__danny-avila__librechat
+kind: github-repo
+name: librechat
+canonical_url: https://github.com/danny-avila/librechat
+identity:
+  github_repo: danny-avila/librechat
+provenance:
+  discoveries:
+    - id: discovery__github__danny-avila__librechat__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: scraped
+        section_path:
+          - Clients
+        anchor_text: LibreChat
+        extracted_url: https://www.librechat.ai
+        surrounding_text: "- **[LibreChat](https://www.librechat.ai/)** Open-source AI Web UI, supporting multiple providers including OpenAI, Anthropic, Google, Ollama, and local models. Includes MCP support for Agents."
+        confidence: high
+metadata:
+  github:
+    stars: 36591
+    forks: 7495
+    license: MIT
+    archived: false
+    created_at: "2023-02-12T01:06:52Z"
+    pushed_at: "2026-05-05T20:53:57Z"
+    description: "Enhanced ChatGPT Clone: Features Agents, MCP, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active."
+    homepage: https://librechat.ai/
+    topics:
+      - ai
+      - anthropic
+      - artifacts
+      - aws
+      - azure
+      - chatgpt
+      - chatgpt-clone
+      - claude
+      - clone
+      - deepseek
+      - gemini
+      - google
+      - gpt-5
+      - librechat
+      - mcp
+      - o1
+      - openai
+      - responses-api
+      - vision
+      - webui
+    last_checked_at: "2026-05-05T21:01:46.404Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:46.404Z"
+      bytes: 11032
+insights:
+  summary: A self-hostable, open-source AI chat interface that unifies access to dozens of AI providers, supports the Model Context Protocol (MCP), and includes a no-code agent builder with code interpretation capabilities.
+  why_it_matters: It gives developers a single, private, and extensible frontend to orchestrate models and local agents without surrendering their API keys or data to a dozen disjointed SaaS dashboards.
+  mental_damage: You now have 36,000 stars worth of motivation to host yet another 'universal' chat interface that supports every model except the one that actually solves your problem.
+  tags:
+    - self-hosted
+    - mcp
+    - chat-ui
+    - agents
+    - multi-model
+  confidence: high
+curation:
+  status: included
+  reason: LibreChat is a self-hosted, developer-facing chat interface that centralizes local and remote AI models, fits the 'run AI on your own hardware' ethos, and includes deep MCP integration for tooling.
+  evidence:
+    - Repo description explicitly cites 'open-source for self-hosting' and lists 'MCP' alongside local providers like Ollama.
+    - README highlights 'Code Interpreter API' with sandboxed execution and 'LibreChat Agents' with an Agent Marketplace.
+    - Massive traction (36,591 stars) and active development (pushed 2026-05-05) confirm it is a living developer tool, not a dead clone.
+placement:
+  primary_category: local-ai
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (36591) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.684Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:46.404Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:15:21.645Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

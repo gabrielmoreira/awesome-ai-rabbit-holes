@@ -1,0 +1,100 @@
+id: github__delano__postman-mcp-server
+kind: github-repo
+name: postman-mcp-server
+canonical_url: https://github.com/delano/postman-mcp-server
+identity:
+  github_repo: delano/postman-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__delano__postman-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: delano/postman-mcp-server
+        extracted_url: https://github.com/delano/postman-mcp-server
+        surrounding_text: "- [delano/postman-mcp-server](https://github.com/delano/postman-mcp-server) 📇 ☁️ - Interact with [Postman API](https://www.postman.com/postman/postman-public-workspace/)"
+        confidence: high
+    - id: discovery__github__delano__postman-mcp-server__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - 💻 Developer Tools
+        anchor_text: "@delano/postman-mcp-server"
+        extracted_url: https://github.com/delano/postman-mcp-server
+        surrounding_text: "-   **[@delano/postman-mcp-server](https://github.com/delano/postman-mcp-server)** [![GitHub stars](https://img.shields.io/github/stars/delano/postman-mcp-server?style=social)](https://github.com/delano/postman-mcp-server): Interacts with the Postman API."
+        confidence: high
+metadata:
+  github:
+    stars: 148
+    forks: 31
+    license: MIT
+    archived: false
+    created_at: "2024-12-14T06:36:19Z"
+    pushed_at: "2026-02-11T11:33:23Z"
+    description: An MCP server that provides access to Postman.
+    homepage: https://www.postman.com/postman/postman-public-workspace/
+    topics:
+      - anthropic
+      - claude
+      - mcp
+    last_checked_at: "2026-05-05T21:01:51.266Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:51.266Z"
+      bytes: 10518
+insights:
+  summary: An MCP server that exposes the Postman API as tools, allowing AI assistants like Claude and Cline to manage collections, environments, and APIs programmatically.
+  why_it_matters: It allows developers to automate Postman workspace management—such as forking collections and managing environments—directly through natural language conversations with their coding agents.
+  mental_damage: We have successfully reached the point where an AI writes a server so another AI can authenticate to a cloud dashboard to organize the JSON files that the first AI generated.
+  tags:
+    - mcp
+    - postman
+    - api-testing
+    - cline
+    - anthropic
+  confidence: high
+curation:
+  status: included
+  reason: The repository is specifically an MCP server implementation designed to bridge AI assistants with the Postman API, fitting directly into the MCP infrastructure category.
+  evidence:
+    - "Repo description explicitly states: 'An MCP server that provides access to Postman.'"
+    - README confirms it is a 'TypeScript-based MCP server that integrates with the Postman API.'
+    - Listed in 'awesome-mcp-servers' under 'Developer Tools', confirming its role in the MCP ecosystem.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.665Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:51.266Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:16:06.355Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

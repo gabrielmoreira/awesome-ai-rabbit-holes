@@ -1,0 +1,82 @@
+id: github__arnstarn__mcp-server-spotinst
+kind: github-repo
+name: mcp-server-spotinst
+canonical_url: https://github.com/arnstarn/mcp-server-spotinst
+identity:
+  github_repo: arnstarn/mcp-server-spotinst
+provenance:
+  discoveries:
+    - id: discovery__github__arnstarn__mcp-server-spotinst__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
+        anchor_text: arnstarn/mcp-server-spotinst
+        extracted_url: https://github.com/arnstarn/mcp-server-spotinst
+        surrounding_text: "- [arnstarn/mcp-server-spotinst](https://github.com/arnstarn/mcp-server-spotinst) [![arnstarn/mcp-server-spotinst MCP server](https://glama.ai/mcp/servers/arnstarn/mcp-server-spotinst/badges/score.svg)](https://glama.ai/mcp/servers/arnstarn/mcp-server-spotinst) 🐍 ☁️ - MCP server for Spot.io (Spotinst) API with 23 tools for managing Ocean clusters, VNGs, Elastigroups, costs, right-sizing, and logs across AWS and Azure with multi-account support."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-03-21T00:33:02Z"
+    pushed_at: "2026-05-05T14:23:05Z"
+    description: MCP server for Spot.io (Spotinst) API - Ocean clusters, VNGs, Elastigroups, costs, right-sizing across AWS and Azure
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:01:09.619Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:09.619Z"
+      bytes: 6101
+insights:
+  summary: An MCP server that exposes 34 tools for managing Spot.io Ocean clusters, Virtual Node Groups, Elastigroups, and cost analysis across AWS and Azure accounts via the Spotinst API.
+  why_it_matters: It lets developers query multi-account Kubernetes infrastructure, trigger rolling restarts, and export cluster YAML directly from an AI agent instead of jumping between the Spot console and CLI.
+  mental_damage: We have reached the point where your AI agent now needs its own delegated permissions to gracefully drain pods and right-size your cloud bill while you pretend to be doing architecture work.
+  tags:
+    - mcp
+    - spotinst
+    - devops
+    - kubernetes
+    - cloud
+  confidence: medium
+curation:
+  status: included
+  reason: The project is a standalone MCP server implementation that integrates Spot.io infrastructure management into MCP-compatible AI tools, cleanly fitting the MCP category.
+  evidence:
+    - Repo description explicitly states 'MCP server for Spot.io (Spotinst) API'
+    - README documents 34 tools and provides configuration examples for Claude Code and MCP client setup
+    - Listed in awesome-mcp-servers under 'Server Implementations > Cloud Platforms'
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.679Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:09.619Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:09:05.317Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

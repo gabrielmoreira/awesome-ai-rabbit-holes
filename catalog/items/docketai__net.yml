@@ -1,0 +1,74 @@
+id: docketai__net
+kind: website
+name: docketai.net
+canonical_url: https://docketai.net
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__docketai__net__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Docket AI
+        anchor_text: Docket AI
+        extracted_url: https://docketai.net
+        surrounding_text: "## [Docket AI](https://docketai.net/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Docket AI is an autonomous AI agent listed among curated collections of agent-based tools.
+  why_it_matters: It represents the growing ecosystem of autonomous agents that developers are evaluating for task automation and workflow delegation.
+  mental_damage: Yet another entry in the increasingly crowded agent directory economy, where the primary innovation is often just a new way to organize the same list of autonomous helpers.
+  tags:
+    - ai-agents
+    - agent-directory
+  confidence: medium
+curation:
+  status: excluded
+  reason: The project is a website or directory with no developer-tooling functionality, code-level integration, or source code provided, making it a resource link rather than a usable developer tool.
+  evidence:
+    - No repository description, README, or code details provided to explain what the tool actually does for developers.
+    - Appears in awesome-ai-agents as a listed item, but the URL points to a website rather than a developer tool or framework.
+    - Lack of technical details, license, or code signals indicates this is a product page or directory entry, not a tool for the catalog.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.727Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:43:52.664Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

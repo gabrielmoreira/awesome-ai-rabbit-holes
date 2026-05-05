@@ -1,0 +1,100 @@
+id: github__open-compass__vlmevalkit
+kind: github-repo
+name: vlmevalkit
+canonical_url: https://github.com/open-compass/vlmevalkit
+identity:
+  github_repo: open-compass/vlmevalkit
+provenance:
+  discoveries:
+    - id: discovery__github__open-compass__vlmevalkit__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 评估 Evaluation
+        anchor_text: VLMEvalKit
+        extracted_url: https://github.com/open-compass/vlmevalkit
+        surrounding_text: "9. [VLMEvalKit](https://github.com/open-compass/VLMEvalKit): Open-source evaluation toolkit of large vision-language models (LVLMs), support ~100 VLMs, 40+ benchmarks."
+        confidence: high
+metadata:
+  github:
+    stars: 4109
+    forks: 689
+    license: Apache-2.0
+    archived: false
+    created_at: "2023-12-01T08:18:11Z"
+    pushed_at: "2026-04-29T13:04:41Z"
+    description: Open-source evaluation toolkit of large multi-modality models (LMMs), support 220+ LMMs, 80+ benchmarks
+    homepage: https://huggingface.co/spaces/opencompass/open_vlm_leaderboard
+    topics:
+      - chatgpt
+      - claude
+      - clip
+      - computer-vision
+      - evaluation
+      - gemini
+      - gpt
+      - gpt-4v
+      - gpt4
+      - large-language-models
+      - llava
+      - llm
+      - multi-modal
+      - openai
+      - openai-api
+      - pytorch
+      - qwen
+      - vit
+      - vqa
+    last_checked_at: "2026-05-05T21:04:02.750Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:02.750Z"
+      bytes: 14787
+insights:
+  summary: An open-source evaluation toolkit for large vision-language models that supports one-command benchmarking across 220+ LMMs and 80+ benchmarks.
+  why_it_matters: It lets developers reliably measure and compare multimodal model performance without wrestling with data prep across multiple repositories.
+  mental_damage: Because nothing says 'we have achieved AGI' quite like spending three weeks tuning an eval harness to confirm your model still can't count the fingers in an image.
+  tags:
+    - eval
+    - vision-language
+    - benchmark
+    - multimodal
+    - llm
+  confidence: high
+curation:
+  status: included
+  reason: The project is a dedicated evaluation harness and benchmark toolkit for multimodal models, which fits squarely into the Evaluations and Benchmarks category.
+  evidence:
+    - Repo description states it is an 'Open-source evaluation toolkit of large multi-modality models', supporting 220+ LMMs and 80+ benchmarks.
+    - README excerpt confirms it is an 'open-source evaluation toolkit' enabling 'one-command evaluation' of LVLMs on various benchmarks.
+    - Listed in awesome-LLM-resources under the '评估 Evaluation' (Evaluation) section.
+placement:
+  primary_category: evals
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (4109) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.711Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:02.750Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:42:15.058Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

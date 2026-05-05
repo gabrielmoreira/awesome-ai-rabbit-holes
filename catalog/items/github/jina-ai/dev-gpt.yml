@@ -1,0 +1,81 @@
+id: github__jina-ai__dev-gpt
+kind: github-repo
+name: dev-gpt
+canonical_url: https://github.com/jina-ai/dev-gpt
+identity:
+  github_repo: jina-ai/dev-gpt
+provenance:
+  discoveries:
+    - id: discovery__github__jina-ai__dev-gpt__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - DevGPT
+        anchor_text: DevGPT
+        extracted_url: https://github.com/jina-ai/dev-gpt
+        surrounding_text: "## [DevGPT](https://github.com/jina-ai/dev-gpt)"
+        confidence: high
+metadata:
+  github:
+    stars: 1865
+    forks: 169
+    license: Apache-2.0
+    archived: false
+    created_at: "2023-03-17T09:42:56Z"
+    pushed_at: "2023-08-01T09:42:54Z"
+    description: Your Virtual Development Team
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:02:55.358Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:55.358Z"
+      bytes: 20820
+insights:
+  summary: Dev-GPT is a CLI tool that simulates a virtual development team (Product Manager, Developer, DevOps) to generate, run, and deploy microservices from text descriptions using GPT-3.5 or GPT-4.
+  why_it_matters: It lets developers scaffold and deploy complete microservices locally or to the cloud with minimal manual coding, fitting rapid prototyping and side-project workflows.
+  mental_damage: Because nothing builds confidence in your architecture like letting a 2023-era GPT-4 iterate blindly for fifteen minutes and then Dockerizing whatever it settles on.
+  tags:
+    - microservices
+    - cli
+    - code-generation
+    - gpt-4
+    - scaffolding
+  confidence: medium
+curation:
+  status: included
+  reason: The tool is a prompt-to-project generator that creates entire microservices from descriptions and deploys them, which aligns with app-builders rather than a coding agent that collaborates inside an existing repo or IDE.
+  evidence:
+    - Repo description positions it as 'Your Virtual Development Team' that builds microservices from prompts rather than editing existing codebases.
+    - README shows it generates, runs, and deploys standalone microservices from a description, with iterative test-and-fix cycles and cloud deployment via Jina.
+    - Last push was 2023-08-01 and it is listed under awesome-ai-agents as a dev-targeted generation tool, reinforcing its fit as a project builder rather than an IDE agent.
+placement:
+  primary_category: app-builders
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1865) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.700Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:55.358Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:28:24.318Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,81 @@
+id: github__huggingface__optimum-tpu
+kind: github-repo
+name: optimum-tpu
+canonical_url: https://github.com/huggingface/optimum-tpu
+identity:
+  github_repo: huggingface/optimum-tpu
+provenance:
+  discoveries:
+    - id: discovery__github__huggingface__optimum-tpu__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Optimizations
+        anchor_text: optimum-tpu
+        extracted_url: https://github.com/huggingface/optimum-tpu
+        surrounding_text: "| [optimum-tpu](https://github.com/huggingface/optimum-tpu)                         | Google TPU optimizations for transformers models                                                                                 | ![GitHub Badge](https://img.shields.io/github/stars/huggingface/optimum-tpu.svg?style=flat-square)       |"
+        confidence: high
+metadata:
+  github:
+    stars: 138
+    forks: 29
+    license: Apache-2.0
+    archived: true
+    created_at: "2024-02-12T08:54:38Z"
+    pushed_at: "2026-01-23T10:13:27Z"
+    description: Google TPU optimizations for transformers models
+    homepage: https://huggingface.co/docs/optimum-tpu
+    topics: []
+    last_checked_at: "2026-05-05T21:02:37.375Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:37.375Z"
+      bytes: 3823
+insights:
+  summary: A Hugging Face library providing optimizations and integrations to train and run inference for transformer models on Google Cloud TPUs.
+  why_it_matters: It allows developers to leverage Google's TPU hardware for LLM training and inference using familiar Hugging Face APIs and tools like Text Generation Inference.
+  mental_damage: Now you can experience the unique thrill of debugging OOM errors on hardware you can't actually see, courtesy of a library that is already in maintenance mode.
+  tags:
+    - tpu
+    - huggingface
+    - inference
+    - training
+    - google-cloud
+  confidence: high
+curation:
+  status: excluded
+  reason: The repository is explicitly archived and in maintenance mode, signaling that active development has ceased in favor of other solutions like vLLM's tpu-inference.
+  evidence:
+    - "Repo status is 'archived: yes' and the README banner states '🚧 Optimum-TPU is now in maintenance mode.'"
+    - "The project redirects users to alternative solutions: 'tpu-inference' for inference and '🤗 Accelerate' for training."
+    - Low stars (138) and niche infrastructure focus suggest this is a deprecated backend rather than active developer tooling.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: needs_review
+  reason: Repository is archived
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.697Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:37.375Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:24:37.466Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

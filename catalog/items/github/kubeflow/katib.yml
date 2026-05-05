@@ -1,0 +1,95 @@
+id: github__kubeflow__katib
+kind: github-repo
+name: katib
+canonical_url: https://github.com/kubeflow/katib
+identity:
+  github_repo: kubeflow/katib
+provenance:
+  discoveries:
+    - id: discovery__github__kubeflow__katib__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - AutoML
+        anchor_text: Katib
+        extracted_url: https://github.com/kubeflow/katib
+        surrounding_text: "| [Katib](https://github.com/kubeflow/katib)                                   | Katib is a Kubernetes-native project for automated machine learning (AutoML).                                                                                                   | ![GitHub Badge](https://img.shields.io/github/stars/kubeflow/katib.svg?style=flat-square)                  |"
+        confidence: high
+metadata:
+  github:
+    stars: 1683
+    forks: 522
+    license: Apache-2.0
+    archived: false
+    created_at: "2018-04-03T17:07:12Z"
+    pushed_at: "2026-04-14T01:21:37Z"
+    description: Automated Machine Learning on Kubernetes
+    homepage: https://www.kubeflow.org/docs/components/katib
+    topics:
+      - ai
+      - automl
+      - huggingface
+      - hyperparameter-tuning
+      - jax
+      - kubeflow
+      - kubernetes
+      - llm
+      - machine-learning
+      - mlops
+      - neural-architecture-search
+      - pytorch
+      - scikit-learn
+      - tensorflow
+    last_checked_at: "2026-05-05T21:03:08.722Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:08.722Z"
+      bytes: 8206
+insights:
+  summary: Kubeflow Katib is a Kubernetes-native automated machine learning (AutoML) project that supports hyperparameter tuning, early stopping, and neural architecture search for ML frameworks.
+  why_it_matters: It allows developers to automate the tedious search for optimal model configurations directly within their Kubernetes infrastructure using familiar ML frameworks.
+  mental_damage: Because nothing says 'focus on shipping features' like spinning up a Kubernetes cluster just to ask an algorithm to guess your learning rate for you.
+  tags:
+    - automl
+    - kubernetes
+    - hyperparameter-tuning
+    - mlops
+    - kubeflow
+  confidence: high
+curation:
+  status: excluded
+  reason: Katib is a general machine learning infrastructure tool for model tuning, not a developer-facing AI tool for writing, editing, or assisting with source code.
+  evidence:
+    - Repo description explicitly states 'Automated Machine Learning on Kubernetes', focusing on model training rather than code generation.
+    - README focuses on Hyperparameter Tuning, Early Stopping, and Neural Architecture Search for frameworks like TensorFlow and PyTorch.
+    - Listed in Awesome-LLMOps under 'AutoML', which is infrastructure for ML practitioners, not software development tooling.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1683) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.702Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:08.722Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:31:25.312Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

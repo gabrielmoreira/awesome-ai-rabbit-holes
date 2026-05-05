@@ -1,0 +1,83 @@
+id: github__openclaw__clawhub
+kind: github-repo
+name: clawhub
+canonical_url: https://github.com/openclaw/clawhub
+identity:
+  github_repo: openclaw/clawhub
+provenance:
+  discoveries:
+    - id: discovery__github__openclaw__clawhub__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: scraped
+        section_path:
+          - 技能 Skills
+        anchor_text: ClawHub
+        extracted_url: https://clawhub.ai
+        surrounding_text: 5. [ClawHub](https://clawhub.ai/)
+        confidence: high
+metadata:
+  github:
+    stars: 8439
+    forks: 1302
+    license: MIT
+    archived: false
+    created_at: "2026-01-03T13:49:41Z"
+    pushed_at: "2026-05-05T20:54:44Z"
+    description: Skill Directory for OpenClaw
+    homepage: https://clawhub.ai
+    topics:
+      - directory
+      - skill
+    last_checked_at: "2026-05-05T21:04:04.784Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:04.784Z"
+      bytes: 8102
+insights:
+  summary: ClawHub is a public registry and CLI for publishing, versioning, searching, and installing text-based agent skills and plugins for the OpenClaw ecosystem.
+  why_it_matters: It gives developers a centralized, versioned, and vector-searchable way to share and reuse agent skill definitions, reducing duplicated effort when extending OpenClaw-powered workflows.
+  mental_damage: We have now reached the point where agents need their own npm-style registries, so you can npm install your way into an identity crisis via SKILL.md files.
+  tags:
+    - skills
+    - registry
+    - cli
+    - openclaw
+    - agent-tooling
+  confidence: high
+curation:
+  status: included
+  reason: This is a dedicated skill directory and registry for reusable agent skills and plugins, which clearly fits the skills category.
+  evidence:
+    - "Repo description states: 'Skill Directory for OpenClaw'."
+    - "README says: 'ClawHub is the public skill registry for OpenClaw: publish, version, and search text-based agent skills (a SKILL.md plus supporting files).'"
+    - Seen in awesome-LLM-resources under section '技能 Skills' as 'a fast skill registry for agents, with vector search'.
+placement:
+  primary_category: skills
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (8439) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.711Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:04.784Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:42:35.593Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

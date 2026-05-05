@@ -1,0 +1,93 @@
+id: github__josuem1109__personal-finance-mcp
+kind: github-repo
+name: personal-finance-mcp
+canonical_url: https://github.com/josuem1109/personal-finance-mcp
+identity:
+  github_repo: josuem1109/personal-finance-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__josuem1109__personal-finance-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: JosueM1109/personal-finance-mcp
+        extracted_url: https://github.com/josuem1109/personal-finance-mcp
+        surrounding_text: "- [JosueM1109/personal-finance-mcp](https://github.com/JosueM1109/personal-finance-mcp) [![JosueM1109/personal-finance-mcp MCP server](https://glama.ai/mcp/servers/JosueM1109/personal-finance-mcp/badges/score.svg)](https://glama.ai/mcp/servers/JosueM1109/personal-finance-mcp) 🐍 ☁️ 🏠 - Self-hosted, read-only MCP server that connects banks, credit cards, loans, and brokerage accounts via Plaid. 9 tools for balances, transactions, recurring charges, liabilities, and investment holdings."
+        confidence: high
+metadata:
+  github:
+    stars: 3
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-04-20T17:18:04Z"
+    pushed_at: "2026-04-20T21:11:25Z"
+    description: Self-hosted, read-only MCP server for personal finance. Connect your banks via Plaid and query them from Claude Code.
+    homepage: ""
+    topics:
+      - claude
+      - claude-code
+      - fastmcp
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - personal-finance
+      - plaid
+      - plaid-api
+      - python
+      - self-hosted
+    last_checked_at: "2026-05-05T21:02:59.482Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:59.482Z"
+      bytes: 6882
+insights:
+  summary: A self-hosted, read-only MCP server that connects personal finance accounts via Plaid to MCP clients like Claude Code for natural language queries.
+  why_it_matters: It allows developers to apply their existing AI coding workflows to personal finance data without relying on third-party aggregators or sharing credentials with external services.
+  mental_damage: We have successfully abstracted away the chore of logging into a banking portal by making it a Dockerized microservice that requires a Plaid API key and a Python 3.11 environment.
+  tags:
+    - mcp
+    - plaid
+    - self-hosted
+    - finance
+    - claude-code
+  confidence: medium
+curation:
+  status: included
+  reason: The project is a distinct MCP server implementation designed to expose financial data to AI clients, fitting the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states it is a 'self-hosted, read-only MCP server'.
+    - README details 9 specific MCP tools (e.g., list_accounts, get_transactions) served over HTTP.
+    - Listed in awesome-mcp-servers under the Finance & Fintech section.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.700Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:59.482Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:29:20.271Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

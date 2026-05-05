@@ -1,0 +1,82 @@
+id: github__harnesslab__claw-code-agent
+kind: github-repo
+name: claw-code-agent
+canonical_url: https://github.com/harnesslab/claw-code-agent
+identity:
+  github_repo: harnesslab/claw-code-agent
+provenance:
+  discoveries:
+    - id: discovery__github__harnesslab__claw-code-agent__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Terminal-native coding agents
+          - Open Source
+        anchor_text: claw-code-agent
+        extracted_url: https://github.com/harnesslab/claw-code-agent
+        surrounding_text: "- **[claw-code-agent](https://github.com/HarnessLab/claw-code-agent)** `⭐ 450` — Python-only Claude Code rewrite with zero external dependencies; born from the March 2026 Claude Code source leak, positioned as easier to hack on than the Rust/TypeScript reimplementations."
+        confidence: high
+metadata:
+  github:
+    stars: 457
+    forks: 199
+    license: null
+    archived: false
+    created_at: "2026-04-01T19:41:37Z"
+    pushed_at: "2026-04-22T23:09:27Z"
+    description: " Claw Code No Rust No TypeScript Only Python. Easy to work with. Fast to iterate. 🔥 Zero external dependencies 🔥"
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:02:31.310Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:31.310Z"
+      bytes: 48278
+insights:
+  summary: A Python-based, zero-dependency reimplementation of the Claude Code agent architecture that supports local models via vLLM, Ollama, and LiteLLM, featuring a CLI, plugin system, and a local web GUI.
+  why_it_matters: It offers developers a fully local, MIT-licensed coding agent they can run, audit, and extend without relying on external cloud APIs or heavy TypeScript runtimes.
+  mental_damage: Yet another attempt to clone the proprietary agent workflow in Python because apparently we needed a local, dependency-free way to automate our own obsolescence.
+  tags:
+    - local-ai
+    - cli
+    - python
+    - coding-agent
+    - open-source
+  confidence: high
+curation:
+  status: included
+  reason: The project is a terminal-native coding agent designed to plan, write, and edit code locally, which aligns perfectly with the coding-agents category and its CLI section.
+  evidence:
+    - Repo description explicitly states 'Claw Code No Rust No TypeScript Only Python' targeting a local agent architecture.
+    - README pitches it as 'A Python reimplementation of the Claude Code agent architecture — local models, full control, zero dependencies.'
+    - Listed under 'Terminal-native coding agents > Open Source' in the awesome-cli-coding-agents directory.
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (457) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.690Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:31.310Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:23:35.955Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

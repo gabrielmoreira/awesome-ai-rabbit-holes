@@ -1,0 +1,81 @@
+id: github__gregario__brewers-almanack
+kind: github-repo
+name: brewers-almanack
+canonical_url: https://github.com/gregario/brewers-almanack
+identity:
+  github_repo: gregario/brewers-almanack
+provenance:
+  discoveries:
+    - id: discovery__github__gregario__brewers-almanack__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: gregario/brewers-almanack
+        extracted_url: https://github.com/gregario/brewers-almanack
+        surrounding_text: "- [gregario/brewers-almanack](https://github.com/gregario/brewers-almanack) [![gregario/brewers-almanack MCP server](https://glama.ai/mcp/servers/gregario/brewers-almanack/badges/score.svg)](https://glama.ai/mcp/servers/gregario/brewers-almanack) 📇 🏠 - A brewing knowledge MCP server with beer styles (BJCP 2021), 113 hop varieties, malts, yeasts, water profiles, off-flavour diagnosis, recipe suggestions, and food pairings."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-03-14T19:25:20Z"
+    pushed_at: "2026-05-02T20:54:32Z"
+    description: A brewing knowledge MCP server — beer styles, ingredients, off-flavour diagnosis, water chemistry, and recipe guidance for AI brewing assistants
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:27.443Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:27.443Z"
+      bytes: 6692
+insights:
+  summary: An MCP server that provides brewing knowledge, including beer styles, ingredients, off-flavour diagnosis, water chemistry, and recipe guidance for AI assistants.
+  why_it_matters: It allows developers building AI brewing assistants or working with MCP-compatible IDEs to ground their models in structured BJCP and brewing science data rather than relying on hallucinations.
+  mental_damage: We have finally reached the point where we are provisioning structured knowledge servers for AI to help us perfect a hobby that primarily exists to impair our judgement.
+  tags:
+    - mcp
+    - brewing
+    - knowledge-base
+    - nodejs
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server providing tooling for AI assistants, which fits cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description identifies it as 'A brewing knowledge MCP server'.
+    - README states it provides '6 tools' and 'Works with every MCP-compatible IDE' including Claude, Cursor, and VS Code.
+    - Listed in the awesome-mcp-servers list under 'Knowledge & Memory'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.690Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:27.443Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:22:52.234Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

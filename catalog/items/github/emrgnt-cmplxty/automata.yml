@@ -1,0 +1,88 @@
+id: github__emrgnt-cmplxty__automata
+kind: github-repo
+name: automata
+canonical_url: https://github.com/emrgnt-cmplxty/automata
+identity:
+  github_repo: emrgnt-cmplxty/automata
+provenance:
+  discoveries:
+    - id: discovery__github__emrgnt-cmplxty__automata__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Automata
+        anchor_text: Automata
+        extracted_url: https://github.com/emrgnt-cmplxty/automata
+        surrounding_text: "## [Automata](https://github.com/emrgnt-cmplxty/automata)"
+        confidence: high
+metadata:
+  github:
+    stars: 678
+    forks: 111
+    license: Apache-2.0
+    archived: true
+    created_at: "2023-06-20T16:05:36Z"
+    pushed_at: "2023-09-05T21:24:32Z"
+    description: "Automata: A self-coding agent"
+    homepage: ""
+    topics:
+      - agi
+      - ai
+      - autonomous-agents
+      - autonomous-systems
+      - gpt
+      - gpt-4
+      - llm
+      - openai
+    last_checked_at: "2026-05-05T21:02:02.044Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:02.044Z"
+      bytes: 10762
+insights:
+  summary: Automata is an experimental, autonomous coding agent designed to self-program and evolve its own capabilities using LLMs and code graph indexing.
+  why_it_matters: It offers a look into the early architecture of self-modifying code agents that attempted to manage codebases and dependencies with minimal human intervention.
+  mental_damage: A self-programming agent that hasn't been touched in over a year is the perfect metaphor for the autonomous future where the AI also stops responding to your tickets.
+  tags:
+    - autonomous-agents
+    - self-coding
+    - agi
+    - experimental
+  confidence: high
+curation:
+  status: excluded
+  reason: The repository is archived and has shown no activity since September 2023, signaling it is no longer maintained or usable as a practical tool.
+  evidence:
+    - "Archived: yes (GitHub archive flag)"
+    - "Pushed at: 2023-09-05 (inactive for over a year)"
+    - README describes an experimental AGI objective rather than a stable developer tool
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: needs_review
+  reason: Repository is archived
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.686Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:02.044Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:18:01.274Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,80 @@
+id: github__fibery-inc__fibery-mcp-server
+kind: github-repo
+name: fibery-mcp-server
+canonical_url: https://github.com/fibery-inc/fibery-mcp-server
+identity:
+  github_repo: fibery-inc/fibery-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__fibery-inc__fibery-mcp-server__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Fibery
+        extracted_url: https://github.com/fibery-inc/fibery-mcp-server
+        surrounding_text: "- **[Fibery](https://github.com/Fibery-inc/fibery-mcp-server)** - Perform queries and entity operations in your [Fibery](https://fibery.io) workspace."
+        confidence: high
+metadata:
+  github:
+    stars: 30
+    forks: 18
+    license: MIT
+    archived: false
+    created_at: "2025-03-13T09:34:09Z"
+    pushed_at: "2026-01-20T07:26:44Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:11.052Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:11.052Z"
+      bytes: 3142
+insights:
+  summary: An MCP server that exposes Fibery workspace operations—querying databases, describing schemas, and creating or updating entities—to LLM clients like Claude for Desktop.
+  why_it_matters: Developers can manage Fibery workspaces through natural language conversations instead of manual UI navigation or custom API scripts.
+  mental_damage: We have successfully abstracted a productivity tool into a prompt, so you can now context-switch between your IDE and a chat window to update a database field.
+  tags:
+    - mcp
+    - fibery
+    - integration
+    - llm-tools
+  confidence: high
+curation:
+  status: included
+  reason: The project is a dedicated MCP server that integrates Fibery with MCP-compatible LLM clients, fitting cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - Repository name is fibery-mcp-server and the README states it is 'an MCP (Model Context Protocol) server' for Fibery integration.
+    - Included in the awesome-mcp-servers list under the 'Official Servers' section.
+    - Actively maintained with a pushed_at date of 2026-01-20 and an MIT license.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.687Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:11.052Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:19:34.160Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

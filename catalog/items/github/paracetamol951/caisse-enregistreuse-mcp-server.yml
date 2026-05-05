@@ -1,0 +1,85 @@
+id: github__paracetamol951__caisse-enregistreuse-mcp-server
+kind: github-repo
+name: caisse-enregistreuse-mcp-server
+canonical_url: https://github.com/paracetamol951/caisse-enregistreuse-mcp-server
+identity:
+  github_repo: paracetamol951/caisse-enregistreuse-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__paracetamol951__caisse-enregistreuse-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📊 <a name="data-platforms"></a>Data Platforms
+        anchor_text: paracetamol951/caisse-enregistreuse-mcp-server
+        extracted_url: https://github.com/paracetamol951/caisse-enregistreuse-mcp-server
+        surrounding_text: "- [paracetamol951/caisse-enregistreuse-mcp-server](https://github.com/paracetamol951/caisse-enregistreuse-mcp-server) 🏠 🐧 🍎 ☁️ - Allows you to automate or monitor business operations, sales recorder, POS software, CRM."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 2
+    license: GPL-3.0
+    archived: false
+    created_at: "2025-10-17T12:01:11Z"
+    pushed_at: "2026-04-25T11:56:56Z"
+    description: Kash.click MCP server [Official]
+    homepage: https://kash.click
+    topics:
+      - mcp
+      - mcp-server
+      - mcp-servers
+      - pos
+    last_checked_at: "2026-05-05T21:04:11.987Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:11.987Z"
+      bytes: 10605
+insights:
+  summary: An official MCP server for Kash.click that exposes POS, invoicing, CRM, and webshop operations as tools for Claude, ChatGPT, n8n, and other MCP-compatible clients.
+  why_it_matters: Developers integrating AI assistants with retail or hospitality workflows can let models manage orders, catalogs, and reports through natural language instead of building custom API wrappers.
+  mental_damage: We have finally reached the point where your croissant sales are validated by a large language model and your POS is one MCP tool call away from sentient accounting errors.
+  tags:
+    - mcp
+    - pos
+    - retail
+    - integration
+  confidence: high
+curation:
+  status: included
+  reason: The project is an official MCP server implementation that exposes a POS platform as tools to MCP-compatible AI clients, which clearly fits the MCP servers and tooling category.
+  evidence:
+    - Repo description explicitly states 'Kash.click MCP server [Official]'
+    - README describes 46 MCP tools for sales, catalog, customers, and reports exposed to Claude, ChatGPT, and n8n
+    - Listed in awesome-mcp-servers under Server Implementations > Data Platforms
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.712Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:11.987Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:43:49.180Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

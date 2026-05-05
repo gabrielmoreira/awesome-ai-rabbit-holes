@@ -1,0 +1,109 @@
+id: github__eyaltoledano__claude-task-master
+kind: github-repo
+name: claude-task-master
+canonical_url: https://github.com/eyaltoledano/claude-task-master
+identity:
+  github_repo: eyaltoledano/claude-task-master
+provenance:
+  discoveries:
+    - id: discovery__github__eyaltoledano__claude-task-master__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: eyaltoledano/claude-task-master
+        extracted_url: https://github.com/eyaltoledano/claude-task-master
+        surrounding_text: "- [eyaltoledano/claude-task-master](https://github.com/eyaltoledano/claude-task-master) 📇 ☁️ 🏠 - AI-powered task management system for AI-driven development. Features PRD parsing, task expansion, multi-provider support (Claude, OpenAI, Gemini, Perplexity, xAI), and selective tool loading for optimized context usage."
+        confidence: high
+    - id: discovery__github__eyaltoledano__claude-task-master__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Developer Productivity Tools
+        anchor_text: Task Master
+        extracted_url: https://github.com/eyaltoledano/claude-task-master
+        surrounding_text: "- **[Task Master](https://github.com/eyaltoledano/claude-task-master)** – AI-driven task management for development with Claude, designed for Cursor."
+        confidence: high
+metadata:
+  github:
+    stars: 27000
+    forks: 2519
+    license: NOASSERTION
+    archived: false
+    created_at: "2025-03-04T18:54:54Z"
+    pushed_at: "2026-04-28T13:27:12Z"
+    description: An AI-powered task-management system you can drop into Cursor, Lovable, Windsurf, Roo, and others.
+    homepage: https://tryhamster.com
+    topics:
+      - ai
+      - cursor
+      - cursor-ai
+      - cursorai
+      - lovable
+      - lovable-dev
+      - roocode
+      - task-manager
+      - tasks
+      - tasks-list
+      - windsurf
+      - windsurf-ai
+    last_checked_at: "2026-05-05T21:02:06.727Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:06.727Z"
+      bytes: 17421
+insights:
+  summary: An AI-powered task management system that integrates as an MCP server or CLI to break down requirements, manage dependencies, and orchestrate development tasks within AI coding environments like Cursor, Claude Code, and Windsurf.
+  why_it_matters: It gives AI coding assistants structured memory and project-level context, helping them handle multi-step features without losing track of the plan.
+  mental_damage: You now have a dedicated task manager to organize the hallucinations of the AI assistant that is supposedly organizing your own work.
+  tags:
+    - task-management
+    - mcp
+    - cursor
+    - cli
+    - context-engineering
+  confidence: high
+curation:
+  status: included
+  reason: The tool acts as a task-management and context layer that extends the capabilities of host AI coding assistants (like Cursor and Claude Code) rather than being a primary coding agent itself.
+  evidence:
+    - Repo description explicitly states it is 'An AI-powered task-management system you can drop into Cursor, Lovable, Windsurf, Roo, and others.'
+    - README confirms it is an MCP server and CLI designed to work 'seamlessly with any AI chat' and specific editors like Cursor.
+    - Included in awesome-mcp-servers under 'Developer Tools' and awesome-ai-coding-tools under 'Developer Productivity Tools'.
+placement:
+  primary_category: ai-dev-extensions
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (27000) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.665Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:06.727Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:18:51.179Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

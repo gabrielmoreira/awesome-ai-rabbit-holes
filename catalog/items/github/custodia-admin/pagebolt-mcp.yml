@@ -1,0 +1,90 @@
+id: github__custodia-admin__pagebolt-mcp
+kind: github-repo
+name: pagebolt-mcp
+canonical_url: https://github.com/custodia-admin/pagebolt-mcp
+identity:
+  github_repo: custodia-admin/pagebolt-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__custodia-admin__pagebolt-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📂 <a name="browser-automation"></a>Browser Automation
+        anchor_text: Custodia-Admin/pagebolt-mcp
+        extracted_url: https://github.com/custodia-admin/pagebolt-mcp
+        surrounding_text: "- [Custodia-Admin/pagebolt-mcp](https://github.com/Custodia-Admin/pagebolt-mcp) [![Custodia-Admin/pagebolt-mcp MCP server](https://glama.ai/mcp/servers/Custodia-Admin/pagebolt-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Custodia-Admin/pagebolt-mcp) 📇 ☁️ - MCP server for screenshots, PDFs, OG images, and narrated video recording from Claude Desktop, Cursor, and Windsurf."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-02-06T08:10:15Z"
+    pushed_at: "2026-03-30T09:10:29Z"
+    description: An MCP server to allow AI agents to interact with PageBolt to take screenshots, grab PDFs, and more.
+    homepage: ""
+    topics:
+      - ai-agents
+      - browser-automation
+      - mcp
+      - mcp-server
+      - mcp-servers
+      - pdf-generation
+      - puppeteer
+      - screenshot-api
+    last_checked_at: "2026-05-05T21:01:44.175Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:44.175Z"
+      bytes: 14522
+insights:
+  summary: An MCP server that connects AI assistants to PageBolt's web capture API to take screenshots, generate PDFs, inspect pages, and record browser automation sequences directly from chat.
+  why_it_matters: It lets developers delegate visual validation, PDF generation, and browser automation to their AI assistant without leaving the IDE or chat interface.
+  mental_damage: We have officially reached the point where agents need their own agents just to take a screenshot and pretend they looked at the page.
+  tags:
+    - mcp
+    - browser-automation
+    - screenshots
+    - pdf-generation
+    - pagebolt
+  confidence: high
+curation:
+  status: included
+  reason: The primary artifact is a dedicated MCP server that extends AI assistants with web capture and automation capabilities via the Model Context Protocol.
+  evidence:
+    - Repo description explicitly states it is 'An MCP server to allow AI agents to interact with PageBolt'.
+    - README confirms it works with Claude Desktop, Cursor, Windsurf, and Cline as an MCP-compatible server.
+    - Listed in awesome-mcp-servers under 'Browser Automation' server implementations.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.683Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:44.175Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:14:56.841Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

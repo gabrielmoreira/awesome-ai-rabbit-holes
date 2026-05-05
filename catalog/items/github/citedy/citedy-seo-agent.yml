@@ -1,0 +1,87 @@
+id: github__citedy__citedy-seo-agent
+kind: github-repo
+name: citedy-seo-agent
+canonical_url: https://github.com/citedy/citedy-seo-agent
+identity:
+  github_repo: citedy/citedy-seo-agent
+provenance:
+  discoveries:
+    - id: discovery__github__citedy__citedy-seo-agent__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🎯 <a name="marketing"></a>Marketing
+        anchor_text: Citedy/citedy-seo-agent
+        extracted_url: https://github.com/citedy/citedy-seo-agent
+        surrounding_text: "- [Citedy/citedy-seo-agent](https://github.com/Citedy/citedy-seo-agent) [![citedy-seo-agent MCP server](https://glama.ai/mcp/servers/@Citedy/citedy-seo-agent/badges/score.svg)](https://glama.ai/mcp/servers/@Citedy/citedy-seo-agent) 📇 ☁️ - Full-stack AI marketing toolkit with 41 MCP tools. Scout X/Reddit trends, analyze competitors, find content gaps, generate SEO articles in 55 languages with AI illustrations and voice-over, create social adaptations for 9 platforms, generate AI avatar videos with subtitles, ingest any URL (YouTube, PDF, audio), create lead magnets, and run content autopilot."
+        confidence: high
+metadata:
+  github:
+    stars: 10
+    forks: 2
+    license: MIT
+    archived: false
+    created_at: "2026-02-15T02:04:27Z"
+    pushed_at: "2026-05-05T13:21:45Z"
+    description: AI-powered SEO content automation agent skill — trend scouting, competitor analysis, article generation in 55 languages, social media adaptations, and cron-based sessions.
+    homepage: https://www.citedy.com
+    topics:
+      - agent-skills
+      - ai-agent
+      - autogpt
+      - content-marketing
+      - seo
+    last_checked_at: "2026-05-05T21:01:34.370Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:34.370Z"
+      bytes: 13943
+insights:
+  summary: An agent skill for Claude Code, OpenAI Codex, and other AI developer tools that automates SEO content workflows including trend scouting, competitor analysis, multilingual article generation, and social media publishing via the Citedy platform.
+  why_it_matters: Developers building content-driven products or automating marketing workflows can drop this skill into their existing AI coding assistant to handle the full SEO lifecycle without wiring multiple APIs by hand.
+  mental_damage: Your AI agent now has a more consistent publishing schedule than you do, and it generates lead magnets in 55 languages while your README is still half-finished.
+  tags:
+    - seo
+    - agent-skills
+    - content-automation
+    - mcp
+    - marketing
+  confidence: high
+curation:
+  status: included
+  reason: The primary artifact is a reusable agent skill pack distributed for Claude Code, Codex, Cursor, and other AI developer tools via openskills and skill-installer, which matches the skills category definition exactly.
+  evidence:
+    - Repo description explicitly calls it an 'AI-powered SEO content automation agent skill' with topics including agent-skills.
+    - README documents installation via /plugin in Claude Code, $skill-installer for Codex, and npx openskills install for universal compatibility.
+    - Listed in awesome-mcp-servers under Marketing, confirming it is recognized as an agent-usable skill rather than a standalone SaaS product.
+placement:
+  primary_category: skills
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.682Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:34.370Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:13:13.178Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

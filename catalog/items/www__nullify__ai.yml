@@ -1,0 +1,77 @@
+id: www__nullify__ai
+kind: website
+name: www.nullify.ai
+canonical_url: https://www.nullify.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__nullify__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Security
+        anchor_text: Nullify.ai
+        extracted_url: https://nullify.ai
+        surrounding_text: "- **[Nullify.ai](https://nullify.ai/)** – AI-powered security vulnerability detection."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Nullify is a hosted AI security workforce that autonomously finds, triages, and auto-resolves vulnerabilities in codebases by generating merge-ready fix PRs.
+  why_it_matters: It automates the entire AppSec lifecycle—from discovery to validated exploit proof to pull request—freeing developers from triaging false positives and writing boilerplate security fixes.
+  mental_damage: We’ve successfully automated the security engineer right out of a job, leaving developers to argue with an AI in Slack when their SLA is at risk of being breached.
+  tags:
+    - security
+    - automation
+    - appsec
+    - agentic
+    - vulnerability
+  confidence: high
+curation:
+  status: included
+  reason: While it generates code fixes, Nullify functions as a control plane and workforce system managing multiple AI agents to handle the autonomous workflow of product security, fitting the agent-orchestration definition over a direct coding assistant.
+  evidence:
+    - Source list awesome-ai-coding-tools categorizes it under 'Security' as 'AI security engineers that find, triage, and fix vulnerabilities 24/7'.
+    - Product description highlights a 'fleet of AI workers' that 'reason and act like a human security engineer' and utilize 'Campaigns' to manage tasks.
+    - Workflow includes opening 'merge-ready fix PRs' and escalating in Slack, operating as an autonomous layer above the repo rather than inside the IDE.
+placement:
+  primary_category: agent-orchestration
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.733Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:52:21.436Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

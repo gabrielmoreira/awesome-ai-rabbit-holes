@@ -1,0 +1,101 @@
+id: github__om-ai-lab__omagent
+kind: github-repo
+name: omagent
+canonical_url: https://github.com/om-ai-lab/omagent
+identity:
+  github_repo: om-ai-lab/omagent
+provenance:
+  discoveries:
+    - id: discovery__github__om-ai-lab__omagent__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 智能体 Agents
+        anchor_text: OmAgent
+        extracted_url: https://github.com/om-ai-lab/omagent
+        surrounding_text: "16. [OmAgent](https://github.com/om-ai-lab/OmAgent): A multimodal agent framework for solving complex tasks."
+        confidence: high
+metadata:
+  github:
+    stars: 2642
+    forks: 288
+    license: Apache-2.0
+    archived: false
+    created_at: "2024-07-04T17:48:43Z"
+    pushed_at: "2025-03-19T11:36:13Z"
+    description: "[EMNLP-2024] Build multimodal language agents for fast prototype and production"
+    homepage: https://om-agent.com
+    topics:
+      - agent
+      - chatbot
+      - gemini
+      - gpt
+      - gpt4
+      - gradio
+      - language-agent
+      - large-language-models
+      - llama
+      - llava
+      - llm
+      - multimodal
+      - multimodal-agent
+      - openai
+      - python
+      - rag
+      - smart-hardware
+      - vision-and-language
+      - vlm
+      - workflow
+    last_checked_at: "2026-05-05T21:04:00.968Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:00.968Z"
+      bytes: 7896
+insights:
+  summary: OmAgent is a Python library and framework for building multimodal language agents that support text, image, video, and audio inputs with graph-based workflow orchestration.
+  why_it_matters: It provides developers with reusable components and a simplified interface to prototype and deploy multimodal agents, including native support for VLMs and local model deployment via Ollama.
+  mental_damage: Another framework promising to hide the complex engineering of agent orchestration, ensuring you can spend your afternoon defining YAML configs instead of debugging the middleware it replaced.
+  tags:
+    - multimodal
+    - agent-framework
+    - python
+    - local-ai
+    - workflow-orchestration
+  confidence: high
+curation:
+  status: included
+  reason: The project is a code-first Python library and SDK for developers to build multimodal agents, fitting the AI Frameworks category rather than a hosted UI or IDE tool.
+  evidence:
+    - Repo description states it is for building multimodal language agents via a Python library.
+    - README explicitly describes it as a 'python library' and 'framework' with graph-based orchestration and local model support.
+    - Active development with recent push date (2025-03-19) and 2.6k stars indicates a living developer tool.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (2642) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.711Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:00.968Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:41:56.793Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

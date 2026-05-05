@@ -1,0 +1,101 @@
+id: github__awslabs__autogluon
+kind: github-repo
+name: autogluon
+canonical_url: https://github.com/awslabs/autogluon
+identity:
+  github_repo: awslabs/autogluon
+provenance:
+  discoveries:
+    - id: discovery__github__awslabs__autogluon__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - AutoML
+        anchor_text: AutoGluon
+        extracted_url: https://github.com/awslabs/autogluon
+        surrounding_text: "| [AutoGluon](https://github.com/awslabs/autogluon)                            | AutoML for Image, Text, and Tabular Data.                                                                                                                                       | ![GitHub Badge](https://img.shields.io/github/stars/awslabs/autogluon.svg?style=flat-square)               |"
+        confidence: high
+metadata:
+  github:
+    stars: 10284
+    forks: 1140
+    license: Apache-2.0
+    archived: false
+    created_at: "2019-07-29T18:51:24Z"
+    pushed_at: "2026-05-04T09:42:02Z"
+    description: Fast and Accurate ML in 3 Lines of Code
+    homepage: https://auto.gluon.ai/
+    topics:
+      - autogluon
+      - automated-machine-learning
+      - automl
+      - computer-vision
+      - data-science
+      - deep-learning
+      - ensemble-learning
+      - forecasting
+      - gluon
+      - hyperparameter-optimization
+      - machine-learning
+      - natural-language-processing
+      - object-detection
+      - python
+      - pytorch
+      - scikit-learn
+      - structured-data
+      - tabular-data
+      - time-series
+      - transfer-learning
+    last_checked_at: "2026-05-05T21:01:14.610Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:14.610Z"
+      bytes: 11385
+insights:
+  summary: AutoGluon is an AWS-developed open-source AutoML framework that trains and deploys high-accuracy models for tabular, text, image, and time series data with minimal code.
+  why_it_matters: It allows developers to integrate strong predictive performance into applications quickly without deep expertise in hyperparameter tuning or model selection.
+  mental_damage: Another entry in the 'three lines of code' hall of fame, promising that complex statistical modeling is now just a pip install away from your production outage.
+  tags:
+    - automl
+    - machine-learning
+    - aws
+    - framework
+    - predictive-models
+  confidence: high
+curation:
+  status: excluded
+  reason: Excluded because AutoGluon is a traditional machine learning library for training predictive models, not a developer-facing AI tool for coding, agent orchestration, or AI infrastructure.
+  evidence:
+    - Repo description and README define it as an AutoML tool for image, text, and tabular data, not a coding assistant.
+    - GitHub topics (automl, machine-learning, deep-learning) confirm it is a data science framework, not a developer tooling product.
+    - Source lists categorize it under AutoML in Awesome-LLMOps, which does not align with the catalog's focus on coding workflows.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (10284) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.440Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:14.610Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:09:50.483Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,90 @@
+id: github__ihor-sokoliuk__mcp-searxng
+kind: github-repo
+name: mcp-searxng
+canonical_url: https://github.com/ihor-sokoliuk/mcp-searxng
+identity:
+  github_repo: ihor-sokoliuk/mcp-searxng
+provenance:
+  discoveries:
+    - id: discovery__github__ihor-sokoliuk__mcp-searxng__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: SearXNG
+        extracted_url: https://github.com/ihor-sokoliuk/mcp-searxng
+        surrounding_text: "- **[SearXNG](https://github.com/ihor-sokoliuk/mcp-searxng)** - A Model Context Protocol Server for [SearXNG](https://docs.searxng.org)"
+        confidence: high
+metadata:
+  github:
+    stars: 751
+    forks: 116
+    license: MIT
+    archived: false
+    created_at: "2024-12-23T02:00:51Z"
+    pushed_at: "2026-04-28T19:40:29Z"
+    description: MCP Server for SearXNG
+    homepage: ""
+    topics:
+      - ai
+      - llm
+      - llm-agent
+      - mcp
+      - mcp-server
+      - mcp-servers
+      - mcp-tools
+      - search
+      - search-engine
+      - searxng
+    last_checked_at: "2026-05-05T21:02:41.267Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:41.267Z"
+      bytes: 6452
+insights:
+  summary: An MCP server that connects AI assistants to a SearXNG instance to provide web search and URL content reading capabilities.
+  why_it_matters: It allows coding agents and LLMs to perform grounded web searches and fetch page content without relying on proprietary search APIs.
+  mental_damage: Now your agent can argue with you about Stack Overflow answers in real-time instead of just hallucinating its own bad advice.
+  tags:
+    - mcp
+    - search
+    - searxng
+    - nodejs
+  confidence: high
+curation:
+  status: included
+  reason: The project is a standard MCP server implementation designed to extend AI tooling with search capabilities via the Model Context Protocol.
+  evidence:
+    - Repo description explicitly states 'MCP Server for SearXNG'.
+    - README details an MCP server process connecting AI assistants to SearXNG via HTTP JSON API.
+    - Listed in the awesome-mcp-servers directory under 'Community Servers'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (751) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.697Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:41.267Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:25:31.583Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

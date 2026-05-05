@@ -1,0 +1,81 @@
+id: github__davidan90__time-node-mcp
+kind: github-repo
+name: time-node-mcp
+canonical_url: https://github.com/davidan90/time-node-mcp
+identity:
+  github_repo: davidan90/time-node-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__davidan90__time-node-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: davidan90/time-node-mcp
+        extracted_url: https://github.com/davidan90/time-node-mcp
+        surrounding_text: "- [davidan90/time-node-mcp](https://github.com/davidan90/time-node-mcp) 📇 🏠 - Timezone-aware date and time operations with support for IANA timezones, timezone conversion, and Daylight Saving Time handling."
+        confidence: high
+metadata:
+  github:
+    stars: 3
+    forks: 3
+    license: MIT
+    archived: false
+    created_at: "2025-08-11T09:41:49Z"
+    pushed_at: "2025-08-11T09:43:43Z"
+    description: MCP server for timezone-aware date and time operations
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:01:47.871Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:47.871Z"
+      bytes: 5011
+insights:
+  summary: A lightweight Node.js MCP server that provides timezone-aware date and time operations to AI assistants via the Model Context Protocol.
+  why_it_matters: It solves the common problem of LLMs hallucinating dates and times by giving tools like Claude Desktop a reliable source of truth for timezone conversions and DST-aware calculations.
+  mental_damage: We have successfully reached the point where we need to install a dedicated server just to remind the all-knowing AI overlord what time it is in London.
+  tags:
+    - mcp
+    - timezone
+    - nodejs
+    - developer-tools
+  confidence: high
+curation:
+  status: included
+  reason: The project is a self-contained MCP server implementation designed to extend AI assistants with specific tooling capabilities, fitting the MCP category perfectly.
+  evidence:
+    - "Repo description explicitly states: 'MCP server for timezone-aware date and time operations'."
+    - README details integration with Claude Desktop via the Model Context Protocol configuration.
+    - Included in the 'awesome-mcp-servers' list under 'Server Implementations > Developer Tools'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.684Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:47.871Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:15:33.420Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

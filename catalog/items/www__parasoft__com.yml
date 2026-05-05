@@ -1,0 +1,77 @@
+id: www__parasoft__com
+kind: website
+name: www.parasoft.com
+canonical_url: https://www.parasoft.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__parasoft__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Testing and QA
+        anchor_text: Parasoft
+        extracted_url: https://www.parasoft.com
+        surrounding_text: "- **[Parasoft](https://www.parasoft.com/)** – AI-enhanced testing suite covering static analysis, unit testing, and API testing."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Parasoft is a commercial, AI-augmented automated testing and quality platform covering static analysis, unit testing, API testing, and service virtualization across the SDLC.
+  why_it_matters: It integrates agentic AI to generate tests, fix UI tests, and prioritize code violations directly within existing CI/CD pipelines and IDE workflows.
+  mental_damage: Just when you thought the 'AI fixed the bug' notification was the finish line, now you get to debug the AI that is managing the tests that are testing the AI-generated code.
+  tags:
+    - testing
+    - qa
+    - enterprise
+    - static-analysis
+    - ci-cd
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a heavyweight, enterprise-grade commercial testing suite rather than a developer-facing AI coding assistant, agent, or workflow tool that fits the catalog's focus on modern AI-native development tooling.
+  evidence:
+    - Product is a broad SDLC testing platform (C/C++test, Jtest, SOAtest) targeting safety-critical compliance, not a coding agent or app builder.
+    - Scraped context emphasizes 'compliance standards' (DO-178C, ISO 26262) and 'industries' (Automotive, Medical) rather than AI developer workflow automation.
+    - Listed in awesome-ai-coding-tools under 'Testing and QA', but the tool itself is traditional enterprise infrastructure with AI features added, not a core coding assistant.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.733Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:52:29.309Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

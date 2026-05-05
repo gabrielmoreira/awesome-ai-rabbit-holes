@@ -1,0 +1,94 @@
+id: marketplace__visualstudio__com__items
+kind: website
+name: items
+canonical_url: https://marketplace.visualstudio.com/items
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__marketplace__visualstudio__com__items__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: GistPad VS Code extension
+        extracted_url: https://aka.ms/gistpad
+        surrounding_text: "- [GistPad-MCP](https://github.com/lostintangent/gistpad-mcp) 📇 🏠 - Use GitHub Gists to manage and access your personal knowledge, daily notes, and reusable prompts. This acts as a companion to https://gistpad.dev and the [GistPad VS Code extension](https://aka.ms/gistpad)."
+        confidence: high
+    - id: discovery__marketplace__visualstudio__com__items__awesome-list__patrickjs__awesome-cursorrules
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: PatrickJS/awesome-cursorrules
+        url: https://github.com/patrickjs/awesome-cursorrules
+        repository: PatrickJS/awesome-cursorrules
+      extraction:
+        mode: parsed
+        section_path:
+          - How to Use
+          - Method Two
+        anchor_text: vscode-cursor-rules
+        extracted_url: https://marketplace.visualstudio.com/items
+        surrounding_text: 2. Install [vscode-cursor-rules](https://marketplace.visualstudio.com/items?itemName=BeilunYang.cursor-rules) extension.
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A Visual Studio Code extension for managing GitHub Gists and repositories as a virtual filesystem, with an integrated MCP server for interacting with snippets via Copilot chat.
+  why_it_matters: It lets developers treat GitHub as a lightweight knowledge base and code snippet library without cloning repos, while enabling AI assistants to directly read and manipulate that knowledge.
+  mental_damage: Finally, an extension to manage the gists you hoard but never look at, now accessible via an AI agent that will happily summarize code you forgot you wrote.
+  tags:
+    - vscode-extension
+    - github-gists
+    - mcp-server
+    - knowledge-management
+    - copilot
+  confidence: high
+curation:
+  status: included
+  reason: The project is included under MCP because it explicitly ships a built-in MCP server to allow Copilot (and other agents) to interact with Gists via natural language.
+  evidence:
+    - "The README states: 'This experience works because the GistPad extension ships with the GistPad MCP server out of the box.'"
+    - It is listed in the 'awesome-mcp-servers' directory under the 'Knowledge & Memory' section.
+    - The tool provides a browser/IDE surface for managing GitHub Gists, but the MCP integration is the distinct developer-tooling feature for this catalog.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.674Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:46:12.183Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

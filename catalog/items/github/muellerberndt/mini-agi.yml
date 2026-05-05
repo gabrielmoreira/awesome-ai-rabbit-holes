@@ -1,0 +1,86 @@
+id: github__muellerberndt__mini-agi
+kind: github-repo
+name: mini-agi
+canonical_url: https://github.com/muellerberndt/mini-agi
+identity:
+  github_repo: muellerberndt/mini-agi
+provenance:
+  discoveries:
+    - id: discovery__github__muellerberndt__mini-agi__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Mini AGI
+        anchor_text: Mini AGI
+        extracted_url: https://github.com/muellerberndt/mini-agi
+        surrounding_text: "## [Mini AGI](https://github.com/muellerberndt/mini-agi)"
+        confidence: high
+metadata:
+  github:
+    stars: 2906
+    forks: 312
+    license: MIT
+    archived: false
+    created_at: "2023-04-14T05:33:58Z"
+    pushed_at: "2023-06-14T05:47:59Z"
+    description: MiniAGI is a simple general-purpose AI agent based on the OpenAI API.
+    homepage: ""
+    topics:
+      - agent
+      - agi
+      - artificial-intelligence
+      - gpt-3
+      - gpt-4
+    last_checked_at: "2026-05-05T21:03:48.892Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:48.892Z"
+      bytes: 17388
+insights:
+  summary: MiniAGI is a simple, early autonomous agent that uses the OpenAI API to plan and execute multi-step goals via shell commands, Python scripts, and web searches.
+  why_it_matters: It offers developers a minimal, runnable baseline for understanding how autonomous agents chain thoughts, use tools, and manage short-term memory to complete complex tasks.
+  mental_damage: A 2023-era agent that tries to autonomously freelance, penetration test your LAN, and email strangers, proving that giving an LLM a shell and a dream was an inevitable rite of passage we had to survive.
+  tags:
+    - agents
+    - autonomous
+    - gpt
+    - python
+    - cli
+  confidence: high
+curation:
+  status: included
+  reason: It is a CLI-based autonomous coding agent that directly plans, writes, and executes code to achieve developer-given objectives, fitting the coding-agents category.
+  evidence:
+    - "Repo description: 'simple general-purpose AI agent based on the OpenAI API'"
+    - "README shows CLI usage: 'python miniagi.py <objective>' executing Python and shell commands to build games, sites, and draw"
+    - Listed in awesome-ai-agents under a dedicated agent section
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (2906) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.708Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:48.892Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:39:28.031Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

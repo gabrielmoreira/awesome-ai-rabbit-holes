@@ -1,0 +1,90 @@
+id: github__ellmos-ai__ellmos-filecommander-mcp
+kind: github-repo
+name: ellmos-filecommander-mcp
+canonical_url: https://github.com/ellmos-ai/ellmos-filecommander-mcp
+identity:
+  github_repo: ellmos-ai/ellmos-filecommander-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__ellmos-ai__ellmos-filecommander-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📂 <a name="file-systems"></a>File Systems
+        anchor_text: ellmos-ai/ellmos-filecommander-mcp
+        extracted_url: https://github.com/ellmos-ai/ellmos-filecommander-mcp
+        surrounding_text: "- [ellmos-ai/ellmos-filecommander-mcp](https://github.com/ellmos-ai/ellmos-filecommander-mcp) [![ellmos-ai/ellmos-filecommander-mcp MCP server](https://glama.ai/mcp/servers/ellmos-ai/ellmos-filecommander-mcp/badges/score.svg)](https://glama.ai/mcp/servers/ellmos-ai/ellmos-filecommander-mcp) 📇 🏠 🍎 🪟 🐧 - Comprehensive local filesystem MCP server with file management, process control, interactive sessions, async search, and safe delete via Recycle Bin."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-02-14T08:01:15Z"
+    pushed_at: "2026-05-03T17:46:30Z"
+    description: "Comprehensive MCP server with 29 tools: filesystem, process management, interactive sessions, async search. Features unique safe delete (Recycle Bin) and background search."
+    homepage: https://www.npmjs.com/package/recludos-filecommander-mcp
+    topics:
+      - ai-tools
+      - bach
+      - claude
+      - filesystem
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - process-management
+    last_checked_at: "2026-05-05T21:02:01.658Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:01.658Z"
+      bytes: 13263
+insights:
+  summary: A Model Context Protocol server providing 43 tools for filesystem access, process management, interactive shell sessions, and async file search, including safe delete and format conversion capabilities.
+  why_it_matters: It gives AI assistants deep, safer local system control through a single extensible MCP server rather than wiring together multiple narrow tools.
+  mental_damage: We’ve now built a Swiss Army knife for an AI that still can’t reliably remember whether your project is in src or lib.
+  tags:
+    - mcp
+    - filesystem
+    - process-management
+    - local-ai
+    - developer-tools
+  confidence: high
+curation:
+  status: included
+  reason: This is a standalone MCP server exposing system and filesystem tools, which cleanly fits the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly calls it a 'Comprehensive MCP server with 29 tools'.
+    - README states it is 'A comprehensive Model Context Protocol (MCP) server' with 43 tools for filesystem, process management, and shell sessions.
+    - Listed in awesome-mcp-servers under Server Implementations > File Systems.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.686Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:01.658Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:17:55.096Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

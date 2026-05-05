@@ -1,0 +1,77 @@
+id: lutra__ai
+kind: website
+name: lutra.ai
+canonical_url: https://lutra.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__lutra__ai__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Lutra AI
+        anchor_text: Lutra AI
+        extracted_url: https://lutra.ai
+        surrounding_text: "## [Lutra AI](https://lutra.ai/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Lutra AI is a SaaS productivity agent that connects to enterprise apps and writes executable code to automate workflows like email management, data enrichment, and reporting.
+  why_it_matters: It offers developers a way to automate business processes across tools like GitHub, CRMs, and spreadsheets using an agent that executes code rather than just generating text.
+  mental_damage: Just when you thought you were safe from 'AI assistants' that promise to automate your job, here comes a tool that writes code to automate the 'work' of refreshing spreadsheets and enriching CRM data.
+  tags:
+    - automation
+    - agent
+    - mcp
+    - enterprise
+    - workflow
+  confidence: high
+curation:
+  status: excluded
+  reason: The product is a general-purpose business productivity agent for end-users (Sales, Finance, Marketing), not a developer-facing tool for writing, reviewing, or shipping code.
+  evidence:
+    - Scraped site context highlights use cases like 'Email Campaign Assistant', 'Sell faster', and 'Expense reports', targeting business users rather than developers.
+    - Solutions are showcased for 'Sales, Finance, Marketing, Operations' with testimonials focused on business efficiency rather than software development.
+    - Although it mentions GitHub integration and writing code, its primary surface is a hosted SaaS chat interface for business task automation, not a coding workflow.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.728Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:46:04.641Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

@@ -1,0 +1,85 @@
+id: github__drand__drand
+kind: github-repo
+name: drand
+canonical_url: https://github.com/drand/drand
+identity:
+  github_repo: drand/drand
+provenance:
+  discoveries:
+    - id: discovery__github__drand__drand__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: scraped
+        section_path:
+          - Official Servers
+        anchor_text: drand network
+        extracted_url: https://drand.love
+        surrounding_text: "- **[Drand](https://github.com/randa-mu/drand-mcp-server)** - An MCP server for fetching verifiable random numbers from the [drand network](https://drand.love)."
+        confidence: high
+metadata:
+  github:
+    stars: 817
+    forks: 129
+    license: NOASSERTION
+    archived: false
+    created_at: "2017-08-18T00:49:16Z"
+    pushed_at: "2026-04-22T21:50:40Z"
+    description: 🎲 A Distributed Randomness Beacon Daemon - Go implementation
+    homepage: https://drand.love
+    topics:
+      - cryptography
+      - golang
+      - hacktoberfest
+      - randomness
+      - randomness-beacon
+    last_checked_at: "2026-05-05T21:01:57.141Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:57.141Z"
+      bytes: 15545
+insights:
+  summary: Drand is a distributed randomness beacon daemon written in Go that allows a network of nodes to collectively generate publicly verifiable, unbiased, and unpredictable random values using threshold cryptography.
+  why_it_matters: Developers building blockchain systems, lotteries, or cryptographic protocols can integrate a decentralized Randomness-as-a-Service instead of attempting to implement secure randomness generation from scratch.
+  mental_damage: "Just what the world needed: a decentralized way to prove that the universe is still chaotic, cryptographically verified by a committee of Cloudflare and academia."
+  tags:
+    - cryptography
+    - randomness
+    - golang
+    - blockchain
+    - distributed-systems
+  confidence: high
+curation:
+  status: excluded
+  reason: Excluded because drand is a core cryptographic infrastructure library for randomness generation, not a developer-facing AI tool, agent, or workflow enhancer.
+  evidence:
+    - Repo description and README define it as a 'Distributed Randomness Beacon Daemon' using threshold cryptography, with no mention of AI functionality.
+    - Source-list context shows it in 'awesome-mcp-servers' as a reference server, but the tool itself is a Go implementation of a cryptographic protocol, not an MCP tool or developer AI utility.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (817) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.685Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:57.141Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:17:09.488Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

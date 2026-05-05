@@ -1,0 +1,80 @@
+id: github__exoticknight__mcp-file-merger
+kind: github-repo
+name: mcp-file-merger
+canonical_url: https://github.com/exoticknight/mcp-file-merger
+identity:
+  github_repo: exoticknight/mcp-file-merger
+provenance:
+  discoveries:
+    - id: discovery__github__exoticknight__mcp-file-merger__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📂 <a name="file-systems"></a>File Systems
+        anchor_text: exoticknight/mcp-file-merger
+        extracted_url: https://github.com/exoticknight/mcp-file-merger
+        surrounding_text: "- [exoticknight/mcp-file-merger](https://github.com/exoticknight/mcp-file-merger) 🏎️ 🏠 - File merger tool, suitable for AI chat length limits."
+        confidence: high
+metadata:
+  github:
+    stars: 26
+    forks: 13
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-03-14T13:38:21Z"
+    pushed_at: "2025-09-06T13:10:55Z"
+    description: MCP server for merging multiple files into one
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:06.479Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:06.479Z"
+      bytes: 1613
+insights:
+  summary: An MCP server that provides tools to merge multiple files into a single output file for AI assistants.
+  why_it_matters: It allows coding agents to consolidate scattered context and documentation into a single file, streamlining the input pipeline for large context windows.
+  mental_damage: We have successfully built infrastructure to solve the problem of having too many files, proving that our primary bottleneck is now successfully organizing the very tools we built to organize our work.
+  tags:
+    - mcp
+    - file-management
+    - context-engineering
+  confidence: high
+curation:
+  status: included
+  reason: The project is a distinct Model Context Protocol server providing file merging capabilities, fitting squarely into the MCP infrastructure category.
+  evidence:
+    - Repo description explicitly states 'MCP server for merging multiple files into one'.
+    - README details specific MCP tools like merge_files and list_allowed_directories for Claude Desktop integration.
+    - Listed in the awesome-mcp-servers list under 'Server Implementations > File Systems'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.686Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:06.479Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:18:44.408Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

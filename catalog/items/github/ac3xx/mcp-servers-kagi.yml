@@ -1,0 +1,98 @@
+id: github__ac3xx__mcp-servers-kagi
+kind: github-repo
+name: mcp-servers-kagi
+canonical_url: https://github.com/ac3xx/mcp-servers-kagi
+identity:
+  github_repo: ac3xx/mcp-servers-kagi
+provenance:
+  discoveries:
+    - id: discovery__github__ac3xx__mcp-servers-kagi__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: Kagi
+        extracted_url: https://github.com/ac3xx/mcp-servers-kagi
+        surrounding_text: "- **[Kagi](https://github.com/ac3xx/mcp-servers-kagi)** - Kagi search API integration"
+        confidence: high
+    - id: discovery__github__ac3xx__mcp-servers-kagi__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - 🔎 Search
+        anchor_text: ac3xx/mcp-servers-kagi
+        extracted_url: https://github.com/ac3xx/mcp-servers-kagi
+        surrounding_text: "-   **[ac3xx/mcp-servers-kagi](https://github.com/ac3xx/mcp-servers-kagi)** [![GitHub stars](https://img.shields.io/github/stars/ac3xx/mcp-servers-kagi?style=social)](https://github.com/ac3xx/mcp-servers-kagi): Integrates with the Kagi search API."
+        confidence: high
+metadata:
+  github:
+    stars: 44
+    forks: 10
+    license: MIT
+    archived: false
+    created_at: "2024-11-27T13:54:32Z"
+    pushed_at: "2024-12-13T12:52:50Z"
+    description: A Model Context Protocol server implementation for Kagi's API
+    homepage: https://modelcontextprotocol.io/
+    topics:
+      - kagi
+      - model-context-protocol
+    last_checked_at: "2026-05-05T21:00:47.541Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:47.541Z"
+      bytes: 3331
+insights:
+  summary: A TypeScript-based Model Context Protocol server that integrates the Kagi Search API, allowing AI assistants like Claude to perform web searches via MCP.
+  why_it_matters: It enables developers to augment their local AI assistants with real-time web search capabilities from Kagi, bridging the gap between private LLMs and live internet data.
+  mental_damage: "Just what we needed: another middleware layer so our AI can argue with us using search results we explicitly opted out of by paying for Kagi."
+  tags:
+    - mcp
+    - kagi
+    - search
+    - typescript
+    - integration
+  confidence: high
+curation:
+  status: included
+  reason: The project is a dedicated MCP server implementation for the Kagi API, fitting squarely into the MCP infrastructure category.
+  evidence:
+    - "Repo description explicitly states: 'A Model Context Protocol server implementation for Kagi's API'."
+    - README confirms it is a 'TypeScript-based MCP server that integrates the Kagi Search API'.
+    - Featured in both 'awesome-mcp-list' (Search section) and 'awesome-mcp-servers' (Community Servers).
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.662Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:47.541Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:05:34.781Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

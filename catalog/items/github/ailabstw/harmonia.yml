@@ -1,0 +1,80 @@
+id: github__ailabstw__harmonia
+kind: github-repo
+name: harmonia
+canonical_url: https://github.com/ailabstw/harmonia
+identity:
+  github_repo: ailabstw/harmonia
+provenance:
+  discoveries:
+    - id: discovery__github__ailabstw__harmonia__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Federated ML
+        anchor_text: Harmonia
+        extracted_url: https://github.com/ailabstw/harmonia
+        surrounding_text: "| [Harmonia](https://github.com/ailabstw/harmonia)                | Harmonia is an open-source project aiming at developing systems/infrastructures and libraries to ease the adoption of federated learning (abbreviated to FL) for researches and production usage.                                                                                | ![GitHub Badge](https://img.shields.io/github/stars/ailabstw/harmonia.svg?style=flat-square)    |"
+        confidence: high
+metadata:
+  github:
+    stars: 17
+    forks: 14
+    license: MPL-2.0
+    archived: false
+    created_at: "2020-06-04T03:20:25Z"
+    pushed_at: "2020-09-21T08:16:29Z"
+    description: Federated Learning Made Easy
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:00:55.570Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:55.570Z"
+      bytes: 2166
+insights:
+  summary: Harmonia is an open-source system and SDK designed to simplify the adoption of federated learning for research and production using a GitOps-inspired architecture.
+  why_it_matters: It allows developers to integrate existing ML workflows into a federated architecture using containerized applications and git-based state management.
+  mental_damage: Just when you thought GitOps had successfully colonized every corner of infrastructure, it now wants to manage your decentralized neural network weights too.
+  tags:
+    - federated-learning
+    - ml-ops
+    - gitops
+    - sdk
+  confidence: high
+curation:
+  status: excluded
+  reason: The project is a machine learning infrastructure tool for federated learning, focusing on model training distribution rather than AI-assisted software development workflows.
+  evidence:
+    - Repo description explicitly states 'Federated Learning Made Easy', targeting ML researchers.
+    - README describes a system for collaborative ML model building using GitOps and containerized training applications.
+    - Last push was in 2020, indicating the project is inactive and predates the modern AI developer tooling wave.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.677Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:55.570Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:06:55.725Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

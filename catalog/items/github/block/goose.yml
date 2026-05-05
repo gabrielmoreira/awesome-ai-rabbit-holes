@@ -1,0 +1,101 @@
+id: github__block__goose
+kind: github-repo
+name: goose
+canonical_url: https://github.com/block/goose
+identity:
+  github_repo: block/goose
+provenance:
+  discoveries:
+    - id: discovery__github__block__goose__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Terminal-native coding agents
+          - Open Source
+        anchor_text: Goose
+        extracted_url: https://github.com/block/goose
+        surrounding_text: "- **[Goose](https://github.com/block/goose)** `⭐ 43.7k` — Local, extensible agent that can execute, edit, and test; designed to run on-device and integrate with MCP."
+        confidence: high
+    - id: discovery__github__block__goose__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Coding Agents
+        anchor_text: Codename Goose
+        extracted_url: https://github.com/block/goose
+        surrounding_text: "- **[Codename Goose](https://github.com/block/goose)** – Desktop and CLI agent by Block for automating tasks using LLMs and extensions."
+        confidence: high
+metadata:
+  github:
+    stars: 43836
+    forks: 4487
+    license: Apache-2.0
+    archived: false
+    created_at: "2024-08-23T19:03:36Z"
+    pushed_at: "2026-05-05T20:59:33Z"
+    description: an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM
+    homepage: https://goose-docs.ai/
+    topics:
+      - acp
+      - ai
+      - ai-agents
+      - mcp
+    last_checked_at: "2026-05-05T21:01:23.001Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:23.001Z"
+      bytes: 3230
+insights:
+  summary: An open-source, Rust-based AI agent that runs natively on your machine via desktop app, CLI, or API to execute code, automate workflows, and interact with local files and 15+ LLM providers.
+  why_it_matters: It offers developers a local-first, extensible way to delegate multi-step coding and automation tasks directly to an agent that can install, edit, and test within their existing environment.
+  mental_damage: "Just what your terminal needed: a goose that can edit your code and break your environment with the same cheerful autonomy as a junior dev who just discovered `rm -rf`."
+  tags:
+    - coding-agent
+    - cli
+    - local-ai
+    - mcp
+    - rust
+  confidence: high
+curation:
+  status: included
+  reason: The project is a developer-facing coding agent that operates via CLI and desktop app to directly edit, test, and execute code within a local environment, fitting the coding-agents category clearly.
+  evidence:
+    - Repo description defines it as an 'open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test'.
+    - README states it is a 'native open source AI agent' with a 'full CLI for terminal workflows' and a desktop app for macOS, Linux, and Windows.
+    - Included in 'awesome-cli-coding-agents' under the section 'Terminal-native coding agents > Open Source'.
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (43836) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.439Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:23.001Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:11:11.224Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

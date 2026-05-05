@@ -1,0 +1,86 @@
+id: github__openautocoder__agentless
+kind: github-repo
+name: agentless
+canonical_url: https://github.com/openautocoder/agentless
+identity:
+  github_repo: openautocoder/agentless
+provenance:
+  discoveries:
+    - id: discovery__github__openautocoder__agentless__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Terminal-native coding agents
+          - Open Source
+        anchor_text: Agentless
+        extracted_url: https://github.com/openautocoder/agentless
+        surrounding_text: "- **[Agentless](https://github.com/OpenAutoCoder/Agentless)** `⭐ 2k` — Lightweight approach to autonomous software engineering without persistent agent loops."
+        confidence: high
+metadata:
+  github:
+    stars: 2042
+    forks: 230
+    license: MIT
+    archived: false
+    created_at: "2024-06-30T23:37:17Z"
+    pushed_at: "2024-12-22T19:29:31Z"
+    description: "Agentless🐱:  an agentless approach to automatically solve software development problems"
+    homepage: ""
+    topics:
+      - agent
+      - artificial-intelligence
+      - llm
+      - software-development
+    last_checked_at: "2026-05-05T21:04:03.838Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:03.838Z"
+      bytes: 4234
+insights:
+  summary: Agentless is an open-source pipeline that automatically localizes, repairs, and validates patches for software issues using a hierarchical, non-agentic LLM workflow.
+  why_it_matters: It offers a minimal-overhead alternative to complex coding agents for automating bug fixes, achieving strong SWE-bench results with an average cost of $0.34 per issue.
+  mental_damage: We have reached the point where the cutting edge of 'AI software engineering' is a system that is explicitly proud of doing less than the agents it replaces.
+  tags:
+    - swe-bench
+    - automated-patching
+    - llm
+    - terminal
+    - repair
+  confidence: high
+curation:
+  status: included
+  reason: It is a CLI-native tool that automatically edits and validates code in repositories to solve development issues, fitting the terminal coding agent profile.
+  evidence:
+    - Repo description states it is 'an agentless approach to automatically solve software development problems'.
+    - README details a workflow of localization, repair, and patch validation using LLMs on SWE-bench problems.
+    - Listed in awesome-cli-coding-agents under 'Terminal-native coding agents > Open Source'.
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (2042) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.711Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:03.838Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:42:26.228Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

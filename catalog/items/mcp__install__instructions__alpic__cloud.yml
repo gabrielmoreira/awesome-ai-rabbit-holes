@@ -1,0 +1,76 @@
+id: mcp__install__instructions__alpic__cloud
+kind: website
+name: mcp-install-instructions.alpic.cloud
+canonical_url: https://mcp-install-instructions.alpic.cloud
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__mcp__install__instructions__alpic__cloud__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: https://www.kiwi.com
+        extracted_url: https://mcp-install-instructions.alpic.cloud/servers/kiwi-com-flight-search
+        surrounding_text: "- **[Kiwi.com](<[https://www.kiwi.com](https://mcp-install-instructions.alpic.cloud/servers/kiwi-com-flight-search)>)** - Official [Kiwi.com](https://www.kiwi.com) flight search MCP server. Search and book flights directly from your favorite AI assistant."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A web tool that generates shareable, client-specific installation guides and deeplinks for MCP servers.
+  why_it_matters: It standardizes the onboarding experience for MCP server maintainers by automating the creation of setup instructions for various clients.
+  mental_damage: We have successfully reached the point where we need specialized tooling just to explain how to install the tooling that explains how to connect the AI to the tooling.
+  tags:
+    - mcp
+    - documentation
+    - developer-tools
+    - installation
+  confidence: high
+curation:
+  status: included
+  reason: The product is a utility specifically designed for the MCP ecosystem to generate installation instructions, fitting the MCP Servers and Tooling category.
+  evidence:
+    - Scraped site title and description confirm it generates installation guides for MCP Servers.
+    - Listed in awesome-mcp-servers under a section for MCP infrastructure tooling.
+    - Generates auto-deeplinks and CLI instructions for popular MCP clients.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.728Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:46:21.185Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

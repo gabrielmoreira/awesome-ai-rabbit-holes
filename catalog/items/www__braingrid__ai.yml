@@ -1,0 +1,77 @@
+id: www__braingrid__ai
+kind: website
+name: www.braingrid.ai
+canonical_url: https://www.braingrid.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__braingrid__ai__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: BrainGrid
+        extracted_url: https://braingrid.ai
+        surrounding_text: "- [BrainGrid MCP](https://docs.braingrid.ai/mcp-server/installation) 🎖️☁️ - [BrainGrid](https://braingrid.ai) MCP is the Product Management Agent that writes your specs, plans your features, and creates engineering-grade tasks your coding tools can build reliably."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: BrainGrid is a web-based AI product planner that structures app ideas into specs, tasks, and prompts designed to be executed by external coding agents like Cursor or Claude Code.
+  why_it_matters: It attempts to solve the 'planning gap' by generating architecture and acceptance criteria that coding agents can consume, aiming to reduce regressions and prototype staleness.
+  mental_damage: We’ve now reached the point where we need an AI tool to organize the prompts for the AI tool that writes the code, adding a middle manager to a workflow that was supposed to eliminate middle managers.
+  tags:
+    - planning
+    - specs
+    - mcp
+    - workflow
+  confidence: high
+curation:
+  status: included
+  reason: The product centers on a spec-first loop—brainstorming, planning, and generating structured specifications and tasks to drive external coding agents—rather than acting as the coding agent or IDE itself.
+  evidence:
+    - Site claims it 'writes your specs, plans your features, and creates structured tasks and prompts that coding agents... can execute reliably.'
+    - Explicitly listed in awesome-mcp-servers under 'Developer Tools' for generating tasks for AI coding tools.
+    - Works via MCP, CLI, or copy-paste to send tasks to agents like Cursor, Claude Code, and Windsurf rather than editing code directly.
+placement:
+  primary_category: spec-driven-development
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.731Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:49:55.116Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

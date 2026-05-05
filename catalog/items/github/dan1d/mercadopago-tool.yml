@@ -1,0 +1,82 @@
+id: github__dan1d__mercadopago-tool
+kind: github-repo
+name: mercadopago-tool
+canonical_url: https://github.com/dan1d/mercadopago-tool
+identity:
+  github_repo: dan1d/mercadopago-tool
+provenance:
+  discoveries:
+    - id: discovery__github__dan1d__mercadopago-tool__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: dan1d/cobroya
+        extracted_url: https://github.com/dan1d/mercadopago-tool
+        surrounding_text: "- [dan1d/cobroya](https://github.com/dan1d/mercadopago-tool) [![cobroya MCP server](https://glama.ai/mcp/servers/dan1d/cobroya/badges/score.svg)](https://glama.ai/mcp/servers/dan1d/cobroya) 📇 ☁️ 🍎 🪟 🐧 - Mercado Pago payments for AI agents — create payment links, search payments, and issue refunds. Built for LATAM merchants."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-03-06T06:47:17Z"
+    pushed_at: "2026-03-11T13:11:33Z"
+    description: Mercado Pago tool connector for AI agents, Telegram, WhatsApp and automation platforms
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:01:46.099Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:46.099Z"
+      bytes: 8595
+insights:
+  summary: An MCP server and SDK that exposes Mercado Pago payment operations—creating checkout links, searching payments, and issuing refunds—to AI agents, chat bots, and automation platforms.
+  why_it_matters: Developers building AI-driven commerce flows can wire payment capabilities into LLM agents and no-code platforms without writing custom API wrappers for Mercado Pago.
+  mental_damage: We have finally reached the point where your AI agent can autonomously refund a frustrated customer while you are still debugging why the MCP server won't connect in Cursor.
+  tags:
+    - mcp
+    - payments
+    - mercado-pago
+    - agent-tools
+    - fintech
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server with adapters for LangChain and OpenAI function calling, making it a textbook fit for the MCP Servers and Tooling category.
+  evidence:
+    - Repo description states it is a 'Mercado Pago tool connector for AI agents' and the README identifies it as 'an MCP (Model Context Protocol) server'.
+    - Listed under 'Server Implementations > Finance & Fintech' in the awesome-mcp-servers directory.
+    - Provides integration configs for Claude Desktop, Cursor, Windsurf, and n8n/Zapier/Make automation platforms.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.683Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:46.099Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:15:19.994Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

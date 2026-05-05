@@ -1,0 +1,75 @@
+id: autogen__studio__com
+kind: website
+name: autogen-studio.com
+canonical_url: https://autogen-studio.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__autogen__studio__com__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 智能体 Agents
+        anchor_text: AutoGen AIStudio
+        extracted_url: https://autogen-studio.com
+        surrounding_text: "1. [AutoGen](https://github.com/microsoft/autogen): AutoGen is a framework that enables the development of LLM applications using multiple agents that can converse with each other to solve tasks. [AutoGen AIStudio](https://autogen-studio.com/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: This entry points to a gambling platform (BMW4D) disguised as a developer tool listing, with no actual AI development utility.
+  why_it_matters: It doesn't—this is a classic case of link rot or malicious SEO injection in a curated list.
+  mental_damage: We've reached the point where even our awesome lists are being hijacked by online slot machines, just in case you weren't paranoid enough about your supply chain.
+  tags:
+    - spam
+    - link-rot
+    - scam
+  confidence: high
+curation:
+  status: excluded
+  reason: The scraped site context reveals this URL resolves to a gambling/hotel booking site (BMW4D), not an AI development tool, making it completely out of scope for the catalog.
+  evidence:
+    - Scraped site title and description explicitly identify the destination as 'BMW4D | Platform Resmi Game Online Ikonik' (an online gambling/hotel platform).
+    - The README excerpt is filled with booking.com-style hotel accommodation text, not developer tooling documentation.
+    - The source-list context appears to be a corrupted or hijacked entry mentioning 'BMW4D dikenal sebagai salah satu platform resmi yang menyediakan akses ke berbagai game online'.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.726Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:42:11.128Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

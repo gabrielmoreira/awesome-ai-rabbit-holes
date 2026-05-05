@@ -1,0 +1,104 @@
+id: github__0xshellming__mcp-summarizer
+kind: github-repo
+name: mcp-summarizer
+canonical_url: https://github.com/0xshellming/mcp-summarizer
+identity:
+  github_repo: 0xshellming/mcp-summarizer
+provenance:
+  discoveries:
+    - id: discovery__github__0xshellming__mcp-summarizer__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: 0xshellming/mcp-summarizer
+        extracted_url: https://github.com/0xshellming/mcp-summarizer
+        surrounding_text: "- [0xshellming/mcp-summarizer](https://github.com/0xshellming/mcp-summarizer) 📕 ☁️ - AI Summarization MCP Server, Support for multiple content types: Plain text, Web pages, PDF documents, EPUB books, HTML content"
+        confidence: high
+    - id: discovery__github__0xshellming__mcp-summarizer__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - 🛠️ Utilities
+        anchor_text: 0xshellming/mcp-summarizer
+        extracted_url: https://github.com/0xshellming/mcp-summarizer
+        surrounding_text: "-   **[0xshellming/mcp-summarizer](https://github.com/0xshellming/mcp-summarizer)** [![GitHub stars](https://img.shields.io/github/stars/0xshellming/mcp-summarizer?style=social)](https://github.com/0xshellming/mcp-summarizer): Provides AI summarization for multiple content types."
+        confidence: high
+metadata:
+  github:
+    stars: 161
+    forks: 24
+    license: null
+    archived: false
+    created_at: "2025-02-28T08:34:32Z"
+    pushed_at: "2025-02-28T12:10:58Z"
+    description: MCP Server for AI Summarization
+    homepage: https://3min.top/en
+    topics:
+      - ai
+      - ai-summarizer
+      - book
+      - bookreader
+      - deepseek-r1
+      - ebook
+      - gemini
+      - summarizer
+    last_checked_at: "2026-05-05T21:00:43.523Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:43.523Z"
+      bytes: 3145
+insights:
+  summary: An MCP server that provides content summarization capabilities for text, web pages, PDF documents, and EPUB books using Google's Gemini 1.5 Pro model.
+  why_it_matters: It allows developers to wire AI-powered content summarization directly into MCP-compatible IDEs and agents, reducing context-switching when digesting technical documentation or long-form content.
+  mental_damage: Because nothing says 'efficient learning' like installing a local server to summarize a README that you could have read in the time it took to configure the server.
+  tags:
+    - mcp
+    - summarization
+    - gemini
+    - context-engineering
+  confidence: high
+curation:
+  status: included
+  reason: The project is a standalone MCP server implementation for content summarization, fitting cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description explicitly states: 'MCP Server for AI Summarization'."
+    - README details an MCP server implementation with tools for summarizing text, URLs, PDFs, and EPUBs.
+    - Listed in both 'awesome-mcp-list' (Utilities) and 'awesome-mcp-servers' (Knowledge & Memory).
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (161) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.662Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:43.523Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:04:53.674Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,76 @@
+id: github__com__yourusername
+kind: website
+name: yourusername
+canonical_url: https://github.com/yourusername
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__github__com__yourusername__awesome-list__vivy-yi__awesome-agent-orchestration
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: vivy-yi/awesome-agent-orchestration
+        url: https://github.com/vivy-yi/awesome-agent-orchestration
+        repository: vivy-yi/awesome-agent-orchestration
+      extraction:
+        mode: parsed
+        section_path:
+          - License
+        anchor_text: Your Name
+        extracted_url: https://github.com/yourusername
+        surrounding_text: To the extent possible under law, [Your Name](https://github.com/yourusername) has waived all copyright and related rights to this work.
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: This is a GitHub user profile page for 'yourusername', which currently has no public repositories or project artifacts.
+  why_it_matters: It doesn't; this is a placeholder profile rather than a usable developer tool or framework.
+  mental_damage: We have reached peak AI automation when the catalog starts reviewing the empty GitHub profiles of the people who might one day build the tools.
+  tags:
+    - placeholder
+    - no-repo
+  confidence: high
+curation:
+  status: excluded
+  reason: This is not a software project, tool, or directory; it is a personal GitHub profile with no public repositories or code artifacts.
+  evidence:
+    - "The scraped context explicitly states: 'Yourusername doesn't have any public repositories yet.'"
+    - The repo description, homepage, stars, and creation date are all unknown or empty.
+    - The source list context only links to the generic GitHub profile overview, not a specific tool or list.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.728Z"
+    cause:
+      type: ambiguous_canonicalization
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:44:42.156Z"
+    cause: null
+    attempts: 3
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+    next_retry_at: null

@@ -1,0 +1,77 @@
+id: jfrog__com__xray
+kind: website
+name: xray
+canonical_url: https://jfrog.com/xray
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__jfrog__com__xray__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Security
+        anchor_text: JFrog Xray
+        extracted_url: https://jfrog.com/xray
+        surrounding_text: "- **[JFrog Xray](https://jfrog.com/xray/)** – Security and compliance scanning for DevOps pipelines."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: JFrog Xray is an enterprise-grade software composition analysis (SCA) tool that identifies, prioritizes, and remediates security vulnerabilities and license compliance issues in open source software and third-party components.
+  why_it_matters: It integrates with developer workflows to catch supply chain risks early, and now extends its governance to AI models, agent skills, and MCP servers consumed by modern development stacks.
+  mental_damage: You finally automate your security scanning, only to realize your 'autonomous' coding agent is importing vulnerabilities faster than Xray can curate them.
+  tags:
+    - sca
+    - security
+    - devsecops
+    - supply-chain
+    - jfrog
+  confidence: high
+curation:
+  status: excluded
+  reason: Xray is a traditional DevSecOps/SCA tool for vulnerability and license scanning, not a developer-facing AI coding tool, agent, or AI infrastructure product as defined by this catalog's scope.
+  evidence:
+    - Repo description and site excerpt define it as 'Software Composition Analysis (SCA)' for vulnerabilities and license compliance, not AI coding assistance.
+    - Source list context places it under 'Security' in awesome-ai-coding-tools, signaling it is an adjacent security utility rather than a core coding agent.
+    - Site AI overview mentions 'governing MCP servers' and 'agent skills', but these are governance features for the supply chain, not tools that help a developer write or generate code.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.728Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:45:41.009Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

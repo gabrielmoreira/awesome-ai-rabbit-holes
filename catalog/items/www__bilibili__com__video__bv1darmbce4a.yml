@@ -1,0 +1,78 @@
+id: www__bilibili__com__video__bv1darmbce4a
+kind: website
+name: BV1darmBcE4A
+canonical_url: https://www.bilibili.com/video/BV1darmBcE4A
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__bilibili__com__video__bv1darmbce4a__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 推荐 Suggestion
+          - Podcast
+        anchor_text: 翁家翌：OpenAI，GPT，强化学习，Infra，后训练，天授，tuixue，开源，CMU，清华｜WhynotTV Podcast
+        extracted_url: https://www.bilibili.com/video/BV1darmBcE4A
+        surrounding_text: "- [翁家翌：OpenAI，GPT，强化学习，Infra，后训练，天授，tuixue，开源，CMU，清华｜WhynotTV Podcast](https://www.bilibili.com/video/BV1darmBcE4A?vd_source=c739db1ebdd361d47af5a0b8497417db)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A podcast interview video with OpenAI researcher Jiaxi (翁家翌) discussing GPT evolution, reinforcement learning, post-training, and infra.
+  why_it_matters: Developers building on top of LLMs get a rare inside look at how ChatGPT and GPT-4 scale, what post-training actually entails, and the infra bottlenecks behind the curtain.
+  mental_damage: Yet another reminder that while you spend three days debugging a React hook, someone else was quietly reshaping the model that will eventually rewrite your entire codebase.
+  tags:
+    - podcast
+    - llm
+    - openai
+    - post-training
+    - infra
+  confidence: high
+curation:
+  status: included
+  reason: This is a podcast episode providing insight and commentary rather than a developer tool, IDE, agent, or framework, so it belongs in newsletters-and-feeds.
+  evidence:
+    - Source URL is a Bilibili video page, not a GitHub repo or tool.
+    - Listed under 'Podcast' in the awesome-LLM-resources directory with a podcast episode description.
+    - Content is an interview about OpenAI, GPT, and infra, not a software product or coding assistant.
+placement:
+  primary_category: newsletters-and-feeds
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.731Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:49:51.005Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

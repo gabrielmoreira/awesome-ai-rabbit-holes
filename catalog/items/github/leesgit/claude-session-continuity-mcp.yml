@@ -1,0 +1,81 @@
+id: github__leesgit__claude-session-continuity-mcp
+kind: github-repo
+name: claude-session-continuity-mcp
+canonical_url: https://github.com/leesgit/claude-session-continuity-mcp
+identity:
+  github_repo: leesgit/claude-session-continuity-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__leesgit__claude-session-continuity-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: leesgit/claude-session-continuity-mcp
+        extracted_url: https://github.com/leesgit/claude-session-continuity-mcp
+        surrounding_text: "- [leesgit/claude-session-continuity-mcp](https://github.com/leesgit/claude-session-continuity-mcp) [![claude-session-continuity-mcp MCP server](https://glama.ai/mcp/servers/leesgit/claude-session-continuity-mcp/badges/score.svg)](https://glama.ai/mcp/servers/leesgit/claude-session-continuity-mcp) 📇 🏠 🍎 🪟 🐧 - Zero-config session continuity for Claude Code. Auto-captures context via Claude Hooks, provides 25 tools for memory, tasks, solutions, and knowledge graph. Multilingual semantic search (94+ languages) with cross-language retrieval."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-01-26T07:45:27Z"
+    pushed_at: "2026-04-13T14:00:08Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:03:18.366Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:18.366Z"
+      bytes: 18772
+insights:
+  summary: An MCP server and hook system that automatically captures context, commits, and error-fix pairs across Claude Code sessions to eliminate manual re-explanation.
+  why_it_matters: It replaces the repetitive context-setting ritual at the start of every AI coding session with automatic memory injection and structured handovers.
+  mental_damage: We have officially reached the point where our AI assistants need their own therapy to remember what we built together yesterday.
+  tags:
+    - mcp
+    - session-memory
+    - claude-code
+    - context-engineering
+  confidence: high
+curation:
+  status: included
+  reason: The project is a standalone MCP server with associated hooks that extends Claude Code's capabilities via the Model Context Protocol, fitting cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - README explicitly describes an MCP server registered in ~/.claude.json with npm package claude-session-continuity-mcp.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Knowledge & Memory'.
+    - Hooks into Claude Code lifecycle events (SessionStart, Stop, PreCompact) to provide context continuity.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.704Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:18.366Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:33:33.129Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

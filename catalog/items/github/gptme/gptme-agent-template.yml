@@ -1,0 +1,82 @@
+id: github__gptme__gptme-agent-template
+kind: github-repo
+name: gptme-agent-template
+canonical_url: https://github.com/gptme/gptme-agent-template
+identity:
+  github_repo: gptme/gptme-agent-template
+provenance:
+  discoveries:
+    - id: discovery__github__gptme__gptme-agent-template__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Terminal-native coding agents
+          - Open Source
+        anchor_text: gptme-agent-template
+        extracted_url: https://github.com/gptme/gptme-agent-template
+        surrounding_text: "- **[gptme](https://github.com/gptme/gptme)** `⭐ 4.3k` — AI agent in your terminal with support for persistent autonomous agents. Runs code, edits files, browses the web. Build long-lived self-modifying agents with git-backed memory via [gptme-agent-template](https://github.com/gptme/gptme-agent-template)."
+        confidence: high
+metadata:
+  github:
+    stars: 47
+    forks: 29
+    license: null
+    archived: false
+    created_at: "2024-11-21T09:16:40Z"
+    pushed_at: "2026-04-21T05:31:38Z"
+    description: Agent workspace template for gptme - create persistent autonomous agents that build, learn, socialize, and assist you with whatever you need.
+    homepage: https://gptme.org
+    topics: []
+    last_checked_at: "2026-05-05T21:02:26.249Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:26.249Z"
+      bytes: 7147
+insights:
+  summary: A Git-based workspace template for creating persistent autonomous agents using the gptme framework or Claude Code, complete with identity files and autonomous scheduling scripts.
+  why_it_matters: It provides a structured starting point for developers who want to spin up local, long-running autonomous agents with memory, identity, and scheduled task execution.
+  mental_damage: You can now fork a Git repo to give an AI a soul, a to-do list, and a 30-minute cron job to silently judge your life choices.
+  tags:
+    - agents
+    - cli
+    - autonomous
+    - template
+    - gptme
+  confidence: high
+curation:
+  status: included
+  reason: It is a template for a terminal-native coding agent that operates autonomously via CLI backends (gptme and Claude Code), fitting the strict definition of a coding agent workspace.
+  evidence:
+    - Repo description explicitly calls it an 'Agent workspace template for gptme' for persistent autonomous agents.
+    - README details CLI usage (gptme-agent create, claude) and autonomous operation via systemd/launchd scripts.
+    - Included in the awesome-cli-coding-agents list under 'Terminal-native coding agents > Open Source'.
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.689Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:26.249Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:22:35.485Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

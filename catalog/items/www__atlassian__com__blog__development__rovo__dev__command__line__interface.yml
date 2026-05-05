@@ -1,0 +1,77 @@
+id: www__atlassian__com__blog__development__rovo__dev__command__line__interface
+kind: website
+name: rovo-dev-command-line-interface
+canonical_url: https://www.atlassian.com/blog/development/rovo-dev-command-line-interface
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__atlassian__com__blog__development__rovo__dev__command__line__interface__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Coding Agents
+        anchor_text: Rovo Dev (Atlassian)
+        extracted_url: https://www.atlassian.com/blog/announcements/rovo-dev-command-line-interface
+        surrounding_text: "- **[Rovo Dev (Atlassian)](https://www.atlassian.com/blog/announcements/rovo-dev-command-line-interface)** – Atlassian's terminal coding agent."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Rovo Dev CLI is an enterprise-focused AI coding agent from Atlassian that operates in the terminal to understand codebases, assist with development tasks, and integrate with the Atlassian ecosystem including Jira and Bitbucket.
+  why_it_matters: It brings agentic coding assistance directly into the terminal while deeply integrating with Jira, Confluence, and Bitbucket to reduce context switching for teams already embedded in the Atlassian workflow.
+  mental_damage: Another day, another terminal agent claiming to be your intelligent partner, just waiting to argue with you about the best way to migrate that legacy service you were finally going to tackle manually.
+  tags:
+    - cli
+    - atlassian
+    - terminal
+    - code-assistant
+    - enterprise
+  confidence: high
+curation:
+  status: included
+  reason: The product is a developer-facing coding agent that directly plans, writes, edits, and debugs code inside the CLI workflow, fitting the coding-agents category definition.
+  evidence:
+    - Source list context shows it is listed under 'Coding Agents' in awesome-ai-coding-tools.
+    - Scraped site context describes it as 'an intelligent development agent that understands, codes, and collaborates with you' in the terminal.
+    - The excerpt highlights features like code understanding, AI-assisted completion, refactoring, and debugging directly in the CLI.
+placement:
+  primary_category: coding-agents
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.731Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:49:42.514Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

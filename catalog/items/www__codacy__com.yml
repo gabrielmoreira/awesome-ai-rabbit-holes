@@ -1,0 +1,77 @@
+id: www__codacy__com
+kind: website
+name: www.codacy.com
+canonical_url: https://www.codacy.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__codacy__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Code Review and Refactoring
+        anchor_text: Codacy
+        extracted_url: https://www.codacy.com
+        surrounding_text: "- **[Codacy](https://www.codacy.com/)** – Code quality platform with 30+ language support."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A SaaS platform that enforces code quality, security, and AI-specific coding policies across IDEs, Git workflows, and coding agents with automated reviews and guardrails.
+  why_it_matters: It lets teams standardize coding standards and security policies across human and AI-generated code, aiming to reduce the manual overhead of reviewing agent output.
+  mental_damage: Your AI agent can now generate insecure code at machine speed, while Codacy stands by to politely explain why you shouldn't merge it.
+  tags:
+    - code-quality
+    - ai-policies
+    - code-review
+    - security
+    - guardrails
+  confidence: high
+curation:
+  status: included
+  reason: Codacy is primarily a policy and quality layer that integrates into IDEs, Git, and other coding agents to enforce guardrails and review code, making it an extension of the developer's existing AI workflow rather than a standalone coding agent itself.
+  evidence:
+    - Scraped site context describes 'AI Guardrails built into every agent and IDE' and integrates with agents, IDEs, and Git.
+    - Featured in awesome-ai-coding-tools under 'Code Review and Refactoring' for governing code quality and AI coding policies.
+    - Platform focuses on unifying standards and reviewing PRs with AI suggestions rather than being a primary coding assistant.
+placement:
+  primary_category: ai-dev-extensions
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.732Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:50:10.323Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

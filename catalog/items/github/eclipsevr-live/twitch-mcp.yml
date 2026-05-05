@@ -1,0 +1,81 @@
+id: github__eclipsevr-live__twitch-mcp
+kind: github-repo
+name: twitch-mcp
+canonical_url: https://github.com/eclipsevr-live/twitch-mcp
+identity:
+  github_repo: eclipsevr-live/twitch-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__eclipse-xv__twitch-mcp__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - 💬 Communication
+        anchor_text: Eclipse-XV/twitch-mcp
+        extracted_url: https://github.com/eclipse-xv/twitch-mcp
+        surrounding_text: "-   **[Eclipse-XV/twitch-mcp](https://github.com/Eclipse-XV/twitch-mcp)** [![GitHub stars](https://img.shields.io/github/stars/Eclipse-XV/twitch-mcp?style=social)](https://github.com/Eclipse-XV/twitch-mcp): Allows Twitch streamers to automate channel point predictions, trigger stream events, and extend interactive chat functionality."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 0
+    license: null
+    archived: false
+    created_at: "2025-08-06T12:52:06Z"
+    pushed_at: "2025-08-13T20:02:30Z"
+    description: A Model Context Protocol (MCP) server which allows MCP Clients (such as Claude) to connect to Twitch Chat.
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:01:59.657Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:59.657Z"
+      bytes: 4353
+insights:
+  summary: A Model Context Protocol (MCP) server that connects AI coding assistants like Claude and Gemini CLI to Twitch chat for moderation, stream management, and viewer engagement.
+  why_it_matters: It allows developers who stream to hand off chat moderation, polls, and stream updates to their existing AI CLI tools via a standardized protocol.
+  mental_damage: Now your AI coding agent can ban trolls in your chat while it hallucinates the solution to your failing build, truly multitasking at the speed of context windows.
+  tags:
+    - mcp
+    - twitch
+    - streaming
+    - cli
+    - integration
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server designed to bridge Twitch chat with MCP-compatible AI clients, fitting the MCP Servers and Tooling category.
+  evidence:
+    - Repo description states it is 'A Model Context Protocol (MCP) server which allows MCP Clients (such as Claude) to connect to Twitch Chat.'
+    - README details features for chat management, moderation, and stream control via AI CLI tools like Gemini and Claude Code.
+    - Created recently (2025-08-06) and actively pushed (2025-08-13), showing it is a current MCP implementation.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:17:32.727Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.685Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:59.657Z"
+    cause: null
+    next_retry_at: null

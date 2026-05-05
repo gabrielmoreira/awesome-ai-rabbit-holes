@@ -1,62 +1,80 @@
 id: github__bradagi__awesome-cli-coding-agents
 kind: github-repo
 name: awesome-cli-coding-agents
-canonical_url: https://github.com/bradAGI/awesome-cli-coding-agents
+canonical_url: https://github.com/bradagi/awesome-cli-coding-agents
 identity:
-  github_repo: bradAGI/awesome-cli-coding-agents
+  github_repo: bradagi/awesome-cli-coding-agents
 provenance:
   discoveries:
     - id: discovery__github__bradagi__awesome-cli-coding-agents__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-01T13:51:25.374Z"
+      discovered_at: "2026-05-05T19:41:00.656Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
-        url: https://github.com/bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
         repository: bradAGI/awesome-cli-coding-agents
       extraction:
         mode: direct
         section_path:
           - inbox
         anchor_text: https://github.com/bradAGI/awesome-cli-coding-agents
-        extracted_url: https://github.com/bradAGI/awesome-cli-coding-agents
+        extracted_url: https://github.com/bradagi/awesome-cli-coding-agents
         surrounding_text: Awesome list of CLI coding agents.
         confidence: high
 metadata:
   github:
-    stars: 295
-    forks: 62
+    stars: 316
+    forks: 69
     license: null
     archived: false
     created_at: "2026-02-07T00:53:24Z"
-    pushed_at: "2026-04-30T21:45:17Z"
+    pushed_at: "2026-05-04T10:07:05Z"
     description: "Curated directory of terminal-native AI coding agents and the harnesses that orchestrate them. Covers open-source tools (Pi, OpenCode, Aider, Goose), platform agents (Claude Code, Codex, Gemini CLI), parallel runners, autonomous loops, and agent infrastructure. "
     homepage: https://agentwiki.org
     topics: []
-    last_checked_at: "2026-05-01T13:51:26.538Z"
+    last_checked_at: "2026-05-05T21:01:24.437Z"
     readme:
-      fetched_at: "2026-05-01T13:51:26.538Z"
-      bytes: 35894
+      fetched_at: "2026-05-05T21:01:24.437Z"
+      bytes: 37211
 insights:
-  summary: A curated awesome list of terminal-native AI coding agents and the harnesses that orchestrate them.
-  why_it_matters: It gives developers a practical map of CLI agents that can read/edit repos and run commands, plus the runners and orchestration layers that make them usable in real workflows.
-  mental_damage: You will spend 40 minutes picking a “minimal” terminal agent and then immediately need a harness, a sandbox, and a parallel runner to manage the agent you installed to save time.
+  summary: A curated directory listing 80+ terminal-native AI coding agents, along with the harnesses and infrastructure used to orchestrate them.
+  why_it_matters: It provides a centralized map of the rapidly expanding CLI agent ecosystem, helping developers discover tools that directly edit, test, and run code in their repositories.
+  mental_damage: A directory of 80+ autonomous command-line entities that all promise to refactor your codebase, ensuring you can now procrastinate on your actual work by evaluating which agent is least likely to delete your .env file.
   tags:
-    - awesome-list
     - cli
+    - directory
     - coding-agents
-    - agent-orchestration
-    - developer-tools
+    - terminal
   confidence: high
 curation:
   status: included
-  reason: "Include: it’s a developer-tooling-focused navigation aid (an awesome list) specifically for CLI coding agents and orchestration, which fits best under awesome-awesomes rather than a single agent category."
+  reason: This is a curated index of developer tools rather than a standalone tool itself, making it a navigation aid for the CLI coding agent ecosystem.
   evidence:
-    - "Repo description: \"Curated directory of terminal-native AI coding agents and the harnesses that orchestrate them\""
-    - "README: \"80+ CLI coding agents\" plus \"Harnesses & orchestration\" sections (session managers, orchestrators, infrastructure)"
-    - "Active and maintained: created 2026-02-07, pushed 2026-04-30, not archived; direct awesome list source: yes"
+    - Repo description explicitly defines it as a 'Curated directory of terminal-native AI coding agents'.
+    - README states it is 'A curated list of 80+ CLI coding agents... plus the harnesses that orchestrate... them.'
+    - Direct awesome list source is marked as true, fitting the 'awesome-awesomes' category.
 placement:
   primary_category: awesome-awesomes
   section: null
 lifecycle:
   status: promotion_candidate
-  reason: Stars (295) exceeded threshold (150)
+  reason: Stars (316) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.657Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:24.437Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:11:29.358Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,85 @@
+id: github__brianveltman__sonatype-mcp
+kind: github-repo
+name: sonatype-mcp
+canonical_url: https://github.com/brianveltman/sonatype-mcp
+identity:
+  github_repo: brianveltman/sonatype-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__brianveltman__sonatype-mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: Sonatype MCP Server
+        extracted_url: https://github.com/brianveltman/sonatype-mcp
+        surrounding_text: "- **[Sonatype MCP Server](https://github.com/brianveltman/sonatype-mcp)** - MCP for Sonatype Nexus Repository Manager and Sonatype Repository Firewall. Manage your DevSecOps practices through AI-assisted Workflows."
+        confidence: high
+metadata:
+  github:
+    stars: 7
+    forks: 2
+    license: MIT
+    archived: false
+    created_at: "2025-07-11T10:56:29Z"
+    pushed_at: "2026-02-14T11:46:49Z"
+    description: MCP server for Sonatype Nexus Repository Manager
+    homepage: ""
+    topics:
+      - ai-assistant
+      - claude
+      - claude-code
+      - mcp
+      - nexus
+    last_checked_at: "2026-05-05T21:01:25.196Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:25.196Z"
+      bytes: 10961
+insights:
+  summary: An MCP server that lets AI assistants manage Sonatype Nexus repositories, components, and firewall quarantines through a standardized interface.
+  why_it_matters: It allows developers to manage artifacts, search components, and release quarantined packages by talking to their AI assistant instead of clicking through the Nexus UI.
+  mental_damage: We have successfully abstracted away the one Java administration interface everyone pretended to understand, replacing it with a JSON config file and a dream.
+  tags:
+    - mcp
+    - nexus
+    - devops
+    - artifact-management
+  confidence: high
+curation:
+  status: included
+  reason: This is a dedicated MCP server for a specific developer infrastructure tool, which fits cleanly into the MCP servers and tooling category.
+  evidence:
+    - "Repo description explicitly states: 'MCP server for Sonatype Nexus Repository Manager'."
+    - README details tooling for repository, component, and firewall management via Claude Desktop and VS Code MCP integrations.
+    - Listed in the 'awesome-mcp-servers' directory under 'Community Servers'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.681Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:25.197Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:11:36.011Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

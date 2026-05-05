@@ -1,0 +1,81 @@
+id: github__james-chahwan__repo-graph
+kind: github-repo
+name: repo-graph
+canonical_url: https://github.com/james-chahwan/repo-graph
+identity:
+  github_repo: james-chahwan/repo-graph
+provenance:
+  discoveries:
+    - id: discovery__github__james-chahwan__repo-graph__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: James-Chahwan/repo-graph
+        extracted_url: https://github.com/james-chahwan/repo-graph
+        surrounding_text: "- [James-Chahwan/repo-graph](https://github.com/James-Chahwan/repo-graph) [![James-Chahwan/repo-graph MCP server](https://glama.ai/mcp/servers/James-Chahwan/repo-graph/badges/score.svg)](https://glama.ai/mcp/servers/James-Chahwan/repo-graph) 🐍 🏠 - Structural graph map of any codebase for AI coding assistants. Scans entities, relationships, and feature flows across 13 languages so LLMs navigate by structure instead of grepping through everything."
+        confidence: high
+metadata:
+  github:
+    stars: 5
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-04-12T19:11:48Z"
+    pushed_at: "2026-04-18T13:42:21Z"
+    description: Structural graph memory for AI coding assistants — MCP server for codebase navigation
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:50.170Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:50.170Z"
+      bytes: 12861
+insights:
+  summary: An MCP server that builds a structural graph of a codebase and exposes tools for LLMs to navigate entities, relationships, and flows without reading entire repos.
+  why_it_matters: It dramatically reduces token usage and time to fix bugs by letting coding assistants query a lightweight code map instead of brute-forcing their way through file grepping.
+  mental_damage: We have now officially reached the point where our AI assistants need their own assistants just to figure out where the code lives.
+  tags:
+    - mcp
+    - context-engineering
+    - codebase-navigation
+    - graph-memory
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server providing graph-based context tooling for AI coding assistants, which fits squarely into the MCP infrastructure category.
+  evidence:
+    - "Repo description: 'Structural graph memory for AI coding assistants — MCP server for codebase navigation'"
+    - "README: 'exposes 13 MCP tools that let the LLM: Orient, Navigate, Scope, Assess'"
+    - Listed under 'Server Implementations > Developer Tools' in awesome-mcp-servers
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.699Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:50.170Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:27:21.059Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

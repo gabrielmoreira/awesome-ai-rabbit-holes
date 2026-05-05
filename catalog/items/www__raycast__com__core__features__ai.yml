@@ -1,0 +1,77 @@
+id: www__raycast__com__core__features__ai
+kind: website
+name: ai
+canonical_url: https://www.raycast.com/core-features/ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__raycast__com__core__features__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Developer Productivity Tools
+        anchor_text: Raycast AI
+        extracted_url: https://raycast.com/ai
+        surrounding_text: "- **[Raycast AI](https://raycast.com/ai)** – AI-powered productivity launcher with coding capabilities and workflow automation."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Raycast AI integrates over 30 LLMs, including GPT-5 and Claude Sonnet 4.6, directly into the macOS productivity launcher, allowing developers to run code explanations, IDE commands, and workflow automations via a single hotkey.
+  why_it_matters: It eliminates context switching by letting developers explain code, summarize docs, and trigger Jira or Linear actions from their OS without leaving the keyboard.
+  mental_damage: Because nothing says 'deep work' like explaining your TypeScript types to a floating chatbot while your desk autonomously rises to standing height.
+  tags:
+    - macos
+    - productivity
+    - llm-integration
+    - workflow-automation
+    - hotkey
+  confidence: high
+curation:
+  status: included
+  reason: It is a desktop assistant that directly helps developers write, explain, and debug code via hotkey-driven AI chat and extensions, fitting the coding-agents profile.
+  evidence:
+    - Scraped site shows 'Explain Code' and 'Debug' commands tailored for developers.
+    - Includes direct integrations with developer tools like Linear, Jira, and Finder for code files.
+    - Listed in awesome-ai-coding-tools under 'Developer Productivity Tools'.
+placement:
+  primary_category: coding-agents
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.733Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:52:55.455Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

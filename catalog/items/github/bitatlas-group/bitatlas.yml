@@ -1,0 +1,82 @@
+id: github__bitatlas-group__bitatlas
+kind: github-repo
+name: bitatlas
+canonical_url: https://github.com/bitatlas-group/bitatlas
+identity:
+  github_repo: bitatlas-group/bitatlas
+provenance:
+  discoveries:
+    - id: discovery__github__bitatlas-group__bitatlas__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: bitatlas-group/bitatlas
+        extracted_url: https://github.com/bitatlas-group/bitatlas
+        surrounding_text: "- [bitatlas-group/bitatlas](https://github.com/bitatlas-group/bitatlas) [![bitatlas MCP server](https://glama.ai/mcp/servers/bitatlas-group/bitatlas/badges/score.svg)](https://glama.ai/mcp/servers/bitatlas-group/bitatlas) 📇 ☁️ - Zero-Knowledge Cloud Drive for Humans and Agents. Client-side AES-256-GCM encryption with 7 MCP tools for encrypted file vault management — upload, download, search, and organize files that the server never sees in plaintext."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-03-17T13:22:21Z"
+    pushed_at: "2026-05-05T07:13:03Z"
+    description: Zero Knowledge Cloud Drive for Humans and Agents
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:01:21.289Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:21.289Z"
+      bytes: 2458
+insights:
+  summary: A zero-knowledge cloud storage platform with client-side AES-256-GCM encryption and a built-in MCP server for AI agents to securely access and manage encrypted files.
+  why_it_matters: Developers building AI agents can integrate a privacy-first storage layer that handles encrypted document access, E2E encryption, and autonomous file management via the Model Context Protocol.
+  mental_damage: Now your AI agent can independently lose your encrypted identity papers and property deeds, but at least it will do so in GDPR-compliant European data centers.
+  tags:
+    - mcp
+    - cloud-storage
+    - zero-knowledge
+    - encryption
+    - agent-storage
+  confidence: medium
+curation:
+  status: included
+  reason: The project is primarily an MCP server implementation for secure agent-side file storage, which fits cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states 'Zero Knowledge Cloud Drive for Humans and Agents' with an MCP server component.
+    - README highlights the MCP server as a first-class feature with configuration examples for Claude Desktop and OpenClaw.
+    - Listed under 'Server Implementations > Knowledge & Memory' in the awesome-mcp-servers directory.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.681Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:21.289Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:10:53.678Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

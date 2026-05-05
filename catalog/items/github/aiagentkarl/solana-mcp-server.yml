@@ -1,0 +1,91 @@
+id: github__aiagentkarl__solana-mcp-server
+kind: github-repo
+name: solana-mcp-server
+canonical_url: https://github.com/aiagentkarl/solana-mcp-server
+identity:
+  github_repo: aiagentkarl/solana-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__aiagentkarl__solana-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: AiAgentKarl/solana-mcp-server
+        extracted_url: https://github.com/aiagentkarl/solana-mcp-server
+        surrounding_text: "- [AiAgentKarl/solana-mcp-server](https://github.com/AiAgentKarl/solana-mcp-server) [![AiAgentKarl/solana-mcp-server MCP server](https://glama.ai/mcp/servers/AiAgentKarl/solana-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/AiAgentKarl/solana-mcp-server) 🐍 🏠 - Solana blockchain data for AI agents — wallet balances, token prices, DeFi yields (Raydium + Orca), and token safety checks (RugCheck scores, holder concentration, insider detection)."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-03-18T11:11:19Z"
+    pushed_at: "2026-04-03T16:05:51Z"
+    description: MCP-Server für Solana-Blockchain-Daten — Wallets, Token-Preise, DeFi-Yields, Sicherheitschecks
+    homepage: null
+    topics:
+      - ai
+      - ai-agent
+      - blockchain
+      - crypto
+      - defi
+      - mcp
+      - mcp-server
+      - solana
+      - web3
+    last_checked_at: "2026-05-05T21:00:55.075Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:55.074Z"
+      bytes: 2935
+insights:
+  summary: An MCP server that exposes Solana blockchain data—including wallet balances, token prices, DeFi yields, and safety checks—to AI agents via tools built on the FastMCP framework.
+  why_it_matters: It lets developer-configured AI agents query live Solana data from Helius, Jupiter, and RugCheck without custom API glue code.
+  mental_damage: We have officially reached the point where your AI agent needs its own crypto wallet watchdog to tell you a token is a scam before it YOLOs your SOL.
+  tags:
+    - mcp
+    - solana
+    - web3
+    - defi
+    - agent-tooling
+  confidence: medium
+curation:
+  status: included
+  reason: The project is a standalone MCP server that exposes blockchain data tools to AI agents, which fits cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states 'MCP-Server für Solana-Blockchain-Daten' with wallet, token, DeFi, and safety tools.
+    - README documents 11 MCP tools (wallet balance, token price, DeFi yields, whale tracking, safety checks) and FastMCP server architecture.
+    - Listed in awesome-mcp-servers under Finance & Fintech, confirming community recognition as an MCP implementation.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.677Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:55.075Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:06:50.795Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,81 @@
+id: github__dkuang1980__promptsite
+kind: github-repo
+name: promptsite
+canonical_url: https://github.com/dkuang1980/promptsite
+identity:
+  github_repo: dkuang1980/promptsite
+provenance:
+  discoveries:
+    - id: discovery__github__dkuang1980__promptsite__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - LLMOps
+        anchor_text: PromptSite
+        extracted_url: https://github.com/dkuang1980/promptsite
+        surrounding_text: "| [PromptSite](https://github.com/dkuang1980/promptsite)               | A lightweight Python library for prompt lifecycle management that helps you version control, track, experiment and debug with your LLM prompts with ease. Minimal setup, no servers, databases, or API keys required - works directly with your local filesystem, ideal for data scientists and engineers to easily integrate into existing LLM workflows     |                   |"
+        confidence: high
+metadata:
+  github:
+    stars: 47
+    forks: 4
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-01-20T22:28:21Z"
+    pushed_at: "2025-02-03T23:06:57Z"
+    description: PromptSite is a lightweight prompt version management package that helps you version control, track, experiment and debug with your LLM prompts with ease.
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:01:54.352Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:54.352Z"
+      bytes: 8224
+insights:
+  summary: PromptSite is a lightweight Python package for version controlling, tracking, and experimenting with LLM prompts using local files, Git, and simple decorators.
+  why_it_matters: It gives developers a low-overhead way to iteratively debug prompts, track LLM runs, and manage variables without standing up a separate server or database.
+  mental_damage: "Just what your workflow needed: another layer of versioning, this time for the sentences you feed to the model until it stops lying to you."
+  tags:
+    - prompt-management
+    - llmops
+    - python
+    - version-control
+    - experimentation
+  confidence: medium
+curation:
+  status: included
+  reason: It is a focused prompt management and experimentation library that fits cleanly into context engineering and LLMOps workflows for developers.
+  evidence:
+    - "Repo description: 'lightweight prompt version management package that helps you version control, track, experiment and debug with your LLM prompts'"
+    - README features local/Git storage, run tracking, variable management, and Python @tracker decorator for LLM calls
+    - Listed in Awesome-LLMOps under the LLMOps section
+placement:
+  primary_category: context-engineering
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.685Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:54.352Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:16:32.930Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

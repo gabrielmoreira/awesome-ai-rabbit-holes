@@ -1,0 +1,77 @@
+id: www__gecko__security
+kind: website
+name: www.gecko.security
+canonical_url: https://www.gecko.security
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__gecko__security__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Security
+        anchor_text: Gecko Security
+        extracted_url: https://gecko.security
+        surrounding_text: "- **[Gecko Security](https://gecko.security/)** – AI security analysis for code."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Gecko Security is an AI-native SAST platform that builds semantic graphs of codebases to detect business logic flaws and multi-step vulnerabilities within CI/CD pipelines.
+  why_it_matters: It integrates directly into developer workflows via PR/MR bots and one-click autofixes, aiming to reduce false positives and security triage time.
+  mental_damage: Another day, another AI promising to understand your codebase better than the person who wrote it, while you still have to explain to the CISO why the 'AI-native' engine marked a test fixture as a critical vulnerability.
+  tags:
+    - security
+    - sast
+    - ci-cd
+    - vulnerability-scanning
+    - devsecops
+  confidence: high
+curation:
+  status: included
+  reason: The product acts as a specialized security agent that reviews code, detects vulnerabilities, and provides fixes directly inside the PR/MR workflow, fitting the coding-agents definition.
+  evidence:
+    - Site excerpt confirms 'CI/CD Integration with PR/MR bot' and 'one-click autofix'.
+    - Featured in awesome-ai-coding-tools under the 'Security' section.
+    - Description states it 'analyzes your code, logic, and infrastructure to find exploitable vulnerabilities'.
+placement:
+  primary_category: coding-agents
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.732Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:50:55.189Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

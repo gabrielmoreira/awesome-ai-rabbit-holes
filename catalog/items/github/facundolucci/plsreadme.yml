@@ -1,0 +1,82 @@
+id: github__facundolucci__plsreadme
+kind: github-repo
+name: plsreadme
+canonical_url: https://github.com/facundolucci/plsreadme
+identity:
+  github_repo: facundolucci/plsreadme
+provenance:
+  discoveries:
+    - id: discovery__github__facundolucci__plsreadme__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📂 <a name="file-systems"></a>File Systems
+        anchor_text: FacundoLucci/plsreadme
+        extracted_url: https://github.com/facundolucci/plsreadme
+        surrounding_text: "- [FacundoLucci/plsreadme](https://github.com/FacundoLucci/plsreadme) [![plsreadme MCP server](https://glama.ai/mcp/servers/@FacundoLucci/plsreadme/badges/score.svg)](https://glama.ai/mcp/servers/@FacundoLucci/plsreadme) 📇 ☁️ 🏠 - Share markdown files and text as clean, readable web links via `plsreadme_share_file` and `plsreadme_share_text`; zero setup (`npx -y plsreadme-mcp` or `https://plsreadme.com/mcp`)."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2025-12-21T18:32:41Z"
+    pushed_at: "2026-04-06T01:10:47Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:07.578Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:07.578Z"
+      bytes: 23604
+insights:
+  summary: A markdown-to-shareable-link tool with an MCP server that lets AI agents and editors publish rendered docs from within their workflows.
+  why_it_matters: Developers and AI agents can instantly turn raw markdown into hosted, commentable pages without leaving their editor or spinning up a frontend.
+  mental_damage: We’ve reached the point where even our documentation needs its own OAuth provider, token refresh cycle, and a four-phase ownership rollout.
+  tags:
+    - mcp
+    - markdown
+    - sharing
+    - cloudflare-workers
+    - docs
+  confidence: medium
+curation:
+  status: included
+  reason: The project’s primary developer-facing artifact is an MCP server that lets coding agents and editors share markdown as rendered pages, which fits cleanly as MCP tooling.
+  evidence:
+    - README explicitly ships an MCP server and NPM package (plsreadme-mcp) for Claude, Cursor, and VS Code.
+    - Listed under Server Implementations > File Systems in the awesome-mcp-servers directory.
+    - Core pitch centers on rendering and sharing markdown via an MCP-compatible workflow, not general app building or coding assistance.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.687Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:07.578Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:18:57.155Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

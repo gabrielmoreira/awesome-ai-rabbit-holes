@@ -1,0 +1,97 @@
+id: github__hybirdss__smartest-tv
+kind: github-repo
+name: smartest-tv
+canonical_url: https://github.com/hybirdss/smartest-tv
+identity:
+  github_repo: hybirdss/smartest-tv
+provenance:
+  discoveries:
+    - id: discovery__github__hybirdss__smartest-tv__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🏠 <a name="home-automation"></a>Home Automation
+        anchor_text: Hybirdss/smartest-tv
+        extracted_url: https://github.com/hybirdss/smartest-tv
+        surrounding_text: "- [Hybirdss/smartest-tv](https://github.com/Hybirdss/smartest-tv) [![Hybirdss/smartest-tv MCP server](https://glama.ai/mcp/servers/Hybirdss/smartest-tv/badges/score.svg)](https://glama.ai/mcp/servers/Hybirdss/smartest-tv) 🐍 🏠 🍎 🪟 🐧 - Control any smart TV with natural language. Play Netflix, YouTube, Spotify by name with deep linking, cast URLs, scene presets, multi-room audio, and multi-TV sync. Supports LG, Samsung, Android TV, Roku. 21 MCP tools, no cloud required."
+        confidence: high
+metadata:
+  github:
+    stars: 25
+    forks: 2
+    license: MIT
+    archived: false
+    created_at: "2026-04-02T18:35:00Z"
+    pushed_at: "2026-04-25T16:38:42Z"
+    description: "📺 Control any smart TV with natural language. Play Netflix by name from your terminal. PyPI: stv · MCP server · LG/Samsung/Roku/Android"
+    homepage: null
+    topics:
+      - ai-agent
+      - android-tv
+      - cli
+      - deep-linking
+      - home-automation
+      - lg-tv
+      - mcp
+      - mcp-server
+      - netflix
+      - python
+      - roku
+      - samsung-tv
+      - smart-tv
+      - spotify
+      - youtube
+    last_checked_at: "2026-05-05T21:02:39.240Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:39.240Z"
+      bytes: 16470
+insights:
+  summary: A CLI tool and MCP server that lets developers control smart TVs and play media via natural language commands in the terminal or through AI coding agents.
+  why_it_matters: It exposes 21 MCP tools for TV control, allowing developers to integrate media commands directly into their agent workflows like Claude Code or Codex.
+  mental_damage: "We have finally achieved the platonic ideal of the modern developer lifestyle: an AI agent writing your code at 2am while a separate CLI tool handles putting on Frieren so you never have to touch a physical remote."
+  tags:
+    - mcp-server
+    - cli
+    - home-automation
+    - tv-control
+    - smart-tv
+  confidence: high
+curation:
+  status: included
+  reason: The project is primarily an MCP server implementation with 21 tools, fitting the MCP infrastructure category rather than a coding agent or developer extension.
+  evidence:
+    - Repo description explicitly states 'MCP server' for controlling smart TVs with natural language.
+    - README highlights 'Also available as an MCP server (21 tools) for Claude Code, Codex, Antigravity, and other MCP clients.'
+    - Listed in awesome-mcp-servers under 'Home Automation' as a server implementation.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.697Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:39.240Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:25:04.459Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

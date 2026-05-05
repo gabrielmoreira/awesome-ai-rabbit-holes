@@ -1,0 +1,77 @@
+id: deepmind__google__models__gemini
+kind: website
+name: gemini
+canonical_url: https://deepmind.google/models/gemini
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__deepmind__google__models__gemini__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Code Models
+        anchor_text: Gemini (Google)
+        extracted_url: https://deepmind.google/technologies/gemini
+        surrounding_text: "- **[Gemini (Google)](https://deepmind.google/technologies/gemini/)** – Powers Google Code Assist, Gemini CLI, and Antigravity with 1M token context."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Gemini is a family of multimodal AI models from Google DeepMind that supports text, image, video, audio, and code generation, integrated into developer tools via the Gemini API, Google AI Studio, and various IDE plugins.
+  why_it_matters: Developers can leverage its long context windows, agentic coding capabilities, and strong benchmark performance directly inside tools like Cursor, GitHub Copilot, and Cline to handle complex, long-horizon code tasks.
+  mental_damage: Just when you had your prompt incantations tuned for the previous version, the model lineup shifts again, turning your stable workflow into a benchmark leaderboard chase.
+  tags:
+    - llm
+    - multimodal
+    - api
+    - google
+    - coding
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a foundational AI model and API platform, not a developer-facing tool, agent, or piece of infrastructure that belongs in a curated catalog of AI rabbit holes for software developers.
+  evidence:
+    - The page describes the Gemini model family and its API/AI Studio, not a standalone developer tool or agent.
+    - Appears in awesome-ai-coding-tools under 'Code Models', which lists the model itself rather than a developer tool.
+    - No repo, IDE plugin, CLI, or agent orchestration surface is presented; it is the underlying model powering other tools.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.727Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:43:36.875Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

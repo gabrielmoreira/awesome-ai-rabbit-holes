@@ -1,30 +1,30 @@
 id: github__mobinx__awesome-mcp-list
 kind: github-repo
 name: awesome-mcp-list
-canonical_url: https://github.com/MobinX/awesome-mcp-list
+canonical_url: https://github.com/mobinx/awesome-mcp-list
 identity:
-  github_repo: MobinX/awesome-mcp-list
+  github_repo: mobinx/awesome-mcp-list
 provenance:
   discoveries:
     - id: discovery__github__mobinx__awesome-mcp-list__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-01T13:51:25.374Z"
+      discovered_at: "2026-05-05T19:41:00.656Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
-        url: https://github.com/MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
         repository: MobinX/awesome-mcp-list
       extraction:
         mode: direct
         section_path:
           - inbox
         anchor_text: https://github.com/MobinX/awesome-mcp-list
-        extracted_url: https://github.com/MobinX/awesome-mcp-list
+        extracted_url: https://github.com/mobinx/awesome-mcp-list
         surrounding_text: MCP list.
         confidence: high
 metadata:
   github:
-    stars: 879
-    forks: 195
+    stars: 878
+    forks: 200
     license: null
     archived: false
     created_at: "2025-03-24T16:33:17Z"
@@ -32,31 +32,49 @@ metadata:
     description: A concise list for mcp servers
     homepage: null
     topics: []
-    last_checked_at: "2026-05-01T13:51:29.606Z"
+    last_checked_at: "2026-05-05T21:03:44.744Z"
     readme:
-      fetched_at: "2026-05-01T13:51:29.606Z"
+      fetched_at: "2026-05-05T21:03:44.744Z"
       bytes: 63331
 insights:
-  summary: A curated awesome list of Model Context Protocol (MCP) servers.
-  why_it_matters: It gives developers a fast way to discover ready-made MCP integrations (e.g., browser automation, web search, platform APIs) to plug into agents without building every tool connector from scratch.
-  mental_damage: Nothing says “stable workflow” like bookmarking a “continuously updating” list of servers that can all become your agent’s new single point of failure.
+  summary: A curated directory of Model Context Protocol (MCP) servers organized by category, such as browser control, cloud platforms, and art integrations.
+  why_it_matters: It serves as a centralized map for developers looking to extend AI assistants with specific external tools and data sources via the MCP standard.
+  mental_damage: Just when you thought you had a handle on the tooling landscape, you now need a dedicated directory just to track the directories that connect your AI to its tools.
   tags:
     - mcp
+    - directory
     - awesome-list
-    - developer-tools
-    - agent-tooling
-    - integrations
+    - tooling
   confidence: high
 curation:
   status: included
-  reason: Include because it’s a focused navigation index specifically for MCP servers, which is directly in-scope developer agent tooling, and it’s actively maintained with meaningful traction.
+  reason: This is a meta-list organizing MCP servers, making it a navigation aid for developers rather than a standalone tool or server itself.
   evidence:
-    - "Repo description: \"A concise list for mcp servers\" (clear MCP tooling focus)"
-    - "README: \"Awesome MCP Servers\" with categorized MCP server entries (e.g., Playwright, Puppeteer, web search)"
-    - Not archived; pushed 2026-03-11 and has 879 stars (active + adopted)
+    - Repo description explicitly states 'A concise list for mcp servers'.
+    - README is structured as a categorized directory linking to external MCP server projects (e.g., Browser Control, Art & Culture).
+    - Appears in the 'awesome-LLM-resources' list under the MCP section, confirming its status as a curated index.
 placement:
   primary_category: awesome-awesomes
   section: null
 lifecycle:
   status: promotion_candidate
-  reason: Stars (879) exceeded threshold (150)
+  reason: Stars (878) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.657Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:44.745Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:38:41.752Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,81 @@
+id: github__lightpanda-io__gomcp
+kind: github-repo
+name: gomcp
+canonical_url: https://github.com/lightpanda-io/gomcp
+identity:
+  github_repo: lightpanda-io/gomcp
+provenance:
+  discoveries:
+    - id: discovery__github__lightpanda-io__gomcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📂 <a name="browser-automation"></a>Browser Automation
+        anchor_text: lightpanda-io/gomcp
+        extracted_url: https://github.com/lightpanda-io/gomcp
+        surrounding_text: "- [lightpanda-io/gomcp](https://github.com/lightpanda-io/gomcp) 🏎 🏠/☁️ 🐧/🍎 - An MCP server in Go for Lightpanda, the ultra fast headless browser designed for web automation"
+        confidence: high
+metadata:
+  github:
+    stars: 65
+    forks: 13
+    license: Apache-2.0
+    archived: true
+    created_at: "2025-05-06T07:19:25Z"
+    pushed_at: "2026-03-13T18:05:45Z"
+    description: Lightpanda MCP server written in Go
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:03:20.113Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:20.113Z"
+      bytes: 3070
+insights:
+  summary: A Go implementation of an MCP server that exposes tools to interact with the Lightpanda Browser via the Chrome DevTools Protocol.
+  why_it_matters: It allows developers to integrate a lightweight, automation-focused browser with MCP-compatible clients like Claude Desktop for web interaction tasks.
+  mental_damage: Just when you thought we had enough MCP servers, the browser now eats the server and renders the wrapper obsolete, proving even our middleware needs upgrading.
+  tags:
+    - mcp
+    - go
+    - browser-automation
+    - lightpanda
+  confidence: high
+curation:
+  status: excluded
+  reason: The repository is explicitly archived and obsolete, as the author states the functionality is now natively included in the Lightpanda Browser itself.
+  evidence:
+    - The repo description identifies it as a 'Lightpanda MCP server written in Go'.
+    - "The README contains a warning: 'This project was a first experiment... But now, the browser embed an MCP server natively.'"
+    - The 'archived' flag is set to true.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: needs_review
+  reason: Repository is archived
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.704Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:20.113Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:33:57.264Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

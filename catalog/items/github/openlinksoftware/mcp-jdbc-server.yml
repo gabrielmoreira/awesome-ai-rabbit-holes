@@ -1,0 +1,82 @@
+id: github__openlinksoftware__mcp-jdbc-server
+kind: github-repo
+name: mcp-jdbc-server
+canonical_url: https://github.com/openlinksoftware/mcp-jdbc-server
+identity:
+  github_repo: openlinksoftware/mcp-jdbc-server
+provenance:
+  discoveries:
+    - id: discovery__github__openlinksoftware__mcp-jdbc-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🗄️ <a name="databases"></a>Databases
+        anchor_text: openlink/mcp-server-jdbc
+        extracted_url: https://github.com/openlinksoftware/mcp-jdbc-server
+        surrounding_text: "- [openlink/mcp-server-jdbc](https://github.com/OpenLinkSoftware/mcp-jdbc-server) 🐍 🏠 - An MCP server for generic Database Management System (DBMS) Connectivity via the Java Database Connectivity (JDBC) protocol"
+        confidence: high
+metadata:
+  github:
+    stars: 12
+    forks: 8
+    license: MIT
+    archived: false
+    created_at: "2025-04-14T14:18:37Z"
+    pushed_at: "2025-07-22T21:23:32Z"
+    description: Java based Model Context Procotol (MCP) Server for JDBC
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:04:06.173Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:06.173Z"
+      bytes: 12139
+insights:
+  summary: A Java-based MCP server that exposes JDBC database operations—including schema inspection, table queries, and SQL execution—as tools for MCP-compatible clients like Claude Desktop.
+  why_it_matters: It lets developers connect LLM clients directly to virtually any JDBC-compatible database, turning natural language into live queries across heterogeneous data sources.
+  mental_damage: We have successfully abstracted the database so that an LLM can write the SQL for us, ensuring we no longer need to know the schema, the query language, or what we were looking for in the first place.
+  tags:
+    - mcp
+    - jdbc
+    - database
+    - java
+    - claude-desktop
+  confidence: high
+curation:
+  status: included
+  reason: The project is a purpose-built MCP server implementation that enables AI clients to interact with databases via JDBC, fitting cleanly into MCP infrastructure.
+  evidence:
+    - "Repo description explicitly states: 'Java based Model Context Protocol (MCP) Server for JDBC'."
+    - README confirms it provides JDBC tools (schemas, tables, queries) to MCP clients like Claude Desktop.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Databases', confirming its role in the MCP ecosystem.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.711Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:06.173Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:42:47.034Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

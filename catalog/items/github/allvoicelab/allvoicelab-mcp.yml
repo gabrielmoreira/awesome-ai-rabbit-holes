@@ -1,0 +1,92 @@
+id: github__allvoicelab__allvoicelab-mcp
+kind: github-repo
+name: allvoicelab-mcp
+canonical_url: https://github.com/allvoicelab/allvoicelab-mcp
+identity:
+  github_repo: allvoicelab/allvoicelab-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__allvoicelab__allvoicelab-mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: scraped
+        section_path:
+          - Official Servers
+        anchor_text: AllVoiceLab
+        extracted_url: https://www.allvoicelab.com/mcp
+        surrounding_text: "- **[AllVoiceLab](https://www.allvoicelab.com/mcp)** - An AI voice toolkit with TTS, voice cloning, and video translation, now available as an MCP server for smarter agent integration."
+        confidence: high
+metadata:
+  github:
+    stars: 56
+    forks: 18
+    license: MIT
+    archived: false
+    created_at: "2025-05-16T03:05:20Z"
+    pushed_at: "2025-08-05T09:22:36Z"
+    description: "Official AllVoiceLab Model Context Protocol (MCP) server, supporting interaction with powerful text-to-speech and video translation APIs. "
+    homepage: https://www.allvoicelab.com/mcp
+    topics:
+      - aivoice
+      - aivoicechanger
+      - aivoiceover
+      - audiobooks
+      - dubbing-ai
+      - localization
+      - tts
+      - tts-api
+      - video-translation
+      - voice-cloning
+      - voice-generation
+    last_checked_at: "2026-05-05T21:01:01.266Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:01.266Z"
+      bytes: 7998
+insights:
+  summary: An official MCP server that exposes AllVoiceLab's text-to-speech, voice cloning, and video translation APIs to MCP-compatible clients like Claude Desktop, Cursor, and Windsurf.
+  why_it_matters: It allows developers to integrate high-quality voice generation and video localization directly into AI-assisted workflows without building custom API wrappers.
+  mental_damage: Another niche API wraps itself in the MCP standard so your coding agent can now dub a telenovela while you debug a null pointer.
+  tags:
+    - mcp
+    - tts
+    - voice-cloning
+    - video-translation
+    - api-wrapper
+  confidence: high
+curation:
+  status: included
+  reason: The project is an official MCP server implementation exposing third-party TTS and video APIs, which fits cleanly into the MCP servers and tooling category.
+  evidence:
+    - Repo description explicitly states this is an 'Official AllVoiceLab Model Context Protocol (MCP) server'.
+    - README confirms it enables MCP clients like Claude Desktop, Cursor, and Windsurf to use its methods.
+    - Listed in awesome-mcp-servers under the 'Official Servers' section.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.678Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:01.266Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:07:47.146Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,91 @@
+id: github__dodopayments__context-mcp
+kind: github-repo
+name: context-mcp
+canonical_url: https://github.com/dodopayments/context-mcp
+identity:
+  github_repo: dodopayments/context-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__dodopayments__context-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: dodopayments/contextmcp
+        extracted_url: https://github.com/dodopayments/context-mcp
+        surrounding_text: "- [dodopayments/contextmcp](https://github.com/dodopayments/context-mcp) 📇 ☁️ 🏠 - Self-hosted MCP server that indexes documentation from various sources and serves it to AI Agents with semantic search."
+        confidence: high
+metadata:
+  github:
+    stars: 26
+    forks: 3
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-12-03T10:30:02Z"
+    pushed_at: "2026-04-22T10:31:52Z"
+    description: Self-hosted MCP server for your documentation
+    homepage: https://contextmcp.ai
+    topics:
+      - context
+      - context-api
+      - context7
+      - documentation
+      - mcp
+      - mcp-server
+      - openai
+      - pinecone
+      - self-hosted
+    last_checked_at: "2026-05-05T21:01:55.079Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:55.079Z"
+      bytes: 3369
+insights:
+  summary: A self-hosted MCP server that indexes documentation from sources like MDX and OpenAPI specs into a Pinecone vector database to serve contextual knowledge to AI assistants via the Model Context Protocol.
+  why_it_matters: Developers can scaffold a dedicated MCP endpoint that lets coding agents stop hallucinating API details by querying live, indexed project documentation instead of stale training data.
+  mental_damage: We have successfully reached the point where we need to run a dedicated vector stack just to remind the AI that our API endpoint is called /users and not /get_user_list.
+  tags:
+    - mcp
+    - documentation
+    - self-hosted
+    - context
+    - pinecone
+  confidence: high
+curation:
+  status: included
+  reason: The project is a self-hosted MCP server implementation designed to provide documentation context to AI assistants, fitting squarely into the MCP infrastructure category.
+  evidence:
+    - "Repo description explicitly states: 'Self-hosted MCP server for your documentation'."
+    - README confirms it serves indexed docs via the Model Context Protocol (MCP) and REST API.
+    - Listed in awesome-mcp-servers under 'Knowledge & Memory' server implementations.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.685Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:55.079Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:16:45.297Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

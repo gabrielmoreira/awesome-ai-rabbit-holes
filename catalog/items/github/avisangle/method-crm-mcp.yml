@@ -1,0 +1,88 @@
+id: github__avisangle__method-crm-mcp
+kind: github-repo
+name: method-crm-mcp
+canonical_url: https://github.com/avisangle/method-crm-mcp
+identity:
+  github_repo: avisangle/method-crm-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__avisangle__method-crm-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📊 <a name="data-platforms"></a>Data Platforms
+        anchor_text: avisangle/method-crm-mcp
+        extracted_url: https://github.com/avisangle/method-crm-mcp
+        surrounding_text: "- [avisangle/method-crm-mcp](https://github.com/avisangle/method-crm-mcp) 🐍 ☁️ 🏠 🍎 🪟 🐧 - Production-ready MCP server for Method CRM API integration with 20 comprehensive tools for tables, files, users, events, and API key management. Features rate limiting, retry logic, and dual transport support (stdio/HTTP)."
+        confidence: high
+metadata:
+  github:
+    stars: 2
+    forks: 3
+    license: MIT
+    archived: false
+    created_at: "2025-11-22T16:33:19Z"
+    pushed_at: "2025-11-22T16:59:33Z"
+    description: Production-ready Model Context Protocol (MCP) server for Method CRM API integration. Enables LLMs to interact with Method CRM through 20 comprehensive tools.
+    homepage: null
+    topics:
+      - api-integration
+      - fastmcp
+      - mcp
+      - method-crm
+      - model-context-protocol
+      - python
+    last_checked_at: "2026-05-05T21:01:13.955Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:13.955Z"
+      bytes: 14493
+insights:
+  summary: A Model Context Protocol server that exposes 20 API operations for Method CRM, allowing LLMs to manage tables, files, users, and events via stdio or HTTP transport.
+  why_it_matters: Developers using MCP-aware clients like Claude Desktop can connect an LLM directly to Method CRM data without writing custom API integration code.
+  mental_damage: We have reached the point where a CRM that few have heard of now has a dedicated protocol server so your AI can politely argue with your customer records.
+  tags:
+    - mcp
+    - crm
+    - api-integration
+    - python
+    - fastmcp
+  confidence: high
+curation:
+  status: included
+  reason: This is a standalone MCP server implementation with dual transport support and 20 tools, which clearly fits the MCP Servers and Tooling category.
+  evidence:
+    - Repo description states it is a 'Production-ready Model Context Protocol (MCP) server for Method CRM API integration'
+    - README documents 20 tools, stdio and streamable HTTP transport, and configuration for Claude Desktop
+    - Listed in awesome-mcp-servers under 'Server Implementations > Data Platforms'
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.680Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:13.955Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:09:45.709Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

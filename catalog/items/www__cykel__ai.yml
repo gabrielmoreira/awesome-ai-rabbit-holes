@@ -1,0 +1,76 @@
+id: www__cykel__ai
+kind: website
+name: www.cykel.ai
+canonical_url: https://www.cykel.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__cykel__ai__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Cykel
+        anchor_text: Cykel
+        extracted_url: https://www.cykel.ai
+        surrounding_text: "## [Cykel](https://www.cykel.ai/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Cykel is a SaaS platform providing specialized digital workers (Lucy, Eve, Samson) that autonomously handle recruitment, sales, and research tasks within business software environments.
+  why_it_matters: It represents a shift toward integrating autonomous agents directly into enterprise workflows like CRM and ATS, though it targets business operations rather than codebases.
+  mental_damage: We've successfully automated the anxiety of hiring, selling, and researching, so developers can now focus entirely on the anxiety of configuring the agents that do it.
+  tags:
+    - digital-workers
+    - saas
+    - agents
+    - business-automation
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a vertical SaaS product for recruitment, sales, and research teams, not a tool designed for software developers to build, test, or manage code.
+  evidence:
+    - The platform markets 'Lucy' as an AI Recruiter and 'Eve' as an AI SDR for sales teams, not developers.
+    - The 'awesome-ai-agents' listing describes it as a 'digital worker platform for recruitment, sales and research agents'.
+    - There is no mention of IDE integration, repo editing, CLI usage, or coding workflows in the scraped site context.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.732Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:50:22.545Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

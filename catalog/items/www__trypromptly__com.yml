@@ -1,0 +1,77 @@
+id: www__trypromptly__com
+kind: website
+name: www.trypromptly.com
+canonical_url: https://www.trypromptly.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__trypromptly__com__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Promptly
+        anchor_text: Promptly
+        extracted_url: https://www.trypromptly.com
+        surrounding_text: "## [Promptly](https://www.trypromptly.com/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Promptly is a no-code SaaS platform for building generative AI apps, chatbots, and agents using enterprise data and multiple LLM providers without writing code.
+  why_it_matters: It offers developers a hosted way to prototype and embed RAG-powered chatbots and internal tools with APIs and data connectors, without building the pipeline from scratch.
+  mental_damage: Yet another declarative UI that promises to turn your proprietary docs into a chatbot in minutes, ensuring you still get paged when the embeddings drift.
+  tags:
+    - no-code
+    - chatbot-builder
+    - rag
+    - enterprise-ai
+    - app-builder
+  confidence: high
+curation:
+  status: included
+  reason: This is a browser-first, hosted product that generates and deploys full AI apps and chatbots from prompts and data connectors, which fits the app-builders category.
+  evidence:
+    - "Scraped site title and description: 'Promptly: Generative AI for Enterprises | No-code AI App Builder' and 'Build generative AI apps, agents and chatbots in minutes.'"
+    - Primary page excerpt describes picking templates, adding data sources, and publishing apps with embed snippets and APIs.
+    - Listed in awesome-ai-agents under 'Promptly' with the description 'Build generative AI apps, agents and chatbots in minutes with Promptly's no-code platform.'
+placement:
+  primary_category: app-builders
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.734Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:53:53.542Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

@@ -1,0 +1,111 @@
+id: github__fireproof-storage__mcp-database-server
+kind: github-repo
+name: mcp-database-server
+canonical_url: https://github.com/fireproof-storage/mcp-database-server
+identity:
+  github_repo: fireproof-storage/mcp-database-server
+provenance:
+  discoveries:
+    - id: discovery__github__fireproof-storage__mcp-database-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🗄️ <a name="databases"></a>Databases
+        anchor_text: fireproof-storage/mcp-database-server
+        extracted_url: https://github.com/fireproof-storage/mcp-database-server
+        surrounding_text: "- [fireproof-storage/mcp-database-server](https://github.com/fireproof-storage/mcp-database-server) 📇 ☁️ - Fireproof ledger database with multi-user sync"
+        confidence: high
+    - id: discovery__github__fireproof-storage__mcp-database-server__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Fireproof
+        extracted_url: https://github.com/fireproof-storage/mcp-database-server
+        surrounding_text: "- **[Fireproof](https://github.com/fireproof-storage/mcp-database-server)** - Immutable ledger database with live synchronization"
+        confidence: high
+    - id: discovery__github__fireproof-storage__mcp-database-server__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - 🗄️ Databases
+        anchor_text: "@fireproof-storage/mcp-database-server"
+        extracted_url: https://github.com/fireproof-storage/mcp-database-server
+        surrounding_text: "-   **[@fireproof-storage/mcp-database-server](https://github.com/fireproof-storage/mcp-database-server)** [![GitHub stars](https://img.shields.io/github/stars/fireproof-storage/mcp-database-server?style=social)](https://github.com/fireproof-storage/mcp-database-server): Offers a Fireproof ledger database with multi-user synchronization."
+        confidence: high
+metadata:
+  github:
+    stars: 32
+    forks: 9
+    license: NOASSERTION
+    archived: false
+    created_at: "2024-12-16T21:59:16Z"
+    pushed_at: "2024-12-19T23:12:00Z"
+    description: Store and load JSON documents from LLM tool use
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:11.574Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:11.574Z"
+      bytes: 1239
+insights:
+  summary: A Model Context Protocol server that provides LLMs with CRUD and query access to JSON documents stored in a Fireproof database.
+  why_it_matters: It gives AI assistants like Claude Desktop a persistent, queryable state layer for JSON data without requiring custom database integration work.
+  mental_damage: We have successfully abstracted the database into a protocol, so now your LLM can persist its hallucinations with the robust reliability of a JSON document store.
+  tags:
+    - mcp
+    - database
+    - fireproof
+    - json
+  confidence: high
+curation:
+  status: included
+  reason: This is a Model Context Protocol server implementation providing database tooling for LLMs, which fits the MCP category directly.
+  evidence:
+    - Repo description states it is for storing and loading JSON documents from LLM tool use via MCP.
+    - README confirms it is a Model Context Protocol server using Fireproof for Claude Desktop integration.
+    - Listed in awesome-mcp-list and awesome-mcp-servers under the Databases section.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.660Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:11.574Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:19:39.424Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

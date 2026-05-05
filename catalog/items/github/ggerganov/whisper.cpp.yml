@@ -1,0 +1,88 @@
+id: github__ggerganov__whisper.cpp
+kind: github-repo
+name: whisper.cpp
+canonical_url: https://github.com/ggerganov/whisper.cpp
+identity:
+  github_repo: ggerganov/whisper.cpp
+provenance:
+  discoveries:
+    - id: discovery__github__ggerganov__whisper.cpp__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Serving
+          - Large Model Serving
+        anchor_text: whisper.cpp
+        extracted_url: https://github.com/ggerganov/whisper.cpp
+        surrounding_text: "| [whisper.cpp](https://github.com/ggerganov/whisper.cpp)                               | Port of OpenAI's Whisper model in C/C++                                                                         | ![GitHub Badge](https://img.shields.io/github/stars/ggerganov/whisper.cpp.svg?style=flat-square)                 |"
+        confidence: high
+metadata:
+  github:
+    stars: 49403
+    forks: 5494
+    license: MIT
+    archived: false
+    created_at: "2022-09-25T18:26:37Z"
+    pushed_at: "2026-05-02T12:02:47Z"
+    description: Port of OpenAI's Whisper model in C/C++
+    homepage: ""
+    topics:
+      - inference
+      - openai
+      - speech-recognition
+      - speech-to-text
+      - transformer
+      - whisper
+    last_checked_at: "2026-05-05T21:02:20.810Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:20.810Z"
+      bytes: 36005
+insights:
+  summary: A plain C/C++ port of OpenAI's Whisper speech recognition model, optimized for high-performance inference across CPUs, GPUs, and mobile devices with zero runtime memory allocations.
+  why_it_matters: It gives developers a lightweight, dependency-free way to embed offline speech-to-text capabilities directly into cross-platform applications, from servers to iOS and Raspberry Pi.
+  mental_damage: In an ecosystem obsessed with chaining twelve hosted LLMs to summarize a sentence, watching a model run entirely offline on a toaster remains both a relief and a quiet indictment of modern cloud complexity.
+  tags:
+    - speech-to-text
+    - local-inference
+    - c++
+    - whisper
+    - offline
+  confidence: high
+curation:
+  status: included
+  reason: The project is a developer-facing toolkit for running AI models locally on diverse hardware, fitting squarely into the Local AI category.
+  evidence:
+    - Repo description explicitly states 'Port of OpenAI's Whisper model in C/C++'.
+    - README emphasizes 'Plain C/C++ implementation without dependencies' and support for iOS, Android, and WebAssembly.
+    - Listed in Awesome-LLMOps under 'Serving > Large Model Serving', confirming its utility as a local model runtime.
+placement:
+  primary_category: local-ai
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (49403) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.441Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:20.810Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:21:13.418Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

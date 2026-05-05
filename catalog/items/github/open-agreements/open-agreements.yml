@@ -1,0 +1,101 @@
+id: github__open-agreements__open-agreements
+kind: github-repo
+name: open-agreements
+canonical_url: https://github.com/open-agreements/open-agreements
+identity:
+  github_repo: open-agreements/open-agreements
+provenance:
+  discoveries:
+    - id: discovery__github__open-agreements__open-agreements__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - ⚖️ <a name="legal"></a>Legal
+        anchor_text: open-agreements/open-agreements
+        extracted_url: https://github.com/open-agreements/open-agreements
+        surrounding_text: "- [open-agreements/open-agreements](https://github.com/open-agreements/open-agreements) [![open-agreements/open-agreements MCP server](https://glama.ai/mcp/servers/open-agreements/open-agreements/badges/score.svg)](https://glama.ai/mcp/servers/open-agreements/open-agreements) 📇 🏠 ☁️ 🍎 🐧 🪟 - Fill standard legal agreement templates (NDAs, SAFEs, NVCA docs, employment, cloud terms) and produce signable DOCX files."
+        confidence: high
+metadata:
+  github:
+    stars: 32
+    forks: 5
+    license: MIT
+    archived: false
+    created_at: "2026-02-09T09:26:34Z"
+    pushed_at: "2026-05-04T21:59:52Z"
+    description: Fill standard legal agreement templates and produce signable DOCX files.
+    homepage: https://openagreements.org
+    topics:
+      - agent-skills
+      - anthropic
+      - claude
+      - claude-code
+      - claude-code-cli
+      - claude-code-commands
+      - claude-code-plugin
+      - claude-code-plugins
+      - claude-code-skills
+      - claude-code-subagents
+      - claude-skills
+      - contract-automation
+      - docx
+      - gemini-cli-extension
+      - legal-tech
+      - legal-templates
+      - nda-template
+      - open-source-legal
+      - safe-template
+    last_checked_at: "2026-05-05T21:04:02.471Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:02.471Z"
+      bytes: 36437
+insights:
+  summary: A CLI tool and MCP server that fills 40+ standard legal agreement templates and outputs signable DOCX files for use with Claude Code, Gemini CLI, Cursor, and other agents.
+  why_it_matters: It lets developers hand off boilerplate legal paperwork to their coding agents instead of manually hunting down NDA templates or fumbling with formatting in Word.
+  mental_damage: We have finally reached the point where your coding agent can negotiate and execute an NDA for the side project it is helping you build.
+  tags:
+    - legal-tech
+    - mcp
+    - cli
+    - agent-skills
+    - templates
+  confidence: high
+curation:
+  status: included
+  reason: The primary artifact is a reusable skill pack and MCP server purpose-built as an agent skill for Claude Code and similar developer tools.
+  evidence:
+    - "Repo description states: 'Fill standard legal agreement templates and produce signable DOCX files.'"
+    - README explicitly lists 'Agent Skill (recommended)' install via `npx skills add` and supports Claude Code, Gemini CLI, and Cursor.
+    - Topics include agent-skills, claude-code-skills, and gemini-cli-extension, confirming its role as reusable skill content.
+placement:
+  primary_category: skills
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.711Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:02.471Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:42:11.864Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

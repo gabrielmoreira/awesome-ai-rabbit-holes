@@ -1,0 +1,75 @@
+id: www__mcpserverfinder__com__servers
+kind: website
+name: servers
+canonical_url: https://www.mcpserverfinder.com/servers
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__mcpserverfinder__com__servers__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - MCP Servers and Directories
+        anchor_text: MCP Server Finder
+        extracted_url: https://www.mcpserverfinder.com/servers
+        surrounding_text: "- **[MCP Server Finder](https://www.mcpserverfinder.com/servers)** – Discover and browse MCP servers."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A directory and search portal for discovering Model Context Protocol (MCP) servers.
+  why_it_matters: It provides a centralized index for developers to find and evaluate MCP servers to extend their AI coding assistants.
+  mental_damage: We have successfully graduated from 'which AI tool should I use?' to 'which directory of tools should I trust to find the tool that connects my tool to other tools?'
+  tags:
+    - mcp
+    - directory
+    - discovery
+  confidence: high
+curation:
+  status: included
+  reason: It is a directory and index for MCP servers, serving as a navigation aid for developers rather than a standalone tool or server itself.
+  evidence:
+    - URL path is /servers and the site name is mcpserverfinder.com, indicating a search/discovery function.
+    - Listed in awesome-ai-coding-tools under the section 'MCP Servers and Directories'.
+    - No repository description, README, or code indicators provided; the nature is a web-based listing.
+placement:
+  primary_category: awesome-awesomes
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.733Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:51:57.330Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

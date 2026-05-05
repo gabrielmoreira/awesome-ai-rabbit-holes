@@ -1,0 +1,100 @@
+id: github__calintzy__evmscope
+kind: github-repo
+name: evmscope
+canonical_url: https://github.com/calintzy/evmscope
+identity:
+  github_repo: calintzy/evmscope
+provenance:
+  discoveries:
+    - id: discovery__github__calintzy__evmscope__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: calintzy/evmscope
+        extracted_url: https://github.com/calintzy/evmscope
+        surrounding_text: "- [calintzy/evmscope](https://github.com/calintzy/evmscope) [![calintzy/evmscope MCP server](https://glama.ai/mcp/servers/calintzy/evmscope/badges/score.svg)](https://glama.ai/mcp/servers/calintzy/evmscope) 📇 ☁️ - EVM blockchain intelligence toolkit with 20 tools for token prices, gas comparison, swap quotes, yield rates, honeypot detection, and transaction simulation across Ethereum, Polygon, Arbitrum, Base, and Optimism. Zero config, no API keys required."
+        confidence: high
+metadata:
+  github:
+    stars: 2
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-03-09T13:58:29Z"
+    pushed_at: "2026-03-11T01:39:01Z"
+    description: EVM blockchain intelligence toolkit for AI agents — 23 MCP tools across 7 chains (Ethereum, Polygon, Arbitrum, Base, Optimism, Avalanche, BSC). Zero config.
+    homepage: null
+    topics:
+      - ai-agent
+      - ai-tools
+      - blockchain
+      - claude
+      - crypto
+      - cursor
+      - defi
+      - ethereum
+      - evm
+      - gas-tracker
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - nft
+      - solidity
+      - token-price
+      - typescript
+      - web3
+    last_checked_at: "2026-05-05T21:01:28.908Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:28.908Z"
+      bytes: 18663
+insights:
+  summary: An MCP server and CLI toolkit that exposes 26 read-only EVM blockchain tools—including token prices, gas comparisons, wallet balances, and DeFi safety checks—across seven major chains, requiring zero configuration or API keys.
+  why_it_matters: It gives AI agents and terminal users direct, zero-config access to real-time on-chain data that models like Claude and GPT otherwise cannot reach.
+  mental_damage: We have successfully built an MCP server so that our AI agents can panic about gas fees and honeypot tokens just as efficiently as we can.
+  tags:
+    - mcp
+    - blockchain
+    - evm
+    - defi
+    - cli
+  confidence: medium
+curation:
+  status: included
+  reason: The primary artifact is a dedicated MCP server providing EVM blockchain tools for AI agents, which clearly fits the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states it is an 'EVM blockchain intelligence toolkit for AI agents — 23 MCP tools'.
+    - README demonstrates dual-mode operation as both a CLI and an MCP server for integration with Claude, Cursor, and other MCP hosts.
+    - Listed under 'Server Implementations > Finance & Fintech' in the awesome-mcp-servers directory.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.682Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:28.908Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:12:16.182Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,106 @@
+id: github__internlm__mindsearch
+kind: github-repo
+name: mindsearch
+canonical_url: https://github.com/internlm/mindsearch
+identity:
+  github_repo: internlm/mindsearch
+provenance:
+  discoveries:
+    - id: discovery__github__internlm__mindsearch__awesome-list__vivy-yi__awesome-agent-orchestration
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: vivy-yi/awesome-agent-orchestration
+        url: https://github.com/vivy-yi/awesome-agent-orchestration
+        repository: vivy-yi/awesome-agent-orchestration
+      extraction:
+        mode: parsed
+        section_path:
+          - Core Frameworks
+          - Multi-Agent Orchestration Frameworks
+        anchor_text: MindSearch
+        extracted_url: https://github.com/internlm/mindsearch
+        surrounding_text: "| [MindSearch](https://github.com/InternLM/MindSearch) | LLM-based multi-agent framework for web search engine | ![Stars](https://img.shields.io/github/stars/InternLM/MindSearch) |"
+        confidence: high
+    - id: discovery__github__internlm__mindsearch__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 搜索 Search
+        anchor_text: MindSearch
+        extracted_url: https://github.com/internlm/mindsearch
+        surrounding_text: "2. [MindSearch](https://github.com/InternLM/MindSearch): An LLM-based Multi-agent Framework of Web Search Engine (like Perplexity.ai Pro and SearchGPT)."
+        confidence: high
+metadata:
+  github:
+    stars: 6848
+    forks: 681
+    license: Apache-2.0
+    archived: false
+    created_at: "2024-07-28T03:54:50Z"
+    pushed_at: "2025-07-04T10:06:45Z"
+    description: 🔍 An LLM-based Multi-agent Framework of Web Search Engine (like Perplexity.ai Pro and SearchGPT)
+    homepage: ""
+    topics:
+      - ai-search-engine
+      - gpt
+      - llm
+      - llms
+      - multi-agent-systems
+      - perplexity-ai
+      - search
+      - searchgpt
+      - transformer
+      - web-search
+    last_checked_at: "2026-05-05T21:02:45.793Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:45.793Z"
+      bytes: 5120
+insights:
+  summary: An open-source, multi-agent framework that decomposes complex queries into sub-questions and performs parallel web searches to mimic human research workflows.
+  why_it_matters: Developers can self-host a Perplexity-style search engine, swapping in custom LLMs and search APIs to build deep research capabilities into their own applications.
+  mental_damage: Yet another opportunity to realize that while the agents are great at parallel searching, you're still the one manually aggregating why the four different API keys failed.
+  tags:
+    - multi-agent
+    - web-search
+    - llm-framework
+    - research
+  confidence: high
+curation:
+  status: included
+  reason: It is a code-first framework and SDK for building multi-agent search systems, distributed via GitHub for developers to import and run locally, rather than a hosted control plane.
+  evidence:
+    - Repo description defines it as an 'LLM-based Multi-agent Framework' for web search.
+    - README provides pip install instructions and Python API setup, confirming it is a developer SDK/library.
+    - Included in 'awesome-agent-orchestration' under 'Core Frameworks > Multi-Agent Orchestration Frameworks'.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (6848) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.667Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:45.793Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:26:24.847Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

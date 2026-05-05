@@ -1,0 +1,92 @@
+id: www__taskade__com
+kind: website
+name: www.taskade.com
+canonical_url: https://www.taskade.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__taskade__com__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Taskade
+        anchor_text: Taskade
+        extracted_url: https://www.taskade.com
+        surrounding_text: "## [Taskade](https://www.taskade.com/)"
+        confidence: high
+    - id: discovery__www__taskade__com__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Taskade platform
+        extracted_url: https://www.taskade.com
+        surrounding_text: "- **[Taskade](https://github.com/taskade/mcp)** – Connect to the [Taskade platform](https://www.taskade.com/) via MCP. Access tasks, projects, workflows, and AI agents in real-time through a unified workspace and API."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Taskade Genesis is a browser-first SaaS platform that generates full-stack web apps, portals, and dashboards from natural language prompts, complete with a built-in database, AI agents, and workflow automations.
+  why_it_matters: It allows developers and non-technical teams to rapidly prototype and deploy functional internal tools, CRMs, and business apps without wiring up separate backend services or integration glue code.
+  mental_damage: We have officially entered the era where 'vibe coding' is a legitimate category on a pricing page, and you can now deploy 500,000 agents before your coffee gets cold.
+  tags:
+    - app-builder
+    - ai-agents
+    - no-code
+    - automation
+    - vibe-coding
+  confidence: high
+curation:
+  status: included
+  reason: The product is a hosted, browser-first platform that turns prompts into deployed full-stack apps and tools, which fits the app-builders category definition rather than a coding agent that works inside a repo or IDE.
+  evidence:
+    - Scraped site describes it as 'Browser-first prompt-to-app' with 'Vibe Coding Build web apps with a prompt'.
+    - "Primary excerpt explicitly states: 'One prompt turns into a complete business system' and 'Prompt it. Run it. Share it.'"
+    - Listed in awesome-ai-agents and awesome-mcp-servers, but the product surface is a hosted app generator, not a CLI/IDE coding assistant.
+placement:
+  primary_category: app-builders
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.675Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:53:37.614Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

@@ -1,0 +1,97 @@
+id: github__horustechltd__horus-flow-mcp
+kind: github-repo
+name: horus-flow-mcp
+canonical_url: https://github.com/horustechltd/horus-flow-mcp
+identity:
+  github_repo: horustechltd/horus-flow-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__horustechltd__horus-flow-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: horustechltd/horus-flow-mcp
+        extracted_url: https://github.com/horustechltd/horus-flow-mcp
+        surrounding_text: "- [horustechltd/horus-flow-mcp](https://github.com/horustechltd/horus-flow-mcp) [![horustechltd/horus-flow-mcp MCP server](https://glama.ai/mcp/servers/horustechltd/horus-flow-mcp/badges/score.svg)](https://glama.ai/mcp/servers/horustechltd/horus-flow-mcp) 🐍 ☁️ - Institutional-grade crypto and US equity orderflow engine for real-time liquidity analysis and institutional alpha."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-04-17T09:36:39Z"
+    pushed_at: "2026-05-03T14:45:44Z"
+    description: "Official MCP server for Horus Flow Intelligence: Institutional-grade market microstructure and orderflow physics for AI trading agents."
+    homepage: https://flow.horustek.pro
+    topics:
+      - ai-agent
+      - algorithmic-trading
+      - binance
+      - claude
+      - crypto
+      - cursor
+      - equities
+      - fastapi
+      - institutional
+      - mcp
+      - mcp-server
+      - orderflow
+      - python
+      - quantitative-finance
+      - trading
+    last_checked_at: "2026-05-05T21:02:36.045Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:36.045Z"
+      bytes: 10151
+insights:
+  summary: An MCP server that provides real-time institutional orderbook and market microstructure data from exchanges like Binance to AI trading agents.
+  why_it_matters: It allows developers building autonomous trading agents to plug institutional-grade market 'physics' and L2 orderbook data directly into their agent's context via the Model Context Protocol.
+  mental_damage: "We have successfully abstracted away the last remaining human advantage in trading: the ability to panic without an API key."
+  tags:
+    - mcp-server
+    - trading
+    - finance
+    - orderflow
+    - ai-agent
+  confidence: high
+curation:
+  status: included
+  reason: The repository is explicitly an MCP server implementation designed to feed market data to AI agents, fitting the dedicated MCP infrastructure category.
+  evidence:
+    - "Repo description states: 'Official MCP server for Horus Flow Intelligence'."
+    - README positions the tool as 'Native MCP (Plug & Play)' for AI agents.
+    - Listed in awesome-mcp-servers under 'Finance & Fintech' section.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.696Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:36.045Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:24:20.328Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,81 @@
+id: github__modelscope__twinkle
+kind: github-repo
+name: twinkle
+canonical_url: https://github.com/modelscope/twinkle
+identity:
+  github_repo: modelscope/twinkle
+provenance:
+  discoveries:
+    - id: discovery__github__modelscope__twinkle__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 微调 Fine-Tuning
+        anchor_text: Twinkle
+        extracted_url: https://github.com/modelscope/twinkle
+        surrounding_text: "50. [Twinkle](https://github.com/modelscope/twinkle): a lightweight, client-server training framework engineered with modular, high-cohesion interfaces."
+        confidence: high
+metadata:
+  github:
+    stars: 219
+    forks: 28
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-12-16T06:20:55Z"
+    pushed_at: "2026-04-27T06:54:39Z"
+    description: "Twinkle✨: Training workbench to make your model glow."
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:03:46.027Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:46.027Z"
+      bytes: 28220
+insights:
+  summary: Twinkle is a lightweight, client-server training framework for fine-tuning and serving AI models locally or across Ray clusters, with support for multiple backends and multi-tenant LoRA training.
+  why_it_matters: It abstracts away infrastructure friction for developers building custom training pipelines, enabling serverless Training-as-a-Service (TaaS) workflows without deep DevOps overhead.
+  mental_damage: "Just what the ecosystem needed: another highly modular, superset-API training workbench ensuring you can now argue about torchrun versus Ray cluster configurations in three different client languages."
+  tags:
+    - training
+    - fine-tuning
+    - model-serving
+    - ray
+    - pytorch
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a model-training and fine-tuning framework for ML engineers, not a developer-facing AI tool, agent, or coding workflow product.
+  evidence:
+    - Repo description explicitly states it is a 'Training workbench to make your model glow', focused on model training rather than coding assistance.
+    - README describes a 'client-server training framework' with torchrun/Ray runtimes and Transformers/Megatron backends for fine-tuning LoRAs.
+    - Listed under '微调 Fine-Tuning' in awesome-LLM-resources, confirming its ML training niche rather than developer tooling.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (219) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.708Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:46.027Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:38:55.728Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

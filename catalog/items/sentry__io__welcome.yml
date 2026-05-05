@@ -1,0 +1,78 @@
+id: sentry__io__welcome
+kind: website
+name: welcome
+canonical_url: https://sentry.io/welcome
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__sentry__io__welcome__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Sentry
+        extracted_url: https://sentry.io
+        surrounding_text: "- **[Sentry](https://github.com/getsentry/sentry-mcp)** - Official MCP server for [Sentry](https://sentry.io)."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Sentry is an application performance monitoring and error tracking platform that integrates AI-driven debugging agents, automated code fixes, and AI code review into the developer workflow.
+  why_it_matters: It connects observability signals like stack traces and performance data directly to AI tools that can generate merge-ready patches and review code before it ships.
+  mental_damage: Just when you thought 'production is on fire' was the peak of stress, now the AI reviewing your PR is also the one telling you why the fix it wrote failed in staging.
+  tags:
+    - observability
+    - error-tracking
+    - ai-debugging
+    - mcp
+  confidence: high
+curation:
+  status: included
+  reason: Sentry's 'Seer' agent and AI Code Review features directly edit, review, and debug code within the PR and IDE workflow, fitting the coding-agents definition over a generic monitoring tool.
+  evidence:
+    - Scraped site context describes 'Seer, our debugging agent and code reviewer' that generates 'merge-ready patches'.
+    - Site mentions 'AI code review' to catch regressions before they ship and 'Sentry MCP' for coding agents.
+    - Listed in awesome-mcp-servers under 'Official Servers' for application performance monitoring.
+placement:
+  primary_category: coding-agents
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.730Z"
+    cause:
+      type: ambiguous_canonicalization
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:48:02.239Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

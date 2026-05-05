@@ -1,0 +1,76 @@
+id: www__comet__com__site__llm__course
+kind: website
+name: llm-course
+canonical_url: https://www.comet.com/site/llm-course
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__comet__com__site__llm__course__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 课程 Course
+        anchor_text: "LLM Evaluation: A Complete Course"
+        extracted_url: https://www.comet.com/site/llm-course
+        surrounding_text: "47. [LLM Evaluation: A Complete Course](https://www.comet.com/site/llm-course/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A free, self-paced online course teaching software developers how to evaluate LLM applications using heuristic metrics, LLM-as-a-judge techniques, and the Opik observability platform.
+  why_it_matters: It focuses on the practical, applied side of LLM evaluation—covering testing pipelines, monitoring, and hallucination detection—rather than deep ML theory.
+  mental_damage: Another hour-long course promising to solve the 'evaluate the thing that writes the code' problem, ensuring you now have homework for your homework.
+  tags:
+    - llm-evaluation
+    - course
+    - observability
+    - opik
+  confidence: high
+curation:
+  status: excluded
+  reason: This is an educational course and newsletter signup page, not a developer tool, framework, or infrastructure component.
+  evidence:
+    - The primary page excerpt describes a 'FREE COURSE' with lessons, instructors, and a syllabus, not a software tool.
+    - Listed in awesome-LLM-resources under the '课程 Course' (Course) section, indicating it is a learning resource rather than tooling.
+    - No repository description, stars, or code artifacts are present; it is a hosted educational product.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.732Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:50:17.697Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

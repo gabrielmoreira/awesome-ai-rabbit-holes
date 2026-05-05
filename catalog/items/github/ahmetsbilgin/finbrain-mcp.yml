@@ -1,0 +1,81 @@
+id: github__ahmetsbilgin__finbrain-mcp
+kind: github-repo
+name: finbrain-mcp
+canonical_url: https://github.com/ahmetsbilgin/finbrain-mcp
+identity:
+  github_repo: ahmetsbilgin/finbrain-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__ahmetsbilgin__finbrain-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: ahmetsbilgin/finbrain-mcp
+        extracted_url: https://github.com/ahmetsbilgin/finbrain-mcp
+        surrounding_text: "- [ahmetsbilgin/finbrain-mcp](https://github.com/ahmetsbilgin/finbrain-mcp) 🎖️ 🐍 ☁️ 🏠 - Access institutional-grade alternative financial data directly in your LLM workflows."
+        confidence: high
+metadata:
+  github:
+    stars: 7
+    forks: 2
+    license: MIT
+    archived: false
+    created_at: "2025-09-18T17:31:32Z"
+    pushed_at: "2026-03-30T17:42:44Z"
+    description: "FinBrain MCP server: expose FinBrain datasets to AI agents (Claude, VSCode etc.) via SDK-first tools. Runs locally with each user's own FinBrain API key."
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:00:54.082Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:54.082Z"
+      bytes: 11965
+insights:
+  summary: A local MCP server that exposes FinBrain financial datasets—including price predictions, sentiment analysis, and alternative data—to AI clients like Claude Desktop and VS Code via a Python SDK.
+  why_it_matters: It lets developers pipe structured financial intelligence directly into their AI-assisted coding workflows without building custom API integrations.
+  mental_damage: You can now prompt your coding agent to day-trade based on Reddit mentions and congressional disclosures while it debugs your unit tests.
+  tags:
+    - mcp
+    - finance
+    - local-server
+    - python
+  confidence: high
+curation:
+  status: included
+  reason: The project is an MCP server implementation that integrates external financial data into the Model Context Protocol ecosystem for developer tools.
+  evidence:
+    - Repo description explicitly states it is a 'FinBrain MCP server' exposing datasets to AI agents via SDK-first tools.
+    - README details a local MCP server with multiple financial data tools like predictions, sentiment, and insider trading data.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Finance & Fintech'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.677Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:54.082Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:06:38.075Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

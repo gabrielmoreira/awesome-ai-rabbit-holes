@@ -1,0 +1,78 @@
+id: equivault__ai
+kind: website
+name: equivault.ai
+canonical_url: https://equivault.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__equivault__ai__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: EquiVault
+        extracted_url: https://equivault.ai
+        surrounding_text: "- [equivault/equivault-mcp](https://github.com/equivault/equivault-mcp) [![equivault/equivault-mcp MCP server](https://glama.ai/mcp/servers/equivault/equivault-mcp/badges/score.svg)](https://glama.ai/mcp/servers/equivault/equivault-mcp) 🎖️ 📇 ☁️ - Official [EquiVault](https://equivault.ai) MCP — AI-powered equity research for Claude. 38 tools covering company fundamentals, financial statements, ratios & metrics, stock quotes, screening, peer comparison, investment narrative, guidance tracking, segments, capital allocation, insider transactions, earnings quality, signals intelligence, alerts, briefs, portfolio analytics, and more. Tier-aware with graceful upgrade prompts. Install via `npx equivault-mcp`."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: EquiVault is a hosted SaaS platform that answers natural-language questions about public companies using source-grounded data from SEC filings and earnings transcripts.
+  why_it_matters: It offers a REST API and MCP integration for developers building financial intelligence features, but the core product is a consumer-facing research tool rather than a developer workflow assistant.
+  mental_damage: Yet another AI wrapper that turns dense regulatory filings into chat bubbles, ensuring developers can now hallucinate financial insights with the same effortless confidence they bring to code reviews.
+  tags:
+    - finance
+    - mcp
+    - api
+    - sec-filings
+    - research
+  confidence: high
+curation:
+  status: excluded
+  reason: The core product is a consumer-facing financial research SaaS for analysts and investors, not a developer-facing AI tool, agent, or infrastructure component.
+  evidence:
+    - Site describes a browser-first SaaS for asking questions about public companies with citations from filings and earnings calls.
+    - Primary pitch targets beginners, analysts, advisors, and teams—not developers building software.
+    - Merely offering REST API and MCP integration does not override the product's primary identity as a finance research platform.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.727Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T20:49:09.122Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

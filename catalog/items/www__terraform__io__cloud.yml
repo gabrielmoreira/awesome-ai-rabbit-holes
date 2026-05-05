@@ -1,0 +1,76 @@
+id: www__terraform__io__cloud
+kind: website
+name: cloud
+canonical_url: https://www.terraform.io/cloud
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__terraform__io__cloud__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - DevOps and Infrastructure
+        anchor_text: Terraform Cloud
+        extracted_url: https://www.terraform.io/cloud
+        surrounding_text: "- **[Terraform Cloud](https://www.terraform.io/cloud)** – IaC platform with AI-powered policy suggestions."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Terraform Cloud is HashiCorp's managed service for infrastructure automation, providing remote state management, policy enforcement, and collaborative CI/CD pipelines for provisioning cloud resources.
+  why_it_matters: It centralizes infrastructure-as-code workflows, allowing teams to automate provisioning and enforce policies without managing their own CI/CD runners.
+  mental_damage: Now you can wait for a hosted plan to fail in the cloud just as easily as you could locally, but with the added bonus of RBAC anxiety.
+  tags:
+    - infrastructure-as-code
+    - devops
+    - terraform
+    - cloud
+  confidence: high
+curation:
+  status: excluded
+  reason: Terraform Cloud is a general DevOps and infrastructure provisioning platform with no specific AI developer-tooling angle, despite its appearance in a generic AI tools list.
+  evidence:
+    - Listed in awesome-ai-coding-tools under 'DevOps and Infrastructure', but the tool itself is a standard CI/CD and state management platform.
+    - No repository description, README, or site context provided indicates AI features, agents, or LLM integration.
+    - The product is traditional infrastructure-as-code tooling, falling outside the catalog's scope of AI-specific developer tools.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.734Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:53:41.197Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

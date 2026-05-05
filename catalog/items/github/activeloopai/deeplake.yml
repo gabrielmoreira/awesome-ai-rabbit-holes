@@ -1,0 +1,100 @@
+id: github__activeloopai__deeplake
+kind: github-repo
+name: deeplake
+canonical_url: https://github.com/activeloopai/deeplake
+identity:
+  github_repo: activeloopai/deeplake
+provenance:
+  discoveries:
+    - id: discovery__github__activeloopai__deeplake__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - LLMOps
+        anchor_text: deeplake
+        extracted_url: https://github.com/activeloopai/deeplake
+        surrounding_text: "| [deeplake](https://github.com/activeloopai/deeplake)               | Stream large multimodal datasets to achieve near 100% GPU utilization. Query, visualize, & version control data. Access data w/o the need to recompute the embeddings for the model finetuning.                                                                                                                                                                                                         | ![GitHub Badge](https://img.shields.io/github/stars/activeloopai/Hub.svg?style=flat-square)               |"
+        confidence: high
+metadata:
+  github:
+    stars: 9113
+    forks: 709
+    license: Apache-2.0
+    archived: false
+    created_at: "2019-08-09T06:17:59Z"
+    pushed_at: "2026-02-16T00:37:11Z"
+    description: Deeplake is AI Data Runtime for Agents. It provides serverless postgres with a multimodal datalake, enabling scalable retrieval and training.
+    homepage: https://deeplake.ai
+    topics:
+      - agent
+      - agentic-rag
+      - ai
+      - clawbot
+      - computer-vision
+      - datalake
+      - deep-learning
+      - filesystem
+      - large-language-models
+      - llm
+      - memory
+      - mlops
+      - multimodal
+      - openclaw
+      - postgres
+      - pytorch
+      - rag
+      - skill
+      - vector-database
+    last_checked_at: "2026-05-05T21:00:48.580Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:48.580Z"
+      bytes: 18290
+insights:
+  summary: Deep Lake is an AI-native database and storage format for managing multimodal data, embeddings, and datasets with vector search, versioning, and integrations for LLM and deep learning workflows.
+  why_it_matters: It gives developers a single storage layer for all AI data types with built-in vector search and dataloaders, simplifying the path from dataset management to LLM app deployment and model training.
+  mental_damage: Another essential piece of infrastructure that lets you proudly declare your 'AI Data Runtime' runs on serverless Postgres, right before you spend three days debugging vector recall.
+  tags:
+    - vector-database
+    - llmops
+    - multimodal
+    - data-infrastructure
+    - deep-learning
+  confidence: high
+curation:
+  status: included
+  reason: It is a code-first SDK and storage framework that developers import to manage AI data, embeddings, and datasets, fitting cleanly as an AI framework rather than a hosted builder or coding agent.
+  evidence:
+    - Repo description states it is an 'AI Data Runtime for Agents' with serverless postgres and a multimodal datalake.
+    - README positions it as a database and storage format with PyTorch/TensorFlow dataloaders, LangChain/LlamaIndex integrations, and Python packaging.
+    - Listed in Awesome-LLMOps under the LLMOps section, confirming its developer-tooling relevance in the AI infrastructure space.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (9113) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.676Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:48.580Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:05:45.520Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

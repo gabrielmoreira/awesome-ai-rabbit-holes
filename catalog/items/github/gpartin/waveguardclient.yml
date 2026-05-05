@@ -1,0 +1,89 @@
+id: github__gpartin__waveguardclient
+kind: github-repo
+name: waveguardclient
+canonical_url: https://github.com/gpartin/waveguardclient
+identity:
+  github_repo: gpartin/waveguardclient
+provenance:
+  discoveries:
+    - id: discovery__github__gpartin__waveguardclient__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧮 <a name="data-science-tools"></a>Data Science Tools
+        anchor_text: gpartin/WaveGuardClient
+        extracted_url: https://github.com/gpartin/waveguardclient
+        surrounding_text: "- [gpartin/WaveGuardClient](https://github.com/gpartin/WaveGuardClient) [![WaveGuard MCP server](https://glama.ai/mcp/servers/WaveGuard/badges/score.svg)](https://glama.ai/mcp/servers/WaveGuard) 🐍 ☁️ 🍎 🪟 🐧 - Physics-based anomaly detection via MCP. Uses Klein-Gordon wave equations on GPU to detect anomalies with high precision (avg 0.90). 9 tools: scan, fingerprint, compare, token risk, wallet profiling, volume check, price manipulation detection."
+        confidence: high
+metadata:
+  github:
+    stars: 3
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-02-24T20:00:22Z"
+    pushed_at: "2026-04-13T16:50:53Z"
+    description: Python SDK for WaveGuard  physics-based anomaly detection API. One call. Any data.
+    homepage: null
+    topics:
+      - anomaly-detection
+      - azure-migration
+      - gpu
+      - machine-learning
+      - mcp-server
+      - python
+      - sdk
+    last_checked_at: "2026-05-05T21:02:26.045Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:26.045Z"
+      bytes: 15545
+insights:
+  summary: A Python SDK and MCP server for the WaveGuard API, providing physics-based anomaly detection for any data type via a single stateless API call.
+  why_it_matters: It gives developers a zero-config, ML-free anomaly detection endpoint that can be hooked into AI agents via MCP or used directly in Python to monitor metrics, logs, and transactions.
+  mental_damage: Another glorious day where we abandon trained models for GPU-powered wave simulations, because apparently the only thing missing from your alerting pipeline was solving coupled wave equations on a 64³ lattice.
+  tags:
+    - anomaly-detection
+    - mcp-server
+    - sdk
+    - python
+    - physics-based
+  confidence: medium
+curation:
+  status: included
+  reason: The project distributes an MCP server for Claude Desktop alongside a Python SDK, clearly fitting the MCP servers and tooling category rather than a generic data science library.
+  evidence:
+    - Repo description states it is a 'Python SDK for WaveGuard physics-based anomaly detection API' with the mcp-server topic.
+    - README explicitly includes 'MCP / Claude' integration and displays an MCP badge linking to Smithery.
+    - Listed in awesome-mcp-servers under 'Data Science Tools', confirming its role as an MCP implementation.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.689Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:26.045Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:22:35.791Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

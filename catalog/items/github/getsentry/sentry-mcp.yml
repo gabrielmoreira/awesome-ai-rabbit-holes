@@ -1,0 +1,83 @@
+id: github__getsentry__sentry-mcp
+kind: github-repo
+name: sentry-mcp
+canonical_url: https://github.com/getsentry/sentry-mcp
+identity:
+  github_repo: getsentry/sentry-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__getsentry__sentry-mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Sentry
+        extracted_url: https://github.com/getsentry/sentry-mcp
+        surrounding_text: "- **[Sentry](https://github.com/getsentry/sentry-mcp)** - Official MCP server for [Sentry](https://sentry.io)."
+        confidence: high
+metadata:
+  github:
+    stars: 676
+    forks: 105
+    license: NOASSERTION
+    archived: false
+    created_at: "2025-03-29T22:23:13Z"
+    pushed_at: "2026-05-05T19:37:51Z"
+    description: An MCP server for interacting with Sentry via LLMs.
+    homepage: https://mcp.sentry.dev
+    topics:
+      - mcp-server
+      - tag-production
+    last_checked_at: "2026-05-05T21:02:20.279Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:20.279Z"
+      bytes: 8809
+insights:
+  summary: An official MCP server from Sentry that connects coding assistants like Claude Code and Cursor to Sentry's API for debugging errors, issues, and performance traces.
+  why_it_matters: It allows coding agents to directly query and investigate production errors and traces within the developer's IDE or CLI workflow, bridging the gap between observability and AI-assisted debugging.
+  mental_damage: We have successfully abstracted away the need to read stack traces ourselves, meaning the AI can now be confused by the Sentry UI on our behalf.
+  tags:
+    - mcp
+    - sentry
+    - debugging
+    - observability
+    - llm-integration
+  confidence: high
+curation:
+  status: included
+  reason: This is an official MCP server implementation from Sentry designed to act as middleware between LLMs and the Sentry API, fitting perfectly into the MCP infrastructure category.
+  evidence:
+    - "Repo description explicitly states: 'An MCP server for interacting with Sentry via LLMs.'"
+    - README identifies this as 'Sentry's MCP service' designed for 'human-in-the-loop coding agents'.
+    - Listed in awesome-mcp-servers under the 'Official Servers' section.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (676) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.689Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:20.279Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:21:10.301Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

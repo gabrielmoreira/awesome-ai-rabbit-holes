@@ -1,0 +1,88 @@
+id: github__github__spec-kit
+kind: github-repo
+name: spec-kit
+canonical_url: https://github.com/github/spec-kit
+identity:
+  github_repo: github/spec-kit
+provenance:
+  discoveries:
+    - id: discovery__github__github__spec-kit__awesome-list__engineering4ai__awesome-spec-driven-development
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: Engineering4AI/awesome-spec-driven-development
+        url: https://github.com/engineering4ai/awesome-spec-driven-development
+        repository: Engineering4AI/awesome-spec-driven-development
+      extraction:
+        mode: scraped
+        section_path:
+          - README
+        anchor_text: Spec-Driven Development
+        extracted_url: https://martinfowler.com/articles/exploring-gen-ai/sdd-3-tools.html
+        surrounding_text: "[Spec-Driven Development](https://martinfowler.com/articles/exploring-gen-ai/sdd-3-tools.html) is a methodology where comprehensive specifications are created before implementation begins. This approach ensures better alignment between requirements and delivery, improves code quality, and facilitates better testing and documentation."
+        confidence: high
+metadata:
+  github:
+    stars: 92668
+    forks: 8024
+    license: MIT
+    archived: false
+    created_at: "2025-08-21T22:54:31Z"
+    pushed_at: "2026-05-05T18:28:29Z"
+    description: 💫 Toolkit to help you get started with Spec-Driven Development
+    homepage: https://github.github.com/spec-kit/
+    topics:
+      - ai
+      - copilot
+      - development
+      - engineering
+      - prd
+      - spec
+      - spec-driven
+    last_checked_at: "2026-05-05T21:02:22.478Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:22.478Z"
+      bytes: 56697
+insights:
+  summary: An open-source CLI and slash-command toolkit from GitHub that implements Spec-Driven Development by treating specifications as executable artifacts to guide AI coding agents.
+  why_it_matters: It shifts the developer workflow from writing code to writing structured specs that drive Copilot and other agents to generate and validate implementations.
+  mental_damage: We have successfully abstracted away the 'vibe coding' only to replace it with 'vibe specifying', where you now debug your PRD instead of your codebase.
+  tags:
+    - spec-driven
+    - cli
+    - github
+    - copilot
+    - slash-commands
+  confidence: high
+curation:
+  status: included
+  reason: The project's center of gravity is a spec-first loop where specifications become executable to guide development, planning, and validation via AI agents, fitting the spec-driven-development category perfectly.
+  evidence:
+    - Repo description states it is a 'Toolkit to help you get started with Spec-Driven Development'.
+    - README defines Spec-Driven Development as making 'specifications become executable, directly generating working implementations'.
+    - Provides slash commands like /speckit.specify and /speckit.constitution to drive integrations with agents like Copilot.
+placement:
+  primary_category: spec-driven-development
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (92668) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.689Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:22.478Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:21:35.407Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

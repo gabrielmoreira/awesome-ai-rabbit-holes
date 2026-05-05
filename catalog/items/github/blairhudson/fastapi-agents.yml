@@ -1,0 +1,87 @@
+id: github__blairhudson__fastapi-agents
+kind: github-repo
+name: fastapi-agents
+canonical_url: https://github.com/blairhudson/fastapi-agents
+identity:
+  github_repo: blairhudson/fastapi-agents
+provenance:
+  discoveries:
+    - id: discovery__github__blairhudson__fastapi-agents__awesome-list__vivy-yi__awesome-agent-orchestration
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: vivy-yi/awesome-agent-orchestration
+        url: https://github.com/vivy-yi/awesome-agent-orchestration
+        repository: vivy-yi/awesome-agent-orchestration
+      extraction:
+        mode: parsed
+        section_path:
+          - Tools & Infrastructure
+          - Deployment & Infrastructure
+        anchor_text: FastAPI Agents
+        extracted_url: https://github.com/blairhudson/fastapi-agents
+        surrounding_text: "| [FastAPI Agents](https://github.com/blairhudson/fastapi-agents) | FastAPI extension for AI agent frameworks |"
+        confidence: high
+metadata:
+  github:
+    stars: 50
+    forks: 4
+    license: MIT
+    archived: false
+    created_at: "2025-01-12T10:40:09Z"
+    pushed_at: "2025-01-21T22:04:07Z"
+    description: A FastAPI extension for integrating common AI agent frameworks.
+    homepage: https://fastapi-agents.blairhudson.com
+    topics:
+      - agents
+      - fastapi
+      - llama-index
+      - pydantic-ai
+      - smolagents
+    last_checked_at: "2026-05-05T21:01:22.366Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:22.366Z"
+      bytes: 6911
+insights:
+  summary: A FastAPI extension that provides a unified interface to register, serve, and secure AI agents built with frameworks like PydanticAI, LlamaIndex, Smolagents, and CrewAI.
+  why_it_matters: It lets developers expose multiple heterogeneous agent backends through standard FastAPI endpoints with built-in auth and OpenAPI docs, reducing boilerplate orchestration code.
+  mental_damage: Now you can host a soup of agents from four different frameworks and call it 'microservices architecture' while wondering why your latency graph looks like a heartbeat monitor.
+  tags:
+    - fastapi
+    - agents
+    - python
+    - backend
+    - orchestration
+  confidence: medium
+curation:
+  status: included
+  reason: This is a code-first SDK/framework that developers import to build agent-serving infrastructure in Python, fitting the ai-frameworks category rather than a control-plane orchestration platform.
+  evidence:
+    - "Repo description: 'A FastAPI extension for integrating common AI agent frameworks.'"
+    - README shows importable Python library usage (from fastapi_agents import FastAPIAgents) and pip install instructions.
+    - Listed in awesome-agent-orchestration under 'Tools & Infrastructure > Deployment & Infrastructure'.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.681Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:22.366Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:11:04.926Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

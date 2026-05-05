@@ -1,0 +1,82 @@
+id: github__agentic-box__owlex
+kind: github-repo
+name: owlex
+canonical_url: https://github.com/agentic-box/owlex
+identity:
+  github_repo: agentic-box/owlex
+provenance:
+  discoveries:
+    - id: discovery__github__agentic-mcp-tools__owlex__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🤖 <a name="coding-agents"></a>Coding Agents
+        anchor_text: agentic-mcp-tools/owlex
+        extracted_url: https://github.com/agentic-mcp-tools/owlex
+        surrounding_text: "- [agentic-mcp-tools/owlex](https://github.com/agentic-mcp-tools/owlex) 🐍 🏠 🍎 🪟 🐧 - AI council server: query CLI agents (Claude Code, Codex, Gemini, and OpenCode) in parallel with deliberation rounds"
+        confidence: high
+metadata:
+  github:
+    stars: 109
+    forks: 11
+    license: MIT
+    archived: false
+    created_at: "2025-10-27T11:51:15Z"
+    pushed_at: "2026-03-15T03:37:28Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:00:51.165Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:51.165Z"
+      bytes: 6558
+insights:
+  summary: An MCP server that lets Claude Code run multi-agent deliberations by querying Codex, Gemini, OpenCode, and other models, then synthesizing a final answer.
+  why_it_matters: It gives developers a structured way to cross-check architecture decisions, debugging paths, and tricky design questions across multiple AI models without leaving their coding environment.
+  mental_damage: You now have a council of large language models that can argue with each other, so your code reviews are officially more bureaucratic than the teams that wrote the frameworks you depend on.
+  tags:
+    - mcp
+    - multi-agent
+    - claude-code
+    - deliberation
+    - ai-review
+  confidence: high
+curation:
+  status: included
+  reason: This is an MCP extension that augments Claude Code with multi-model deliberation capabilities rather than being a standalone coding agent itself.
+  evidence:
+    - README states 'Get a second opinion without leaving Claude Code' and installs as an MCP server in .mcp.json.
+    - Provides council_ask and slash commands (/council, /codex, /gemini) that extend Claude Code's capabilities with other models.
+    - Active project with recent pushes (2026-03-15) and 109 stars since creation in 2025-10-27.
+placement:
+  primary_category: ai-dev-extensions
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:06:13.817Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.676Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:51.166Z"
+    cause: null
+    next_retry_at: null

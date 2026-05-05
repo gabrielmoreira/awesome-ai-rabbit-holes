@@ -1,0 +1,80 @@
+id: github__ddsky__gamebrain-api-clients
+kind: github-repo
+name: gamebrain-api-clients
+canonical_url: https://github.com/ddsky/gamebrain-api-clients
+identity:
+  github_repo: ddsky/gamebrain-api-clients
+provenance:
+  discoveries:
+    - id: discovery__github__ddsky__gamebrain-api-clients__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🎮 <a name="gaming"></a>Gaming
+        anchor_text: ddsky/gamebrain-api-clients
+        extracted_url: https://github.com/ddsky/gamebrain-api-clients
+        surrounding_text: "- [ddsky/gamebrain-api-clients](https://github.com/ddsky/gamebrain-api-clients) ☁️ - Search and discover hundreds of thousands of video games on any platform through the [GameBrain API](https://gamebrain.co/api)."
+        confidence: high
+metadata:
+  github:
+    stars: 3
+    forks: 2
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-05-15T19:56:34Z"
+    pushed_at: "2025-12-01T20:50:49Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:01:49.561Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:49.561Z"
+      bytes: 388
+insights:
+  summary: An MCP server client that exposes GameBrain's gaming API endpoints to MCP-compatible AI clients via npx remote execution.
+  why_it_matters: It lets AI coding assistants query gaming APIs directly through the Model Context Protocol instead of requiring custom API wrappers.
+  mental_damage: Another MCP server enters the registry, because apparently we needed a standardized way for Claude to check leaderboards while we still can't agree on how to format a .env file.
+  tags:
+    - mcp
+    - gaming-api
+    - npx
+  confidence: medium
+curation:
+  status: included
+  reason: The project is an MCP server implementation that connects GameBrain's gaming API to MCP clients, fitting the MCP infrastructure category.
+  evidence:
+    - README provides MCP server config using npx and mcp-remote to connect to https://api.gamebrain.co/v1/mcp
+    - Listed in awesome-mcp-servers under Server Implementations > Gaming section
+    - Recently active (pushed 2025-12-01) with MCP setup documentation
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.684Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:49.561Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:15:48.811Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,77 @@
+id: lilianweng__github__io__posts__2023__06__15__agent
+kind: website
+name: 2023-06-15-agent
+canonical_url: https://lilianweng.github.io/posts/2023-06-15-agent
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__lilianweng__github__io__posts__2023__06__15__agent__awesome-list__vivy-yi__awesome-agent-orchestration
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: vivy-yi/awesome-agent-orchestration
+        url: https://github.com/vivy-yi/awesome-agent-orchestration
+        repository: vivy-yi/awesome-agent-orchestration
+      extraction:
+        mode: parsed
+        section_path:
+          - Learning Resources
+          - Tutorials & Guides
+        anchor_text: LLM Powered Autonomous Agents
+        extracted_url: https://lilianweng.github.io/posts/2023-06-15-agent
+        surrounding_text: "- [LLM Powered Autonomous Agents](https://lilianweng.github.io/posts/2023-06-15-agent/) - Lilian Weng's comprehensive guide"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A long-form blog post by Lilian Weng outlining the architecture, components, and design patterns of LLM-based autonomous agents.
+  why_it_matters: Developers evaluating or building agentic workflows can use this as a foundational reference for understanding memory, planning, and tool-use loops.
+  mental_damage: You will read this entire post, nod along, and then still spend three days debugging why your agent thinks 'rm -rf' is a valid planning step.
+  tags:
+    - agents
+    - llm
+    - blog
+    - reference
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a static educational article, not a developer tool, framework, or product, and therefore falls outside the catalog's tooling scope.
+  evidence:
+    - The URL points to a personal blog post (lilianweng.github.io), not a repository or product.
+    - Source-list context classifies it as a 'Tutorial & Guide' under 'Learning Resources', not as tooling.
+    - No code, SDK, or runnable product is presented—only explanatory content.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.728Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:45:51.929Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

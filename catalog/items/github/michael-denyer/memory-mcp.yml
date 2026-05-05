@@ -1,0 +1,81 @@
+id: github__michael-denyer__memory-mcp
+kind: github-repo
+name: memory-mcp
+canonical_url: https://github.com/michael-denyer/memory-mcp
+identity:
+  github_repo: michael-denyer/memory-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__michael-denyer__memory-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: michael-denyer/memory-mcp
+        extracted_url: https://github.com/michael-denyer/memory-mcp
+        surrounding_text: "- [michael-denyer/memory-mcp](https://github.com/michael-denyer/memory-mcp) 🐍 🏠 🍎 🪟 🐧 - Two-tier memory with hot cache (instant injection) and cold semantic search. Auto-promotes frequently-used patterns, extracts knowledge from Claude outputs, and organizes via knowledge graph relationships."
+        confidence: high
+metadata:
+  github:
+    stars: 5
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2026-01-19T00:33:23Z"
+    pushed_at: "2026-01-25T11:11:35Z"
+    description: Engram-inspired memory MCP server with hot cache and pattern mining
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:03:37.309Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:37.309Z"
+      bytes: 6443
+insights:
+  summary: An MCP server that provides persistent, project-aware memory for AI assistants using a two-tier hot cache and semantic cold storage.
+  why_it_matters: It eliminates the need to re-explain project context in every new session by automatically promoting frequent knowledge into the AI's immediate context.
+  mental_damage: We have officially reached the point of building external brain implants for our chatbots so they don't forget why we are here.
+  tags:
+    - mcp
+    - memory
+    - context
+    - claude-code
+  confidence: high
+curation:
+  status: included
+  reason: The project is a standalone MCP server implementation designed to extend AI assistants with persistent memory capabilities.
+  evidence:
+    - Repo description explicitly states 'memory MCP server'
+    - README details a Model Context Protocol server with hot cache and semantic search for Claude Code
+    - Listed under 'Server Implementations > Knowledge & Memory' in awesome-mcp-servers
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.706Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:37.309Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:37:16.128Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

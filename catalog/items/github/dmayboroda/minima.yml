@@ -1,0 +1,109 @@
+id: github__dmayboroda__minima
+kind: github-repo
+name: minima
+canonical_url: https://github.com/dmayboroda/minima
+identity:
+  github_repo: dmayboroda/minima
+provenance:
+  discoveries:
+    - id: discovery__github__dmayboroda__minima__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: Minima
+        extracted_url: https://github.com/dmayboroda/minima
+        surrounding_text: "- **[Minima](https://github.com/dmayboroda/minima)** - Local RAG (on-premises) with MCP server."
+        confidence: high
+    - id: discovery__github__dmayboroda__minima__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Open Source Projects
+          - Knowledge Management
+        anchor_text: Minima
+        extracted_url: https://github.com/dmayboroda/minima
+        surrounding_text: "- [Minima](https://github.com/dmayboroda/minima): Chat with local documents, connect local environment to ChatGPT or Claude ![GitHub Repo stars](https://img.shields.io/github/stars/dmayboroda/minima?style=social)"
+        confidence: high
+metadata:
+  github:
+    stars: 1046
+    forks: 103
+    license: MPL-2.0
+    archived: false
+    created_at: "2024-11-02T22:44:56Z"
+    pushed_at: "2026-01-22T09:22:09Z"
+    description: On-premises conversational RAG with configurable containers
+    homepage: ""
+    topics:
+      - ai
+      - claude
+      - custom-gpts
+      - docker
+      - docker-compose
+      - huggingface
+      - langchain
+      - mcp
+      - model-context-protocol
+      - ollama
+      - qdrant
+      - sentence-transformers
+    last_checked_at: "2026-05-05T21:01:54.474Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:54.474Z"
+      bytes: 9319
+insights:
+  summary: Minima is an open-source, on-premises RAG stack that runs as configurable Docker containers and exposes local document search via ChatGPT Custom GPTs, Anthropic Claude (MCP), or a fully local Ollama setup.
+  why_it_matters: It lets developers run private, local document-grounded AI workflows without sending internal data to external APIs, with pluggable LLM backends and MCP support for Claude Desktop.
+  mental_damage: Now you can host your own vector-backed paranoia fortress and still obsess over whether the reranker is secretly telephoning home.
+  tags:
+    - rag
+    - local-ai
+    - mcp
+    - docker
+    - langchain
+  confidence: high
+curation:
+  status: included
+  reason: The project is a local-first, self-hosted AI stack centered on private model execution and document retrieval, which aligns with the Local AI category's focus on running AI on your own hardware.
+  evidence:
+    - "Repo description: 'On-premises conversational RAG with configurable containers'"
+    - "README: supports fully local Ollama mode, custom LLM APIs, ChatGPT integration, and MCP integration for Claude Desktop"
+    - "Topics include local-ai signals: ollama, docker, huggingface, mcp, and listed in awesome-mcp-servers and awesome-langchain"
+placement:
+  primary_category: local-ai
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1046) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.665Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:54.474Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:16:37.350Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

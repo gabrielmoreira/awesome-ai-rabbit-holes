@@ -1,0 +1,81 @@
+id: github__juehang__vscode-mcp-server
+kind: github-repo
+name: vscode-mcp-server
+canonical_url: https://github.com/juehang/vscode-mcp-server
+identity:
+  github_repo: juehang/vscode-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__juehang__vscode-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🤖 <a name="coding-agents"></a>Coding Agents
+        anchor_text: juehang/vscode-mcp-server
+        extracted_url: https://github.com/juehang/vscode-mcp-server
+        surrounding_text: "- [juehang/vscode-mcp-server](https://github.com/juehang/vscode-mcp-server) 📇 🏠 - A MCP Server that allows AI such as Claude to read from the directory structure in a VS Code workspace, see problems picked up by linter(s) and the language server, read code files, and make edits."
+        confidence: high
+metadata:
+  github:
+    stars: 356
+    forks: 70
+    license: MIT
+    archived: false
+    created_at: "2025-04-21T20:46:42Z"
+    pushed_at: "2026-01-07T15:40:49Z"
+    description: MCP server to expose VS Code editing features to an LLM for AI coding
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:03:00.323Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:00.323Z"
+      bytes: 12453
+insights:
+  summary: A VS Code extension that runs an MCP server to expose the editor's file system, symbol search, and editing capabilities to AI coding assistants like Claude.
+  why_it_matters: It allows external coding agents to directly manipulate code within a live VS Code workspace using native editor features rather than just raw file system access.
+  mental_damage: We have finally achieved the milestone where your IDE needs a plugin so that your AI can talk to the IDE you are already using to watch the AI edit the code.
+  tags:
+    - mcp
+    - vscode
+    - coding-agent
+    - extension
+  confidence: high
+curation:
+  status: included
+  reason: The project is a dedicated MCP server implementation that exposes VS Code's internal API as tools for MCP clients.
+  evidence:
+    - Repo description explicitly states it is an 'MCP server to expose VS Code editing features to an LLM'.
+    - README confirms it implements an MCP-compliant server handling requests via HTTP to expose VS Code functionality.
+    - Listed under 'Server Implementations > Coding Agents' in the awesome-mcp-servers directory.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (356) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.700Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:00.323Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:29:30.873Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

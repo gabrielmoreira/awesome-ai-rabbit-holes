@@ -1,0 +1,75 @@
+id: askpandi__com
+kind: website
+name: askpandi.com
+canonical_url: https://askpandi.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__askpandi__com__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Ask Pandi
+        anchor_text: Ask Pandi
+        extracted_url: https://askpandi.com/ask
+        surrounding_text: "## [Ask Pandi](https://askpandi.com/ask)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A generic Q&A web app that lets users search for answers and discover curated content.
+  why_it_matters: It doesn't, unless your definition of 'developer tooling' includes asking a web form why your build is failing.
+  mental_damage: We have officially reached the point where 'Ask Anything' sites are being filed under autonomous agent directories.
+  tags:
+    - qa
+    - search
+    - web-app
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a general-purpose consumer Q&A product with no developer-facing workflow, IDE integration, or code-generation capability.
+  evidence:
+    - Scraped site context describes 'Accurate Answers, Endless Wonder' and 'Search for answers', targeting general users rather than developers.
+    - Listed in awesome-ai-agents under 'Ask Anything', but the linked page shows no agentic logic or coding features.
+    - No repo description, README, or technical context provided to suggest it is a tool for software development.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.726Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:42:03.971Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

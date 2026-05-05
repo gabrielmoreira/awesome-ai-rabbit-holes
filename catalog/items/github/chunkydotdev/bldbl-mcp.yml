@@ -1,0 +1,96 @@
+id: github__chunkydotdev__bldbl-mcp
+kind: github-repo
+name: bldbl-mcp
+canonical_url: https://github.com/chunkydotdev/bldbl-mcp
+identity:
+  github_repo: chunkydotdev/bldbl-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__chunkydotdev__bldbl-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: Chunkydotdev/bldbl-mcp
+        extracted_url: https://github.com/chunkydotdev/bldbl-mcp
+        surrounding_text: "- [Chunkydotdev/bldbl-mcp](https://github.com/chunkydotdev/bldbl-mcp) 📇 ☁️ 🍎 🪟 🐧 - Official MCP server for Buildable AI-powered development platform [bldbl.dev](https://bldbl.dev). Enables AI assistants to manage tasks, track progress, get project context, and collaborate with humans on software projects."
+        confidence: high
+    - id: discovery__github__chunkydotdev__bldbl-mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Buildable
+        extracted_url: https://github.com/chunkydotdev/bldbl-mcp
+        surrounding_text: "- **[Buildable](https://github.com/chunkydotdev/bldbl-mcp)** - Official MCP server for Buildable AI-powered development platform. Enables AI assistants to manage tasks, track progress, get project context, and collaborate with humans on software projects."
+        confidence: high
+metadata:
+  github:
+    stars: 12
+    forks: 7
+    license: MIT
+    archived: false
+    created_at: "2025-06-16T19:18:32Z"
+    pushed_at: "2025-07-03T20:16:22Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:01:34.029Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:34.029Z"
+      bytes: 12391
+insights:
+  summary: An official MCP server that connects AI assistants like Claude and Cursor to the Buildable platform to retrieve project context, manage tasks, and report progress.
+  why_it_matters: It allows AI coding agents to integrate directly with Buildable's task management and project plans, enabling more context-aware assistance within IDEs.
+  mental_damage: We have now successfully abstracted project management into a protocol, so your AI can now politely ask you questions about why the task it invented isn't done yet.
+  tags:
+    - mcp
+    - buildable
+    - ide-integration
+    - task-management
+  confidence: high
+curation:
+  status: included
+  reason: The primary artifact is a Model Context Protocol server designed to bridge AI assistants with the Buildable platform, fitting the MCP infrastructure category.
+  evidence:
+    - "README states: 'Official MCP client for Buildable' and 'This package enables AI assistants... to work directly with Buildable projects using the Model Context Protocol (MCP)'."
+    - Included in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
+    - Provides configuration examples for Claude Desktop and Cursor AI via the MCP standard.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.664Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:34.029Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:13:07.722Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

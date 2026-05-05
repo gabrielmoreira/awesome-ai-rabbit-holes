@@ -1,0 +1,81 @@
+id: github__mmorris35__claudecode-devplanbuilder
+kind: github-repo
+name: claudecode-devplanbuilder
+canonical_url: https://github.com/mmorris35/claudecode-devplanbuilder
+identity:
+  github_repo: mmorris35/claudecode-devplanbuilder
+provenance:
+  discoveries:
+    - id: discovery__github__mmorris35__claudecode-devplanbuilder__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: ClaudeCode-DevPlanBuilder
+        extracted_url: https://github.com/mmorris35/claudecode-devplanbuilder
+        surrounding_text: "- [mmorris35/devplan-mcp-server](https://github.com/mmorris35/devplan-mcp-server) 📇 ☁️ - Generate comprehensive, paint-by-numbers development plans using the [ClaudeCode-DevPlanBuilder](https://github.com/mmorris35/ClaudeCode-DevPlanBuilder) methodology. Creates PROJECT_BRIEF.md, DEVELOPMENT_PLAN.md, and CLAUDE.md."
+        confidence: high
+metadata:
+  github:
+    stars: 3
+    forks: 1
+    license: NOASSERTION
+    archived: false
+    created_at: "2025-10-09T19:55:46Z"
+    pushed_at: "2026-03-25T05:30:52Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:03:44.046Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:44.046Z"
+      bytes: 29323
+insights:
+  summary: A reusable methodology and template repository that instructs Claude Code to interview a user, then generate a full project brief, development plan with atomic subtasks, and specialized executor and verifier agent definitions.
+  why_it_matters: It provides a structured spec-driven workflow for developers who want Claude Code to plan and autonomously execute an entire project with baked-in git discipline and testing requirements.
+  mental_damage: We have officially reached the point where we are writing instruction manuals for the AI on how to write instruction manuals for itself.
+  tags:
+    - claude-code
+    - spec-driven
+    - agents
+    - planning
+  confidence: medium
+curation:
+  status: included
+  reason: The primary artifact is a reusable skill/methodology pack designed to be consumed by Claude Code to automate project planning and task execution.
+  evidence:
+    - README explicitly instructs the user to 'Tell Claude Code to read this repo' to generate plans and agent definitions.
+    - Creates reusable files like PROJECT_BRIEF.md, DEVELOPMENT_PLAN.md, and .claude/agents/{project}-executor.md.
+    - Appears in awesome-mcp-servers under 'Developer Tools', confirming it is recognized as a developer-tooling asset.
+placement:
+  primary_category: skills
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.707Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:44.046Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:38:34.883Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

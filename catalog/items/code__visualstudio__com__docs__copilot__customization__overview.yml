@@ -1,0 +1,77 @@
+id: code__visualstudio__com__docs__copilot__customization__overview
+kind: website
+name: overview
+canonical_url: https://code.visualstudio.com/docs/copilot/customization/overview
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__code__visualstudio__com__docs__copilot__customization__overview__awesome-list__github__awesome-copilot
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: github/awesome-copilot
+        url: https://github.com/github/awesome-copilot
+        repository: github/awesome-copilot
+      extraction:
+        mode: parsed
+        section_path:
+          - 📚 Additional Resources
+        anchor_text: VS Code Copilot Customization Documentation
+        extracted_url: https://code.visualstudio.com/docs/copilot/copilot-customization
+        surrounding_text: "- [VS Code Copilot Customization Documentation](https://code.visualstudio.com/docs/copilot/copilot-customization) - Official Microsoft documentation"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Official VS Code documentation page covering how to customize GitHub Copilot using custom instructions, prompt files, custom agents, and MCP servers.
+  why_it_matters: It consolidates the official setup paths for aligning Copilot's behavior with team coding practices directly inside the editor.
+  mental_damage: Documentation for customizing your AI assistant now requires its own documentation section, lest you forget how many ways you're supposed to be prompting it.
+  tags:
+    - copilot
+    - vscode
+    - customization
+    - mcp
+    - agents
+  confidence: high
+curation:
+  status: excluded
+  reason: This is documentation for an existing product, not a standalone tool, agent, or developer-facing product itself.
+  evidence:
+    - URL points to code.visualstudio.com/docs, which is a documentation page, not a tool or repo.
+    - Content describes how to use VS Code and Copilot features rather than shipping a new developer tool.
+    - Seen in awesome-copilot under 'Additional Resources', confirming its role as reference material rather than a tool.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.726Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:43:02.050Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

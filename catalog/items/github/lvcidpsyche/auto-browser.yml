@@ -1,0 +1,94 @@
+id: github__lvcidpsyche__auto-browser
+kind: github-repo
+name: auto-browser
+canonical_url: https://github.com/lvcidpsyche/auto-browser
+identity:
+  github_repo: lvcidpsyche/auto-browser
+provenance:
+  discoveries:
+    - id: discovery__github__lvcidpsyche__auto-browser__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📂 <a name="browser-automation"></a>Browser Automation
+        anchor_text: LvcidPsyche/auto-browser
+        extracted_url: https://github.com/lvcidpsyche/auto-browser
+        surrounding_text: "- [LvcidPsyche/auto-browser](https://github.com/LvcidPsyche/auto-browser) [![LvcidPsyche/auto-browser MCP server](https://glama.ai/mcp/servers/LvcidPsyche/auto-browser/badges/score.svg)](https://glama.ai/mcp/servers/LvcidPsyche/auto-browser) 🐍 🏠 🐧 🍎 🪟 - Open-source MCP-native browser agent with human takeover via noVNC, reusable auth profiles, and approval/audit rails. Playwright + FastAPI, Docker-based isolated sessions, stdio bridge for Claude Desktop and Cursor."
+        confidence: high
+metadata:
+  github:
+    stars: 396
+    forks: 71
+    license: MIT
+    archived: false
+    created_at: "2026-03-09T06:16:49Z"
+    pushed_at: "2026-05-05T16:12:27Z"
+    description: Give your AI agent a real browser — with a human in the loop. Open-source MCP-native browser agent.
+    homepage: https://github.com/LvcidPsyche/auto-browser
+    topics:
+      - ai-agent
+      - ai-agents
+      - browser-automation
+      - claude
+      - docker
+      - fastapi
+      - llm
+      - local-first
+      - mcp
+      - novnc
+      - playwright
+      - self-hosted
+    last_checked_at: "2026-05-05T21:03:26.156Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:26.156Z"
+      bytes: 10235
+insights:
+  summary: An MCP-native browser control plane that lets AI agents and MCP clients drive a shared Playwright browser with human takeover, reusable auth profiles, and built-in safety rails.
+  why_it_matters: It gives developers a practical way to automate brittle web workflows with AI while keeping a human in the loop and preserving logged-in sessions across runs.
+  mental_damage: Now your agent can confidently click the wrong button in a browser you’re supposed to be supervising, with audit logs to prove it.
+  tags:
+    - mcp
+    - browser-automation
+    - playwright
+    - agent-tooling
+    - local-first
+  confidence: high
+curation:
+  status: included
+  reason: The project is an MCP server and browser control plane designed specifically to extend MCP clients and agents with real browser capabilities.
+  evidence:
+    - "Repo description states: 'Give your AI agent a real browser — with a human in the loop. Open-source MCP-native browser agent.'"
+    - README describes it as 'an MCP-native browser control plane' with MCP over HTTP, stdio bridge, and integrations with Claude Desktop and Cursor.
+    - Listed in awesome-mcp-servers under Browser Automation, and topics include mcp and browser-automation.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (396) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.705Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:26.156Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:35:01.164Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

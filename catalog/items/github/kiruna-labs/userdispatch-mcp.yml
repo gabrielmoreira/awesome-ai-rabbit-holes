@@ -1,0 +1,92 @@
+id: github__kiruna-labs__userdispatch-mcp
+kind: github-repo
+name: userdispatch-mcp
+canonical_url: https://github.com/kiruna-labs/userdispatch-mcp
+identity:
+  github_repo: kiruna-labs/userdispatch-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__kiruna-labs__userdispatch-mcp__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - 💬 Communication
+        anchor_text: kiruna-labs/userdispatch-mcp
+        extracted_url: https://github.com/kiruna-labs/userdispatch-mcp
+        surrounding_text: "-   **[kiruna-labs/userdispatch-mcp](https://github.com/kiruna-labs/userdispatch-mcp)** [![GitHub stars](https://img.shields.io/github/stars/kiruna-labs/userdispatch-mcp?style=social)](https://github.com/kiruna-labs/userdispatch-mcp): Collects user feedback via an embeddable widget and exposes MCP tools for triaging submissions, drafting replies, and generating weekly digests."
+        confidence: high
+metadata:
+  github:
+    stars: 2
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-03-03T10:28:26Z"
+    pushed_at: "2026-03-11T01:14:28Z"
+    description: User feedback widget + MCP server for AI coding agents. One command to install.
+    homepage: https://userdispatch.com
+    topics:
+      - ai-coding-agent
+      - claude-code
+      - cursor
+      - developer-tools
+      - feedback-widget
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - user-feedback
+      - userdispatch
+      - vibe-coding
+    last_checked_at: "2026-05-05T21:03:06.526Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:06.526Z"
+      bytes: 9292
+insights:
+  summary: UserDispatch is a feedback widget and hosted MCP server that allows AI coding agents to read user submissions, triage issues, reply to users, and draft PRs automatically.
+  why_it_matters: It closes the loop between end-user feedback and AI-assisted development workflows by giving coding agents structured access to real user input across major editors and IDEs.
+  mental_damage: Your users report bugs, and your AI agent politely closes them with a PR and a generic reply, while you wonder if you’re still the developer or just the guy who configured the widget.
+  tags:
+    - mcp
+    - feedback
+    - coding-agents
+    - cli
+    - automation
+  confidence: high
+curation:
+  status: included
+  reason: The product itself is an MCP server and toolkit that exposes feedback data and actions to AI agents, fitting the MCP infrastructure scope rather than being a primary coding agent.
+  evidence:
+    - "Repo description: 'User feedback widget + MCP server for AI coding agents'"
+    - "README: 'UserDispatch hosts the MCP server at https://userdispatch.com/api/mcp' with 17 MCP tools"
+    - Listed in awesome-mcp-list under Communication, reinforcing MCP infrastructure fit
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.701Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:06.526Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:30:58.995Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

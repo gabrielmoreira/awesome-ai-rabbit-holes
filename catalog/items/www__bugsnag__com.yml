@@ -1,0 +1,76 @@
+id: www__bugsnag__com
+kind: website
+name: www.bugsnag.com
+canonical_url: https://www.bugsnag.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__bugsnag__com__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: Bugsnag
+        extracted_url: https://www.bugsnag.com
+        surrounding_text: "- [tgeselle/bugsnag-mcp](https://github.com/tgeselle/bugsnag-mcp) 📇 ☁️ - An MCP server for interacting with [Bugsnag](https://www.bugsnag.com/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Bugsnag is an error monitoring and stability management platform for applications, and it appears in curated lists as a service with an MCP server implementation.
+  why_it_matters: It provides developers with tools to detect, triage, and diagnose crashes in production applications across various platforms.
+  mental_damage: We have reached the point where even traditional error monitoring needs an MCP server so your AI agent can hallucinate about why your null pointer exception happened.
+  tags:
+    - error-monitoring
+    - mcp
+    - stability
+  confidence: high
+curation:
+  status: excluded
+  reason: Bugsnag is a general-purpose error monitoring SaaS with no inherent AI-native developer tooling; its inclusion in an MCP list is insufficient to make it a core AI tool for this catalog.
+  evidence:
+    - No GitHub repo description, stars, or README excerpt provided; only a homepage link to a commercial SaaS.
+    - Listed in awesome-mcp-servers under 'Developer Tools', but the primary product is error monitoring, not AI agenting or coding.
+    - Does not match the catalog scope of AI coding agents, app builders, or developer-facing AI infrastructure.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.732Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:49:56.692Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

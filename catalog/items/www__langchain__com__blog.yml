@@ -1,0 +1,76 @@
+id: www__langchain__com__blog
+kind: website
+name: blog
+canonical_url: https://www.langchain.com/blog
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__langchain__com__blog__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - LangChain Framework
+        anchor_text: Langchain Blog
+        extracted_url: https://blog.langchain.dev
+        surrounding_text: "- [Langchain Blog](https://blog.langchain.dev/): The Official Langchain blog"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: The official blog for LangChain, featuring tutorials, case studies, and technical insights on building AI agents using LangSmith, Deep Agents, LangGraph, and LangChain.
+  why_it_matters: It serves as a primary educational resource for developers looking to implement agent architectures, observability, and deployment patterns within the LangChain ecosystem.
+  mental_damage: Reading about 'production-ready deep agents' on a blog while your current task is debugging a prompt that fails 50% of the time because the temperature wasn't set to zero.
+  tags:
+    - langchain
+    - blog
+    - agents
+    - tutorials
+  confidence: high
+curation:
+  status: included
+  reason: This is a publication and content feed focused on AI engineering education and ecosystem updates, fitting the newsletters-and-feeds category.
+  evidence:
+    - Scraped site title is 'LangChain Blog' with a description focused on tutorials and technical insights.
+    - The page is structured as a content feed with 'Featured stories', 'Recent stories', and filters for Agent Architecture, Tutorials, and Case Studies.
+    - Listed in awesome-langchain specifically as a resource to 'Explore tutorials, case studies, and technical insights'.
+placement:
+  primary_category: newsletters-and-feeds
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.732Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:51:42.592Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

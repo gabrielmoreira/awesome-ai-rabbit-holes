@@ -1,0 +1,75 @@
+id: www__fine__dev
+kind: website
+name: www.fine.dev
+canonical_url: https://www.fine.dev
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__fine__dev__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Fine
+        anchor_text: Fine
+        extracted_url: https://www.fine.dev
+        surrounding_text: "## [Fine](https://www.fine.dev/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Fine is an autonomous AI agent designed to plan, write, and review code directly within GitHub pull requests and repositories.
+  why_it_matters: It allows development teams to delegate implementation tasks and code reviews to an agent that operates natively within their existing GitHub workflow.
+  mental_damage: Yet another autonomous agent promising to handle the ' tedious ' part of coding, ensuring you can spend 100% of your time reviewing AI-generated diffs instead of writing them.
+  tags:
+    - coding-agent
+    - github
+    - pr-review
+    - automation
+  confidence: medium
+curation:
+  status: included
+  reason: Fine is a developer-facing coding agent that directly plans, writes, and reviews code inside a repo and PR workflow, which matches the coding-agents category instruction.
+  evidence:
+    - Seen in the 'awesome-ai-agents' list under a section specifically for 'Fine', indicating it is recognized as an autonomous agent.
+    - The URL (fine.dev) and context describe a tool that operates on source code within the GitHub ecosystem (PRs and repos).
+placement:
+  primary_category: coding-agents
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.732Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:50:48.830Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

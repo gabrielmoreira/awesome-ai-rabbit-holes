@@ -1,0 +1,78 @@
+id: codecosts__pages__dev
+kind: website
+name: codecosts.pages.dev
+canonical_url: https://codecosts.pages.dev
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__codecosts__pages__dev__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Developer Productivity Tools
+        anchor_text: CodeCosts
+        extracted_url: https://codecosts.pages.dev
+        surrounding_text: "- **[CodeCosts](https://codecosts.pages.dev/)** – Compare pricing across AI coding tools with an interactive calculator."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A comparison site and cost calculator for AI coding assistants that provides side-by-side pricing, feature breakdowns, and team cost estimates.
+  why_it_matters: It helps developers and engineering leaders navigate the chaotic pricing landscape of AI coding tools to find the best fit for their budget and IDE.
+  mental_damage: Because nothing says 'focus on shipping' like spending three hours comparing rate limits on eight different $20/month subscriptions before writing a single line of code.
+  tags:
+    - pricing
+    - comparison
+    - ai-tools
+    - directory
+  confidence: high
+curation:
+  status: included
+  reason: This is a directory and comparison index for AI coding tools, making it a navigation aid for developers rather than a standalone coding assistant or agent.
+  evidence:
+    - Seen in awesome-ai-coding-tools under 'Developer Productivity Tools' as a comparison site.
+    - Primary feature set is a 'Side-by-Side Comparison' table, 'Cost Calculator', and 'In-Depth Guides' for tools like Copilot and Cursor.
+    - The site explicitly positions itself as a free tool to 'Compare AI coding assistants side-by-side' rather than an assistant itself.
+placement:
+  primary_category: awesome-awesomes
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.726Z"
+    cause:
+      type: ambiguous_canonicalization
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:43:02.759Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

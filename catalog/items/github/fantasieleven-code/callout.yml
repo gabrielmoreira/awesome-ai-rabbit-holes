@@ -1,0 +1,82 @@
+id: github__fantasieleven-code__callout
+kind: github-repo
+name: callout
+canonical_url: https://github.com/fantasieleven-code/callout
+identity:
+  github_repo: fantasieleven-code/callout
+provenance:
+  discoveries:
+    - id: discovery__github__fantasieleven-code__callout__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: fantasieleven-code/callout
+        extracted_url: https://github.com/fantasieleven-code/callout
+        surrounding_text: "- [fantasieleven-code/callout](https://github.com/fantasieleven-code/callout) [![callout-dev MCP server](https://glama.ai/mcp/servers/fantasieleven-code/callout-dev/badges/score.svg)](https://glama.ai/mcp/servers/fantasieleven-code/callout-dev) 📇 🏠 - Multi-perspective architecture review for AI-assisted development. Nine expert viewpoints (CTO, Security, Product, DevOps, Customer, Strategy, Investor, Unicorn Founder, Solo Entrepreneur) analyze your project and produce actionable findings. Includes AI collaboration coaching and quantitative idea scoring."
+        confidence: high
+metadata:
+  github:
+    stars: 2
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-03-06T13:13:49Z"
+    pushed_at: "2026-03-11T06:31:16Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:07.889Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:07.889Z"
+      bytes: 8206
+insights:
+  summary: Callout is an MCP server that provides multi-perspective code, product, and strategy reviews inside AI coding environments like Claude Code, Cursor, and VS Code.
+  why_it_matters: It acts as a second pair of eyes to catch over-engineering and misaligned priorities before AI-generated code bloat cements itself into your codebase.
+  mental_damage: Now you can pay an AI to write 691 tests in 6 days, then pay another AI to tell you that 60% of them were a waste of tokens.
+  tags:
+    - mcp
+    - code-review
+    - ai-quality
+    - cursor
+    - claude-code
+  confidence: high
+curation:
+  status: included
+  reason: The core artifact is an MCP server that integrates with editors to provide reviews, fitting the MCP infrastructure category over a primary coding agent role.
+  evidence:
+    - README explicitly states it is 'delivered as an MCP server that works inside Claude Code, Cursor, VS Code, and Windsurf.'
+    - Listed under 'Server Implementations > Developer Tools' in the awesome-mcp-servers directory.
+    - Setup instructions configure the tool as an MCP server in editor config files (mcp.json).
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.687Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:07.889Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:19:03.234Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

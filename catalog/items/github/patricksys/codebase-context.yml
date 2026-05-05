@@ -1,0 +1,102 @@
+id: github__patricksys__codebase-context
+kind: github-repo
+name: codebase-context
+canonical_url: https://github.com/patricksys/codebase-context
+identity:
+  github_repo: patricksys/codebase-context
+provenance:
+  discoveries:
+    - id: discovery__github__patricksys__codebase-context__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: PatrickSys/codebase-context
+        extracted_url: https://github.com/patricksys/codebase-context
+        surrounding_text: "- [PatrickSys/codebase-context](https://github.com/PatrickSys/codebase-context) [![codebase-context MCP server](https://glama.ai/mcp/servers/@PatrickSys/codebase-context/badges/score.svg)](https://glama.ai/mcp/servers/@PatrickSys/codebase-context) 📇 🏠 🍎 🪟 🐧 - Local MCP server that shows AI agents which patterns your team actually uses, what files a change will affect, and when there is not enough context to trust an edit. 30+ languages, fully local."
+        confidence: high
+metadata:
+  github:
+    stars: 44
+    forks: 10
+    license: NOASSERTION
+    archived: false
+    created_at: "2025-11-24T21:32:52Z"
+    pushed_at: "2026-04-30T19:48:53Z"
+    description: Generate a map of your codebaseto help AI Agents understand your architecture, coding conventions and patterns. Discoverable with Semantic Search
+    homepage: https://www.npmjs.com/package/codebase-context
+    topics:
+      - ai-agents
+      - ai-coding
+      - claude
+      - code-intelligence
+      - context-engineering
+      - copilot
+      - cursor
+      - developer-tools
+      - evidence-scoring
+      - hybrid-search
+      - local-first
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - pattern-detection
+      - preflight
+      - reranking
+      - second-brain
+      - semantic-search
+      - team-memory
+    last_checked_at: "2026-05-05T21:04:13.510Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:13.510Z"
+      bytes: 14084
+insights:
+  summary: A local-first MCP server that maps a codebase's architecture, patterns, and conventions to provide bounded context and semantic search for AI agents.
+  why_it_matters: It helps AI agents stop generating 'correct' but architecturally misaligned code by grounding them in the team's actual current patterns and git history before they start editing.
+  mental_damage: We have successfully reached the point where we need dedicated infrastructure just to teach the AI that the three-year-old deprecated pattern is not, in fact, the architectural north star.
+  tags:
+    - mcp
+    - context-engineering
+    - local-first
+    - semantic-search
+    - codebase-mapping
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server designed to provide context and search capabilities to AI clients like Claude and Cursor.
+  evidence:
+    - Repo description defines it as a tool to 'help AI Agents understand your architecture' and is 'Discoverable with Semantic Search'.
+    - README confirms it runs as an MCP server with stdio and HTTP modes, integrated via `claude mcp add`.
+    - Listed in 'awesome-mcp-servers' under 'Server Implementations > Developer Tools'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.712Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:13.510Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:44:01.080Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

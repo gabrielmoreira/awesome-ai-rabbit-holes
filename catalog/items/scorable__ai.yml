@@ -1,0 +1,76 @@
+id: scorable__ai
+kind: website
+name: scorable.ai
+canonical_url: https://scorable.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__scorable__ai__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Root Signals
+        extracted_url: https://www.rootsignals.ai
+        surrounding_text: "- **[Root Signals](https://github.com/root-signals/root-signals-mcp)** - Equip AI agents with evaluation and self-improvement capabilities with [Root Signals](https://www.rootsignals.ai/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Scorable is a SaaS platform for creating custom AI judges and running evaluations to monitor and improve the quality of LLM application outputs in production.
+  why_it_matters: It allows developers to replace manual prompt testing and unreliable self-evaluation with calibrated, automated scoring that can block hallucinations and integrate into CI pipelines.
+  mental_damage: Just when you thought 'vibe coding' was a sustainable methodology, you now need a panel of automated AI judges to tell you that your AI's vibes are legally actionable.
+  tags:
+    - llm-evals
+    - monitoring
+    - ai-quality
+    - guardrails
+  confidence: high
+curation:
+  status: included
+  reason: The product is an evaluation and observability platform designed to measure LLM output quality, fitting the evals category's focus on measuring model and prompt behavior.
+  evidence:
+    - "Scraped description states: 'Create custom AI judges, run experiments, and monitor your LLM applications in production.'"
+    - Site excerpt lists use cases including 'CI test suite', 'Production monitor', and 'Guardrail' for evaluating AI responses.
+    - Listed in awesome-mcp-servers under 'Official Servers' as a tool for measuring and improving AI applications.
+placement:
+  primary_category: evals
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.730Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:47:55.424Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

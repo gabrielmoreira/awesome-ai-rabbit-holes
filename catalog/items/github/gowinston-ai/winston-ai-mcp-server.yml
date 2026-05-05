@@ -1,0 +1,84 @@
+id: github__gowinston-ai__winston-ai-mcp-server
+kind: github-repo
+name: winston-ai-mcp-server
+canonical_url: https://github.com/gowinston-ai/winston-ai-mcp-server
+identity:
+  github_repo: gowinston-ai/winston-ai-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__gowinston-ai__winston-ai-mcp-server__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Winston AI
+        extracted_url: https://github.com/gowinston-ai/winston-ai-mcp-server
+        surrounding_text: "- **[Winston AI](https://github.com/gowinston-ai/winston-ai-mcp-server)** - AI detector MCP server with industry leading accuracy rates in detecting use of AI in text and images. The [Winston AI](https://gowinston.ai) MCP server also offers a robust plagiarism checker to help maintain integrity."
+        confidence: high
+metadata:
+  github:
+    stars: 9
+    forks: 4
+    license: MIT
+    archived: false
+    created_at: "2025-07-15T17:24:54Z"
+    pushed_at: "2026-04-16T02:21:07Z"
+    description: Winston AI MCP Server
+    homepage: https://dev.gowinston.ai
+    topics:
+      - ai-detection
+      - mcp-server
+      - plagiarism-detection
+      - text-compare
+    last_checked_at: "2026-05-05T21:02:25.948Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:25.948Z"
+      bytes: 7992
+insights:
+  summary: An MCP server that exposes Winston AI's detection capabilities, including AI text detection, image analysis, plagiarism checking, and text comparison, to compatible AI clients.
+  why_it_matters: It allows developers to integrate automated content verification and originality checks directly into their AI-assisted workflows via the Model Context Protocol.
+  mental_damage: Finally, an MCP server to help your AI agent verify that the blog post it hallucinated wasn't written by another AI agent.
+  tags:
+    - mcp
+    - ai-detection
+    - plagiarism
+    - content-verification
+  confidence: high
+curation:
+  status: included
+  reason: The repository is specifically an MCP server implementation, which fits directly into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states 'Winston AI MCP Server'.
+    - README confirms it is a 'Model Context Protocol (MCP) Server for Winston AI'.
+    - Features include integration configs for Claude Desktop and Cursor IDE via MCP.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.689Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:25.948Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:22:33.356Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

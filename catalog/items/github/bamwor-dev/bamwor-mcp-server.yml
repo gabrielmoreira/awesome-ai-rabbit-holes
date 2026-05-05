@@ -1,0 +1,90 @@
+id: github__bamwor-dev__bamwor-mcp-server
+kind: github-repo
+name: bamwor-mcp-server
+canonical_url: https://github.com/bamwor-dev/bamwor-mcp-server
+identity:
+  github_repo: bamwor-dev/bamwor-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__bamwor-dev__bamwor-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🗺️ <a name="location-services"></a>Location Services
+        anchor_text: bamwor-dev/bamwor-mcp-server
+        extracted_url: https://github.com/bamwor-dev/bamwor-mcp-server
+        surrounding_text: "- [bamwor-dev/bamwor-mcp-server](https://github.com/bamwor-dev/bamwor-mcp-server) [![bamwor-mcp-server MCP server](https://glama.ai/mcp/servers/bamwor-dev/bamwor-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/bamwor-dev/bamwor-mcp-server) 📇 ☁️ - World geographic data for AI agents. 261 countries with 20+ statistics and 13.4M cities with population, coordinates, and timezone. Powered by Bamwor API."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-03-14T05:45:11Z"
+    pushed_at: "2026-03-31T13:14:10Z"
+    description: MCP server for world geographic data. 261 countries, 13.4M cities.
+    homepage: null
+    topics:
+      - ai-tools
+      - cities
+      - claude-desktop
+      - countries
+      - geography
+      - geospatial
+      - mcp
+      - model-context-protocol
+      - world-data
+    last_checked_at: "2026-05-05T21:01:17.046Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:17.046Z"
+      bytes: 3723
+insights:
+  summary: An MCP server that connects AI agents to world geographic data covering 261 countries and 13.4 million cities with search, comparison, and ranking tools.
+  why_it_matters: Developers building AI agents that need authoritative geographic context can expose country and city data to Claude Desktop, Cursor, or Windsurf without wiring up their own geospatial API layer.
+  mental_damage: We have officially run out of problems to solve with MCP servers and have begun importing the entire CIA World Factbook so your coding agent can tell you the population of Liechtenstein mid-session.
+  tags:
+    - mcp
+    - geospatial
+    - world-data
+    - agent-tools
+  confidence: high
+curation:
+  status: included
+  reason: The project is itself an MCP server implementation that exposes geographic data tools, which cleanly matches the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states 'MCP server for world geographic data' with 261 countries and 13.4M cities.
+    - README documents 8 MCP tools (get_country, search_cities, compare_countries, etc.) and shows configuration for Claude Desktop, Cursor, and Windsurf.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Location Services' section.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.680Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:17.046Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:10:12.911Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

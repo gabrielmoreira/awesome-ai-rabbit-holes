@@ -1,0 +1,82 @@
+id: github__ghuntley__loom
+kind: github-repo
+name: loom
+canonical_url: https://github.com/ghuntley/loom
+identity:
+  github_repo: ghuntley/loom
+provenance:
+  discoveries:
+    - id: discovery__github__ghuntley__loom__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Orchestrators & autonomous loops
+        anchor_text: loom
+        extracted_url: https://github.com/ghuntley/loom
+        surrounding_text: "- **[loom](https://github.com/ghuntley/loom)** `⭐ 1.3k` — Infrastructure enabling autonomous loops to evolve products via multi-agent coordination."
+        confidence: high
+metadata:
+  github:
+    stars: 1296
+    forks: 212
+    license: null
+    archived: false
+    created_at: "2025-12-18T10:34:50Z"
+    pushed_at: "2026-04-10T19:15:00Z"
+    description: if your name is not Geoffrey Huntley then do not use loom
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:02:20.891Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:20.891Z"
+      bytes: 4582
+insights:
+  summary: Loom is a research-grade, AI-powered coding agent built in Rust that provides a REPL interface for developers to interact with LLM agents capable of file system operations and code analysis.
+  why_it_matters: It offers a modular, server-side LLM proxy architecture with remote execution environments, giving developers a self-hostable, extensible foundation for experimenting with agentic coding workflows.
+  mental_damage: A proprietary, 'do not use unless you are Geoffrey Huntley' coding agent built in Rust serves as the perfect capstone to 2025's 'secure, enterprise-ready, and definitely not for you' open-source licensing trend.
+  tags:
+    - rust
+    - cli
+    - coding-agent
+    - llm-proxy
+    - research
+  confidence: medium
+curation:
+  status: included
+  reason: It is a developer-facing CLI coding agent designed to plan, execute, and orchestrate code-related tasks via a REPL, fitting the coding-agents category's instruction for terminal-based assistants.
+  evidence:
+    - Repo description explicitly states 'if your name is not Geoffrey Huntley then do not use loom', marking it as a personal research project.
+    - README defines Loom as 'an AI-powered coding agent built in Rust' providing a 'REPL interface for interacting with LLM-powered agents'.
+    - Found in the 'awesome-cli-coding-agents' list under 'Harnesses & orchestration > Orchestrators & autonomous loops'.
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1296) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.689Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:20.891Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:21:19.624Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

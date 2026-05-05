@@ -1,0 +1,85 @@
+id: github__michaelfeil__infinity
+kind: github-repo
+name: infinity
+canonical_url: https://github.com/michaelfeil/infinity
+identity:
+  github_repo: michaelfeil/infinity
+provenance:
+  discoveries:
+    - id: discovery__github__michaelfeil__infinity__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Serving
+          - Large Model Serving
+        anchor_text: Infinity
+        extracted_url: https://github.com/michaelfeil/infinity
+        surrounding_text: "| [Infinity](https://github.com/michaelfeil/infinity)                                   | Rest API server for serving text-embeddings                                                                     | ![GitHub Badge](https://img.shields.io/github/stars/michaelfeil/infinity.svg?style=flat-square)                  |"
+        confidence: high
+metadata:
+  github:
+    stars: 2787
+    forks: 186
+    license: MIT
+    archived: false
+    created_at: "2023-10-11T17:53:38Z"
+    pushed_at: "2026-03-24T03:59:47Z"
+    description: Infinity is a high-throughput, low-latency serving engine for text-embeddings, reranking models, clip, clap and colpali
+    homepage: https://michaelfeil.github.io/infinity/
+    topics:
+      - bert-embeddings
+      - llm
+      - text-embeddings
+    last_checked_at: "2026-05-05T21:03:37.433Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:37.433Z"
+      bytes: 27885
+insights:
+  summary: Infinity is a high-throughput, low-latency REST API server for serving text embeddings, reranking models, and multimodal models like CLIP and ColPali.
+  why_it_matters: It allows developers to self-host a wide range of HuggingFace models with OpenAI-compatible APIs, optimizing inference via PyTorch, ONNX, or CTranslate2 across various hardware accelerators.
+  mental_damage: Yet another infrastructure piece promising to solve the 'I need embeddings now' problem, assuming you enjoy debugging Docker pulls and CUDA versions just to turn a sentence into a vector.
+  tags:
+    - embeddings
+    - inference
+    - serving
+    - multimodal
+    - rest-api
+  confidence: high
+curation:
+  status: included
+  reason: It is a self-hosted model serving stack for running AI models on your own hardware, which fits the local-ai category.
+  evidence:
+    - Repo description explicitly calls it a 'high-throughput, low-latency serving engine'.
+    - README highlights deployment on NVIDIA CUDA, AMD ROCM, CPU, and Apple MPS.
+    - Listed in Awesome-LLMOps under 'Serving > Large Model Serving'.
+placement:
+  primary_category: local-ai
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (2787) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.706Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:37.433Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:37:18.002Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

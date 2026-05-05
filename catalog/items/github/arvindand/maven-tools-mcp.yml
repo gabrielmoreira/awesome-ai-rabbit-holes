@@ -1,0 +1,112 @@
+id: github__arvindand__maven-tools-mcp
+kind: github-repo
+name: maven-tools-mcp
+canonical_url: https://github.com/arvindand/maven-tools-mcp
+identity:
+  github_repo: arvindand/maven-tools-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__arvindand__maven-tools-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: arvindand/maven-tools-mcp
+        extracted_url: https://github.com/arvindand/maven-tools-mcp
+        surrounding_text: "- [arvindand/maven-tools-mcp](https://github.com/arvindand/maven-tools-mcp) ☕ ☁️ 🏠 🍎 🪟 🐧 - Universal Maven Central dependency intelligence for JVM build tools (Maven, Gradle, SBT, Mill). Features bulk operations, version comparison, stability filtering, dependency age analysis, release patterns, and Context7 integration for upgrade guidance."
+        confidence: high
+    - id: discovery__github__arvindand__maven-tools-mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: Maven Tools
+        extracted_url: https://github.com/arvindand/maven-tools-mcp
+        surrounding_text: "- **[Maven Tools](https://github.com/arvindand/maven-tools-mcp)** - Enhanced Maven Central integration with intelligent caching, bulk operations, and version classification"
+        confidence: high
+metadata:
+  github:
+    stars: 23
+    forks: 5
+    license: MIT
+    archived: false
+    created_at: "2025-06-06T22:34:05Z"
+    pushed_at: "2026-04-05T22:49:44Z"
+    description: MCP server providing AI assistants with Maven Central dependency intelligence for all JVM build tools (Maven, Gradle, SBT, Mill). Features Context7 integration for documentation support.
+    homepage: https://dev.to/arvindand/how-i-connected-claude-to-maven-central-and-why-you-should-too-2clo
+    topics:
+      - ai-tools
+      - dependency-management
+      - developer-tools
+      - docker
+      - graalvm
+      - gradle
+      - java
+      - maven
+      - maven-central
+      - maven-tools
+      - mcp
+      - mcp-server
+      - native-image
+      - spring-ai
+      - spring-boot
+    last_checked_at: "2026-05-05T21:01:10.466Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:10.466Z"
+      bytes: 9441
+insights:
+  summary: An MCP server that provides AI assistants with structured Maven Central dependency intelligence, including version checks, release patterns, health audits, and optional Context7 documentation lookups for JVM projects.
+  why_it_matters: It allows coding agents to perform grounded dependency upgrades and audits directly within the editor or PR workflow without scraping web pages.
+  mental_damage: We've reached the point where even our dependency managers need their own context servers so the AI can feel confident about what version of Spring Boot you're definitely already using.
+  tags:
+    - mcp
+    - java
+    - dependencies
+    - maven
+    - context7
+  confidence: high
+curation:
+  status: included
+  reason: This is a purpose-built MCP server that exposes dependency intelligence tools to MCP-capable clients, which fits the MCP Servers and Tooling category cleanly.
+  evidence:
+    - "Repo description explicitly states: 'MCP server providing AI assistants with Maven Central dependency intelligence'"
+    - README documents 10 MCP tools (STDIO and HTTP transports) and setup for Claude Desktop and VS Code + GitHub Copilot
+    - Listed in awesome-mcp-servers under 'Developer Tools' and 'Community Servers' sections
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.663Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:10.467Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:09:12.446Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

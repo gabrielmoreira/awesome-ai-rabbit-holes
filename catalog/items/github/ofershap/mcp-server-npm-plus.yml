@@ -1,0 +1,94 @@
+id: github__ofershap__mcp-server-npm-plus
+kind: github-repo
+name: mcp-server-npm-plus
+canonical_url: https://github.com/ofershap/mcp-server-npm-plus
+identity:
+  github_repo: ofershap/mcp-server-npm-plus
+provenance:
+  discoveries:
+    - id: discovery__github__ofershap__mcp-server-npm-plus__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: ofershap/mcp-server-npm-plus
+        extracted_url: https://github.com/ofershap/mcp-server-npm-plus
+        surrounding_text: "- [ofershap/mcp-server-npm-plus](https://github.com/ofershap/mcp-server-npm-plus) [![mcp-server-npm-plus MCP server](https://glama.ai/mcp/servers/ofershap/mcp-server-npm-plus/badges/score.svg)](https://glama.ai/mcp/servers/ofershap/mcp-server-npm-plus) 📇 ☁️ - npm intelligence — search packages, check bundle sizes, scan vulnerabilities, compare downloads."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-02-19T23:29:24Z"
+    pushed_at: "2026-03-10T09:22:27Z"
+    description: MCP server for npm - search, bundle sizes, vulnerabilities, download trends, dependency trees
+    homepage: ""
+    topics:
+      - ai
+      - bundle-size
+      - claude
+      - cursor
+      - llm
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - npm
+      - packages
+      - typescript
+      - vulnerabilities
+    last_checked_at: "2026-05-05T21:03:59.847Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:59.847Z"
+      bytes: 4097
+insights:
+  summary: An MCP server that lets AI assistants search npm, check bundle sizes, scan for vulnerabilities, and inspect dependency trees using public registry APIs.
+  why_it_matters: It consolidates package research—download stats, bundle size, and security—directly into the editor so developers can compare libraries without opening a dozen browser tabs.
+  mental_damage: "We have successfully automated the one job every developer already perfected: opening twelve tabs to decide between two state management libraries."
+  tags:
+    - mcp
+    - npm
+    - developer-tools
+    - cursor
+    - typescript
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server that integrates with Claude Desktop, Cursor, and VS Code Copilot to provide npm research capabilities.
+  evidence:
+    - "Repo description states: 'MCP server for npm - search, bundle sizes, vulnerabilities, download trends, dependency trees'"
+    - README confirms it 'Works with Claude Desktop, Cursor, VS Code Copilot, and any MCP client'
+    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.710Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:59.847Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:41:42.036Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,95 @@
+id: github__gabrielmaialva33__winx-code-agent
+kind: github-repo
+name: winx-code-agent
+canonical_url: https://github.com/gabrielmaialva33/winx-code-agent
+identity:
+  github_repo: gabrielmaialva33/winx-code-agent
+provenance:
+  discoveries:
+    - id: discovery__github__gabrielmaialva33__winx-code-agent__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🤖 <a name="coding-agents"></a>Coding Agents
+        anchor_text: gabrielmaialva33/winx-code-agent
+        extracted_url: https://github.com/gabrielmaialva33/winx-code-agent
+        surrounding_text: "- [gabrielmaialva33/winx-code-agent](https://github.com/gabrielmaialva33/winx-code-agent) 🦀 🏠 - A high-performance Rust reimplementation of WCGW for code agents, providing shell execution and advanced file management capabilities for LLMs via MCP."
+        confidence: high
+metadata:
+  github:
+    stars: 27
+    forks: 8
+    license: MIT
+    archived: false
+    created_at: "2025-04-17T04:07:28Z"
+    pushed_at: "2026-04-13T09:23:31Z"
+    description: ✨ A high-performance code agent written in Rust, combining the best features of WCGW for maximum efficiency and semantic capabilities. 🦀
+    homepage: ""
+    topics:
+      - autonomous
+      - code-agent
+      - computer
+      - control
+      - execution
+      - llm-agent
+      - llm-code
+      - mcp
+      - rust
+      - serena
+      - shell
+      - vibe-coding
+      - vibecoding
+      - wcgw
+    last_checked_at: "2026-05-05T21:02:16.956Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:16.956Z"
+      bytes: 2883
+insights:
+  summary: A high-performance MCP server written in Rust that provides shell execution, file I/O, and workspace context tools for LLM-based coding agents, serving as a drop-in replacement for the Python-based WCGW.
+  why_it_matters: It gives local coding agents a significantly faster and lighter backend for command execution and file operations, reducing the latency overhead of the tool-calling loop.
+  mental_damage: We are now rewriting the glue code that connects our AI to our terminal in Rust, because apparently the 200ms it took to list a directory was the only thing standing between us and AGI.
+  tags:
+    - mcp
+    - rust
+    - coding-agent
+    - infrastructure
+  confidence: high
+curation:
+  status: included
+  reason: The project is a standalone MCP server implementation providing tooling infrastructure for agents, fitting the MCP category rather than being a primary coding agent itself.
+  evidence:
+    - Repo description explicitly calls it a 'high-performance code agent written in Rust' and 'MCP server'.
+    - README states Winx is 'a specialized Model Context Protocol (MCP) server' designed as a 'drop-in replacement' for WCGW.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Coding Agents'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.688Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:16.956Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:20:33.159Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

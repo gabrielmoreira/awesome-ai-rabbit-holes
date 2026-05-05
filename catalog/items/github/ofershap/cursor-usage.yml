@@ -1,0 +1,91 @@
+id: github__ofershap__cursor-usage
+kind: github-repo
+name: cursor-usage
+canonical_url: https://github.com/ofershap/cursor-usage
+identity:
+  github_repo: ofershap/cursor-usage
+provenance:
+  discoveries:
+    - id: discovery__github__ofershap__cursor-usage__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: ofershap/cursor-usage
+        extracted_url: https://github.com/ofershap/cursor-usage
+        surrounding_text: "- [ofershap/cursor-usage](https://github.com/ofershap/cursor-usage) [![cursor-usage MCP server](https://glama.ai/mcp/servers/ofershap/cursor-usage/badges/score.svg)](https://glama.ai/mcp/servers/ofershap/cursor-usage) 📇 🏠 - Enterprise AI coding usage analytics — track spend, model usage, and costs across Cursor/Claude Code sessions via MCP server"
+        confidence: high
+metadata:
+  github:
+    stars: 3
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-02-19T07:19:39Z"
+    pushed_at: "2026-02-19T23:09:34Z"
+    description: Ask your AI agent about your team's Cursor spending. MCP server + Cursor plugin + Claude Code plugin wrapping the full Cursor Enterprise API.
+    homepage: ""
+    topics:
+      - ai-spending
+      - cursor
+      - cursor-ai
+      - cursor-enterprise
+      - cursor-ide
+      - cursor-plugin
+      - mcp
+      - model-context-protocol
+      - usage-analytics
+    last_checked_at: "2026-05-05T21:03:59.038Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:59.038Z"
+      bytes: 8196
+insights:
+  summary: An MCP server and plugin that wraps the Cursor Enterprise API so developers can query team AI spending, usage, and model adoption directly from their AI agent or IDE.
+  why_it_matters: It lets engineering teams track and audit Cursor Enterprise costs through natural language questions instead of manually digging through dashboards and spreadsheets.
+  mental_damage: We have finally reached the point where we need an AI agent to explain to us how much money our other AI agents are burning.
+  tags:
+    - mcp
+    - cursor
+    - cost-tracking
+    - enterprise
+    - usage-analytics
+  confidence: high
+curation:
+  status: included
+  reason: The repository is explicitly an MCP server that wraps the Cursor Enterprise API, making it a clear fit for the MCP Servers and Tooling category.
+  evidence:
+    - Repo description states it is an 'MCP server + Cursor plugin + Claude Code plugin wrapping the full Cursor Enterprise API'.
+    - README confirms 'This MCP server plugin wraps the full Cursor Enterprise Admin and Analytics APIs' with 15 tools.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.710Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:59.038Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:41:34.794Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

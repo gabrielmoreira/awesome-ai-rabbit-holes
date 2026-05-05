@@ -1,0 +1,76 @@
+id: www__mend__io
+kind: website
+name: www.mend.io
+canonical_url: https://www.mend.io
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__mend__io__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Security
+        anchor_text: Mend (WhiteSource)
+        extracted_url: https://www.mend.io
+        surrounding_text: "- **[Mend (WhiteSource)](https://www.mend.io/)** – Open-source security and license compliance."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Mend.io is an application security platform focused on automated dependency scanning, vulnerability management, and open-source license compliance.
+  why_it_matters: It integrates into developer workflows to automate the detection and remediation of security risks in the software supply chain.
+  mental_damage: Because nothing says 'agile' like paying a SaaS platform to yell at you for using a package that was patched twelve minutes after you pushed to production.
+  tags:
+    - security
+    - supply-chain
+    - vulnerability-scanning
+    - compliance
+  confidence: high
+curation:
+  status: excluded
+  reason: Mend.io is a traditional application security (AppSec) platform focused on SCA and compliance, lacking the AI-native coding, generation, or agentic workflow features required for this catalog.
+  evidence:
+    - Listed in awesome-ai-coding-tools under the 'Security' section, suggesting a tangential relationship to AI coding.
+    - No repository description, README, or site context provided to indicate AI-driven code generation, agentic behavior, or AI workflow automation.
+    - The product focuses on dependency scanning and license compliance, which falls outside the scope of AI coding tools and agents.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.733Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:51:57.166Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

@@ -1,0 +1,96 @@
+id: github__paradedb__paradedb
+kind: github-repo
+name: paradedb
+canonical_url: https://github.com/paradedb/paradedb
+identity:
+  github_repo: paradedb/paradedb
+provenance:
+  discoveries:
+    - id: discovery__github__paradedb__paradedb__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Search
+          - Vector search
+        anchor_text: ParadeDB
+        extracted_url: https://github.com/paradedb/paradedb
+        surrounding_text: "| [ParadeDB](https://github.com/paradedb/paradedb)          | The transactional alternative to Elasticsearch, built on Postgres.                                                                                                                                                                                                                                            | ![GitHub Badge](https://img.shields.io/github/stars/paradedb/paradedb.svg?style=flat-square)          |"
+        confidence: high
+metadata:
+  github:
+    stars: 8732
+    forks: 378
+    license: AGPL-3.0
+    archived: false
+    created_at: "2023-06-30T20:21:47Z"
+    pushed_at: "2026-05-05T20:51:06Z"
+    description: Simple, Elastic-quality search for Postgres
+    homepage: https://paradedb.com
+    topics:
+      - aggregations
+      - analytics
+      - bm25
+      - database
+      - elasticsearch
+      - full-text-search
+      - htap
+      - hybrid-search
+      - olap
+      - postgresql
+      - real-time-analytics
+      - similarity-search
+      - sparse-vector
+      - sql
+    last_checked_at: "2026-05-05T21:04:12.175Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:12.175Z"
+      bytes: 5055
+insights:
+  summary: ParadeDB is a PostgreSQL extension that adds Elastic-quality full-text search, analytics, and soon vector and hybrid search capabilities directly inside the database using Rust-powered libraries.
+  why_it_matters: It allows developers to consolidate search, analytics, and vector workloads into Postgres, reducing the need to synchronize and maintain separate search infrastructure like Elasticsearch.
+  mental_damage: Yet another opportunity to bet the house on a single database, this time by convincing yourself that Postgres can finally solve search, OLAP, and AI embeddings without the operational baggage you probably just finished unpacking.
+  tags:
+    - postgres
+    - search
+    - vector-database
+    - analytics
+    - database-extension
+  confidence: high
+curation:
+  status: included
+  reason: It is a developer-facing database extension and SDK that provides the backend infrastructure for AI agents and applications to perform search and vector lookups directly within Postgres.
+  evidence:
+    - Repo description states it is 'Simple, Elastic-quality search for Postgres', and the README confirms it is a PostgreSQL extension for full-text search and analytics.
+    - Strong developer-tooling signals including ORMs (Django, Rails, SQLAlchemy) and explicit 'AI Agents' integrations via MCP and agent skills.
+    - Listed in Awesome-LLMOps under 'Search > Vector search', confirming its relevance to the modern AI infrastructure stack.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (8732) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.712Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:12.175Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:43:52.065Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

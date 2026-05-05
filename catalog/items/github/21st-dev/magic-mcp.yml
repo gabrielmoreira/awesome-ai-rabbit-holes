@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__21st-dev__magic-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-01T13:51:25.374Z"
+      discovered_at: "2026-05-05T19:41:00.656Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [21st-dev/Magic-MCP](https://github.com/21st-dev/magic-mcp) - Create crafted UI components inspired by the best 21st.dev design engineers."
         confidence: high
     - id: discovery__github__21st-dev__magic-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-01T13:51:25.374Z"
+      discovered_at: "2026-05-05T19:41:00.656Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -38,16 +38,15 @@ provenance:
         surrounding_text: "- **[21st.dev Magic](https://github.com/21st-dev/magic-mcp)** - Create crafted UI components inspired by the best 21st.dev design engineers."
         confidence: high
     - id: discovery__github__21st-dev__magic-mcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-01T13:51:25.374Z"
+      discovered_at: "2026-05-05T19:41:00.656Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
-        url: https://github.com/MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
         repository: MobinX/awesome-mcp-list
       extraction:
         mode: parsed
         section_path:
-          - null
           - 💻 Developer Tools
         anchor_text: 21st-dev/Magic-MCP
         extracted_url: https://github.com/21st-dev/magic-mcp
@@ -55,8 +54,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 4821
-    forks: 333
+    stars: 4837
+    forks: 336
     license: null
     archived: false
     created_at: "2025-02-19T13:17:50Z"
@@ -64,31 +63,49 @@ metadata:
     description: It's like v0 but in your Cursor/WindSurf/Cline. 21st dev Magic MCP server for working with your frontend like Magic
     homepage: https://21st.dev/magic
     topics: []
-    last_checked_at: "2026-05-01T13:51:45.569Z"
+    last_checked_at: "2026-05-05T21:00:44.286Z"
     readme:
-      fetched_at: "2026-05-01T13:51:45.569Z"
+      fetched_at: "2026-05-05T21:00:44.286Z"
       bytes: 7999
 insights:
-  summary: An MCP server that plugs into Cursor/Windsurf/VS Code (including Cline) to generate and enhance frontend UI components from natural-language prompts.
-  why_it_matters: It turns “build me a polished nav/hero/modal” into an IDE-native workflow that drops TypeScript UI components straight into your repo, cutting down the time between idea and shippable UI.
-  mental_damage: Your frontend backlog becomes a chat prompt queue, and suddenly you’re doing design reviews on code you didn’t write but somehow now “own.”
+  summary: An MCP server that integrates with Cursor, Windsurf, and VS Code/Cline to generate modern UI components from natural language descriptions inside the IDE.
+  why_it_matters: It lets frontend developers prototype and insert polished UI components directly into their codebase without leaving the editor or manually browsing component libraries.
+  mental_damage: We have now successfully abstracted away the one part of frontend development that still felt like tangible craftsmanship, replacing it with a slash command that turns English into TypeScript at 3 AM.
   tags:
     - mcp
     - ui-generation
-    - cursor
-    - vscode
+    - ide-integration
     - frontend
   confidence: high
 curation:
   status: included
-  reason: "Include: it’s a developer-facing MCP server that integrates with popular AI-first editors to generate code (UI components) inside real project workflows, squarely fitting MCP tooling."
+  reason: The repository is explicitly an MCP server implementation that integrates with IDEs to provide UI generation capabilities, fitting the MCP Servers and Tooling category perfectly.
   evidence:
-    - "Repo description: “like v0 but in your Cursor/WindSurf/Cline” (developer IDE workflow focus)"
-    - "README: MCP tool for “create… UI components instantly” via `/ui`, with Cursor/Windsurf/VSCode+Cline support and TypeScript output"
-    - "Source-list context: listed in multiple MCP-server awesome lists under Developer Tools/Official Servers; repo is active (pushed 2026-02-17) and not archived"
+    - Repo description states it is a 'Magic MCP server for working with your frontend'.
+    - README details installation via `npx @21st-dev/magic` configured as an `mcpServer` in IDE config files.
+    - Listed in 'awesome-mcp-servers' under 'Server Implementations > Developer Tools'.
 placement:
   primary_category: mcp
   section: null
 lifecycle:
   status: promotion_candidate
-  reason: Stars (4821) exceeded threshold (150)
+  reason: Stars (4837) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.658Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:44.286Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:05:00.384Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

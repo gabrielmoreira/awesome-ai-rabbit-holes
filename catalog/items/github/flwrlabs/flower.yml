@@ -1,0 +1,101 @@
+id: github__flwrlabs__flower
+kind: github-repo
+name: flower
+canonical_url: https://github.com/flwrlabs/flower
+identity:
+  github_repo: flwrlabs/flower
+provenance:
+  discoveries:
+    - id: discovery__github__adap__flower__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Federated ML
+        anchor_text: Flower
+        extracted_url: https://github.com/adap/flower
+        surrounding_text: "| [Flower](https://github.com/adap/flower)                        | A Friendly Federated Learning Framework                                                                                                                                                                                                                                          | ![GitHub Badge](https://img.shields.io/github/stars/adap/flower.svg?style=flat-square)          |"
+        confidence: high
+metadata:
+  github:
+    stars: 6879
+    forks: 1185
+    license: Apache-2.0
+    archived: false
+    created_at: "2020-02-17T11:51:29Z"
+    pushed_at: "2026-05-05T18:42:03Z"
+    description: "Flower: A Friendly Federated AI Framework"
+    homepage: https://flower.ai
+    topics:
+      - ai
+      - android
+      - artificial-intelligence
+      - cpp
+      - deep-learning
+      - federated-analytics
+      - federated-learning
+      - federated-learning-framework
+      - fleet-intelligence
+      - fleet-learning
+      - flower
+      - framework
+      - grpc
+      - ios
+      - machine-learning
+      - python
+      - pytorch
+      - raspberry-pi
+      - scikit-learn
+      - tensorflow
+    last_checked_at: "2026-05-05T21:02:13.056Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:13.056Z"
+      bytes: 11434
+insights:
+  summary: Flower is a framework for building federated AI systems that enables training machine learning models across decentralized devices without sharing raw data.
+  why_it_matters: It provides a framework-agnostic codebase for developers to implement federated learning workflows across PyTorch, TensorFlow, Hugging Face, and even mobile platforms like iOS and Android.
+  mental_damage: Yet another framework promising to solve the distributed data problem, ensuring you can now spend your weekends debugging gRPC connections between Raspberry Pis instead of just centralizing your dataset like a normal person.
+  tags:
+    - federated-learning
+    - machine-learning
+    - framework
+    - privacy
+    - distributed
+  confidence: high
+curation:
+  status: excluded
+  reason: Excluded because this is a federated machine learning framework for data scientists and ML engineers, not a tool for software developers building with AI or automating coding workflows.
+  evidence:
+    - Repo description explicitly defines it as 'A Friendly Federated AI Framework' focused on federated learning.
+    - README emphasizes integration with ML libraries (PyTorch, TensorFlow, scikit-learn) and mobile platforms (iOS, Android, TFLite) rather than developer tooling.
+    - No mention of code editing, IDE integration, app building, or developer workflow automation in the provided context.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (6879) exceeded threshold (150)
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:19:53.808Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.676Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:13.056Z"
+    cause: null
+    next_retry_at: null

@@ -1,0 +1,92 @@
+id: github__babyblueviper1__invinoveritas
+kind: github-repo
+name: invinoveritas
+canonical_url: https://github.com/babyblueviper1/invinoveritas
+identity:
+  github_repo: babyblueviper1/invinoveritas
+provenance:
+  discoveries:
+    - id: discovery__github__babyblueviper1__invinoveritas__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: babyblueviper1/invinoveritas
+        extracted_url: https://github.com/babyblueviper1/invinoveritas
+        surrounding_text: "- [babyblueviper1/invinoveritas](https://github.com/babyblueviper1/invinoveritas) [![invinoveritas MCP server](https://glama.ai/mcp/servers/babyblueviper1/invinoveritas/badges/score.svg)](https://glama.ai/mcp/servers/babyblueviper1/invinoveritas) 📇 ☁️ - Lightning-native AI reasoning, decisions, persistent memory, and agent marketplace for autonomous agents. Pay-per-use via Bitcoin Lightning. Register free — 250 starter sats. Agents earn sats selling services (seller keeps 95%), DM each other, and run autonomously. `npm install invinoveritas-mcp`"
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: Apache-2.0
+    archived: false
+    created_at: "2026-03-23T01:37:36Z"
+    pushed_at: "2026-05-02T16:18:42Z"
+    description: "  ▎ Lightning-native AI reasoning, decisions, memory, orchestration, agent marketplace, and message board. Agents earn sats, DM each other, and replicate autonomously. Pay-per-use via Bitcoin        ▎ Lightning (L402 · Bearer · NWC). No subscriptions. No KYC."
+    homepage: https://api.babyblueviper.com
+    topics:
+      - ai-agents
+      - autonomous-agents
+      - bitcoin
+      - l402
+      - lightning-network
+      - llm
+      - mcp
+      - pay-per-use
+      - reasoning
+      - sdk
+    last_checked_at: "2026-05-05T21:01:16.569Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:16.569Z"
+      bytes: 8255
+insights:
+  summary: A Lightning Network-native API platform for paid AI reasoning, agent-to-agent coordination, and a marketplace where autonomous agents can earn and pay in Bitcoin via the Model Context Protocol.
+  why_it_matters: It provides developers with a pay-per-use SDK and MCP endpoint to integrate autonomous agents that handle reasoning and commerce without subscriptions or KYC.
+  mental_damage: We have finally solved the agent economy problem by ensuring your autonomous loop can now go into debt in satoshis while DMing other agents about its existential goals.
+  tags:
+    - mcp
+    - lightning-network
+    - bitcoin
+    - autonomous-agents
+    - sdk
+  confidence: medium
+curation:
+  status: included
+  reason: The project exposes a live MCP endpoint and is explicitly listed in awesome-mcp-servers, making it a clear fit for the MCP infrastructure category.
+  evidence:
+    - Repo description explicitly states 'MCP' and the README lists a live endpoint at https://api.babyblueviper.com/mcp.
+    - Listed in the 'awesome-mcp-servers' directory under Server Implementations > Finance & Fintech.
+    - Provides a Python SDK and API for developers to register agents and use reasoning services programmatically.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.680Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:16.569Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:10:07.440Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

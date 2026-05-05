@@ -1,0 +1,80 @@
+id: github__box-community__mcp-server-box
+kind: github-repo
+name: mcp-server-box
+canonical_url: https://github.com/box-community/mcp-server-box
+identity:
+  github_repo: box-community/mcp-server-box
+provenance:
+  discoveries:
+    - id: discovery__github__box-community__mcp-server-box__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Box
+        extracted_url: https://github.com/box-community/mcp-server-box
+        surrounding_text: "- **[Box](https://github.com/box-community/mcp-server-box)** - Interact with the Intelligent Content Management platform through Box AI."
+        confidence: high
+metadata:
+  github:
+    stars: 101
+    forks: 49
+    license: MIT
+    archived: true
+    created_at: "2025-02-24T21:55:16Z"
+    pushed_at: "2026-04-30T21:43:33Z"
+    description: Securely connect AI agents to your enterprise content in Box
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:01:24.324Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:24.324Z"
+      bytes: 5549
+insights:
+  summary: A community-maintained MCP server that connects AI agents to enterprise content stored in Box, enabling file operations, search, and metadata management via the Model Context Protocol.
+  why_it_matters: It allows developers to integrate Box content directly into MCP-compatible clients like Claude Desktop without building custom API integrations.
+  mental_damage: The community version was archived so quickly that the official hosted replacement probably shipped before you finished reading this sentence.
+  tags:
+    - mcp
+    - box
+    - enterprise
+    - content-management
+  confidence: high
+curation:
+  status: excluded
+  reason: The repository is explicitly archived and discontinued, with a warning directing users to Box's official hosted MCP server instead.
+  evidence:
+    - Repository is marked as archived on GitHub
+    - README contains a discontinuation warning stating 'This repository is discontinued and no longer maintained'
+    - Box now provides an officially supported hosted MCP server that replaces this community version
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: needs_review
+  reason: Repository is archived
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.681Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:24.324Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:11:26.900Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

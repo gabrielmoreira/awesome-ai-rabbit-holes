@@ -1,0 +1,87 @@
+id: github__missingstudio__gateway
+kind: github-repo
+name: ai
+canonical_url: https://github.com/missingstudio/gateway
+identity:
+  github_repo: missingstudio/gateway
+provenance:
+  discoveries:
+    - id: discovery__github__missingstudio__ai__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - LLMOps
+        anchor_text: AI studio
+        extracted_url: https://github.com/missingstudio/ai
+        surrounding_text: "| [AI studio](https://github.com/missingstudio/ai)                   | A Reliable Open Source AI studio to build core infrastructure stack for your LLM Applications. It allows you to gain visibility, make your application reliable, and prepare it for production with features such as caching, rate limiting, exponential retry, model fallback, and more.                                                                                                               | ![GitHub Badge](https://img.shields.io/github/stars/missingstudio/ai.svg?style=flat-square)               |"
+        confidence: high
+metadata:
+  github:
+    stars: 160
+    forks: 17
+    license: Apache-2.0
+    archived: false
+    created_at: "2024-01-18T03:04:52Z"
+    pushed_at: "2024-04-08T04:02:05Z"
+    description: "[deprecated] AI Gateway - core infrastructure stack for building production-ready AI Applications"
+    homepage: https://www.missing.studio
+    topics:
+      - ai
+      - aistudio
+      - api
+      - gateway
+      - generative-ai
+      - grpc
+      - inference
+      - large-language-models
+      - llmops
+      - llms
+      - protobuf
+      - workforce
+    last_checked_at: "2026-05-05T21:03:43.030Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:43.030Z"
+      bytes: 6446
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (160) exceeded threshold (150)
+processing:
+  categorize:
+    status: deferred
+    updated_at: "2026-05-05T21:38:22.491Z"
+    cause:
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for github__missingstudio__gateway: Invalid AI response format: SyntaxError: Bad escaped character in JSON at position 453 (line 4 column 106)"
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.707Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:43.030Z"
+    cause: null
+    next_retry_at: null

@@ -1,0 +1,111 @@
+id: github__cline__cline
+kind: github-repo
+name: cline
+canonical_url: https://github.com/cline/cline
+identity:
+  github_repo: cline/cline
+provenance:
+  discoveries:
+    - id: discovery__github__cline__cline__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Terminal-native coding agents
+          - Open Source
+        anchor_text: Cline CLI
+        extracted_url: https://github.com/cline/cline
+        surrounding_text: "- **[Cline CLI](https://github.com/cline/cline)** `⭐ 61.3k` — Model-agnostic autonomous agent for planning, file edits, command execution, and browser use."
+        confidence: high
+    - id: discovery__github__cline__cline__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Coding Agents
+        anchor_text: Cline (Claude Dev)
+        extracted_url: https://github.com/cline/cline
+        surrounding_text: "- **[Cline (Claude Dev)](https://github.com/cline/cline)** – VS Code extension with full file system access and autonomous coding."
+        confidence: high
+    - id: discovery__github__cline__cline__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 代码 Coding
+        anchor_text: cline
+        extracted_url: https://github.com/cline/cline
+        surrounding_text: 7. [cline](https://github.com/cline/cline)
+        confidence: high
+metadata:
+  github:
+    stars: 61393
+    forks: 6353
+    license: Apache-2.0
+    archived: false
+    created_at: "2024-07-06T07:28:10Z"
+    pushed_at: "2026-05-05T20:18:48Z"
+    description: Autonomous coding agent right in your IDE, capable of creating/editing files, executing commands, using the browser, and more with your permission every step of the way.
+    homepage: https://marketplace.visualstudio.com/items?itemName=saoudrizwan.claude-dev
+    topics: []
+    last_checked_at: "2026-05-05T21:01:35.608Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:35.608Z"
+      bytes: 11313
+insights:
+  summary: A VS Code extension that acts as an autonomous coding agent capable of creating and editing files, executing terminal commands, and using the browser inside the IDE with user approval.
+  why_it_matters: It allows developers to delegate multi-step coding, debugging, and testing workflows directly within their editor while maintaining human oversight on every change.
+  mental_damage: Finally, an agent that can install your dependencies and then immediately regret them, all while you watch in a GUI that makes it feel like responsible supervision.
+  tags:
+    - vscode-extension
+    - coding-agent
+    - autonomous
+    - ide
+  confidence: high
+curation:
+  status: included
+  reason: It is a developer-facing coding agent that directly plans, writes, edits, and debugs code inside an IDE workflow, which fits the coding-agents category perfectly.
+  evidence:
+    - Repo description states it is an 'Autonomous coding agent right in your IDE' with file, terminal, and browser capabilities.
+    - README describes a human-in-the-loop GUI for approving file changes and terminal commands directly inside VS Code.
+    - Included in awesome-ai-coding-tools under the 'Coding Agents' section.
+placement:
+  primary_category: coding-agents
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (61393) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.659Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:35.608Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:13:26.106Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

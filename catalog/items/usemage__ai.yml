@@ -1,0 +1,76 @@
+id: usemage__ai
+kind: website
+name: usemage.ai
+canonical_url: https://usemage.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__usemage__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - App Builders
+        anchor_text: Mage
+        extracted_url: https://usemage.ai
+        surrounding_text: "- **[Mage](https://usemage.ai/)** – Generate full-stack apps from natural language prompts."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A browser-based GPT app generator that scaffolds full-stack React, Node.js, and Prisma applications using the Wasp framework.
+  why_it_matters: It lets developers bypass boilerplate setup by turning a prompt into a deployable full-stack Wasp application in seconds.
+  mental_damage: Another tool that promises to save you from writing code, while ensuring you’ll spend the afternoon debugging a stack you didn’t actually write.
+  tags:
+    - app-generator
+    - full-stack
+    - wasp
+    - gpt
+  confidence: high
+curation:
+  status: included
+  reason: The product is a hosted, browser-first tool that generates whole full-stack applications from prompts, which aligns perfectly with the app-builders category.
+  evidence:
+    - Scraped site title and description confirm it is a GPT Web App Generator for full-stack React, Node.js, and Prisma apps.
+    - Source-list context classifies it under 'App Builders' in awesome-ai-coding-tools.
+    - The workflow is prompt-to-app generation rather than in-IDE or repo-based coding assistance.
+placement:
+  primary_category: app-builders
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.731Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:49:00.248Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

@@ -1,0 +1,81 @@
+id: github__kamranbiglari__mcp-server-chart
+kind: github-repo
+name: mcp-server-chart
+canonical_url: https://github.com/kamranbiglari/mcp-server-chart
+identity:
+  github_repo: kamranbiglari/mcp-server-chart
+provenance:
+  discoveries:
+    - id: discovery__github__kamranbiglari__mcp-server-chart__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: Chart
+        extracted_url: https://github.com/kamranbiglari/mcp-server-chart
+        surrounding_text: "- **[Chart](https://github.com/KamranBiglari/mcp-server-chart)** - This server offers a wide variety of chart types with comprehensive Zod schema validation for type-safe chart configuration."
+        confidence: high
+metadata:
+  github:
+    stars: 7
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2025-06-26T13:36:49Z"
+    pushed_at: "2025-07-30T09:36:52Z"
+    description: A Model Context Protocol (MCP) server that provides comprehensive chart generation capabilities. This server offers a wide variety of chart types with comprehensive Zod schema validation for type-safe chart configuration.
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:03:02.512Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:02.512Z"
+      bytes: 7281
+insights:
+  summary: An MCP server that exposes 15+ chart types—including financial, statistical, and business visualizations—with Zod schema validation for type-safe chart configuration in MCP-compatible clients.
+  why_it_matters: Developers can let LLMs generate rich, validated charts directly inside Claude.AI or other MCP clients instead of hand-crafting visualization code.
+  mental_damage: We have successfully externalized chart configuration to an LLM talking to a Zod-validated MCP server, because apparently writing a Chart.js config by hand was the bottleneck all along.
+  tags:
+    - mcp
+    - chart-generation
+    - visualization
+    - type-safe
+    - claude-integration
+  confidence: high
+curation:
+  status: included
+  reason: This is a dedicated MCP server implementation with HTTP/SSE endpoints and client configuration examples, fitting cleanly into MCP infrastructure.
+  evidence:
+    - Repo description explicitly states it is 'A Model Context Protocol (MCP) server that provides comprehensive chart generation capabilities.'
+    - README includes MCP client configuration examples and public Streamable HTTP/SSE endpoints for Claude.AI integration.
+    - Listed in awesome-mcp-servers under 'Community Servers', confirming its role as MCP infrastructure.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.701Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:02.512Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:30:07.211Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

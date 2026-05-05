@@ -1,0 +1,82 @@
+id: github__oerc-s__primordia
+kind: github-repo
+name: primordia
+canonical_url: https://github.com/oerc-s/primordia
+identity:
+  github_repo: oerc-s/primordia
+provenance:
+  discoveries:
+    - id: discovery__github__oerc-s__primordia__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: oerc-s/primordia
+        extracted_url: https://github.com/oerc-s/primordia
+        surrounding_text: "- [oerc-s/primordia](https://github.com/oerc-s/primordia) 📇 ☁️ - AI agent economic settlement. Verify receipts, emit meters (FREE). Net settlements, credit lines, audit-grade balance sheets (PAID/402)."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 1
+    license: null
+    archived: false
+    created_at: "2025-12-27T18:49:09Z"
+    pushed_at: "2026-01-31T17:31:17Z"
+    description: AI Agent Economic Settlement Infrastructure - Machine-to-Machine Clearing
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:03:58.925Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:58.925Z"
+      bytes: 4211
+insights:
+  summary: Primordia (Kaledge) provides financial settlement infrastructure for AI agents, including an MCP server, TypeScript SDK, and runtime hooks for transaction receipts, netting, and credit lines.
+  why_it_matters: It gives developers building autonomous agent workflows a ready-made MCP-compatible layer for tracking inter-agent payments, balance sheets, and defaults without rolling their own settlement logic.
+  mental_damage: "We have finally achieved the singularity: your LLM now needs a credit line, a balance sheet, and a bankruptcy protocol before it can call an API."
+  tags:
+    - mcp
+    - agent-economics
+    - settlement
+    - sdk
+    - fintech
+  confidence: medium
+curation:
+  status: included
+  reason: The project distributes a dedicated MCP server for agent settlement workflows and is explicitly listed in the awesome-mcp-servers finance section, making it a clean fit for MCP Servers and Tooling.
+  evidence:
+    - README includes npx @primordia1/mcp-server with MCP config and lists verify_receipt, generate_mbs, and net_receipts as MCP tools.
+    - Repo description is 'AI Agent Economic Settlement Infrastructure - Machine-to-Machine Clearing'.
+    - Listed under Server Implementations > Finance & Fintech in awesome-mcp-servers.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.710Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:58.925Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:41:32.777Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

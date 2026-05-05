@@ -1,0 +1,74 @@
+id: www__codeium__com
+kind: website
+name: www.codeium.com
+canonical_url: https://www.codeium.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__codeium__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Code Completion
+        anchor_text: Codeium
+        extracted_url: https://www.codeium.com
+        surrounding_text: "- **[Codeium](https://www.codeium.com/)** – Free AI code completion for 70+ languages and 40+ IDEs."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Codeium is an AI-powered code completion and chat assistant that integrates into IDEs to provide real-time suggestions and developer support.
+  why_it_matters: It offers a strong alternative to GitHub Copilot with broad IDE support and a free tier that appeals to individual developers and teams looking to reduce boilerplate.
+  mental_damage: Just when you thought your refactoring skills were sharp, you now have to decide if the AI's autocomplete is a helpful suggestion or a subtle attempt to rewrite your architecture while you blink.
+  tags:
+    - code-completion
+    - ide-plugin
+    - ai-assistant
+  confidence: high
+curation:
+  status: included
+  reason: Codeium is a developer-facing coding assistant that writes, edits, and chats about code directly within the IDE workflow, fitting the coding-agents category.
+  evidence:
+    - Seen in the awesome-ai-coding-tools list under the 'Code Completion' section.
+    - Described as an AI coding tool that assists developers within their editor environment.
+placement:
+  primary_category: coding-agents
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.732Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:50:14.945Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

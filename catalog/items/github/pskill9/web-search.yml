@@ -1,0 +1,87 @@
+id: github__pskill9__web-search
+kind: github-repo
+name: web-search
+canonical_url: https://github.com/pskill9/web-search
+identity:
+  github_repo: pskill9/web-search
+provenance:
+  discoveries:
+    - id: discovery__github__pskill9__web-search__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📂 <a name="browser-automation"></a>Browser Automation
+        anchor_text: pskill9/web-search
+        extracted_url: https://github.com/pskill9/web-search
+        surrounding_text: "- [pskill9/web-search](https://github.com/pskill9/web-search) 📇 🏠 - An MCP server that enables free web searching using Google search results, with no API keys required."
+        confidence: high
+    - id: discovery__github__pskill9__web-search__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - 📂 Browser Control
+        anchor_text: "@pskill9/web-search"
+        extracted_url: https://github.com/pskill9/web-search
+        surrounding_text: "-   **[@pskill9/web-search](https://github.com/pskill9/web-search)** [![GitHub stars](https://img.shields.io/github/stars/pskill9/web-search?style=social)](https://github.com/pskill9/web-search): Provides web search capabilities using Google results without requiring API keys."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.670Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: deferred
+    updated_at: "2026-05-05T20:15:08.949Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for pskill9/web-search
+  categorize:
+    status: skipped
+    updated_at: "2026-05-05T21:04:23.169Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

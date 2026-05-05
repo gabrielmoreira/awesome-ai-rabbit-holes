@@ -1,0 +1,80 @@
+id: github__hips__spearmint
+kind: github-repo
+name: spearmint
+canonical_url: https://github.com/hips/spearmint
+identity:
+  github_repo: hips/spearmint
+provenance:
+  discoveries:
+    - id: discovery__github__hips__spearmint__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - AutoML
+        anchor_text: Spearmint
+        extracted_url: https://github.com/hips/spearmint
+        surrounding_text: "| [Spearmint](https://github.com/HIPS/Spearmint)                               | a software package to perform Bayesian optimization.                                                                                                                            | ![GitHub Badge](https://img.shields.io/github/stars/HIPS/Spearmint.svg?style=flat-square)                  |"
+        confidence: high
+metadata:
+  github:
+    stars: 1568
+    forks: 328
+    license: NOASSERTION
+    archived: false
+    created_at: "2014-08-05T18:13:16Z"
+    pushed_at: "2019-12-27T21:30:17Z"
+    description: Spearmint Bayesian optimization codebase
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:02:34.308Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:34.308Z"
+      bytes: 3381
+insights:
+  summary: Spearmint is a Python-based software package for performing Bayesian optimization to automatically tune parameters and minimize an objective function.
+  why_it_matters: It provides a structured way to automate hyperparameter tuning for machine learning algorithms, reducing the manual trial-and-error typically required in model training.
+  mental_damage: Yet another reminder that while we automate the tuning of learning algorithms, we still manually tweak our own learning rates on new frameworks like this one.
+  tags:
+    - bayesian-optimization
+    - automl
+    - python
+    - hyperparameter-tuning
+  confidence: high
+curation:
+  status: excluded
+  reason: The project is a general machine learning research tool for Bayesian optimization, not a developer-facing AI tool, agent, or infrastructure component for software development.
+  evidence:
+    - Repo description defines it as a 'Bayesian optimization codebase', a general ML research tool.
+    - README describes usage for tuning ML algorithm parameters, not for coding workflows or app building.
+    - Listing in Awesome-LLMOps is under 'AutoML', which is outside the catalog's scope of developer tooling.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1568) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.696Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:34.308Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:24:02.631Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

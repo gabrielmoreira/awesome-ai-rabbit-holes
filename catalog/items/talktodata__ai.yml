@@ -1,0 +1,76 @@
+id: talktodata__ai
+kind: website
+name: talktodata.ai
+canonical_url: https://talktodata.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__talktodata__ai__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - TalktoData
+        anchor_text: TalktoData
+        extracted_url: https://talktodata.ai
+        surrounding_text: "## [TalktoData](https://talktodata.ai/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A browser-first SaaS product that connects to SQL databases and spreadsheets to answer natural language questions with instant visualizations and reports.
+  why_it_matters: It allows developers and analysts to interrogate structured data and generate visualizations without writing SQL or building custom dashboarding tools.
+  mental_damage: Yet another 'AI Data Analyst' arrives to ensure that data professionals can spend even more time debating whether they will be replaced by a chatbot.
+  tags:
+    - data-analysis
+    - natural-language
+    - visualization
+    - saas
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a business intelligence SaaS for end-users and analysts, not a developer-facing tool for coding, app building, or infrastructure.
+  evidence:
+    - Primary page excerpt describes connecting to SQL/spreadsheets to 'get answers & elegant visualizations' for business users, not developers.
+    - Listed in awesome-ai-agents under a data analyst section, but the product functions as a no-code BI tool rather than a coding agent.
+    - No GitHub repo, code-first SDK, IDE plugin, or developer workflow automation surface is present in the provided context.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.731Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:48:35.604Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

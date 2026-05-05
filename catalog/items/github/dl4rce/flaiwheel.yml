@@ -1,0 +1,82 @@
+id: github__dl4rce__flaiwheel
+kind: github-repo
+name: flaiwheel
+canonical_url: https://github.com/dl4rce/flaiwheel
+identity:
+  github_repo: dl4rce/flaiwheel
+provenance:
+  discoveries:
+    - id: discovery__github__dl4rce__flaiwheel__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: dl4rce/flaiwheel
+        extracted_url: https://github.com/dl4rce/flaiwheel
+        surrounding_text: "- [dl4rce/flaiwheel](https://github.com/dl4rce/flaiwheel) [![flaiwheel MCP server](https://glama.ai/mcp/servers/dl4rce/flaiwheel/badges/score.svg)](https://glama.ai/mcp/servers/dl4rce/flaiwheel) 🐍 🏠 🍎 🪟 🐧 - Self-hosted memory and governance layer for AI coding agents. 28 MCP tools with structured knowledge capture, hybrid search (semantic + BM25 + cross-encoder reranking), behavioral documentation nudges, cold-start codebase analyzer, and git-native storage. Single Docker container, zero cloud dependencies."
+        confidence: high
+metadata:
+  github:
+    stars: 2
+    forks: 0
+    license: NOASSERTION
+    archived: false
+    created_at: "2026-02-25T14:18:44Z"
+    pushed_at: "2026-05-03T20:27:41Z"
+    description: MCP Docs Vector - Documentation vectorization and search via MCP
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:01:54.392Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:54.392Z"
+      bytes: 41165
+insights:
+  summary: A self-hosted MCP server that vectorizes project documentation and acts as a persistent memory and governance layer for AI coding agents.
+  why_it_matters: It gives AI assistants long-term memory and enforces documentation workflows so teams don't repeat the same bugs and architectural mistakes across sessions.
+  mental_damage: We have finally built infrastructure to ensure the AI remembers exactly how it broke production last time, which is admittedly more than we usually do for human onboarding.
+  tags:
+    - mcp
+    - memory
+    - vector-search
+    - self-hosted
+    - governance
+  confidence: medium
+curation:
+  status: included
+  reason: The project is a standalone MCP server that provides documentation vectorization and memory tooling, fitting cleanly into MCP infrastructure rather than being just an extension of a specific coding agent.
+  evidence:
+    - Repo description explicitly states 'MCP Docs Vector - Documentation vectorization and search via MCP'.
+    - README confirms it 'Provides an MCP server that AI agents (Cursor, Claude Code, VS Code Copilot) connect to'.
+    - Listed in awesome-mcp-servers under Server Implementations > Knowledge & Memory.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.685Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:54.392Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:16:34.853Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

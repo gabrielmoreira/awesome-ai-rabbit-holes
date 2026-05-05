@@ -1,0 +1,94 @@
+id: github__kevinswint__xcode-studio-mcp
+kind: github-repo
+name: xcode-studio-mcp
+canonical_url: https://github.com/kevinswint/xcode-studio-mcp
+identity:
+  github_repo: kevinswint/xcode-studio-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__kevinswint__xcode-studio-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: kevinswint/xcode-studio-mcp
+        extracted_url: https://github.com/kevinswint/xcode-studio-mcp
+        surrounding_text: "- [kevinswint/xcode-studio-mcp](https://github.com/kevinswint/xcode-studio-mcp) [![kevinswint/xcode-studio-mcp MCP server](https://glama.ai/mcp/servers/kevinswint/xcode-studio-mcp/badges/score.svg)](https://glama.ai/mcp/servers/kevinswint/xcode-studio-mcp) 📇 🏠 🍎 - Unified MCP server for iOS development — build, run, screenshot, and interact with iOS Simulator."
+        confidence: high
+metadata:
+  github:
+    stars: 7
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2026-04-02T23:04:11Z"
+    pushed_at: "2026-04-04T17:44:01Z"
+    description: Unified MCP server for AI-assisted iOS development — build, deploy, screenshot, and interact with iOS Simulator from Claude Code, Cursor, or any MCP client
+    homepage: https://github.com/kevinswint/xcode-studio-mcp
+    topics:
+      - ai-coding
+      - claude-code
+      - cursor
+      - ios-development
+      - ios-simulator
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - simulator-automation
+      - swift
+      - xcode
+      - xcodebuild
+    last_checked_at: "2026-05-05T21:03:04.638Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:04.638Z"
+      bytes: 5561
+insights:
+  summary: An MCP server built in Swift that lets AI agents build, run, and interact with iOS Simulator apps from Claude Code, Cursor, or other MCP clients.
+  why_it_matters: It closes the loop for AI-assisted iOS development by combining Xcode build tooling and simulator UI interaction into a single server that agents can actually drive.
+  mental_damage: We have now successfully automated the entire iOS development lifecycle, leaving us with plenty of free time to argue about whether tap coordinates should be absolute or relative.
+  tags:
+    - mcp
+    - ios
+    - xcode
+    - simulator
+    - swift
+  confidence: high
+curation:
+  status: included
+  reason: This is a purpose-built MCP server that extends AI coding tools with iOS build and simulator automation, fitting cleanly into MCP infrastructure.
+  evidence:
+    - Repo description explicitly states it is a unified MCP server for AI-assisted iOS development.
+    - README confirms it implements MCP tools (xcode_build, simulator_tap, etc.) and configures directly into Claude Code and Cursor.
+    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.701Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:04.638Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:30:33.866Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

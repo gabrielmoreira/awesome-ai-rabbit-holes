@@ -1,0 +1,76 @@
+id: jan__ai
+kind: website
+name: jan.ai
+canonical_url: https://jan.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__jan__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Local LLM Tools
+        anchor_text: Jan
+        extracted_url: https://jan.ai
+        surrounding_text: "- **[Jan](https://jan.ai/)** – Open-source, offline-first desktop app for running LLMs locally with a ChatGPT-like interface."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Jan is a desktop application that allows developers to run large language models locally on their own hardware.
+  why_it_matters: It provides a local, privacy-focused alternative to hosted AI chat interfaces, enabling developers to experiment with models without sending data to third-party APIs.
+  mental_damage: Yet another reason to justify buying a GPU with 24GB of VRAM that will be obsolete by the time you finish installing the dependencies.
+  tags:
+    - local-ai
+    - llm
+    - desktop
+    - privacy
+  confidence: medium
+curation:
+  status: included
+  reason: The project is a desktop interface for running local LLMs, which fits the Local AI category for running models on your own hardware.
+  evidence:
+    - Source URL is https://jan.ai, indicating a desktop/local tool.
+    - Listed in awesome-ai-coding-tools under the 'Local LLM Tools' section.
+    - No GitHub repo description or README was provided, but the site context and source list confirm the local execution focus.
+placement:
+  primary_category: local-ai
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.445Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T20:49:29.402Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+    next_retry_at: null

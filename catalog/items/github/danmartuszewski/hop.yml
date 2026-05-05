@@ -1,0 +1,88 @@
+id: github__danmartuszewski__hop
+kind: github-repo
+name: hop
+canonical_url: https://github.com/danmartuszewski/hop
+identity:
+  github_repo: danmartuszewski/hop
+provenance:
+  discoveries:
+    - id: discovery__github__danmartuszewski__hop__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🖥️ <a name="command-line"></a>Command Line
+        anchor_text: danmartuszewski/hop
+        extracted_url: https://github.com/danmartuszewski/hop
+        surrounding_text: "- [danmartuszewski/hop](https://github.com/danmartuszewski/hop) 🏎️ 🖥️ - Fast SSH connection manager with TUI dashboard and MCP server for discovering, searching, and executing commands on remote hosts."
+        confidence: high
+metadata:
+  github:
+    stars: 47
+    forks: 3
+    license: MIT
+    archived: false
+    created_at: "2026-02-03T06:01:36Z"
+    pushed_at: "2026-05-05T06:48:26Z"
+    description: Fast, elegant SSH connection manager with a TUI dashboard and MCP server
+    homepage: null
+    topics:
+      - cli
+      - devops
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - ssh
+    last_checked_at: "2026-05-05T21:01:46.305Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:46.305Z"
+      bytes: 18209
+insights:
+  summary: A fast SSH connection manager with a TUI dashboard that also exposes an MCP server for AI assistants to search connections and run commands on remote servers.
+  why_it_matters: It flattens complex SSH workflows into fuzzy-matched hops while giving AI agents a structured interface to safely manage infrastructure connections.
+  mental_damage: We have finally reached the point where the AI needs its own dedicated protocol just to figure out which server you forgot you were SSH'd into.
+  tags:
+    - ssh
+    - mcp
+    - cli
+    - tui
+    - devops
+  confidence: high
+curation:
+  status: included
+  reason: The project is primarily an SSH manager, but its explicit inclusion in awesome-mcp-servers and its built-in MCP server for AI assistant integration make it a clear fit for the MCP tooling category.
+  evidence:
+    - Repo description explicitly states it is an 'SSH connection manager with a TUI dashboard and MCP server'
+    - README features an 'MCP server' section allowing 'AI assistants to manage your servers'
+    - Listed in awesome-mcp-servers under 'Server Implementations > Command Line'
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.684Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:46.305Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:15:19.750Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

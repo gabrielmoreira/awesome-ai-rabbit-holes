@@ -1,0 +1,102 @@
+id: github__cdeust__cortex
+kind: github-repo
+name: cortex
+canonical_url: https://github.com/cdeust/cortex
+identity:
+  github_repo: cdeust/cortex
+provenance:
+  discoveries:
+    - id: discovery__github__cdeust__cortex__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: cdeust/Cortex
+        extracted_url: https://github.com/cdeust/cortex
+        surrounding_text: "- [cdeust/Cortex](https://github.com/cdeust/Cortex) [![badge](https://glama.ai/mcp/servers/cdeust/Cortex/badge)](https://glama.ai/mcp/servers/cdeust/Cortex) 🐍 🏠 🍎 - Persistent memory for Claude Code grounded in computational neuroscience (41 cited papers). Thermodynamic decay, hippocampal-cortical consolidation, predictive-coding write gate, WRRF retrieval. PostgreSQL + pgvector, 33 MCP tools, 7 lifecycle hooks. Benchmarked 97.8% R@10 on LongMemEval. `claude plugin marketplace add cdeust/Cortex`"
+        confidence: high
+metadata:
+  github:
+    stars: 26
+    forks: 8
+    license: NOASSERTION
+    archived: false
+    created_at: "2026-03-18T11:24:37Z"
+    pushed_at: "2026-05-05T18:23:28Z"
+    description: Persistent memory for Claude Code — 41 neuroscience papers, 26 biological mechanisms with paper-bearing per-mechanism ablation evidence (E1 v3). LongMemEval R@10 98.4% / MRR 0.9124 (n=500). LoCoMo R@10 94.2% / MRR 0.8278 (n=1986). BEAM-10M +33.4% over flat retrieval. PostgreSQL + pgvector. Verified via 31-row two-benchmark ablation campaign.
+    homepage: https://ai-architect.tools
+    topics:
+      - agent-memory-system
+      - anthropic
+      - artificial-intelligence
+      - causal-inference
+      - claude
+      - claude-code
+      - claude-code-plugin
+      - cognitive-architecture
+      - cognitive-science
+      - episodic-memory
+      - hopfield-network
+      - llm-memory
+      - long-term-memory
+      - mcp-server
+      - model-context-protocol
+      - neuroscience
+      - persistent-memory
+      - predictive-coding
+      - retrieval-augmented-generation
+      - vector-search
+    last_checked_at: "2026-05-05T21:01:31.129Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:31.129Z"
+      bytes: 36381
+insights:
+  summary: A persistent memory engine and MCP server for Claude Code that uses neuroscience-inspired mechanisms to store, consolidate, and retrieve long-term project context using PostgreSQL and pgvector.
+  why_it_matters: It solves the session-amnesia problem in Claude Code by automatically capturing architecture decisions, debugging sessions, and code context so developers don't have to re-explain their entire project every time they open a new tab.
+  mental_damage: We have now reached the point where we are reverse-engineering the human hippocampus and wiring it into pgvector just so our coding assistant can remember that we decided against event sourcing three weeks ago.
+  tags:
+    - claude-code
+    - memory
+    - mcp
+    - neuroscience
+    - context-retrieval
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly a memory layer and MCP server that extends Claude Code with persistent context, fitting the AI Developer Extensions category rather than being a primary coding agent itself.
+  evidence:
+    - "Repo description: 'Persistent memory for Claude Code' with 47 MCP tools and 9 automatic hooks."
+    - README states it is 'a persistent memory engine for Claude Code' that augments the assistant with neuroscience-backed recall.
+    - Listed in awesome-mcp-servers under Knowledge & Memory, confirming its role as an extension/infrastructure piece.
+placement:
+  primary_category: ai-dev-extensions
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.682Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:31.129Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:12:37.716Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

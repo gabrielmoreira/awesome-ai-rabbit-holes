@@ -1,0 +1,76 @@
+id: www__getinboxzero__com
+kind: website
+name: www.getinboxzero.com
+canonical_url: https://www.getinboxzero.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__getinboxzero__com__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Inbox Zero
+        extracted_url: https://www.getinboxzero.com
+        surrounding_text: "- **[Inbox Zero](https://github.com/elie222/inbox-zero/tree/main/apps/mcp-server)** - AI personal assistant for email [Inbox Zero](https://www.getinboxzero.com)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: An open-source AI email assistant that automates inbox management, drafts replies, and provides analytics for Gmail and Outlook.
+  why_it_matters: It offers developers an open-source, self-hostable option to automate email triage and drafting rather than relying on closed-loop proprietary assistants.
+  mental_damage: We have successfully automated the inbox so we can spend the saved hour debugging why the AI drafted a passive-aggressive reply to our biggest client.
+  tags:
+    - email-automation
+    - open-source
+    - ai-assistant
+    - productivity
+  confidence: high
+curation:
+  status: excluded
+  reason: While it is an open-source AI tool, it is an end-user email productivity product, not a developer tool for coding, infrastructure, or app building.
+  evidence:
+    - Product is described as an 'AI executive assistant' for email, calendar, and inbox management, not source code.
+    - Source-list context shows it in awesome-mcp-servers, but the tool itself is a user-facing email SaaS, not MCP infrastructure.
+    - Target audience and use cases are executives, founders, and support teams, not software development workflows.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.732Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:50:57.450Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

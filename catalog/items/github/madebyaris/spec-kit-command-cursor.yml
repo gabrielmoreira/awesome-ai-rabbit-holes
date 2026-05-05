@@ -1,0 +1,93 @@
+id: github__madebyaris__spec-kit-command-cursor
+kind: github-repo
+name: spec-kit-command-cursor
+canonical_url: https://github.com/madebyaris/spec-kit-command-cursor
+identity:
+  github_repo: madebyaris/spec-kit-command-cursor
+provenance:
+  discoveries:
+    - id: discovery__github__madebyaris__spec-kit-command-cursor__awesome-list__engineering4ai__awesome-spec-driven-development
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: Engineering4AI/awesome-spec-driven-development
+        url: https://github.com/engineering4ai/awesome-spec-driven-development
+        repository: Engineering4AI/awesome-spec-driven-development
+      extraction:
+        mode: parsed
+        section_path:
+          - IDE & Editor Integrations
+        anchor_text: spec-kit-command-cursor
+        extracted_url: https://github.com/madebyaris/spec-kit-command-cursor
+        surrounding_text: "- [spec-kit-command-cursor](https://github.com/madebyaris/spec-kit-command-cursor) ![](https://img.shields.io/github/stars/madebyaris/spec-kit-command-cursor.svg) - Spec-driven development toolkit for Cursor IDE that turns ideas into specs, plans, and actionable tasks."
+        confidence: high
+metadata:
+  github:
+    stars: 177
+    forks: 20
+    license: MIT
+    archived: false
+    created_at: "2025-09-19T05:47:57Z"
+    pushed_at: "2026-05-01T13:50:25Z"
+    description: SDD toolkit for Cursor IDE — /specify, /plan, /tasks to turn ideas into specs, plans, and actionable tasks.
+    homepage: https://github.com/madebyaris/spec-kit-command-cursor
+    topics:
+      - ai-workflow
+      - cursor
+      - cursor-commands
+      - developer-tools
+      - documentation
+      - github-spec-kit
+      - planning
+      - project-management
+      - sdd
+      - spec-driven-development
+      - specifications
+      - tasks
+      - templates
+    last_checked_at: "2026-05-05T21:03:27.060Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:27.060Z"
+      bytes: 12423
+insights:
+  summary: A Cursor IDE command pack that adds spec-driven development workflows via slash commands like /specify, /plan, and /execute-parallel to turn ideas into structured specs, task breakdowns, and implemented code.
+  why_it_matters: It lets developers enforce a spec-first discipline inside Cursor, replacing ad-hoc prompting with structured briefs, dependency-aware task graphs, and checkpointed execution.
+  mental_damage: Now you can over-engineer a five-file specification for a login form before you’ve written a single line of code, which is definitely not just procrastination if you call it SDD.
+  tags:
+    - cursor
+    - spec-driven-development
+    - slash-commands
+    - rules-pack
+  confidence: high
+curation:
+  status: included
+  reason: The primary artifact is a reusable command and rules pack distributed for Cursor IDE, which maps directly to the skills category rather than a standalone coding agent.
+  evidence:
+    - Repo description explicitly calls it an 'SDD toolkit for Cursor IDE' with slash commands like /specify, /plan, and /tasks.
+    - README shows distributable plugin packaging via .cursor-plugin/ and commands that extend Cursor's agent runtime.
+    - Listed in awesome-spec-driven-development under IDE & Editor Integrations, confirming its role as a host extension layer.
+placement:
+  primary_category: skills
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (177) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.705Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:27.060Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:35:13.557Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,82 @@
+id: github__laris-co__multi-agent-workflow-kit
+kind: github-repo
+name: multi-agent-workflow-kit
+canonical_url: https://github.com/laris-co/multi-agent-workflow-kit
+identity:
+  github_repo: laris-co/multi-agent-workflow-kit
+provenance:
+  discoveries:
+    - id: discovery__github__laris-co__multi-agent-workflow-kit__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Session managers & parallel runners
+        anchor_text: multi-agent-workflow-kit
+        extracted_url: https://github.com/laris-co/multi-agent-workflow-kit
+        surrounding_text: "- **[multi-agent-workflow-kit](https://github.com/laris-co/multi-agent-workflow-kit)** `⭐ 9` — Orchestrate parallel AI agents in isolated git worktrees with shared tmux visibility."
+        confidence: high
+metadata:
+  github:
+    stars: 9
+    forks: 20
+    license: null
+    archived: false
+    created_at: "2025-10-04T02:20:26Z"
+    pushed_at: "2025-10-10T14:44:28Z"
+    description: Reusable toolkit for tmux + git worktree multi-agent workflows
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:03:17.134Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:17.134Z"
+      bytes: 8958
+insights:
+  summary: A CLI toolkit that orchestrates parallel AI coding agents inside isolated git worktrees with shared tmux visibility for supervisor control.
+  why_it_matters: It lets developers run multiple AI agents on separate branches simultaneously and manage them from a single terminal session instead of juggling multiple windows.
+  mental_damage: Finally, a way to scale your context-switching anxiety from one chaotic AI assistant to three at once, neatly arranged in tmux panes.
+  tags:
+    - multi-agent
+    - tmux
+    - git-worktree
+    - cli
+    - orchestration
+  confidence: medium
+curation:
+  status: included
+  reason: The toolkit is a CLI surface that helps developers coordinate multiple coding agents inside a repo workflow using git worktrees and tmux, which fits the Terminal & CLI Agents section of coding-agents.
+  evidence:
+    - Repo description states it is a 'Reusable toolkit for tmux + git worktree multi-agent workflows'.
+    - README explains it runs multiple AI coding agents simultaneously with isolated branches and a single tmux session for supervision.
+    - Listed in awesome-cli-coding-agents under 'Harnesses & orchestration > Session managers & parallel runners'.
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.703Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:17.134Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:33:18.603Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

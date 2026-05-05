@@ -1,0 +1,101 @@
+id: github__opencode-ai__opencode
+kind: github-repo
+name: opencode
+canonical_url: https://github.com/opencode-ai/opencode
+identity:
+  github_repo: opencode-ai/opencode
+provenance:
+  discoveries:
+    - id: discovery__github__opencode-ai__opencode__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Coding Agents
+        anchor_text: OpenCode
+        extracted_url: https://github.com/opencode-ai/opencode
+        surrounding_text: "- **[OpenCode](https://github.com/opencode-ai/opencode)** – Open-source terminal AI agent (95K+ GitHub stars) supporting 75+ providers. Free, privacy-first, with LSP integration."
+        confidence: high
+    - id: discovery__github__opencode-ai__opencode__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 代码 Coding
+        anchor_text: OpenCode
+        extracted_url: https://github.com/opencode-ai/opencode
+        surrounding_text: 18. [OpenCode](https://github.com/opencode-ai/opencode)
+        confidence: high
+metadata:
+  github:
+    stars: 12357
+    forks: 1318
+    license: MIT
+    archived: true
+    created_at: "2025-03-16T23:38:55Z"
+    pushed_at: "2025-09-18T02:54:28Z"
+    description: A powerful AI coding agent. Built for the terminal.
+    homepage: ""
+    topics:
+      - ai
+      - claude
+      - code
+      - llm
+      - openai
+    last_checked_at: "2026-05-05T21:04:05.176Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:05.176Z"
+      bytes: 24456
+insights:
+  summary: A terminal-based AI coding agent built in Go that provides an interactive TUI for interacting with multiple AI models to assist with coding, debugging, and file manipulation.
+  why_it_matters: It offers developers a CLI-native workflow to leverage various LLMs (OpenAI, Anthropic, Gemini, etc.) for coding tasks directly in the terminal with session management and LSP integration.
+  mental_damage: You can now switch to the 'fastest AI coder' and experience the thrill of watching a terminal UI debug itself right before the maintainer archives the repo to rebrand it.
+  tags:
+    - cli
+    - terminal
+    - tui
+    - coding-agent
+    - llm
+  confidence: high
+curation:
+  status: excluded
+  reason: The repository is explicitly archived with a notice that development has moved to a new project (Crush), making the current entry obsolete.
+  evidence:
+    - "Repo status is 'archived: yes' with a README banner stating 'This repository is no longer maintained'."
+    - README confirms the project has moved to 'Crush' developed by the original author and Charm team.
+    - Created in March 2025 but immediately sunset into the new 'Crush' iteration.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: needs_review
+  reason: Repository is archived
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.670Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:05.176Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:42:38.190Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

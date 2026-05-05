@@ -1,0 +1,81 @@
+id: github__aktsmm__skill-ninja-mcp-server
+kind: github-repo
+name: skill-ninja-mcp-server
+canonical_url: https://github.com/aktsmm/skill-ninja-mcp-server
+identity:
+  github_repo: aktsmm/skill-ninja-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__aktsmm__skill-ninja-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: aktsmm/skill-ninja-mcp-server
+        extracted_url: https://github.com/aktsmm/skill-ninja-mcp-server
+        surrounding_text: "- [aktsmm/skill-ninja-mcp-server](https://github.com/aktsmm/skill-ninja-mcp-server) 📇 🏠 🍎 🪟 🐧 - Agent Skill Ninja for MCP: Search, install, and manage AI agent skills (SKILL.md files) from GitHub repositories. Features workspace analysis for personalized recommendations and supports 140+ pre-indexed skills."
+        confidence: high
+metadata:
+  github:
+    stars: 10
+    forks: 2
+    license: NOASSERTION
+    archived: false
+    created_at: "2026-01-05T10:31:53Z"
+    pushed_at: "2026-02-23T04:38:55Z"
+    description: MCP Server for Agent Skill Ninja - Search, Install, and Manage Agent Skills
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:00:56.768Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:56.768Z"
+      bytes: 763
+insights:
+  summary: An MCP server that lets developers search, install, and manage reusable AI agent skills from within MCP-compatible clients like Claude Desktop and Cursor.
+  why_it_matters: It turns agent skills into a browsable, installable ecosystem, reducing the friction of discovering and reusing shared capabilities across AI coding environments.
+  mental_damage: Finally, a package manager for the cursed little prompt bundles we’ve all been copy-pasting between clients and pretending are a real workflow.
+  tags:
+    - mcp
+    - skills
+    - agent-skills
+    - developer-tools
+  confidence: medium
+curation:
+  status: included
+  reason: The project is a Model Context Protocol server focused on skill management, which clearly fits the MCP infrastructure category rather than coding agents or skills directly.
+  evidence:
+    - Repo description states it is an 'MCP Server for Agent Skill Ninja - Search, Install, and Manage Agent Skills'.
+    - README confirms it is an MCP server for managing skills, working with Claude Desktop, Cursor, and VS Code.
+    - Listed under Server Implementations > Developer Tools in the awesome-mcp-servers directory.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.677Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:56.768Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:07:09.609Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,114 @@
+id: github__efforthye__fast-filesystem-mcp
+kind: github-repo
+name: fast-filesystem-mcp
+canonical_url: https://github.com/efforthye/fast-filesystem-mcp
+identity:
+  github_repo: efforthye/fast-filesystem-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__efforthye__fast-filesystem-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📂 <a name="file-systems"></a>File Systems
+        anchor_text: efforthye/fast-filesystem-mcp
+        extracted_url: https://github.com/efforthye/fast-filesystem-mcp
+        surrounding_text: "- [efforthye/fast-filesystem-mcp](https://github.com/efforthye/fast-filesystem-mcp) 📇 🏠 🍎 🪟 🐧 - Advanced filesystem operations with large file handling capabilities and Claude-optimized features. Provides fast file reading/writing, sequential reading for large files, directory operations, file search, and streaming writes with backup & recovery."
+        confidence: high
+    - id: discovery__github__efforthye__fast-filesystem-mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: fast-filesystem-mcp
+        extracted_url: https://github.com/efforthye/fast-filesystem-mcp
+        surrounding_text: "- **[fast-filesystem-mcp](https://github.com/efforthye/fast-filesystem-mcp)** - Advanced filesystem operations with large file handling capabilities and Claude-optimized features. Provides fast file reading/writing, sequential reading for large files, directory operations, file search, and streaming writes with backup & recovery."
+        confidence: high
+metadata:
+  github:
+    stars: 50
+    forks: 18
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-08-14T01:58:35Z"
+    pushed_at: "2026-05-02T23:24:25Z"
+    description: A high-performance Model Context Protocol (MCP) server that provides secure filesystem access for Claude and other AI assistants.
+    homepage: https://fast-filesystem-mcp.vercel.app
+    topics:
+      - ai-assistant
+      - ai-tools
+      - anthropic
+      - automation
+      - backup
+      - claude
+      - claude-desktop
+      - developer-tools
+      - fast
+      - file-operations
+      - filesystem
+      - large-files
+      - mcp
+      - mcp-server
+      - nodejs
+      - streaming
+      - typescript
+    last_checked_at: "2026-05-05T21:02:00.127Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:00.127Z"
+      bytes: 9293
+insights:
+  summary: A high-performance Model Context Protocol (MCP) server that provides secure filesystem access with large file handling, streaming, and backup capabilities for Claude and other AI assistants.
+  why_it_matters: It gives AI assistants the ability to safely perform complex file operations like chunked reading, streaming writes, and directory synchronization directly within a developer's filesystem.
+  mental_damage: We have now successfully abstracted away the act of typing 'rm -rf' into a JSON-configured MCP server with retry logic and timestamped backups, just in case the AI needs a safety net for its existential file management crises.
+  tags:
+    - mcp
+    - filesystem
+    - claude
+    - developer-tools
+    - nodejs
+  confidence: high
+curation:
+  status: included
+  reason: The project is a Model Context Protocol server designed to extend AI assistants with advanced filesystem operations, which fits cleanly into the MCP infrastructure category.
+  evidence:
+    - Repo description explicitly states it is 'A high-performance Model Context Protocol (MCP) server'.
+    - Listed in awesome-mcp-servers under 'Server Implementations > File Systems'.
+    - README details specific MCP tools like fast_read_file, fast_write_file, and fast_sync_directories.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.665Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:00.127Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:17:37.900Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

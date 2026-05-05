@@ -1,0 +1,131 @@
+id: github__ludwig-ai__ludwig
+kind: github-repo
+name: ludwig
+canonical_url: https://github.com/ludwig-ai/ludwig
+identity:
+  github_repo: ludwig-ai/ludwig
+provenance:
+  discoveries:
+    - id: discovery__github__ludwig-ai__ludwig__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: janhq/awesome-local-ai
+        url: https://github.com/janhq/awesome-local-ai
+        repository: janhq/awesome-local-ai
+      extraction:
+        mode: parsed
+        section_path:
+          - Training
+        anchor_text: Ludwig
+        extracted_url: https://github.com/ludwig-ai/ludwig
+        surrounding_text: "- [Ludwig](https://github.com/ludwig-ai/ludwig) - Low-code framework for building custom LLMs, neural networks, and other AI models."
+        confidence: high
+    - id: discovery__github__ludwig-ai__ludwig__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 微调 Fine-Tuning
+        anchor_text: Ludwig
+        extracted_url: https://github.com/ludwig-ai/ludwig
+        surrounding_text: "12. [Ludwig](https://github.com/ludwig-ai/ludwig): Low-code framework for building custom LLMs, neural networks, and other AI models."
+        confidence: high
+    - id: discovery__github__uber__ludwig__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - AutoML
+        anchor_text: Ludwig
+        extracted_url: https://github.com/uber/ludwig
+        surrounding_text: "| [Ludwig](https://github.com/uber/ludwig)                                     | a toolbox built on top of TensorFlow that allows to train and test deep learning models without the need to write code.                                                         | ![GitHub Badge](https://img.shields.io/github/stars/uber/ludwig.svg?style=flat-square)                     |"
+        confidence: high
+metadata:
+  github:
+    stars: 11685
+    forks: 1216
+    license: Apache-2.0
+    archived: false
+    created_at: "2018-12-27T23:58:12Z"
+    pushed_at: "2026-05-05T20:25:41Z"
+    description: Low-code framework for building custom LLMs, neural networks, and other AI models
+    homepage: http://ludwig.ai
+    topics:
+      - computer-vision
+      - data-centric
+      - data-science
+      - deep
+      - deep-learning
+      - deeplearning
+      - fine-tuning
+      - learning
+      - llama
+      - llama2
+      - llm
+      - llm-training
+      - machine-learning
+      - machinelearning
+      - mistral
+      - ml
+      - natural-language
+      - natural-language-processing
+      - neural-network
+      - pytorch
+    last_checked_at: "2026-05-05T21:03:25.442Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:25.442Z"
+      bytes: 18861
+insights:
+  summary: A low-code, declarative deep learning framework for building and fine-tuning custom AI models like LLMs using YAML configuration and PyTorch.
+  why_it_matters: It lets developers define and train state-of-the-art LLMs and neural networks through config files rather than wiring together low-level PyTorch code manually.
+  mental_damage: Yet another reminder that 'low-code' still demands you understand batch sizes, quantization strategies, and why your LoRA adapter merged into a singular point of existential dread.
+  tags:
+    - llm-training
+    - fine-tuning
+    - pytorch
+    - deep-learning
+    - yaml
+  confidence: high
+curation:
+  status: included
+  reason: This is a code-first framework and SDK for building AI models, fitting squarely into developer tooling for ML infrastructure rather than application coding assistants.
+  evidence:
+    - Repo description explicitly calls it a 'Low-code framework for building custom LLMs, neural networks, and other AI models'.
+    - README states it is a 'Declarative deep learning framework' using Python/PyTorch with YAML configs for training and serving.
+    - Appears in 'awesome-local-ai' under Training and 'awesome-LLM-resources' under Fine-Tuning, confirming its ML infrastructure role.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (11685) exceeded threshold (150)
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:34:54.369Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.722Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:25.442Z"
+    cause: null
+    next_retry_at: null

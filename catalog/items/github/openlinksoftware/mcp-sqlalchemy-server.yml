@@ -1,0 +1,82 @@
+id: github__openlinksoftware__mcp-sqlalchemy-server
+kind: github-repo
+name: mcp-sqlalchemy-server
+canonical_url: https://github.com/openlinksoftware/mcp-sqlalchemy-server
+identity:
+  github_repo: openlinksoftware/mcp-sqlalchemy-server
+provenance:
+  discoveries:
+    - id: discovery__github__openlinksoftware__mcp-sqlalchemy-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🗄️ <a name="databases"></a>Databases
+        anchor_text: openlink/mcp-server-sqlalchemy
+        extracted_url: https://github.com/openlinksoftware/mcp-sqlalchemy-server
+        surrounding_text: "- [openlink/mcp-server-sqlalchemy](https://github.com/OpenLinkSoftware/mcp-sqlalchemy-server) 🐍 🏠 - An MCP server for generic Database Management System (DBMS) Connectivity via SQLAlchemy using Python ODBC (pyodbc)"
+        confidence: high
+metadata:
+  github:
+    stars: 23
+    forks: 10
+    license: MIT
+    archived: false
+    created_at: "2025-03-21T23:22:23Z"
+    pushed_at: "2025-05-23T16:12:57Z"
+    description: A simple MCP ODBC server using FastAPI, ODBC and SQLAlchemy.
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:04:06.413Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:06.413Z"
+      bytes: 10641
+insights:
+  summary: A lightweight MCP server built with FastAPI and SQLAlchemy that exposes database schemas, tables, and query execution capabilities to MCP-compatible AI clients via ODBC.
+  why_it_matters: Developers can connect AI assistants like Claude Desktop directly to Virtuoso, PostgreSQL, MySQL, or SQLite instances to inspect schemas and run queries without leaving their chat interface.
+  mental_damage: We have successfully abstracted SQL behind an AI chat interface, yet we still have to hand-write ODBC DSN configurations in INI files like it's 1999.
+  tags:
+    - mcp
+    - database
+    - odbc
+    - sqlalchemy
+    - fastapi
+  confidence: high
+curation:
+  status: included
+  reason: This is a specialized MCP server implementation that connects AI tools to databases via ODBC/SQLAlchemy, cleanly fitting the MCP infrastructure category.
+  evidence:
+    - "Repo description explicitly states: 'A simple MCP ODBC server using FastAPI, ODBC and SQLAlchemy.'"
+    - "README details MCP server features: Get Schemas, Get Tables, Execute Queries, and configuration for Claude Desktop via mcpServers JSON."
+    - Listed in awesome-mcp-servers under 'Server Implementations > Databases' section.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.711Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:06.413Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:42:48.564Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

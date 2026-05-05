@@ -1,0 +1,100 @@
+id: github__instill-ai__vdp
+kind: github-repo
+name: vdp
+canonical_url: https://github.com/instill-ai/vdp
+identity:
+  github_repo: instill-ai/vdp
+provenance:
+  discoveries:
+    - id: discovery__github__instill-ai__vdp__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Large Scale Deployment
+          - Workflow
+        anchor_text: VDP
+        extracted_url: https://github.com/instill-ai/vdp
+        surrounding_text: "| [VDP](https://github.com/instill-ai/vdp)                     | An open-source unstructured data ETL tool to streamline the end-to-end unstructured data processing pipeline.     | ![GitHub Badge](https://img.shields.io/github/stars/instill-ai/vdp.svg?style=flat-square)          |"
+        confidence: high
+metadata:
+  github:
+    stars: 2309
+    forks: 126
+    license: NOASSERTION
+    archived: false
+    created_at: "2022-01-13T13:27:40Z"
+    pushed_at: "2026-05-04T05:37:19Z"
+    description: 🔮 Instill Core is a full-stack AI infrastructure tool for data, model and pipeline orchestration, designed to streamline every aspect of building versatile AI-first applications
+    homepage: https://www.instill-ai.com
+    topics:
+      - ai
+      - api
+      - cli
+      - developer-tools
+      - etl
+      - generative-ai
+      - golang
+      - gpt
+      - hacktoberfest
+      - llm
+      - low-code
+      - no-code
+      - open-source
+      - pipeline
+      - python
+      - stable-diffusion
+      - typescript
+      - unstructured-data
+    last_checked_at: "2026-05-05T21:02:44.872Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:44.872Z"
+      bytes: 10906
+insights:
+  summary: Instill Core is an open-source, full-stack AI infrastructure platform for orchestrating data pipelines, deploying models, and building AI-first applications with support for unstructured data and RAG.
+  why_it_matters: It provides developers with a self-hosted, low-code alternative to managed AI platforms for handling the full lifecycle of data ETL, model serving, and pipeline orchestration.
+  mental_damage: Because what the modern developer truly craves is another all-in-one orchestration platform promising to solve the 'unstructured data' problem locally while the GPU fan spins like a jet engine.
+  tags:
+    - ai-infrastructure
+    - pipeline-orchestration
+    - llm
+    - rag
+    - self-hosted
+  confidence: high
+curation:
+  status: included
+  reason: The project is a code-first, open-source infrastructure stack (Go/Python/TypeScript) that developers import and deploy to build AI capabilities, fitting the framework/SDK definition rather than a hosted SaaS builder or agent.
+  evidence:
+    - Repo description defines it as a 'full-stack AI infrastructure tool for data, model and pipeline orchestration'.
+    - README states it is an 'end-to-end AI platform' for building versatile AI applications locally with ETL and RAG capabilities.
+    - Included in the Awesome-LLMOps list under 'Large Scale Deployment > Workflow', confirming its fit as operational AI infrastructure.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (2309) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.442Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:44.872Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:26:12.063Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

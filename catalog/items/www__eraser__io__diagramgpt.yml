@@ -1,0 +1,76 @@
+id: www__eraser__io__diagramgpt
+kind: website
+name: diagramgpt
+canonical_url: https://www.eraser.io/diagramgpt
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__eraser__io__diagramgpt__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Documentation
+        anchor_text: DiagramGPT (Eraser)
+        extracted_url: https://www.eraser.io/diagramgpt
+        surrounding_text: "- **[DiagramGPT (Eraser)](https://www.eraser.io/diagramgpt)** – Generate diagrams from code and text descriptions."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A browser-based AI tool that generates technical diagrams—including flowcharts, sequence diagrams, and cloud architecture diagrams—from plain English prompts or code snippets.
+  why_it_matters: It allows developers to rapidly scaffold documentation and architecture diagrams without manually wrestling with diagram-as-code syntax or drag-and-drop editors.
+  mental_damage: We have successfully automated the one part of engineering meetings where you could plausibly claim to be working while drawing boxes and arrows.
+  tags:
+    - diagrams
+    - documentation
+    - ai-generator
+    - architecture
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a documentation and diagramming SaaS tool, not a developer-facing coding agent, app builder, or infrastructure component.
+  evidence:
+    - The tool generates technical diagrams (flowcharts, ERDs, architecture diagrams) from text prompts rather than assisting with source code.
+    - It is a browser-first SaaS product ('DiagramGPT was created by the team at Eraser') focused on documentation, not coding workflows.
+    - It was listed in awesome-ai-coding-tools under the 'Documentation' section, indicating it supports developers but is not a coding assistant itself.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.732Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:50:39.881Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

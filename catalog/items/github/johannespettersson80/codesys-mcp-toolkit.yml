@@ -1,0 +1,81 @@
+id: github__johannespettersson80__codesys-mcp-toolkit
+kind: github-repo
+name: codesys-mcp-toolkit
+canonical_url: https://github.com/johannespettersson80/codesys-mcp-toolkit
+identity:
+  github_repo: johannespettersson80/codesys-mcp-toolkit
+provenance:
+  discoveries:
+    - id: discovery__github__johannespettersson80__codesys-mcp-toolkit__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: Codesys-mcp-toolkit
+        extracted_url: https://github.com/johannespettersson80/codesys-mcp-toolkit
+        surrounding_text: "- **[Codesys-mcp-toolkit](https://github.com/johannesPettersson80/codesys-mcp-toolkit)** - A Model Context Protocol (MCP) server for CODESYS V3 programming environments."
+        confidence: high
+metadata:
+  github:
+    stars: 79
+    forks: 19
+    license: MIT
+    archived: false
+    created_at: "2025-04-23T07:33:19Z"
+    pushed_at: "2025-05-24T19:04:54Z"
+    description: Model Context Protocol server for CODESYS automation platform
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:57.512Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:57.512Z"
+      bytes: 7937
+insights:
+  summary: A Model Context Protocol server that connects MCP clients like Claude Desktop to CODESYS V3 automation environments for project management, code editing, and compilation.
+  why_it_matters: It allows developers to automate industrial PLC programming tasks and manage CODESYS projects through natural language interactions with AI assistants.
+  mental_damage: We have successfully bridged the gap between cutting-edge LLMs and Python 2.7-based industrial scripting engines, proving that no legacy environment is safe from AI integration.
+  tags:
+    - mcp
+    - plc
+    - automation
+    - codesys
+    - ide-integration
+  confidence: high
+curation:
+  status: included
+  reason: The project is a dedicated MCP server designed to bridge AI clients with the CODESYS industrial automation platform, fitting the MCP infrastructure scope.
+  evidence:
+    - "Repo description explicitly states: 'Model Context Protocol server for CODESYS automation platform'"
+    - README describes an MCP server enabling interaction between MCP clients (like Claude Desktop) and CODESYS
+    - Listed in the 'awesome-mcp-servers' directory under 'Community Servers'
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.700Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:57.512Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:28:50.033Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

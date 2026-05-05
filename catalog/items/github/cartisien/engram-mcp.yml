@@ -1,0 +1,90 @@
+id: github__cartisien__engram-mcp
+kind: github-repo
+name: engram-mcp
+canonical_url: https://github.com/cartisien/engram-mcp
+identity:
+  github_repo: cartisien/engram-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__cartisien__engram-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: Cartisien/engram-mcp
+        extracted_url: https://github.com/cartisien/engram-mcp
+        surrounding_text: "- [Cartisien/engram-mcp](https://github.com/Cartisien/engram-mcp) [![engram-mcp MCP server](https://glama.ai/mcp/servers/Cartisien/engram-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Cartisien/engram-mcp) 📇 🏠 🍎 🪟 🐧 - Persistent semantic memory for AI agents. SQLite-backed, local-first, zero config. Semantic search via Ollama embeddings (nomic-embed-text) with keyword fallback. remember, recall, history, forget, and stats tools. Works with Claude Desktop, Cursor, and any MCP client."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-03-11T19:17:19Z"
+    pushed_at: "2026-04-20T02:08:44Z"
+    description: MCP server for @cartisien/engram — persistent semantic memory for AI agents
+    homepage: https://www.npmjs.com/package/@cartisien/engram-mcp
+    topics:
+      - ai
+      - ai-agents
+      - claude
+      - engram
+      - mcp
+      - memory
+      - model-context-protocol
+      - typescript
+    last_checked_at: "2026-05-05T21:01:30.551Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:30.551Z"
+      bytes: 2945
+insights:
+  summary: An MCP server that provides persistent semantic memory for AI agents by storing and recalling information in a local SQLite database using Ollama embeddings.
+  why_it_matters: It allows MCP-compatible clients like Claude Desktop and Cursor to maintain context and recall past interactions across sessions without relying on external cloud APIs.
+  mental_damage: We have successfully reached the point where our AI assistants need their own local databases just to pretend they remember who we are.
+  tags:
+    - mcp
+    - memory
+    - local-ai
+    - semantic-search
+    - typescript
+  confidence: high
+curation:
+  status: included
+  reason: The project is a Model Context Protocol server designed to integrate with AI clients, fitting perfectly into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states 'MCP server for @cartisien/engram — persistent semantic memory for AI agents'.
+    - README confirms it exposes tools to 'any MCP-compatible AI client (Claude Desktop, Cursor, Windsurf)'.
+    - Listed in the awesome-mcp-servers directory under 'Knowledge & Memory' implementations.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.682Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:30.551Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:12:31.729Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

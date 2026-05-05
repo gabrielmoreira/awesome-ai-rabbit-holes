@@ -1,0 +1,80 @@
+id: github__flowy11__imagician
+kind: github-repo
+name: imagician
+canonical_url: https://github.com/flowy11/imagician
+identity:
+  github_repo: flowy11/imagician
+provenance:
+  discoveries:
+    - id: discovery__github__flowy11__imagician__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: Imagician
+        extracted_url: https://github.com/flowy11/imagician
+        surrounding_text: "- **[Imagician](https://github.com/flowy11/imagician)** - A MCP server for comprehensive image editing operations including resizing, format conversion, cropping, compression, and more based on sharp."
+        confidence: high
+metadata:
+  github:
+    stars: 18
+    forks: 4
+    license: MIT
+    archived: false
+    created_at: "2025-08-04T22:38:49Z"
+    pushed_at: "2025-11-13T22:50:03Z"
+    description: A MCP server for image edition
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:12.695Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:12.695Z"
+      bytes: 4786
+insights:
+  summary: An MCP server for image editing that exposes operations like resizing, format conversion, cropping, and compression to AI assistants such as Claude Code and Cursor.
+  why_it_matters: It lets AI coding agents directly manipulate images in a project workflow without developers switching to external graphics tools or writing one-off scripts.
+  mental_damage: You now have an AI agent that can rotate your JPEGs, but it still cannot reliably center a div.
+  tags:
+    - mcp
+    - image-editing
+    - claude-code
+    - cursor
+  confidence: high
+curation:
+  status: included
+  reason: The project is an MCP server providing image editing tools to AI developer assistants, which cleanly fits the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description explicitly states: 'A MCP server for image edition'"
+    - README details a Model Context Protocol server with tools like resize_image, convert_format, and crop_image
+    - Includes setup instructions for Claude Code, Cursor, and Claude Desktop MCP configurations
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.687Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:12.695Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:19:48.117Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

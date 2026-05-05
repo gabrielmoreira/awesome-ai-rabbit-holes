@@ -1,0 +1,90 @@
+id: github__beltran12138__wecom-docs-mcp-server
+kind: github-repo
+name: wecom-docs-mcp-server
+canonical_url: https://github.com/beltran12138/wecom-docs-mcp-server
+identity:
+  github_repo: beltran12138/wecom-docs-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__beltran12138__wecom-docs-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💬 <a name="communication"></a>Communication
+        anchor_text: Beltran12138/wecom-docs-mcp-server
+        extracted_url: https://github.com/beltran12138/wecom-docs-mcp-server
+        surrounding_text: "- [Beltran12138/wecom-docs-mcp-server](https://github.com/Beltran12138/wecom-docs-mcp-server) [![Beltran12138/wecom-docs-mcp-server MCP server](https://glama.ai/mcp/servers/Beltran12138/wecom-docs-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/Beltran12138/wecom-docs-mcp-server) 🐍 🏠 🪟 🐧 - WeCom (Enterprise WeChat) document operations via MCP: create, read, and edit Docs and Smartsheets (9 tools). Fills the doc-CRUD gap — existing WeCom MCP servers only support webhook messaging."
+        confidence: high
+metadata:
+  github:
+    stars: 2
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-04-23T09:50:01Z"
+    pushed_at: "2026-04-23T16:30:02Z"
+    description: MCP server for WeCom (Enterprise WeChat) document operations — create, read, edit Docs and Smartsheets. Fills the doc-CRUD gap in the WeCom MCP ecosystem.
+    homepage: null
+    topics:
+      - ai-agent
+      - enterprise-wechat
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - python
+      - wechat-work
+      - wecom
+    last_checked_at: "2026-05-05T21:01:18.807Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:18.807Z"
+      bytes: 7260
+insights:
+  summary: A Python-based MCP server that enables AI agents to create, read, and edit WeCom (Enterprise WeChat) documents and Smartsheets via the @wecom/cli API.
+  why_it_matters: It closes the document-CRUD gap in the WeCom MCP ecosystem, allowing agents in Claude Desktop, Cursor, or Hermes to manage internal docs and structured data without manual copy-pasting.
+  mental_damage: We have invented a cross-platform bridge to let a Large Language Model edit Excel-like sheets in Chinese enterprise chat software, and somehow this is the most reasonable part of the stack.
+  tags:
+    - mcp
+    - wecom
+    - enterprise-wechat
+    - python
+    - doc-crud
+  confidence: medium
+curation:
+  status: included
+  reason: The project is a standalone MCP server implementation that extends agent tooling with WeCom document operations, fitting cleanly into MCP infrastructure.
+  evidence:
+    - Repo description explicitly states 'MCP server for WeCom document operations'.
+    - Compatible with Claude Desktop, Hermes Agent, and Cursor as an MCP client integration.
+    - Listed under 'Server Implementations > Communication' in the awesome-mcp-servers directory.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.681Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:18.807Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:10:29.013Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

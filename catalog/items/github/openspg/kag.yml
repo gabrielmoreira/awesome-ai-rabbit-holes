@@ -1,0 +1,86 @@
+id: github__openspg__kag
+kind: github-repo
+name: kag
+canonical_url: https://github.com/openspg/kag
+identity:
+  github_repo: openspg/kag
+provenance:
+  discoveries:
+    - id: discovery__github__openspg__kag__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 知识库 RAG
+        anchor_text: KAG
+        extracted_url: https://github.com/openspg/kag
+        surrounding_text: "24. [KAG](https://github.com/OpenSPG/KAG): KAG is a knowledge-enhanced generation framework based on OpenSPG engine, which is used to build knowledge-enhanced rigorous decision-making and information retrieval knowledge services."
+        confidence: high
+metadata:
+  github:
+    stars: 8713
+    forks: 674
+    license: Apache-2.0
+    archived: false
+    created_at: "2024-09-21T13:56:44Z"
+    pushed_at: "2026-01-28T13:30:54Z"
+    description: KAG is a logical form-guided reasoning and retrieval framework based on OpenSPG engine and LLMs.  It is used to build logical reasoning and factual Q&A solutions for professional domain knowledge bases. It can effectively overcome the shortcomings of the traditional RAG vector similarity calculation model.
+    homepage: https://spg.openkg.cn/en-US
+    topics:
+      - knowledge-graph
+      - large-language-model
+      - logical-reasoning
+      - multi-hop-question-answering
+      - trustfulness
+    last_checked_at: "2026-05-05T21:04:07.179Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:07.179Z"
+      bytes: 13272
+insights:
+  summary: KAG is a framework that combines knowledge graphs with LLMs to improve logical reasoning and factual Q&A, specifically targeting professional domain knowledge bases.
+  why_it_matters: It provides developers with a structured way to move beyond naive vector similarity retrieval by integrating knowledge graph reasoning directly into LLM workflows.
+  mental_damage: Just when you thought RAG was solved, you now have to decide if your vectors need a graph topology and a logic solver to feel academically adequate.
+  tags:
+    - rag
+    - knowledge-graph
+    - llm
+    - reasoning
+    - framework
+  confidence: high
+curation:
+  status: included
+  reason: This is a code-first framework and SDK for building knowledge-augmented LLM applications, fitting the AI Frameworks category perfectly.
+  evidence:
+    - Repo description defines it as a 'logical form-guided reasoning and retrieval framework based on OpenSPG engine and LLMs'.
+    - README details a 'knowledge-enhanced LLM service framework' with specific operators for planning, reasoning, and retrieval that developers import and use.
+    - Found in 'awesome-LLM-resources' under a knowledge base/RAG section, confirming its relevance to the LLM ecosystem.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (8713) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.711Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:07.179Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:42:56.786Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

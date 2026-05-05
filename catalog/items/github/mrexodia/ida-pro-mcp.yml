@@ -1,0 +1,90 @@
+id: github__mrexodia__ida-pro-mcp
+kind: github-repo
+name: ida-pro-mcp
+canonical_url: https://github.com/mrexodia/ida-pro-mcp
+identity:
+  github_repo: mrexodia/ida-pro-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__mrexodia__ida-pro-mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: IDA Pro MCP
+        extracted_url: https://github.com/mrexodia/ida-pro-mcp
+        surrounding_text: "- **[IDA Pro MCP](https://github.com/mrexodia/ida-pro-mcp)** - MCP Server for automated reverse engineering with IDA Pro."
+        confidence: high
+metadata:
+  github:
+    stars: 8222
+    forks: 986
+    license: MIT
+    archived: false
+    created_at: "2025-03-25T22:23:41Z"
+    pushed_at: "2026-05-04T21:46:49Z"
+    description: AI-powered reverse engineering assistant that bridges IDA Pro with language models through MCP.
+    homepage: https://plugins.hex-rays.com/mrexodia/ida-pro-mcp
+    topics:
+      - ai
+      - aiagent
+      - binary-analysis
+      - ida-plugin
+      - ida-pro
+      - mcp
+      - mcp-server
+      - modelcontextprotocol
+      - reverse-engineering
+    last_checked_at: "2026-05-05T21:03:47.872Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:47.872Z"
+      bytes: 18406
+insights:
+  summary: An MCP server that connects IDA Pro to language models, allowing AI agents to decompile, analyze, and annotate binaries directly within the reverse engineering workflow.
+  why_it_matters: It turns IDA Pro into an AI-collaborative environment, enabling developers and security researchers to automate tedious reverse engineering tasks like renaming variables, analyzing decompilation, and documenting findings.
+  mental_damage: You can now vibe reverse a crackme while your LLM hallucinates the architecture, proving that no corner of engineering is safe from being branded as 'vibe-driven'.
+  tags:
+    - mcp
+    - reverse-engineering
+    - ida-pro
+    - binary-analysis
+    - plugin
+  confidence: high
+curation:
+  status: included
+  reason: The project is fundamentally an MCP server implementation that bridges a specific tool (IDA Pro) with language models via the Model Context Protocol, fitting the MCP infrastructure category.
+  evidence:
+    - Repo description explicitly states it 'bridges IDA Pro with language models through MCP'
+    - README identifies it as a 'Simple MCP Server' and provides configuration instructions for various MCP clients
+    - Listed in awesome-mcp-servers under 'Community Servers', confirming its identity as MCP infrastructure
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (8222) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.708Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:47.872Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:39:15.252Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

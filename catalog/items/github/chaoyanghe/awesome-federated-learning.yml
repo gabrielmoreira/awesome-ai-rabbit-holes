@@ -1,0 +1,100 @@
+id: github__chaoyanghe__awesome-federated-learning
+kind: github-repo
+name: awesome-federated-learning
+canonical_url: https://github.com/chaoyanghe/awesome-federated-learning
+identity:
+  github_repo: chaoyanghe/awesome-federated-learning
+provenance:
+  discoveries:
+    - id: discovery__github__chaoyanghe__awesome-federated-learning__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Awesome Lists
+        anchor_text: Awesome Federated Learning
+        extracted_url: https://github.com/chaoyanghe/awesome-federated-learning
+        surrounding_text: "| [Awesome Federated Learning](https://github.com/chaoyanghe/Awesome-Federated-Learning)                  | A curated list of federated learning publications, re-organized from Arxiv (mostly)                                               | ![GitHub Badge](https://img.shields.io/github/stars/chaoyanghe/Awesome-Federated-Learning.svg?style=flat-square)         |"
+        confidence: high
+metadata:
+  github:
+    stars: 2013
+    forks: 334
+    license: null
+    archived: false
+    created_at: "2020-07-03T19:26:03Z"
+    pushed_at: "2022-09-03T20:03:02Z"
+    description: "FedML - The Research and Production Integrated Federated Learning Library: https://fedml.ai"
+    homepage: ""
+    topics:
+      - adversarial-attack-and-defense
+      - communication-efficiency
+      - computation-efficiency
+      - computer-vision
+      - continual-learning
+      - decentralized-federated-learning
+      - distributed-optimization
+      - federated-learning
+      - hierarchical-federated-learning
+      - incentive-mechanism
+      - interpretability
+      - machine-learning
+      - neural-architecture-search
+      - non-iid
+      - privacy
+      - semi-supervised-learning
+      - straggler-problem
+      - transfer-learning
+      - vertical-federated-learning
+      - wireless-communication
+    last_checked_at: "2026-05-05T21:01:32.259Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:32.259Z"
+      bytes: 78268
+insights:
+  summary: A curated, bibliography-style awesome list of federated learning publications, research papers, and algorithms primarily sourced from Arxiv.
+  why_it_matters: It serves as a centralized research map for developers and researchers building privacy-preserving, distributed ML systems who need to navigate the academic landscape.
+  mental_damage: "Just what the overworked engineer needed: a 2,000-paper strong reading list confirming that the distributed training problem is, in fact, still mathematically unsolved."
+  tags:
+    - federated-learning
+    - research
+    - awesome-list
+    - ml
+  confidence: high
+curation:
+  status: included
+  reason: This is a classic curated index of research papers and publications rather than a developer tool, framework, or agent.
+  evidence:
+    - Repo description and README state it is 'A curated list of federated learning publications, re-organized from Arxiv'.
+    - The README content consists almost entirely of tables linking to academic papers (ICML, NeurIPS) rather than code or tooling.
+    - Listed in Awesome-LLMOps under the 'Awesome Lists' section, confirming its nature as a directory/meta-list.
+placement:
+  primary_category: awesome-awesomes
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (2013) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.682Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:32.259Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:12:49.721Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

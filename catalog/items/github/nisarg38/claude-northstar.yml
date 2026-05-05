@@ -1,0 +1,83 @@
+id: github__nisarg38__claude-northstar
+kind: github-repo
+name: claude-northstar
+canonical_url: https://github.com/nisarg38/claude-northstar
+identity:
+  github_repo: nisarg38/claude-northstar
+provenance:
+  discoveries:
+    - id: discovery__github__nisarg38__claude-northstar__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Agent infrastructure
+        anchor_text: claude-northstar
+        extracted_url: https://github.com/nisarg38/claude-northstar
+        surrounding_text: "- **[claude-northstar](https://github.com/Nisarg38/claude-northstar)** `⭐ 1` — Transforms CLI agents from task executors into autonomous project partners."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-01-06T17:32:26Z"
+    pushed_at: "2026-01-06T17:43:06Z"
+    description: Transform CLI agents from task executors into autonomous project partners. Share your vision, not your todo list.
+    homepage: ""
+    topics:
+      - claude-code
+      - cli-agents
+    last_checked_at: "2026-05-05T21:03:55.336Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:55.336Z"
+      bytes: 7397
+insights:
+  summary: A goal-oriented development framework for CLI agents like Claude Code that allows developers to share a project vision and milestones, enabling the agent to work autonomously across planning, implementation, and review.
+  why_it_matters: It shifts the developer workflow from micromanaging individual tasks to defining high-level goals, letting the agent handle milestone planning, execution, and QA loops independently.
+  mental_damage: We have finally solved the problem of having to type 'what's next?' by installing a framework that requires us to meticulously document our dreams in a north-star.md file instead.
+  tags:
+    - cli-agents
+    - claude-code
+    - orchestration
+    - autonomous
+  confidence: medium
+curation:
+  status: included
+  reason: This is a framework designed to make CLI-based coding agents (specifically Claude Code) operate autonomously on a repo with a tech-lead/sub-agent workflow, fitting the coding-agents category.
+  evidence:
+    - Repo description explicitly targets 'CLI agents' to transform them into 'autonomous project partners'.
+    - README details a workflow where the agent acts as a 'Tech Lead' coordinating sub-agents (Developer, QA, Reviewer) inside the repository.
+    - Listed in 'awesome-cli-coding-agents' under 'Harnesses & orchestration > Agent infrastructure'.
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.710Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:55.336Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:40:44.696Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

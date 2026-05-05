@@ -1,0 +1,86 @@
+id: github__minimaxir__automl-gs
+kind: github-repo
+name: automl-gs
+canonical_url: https://github.com/minimaxir/automl-gs
+identity:
+  github_repo: minimaxir/automl-gs
+provenance:
+  discoveries:
+    - id: discovery__github__minimaxir__automl-gs__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - AutoML
+        anchor_text: automl-gs
+        extracted_url: https://github.com/minimaxir/automl-gs
+        surrounding_text: "| [automl-gs](https://github.com/minimaxir/automl-gs)                          | Provide an input CSV and a target field to predict, generate a model + code to run it.                                                                                          | ![GitHub Badge](https://img.shields.io/github/stars/minimaxir/automl-gs.svg?style=flat-square)             |"
+        confidence: high
+metadata:
+  github:
+    stars: 1869
+    forks: 182
+    license: MIT
+    archived: false
+    created_at: "2019-01-13T18:57:44Z"
+    pushed_at: "2019-10-22T11:20:40Z"
+    description: Provide an input CSV and a target field to predict, generate a model + code to run it.
+    homepage: ""
+    topics:
+      - automl
+      - keras
+      - machine-learning
+      - python
+      - tensorflow
+      - xgboost
+    last_checked_at: "2026-05-05T21:03:42.299Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:42.299Z"
+      bytes: 11078
+insights:
+  summary: A Python CLI and module that takes an input CSV and target field, then generates optimized machine learning/deep learning models along with native Python pipeline code for TensorFlow and XGBoost.
+  why_it_matters: It lets developers and data scientists skip writing boilerplate preprocessing and model architecture code by generating a tweakable baseline pipeline from the command line.
+  mental_damage: Because nothing says modern developer productivity like pretending AutoML from 2019 didn't already teach us that generated baselines still require a human to clean up the mess.
+  tags:
+    - automl
+    - cli
+    - ml-models
+    - python
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a traditional AutoML tool for tabular data science, not a developer-facing AI tool, coding agent, or AI infrastructure component.
+  evidence:
+    - Repo description focuses on CSV input and model generation, not AI-assisted coding workflows.
+    - README shows it generates TensorFlow/XGBoost pipelines for citizen data scientists, not developer tooling.
+    - Last push was in 2019, and it appears under AutoML rather than LLM/AI-dev tooling in source lists.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1869) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.707Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:42.299Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:38:11.806Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

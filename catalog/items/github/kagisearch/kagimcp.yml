@@ -1,0 +1,80 @@
+id: github__kagisearch__kagimcp
+kind: github-repo
+name: kagimcp
+canonical_url: https://github.com/kagisearch/kagimcp
+identity:
+  github_repo: kagisearch/kagimcp
+provenance:
+  discoveries:
+    - id: discovery__github__kagisearch__kagimcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Kagi Search
+        extracted_url: https://github.com/kagisearch/kagimcp
+        surrounding_text: "- **[Kagi Search](https://github.com/kagisearch/kagimcp)** - Search the web using Kagi's search API"
+        confidence: high
+metadata:
+  github:
+    stars: 376
+    forks: 33
+    license: MIT
+    archived: false
+    created_at: "2024-12-13T02:41:16Z"
+    pushed_at: "2026-05-05T01:09:13Z"
+    description: The Official Model Context Protocol (MCP) server for Kagi search & other tools.
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:03:02.182Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:02.182Z"
+      bytes: 5453
+insights:
+  summary: The official Model Context Protocol (MCP) server that exposes Kagi search and summarization tools to compatible AI clients like Claude Code and OpenAI Codex.
+  why_it_matters: It allows developers to swap the default web search in their coding agents for Kagi's API, offering potentially higher-quality results and summary engines inside the IDE.
+  mental_damage: We have successfully abstracted web searching to the point where we now need a protocol server to argue with our agents about which search engine they are allowed to use.
+  tags:
+    - mcp
+    - kagi
+    - search
+    - tooling
+  confidence: high
+curation:
+  status: included
+  reason: This is a canonical MCP server implementation maintained by the search provider, fitting perfectly into the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description explicitly states: 'Official Model Context Protocol (MCP) server for Kagi search & other tools.'"
+    - README details integration with Claude Desktop, Claude Code, and OpenAI Codex CLI via standard MCP config.
+    - Listed in 'awesome-mcp-servers' under the 'Official Servers' section.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (376) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.701Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:02.182Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:29:59.492Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

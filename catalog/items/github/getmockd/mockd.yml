@@ -1,0 +1,97 @@
+id: github__getmockd__mockd
+kind: github-repo
+name: mockd
+canonical_url: https://github.com/getmockd/mockd
+identity:
+  github_repo: getmockd/mockd
+provenance:
+  discoveries:
+    - id: discovery__github__getmockd__mockd__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: getmockd/mockd
+        extracted_url: https://github.com/getmockd/mockd
+        surrounding_text: "- [getmockd/mockd](https://github.com/getmockd/mockd) [![mockd MCP server](https://glama.ai/mcp/servers/getmockd/mockd/badges/score.svg)](https://glama.ai/mcp/servers/getmockd/mockd) 🏎️ 🏠 🍎 🪟 🐧 - Multi-protocol API mock server with 18 MCP tools. Mock HTTP, GraphQL, gRPC, WebSocket, MQTT, SSE, and SOAP APIs with chaos engineering, stateful CRUD, 8 import formats (OpenAPI, Postman, HAR, WireMock, cURL, Mockoon, WSDL), and deterministic seeded responses."
+        confidence: high
+metadata:
+  github:
+    stars: 121
+    forks: 4
+    license: Apache-2.0
+    archived: false
+    created_at: "2026-02-04T06:03:11Z"
+    pushed_at: "2026-05-01T22:58:35Z"
+    description: High-performance, multi-protocol mock server. HTTP, WebSocket, gRPC, MQTT, SSE, GraphQL, SOAP in one binary.
+    homepage: https://mockd.io
+    topics:
+      - api-mocking
+      - chaos-engineering
+      - cli
+      - developer-tools
+      - golang
+      - graphql
+      - grpc
+      - mcp
+      - mock-server
+      - mqtt
+      - service-virtualization
+      - soap
+      - sse
+      - testing
+      - websocket
+    last_checked_at: "2026-05-05T21:02:19.907Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:19.907Z"
+      bytes: 12437
+insights:
+  summary: A single-binary, multi-protocol mock server written in Go that supports HTTP, WebSocket, gRPC, MQTT, SSE, GraphQL, and SOAP, with an integrated local MCP server for AI agent integration.
+  why_it_matters: It lets developers spin up stateful mocks for nearly every modern protocol from one CLI, and includes a local MCP server so AI agents can generate and manage mocks directly.
+  mental_damage: We have finally built the one true mock server to rule them all, yet we will still spend three hours arguing with an AI agent about why the gRPC mock is returning HTTP 418.
+  tags:
+    - mock-server
+    - mcp
+    - cli
+    - testing
+    - go
+  confidence: high
+curation:
+  status: included
+  reason: The project is a developer tool that explicitly ships a local MCP server for AI agents to create mocks, fitting the MCP infrastructure scope beyond just being a generic mock tool.
+  evidence:
+    - Repo description and README list 'MCP server' as a built-in capability for AI agents to create mocks.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
+    - Actively maintained with a recent push date (2026-05-01) and an Apache-2.0 license.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.689Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:19.907Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:21:07.469Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

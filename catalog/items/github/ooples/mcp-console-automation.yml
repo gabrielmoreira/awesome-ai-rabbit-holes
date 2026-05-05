@@ -1,0 +1,82 @@
+id: github__ooples__mcp-console-automation
+kind: github-repo
+name: mcp-console-automation
+canonical_url: https://github.com/ooples/mcp-console-automation
+identity:
+  github_repo: ooples/mcp-console-automation
+provenance:
+  discoveries:
+    - id: discovery__github__ooples__mcp-console-automation__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🤖 <a name="coding-agents"></a>Coding Agents
+        anchor_text: ooples/mcp-console-automation
+        extracted_url: https://github.com/ooples/mcp-console-automation
+        surrounding_text: "- [ooples/mcp-console-automation](https://github.com/ooples/mcp-console-automation) 📇 🏠 🍎 🪟 🐧 - Production-ready MCP server for AI-driven console automation and monitoring. 40 tools for session management, SSH, testing, monitoring, and background jobs. Like Playwright for terminal applications."
+        confidence: high
+metadata:
+  github:
+    stars: 32
+    forks: 11
+    license: MIT
+    archived: false
+    created_at: "2025-08-28T14:32:08Z"
+    pushed_at: "2026-04-23T00:43:32Z"
+    description: MCP server for AI-driven console application automation and monitoring
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:04:02.115Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:02.115Z"
+      bytes: 14597
+insights:
+  summary: An MCP server that gives AI assistants deep control over terminal sessions, enabling them to spawn shells, interact with console applications, and automate CLI workflows across platforms.
+  why_it_matters: It allows coding agents to go beyond code editing and actually drive interactive terminal tools, run background jobs, and validate output directly within the shell environment.
+  mental_damage: We have finally built the bridge that allows your AI to get stuck in infinite loops inside a terminal session it created all by itself.
+  tags:
+    - mcp
+    - terminal
+    - automation
+    - cli
+    - testing
+  confidence: high
+curation:
+  status: included
+  reason: The project is a Model Context Protocol server designed to extend AI assistants with terminal automation capabilities, which fits cleanly into the MCP infrastructure category.
+  evidence:
+    - Repo description explicitly states 'MCP server for AI-driven console application automation'.
+    - README details a production-ready MCP server for controlling console sessions, SSH, and background jobs.
+    - Included in the 'awesome-mcp-servers' list under Server Implementations.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.711Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:02.115Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:42:09.050Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

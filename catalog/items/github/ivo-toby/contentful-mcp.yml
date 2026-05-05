@@ -1,0 +1,80 @@
+id: github__ivo-toby__contentful-mcp
+kind: github-repo
+name: contentful-mcp
+canonical_url: https://github.com/ivo-toby/contentful-mcp
+identity:
+  github_repo: ivo-toby/contentful-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__ivo-toby__contentful-mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: Contentful
+        extracted_url: https://github.com/ivo-toby/contentful-mcp
+        surrounding_text: "- **[Contentful](https://github.com/ivo-toby/contentful-mcp)** - Interact with your content on the Contentful platform"
+        confidence: high
+metadata:
+  github:
+    stars: 60
+    forks: 16
+    license: MIT
+    archived: false
+    created_at: "2024-12-04T18:27:09Z"
+    pushed_at: "2026-01-17T16:45:28Z"
+    description: MCP (Model Context Protocol) server for the Contentful Management API
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:48.411Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:48.411Z"
+      bytes: 13228
+insights:
+  summary: A community-built MCP server that wraps the Contentful Management API to let AI agents perform CRUD operations on entries, assets, content types, and spaces.
+  why_it_matters: It lets developers and AI agents manage CMS content programmatically via chat surfaces like Claude Desktop instead of manually clicking through the Contentful UI.
+  mental_damage: We have officially reached the point where we need a wrapper so the AI can politely ask the CMS to publish a blog post without us having to open the browser.
+  tags:
+    - mcp
+    - contentful
+    - cms
+    - agent-tooling
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server for Contentful, which fits cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description states: 'MCP (Model Context Protocol) server for the Contentful Management API'"
+    - "README confirms: 'An MCP server implementation that integrates with Contentful's Content Management API'"
+    - Listed in awesome-mcp-servers under 'Community Servers'
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.699Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:48.411Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:27:00.879Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

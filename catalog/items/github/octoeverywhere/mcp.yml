@@ -1,0 +1,88 @@
+id: github__octoeverywhere__mcp
+kind: github-repo
+name: mcp
+canonical_url: https://github.com/octoeverywhere/mcp
+identity:
+  github_repo: octoeverywhere/mcp
+provenance:
+  discoveries:
+    - id: discovery__github__octoeverywhere__mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🎨 <a name="art-and-culture"></a>Art & Culture
+        anchor_text: OctoEverywhere/mcp
+        extracted_url: https://github.com/octoeverywhere/mcp
+        surrounding_text: "- [OctoEverywhere/mcp](https://github.com/OctoEverywhere/mcp) #️⃣ ☁️ - A 3D printer MCP server that allows for getting live printer state, webcam snapshots, and printer control."
+        confidence: high
+metadata:
+  github:
+    stars: 34
+    forks: 5
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-05-30T06:00:04Z"
+    pushed_at: "2025-07-03T21:06:12Z"
+    description: A free 3D Printing MCP server that allows for getting live printer state, webcam snapshots, and printer control.
+    homepage: https://octoeverywhere.com/mcp
+    topics:
+      - 3d-printing
+      - agent
+      - agentic-ai
+      - ai
+      - control
+      - mcp
+      - webcam-capture
+    last_checked_at: "2026-05-05T21:03:58.743Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:58.743Z"
+      bytes: 3168
+insights:
+  summary: A free, cloud-hosted MCP server that exposes live 3D printer status, webcam snapshots, and print controls to AI agents and chatbots.
+  why_it_matters: It lets developers integrate physical hardware control into agentic workflows without building custom APIs for OctoPrint, Klipper, or Bambu Lab printers.
+  mental_damage: We've successfully abstracted 3D printing into token streams, meaning your AI agent can now ruin your print bed while it hallucinates your middleware.
+  tags:
+    - mcp
+    - 3d-printing
+    - hardware
+    - agent-tooling
+  confidence: high
+curation:
+  status: included
+  reason: The project is a dedicated MCP server implementation for 3D printer control, which fits directly into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states it is 'A free 3D Printing MCP server'.
+    - README confirms it enables access to 3D printers via the Model Context Protocol for AI agents and workflows.
+    - Listed in the awesome-mcp-servers directory under Server Implementations.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.710Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:58.743Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:41:29.375Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

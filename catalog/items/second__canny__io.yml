@@ -1,0 +1,76 @@
+id: second__canny__io
+kind: website
+name: second.canny.io
+canonical_url: https://second.canny.io
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__second__canny__io__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Second
+          - Description
+        anchor_text: Roadmap
+        extracted_url: https://second.canny.io
+        surrounding_text: "- [Roadmap](https://second.canny.io/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A private Canny-powered feedback board for the Second team to collect user input on product decisions.
+  why_it_matters: It provides a channel for users to influence the roadmap of the Second product, though it is not a developer tool itself.
+  mental_damage: We have successfully reached the point where an AI agent's feedback board is being cataloged as if it were the agent itself.
+  tags:
+    - feedback
+    - meta
+    - not-a-tool
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a customer feedback portal for a product team, not a developer-facing AI tool, agent, or infrastructure component.
+  evidence:
+    - Scraped site title and description identify this as 'Second Feedback', a Canny board for product decisions.
+    - The page excerpt confirms it is a private feedback board requiring login, not a software tool.
+    - Listed in awesome-ai-agents only as a link to the feedback page, not as an agent implementation.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.730Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:47:59.864Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

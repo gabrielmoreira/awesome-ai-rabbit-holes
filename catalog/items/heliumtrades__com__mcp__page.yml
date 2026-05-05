@@ -1,0 +1,76 @@
+id: heliumtrades__com__mcp__page
+kind: website
+name: mcp-page
+canonical_url: https://heliumtrades.com/mcp-page
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__heliumtrades__com__mcp__page__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - MCP Servers and Directories
+        anchor_text: Documentation
+        extracted_url: https://heliumtrades.com/mcp-page
+        surrounding_text: "- **[Helium MCP](https://github.com/connerlambden/helium-mcp)** – Remote MCP server for AI coding assistants with real-time news and multi-dimensional bias scoring (3.2M+ articles, 5000+ sources), financial markets (stocks, ETFs, crypto, AI bull/bear cases), ML options pricing (ITM probability, Greeks, fair value), balanced news synthesis, trending topics, and semantic meme search. [Documentation](https://heliumtrades.com/mcp-page/)."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: An MCP server that gives AI assistants real-time news, media bias analysis, live market data, and meme intelligence via a simple config paste.
+  why_it_matters: Developers wiring up AI workflows can add live market and news context to their assistants without building custom scrapers or API integrations.
+  mental_damage: Because nothing says robust AI-driven development like prompting Claude to do fundamental analysis based on meme sentiment and political bias scores.
+  tags:
+    - mcp
+    - market-data
+    - news
+    - tools
+  confidence: high
+curation:
+  status: included
+  reason: The product itself is an MCP server that exposes external tools and data to AI clients, which fits cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - Explicitly described as a 'Model Context Protocol Server' providing tools via MCP config in Cursor, Claude, and Windsurf.
+    - Lists specific MCP tools like search_news, get_ticker, and search_memes with a streaming endpoint at https://heliumtrades.com/mcp.
+    - Included in the 'MCP Servers and Directories' section of the awesome-ai-coding-tools list.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.728Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:45:17.108Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

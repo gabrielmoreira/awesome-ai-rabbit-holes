@@ -1,0 +1,77 @@
+id: relevanceai__com
+kind: website
+name: relevanceai.com
+canonical_url: https://relevanceai.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__relevanceai__com__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Relevance AI
+        anchor_text: Relevance AI
+        extracted_url: https://relevanceai.com
+        surrounding_text: "## [Relevance AI](https://relevanceai.com/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Relevance AI is a SaaS platform for building and deploying multi-agent AI workforces that automate B2B go-to-market workflows, such as sales outreach and customer support.
+  why_it_matters: It offers developers enterprise-grade infrastructure, version control, and monitoring dashboards to build and manage custom agentic workflows via API and MCP integrations.
+  mental_damage: "Just what the world needed: another 'autopilot' platform to ensure your CRM data is now being hallucinated at by a team of autonomous agents instead of just one overwhelmed intern."
+  tags:
+    - agents
+    - gtm
+    - b2b
+    - workflow-automation
+    - mcp
+  confidence: high
+curation:
+  status: excluded
+  reason: The product is exclusively a SaaS platform for sales and GTM teams, lacking a developer-facing tooling surface for coding, IDE integration, or app building.
+  evidence:
+    - Scraped site title and description focus entirely on 'AI Agents for Sales & GTM Teams' and 'GTM playbooks'.
+    - Source list context places it in 'awesome-ai-agents' specifically for running 'GTM playbooks' and 'BDR outreach'.
+    - Primary page excerpt highlights workflows like 'BDR outreach', 'customer success', and 'sales development rep' with no mention of source code editing.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.730Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:47:31.433Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

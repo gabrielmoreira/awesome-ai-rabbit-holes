@@ -1,0 +1,96 @@
+id: github__langtail__ai-orchestra
+kind: github-repo
+name: ai-orchestra
+canonical_url: https://github.com/langtail/ai-orchestra
+identity:
+  github_repo: langtail/ai-orchestra
+provenance:
+  discoveries:
+    - id: discovery__github__langtail__ai-orchestra__awesome-list__vivy-yi__awesome-agent-orchestration
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: vivy-yi/awesome-agent-orchestration
+        url: https://github.com/vivy-yi/awesome-agent-orchestration
+        repository: vivy-yi/awesome-agent-orchestration
+      extraction:
+        mode: parsed
+        section_path:
+          - Core Frameworks
+          - TypeScript & Node.js Frameworks
+        anchor_text: ai-orchestra
+        extracted_url: https://github.com/langtail/ai-orchestra
+        surrounding_text: "| [ai-orchestra](https://github.com/langtail/ai-orchestra) | Lightweight orchestration for AI Agents around Vercel's streamText | ![Stars](https://img.shields.io/github/stars/langtail/ai-orchestra) |"
+        confidence: high
+metadata:
+  github:
+    stars: 81
+    forks: 7
+    license: null
+    archived: false
+    created_at: "2025-02-02T22:11:26Z"
+    pushed_at: "2025-02-12T11:53:19Z"
+    description: Simple orchestration for AI Agents built around Vercel's streamText. Lightweight alternative to LangGraph for agent handoffs and state transitions.
+    homepage: ""
+    topics:
+      - agents
+      - ai
+      - ai-sdk
+      - anthropic
+      - langgraph-js
+      - llm
+      - nextjs
+      - openai
+      - orche
+      - state-machine
+      - streaming
+      - swarm
+      - typescript
+      - vercel-ai-sdk
+    last_checked_at: "2026-05-05T21:03:16.982Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:16.982Z"
+      bytes: 12949
+insights:
+  summary: A lightweight TypeScript library for orchestrating AI agent handoffs and state transitions, built around Vercel's AI SDK streamText as a simpler alternative to LangGraph.
+  why_it_matters: It gives developers a code-first way to model multi-agent workflows with streaming and explicit state control without adopting a heavier framework.
+  mental_damage: Streaming Claude handoffs in a state machine you wrote yourself is the new spinning cursor of moral superiority.
+  tags:
+    - agent-orchestration
+    - typescript
+    - vercel-ai-sdk
+    - state-machine
+    - streaming
+  confidence: high
+curation:
+  status: included
+  reason: This is a developer-imported SDK for building agent behavior in code, which fits ai-frameworks rather than a control-plane orchestration platform.
+  evidence:
+    - "Repo description: 'Simple orchestration for AI Agents built around Vercel's streamText.'"
+    - README positions it as 'a simpler alternative to LangGraph' with an npm install and TypeScript API.
+    - Listed in awesome-agent-orchestration under 'Core Frameworks > TypeScript & Node.js Frameworks'.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.703Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:16.982Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:33:18.976Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

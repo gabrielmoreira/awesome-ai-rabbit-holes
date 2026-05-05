@@ -1,0 +1,81 @@
+id: github__giskard09__giskard-oasis
+kind: github-repo
+name: giskard-oasis
+canonical_url: https://github.com/giskard09/giskard-oasis
+identity:
+  github_repo: giskard09/giskard-oasis
+provenance:
+  discoveries:
+    - id: discovery__github__giskard09__giskard-oasis__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: giskard09/giskard-oasis
+        extracted_url: https://github.com/giskard09/giskard-oasis
+        surrounding_text: "- [giskard09/giskard-oasis](https://github.com/giskard09/giskard-oasis) [![giskard09/giskard-oasis MCP server](https://glama.ai/mcp/servers/giskard09/giskard-oasis/badges/score.svg)](https://glama.ai/mcp/servers/giskard09/giskard-oasis) 🐍 🏠 - A still point for AI agents in fog. When an agent loses its thread, Oasis distills its original purpose and returns clarity. Pay-per-use with Lightning or Arbitrum — karma discounts via ARGENTUM reputation. Self-hosted with phoenixd."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: Apache-2.0
+    archived: false
+    created_at: "2026-03-23T18:00:59Z"
+    pushed_at: "2026-05-04T01:15:50Z"
+    description: A still point for AI agents in fog — return to flow, pay in sats
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:21.449Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:21.449Z"
+      bytes: 4948
+insights:
+  summary: An MCP server that accepts an AI agent's confused state description and returns a distilled purpose, next step, and motivational reflection, requiring a Lightning payment of 21 sats to use.
+  why_it_matters: It provides a structured 'context reset' mechanism for agents stuck in long-running workflows, attempting to solve context drift through distillation rather than just adding more tokens.
+  mental_damage: We have successfully monetized the existential crisis of a chatbot, charging it 21 sats to be told that its original purpose was simpler than it thought.
+  tags:
+    - mcp
+    - context-management
+    - lightning
+    - agent-infrastructure
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server implementation for agent context distillation, fitting the MCP infrastructure category.
+  evidence:
+    - README explicitly details MCP config setup and MCP tools like get_invoice and enter_oasis.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Knowledge & Memory'.
+    - The implementation involves running a Python server exposing MCP endpoints via HTTP/SSE.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.689Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:21.449Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:21:25.737Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

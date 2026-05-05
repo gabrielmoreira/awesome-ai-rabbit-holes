@@ -1,0 +1,76 @@
+id: www__datadoghq__com
+kind: website
+name: www.datadoghq.com
+canonical_url: https://www.datadoghq.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__datadoghq__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - DevOps and Infrastructure
+        anchor_text: Datadog
+        extracted_url: https://www.datadoghq.com
+        surrounding_text: "- **[Datadog](https://www.datadoghq.com/)** – Monitoring and observability with AI-powered insights."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Datadog is a cloud monitoring and security platform that provides infrastructure observability, application performance monitoring, and AI-powered features like LLM observability and Bits AI agents.
+  why_it_matters: It offers developers AI-integrated tools for monitoring model performance, detecting anomalies, and managing cloud infrastructure within their existing DevOps workflows.
+  mental_damage: Now you can add 'configuring LLM observability dashboards' to the backlog right between 'fixing the CI pipeline' and 'wondering why we adopted Kubernetes'.
+  tags:
+    - monitoring
+    - devops
+    - ai-ops
+    - observability
+  confidence: high
+curation:
+  status: excluded
+  reason: While Datadog includes AI features like Bits AI and MCP servers, the core product is a general-purpose enterprise cloud monitoring and security SaaS, not a specialized AI developer tooling product.
+  evidence:
+    - Primary description positions it as a 'cloud monitoring as a service solution' for infrastructure and security, not a developer AI tool.
+    - Appears in awesome-ai-coding-tools under 'DevOps and Infrastructure', which is a supporting category rather than a core tooling fit for this catalog.
+    - The vast majority of the product surface (Security, Digital Experience, Service Management) is unrelated to coding agents or AI app building.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.732Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:50:27.847Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

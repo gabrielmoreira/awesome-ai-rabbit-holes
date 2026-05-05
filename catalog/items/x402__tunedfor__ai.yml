@@ -1,0 +1,78 @@
+id: x402__tunedfor__ai
+kind: website
+name: x402.tunedfor.ai
+canonical_url: https://x402.tunedfor.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__x402__tunedfor__ai__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: "`x402.tunedfor.ai`"
+        extracted_url: https://x402.tunedfor.ai
+        surrounding_text: "- [tunedforai/x402-mcp](https://github.com/tunedforai/x402-mcp) [![tunedforai/x402-mcp MCP server](https://glama.ai/mcp/servers/tunedforai/x402-mcp/badges/score.svg)](https://glama.ai/mcp/servers/tunedforai/x402-mcp) 📇 ☁️ - Real-time crypto market structure for AI agents — orderflow across 20 exchanges, 24 tokens. 9 tools: price/funding/OI snapshots, cross-exchange CVD with whale activity, 7yr OHLCV history with buy/sell flow, on-chain address risk. Free via MCP ([`@tunedforai/x402-mcp`](https://www.npmjs.com/package/@tunedforai/x402-mcp) on npm) or pay-per-call in USDC on Base via x402 REST at [`x402.tunedfor.ai`](https://x402.tunedfor.ai) — no API key, no rate limits."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A pay-per-call crypto market data API designed for AI agents, providing aggregated cross-exchange orderflow, derived metrics, and macro context via MCP and the x402 payment protocol.
+  why_it_matters: Developers building trading agents can plug in a single MCP endpoint to get 20-exchange aggregated signals and regime detection without maintaining exchange scrapers or API keys.
+  mental_damage: Your trading bot still can't beat the market, but now it can pay USDC to learn that fact 200 milliseconds faster.
+  tags:
+    - mcp
+    - crypto
+    - api
+    - agent-data
+    - x402
+  confidence: high
+curation:
+  status: included
+  reason: The product is explicitly built as an MCP server with a native x402 protocol integration, fitting directly into the MCP Servers and Tooling category.
+  evidence:
+    - Listed in awesome-mcp-servers under 'Finance & Fintech' as a server implementation.
+    - Installation instructions provided for Claude Desktop, Cursor, and Windsurf via MCP URLs and npx configs.
+    - Service manifest available at /.well-known/x402.json for machine-readable autodiscovery by agents.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.734Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:54:28.669Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

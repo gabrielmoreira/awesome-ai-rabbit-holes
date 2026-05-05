@@ -7,27 +7,26 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__flowiseai__flowise__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-01T13:51:25.374Z"
+      discovered_at: "2026-05-05T19:41:00.656Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
         url: https://github.com/e2b-dev/awesome-ai-agents
         repository: e2b-dev/awesome-ai-agents
       extraction:
-        mode: parsed
+        mode: scraped
         section_path:
-          - "[Flowise](https://flowiseai.com/)"
-          - Links
-        anchor_text: GitHub
-        extracted_url: https://github.com/flowiseai/flowise
-        surrounding_text: "- [GitHub](https://github.com/FlowiseAI/Flowise)"
+          - Flowise
+        anchor_text: Flowise
+        extracted_url: https://flowiseai.com
+        surrounding_text: "## [Flowise](https://flowiseai.com/)"
         confidence: high
     - id: discovery__github__flowiseai__flowise__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-01T13:51:25.374Z"
+      discovered_at: "2026-05-05T19:41:00.656Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
-        url: https://github.com/tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
         repository: tensorchord/Awesome-LLMOps
       extraction:
         mode: parsed
@@ -39,7 +38,7 @@ provenance:
         surrounding_text: "| [Flowise](https://github.com/FlowiseAI/Flowise)                                       | Drag & drop UI to build your customized LLM flow using LangchainJS.                                             | ![GitHub Badge](https://img.shields.io/github/stars/FlowiseAI/Flowise.svg?style=flat-square)                     |"
         confidence: high
     - id: discovery__github__flowiseai__flowise__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-01T13:51:25.374Z"
+      discovered_at: "2026-05-05T19:41:00.656Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -55,7 +54,7 @@ provenance:
         surrounding_text: "- [Flowise](https://github.com/FlowiseAI/Flowise): Drag & drop UI to build your customized LLM flow using LangchainJS ![GitHub Repo stars](https://img.shields.io/github/stars/FlowiseAI/Flowise?style=social)"
         confidence: high
     - id: discovery__github__flowiseai__flowise__awesome-list__kaushikb11__awesome-llm-agents
-      discovered_at: "2026-05-01T13:51:25.374Z"
+      discovered_at: "2026-05-05T19:41:00.656Z"
       source:
         type: awesome-list
         name: kaushikb11/awesome-llm-agents
@@ -71,12 +70,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 52450
-    forks: 24246
+    stars: 52560
+    forks: 24268
     license: NOASSERTION
     archived: false
     created_at: "2023-03-31T12:23:09Z"
-    pushed_at: "2026-05-01T03:47:05Z"
+    pushed_at: "2026-05-05T20:33:33Z"
     description: Build AI Agents, Visually
     homepage: https://flowiseai.com
     topics:
@@ -97,31 +96,50 @@ metadata:
       - react
       - typescript
       - workflow-automation
-    last_checked_at: "2026-05-01T13:51:40.650Z"
+    last_checked_at: "2026-05-05T21:02:12.654Z"
     readme:
-      fetched_at: "2026-05-01T13:51:40.650Z"
+      fetched_at: "2026-05-05T21:02:12.654Z"
       bytes: 7729
 insights:
-  summary: Flowise is a low-code, visual builder for creating and running LLM workflows and AI agents.
-  why_it_matters: It lets developers prototype and self-host agent/RAG pipelines with a UI while still integrating into Node/TypeScript deployment workflows (npm, Docker, API server + React UI).
-  mental_damage: You’ll be dragging boxes at 2am wondering whether you’re “building an agent” or just inventing a new, more expensive way to forget where your prompt variables went.
+  summary: Flowise is a low-code visual platform for building and orchestrating AI agents and LLM workflows using LangChain components.
+  why_it_matters: It lets developers quickly prototype and serve agentic workflows with a drag-and-drop UI while keeping the option to self-host or extend via API.
+  mental_damage: Another reminder that in 2024, the hottest way to demonstrate senior engineering judgment is reconnecting the same three boxes until the latency makes it look like distributed systems.
   tags:
-    - agent-workflows
     - low-code
-    - rag
+    - agent-orchestration
     - langchain
     - self-hosted
+    - visual-builder
   confidence: high
 curation:
   status: included
-  reason: "It squarely fits developer-facing agent workflow/orchestration: a widely-used, actively maintained visual platform to compose, run, and self-host AI agent flows and integrations."
+  reason: Flowise is a user-facing workbench for visually coordinating agents and LLM workflows, not a coding assistant editing repos or a code-first SDK.
   evidence:
-    - "Repo description: \"Build AI Agents, Visually\" (explicit agent workflow builder)"
-    - README shows developer-centric installation and self-hosting paths (npm global install, Docker, monorepo with server/ui/components, Swagger API docs)
-    - Strong traction and activity signals (52k+ stars; pushed 2026-05-01; not archived) and appears in multiple curated lists (awesome-langchain Tools > Low-code; awesome-llm-agents Frameworks)
+    - "Repo description: 'Build AI Agents, Visually' with langchain and workflow-automation topics."
+    - README shows a visual drag-and-drop UI to build agent flows served via localhost or cloud.
+    - Included in awesome-ai-agents and awesome-llm-agents as a framework/workflow platform.
 placement:
   primary_category: agent-orchestration
   section: null
 lifecycle:
   status: promotion_candidate
-  reason: Stars (52450) exceeded threshold (150)
+  reason: Stars (52560) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.658Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:12.654Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:19:47.392Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

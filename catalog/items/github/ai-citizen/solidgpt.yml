@@ -1,0 +1,90 @@
+id: github__ai-citizen__solidgpt
+kind: github-repo
+name: solidgpt
+canonical_url: https://github.com/ai-citizen/solidgpt
+identity:
+  github_repo: ai-citizen/solidgpt
+provenance:
+  discoveries:
+    - id: discovery__github__ai-citizen__solidgpt__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Open Source Projects
+          - Knowledge Management
+        anchor_text: SolidGPT
+        extracted_url: https://github.com/ai-citizen/solidgpt
+        surrounding_text: "- [SolidGPT](https://github.com/AI-Citizen/SolidGPT): Chat everything with your code repository, ask repository level code questions, and discuss your requirements ![GitHub Repo stars](https://img.shields.io/github/stars/AI-Citizen/SolidGPT?style=social)"
+        confidence: high
+metadata:
+  github:
+    stars: 1792
+    forks: 135
+    license: CC-BY-4.0
+    archived: false
+    created_at: "2023-08-08T05:25:16Z"
+    pushed_at: "2025-01-12T04:58:38Z"
+    description: Developer AI Persona Search Agent
+    homepage: ""
+    topics:
+      - codechat
+      - copilot
+      - developer-tools
+      - glean
+      - gpt-4
+      - llm
+      - notion
+      - solidgpt
+    last_checked_at: "2026-05-05T21:00:54.738Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:54.738Z"
+      bytes: 4004
+insights:
+  summary: A VSCode extension and CLI tool that enables semantic search and chat over a local codebase and Notion documents using LLMs.
+  why_it_matters: It allows developers to query their project's source code and documentation directly within their editor to quickly locate methods or understand context without manual hunting.
+  mental_damage: Yet another reason to perfect the art of asking an AI where the spaghetti is hidden instead of reading the code yourself.
+  tags:
+    - vscode
+    - semantic-search
+    - chatbot
+    - notion
+    - codebase
+  confidence: high
+curation:
+  status: included
+  reason: The project is a developer-facing assistant that integrates into VSCode to help navigate and understand an existing codebase via chat and search.
+  evidence:
+    - Repo description explicitly states 'Developer AI Persona Search Agent'.
+    - README highlights VSCode Extension for talking to your codebase and semantic search.
+    - Usecase section describes asking questions about the codebase and getting answers in seconds.
+placement:
+  primary_category: coding-agents
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1792) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.677Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:54.738Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:06:45.630Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

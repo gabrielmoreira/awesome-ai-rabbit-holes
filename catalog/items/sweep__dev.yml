@@ -1,0 +1,76 @@
+id: sweep__dev
+kind: website
+name: sweep.dev
+canonical_url: https://sweep.dev
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__sweep__dev__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Sweep
+        anchor_text: Sweep
+        extracted_url: https://sweep.dev
+        surrounding_text: "## [Sweep](https://sweep.dev/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A JetBrains IDE plugin offering AI-powered autocomplete, code search, and an agent for code review and editing.
+  why_it_matters: It brings first-class AI coding assistance and agentic features directly into IntelliJ, PyCharm, and other JetBrains IDEs without requiring a switch to a different editor.
+  mental_damage: Yet another reminder that your favorite IDE is now a high-stakes battleground where plugins fight to see who can predict your next keystroke fastest.
+  tags:
+    - jetbrains
+    - ide-plugin
+    - autocomplete
+    - coding-agent
+  confidence: high
+curation:
+  status: included
+  reason: It is a developer-facing coding agent and assistant that directly edits, reviews, and autocompletes code inside a JetBrains IDE workflow.
+  evidence:
+    - Scraped site describes it as 'The fastest AI copilot for JetBrains' with autocomplete, agent, and code review features.
+    - Changelog shows active development including AI Code Review, Web Search tools, and Remote MCP Server support.
+    - Listed in awesome-ai-agents under a section dedicated to Sweep as an AI agent for JetBrains.
+placement:
+  primary_category: coding-agents
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.445Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T20:49:41.263Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+    next_retry_at: null

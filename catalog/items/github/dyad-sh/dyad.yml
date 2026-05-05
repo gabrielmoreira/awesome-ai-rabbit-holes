@@ -1,0 +1,99 @@
+id: github__dyad-sh__dyad
+kind: github-repo
+name: dyad
+canonical_url: https://github.com/dyad-sh/dyad
+identity:
+  github_repo: dyad-sh/dyad
+provenance:
+  discoveries:
+    - id: discovery__github__dyad-sh__dyad__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: scraped
+        section_path:
+          - App Builders
+        anchor_text: Dyad.sh
+        extracted_url: https://www.dyad.sh
+        surrounding_text: "- **[Dyad.sh](https://www.dyad.sh/)** – Free, local, open-source AI app builder with any model and IDE integration."
+        confidence: high
+metadata:
+  github:
+    stars: 20251
+    forks: 2377
+    license: NOASSERTION
+    archived: false
+    created_at: "2025-04-11T06:33:48Z"
+    pushed_at: "2026-05-05T20:58:52Z"
+    description: Local, open-source AI app builder for power users ✨ v0 / Lovable / Replit / Bolt alternative 🌟 Star if you like it!
+    homepage: https://dyad.sh
+    topics:
+      - ai-app-builder
+      - anthropic
+      - artificial-intelligence
+      - bolt
+      - deepseek
+      - gemini
+      - generative-ai
+      - github
+      - llm
+      - llms
+      - lovable
+      - nextjs
+      - ollama
+      - openai
+      - qwen
+      - react
+      - typescript
+      - v0
+      - vercel
+    last_checked_at: "2026-05-05T21:01:58.113Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:58.113Z"
+      bytes: 1360
+insights:
+  summary: Dyad is a local, open-source AI app builder for Mac and Windows that runs alternatives to v0, Lovable, and Bolt directly on your machine using your own API keys.
+  why_it_matters: It lets developers rapidly prototype and ship full apps from prompts while keeping the runtime local and avoiding vendor lock-in on hosted builders.
+  mental_damage: Another day, another 'Lovable-but-local' clone, proving that the fastest way to ship an AI app builder is to promise power users they can finally own their stack while still pasting API keys into a desktop wrapper.
+  tags:
+    - local-ai
+    - app-builder
+    - open-source
+    - privacy
+  confidence: high
+curation:
+  status: included
+  reason: The primary surface is a prompt-to-app builder that runs locally, which aligns with the app-builders category rather than a coding agent that edits existing repos inside an IDE or CLI.
+  evidence:
+    - Repo description explicitly calls it a 'Local, open-source AI app builder for power users' and a 'v0 / Lovable / Replit / Bolt alternative'.
+    - README positions it as a local alternative to Lovable, v0, or Bolt that generates apps from prompts with no sign-up required.
+    - Listed under 'App Builders' in awesome-ai-coding-tools, reinforcing the builder-style workflow over repo-editing assistance.
+placement:
+  primary_category: app-builders
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (20251) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.685Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:58.113Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:17:20.644Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,99 @@
+id: github__demwick__polymarket-agent-mcp
+kind: github-repo
+name: polymarket-agent-mcp
+canonical_url: https://github.com/demwick/polymarket-agent-mcp
+identity:
+  github_repo: demwick/polymarket-agent-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__demwick__polymarket-agent-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: demwick/polymarket-agent-mcp
+        extracted_url: https://github.com/demwick/polymarket-agent-mcp
+        surrounding_text: "- [demwick/polymarket-agent-mcp](https://github.com/demwick/polymarket-agent-mcp) [![polymarket-agent-mcp MCP server](https://glama.ai/mcp/servers/demwick/polymarket-agent-mcp/badges/score.svg)](https://glama.ai/mcp/servers/demwick/polymarket-agent-mcp) 📇 🏠 - 49-tool Polymarket prediction market suite for AI agents. Direct trading, smart money flow detection, copy trading with auto-monitor, backtesting, arbitrage scanning, portfolio optimization, and real-time WebSocket price streaming. Preview mode for simulation, live mode for real orders."
+        confidence: high
+metadata:
+  github:
+    stars: 5
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2026-04-08T16:29:16Z"
+    pushed_at: "2026-04-30T01:36:36Z"
+    description: The most comprehensive MCP server for Polymarket — 48 tools spanning direct trading, market discovery, smart money tracking, copy trading, backtesting, risk management, and portfolio optimization. Works with Claude Code, Cursor, or any MCP-compatible client.
+    homepage: https://www.npmjs.com/package/polymarket-trader-mcp
+    topics:
+      - ai-agent
+      - ai-trading
+      - anthropic
+      - blockchain
+      - claude
+      - copy-trading
+      - defi
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - polymarket
+      - portfolio-management
+      - prediction-markets
+      - smart-money
+      - trading
+      - typescript
+      - websocket
+    last_checked_at: "2026-05-05T21:01:51.849Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:51.849Z"
+      bytes: 12789
+insights:
+  summary: An MCP server providing 48 tools for trading, analyzing, and automating Polymarket prediction markets, designed to be used with Claude Code, Cursor, and other MCP-compatible clients.
+  why_it_matters: It allows developers to integrate prediction market data, trading execution, and portfolio management directly into their AI-assisted coding workflows via a standardized protocol.
+  mental_damage: We have successfully abstracted gambling into a series of tool calls, so now your AI can confidently lose your money while you debug a TypeScript config file.
+  tags:
+    - mcp
+    - polymarket
+    - trading
+    - typescript
+    - agent-tools
+  confidence: high
+curation:
+  status: included
+  reason: The project is an MCP server implementation that exposes trading and market analysis tools to AI clients, fitting the MCP infrastructure category.
+  evidence:
+    - Repo description explicitly states it is 'The most comprehensive MCP server for Polymarket' with 48 tools.
+    - README confirms it works with 'Claude Code, Cursor, or any MCP-compatible client' and provides configuration examples for MCP servers.
+    - Listed in 'awesome-mcp-servers' under the Finance & Fintech section, confirming its identity as an MCP implementation.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.684Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:51.849Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:16:07.722Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,75 @@
+id: telex__automattic__ai
+kind: website
+name: telex.automattic.ai
+canonical_url: https://telex.automattic.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__telex__automattic__ai__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - CodeWP
+        anchor_text: CodeWP
+        extracted_url: https://codewp.ai
+        surrounding_text: "## [CodeWP](https://codewp.ai/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A browser-based AI authoring environment that generates fully functional WordPress projects from ideas or prompts.
+  why_it_matters: It lets developers and non-developers rapidly scaffold complete WordPress sites and plugins through prompt-driven generation rather than manual setup.
+  mental_damage: Another reminder that even the CMS faithful are now pretending they can ship a whole WordPress project without ever looking at a theme file.
+  tags:
+    - wordpress
+    - app-builder
+    - prompt-to-app
+  confidence: medium
+curation:
+  status: included
+  reason: This is a browser-first AI product that turns prompts into fully functional WordPress projects, which matches the app-builders category rather than a coding agent that works inside an IDE or repo.
+  evidence:
+    - Scraped site title describes it as an 'AI-Assisted Authoring Environment for WordPress'.
+    - Description states it transforms ideas into fully functional WordPress projects with Telex.
+    - Listed under awesome-ai-agents in a section focused on turning ideas into WordPress projects.
+placement:
+  primary_category: app-builders
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.731Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:48:36.869Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

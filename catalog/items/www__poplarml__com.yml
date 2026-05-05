@@ -1,0 +1,75 @@
+id: www__poplarml__com
+kind: website
+name: www.poplarml.com
+canonical_url: https://www.poplarml.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__poplarml__com__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: janhq/awesome-local-ai
+        url: https://github.com/janhq/awesome-local-ai
+        repository: janhq/awesome-local-ai
+      extraction:
+        mode: parsed
+        section_path:
+          - Developer tools
+        anchor_text: PoplarML
+        extracted_url: https://www.poplarml.com
+        surrounding_text: "- [PoplarML](https://www.poplarml.com) - PoplarML enables the deployment of production-ready, scalable ML systems with minimal engineering effort."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Poplar ML is a website and resource hub focused on local AI tools and open-source solutions for running models on personal hardware.
+  why_it_matters: It serves as a curated entry point for developers looking to experiment with or deploy AI models in private, local environments rather than relying on hosted APIs.
+  mental_damage: Yet another directory promising to tame the local AI chaos, just in case you needed one more tab open to remind you how many inference engines you haven't tried yet.
+  tags:
+    - local-ai
+    - directory
+    - resources
+  confidence: medium
+curation:
+  status: included
+  reason: The project is a curated collection and resource hub for local AI tools, fitting the 'Awesome Awesomes' category as a navigation aid for developers.
+  evidence:
+    - Listed in the 'awesome-local-ai' directory under the section for 'open source and/or local AI tools and solutions'.
+    - The URL points to a website (poplarml.com) rather than a standalone developer tool or framework.
+    - It is described as an 'awesome collection' in the source-list context.
+placement:
+  primary_category: awesome-awesomes
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.733Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:52:37.134Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

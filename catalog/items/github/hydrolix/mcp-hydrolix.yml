@@ -1,0 +1,96 @@
+id: github__hydrolix__mcp-hydrolix
+kind: github-repo
+name: mcp-hydrolix
+canonical_url: https://github.com/hydrolix/mcp-hydrolix
+identity:
+  github_repo: hydrolix/mcp-hydrolix
+provenance:
+  discoveries:
+    - id: discovery__github__hydrolix__mcp-hydrolix__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🗄️ <a name="databases"></a>Databases
+        anchor_text: hydrolix/mcp-hydrolix
+        extracted_url: https://github.com/hydrolix/mcp-hydrolix
+        surrounding_text: "- [hydrolix/mcp-hydrolix](https://github.com/hydrolix/mcp-hydrolix) 🎖️ 🐍 ☁️ - Hydrolix time-series datalake integration providing schema exploration and query capabilities to LLM-based workflows."
+        confidence: high
+    - id: discovery__github__hydrolix__mcp-hydrolix__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Hydrolix
+        extracted_url: https://github.com/hydrolix/mcp-hydrolix
+        surrounding_text: "- **[Hydrolix](https://github.com/hydrolix/mcp-hydrolix)** - Hydrolix time-series datalake integration providing schema exploration and query capabilities to LLM-based workflows."
+        confidence: high
+metadata:
+  github:
+    stars: 9
+    forks: 8
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-04-08T00:12:00Z"
+    pushed_at: "2026-05-04T23:47:33Z"
+    description: An MCP server for Hydrolix
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:39.499Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:39.499Z"
+      bytes: 15188
+insights:
+  summary: An MCP server that exposes Hydrolix database operations—such as running SQL queries, listing databases, and inspecting table schemas—to AI assistants like Claude Desktop and Claude Code.
+  why_it_matters: It lets developers query and inspect their Hydrolix clusters through natural language prompts inside their existing AI coding environments instead of switching to a separate database client.
+  mental_damage: Another specialized MCP server enters the ecosystem, proving that the future of software engineering is less about writing SQL and more about maintaining a growing fleet of protocol adapters.
+  tags:
+    - mcp
+    - database
+    - hydrolix
+    - claude
+  confidence: high
+curation:
+  status: included
+  reason: The project is a purpose-built MCP server for Hydrolix, which is a textbook fit for the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states 'An MCP server for Hydrolix'.
+    - README details MCP tools like run_select_query, list_databases, and get_table_info for Claude Desktop and Claude Code.
+    - Listed in the awesome-mcp-servers directory under 'Server Implementations > Databases'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.667Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:39.499Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:25:02.666Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

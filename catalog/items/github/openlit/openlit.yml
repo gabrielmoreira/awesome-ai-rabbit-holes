@@ -1,0 +1,101 @@
+id: github__openlit__openlit
+kind: github-repo
+name: openlit
+canonical_url: https://github.com/openlit/openlit
+identity:
+  github_repo: openlit/openlit
+provenance:
+  discoveries:
+    - id: discovery__github__openlit__openlit__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - LLMOps
+        anchor_text: OpenLIT
+        extracted_url: https://github.com/openlit/openlit
+        surrounding_text: "| [OpenLIT](https://github.com/openlit/openlit)                      | OpenLIT is an OpenTelemetry-native GenAI and LLM Application Observability tool and provides OpenTelmetry Auto-instrumentation for monitoring LLMs, VectorDBs and Frameworks. It provides valuable insights into token & cost usage, user interaction, and performance related metrics.                                                                                                                 | ![GitHub Badge](https://img.shields.io/github/stars/dokulabs/doku.svg?style=flat-square)                  |"
+        confidence: high
+metadata:
+  github:
+    stars: 2416
+    forks: 269
+    license: Apache-2.0
+    archived: false
+    created_at: "2024-01-23T17:40:59Z"
+    pushed_at: "2026-05-04T19:26:16Z"
+    description: "Open source platform for AI Engineering: OpenTelemetry-native LLM Observability, GPU Monitoring, Guardrails, Evaluations, Prompt Management, Vault, Playground. 🚀💻 Integrates with 50+ LLM Providers, VectorDBs, Agent Frameworks and GPUs."
+    homepage: https://docs.openlit.io
+    topics:
+      - ai-observability
+      - amd-gpu
+      - clickhouse
+      - distributed-tracing
+      - genai
+      - gpu-monitoring
+      - grafana
+      - langchain
+      - llmops
+      - llms
+      - metrics
+      - monitoring-tool
+      - nvidia-smi
+      - observability
+      - open-source
+      - openai
+      - opentelemetry
+      - otlp
+      - python
+      - tracing
+    last_checked_at: "2026-05-05T21:04:06.495Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:06.495Z"
+      bytes: 29193
+insights:
+  summary: An OpenTelemetry-native observability platform for AI engineering that provides LLM tracing, GPU monitoring, prompt management, evaluations, guardrails, and a playground across 50+ LLM providers and agent frameworks.
+  why_it_matters: It gives developers a single drop-in SDK to monitor, evaluate, and secure LLM-powered applications across the full stack from experimentation to production.
+  mental_damage: Now you can add observability-induced anxiety to your existing prompt-induced anxiety, all while pretending your Python monolith is a distributed GenAI system.
+  tags:
+    - llm-observability
+    - opentelemetry
+    - evals
+    - prompt-management
+    - gpu-monitoring
+  confidence: high
+curation:
+  status: included
+  reason: Fits evals and benchmarks because the core value includes LLM observability, built-in evaluation types, prompt regression, and performance measurement rather than acting as a coding assistant or app builder.
+  evidence:
+    - Repo description explicitly lists LLM Observability, Evaluations, Guardrails, and Prompt Management as core features.
+    - README details 11 built-in evaluation types including hallucination, bias, and safety using LLM-as-a-Judge.
+    - Listed in Awesome-LLMOps under the LLMOps section, aligning with observability and evaluation workflows.
+placement:
+  primary_category: evals
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (2416) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.711Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:06.495Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:42:50.760Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

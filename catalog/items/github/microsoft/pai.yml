@@ -1,0 +1,100 @@
+id: github__microsoft__pai
+kind: github-repo
+name: pai
+canonical_url: https://github.com/microsoft/pai
+identity:
+  github_repo: microsoft/pai
+provenance:
+  discoveries:
+    - id: discovery__github__microsoft__pai__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Large Scale Deployment
+          - ML Platforms
+        anchor_text: PAI
+        extracted_url: https://github.com/microsoft/pai
+        surrounding_text: "| [PAI](https://github.com/microsoft/pai)                 | Resource scheduling and cluster management for AI.                                                                                                                                                                                                                                                                                                                                                                                                                        | ![GitHub Badge](https://img.shields.io/github/stars/microsoft/pai.svg?style=flat-square)           |"
+        confidence: high
+metadata:
+  github:
+    stars: 2684
+    forks: 549
+    license: MIT
+    archived: true
+    created_at: "2017-09-25T11:24:51Z"
+    pushed_at: "2024-06-06T07:56:07Z"
+    description: Resource scheduling and cluster management for AI
+    homepage: https://openpai.readthedocs.io
+    topics:
+      - ai
+      - artificial-intelligence
+      - chainer
+      - cloud
+      - cluster-management
+      - cluster-manager
+      - gpu
+      - gpu-cluster
+      - gpu-computing
+      - gpu-scheduler
+      - jupyter
+      - kubernetes
+      - machine-learning
+      - model-training
+      - on-premise
+      - pytorch
+      - resource-management
+      - scheduling
+      - tensorflow
+    last_checked_at: "2026-05-05T21:03:39.203Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:39.203Z"
+      bytes: 20249
+insights:
+  summary: OpenPAI is a Microsoft-originated platform for scheduling resources and managing GPU clusters to run AI model training and Jupyter-based workloads on Kubernetes.
+  why_it_matters: It provides a web portal, SDK, and VS Code integration for teams that need to stand up on-premise or cloud GPU infrastructure for daily AI training tasks.
+  mental_damage: "Just what every developer needed: another Kubernetes-based platform to deploy so they can finally get back to waiting for a model to finish training."
+  tags:
+    - cluster-management
+    - gpu-scheduling
+    - kubernetes
+    - model-training
+  confidence: high
+curation:
+  status: excluded
+  reason: The project is archived and enters read-only mode after v1.8.1, and it focuses on ML infrastructure and cluster scheduling rather than direct AI developer tooling.
+  evidence:
+    - Repo is archived and the README states it 'entered stable mode with no major feature release planned' and is in 'read only mode'.
+    - Repo description and topics center on 'Resource scheduling and cluster management', 'gpu-cluster', and 'model-training', not developer AI tooling.
+    - Listed in Awesome-LLMOps under 'Large Scale Deployment > ML Platforms', which is infrastructure rather than the catalog's developer-tooling scope.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: needs_review
+  reason: Repository is archived
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.707Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:39.203Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:37:36.356Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,77 @@
+id: www__snowflake__com__en__product__cortex__code
+kind: website
+name: cortex-code
+canonical_url: https://www.snowflake.com/en/product/cortex-code
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__snowflake__com__en__product__cortex__code__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Terminal-native coding agents
+          - Closed Source
+        anchor_text: Cortex Code CLI
+        extracted_url: https://www.snowflake.com/en/product/cortex-code
+        surrounding_text: "- **[Cortex Code CLI](https://www.snowflake.com/en/product/cortex-code/)** `[Snowflake]` — Snowflake's data-native AI coding agent CLI for building pipelines, analytics, and AI apps with enterprise governance."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Cortex Code is a terminal-native AI coding agent provided by Snowflake for developer workflows.
+  why_it_matters: It brings autonomous coding assistance directly into the CLI, allowing developers to delegate code tasks within a terminal environment.
+  mental_damage: Another closed-source CLI agent enters the arena, proving that the only thing developers love more than writing code is installing a new tool to partially write it for them.
+  tags:
+    - cli
+    - coding-agent
+    - closed-source
+    - snowflake
+  confidence: medium
+curation:
+  status: included
+  reason: Fits the app-builders category as a hosted prompt-to-app product rather than a direct coding agent or AI IDE.
+  evidence:
+    - Listed in awesome-cli-coding-agents under 'Terminal-native coding agents > Closed Source'.
+    - URL and name indicate a product called 'Cortex Code' by Snowflake, implying a coding assistant.
+    - No repo description or README provided, but source-list context confirms the terminal-native coding agent use case.
+placement:
+  primary_category: app-builders
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.734Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:53:22.074Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

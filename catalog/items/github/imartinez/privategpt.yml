@@ -1,0 +1,82 @@
+id: github__imartinez__privategpt
+kind: github-repo
+name: privategpt
+canonical_url: https://github.com/imartinez/privategpt
+identity:
+  github_repo: imartinez/privategpt
+provenance:
+  discoveries:
+    - id: discovery__github__imartinez__privategpt__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Tools
+          - Agents
+        anchor_text: Private GPT
+        extracted_url: https://github.com/imartinez/privategpt
+        surrounding_text: "- [Private GPT](https://github.com/imartinez/privateGPT): Interact privately with your documents using the power of GPT, 100% privately, no data leaks ![GitHub Repo stars](https://img.shields.io/github/stars/imartinez/privateGPT?style=social)"
+        confidence: high
+metadata:
+  github:
+    stars: 57211
+    forks: 7598
+    license: Apache-2.0
+    archived: false
+    created_at: "2023-05-02T09:15:31Z"
+    pushed_at: "2026-02-26T09:56:49Z"
+    description: Interact with your documents using the power of GPT, 100% privately, no data leaks
+    homepage: https://privategpt.dev
+    topics: []
+    last_checked_at: "2026-05-05T21:02:42.282Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:42.282Z"
+      bytes: 8589
+insights:
+  summary: PrivateGPT is a production-ready, self-hosted API for building private RAG and context-aware AI applications using local LLMs, with document ingestion and both high-level and low-level API primitives.
+  why_it_matters: It provides developers with a local, OpenAI-compatible API to build AI features that require document interaction without sending sensitive data to external clouds.
+  mental_damage: Yet another '100% private' tool that still requires you to debug a stack of ingestion scripts, chunking logic, and local model weights to answer 'what does this PDF say?' without hitting an API.
+  tags:
+    - local-ai
+    - rag
+    - llm
+    - privacy
+    - self-hosted
+  confidence: high
+curation:
+  status: included
+  reason: The project is a developer-facing stack for running AI models locally to interact with documents, fitting the local-ai category by providing the runtime and API for private execution rather than being a generic coding assistant.
+  evidence:
+    - "Repo description states: 'Interact with your documents using the power of GPT, 100% privately, no data leaks'."
+    - README describes a 'production-ready AI project' providing an API for RAG pipelines and document ingestion using local LLMs.
+    - High star count (57,211) and active maintenance (pushed 2026-02-26) confirm strong ecosystem traction.
+placement:
+  primary_category: local-ai
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (57211) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.441Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:42.282Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:25:40.420Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

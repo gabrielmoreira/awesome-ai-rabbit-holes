@@ -1,0 +1,76 @@
+id: durable__com
+kind: website
+name: durable.com
+canonical_url: https://durable.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__durable__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - App Builders
+        anchor_text: Durable
+        extracted_url: https://durable.co
+        surrounding_text: "- **[Durable](https://durable.co/)** – AI website and business app builder from simple text prompts."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Durable is a browser-first SaaS platform that generates small business websites, marketing materials, and operational tools from prompts, targeting non-technical business owners rather than developers.
+  why_it_matters: While it wraps similar AI generation tech found in developer tools, it represents a verticalized, end-user version of app building that removes the need for technical implementation entirely.
+  mental_damage: We curate tools to help developers code faster, yet here is a tool proving they aren't needed to build the exact things they usually bill for.
+  tags:
+    - ai-website-builder
+    - saas
+    - no-code
+    - business-tools
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a vertical SaaS product for small business owners to build their own websites and manage operations, lacking a developer-tooling or code-first interface.
+  evidence:
+    - Scraped site context emphasizes 'Build your coaching business' and 'Trusted by 3 million business owners', not developers.
+    - The product is a 'complete AI business builder' for non-technical users, featuring invoicing and CRM, not a tool for editing source code or building software.
+    - Listed in awesome-ai-coding-tools under 'App Builders', but the surface is a hosted business suite, not a developer workflow tool.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.727Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:44:20.313Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

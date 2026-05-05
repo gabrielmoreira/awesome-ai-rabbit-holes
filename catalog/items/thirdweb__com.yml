@@ -1,0 +1,77 @@
+id: thirdweb__com
+kind: website
+name: thirdweb.com
+canonical_url: https://thirdweb.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__thirdweb__com__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Thirdweb
+        extracted_url: https://thirdweb.com
+        surrounding_text: "- **[Thirdweb](https://github.com/thirdweb-dev/ai/tree/main/python/thirdweb-mcp)** - Read/write to over 2k blockchains, enabling data querying, contract analysis/deployment, and transaction execution, powered by [Thirdweb](https://thirdweb.com/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: thirdweb provides web3 infrastructure, SDKs, and APIs that enable developers to build AI agents capable of autonomously transacting, paying for services, and interacting with blockchain data.
+  why_it_matters: It offers a specialized developer stack—including a dedicated MCP server—for building crypto-native AI applications that can hold assets and execute payments programmatically.
+  mental_damage: We have officially reached the stage where your agent needs a wallet, a Visa card, and a Solana RPC endpoint just to decide if it's Tuesday.
+  tags:
+    - web3
+    - ai-agents
+    - blockchain
+    - mcp
+    - payments
+  confidence: high
+curation:
+  status: included
+  reason: While it has an MCP server, the core product is a comprehensive SDK and API framework for embedding autonomous transaction capabilities into AI apps, fitting the code-first SDK definition.
+  evidence:
+    - Site claims 'Infrastructure for AI Agents' with 'Powerful API specialized for blockchain to build agents'.
+    - Developer section lists SDKs for Typescript, React, Unity, and a dedicated 'MCP Server'.
+    - Included in awesome-mcp-servers under 'Official Servers' for agent payments and service interaction.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.731Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:48:46.849Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

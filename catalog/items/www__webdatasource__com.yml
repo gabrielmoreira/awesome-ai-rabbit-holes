@@ -1,0 +1,76 @@
+id: www__webdatasource__com
+kind: website
+name: www.webdatasource.com
+canonical_url: https://www.webdatasource.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__webdatasource__com__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: WebDataSource
+        extracted_url: https://webdatasource.com/releases/latest/mcp/index.html
+        surrounding_text: "- **[WebDataSource](https://webdatasource.com/releases/latest/mcp/index.html)** - Web Crawler for AI Agents. Supercharge your AI agents with an MCP-ready web crawler that delivers real-time insights from the web and your private knowledge bases."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A Model Context Protocol server that exposes web crawling, scraping, and data retrieval tools for integration into agentic AI workflows and IDEs.
+  why_it_matters: Developers can connect this MCP server to IDEs like VS Code to let coding agents autonomously discover, crawl, and extract structured data from the internet or intranets.
+  mental_damage: Another essential piece of infrastructure so your agent can browse the web for you, because apparently the one thing it still needs help with is reading the documentation you already opened in a different window.
+  tags:
+    - mcp
+    - web-scraping
+    - agent-tooling
+    - ide-integration
+  confidence: high
+curation:
+  status: included
+  reason: The product is explicitly an MCP server providing crawl, scrape, and retrieval tools for IDEs and agentic systems, which fits the MCP Servers and Tooling category cleanly.
+  evidence:
+    - "Scraped site title and description state: 'Web Data Source: Pluggable Web Crawler for Agentic AI' and describe an MCP server for IDEs and agents."
+    - Documentation details MCP tools like StartJob, Crawl, Scrape, and GetDownloadTaskStatus, and shows connection instructions for Visual Studio Code.
+    - Listed in the awesome-mcp-servers directory under Official Servers as a pluggable web crawler for Agentic AI systems.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.734Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:54:11.106Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

@@ -1,0 +1,102 @@
+id: github__geiserx__cashpilot-mcp
+kind: github-repo
+name: cashpilot-mcp
+canonical_url: https://github.com/geiserx/cashpilot-mcp
+identity:
+  github_repo: geiserx/cashpilot-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__geiserx__cashpilot-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: GeiserX/cashpilot-mcp
+        extracted_url: https://github.com/geiserx/cashpilot-mcp
+        surrounding_text: "- [GeiserX/cashpilot-mcp](https://github.com/GeiserX/cashpilot-mcp) [![GeiserX/cashpilot-mcp MCP server](https://glama.ai/mcp/servers/GeiserX/cashpilot-mcp/badges/score.svg)](https://glama.ai/mcp/servers/GeiserX/cashpilot-mcp) 🏎️ ☁️ 🍎 🪟 🐧 - Go-based MCP server for CashPilot bandwidth-sharing dashboards. Monitor passive income, DePIN earnings, and container status across multiple sharing services. Docker image available."
+        confidence: high
+metadata:
+  github:
+    stars: 2
+    forks: 0
+    license: GPL-3.0
+    archived: false
+    created_at: "2026-04-01T10:40:18Z"
+    pushed_at: "2026-04-25T00:38:22Z"
+    description: MCP Server for CashPilot — monitor passive income earnings, manage services, and control fleet workers via MCP
+    homepage: null
+    topics:
+      - bandwidth-sharing
+      - cashpilot
+      - container-management
+      - dashboard
+      - depin
+      - docker
+      - earnings
+      - fleet-management
+      - go
+      - golang
+      - homelab
+      - json-rpc
+      - llm
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - monitoring
+      - passive-income
+      - self-hosted
+      - stdio
+    last_checked_at: "2026-05-05T21:02:18.177Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:18.177Z"
+      bytes: 8001
+insights:
+  summary: An MCP server that exposes a CashPilot instance to LLMs, allowing AI agents to monitor passive income earnings, manage services, and control fleet workers via JSON-RPC.
+  why_it_matters: It allows developers running DePIN or bandwidth-sharing fleets to hand off monitoring and service management to their AI workflows via the Model Context Protocol.
+  mental_damage: We have officially reached the stage where you can delegate checking your beanie-baby-income dashboard to an LLM, because apparently staring at docker logs was too taxing on the human spirit.
+  tags:
+    - mcp
+    - cashpilot
+    - fleet-management
+    - depin
+    - passive-income
+  confidence: high
+curation:
+  status: included
+  reason: The project is a dedicated MCP server implementation designed to bridge CashPilot with LLM tooling, fitting cleanly into the MCP infrastructure category.
+  evidence:
+    - Repo description explicitly states 'MCP Server for CashPilot'.
+    - README confirms it 'exposes any CashPilot instance as an MCP server' with resources and tools.
+    - Listed in awesome-mcp-servers under 'Finance & Fintech' implementations.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.688Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:18.177Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:20:48.208Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

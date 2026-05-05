@@ -1,0 +1,83 @@
+id: github__autopackai__beebot
+kind: github-repo
+name: beebot
+canonical_url: https://github.com/autopackai/beebot
+identity:
+  github_repo: autopackai/beebot
+provenance:
+  discoveries:
+    - id: discovery__github__autopackai__beebot__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - BeeBot
+        anchor_text: BeeBot
+        extracted_url: https://github.com/autopackai/beebot
+        surrounding_text: "## [BeeBot](https://github.com/AutoPackAI/beebot)"
+        confidence: high
+metadata:
+  github:
+    stars: 452
+    forks: 83
+    license: MIT
+    archived: false
+    created_at: "2023-07-11T22:37:03Z"
+    pushed_at: "2023-10-22T23:25:16Z"
+    description: An Autonomous AI Agent that works
+    homepage: ""
+    topics:
+      - artificial-intelligence
+      - autonomous-agents
+    last_checked_at: "2026-05-05T21:01:13.701Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:13.701Z"
+      bytes: 5710
+insights:
+  summary: BeeBot is an autonomous AI agent framework with a CLI and API interface that uses AutoPack for tool selection and supports persistent task execution.
+  why_it_matters: It offers developers a self-hosted environment to experiment with generalized autonomous task execution and tool-using agents outside of hosted SaaS platforms.
+  mental_damage: The README calmly admits that late 2023 LLMs weren't up to the task of generalized autonomy, yet the project remains online, preserving a perfect snapshot of the 'just one more wrapper' optimism of that era.
+  tags:
+    - autonomous-agents
+    - agent-framework
+    - cli
+    - api
+    - self-hosted
+  confidence: medium
+curation:
+  status: included
+  reason: The project is a code-first framework and runtime for building autonomous agents with tooling, persistence, and an API, fitting the developer-building-with-code model of ai-frameworks rather than a repo-editing coding agent.
+  evidence:
+    - Repo description states it is 'An Autonomous AI Agent that works', positioned as a developer-facing framework.
+    - README emphasizes 'Functionality and flexibility first' and provides CLI and API usage patterns for developers to run and integrate.
+    - Created in mid-2023 and last pushed in late 2023, showing it is an early autonomous agent experiment rather than an active IDE tool.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (452) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.440Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:13.701Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:09:41.414Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

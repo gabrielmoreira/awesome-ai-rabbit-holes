@@ -1,0 +1,82 @@
+id: github__kukapay__crypto-orderbook-mcp
+kind: github-repo
+name: crypto-orderbook-mcp
+canonical_url: https://github.com/kukapay/crypto-orderbook-mcp
+identity:
+  github_repo: kukapay/crypto-orderbook-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__kukapay__crypto-orderbook-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: kukapay/crypto-orderbook-mcp
+        extracted_url: https://github.com/kukapay/crypto-orderbook-mcp
+        surrounding_text: "- [kukapay/crypto-orderbook-mcp](https://github.com/kukapay/crypto-orderbook-mcp) 🐍 ☁️ - Analyzing order book depth and imbalance across major crypto exchanges."
+        confidence: high
+metadata:
+  github:
+    stars: 16
+    forks: 8
+    license: MIT
+    archived: false
+    created_at: "2025-05-07T10:18:41Z"
+    pushed_at: "2025-05-07T10:18:58Z"
+    description: An MCP server that analyzes order book depth and imbalance across major crypto exchanges.
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:03:10.197Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:10.197Z"
+      bytes: 2600
+insights:
+  summary: An MCP server that calculates order book depth, imbalance, and mid-price data for crypto trading pairs across major exchanges like Binance, Kraken, and Coinbase.
+  why_it_matters: It allows AI agents and trading systems to reason about real-time market microstructure and liquidity directly through the Model Context Protocol.
+  mental_damage: Your AI agent can now explain why the market is crashing in real-time, while your portfolio remains entirely algorithmic and equally doomed.
+  tags:
+    - mcp
+    - crypto
+    - trading
+    - finance
+    - orderbook
+  confidence: high
+curation:
+  status: included
+  reason: The repository is explicitly an MCP server implementing protocol tooling for crypto exchange data, which fits the MCP category precisely.
+  evidence:
+    - "Repo description states: 'An MCP server that analyzes order book depth and imbalance across major crypto exchanges.'"
+    - README confirms it provides MCP tools like `calculate_orderbook` and `compare_orderbook` for AI agents.
+    - Listed in awesome-mcp-servers under the Finance & Fintech section.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.702Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:10.197Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:31:48.421Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

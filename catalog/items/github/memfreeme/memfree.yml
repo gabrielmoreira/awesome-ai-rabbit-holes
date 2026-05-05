@@ -1,0 +1,111 @@
+id: github__memfreeme__memfree
+kind: github-repo
+name: memfree
+canonical_url: https://github.com/memfreeme/memfree
+identity:
+  github_repo: memfreeme/memfree
+provenance:
+  discoveries:
+    - id: discovery__github__memfreeme__memfree__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - MemFree
+        anchor_text: MemFree
+        extracted_url: https://github.com/memfreeme/memfree
+        surrounding_text: "## [MemFree](https://github.com/memfreeme/memfree)"
+        confidence: high
+    - id: discovery__github__memfreeme__memfree__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Open Source Projects
+          - Other / Chatbots
+        anchor_text: MemFree
+        extracted_url: https://github.com/memfreeme/memfree
+        surrounding_text: "- [MemFree](https://github.com/memfreeme/memfree) - Open Source Hybrid AI Search Engine, Instantly Get Accurate Answers from the Internet, Bookmarks, Notes, and Docs. Support One-Click Deployment. ![GitHub Repo stars](https://img.shields.io/github/stars/memfreeme/memfree?style=social)"
+        confidence: high
+metadata:
+  github:
+    stars: 1497
+    forks: 208
+    license: MIT
+    archived: false
+    created_at: "2024-06-15T04:16:59Z"
+    pushed_at: "2025-08-08T15:39:51Z"
+    description: MemFree - Hybrid AI Search Engine & AI Page Generator
+    homepage: https://www.memfree.me?ref=github.com
+    topics:
+      - ai
+      - ai-search
+      - ai-search-engine
+      - devfast
+      - generate-ui
+      - hacktoberfest
+      - hacktoberfest-accepted
+      - hybrid-ai-search
+      - page-generator
+      - react
+      - search-engine
+      - serverless-vector
+      - shadcn-ui
+      - vector-search
+    last_checked_at: "2026-05-05T21:03:35.104Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:35.104Z"
+      bytes: 9915
+insights:
+  summary: MemFree is an open-source hybrid AI search engine and browser-based AI page generator that creates React + Tailwind + Shadcn UI pages from text, images, or files.
+  why_it_matters: It lets developers prototype and publish production-ready UI pages in seconds while simultaneously offering AI search across their knowledge base and the web.
+  mental_damage: Another brave attempt to bundle every AI capability into one tab so you can feel productive while forgetting how to write a div from memory.
+  tags:
+    - ai-search
+    - page-generator
+    - react
+    - ui-generation
+    - shadcn-ui
+  confidence: high
+curation:
+  status: included
+  reason: The primary surface is a browser-first prompt-to-site builder that generates and publishes full UI pages, which clearly fits the app-builders category.
+  evidence:
+    - Repo description states 'Hybrid AI Search Engine & AI Page Generator' and README positions it as a tool to 'generate production-ready UI pages for you in seconds.'
+    - Features include one-click UI publishing, image-driven UI generation, and React + Tailwind + Shadcn UI integration for complete page creation.
+    - Active repo with 1497 stars, last pushed 2025-08-08, not archived, and listed in awesome-ai-agents and awesome-langchain directories.
+placement:
+  primary_category: app-builders
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1497) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.669Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:35.104Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:36:48.160Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

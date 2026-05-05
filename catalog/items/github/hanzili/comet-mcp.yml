@@ -1,0 +1,85 @@
+id: github__hanzili__comet-mcp
+kind: github-repo
+name: comet-mcp
+canonical_url: https://github.com/hanzili/comet-mcp
+identity:
+  github_repo: hanzili/comet-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__hanzili__comet-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📂 <a name="browser-automation"></a>Browser Automation
+        anchor_text: hanzili/comet-mcp
+        extracted_url: https://github.com/hanzili/comet-mcp
+        surrounding_text: "- [hanzili/comet-mcp](https://github.com/hanzili/comet-mcp) 📇 🏠 🍎 - Connect to Perplexity Comet browser for agentic web browsing, deep research, and real-time task monitoring."
+        confidence: high
+metadata:
+  github:
+    stars: 153
+    forks: 25
+    license: MIT
+    archived: false
+    created_at: "2026-01-03T05:05:45Z"
+    pushed_at: "2026-01-13T05:34:37Z"
+    description: MCP Server connecting to Perplexity Comet browser
+    homepage: ""
+    topics:
+      - agentic-ai
+      - agentic-browser
+      - automation
+      - mcp-server
+    last_checked_at: "2026-05-05T21:02:30.717Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:30.717Z"
+      bytes: 4741
+insights:
+  summary: An MCP server that connects Claude Code to the Perplexity Comet browser, delegating web research and browsing tasks to a separate agent while keeping the coding assistant focused on code.
+  why_it_matters: It lets developers hand off deep research, login flows, and dynamic site interaction to a dedicated browsing agent without bloating the coding model's context window.
+  mental_damage: We have now reached the point where your coding assistant hires a browsing assistant so it doesn't have to think about the web while it thinks about your code.
+  tags:
+    - mcp
+    - browser-automation
+    - agentic-ai
+    - claude-code
+  confidence: high
+curation:
+  status: included
+  reason: The primary artifact is an MCP server that bridges Claude Code with the Perplexity Comet browser, which fits cleanly into MCP Servers and Tooling.
+  evidence:
+    - "Repo description: 'MCP Server connecting to Perplexity Comet browser'"
+    - "README: 'An MCP server that connects Claude Code to Perplexity Comet'"
+    - Listed in awesome-mcp-servers under Browser Automation
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (153) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.690Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:30.717Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:23:30.212Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

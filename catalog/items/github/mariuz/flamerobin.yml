@@ -1,0 +1,87 @@
+id: github__mariuz__flamerobin
+kind: github-repo
+name: flamerobin
+canonical_url: https://github.com/mariuz/flamerobin
+identity:
+  github_repo: mariuz/flamerobin
+provenance:
+  discoveries:
+    - id: discovery__github__mariuz__flamerobin__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: scraped
+        section_path:
+          - Server Implementations
+          - 🗄️ <a name="databases"></a>Databases
+        anchor_text: FlameRobin's
+        extracted_url: http://www.flamerobin.org
+        surrounding_text: "- [Michael2150/flamerobin-mcp-server](https://github.com/Michael2150/flamerobin-mcp-server) [![Michael2150/flamerobin-mcp-server MCP server](https://glama.ai/mcp/servers/Michael2150/flamerobin-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/Michael2150/flamerobin-mcp-server) #️⃣ 🏠 🪟 - Firebird database MCP server that reads connection details from [FlameRobin's](http://www.flamerobin.org/) config — no credential setup required. Access all locally registered databases in one session with full schema introspection, DDL/DML execution, execution plans, and missing index analysis."
+        confidence: high
+metadata:
+  github:
+    stars: 246
+    forks: 73
+    license: MIT
+    archived: false
+    created_at: "2015-11-18T13:28:05Z"
+    pushed_at: "2026-05-05T21:00:09Z"
+    description: "FlameRobin is a database administration tool for Firebird RDBMS. Our goal is to build a tool that is:  lightweight (small footprint, fast execution) cross-platform (Linux, Windows, Mac OS, FreeBSD) dependent only on other Open Source software"
+    homepage: http://flamerobin.org
+    topics:
+      - cplusplus
+      - cpp
+      - firebird
+      - firebirdsql
+      - sql
+      - wxwidgets
+    last_checked_at: "2026-05-05T21:03:29.678Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:29.678Z"
+      bytes: 3845
+insights:
+  summary: FlameRobin is a lightweight, cross-platform, open-source database administration tool specifically designed for the Firebird RDBMS.
+  why_it_matters: It provides developers working with Firebird a fast, low-footprint GUI client for database management across Linux, Windows, and macOS.
+  mental_damage: While the AI world chases autonomous agents that write code, some of us are still just trying to find a C++20 native GUI tool that won't crash while we manually administer a Firebird instance.
+  tags:
+    - firebird
+    - database
+    - admin-tool
+    - cpp
+    - cross-platform
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a traditional database administration GUI with no AI, agent, or LLM-facing features, despite appearing in an MCP servers list.
+  evidence:
+    - Repo description and README explicitly define it as a C++ administration tool for Firebird RDBMS with no mention of AI.
+    - Listed in awesome-mcp-servers, but the linked description confirms it is a standard DB tool, not an MCP server implementation.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (246) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.705Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:29.678Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:35:45.637Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

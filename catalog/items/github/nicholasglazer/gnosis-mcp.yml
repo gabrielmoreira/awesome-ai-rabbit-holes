@@ -1,0 +1,99 @@
+id: github__nicholasglazer__gnosis-mcp
+kind: github-repo
+name: gnosis-mcp
+canonical_url: https://github.com/nicholasglazer/gnosis-mcp
+identity:
+  github_repo: nicholasglazer/gnosis-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__nicholasglazer__gnosis-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: nicholasglazer/gnosis-mcp
+        extracted_url: https://github.com/nicholasglazer/gnosis-mcp
+        surrounding_text: "- [nicholasglazer/gnosis-mcp](https://github.com/nicholasglazer/gnosis-mcp) 🐍 🏠 - Zero-config MCP server for searchable documentation. Loads markdown into SQLite (default) or PostgreSQL with FTS5/tsvector keyword search and optional pgvector hybrid semantic search."
+        confidence: high
+metadata:
+  github:
+    stars: 20
+    forks: 7
+    license: MIT
+    archived: false
+    created_at: "2026-02-15T03:33:57Z"
+    pushed_at: "2026-04-19T20:41:46Z"
+    description: Zero-config MCP server for searchable documentation (SQLite default, PostgreSQL optional)
+    homepage: https://gnosismcp.com
+    topics:
+      - ai
+      - claude
+      - developer-tools
+      - documentation
+      - knowledge-base
+      - llm
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - pgvector
+      - postgresql
+      - python
+      - rag
+      - search
+      - self-hosted
+      - sqlite
+      - vector-search
+    last_checked_at: "2026-05-05T21:03:54.450Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:54.450Z"
+      bytes: 25926
+insights:
+  summary: A zero-config MCP server that indexes local documentation, git history, and websites into a local SQLite or PostgreSQL database for efficient hybrid search by AI agents.
+  why_it_matters: It drastically reduces token usage and hallucinations by letting coding agents retrieve precise, grounded documentation snippets instead of ingesting entire files.
+  mental_damage: Because apparently the bleeding edge of AI engineering in 2026 is just building a better local search index so your agent stops hallucinating the API docs you already wrote.
+  tags:
+    - mcp
+    - rag
+    - local-ai
+    - documentation
+    - context-engineering
+  confidence: high
+curation:
+  status: included
+  reason: The project is a Model Context Protocol server designed to provide documentation search capabilities to AI agents, fitting squarely into the MCP infrastructure category.
+  evidence:
+    - Repo description explicitly defines it as a 'Zero-config MCP server for searchable documentation'.
+    - README emphasizes MCP round-trip performance (8.7ms) and serving data to 'AI agents'.
+    - Listed under 'Server Implementations > Knowledge & Memory' in the awesome-mcp-servers directory.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.709Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:54.450Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:40:36.384Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

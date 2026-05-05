@@ -1,0 +1,101 @@
+id: github__generalaction__emdash
+kind: github-repo
+name: emdash
+canonical_url: https://github.com/generalaction/emdash
+identity:
+  github_repo: generalaction/emdash
+provenance:
+  discoveries:
+    - id: discovery__github__generalaction__emdash__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Session managers & parallel runners
+        anchor_text: Emdash
+        extracted_url: https://github.com/generalaction/emdash
+        surrounding_text: "- **[Emdash](https://github.com/generalaction/emdash)** `⭐ 4.2k` — Run multiple coding agents concurrently with coordinated workflows."
+        confidence: high
+metadata:
+  github:
+    stars: 4257
+    forks: 404
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-08-28T07:19:57Z"
+    pushed_at: "2026-05-05T20:48:51Z"
+    description: Emdash is the Open-Source Agentic Development Environment (🧡 YC W26). Run multiple coding agents in parallel. Use any provider.
+    homepage: https://emdash.sh
+    topics:
+      - agenticdevelopment
+      - agenticdevelopmentenvironment
+      - ai
+      - claude-code
+      - cli
+      - coding-agents
+      - codingagents
+      - containerization
+      - docker
+      - gitworktrees
+      - jira
+      - linear
+      - llm
+      - openai
+      - opensource
+      - orchestration
+      - parallel-agents
+      - parallelexecution
+      - terminal
+    last_checked_at: "2026-05-05T21:02:18.482Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:18.482Z"
+      bytes: 11844
+insights:
+  summary: An open-source, provider-agnostic desktop app that runs multiple CLI coding agents in parallel, isolated in their own git worktrees, on local or remote machines via SSH.
+  why_it_matters: It centralizes and parallelizes agentic coding workflows across 24+ CLI providers while adding ticket integration, diff review, and CI/CD checks in a single environment.
+  mental_damage: Finally, a dedicated desktop environment to orchestrate the growing swarm of CLI agents so you can feel productive while watching four different LLMs refactor the same function into four slightly different kinds of broken.
+  tags:
+    - agentic-ide
+    - parallel-agents
+    - cli-orchestration
+    - git-worktrees
+    - yc-w26
+  confidence: high
+curation:
+  status: included
+  reason: This is a desktop agentic development environment that directly coordinates coding agents working on source code inside git worktrees, fitting the coding-agents category with a terminal/CLI focus.
+  evidence:
+    - "Repo description: 'Run multiple coding agents in parallel. Use any provider.'"
+    - "README: 'lets you run multiple coding agents in parallel, each isolated in its own git worktree... supports 24 CLI agents, including Claude Code, Codex, OpenCode, Gemini and Amp.'"
+    - Seen in awesome-cli-coding-agents under 'Session managers & parallel runners'.
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (4257) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.688Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:18.482Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:20:51.471Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

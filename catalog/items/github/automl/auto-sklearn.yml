@@ -1,0 +1,90 @@
+id: github__automl__auto-sklearn
+kind: github-repo
+name: auto-sklearn
+canonical_url: https://github.com/automl/auto-sklearn
+identity:
+  github_repo: automl/auto-sklearn
+provenance:
+  discoveries:
+    - id: discovery__github__automl__auto-sklearn__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - AutoML
+        anchor_text: auto-sklearn
+        extracted_url: https://github.com/automl/auto-sklearn
+        surrounding_text: "| [auto-sklearn](https://github.com/automl/auto-sklearn)                       | an automated machine learning toolkit and a drop-in replacement for a scikit-learn estimator.                                                                                   | ![GitHub Badge](https://img.shields.io/github/stars/automl/auto-sklearn.svg?style=flat-square)             |"
+        confidence: high
+metadata:
+  github:
+    stars: 8091
+    forks: 1324
+    license: BSD-3-Clause
+    archived: false
+    created_at: "2015-07-02T15:38:10Z"
+    pushed_at: "2026-04-21T14:03:33Z"
+    description: Automated Machine Learning with scikit-learn
+    homepage: https://automl.github.io/auto-sklearn
+    topics:
+      - automated-machine-learning
+      - automl
+      - bayesian-optimization
+      - hyperparameter-optimization
+      - hyperparameter-search
+      - hyperparameter-tuning
+      - meta-learning
+      - metalearning
+      - scikit-learn
+      - smac
+    last_checked_at: "2026-05-05T21:01:12.880Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:12.880Z"
+      bytes: 2439
+insights:
+  summary: An automated machine learning toolkit that acts as a drop-in replacement for scikit-learn estimators to automate algorithm selection and hyperparameter tuning.
+  why_it_matters: It allows data scientists to automate the tedious manual loop of model selection and hyperparameter optimization within the familiar scikit-learn API.
+  mental_damage: It promises to fully automate the 'art' of ML modeling, neatly solving the pipeline while you still struggle to explain to stakeholders why the data is garbage in the first place.
+  tags:
+    - automl
+    - scikit-learn
+    - hyperparameter-tuning
+    - machine-learning
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a traditional automated machine learning library for data scientists, lacking the developer-facing AI tooling, coding agents, or infrastructure focus required for this catalog.
+  evidence:
+    - Repo description states it is 'Automated Machine Learning with scikit-learn', targeting ML modeling rather than developer workflows.
+    - README demonstrates a standard Python library usage (fit/predict) for classification, not code generation or IDE integration.
+    - Listed in Awesome-LLMOps under 'AutoML', which focuses on ML operations rather than the developer tooling/AI assistant scope of this catalog.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (8091) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.680Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:12.880Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:09:35.419Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

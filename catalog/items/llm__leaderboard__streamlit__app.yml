@@ -1,0 +1,76 @@
+id: llm__leaderboard__streamlit__app
+kind: website
+name: llm-leaderboard.streamlit.app
+canonical_url: https://llm-leaderboard.streamlit.app
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__llm__leaderboard__streamlit__app__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: janhq/awesome-local-ai
+        url: https://github.com/janhq/awesome-local-ai
+        repository: janhq/awesome-local-ai
+      extraction:
+        mode: parsed
+        section_path:
+          - LLM Leaderboard
+        anchor_text: LLM-Leaderboard-streamlit
+        extracted_url: https://llm-leaderboard.streamlit.app
+        surrounding_text: "- [LLM-Leaderboard-streamlit](https://llm-leaderboard.streamlit.app/) - A joint community effort to create one central leaderboard for LLMs."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A Streamlit web application that provides a leaderboard for comparing the performance of various large language models.
+  why_it_matters: It offers developers a quick, visual reference to benchmark model capabilities when selecting an LLM for their specific application.
+  mental_damage: Yet another arena where we obsess over 0.5% benchmark gains while our own production logs remain 90% hallucination errors.
+  tags:
+    - llm
+    - benchmark
+    - leaderboard
+    - eval
+  confidence: medium
+curation:
+  status: included
+  reason: The project is a hosted leaderboard application designed to measure and compare LLM performance, fitting the evals category.
+  evidence:
+    - URL is https://llm-leaderboard.streamlit.app, indicating a hosted benchmark tool.
+    - Listed in the 'awesome-local-ai' directory under the section 'LLM Leaderboard'.
+    - The name and context clearly identify it as a tool for evaluating model performance.
+placement:
+  primary_category: evals
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.728Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:45:57.417Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

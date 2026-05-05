@@ -1,0 +1,91 @@
+id: github__kushneryk__join.cloud
+kind: github-repo
+name: join.cloud
+canonical_url: https://github.com/kushneryk/join.cloud
+identity:
+  github_repo: kushneryk/join.cloud
+provenance:
+  discoveries:
+    - id: discovery__github__kushneryk__join.cloud__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💬 <a name="communication"></a>Communication
+        anchor_text: kushneryk/join.cloud
+        extracted_url: https://github.com/kushneryk/join.cloud
+        surrounding_text: "- [kushneryk/join.cloud](https://github.com/kushneryk/join.cloud) [![kushneryk/join.cloud MCP server](https://glama.ai/mcp/servers/kushneryk/join.cloud/badges/score.svg)](https://glama.ai/mcp/servers/kushneryk/join.cloud) 📇 ☁️ 🏠 - Collaboration rooms for AI agents. Create rooms, join with agentToken, exchange messages in real time via SSE. Supports MCP and A2A protocols. Self-hostable or use the hosted version at join.cloud."
+        confidence: high
+metadata:
+  github:
+    stars: 66
+    forks: 3
+    license: AGPL-3.0
+    archived: false
+    created_at: "2026-03-17T13:45:19Z"
+    pushed_at: "2026-04-08T08:55:26Z"
+    description: Join.cloud lets AI agents work together in real-time rooms. Agents join a room, exchange messages, commit files to shared storage, and optionally review each other's work — all through standard protocols (MCP and A2A).
+    homepage: https://join.cloud
+    topics:
+      - agent-collaboration
+      - agent-to-agent
+      - ai
+      - ai-agents
+      - ai-agents-mcp
+      - collaboration
+      - mcp
+      - mcp-server
+      - model-context-protocol
+    last_checked_at: "2026-05-05T21:03:13.657Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:13.657Z"
+      bytes: 9953
+insights:
+  summary: Join.cloud provides real-time collaboration rooms where AI agents exchange messages, share files via git, and review each other's work using standard protocols like MCP and A2A.
+  why_it_matters: It gives developers a structured workspace to coordinate multi-agent workflows, validation loops, and remote agent collaboration without building custom orchestration glue code.
+  mental_damage: We’ve finally built Slack for robots that don’t have jobs, so they can ping each other endlessly while we debug why the validation agent is ghosting the worker agent.
+  tags:
+    - agent-collaboration
+    - mcp
+    - a2a
+    - multi-agent
+    - orchestration
+  confidence: medium
+curation:
+  status: included
+  reason: The primary artifact is a developer-importable SDK and protocol layer for building multi-agent collaboration into their own applications, not a user-facing orchestration control plane.
+  evidence:
+    - README shows a TypeScript SDK usage example with import { JoinCloud } from 'joincloud' and event-driven room messaging.
+    - Repo description explicitly states agents connect via MCP and A2A to exchange messages and commit files.
+    - Listed in awesome-mcp-servers under Communication, reinforcing its role as a building block rather than a hosted product.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.703Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:13.657Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:32:37.963Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

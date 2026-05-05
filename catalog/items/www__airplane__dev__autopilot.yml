@@ -1,0 +1,75 @@
+id: www__airplane__dev__autopilot
+kind: website
+name: autopilot
+canonical_url: https://www.airplane.dev/autopilot
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__airplane__dev__autopilot__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Airplane Autopilot
+        anchor_text: Airplane Autopilot
+        extracted_url: https://www.airplane.dev/autopilot
+        surrounding_text: "## [Airplane Autopilot](https://www.airplane.dev/autopilot/?utm_source=awesome-ai-agents/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Airplane Autopilot is an AI agent designed to help software engineers build internal tools by generating and running code on the Airplane platform.
+  why_it_matters: It allows developers to describe internal tool requirements in natural language and have the agent handle the implementation details within the Airplane execution environment.
+  mental_damage: Another autonomous agent enters the ring, promising to write the code so you can spend your afternoon debugging why the agent thought 'User' referred to the logged-in admin.
+  tags:
+    - agents
+    - internal-tools
+    - automation
+    - airplane
+  confidence: medium
+curation:
+  status: included
+  reason: It is positioned as a coding agent that assists developers in writing and managing code for internal tools on the Airplane platform, fitting the coding-agents profile.
+  evidence:
+    - Listed under 'awesome-ai-agents' in the autonomous agents section.
+    - Described as an AI agent for building internal tools via the Airplane platform.
+placement:
+  primary_category: coding-agents
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.731Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:49:29.190Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

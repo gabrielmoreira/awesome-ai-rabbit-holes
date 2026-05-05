@@ -1,0 +1,82 @@
+id: github__openpulsechain__public
+kind: github-repo
+name: public
+canonical_url: https://github.com/openpulsechain/public
+identity:
+  github_repo: openpulsechain/public
+provenance:
+  discoveries:
+    - id: discovery__github__openpulsechain__public__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: "@openpulsechain/mcp-server"
+        extracted_url: https://github.com/openpulsechain/public
+        surrounding_text: "- [@openpulsechain/mcp-server](https://github.com/openpulsechain/public/tree/main/mcp-server) [![openpulsechain/public MCP server](https://glama.ai/mcp/servers/openpulsechain/public/badges/score.svg)](https://glama.ai/mcp/servers/openpulsechain/public) 📇 ☁️ - PulseChain on-chain analytics: token safety scores (0-100), honeypot detection, whale tracking, smart money feed, scam alerts, DEX volume, bridge stats, holder leagues. 11 free + 9 pro tools. `npx @openpulsechain/mcp-server`"
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-04-27T06:19:00Z"
+    pushed_at: "2026-05-04T16:34:45Z"
+    description: Open-source PulseChain analytics platform — token prices, safety scoring, smart money tracking, holder leagues, bridge stats. REST API + MCP server for AI agents.
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:04:06.900Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:06.900Z"
+      bytes: 5943
+insights:
+  summary: An open-source PulseChain analytics platform that provides a REST API and MCP server with 20 tools for AI agents to query token prices, safety scores, and on-chain data.
+  why_it_matters: Developers building AI agents targeting crypto/DeFi workflows can plug into a ready-made MCP interface for PulseChain data instead of indexing the chain themselves.
+  mental_damage: We have successfully built an MCP server so that your coding agent can lose money on a scandal-plagued fork of Ethereum with the efficiency of a REST API.
+  tags:
+    - mcp
+    - crypto
+    - defi
+    - analytics
+    - pulsechain
+  confidence: high
+curation:
+  status: included
+  reason: The project's primary developer-facing artifact is a Model Context Protocol server (20 tools) for AI assistants, bundled with a broader analytics platform.
+  evidence:
+    - Repo description explicitly states 'REST API + MCP server for AI agents'
+    - "README confirms 'MCP Server: Model Context Protocol server with 20 tools for AI assistants'"
+    - Included in awesome-mcp-servers under 'Server Implementations > Finance & Fintech'
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.711Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:06.900Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:42:55.519Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

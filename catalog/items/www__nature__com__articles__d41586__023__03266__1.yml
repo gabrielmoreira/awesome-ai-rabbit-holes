@@ -1,0 +1,77 @@
+id: www__nature__com__articles__d41586__023__03266__1
+kind: website
+name: d41586-023-03266-1
+canonical_url: https://www.nature.com/articles/d41586-023-03266-1
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__nature__com__articles__d41586__023__03266__1__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - data-to-paper
+          - Description
+        anchor_text: "see also: [living guidelines"
+        extracted_url: https://www.nature.com/articles/d41586-023-03266-1
+        surrounding_text: "[see also: [living guidelines](https://www.nature.com/articles/d41586-023-03266-1)]."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A Nature comment article advocating for an independent scientific body to test and certify generative AI before it damages science and public trust.
+  why_it_matters: It frames the policy and oversight debates that increasingly shape how and where developers are allowed to deploy generative AI systems.
+  mental_damage: We have arrived at the point where even the科学院 thinks the AI is moving too fast, yet we will still ship that unverified model to prod on Friday because the sprint ends then.
+  tags:
+    - policy
+    - generative-ai
+    - oversight
+    - commentary
+  confidence: high
+curation:
+  status: excluded
+  reason: The entry is a policy comment article in Nature, not a developer-facing tool, agent, framework, or workflow product.
+  evidence:
+    - Source URL is a Nature comment article, not a GitHub repo or product page.
+    - Content advocates for AI oversight and certification rather than providing developer tooling.
+    - No code, SDK, agent, IDE, or app-building functionality is described.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.733Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:52:14.695Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

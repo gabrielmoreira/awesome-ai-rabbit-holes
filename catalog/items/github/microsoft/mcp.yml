@@ -1,0 +1,83 @@
+id: github__microsoft__mcp
+kind: github-repo
+name: mcp
+canonical_url: https://github.com/microsoft/mcp
+identity:
+  github_repo: microsoft/mcp
+provenance:
+  discoveries:
+    - id: discovery__github__microsoft__mcp__awesome-list__vivy-yi__awesome-agent-orchestration
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: vivy-yi/awesome-agent-orchestration
+        url: https://github.com/vivy-yi/awesome-agent-orchestration
+        repository: vivy-yi/awesome-agent-orchestration
+      extraction:
+        mode: parsed
+        section_path:
+          - Agent Communication Protocols
+          - Model Context Protocol (MCP)
+          - Official Resources
+        anchor_text: microsoft/mcp
+        extracted_url: https://github.com/microsoft/mcp
+        surrounding_text: "| [microsoft/mcp](https://github.com/microsoft/mcp) | Official Microsoft MCP servers catalog | ![Stars](https://img.shields.io/github/stars/microsoft/mcp) |"
+        confidence: high
+metadata:
+  github:
+    stars: 3096
+    forks: 479
+    license: MIT
+    archived: false
+    created_at: "2025-04-09T04:12:30Z"
+    pushed_at: "2026-05-05T20:55:02Z"
+    description: Catalog of official Microsoft MCP (Model Context Protocol) server implementations for AI-powered data access and tool integration
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:03:38.856Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:38.856Z"
+      bytes: 40788
+insights:
+  summary: A Microsoft-maintained catalog and engineering system for official MCP server implementations, including Azure MCP and Microsoft Fabric MCP servers.
+  why_it_matters: It provides a unified, supported foundation for developers to connect AI applications to Microsoft ecosystems like Azure and Fabric using the standardized Model Context Protocol.
+  mental_damage: "Just what we needed: another layer of standardised context protocols to help us feel productive while debugging why the AI can't find our storage account."
+  tags:
+    - mcp
+    - microsoft
+    - azure
+    - protocol
+    - server
+  confidence: high
+curation:
+  status: included
+  reason: The repository is a collection of official Microsoft MCP server implementations and the tooling to build them, making it a canonical fit for the MCP infrastructure category.
+  evidence:
+    - Repo description explicitly states it is a 'Catalog of official Microsoft MCP (Model Context Protocol) server implementations'.
+    - README details the engineering systems, pipelines, and tooling for Microsoft MCP Server contributors.
+    - Included in awesome-agent-orchestration under 'Agent Communication Protocols > MCP > Official Resources'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (3096) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.707Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:38.856Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:37:31.182Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

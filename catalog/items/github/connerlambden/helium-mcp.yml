@@ -1,0 +1,117 @@
+id: github__connerlambden__helium-mcp
+kind: github-repo
+name: helium-mcp
+canonical_url: https://github.com/connerlambden/helium-mcp
+identity:
+  github_repo: connerlambden/helium-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__connerlambden__helium-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: connerlambden/helium-mcp
+        extracted_url: https://github.com/connerlambden/helium-mcp
+        surrounding_text: "- [connerlambden/helium-mcp](https://github.com/connerlambden/helium-mcp) [![helium-mcp MCP server](https://glama.ai/mcp/servers/connerlambden/helium-mcp/badges/score.svg)](https://glama.ai/mcp/servers/connerlambden/helium-mcp) 📇 ☁️ - Real-time news with bias scoring across 5,000+ sources (15+ dimensions), AI-powered options pricing, balanced news synthesis, live market data, and meme search. 9 tools. 50 free queries, no signup needed."
+        confidence: high
+    - id: discovery__github__connerlambden__helium-mcp__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - MCP Servers and Directories
+        anchor_text: Helium MCP
+        extracted_url: https://github.com/connerlambden/helium-mcp
+        surrounding_text: "- **[Helium MCP](https://github.com/connerlambden/helium-mcp)** – Remote MCP server for AI coding assistants with real-time news and multi-dimensional bias scoring (3.2M+ articles, 5000+ sources), financial markets (stocks, ETFs, crypto, AI bull/bear cases), ML options pricing (ITM probability, Greeks, fair value), balanced news synthesis, trending topics, and semantic meme search. [Documentation](https://heliumtrades.com/mcp-page/)."
+        confidence: high
+metadata:
+  github:
+    stars: 3
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-04-10T20:37:16Z"
+    pushed_at: "2026-04-14T14:01:29Z"
+    description: MCP server for real-time news with bias scoring, live stock/ETF/crypto data, AI options pricing, balanced news synthesis, and meme search. 10 tools, 5000+ sources, free tier.
+    homepage: https://heliumtrades.com/mcp-page/
+    topics:
+      - ai
+      - bias-detection
+      - claude
+      - copilot
+      - crypto
+      - cursor
+      - financial-data
+      - machine-learning
+      - market-data
+      - mcp
+      - mcp-server
+      - media-bias
+      - model-context-protocol
+      - news
+      - nlp
+      - options
+      - sentiment-analysis
+      - stocks
+      - trading
+      - windsurf
+    last_checked_at: "2026-05-05T21:01:40.870Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:40.870Z"
+      bytes: 9108
+insights:
+  summary: An MCP server providing real-time news with bias scoring, live market data for stocks and crypto, AI options pricing, and meme search for AI coding assistants.
+  why_it_matters: It allows developers to plug real-time financial data and media bias analysis directly into their AI workflows within editors like Cursor, Windsurf, and Claude Desktop.
+  mental_damage: Finally, an MCP server that ensures your AI agent can weigh bull cases for Bitcoin while simultaneously surfacing the exact memes required to cope with the resulting portfolio volatility.
+  tags:
+    - mcp
+    - market-data
+    - finance
+    - news-bias
+    - cursor
+  confidence: medium
+curation:
+  status: included
+  reason: The project is an MCP server implementation designed to be consumed by developer tools, which fits the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly defines it as an 'MCP server'.
+    - README shows configuration examples for Cursor, Windsurf, Claude Desktop, and Copilot.
+    - Listed in 'awesome-mcp-servers' under the Finance & Fintech section.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.664Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:40.870Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:14:19.607Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,112 @@
+id: github__iplocate__mcp-server-iplocate
+kind: github-repo
+name: mcp-server-iplocate
+canonical_url: https://github.com/iplocate/mcp-server-iplocate
+identity:
+  github_repo: iplocate/mcp-server-iplocate
+provenance:
+  discoveries:
+    - id: discovery__github__iplocate__mcp-server-iplocate__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🗺️ <a name="location-services"></a>Location Services
+        anchor_text: iplocate/mcp-server-iplocate
+        extracted_url: https://github.com/iplocate/mcp-server-iplocate
+        surrounding_text: "- [iplocate/mcp-server-iplocate](https://github.com/iplocate/mcp-server-iplocate) 🎖️ 📇 🏠  - Look up IP address geolocation, network information, detect proxies and VPNs, and find abuse contact details using IPLocate.io"
+        confidence: high
+    - id: discovery__github__iplocate__mcp-server-iplocate__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: IPLocate
+        extracted_url: https://github.com/iplocate/mcp-server-iplocate
+        surrounding_text: "- **[IPLocate](https://github.com/iplocate/mcp-server-iplocate)** - Look up IP address geolocation, network information, detect proxies and VPNs, and find abuse contact details using IPLocate.io"
+        confidence: high
+    - id: discovery__github__iplocate__mcp-server-iplocate__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - 🗺️ Location Services
+        anchor_text: "@iplocate/mcp-server"
+        extracted_url: https://github.com/iplocate/mcp-server-iplocate
+        surrounding_text: "-   **[@iplocate/mcp-server](https://github.com/iplocate/mcp-server-iplocate)** [![GitHub stars](https://img.shields.io/github/stars/iplocate/mcp-server-iplocate?style=social)](https://github.com/iplocate/mcp-server-iplocate): Look up IP address geolocation, network information, detect proxies and VPNs, and find abuse contact details using IPLocate.io"
+        confidence: high
+metadata:
+  github:
+    stars: 18
+    forks: 7
+    license: MIT
+    archived: false
+    created_at: "2025-06-29T20:19:07Z"
+    pushed_at: "2025-06-29T22:21:13Z"
+    description: MCP server for looking up IP address geolocation (IP to country, IP to city), network information, proxy and VPN detection, abuse contacts, and more - using the IPLocate.io API.
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:02:46.295Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:46.295Z"
+      bytes: 9463
+insights:
+  summary: An MCP server that exposes IP address geolocation, network, privacy, and abuse contact data from the IPLocate.io API to compatible AI coding assistants like Cursor and Claude Desktop.
+  why_it_matters: Developers can enrich AI-assisted workflows with real-time IP intelligence for security triage, network debugging, and feature building without leaving their editor.
+  mental_damage: Another indispensable micro-tool that silently raises the bar for what your coding agent can do while making you feel suspiciously productive for looking up an IP address.
+  tags:
+    - mcp
+    - ip-geolocation
+    - networking
+    - security
+    - cursor
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server implementation for IP intelligence, fitting cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description confirms it is an 'MCP server for looking up IP address geolocation'.
+    - README provides setup instructions for Cursor, Claude Desktop, and VS Code MCP integrations.
+    - Included in multiple 'awesome-mcp-servers' and 'awesome-mcp-list' directories under Location Services.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.660Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:46.295Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:26:29.220Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,88 @@
+id: github__nihalxkumar__arch-mcp
+kind: github-repo
+name: arch-mcp
+canonical_url: https://github.com/nihalxkumar/arch-mcp
+identity:
+  github_repo: nihalxkumar/arch-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__nihalxkumar__arch-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🤖 <a name="coding-agents"></a>Coding Agents
+        anchor_text: nihalxkumar/arch-mcp
+        extracted_url: https://github.com/nihalxkumar/arch-mcp
+        surrounding_text: "- [nihalxkumar/arch-mcp](https://github.com/nihalxkumar/arch-mcp) 🐍 🏠 🐧 - Arch Linux MCP Server to the Arch Linux ecosystem of the Arch Wiki, AUR, and official repositories for AI-assisted Arch Linux usage on Arch and non-Arch systems. Features include searching Arch Wiki and AUR, getting package info, checking for updates, installing packages securely, and analyzing PKGBUILDs."
+        confidence: high
+metadata:
+  github:
+    stars: 44
+    forks: 8
+    license: GPL-3.0
+    archived: false
+    created_at: "2025-10-23T10:39:38Z"
+    pushed_at: "2026-03-10T14:13:54Z"
+    description: Arch Linux MCP (Model Context Protocol) Server
+    homepage: https://docs.nihalxkumar.dev/arch-mcp/
+    topics:
+      - arch-linux
+      - archlinux
+      - aur
+      - mcp
+      - mcp-server
+      - mcp-servers
+      - modelcontextprotocol
+    last_checked_at: "2026-05-05T21:03:54.658Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:54.658Z"
+      bytes: 15424
+insights:
+  summary: An MCP server that lets AI assistants query the Arch Wiki, AUR, and local pacman state to help developers manage Arch Linux systems and packages.
+  why_it_matters: It gives coding agents structured, safe access to Arch ecosystem data so they can suggest package installs, diagnose issues, and translate distro-specific commands without hallucinating wiki excerpts.
+  mental_damage: We have successfully built infrastructure so your AI can argue with you about which AUR helper to install before you inevitably break your system anyway.
+  tags:
+    - mcp
+    - arch-linux
+    - aur
+    - system-management
+  confidence: high
+curation:
+  status: included
+  reason: The product is explicitly an MCP server providing URI-based access and tools for Arch Linux ecosystem data, which fits the MCP category cleanly.
+  evidence:
+    - "Repo description states: 'Arch Linux MCP (Model Context Protocol) Server'."
+    - README defines it as 'A Model Context Protocol (MCP) server that bridges AI assistants with the Arch Linux ecosystem'.
+    - Listed in awesome-mcp-servers under Server Implementations, confirming MCP ecosystem fit.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.709Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:54.658Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:40:36.959Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

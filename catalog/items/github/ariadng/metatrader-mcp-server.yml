@@ -1,0 +1,90 @@
+id: github__ariadng__metatrader-mcp-server
+kind: github-repo
+name: metatrader-mcp-server
+canonical_url: https://github.com/ariadng/metatrader-mcp-server
+identity:
+  github_repo: ariadng/metatrader-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__ariadng__metatrader-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: ariadng/metatrader-mcp-server
+        extracted_url: https://github.com/ariadng/metatrader-mcp-server
+        surrounding_text: "- [ariadng/metatrader-mcp-server](https://github.com/ariadng/metatrader-mcp-server) 🐍 🏠 🪟 - Enable AI LLMs to execute trades using MetaTrader 5 platform"
+        confidence: high
+metadata:
+  github:
+    stars: 236
+    forks: 79
+    license: MIT
+    archived: false
+    created_at: "2025-04-10T09:15:15Z"
+    pushed_at: "2026-03-28T18:39:29Z"
+    description: Model Context Protocol (MCP) to enable AI LLMs to trade using MetaTrader platform
+    homepage: ""
+    topics:
+      - ai
+      - finance
+      - investment
+      - llm
+      - mcp
+      - metatrader
+      - quantitative-finance
+      - trading
+    last_checked_at: "2026-05-05T21:01:08.682Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:08.682Z"
+      bytes: 23135
+insights:
+  summary: An MCP server that bridges AI assistants like Claude and ChatGPT to the MetaTrader 5 trading platform, enabling natural language execution of trades and market data queries.
+  why_it_matters: It allows developers building trading bots or analysis tools to leverage existing AI assistants for natural language control over MT5 accounts and real-time market data.
+  mental_damage: We have finally unlocked the ability to YOLO a leveraged EUR/USD position via a hallucination in a Claude Desktop chat window.
+  tags:
+    - mcp
+    - trading
+    - finance
+    - metatrader
+    - ai-assistant
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server implementation designed to connect AI assistants to MetaTrader, fitting the MCP infrastructure category perfectly.
+  evidence:
+    - "Repo description states: 'Model Context Protocol (MCP) to enable AI LLMs to trade using MetaTrader platform'."
+    - "README confirms it acts as a bridge: 'AI Assistant -> MCP Server -> MetaTrader 5'."
+    - Listed in awesome-mcp-servers under the Finance & Fintech section.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (236) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.679Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:08.682Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:08:56.471Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

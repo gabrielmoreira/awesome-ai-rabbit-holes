@@ -1,0 +1,81 @@
+id: github__kukapay__jupiter-mcp
+kind: github-repo
+name: jupiter-mcp
+canonical_url: https://github.com/kukapay/jupiter-mcp
+identity:
+  github_repo: kukapay/jupiter-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__kukapay__jupiter-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: kukapay/jupiter-mcp
+        extracted_url: https://github.com/kukapay/jupiter-mcp
+        surrounding_text: "- [kukapay/jupiter-mcp](https://github.com/kukapay/jupiter-mcp) 🐍 ☁️ - An MCP server for executing token swaps on the Solana blockchain using Jupiter's new Ultra API."
+        confidence: high
+metadata:
+  github:
+    stars: 27
+    forks: 12
+    license: MIT
+    archived: false
+    created_at: "2025-03-22T09:32:09Z"
+    pushed_at: "2025-06-14T22:25:42Z"
+    description: An MCP server for executing token swaps on the Solana blockchain using Jupiter's new Ultra API.
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:03:11.804Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:11.804Z"
+      bytes: 4251
+insights:
+  summary: An MCP server that enables AI agents to fetch and execute token swaps on the Solana blockchain using Jupiter's Ultra API.
+  why_it_matters: It allows developers to connect LLM clients directly to live DeFi execution environments, bridging natural language prompts with on-chain trading logic.
+  mental_damage: Now your coding agent can rug your portfolio at machine speed while you're busy debugging a CSS flexbox.
+  tags:
+    - mcp
+    - solana
+    - defi
+    - jupiter
+  confidence: high
+curation:
+  status: included
+  reason: The project is a focused MCP server implementation for Solana DeFi operations, fitting squarely into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states it is 'An MCP server for executing token swaps on the Solana blockchain'.
+    - README demonstrates integration via standard MCP server configuration JSON and exposes tools like `get-ultra-order`.
+    - Listed in the 'awesome-mcp-servers' directory under 'Finance & Fintech'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.703Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:11.804Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:32:13.299Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,81 @@
+id: github__gregario__hearthstone-oracle
+kind: github-repo
+name: hearthstone-oracle
+canonical_url: https://github.com/gregario/hearthstone-oracle
+identity:
+  github_repo: gregario/hearthstone-oracle
+provenance:
+  discoveries:
+    - id: discovery__github__gregario__hearthstone-oracle__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🎮 <a name="gaming"></a>Gaming
+        anchor_text: gregario/hearthstone-oracle
+        extracted_url: https://github.com/gregario/hearthstone-oracle
+        surrounding_text: "- [gregario/hearthstone-oracle](https://github.com/gregario/hearthstone-oracle) [![hearthstone-oracle MCP server](https://glama.ai/mcp/servers/gregario/hearthstone-oracle/badges/score.svg)](https://glama.ai/mcp/servers/gregario/hearthstone-oracle) 📇 🏠 - Hearthstone card search, deck analysis, and strategy coaching. 9 tools covering card lookup, deck decoding, archetype classification, class identities, matchup theory, and game concepts. HearthstoneJSON data."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-03-16T23:55:22Z"
+    pushed_at: "2026-05-02T19:55:05Z"
+    description: Hearthstone MCP server with card search, deck analysis, and strategy coaching
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:27.720Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:27.720Z"
+      bytes: 3597
+insights:
+  summary: An MCP server that exposes the full Hearthstone card database and built-in strategy knowledge to LLMs for card search, deck analysis, and gameplay coaching.
+  why_it_matters: It demonstrates how to wrap a game-specific dataset and domain logic into an MCP server that any compatible agent can call without API keys or external services.
+  mental_damage: "We have finally achieved the future: an AI agent that can tell you why your Reno Priest list is bad, while your actual PRs rot in code review."
+  tags:
+    - mcp
+    - gaming
+    - llm-tools
+    - node
+  confidence: high
+curation:
+  status: included
+  reason: It is a standalone MCP server implementation designed to be plugged into MCP-compatible clients, which clearly fits the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description states: 'Hearthstone MCP server with card search, deck analysis, and strategy coaching.'"
+    - README explicitly lists 9 MCP tools and includes setup instructions for Claude Desktop and claude mcp add.
+    - Listed in awesome-mcp-servers under Gaming, confirming its role as MCP infrastructure.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.690Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:27.720Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:22:54.886Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

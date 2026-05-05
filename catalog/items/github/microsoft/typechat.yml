@@ -1,0 +1,85 @@
+id: github__microsoft__typechat
+kind: github-repo
+name: typechat
+canonical_url: https://github.com/microsoft/typechat
+identity:
+  github_repo: microsoft/typechat
+provenance:
+  discoveries:
+    - id: discovery__github__microsoft__typechat__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Other LLM Frameworks
+        anchor_text: TypeChat
+        extracted_url: https://github.com/microsoft/typechat
+        surrounding_text: "- [TypeChat](https://github.com/microsoft/TypeChat): TypeChat is a library that makes it easy to build natural language interfaces using types. ![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/TypeChat?style=social)"
+        confidence: high
+metadata:
+  github:
+    stars: 8650
+    forks: 412
+    license: MIT
+    archived: false
+    created_at: "2023-06-20T00:52:38Z"
+    pushed_at: "2026-05-05T06:45:01Z"
+    description: TypeChat is a library that makes it easy to build natural language interfaces using types.
+    homepage: https://microsoft.github.io/TypeChat/
+    topics:
+      - ai
+      - llm
+      - natural-language
+      - types
+    last_checked_at: "2026-05-05T21:03:39.742Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:39.742Z"
+      bytes: 3841
+insights:
+  summary: TypeChat is a Microsoft library that uses TypeScript types and schemas to constrain LLM outputs, replacing fragile prompt engineering with schema engineering for natural language interfaces.
+  why_it_matters: It lets developers define intent through type definitions rather than craft brittle prompts, making it easier to build reliable LLM-powered features that return structured, valid data.
+  mental_damage: We have successfully abstracted away the pain of prompt engineering by replacing it with the exact same type hierarchies that made enterprise Java so delightful.
+  tags:
+    - llm
+    - typescript
+    - schema
+    - natural-language
+    - sdk
+  confidence: high
+curation:
+  status: included
+  reason: It is a code-first library and SDK for structuring LLM interactions via types, fitting cleanly into AI Frameworks and SDKs rather than an agent orchestration platform.
+  evidence:
+    - Repo description states it is 'a library that makes it easy to build natural language interfaces using types.'
+    - README explains it replaces prompt engineering with schema engineering using TypeScript interfaces and type validation.
+    - Source code is available in TypeScript, Python, and C#/.NET, confirming its SDK/framework nature.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (8650) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.707Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:39.742Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:37:41.195Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

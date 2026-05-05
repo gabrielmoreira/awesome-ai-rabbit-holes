@@ -1,0 +1,80 @@
+id: github__dolthub__dolt-mcp
+kind: github-repo
+name: dolt-mcp
+canonical_url: https://github.com/dolthub/dolt-mcp
+identity:
+  github_repo: dolthub/dolt-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__dolthub__dolt-mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: Dolt
+        extracted_url: https://github.com/dolthub/dolt-mcp
+        surrounding_text: "- **[Dolt](https://github.com/dolthub/dolt-mcp)** - The official MCP server for version-controlled Dolt databases."
+        confidence: high
+metadata:
+  github:
+    stars: 16
+    forks: 4
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-07-17T21:11:56Z"
+    pushed_at: "2026-04-21T22:50:39Z"
+    description: The MCP server for Dolt
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:01:55.503Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:55.503Z"
+      bytes: 11283
+insights:
+  summary: An MCP server that gives AI assistants direct access to Dolt and DoltgreSQL databases for querying, schema changes, and version-controlled database operations.
+  why_it_matters: It lets AI tools like Claude manage database branches, commits, and SQL operations directly, bridging version-controlled data workflows with agentic coding sessions.
+  mental_damage: Your AI assistant can now merge database branches and create commits, which is either the future of infrastructure or the fastest way to git blame a chatbot.
+  tags:
+    - mcp
+    - database
+    - dolt
+    - version-control
+  confidence: high
+curation:
+  status: included
+  reason: The project is itself an MCP server specifically built to expose Dolt databases to AI assistants, which maps cleanly to the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description states explicitly: 'The MCP server for Dolt'."
+    - README describes a server that exposes database management, table operations, and version control tools over MCP to AI assistants like Claude.
+    - Listed in awesome-mcp-servers under 'Community Servers', reinforcing its role as MCP infrastructure.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.685Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:55.503Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:16:49.814Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

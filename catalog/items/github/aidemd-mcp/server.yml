@@ -1,0 +1,89 @@
+id: github__aidemd-mcp__server
+kind: github-repo
+name: server
+canonical_url: https://github.com/aidemd-mcp/server
+identity:
+  github_repo: aidemd-mcp/server
+provenance:
+  discoveries:
+    - id: discovery__github__aidemd-mcp__server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: aidemd-mcp/server
+        extracted_url: https://github.com/aidemd-mcp/server
+        surrounding_text: "- [aidemd-mcp/server](https://github.com/aidemd-mcp/server) [![aidemd-mcp/server MCP server](https://glama.ai/mcp/servers/aidemd-mcp/server/badges/score.svg)](https://glama.ai/mcp/servers/aidemd-mcp/server) 📇 🏠 - Structured `.aide` spec files that give AI agents progressive disclosure into your codebase architecture via MCP."
+        confidence: high
+metadata:
+  github:
+    stars: 2
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-04-09T18:55:29Z"
+    pushed_at: "2026-04-29T07:56:15Z"
+    description: MCP server that teaches any AI agent the AIDE spec methodology — progressive   disclosure specs alongside code
+    homepage: null
+    topics:
+      - ai-coding
+      - aide-methodology
+      - aidemd
+      - claude-code
+      - cursor
+      - developer-tools
+      - mcp-server
+      - windsurf
+    last_checked_at: "2026-05-05T21:00:55.224Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:55.224Z"
+      bytes: 12681
+insights:
+  summary: An MCP server that teaches AI agents the AIDE spec methodology by managing progressive disclosure spec files alongside code in AI-powered IDEs.
+  why_it_matters: It lets developers enforce intent-driven specs and validation checks directly inside Claude Code, Cursor, and VS Code so agents plan and build against structured context instead of vibes.
+  mental_damage: You now have a deterministic way to make your AI write and validate specs, which means the only thing left to drift is your own willingness to maintain them.
+  tags:
+    - mcp
+    - spec-driven
+    - ai-ide
+    - context-engineering
+  confidence: medium
+curation:
+  status: included
+  reason: The project is itself an MCP server that extends AI IDEs with spec-driven development capabilities, clearly fitting the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description explicitly states: 'MCP server that teaches any AI agent the AIDE spec methodology'"
+    - README details MCP tools like aide_init, aide_validate, aide_inspect, and aide_brain for Claude Code, Cursor, and VS Code
+    - Listed under 'Server Implementations > Developer Tools' in awesome-mcp-servers
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.677Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:55.224Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:06:51.968Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

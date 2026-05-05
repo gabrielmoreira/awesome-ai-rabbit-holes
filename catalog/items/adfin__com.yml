@@ -1,0 +1,76 @@
+id: adfin__com
+kind: website
+name: adfin.com
+canonical_url: https://adfin.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__adfin__com__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Adfin
+        extracted_url: https://www.adfin.com
+        surrounding_text: "- **[Adfin](https://github.com/Adfin-Engineering/mcp-server-adfin)** - The only platform you need to get paid - all payments in one place, invoicing and accounting reconciliations with [Adfin](https://www.adfin.com/)."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Adfin is a finance automation platform that uses agentic AI to capture invoice data, automate credit control chasing, and process payments for businesses and accountants.
+  why_it_matters: It offers an API-driven approach to automating accounts receivable workflows, potentially integrating with developer-built platforms via its Socket integration and payment rails.
+  mental_damage: Just when you thought 'agentic AI' couldn't be stretched any further, it is now politely chasing late-paying clients so you don't have to.
+  tags:
+    - payments
+    - finance
+    - agentic-ai
+    - automation
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a vertical SaaS product for accounting and payment processing, not a developer tool, coding agent, or infrastructure component.
+  evidence:
+    - Scraped site describes the product as 'How client-first businesses get paid' and focuses on invoices, credit control, and direct debits.
+    - Target audience is explicitly 'Accountants & Bookkeepers' and 'Small businesses', not software developers building software.
+    - Appears in awesome-mcp-servers lists only as a commercial service integration, not as a developer tooling server itself.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.725Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:41:16.341Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

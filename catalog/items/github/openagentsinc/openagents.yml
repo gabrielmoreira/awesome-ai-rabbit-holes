@@ -1,0 +1,82 @@
+id: github__openagentsinc__openagents
+kind: github-repo
+name: openagents
+canonical_url: https://github.com/openagentsinc/openagents
+identity:
+  github_repo: openagentsinc/openagents
+provenance:
+  discoveries:
+    - id: discovery__github__openagentsinc__openagents__awesome-list__vivy-yi__awesome-agent-orchestration
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: vivy-yi/awesome-agent-orchestration
+        url: https://github.com/vivy-yi/awesome-agent-orchestration
+        repository: vivy-yi/awesome-agent-orchestration
+      extraction:
+        mode: parsed
+        section_path:
+          - Core Frameworks
+          - Multi-Agent Orchestration Frameworks
+        anchor_text: OpenAgents
+        extracted_url: https://github.com/openagentsinc/openagents
+        surrounding_text: "| [OpenAgents](https://github.com/OpenAgentsInc/openagents) | Open platform for deploying language agents | ![Stars](https://img.shields.io/github/stars/OpenAgentsInc/openagents) |"
+        confidence: high
+metadata:
+  github:
+    stars: 414
+    forks: 50
+    license: Apache-2.0
+    archived: false
+    created_at: "2023-11-07T16:16:46Z"
+    pushed_at: "2026-05-05T03:36:25Z"
+    description: Autopilot and the agent network
+    homepage: https://openagents.com
+    topics: []
+    last_checked_at: "2026-05-05T21:04:03.380Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:03.380Z"
+      bytes: 31355
+insights:
+  summary: OpenAgents is a desktop agent runtime and marketplace that combines a personal AI agent (Autopilot) with economic infrastructure for trading compute, data, labor, liquidity, and risk.
+  why_it_matters: It lets developers run a local agent that can earn income by selling spare compute and machine work through a decentralized marketplace.
+  mental_damage: Because nothing says 'trusted autonomous workflow' like hedging the probability that your desktop agent will accidentally burn down the economy with a Lightning invoice.
+  tags:
+    - agents
+    - marketplace
+    - compute
+    - desktop
+    - infrastructure
+  confidence: medium
+curation:
+  status: included
+  reason: The project is an end-user platform and runtime for coordinating a personal agent within a multi-agent economy, fitting the operational control-plane definition of agent-orchestration.
+  evidence:
+    - Repo description explicitly states 'Autopilot and the agent network'
+    - README describes Autopilot as a personal agent running on your computer connected to the OpenAgents Marketplace
+    - Listed in awesome-agent-orchestration under 'Multi-Agent Orchestration Frameworks'
+placement:
+  primary_category: agent-orchestration
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (414) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.711Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:03.380Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:42:22.170Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

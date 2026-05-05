@@ -1,0 +1,80 @@
+id: github__multica-ai__multica
+kind: github-repo
+name: multica
+canonical_url: https://github.com/multica-ai/multica
+identity:
+  github_repo: multica-ai/multica
+provenance:
+  discoveries:
+    - id: discovery__github__multica-ai__multica__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 代码 Coding
+        anchor_text: Multica
+        extracted_url: https://github.com/multica-ai/multica
+        surrounding_text: 25. [Multica](https://github.com/multica-ai/multica)
+        confidence: high
+metadata:
+  github:
+    stars: 24772
+    forks: 3016
+    license: NOASSERTION
+    archived: false
+    created_at: "2026-01-13T17:59:46Z"
+    pushed_at: "2026-05-04T14:11:45Z"
+    description: The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.
+    homepage: https://multica.ai
+    topics: []
+    last_checked_at: "2026-05-05T21:03:48.801Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:48.801Z"
+      bytes: 10019
+insights:
+  summary: An open-source platform that integrates coding agents into team workflows by allowing them to be assigned issues, track progress, and reuse skills across local and cloud runtimes.
+  why_it_matters: It provides the infrastructure to treat AI agents as first-class teammates within existing project management flows, automating task execution and skill compounding.
+  mental_damage: Finally, a tool to help you manage the psychological burden of pretending your repository contributors are human.
+  tags:
+    - agents
+    - orchestration
+    - coding-assistants
+    - self-hosted
+  confidence: high
+curation:
+  status: included
+  reason: Multica is a control plane for coordinating multiple coding agents as team members, fitting the user-facing platform criteria for agent orchestration rather than being a bot that edits code inside an IDE.
+  evidence:
+    - README describes it as 'open-source infrastructure for managed agents' with features like assigning issues to agents and tracking progress.
+    - Explicitly supports multiple backends including Claude Code, Codex, and GitHub Copilot CLI within a unified dashboard.
+    - Workspaces, agent lifecycles, and skill compounding are presented as operational/workforce features rather than IDE features.
+placement:
+  primary_category: agent-orchestration
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (24772) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.708Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:48.801Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:39:28.541Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,76 @@
+id: huggingface__co__spaces__rituthombre__qnim
+kind: website
+name: QNim
+canonical_url: https://huggingface.co/spaces/rituthombre/QNim
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__huggingface__co__spaces__rituthombre__qnim__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Open Source Projects
+          - Other / Chatbots
+        anchor_text: QNimGPT
+        extracted_url: https://huggingface.co/spaces/rituthombre/QNim
+        surrounding_text: "- [QNimGPT](https://huggingface.co/spaces/rituthombre/QNim): Play Nim against an IBM Quantum Computer simulator or OpenAI GPT-3.5"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: QNim is a Hugging Face Space listed as an agent-based application, currently experiencing runtime errors and unavailable to use.
+  why_it_matters: It appears in the awesome-langchain directory as an example of agent implementation, serving as a reference point for community LangChain projects.
+  mental_damage: Nothing says 'cutting-edge AI agent' quite like a container that has been timing out for thirty minutes while the logs fetch eternally.
+  tags:
+    - agents
+    - langchain
+    - huggingface
+  confidence: high
+curation:
+  status: excluded
+  reason: The project is a non-functional, unmaintained Hugging Face demo with no accessible code, description, or tooling surface for developers.
+  evidence:
+    - Scraped site context shows 'Runtime error' and 'Launch timed out, space was not healthy after 30 min'.
+    - No repository description, README excerpt, or code is available to verify what the tool actually does.
+    - Appears only as a generic entry in awesome-langchain without a substantial developer-facing workflow.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.728Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:45:30.531Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

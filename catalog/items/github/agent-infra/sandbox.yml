@@ -1,0 +1,88 @@
+id: github__agent-infra__sandbox
+kind: github-repo
+name: sandbox
+canonical_url: https://github.com/agent-infra/sandbox
+identity:
+  github_repo: agent-infra/sandbox
+provenance:
+  discoveries:
+    - id: discovery__github__agent-infra__sandbox__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 智能体 Agents
+        anchor_text: SandBox
+        extracted_url: https://github.com/agent-infra/sandbox
+        surrounding_text: "44. [SandBox](https://github.com/agent-infra/sandbox): All-in-One Sandbox for AI Agents that combines Browser, Shell, File, MCP and VSCode Server in a single Docker container."
+        confidence: high
+metadata:
+  github:
+    stars: 4529
+    forks: 389
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-08-06T14:51:05Z"
+    pushed_at: "2026-04-10T03:28:44Z"
+    description: All-in-One Sandbox for AI Agents that combines Browser, Shell, File, MCP and VSCode Server in a single Docker container.
+    homepage: https://sandbox.agent-infra.com
+    topics:
+      - agent
+      - all-in-one
+      - browser
+      - filesystem
+      - mcp
+      - sandbox
+      - shell
+    last_checked_at: "2026-05-05T21:00:50.481Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:50.481Z"
+      bytes: 16085
+insights:
+  summary: A Docker-based sandbox environment that combines browser automation, shell access, file operations, VSCode Server, and MCP services into a single container for AI agent development.
+  why_it_matters: Provides developers building AI agents with a pre-configured, unified execution environment that eliminates the friction of wiring together separate browser, shell, and filesystem sandboxes.
+  mental_damage: We have successfully containerized the entire developer workflow so that agents can now experience the joy of a corrupted apt cache and a crashed VSCode Server all in one place.
+  tags:
+    - sandbox
+    - agent-infrastructure
+    - mcp
+    - docker
+    - sdk
+  confidence: high
+curation:
+  status: included
+  reason: While marketed for agents, the primary artifact is a developer-facing SDK and container framework for building agent infrastructure, not a coding assistant or orchestration control plane.
+  evidence:
+    - Repo description explicitly defines it as an 'All-in-One Sandbox for AI Agents' combining Browser, Shell, File, MCP, and VSCode in Docker.
+    - Provides official SDKs for Python, TypeScript, and Go to programmatically control the sandbox environment.
+    - Active development (pushed 2026-04-10) with 4,529 stars and Apache-2.0 license.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (4529) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.676Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:50.482Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:06:05.117Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

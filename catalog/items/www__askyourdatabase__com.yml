@@ -1,0 +1,77 @@
+id: www__askyourdatabase__com
+kind: website
+name: www.askyourdatabase.com
+canonical_url: https://www.askyourdatabase.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__askyourdatabase__com__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - AskYourDatabase
+        anchor_text: AskYourDatabase
+        extracted_url: https://www.askyourdatabase.com
+        surrounding_text: "## [AskYourDatabase](https://www.askyourdatabase.com/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A desktop and SaaS tool that connects to SQL databases so users can query, visualize, and build dashboards using natural language instead of writing SQL.
+  why_it_matters: It lets engineering teams offload ad-hoc internal data requests to non-technical staff by embedding a conversational interface directly over production databases.
+  mental_damage: We have successfully automated away the need to learn SQL, meaning the new job description is just 'person who nervously approves AI-generated SELECT statements on a production replica.'
+  tags:
+    - sql
+    - bi
+    - chatbot
+    - data-visualization
+    - desktop-app
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a business intelligence and data analytics product for end-users and executives, not a developer tool that assists with coding, repo workflows, or building software.
+  evidence:
+    - Primary pitch is 'Chat with SQL Databases' and 'No SQL... chat with your data in ChatGPT' targeting CEOs, sales, and customer support.
+    - Features focus on BI, dashboard building, and data visualization rather than source code editing or developer workflow automation.
+    - Listed in awesome-ai-agents but the tool acts as an end-user analytics chatbot rather than a coding agent or developer extension.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.731Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:49:40.898Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

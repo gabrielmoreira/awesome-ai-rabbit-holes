@@ -1,0 +1,86 @@
+id: github__kdqed__zaturn
+kind: github-repo
+name: zaturn
+canonical_url: https://github.com/kdqed/zaturn
+identity:
+  github_repo: kdqed/zaturn
+provenance:
+  discoveries:
+    - id: discovery__github__kdqed__zaturn__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧮 <a name="data-science-tools"></a>Data Science Tools
+        anchor_text: kdqed/zaturn
+        extracted_url: https://github.com/kdqed/zaturn
+        surrounding_text: "- [kdqed/zaturn](https://github.com/kdqed/zaturn) 🐍 🏠 🪟 🐧 🍎 - Link multiple data sources (SQL, CSV, Parquet, etc.) and ask AI to analyze the data for insights and visualizations."
+        confidence: high
+metadata:
+  github:
+    stars: 74
+    forks: 9
+    license: MIT
+    archived: false
+    created_at: "2025-04-07T10:43:32Z"
+    pushed_at: "2025-11-12T06:17:05Z"
+    description: Data Analysis With Vibes
+    homepage: https://zaturn.pro
+    topics:
+      - ai
+      - data-analysis
+      - data-science
+      - vibe-coding
+    last_checked_at: "2026-05-05T21:03:02.965Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:02.965Z"
+      bytes: 2448
+insights:
+  summary: Zaturn is an MCP server and web interface that allows AI models to query SQL databases and generate visualizations so developers and analysts can interact with data using natural language instead of SQL or Python.
+  why_it_matters: It enables developers to integrate data analysis capabilities into AI workflows via MCP, allowing models to directly query multiple databases and generate charts without manual query writing.
+  mental_damage: We have successfully eliminated the need to write SQL by adding a layer of prompt engineering, configuration, and an MCP server that will occasionally hallucinate your JOINs anyway.
+  tags:
+    - mcp
+    - data-analysis
+    - sql
+    - visualization
+    - vibe-coding
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly built as an MCP server for data querying and visualization, aligning directly with the MCP Servers and Tooling category.
+  evidence:
+    - Repo description is 'Data Analysis With Vibes' and README states it 'can be used as an MCP'.
+    - Listed in awesome-mcp-servers under 'Data Science Tools', confirming community recognition as an MCP implementation.
+    - Supports connections to PostgreSQL, SQLite, DuckDB, MySQL, ClickHouse, SQL Server, BigQuery, CSV, and Parquet via MCP tooling.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.701Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:02.965Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:30:14.998Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

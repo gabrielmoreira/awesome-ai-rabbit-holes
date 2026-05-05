@@ -1,0 +1,84 @@
+id: github__formulahendry__mcp-server-spec-driven-development
+kind: github-repo
+name: mcp-server-spec-driven-development
+canonical_url: https://github.com/formulahendry/mcp-server-spec-driven-development
+identity:
+  github_repo: formulahendry/mcp-server-spec-driven-development
+provenance:
+  discoveries:
+    - id: discovery__github__formulahendry__mcp-server-spec-driven-development__awesome-list__engineering4ai__awesome-spec-driven-development
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: Engineering4AI/awesome-spec-driven-development
+        url: https://github.com/engineering4ai/awesome-spec-driven-development
+        repository: Engineering4AI/awesome-spec-driven-development
+      extraction:
+        mode: parsed
+        section_path:
+          - MCP Servers
+        anchor_text: mcp-server-spec-driven-development
+        extracted_url: https://github.com/formulahendry/mcp-server-spec-driven-development
+        surrounding_text: "- [mcp-server-spec-driven-development](https://github.com/formulahendry/mcp-server-spec-driven-development) ![](https://img.shields.io/github/stars/formulahendry/mcp-server-spec-driven-development.svg) - MCP server providing structured prompts for requirements, design documents, and code generation."
+        confidence: high
+metadata:
+  github:
+    stars: 430
+    forks: 40
+    license: MIT
+    archived: false
+    created_at: "2025-07-28T11:42:06Z"
+    pushed_at: "2025-09-26T06:50:18Z"
+    description: Spec-Driven Development MCP Server, not just Vibe Coding
+    homepage: https://www.npmjs.com/package/mcp-server-spec-driven-development
+    topics:
+      - mcp
+      - mcp-server
+      - spec-driven-development
+      - vibe-coding
+    last_checked_at: "2026-05-05T21:02:13.974Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:13.974Z"
+      bytes: 5449
+insights:
+  summary: An MCP server that provides structured prompts to guide developers through a spec-driven workflow, generating EARS-formatted requirements, design documents, and implementation code in sequence.
+  why_it_matters: It operationalizes the 'specs first' philosophy directly inside MCP-compatible editors, replacing vibe-based prompting with a traceable requirements → design → code pipeline.
+  mental_damage: We have successfully automated the bureaucracy of software development so that the AI can now generate the very paperwork we will ignore before shipping the code anyway.
+  tags:
+    - mcp
+    - spec-driven
+    - requirements
+    - workflow
+  confidence: high
+curation:
+  status: included
+  reason: The project's center of gravity is a spec-first loop that explicitly moves from requirements generation to design and then to code, fitting the spec-driven-development category perfectly.
+  evidence:
+    - "Repo description: 'Spec-Driven Development MCP Server, not just Vibe Coding'."
+    - "README: 'Follows a clear progression from requirements → design → code' and 'Generate requirements.md using EARS format'."
+    - Listed in 'awesome-spec-driven-development' under the 'MCP Servers' section.
+placement:
+  primary_category: spec-driven-development
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (430) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.687Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:13.974Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:20:01.825Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

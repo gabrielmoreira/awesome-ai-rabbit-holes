@@ -1,0 +1,87 @@
+id: github__klever-io__mcp-klever-vm
+kind: github-repo
+name: mcp-klever-vm
+canonical_url: https://github.com/klever-io/mcp-klever-vm
+identity:
+  github_repo: klever-io/mcp-klever-vm
+provenance:
+  discoveries:
+    - id: discovery__github__klever-io__mcp-klever-vm__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: klever-io/mcp-klever-vm
+        extracted_url: https://github.com/klever-io/mcp-klever-vm
+        surrounding_text: "- [klever-io/mcp-klever-vm](https://github.com/klever-io/mcp-klever-vm) 🎖️ 📇 ☁️ - Klever blockchain MCP server for smart contract development, on-chain data exploration, account and asset queries, transaction analysis, and contract deployment tooling."
+        confidence: high
+metadata:
+  github:
+    stars: 31
+    forks: 4
+    license: MIT
+    archived: false
+    created_at: "2025-06-12T15:51:49Z"
+    pushed_at: "2026-05-05T14:28:22Z"
+    description: MCP server for Klever blockchain smart contract development
+    homepage: null
+    topics:
+      - blockchain
+      - klever
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - smart-contracts
+    last_checked_at: "2026-05-05T21:03:06.973Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:06.973Z"
+      bytes: 18003
+insights:
+  summary: An MCP server that provides contextual knowledge, code patterns, and validation tools for Klever blockchain smart contract development.
+  why_it_matters: It integrates specialized blockchain development knowledge directly into AI coding assistants like Claude and Cursor, reducing the need to manually look up Klever VM SDK specifics.
+  mental_damage: We have successfully abstracted away the need to read blockchain documentation by feeding it to an MCP server that an AI reads so you don't have to, completing the circle of intentional ignorance.
+  tags:
+    - mcp
+    - blockchain
+    - klever
+    - smart-contracts
+  confidence: high
+curation:
+  status: included
+  reason: The project is a dedicated Model Context Protocol server designed to feed blockchain-specific context to AI developer tools.
+  evidence:
+    - "Repo description explicitly states: 'MCP server for Klever blockchain smart contract development'."
+    - README details integration with Claude Code, Cursor, and VS Code via MCP configuration.
+    - Listed in awesome-mcp-servers under 'Server Implementations'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.701Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:06.973Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:31:01.121Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

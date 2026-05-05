@@ -1,0 +1,81 @@
+id: github__momobits__relay
+kind: github-repo
+name: relay
+canonical_url: https://github.com/momobits/relay
+identity:
+  github_repo: momobits/relay
+provenance:
+  discoveries:
+    - id: discovery__github__momobits__relay__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Code Review and Refactoring
+        anchor_text: Relay
+        extracted_url: https://github.com/momobits/relay
+        surrounding_text: "- **[Relay](https://github.com/momobits/Relay/)** – Persistent memory for AI coding workflows. Give AI coding agents memory of what was built, what broke, and what's next."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-03-17T13:38:47Z"
+    pushed_at: "2026-05-02T14:09:26Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:03:46.509Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:46.509Z"
+      bytes: 31368
+insights:
+  summary: A workflow system that adds a persistent .relay/ memory layer and 20 structured skills for directing AI coding agents across multi-session projects.
+  why_it_matters: It attempts to solve AI amnesia and context fragmentation by giving developers a shared, structured state file that works across Claude Code, OpenAI Codex CLI, and Google Gemini CLI.
+  mental_damage: Finally, a system to manage the meta-work of managing the AI that manages your codebase, ensuring your token budget now requires its own project manager.
+  tags:
+    - memory-layer
+    - cli
+    - multi-agent
+    - workflow
+    - skills
+  confidence: medium
+curation:
+  status: included
+  reason: The primary artifact is a reusable skills pack and structured workflow layer (20 skills, .relay/ directory) designed to extend and coordinate existing AI coding agents like Claude Code and Codex CLI.
+  evidence:
+    - README states '20 workflow skills cover the full lifecycle' and 'primary artifact is the reusable skill content' matches the skills category instruction.
+    - Works with Claude Code, OpenAI Codex CLI, and Google Gemini CLI as a memory/skills layer rather than being the primary assistant itself.
+    - Listed in awesome-ai-coding-tools under 'Code Review and Refactoring', supporting its fit as a developer-facing AI workflow tool.
+placement:
+  primary_category: skills
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.708Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:46.509Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:39:00.399Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

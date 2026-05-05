@@ -1,0 +1,86 @@
+id: github__loglux__whatsapp-mcp-stream
+kind: github-repo
+name: whatsapp-mcp-stream
+canonical_url: https://github.com/loglux/whatsapp-mcp-stream
+identity:
+  github_repo: loglux/whatsapp-mcp-stream
+provenance:
+  discoveries:
+    - id: discovery__github__loglux__whatsapp-mcp-stream__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💬 <a name="communication"></a>Communication
+        anchor_text: loglux/whatsapp-mcp-stream
+        extracted_url: https://github.com/loglux/whatsapp-mcp-stream
+        surrounding_text: "- [loglux/whatsapp-mcp-stream](https://github.com/loglux/whatsapp-mcp-stream) [![whatsapp-mcp-stream MCP server](https://glama.ai/mcp/servers/@loglux/whatsapp-mcp-stream/badges/score.svg)](https://glama.ai/mcp/servers/@loglux/whatsapp-mcp-stream) 📇 🏠 🍎 🪟 🐧 - WhatsApp MCP server over Streamable HTTP with web admin UI (QR/status/settings), bidirectional media upload/download, and SQLite persistence."
+        confidence: high
+metadata:
+  github:
+    stars: 2
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2026-02-18T00:17:12Z"
+    pushed_at: "2026-03-05T23:20:10Z"
+    description: A WhatsApp MCP server built around Streamable HTTP transport, using Baileys for WhatsApp connectivity, with a web admin UI and bidirectional media flow (upload + download).
+    homepage: ""
+    topics:
+      - beileys
+      - mcp
+      - mcp-server
+      - whatsapp
+      - whatsapp-automation
+    last_checked_at: "2026-05-05T21:03:23.481Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:23.481Z"
+      bytes: 9066
+insights:
+  summary: A WhatsApp MCP server built on Streamable HTTP transport using Baileys, featuring a web admin UI and bidirectional media flow for integrating WhatsApp with AI agents.
+  why_it_matters: It allows developers to connect AI agents and MCP clients directly to WhatsApp for messaging, contact management, and media handling without building custom WhatsApp bridges.
+  mental_damage: "We have finally achieved the future: an MCP server so fresh it was created in 2026, allowing your AI agent to ping the group chat while you wonder if 'Streamable HTTP' is just what we're calling HTTP now."
+  tags:
+    - mcp
+    - whatsapp
+    - baileys
+    - messaging
+  confidence: medium
+curation:
+  status: included
+  reason: The project is a dedicated MCP server implementation for WhatsApp, fitting cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states it is 'A WhatsApp MCP server built around Streamable HTTP transport'.
+    - README details MCP Tools for auth, contacts, chats, messages, and media exposed via a /mcp endpoint.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Communication'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.704Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:23.481Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:34:32.314Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

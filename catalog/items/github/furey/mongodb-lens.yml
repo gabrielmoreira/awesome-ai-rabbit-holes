@@ -1,0 +1,119 @@
+id: github__furey__mongodb-lens
+kind: github-repo
+name: mongodb-lens
+canonical_url: https://github.com/furey/mongodb-lens
+identity:
+  github_repo: furey/mongodb-lens
+provenance:
+  discoveries:
+    - id: discovery__github__furey__mongodb-lens__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🗄️ <a name="databases"></a>Databases
+        anchor_text: furey/mongodb-lens
+        extracted_url: https://github.com/furey/mongodb-lens
+        surrounding_text: "- [furey/mongodb-lens](https://github.com/furey/mongodb-lens) 📇 🏠 - MongoDB Lens: Full Featured MCP Server for MongoDB Databases"
+        confidence: high
+    - id: discovery__github__furey__mongodb-lens__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: MongoDB Lens
+        extracted_url: https://github.com/furey/mongodb-lens
+        surrounding_text: "- **[MongoDB Lens](https://github.com/furey/mongodb-lens)** - Full Featured MCP Server for MongoDB Database."
+        confidence: high
+    - id: discovery__github__furey__mongodb-lens__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - 🗄️ Databases
+        anchor_text: furey/mongodb-lens
+        extracted_url: https://github.com/furey/mongodb-lens
+        surrounding_text: "-   **[furey/mongodb-lens](https://github.com/furey/mongodb-lens)** [![GitHub stars](https://img.shields.io/github/stars/furey/mongodb-lens?style=social)](https://github.com/furey/mongodb-lens): Provides a fully-featured MCP server for MongoDB Databases."
+        confidence: high
+metadata:
+  github:
+    stars: 201
+    forks: 29
+    license: MIT
+    archived: false
+    created_at: "2025-03-09T05:39:54Z"
+    pushed_at: "2025-04-23T00:44:12Z"
+    description: "🍃🔎 MongoDB Lens: Full Featured MCP Server for MongoDB Databases"
+    homepage: https://www.npmjs.com/package/mongodb-lens
+    topics:
+      - ai
+      - claude
+      - database
+      - llm
+      - mcp
+      - model-context-protocol
+      - mongodb
+    last_checked_at: "2026-05-05T21:02:15.848Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:15.848Z"
+      bytes: 67261
+insights:
+  summary: A local Model Context Protocol (MCP) server that enables LLMs and MCP clients like Claude Desktop or Cursor to interact with MongoDB databases using natural language for queries, aggregations, and schema analysis.
+  why_it_matters: It allows developers to inspect, query, and optimize MongoDB databases directly through their AI assistant rather than switching contexts to a database shell or admin UI.
+  mental_damage: Finally, a way to write aggregation pipelines using the same confident-but-wrong natural language that your coding agent uses to write the application code consuming them.
+  tags:
+    - mcp
+    - mongodb
+    - database
+    - llm-integration
+    - developer-tools
+  confidence: high
+curation:
+  status: included
+  reason: The project is a dedicated MCP server implementation for MongoDB, which fits cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description explicitly states: 'Full Featured MCP Server for MongoDB Databases'."
+    - README confirms it is a 'local Model Context Protocol (MCP) server' configured for clients like Claude Desktop and Cursor.
+    - Listed in 'awesome-mcp-servers' under 'Server Implementations > Databases'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (201) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.660Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:15.848Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:20:21.152Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

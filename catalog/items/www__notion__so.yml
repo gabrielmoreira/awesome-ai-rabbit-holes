@@ -1,0 +1,76 @@
+id: www__notion__so
+kind: website
+name: www.notion.so
+canonical_url: https://www.notion.so
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__notion__so__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 课程 Course
+        anchor_text: OpenRAG
+        extracted_url: https://openrag.notion.site/Open-RAG-c41b2a4dcdea4527a7c1cd998e763595
+        surrounding_text: 28. [OpenRAG](https://openrag.notion.site/Open-RAG-c41b2a4dcdea4527a7c1cd998e763595)
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Notion is a collaborative workspace platform that integrates AI capabilities, allowing teams to build and orchestrate agents alongside their projects and connected applications.
+  why_it_matters: It provides a platform for developers to prototype and manage AI agents within the same environment used for team documentation and project management.
+  mental_damage: We have successfully abstracted software development to the point where the 'IDE' is now a wiki page with a chat box.
+  tags:
+    - agent-orchestration
+    - workspace
+    - collaboration
+    - ai-agents
+  confidence: high
+curation:
+  status: excluded
+  reason: Notion is a general-purpose productivity and team collaboration workspace, not a developer-specific tooling, framework, or IDE.
+  evidence:
+    - Scraped site context describes it as a 'collaborative AI workspace' for teams and meetings, not a coding environment.
+    - Source list context places it in a 'Course' section regarding LLM resources, not as a developer tool or framework.
+    - Lacks specific developer-facing features like code editing, repo integration, or CLI workflows required for this catalog.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.733Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:52:14.918Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

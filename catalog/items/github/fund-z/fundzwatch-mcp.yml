@@ -1,0 +1,95 @@
+id: github__fund-z__fundzwatch-mcp
+kind: github-repo
+name: fundzwatch-mcp
+canonical_url: https://github.com/fund-z/fundzwatch-mcp
+identity:
+  github_repo: fund-z/fundzwatch-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__fund-z__fundzwatch-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: Fund-z/fundzwatch-mcp
+        extracted_url: https://github.com/fund-z/fundzwatch-mcp
+        surrounding_text: "- [Fund-z/fundzwatch-mcp](https://github.com/Fund-z/fundzwatch-mcp) [![Fund-z/fundzwatch-mcp MCP server](https://glama.ai/mcp/servers/Fund-z/fundzwatch-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Fund-z/fundzwatch-mcp) 📇 ☁️ - Real-time business event intelligence for AI agents. Funding rounds, acquisitions, executive hires, AI-scored leads, and market intelligence."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-03-24T02:43:18Z"
+    pushed_at: "2026-04-07T12:19:54Z"
+    description: MCP server for FundzWatch.ai -- real-time business events, AI-scored leads, and market intelligence in Claude, Cursor, and Windsurf.
+    homepage: https://fundzwatch.ai
+    topics:
+      - acquisitions
+      - ai-agents
+      - business-events
+      - claude
+      - cursor
+      - funding
+      - funding-data
+      - fundzwatch
+      - lead-generation
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - sales-intelligence
+      - windsurf
+    last_checked_at: "2026-05-05T21:02:15.620Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:15.620Z"
+      bytes: 4265
+insights:
+  summary: An MCP server that exposes real-time business events, AI-scored sales leads, and market intelligence from FundzWatch.ai to Claude, Cursor, and Windsurf.
+  why_it_matters: Developers building sales or market-intelligence agents can wire live funding, acquisition, and lead-scoring data directly into their AI-assisted workflows without building custom scrapers.
+  mental_damage: Another MCP server so your AI can pitch you Series B rounds while you are just trying to close a div tag.
+  tags:
+    - mcp
+    - sales-intelligence
+    - market-data
+    - funding-tracker
+  confidence: medium
+curation:
+  status: included
+  reason: The project is explicitly an MCP server that integrates FundzWatch data into MCP-compatible developer tools, which fits the MCP category cleanly.
+  evidence:
+    - Repo description states it is an 'MCP server for FundzWatch.ai' for Claude, Cursor, and Windsurf.
+    - README documents MCP configuration for Claude Desktop, Cursor, and Windsurf with npm-based server setup.
+    - Listed under 'Server Implementations > Finance & Fintech' in awesome-mcp-servers.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.688Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:15.620Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:20:19.209Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

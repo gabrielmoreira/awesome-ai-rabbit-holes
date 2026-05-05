@@ -1,0 +1,82 @@
+id: github__ferdousbhai__wsb-analyst-mcp
+kind: github-repo
+name: wsb-analyst-mcp
+canonical_url: https://github.com/ferdousbhai/wsb-analyst-mcp
+identity:
+  github_repo: ferdousbhai/wsb-analyst-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__ferdousbhai__wsb-analyst-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: ferdousbhai/wsb-analyst-mcp
+        extracted_url: https://github.com/ferdousbhai/wsb-analyst-mcp
+        surrounding_text: "- [ferdousbhai/wsb-analyst-mcp](https://github.com/ferdousbhai/wsb-analyst-mcp) 🐍 ☁️ - Reddit integration to analyze content on WallStreetBets community"
+        confidence: high
+metadata:
+  github:
+    stars: 24
+    forks: 7
+    license: MIT
+    archived: false
+    created_at: "2025-04-26T05:42:06Z"
+    pushed_at: "2025-09-21T03:12:45Z"
+    description: MCP server for analyzing WallStreetBets
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:09.996Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:09.996Z"
+      bytes: 5818
+insights:
+  summary: An MCP server that fetches and analyzes real-time WallStreetBets posts, comments, and stock tickers for use with Claude Desktop and other MCP clients.
+  why_it_matters: It lets developers wire Reddit sentiment data directly into LLM workflows, enabling rapid prototyping of market-analysis agents without building a custom Reddit scraping pipeline.
+  mental_damage: We have finally bridged the gap between enterprise-grade AI infrastructure and the financial advice of strangers yelling about tendies on the internet.
+  tags:
+    - mcp
+    - reddit
+    - finance
+    - sentiment-analysis
+    - llm-tooling
+  confidence: high
+curation:
+  status: included
+  reason: The project is a standalone MCP server designed to expose WallStreetBets data to LLM clients, which fits squarely into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states 'MCP server for analyzing WallStreetBets'.
+    - README confirms it is a Model Context Protocol server integrating with Claude Desktop and other MCP clients.
+    - Listed under 'Server Implementations > Finance & Fintech' in the awesome-mcp-servers directory.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.687Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:09.996Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:19:21.560Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

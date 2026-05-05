@@ -1,0 +1,85 @@
+id: github__farizrahman4u__loopgpt
+kind: github-repo
+name: loopgpt
+canonical_url: https://github.com/farizrahman4u/loopgpt
+identity:
+  github_repo: farizrahman4u/loopgpt
+provenance:
+  discoveries:
+    - id: discovery__github__farizrahman4u__loopgpt__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Loop GPT
+        anchor_text: Loop GPT
+        extracted_url: https://github.com/farizrahman4u/loopgpt
+        surrounding_text: "## [Loop GPT](https://github.com/farizrahman4u/loopgpt/tree/main)"
+        confidence: high
+metadata:
+  github:
+    stars: 1452
+    forks: 131
+    license: MIT
+    archived: false
+    created_at: "2023-04-14T22:11:29Z"
+    pushed_at: "2026-04-06T17:22:27Z"
+    description: Modular Auto-GPT Framework
+    homepage: ""
+    topics:
+      - chatgpt
+      - gpt
+      - gpt4
+      - llms
+    last_checked_at: "2026-05-05T21:02:08.277Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:08.277Z"
+      bytes: 11037
+insights:
+  summary: LoopGPT is a Python-based, modular reimplementation of Auto-GPT designed as an extensible framework for building and running autonomous agents using GPT-3.5 or GPT-4.
+  why_it_matters: It provides developers with a 'pythonic' library to construct custom autonomous agents with features like state serialization and human-in-the-loop controls without requiring external databases.
+  mental_damage: "Just what the ecosystem needed in 2023: another recursive loop of GPT-3.5 trying to execute shell commands until it inevitably hallucinates its way into an infinite token-consuming void."
+  tags:
+    - agents
+    - framework
+    - python
+    - autonomous
+    - gpt
+  confidence: high
+curation:
+  status: included
+  reason: The project is a code-first SDK and library for building autonomous agents, fitting the AI Frameworks category rather than a user-facing coding agent or orchestration platform.
+  evidence:
+    - Repo description explicitly states 'Modular Auto-GPT Framework'.
+    - README emphasizes it is a 'proper python package' and 'Plug N Play API' for developers to add features via Python code.
+    - Listed in 'awesome-ai-agents' directory context under the section 'Loop GPT'.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1452) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.687Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:08.277Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:19:03.538Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

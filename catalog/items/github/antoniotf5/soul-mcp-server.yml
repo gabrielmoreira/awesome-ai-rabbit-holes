@@ -1,0 +1,85 @@
+id: github__antoniotf5__soul-mcp-server
+kind: github-repo
+name: soul-mcp-server
+canonical_url: https://github.com/antoniotf5/soul-mcp-server
+identity:
+  github_repo: antoniotf5/soul-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__antoniotf5__soul-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: AntonioTF5/soul-mcp-server
+        extracted_url: https://github.com/antoniotf5/soul-mcp-server
+        surrounding_text: "- [AntonioTF5/soul-mcp-server](https://github.com/AntonioTF5/soul-mcp-server) [![soul-mcp-server MCP server](https://glama.ai/mcp/servers/AntonioTF5/soul-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/AntonioTF5/soul-mcp-server) 📇 🏠 🍎 🪟 🐧 - Validate and generate SOUL.md agent identity files from Claude Desktop. SOUL.md is the open format for persistent AI agent identity — personality, voice, values, and behavioral constraints in a machine-readable YAML file."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-04-14T14:09:48Z"
+    pushed_at: "2026-04-18T10:20:16Z"
+    description: MCP server for SOUL.md — validate and generate soul files from Claude Desktop.
+    homepage: null
+    topics:
+      - claude
+      - mcp
+      - model-context-protocol
+      - soul-md
+    last_checked_at: "2026-05-05T21:01:04.704Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:04.704Z"
+      bytes: 2223
+insights:
+  summary: An MCP server that validates, scores, and generates templates for SOUL.md agent specification files from Claude Desktop or other MCP-compatible clients.
+  why_it_matters: It provides a standardized tooling layer for developers defining agent behavior via the SOUL.md spec, integrating validation and scaffolding directly into the MCP workflow.
+  mental_damage: We have now successfully abstracted the process of writing the configuration files that configure the agents that write the code, ensuring our YAML-induced anxiety is fully portable.
+  tags:
+    - mcp
+    - spec-validation
+    - agent-config
+    - claude
+  confidence: medium
+curation:
+  status: included
+  reason: The project is a dedicated MCP server implementation for handling SOUL.md files, fitting squarely into the MCP infrastructure category.
+  evidence:
+    - "Repo description explicitly states: 'MCP server for SOUL.md — validate and generate soul files from Claude Desktop.'"
+    - "README details three specific MCP tools: validate_soul_file, generate_soul_template, and score_soul_file."
+    - Listed in awesome-mcp-servers under 'Server Implementations > Knowledge & Memory'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.679Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:04.704Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:08:22.215Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

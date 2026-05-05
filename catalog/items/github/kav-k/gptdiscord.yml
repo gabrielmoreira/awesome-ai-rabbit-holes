@@ -1,0 +1,100 @@
+id: github__kav-k__gptdiscord
+kind: github-repo
+name: gptdiscord
+canonical_url: https://github.com/kav-k/gptdiscord
+identity:
+  github_repo: kav-k/gptdiscord
+provenance:
+  discoveries:
+    - id: discovery__github__kav-k__gptdiscord__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - GPT Discord
+        anchor_text: GPT Discord
+        extracted_url: https://github.com/kav-k/gptdiscord
+        surrounding_text: "## [GPT Discord](https://github.com/Kav-K/GPTDiscord)"
+        confidence: high
+metadata:
+  github:
+    stars: 1853
+    forks: 294
+    license: MIT
+    archived: false
+    created_at: "2022-12-08T08:06:26Z"
+    pushed_at: "2026-02-06T23:33:50Z"
+    description: A robust, all-in-one GPT interface for Discord. ChatGPT-style conversations, image generation, AI-moderation, custom indexes/knowledgebase, youtube summarizer, and more!
+    homepage: ""
+    topics:
+      - artificial-intelligence
+      - asyncio
+      - chatbot
+      - code-interpreter
+      - collaborate
+      - dalle2
+      - digitalocean
+      - discord
+      - embeddings
+      - extractive-question-answering
+      - github
+      - gpt3
+      - hacktoberfest
+      - help-wanted
+      - moderator-bot
+      - multi-modal
+      - openai
+      - openai-api
+      - pinecone
+      - python
+    last_checked_at: "2026-05-05T21:03:02.988Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:02.988Z"
+      bytes: 11592
+insights:
+  summary: A self-hosted Python bot that integrates OpenAI's models into Discord for chat, image generation, code interpretation, document Q&A, and AI moderation.
+  why_it_matters: It provides developers with a ready-to-deploy, extensible template for building conversational AI agents with code execution and RAG capabilities inside a chat platform.
+  mental_damage: Because what every engineering team desperately needs is another bridge between expensive LLMs and the same Discord channel where nobody reads the documentation.
+  tags:
+    - discord
+    - bot
+    - openai
+    - code-interpreter
+    - self-hosted
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a consumer-facing chatbot for Discord, not a developer tool that assists with coding, repo management, or IDE workflows.
+  evidence:
+    - Repo description defines it as 'A robust, all-in-one GPT interface for Discord' with chat and moderation features.
+    - README focuses on Discord-specific features like image generation, server moderation, and chat, lacking a developer-tooling angle.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1853) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.701Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:02.988Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:30:09.570Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

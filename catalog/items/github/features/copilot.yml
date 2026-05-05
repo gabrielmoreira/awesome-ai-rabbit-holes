@@ -1,0 +1,95 @@
+id: github__features__copilot
+kind: github-repo
+name: copilot
+canonical_url: https://github.com/features/copilot
+identity:
+  github_repo: features/copilot
+provenance:
+  discoveries:
+    - id: discovery__copilot__money__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: Copilot Money
+        extracted_url: https://copilot.money
+        surrounding_text: "- [ignaciohermosillacornejo/copilot-money-mcp](https://github.com/ignaciohermosillacornejo/copilot-money-mcp) [![ignaciohermosillacornejo/copilot-money-mcp MCP server](https://glama.ai/mcp/servers/ignaciohermosillacornejo/copilot-money-mcp/badges/score.svg)](https://glama.ai/mcp/servers/ignaciohermosillacornejo/copilot-money-mcp) 📇 🏠 ☁️ 🍎 - Read and manage [Copilot Money](https://copilot.money) personal finance data — 30 tools for transactions, budgets, accounts, recurring charges, investments, and goals. Reads are 100% local from the Firestore cache; opt-in writes (`--write`) go directly to Copilot's GraphQL API."
+        confidence: high
+    - id: discovery__github__features__copilot__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Code Editors and Assistants
+        anchor_text: GitHub Copilot
+        extracted_url: https://github.com/features/copilot
+        surrounding_text: "- **[GitHub Copilot](https://github.com/features/copilot)** – AI pair programmer integrated across VS Code, JetBrains, and GitHub with chat, code completion, and workspace agents."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: An MCP server that provides financial and market data capabilities to AI agents and coding assistants.
+  why_it_matters: Developers building financial tools or trading bots can plug this into their AI workflow to give models real-time access to market data without writing custom API wrappers.
+  mental_damage: We have successfully abstracted away the last remaining barrier to deploying algorithmic trading strategies written by an LLM that hallucinates ticker symbols.
+  tags:
+    - finance
+    - fintech
+    - market-data
+    - mcp
+  confidence: medium
+curation:
+  status: included
+  reason: The project is explicitly listed as an MCP server implementation for finance and fintech, fitting the MCP Servers and Tooling category.
+  evidence:
+    - Listed in awesome-mcp-servers under 'Server Implementations > Finance & Fintech'
+    - URL resolves to copilot.money, indicating a financial data focus
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:43:17.864Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.727Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: failed
+    updated_at: "2026-05-05T21:02:08.957Z"
+    cause:
+      type: github_repo_missing
+      message: "GitHub repository not found: features/copilot"
+    next_retry_at: null

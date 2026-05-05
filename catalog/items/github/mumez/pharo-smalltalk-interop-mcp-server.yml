@@ -1,0 +1,83 @@
+id: github__mumez__pharo-smalltalk-interop-mcp-server
+kind: github-repo
+name: pharo-smalltalk-interop-mcp-server
+canonical_url: https://github.com/mumez/pharo-smalltalk-interop-mcp-server
+identity:
+  github_repo: mumez/pharo-smalltalk-interop-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__mumez__pharo-smalltalk-interop-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: mumez/pharo-smalltalk-interop-mcp-server
+        extracted_url: https://github.com/mumez/pharo-smalltalk-interop-mcp-server
+        surrounding_text: "- [mumez/pharo-smalltalk-interop-mcp-server](https://github.com/mumez/pharo-smalltalk-interop-mcp-server) 🐍 🏠 - Pharo Smalltalk integration enabling code evaluation, class/method introspection, package management, test execution, and project installation for interactive development with Pharo images."
+        confidence: high
+metadata:
+  github:
+    stars: 10
+    forks: 8
+    license: MIT
+    archived: false
+    created_at: "2025-07-14T13:35:13Z"
+    pushed_at: "2025-12-19T15:27:07Z"
+    description: A local MCP server to communicate local Pharo Smalltalk image
+    homepage: ""
+    topics:
+      - mcp-server
+      - pharo-smalltalk
+    last_checked_at: "2026-05-05T21:03:49.122Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:49.122Z"
+      bytes: 11377
+insights:
+  summary: A local MCP server that connects AI agents to a live Pharo Smalltalk image for code evaluation, introspection, package management, and UI debugging.
+  why_it_matters: It allows developers to use modern AI coding agents to inspect, test, and manipulate Smalltalk systems directly through the Model Context Protocol.
+  mental_damage: You can now ask a frontier LLM to debug a morph hierarchy from 1996, because apparently no niche is safe from agentic ambition.
+  tags:
+    - mcp
+    - smalltalk
+    - interop
+    - developer-tools
+  confidence: high
+curation:
+  status: included
+  reason: The project is an MCP server designed to expose Pharo Smalltalk capabilities to AI tools, which fits the MCP category cleanly.
+  evidence:
+    - Repo description states it is 'A local MCP server to communicate local Pharo Smalltalk image'.
+    - README details 22 MCP tools for evaluation, introspection, package management, and UI debugging.
+    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.708Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:49.122Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:39:30.102Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

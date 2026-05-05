@@ -1,0 +1,85 @@
+id: github__microsoft__deepspeed-mii
+kind: github-repo
+name: deepspeed-mii
+canonical_url: https://github.com/microsoft/deepspeed-mii
+identity:
+  github_repo: microsoft/deepspeed-mii
+provenance:
+  discoveries:
+    - id: discovery__github__microsoft__deepspeed-mii__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Serving
+          - Large Model Serving
+        anchor_text: DeepSpeed-MII
+        extracted_url: https://github.com/microsoft/deepspeed-mii
+        surrounding_text: "| [DeepSpeed-MII](https://github.com/microsoft/DeepSpeed-MII)                           | MII makes low-latency and high-throughput inference possible, powered by DeepSpeed.                             | ![GitHub Badge](https://img.shields.io/github/stars/microsoft/DeepSpeed-MII.svg?style=flat-square)               |"
+        confidence: high
+metadata:
+  github:
+    stars: 2109
+    forks: 190
+    license: Apache-2.0
+    archived: false
+    created_at: "2022-03-23T22:30:45Z"
+    pushed_at: "2025-06-30T16:21:45Z"
+    description: MII makes low-latency and high-throughput inference possible, powered by DeepSpeed.
+    homepage: ""
+    topics:
+      - deep-learning
+      - inference
+      - pytorch
+    last_checked_at: "2026-05-05T21:03:38.325Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:38.325Z"
+      bytes: 20477
+insights:
+  summary: An open-source Python library from Microsoft's DeepSpeed team that delivers low-latency, high-throughput LLM inference using techniques like blocked KV-caching, continuous batching, and tensor parallelism.
+  why_it_matters: It allows developers to serve large models like Llama-2-70B and Mixtral locally or on their own infrastructure with significantly higher throughput than alternatives like vLLM.
+  mental_damage: "Just what every backend engineer wanted: another reason to spend a weekend tuning CUDA kernels and batch sizes to squeeze 2.5x throughput out of a stack that will be deprecated by next quarter."
+  tags:
+    - inference
+    - llm-serving
+    - local-ai
+    - cuda
+    - performance
+  confidence: high
+curation:
+  status: included
+  reason: The project is a developer-facing library for running and serving AI models on local or self-managed hardware, fitting the Local AI category.
+  evidence:
+    - Repo description states it 'makes low-latency and high-throughput inference possible, powered by DeepSpeed.'
+    - README details support for fast local text-generation inference for LLMs like Llama-2-70B and Mixtral.
+    - Listed in Awesome-LLMOps under the 'Serving > Large Model Serving' section.
+placement:
+  primary_category: local-ai
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (2109) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.442Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:38.325Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:37:24.724Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

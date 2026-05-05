@@ -1,0 +1,91 @@
+id: bolt__new
+kind: website
+name: bolt.new
+canonical_url: https://bolt.new
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__bolt__new__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - App Builders
+        anchor_text: Bolt.new
+        extracted_url: https://bolt.new
+        surrounding_text: "- **[Bolt.new](https://bolt.new)** – Build, edit, and deploy full-stack web apps in the browser using natural language with one-click deployment."
+        confidence: high
+    - id: discovery__bolt__new__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 代码 Coding
+        anchor_text: Blot.new
+        extracted_url: https://bolt.new
+        surrounding_text: 4. [Blot.new](https://bolt.new/)
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Bolt.new is a browser-based AI builder that generates, edits, and deploys full-stack applications and websites from natural language prompts.
+  why_it_matters: It allows developers and product teams to rapidly prototype and ship production-ready apps with integrated design systems, hosting, and backend infrastructure without leaving the browser.
+  mental_damage: Another day, another 'vibe coding' tool promising that this time, really, you can fire the frontend team and just chat your way to a scalable enterprise app.
+  tags:
+    - app-builder
+    - prototyping
+    - web-development
+    - ai-generated
+  confidence: high
+curation:
+  status: included
+  reason: The product is a browser-first SaaS that turns prompts into deployed apps and sites, which aligns perfectly with the app-builders category rather than a coding agent that works inside a repo or IDE.
+  evidence:
+    - Scraped site context describes it as 'Create stunning apps & websites by chatting with AI' and 'Browser-first prompt-to-app'.
+    - Source list 'awesome-ai-coding-tools' categorizes it explicitly under 'App Builders'.
+    - Marketing explicitly mentions hosting, databases, and custom domains, indicating a full deployment platform rather than just a code editor assistant.
+placement:
+  primary_category: app-builders
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.674Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:42:36.375Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

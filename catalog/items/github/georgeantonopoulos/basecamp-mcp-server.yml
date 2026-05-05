@@ -1,0 +1,80 @@
+id: github__georgeantonopoulos__basecamp-mcp-server
+kind: github-repo
+name: basecamp-mcp-server
+canonical_url: https://github.com/georgeantonopoulos/basecamp-mcp-server
+identity:
+  github_repo: georgeantonopoulos/basecamp-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__georgeantonopoulos__basecamp-mcp-server__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: Basecamp
+        extracted_url: https://github.com/georgeantonopoulos/basecamp-mcp-server
+        surrounding_text: "- **[Basecamp](https://github.com/georgeantonopoulos/Basecamp-MCP-Server)** - Integration with Basecamp project management platform for managing projects, to-dos, card tables, documents, and team collaboration"
+        confidence: high
+metadata:
+  github:
+    stars: 87
+    forks: 29
+    license: MIT
+    archived: false
+    created_at: "2025-03-09T16:54:05Z"
+    pushed_at: "2026-04-22T07:20:36Z"
+    description: An MCP Server that interacts with the Basecamp 3+ API
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:19.193Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:19.193Z"
+      bytes: 17205
+insights:
+  summary: A FastMCP-powered server that exposes the Basecamp 3+ API as 75+ tools to AI clients like Cursor, Codex, and Claude Desktop.
+  why_it_matters: Developers can manage Basecamp projects, to-dos, and comments directly from their AI coding environment without switching context to the browser.
+  mental_damage: We have successfully abstracted project management so far away that you can now procrastinate on your tickets using a JSON-RPC tool called by an LLM in your editor.
+  tags:
+    - mcp
+    - basecamp
+    - fastmcp
+    - integrations
+  confidence: high
+curation:
+  status: included
+  reason: This is a dedicated MCP server implementation that connects a specific SaaS API to AI clients, fitting cleanly into the MCP infrastructure category.
+  evidence:
+    - "Repo description explicitly states: 'An MCP Server that interacts with the Basecamp 3+ API'"
+    - README confirms 'FastMCP-powered integration' with '75 tools' for Cursor, Codex, and Claude Desktop
+    - Listed in 'awesome-mcp-servers' under 'Community Servers'
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.688Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:19.193Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:21:00.383Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

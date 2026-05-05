@@ -1,0 +1,84 @@
+id: github__tabbyml__tabby
+kind: github-repo
+name: tabby
+canonical_url: https://github.com/tabbyml/tabby
+identity:
+  github_repo: tabbyml/tabby
+provenance:
+  discoveries:
+    - id: discovery__github__tabbyml__tabby__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Code AI
+        anchor_text: tabby
+        extracted_url: https://github.com/tabbyml/tabby
+        surrounding_text: "| [tabby](https://github.com/TabbyML/tabby)           | Self-hosted AI coding assistant. An opensource / on-prem alternative to GitHub Copilot.                  | ![GitHub Badge](https://img.shields.io/github/stars/TabbyML/tabby.svg?style=flat-square)        |"
+        confidence: high
+    - id: discovery__github__tabbyml__tabby__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: scraped
+        section_path:
+          - Code Editors and Assistants
+        anchor_text: Tabby
+        extracted_url: https://tabby.tabbyml.com
+        surrounding_text: "- **[Tabby](https://tabby.tabbyml.com/)** – Self-hosted, open-source AI coding assistant you can run on your own infrastructure."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.671Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: skipped
+    updated_at: "2026-05-05T21:04:23.170Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

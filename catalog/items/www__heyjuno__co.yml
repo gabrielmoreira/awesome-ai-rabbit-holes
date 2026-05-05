@@ -1,0 +1,75 @@
+id: www__heyjuno__co
+kind: website
+name: www.heyjuno.co
+canonical_url: https://www.heyjuno.co
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__heyjuno__co__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Juno
+        anchor_text: Juno
+        extracted_url: https://heyjuno.co
+        surrounding_text: "## [Juno](https://heyjuno.co/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Juno is a hosted AI service that recruits participants and conducts unscripted qualitative interviews to extract market insights for product and research teams.
+  why_it_matters: It automates the traditionally manual workflow of user research, allowing product and engineering teams to validate features and uncover friction points without weeks of manual interviewing.
+  mental_damage: We have successfully automated the human element of user interviews, ensuring that no actual user will ever speak to a developer again.
+  tags:
+    - user-research
+    - market-insights
+    - ai-interviewer
+  confidence: high
+curation:
+  status: excluded
+  reason: Juno is a market research and user interview SaaS for product teams, not a developer-facing tool for coding, app building, or infrastructure.
+  evidence:
+    - Scraped site describes Juno as an AI interviewer that 'recruits and interviews real people' for market research, not code generation.
+    - Source-list context places it in 'awesome-ai-agents' under a section for interviewing people, distinct from developer tooling.
+    - No inputs indicate the tool assists with source code, IDE workflows, local AI, or app deployment.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.732Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:51:18.670Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

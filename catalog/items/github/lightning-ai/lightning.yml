@@ -1,0 +1,89 @@
+id: github__lightning-ai__lightning
+kind: github-repo
+name: lightning
+canonical_url: https://github.com/lightning-ai/lightning
+identity:
+  github_repo: lightning-ai/lightning
+provenance:
+  discoveries:
+    - id: discovery__github__lightning-ai__lightning__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Training
+          - Frameworks for Training
+        anchor_text: PyTorch Lightning
+        extracted_url: https://github.com/lightning-ai/lightning
+        surrounding_text: "| [PyTorch Lightning](https://github.com/lightning-AI/lightning)       | Deep learning framework to train, deploy, and ship AI products Lightning fast.                                                                                                                              | ![GitHub Badge](https://img.shields.io/github/stars/lightning-AI/lightning.svg?style=flat-square)            |"
+        confidence: high
+metadata:
+  github:
+    stars: 31113
+    forks: 3719
+    license: Apache-2.0
+    archived: false
+    created_at: "2019-03-31T00:45:57Z"
+    pushed_at: "2026-05-05T18:06:23Z"
+    description: Pretrain, finetune ANY AI model of ANY size on 1 or 10,000+ GPUs with zero code changes.
+    homepage: https://lightning.ai/pytorch-lightning/?utm_source=ptl_readme&utm_medium=referral&utm_campaign=ptl_readme
+    topics:
+      - ai
+      - artificial-intelligence
+      - data-science
+      - deep-learning
+      - machine-learning
+      - python
+      - pytorch
+    last_checked_at: "2026-05-05T21:03:20.168Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:20.168Z"
+      bytes: 28557
+insights:
+  summary: A deep learning framework that organizes PyTorch code to automate training infrastructure, enabling pretraining and finetuning of AI models across CPUs to multi-node GPUs with minimal code changes.
+  why_it_matters: It eliminates the need to hand-write and maintain repetitive engineering code for backpropagation, mixed precision, and distributed training, letting developers focus on model logic.
+  mental_damage: "Just what the ecosystem needed: another abstraction layer promising that if PyTorch is JavaScript, this is React, ensuring you can now debug your training job across three different levels of indirection."
+  tags:
+    - pytorch
+    - deep-learning
+    - training
+    - distributed-computing
+    - framework
+  confidence: high
+curation:
+  status: excluded
+  reason: Excluded because it is a general deep learning and model training framework for data scientists, not a developer-facing AI tool, agent, or infrastructure product for building software.
+  evidence:
+    - Repo description explicitly targets pretraining/finetuning AI models on GPUs, not developer workflows.
+    - README focuses on automating PyTorch training infrastructure (backpropagation, multi-GPU) rather than coding assistance or app building.
+    - Listed in Awesome-LLMOps under 'Training > Frameworks for Training', confirming its role as a model-training tool.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (31113) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.442Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:20.168Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:33:54.953Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

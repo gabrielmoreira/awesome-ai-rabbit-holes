@@ -1,0 +1,82 @@
+id: github__buildsyncinc__gibs-mcp
+kind: github-repo
+name: gibs-mcp
+canonical_url: https://github.com/buildsyncinc/gibs-mcp
+identity:
+  github_repo: buildsyncinc/gibs-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__buildsyncinc__gibs-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - ⚖️ <a name="legal"></a>Legal
+        anchor_text: buildsyncinc/gibs-mcp
+        extracted_url: https://github.com/buildsyncinc/gibs-mcp
+        surrounding_text: "- [buildsyncinc/gibs-mcp](https://github.com/buildsyncinc/gibs-mcp) 🐍 ☁️ - Regulatory compliance (AI Act, GDPR, DORA) with article-level citations"
+        confidence: high
+metadata:
+  github:
+    stars: 6
+    forks: 4
+    license: null
+    archived: false
+    created_at: "2026-02-15T21:56:06Z"
+    pushed_at: "2026-02-15T22:37:09Z"
+    description: Gibs MCP Server — EU regulatory compliance for AI agents (AI Act, GDPR, DORA)
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:01:27.350Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:27.350Z"
+      bytes: 7426
+insights:
+  summary: An MCP server that connects AI development environments to a regulatory compliance knowledge base covering the EU AI Act, GDPR, and DORA with article-level citations.
+  why_it_matters: It lets developers building AI products query complex EU regulations directly from their AI assistant instead of manually parsing hundreds of legal articles.
+  mental_damage: Now your AI agent can confidently hallucinate that your facial recognition startup is fully DORA-compliant while you still can't figure out where to store the API keys.
+  tags:
+    - mcp
+    - compliance
+    - eu-ai-act
+    - legal
+    - regulations
+  confidence: medium
+curation:
+  status: included
+  reason: The project is explicitly an MCP server providing regulatory compliance lookups, fitting cleanly into the MCP servers and tooling category.
+  evidence:
+    - Repo description states 'Gibs MCP Server — EU regulatory compliance for AI agents (AI Act, GDPR, DORA)'
+    - README confirms it 'connects your AI development environment directly to a regulatory compliance knowledge base' via MCP
+    - Listed in awesome-mcp-servers under Server Implementations > Legal section
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.440Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:27.350Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:11:55.854Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

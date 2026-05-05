@@ -1,0 +1,98 @@
+id: github__logicalclocks__hopsworks
+kind: github-repo
+name: hopsworks
+canonical_url: https://github.com/logicalclocks/hopsworks
+identity:
+  github_repo: logicalclocks/hopsworks
+provenance:
+  discoveries:
+    - id: discovery__github__logicalclocks__hopsworks__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Large Scale Deployment
+          - ML Platforms
+        anchor_text: Hopsworks
+        extracted_url: https://github.com/logicalclocks/hopsworks
+        surrounding_text: "| [Hopsworks](https://github.com/logicalclocks/hopsworks) | Hopsworks is a MLOps platform for training and operating large and small ML systems, including fine-tuning and serving LLMs. Hopsworks includes both a feature store and vector database for RAG.                                                                                                                                                                                                                                                                         | ![GitHub Badge](https://img.shields.io/github/stars/logicalclocks/hopsworks.svg?style=flat-square) |"
+        confidence: high
+metadata:
+  github:
+    stars: 1294
+    forks: 157
+    license: AGPL-3.0
+    archived: false
+    created_at: "2018-07-26T08:13:34Z"
+    pushed_at: "2025-02-10T05:53:39Z"
+    description: Hopsworks - Data-Intensive AI platform with a Feature Store
+    homepage: https://hopsworks.ai
+    topics:
+      - aws
+      - azure
+      - data-science
+      - feature-engineering
+      - feature-management
+      - feature-store
+      - gcp
+      - governance
+      - hopsworks
+      - kserve
+      - machine-learning
+      - ml
+      - mlops
+      - model-serving
+      - pyspark
+      - python
+      - serverless
+    last_checked_at: "2026-05-05T21:03:23.401Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:23.401Z"
+      bytes: 9921
+insights:
+  summary: Hopsworks is a data-intensive AI platform providing a Python-centric feature store, real-time AI lakehouse capabilities, and MLOps tooling for managing and serving ML models.
+  why_it_matters: It provides ML teams with a unified environment to govern, develop, and share assets like features and models across cloud environments like AWS, Azure, and GCP.
+  mental_damage: Because nothing says 'agile developer experience' like spinning up a specialized lakehouse platform just to admit that your most valuable ML asset is a curated table of features.
+  tags:
+    - feature-store
+    - mlops
+    - ml-platform
+    - python
+  confidence: high
+curation:
+  status: excluded
+  reason: Excluded because the project is a general ML data platform and feature store focused on data science infrastructure, lacking a direct AI developer tooling angle for coding, agents, or app building.
+  evidence:
+    - Repo description and README define it as a 'Data-Intensive AI platform' and 'Real-Time AI Lakehouse' for ML, not a developer coding tool.
+    - Topics and features focus on data-science, feature-engineering, model-serving, and pyspark rather than code generation or IDE integration.
+    - Listed in Awesome-LLMOps under 'Large Scale Deployment > ML Platforms', which confirms its role as backend infrastructure rather than a developer-facing assistant.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1294) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.704Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:23.401Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:34:32.015Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

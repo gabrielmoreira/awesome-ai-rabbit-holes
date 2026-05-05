@@ -1,0 +1,76 @@
+id: mentat__ai__docs__cli
+kind: website
+name: cli
+canonical_url: https://mentat.ai/docs/cli
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__mentat__ai__docs__cli__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Terminal-native coding agents
+          - Closed Source
+        anchor_text: Mentat CLI
+        extracted_url: https://mentat.ai/docs/cli
+        surrounding_text: "- **[Mentat CLI](https://mentat.ai/docs/cli)** `[Mentat]` — Cloud-native coding agent CLI for managing remote Mentat agents from your terminal; auto-detects repo/branch context."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A terminal-native AI coding agent that runs in the CLI to plan, write, and edit code across a repository.
+  why_it_matters: It lets developers delegate multi-file coding tasks directly from the terminal without switching to an IDE or hosted UI.
+  mental_damage: Yet another CLI companion promising to refactor your spaghetti while you anxiously watch the tokens tick away, wondering who is actually reviewing the reviewer.
+  tags:
+    - cli
+    - coding-agent
+    - terminal
+    - repo-editing
+  confidence: medium
+curation:
+  status: included
+  reason: It is a terminal-native coding agent that collaborates on source code inside a repo, matching the coding-agents category and its Terminal & CLI Agents section.
+  evidence:
+    - Listed in awesome-cli-coding-agents under Terminal-native coding agents > Closed Source
+    - URL path (mentat.ai/docs/cli) and name indicate a CLI-focused coding agent product
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.445Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T20:49:33.555Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+    next_retry_at: null

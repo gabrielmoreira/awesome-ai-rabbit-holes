@@ -1,0 +1,92 @@
+id: github__mikkoparkkola__mcp-gateway
+kind: github-repo
+name: mcp-gateway
+canonical_url: https://github.com/mikkoparkkola/mcp-gateway
+identity:
+  github_repo: mikkoparkkola/mcp-gateway
+provenance:
+  discoveries:
+    - id: discovery__github__mikkoparkkola__mcp-gateway__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🔗 <a name="aggregators"></a>Aggregators
+        anchor_text: MikkoParkkola/mcp-gateway
+        extracted_url: https://github.com/mikkoparkkola/mcp-gateway
+        surrounding_text: "- [MikkoParkkola/mcp-gateway](https://github.com/MikkoParkkola/mcp-gateway) [![MikkoParkkola/mcp-gateway MCP server](https://glama.ai/mcp/servers/MikkoParkkola/mcp-gateway/badges/score.svg)](https://glama.ai/mcp/servers/MikkoParkkola/mcp-gateway) 🏎️ 🏠 🍎 🪟 🐧 - Universal MCP gateway with single-port multiplexing and Meta-MCP. 4 meta-tools replace 100+ registrations, saving 95% context window. Hot-reloadable capabilities, OpenAPI auto-import, 42 starter capabilities (25 zero-config)."
+        confidence: high
+metadata:
+  github:
+    stars: 21
+    forks: 7
+    license: MIT
+    archived: false
+    created_at: "2026-01-25T00:55:03Z"
+    pushed_at: "2026-05-05T20:53:55Z"
+    description: Universal MCP Gateway - Single-port multiplexing with Meta-MCP for ~95% context token savings
+    homepage: https://crates.io/crates/mcp-gateway
+    topics:
+      - ai
+      - anthropic
+      - claude
+      - gateway
+      - llm
+      - mcp
+      - model-context-protocol
+      - multiplexer
+      - proxy
+      - rust
+    last_checked_at: "2026-05-05T21:03:40.649Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:40.649Z"
+      bytes: 33022
+insights:
+  summary: A Rust-based gateway that multiplexes multiple MCP servers and REST APIs behind a single Meta-MCP interface to drastically reduce context window token usage.
+  why_it_matters: Developers can expose 110+ REST capabilities and backend tools to AI clients without bloating prompts, since the gateway routes requests through a compact 14-tool discovery surface.
+  mental_damage: We have successfully engineered a proxy to solve the exact context-bloat problem that arose because we insisted on giving the AI access to every tool ever written.
+  tags:
+    - mcp
+    - rust
+    - gateway
+    - context-compression
+    - devops
+  confidence: high
+curation:
+  status: included
+  reason: The project is a dedicated MCP middleware layer (gateway/multiplexer) that routes tool and capability traffic, fitting squarely into MCP infrastructure.
+  evidence:
+    - Repo description explicitly calls it a 'Universal MCP Gateway' with single-port multiplexing.
+    - README defines it as a 'tool and capability gateway' routing MCP traffic to backends and REST APIs.
+    - Listed under 'Aggregators' in the awesome-mcp-servers directory.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.707Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:40.649Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:37:51.318Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

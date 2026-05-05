@@ -1,0 +1,90 @@
+id: github__opendevin__opendevin
+kind: github-repo
+name: opendevin
+canonical_url: https://github.com/opendevin/opendevin
+identity:
+  github_repo: opendevin/opendevin
+provenance:
+  discoveries:
+    - id: discovery__github__opendevin__opendevin__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - OpenDevin
+        anchor_text: OpenDevin
+        extracted_url: https://github.com/opendevin/opendevin
+        surrounding_text: "## [OpenDevin](https://github.com/OpenDevin/OpenDevin)"
+        confidence: high
+metadata:
+  github:
+    stars: 72671
+    forks: 9193
+    license: NOASSERTION
+    archived: false
+    created_at: "2024-03-13T03:33:31Z"
+    pushed_at: "2026-05-05T20:19:23Z"
+    description: "🙌 OpenHands: AI-Driven Development"
+    homepage: https://openhands.dev
+    topics:
+      - agent
+      - artificial-intelligence
+      - chatgpt
+      - claude-ai
+      - cli
+      - developer-tools
+      - gpt
+      - llm
+      - openai
+    last_checked_at: "2026-05-05T21:04:05.756Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:05.756Z"
+      bytes: 8390
+insights:
+  summary: OpenHands is an open-source platform providing a Software Agent SDK, CLI, and GUI for running AI agents that can plan, write, edit, review, and debug code within a developer's repository or via cloud integrations.
+  why_it_matters: It offers a high-performance, self-hostable alternative to commercial coding agents like Devin, achieving strong benchmark results while integrating directly into developer workflows via CLI, IDE, or Slack.
+  mental_damage: Just when you finally memorized the CLI flags for your last coding agent, the community gifts you a modular SDK that makes you question if your current tool is just a glorified autocomplete wrapper.
+  tags:
+    - coding-agent
+    - sdk
+    - cli
+    - open-source
+    - autonomous
+  confidence: high
+curation:
+  status: included
+  reason: The tool is a direct developer-facing coding assistant that operates on source code via CLI, SDK, and GUI, fitting the coding-agents category perfectly.
+  evidence:
+    - Repo description identifies it as 'AI-Driven Development' and the README details an SDK, CLI, and Local GUI for agentic coding.
+    - Features integrations with Slack, Jira, and Linear, targeting direct developer workflow integration rather than just app generation.
+    - Achieved 77.6% on SWEBench and has significant traction (72k+ stars) as a coding agent alternative.
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (72671) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.443Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:05.756Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:42:44.418Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

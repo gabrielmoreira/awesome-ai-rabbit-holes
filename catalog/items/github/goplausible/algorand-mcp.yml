@@ -1,0 +1,86 @@
+id: github__goplausible__algorand-mcp
+kind: github-repo
+name: algorand-mcp
+canonical_url: https://github.com/goplausible/algorand-mcp
+identity:
+  github_repo: goplausible/algorand-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__goplausible__algorand-mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: Algorand
+        extracted_url: https://github.com/goplausible/algorand-mcp
+        surrounding_text: "- **[Algorand](https://github.com/GoPlausible/algorand-mcp)** - A comprehensive MCP server for tooling interactions(40+) and resource accessibility(60+) plus many useful prompts to interact with Algorand Blockchain."
+        confidence: high
+metadata:
+  github:
+    stars: 44
+    forks: 20
+    license: MIT
+    archived: false
+    created_at: "2025-03-10T15:09:14Z"
+    pushed_at: "2026-04-19T12:59:04Z"
+    description: Algorand Local Model Context Protocol (Server & Client)
+    homepage: https://GoPlausible.com
+    topics:
+      - algorand
+      - mcp
+      - mcp-client
+      - mcp-server
+      - model-context-protocol
+    last_checked_at: "2026-05-05T21:02:25.145Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:25.145Z"
+      bytes: 36191
+insights:
+  summary: An MCP server that exposes Algorand blockchain operations, wallet management, and DeFi integrations as tools for AI agents and LLMs.
+  why_it_matters: It lets developers building AI agents give them secure, granular access to Algorand accounts, transactions, and DEX protocols without wiring raw blockchain APIs by hand.
+  mental_damage: Now your AI agent can rekey your wallet and swap on Tinyman while you wonder whether the 44-star server or the LLM is the one losing your testnet funds.
+  tags:
+    - mcp
+    - algorand
+    - blockchain
+    - defi
+    - agent-tools
+  confidence: high
+curation:
+  status: included
+  reason: The project is an MCP server that integrates Algorand blockchain tooling into AI coding assistants and agents, which fits cleanly into the MCP category.
+  evidence:
+    - "Repo description: 'Algorand Local Model Context Protocol (Server & Client)'"
+    - "README: 'A comprehensive Model Context Protocol (MCP) server that gives AI agents and LLMs full access to the Algorand blockchain.'"
+    - Listed in awesome-mcp-servers under Community Servers
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.689Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:25.145Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:22:18.096Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

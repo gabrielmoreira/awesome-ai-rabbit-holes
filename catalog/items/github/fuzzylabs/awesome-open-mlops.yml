@@ -1,0 +1,86 @@
+id: github__fuzzylabs__awesome-open-mlops
+kind: github-repo
+name: awesome-open-mlops
+canonical_url: https://github.com/fuzzylabs/awesome-open-mlops
+identity:
+  github_repo: fuzzylabs/awesome-open-mlops
+provenance:
+  discoveries:
+    - id: discovery__github__fuzzylabs__awesome-open-mlops__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Awesome Lists
+        anchor_text: Awesome Open MLOps
+        extracted_url: https://github.com/fuzzylabs/awesome-open-mlops
+        surrounding_text: "| [Awesome Open MLOps](https://github.com/fuzzylabs/awesome-open-mlops)                                   | This is the Fuzzy Labs guide to the universe of free and open source MLOps tools.                                                 | ![GitHub Badge](https://img.shields.io/github/stars/fuzzylabs/awesome-open-mlops.svg?style=flat-square)                  |"
+        confidence: high
+metadata:
+  github:
+    stars: 481
+    forks: 52
+    license: Apache-2.0
+    archived: false
+    created_at: "2021-11-16T15:46:11Z"
+    pushed_at: "2025-05-19T07:41:48Z"
+    description: The Fuzzy Labs guide to the universe of open source MLOps
+    homepage: ""
+    topics:
+      - datascience
+      - devops
+      - infrastructure
+      - machine-learning
+      - machinelearning
+      - mlops
+    last_checked_at: "2026-05-05T21:02:16.658Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:16.658Z"
+      bytes: 24508
+insights:
+  summary: A curated, opinionated list of free and open source tools across the entire MLOps lifecycle, maintained by Fuzzy Labs.
+  why_it_matters: It provides developers with a filter for production-grade open source MLOps infrastructure, saving time otherwise spent vetting SaaS-lite tools that lack standalone functionality.
+  mental_damage: Yet another stellar map of the MLOps galaxy that will sit open in a tab until you eventually close it and just guess which labeling tool to use anyway.
+  tags:
+    - mlops
+    - awesome-list
+    - open-source
+    - infrastructure
+  confidence: high
+curation:
+  status: included
+  reason: This is a curated meta-list of tools rather than a standalone developer tool itself, fitting the awesome-awesomes category.
+  evidence:
+    - Repo description explicitly calls it 'The Fuzzy Labs guide to the universe of open source MLOps'.
+    - README structure is a categorized list of external tools (Label Studio, CVAT, etc.) with licensing and descriptions.
+    - Listed in the 'Awesome-LLMOps' directory under the 'Awesome Lists' section, confirming its status as a navigation aid.
+placement:
+  primary_category: awesome-awesomes
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (481) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.688Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:16.658Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:20:28.499Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,98 @@
+id: github__composiohq__awesome-claude-skills
+kind: github-repo
+name: awesome-claude-skills
+canonical_url: https://github.com/composiohq/awesome-claude-skills
+identity:
+  github_repo: composiohq/awesome-claude-skills
+provenance:
+  discoveries:
+    - id: discovery__github__composiohq__awesome-claude-skills__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 技能 Skills
+        anchor_text: awesome-claude-skills
+        extracted_url: https://github.com/composiohq/awesome-claude-skills
+        surrounding_text: 1. [awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills)
+        confidence: high
+metadata:
+  github:
+    stars: 58118
+    forks: 6292
+    license: null
+    archived: false
+    created_at: "2025-10-17T07:15:01Z"
+    pushed_at: "2026-05-02T18:56:13Z"
+    description: A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows
+    homepage: ""
+    topics:
+      - agent-skills
+      - ai-agents
+      - antigravity
+      - automation
+      - claude
+      - claude-code
+      - codex
+      - composio
+      - cursor
+      - developer-tools
+      - gemini-cli
+      - mcp
+      - openai-codex
+      - rube
+      - saas
+      - skill
+      - workflow-automation
+    last_checked_at: "2026-05-05T21:01:39.828Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:39.828Z"
+      bytes: 39146
+insights:
+  summary: A curated directory of 1000+ reusable Claude Skills and plugins for extending the behavior of AI coding agents like Claude Code, Cursor, and Gemini CLI.
+  why_it_matters: It provides a standardized, progressive-loading skill format that lets developers teach agents complex workflows without bloating the context window.
+  mental_damage: We have now successfully abstracted the act of working into a directory of markdown files that teach the robot how to pretend it is a project manager.
+  tags:
+    - skills
+    - claude
+    - cursor
+    - agent-extensions
+    - awesome-list
+  confidence: high
+curation:
+  status: included
+  reason: The repo is a directory/registry of reusable skill packs and rules designed to extend AI developer tools, which fits the dedicated skills category.
+  evidence:
+    - Repo description explicitly calls it a 'curated list of awesome Claude Skills, resources, and tools'.
+    - README states the primary artifact is 'reusable instruction packages' (SKILL.md) for hosts like Claude Code, Cursor, and Gemini CLI.
+    - Source list context confirms inclusion under a 'Skills' section in an LLM resources list.
+placement:
+  primary_category: skills
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (58118) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.683Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:39.828Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:14:08.224Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

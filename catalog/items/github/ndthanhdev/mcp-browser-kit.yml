@@ -1,0 +1,80 @@
+id: github__ndthanhdev__mcp-browser-kit
+kind: github-repo
+name: mcp-browser-kit
+canonical_url: https://github.com/ndthanhdev/mcp-browser-kit
+identity:
+  github_repo: ndthanhdev/mcp-browser-kit
+provenance:
+  discoveries:
+    - id: discovery__github__ndthanhdev__mcp-browser-kit__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📂 <a name="browser-automation"></a>Browser Automation
+        anchor_text: ndthanhdev/mcp-browser-kit
+        extracted_url: https://github.com/ndthanhdev/mcp-browser-kit
+        surrounding_text: "- [ndthanhdev/mcp-browser-kit](https://github.com/ndthanhdev/mcp-browser-kit) 📇 🏠 - An MCP Server that enables AI assistants to interact with your local browsers."
+        confidence: high
+metadata:
+  github:
+    stars: 50
+    forks: 8
+    license: MIT
+    archived: false
+    created_at: "2025-04-01T21:37:58Z"
+    pushed_at: "2026-05-05T04:58:39Z"
+    description: An MCP Server that enables AI assistants to interact with your local browsers.
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:03:52.132Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:52.132Z"
+      bytes: 3833
+insights:
+  summary: An MCP server paired with a browser extension that allows AI assistants to interact with and control your local web browsers.
+  why_it_matters: It bridges the gap between coding agents and live web environments, enabling AI workflows that can directly manipulate tabs, click buttons, and automate browser tasks without leaving the chat interface.
+  mental_damage: We have finally achieved the singularity where your AI assistant can star a GitHub repo in your browser while you wonder why you still have to manually load unpacked extensions in chrome://extensions.
+  tags:
+    - mcp
+    - browser-automation
+    - ai-workflow
+  confidence: high
+curation:
+  status: included
+  reason: This is a distinct MCP server implementation for browser automation, fitting squarely into the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description explicitly states: 'An MCP Server that enables AI assistants to interact with your local browsers.'"
+    - Installation requires adding the specific '@mcp-browser-kit/server' package to an MCP client configuration.
+    - Listed in the 'awesome-mcp-servers' directory under 'Browser Automation' server implementations.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.709Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:52.132Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:40:05.324Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

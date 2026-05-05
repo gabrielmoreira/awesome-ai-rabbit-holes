@@ -1,0 +1,99 @@
+id: github__gpustack__gpustack
+kind: github-repo
+name: gpustack
+canonical_url: https://github.com/gpustack/gpustack
+identity:
+  github_repo: gpustack/gpustack
+provenance:
+  discoveries:
+    - id: discovery__github__gpustack__gpustack__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - LLMOps
+        anchor_text: GPUStack
+        extracted_url: https://github.com/gpustack/gpustack
+        surrounding_text: "| [GPUStack](https://github.com/gpustack/gpustack)                   | An open-source GPU cluster manager for running and managing LLMs                                                                                                                                                                                                                                                                                                                                        | ![GitHub Badge](https://img.shields.io/github/stars/gpustack/gpustack.svg?style=flat-square)              |"
+        confidence: high
+metadata:
+  github:
+    stars: 4957
+    forks: 518
+    license: Apache-2.0
+    archived: false
+    created_at: "2024-05-11T03:41:58Z"
+    pushed_at: "2026-04-30T11:24:32Z"
+    description: A GPU cluster manager that configures and orchestrates inference engines like vLLM and SGLang for high-performance AI model deployment.
+    homepage: https://gpustack.ai
+    topics:
+      - ascend
+      - cuda
+      - deepseek
+      - distributed-inference
+      - genai
+      - high-performance-inference
+      - inference
+      - llama
+      - llm
+      - llm-inference
+      - llm-serving
+      - maas
+      - mindie
+      - openai
+      - qwen
+      - rocm
+      - sglang
+      - vllm
+    last_checked_at: "2026-05-05T21:02:26.550Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:26.550Z"
+      bytes: 10430
+insights:
+  summary: An open-source GPU cluster manager that orchestrates inference engines like vLLM and SGLang to deploy and serve AI models across diverse accelerators and environments.
+  why_it_matters: It gives developers a unified control plane to turn heterogeneous GPU hardware into a scalable Model-as-a-Service platform with standard APIs and enterprise ops features.
+  mental_damage: Yet another layer of infrastructure to maintain so you can finally figure out why your tokens are still arriving at the speed of a tired carrier pigeon.
+  tags:
+    - llm-serving
+    - gpu-cluster
+    - inference
+    - vllm
+    - model-deployment
+  confidence: high
+curation:
+  status: included
+  reason: It is a code-first, deployable framework and SDK for serving AI models on GPU infrastructure, fitting the AI Frameworks category rather than a hosted SaaS or app builder.
+  evidence:
+    - Repo description explicitly defines it as a 'GPU cluster manager that configures and orchestrates inference engines'.
+    - README details a pluggable engine architecture and support for multiple accelerators, positioning it as infrastructure tooling.
+    - Listed in Awesome-LLMOps under the LLMOps section, signaling strong relevance to the AI operations toolchain.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (4957) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.689Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:26.550Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:22:41.702Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

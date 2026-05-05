@@ -1,0 +1,107 @@
+id: github__alexei-led__aws-mcp-server
+kind: github-repo
+name: aws-mcp-server
+canonical_url: https://github.com/alexei-led/aws-mcp-server
+identity:
+  github_repo: alexei-led/aws-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__alexei-led__aws-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
+        anchor_text: alexei-led/aws-mcp-server
+        extracted_url: https://github.com/alexei-led/aws-mcp-server
+        surrounding_text: "- [alexei-led/aws-mcp-server](https://github.com/alexei-led/aws-mcp-server) 🐍 ☁️ - A lightweight but powerful server that enables AI assistants to execute AWS CLI commands, use Unix pipes, and apply prompt templates for common AWS tasks in a safe Docker environment with multi-architecture support"
+        confidence: high
+    - id: discovery__github__alexei-led__aws-mcp-server__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - ☁️ Cloud Platforms
+        anchor_text: alexei-led/aws-mcp-server
+        extracted_url: https://github.com/alexei-led/aws-mcp-server
+        surrounding_text: "-   **[alexei-led/aws-mcp-server](https://github.com/alexei-led/aws-mcp-server)** [![GitHub stars](https://img.shields.io/github/stars/alexei-led/aws-mcp-server?style=social)](https://github.com/alexei-led/aws-mcp-server): Enables secure execution of AWS CLI commands and prompt templates within Docker."
+        confidence: high
+metadata:
+  github:
+    stars: 182
+    forks: 31
+    license: MIT
+    archived: false
+    created_at: "2025-03-19T13:42:40Z"
+    pushed_at: "2026-02-27T14:42:40Z"
+    description: A lightweight service that enables AI assistants to execute AWS CLI commands (in safe containerized environment) through the Model Context Protocol (MCP). Bridges Claude, Cursor, and other MCP-aware AI tools with AWS CLI for enhanced cloud infrastructure management.
+    homepage: ""
+    topics:
+      - ai-assistant
+      - aws
+      - aws-automation
+      - claude
+      - cloud-infrastructure
+      - devops
+      - docker
+      - mcp
+      - mcp-server
+      - modelcontextprotocol
+    last_checked_at: "2026-05-05T21:00:58.231Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:58.231Z"
+      bytes: 7653
+insights:
+  summary: A lightweight MCP server that enables AI assistants like Claude and Cursor to execute AWS CLI commands in a containerized environment for cloud infrastructure management.
+  why_it_matters: It gives developers a standard Model Context Protocol bridge to let their AI tooling safely interact with all 200+ AWS services via the CLI without wrapping individual APIs.
+  mental_damage: We have finally abstracted the cloud so thoroughly that we now need a protocol server just to let our chatbot run the CLI we could have typed into ourselves.
+  tags:
+    - mcp
+    - aws
+    - devops
+    - infrastructure
+    - cli
+  confidence: high
+curation:
+  status: included
+  reason: The project is a dedicated MCP server implementation for AWS CLI access, fitting cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states it is 'A lightweight service that enables AI assistants to execute AWS CLI commands through the Model Context Protocol (MCP)'
+    - README details implementation as an MCP server with tools like aws_cli_help and aws_cli_pipeline for Claude integration
+    - Listed in awesome-mcp-list and awesome-mcp-servers under Cloud Platforms sections
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (182) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.663Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:58.231Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:07:21.288Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

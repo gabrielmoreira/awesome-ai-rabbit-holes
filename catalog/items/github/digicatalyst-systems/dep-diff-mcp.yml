@@ -1,0 +1,92 @@
+id: github__digicatalyst-systems__dep-diff-mcp
+kind: github-repo
+name: dep-diff-mcp
+canonical_url: https://github.com/digicatalyst-systems/dep-diff-mcp
+identity:
+  github_repo: digicatalyst-systems/dep-diff-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__digicatalyst-systems__dep-diff-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: DigiCatalyst-Systems/dep-diff-mcp
+        extracted_url: https://github.com/digicatalyst-systems/dep-diff-mcp
+        surrounding_text: "- [DigiCatalyst-Systems/dep-diff-mcp](https://github.com/DigiCatalyst-Systems/dep-diff-mcp) [![DigiCatalyst-Systems/dep-diff-mcp MCP server](https://glama.ai/mcp/servers/DigiCatalyst-Systems/dep-diff-mcp/badges/score.svg)](https://glama.ai/mcp/servers/DigiCatalyst-Systems/dep-diff-mcp) 📇 🏠 🍎 🪟 🐧 - Translates a lockfile diff (npm, PyPI) into a human-readable upgrade plan. Point it at a Dependabot PR and get back semver classification, breaking changes from GitHub release notes, CVEs fixed in range, migration links, and a per-package recommendation. Bulk tool ranks up to 50 changes by risk (security > caution > review > likely-safe > safe). Install via `npx -y @digicatalyst/dep-diff-mcp`."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-04-22T21:47:01Z"
+    pushed_at: "2026-04-25T00:34:17Z"
+    description: MCP server that reads dependency changelogs and tells you what's risky in an upgrade.
+    homepage: null
+    topics:
+      - changelog
+      - cve
+      - dependabot
+      - dependency-management
+      - mcp
+      - model-context-protocol
+      - npm
+      - pypi
+      - security
+      - typescript
+    last_checked_at: "2026-05-05T21:01:53.262Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:53.262Z"
+      bytes: 4399
+insights:
+  summary: An MCP server that analyzes lockfile diffs and Dependabot PRs to generate ranked upgrade plans with semver classification, breaking changes, and CVE context.
+  why_it_matters: It lets AI assistants surface the actual risk in dependency updates by pulling release notes and security data, cutting down manual changelog scrolling during upgrades.
+  mental_damage: Another gleaming tool to help you pretend that reading changelogs is optional, right before a major version bump deletes your production database.
+  tags:
+    - mcp
+    - dependency-management
+    - security
+    - npm
+    - pypi
+  confidence: high
+curation:
+  status: included
+  reason: The project is itself an MCP server that integrates with AI assistants to analyze dependency upgrades, cleanly fitting the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description: 'MCP server that reads dependency changelogs and tells you what's risky in an upgrade.'"
+    - "README: integrates with Cursor, Claude Desktop, and Claude Code via MCP config to analyze lockfile diffs and Dependabot PRs."
+    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.684Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:53.262Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:16:24.403Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

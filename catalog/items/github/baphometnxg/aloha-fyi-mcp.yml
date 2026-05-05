@@ -1,0 +1,81 @@
+id: github__baphometnxg__aloha-fyi-mcp
+kind: github-repo
+name: aloha-fyi-mcp
+canonical_url: https://github.com/baphometnxg/aloha-fyi-mcp
+identity:
+  github_repo: baphometnxg/aloha-fyi-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__baphometnxg__aloha-fyi-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🗺️ <a name="location-services"></a>Location Services
+        anchor_text: baphometnxg/aloha-fyi-mcp
+        extracted_url: https://github.com/baphometnxg/aloha-fyi-mcp
+        surrounding_text: "- [baphometnxg/aloha-fyi-mcp](https://github.com/baphometnxg/aloha-fyi-mcp) [![baphometnxg/aloha-fyi-mcp MCP server](https://glama.ai/mcp/servers/baphometnxg/aloha-fyi-mcp/badges/score.svg)](https://glama.ai/mcp/servers/baphometnxg/aloha-fyi-mcp) 📇 ☁️ - First dedicated Hawaii tourism MCP server. 2,583 bookable tours from Viator, GetYourGuide, Klook, and Groupon, plus 579 events across 70+ venues on Oahu, Maui, Big Island, and Kauai. Results ship with affiliate booking links. Hosted Streamable HTTP endpoint — no install required. Powered by [aloha.fyi](https://aloha.fyi)."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 0
+    license: null
+    archived: false
+    created_at: "2026-04-10T08:05:40Z"
+    pushed_at: "2026-04-30T04:37:24Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:01:17.303Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:17.303Z"
+      bytes: 7684
+insights:
+  summary: An MCP server that exposes Hawaii tourism data, including bookable tours, events, restaurants, and weather, to AI assistants via a structured response protocol.
+  why_it_matters: It provides a concrete reference implementation of the MCP spec with a typed structured-content layer (AAAK) for developers building or consuming location-based agent tools.
+  mental_damage: We have successfully fragmented the tourism industry into JSON schemas so that an AI can book a snorkeling trip in Oahu while the developer debugging it has never left their desk.
+  tags:
+    - mcp
+    - tourism
+    - server
+    - structured-data
+  confidence: medium
+curation:
+  status: included
+  reason: The project is a dedicated MCP server implementation with a hosted endpoint, fitting squarely into the MCP infrastructure category.
+  evidence:
+    - README identifies this as 'The first dedicated Hawaii tourism MCP server' with Streamable HTTP transport.
+    - Listed under 'Server Implementations > Location Services' in the awesome-mcp-servers directory.
+    - Provides a hosted production endpoint and documentation for the AAAK structured-response spec.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.680Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:17.303Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:10:15.099Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,87 @@
+id: github__kingjulio8238__memary
+kind: github-repo
+name: memary
+canonical_url: https://github.com/kingjulio8238/memary
+identity:
+  github_repo: kingjulio8238/memary
+provenance:
+  discoveries:
+    - id: discovery__github__kingjulio8238__memary__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Other LLM Frameworks
+        anchor_text: Memary
+        extracted_url: https://github.com/kingjulio8238/memary
+        surrounding_text: "- [Memary](https://github.com/kingjulio8238/memary): Longterm Memory for Autonomous Agents. ![GitHub Repo stars](https://img.shields.io/github/stars/kingjulio8238/memary?style=social)"
+        confidence: high
+metadata:
+  github:
+    stars: 2605
+    forks: 196
+    license: MIT
+    archived: false
+    created_at: "2024-04-10T19:51:49Z"
+    pushed_at: "2024-10-22T00:46:00Z"
+    description: The Open Source Memory Layer For Autonomous Agents
+    homepage: ""
+    topics:
+      - agents
+      - knowledge-graph
+      - memory
+      - multiagent-systems
+      - rag
+      - self-improvement
+    last_checked_at: "2026-05-05T21:03:06.290Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:06.290Z"
+      bytes: 19265
+insights:
+  summary: An open-source memory layer for autonomous agents that uses knowledge graphs and RAG to persist context across sessions, supporting local models via Ollama or OpenAI APIs.
+  why_it_matters: It provides developers building autonomous agents with a pluggable memory system that integrates with existing LLMs and graph databases like FalkorDB and Neo4j.
+  mental_damage: We have successfully decomposed the 'stateful agent' problem into installing a graph database, managing five different API keys, and praying the memory graph doesn't become a hallucination feedback loop.
+  tags:
+    - memory
+    - agents
+    - knowledge-graph
+    - rag
+    - local-ai
+  confidence: high
+curation:
+  status: included
+  reason: It is a code-first SDK and framework for embedding memory capabilities into agent architectures, fitting the AI Frameworks and SDKs category.
+  evidence:
+    - "Repo description explicitly states: 'The Open Source Memory Layer For Autonomous Agents'."
+    - "README demonstrates a library/SDK workflow: 'pip install memary' and configuration via .env and local Python code."
+    - Listed in the 'awesome-langchain' directory under 'Other LLM Frameworks', confirming its status as a developer building block.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (2605) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.701Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:06.290Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:30:53.080Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

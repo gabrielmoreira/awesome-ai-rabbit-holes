@@ -1,0 +1,84 @@
+id: github__apify__actors-mcp-server
+kind: github-repo
+name: actors-mcp-server
+canonical_url: https://github.com/apify/actors-mcp-server
+identity:
+  github_repo: apify/actors-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__apify__actors-mcp-server__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Apify
+        extracted_url: https://github.com/apify/actors-mcp-server
+        surrounding_text: "- **[Apify](https://github.com/apify/actors-mcp-server)** - [Actors MCP Server](https://apify.com/apify/actors-mcp-server): Use 3,000+ pre-built cloud tools to extract data from websites, e-commerce, social media, search engines, maps, and more"
+        confidence: high
+metadata:
+  github:
+    stars: 1188
+    forks: 162
+    license: MIT
+    archived: false
+    created_at: "2025-01-02T15:43:09Z"
+    pushed_at: "2026-05-05T19:47:14Z"
+    description: The Apify MCP server enables your AI agents to extract data from social media, search engines, maps, e-commerce sites, or any other website using thousands of ready-made scrapers, crawlers, and automation tools available on the Apify Store.
+    homepage: https://mcp.apify.com
+    topics:
+      - agents
+      - ai
+      - mcp
+      - mcp-server
+    last_checked_at: "2026-05-05T21:01:07.038Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:07.038Z"
+      bytes: 30729
+insights:
+  summary: An MCP server that exposes thousands of Apify Actors as tools so AI agents can scrape and extract data from websites, search engines, maps, and social media platforms.
+  why_it_matters: Developers can equip their MCP-compatible AI assistants with instant access to a massive library of production-grade web scrapers without writing custom extraction code.
+  mental_damage: We have finally reached the point where your AI agent needs its own agent economy, complete with OAuth and x402 payments, just to scrape a Google Maps listing.
+  tags:
+    - mcp
+    - scraping
+    - apify
+    - data-extraction
+  confidence: high
+curation:
+  status: included
+  reason: This is a dedicated MCP server that integrates Apify's scraping ecosystem directly into MCP-compatible clients, fitting cleanly into the MCP infrastructure category.
+  evidence:
+    - Repo description explicitly defines it as 'The Apify MCP server' for connecting AI agents to scrapers via MCP.
+    - README confirms compatibility with Claude, Cursor, VS Code, and any MCP-adherent client via a hosted server or stdio.
+    - Listed in awesome-mcp-servers under 'Official Servers', reinforcing its role as core MCP infrastructure.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1188) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.440Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:07.038Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:08:39.970Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

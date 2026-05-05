@@ -1,0 +1,82 @@
+id: github__mxiris-reverse-engineering__ida-mcp-server
+kind: github-repo
+name: ida-mcp-server
+canonical_url: https://github.com/mxiris-reverse-engineering/ida-mcp-server
+identity:
+  github_repo: mxiris-reverse-engineering/ida-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__mxiris-reverse-engineering__ida-mcp-server__awesome-list__vivy-yi__awesome-agent-orchestration
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: vivy-yi/awesome-agent-orchestration
+        url: https://github.com/vivy-yi/awesome-agent-orchestration
+        repository: vivy-yi/awesome-agent-orchestration
+      extraction:
+        mode: parsed
+        section_path:
+          - Agent Communication Protocols
+          - Model Context Protocol (MCP)
+          - Specialized Servers
+        anchor_text: ida-mcp-server
+        extracted_url: https://github.com/mxiris-reverse-engineering/ida-mcp-server
+        surrounding_text: "| [ida-mcp-server](https://github.com/MxIris-Reverse-Engineering/ida-mcp-server) | IDA reverse engineering | ![Stars](https://img.shields.io/github/stars/MxIris-Reverse-Engineering/ida-mcp-server) |"
+        confidence: high
+metadata:
+  github:
+    stars: 543
+    forks: 58
+    license: MIT
+    archived: false
+    created_at: "2025-03-12T16:40:35Z"
+    pushed_at: "2025-05-29T09:58:03Z"
+    description: A Model Context Protocol server for IDA
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:03:49.952Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:49.952Z"
+      bytes: 3208
+insights:
+  summary: A Model Context Protocol server that allows Large Language Models to read and interact with IDA Pro databases for reverse engineering automation.
+  why_it_matters: It enables developers and reverse engineers to use AI assistants like Claude to navigate, analyze, and automate tasks within complex binary analysis workflows.
+  mental_damage: Finally, a way to introduce context window anxiety into reverse engineering by asking an LLM to explain that one function you've been staring at for three days.
+  tags:
+    - mcp
+    - reverse-engineering
+    - ida-pro
+    - automation
+  confidence: high
+curation:
+  status: included
+  reason: The project is a dedicated Model Context Protocol server for IDA Pro, fitting squarely into the MCP infrastructure category.
+  evidence:
+    - "Repo description explicitly states: 'A Model Context Protocol server for IDA'"
+    - README confirms it 'provides tools to read IDA database via Large Language Models' as an MCP server
+    - Listed in awesome-agent-orchestration under 'Agent Communication Protocols > Model Context Protocol (MCP) > Specialized Servers'
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (543) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.709Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:49.952Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:39:40.980Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

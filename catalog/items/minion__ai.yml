@@ -1,0 +1,75 @@
+id: minion__ai
+kind: website
+name: minion.ai
+canonical_url: https://minion.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__minion__ai__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Minion AI
+        anchor_text: Minion AI
+        extracted_url: https://minion.ai
+        surrounding_text: "## [Minion AI](https://minion.ai/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Minion AI is an autonomous AI agent listed among popular agent directories.
+  why_it_matters: It represents the growing ecosystem of autonomous agents that developers may evaluate for task automation workflows.
+  mental_damage: Yet another entry in the autonomous agent zoo where we carefully curate tools that will likely pivot to 'AI-powered workflow optimization' before the ink dries.
+  tags:
+    - ai-agents
+    - autonomous-agents
+    - agent-directory
+  confidence: low
+curation:
+  status: excluded
+  reason: Insufficient evidence of a concrete developer tool or product; only a name and a listing in an agent directory are available, with no description, README, or site content to verify its purpose or usability.
+  evidence:
+    - No repo description, README excerpt, or scraped site description available to explain what Minion AI actually does.
+    - Only signal is a listing in awesome-ai-agents directory under 'Minion AI' with no further context.
+    - Homepage, stars, license, archive status, and creation/activity dates are all unknown.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.729Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:46:34.981Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

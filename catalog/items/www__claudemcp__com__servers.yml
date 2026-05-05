@@ -1,0 +1,76 @@
+id: www__claudemcp__com__servers
+kind: website
+name: servers
+canonical_url: https://www.claudemcp.com/servers
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__claudemcp__com__servers__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - MCP Servers and Directories
+        anchor_text: Claude MCP Servers
+        extracted_url: https://www.claudemcp.com/servers
+        surrounding_text: "- **[Claude MCP Servers](https://www.claudemcp.com/servers)** – Claude's curated MCP server list."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A web directory listing available Model Context Protocol (MCP) servers for use with AI assistants.
+  why_it_matters: It serves as a navigational index for developers looking to extend AI assistants with specific external tools and data sources via the MCP standard.
+  mental_damage: Just when you thought keeping up with AI models was hard, we've successfully abstracted the problem into an exponential explosion of protocol servers you now need to audit and maintain.
+  tags:
+    - mcp
+    - directory
+    - awesome-list
+    - ai-tooling
+  confidence: high
+curation:
+  status: included
+  reason: The project is a directory/curated list of MCP servers (essentially an 'awesome list' for MCP), fitting the awesome-awesomes category rather than being a tool itself.
+  evidence:
+    - URL is https://www.claudemcp.com/servers, indicating a directory/listing site.
+    - Seen in awesome-ai-coding-tools under the section 'MCP Servers and Directories'.
+    - No code repo description or README provided, indicating it is a listings page rather than a runnable tool.
+placement:
+  primary_category: awesome-awesomes
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.732Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:50:08.637Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

@@ -1,0 +1,81 @@
+id: github__golang__tools
+kind: github-repo
+name: tools
+canonical_url: https://github.com/golang/tools
+identity:
+  github_repo: golang/tools
+provenance:
+  discoveries:
+    - id: discovery__github__golang__tools__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: Go's Language Server Protocol (gopls)
+        extracted_url: https://github.com/golang/tools
+        surrounding_text: "- [hloiseaufcms/mcp-gopls](https://github.com/hloiseaufcms/mcp-gopls) 🏎️ 🏠 - A MCP server for interacting with [Go's Language Server Protocol (gopls)](https://github.com/golang/tools/tree/master/gopls) and benefit from advanced Go code analysis features."
+        confidence: high
+metadata:
+  github:
+    stars: 7937
+    forks: 2377
+    license: BSD-3-Clause
+    archived: false
+    created_at: "2014-11-25T21:07:26Z"
+    pushed_at: "2026-05-05T19:57:58Z"
+    description: "[mirror] Go Tools"
+    homepage: https://golang.org/x/tools
+    topics: []
+    last_checked_at: "2026-05-05T21:02:23.354Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:23.353Z"
+      bytes: 3422
+insights:
+  summary: The official Go tools module providing static analysis packages, language server support via gopls, and various command-line utilities like goimports and stringer.
+  why_it_matters: It provides the foundational static analysis and LSP infrastructure that Go developers rely on for IDE features and code quality tooling.
+  mental_damage: An essential piece of infrastructure that somehow still gets confused with an MCP server in a multi-language awesome list.
+  tags:
+    - go
+    - static-analysis
+    - lsp
+    - developer-tools
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a core programming language utility repository with no AI functionality, making it a clear mismatch for a catalog of AI rabbit holes.
+  evidence:
+    - Repo description is 'Go Tools', a mirror of the official golang.org/x/tools module.
+    - README describes static analysis packages, an LSP server (gopls), and CLI tools like goimports—none mention AI.
+    - Appears in awesome-mcp-servers lists, but the project itself has no MCP or AI features.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (7937) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.689Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:23.354Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:21:51.837Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

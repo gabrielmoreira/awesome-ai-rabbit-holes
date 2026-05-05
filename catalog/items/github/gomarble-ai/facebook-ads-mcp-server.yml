@@ -1,0 +1,96 @@
+id: github__gomarble-ai__facebook-ads-mcp-server
+kind: github-repo
+name: facebook-ads-mcp-server
+canonical_url: https://github.com/gomarble-ai/facebook-ads-mcp-server
+identity:
+  github_repo: gomarble-ai/facebook-ads-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__gomarble-ai__facebook-ads-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🎯 <a name="marketing"></a>Marketing
+        anchor_text: gomarble-ai/facebook-ads-mcp-server
+        extracted_url: https://github.com/gomarble-ai/facebook-ads-mcp-server
+        surrounding_text: "- [gomarble-ai/facebook-ads-mcp-server](https://github.com/gomarble-ai/facebook-ads-mcp-server) 🐍 ☁️ - MCP server acting as an interface to the Facebook Ads, enabling programmatic access to Facebook Ads data and management features."
+        confidence: high
+    - id: discovery__github__gomarble-ai__facebook-ads-mcp-server__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: Facebook Ads
+        extracted_url: https://github.com/gomarble-ai/facebook-ads-mcp-server
+        surrounding_text: "- **[Facebook Ads](https://github.com/gomarble-ai/facebook-ads-mcp-server)** - MCP server acting as an interface to the Facebook Ads, enabling programmatic access to Facebook Ads data and management features."
+        confidence: high
+metadata:
+  github:
+    stars: 320
+    forks: 96
+    license: MIT
+    archived: false
+    created_at: "2025-04-07T17:46:05Z"
+    pushed_at: "2025-08-21T08:05:50Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:23.633Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:23.633Z"
+      bytes: 7354
+insights:
+  summary: An MCP server that provides programmatic access to Meta Ads data and management features for integration with AI clients like Cursor and Claude Desktop.
+  why_it_matters: It allows developers to query and manage ad campaigns through natural language in their IDE, removing the need to manually navigate the Meta Ads UI or build custom API wrappers.
+  mental_damage: We have successfully abstracted a UI behind an API so we can ask an LLM to click the buttons for us, completing the circle of 'I don't want to do my job' infrastructure.
+  tags:
+    - mcp
+    - meta-ads
+    - marketing
+    - integration
+  confidence: high
+curation:
+  status: included
+  reason: The project is a dedicated MCP server implementation for Meta Ads, fitting cleanly into the MCP infrastructure category.
+  evidence:
+    - "README states: 'This project provides an MCP server acting as an interface to the Meta Ads.'"
+    - Listed in awesome-mcp-servers under 'Server Implementations > Marketing'.
+    - Setup instructions explicitly show configuration for MCP clients like Cursor and Claude Desktop.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (320) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.666Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:23.633Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:21:59.337Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

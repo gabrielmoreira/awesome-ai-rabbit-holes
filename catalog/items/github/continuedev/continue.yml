@@ -7,11 +7,11 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__continuedev__continue__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-01T13:51:25.374Z"
+      discovered_at: "2026-05-05T19:41:00.656Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
-        url: https://github.com/bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
         repository: bradAGI/awesome-cli-coding-agents
       extraction:
         mode: parsed
@@ -20,26 +20,25 @@ provenance:
           - Open Source
         anchor_text: Continue CLI
         extracted_url: https://github.com/continuedev/continue
-        surrounding_text: "- **[Continue CLI](https://github.com/continuedev/continue)** `⭐ 32.9k` — Open-source terminal extension for multi-model coding with local/privacy focus."
+        surrounding_text: "- **[Continue CLI](https://github.com/continuedev/continue)** `⭐ 33k` — Open-source terminal extension for multi-model coding with local/privacy focus."
         confidence: high
     - id: discovery__github__continuedev__continue__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-01T13:51:25.374Z"
+      discovered_at: "2026-05-05T19:41:00.656Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
         url: https://github.com/e2b-dev/awesome-ai-agents
         repository: e2b-dev/awesome-ai-agents
       extraction:
-        mode: parsed
+        mode: scraped
         section_path:
-          - "[Continue](https://continue.dev/)"
-          - Links
-        anchor_text: GitHub
-        extracted_url: https://github.com/continuedev/continue
-        surrounding_text: "- [GitHub](https://github.com/continuedev/continue)"
+          - Continue
+        anchor_text: Continue
+        extracted_url: https://continue.dev
+        surrounding_text: "## [Continue](https://continue.dev/)"
         confidence: high
     - id: discovery__github__continuedev__continue__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-01T13:51:25.374Z"
+      discovered_at: "2026-05-05T19:41:00.656Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -54,11 +53,11 @@ provenance:
         surrounding_text: "- **[Continue](https://github.com/continuedev/continue)** vscode auto complete and chat tool (full feature support)"
         confidence: high
     - id: discovery__github__continuedev__continue__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-01T13:51:25.374Z"
+      discovered_at: "2026-05-05T19:41:00.656Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
-        url: https://github.com/tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
         repository: tensorchord/Awesome-LLMOps
       extraction:
         mode: parsed
@@ -68,14 +67,29 @@ provenance:
         extracted_url: https://github.com/continuedev/continue
         surrounding_text: "| [Continue](https://github.com/continuedev/continue) | ⏩ the open-source autopilot for software development—bring the power of ChatGPT to VS Code              | ![GitHub Badge](https://img.shields.io/github/stars/continuedev/continue.svg?style=flat-square) |"
         confidence: high
+    - id: discovery__github__continuedev__continue__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: scraped
+        section_path:
+          - Code Editors and Assistants
+        anchor_text: Continue
+        extracted_url: https://continue.dev
+        surrounding_text: "- **[Continue](https://continue.dev/)** – Open-source AI tool for code completion and chat, pluggable into VS Code and JetBrains."
+        confidence: high
 metadata:
   github:
-    stars: 32907
-    forks: 4451
+    stars: 32986
+    forks: 4461
     license: Apache-2.0
     archived: false
     created_at: "2023-05-24T03:39:39Z"
-    pushed_at: "2026-05-01T02:41:58Z"
+    pushed_at: "2026-05-05T16:20:21Z"
     description: ⏩ Source-controlled AI checks, enforceable in CI. Powered by the open-source Continue CLI
     homepage: https://docs.continue.dev
     topics:
@@ -87,31 +101,50 @@ metadata:
       - llm
       - open-source
       - vs-code-extenstion
-    last_checked_at: "2026-05-01T13:51:38.201Z"
+    last_checked_at: "2026-05-05T21:01:41.216Z"
     readme:
-      fetched_at: "2026-05-01T13:51:38.201Z"
+      fetched_at: "2026-05-05T21:01:41.216Z"
       bytes: 4352
 insights:
-  summary: Continue is an open-source CLI that runs source-controlled AI checks as enforceable CI status checks on pull requests.
-  why_it_matters: It lets teams codify review policies (security, style, conventions) as repo-owned agent/check definitions so PR feedback is consistent and automated.
-  mental_damage: Now your code review can fail because a markdown file decided your PR “looks risky,” and you get to debug the diff suggestion like it’s a flaky unit test with opinions.
+  summary: Continue runs AI agents as GitHub status checks on pull requests using markdown-defined rules powered by its open-source CLI.
+  why_it_matters: It lets teams codify review standards as version-controlled AI checks that run automatically in CI, bridging the gap between linters and human code review.
+  mental_damage: You can now version-control your anxiety by encoding subjective code review opinions into YAML files that an AI will enforce on every single pull request.
   tags:
-    - ci-checks
-    - coding-agent
-    - pull-requests
-    - developer-tools
-    - continue-cli
+    - ci
+    - code-review
+    - cli
+    - github-checks
+    - ai-agents
   confidence: high
 curation:
   status: included
-  reason: It squarely targets developer workflow automation by running LLM-based agents as CI-enforced PR checks, which fits a coding-agent toolchain used for code review and gating.
+  reason: The primary artifact is the Continue CLI which powers autonomous code review agents that operate directly on source code within a PR workflow, fitting the coding-agents definition.
   evidence:
-    - "Repo description: \"Source-controlled AI checks, enforceable in CI\""
-    - "README: agents run \"on every pull request as GitHub status checks\" with checks stored at `.continue/checks/`"
-    - "Strong signals: 32,907 stars, not archived, and pushed recently (2026-05-01)"
+    - "Repo description: 'Source-controlled AI checks, enforceable in CI. Powered by the open-source Continue CLI'."
+    - "README: 'Continue runs agents on every pull request as GitHub status checks. Each agent is a markdown file in your repo'."
+    - Listed in awesome-cli-coding-agents under 'Terminal-native coding agents > Open Source'.
 placement:
   primary_category: coding-agents
-  section: null
+  section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
-  reason: Stars (32907) exceeded threshold (150)
+  reason: Stars (32986) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.658Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:41.216Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:14:22.415Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

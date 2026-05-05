@@ -1,0 +1,88 @@
+id: github__isaac-levine__forage
+kind: github-repo
+name: forage
+canonical_url: https://github.com/isaac-levine/forage
+identity:
+  github_repo: isaac-levine/forage
+provenance:
+  discoveries:
+    - id: discovery__github__isaac-levine__forage__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🔗 <a name="aggregators"></a>Aggregators
+        anchor_text: isaac-levine/forage
+        extracted_url: https://github.com/isaac-levine/forage
+        surrounding_text: "- [isaac-levine/forage](https://github.com/isaac-levine/forage) 📇 🏠 🍎 🪟 🐧 - Self-improving tool discovery for AI agents. Searches registries, installs MCP servers as subprocesses, and persists tool knowledge across sessions — no restarts needed."
+        confidence: high
+metadata:
+  github:
+    stars: 9
+    forks: 3
+    license: MIT
+    archived: false
+    created_at: "2026-02-17T01:27:13Z"
+    pushed_at: "2026-02-21T23:02:09Z"
+    description: Self-improving tool discovery for AI agents. Agents find, install, and learn to use new MCP tools automatically.
+    homepage: https://www.npmjs.com/package/forage-mcp
+    topics:
+      - ai-agent
+      - claude
+      - llm-tools
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - tool-discovery
+    last_checked_at: "2026-05-05T21:02:46.725Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:46.725Z"
+      bytes: 7458
+insights:
+  summary: An MCP server that lets AI coding agents automatically discover, install, and learn to use new MCP tools during a session without requiring a restart.
+  why_it_matters: Developers can grant agents the ability to self-extend their toolset on the fly, removing the manual cycle of identifying, installing, and configuring new MCP servers every time a task requires a missing capability.
+  mental_damage: We have finally built an agent that can install more agents to solve the problem of having too many agents to install manually.
+  tags:
+    - mcp
+    - tool-discovery
+    - agent-extensions
+    - self-improving
+  confidence: high
+curation:
+  status: included
+  reason: The project is an MCP middleware server that discovers, proxies, and manages other MCP servers, fitting cleanly into MCP infrastructure rather than acting as a primary coding agent or a generic extension.
+  evidence:
+    - "Repo description explicitly states: 'Self-improving tool discovery for AI agents. Agents find, install, and learn to use new MCP tools automatically.'"
+    - README describes Forage as 'a gateway/proxy MCP server' that searches registries and runs child MCP servers as subprocesses.
+    - Listed under 'Server Implementations > Aggregators' in awesome-mcp-servers, confirming its role as MCP infrastructure.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.698Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:46.725Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:26:33.783Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

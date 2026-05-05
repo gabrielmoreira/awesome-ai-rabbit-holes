@@ -1,0 +1,92 @@
+id: github__e2b-dev__agent-protocol
+kind: github-repo
+name: agent-protocol
+canonical_url: https://github.com/e2b-dev/agent-protocol
+identity:
+  github_repo: e2b-dev/agent-protocol
+provenance:
+  discoveries:
+    - id: discovery__github__e2b-dev__agent-protocol__awesome-list__kaushikb11__awesome-llm-agents
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: kaushikb11/awesome-llm-agents
+        url: https://github.com/kaushikb11/awesome-llm-agents
+        repository: kaushikb11/awesome-llm-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Frameworks
+        anchor_text: Agent Protocol
+        extracted_url: https://github.com/e2b-dev/agent-protocol
+        surrounding_text: "- [Agent Protocol](https://github.com/e2b-dev/agent-protocol) - Unified interface for AI"
+        confidence: high
+metadata:
+  github:
+    stars: 1460
+    forks: 183
+    license: MIT
+    archived: false
+    created_at: "2023-07-06T14:39:13Z"
+    pushed_at: "2025-04-08T06:10:21Z"
+    description: Common interface for interacting with AI agents. The protocol is tech stack agnostic - you can use it with any framework for building agents.
+    homepage: https://agentprotocol.ai
+    topics:
+      - agents
+      - ai
+      - ai-agent
+      - api
+      - auto-gpt
+      - gpt-4
+      - javascript
+      - llms
+      - openapi
+      - protocol
+      - python
+      - typescript
+    last_checked_at: "2026-05-05T21:01:58.498Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:58.498Z"
+      bytes: 6389
+insights:
+  summary: A tech-agnostic API specification and SDK that defines a common REST interface for interacting with and benchmarking AI agents.
+  why_it_matters: It provides a standardized OpenAPI contract so developers can integrate, swap, and benchmark different agents without rewriting their client code.
+  mental_damage: We have standardized the way we talk to the rapidly mutating agents, but we are still waiting for the agents to standardize on being useful.
+  tags:
+    - agents
+    - protocol
+    - api
+    - interoperability
+  confidence: high
+curation:
+  status: included
+  reason: It is a developer-facing SDK and API specification that acts as a building block for agent tooling, fitting the ai-frameworks scope.
+  evidence:
+    - "Repo description: 'Common interface for interacting with AI agents. The protocol is tech stack agnostic.'"
+    - README states it is an 'API specification' and provides an SDK and Client library for developers to implement.
+    - Listed in awesome-llm-agents under the 'Frameworks' section.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1460) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.441Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:58.498Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:17:21.465Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

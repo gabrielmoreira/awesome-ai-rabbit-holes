@@ -1,0 +1,91 @@
+id: www__qodo__ai
+kind: website
+name: www.qodo.ai
+canonical_url: https://www.qodo.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__qodo__ai__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Codium AI
+        anchor_text: Codium AI
+        extracted_url: https://www.codium.ai
+        surrounding_text: "## [Codium AI](https://www.codium.ai/)"
+        confidence: high
+    - id: discovery__www__qodo__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Code Review and Refactoring
+        anchor_text: Qodo (CodiumAI)
+        extracted_url: https://www.qodo.ai
+        surrounding_text: "- **[Qodo (CodiumAI)](https://www.qodo.ai/)** – Code review and automated test generation platform."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Qodo is an AI-powered code review and governance platform that integrates with IDEs, Git workflows, and CLIs to detect bugs, enforce coding standards, and automate pull request quality checks across complex codebases.
+  why_it_matters: It shifts code review left by running context-aware agents in your IDE and PRs, helping teams catch logic gaps, security issues, and standard violations before they reach production.
+  mental_damage: Just when you thought the AI slop problem was solved by writing more AI code, now you need an AI agent to review the code the other AI agents wrote.
+  tags:
+    - code-review
+    - ai-agents
+    - sdlc-governance
+    - enterprise
+  confidence: high
+curation:
+  status: included
+  reason: Qodo is a developer-facing coding agent platform that directly reviews, tests, and edits code within IDE, CLI, and PR workflows, fitting the coding-agents category over app-builders because it operates on existing codebases rather than generating new apps from scratch.
+  evidence:
+    - Scraped site describes it as 'an agentic code integrity platform for reviewing, testing, and writing code, integrating AI across development workflows'.
+    - Features include IDE integration, pull request review, CLI tool, and '15+ agentic workflows' that operate directly on source code.
+    - Listed in awesome-ai-coding-tools under 'Code Review and Refactoring' and awesome-ai-agents, confirming developer-tooling focus.
+placement:
+  primary_category: coding-agents
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.675Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:52:55.171Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

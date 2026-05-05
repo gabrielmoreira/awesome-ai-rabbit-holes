@@ -1,0 +1,76 @@
+id: www__heightsplatform__com
+kind: website
+name: www.heightsplatform.com
+canonical_url: https://www.heightsplatform.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__heightsplatform__com__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Heights Platform
+        anchor_text: Heights Platform
+        extracted_url: https://www.heightsplatform.com
+        surrounding_text: "## [Heights Platform](https://www.heightsplatform.com/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Heights Platform is an AI-assisted SaaS platform for creators to build, sell, and manage online courses, communities, and digital products.
+  why_it_matters: It offers an AI course generator and an AI business coach that automate curriculum drafting and growth strategy for non-technical creators.
+  mental_damage: We have successfully reached the point where the AI doesn't just write the code, it also writes the course teaching you how to sell the code it didn't write.
+  tags:
+    - course-builder
+    - creator-economy
+    - ai-coach
+    - saas
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a no-code business platform for course creators and coaches, lacking any developer-facing tooling, IDE integration, or code-generation workflow relevant to this catalog.
+  evidence:
+    - Scraped site context describes it as 'AI online course creation software platform' for 'creators', not developers.
+    - Primary page excerpt focuses on 'online courses', 'memberships', 'payments', and 'drag-and-drop website builder' for knowledge businesses.
+    - Source-list context (awesome-ai-agents) incorrectly lists it as an 'Autonomous AI coaching for creators' rather than a developer tool.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.732Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:51:16.911Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

@@ -1,0 +1,81 @@
+id: github__louis030195__gptzero-mcp
+kind: github-repo
+name: gptzero-mcp
+canonical_url: https://github.com/louis030195/gptzero-mcp
+identity:
+  github_repo: louis030195/gptzero-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__louis030195__gptzero-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: louis030195/gptzero-mcp
+        extracted_url: https://github.com/louis030195/gptzero-mcp
+        surrounding_text: "- [louis030195/gptzero-mcp](https://github.com/louis030195/gptzero-mcp) 📇 ☁️ 🍎 🪟 🐧 - AI detection for text content with GPTZero API. Detect AI-generated text, get confidence scores, multilingual support (French/Spanish), and detailed probability breakdowns."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2025-10-01T01:33:43Z"
+    pushed_at: "2025-10-06T20:20:46Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:03:24.963Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:24.963Z"
+      bytes: 2830
+insights:
+  summary: An MCP server that wraps the GPTZero API so developers can detect AI-generated text directly from Claude, ChatGPT, or other MCP-compatible LLMs.
+  why_it_matters: It lets developers validate content originality or debug AI-output quality without leaving their LLM-powered workflow.
+  mental_damage: We have officially reached the point where we need a plugin so our AI can check whether its own output was written by an AI.
+  tags:
+    - mcp
+    - ai-detection
+    - gptzero
+    - llm-tooling
+  confidence: medium
+curation:
+  status: included
+  reason: The project is an MCP server implementation that integrates GPTZero detection into MCP-compatible clients, which fits cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - "README states: 'MCP (Model Context Protocol) server for GPTZero AI detection API.'"
+    - Included in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
+    - Provides MCP tools (gptzero_detect, gptzero_model_versions) for Claude Desktop and Claude Code.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.704Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:24.963Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:34:47.663Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

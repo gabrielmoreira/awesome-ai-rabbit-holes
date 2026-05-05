@@ -1,0 +1,86 @@
+id: github__mailboxvalidator__mcp-mailboxvalidator
+kind: github-repo
+name: mcp-mailboxvalidator
+canonical_url: https://github.com/mailboxvalidator/mcp-mailboxvalidator
+identity:
+  github_repo: mailboxvalidator/mcp-mailboxvalidator
+provenance:
+  discoveries:
+    - id: discovery__github__mailboxvalidator__mcp-mailboxvalidator__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🎯 <a name="marketing"></a>Marketing
+        anchor_text: MailboxValidator/mcp-mailboxvalidator
+        extracted_url: https://github.com/mailboxvalidator/mcp-mailboxvalidator
+        surrounding_text: "- [MailboxValidator/mcp-mailboxvalidator](https://github.com/MailboxValidator/mcp-mailboxvalidator) [![mcp-mailboxvalidator MCP server](https://glama.ai/mcp/servers/MailboxValidator/mcp-mailboxvalidator/badges/score.svg)](https://glama.ai/mcp/servers/MailboxValidator/mcp-mailboxvalidator) 📇 ☁️  - Validates email addresses to reduce email bounces during marketing campaigns."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-04-09T07:12:34Z"
+    pushed_at: "2026-04-13T08:19:28Z"
+    description: Email validation MCP server using MailboxValidator API
+    homepage: https://www.mailboxvalidator.com
+    topics:
+      - claude-desktop
+      - email
+      - email-validation
+      - mcp
+      - mcp-server
+    last_checked_at: "2026-05-05T21:03:27.396Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:27.396Z"
+      bytes: 5243
+insights:
+  summary: An MCP server that exposes MailboxValidator's email validation API as tools for Claude Desktop to check syntax, DNS, MX records, and disposable or free email status.
+  why_it_matters: It lets developers integrate real-time email validation directly into Claude Desktop workflows without building custom API wrappers.
+  mental_damage: We have officially reached the point where validating an email address requires installing a local Node server so your AI can make an HTTP call on your behalf.
+  tags:
+    - mcp
+    - email-validation
+    - claude-desktop
+    - mailboxvalidator
+  confidence: high
+curation:
+  status: included
+  reason: This is a straightforward MCP server implementation, which clearly belongs in the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description states: 'Email validation MCP server using MailboxValidator API'"
+    - README confirms it is a 'Model Context Protocol (MCP) server implementation' with validate_email, check_disposable_email, and check_free_email tools
+    - Listed under 'Server Implementations' in the awesome-mcp-servers directory
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.705Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:27.396Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:35:17.558Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

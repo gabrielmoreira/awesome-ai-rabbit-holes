@@ -1,0 +1,96 @@
+id: github__n24q02m__better-godot-mcp
+kind: github-repo
+name: better-godot-mcp
+canonical_url: https://github.com/n24q02m/better-godot-mcp
+identity:
+  github_repo: n24q02m/better-godot-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__n24q02m__better-godot-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🎮 <a name="gaming"></a>Gaming
+        anchor_text: n24q02m/better-godot-mcp
+        extracted_url: https://github.com/n24q02m/better-godot-mcp
+        surrounding_text: "- [n24q02m/better-godot-mcp](https://github.com/n24q02m/better-godot-mcp) [![better-godot-mcp MCP server](https://glama.ai/mcp/servers/@n24q02m/better-godot-mcp/badges/score.svg)](https://glama.ai/mcp/servers/@n24q02m/better-godot-mcp) 📇 🏠 🍎 🪟 🐧 - 18 composite tools for structured Godot 4.x interaction: scenes, nodes, GDScript, shaders, animation, tilemap, physics, audio, navigation, UI, input mapping, and signals."
+        confidence: high
+metadata:
+  github:
+    stars: 14
+    forks: 4
+    license: MIT
+    archived: false
+    created_at: "2026-02-18T10:14:43Z"
+    pushed_at: "2026-05-05T02:25:54Z"
+    description: MCP server for Godot Engine - composite tools optimized for AI agents
+    homepage: https://www.npmjs.com/package/@n24q02m/better-godot-mcp
+    topics:
+      - ai-agents
+      - ai-coding
+      - claude
+      - claude-code
+      - cursor
+      - docker
+      - gdscript
+      - godot
+      - godot-engine
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - open-source
+      - typescript
+    last_checked_at: "2026-05-05T21:03:50.594Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:50.594Z"
+      bytes: 7490
+insights:
+  summary: An MCP server that exposes 17 composite tools for AI agents to read, write, and manipulate Godot scenes, GDScript files, animations, physics, and other engine assets directly from the filesystem.
+  why_it_matters: It allows coding agents to make meaningful, multi-step changes to Godot projects without requiring the editor to be running, bridging AI workflows with game development.
+  mental_damage: We have finally reached the point where your AI agent needs its own stable architecture just to avoid spawning browser tabs and racing its own processes while it tries to write GDScript for you.
+  tags:
+    - mcp
+    - godot
+    - gdscript
+    - game-dev
+    - ai-agents
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server providing Godot Engine tooling for AI agents, which fits cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description states: 'MCP server for Godot Engine - composite tools optimized for AI agents'."
+    - README lists 17 composite mega-tools for scene control, GDScript CRUD, and engine asset management.
+    - Listed in awesome-mcp-servers under the Gaming section, confirming its MCP ecosystem role.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.709Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:50.594Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:39:48.590Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

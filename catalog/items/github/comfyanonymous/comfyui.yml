@@ -1,0 +1,87 @@
+id: github__comfyanonymous__comfyui
+kind: github-repo
+name: comfyui
+canonical_url: https://github.com/comfyanonymous/comfyui
+identity:
+  github_repo: comfyanonymous/comfyui
+provenance:
+  discoveries:
+    - id: discovery__github__comfyanonymous__comfyui__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: janhq/awesome-local-ai
+        url: https://github.com/janhq/awesome-local-ai
+        repository: janhq/awesome-local-ai
+      extraction:
+        mode: parsed
+        section_path:
+          - Inference UI
+        anchor_text: ComfyUI
+        extracted_url: https://github.com/comfyanonymous/comfyui
+        surrounding_text: "- [ComfyUI](https://github.com/comfyanonymous/ComfyUI) - A powerful and modular stable diffusion GUI with a graph/nodes interface."
+        confidence: high
+metadata:
+  github:
+    stars: 111464
+    forks: 13017
+    license: GPL-3.0
+    archived: false
+    created_at: "2023-01-17T03:15:56Z"
+    pushed_at: "2026-05-05T20:58:32Z"
+    description: The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.
+    homepage: https://www.comfy.org/
+    topics:
+      - ai
+      - comfy
+      - comfyui
+      - python
+      - pytorch
+      - stable-diffusion
+    last_checked_at: "2026-05-05T21:01:39.569Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:39.569Z"
+      bytes: 29912
+insights:
+  summary: A modular, node-based GUI and API for running, chaining, and deploying local and cloud generative AI models for images, video, audio, and 3D content.
+  why_it_matters: Developers building generative pipelines can define, test, and serve complex multi-model workflows locally or via API without wiring everything by hand.
+  mental_damage: You told yourself you were just going to generate one reference image, and three hours later you are debugging a 200-node graph like it is a production microservice.
+  tags:
+    - local-ai
+    - generative-ai
+    - node-graph
+    - image-generation
+    - api
+  confidence: high
+curation:
+  status: included
+  reason: This is a local-first runtime and interface for running generative AI models on your own hardware, which fits the Local AI category even though it targets content creation rather than code.
+  evidence:
+    - "Repo description: 'most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.'"
+    - "README: 'available on Windows, Linux, and macOS, locally with our desktop application or on our cloud.'"
+    - "Source list: included under awesome-local-ai in an Inference UI section."
+placement:
+  primary_category: local-ai
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (111464) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.440Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:39.569Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:14:03.644Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

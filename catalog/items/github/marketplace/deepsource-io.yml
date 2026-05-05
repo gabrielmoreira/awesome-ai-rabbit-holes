@@ -1,0 +1,72 @@
+id: github__marketplace__deepsource-io
+kind: github-repo
+name: deepsource-io
+canonical_url: https://github.com/marketplace/deepsource-io
+identity:
+  github_repo: marketplace/deepsource-io
+provenance:
+  discoveries:
+    - id: discovery__github__marketplace__deepsource-io__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: scraped
+        section_path:
+          - Code Review and Refactoring
+        anchor_text: DeepSource
+        extracted_url: https://deepsource.io
+        surrounding_text: "- **[DeepSource](https://deepsource.io/)** – Automated code review with tech debt tracking and security analysis."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.705Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: failed
+    updated_at: "2026-05-05T21:03:30.019Z"
+    cause:
+      type: github_repo_missing
+      message: "GitHub repository not found: marketplace/deepsource-io"
+    next_retry_at: null
+  categorize:
+    status: skipped
+    updated_at: "2026-05-05T21:04:23.169Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

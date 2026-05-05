@@ -1,0 +1,76 @@
+id: www__pulsemcp__com
+kind: website
+name: www.pulsemcp.com
+canonical_url: https://www.pulsemcp.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__pulsemcp__com__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 模型上下文协议 MCP
+        anchor_text: pulsemcp.com
+        extracted_url: https://www.pulsemcp.com
+        surrounding_text: 5. [pulsemcp.com](https://www.pulsemcp.com/)
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: PulseMCP is a directory and discovery platform for Model Context Protocol (MCP) servers and tools.
+  why_it_matters: It provides a centralized index for developers looking to extend AI coding assistants with specific external tools and data sources via the MCP standard.
+  mental_damage: We have successfully reached the point where we need a dedicated search engine just to navigate the exponentially growing list of protocols designed to help our AI assistants find things.
+  tags:
+    - mcp
+    - directory
+    - tooling
+    - index
+  confidence: high
+curation:
+  status: included
+  reason: This is a directory and index specifically for MCP tooling, serving as a navigation aid for developers rather than a standalone tool or agent itself.
+  evidence:
+    - The URL is www.pulsemcp.com, indicating a dedicated site for the MCP ecosystem.
+    - Listed in the 'awesome-LLM-resources' directory under the '模型上下文协议 MCP' (Model Context Protocol) section.
+    - The product name and context strongly imply a discovery/catalog role for MCP servers.
+placement:
+  primary_category: awesome-awesomes
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.733Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:52:46.091Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

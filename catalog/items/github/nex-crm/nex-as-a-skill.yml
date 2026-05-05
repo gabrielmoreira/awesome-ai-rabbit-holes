@@ -1,0 +1,94 @@
+id: github__nex-crm__nex-as-a-skill
+kind: github-repo
+name: nex-as-a-skill
+canonical_url: https://github.com/nex-crm/nex-as-a-skill
+identity:
+  github_repo: nex-crm/nex-as-a-skill
+provenance:
+  discoveries:
+    - id: discovery__github__nex-crm__nex-as-a-skill__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Agent infrastructure
+        anchor_text: Nex
+        extracted_url: https://github.com/nex-crm/nex-as-a-skill
+        surrounding_text: "- **[Nex](https://github.com/nex-crm/nex-as-a-skill)** `⭐ 40` — Organizational context and memory for AI agents; connects email, Slack, CRM, and 100+ tools into one knowledge graph with a 60-tool MCP server (`npx @nex-ai/nex`) and persistent memory across agent sessions. MIT."
+        confidence: high
+metadata:
+  github:
+    stars: 41
+    forks: 4
+    license: null
+    archived: false
+    created_at: "2026-02-04T13:42:10Z"
+    pushed_at: "2026-05-02T03:30:30Z"
+    description: Turn every AI agent session  into company intelligence. Nex silently unifies every AI agent conversation with your email, Slack, CRM, and 100+ tools into one knowledge graph. The more your team works, the smarter every agent gets.
+    homepage: https://nex.ai
+    topics:
+      - ai
+      - ai-agent
+      - cli
+      - context
+      - context-engineering
+      - developer-tools
+      - knowledge-graph
+      - mcp
+      - mcp-server
+      - memory
+      - nodejs
+      - typescript
+    last_checked_at: "2026-05-05T21:03:54.020Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:54.020Z"
+      bytes: 10418
+insights:
+  summary: A CLI and skill-pack system that connects AI coding agents across platforms into a shared knowledge graph with integrations for email, Slack, and CRM tools.
+  why_it_matters: It lets developers carry context, memories, and project knowledge across Claude Code, Cursor, Windsurf, and other agents without re-explaining or re-pasting information.
+  mental_damage: You have finally solved the problem of your AI agents having no long-term memory, only to realize they now remember every half-baked idea and deprecated API decision you hoped they would forget.
+  tags:
+    - context-engineering
+    - knowledge-graph
+    - mcp
+    - cli
+    - agent-memory
+  confidence: high
+curation:
+  status: included
+  reason: The primary artifact is a reusable layer of slash commands, rules packs, and platform plugins designed to teach other AI agents how to use Nex's shared memory and knowledge graph.
+  evidence:
+    - README explicitly structures the project around plugin-commands/, platform-rules/, and platform-plugins/ for Claude Code, Cursor, Windsurf, and others.
+    - Repo description and topics emphasize context-engineering, MCP, memory, and agent infrastructure rather than being a standalone coding assistant.
+    - Source list placement under 'Harnesses & orchestration > Agent infrastructure' aligns with a skills/infrastructure layer rather than a primary coding agent.
+placement:
+  primary_category: skills
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.709Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:54.020Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:40:29.506Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

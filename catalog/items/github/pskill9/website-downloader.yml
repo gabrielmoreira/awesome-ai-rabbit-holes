@@ -1,0 +1,87 @@
+id: github__pskill9__website-downloader
+kind: github-repo
+name: website-downloader
+canonical_url: https://github.com/pskill9/website-downloader
+identity:
+  github_repo: pskill9/website-downloader
+provenance:
+  discoveries:
+    - id: discovery__github__pskill9__website-downloader__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: pskill9/website-downloader
+        extracted_url: https://github.com/pskill9/website-downloader
+        surrounding_text: "- [pskill9/website-downloader](https://github.com/pskill9/website-downloader) 🗄️ 🚀 - This MCP server provides a tool to download entire websites using wget. It preserves the website structure and converts links to work locally."
+        confidence: high
+    - id: discovery__github__pskill9__website-downloader__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - 🛠️ Utilities
+        anchor_text: "@pskill9/website-downloader"
+        extracted_url: https://github.com/pskill9/website-downloader
+        surrounding_text: "-   **[@pskill9/website-downloader](https://github.com/pskill9/website-downloader)** [![GitHub stars](https://img.shields.io/github/stars/pskill9/website-downloader?style=social)](https://github.com/pskill9/website-downloader): Downloads entire websites using wget, preserving structure."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.670Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: deferred
+    updated_at: "2026-05-05T20:15:09.148Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for pskill9/website-downloader
+  categorize:
+    status: skipped
+    updated_at: "2026-05-05T21:04:23.169Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

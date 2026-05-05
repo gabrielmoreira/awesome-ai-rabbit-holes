@@ -1,0 +1,90 @@
+id: github__catrinmdonnelly__royalmail-mcp
+kind: github-repo
+name: royalmail-mcp
+canonical_url: https://github.com/catrinmdonnelly/royalmail-mcp
+identity:
+  github_repo: catrinmdonnelly/royalmail-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__catrinmdonnelly__royalmail-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🔒 <a name="delivery"></a>Delivery
+        anchor_text: catrinmdonnelly/royalmail-mcp
+        extracted_url: https://github.com/catrinmdonnelly/royalmail-mcp
+        surrounding_text: "- [catrinmdonnelly/royalmail-mcp](https://github.com/catrinmdonnelly/royalmail-mcp) [![catrinmdonnelly/royalmail-mcp MCP server](https://glama.ai/mcp/servers/catrinmdonnelly/royalmail-mcp/badges/score.svg)](https://glama.ai/mcp/servers/catrinmdonnelly/royalmail-mcp) 📇 ☁️ - Book, label, track and cancel Royal Mail and Parcelforce shipments. 33 UK and international services via friendly keys or raw Service Register codes. `npx royalmail-mcp`."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-04-22T07:55:28Z"
+    pushed_at: "2026-04-24T12:59:55Z"
+    description: Book, label, track and cancel Royal Mail and Parcelforce shipments from any MCP-compatible AI.
+    homepage: https://parceltoolkit.com/
+    topics:
+      - ai
+      - claude
+      - ecommerce
+      - logistics
+      - mcp
+      - retail
+      - royalmail
+      - uk
+    last_checked_at: "2026-05-05T21:01:30.865Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:30.865Z"
+      bytes: 9653
+insights:
+  summary: An MCP server that exposes Royal Mail and Parcelforce shipping operations—booking, labeling, tracking, and cancellation—to AI clients like Claude and Cursor via the Click & Drop API.
+  why_it_matters: Developers building e-commerce agents or internal logistics workflows can delegate parcel operations to an AI without writing custom API integration code.
+  mental_damage: We have successfully taught a frontier model to argue with Royal Mail's API about postcodes so you don't have to.
+  tags:
+    - mcp
+    - logistics
+    - royal-mail
+    - ecommerce
+    - node
+  confidence: high
+curation:
+  status: included
+  reason: This is a purpose-built MCP server that integrates with a specific external API, which fits cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states it is an MCP server for Royal Mail and Parcelforce shipments.
+    - README confirms it exposes six tools via the Model Context Protocol to clients like Claude, Cursor, and Windsurf.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Delivery'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.682Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:30.865Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:12:35.512Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

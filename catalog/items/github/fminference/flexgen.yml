@@ -1,0 +1,88 @@
+id: github__fminference__flexgen
+kind: github-repo
+name: flexgen
+canonical_url: https://github.com/fminference/flexgen
+identity:
+  github_repo: fminference/flexgen
+provenance:
+  discoveries:
+    - id: discovery__github__fminference__flexgen__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Serving
+          - Large Model Serving
+        anchor_text: FlexGen
+        extracted_url: https://github.com/fminference/flexgen
+        surrounding_text: "| [FlexGen](https://github.com/FMInference/FlexGen)                                     | Running large language models on a single GPU for throughput-oriented scenarios. *(Archived)*                   | ![GitHub Badge](https://img.shields.io/github/stars/FMInference/FlexGen.svg?style=flat-square)                   |"
+        confidence: high
+metadata:
+  github:
+    stars: 9366
+    forks: 591
+    license: Apache-2.0
+    archived: true
+    created_at: "2023-02-15T21:18:53Z"
+    pushed_at: "2024-10-28T03:05:41Z"
+    description: Running large language models on a single GPU for throughput-oriented scenarios.
+    homepage: ""
+    topics:
+      - deep-learning
+      - gpt-3
+      - high-throughput
+      - large-language-models
+      - machine-learning
+      - offloading
+      - opt
+    last_checked_at: "2026-05-05T21:02:13.664Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:13.664Z"
+      bytes: 12666
+insights:
+  summary: FlexLLMGen is a high-throughput inference engine for running large language models on a single commodity GPU using offloading and compression techniques.
+  why_it_matters: It allows developers to run batch-oriented LLM workloads like data wrangling and benchmarking on affordable hardware rather than expensive multi-GPU clusters.
+  mental_damage: Yet another chance to discover that your 'commodity GPU' is still weeping silently in a corner while you wait eight hours for a batch job to finish.
+  tags:
+    - llm-inference
+    - local-ai
+    - batch-processing
+    - gpu-optimization
+  confidence: high
+curation:
+  status: excluded
+  reason: The project is archived and functions as a low-level machine learning inference engine rather than a developer-facing AI tool or workflow aid.
+  evidence:
+    - Repo is marked as archived, indicating it is no longer actively maintained.
+    - Focus is on LLM serving and offloading (listed in Awesome-LLMOps under 'Large Model Serving'), not developer tooling.
+    - No clear connection to coding agents, IDEs, app builders, or developer workflow infrastructure.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: needs_review
+  reason: Repository is archived
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.441Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:13.664Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:19:58.126Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

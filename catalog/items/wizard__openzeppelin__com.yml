@@ -1,0 +1,77 @@
+id: wizard__openzeppelin__com
+kind: website
+name: wizard.openzeppelin.com
+canonical_url: https://wizard.openzeppelin.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__wizard__openzeppelin__com__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: OpenZeppelin Wizard templates
+        extracted_url: https://wizard.openzeppelin.com
+        surrounding_text: "- [OpenZeppelin/contracts-wizard](https://github.com/OpenZeppelin/contracts-wizard/tree/master/packages/mcp) - A Model Context Protocol (MCP) server that allows AI agents to generate secure smart contracts in multiples languages based on [OpenZeppelin Wizard templates](https://wizard.openzeppelin.com/)."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: An interactive web-based generator for creating secure smart contracts using OpenZeppelin standards, supporting multiple blockchain languages like Solidity and Cairo.
+  why_it_matters: It allows blockchain developers to visually configure and export standard-compliant contract code without manually stitching together boilerplate or auditing for missing security patterns.
+  mental_damage: Now you can delegate your Solidity architecture to a web form, leaving you free to worry about whether the AI added a backdoor while you weren't looking at the generated code.
+  tags:
+    - smart-contracts
+    - code-generator
+    - web-tool
+    - blockchain
+  confidence: high
+curation:
+  status: excluded
+  reason: The tool is a domain-specific code generator for smart contracts but lacks a general AI developer-tooling angle required for the catalog, acting more as a niche generator than a broad coding agent or app builder.
+  evidence:
+    - Scraped site context describes it as 'An interactive smart contract generator based on OpenZeppelin Contracts.'
+    - The tool focuses on specific blockchain languages (Solidity, Cairo, Stylus) rather than general software development workflows.
+    - Seen in awesome-mcp-servers, but the primary surface is a web generator, not an MCP server or developer extension itself.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.731Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:49:19.965Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

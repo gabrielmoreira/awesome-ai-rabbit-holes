@@ -1,0 +1,91 @@
+id: www__nomic__ai__gpt4all
+kind: website
+name: gpt4all
+canonical_url: https://www.nomic.ai/gpt4all
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__nomic__ai__gpt4all__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: janhq/awesome-local-ai
+        url: https://github.com/janhq/awesome-local-ai
+        repository: janhq/awesome-local-ai
+      extraction:
+        mode: parsed
+        section_path:
+          - Inference UI
+        anchor_text: GPT4All
+        extracted_url: https://gpt4all.io
+        surrounding_text: "- [GPT4All](https://gpt4all.io) - A free-to-use, locally running, privacy-aware chatbot."
+        confidence: high
+    - id: discovery__www__nomic__ai__gpt4all__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Local LLM Tools
+        anchor_text: GPT4All
+        extracted_url: https://gpt4all.io
+        surrounding_text: "- **[GPT4All](https://gpt4all.io/)** – Free, local, privacy-aware chatbot running LLMs on consumer hardware."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: GPT4All is a cross-platform desktop application that allows developers and power users to run open-source large language models locally on their own hardware without requiring cloud connectivity.
+  why_it_matters: It provides a private, high-performance environment for running local models, enabling developers to build custom assistants and workflows while keeping sensitive data on their own machines.
+  mental_damage: Now you can have the full anxiety of managing a hallucinating AI assistant, but with the added satisfaction of your laptop fans spinning at maximum velocity to keep your secrets local.
+  tags:
+    - local-ai
+    - llm
+    - offline
+    - privacy
+  confidence: high
+curation:
+  status: included
+  reason: The product is explicitly a desktop/local runtime for running open-source AI models on the user's device, fitting the local-ai category perfectly.
+  evidence:
+    - "Scraped site title and description: 'Private & Local AI Chatbot' that runs models 'locally on your device' with 'no cloud required'."
+    - Site excerpt confirms it runs on Windows, macOS, and Linux with 'full customization' and 'LocalDocs' support.
+    - Included in 'awesome-local-ai' under Inference UI and 'awesome-ai-coding-tools' under Local LLM Tools.
+placement:
+  primary_category: local-ai
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.675Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:52:15.078Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

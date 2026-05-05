@@ -1,0 +1,94 @@
+id: github__mikerecognex__mcp-codebase-index
+kind: github-repo
+name: mcp-codebase-index
+canonical_url: https://github.com/mikerecognex/mcp-codebase-index
+identity:
+  github_repo: mikerecognex/mcp-codebase-index
+provenance:
+  discoveries:
+    - id: discovery__github__mikerecognex__mcp-codebase-index__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: MikeRecognex/mcp-codebase-index
+        extracted_url: https://github.com/mikerecognex/mcp-codebase-index
+        surrounding_text: "- [MikeRecognex/mcp-codebase-index](https://github.com/MikeRecognex/mcp-codebase-index) 🐍 🏠 🍎 🪟 🐧 - Structural codebase indexer exposing 17 query tools (functions, classes, imports, dependency graphs, change impact) via MCP. Zero dependencies."
+        confidence: high
+metadata:
+  github:
+    stars: 50
+    forks: 7
+    license: AGPL-3.0
+    archived: false
+    created_at: "2026-02-15T15:13:54Z"
+    pushed_at: "2026-02-28T00:25:59Z"
+    description: 17 MCP query tools for codebase navigation — functions, classes, imports, dependency graphs, change impact. Zero dependencies. 87% token reduction.
+    homepage: null
+    topics:
+      - ai-coding
+      - ast-parser
+      - claude-code
+      - code-analysis
+      - code-navigation
+      - codebase-indexer
+      - dependency-graph
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - python
+      - symbol-table
+      - typescript
+    last_checked_at: "2026-05-05T21:03:40.332Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:40.332Z"
+      bytes: 14883
+insights:
+  summary: An MCP server that indexes codebases by parsing structural metadata (functions, classes, imports, dependency graphs) and exposes 17 query tools to AI clients for efficient code navigation with claimed 87% token reduction.
+  why_it_matters: It lets coding agents like Claude Code navigate and understand large codebases through targeted queries instead of expensive full-file reads, with automatic incremental re-indexing via git diff detection.
+  mental_damage: We have reached the point where we need a dedicated server to remind the AI that the function it wrote thirty seconds ago actually exists in the file it just indexed.
+  tags:
+    - mcp-server
+    - codebase-indexing
+    - context-engineering
+    - token-reduction
+  confidence: high
+curation:
+  status: included
+  reason: The product itself is an MCP server that provides codebase indexing and query tools specifically for the Model Context Protocol ecosystem.
+  evidence:
+    - Repo description explicitly states '17 MCP query tools for codebase navigation'
+    - README confirms it 'exposes 18 query tools via the Model Context Protocol' as an MCP server
+    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.707Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:40.332Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:37:49.626Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

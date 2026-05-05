@@ -1,0 +1,97 @@
+id: github__metatool-ai__metamcp
+kind: github-repo
+name: metatool-app
+canonical_url: https://github.com/metatool-ai/metamcp
+identity:
+  github_repo: metatool-ai/metamcp
+provenance:
+  discoveries:
+    - id: discovery__github__metatool-ai__metatool-app__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🔗 <a name="aggregators"></a>Aggregators
+        anchor_text: metatool-ai/metatool-app
+        extracted_url: https://github.com/metatool-ai/metatool-app
+        surrounding_text: "- [metatool-ai/metatool-app](https://github.com/metatool-ai/metatool-app) 📇 ☁️ 🏠 🍎 🪟 🐧 - MetaMCP is the one unified middleware MCP server that manages your MCP connections with GUI."
+        confidence: high
+metadata:
+  github:
+    stars: 2287
+    forks: 332
+    license: MIT
+    archived: false
+    created_at: "2025-01-22T11:58:52Z"
+    pushed_at: "2026-02-08T03:43:11Z"
+    description: MCP Aggregator, Orchestrator, Middleware, Gateway in one docker
+    homepage: https://docs.metamcp.com
+    topics:
+      - mcp
+      - mcp-gateway
+      - mcp-host
+      - mcp-middleware
+      - mcp-server
+      - mcp-servers
+      - mcp-to-openapi
+      - mcp-tools
+      - model-context-protocol
+      - model-context-protocol-server
+      - model-context-protocol-servers
+      - open-webui
+      - openapi
+      - self-hosted
+      - vibe-coding
+    last_checked_at: "2026-05-05T21:03:36.425Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:36.425Z"
+      bytes: 24487
+insights:
+  summary: MetaMCP is a self-hosted MCP proxy and gateway that aggregates multiple MCP servers into a single unified endpoint for use with AI clients like Cursor and Claude Desktop.
+  why_it_matters: It allows developers to manage, secure, and compose disparate MCP tools behind one endpoint, simplifying configuration for AI-assisted development environments.
+  mental_damage: We have successfully reached the stage of the ecosystem where we now need middleware, gateways, and orchestration layers just to manage the middleware that talks to our AI agents.
+  tags:
+    - mcp
+    - middleware
+    - self-hosted
+    - gateway
+    - docker
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP aggregator, orchestrator, and gateway designed to be plugged into MCP clients, fitting the MCP infrastructure definition perfectly.
+  evidence:
+    - "Repo description: 'MCP Aggregator, Orchestrator, Middleware, Gateway in one docker'."
+    - "README: 'MetaMCP is a MCP proxy that lets you dynamically aggregate MCP servers into a unified MCP server'."
+    - Topics include mcp-gateway, mcp-middleware, and mcp-server.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (2287) exceeded threshold (150)
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:37:05.066Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.706Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:36.425Z"
+    cause: null
+    next_retry_at: null

@@ -1,0 +1,77 @@
+id: agentskill__sh
+kind: website
+name: agentskill.sh
+canonical_url: https://agentskill.sh
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__agentskill__sh__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 技能 Skills
+        anchor_text: Agent Skill
+        extracted_url: https://agentskill.sh
+        surrounding_text: 16. [Agent Skill](https://agentskill.sh/)
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A marketplace and CLI directory for browsing, installing, and managing reusable AI agent skills across Claude Code, Cursor, Copilot, Windsurf, Zed, and 20+ developer tools.
+  why_it_matters: Developers can discover and install curated skill packs to extend their AI coding assistants with specialized workflows like code review, changelog generation, and GitHub issue automation.
+  mental_damage: We have officially reached the point where our AI agents need their own npm-style package registry, because writing a capable agent from scratch is apparently harder than managing 107,000 micro-skills.
+  tags:
+    - skills
+    - marketplace
+    - cli
+    - agent-extensions
+    - claude-code
+  confidence: high
+curation:
+  status: included
+  reason: The primary artifact is a directory and registry of reusable skill packs and rules bundles for AI developer tools, which clearly fits the skills category.
+  evidence:
+    - Scraped site context describes it as 'the largest marketplace for Claude Code, Cursor, Copilot, Codex, Windsurf, Zed, and 20+ tools' with '107,000+ skills'.
+    - Includes skill packs like 'code-reviewer' for PR review workflows and 'docs-changelog' for automation, distributed via 'npx @agentskill.sh/cli@latest setup'.
+    - Listed in awesome-LLM-resources under the '技能 Skills' section with the description 'Browse AI agent skills'.
+placement:
+  primary_category: skills
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.725Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T20:27:13.130Z"
+    cause: null
+    attempts: 3
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 753a9feca783
+    next_retry_at: null

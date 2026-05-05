@@ -1,0 +1,99 @@
+id: github__dstackai__dstack
+kind: github-repo
+name: dstack
+canonical_url: https://github.com/dstackai/dstack
+identity:
+  github_repo: dstackai/dstack
+provenance:
+  discoveries:
+    - id: discovery__github__dstackai__dstack__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - LLMOps
+        anchor_text: Dstack
+        extracted_url: https://github.com/dstackai/dstack
+        surrounding_text: "| [Dstack](https://github.com/dstackai/dstack)                       | Cost-effective LLM development in any cloud (AWS, GCP, Azure, Lambda, etc).                                                                                                                                                                                                                                                                                                                             | ![GitHub Badge](https://img.shields.io/github/stars/dstackai/dstack.svg?style=flat-square)                |"
+        confidence: high
+metadata:
+  github:
+    stars: 2129
+    forks: 225
+    license: MPL-2.0
+    archived: false
+    created_at: "2022-01-04T10:29:46Z"
+    pushed_at: "2026-05-05T10:36:20Z"
+    description: Vendor-agnostic orchestration for training, inference and agentic workloads across NVIDIA, AMD, TPU, and Tenstorrent on clouds, Kubernetes, and bare metal.
+    homepage: https://dstack.ai/docs
+    topics:
+      - agent-skills
+      - agentic-orchestration
+      - amd
+      - cloud
+      - containers
+      - docker
+      - fine-tuning
+      - gpu
+      - inference
+      - k8s
+      - kubernetes
+      - llms
+      - machine-learning
+      - nvidia
+      - orchestration
+      - python
+      - slurm
+      - training
+    last_checked_at: "2026-05-05T21:01:57.677Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:57.677Z"
+      bytes: 5560
+insights:
+  summary: A vendor-agnostic control plane for provisioning and orchestrating GPU workloads across cloud providers, Kubernetes, and on-prem clusters.
+  why_it_matters: It abstracts away the painful multi-cloud GPU shuffling required to train, fine-tune, and serve models on NVIDIA, AMD, TPU, and Tenstorrent hardware.
+  mental_damage: Yet another layer of infrastructure abstraction promising to solve the GPU shortage, assuming you weren't already enjoying the thrill of debugging Kubernetes YAML at 2 AM.
+  tags:
+    - gpu
+    - orchestration
+    - infrastructure
+    - kubernetes
+    - training
+  confidence: high
+curation:
+  status: included
+  reason: This is a user-facing control plane and operational platform for coordinating AI workloads and agents across heterogeneous compute backends, fitting the orchestration category.
+  evidence:
+    - Repo description defines it as 'Vendor-agnostic orchestration for training, inference and agentic workloads'.
+    - README describes it as a 'unified control plane for GPU provisioning and orchestration' that manages fleets and workloads.
+    - Includes specific support for 'agent skills' allowing AI agents like Claude and Cursor to manage infrastructure.
+placement:
+  primary_category: agent-orchestration
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (2129) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.685Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:57.677Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:17:15.967Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

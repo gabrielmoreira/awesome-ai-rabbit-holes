@@ -1,0 +1,81 @@
+id: github__molanojustin__smithsonian-mcp
+kind: github-repo
+name: smithsonian-mcp
+canonical_url: https://github.com/molanojustin/smithsonian-mcp
+identity:
+  github_repo: molanojustin/smithsonian-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__molanojustin__smithsonian-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🎨 <a name="art-and-culture"></a>Art & Culture
+        anchor_text: molanojustin/smithsonian-mcp
+        extracted_url: https://github.com/molanojustin/smithsonian-mcp
+        surrounding_text: "- [molanojustin/smithsonian-mcp](https://github.com/molanojustin/smithsonian-mcp) 🐍 ☁️ - MCP server that provides AI assistants with access to the Smithsonian Institution's Open Access collections."
+        confidence: high
+metadata:
+  github:
+    stars: 8
+    forks: 3
+    license: MIT
+    archived: false
+    created_at: "2025-10-05T20:45:28Z"
+    pushed_at: "2026-04-13T16:16:50Z"
+    description: A Model Context Protocol (MCP) server that provides AI assistants with access to the Smithsonian Institution's Open Access collections.
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:03:46.343Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:46.343Z"
+      bytes: 14792
+insights:
+  summary: A Model Context Protocol server that gives AI assistants structured access to the Smithsonian Institution's Open Access collections, enabling search, metadata retrieval, and image access for over 3 million objects.
+  why_it_matters: Developers building cultural or research-focused AI workflows can plug this into Claude Desktop or MCP-compatible hosts to let assistants query museum collections without hand-rolling API integrations.
+  mental_damage: We’ve now built an MCP server so your coding assistant can ponder 19th-century artifacts while your production tickets go untouched.
+  tags:
+    - mcp
+    - smithsonian
+    - api-integration
+    - ai-assistant
+  confidence: medium
+curation:
+  status: included
+  reason: This is explicitly an MCP server that extends AI assistants with museum data access, which fits cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description states it is 'A Model Context Protocol (MCP) server that provides AI assistants with access to the Smithsonian Institution's Open Access collections.'
+    - README confirms 16 MCP tools for search, object details, and exhibition status, with Claude Desktop configuration support.
+    - Listed under 'Server Implementations > Art & Culture' in the awesome-mcp-servers directory.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.708Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:46.343Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:38:55.972Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

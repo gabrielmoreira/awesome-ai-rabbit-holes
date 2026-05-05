@@ -1,0 +1,98 @@
+id: github__phpcodearcheology__phpcodearcheology
+kind: github-repo
+name: phpcodearcheology
+canonical_url: https://github.com/phpcodearcheology/phpcodearcheology
+identity:
+  github_repo: phpcodearcheology/phpcodearcheology
+provenance:
+  discoveries:
+    - id: discovery__github__phpcodearcheology__phpcodearcheology__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: PhpCodeArcheology/PhpCodeArcheology
+        extracted_url: https://github.com/phpcodearcheology/phpcodearcheology
+        surrounding_text: "- [PhpCodeArcheology/PhpCodeArcheology](https://github.com/PhpCodeArcheology/PhpCodeArcheology) [![PhpCodeArcheology MCP server](https://glama.ai/mcp/servers/PhpCodeArcheology/PhpCodeArcheology/badges/score.svg)](https://glama.ai/mcp/servers/PhpCodeArcheology/PhpCodeArcheology) 🏠 🍎 🪟 🐧 - PHP static analysis MCP server for architecture and maintainability. 11 tools exposing 60+ code quality metrics, problem detection, refactoring priorities, dependency graphs, git hotspots, test coverage, and impact analysis. Installable via Composer."
+        confidence: high
+metadata:
+  github:
+    stars: 74
+    forks: 6
+    license: MIT
+    archived: false
+    created_at: "2023-12-22T13:16:33Z"
+    pushed_at: "2026-05-02T07:42:32Z"
+    description: PHP static analysis for architecture & maintainability — 60+ metrics, complexity analysis, dependency graphs, git churn hotspots, and AI-ready MCP server. Alternative to PHPMetrics.
+    homepage: https://phpcodearcheology.github.io
+    topics:
+      - architecture
+      - ast
+      - code-analysis
+      - code-metrics
+      - code-quality
+      - complexity
+      - developer-tools
+      - maintainability
+      - mcp
+      - metrics
+      - php
+      - php-static-analysis
+      - quality-assurance
+      - sarif
+      - static-analysis
+      - technical-debt
+    last_checked_at: "2026-05-05T21:04:16.702Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:16.702Z"
+      bytes: 25852
+insights:
+  summary: A PHP static analysis tool that measures code quality and architecture via 60+ metrics, git churn analysis, and includes an AI-ready MCP server for integration with coding assistants.
+  why_it_matters: It gives developers deep architectural insights and technical debt tracking for PHP codebases, while the MCP server allows AI assistants to directly query code health and structure.
+  mental_damage: We have reached the point where we need an AI archaeology tool just to help the AI understand the sprawling PHP legacy we built before the AI arrived.
+  tags:
+    - php
+    - static-analysis
+    - mcp
+    - architecture
+    - technical-debt
+  confidence: high
+curation:
+  status: included
+  reason: The project is primarily a static analysis tool, but its specific inclusion in this catalog is justified by its native MCP server implementation designed for AI assistant integration.
+  evidence:
+    - Repo description explicitly lists 'AI-ready MCP server' as a core feature.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
+    - README details a native MCP server for AI assistants like Claude Code.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.713Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:16.702Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:44:34.673Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

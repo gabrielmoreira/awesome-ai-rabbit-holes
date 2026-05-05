@@ -1,0 +1,91 @@
+id: getcarbon__app
+kind: website
+name: getcarbon.app
+canonical_url: https://getcarbon.app
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__getcarbon__app__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💬 <a name="communication"></a>Communication
+        anchor_text: Carbon Voice
+        extracted_url: https://getcarbon.app
+        surrounding_text: "- [PhononX/cv-mcp-server](https://github.com/PhononX/cv-mcp-server) 🎖️ 📇 🏠 ☁️ 🍎 🪟 🐧 - MCP Server that connects AI Agents to [Carbon Voice](https://getcarbon.app). Create, manage, and interact with voice messages, conversations, direct messages, folders, voice memos, AI actions and more in [Carbon Voice](https://getcarbon.app)."
+        confidence: high
+    - id: discovery__getcarbon__app__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Carbon Voice
+        extracted_url: https://getcarbon.app
+        surrounding_text: "- **[Carbon Voice](https://github.com/PhononX/cv-mcp-server)** - <img height=\"20\" width=\"20\" src=\"https://carbonvoice.app/favicon.ico\" align=\"center\"/> MCP Server that connects AI Agents to [Carbon Voice](https://getcarbon.app). Create, manage, and interact with voice messages, conversations, direct messages, folders, voice memos, AI actions and more in [Carbon Voice](https://getcarbon.app)."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Getcarbon.app is a Model Context Protocol (MCP) server implementation focused on communication tools.
+  why_it_matters: It provides developers with a plug-and-play MCP server to extend AI assistants with communication capabilities.
+  mental_damage: Another entry in the MCP ecosystem that solves the critical problem of explaining to your agent how to send a message, assuming you can first solve the problem of getting the agent to run reliably.
+  tags:
+    - mcp
+    - communication
+    - server
+  confidence: medium
+curation:
+  status: included
+  reason: The project is explicitly listed as an MCP server implementation in the awesome-mcp-servers directory, fitting the MCP Servers and Tooling category.
+  evidence:
+    - Listed in awesome-mcp-servers under 'Server Implementations > Communication'.
+    - URL points to getcarbon.app, identifying it as an MCP server tool.
+    - Source-list context and product framing match hosted app-building / prompt-to-app tooling rather than direct code collaboration.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.674Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:44:38.969Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

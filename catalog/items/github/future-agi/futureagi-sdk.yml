@@ -1,0 +1,92 @@
+id: github__future-agi__futureagi-sdk
+kind: github-repo
+name: futureagi-sdk
+canonical_url: https://github.com/future-agi/futureagi-sdk
+identity:
+  github_repo: future-agi/futureagi-sdk
+provenance:
+  discoveries:
+    - id: discovery__github__future-agi__futureagi-sdk__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Security
+          - Observability
+        anchor_text: Future AGI
+        extracted_url: https://github.com/future-agi/futureagi-sdk
+        surrounding_text: "| [Future AGI](https://github.com/future-agi/futureagi-sdk)                    | Production-grade SDK for observability, automated evaluations and prompt management with sub-100ms guardrails for LLM/agent workflows.                                             | ![GitHub Badge](https://img.shields.io/github/stars/future-agi/futureagi-sdk?style=flat-square)                   |"
+        confidence: high
+metadata:
+  github:
+    stars: 46
+    forks: 4
+    license: Apache-2.0
+    archived: false
+    created_at: "2024-08-03T13:22:28Z"
+    pushed_at: "2026-04-23T14:16:34Z"
+    description: Production-grade AI evaluation, prompt management & observability SDK. Automated evaluations with sub-100ms guardrails. No human-in-the-loop required. Python + TypeScript.
+    homepage: https://app.futureagi.com
+    topics:
+      - ai
+      - ai-agents
+      - annotations
+      - dataset
+      - development
+      - evaluation
+      - knowledge-base
+      - machine-learning
+      - mlops
+      - prompt-engineering
+    last_checked_at: "2026-05-05T21:02:16.047Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:16.047Z"
+      bytes: 14955
+insights:
+  summary: An open-source SDK for Python and TypeScript that provides automated AI evaluations, prompt management, observability, and sub-100ms guardrails for production AI systems.
+  why_it_matters: It gives developers a unified code-first interface to version prompts, run automated evaluations with LLM-as-judge, and catch hallucinations before they reach users.
+  mental_damage: You still have to write the prompts, manage the datasets, and interpret the eval results, but now you can do it all with sub-100ms latency while wondering why your agent still hallucinated that refund policy.
+  tags:
+    - evals
+    - observability
+    - prompt-management
+    - sdk
+    - guardrails
+  confidence: high
+curation:
+  status: included
+  reason: The SDK is purpose-built for AI evaluation, prompt regression, and observability rather than acting as a coding assistant or generic framework.
+  evidence:
+    - Repo description explicitly states 'Production-grade AI evaluation, prompt management & observability SDK' with sub-100ms guardrails.
+    - README features 50+ eval metrics, LLM-as-judge, prompt versioning, and OpenTelemetry-native tracing as core capabilities.
+    - Listed under 'Security > Observability' in the Awesome-LLMOps directory, aligning with the evals and observability scope.
+placement:
+  primary_category: evals
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.688Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:16.047Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:20:25.059Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

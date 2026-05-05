@@ -1,0 +1,86 @@
+id: github__delta-io__delta
+kind: github-repo
+name: delta
+canonical_url: https://github.com/delta-io/delta
+identity:
+  github_repo: delta-io/delta
+provenance:
+  discoveries:
+    - id: discovery__github__delta-io__delta__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Data
+          - Data Management
+        anchor_text: Delta-Lake
+        extracted_url: https://github.com/delta-io/delta
+        surrounding_text: "| [Delta-Lake](https://github.com/delta-io/delta)     | Storage layer that brings scalable, ACID transactions to Apache Spark and other engines.                                                                        | ![GitHub Badge](https://img.shields.io/github/stars/delta-io/delta.svg?style=flat-square)      |"
+        confidence: high
+metadata:
+  github:
+    stars: 8769
+    forks: 2086
+    license: Apache-2.0
+    archived: false
+    created_at: "2019-04-22T18:56:51Z"
+    pushed_at: "2026-05-05T19:51:08Z"
+    description: An open-source storage framework that enables building a Lakehouse architecture with compute engines including Spark, PrestoDB, Flink, Trino, and Hive and APIs
+    homepage: https://delta.io
+    topics:
+      - acid
+      - analytics
+      - big-data
+      - delta-lake
+      - spark
+    last_checked_at: "2026-05-05T21:01:51.598Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:51.598Z"
+      bytes: 11352
+insights:
+  summary: Delta Lake is an open-source storage framework that enables building a Lakehouse architecture with support for compute engines including Spark, PrestoDB, Flink, Trino, and Hive.
+  why_it_matters: It provides developers with ACID transactions and scalable metadata handling on data lakes, simplifying complex data pipelines for analytics and ML workloads.
+  mental_damage: Yet another excuse to over-engineer your data stack with a 'Lakehouse' while your AI agent is still struggling to write a valid SQL join.
+  tags:
+    - data-lake
+    - big-data
+    - storage-framework
+    - lakehouse
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a core data infrastructure library for Spark/Flink, not a developer-facing AI tool, agent, or AI workflow product.
+  evidence:
+    - Repo description and README describe a storage framework for data lakes and compute engines (Spark, Flink, Trino), with no mention of AI or coding assistance.
+    - Source list context places it under 'Data > Data Management' in an LLMOps list, which is a stretch for this catalog's focus on developer tooling.
+    - No AI features, coding agents, or AI workflows are described in the provided inputs.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (8769) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.684Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:51.598Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:16:07.321Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

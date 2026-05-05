@@ -1,0 +1,87 @@
+id: github__marcoramilli__slopcodemonitor.ai
+kind: github-repo
+name: slopcodemonitor.ai
+canonical_url: https://github.com/marcoramilli/slopcodemonitor.ai
+identity:
+  github_repo: marcoramilli/slopcodemonitor.ai
+provenance:
+  discoveries:
+    - id: discovery__github__marcoramilli__slopcodemonitor.ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: scraped
+        section_path:
+          - Code Review and Refactoring
+        anchor_text: AICodeSlopMonitor
+        extracted_url: https://slopcodemonitor.ai
+        surrounding_text: "- **[AICodeSlopMonitor](https://slopcodemonitor.ai/)** – Detects low-quality and AI-generated code patterns to help developers review and improve codebases."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: null
+    archived: false
+    created_at: "2026-04-17T22:18:44Z"
+    pushed_at: "2026-04-30T08:07:27Z"
+    description: Monitors Slop Codes in Public famous repositories
+    homepage: https://slopcodemonitor.ai
+    topics:
+      - ai
+      - ai-agents
+      - ai-tools
+      - code-analysis
+      - code-analysis-tool
+      - code-analyzer
+      - code-review
+    last_checked_at: "2026-05-05T21:03:29.069Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:29.069Z"
+      bytes: 6052
+insights:
+  summary: A daily automated scanner that analyzes trending GitHub repositories to detect and score AI-generated code patterns using the SynthScan fingerprint engine.
+  why_it_matters: It provides developers and maintainers with visibility into the prevalence of low-quality AI-generated 'slop' within popular open-source projects.
+  mental_damage: We've reached the point where we need automated tools to tell us how much of the code was written by the very tools we bought to save us time.
+  tags:
+    - code-analysis
+    - code-quality
+    - ai-detection
+    - github-scanner
+  confidence: medium
+curation:
+  status: included
+  reason: The project functions as an evaluation and observability layer for AI-generated code quality across the open-source ecosystem, fitting the evals category.
+  evidence:
+    - README describes it as a system that computes a 'Synth Score' (0-10) for repositories based on synthetic patterns.
+    - It is listed in awesome-ai-coding-tools under the 'Code Review and Refactoring' section.
+    - The tool generates daily reports and dashboards analyzing the behavior and output quality of AI coding assistance.
+placement:
+  primary_category: evals
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.705Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:29.069Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:35:34.760Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

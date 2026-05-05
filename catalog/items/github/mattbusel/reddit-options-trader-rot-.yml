@@ -1,0 +1,88 @@
+id: github__mattbusel__reddit-options-trader-rot-
+kind: github-repo
+name: reddit-options-trader-rot-
+canonical_url: https://github.com/mattbusel/reddit-options-trader-rot-
+identity:
+  github_repo: mattbusel/reddit-options-trader-rot-
+provenance:
+  discoveries:
+    - id: discovery__github__mattbusel__reddit-options-trader-rot-__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: Mattbusel/Reddit-Options-Trader-ROT-
+        extracted_url: https://github.com/mattbusel/reddit-options-trader-rot-
+        surrounding_text: "- [Mattbusel/Reddit-Options-Trader-ROT-](https://github.com/Mattbusel/Reddit-Options-Trader-ROT-) 🐍 ☁️ - The first financial intelligence MCP server. Live AI-scored trading signals from Reddit, SEC filings, FDA approvals, Congressional trades, and 15+ sources. 7 tools, 2 resources, hosted remotely, free, no API key required."
+        confidence: high
+metadata:
+  github:
+    stars: 9
+    forks: 6
+    license: MIT
+    archived: false
+    created_at: "2026-01-04T20:58:52Z"
+    pushed_at: "2026-04-27T04:35:01Z"
+    description: A modular research pipeline that turns trending Reddit discussions into structured market events and options trade ideas.
+    homepage: https://web-production-71423.up.railway.app/
+    topics:
+      - finance
+      - nlp
+      - options-trading
+      - python
+      - reddit
+      - signals
+    last_checked_at: "2026-05-05T21:03:31.647Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:31.647Z"
+      bytes: 44020
+insights:
+  summary: A modular Python research pipeline that scrapes trending Reddit discussions to generate structured market events and options trade ideas, featuring a paper trading simulator and an options chain analyzer.
+  why_it_matters: It provides developers with a ready-made, local NLP-to-finance pipeline and API surface for building custom market-signal bots without relying on opaque SaaS platforms.
+  mental_damage: Yet another ambitious attempt to beat Wall Street using Python scripts and Reddit sentiment, proving that the hardest part of algorithmic trading is resisting the urge to automate your own gambling.
+  tags:
+    - finance
+    - nlp
+    - python
+    - reddit
+    - options-trading
+  confidence: high
+curation:
+  status: excluded
+  reason: Excluded because, despite being listed in awesome-mcp-servers, the project is a finance/bot application for options trading rather than a developer-facing AI tool, agent, or infrastructure component.
+  evidence:
+    - Repo description explicitly defines it as a 'research pipeline' for 'market events and options trade ideas', not a developer tool.
+    - Source-list context places it in 'Finance & Fintech' under MCP servers, but the core utility is trading signals, not aiding software development workflows.
+    - The README emphasizes 'Options Paper Trader' and 'Signal Strength Ranker' classes, targeting traders rather than engineers editing code or building AI infrastructure.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.705Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:31.647Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:36:08.956Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

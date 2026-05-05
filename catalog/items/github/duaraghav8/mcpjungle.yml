@@ -1,0 +1,89 @@
+id: github__duaraghav8__mcpjungle
+kind: github-repo
+name: mcpjungle
+canonical_url: https://github.com/duaraghav8/mcpjungle
+identity:
+  github_repo: duaraghav8/mcpjungle
+provenance:
+  discoveries:
+    - id: discovery__github__duaraghav8__mcpjungle__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🔗 <a name="aggregators"></a>Aggregators
+        anchor_text: duaraghav8/MCPJungle
+        extracted_url: https://github.com/duaraghav8/mcpjungle
+        surrounding_text: "- [duaraghav8/MCPJungle](https://github.com/duaraghav8/MCPJungle) 🏎️ 🏠 - Self-hosted MCP Server registry for enterprise AI Agents"
+        confidence: high
+metadata:
+  github:
+    stars: 1000
+    forks: 132
+    license: MPL-2.0
+    archived: false
+    created_at: "2025-05-15T12:31:06Z"
+    pushed_at: "2026-05-04T21:08:13Z"
+    description: One place to manage all your MCP servers
+    homepage: https://docs.mcpjungle.com
+    topics:
+      - ai-agents
+      - infrastructure
+      - mcp
+      - mcp-gateway
+      - mcp-registry
+      - mcp-server
+      - model-context-protocol
+      - self-hosted
+    last_checked_at: "2026-05-05T21:01:57.801Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:57.801Z"
+      bytes: 35867
+insights:
+  summary: A self-hosted MCP gateway that lets developers expose multiple MCP servers behind a single endpoint for centralized discovery, access control, and client configuration.
+  why_it_matters: It removes the need to wire every MCP server into every AI client individually, giving teams a single control point for tools, prompts, and resources.
+  mental_damage: We now have a gateway to manage the servers that manage the tools that manage the models that were supposed to manage our workload.
+  tags:
+    - mcp
+    - gateway
+    - self-hosted
+    - infrastructure
+  confidence: high
+curation:
+  status: included
+  reason: "The project is explicitly MCP infrastructure: a self-hosted gateway, registry, and middleware layer for managing MCP servers, which fits the MCP category precisely."
+  evidence:
+    - "Repo description states: 'One place to manage all your MCP servers'"
+    - "README: 'MCPJungle is a self-hosted MCP gateway for developers and teams who want to manage multiple MCP servers'"
+    - Listed in awesome-mcp-servers under Server Implementations > Aggregators
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1000) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.441Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:57.801Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:17:16.049Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

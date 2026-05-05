@@ -1,0 +1,102 @@
+id: github__mcpware__ui-annotator-mcp
+kind: github-repo
+name: ui-annotator-mcp
+canonical_url: https://github.com/mcpware/ui-annotator-mcp
+identity:
+  github_repo: mcpware/ui-annotator-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__mcpware__ui-annotator-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: mcpware/ui-annotator-mcp
+        extracted_url: https://github.com/mcpware/ui-annotator-mcp
+        surrounding_text: "- [mcpware/ui-annotator-mcp](https://github.com/mcpware/ui-annotator-mcp) [![mcpware/ui-annotator-mcp MCP server](https://glama.ai/mcp/servers/mcpware/ui-annotator-mcp/badges/score.svg)](https://glama.ai/mcp/servers/mcpware/ui-annotator-mcp) 📇 🏠 - Annotates any web page with hover labels for AI assistants — reverse proxy injection, zero browser extensions. `npx @mcpware/ui-annotator`"
+        confidence: high
+metadata:
+  github:
+    stars: 5
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2026-03-19T19:51:55Z"
+    pushed_at: "2026-03-24T20:55:33Z"
+    description: MCP server that annotates any web page with hover labels — zero extensions, works in any browser
+    homepage: null
+    topics:
+      - accessibility
+      - ai-tools
+      - anthropic
+      - automation
+      - browser-automation
+      - claude
+      - claude-code
+      - developer-tools
+      - devtools
+      - frontend
+      - llm
+      - llm-tools
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - open-source
+      - reverse-proxy
+      - typescript
+      - web-development
+      - web-scraping
+    last_checked_at: "2026-05-05T21:03:33.764Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:33.764Z"
+      bytes: 9628
+insights:
+  summary: An MCP server that acts as a reverse proxy to inject hover annotations onto any web page, giving AI assistants human-readable names for UI elements.
+  why_it_matters: It bridges the communication gap between developers and coding agents by providing a shared visual vocabulary for UI elements, turning vague 'that button' requests into precise, editable instructions.
+  mental_damage: We have successfully built a proxy server just so our AI can finally understand which div we are pointing at, proving that the modern web stack is now too complex for the bots we built to automate it.
+  tags:
+    - mcp
+    - ui-annotation
+    - browser-automation
+    - devtools
+    - claude
+  confidence: high
+curation:
+  status: included
+  reason: The project is a dedicated Model Context Protocol server designed to augment AI assistants with structured UI data, fitting squarely into the MCP infrastructure category.
+  evidence:
+    - Repo description explicitly identifies it as an 'MCP server' for web page annotation.
+    - README confirms it provides MCP tools like `get_elements()` and `annotate(url)` for AI integration.
+    - Featured in the 'awesome-mcp-servers' list under 'Developer Tools' implementations.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.706Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:33.764Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:36:33.881Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

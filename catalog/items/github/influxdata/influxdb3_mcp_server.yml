@@ -1,0 +1,81 @@
+id: github__influxdata__influxdb3_mcp_server
+kind: github-repo
+name: influxdb3_mcp_server
+canonical_url: https://github.com/influxdata/influxdb3_mcp_server
+identity:
+  github_repo: influxdata/influxdb3_mcp_server
+provenance:
+  discoveries:
+    - id: discovery__github__influxdata__influxdb3_mcp_server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🗄️ <a name="databases"></a>Databases
+        anchor_text: InfluxData/influxdb3_mcp_server
+        extracted_url: https://github.com/influxdata/influxdb3_mcp_server
+        surrounding_text: "- [InfluxData/influxdb3_mcp_server](https://github.com/influxdata/influxdb3_mcp_server) 🎖️ 📇 🏠 ☁️ - Official MCP server for InfluxDB 3 Core/Enterprise/Cloud Dedicated"
+        confidence: high
+metadata:
+  github:
+    stars: 30
+    forks: 12
+    license: NOASSERTION
+    archived: false
+    created_at: "2025-05-23T20:42:11Z"
+    pushed_at: "2026-04-23T14:21:23Z"
+    description: MCP Server for InfluxDB 3
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:02:43.223Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:43.223Z"
+      bytes: 11463
+insights:
+  summary: An official MCP server from InfluxData that exposes InfluxDB 3 operations—including queries, writes, and database management—as tools and resources for MCP clients.
+  why_it_matters: It lets developers and AI agents interact with InfluxDB 3 instances directly through MCP-compatible workflows, bridging time-series data operations with modern AI tooling.
+  mental_damage: We have successfully abstracted away the database CLI so that an AI agent can now irreversibly delete your production measurements with a confidently hallucinated token request.
+  tags:
+    - mcp
+    - influxdb
+    - database
+    - time-series
+  confidence: high
+curation:
+  status: included
+  reason: This is a first-party MCP server implementation for InfluxDB 3, cleanly fitting the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states 'MCP Server for InfluxDB 3'.
+    - README details MCP tools, resources, and prompts for InfluxDB v3 integration.
+    - Listed under 'Server Implementations > Databases' in the awesome-mcp-servers directory.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.698Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:43.223Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:25:56.718Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,82 @@
+id: github__kukapay__wallet-inspector-mcp
+kind: github-repo
+name: wallet-inspector-mcp
+canonical_url: https://github.com/kukapay/wallet-inspector-mcp
+identity:
+  github_repo: kukapay/wallet-inspector-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__kukapay__wallet-inspector-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: kukapay/wallet-inspector-mcp
+        extracted_url: https://github.com/kukapay/wallet-inspector-mcp
+        surrounding_text: "- [kukapay/wallet-inspector-mcp](https://github.com/kukapay/wallet-inspector-mcp) 🐍 ☁️ -  An MCP server that empowers AI agents to inspect any wallet’s balance and onchain activity across major EVM chains and Solana chain."
+        confidence: high
+metadata:
+  github:
+    stars: 8
+    forks: 6
+    license: MIT
+    archived: false
+    created_at: "2025-06-01T09:38:13Z"
+    pushed_at: "2025-06-01T09:39:07Z"
+    description: An MCP server that empowers AI agents to inspect any wallet’s balance and onchain activity across major EVM chains and Solana chain.
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:03:13.299Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:13.299Z"
+      bytes: 6275
+insights:
+  summary: An MCP server that allows AI agents to query wallet balances, activity, and transaction history across major EVM chains and Solana using the Dune SIM API.
+  why_it_matters: It bridges onchain data with AI assistants, enabling developers to build agents that can natively audit addresses, track assets, or debug DeFi flows without wiring up custom API glue.
+  mental_damage: We have successfully reached the point where a blockchain wallet can be inspected by an AI agent that is technically employed by a chat interface running on a laptop, and the most impressive part is that the README has more localized versions than GitHub stars.
+  tags:
+    - mcp
+    - web3
+    - evm
+    - solana
+    - wallet
+  confidence: medium
+curation:
+  status: included
+  reason: The project is a clear implementation of a Model Context Protocol server designed to extend AI assistants with specific onchain data capabilities.
+  evidence:
+    - Repo description explicitly states it is 'An MCP server that empowers AI agents to inspect any wallet'.
+    - Installation instructions show integration with Claude Desktop via `mcp install`.
+    - Listed in the awesome-mcp-servers directory under Server Implementations > Finance & Fintech.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.703Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:13.299Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:32:31.784Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

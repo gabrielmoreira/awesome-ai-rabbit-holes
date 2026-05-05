@@ -1,0 +1,87 @@
+id: github__mhmzdev__figma-flutter-mcp
+kind: github-repo
+name: figma-flutter-mcp
+canonical_url: https://github.com/mhmzdev/figma-flutter-mcp
+identity:
+  github_repo: mhmzdev/figma-flutter-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__mhmzdev__figma-flutter-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: mhmzdev/Figma-Flutter-MCP
+        extracted_url: https://github.com/mhmzdev/figma-flutter-mcp
+        surrounding_text: "- [mhmzdev/Figma-Flutter-MCP](https://github.com/mhmzdev/Figma-Flutter-MCP) 📇 🏠 - Provide coding agents direct access to Figma data to help them write Flutter code for building apps including assets exports, widgets maintenance and full screens implementations."
+        confidence: high
+metadata:
+  github:
+    stars: 236
+    forks: 21
+    license: MIT
+    archived: false
+    created_at: "2025-08-20T05:20:47Z"
+    pushed_at: "2026-02-27T04:33:45Z"
+    description: An MCP server that provides the coding agents Figma's design token to write Flutter code.
+    homepage: ""
+    topics:
+      - design
+      - figma
+      - figma-flutter-mcp
+      - flutter
+      - mcp
+    last_checked_at: "2026-05-05T21:03:37.244Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:37.244Z"
+      bytes: 10848
+insights:
+  summary: An MCP server that extracts Figma design data, components, and screen metadata to help coding agents generate Flutter implementations.
+  why_it_matters: It bridges the gap between Figma design files and Flutter development by giving AI coding agents structured design context instead of raw screenshots.
+  mental_damage: We have successfully abstracted away the pain of hand-writing Flutter UI by adding a specialized MCP server that requires its own API key, configuration JSON, and a live Cursor window to interpret the design tokens we used to copy-paste.
+  tags:
+    - mcp
+    - flutter
+    - figma
+    - design-to-code
+    - cursor
+  confidence: high
+curation:
+  status: included
+  reason: The project is an MCP server that provides Figma design context to coding agents, which fits cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description states it is 'An MCP server that provides the coding agents Figma's design token to write Flutter code.'
+    - README demonstrates configuration for Cursor's MCP settings with 'npx figma-flutter-mcp' and Figma API key setup.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (236) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.706Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:37.244Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:37:11.152Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

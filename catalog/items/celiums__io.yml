@@ -1,0 +1,76 @@
+id: celiums__io
+kind: website
+name: celiums.io
+canonical_url: https://celiums.io
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__celiums__io__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: Website
+        extracted_url: https://celiums.io
+        surrounding_text: "- [celiums/celiums-memory](https://github.com/terrizoaguimor/celiums-memory) [![celiums-memory MCP server](https://glama.ai/mcp/servers/terrizoaguimor/celiums-memory/badges/score.svg)](https://glama.ai/mcp/servers/terrizoaguimor/celiums-memory) 📇 🏠 ☁️ 🍎 🪟 🐧 - Cognitive memory engine with 5,100+ knowledge modules, circadian rhythm awareness, and emotional state tracking (PAD model). Hybrid search (PostgreSQL + Qdrant vectors + Valkey cache), per-user memory isolation, and multi-protocol support (MCP, REST, OpenAI, LangChain, A2A). `npx @celiums/memory` [Website](https://celiums.io)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Celiums.io is a Model Context Protocol (MCP) server implementation focused on knowledge and memory management.
+  why_it_matters: It provides developers with a standardized way to give their AI agents persistent memory and knowledge retrieval capabilities via the MCP standard.
+  mental_damage: "Just what we needed: another layer of abstraction to help our agents remember that they forgot the context we already paid to process."
+  tags:
+    - mcp
+    - memory
+    - knowledge
+    - server
+  confidence: medium
+curation:
+  status: included
+  reason: The project is explicitly listed as an MCP Server Implementation for Knowledge & Memory in the awesome-mcp-servers directory, fitting the MCP category.
+  evidence:
+    - Listed in the 'Server Implementations > Knowledge & Memory' section of awesome-mcp-servers.
+    - URL resolves to a dedicated product domain (celiums.io) rather than a generic repo.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.726Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:42:41.779Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

@@ -1,0 +1,96 @@
+id: github__federiconeri__wiggum-cli
+kind: github-repo
+name: wiggum-cli
+canonical_url: https://github.com/federiconeri/wiggum-cli
+identity:
+  github_repo: federiconeri/wiggum-cli
+provenance:
+  discoveries:
+    - id: discovery__github__federiconeri__wiggum-cli__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: scraped
+        section_path:
+          - Coding Agents
+        anchor_text: Wiggum CLI
+        extracted_url: https://wiggum.app
+        surrounding_text: "- **[Wiggum CLI](https://wiggum.app)** – Open-source agent that scans codebases, generates specs through AI interviews, and runs autonomous coding loops via Claude Code or Codex. Agent mode ships GitHub issues end-to-end."
+        confidence: high
+metadata:
+  github:
+    stars: 7
+    forks: 0
+    license: NOASSERTION
+    archived: false
+    created_at: "2026-01-19T21:01:50Z"
+    pushed_at: "2026-04-13T06:26:09Z"
+    description: AI agent CLI for spec-driven feature loops with Claude Code and Codex. Scans your stack, generates specs, and runs autonomous implement-test-fix cycles.
+    homepage: https://wiggum.app
+    topics:
+      - ai
+      - ai-agent
+      - autonomous-coding
+      - backlog-automation
+      - claude-code
+      - cli
+      - codex
+      - developer-tools
+      - feature-loop
+      - feature-specs
+      - open-source
+      - ralph-loop
+      - spec-generation
+      - tech-stack-detection
+      - terminal-ui
+      - typescript
+    last_checked_at: "2026-05-05T21:02:09.300Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:09.300Z"
+      bytes: 15004
+insights:
+  summary: A terminal-based AI agent CLI that scans existing codebases, generates feature specifications through AI interviews, and runs autonomous implement-test-fix loops using Claude Code or Codex.
+  why_it_matters: It aims to close the gap between a backlog item and a merged PR by automating the spec generation and coding loop directly within your existing repository.
+  mental_damage: We have officially reached the point where the agent needs an agent to interview you about the agent's work before the agent begins the agentic loop.
+  tags:
+    - cli
+    - spec-driven
+    - autonomous
+    - ralph-loop
+  confidence: medium
+curation:
+  status: included
+  reason: The tool operates as a CLI coding agent that collaborates on source code inside a repo via autonomous loops, fitting the Coding Agents category.
+  evidence:
+    - Repo description states it is an 'AI agent CLI for spec-driven feature loops' that runs 'autonomous implement-test-fix cycles'.
+    - README explains it plugs into any codebase to scan, interview, and delegate coding loops to Claude Code or Codex CLI.
+    - Listed in awesome-ai-coding-tools under the 'Coding Agents' section.
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.687Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:09.300Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:19:15.208Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

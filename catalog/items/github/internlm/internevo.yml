@@ -1,0 +1,99 @@
+id: github__internlm__internevo
+kind: github-repo
+name: internevo
+canonical_url: https://github.com/internlm/internevo
+identity:
+  github_repo: internlm/internevo
+provenance:
+  discoveries:
+    - id: discovery__github__internlm__internevo__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 微调 Fine-Tuning
+        anchor_text: InternEvo
+        extracted_url: https://github.com/internlm/internevo
+        surrounding_text: "36. [InternEvo](https://github.com/InternLM/InternEvo): an open-sourced lightweight training framework aims to support model pre-training without the need for extensive dependencies."
+        confidence: high
+metadata:
+  github:
+    stars: 419
+    forks: 68
+    license: Apache-2.0
+    archived: false
+    created_at: "2024-01-16T06:57:08Z"
+    pushed_at: "2025-08-21T02:35:36Z"
+    description: InternEvo is an open-sourced lightweight training framework aims to support model pre-training without the need for extensive dependencies.
+    homepage: https://internevo.readthedocs.io/zh-cn/latest/?badge=latest
+    topics:
+      - 910b
+      - deepspeed-ulysses
+      - flash-attention
+      - gemma
+      - internlm
+      - internlm2
+      - llama3
+      - llava
+      - llm-framework
+      - llm-training
+      - multi-modal
+      - pipeline-parallelism
+      - pytorch
+      - ring-attention
+      - sequence-parallelism
+      - tensor-parallelism
+      - transformers-models
+      - zero3
+    last_checked_at: "2026-05-05T21:02:45.576Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:45.576Z"
+      bytes: 8006
+insights:
+  summary: InternEvo is an open-source, lightweight LLM training framework designed to support model pre-training and fine-tuning on clusters or single GPUs with minimal dependencies.
+  why_it_matters: It provides a streamlined, high-efficiency path for developers to pre-train or fine-tune large language models across thousands of GPUs without grappling with extensive dependency trees.
+  mental_damage: "Just what the ecosystem needed: another high-performance torch-based training loop to make you question why your 'lightweight' setup requires a cluster of 1024 GPUs to prove its efficiency."
+  tags:
+    - llm-training
+    - pytorch
+    - fine-tuning
+    - open-source
+    - distributed-training
+  confidence: high
+curation:
+  status: excluded
+  reason: Excluded because the project is a framework for training large language models (ML research/infrastructure), not a developer tool for building software, editing code, or integrating AI into applications.
+  evidence:
+    - Repo description explicitly states it is a 'lightweight training framework' for 'model pre-training'.
+    - README focuses on LLM training workflows, dataset preparation, and torchrun/slurm cluster commands.
+    - Topics include deepspeed-ulysses, flash-attention, and tensor-parallelism, indicating an ML research tool rather than a developer utility.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (419) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.698Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:45.576Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:26:18.529Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

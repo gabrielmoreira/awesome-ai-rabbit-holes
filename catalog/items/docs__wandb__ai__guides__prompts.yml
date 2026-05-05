@@ -1,0 +1,76 @@
+id: docs__wandb__ai__guides__prompts
+kind: website
+name: prompts
+canonical_url: https://docs.wandb.ai/guides/prompts
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__docs__wandb__ai__guides__prompts__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - LLMOps
+        anchor_text: Weights & Biases (Prompts)
+        extracted_url: https://docs.wandb.ai/guides/prompts
+        surrounding_text: "| [Weights & Biases (Prompts)](https://docs.wandb.ai/guides/prompts) | A suite of LLMOps tools within the developer-first W&B MLOps platform. Utilize W&B Prompts for visualizing and inspecting LLM execution flow, tracking inputs and outputs, viewing intermediate results, securely managing prompts and LLM chain configurations.                                                                                                                                        |                                                                                                           |"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Documentation and guides for managing, versioning, and evaluating prompts within the Weights & Biases experiment tracking platform.
+  why_it_matters: It provides developers with a structured way to track prompt iterations, model inputs, and outputs alongside standard ML experiment metrics.
+  mental_damage: Yet another reminder that your prompt engineering workflow is now serious enough to require its own dashboard, version control, and observability suite.
+  tags:
+    - prompt-management
+    - llmops
+    - wandb
+    - experiment-tracking
+  confidence: medium
+curation:
+  status: included
+  reason: The project is a documentation hub for prompt management and evaluation within an LLMOps platform, fitting the context-engineering category's focus on prompt systems and infrastructure.
+  evidence:
+    - URL points to W&B prompts documentation (docs.wandb.ai/guides/prompts)
+    - Listed in Awesome-LLMOps under the 'LLMOps' section
+    - Focus is on prompt design, management, and evaluation rather than direct code editing
+placement:
+  primary_category: context-engineering
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.444Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T20:49:25.653Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+    next_retry_at: null

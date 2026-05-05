@@ -1,0 +1,95 @@
+id: github__fatwang2__search1api-mcp
+kind: github-repo
+name: search1api-mcp
+canonical_url: https://github.com/fatwang2/search1api-mcp
+identity:
+  github_repo: fatwang2/search1api-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__fatwang2__search1api-mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Search1API
+        extracted_url: https://github.com/fatwang2/search1api-mcp
+        surrounding_text: "- **[Search1API](https://github.com/fatwang2/search1api-mcp)** - One API for Search, Crawling, and Sitemaps"
+        confidence: high
+    - id: discovery__github__fatwang2__search1api-mcp__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - 🔎 Search
+        anchor_text: fatwang2/search1api-mcp
+        extracted_url: https://github.com/fatwang2/search1api-mcp
+        surrounding_text: "-   **[fatwang2/search1api-mcp](https://github.com/fatwang2/search1api-mcp)** [![GitHub stars](https://img.shields.io/github/stars/fatwang2/search1api-mcp?style=social)](https://github.com/fatwang2/search1api-mcp): Performs searches via search1api."
+        confidence: high
+metadata:
+  github:
+    stars: 172
+    forks: 38
+    license: MIT
+    archived: false
+    created_at: "2024-11-26T09:03:56Z"
+    pushed_at: "2026-03-13T04:23:25Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:08.552Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:08.552Z"
+      bytes: 4746
+insights:
+  summary: An official MCP server for Search1API that exposes web search, news, crawling, trending topics, and reasoning tools to MCP-compatible clients like Claude, Cursor, and VS Code.
+  why_it_matters: It gives coding agents and IDEs a unified, drop-in interface to query multiple search providers, crawl pages, and pull trending developer content without wiring separate APIs.
+  mental_damage: We have successfully abstracted the act of Googling into a protocol, so your agent can now burn tokens to rediscover Stack Overflow on your behalf.
+  tags:
+    - mcp
+    - search
+    - tooling
+    - ide-integration
+  confidence: high
+curation:
+  status: included
+  reason: This is a standalone MCP server implementation that integrates Search1API with MCP clients, fitting cleanly into MCP infrastructure rather than being a coding agent, extension, or app builder.
+  evidence:
+    - README explicitly describes this as 'the official MCP server for Search1API' with remote and local stdio support.
+    - Included in awesome-mcp-list (Search section) and awesome-mcp-servers (Official Servers section).
+    - Provides MCP tools (search, news, crawl, sitemap, trending, reasoning) configured for Claude, Cursor, VS Code, Windsurf, and Claude Code.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (172) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.665Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:08.552Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:19:09.064Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

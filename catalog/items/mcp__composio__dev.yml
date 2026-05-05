@@ -1,0 +1,76 @@
+id: mcp__composio__dev
+kind: website
+name: mcp.composio.dev
+canonical_url: https://mcp.composio.dev
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__mcp__composio__dev__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 模型上下文协议 MCP
+        anchor_text: mcp.composio.dev
+        extracted_url: https://mcp.composio.dev
+        surrounding_text: 8. [mcp.composio.dev](https://mcp.composio.dev/)
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A web directory and registry for discovering Model Context Protocol (MCP) servers and tools.
+  why_it_matters: It centralizes the rapidly expanding ecosystem of MCP integrations, making it easier for developers to find the right tools to connect AI models to external data and APIs.
+  mental_damage: Just when you thought you had a handle on the LLM wrapper landscape, we've invented a protocol for the protocol so you can spend your afternoon browsing directories instead of writing code.
+  tags:
+    - mcp
+    - directory
+    - registry
+    - tooling
+  confidence: medium
+curation:
+  status: included
+  reason: The project is a registry and toolkit specifically for the Model Context Protocol, fitting squarely into the MCP infrastructure category.
+  evidence:
+    - URL is mcp.composio.dev, indicating a specific focus on the MCP ecosystem.
+    - Listed in the awesome-LLM-resources directory under the section for 模型上下文协议 MCP (Model Context Protocol).
+    - The name and context imply a directory/tooling role for MCP servers rather than being a generic AI tool.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.728Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:46:17.369Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

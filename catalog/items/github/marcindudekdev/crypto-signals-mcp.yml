@@ -1,0 +1,81 @@
+id: github__marcindudekdev__crypto-signals-mcp
+kind: github-repo
+name: crypto-signals-mcp
+canonical_url: https://github.com/marcindudekdev/crypto-signals-mcp
+identity:
+  github_repo: marcindudekdev/crypto-signals-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__marcindudekdev__crypto-signals-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: MarcinDudekDev/crypto-signals-mcp
+        extracted_url: https://github.com/marcindudekdev/crypto-signals-mcp
+        surrounding_text: "- [MarcinDudekDev/crypto-signals-mcp](https://github.com/MarcinDudekDev/crypto-signals-mcp) [![crypto-signals-mcp MCP server](https://glama.ai/mcp/servers/@MarcinDudekDev/crypto-signals-mcp/badges/score.svg)](https://glama.ai/mcp/servers/@MarcinDudekDev/crypto-signals-mcp) 🐍 ☁️ - Real-time crypto volume anomaly detection across 50+ tokens. Detects unusual trading activity, whale movements, and pump signals via live API."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 1
+    license: null
+    archived: false
+    created_at: "2026-03-04T17:53:08Z"
+    pushed_at: "2026-03-05T15:02:14Z"
+    description: MCP server for real-time crypto volume anomaly detection across 50+ tokens. Detects unusual trading activity, whale movements, and pump signals.
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:03:28.877Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:28.877Z"
+      bytes: 1830
+insights:
+  summary: An MCP server that provides real-time cryptocurrency volume anomaly detection, whale movement tracking, and pump signal alerts across 50+ tokens for AI assistants.
+  why_it_matters: Developers building trading bots or crypto dashboards can wire up live anomaly detection directly into their AI assistant workflows via the Model Context Protocol.
+  mental_damage: Your AI assistant can now theoretically help you time the market, which is the exact kind of responsibility-shirking feature that will eventually require a new category of risk-management middleware.
+  tags:
+    - mcp
+    - crypto
+    - trading
+    - anomaly-detection
+  confidence: high
+curation:
+  status: included
+  reason: The project is a Model Context Protocol server that exposes crypto signal tools to MCP-compatible clients like Claude Desktop, fitting cleanly into the MCP infrastructure category.
+  evidence:
+    - Repo description explicitly calls it an 'MCP server for real-time crypto volume anomaly detection'.
+    - README includes configuration instructions for Claude Desktop via claude_desktop_config.json.
+    - Listed under 'Server Implementations > Finance & Fintech' in the awesome-mcp-servers directory.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.705Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:28.877Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:35:32.948Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,76 @@
+id: api__star__history__com__svg
+kind: website
+name: svg
+canonical_url: https://api.star-history.com/svg
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__api__star__history__com__svg__awesome-list__shubhamsaboo__awesome-llm-apps
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: Shubhamsaboo/awesome-llm-apps
+        url: https://github.com/shubhamsaboo/awesome-llm-apps
+        repository: Shubhamsaboo/awesome-llm-apps
+      extraction:
+        mode: parsed
+        section_path:
+          - ⭐ Star History
+        anchor_text: "![Star History Chart"
+        extracted_url: https://api.star-history.com/svg
+        surrounding_text: "[![Star History Chart](https://api.star-history.com/svg?repos=Shubhamsaboo/awesome-llm-apps&type=Date)](https://star-history.com/#Shubhamsaboo/awesome-llm-apps&Date)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A URL endpoint for the Star History API that returns an SVG chart of a repository's star history.
+  why_it_matters: Developers can embed live, auto-updating star-history badges directly into GitHub READMEs without relying on external image proxies.
+  mental_damage: We have reached the point where maintaining a badge endpoint for a chart of GitHub stars is considered a core component of the modern AI app stack.
+  tags:
+    - star-history
+    - svg
+    - badges
+    - readme
+  confidence: high
+curation:
+  status: excluded
+  reason: This is an API endpoint for a charting badge, not a developer-facing AI tool, agent, workflow, or infrastructure component.
+  evidence:
+    - URL is an API endpoint (api.star-history.com/svg), not a tool or agent
+    - No repo description, README, or context indicating AI functionality
+    - Listed under 'Star History' in awesome-llm-apps, but the tool itself is a generic charting utility
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.726Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T20:49:08.709Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

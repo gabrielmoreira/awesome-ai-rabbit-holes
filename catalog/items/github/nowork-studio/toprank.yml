@@ -1,0 +1,97 @@
+id: github__nowork-studio__toprank
+kind: github-repo
+name: toprank
+canonical_url: https://github.com/nowork-studio/toprank
+identity:
+  github_repo: nowork-studio/toprank
+provenance:
+  discoveries:
+    - id: discovery__github__nowork-studio__toprank__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Agent infrastructure
+        anchor_text: toprank
+        extracted_url: https://github.com/nowork-studio/toprank
+        surrounding_text: "- **[toprank](https://github.com/nowork-studio/toprank)** `⭐ 1.6k` — Claude Code plugin with 9 SEO and Google Ads skills. Connects Google Search Console, PageSpeed Insights, and the Google Ads API, then ships fixes (meta tags, JSON-LD schema, keyword bids) directly to source code or CMS. Open-source, MIT."
+        confidence: high
+    - id: discovery__github__nowork-studio__toprank__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Developer Productivity Tools
+        anchor_text: toprank
+        extracted_url: https://github.com/nowork-studio/toprank
+        surrounding_text: "- **[toprank](https://github.com/nowork-studio/toprank)** – Open-source (MIT) Claude Code plugin with 9 SEO and Google Ads skills. Connects Google Search Console, PageSpeed Insights, and the Google Ads API to audit traffic, ship meta tag and schema markup fixes, and manage ad campaigns directly from Claude Code."
+        confidence: high
+metadata:
+  github:
+    stars: 1690
+    forks: 235
+    license: MIT
+    archived: false
+    created_at: "2026-03-27T06:39:58Z"
+    pushed_at: "2026-05-03T08:02:42Z"
+    description: Open-source Claude Code skills for SEO, GEO, Google Ads, Meta Ads
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:03:56.422Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:56.422Z"
+      bytes: 18269
+insights:
+  summary: A collection of Claude Code skills that connect to Google Search Console, Google Ads, and Meta Ads to audit, diagnose, and apply changes to SEO and ad campaigns from the CLI.
+  why_it_matters: Developers running marketing for indie products can diagnose wasted ad spend and fix SEO issues inline while already working in their coding agent, without context-switching to dashboards.
+  mental_damage: We have finally achieved the singular point of failure where your coding agent can now tank your ad budget and rewrite your meta tags in the same afternoon.
+  tags:
+    - claude-code
+    - seo
+    - ads
+    - skills
+    - marketing
+  confidence: high
+curation:
+  status: included
+  reason: The primary artifact is a reusable skill pack for Claude Code, distributing slash-command skills for SEO and ads rather than being a standalone coding agent or general extension.
+  evidence:
+    - Repo description explicitly states 'Open-source Claude Code skills for SEO, GEO, Google Ads, Meta Ads'.
+    - README shows skills invoked as /toprank:* commands inside Claude Code and describes it as 'a Claude Code plugin'.
+    - Installation is done via /plugin marketplace add and /plugin install inside Claude Code.
+placement:
+  primary_category: skills
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1690) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.669Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:56.422Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:40:58.718Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,82 @@
+id: github__indigoprotocol__indigo-mcp
+kind: github-repo
+name: indigo-mcp
+canonical_url: https://github.com/indigoprotocol/indigo-mcp
+identity:
+  github_repo: indigoprotocol/indigo-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__indigoprotocol__indigo-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: IndigoProtocol/indigo-mcp
+        extracted_url: https://github.com/indigoprotocol/indigo-mcp
+        surrounding_text: "- [IndigoProtocol/indigo-mcp](https://github.com/IndigoProtocol/indigo-mcp) [![indigo-mcp MCP server](https://glama.ai/mcp/servers/IndigoProtocol/indigo-mcp/badges/score.svg)](https://glama.ai/mcp/servers/IndigoProtocol/indigo-mcp) 📇 ☁️ 🏠 - MCP server for Indigo Protocol on Cardano — iAsset prices, CDP/loan analytics, stability pools, INDY staking, governance, and DEX data for LLM agents"
+        confidence: high
+metadata:
+  github:
+    stars: 2
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2025-09-17T15:53:21Z"
+    pushed_at: "2026-04-29T18:08:29Z"
+    description: "MCP for connecting LLMs to Indigo Protocol data "
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:02:42.836Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:42.836Z"
+      bytes: 35850
+insights:
+  summary: An MCP server that exposes Indigo Protocol's Cardano DeFi data, including iAsset prices, CDP analytics, and governance info, to LLM agents via the Model Context Protocol.
+  why_it_matters: Developers building LLM agents on Cardano can plug this in to give their models real-time access to DeFi positions and protocol data without writing custom API integrations.
+  mental_damage: We have officially reached the point where a protocol needs its own MCP server just so your AI can nervously check if its CDP is about to get liquidated at 3 AM.
+  tags:
+    - mcp
+    - cardano
+    - defi
+    - llm-integration
+    - protocol
+  confidence: high
+curation:
+  status: included
+  reason: The project is a dedicated MCP server that provides protocol-specific tools and skills for LLM agents, fitting cleanly into the MCP infrastructure category.
+  evidence:
+    - Repo description explicitly states 'MCP for connecting LLMs to Indigo Protocol data'
+    - README describes 63 tools and 13 skills for Cardano DeFi available via the Model Context Protocol
+    - Listed in awesome-mcp-servers under 'Finance & Fintech' section
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.698Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:42.836Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:25:50.505Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

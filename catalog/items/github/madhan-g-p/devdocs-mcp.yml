@@ -1,0 +1,85 @@
+id: github__madhan-g-p__devdocs-mcp
+kind: github-repo
+name: devdocs-mcp
+canonical_url: https://github.com/madhan-g-p/devdocs-mcp
+identity:
+  github_repo: madhan-g-p/devdocs-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__madhan-g-p__devdocs-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: madhan-g-p/DevDocs-MCP
+        extracted_url: https://github.com/madhan-g-p/devdocs-mcp
+        surrounding_text: "- [madhan-g-p/DevDocs-MCP](https://github.com/madhan-g-p/DevDocs-MCP) 📇 🏠 🍎 🐧 - DevDocs-MCP is a MCP server that provides version-pinned, deterministic documentation sourced from [DevDocs.io](https://devdocs.io) in offline mode"
+        confidence: high
+metadata:
+  github:
+    stars: 11
+    forks: 2
+    license: NOASSERTION
+    archived: false
+    created_at: "2026-01-18T08:00:00Z"
+    pushed_at: "2026-04-12T07:45:10Z"
+    description: Documentation Authority for AI Agents based upon Devdocs
+    homepage: https://registry.modelcontextprotocol.io/?q=io.github.madhan-g-p%2Fdevdocs-mcp
+    topics:
+      - ai-agents
+      - devdocs
+      - mcp-server
+    last_checked_at: "2026-05-05T21:03:27.107Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:27.107Z"
+      bytes: 9105
+insights:
+  summary: A local MCP server that provides version-pinned, offline documentation from DevDocs.io to AI coding assistants to reduce hallucinations and version drift.
+  why_it_matters: It allows IDE agents to ground their code suggestions in the exact dependency versions defined in your project's package.json, eliminating the need to context-stuff documentation manually.
+  mental_damage: We have successfully built a middleware to feed the middleware, ensuring our agents can hallucinate about React 18 APIs with locally cached authority.
+  tags:
+    - mcp
+    - documentation
+    - context-engineering
+    - local-first
+    - nestjs
+  confidence: medium
+curation:
+  status: included
+  reason: The project is explicitly an MCP server implementation designed to serve documentation via the Model Context Protocol, fitting the dedicated MCP category.
+  evidence:
+    - "Repo description states: 'Documentation Authority for AI Agents based upon Devdocs' and topics include 'mcp-server'."
+    - README defines it as 'A local MCP server written in NestJS' that provides documentation to AI assistants via MCP.
+    - Listed in 'awesome-mcp-servers' under 'Server Implementations > Developer Tools'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.705Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:27.107Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:35:13.294Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

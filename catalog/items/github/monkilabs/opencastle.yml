@@ -1,0 +1,102 @@
+id: github__monkilabs__opencastle
+kind: github-repo
+name: opencastle
+canonical_url: https://github.com/monkilabs/opencastle
+identity:
+  github_repo: monkilabs/opencastle
+provenance:
+  discoveries:
+    - id: discovery__github__monkilabs__opencastle__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Orchestrators & autonomous loops
+        anchor_text: OpenCastle
+        extracted_url: https://github.com/monkilabs/opencastle
+        surrounding_text: "- **[OpenCastle](https://github.com/monkilabs/opencastle)** `⭐ 42` — Multi-agent orchestration framework that turns AI coding assistants (Copilot, Cursor, Claude Code, OpenCode, Windsurf, Codex CLI) into 19 coordinated specialist agents. CLI-driven (`npx opencastle init`), with task decomposition, parallel work, and quality gates. MIT."
+        confidence: high
+metadata:
+  github:
+    stars: 43
+    forks: 7
+    license: MIT
+    archived: false
+    created_at: "2026-02-26T06:28:10Z"
+    pushed_at: "2026-04-20T08:30:21Z"
+    description: Multi agens orchestration setup for Github Copilot, Cursor, Claude Code, OpenCode, Windsurf, Codex and Antigravity.
+    homepage: http://www.opencastle.dev/
+    topics:
+      - ai
+      - ai-agents
+      - ai-agents-automation
+      - ai-agents-cli
+      - ai-agents-framework
+      - ai-agents-mcp
+      - ai-coding-agent
+      - ai-coding-assistant
+      - ai-coding-tools
+      - claude-ai
+      - copilot
+      - copilot-coding-agent
+      - cursor-ai
+      - multi-agent
+      - multi-agent-system
+      - orchestration
+      - orchestration-framework
+      - orchestration-systems
+      - vibe-coding
+      - vibecoding
+    last_checked_at: "2026-05-05T21:03:46.697Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:46.697Z"
+      bytes: 8770
+insights:
+  summary: A CLI tool that sets up multi-agent orchestration, specialist agents, and reusable skills for AI coding assistants including GitHub Copilot, Cursor, Claude Code, and Windsurf.
+  why_it_matters: It lets developers decompose tasks across specialist agents and run them interactively in the IDE or as batch jobs via the Convoy Engine, with cost-aware model routing and built-in quality gates.
+  mental_damage: You now have a panel of AI agents that can review, dispute, and vote on each other’s output, turning your solo repo into a corporate committee that never goes home.
+  tags:
+    - multi-agent
+    - orchestration
+    - cli
+    - skills
+    - copilot
+  confidence: high
+curation:
+  status: included
+  reason: OpenCastle is an extension layer that adds multi-agent orchestration, skills, and workflows on top of existing coding assistants rather than being a primary coding agent itself.
+  evidence:
+    - "Repo description: 'Multi agens orchestration setup for Github Copilot, Cursor, Claude Code, OpenCode, Windsurf, Codex and Antigravity.'"
+    - "README: 'Turn your AI coding assistant into a multi-agent team' and generates IDE-specific configs like .cursorrules and CLAUDE.md."
+    - Source list inclusion under 'Harnesses & orchestration > Orchestrators & autonomous loops' in awesome-cli-coding-agents.
+placement:
+  primary_category: ai-dev-extensions
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.708Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:46.697Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:39:01.064Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

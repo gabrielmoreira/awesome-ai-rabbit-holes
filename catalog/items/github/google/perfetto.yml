@@ -1,0 +1,82 @@
+id: github__google__perfetto
+kind: github-repo
+name: perfetto
+canonical_url: https://github.com/google/perfetto
+identity:
+  github_repo: google/perfetto
+provenance:
+  discoveries:
+    - id: discovery__github__google__perfetto__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: scraped
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: Perfetto
+        extracted_url: https://perfetto.dev
+        surrounding_text: "- [tooluse-labs/perfetto-mcp-rs](https://github.com/tooluse-labs/perfetto-mcp-rs) [![tooluse-labs/perfetto-mcp-rs MCP server](https://glama.ai/mcp/servers/tooluse-labs/perfetto-mcp-rs/badges/score.svg)](https://glama.ai/mcp/servers/tooluse-labs/perfetto-mcp-rs) 🦀 🏠 🍎 🪟 🐧 - MCP server for [Perfetto](https://perfetto.dev) trace analysis. Runs PerfettoSQL queries on `.perfetto-trace` / `.pftrace` files via auto-downloaded `trace_processor_shell`, with dedicated Chrome tools for page loads, scroll jank, main-thread hotspots, and stdlib module discovery. Cross-client tested on Claude Code and Codex. Available via `cargo install`, Homebrew tap, and curl install script."
+        confidence: high
+metadata:
+  github:
+    stars: 5892
+    forks: 769
+    license: Apache-2.0
+    archived: false
+    created_at: "2019-12-10T10:32:44Z"
+    pushed_at: "2026-05-05T20:23:13Z"
+    description: Production-grade client-side tracing, profiling, and analysis for complex software systems.
+    homepage: https://www.perfetto.dev
+    topics: []
+    last_checked_at: "2026-05-05T21:02:24.517Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:24.517Z"
+      bytes: 4599
+insights:
+  summary: Perfetto is an open-source suite of SDKs, daemons, and tools for high-performance client-side tracing, profiling, and SQL-based trace analysis across Android, Linux, Chromium, and other complex systems.
+  why_it_matters: It gives developers a unified, production-grade pipeline to instrument apps, capture system-wide context, and query multi-GB traces locally to root-cause performance issues and jank.
+  mental_damage: You’ll spend hours crafting the perfect trace query to prove your app is fast, then realize you’ve been profiling the profiler.
+  tags:
+    - tracing
+    - profiling
+    - performance
+    - android
+    - linux
+  confidence: high
+curation:
+  status: excluded
+  reason: Although it appears in an awesome-mcp-servers list, Perfetto itself is a traditional system profiling and tracing suite with no AI-focused developer-tooling surface, which falls outside the catalog’s scope.
+  evidence:
+    - Repo description and README describe it as a production-grade tracing, profiling, and analysis suite for Android, Chromium, and Linux.
+    - No mention of AI, LLMs, coding agents, or AI-assisted workflows in the README excerpt or description.
+    - Appears in awesome-mcp-servers, but the listing appears to be a community-contributed MCP bridge rather than Perfetto itself being an AI developer tool.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (5892) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.689Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:24.517Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:22:09.450Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,81 @@
+id: github__bitteprotocol__mcp
+kind: github-repo
+name: mcp
+canonical_url: https://github.com/bitteprotocol/mcp
+identity:
+  github_repo: bitteprotocol/mcp
+provenance:
+  discoveries:
+    - id: discovery__github__bitteprotocol__mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: bitteprotocol/mcp
+        extracted_url: https://github.com/bitteprotocol/mcp
+        surrounding_text: "- [bitteprotocol/mcp](https://github.com/BitteProtocol/mcp) 📇 - Bitte Protocol integration to run AI Agents on several blockchains."
+        confidence: high
+metadata:
+  github:
+    stars: 13
+    forks: 3
+    license: null
+    archived: false
+    created_at: "2025-03-17T14:51:20Z"
+    pushed_at: "2025-04-09T14:42:28Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:01:21.747Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:21.747Z"
+      bytes: 1240
+insights:
+  summary: A Monorepo providing an MCP (Model Context Protocol) server implementation for Bitte AI integrations, deployable via a standard SSE endpoint.
+  why_it_matters: It allows developers to extend AI clients like Cursor with financial and Bitte-specific tooling by adding a simple server URL to their configuration.
+  mental_damage: Just when you thought 'MCP' stood for something stable, here comes a new repo claiming the acronym while you manually paste JSON endpoints into your IDE settings.
+  tags:
+    - mcp
+    - bitte-ai
+    - fintech
+    - monorepo
+  confidence: medium
+curation:
+  status: included
+  reason: The project is a distinct implementation of an MCP server for Bitte AI, fitting the MCP infrastructure category.
+  evidence:
+    - README identifies this as an 'MCP (Model Control Protocol) server' with a specific SSE URI (https://mcp.bitte.ai/sse).
+    - Includes instructions for integration into 'Curser Settings' via the mcpServers JSON configuration.
+    - Listed in the awesome-mcp-servers directory under the Finance & Fintech section.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.681Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:21.747Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:10:59.073Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

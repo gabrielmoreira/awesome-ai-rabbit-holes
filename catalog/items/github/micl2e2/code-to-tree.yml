@@ -1,0 +1,96 @@
+id: github__micl2e2__code-to-tree
+kind: github-repo
+name: code-to-tree
+canonical_url: https://github.com/micl2e2/code-to-tree
+identity:
+  github_repo: micl2e2/code-to-tree
+provenance:
+  discoveries:
+    - id: discovery__github__micl2e2__code-to-tree__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🤖 <a name="coding-agents"></a>Coding Agents
+        anchor_text: micl2e2/code-to-tree
+        extracted_url: https://github.com/micl2e2/code-to-tree
+        surrounding_text: "- [micl2e2/code-to-tree](https://github.com/micl2e2/code-to-tree) 🌊 🏠 📟 🐧 🪟 🍎 - A single-binary MCP server that converts source code into AST, regardless of language."
+        confidence: high
+metadata:
+  github:
+    stars: 83
+    forks: 11
+    license: MIT
+    archived: false
+    created_at: "2025-05-17T09:55:01Z"
+    pushed_at: "2026-03-14T02:22:44Z"
+    description: A runtime-free MCP server that converts source code into AST🌲, regardless of language.
+    homepage: ""
+    topics:
+      - abstract-syntax-tree
+      - agentic
+      - ast
+      - claude
+      - dependency-free
+      - llm
+      - mcp
+      - mcp-server
+      - mcp-tools
+      - no-runtime-dependencies
+      - runtime-free
+      - syntax-analysis
+      - syntax-tree
+      - tree-sitter
+    last_checked_at: "2026-05-05T21:03:37.680Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:37.680Z"
+      bytes: 5485
+insights:
+  summary: A runtime-free MCP server that converts source code into abstract syntax trees (ASTs) using tree-sitter for multiple languages including C, C++, Rust, Ruby, Go, Java, and Python.
+  why_it_matters: It gives coding agents a reliable way to parse code structure directly, rather than trusting an LLM to hallucinate its own syntax understanding.
+  mental_damage: We have officially reached the point where we need a dedicated server just to help the AI remember what a parenthesis looks like.
+  tags:
+    - mcp
+    - ast
+    - tree-sitter
+    - syntax-analysis
+    - llm-tooling
+  confidence: high
+curation:
+  status: included
+  reason: The project is a standalone MCP server designed to provide AST parsing capabilities to MCP clients like Claude, fitting squarely into MCP infrastructure.
+  evidence:
+    - "Repo description explicitly states: 'A runtime-free MCP server that converts source code into AST'."
+    - README confirms it is configured as an MCP server for clients like Claude Desktop.
+    - Listed in awesome-mcp-servers under 'Server Implementations'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.706Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:37.680Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:37:17.675Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

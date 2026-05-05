@@ -1,0 +1,92 @@
+id: github__mlrun__mlrun
+kind: github-repo
+name: mlrun
+canonical_url: https://github.com/mlrun/mlrun
+identity:
+  github_repo: mlrun/mlrun
+provenance:
+  discoveries:
+    - id: discovery__github__mlrun__mlrun__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Training
+          - Experiment Tracking
+        anchor_text: MLRun
+        extracted_url: https://github.com/mlrun/mlrun
+        surrounding_text: "| [MLRun](https://github.com/mlrun/mlrun)                | Machine Learning automation and tracking.                                                                                                                                                                                                                                                                                                                                                                                                                                 | ![GitHub Badge](https://img.shields.io/github/stars/mlrun/mlrun.svg?style=flat-square)             |"
+        confidence: high
+metadata:
+  github:
+    stars: 1666
+    forks: 304
+    license: Apache-2.0
+    archived: false
+    created_at: "2019-09-01T16:59:19Z"
+    pushed_at: "2026-05-05T19:07:10Z"
+    description: MLRun is an open source MLOps platform for quickly building and managing continuous ML applications across their lifecycle. MLRun integrates into your development and CI/CD environment and automates the delivery of production data, ML pipelines, and online applications.
+    homepage: https://mlrun.org
+    topics:
+      - data-engineering
+      - data-science
+      - experiment-tracking
+      - kubernetes
+      - machine-learning
+      - mlops
+      - mlops-workflow
+      - model-serving
+      - python
+      - workflow
+    last_checked_at: "2026-05-05T21:03:44.047Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:44.047Z"
+      bytes: 13516
+insights:
+  summary: MLRun is an open source AI orchestration platform for building and managing continuous ML and gen AI applications across their lifecycle, integrating with development and CI/CD environments to automate data, pipeline, and model serving.
+  why_it_matters: It gives developers a unified, code-first framework to move gen AI experiments into production pipelines with integrated data management, model fine-tuning, and serverless deployment.
+  mental_damage: Yet another platform promising to break down silos between every team in the building, as if a Kubernetes-backed workflow orchestrator is what was missing from your already fragile cocktail of MLOps tools.
+  tags:
+    - mlops
+    - ai-orchestration
+    - genai
+    - kubernetes
+    - pipelines
+  confidence: high
+curation:
+  status: included
+  reason: MLRun is a code-first SDK and orchestration framework that developers import and use to build ML/gen AI workflows, fitting the AI Frameworks and SDKs category rather than a control-plane orchestration platform.
+  evidence:
+    - Repo description states it is an open source MLOps platform integrating into development and CI/CD environments to automate ML pipelines and applications.
+    - README excerpt describes building automated ML pipelines, working with RAG, fine-tuning LLMs, and serving models using serverless functions via code and tutorials.
+    - Listed in Awesome-LLMOps under 'Training > Experiment Tracking', showing relevance to developer-facing ML/AI tooling.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1666) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.707Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:44.047Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:38:30.392Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

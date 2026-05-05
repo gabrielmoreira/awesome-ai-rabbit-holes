@@ -1,0 +1,76 @@
+id: julius__ai__use__cases
+kind: website
+name: use_cases
+canonical_url: https://julius.ai/use_cases
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__julius__ai__use__cases__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Julius
+          - Description
+        anchor_text: Use cases
+        extracted_url: https://julius.ai/use_cases
+        surrounding_text: "- [Use cases](https://julius.ai/use_cases)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A catalog page listing practical use cases for Julius AI, an autonomous agent platform for data analysis and visualization.
+  why_it_matters: It provides developers and analysts with concrete patterns for applying autonomous agents to structured data workflows rather than just generic chat.
+  mental_damage: We now have agents writing essays about why you should let them analyze your CSVs, and somehow we’re calling this a use-case library instead of a warning sign.
+  tags:
+    - agents
+    - data-analysis
+    - autonomous-agents
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a marketing use-case page for a general-purpose data analysis agent, not a developer-facing tool, IDE, framework, or infrastructure component.
+  evidence:
+    - The URL points to a use-case listing page (julius.ai/use_cases), not a developer tool or repository.
+    - Seen in awesome-ai-agents under Julius, which describes a general data-analysis agent rather than a coding assistant.
+    - No repo description, README, or code-level inputs indicating developer tooling, SDKs, or IDE integration.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.728Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:45:44.507Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

@@ -1,0 +1,77 @@
+id: platform__openai__com__docs__guides__gpt__function__calling
+kind: website
+name: function-calling
+canonical_url: https://platform.openai.com/docs/guides/gpt/function-calling
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__platform__openai__com__docs__guides__gpt__function__calling__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Agents
+          - Description
+        anchor_text: function-calling
+        extracted_url: https://platform.openai.com/docs/guides/gpt/function-calling
+        surrounding_text: "-   **Tool Usage**: Language agents in the library can use any external tools via  [function-calling](https://platform.openai.com/docs/guides/gpt/function-calling)  and developers can add customized tools/APIs  [here](https://github.com/aiwaves-cn/agents/blob/master/src/agents/Component/ToolComponent.py)."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: OpenAI’s function calling documentation explains how to connect GPT models to external tools by describing functions the model can request to invoke.
+  why_it_matters: It defines the standard pattern developers use to let models trigger real API calls, database queries, and actions instead of just generating text.
+  mental_damage: We have built an entire industry around teaching a probabilistic text generator how to pretend it knows how to use a calculator.
+  tags:
+    - openai
+    - function-calling
+    - llm-integration
+    - api
+  confidence: high
+curation:
+  status: excluded
+  reason: This is vendor documentation for a hosted API feature, not a standalone developer tool, agent, framework, or product.
+  evidence:
+    - URL points to platform.openai.com/docs, which is documentation rather than a tool or repo.
+    - No repo description, stars, or code artifacts are present to indicate a shippable developer tool.
+    - Listed in awesome-ai-agents only as a capability description, not as an agent product itself.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.729Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:47:01.154Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

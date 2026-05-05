@@ -1,0 +1,96 @@
+id: github__lamemind__mcp-server-multiverse
+kind: github-repo
+name: mcp-server-multiverse
+canonical_url: https://github.com/lamemind/mcp-server-multiverse
+identity:
+  github_repo: lamemind/mcp-server-multiverse
+provenance:
+  discoveries:
+    - id: discovery__github__lamemind__mcp-server-multiverse__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: lamemind/mcp-server-multiverse
+        extracted_url: https://github.com/lamemind/mcp-server-multiverse
+        surrounding_text: "- [lamemind/mcp-server-multiverse](https://github.com/lamemind/mcp-server-multiverse) 📇 🏠 🛠️ - A middleware server that enables multiple isolated instances of the same MCP servers to coexist independently with unique namespaces and configurations."
+        confidence: high
+    - id: discovery__github__lamemind__mcp-server-multiverse__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - 🛠️ Utilities
+        anchor_text: "@lamemind/mcp-server-multiverse"
+        extracted_url: https://github.com/lamemind/mcp-server-multiverse
+        surrounding_text: "-   **[@lamemind/mcp-server-multiverse](https://github.com/lamemind/mcp-server-multiverse)** [![GitHub stars](https://img.shields.io/github/stars/lamemind/mcp-server-multiverse?style=social)](https://github.com/lamemind/mcp-server-multiverse): Allows multiple isolated instances of MCP servers to coexist."
+        confidence: high
+metadata:
+  github:
+    stars: 77
+    forks: 14
+    license: MIT
+    archived: false
+    created_at: "2025-01-29T15:22:06Z"
+    pushed_at: "2026-03-30T07:18:48Z"
+    description: A middleware server that enables multiple isolated instances of the same MCP servers to coexist independently with unique namespaces and configurations.
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:03:15.160Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:15.160Z"
+      bytes: 9216
+insights:
+  summary: A middleware server that enables multiple isolated instances of the same MCP servers to run simultaneously with unique namespaces, configurations, and automatic restart capabilities.
+  why_it_matters: It lets developers run multiple contexts (e.g., job vs. side project) of the same MCP server without configuration conflicts or environment variable collisions.
+  mental_damage: We have invented a multiverse just so our AI can safely forget which MySQL database it is supposed to be breaking at any given moment.
+  tags:
+    - mcp
+    - middleware
+    - tooling
+    - local-ai
+  confidence: high
+curation:
+  status: included
+  reason: The project is a middleware layer explicitly built for the Model Context Protocol ecosystem, fitting the MCP Servers and Tooling category.
+  evidence:
+    - Repo description defines it as 'A middleware server that enables multiple isolated instances of the same MCP servers'.
+    - Included in awesome-mcp-list under 'Utilities' and awesome-mcp-servers under 'Developer Tools'.
+    - README demonstrates configuration for multiple instances of standard MCP servers like mcp-server-mysql and mcp-server-filesystem.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.668Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:15.160Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:32:56.013Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,107 @@
+id: github__upstash__context7
+kind: github-repo
+name: context7
+canonical_url: https://github.com/upstash/context7
+identity:
+  github_repo: upstash/context7
+provenance:
+  discoveries:
+    - id: discovery__context7__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Developer Productivity Tools
+        anchor_text: Context7
+        extracted_url: https://context7.com
+        surrounding_text: "- **[Context7](https://context7.com/)** – MCP server providing up-to-date library documentation to LLMs and AI editors."
+        confidence: high
+    - id: discovery__github__upstash__context7-mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Context 7
+        extracted_url: https://github.com/upstash/context7-mcp
+        surrounding_text: "- **[Context 7](https://github.com/upstash/context7-mcp)** - Context7 MCP - Up-to-date Docs For Any Cursor Prompt"
+        confidence: high
+    - id: discovery__github__upstash__context7__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: upstash/context7
+        extracted_url: https://github.com/upstash/context7
+        surrounding_text: "- [upstash/context7](https://github.com/upstash/context7) 📇 ☁️ - Up-to-date code documentation for LLMs and AI code editors."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Context7 provides up-to-date, version-specific library documentation and code examples directly into AI coding tools like Cursor, Claude Code, and Windsurf.
+  why_it_matters: It reduces hallucinations and outdated code suggestions by supplying large language models with current, version-specific context for external libraries.
+  mental_damage: We have successfully engineered a system to feed documentation to the AI because apparently the human's job is now verifying if the bot read the changelog.
+  tags:
+    - ai-coding-assistant
+    - context-retrieval
+    - documentation
+    - upstash
+  confidence: high
+curation:
+  status: included
+  reason: The product primarily augments existing AI coding assistants (like Cursor and Claude Code) with fresh documentation rather than acting as a standalone coding agent or IDE.
+  evidence:
+    - Scraped site description states it pulls docs 'directly into Cursor, Claude Code, Windsurf, and other AI coding tools'.
+    - Listed in awesome-ai-coding-tools under 'Developer Productivity Tools' specifically for enhancing LLM context.
+placement:
+  primary_category: ai-dev-extensions
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:43:14.199Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.727Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

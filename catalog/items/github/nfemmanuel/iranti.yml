@@ -1,0 +1,81 @@
+id: github__nfemmanuel__iranti
+kind: github-repo
+name: iranti
+canonical_url: https://github.com/nfemmanuel/iranti
+identity:
+  github_repo: nfemmanuel/iranti
+provenance:
+  discoveries:
+    - id: discovery__github__nfemmanuel__iranti__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: nfemmanuel/iranti
+        extracted_url: https://github.com/nfemmanuel/iranti
+        surrounding_text: "- [nfemmanuel/iranti](https://github.com/nfemmanuel/iranti) 📇 🏠 ☁️ 🍎 🪟 🐧 - Persistent shared memory for AI coding agents. Stores facts as `entity/key/value` triples with hybrid semantic search, task checkpoints, and conflict resolution — shared across Claude Code, Codex CLI, and GitHub Copilot."
+        confidence: high
+metadata:
+  github:
+    stars: 3
+    forks: 0
+    license: NOASSERTION
+    archived: false
+    created_at: "2026-02-28T08:44:49Z"
+    pushed_at: "2026-04-15T19:35:23Z"
+    description: Memory infrastructure for multi-agent AI systems. Shared, persistent, consistent knowledge for agents that need to stop forgetting.
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:03:54.176Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:54.176Z"
+      bytes: 14862
+insights:
+  summary: A self-hosted MCP server that provides persistent, identity-based memory and cross-tool state sharing for AI coding assistants like Claude Code, Codex CLI, and GitHub Copilot.
+  why_it_matters: It allows developers to maintain consistent context and recall facts across different AI tools and sessions, reducing the need to re-explain project state after context resets.
+  mental_damage: We have finally solved the problem of AI tools forgetting what you told them five minutes ago, provided you are willing to host your own PostgreSQL database to remember which files you changed.
+  tags:
+    - mcp
+    - memory
+    - context
+    - multi-agent
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server focused on memory infrastructure, which fits squarely into the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description states: 'Memory infrastructure for multi-agent AI systems...'"
+    - README identifies it as a 'self-hosted MCP server' and lists MCP setup commands for Claude, Codex, and Copilot.
+    - Listed in awesome-mcp-servers under 'Knowledge & Memory' section.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.709Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:54.176Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:40:30.304Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

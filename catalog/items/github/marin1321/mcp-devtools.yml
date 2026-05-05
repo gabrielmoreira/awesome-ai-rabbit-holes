@@ -1,0 +1,81 @@
+id: github__marin1321__mcp-devtools
+kind: github-repo
+name: mcp-devtools
+canonical_url: https://github.com/marin1321/mcp-devtools
+identity:
+  github_repo: marin1321/mcp-devtools
+provenance:
+  discoveries:
+    - id: discovery__github__marin1321__mcp-devtools__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: marin1321/mcp-devtools
+        extracted_url: https://github.com/marin1321/mcp-devtools
+        surrounding_text: "- [marin1321/mcp-devtools](https://github.com/marin1321/mcp-devtools) [![marin1321/mcp-devtools MCP server](https://glama.ai/mcp/servers/marin1321/mcp-devtools/badges/score.svg)](https://glama.ai/mcp/servers/marin1321/mcp-devtools) 📇 🏠 🍎 🪟 🐧 - Production-grade MCP server for secure access to local dev environments (filesystem, databases, processes, OpenAPI). Includes scope enforcement, command allowlist, and read-only DB mode."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-04-27T21:11:45Z"
+    pushed_at: "2026-05-04T15:20:23Z"
+    description: AI-native developer tools via MCP — filesystem, databases, processes and OpenAPI for any MCP-compatible agent
+    homepage: https://mcp-devtools-site-oscar-marins-projects.vercel.app
+    topics: []
+    last_checked_at: "2026-05-05T21:03:29.773Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:29.773Z"
+      bytes: 6459
+insights:
+  summary: A production-oriented MCP server that gives AI agents secure, scoped access to local developer tools including the filesystem, databases, shell processes, and OpenAPI endpoints.
+  why_it_matters: It provides a unified, security-hardened bridge for coding agents to interact with local dev environments without requiring custom adapters for every new tool.
+  mental_damage: "Just what we needed: another layer of infrastructure so our agents can run shell commands and query databases while we pretend the filesystem is still under our control."
+  tags:
+    - mcp
+    - developer-tools
+    - agent-infrastructure
+    - local-ai
+  confidence: medium
+curation:
+  status: included
+  reason: The project is explicitly an MCP server providing tooling infrastructure for agents, which fits cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description states it is 'AI-native developer tools via MCP' with filesystem, database, process, and OpenAPI capabilities.
+    - README describes a production-grade MCP server with 14 tools, 3 resources, 4 prompts, and plugin API for agents like Claude and Cursor.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools' section.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.705Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:29.773Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:35:45.549Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,82 @@
+id: github__mwg-logan__central-memory-mcp
+kind: github-repo
+name: central-memory-mcp
+canonical_url: https://github.com/mwg-logan/central-memory-mcp
+identity:
+  github_repo: mwg-logan/central-memory-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__mwgmorningwood__central-memory-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: MWGMorningwood/Central-Memory-MCP
+        extracted_url: https://github.com/mwgmorningwood/central-memory-mcp
+        surrounding_text: "- [MWGMorningwood/Central-Memory-MCP](https://github.com/MWGMorningwood/Central-Memory-MCP) 📇 ☁️ - An Azure PaaS-hostable MCP server that provides a workspace-grounded knowledge graph for multiple developers using Azure Functions MCP triggers and Table storage."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 3
+    license: MIT
+    archived: false
+    created_at: "2025-07-14T17:26:17Z"
+    pushed_at: "2026-04-27T12:25:21Z"
+    description: A custom fork of @modelcontextprotocol/server-memory using Azure Functions MCP triggers and Table storage.
+    homepage: https://mwg-logan.github.io/Central-Memory-MCP/
+    topics: []
+    last_checked_at: "2026-05-05T21:03:49.800Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:49.800Z"
+      bytes: 2622
+insights:
+  summary: A .NET 10 Azure Functions implementation of an MCP-compliant memory and knowledge graph server that provides durable, workspace-isolated entity and relation storage for AI assistants.
+  why_it_matters: It gives coding agents a persistent, structured memory layer backed by Azure Table storage, allowing AI workflows to retain project context across sessions without relying on local files.
+  mental_damage: Another day, another memory server proving that the hardest problem in AI isn't reasoning—it's remembering what you were doing before the context window threw it all away.
+  tags:
+    - mcp
+    - azure-functions
+    - memory
+    - knowledge-graph
+    - dotnet
+  confidence: medium
+curation:
+  status: included
+  reason: This is a purpose-built MCP server implementation using Azure Functions and Table storage, fitting cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states it is 'A custom fork of @modelcontextprotocol/server-memory using Azure Functions MCP triggers'
+    - README confirms 'Model Context Protocol (MCP) compliant memory & knowledge graph server implemented in .NET 10 (Azure Functions isolated worker)'
+    - Project provides implemented MCP tools (read_graph, upsert_entity, upsert_relation) and HTTP endpoints for client integration
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:39:36.482Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.709Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:49.800Z"
+    cause: null
+    next_retry_at: null

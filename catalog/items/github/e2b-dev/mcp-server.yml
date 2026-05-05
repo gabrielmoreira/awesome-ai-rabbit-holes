@@ -1,0 +1,85 @@
+id: github__e2b-dev__mcp-server
+kind: github-repo
+name: mcp-server
+canonical_url: https://github.com/e2b-dev/mcp-server
+identity:
+  github_repo: e2b-dev/mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__e2b-dev__mcp-server__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: E2B
+        extracted_url: https://github.com/e2b-dev/mcp-server
+        surrounding_text: "- **[E2B](https://github.com/e2b-dev/mcp-server)** - Run code in secure sandboxes hosted by [E2B](https://e2b.dev)"
+        confidence: high
+metadata:
+  github:
+    stars: 395
+    forks: 68
+    license: Apache-2.0
+    archived: true
+    created_at: "2024-12-01T17:26:15Z"
+    pushed_at: "2026-04-16T15:51:25Z"
+    description: Giving Claude ability to run code with E2B via MCP (Model Context Protocol)
+    homepage: ""
+    topics:
+      - anthropic
+      - claude
+      - claude-3-5-sonnet
+      - claude-ai
+      - model-context-protocol
+    last_checked_at: "2026-05-05T21:01:58.952Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:58.952Z"
+      bytes: 1013
+insights:
+  summary: An archived MCP server that gave Claude Desktop the ability to run code inside an E2B sandbox for code interpretation.
+  why_it_matters: It demonstrated how to bridge local AI assistants with isolated cloud sandboxes to safely execute generated code.
+  mental_damage: We built a protocol to let the AI run code in the cloud, then immediately archived the repo to ensure no one could actually run the code.
+  tags:
+    - mcp
+    - claude
+    - sandbox
+    - deprecated
+  confidence: high
+curation:
+  status: excluded
+  reason: The repository is explicitly archived and marked as deprecated, meaning it is no longer maintained and should not be relied upon by developers.
+  evidence:
+    - "Repository has 'archived: yes' status."
+    - README includes a deprecation notice stating it is 'no longer actively maintained'.
+    - Project is listed as an 'Official Server' in awesome-mcp-servers but is defunct.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: needs_review
+  reason: Repository is archived
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.685Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:58.952Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:17:26.728Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

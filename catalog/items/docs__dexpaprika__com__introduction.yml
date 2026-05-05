@@ -1,0 +1,93 @@
+id: docs__dexpaprika__com__introduction
+kind: website
+name: introduction
+canonical_url: https://docs.dexpaprika.com/introduction
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__docs__dexpaprika__com__introduction__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: DexPaprika API
+        extracted_url: https://docs.dexpaprika.com
+        surrounding_text: "- [coinpaprika/dexpaprika-mcp](https://github.com/coinpaprika/dexpaprika-mcp) 🎖️ 📇 ☁️ 🍎 🪟 🐧 - Coinpaprika's DexPaprika MCP server exposes high-performance [DexPaprika API](https://docs.dexpaprika.com) covering 20+ chains and 5M+ tokens with real time pricing, liquidity pool data & historical OHLCV data, providing AI agents standardized access to comprehensive market data through Model Context Protocol."
+        confidence: high
+    - id: discovery__docs__dexpaprika__com__introduction__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: DexPaprika API
+        extracted_url: https://docs.dexpaprika.com
+        surrounding_text: "- **[DexPaprika](https://github.com/coinpaprika/dexpaprika-mcp)** - Access real-time DEX analytics across 20+ blockchains with [DexPaprika API](https://docs.dexpaprika.com), tracking 5M+ tokens, pools, volumes, and historical market data. Built by CoinPaprika."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: DexPaprika provides a REST and streaming API for real-time DEX and on-chain crypto data, including liquidity pools, swaps, and token metrics across 33 blockchain networks.
+  why_it_matters: It offers developers (and their AI agents) structured, near real-time blockchain data without requiring API keys, with official MCP server support for IDE integrations.
+  mental_damage: Another essential API that will inevitably be fed into a vibe-coded trading bot by an agent that confidently explains why a 200ms latency spike means the market is collapsing.
+  tags:
+    - crypto
+    - api
+    - mcp
+    - blockchain
+    - data
+  confidence: high
+curation:
+  status: included
+  reason: The project provides a hosted MCP server and API specifically designed to give AI tools and IDEs structured access to on-chain crypto data.
+  evidence:
+    - Listed in awesome-mcp-servers under 'Server Implementations > Finance & Fintech'.
+    - Documentation explicitly details a 'Hosted MCP Server' and integrations for Cursor, VS Code, and Claude Code.
+    - Provides real-time DEX and on-chain data via REST API and SSE streaming across 33 networks.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.674Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:44:02.440Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

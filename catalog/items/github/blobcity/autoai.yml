@@ -1,0 +1,89 @@
+id: github__blobcity__autoai
+kind: github-repo
+name: autoai
+canonical_url: https://github.com/blobcity/autoai
+identity:
+  github_repo: blobcity/autoai
+provenance:
+  discoveries:
+    - id: discovery__github__blobcity__autoai__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - AutoML
+        anchor_text: autoai
+        extracted_url: https://github.com/blobcity/autoai
+        surrounding_text: "| [autoai](https://github.com/blobcity/autoai)                                 | A framework to find the best performing AI/ML model for any AI problem.                                                                                                         | ![GitHub Badge](https://img.shields.io/github/stars/blobcity/autoai.svg?style=flat-square)                 |"
+        confidence: high
+metadata:
+  github:
+    stars: 186
+    forks: 46
+    license: Apache-2.0
+    archived: false
+    created_at: "2021-08-31T12:15:41Z"
+    pushed_at: "2025-03-25T01:40:10Z"
+    description: Python based framework for Automatic AI for Regression and Classification over numerical data. Performs model search, hyper-parameter tuning, and high-quality Jupyter Notebook code generation.
+    homepage: ""
+    topics:
+      - ai
+      - autoai
+      - automl
+      - codegen
+      - deep-learning
+      - machine-learning
+      - ml
+      - python
+    last_checked_at: "2026-05-05T21:01:22.804Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:22.804Z"
+      bytes: 8169
+insights:
+  summary: A Python framework that automates model selection, hyper-parameter tuning, and Jupyter Notebook code generation for regression and classification tasks on numerical data.
+  why_it_matters: It lets data scientists skip the manual trial-and-error of model tuning by automatically exporting production-ready training code and notebooks.
+  mental_damage: Because nothing says 'Automatic AI' like a tool that still requires a human to manually pick the target column and hope the feature selection doesn't delete the only useful variable.
+  tags:
+    - automl
+    - python
+    - codegen
+    - regression
+    - classification
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a classical AutoML framework for data science workflows, not a developer tool for building software, editing codebases, or creating applications.
+  evidence:
+    - Repo description explicitly targets 'Automatic AI for Regression and Classification over numerical data', not developer tooling.
+    - Found in Awesome-LLMOps under the 'AutoML' section, which aligns with data science rather than the catalog's developer-centric scope.
+    - The README demonstrates a data analysis workflow (train/predict on CSVs) rather than IDE, CLI, or repo-editing capabilities.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (186) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.681Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:22.804Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:11:09.421Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

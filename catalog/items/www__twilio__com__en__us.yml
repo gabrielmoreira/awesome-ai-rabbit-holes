@@ -1,0 +1,76 @@
+id: www__twilio__com__en__us
+kind: website
+name: en-us
+canonical_url: https://www.twilio.com/en-us
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__twilio__com__en__us__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Twilio
+        extracted_url: https://www.twilio.com/en-us
+        surrounding_text: "- **[Twilio](https://github.com/twilio-labs/mcp)** - Interact with [Twilio](https://www.twilio.com/en-us) APIs to send messages, manage phone numbers, configure your account, and more."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Twilio is a customer engagement platform providing communications APIs for SMS, voice, email, and WhatsApp, now incorporating conversational AI and data tools.
+  why_it_matters: It offers developers APIs and infrastructure to build applications that incorporate communication channels and conversational AI agents.
+  mental_damage: Just when you thought your stack was modern enough, the CPaaS giants decided to wrap their SIP trunks in 'AI agents' so you can debug LLM hallucinations inside your 2FA SMS latency logs.
+  tags:
+    - communications-apis
+    - conversational-ai
+    - customer-engagement
+    - platform
+  confidence: high
+curation:
+  status: excluded
+  reason: Twilio is a general communications and customer engagement platform for end-users and enterprises, not a specialized AI tool, agent, or developer workflow product for our catalog.
+  evidence:
+    - The scraped site describes a 'Customer Engagement Platform (CEP) that combines communication APIs with AI' for SMS, Voice, and Email.
+    - The 'awesome-mcp-servers' listing linked to the generic Twilio homepage rather than a specific developer tool or MCP server repo.
+    - No description, README, or code context was provided to suggest this is a specialized AI coding tool, agent, or local model runtime.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.734Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:53:59.902Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

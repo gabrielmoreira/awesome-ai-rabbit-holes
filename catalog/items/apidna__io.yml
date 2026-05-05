@@ -1,0 +1,76 @@
+id: apidna__io
+kind: website
+name: apidna.io
+canonical_url: https://apidna.io
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__apidna__io__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - APIDNA
+        anchor_text: APIDNA
+        extracted_url: https://apidna.ai
+        surrounding_text: "## [APIDNA](https://apidna.ai/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: APIDNA is a SaaS platform that builds and operates vertically-trained AI agents to automate complex enterprise workflows across APIs, ERPs, and legacy systems.
+  why_it_matters: It provides developers with an execution layer for deploying domain-specific agents that handle integration, state management, and compliance in regulated environments without building custom orchestration from scratch.
+  mental_damage: Yet another reminder that while we’re prompt-engineering a to-do app for the tenth time, the enterprises are quietly deploying agents that reconcile millions of transactions while we debug a 500 error from a generic chatbot.
+  tags:
+    - agent-orchestration
+    - enterprise
+    - workflow-automation
+    - saas
+  confidence: medium
+curation:
+  status: included
+  reason: The product is an end-user platform for coordinating multiple specialized AI agents across enterprise systems, fitting the definition of agent orchestration rather than a coding assistant or app builder.
+  evidence:
+    - Scraped site context describes 'agent orchestration' and 'multi-agent coordination at enterprise scale'.
+    - Listed under 'awesome-ai-agents' with the description 'Vertically-trained agentic systems that execute real-world workflows'.
+    - Primary surface is a hosted platform (agent.apidna.io) focused on operational workflow execution, not IDE code editing.
+placement:
+  primary_category: agent-orchestration
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.726Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:41:59.427Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

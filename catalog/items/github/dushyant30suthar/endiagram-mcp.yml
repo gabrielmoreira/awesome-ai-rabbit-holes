@@ -1,0 +1,81 @@
+id: github__dushyant30suthar__endiagram-mcp
+kind: github-repo
+name: endiagram-mcp
+canonical_url: https://github.com/dushyant30suthar/endiagram-mcp
+identity:
+  github_repo: dushyant30suthar/endiagram-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__dushyant30suthar__endiagram-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: endiagram/mcp
+        extracted_url: https://github.com/dushyant30suthar/endiagram-mcp
+        surrounding_text: "- [endiagram/mcp](https://github.com/dushyant30suthar/endiagram-mcp) [![endiagram MCP server](https://glama.ai/mcp/servers/dushyant30suthar/endiagram-mcp/badges/score.svg)](https://glama.ai/mcp/servers/dushyant30suthar/endiagram-mcp) 📇 ☁️ - Structural analysis for any system — 12 deterministic graph tools (topology, bottlenecks, blast radius, trace, diff, centrality) from EN syntax descriptions. No AI inside the computation. Install: `npx @endiagram/mcp`"
+        confidence: high
+metadata:
+  github:
+    stars: 7
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2026-03-19T18:47:35Z"
+    pushed_at: "2026-04-21T17:48:41Z"
+    description: "MCP server for EN Diagram — structural analysis for any system. Install: npx @endiagram/mcp"
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:01:57.861Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:57.861Z"
+      bytes: 5471
+insights:
+  summary: An MCP server that connects AI coding assistants to EN Diagram, enabling deterministic structural analysis of systems using graph theory and mathematical theorems.
+  why_it_matters: It lets developers ask an AI agent to validate system architecture, check for deadlocks, and verify invariants without the AI guessing—backed by actual math instead of vibes.
+  mental_damage: We have finally reached the point where the AI admits it doesn't know your system is broken and politely hands the question to a graph-theory oracle that actually does.
+  tags:
+    - mcp
+    - architecture
+    - graph-theory
+    - developer-tools
+  confidence: medium
+curation:
+  status: included
+  reason: The project is explicitly an MCP server that integrates with Claude Code, Cursor, and Claude Desktop to provide structural analysis tooling, fitting cleanly into the MCP category.
+  evidence:
+    - "Repo description states: 'MCP server for EN Diagram — structural analysis for any system.'"
+    - README provides connection instructions for Claude Code, Claude Desktop, Cursor, and Smithery.
+    - Listed under 'Server Implementations > Developer Tools' in the awesome-mcp-servers directory.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.685Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:57.861Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:17:20.476Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

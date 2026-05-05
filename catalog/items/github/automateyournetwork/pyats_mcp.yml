@@ -1,0 +1,81 @@
+id: github__automateyournetwork__pyats_mcp
+kind: github-repo
+name: pyats_mcp
+canonical_url: https://github.com/automateyournetwork/pyats_mcp
+identity:
+  github_repo: automateyournetwork/pyats_mcp
+provenance:
+  discoveries:
+    - id: discovery__github__automateyournetwork__pyats_mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🤖 <a name="coding-agents"></a>Coding Agents
+        anchor_text: automateyournetwork/pyATS_MCP
+        extracted_url: https://github.com/automateyournetwork/pyats_mcp
+        surrounding_text: "- [automateyournetwork/pyATS_MCP](https://github.com/automateyournetwork/pyATS_MCP) - Cisco pyATS server enabling structured, model-driven interaction with network devices."
+        confidence: high
+metadata:
+  github:
+    stars: 72
+    forks: 26
+    license: MIT
+    archived: false
+    created_at: "2025-04-04T16:49:01Z"
+    pushed_at: "2026-04-04T12:52:42Z"
+    description: An MCP Server for pyATS (experimental)
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:01:12.436Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:12.436Z"
+      bytes: 6429
+insights:
+  summary: An MCP server that wraps Cisco pyATS and Genie, allowing AI agents to run show commands, apply configurations, and query network state over STDIO.
+  why_it_matters: It bridges the gap between modern AI coding agents and legacy network infrastructure, letting developers automate device management through natural language workflows.
+  mental_damage: Finally, your LLM can SSH into a Catalyst switch and break your network for you, removing the need for you to manually fat-finger the wrong VLAN.
+  tags:
+    - mcp
+    - network-automation
+    - cisco
+    - pyats
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server implementation designed to integrate network automation tools with AI agents via the Model Context Protocol.
+  evidence:
+    - Repo description states it is 'An MCP Server for pyATS (experimental)'
+    - README confirms it is an 'MCP server that wraps Cisco pyATS and Genie' communicating via STDIO/JSON-RPC
+    - Listed in the awesome-mcp-servers directory under 'Server Implementations'
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.680Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:12.436Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:09:32.390Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

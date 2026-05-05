@@ -1,0 +1,83 @@
+id: github__pacificstudio__openase
+kind: github-repo
+name: openase
+canonical_url: https://github.com/pacificstudio/openase
+identity:
+  github_repo: pacificstudio/openase
+provenance:
+  discoveries:
+    - id: discovery__github__pacificstudio__openase__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Coding Agents
+        anchor_text: OpenASE
+        extracted_url: https://github.com/pacificstudio/openase
+        surrounding_text: "- **[OpenASE](https://github.com/PacificStudio/openase)** – Open-source, ticket-driven software engineering platform that orchestrates Claude Code, Codex, and Gemini CLI agents across your machines with workflows, skills, and full traceability."
+        confidence: high
+metadata:
+  github:
+    stars: 231
+    forks: 21
+    license: Apache-2.0
+    archived: false
+    created_at: "2026-03-19T15:53:38Z"
+    pushed_at: "2026-05-05T03:13:24Z"
+    description: Ticket-Driven Automated Software Engineering. OpenASE is an all-in-one platform that turns tickets into working code — AI agents automatically pick up tickets, execute workflows on your machines, and deliver results with full traceability.
+    homepage: https://pacificstudio.ai
+    topics:
+      - agent
+      - ai
+      - software-engineering
+    last_checked_at: "2026-05-05T21:04:10.505Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:10.505Z"
+      bytes: 16167
+insights:
+  summary: OpenASE is a ticket-driven automated software engineering platform that uses AI agents to pick up tickets, execute workflows on local machines, and deliver working code with full traceability.
+  why_it_matters: It lets teams define work as tickets and have local AI agents autonomously plan and execute changes against their actual codebase, bridging task management and code generation.
+  mental_damage: Finally, a system that turns Jira tickets directly into committed code, so you can skip the middleman and go straight to reviewing pull requests written by agents you didn't hire.
+  tags:
+    - ai-agents
+    - ticket-driven
+    - workflow-automation
+    - go
+  confidence: high
+curation:
+  status: included
+  reason: The tool is an autonomous coding agent platform that executes tickets against a real codebase via local agents, fitting the coding-agents category rather than app-builders or orchestration.
+  evidence:
+    - Repo description states it 'turns tickets into working code' via AI agents executing workflows on your machines.
+    - README describes a ticket-driven model where agents claim tickets and execute workflows on a Machine with an activity stream.
+    - Listed under 'Coding Agents' in the awesome-ai-coding-tools awesome list.
+placement:
+  primary_category: coding-agents
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (231) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.712Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:10.505Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:43:32.993Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

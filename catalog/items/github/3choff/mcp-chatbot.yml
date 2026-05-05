@@ -1,0 +1,81 @@
+id: github__3choff__mcp-chatbot
+kind: github-repo
+name: mcp-chatbot
+canonical_url: https://github.com/3choff/mcp-chatbot
+identity:
+  github_repo: 3choff/mcp-chatbot
+provenance:
+  discoveries:
+    - id: discovery__github__3choff__mcp-chatbot__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Clients
+        anchor_text: MCP-Chatbot
+        extracted_url: https://github.com/3choff/mcp-chatbot
+        surrounding_text: "- **[MCP-Chatbot](https://github.com/3choff/mcp-chatbot)** A simple yet powerful ⭐ CLI chatbot that integrates tool servers with any OpenAI-compatible LLM API."
+        confidence: high
+metadata:
+  github:
+    stars: 248
+    forks: 32
+    license: MIT
+    archived: false
+    created_at: "2024-12-05T19:07:56Z"
+    pushed_at: "2024-12-05T20:15:04Z"
+    description: A simple CLI chatbot that demonstrates the integration of the Model Context Protocol (MCP).
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:00:44.483Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:44.483Z"
+      bytes: 5094
+insights:
+  summary: A simple CLI chatbot example demonstrating how to integrate the Model Context Protocol (MCP) with any OpenAI API-compatible LLM provider.
+  why_it_matters: It provides a minimal, working reference implementation for developers looking to understand how to wire MCP servers into a client-side chat loop.
+  mental_damage: Another heroic open-source effort to build a chatbot that will be obsoleted by a new MCP feature release roughly three hours after it was pushed.
+  tags:
+    - mcp
+    - cli
+    - chatbot
+    - python
+    - example
+  confidence: medium
+curation:
+  status: included
+  reason: The project is a reference client implementation for the Model Context Protocol, fitting the MCP infrastructure category.
+  evidence:
+    - Repo description explicitly states it is a chatbot demonstrating MCP integration.
+    - README details architecture for connecting to MCP servers via a CLI chat session.
+    - Listed in awesome-mcp-servers under the 'Clients' section.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (248) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.675Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:44.483Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:05:00.897Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

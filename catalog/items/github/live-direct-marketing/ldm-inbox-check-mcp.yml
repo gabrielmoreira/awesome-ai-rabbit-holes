@@ -1,0 +1,94 @@
+id: github__live-direct-marketing__ldm-inbox-check-mcp
+kind: github-repo
+name: ldm-inbox-check-mcp
+canonical_url: https://github.com/live-direct-marketing/ldm-inbox-check-mcp
+identity:
+  github_repo: live-direct-marketing/ldm-inbox-check-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__live-direct-marketing__ldm-inbox-check-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🎯 <a name="marketing"></a>Marketing
+        anchor_text: live-direct-marketing/ldm-inbox-check-mcp
+        extracted_url: https://github.com/live-direct-marketing/ldm-inbox-check-mcp
+        surrounding_text: "- [live-direct-marketing/ldm-inbox-check-mcp](https://github.com/live-direct-marketing/ldm-inbox-check-mcp) [![live-direct-marketing/ldm-inbox-check-mcp MCP server](https://glama.ai/mcp/servers/live-direct-marketing/ldm-inbox-check-mcp/badges/score.svg)](https://glama.ai/mcp/servers/live-direct-marketing/ldm-inbox-check-mcp) 📇 ☁️ - Email inbox placement testing across Gmail, Outlook, Yahoo, Mail.ru and Yandex. Create a test, get seed addresses, see per-provider placement (Inbox/Spam/Promotions), SPF/DKIM/DMARC verdicts, and screenshots. Install: `npx -y ldm-inbox-check-mcp`."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-04-19T22:42:05Z"
+    pushed_at: "2026-04-23T15:58:02Z"
+    description: MCP server for email deliverability testing across 9 providers. Test inbox placement (Inbox vs Spam vs Promotions) with SPF/DKIM/DMARC verification. Works with Claude Desktop, Cursor, Windsurf.
+    homepage: https://check.live-direct-marketing.online/docs/mcp
+    topics:
+      - claude
+      - cold-email
+      - cursor
+      - deliverability
+      - email
+      - email-testing
+      - gmail-deliverability
+      - inbox-placement
+      - mail-deliverability
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - spf-dkim-dmarc
+    last_checked_at: "2026-05-05T21:03:21.970Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:21.970Z"
+      bytes: 6280
+insights:
+  summary: An MCP server that wraps the Inbox Check REST API to let AI agents programmatically test email deliverability, inbox placement, and SPF/DKIM/DMARC authentication across nine major email providers.
+  why_it_matters: It allows developers to hand off email warm-up QA, authentication debugging, and template testing to their AI agent instead of manually checking seed accounts and headers.
+  mental_damage: We have finally given our coding agents the power to obsess over Gmail tabs and Outlook folders, ensuring no one is safe from algorithmic spam-folder anxiety, not even the bots.
+  tags:
+    - mcp
+    - email-testing
+    - deliverability
+    - agent-tools
+  confidence: high
+curation:
+  status: included
+  reason: The primary artifact is a standalone MCP server designed to expose email deliverability testing tools to MCP-compatible AI clients like Claude Desktop and Cursor.
+  evidence:
+    - Repo description explicitly identifies it as an 'MCP server for email deliverability testing'.
+    - README states it 'exposes 5 tools your agent can call directly' to Claude, Cursor, Windsurf, and Cline.
+    - Listed under 'Server Implementations > Marketing' in the awesome-mcp-servers directory.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.704Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:21.970Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:34:15.264Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

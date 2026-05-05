@@ -1,0 +1,87 @@
+id: github__huggingface__text-embeddings-inference
+kind: github-repo
+name: text-embeddings-inference
+canonical_url: https://github.com/huggingface/text-embeddings-inference
+identity:
+  github_repo: huggingface/text-embeddings-inference
+provenance:
+  discoveries:
+    - id: discovery__github__huggingface__text-embeddings-inference__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Serving
+          - Large Model Serving
+        anchor_text: text-embeddings-inference
+        extracted_url: https://github.com/huggingface/text-embeddings-inference
+        surrounding_text: "| [text-embeddings-inference](https://github.com/huggingface/text-embeddings-inference) | Inference for text-embedding models                                                                             | ![GitHub Badge](https://img.shields.io/github/stars/huggingface/text-embeddings-inference.svg?style=flat-square) |"
+        confidence: high
+metadata:
+  github:
+    stars: 4767
+    forks: 385
+    license: Apache-2.0
+    archived: false
+    created_at: "2023-10-13T13:36:51Z"
+    pushed_at: "2026-04-30T14:23:29Z"
+    description: A blazing fast inference solution for text embeddings models
+    homepage: https://huggingface.co/docs/text-embeddings-inference/quick_tour
+    topics:
+      - ai
+      - embeddings
+      - huggingface
+      - llm
+      - ml
+    last_checked_at: "2026-05-05T21:02:37.710Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:37.710Z"
+      bytes: 28440
+insights:
+  summary: A high-performance Rust-based toolkit from Hugging Face for deploying and serving open-source text embedding, re-ranker, and sequence classification models via Docker or local install.
+  why_it_matters: It allows developers to self-host optimized embedding inference with Flash Attention and dynamic batching, avoiding the latency and cost of third-party API calls for RAG and search workflows.
+  mental_damage: Finally, a way to deploy your own embeddings server so you can spend three days tuning Docker flags instead of just paying OpenAI $0.0001 per token.
+  tags:
+    - embeddings
+    - inference
+    - huggingface
+    - rust
+    - self-hosted
+  confidence: high
+curation:
+  status: included
+  reason: This is a local model serving stack for running AI models on your own hardware, fitting the local-ai category perfectly as a developer infrastructure tool.
+  evidence:
+    - Repo description explicitly calls it a 'blazing fast inference solution for text embeddings models'.
+    - README details deployment via Docker, local install on Apple Silicon, and support for self-hosted GPU/ROCm inference.
+    - Listed in Awesome-LLMOps under 'Serving > Large Model Serving', confirming its role as developer infrastructure.
+placement:
+  primary_category: local-ai
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (4767) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.697Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:37.710Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:24:39.353Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

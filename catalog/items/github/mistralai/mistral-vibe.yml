@@ -1,0 +1,82 @@
+id: github__mistralai__mistral-vibe
+kind: github-repo
+name: mistral-vibe
+canonical_url: https://github.com/mistralai/mistral-vibe
+identity:
+  github_repo: mistralai/mistral-vibe
+provenance:
+  discoveries:
+    - id: discovery__github__mistralai__mistral-vibe__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Terminal-native coding agents
+          - Open Source
+        anchor_text: Mistral Vibe
+        extracted_url: https://github.com/mistralai/mistral-vibe
+        surrounding_text: "- **[Mistral Vibe](https://github.com/mistralai/mistral-vibe)** `⭐ 4.1k` `[Mistral]` — Mistral's CLI coding assistant for conversational repo interaction and edits. Apache-2.0."
+        confidence: high
+metadata:
+  github:
+    stars: 4107
+    forks: 479
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-12-08T18:56:59Z"
+    pushed_at: "2026-05-05T12:44:02Z"
+    description: Minimal CLI coding agent by Mistral
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:03:43.349Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:43.349Z"
+      bytes: 22606
+insights:
+  summary: A minimal, open-source CLI coding agent by Mistral that provides a conversational interface for exploring, modifying, and interacting with codebases via natural language.
+  why_it_matters: It offers developers a terminal-native way to delegate file operations, code search, and refactoring tasks to Mistral's models without leaving the command line.
+  mental_damage: Yet another CLI agent enters the arena, promising that this time, the terminal really will be the only IDE you ever need, right up until you install the next one.
+  tags:
+    - cli
+    - coding-agent
+    - mistral
+    - terminal
+    - open-source
+  confidence: high
+curation:
+  status: included
+  reason: It is a developer-facing CLI coding assistant that directly plans, edits, and reviews code within a repo workflow, which perfectly matches the coding-agents category.
+  evidence:
+    - Repo description explicitly states it is a 'Minimal CLI coding agent by Mistral'.
+    - README confirms it is a 'command-line coding assistant' that reads, writes, patches files, and executes shell commands.
+    - Found in the awesome-cli-coding-agents list under 'Terminal-native coding agents > Open Source'.
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (4107) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.707Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:43.349Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:38:23.442Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

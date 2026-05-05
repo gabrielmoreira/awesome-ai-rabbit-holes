@@ -1,0 +1,93 @@
+id: github__gotalab__cc-sdd
+kind: github-repo
+name: cc-sdd
+canonical_url: https://github.com/gotalab/cc-sdd
+identity:
+  github_repo: gotalab/cc-sdd
+provenance:
+  discoveries:
+    - id: discovery__github__gotalab__cc-sdd__awesome-list__engineering4ai__awesome-spec-driven-development
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: Engineering4AI/awesome-spec-driven-development
+        url: https://github.com/engineering4ai/awesome-spec-driven-development
+        repository: Engineering4AI/awesome-spec-driven-development
+      extraction:
+        mode: parsed
+        section_path:
+          - Development Frameworks
+        anchor_text: cc-sdd
+        extracted_url: https://github.com/gotalab/cc-sdd
+        surrounding_text: "- [cc-sdd](https://github.com/gotalab/cc-sdd) ![](https://img.shields.io/github/stars/gotalab/cc-sdd.svg) - Collaborative spec-driven development tool for writing specifications alongside code."
+        confidence: high
+metadata:
+  github:
+    stars: 3267
+    forks: 242
+    license: MIT
+    archived: false
+    created_at: "2025-07-17T04:41:37Z"
+    pushed_at: "2026-04-26T20:49:04Z"
+    description: Turn approved specs into long-running autonomous implementation. A minimal, adaptable SDD harness with Agent Skills for Claude Code, Codex, Cursor, Copilot, Windsurf, OpenCode, Gemini CLI, and Antigravity.
+    homepage: ""
+    topics:
+      - agent-skills
+      - claude-code
+      - codex
+      - cursor
+      - gemini-cli
+      - github-copilot
+      - kiro
+      - opencode
+      - sdd
+      - spec-driven-development
+      - steering
+      - subagents
+    last_checked_at: "2026-05-05T21:02:25.575Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:25.575Z"
+      bytes: 11889
+insights:
+  summary: A spec-driven development harness that installs 17 reusable Agent Skills into AI coding agents to turn approved specs into long-running autonomous implementation with per-task review and auto-debug.
+  why_it_matters: It gives teams a structured, boundary-first spec loop that lets humans approve contracts at phase gates while agents handle TDD, review, and debugging across eight different coding assistants.
+  mental_damage: We have successfully abstracted project management into markdown files so that eight different AI agents can independently discover, design, and debug their way into the same architectural mess.
+  tags:
+    - spec-driven-development
+    - agent-skills
+    - autonomous-implementation
+    - multi-agent
+    - sdd
+  confidence: high
+curation:
+  status: included
+  reason: The primary artifact is a reusable skill pack (17 skills) distributed as a CLI tool for Claude Code, Cursor, Copilot, and other hosts, which fits the skills category exactly.
+  evidence:
+    - Repo description explicitly calls it 'a minimal, adaptable SDD harness with Agent Skills for Claude Code, Codex, Cursor, Copilot, Windsurf, OpenCode, Gemini CLI, and Antigravity.'
+    - README states '17 skills per install, loaded on demand' and the package installs skills into existing agents rather than being a standalone assistant.
+    - Listed in awesome-spec-driven-development under 'Development Frameworks' and covers spec-driven, agentic SDLC workflows.
+placement:
+  primary_category: skills
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (3267) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.689Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:25.575Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:22:27.274Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

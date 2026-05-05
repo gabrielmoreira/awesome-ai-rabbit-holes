@@ -1,0 +1,77 @@
+id: about__gitlab__com__gitlab__duo__agent__platform
+kind: website
+name: gitlab-duo-agent-platform
+canonical_url: https://about.gitlab.com/gitlab-duo-agent-platform
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__about__gitlab__com__gitlab__duo__agent__platform__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - GitLab Duo
+        anchor_text: GitLab Duo
+        extracted_url: https://about.gitlab.com/gitlab-duo
+        surrounding_text: "## [GitLab Duo](https://about.gitlab.com/gitlab-duo/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: GitLab Duo Agent Platform is an enterprise DevSecOps platform that provides specialized, orchestrated AI agents for planning, coding, security, and deployment workflows within the GitLab ecosystem.
+  why_it_matters: It allows development teams to automate complex, multi-step SDLC tasks—from code reviews to CI/CD diagnostics—directly within their existing GitLab projects using configurable agents and flows.
+  mental_damage: Just when you thought 'GitOps' was the final word on automation, your CI/CD pipeline now requires its own team of specialized AI agents and a maturity framework quiz to prove it's actually working.
+  tags:
+    - gitlab
+    - devsecops
+    - agentic-workflows
+    - enterprise
+    - sdlc-automation
+  confidence: high
+curation:
+  status: included
+  reason: This is a control plane for coordinating multiple specialized agents and flows across the software lifecycle, fitting the agent-orchestration category better than a single coding assistant.
+  evidence:
+    - Scraped site context describes 'specialized agents for planning, coding, security, and deployment' with an 'AI Catalog' to manage them.
+    - Marketing emphasizes 'agentic workflows' and 'flows to combine one or more agents into guided sequences'.
+    - Listed in awesome-ai-agents under 'GitLab Duo' for 'Custom AI workflow automation across the software lifecycle'.
+placement:
+  primary_category: agent-orchestration
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.725Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:41:16.618Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

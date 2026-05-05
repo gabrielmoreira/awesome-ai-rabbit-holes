@@ -1,0 +1,84 @@
+id: github__coast-guard__coasts
+kind: github-repo
+name: coasts
+canonical_url: https://github.com/coast-guard/coasts
+identity:
+  github_repo: coast-guard/coasts
+provenance:
+  discoveries:
+    - id: discovery__github__coast-guard__coasts__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Agent infrastructure
+        anchor_text: Coasts
+        extracted_url: https://github.com/coast-guard/coasts
+        surrounding_text: "- **[Coasts](https://github.com/coast-guard/coasts)** `⭐ 380` — Containerized host orchestration for git worktrees; isolates ports, networks, and services per environment using DinD/Sysbox/Podman. MIT."
+        confidence: high
+metadata:
+  github:
+    stars: 381
+    forks: 17
+    license: MIT
+    archived: false
+    created_at: "2026-02-28T13:59:30Z"
+    pushed_at: "2026-04-28T05:28:33Z"
+    description: Localhost service isolation and orchestration for git worktrees.
+    homepage: https://coasts.dev
+    topics:
+      - infrastructure
+      - localhost
+      - parallel-programming
+    last_checked_at: "2026-05-05T21:01:36.620Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:36.620Z"
+      bytes: 9558
+insights:
+  summary: A CLI tool and local UI for running multiple isolated instances of a development environment on a single machine, integrated with git worktrees and Docker Compose.
+  why_it_matters: It allows developers to run parallel, isolated instances of their stack for multiple AI coding agents simultaneously, solving port conflicts and environment pollution during agentic development.
+  mental_damage: We have finally reached the point where we need container orchestration just to manage the sheer number of half-finished features our AI agents are hallucinating in parallel.
+  tags:
+    - local-dev
+    - orchestration
+    - worktrees
+    - docker
+  confidence: high
+curation:
+  status: included
+  reason: It is an operational tool for coordinating multiple AI agent runtimes and development environments simultaneously, fitting the 'Agent Orchestration' category.
+  evidence:
+    - Repo description defines it as 'Localhost service isolation and orchestration for git worktrees.'
+    - README explicitly states it is 'agnostic to AI providers and agent harnesses' and provides demos for Claude Code, Codex, and Cursor.
+    - Appears in 'awesome-cli-coding-agents' under the section 'Harnesses & orchestration > Agent infrastructure'.
+placement:
+  primary_category: agent-orchestration
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (381) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.682Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:36.620Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:13:36.952Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

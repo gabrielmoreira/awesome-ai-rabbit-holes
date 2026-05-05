@@ -1,0 +1,102 @@
+id: github__masondelan__selvedge
+kind: github-repo
+name: selvedge
+canonical_url: https://github.com/masondelan/selvedge
+identity:
+  github_repo: masondelan/selvedge
+provenance:
+  discoveries:
+    - id: discovery__github__masondelan__selvedge__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: masondelan/selvedge
+        extracted_url: https://github.com/masondelan/selvedge
+        surrounding_text: "- [masondelan/selvedge](https://github.com/masondelan/selvedge) [![masondelan/selvedge MCP server](https://glama.ai/mcp/servers/masondelan/selvedge/badges/score.svg)](https://glama.ai/mcp/servers/masondelan/selvedge) 🐍 🏠 - Change tracking for AI-era codebases. AI agents call it to log structured change events (entity + diff + reasoning) before the session ends, then query history with diff, blame, history, changeset, and search. Captures the intent that would otherwise evaporate."
+        confidence: high
+metadata:
+  github:
+    stars: 5
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-04-22T03:34:11Z"
+    pushed_at: "2026-05-03T19:51:21Z"
+    description: Long-term memory for AI-coded codebases. A git blame for AI agents — but for the why. MCP server that captures the agent's reasoning live, in context, as each change is made. Local SQLite, zero deps.
+    homepage: https://selvedge.sh
+    topics:
+      - agent-trace
+      - ai-agent-reasoning
+      - ai-agents
+      - ai-code-provenance
+      - ai-codebase-memory
+      - ai-coding
+      - claude-code
+      - codebase-change-tracking
+      - cursor
+      - developer-tools
+      - devtools
+      - git-blame
+      - git-blame-for-ai
+      - long-term-memory
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - python
+      - schema-change-history
+      - sqlite
+    last_checked_at: "2026-05-05T21:03:31.171Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:31.171Z"
+      bytes: 20360
+insights:
+  summary: A local MCP server that captures AI agent reasoning live as code changes are made, storing the 'why' behind modifications in a local SQLite database for later auditing.
+  why_it_matters: It solves the problem of context evaporation in AI-generated codebases by providing a 'git blame' for agent reasoning, allowing developers to trace decisions back to the specific prompt or intent.
+  mental_damage: We have successfully built a tool to remember why the AI did the thing, effectively outsourcing our code provenance to a SQLite file because we can no longer be bothered to write commit messages that survive contact with a bot.
+  tags:
+    - mcp
+    - memory
+    - agent-trace
+    - git-blame
+    - sqlite
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server designed to provide memory and context infrastructure for AI coding agents, fitting the MCP category's focus on protocol servers and tooling.
+  evidence:
+    - Repo description identifies it as an 'MCP server that captures the agent's reasoning live'.
+    - README states 'Selvedge is a local MCP server' used to log structured change events with reasoning.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.705Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:31.171Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:36:00.308Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,80 @@
+id: github__gitwitorg__gitwit
+kind: github-repo
+name: gitwit
+canonical_url: https://github.com/gitwitorg/gitwit
+identity:
+  github_repo: gitwitorg/gitwit
+provenance:
+  discoveries:
+    - id: discovery__github__jamesmurdza__gitwit__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: scraped
+        section_path:
+          - GitWit
+        anchor_text: GitWit
+        extracted_url: https://www.gitwit.dev
+        surrounding_text: "## [GitWit](https://www.gitwit.dev/)"
+        confidence: high
+metadata:
+  github:
+    stars: 59
+    forks: 23
+    license: MIT
+    archived: false
+    created_at: "2024-06-02T02:31:22Z"
+    pushed_at: "2026-04-02T19:20:39Z"
+    description: An open source, AI-native coding platform which allows you to build apps in minutes
+    homepage: https://gitwit.dev
+    topics: []
+    last_checked_at: "2026-05-05T21:02:22.518Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:22.518Z"
+      bytes: 14841
+insights:
+  summary: An open-source, cloud-based code editing environment with AI code generation, live preview, and AI chat capabilities.
+  why_it_matters: It provides developers with a self-hostable, AI-native IDE experience that integrates multiple LLM providers and live previews for rapid application development.
+  mental_damage: Yet another self-hostable 'AI-native' IDE stack to deploy and maintain, because nothing says rapid prototyping like configuring Postgres, Clerk, E2B, and AWS Bedrock credentials first.
+  tags:
+    - ai-ide
+    - self-hosted
+    - code-generation
+    - live-preview
+  confidence: high
+curation:
+  status: included
+  reason: The project is an AI-native editor/IDE environment itself, fitting the ai-ides-editors category rather than a coding agent or app builder.
+  evidence:
+    - Repo description states it is an 'open source, AI-native coding platform' with cloud-based code editing.
+    - README describes it as a 'cloud-based code editing environment with custom AI code generation, live preview, and AI chat.'
+    - Primary surface is the IDE environment (Next.js frontend, Express backend), not a CLI agent or pure prompt-to-app builder.
+placement:
+  primary_category: ai-ides-editors
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:21:41.784Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.699Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:22.518Z"
+    cause: null
+    next_retry_at: null

@@ -1,0 +1,97 @@
+id: github__jktfe__servemyapi
+kind: github-repo
+name: servemyapi
+canonical_url: https://github.com/jktfe/servemyapi
+identity:
+  github_repo: jktfe/servemyapi
+provenance:
+  discoveries:
+    - id: discovery__github__jktfe__servemyapi__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: Jktfe/serveMyAPI
+        extracted_url: https://github.com/jktfe/servemyapi
+        surrounding_text: "- [Jktfe/serveMyAPI](https://github.com/Jktfe/serveMyAPI) 📇 🏠 🍎 - A personal MCP (Model Context Protocol) server for securely storing and accessing API keys across projects using the macOS Keychain."
+        confidence: high
+    - id: discovery__github__jktfe__servemyapi__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - 💻 Developer Tools
+        anchor_text: "@Jktfe/serveMyAPI"
+        extracted_url: https://github.com/jktfe/servemyapi
+        surrounding_text: "-   **[@Jktfe/serveMyAPI](https://github.com/Jktfe/serveMyAPI)** [![GitHub stars](https://img.shields.io/github/stars/Jktfe/serveMyAPI?style=social)](https://github.com/Jktfe/serveMyAPI): Securely stores and accesses API keys across projects using the macOS Keychain."
+        confidence: high
+metadata:
+  github:
+    stars: 24
+    forks: 4
+    license: null
+    archived: false
+    created_at: "2025-03-14T11:39:12Z"
+    pushed_at: "2025-04-23T00:24:05Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:56.809Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:56.809Z"
+      bytes: 7413
+insights:
+  summary: A macOS-only MCP server that stores and retrieves API keys via the macOS Keychain, exposing them to AI assistants through a standardized MCP interface.
+  why_it_matters: It lets developers stop scattering secrets across .env files while giving AI coding assistants a secure, centralized way to request the credentials they need to complete tasks.
+  mental_damage: We have successfully invented a way for your AI assistant to ask for your API keys, so you can feel productive while accelerating your own eventual security incident.
+  tags:
+    - mcp
+    - macos
+    - api-keys
+    - security
+    - cli
+  confidence: high
+curation:
+  status: included
+  reason: The project is itself an MCP server implementation designed to expose secure key storage to MCP-compatible clients, which fits squarely into the MCP Servers and Tooling category.
+  evidence:
+    - README states it is 'A personal MCP (Model Context Protocol) server for securely storing and accessing API keys'.
+    - Listed under 'Server Implementations > Developer Tools' in the awesome-mcp-servers directory.
+    - Provides MCP tools for storing, retrieving, listing, and deleting keys compatible with Claude Desktop and other MCP clients.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.667Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:56.809Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:28:41.212Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

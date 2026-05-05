@@ -1,0 +1,86 @@
+id: github__nullclaw__nullclaw
+kind: github-repo
+name: nullclaw
+canonical_url: https://github.com/nullclaw/nullclaw
+identity:
+  github_repo: nullclaw/nullclaw
+provenance:
+  discoveries:
+    - id: discovery__github__nullclaw__nullclaw__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Terminal-native coding agents
+          - OpenClaw ecosystem
+        anchor_text: NullClaw
+        extracted_url: https://github.com/nullclaw/nullclaw
+        surrounding_text: "- **[NullClaw](https://github.com/nullclaw/nullclaw)** `⭐ 7.4k` — Fastest, smallest OpenClaw-compatible agent in Zig; 678KB static binary, ~1MB RAM, <2ms startup, 23+ providers, 18 channels. MIT."
+        confidence: high
+metadata:
+  github:
+    stars: 7409
+    forks: 859
+    license: MIT
+    archived: false
+    created_at: "2026-02-16T21:17:27Z"
+    pushed_at: "2026-05-05T01:15:15Z"
+    description: Fastest, smallest, and fully autonomous AI assistant infrastructure written in Zig
+    homepage: https://nullclaw.io
+    topics:
+      - ai
+      - assistant
+      - personal
+      - zig
+    last_checked_at: "2026-05-05T21:03:56.818Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:56.818Z"
+      bytes: 39824
+insights:
+  summary: A tiny, self-contained AI assistant infrastructure written in Zig that runs as a ~678 KB static binary with support for 50+ providers, 19 channels, and MCP.
+  why_it_matters: It lets developers run a fully autonomous AI assistant on extremely constrained hardware with near-zero memory overhead while retaining a full tool stack including providers, channels, and subagents.
+  mental_damage: We have successfully optimized the AI assistant down to 1 MB of RAM, proving once and for all that the bottleneck was never the memory footprint but our ability to decide what to ask it.
+  tags:
+    - zig
+    - cli
+    - autonomous-agent
+    - mcp
+    - edge
+  confidence: high
+curation:
+  status: included
+  reason: It is a terminal-native, autonomous AI assistant that operates in the CLI and integrates with providers, tools, and MCP, matching the coding-agents category via its inclusion in an awesome-cli-coding-agents list and its own feature set.
+  evidence:
+    - "Repo description: 'Fastest, smallest, and fully autonomous AI assistant infrastructure written in Zig'"
+    - README explicitly lists 50+ providers, 19 channels, MCP, subagents, and tools as core features
+    - Seen in awesome-cli-coding-agents under 'Terminal-native coding agents > OpenClaw ecosystem'
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (7409) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.710Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:56.818Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:41:06.175Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

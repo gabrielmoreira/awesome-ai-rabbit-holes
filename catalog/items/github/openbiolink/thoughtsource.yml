@@ -1,0 +1,87 @@
+id: github__openbiolink__thoughtsource
+kind: github-repo
+name: thoughtsource
+canonical_url: https://github.com/openbiolink/thoughtsource
+identity:
+  github_repo: openbiolink/thoughtsource
+provenance:
+  discoveries:
+    - id: discovery__github__openbiolink__thoughtsource__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Open Source Projects
+          - Other / Chatbots
+        anchor_text: ThoughtSource⚡
+        extracted_url: https://github.com/openbiolink/thoughtsource
+        surrounding_text: "- [ThoughtSource⚡](https://github.com/OpenBioLink/ThoughtSource): A framework for the science of machine thinking ![GitHub Repo stars](https://img.shields.io/github/stars/OpenBioLink/ThoughtSource?style=social)"
+        confidence: high
+metadata:
+  github:
+    stars: 1014
+    forks: 81
+    license: MIT
+    archived: false
+    created_at: "2022-05-20T13:09:13Z"
+    pushed_at: "2024-12-16T15:41:40Z"
+    description: "A central, open resource for data and tools related to chain-of-thought reasoning in large language models. Developed @ Samwald research group: https://samwald.info/"
+    homepage: ""
+    topics:
+      - dataset
+      - machine-learning
+      - natural-language-processing
+      - question-answering
+      - reasoning
+    last_checked_at: "2026-05-05T21:04:03.901Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:03.901Z"
+      bytes: 13675
+insights:
+  summary: ThoughtSource is an open-source framework and dataset hub providing standardized chain-of-thought reasoning data for large language models, including tools to load and process reasoning chains in Hugging Face format.
+  why_it_matters: It provides developers and researchers with a centralized, standardized resource to train, evaluate, and analyze the reasoning capabilities of LLMs across various general question-answering datasets.
+  mental_damage: We now have a centralized hub to study how models reason, which is perfect for those who enjoy reading machine-generated thoughts that are about as linear as a plate of spaghetti.
+  tags:
+    - llm
+    - chain-of-thought
+    - reasoning
+    - dataset
+    - nlp
+  confidence: high
+curation:
+  status: excluded
+  reason: While it is a useful resource for ML research, it is a data/research framework for NLP reasoning, not a practical AI tool, agent, or infrastructure for software developers building applications.
+  evidence:
+    - Repo description and README focus on 'chain-of-thought reasoning in large language models' and 'science of machine thinking', targeting researchers over developers.
+    - Topics include dataset, machine-learning, and natural-language-processing, aligning with ML research rather than developer tooling.
+    - Source list context places it in awesome-langchain under 'Other / Chatbots', indicating a research/experimental use case rather than a dev workflow tool.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1014) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.711Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:03.901Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:42:27.510Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

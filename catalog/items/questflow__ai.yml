@@ -1,0 +1,76 @@
+id: questflow__ai
+kind: website
+name: questflow.ai
+canonical_url: https://questflow.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__questflow__ai__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Questflow
+        anchor_text: Questflow
+        extracted_url: https://questflow.ai
+        surrounding_text: "## [Questflow](https://questflow.ai)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A platform for creating and deploying AI agents (clones) that automate trading across on-chain markets like Polymarket and OKX.
+  why_it_matters: It provides a developer platform for designing and deploying 'AI swarms' specifically targeting automated market execution and on-chain transaction tracking.
+  mental_damage: You can now deploy an autonomous AI swarm to discover alpha on Pump.fun, because apparently your trading strategy needed more autonomous agents and less sleep.
+  tags:
+    - agents
+    - trading
+    - on-chain
+    - swarms
+  confidence: high
+curation:
+  status: excluded
+  reason: The product is a consumer-facing crypto trading bot platform, not a developer tool for writing code, building apps, or managing infrastructure.
+  evidence:
+    - Primary excerpt describes 'Create your AI Clone to trade across Polymarket, Pump.fun, OKX' rather than coding assistance.
+    - Listed in awesome-ai-agents specifically for trading execution and revenue generation on on-chain markets.
+    - Developer platform features appear to support building trading agents, not general software development workflows.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.729Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:47:22.730Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

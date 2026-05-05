@@ -1,0 +1,80 @@
+id: github__any4ai__anycrawl-mcp-server
+kind: github-repo
+name: anycrawl-mcp-server
+canonical_url: https://github.com/any4ai/anycrawl-mcp-server
+identity:
+  github_repo: any4ai/anycrawl-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__any4ai__anycrawl-mcp-server__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: AnyCrawl
+        extracted_url: https://github.com/any4ai/anycrawl-mcp-server
+        surrounding_text: "- **[AnyCrawl](https://github.com/any4ai/anycrawl-mcp-server)** - [AnyCrawl](https://anycrawl.dev) MCP Server, Powerful web scraping and crawling for Cursor, Claude, and other LLM clients via the Model Context Protocol (MCP)."
+        confidence: high
+metadata:
+  github:
+    stars: 6
+    forks: 2
+    license: null
+    archived: false
+    created_at: "2025-09-13T07:56:09Z"
+    pushed_at: "2026-03-19T20:49:36Z"
+    description: AnyCrawl MCP Server, with Scrape, Crawl and SERP.
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:01:05.655Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:05.655Z"
+      bytes: 15685
+insights:
+  summary: An MCP server that exposes web scraping, crawling, and search engine result parsing capabilities to LLM clients like Cursor and Claude.
+  why_it_matters: It gives coding agents the ability to fetch live web content and search results directly into their context, reducing the need to copy-paste documentation or API docs manually.
+  mental_damage: We have successfully abstracted the act of reading the documentation into a server that scrapes the documentation, so the agent can hallucinate about the documentation it just scraped.
+  tags:
+    - mcp
+    - web-scraping
+    - cursor
+    - context-engineering
+  confidence: high
+curation:
+  status: included
+  reason: The project is a dedicated MCP server implementation designed to integrate web scraping and crawling capabilities into MCP-compatible clients.
+  evidence:
+    - Repo description explicitly states 'AnyCrawl MCP Server, with Scrape, Crawl and SERP.'
+    - README details integration with Cursor, VS Code, and Windsurf via the Model Context Protocol.
+    - Listed in the awesome-mcp-servers directory under 'Official Servers'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.679Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:05.655Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:08:26.289Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

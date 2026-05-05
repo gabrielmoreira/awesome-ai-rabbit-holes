@@ -1,0 +1,76 @@
+id: www__ellipsis__dev
+kind: website
+name: www.ellipsis.dev
+canonical_url: https://www.ellipsis.dev
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__ellipsis__dev__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Ellipsis
+        anchor_text: Ellipsis
+        extracted_url: https://ellipsis.dev
+        surrounding_text: "## [Ellipsis](https://ellipsis.dev/?utm_source=awesome-ai-agents)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A GitHub-integrated AI tool that performs automated code reviews, answers questions, and generates code fixes directly within pull requests and commits.
+  why_it_matters: It aims to catch logical bugs and style violations on every commit while allowing developers to delegate feature development and bug fixes via GitHub comments.
+  mental_damage: Now your pull request can be rejected by an AI teammate that has read your style guide but still doesn't understand why you used a global variable in 2018.
+  tags:
+    - code-review
+    - github
+    - yc-w24
+    - ai-teammate
+  confidence: high
+curation:
+  status: included
+  reason: The product is a developer-facing coding agent that collaborates on source code directly within the GitHub PR and commit workflow, fitting the coding-agents category.
+  evidence:
+    - Scraped site states it performs 'AI Code Reviews & Bug Fixes' and 'Async Code Generation' via GitHub comments.
+    - Listed in awesome-ai-agents under the purpose of 'Automated code reviews and bug fixes'.
+    - Testimonials describe replacing engineering roles and performing code reviews/summaries within the GitHub workflow.
+placement:
+  primary_category: coding-agents
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.732Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T20:49:09.255Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

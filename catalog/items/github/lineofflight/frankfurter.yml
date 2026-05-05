@@ -1,0 +1,86 @@
+id: github__lineofflight__frankfurter
+kind: github-repo
+name: frankfurter
+canonical_url: https://github.com/lineofflight/frankfurter
+identity:
+  github_repo: lineofflight/frankfurter
+provenance:
+  discoveries:
+    - id: discovery__github__lineofflight__frankfurter__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: scraped
+        section_path:
+          - Community Servers
+        anchor_text: Frankfurter API
+        extracted_url: https://frankfurter.dev
+        surrounding_text: "- **[FrankfurterMCP](https://github.com/anirbanbasu/frankfurtermcp)** - MCP server acting as an interface to the [Frankfurter API](https://frankfurter.dev/) for currency exchange data."
+        confidence: high
+metadata:
+  github:
+    stars: 1450
+    forks: 151
+    license: MIT
+    archived: false
+    created_at: "2018-03-08T14:40:57Z"
+    pushed_at: "2026-05-02T08:31:09Z"
+    description: 💱 Currency data API
+    homepage: https://frankfurter.dev
+    topics:
+      - api
+      - currency
+      - currency-api
+      - money
+      - ruby
+    last_checked_at: "2026-05-05T21:03:20.499Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:20.499Z"
+      bytes: 2081
+insights:
+  summary: Frankfurter is an open-source currency data API that provides current and historical exchange rates sourced from central banks, which can be self-hosted via Docker.
+  why_it_matters: It offers developers a free, self-hostable alternative to commercial currency APIs with no API key required for the public instance.
+  mental_damage: We now have open-source infrastructure to query the exchange rate of the Euro against the Dollar, yet we still can't agree on a standard way to format a JSON response without invoking an AI agent.
+  tags:
+    - api
+    - currency
+    - self-hosted
+    - ruby
+    - docker
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a general-purpose currency data API with no AI functionality, developer-agent integration, or AI infrastructure angle required for this catalog.
+  evidence:
+    - Repo description identifies it strictly as a 'Currency data API' with no mention of AI.
+    - README focuses on Docker deployment, SQLite backends, and central bank API keys, lacking any AI, LLM, or agent context.
+    - Appears in awesome-mcp-servers lists, but the repository itself is the API source code, not an MCP server implementation.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1450) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.704Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:20.499Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:34:00.698Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,115 @@
+id: github__edwinbernadus__nocodb-mcp-server
+kind: github-repo
+name: nocodb-mcp-server
+canonical_url: https://github.com/edwinbernadus/nocodb-mcp-server
+identity:
+  github_repo: edwinbernadus/nocodb-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__edwinbernadus__nocodb-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🗄️ <a name="databases"></a>Databases
+        anchor_text: edwinbernadus/nocodb-mcp-server
+        extracted_url: https://github.com/edwinbernadus/nocodb-mcp-server
+        surrounding_text: "- [edwinbernadus/nocodb-mcp-server](https://github.com/edwinbernadus/nocodb-mcp-server) 📇 ☁️ - Nocodb database integration, read and write capabilities"
+        confidence: high
+    - id: discovery__github__edwinbernadus__nocodb-mcp-server__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: NocoDB
+        extracted_url: https://github.com/edwinbernadus/nocodb-mcp-server
+        surrounding_text: "- **[NocoDB](https://github.com/edwinbernadus/nocodb-mcp-server)** - Manage NocoDB server, support read and write databases"
+        confidence: high
+    - id: discovery__github__edwinbernadus__nocodb-mcp-server__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - 🗄️ Databases
+        anchor_text: edwinbernadus/nocodb-mcp-server
+        extracted_url: https://github.com/edwinbernadus/nocodb-mcp-server
+        surrounding_text: "-   **[edwinbernadus/nocodb-mcp-server](https://github.com/edwinbernadus/nocodb-mcp-server)** [![GitHub stars](https://img.shields.io/github/stars/edwinbernadus/nocodb-mcp-server?style=social)](https://github.com/edwinbernadus/nocodb-mcp-server): Support create, read, update, and delete on NocoDB Database"
+        confidence: high
+metadata:
+  github:
+    stars: 69
+    forks: 24
+    license: null
+    archived: false
+    created_at: "2025-04-03T16:04:04Z"
+    pushed_at: "2026-03-30T13:44:10Z"
+    description: nocodb mcp server
+    homepage: ""
+    topics:
+      - mcp
+      - mcp-server
+      - nocodb
+    last_checked_at: "2026-05-05T21:02:00.240Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:00.240Z"
+      bytes: 4400
+insights:
+  summary: A TypeScript-based Model Context Protocol (MCP) server that enables AI agents to perform CRUD operations and manage schema on NocoDB databases via natural language commands.
+  why_it_matters: It allows developers to hook NocoDB into their AI-assisted workflows, letting tools like Claude Desktop manipulate database records and columns without manual UI interaction.
+  mental_damage: We have successfully abstracted database management to the point where you can now typo your way into deleting an entire table via a vaguely phrased chat message.
+  tags:
+    - mcp
+    - nocodb
+    - database
+    - typescript
+    - integration
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server implementation designed to connect NocoDB to the Model Context Protocol ecosystem.
+  evidence:
+    - Repo description is 'nocodb mcp server' with topics 'mcp, mcp-server, nocodb'.
+    - README states it 'enables seamless interaction with your NocoDB database using the Model Context Protocol (MCP)'.
+    - Listed in 'awesome-mcp-servers' under 'Server Implementations > Databases'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.659Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:00.240Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:17:37.811Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

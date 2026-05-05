@@ -1,0 +1,111 @@
+id: github__laulauland__bluesky-context-server
+kind: github-repo
+name: bluesky-context-server
+canonical_url: https://github.com/laulauland/bluesky-context-server
+identity:
+  github_repo: laulauland/bluesky-context-server
+provenance:
+  discoveries:
+    - id: discovery__github__keturiosakys__bluesky-context-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💬 <a name="communication"></a>Communication
+        anchor_text: keturiosakys/bluesky-context-server
+        extracted_url: https://github.com/keturiosakys/bluesky-context-server
+        surrounding_text: "- [keturiosakys/bluesky-context-server](https://github.com/keturiosakys/bluesky-context-server) 📇 ☁️ - Bluesky instance integration for querying and interaction"
+        confidence: high
+    - id: discovery__github__keturiosakys__bluesky-context-server__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: Bluesky
+        extracted_url: https://github.com/keturiosakys/bluesky-context-server
+        surrounding_text: "- **[Bluesky](https://github.com/keturiosakys/bluesky-context-server)** - integrates with Bluesky API to query and search feeds and posts."
+        confidence: high
+    - id: discovery__github__keturiosakys__bluesky-context-server__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - 💬 Communication
+        anchor_text: keturiosakys/bluesky-context-server
+        extracted_url: https://github.com/keturiosakys/bluesky-context-server
+        surrounding_text: "-   **[keturiosakys/bluesky-context-server](https://github.com/keturiosakys/bluesky-context-server)** [![GitHub stars](https://img.shields.io/github/stars/keturiosakys/bluesky-context-server?style=social)](https://github.com/keturiosakys/bluesky-context-server): Connects and allows interaction with Bluesky social network instances."
+        confidence: high
+metadata:
+  github:
+    stars: 30
+    forks: 10
+    license: MIT
+    archived: false
+    created_at: "2024-11-29T22:30:53Z"
+    pushed_at: "2025-08-10T13:26:48Z"
+    description: Bluesky MCP server
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:03:17.388Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:17.388Z"
+      bytes: 5897
+insights:
+  summary: A Model Context Protocol (MCP) server that allows AI assistants like Claude Desktop to interact with Bluesky for querying profiles, searching posts, and reading feeds.
+  why_it_matters: It provides developers building on the AT Protocol or managing social presence a programmatic bridge to Bluesky directly through their local AI assistant workflow.
+  mental_damage: We have successfully reached the point where we need an autonomous agent to scroll our social media feeds for us so we don't have to look away from the IDE.
+  tags:
+    - mcp
+    - bluesky
+    - at-protocol
+    - social-media
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server implementation, fitting perfectly into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states 'Bluesky MCP server'.
+    - README confirms it is 'A Model Context Protocol (MCP) server' for Claude Desktop.
+    - Provides specific MCP tools like bluesky_search_posts and bluesky_get_profile.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:33:24.835Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.660Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:17.388Z"
+    cause: null
+    next_retry_at: null

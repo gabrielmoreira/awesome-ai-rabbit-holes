@@ -1,0 +1,81 @@
+id: github__gibbrdev__gibs-mcp
+kind: github-repo
+name: gibs-mcp
+canonical_url: https://github.com/gibbrdev/gibs-mcp
+identity:
+  github_repo: gibbrdev/gibs-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__buildsyncinc__gibs-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - ⚖️ <a name="legal"></a>Legal
+        anchor_text: buildsyncinc/gibs-mcp
+        extracted_url: https://github.com/buildsyncinc/gibs-mcp
+        surrounding_text: "- [buildsyncinc/gibs-mcp](https://github.com/buildsyncinc/gibs-mcp) 🐍 ☁️ - Regulatory compliance (AI Act, GDPR, DORA) with article-level citations"
+        confidence: high
+metadata:
+  github:
+    stars: 6
+    forks: 4
+    license: null
+    archived: false
+    created_at: "2026-02-15T21:56:06Z"
+    pushed_at: "2026-02-15T22:37:09Z"
+    description: Gibs MCP Server — EU regulatory compliance for AI agents (AI Act, GDPR, DORA)
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:20.869Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:20.869Z"
+      bytes: 7426
+insights:
+  summary: An MCP server that connects AI development environments to a regulatory compliance knowledge base covering the EU AI Act, GDPR, and DORA with article-level citations.
+  why_it_matters: It allows developers building AI products to query and classify their systems against EU regulations directly from their AI assistant workflow.
+  mental_damage: Now your AI agent can experience the paralyzing dread of EU compliance paperwork right alongside you, complete with 240 articles of existential risk classification.
+  tags:
+    - mcp
+    - compliance
+    - eu-ai-act
+    - regulatory
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server providing regulatory compliance tooling to AI development environments.
+  evidence:
+    - "Repo description states: 'Gibs MCP Server — EU regulatory compliance for AI agents'"
+    - README demonstrates MCP integration via claude_desktop_config.json and provides MCP tools like classify_ai_system and check_compliance
+    - Active development as of 2026-02-15 with no archive flag
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:21:19.315Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.681Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:20.869Z"
+    cause: null
+    next_retry_at: null

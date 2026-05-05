@@ -1,0 +1,75 @@
+id: www__vortic__ai
+kind: website
+name: www.vortic.ai
+canonical_url: https://www.vortic.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__vortic__ai__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Vortic
+        anchor_text: Vortic
+        extracted_url: https://www.vortic.ai
+        surrounding_text: "## [Vortic](https://www.vortic.ai/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Vortic is a platform listed among autonomous AI agents designed to act independently.
+  why_it_matters: It represents the growing ecosystem of tools attempting to offload multi-step development tasks to autonomous systems rather than simple code completion.
+  mental_damage: We are now curating lists of autonomous agents that might one day recursively improve themselves, just in case we need to know which one to blame when the build pipeline achieves sentience.
+  tags:
+    - ai-agents
+    - autonomous
+    - agent-platform
+  confidence: low
+curation:
+  status: excluded
+  reason: The project lacks a description, README, and verifiable details beyond being listed in an awesome list, making it impossible to confirm it is a developer-facing tool rather than a generic autonomous agent.
+  evidence:
+    - No repository description, README excerpt, or scraped site context was provided to explain what the tool actually does.
+    - Source-list context only places it in 'awesome-ai-agents' without specifying a developer workflow or code-editing utility.
+    - Lack of stars, license, and activity dates prevents validation of the project's viability or target audience.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.734Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:54:06.457Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

@@ -1,0 +1,97 @@
+id: github__kukapay__pancakeswap-poolspy-mcp
+kind: github-repo
+name: pancakeswap-poolspy-mcp
+canonical_url: https://github.com/kukapay/pancakeswap-poolspy-mcp
+identity:
+  github_repo: kukapay/pancakeswap-poolspy-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__kukapay__pancakeswap-poolspy-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: kukapay/pancakeswap-poolspy-mcp
+        extracted_url: https://github.com/kukapay/pancakeswap-poolspy-mcp
+        surrounding_text: "- [kukapay/pancakeswap-poolspy-mcp](https://github.com/kukapay/pancakeswap-poolspy-mcp) 🐍 ☁️ -  An MCP server that tracks newly created pools on Pancake Swap."
+        confidence: high
+    - id: discovery__github__kukapay__pancakeswap-poolspy-mcp__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - 💰 Finance & Fintech
+        anchor_text: kukapay/pancakeswap-poolspy-mcp
+        extracted_url: https://github.com/kukapay/pancakeswap-poolspy-mcp
+        surrounding_text: "-   **[kukapay/pancakeswap-poolspy-mcp](https://github.com/kukapay/pancakeswap-poolspy-mcp)** [![GitHub stars](https://img.shields.io/github/stars/kukapay/pancakeswap-poolspy-mcp?style=social)](https://github.com/kukapay/pancakeswap-poolspy-mcp): Tracks newly created pools on Pancake Swap."
+        confidence: high
+metadata:
+  github:
+    stars: 7
+    forks: 7
+    license: MIT
+    archived: false
+    created_at: "2025-03-17T06:33:20Z"
+    pushed_at: "2025-05-07T17:24:42Z"
+    description: An MCP server that tracks newly created liquidity pools on Pancake Swap
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:03:12.071Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:12.071Z"
+      bytes: 3750
+insights:
+  summary: An MCP server that provides real-time tracking of newly created liquidity pools on PancakeSwap via The Graph API.
+  why_it_matters: It allows DeFi developers and analysts to query on-chain pool data directly through MCP-compatible clients like Claude Desktop instead of writing custom API integrations.
+  mental_damage: We have officially reached the point where we are building middleware to ask chatbots about liquidity pools that were created five minutes ago.
+  tags:
+    - mcp
+    - defi
+    - pancakeswap
+    - finance
+    - the-graph
+  confidence: high
+curation:
+  status: included
+  reason: The project is a standalone MCP server implementation designed to extend client capabilities with DeFi data, fitting the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description explicitly states: 'An MCP server that tracks newly created liquidity pools on Pancake Swap'."
+    - README confirms it is a server tool (`get_new_pools_bsc`) configured for Claude Desktop via the standard `mcpServers` JSON block.
+    - Listed in 'awesome-mcp-servers' under the Finance & Fintech section, confirming its identity as an MCP implementation.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.668Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:12.071Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:32:18.209Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

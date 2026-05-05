@@ -1,0 +1,76 @@
+id: claude__ai__desktop
+kind: website
+name: desktop
+canonical_url: https://claude.ai/desktop
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__claude__ai__desktop__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Code Editors and Assistants
+        anchor_text: Claude Desktop
+        extracted_url: https://claude.ai/desktop
+        surrounding_text: "- **[Claude Desktop](https://claude.ai/desktop)** – Anthropic's desktop app for development tasks, code analysis, and programming assistance."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Claude.ai Desktop is the official native desktop application for interacting with Anthropic's Claude AI assistant.
+  why_it_matters: It provides developers with a dedicated, native interface to leverage Claude for coding assistance, brainstorming, and technical analysis outside of a browser tab.
+  mental_damage: Another delightful reason to keep the IDE minimized while we perfect the art of copy-pasting from a chat window into a terminal.
+  tags:
+    - claude
+    - desktop-app
+    - chat-interface
+    - anthropic
+  confidence: high
+curation:
+  status: excluded
+  reason: While listed in an awesome list, the desktop app is a general-purpose chat client for end-users, lacking the repo-editing, IDE-integration, or code-agent behavior required for this developer-tooling catalog.
+  evidence:
+    - URL points to claude.ai/desktop, indicating a general consumer chat application rather than a developer tool.
+    - Seen in awesome-ai-coding-tools under 'Code Editors and Assistants', but the product itself is a generic AI assistant interface.
+    - No repo description, README, or code context provided to suggest it edits code, reviews PRs, or integrates into a developer workflow.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.726Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:42:48.730Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

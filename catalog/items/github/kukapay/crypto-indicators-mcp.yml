@@ -1,0 +1,82 @@
+id: github__kukapay__crypto-indicators-mcp
+kind: github-repo
+name: crypto-indicators-mcp
+canonical_url: https://github.com/kukapay/crypto-indicators-mcp
+identity:
+  github_repo: kukapay/crypto-indicators-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__kukapay__crypto-indicators-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: kukapay/crypto-indicators-mcp
+        extracted_url: https://github.com/kukapay/crypto-indicators-mcp
+        surrounding_text: "- [kukapay/crypto-indicators-mcp](https://github.com/kukapay/crypto-indicators-mcp) 🐍 ☁️ - An MCP server providing a range of cryptocurrency technical analysis indicators and strategie."
+        confidence: high
+metadata:
+  github:
+    stars: 122
+    forks: 44
+    license: MIT
+    archived: false
+    created_at: "2025-03-23T04:38:09Z"
+    pushed_at: "2025-12-06T01:07:31Z"
+    description: An MCP server providing a range of cryptocurrency technical analysis indicators and strategies.
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:03:09.922Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:09.922Z"
+      bytes: 9965
+insights:
+  summary: An MCP server that exposes over 50 cryptocurrency technical analysis indicators and trading strategies, allowing AI agents to fetch market data and signals via the Model Context Protocol.
+  why_it_matters: It lets developers and AI trading agents programmatically tap into standardized crypto technical analysis without writing their own indicator math or exchange integrations.
+  mental_damage: Another indispensable building block for the burgeoning ecosystem of AI agents that will hopefully trade us out of the mess the last generation of trading bots created.
+  tags:
+    - mcp
+    - crypto
+    - trading
+    - technical-analysis
+    - finance
+  confidence: high
+curation:
+  status: included
+  reason: The project is a standalone MCP server providing crypto indicators, which fits squarely into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states it is 'An MCP server providing a range of cryptocurrency technical analysis indicators'.
+    - README details integration with MCP clients like Claude Desktop via a standard MCP server configuration block.
+    - Included in the awesome-mcp-servers list under the Finance & Fintech section.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.702Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:09.922Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:31:47.774Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

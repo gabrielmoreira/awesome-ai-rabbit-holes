@@ -1,0 +1,78 @@
+id: sovgrid__org
+kind: website
+name: sovgrid.org
+canonical_url: https://sovgrid.org
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__sovgrid__org__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: Sovereign AI Blog
+        extracted_url: https://sovgrid.org
+        surrounding_text: "- [cipherfoxie/sovereign-mcp](https://github.com/cipherfoxie/sovereign-mcp) [![cipherfoxie/sovereign-mcp MCP server](https://glama.ai/mcp/servers/cipherfoxie/sovereign-mcp/badges/score.svg)](https://glama.ai/mcp/servers/cipherfoxie/sovereign-mcp) 🐍 ☁️ 🐧 - MCP for the [Sovereign AI Blog](https://sovgrid.org), a hands-on engineering log of self-hosted AI on NVIDIA DGX Spark (GB10/SM121A). 44+ articles covering SGLang, Mistral, Voxtral, OpenClaw. Three tools: full-text search, article retrieval, and SGLang config validator for GB10 hardware. Free, no auth, no client-side tracking. `https://mcp.sovgrid.org/self-hosted-ai?ref=awesome-mcp`"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A personal blog and documentation site detailing the setup, configuration, and operational fixes required to run a 119B parameter AI model locally on DGX Spark hardware.
+  why_it_matters: Provides practical, battle-tested documentation for developers attempting to self-host large-scale AI models and build local sovereign AI stacks.
+  mental_damage: "The ultimate power move: spending three hours debugging an AttributeError just so you can tell your colleagues your chatbot runs on hardware that draws more watts than a space heater."
+  tags:
+    - local-ai
+    - self-hosted
+    - infrastructure
+    - blog
+    - sovereign-ai
+  confidence: medium
+curation:
+  status: included
+  reason: This is a content resource documenting a self-hosted local AI stack (119B model on DGX Spark), fitting the local-ai category as a developer-facing guide for running models on own hardware.
+  evidence:
+    - "Site title and description explicitly state: 'Running a 119B AI model at home. No cloud, no subscriptions, no compromises.'"
+    - "Stack details include local runtimes and tools: 'Mistral Small 4 · 119B · SGLang nightly · Gitea · OpenHands · Aider'."
+    - Source list context links it as a resource for 'Server Implementations > Knowledge & Memory' but the primary content is the self-hosted stack documentation.
+placement:
+  primary_category: local-ai
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.730Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:48:15.016Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

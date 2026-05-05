@@ -1,0 +1,99 @@
+id: github__marker-inc-korea__autorag
+kind: github-repo
+name: autorag
+canonical_url: https://github.com/marker-inc-korea/autorag
+identity:
+  github_repo: marker-inc-korea/autorag
+provenance:
+  discoveries:
+    - id: discovery__github__marker-inc-korea__autorag__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - AutoML
+        anchor_text: AutoRAG
+        extracted_url: https://github.com/marker-inc-korea/autorag
+        surrounding_text: "| [AutoRAG](https://github.com/Marker-Inc-Korea/AutoRAG)                       | AutoML tool for RAG - Boost your LLM app performance with your own data                                                                                                         | ![GitHub Badge](https://img.shields.io/github/stars/Marker-Inc-Korea/AutoRAG.svg?style=flat-square)        |"
+        confidence: high
+metadata:
+  github:
+    stars: 4746
+    forks: 397
+    license: Apache-2.0
+    archived: false
+    created_at: "2024-01-10T12:25:00Z"
+    pushed_at: "2026-04-26T01:13:40Z"
+    description: "AutoRAG: An Open-Source Framework for Retrieval-Augmented Generation (RAG) Evaluation & Optimization with AutoML-Style Automation"
+    homepage: https://marker-inc-korea.github.io/AutoRAG/
+    topics:
+      - analysis
+      - automl
+      - benchmarking
+      - document-parser
+      - embeddings
+      - evaluation
+      - llm
+      - llm-evaluation
+      - llm-ops
+      - open-source
+      - ops
+      - optimization
+      - pipeline
+      - python
+      - qa
+      - rag
+      - rag-evaluation
+      - retrieval-augmented-generation
+    last_checked_at: "2026-05-05T21:03:29.915Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:29.915Z"
+      bytes: 15641
+insights:
+  summary: AutoRAG is an open-source Python framework that automates the evaluation and optimization of Retrieval-Augmented Generation (RAG) pipelines using AutoML-style experimentation on your own data.
+  why_it_matters: It lets developers stop guessing which RAG modules work best by automatically benchmarking combinations against their specific corpus and QA datasets.
+  mental_damage: Because nothing says 'trust the AI' like needing an automated system just to figure out which automated system you should have been using in the first place.
+  tags:
+    - rag
+    - automl
+    - evaluation
+    - llm-ops
+    - python
+  confidence: high
+curation:
+  status: included
+  reason: The project is a dedicated evaluation and optimization harness for RAG pipelines, fitting squarely into the evals category as a tool for measuring and tuning LLM system behavior.
+  evidence:
+    - Repo description explicitly defines it as 'Evaluation & Optimization with AutoML-Style Automation' for RAG.
+    - README states its purpose is to 'evaluate various RAG modules automatically... and find the best RAG pipeline'.
+    - Listed in Awesome-LLMOps under the 'AutoML' section, confirming its ops/eval positioning.
+placement:
+  primary_category: evals
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (4746) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.705Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:29.915Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:35:46.385Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

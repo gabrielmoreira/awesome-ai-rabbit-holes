@@ -1,0 +1,74 @@
+id: windsurf__com
+kind: website
+name: windsurf.com
+canonical_url: https://windsurf.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__windsurf__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Code Editors and Assistants
+        anchor_text: Windsurf
+        extracted_url: https://windsurf.com
+        surrounding_text: "- **[Windsurf](https://windsurf.com/)** – AI code editor with Cascade, a deep contextual coding agent that goes beyond autocompletion."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Windsurf is an AI-native IDE and coding agent designed to help developers write, edit, and navigate code within a dedicated editor environment.
+  why_it_matters: It attempts to consolidate coding assistance and agentic workflows into a single development environment, reducing context switching between a chat window and the codebase.
+  mental_damage: Just when you had mastered the arcane art of prompting Cursor, the ecosystem demands you learn a new surfboard-based nomenclature before the next breaking change.
+  tags:
+    - ai-ide
+    - coding-agent
+    - editor
+  confidence: medium
+curation:
+  status: included
+  reason: The product is primarily an AI-native editor/IDE experience (Windsurf), fitting the 'AI IDEs and Editors' category rather than a plugin or a pure app builder.
+  evidence:
+    - URL targets windsurf.com, indicating the primary product surface is a hosted IDE/Editor.
+    - Listed in awesome-ai-coding-tools under the section 'Code Editors and Assistants'.
+placement:
+  primary_category: ai-ides-editors
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.731Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:49:15.535Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

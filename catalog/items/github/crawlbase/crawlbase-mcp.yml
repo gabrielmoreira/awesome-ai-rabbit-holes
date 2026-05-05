@@ -1,0 +1,89 @@
+id: github__crawlbase__crawlbase-mcp
+kind: github-repo
+name: crawlbase-mcp
+canonical_url: https://github.com/crawlbase/crawlbase-mcp
+identity:
+  github_repo: crawlbase/crawlbase-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__crawlbase__crawlbase-mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Crawlbase MCP
+        extracted_url: https://github.com/crawlbase/crawlbase-mcp
+        surrounding_text: "- **[Crawlbase MCP](https://github.com/crawlbase/crawlbase-mcp)** - Enables AI agents to access real-time web data with HTML, markdown, and screenshot support. SDKs: Node.js, Python, Java, PHP, .NET."
+        confidence: high
+metadata:
+  github:
+    stars: 54
+    forks: 14
+    license: null
+    archived: false
+    created_at: "2025-07-10T15:55:53Z"
+    pushed_at: "2026-04-23T23:38:07Z"
+    description: Crawlbase MCP Server connects AI agents and LLMs with real-time web data. It powers Claude, Cursor, and Windsurf integrations with battle-tested web scraping, JavaScript rendering, and anti-bot protection enabling structured, live data inside your AI workflows.
+    homepage: https://crawlbase.com
+    topics:
+      - ai-agents
+      - crawlbase
+      - crawlbase-mcp
+      - llm-integration
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - real-time-web-data
+      - web-scraping
+    last_checked_at: "2026-05-05T21:01:42.636Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:42.636Z"
+      bytes: 6756
+insights:
+  summary: An MCP server that connects AI agents and LLMs to live web data via Crawlbase's scraping infrastructure, supporting JavaScript rendering, anti-bot evasion, and structured outputs.
+  why_it_matters: It gives coding agents and IDEs the ability to fetch fresh, structured web content in real time instead of relying on outdated training data.
+  mental_damage: Your agent can now hallucinate about today's Hacker News instead of last year's, provided you've configured three tokens and convinced the anti-bot gods to cooperate.
+  tags:
+    - mcp
+    - web-scraping
+    - llm-integration
+    - agent-tools
+  confidence: high
+curation:
+  status: included
+  reason: The project is itself an MCP server that extends AI agents with live web scraping capabilities, fitting cleanly into MCP infrastructure tooling.
+  evidence:
+    - Repo description explicitly states it is a Model Context Protocol (MCP) server for connecting AI agents to real-time web data.
+    - README details integration with Claude, Cursor, and Windsurf via MCP configuration and provides crawl, crawl_markdown, and crawl_screenshot commands.
+    - Listed in awesome-mcp-servers under 'Official Servers', reinforcing its role in the MCP ecosystem.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.683Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:42.636Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:14:41.461Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

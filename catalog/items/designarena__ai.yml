@@ -1,0 +1,76 @@
+id: designarena__ai
+kind: website
+name: designarena.ai
+canonical_url: https://designarena.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__designarena__ai__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 体验 Usage
+        anchor_text: Design Arena
+        extracted_url: https://www.designarena.ai
+        surrounding_text: 2. [Design Arena](https://www.designarena.ai/)
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Design Arena is a crowdsourced benchmark platform that pits top AI models against the same creative design prompts and lets users vote on the best outputs to power public leaderboards.
+  why_it_matters: Developers evaluating which AI models to integrate for generating UI components, sites, or visual assets can use the leaderboards to make data-backed decisions rather than guessing based on marketing.
+  mental_damage: We now have a leaderboard for algorithmic taste, because apparently the only thing worse than arguing about design with a human is arguing about it with a leaderboard.
+  tags:
+    - benchmark
+    - eval
+    - design
+    - model-comparison
+  confidence: high
+curation:
+  status: included
+  reason: It is a benchmark and evaluation platform measuring model quality across design and creative generation tasks, which fits squarely into the Evaluations and Benchmarks category.
+  evidence:
+    - "Scraped site states: 'Design Arena is the world's first crowdsourced benchmark for AI-generated design.'"
+    - Site methodology focuses on voting and leaderboards to 'tell the industry which models actually have taste.'
+    - Listed in awesome-LLM-resources under a 'Usage' section focused on体验 (experience/benchmarking).
+placement:
+  primary_category: evals
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.727Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:43:36.660Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

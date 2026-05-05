@@ -1,0 +1,76 @@
+id: arena__ai
+kind: website
+name: arena.ai
+canonical_url: https://arena.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__arena__ai__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 体验 Usage
+        anchor_text: LM Arena
+        extracted_url: https://lmarena.ai/zh
+        surrounding_text: 1. [LM Arena](https://lmarena.ai/zh)
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A browser-based platform for chatting with and comparing multiple top LLMs side-by-side using crowdsourced benchmarks and leaderboards.
+  why_it_matters: Developers can quickly A/B test model behavior, reasoning, and code quality across providers before committing to an API or workflow.
+  mental_damage: Nothing builds confidence in your production prompt engineering quite like watching three frontier models confidently hallucinate in a browser tab at the same time.
+  tags:
+    - llm-comparison
+    - benchmarking
+    - multi-model
+    - evals
+  confidence: high
+curation:
+  status: included
+  reason: The product is fundamentally a benchmark, comparison, and leaderboard platform for measuring model behavior rather than a developer assistant or app builder.
+  evidence:
+    - "Scraped site title and description state: 'Benchmark & Compare the Best AI Models' with side-by-side chat and leaderboards."
+    - Source-list context places it under '体验 Usage' as a tool to 'Chat with multiple AI models side-by-side' and view 'Crowdsourced benchmarks and leaderboards.'
+    - Primary page excerpt highlights 'Battle Mode', 'Leaderboard', and multi-model interaction rather than code editing or app generation.
+placement:
+  primary_category: evals
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.726Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:41:58.217Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

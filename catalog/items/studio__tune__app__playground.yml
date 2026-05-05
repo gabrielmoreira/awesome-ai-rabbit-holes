@@ -1,0 +1,74 @@
+id: studio__tune__app__playground
+kind: website
+name: playground
+canonical_url: https://studio.tune.app/playground
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__studio__tune__app__playground__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: janhq/awesome-local-ai
+        url: https://github.com/janhq/awesome-local-ai
+        repository: janhq/awesome-local-ai
+      extraction:
+        mode: parsed
+        section_path:
+          - Developer tools
+        anchor_text: Tune Studio
+        extracted_url: https://studio.tune.app/playground
+        surrounding_text: "- [Tune Studio](https://studio.tune.app/playground) - Playground for software developers to finetune and deploy large language models."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A browser-based playground for testing and tuning AI models, linked from a collection of local AI tools.
+  why_it_matters: Developers evaluating local or open-source models need a quick, hosted surface to test prompts and parameters without setting up a full local stack.
+  mental_damage: Yet another place to tweak temperature sliders while telling yourself you are doing architecture work instead of shipping code.
+  tags:
+    - playground
+    - model-tracking
+    - local-ai
+  confidence: medium
+curation:
+  status: excluded
+  reason: The project is a generic model testing playground with no evidence of a developer-tooling workflow, IDE integration, or local-AI runtime; it surfaces only as a link in a broader awesome list.
+  evidence:
+    - No repo description, README, or scraped content provided to confirm developer-facing features beyond a generic playground.
+    - Seen only as a link in awesome-local-ai, which curates a broad set of local AI tools and solutions, not exclusively developer workflow tooling.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.730Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:48:22.258Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

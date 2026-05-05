@@ -1,0 +1,81 @@
+id: github__krishnapramodparupudi__kaggle-mcp-server
+kind: github-repo
+name: kaggle-mcp-server
+canonical_url: https://github.com/krishnapramodparupudi/kaggle-mcp-server
+identity:
+  github_repo: krishnapramodparupudi/kaggle-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__krishnapramodparupudi__kaggle-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧮 <a name="data-science-tools"></a>Data Science Tools
+        anchor_text: pramod/kaggle
+        extracted_url: https://github.com/krishnapramodparupudi/kaggle-mcp-server
+        surrounding_text: "- [pramod/kaggle](https://github.com/KrishnaPramodParupudi/kaggle-mcp-server) 🐍 - This Kaggle MCP Server makes Kaggle more accessible by letting you browse competitions, leaderboards, models, datasets, and kernels directly within MCP, streamlining discovery for data scientists and developers."
+        confidence: high
+metadata:
+  github:
+    stars: 3
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2025-09-05T15:26:21Z"
+    pushed_at: "2025-09-05T16:35:24Z"
+    description: This project provides an MCP (Model Context Protocol) server for interacting with Kaggle competitions from Claude Desktop (or any MCP-compatible client)
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:03:07.913Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:07.913Z"
+      bytes: 2301
+insights:
+  summary: A Model Context Protocol server that exposes Kaggle API methods, such as fetching competition lists, to MCP-compatible clients like Claude Desktop.
+  why_it_matters: It allows data scientists and developers to query Kaggle competitions and datasets directly through their AI assistant rather than switching to the browser or CLI.
+  mental_damage: "We have finally achieved the platonic ideal of modern development: installing a local server to ask an AI to read a list of contests for us."
+  tags:
+    - mcp
+    - kaggle
+    - data-science
+    - claude
+  confidence: high
+curation:
+  status: included
+  reason: The project is a distinct MCP server implementation designed to integrate Kaggle into MCP-compatible clients, fitting the MCP infrastructure scope.
+  evidence:
+    - Repo description explicitly states it is 'an MCP (Model Context Protocol) server for interacting with Kaggle'.
+    - README details the implementation of MCP tools like get_competitions_list using the @mcp.tool() decorator.
+    - Listed in awesome-mcp-servers under 'Data Science Tools', confirming its role as MCP infrastructure.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.702Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:07.913Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:31:17.094Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

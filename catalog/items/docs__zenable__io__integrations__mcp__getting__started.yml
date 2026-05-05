@@ -1,0 +1,76 @@
+id: docs__zenable__io__integrations__mcp__getting__started
+kind: website
+name: getting-started
+canonical_url: https://docs.zenable.io/integrations/mcp/getting-started
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__docs__zenable__io__integrations__mcp__getting__started__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Zenable
+        extracted_url: https://docs.zenable.io/integrations/mcp/getting-started
+        surrounding_text: "- **[Zenable](https://docs.zenable.io/integrations/mcp/getting-started)** - Clean up sloppy AI code and prevent vulnerabilities"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Zenable provides an MCP server that connects AI coding assistants to organizational governance policies, automatically checking and improving code against predefined requirements within supported IDEs.
+  why_it_matters: It allows teams to enforce consistent coding standards, security requirements, and compliance policies directly within their AI agent workflows rather than relying solely on post-hoc PR reviews.
+  mental_damage: You can now outsource your managerial anxiety to an MCP server that yells at your AI agent for not following the very rules you wrote but never actually enforced.
+  tags:
+    - mcp
+    - governance
+    - policy-as-code
+    - ide-integration
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server designed to integrate organizational governance and policy checking into AI coding assistants via the Model Context Protocol.
+  evidence:
+    - "Scraped site title confirms: 'MCP Server Installation - Zenable Governance Platform'."
+    - "Documentation states: 'The Zenable MCP (Model Context Protocol) Server enables your AI coding assistant to automatically check and improve your code against your organization’s requirements.'"
+    - Listed in 'awesome-mcp-servers' under the 'Official Servers' section.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.727Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:44:13.329Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

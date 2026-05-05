@@ -1,0 +1,80 @@
+id: github__composable-models__llm_multiagent_debate
+kind: github-repo
+name: llm_multiagent_debate
+canonical_url: https://github.com/composable-models/llm_multiagent_debate
+identity:
+  github_repo: composable-models/llm_multiagent_debate
+provenance:
+  discoveries:
+    - id: discovery__github__composable-models__llm_multiagent_debate__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Multiagent Debate
+        anchor_text: Multiagent Debate
+        extracted_url: https://github.com/composable-models/llm_multiagent_debate
+        surrounding_text: "## [Multiagent Debate](https://github.com/composable-models/llm_multiagent_debate)"
+        confidence: high
+metadata:
+  github:
+    stars: 527
+    forks: 82
+    license: null
+    archived: false
+    created_at: "2023-05-23T15:48:15Z"
+    pushed_at: "2025-04-24T21:49:03Z"
+    description: "ICML 2024: Improving Factuality and Reasoning in Language Models through Multiagent Debate"
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:01:39.765Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:39.765Z"
+      bytes: 2627
+insights:
+  summary: A research codebase implementing the ICML 2024 paper 'Improving Factuality and Reasoning in Language Models through Multiagent Debate' for running evaluations on math, biography, and MMLU tasks.
+  why_it_matters: It provides a concrete implementation for developers and researchers looking to experiment with multiagent debate strategies to improve LLM reasoning and factuality.
+  mental_damage: Yet another academic repo proving that if you make two models argue long enough, one of them eventually stumbles onto the correct answer, saving us the trouble of actually understanding the math.
+  tags:
+    - multiagent
+    - research
+    - llm-reasoning
+    - evaluation
+  confidence: high
+curation:
+  status: excluded
+  reason: Excluded because this is an academic research implementation and evaluation harness for a specific paper, not a practical developer tool, agent orchestration platform, or framework for building production software.
+  evidence:
+    - Repo description explicitly states it is an 'ICML 2024' paper implementation, not a tool.
+    - README details running experiments on arithmetic, GSM, biographies, and MMLU rather than building applications.
+    - Listed in awesome-ai-agents under 'Multiagent Debate' as a research concept rather than a usable agent product.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (527) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.683Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:39.765Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:14:08.053Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

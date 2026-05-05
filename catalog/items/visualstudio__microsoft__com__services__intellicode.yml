@@ -1,0 +1,75 @@
+id: visualstudio__microsoft__com__services__intellicode
+kind: website
+name: intellicode
+canonical_url: https://visualstudio.microsoft.com/services/intellicode
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__visualstudio__microsoft__com__services__intellicode__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Code Completion
+        anchor_text: Visual Studio IntelliCode
+        extracted_url: https://visualstudio.microsoft.com/services/intellicode
+        surrounding_text: "- **[Visual Studio IntelliCode](https://visualstudio.microsoft.com/services/intellicode/)** – Microsoft's AI code completion for Visual Studio."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Visual Studio IntelliCode is an AI-powered code completion and refactoring tool integrated directly into Visual Studio and VS Code to suggest whole-line completions and context-aware refactorings.
+  why_it_matters: It reduces keystrokes and speeds up repetitive editing tasks by analyzing code context to provide smarter IntelliSense suggestions and automated repetitive edits.
+  mental_damage: Just when you thought your tab key was safe, Microsoft found a way to make you feel guilty for typing out variable names that the AI already guessed.
+  tags:
+    - code-completion
+    - visual-studio
+    - vs-code
+    - refactoring
+  confidence: high
+curation:
+  status: included
+  reason: It is a direct developer-facing coding assistant that writes, edits, and refactors code inside the IDE workflow, fitting the coding-agents definition.
+  evidence:
+    - Scraped site context describes 'whole-line autocompletions' and 'refactoring with ease' inside Visual Studio and VS Code.
+    - Listed in awesome-ai-coding-tools under the 'Code Completion' section as an AI-assisted development capability.
+placement:
+  primary_category: coding-agents
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.731Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:49:07.388Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

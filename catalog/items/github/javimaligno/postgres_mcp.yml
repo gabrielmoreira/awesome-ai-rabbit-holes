@@ -1,0 +1,82 @@
+id: github__javimaligno__postgres_mcp
+kind: github-repo
+name: postgres_mcp
+canonical_url: https://github.com/javimaligno/postgres_mcp
+identity:
+  github_repo: javimaligno/postgres_mcp
+provenance:
+  discoveries:
+    - id: discovery__github__javimaligno__postgres_mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🗄️ <a name="databases"></a>Databases
+        anchor_text: JaviMaligno/postgres_mcp
+        extracted_url: https://github.com/javimaligno/postgres_mcp
+        surrounding_text: "- [JaviMaligno/postgres_mcp](https://github.com/JaviMaligno/postgres_mcp) 🐍 🏠 - PostgreSQL MCP server with 14 tools for querying, schema exploration, and table analysis. Features security-first design with SQL injection prevention and read-only by default."
+        confidence: high
+metadata:
+  github:
+    stars: 8
+    forks: 4
+    license: MIT
+    archived: false
+    created_at: "2025-07-04T17:02:32Z"
+    pushed_at: "2026-01-23T20:08:44Z"
+    description: The only postgress MCP server I have been able to connect to my docker postgres
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:52.858Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:52.858Z"
+      bytes: 8265
+insights:
+  summary: A TypeScript and Python MCP server that exposes PostgreSQL databases to Claude Code, Cursor, and other MCP clients for query execution, schema exploration, and performance analysis.
+  why_it_matters: It lets developers point a coding agent directly at a live Postgres instance so the assistant can inspect schemas, run queries, and suggest optimizations without leaving the IDE.
+  mental_damage: Another brick in the wall of 'I connected my agent to production' bravery, now with read-only protection as the only thing standing between you and a very expensive afternoon.
+  tags:
+    - mcp
+    - postgresql
+    - database
+    - cursor
+    - claude-code
+  confidence: medium
+curation:
+  status: included
+  reason: The project is a standalone MCP server implementation for PostgreSQL, which fits cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly calls it a 'postgress MCP server' for Docker Postgres connections
+    - README confirms it is a Model Context Protocol server with TypeScript and Python implementations
+    - Listed in awesome-mcp-servers under Server Implementations > Databases
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.699Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:52.858Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:27:57.062Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,97 @@
+id: github__kukapay__uniswap-trader-mcp
+kind: github-repo
+name: uniswap-trader-mcp
+canonical_url: https://github.com/kukapay/uniswap-trader-mcp
+identity:
+  github_repo: kukapay/uniswap-trader-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__kukapay__uniswap-trader-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: kukapay/uniswap-trader-mcp
+        extracted_url: https://github.com/kukapay/uniswap-trader-mcp
+        surrounding_text: "- [kukapay/uniswap-trader-mcp](https://github.com/kukapay/uniswap-trader-mcp) 🐍 ☁️ -  An MCP server that delivers real-time token prices from Uniswap V3 across multiple chains."
+        confidence: high
+    - id: discovery__github__kukapay__uniswap-trader-mcp__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - 💰 Finance & Fintech
+        anchor_text: kukapay/uniswap-trader-mcp
+        extracted_url: https://github.com/kukapay/uniswap-trader-mcp
+        surrounding_text: "-   **[kukapay/uniswap-trader-mcp](https://github.com/kukapay/uniswap-trader-mcp)** [![GitHub stars](https://img.shields.io/github/stars/kukapay/uniswap-trader-mcp?style=social)](https://github.com/kukapay/uniswap-trader-mcp): Automates token swaps on Uniswap DEX."
+        confidence: high
+metadata:
+  github:
+    stars: 36
+    forks: 15
+    license: MIT
+    archived: false
+    created_at: "2025-03-21T04:35:32Z"
+    pushed_at: "2025-05-07T17:23:28Z"
+    description: An MCP server for AI agents to automate token swaps on Uniswap DEX across multiple blockchains.
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:03:13.121Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:13.121Z"
+      bytes: 4649
+insights:
+  summary: An MCP server that lets AI agents fetch price quotes, generate swap suggestions, and execute token swaps on Uniswap V3 across multiple blockchains.
+  why_it_matters: Developers building DeFi agents can integrate Uniswap trading capabilities through a standardized MCP interface instead of wiring raw blockchain calls themselves.
+  mental_damage: Your AI agent can now rug your portfolio across eight chains with nothing more than a poorly phrased prompt and a leaked private key.
+  tags:
+    - mcp
+    - defi
+    - uniswap
+    - agent-tooling
+    - blockchain
+  confidence: high
+curation:
+  status: included
+  reason: This is a standalone MCP server that exposes Uniswap trading tools for AI agents, which fits cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states it is 'An MCP server for AI agents to automate token swaps on Uniswap DEX'.
+    - README documents MCP tools like getPrice and executeSwap configured via standard mcpServers JSON.
+    - Listed in awesome-mcp-list and awesome-mcp-servers under Finance & Fintech sections.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.668Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:13.121Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:32:30.855Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

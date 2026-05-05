@@ -1,0 +1,78 @@
+id: github__com__fiddler__labs
+kind: website
+name: fiddler-labs
+canonical_url: https://github.com/fiddler-labs
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__github__com__fiddler__labs__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Training
+          - Visualization
+        anchor_text: Fiddler AI
+        extracted_url: https://github.com/fiddler-labs
+        surrounding_text: "| [Fiddler AI](https://github.com/fiddler-labs)                  | Rich dashboards, reports, and UMAP to perform root cause analysis, pinpoint problem areas, like correctness, safety, and privacy issues, and improve LLM outcomes.            |                                                                                                         |"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Fiddler AI is a company GitHub organization hosting repos for AI observability, including fiddler-auditor for evaluating language models and tooling for ML monitoring.
+  why_it_matters: It provides developers with utilities to evaluate language models and observe ML behavior, fitting into the operational side of LLMOps workflows.
+  mental_damage: Yet another reminder that we now need a dedicated auditing tool just to figure out which of our black-box models is confidently hallucinating in production.
+  tags:
+    - llm-eval
+    - ai-observability
+    - ml-monitoring
+  confidence: medium
+curation:
+  status: included
+  reason: The fiddler-auditor repo explicitly evaluates language models, and the organization focuses on AI trust and observability, which aligns with developer-facing evaluation and benchmarking tooling.
+  evidence:
+    - Repo fiddler-auditor is described as 'a tool to evaluate language models' with 190 stars.
+    - Source list Awesome-LLMOps includes it under Training > Visualization as an AI trust and observability platform.
+    - Organization pitch is 'Build trust into AI' with repos for model reporting and observability integrations.
+placement:
+  primary_category: evals
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.728Z"
+    cause:
+      type: ambiguous_canonicalization
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:44:48.868Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

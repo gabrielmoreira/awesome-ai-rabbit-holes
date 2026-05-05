@@ -1,0 +1,87 @@
+id: github__keras-team__keras-tuner
+kind: github-repo
+name: keras-tuner
+canonical_url: https://github.com/keras-team/keras-tuner
+identity:
+  github_repo: keras-team/keras-tuner
+provenance:
+  discoveries:
+    - id: discovery__github__keras-team__keras-tuner__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - AutoML
+        anchor_text: Keras Tuner
+        extracted_url: https://github.com/keras-team/keras-tuner
+        surrounding_text: "| [Keras Tuner](https://github.com/keras-team/keras-tuner)                     | Hyperparameter tuning for humans.                                                                                                                                               | ![GitHub Badge](https://img.shields.io/github/stars/keras-team/keras-tuner.svg?style=flat-square)          |"
+        confidence: high
+metadata:
+  github:
+    stars: 2923
+    forks: 402
+    license: Apache-2.0
+    archived: false
+    created_at: "2019-06-06T22:38:21Z"
+    pushed_at: "2025-12-01T22:23:25Z"
+    description: A Hyperparameter Tuning Library for Keras
+    homepage: https://keras.io/keras_tuner/
+    topics:
+      - automl
+      - deep-learning
+      - hyperparameter-optimization
+      - keras
+      - machine-learning
+      - tensorflow
+    last_checked_at: "2026-05-05T21:03:04.083Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:04.083Z"
+      bytes: 3500
+insights:
+  summary: A hyperparameter optimization library for Keras that provides Bayesian Optimization, Hyperband, and Random Search to tune model hyperparameters.
+  why_it_matters: It lets deep learning developers define a search space with a simple API and automate the trial-and-error process of finding optimal model configurations.
+  mental_damage: Because clearly what the modern ML engineer needed was another layer of abstraction to endlessly tweak while their models trained for three days on a hunch.
+  tags:
+    - deep-learning
+    - hyperparameter-tuning
+    - keras
+    - tensorflow
+    - automl
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a traditional deep learning library for Keras/TensorFlow hyperparameter tuning, lacking the AI-assisted developer workflow or LLM-centric focus required for this catalog.
+  evidence:
+    - Repo description explicitly defines it as 'A Hyperparameter Tuning Library for Keras', targeting deep learning model training rather than code generation.
+    - Topics and README focus on TensorFlow, model building, and search algorithms (Bayesian, Hyperband) with no mention of LLMs, coding agents, or developer assistance.
+    - Seen in Awesome-LLMOps under 'AutoML', but the tool itself is a conventional ML framework without an AI developer tooling angle.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (2923) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.701Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:04.083Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:30:25.162Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

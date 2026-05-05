@@ -1,0 +1,76 @@
+id: docs__anthropic__com__en__docs__agents__and__tools__claude__code__overview
+kind: website
+name: overview
+canonical_url: https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__docs__anthropic__com__en__docs__agents__and__tools__claude__code__overview__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Coding Agents
+        anchor_text: Claude Code
+        extracted_url: https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview
+        surrounding_text: "- **[Claude Code](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview)** – Anthropic's agentic coding tool for the terminal with deep codebase understanding."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Official documentation for Claude Code, Anthropic's terminal-based coding agent that operates directly within a developer's repository.
+  why_it_matters: It provides the canonical reference for a first-party agent that lets developers delegate coding tasks, debugging, and testing to Claude directly from the CLI.
+  mental_damage: Now you can feel productive while watching a model silently refactor your repo in a terminal window you barely understand.
+  tags:
+    - coding-agent
+    - cli
+    - anthropic
+    - documentation
+  confidence: high
+curation:
+  status: included
+  reason: This is the official documentation for Claude Code, a first-party terminal coding agent that directly edits, plans, and tests code within a repo workflow.
+  evidence:
+    - URL is the official Anthropic documentation for Claude Code (docs.anthropic.com).
+    - Listed in awesome-ai-coding-tools under the 'Coding Agents' section.
+    - Tool is described as a coding agent operating in the terminal/repo context, fitting the coding-agents category instruction.
+placement:
+  primary_category: coding-agents
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.727Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:43:53.784Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

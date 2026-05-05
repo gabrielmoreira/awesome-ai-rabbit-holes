@@ -1,0 +1,77 @@
+id: bldbl__dev
+kind: website
+name: bldbl.dev
+canonical_url: https://bldbl.dev
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__bldbl__dev__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: bldbl.dev
+        extracted_url: https://bldbl.dev
+        surrounding_text: "- [Chunkydotdev/bldbl-mcp](https://github.com/chunkydotdev/bldbl-mcp) 📇 ☁️ 🍎 🪟 🐧 - Official MCP server for Buildable AI-powered development platform [bldbl.dev](https://bldbl.dev). Enables AI assistants to manage tasks, track progress, get project context, and collaborate with humans on software projects."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A SaaS platform that turns a product idea into an AI-generated backlog, scaffolds a private GitHub repository with CI/CD, and streams executable tasks to any MCP-compatible AI assistant.
+  why_it_matters: It shifts the AI workflow from line-by-line code completion to project-level planning and task orchestration, bridging the gap between a napkin sketch and an active CI pipeline.
+  mental_damage: We have officially reached the point where the AI generates the tickets, scaffolds the repo, and then politely asks another AI to actually write the code, leaving the developer to referee the process from a Kanban board.
+  tags:
+    - mcp
+    - project-planning
+    - scaffolding
+    - saas-builder
+  confidence: high
+curation:
+  status: included
+  reason: While it generates code via assistants, its core value is the project-level orchestration—planning the backlog, initializing the repo, and streaming task flows to external AI agents via MCP.
+  evidence:
+    - "Scraped site states: 'Buildable plans the backlog, scaffolds a private repo, then streams MCP tasks to any AI assistant.'"
+    - Listed in awesome-mcp-servers under 'Developer Tools' for providing an MCP server integration.
+    - Features include AI-generated project plans, repository scaffolding, and a live Kanban board that auto-updates on CI status.
+placement:
+  primary_category: agent-orchestration
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.726Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:42:35.356Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

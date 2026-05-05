@@ -1,0 +1,80 @@
+id: github__markuspfundstein__mcp-obsidian
+kind: github-repo
+name: mcp-obsidian
+canonical_url: https://github.com/markuspfundstein/mcp-obsidian
+identity:
+  github_repo: markuspfundstein/mcp-obsidian
+provenance:
+  discoveries:
+    - id: discovery__github__markuspfundstein__mcp-obsidian__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: Obsidian
+        extracted_url: https://github.com/markuspfundstein/mcp-obsidian
+        surrounding_text: "- **[Obsidian](https://github.com/MarkusPfundstein/mcp-obsidian)** - Interacting with Obsidian via REST API"
+        confidence: high
+metadata:
+  github:
+    stars: 3581
+    forks: 418
+    license: MIT
+    archived: false
+    created_at: "2024-11-29T11:07:12Z"
+    pushed_at: "2025-06-28T09:04:04Z"
+    description: MCP server that interacts with Obsidian via the Obsidian rest API community plugin
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:03:30.625Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:30.625Z"
+      bytes: 4443
+insights:
+  summary: An MCP server that connects AI assistants to Obsidian via the Local REST API to list, read, search, and edit vault notes.
+  why_it_matters: It lets developers use Claude Desktop or other MCP-compatible agents to query meeting notes, summarize architecture decisions, and write new documentation directly inside their knowledge base.
+  mental_damage: You can now ask an AI to summarize your meeting notes, only to realize the AI is reading the notes you took while daydreaming about refactoring your monolith.
+  tags:
+    - mcp
+    - obsidian
+    - tooling
+    - knowledge-base
+  confidence: high
+curation:
+  status: included
+  reason: The project is a canonical MCP server implementation for Obsidian, fitting squarely into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states 'MCP server that interacts with Obsidian via the Obsidian rest API community plugin'.
+    - README details multiple MCP tools (list_files_in_vault, search, patch_content) and Claude Desktop configuration.
+    - Listed in awesome-mcp-servers under 'Community Servers', confirming its role in the MCP ecosystem.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (3581) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.705Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:30.625Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:35:53.191Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

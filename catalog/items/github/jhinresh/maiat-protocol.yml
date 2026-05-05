@@ -1,0 +1,82 @@
+id: github__jhinresh__maiat-protocol
+kind: github-repo
+name: maiat-protocol
+canonical_url: https://github.com/jhinresh/maiat-protocol
+identity:
+  github_repo: jhinresh/maiat-protocol
+provenance:
+  discoveries:
+    - id: discovery__github__jhinresh__maiat-protocol__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: JhiNResH/maiat-protocol
+        extracted_url: https://github.com/jhinresh/maiat-protocol
+        surrounding_text: "- [JhiNResH/maiat-protocol](https://github.com/JhiNResH/maiat-protocol) [![JhiNResH/maiat-protocol MCP server](https://glama.ai/mcp/servers/JhiNResH/maiat-protocol/badges/score.svg)](https://glama.ai/mcp/servers/JhiNResH/maiat-protocol) 📇 ☁️ - Trust infrastructure for the agent economy. 4 tools: agent trust scores (18K+ agents indexed), token rug pull forensics, outcome reporting for oracle feedback loop, and Scarab reputation points. Hosted MCP at `https://app.maiat.io/api/mcp`."
+        confidence: high
+metadata:
+  github:
+    stars: 2
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-02-21T23:57:00Z"
+    pushed_at: "2026-04-06T03:36:18Z"
+    description: The trust layer for agentic commerce. Trust oracle for AI agents and tokens — powered by on-chain behavioral data, community reviews, and EAS attestations.
+    homepage: https://app.maiat.io/
+    topics: []
+    last_checked_at: "2026-05-05T21:02:54.757Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:54.757Z"
+      bytes: 4710
+insights:
+  summary: A trust oracle protocol that provides on-chain behavioral data, community reviews, and EAS attestations to help AI agents evaluate token safety and agent reputation for commerce workflows.
+  why_it_matters: Developers building agentic commerce systems can integrate SDKs, an MCP server, and plugins for ElizaOS, Coinbase AgentKit, and Virtuals to gate transactions based on trust scores.
+  mental_damage: We have finally reached the point where AI agents need their own on-chain credit bureaus and we are the ones writing the smart contracts to power them.
+  tags:
+    - agent-trust
+    - mcp
+    - web3
+    - sdk
+    - fintech
+  confidence: medium
+curation:
+  status: included
+  reason: The project ships a dedicated MCP server package for Claude and other MCP-compatible AIs, and is explicitly listed in the awesome-mcp-servers finance section, making it a clear fit for MCP infrastructure.
+  evidence:
+    - README lists @jhinresh/mcp-server as a package for Claude, GPT, and MCP-compatible AIs.
+    - Appears in awesome-mcp-servers under Server Implementations > Finance & Fintech.
+    - Provides SDKs and plugins for multiple agent frameworks including ElizaOS and Coinbase AgentKit.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.700Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:54.757Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:28:16.439Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

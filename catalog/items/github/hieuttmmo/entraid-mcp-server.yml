@@ -1,0 +1,81 @@
+id: github__hieuttmmo__entraid-mcp-server
+kind: github-repo
+name: entraid-mcp-server
+canonical_url: https://github.com/hieuttmmo/entraid-mcp-server
+identity:
+  github_repo: hieuttmmo/entraid-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__hieuttmmo__entraid-mcp-server__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: Microsoft Entra ID MCP Server
+        extracted_url: https://github.com/hieuttmmo/entraid-mcp-server
+        surrounding_text: "- **[Microsoft Entra ID MCP Server](https://github.com/hieuttmmo/entraid-mcp-server)** - A Python MCP server for Microsoft Entra ID (Azure AD) directory, user, group, device, sign-in, and security operations via Microsoft Graph."
+        confidence: high
+metadata:
+  github:
+    stars: 38
+    forks: 14
+    license: null
+    archived: false
+    created_at: "2025-04-25T11:00:19Z"
+    pushed_at: "2025-05-02T08:59:23Z"
+    description: MCP server for interacting with EntraID through Microsoft Graph API.
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:02:33.476Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:33.476Z"
+      bytes: 12858
+insights:
+  summary: A modular MCP server built with FastMCP that exposes Microsoft Graph API operations for EntraID, enabling AI agents to manage users, groups, applications, and audit logs.
+  why_it_matters: It allows developers to plug rich Microsoft identity management capabilities into MCP-compatible assistants, bridging the gap between natural language requests and complex Azure AD operations.
+  mental_damage: Finally, a way to delegate the existential dread of manually clicking through EntraID conditional access policies to an agent that might hallucinate the permissions instead.
+  tags:
+    - mcp
+    - entraid
+    - microsoft-graph
+    - fastmcp
+    - identity
+  confidence: high
+curation:
+  status: included
+  reason: The project is a distinct Model Context Protocol server implementation designed to expose Microsoft Graph/EntraID functionality to MCP clients.
+  evidence:
+    - "Repo description explicitly states: 'MCP server for interacting with EntraID through Microsoft Graph API.'"
+    - README confirms it is a 'modular, resource-oriented FastMCP server' with specific resource modules for users, groups, and sign-in logs.
+    - Listed in the 'awesome-mcp-servers' directory under 'Community Servers', confirming its role as an MCP tool.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.691Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:33.476Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:23:54.818Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,81 @@
+id: github__ironcladdev__langchain.js-llm-template
+kind: github-repo
+name: langchain.js-llm-template
+canonical_url: https://github.com/ironcladdev/langchain.js-llm-template
+identity:
+  github_repo: ironcladdev/langchain.js-llm-template
+provenance:
+  discoveries:
+    - id: discovery__github__conner1115__langchain.js-llm-template__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Tools
+          - Templates
+        anchor_text: LangChain.js LLM Template
+        extracted_url: https://github.com/conner1115/langchain.js-llm-template
+        surrounding_text: "- [LangChain.js LLM Template](https://github.com/Conner1115/LangChain.js-LLM-Template): LangChain LLM template that allows you to train your own custom AI LLM model. ![GitHub Repo stars](https://img.shields.io/github/stars/Conner1115/LangChain.js-LLM-Template?style=social)"
+        confidence: high
+metadata:
+  github:
+    stars: 330
+    forks: 50
+    license: null
+    archived: true
+    created_at: "2023-02-24T23:46:26Z"
+    pushed_at: "2023-04-01T13:40:55Z"
+    description: This is a LangChain LLM template that allows you to train your own custom AI LLM.
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:46.501Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:46.501Z"
+      bytes: 783
+insights:
+  summary: A LangChain.js template for training a custom LLM on local markdown files using OpenAI embeddings and a vector store.
+  why_it_matters: It provides a minimal starting point for developers wanting to prototype a document-grounded Q&A bot without configuring a RAG pipeline from scratch.
+  mental_damage: Yet another 'train your own AI' template that basically wraps a vector store in a folder, proving that in 2023, 'training' was just a synonym for 'ingesting'.
+  tags:
+    - langchain
+    - rag
+    - template
+    - vector-store
+  confidence: high
+curation:
+  status: excluded
+  reason: The repository is archived and has not been updated since April 2023, making it a stale example rather than an active developer tool.
+  evidence:
+    - Repo is marked as archived.
+    - Last push was 2023-04-01, over a year ago.
+    - Project is a simple boilerplate fork rather than a maintained framework or product.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: needs_review
+  reason: Repository is archived
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:26:32.445Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.683Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:46.501Z"
+    cause: null
+    next_retry_at: null

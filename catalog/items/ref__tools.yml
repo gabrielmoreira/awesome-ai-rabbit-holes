@@ -1,0 +1,76 @@
+id: ref__tools
+kind: website
+name: ref.tools
+canonical_url: https://ref.tools
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__ref__tools__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: ref.tools
+        extracted_url: https://ref.tools
+        surrounding_text: "- **[Ref](https://github.com/ref-tools/ref-tools-mcp)** - Up-to-date documentation for your coding agent. Covers 1000s of public repos and sites. Built by [ref.tools](https://ref.tools/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A tool that provides coding agents with compressed, relevant documentation to reduce context bloat and token usage.
+  why_it_matters: It addresses the token window limitation by stripping documentation down to only the necessary tokens required for a specific coding task.
+  mental_damage: We have finally engineered a solution to the problem of documentation being too long to read, by automating the process of reading less of it.
+  tags:
+    - context-engineering
+    - docs
+    - tokens
+    - agent-optimization
+  confidence: medium
+curation:
+  status: included
+  reason: The product focuses on shaping the context provided to an agent by reducing documentation bloat, fitting the context-engineering category.
+  evidence:
+    - "Scraped site title: 'Ref - Context for your coding agent'"
+    - "Description: 'Give your agent the docs it needs to succeed. Exactly the tokens you need, no bloat.'"
+    - Listed in awesome-mcp-servers under 'Official Servers' as a documentation provider.
+placement:
+  primary_category: context-engineering
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.729Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:47:25.328Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

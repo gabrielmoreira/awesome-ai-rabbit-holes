@@ -1,0 +1,81 @@
+id: github__cameroncooke__reloaderoo
+kind: github-repo
+name: reloaderoo
+canonical_url: https://github.com/cameroncooke/reloaderoo
+identity:
+  github_repo: cameroncooke/reloaderoo
+provenance:
+  discoveries:
+    - id: discovery__github__cameroncooke__reloaderoo__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: Reloaderoo
+        extracted_url: https://github.com/cameroncooke/reloaderoo
+        surrounding_text: "- **[Reloaderoo](https://github.com/cameroncooke/reloaderoo)** - A local MCP server for developers that mirrors your in-development MCP server, allowing seamless restarts and tool updates so you can build, test, and iterate on your MCP server within the same AI session without interruption."
+        confidence: high
+metadata:
+  github:
+    stars: 119
+    forks: 15
+    license: MIT
+    archived: false
+    created_at: "2025-06-17T18:08:50Z"
+    pushed_at: "2026-02-04T19:20:56Z"
+    description: Powerful MCP debugging proxy and CLI inspection tool.
+    homepage: https://www.async-let.com
+    topics: []
+    last_checked_at: "2026-05-05T21:01:29.467Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:29.467Z"
+      bytes: 18203
+insights:
+  summary: A CLI inspection tool and transparent proxy that enables hot-reloading and debugging for Model Context Protocol (MCP) server development.
+  why_it_matters: It allows developers to test MCP servers without complex client setups and iterate on code without disconnecting their AI clients or losing session context.
+  mental_damage: Finally, a tool to manage the meta-workflow of the proxy that manages the tool that manages the model, ensuring your stack is thoroughly abstracted from the code you're actually trying to write.
+  tags:
+    - mcp
+    - debugging
+    - cli
+    - proxy
+    - developer-tools
+  confidence: high
+curation:
+  status: included
+  reason: The project is a dedicated MCP infrastructure tool (proxy/inspector/CLI) designed specifically for developing and debugging MCP servers, fitting the mcp category perfectly.
+  evidence:
+    - "Repo description explicitly states: 'Powerful MCP debugging proxy and CLI inspection tool.'"
+    - "README details dual-mode operation for MCP: CLI inspection and transparent proxy with hot-reload capabilities."
+    - Featured in the 'awesome-mcp-servers' list under 'Community Servers', reinforcing its specific MCP ecosystem role.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.682Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:29.467Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:12:19.877Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

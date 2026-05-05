@@ -1,0 +1,102 @@
+id: github__littlebearapps__outlook-assistant
+kind: github-repo
+name: outlook-assistant
+canonical_url: https://github.com/littlebearapps/outlook-assistant
+identity:
+  github_repo: littlebearapps/outlook-assistant
+provenance:
+  discoveries:
+    - id: discovery__github__littlebearapps__outlook-assistant__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💬 <a name="communication"></a>Communication
+        anchor_text: littlebearapps/outlook-assistant
+        extracted_url: https://github.com/littlebearapps/outlook-assistant
+        surrounding_text: "- [littlebearapps/outlook-assistant](https://github.com/littlebearapps/outlook-assistant) [![outlook-assistant MCP server](https://glama.ai/mcp/servers/@littlebearapps/outlook-assistant/badges/score.svg)](https://glama.ai/mcp/servers/@littlebearapps/outlook-assistant) 📇 ☁️ - Ask your AI assistant to search your inbox, send emails, schedule meetings, manage contacts, and configure mailbox settings — without leaving the conversation. Works with Claude, Cursor, Windsurf, and any MCP-compatible client."
+        confidence: high
+metadata:
+  github:
+    stars: 13
+    forks: 6
+    license: MIT
+    archived: false
+    created_at: "2025-12-31T02:18:46Z"
+    pushed_at: "2026-05-05T14:31:53Z"
+    description: MCP server for Outlook email, calendar, and contacts — let your AI assistant manage your inbox directly from the conversation.
+    homepage: https://littlebearapps.com/builds/outlook-assistant
+    topics:
+      - ai
+      - ai-agents
+      - automation
+      - calendar
+      - claude
+      - claude-code
+      - contacts
+      - cursor
+      - email
+      - email-automation
+      - llm
+      - mcp
+      - mcp-server
+      - microsoft-365
+      - microsoft-graph
+      - microsoft-graph-api
+      - model-context-protocol
+      - outlook
+      - productivity
+      - windsurf
+    last_checked_at: "2026-05-05T21:03:21.624Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:21.624Z"
+      bytes: 25826
+insights:
+  summary: An MCP server that connects AI assistants to Microsoft Outlook for managing email, calendar, contacts, and mailbox settings via the Model Context Protocol.
+  why_it_matters: It allows developers to automate inbox management, calendar scheduling, and email workflows directly from their AI assistant without context-switching to Outlook.
+  mental_damage: "We have finally achieved the future: an AI agent that can argue with your meeting invites and investigate phishing headers while you pretend to be busy debugging."
+  tags:
+    - mcp
+    - outlook
+    - email-automation
+    - productivity
+    - microsoft-365
+  confidence: high
+curation:
+  status: included
+  reason: The project is a canonical MCP server implementation that gives AI assistants direct access to Microsoft Graph/Outlook, fitting the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states it is an 'MCP server for Outlook email, calendar, and contacts'.
+    - README confirms it connects AI assistants via the Model Context Protocol and works with Claude, Cursor, and Windsurf.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Communication'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.704Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:21.624Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:34:11.528Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

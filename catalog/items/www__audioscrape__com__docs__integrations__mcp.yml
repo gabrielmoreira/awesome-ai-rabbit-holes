@@ -1,0 +1,77 @@
+id: www__audioscrape__com__docs__integrations__mcp
+kind: website
+name: mcp
+canonical_url: https://www.audioscrape.com/docs/integrations/mcp
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__audioscrape__com__docs__integrations__mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Audioscrape
+        extracted_url: https://www.audioscrape.com/docs/mcp
+        surrounding_text: "- **[Audioscrape](https://www.audioscrape.com/docs/mcp)** - Search 1M+ hours of podcasts, interviews, talks and your private audio uploads with speaker identification and timestamps. Official Remote MCP server (via https://mcp.audioscrape.com) enabling AI assistants to access and analyze audio content through semantic and text-based search."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: An MCP server that lets AI assistants like Claude search and retrieve content from a database of over a million hours of indexed podcasts, interviews, and talks.
+  why_it_matters: It allows developers to query spoken audio content directly from their IDE or terminal, bridging the gap between long-form audio intelligence and the coding workflow.
+  mental_damage: We have finally achieved the singularity where your coding agent can procrastinate by listening to podcasts instead of just reading documentation.
+  tags:
+    - mcp
+    - audio-search
+    - podcast
+    - context-tooling
+    - integrations
+  confidence: high
+curation:
+  status: included
+  reason: The product is explicitly an MCP server implementation designed to extend AI assistants with audio search capabilities, fitting squarely into the MCP tooling category.
+  evidence:
+    - Scraped site context confirms 'Audioscrape provides a Model Context Protocol (MCP) server that allows AI assistants like Claude to directly access and search audio content.'
+    - Listed in the 'awesome-mcp-servers' directory under Official Servers with the specific purpose of audio search.
+    - Documentation details specific MCP tools like 'search_audio_content' and 'get_episode_content' with OAuth 2.0 support.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.731Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:49:44.655Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

@@ -1,0 +1,84 @@
+id: github__cli__cli
+kind: github-repo
+name: cli
+canonical_url: https://github.com/cli/cli
+identity:
+  github_repo: cli/cli
+provenance:
+  discoveries:
+    - id: discovery__github__cli__cli__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - CLI Tools
+        anchor_text: GitHub Copilot CLI
+        extracted_url: https://github.com/cli/cli
+        surrounding_text: "- **[GitHub Copilot CLI](https://github.com/cli/cli/tree/trunk/pkg/cmd/copilot)** – GitHub's AI assistant for command-line with context-aware suggestions."
+        confidence: high
+metadata:
+  github:
+    stars: 44222
+    forks: 8381
+    license: MIT
+    archived: false
+    created_at: "2019-10-03T15:24:53Z"
+    pushed_at: "2026-05-05T17:43:38Z"
+    description: GitHub’s official command line tool
+    homepage: https://cli.github.com
+    topics:
+      - cli
+      - git
+      - github-api-v4
+      - golang
+    last_checked_at: "2026-05-05T21:01:35.195Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:35.195Z"
+      bytes: 5367
+insights:
+  summary: GitHub's official command line tool for managing pull requests, issues, and other GitHub concepts directly from the terminal.
+  why_it_matters: It centralizes repository management and GitHub workflows without leaving the terminal, streamlining the developer's native environment.
+  mental_damage: We now have an official CLI to manage the platform that hosts the AI agents that write the code we commit via the CLI.
+  tags:
+    - cli
+    - github
+    - git
+    - terminal
+  confidence: high
+curation:
+  status: excluded
+  reason: While listed in awesome-ai-coding-tools, the GitHub CLI is a standard git/forge utility with no AI capabilities or developer-facing AI workflow integration.
+  evidence:
+    - Repo description is 'GitHub’s official command line tool' with no mention of AI.
+    - README describes terminal workflows for PRs and issues, not AI assistance or coding agents.
+    - No AI-related topics, features, or context present in the provided inputs.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (44222) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.682Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:35.195Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:13:22.008Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

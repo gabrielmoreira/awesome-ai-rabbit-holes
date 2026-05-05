@@ -1,0 +1,76 @@
+id: mcpsplayground__com
+kind: website
+name: mcpsplayground.com
+canonical_url: https://mcpsplayground.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__mcpsplayground__com__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Clients
+        anchor_text: mcps-playground
+        extracted_url: https://mcpsplayground.com/chat
+        surrounding_text: "- **[mcps-playground](https://mcpsplayground.com/chat)** a playground for Remote MCP servers"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A browser-based playground for connecting and testing remote Model Context Protocol (MCP) servers with various AI models like Claude and Gemini.
+  why_it_matters: It provides developers with a hosted interface to manually configure, connect, and validate MCP integrations without needing to set up a local client environment.
+  mental_damage: Another pristine sandbox where you can carefully wire together integrations that will inevitably be broken by the next undocumented protocol update.
+  tags:
+    - mcp
+    - playground
+    - browser
+    - tooling
+  confidence: high
+curation:
+  status: included
+  reason: The product is a browser-first client and testing surface specifically built for the Model Context Protocol ecosystem, fitting the MCP infrastructure criteria.
+  evidence:
+    - Scraped site title identifies it as 'MCP Playground For Remote MCP servers'.
+    - Description explicitly states it allows AI to perform actions by connecting to remote services via the MCP protocol.
+    - Source list context places it under 'awesome-mcp-servers' in the 'Clients' section.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.729Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:46:28.066Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

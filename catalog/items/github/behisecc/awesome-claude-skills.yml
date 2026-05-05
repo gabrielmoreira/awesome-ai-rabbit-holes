@@ -1,0 +1,81 @@
+id: github__behisecc__awesome-claude-skills
+kind: github-repo
+name: awesome-claude-skills
+canonical_url: https://github.com/behisecc/awesome-claude-skills
+identity:
+  github_repo: behisecc/awesome-claude-skills
+provenance:
+  discoveries:
+    - id: discovery__github__behisecc__awesome-claude-skills__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 技能 Skills
+        anchor_text: awesome-claude-skills
+        extracted_url: https://github.com/behisecc/awesome-claude-skills
+        surrounding_text: 4. [awesome-claude-skills](https://github.com/BehiSecc/awesome-claude-skills)
+        confidence: high
+metadata:
+  github:
+    stars: 8922
+    forks: 1094
+    license: null
+    archived: false
+    created_at: "2025-10-17T15:05:35Z"
+    pushed_at: "2026-04-01T08:24:45Z"
+    description: A curated list of Claude Skills.
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:01:18.725Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:18.725Z"
+      bytes: 27952
+insights:
+  summary: A curated directory of reusable skill packs, rules bundles, and command packs for extending Claude and Claude Code with specialized workflows.
+  why_it_matters: It gives developers a centralized map to discover and share task-specific instructions that make Claude behave like a domain-aware teammate instead of a generic chatbot.
+  mental_damage: We now maintain dependency trees of personality traits for our assistants, and debugging your agent’s vibes is the new debugging your build pipeline.
+  tags:
+    - claude
+    - skills
+    - ai-config
+    - agent-extensions
+    - directory
+  confidence: high
+curation:
+  status: included
+  reason: The primary artifact is a directory of reusable skill packs and rules for Claude-based developer tools rather than a standalone assistant or extension, which aligns directly with the skills category.
+  evidence:
+    - Repo description explicitly states 'A curated list of Claude Skills.'
+    - README organizes entries into Development & Code Tools, Security, and other skill categories such as test-driven-development and plugin-authoring.
+    - Listed in awesome-LLM-resources under a dedicated Skills section, confirming its role as a skills directory.
+placement:
+  primary_category: skills
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (8922) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.681Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:18.725Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:10:27.910Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,82 @@
+id: github__eth-sri__matharena
+kind: github-repo
+name: matharena
+canonical_url: https://github.com/eth-sri/matharena
+identity:
+  github_repo: eth-sri/matharena
+provenance:
+  discoveries:
+    - id: discovery__github__eth-sri__matharena__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 评估 Evaluation
+        anchor_text: MathArena
+        extracted_url: https://github.com/eth-sri/matharena
+        surrounding_text: "16. [MathArena](https://github.com/eth-sri/matharena): Evaluation of LLMs on latest math competitions."
+        confidence: high
+metadata:
+  github:
+    stars: 257
+    forks: 32
+    license: MIT
+    archived: false
+    created_at: "2025-02-12T19:06:14Z"
+    pushed_at: "2026-05-04T07:42:48Z"
+    description: Evaluation of LLMs on latest math competitions
+    homepage: https://matharena.ai
+    topics:
+      - evaluating-models
+      - llm
+    last_checked_at: "2026-05-05T21:02:04.867Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:04.867Z"
+      bytes: 9426
+insights:
+  summary: A platform and evaluation harness for measuring LLM performance on recent math competitions and olympiads, including proof-based and final-answer benchmarks.
+  why_it_matters: Developers building or fine-tuning math-capable models can use this to run reproducible evals across AIME, IMO, and other contests with structured grading and reasoning traces.
+  mental_damage: Because nothing says production readiness like discovering your flagship model can’t solve a kangaroo competition problem written for 10-year-olds.
+  tags:
+    - evals
+    - llm
+    - benchmarks
+    - math
+  confidence: high
+curation:
+  status: included
+  reason: This is an evaluation platform and benchmark harness for measuring LLM behavior on math competitions, which fits cleanly into the Evaluations and Benchmarks category.
+  evidence:
+    - "Repo description: 'Evaluation of LLMs on latest math competitions'"
+    - "README: 'MathArena is a platform for evaluation of LLMs on latest math competitions and olympiads' with eval scripts and judging agents"
+    - Appears in awesome-LLM-resources under 评估 Evaluation section
+placement:
+  primary_category: evals
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (257) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.686Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:04.867Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:18:27.007Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

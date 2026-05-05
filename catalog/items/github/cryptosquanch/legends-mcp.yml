@@ -1,0 +1,81 @@
+id: github__cryptosquanch__legends-mcp
+kind: github-repo
+name: legends-mcp
+canonical_url: https://github.com/cryptosquanch/legends-mcp
+identity:
+  github_repo: cryptosquanch/legends-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__cryptosquanch__legends-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: cryptosquanch/legends-mcp
+        extracted_url: https://github.com/cryptosquanch/legends-mcp
+        surrounding_text: "- [cryptosquanch/legends-mcp](https://github.com/cryptosquanch/legends-mcp) 📇 🏠 🍎 🪟 🐧 - Chat with 36 legendary founders & investors (Elon Musk, Warren Buffett, Steve Jobs, CZ). AI personas with authentic voices, frameworks, and principles. No API key required."
+        confidence: high
+metadata:
+  github:
+    stars: 4
+    forks: 2
+    license: MIT
+    archived: false
+    created_at: "2025-12-24T13:32:28Z"
+    pushed_at: "2025-12-27T18:14:19Z"
+    description: Chat with legendary founders & investors via MCP. No API key required!
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:01:43.466Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:43.466Z"
+      bytes: 11400
+insights:
+  summary: An MCP server that lets developers chat with simulated personas of famous founders and investors like Elon Musk and Paul Graham, featuring multi-legend debate modes and smart matching.
+  why_it_matters: It provides a novel, API-key-free way to inject historical founder perspectives and investment heuristics directly into a developer's Claude Code workflow via the Model Context Protocol.
+  mental_damage: We have officially reached the point where we are installing local servers to have simulated billionaires roast our startup ideas, because apparently the real ones aren't responding to cold emails fast enough.
+  tags:
+    - mcp
+    - claude-code
+    - simulation
+    - personas
+  confidence: medium
+curation:
+  status: included
+  reason: The project is a distinct MCP server implementation designed to be plugged into Claude Code, fitting the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states 'Chat with legendary founders & investors via MCP'
+    - README provides configuration for Claude Code via the mcpServers JSON block
+    - Listed in the awesome-mcp-servers directory under 'Knowledge & Memory'
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.441Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:43.466Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:14:48.991Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

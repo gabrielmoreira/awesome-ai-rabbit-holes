@@ -1,0 +1,82 @@
+id: github__openhands__openhands-cli
+kind: github-repo
+name: openhands-cli
+canonical_url: https://github.com/openhands/openhands-cli
+identity:
+  github_repo: openhands/openhands-cli
+provenance:
+  discoveries:
+    - id: discovery__github__openhands__openhands-cli__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Terminal-native coding agents
+          - Open Source
+        anchor_text: CLI-only package
+        extracted_url: https://github.com/openhands/openhands-cli
+        surrounding_text: "- **[OpenHands](https://github.com/All-Hands-AI/OpenHands)** `⭐ 72.6k` — Open-source agentic developer environment (formerly OpenDevin) with CLI and web entrypoints; also has a lightweight [CLI-only package](https://github.com/OpenHands/OpenHands-CLI)."
+        confidence: high
+metadata:
+  github:
+    stars: 165
+    forks: 83
+    license: MIT
+    archived: false
+    created_at: "2025-09-02T20:50:27Z"
+    pushed_at: "2026-05-04T18:04:08Z"
+    description: Lightweight OpenHands CLI in a binary executable
+    homepage: https://docs.openhands.dev/openhands/usage/cli/installation
+    topics: []
+    last_checked_at: "2026-05-05T21:04:05.784Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:05.784Z"
+      bytes: 8865
+insights:
+  summary: A lightweight CLI and binary executable that runs the OpenHands coding agent inside terminals, IDEs, CI pipelines, and local or cloud sandboxes.
+  why_it_matters: It gives developers a fast, headless, and scriptable way to delegate coding tasks, run agents inside existing editor workflows, and integrate autonomous development into automation pipelines.
+  mental_damage: Yet another way to ask an agent to fix a bug while you nervously watch a terminal TUI and wonder if you still need to understand the code it is rewriting.
+  tags:
+    - cli
+    - coding-agent
+    - headless
+    - mcp
+    - ide-integration
+  confidence: high
+curation:
+  status: included
+  reason: The primary product is a developer-facing coding agent CLI that plans, writes, edits, and runs tasks directly against code in terminals, IDEs, and headless automation, which clearly fits the coding-agents category and its Terminal & CLI Agents section.
+  evidence:
+    - "Repo description states: 'Lightweight OpenHands CLI in a binary executable'."
+    - README explicitly supports terminal TUI, IDE integration, headless CI mode, and cloud agents.
+    - Already listed in awesome-cli-coding-agents under 'Terminal-native coding agents > Open Source'.
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (165) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.711Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:05.784Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:42:47.146Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

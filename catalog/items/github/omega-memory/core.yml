@@ -1,0 +1,97 @@
+id: github__omega-memory__core
+kind: github-repo
+name: core
+canonical_url: https://github.com/omega-memory/core
+identity:
+  github_repo: omega-memory/core
+provenance:
+  discoveries:
+    - id: discovery__github__omega-memory__core__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - 🧠 Knowledge & Memory
+        anchor_text: omega-memory/core
+        extracted_url: https://github.com/omega-memory/core
+        surrounding_text: "-   **[omega-memory/core](https://github.com/omega-memory/core)** [![GitHub stars](https://img.shields.io/github/stars/omega-memory/core?style=social)](https://github.com/omega-memory/core): Persistent memory for AI coding agents with semantic search, auto-capture, intelligent forgetting, and cross-session learning. #1 on LongMemEval (95.4%). Local-first with zero cloud dependency."
+        confidence: high
+metadata:
+  github:
+    stars: 113
+    forks: 21
+    license: Apache-2.0
+    archived: false
+    created_at: "2026-02-13T03:28:56Z"
+    pushed_at: "2026-05-01T12:04:51Z"
+    description: Persistent memory for AI coding agents
+    homepage: https://omegamax.co
+    topics:
+      - ai-agent
+      - ai-memory
+      - claude
+      - claude-code
+      - coding-agent
+      - context-engineering
+      - cursor
+      - knowledge-graph
+      - llm
+      - local-first
+      - mcp
+      - mcp-server
+      - memory
+      - model-context-protocol
+      - persistent-memory
+      - semantic-search
+      - windsurf
+    last_checked_at: "2026-05-05T21:04:01.302Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:01.302Z"
+      bytes: 14642
+insights:
+  summary: A local-first memory layer and MCP server that gives AI coding agents persistent, cross-model memory across sessions.
+  why_it_matters: It eliminates the daily ritual of re-explaining your codebase and past decisions to stateless agents by storing preferences, errors, and architecture choices locally.
+  mental_damage: We have finally built a brain for the thing that was supposed to be the brain, and it turns out even the brain needs its own brain to remember what it learned yesterday.
+  tags:
+    - memory
+    - mcp
+    - local-first
+    - context-engineering
+  confidence: high
+curation:
+  status: included
+  reason: The project is a memory and context-shaping system for AI agents, directly matching the context-engineering category's focus on retrieval, memory, and context management.
+  evidence:
+    - Repo description explicitly states 'Persistent memory for AI coding agents'.
+    - README positions it as a local-first memory, coordination, and learning system with semantic search and MCP server integration.
+    - Listed in awesome-mcp-list under 'Knowledge & Memory', reinforcing its role as a context/memory tool.
+placement:
+  primary_category: context-engineering
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.442Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:01.302Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:41:57.267Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,92 @@
+id: www__llamaindex__ai
+kind: website
+name: www.llamaindex.ai
+canonical_url: https://www.llamaindex.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__llamaindex__ai__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: janhq/awesome-local-ai
+        url: https://github.com/janhq/awesome-local-ai
+        repository: janhq/awesome-local-ai
+      extraction:
+        mode: parsed
+        section_path:
+          - Developer tools
+        anchor_text: LlamaIndex
+        extracted_url: https://www.llamaindex.ai
+        surrounding_text: "- [LlamaIndex](https://www.llamaindex.ai/) - A data framework for building LLM applications over external data."
+        confidence: high
+    - id: discovery__www__llamaindex__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - AI Frameworks and SDKs
+        anchor_text: LlamaIndex
+        extracted_url: https://www.llamaindex.ai
+        surrounding_text: "- **[LlamaIndex](https://www.llamaindex.ai/)** – Data framework for connecting LLMs to external data sources with indexing and retrieval."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: LlamaIndex offers LlamaParse, an agentic OCR and document-processing SaaS that parses complex layouts, tables, charts, and handwriting into structured, LLM-ready outputs.
+  why_it_matters: It gives developers a production-grade pipeline to reliably ingest messy enterprise documents for RAG, agent workflows, and structured extraction without building custom parsers.
+  mental_damage: Yet another reminder that your bespoke PDF parser was always the house of cards your roadmap pretended it wasn’t.
+  tags:
+    - document-processing
+    - ocr
+    - rag
+    - agentic
+    - llm-ready
+  confidence: high
+curation:
+  status: included
+  reason: The core offering is a developer-facing document intelligence SDK/service with open-source components (LiteParse) and APIs designed to be imported into AI pipelines, fitting AI Frameworks and SDKs.
+  evidence:
+    - "Site describes LlamaParse as an API/SDK stack: 'Parse, Extract, Index' with npm package @llamaindex/liteparse and OSS repos."
+    - Included in awesome-ai-coding-tools under 'AI Frameworks and SDKs' and awesome-local-ai under 'Developer tools'.
+    - Primary use case is enabling LLMs and agents to read complex documents via structured extraction and indexing for RAG and workflows.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.440Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T20:49:52.540Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+    next_retry_at: null

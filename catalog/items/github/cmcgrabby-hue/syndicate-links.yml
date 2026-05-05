@@ -1,0 +1,81 @@
+id: github__cmcgrabby-hue__syndicate-links
+kind: github-repo
+name: syndicate-links
+canonical_url: https://github.com/cmcgrabby-hue/syndicate-links
+identity:
+  github_repo: cmcgrabby-hue/syndicate-links
+provenance:
+  discoveries:
+    - id: discovery__github__cmcgrabby-hue__syndicate-links__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🛒 <a name="e-commerce"></a>E-Commerce
+        anchor_text: cmcgrabby-hue/syndicate-links
+        extracted_url: https://github.com/cmcgrabby-hue/syndicate-links
+        surrounding_text: "- [cmcgrabby-hue/syndicate-links](https://github.com/cmcgrabby-hue/syndicate-links/tree/master/mcp) [![cmcgrabby-hue/syndicate-links MCP server](https://glama.ai/mcp/servers/cmcgrabby-hue/syndicate-links/badges/score.svg)](https://glama.ai/mcp/servers/cmcgrabby-hue/syndicate-links) 📇 🏠 🍎 🪟 🐧 - Affiliate commission infrastructure for AI agents. 7 tools for program discovery, attribution tracking, commission status, and payouts. Search programs, get details, track conversions with signed attribution tokens, and trigger settlement cycles. Install via `npx syndicate-links-mcp`."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-03-18T05:19:07Z"
+    pushed_at: "2026-05-05T20:51:48Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:01:36.286Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:36.286Z"
+      bytes: 2819
+insights:
+  summary: An MCP server that exposes tools for managing affiliate programs, tracking conversions, and checking commissions via the Syndicate Links API.
+  why_it_matters: It enables AI agents to natively handle affiliate attribution and payouts without relying on browser cookies or external tracking links.
+  mental_damage: We have finally reached the point where the agent doesn't just write the code, it also demands its own referral bonus for recommending the IDE it wrote itself in.
+  tags:
+    - mcp
+    - affiliate
+    - agent-tooling
+    - monetization
+  confidence: medium
+curation:
+  status: included
+  reason: The project is an MCP server implementation that provides agent-facing tools for the Syndicate Links affiliate API, fitting the MCP infrastructure category.
+  evidence:
+    - "README states: 'MCP server for the Syndicate Links affiliate commission API — 7 tools for AI agent attribution, program discovery, and commission tracking.'"
+    - Listed in the awesome-mcp-servers list under 'Server Implementations > E-Commerce'.
+    - Installation is via 'npx syndicate-links-mcp' and configures directly into Claude Desktop via 'mcpServers'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.682Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:36.286Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:13:32.422Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

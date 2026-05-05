@@ -1,0 +1,89 @@
+id: github__knowledgecanvas__knowledge
+kind: github-repo
+name: knowledge
+canonical_url: https://github.com/knowledgecanvas/knowledge
+identity:
+  github_repo: knowledgecanvas/knowledge
+provenance:
+  discoveries:
+    - id: discovery__github__knowledgecanvas__knowledge__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Open Source Projects
+          - Knowledge Management
+        anchor_text: Knowledge
+        extracted_url: https://github.com/knowledgecanvas/knowledge
+        surrounding_text: "- [Knowledge](https://github.com/KnowledgeCanvas/knowledge): Knowledge is a tool for saving, searching, accessing, and exploring all of your favorite websites, documents and files. ![GitHub Repo stars](https://img.shields.io/github/stars/KnowledgeCanvas/knowledge?style=social)"
+        confidence: high
+metadata:
+  github:
+    stars: 1459
+    forks: 108
+    license: Apache-2.0
+    archived: true
+    created_at: "2021-07-10T18:57:38Z"
+    pushed_at: "2025-11-27T19:20:05Z"
+    description: Knowledge is a tool for saving, searching, accessing, exploring and chatting with all of your favorite websites, documents and files.
+    homepage: ""
+    topics:
+      - knowledge-discovery
+      - knowledge-graph
+      - knowledge-management
+      - large-language-models
+      - learning
+      - llm
+      - research
+    last_checked_at: "2026-05-05T21:03:07.336Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:07.336Z"
+      bytes: 3543
+insights:
+  summary: Knowledge is a desktop application for saving, searching, and chatting with documents, websites, and files via a built-in Chromium browser and LLM-powered knowledge graph.
+  why_it_matters: It offers developers a local-first way to ingest technical documentation and web content into a searchable, chat-accessible knowledge base.
+  mental_damage: Another brave attempt to solve the problem of 'I have 400 browser tabs open' by creating a second, slightly more organized place for them to live until the project is inevitably archived.
+  tags:
+    - knowledge-management
+    - llm
+    - local-ai
+    - langchain
+    - desktop-app
+  confidence: high
+curation:
+  status: excluded
+  reason: The repository is explicitly archived and the maintainers state development has ceased, making it a poor fit for an active catalog of developer tooling.
+  evidence:
+    - The repo description states it is a tool for saving, searching, and chatting with files and websites, which is general knowledge management rather than a core developer coding workflow.
+    - "The README includes a note: 'Knowledge is no longer being developed.' and the repo status is archived."
+    - Listed in awesome-langchain under 'Knowledge Management', indicating it is a LangChain demo/app rather than a primary developer infrastructure tool.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: needs_review
+  reason: Repository is archived
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.702Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:07.336Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:31:08.245Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

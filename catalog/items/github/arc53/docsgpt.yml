@@ -1,0 +1,100 @@
+id: github__arc53__docsgpt
+kind: github-repo
+name: docsgpt
+canonical_url: https://github.com/arc53/docsgpt
+identity:
+  github_repo: arc53/docsgpt
+provenance:
+  discoveries:
+    - id: discovery__github__arc53__docsgpt__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Open Source Projects
+          - Knowledge Management
+        anchor_text: DocsGPT
+        extracted_url: https://github.com/arc53/docsgpt
+        surrounding_text: "- [DocsGPT](https://github.com/arc53/docsgpt): GPT-powered chat for documentation search & assistance. ![GitHub Repo stars](https://img.shields.io/github/stars/arc53/docsgpt?style=social)"
+        confidence: high
+metadata:
+  github:
+    stars: 17871
+    forks: 2033
+    license: MIT
+    archived: false
+    created_at: "2023-02-02T11:03:23Z"
+    pushed_at: "2026-05-05T00:55:32Z"
+    description: Private AI platform for agents, assistants and enterprise search. Built-in Agent Builder, Deep research, Document analysis, Multi-model support, and API connectivity for agents.
+    homepage: https://app.docsgpt.cloud/
+    topics:
+      - agent-builder
+      - agents
+      - ai
+      - chatgpt
+      - docsgpt
+      - hacktoberfest
+      - hacktoberfest2025
+      - information-retrieval
+      - language-model
+      - llm
+      - machine-learning
+      - natural-language-processing
+      - python
+      - pytorch
+      - rag
+      - react
+      - search
+      - semantic-search
+      - transformers
+    last_checked_at: "2026-05-05T21:01:08.035Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:08.035Z"
+      bytes: 8028
+insights:
+  summary: DocsGPT is an open-source platform for building private AI agents and assistants with document analysis, an agent builder, deep research tools, and multi-model support.
+  why_it_matters: It gives developers a self-hostable stack to ingest diverse knowledge sources and wire up agentic workflows with API actions without handing enterprise data to third-party SaaS.
+  mental_damage: Another day, another opportunity to spend three hours wiring a PDF-ingesting agent that will eventually answer questions about last year’s roadmap with confident, cited precision.
+  tags:
+    - agents
+    - rag
+    - enterprise-search
+    - self-hosted
+  confidence: high
+curation:
+  status: included
+  reason: DocsGPT is a user-facing platform for building, orchestrating, and operating agents and assistants with document ingestion, API connectivity, and agent workflows, fitting agent orchestration rather than coding agents or app builders.
+  evidence:
+    - "Repo description: 'Private AI platform for agents, assistants and enterprise search. Built-in Agent Builder, Deep research, Document analysis...'"
+    - README lists 'Agent Builder' and 'Agent Workflow Builder with conditional nodes' as core capabilities and roadmap items.
+    - Seen in awesome-langchain under 'Knowledge Management', confirming its RAG/agent orchestration positioning.
+placement:
+  primary_category: agent-orchestration
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (17871) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.679Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:08.035Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:08:49.951Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

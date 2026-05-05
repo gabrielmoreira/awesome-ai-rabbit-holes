@@ -1,0 +1,77 @@
+id: clevagent__io
+kind: website
+name: clevagent.io
+canonical_url: https://clevagent.io
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__clevagent__io__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Security
+          - Observability
+        anchor_text: ClevAgent
+        extracted_url: https://clevagent.io
+        surrounding_text: "| [ClevAgent](https://clevagent.io)                                              | Runtime monitoring for AI agents — heartbeat watchdog, loop detection, cost tracking, auto-restart. Python SDK or HTTP API.                                                                                                    |                                                                                                                  |"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: ClevAgent is a supervised terminal layer that monitors AI agent sessions to detect inefficient patterns like duplicate reads and memory bloat, injecting corrective guidance in real time.
+  why_it_matters: It addresses the hidden operational cost of agentic workflows by reducing token waste and enforcing workspace hygiene, making autonomous sessions cheaper and more reliable.
+  mental_damage: We have finally built a tool to supervise the tools we built to avoid supervising the tools we built to write code.
+  tags:
+    - agent-ops
+    - token-optimization
+    - observability
+    - terminal
+  confidence: high
+curation:
+  status: included
+  reason: It is a user-facing operational layer for monitoring and correcting agent behavior in real-time, fitting the control-plane definition of agent orchestration.
+  evidence:
+    - Listed in Awesome-LLMOps under 'Security > Observability' as a tool to run agents inside a supervised terminal.
+    - Product description explicitly states it 'sits between the agent and its work' to add guidance and visibility.
+    - Features include detecting work patterns, stopping loops, and logging interventions within agent sessions.
+placement:
+  primary_category: agent-orchestration
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.726Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:42:49.834Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

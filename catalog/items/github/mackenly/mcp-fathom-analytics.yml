@@ -1,0 +1,83 @@
+id: github__mackenly__mcp-fathom-analytics
+kind: github-repo
+name: mcp-fathom-analytics
+canonical_url: https://github.com/mackenly/mcp-fathom-analytics
+identity:
+  github_repo: mackenly/mcp-fathom-analytics
+provenance:
+  discoveries:
+    - id: discovery__github__mackenly__mcp-fathom-analytics__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: Fathom Analytics
+        extracted_url: https://github.com/mackenly/mcp-fathom-analytics
+        surrounding_text: "- **[Fathom Analytics](https://github.com/mackenly/mcp-fathom-analytics)** - Access and analyze Fathom Analytics data and reports"
+        confidence: high
+metadata:
+  github:
+    stars: 3
+    forks: 4
+    license: MIT
+    archived: false
+    created_at: "2025-03-07T22:12:27Z"
+    pushed_at: "2025-06-17T13:18:37Z"
+    description: MCP server for Fathom Analytics
+    homepage: https://www.npmjs.com/package/mcp-fathom-analytics
+    topics:
+      - fathom-analytics
+      - mcp
+      - mcp-server
+    last_checked_at: "2026-05-05T21:03:26.999Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:26.999Z"
+      bytes: 3643
+insights:
+  summary: An unofficial MCP server that exposes Fathom Analytics account, site, event, and aggregation data to AI assistants via the Model Context Protocol.
+  why_it_matters: It lets developers query site analytics and generate reports directly through their AI assistant instead of switching to the Fathom dashboard.
+  mental_damage: We have successfully reached the point where even checking our pageview counts requires an AI-mediated protocol server to avoid opening a browser tab.
+  tags:
+    - mcp
+    - analytics
+    - fathom
+    - npx
+  confidence: high
+curation:
+  status: included
+  reason: The project is itself an MCP server implementation, which clearly fits the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states 'MCP server for Fathom Analytics'.
+    - README confirms it is a Model Context Protocol server using the @mackenly/fathom-api SDK.
+    - Listed in the awesome-mcp-servers directory under Community Servers.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.705Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:26.999Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:35:09.622Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

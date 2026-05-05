@@ -1,0 +1,98 @@
+id: github__eto-ai__lance
+kind: github-repo
+name: lance
+canonical_url: https://github.com/eto-ai/lance
+identity:
+  github_repo: eto-ai/lance
+provenance:
+  discoveries:
+    - id: discovery__github__eto-ai__lance__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Data
+          - Data Storage
+        anchor_text: Lance
+        extracted_url: https://github.com/eto-ai/lance
+        surrounding_text: "| [Lance](https://github.com/eto-ai/lance)        | Modern columnar data format for ML implemented in Rust.       | ![GitHub Badge](https://img.shields.io/github/stars/eto-ai/lance.svg?style=flat-square)      |"
+        confidence: high
+metadata:
+  github:
+    stars: 6382
+    forks: 650
+    license: Apache-2.0
+    archived: false
+    created_at: "2022-07-07T22:29:29Z"
+    pushed_at: "2026-05-05T19:42:20Z"
+    description: Open Lakehouse Format for Multimodal AI. Convert from Parquet in 2 lines of code for 100x faster random access, vector index, and data versioning. Compatible with Pandas, DuckDB, Polars, Pyarrow, and PyTorch with more integrations coming..
+    homepage: https://lance.org
+    topics:
+      - apache-arrow
+      - computer-vision
+      - data-analysis
+      - data-analytics
+      - data-centric
+      - data-format
+      - data-science
+      - dataops
+      - deep-learning
+      - duckdb
+      - embeddings
+      - llms
+      - machine-learning
+      - mlops
+      - python
+      - rust
+    last_checked_at: "2026-05-05T21:02:05.483Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:05.483Z"
+      bytes: 8428
+insights:
+  summary: Lance is an open lakehouse format for multimodal AI that provides high-performance vector search, full-text search, and random access on object storage, compatible with Pandas, DuckDB, Polars, and PyTorch.
+  why_it_matters: It gives developers a unified format to store embeddings, images, and tabular data with fast hybrid search and versioning, cutting out the glue code between data lakes and AI training pipelines.
+  mental_damage: Yet another lakehouse format enters the ring to save you from Parquet’s random access performance, assuming you were not already drowning in Iceberg, Delta, and Hudi compatibility matrices.
+  tags:
+    - lakehouse
+    - vector-search
+    - multimodal
+    - data-format
+    - rust
+  confidence: high
+curation:
+  status: included
+  reason: Lance is a developer-facing library and data format SDK for building AI data infrastructure, fitting cleanly as a code-first building block rather than a hosted app builder or coding agent.
+  evidence:
+    - Repo description explicitly defines it as an 'Open Lakehouse Format for Multimodal AI' with compatibility for Pandas, DuckDB, Polars, and PyTorch.
+    - README positions it as a format, table spec, and catalog for developers building search engines, feature stores, and ML training pipelines.
+    - Listed under 'Data > Data Storage' in Awesome-LLMOps, aligning with its infrastructure and SDK nature.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (6382) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.441Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:05.483Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:18:32.839Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

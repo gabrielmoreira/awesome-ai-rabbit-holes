@@ -1,0 +1,77 @@
+id: riff__ai
+kind: website
+name: riff.ai
+canonical_url: https://riff.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__riff__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - App Builders
+        anchor_text: Databutton
+        extracted_url: https://databutton.com
+        surrounding_text: "- **[Databutton](https://databutton.com/)** – AI-powered app development platform."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Riff is an enterprise SaaS platform that builds and runs AI agents on top of ERPs like SAP, Oracle, and Microsoft Dynamics to automate procurement and operations workflows.
+  why_it_matters: It allows developers to extend ERP automation with custom TypeScript tools and APIs, bridging the gap between pre-built agent suites and specific business logic.
+  mental_damage: We’ve successfully automated the procurement department, meaning the only thing left for the human developer to debug is why the AI teammate is ignoring the supplier's second email.
+  tags:
+    - erp
+    - agents
+    - enterprise
+    - automation
+    - typescript
+  confidence: high
+curation:
+  status: excluded
+  reason: While technically impressive, this is an enterprise operations platform for ERP automation, not a developer tool for writing code, building apps, or managing dev infrastructure.
+  evidence:
+    - The primary pitch is 'Agents that run on your ERP' targeting procurement, planning, and finance teams rather than software developers.
+    - Developers are mentioned only as extending the platform with TypeScript tools, acting as a secondary integration point rather than the primary user.
+    - The awesome-ai-coding-tools list categorized it under 'App Builders,' but its focus on ERP workflows (Infor, SAP) doesn't fit the catalog's scope of coding agents or dev tooling.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.730Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:47:39.462Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

@@ -1,0 +1,82 @@
+id: github__marcelroozekrans__memorylens-mcp
+kind: github-repo
+name: memorylens-mcp
+canonical_url: https://github.com/marcelroozekrans/memorylens-mcp
+identity:
+  github_repo: marcelroozekrans/memorylens-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__marcelroozekrans__memorylens-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: MarcelRoozekrans/memorylens-mcp
+        extracted_url: https://github.com/marcelroozekrans/memorylens-mcp
+        surrounding_text: "- [MarcelRoozekrans/memorylens-mcp](https://github.com/MarcelRoozekrans/memorylens-mcp) [![memorylens-mcp MCP server](https://glama.ai/mcp/servers/MarcelRoozekrans/memorylens-mcp/badges/score.svg)](https://glama.ai/mcp/servers/MarcelRoozekrans/memorylens-mcp) #️⃣ 🏠 🪟 - On-demand .NET memory profiling MCP server. Wraps JetBrains dotMemory with a heuristic rule engine (10 rules) to detect memory leaks, LOH fragmentation, and anti-patterns, providing AI-actionable code fix suggestions."
+        confidence: high
+metadata:
+  github:
+    stars: 2
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2026-03-09T07:18:05Z"
+    pushed_at: "2026-05-05T18:31:27Z"
+    description: MCP server for .NET memory profiling with AI-actionable code fix suggestions, powered by JetBrains dotMemory
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:03:28.732Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:28.732Z"
+      bytes: 7123
+insights:
+  summary: An MCP server that wraps JetBrains dotMemory to capture .NET memory snapshots and return AI-actionable code fix suggestions via a heuristic rule engine.
+  why_it_matters: It connects deep .NET memory profiling directly into AI-assisted workflows, letting developers get fix suggestions for leaks and allocation issues without leaving their MCP-compatible tooling.
+  mental_damage: We have successfully automated the detection of our own memory leaks, leaving us with even more free RAM to run additional redundant AI agents in parallel.
+  tags:
+    - mcp
+    - dotnet
+    - memory-profiling
+    - dotmemory
+    - performance
+  confidence: medium
+curation:
+  status: included
+  reason: The primary artifact is an MCP server that exposes JetBrains dotMemory functionality and analysis rules to MCP-compatible clients, fitting cleanly into MCP infrastructure.
+  evidence:
+    - Repo description explicitly states 'MCP server for .NET memory profiling with AI-actionable code fix suggestions'.
+    - README details MCP tools (snapshot, analyze, get_rules) and integration with VS Code, Claude Code, and .NET global tools.
+    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.705Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:28.732Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:35:33.444Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,84 @@
+id: github__linuxsuren__atest-mcp-server
+kind: github-repo
+name: atest-mcp-server
+canonical_url: https://github.com/linuxsuren/atest-mcp-server
+identity:
+  github_repo: linuxsuren/atest-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__linuxsuren__atest-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: linuxsuren/atest-mcp-server
+        extracted_url: https://github.com/linuxsuren/atest-mcp-server
+        surrounding_text: "- [linuxsuren/atest-mcp-server](https://github.com/LinuxSuRen/atest-mcp-server) 📇 🏠 🐧 - An MCP server to manage test suites and cases, which is an alternative to Postman."
+        confidence: high
+metadata:
+  github:
+    stars: 4
+    forks: 1
+    license: null
+    archived: false
+    created_at: "2025-08-26T03:01:46Z"
+    pushed_at: "2025-11-11T23:14:29Z"
+    description: MCP Server of API Testing
+    homepage: http://linuxsuren.github.io/api-testing
+    topics:
+      - api-testing
+      - atest
+      - mcp-server
+    last_checked_at: "2026-05-05T21:03:20.953Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:20.953Z"
+      bytes: 1845
+insights:
+  summary: An MCP server that exposes the API testing capabilities of atest to AI tools and agents via the Model Context Protocol.
+  why_it_matters: It allows coding agents and AI IDEs to discover, run, and validate API tests directly within their workflow without leaving the development environment.
+  mental_damage: We have now successfully abstracted the act of testing an API into a protocol that allows an AI to ask another piece of software to test the API for it, just in case the developer was feeling too close to the actual endpoints.
+  tags:
+    - mcp
+    - api-testing
+    - testing
+    - developer-tools
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server implementation designed to expose API testing functionality to the Model Context Protocol ecosystem.
+  evidence:
+    - "Repo description states: 'MCP Server of API Testing'."
+    - README details integration with atest via gRPC and provides MCP server configuration examples (streamableHttp and stdio).
+    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.704Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:20.953Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:34:03.549Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

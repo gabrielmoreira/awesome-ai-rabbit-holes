@@ -1,0 +1,82 @@
+id: github__baskcart__w3ledger-mcp-server
+kind: github-repo
+name: w3ledger-mcp-server
+canonical_url: https://github.com/baskcart/w3ledger-mcp-server
+identity:
+  github_repo: baskcart/w3ledger-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__baskcart__w3ledger-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: W3Ship/w3ledger-mcp-server
+        extracted_url: https://github.com/baskcart/w3ledger-mcp-server
+        surrounding_text: "- [W3Ship/w3ledger-mcp-server](https://github.com/baskcart/w3ledger-mcp-server) [![w3ledger-mcp-server MCP server](https://glama.ai/mcp/servers/@baskcart/w3ledger-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/@baskcart/w3ledger-mcp-server) 📇 ☁️ - Self-verifying ledger MCP server with dual-signed transactions, gift cards, sponsor cards, and W3SH loyalty tiers. Supports EVM, ML-DSA-65, and SLH-DSA post-quantum signatures."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-03-05T18:50:18Z"
+    pushed_at: "2026-03-05T19:04:11Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:01:17.793Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:17.793Z"
+      bytes: 7048
+insights:
+  summary: An MCP server that enables AI agents to interact with a self-verifying ledger for checking token balances, creating gift cards, and processing dual-signed purchases via cryptographic signatures.
+  why_it_matters: Developers building AI agents that handle financial transactions can integrate ledger capabilities with signature verification directly into Claude Desktop, Cursor, or VS Code without building custom blockchain infrastructure.
+  mental_damage: We have officially reached the point where AI agents need their own cryptographically secured economies, complete with loyalty tiers and cashback rates, to prevent them from improvising unauthorized gift cards.
+  tags:
+    - mcp
+    - ledger
+    - blockchain
+    - ai-agents
+    - payments
+  confidence: high
+curation:
+  status: included
+  reason: This is an MCP server implementation that integrates with the W3Ledger API, fitting directly into the MCP Servers and Tooling category.
+  evidence:
+    - README explicitly states this is an 'MCP (Model Context Protocol) server' with stdio transport configuration for Claude Desktop, Cursor, and VS Code.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Finance & Fintech' section.
+    - Provides MCP tool definitions (check_balance, create_gift_card, purchase_product) and uses npx for distribution as an MCP server package.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.680Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:17.793Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:10:21.005Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

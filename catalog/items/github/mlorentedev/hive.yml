@@ -1,0 +1,90 @@
+id: github__mlorentedev__hive
+kind: github-repo
+name: hive
+canonical_url: https://github.com/mlorentedev/hive
+identity:
+  github_repo: mlorentedev/hive
+provenance:
+  discoveries:
+    - id: discovery__github__mlorentedev__hive__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: mlorentedev/hive
+        extracted_url: https://github.com/mlorentedev/hive
+        surrounding_text: "- [mlorentedev/hive](https://github.com/mlorentedev/hive) [![hive MCP server](https://glama.ai/mcp/servers/mlorentedev/hive/badges/score.svg)](https://glama.ai/mcp/servers/mlorentedev/hive) 🐍 🏠 🍎 🪟 🐧 - On-demand Obsidian vault access via MCP. Adaptive context loading (67-82% token savings), full-text and ranked search, health checks, auto git commit, and worker delegation to cheaper models. 10 tools, works with any MCP client."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-03-02T02:27:48Z"
+    pushed_at: "2026-03-27T02:40:06Z"
+    description: Context infrastructure for AI-assisted development — on-demand Obsidian vault access via MCP
+    homepage: https://pypi.org/project/hive-vault/
+    topics:
+      - ai
+      - claude-code
+      - context-management
+      - developer-tools
+      - mcp
+      - obsidian
+      - python
+      - vault
+    last_checked_at: "2026-05-05T21:03:43.945Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:43.945Z"
+      bytes: 4399
+insights:
+  summary: Hive is an MCP server that connects AI coding assistants to an Obsidian vault, enabling on-demand retrieval of project context and lessons learned instead of static context loading.
+  why_it_matters: It solves the session-amnesia problem for AI assistants by letting them query a persistent knowledge base only when needed, drastically reducing token usage while retaining long-term project memory.
+  mental_damage: We have officially reached the point where the AI needs its own second brain, managed in Markdown, just to remember what we were doing before the context window refreshed.
+  tags:
+    - mcp
+    - obsidian
+    - context-management
+    - memory
+    - python
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server implementation designed to integrate Obsidian vaults with AI coding tools, fitting perfectly into the MCP infrastructure category.
+  evidence:
+    - "Repo description states: 'Context infrastructure for AI-assisted development — on-demand Obsidian vault access via MCP'"
+    - README identifies it as 'an MCP server that connects your AI assistant to an Obsidian vault'
+    - Listed in awesome-mcp-servers under 'Server Implementations > Knowledge & Memory'
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.707Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:43.945Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:38:30.080Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

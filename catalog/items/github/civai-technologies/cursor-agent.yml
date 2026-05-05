@@ -1,0 +1,90 @@
+id: github__civai-technologies__cursor-agent
+kind: github-repo
+name: cursor-agent
+canonical_url: https://github.com/civai-technologies/cursor-agent
+identity:
+  github_repo: civai-technologies/cursor-agent
+provenance:
+  discoveries:
+    - id: discovery__github__civai-technologies__cursor-agent__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Terminal-native coding agents
+          - Open Source
+        anchor_text: cursor-agent
+        extracted_url: https://github.com/civai-technologies/cursor-agent
+        surrounding_text: "- **[cursor-agent](https://github.com/civai-technologies/cursor-agent)** `⭐ 116` — Python-based agent replicating Cursor's coding assistant capabilities; supports Claude, OpenAI, and local Ollama models."
+        confidence: high
+metadata:
+  github:
+    stars: 116
+    forks: 30
+    license: MIT
+    archived: false
+    created_at: "2025-03-22T15:36:55Z"
+    pushed_at: "2025-07-13T11:43:05Z"
+    description: Cursor Agent Tools - A Python-based AI agent that replicates Cursor's coding assistant capabilities, enabling function calling, code generation, and intelligent coding assistance with Claude, OpenAI, and locally hosted Ollama models.
+    homepage: https://civai.co
+    topics:
+      - agent
+      - ai
+      - civai
+      - coding
+      - cursor
+      - cursor-agent-tools
+      - framework
+      - python
+    last_checked_at: "2026-05-05T21:01:34.557Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:34.557Z"
+      bytes: 29144
+insights:
+  summary: A Python-based CLI AI agent that replicates Cursor's coding assistant capabilities, supporting code generation, editing, and analysis using Claude, OpenAI, or local Ollama models.
+  why_it_matters: It gives developers a terminal-native coding agent that supports multiple LLM backends and local model execution via Ollama.
+  mental_damage: Nothing says 'I have cursor envy' quite like writing a Python CLI to replicate a feature your IDE already has, then running it in a different window.
+  tags:
+    - cli
+    - coding-agent
+    - python
+    - local-models
+    - cursor
+  confidence: high
+curation:
+  status: included
+  reason: It is a terminal-native coding agent that directly plans, writes, edits, and analyzes code in a developer's workflow, fitting the coding-agents category and its Terminal & CLI Agents section.
+  evidence:
+    - Repo description explicitly calls it 'a Python-based AI agent that replicates Cursor's coding assistant capabilities' with code generation and editing.
+    - Already listed in awesome-cli-coding-agents under 'Terminal-native coding agents > Open Source'.
+    - Created 2025-03-22 and actively pushed as of 2025-07-13, with 116 stars.
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.682Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:34.557Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:13:12.760Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

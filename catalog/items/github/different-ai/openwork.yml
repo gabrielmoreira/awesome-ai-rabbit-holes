@@ -1,0 +1,82 @@
+id: github__different-ai__openwork
+kind: github-repo
+name: openwork
+canonical_url: https://github.com/different-ai/openwork
+identity:
+  github_repo: different-ai/openwork
+provenance:
+  discoveries:
+    - id: discovery__github__different-ai__openwork__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Agent infrastructure
+        anchor_text: OpenWork
+        extracted_url: https://github.com/different-ai/openwork
+        surrounding_text: "- **[OpenWork](https://github.com/different-ai/openwork)** `⭐ 14.7k` — Open-source alternative to Claude Cowork for teams; local-first desktop app powered by OpenCode with one-click setup. MIT."
+        confidence: high
+metadata:
+  github:
+    stars: 14733
+    forks: 1443
+    license: NOASSERTION
+    archived: false
+    created_at: "2026-01-14T01:39:31Z"
+    pushed_at: "2026-05-05T20:47:10Z"
+    description: An open-source alternative to Claude Cowork (powered by opencode)
+    homepage: https://openworklabs.com
+    topics: []
+    last_checked_at: "2026-05-05T21:01:53.103Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:53.103Z"
+      bytes: 9475
+insights:
+  summary: An open-source desktop app and orchestration layer for running OpenCode locally or remotely, designed to turn agentic workflows into repeatable, productized team processes.
+  why_it_matters: It provides a local-first, extensible UI and permissioning layer on top of OpenCode, making it easier to share and manage coding agent sessions across a team.
+  mental_damage: We've successfully abstracted the CLI so many times that your agent now needs its own desktop app, orchestrator, skill manager, and an enterprise sales team.
+  tags:
+    - opencode
+    - desktop-app
+    - agent-orchestration
+    - local-first
+    - skills
+  confidence: high
+curation:
+  status: included
+  reason: It is a developer-facing desktop and CLI host that wraps OpenCode to directly plan, execute, and manage coding agent workflows inside a repo, fitting the coding-agents scope.
+  evidence:
+    - Repo description states it is 'an open-source alternative to Claude Cowork (powered by opencode)'
+    - README explicitly says it runs opencode locally, manages sessions, and surfaces execution plans and permissions for agentic workflows
+    - Listed in awesome-cli-coding-agents under 'Harnesses & orchestration > Agent infrastructure'
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (14733) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.684Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:53.103Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:16:22.669Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

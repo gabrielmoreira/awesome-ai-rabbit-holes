@@ -1,0 +1,86 @@
+id: github__modelscope__evalscope
+kind: github-repo
+name: evalscope
+canonical_url: https://github.com/modelscope/evalscope
+identity:
+  github_repo: modelscope/evalscope
+provenance:
+  discoveries:
+    - id: discovery__github__modelscope__evalscope__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 评估 Evaluation
+        anchor_text: EvalScope (`🔥`)
+        extracted_url: https://github.com/modelscope/evalscope
+        surrounding_text: 4. [EvalScope (`🔥`)](https://github.com/modelscope/evalscope)
+        confidence: high
+metadata:
+  github:
+    stars: 2753
+    forks: 322
+    license: Apache-2.0
+    archived: false
+    created_at: "2023-12-07T06:10:49Z"
+    pushed_at: "2026-05-04T14:01:27Z"
+    description: A streamlined and customizable framework for efficient large model (LLM, VLM, AIGC) evaluation and performance benchmarking.
+    homepage: https://evalscope.readthedocs.io/en/latest/
+    topics:
+      - evaluation
+      - llm
+      - performance
+      - rag
+      - vlm
+    last_checked_at: "2026-05-05T21:03:45.622Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:45.622Z"
+      bytes: 34834
+insights:
+  summary: EvalScope is a Python framework for evaluating and benchmarking large models (LLMs, VLMs, AIGC) with built-in benchmarks, multi-backend support, and performance stress testing.
+  why_it_matters: It gives developers a structured way to measure model quality and inference performance across multiple backends instead of stitching together ad-hoc eval scripts.
+  mental_damage: Because the only thing more exhausting than tuning prompts is building an entire benchmarking pipeline just to prove your model is statistically 3% less confused than the last one.
+  tags:
+    - eval
+    - benchmark
+    - llm
+    - performance
+    - modelscope
+  confidence: high
+curation:
+  status: included
+  reason: EvalScope is an evaluation and benchmarking framework for LLMs and related models, which clearly fits the Evaluations and Benchmarks category.
+  evidence:
+    - "Repo description: 'streamlined and customizable framework for efficient large model (LLM, VLM, AIGC) evaluation and performance benchmarking.'"
+    - README lists benchmarks (MMLU, GSM8K), multi-backend evaluation, and inference performance testing (TTFT, TPOT).
+    - Featured in an awesome-LLM-resources list under the Evaluation section.
+placement:
+  primary_category: evals
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (2753) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.708Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:45.622Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:38:53.349Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

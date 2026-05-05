@@ -1,0 +1,76 @@
+id: spix__sh
+kind: website
+name: spix.sh
+canonical_url: https://spix.sh
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__spix__sh__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💬 <a name="communication"></a>Communication
+        anchor_text: Free tier available
+        extracted_url: https://spix.sh
+        surrounding_text: "- [Spix-HQ/spix-mcp](https://github.com/Spix-HQ/spix-mcp) [![Spix-HQ/spix-mcp MCP server](https://glama.ai/mcp/servers/Spix-HQ/spix-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Spix-HQ/spix-mcp) 🐍 ☁️ - Give AI agents a real phone number and voice. Make outbound calls, handle inbound calls, send email, and manage contacts via 26 MCP tools. ~500ms voice latency (Deepgram Nova-3 + Claude + Cartesia Sonic-3). Install: `pip install spix-mcp`. [Free tier available](https://spix.sh)."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Spix.sh is a server implementation for the Model Context Protocol (MCP) designed to facilitate communication workflows.
+  why_it_matters: It provides developers with a standardized MCP server to integrate communication capabilities into their AI agent toolchains.
+  mental_damage: Another essential tile in the ever-expanding mosaic of MCP servers, ensuring your agent can theoretically talk to everything except the human who actually understands the requirements.
+  tags:
+    - mcp
+    - communication
+    - server
+  confidence: medium
+curation:
+  status: included
+  reason: The project is explicitly listed as an MCP Server Implementation in the 'Communication' section of the awesome-mcp-servers directory, fitting the MCP Servers and Tooling category.
+  evidence:
+    - Listed in awesome-mcp-servers under 'Server Implementations > Communication'
+    - Source URL is https://spix.sh, indicating a dedicated tool/site for this protocol
+    - Classified as a server implementation rather than a client or general framework
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.730Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:48:20.239Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

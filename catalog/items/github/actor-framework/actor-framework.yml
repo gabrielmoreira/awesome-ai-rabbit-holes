@@ -1,0 +1,86 @@
+id: github__actor-framework__actor-framework
+kind: github-repo
+name: actor-framework
+canonical_url: https://github.com/actor-framework/actor-framework
+identity:
+  github_repo: actor-framework/actor-framework
+provenance:
+  discoveries:
+    - id: discovery__github__actor-framework__actor-framework__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: scraped
+        section_path:
+          - Langroid
+          - Description
+        anchor_text: Actor Framework
+        extracted_url: https://en.wikipedia.org/wiki/Actor_model
+        surrounding_text: "[Actor Framework](https://en.wikipedia.org/wiki/Actor_model)"
+        confidence: high
+metadata:
+  github:
+    stars: 3414
+    forks: 569
+    license: BSD-3-Clause
+    archived: false
+    created_at: "2011-03-04T14:59:50Z"
+    pushed_at: "2026-05-05T13:05:56Z"
+    description: An Open Source Implementation of the Actor Model in C++
+    homepage: http://actor-framework.org/
+    topics:
+      - actor-model
+      - actors
+      - async
+      - caf
+      - pattern-matching
+    last_checked_at: "2026-05-05T21:00:48.872Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:48.872Z"
+      bytes: 6696
+insights:
+  summary: CAF (actor-framework) is an open source C++ framework implementing the Actor Model for building concurrent, distributed, and scalable applications with lightweight actors and pattern matching.
+  why_it_matters: It provides developers with a high-abstraction, high-performance native runtime for concurrent systems, supporting distributed actors, HTTP/WebSocket, and flows without forcing a JVM or Erlang dependency.
+  mental_damage: Yet another reminder that while we wait for AI agents to refactor our spaghetti into clean concurrency models, we still have to manually wire up message-passing C++ actors like it’s 2011.
+  tags:
+    - actor-model
+    - cpp
+    - concurrency
+    - distributed-systems
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a general-purpose C++ concurrency framework with no AI, LLM, agent, or developer-tooling AI angle, despite appearing in an awesome-ai-agents list under a conceptual 'Actor model' link.
+  evidence:
+    - Repo description and README describe a native Actor Model implementation in C++ with no mention of AI, LLMs, or AI agents.
+    - Topics include actor-model, actors, async, caf, pattern-matching — none related to AI tooling or developer AI workflows.
+    - Listed in awesome-ai-agents only via a Wikipedia link for the Actor model concept, not as an AI coding tool.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (3414) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.676Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:48.872Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:05:48.065Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

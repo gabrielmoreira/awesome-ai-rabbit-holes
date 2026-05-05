@@ -1,0 +1,98 @@
+id: github__hovsteder__powersun-tron-mcp
+kind: github-repo
+name: powersun-tron-mcp
+canonical_url: https://github.com/hovsteder/powersun-tron-mcp
+identity:
+  github_repo: hovsteder/powersun-tron-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__hovsteder__powersun-tron-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: Hovsteder/powersun-tron-mcp
+        extracted_url: https://github.com/hovsteder/powersun-tron-mcp
+        surrounding_text: "- [Hovsteder/powersun-tron-mcp](https://github.com/Hovsteder/powersun-tron-mcp) [![Hovsteder/powersun-tron-mcp MCP server](https://glama.ai/mcp/servers/Hovsteder/powersun-tron-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Hovsteder/powersun-tron-mcp) 📇 ☁️ - TRON Energy & Bandwidth marketplace and DEX swap aggregator for AI agents. 27 tools for buying energy, swapping TRC-20 tokens via SunSwap DEX, selling resources, and earning passive income. Remote Streamable HTTP with 3 payment methods (API Key, HTTP 402, x402 USDC)."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-02-26T17:01:41Z"
+    pushed_at: "2026-04-02T08:59:39Z"
+    description: "TRON Energy & Bandwidth MCP Server + DEX Swap Aggregator for AI agents. 27 tools: self-service onboarding, buy/sell TRON resources, swap tokens on SunSwap DEX via MCP, REST API, or HTTP 402. Only 10% commission."
+    homepage: null
+    topics:
+      - ai-agent
+      - blockchain
+      - defi
+      - dex-swap
+      - energy-rental
+      - http-402
+      - mcp
+      - mcp-server
+      - rest-api
+      - sunswap
+      - token-swap
+      - tron
+      - tron-energy
+      - trx
+      - usdt
+      - x402
+    last_checked_at: "2026-05-05T21:02:36.358Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:36.358Z"
+      bytes: 17431
+insights:
+  summary: An MCP server that exposes 27 tools for autonomous TRON energy/bandwidth rental, DEX token swaps on SunSwap, and resource selling via MCP, REST API, or HTTP 402 pay-per-use.
+  why_it_matters: Developers building AI agents that need to handle TRON transactions can delegate energy management and token swaps to an agent-accessible endpoint without wiring custom blockchain logic.
+  mental_damage: We have truly arrived at the point where autonomous agents need a dedicated pay-per-use API to haggle over blockchain gas fees while your CI pipeline still can't decide if it wants to pass.
+  tags:
+    - mcp
+    - tron
+    - defi
+    - dex-swap
+    - blockchain
+  confidence: medium
+curation:
+  status: included
+  reason: This is a dedicated MCP server implementation offering agent-facing tools for TRON resource management and DEX swaps, which fits squarely into MCP infrastructure.
+  evidence:
+    - Repo description explicitly states 'TRON Energy & Bandwidth MCP Server + DEX Swap Aggregator for AI agents'
+    - README positions it as a hosted MCP endpoint with 27 tools and Streamable HTTP transport
+    - Listed in awesome-mcp-servers under Finance & Fintech, confirming ecosystem fit
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.696Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:36.358Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:24:24.281Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

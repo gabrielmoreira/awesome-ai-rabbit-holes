@@ -1,0 +1,102 @@
+id: github__jcast90__relay
+kind: github-repo
+name: relay
+canonical_url: https://github.com/jcast90/relay
+identity:
+  github_repo: jcast90/relay
+provenance:
+  discoveries:
+    - id: discovery__github__jcast90__relay__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Orchestrators & autonomous loops
+        anchor_text: Relay
+        extracted_url: https://github.com/jcast90/relay
+        surrounding_text: "- **[Relay](https://github.com/jcast90/relay)** `⭐ 3` — Local-first orchestrator that runs inside your existing Claude or Codex CLI via MCP; classifies a request, decomposes it into tickets with a dependency DAG, dispatches across one or more repos, and supervises with live PR tracking + approval gates. CLI, TUI (ratatui), and GUI (Tauri) dashboards share `~/.relay/` state. MIT."
+        confidence: high
+metadata:
+  github:
+    stars: 3
+    forks: 4
+    license: MIT
+    archived: false
+    created_at: "2026-03-30T13:57:16Z"
+    pushed_at: "2026-05-01T19:36:14Z"
+    description: Orchestrate coding agents across repos. Local-first, self-hosted, runs inside your existing Claude / Codex CLI.
+    homepage: https://github.com/jcast90/relay#readme
+    topics:
+      - agent-orchestration
+      - ai-agents
+      - ai-coding-assistant
+      - autonomous-agent
+      - claude
+      - claude-cli
+      - cli
+      - codex
+      - codex-cli
+      - coding-agent
+      - developer-tools
+      - local-first
+      - mcp
+      - mcp-server
+      - multi-agent
+      - orchestration
+      - ratatui
+      - rust
+      - tauri
+      - typescript
+    last_checked_at: "2026-05-05T21:02:53.454Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:53.454Z"
+      bytes: 46994
+insights:
+  summary: A local-first, self-hosted orchestration tool that coordinates Claude and Codex CLI coding agents across multiple repositories with an audit trail and dashboard interfaces.
+  why_it_matters: It lets developers decompose tickets into cross-repo agent task graphs and preserve decision rationale, bridging the gap between single-repo assistants and multi-service backends.
+  mental_damage: We have finally built Slack for the bots, which means the agents can now argue with each other about your architecture while you are stuck debugging the orchestrator.
+  tags:
+    - agent-orchestration
+    - mcp
+    - local-first
+    - cross-repo
+    - cli
+  confidence: high
+curation:
+  status: included
+  reason: Relay is a user-facing control plane for coordinating multiple coding agents across repos with dashboards and task dispatching, fitting agent orchestration rather than being a primary coding assistant itself.
+  evidence:
+    - "Repo description states: 'Orchestrate coding agents across repos. Local-first, self-hosted, runs inside your existing Claude / Codex CLI.'"
+    - README describes dispatching to Claude or Codex agents, cross-repo MCP coordination, and three local dashboards (CLI, TUI, GUI).
+    - Listed in awesome-cli-coding-agents under 'Harnesses & orchestration > Orchestrators & autonomous loops'.
+placement:
+  primary_category: agent-orchestration
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.699Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:53.454Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:28:04.401Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

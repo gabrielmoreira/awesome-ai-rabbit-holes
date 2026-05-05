@@ -1,0 +1,87 @@
+id: github__izzzzzi__codewiki-mcp
+kind: github-repo
+name: codewiki-mcp
+canonical_url: https://github.com/izzzzzi/codewiki-mcp
+identity:
+  github_repo: izzzzzi/codewiki-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__izzzzzi__codewiki-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: izzzzzi/codewiki-mcp
+        extracted_url: https://github.com/izzzzzi/codewiki-mcp
+        surrounding_text: "- [izzzzzi/codewiki-mcp](https://github.com/izzzzzi/codewiki-mcp) [![codewiki-mcp MCP server](https://glama.ai/mcp/servers/izzzzzi/codewiki-mcp/badges/score.svg)](https://glama.ai/mcp/servers/izzzzzi/codewiki-mcp) 📇 ☁️ - MCP server for codewiki.google. Search repos, fetch AI-generated wiki docs, and ask questions about any open-source repository."
+        confidence: high
+metadata:
+  github:
+    stars: 3
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-02-16T16:45:33Z"
+    pushed_at: "2026-05-04T19:01:39Z"
+    description: MCP server for codewiki.google — search, fetch docs, and ask questions about any open-source repo
+    homepage: ""
+    topics:
+      - ai
+      - codewiki
+      - documentation
+      - mcp
+      - mcp-server
+      - model-context-protocol
+    last_checked_at: "2026-05-05T21:02:48.392Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:48.392Z"
+      bytes: 12154
+insights:
+  summary: An MCP server that connects AI assistants to codewiki.google, enabling search, documentation fetching, and Q&A for open-source GitHub repositories.
+  why_it_matters: It gives coding agents instant access to AI-generated wiki documentation for any open-source repo, reducing the need to scrape or manually read external READMEs and source trees.
+  mental_damage: Another layer in the stack that lets your AI assistant read docs about code so it can hallucinate with marginally more context than before.
+  tags:
+    - mcp
+    - documentation
+    - context-retrieval
+    - developer-tools
+  confidence: medium
+curation:
+  status: included
+  reason: The project is explicitly an MCP server providing context and documentation retrieval to MCP-compatible clients, which fits cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description states: 'MCP server for codewiki.google — search, fetch docs, and ask questions about any open-source repo'"
+    - "README confirms: 'codewiki-mcp is a Model Context Protocol server that gives AI assistants access to codewiki.google'"
+    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.699Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:48.392Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:27:03.305Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,69 @@
+id: github__predibase__lorax
+kind: github-repo
+name: lorax
+canonical_url: https://github.com/predibase/lorax
+identity:
+  github_repo: predibase/lorax
+provenance:
+  discoveries:
+    - id: discovery__github__predibase__lorax__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: janhq/awesome-local-ai
+        url: https://github.com/janhq/awesome-local-ai
+        repository: janhq/awesome-local-ai
+      extraction:
+        mode: parsed
+        section_path:
+          - Inference Engine
+        anchor_text: LoRAX
+        extracted_url: https://github.com/predibase/lorax
+        surrounding_text: "| [LoRAX](https://github.com/predibase/lorax)                     | - Multi-LoRA inference server that scales to 1000s of fine-tuned LLMs                | Safetensor / AWQ / GPTQ | GPU             | ❌  | Python/Rust | Text-Gen      |"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.713Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: skipped
+    updated_at: "2026-05-05T21:04:23.169Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

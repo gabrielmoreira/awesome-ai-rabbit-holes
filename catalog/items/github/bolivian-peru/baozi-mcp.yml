@@ -1,0 +1,89 @@
+id: github__bolivian-peru__baozi-mcp
+kind: github-repo
+name: baozi-mcp
+canonical_url: https://github.com/bolivian-peru/baozi-mcp
+identity:
+  github_repo: bolivian-peru/baozi-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__bolivian-peru__baozi-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: bolivian-peru/baozi-mcp
+        extracted_url: https://github.com/bolivian-peru/baozi-mcp
+        surrounding_text: "- [bolivian-peru/baozi-mcp](https://github.com/bolivian-peru/baozi-mcp) 📇 ☁️ - 68 tools for AI agents to interact with Solana prediction markets on [Baozi.bet](https://baozi.bet) — browse markets, place bets, claim winnings, create markets, and earn affiliate commissions."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 2
+    license: MIT
+    archived: false
+    created_at: "2026-01-30T18:46:18Z"
+    pushed_at: "2026-04-17T22:20:50Z"
+    description: MCP server for Baozi prediction markets on Solana - 68 tools for AI agents
+    homepage: null
+    topics:
+      - ai-agent
+      - claude
+      - defi
+      - mcp
+      - model-context-protocol
+      - prediction-markets
+      - solana
+    last_checked_at: "2026-05-05T21:01:23.709Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:23.709Z"
+      bytes: 13675
+insights:
+  summary: An MCP server that exposes 76 tools for AI agents to interact with Baozi prediction markets on Solana, handling unsigned transactions for user-signed execution.
+  why_it_matters: Developers building AI agents can integrate this server to enable market creation, betting, and resolution on Solana without handling private keys directly.
+  mental_damage: We have officially reached the point where autonomous agents need a dedicated protocol layer just to lose fake money in prediction markets faster than a human ever could.
+  tags:
+    - mcp
+    - solana
+    - defi
+    - prediction-markets
+    - agent-tools
+  confidence: high
+curation:
+  status: included
+  reason: This is a clear MCP server implementation that provides a suite of tools for AI agents to interact with a specific blockchain protocol.
+  evidence:
+    - "Repo description explicitly states: 'MCP server for Baozi prediction markets on Solana - 68 tools for AI agents'."
+    - README confirms '76 tools are now available to your AI agent' via stdio transport.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Finance & Fintech'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.681Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:23.709Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:11:19.975Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

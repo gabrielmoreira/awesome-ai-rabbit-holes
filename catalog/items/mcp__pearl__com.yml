@@ -1,0 +1,74 @@
+id: mcp__pearl__com
+kind: website
+name: mcp.pearl.com
+canonical_url: https://mcp.pearl.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__mcp__pearl__com__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Pearl
+        extracted_url: https://mcp.pearl.com
+        surrounding_text: "- **[Pearl](https://mcp.pearl.com)** - Official MCP Server to interact with Pearl API. Connect your AI Agents with 12,000+ certified experts instantly."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Pearl API MCP Server is a Model Context Protocol server implementation for the Pearl API.
+  why_it_matters: It allows AI assistants and agents to integrate with Pearl's API by exposing its capabilities through the standardized MCP interface.
+  mental_damage: Yet another MCP server entering the ecosystem, proving that the 'build once, wrap everywhere' protocol is rapidly becoming its own full-time integration job.
+  tags:
+    - mcp
+    - api
+    - server
+  confidence: medium
+curation:
+  status: included
+  reason: The project is explicitly identified as an MCP Server, which fits cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - Scraped site context identifies the product as 'Pearl API MCP Server'
+    - Listed in the awesome-mcp-servers directory under Official Servers
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.729Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:46:21.478Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

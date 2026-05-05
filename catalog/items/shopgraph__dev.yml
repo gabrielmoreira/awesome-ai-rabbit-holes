@@ -1,0 +1,76 @@
+id: shopgraph__dev
+kind: website
+name: shopgraph.dev
+canonical_url: https://shopgraph.dev
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__shopgraph__dev__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T20:48:55.437Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🛒 <a name="e-commerce"></a>E-Commerce
+        anchor_text: shopgraph.dev
+        extracted_url: https://shopgraph.dev
+        surrounding_text: "- [laundromatic/shopgraph](https://github.com/laundromatic/shopgraph) [![laundromatic/shopgraph MCP server](https://glama.ai/mcp/servers/laundromatic/shopgraph/badges/score.svg)](https://glama.ai/mcp/servers/laundromatic/shopgraph) 📇 ☁️ - Structured product data from the open web — Schema.org + AI extraction for e-commerce enrichment. Pay per call via Stripe. [shopgraph.dev](https://shopgraph.dev)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: ShopGraph is an API that extracts structured product data from commerce URLs, returning per-field provenance and confidence scores to help automated agents decide what data to trust.
+  why_it_matters: Developers building commerce agents can standardize extraction across merchants using a single schema and filter results based on confidence thresholds, reducing brittle scraping logic.
+  mental_damage: Another layer of metadata to obsess over while your agent confidently buys a widget that hasn't been in stock since 2019.
+  tags:
+    - mcp
+    - extraction
+    - e-commerce
+    - agent-tooling
+  confidence: medium
+curation:
+  status: included
+  reason: It is explicitly listed as an MCP server implementation for e-commerce in the awesome-mcp-servers directory and its site describes an agent-ready extraction API.
+  evidence:
+    - Listed in awesome-mcp-servers under 'Server Implementations > E-Commerce' as a product data extraction tool for agents.
+    - Site describes itself as an extraction API with per-field provenance and confidence scoring specifically for agent consumption.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T20:48:55.445Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T20:49:40.507Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+    next_retry_at: null

@@ -1,0 +1,81 @@
+id: github__docker__hub-mcp
+kind: github-repo
+name: hub-mcp
+canonical_url: https://github.com/docker/hub-mcp
+identity:
+  github_repo: docker/hub-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__docker__hub-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: docker/hub-mcp
+        extracted_url: https://github.com/docker/hub-mcp
+        surrounding_text: "- [docker/hub-mcp](https://github.com/docker/hub-mcp) 🎖️ 📇 ☁️ 🏠 - Official MCP server to interact with Docker Hub, providing access to repositories, hub search and Docker Hardened Images"
+        confidence: high
+metadata:
+  github:
+    stars: 141
+    forks: 95
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-06-12T16:12:12Z"
+    pushed_at: "2026-04-27T07:24:42Z"
+    description: Docker Hub MCP Server
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:01:54.995Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:54.995Z"
+      bytes: 12712
+insights:
+  summary: An official Docker Hub MCP server that exposes Docker Hub APIs to LLMs for real-time image discovery, recommendations, and repository management via natural language.
+  why_it_matters: It gives AI assistants live access to Docker Hub metadata so they can recommend the right images and manage repos without the developer manually digging through container registries.
+  mental_damage: We’ve reached the point where the AI can’t even pick a container image without an official protocol server translating Docker Hub into LLM-compatible context.
+  tags:
+    - mcp
+    - docker
+    - developer-tools
+    - container-registry
+  confidence: high
+curation:
+  status: included
+  reason: This is a first-party MCP server implementation from Docker that cleanly fits the MCP Servers and Tooling category.
+  evidence:
+    - Repo description is 'Docker Hub MCP Server' and README states it is 'a Model Context Protocol (MCP) server that interfaces with Docker Hub APIs'.
+    - Included in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
+    - Actively maintained with a recent push date of 2026-04-27 and licensed under Apache-2.0.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.685Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:54.995Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:16:39.560Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

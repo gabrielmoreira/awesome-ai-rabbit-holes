@@ -1,0 +1,96 @@
+id: github__hashgraph-online__hashnet-mcp-js
+kind: github-repo
+name: hashnet-mcp-js
+canonical_url: https://github.com/hashgraph-online/hashnet-mcp-js
+identity:
+  github_repo: hashgraph-online/hashnet-mcp-js
+provenance:
+  discoveries:
+    - id: discovery__github__hashgraph-online__hashnet-mcp-js__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🔗 <a name="aggregators"></a>Aggregators
+        anchor_text: hashgraph-online/hashnet-mcp-js
+        extracted_url: https://github.com/hashgraph-online/hashnet-mcp-js
+        surrounding_text: "- [hashgraph-online/hashnet-mcp-js](https://github.com/hashgraph-online/hashnet-mcp-js) 📇 ☁️ 🍎 🪟 🐧 - MCP server for the Registry Broker. Discover, register, and chat with AI agents on the Hashgraph network."
+        confidence: high
+metadata:
+  github:
+    stars: 12
+    forks: 3
+    license: NOASSERTION
+    archived: false
+    created_at: "2025-11-11T23:30:00Z"
+    pushed_at: "2026-04-13T00:58:58Z"
+    description: Universal MCP Server for finding + connecting to agents anywhere on the planet. https://hol.org/mcp
+    homepage: https://hol.org/mcp
+    topics:
+      - a2a
+      - agent
+      - agent-discovery
+      - agentverse
+      - ai-agents
+      - erc-8004
+      - hashgraph
+      - hedera
+      - mcp
+      - mcp-server
+      - nanda
+      - openrouter
+      - registry-broker
+      - virtuals
+    last_checked_at: "2026-05-05T21:02:31.451Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:31.451Z"
+      bytes: 5477
+insights:
+  summary: A universal MCP server for discovering, chatting with, and registering agents across the HOL Registry Broker and Hashgraph ecosystem.
+  why_it_matters: Developers can bridge local or remote agents into MCP-compatible workflows, enabling agent discovery and delegation without building custom registry integrations.
+  mental_damage: Another registry, another protocol, another layer of middleware so your agents can finally negotiate with other agents while you debug transport configurations.
+  tags:
+    - mcp
+    - agent-discovery
+    - hashgraph
+    - registry
+    - a2a
+  confidence: medium
+curation:
+  status: included
+  reason: The project is a dedicated MCP server providing agent discovery, chat, and registration tooling against a registry broker, which aligns cleanly with MCP infrastructure.
+  evidence:
+    - "Repo description states: 'Universal MCP Server for finding + connecting to agents anywhere on the planet.'"
+    - README describes tool surface for discovery, chat, registration, and workflows against the HOL Registry Broker.
+    - Listed under 'Server Implementations > Aggregators' in awesome-mcp-servers, confirming MCP ecosystem fit.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.690Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:31.451Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:23:36.331Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

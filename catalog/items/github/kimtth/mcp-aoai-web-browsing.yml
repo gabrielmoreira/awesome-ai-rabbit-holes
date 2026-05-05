@@ -1,0 +1,103 @@
+id: github__kimtth__mcp-aoai-web-browsing
+kind: github-repo
+name: mcp-aoai-web-browsing
+canonical_url: https://github.com/kimtth/mcp-aoai-web-browsing
+identity:
+  github_repo: kimtth/mcp-aoai-web-browsing
+provenance:
+  discoveries:
+    - id: discovery__github__kimtth__mcp-aoai-web-browsing__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📂 <a name="browser-automation"></a>Browser Automation
+        anchor_text: kimtth/mcp-aoai-web-browsing
+        extracted_url: https://github.com/kimtth/mcp-aoai-web-browsing
+        surrounding_text: "- [kimtth/mcp-aoai-web-browsing](https://github.com/kimtth/mcp-aoai-web-browsing) 🐍 🏠 - A `minimal` server/client MCP implementation using Azure OpenAI and Playwright."
+        confidence: high
+    - id: discovery__github__kimtth__mcp-aoai-web-browsing__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - 📂 Browser Control
+        anchor_text: "@kimtth/mcp-aoai-web-browsing"
+        extracted_url: https://github.com/kimtth/mcp-aoai-web-browsing
+        surrounding_text: "-   **[@kimtth/mcp-aoai-web-browsing](https://github.com/kimtth/mcp-aoai-web-browsing)** [![GitHub stars](https://img.shields.io/github/stars/kimtth/mcp-aoai-web-browsing?style=social)](https://github.com/kimtth/mcp-aoai-web-browsing): Implements minimal web browsing using Azure OpenAI and Playwright."
+        confidence: high
+metadata:
+  github:
+    stars: 33
+    forks: 14
+    license: MIT
+    archived: false
+    created_at: "2024-12-13T12:12:08Z"
+    pushed_at: "2026-04-03T04:24:06Z"
+    description: A minimal Model Context Protocol 🖥️ server/client🧑‍💻with OpenAI and 🌐 web browser control via Playwright.
+    homepage: ""
+    topics:
+      - azure-openai
+      - mcp
+      - mcp-client
+      - mcp-server
+      - model-context-protocol
+      - playwright
+      - web-automation
+    last_checked_at: "2026-05-05T21:03:05.917Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:05.917Z"
+      bytes: 6895
+insights:
+  summary: A minimal Model Context Protocol server and client that lets Azure OpenAI or OpenAI models control a web browser via Playwright tools exposed through MCP.
+  why_it_matters: Developers can wire LLMs into IDEs like VS Code or Claude Code and have them reliably navigate and interact with web pages through a standardized MCP interface.
+  mental_damage: We have successfully reached the point where your AI needs its own browser, its own protocol, and a bridge, just to click a button on a login page.
+  tags:
+    - mcp
+    - playwright
+    - browser-automation
+    - azure-openai
+  confidence: medium
+curation:
+  status: included
+  reason: The project is an MCP server and bridge implementation that exposes Playwright browser automation tools to OpenAI-compatible LLMs, fitting cleanly into MCP infrastructure.
+  evidence:
+    - Repo description states it is 'A minimal Model Context Protocol server/client with OpenAI and web browser control via Playwright.'
+    - README details MCP server built with FastMCP and a bridge converting MCP responses to OpenAI function calling format.
+    - Listed in awesome-mcp-list (Browser Control) and awesome-mcp-servers (Browser Automation), confirming MCP ecosystem relevance.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.668Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:05.917Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:30:48.866Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

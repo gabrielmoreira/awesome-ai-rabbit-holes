@@ -1,0 +1,80 @@
+id: github__makenotion__notion-mcp-server
+kind: github-repo
+name: notion-mcp-server
+canonical_url: https://github.com/makenotion/notion-mcp-server
+identity:
+  github_repo: makenotion/notion-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__makenotion__notion-mcp-server__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Notion
+        extracted_url: https://github.com/makenotion/notion-mcp-server
+        surrounding_text: "- **[Notion](https://github.com/makenotion/notion-mcp-server)** - Notion official MCP server"
+        confidence: high
+metadata:
+  github:
+    stars: 4297
+    forks: 561
+    license: MIT
+    archived: false
+    created_at: "2025-03-10T18:09:08Z"
+    pushed_at: "2026-03-18T00:25:06Z"
+    description: Official Notion MCP Server
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:03:27.767Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:27.767Z"
+      bytes: 12632
+insights:
+  summary: An official local MCP server from Notion that exposes workspace pages and databases as tools for AI agents via the Model Context Protocol.
+  why_it_matters: It lets developers connect Notion directly to AI coding assistants and agents, so docs, specs, and databases become live context inside the editor workflow.
+  mental_damage: Now your LLM can silently mangle your Notion pages and databases with optimized token consumption, and you get to debug both your codebase and your wiki.
+  tags:
+    - mcp
+    - notion
+    - context
+    - agent-tools
+  confidence: high
+curation:
+  status: included
+  reason: The project is itself an MCP server implementation from Notion, which fits squarely into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description is 'Official Notion MCP Server' and README states it implements an MCP server for the Notion API.
+    - Listed under 'Official Servers' in the awesome-mcp-servers directory.
+    - Recent activity with created_at 2025-03-10 and pushed_at 2026-03-18, not archived.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (4297) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.705Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:27.767Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:35:19.608Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

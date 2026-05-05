@@ -1,0 +1,86 @@
+id: github__openagents-org__openagents
+kind: github-repo
+name: openagents
+canonical_url: https://github.com/openagents-org/openagents
+identity:
+  github_repo: openagents-org/openagents
+provenance:
+  discoveries:
+    - id: discovery__github__openagents-org__openagents__awesome-list__kaushikb11__awesome-llm-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: kaushikb11/awesome-llm-agents
+        url: https://github.com/kaushikb11/awesome-llm-agents
+        repository: kaushikb11/awesome-llm-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Frameworks
+        anchor_text: OpenAgents
+        extracted_url: https://github.com/openagents-org/openagents
+        surrounding_text: "- [OpenAgents](https://github.com/openagents-org/openagents) - Open-source platform for"
+        confidence: high
+metadata:
+  github:
+    stars: 3384
+    forks: 315
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-03-10T22:27:52Z"
+    pushed_at: "2026-05-04T07:31:38Z"
+    description: OpenAgents - AI Agent Networks for Open Collaboration
+    homepage: https://openagents.org
+    topics:
+      - agents
+      - ai
+      - collaboration
+      - llm
+      - network
+    last_checked_at: "2026-05-05T21:04:03.210Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:03.210Z"
+      bytes: 11123
+insights:
+  summary: An open-source workspace and launcher that connects multiple AI coding agents—such as Claude Code, Codex CLI, and Cursor—into a shared hub for context sharing, file access, and collaborative task execution.
+  why_it_matters: It lets developers centralize and coordinate disparate AI agents across machines and terminals without writing glue code or manually stitching context together.
+  mental_damage: You’ve graduated from managing one hallucinating assistant to managing an entire chat room of them, all sharing a browser and a filesystem like it’s 1999.
+  tags:
+    - agents
+    - multi-agent
+    - workspace
+    - cli
+    - collaboration
+  confidence: high
+curation:
+  status: included
+  reason: This is a user-facing control plane for coordinating multiple AI agent runtimes, not a primary coding assistant, IDE, or app builder.
+  evidence:
+    - Repo description explicitly calls it 'AI Agent Networks for Open Collaboration' and the README pitches 'The Collaborative OS for Agents'.
+    - It supports connecting Claude Code, OpenClaw, Codex CLI, Cursor, and others into a shared workspace with @mentions and shared files/browser.
+    - The included launcher (`agn`) is a terminal dashboard to manage, configure, and daemonize multiple agent runtimes rather than being an agent itself.
+placement:
+  primary_category: agent-orchestration
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (3384) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.711Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:03.210Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:42:21.000Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

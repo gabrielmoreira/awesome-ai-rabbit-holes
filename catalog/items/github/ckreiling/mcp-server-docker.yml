@@ -1,0 +1,81 @@
+id: github__ckreiling__mcp-server-docker
+kind: github-repo
+name: mcp-server-docker
+canonical_url: https://github.com/ckreiling/mcp-server-docker
+identity:
+  github_repo: ckreiling/mcp-server-docker
+provenance:
+  discoveries:
+    - id: discovery__github__ckreiling__mcp-server-docker__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: ckreiling/mcp-server-docker
+        extracted_url: https://github.com/ckreiling/mcp-server-docker
+        surrounding_text: "- [ckreiling/mcp-server-docker](https://github.com/ckreiling/mcp-server-docker) 🐍 🏠 - Integrate with Docker to manage containers, images, volumes, and networks."
+        confidence: high
+metadata:
+  github:
+    stars: 711
+    forks: 99
+    license: GPL-3.0
+    archived: false
+    created_at: "2024-12-07T02:52:14Z"
+    pushed_at: "2025-06-05T02:52:13Z"
+    description: MCP server for Docker
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:01:34.846Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:34.846Z"
+      bytes: 5475
+insights:
+  summary: An MCP server that allows developers to manage Docker containers, images, networks, and volumes using natural language through AI assistants like Claude Desktop.
+  why_it_matters: It bridges the gap between local container infrastructure and AI workflows, letting developers spin up and debug complex multi-container environments like WordPress without leaving their chat interface.
+  mental_damage: "We have finally achieved the platonic ideal of modern DevOps: an LLM hallucinating docker-compose flags while mounting the host socket with privileges we explicitly told it not to use."
+  tags:
+    - mcp
+    - docker
+    - devops
+    - infrastructure
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server implementation for Docker, fitting perfectly into the MCP infrastructure category.
+  evidence:
+    - Repo description is 'MCP server for Docker'.
+    - Featured in the 'awesome-mcp-servers' list under 'Server Implementations > Developer Tools'.
+    - README details specific MCP tools for containers, images, networks, and volumes.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (711) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.682Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:34.846Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:13:18.645Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

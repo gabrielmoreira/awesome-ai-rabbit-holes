@@ -1,0 +1,118 @@
+id: github__jovancoding__network-ai
+kind: github-repo
+name: network-ai
+canonical_url: https://github.com/jovancoding/network-ai
+identity:
+  github_repo: jovancoding/network-ai
+provenance:
+  discoveries:
+    - id: discovery__github__jovancoding__network-ai__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🔗 <a name="aggregators"></a>Aggregators
+        anchor_text: Jovancoding/Network-AI
+        extracted_url: https://github.com/jovancoding/network-ai
+        surrounding_text: "- [Jovancoding/Network-AI](https://github.com/Jovancoding/Network-AI) [![network](https://glama.ai/mcp/servers/Jovancoding/network-ai/badges/score.svg)](https://glama.ai/mcp/servers/Jovancoding/network-ai) 📇 🏠 🍎 🪟 🐧 - Multi-agent orchestration MCP server with race-condition-safe shared blackboard. 20+ MCP tools: blackboard read/write, agent spawn/stop, FSM transitions, budget tracking, token management, and audit log query. `npx network-ai-server --port 3001`."
+        confidence: high
+    - id: discovery__github__jovansapfioneer__network-ai__awesome-list__vivy-yi__awesome-agent-orchestration
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: vivy-yi/awesome-agent-orchestration
+        url: https://github.com/vivy-yi/awesome-agent-orchestration
+        repository: vivy-yi/awesome-agent-orchestration
+      extraction:
+        mode: parsed
+        section_path:
+          - Core Frameworks
+          - TypeScript & Node.js Frameworks
+        anchor_text: Network-AI
+        extracted_url: https://github.com/jovansapfioneer/network-ai
+        surrounding_text: "| [Network-AI](https://github.com/jovanSAPFIONEER/Network-AI) | TypeScript/Node multi-agent orchestrator with shared state | ![Stars](https://img.shields.io/github/stars/jovanSAPFIONEER/Network-AI) |"
+        confidence: high
+metadata:
+  github:
+    stars: 45
+    forks: 10
+    license: MIT
+    archived: false
+    created_at: "2026-02-04T14:37:22Z"
+    pushed_at: "2026-05-05T02:20:05Z"
+    description: Traffic light for AI Agents and TypeScript/Node multi-agent orchestrator with shared state, guardrails, and adapters for 29 AI frameworks
+    homepage: https://network-ai.org/
+    topics:
+      - agent-framework
+      - agent-orchestration
+      - ai-agents
+      - autogen
+      - blackboard
+      - blackboard-architecture
+      - crewai
+      - hermes
+      - hermes-agent
+      - langchain
+      - llm
+      - mcp
+      - multi-agent
+      - nemoclaw
+      - nodejs
+      - openclaw
+      - orchestration
+      - rlm
+      - typescript
+      - workflow-engine
+    last_checked_at: "2026-05-05T21:02:59.460Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:59.460Z"
+      bytes: 29692
+insights:
+  summary: A TypeScript/Node.js multi-agent orchestrator that provides shared state with locking, guardrails, budgets, and adapters for 29 AI frameworks including LangChain, AutoGen, and CrewAI.
+  why_it_matters: It prevents split-brain state and race conditions in parallel multi-agent systems by adding an atomic propose-validate-commit mutex and governance layer across popular agent frameworks.
+  mental_damage: "Just what every developer wanted: another orchestration layer to coordinate the orchestrators that are already coordinating the agents that may or may not be doing any actual work."
+  tags:
+    - multi-agent
+    - orchestration
+    - typescript
+    - nodejs
+    - mcp
+  confidence: high
+curation:
+  status: included
+  reason: This is a code-first SDK/framework (importable library, CLI, and MCP server) for developers to build multi-agent systems with shared state and governance, rather than an end-user orchestration platform.
+  evidence:
+    - Repo description explicitly calls it a 'TypeScript/Node multi-agent orchestrator' with shared state and adapters.
+    - "README shows importable library usage: `import { LockedBlackboard } from 'network-ai'` and `import { createSwarmOrchestrator }` for code-first integration."
+    - Topic tags include agent-framework, agent-orchestration, and 29 framework adapters, confirming its role as a developer building block.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:29:21.872Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.700Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:59.460Z"
+    cause: null
+    next_retry_at: null

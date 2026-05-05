@@ -1,0 +1,80 @@
+id: github__digma-ai__digma-mcp-server
+kind: github-repo
+name: digma-mcp-server
+canonical_url: https://github.com/digma-ai/digma-mcp-server
+identity:
+  github_repo: digma-ai/digma-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__digma-ai__digma-mcp-server__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Digma
+        extracted_url: https://github.com/digma-ai/digma-mcp-server
+        surrounding_text: "- **[Digma](https://github.com/digma-ai/digma-mcp-server)** - A code observability MCP enabling dynamic code analysis based on OTEL/APM data to assist in code reviews, issues identification and fix, highlighting risky code etc."
+        confidence: high
+metadata:
+  github:
+    stars: 12
+    forks: 2
+    license: null
+    archived: false
+    created_at: "2025-04-21T08:38:45Z"
+    pushed_at: "2025-05-06T20:24:08Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:01:53.521Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:53.521Z"
+      bytes: 3860
+insights:
+  summary: An MCP server that connects AI agents to Digma's code observability and dynamic analysis data to assist with code reviews and performance debugging.
+  why_it_matters: It allows coding agents to ground their reviews in runtime data and distributed tracing, moving PR feedback from static suggestions to evidence-based insights.
+  mental_damage: We have finally bridged the gap between 'my agent thinks this code is slow' and 'the production database actually agrees with it'.
+  tags:
+    - mcp
+    - observability
+    - code-review
+    - agent-tools
+  confidence: high
+curation:
+  status: included
+  reason: The repository is explicitly an MCP server implementation designed to integrate Digma's observability insights into MCP-compatible clients like Claude and Cursor.
+  evidence:
+    - Repo name is 'digma-mcp-server' with README title 'Digma Code Observability MCP Server'.
+    - Installation instructions show configuring the server via SSE URL for MCP clients like Claude and Cursor.
+    - Features focus on providing observability data to agents via the Model Context Protocol.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.685Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:53.521Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:16:25.939Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

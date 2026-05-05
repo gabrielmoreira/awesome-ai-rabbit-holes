@@ -1,0 +1,76 @@
+id: www__kadoa__com
+kind: website
+name: www.kadoa.com
+canonical_url: https://www.kadoa.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__kadoa__com__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Kadoa
+        anchor_text: Kadoa
+        extracted_url: https://www.kadoa.com
+        surrounding_text: "## [Kadoa](https://www.kadoa.com/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Kadoa is a web data platform for finance that uses coding agents to generate and maintain deterministic data scraping pipelines from natural language prompts.
+  why_it_matters: It allows developers and analysts to skip writing and fixing brittle web scrapers by letting internal agents generate the pipeline code automatically.
+  mental_damage: You can now outsource your scraping nightmares to a specialized agent, giving you more free time to wonder when an agent will replace the analyst reading the data, too.
+  tags:
+    - web-scraping
+    - agents
+    - finance
+    - data-pipelines
+  confidence: high
+curation:
+  status: excluded
+  reason: The product is a vertical SaaS platform for investment firms, not a developer tool for building software, editing code, or extending a coding environment.
+  evidence:
+    - "Scraped site title and description explicitly state: 'Kadoa is the web data platform for investment firms.'"
+    - The workflow is designed for analysts and data scientists ('analysts can now extract public data themselves'), not software developers building apps.
+    - While it uses 'coding agents' to generate scraping code, the user never touches the IDE or repo; it is a hosted data service, not a developer tool.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.732Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:51:36.765Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

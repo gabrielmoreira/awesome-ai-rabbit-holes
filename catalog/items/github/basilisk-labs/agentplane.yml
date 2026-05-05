@@ -1,0 +1,96 @@
+id: github__basilisk-labs__agentplane
+kind: github-repo
+name: agentplane
+canonical_url: https://github.com/basilisk-labs/agentplane
+identity:
+  github_repo: basilisk-labs/agentplane
+provenance:
+  discoveries:
+    - id: discovery__github__basilisk-labs__agentplane__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Agent infrastructure
+        anchor_text: AgentPlane
+        extracted_url: https://github.com/basilisk-labs/agentplane
+        surrounding_text: "- **[AgentPlane](https://github.com/basilisk-labs/agentplane)** `⭐ 42` — Local CLI that wraps Claude Code, Codex, Cursor, and Aider work in an auditable Git-native workflow (task → plan → approve → implement → verify → finish). All state stays in `.agentplane/` inside the repo; no hosted runtime. MIT."
+        confidence: high
+metadata:
+  github:
+    stars: 42
+    forks: 5
+    license: MIT
+    archived: false
+    created_at: "2026-01-27T08:03:43Z"
+    pushed_at: "2026-05-05T21:00:21Z"
+    description: The audit layer for coding agents. Open-source CLI that turns Claude Code, Codex, Cursor, and Aider into reviewable Git work.
+    homepage: https://agentplane.org
+    topics:
+      - acr
+      - agentplane
+      - agents-md
+      - ai-agents
+      - aider
+      - audit-trail
+      - claude-code
+      - cli
+      - codex
+      - coding-agents
+      - cursor
+      - developer-tools
+      - mcp
+      - typescript
+    last_checked_at: "2026-05-05T21:01:17.755Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:17.755Z"
+      bytes: 8796
+insights:
+  summary: An open-source CLI that creates an audit trail for coding agents like Claude Code and Cursor by recording task intent, plans, and verification as Git artifacts.
+  why_it_matters: It allows developers to review the reasoning and approval chain behind AI-generated changes, not just the final diff, by keeping workflow state inside the repository.
+  mental_damage: We have successfully invented bureaucracy for the bots, ensuring that before your AI agent can break production, it must first fill out the proper paperwork in triplicate.
+  tags:
+    - audit
+    - cli
+    - git
+    - coding-agents
+    - reproducibility
+  confidence: medium
+curation:
+  status: included
+  reason: The tool acts as a workflow envelope and audit layer specifically designed to manage and record the output of coding agents within a repo/CLI context.
+  evidence:
+    - Repo description explicitly calls it 'The audit layer for coding agents' and a 'CLI'.
+    - README confirms it turns Claude Code, Codex, Cursor, and Aider work into 'reviewable, reversible Git artifacts'.
+    - Source list 'awesome-cli-coding-agents' categorizes it under 'Agent infrastructure'.
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.680Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:17.755Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:10:19.944Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

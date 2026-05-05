@@ -1,0 +1,89 @@
+id: github__ooples__token-optimizer-mcp
+kind: github-repo
+name: token-optimizer-mcp
+canonical_url: https://github.com/ooples/token-optimizer-mcp
+identity:
+  github_repo: ooples/token-optimizer-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__ooples__token-optimizer-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: ooples/token-optimizer-mcp
+        extracted_url: https://github.com/ooples/token-optimizer-mcp
+        surrounding_text: "- [ooples/token-optimizer-mcp](https://github.com/ooples/token-optimizer-mcp) 📇 🏠 ☁️ 🍎 🪟 🐧 - Intelligent token optimization achieving 95%+ reduction through caching, compression, and 80+ smart tools for API optimization, code analysis, and real-time monitoring."
+        confidence: high
+metadata:
+  github:
+    stars: 358
+    forks: 30
+    license: MIT
+    archived: false
+    created_at: "2025-10-11T14:53:02Z"
+    pushed_at: "2026-04-20T11:28:28Z"
+    description: Intelligent token optimization for Claude Code - achieving 95%+ token reduction through caching, compression, and smart tool intelligence
+    homepage: null
+    topics:
+      - ai
+      - caching
+      - claude
+      - compression
+      - llm
+      - mcp
+      - mcp-server
+      - token-optimization
+    last_checked_at: "2026-05-05T21:04:02.166Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:02.166Z"
+      bytes: 12396
+insights:
+  summary: An MCP server that reduces token usage in Claude Code by applying caching, compression, and smart tool intelligence to achieve over 95% reduction.
+  why_it_matters: It helps developers control context window bloat and manage API costs when working extensively with Claude Code on large codebases.
+  mental_damage: We have officially entered the era of building infrastructure to optimize the infrastructure that talks to the model that writes the code we used to write ourselves.
+  tags:
+    - mcp
+    - token-optimization
+    - claude-code
+    - context-engineering
+  confidence: high
+curation:
+  status: included
+  reason: The project is an MCP server specifically designed to optimize token usage for Claude Code, fitting squarely into the MCP infrastructure category.
+  evidence:
+    - Repo description explicitly states 'Intelligent token optimization for Claude Code' via an MCP server.
+    - GitHub topics include 'mcp-server' and 'token-optimization', confirming the technical scope.
+    - Listed in 'awesome-mcp-servers' under 'Developer Tools', aligning with the MCP catalog scope.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (358) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.711Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:02.166Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:42:10.972Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

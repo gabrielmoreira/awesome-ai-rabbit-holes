@@ -1,0 +1,82 @@
+id: github__paulieb14__graph-aave-mcp
+kind: github-repo
+name: graph-aave-mcp
+canonical_url: https://github.com/paulieb14/graph-aave-mcp
+identity:
+  github_repo: paulieb14/graph-aave-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__paulieb14__graph-aave-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: PaulieB14/graph-aave-mcp
+        extracted_url: https://github.com/paulieb14/graph-aave-mcp
+        surrounding_text: "- [PaulieB14/graph-aave-mcp](https://github.com/PaulieB14/graph-aave-mcp) [![graph-aave-mcp MCP server](https://glama.ai/mcp/servers/@PaulieB14/graph-aave-mcp/badges/score.svg)](https://glama.ai/mcp/servers/@PaulieB14/graph-aave-mcp) 📇 ☁️ - AAVE V2/V3 lending protocol data across 7 chains via The Graph — reserves, user positions, health factors, liquidations, flash loans, and governance."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-03-04T00:34:05Z"
+    pushed_at: "2026-04-09T13:38:45Z"
+    description: MCP server for querying AAVE V2/V3/V4 lending and governance data via The Graph — 7 chains across 11 subgraphs (Ethereum, Base, Arbitrum, Polygon, Optimism, Avalanche, Fantom + Governance V3)
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:04:13.979Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:13.979Z"
+      bytes: 9901
+insights:
+  summary: An MCP server that exposes 40 tools for querying AAVE V2/V3/V4 lending data, liquidation risk, and governance across 7 chains via The Graph and the Aave V4 API.
+  why_it_matters: Developers can wire Claude Code, Cursor, or other MCP hosts directly into live DeFi data without writing custom GraphQL or API glue code.
+  mental_damage: We now have a dedicated protocol for asking an LLM to liquidate-watch our positions, which feels like the exact kind of infrastructure we’ll regret automating at 3 AM.
+  tags:
+    - mcp
+    - defi
+    - aave
+    - the-graph
+    - blockchain
+  confidence: high
+curation:
+  status: included
+  reason: The project is itself an MCP server with 40 tools for AAVE data, cleanly fitting the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states 'MCP server for querying AAVE V2/V3/V4... via The Graph'.
+    - README details 40 tools across subgraphs and Aave V4 API, configured for Claude Code / Cursor / MCP hosts.
+    - Listed in awesome-mcp-servers under 'Finance & Fintech' server implementations.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.712Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:13.979Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:44:06.356Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

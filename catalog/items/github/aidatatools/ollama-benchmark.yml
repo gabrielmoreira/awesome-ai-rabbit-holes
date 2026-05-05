@@ -1,0 +1,86 @@
+id: github__aidatatools__ollama-benchmark
+kind: github-repo
+name: ollama-benchmark
+canonical_url: https://github.com/aidatatools/ollama-benchmark
+identity:
+  github_repo: aidatatools/ollama-benchmark
+provenance:
+  discoveries:
+    - id: discovery__github__aidatatools__ollama-benchmark__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 评估 Evaluation
+        anchor_text: Ollama Benchmark
+        extracted_url: https://github.com/aidatatools/ollama-benchmark
+        surrounding_text: "8. [Ollama Benchmark](https://github.com/aidatatools/ollama-benchmark): LLM Benchmark for Throughput via Ollama (Local LLMs)."
+        confidence: high
+metadata:
+  github:
+    stars: 359
+    forks: 42
+    license: MIT
+    archived: false
+    created_at: "2024-01-18T06:24:37Z"
+    pushed_at: "2026-01-17T23:29:36Z"
+    description: LLM Benchmark for Throughput via Ollama (Local LLMs)
+    homepage: https://llm.aidatatools.com/
+    topics:
+      - ai
+      - ai-tools
+      - benchmark
+      - llm
+      - ollama
+    last_checked_at: "2026-05-05T21:00:55.129Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:55.129Z"
+      bytes: 3916
+insights:
+  summary: A cross-platform CLI tool that benchmarks local LLMs running via Ollama by measuring throughput and tokens-per-second performance.
+  why_it_matters: It gives developers a quick, automated way to quantify the actual runtime performance of local models before committing hardware or time to a specific setup.
+  mental_damage: Yet another tool to help you scientifically confirm that the model you downloaded is too large for your laptop and too slow for your patience.
+  tags:
+    - benchmark
+    - ollama
+    - local-llm
+    - cli
+    - evaluation
+  confidence: high
+curation:
+  status: included
+  reason: This is a developer-facing evaluation tool designed to measure local LLM throughput, which fits squarely into the Evaluations and Benchmarks category.
+  evidence:
+    - "Repo description states: 'LLM Benchmark for Throughput via Ollama (Local LLMs)'"
+    - README positions it as a 'cross-platform CLI tool that tells you the tokens-per-second truth'
+    - Listed under '评估 Evaluation' in the awesome-LLM-resources directory
+placement:
+  primary_category: evals
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (359) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.677Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:55.129Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:06:49.959Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

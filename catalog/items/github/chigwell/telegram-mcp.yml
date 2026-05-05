@@ -1,0 +1,95 @@
+id: github__chigwell__telegram-mcp
+kind: github-repo
+name: telegram-mcp
+canonical_url: https://github.com/chigwell/telegram-mcp
+identity:
+  github_repo: chigwell/telegram-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__chigwell__telegram-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💬 <a name="communication"></a>Communication
+        anchor_text: chigwell/telegram-mcp
+        extracted_url: https://github.com/chigwell/telegram-mcp
+        surrounding_text: "- [chigwell/telegram-mcp](https://github.com/chigwell/telegram-mcp) 🐍 🏠 - Telegram API integration for accessing user data, managing dialogs (chats, channels, groups), retrieving messages, sending messages and handling read status."
+        confidence: high
+metadata:
+  github:
+    stars: 1060
+    forks: 276
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-03-20T14:06:35Z"
+    pushed_at: "2026-05-05T16:03:31Z"
+    description: Telegram MCP server powered by Telethon to let MCP clients read chats, manage groups, and send/modify messages, media, contacts, and settings.
+    homepage: ""
+    topics:
+      - admin
+      - api
+      - chat-management
+      - contacts
+      - groups
+      - mcp
+      - media
+      - messaging
+      - search
+      - telegram
+      - telegram-api
+      - telegram-client
+      - telethon
+    last_checked_at: "2026-05-05T21:01:33.088Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:33.088Z"
+      bytes: 14316
+insights:
+  summary: An MCP server that connects Telegram accounts to MCP-compatible clients like Claude and Cursor, exposing 80+ tools for reading chats, managing groups, sending messages, and handling media.
+  why_it_matters: It lets developers automate Telegram workflows and interact with chat history directly from their AI coding environment instead of switching contexts to a separate messaging app.
+  mental_damage: "We have finally achieved the platonic ideal of modern development: an AI agent that can now argue with strangers in your Telegram groups while you wonder why you ever learned to context-switch manually."
+  tags:
+    - mcp
+    - telegram
+    - telethon
+    - integration
+    - automation
+  confidence: high
+curation:
+  status: included
+  reason: This is a dedicated MCP server implementation that exposes Telegram operations to MCP clients, fitting cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states it is a 'Telegram MCP server powered by Telethon' for MCP clients.
+    - README confirms it 'exposes Telegram account, chat, message, contact, media, folder, and admin operations through the Model Context Protocol'.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Communication'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1060) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.682Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:33.088Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:12:59.907Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

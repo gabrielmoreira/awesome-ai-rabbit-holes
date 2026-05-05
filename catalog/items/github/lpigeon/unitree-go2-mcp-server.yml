@@ -1,0 +1,91 @@
+id: github__lpigeon__unitree-go2-mcp-server
+kind: github-repo
+name: unitree-go2-mcp-server
+canonical_url: https://github.com/lpigeon/unitree-go2-mcp-server
+identity:
+  github_repo: lpigeon/unitree-go2-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__lpigeon__unitree-go2-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: lpigeon/unitree-go2-mcp-server
+        extracted_url: https://github.com/lpigeon/unitree-go2-mcp-server
+        surrounding_text: "- [lpigeon/unitree-go2-mcp-server](https://github.com/lpigeon/unitree-go2-mcp-server) 🐍 🏠 🐧 - The Unitree Go2 MCP Server is a server built on the MCP that enables users to control the Unitree Go2 robot using natural language commands interpreted by a LLM."
+        confidence: high
+metadata:
+  github:
+    stars: 78
+    forks: 11
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-05-09T15:01:17Z"
+    pushed_at: "2025-05-12T02:10:13Z"
+    description: The Unitree Go2 MCP Server is a server built on the MCP that enables users to control the Unitree Go2 robot using natural language commands interpreted by a LLM.
+    homepage: https://github.com/lpigeon/unitree-go2-mcp-server
+    topics:
+      - go2
+      - go2-mcp-server
+      - mcp
+      - mcp-server
+      - modelcontextprotocol
+      - ros2
+      - unitree
+      - unitree-go2
+      - unitree-go2-mcp-server
+    last_checked_at: "2026-05-05T21:03:25.103Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:25.103Z"
+      bytes: 4728
+insights:
+  summary: An MCP server that translates natural language commands into ROS2 instructions to control a Unitree Go2 robot via an LLM.
+  why_it_matters: It lets robotics developers bridge high-level LLM reasoning directly to physical robot actions without writing custom ROS2 wrappers for every command.
+  mental_damage: We have officially reached the point where your robot dog needs an MCP server, a ROS2 environment, and a Claude Desktop config just to interpret a simple instruction to take a nap.
+  tags:
+    - mcp
+    - robotics
+    - ros2
+    - unitree
+    - llm-control
+  confidence: high
+curation:
+  status: included
+  reason: The project's primary artifact is a functional MCP server implementation designed to extend LLM capabilities to robotics hardware.
+  evidence:
+    - Repo description explicitly defines it as 'a server built on the MCP' for robot control.
+    - README details MCP configuration for Claude Desktop and lists specific MCP functions.
+    - Listed under 'Server Implementations' in the awesome-mcp-servers directory.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.704Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:25.103Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:34:50.606Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

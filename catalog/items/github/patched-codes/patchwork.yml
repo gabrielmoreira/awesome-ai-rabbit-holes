@@ -1,0 +1,89 @@
+id: github__patched-codes__patchwork
+kind: github-repo
+name: patchwork
+canonical_url: https://github.com/patched-codes/patchwork
+identity:
+  github_repo: patched-codes/patchwork
+provenance:
+  discoveries:
+    - id: discovery__github__patched-codes__patchwork__awesome-list__vivy-yi__awesome-agent-orchestration
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: vivy-yi/awesome-agent-orchestration
+        url: https://github.com/vivy-yi/awesome-agent-orchestration
+        repository: vivy-yi/awesome-agent-orchestration
+      extraction:
+        mode: parsed
+        section_path:
+          - Core Frameworks
+          - Multi-Agent Orchestration Frameworks
+        anchor_text: Patchwork
+        extracted_url: https://github.com/patched-codes/patchwork
+        surrounding_text: "| [Patchwork](https://github.com/patched-codes/patchwork) | Agentic AI framework for enterprise workflow automation | ![Stars](https://img.shields.io/github/stars/patched-codes/patchwork) |"
+        confidence: high
+metadata:
+  github:
+    stars: 1555
+    forks: 101
+    license: AGPL-3.0
+    archived: false
+    created_at: "2024-04-05T14:07:29Z"
+    pushed_at: "2025-04-18T08:13:52Z"
+    description: Agentic AI framework for enterprise workflow automation.
+    homepage: https://patched.codes
+    topics:
+      - automation
+      - codereview
+      - devops
+      - devtools
+      - hacktoberfest
+      - llms
+      - workflows
+    last_checked_at: "2026-05-05T21:04:12.841Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:12.841Z"
+      bytes: 8748
+insights:
+  summary: A self-hosted CLI agent and framework that automates development tasks like PR reviews, bug fixing, and security patching using customizable LLM-powered workflows.
+  why_it_matters: It lets developers offload repetitive repo maintenance and code review chores to local or CI-run agents that work directly with their existing codebase and preferred models.
+  mental_damage: Another brave CLI agent ready to refactor your repo at 2 a.m. while you stare at the terminal wondering if you shipped the fix or just the hallucination.
+  tags:
+    - cli
+    - automation
+    - code-review
+    - self-hosted
+    - llm
+  confidence: high
+curation:
+  status: included
+  reason: Patchwork is a developer-facing coding agent that directly edits, reviews, and fixes code inside a repo via CLI, IDE, or CI workflows, which matches the coding-agents category and its Terminal & CLI Agents section.
+  evidence:
+    - Repo description explicitly calls it an 'Agentic AI framework for enterprise workflow automation' with topics including codereview and devops.
+    - README states it 'automates development gruntwork like PR reviews, bug fixing, security patching' and runs locally in CLI, IDE, or CI/CD pipelines.
+    - Source list includes it under awesome-agent-orchestration as a multi-agent orchestration framework, showing ecosystem recognition.
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1555) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.712Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:12.841Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:43:58.224Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

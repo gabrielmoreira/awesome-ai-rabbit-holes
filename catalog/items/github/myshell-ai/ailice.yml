@@ -1,0 +1,85 @@
+id: github__myshell-ai__ailice
+kind: github-repo
+name: ailice
+canonical_url: https://github.com/myshell-ai/ailice
+identity:
+  github_repo: myshell-ai/ailice
+provenance:
+  discoveries:
+    - id: discovery__github__myshell-ai__ailice__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - AIlice
+        anchor_text: AIlice
+        extracted_url: https://github.com/myshell-ai/ailice
+        surrounding_text: "## [AIlice](https://github.com/myshell-ai/AIlice)"
+        confidence: high
+metadata:
+  github:
+    stars: 1406
+    forks: 205
+    license: MIT
+    archived: false
+    created_at: "2023-10-16T01:51:14Z"
+    pushed_at: "2025-08-18T03:24:03Z"
+    description: AIlice is a fully autonomous, general-purpose AI agent.
+    homepage: ""
+    topics:
+      - agent
+      - ai
+      - llm
+      - llm-agent
+    last_checked_at: "2026-05-05T21:03:50.400Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:50.400Z"
+      bytes: 60870
+insights:
+  summary: A fully autonomous, general-purpose AI agent built on open-source LLMs that uses an Interactive Agents Call Tree architecture to perform complex tasks including coding, research, and system management.
+  why_it_matters: Developers can run a local, JARVIS-like assistant that decomposes complex coding and research tasks into dynamic sub-agents using their choice of local or commercial LLMs.
+  mental_damage: Yet another autonomous agent framework arrives to ensure that while the AI plans its self-evolution, you are still manually debugging why it chose to `rm -rf` the wrong directory.
+  tags:
+    - autonomous-agent
+    - local-ai
+    - llm
+    - multi-agent
+    - mcp
+  confidence: high
+curation:
+  status: included
+  reason: This is a developer-facing autonomous agent that can directly perform coding, system management, and research tasks via CLI/local execution, fitting the coding-agents category.
+  evidence:
+    - Repo description explicitly defines it as a 'fully autonomous, general-purpose AI agent' proficient in coding and system management.
+    - README details a CLI/local usage model where developers install and interact with the agent to perform complex tasks.
+    - Recent activity includes MCP tool support (Mar 2025) and pushes as recent as Aug 2025, showing active development.
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1406) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.709Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:50.400Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:39:42.786Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

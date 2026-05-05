@@ -1,0 +1,75 @@
+id: llmresourceshub__vercel__app
+kind: website
+name: llmresourceshub.vercel.app
+canonical_url: https://llmresourceshub.vercel.app
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__llmresourceshub__vercel__app__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 课程 Course
+        anchor_text: LLM Resources Hub
+        extracted_url: https://llmresourceshub.vercel.app
+        surrounding_text: "> [LLM Resources Hub](https://llmresourceshub.vercel.app/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A curated directory of Large Language Model resources, tools, and learning materials.
+  why_it_matters: It serves as a centralized index for developers looking to navigate the sprawling ecosystem of LLM tooling and educational content.
+  mental_damage: Because if your bookmark bar didn't already look like a hoarder's basement, this hub is here to ensure it does.
+  tags:
+    - llm
+    - resources
+    - directory
+    - learning
+  confidence: high
+curation:
+  status: included
+  reason: The project is a directory and index of resources rather than a standalone developer tool, fitting the awesome-awesomes category.
+  evidence:
+    - Scraped site context describes it as 'A comprehensive collection of Large Language Model (LLM) resources, tools, and learning materials.'
+    - Listed in the 'awesome-LLM-resources' source list under a section for courses and broad resources.
+placement:
+  primary_category: awesome-awesomes
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.728Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:46:01.917Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

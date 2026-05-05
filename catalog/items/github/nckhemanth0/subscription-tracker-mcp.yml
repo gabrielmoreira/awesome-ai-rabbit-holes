@@ -1,0 +1,81 @@
+id: github__nckhemanth0__subscription-tracker-mcp
+kind: github-repo
+name: subscription-tracker-mcp
+canonical_url: https://github.com/nckhemanth0/subscription-tracker-mcp
+identity:
+  github_repo: nckhemanth0/subscription-tracker-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__nckhemanth0__subscription-tracker-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: nckhemanth0/subscription-tracker-mcp
+        extracted_url: https://github.com/nckhemanth0/subscription-tracker-mcp
+        surrounding_text: "- [nckhemanth0/subscription-tracker-mcp](https://github.com/nckhemanth0/subscription-tracker-mcp) 🐍 ☁️ 🏠 - MCP server for intelligent subscription management with Gmail + MySQL integration."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2026-01-22T17:07:22Z"
+    pushed_at: "2026-01-23T19:47:21Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:03:51.715Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:51.715Z"
+      bytes: 1945
+insights:
+  summary: A personal MCP server that connects Gmail and MySQL to let Claude Desktop track, extract, and alert on software subscriptions.
+  why_it_matters: It demonstrates how developers can build domain-specific MCP servers to give coding assistants structured access to personal data sources like email and databases.
+  mental_damage: "We have successfully built an AI pipeline to solve the most harrowing problem of our time: forgetting which $9.99 SaaS experiments we signed up for three months ago."
+  tags:
+    - mcp
+    - claude-desktop
+    - gmail
+    - mysql
+  confidence: medium
+curation:
+  status: included
+  reason: The project is a Model Context Protocol server that integrates external data sources (Gmail, MySQL) for use with an AI assistant, fitting squarely into MCP tooling.
+  evidence:
+    - README explicitly labels it a 'Professional MCP server for intelligent subscription management'.
+    - Includes instructions for configuring the server within Claude Desktop's mcpServers config.
+    - Listed under 'Server Implementations > Finance & Fintech' in the awesome-mcp-servers directory.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.709Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:51.715Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:40:02.110Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

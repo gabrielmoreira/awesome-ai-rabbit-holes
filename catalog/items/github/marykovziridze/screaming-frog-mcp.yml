@@ -1,0 +1,92 @@
+id: github__marykovziridze__screaming-frog-mcp
+kind: github-repo
+name: screaming-frog-mcp
+canonical_url: https://github.com/marykovziridze/screaming-frog-mcp
+identity:
+  github_repo: marykovziridze/screaming-frog-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__marykovziridze__screaming-frog-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🎯 <a name="marketing"></a>Marketing
+        anchor_text: marykovziridze/screaming-frog-mcp
+        extracted_url: https://github.com/marykovziridze/screaming-frog-mcp
+        surrounding_text: "- [marykovziridze/screaming-frog-mcp](https://github.com/marykovziridze/screaming-frog-mcp) [![marykovziridze/screaming-frog-mcp MCP server](https://glama.ai/mcp/servers/marykovziridze/screaming-frog-mcp/badges/score.svg)](https://glama.ai/mcp/servers/marykovziridze/screaming-frog-mcp) 🐍 🏠 - Screaming Frog SEO Spider headless crawls, data export, and technical SEO audit skill for Claude. 8 tools, cross-platform (Mac + Windows), includes a ready-to-use technical SEO scan skill."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-04-09T15:58:02Z"
+    pushed_at: "2026-04-23T07:28:31Z"
+    description: MCP server for Screaming Frog SEO Spider — headless crawls, data export, and a technical SEO scan skill for Claude. Patched for cross-platform support (Mac + Windows).
+    homepage: null
+    topics:
+      - claude
+      - claude-code
+      - mcp
+      - mcp-server
+      - python
+      - screaming-frog
+      - seo
+      - seo-audit
+      - seo-tools
+      - technical-seo
+    last_checked_at: "2026-05-05T21:03:31.044Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:31.044Z"
+      bytes: 3965
+insights:
+  summary: An MCP server that lets Claude Desktop drive headless Screaming Frog SEO Spider crawls, export data, and manage crawl storage via natural language prompts.
+  why_it_matters: It allows developers to integrate technical SEO audits into an AI-assisted workflow without opening the Screaming Frog GUI or writing custom CLI wrappers.
+  mental_damage: We have successfully abstracted away the one GUI we actually liked clicking through, replacing reliable manual SEO checks with a Claude plugin that might hallucinate your canonical tags.
+  tags:
+    - mcp
+    - seo
+    - claude
+    - headless
+    - technical-seo
+  confidence: high
+curation:
+  status: included
+  reason: This is a developer-built MCP server that extends Claude's toolset with headless SEO crawling capabilities.
+  evidence:
+    - Repo description explicitly states 'MCP server for Screaming Frog SEO Spider'.
+    - README details tools like crawl_site, export_crawl, and storage_summary exposed via MCP.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Marketing'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.705Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:31.044Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:35:59.315Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

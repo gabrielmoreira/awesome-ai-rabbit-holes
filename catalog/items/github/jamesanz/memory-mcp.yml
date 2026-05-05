@@ -1,0 +1,85 @@
+id: github__jamesanz__memory-mcp
+kind: github-repo
+name: memory-mcp
+canonical_url: https://github.com/jamesanz/memory-mcp
+identity:
+  github_repo: jamesanz/memory-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__jamesanz__memory-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: JamesANZ/memory-mcp
+        extracted_url: https://github.com/jamesanz/memory-mcp
+        surrounding_text: "- [JamesANZ/memory-mcp](https://github.com/JamesANZ/memory-mcp) 📇 🏠 - An MCP server that stores and retrieves memories from multiple LLMs using MongoDB. Provides tools for saving, retrieving, adding, and clearing conversation memories with timestamps and LLM identification."
+        confidence: high
+metadata:
+  github:
+    stars: 16
+    forks: 9
+    license: MIT
+    archived: false
+    created_at: "2025-07-10T03:32:59Z"
+    pushed_at: "2025-12-10T04:24:04Z"
+    description: A simple MCP server that stores and retrieves memories from multiple LLMs.
+    homepage: https://glama.ai/mcp/servers/@JamesANZ/memory-mcp
+    topics:
+      - llm-memory
+      - llms
+      - mcp-server
+    last_checked_at: "2026-05-05T21:02:50.427Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:50.427Z"
+      bytes: 5905
+insights:
+  summary: An MCP server that provides persistent memory storage and context window caching for LLM conversations using MongoDB.
+  why_it_matters: It lets developers plug long-term memory and context management into Cursor and Claude Desktop to survive long, multi-session coding workflows.
+  mental_damage: The context window is still too small, so now we are shipping MongoDB instances just to remind the AI we prefer TypeScript.
+  tags:
+    - mcp
+    - memory
+    - context-management
+    - cursor
+    - claude
+  confidence: high
+curation:
+  status: included
+  reason: The project is a standalone MCP server providing memory and context caching, which fits cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description states it is 'A simple MCP server that stores and retrieves memories from multiple LLMs.'
+    - README confirms it is an MCP server for Cursor and Claude Desktop with MongoDB-backed memory and context window caching.
+    - Listed in awesome-mcp-servers under the Knowledge & Memory section.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.699Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:50.427Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:27:27.299Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,95 @@
+id: github__commandcodeai__command-code
+kind: github-repo
+name: command-code
+canonical_url: https://github.com/commandcodeai/command-code
+identity:
+  github_repo: commandcodeai/command-code
+provenance:
+  discoveries:
+    - id: discovery__github__commandcodeai__command-code__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Terminal-native coding agents
+          - Closed Source
+        anchor_text: Command Code
+        extracted_url: https://github.com/commandcodeai/command-code
+        surrounding_text: "- **[Command Code](https://github.com/CommandCodeAI/command-code)** `⭐ 23` `[CommandCode]` — CLI coding agent that continuously learns your coding style via taste-1 neuro-symbolic AI; adapts to preferences over time with project-specific taste profiles."
+        confidence: high
+metadata:
+  github:
+    stars: 3153
+    forks: 326
+    license: null
+    archived: false
+    created_at: "2017-12-20T09:45:01Z"
+    pushed_at: "2026-05-04T20:31:05Z"
+    description: Command Code AI
+    homepage: https://commandcode.ai
+    topics:
+      - ai
+      - ai-agent
+      - anthropic
+      - cli
+      - coding-agent
+      - command-code
+      - command-line
+      - command-line-tool
+      - deepseek
+      - glm
+      - harness
+      - kimi
+      - openai
+    last_checked_at: "2026-05-05T21:01:39.405Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:39.405Z"
+      bytes: 4001
+insights:
+  summary: A terminal-based, npm-installable coding agent that builds features, fixes bugs, and writes tests while learning a personalized 'taste' profile from the developer's code review feedback.
+  why_it_matters: It attempts to solve the context-drift problem by enforcing a learned coding style directly in the terminal workflow, rather than just generating generic code.
+  mental_damage: Now you can outsource your impostor syndrome to a CLI tool that judges your coding taste and remembers every time you accepted a hacky fix.
+  tags:
+    - cli
+    - coding-agent
+    - taste
+    - terminal
+    - npm
+  confidence: high
+curation:
+  status: included
+  reason: The tool is a terminal-native coding agent that directly edits code, manages workflows, and learns user preferences, fitting the coding-agents definition perfectly.
+  evidence:
+    - Repo description identifies it as 'Command Code AI' and topics include 'cli' and 'coding-agent'.
+    - README states it is 'The coding agent that learns your coding taste' and handles building, fixing, and refactoring in the terminal.
+    - Already curated in the 'awesome-cli-coding-agents' list under 'Terminal-native coding agents'.
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (3153) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.683Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:39.405Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:14:04.486Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

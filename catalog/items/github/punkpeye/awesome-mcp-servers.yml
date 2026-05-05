@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__punkpeye__awesome-mcp-servers__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-01T13:51:25.374Z"
+      discovered_at: "2026-05-05T19:41:00.656Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,42 +23,47 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 86063
-    forks: 9692
-    license: MIT
-    archived: false
-    created_at: "2024-11-30T04:49:10Z"
-    pushed_at: "2026-04-27T23:48:20Z"
-    description: A collection of MCP servers.
-    homepage: https://glama.ai/mcp/servers
-    topics:
-      - ai
-      - mcp
-    last_checked_at: "2026-05-01T13:51:28.328Z"
-    readme:
-      fetched_at: "2026-05-01T13:51:28.328Z"
-      bytes: 512000
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
 insights:
-  summary: A curated awesome list of Model Context Protocol (MCP) server implementations.
-  why_it_matters: If you're building or adopting MCP clients/agents, this is a high-signal index of servers that add capabilities like file access, databases, and API integrations via a standardized protocol.
-  mental_damage: You will open it to find “one MCP server for my one use-case” and wake up three hours later mentally benchmarking 47 ways to let an AI talk to SQLite.
-  tags:
-    - mcp
-    - awesome-list
-    - agent-tools
-    - developer-workflows
-    - directory
-  confidence: high
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
 curation:
-  status: included
-  reason: Include because it's a widely-used navigation hub for developer-facing MCP tooling (servers, clients, frameworks), best categorized as an awesome-index rather than a single tool.
-  evidence:
-    - "Repo description: \"A collection of MCP servers.\""
-    - "README: \"A curated list of awesome Model Context Protocol (MCP) servers\" and focuses on servers extending AI via file access, databases, and API integrations"
-    - "Strong traction and activity signals: 86,063 stars, not archived, pushed 2026-04-27"
+  status: pending
+  reason: null
+  evidence: []
 placement:
-  primary_category: awesome-awesomes
+  primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
-  reason: Stars (86063) exceeded threshold (150)
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.657Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: skipped
+    updated_at: "2026-05-05T21:04:23.169Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

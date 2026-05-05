@@ -1,0 +1,80 @@
+id: github__movstox__lazy-toggl-mcp
+kind: github-repo
+name: lazy-toggl-mcp
+canonical_url: https://github.com/movstox/lazy-toggl-mcp
+identity:
+  github_repo: movstox/lazy-toggl-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__movstox__lazy-toggl-mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: Lazy Toggl MCP
+        extracted_url: https://github.com/movstox/lazy-toggl-mcp
+        surrounding_text: "- **[Lazy Toggl MCP](https://github.com/movstox/lazy-toggl-mcp)** - Simple unofficial MCP server to track time via Toggl API"
+        confidence: high
+metadata:
+  github:
+    stars: 2
+    forks: 0
+    license: null
+    archived: false
+    created_at: "2025-06-06T20:39:07Z"
+    pushed_at: "2025-06-11T17:17:47Z"
+    description: A lazy Toggl MCP server for time tracking integration
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:03:47.332Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:47.332Z"
+      bytes: 3550
+insights:
+  summary: A Model Context Protocol server that exposes Toggl Track time tracking actions, such as starting and stopping entries, as tools for AI agents.
+  why_it_matters: It allows developers to delegate time tracking tasks to MCP-compatible assistants instead of manually switching to the Toggl UI.
+  mental_damage: Now your AI agent can bill your client for the exact five minutes you spent arguing with it about a CSS margin.
+  tags:
+    - mcp
+    - toggl
+    - time-tracking
+    - integrations
+  confidence: medium
+curation:
+  status: included
+  reason: The project is a purpose-built MCP server that integrates with Toggl Track, fitting cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description states: 'A lazy Toggl MCP server for time tracking integration.'"
+    - README details an MCP server implementation exposing tools like start_tracking and stop_tracking via the Toggl Track API.
+    - Listed in the 'awesome-mcp-servers' directory under 'Community Servers'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.708Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:47.332Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:39:08.165Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

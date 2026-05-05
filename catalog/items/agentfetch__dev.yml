@@ -1,0 +1,77 @@
+id: agentfetch__dev
+kind: website
+name: agentfetch.dev
+canonical_url: https://agentfetch.dev
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__agentfetch__dev__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📂 <a name="browser-automation"></a>Browser Automation
+        anchor_text: agentfetch.dev
+        extracted_url: https://www.agentfetch.dev
+        surrounding_text: "- [bch1212/agentfetch-mcp](https://github.com/bch1212/agentfetch-mcp) [![bch1212/agentfetch-mcp MCP server](https://glama.ai/mcp/servers/bch1212/agentfetch-mcp/badges/score.svg)](https://glama.ai/mcp/servers/bch1212/agentfetch-mcp) 🐍 ☁️ 🏠 🍎 🪟 🐧 - Token-budgeted web fetch for AI agents. Auto-routes between Trafilatura, Jina Reader, FireCrawl, and pypdf based on URL pattern. `estimate_tokens` before `fetch_url`, 6h Redis cache, server-side `max_tokens` truncation. Open source MCP server (MIT) plus hosted REST API at [agentfetch.dev](https://www.agentfetch.dev) — 500 free fetches/mo, no card."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: An MCP server and API that fetches web content, converts it to clean Markdown, and provides token estimation and caching for AI agents.
+  why_it_matters: It allows coding agents and LLM workflows to ingest web data without blowing context windows or paying full price for repeated fetches.
+  mental_damage: Another essential middleware layer so your agent can browse the web safely, proving that the modern developer experience is mostly just configuring pipes for pipes.
+  tags:
+    - mcp
+    - web-scraping
+    - context-management
+    - agent-tooling
+  confidence: high
+curation:
+  status: included
+  reason: The product is explicitly built as an MCP server for web fetching with token budgeting, fitting directly into the MCP Servers and Tooling category.
+  evidence:
+    - "Scraped site title and description: 'AgentFetch — Web Intelligence for AI Agents' and 'MCP-native web fetch with token estimation, caching, and intelligent routing.'"
+    - Source-list context confirms inclusion in 'awesome-mcp-servers' under 'Browser Automation'.
+    - Documentation shows explicit integration instructions for Claude Desktop via the 'mcpServers' configuration block.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.725Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:41:23.120Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

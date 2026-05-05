@@ -1,0 +1,99 @@
+id: github__bearer__bearer
+kind: github-repo
+name: bearer
+canonical_url: https://github.com/bearer/bearer
+identity:
+  github_repo: bearer/bearer
+provenance:
+  discoveries:
+    - id: discovery__github__bearer__bearer__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Security
+        anchor_text: Bearer CLI
+        extracted_url: https://github.com/bearer/bearer
+        surrounding_text: "- **[Bearer CLI](https://github.com/Bearer/bearer)** – Open-source static security analysis for sensitive data exposure and GDPR/PCI compliance."
+        confidence: high
+metadata:
+  github:
+    stars: 2641
+    forks: 143
+    license: NOASSERTION
+    archived: false
+    created_at: "2022-09-27T17:02:45Z"
+    pushed_at: "2026-05-04T02:36:12Z"
+    description: Code security scanning tool (SAST) to discover, filter and prioritize security and privacy risks.
+    homepage: https://docs.bearer.com
+    topics:
+      - appsec
+      - code-quality
+      - compliance
+      - dataflow
+      - devsecops
+      - devsecops-tools
+      - gdpr
+      - owasp
+      - privacy
+      - sast
+      - security
+      - security-audit
+      - security-automation
+      - security-scanner
+      - security-tools
+      - static-analysis
+      - static-code-analysis
+      - vulnerabilities
+      - vulnerability
+    last_checked_at: "2026-05-05T21:01:18.514Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:18.514Z"
+      bytes: 15968
+insights:
+  summary: Bearer is a static application security testing (SAST) tool that scans source code to identify, filter, and prioritize security vulnerabilities and privacy risks like PII data flows.
+  why_it_matters: It helps developers automate compliance checks for OWASP Top 10 and GDPR requirements directly within their existing codebase workflows.
+  mental_damage: Because nothing says 'velocity' like adding another CLI tool that turns your weekend refactor into a 400-line report on why your JWT cookie handling is a regulatory nightmare.
+  tags:
+    - sast
+    - security
+    - privacy
+    - devsecops
+    - cli
+  confidence: high
+curation:
+  status: excluded
+  reason: While high-quality, this is a traditional static analysis security tool (SAST) with no AI-specific developer workflow features, which falls outside our scope of AI coding agents, app builders, and adjacent AI infrastructure.
+  evidence:
+    - Repo description and README define it strictly as a SAST/DAST tool for vulnerabilities and privacy (OWASP/CWE/GDPR), with no mention of AI, LLMs, or coding agents.
+    - Listed in awesome-ai-coding-tools under 'Security', but appears to be a traditional rule-based scanner rather than an AI-powered coding assistant.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (2641) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.680Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:18.514Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:10:26.344Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

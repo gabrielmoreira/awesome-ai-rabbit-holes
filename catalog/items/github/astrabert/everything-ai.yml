@@ -1,0 +1,97 @@
+id: github__astrabert__everything-ai
+kind: github-repo
+name: everything-rag
+canonical_url: https://github.com/astrabert/everything-ai
+identity:
+  github_repo: astrabert/everything-ai
+provenance:
+  discoveries:
+    - id: discovery__github__astrabert__everything-rag__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: janhq/awesome-local-ai
+        url: https://github.com/janhq/awesome-local-ai
+        repository: janhq/awesome-local-ai
+      extraction:
+        mode: parsed
+        section_path:
+          - Inference UI
+        anchor_text: everything-rag
+        extracted_url: https://github.com/astrabert/everything-rag
+        surrounding_text: "- [everything-rag](https://github.com/AstraBert/everything-rag) - Interact with (virtually) any LLM on Hugging Face Hub with an asy-to-use, 100% local Gradio chatbot."
+        confidence: high
+metadata:
+  github:
+    stars: 249
+    forks: 22
+    license: Apache-2.0
+    archived: true
+    created_at: "2024-04-03T22:20:59Z"
+    pushed_at: "2024-06-18T11:28:17Z"
+    description: Your fully proficient, AI-powered and local chatbot assistant🤖
+    homepage: https://astrabert.github.io/everything-ai/
+    topics:
+      - ai
+      - ai-studio
+      - chatgpt
+      - cheshire-cat
+      - docker-image
+      - free-to-use
+      - generative-ai
+      - image-classification
+      - jan-ai
+      - langchain
+      - learning
+      - local-llm
+      - open-source
+      - qdrant
+      - stable-diffusion
+      - text-summarization
+    last_checked_at: "2026-05-05T21:01:10.882Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:10.882Z"
+      bytes: 6585
+insights:
+  summary: A Dockerized, local-first AI assistant that exposes multiple generative AI tasks—including RAG-enabled chat, image generation, summarization, and audio processing—via a web interface and Hugging Face models.
+  why_it_matters: It offers developers a self-contained, local environment to experiment with dozens of open-source models and RAG pipelines without relying on external APIs.
+  mental_damage: Nothing says 'focused developer tooling' quite like packaging protein folding, Stable Diffusion, and PDF chat into a single Docker Compose stack and calling it a day.
+  tags:
+    - local-ai
+    - rag
+    - docker
+    - multimodal
+    - chatbot
+  confidence: high
+curation:
+  status: excluded
+  reason: The repo is archived and primarily functions as a general-purpose local chatbot rather than a developer-facing tool for coding, infrastructure, or workflow automation.
+  evidence:
+    - Repo is marked as archived, indicating it is no longer maintained.
+    - The README describes a general-purpose assistant for tasks like image generation, protein folding, and PDF chat, not developer tooling.
+    - No clear fit within the catalog's developer-focused categories like coding-agents, local-ai (as a dev tool), or frameworks.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: needs_review
+  reason: Repository is archived
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:09:17.668Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.679Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:10.882Z"
+    cause: null
+    next_retry_at: null

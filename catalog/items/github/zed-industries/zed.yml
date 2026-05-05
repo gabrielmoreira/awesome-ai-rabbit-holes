@@ -1,0 +1,92 @@
+id: github__zed-industries__zed
+kind: github-repo
+name: zed
+canonical_url: https://github.com/zed-industries/zed
+identity:
+  github_repo: zed-industries/zed
+provenance:
+  discoveries:
+    - id: discovery__github__zed-industries__zed__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Clients
+        anchor_text: Zed
+        extracted_url: https://github.com/zed-industries/zed
+        surrounding_text: "- **[Zed](https://github.com/zed-industries/zed)** multiplayer code editor from the creators of atom"
+        confidence: high
+    - id: discovery__zed__dev__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Code Editors and Assistants
+        anchor_text: Zed
+        extracted_url: https://zed.dev
+        surrounding_text: "- **[Zed](https://zed.dev/)** – High-performance multiplayer code editor built in Rust with integrated AI assistance."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Zed is a high-performance, multiplayer code editor built in Rust that integrates AI features directly into the development environment.
+  why_it_matters: It offers developers a native, AI-augmented IDE experience designed for speed and real-time collaboration without the overhead of Electron-based editors.
+  mental_damage: Just when you thought the editor wars were settled by VS Code extensions, we are now evaluating whether our text editor's Rust compilation speed is the critical bottleneck in our 400ms AI chat response time.
+  tags:
+    - ai-assisted
+    - collaboration
+    - editor
+    - ide
+    - rust
+  confidence: high
+curation:
+  status: included
+  reason: Zed is an AI-native editor and IDE surface, fitting the ai-ides-editors category rather than a coding agent that works inside an existing repo.
+  evidence:
+    - Listed in awesome-ai-coding-tools under the section 'Code Editors and Assistants'.
+    - The URL and name correspond to zed.dev, a known AI-native code editor built from the ground up.
+placement:
+  primary_category: ai-ides-editors
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:54:33.745Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.734Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

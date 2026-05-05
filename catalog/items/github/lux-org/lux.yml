@@ -1,0 +1,89 @@
+id: github__lux-org__lux
+kind: github-repo
+name: lux
+canonical_url: https://github.com/lux-org/lux
+identity:
+  github_repo: lux-org/lux
+provenance:
+  discoveries:
+    - id: discovery__github__lux-org__lux__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Data
+          - Data Tracking
+        anchor_text: LUX
+        extracted_url: https://github.com/lux-org/lux
+        surrounding_text: "| [LUX](https://github.com/lux-org/lux)              | A Python library that facilitates fast and easy data exploration by automating the visualization and data analysis process.                       | ![GitHub Badge](https://img.shields.io/github/stars/lux-org/lux.svg?style=flat-square)        |"
+        confidence: high
+metadata:
+  github:
+    stars: 5383
+    forks: 382
+    license: Apache-2.0
+    archived: false
+    created_at: "2020-01-08T04:53:29Z"
+    pushed_at: "2024-03-20T15:48:47Z"
+    description: Automatically visualize your pandas dataframe via a single print! 📊 💡
+    homepage: ""
+    topics:
+      - data-science
+      - exploratory-data-analysis
+      - jupyter
+      - pandas
+      - python
+      - visualization
+      - visualization-tools
+    last_checked_at: "2026-05-05T21:03:26.247Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:26.247Z"
+      bytes: 16071
+insights:
+  summary: Lux is a Python library that automatically generates recommended visualizations and data analysis insights when a pandas DataFrame is printed in a Jupyter notebook.
+  why_it_matters: It streamlines the exploratory data analysis workflow for developers and data scientists by removing the need to manually write matplotlib or seaborn code for initial data discovery.
+  mental_damage: Another magical layer that promises to automate the 'boring' parts of our job, right up until the point where you actually need to control the axis labels and realize you've forgotten how to write a basic plot.
+  tags:
+    - python
+    - pandas
+    - visualization
+    - data-science
+    - jupyter
+  confidence: high
+curation:
+  status: excluded
+  reason: Excluded because Lux is a traditional data science visualization library for pandas, lacking an AI-assisted coding, agentic, or developer-infrastructure angle required for this catalog.
+  evidence:
+    - Repo description describes it as a tool to 'Automatically visualize your pandas dataframe', with no mention of AI or LLMs.
+    - README defines Lux as a 'Python library that facilitate fast and easy data exploration' via automated visualization, not code generation or AI assistance.
+    - Appears in Awesome-LLMOps under 'Data Tracking', but the tool itself is a standard Python visualization library, not an AI developer tool.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (5383) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.705Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:26.247Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:35:00.794Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

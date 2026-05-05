@@ -1,0 +1,82 @@
+id: github__hamflx__imagen3-mcp
+kind: github-repo
+name: imagen3-mcp
+canonical_url: https://github.com/hamflx/imagen3-mcp
+identity:
+  github_repo: hamflx/imagen3-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__hamflx__imagen3-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🔗 <a name="aggregators"></a>Aggregators
+        anchor_text: hamflx/imagen3-mcp
+        extracted_url: https://github.com/hamflx/imagen3-mcp
+        surrounding_text: "- [hamflx/imagen3-mcp](https://github.com/hamflx/imagen3-mcp) 📇 🏠 🪟 🍎 🐧 - A powerful image generation tool using Google's Imagen 3.0 API through MCP. Generate high-quality images from text prompts with advanced photography, artistic, and photorealistic controls."
+        confidence: high
+metadata:
+  github:
+    stars: 62
+    forks: 18
+    license: null
+    archived: false
+    created_at: "2025-04-26T06:41:39Z"
+    pushed_at: "2025-05-03T15:02:35Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:29.944Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:29.944Z"
+      bytes: 4289
+insights:
+  summary: An MCP server that exposes Google's Imagen 3.0 image generation capabilities to AI clients like Cursor and Cherry Studio.
+  why_it_matters: It allows developers to generate images directly from their AI coding environments using Google's latest image models without leaving the workflow.
+  mental_damage: Finally, an MCP server to solve the critical developer problem of having to alt-tab to a browser to generate pictures of photorealistic terriers while writing code.
+  tags:
+    - mcp
+    - image-generation
+    - gemini
+    - cursor
+    - cherry-studio
+  confidence: high
+curation:
+  status: included
+  reason: This is a standalone MCP server implementation designed to integrate image generation into MCP-compatible clients, fitting the MCP infrastructure category.
+  evidence:
+    - README states it is 'An image generation tool based on Google's Imagen 3.0, providing services through MCP (Model Control Protocol)'
+    - Installation steps provided for configuring the server in both Cherry Studio and Cursor via mcpServers JSON
+    - Included in the awesome-mcp-servers list under 'Server Implementations > Aggregators'
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.690Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:29.944Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:23:22.876Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

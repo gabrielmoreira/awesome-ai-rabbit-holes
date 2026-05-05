@@ -1,0 +1,88 @@
+id: github__kubeflow__pipelines
+kind: github-repo
+name: pipelines
+canonical_url: https://github.com/kubeflow/pipelines
+identity:
+  github_repo: kubeflow/pipelines
+provenance:
+  discoveries:
+    - id: discovery__github__kubeflow__pipelines__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Large Scale Deployment
+          - Workflow
+        anchor_text: Kubeflow Pipelines
+        extracted_url: https://github.com/kubeflow/pipelines
+        surrounding_text: "| [Kubeflow Pipelines](https://github.com/kubeflow/pipelines)  | Machine Learning Pipelines for Kubeflow.                                                                          | ![GitHub Badge](https://img.shields.io/github/stars/kubeflow/pipelines.svg?style=flat-square)      |"
+        confidence: high
+metadata:
+  github:
+    stars: 4132
+    forks: 1987
+    license: Apache-2.0
+    archived: false
+    created_at: "2018-05-12T00:31:47Z"
+    pushed_at: "2026-05-05T20:48:37Z"
+    description: Machine Learning Pipelines for Kubeflow
+    homepage: https://www.kubeflow.org/docs/components/pipelines/
+    topics:
+      - data-science
+      - kubeflow
+      - kubeflow-pipelines
+      - kubernetes
+      - machine-learning
+      - mlops
+      - pipeline
+    last_checked_at: "2026-05-05T21:03:09.018Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:09.018Z"
+      bytes: 6544
+insights:
+  summary: Kubeflow Pipelines is a platform for building, deploying, and managing reusable end-to-end machine learning workflows on Kubernetes.
+  why_it_matters: It provides the orchestration layer needed to streamline ML experimentation and standardize how models move from development to production.
+  mental_damage: Another Kubernetes-native solution promising to solve ML orchestration, ensuring you'll spend as much time debugging YAML indentation as you do training models.
+  tags:
+    - mlops
+    - kubernetes
+    - machine-learning
+    - pipelines
+  confidence: high
+curation:
+  status: excluded
+  reason: The project is a general MLOps infrastructure tool for data scientists and ML engineers, lacking the specific AI-assisted developer tooling focus required for this catalog.
+  evidence:
+    - Repo description and README focus on 'Machine Learning Pipelines' and 'ML workflows', targeting ML engineers rather than software developers building with AI.
+    - Source list context places it in 'Large Scale Deployment > Workflow' under Awesome-LLMOps, indicating an MLOps/infrastructure fit rather than a developer tooling fit.
+    - The architecture centers on Kubernetes, Argo Workflows, and the KFP SDK, which is infrastructure for ML, not an AI coding assistant or agent.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (4132) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.702Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:09.018Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:31:29.766Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

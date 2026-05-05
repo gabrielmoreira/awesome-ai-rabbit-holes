@@ -1,0 +1,96 @@
+id: github__pantheon-security__chrome-mcp-secure
+kind: github-repo
+name: chrome-mcp-secure
+canonical_url: https://github.com/pantheon-security/chrome-mcp-secure
+identity:
+  github_repo: pantheon-security/chrome-mcp-secure
+provenance:
+  discoveries:
+    - id: discovery__github__pantheon-security__chrome-mcp-secure__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📂 <a name="browser-automation"></a>Browser Automation
+        anchor_text: Pantheon-Security/chrome-mcp-secure
+        extracted_url: https://github.com/pantheon-security/chrome-mcp-secure
+        surrounding_text: "- [Pantheon-Security/chrome-mcp-secure](https://github.com/Pantheon-Security/chrome-mcp-secure) 📇 🏠 🍎 🪟 🐧 - Security-hardened Chrome automation with post-quantum encryption (ML-KEM-768 + ChaCha20-Poly1305), secure credential vault, memory scrubbing, and audit logging. 22 tools for browser automation and secure logins."
+        confidence: high
+metadata:
+  github:
+    stars: 3
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2025-12-11T05:31:44Z"
+    pushed_at: "2026-01-23T21:05:27Z"
+    description: Secure ChromeMCP Server - Query and Debugging sites using Google Chrome with additional security hardening layers
+    homepage: null
+    topics:
+      - ai
+      - automation
+      - browser-automation
+      - chrome
+      - claude
+      - devtools
+      - encryption
+      - google
+      - llm
+      - mcp
+      - open-source
+      - post-quantum
+      - security
+      - typescript
+    last_checked_at: "2026-05-05T21:04:11.669Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:11.669Z"
+      bytes: 20185
+insights:
+  summary: A security-hardened Model Context Protocol server that enables AI agents to automate and debug web interactions via Google Chrome with enterprise-grade audit logging and post-quantum encryption.
+  why_it_matters: It allows development teams to safely hand browser automation tasks to AI agents in corporate environments by adding tamper-proof audit trails, SIEM integration, and PII redaction.
+  mental_damage: Your AI agent is now SOC 2 compliant, yet you still have to explain to the security team why it spent four hours clicking through the internal Jira.
+  tags:
+    - mcp
+    - browser-automation
+    - security
+    - chrome
+    - enterprise
+  confidence: high
+curation:
+  status: included
+  reason: The project is an MCP server implementation designed to allow AI agents to control Chrome, fitting squarely into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states 'Secure ChromeMCP Server', implementing the Model Context Protocol.
+    - Listed in the 'awesome-mcp-servers' directory under 'Browser Automation' implementations.
+    - README details MCP-specific features like tool execution logging and CEF/Syslog integration for SIEM.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.712Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:11.669Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:43:45.430Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

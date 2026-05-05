@@ -1,0 +1,76 @@
+id: www__audiense__com__products__audiense__insights
+kind: website
+name: audiense-insights
+canonical_url: https://www.audiense.com/products/audiense-insights
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__audiense__com__products__audiense__insights__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Audiense
+        extracted_url: https://www.audiense.com/products/audiense-insights
+        surrounding_text: "- **[Audiense Insights](https://github.com/AudienseCo/mcp-audiense-insights)** - Marketing insights and audience analysis from [Audiense](https://www.audiense.com/products/audiense-insights) reports, covering demographic, cultural, influencer, and content engagement analysis."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Audiense Insights is a social media audience intelligence platform that uses machine learning and IBM Watson psychographics to segment, analyze, and profile online audiences for marketing and PR campaigns.
+  why_it_matters: While it contains an MCP server entry, the core product is a SaaS dashboard for marketers to build personas and analyze social data, not a tool for editing code or building software.
+  mental_damage: We have officially reached the stage where 'audience segmentation for Twitter' is listed alongside compilers and IDE extensions as an essential developer tool.
+  tags:
+    - marketing
+    - mcp
+    - social-intelligence
+    - saas
+  confidence: high
+curation:
+  status: excluded
+  reason: The product is a marketing intelligence SaaS for audience segmentation and influencer identification, lacking a developer-facing workflow for coding, infrastructure, or app building.
+  evidence:
+    - Scraped site context describes the tool as 'the leading audience intelligence platform' for marketing, PR, and influencer identification, not software development.
+    - Source-list context shows it appearing in awesome-mcp-servers only to note that it is an 'Official Server' for understanding audience motivation, not code assistance.
+    - The page excerpt focuses entirely on social listening, demographics, and campaign tool-kits (e.g., 'Build better personas', 'Supercharge your Twitter Marketing').
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.731Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:49:44.126Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

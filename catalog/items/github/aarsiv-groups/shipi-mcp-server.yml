@@ -1,0 +1,81 @@
+id: github__aarsiv-groups__shipi-mcp-server
+kind: github-repo
+name: shipi-mcp-server
+canonical_url: https://github.com/aarsiv-groups/shipi-mcp-server
+identity:
+  github_repo: aarsiv-groups/shipi-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__aarsiv-groups__shipi-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🔒 <a name="delivery"></a>Delivery
+        anchor_text: aarsiv-groups/shipi-mcp-server
+        extracted_url: https://github.com/aarsiv-groups/shipi-mcp-server
+        surrounding_text: "- [aarsiv-groups/shipi-mcp-server](https://github.com/aarsiv-groups/shipi-mcp-server) 📇 ☁️ - Shipi MCP server to create shipments, track packages, and compare rates with 18 tools for various carriers. Supports [remote MCP](https://mcp.myshipi.com/api/mcp)."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2026-02-17T12:51:33Z"
+    pushed_at: "2026-02-17T15:42:39Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:00:46.089Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:46.089Z"
+      bytes: 4656
+insights:
+  summary: An MCP server that connects AI clients like Claude Desktop to the Shipi multi-carrier shipping API to manage shipments, rates, and tracking via natural language.
+  why_it_matters: It allows developers to integrate logistics workflows directly into their AI assistant conversations, removing the need to context-switch to a shipping dashboard for common tasks.
+  mental_damage: We have successfully abstracted away the profound human experience of clicking through a shipping carrier website into a JSON config file and a few function calls.
+  tags:
+    - mcp
+    - shipping
+    - logistics
+    - nodejs
+  confidence: high
+curation:
+  status: included
+  reason: The project is a Model Context Protocol server designed to expose shipping tools to MCP-compatible AI clients, fitting the MCP infrastructure category precisely.
+  evidence:
+    - Represents itself as an 'AI-powered multi-carrier shipping management' tool for Claude Desktop and MCP-compatible clients.
+    - Provides 18 specific MCP tools including list_shipments, get_shipping_rates, and track_shipment.
+    - Listed in the awesome-mcp-servers directory under 'Server Implementations > Delivery'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.676Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:46.089Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:05:20.550Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,80 @@
+id: github__daisys-ai__daisys-mcp
+kind: github-repo
+name: daisys-mcp
+canonical_url: https://github.com/daisys-ai/daisys-mcp
+identity:
+  github_repo: daisys-ai/daisys-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__daisys-ai__daisys-mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: DAISYS
+        extracted_url: https://github.com/daisys-ai/daisys-mcp
+        surrounding_text: "- **[DAISYS](https://github.com/daisys-ai/daisys-mcp)** - Generate high-quality text-to-speech and text-to-voice outputs using the [DAISYS](https://www.daisys.ai/) platform."
+        confidence: high
+metadata:
+  github:
+    stars: 13
+    forks: 6
+    license: null
+    archived: false
+    created_at: "2025-05-01T15:43:27Z"
+    pushed_at: "2025-07-31T21:47:29Z"
+    description: The Daisys mcp server
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:01:45.599Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:45.599Z"
+      bytes: 3735
+insights:
+  summary: An MCP server that provides voice generation capabilities by connecting AI assistants to the Daisys text-to-speech platform.
+  why_it_matters: Developers can add voice synthesis to their AI workflows by letting Claude Desktop, Cursor, or other MCP clients generate audio files directly through tool calls.
+  mental_damage: We have successfully abstracted text-to-speech behind a protocol, so your coding agent can now narrate its own struggles in a premium voice while you troubleshoot portaudio on Linux.
+  tags:
+    - mcp
+    - text-to-speech
+    - audio
+    - daisys
+  confidence: high
+curation:
+  status: included
+  reason: This is a Model Context Protocol server that integrates Daisys voice generation into MCP-compatible clients, fitting cleanly into the MCP infrastructure category.
+  evidence:
+    - "Repo description: 'The Daisys mcp server'"
+    - README demonstrates MCP client configuration for Claude Desktop, Cursor, mcp-cli, and mcp-vscode
+    - Listed in awesome-mcp-servers under 'Official Servers' section
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.683Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:45.599Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:15:11.750Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

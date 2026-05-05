@@ -1,0 +1,89 @@
+id: github__agent-blueprint__mcp-server
+kind: github-repo
+name: mcp-server
+canonical_url: https://github.com/agent-blueprint/mcp-server
+identity:
+  github_repo: agent-blueprint/mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__agent-blueprint__mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🤖 <a name="coding-agents"></a>Coding Agents
+        anchor_text: agent-blueprint/mcp-server
+        extracted_url: https://github.com/agent-blueprint/mcp-server
+        surrounding_text: "- [agent-blueprint/mcp-server](https://github.com/agent-blueprint/mcp-server) [![agent-blueprint/mcp-server MCP server](https://glama.ai/mcp/servers/agent-blueprint/mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/agent-blueprint/mcp-server) 📇 ☁️ - 8 MCP tools for exploring and downloading AI agent blueprints. List blueprints, get summaries, download full Agent Skills directories for implementation by coding agents. Vendor-agnostic output works with any enterprise platform. Install: `npx agentblueprint`."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-03-01T22:07:17Z"
+    pushed_at: "2026-04-30T21:44:41Z"
+    description: MCP server for Agent Blueprint — connect AI agents to your blueprints, business cases, and implementation plans
+    homepage: https://agentblueprint.ai/developers
+    topics:
+      - agent-blueprint
+      - agent-skills
+      - ai
+      - cli
+      - mcp
+      - mcp-server
+      - model-context-protocol
+    last_checked_at: "2026-05-05T21:00:50.251Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:50.251Z"
+      bytes: 6286
+insights:
+  summary: An MCP server and CLI that connects AI agents to Agent Blueprint workspaces, exposing 23 tools to generate business profiles, blueprints, and download them as Agent Skills directories.
+  why_it_matters: It lets coding agents consume structured implementation plans and business context directly from Agent Blueprint via MCP, bridging enterprise analysis artifacts with local development workflows.
+  mental_damage: We have successfully invented a protocol to let agents read the PowerPoint we generated about the agent we are about to build.
+  tags:
+    - mcp
+    - agent-skills
+    - cli
+    - coding-agents
+    - blueprints
+  confidence: high
+curation:
+  status: included
+  reason: This is an MCP server implementation that exposes Agent Blueprint data and generation pipelines as MCP tools and resources for consumption by coding agents and other MCP clients.
+  evidence:
+    - Repo description explicitly states it is an 'MCP server for Agent Blueprint' with topics including mcp and mcp-server.
+    - README shows 23 MCP tools, MCP config example for Claude Code, and auto-detection of MCP mode when stdin is piped.
+    - Listed in awesome-mcp-servers under Server Implementations > Coding Agents section.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.676Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:50.251Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:06:01.759Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

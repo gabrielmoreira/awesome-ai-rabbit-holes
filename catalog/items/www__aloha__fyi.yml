@@ -1,0 +1,77 @@
+id: www__aloha__fyi
+kind: website
+name: www.aloha.fyi
+canonical_url: https://www.aloha.fyi
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__aloha__fyi__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🗺️ <a name="location-services"></a>Location Services
+        anchor_text: aloha.fyi
+        extracted_url: https://aloha.fyi
+        surrounding_text: "- [baphometnxg/aloha-fyi-mcp](https://github.com/baphometnxg/aloha-fyi-mcp) [![baphometnxg/aloha-fyi-mcp MCP server](https://glama.ai/mcp/servers/baphometnxg/aloha-fyi-mcp/badges/score.svg)](https://glama.ai/mcp/servers/baphometnxg/aloha-fyi-mcp) 📇 ☁️ - First dedicated Hawaii tourism MCP server. 2,583 bookable tours from Viator, GetYourGuide, Klook, and Groupon, plus 579 events across 70+ venues on Oahu, Maui, Big Island, and Kauai. Results ship with affiliate booking links. Hosted Streamable HTTP endpoint — no install required. Powered by [aloha.fyi](https://aloha.fyi)."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A browser-first AI travel concierge that plans and books Hawaii itineraries using a chat interface.
+  why_it_matters: It offers a reference implementation of a domain-specific, agentic chat experience layered over a live booking inventory.
+  mental_damage: We have solved local AI inference, agent orchestration, and nearest-neighbor search, but apparently the killer app was an AI that books luaus.
+  tags:
+    - ai-concierge
+    - travel
+    - chatbot
+    - vertical-agent
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a consumer travel booking site with an AI chat layer, not a developer tool, agent framework, or MCP server implementation.
+  evidence:
+    - Scraped site description bills it as '990+ Hawaii tours and experiences... AI concierge plans your perfect trip.'
+    - Primary excerpt shows a consumer trip-planning UI with itinerary building, neighborhood guides, and one-tap booking links.
+    - Listed in awesome-mcp-servers under 'Location Services', but the linked page is a consumer travel site, not an MCP server repo or developer tool.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.731Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:49:30.703Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

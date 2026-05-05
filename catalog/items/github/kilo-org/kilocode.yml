@@ -1,0 +1,109 @@
+id: github__kilo-org__kilocode
+kind: github-repo
+name: kilocode
+canonical_url: https://github.com/kilo-org/kilocode
+identity:
+  github_repo: kilo-org/kilocode
+provenance:
+  discoveries:
+    - id: discovery__github__kilo-org__kilocode__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Terminal-native coding agents
+          - Open Source
+        anchor_text: Kilo Code CLI
+        extracted_url: https://github.com/kilo-org/kilocode
+        surrounding_text: "- **[Kilo Code CLI](https://github.com/Kilo-Org/kilocode)** `⭐ 18.9k` — Agentic engineering platform with CLI; orchestrator mode, 100s of LLMs, skills, and checkpointing."
+        confidence: high
+    - id: discovery__github__kilo-org__kilocode__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 代码 Coding
+        anchor_text: Kilo Code
+        extracted_url: https://github.com/kilo-org/kilocode
+        surrounding_text: 11. [Kilo Code](https://github.com/Kilo-Org/kilocode)
+        confidence: high
+metadata:
+  github:
+    stars: 18940
+    forks: 2486
+    license: MIT
+    archived: false
+    created_at: "2025-03-10T15:34:26Z"
+    pushed_at: "2026-05-05T19:30:45Z"
+    description: Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most popular open source coding agent.
+    homepage: https://kilo.ai/
+    topics:
+      - ai
+      - ai-age
+      - ai-coding
+      - ai-developer-tools
+      - chatgpt
+      - claude
+      - cli
+      - gemini
+      - jetbrains
+      - sonnet
+      - vscode
+      - vscode-extension
+    last_checked_at: "2026-05-05T21:03:05.681Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:05.681Z"
+      bytes: 6271
+insights:
+  summary: Kilo is an open-source coding agent and engineering platform that integrates into VS Code and the CLI to generate code, automate tasks, and debug existing repos.
+  why_it_matters: It offers developers a multi-modal agent experience—combining inline autocomplete, terminal automation, browser control, and an MCP marketplace—directly inside their IDE or terminal workflow.
+  mental_damage: "Just what the modern developer needs: another 'all-in-one agentic platform' to manage while wondering if the agent is refactoring the code or just refactoring the anxiety."
+  tags:
+    - coding-agent
+    - vscode-extension
+    - cli
+    - mcp
+    - open-source
+  confidence: high
+curation:
+  status: included
+  reason: The primary product is a developer-facing coding assistant that directly writes, edits, and debugs code inside a repo via a CLI and VS Code extension, fitting the coding-agents definition.
+  evidence:
+    - Repo description explicitly calls it 'the most popular open source coding agent'.
+    - README details features like code generation, automated refactoring, terminal commands, and a VS Code extension.
+    - Listed in awesome-cli-coding-agents under 'Terminal-native coding agents > Open Source'.
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (18940) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.668Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:05.681Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:30:45.457Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

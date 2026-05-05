@@ -1,0 +1,92 @@
+id: github__botwallet-co__mcp
+kind: github-repo
+name: mcp
+canonical_url: https://github.com/botwallet-co/mcp
+identity:
+  github_repo: botwallet-co/mcp
+provenance:
+  discoveries:
+    - id: discovery__github__botwallet-co__mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: botwallet-co/mcp
+        extracted_url: https://github.com/botwallet-co/mcp
+        surrounding_text: "- [botwallet-co/mcp](https://github.com/botwallet-co/mcp) [![botwallet-co/mcp MCP server](https://glama.ai/mcp/servers/botwallet-co/mcp/badges/score.svg)](https://glama.ai/mcp/servers/botwallet-co/mcp) 📇 ☁️ 🏠 🍎 🪟 🐧 - Wallet for AI agents. Earn via invoices, spend on other agents and paid APIs, manage USDC on Solana with human-set spending limits and FROST 2-of-2 threshold signing."
+        confidence: high
+metadata:
+  github:
+    stars: 2
+    forks: 0
+    license: Apache-2.0
+    archived: false
+    created_at: "2026-03-23T20:44:12Z"
+    pushed_at: "2026-04-08T22:04:18Z"
+    description: MCP server for Botwallet — Give any AI agent a wallet via Model Context Protocol. FROST threshold signing, x402 paid APIs, spending guard rails.
+    homepage: https://botwallet.co
+    topics:
+      - ai-agent
+      - botwallet
+      - claude
+      - cursor
+      - frost
+      - mcp
+      - model-context-protocol
+      - payments
+      - solana
+      - wallet
+    last_checked_at: "2026-05-05T21:01:24.150Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:24.150Z"
+      bytes: 9416
+insights:
+  summary: An MCP server that gives AI agents a USDC wallet with FROST threshold signing, spending guard rails, and the ability to pay for x402 APIs or create invoices.
+  why_it_matters: Developers can let coding agents autonomously pay for API access and handle microtransactions without handing over unrestricted spend keys.
+  mental_damage: Your AI agent now has a stipend, a cryptographic identity, and the ability to invoice clients, while you’re still manually approving its $5 purchases like a confused parent.
+  tags:
+    - mcp
+    - payments
+    - agents
+    - wallet
+    - x402
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server for giving agents wallet capabilities, which fits cleanly into MCP Servers and Tooling rather than broader agent orchestration or coding-agent categories.
+  evidence:
+    - "Repo description states: 'MCP server for Botwallet — Give any AI agent a wallet via Model Context Protocol.'"
+    - README positions it as a drop-in MCP server for Claude Desktop, Cursor, Windsurf, Cline, and other MCP-compatible clients.
+    - Listed in awesome-mcp-servers under Server Implementations > Finance & Fintech, confirming MCP ecosystem relevance.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.681Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:24.150Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:11:24.681Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,76 @@
+id: www__mux__com
+kind: website
+name: www.mux.com
+canonical_url: https://www.mux.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__mux__com__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Mux
+        extracted_url: https://www.mux.com
+        surrounding_text: "- **[Mux](https://github.com/muxinc/mux-node-sdk/tree/master/packages/mcp-server)** - [Mux](https://www.mux.com) is a video API for developers. With Mux's official MCP you can upload videos, create live streams, generate thumbnails, add captions, manage playback policies, dig through engagement data, monitor video performance, and more."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Mux is a developer-focused video API platform that provides infrastructure for streaming, transcoding, and playback, along with AI-powered 'Robots' for video summarization, moderation, and chaptering.
+  why_it_matters: It allows developers to offload complex video infrastructure and integrate AI-driven video analysis directly into their applications via a straightforward API.
+  mental_damage: You can now ask an API if a video is a cartoon, further eroding the boundary between useful automation and paying a premium to have a robot ask questions you could answer in a split second.
+  tags:
+    - video-api
+    - ai-workflows
+    - saas
+    - infrastructure
+  confidence: high
+curation:
+  status: excluded
+  reason: Mux is a general video infrastructure SaaS with AI features, not a developer tooling, coding agent, or app-builder that fits the specific scope of this catalog.
+  evidence:
+    - Site description focuses on shipping high-performance video infrastructure, not developer coding workflows.
+    - AI features (Robots) are specific to video analysis (summarization, moderation) rather than code generation or IDE assistance.
+    - Listed in awesome-mcp-servers only as context for an official server, not as a primary developer tooling product.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.733Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:52:13.846Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

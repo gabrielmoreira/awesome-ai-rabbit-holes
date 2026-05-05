@@ -1,0 +1,87 @@
+id: github__akutishevsky__lunchmoney-mcp
+kind: github-repo
+name: lunchmoney-mcp
+canonical_url: https://github.com/akutishevsky/lunchmoney-mcp
+identity:
+  github_repo: akutishevsky/lunchmoney-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__akutishevsky__lunchmoney-mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: LunchMoney
+        extracted_url: https://github.com/akutishevsky/lunchmoney-mcp
+        surrounding_text: "- **[LunchMoney](https://github.com/akutishevsky/lunchmoney-mcp)** - MCP server for LunchMoney personal finance and budgeting tool."
+        confidence: high
+metadata:
+  github:
+    stars: 67
+    forks: 9
+    license: MIT
+    archived: false
+    created_at: "2025-07-27T04:25:40Z"
+    pushed_at: "2026-04-30T19:20:02Z"
+    description: A Model Context Protocol (MCP) server implementation for LunchMoney, providing programmatic access to personal finance management through LunchMoney's API.
+    homepage: ""
+    topics:
+      - dxt
+      - lunchmoney
+      - lunchmoney-api
+      - mcp
+      - mcp-server
+      - model-context-protocol
+    last_checked_at: "2026-05-05T21:00:57.161Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:57.161Z"
+      bytes: 14459
+insights:
+  summary: An MCP server that exposes LunchMoney's personal finance API as tools for AI assistants, enabling programmatic transaction management, budgeting, and crypto tracking.
+  why_it_matters: It lets developers integrate personal finance workflows directly into AI-assisted environments like Claude Desktop and CLI tools without writing custom API wrappers.
+  mental_damage: The natural end state of the MCP ecosystem is a personal AI accountant that gently judges your lunch spending while you debug a failing build at 3 PM.
+  tags:
+    - mcp
+    - personal-finance
+    - typescript
+    - lunchmoney
+    - cli
+  confidence: high
+curation:
+  status: included
+  reason: The project is a standard MCP server implementation designed to give AI clients structured access to a third-party API, fitting cleanly into the MCP tooling category.
+  evidence:
+    - Repo description explicitly states it is 'A Model Context Protocol (MCP) server implementation for LunchMoney'.
+    - README lists installation options for Claude Code CLI, Codex CLI, and Claude Desktop, confirming its role as an MCP integration layer.
+    - Included in the awesome-mcp-servers list under 'Community Servers', aligning with its technical identity.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.677Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:57.161Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:07:10.308Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

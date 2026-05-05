@@ -1,0 +1,82 @@
+id: github__nesquikm__mcp-rubber-duck
+kind: github-repo
+name: mcp-rubber-duck
+canonical_url: https://github.com/nesquikm/mcp-rubber-duck
+identity:
+  github_repo: nesquikm/mcp-rubber-duck
+provenance:
+  discoveries:
+    - id: discovery__github__nesquikm__mcp-rubber-duck__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🤖 <a name="coding-agents"></a>Coding Agents
+        anchor_text: nesquikm/mcp-rubber-duck
+        extracted_url: https://github.com/nesquikm/mcp-rubber-duck
+        surrounding_text: "- [nesquikm/mcp-rubber-duck](https://github.com/nesquikm/mcp-rubber-duck) 📇 🏠 ☁️ - An MCP server that bridges to multiple OpenAI-compatible LLMs - your AI rubber duck debugging panel for explaining problems to various AI \"ducks\" and getting different perspectives"
+        confidence: high
+metadata:
+  github:
+    stars: 161
+    forks: 23
+    license: MIT
+    archived: false
+    created_at: "2025-08-27T15:55:07Z"
+    pushed_at: "2026-04-27T10:07:03Z"
+    description: An MCP server that acts as a bridge to query multiple OpenAI-compatible LLMs with MCP tool access. Just like rubber duck debugging, explain your problems to various AI "ducks" who can actually research and get different perspectives!
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:03:53.077Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:53.077Z"
+      bytes: 11994
+insights:
+  summary: An MCP server that bridges multiple OpenAI-compatible LLMs and CLI coding agents to provide multi-perspective debugging, consensus voting, and debate workflows for developers.
+  why_it_matters: It lets developers orchestrate responses from multiple AI models and coding agents simultaneously, adding consensus checks and structured debates directly into their existing MCP-compatible IDE or CLI workflow.
+  mental_damage: You now have an entire council of rubber ducks arguing about your bug, complete with voting, debates, and confidence scores, proving that even when you outsource thinking to AI, consensus-building remains a chore.
+  tags:
+    - mcp
+    - multi-llm
+    - debugging
+    - orchestration
+    - cli
+  confidence: high
+curation:
+  status: included
+  reason: The primary artifact is an MCP server that connects to and orchestrates multiple LLMs and CLI agents, fitting cleanly into MCP infrastructure rather than being a coding agent itself.
+  evidence:
+    - Repo description explicitly states it is 'An MCP server that acts as a bridge to query multiple OpenAI-compatible LLMs with MCP tool access.'
+    - README lists features like 'MCP Bridge', 'MCP Registry' badge, and 'MCP Prompts', confirming it is first and foremost an MCP tool.
+    - Listed under 'Server Implementations' in the awesome-mcp-servers directory, reinforcing its identity as MCP infrastructure.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (161) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.709Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:53.077Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:40:17.198Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

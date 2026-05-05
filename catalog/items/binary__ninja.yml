@@ -1,0 +1,76 @@
+id: binary__ninja
+kind: website
+name: binary.ninja
+canonical_url: https://binary.ninja
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__binary__ninja__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: Binary Ninja
+        extracted_url: https://binary.ninja
+        surrounding_text: "- **[Binary Ninja](https://github.com/fosdickio/binary_ninja_mcp)** - A Binary Ninja plugin, MCP server, and bridge that seamlessly integrates [Binary Ninja](https://binary.ninja) with your favorite MCP client."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Binary Ninja is a commercial interactive decompiler, disassembler, and binary analysis platform for reverse engineers, featuring scripting APIs and optional AI-assisted analysis.
+  why_it_matters: It provides developers working on reverse engineering with a scriptable environment to automate binary analysis using C++, Python, or Rust, and includes AI features to accelerate understanding.
+  mental_damage: Just when you thought your job was safe from AI, it's now helping reverse engineers decompile binaries faster, leaving you with even fewer excuses for not understanding that legacy firmware.
+  tags:
+    - reverse-engineering
+    - decompiler
+    - binary-analysis
+    - ai-assisted
+  confidence: high
+curation:
+  status: excluded
+  reason: The primary product is a reverse engineering platform for binary analysis, not a developer-facing AI tool for coding, app building, or workflow automation within the software development lifecycle.
+  evidence:
+    - Scraped site context describes it as 'an interactive decompiler, disassembler, debugger, and binary analysis platform' for reverse engineers.
+    - "The only AI mention is a supplementary feature: 'Accelerate analysis and optimize understanding through extra AI-powered features.'"
+    - Found in awesome-mcp-servers context, but the product itself is a standalone reverse engineering tool, not an MCP server or primary AI developer tool.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.726Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:42:30.170Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

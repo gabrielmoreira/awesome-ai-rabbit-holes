@@ -1,0 +1,91 @@
+id: github__pchalasani__claude-code-tools
+kind: github-repo
+name: claude-code-tools
+canonical_url: https://github.com/pchalasani/claude-code-tools
+identity:
+  github_repo: pchalasani/claude-code-tools
+provenance:
+  discoveries:
+    - id: discovery__github__pchalasani__claude-code-tools__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Agent infrastructure
+        anchor_text: Claude Code Tools
+        extracted_url: https://github.com/pchalasani/claude-code-tools
+        surrounding_text: "- **[Claude Code Tools](https://github.com/pchalasani/claude-code-tools)** `⭐ 1.8k` — Utilities around Claude Code workflows (automation helpers, helpers for common tasks)."
+        confidence: high
+metadata:
+  github:
+    stars: 1763
+    forks: 113
+    license: MIT
+    archived: false
+    created_at: "2025-07-30T20:10:38Z"
+    pushed_at: "2026-04-19T11:14:00Z"
+    description: Practical productivity tools for Claude Code, Codex-CLI, and similar CLI coding agents.
+    homepage: ""
+    topics:
+      - claude-code
+      - cli
+      - cli-agent
+      - code-agent
+      - codex
+      - codex-cli
+      - context
+      - llm
+      - tmux
+    last_checked_at: "2026-05-05T21:04:14.342Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:14.342Z"
+      bytes: 5164
+insights:
+  summary: A CLI toolkit and plugin suite that provides productivity tools, skills, hooks, and integrations for Claude Code and other terminal-based coding agents.
+  why_it_matters: It extends the capabilities of CLI coding agents with session management, voice control, Google Workspace integrations, and safety hooks to streamline the terminal-based AI development workflow.
+  mental_damage: We have now reached the point where we need a dedicated toolkit to organize the plugins, hooks, and skills we use to manage the agent that writes our code.
+  tags:
+    - cli
+    - claude-code
+    - plugins
+    - skills
+    - tmux
+  confidence: high
+curation:
+  status: included
+  reason: This is a suite of extensions, plugins, and skills designed to augment Claude Code and other CLI coding agents, fitting the definition of an AI Developer Extension rather than the primary assistant itself.
+  evidence:
+    - Repo description explicitly states it is for 'Practical productivity tools for Claude Code, Codex-CLI, and similar CLI coding agents.'
+    - README describes 'CLI tools, skills, agents, hooks, and plugins for enhancing productivity with Claude Code.'
+    - Seen in 'awesome-cli-coding-agents' under 'Harnesses & orchestration > Agent infrastructure'.
+placement:
+  primary_category: ai-dev-extensions
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1763) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.712Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:14.342Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:44:11.985Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

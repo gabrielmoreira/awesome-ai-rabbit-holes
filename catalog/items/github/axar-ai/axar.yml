@@ -1,0 +1,92 @@
+id: github__axar-ai__axar
+kind: github-repo
+name: axar
+canonical_url: https://github.com/axar-ai/axar
+identity:
+  github_repo: axar-ai/axar
+provenance:
+  discoveries:
+    - id: discovery__github__axar-ai__axar__awesome-list__kaushikb11__awesome-llm-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: kaushikb11/awesome-llm-agents
+        url: https://github.com/kaushikb11/awesome-llm-agents
+        repository: kaushikb11/awesome-llm-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Frameworks
+        anchor_text: Axar
+        extracted_url: https://github.com/axar-ai/axar
+        surrounding_text: "- [Axar](https://github.com/axar-ai/axar) - Minimal TypeScript agentic framework for"
+        confidence: high
+metadata:
+  github:
+    stars: 158
+    forks: 14
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-01-04T09:33:17Z"
+    pushed_at: "2026-02-09T21:07:32Z"
+    description: Minimal typescript agent framework that keeps it simple and gives you control - no BS
+    homepage: https://axar.ai
+    topics:
+      - agent-framework
+      - agent-framework-javascript
+      - agentic-ai
+      - agents
+      - ai
+      - generative-ai
+      - javascript
+      - llm
+      - llm-framework
+      - nodejs
+      - typescript
+      - workflows
+    last_checked_at: "2026-05-05T21:01:14.759Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:14.759Z"
+      bytes: 9901
+insights:
+  summary: A lightweight TypeScript framework for building production-grade LLM-powered agentic applications using decorators and typed inputs/outputs.
+  why_it_matters: It offers developers a minimal, code-first way to build reliable agent workflows without the overhead and abstraction layers common in larger frameworks.
+  mental_damage: Yet another TypeScript framework promising to be the 'simple' one, because clearly the 157 other agent frameworks were just too complex for us to handle.
+  tags:
+    - typescript
+    - agent-framework
+    - llm
+    - nodejs
+  confidence: high
+curation:
+  status: included
+  reason: This is a code-first library/framework that developers import to build agentic behavior, which fits the AI Frameworks and SDKs category rather than an orchestration platform or coding agent.
+  evidence:
+    - Repo description explicitly calls it a 'Minimal typescript agent framework'.
+    - README states it is a 'lightweight framework for building production-ready agentic applications using TypeScript' with examples using @model decorators.
+    - Listed under 'Frameworks' in the awesome-llm-agents directory.
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (158) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.680Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:14.759Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:09:52.052Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

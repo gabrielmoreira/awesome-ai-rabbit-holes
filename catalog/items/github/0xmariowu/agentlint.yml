@@ -1,0 +1,102 @@
+id: github__0xmariowu__agentlint
+kind: github-repo
+name: agentlint
+canonical_url: https://github.com/0xmariowu/agentlint
+identity:
+  github_repo: 0xmariowu/agentlint
+provenance:
+  discoveries:
+    - id: discovery__github__0xmariowu__agentlint__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Agent infrastructure
+        anchor_text: AgentLint
+        extracted_url: https://github.com/0xmariowu/agentlint
+        surrounding_text: "- **[AgentLint](https://github.com/0xmariowu/AgentLint)** `⭐ 23` — 33 evidence-backed checks for AI-friendly repos. Scans file structure, instruction quality, build setup, session continuity, and security posture. Claude Code plugin with auto-fix. Your AI agent is only as good as your repo."
+        confidence: high
+metadata:
+  github:
+    stars: 23
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2026-04-02T16:18:15Z"
+    pushed_at: "2026-05-01T19:12:52Z"
+    description: The linter for your agent harness. Works with Claude Code, Codex, and Cursor.
+    homepage: https://agentlint.app
+    topics:
+      - agent-friendly
+      - agents-md
+      - ai-agent
+      - ai-coding
+      - ai-coding-agent
+      - ai-ready
+      - claude-code
+      - claude-code-plugin
+      - claude-md
+      - code-quality
+      - codex
+      - context-engineering
+      - cursor
+      - developer-tools
+      - github-copilot
+      - harness-engineering
+      - linter
+      - llm-tools
+      - prompt-engineering
+      - repository-intelligence
+    last_checked_at: "2026-05-05T21:00:43.552Z"
+    readme:
+      fetched_at: "2026-05-05T21:00:43.552Z"
+      bytes: 21749
+insights:
+  summary: A CLI and Claude Code plugin that lints and scores an AI coding agent's harness (AGENTS.md, CLAUDE.md, CI configs, .gitignore) across 51+ checks to improve context quality and agent reliability.
+  why_it_matters: It treats prompt files, CI configs, and repo instructions as a first-class engineering surface, giving developers a measurable way to harden the context that agents actually read.
+  mental_damage: "We have finally achieved the inevitable endpoint of modern development: installing a linter to complain about the Markdown files we wrote to tell the AI how to behave."
+  tags:
+    - linting
+    - context-engineering
+    - claude-code
+    - cursor
+    - harness
+  confidence: high
+curation:
+  status: included
+  reason: The tool focuses on shaping, validating, and scoring the context and instruction layers that feed coding agents, which aligns directly with context engineering rather than acting as a primary coding agent itself.
+  evidence:
+    - "Repo description states: 'The linter for your agent harness. Works with Claude Code, Codex, and Cursor.'"
+    - README explicitly defines the product as 'the first linter for the harness itself' and scores context files across 51+ deterministic checks.
+    - Source list includes it under 'Harnesses & orchestration > Agent infrastructure', reinforcing its infrastructure/context focus.
+placement:
+  primary_category: context-engineering
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.675Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:00:43.552Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:04:51.316Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

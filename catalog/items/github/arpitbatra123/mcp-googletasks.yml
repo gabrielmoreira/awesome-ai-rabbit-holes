@@ -1,0 +1,97 @@
+id: github__arpitbatra123__mcp-googletasks
+kind: github-repo
+name: mcp-googletasks
+canonical_url: https://github.com/arpitbatra123/mcp-googletasks
+identity:
+  github_repo: arpitbatra123/mcp-googletasks
+provenance:
+  discoveries:
+    - id: discovery__github__arpitbatra123__mcp-googletasks__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💬 <a name="communication"></a>Communication
+        anchor_text: arpitbatra123/mcp-googletasks
+        extracted_url: https://github.com/arpitbatra123/mcp-googletasks
+        surrounding_text: "- [arpitbatra123/mcp-googletasks](https://github.com/arpitbatra123/mcp-googletasks) 📇 ☁️ - An MCP server to interface with the Google Tasks API"
+        confidence: high
+    - id: discovery__github__arpitbatra123__mcp-googletasks__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - 💬 Communication
+        anchor_text: arpitbatra123/mcp-googletasks
+        extracted_url: https://github.com/arpitbatra123/mcp-googletasks
+        surrounding_text: "-   **[arpitbatra123/mcp-googletasks](https://github.com/arpitbatra123/mcp-googletasks)** [![GitHub stars](https://img.shields.io/github/stars/arpitbatra123/mcp-googletasks?style=social)](https://github.com/arpitbatra123/mcp-googletasks): Interfaces with the Google Tasks API for task management."
+        confidence: high
+metadata:
+  github:
+    stars: 37
+    forks: 20
+    license: MIT
+    archived: false
+    created_at: "2025-03-18T17:22:05Z"
+    pushed_at: "2026-04-22T17:04:54Z"
+    description: This Model Context Protocol (MCP) server provides a bridge between LLMs and Google Tasks, allowing you to manage your task lists and tasks directly through Claude.
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:01:09.841Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:09.841Z"
+      bytes: 5976
+insights:
+  summary: An MCP server that bridges LLMs with Google Tasks, enabling task and task-list management directly from clients like Claude Desktop, Cursor, and Codex.
+  why_it_matters: It lets developers manage Google Tasks without leaving their AI-assisted workflow, turning a context switch into a prompt.
+  mental_damage: We have successfully offloaded the cognitive burden of remembering to check our task list to an LLM that is also helping us ignore it.
+  tags:
+    - mcp
+    - google-tasks
+    - productivity
+    - nodejs
+    - typescript
+  confidence: high
+curation:
+  status: included
+  reason: The project is a purpose-built MCP server for Google Tasks integration, directly fitting the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states it is a Model Context Protocol (MCP) server for Google Tasks.
+    - README details integration with MCP clients including Claude Desktop, Cursor, and Codex.
+    - Listed in both awesome-mcp-list and awesome-mcp-servers under communication sections.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.663Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:09.841Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:09:05.699Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,87 @@
+id: github__namuan__dr-doc-search
+kind: github-repo
+name: dr-doc-search
+canonical_url: https://github.com/namuan/dr-doc-search
+identity:
+  github_repo: namuan/dr-doc-search
+provenance:
+  discoveries:
+    - id: discovery__github__namuan__dr-doc-search__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Open Source Projects
+          - Other / Chatbots
+        anchor_text: Doc Search
+        extracted_url: https://github.com/namuan/dr-doc-search
+        surrounding_text: "- [Doc Search](https://github.com/namuan/dr-doc-search): converse with book - Built with GPT-3 ![GitHub Repo stars](https://img.shields.io/github/stars/namuan/dr-doc-search?style=social)"
+        confidence: high
+metadata:
+  github:
+    stars: 596
+    forks: 59
+    license: MIT
+    archived: false
+    created_at: "2023-01-03T22:31:17Z"
+    pushed_at: "2024-10-01T00:11:26Z"
+    description: Converse with book - Built with GPT-3
+    homepage: ""
+    topics:
+      - gpt3
+      - langchain
+      - nlp-machine-learning
+      - python
+      - summarization
+    last_checked_at: "2026-05-05T21:03:51.254Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:51.254Z"
+      bytes: 4692
+insights:
+  summary: A Python CLI and web app that lets users converse with PDF documents by generating embeddings and using GPT-3 or HuggingFace models to answer questions.
+  why_it_matters: It provides a reproducible pipeline for building local document-QA workflows using LangChain, OCR, and pluggable LLM backends.
+  mental_damage: One more CLI tool proving that reading the actual book is functionally obsolete as long as you can OCR it and ask a model to hallucinate the summary for you.
+  tags:
+    - langchain
+    - pdf-qa
+    - cli
+    - local-llm
+    - document-search
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a general-purpose document QA demo, not a developer-facing tool for coding, editing repos, or building software.
+  evidence:
+    - Repo description explicitly states 'Converse with book - Built with GPT-3', targeting end-readers rather than developers.
+    - README describes a PDF-to-QA workflow with OCR and embeddings, with no developer tooling, IDE, or repo-editing use case.
+    - Listed in awesome-langchain under 'Chatbots', not under developer tooling or coding agents.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (596) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.709Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:51.254Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:39:55.259Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

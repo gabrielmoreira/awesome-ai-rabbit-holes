@@ -1,0 +1,97 @@
+id: github__joshuarileydev__app-store-connect-mcp-server
+kind: github-repo
+name: app-store-connect-mcp-server
+canonical_url: https://github.com/joshuarileydev/app-store-connect-mcp-server
+identity:
+  github_repo: joshuarileydev/app-store-connect-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__joshuarileydev__app-store-connect-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: joshuarileydev/app-store-connect-mcp-server
+        extracted_url: https://github.com/joshuarileydev/app-store-connect-mcp-server
+        surrounding_text: "- [joshuarileydev/app-store-connect-mcp-server](https://github.com/JoshuaRileyDev/app-store-connect-mcp-server) 📇 🏠 - An MCP server to communicate with the App Store Connect API for iOS Developers"
+        confidence: high
+    - id: discovery__github__joshuarileydev__app-store-connect-mcp-server__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - 💻 Developer Tools
+        anchor_text: "@joshuarileydev/app-store-connect-mcp-server"
+        extracted_url: https://github.com/joshuarileydev/app-store-connect-mcp-server
+        surrounding_text: "-   **[@joshuarileydev/app-store-connect-mcp-server](https://github.com/JoshuaRileyDev/app-store-connect-mcp-server)** [![GitHub stars](https://img.shields.io/github/stars/JoshuaRileyDev/app-store-connect-mcp-server?style=social)](https://github.com/JoshuaRileyDev/app-store-connect-mcp-server): Communicates with the App Store Connect API."
+        confidence: high
+metadata:
+  github:
+    stars: 322
+    forks: 54
+    license: MIT
+    archived: true
+    created_at: "2024-12-13T18:24:32Z"
+    pushed_at: "2025-09-02T10:27:03Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:02:59.036Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:59.036Z"
+      bytes: 19155
+insights:
+  summary: An archived MCP server that allows developers to manage App Store Connect resources, including apps, beta testers, and metadata, through conversational AI interfaces like Claude Desktop.
+  why_it_matters: It allows iOS and macOS developers to automate App Store operations and manage app metadata using natural language instead of the often-cumbersome web dashboard or API scripts.
+  mental_damage: You can now overcomplicate your release pipeline by asking a chatbot to update your 'What's New' text, provided you don't mind relying on an archived bridge to Apple's walled garden.
+  tags:
+    - mcp
+    - app-store
+    - ios
+    - developer-tools
+    - automation
+  confidence: high
+curation:
+  status: excluded
+  reason: The repository is marked as archived, indicating it is no longer maintained or supported, which is a strong negative signal for inclusion in a curated active catalog.
+  evidence:
+    - "The repo metadata explicitly shows 'Archived: yes'."
+    - Although it appears in the 'awesome-mcp-servers' list under Developer Tools, its archived status means it is no longer a viable active tool.
+    - Created in December 2024 but already archived, suggesting a short lifespan or abandonment.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: needs_review
+  reason: Repository is archived
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.667Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:59.036Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:29:12.430Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

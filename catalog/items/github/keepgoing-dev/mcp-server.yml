@@ -1,0 +1,81 @@
+id: github__keepgoing-dev__mcp-server
+kind: github-repo
+name: mcp-server
+canonical_url: https://github.com/keepgoing-dev/mcp-server
+identity:
+  github_repo: keepgoing-dev/mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__keepgoing-dev__mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: keepgoing-dev/mcp-server
+        extracted_url: https://github.com/keepgoing-dev/mcp-server
+        surrounding_text: "- [keepgoing-dev/mcp-server](https://github.com/keepgoing-dev/mcp-server) [![mcp-server MCP server](https://glama.ai/mcp/servers/keepgoing-dev/mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/keepgoing-dev/mcp-server) 📇 🏠 🍎 🪟 🐧 - Project memory for AI coding sessions. Auto-captures checkpoints on git commits, branch switches, and inactivity, then provides re-entry briefings so AI assistants pick up where you left off. Local-first, no account required."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-03-11T00:43:06Z"
+    pushed_at: "2026-04-20T04:03:09Z"
+    description: KeepGoing MCP server - Project memory for AI coding assistants
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:03:03.713Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:03.713Z"
+      bytes: 4166
+insights:
+  summary: An MCP server that captures coding checkpoints on git events and inactivity, allowing AI assistants to retrieve context about what the developer was doing and what to do next.
+  why_it_matters: It reduces the context-rebuilding overhead when returning to a project after time away by letting AI assistants read structured checkpoints instead of re-inferring state from scratch.
+  mental_damage: We have invented a system to remind ourselves what we were doing, which is itself another background process we must now remember to configure and trust.
+  tags:
+    - mcp
+    - memory
+    - context
+    - developer-workflow
+  confidence: medium
+curation:
+  status: included
+  reason: The product itself is an MCP server that provides memory and context tooling for AI coding assistants, which fits cleanly into the MCP Servers and Tooling category.
+  evidence:
+    - "Repo description states: 'KeepGoing MCP server - Project memory for AI coding assistants'"
+    - README confirms it is an MCP server adding tools like get_momentum and get_reentry_briefing to assistants such as Claude Code and Cursor
+    - Listed in awesome-mcp-servers under Server Implementations > Knowledge & Memory
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.701Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:03.713Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:30:17.318Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

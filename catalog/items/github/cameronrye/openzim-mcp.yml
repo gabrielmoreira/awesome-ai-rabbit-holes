@@ -1,0 +1,87 @@
+id: github__cameronrye__openzim-mcp
+kind: github-repo
+name: openzim-mcp
+canonical_url: https://github.com/cameronrye/openzim-mcp
+identity:
+  github_repo: cameronrye/openzim-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__cameronrye__openzim-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: cameronrye/openzim-mcp
+        extracted_url: https://github.com/cameronrye/openzim-mcp
+        surrounding_text: "- [cameronrye/openzim-mcp](https://github.com/cameronrye/openzim-mcp) 🐍 🏠 - Modern, secure MCP server for accessing ZIM format knowledge bases offline. Enables AI models to search and navigate Wikipedia, educational content, and other compressed knowledge archives with smart retrieval, caching, and comprehensive API."
+        confidence: high
+metadata:
+  github:
+    stars: 57
+    forks: 10
+    license: MIT
+    archived: false
+    created_at: "2025-09-14T18:34:44Z"
+    pushed_at: "2026-05-05T20:36:39Z"
+    description: OpenZIM MCP is a modern, secure, and high-performance MCP (Model Context Protocol) server that enables AI models to access and search ZIM format knowledge bases offline.
+    homepage: https://cameronrye.github.io/openzim-mcp/
+    topics:
+      - kiwix
+      - mcp
+      - mcp-server
+      - openzim
+      - zim
+    last_checked_at: "2026-05-05T21:01:29.486Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:29.486Z"
+      bytes: 60154
+insights:
+  summary: A Model Context Protocol server that provides AI models with structured, offline access to search and navigate ZIM-format knowledge archives like Wikipedia.
+  why_it_matters: It allows developers building RAG or agent workflows to offload massive knowledge bases to a local, high-performance server instead of stuffing context windows with raw text dumps.
+  mental_damage: Because the only thing better than an AI confidently hallucinating is an AI confidently hallucinating from a 40GB offline copy of Wikipedia it found via a specialized MCP server.
+  tags:
+    - mcp
+    - offline
+    - knowledge-base
+    - zim
+    - python
+  confidence: high
+curation:
+  status: included
+  reason: The project is a dedicated MCP server implementation designed to expose ZIM archives to AI models, fitting the MCP infrastructure category perfectly.
+  evidence:
+    - Repo description explicitly defines it as 'a modern, secure, and high-performance MCP (Model Context Protocol) server'.
+    - Listed in the awesome-mcp-servers directory under 'Server Implementations > Knowledge & Memory'.
+    - README confirms it provides 21 specialized tools and resources specifically for LLM interaction via the MCP standard.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.682Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:29.486Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:12:22.178Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

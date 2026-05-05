@@ -1,0 +1,90 @@
+id: github__ofershap__mcp-server-devutils
+kind: github-repo
+name: mcp-server-devutils
+canonical_url: https://github.com/ofershap/mcp-server-devutils
+identity:
+  github_repo: ofershap/mcp-server-devutils
+provenance:
+  discoveries:
+    - id: discovery__github__ofershap__mcp-server-devutils__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: ofershap/mcp-server-devutils
+        extracted_url: https://github.com/ofershap/mcp-server-devutils
+        surrounding_text: "- [ofershap/mcp-server-devutils](https://github.com/ofershap/mcp-server-devutils) [![mcp-server-devutils MCP server](https://glama.ai/mcp/servers/ofershap/mcp-server-devutils/badges/score.svg)](https://glama.ai/mcp/servers/ofershap/mcp-server-devutils) 📇 🏠 - Zero-auth developer utilities: base64, UUID, hash, JWT decode, cron parse, timestamps, JSON, and regex."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-02-13T07:48:45Z"
+    pushed_at: "2026-03-10T09:22:48Z"
+    description: "Zero-auth MCP server with everyday developer utilities: base64, UUID, hash, JWT decode, cron, timestamps, JSON, regex"
+    homepage: null
+    topics:
+      - base64
+      - developer-tools
+      - jwt
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - typescript
+      - uuid
+    last_checked_at: "2026-05-05T21:03:59.298Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:59.298Z"
+      bytes: 4060
+insights:
+  summary: A zero-auth MCP server that exposes 17 common developer utilities like base64, UUID, JWT decode, cron parsing, timestamps, JSON formatting, and regex testing to AI assistants via npx.
+  why_it_matters: It lets AI assistants handle routine encoding, decoding, and formatting tasks locally without external API keys, reducing context-switching during development workflows.
+  mental_damage: We have successfully reached the point where our AI assistants need their own utility belt to avoid asking us how to decode a base64 string.
+  tags:
+    - mcp
+    - developer-tools
+    - typescript
+    - utilities
+    - npx
+  confidence: high
+curation:
+  status: included
+  reason: The project is a dedicated MCP server providing developer utilities to AI assistants, which fits squarely into the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states 'Zero-auth MCP server with everyday developer utilities'
+    - README confirms it works with Claude Desktop, Cursor, and VS Code Copilot as an MCP server via npx
+    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools' section
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.710Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:59.298Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:41:36.021Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

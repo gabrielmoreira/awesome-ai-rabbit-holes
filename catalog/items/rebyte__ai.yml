@@ -1,0 +1,76 @@
+id: rebyte__ai
+kind: website
+name: rebyte.ai
+canonical_url: https://rebyte.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__rebyte__ai__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Rebyte
+        anchor_text: Rebyte
+        extracted_url: https://rebyte.ai
+        surrounding_text: "## [Rebyte](https://rebyte.ai/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Rebyte is a platform that provisions isolated 'agent computers' pre-harnessed with tools like Claude Code and Gemini CLI, allowing developers to orchestrate teams of these agents to ship code and automate tasks.
+  why_it_matters: It offers a multi-agent runtime where developers can delegate complex coding tasks and operations across isolated environments without managing local infrastructure.
+  mental_damage: We have successfully abstracted the computer so far away that we now need a specialized platform just to manage the agents that are currently managing our prompts.
+  tags:
+    - agent-orchestration
+    - multi-agent
+    - coding-agents
+    - infrastructure
+  confidence: high
+curation:
+  status: included
+  reason: While it uses coding agents, the primary product is a platform for coordinating multiple 'agent computers' with networking and governance, fitting the orchestration category.
+  evidence:
+    - Primary page excerpt describes 'multi-computer with network' and 'Many agents are many computers'.
+    - Listed in awesome-ai-agents under the context of hiring a 'team of agent computers'.
+    - Features include team governance, shared workspaces, and private networks for agent communication.
+placement:
+  primary_category: agent-orchestration
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.729Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:47:25.977Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

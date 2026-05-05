@@ -1,0 +1,81 @@
+id: github__drakonkat__wizzy-mcp-tmdb
+kind: github-repo
+name: wizzy-mcp-tmdb
+canonical_url: https://github.com/drakonkat/wizzy-mcp-tmdb
+identity:
+  github_repo: drakonkat/wizzy-mcp-tmdb
+provenance:
+  discoveries:
+    - id: discovery__github__drakonkat__wizzy-mcp-tmdb__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🎨 <a name="art-and-culture"></a>Art & Culture
+        anchor_text: drakonkat/wizzy-mcp-tmdb
+        extracted_url: https://github.com/drakonkat/wizzy-mcp-tmdb
+        surrounding_text: "- [drakonkat/wizzy-mcp-tmdb](https://github.com/drakonkat/wizzy-mcp-tmdb) 📇 ☁️ - A MCP server for The Movie Database API that enables AI assistants to search and retrieve movie, TV show, and person information."
+        confidence: high
+metadata:
+  github:
+    stars: 3
+    forks: 4
+    license: MIT
+    archived: false
+    created_at: "2025-09-30T09:52:05Z"
+    pushed_at: "2025-09-30T10:59:20Z"
+    description: The wizzy-mcp-tmdb project is an MCP (Model Context Protocol) server implemented in JavaScript that provides tools to search and retrieve information from The Movie Database (TMDB). It allows AI clients to access movie, TV show, and person data through a standardized protocol.
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-05T21:01:57.026Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:57.026Z"
+      bytes: 5550
+insights:
+  summary: A JavaScript MCP server that exposes The Movie Database (TMDB) search, details, and trending endpoints as tools for AI clients to query movie, TV, and person data.
+  why_it_matters: Developers integrating AI assistants with media workflows can give their agents structured access to TMDB without writing custom API wrappers.
+  mental_damage: "We have finally achieved the future: an autonomous agent that can tell you who starred in Dune, while your actual codebase remains a mystery to it."
+  tags:
+    - mcp
+    - tmdb
+    - javascript
+    - api-wrapper
+  confidence: medium
+curation:
+  status: included
+  reason: This is a Model Context Protocol server implementation that exposes TMDB API functionality as MCP tools, which clearly fits the MCP Servers and Tooling category.
+  evidence:
+    - Repo description explicitly states it is 'an MCP (Model Context Protocol) server implemented in JavaScript'
+    - README confirms it 'communicates over stdio' and is configured in 'MCP-compatible client (e.g., IDE or chat client)'
+    - Listed in awesome-mcp-servers under 'Server Implementations > Art & Culture' section
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.685Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:57.026Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:17:06.414Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

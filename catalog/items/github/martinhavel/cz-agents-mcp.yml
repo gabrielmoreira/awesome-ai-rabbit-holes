@@ -1,0 +1,90 @@
+id: github__martinhavel__cz-agents-mcp
+kind: github-repo
+name: cz-agents-mcp
+canonical_url: https://github.com/martinhavel/cz-agents-mcp
+identity:
+  github_repo: martinhavel/cz-agents-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__martinhavel__cz-agents-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: "@czagents/cnb"
+        extracted_url: https://github.com/martinhavel/cz-agents-mcp
+        surrounding_text: "- [@czagents/cnb](https://github.com/martinhavel/cz-agents-mcp) [![martinhavel/cz-agents-mcp MCP server](https://glama.ai/mcp/servers/martinhavel/cz-agents-mcp/badges/score.svg)](https://glama.ai/mcp/servers/martinhavel/cz-agents-mcp) 📇 ☁️ 🏠 🍎 🪟 🐧 - Czech National Bank (ČNB) daily FX rates: fetch official CZK exchange rates, convert between currencies, fetch historical rates. Cached 10 min to ease upstream load. npm `@czagents/cnb` or HTTP at cnb.cz-agents.dev/mcp."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-04-16T10:03:28Z"
+    pushed_at: "2026-05-04T06:16:37Z"
+    description: "Open-source Model Context Protocol servers for Czech government & business data: ARES, ČNB, EU+OFAC sanctions, ISIR insolvency, and a unified due-diligence aggregator."
+    homepage: https://cz-agents.dev
+    topics:
+      - ares
+      - claude
+      - czech-republic
+      - due-diligence
+      - insolvency
+      - kyc
+      - mcp
+      - mcp-server
+    last_checked_at: "2026-05-05T21:03:30.926Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:30.926Z"
+      bytes: 6881
+insights:
+  summary: A collection of open-source Model Context Protocol servers providing AI agents with programmatic access to Czech government and business data, including ARES, ČNB, sanctions lists, and insolvency registers.
+  why_it_matters: It allows developers building AI workflows to perform KYC, due diligence, and financial checks against official Czech datasets without writing custom scrapers or API integrations.
+  mental_damage: We have finally reached the point where our agents can autonomously discover that a business partner is insolvent in Prague before the wire transfer even clears.
+  tags:
+    - mcp
+    - kyc
+    - czech-republic
+    - due-diligence
+    - fintech
+  confidence: high
+curation:
+  status: included
+  reason: The project is a suite of Model Context Protocol servers specifically designed to be used by AI agents, fitting the MCP category perfectly.
+  evidence:
+    - Repo description explicitly states 'Open-source Model Context Protocol servers'.
+    - README details six distinct MCP server packages (ARES, CNB, sanctions, ISIR, ADIS, DD) with tool definitions.
+    - Listed in the 'awesome-mcp-servers' directory under 'Finance & Fintech'.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.705Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:30.926Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:35:59.170Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

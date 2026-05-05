@@ -1,0 +1,85 @@
+id: github__open-webui__mcpo
+kind: github-repo
+name: mcpo
+canonical_url: https://github.com/open-webui/mcpo
+identity:
+  github_repo: open-webui/mcpo
+provenance:
+  discoveries:
+    - id: discovery__github__open-webui__mcpo__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 模型上下文协议 MCP
+        anchor_text: mcpo
+        extracted_url: https://github.com/open-webui/mcpo
+        surrounding_text: 10. [mcpo](https://github.com/open-webui/mcpo)
+        confidence: high
+metadata:
+  github:
+    stars: 4178
+    forks: 455
+    license: MIT
+    archived: false
+    created_at: "2025-03-30T10:03:03Z"
+    pushed_at: "2026-02-27T17:58:13Z"
+    description: A simple, secure MCP-to-OpenAPI proxy server
+    homepage: https://docs.openwebui.com/features/plugin/tools/openapi-servers/mcp
+    topics:
+      - mcp
+      - mcp-server
+      - mcp-to-openapi
+      - open-webui
+      - openapi
+    last_checked_at: "2026-05-05T21:04:03.057Z"
+    readme:
+      fetched_at: "2026-05-05T21:04:03.057Z"
+      bytes: 8703
+insights:
+  summary: A proxy server that exposes MCP server commands as standard OpenAPI-compatible HTTP endpoints with auto-generated documentation and OAuth support.
+  why_it_matters: Developers can integrate MCP tools into any OpenAPI-compatible client or UI without writing glue code, adding auth, docs, or HTTP transport from scratch.
+  mental_damage: We have invented a proxy to make the hot new protocol compatible with the old protocol, because even our bridges now need bridges.
+  tags:
+    - mcp
+    - openapi
+    - proxy
+    - interoperability
+  confidence: high
+curation:
+  status: included
+  reason: This is purpose-built MCP infrastructure that translates MCP servers into OpenAPI endpoints, fitting cleanly into the MCP tooling category.
+  evidence:
+    - Repo description explicitly states 'A simple, secure MCP-to-OpenAPI proxy server'
+    - README positions it as a proxy that 'Expose any MCP tool as an OpenAPI-compatible HTTP server'
+    - Topics include mcp, mcp-server, mcp-to-openapi, and openapi, confirming the MCP tooling focus
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (4178) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.711Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:04:03.057Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:42:17.778Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

@@ -1,0 +1,82 @@
+id: github__ikamensh__kodo
+kind: github-repo
+name: kodo
+canonical_url: https://github.com/ikamensh/kodo
+identity:
+  github_repo: ikamensh/kodo
+provenance:
+  discoveries:
+    - id: discovery__github__ikamensh__kodo__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Orchestrators & autonomous loops
+        anchor_text: kodo
+        extracted_url: https://github.com/ikamensh/kodo
+        surrounding_text: "- **[kodo](https://github.com/ikamensh/kodo)** `⭐ 69` — Autonomous multi-agent coding orchestrator that directs Claude Code, Codex, and Gemini CLI through work cycles with independent architect and tester verification. SWE-bench verified."
+        confidence: high
+metadata:
+  github:
+    stars: 69
+    forks: 4
+    license: MIT
+    archived: false
+    created_at: "2026-02-18T09:40:03Z"
+    pushed_at: "2026-04-13T14:28:40Z"
+    description: Orchestrator for AI coding (claude code, cursor, codex, gemini)
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-05T21:02:41.633Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:41.633Z"
+      bytes: 19305
+insights:
+  summary: An orchestrator that runs autonomous multi-agent coding cycles using Claude Code, Cursor, Codex, and Gemini CLI, with independent verification to produce tested code overnight.
+  why_it_matters: It lets developers with Claude Code Max subscriptions offload multi-hour, multi-agent coding and review loops to run unattended while they sleep.
+  mental_damage: We have finally reached the point where your AI agents need their own managers, architects, and QA teams so you can wake up to someone else’s technical debt.
+  tags:
+    - orchestration
+    - multi-agent
+    - cli
+    - coding-agent
+    - overnight
+  confidence: high
+curation:
+  status: included
+  reason: The project is a developer-facing coding agent orchestrator that directs Claude Code and similar CLI agents through autonomous work and review cycles inside a repo workflow.
+  evidence:
+    - "Repo description: 'Orchestrator for AI coding (claude code, cursor, codex, gemini)'"
+    - "README: 'Autonomous multi-agent coding that runs overnight on your Claude Code Max subscription... orchestrator directs Claude Code agents through work cycles with independent verification'"
+    - Included in awesome-cli-coding-agents under 'Harnesses & orchestration > Orchestrators & autonomous loops'
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.697Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:41.633Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:25:36.524Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

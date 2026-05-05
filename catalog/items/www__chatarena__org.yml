@@ -1,0 +1,75 @@
+id: www__chatarena__org
+kind: website
+name: www.chatarena.org
+canonical_url: https://www.chatarena.org
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__chatarena__org__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - ChatArena
+        anchor_text: ChatArena
+        extracted_url: https://www.chatarena.org
+        surrounding_text: "## [ChatArena](https://www.chatarena.org/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: ChatArena is a platform for evaluating and letting language models compete or collaborate in multi-agent conversational scenarios.
+  why_it_matters: It provides developers with a structured environment to benchmark, observe, and analyze the behavior of multi-agent LLM systems.
+  mental_damage: Yet another pristine sandbox where agents politely outperform each other while your actual production monolith remains terrified of a single unsupervised merge.
+  tags:
+    - multi-agent
+    - evaluation
+    - llm
+    - research
+  confidence: medium
+curation:
+  status: included
+  reason: The project is a platform for evaluating and benchmarking multi-agent LLM behavior, which fits the Evaluations and Benchmarks category.
+  evidence:
+    - Listed under 'awesome-ai-agents' specifically in a section titled 'ChatArena' focused on autonomous agents.
+    - The domain chatarena.org and context imply a focus on conversational agent evaluation and competition rather than direct coding assistance.
+placement:
+  primary_category: evals
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.732Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:50:02.734Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

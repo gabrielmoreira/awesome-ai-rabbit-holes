@@ -1,0 +1,105 @@
+id: github__apache__echarts
+kind: github-repo
+name: echarts
+canonical_url: https://github.com/apache/echarts
+identity:
+  github_repo: apache/echarts
+provenance:
+  discoveries:
+    - id: discovery__github__apache__echarts__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: scraped
+        section_path:
+          - Server Implementations
+          - 👤 <a name="customer-data-platforms"></a>Customer Data Platforms
+        anchor_text: Apache ECharts
+        extracted_url: https://echarts.apache.org
+        surrounding_text: "- [hustcc/mcp-echarts](https://github.com/hustcc/mcp-echarts) 📇 🏠 - Generate visual charts using [Apache ECharts](https://echarts.apache.org) with AI MCP dynamically."
+        confidence: high
+    - id: discovery__github__apache__echarts__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: scraped
+        section_path:
+          - Official Servers
+        anchor_text: ECharts
+        extracted_url: https://echarts.apache.org
+        surrounding_text: "- **[ECharts](https://github.com/hustcc/mcp-echarts)** - Generate visual charts using [ECharts](https://echarts.apache.org) with AI MCP dynamically, used for chart generation and data analysis."
+        confidence: high
+metadata:
+  github:
+    stars: 66280
+    forks: 19813
+    license: Apache-2.0
+    archived: false
+    created_at: "2013-04-03T03:18:59Z"
+    pushed_at: "2026-05-04T16:49:36Z"
+    description: Apache ECharts is a powerful, interactive charting and data visualization library for browser
+    homepage: https://echarts.apache.org
+    topics:
+      - apache
+      - canvas
+      - charting-library
+      - charts
+      - data-visualization
+      - data-viz
+      - echarts
+      - svg
+      - visualization
+    last_checked_at: "2026-05-05T21:01:05.736Z"
+    readme:
+      fetched_at: "2026-05-05T21:01:05.736Z"
+      bytes: 4194
+insights:
+  summary: Apache ECharts is a long-established, pure JavaScript charting and visualization library for building interactive browser-based charts.
+  why_it_matters: It remains a standard, high-traction choice for developers needing rich, customizable data visualizations without adopting an AI-specific workflow.
+  mental_damage: Developers now find themselves evaluating whether their static chart library needs an MCP server, because apparently even pie charts need agentic capabilities in 2024.
+  tags:
+    - data-visualization
+    - charting
+    - javascript
+    - browser
+  confidence: high
+curation:
+  status: excluded
+  reason: ECharts is a traditional visualization library with no native AI, agent, or developer-tooling angle beyond a tangential mention in an MCP awesome list.
+  evidence:
+    - Repo description and README describe a pure JavaScript charting and visualization library with no AI features.
+    - Source-list context shows it only appears as a linked page in awesome-mcp-servers directories, not as an MCP server itself.
+    - No signals in description, README, or topics indicate coding agents, AI workflows, or developer AI infrastructure.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (66280) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.663Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:01:05.736Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:08:30.200Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

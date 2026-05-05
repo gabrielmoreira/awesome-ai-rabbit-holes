@@ -1,0 +1,75 @@
+id: www__codeautopilot__com
+kind: website
+name: www.codeautopilot.com
+canonical_url: https://www.codeautopilot.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__codeautopilot__com__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Code Autopilot
+        anchor_text: Code Autopilot
+        extracted_url: https://www.codeautopilot.com
+        surrounding_text: "## [Code Autopilot](https://www.codeautopilot.com/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Code Autopilot is a web-based AI assistant designed to automate code generation and programming tasks for developers.
+  why_it_matters: It offers a browser-first interface for developers looking to delegate routine coding tasks to an autonomous agent without setting up a local development environment.
+  mental_damage: Yet another entry in the growing competition to see who can most effectively convince you that your keyboard is now merely a decorative paperweight.
+  tags:
+    - ai
+    - coding-agent
+    - web-app
+    - automation
+  confidence: low
+curation:
+  status: included
+  reason: The tool is listed as a code-focused autonomous agent in the awesome-ai-agents directory and presents itself as a web-based assistant for automating programming tasks.
+  evidence:
+    - Listed in the 'awesome-ai-agents' directory under the section 'Code Autopilot'.
+    - URL points to a dedicated web product (www.codeautopilot.com) focused on automated coding.
+placement:
+  primary_category: coding-agents
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.732Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:50:09.659Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

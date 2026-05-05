@@ -1,0 +1,76 @@
+id: backyard__ai
+kind: website
+name: backyard.ai
+canonical_url: https://backyard.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__backyard__ai__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: janhq/awesome-local-ai
+        url: https://github.com/janhq/awesome-local-ai
+        repository: janhq/awesome-local-ai
+      extraction:
+        mode: parsed
+        section_path:
+          - Inference UI
+        anchor_text: faradav
+        extracted_url: https://faraday.dev
+        surrounding_text: "- [faradav](https://faraday.dev/) - Chat with AI Characters Offline, Runs locally, Zero-configuration."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Backyard AI is a platform for creating and chatting with immersive, fictional AI characters using text and voice, featuring tools like lorebooks, author's notes, and custom grammars.
+  why_it_matters: While it offers advanced local model parameter controls and custom prompt grammars, it is strictly targeted at narrative roleplay rather than developer workflows.
+  mental_damage: We have reached a point where 'no filters' character chat apps are being curated alongside agent orchestration frameworks, just in case you wanted your local LLM to roleplay as an Elf guard instead of fixing a null pointer exception.
+  tags:
+    - local-ai
+    - roleplay
+    - chat
+    - characters
+  confidence: high
+curation:
+  status: excluded
+  reason: Despite appearing in an awesome-local-ai list, the product is a consumer-facing roleplay and character chat app with no developer tooling, coding, or infrastructure utility.
+  evidence:
+    - Scraped site description explicitly states 'Create Immersive AI-Powered Characters - Fictional Text & Voice Chats With No Filters'.
+    - Site excerpt focuses on narrative features like 'Lorebooks', 'Author's Note', and 'Dynamic Voices' for story immersion.
+    - Source-list context places it under 'Inference UI' specifically for 'Fictional Text & Voice Chats', not developer productivity.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.726Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T19:42:25.884Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: b6a92f4a64e2
+    next_retry_at: null

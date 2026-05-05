@@ -1,0 +1,84 @@
+id: github__kashyap-ai-ml-solutions__webex-messaging-mcp-server
+kind: github-repo
+name: webex-messaging-mcp-server
+canonical_url: https://github.com/kashyap-ai-ml-solutions/webex-messaging-mcp-server
+identity:
+  github_repo: kashyap-ai-ml-solutions/webex-messaging-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__kashyap-ai-ml-solutions__webex-messaging-mcp-server__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: Webex
+        extracted_url: https://github.com/kashyap-ai-ml-solutions/webex-messaging-mcp-server
+        surrounding_text: "- **[Webex](https://github.com/Kashyap-AI-ML-Solutions/webex-messaging-mcp-server)** - A Model Context Protocol (MCP) server that provides AI assistants with comprehensive access to Cisco Webex messaging capabilities."
+        confidence: high
+metadata:
+  github:
+    stars: 7
+    forks: 9
+    license: MIT
+    archived: false
+    created_at: "2025-06-30T06:46:39Z"
+    pushed_at: "2026-02-09T23:36:44Z"
+    description: A Model Context Protocol (MCP) server that provides AI assistants with comprehensive access to Cisco Webex messaging capabilities.
+    homepage: https://developer.webex.com/messaging/docs/api/v1/attachment-actions
+    topics:
+      - mcp
+      - mcp-server
+      - webex
+    last_checked_at: "2026-05-05T21:03:02.993Z"
+    readme:
+      fetched_at: "2026-05-05T21:03:02.993Z"
+      bytes: 12513
+insights:
+  summary: A Model Context Protocol server that exposes 52 Cisco Webex messaging tools—covering messages, rooms, teams, people, webhooks, and enterprise features—to AI assistants via STDIO or HTTP transports.
+  why_it_matters: Developers integrating AI assistants into Webex-heavy workflows can give their agents full programmatic control over messaging, rooms, and teams without writing custom API wrappers.
+  mental_damage: "We have finally achieved the platonic ideal of modern engineering: an AI agent that can send Webex messages about why the build is broken while you are already reading the Webex message about why the build is broken."
+  tags:
+    - mcp
+    - webex
+    - messaging
+    - typescript
+    - enterprise
+  confidence: high
+curation:
+  status: included
+  reason: The project is a standalone MCP server providing Webex messaging capabilities, which clearly fits the MCP servers and tooling category.
+  evidence:
+    - Repo description explicitly states it is 'A Model Context Protocol (MCP) server' for Webex messaging.
+    - README details 52 Webex API tools exposed via MCP with both STDIO and HTTP transport modes.
+    - Listed in awesome-mcp-servers under 'Community Servers', reinforcing its identity as MCP infrastructure.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.701Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:03:02.993Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:30:09.305Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc

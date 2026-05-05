@@ -1,0 +1,102 @@
+id: github__geiserx__lynxprompt-mcp
+kind: github-repo
+name: lynxprompt-mcp
+canonical_url: https://github.com/geiserx/lynxprompt-mcp
+identity:
+  github_repo: geiserx/lynxprompt-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__geiserx__lynxprompt-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-05T19:41:00.656Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: GeiserX/lynxprompt-mcp
+        extracted_url: https://github.com/geiserx/lynxprompt-mcp
+        surrounding_text: "- [GeiserX/lynxprompt-mcp](https://github.com/GeiserX/lynxprompt-mcp) [![GeiserX/lynxprompt-mcp MCP server](https://glama.ai/mcp/servers/GeiserX/lynxprompt-mcp/badges/score.svg)](https://glama.ai/mcp/servers/GeiserX/lynxprompt-mcp) 🏎️ ☁️ 🍎 🪟 🐧 - Go-based MCP server for LynxPrompt prompt management. Create, search, and organize AI prompts and AGENTS.md/CLAUDE.md configuration files. Docker image available."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 0
+    license: GPL-3.0
+    archived: false
+    created_at: "2026-04-01T10:40:12Z"
+    pushed_at: "2026-04-25T00:39:12Z"
+    description: MCP Server for LynxPrompt — browse, search, and manage AI configuration blueprints (AGENTS.md, CLAUDE.md) via MCP
+    homepage: null
+    topics:
+      - agents-md
+      - ai-configuration
+      - ai-prompts
+      - ai-tools
+      - blueprint
+      - claude-md
+      - cursor-rules
+      - docker
+      - go
+      - golang
+      - json-rpc
+      - llm
+      - lynxprompt
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - prompt-engineering
+      - prompt-management
+      - self-hosted
+      - stdio
+    last_checked_at: "2026-05-05T21:02:18.118Z"
+    readme:
+      fetched_at: "2026-05-05T21:02:18.118Z"
+      bytes: 7883
+insights:
+  summary: An MCP server that exposes a LynxPrompt instance so LLMs can browse, search, and manage AI configuration blueprints like AGENTS.md and CLAUDE.md via JSON-RPC or stdio.
+  why_it_matters: It lets coding agents directly read and update the prompt blueprints and rule hierarchies that shape their own behavior, turning config management into a programmable workflow.
+  mental_damage: We have successfully reached the point where our agents now need dedicated servers just to argue with and reorganize their own instruction manuals.
+  tags:
+    - mcp
+    - prompt-management
+    - go
+    - lynxprompt
+    - context-engineering
+  confidence: medium
+curation:
+  status: included
+  reason: The project is explicitly an MCP server implementation focused on exposing prompt-blueprint management via the Model Context Protocol, which aligns directly with the MCP Servers and Tooling category.
+  evidence:
+    - Repo description states it is an 'MCP Server for LynxPrompt' to manage AI configuration blueprints via MCP.
+    - README confirms it exposes resources and tools over JSON-RPC/stdio as a bridge for the LynxPrompt platform.
+    - Listed under 'Server Implementations > Developer Tools' in the awesome-mcp-servers directory.
+placement:
+  primary_category: mcp
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.688Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T21:02:18.119Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:20:49.042Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
