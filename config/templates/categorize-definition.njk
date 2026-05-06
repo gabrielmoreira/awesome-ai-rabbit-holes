@@ -48,7 +48,10 @@ Decision ladder:
 - Primary product identity beats integration identity.
 - Primary product identity beats source-list placement.
 - If it mainly boosts another coding assistant/editor/agent, it is an extension, not the core assistant.
-- If it is mainly a code-first SDK/framework, prefer frameworks over orchestration marketing.
+- If it mainly gives another assistant/editor access to git, debugger, browser, Figma, or similar host capabilities, prefer Developer Extensions over Coding Agents.
+- If its core novelty is memory, retrieval, compression, or context-shaping infrastructure, prefer Context Engineering even when the first host is Claude Code, Cursor, or another assistant shell.
+- If it is mainly a code-first SDK/framework or provider CLI, prefer Frameworks & SDKs over orchestration marketing.
+- If it mainly coordinates multiple agents or runtimes, prefer orchestration over extension language.
 - If it is mainly an end-user platform for coordinating many agents, prefer orchestration over framework language.
 - If it is mainly a spec-first environment or loop, prefer spec-driven-development over a generic coding-agent label.
 - Safe abstain beats a forced fit. If nothing fits cleanly, exclude it.
@@ -62,11 +65,14 @@ Section guidance:
 
 Contrastive boundary examples:
 - If the tool is itself a coding assistant that writes, edits, reviews, or debugs code for the developer, prefer coding-agents.
-- If the primary artifact is a reusable skill pack, rules bundle, slash-command pack, or a skills directory, prefer AI Developer Skills.
-- If the tool mainly boosts another assistant/editor with memory, task tracking, QA, UI, or workflow layers, prefer AI Developer Extensions.
-- If the product is an importable SDK or framework, prefer AI Frameworks and SDKs even when the README talks about orchestration.
-- If the product is an end-user control plane, workbench, or workforce platform for many agents, prefer Agent Orchestration.
-- If the product mainly turns prompts into deployed apps or sites inside a hosted browser builder, prefer AI App Builders.
+- If the primary artifact is a reusable skill pack, rules bundle, slash-command pack, or a skills directory, prefer Developer Skills.
+- If the tool mainly boosts another assistant/editor with memory, task tracking, QA, UI, workflow layers, or host integrations, prefer Developer Extensions.
+- If it mainly gives another assistant/editor access to git, debugger, browser, Figma, or similar host capabilities, prefer Developer Extensions over Coding Agents.
+- If the core novelty is memory, retrieval, compression, or context-shaping infrastructure, prefer Context Engineering even when the first host is Claude Code, Cursor, or another assistant shell.
+- If the product is an importable SDK, framework, or provider CLI, prefer Frameworks & SDKs even when the README talks about orchestration or agent use.
+- If the product mainly coordinates multiple agents or runtimes, prefer Agent Orchestration even when it installs skills, configs, or prompts into existing assistants.
+- If the tool is mostly inline code explanation, commenting, or lightweight review inside an IDE plugin, prefer Developer Extensions unless it independently plans, writes, tests, or debugs code as the primary assistant.
+- If the product mainly turns prompts into deployed apps or sites inside a hosted browser builder, prefer App Builders.
 - If the item is documentation or an auxiliary resource page rather than a standalone tool, exclude it instead of forcing a category.
 {% endif %}
 

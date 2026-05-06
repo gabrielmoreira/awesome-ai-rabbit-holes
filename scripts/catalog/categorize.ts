@@ -1,6 +1,5 @@
 import { createHash } from "node:crypto";
 import {
-  DEFAULT_INSIGHT_PROMPT_PROFILE,
   parseAIInsightResponse,
   type InsightPromptProfile,
 } from "./categorize-prompt.ts";
@@ -23,11 +22,11 @@ import { shouldRefreshMetadata } from "./stars.ts";
 import type { CatalogConfig, CatalogItem, Category } from "./types.ts";
 
 
-export const CATALOG_CATEGORIZE_PROMPT_PROFILE: InsightPromptProfile = DEFAULT_INSIGHT_PROMPT_PROFILE;
+export const CATALOG_CATEGORIZE_PROMPT_PROFILE: InsightPromptProfile = "definition-with-examples";
 const PROMPT_VERSION_BY_PROFILE: Record<InsightPromptProfile, string> = {
   "baseline-current": "catalog-categorize-v2-baseline",
-  "definition-first": "catalog-categorize-v3-definition",
-  "definition-with-examples": "catalog-categorize-v3-examples",
+  "definition-first": "catalog-categorize-v4-definition",
+  "definition-with-examples": "catalog-categorize-v4-examples",
 };
 const MIN_AI_INSIGHT_START_BUDGET_MS = 5_000;
 export const CATALOG_CATEGORIZE_PROMPT_VERSION = PROMPT_VERSION_BY_PROFILE[CATALOG_CATEGORIZE_PROMPT_PROFILE];

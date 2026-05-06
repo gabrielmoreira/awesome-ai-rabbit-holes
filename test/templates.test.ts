@@ -282,7 +282,7 @@ describe("catalog templates", () => {
     expect(output).not.toContain("Contrastive boundary examples:");
   });
 
-  it("renders the definition-with-examples prompt with contrastive examples", () => {
+  it("renders the definition-with-examples prompt with stronger boundary examples", () => {
     const output = renderCatalogInsightPromptTemplate({
       profile: "definition-with-examples",
       item: {
@@ -314,5 +314,9 @@ describe("catalog templates", () => {
 
     expect(output).toContain("Contrastive boundary examples:");
     expect(output).toContain("If the tool is itself a coding assistant");
+    expect(output).toContain("gives another assistant/editor access to git, debugger, browser, Figma, or similar host capabilities");
+    expect(output).toContain("core novelty is memory, retrieval, compression, or context-shaping infrastructure");
+    expect(output).toContain("coordinates multiple agents or runtimes");
+    expect(output).toContain("inline code explanation, commenting, or lightweight review inside an IDE plugin");
   });
 });

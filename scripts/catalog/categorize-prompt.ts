@@ -10,8 +10,8 @@ import type { CatalogItem, Category } from "./types.ts";
 
 export type InsightPromptProfile = "baseline-current" | "definition-first" | "definition-with-examples";
 
-export const DEFAULT_INSIGHT_PROMPT_PROFILE: InsightPromptProfile = "baseline-current";
-export const DEFAULT_EVAL_INSIGHT_PROMPT_PROFILES: InsightPromptProfile[] = ["baseline-current", "definition-first"];
+export const DEFAULT_INSIGHT_PROMPT_PROFILE: InsightPromptProfile = "definition-with-examples";
+export const DEFAULT_EVAL_INSIGHT_PROMPT_PROFILES: InsightPromptProfile[] = ["definition-first", "definition-with-examples"];
 
 export function isInsightPromptProfile(value: string): value is InsightPromptProfile {
   return value === "baseline-current" || value === "definition-first" || value === "definition-with-examples";

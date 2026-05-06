@@ -166,6 +166,64 @@
     - mcp
   notes: Workflow/task layer for host assistants should count as an extension.
 
+- id: ai-dev-extensions__figma-use
+  item_id: github__dannote__figma-use
+  suite: prompt-core
+  fix_scope: prompt
+  case_type: adversarial
+  expected:
+    include: true
+    primary_category: ai-dev-extensions
+    section: Host Integrations & Automation
+  hard_negatives:
+    - coding-agents
+    - mcp
+  notes: Figma automation for agents extends the workflow but is not itself the coding assistant.
+
+- id: ai-dev-extensions__claude-debugs-for-you
+  item_id: github__jasonjmcghee__claude-debugs-for-you
+  suite: prompt-core
+  fix_scope: prompt
+  case_type: adversarial
+  expected:
+    include: true
+    primary_category: ai-dev-extensions
+    section: Host Integrations & Automation
+  hard_negatives:
+    - coding-agents
+    - mcp
+  notes: VS Code debugger bridge for Claude is an IDE add-on, not the primary assistant.
+
+- id: ai-dev-extensions__git-ai
+  item_id: github__acunniffe__git-ai
+  suite: prompt-core
+  fix_scope: prompt
+  case_type: adversarial
+  expected:
+    include: true
+    primary_category: ai-dev-extensions
+    section: Host Integrations & Automation
+  hard_negatives:
+    - coding-agents
+    - agent-orchestration
+  notes: Git attribution/provenance tooling extends agent workflows rather than acting as a coding agent.
+
+- id: context-engineering__cortex
+  item_id: github__cdeust__cortex
+  suite: prompt-core
+  fix_scope: prompt
+  case_type: adversarial
+  expected:
+    include: true
+    primary_category: context-engineering
+    section: Memory / Compression / Distillation
+  hard_negatives:
+    - ai-dev-extensions
+    - mcp
+  notes: Memory/retrieval infrastructure with benchmarks should beat the thin host-addon interpretation.
+
+
+
 - id: context-engineering__context7
   item_id: context7__com
   suite: prompt-core
@@ -364,6 +422,48 @@
     - agent-orchestration
     - coding-agents
   notes: Framework-first despite orchestration-heavy discovery context.
+
+- id: mcp__registry
+  item_id: github__modelcontextprotocol__registry
+  suite: prompt-holdout
+  fix_scope: prompt
+  case_type: adversarial
+  expected:
+    include: true
+    primary_category: mcp
+    section: Registries & Discovery
+  hard_negatives:
+    - agent-orchestration
+    - awesome-awesomes
+  notes: Registry/API backbone for MCP discovery should stay in MCP, not drift toward orchestration because of source-list context.
+
+- id: context-engineering__hypersigil
+  item_id: github__hypersigilhq__hypersigil
+  suite: prompt-holdout
+  fix_scope: prompt
+  case_type: adversarial
+  expected:
+    include: true
+    primary_category: context-engineering
+    section: PromptOps / Prompt Management
+  hard_negatives:
+    - ai-frameworks
+    - evals
+  notes: Prompt lifecycle and hot-swap infrastructure should stay in context-engineering rather than framework or eval buckets.
+
+- id: spec-driven__spec-kit
+  item_id: github__github__spec-kit
+  suite: prompt-holdout
+  fix_scope: prompt
+  case_type: adversarial
+  expected:
+    include: true
+    primary_category: spec-driven-development
+    section: Spec-First Environments
+  hard_negatives:
+    - coding-agents
+    - ai-dev-extensions
+  notes: Spec-first toolkit and slash-command workflow should remain spec-driven rather than collapsing into generic assistants or host-side extensions.
 
 - id: redflag__devdocs_aux_link
   item_id: devdocs__io

@@ -1037,6 +1037,34 @@ describe("render", () => {
     expect(page).not.toContain("**[10web.io]");
   });
 
+  it("prefers a sourced mmx-cli label over the generic repo name cli", () => {
+    const item = makeItem({
+      id: "github__minimax-ai__cli",
+      kind: "github-repo",
+      name: "cli",
+      canonical_url: "https://github.com/minimax-ai/cli",
+      identity: { github_repo: "minimax-ai/cli" },
+      placement: { primary_category: "ai-frameworks", section: null },
+      lifecycle: { status: "curated" },
+      insights: { ...makeItem().insights, summary: "MiniMax provider CLI." },
+      provenance: {
+        discoveries: [{
+          ...makeItem().provenance.discoveries[0],
+          extraction: {
+            ...makeItem().provenance.discoveries[0].extraction,
+            section_path: ["技能 Skills"],
+            anchor_text: "mmx-cli",
+          },
+        }],
+      },
+    });
+
+    const page = renderRabbitHolePage(CATEGORIES[3], [item]);
+
+    expect(page).toContain("**[mmx-cli](https://github.com/minimax-ai/cli)** MiniMax provider CLI.");
+    expect(page).not.toContain("**[cli](https://github.com/minimax-ai/cli)**");
+  });
+
 
 
   it("incubating items render separately as compact bullets", () => {
@@ -2174,29 +2202,30 @@ describe("renderReadme: all category links stay visible", () => {
 
 
 describe("Context Engineering page wording", () => {
-  it("category description carries the 'tokens' joke (from config/categories.yml)", () => {
+  it("category description stays concise and grounded in config/categories.yml", () => {
     const yamlPath = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..", "config", "categories.yml");
     const yaml = fs.readFileSync(yamlPath, "utf8");
-    // Pull out the context-engineering entry's description block.
     const m = yaml.match(/- id: context-engineering[\s\S]*?description: >([\s\S]*?)(?:\n- id:|\n*$)/);
     expect(m, "context-engineering category not found").not.toBeNull();
     const description = (m![1] ?? "").toLowerCase();
-    expect(description).toMatch(/tokens?/);
+    expect(description).toContain("memory");
+    expect(description).toContain("context");
+    expect(description).not.toMatch(/tokens?/);
   });
 
   it("renderRabbitHolePage emits the category description verbatim", () => {
     const ctx: Category = {
       id: "context-engineering",
-      name: "Prompting and Context Engineering",
+      name: "Context Engineering",
       slug: "prompting-context-engineering",
-      description: "give me tokens, my precious tokens",
+      description: "memory, retrieval, and prompt-shaping systems"
     };
     const item = makeItem({
       placement: { primary_category: "context-engineering", section: null },
       lifecycle: { status: "curated" },
     });
     const page = renderRabbitHolePage(ctx, [item]);
-    expect(page).toContain("give me tokens, my precious tokens");
+    expect(page).toContain("memory, retrieval, and prompt-shaping systems");
   });
 });
 
