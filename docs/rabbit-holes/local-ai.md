@@ -1,6 +1,6 @@
 # Local AI
 
-Run AI models on your own hardware.
+Local runtimes, desktop apps, and tooling for running AI on your own hardware.
 
 ## Tools & Resources
 
@@ -456,6 +456,15 @@ _These are new or low-traffic entries being watched._
   _Finally, a tool that lets you hoard open-weight models on your laptop with the same fervor as a sysadmin backing up the internet to a hard drive in 2005._
 
   `desktop` `inference` `llm` `local-ai` `offline`
+  </details>
+
+- **[Pieces.app](https://pieces.app)** Pieces is a desktop-based AI productivity platform that captures, enriches, and saves code snippets and developer resources with local LLM-powered context and retrieval. <details><summary>More about</summary>
+
+  It provides a local-first memory layer that captures and contextualizes developer workflow artifacts across tools without sending proprietary code to the cloud.
+
+  _Yet another place to hoard snippets you will never look at again, now with a desktop app and enough local inference power to remind you that your context window was never the real problem._
+
+  `local-ai` `memory` `snippets` `context-retrieval` `desktop`
   </details>
 
 - **[Sovereign AI Blog](https://sovgrid.org)** A personal blog and documentation site detailing the setup, configuration, and operational fixes required to run a 119B parameter AI model locally on DGX Spark hardware. <details><summary>More about</summary>

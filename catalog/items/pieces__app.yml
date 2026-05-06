@@ -34,36 +34,37 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Pieces is a local-first AI companion that captures and indexes context across browsers, IDEs, and collaboration tools to provide persistent memory for developers and LLM integrations.
-  why_it_matters: It builds an OS-level long-term memory layer that lets developers and their AI tools recall code snippets, docs, and context across different apps without manual organization.
-  mental_damage: We have finally achieved the nightmare scenario where your operating system remembers everything you did in the browser, IDE, and Slack, but you still cannot remember why you wrote that function six months ago.
+  summary: Pieces is a desktop-based AI productivity platform that captures, enriches, and saves code snippets and developer resources with local LLM-powered context and retrieval.
+  why_it_matters: It provides a local-first memory layer that captures and contextualizes developer workflow artifacts across tools without sending proprietary code to the cloud.
+  mental_damage: Yet another place to hoard snippets you will never look at again, now with a desktop app and enough local inference power to remind you that your context window was never the real problem.
   tags:
-    - context
     - local-ai
     - memory
-    - productivity
+    - snippets
+    - context-retrieval
+    - desktop
   confidence: medium
 curation:
   status: included
-  reason: Pieces is primarily an extension layer that augments other developer tools and LLMs with persistent memory and context capture across the OS and IDE plugins, fitting the developer extensions category.
+  reason: The product is primarily a desktop interface and local runtime for capturing, enriching, and retrieving developer artifacts using on-device AI, which fits Local AI better than a pure coding agent or extension.
   evidence:
-    - Described as an 'AI companion that captures live context from browsers to IDEs' and integrates with tools like GitHub Copilot, Claude, and Cursor.
-    - Featured in awesome-ai-coding-tools under 'Code Search and Navigation' as a memory and snippet management tool.
-    - Scraped site emphasizes plugins and MCP to 'Connect personal context with language models' rather than acting as a primary coding agent.
+    - URL points to pieces.app, a standalone desktop product rather than a GitHub repo
+    - Product positioning centers on local AI, snippet capture, and context retrieval rather than autonomous code editing
+    - No repo description, stars, or source-list context is provided, but the product identity is clearly a local desktop AI tool
 placement:
-  primary_category: ai-dev-extensions
-  section: null
+  primary_category: local-ai
+  section: Desktop Chat / Interfaces
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-05-05T19:47:01.906Z"
+    updated_at: "2026-05-05T23:55:48.364Z"
     cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
+    attempts: 2
+    prompt_version: catalog-categorize-v4-examples
+    category_rules_version: bdad5a03fb5a
     next_retry_at: null
   discover:
     status: done

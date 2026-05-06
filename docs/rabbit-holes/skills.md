@@ -1,6 +1,6 @@
-# AI Developer Skills
+# Developer Skills
 
-Reusable skill packs, rules packs, command packs, and skill directories for AI developer tools.
+Reusable skill packs, rules, commands, and skill directories for coding tools.
 
 ## Tools & Resources
 

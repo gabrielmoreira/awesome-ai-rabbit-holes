@@ -1,6 +1,6 @@
-# Evaluations and Benchmarks
+# Evals & Benchmarks
 
-Frameworks, benchmarks, and operational tooling for measuring model, prompt, or agent behavior.
+Frameworks and tooling for measuring model, prompt, or agent behavior.
 
 ## Tools & Resources
 

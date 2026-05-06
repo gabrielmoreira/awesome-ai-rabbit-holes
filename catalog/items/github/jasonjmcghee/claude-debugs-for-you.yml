@@ -71,26 +71,25 @@ metadata:
       fetched_at: "2026-05-05T21:02:51.824Z"
       bytes: 6424
 insights:
-  summary: A VS Code extension and MCP server that allows LLMs like Claude to interactively debug code by setting breakpoints, evaluating expressions, and stepping through execution inside the editor.
-  why_it_matters: It closes the loop between AI suggestions and runtime reality by giving the model actual control over the debugger, moving beyond static code review to live, step-by-step fault isolation.
-  mental_damage: We have officially entered the era of 'vibe debugging,' where you prompt an LLM to find a race condition while you stare at the breakpoint hit count and wonder when you became the supervisor of a very polite, context-hungry intern.
+  summary: A VS Code extension and MCP server that allows LLMs like Claude to interactively debug code by attaching to running processes across any language.
+  why_it_matters: It bridges the gap between conversational coding assistants and live debugging sessions, allowing the model to inspect variables and control execution flow directly within the editor.
+  mental_damage: We have finally automated the part of the job where you stare at a failing test for three hours, only to have the AI stare at it for you instead.
   tags:
-    - mcp
-    - vscode-extension
     - debugging
-    - llm-tooling
-    - vibe-debugging
+    - mcp
+    - vscode
+    - llm-integration
   confidence: high
 curation:
   status: included
-  reason: The tool acts as an interactive coding agent that collaborates directly on source code within the IDE/debugger workflow, fitting the Coding Agents category.
+  reason: The tool acts as a bridge that gives an existing LLM/agent access to debugger capabilities within VS Code via MCP, fitting the extension profile rather than being a standalone coding agent.
   evidence:
-    - Repo description explicitly states it enables LLMs to 'interactively debug any language for you via MCP and a VS Code Extension'.
-    - README demo shows the LLM figuring out a problem and suggesting a fix within the VS Code Continue workflow.
-    - Listed in awesome-mcp-servers under 'Developer Tools', confirming its role as MCP-based dev infrastructure.
+    - Repo description explicitly states it enables 'any LLM (e.g. Claude) to interactively debug... via MCP and a VS Code Extension'.
+    - Topics include 'vscode-extension', 'mcp', and 'debugging-tool', confirming it is a host integration layer.
+    - Active development (pushed 2025-12-20) and MIT license confirm it is a viable, maintained tool.
 placement:
-  primary_category: coding-agents
-  section: null
+  primary_category: ai-dev-extensions
+  section: Host Integrations & Automation
 lifecycle:
   status: promotion_candidate
   reason: Stars (508) exceeded threshold (150)
@@ -107,9 +106,9 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:27:46.243Z"
+    updated_at: "2026-05-05T23:52:02.406Z"
     cause: null
     next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    attempts: 2
+    prompt_version: catalog-categorize-v4-examples
+    category_rules_version: bdad5a03fb5a

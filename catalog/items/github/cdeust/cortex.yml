@@ -58,26 +58,26 @@ metadata:
       fetched_at: "2026-05-05T21:01:31.129Z"
       bytes: 36381
 insights:
-  summary: A persistent memory engine and MCP server for Claude Code that uses neuroscience-inspired mechanisms to store, consolidate, and retrieve long-term project context using PostgreSQL and pgvector.
-  why_it_matters: It solves the session-amnesia problem in Claude Code by automatically capturing architecture decisions, debugging sessions, and code context so developers don't have to re-explain their entire project every time they open a new tab.
-  mental_damage: We have now reached the point where we are reverse-engineering the human hippocampus and wiring it into pgvector just so our coding assistant can remember that we decided against event sourcing three weeks ago.
+  summary: A persistent memory system for Claude Code backed by PostgreSQL and pgvector, incorporating neuroscience papers and biological mechanisms to improve long-term context retrieval.
+  why_it_matters: It gives Claude Code a biologically-inspired long-term memory layer with strong benchmark results, reducing the friction of context loss across long coding sessions.
+  mental_damage: We are now importing neuroscience papers and running ablation campaigns just to convince our coding assistant to remember what we were doing ten minutes ago.
   tags:
     - claude-code
     - memory
-    - mcp
+    - pgvector
+    - retrieval
     - neuroscience
-    - context-retrieval
-  confidence: high
+  confidence: medium
 curation:
   status: included
-  reason: The project is explicitly a memory layer and MCP server that extends Claude Code with persistent context, fitting the AI Developer Extensions category rather than being a primary coding agent itself.
+  reason: The core novelty is a memory, retrieval, and context-shaping infrastructure for Claude Code, which fits Context Engineering even though it integrates as a host add-on.
   evidence:
-    - "Repo description: 'Persistent memory for Claude Code' with 47 MCP tools and 9 automatic hooks."
-    - README states it is 'a persistent memory engine for Claude Code' that augments the assistant with neuroscience-backed recall.
-    - Listed in awesome-mcp-servers under Knowledge & Memory, confirming its role as an extension/infrastructure piece.
+    - Repo description explicitly defines it as 'Persistent memory for Claude Code' with PostgreSQL + pgvector and benchmark results.
+    - Topics include llm-memory, episodic-memory, hopfield-network, and model-context-protocol, emphasizing retrieval and context infrastructure.
+    - Recent push date (2026-05-05) and active development contradict the low star count, supporting inclusion despite early traction.
 placement:
-  primary_category: ai-dev-extensions
-  section: null
+  primary_category: context-engineering
+  section: Memory / Compression / Distillation
 lifecycle:
   status: incubating
   reason: null
@@ -94,9 +94,9 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:12:37.716Z"
+    updated_at: "2026-05-05T23:52:12.543Z"
     cause: null
     next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    attempts: 2
+    prompt_version: catalog-categorize-v4-examples
+    category_rules_version: bdad5a03fb5a

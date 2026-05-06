@@ -1,7 +1,7 @@
 import type { CatalogItem, Discovery } from "./types.ts";
 import { parseGitHubUrl } from "../support/github.ts";
 
-const GENERIC_DISPLAY_NAME_PATTERN = /^(?:intro|introduction|overview|docs|documentation|readme|getting-started|welcome|viewform|image)$/;
+const GENERIC_DISPLAY_NAME_PATTERN = /^(?:intro|introduction|overview|docs|documentation|readme|getting-started|welcome|viewform|image|cli)$/;
 
 function trimDisplayNameCandidate(value: string | null | undefined): string | null {
   if (typeof value !== "string") return null;

@@ -2,14 +2,14 @@
   name: Coding Agents
   slug: coding-agents
   description: >
-    AI coding assistants, autonomous programming agents, and review/test agents
-    that help a developer work directly on source code.
+    Assistants that directly plan, write, review, test, or debug code.
   prompt_instruction: >
     The primary product is a developer-facing coding assistant or coding agent
     that directly plans, writes, edits, reviews, tests, or debugs code inside a
-    repo, IDE, CLI, desktop, or PR workflow. Do not use this for products that
-    mainly turbocharge another assistant, editor, or agent with memory, skills,
-    tasking, or QA layers; those are extensions, not the main assistant.
+    repo, IDE, CLI, desktop, or PR workflow. Do not use this for tools that
+    mainly extend another assistant/editor/agent with memory, debugger access,
+    git attribution, Figma/browser control, tasking, or lightweight review/
+    explanation layers; those are extensions, not the main assistant.
   sections:
     - Terminal & CLI Agents
     - IDE-Native Assistants
@@ -17,17 +17,20 @@
     - Review, Testing & Repair Agents
 
 - id: ai-dev-extensions
-  name: AI Developer Extensions
+  name: Developer Extensions
   slug: ai-dev-extensions
   description: >
-    Memory layers, testing add-ons, UI/workflow boosters, and host-side
-    integrations that extend another AI developer tool rather than being the
-    primary assistant themselves.
+    Add-ons and host integrations that extend another coding tool rather than
+    being the primary assistant.
   prompt_instruction: >
     The product mainly augments another coding assistant, editor, or agent with
-    memory, testing, UI, workflow automation, or host integration behavior. If
-    the primary artifact is a reusable skills/rules pack or a skills
-    directory/registry, prefer the dedicated skills category instead.
+    memory, testing, UI, workflow automation, or host integration behavior. Use
+    this for debugger bridges, git/Figma/browser integrations, and lightweight
+    IDE explain/review plugins that extend another assistant rather than acting
+    as the primary assistant themselves. If the core novelty is a standalone
+    memory/retrieval/compression system, prefer Context Engineering instead. If
+    the primary artifact is a reusable skills/rules pack or a skills directory/
+    registry, prefer the dedicated skills category instead.
   sections:
     - Memory & Context Add-ons
     - Testing & QA Add-ons
@@ -35,11 +38,11 @@
     - Host Integrations & Automation
 
 - id: skills
-  name: AI Developer Skills
+  name: Developer Skills
   slug: skills
   description: >
-    Reusable skill packs, rules packs, command packs, and skill directories for
-    AI developer tools.
+    Reusable skill packs, rules, commands, and skill directories for coding
+    tools.
   prompt_instruction: >
     The primary artifact is the reusable skill content itself: a skill pack,
     rules bundle, slash-command pack, or a directory/registry of such skills for
@@ -53,11 +56,11 @@
     - Domain & Workflow Skill Packs
 
 - id: app-builders
-  name: AI App Builders
+  name: App Builders
   slug: ai-app-builders
   description: >
-    Builder-style AI products that generate, assemble, or deploy whole apps,
-    sites, internal tools, or local project scaffolds from prompts.
+    Products that generate, assemble, or deploy apps, sites, internal tools, or
+    project scaffolds from prompts.
   prompt_instruction: >
     The primary surface is an app/site/project builder rather than a repo-editing
     assistant: hosted prompt-to-app or prompt-to-site products, internal tool
@@ -71,10 +74,10 @@
     - Local / Code-Scaffolding Builders
 
 - id: ai-ides-editors
-  name: AI IDEs and Editors
+  name: IDEs & Editors
   slug: ai-ides-editors
   description: >
-    Editors and IDEs built around AI assistance.
+    Development environments built around coding assistance.
   prompt_instruction: >
     The primary product surface is an AI-native editor or IDE. Prefer this when
     the product is the development environment itself, not a plugin, rules pack,
@@ -87,12 +90,13 @@
   name: Agent Orchestration
   slug: agent-orchestration
   description: >
-    User-facing platforms and operational tooling for coordinating multiple AI
-    agents.
+    Tools and platforms for coordinating multiple agents.
   prompt_instruction: >
-    End-user platforms, control planes, workbenches, or workforce systems for
-    coordinating multiple agents, tasks, or agent runtimes. Do not use this for
-    a code-first SDK/framework that developers import into their own code.
+    End-user platforms, control planes, workbenches, or runtime systems for
+    coordinating multiple agents, tasks, or agent runtimes. Use this when
+    multi-agent coordination is the main value, even if the tool also installs
+    skills/configs into existing assistants; thin host add-ons still belong in
+    Developer Extensions or Skills.
   sections:
     - Control Planes & Workforce Platforms
     - Workbenches & Collaboration Surfaces
@@ -100,16 +104,17 @@
     - Vertical Orchestration Platforms
 
 - id: ai-frameworks
-  name: AI Frameworks and SDKs
+  name: Frameworks & SDKs
   slug: ai-frameworks
   description: >
-    Frameworks, SDKs, and code-first building blocks for embedding AI behavior
+    Code-first building blocks for embedding models, agents, or AI workflows
     into software.
   prompt_instruction: >
-    The product is mainly a framework, SDK, library, or importable code-first
+    The product is mainly a framework, SDK, library, provider CLI, or code-first
     building block. Even if the README uses orchestration language, keep it here
-    when developers primarily build with it in code rather than operate it as a
-    control plane.
+    when developers primarily build with it in code, scripts, or provider APIs
+    rather than operate it as a control plane or rely on it as a primary coding
+    assistant.
   sections:
     - Agent Frameworks
     - Workflow / Graph Engines
@@ -120,8 +125,8 @@
   name: Spec-Driven Development
   slug: spec-driven-development
   description: >
-    Environments and tooling where specifications are the primary artifact that
-    drives planning, generation, validation, or repair.
+    Tooling where specifications are the primary artifact for planning,
+    validation, repair, or governance.
   prompt_instruction: >
     The center of gravity is a spec-first loop: brainstorm/spec, plan, execute,
     validate, repair, or govern from specifications. Do not use this for a
@@ -133,17 +138,18 @@
     - Governance / Validation
 
 - id: context-engineering
-  name: Prompting and Context Engineering
+  name: Context Engineering
   slug: prompting-context-engineering
   description: >
-    Prompt design, retrieval, memory, compression, and context-shaping systems
-    for making models see the right information while everyone quietly begs for
-    more tokens.
+    Memory, retrieval, compression, and prompt-shaping systems for getting the
+    right context in front of a model.
   prompt_instruction: >
     Prompt systems, retrieval, fresh-doc lookup, context packing, memory,
-    compression, distillation, and prompt-management infrastructure. Do not use
-    this for assistant-specific add-ons whose primary job is to extend one host
-    tool; those belong in AI Developer Extensions and Skills.
+    compression, distillation, and prompt-management infrastructure. Prefer this
+    when the core novelty is the context/memory/retrieval system itself, even if
+    it first ships as a Claude Code/Cursor add-on. Use Developer Extensions
+    for thinner host-specific boosters whose substance is mainly the integration
+    layer.
   sections:
     - Prompt Assets & Templating
     - Context Retrieval & Fresh Docs
@@ -151,10 +157,10 @@
     - PromptOps / Prompt Management
 
 - id: mcp
-  name: MCP Servers and Tooling
+  name: MCP Servers & Tooling
   slug: mcp
   description: >
-    Model Context Protocol servers, clients, registries, and tooling.
+    Servers, clients, registries, and tooling for the Model Context Protocol.
   prompt_instruction: >
     The product itself is MCP infrastructure: a server, client, registry,
     inspector, middleware layer, or MCP-focused toolkit. Merely integrating with
@@ -169,7 +175,8 @@
   name: Local AI
   slug: local-ai
   description: >
-    Run AI models on your own hardware.
+    Local runtimes, desktop apps, and tooling for running AI on your own
+    hardware.
   prompt_instruction: >
     Local runtimes, model serving stacks, on-device inference, desktop local-AI
     interfaces, or developer tooling centered on private/local execution rather
@@ -180,11 +187,10 @@
     - Desktop Chat / Interfaces
 
 - id: evals
-  name: Evaluations and Benchmarks
+  name: Evals & Benchmarks
   slug: evals
   description: >
-    Frameworks, benchmarks, and operational tooling for measuring model, prompt,
-    or agent behavior.
+    Frameworks and tooling for measuring model, prompt, or agent behavior.
   prompt_instruction: >
     Benchmarks, eval harnesses, prompt-regression systems, LLM observability, or
     evaluation platforms that measure quality rather than acting as the primary
@@ -196,11 +202,10 @@
     - Safety / Fairness / Data Quality
 
 - id: awesome-awesomes
-  name: Awesome Awesomes
+  name: Directories & Awesomes
   slug: awesome-awesomes
   description: >
-    Awesome lists, meta-lists, indexes, maps, and other attempts to organize AI
-    tooling rather than be the tool itself.
+    Lists, maps, directories, and indexes for navigating AI tooling.
   prompt_instruction: >
     Curated lists, directories, maps, and indexes rather than a standalone tool
     or product experience.
@@ -208,7 +213,7 @@
     - Directories & Maps
 
 - id: newsletters-and-feeds
-  name: Newsletters and Feeds
+  name: Newsletters & Feeds
   slug: newsletters-and-feeds
   description: >
     Newsletters, podcasts, and feeds for staying current with AI.

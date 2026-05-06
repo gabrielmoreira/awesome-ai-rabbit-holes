@@ -1,6 +1,6 @@
-# AI Developer Extensions
+# Developer Extensions
 
-Memory layers, testing add-ons, UI/workflow boosters, and host-side integrations that extend another AI developer tool rather than being the primary assistant themselves.
+Add-ons and host integrations that extend another coding tool rather than being the primary assistant.
 
 ## Tools & Resources
 
@@ -49,6 +49,15 @@ Memory layers, testing add-ons, UI/workflow boosters, and host-side integrations
   `agents` `infrastructure` `mcp` `secrets` `security`
   </details>
 
+- **[Git AI](https://github.com/acunniffe/git-ai)** `⭐ 1.8k` `updated ≤30d` A Git extension that tracks, attributes, and manages AI-generated code within repositories using commit metadata and hooks. <details><summary>More about</summary>
+
+  It brings much-needed provenance and auditability to codebases increasingly polluted by AI-generated commits, helping teams distinguish human logic from machine drift.
+
+  _We have finally solved the problem of not knowing who to blame for the code, only to realize the answer is 'Claude 3.5 Sonnet'._
+
+  `git` `ai-attribution` `cli` `code-tracking`
+  </details>
+
 - **[Claude Code Tools](https://github.com/pchalasani/claude-code-tools)** `⭐ 1.8k` `updated ≤30d` A CLI toolkit and plugin suite that provides productivity tools, skills, hooks, and integrations for Claude Code and other terminal-based coding agents. <details><summary>More about</summary>
 
   It extends the capabilities of CLI coding agents with session management, voice control, Google Workspace integrations, and safety hooks to streamline the terminal-based AI development workflow.
@@ -56,6 +65,24 @@ Memory layers, testing add-ons, UI/workflow boosters, and host-side integrations
   _We have now reached the point where we need a dedicated toolkit to organize the plugins, hooks, and skills we use to manage the agent that writes our code._
 
   `claude-code` `cli` `plugins` `skills` `tmux`
+  </details>
+
+- **[figma-use](https://github.com/dannote/figma-use)** `⭐ 540` `updated ≤30d` A CLI tool that provides over 100 commands for read/write control of Figma files, enabling AI agents to create shapes, text, components, and export assets directly from the terminal. <details><summary>More about</summary>
+
+  It bridges the gap between code-generating agents and design files, allowing automated workflows to modify UI elements without manual Figma interaction.
+
+  _We have finally achieved the future where your AI agent can silently ruin your design system via a poorly escaped shell command at 3 AM._
+
+  `cli` `figma` `ai-agents` `automation` `design`
+  </details>
+
+- **[claude-debugs-for-you](https://github.com/jasonjmcghee/claude-debugs-for-you)** `⭐ 508` `updated ≤180d` A VS Code extension and MCP server that allows LLMs like Claude to interactively debug code by attaching to running processes across any language. <details><summary>More about</summary>
+
+  It bridges the gap between conversational coding assistants and live debugging sessions, allowing the model to inspect variables and control execution flow directly within the editor.
+
+  _We have finally automated the part of the job where you stare at a failing test for three hours, only to have the AI stare at it for you instead._
+
+  `debugging` `mcp` `vscode` `llm-integration`
   </details>
 
 ## Incubating
@@ -71,22 +98,13 @@ _These are new or low-traffic entries being watched._
   `context-engineering` `cursor` `cursorrules` `file-watcher`
   </details>
 
-- **[OpenCastle](https://github.com/monkilabs/opencastle)** `⭐ 43` `updated ≤30d` A CLI tool that sets up multi-agent orchestration, specialist agents, and reusable skills for AI coding assistants including GitHub Copilot, Cursor, Claude Code, and Windsurf. <details><summary>More about</summary>
+- **[gptutor-extension](https://github.com/gptutor/gptutor-extension)** `⭐ 43` `updated >1y` A browser extension that integrates LLM capabilities into web-based code editors and platforms to provide inline explanations and coding assistance. <details><summary>More about</summary>
 
-  It lets developers decompose tasks across specialist agents and run them interactively in the IDE or as batch jobs via the Convoy Engine, with cost-aware model routing and built-in quality gates.
+  It allows developers to bring AI assistance into web-based coding environments that don't natively support it, bridging the gap for browser-based workflows.
 
-  _You now have a panel of AI agents that can review, dispute, and vote on each other’s output, turning your solo repo into a corporate committee that never goes home._
+  _Another attempt to inject AI into every text box on the internet, ensuring you never have to write a line of code—or understand one—without a probabilistic parrot whispering in your ear._
 
-  `cli` `copilot` `multi-agent` `orchestration` `skills`
-  </details>
-
-- **[cortex](https://github.com/cdeust/cortex)** `⭐ 26` `updated ≤30d` A persistent memory engine and MCP server for Claude Code that uses neuroscience-inspired mechanisms to store, consolidate, and retrieve long-term project context using PostgreSQL and pgvector. <details><summary>More about</summary>
-
-  It solves the session-amnesia problem in Claude Code by automatically capturing architecture decisions, debugging sessions, and code context so developers don't have to re-explain their entire project every time they open a new tab.
-
-  _We have now reached the point where we are reverse-engineering the human hippocampus and wiring it into pgvector just so our coding assistant can remember that we decided against event sourcing three weeks ago._
-
-  `claude-code` `memory` `mcp` `neuroscience` `context-retrieval`
+  `browser-extension` `ide-extension` `inline-assistant` `llm`
   </details>
 
 - **[EchoCoding](https://github.com/launsion-boop/echocoding)** `⭐ 25` `updated ≤30d` EchoCoding adds sound effects, ambient audio, TTS, and voice input to AI coding agents like Claude Code, Cursor, and Windsurf via CLI hooks and MCP tools. <details><summary>More about</summary>
@@ -105,24 +123,6 @@ _These are new or low-traffic entries being watched._
   _We have finally built a tool that remembers every time you tried to fix the same bug three different ways, just in case you wanted to feel bad about it 10 sessions later._
 
   `claude-code` `memory` `mcp` `hooks` `context`
-  </details>
-
-- **[mureo](https://github.com/logly/mureo)** `⭐ 6` `updated ≤30d` A local-first Python framework that lets AI agents like Claude Code and Cursor autonomously analyze and operate Google Ads, Meta Ads, Search Console, and GA4 accounts using a strategy file and a persistent knowledge base. <details><summary>More about</summary>
-
-  It allows developers to hand off tedious ad-account diagnostics and optimizations to local agents while keeping credentials on their own machine and enforcing business logic via a STRATEGY.md file.
-
-  _Yet another breakthrough proving that the singularity will be spent debugging OAuth flows so an agent can tell us we wasted ¥31,800 on our own brand terms._
-
-  `ad-ops` `mcp` `local-first` `marketing-automation` `cli`
-  </details>
-
-- **[Agentic Engineering Framework](https://github.com/dimitrigeelen/agentic-engineering-framework)** `⭐ 5` `updated ≤30d` A governance framework that enforces task traceability, structural gates, and audit trails for AI coding agents like Claude Code, Cursor, and Copilot via CLI tooling and hooks. <details><summary>More about</summary>
-
-  It replaces prompt-based 'please be careful' instructions with structural enforcement to prevent agents from making untraced edits, destructive git commands, or context-exhausting runs.
-
-  _We have finally built the bureaucratic approval layer for our AI agents, proving that no matter how advanced the intelligence, it still eventually reports to a middle manager named fw._
-
-  `agent-infrastructure` `audit-trail` `cli` `governance`
   </details>
 
 - **[playwright-praman](https://github.com/mrkanitkar/playwright-praman)** `⭐ 5` `updated ≤30d` A Playwright plugin that adds SAP UI5 runtime awareness and AI agent-driven test generation for enterprise SAP and S/4HANA applications. <details><summary>More about</summary>
@@ -258,15 +258,6 @@ _These are new or low-traffic entries being watched._
   _We have successfully automated the creation of the tests we were too burnt out to write, meaning we can now ship AI-generated code at machine speed with a safety net we never have to look at._
 
   `ci-cd` `frontend` `qa` `testing` `visual-regression`
-  </details>
-
-- **[Pieces.app](https://pieces.app)** Pieces is a local-first AI companion that captures and indexes context across browsers, IDEs, and collaboration tools to provide persistent memory for developers and LLM integrations. <details><summary>More about</summary>
-
-  It builds an OS-level long-term memory layer that lets developers and their AI tools recall code snippets, docs, and context across different apps without manual organization.
-
-  _We have finally achieved the nightmare scenario where your operating system remembers everything you did in the browser, IDE, and Slack, but you still cannot remember why you wrote that function six months ago._
-
-  `context` `local-ai` `memory` `productivity`
   </details>
 
 - **[Rainforest QA](https://www.rainforestqa.com)** A no-code, AI-powered platform for automating end-to-end UI tests that uses visual checks and self-healing to reduce maintenance overhead. <details><summary>More about</summary>

@@ -17,9 +17,9 @@ describe("catalog eval args", () => {
       "--model",
       "openrouter/google/gemma-4-31b-it:free",
       "--profile",
-      "baseline-current",
-      "--profile",
       "definition-first",
+      "--profile",
+      "definition-with-examples",
       "--suite",
       "prompt-core",
       "--suite",
@@ -38,7 +38,7 @@ describe("catalog eval args", () => {
       "openrouter/tencent/hy3-preview:free",
       "openrouter/google/gemma-4-31b-it:free",
     ]);
-    expect(args.profiles).toEqual(["baseline-current", "definition-first"]);
+    expect(args.profiles).toEqual(["definition-first", "definition-with-examples"]);
     expect(args.suites).toEqual(["prompt-core", "prompt-holdout"]);
     expect(args.caseIds).toEqual(["coding-agents__opencode", "evals__agenta"]);
     expect(args.limit).toBe(5);
@@ -70,7 +70,7 @@ describe("catalog eval args", () => {
     expect(classifyCategoryEvalErrorKind("timed out after 15000ms")).toBe("infra_error");
   });
 
-  it("defaults to the anchor model and definition-first comparison set", () => {
+  it("defaults to the anchor model and definition-based comparison set", () => {
     const args = parseCatalogEvalsArgs([]);
 
     expect(args.models).toEqual([DEFAULT_CATEGORY_EVAL_MODEL]);

@@ -7146,15 +7146,14 @@
       "kind": "github-repo",
       "name": "Git AI",
       "canonical_url": "https://github.com/acunniffe/git-ai",
-      "summary": "A Git extension that automatically tracks and attributes AI-generated code to the specific model, agent, and session that wrote it.",
+      "summary": "A Git extension that tracks, attributes, and manages AI-generated code within repositories using commit metadata and hooks.",
       "tags": [
         "git",
-        "attribution",
-        "ai-blame",
+        "ai-attribution",
         "cli",
-        "version-control"
+        "code-tracking"
       ],
-      "primary_category": "coding-agents",
+      "primary_category": "ai-dev-extensions",
       "lifecycle_status": "promotion_candidate",
       "stars": 1772,
       "pushed_at": "2026-05-05T23:02:53Z",
@@ -7335,16 +7334,17 @@
     {
       "id": "github__minimax-ai__cli",
       "kind": "github-repo",
-      "name": "cli",
+      "name": "mmx-cli",
       "canonical_url": "https://github.com/minimax-ai/cli",
-      "summary": "The official CLI for the MiniMax AI Platform, enabling generation of text, images, video, speech, and music from the terminal or AI agents.",
+      "summary": "A command-line interface for the MiniMax API that generates text, images, video, speech, and music from the terminal.",
       "tags": [
+        "api-client",
         "cli",
-        "multimodal",
+        "generation",
         "minimax",
-        "ai-agents"
+        "multimodal"
       ],
-      "primary_category": "coding-agents",
+      "primary_category": "ai-frameworks",
       "lifecycle_status": "promotion_candidate",
       "stars": 1657,
       "pushed_at": "2026-04-26T01:40:16Z",
@@ -9985,14 +9985,15 @@
       "kind": "github-repo",
       "name": "figma-use",
       "canonical_url": "https://github.com/dannote/figma-use",
-      "summary": "A CLI tool that provides full read/write control over Figma via terminal commands and JSX, enabling AI agents to create, modify, and style designs programmatically.",
+      "summary": "A CLI tool that provides over 100 commands for read/write control of Figma files, enabling AI agents to create shapes, text, components, and export assets directly from the terminal.",
       "tags": [
         "cli",
         "figma",
         "ai-agents",
-        "design-automation"
+        "automation",
+        "design"
       ],
-      "primary_category": "coding-agents",
+      "primary_category": "ai-dev-extensions",
       "lifecycle_status": "promotion_candidate",
       "stars": 540,
       "pushed_at": "2026-04-25T12:31:11Z",
@@ -10209,15 +10210,14 @@
       "kind": "github-repo",
       "name": "claude-debugs-for-you",
       "canonical_url": "https://github.com/jasonjmcghee/claude-debugs-for-you",
-      "summary": "A VS Code extension and MCP server that allows LLMs like Claude to interactively debug code by setting breakpoints, evaluating expressions, and stepping through execution inside the editor.",
+      "summary": "A VS Code extension and MCP server that allows LLMs like Claude to interactively debug code by attaching to running processes across any language.",
       "tags": [
-        "mcp",
-        "vscode-extension",
         "debugging",
-        "llm-tooling",
-        "vibe-debugging"
+        "mcp",
+        "vscode",
+        "llm-integration"
       ],
-      "primary_category": "coding-agents",
+      "primary_category": "ai-dev-extensions",
       "lifecycle_status": "promotion_candidate",
       "stars": 508,
       "pushed_at": "2025-12-20T01:43:03Z",
@@ -18182,15 +18182,14 @@
       "kind": "github-repo",
       "name": "gptutor-extension",
       "canonical_url": "https://github.com/gptutor/gptutor-extension",
-      "summary": "A Visual Studio Code extension that uses OpenAI's GPT models to explain, comment, and review selected code blocks, currently focused on the Move programming language.",
+      "summary": "A browser extension that integrates LLM capabilities into web-based code editors and platforms to provide inline explanations and coding assistance.",
       "tags": [
-        "vscode-extension",
-        "code-review",
-        "code-explanation",
-        "move-language",
-        "openai"
+        "browser-extension",
+        "ide-extension",
+        "inline-assistant",
+        "llm"
       ],
-      "primary_category": "coding-agents",
+      "primary_category": "ai-dev-extensions",
       "lifecycle_status": "incubating",
       "stars": 43,
       "pushed_at": "2023-12-14T15:30:22Z",
@@ -18219,15 +18218,15 @@
       "kind": "github-repo",
       "name": "OpenCastle",
       "canonical_url": "https://github.com/monkilabs/opencastle",
-      "summary": "A CLI tool that sets up multi-agent orchestration, specialist agents, and reusable skills for AI coding assistants including GitHub Copilot, Cursor, Claude Code, and Windsurf.",
+      "summary": "A multi-agent orchestration setup designed to coordinate and run agents across multiple AI coding assistants including GitHub Copilot, Cursor, Claude Code, and others.",
       "tags": [
-        "cli",
-        "copilot",
         "multi-agent",
         "orchestration",
-        "skills"
+        "cursor",
+        "claude-code",
+        "copilot"
       ],
-      "primary_category": "ai-dev-extensions",
+      "primary_category": "agent-orchestration",
       "lifecycle_status": "incubating",
       "stars": 43,
       "pushed_at": "2026-04-20T08:30:21Z",
@@ -19769,15 +19768,15 @@
     {
       "id": "github__endorhq__cli",
       "kind": "github-repo",
-      "name": "cli",
+      "name": "endorhq/cli",
       "canonical_url": "https://github.com/endorhq/cli",
       "summary": "Endor is a Node-based CLI that spins up instant, private, sandboxed environments for databases and services, exposing them to AI agents and IDEs via MCP.",
       "tags": [
-        "mcp",
+        "agents",
         "cli",
-        "sandbox",
         "local-dev",
-        "agents"
+        "mcp",
+        "sandbox"
       ],
       "primary_category": "mcp",
       "lifecycle_status": "incubating",
@@ -19996,15 +19995,15 @@
       "kind": "github-repo",
       "name": "cortex",
       "canonical_url": "https://github.com/cdeust/cortex",
-      "summary": "A persistent memory engine and MCP server for Claude Code that uses neuroscience-inspired mechanisms to store, consolidate, and retrieve long-term project context using PostgreSQL and pgvector.",
+      "summary": "A persistent memory system for Claude Code backed by PostgreSQL and pgvector, incorporating neuroscience papers and biological mechanisms to improve long-term context retrieval.",
       "tags": [
         "claude-code",
         "memory",
-        "mcp",
-        "neuroscience",
-        "context-retrieval"
+        "pgvector",
+        "retrieval",
+        "neuroscience"
       ],
-      "primary_category": "ai-dev-extensions",
+      "primary_category": "context-engineering",
       "lifecycle_status": "incubating",
       "stars": 26,
       "pushed_at": "2026-05-05T18:23:28Z",
@@ -24656,25 +24655,6 @@
       "activity_bucket": "updated_180d"
     },
     {
-      "id": "github__docspring__renamify",
-      "kind": "github-repo",
-      "name": "Renamify",
-      "canonical_url": "https://github.com/docspring/renamify",
-      "summary": "A Rust-based CLI and MCP server for smart case-aware search and replace across code and filenames, with VS Code and Cursor extensions.",
-      "tags": [
-        "cli",
-        "mcp",
-        "refactoring",
-        "rust",
-        "vscode-extension"
-      ],
-      "primary_category": "coding-agents",
-      "lifecycle_status": "incubating",
-      "stars": 8,
-      "pushed_at": "2025-10-10T23:52:56Z",
-      "activity_bucket": "updated_365d"
-    },
-    {
       "id": "github__marcelroozekrans__roslyn-codelens-mcp",
       "kind": "github-repo",
       "name": "roslyn-codelens-mcp",
@@ -25948,15 +25928,15 @@
       "kind": "github-repo",
       "name": "mureo",
       "canonical_url": "https://github.com/logly/mureo",
-      "summary": "A local-first Python framework that lets AI agents like Claude Code and Cursor autonomously analyze and operate Google Ads, Meta Ads, Search Console, and GA4 accounts using a strategy file and a persistent knowledge base.",
+      "summary": "A local-first, safety-gated AI framework for automating ad operations across platforms like Google Ads and Meta Ads using coding assistants such as Claude Code, Codex, Cursor, and Gemini.",
       "tags": [
         "ad-ops",
         "mcp",
         "local-first",
-        "marketing-automation",
-        "cli"
+        "multi-agent",
+        "automation"
       ],
-      "primary_category": "ai-dev-extensions",
+      "primary_category": "agent-orchestration",
       "lifecycle_status": "incubating",
       "stars": 6,
       "pushed_at": "2026-05-02T01:28:20Z",
@@ -26042,14 +26022,15 @@
       "kind": "github-repo",
       "name": "Agentic Engineering Framework",
       "canonical_url": "https://github.com/dimitrigeelen/agentic-engineering-framework",
-      "summary": "A governance framework that enforces task traceability, structural gates, and audit trails for AI coding agents like Claude Code, Cursor, and Copilot via CLI tooling and hooks.",
+      "summary": "A governance framework for AI coding agents that enforces task traceability, structural gates, session continuity, and audit trails across Claude Code, Cursor, and Copilot.",
       "tags": [
-        "agent-infrastructure",
+        "governance",
         "audit-trail",
-        "cli",
-        "governance"
+        "claude-code",
+        "cursor",
+        "copilot"
       ],
-      "primary_category": "ai-dev-extensions",
+      "primary_category": "spec-driven-development",
       "lifecycle_status": "incubating",
       "stars": 5,
       "pushed_at": "2026-05-04T21:00:06Z",
@@ -39261,14 +39242,15 @@
       "kind": "website",
       "name": "Pieces.app",
       "canonical_url": "https://pieces.app",
-      "summary": "Pieces is a local-first AI companion that captures and indexes context across browsers, IDEs, and collaboration tools to provide persistent memory for developers and LLM integrations.",
+      "summary": "Pieces is a desktop-based AI productivity platform that captures, enriches, and saves code snippets and developer resources with local LLM-powered context and retrieval.",
       "tags": [
-        "context",
         "local-ai",
         "memory",
-        "productivity"
+        "snippets",
+        "context-retrieval",
+        "desktop"
       ],
-      "primary_category": "ai-dev-extensions",
+      "primary_category": "local-ai",
       "lifecycle_status": "incubating",
       "stars": null,
       "pushed_at": null,

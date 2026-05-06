@@ -1,6 +1,6 @@
 # Coding Agents
 
-AI coding assistants, autonomous programming agents, and review/test agents that help a developer work directly on source code.
+Assistants that directly plan, write, review, test, or debug code.
 
 ## Tools & Resources
 
@@ -517,15 +517,6 @@ AI coding assistants, autonomous programming agents, and review/test agents that
   `chatbot` `codebase` `notion` `semantic-search` `vscode`
   </details>
 
-- **[Git AI](https://github.com/acunniffe/git-ai)** `⭐ 1.8k` `updated ≤30d` A Git extension that automatically tracks and attributes AI-generated code to the specific model, agent, and session that wrote it. <details><summary>More about</summary>
-
-  It restores provenance to repositories increasingly filled with agent-generated code, letting developers trace implementation details back to the original AI session and prompt.
-
-  _We have successfully reached the point where we need a dedicated audit trail just to remember which chatbot we delegated our codebase to._
-
-  `git` `attribution` `ai-blame` `cli` `version-control`
-  </details>
-
 - **[mux](https://github.com/coder/mux)** `⭐ 1.7k` `updated ≤30d` A desktop and browser application for running multiple AI coding agents in isolated workspaces with git worktree support and multi-model compatibility. <details><summary>More about</summary>
 
   It lets developers orchestrate parallel agentic tasks across local, worktree, and remote SSH environments while keeping an eye on git divergence and token costs.
@@ -542,15 +533,6 @@ AI coding assistants, autonomous programming agents, and review/test agents that
   _Because nothing says 'trust the autonomous agent' like wrapping it in an elaborate bureaucracy of specs, gates, and reassuring slash commands._
 
   `claude-code` `cli` `context-engineering` `quality-gates` `spec-driven` `tdd`
-  </details>
-
-- **[cli](https://github.com/minimax-ai/cli)** `⭐ 1.7k` `updated ≤30d` The official CLI for the MiniMax AI Platform, enabling generation of text, images, video, speech, and music from the terminal or AI agents. <details><summary>More about</summary>
-
-  It provides a scriptable interface for developers to integrate multimodal content generation directly into agent workflows, CI pipelines, or local automation.
-
-  _Now your CI pipeline can fail not just because of bad code, but because the robot couldn't synthesize a jazzy cover of your README._
-
-  `cli` `multimodal` `minimax` `ai-agents`
   </details>
 
 - **[codemcp](https://github.com/ezyang/codemcp)** `⭐ 1.6k` `updated ≤180d` An MCP server that turns Claude Desktop (and browser-based Claude) into a local coding agent that can directly edit files, run tests, and manage Git commits on your codebase. <details><summary>More about</summary>
@@ -652,15 +634,6 @@ AI coding assistants, autonomous programming agents, and review/test agents that
   `cli` `coding-agent` `groq` `open-source` `terminal`
   </details>
 
-- **[figma-use](https://github.com/dannote/figma-use)** `⭐ 540` `updated ≤30d` A CLI tool that provides full read/write control over Figma via terminal commands and JSX, enabling AI agents to create, modify, and style designs programmatically. <details><summary>More about</summary>
-
-  It closes the loop for AI agents that can read designs but lack the ability to execute changes in Figma, allowing for programmatic UI generation and layout manipulation.
-
-  _We have successfully automated the designer's job away, only to hand it to an LLM that will now debate the semantic correctness of a 'Frame' versus a 'Div' in JSX._
-
-  `cli` `figma` `ai-agents` `design-automation`
-  </details>
-
 - **[Butterfish](https://github.com/bakks/butterfish)** `⭐ 526` `updated ≤90d` Butterfish is a CLI shell wrapper for bash and zsh that integrates OpenAI to provide contextual coding help, command generation, and agentic debugging directly in the terminal. <details><summary>More about</summary>
 
   It allows developers to invoke AI assistance without leaving the command line or copy-pasting context, streamlining debugging and command discovery during active development.
@@ -677,15 +650,6 @@ AI coding assistants, autonomous programming agents, and review/test agents that
   _Another Rust-based CLI agent enters the ring, because what every developer truly needs is a fourth terminal window debating context compaction strategies while the first three agents are still thinking._
 
   `cli` `rust` `coding-agent` `local-llm` `terminal`
-  </details>
-
-- **[claude-debugs-for-you](https://github.com/jasonjmcghee/claude-debugs-for-you)** `⭐ 508` `updated ≤180d` A VS Code extension and MCP server that allows LLMs like Claude to interactively debug code by setting breakpoints, evaluating expressions, and stepping through execution inside the editor. <details><summary>More about</summary>
-
-  It closes the loop between AI suggestions and runtime reality by giving the model actual control over the debugger, moving beyond static code review to live, step-by-step fault isolation.
-
-  _We have officially entered the era of 'vibe debugging,' where you prompt an LLM to find a race condition while you stare at the breakpoint hit count and wonder when you became the supervisor of a very polite, context-hungry intern._
-
-  `mcp` `vscode-extension` `debugging` `llm-tooling` `vibe-debugging`
   </details>
 
 - **[claw-code-agent](https://github.com/harnesslab/claw-code-agent)** `⭐ 457` `updated ≤30d` A Python-based, zero-dependency reimplementation of the Claude Code agent architecture that supports local models via vLLM, Ollama, and LiteLLM, featuring a CLI, plugin system, and a local web GUI. <details><summary>More about</summary>
@@ -926,15 +890,6 @@ _These are new or low-traffic entries being watched._
   `cli-tools` `coding-agents` `python` `remote-control` `telegram`
   </details>
 
-- **[gptutor-extension](https://github.com/gptutor/gptutor-extension)** `⭐ 43` `updated >1y` A Visual Studio Code extension that uses OpenAI's GPT models to explain, comment, and review selected code blocks, currently focused on the Move programming language. <details><summary>More about</summary>
-
-  It provides inline, context-aware code explanations and reviews within VS Code, helping developers understand and document unfamiliar codebases using their own OpenAI API key.
-
-  _Yet another chance to outsource understanding your code to a model that wasn't there when it was written, while you paste API keys into a sidebar that hasn't been updated in over a year._
-
-  `vscode-extension` `code-review` `code-explanation` `move-language` `openai`
-  </details>
-
 - **[AgentPlane](https://github.com/basilisk-labs/agentplane)** `⭐ 42` `updated ≤30d` An open-source CLI that creates an audit trail for coding agents like Claude Code and Cursor by recording task intent, plans, and verification as Git artifacts. <details><summary>More about</summary>
 
   It allows developers to review the reasoning and approval chain behind AI-generated changes, not just the final diff, by keeping workflow state inside the repository.
@@ -1005,15 +960,6 @@ _These are new or low-traffic entries being watched._
   _Finally, a way to scale your context-switching anxiety from one chaotic AI assistant to three at once, neatly arranged in tmux panes._
 
   `multi-agent` `tmux` `git-worktree` `cli` `orchestration`
-  </details>
-
-- **[Renamify](https://github.com/docspring/renamify)** `⭐ 8` `updated ≤1y` A Rust-based CLI and MCP server for smart case-aware search and replace across code and filenames, with VS Code and Cursor extensions. <details><summary>More about</summary>
-
-  It gives AI assistants and developers a safe, undoable way to rename symbols and files across an entire codebase without relying on fragile regex or git stash gymnastics.
-
-  _We have finally built a dedicated tool to help AI agents confidently rename things that humans already renamed three times before the agent arrived._
-
-  `cli` `mcp` `refactoring` `rust` `vscode-extension`
   </details>
 
 - **[Wiggum CLI](https://github.com/federiconeri/wiggum-cli)** `⭐ 7` `updated ≤30d` A terminal-based AI agent CLI that scans existing codebases, generates feature specifications through AI interviews, and runs autonomous implement-test-fix loops using Claude Code or Codex. <details><summary>More about</summary>

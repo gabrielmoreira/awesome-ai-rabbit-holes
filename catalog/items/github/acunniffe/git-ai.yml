@@ -40,38 +40,37 @@ metadata:
       fetched_at: "2026-05-05T23:07:40.254Z"
       bytes: 14324
 insights:
-  summary: A Git extension that automatically tracks and attributes AI-generated code to the specific model, agent, and session that wrote it.
-  why_it_matters: It restores provenance to repositories increasingly filled with agent-generated code, letting developers trace implementation details back to the original AI session and prompt.
-  mental_damage: We have successfully reached the point where we need a dedicated audit trail just to remember which chatbot we delegated our codebase to.
+  summary: A Git extension that tracks, attributes, and manages AI-generated code within repositories using commit metadata and hooks.
+  why_it_matters: It brings much-needed provenance and auditability to codebases increasingly polluted by AI-generated commits, helping teams distinguish human logic from machine drift.
+  mental_damage: We have finally solved the problem of not knowing who to blame for the code, only to realize the answer is 'Claude 3.5 Sonnet'.
   tags:
     - git
-    - attribution
-    - ai-blame
+    - ai-attribution
     - cli
-    - version-control
+    - code-tracking
   confidence: high
 curation:
   status: included
-  reason: This is a developer-facing CLI extension that integrates directly into the git workflow to manage and inspect AI-generated code within a repository, fitting the terminal agent tooling profile.
+  reason: The tool is a Git extension that adds tracking and attribution capabilities to the repo host/CLI workflow, fitting the 'Host Integrations & Automation' section of Developer Extensions rather than acting as a primary coding agent.
   evidence:
-    - Repo description states it is 'A Git extension for tracking the AI-generated code in your repos'.
-    - README demonstrates a `git-ai blame` workflow that shows model and session ids for specific code lines.
-    - Supports major terminal and IDE agents including Claude Code, Cursor, and GitHub Copilot.
+    - Repo description explicitly states it is 'A Git extension for tracking the AI-generated code'.
+    - Topics include 'ai-blame' and 'coding-agents', indicating it provides attribution/blame functionality for AI code.
+    - The tool integrates with the Git workflow (hooks and metadata) rather than acting as a standalone coding assistant.
 placement:
-  primary_category: coding-agents
-  section: Terminal & CLI Agents
+  primary_category: ai-dev-extensions
+  section: Host Integrations & Automation
 lifecycle:
   status: promotion_candidate
   reason: Stars (1772) exceeded threshold (150)
 processing:
   categorize:
     status: done
-    updated_at: "2026-05-05T23:08:25.900Z"
+    updated_at: "2026-05-05T23:52:33.501Z"
     cause: null
     next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    attempts: 2
+    prompt_version: catalog-categorize-v4-examples
+    category_rules_version: bdad5a03fb5a
   discover:
     status: done
     updated_at: "2026-05-05T22:33:31.149Z"

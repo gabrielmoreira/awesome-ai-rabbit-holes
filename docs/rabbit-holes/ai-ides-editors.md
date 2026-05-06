@@ -1,6 +1,6 @@
-# AI IDEs and Editors
+# IDEs & Editors
 
-Editors and IDEs built around AI assistance.
+Development environments built around coding assistance.
 
 ## Tools & Resources
 

@@ -1,6 +1,6 @@
 id: github__minimax-ai__cli
 kind: github-repo
-name: cli
+name: mmx-cli
 canonical_url: https://github.com/minimax-ai/cli
 identity:
   github_repo: minimax-ai/cli
@@ -38,29 +38,38 @@ metadata:
       fetched_at: "2026-05-05T21:03:42.331Z"
       bytes: 5386
 insights:
-  summary: The official CLI for the MiniMax AI Platform, enabling generation of text, images, video, speech, and music from the terminal or AI agents.
-  why_it_matters: It provides a scriptable interface for developers to integrate multimodal content generation directly into agent workflows, CI pipelines, or local automation.
-  mental_damage: Now your CI pipeline can fail not just because of bad code, but because the robot couldn't synthesize a jazzy cover of your README.
+  summary: A command-line interface for the MiniMax API that generates text, images, video, speech, and music from the terminal.
+  why_it_matters: Developers building multimodal applications can script and test MiniMax's generative capabilities directly from their terminal without navigating a web UI.
+  mental_damage: "Just what the world needed: another CLI to generate video and music, ensuring your terminal remains the perfect place to procrastinate on actual code."
   tags:
+    - api-client
     - cli
-    - multimodal
+    - generation
     - minimax
-    - ai-agents
+    - multimodal
   confidence: high
 curation:
   status: included
-  reason: It is a developer-facing CLI tool designed specifically for use by AI agents and terminal users to generate multimodal content via the MiniMax platform.
+  reason: This is a provider-specific CLI and SDK for interacting with the MiniMax generative API, fitting the 'Provider / Model Abstractions' section of Frameworks & SDKs.
   evidence:
     - "Repo description states: 'Generate text, images, video, speech, and music by MiniMax.'"
-    - "README highlights: 'Built for AI agents. Generate text, images, video, speech, and music — from any agent or terminal.'"
-    - "Includes install command for agents: 'npx skills add MiniMax-AI/cli' for OpenClaw, Cursor, and Claude Code."
+    - The product is a CLI client for a specific AI model provider (MiniMax), not a coding assistant or orchestrator.
+    - Created recently (2026-03-25) with active pushes (2026-04-26) and 1657 stars.
 placement:
-  primary_category: coding-agents
-  section: Terminal & CLI Agents
+  primary_category: ai-frameworks
+  section: Provider / Model Abstractions
 lifecycle:
   status: promotion_candidate
   reason: Stars (1657) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T23:52:52.989Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
+    prompt_version: catalog-categorize-v4-examples
+    category_rules_version: bdad5a03fb5a
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.707Z"
@@ -71,11 +80,3 @@ processing:
     updated_at: "2026-05-05T21:03:42.331Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:38:10.957Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

@@ -1,6 +1,6 @@
 id: github__planetscale__cli
 kind: github-repo
-name: cli
+name: planetscale/mcp
 canonical_url: https://github.com/planetscale/cli
 identity:
   github_repo: planetscale/cli
@@ -59,16 +59,6 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (651) exceeded threshold (150)
 processing:
-  discover:
-    status: done
-    updated_at: "2026-05-05T19:41:00.713Z"
-    cause: null
-    next_retry_at: null
-  stars:
-    status: done
-    updated_at: "2026-05-05T23:08:06.914Z"
-    cause: null
-    next_retry_at: null
   categorize:
     status: deferred
     updated_at: "2026-05-05T23:08:33.635Z"
@@ -79,3 +69,13 @@ processing:
     attempts: 0
     prompt_version: catalog-categorize-v2-baseline
     category_rules_version: 1b6cc5462ecc
+  discover:
+    status: done
+    updated_at: "2026-05-05T19:41:00.713Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-05T23:08:06.914Z"
+    cause: null
+    next_retry_at: null

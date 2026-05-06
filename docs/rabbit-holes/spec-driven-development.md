@@ -1,6 +1,6 @@
 # Spec-Driven Development
 
-Environments and tooling where specifications are the primary artifact that drives planning, generation, validation, or repair.
+Tooling where specifications are the primary artifact for planning, validation, repair, or governance.
 
 ## Tools & Resources
 
@@ -114,6 +114,15 @@ _These are new or low-traffic entries being watched._
   _We have successfully formalized the process of arguing with a chatbot until it writes a YAML file that it will then mostly ignore._
 
   `contracts` `mcp` `spec-driven` `cli` `context`
+  </details>
+
+- **[Agentic Engineering Framework](https://github.com/dimitrigeelen/agentic-engineering-framework)** `⭐ 5` `updated ≤30d` A governance framework for AI coding agents that enforces task traceability, structural gates, session continuity, and audit trails across Claude Code, Cursor, and Copilot. <details><summary>More about</summary>
+
+  It provides a structured way to audit, trace, and govern AI-generated code changes in team environments where agent activity needs oversight.
+
+  _You now have a framework to govern the agents that are already ignoring your existing frameworks, which is meta-governance all the way down._
+
+  `governance` `audit-trail` `claude-code` `cursor` `copilot`
   </details>
 
 - **[colign](https://github.com/colign/colign)** `⭐ 2` `updated ≤30d` An open-source spec-driven development platform that enables teams to collaboratively write and review software specifications, featuring real-time co-editing and an MCP server for integration with AI coding tools like Claude Code and Cursor. <details><summary>More about</summary>

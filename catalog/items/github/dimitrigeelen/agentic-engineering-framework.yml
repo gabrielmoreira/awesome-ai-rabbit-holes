@@ -58,37 +58,38 @@ metadata:
       fetched_at: "2026-05-05T21:01:53.679Z"
       bytes: 15703
 insights:
-  summary: A governance framework that enforces task traceability, structural gates, and audit trails for AI coding agents like Claude Code, Cursor, and Copilot via CLI tooling and hooks.
-  why_it_matters: It replaces prompt-based 'please be careful' instructions with structural enforcement to prevent agents from making untraced edits, destructive git commands, or context-exhausting runs.
-  mental_damage: We have finally built the bureaucratic approval layer for our AI agents, proving that no matter how advanced the intelligence, it still eventually reports to a middle manager named fw.
+  summary: A governance framework for AI coding agents that enforces task traceability, structural gates, session continuity, and audit trails across Claude Code, Cursor, and Copilot.
+  why_it_matters: It provides a structured way to audit, trace, and govern AI-generated code changes in team environments where agent activity needs oversight.
+  mental_damage: You now have a framework to govern the agents that are already ignoring your existing frameworks, which is meta-governance all the way down.
   tags:
-    - agent-infrastructure
-    - audit-trail
-    - cli
     - governance
-  confidence: high
+    - audit-trail
+    - claude-code
+    - cursor
+    - copilot
+  confidence: medium
 curation:
   status: included
-  reason: It is a developer-facing extension that adds governance, gates, and audit infrastructure to existing coding agents rather than being a primary coding assistant itself.
+  reason: The project's core value is a spec/governance loop enforcing gates, traceability, and validation for coding agents rather than acting as the primary coding assistant itself.
   evidence:
-    - Repo description explicitly calls it a 'Governance framework for AI coding agents' with enforcement for Claude Code, Cursor, and Copilot.
-    - README demonstrates structural gates (task gates, Tier 0 destructive command blocks) and audit tooling that wrap existing agents.
-    - Listed in awesome-cli-coding-agents under 'Harnesses & orchestration > Agent infrastructure'.
+    - Repo description explicitly calls it a 'Governance framework for AI coding agents' with 'structural gates' and 'audit trails'.
+    - Topics include 'ai-governance', 'task-management', and 'workflow-automation', aligning with governance/validation.
+    - Created recently (2026-03-03) and actively pushed (2026-05-04), showing it is a live project despite low star count.
 placement:
-  primary_category: ai-dev-extensions
-  section: null
+  primary_category: spec-driven-development
+  section: Governance / Validation
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-05-05T21:16:26.919Z"
+    updated_at: "2026-05-05T23:56:08.247Z"
     cause: null
     next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    attempts: 2
+    prompt_version: catalog-categorize-v4-examples
+    category_rules_version: bdad5a03fb5a
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.685Z"

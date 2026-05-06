@@ -55,26 +55,26 @@ metadata:
       fetched_at: "2026-05-05T21:03:23.636Z"
       bytes: 52350
 insights:
-  summary: A local-first Python framework that lets AI agents like Claude Code and Cursor autonomously analyze and operate Google Ads, Meta Ads, Search Console, and GA4 accounts using a strategy file and a persistent knowledge base.
-  why_it_matters: It allows developers to hand off tedious ad-account diagnostics and optimizations to local agents while keeping credentials on their own machine and enforcing business logic via a STRATEGY.md file.
-  mental_damage: Yet another breakthrough proving that the singularity will be spent debugging OAuth flows so an agent can tell us we wasted ¥31,800 on our own brand terms.
+  summary: A local-first, safety-gated AI framework for automating ad operations across platforms like Google Ads and Meta Ads using coding assistants such as Claude Code, Codex, Cursor, and Gemini.
+  why_it_matters: It allows developers managing ad campaigns to orchestrate multi-agent workflows locally while enforcing safety gates on critical advertising actions.
+  mental_damage: Because nothing says 'local-first safety' like teaching your terminal agent how to unilaterally reallocate your ad budget at 3 AM.
   tags:
     - ad-ops
     - mcp
     - local-first
-    - marketing-automation
-    - cli
+    - multi-agent
+    - automation
   confidence: medium
 curation:
   status: included
-  reason: The project is an extension framework that augments existing coding agents (Claude Code, Cursor, Codex) with ad-operations capabilities, memory, and strategy-gated behavior rather than being a primary coding assistant itself.
+  reason: The project is a specialized orchestration framework for coordinating multiple AI agents (Claude Code, Cursor, etc.) to perform specific vertical tasks (ad ops) with safety gates, fitting the vertical orchestration definition.
   evidence:
-    - Repo description explicitly calls it a 'framework for Claude Code, Codex, Cursor & Gemini' rather than a standalone agent.
-    - README states it runs across hosts like Claude Code and Claude Desktop chat to let those agents operate ad accounts.
-    - Listed in awesome-mcp-servers under 'Marketing', confirming its role as an MCP-based extension/tooling layer.
+    - Repo description explicitly calls it a 'Local-first, safety-gated AI ad-ops framework' for multiple coding agents.
+    - Topics include 'agentic-ai', 'ai-agents', and 'marketing-automation', indicating a focus on coordinating agents for a specific workflow.
+    - Homepage is mureo.io, pointing to a distinct product rather than just a skill pack or simple extension.
 placement:
-  primary_category: ai-dev-extensions
-  section: null
+  primary_category: agent-orchestration
+  section: Vertical Orchestration Platforms
 lifecycle:
   status: incubating
   reason: null
@@ -91,9 +91,9 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:34:34.555Z"
+    updated_at: "2026-05-05T23:55:58.488Z"
     cause: null
     next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    attempts: 2
+    prompt_version: catalog-categorize-v4-examples
+    category_rules_version: bdad5a03fb5a

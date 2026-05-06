@@ -1,6 +1,6 @@
-# MCP Servers and Tooling
+# MCP Servers & Tooling
 
-Model Context Protocol servers, clients, registries, and tooling.
+Servers, clients, registries, and tooling for the Model Context Protocol.
 
 ## Tools & Resources
 
@@ -4202,13 +4202,13 @@ _These are new or low-traffic entries being watched._
   `mcp` `tiktok-ads` `marketing-api` `ad-automation`
   </details>
 
-- **[cli](https://github.com/endorhq/cli)** `⭐ 27` `updated ≤1y` Endor is a Node-based CLI that spins up instant, private, sandboxed environments for databases and services, exposing them to AI agents and IDEs via MCP. <details><summary>More about</summary>
+- **[endorhq/cli](https://github.com/endorhq/cli)** `⭐ 27` `updated ≤1y` Endor is a Node-based CLI that spins up instant, private, sandboxed environments for databases and services, exposing them to AI agents and IDEs via MCP. <details><summary>More about</summary>
 
   It lets agents safely provision their own ephemeral infrastructure dependencies like Postgres or Redis without polluting the host system or requiring manual Docker setup.
 
   _Your AI agent can now dynamically provision an entire infrastructure stack in seconds, ensuring it has plenty of new and exciting ways to corrupt its own database before you even see the PR._
 
-  `mcp` `cli` `sandbox` `local-dev` `agents`
+  `agents` `cli` `local-dev` `mcp` `sandbox`
   </details>
 
 - **[firma](https://github.com/evan-moon/firma)** `⭐ 27` `updated ≤30d` A local-first CLI portfolio tracker for overseas investors that includes a built-in MCP server so Claude can query, analyze, and visualize trade history stored in a local SQLite database. <details><summary>More about</summary>
