@@ -1,6 +1,6 @@
 id: github__cli__cli
 kind: github-repo
-name: cli
+name: GitHub Copilot CLI
 canonical_url: https://github.com/cli/cli
 identity:
   github_repo: cli/cli
@@ -46,8 +46,8 @@ insights:
   mental_damage: We now have an official CLI to manage the platform that hosts the AI agents that write the code we commit via the CLI.
   tags:
     - cli
-    - github
     - git
+    - github
     - terminal
   confidence: high
 curation:
@@ -64,6 +64,14 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (44222) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:13:22.008Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.682Z"
@@ -74,11 +82,3 @@ processing:
     updated_at: "2026-05-05T21:01:35.195Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:13:22.008Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

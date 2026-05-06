@@ -1,6 +1,6 @@
-# AI Frameworks and SDKs
+# Frameworks & SDKs
 
-Frameworks, SDKs, and code-first building blocks for embedding AI behavior into software.
+Code-first building blocks for embedding models, agents, or AI workflows into software.
 
 ## Tools & Resources
 
@@ -1253,6 +1253,15 @@ Frameworks, SDKs, and code-first building blocks for embedding AI behavior into 
   _Yet another platform promising to break down silos between every team in the building, as if a Kubernetes-backed workflow orchestrator is what was missing from your already fragile cocktail of MLOps tools._
 
   `ai-orchestration` `genai` `kubernetes` `mlops` `pipelines`
+  </details>
+
+- **[mmx-cli](https://github.com/minimax-ai/cli)** `⭐ 1.7k` `updated ≤30d` A command-line interface for the MiniMax API that generates text, images, video, speech, and music from the terminal. <details><summary>More about</summary>
+
+  Developers building multimodal applications can script and test MiniMax's generative capabilities directly from their terminal without navigating a web UI.
+
+  _Just what the world needed: another CLI to generate video and music, ensuring your terminal remains the perfect place to procrastinate on actual code._
+
+  `api-client` `cli` `generation` `minimax` `multimodal`
   </details>
 
 - **[AgentField](https://github.com/agent-field/agentfield)** `⭐ 1.6k` `updated ≤30d` AgentField is an open-source control plane and SDK for building, deploying, and scaling AI agents as callable API endpoints with built-in identity, memory, and audit trails. <details><summary>More about</summary>

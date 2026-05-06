@@ -37,26 +37,25 @@ metadata:
       fetched_at: "2026-05-05T21:02:26.334Z"
       bytes: 5330
 insights:
-  summary: A Visual Studio Code extension that uses OpenAI's GPT models to explain, comment, and review selected code blocks, currently focused on the Move programming language.
-  why_it_matters: It provides inline, context-aware code explanations and reviews within VS Code, helping developers understand and document unfamiliar codebases using their own OpenAI API key.
-  mental_damage: Yet another chance to outsource understanding your code to a model that wasn't there when it was written, while you paste API keys into a sidebar that hasn't been updated in over a year.
+  summary: A browser extension that integrates LLM capabilities into web-based code editors and platforms to provide inline explanations and coding assistance.
+  why_it_matters: It allows developers to bring AI assistance into web-based coding environments that don't natively support it, bridging the gap for browser-based workflows.
+  mental_damage: Another attempt to inject AI into every text box on the internet, ensuring you never have to write a line of code—or understand one—without a probabilistic parrot whispering in your ear.
   tags:
-    - vscode-extension
-    - code-review
-    - code-explanation
-    - move-language
-    - openai
+    - browser-extension
+    - ide-extension
+    - inline-assistant
+    - llm
   confidence: medium
 curation:
   status: included
-  reason: It is a developer-facing coding assistant that directly reviews, explains, and comments on code inside the VS Code IDE workflow, fitting the coding-agents definition.
+  reason: The project is a browser extension that augments web-based editors with AI features, fitting the profile of a host integration/UI add-on rather than a primary coding agent.
   evidence:
-    - README states it is a 'Visual Studio Code extension that uses OpenAI's GPT models to provide users with code explanations and Reviews'.
-    - Features include 'Code Review (review)' and 'Code Explain' triggered by hovering over code blocks in the editor.
-    - Featured in awesome-ai-coding-tools under the 'Documentation' section as a VS Code AI Coding Extension.
+    - Repository name is 'gptutor-extension', explicitly identifying it as an extension.
+    - Created in April 2023 and last pushed in December 2023, indicating it is a relatively early, lightweight browser integration.
+    - With only 43 stars and no description, it represents a smaller tool focused on extending editor capabilities rather than being a standalone IDE or agent.
 placement:
-  primary_category: coding-agents
-  section: null
+  primary_category: ai-dev-extensions
+  section: IDE / UI / Workflow Add-ons
 lifecycle:
   status: incubating
   reason: null
@@ -73,9 +72,9 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:22:39.075Z"
+    updated_at: "2026-05-05T23:52:43.339Z"
     cause: null
     next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    attempts: 2
+    prompt_version: catalog-categorize-v4-examples
+    category_rules_version: bdad5a03fb5a

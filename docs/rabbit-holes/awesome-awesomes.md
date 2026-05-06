@@ -1,6 +1,6 @@
-# Awesome Awesomes
+# Directories & Awesomes
 
-Awesome lists, meta-lists, indexes, maps, and other attempts to organize AI tooling rather than be the tool itself.
+Lists, maps, directories, and indexes for navigating AI tooling.
 
 ## Tools & Resources
 

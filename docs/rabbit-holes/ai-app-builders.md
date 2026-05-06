@@ -1,6 +1,6 @@
-# AI App Builders
+# App Builders
 
-Builder-style AI products that generate, assemble, or deploy whole apps, sites, internal tools, or local project scaffolds from prompts.
+Products that generate, assemble, or deploy apps, sites, internal tools, or project scaffolds from prompts.
 
 ## Tools & Resources
 

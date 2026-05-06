@@ -1,6 +1,6 @@
-# Prompting and Context Engineering
+# Context Engineering
 
-Prompt design, retrieval, memory, compression, and context-shaping systems for making models see the right information while everyone quietly begs for more tokens.
+Memory, retrieval, compression, and prompt-shaping systems for getting the right context in front of a model.
 
 ## Tools & Resources
 
@@ -96,6 +96,15 @@ _These are new or low-traffic entries being watched._
   _Just what your workflow needed: another layer of versioning, this time for the sentences you feed to the model until it stops lying to you._
 
   `experimentation` `llmops` `prompt-management` `python` `version-control`
+  </details>
+
+- **[cortex](https://github.com/cdeust/cortex)** `⭐ 26` `updated ≤30d` A persistent memory system for Claude Code backed by PostgreSQL and pgvector, incorporating neuroscience papers and biological mechanisms to improve long-term context retrieval. <details><summary>More about</summary>
+
+  It gives Claude Code a biologically-inspired long-term memory layer with strong benchmark results, reducing the friction of context loss across long coding sessions.
+
+  _We are now importing neuroscience papers and running ablation campaigns just to convince our coding assistant to remember what we were doing ten minutes ago._
+
+  `claude-code` `memory` `pgvector` `retrieval` `neuroscience`
   </details>
 
 - **[Hypersigil](https://github.com/hypersigilhq/hypersigil)** `⭐ 25` `updated ≤30d` A prompt management gateway with a UI that lets teams centrally store, test, refine, and hot-swap prompts across multiple AI providers without redeploying application code. <details><summary>More about</summary>

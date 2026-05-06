@@ -43,25 +43,26 @@ metadata:
       fetched_at: "2026-05-05T21:01:46.439Z"
       bytes: 15184
 insights:
-  summary: A CLI tool that provides full read/write control over Figma via terminal commands and JSX, enabling AI agents to create, modify, and style designs programmatically.
-  why_it_matters: It closes the loop for AI agents that can read designs but lack the ability to execute changes in Figma, allowing for programmatic UI generation and layout manipulation.
-  mental_damage: We have successfully automated the designer's job away, only to hand it to an LLM that will now debate the semantic correctness of a 'Frame' versus a 'Div' in JSX.
+  summary: A CLI tool that provides over 100 commands for read/write control of Figma files, enabling AI agents to create shapes, text, components, and export assets directly from the terminal.
+  why_it_matters: It bridges the gap between code-generating agents and design files, allowing automated workflows to modify UI elements without manual Figma interaction.
+  mental_damage: We have finally achieved the future where your AI agent can silently ruin your design system via a poorly escaped shell command at 3 AM.
   tags:
     - cli
     - figma
     - ai-agents
-    - design-automation
+    - automation
+    - design
   confidence: high
 curation:
   status: included
-  reason: This is a CLI tool designed specifically to allow coding agents and LLMs to interact with and modify a design codebase (Figma) via commands and JSX, fitting the model of an agent operating in a specific environment.
+  reason: The tool acts as a host integration that gives AI agents and automation scripts access to Figma capabilities via the command line, fitting the extension category.
   evidence:
-    - Repo description explicitly states 'Full read/write access for AI agents' with 100+ commands.
-    - README emphasizes 'LLMs know CLI' and 'JSX is how LLMs already think about UI' as the core integration points.
-    - Included in awesome-mcp-servers under 'Developer Tools', confirming its place in the agent tooling ecosystem.
+    - Repo description explicitly states 'Control Figma from the command line. Full read/write access for AI agents'.
+    - Topics include ai-agents, automation, cli, and figma, confirming its role as an integration layer.
+    - The tool provides 100+ commands for design manipulation rather than acting as a primary coding assistant.
 placement:
-  primary_category: coding-agents
-  section: Terminal & CLI Agents
+  primary_category: ai-dev-extensions
+  section: Host Integrations & Automation
 lifecycle:
   status: promotion_candidate
   reason: Stars (540) exceeded threshold (150)
@@ -78,9 +79,9 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:15:19.915Z"
+    updated_at: "2026-05-05T23:51:49.781Z"
     cause: null
     next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    attempts: 2
+    prompt_version: catalog-categorize-v4-examples
+    category_rules_version: bdad5a03fb5a

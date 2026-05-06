@@ -1,6 +1,6 @@
 id: github__endorhq__cli
 kind: github-repo
-name: cli
+name: endorhq/cli
 canonical_url: https://github.com/endorhq/cli
 identity:
   github_repo: endorhq/cli
@@ -42,11 +42,11 @@ insights:
   why_it_matters: It lets agents safely provision their own ephemeral infrastructure dependencies like Postgres or Redis without polluting the host system or requiring manual Docker setup.
   mental_damage: Your AI agent can now dynamically provision an entire infrastructure stack in seconds, ensuring it has plenty of new and exciting ways to corrupt its own database before you even see the PR.
   tags:
-    - mcp
-    - cli
-    - sandbox
-    - local-dev
     - agents
+    - cli
+    - local-dev
+    - mcp
+    - sandbox
   confidence: high
 curation:
   status: included
@@ -62,6 +62,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-05T21:18:01.463Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v2-baseline
+    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
     updated_at: "2026-05-05T19:41:00.686Z"
@@ -72,11 +80,3 @@ processing:
     updated_at: "2026-05-05T21:02:02.320Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:18:01.463Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

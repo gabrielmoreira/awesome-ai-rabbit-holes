@@ -1,4 +1,4 @@
-# Newsletters and Feeds
+# Newsletters & Feeds
 
 Newsletters, podcasts, and feeds for staying current with AI.
 
