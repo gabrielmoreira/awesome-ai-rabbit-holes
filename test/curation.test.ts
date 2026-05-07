@@ -5,7 +5,7 @@ import {
   markExcludedItemsPending,
   needsAIInsights,
 } from "../scripts/catalog.js";
-import { buildInsightPrompt, formatCategoryPromptEntries, parseAIInsightResponse } from "../scripts/catalog/categorize-prompt.js"
+import { buildInsightPrompt, parseAIInsightResponse } from "../scripts/catalog/categorize-prompt.js"
 import { renderRabbitHolePage, renderSiteCatalog } from "../scripts/catalog/render.js";
 import type { CatalogItem, Category } from "../scripts/catalog/types.js"
 
@@ -15,6 +15,13 @@ const CATEGORIES: Category[] = [
     name: "Coding Agents",
     slug: "coding-agents",
     description: "Tools for coding with AI.",
+    prompt: {
+      instructions: "Tools for coding with AI.",
+      use_when: ["The product directly writes or reviews code."],
+      do_not_use_when: ["It mainly augments another assistant."],
+      canonical_positives: ["Claude Code"],
+      common_false_positives: ["Cursor"],
+    },
     sections: ["Terminal & CLI Agents", "IDE-Native Assistants"],
   },
   {
@@ -22,6 +29,13 @@ const CATEGORIES: Category[] = [
     name: "AI Developer Extensions",
     slug: "ai-dev-extensions",
     description: "Add-ons, memory layers, and workflow boosters for AI developer tools.",
+    prompt: {
+      instructions: "Extensions that augment another assistant.",
+      use_when: ["The product adds memory, QA, or workflow capabilities to another assistant."],
+      do_not_use_when: ["The product itself is the main coding assistant."],
+      canonical_positives: ["Git AI"],
+      common_false_positives: ["Claude Code"],
+    },
     sections: ["Memory & Context Add-ons", "IDE / UI / Workflow Add-ons"],
   },
   {
@@ -29,14 +43,40 @@ const CATEGORIES: Category[] = [
     name: "AI Developer Skills",
     slug: "skills",
     description: "Reusable skill packs, command packs, and skill directories for AI developer tools.",
+    prompt: {
+      instructions: "Reusable skill packs and skill directories.",
+      use_when: ["The primary artifact is the skill content itself."],
+      do_not_use_when: ["The stronger identity is a broader platform or workflow system."],
+      canonical_positives: ["anthropics/skills"],
+      common_false_positives: ["cc-sdd"],
+    },
     sections: ["Skill Packs & Libraries", "Skill Registries & Directories"],
   },
-  { id: "mcp", name: "MCP Servers", slug: "mcp", description: "MCP tooling." },
+  {
+    id: "mcp",
+    name: "MCP Servers",
+    slug: "mcp",
+    description: "MCP tooling.",
+    prompt: {
+      instructions: "MCP must be the product identity.",
+      use_when: ["The product itself is MCP infrastructure."],
+      do_not_use_when: ["MCP is just a compatibility layer."],
+      canonical_positives: ["playwright-mcp"],
+      common_false_positives: ["apisix"],
+    },
+  },
   {
     id: "awesome-awesomes",
     name: "Awesome Awesomes",
     slug: "awesome-awesomes",
     description: "Curated maps and directories for navigating AI tooling.",
+    prompt: {
+      instructions: "Curated directories and indexes rather than individual tools.",
+      use_when: ["The main value is navigation or discovery."],
+      do_not_use_when: ["The product itself is a standalone tool."],
+      canonical_positives: ["awesome-ai-agents"],
+      common_false_positives: ["Chip Huyen"],
+    },
   },
 ];
 
@@ -97,17 +137,14 @@ function makeItem(overrides: Partial<CatalogItem> = {}): CatalogItem {
 }
 
 describe("AI curation prompt", () => {
-  it("includes credibility signals, category definitions, source context, and evidence fields", () => {
+  it("includes credibility signals, structured category definitions, and evidence fields", () => {
     const prompt = buildInsightPrompt({
       item: makeItem(),
-      categories: [
-        "coding-agents | Coding Agents | Tools for coding with AI.",
-        "mcp | MCP Servers | MCP tooling.",
-      ],
+      categories: [CATEGORIES[0]!, CATEGORIES[3]!],
       source_contexts: [
         "awesome-mcp-servers | purpose: curated MCP servers | section: Browser Automation",
       ],
-    } as any, { profile: "definition-first" });
+    });
 
     expect(prompt).toContain("Created at: 2024-01-01T00:00:00Z");
     expect(prompt).toContain("Coding Agents");
@@ -116,6 +153,10 @@ describe("AI curation prompt", () => {
     expect(prompt).toContain("decision_reason");
     expect(prompt).toContain("decision_evidence");
     expect(prompt).toContain('"section"');
+    expect(prompt).toContain("instructions:");
+    expect(prompt).toContain("canonical_positives:");
+    expect(prompt).toContain("common_false_positives:");
+    expect(prompt).toContain("contrastive_reason");
     expect(prompt).toMatch(/Primary product identity beats integration identity/i);
   });
 
@@ -146,24 +187,23 @@ describe("AI curation prompt", () => {
           ],
         } as any,
       }),
-      categories: ["awesome-awesomes | Awesome Awesomes | Curated maps and directories."],
-    } as any, { profile: "definition-first" });
+      categories: [CATEGORIES[4]!],
+    });
 
     expect(prompt).toContain("Direct awesome list source: yes");
     expect(prompt).toMatch(/shutdown\/sunsetting banner alone is not enough/i);
-    expect(prompt).toMatch(/prefer include under awesome-awesomes/i);
+    expect(prompt).toMatch(/prefer include under `awesome-awesomes`/i);
   });
 
-  it("formats section hints for the skills taxonomy and can omit them for baseline comparisons", () => {
-    const withSections = formatCategoryPromptEntries(CATEGORIES);
-    const withoutSections = formatCategoryPromptEntries(CATEGORIES, { includeSections: false });
-    const skillsWithSections = withSections.find((entry) => entry.startsWith("skills |"));
-    const skillsWithoutSections = withoutSections.find((entry) => entry.startsWith("skills |"));
+  it("renders structured sections for categories that define them", () => {
+    const prompt = buildInsightPrompt({
+      item: makeItem(),
+      categories: [CATEGORIES[2]!],
+    });
 
-    expect(skillsWithSections).toBeDefined();
-    expect(skillsWithoutSections).toBeDefined();
-    expect(skillsWithSections).toContain("sections: Skill Packs & Libraries; Skill Registries & Directories");
-    expect(skillsWithoutSections).not.toContain("sections:");
+    expect(prompt).toContain("sections:");
+    expect(prompt).toContain("Skill Packs & Libraries");
+    expect(prompt).toContain("Skill Registries & Directories");
   });
 
   it("parses inclusion decisions with evidence and optional sections", () => {
@@ -180,7 +220,8 @@ describe("AI curation prompt", () => {
         "Repo description says it is a developer-facing AI tool.",
         "Recent activity shows it is still maintained.",
       ],
-      category_candidates: ["coding-agents"],
+      category_candidates: ["coding-agents", "ai-dev-extensions"],
+      contrastive_reason: "Choose coding-agents over ai-dev-extensions because it directly handles repo work rather than augmenting another assistant.",
       confidence: "high",
     }));
 
@@ -222,7 +263,8 @@ describe("persistent AI curation", () => {
         section: "Terminal & CLI Agents",
         decision_reason: "Fits developer tooling and belongs in coding agents.",
         decision_evidence: ["Repo description says it is a developer-facing AI tool."],
-        category_candidates: ["coding-agents"],
+        category_candidates: ["coding-agents", "ai-dev-extensions"],
+        contrastive_reason: "Choose coding-agents over ai-dev-extensions because it directly handles repo work rather than augmenting another assistant.",
         confidence: "high",
       } as any,
       CATEGORIES,
@@ -251,7 +293,8 @@ describe("persistent AI curation", () => {
         section: "Skill Packs & Libraries",
         decision_reason: "The primary artifact is a reusable skill pack rather than a broader extension product.",
         decision_evidence: ["The source describes a reusable skills pack for AI developer tools."],
-        category_candidates: ["skills"],
+        category_candidates: ["skills", "ai-dev-extensions"],
+        contrastive_reason: "Choose skills over ai-dev-extensions because the distributed artifact is the reusable skill pack itself, not a host integration layer.",
         confidence: "high",
       } as any,
       CATEGORIES,
@@ -276,7 +319,8 @@ describe("persistent AI curation", () => {
         section: "Made Up Section",
         decision_reason: "Fits developer tooling and belongs in coding agents.",
         decision_evidence: ["Repo description says it is a developer-facing AI tool."],
-        category_candidates: ["coding-agents"],
+        category_candidates: ["coding-agents", "ai-dev-extensions"],
+        contrastive_reason: "Choose coding-agents over ai-dev-extensions because it directly handles repo work rather than augmenting another assistant.",
         confidence: "high",
       } as any,
       CATEGORIES,
@@ -302,7 +346,8 @@ describe("persistent AI curation", () => {
         primary_category: "coding-agents",
         decision_reason: "Fits developer tooling and belongs in coding agents.",
         decision_evidence: ["Repo description says it is a developer-facing AI tool."],
-        category_candidates: ["coding-agents"],
+        category_candidates: ["coding-agents", "ai-dev-extensions"],
+        contrastive_reason: "Choose coding-agents over ai-dev-extensions because it directly handles repo work rather than augmenting another assistant.",
         confidence: "high",
       } as any,
       CATEGORIES,
@@ -329,7 +374,8 @@ describe("persistent AI curation", () => {
         section: null,
         decision_reason: "Fits developer tooling and belongs in coding agents.",
         decision_evidence: ["Repo description says it is a developer-facing AI tool."],
-        category_candidates: ["coding-agents"],
+        category_candidates: ["coding-agents", "ai-dev-extensions"],
+        contrastive_reason: "Choose coding-agents over ai-dev-extensions because it directly handles repo work rather than augmenting another assistant.",
         confidence: "high",
       } as any,
       CATEGORIES,
@@ -353,6 +399,7 @@ describe("persistent AI curation", () => {
         decision_reason: "Too broad and not focused enough on developer tooling.",
         decision_evidence: ["Repo description frames it as a broad AI directory."],
         category_candidates: [],
+        contrastive_reason: null,
         confidence: "medium",
       } as any,
       CATEGORIES,
@@ -413,6 +460,7 @@ describe("persistent AI curation", () => {
         decision_reason: "Too broad for a developer-focused catalog.",
         decision_evidence: ["Repo description says it is a list of AI autonomous agents."],
         category_candidates: [],
+        contrastive_reason: null,
         confidence: "medium",
       } as any,
       CATEGORIES,

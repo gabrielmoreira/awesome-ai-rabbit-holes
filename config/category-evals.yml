@@ -96,19 +96,19 @@
     - coding-agents
   notes: Framework-first product despite orchestration-heavy marketing.
 
-- id: agent-orchestration__openwork
+- id: coding-agents__openwork
   item_id: github__different-ai__openwork
   suite: prompt-core
   fix_scope: prompt
   case_type: adversarial
   expected:
     include: true
-    primary_category: agent-orchestration
-    section: Workbenches & Collaboration Surfaces
+    primary_category: coding-agents
+    section: Browser/Desktop/Computer-Use Agents
   hard_negatives:
-    - coding-agents
+    - agent-orchestration
     - ai-frameworks
-  notes: Multi-surface orchestration platform should beat coding-agent framing.
+  notes: Local-first Claude Cowork alternative is a primary coding-agent surface, not an orchestration control plane.
 
 - id: mcp__playwright
   item_id: github__executeautomation__mcp-playwright
@@ -118,25 +118,25 @@
   expected:
     include: true
     primary_category: mcp
-    section: Generic Servers & Middleware
+    section: Domain Servers
   hard_negatives:
     - coding-agents
     - ai-dev-extensions
-  notes: Actual MCP server, not merely a tool that mentions MCP.
+  notes: Browser automation MCP server is still MCP infrastructure, but its browser-automation focus fits the domain-server section.
 
-- id: ai-dev-extensions__context-memory
+- id: context-engineering__context-memory
   item_id: github__erebusenigma__context-memory
   suite: prompt-core
   fix_scope: prompt
   case_type: adversarial
   expected:
     include: true
-    primary_category: ai-dev-extensions
-    section: Memory & Context Add-ons
+    primary_category: context-engineering
+    section: Memory / Compression / Distillation
   hard_negatives:
-    - coding-agents
+    - ai-dev-extensions
     - mcp
-  notes: Claude Code memory layer should be treated as an add-on, not the assistant.
+  notes: Claude Code memory layer should be treated as a context system, not as a thin host integration or MCP product.
 
 - id: ai-dev-extensions__tailtest-cline
   item_id: github__avansaber__tailtest-cline
@@ -165,6 +165,64 @@
     - coding-agents
     - mcp
   notes: Workflow/task layer for host assistants should count as an extension.
+
+- id: ai-dev-extensions__figma-use
+  item_id: github__dannote__figma-use
+  suite: prompt-core
+  fix_scope: prompt
+  case_type: adversarial
+  expected:
+    include: true
+    primary_category: ai-dev-extensions
+    section: Host Integrations & Automation
+  hard_negatives:
+    - coding-agents
+    - mcp
+  notes: Figma automation for agents extends the workflow but is not itself the coding assistant.
+
+- id: ai-dev-extensions__claude-debugs-for-you
+  item_id: github__jasonjmcghee__claude-debugs-for-you
+  suite: prompt-core
+  fix_scope: prompt
+  case_type: adversarial
+  expected:
+    include: true
+    primary_category: ai-dev-extensions
+    section: IDE / UI / Workflow Add-ons
+  hard_negatives:
+    - coding-agents
+    - mcp
+  notes: VS Code debugger bridge for Claude is an IDE add-on even though it also ships an MCP server.
+
+- id: ai-dev-extensions__git-ai
+  item_id: github__git-ai-project__git-ai
+  suite: prompt-core
+  fix_scope: prompt
+  case_type: adversarial
+  expected:
+    include: true
+    primary_category: ai-dev-extensions
+    section: IDE / UI / Workflow Add-ons
+  hard_negatives:
+    - coding-agents
+    - agent-orchestration
+  notes: Git attribution and provenance tooling augments existing coding workflows, so it belongs with workflow add-ons.
+
+- id: context-engineering__cortex
+  item_id: github__cdeust__cortex
+  suite: prompt-core
+  fix_scope: prompt
+  case_type: adversarial
+  expected:
+    include: true
+    primary_category: context-engineering
+    section: Memory / Compression / Distillation
+  hard_negatives:
+    - ai-dev-extensions
+    - mcp
+  notes: Memory/retrieval infrastructure with benchmarks should beat the thin host-addon interpretation.
+
+
 
 - id: context-engineering__context7
   item_id: context7__com
@@ -202,11 +260,11 @@
   expected:
     include: true
     primary_category: evals
-    section: Prompt Regression & Experimentation
+    section: Observability / Tracing / EvalOps
   hard_negatives:
     - agent-orchestration
     - ai-frameworks
-  notes: Prompt/eval platform should land in evals, not orchestration.
+  notes: Prompt/eval platform includes prompt management, but the dominant section is eval/observability ops rather than experimentation alone.
 
 - id: evals__agentbench
   item_id: github__agentbench__agentbench
@@ -230,11 +288,11 @@
   expected:
     include: true
     primary_category: local-ai
-    section: Local Runtimes
+    section: Local Serving / APIs
   hard_negatives:
     - ai-frameworks
     - coding-agents
-  notes: Local inference/runtime tooling belongs in local-ai.
+  notes: OpenAI-compatible local server support makes this a local serving/API case rather than a bare runtime bucket.
 
 - id: spec-driven__kiro
   item_id: kiro__dev
@@ -250,19 +308,19 @@
     - ai-ides-editors
   notes: Spec-driven environment should not collapse into a generic editor bucket.
 
-- id: spec-driven__forge
+- id: ai-dev-extensions__forge
   item_id: github__lucasduys__forge
   suite: prompt-core
   fix_scope: prompt
   case_type: adversarial
   expected:
     include: true
-    primary_category: spec-driven-development
-    section: Execution Loops & Repair
+    primary_category: ai-dev-extensions
+    section: IDE / UI / Workflow Add-ons
   hard_negatives:
     - coding-agents
     - agent-orchestration
-  notes: Autonomous spec-to-code loop should stay spec-driven, not generic coding-agent.
+  notes: Forge packages spec-driven automation into a Claude Code workflow extension, so the stronger identity is an IDE/workflow add-on rather than a standalone spec platform.
 
 - id: awesome-awesomes__coding-tools
   item_id: github__ai-for-developers__awesome-ai-coding-tools
@@ -286,11 +344,11 @@
   expected:
     include: true
     primary_category: newsletters-and-feeds
-    section: Newsletters & Feeds
+    section: null
   hard_negatives:
     - coding-agents
     - context-engineering
-  notes: Publication/feed case to keep media separate from tooling.
+  notes: Publication/feed case to keep recurring media separate from tooling; this category intentionally has no sections.
 
 - id: skills__qovery-skills
   item_id: github__qovery__qovery-skills
@@ -364,6 +422,48 @@
     - agent-orchestration
     - coding-agents
   notes: Framework-first despite orchestration-heavy discovery context.
+
+- id: mcp__registry
+  item_id: github__modelcontextprotocol__registry
+  suite: prompt-holdout
+  fix_scope: prompt
+  case_type: adversarial
+  expected:
+    include: true
+    primary_category: mcp
+    section: Registries & Discovery
+  hard_negatives:
+    - agent-orchestration
+    - awesome-awesomes
+  notes: Registry/API backbone for MCP discovery should stay in MCP, not drift toward orchestration because of source-list context.
+
+- id: context-engineering__hypersigil
+  item_id: github__hypersigilhq__hypersigil
+  suite: prompt-holdout
+  fix_scope: prompt
+  case_type: adversarial
+  expected:
+    include: true
+    primary_category: context-engineering
+    section: PromptOps / Prompt Management
+  hard_negatives:
+    - ai-frameworks
+    - evals
+  notes: Prompt lifecycle and hot-swap infrastructure should stay in context-engineering rather than framework or eval buckets.
+
+- id: spec-driven__spec-kit
+  item_id: github__github__spec-kit
+  suite: prompt-holdout
+  fix_scope: prompt
+  case_type: adversarial
+  expected:
+    include: true
+    primary_category: spec-driven-development
+    section: Spec-First Environments
+  hard_negatives:
+    - coding-agents
+    - ai-dev-extensions
+  notes: Spec-first toolkit and slash-command workflow should remain spec-driven rather than collapsing into generic assistants or host-side extensions.
 
 - id: redflag__devdocs_aux_link
   item_id: devdocs__io

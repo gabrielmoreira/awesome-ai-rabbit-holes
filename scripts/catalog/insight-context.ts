@@ -1,10 +1,4 @@
-import {
-  buildInsightPrompt,
-  DEFAULT_INSIGHT_PROMPT_PROFILE,
-  formatCategoryPromptEntries,
-  type AIInsightRequest,
-  type InsightPromptProfile,
-} from "./categorize-prompt.ts";
+import { buildInsightPrompt, type AIInsightRequest } from "./categorize-prompt.ts";
 import { readReadmeFromCache } from "./readme-cache.ts";
 import { loadSourceContextLinesForItem } from "./source-lists.ts";
 import { readWebsiteLinkResolution } from "./website-links.ts";
@@ -51,15 +45,11 @@ export function loadCatalogInsightContext(
 export function buildCatalogInsightPrompt(
   item: CatalogItem,
   categories: Category[],
-  options: { profile?: InsightPromptProfile; deps?: CatalogInsightPromptDeps } = {},
+  options: { deps?: CatalogInsightPromptDeps } = {},
 ): string {
-  const profile = options.profile ?? DEFAULT_INSIGHT_PROMPT_PROFILE;
-  return buildInsightPrompt(
-    {
-      item,
-      categories: formatCategoryPromptEntries(categories, { includeSections: profile !== "baseline-current" }),
-      ...loadCatalogInsightContext(item, options.deps),
-    },
-    { profile },
-  );
+  return buildInsightPrompt({
+    item,
+    categories,
+    ...loadCatalogInsightContext(item, options.deps),
+  });
 }

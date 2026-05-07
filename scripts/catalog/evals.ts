@@ -1,12 +1,5 @@
 import * as fs from "node:fs";
-import * as path from "node:path";
-import { applyAIInsights } from "./categorize.ts";
-import {
-  DEFAULT_EVAL_INSIGHT_PROMPT_PROFILES,
-  isInsightPromptProfile,
-  parseAIInsightResponse,
-  type InsightPromptProfile,
-} from "./categorize-prompt.ts";
+import { parseAIInsightResponse } from "./categorize-prompt.ts";
 import { loadCatalogItems, loadCategories } from "./data.ts";
 import { buildCatalogInsightPrompt } from "./insight-context.ts";
 import { runCatalogLlmPrompt, resolveCatalogLlmTimeoutMs } from "./llm-gateway.ts";
@@ -14,13 +7,13 @@ import { CACHE_DIR, CONFIG_DIR } from "../support/paths.ts";
 import { readYamlIfExists } from "../support/yaml.ts";
 import { isPiFreeRetryableError } from "../pi/models.ts";
 import type { CatalogItem } from "./types.ts";
+import { applyAIInsights } from "./categorize.ts";
 
-const CONFIG_CATEGORY_EVALS_PATH = path.join(CONFIG_DIR, "category-evals.yml");
-const EVALS_CACHE_DIR = path.join(CACHE_DIR, "evals");
-const LATEST_RESULTS_PATH = path.join(EVALS_CACHE_DIR, "catalog-prompt-evals.latest.json");
+const CONFIG_CATEGORY_EVALS_PATH = `${CONFIG_DIR}/category-evals.yml`;
+const EVALS_CACHE_DIR = `${CACHE_DIR}/evals`;
+const LATEST_RESULTS_PATH = `${EVALS_CACHE_DIR}/catalog-prompt-evals.latest.json`;
 
 export const DEFAULT_CATEGORY_EVAL_MODEL = "openrouter/tencent/hy3-preview:free";
-export const DEFAULT_CATEGORY_EVAL_PROFILES: InsightPromptProfile[] = [...DEFAULT_EVAL_INSIGHT_PROMPT_PROFILES];
 
 export type CategoryEvalSuite = "prompt-core" | "prompt-holdout" | "pipeline-redflags";
 export type CategoryEvalFixScope = "prompt" | "mixed" | "deterministic";
@@ -44,7 +37,6 @@ export type CategoryEvalCase = {
 
 export type CategoryEvalArgs = {
   models: string[];
-  profiles: InsightPromptProfile[];
   suites: CategoryEvalSuite[];
   caseIds: string[];
   limit: number | null;
@@ -83,7 +75,6 @@ type PromptEvalCaseResult = {
   itemId: string;
   suite: CategoryEvalSuite;
   expected: CategoryEvalCase["expected"];
-  profile: InsightPromptProfile;
   model: string;
   durationMs: number;
   prompt: string;
@@ -127,7 +118,6 @@ function requireNext(argv: string[], index: number, flag: string): string {
 
 export function parseCatalogEvalsArgs(argv: string[]): CategoryEvalArgs {
   const models: string[] = [];
-  const profiles: InsightPromptProfile[] = [];
   const suites: CategoryEvalSuite[] = [];
   const caseIds: string[] = [];
   let limit: number | null = null;
@@ -139,13 +129,6 @@ export function parseCatalogEvalsArgs(argv: string[]): CategoryEvalArgs {
 
     if (arg === "--model") {
       models.push(requireNext(argv, index, arg));
-      index += 1;
-      continue;
-    }
-    if (arg === "--profile") {
-      const profile = requireNext(argv, index, arg);
-      if (!isInsightPromptProfile(profile)) throw new Error(`Unknown prompt profile: ${profile}`);
-      profiles.push(profile);
       index += 1;
       continue;
     }
@@ -180,7 +163,6 @@ export function parseCatalogEvalsArgs(argv: string[]): CategoryEvalArgs {
 
   return {
     models: models.length > 0 ? [...new Set(models)] : [DEFAULT_CATEGORY_EVAL_MODEL],
-    profiles: profiles.length > 0 ? [...new Set(profiles)] : [...DEFAULT_CATEGORY_EVAL_PROFILES],
     suites: suites.length > 0 ? [...new Set(suites)] : [],
     caseIds: caseIds.length > 0 ? [...new Set(caseIds)] : [],
     limit,
@@ -314,7 +296,11 @@ function summarizePromptEvalRun(results: PromptEvalCaseResult[]): PromptEvalRunS
 
 export function classifyCategoryEvalErrorKind(message: string): CategoryEvalErrorKind {
   const trimmed = message.trim();
-  if (trimmed === "{" || trimmed === "```" || /Invalid AI response format|No JSON found|Missing required field|Invalid confidence value/i.test(message)) {
+  if (
+    trimmed === "{"
+    || trimmed === "```"
+    || /Invalid AI response format|No JSON found|Missing required field|Invalid confidence value|Included responses must|Excluded responses must/i.test(message)
+  ) {
     return "invalid_response";
   }
   if (isPiFreeRetryableError(message) || /timed out|aborted/i.test(message)) {
@@ -323,16 +309,14 @@ export function classifyCategoryEvalErrorKind(message: string): CategoryEvalErro
   return "execution_error";
 }
 
-
 async function runSinglePromptEvalCase(
   testCase: CategoryEvalCase,
   item: CatalogItem,
-  profile: InsightPromptProfile,
   model: string,
   categories: ReturnType<typeof loadCategories>,
   timeoutMs: number | null,
 ): Promise<PromptEvalCaseResult> {
-  const prompt = buildCatalogInsightPrompt(item, categories, { profile });
+  const prompt = buildCatalogInsightPrompt(item, categories);
 
   const startedAt = Date.now();
   try {
@@ -352,7 +336,6 @@ async function runSinglePromptEvalCase(
       itemId: item.id,
       suite: testCase.suite,
       expected: testCase.expected,
-      profile,
       model,
       durationMs: Date.now() - startedAt,
       prompt,
@@ -369,7 +352,6 @@ async function runSinglePromptEvalCase(
       caseId: testCase.id,
       itemId: item.id,
       suite: testCase.suite,
-      profile,
       expected: testCase.expected,
       model,
       durationMs: Date.now() - startedAt,
@@ -383,14 +365,9 @@ async function runSinglePromptEvalCase(
   }
 }
 
-function printRunSummary(
-  model: string,
-  profile: InsightPromptProfile,
-  summary: PromptEvalRunSummary,
-  results: PromptEvalCaseResult[],
-): void {
+function printRunSummary(model: string, summary: PromptEvalRunSummary, results: PromptEvalCaseResult[]): void {
   console.log(
-    `evals | model=${model} | profile=${profile} | pass=${summary.passed}/${summary.total} | exact=${summary.exactMatches} | acceptable=${summary.acceptableAlternativePasses} | hard=${summary.hardFailures} | invalid=${summary.invalidResponses} | infra=${summary.infraErrors} | exec=${summary.executionErrors}`,
+    `evals | model=${model} | pass=${summary.passed}/${summary.total} | exact=${summary.exactMatches} | acceptable=${summary.acceptableAlternativePasses} | hard=${summary.hardFailures} | invalid=${summary.invalidResponses} | infra=${summary.infraErrors} | exec=${summary.executionErrors}`,
   );
 
   for (const result of results) {
@@ -409,7 +386,7 @@ function printRunSummary(
 function writeEvalResults(results: unknown): string {
   fs.mkdirSync(EVALS_CACHE_DIR, { recursive: true });
   const timestamp = new Date().toISOString().replace(/[:.]/g, "-");
-  const timestampedPath = path.join(EVALS_CACHE_DIR, `catalog-prompt-evals.${timestamp}.json`);
+  const timestampedPath = `${EVALS_CACHE_DIR}/catalog-prompt-evals.${timestamp}.json`;
   const payload = JSON.stringify(results, null, 2);
   fs.writeFileSync(LATEST_RESULTS_PATH, payload, "utf8");
   fs.writeFileSync(timestampedPath, payload, "utf8");
@@ -436,28 +413,25 @@ export async function runEvals(argv: string[] = []): Promise<void> {
   }
 
   console.log(
-    `Running ${selectedCases.length} eval case(s) across ${args.profiles.length} profile(s) and ${args.models.length} model(s) using current on-disk fetched inputs.`,
+    `Running ${selectedCases.length} eval case(s) across ${args.models.length} model(s) using current on-disk fetched inputs.`,
   );
 
   const runOutputs: Array<{
     model: string;
-    profile: InsightPromptProfile;
     summary: PromptEvalRunSummary;
     results: PromptEvalCaseResult[];
   }> = [];
 
   for (const model of args.models) {
-    for (const profile of args.profiles) {
-      const results: PromptEvalCaseResult[] = [];
-      for (const testCase of selectedCases) {
-        const item = itemsById.get(testCase.item_id);
-        if (!item) continue;
-        results.push(await runSinglePromptEvalCase(testCase, item, profile, model, categories, args.timeoutMs));
-      }
-      const summary = summarizePromptEvalRun(results);
-      printRunSummary(model, profile, summary, results);
-      runOutputs.push({ model, profile, summary, results });
+    const results: PromptEvalCaseResult[] = [];
+    for (const testCase of selectedCases) {
+      const item = itemsById.get(testCase.item_id);
+      if (!item) continue;
+      results.push(await runSinglePromptEvalCase(testCase, item, model, categories, args.timeoutMs));
     }
+    const summary = summarizePromptEvalRun(results);
+    printRunSummary(model, summary, results);
+    runOutputs.push({ model, summary, results });
   }
 
   const writtenPath = writeEvalResults({
@@ -466,7 +440,6 @@ export async function runEvals(argv: string[] = []): Promise<void> {
     case_count: selectedCases.length,
     selected_case_ids: selectedCases.map((testCase) => testCase.id),
     models: args.models,
-    profiles: args.profiles,
     timeout_ms: args.timeoutMs ?? resolveCatalogLlmTimeoutMs(),
     outputs: runOutputs,
   });

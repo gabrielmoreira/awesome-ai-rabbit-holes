@@ -3,46 +3,21 @@
 // persisted curation decision for whether a project belongs in the catalog.
 
 import { isDirectAwesomeListSource } from "./core.ts";
-import { renderCatalogInsightPromptTemplate, type CatalogInsightPromptTemplateViewModel } from "./templates.ts";
+import {
+  renderCatalogInsightPromptTemplate,
+  type CatalogInsightPromptTemplateViewModel,
+} from "./templates.ts";
 import type { CatalogItem, Category } from "./types.ts";
-
-// ─── Types ────────────────────────────────────────────────────────────────────
-
-export type InsightPromptProfile = "baseline-current" | "definition-first" | "definition-with-examples";
-
-export const DEFAULT_INSIGHT_PROMPT_PROFILE: InsightPromptProfile = "baseline-current";
-export const DEFAULT_EVAL_INSIGHT_PROMPT_PROFILES: InsightPromptProfile[] = ["baseline-current", "definition-first"];
-
-export function isInsightPromptProfile(value: string): value is InsightPromptProfile {
-  return value === "baseline-current" || value === "definition-first" || value === "definition-with-examples";
-}
 
 export type AIInsightRequest = {
   item: Pick<CatalogItem, "name" | "canonical_url" | "metadata" | "provenance">;
-  /**
-   * Formatted category lines, e.g. `coding-agents | Coding Agents | Tools for
-   * coding with AI. | ... | sections: Terminal & CLI Agents; IDE-Native Assistants`.
-   */
-  categories: string[];
-  /**
-   * Optional context lines derived from deterministic source-list metadata,
-   * e.g. `awesome-mcp-servers | purpose: curated MCP servers | section: Browser Automation`.
-   */
+  categories: Array<Pick<Category, "id" | "name" | "description" | "slug" | "prompt" | "sections">>;
   source_contexts?: string[];
-  /**
-   * Optional scraped website context for non-GitHub tool pages. Lets the model
-   * reason about a site-backed tool even when there is no GitHub README.
-   */
   website_context?: {
     title?: string | null;
     description?: string | null;
     excerpt?: string | null;
   };
-  /**
-   * Optional README body. When provided, it is truncated to a bounded excerpt
-   * before being included in the prompt. Treat as "may be missing" — the
-   * prompt must still work using only repo metadata + source-list context.
-   */
   readme?: string | null;
 };
 
@@ -57,50 +32,15 @@ export type AIInsightResponse = {
   decision_reason: string;
   decision_evidence: string[];
   category_candidates: string[];
+  contrastive_reason: string | null;
   confidence: "high" | "medium" | "low";
 };
 
-// ─── Budget ───────────────────────────────────────────────────────────────────
-
-// Budget for the README excerpt sent to the model. ~6 KB ≈ ~1500 tokens, which
-// is enough for an intro + "What is this" + first feature section without
-// blowing up prompt size. The AI gets *substance*, not the whole repo.
 export const README_EXCERPT_MAX_CHARS = 6000;
 export const README_EXCERPT_MAX_LINES = 400;
-
 export const README_TRUNCATION_MARKER = "\n\n…[truncated]";
 
-// ─── Category formatting ──────────────────────────────────────────────────────
-
-export function formatCategoryPromptEntry(
-  category: Pick<Category, "id" | "name" | "description" | "slug" | "prompt_instruction" | "sections">,
-  options: { includeSections?: boolean } = {},
-): string {
-  const parts = [
-    category.id,
-    category.name,
-    category.description,
-    category.prompt_instruction ?? category.description,
-  ];
-  if (options.includeSections !== false && Array.isArray(category.sections) && category.sections.length > 0) {
-    parts.push(`sections: ${category.sections.join("; ")}`);
-  }
-  return parts.join(" | ");
-}
-
-export function formatCategoryPromptEntries(
-  categories: Array<Pick<Category, "id" | "name" | "description" | "slug" | "prompt_instruction" | "sections">>,
-  options: { includeSections?: boolean } = {},
-): string[] {
-  return categories.map((category) => formatCategoryPromptEntry(category, options));
-}
-
-// ─── Prompt ───────────────────────────────────────────────────────────────────
-
-function buildInsightPromptViewModel(
-  request: AIInsightRequest,
-  profile: InsightPromptProfile,
-): CatalogInsightPromptTemplateViewModel {
+function buildInsightPromptViewModel(request: AIInsightRequest): CatalogInsightPromptTemplateViewModel {
   const { item } = request;
   const github = item.metadata.github;
   const sourceContextLines = request.source_contexts ?? [];
@@ -114,7 +54,6 @@ function buildInsightPromptViewModel(
     : "";
 
   return {
-    profile,
     item: {
       name: item.name,
       url: item.canonical_url,
@@ -128,7 +67,20 @@ function buildInsightPromptViewModel(
       homepage: github.homepage ?? "(none)",
       directAwesomeList: isDirectAwesomeListSource(item) ? "yes" : "no",
     },
-    categoryLines: request.categories,
+    categories: request.categories.map((category) => ({
+      id: category.id,
+      name: category.name,
+      description: category.description,
+      prompt: {
+        instructions: category.prompt.instructions,
+        use_when: [...category.prompt.use_when],
+        do_not_use_when: [...category.prompt.do_not_use_when],
+        canonical_positives: [...category.prompt.canonical_positives],
+        common_false_positives: [...category.prompt.common_false_positives],
+      },
+      hasSections: Array.isArray(category.sections) && category.sections.length > 0,
+      sections: category.sections ?? [],
+    })),
     hasSourceContext: sourceContextLines.length > 0,
     sourceContextLines,
     hasWebsiteContext,
@@ -141,27 +93,8 @@ function buildInsightPromptViewModel(
   };
 }
 
-function buildBaselinePrompt(request: AIInsightRequest): string {
-  return renderCatalogInsightPromptTemplate(buildInsightPromptViewModel(request, "baseline-current"));
-}
-
-function buildDefinitionPrompt(request: AIInsightRequest, includeExamples: boolean): string {
-  return renderCatalogInsightPromptTemplate(
-    buildInsightPromptViewModel(
-      request,
-      includeExamples ? "definition-with-examples" : "definition-first",
-    ),
-  );
-}
-
-export function buildInsightPrompt(
-  request: AIInsightRequest,
-  options: { profile?: InsightPromptProfile } = {},
-): string {
-  const profile = options.profile ?? DEFAULT_INSIGHT_PROMPT_PROFILE;
-  if (profile === "baseline-current") return buildBaselinePrompt(request);
-  if (profile === "definition-with-examples") return buildDefinitionPrompt(request, true);
-  return buildDefinitionPrompt(request, false);
+export function buildInsightPrompt(request: AIInsightRequest): string {
+  return renderCatalogInsightPromptTemplate(buildInsightPromptViewModel(request));
 }
 
 /**
@@ -183,7 +116,6 @@ export function truncateReadmeForPrompt(
   if (lineLimited.length <= maxChars) return lineLimited;
 
   const slice = lineLimited.slice(0, maxChars);
-  // Don't cut so close to the start that we throw away most of the README.
   const minKeep = Math.floor(maxChars * 0.5);
   let cutAt = -1;
   const headingMatch = slice.lastIndexOf("\n## ");
@@ -197,16 +129,14 @@ export function truncateReadmeForPrompt(
   return body.trimEnd() + README_TRUNCATION_MARKER;
 }
 
-// ─── Response parsing ─────────────────────────────────────────────────────────
-
 export function parseAIInsightResponse(raw: string): AIInsightResponse {
   let parsed: unknown;
   try {
     const jsonMatch = raw.match(/\{[\s\S]*\}/);
     if (!jsonMatch) throw new Error("No JSON found in AI response");
     parsed = JSON.parse(jsonMatch[0]);
-  } catch (e) {
-    throw new Error(`Invalid AI response format: ${e}`);
+  } catch (error) {
+    throw new Error(`Invalid AI response format: ${error}`);
   }
 
   const obj = parsed as Record<string, unknown>;
@@ -223,10 +153,11 @@ export function parseAIInsightResponse(raw: string): AIInsightResponse {
     throw new Error("Invalid field: section");
   }
   if (typeof obj.decision_reason !== "string") throw new Error("Missing required field: decision_reason");
-  if (!Array.isArray(obj.decision_evidence)) {
-    throw new Error("Missing required field: decision_evidence");
-  }
+  if (!Array.isArray(obj.decision_evidence)) throw new Error("Missing required field: decision_evidence");
   if (!Array.isArray(obj.category_candidates)) throw new Error("Missing required field: category_candidates");
+  if (!(typeof obj.contrastive_reason === "string" || obj.contrastive_reason === null)) {
+    throw new Error("Missing required field: contrastive_reason");
+  }
 
   const confidence = obj.confidence as string;
   if (!["high", "medium", "low"].includes(confidence)) {
@@ -240,20 +171,52 @@ export function parseAIInsightResponse(raw: string): AIInsightResponse {
     throw new Error("Missing required field: decision_evidence");
   }
 
+  const categoryCandidates = [...new Set(
+    (obj.category_candidates as unknown[])
+      .map((value) => String(value).trim().toLowerCase())
+      .filter((value) => value.length > 0),
+  )];
+
   const hasSection = Object.hasOwn(obj, "section");
   const section = typeof obj.section === "string" ? obj.section.trim() : null;
+  const contrastiveReason = typeof obj.contrastive_reason === "string"
+    ? obj.contrastive_reason.trim()
+    : null;
+
+  if (obj.should_include) {
+    if (categoryCandidates.length !== 2) {
+      throw new Error("Included responses must provide exactly two ranked category_candidates");
+    }
+    if (typeof obj.primary_category !== "string" || obj.primary_category.trim().length === 0) {
+      throw new Error("Included responses must provide primary_category");
+    }
+    if (categoryCandidates[0] !== obj.primary_category.trim().toLowerCase()) {
+      throw new Error("Included responses must rank primary_category first in category_candidates");
+    }
+    if (!contrastiveReason || !/^Choose\s+/.test(contrastiveReason)) {
+      throw new Error("Included responses must provide contrastive_reason starting with 'Choose '");
+    }
+  } else {
+    if (categoryCandidates.length > 0) {
+      throw new Error("Excluded responses must use an empty category_candidates list");
+    }
+    if (contrastiveReason !== null) {
+      throw new Error("Excluded responses must set contrastive_reason to null");
+    }
+  }
 
   return {
     summary: obj.summary as string,
     why_it_matters: obj.why_it_matters as string,
     mental_damage: obj.mental_damage as string,
-    tags: (obj.tags as unknown[]).map((t) => String(t).toLowerCase().replace(/\s+/g, "-")),
+    tags: (obj.tags as unknown[]).map((tag) => String(tag).toLowerCase().replace(/\s+/g, "-")),
     should_include: obj.should_include as boolean,
-    primary_category: obj.primary_category as string | null,
+    primary_category: typeof obj.primary_category === "string" ? obj.primary_category.trim().toLowerCase() : null,
     ...(hasSection ? { section: section && section.length > 0 ? section : null } : {}),
     decision_reason: (obj.decision_reason as string).trim(),
     decision_evidence: decisionEvidence,
-    category_candidates: obj.category_candidates as string[],
+    category_candidates: categoryCandidates,
+    contrastive_reason: contrastiveReason,
     confidence: confidence as "high" | "medium" | "low",
   };
 }

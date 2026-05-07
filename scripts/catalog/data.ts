@@ -6,7 +6,7 @@ import {
   CONFIG_CATEGORIES_PATH,
   CONFIG_SOURCES_PATH,
 } from "../support/paths.ts";
-import type { CatalogItem, Category, Source } from "./types.ts";
+import type { CatalogItem, Category, CategoryPrompt, Source } from "./types.ts";
 import { readYaml, readYamlIfExists, writeYaml } from "../support/yaml.ts";
 
 function readYamlList(filePath: string, label: string): unknown[] {
@@ -39,6 +39,29 @@ function requireNonEmptyString(value: unknown, path: string): string {
   return value.trim();
 }
 
+function requireNonEmptyStringList(value: unknown, path: string): string[] {
+  if (!Array.isArray(value) || value.length === 0) {
+    throw new Error(`Validation error: ${path} must be a YAML list of non-empty strings.`);
+  }
+
+  return value.map((entry, index) => requireNonEmptyString(entry, `${path}[${index}]`));
+}
+
+function normalizeLoadedCategoryPrompt(raw: unknown, pathPrefix: string): CategoryPrompt {
+  const prompt = raw && typeof raw === "object" && !Array.isArray(raw) ? (raw as Record<string, unknown>) : null;
+  if (!prompt) {
+    throw new Error(`Validation error: ${pathPrefix}.prompt must be a YAML mapping.`);
+  }
+
+  return {
+    instructions: requireNonEmptyString(prompt.instructions, `${pathPrefix}.prompt.instructions`),
+    use_when: requireNonEmptyStringList(prompt.use_when, `${pathPrefix}.prompt.use_when`),
+    do_not_use_when: requireNonEmptyStringList(prompt.do_not_use_when, `${pathPrefix}.prompt.do_not_use_when`),
+    canonical_positives: requireNonEmptyStringList(prompt.canonical_positives, `${pathPrefix}.prompt.canonical_positives`),
+    common_false_positives: requireNonEmptyStringList(prompt.common_false_positives, `${pathPrefix}.prompt.common_false_positives`),
+  };
+}
+
 function normalizeLoadedCategory(raw: unknown, index: number, filePath: string): Category {
   const pathPrefix = `${filePath} categories[${index}]`;
   const category = raw && typeof raw === "object" && !Array.isArray(raw) ? (raw as Record<string, unknown>) : null;
@@ -49,12 +72,7 @@ function normalizeLoadedCategory(raw: unknown, index: number, filePath: string):
   const sectionsRaw = category.sections;
   let sections: string[] | undefined;
   if (sectionsRaw !== undefined) {
-    if (!Array.isArray(sectionsRaw)) {
-      throw new Error(`Validation error: ${pathPrefix}.sections must be a YAML list of non-empty strings.`);
-    }
-    const normalizedSections = sectionsRaw.map((section, sectionIndex) =>
-      requireNonEmptyString(section, `${pathPrefix}.sections[${sectionIndex}]`)
-    );
+    const normalizedSections = requireNonEmptyStringList(sectionsRaw, `${pathPrefix}.sections`);
     const seenSections = new Set<string>();
     for (const section of normalizedSections) {
       const normalizedKey = section.toLowerCase();
@@ -71,7 +89,7 @@ function normalizeLoadedCategory(raw: unknown, index: number, filePath: string):
     name: requireNonEmptyString(category.name, `${pathPrefix}.name`),
     slug: requireNonEmptyString(category.slug, `${pathPrefix}.slug`),
     description: requireNonEmptyString(category.description, `${pathPrefix}.description`),
-    prompt_instruction: requireNonEmptyString(category.prompt_instruction, `${pathPrefix}.prompt_instruction`),
+    prompt: normalizeLoadedCategoryPrompt(category.prompt, pathPrefix),
     ...(sections ? { sections } : {}),
   };
 }
@@ -146,7 +164,6 @@ export function loadCatalogItems(): CatalogItem[] {
     (filePath) => normalizeLoadedItem(readYaml<any>(filePath)),
   );
 }
-
 
 export function saveCatalogItem(item: CatalogItem): void {
   writeYaml(makeItemPath(item.canonical_url), item);

@@ -8,14 +8,6 @@ const TEMPLATE_ENV = new Environment(null, {
 
 const TEMPLATE_CACHE = new Map<string, string>();
 
-const PROMPT_TEMPLATE_FILES = {
-  "baseline-current": "categorize-baseline-current.njk",
-  "definition-first": "categorize-definition.njk",
-  "definition-with-examples": "categorize-definition.njk",
-} as const;
-
-export type InsightPromptTemplateProfile = keyof typeof PROMPT_TEMPLATE_FILES;
-
 export type CatalogReadmeTemplateViewModel = {
   rabbitHoles: Array<{
     name: string;
@@ -51,8 +43,22 @@ export type CatalogCategoryPageTemplateViewModel = {
   isEmpty: boolean;
 };
 
+export type CatalogInsightPromptCategoryTemplateViewModel = {
+  id: string;
+  name: string;
+  description: string;
+  prompt: {
+    instructions: string;
+    use_when: string[];
+    do_not_use_when: string[];
+    canonical_positives: string[];
+    common_false_positives: string[];
+  };
+  hasSections: boolean;
+  sections: string[];
+};
+
 export type CatalogInsightPromptTemplateViewModel = {
-  profile: InsightPromptTemplateProfile;
   item: {
     name: string;
     url: string;
@@ -66,7 +72,7 @@ export type CatalogInsightPromptTemplateViewModel = {
     homepage: string;
     directAwesomeList: string;
   };
-  categoryLines: string[];
+  categories: CatalogInsightPromptCategoryTemplateViewModel[];
   hasSourceContext: boolean;
   sourceContextLines: string[];
   hasWebsiteContext: boolean;
@@ -83,12 +89,11 @@ export function resolveCatalogTemplateFileUrl(fileName: string): URL {
 }
 
 function readTemplateFile(fileName: string): string {
-  const cacheKey = fileName;
-  const cached = TEMPLATE_CACHE.get(cacheKey);
+  const cached = TEMPLATE_CACHE.get(fileName);
   if (cached) return cached;
 
   const template = fs.readFileSync(resolveCatalogTemplateFileUrl(fileName), "utf8");
-  TEMPLATE_CACHE.set(cacheKey, template);
+  TEMPLATE_CACHE.set(fileName, template);
   return template;
 }
 
@@ -97,16 +102,13 @@ function renderTemplateFile<TViewModel extends object>(fileName: string, viewMod
 }
 
 export function renderCatalogReadmeTemplate(viewModel: CatalogReadmeTemplateViewModel): string {
-  return `${renderTemplateFile("readme.njk", viewModel).trimEnd()}\n`;
+  return `${renderTemplateFile("docs-readme.njk", viewModel).trimEnd()}\n`;
 }
 
 export function renderCatalogCategoryPageTemplate(viewModel: CatalogCategoryPageTemplateViewModel): string {
-  return renderTemplateFile("category-page.njk", viewModel).trimEnd();
+  return renderTemplateFile("docs-category-page.njk", viewModel).trimEnd();
 }
 
 export function renderCatalogInsightPromptTemplate(viewModel: CatalogInsightPromptTemplateViewModel): string {
-  return renderTemplateFile(PROMPT_TEMPLATE_FILES[viewModel.profile], {
-    ...viewModel,
-    includeExamples: viewModel.profile === "definition-with-examples",
-  }).trimEnd();
+  return renderTemplateFile("prompt-categorize.njk", viewModel).trimEnd();
 }

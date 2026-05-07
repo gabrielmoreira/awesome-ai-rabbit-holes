@@ -16,14 +16,26 @@ const CATEGORIES: Category[] = [
     name: "Coding Agents",
     slug: "coding-agents",
     description: "Tools that write or review code for developers.",
-    prompt_instruction: "Developer-facing coding tools, agentic coding systems, or code review helpers.",
+    prompt: {
+      instructions: "Developer-facing coding tools, agentic coding systems, or code review helpers.",
+      use_when: ["The product directly handles repo work for the developer."],
+      do_not_use_when: ["It is mainly an app builder or extension."],
+      canonical_positives: ["Claude Code"],
+      common_false_positives: ["Cursor"],
+    },
   },
   {
     id: "app-builders",
     name: "AI App Builders",
     slug: "ai-app-builders",
     description: "Hosted prompt-to-app or prompt-to-site builders.",
-    prompt_instruction: "Browser-first SaaS products that generate apps or sites from prompts rather than collaborating on a source repo.",
+    prompt: {
+      instructions: "Browser-first SaaS products that generate apps or sites from prompts rather than collaborating on a source repo.",
+      use_when: ["The main surface creates a new app or site from prompts."],
+      do_not_use_when: ["The product helps edit an existing repo."],
+      canonical_positives: ["base44"],
+      common_false_positives: ["Claude Code"],
+    },
   },
 ];
 
@@ -411,7 +423,8 @@ describe("categorize command contract", () => {
             primary_category: "coding-agents",
             decision_reason: "It fits a direct coding workflow.",
             decision_evidence: ["Repo metadata describes a coding workflow."],
-            category_candidates: ["coding-agents"],
+            category_candidates: ["coding-agents", "app-builders"],
+            contrastive_reason: "Choose coding-agents over app-builders because the product collaborates on repo work rather than generating a new app from prompts.",
             confidence: "high",
           });
         },
@@ -515,7 +528,8 @@ describe("categorize command contract", () => {
           primary_category: "app-builders",
           decision_reason: "Fresh fit.",
           decision_evidence: ["Fresh evidence."],
-          category_candidates: ["app-builders"],
+          category_candidates: ["app-builders", "coding-agents"],
+          contrastive_reason: "Choose app-builders over coding-agents because the main surface generates apps from prompts instead of helping edit an existing repo.",
           confidence: "high",
         });
       },
@@ -633,6 +647,7 @@ describe("categorize command contract", () => {
         decision_reason: "It generates production-ready apps from prompts.",
         decision_evidence: ["Discovery source groups it under App Builders."],
         category_candidates: ["coding-agents", "app-builders"],
+        contrastive_reason: "Choose coding-agents over app-builders because the product still behaves like a coding assistant for an existing repo.",
         confidence: "medium",
       },
       CATEGORIES,
